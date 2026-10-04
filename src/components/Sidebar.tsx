@@ -1,0 +1,439 @@
+import { useState, useEffect } from 'react';
+import {
+  ChevronDown,
+  ChevronRight,
+  Check,
+  Play,
+  PanelLeftClose,
+  PanelLeft,
+  Calendar,
+  BookOpen,
+  Brain,
+  FileText,
+  X,
+  Users,
+  RefreshCw,
+} from 'lucide-react';
+import type { SubjectArea, ProgressMap } from '@/types';
+import { isLessonCompleted } from '@/types';
+import { getIcon } from '@/lib/icons';
+import { SantiSoftLogo } from '@/components/Logo';
+import type { Profile } from '@/lib/supabase';
+
+interface SidebarProps {
+  curriculum: SubjectArea[];
+  selectedLessonId: string | null;
+  progress: ProgressMap;
+  onSelectLesson: (areaId: string, moduleId: string, lessonId: string) => void;
+  onSelectCronograma: () => void;
+  onSelectQuestoes: () => void;
+  onSelectMentor?: () => void;
+  onSelectCasalMed?: () => void;
+  isCronogramaActive: boolean;
+  isQuestoesActive: boolean;
+  isMentorActive?: boolean;
+  isCasalMedActive?: boolean;
+  collapsed: boolean;
+  onToggleCollapse: () => void;
+  isMobileDrawer?: boolean;
+  onCloseMobileDrawer?: () => void;
+  activeProfile?: Profile | null;
+  onSwitchProfile?: () => void;
+}
+
+export function Sidebar({
+  curriculum,
+  selectedLessonId,
+  progress,
+  onSelectLesson,
+  onSelectCronograma,
+  onSelectQuestoes,
+  onSelectMentor,
+  onSelectCasalMed,
+  isCronogramaActive,
+  isQuestoesActive,
+  isMentorActive,
+  isCasalMedActive,
+  collapsed,
+  onToggleCollapse,
+  isMobileDrawer,
+  onCloseMobileDrawer,
+  activeProfile,
+  onSwitchProfile,
+}: SidebarProps) {
+  // Estado inicial rigorosamente FECHADO por padrão (sem áreas ou módulos pré-expandidos)
+  const [expandedAreas, setExpandedAreas] = useState<Set<string>>(() => new Set());
+  const [expandedModules, setExpandedModules] = useState<Set<string>>(() => new Set());
+
+  // Limpa explicitamente quaisquer chaves antigas de persistência de áreas expandidas caso existam no LocalStorage
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.removeItem('santisoft_expanded_areas');
+        localStorage.removeItem('santisoft_expanded_modules');
+        localStorage.removeItem('santisoft_sidebar_areas');
+      } catch {
+        // ignora erro silenciosamente
+      }
+    }
+  }, []);
+
+  // Garante que, ao alternar para Cronograma, Banco de Questões ou Mentor, as Grandes Áreas voltem a ficar 100% recolhidas/fechadas
+  useEffect(() => {
+    if (isCronogramaActive || isQuestoesActive || isMentorActive || isCasalMedActive) {
+      setExpandedAreas(new Set());
+      setExpandedModules(new Set());
+    }
+  }, [isCronogramaActive, isQuestoesActive, isMentorActive, isCasalMedActive]);
+
+  const toggleArea = (areaId: string) => {
+    setExpandedAreas((prev) => {
+      const next = new Set(prev);
+      if (next.has(areaId)) next.delete(areaId);
+      else next.add(areaId);
+      return next;
+    });
+  };
+
+  const toggleModule = (moduleId: string) => {
+    setExpandedModules((prev) => {
+      const next = new Set(prev);
+      if (next.has(moduleId)) next.delete(moduleId);
+      else next.add(moduleId);
+      return next;
+    });
+  };
+
+  // Collapsed Sidebar (Desktop Only)
+  if (collapsed && !isMobileDrawer) {
+    return (
+      <aside className="flex flex-col items-center gap-3 bg-ink-900 border-r border-ink-875 py-4 px-2 w-14 shrink-0 h-full">
+        <button
+          onClick={onToggleCollapse}
+          className="p-2 rounded-xl hover:bg-ink-850 text-zinc-400 hover:text-white transition-colors"
+          aria-label="Expandir barra lateral"
+        >
+          <PanelLeft className="w-5 h-5" />
+        </button>
+        <button
+          onClick={onSelectCronograma}
+          className={`p-2 rounded-xl transition-colors ${
+            isCronogramaActive
+              ? 'bg-red-600/15 text-red-500'
+              : 'text-zinc-400 hover:text-red-500 hover:bg-ink-850'
+          }`}
+          title="Cronograma"
+        >
+          <Calendar className="w-5 h-5" />
+        </button>
+        <button
+          onClick={onSelectQuestoes}
+          className={`p-2 rounded-xl transition-colors ${
+            isQuestoesActive
+              ? 'bg-red-600/15 text-red-500'
+              : 'text-zinc-400 hover:text-red-500 hover:bg-ink-850'
+          }`}
+          title="Banco de Questões"
+        >
+          <BookOpen className="w-5 h-5" />
+        </button>
+        {onSelectMentor && (
+          <button
+            onClick={onSelectMentor}
+            className={`p-2 rounded-xl transition-colors ${
+              isMentorActive
+                ? 'bg-red-600/15 text-red-500'
+                : 'text-zinc-400 hover:text-red-500 hover:bg-ink-850'
+            }`}
+            title="Mentor Inteligente"
+          >
+            <Brain className="w-5 h-5" />
+          </button>
+        )}
+        {onSelectCasalMed && (
+          <button
+            onClick={onSelectCasalMed}
+            className={`p-2 rounded-xl transition-colors ${
+              isCasalMedActive
+                ? 'bg-red-600/15 text-red-500'
+                : 'text-zinc-400 hover:text-red-500 hover:bg-ink-850'
+            }`}
+            title="CASALMED"
+          >
+            <FileText className="w-5 h-5" />
+          </button>
+        )}
+        <div className="w-8 border-t border-ink-875 my-1" />
+        <div className="flex-1 overflow-y-auto scrollbar-thin space-y-2 no-scrollbar">
+          {curriculum.map((area) => {
+            const Icon = getIcon(area.icon);
+            return (
+              <button
+                key={area.id}
+                onClick={() => {
+                  setExpandedAreas(new Set([area.id]));
+                  onToggleCollapse();
+                }}
+                className="p-2 rounded-xl hover:bg-ink-850 text-zinc-400 hover:text-red-500 transition-colors block"
+                title={area.name}
+              >
+                <Icon className="w-5 h-5" />
+              </button>
+            );
+          })}
+        </div>
+      </aside>
+    );
+  }
+
+  return (
+    <aside
+      className={`flex flex-col bg-ink-900 border-r border-ink-875 shrink-0 h-full ${
+        isMobileDrawer
+          ? 'w-full max-w-[85vw] sm:max-w-sm safe-top safe-bottom shadow-2xl z-50'
+          : 'w-64 animate-slide-in'
+      }`}
+    >
+      {/* Sidebar Header */}
+      <div className="flex items-center justify-between px-4 h-14 sm:h-16 border-b border-ink-875 shrink-0">
+        <SantiSoftLogo size={32} showText={true} />
+
+        {isMobileDrawer ? (
+          <button
+            onClick={onCloseMobileDrawer}
+            className="p-3 min-w-[44px] min-h-[44px] rounded-xl bg-ink-850 hover:bg-ink-800 flex items-center justify-center text-zinc-300 hover:text-white active:scale-95 transition-all shadow-sm"
+            aria-label="Fechar gaveta"
+            title="Fechar menu"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        ) : (
+          <button
+            onClick={onToggleCollapse}
+            className="p-3 min-w-[44px] min-h-[44px] rounded-xl hover:bg-ink-850 text-zinc-400 hover:text-white transition-colors flex items-center justify-center"
+            aria-label="Recolher barra lateral"
+            title="Recolher barra lateral"
+          >
+            <PanelLeftClose className="w-5 h-5" />
+          </button>
+        )}
+      </div>
+
+      <div className="flex-1 overflow-y-auto scrollbar-thin px-3 py-3 space-y-1.5 touch-pan-y">
+        {/* Cronograma Button */}
+        <button
+          onClick={() => {
+            onSelectCronograma();
+            onCloseMobileDrawer?.();
+          }}
+          className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold transition-all active:scale-[0.98] ${
+            isCronogramaActive
+              ? 'bg-red-600 text-white shadow-md shadow-red-600/20'
+              : 'text-zinc-300 hover:bg-ink-850 hover:text-white'
+          }`}
+        >
+          <Calendar
+            className={`w-4 h-4 shrink-0 ${
+              isCronogramaActive ? 'text-white' : 'text-red-500'
+            }`}
+          />
+          <span className="text-left flex-1">Cronograma de Estudos</span>
+        </button>
+
+        {/* Banco de Questões Button */}
+        <button
+          onClick={() => {
+            onSelectQuestoes();
+            onCloseMobileDrawer?.();
+          }}
+          className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold transition-all active:scale-[0.98] ${
+            isQuestoesActive
+              ? 'bg-red-600 text-white shadow-md shadow-red-600/20'
+              : 'text-zinc-300 hover:bg-ink-850 hover:text-white'
+          }`}
+        >
+          <BookOpen
+            className={`w-4 h-4 shrink-0 ${
+              isQuestoesActive ? 'text-white' : 'text-red-500'
+            }`}
+          />
+          <span className="text-left flex-1">Banco de Questões</span>
+        </button>
+
+        {/* Mentor Inteligente Button */}
+        {onSelectMentor && (
+          <button
+            onClick={() => {
+              onSelectMentor();
+              onCloseMobileDrawer?.();
+            }}
+            className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold transition-all active:scale-[0.98] ${
+              isMentorActive
+                ? 'bg-red-600 text-white shadow-md shadow-red-600/20'
+                : 'text-zinc-300 hover:bg-ink-850 hover:text-white'
+            }`}
+          >
+            <Brain
+              className={`w-4 h-4 shrink-0 ${
+                isMentorActive ? 'text-white' : 'text-red-500'
+              }`}
+            />
+            <span className="text-left flex-1">Mentor Inteligente</span>
+          </button>
+        )}
+
+        {/* CASALMED Button */}
+        {onSelectCasalMed && (
+          <button
+            onClick={() => {
+              onSelectCasalMed();
+              onCloseMobileDrawer?.();
+            }}
+            className={`w-full flex items-center gap-2.5 px-3.5 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold transition-all active:scale-[0.98] ${
+              isCasalMedActive
+                ? 'bg-red-600 text-white shadow-md shadow-red-600/20'
+                : 'text-zinc-300 hover:bg-ink-850 hover:text-white'
+            }`}
+          >
+            <FileText
+              className={`w-4 h-4 shrink-0 ${
+                isCasalMedActive ? 'text-white' : 'text-red-500'
+              }`}
+            />
+            <span className="text-left flex-1">CASALMED</span>
+          </button>
+        )}
+
+        {/* Section Divider: Áreas */}
+        <div className="pt-3 pb-1 px-3">
+          <span className="text-[11px] font-bold text-zinc-500 uppercase tracking-wider">
+            Grandes Áreas
+          </span>
+        </div>
+
+        {/* 6 Grandes Áreas */}
+        {curriculum.map((area) => {
+          const AreaIcon = getIcon(area.icon);
+          const isExpanded = expandedAreas.has(area.id);
+
+          return (
+            <div key={area.id} className="mb-0.5">
+              <button
+                onClick={() => toggleArea(area.id)}
+                className="w-full flex items-center gap-2.5 px-3 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold text-zinc-300 hover:text-white hover:bg-ink-850 transition-colors group active:scale-[0.99]"
+              >
+                {isExpanded ? (
+                  <ChevronDown className="w-4 h-4 text-zinc-500 shrink-0" />
+                ) : (
+                  <ChevronRight className="w-4 h-4 text-zinc-500 shrink-0" />
+                )}
+                <AreaIcon className="w-4 h-4 text-red-500 shrink-0" />
+                <span className="flex-1 text-left truncate">{area.name}</span>
+              </button>
+
+              {isExpanded && (
+                <div className="ml-3 pl-2.5 border-l border-ink-875 animate-fade-in space-y-1 my-1">
+                  {area.modules.map((mod) => {
+                    const ModIcon = getIcon(mod.icon);
+                    const isModExpanded = expandedModules.has(mod.id);
+
+                    return (
+                      <div key={mod.id}>
+                        <button
+                          onClick={() => toggleModule(mod.id)}
+                          className="w-full flex items-center gap-2 px-2.5 py-2 min-h-[40px] rounded-lg text-xs font-medium text-zinc-400 hover:text-zinc-200 hover:bg-ink-850 transition-colors"
+                        >
+                          {isModExpanded ? (
+                            <ChevronDown className="w-3.5 h-3.5 text-zinc-600 shrink-0" />
+                          ) : (
+                            <ChevronRight className="w-3.5 h-3.5 text-zinc-600 shrink-0" />
+                          )}
+                          <ModIcon className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
+                          <span className="flex-1 text-left truncate">{mod.name}</span>
+                        </button>
+
+                        {isModExpanded && (
+                          <div className="ml-3 pl-2 border-l border-ink-875 animate-fade-in space-y-1 my-1">
+                            {mod.lessons.map((lesson) => {
+                              const isSelected =
+                                lesson.id === selectedLessonId &&
+                                !isCronogramaActive &&
+                                !isQuestoesActive &&
+                                !isMentorActive;
+                              const isDone = isLessonCompleted(progress, lesson.id);
+
+                              return (
+                                <button
+                                  key={lesson.id}
+                                  onClick={() => {
+                                    onSelectLesson(area.id, mod.id, lesson.id);
+                                    onCloseMobileDrawer?.();
+                                  }}
+                                  className={`w-full flex items-center gap-2 px-2.5 py-2 min-h-[42px] rounded-xl transition-all text-left active:scale-[0.98] ${
+                                    isSelected
+                                      ? 'bg-red-600/15 text-white font-medium border border-red-600/30'
+                                      : 'text-zinc-400 hover:text-zinc-200 hover:bg-ink-850'
+                                  }`}
+                                >
+                                  <div className="shrink-0 w-4 h-4 flex items-center justify-center">
+                                    {isDone ? (
+                                      <div className="w-3.5 h-3.5 rounded-full bg-emerald-600 flex items-center justify-center">
+                                        <Check
+                                          className="w-2.5 h-2.5 text-white"
+                                          strokeWidth={3}
+                                        />
+                                      </div>
+                                    ) : isSelected ? (
+                                      <Play className="w-3 h-3 text-red-500 fill-red-500" />
+                                    ) : (
+                                      <span className="text-[10px] text-zinc-600 font-semibold">
+                                        {lesson.number}
+                                      </span>
+                                    )}
+                                  </div>
+
+                                  <span className="text-xs truncate flex-1 leading-snug">
+                                    {lesson.title}
+                                  </span>
+                                </button>
+                              );
+                            })}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Active Profile Footer */}
+      {activeProfile && onSwitchProfile && (
+        <div className="border-t border-ink-875 p-3 shrink-0">
+          <button
+            onClick={onSwitchProfile}
+            className="w-full flex items-center gap-2.5 px-3 py-2.5 min-h-[44px] rounded-xl bg-ink-850 hover:bg-ink-800 border border-ink-800 text-xs font-semibold text-zinc-300 hover:text-white transition-all active:scale-[0.98]"
+          >
+            <span
+              className="w-7 h-7 rounded-full flex items-center justify-center text-[11px] font-bold text-white shrink-0"
+              style={{ backgroundColor: activeProfile.avatar }}
+            >
+              {activeProfile.name.charAt(0).toUpperCase()}
+            </span>
+            <div className="flex-1 text-left min-w-0">
+              <div className="text-xs font-bold text-white truncate">{activeProfile.name}</div>
+              <div className="text-[10px] text-emerald-500 flex items-center gap-1">
+                <RefreshCw className="w-2.5 h-2.5" />
+                Sincronizado
+              </div>
+            </div>
+            <Users className="w-4 h-4 text-zinc-500 shrink-0" />
+          </button>
+        </div>
+      )}
+    </aside>
+  );
+}
