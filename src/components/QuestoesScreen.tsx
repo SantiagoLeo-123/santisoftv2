@@ -303,6 +303,61 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic) === 'abdome agudo' || normalizeStr(q.topic).includes('abdome agudo'),
     },
     {
+      id: 'cir_anestesiologia',
+      label: 'Anestesiologia',
+      matches: (q) => normalizeStr(q.topic).includes('anestesiologia'),
+    },
+    {
+      id: 'cir_cicatrizacao',
+      label: 'Cicatrização',
+      matches: (q) => normalizeStr(q.topic).includes('cicatrizacao'),
+    },
+    {
+      id: 'cir_bariatrica',
+      label: 'Cirurgia Bariátrica',
+      matches: (q) => normalizeStr(q.topic).includes('bariatrica'),
+    },
+    {
+      id: 'cir_cirurgia_pediatrica',
+      label: 'Cirurgia Pediátrica',
+      matches: (q) => normalizeStr(q.topic).includes('cirurgia pediatrica'),
+    },
+    {
+      id: 'cir_complicacoes_cirurgicas',
+      label: 'Complicações Cirúrgicas',
+      matches: (q) => normalizeStr(q.topic).includes('complicacoes cirurgicas'),
+    },
+    {
+      id: 'cir_delgado_e_colon',
+      label: 'Delgado e Cólon: Pólipos e Câncer Colorretal',
+      matches: (q) => normalizeStr(q.topic).includes('delgado e colon'),
+    },
+    {
+      id: 'cir_inflamatoria_intestinal',
+      label: 'Doença Inflamatória Intestinal',
+      matches: (q) => normalizeStr(q.topic).includes('inflamatoria intestinal'),
+    },
+    {
+      id: 'cir_doencas_do_esofago',
+      label: 'Doenças do Esôfago',
+      matches: (q) => normalizeStr(q.topic).includes('doencas do esofago'),
+    },
+    {
+      id: 'cir_doencas_do_estomago',
+      label: 'Doenças do Estômago',
+      matches: (q) => normalizeStr(q.topic).includes('doencas do estomago'),
+    },
+    {
+      id: 'cir_figado',
+      label: 'Fígado e Vias Biliares',
+      matches: (q) => normalizeStr(q.topic).includes('figado'),
+    },
+    {
+      id: 'cir_fios_de_sutura',
+      label: 'Fios de Sutura',
+      matches: (q) => normalizeStr(q.topic).includes('fios de sutura'),
+    },
+    {
       id: 'cir_trauma',
       label: 'Trauma',
       matches: (q) => normalizeStr(q.topic) === 'trauma' || normalizeStr(q.topic).includes('trauma'),
