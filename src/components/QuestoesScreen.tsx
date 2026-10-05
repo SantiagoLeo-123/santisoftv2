@@ -303,6 +303,11 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic) === 'abdome agudo' || normalizeStr(q.topic).includes('abdome agudo'),
     },
     {
+      id: 'cir_anestesiologia',
+      label: 'Anestesiologia',
+      matches: (q) => normalizeStr(q.topic).includes('anestesiologia'),
+    },
+    {
       id: 'cir_trauma',
       label: 'Trauma',
       matches: (q) => normalizeStr(q.topic) === 'trauma' || normalizeStr(q.topic).includes('trauma'),
