@@ -72,6 +72,10 @@ import { RISCO_1 } from './cirurgia/risco1';
 import { RISCO_2 } from './cirurgia/risco2';
 import { RISCO_3 } from './cirurgia/risco3';
 import { RISCO_4 } from './cirurgia/risco4';
+import { TRAUMA_A_1 } from './cirurgia/traumaA1';
+import { TRAUMA_A_2 } from './cirurgia/traumaA2';
+import { TRAUMA_A_3 } from './cirurgia/traumaA3';
+import { TRAUMA_A_4 } from './cirurgia/traumaA4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -128,5 +132,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-risco', 'Cirurgia', 'Risco Cirúrgico', [
     ...RISCO_1, ...RISCO_2, ...RISCO_3, ...RISCO_4,
+  ]),
+  ...montarQuestoes('cir-trauma-1', 'Cirurgia', 'Trauma I: Avaliação Inicial e Tórax', [
+    ...TRAUMA_A_1, ...TRAUMA_A_2, ...TRAUMA_A_3, ...TRAUMA_A_4,
   ]),
 ];
