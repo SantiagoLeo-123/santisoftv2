@@ -76,7 +76,7 @@ export const QUEIMADURA_4: QuestaoCompacta[] = [
   },
   {
     s: 'Enxertos',
-    e: 'A causa mais comum de perda de um enxerto de pele é:',
+    e: 'No quinto dia após enxertia de pele em área queimada, parte do enxerto não se integrou. Qual é a causa mais frequente dessa falha?',
     o: ['Rejeição imunológica', 'Hematoma ou seroma sob o enxerto, seguido de infecção e cisalhamento', 'Excesso de vascularização', 'Uso de curativo'],
     g: 'B',
     c: 'A coleção impede o contato do enxerto com o leito. Previne-se com hemostasia rigorosa, enxerto em malha ou perfurado, curativo compressivo (de Brown) ou a vácuo, e imobilização.',
@@ -108,7 +108,7 @@ export const QUEIMADURA_4: QuestaoCompacta[] = [
   },
   {
     s: 'Retalhos',
-    e: 'A diferença fundamental entre enxerto e retalho é:',
+    e: 'Na cobertura de uma área queimada, o que distingue um retalho de um enxerto de pele?',
     o: ['O retalho é sempre mais fino', 'O retalho leva consigo sua própria vascularização, por um pedículo; o enxerto depende do leito receptor', 'O enxerto tem pedículo', 'Não há diferença'],
     g: 'B',
     c: 'Os retalhos cobrem estruturas nobres expostas e leitos mal vascularizados. Podem ser locais, regionais ou livres, estes com anastomose microcirúrgica.',
