@@ -36,6 +36,10 @@ import { DII_1 } from './cirurgia/dii1';
 import { DII_2 } from './cirurgia/dii2';
 import { DII_3 } from './cirurgia/dii3';
 import { DII_4 } from './cirurgia/dii4';
+import { ESOFAGO_1 } from './cirurgia/esofago1';
+import { ESOFAGO_2 } from './cirurgia/esofago2';
+import { ESOFAGO_3 } from './cirurgia/esofago3';
+import { ESOFAGO_4 } from './cirurgia/esofago4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -65,5 +69,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-dii', 'Cirurgia', 'Doença Inflamatória Intestinal', [
     ...DII_1, ...DII_2, ...DII_3, ...DII_4,
+  ]),
+  ...montarQuestoes('cir-esofago', 'Cirurgia', 'Doenças do Esôfago', [
+    ...ESOFAGO_1, ...ESOFAGO_2, ...ESOFAGO_3, ...ESOFAGO_4,
   ]),
 ];

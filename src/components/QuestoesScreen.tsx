@@ -338,6 +338,11 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic).includes('inflamatoria intestinal'),
     },
     {
+      id: 'cir_doencas_do_esofago',
+      label: 'Doenças do Esôfago',
+      matches: (q) => normalizeStr(q.topic).includes('doencas do esofago'),
+    },
+    {
       id: 'cir_trauma',
       label: 'Trauma',
       matches: (q) => normalizeStr(q.topic) === 'trauma' || normalizeStr(q.topic).includes('trauma'),
