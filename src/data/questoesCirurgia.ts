@@ -48,6 +48,10 @@ import { FIGADO_1 } from './cirurgia/figado1';
 import { FIGADO_2 } from './cirurgia/figado2';
 import { FIGADO_3 } from './cirurgia/figado3';
 import { FIGADO_4 } from './cirurgia/figado4';
+import { FIOS_1 } from './cirurgia/fios1';
+import { FIOS_2 } from './cirurgia/fios2';
+import { FIOS_3 } from './cirurgia/fios3';
+import { FIOS_4 } from './cirurgia/fios4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -86,5 +90,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-figado', 'Cirurgia', 'Fígado e Vias Biliares', [
     ...FIGADO_1, ...FIGADO_2, ...FIGADO_3, ...FIGADO_4,
+  ]),
+  ...montarQuestoes('cir-fios', 'Cirurgia', 'Fios de Sutura', [
+    ...FIOS_1, ...FIOS_2, ...FIOS_3, ...FIOS_4,
   ]),
 ];
