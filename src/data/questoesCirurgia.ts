@@ -24,6 +24,10 @@ import { VASCULAR_1 } from './cirurgia/vascular1';
 import { VASCULAR_2 } from './cirurgia/vascular2';
 import { VASCULAR_3 } from './cirurgia/vascular3';
 import { VASCULAR_4 } from './cirurgia/vascular4';
+import { COMPLICACOES_1 } from './cirurgia/complicacoes1';
+import { COMPLICACOES_2 } from './cirurgia/complicacoes2';
+import { COMPLICACOES_3 } from './cirurgia/complicacoes3';
+import { COMPLICACOES_4 } from './cirurgia/complicacoes4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -44,5 +48,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-vascular', 'Cirurgia', 'Cirurgia Vascular', [
     ...VASCULAR_1, ...VASCULAR_2, ...VASCULAR_3, ...VASCULAR_4,
+  ]),
+  ...montarQuestoes('cir-complicacoes', 'Cirurgia', 'Complicações Cirúrgicas', [
+    ...COMPLICACOES_1, ...COMPLICACOES_2, ...COMPLICACOES_3, ...COMPLICACOES_4,
   ]),
 ];
