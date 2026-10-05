@@ -14,6 +14,7 @@ import { QUESTOES_GO_SUA_ENDOMETRIOSE } from './questoesGO_sua_endometriose';
 import { QUESTOES_GO_UROGINECOLOGIA_INCONTINENCIA } from './questoesGO_uroginecologia_incontinencia';
 import { QUESTOES_GO_IST } from './questoesGO_ist';
 import { QUESTOES_CIRURGIA } from './questoesCirurgia';
+import { QUESTOES_CLINICA } from './questoesClinica';
 import { QUESTOES_EXANTEMATICAS } from './questoesExantematicas';
 import { QUESTOES_IMUNIZACAO } from './questoesImunizacao';
 import { QUESTOES_ITU_PEDIATRICA } from './questoesITUPediatrica';
@@ -11177,6 +11178,7 @@ for (const q of [
   ...gastroPediatricaAsQuestions,
   ...baseStaticQuestions,
   ...QUESTOES_CIRURGIA,
+  ...QUESTOES_CLINICA,
   ...QUESTOES_GO_DIAGNOSTICOS_GRAVIDEZ,
   ...QUESTOES_GO_PRENATAL_ESTATICA,
   ...QUESTOES_GO_PARTO_PREMATURIDADE,

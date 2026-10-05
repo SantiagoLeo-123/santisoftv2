@@ -251,6 +251,51 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
   ],
   'Clínica Médica': [
     {
+      id: 'cm2_cm_has',
+      label: 'Cardiologia: Hipertensão Arterial',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia hipertensao arterial',
+    },
+    {
+      id: 'cm2_cm_coronaria',
+      label: 'Cardiologia: Doença Coronariana',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia doenca coronariana',
+    },
+    {
+      id: 'cm2_cm_infarto',
+      label: 'Cardiologia: Definição Universal do Infarto do Miocárdio',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia definicao universal do infarto do miocardio',
+    },
+    {
+      id: 'cm2_cm_ic',
+      label: 'Cardiologia: Insuficiência Cardíaca',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia insuficiencia cardiaca',
+    },
+    {
+      id: 'cm2_cm_arritmias',
+      label: 'Cardiologia: Arritmias Cardíacas',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia arritmias cardiacas',
+    },
+    {
+      id: 'cm2_cm_valvas',
+      label: 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia cardiomiopatias valvopatias e pericardite aguda',
+    },
+    {
+      id: 'cm2_cm_pcr',
+      label: 'Cardiologia: Parada Cardiorrespiratória',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia parada cardiorrespiratoria',
+    },
+    {
+      id: 'cm2_cm_choque',
+      label: 'Terapia Intensiva: Instabilidade Hemodinâmica',
+      matches: (q) => normalizeStr(q.topic) === 'terapia intensiva instabilidade hemodinamica',
+    },
+    {
+      id: 'cm2_cm_asma',
+      label: 'Pneumologia: Asma',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia asma',
+    },
+    {
       id: 'cm_cardiologia',
       label: 'Cardiologia',
       matches: (q) => normalizeStr(q.topic).includes('cardio'),
