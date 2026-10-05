@@ -52,6 +52,10 @@ import { FIOS_1 } from './cirurgia/fios1';
 import { FIOS_2 } from './cirurgia/fios2';
 import { FIOS_3 } from './cirurgia/fios3';
 import { FIOS_4 } from './cirurgia/fios4';
+import { HERNIAS_1 } from './cirurgia/hernias1';
+import { HERNIAS_2 } from './cirurgia/hernias2';
+import { HERNIAS_3 } from './cirurgia/hernias3';
+import { HERNIAS_4 } from './cirurgia/hernias4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -93,5 +97,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-fios', 'Cirurgia', 'Fios de Sutura', [
     ...FIOS_1, ...FIOS_2, ...FIOS_3, ...FIOS_4,
+  ]),
+  ...montarQuestoes('cir-hernias', 'Cirurgia', 'Hérnias da Parede Abdominal', [
+    ...HERNIAS_1, ...HERNIAS_2, ...HERNIAS_3, ...HERNIAS_4,
   ]),
 ];
