@@ -375,51 +375,6 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       label: 'Neurologia: Estado de Mal Epiléptico e Crise Febril',
       matches: (q) => normalizeStr(q.topic) === 'neurologia estado de mal epileptico e crise febril',
     },
-    {
-      id: 'cm_cardiologia',
-      label: 'Cardiologia',
-      matches: (q) => normalizeStr(q.topic).includes('cardio'),
-    },
-    {
-      id: 'cm_endocrinologia',
-      label: 'Endocrinologia',
-      matches: (q) => normalizeStr(q.topic).includes('endocrino'),
-    },
-    {
-      id: 'cm_pneumologia',
-      label: 'Pneumologia',
-      matches: (q) => normalizeStr(q.topic).includes('pneumo'),
-    },
-    {
-      id: 'cm_gastroenterologia',
-      label: 'Gastroenterologia',
-      matches: (q) => normalizeStr(q.topic).includes('gastro'),
-    },
-    {
-      id: 'cm_nefrologia',
-      label: 'Nefrologia',
-      matches: (q) => normalizeStr(q.topic).includes('nefro'),
-    },
-    {
-      id: 'cm_infectologia',
-      label: 'Infectologia',
-      matches: (q) => normalizeStr(q.topic).includes('infecto'),
-    },
-    {
-      id: 'cm_hematologia',
-      label: 'Hematologia',
-      matches: (q) => normalizeStr(q.topic).includes('hemato'),
-    },
-    {
-      id: 'cm_neurologia',
-      label: 'Neurologia',
-      matches: (q) => normalizeStr(q.topic).includes('neuro'),
-    },
-    {
-      id: 'cm_reumatologia',
-      label: 'Reumatologia',
-      matches: (q) => normalizeStr(q.topic).includes('reumato'),
-    },
   ],
   Cirurgia: [
     {
