@@ -311,6 +311,71 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic) === 'pneumologia cancer de pulmao',
     },
     {
+      id: 'cm2_cm_dpoc',
+      label: 'Pneumologia: DPOC',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia dpoc',
+    },
+    {
+      id: 'cm2_cm_irpa',
+      label: 'Pneumologia: Insuficiência Respiratória Aguda',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia insuficiencia respiratoria aguda',
+    },
+    {
+      id: 'cm2_cm_dm',
+      label: 'Endocrinologia: Diabetes Mellitus',
+      matches: (q) => normalizeStr(q.topic) === 'endocrinologia diabetes mellitus',
+    },
+    {
+      id: 'cm2_cm_tireoide',
+      label: 'Endocrinologia: Tireoide',
+      matches: (q) => normalizeStr(q.topic) === 'endocrinologia tireoide',
+    },
+    {
+      id: 'cm2_cm_paratireoide',
+      label: 'Endocrinologia: Paratireoide e Suprarrenal',
+      matches: (q) => normalizeStr(q.topic) === 'endocrinologia paratireoide e suprarrenal',
+    },
+    {
+      id: 'cm2_cm_hep_aguda',
+      label: 'Hepatologia: Hepatopatias Agudas',
+      matches: (q) => normalizeStr(q.topic) === 'hepatologia hepatopatias agudas',
+    },
+    {
+      id: 'cm2_cm_cirrose',
+      label: 'Hepatologia: Hepatopatias Crônicas e Cirrose',
+      matches: (q) => normalizeStr(q.topic) === 'hepatologia hepatopatias cronicas e cirrose',
+    },
+    {
+      id: 'cm2_cm_hip_portal',
+      label: 'Hepatologia: Síndrome da Hipertensão Portal',
+      matches: (q) => normalizeStr(q.topic) === 'hepatologia sindrome da hipertensao portal',
+    },
+    {
+      id: 'cm2_cm_ave',
+      label: 'Neurologia: Acidente Vascular Encefálico',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia acidente vascular encefalico',
+    },
+    {
+      id: 'cm2_cm_cefaleia',
+      label: 'Neurologia: Cefaleia',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia cefaleia',
+    },
+    {
+      id: 'cm2_cm_demencia',
+      label: 'Neurologia: Demência',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia demencia',
+    },
+    {
+      id: 'cm2_cm_motoras',
+      label: 'Neurologia: Doenças Motoras',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia doencas motoras',
+    },
+    {
+      id: 'cm2_cm_epilepsia',
+      label: 'Neurologia: Estado de Mal Epiléptico e Crise Febril',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia estado de mal epileptico e crise febril',
+    },
+    {
       id: 'cm_cardiologia',
       label: 'Cardiologia',
       matches: (q) => normalizeStr(q.topic).includes('cardio'),

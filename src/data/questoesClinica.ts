@@ -48,6 +48,66 @@ import { CA_PULMAO_1 } from './clinica/cmCaPulmao1';
 import { CA_PULMAO_2 } from './clinica/cmCaPulmao2';
 import { CA_PULMAO_3 } from './clinica/cmCaPulmao3';
 import { CA_PULMAO_4 } from './clinica/cmCaPulmao4';
+import { DPOC_1 } from './clinica/cmDpoc1';
+import { DPOC_2 } from './clinica/cmDpoc2';
+import { DPOC_3 } from './clinica/cmDpoc3';
+import { DPOC_4 } from './clinica/cmDpoc4';
+import { IRPA_1 } from './clinica/cmIrpa1';
+import { IRPA_2 } from './clinica/cmIrpa2';
+import { IRPA_3 } from './clinica/cmIrpa3';
+import { IRPA_4 } from './clinica/cmIrpa4';
+import { DM_1 } from './clinica/cmDm1';
+import { DM_2 } from './clinica/cmDm2';
+import { DM_3 } from './clinica/cmDm3';
+import { DM_4 } from './clinica/cmDm4';
+import { TIREOIDE_1 } from './clinica/cmTireoide1';
+import { TIREOIDE_2 } from './clinica/cmTireoide2';
+import { TIREOIDE_3 } from './clinica/cmTireoide3';
+import { TIREOIDE_4 } from './clinica/cmTireoide4';
+import { PARATIREOIDE_1 } from './clinica/cmParatireoide1';
+import { PARATIREOIDE_2 } from './clinica/cmParatireoide2';
+import { PARATIREOIDE_3 } from './clinica/cmParatireoide3';
+import { PARATIREOIDE_4 } from './clinica/cmParatireoide4';
+import { HEP_AGUDA_1 } from './clinica/cmHepAguda1';
+import { HEP_AGUDA_2 } from './clinica/cmHepAguda2';
+import { HEP_AGUDA_3 } from './clinica/cmHepAguda3';
+import { HEP_AGUDA_4 } from './clinica/cmHepAguda4';
+import { CIRROSE_1 } from './clinica/cmCirrose1';
+import { CIRROSE_2 } from './clinica/cmCirrose2';
+import { CIRROSE_3 } from './clinica/cmCirrose3';
+import { CIRROSE_4 } from './clinica/cmCirrose4';
+import { HIP_PORTAL_1 } from './clinica/cmHipPortal1';
+import { HIP_PORTAL_2 } from './clinica/cmHipPortal2';
+import { HIP_PORTAL_3 } from './clinica/cmHipPortal3';
+import { HIP_PORTAL_4 } from './clinica/cmHipPortal4';
+import { AVE_1 } from './clinica/cmAve1';
+import { AVE_2 } from './clinica/cmAve2';
+import { AVE_3 } from './clinica/cmAve3';
+import { AVE_4 } from './clinica/cmAve4';
+import { CEFALEIA_1 } from './clinica/cmCefaleia1';
+import { CEFALEIA_2 } from './clinica/cmCefaleia2';
+import { CEFALEIA_3 } from './clinica/cmCefaleia3';
+import { CEFALEIA_4 } from './clinica/cmCefaleia4';
+import { DEMENCIA_1 } from './clinica/cmDemencia1';
+import { DEMENCIA_2 } from './clinica/cmDemencia2';
+import { DEMENCIA_3 } from './clinica/cmDemencia3';
+import { DEMENCIA_4 } from './clinica/cmDemencia4';
+import { MOTORAS_1 } from './clinica/cmMotoras1';
+import { MOTORAS_2 } from './clinica/cmMotoras2';
+import { MOTORAS_3 } from './clinica/cmMotoras3';
+import { MOTORAS_4 } from './clinica/cmMotoras4';
+import { EPILEPSIA_1 } from './clinica/cmEpilepsia1';
+import { EPILEPSIA_2 } from './clinica/cmEpilepsia2';
+import { EPILEPSIA_3 } from './clinica/cmEpilepsia3';
+import { EPILEPSIA_4 } from './clinica/cmEpilepsia4';
+import { PED_INFECTO_1 } from './clinica/pedInfecto1';
+import { PED_INFECTO_2 } from './clinica/pedInfecto2';
+import { PED_INFECTO_3 } from './clinica/pedInfecto3';
+import { PED_INFECTO_4 } from './clinica/pedInfecto4';
+import { PED_ALEITAMENTO_1 } from './clinica/pedAleitamento1';
+import { PED_ALEITAMENTO_2 } from './clinica/pedAleitamento2';
+import { PED_ALEITAMENTO_3 } from './clinica/pedAleitamento3';
+import { PED_ALEITAMENTO_4 } from './clinica/pedAleitamento4';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -86,5 +146,50 @@ export const QUESTOES_CLINICA: Question[] = [
   ]),
   ...montarQuestoes('cm-ca-pulmao', 'Clínica Médica', 'Pneumologia: Câncer de Pulmão', [
     ...CA_PULMAO_1, ...CA_PULMAO_2, ...CA_PULMAO_3, ...CA_PULMAO_4,
+  ]),
+  ...montarQuestoes('cm-dpoc', 'Clínica Médica', 'Pneumologia: DPOC', [
+    ...DPOC_1, ...DPOC_2, ...DPOC_3, ...DPOC_4,
+  ]),
+  ...montarQuestoes('cm-irpa', 'Clínica Médica', 'Pneumologia: Insuficiência Respiratória Aguda', [
+    ...IRPA_1, ...IRPA_2, ...IRPA_3, ...IRPA_4,
+  ]),
+  ...montarQuestoes('cm-dm', 'Clínica Médica', 'Endocrinologia: Diabetes Mellitus', [
+    ...DM_1, ...DM_2, ...DM_3, ...DM_4,
+  ]),
+  ...montarQuestoes('cm-tireoide', 'Clínica Médica', 'Endocrinologia: Tireoide', [
+    ...TIREOIDE_1, ...TIREOIDE_2, ...TIREOIDE_3, ...TIREOIDE_4,
+  ]),
+  ...montarQuestoes('cm-paratireoide', 'Clínica Médica', 'Endocrinologia: Paratireoide e Suprarrenal', [
+    ...PARATIREOIDE_1, ...PARATIREOIDE_2, ...PARATIREOIDE_3, ...PARATIREOIDE_4,
+  ]),
+  ...montarQuestoes('cm-hep-aguda', 'Clínica Médica', 'Hepatologia: Hepatopatias Agudas', [
+    ...HEP_AGUDA_1, ...HEP_AGUDA_2, ...HEP_AGUDA_3, ...HEP_AGUDA_4,
+  ]),
+  ...montarQuestoes('cm-cirrose', 'Clínica Médica', 'Hepatologia: Hepatopatias Crônicas e Cirrose', [
+    ...CIRROSE_1, ...CIRROSE_2, ...CIRROSE_3, ...CIRROSE_4,
+  ]),
+  ...montarQuestoes('cm-hip-portal', 'Clínica Médica', 'Hepatologia: Síndrome da Hipertensão Portal', [
+    ...HIP_PORTAL_1, ...HIP_PORTAL_2, ...HIP_PORTAL_3, ...HIP_PORTAL_4,
+  ]),
+  ...montarQuestoes('cm-ave', 'Clínica Médica', 'Neurologia: Acidente Vascular Encefálico', [
+    ...AVE_1, ...AVE_2, ...AVE_3, ...AVE_4,
+  ]),
+  ...montarQuestoes('cm-cefaleia', 'Clínica Médica', 'Neurologia: Cefaleia', [
+    ...CEFALEIA_1, ...CEFALEIA_2, ...CEFALEIA_3, ...CEFALEIA_4,
+  ]),
+  ...montarQuestoes('cm-demencia', 'Clínica Médica', 'Neurologia: Demência', [
+    ...DEMENCIA_1, ...DEMENCIA_2, ...DEMENCIA_3, ...DEMENCIA_4,
+  ]),
+  ...montarQuestoes('cm-motoras', 'Clínica Médica', 'Neurologia: Doenças Motoras', [
+    ...MOTORAS_1, ...MOTORAS_2, ...MOTORAS_3, ...MOTORAS_4,
+  ]),
+  ...montarQuestoes('cm-epilepsia', 'Clínica Médica', 'Neurologia: Estado de Mal Epiléptico e Crise Febril', [
+    ...EPILEPSIA_1, ...EPILEPSIA_2, ...EPILEPSIA_3, ...EPILEPSIA_4,
+  ]),
+  ...montarQuestoes('ped-infecto', 'Pediatria', 'Infectologia Pediátrica', [
+    ...PED_INFECTO_1, ...PED_INFECTO_2, ...PED_INFECTO_3, ...PED_INFECTO_4,
+  ]),
+  ...montarQuestoes('ped-aleitamento', 'Pediatria', 'Aleitamento Materno', [
+    ...PED_ALEITAMENTO_1, ...PED_ALEITAMENTO_2, ...PED_ALEITAMENTO_3, ...PED_ALEITAMENTO_4,
   ]),
 ];
