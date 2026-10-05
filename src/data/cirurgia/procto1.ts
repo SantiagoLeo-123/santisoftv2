@@ -28,11 +28,11 @@ export const PROCTO_1: QuestaoCompacta[] = [
   },
   {
     s: 'Anatomia',
-    e: 'A drenagem linfática dos tumores do canal anal abaixo da linha pectínea faz-se principalmente para os linfonodos:',
+    e: 'Paciente com tumor na margem anal, abaixo da linha pectínea. Qual cadeia linfonodal deve ser examinada primeiro, por ser a principal via de drenagem dessa região?',
     o: ['Mesentéricos inferiores', 'Inguinais superficiais', 'Para-aórticos', 'Celíacos'],
     g: 'B',
     c: 'Por isso o exame das regiões inguinais faz parte da avaliação do câncer de canal anal. Acima da linha pectínea, a drenagem é para os linfonodos mesorretais, ilíacos internos e mesentéricos inferiores.',
-    x: { A: 'Drenam o reto.', C: 'Não são a primeira estação.', D: 'Não têm relação.' },
+    x: { A: 'Recebem a drenagem do reto, acima da linha pectínea.', C: 'Não são a primeira estação de drenagem.', D: 'Não têm relação com a região anal.' },
   },
   {
     s: 'Hemorroidas',
