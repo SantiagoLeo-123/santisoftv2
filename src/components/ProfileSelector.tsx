@@ -64,17 +64,6 @@ export function ProfileSelector({ onSelectProfile }: ProfileSelectorProps) {
     loadProfiles();
   }, [loadProfiles]);
 
-  // Check if a profile is already active in localStorage
-  useEffect(() => {
-    const activeId = localStorage.getItem(STORAGE_KEY);
-    if (activeId && profiles.length > 0) {
-      const found = profiles.find((p) => p.id === activeId);
-      if (found) {
-        onSelectProfile(found);
-      }
-    }
-  }, [profiles, onSelectProfile]);
-
   const saveLocalProfiles = (list: Profile[]) => {
     try {
       localStorage.setItem('santisoft_profiles', JSON.stringify(list));

@@ -15,7 +15,7 @@ import type { Profile } from '@/lib/supabase';
 import {
   registrarConclusaoAula,
   removerConclusaoAula,
-  MENTOR_STORAGE_KEY,
+  saveMentorStore,
   type RevisaoPendente,
 } from '@/services/mentorService';
 import { isLessonCompleted } from '@/types';
@@ -49,6 +49,7 @@ export default function App() {
   const {
     progress,
     toggleLessonCompletion,
+    clearProgress,
     mentorMessages,
     addMentorMessage,
     clearMentorMessages,
@@ -245,19 +246,11 @@ export default function App() {
   }, [activeTab]);
 
   const handleResetAllData = useCallback(() => {
-    // Clear lesson progress via sync hook (local + cloud)
-    // We do this by toggling each completed lesson off
-    for (const [lessonId, completed] of Object.entries(progress)) {
-      if (completed) {
-        toggleLessonCompletion(lessonId, true);
-      }
-    }
-    if (typeof window !== 'undefined') {
-      localStorage.removeItem(MENTOR_STORAGE_KEY);
-      window.dispatchEvent(new CustomEvent('santisoft_mentor_updated', { detail: {} }));
-    }
+    // Limpa aulas concluídas e revisões agendadas do perfil atual (local + nuvem)
+    clearProgress();
+    saveMentorStore({});
     setShowResetConfirm(false);
-  }, [progress, toggleLessonCompletion]);
+  }, [clearProgress]);
 
   // Show profile selector as blocking screen if no profile is active
   if (showProfileSelector || !activeProfile) {

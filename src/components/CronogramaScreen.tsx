@@ -18,7 +18,7 @@ import {
 import type { ProgressMap } from '@/types';
 import { isLessonCompleted } from '@/types';
 import { VideoModal } from '@/components/VideoModal';
-import { useLocalStorage } from '@/hooks/useLocalStorage';
+import { useProfileState } from '@/hooks/useProfileState';
 
 export type FilterArea =
   | 'Todas'
@@ -62,8 +62,8 @@ export function CronogramaScreen({
   const [activeVideoEntry, setActiveVideoEntry] = useState<CronogramaEntry | null>(null);
 
   // Persistent custom drive links if user adds or customizes them
-  const [customDriveUrls, setCustomDriveUrls] = useLocalStorage<Record<string, string>>(
-    'santisoft_custom_drive_urls',
+  const [customDriveUrls, setCustomDriveUrls] = useProfileState<Record<string, string>>(
+    'custom_drive_urls',
     {},
   );
 

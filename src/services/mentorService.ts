@@ -1,5 +1,6 @@
 import { cronogramaData } from '@/data/cronograma';
 import { curriculum } from '@/data/curriculum';
+import { readState, writeState } from '@/lib/profileStore';
 
 export const MENTOR_STORAGE_KEY = 'santisoft_mentor_revisoes';
 
@@ -142,9 +143,7 @@ export function resolverTemaEEspecialidade(lessonOrEntryId: string): {
 export function getMentorStore(): MentorStore {
   if (typeof window === 'undefined') return {};
   try {
-    const raw = localStorage.getItem(MENTOR_STORAGE_KEY);
-    if (!raw) return {};
-    const store = JSON.parse(raw) as MentorStore;
+    const store = { ...readState<MentorStore>('mentor_revisoes', {}) };
     let modified = false;
 
     // Purga quaisquer dados de teste/mock pré-cadastrados ou antigos
@@ -170,7 +169,7 @@ export function getMentorStore(): MentorStore {
     }
 
     if (modified) {
-      localStorage.setItem(MENTOR_STORAGE_KEY, JSON.stringify(store));
+      writeState('mentor_revisoes', store);
     }
 
     return store;
@@ -182,50 +181,16 @@ export function getMentorStore(): MentorStore {
 
 // Limpa explicitamente a chave do localStorage se contiver dados de teste antigos
 export function limparDadosTesteMentor(): void {
-  if (typeof window === 'undefined') return;
-  try {
-    const raw = localStorage.getItem(MENTOR_STORAGE_KEY);
-    if (!raw) return;
-    const store = JSON.parse(raw) as MentorStore;
-    let modified = false;
-
-    for (const key of Object.keys(store)) {
-      const item = store[key];
-      if (
-        key.startsWith('revisao-teste') ||
-        key.toLowerCase().includes('teste') ||
-        key.toLowerCase().includes('test') ||
-        !item ||
-        !item.id ||
-        item.id.startsWith('revisao-teste') ||
-        item.id.toLowerCase().includes('teste') ||
-        item.id.toLowerCase().includes('test')
-      ) {
-        delete store[key];
-        modified = true;
-      }
-    }
-
-    if (modified) {
-      localStorage.setItem(MENTOR_STORAGE_KEY, JSON.stringify(store));
-      window.dispatchEvent(new CustomEvent('santisoft_mentor_updated', { detail: store }));
-    }
-  } catch (err) {
-    console.error('Erro ao limpar dados de teste do Mentor:', err);
-  }
-}
-
-// Executa verificação e limpeza inicial imediatamente
-if (typeof window !== 'undefined') {
-  limparDadosTesteMentor();
+  // getMentorStore já remove e regrava a loja quando encontra dados de teste
+  getMentorStore();
 }
 
 // Salva a loja no LocalStorage e dispara evento reativo
 export function saveMentorStore(store: MentorStore): void {
   if (typeof window === 'undefined') return;
   try {
-    localStorage.setItem(MENTOR_STORAGE_KEY, JSON.stringify(store));
-    window.dispatchEvent(new CustomEvent('santisoft_mentor_updated', { detail: store }));
+    // Grava no perfil ativo, envia para a nuvem e dispara 'santisoft_mentor_updated'
+    writeState('mentor_revisoes', store);
   } catch (err) {
     console.error('Erro ao salvar mentorStore no LocalStorage:', err);
   }
