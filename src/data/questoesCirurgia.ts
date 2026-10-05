@@ -44,6 +44,10 @@ import { ESTOMAGO_1 } from './cirurgia/estomago1';
 import { ESTOMAGO_2 } from './cirurgia/estomago2';
 import { ESTOMAGO_3 } from './cirurgia/estomago3';
 import { ESTOMAGO_4 } from './cirurgia/estomago4';
+import { FIGADO_1 } from './cirurgia/figado1';
+import { FIGADO_2 } from './cirurgia/figado2';
+import { FIGADO_3 } from './cirurgia/figado3';
+import { FIGADO_4 } from './cirurgia/figado4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -79,5 +83,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-estomago', 'Cirurgia', 'Doenças do Estômago', [
     ...ESTOMAGO_1, ...ESTOMAGO_2, ...ESTOMAGO_3, ...ESTOMAGO_4,
+  ]),
+  ...montarQuestoes('cir-figado', 'Cirurgia', 'Fígado e Vias Biliares', [
+    ...FIGADO_1, ...FIGADO_2, ...FIGADO_3, ...FIGADO_4,
   ]),
 ];
