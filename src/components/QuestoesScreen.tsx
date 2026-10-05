@@ -363,6 +363,11 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic).includes('pancreas'),
     },
     {
+      id: 'cir_proctologia',
+      label: 'Proctologia',
+      matches: (q) => normalizeStr(q.topic).includes('proctologia'),
+    },
+    {
       id: 'cir_trauma',
       label: 'Trauma',
       matches: (q) => normalizeStr(q.topic) === 'trauma' || normalizeStr(q.topic).includes('trauma'),

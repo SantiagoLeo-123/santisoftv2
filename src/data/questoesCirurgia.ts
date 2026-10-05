@@ -60,6 +60,10 @@ import { PANCREAS_1 } from './cirurgia/pancreas1';
 import { PANCREAS_2 } from './cirurgia/pancreas2';
 import { PANCREAS_3 } from './cirurgia/pancreas3';
 import { PANCREAS_4 } from './cirurgia/pancreas4';
+import { PROCTO_1 } from './cirurgia/procto1';
+import { PROCTO_2 } from './cirurgia/procto2';
+import { PROCTO_3 } from './cirurgia/procto3';
+import { PROCTO_4 } from './cirurgia/procto4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -107,5 +111,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-pancreas', 'Cirurgia', 'Pâncreas', [
     ...PANCREAS_1, ...PANCREAS_2, ...PANCREAS_3, ...PANCREAS_4,
+  ]),
+  ...montarQuestoes('cir-proctologia', 'Cirurgia', 'Proctologia', [
+    ...PROCTO_1, ...PROCTO_2, ...PROCTO_3, ...PROCTO_4,
   ]),
 ];
