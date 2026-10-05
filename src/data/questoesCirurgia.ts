@@ -52,6 +52,38 @@ import { FIOS_1 } from './cirurgia/fios1';
 import { FIOS_2 } from './cirurgia/fios2';
 import { FIOS_3 } from './cirurgia/fios3';
 import { FIOS_4 } from './cirurgia/fios4';
+import { HERNIAS_1 } from './cirurgia/hernias1';
+import { HERNIAS_2 } from './cirurgia/hernias2';
+import { HERNIAS_3 } from './cirurgia/hernias3';
+import { HERNIAS_4 } from './cirurgia/hernias4';
+import { PANCREAS_1 } from './cirurgia/pancreas1';
+import { PANCREAS_2 } from './cirurgia/pancreas2';
+import { PANCREAS_3 } from './cirurgia/pancreas3';
+import { PANCREAS_4 } from './cirurgia/pancreas4';
+import { PROCTO_1 } from './cirurgia/procto1';
+import { PROCTO_2 } from './cirurgia/procto2';
+import { PROCTO_3 } from './cirurgia/procto3';
+import { PROCTO_4 } from './cirurgia/procto4';
+import { QUEIMADURA_1 } from './cirurgia/queimadura1';
+import { QUEIMADURA_2 } from './cirurgia/queimadura2';
+import { QUEIMADURA_3 } from './cirurgia/queimadura3';
+import { QUEIMADURA_4 } from './cirurgia/queimadura4';
+import { RISCO_1 } from './cirurgia/risco1';
+import { RISCO_2 } from './cirurgia/risco2';
+import { RISCO_3 } from './cirurgia/risco3';
+import { RISCO_4 } from './cirurgia/risco4';
+import { TRAUMA_A_1 } from './cirurgia/traumaA1';
+import { TRAUMA_A_2 } from './cirurgia/traumaA2';
+import { TRAUMA_A_3 } from './cirurgia/traumaA3';
+import { TRAUMA_A_4 } from './cirurgia/traumaA4';
+import { TRAUMA_B_1 } from './cirurgia/traumaB1';
+import { TRAUMA_B_2 } from './cirurgia/traumaB2';
+import { TRAUMA_B_3 } from './cirurgia/traumaB3';
+import { TRAUMA_B_4 } from './cirurgia/traumaB4';
+import { UROLOGIA_1 } from './cirurgia/urologia1';
+import { UROLOGIA_2 } from './cirurgia/urologia2';
+import { UROLOGIA_3 } from './cirurgia/urologia3';
+import { UROLOGIA_4 } from './cirurgia/urologia4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -93,5 +125,29 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-fios', 'Cirurgia', 'Fios de Sutura', [
     ...FIOS_1, ...FIOS_2, ...FIOS_3, ...FIOS_4,
+  ]),
+  ...montarQuestoes('cir-hernias', 'Cirurgia', 'Hérnias da Parede Abdominal', [
+    ...HERNIAS_1, ...HERNIAS_2, ...HERNIAS_3, ...HERNIAS_4,
+  ]),
+  ...montarQuestoes('cir-pancreas', 'Cirurgia', 'Pâncreas', [
+    ...PANCREAS_1, ...PANCREAS_2, ...PANCREAS_3, ...PANCREAS_4,
+  ]),
+  ...montarQuestoes('cir-proctologia', 'Cirurgia', 'Proctologia', [
+    ...PROCTO_1, ...PROCTO_2, ...PROCTO_3, ...PROCTO_4,
+  ]),
+  ...montarQuestoes('cir-queimadura', 'Cirurgia', 'Queimadura', [
+    ...QUEIMADURA_1, ...QUEIMADURA_2, ...QUEIMADURA_3, ...QUEIMADURA_4,
+  ]),
+  ...montarQuestoes('cir-risco', 'Cirurgia', 'Risco Cirúrgico', [
+    ...RISCO_1, ...RISCO_2, ...RISCO_3, ...RISCO_4,
+  ]),
+  ...montarQuestoes('cir-trauma-1', 'Cirurgia', 'Trauma I: Avaliação Inicial e Tórax', [
+    ...TRAUMA_A_1, ...TRAUMA_A_2, ...TRAUMA_A_3, ...TRAUMA_A_4,
+  ]),
+  ...montarQuestoes('cir-trauma-2', 'Cirurgia', 'Trauma II: Transição Toracoabdominal, Abdome, Pelve e TCE', [
+    ...TRAUMA_B_1, ...TRAUMA_B_2, ...TRAUMA_B_3, ...TRAUMA_B_4,
+  ]),
+  ...montarQuestoes('cir-urologia', 'Cirurgia', 'Urologia', [
+    ...UROLOGIA_1, ...UROLOGIA_2, ...UROLOGIA_3, ...UROLOGIA_4,
   ]),
 ];

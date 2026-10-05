@@ -251,6 +251,131 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
   ],
   'Clínica Médica': [
     {
+      id: 'cm2_cm_has',
+      label: 'Cardiologia: Hipertensão Arterial',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia hipertensao arterial',
+    },
+    {
+      id: 'cm2_cm_coronaria',
+      label: 'Cardiologia: Doença Coronariana',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia doenca coronariana',
+    },
+    {
+      id: 'cm2_cm_infarto',
+      label: 'Cardiologia: Definição Universal do Infarto do Miocárdio',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia definicao universal do infarto do miocardio',
+    },
+    {
+      id: 'cm2_cm_ic',
+      label: 'Cardiologia: Insuficiência Cardíaca',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia insuficiencia cardiaca',
+    },
+    {
+      id: 'cm2_cm_arritmias',
+      label: 'Cardiologia: Arritmias Cardíacas',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia arritmias cardiacas',
+    },
+    {
+      id: 'cm2_cm_valvas',
+      label: 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia cardiomiopatias valvopatias e pericardite aguda',
+    },
+    {
+      id: 'cm2_cm_pcr',
+      label: 'Cardiologia: Parada Cardiorrespiratória',
+      matches: (q) => normalizeStr(q.topic) === 'cardiologia parada cardiorrespiratoria',
+    },
+    {
+      id: 'cm2_cm_choque',
+      label: 'Terapia Intensiva: Instabilidade Hemodinâmica',
+      matches: (q) => normalizeStr(q.topic) === 'terapia intensiva instabilidade hemodinamica',
+    },
+    {
+      id: 'cm2_cm_asma',
+      label: 'Pneumologia: Asma',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia asma',
+    },
+    {
+      id: 'cm2_cm_tep',
+      label: 'Pneumologia: Tromboembolia Pulmonar',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia tromboembolia pulmonar',
+    },
+    {
+      id: 'cm2_cm_tb',
+      label: 'Pneumologia: Tuberculose',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia tuberculose',
+    },
+    {
+      id: 'cm2_cm_ca_pulmao',
+      label: 'Pneumologia: Câncer de Pulmão',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia cancer de pulmao',
+    },
+    {
+      id: 'cm2_cm_dpoc',
+      label: 'Pneumologia: DPOC',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia dpoc',
+    },
+    {
+      id: 'cm2_cm_irpa',
+      label: 'Pneumologia: Insuficiência Respiratória Aguda',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia insuficiencia respiratoria aguda',
+    },
+    {
+      id: 'cm2_cm_dm',
+      label: 'Endocrinologia: Diabetes Mellitus',
+      matches: (q) => normalizeStr(q.topic) === 'endocrinologia diabetes mellitus',
+    },
+    {
+      id: 'cm2_cm_tireoide',
+      label: 'Endocrinologia: Tireoide',
+      matches: (q) => normalizeStr(q.topic) === 'endocrinologia tireoide',
+    },
+    {
+      id: 'cm2_cm_paratireoide',
+      label: 'Endocrinologia: Paratireoide e Suprarrenal',
+      matches: (q) => normalizeStr(q.topic) === 'endocrinologia paratireoide e suprarrenal',
+    },
+    {
+      id: 'cm2_cm_hep_aguda',
+      label: 'Hepatologia: Hepatopatias Agudas',
+      matches: (q) => normalizeStr(q.topic) === 'hepatologia hepatopatias agudas',
+    },
+    {
+      id: 'cm2_cm_cirrose',
+      label: 'Hepatologia: Hepatopatias Crônicas e Cirrose',
+      matches: (q) => normalizeStr(q.topic) === 'hepatologia hepatopatias cronicas e cirrose',
+    },
+    {
+      id: 'cm2_cm_hip_portal',
+      label: 'Hepatologia: Síndrome da Hipertensão Portal',
+      matches: (q) => normalizeStr(q.topic) === 'hepatologia sindrome da hipertensao portal',
+    },
+    {
+      id: 'cm2_cm_ave',
+      label: 'Neurologia: Acidente Vascular Encefálico',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia acidente vascular encefalico',
+    },
+    {
+      id: 'cm2_cm_cefaleia',
+      label: 'Neurologia: Cefaleia',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia cefaleia',
+    },
+    {
+      id: 'cm2_cm_demencia',
+      label: 'Neurologia: Demência',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia demencia',
+    },
+    {
+      id: 'cm2_cm_motoras',
+      label: 'Neurologia: Doenças Motoras',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia doencas motoras',
+    },
+    {
+      id: 'cm2_cm_epilepsia',
+      label: 'Neurologia: Estado de Mal Epiléptico e Crise Febril',
+      matches: (q) => normalizeStr(q.topic) === 'neurologia estado de mal epileptico e crise febril',
+    },
+    {
       id: 'cm_cardiologia',
       label: 'Cardiologia',
       matches: (q) => normalizeStr(q.topic).includes('cardio'),
@@ -356,6 +481,31 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       id: 'cir_fios_de_sutura',
       label: 'Fios de Sutura',
       matches: (q) => normalizeStr(q.topic).includes('fios de sutura'),
+    },
+    {
+      id: 'cir_pancreas',
+      label: 'Pâncreas',
+      matches: (q) => normalizeStr(q.topic).includes('pancreas'),
+    },
+    {
+      id: 'cir_proctologia',
+      label: 'Proctologia',
+      matches: (q) => normalizeStr(q.topic).includes('proctologia'),
+    },
+    {
+      id: 'cir_risco_cirurgico',
+      label: 'Risco Cirúrgico',
+      matches: (q) => normalizeStr(q.topic).includes('risco cirurgico'),
+    },
+    {
+      id: 'cir_avaliacao_inicial',
+      label: 'Trauma I: Avaliação Inicial e Tórax',
+      matches: (q) => normalizeStr(q.topic).includes('avaliacao inicial'),
+    },
+    {
+      id: 'cir_toracoabdominal',
+      label: 'Trauma II: Transição Toracoabdominal, Abdome, Pelve e TCE',
+      matches: (q) => normalizeStr(q.topic).includes('toracoabdominal'),
     },
     {
       id: 'cir_trauma',
