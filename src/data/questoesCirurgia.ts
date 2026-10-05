@@ -80,6 +80,10 @@ import { TRAUMA_B_1 } from './cirurgia/traumaB1';
 import { TRAUMA_B_2 } from './cirurgia/traumaB2';
 import { TRAUMA_B_3 } from './cirurgia/traumaB3';
 import { TRAUMA_B_4 } from './cirurgia/traumaB4';
+import { UROLOGIA_1 } from './cirurgia/urologia1';
+import { UROLOGIA_2 } from './cirurgia/urologia2';
+import { UROLOGIA_3 } from './cirurgia/urologia3';
+import { UROLOGIA_4 } from './cirurgia/urologia4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -142,5 +146,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-trauma-2', 'Cirurgia', 'Trauma II: Transição Toracoabdominal, Abdome, Pelve e TCE', [
     ...TRAUMA_B_1, ...TRAUMA_B_2, ...TRAUMA_B_3, ...TRAUMA_B_4,
+  ]),
+  ...montarQuestoes('cir-urologia', 'Cirurgia', 'Urologia', [
+    ...UROLOGIA_1, ...UROLOGIA_2, ...UROLOGIA_3, ...UROLOGIA_4,
   ]),
 ];
