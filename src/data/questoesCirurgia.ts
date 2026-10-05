@@ -64,6 +64,10 @@ import { PROCTO_1 } from './cirurgia/procto1';
 import { PROCTO_2 } from './cirurgia/procto2';
 import { PROCTO_3 } from './cirurgia/procto3';
 import { PROCTO_4 } from './cirurgia/procto4';
+import { QUEIMADURA_1 } from './cirurgia/queimadura1';
+import { QUEIMADURA_2 } from './cirurgia/queimadura2';
+import { QUEIMADURA_3 } from './cirurgia/queimadura3';
+import { QUEIMADURA_4 } from './cirurgia/queimadura4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -114,5 +118,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-proctologia', 'Cirurgia', 'Proctologia', [
     ...PROCTO_1, ...PROCTO_2, ...PROCTO_3, ...PROCTO_4,
+  ]),
+  ...montarQuestoes('cir-queimadura', 'Cirurgia', 'Queimadura', [
+    ...QUEIMADURA_1, ...QUEIMADURA_2, ...QUEIMADURA_3, ...QUEIMADURA_4,
   ]),
 ];
