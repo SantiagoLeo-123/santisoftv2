@@ -16,6 +16,10 @@ import { BARIATRICA_1 } from './cirurgia/bariatrica1';
 import { BARIATRICA_2 } from './cirurgia/bariatrica2';
 import { BARIATRICA_3 } from './cirurgia/bariatrica3';
 import { BARIATRICA_4 } from './cirurgia/bariatrica4';
+import { PEDIATRICA_1 } from './cirurgia/pediatrica1';
+import { PEDIATRICA_2 } from './cirurgia/pediatrica2';
+import { PEDIATRICA_3 } from './cirurgia/pediatrica3';
+import { PEDIATRICA_4 } from './cirurgia/pediatrica4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -30,5 +34,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-bariatrica', 'Cirurgia', 'Cirurgia Bariátrica', [
     ...BARIATRICA_1, ...BARIATRICA_2, ...BARIATRICA_3, ...BARIATRICA_4,
+  ]),
+  ...montarQuestoes('cir-pediatrica', 'Cirurgia', 'Cirurgia Pediátrica', [
+    ...PEDIATRICA_1, ...PEDIATRICA_2, ...PEDIATRICA_3, ...PEDIATRICA_4,
   ]),
 ];
