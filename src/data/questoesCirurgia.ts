@@ -68,6 +68,10 @@ import { QUEIMADURA_1 } from './cirurgia/queimadura1';
 import { QUEIMADURA_2 } from './cirurgia/queimadura2';
 import { QUEIMADURA_3 } from './cirurgia/queimadura3';
 import { QUEIMADURA_4 } from './cirurgia/queimadura4';
+import { RISCO_1 } from './cirurgia/risco1';
+import { RISCO_2 } from './cirurgia/risco2';
+import { RISCO_3 } from './cirurgia/risco3';
+import { RISCO_4 } from './cirurgia/risco4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -121,5 +125,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-queimadura', 'Cirurgia', 'Queimadura', [
     ...QUEIMADURA_1, ...QUEIMADURA_2, ...QUEIMADURA_3, ...QUEIMADURA_4,
+  ]),
+  ...montarQuestoes('cir-risco', 'Cirurgia', 'Risco Cirúrgico', [
+    ...RISCO_1, ...RISCO_2, ...RISCO_3, ...RISCO_4,
   ]),
 ];
