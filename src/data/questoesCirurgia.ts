@@ -28,6 +28,10 @@ import { COMPLICACOES_1 } from './cirurgia/complicacoes1';
 import { COMPLICACOES_2 } from './cirurgia/complicacoes2';
 import { COMPLICACOES_3 } from './cirurgia/complicacoes3';
 import { COMPLICACOES_4 } from './cirurgia/complicacoes4';
+import { COLORRETAL_1 } from './cirurgia/colorretal1';
+import { COLORRETAL_2 } from './cirurgia/colorretal2';
+import { COLORRETAL_3 } from './cirurgia/colorretal3';
+import { COLORRETAL_4 } from './cirurgia/colorretal4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -51,5 +55,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-complicacoes', 'Cirurgia', 'Complicações Cirúrgicas', [
     ...COMPLICACOES_1, ...COMPLICACOES_2, ...COMPLICACOES_3, ...COMPLICACOES_4,
+  ]),
+  ...montarQuestoes('cir-colorretal', 'Cirurgia', 'Delgado e Cólon: Pólipos e Câncer Colorretal', [
+    ...COLORRETAL_1, ...COLORRETAL_2, ...COLORRETAL_3, ...COLORRETAL_4,
   ]),
 ];

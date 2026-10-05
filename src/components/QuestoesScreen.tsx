@@ -328,6 +328,11 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic).includes('complicacoes cirurgicas'),
     },
     {
+      id: 'cir_delgado_e_colon',
+      label: 'Delgado e Cólon: Pólipos e Câncer Colorretal',
+      matches: (q) => normalizeStr(q.topic).includes('delgado e colon'),
+    },
+    {
       id: 'cir_trauma',
       label: 'Trauma',
       matches: (q) => normalizeStr(q.topic) === 'trauma' || normalizeStr(q.topic).includes('trauma'),
