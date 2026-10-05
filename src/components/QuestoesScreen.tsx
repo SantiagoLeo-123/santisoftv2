@@ -343,6 +343,11 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic).includes('doencas do esofago'),
     },
     {
+      id: 'cir_doencas_do_estomago',
+      label: 'Doenças do Estômago',
+      matches: (q) => normalizeStr(q.topic).includes('doencas do estomago'),
+    },
+    {
       id: 'cir_trauma',
       label: 'Trauma',
       matches: (q) => normalizeStr(q.topic) === 'trauma' || normalizeStr(q.topic).includes('trauma'),
