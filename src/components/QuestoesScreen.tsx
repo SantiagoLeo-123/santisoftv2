@@ -29,6 +29,7 @@ export type ScreenStage = 'navegacao_banco' | 'em_andamento' | 'resultado_gabari
 export type SpecialtySelection =
   | 'Pediatria'
   | 'Clínica Médica'
+  | 'Clínica Médica 2'
   | 'Cirurgia'
   | 'Ginecologia e Obstetrícia'
   | 'Preventiva';
@@ -82,11 +83,19 @@ const SPECIALTIES_CONFIG: {
   },
   {
     id: 'Clínica Médica',
-    label: 'Clínica Médica',
-    shortLabel: 'Clínica Médica',
+    label: 'Clínica Médica 1',
+    shortLabel: 'Clínica Médica 1',
     iconBg: 'bg-blue-950/60',
     textColor: 'text-blue-400',
     borderColor: 'border-blue-800/50',
+  },
+  {
+    id: 'Clínica Médica 2',
+    label: 'Clínica Médica 2',
+    shortLabel: 'Clínica Médica 2',
+    iconBg: 'bg-sky-950/60',
+    textColor: 'text-sky-400',
+    borderColor: 'border-sky-800/50',
   },
   {
     id: 'Cirurgia',
@@ -113,6 +122,9 @@ const SPECIALTIES_CONFIG: {
     borderColor: 'border-teal-800/50',
   },
 ];
+
+// Clínica Médica 1 e 2 dividem a mesma especialidade nos dados das questões
+const dataSpec = (s: SpecialtySelection): string => (s === 'Clínica Médica 2' ? 'Clínica Médica' : s);
 
 // Mapeamento estrito dos subtemas por Grande Área (Nível 2)
 const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
@@ -249,7 +261,8 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       },
     },
   ],
-  'Clínica Médica': [
+  'Clínica Médica': [],
+  'Clínica Médica 2': [
     {
       id: 'cm2_cm_has',
       label: 'Cardiologia: Hipertensão Arterial',
@@ -801,7 +814,7 @@ export function QuestoesScreen({
 
     const baseQuestions = questoesData.filter((q) => {
       if (q.isRevisao === true) return false;
-      return q.specialty === selectedSpecialty;
+      return q.specialty === dataSpec(selectedSpecialty);
     });
 
     for (const sub of subtopics) {
@@ -839,7 +852,7 @@ export function QuestoesScreen({
       if (q.isRevisao === true) return false;
 
       // 2. Mesma especialidade
-      if (q.specialty !== selectedSpecialty) return false;
+      if (q.specialty !== dataSpec(selectedSpecialty)) return false;
 
       // 3. Filtro Estrito: normalização com trim e toLowerCase para evitar discrepâncias
       if (activeSub) {
@@ -922,7 +935,13 @@ export function QuestoesScreen({
   useEffect(() => {
     if (initialRevision) {
       setActiveRevision(initialRevision);
-      const spec = (initialRevision.especialidade as SpecialtySelection) || 'Pediatria';
+      const rawSpec = (initialRevision.especialidade as SpecialtySelection) || 'Pediatria';
+      const temaNorm = normalizeStr(initialRevision.tema);
+      const spec: SpecialtySelection =
+        rawSpec === 'Clínica Médica' &&
+        SUBTEMAS_POR_AREA['Clínica Médica 2'].some((sub) => normalizeStr(sub.label) === temaNorm)
+          ? 'Clínica Médica 2'
+          : rawSpec;
       setSelectedSpecialty(spec);
       setSelectedSubtopic(initialRevision.tema);
 
@@ -930,7 +949,7 @@ export function QuestoesScreen({
         const needle = normalizeStr(initialRevision.tema);
         const revisionPool = questoesData.filter((q) => {
           if (q.isRevisao !== true) return false;
-          if (q.specialty !== spec) return false;
+          if (q.specialty !== dataSpec(spec)) return false;
           const top = normalizeStr(q.topic);
           const sub = normalizeStr(q.subtopic || '');
           return top === needle || sub === needle || top.includes(needle) || needle.includes(top);
@@ -1593,7 +1612,7 @@ export function QuestoesScreen({
             </label>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-2.5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-2.5">
             {SPECIALTIES_CONFIG.map((spec) => {
               const isSelected = selectedSpecialty === spec.id;
               return (
@@ -2157,7 +2176,7 @@ export function QuestoesScreen({
                     setShowRevisionFallbackModal(false);
                     if (pendingRevisionPayload) {
                       const pool = questoesData
-                        .filter((q) => q.isRevisao !== true && q.specialty === pendingRevisionPayload.spec)
+                        .filter((q) => q.isRevisao !== true && q.specialty === dataSpec(pendingRevisionPayload.spec))
                         .slice(0, 30);
                       startSimuladoWithPool(pool);
                       setPendingRevisionPayload(null);
