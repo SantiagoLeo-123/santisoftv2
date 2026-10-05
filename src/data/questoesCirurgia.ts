@@ -12,6 +12,10 @@ import { CICATRIZACAO_1 } from './cirurgia/cicatrizacao1';
 import { CICATRIZACAO_2 } from './cirurgia/cicatrizacao2';
 import { CICATRIZACAO_3 } from './cirurgia/cicatrizacao3';
 import { CICATRIZACAO_4 } from './cirurgia/cicatrizacao4';
+import { BARIATRICA_1 } from './cirurgia/bariatrica1';
+import { BARIATRICA_2 } from './cirurgia/bariatrica2';
+import { BARIATRICA_3 } from './cirurgia/bariatrica3';
+import { BARIATRICA_4 } from './cirurgia/bariatrica4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -23,5 +27,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-cicatrizacao', 'Cirurgia', 'Cicatrização', [
     ...CICATRIZACAO_1, ...CICATRIZACAO_2, ...CICATRIZACAO_3, ...CICATRIZACAO_4,
+  ]),
+  ...montarQuestoes('cir-bariatrica', 'Cirurgia', 'Cirurgia Bariátrica', [
+    ...BARIATRICA_1, ...BARIATRICA_2, ...BARIATRICA_3, ...BARIATRICA_4,
   ]),
 ];
