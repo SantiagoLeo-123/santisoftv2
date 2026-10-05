@@ -56,6 +56,10 @@ import { HERNIAS_1 } from './cirurgia/hernias1';
 import { HERNIAS_2 } from './cirurgia/hernias2';
 import { HERNIAS_3 } from './cirurgia/hernias3';
 import { HERNIAS_4 } from './cirurgia/hernias4';
+import { PANCREAS_1 } from './cirurgia/pancreas1';
+import { PANCREAS_2 } from './cirurgia/pancreas2';
+import { PANCREAS_3 } from './cirurgia/pancreas3';
+import { PANCREAS_4 } from './cirurgia/pancreas4';
 // Banco de Clínica Cirúrgica: 100 questões autorais por tema, em estilo de prova de residência.
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
@@ -100,5 +104,8 @@ export const QUESTOES_CIRURGIA: Question[] = [
   ]),
   ...montarQuestoes('cir-hernias', 'Cirurgia', 'Hérnias da Parede Abdominal', [
     ...HERNIAS_1, ...HERNIAS_2, ...HERNIAS_3, ...HERNIAS_4,
+  ]),
+  ...montarQuestoes('cir-pancreas', 'Cirurgia', 'Pâncreas', [
+    ...PANCREAS_1, ...PANCREAS_2, ...PANCREAS_3, ...PANCREAS_4,
   ]),
 ];
