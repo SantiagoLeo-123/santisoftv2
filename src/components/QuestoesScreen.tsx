@@ -21,6 +21,7 @@ import {
 } from 'lucide-react';
 import { questoesData } from '@/data/questoes';
 import { concluirCicloRevisao } from '@/services/mentorService';
+import { useProfileState } from '@/hooks/useProfileState';
 import type { Question } from '@/types';
 
 export type ScreenStage = 'navegacao_banco' | 'em_andamento' | 'resultado_gabarito';
@@ -604,7 +605,10 @@ export function QuestoesScreen({
   const [currentPage, setCurrentPage] = useState<number>(1);
 
   // Respostas interativas em tempo real no Banco Livre { [questionId]: 'A' | 'B' | ... }
-  const [practiceAnswers, setPracticeAnswers] = useState<Record<string, 'A' | 'B' | 'C' | 'D' | 'E'>>({});
+  const [practiceAnswers, setPracticeAnswers] = useProfileState<Record<string, 'A' | 'B' | 'C' | 'D' | 'E'>>(
+    'question_answers',
+    {},
+  );
   // Comentários expandidos individualmente { [questionId]: boolean }
   const [expandedComments, setExpandedComments] = useState<Set<string>>(() => new Set());
 

@@ -12,6 +12,7 @@ import {
 import type { Profile } from '@/lib/supabase';
 import { SantiSoftLogo } from '@/components/Logo';
 import { PWAInstallButton } from '@/components/PWAInstallButton';
+import { useSyncStatus } from '@/hooks/useProfileState';
 
 interface HeaderProps {
   onToggleSidebar: () => void;
@@ -54,6 +55,22 @@ export function Header({
     if (showProfileMenu) document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
   }, [showProfileMenu]);
+
+  const sync = useSyncStatus();
+  const syncLabel =
+    sync.status === 'synced'
+      ? 'Sincronizado na nuvem'
+      : sync.status === 'syncing'
+        ? 'Sincronizando...'
+        : sync.status === 'error'
+          ? 'Sem conexão com a nuvem'
+          : 'Salvo só neste aparelho';
+  const syncColor =
+    sync.status === 'synced'
+      ? 'text-emerald-500'
+      : sync.status === 'syncing'
+        ? 'text-zinc-400'
+        : 'text-amber-500';
 
   const profileName = activeProfile?.name ?? '';
   const profileInitial = profileName.charAt(0).toUpperCase();
@@ -158,9 +175,12 @@ export function Header({
                     </span>
                     <div className="min-w-0">
                       <div className="text-xs font-semibold text-white truncate">{profileName}</div>
-                      <div className="text-[10px] text-emerald-500 flex items-center gap-1">
-                        <RefreshCw className="w-3 h-3" />
-                        Sincronizado na nuvem
+                      <div
+                        className={`text-[10px] ${syncColor} flex items-center gap-1`}
+                        title={sync.error || undefined}
+                      >
+                        <RefreshCw className={`w-3 h-3 ${sync.status === 'syncing' ? 'animate-spin' : ''}`} />
+                        {syncLabel}
                       </div>
                     </div>
                   </div>

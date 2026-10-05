@@ -1,5 +1,5 @@
 // SantiSOFT Service Worker - Offline & PWA support
-const CACHE_NAME = 'santisoft-cache-v2';
+const CACHE_NAME = 'santisoft-cache-v3';
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
@@ -44,6 +44,22 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   // Let external streaming / drive video traffic pass through
   if (url.origin !== self.location.origin) {
+    return;
+  }
+
+  // Navegação (index.html): rede primeiro, para o app atualizar logo após um deploy
+  if (request.mode === 'navigate') {
+    event.respondWith(
+      fetch(request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const copy = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put('/', copy));
+          }
+          return networkResponse;
+        })
+        .catch(() => caches.match('/'))
+    );
     return;
   }
 
