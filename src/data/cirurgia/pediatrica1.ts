@@ -120,7 +120,7 @@ export const PEDIATRICA_1: QuestaoCompacta[] = [
     o: ['Torção testicular', 'Orquiepididimite', 'Hidrocele', 'Varicocele'],
     g: 'B',
     c: 'Na orquiepididimite a elevação do testículo alivia a dor (Prehn positivo), o reflexo cremastérico está presente e pode haver febre e sintomas urinários. Na torção a dor não melhora e o reflexo está ausente.',
-    x: { A: 'Na torção a dor não melhora com a elevação.', C: 'É indolor.', D: 'Não causa dor aguda.' },
+    x: { A: 'Na torção a dor não melhora com a elevação.', C: 'A hidrocele é indolor.', D: 'A varicocele não causa dor aguda.' },
   },
   {
     s: 'Fimose',

@@ -144,7 +144,7 @@ export const PEDIATRICA_4: QuestaoCompacta[] = [
     o: ['Pectus carinatum', 'Pectus excavatum', 'Síndrome de Poland', 'Fenda esternal'],
     g: 'B',
     c: 'O pectus excavatum (tórax em funil) é a deformidade torácica mais frequente. A maioria dos pacientes é assintomática; a correção, geralmente pela técnica minimamente invasiva de Nuss, é indicada por repercussão funcional ou psicológica.',
-    x: { A: 'É a protrusão do esterno, menos comum.', C: 'É a ausência do músculo peitoral maior.', D: 'É rara.' },
+    x: { A: 'É a protrusão do esterno, menos comum.', C: 'É a ausência do músculo peitoral maior.', D: 'A fenda esternal é rara.' },
   },
   {
     s: 'Lesões por Cáusticos',

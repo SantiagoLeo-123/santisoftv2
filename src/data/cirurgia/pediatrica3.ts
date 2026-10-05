@@ -128,7 +128,7 @@ export const PEDIATRICA_3: QuestaoCompacta[] = [
     o: ['Cisto tireoglosso', 'Cisto branquial, em geral da segunda fenda', 'Bócio', 'Torcicolo congênito'],
     g: 'B',
     c: 'As anomalias branquiais são laterais. As da segunda fenda são as mais comuns e situam-se na borda anterior do esternocleidomastóideo, podendo ter fístula para a fossa amigdaliana. O tratamento é a ressecção completa do cisto e do trajeto.',
-    x: { A: 'É mediano.', C: 'É mediano e move-se à deglutição.', D: 'É massa do próprio músculo, em lactentes.' },
+    x: { A: 'O cisto tireoglosso é mediano.', C: 'O bócio é mediano e move-se à deglutição.', D: 'É massa do próprio músculo, em lactentes.' },
   },
   {
     s: 'Massas Cervicais',
