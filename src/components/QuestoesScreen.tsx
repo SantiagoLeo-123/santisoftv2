@@ -296,6 +296,21 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic) === 'pneumologia asma',
     },
     {
+      id: 'cm2_cm_tep',
+      label: 'Pneumologia: Tromboembolia Pulmonar',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia tromboembolia pulmonar',
+    },
+    {
+      id: 'cm2_cm_tb',
+      label: 'Pneumologia: Tuberculose',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia tuberculose',
+    },
+    {
+      id: 'cm2_cm_ca_pulmao',
+      label: 'Pneumologia: Câncer de Pulmão',
+      matches: (q) => normalizeStr(q.topic) === 'pneumologia cancer de pulmao',
+    },
+    {
       id: 'cm_cardiologia',
       label: 'Cardiologia',
       matches: (q) => normalizeStr(q.topic).includes('cardio'),

@@ -36,6 +36,18 @@ import { ASMA_1 } from './clinica/cmAsma1';
 import { ASMA_2 } from './clinica/cmAsma2';
 import { ASMA_3 } from './clinica/cmAsma3';
 import { ASMA_4 } from './clinica/cmAsma4';
+import { TEP_1 } from './clinica/cmTep1';
+import { TEP_2 } from './clinica/cmTep2';
+import { TEP_3 } from './clinica/cmTep3';
+import { TEP_4 } from './clinica/cmTep4';
+import { TB_1 } from './clinica/cmTb1';
+import { TB_2 } from './clinica/cmTb2';
+import { TB_3 } from './clinica/cmTb3';
+import { TB_4 } from './clinica/cmTb4';
+import { CA_PULMAO_1 } from './clinica/cmCaPulmao1';
+import { CA_PULMAO_2 } from './clinica/cmCaPulmao2';
+import { CA_PULMAO_3 } from './clinica/cmCaPulmao3';
+import { CA_PULMAO_4 } from './clinica/cmCaPulmao4';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -65,5 +77,14 @@ export const QUESTOES_CLINICA: Question[] = [
   ]),
   ...montarQuestoes('cm-asma', 'Clínica Médica', 'Pneumologia: Asma', [
     ...ASMA_1, ...ASMA_2, ...ASMA_3, ...ASMA_4,
+  ]),
+  ...montarQuestoes('cm-tep', 'Clínica Médica', 'Pneumologia: Tromboembolia Pulmonar', [
+    ...TEP_1, ...TEP_2, ...TEP_3, ...TEP_4,
+  ]),
+  ...montarQuestoes('cm-tb', 'Clínica Médica', 'Pneumologia: Tuberculose', [
+    ...TB_1, ...TB_2, ...TB_3, ...TB_4,
+  ]),
+  ...montarQuestoes('cm-ca-pulmao', 'Clínica Médica', 'Pneumologia: Câncer de Pulmão', [
+    ...CA_PULMAO_1, ...CA_PULMAO_2, ...CA_PULMAO_3, ...CA_PULMAO_4,
   ]),
 ];
