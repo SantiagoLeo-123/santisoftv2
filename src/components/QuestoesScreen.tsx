@@ -476,16 +476,6 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic).includes('toracoabdominal'),
     },
     {
-      id: 'cir_trauma',
-      label: 'Trauma',
-      matches: (q) => normalizeStr(q.topic) === 'trauma' || normalizeStr(q.topic).includes('trauma'),
-    },
-    {
-      id: 'cir_digestivo',
-      label: 'Cirurgia do Aparelho Digestivo',
-      matches: (q) => normalizeStr(q.topic).includes('digestivo'),
-    },
-    {
       id: 'cir_urologia',
       label: 'Urologia',
       matches: (q) => normalizeStr(q.topic).includes('urologia'),
