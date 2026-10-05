@@ -378,6 +378,11 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic).includes('avaliacao inicial'),
     },
     {
+      id: 'cir_toracoabdominal',
+      label: 'Trauma II: Transição Toracoabdominal, Abdome, Pelve e TCE',
+      matches: (q) => normalizeStr(q.topic).includes('toracoabdominal'),
+    },
+    {
       id: 'cir_trauma',
       label: 'Trauma',
       matches: (q) => normalizeStr(q.topic) === 'trauma' || normalizeStr(q.topic).includes('trauma'),
