@@ -38,7 +38,7 @@ export interface RevisionExamConfig {
   temaId: string;
   tema: string;
   especialidade: string;
-  ciclo: 'R1' | 'R2' | 'R3';
+  ciclo: 'R1' | 'R2' | 'R3' | 'R4';
   diasCiclo: number;
   autoStart?: boolean;
 }
@@ -1112,14 +1112,27 @@ export function QuestoesScreen({
         }
       }
 
-      concluirCicloRevisao(activeRevision.temaId, activeRevision.ciclo, {
+      const totalRev = examQuestions.length;
+      const pct = totalRev > 0 ? Math.round((correct / totalRev) * 100) : 0;
+      const atualizado = concluirCicloRevisao(activeRevision.temaId, activeRevision.ciclo, {
         acertos: correct,
-        total: examQuestions.length,
+        total: totalRev,
       });
 
-      setRevisionCompletionMessage(
-        `Ciclo [${activeRevision.ciclo}] concluído com sucesso (${correct}/${examQuestions.length} acertos)! Próxima revisão agendada no Mentor Inteligente.`,
-      );
+      const resumo = `Você acertou ${pct}% e errou ${100 - pct}% (${correct}/${totalRev}).`;
+      let proxima = '';
+      if (atualizado && atualizado.cicloAtual !== 'FINALIZADO') {
+        const prox = atualizado.ciclos[atualizado.cicloAtual];
+        const [ano, mes, dia] = prox.dataPrevista.split('-');
+        proxima = ` Próxima revisão: ${dia}/${mes}/${ano}.`;
+      }
+      let regra = 'Revisão registrada no Mentor Inteligente.';
+      if (atualizado?.ultimoResultado === 'avancou') regra = 'Com 80% ou mais, você avança para o próximo intervalo.';
+      else if (atualizado?.ultimoResultado === 'repetiu') regra = 'Entre 60% e 79%, o mesmo intervalo será repetido antes de avançar.';
+      else if (atualizado?.ultimoResultado === 'reiniciou') regra = 'Abaixo de 60%, o tema volta para a revisão de 7 dias.';
+      else if (atualizado?.ultimoResultado === 'finalizou') regra = 'Você concluiu todas as revisões deste tema.';
+
+      setRevisionCompletionMessage(`${resumo} ${regra}${proxima}`);
     }
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1445,10 +1458,14 @@ export function QuestoesScreen({
                 <span className="text-2xl sm:text-3xl font-black text-emerald-400 tabular-nums">
                   {examStats.correct}<span className="text-xs text-zinc-500 font-normal">/{examStats.total}</span>
                 </span>
+                <span className="text-xs font-bold text-emerald-400/80 block mt-0.5 tabular-nums">{examStats.percentage}% de acerto</span>
               </div>
               <div className="p-3.5 rounded-xl bg-ink-900 border border-ink-875 text-center">
                 <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider block mb-1">Erros</span>
                 <span className="text-2xl sm:text-3xl font-black text-red-400 tabular-nums">{examStats.wrong}</span>
+                <span className="text-xs font-bold text-red-400/80 block mt-0.5 tabular-nums">
+                  {examStats.total > 0 ? Math.round(((examStats.total - examStats.correct) / examStats.total) * 100) : 0}% de erro
+                </span>
               </div>
               <div className="p-3.5 rounded-xl bg-ink-900 border border-ink-875 text-center">
                 <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider block mb-1">Tempo</span>

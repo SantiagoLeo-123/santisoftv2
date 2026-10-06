@@ -4,11 +4,20 @@ import { readState, writeState } from '@/lib/profileStore';
 
 export const MENTOR_STORAGE_KEY = 'santisoft_mentor_revisoes';
 
-export type CicloRevisao = 'R1' | 'R2' | 'R3';
+export type CicloRevisao = 'R1' | 'R2' | 'R3' | 'R4';
+
+// Sequência de revisões: dias após a conclusão da aula
+export const CICLOS_ORDEM: CicloRevisao[] = ['R1', 'R2', 'R3', 'R4'];
+export const DIAS_CICLO: Record<CicloRevisao, number> = { R1: 7, R2: 15, R3: 30, R4: 60 };
+// Regra adaptativa pelo percentual de acerto no simulado de revisão
+export const LIMITE_AVANCA = 80; // >= 80%: avança para o próximo intervalo
+export const LIMITE_REPETE = 60; // 60 a 79%: repete o mesmo intervalo; < 60%: volta para 7 dias
+
+export type ResultadoRevisao = 'avancou' | 'repetiu' | 'reiniciou' | 'finalizou';
 
 export interface CicloInfo {
   ciclo: CicloRevisao;
-  diasAposConclusao: number; // 7, 30, 60
+  diasAposConclusao: number; // 7, 15, 30, 60
   dataPrevista: string; // YYYY-MM-DD
   concluido: boolean;
   dataConclusao?: string;
@@ -24,8 +33,11 @@ export interface TemaRevisao {
     R1: CicloInfo;
     R2: CicloInfo;
     R3: CicloInfo;
+    R4: CicloInfo;
   };
   cicloAtual: CicloRevisao | 'FINALIZADO';
+  ultimoResultado?: ResultadoRevisao;
+  ultimoPercentual?: number;
 }
 
 export interface RevisaoPendente {
@@ -168,6 +180,30 @@ export function getMentorStore(): MentorStore {
       }
     }
 
+    // Migra temas gravados no formato antigo (R1 7d, R2 30d, R3 60d) para 7, 15, 30 e 60 dias
+    for (const key of Object.keys(store)) {
+      const item = store[key] as TemaRevisao;
+      if (!item || !item.ciclos || item.ciclos.R4) continue;
+      const antigo = item.ciclos as unknown as { R1: CicloInfo; R2: CicloInfo; R3: CicloInfo };
+      const base = parseDateStr(item.dataConclusaoAula || toDateStr(new Date()));
+      const r1Feito = !!antigo.R1?.concluido;
+      const novoR2: CicloInfo = {
+        ciclo: 'R2',
+        diasAposConclusao: 15,
+        dataPrevista: toDateStr(addDays(base, 15)),
+        // quem já tinha passado da revisão de 30 dias não precisa voltar para a de 15
+        concluido: !!antigo.R2?.concluido,
+        dataConclusao: antigo.R2?.concluido ? antigo.R2.dataConclusao : undefined,
+      };
+      const novoR3: CicloInfo = { ...antigo.R2, ciclo: 'R3', diasAposConclusao: 30 };
+      const novoR4: CicloInfo = { ...antigo.R3, ciclo: 'R4', diasAposConclusao: 60 };
+      item.ciclos = { R1: antigo.R1, R2: novoR2, R3: novoR3, R4: novoR4 };
+      const atualAntigo = item.cicloAtual as string;
+      if (atualAntigo === 'R2') item.cicloAtual = r1Feito ? 'R2' : 'R1';
+      else if (atualAntigo === 'R3') item.cicloAtual = 'R4';
+      modified = true;
+    }
+
     if (modified) {
       writeState('mentor_revisoes', store);
     }
@@ -197,7 +233,7 @@ export function saveMentorStore(store: MentorStore): void {
 }
 
 /**
- * 1. Registra a conclusão de uma aula e agenda automaticamente R1 (7d), R2 (30d) e R3 (60d)
+ * 1. Registra a conclusão de uma aula e agenda automaticamente R1 (7d), R2 (15d), R3 (30d) e R4 (60d)
  */
 export function registrarConclusaoAula(
   lessonId: string,
@@ -212,9 +248,12 @@ export function registrarConclusaoAula(
   const now = new Date();
   const todayStr = toDateStr(now);
 
-  const r1Date = toDateStr(addDays(now, 7));
-  const r2Date = toDateStr(addDays(now, 30));
-  const r3Date = toDateStr(addDays(now, 60));
+  const novoCiclo = (ciclo: CicloRevisao): CicloInfo => ({
+    ciclo,
+    diasAposConclusao: DIAS_CICLO[ciclo],
+    dataPrevista: toDateStr(addDays(now, DIAS_CICLO[ciclo])),
+    concluido: false,
+  });
 
   const novoTema: TemaRevisao = {
     id: lessonId,
@@ -222,24 +261,10 @@ export function registrarConclusaoAula(
     especialidade,
     dataConclusaoAula: todayStr,
     ciclos: {
-      R1: {
-        ciclo: 'R1',
-        diasAposConclusao: 7,
-        dataPrevista: r1Date,
-        concluido: false,
-      },
-      R2: {
-        ciclo: 'R2',
-        diasAposConclusao: 30,
-        dataPrevista: r2Date,
-        concluido: false,
-      },
-      R3: {
-        ciclo: 'R3',
-        diasAposConclusao: 60,
-        dataPrevista: r3Date,
-        concluido: false,
-      },
+      R1: novoCiclo('R1'),
+      R2: novoCiclo('R2'),
+      R3: novoCiclo('R3'),
+      R4: novoCiclo('R4'),
     },
     cicloAtual: 'R1',
   };
@@ -379,31 +404,55 @@ export function concluirCicloRevisao(
   const now = new Date();
   const todayStr = toDateStr(now);
 
-  // Marca ciclo atual como concluído
-  if (item.ciclos[cicloConcluido]) {
-    item.ciclos[cicloConcluido].concluido = true;
-    item.ciclos[cicloConcluido].dataConclusao = todayStr;
-    if (pontuacao) {
-      item.ciclos[cicloConcluido].pontuacaoSimulado = pontuacao;
-    }
-  }
+  const percentual =
+    pontuacao && pontuacao.total > 0 ? Math.round((pontuacao.acertos / pontuacao.total) * 100) : 100;
+  const atual = item.ciclos[cicloConcluido];
+  const idx = CICLOS_ORDEM.indexOf(cicloConcluido);
+  // intervalo deste ciclo = dias desde a revisão anterior (7, 8, 15 e 30)
+  const intervalo = idx > 0 ? DIAS_CICLO[cicloConcluido] - DIAS_CICLO[CICLOS_ORDEM[idx - 1]] : DIAS_CICLO.R1;
 
-  // Avança para o próximo ciclo
-  if (cicloConcluido === 'R1') {
-    item.cicloAtual = 'R2';
-    // Garante que a data prevista de R2 seja no futuro (30 dias após hoje)
-    const proximaData = toDateStr(addDays(now, 30));
-    if (item.ciclos.R2.dataPrevista <= todayStr) {
-      item.ciclos.R2.dataPrevista = proximaData;
+  if (atual && pontuacao) atual.pontuacaoSimulado = pontuacao;
+  item.ultimoPercentual = percentual;
+
+  if (percentual < LIMITE_REPETE) {
+    // Abaixo de 60%: recomeça a sequência a partir da revisão de 7 dias
+    for (const c of CICLOS_ORDEM) {
+      const info = item.ciclos[c];
+      if (!info) continue;
+      info.concluido = false;
+      info.dataConclusao = undefined;
+      info.dataPrevista = toDateStr(addDays(now, DIAS_CICLO[c]));
     }
-  } else if (cicloConcluido === 'R2') {
-    item.cicloAtual = 'R3';
-    const proximaData = toDateStr(addDays(now, 30));
-    if (item.ciclos.R3.dataPrevista <= todayStr) {
-      item.ciclos.R3.dataPrevista = proximaData;
+    item.cicloAtual = 'R1';
+    item.ultimoResultado = 'reiniciou';
+  } else if (percentual < LIMITE_AVANCA) {
+    // Entre 60 e 79%: repete o mesmo intervalo antes de avançar
+    if (atual) {
+      atual.concluido = false;
+      atual.dataPrevista = toDateStr(addDays(now, intervalo));
     }
-  } else if (cicloConcluido === 'R3') {
-    item.cicloAtual = 'FINALIZADO';
+    item.cicloAtual = cicloConcluido;
+    item.ultimoResultado = 'repetiu';
+  } else {
+    // 80% ou mais: conclui o ciclo e avança
+    if (atual) {
+      atual.concluido = true;
+      atual.dataConclusao = todayStr;
+    }
+    const proximo = CICLOS_ORDEM[idx + 1];
+    if (proximo && item.ciclos[proximo]) {
+      item.cicloAtual = proximo;
+      // Garante que a próxima revisão fique no futuro
+      if (item.ciclos[proximo].dataPrevista <= todayStr) {
+        item.ciclos[proximo].dataPrevista = toDateStr(
+          addDays(now, DIAS_CICLO[proximo] - DIAS_CICLO[cicloConcluido]),
+        );
+      }
+      item.ultimoResultado = 'avancou';
+    } else {
+      item.cicloAtual = 'FINALIZADO';
+      item.ultimoResultado = 'finalizou';
+    }
   }
 
   saveMentorStore(store);

@@ -94,15 +94,23 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
       return {
         bg: 'bg-purple-500/15 text-purple-400 border-purple-500/30',
         text: 'text-purple-400',
-        label: `R2 (${dias || 30} dias)`,
-        desc: '2º Ciclo de Memória (30 dias)',
+        label: `R2 (${dias || 15} dias)`,
+        desc: '2º Ciclo de Reforço (15 dias)',
+      };
+    }
+    if (ciclo === 'R3') {
+      return {
+        bg: 'bg-amber-500/15 text-amber-400 border-amber-500/30',
+        text: 'text-amber-400',
+        label: `R3 (${dias || 30} dias)`,
+        desc: '3º Ciclo de Memória (30 dias)',
       };
     }
     return {
-      bg: 'bg-amber-500/15 text-amber-400 border-amber-500/30',
-      text: 'text-amber-400',
-      label: `R3 (${dias || 60} dias)`,
-      desc: '3º Ciclo de Longo Prazo (60 dias)',
+      bg: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
+      text: 'text-emerald-400',
+      label: `R4 (${dias || 60} dias)`,
+      desc: '4º Ciclo de Longo Prazo (60 dias)',
     };
   };
 
@@ -117,7 +125,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
       pontuacao?: { acertos: number; total: number };
     }> = [];
 
-    (['R1', 'R2', 'R3'] as CicloRevisao[]).forEach((cicloKey) => {
+    (['R1', 'R2', 'R3', 'R4'] as CicloRevisao[]).forEach((cicloKey) => {
       const c = tema.ciclos[cicloKey];
       if (c && c.concluido) {
         arr.push({
@@ -604,7 +612,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
             <div className="p-3 rounded-xl bg-ink-950/60 border border-cyan-500/20 space-y-1">
               <span className="text-[11px] font-black text-cyan-400 block uppercase">
-                1. Ciclo R1 (24h - 7 Dias)
+                1. Ciclo R1 (7 Dias)
               </span>
               <p className="text-zinc-400 leading-relaxed">
                 Combate a Curva do Esquecimento imediata de Ebbinghaus, reforçando o traço de memória nas primeiras horas após assistir a aula.
@@ -613,7 +621,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
 
             <div className="p-3 rounded-xl bg-ink-950/60 border border-purple-500/20 space-y-1">
               <span className="text-[11px] font-black text-purple-400 block uppercase">
-                2. Ciclo R2 (30 Dias)
+                2. Ciclos R2 e R3 (15 e 30 Dias)
               </span>
               <p className="text-zinc-400 leading-relaxed">
                 Transfere o conteúdo da memória de trabalho/recente para a memória de médio e longo prazo com resolução ativa de casos clínicos.
@@ -622,10 +630,10 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
 
             <div className="p-3 rounded-xl bg-ink-950/60 border border-amber-500/20 space-y-1">
               <span className="text-[11px] font-black text-amber-400 block uppercase">
-                3. Ciclo R3 (60 Dias)
+                3. Ciclo R4 (60 Dias)
               </span>
               <p className="text-zinc-400 leading-relaxed">
-                Consolidação definitiva para as provas de Residência Médica (R1). Conteúdo pronto para evocação instantânea sob pressão.
+                Consolidação para as provas de Residência. O intervalo se ajusta ao seu resultado: 80% ou mais avança; de 60% a 79% repete o mesmo intervalo; abaixo de 60% volta para 7 dias.
               </p>
             </div>
           </div>
