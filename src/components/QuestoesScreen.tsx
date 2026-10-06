@@ -297,6 +297,21 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       label: 'Hematologia: Série Branca (Linfoma e Mieloma)',
       matches: (q) => normalizeStr(q.topic) === 'hematologia serie branca linfoma e mieloma',
     },
+    {
+      id: 'cm1_plaquetas',
+      label: 'Hematologia: Série Plaquetária',
+      matches: (q) => normalizeStr(q.topic) === 'hematologia serie plaquetaria',
+    },
+    {
+      id: 'cm1_febris',
+      label: 'Infectologia: Síndromes Febris',
+      matches: (q) => normalizeStr(q.topic) === 'infectologia sindromes febris',
+    },
+    {
+      id: 'cm1_hiv',
+      label: 'Infectologia: HIV e AIDS',
+      matches: (q) => normalizeStr(q.topic) === 'infectologia hiv e aids',
+    },
   ],
   'Clínica Médica 2': [
     {

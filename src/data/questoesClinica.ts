@@ -136,6 +136,18 @@ import { LINFOMAS_1 } from './clinica/cm1Linfomas1';
 import { LINFOMAS_2 } from './clinica/cm1Linfomas2';
 import { LINFOMAS_3 } from './clinica/cm1Linfomas3';
 import { LINFOMAS_4 } from './clinica/cm1Linfomas4';
+import { PLAQUETAS_1 } from './clinica/cm1Plaquetas1';
+import { PLAQUETAS_2 } from './clinica/cm1Plaquetas2';
+import { PLAQUETAS_3 } from './clinica/cm1Plaquetas3';
+import { PLAQUETAS_4 } from './clinica/cm1Plaquetas4';
+import { FEBRIS_1 } from './clinica/cm1Febris1';
+import { FEBRIS_2 } from './clinica/cm1Febris2';
+import { FEBRIS_3 } from './clinica/cm1Febris3';
+import { FEBRIS_4 } from './clinica/cm1Febris4';
+import { HIV_1 } from './clinica/cm1Hiv1';
+import { HIV_2 } from './clinica/cm1Hiv2';
+import { HIV_3 } from './clinica/cm1Hiv3';
+import { HIV_4 } from './clinica/cm1Hiv4';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -240,5 +252,14 @@ export const QUESTOES_CLINICA: Question[] = [
   ]),
   ...montarQuestoes('cm1-linfomas', 'Clínica Médica', 'Hematologia: Série Branca (Linfoma e Mieloma)', [
     ...LINFOMAS_1, ...LINFOMAS_2, ...LINFOMAS_3, ...LINFOMAS_4,
+  ]),
+  ...montarQuestoes('cm1-plaquetas', 'Clínica Médica', 'Hematologia: Série Plaquetária', [
+    ...PLAQUETAS_1, ...PLAQUETAS_2, ...PLAQUETAS_3, ...PLAQUETAS_4,
+  ]),
+  ...montarQuestoes('cm1-febris', 'Clínica Médica', 'Infectologia: Síndromes Febris', [
+    ...FEBRIS_1, ...FEBRIS_2, ...FEBRIS_3, ...FEBRIS_4,
+  ]),
+  ...montarQuestoes('cm1-hiv', 'Clínica Médica', 'Infectologia: HIV e AIDS', [
+    ...HIV_1, ...HIV_2, ...HIV_3, ...HIV_4,
   ]),
 ];
