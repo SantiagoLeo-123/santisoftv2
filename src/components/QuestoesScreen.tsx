@@ -261,7 +261,43 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       },
     },
   ],
-  'Clínica Médica': [],
+  'Clínica Médica': [
+    {
+      id: 'cm1_glomerular',
+      label: 'Nefrologia: Síndromes Glomerulares',
+      matches: (q) => normalizeStr(q.topic) === 'nefrologia sindromes glomerulares',
+    },
+    {
+      id: 'cm1_tubular',
+      label: 'Nefrologia: Síndromes Tubulares e Vasculares',
+      matches: (q) => normalizeStr(q.topic) === 'nefrologia sindromes tubulares e vasculares',
+    },
+    {
+      id: 'cm1_uremica',
+      label: 'Nefrologia: Síndrome Urêmica',
+      matches: (q) => normalizeStr(q.topic) === 'nefrologia sindrome uremica',
+    },
+    {
+      id: 'cm1_eletrolitos',
+      label: 'Nefrologia: Equilíbrio Eletrolítico',
+      matches: (q) => normalizeStr(q.topic) === 'nefrologia equilibrio eletrolitico',
+    },
+    {
+      id: 'cm1_acido_base',
+      label: 'Nefrologia: Equilíbrio Ácido-Básico',
+      matches: (q) => normalizeStr(q.topic) === 'nefrologia equilibrio acido basico',
+    },
+    {
+      id: 'cm1_anemias',
+      label: 'Hematologia: Série Vermelha (Anemias)',
+      matches: (q) => normalizeStr(q.topic) === 'hematologia serie vermelha anemias',
+    },
+    {
+      id: 'cm1_linfomas',
+      label: 'Hematologia: Série Branca (Linfoma e Mieloma)',
+      matches: (q) => normalizeStr(q.topic) === 'hematologia serie branca linfoma e mieloma',
+    },
+  ],
   'Clínica Médica 2': [
     {
       id: 'cm2_cm_has',
