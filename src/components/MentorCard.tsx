@@ -60,9 +60,15 @@ export function MentorCard({ onStartRevision, onOpenMentorTab }: MentorCardProps
         label: `[R2 - ${dias} dias]`,
       };
     }
+    if (ciclo === 'R3') {
+      return {
+        bg: 'bg-amber-500/15 text-amber-400 border-amber-500/30',
+        label: `[R3 - ${dias} dias]`,
+      };
+    }
     return {
-      bg: 'bg-amber-500/15 text-amber-400 border-amber-500/30',
-      label: `[R3 - ${dias} dias]`,
+      bg: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
+      label: `[R4 - ${dias} dias]`,
     };
   };
 
@@ -88,8 +94,9 @@ export function MentorCard({ onStartRevision, onOpenMentorTab }: MentorCardProps
             </div>
             <p className="text-xs text-zinc-400 mt-0.5">
               Ciclos inteligentes Medcurso: <span className="text-cyan-400 font-semibold">R1 (7d)</span> •{' '}
-              <span className="text-purple-400 font-semibold">R2 (30d)</span> •{' '}
-              <span className="text-amber-400 font-semibold">R3 (60d)</span>
+              <span className="text-purple-400 font-semibold">R2 (15d)</span> •{' '}
+              <span className="text-amber-400 font-semibold">R3 (30d)</span> •{' '}
+              <span className="text-emerald-400 font-semibold">R4 (60d)</span>
             </p>
           </div>
         </div>
@@ -171,7 +178,7 @@ export function MentorCard({ onStartRevision, onOpenMentorTab }: MentorCardProps
                   Nenhuma revisão pendente para hoje
                 </p>
                 <p className="text-xs text-zinc-400 mt-0.5">
-                  Ao concluir ou marcar aulas como assistidas no cronograma, os ciclos de revisão espaçada (R1: 7d, R2: 30d e R3: 60d) aparecerão aqui.
+                  Ao concluir ou marcar aulas como assistidas no cronograma, os ciclos de revisão espaçada (R1: 7d, R2: 15d, R3: 30d e R4: 60d) aparecerão aqui.
                 </p>
               </div>
             </div>
