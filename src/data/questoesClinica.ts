@@ -148,6 +148,18 @@ import { HIV_1 } from './clinica/cm1Hiv1';
 import { HIV_2 } from './clinica/cm1Hiv2';
 import { HIV_3 } from './clinica/cm1Hiv3';
 import { HIV_4 } from './clinica/cm1Hiv4';
+import { ENDOCARDITE_1 } from './clinica/cm1Endocardite1';
+import { ENDOCARDITE_2 } from './clinica/cm1Endocardite2';
+import { ENDOCARDITE_3 } from './clinica/cm1Endocardite3';
+import { ENDOCARDITE_4 } from './clinica/cm1Endocardite4';
+import { MENINGITES_1 } from './clinica/cm1Meningites1';
+import { MENINGITES_2 } from './clinica/cm1Meningites2';
+import { MENINGITES_3 } from './clinica/cm1Meningites3';
+import { MENINGITES_4 } from './clinica/cm1Meningites4';
+import { PNEUMONIA_1 } from './clinica/cm1Pneumonia1';
+import { PNEUMONIA_2 } from './clinica/cm1Pneumonia2';
+import { PNEUMONIA_3 } from './clinica/cm1Pneumonia3';
+import { PNEUMONIA_4 } from './clinica/cm1Pneumonia4';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -261,5 +273,14 @@ export const QUESTOES_CLINICA: Question[] = [
   ]),
   ...montarQuestoes('cm1-hiv', 'Clínica Médica', 'Infectologia: HIV e AIDS', [
     ...HIV_1, ...HIV_2, ...HIV_3, ...HIV_4,
+  ]),
+  ...montarQuestoes('cm1-endocardite', 'Clínica Médica', 'Infectologia: Endocardite Infecciosa', [
+    ...ENDOCARDITE_1, ...ENDOCARDITE_2, ...ENDOCARDITE_3, ...ENDOCARDITE_4,
+  ]),
+  ...montarQuestoes('cm1-meningites', 'Clínica Médica', 'Infectologia: Meningites', [
+    ...MENINGITES_1, ...MENINGITES_2, ...MENINGITES_3, ...MENINGITES_4,
+  ]),
+  ...montarQuestoes('cm1-pneumonia', 'Clínica Médica', 'Infectologia: Pneumonia', [
+    ...PNEUMONIA_1, ...PNEUMONIA_2, ...PNEUMONIA_3, ...PNEUMONIA_4,
   ]),
 ];

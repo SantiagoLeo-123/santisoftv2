@@ -312,6 +312,21 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       label: 'Infectologia: HIV e AIDS',
       matches: (q) => normalizeStr(q.topic) === 'infectologia hiv e aids',
     },
+    {
+      id: 'cm1_endocardite',
+      label: 'Infectologia: Endocardite Infecciosa',
+      matches: (q) => normalizeStr(q.topic) === 'infectologia endocardite infecciosa',
+    },
+    {
+      id: 'cm1_meningites',
+      label: 'Infectologia: Meningites',
+      matches: (q) => normalizeStr(q.topic) === 'infectologia meningites',
+    },
+    {
+      id: 'cm1_pneumonia',
+      label: 'Infectologia: Pneumonia',
+      matches: (q) => normalizeStr(q.topic) === 'infectologia pneumonia',
+    },
   ],
   'Clínica Médica 2': [
     {
