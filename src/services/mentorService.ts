@@ -4,11 +4,11 @@ import { readState, writeState } from '@/lib/profileStore';
 
 export const MENTOR_STORAGE_KEY = 'santisoft_mentor_revisoes';
 
-export type CicloRevisao = 'R1' | 'R2' | 'R3' | 'R4';
+export type CicloRevisao = 'R0' | 'R1' | 'R2' | 'R3' | 'R4';
 
 // Sequência de revisões: dias após a conclusão da aula
-export const CICLOS_ORDEM: CicloRevisao[] = ['R1', 'R2', 'R3', 'R4'];
-export const DIAS_CICLO: Record<CicloRevisao, number> = { R1: 7, R2: 15, R3: 30, R4: 60 };
+export const CICLOS_ORDEM: CicloRevisao[] = ['R0', 'R1', 'R2', 'R3', 'R4'];
+export const DIAS_CICLO: Record<CicloRevisao, number> = { R0: 1, R1: 7, R2: 15, R3: 30, R4: 60 };
 // Regra adaptativa pelo percentual de acerto no simulado de revisão
 export const LIMITE_AVANCA = 80; // >= 80%: avança para o próximo intervalo
 export const LIMITE_REPETE = 60; // 60 a 79%: repete o mesmo intervalo; < 60%: volta para 7 dias
@@ -30,6 +30,7 @@ export interface TemaRevisao {
   especialidade: string; // "Pediatria", "Clínica Médica", "Cirurgia", "Ginecologia e Obstetrícia", "Preventiva"
   dataConclusaoAula: string; // YYYY-MM-DD
   ciclos: {
+    R0?: CicloInfo; // revisão de 24 horas (só existe em aulas marcadas após esta versão)
     R1: CicloInfo;
     R2: CicloInfo;
     R3: CicloInfo;
@@ -233,7 +234,7 @@ export function saveMentorStore(store: MentorStore): void {
 }
 
 /**
- * 1. Registra a conclusão de uma aula e agenda automaticamente R1 (7d), R2 (15d), R3 (30d) e R4 (60d)
+ * 1. Registra a conclusão de uma aula e agenda automaticamente 24h, R1 (7d), R2 (15d), R3 (30d) e R4 (60d)
  */
 export function registrarConclusaoAula(
   lessonId: string,
@@ -261,12 +262,13 @@ export function registrarConclusaoAula(
     especialidade,
     dataConclusaoAula: todayStr,
     ciclos: {
+      R0: novoCiclo('R0'),
       R1: novoCiclo('R1'),
       R2: novoCiclo('R2'),
       R3: novoCiclo('R3'),
       R4: novoCiclo('R4'),
     },
-    cicloAtual: 'R1',
+    cicloAtual: 'R0',
   };
 
   store[lessonId] = novoTema;
@@ -414,11 +416,19 @@ export function concluirCicloRevisao(
   if (atual && pontuacao) atual.pontuacaoSimulado = pontuacao;
   item.ultimoPercentual = percentual;
 
-  if (percentual < LIMITE_REPETE) {
+  if (cicloConcluido === 'R0' && percentual < LIMITE_AVANCA) {
+    // Revisão de 24 horas abaixo de 80%: repete no dia seguinte
+    if (atual) {
+      atual.concluido = false;
+      atual.dataPrevista = toDateStr(addDays(now, 1));
+    }
+    item.cicloAtual = 'R0';
+    item.ultimoResultado = 'repetiu';
+  } else if (percentual < LIMITE_REPETE) {
     // Abaixo de 60%: recomeça a sequência a partir da revisão de 7 dias
     for (const c of CICLOS_ORDEM) {
       const info = item.ciclos[c];
-      if (!info) continue;
+      if (!info || c === 'R0') continue;
       info.concluido = false;
       info.dataConclusao = undefined;
       info.dataPrevista = toDateStr(addDays(now, DIAS_CICLO[c]));

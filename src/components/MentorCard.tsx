@@ -50,6 +50,12 @@ export function MentorCard({ onOpenMentorTab }: MentorCardProps) {
 
   // Cores por ciclo
   const getCicloBadge = (ciclo: string, dias: number) => {
+    if (ciclo === 'R0') {
+      return {
+        bg: 'bg-rose-500/15 text-rose-400 border-rose-500/30',
+        label: '[24 horas]',
+      };
+    }
     if (ciclo === 'R1') {
       return {
         bg: 'bg-cyan-500/15 text-cyan-400 border-cyan-500/30',
@@ -95,7 +101,8 @@ export function MentorCard({ onOpenMentorTab }: MentorCardProps) {
               </span>
             </div>
             <p className="text-xs text-zinc-400 mt-0.5">
-              Ciclos inteligentes Medcurso: <span className="text-cyan-400 font-semibold">R1 (7d)</span> •{' '}
+              Ciclos inteligentes Medcurso: <span className="text-rose-400 font-semibold">24h</span> •{' '}
+              <span className="text-cyan-400 font-semibold">R1 (7d)</span> •{' '}
               <span className="text-purple-400 font-semibold">R2 (15d)</span> •{' '}
               <span className="text-amber-400 font-semibold">R3 (30d)</span> •{' '}
               <span className="text-emerald-400 font-semibold">R4 (60d)</span>
@@ -173,7 +180,7 @@ export function MentorCard({ onOpenMentorTab }: MentorCardProps) {
                   Nenhuma revisão pendente para hoje
                 </p>
                 <p className="text-xs text-zinc-400 mt-0.5">
-                  Ao concluir ou marcar aulas como assistidas no cronograma, os ciclos de revisão espaçada (R1: 7d, R2: 15d, R3: 30d e R4: 60d) aparecerão aqui.
+                  Ao concluir ou marcar aulas como assistidas no cronograma, os ciclos de revisão espaçada (24h, R1: 7d, R2: 15d, R3: 30d e R4: 60d) aparecerão aqui.
                 </p>
               </div>
             </div>
@@ -220,7 +227,7 @@ export function MentorCard({ onOpenMentorTab }: MentorCardProps) {
                     <div className="truncate min-w-0">
                       <span className="font-semibold text-white block truncate">{item.tema}</span>
                       <span className="text-[10px] text-zinc-400">
-                        {item.ciclo} • em {item.diasFaltando} dia(s) ({item.dataPrevista})
+                        {item.ciclo === 'R0' ? '24h' : item.ciclo} • em {item.diasFaltando} dia(s) ({item.dataPrevista})
                       </span>
                     </div>
                     <BookOpen className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
