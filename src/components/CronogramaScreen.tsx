@@ -143,19 +143,29 @@ export function CronogramaScreen({
     return filtered.findIndex((e) => e.id === activeVideoEntry.id);
   }, [filtered, activeVideoEntry]);
 
-  const hasPrevVideo = currentVideoIndex > 0;
-  const hasNextVideo = currentVideoIndex >= 0 && currentVideoIndex < filtered.length - 1;
+  // Só existe "Assistir" para aulas com vídeo (do cronograma ou link salvo pelo usuário)
+  const temVideo = (e: CronogramaEntry) => !!(e.driveId?.trim() || customDriveUrls[e.id]?.trim());
+
+  // Anterior / Próxima pulam as aulas sem vídeo
+  const prevVideoEntry = useMemo(() => {
+    for (let i = currentVideoIndex - 1; i >= 0; i--) if (temVideo(filtered[i])) return filtered[i];
+    return null;
+  }, [filtered, currentVideoIndex, customDriveUrls]);
+  const nextVideoEntry = useMemo(() => {
+    if (currentVideoIndex < 0) return null;
+    for (let i = currentVideoIndex + 1; i < filtered.length; i++) if (temVideo(filtered[i])) return filtered[i];
+    return null;
+  }, [filtered, currentVideoIndex, customDriveUrls]);
+
+  const hasPrevVideo = !!prevVideoEntry;
+  const hasNextVideo = !!nextVideoEntry;
 
   const handlePrevVideo = () => {
-    if (hasPrevVideo) {
-      setActiveVideoEntry(filtered[currentVideoIndex - 1]);
-    }
+    if (prevVideoEntry) setActiveVideoEntry(prevVideoEntry);
   };
 
   const handleNextVideo = () => {
-    if (hasNextVideo) {
-      setActiveVideoEntry(filtered[currentVideoIndex + 1]);
-    }
+    if (nextVideoEntry) setActiveVideoEntry(nextVideoEntry);
   };
 
   return (
@@ -373,7 +383,7 @@ export function CronogramaScreen({
                 {/* Título da Aula (Legível no topo, fácil de tocar) */}
                 <button
                   type="button"
-                  onClick={() => setActiveVideoEntry(entry)}
+                  onClick={() => temVideo(entry) && setActiveVideoEntry(entry)}
                   className="text-left w-full group/mobiletitle focus:outline-none"
                 >
                   <p
@@ -397,6 +407,7 @@ export function CronogramaScreen({
 
                 {/* Mobile Action Buttons: Assistir Aula & Assistido / Pendente (min-height 48px e touch target amplo) */}
                 <div className="pt-2 border-t border-ink-875/80 flex items-center gap-2.5">
+                  {temVideo(entry) && (
                   <button
                     type="button"
                     onClick={() => setActiveVideoEntry(entry)}
@@ -405,6 +416,7 @@ export function CronogramaScreen({
                     <Play className="w-4 h-4 fill-current shrink-0" />
                     <span>Assistir</span>
                   </button>
+                  )}
 
                   <button
                     type="button"
@@ -486,7 +498,7 @@ export function CronogramaScreen({
                     <td className="px-5 py-3.5">
                       <button
                         type="button"
-                        onClick={() => setActiveVideoEntry(entry)}
+                        onClick={() => temVideo(entry) && setActiveVideoEntry(entry)}
                         className="text-left group/title focus:outline-none"
                       >
                         <p
@@ -532,6 +544,7 @@ export function CronogramaScreen({
                     <td className="px-5 py-3.5 text-right whitespace-nowrap">
                       <div className="inline-flex items-center gap-2 justify-end">
                         {/* Assistir Video Player Modal Button */}
+                        {temVideo(entry) && (
                         <button
                           type="button"
                           onClick={() => setActiveVideoEntry(entry)}
@@ -541,6 +554,7 @@ export function CronogramaScreen({
                           <Play className="w-3.5 h-3.5 fill-current transition-transform group-hover:scale-110" />
                           <span>Assistir</span>
                         </button>
+                        )}
 
                         {/* Toggle Status Button */}
                         <button
