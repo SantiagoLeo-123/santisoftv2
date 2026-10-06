@@ -280,11 +280,11 @@ export function CronogramaScreen({
               onClick={() => setStatusFilter('concluidas')}
               className={`flex-1 sm:flex-initial px-3 py-1.5 min-h-[36px] rounded-lg text-xs font-semibold transition-colors flex items-center justify-center gap-1.5 ${
                 statusFilter === 'concluidas'
-                  ? 'bg-emerald-600/30 text-emerald-300 shadow-sm border border-emerald-500/30'
+                  ? 'bg-red-600/30 text-red-300 shadow-sm border border-red-500/30'
                   : 'text-zinc-400 hover:text-zinc-200'
               }`}
             >
-              <Check className="w-3 h-3 text-emerald-400" />
+              <Check className="w-3 h-3 text-red-400" />
               <span>Assistidas</span>
             </button>
           </div>
@@ -333,7 +333,7 @@ export function CronogramaScreen({
                 key={entry.id}
                 className={`w-full max-w-full rounded-2xl border p-4 sm:p-5 transition-all border-l-4 shadow-lg space-y-3 overflow-hidden ${
                   isDone
-                    ? 'bg-emerald-950/20 border-ink-875 border-l-emerald-500'
+                    ? 'bg-red-950/20 border-ink-875 border-l-red-500'
                     : 'bg-ink-900 border-ink-875 border-l-transparent'
                 }`}
               >
@@ -355,13 +355,13 @@ export function CronogramaScreen({
                   <span
                     className={`inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-md ${
                       isDone
-                        ? 'bg-emerald-600/20 text-emerald-300 border border-emerald-500/30'
+                        ? 'bg-red-600/20 text-red-300 border border-red-500/30'
                         : 'bg-ink-950 text-zinc-500 border border-ink-850'
                     }`}
                   >
                     {isDone ? (
                       <>
-                        <Check className="w-3 h-3 text-emerald-400 stroke-[2.5]" />
+                        <Check className="w-3 h-3 text-red-400 stroke-[2.5]" />
                         <span>Assistido</span>
                       </>
                     ) : (
@@ -378,7 +378,7 @@ export function CronogramaScreen({
                 >
                   <p
                     className={`text-base font-bold leading-snug transition-colors group-hover/mobiletitle:text-red-400 ${
-                      isDone ? 'text-emerald-200' : 'text-white'
+                      isDone ? 'text-red-200' : 'text-white'
                     }`}
                   >
                     {entry.aula}
@@ -411,14 +411,14 @@ export function CronogramaScreen({
                     onClick={() => onToggleComplete(entry.id)}
                     className={`min-h-[48px] h-12 flex-1 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition-all active:scale-[0.98] shadow-sm ${
                       isDone
-                        ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-emerald-600/20'
+                        ? 'bg-red-600 hover:bg-red-700 text-white shadow-red-600/20'
                         : 'bg-ink-950 border border-ink-800 text-zinc-300 hover:bg-ink-850 hover:text-white'
                     }`}
                     title={isDone ? 'Clique para desmarcar e voltar para Pendente' : 'Clique para marcar como Assistido'}
                   >
                     {isDone ? (
                       <>
-                        <CheckCircle2 className="w-4 h-4 text-emerald-100 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-red-100 shrink-0" />
                         <span>✓ Assistido</span>
                       </>
                     ) : (
@@ -461,7 +461,7 @@ export function CronogramaScreen({
                     key={entry.id}
                     className={`transition-all border-l-4 ${
                       isDone
-                        ? 'bg-emerald-950/20 border-l-emerald-500 hover:bg-emerald-950/30'
+                        ? 'bg-red-950/20 border-l-red-500 hover:bg-red-950/30'
                         : 'bg-ink-900 hover:bg-ink-875/50 border-l-transparent'
                     }`}
                   >
@@ -491,7 +491,7 @@ export function CronogramaScreen({
                       >
                         <p
                           className={`text-sm font-semibold leading-snug transition-colors group-hover/title:text-red-400 ${
-                            isDone ? 'text-emerald-200' : 'text-zinc-100'
+                            isDone ? 'text-red-200' : 'text-zinc-100'
                           }`}
                         >
                           {entry.aula}
@@ -510,13 +510,13 @@ export function CronogramaScreen({
                       <span
                         className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold transition-all shadow-sm ${
                           isDone
-                            ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
+                            ? 'bg-red-500/20 text-red-300 border border-red-500/40'
                             : 'bg-ink-950 text-zinc-400 border border-ink-850'
                         }`}
                       >
                         {isDone ? (
                           <>
-                            <Check className="w-3.5 h-3.5 text-emerald-400 stroke-[2.5]" />
+                            <Check className="w-3.5 h-3.5 text-red-400 stroke-[2.5]" />
                             <span>✓ Assistido</span>
                           </>
                         ) : (
@@ -548,14 +548,14 @@ export function CronogramaScreen({
                           onClick={() => onToggleComplete(entry.id)}
                           className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all shadow-sm active:scale-95 ${
                             isDone
-                              ? 'bg-emerald-600 text-white hover:bg-emerald-700 shadow-emerald-600/20'
+                              ? 'bg-red-600 text-white hover:bg-red-700 shadow-red-600/20'
                               : 'bg-ink-950 border border-ink-800 text-zinc-300 hover:text-white hover:border-zinc-600 hover:bg-ink-850'
                           }`}
                           title={isDone ? 'Clique para desmarcar e voltar para Pendente' : 'Clique para marcar como Assistido'}
                         >
                           {isDone ? (
                             <>
-                              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-100" />
+                              <CheckCircle2 className="w-3.5 h-3.5 text-red-100" />
                               <span>✓ Assistido</span>
                             </>
                           ) : (
