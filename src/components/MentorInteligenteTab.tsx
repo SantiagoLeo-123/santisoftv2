@@ -23,6 +23,7 @@ import {
   type CicloRevisao,
 } from '@/services/mentorService';
 import type { MentorMessage } from '@/lib/supabase';
+import { MarcarRevisaoFeita } from './MarcarRevisaoFeita';
 
 interface MentorScreenProps {
   onIniciarRevisao: (revisao: RevisaoPendente) => void;
@@ -163,11 +164,6 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
   const filteredPendentes = filterBySearchAndSpec(revisoesHoje);
   const filteredProximas = filterBySearchAndSpec(proximas);
   const filteredConcluidas = filterBySearchAndSpec(concluidas);
-
-  // Iniciar revisão direto
-  const handleStartDirect = (revisao: RevisaoPendente) => {
-    onIniciarRevisao(revisao);
-  };
 
   return (
     <div className="flex-1 flex flex-col min-h-0 overflow-y-auto scrollbar-thin bg-ink-950 text-white animate-fade-in pb-16 md:pb-8">
@@ -435,22 +431,12 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
                             {item.tema}
                           </h3>
                           <p className="text-xs text-zinc-400 mt-0.5">
-                            {badge.desc} • Simulado recomendado para consolidação da memória sináptica.
+                            {badge.desc} • Revise o tema e marque como feita; o % de acerto (opcional) ajusta o próximo intervalo.
                           </p>
                         </div>
                       </div>
 
-                      <div className="flex items-center gap-2 shrink-0">
-                        <button
-                          type="button"
-                          onClick={() => handleStartDirect(item)}
-                          className="w-full sm:w-auto px-5 py-3 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-black flex items-center justify-center gap-2 shadow-lg shadow-red-600/25 active:scale-95 transition-all"
-                        >
-                          <BookOpen className="w-4 h-4" />
-                          <span>Iniciar Simulado de Revisão</span>
-                          <ChevronRight className="w-4 h-4" />
-                        </button>
-                      </div>
+                      <MarcarRevisaoFeita revisao={item} />
                     </div>
                   );
                 })}

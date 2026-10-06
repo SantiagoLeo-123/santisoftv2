@@ -16,12 +16,14 @@ import {
   type RevisaoPendente,
 } from '@/services/mentorService';
 
+import { MarcarRevisaoFeita } from './MarcarRevisaoFeita';
+
 interface MentorCardProps {
   onStartRevision: (revisao: RevisaoPendente) => void;
   onOpenMentorTab?: () => void;
 }
 
-export function MentorCard({ onStartRevision, onOpenMentorTab }: MentorCardProps) {
+export function MentorCard({ onOpenMentorTab }: MentorCardProps) {
   const [revisoesHoje, setRevisoesHoje] = useState<RevisaoPendente[]>([]);
   const [proximas, setProximas] = useState<ReturnType<typeof getProximasRevisoes>>([]);
   const [showProximas, setShowProximas] = useState(false);
@@ -154,14 +156,7 @@ export function MentorCard({ onStartRevision, onOpenMentorTab }: MentorCardProps
                     </h3>
                   </div>
 
-                  <button
-                    type="button"
-                    onClick={() => onStartRevision(item)}
-                    className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-black flex items-center justify-center gap-2 shadow-md shadow-red-600/20 active:scale-95 transition-all shrink-0"
-                  >
-                    <span>Fazer Simulado (10 Questões)</span>
-                    <ChevronRight className="w-4 h-4" />
-                  </button>
+                  <MarcarRevisaoFeita revisao={item} />
                 </div>
               );
             })}
