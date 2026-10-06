@@ -108,6 +108,34 @@ import { PED_ALEITAMENTO_1 } from './clinica/pedAleitamento1';
 import { PED_ALEITAMENTO_2 } from './clinica/pedAleitamento2';
 import { PED_ALEITAMENTO_3 } from './clinica/pedAleitamento3';
 import { PED_ALEITAMENTO_4 } from './clinica/pedAleitamento4';
+import { GLOMERULAR_1 } from './clinica/cm1Glomerular1';
+import { GLOMERULAR_2 } from './clinica/cm1Glomerular2';
+import { GLOMERULAR_3 } from './clinica/cm1Glomerular3';
+import { GLOMERULAR_4 } from './clinica/cm1Glomerular4';
+import { TUBULAR_1 } from './clinica/cm1Tubular1';
+import { TUBULAR_2 } from './clinica/cm1Tubular2';
+import { TUBULAR_3 } from './clinica/cm1Tubular3';
+import { TUBULAR_4 } from './clinica/cm1Tubular4';
+import { UREMICA_1 } from './clinica/cm1Uremica1';
+import { UREMICA_2 } from './clinica/cm1Uremica2';
+import { UREMICA_3 } from './clinica/cm1Uremica3';
+import { UREMICA_4 } from './clinica/cm1Uremica4';
+import { ELETROLITOS_1 } from './clinica/cm1Eletrolitos1';
+import { ELETROLITOS_2 } from './clinica/cm1Eletrolitos2';
+import { ELETROLITOS_3 } from './clinica/cm1Eletrolitos3';
+import { ELETROLITOS_4 } from './clinica/cm1Eletrolitos4';
+import { ACIDO_BASE_1 } from './clinica/cm1AcidoBase1';
+import { ACIDO_BASE_2 } from './clinica/cm1AcidoBase2';
+import { ACIDO_BASE_3 } from './clinica/cm1AcidoBase3';
+import { ACIDO_BASE_4 } from './clinica/cm1AcidoBase4';
+import { ANEMIAS_1 } from './clinica/cm1Anemias1';
+import { ANEMIAS_2 } from './clinica/cm1Anemias2';
+import { ANEMIAS_3 } from './clinica/cm1Anemias3';
+import { ANEMIAS_4 } from './clinica/cm1Anemias4';
+import { LINFOMAS_1 } from './clinica/cm1Linfomas1';
+import { LINFOMAS_2 } from './clinica/cm1Linfomas2';
+import { LINFOMAS_3 } from './clinica/cm1Linfomas3';
+import { LINFOMAS_4 } from './clinica/cm1Linfomas4';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -191,5 +219,26 @@ export const QUESTOES_CLINICA: Question[] = [
   ]),
   ...montarQuestoes('ped-aleitamento', 'Pediatria', 'Aleitamento Materno', [
     ...PED_ALEITAMENTO_1, ...PED_ALEITAMENTO_2, ...PED_ALEITAMENTO_3, ...PED_ALEITAMENTO_4,
+  ]),
+  ...montarQuestoes('cm1-glomerular', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', [
+    ...GLOMERULAR_1, ...GLOMERULAR_2, ...GLOMERULAR_3, ...GLOMERULAR_4,
+  ]),
+  ...montarQuestoes('cm1-tubular', 'Clínica Médica', 'Nefrologia: Síndromes Tubulares e Vasculares', [
+    ...TUBULAR_1, ...TUBULAR_2, ...TUBULAR_3, ...TUBULAR_4,
+  ]),
+  ...montarQuestoes('cm1-uremica', 'Clínica Médica', 'Nefrologia: Síndrome Urêmica', [
+    ...UREMICA_1, ...UREMICA_2, ...UREMICA_3, ...UREMICA_4,
+  ]),
+  ...montarQuestoes('cm1-eletrolitos', 'Clínica Médica', 'Nefrologia: Equilíbrio Eletrolítico', [
+    ...ELETROLITOS_1, ...ELETROLITOS_2, ...ELETROLITOS_3, ...ELETROLITOS_4,
+  ]),
+  ...montarQuestoes('cm1-acido-base', 'Clínica Médica', 'Nefrologia: Equilíbrio Ácido-Básico', [
+    ...ACIDO_BASE_1, ...ACIDO_BASE_2, ...ACIDO_BASE_3, ...ACIDO_BASE_4,
+  ]),
+  ...montarQuestoes('cm1-anemias', 'Clínica Médica', 'Hematologia: Série Vermelha (Anemias)', [
+    ...ANEMIAS_1, ...ANEMIAS_2, ...ANEMIAS_3, ...ANEMIAS_4,
+  ]),
+  ...montarQuestoes('cm1-linfomas', 'Clínica Médica', 'Hematologia: Série Branca (Linfoma e Mieloma)', [
+    ...LINFOMAS_1, ...LINFOMAS_2, ...LINFOMAS_3, ...LINFOMAS_4,
   ]),
 ];
