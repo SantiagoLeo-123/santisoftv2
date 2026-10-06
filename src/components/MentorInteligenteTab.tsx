@@ -83,6 +83,14 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
 
   // Cores e labels por ciclo
   const getCicloBadge = (ciclo: CicloRevisao | string, dias?: number) => {
+    if (ciclo === 'R0') {
+      return {
+        bg: 'bg-rose-500/15 text-rose-400 border-rose-500/30',
+        text: 'text-rose-400',
+        label: '24 horas',
+        desc: 'Revisão do dia seguinte (24 horas)',
+      };
+    }
     if (ciclo === 'R1') {
       return {
         bg: 'bg-cyan-500/15 text-cyan-400 border-cyan-500/30',
@@ -126,7 +134,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
       pontuacao?: { acertos: number; total: number };
     }> = [];
 
-    (['R1', 'R2', 'R3', 'R4'] as CicloRevisao[]).forEach((cicloKey) => {
+    (['R0', 'R1', 'R2', 'R3', 'R4'] as CicloRevisao[]).forEach((cicloKey) => {
       const c = tema.ciclos[cicloKey];
       if (c && c.concluido) {
         arr.push({
@@ -479,7 +487,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
                       <div className="space-y-2">
                         <div className="flex items-center justify-between gap-2">
                           <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded-md border ${badge.bg}`}>
-                            {item.ciclo}
+                            {item.ciclo === 'R0' ? '24h' : item.ciclo}
                           </span>
                           <span className="text-[10px] font-semibold text-zinc-400 px-2 py-0.5 rounded-md bg-ink-850">
                             {item.especialidade}
@@ -545,7 +553,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
                       <div className="flex items-center justify-between gap-2">
                         <div className="flex items-center gap-2">
                           <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded-md border ${badge.bg}`}>
-                            {item.ciclo} CONCLUÍDO
+                            {item.ciclo === 'R0' ? '24h' : item.ciclo} CONCLUÍDO
                           </span>
                           <span className="text-[10px] font-semibold text-zinc-400">
                             {item.especialidade}
@@ -598,7 +606,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
             <div className="p-3 rounded-xl bg-ink-950/60 border border-cyan-500/20 space-y-1">
               <span className="text-[11px] font-black text-cyan-400 block uppercase">
-                1. Ciclo R1 (7 Dias)
+                1. 24 Horas e Ciclo R1 (7 Dias)
               </span>
               <p className="text-zinc-400 leading-relaxed">
                 Combate a Curva do Esquecimento imediata de Ebbinghaus, reforçando o traço de memória nas primeiras horas após assistir a aula.

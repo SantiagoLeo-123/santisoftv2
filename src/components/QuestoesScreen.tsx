@@ -38,7 +38,7 @@ export interface RevisionExamConfig {
   temaId: string;
   tema: string;
   especialidade: string;
-  ciclo: 'R1' | 'R2' | 'R3' | 'R4';
+  ciclo: 'R0' | 'R1' | 'R2' | 'R3' | 'R4';
   diasCiclo: number;
   autoStart?: boolean;
 }
