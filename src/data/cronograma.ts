@@ -62,7 +62,7 @@ const raw: RawEntry[] = [
   { id: 'cron-027', semana: 'Semana 15', area: 'Clínica', aula: 'Anemias I - Introdução, Ferropriva, Doença Crônica, Megaloblástica', bonus: 'Mielodisplasia, Anemia Aplásica', driveId: '1l1Ab0qdl3bSmoqLu924cVP9FbIWeBXMB' },
   { id: 'cron-028', semana: 'Semana 15', area: 'Pediatria', aula: 'Crescimento e Desenvolvimento Normais; Puberdade Normal', bonus: 'Distúrbios Puberais (dever de casa: puberdade precoce)', driveId: '12oqAtsiwl-HssEB0pGNCsSplXLjYHW1k' },
   { id: 'cron-029', semana: 'Semana 16', area: 'Clínica', aula: 'Anemia II - Introdução às Anemias Hemolíticas / Anemia Falciforme e Outras Hemoglobinopatias', bonus: 'Porfiria, Hemoglobinúria Paroxística Noturna, Talassemias', driveId: '1l1Ab0qdl3bSmoqLu924cVP9FbIWeBXMB' },
-  { id: 'cron-030', semana: 'Semana 16', area: 'Clínica', aula: 'Leucemias Agudas e Crônicas', bonus: 'Esplenomegalia, Doenças mieloproliferativas', driveId: '1NjCX3yNoDlz3rFlAvb2U9RBqCXyTN1CB' },
+  { id: 'cron-030', semana: 'Semana 16', area: 'Clínica', aula: 'Leucemias Agudas e Crônicas', bonus: 'Esplenomegalia, Doenças mieloproliferativas', driveId: '1vOyejTcb9VpD64hHopF8xgilpW3MHa1f' },
   { id: 'cron-031', semana: 'Semana 17', area: 'Clínica', aula: 'Linfomas e Mieloma Múltiplo', bonus: '-', driveId: '1NjCX3yNoDlz3rFlAvb2U9RBqCXyTN1CB' },
   { id: 'cron-032', semana: 'Semana 17', area: 'Cirurgia', aula: 'Preparo Pré-Operatório, Risco Cirúrgico e Complicações em Cirurgia', bonus: 'Anestesiologia, Fios de Sutura, Profilaxia de TEP e TVP', driveId: '1JRsHaxtAGg4Sd2Xianq7fmYZXtH0KseW' },
   { id: 'cron-033', semana: 'Semana 18', area: 'Clínica', aula: 'Distúrbios da Hemostasia', bonus: 'Hemofilias, Hemotransfusão, Trombofilias, Tromboelastograma', driveId: '1WPV_MYql9tHIZyVuUgACw1Yi5eRWYUxd' },
