@@ -240,6 +240,26 @@ import { PREV_ETICA_1 } from './clinica/prevEtica1';
 import { PREV_ETICA_2 } from './clinica/prevEtica2';
 import { PREV_ETICA_3 } from './clinica/prevEtica3';
 import { PREV_ETICA_4 } from './clinica/prevEtica4';
+import { PREV_PECONHENTOS_1 } from './clinica/prevPeconhentos1';
+import { PREV_PECONHENTOS_2 } from './clinica/prevPeconhentos2';
+import { PREV_PECONHENTOS_3 } from './clinica/prevPeconhentos3';
+import { PREV_PECONHENTOS_4 } from './clinica/prevPeconhentos4';
+import { PREV_INTOXICACOES_1 } from './clinica/prevIntoxicacoes1';
+import { PREV_INTOXICACOES_2 } from './clinica/prevIntoxicacoes2';
+import { PREV_INTOXICACOES_3 } from './clinica/prevIntoxicacoes3';
+import { PREV_INTOXICACOES_4 } from './clinica/prevIntoxicacoes4';
+import { PREV_PSICOTICOS_1 } from './clinica/prevPsicoticos1';
+import { PREV_PSICOTICOS_2 } from './clinica/prevPsicoticos2';
+import { PREV_PSICOTICOS_3 } from './clinica/prevPsicoticos3';
+import { PREV_PSICOTICOS_4 } from './clinica/prevPsicoticos4';
+import { PREV_ANSIEDADE_1 } from './clinica/prevAnsiedade1';
+import { PREV_ANSIEDADE_2 } from './clinica/prevAnsiedade2';
+import { PREV_ANSIEDADE_3 } from './clinica/prevAnsiedade3';
+import { PREV_ANSIEDADE_4 } from './clinica/prevAnsiedade4';
+import { PREV_DELIRIUM_1 } from './clinica/prevDelirium1';
+import { PREV_DELIRIUM_2 } from './clinica/prevDelirium2';
+import { PREV_DELIRIUM_3 } from './clinica/prevDelirium3';
+import { PREV_DELIRIUM_4 } from './clinica/prevDelirium4';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -422,5 +442,20 @@ export const QUESTOES_CLINICA: Question[] = [
   ]),
   ...montarQuestoes('prev-etica', 'Preventiva', 'Ética Médica', [
     ...PREV_ETICA_1, ...PREV_ETICA_2, ...PREV_ETICA_3, ...PREV_ETICA_4,
+  ]),
+  ...montarQuestoes('prev-peconhentos', 'Preventiva', 'Acidente por Animais Peçonhentos', [
+    ...PREV_PECONHENTOS_1, ...PREV_PECONHENTOS_2, ...PREV_PECONHENTOS_3, ...PREV_PECONHENTOS_4,
+  ]),
+  ...montarQuestoes('prev-intoxicacoes', 'Preventiva', 'Intoxicações', [
+    ...PREV_INTOXICACOES_1, ...PREV_INTOXICACOES_2, ...PREV_INTOXICACOES_3, ...PREV_INTOXICACOES_4,
+  ]),
+  ...montarQuestoes('prev-psicoticos', 'Preventiva', 'Psiquiatria: Transtornos Psicóticos e Transtornos de Humor', [
+    ...PREV_PSICOTICOS_1, ...PREV_PSICOTICOS_2, ...PREV_PSICOTICOS_3, ...PREV_PSICOTICOS_4,
+  ]),
+  ...montarQuestoes('prev-ansiedade', 'Preventiva', 'Psiquiatria: Transtornos de Ansiedade e Transtornos Alimentares', [
+    ...PREV_ANSIEDADE_1, ...PREV_ANSIEDADE_2, ...PREV_ANSIEDADE_3, ...PREV_ANSIEDADE_4,
+  ]),
+  ...montarQuestoes('prev-delirium', 'Preventiva', 'Psiquiatria: Delirium e Transtornos Relacionados a Substâncias', [
+    ...PREV_DELIRIUM_1, ...PREV_DELIRIUM_2, ...PREV_DELIRIUM_3, ...PREV_DELIRIUM_4,
   ]),
 ];
