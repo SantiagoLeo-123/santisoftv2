@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import {
   cronogramaData,
+  cronogramaIntensivo,
   AREA_COLORS,
   type AreaShort,
   type CronogramaEntry,
@@ -36,7 +37,7 @@ interface CronogramaScreenProps {
 
 function matchesAreaFilter(entry: CronogramaEntry, filter: FilterArea): boolean {
   if (filter === 'Todas') return true;
-  const weekNum = parseInt(entry.semana.replace(/\D/g, ''), 10) || 0;
+  const weekNum = parseInt((entry.semanaOriginal ?? entry.semana).replace(/\D/g, ''), 10) || 0;
   if (filter === 'Clínica Médica 1') {
     return entry.area === 'Clínica' && weekNum <= 25;
   }
@@ -55,6 +56,7 @@ export function CronogramaScreen({
   onToggleComplete,
 }: CronogramaScreenProps) {
   const [search, setSearch] = useState('');
+  const [modo, setModo] = useState<'extensivo' | 'intensivo'>('extensivo');
   const [areaFilter, setAreaFilter] = useState<FilterArea>('Todas');
   const [statusFilter, setStatusFilter] = useState<'todos' | 'pendentes' | 'concluidas'>('todos');
 
@@ -107,7 +109,7 @@ export function CronogramaScreen({
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return cronogramaData.filter((e) => {
+    return (modo === 'intensivo' ? cronogramaIntensivo : cronogramaData).filter((e) => {
       if (!matchesAreaFilter(e, areaFilter)) return false;
 
       const isDone = isLessonCompleted(progress, e.id);
@@ -122,7 +124,7 @@ export function CronogramaScreen({
         e.area.toLowerCase().includes(q)
       );
     });
-  }, [search, areaFilter, statusFilter, progress]);
+  }, [search, areaFilter, statusFilter, progress, modo]);
 
   const handleSaveCustomDriveUrl = (lessonId: string, url: string) => {
     setCustomDriveUrls((prev) => {
@@ -172,6 +174,23 @@ export function CronogramaScreen({
     <div className="flex-1 flex flex-col min-h-0 overflow-y-auto scrollbar-thin animate-fade-in bg-ink-950 overflow-x-hidden w-full">
       <div className="w-full max-w-6xl mx-auto px-3.5 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 overflow-x-hidden">
         
+        {/* Modo do cronograma: Extensivo (padrão) ou Intensivo (6 semanas) */}
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-semibold uppercase tracking-wide text-gray-400">Cronograma:</span>
+          <div className="inline-flex rounded-lg border border-white/10 bg-white/5 p-1">
+            {(['extensivo', 'intensivo'] as const).map((m) => (
+              <button
+                key={m}
+                type="button"
+                onClick={() => setModo(m)}
+                className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-colors ${modo === m ? 'bg-red-600 text-white' : 'text-gray-300 hover:text-white'}`}
+              >
+                {m === 'extensivo' ? 'Extensivo' : 'Intensivo (6 semanas)'}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Header Title & Status */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4">
           <div className="flex items-center gap-3">
