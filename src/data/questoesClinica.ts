@@ -160,6 +160,86 @@ import { PNEUMONIA_1 } from './clinica/cm1Pneumonia1';
 import { PNEUMONIA_2 } from './clinica/cm1Pneumonia2';
 import { PNEUMONIA_3 } from './clinica/cm1Pneumonia3';
 import { PNEUMONIA_4 } from './clinica/cm1Pneumonia4';
+import { HANSENIASE_1 } from './clinica/cm1Hanseniase1';
+import { HANSENIASE_2 } from './clinica/cm1Hanseniase2';
+import { HANSENIASE_3 } from './clinica/cm1Hanseniase3';
+import { HANSENIASE_4 } from './clinica/cm1Hanseniase4';
+import { ARTRITES_1 } from './clinica/cm1Artrites1';
+import { ARTRITES_2 } from './clinica/cm1Artrites2';
+import { ARTRITES_3 } from './clinica/cm1Artrites3';
+import { ARTRITES_4 } from './clinica/cm1Artrites4';
+import { COLAGENOSES_1 } from './clinica/cm1Colagenoses1';
+import { COLAGENOSES_2 } from './clinica/cm1Colagenoses2';
+import { COLAGENOSES_3 } from './clinica/cm1Colagenoses3';
+import { COLAGENOSES_4 } from './clinica/cm1Colagenoses4';
+import { VASCULITES_1 } from './clinica/cm1Vasculites1';
+import { VASCULITES_2 } from './clinica/cm1Vasculites2';
+import { VASCULITES_3 } from './clinica/cm1Vasculites3';
+import { VASCULITES_4 } from './clinica/cm1Vasculites4';
+import { REUMATO_MISC_1 } from './clinica/cm1ReumatoMisc1';
+import { REUMATO_MISC_2 } from './clinica/cm1ReumatoMisc2';
+import { REUMATO_MISC_3 } from './clinica/cm1ReumatoMisc3';
+import { REUMATO_MISC_4 } from './clinica/cm1ReumatoMisc4';
+import { LEUCEMIA_1 } from './clinica/cm1Leucemia1';
+import { LEUCEMIA_2 } from './clinica/cm1Leucemia2';
+import { LEUCEMIA_3 } from './clinica/cm1Leucemia3';
+import { LEUCEMIA_4 } from './clinica/cm1Leucemia4';
+import { PREV_PROCESSO_1 } from './clinica/prevProcesso1';
+import { PREV_PROCESSO_2 } from './clinica/prevProcesso2';
+import { PREV_PROCESSO_3 } from './clinica/prevProcesso3';
+import { PREV_PROCESSO_4 } from './clinica/prevProcesso4';
+import { PREV_TRANSICAO_1 } from './clinica/prevTransicao1';
+import { PREV_TRANSICAO_2 } from './clinica/prevTransicao2';
+import { PREV_TRANSICAO_3 } from './clinica/prevTransicao3';
+import { PREV_TRANSICAO_4 } from './clinica/prevTransicao4';
+import { PREV_COEFICIENTES_1 } from './clinica/prevCoeficientes1';
+import { PREV_COEFICIENTES_2 } from './clinica/prevCoeficientes2';
+import { PREV_COEFICIENTES_3 } from './clinica/prevCoeficientes3';
+import { PREV_COEFICIENTES_4 } from './clinica/prevCoeficientes4';
+import { PREV_DCNT_1 } from './clinica/prevDcnt1';
+import { PREV_DCNT_2 } from './clinica/prevDcnt2';
+import { PREV_DCNT_3 } from './clinica/prevDcnt3';
+import { PREV_DCNT_4 } from './clinica/prevDcnt4';
+import { PREV_ESTUDOS_1 } from './clinica/prevEstudos1';
+import { PREV_ESTUDOS_2 } from './clinica/prevEstudos2';
+import { PREV_ESTUDOS_3 } from './clinica/prevEstudos3';
+import { PREV_ESTUDOS_4 } from './clinica/prevEstudos4';
+import { PREV_ANALISE1_1 } from './clinica/prevAnalise1a';
+import { PREV_ANALISE1_2 } from './clinica/prevAnalise1b';
+import { PREV_ANALISE1_3 } from './clinica/prevAnalise1c';
+import { PREV_ANALISE1_4 } from './clinica/prevAnalise1d';
+import { PREV_ESTATISTICA_1 } from './clinica/prevEstatistica1';
+import { PREV_ESTATISTICA_2 } from './clinica/prevEstatistica2';
+import { PREV_ESTATISTICA_3 } from './clinica/prevEstatistica3';
+import { PREV_ESTATISTICA_4 } from './clinica/prevEstatistica4';
+import { PREV_TESTES_1 } from './clinica/prevTestes1';
+import { PREV_TESTES_2 } from './clinica/prevTestes2';
+import { PREV_TESTES_3 } from './clinica/prevTestes3';
+import { PREV_TESTES_4 } from './clinica/prevTestes4';
+import { PREV_VIGILANCIA_1 } from './clinica/prevVigilancia1';
+import { PREV_VIGILANCIA_2 } from './clinica/prevVigilancia2';
+import { PREV_VIGILANCIA_3 } from './clinica/prevVigilancia3';
+import { PREV_VIGILANCIA_4 } from './clinica/prevVigilancia4';
+import { PREV_ATENCAO_BASICA_1 } from './clinica/prevAtencaoBasica1';
+import { PREV_ATENCAO_BASICA_2 } from './clinica/prevAtencaoBasica2';
+import { PREV_ATENCAO_BASICA_3 } from './clinica/prevAtencaoBasica3';
+import { PREV_ATENCAO_BASICA_4 } from './clinica/prevAtencaoBasica4';
+import { PREV_FINANCIAMENTO_1 } from './clinica/prevFinanciamento1';
+import { PREV_FINANCIAMENTO_2 } from './clinica/prevFinanciamento2';
+import { PREV_FINANCIAMENTO_3 } from './clinica/prevFinanciamento3';
+import { PREV_FINANCIAMENTO_4 } from './clinica/prevFinanciamento4';
+import { PREV_TRABALHADOR_1 } from './clinica/prevTrabalhador1';
+import { PREV_TRABALHADOR_2 } from './clinica/prevTrabalhador2';
+import { PREV_TRABALHADOR_3 } from './clinica/prevTrabalhador3';
+import { PREV_TRABALHADOR_4 } from './clinica/prevTrabalhador4';
+import { PREV_ACIDENTE_1 } from './clinica/prevAcidente1';
+import { PREV_ACIDENTE_2 } from './clinica/prevAcidente2';
+import { PREV_ACIDENTE_3 } from './clinica/prevAcidente3';
+import { PREV_ACIDENTE_4 } from './clinica/prevAcidente4';
+import { PREV_ETICA_1 } from './clinica/prevEtica1';
+import { PREV_ETICA_2 } from './clinica/prevEtica2';
+import { PREV_ETICA_3 } from './clinica/prevEtica3';
+import { PREV_ETICA_4 } from './clinica/prevEtica4';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -282,5 +362,65 @@ export const QUESTOES_CLINICA: Question[] = [
   ]),
   ...montarQuestoes('cm1-pneumonia', 'Clínica Médica', 'Infectologia: Pneumonia', [
     ...PNEUMONIA_1, ...PNEUMONIA_2, ...PNEUMONIA_3, ...PNEUMONIA_4,
+  ]),
+  ...montarQuestoes('cm1-hanseniase', 'Clínica Médica', 'Infectologia: Hanseníase', [
+    ...HANSENIASE_1, ...HANSENIASE_2, ...HANSENIASE_3, ...HANSENIASE_4,
+  ]),
+  ...montarQuestoes('cm1-artrites', 'Clínica Médica', 'Reumatologia: Artrites', [
+    ...ARTRITES_1, ...ARTRITES_2, ...ARTRITES_3, ...ARTRITES_4,
+  ]),
+  ...montarQuestoes('cm1-colagenoses', 'Clínica Médica', 'Reumatologia: Colagenoses', [
+    ...COLAGENOSES_1, ...COLAGENOSES_2, ...COLAGENOSES_3, ...COLAGENOSES_4,
+  ]),
+  ...montarQuestoes('cm1-vasculites', 'Clínica Médica', 'Reumatologia: Vasculites', [
+    ...VASCULITES_1, ...VASCULITES_2, ...VASCULITES_3, ...VASCULITES_4,
+  ]),
+  ...montarQuestoes('cm1-reumato-misc', 'Clínica Médica', 'Reumatologia: Miscelânea', [
+    ...REUMATO_MISC_1, ...REUMATO_MISC_2, ...REUMATO_MISC_3, ...REUMATO_MISC_4,
+  ]),
+  ...montarQuestoes('cm1-leucemia', 'Clínica Médica', 'Hematologia: Série Branca (Leucemia Aguda)', [
+    ...LEUCEMIA_1, ...LEUCEMIA_2, ...LEUCEMIA_3, ...LEUCEMIA_4,
+  ]),
+  ...montarQuestoes('prev-processo', 'Preventiva', 'Epidemiologia: Processo Epidêmico e Prevenção de Doenças', [
+    ...PREV_PROCESSO_1, ...PREV_PROCESSO_2, ...PREV_PROCESSO_3, ...PREV_PROCESSO_4,
+  ]),
+  ...montarQuestoes('prev-transicao', 'Preventiva', 'Epidemiologia: Índices, Transição Demográfica e Epidemiológica', [
+    ...PREV_TRANSICAO_1, ...PREV_TRANSICAO_2, ...PREV_TRANSICAO_3, ...PREV_TRANSICAO_4,
+  ]),
+  ...montarQuestoes('prev-coeficientes', 'Preventiva', 'Epidemiologia: Coeficientes', [
+    ...PREV_COEFICIENTES_1, ...PREV_COEFICIENTES_2, ...PREV_COEFICIENTES_3, ...PREV_COEFICIENTES_4,
+  ]),
+  ...montarQuestoes('prev-dcnt', 'Preventiva', 'Epidemiologia: Doenças Crônicas Não Transmissíveis e Declaração de Óbito', [
+    ...PREV_DCNT_1, ...PREV_DCNT_2, ...PREV_DCNT_3, ...PREV_DCNT_4,
+  ]),
+  ...montarQuestoes('prev-estudos', 'Preventiva', 'Epidemiologia: Classificação dos Estudos Epidemiológicos', [
+    ...PREV_ESTUDOS_1, ...PREV_ESTUDOS_2, ...PREV_ESTUDOS_3, ...PREV_ESTUDOS_4,
+  ]),
+  ...montarQuestoes('prev-analise1', 'Preventiva', 'Epidemiologia: Análise I - Medidas de Frequência e Associação', [
+    ...PREV_ANALISE1_1, ...PREV_ANALISE1_2, ...PREV_ANALISE1_3, ...PREV_ANALISE1_4,
+  ]),
+  ...montarQuestoes('prev-estatistica', 'Preventiva', 'Epidemiologia: Análise II - Estatística', [
+    ...PREV_ESTATISTICA_1, ...PREV_ESTATISTICA_2, ...PREV_ESTATISTICA_3, ...PREV_ESTATISTICA_4,
+  ]),
+  ...montarQuestoes('prev-testes', 'Preventiva', 'Epidemiologia: Extras e Validação de Teste Diagnóstico', [
+    ...PREV_TESTES_1, ...PREV_TESTES_2, ...PREV_TESTES_3, ...PREV_TESTES_4,
+  ]),
+  ...montarQuestoes('prev-vigilancia', 'Preventiva', 'Vigilância: Raiva, Tétano e Vigilância da Saúde', [
+    ...PREV_VIGILANCIA_1, ...PREV_VIGILANCIA_2, ...PREV_VIGILANCIA_3, ...PREV_VIGILANCIA_4,
+  ]),
+  ...montarQuestoes('prev-atencao-basica', 'Preventiva', 'SUS: Atenção Básica', [
+    ...PREV_ATENCAO_BASICA_1, ...PREV_ATENCAO_BASICA_2, ...PREV_ATENCAO_BASICA_3, ...PREV_ATENCAO_BASICA_4,
+  ]),
+  ...montarQuestoes('prev-financiamento', 'Preventiva', 'SUS: Financiamento do SUS', [
+    ...PREV_FINANCIAMENTO_1, ...PREV_FINANCIAMENTO_2, ...PREV_FINANCIAMENTO_3, ...PREV_FINANCIAMENTO_4,
+  ]),
+  ...montarQuestoes('prev-trabalhador', 'Preventiva', 'Saúde do Trabalhador', [
+    ...PREV_TRABALHADOR_1, ...PREV_TRABALHADOR_2, ...PREV_TRABALHADOR_3, ...PREV_TRABALHADOR_4,
+  ]),
+  ...montarQuestoes('prev-acidente', 'Preventiva', 'Acidente de Trabalho', [
+    ...PREV_ACIDENTE_1, ...PREV_ACIDENTE_2, ...PREV_ACIDENTE_3, ...PREV_ACIDENTE_4,
+  ]),
+  ...montarQuestoes('prev-etica', 'Preventiva', 'Ética Médica', [
+    ...PREV_ETICA_1, ...PREV_ETICA_2, ...PREV_ETICA_3, ...PREV_ETICA_4,
   ]),
 ];
