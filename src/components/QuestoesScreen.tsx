@@ -327,6 +327,36 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       label: 'Infectologia: Pneumonia',
       matches: (q) => normalizeStr(q.topic) === 'infectologia pneumonia',
     },
+    {
+      id: 'cm1_hanseniase',
+      label: 'Infectologia: Hanseníase',
+      matches: (q) => normalizeStr(q.topic) === 'infectologia hanseniase',
+    },
+    {
+      id: 'cm1_artrites',
+      label: 'Reumatologia: Artrites',
+      matches: (q) => normalizeStr(q.topic) === 'reumatologia artrites',
+    },
+    {
+      id: 'cm1_colagenoses',
+      label: 'Reumatologia: Colagenoses',
+      matches: (q) => normalizeStr(q.topic) === 'reumatologia colagenoses',
+    },
+    {
+      id: 'cm1_vasculites',
+      label: 'Reumatologia: Vasculites',
+      matches: (q) => normalizeStr(q.topic) === 'reumatologia vasculites',
+    },
+    {
+      id: 'cm1_reumato_misc',
+      label: 'Reumatologia: Miscelânea',
+      matches: (q) => normalizeStr(q.topic) === 'reumatologia miscelanea',
+    },
+    {
+      id: 'cm1_leucemia',
+      label: 'Hematologia: Série Branca (Leucemia Aguda)',
+      matches: (q) => normalizeStr(q.topic) === 'hematologia serie branca leucemia aguda',
+    },
   ],
   'Clínica Médica 2': [
     {
@@ -781,29 +811,74 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
   ],
   Preventiva: [
     {
-      id: 'prev_epidemiologia',
-      label: 'Epidemiologia',
-      matches: (q) => normalizeStr(q.topic).includes('epidemiologia'),
+      id: 'prev_processo',
+      label: 'Epidemiologia: Processo Epidêmico e Prevenção de Doenças',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia processo epidemico e prevencao de doencas',
     },
     {
-      id: 'prev_sus',
-      label: 'SUS e Saúde Coletiva',
-      matches: (q) => normalizeStr(q.topic).includes('sus') || normalizeStr(q.topic).includes('saude coletiva'),
+      id: 'prev_transicao',
+      label: 'Epidemiologia: Índices, Transição Demográfica e Epidemiológica',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia indices transicao demografica e epidemiologica',
     },
     {
-      id: 'prev_mbe',
-      label: 'Medicina Baseada em Evidências',
-      matches: (q) => normalizeStr(q.topic).includes('evidencia') || normalizeStr(q.topic).includes('mbe'),
+      id: 'prev_coeficientes',
+      label: 'Epidemiologia: Coeficientes',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia coeficientes',
+    },
+    {
+      id: 'prev_dcnt',
+      label: 'Epidemiologia: Doenças Crônicas Não Transmissíveis e Declaração de Óbito',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia doencas cronicas nao transmissiveis e declaracao de obito',
+    },
+    {
+      id: 'prev_estudos',
+      label: 'Epidemiologia: Classificação dos Estudos Epidemiológicos',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia classificacao dos estudos epidemiologicos',
+    },
+    {
+      id: 'prev_analise1',
+      label: 'Epidemiologia: Análise I - Medidas de Frequência e Associação',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia analise i medidas de frequencia e associacao',
+    },
+    {
+      id: 'prev_estatistica',
+      label: 'Epidemiologia: Análise II - Estatística',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia analise ii estatistica',
+    },
+    {
+      id: 'prev_testes',
+      label: 'Epidemiologia: Extras e Validação de Teste Diagnóstico',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia extras e validacao de teste diagnostico',
     },
     {
       id: 'prev_vigilancia',
-      label: 'Vigilância em Saúde',
-      matches: (q) => normalizeStr(q.topic).includes('vigilancia'),
+      label: 'Vigilância: Raiva, Tétano e Vigilância da Saúde',
+      matches: (q) => normalizeStr(q.topic) === 'vigilancia raiva tetano e vigilancia da saude',
     },
     {
-      id: 'prev_trabalhador_etica',
-      label: 'Saúde do Trabalhador e Ética Médica',
-      matches: (q) => normalizeStr(q.topic).includes('trabalhador') || normalizeStr(q.topic).includes('etica'),
+      id: 'prev_atencao_basica',
+      label: 'SUS: Atenção Básica',
+      matches: (q) => normalizeStr(q.topic) === 'sus atencao basica',
+    },
+    {
+      id: 'prev_financiamento',
+      label: 'SUS: Financiamento do SUS',
+      matches: (q) => normalizeStr(q.topic) === 'sus financiamento do sus',
+    },
+    {
+      id: 'prev_trabalhador',
+      label: 'Saúde do Trabalhador',
+      matches: (q) => normalizeStr(q.topic) === 'saude do trabalhador',
+    },
+    {
+      id: 'prev_acidente',
+      label: 'Acidente de Trabalho',
+      matches: (q) => normalizeStr(q.topic) === 'acidente de trabalho',
+    },
+    {
+      id: 'prev_etica',
+      label: 'Ética Médica',
+      matches: (q) => normalizeStr(q.topic) === 'etica medica',
     },
   ],
 };
