@@ -57,6 +57,9 @@ export function CronogramaScreen({
 }: CronogramaScreenProps) {
   const [search, setSearch] = useState('');
   const [modo, setModo] = useState<'extensivo' | 'intensivo'>('extensivo');
+  // Intensivo tem progresso separado: as aulas marcadas nele usam a chave 'int-' + id
+  const chave = (id: string) => (modo === 'intensivo' ? 'int-' + id : id);
+  const dados = modo === 'intensivo' ? cronogramaIntensivo : cronogramaData;
   const [areaFilter, setAreaFilter] = useState<FilterArea>('Todas');
   const [statusFilter, setStatusFilter] = useState<'todos' | 'pendentes' | 'concluidas'>('todos');
 
@@ -69,19 +72,19 @@ export function CronogramaScreen({
     {},
   );
 
-  const totalEntries = cronogramaData.length;
+  const totalEntries = dados.length;
 
   // Single-status statistics (Aulas assistidas/concluídas)
   const stats = useMemo(() => {
     let completedCount = 0;
-    for (const entry of cronogramaData) {
-      if (isLessonCompleted(progress, entry.id)) {
+    for (const entry of dados) {
+      if (isLessonCompleted(progress, chave(entry.id))) {
         completedCount++;
       }
     }
     const pct = totalEntries > 0 ? Math.round((completedCount / totalEntries) * 100) : 0;
     return { completedCount, pct };
-  }, [progress, totalEntries]);
+  }, [progress, totalEntries, modo]);
 
   // Reactive counters for each specialty filter button
   const filterCounts = useMemo(() => {
@@ -96,23 +99,23 @@ export function CronogramaScreen({
     ];
 
     return filters.map((f) => {
-      const list = cronogramaData.filter((e) => matchesAreaFilter(e, f.value));
+      const list = dados.filter((e) => matchesAreaFilter(e, f.value));
       const total = list.length;
-      const completed = list.filter((e) => isLessonCompleted(progress, e.id)).length;
+      const completed = list.filter((e) => isLessonCompleted(progress, chave(e.id))).length;
       return {
         ...f,
         total,
         completed,
       };
     });
-  }, [progress]);
+  }, [progress, modo]);
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return (modo === 'intensivo' ? cronogramaIntensivo : cronogramaData).filter((e) => {
+    return dados.filter((e) => {
       if (!matchesAreaFilter(e, areaFilter)) return false;
 
-      const isDone = isLessonCompleted(progress, e.id);
+      const isDone = isLessonCompleted(progress, chave(e.id));
       if (statusFilter === 'pendentes' && isDone) return false;
       if (statusFilter === 'concluidas' && !isDone) return false;
 
@@ -355,7 +358,7 @@ export function CronogramaScreen({
               border: 'border-ink-800',
               dot: 'bg-zinc-500',
             };
-            const isDone = isLessonCompleted(progress, entry.id);
+            const isDone = isLessonCompleted(progress, chave(entry.id));
 
             return (
               <div
@@ -439,7 +442,7 @@ export function CronogramaScreen({
 
                   <button
                     type="button"
-                    onClick={() => onToggleComplete(entry.id)}
+                    onClick={() => onToggleComplete(chave(entry.id))}
                     className={`min-h-[48px] h-12 flex-1 rounded-xl text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition-all active:scale-[0.98] shadow-sm ${
                       isDone
                         ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-emerald-600/20'
@@ -485,7 +488,7 @@ export function CronogramaScreen({
                   border: 'border-ink-800',
                   dot: 'bg-zinc-500',
                 };
-                const isDone = isLessonCompleted(progress, entry.id);
+                const isDone = isLessonCompleted(progress, chave(entry.id));
 
                 return (
                   <tr
@@ -578,7 +581,7 @@ export function CronogramaScreen({
                         {/* Toggle Status Button */}
                         <button
                           type="button"
-                          onClick={() => onToggleComplete(entry.id)}
+                          onClick={() => onToggleComplete(chave(entry.id))}
                           className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all shadow-sm active:scale-95 ${
                             isDone
                               ? 'bg-emerald-600 text-white hover:bg-emerald-700 shadow-emerald-600/20'
@@ -629,8 +632,8 @@ export function CronogramaScreen({
         lessonId={activeVideoEntry?.id ?? ''}
         lessonTitle={activeVideoEntry?.aula ?? ''}
         specialty={activeVideoEntry ? `${activeVideoEntry.area} • ${activeVideoEntry.semana}` : ''}
-        isCompleted={activeVideoEntry ? isLessonCompleted(progress, activeVideoEntry.id) : false}
-        onToggleComplete={() => activeVideoEntry && onToggleComplete(activeVideoEntry.id)}
+        isCompleted={activeVideoEntry ? isLessonCompleted(progress, chave(activeVideoEntry.id)) : false}
+        onToggleComplete={() => activeVideoEntry && onToggleComplete(chave(activeVideoEntry.id))}
         onClose={() => setActiveVideoEntry(null)}
         onPrev={handlePrevVideo}
         onNext={handleNextVideo}
