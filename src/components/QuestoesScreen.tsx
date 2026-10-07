@@ -880,6 +880,31 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       label: 'Ética Médica',
       matches: (q) => normalizeStr(q.topic) === 'etica medica',
     },
+    {
+      id: 'prev_peconhentos',
+      label: 'Acidente por Animais Peçonhentos',
+      matches: (q) => normalizeStr(q.topic) === 'acidente por animais peconhentos',
+    },
+    {
+      id: 'prev_intoxicacoes',
+      label: 'Intoxicações',
+      matches: (q) => normalizeStr(q.topic) === 'intoxicacoes',
+    },
+    {
+      id: 'prev_psicoticos',
+      label: 'Psiquiatria: Transtornos Psicóticos e Transtornos de Humor',
+      matches: (q) => normalizeStr(q.topic) === 'psiquiatria transtornos psicoticos e transtornos de humor',
+    },
+    {
+      id: 'prev_ansiedade',
+      label: 'Psiquiatria: Transtornos de Ansiedade e Transtornos Alimentares',
+      matches: (q) => normalizeStr(q.topic) === 'psiquiatria transtornos de ansiedade e transtornos alimentares',
+    },
+    {
+      id: 'prev_delirium',
+      label: 'Psiquiatria: Delirium e Transtornos Relacionados a Substâncias',
+      matches: (q) => normalizeStr(q.topic) === 'psiquiatria delirium e transtornos relacionados a substancias',
+    },
   ],
 };
 
