@@ -30,10 +30,6 @@ export const curriculum: SubjectArea[] = [
           { id: 'cm1-16', number: 17, title: 'Reumatologia: Colagenoses', duration: 12, driveId: '11JDizw9rVqUfFU4sguOd3P-dX7ij8n2B', source: { kind: 'drive', fileId: '11JDizw9rVqUfFU4sguOd3P-dX7ij8n2B' } },
           { id: 'cm1-17', number: 18, title: 'Reumatologia: Vasculites', duration: 11, driveId: '1ciUpZxefEH6DNFQBA9UmgI72ztOsykFq', source: { kind: 'drive', fileId: '1ciUpZxefEH6DNFQBA9UmgI72ztOsykFq' } },
           { id: 'cm1-18', number: 19, title: 'Reumatologia: Miscelânea', duration: 51, driveId: '1k8mLB0gA8CMo1nVsXLTY3tXS_mdsTWC1', source: { kind: 'drive', fileId: '1k8mLB0gA8CMo1nVsXLTY3tXS_mdsTWC1' } },
-          { id: 'cm1-19', number: 20, title: 'Pneumologia: DPOC', duration: 49, driveId: '1WMt6jR3AXRzcYoo0-qBXvwjoE2nLX5fV', source: { kind: 'drive', fileId: '1WMt6jR3AXRzcYoo0-qBXvwjoE2nLX5fV' } },
-          { id: 'cm1-20', number: 21, title: 'Pneumologia: Tuberculose', duration: 33, driveId: '18G1fG7YFvZklyMHQSeAAKA4qqK_8cYWQ', source: { kind: 'drive', fileId: '18G1fG7YFvZklyMHQSeAAKA4qqK_8cYWQ' } },
-          { id: 'cm1-21', number: 22, title: 'Pneumologia: Insuficiência Respiratória Aguda', duration: 20, driveId: '1_BAeWEpqYFKw8cNpM43Qt8pnhng9c8np', source: { kind: 'drive', fileId: '1_BAeWEpqYFKw8cNpM43Qt8pnhng9c8np' } },
-          { id: 'cm1-22', number: 23, title: 'Cardiologia: Quinta Definição Universal do Infarto do Miocárdio (Atualização 2026)', duration: 8, driveId: '183fk5N6N7iAvpxP8kspR6DDE3pYeNctb', source: { kind: 'drive', fileId: '183fk5N6N7iAvpxP8kspR6DDE3pYeNctb' } },
         ],
       },
       {
