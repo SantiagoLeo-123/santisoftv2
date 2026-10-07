@@ -3,6 +3,7 @@ export type AreaShort = 'Clínica' | 'GO' | 'Cirurgia' | 'Pediatria' | 'Preventi
 export interface CronogramaEntry {
   id: string;
   semana: string;
+  semanaOriginal?: string;
   area: AreaShort;
   aula: string;
   bonus: string;
@@ -131,3 +132,23 @@ export const cronogramaData: CronogramaEntry[] = raw.map((r, i) => ({
   id: r.id || `cron-x${String(i).padStart(3, '0')}`,
   aula: r.aula || r.titulo || '',
 }));
+// Cronograma Intensivo: as mesmas aulas do Extensivo, na mesma ordem, divididas em 6 semanas.
+// A semana original fica em semanaOriginal (usada nos filtros de Clínica Médica 1 e 2).
+export const SEMANAS_INTENSIVO = 6;
+
+export const cronogramaIntensivo: CronogramaEntry[] = (() => {
+  const total = cronogramaData.length;
+  const base = Math.floor(total / SEMANAS_INTENSIVO);
+  const extra = total % SEMANAS_INTENSIVO;
+  const result: CronogramaEntry[] = [];
+  let idx = 0;
+  for (let w = 0; w < SEMANAS_INTENSIVO; w++) {
+    const qtd = base + (w >= SEMANAS_INTENSIVO - extra ? 1 : 0);
+    for (let k = 0; k < qtd && idx < total; k++, idx++) {
+      const e = cronogramaData[idx];
+      result.push({ ...e, semana: `Semana ${String(w + 1).padStart(2, '0')}`, semanaOriginal: e.semana });
+    }
+  }
+  return result;
+})();
+
