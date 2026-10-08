@@ -109,19 +109,35 @@ export function normalizarEspecialidade(area: string): string {
 }
 
 // Localiza o tema e especialidade a partir do ID da aula
+// Acha a aula do cronograma correspondente a uma aula do menu lateral (mesmo vídeo do Drive)
+function cronogramaPorLicao(lessonId: string) {
+  for (const area of curriculum) {
+    for (const mod of area.modules) {
+      for (const lesson of mod.lessons) {
+        if (lesson.id === lessonId) {
+          const driveId = (lesson as { driveId?: string }).driveId;
+          return driveId ? cronogramaData.find((c) => c.driveId === driveId) : undefined;
+        }
+      }
+    }
+  }
+  return undefined;
+}
+
 export function resolverTemaEEspecialidade(lessonOrEntryId: string): {
   id: string;
   tema: string;
   especialidade: string;
 } {
-  // 1. Tenta achar no cronogramaData
-  const cron = cronogramaData.find((c) => c.id === lessonOrEntryId);
+  // 1. Tenta achar no cronogramaData (aulas do Intensivo usam o prefixo 'int-')
+  const baseId = lessonOrEntryId.startsWith('int-') ? lessonOrEntryId.slice(4) : lessonOrEntryId;
+  const cron = cronogramaData.find((c) => c.id === baseId) || cronogramaPorLicao(baseId);
   if (cron) {
+    // A revisão usa exatamente o tema da aula no cronograma
     const rawTema = cron.aula || cron.titulo || 'Tema Geral';
-    const canonical = TEMA_CANONICAL_MAP[normalizeStr(rawTema)] || rawTema;
     return {
       id: cron.id,
-      tema: canonical,
+      tema: rawTema,
       especialidade: normalizarEspecialidade(cron.area),
     };
   }
@@ -178,6 +194,21 @@ export function getMentorStore(): MentorStore {
         delete store[key];
         modified = true;
       }
+    }
+
+    // Alinha as revisões ao tema do cronograma (inclusive as criadas pelo menu lateral)
+    for (const key of Object.keys(store)) {
+      const item = store[key];
+      if (!item || !item.id) continue;
+      const baseId = item.id.startsWith('int-') ? item.id.slice(4) : item.id;
+      const conhecido = cronogramaData.some((c) => c.id === baseId) || !!cronogramaPorLicao(baseId);
+      if (!conhecido) continue;
+      const r = resolverTemaEEspecialidade(item.id);
+      if (r.id === key && r.tema === item.tema) continue;
+      if (r.id !== key && store[r.id]) continue;
+      store[r.id] = { ...item, id: r.id, tema: r.tema, especialidade: r.especialidade };
+      if (r.id !== key) delete store[key];
+      modified = true;
     }
 
     // Migra temas gravados no formato antigo (R1 7d, R2 30d, R3 60d) para 7, 15, 30 e 60 dias
