@@ -92,7 +92,7 @@ const raw: RawEntry[] = [
   { id: 'cron-056', semana: 'Semana 29', area: 'Clínica', aula: 'Valvopatias', bonus: '-', driveId: '16UKH0ABVFYTFCBrmepj9kDfNVgGGQLDD' },
   { id: 'cron-057', semana: 'Semana 30', area: 'Clínica', aula: 'Doença Arterial Coronariana: IAM e Angina', bonus: 'Complicações Pós-IAM, Pericardiopatias', driveId: '1HdovgTk-mwM2qUtgg0YMnz-Yggzr8qHq' },
   { id: 'cron-058', semana: 'Semana 30', area: 'Pediatria', aula: 'Diarreia Aguda e Desidratação na Infância', bonus: 'Constipação na Infância, Diarreia Crônica', driveId: '1g8eI7QbmknoXz6hjK0pIGFnkBRvaN-1T' },
-  { id: 'cron-059', semana: 'Semana 31', area: 'Preventiva', aula: 'SUS I - Evolução Histórica e Legislação', bonus: 'Decreto 7.508', driveId: '1RXLEnPYUR2SCHLnJjz4IVUm8hylB9IB_' },
+  { id: 'cron-059', semana: 'Semana 31', area: 'Preventiva', aula: 'SUS I - Evolução Histórica e Legislação', bonus: 'Decreto 7.508' },
   { id: 'cron-go-colo-endometrio', semana: 'Semana 31', area: 'GO', aula: 'Lesões Precursoras, Câncer de Colo Uterino e Endométrio', bonus: 'Câncer de Vulva', driveId: '1amDj4Z91efkZhjM-lwJzz30d94s_J6Ib' },
   { id: 'cron-060', semana: 'Semana 32', area: 'Clínica', aula: 'Tireoide', bonus: 'Hipotireoidismo Congênito', driveId: '1uT0CDZfhj_VD31WKJMbZV2mEfxGLyfJL' },
   { id: 'cron-061', semana: 'Semana 32', area: 'Preventiva', aula: 'SUS II - Atenção Básica e Financiamento', bonus: 'Instrumentos de AB (Tipos de Família), Instrumentos de AB (Ciclo de Vida Familiar), Instrumentos de AB (Apgar Familiar, Practice e Firo), Instrumentos de AB (Escala de Coelho Savassi), Método SOAP, Cofinanciamento Federal da APS', driveId: '1quLalx-GCLKLG7vyf2J6dIIEzkTj_NkC' },
