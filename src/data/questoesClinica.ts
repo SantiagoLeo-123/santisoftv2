@@ -260,6 +260,14 @@ import { PREV_DELIRIUM_1 } from './clinica/prevDelirium1';
 import { PREV_DELIRIUM_2 } from './clinica/prevDelirium2';
 import { PREV_DELIRIUM_3 } from './clinica/prevDelirium3';
 import { PREV_DELIRIUM_4 } from './clinica/prevDelirium4';
+import { PREV_EPICLINICA_1 } from './clinica/prevEpiClinica1';
+import { PREV_EPICLINICA_2 } from './clinica/prevEpiClinica2';
+import { PREV_EPICLINICA_3 } from './clinica/prevEpiClinica3';
+import { PREV_EPICLINICA_4 } from './clinica/prevEpiClinica4';
+import { PREV_FINPLAN_1 } from './clinica/prevFinPlan1';
+import { PREV_FINPLAN_2 } from './clinica/prevFinPlan2';
+import { PREV_FINPLAN_3 } from './clinica/prevFinPlan3';
+import { PREV_FINPLAN_4 } from './clinica/prevFinPlan4';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -457,5 +465,11 @@ export const QUESTOES_CLINICA: Question[] = [
   ]),
   ...montarQuestoes('prev-delirium', 'Preventiva', 'Psiquiatria: Delirium e Transtornos Relacionados a Substâncias', [
     ...PREV_DELIRIUM_1, ...PREV_DELIRIUM_2, ...PREV_DELIRIUM_3, ...PREV_DELIRIUM_4,
+  ]),
+  ...montarQuestoes('prev-epiclinica', 'Preventiva', 'Epidemiologia Clínica', [
+    ...PREV_EPICLINICA_1, ...PREV_EPICLINICA_2, ...PREV_EPICLINICA_3, ...PREV_EPICLINICA_4,
+  ]),
+  ...montarQuestoes('prev-finplan', 'Preventiva', 'Financiamento do SUS e Planejamento em Saúde', [
+    ...PREV_FINPLAN_1, ...PREV_FINPLAN_2, ...PREV_FINPLAN_3, ...PREV_FINPLAN_4,
   ]),
 ];
