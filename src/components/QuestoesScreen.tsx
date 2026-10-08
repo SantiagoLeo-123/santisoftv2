@@ -871,11 +871,6 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic) === 'sus financiamento do sus',
     },
     {
-      id: 'prev_finplan',
-      label: 'Financiamento do SUS e Planejamento em Saúde',
-      matches: (q) => normalizeStr(q.topic) === 'financiamento do sus e planejamento em saude',
-    },
-    {
       id: 'prev_trabalhador',
       label: 'Saúde do Trabalhador',
       matches: (q) => normalizeStr(q.topic) === 'saude do trabalhador',
