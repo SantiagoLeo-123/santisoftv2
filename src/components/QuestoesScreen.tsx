@@ -851,6 +851,11 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       matches: (q) => normalizeStr(q.topic) === 'epidemiologia extras e validacao de teste diagnostico',
     },
     {
+      id: 'prev_epiclinica',
+      label: 'Epidemiologia Clínica',
+      matches: (q) => normalizeStr(q.topic) === 'epidemiologia clinica',
+    },
+    {
       id: 'prev_vigilancia',
       label: 'Vigilância: Raiva, Tétano e Vigilância da Saúde',
       matches: (q) => normalizeStr(q.topic) === 'vigilancia raiva tetano e vigilancia da saude',
@@ -864,6 +869,11 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
       id: 'prev_financiamento',
       label: 'SUS: Financiamento do SUS',
       matches: (q) => normalizeStr(q.topic) === 'sus financiamento do sus',
+    },
+    {
+      id: 'prev_finplan',
+      label: 'Financiamento do SUS e Planejamento em Saúde',
+      matches: (q) => normalizeStr(q.topic) === 'financiamento do sus e planejamento em saude',
     },
     {
       id: 'prev_trabalhador',
