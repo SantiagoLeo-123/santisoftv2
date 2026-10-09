@@ -264,6 +264,20 @@ import { PREV_EPICLINICA_1 } from './clinica/prevEpiClinica1';
 import { PREV_EPICLINICA_2 } from './clinica/prevEpiClinica2';
 import { PREV_EPICLINICA_3 } from './clinica/prevEpiClinica3';
 import { PREV_EPICLINICA_4 } from './clinica/prevEpiClinica4';
+import { GO_EXTRA_DIAG } from './clinica/goExtraDiag';
+import { GO_EXTRA_PRENATAL } from './clinica/goExtraPrenatal';
+import { GO_EXTRA_PARTO } from './clinica/goExtraParto';
+import { GO_EXTRA_HEM1 } from './clinica/goExtraHem1';
+import { GO_EXTRA_HEM2 } from './clinica/goExtraHem2';
+import { GO_EXTRA_CLIN } from './clinica/goExtraClin';
+import { GO_EXTRA_SOFR } from './clinica/goExtraSofr';
+import { GO_EXTRA_FORC } from './clinica/goExtraForc';
+import { GO_EXTRA_ANTIC } from './clinica/goExtraAntic';
+import { GO_EXTRA_ENDO } from './clinica/goExtraEndo';
+import { GO_EXTRA_NEO } from './clinica/goExtraNeo';
+import { GO_EXTRA_SUA } from './clinica/goExtraSua';
+import { GO_EXTRA_URO } from './clinica/goExtraUro';
+import { GO_EXTRA_IST } from './clinica/goExtraIst';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -465,4 +479,18 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('prev-epiclinica', 'Preventiva', 'Epidemiologia Clínica', [
     ...PREV_EPICLINICA_1, ...PREV_EPICLINICA_2, ...PREV_EPICLINICA_3, ...PREV_EPICLINICA_4,
   ]),
+  ...montarQuestoes('go-extra-diag', 'Ginecologia e Obstetrícia', 'Diagnósticos de Gravidez e Modificações do Organismo', GO_EXTRA_DIAG),
+  ...montarQuestoes('go-extra-prenatal', 'Ginecologia e Obstetrícia', 'Pré-natal, Estática Fetal e Indução de Parto', GO_EXTRA_PRENATAL),
+  ...montarQuestoes('go-extra-parto', 'Ginecologia e Obstetrícia', 'Parto e Prematuridade', GO_EXTRA_PARTO),
+  ...montarQuestoes('go-extra-hem1', 'Ginecologia e Obstetrícia', 'Hemorragias na Primeira Metade', GO_EXTRA_HEM1),
+  ...montarQuestoes('go-extra-hem2', 'Ginecologia e Obstetrícia', 'Hemorragias na Segunda Metade e DHP', GO_EXTRA_HEM2),
+  ...montarQuestoes('go-extra-clin', 'Ginecologia e Obstetrícia', 'Doenças Clínicas da Gestação', GO_EXTRA_CLIN),
+  ...montarQuestoes('go-extra-sofr', 'Ginecologia e Obstetrícia', 'Sofrimento Fetal', GO_EXTRA_SOFR),
+  ...montarQuestoes('go-extra-forc', 'Ginecologia e Obstetrícia', 'Fórceps, Endometrite e Hemorragia Puerperal', GO_EXTRA_FORC),
+  ...montarQuestoes('go-extra-antic', 'Ginecologia e Obstetrícia', 'Anticoncepção', GO_EXTRA_ANTIC),
+  ...montarQuestoes('go-extra-endo', 'Ginecologia e Obstetrícia', 'Endocrinoginecologia e Infertilidade', GO_EXTRA_ENDO),
+  ...montarQuestoes('go-extra-neo', 'Ginecologia e Obstetrícia', 'Neoplasias Ginecológicas', GO_EXTRA_NEO),
+  ...montarQuestoes('go-extra-sua', 'Ginecologia e Obstetrícia', 'Sangramento Uterino Anormal e Endometriose', GO_EXTRA_SUA),
+  ...montarQuestoes('go-extra-uro', 'Ginecologia e Obstetrícia', 'Uroginecologia: Incontinência e Prolapso', GO_EXTRA_URO),
+  ...montarQuestoes('go-extra-ist', 'Ginecologia e Obstetrícia', 'IST: Infecções Sexualmente Transmissíveis', GO_EXTRA_IST),
 ];
