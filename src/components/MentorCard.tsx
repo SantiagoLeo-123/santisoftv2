@@ -70,7 +70,7 @@ export function MentorCard({ onOpenMentorTab }: MentorCardProps) {
     }
     return {
       bg: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
-      label: `[R4 - ${dias} dias]`,
+      label: `[${ciclo} - ${dias} dias]`,
     };
   };
 
@@ -98,7 +98,9 @@ export function MentorCard({ onOpenMentorTab }: MentorCardProps) {
               Ciclos inteligentes Medcurso: <span className="text-cyan-400 font-semibold">R1 (7d)</span> •{' '}
               <span className="text-purple-400 font-semibold">R2 (15d)</span> •{' '}
               <span className="text-amber-400 font-semibold">R3 (30d)</span> •{' '}
-              <span className="text-emerald-400 font-semibold">R4 (60d)</span>
+              <span className="text-emerald-400 font-semibold">R4 (60d)</span> •{' '}
+            <span className="text-pink-400 font-semibold">R5 (90d)</span> •{' '}
+            <span className="text-indigo-400 font-semibold">R6 (120d)</span>
             </p>
           </div>
         </div>
@@ -132,9 +134,9 @@ export function MentorCard({ onOpenMentorTab }: MentorCardProps) {
               return (
                 <div
                   key={`${item.temaId}-${item.ciclo}`}
-                  className="p-3.5 sm:p-4 rounded-xl bg-ink-950/80 border border-ink-850 hover:border-red-600/40 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3 group"
+                  className="p-3.5 sm:p-4 rounded-xl bg-ink-950/80 border border-ink-850 hover:border-red-600/40 transition-all flex flex-col xl:flex-row xl:items-center justify-between gap-3 group"
                 >
-                  <div className="space-y-1 min-w-0">
+                  <div className="space-y-1 min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-2">
                       <span
                         className={`text-[11px] font-black uppercase px-2 py-0.5 rounded-md border ${badge.bg}`}
