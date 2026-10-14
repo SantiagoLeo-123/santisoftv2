@@ -88,7 +88,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
         bg: 'bg-cyan-500/15 text-cyan-400 border-cyan-500/30',
         text: 'text-cyan-400',
         label: `R1 (${dias || 7} dias)`,
-        desc: '1º Ciclo de Fixação (24h - 7d)',
+        desc: '1º Ciclo de Fixação (7 dias)',
       };
     }
     if (ciclo === 'R2') {
@@ -105,6 +105,22 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
         text: 'text-amber-400',
         label: `R3 (${dias || 30} dias)`,
         desc: '3º Ciclo de Memória (30 dias)',
+      };
+    }
+    if (ciclo === 'R5') {
+      return {
+        bg: 'bg-pink-500/15 text-pink-400 border-pink-500/30',
+        text: 'text-pink-400',
+        label: `R5 (${dias || 90} dias)`,
+        desc: '5º Ciclo de Manutenção (90 dias)',
+      };
+    }
+    if (ciclo === 'R6') {
+      return {
+        bg: 'bg-indigo-500/15 text-indigo-400 border-indigo-500/30',
+        text: 'text-indigo-400',
+        label: `R6 (${dias || 120} dias)`,
+        desc: '6º Ciclo de Consolidação Final (120 dias)',
       };
     }
     return {
@@ -126,7 +142,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
       pontuacao?: { acertos: number; total: number };
     }> = [];
 
-    (['R1', 'R2', 'R3', 'R4'] as CicloRevisao[]).forEach((cicloKey) => {
+    (['R1', 'R2', 'R3', 'R4', 'R5', 'R6'] as CicloRevisao[]).forEach((cicloKey) => {
       const c = tema.ciclos[cicloKey];
       if (c && c.concluido) {
         arr.push({
@@ -186,7 +202,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
                   </span>
                 </div>
                 <p className="text-xs sm:text-sm text-zinc-400 mt-0.5">
-                  Algoritmo inteligente de retenção e revisão contínua em ciclos de 24h, 7d, 30d e 60d com simulados direcionados.
+                  Algoritmo inteligente de retenção e revisão contínua em ciclos de 7, 15, 30, 60, 90 e 120 dias com simulados direcionados.
                 </p>
               </div>
             </div>
@@ -405,9 +421,9 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
                   return (
                     <div
                       key={`${item.temaId}-${item.ciclo}`}
-                      className="p-4 sm:p-5 rounded-2xl bg-ink-900 border border-ink-875 hover:border-red-600/40 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4 group shadow-md"
+                      className="p-4 sm:p-5 rounded-2xl bg-ink-900 border border-ink-875 hover:border-red-600/40 transition-all flex flex-col xl:flex-row xl:items-center justify-between gap-4 group shadow-md"
                     >
-                      <div className="space-y-2 min-w-0">
+                      <div className="space-y-2 min-w-0 flex-1">
                         <div className="flex flex-wrap items-center gap-2">
                           <span className={`text-[11px] font-black uppercase px-2.5 py-0.5 rounded-lg border ${badge.bg}`}>
                             {badge.label}
@@ -616,7 +632,7 @@ export const MentorInteligenteTab: React.FC<MentorScreenProps> = ({
 
             <div className="p-3 rounded-xl bg-ink-950/60 border border-amber-500/20 space-y-1">
               <span className="text-[11px] font-black text-amber-400 block uppercase">
-                3. Ciclo R4 (60 Dias)
+                3. Ciclos R4, R5 e R6 (60, 90 e 120 Dias)
               </span>
               <p className="text-zinc-400 leading-relaxed">
                 Consolidação para as provas de Residência. O intervalo se ajusta ao seu resultado: 80% ou mais avança; de 60% a 79% repete o mesmo intervalo; abaixo de 60% volta para 7 dias.
