@@ -8,6 +8,7 @@ import {
   ExternalLink,
   List,
   X,
+  Maximize2,
 } from 'lucide-react';
 import type { Lesson } from '@/types';
 import { extractDriveFileId } from '@/lib/driveUrls';
@@ -51,6 +52,45 @@ export function VideoPlayer({
   const drawerRef = useRef<HTMLDivElement>(null);
   // Detecção de orientação paisagem no mobile (altura reduzida <= 550px)
   const [isMobileLandscape, setIsMobileLandscape] = useState(false);
+  // Tela cheia manual (iPad e celular em pé)
+  const [telaCheia, setTelaCheia] = useState(false);
+  const playerRef = useRef<HTMLDivElement>(null);
+  const modoCheio = isMobileLandscape || telaCheia;
+
+  const entrarTelaCheia = () => {
+    setTelaCheia(true);
+    const el = playerRef.current as (HTMLDivElement & { webkitRequestFullscreen?: () => void }) | null;
+    try {
+      if (el?.requestFullscreen) el.requestFullscreen().catch(() => {});
+      else el?.webkitRequestFullscreen?.();
+    } catch {
+      // Sem suporte (iPhone): fica no modo tela cheia do próprio app
+    }
+  };
+
+  const sairTelaCheia = () => {
+    setTelaCheia(false);
+    const doc = document as Document & { webkitExitFullscreen?: () => void; webkitFullscreenElement?: Element | null };
+    try {
+      if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+      else if (doc.webkitFullscreenElement) doc.webkitExitFullscreen?.();
+    } catch {
+      // ignora
+    }
+  };
+
+  useEffect(() => {
+    const onChange = () => {
+      const doc = document as Document & { webkitFullscreenElement?: Element | null };
+      if (!document.fullscreenElement && !doc.webkitFullscreenElement) setTelaCheia(false);
+    };
+    document.addEventListener('fullscreenchange', onChange);
+    document.addEventListener('webkitfullscreenchange', onChange);
+    return () => {
+      document.removeEventListener('fullscreenchange', onChange);
+      document.removeEventListener('webkitfullscreenchange', onChange);
+    };
+  }, []);
 
   useEffect(() => {
     const handleOrientation = () => {
@@ -116,19 +156,29 @@ export function VideoPlayer({
         
         {/* 2. Container envolvente do <iframe> com enquadramento 16:9 no landscape */}
         <div
+          ref={playerRef}
           className={`w-full relative z-0 video-landscape-outer ${
-            isMobileLandscape
+            modoCheio
               ? 'fixed inset-0 z-50 bg-black flex items-center justify-center p-0 pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)]'
               : 'px-2 sm:px-4'
           }`}
         >
           <div
             className={`overflow-hidden bg-black relative shadow-lg video-cinema-container ${
-              isMobileLandscape
+              modoCheio
                 ? 'w-full max-w-[calc(100dvh*16/9)] max-h-[100dvh] aspect-video relative flex items-center justify-center'
                 : 'w-full h-[290px] sm:h-[360px] md:aspect-video rounded-xl my-2 flex-shrink-0'
             }`}
           >
+            {telaCheia && (
+              <button
+                type="button"
+                onClick={sairTelaCheia}
+                className="absolute top-3 right-3 z-[60] mt-[env(safe-area-inset-top)] px-3 py-2 rounded-xl bg-black/70 hover:bg-black/90 text-white text-xs font-bold flex items-center gap-1.5 border border-white/20"
+              >
+                <X className="w-4 h-4" /> Sair da tela cheia
+              </button>
+            )}
             {isMp4 ? (
               <video
                 key={lesson.id}
@@ -152,6 +202,16 @@ export function VideoPlayer({
               />
             )}
           </div>
+
+          {!modoCheio && (
+            <button
+              type="button"
+              onClick={entrarTelaCheia}
+              className="w-full min-h-[44px] mt-2 py-2.5 px-4 rounded-xl text-xs sm:text-sm font-bold bg-red-600 hover:bg-red-500 text-white flex items-center justify-center gap-2 transition-colors"
+            >
+              <Maximize2 className="w-4 h-4" /> Assistir em tela cheia
+            </button>
+          )}
 
           {/* Botão de Contingência Mobile (Fallback Essencial) */}
           {externalDriveUrl && (
