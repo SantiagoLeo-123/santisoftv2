@@ -50,7 +50,7 @@ const raw: RawEntry[] = [
   { id: 'cron-014', semana: 'Semana 08', area: 'Cirurgia', aula: 'Urologia', bonus: 'Câncer de Rim, Câncer de Bexiga, Câncer do Testículo, Hipogonadismo Masculino e Testosterona, Disfunção Erétil', driveId: '1SlHzq15WLhhcj6uQ3SvRi_m8x-AJjjl1' },
   { id: 'cron-015', semana: 'Semana 09', area: 'Clínica', aula: 'Introdução à Reumatologia + Artrites (Artrite Reumatoide, Espondiloartropatias Soronegativas)', bonus: '-', driveId: '1IzIJ0jhAQDv3BNIvtRTAwMYOhHdB9cAu' },
   { id: 'cron-016', semana: 'Semana 09', area: 'Pediatria', aula: 'Neonatologia II', bonus: 'Enterocolite Necrosante, Miscelânea', driveId: '1K08_YemumJVvA9dgvtKv2Mv4xy9EeILn' },
-  { id: 'cron-017', semana: 'Semana 10', area: 'Clínica', aula: 'Gota; Febre Reumática', bonus: 'Fibromialgia, Artrite Séptica' },
+  { id: 'cron-017', semana: 'Semana 10', area: 'Clínica', aula: 'Gota; Febre Reumática', bonus: 'Fibromialgia, Artrite Séptica', driveId: '1k8mLB0gA8CMo1nVsXLTY3tXS_mdsTWC1' },
   { id: 'cron-018', semana: 'Semana 10', area: 'Preventiva', aula: 'Epidemiologia Clínica', bonus: 'Verossimilhança e Testes Múltiplos, Curva ROC e Variações no Ponto de Corte, Medidas de Tendência Central e de Dispersão', driveId: '1It2NyrjcXCsCohm1p50fFUtPEpmKxgUg' },
   { id: 'cron-019', semana: 'Semana 11', area: 'Cirurgia', aula: 'Queimadura e Cirurgia Plástica', bonus: 'REMIT, Nutrição perioperatória, Úlceras de pressão', driveId: '11JRO99JlMpkwd95f_ojQtM3FrH-BBlpS' },
   { id: 'cron-020', semana: 'Semana 11', area: 'GO', aula: 'Assistência Clínica ao Parto e Parto Prematuro', bonus: 'Estudo do Motor, Mecanismo de Parto, Cesariana', driveId: '1T-_xwlyLe3jbOIJb-K8vg0IAqRSHHRoi' },
