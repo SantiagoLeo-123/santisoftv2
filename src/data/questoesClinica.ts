@@ -278,6 +278,20 @@ import { GO_EXTRA_NEO } from './clinica/goExtraNeo';
 import { GO_EXTRA_SUA } from './clinica/goExtraSua';
 import { GO_EXTRA_URO } from './clinica/goExtraUro';
 import { GO_EXTRA_IST } from './clinica/goExtraIst';
+import { PED_EXTRA_EXANT } from './clinica/pedExtraExant';
+import { PED_EXTRA_ITU } from './clinica/pedExtraItu';
+import { PED_EXTRA_NEO1 } from './clinica/pedExtraNeo1';
+import { PED_EXTRA_NEO2 } from './clinica/pedExtraNeo2';
+import { PED_EXTRA_PUB } from './clinica/pedExtraPub';
+import { PED_EXTRA_IMUN } from './clinica/pedExtraImun';
+import { PED_EXTRA_GASTRO } from './clinica/pedExtraGastro';
+import { PED_EXTRA_IRAB } from './clinica/pedExtraIrab';
+import { PED_EXTRA_ESTR } from './clinica/pedExtraEstr';
+import { PED_EXTRA_IVAS } from './clinica/pedExtraIvas';
+import { PED_EXTRA_CARDIO } from './clinica/pedExtraCardio';
+import { PED_EXTRA_CRESC } from './clinica/pedExtraCresc';
+import { PED_EXTRA_ALEIT } from './clinica/pedExtraAleit';
+import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -493,4 +507,18 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('go-extra-sua', 'Ginecologia e Obstetrícia', 'Sangramento Uterino Anormal e Endometriose', GO_EXTRA_SUA),
   ...montarQuestoes('go-extra-uro', 'Ginecologia e Obstetrícia', 'Uroginecologia: Incontinência e Prolapso', GO_EXTRA_URO),
   ...montarQuestoes('go-extra-ist', 'Ginecologia e Obstetrícia', 'IST: Infecções Sexualmente Transmissíveis', GO_EXTRA_IST),
+  ...montarQuestoes('ped-extra-exant', 'Pediatria', 'Doenças Exantemáticas', PED_EXTRA_EXANT),
+  ...montarQuestoes('ped-extra-itu', 'Pediatria', 'Infecção do Trato Urinário', PED_EXTRA_ITU),
+  ...montarQuestoes('ped-extra-neo1', 'Pediatria', 'Neonatologia I - Icterícia e Reanimação', PED_EXTRA_NEO1),
+  ...montarQuestoes('ped-extra-neo2', 'Pediatria', 'Neonatologia II - Distúrbios Respiratórios, Infecções e Triagem Neonatal', PED_EXTRA_NEO2),
+  ...montarQuestoes('ped-extra-pub', 'Pediatria', 'Puberdade e seus Distúrbios', PED_EXTRA_PUB),
+  ...montarQuestoes('ped-extra-imun', 'Pediatria', 'Imunizações', PED_EXTRA_IMUN),
+  ...montarQuestoes('ped-extra-gastro', 'Pediatria', 'Doenças Gastrointestinais', PED_EXTRA_GASTRO),
+  ...montarQuestoes('ped-extra-irab', 'Pediatria', 'Infecções Respiratórias Inferiores', PED_EXTRA_IRAB),
+  ...montarQuestoes('ped-extra-estr', 'Pediatria', 'IRA com Estridor', PED_EXTRA_ESTR),
+  ...montarQuestoes('ped-extra-ivas', 'Pediatria', 'IRA: Infecções de Vias Aéreas Superiores', PED_EXTRA_IVAS),
+  ...montarQuestoes('ped-extra-cardio', 'Pediatria', 'Cardiologia Pediátrica', PED_EXTRA_CARDIO),
+  ...montarQuestoes('ped-extra-cresc', 'Pediatria', 'Crescimento e seus Distúrbios', PED_EXTRA_CRESC),
+  ...montarQuestoes('ped-extra-aleit', 'Pediatria', 'Aleitamento Materno', PED_EXTRA_ALEIT),
+  ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
 ];
