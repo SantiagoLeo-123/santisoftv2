@@ -292,6 +292,11 @@ import { PED_EXTRA_CARDIO } from './clinica/pedExtraCardio';
 import { PED_EXTRA_CRESC } from './clinica/pedExtraCresc';
 import { PED_EXTRA_ALEIT } from './clinica/pedExtraAleit';
 import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
+import { CM_EXTRA_GLOM } from './clinica/cmExtraGlom';
+import { CM_EXTRA_TUB } from './clinica/cmExtraTub';
+import { CM_EXTRA_UREM } from './clinica/cmExtraUrem';
+import { CM_EXTRA_ELETR } from './clinica/cmExtraEletr';
+import { CM_EXTRA_ACID } from './clinica/cmExtraAcid';
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -521,4 +526,9 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('ped-extra-cresc', 'Pediatria', 'Crescimento e seus Distúrbios', PED_EXTRA_CRESC),
   ...montarQuestoes('ped-extra-aleit', 'Pediatria', 'Aleitamento Materno', PED_EXTRA_ALEIT),
   ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
+  ...montarQuestoes('cm-extra-glom', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', CM_EXTRA_GLOM),
+  ...montarQuestoes('cm-extra-tub', 'Clínica Médica', 'Nefrologia: Síndromes Tubulares e Vasculares', CM_EXTRA_TUB),
+  ...montarQuestoes('cm-extra-urem', 'Clínica Médica', 'Nefrologia: Síndrome Urêmica', CM_EXTRA_UREM),
+  ...montarQuestoes('cm-extra-eletr', 'Clínica Médica', 'Nefrologia: Equilíbrio Eletrolítico', CM_EXTRA_ELETR),
+  ...montarQuestoes('cm-extra-acid', 'Clínica Médica', 'Nefrologia: Equilíbrio Ácido-Básico', CM_EXTRA_ACID),
 ];
