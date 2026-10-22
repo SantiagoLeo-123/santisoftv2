@@ -297,6 +297,10 @@ import { CM_EXTRA_TUB } from './clinica/cmExtraTub';
 import { CM_EXTRA_UREM } from './clinica/cmExtraUrem';
 import { CM_EXTRA_ELETR } from './clinica/cmExtraEletr';
 import { CM_EXTRA_ACID } from './clinica/cmExtraAcid';
+import { CM_EXTRA_ANEM } from './clinica/cmExtraAnem'
+import { CM_EXTRA_LINF } from './clinica/cmExtraLinf'
+import { CM_EXTRA_PLAQ } from './clinica/cmExtraPlaq'
+import { CM_EXTRA_LEUC } from './clinica/cmExtraLeuc'
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -531,4 +535,8 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm-extra-urem', 'Clínica Médica', 'Nefrologia: Síndrome Urêmica', CM_EXTRA_UREM),
   ...montarQuestoes('cm-extra-eletr', 'Clínica Médica', 'Nefrologia: Equilíbrio Eletrolítico', CM_EXTRA_ELETR),
   ...montarQuestoes('cm-extra-acid', 'Clínica Médica', 'Nefrologia: Equilíbrio Ácido-Básico', CM_EXTRA_ACID),
+  ...montarQuestoes('cm-extra-anem', 'Clínica Médica', 'Hematologia: Série Vermelha (Anemias)', CM_EXTRA_ANEM),
+  ...montarQuestoes('cm-extra-linf', 'Clínica Médica', 'Hematologia: Série Branca (Linfoma e Mieloma)', CM_EXTRA_LINF),
+  ...montarQuestoes('cm-extra-plaq', 'Clínica Médica', 'Hematologia: Série Plaquetária', CM_EXTRA_PLAQ),
+  ...montarQuestoes('cm-extra-leuc', 'Clínica Médica', 'Hematologia: Série Branca (Leucemia Aguda)', CM_EXTRA_LEUC),
 ];
