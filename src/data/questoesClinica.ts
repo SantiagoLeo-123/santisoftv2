@@ -301,6 +301,12 @@ import { CM_EXTRA_ANEM } from './clinica/cmExtraAnem'
 import { CM_EXTRA_LINF } from './clinica/cmExtraLinf'
 import { CM_EXTRA_PLAQ } from './clinica/cmExtraPlaq'
 import { CM_EXTRA_LEUC } from './clinica/cmExtraLeuc'
+import { CM_EXTRA_FEBR } from './clinica/cmExtraFebr'
+import { CM_EXTRA_HIV } from './clinica/cmExtraHiv'
+import { CM_EXTRA_ENDOC } from './clinica/cmExtraEndoc'
+import { CM_EXTRA_MENING } from './clinica/cmExtraMening'
+import { CM_EXTRA_PNEU } from './clinica/cmExtraPneu'
+import { CM_EXTRA_HANS } from './clinica/cmExtraHans'
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -539,4 +545,10 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm-extra-linf', 'Clínica Médica', 'Hematologia: Série Branca (Linfoma e Mieloma)', CM_EXTRA_LINF),
   ...montarQuestoes('cm-extra-plaq', 'Clínica Médica', 'Hematologia: Série Plaquetária', CM_EXTRA_PLAQ),
   ...montarQuestoes('cm-extra-leuc', 'Clínica Médica', 'Hematologia: Série Branca (Leucemia Aguda)', CM_EXTRA_LEUC),
+  ...montarQuestoes('cm-extra-febr', 'Clínica Médica', 'Infectologia: Síndromes Febris', CM_EXTRA_FEBR),
+  ...montarQuestoes('cm-extra-hiv', 'Clínica Médica', 'Infectologia: HIV e AIDS', CM_EXTRA_HIV),
+  ...montarQuestoes('cm-extra-endoc', 'Clínica Médica', 'Infectologia: Endocardite Infecciosa', CM_EXTRA_ENDOC),
+  ...montarQuestoes('cm-extra-mening', 'Clínica Médica', 'Infectologia: Meningites', CM_EXTRA_MENING),
+  ...montarQuestoes('cm-extra-pneu', 'Clínica Médica', 'Infectologia: Pneumonia', CM_EXTRA_PNEU),
+  ...montarQuestoes('cm-extra-hans', 'Clínica Médica', 'Infectologia: Hanseníase', CM_EXTRA_HANS),
 ];
