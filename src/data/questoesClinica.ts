@@ -307,6 +307,10 @@ import { CM_EXTRA_ENDOC } from './clinica/cmExtraEndoc'
 import { CM_EXTRA_MENING } from './clinica/cmExtraMening'
 import { CM_EXTRA_PNEU } from './clinica/cmExtraPneu'
 import { CM_EXTRA_HANS } from './clinica/cmExtraHans'
+import { CM_EXTRA_ARTR } from './clinica/cmExtraArtr'
+import { CM_EXTRA_COLAG } from './clinica/cmExtraColag'
+import { CM_EXTRA_VASC } from './clinica/cmExtraVasc'
+import { CM_EXTRA_RMISC } from './clinica/cmExtraRmisc'
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -551,4 +555,8 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm-extra-mening', 'Clínica Médica', 'Infectologia: Meningites', CM_EXTRA_MENING),
   ...montarQuestoes('cm-extra-pneu', 'Clínica Médica', 'Infectologia: Pneumonia', CM_EXTRA_PNEU),
   ...montarQuestoes('cm-extra-hans', 'Clínica Médica', 'Infectologia: Hanseníase', CM_EXTRA_HANS),
+  ...montarQuestoes('cm-extra-artr', 'Clínica Médica', 'Reumatologia: Artrites', CM_EXTRA_ARTR),
+  ...montarQuestoes('cm-extra-colag', 'Clínica Médica', 'Reumatologia: Colagenoses', CM_EXTRA_COLAG),
+  ...montarQuestoes('cm-extra-vasc', 'Clínica Médica', 'Reumatologia: Vasculites', CM_EXTRA_VASC),
+  ...montarQuestoes('cm-extra-rmisc', 'Clínica Médica', 'Reumatologia: Miscelânea', CM_EXTRA_RMISC),
 ];
