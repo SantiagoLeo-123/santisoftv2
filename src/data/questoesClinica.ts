@@ -319,6 +319,12 @@ import { CM2_EXTRA_ARR } from './clinica/cm2ExtraArr'
 import { CM2_EXTRA_VAL } from './clinica/cm2ExtraVal'
 import { CM2_EXTRA_PCR } from './clinica/cm2ExtraPcr'
 import { CM2_EXTRA_CHOQ } from './clinica/cm2ExtraChoq'
+import { CM2_EXTRA_ASMA } from './clinica/cm2ExtraAsma'
+import { CM2_EXTRA_TEP } from './clinica/cm2ExtraTep'
+import { CM2_EXTRA_TB } from './clinica/cm2ExtraTb'
+import { CM2_EXTRA_CAPU } from './clinica/cm2ExtraCapu'
+import { CM2_EXTRA_DPOC } from './clinica/cm2ExtraDpoc'
+import { CM2_EXTRA_IRPA } from './clinica/cm2ExtraIrpa'
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -575,4 +581,10 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm2-extra-val', 'Clínica Médica', 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda', CM2_EXTRA_VAL),
   ...montarQuestoes('cm2-extra-pcr', 'Clínica Médica', 'Cardiologia: Parada Cardiorrespiratória', CM2_EXTRA_PCR),
   ...montarQuestoes('cm2-extra-choq', 'Clínica Médica', 'Terapia Intensiva: Instabilidade Hemodinâmica', CM2_EXTRA_CHOQ),
+  ...montarQuestoes('cm2-extra-asma', 'Clínica Médica', 'Pneumologia: Asma', CM2_EXTRA_ASMA),
+  ...montarQuestoes('cm2-extra-tep', 'Clínica Médica', 'Pneumologia: Tromboembolia Pulmonar', CM2_EXTRA_TEP),
+  ...montarQuestoes('cm2-extra-tb', 'Clínica Médica', 'Pneumologia: Tuberculose', CM2_EXTRA_TB),
+  ...montarQuestoes('cm2-extra-capu', 'Clínica Médica', 'Pneumologia: Câncer de Pulmão', CM2_EXTRA_CAPU),
+  ...montarQuestoes('cm2-extra-dpoc', 'Clínica Médica', 'Pneumologia: DPOC', CM2_EXTRA_DPOC),
+  ...montarQuestoes('cm2-extra-irpa', 'Clínica Médica', 'Pneumologia: Insuficiência Respiratória Aguda', CM2_EXTRA_IRPA),
 ];
