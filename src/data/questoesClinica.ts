@@ -311,6 +311,14 @@ import { CM_EXTRA_ARTR } from './clinica/cmExtraArtr'
 import { CM_EXTRA_COLAG } from './clinica/cmExtraColag'
 import { CM_EXTRA_VASC } from './clinica/cmExtraVasc'
 import { CM_EXTRA_RMISC } from './clinica/cmExtraRmisc'
+import { CM2_EXTRA_HAS } from './clinica/cm2ExtraHas'
+import { CM2_EXTRA_CORON } from './clinica/cm2ExtraCoron'
+import { CM2_EXTRA_INF } from './clinica/cm2ExtraInf'
+import { CM2_EXTRA_IC } from './clinica/cm2ExtraIc'
+import { CM2_EXTRA_ARR } from './clinica/cm2ExtraArr'
+import { CM2_EXTRA_VAL } from './clinica/cm2ExtraVal'
+import { CM2_EXTRA_PCR } from './clinica/cm2ExtraPcr'
+import { CM2_EXTRA_CHOQ } from './clinica/cm2ExtraChoq'
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -559,4 +567,12 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm-extra-colag', 'Clínica Médica', 'Reumatologia: Colagenoses', CM_EXTRA_COLAG),
   ...montarQuestoes('cm-extra-vasc', 'Clínica Médica', 'Reumatologia: Vasculites', CM_EXTRA_VASC),
   ...montarQuestoes('cm-extra-rmisc', 'Clínica Médica', 'Reumatologia: Miscelânea', CM_EXTRA_RMISC),
+  ...montarQuestoes('cm2-extra-has', 'Clínica Médica', 'Cardiologia: Hipertensão Arterial', CM2_EXTRA_HAS),
+  ...montarQuestoes('cm2-extra-coron', 'Clínica Médica', 'Cardiologia: Doença Coronariana', CM2_EXTRA_CORON),
+  ...montarQuestoes('cm2-extra-inf', 'Clínica Médica', 'Cardiologia: Definição Universal do Infarto do Miocárdio', CM2_EXTRA_INF),
+  ...montarQuestoes('cm2-extra-ic', 'Clínica Médica', 'Cardiologia: Insuficiência Cardíaca', CM2_EXTRA_IC),
+  ...montarQuestoes('cm2-extra-arr', 'Clínica Médica', 'Cardiologia: Arritmias Cardíacas', CM2_EXTRA_ARR),
+  ...montarQuestoes('cm2-extra-val', 'Clínica Médica', 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda', CM2_EXTRA_VAL),
+  ...montarQuestoes('cm2-extra-pcr', 'Clínica Médica', 'Cardiologia: Parada Cardiorrespiratória', CM2_EXTRA_PCR),
+  ...montarQuestoes('cm2-extra-choq', 'Clínica Médica', 'Terapia Intensiva: Instabilidade Hemodinâmica', CM2_EXTRA_CHOQ),
 ];
