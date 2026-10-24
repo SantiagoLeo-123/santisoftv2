@@ -14,7 +14,8 @@ export type StateKey =
   | 'lesson_progress'
   | 'mentor_revisoes'
   | 'custom_drive_urls'
-  | 'question_answers';
+  | 'question_answers'
+  | 'exam_sessions';
 
 export type SyncStatus = 'local' | 'syncing' | 'synced' | 'error';
 
@@ -23,6 +24,7 @@ const ALL_KEYS: StateKey[] = [
   'mentor_revisoes',
   'custom_drive_urls',
   'question_answers',
+  'exam_sessions',
 ];
 
 // Chaves antigas (sem perfil) usadas antes da sincronização por perfil

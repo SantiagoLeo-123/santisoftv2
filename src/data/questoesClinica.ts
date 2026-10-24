@@ -325,6 +325,10 @@ import { CM2_EXTRA_TB } from './clinica/cm2ExtraTb'
 import { CM2_EXTRA_CAPU } from './clinica/cm2ExtraCapu'
 import { CM2_EXTRA_DPOC } from './clinica/cm2ExtraDpoc'
 import { CM2_EXTRA_IRPA } from './clinica/cm2ExtraIrpa'
+import { CM2_EXTRA_DM } from './clinica/cm2ExtraDm'
+import { CM2_EXTRA_TIR } from './clinica/cm2ExtraTir'
+import { CM2_EXTRA_PAR } from './clinica/cm2ExtraPar'
+import { CM2_EXTRA_HEPAG } from './clinica/cm2ExtraHepag'
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -587,4 +591,8 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm2-extra-capu', 'Clínica Médica', 'Pneumologia: Câncer de Pulmão', CM2_EXTRA_CAPU),
   ...montarQuestoes('cm2-extra-dpoc', 'Clínica Médica', 'Pneumologia: DPOC', CM2_EXTRA_DPOC),
   ...montarQuestoes('cm2-extra-irpa', 'Clínica Médica', 'Pneumologia: Insuficiência Respiratória Aguda', CM2_EXTRA_IRPA),
+  ...montarQuestoes('cm2-extra-dm', 'Clínica Médica', 'Endocrinologia: Diabetes Mellitus', CM2_EXTRA_DM),
+  ...montarQuestoes('cm2-extra-tir', 'Clínica Médica', 'Endocrinologia: Tireoide', CM2_EXTRA_TIR),
+  ...montarQuestoes('cm2-extra-par', 'Clínica Médica', 'Endocrinologia: Paratireoide e Suprarrenal', CM2_EXTRA_PAR),
+  ...montarQuestoes('cm2-extra-hepag', 'Clínica Médica', 'Hepatologia: Hepatopatias Agudas', CM2_EXTRA_HEPAG),
 ];

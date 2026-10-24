@@ -18,6 +18,8 @@ import {
   Filter,
   Check,
   RefreshCw,
+  LogOut,
+  Trash2,
 } from 'lucide-react';
 import { questoesData } from '@/data/questoes';
 import { concluirCicloRevisao } from '@/services/mentorService';
@@ -915,6 +917,73 @@ const SUBTEMAS_POR_AREA: Record<SpecialtySelection, SubtemaItem[]> = {
 
 const QUESTIONS_PER_PAGE = 10;
 
+// --- PROVAS EM ANDAMENTO ---
+type Letter = 'A' | 'B' | 'C' | 'D' | 'E';
+const LETTERS: Letter[] = ['A', 'B', 'C', 'D', 'E'];
+
+/**
+ * Prova salva para continuar depois. Guarda só os ids das questões e a ordem
+ * embaralhada das alternativas (perms[id][k] = letra original exibida na posição k),
+ * para não duplicar o enunciado de cada questão no armazenamento do perfil.
+ */
+interface SavedExam {
+  id: string;
+  specialty: SpecialtySelection;
+  subtopic: string;
+  ids: string[];
+  perms: Record<string, Letter[]>;
+  answers: Record<string, Letter>;
+  index: number;
+  elapsed: number;
+  startedAt: number;
+  updatedAt: number;
+}
+
+interface ExamMeta {
+  id: string;
+  specialty: SpecialtySelection;
+  subtopic: string;
+  startedAt: number;
+}
+
+function shuffle<T>(list: T[]): T[] {
+  const out = [...list];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+// Reordena as alternativas da questão e atualiza gabarito e justificativas
+function applyPerm(q: Question, perm: Letter[]): Question {
+  const byLetter = new Map(q.options.map((o) => [o.letter, o]));
+  const explByLetter = new Map(q.optionsExplanations.map((e) => [e.letter, e]));
+  const valid =
+    perm.length === q.options.length &&
+    perm.every((l) => byLetter.has(l) && explByLetter.has(l)) &&
+    perm.includes(q.correctOption);
+  if (!valid) return q;
+
+  return {
+    ...q,
+    options: perm.map((orig, k) => ({ letter: LETTERS[k], text: byLetter.get(orig)!.text })),
+    optionsExplanations: perm.map((orig, k) => ({ ...explByLetter.get(orig)!, letter: LETTERS[k] })),
+    correctOption: LETTERS[perm.indexOf(q.correctOption)],
+  };
+}
+
+let questionIndex: Map<string, Question> | null = null;
+function getQuestionIndex(): Map<string, Question> {
+  if (!questionIndex) questionIndex = new Map(questoesData.map((q) => [q.id, q]));
+  return questionIndex;
+}
+
+function formatShortDate(ts: number): string {
+  const d = new Date(ts);
+  return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}`;
+}
+
 export function QuestoesScreen({
   initialRevision,
   onClearRevision,
@@ -961,6 +1030,15 @@ export function QuestoesScreen({
     theme: string;
   } | null>(null);
 
+  // Provas salvas (por perfil, sincronizadas) e dados da prova aberta no momento
+  const [savedExams, setSavedExams] = useProfileState<SavedExam[]>('exam_sessions', []);
+  const [examMeta, setExamMeta] = useState<ExamMeta | null>(null);
+  const [examPerms, setExamPerms] = useState<Record<string, Letter[]>>({});
+  const [examPartial, setExamPartial] = useState(false);
+  const [showExitModal, setShowExitModal] = useState(false);
+  const elapsedRef = useRef(0);
+  elapsedRef.current = elapsedSeconds;
+
   // Subtemas disponíveis para a Grande Área atualmente selecionada
   const availableSubtopics = useMemo<SubtemaItem[]>(() => {
     if (!selectedSpecialty) return [];
@@ -993,11 +1071,12 @@ export function QuestoesScreen({
     setPracticeStatusFilter('todas');
   };
 
-  // Ao selecionar um Subtema, reseta a página
+  // Ao selecionar um Subtema, reseta a página e pergunta quantas questões a prova terá
   const handleSelectSubtopic = (subtemaLabel: string) => {
     setSelectedSubtopic(subtemaLabel);
     setCurrentPage(1);
     setPracticeStatusFilter('todas');
+    setShowSimuladoModal(true);
   };
 
   // --- FILTRO ESTRITO DAS QUESTÕES DO TEMA SELECIONADO ---
@@ -1129,6 +1208,7 @@ export function QuestoesScreen({
   const handleBackToBanco = () => {
     setActiveRevision(null);
     setRevisionCompletionMessage(null);
+    setExamPartial(false);
     onClearRevision?.();
     setStage('navegacao_banco');
   };
@@ -1169,11 +1249,18 @@ export function QuestoesScreen({
     }
   };
 
-  // Iniciar Simulado Formal Cronometrado
-  const startSimuladoWithPool = (pool: Question[]) => {
+  // Iniciar Simulado Formal Cronometrado: sorteia a ordem das questões e das alternativas.
+  // Com `meta` a prova é salva automaticamente e pode ser continuada depois.
+  const startSimuladoWithPool = (pool: Question[], meta?: { specialty: SpecialtySelection; subtopic: string }) => {
     if (pool.length === 0) return;
-    const shuffled = [...pool].sort(() => 0.5 - Math.random());
-    setExamQuestions(shuffled);
+    const picked = shuffle(pool);
+    const perms: Record<string, Letter[]> = {};
+    for (const q of picked) perms[q.id] = shuffle(q.options.map((o) => o.letter));
+
+    setExamQuestions(picked.map((q) => applyPerm(q, perms[q.id])));
+    setExamPerms(perms);
+    setExamMeta(meta ? { id: `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`, startedAt: Date.now(), ...meta } : null);
+    setExamPartial(false);
     setCurrentExamIndex(0);
     setExamAnswers({});
     setElapsedSeconds(0);
@@ -1183,15 +1270,98 @@ export function QuestoesScreen({
   };
 
   const handleStartSimuladoFromTheme = () => {
-    if (filteredQuestions.length === 0) return;
+    if (filteredQuestions.length === 0 || !selectedSpecialty || !selectedSubtopic) return;
     let count = filteredQuestions.length;
     if (simuladoCountChoice !== 'todas') {
       const target = parseInt(simuladoCountChoice, 10);
       count = Math.min(filteredQuestions.length, target);
     }
-    const pool = [...filteredQuestions].sort(() => 0.5 - Math.random()).slice(0, count);
+    const pool = shuffle(filteredQuestions).slice(0, count);
     setShowSimuladoModal(false);
-    startSimuladoWithPool(pool);
+    startSimuladoWithPool(pool, { specialty: selectedSpecialty, subtopic: selectedSubtopic });
+  };
+
+  // Grava a prova atual (questões, respostas e posição) no perfil
+  const saveCurrentExam = () => {
+    if (!examMeta || examQuestions.length === 0) return;
+    const record: SavedExam = {
+      id: examMeta.id,
+      specialty: examMeta.specialty,
+      subtopic: examMeta.subtopic,
+      ids: examQuestions.map((q) => q.id),
+      perms: examPerms,
+      answers: examAnswers,
+      index: currentExamIndex,
+      elapsed: elapsedRef.current,
+      startedAt: examMeta.startedAt,
+      updatedAt: Date.now(),
+    };
+    setSavedExams((prev) => [...prev.filter((s) => s.id !== record.id), record]);
+  };
+
+  const removeSavedExam = (id: string) => {
+    setSavedExams((prev) => prev.filter((s) => s.id !== id));
+  };
+
+  // Salva automaticamente a cada resposta ou troca de questão
+  useEffect(() => {
+    if (stage !== 'em_andamento' || !examMeta) return;
+    if (Object.keys(examAnswers).length === 0 && currentExamIndex === 0) return;
+    saveCurrentExam();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [stage, examMeta, examAnswers, currentExamIndex]);
+
+  const handleResumeExam = (saved: SavedExam) => {
+    const index = getQuestionIndex();
+    const questions: Question[] = [];
+    const perms: Record<string, Letter[]> = {};
+    for (const id of saved.ids) {
+      const q = index.get(id);
+      if (!q) continue;
+      const perm = saved.perms[id] ?? q.options.map((o) => o.letter);
+      perms[id] = perm;
+      questions.push(applyPerm(q, perm));
+    }
+    if (questions.length === 0) {
+      removeSavedExam(saved.id);
+      return;
+    }
+
+    const answers: Record<string, Letter> = {};
+    for (const q of questions) {
+      if (saved.answers[q.id]) answers[q.id] = saved.answers[q.id];
+    }
+
+    setSelectedSpecialty(saved.specialty);
+    setSelectedSubtopic(saved.subtopic);
+    setShowSimuladoModal(false);
+    setExamQuestions(questions);
+    setExamPerms(perms);
+    setExamAnswers(answers);
+    setExamMeta({ id: saved.id, specialty: saved.specialty, subtopic: saved.subtopic, startedAt: saved.startedAt });
+    setExamPartial(false);
+    setCurrentExamIndex(Math.min(saved.index, questions.length - 1));
+    setElapsedSeconds(saved.elapsed);
+    setIsTimerRunning(true);
+    setStage('em_andamento');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Sair no meio da prova: salva o andamento e mostra o resultado parcial
+  const handleExitExam = () => {
+    setIsTimerRunning(false);
+    setShowExitModal(false);
+    saveCurrentExam();
+    setExamPartial(true);
+    setStage('resultado_gabarito');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleContinueExam = () => {
+    setExamPartial(false);
+    setIsTimerRunning(true);
+    setStage('em_andamento');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handlePromptFinishExam = () => {
@@ -1207,6 +1377,8 @@ export function QuestoesScreen({
   const finishExam = () => {
     setIsTimerRunning(false);
     setShowConfirmFinishModal(false);
+    setExamPartial(false);
+    if (examMeta) removeSavedExam(examMeta.id);
     setStage('resultado_gabarito');
 
     if (activeRevision) {
@@ -1247,6 +1419,7 @@ export function QuestoesScreen({
     if (stage !== 'resultado_gabarito') {
       return { total: 0, correct: 0, wrong: 0, unanswered: 0, percentage: 0 };
     }
+    // (parcial: a porcentagem considera só as questões já respondidas)
     const total = examQuestions.length;
     let correct = 0;
     let wrong = 0;
@@ -1263,9 +1436,64 @@ export function QuestoesScreen({
       }
     }
 
-    const percentage = total > 0 ? Math.round((correct / total) * 100) : 0;
+    const base = examPartial ? correct + wrong : total;
+    const percentage = base > 0 ? Math.round((correct / base) * 100) : 0;
     return { total, correct, wrong, unanswered, percentage };
-  }, [stage, examQuestions, examAnswers]);
+  }, [stage, examQuestions, examAnswers, examPartial]);
+
+  // Provas salvas do tema aberto, da mais recente para a mais antiga
+  const themeSavedExams = savedExams
+    .filter((s) => s.specialty === selectedSpecialty && s.subtopic === selectedSubtopic)
+    .sort((a, b) => b.updatedAt - a.updatedAt);
+
+  const renderSavedExams = () => {
+    if (themeSavedExams.length === 0) return null;
+    return (
+      <div className="space-y-2">
+        <span className="text-[11px] font-bold text-amber-400 uppercase tracking-wider block">
+          Provas em andamento neste tema
+        </span>
+        {themeSavedExams.map((s) => {
+          const answered = Object.keys(s.answers).length;
+          return (
+            <div
+              key={s.id}
+              className="p-3 rounded-xl bg-ink-850 border border-amber-500/30 flex items-center justify-between gap-3 flex-wrap"
+            >
+              <div className="text-xs text-zinc-300 space-y-0.5">
+                <span className="font-bold text-white block">
+                  {answered}/{s.ids.length} respondidas
+                </span>
+                <span className="text-zinc-500">
+                  Iniciada em {formatShortDate(s.startedAt)} • Questão {s.index + 1} • {formatTimer(s.elapsed)}
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (window.confirm('Descartar esta prova em andamento?')) removeSavedExam(s.id);
+                  }}
+                  className="p-2 rounded-lg bg-ink-900 hover:bg-ink-800 border border-ink-800 text-zinc-400 hover:text-red-400 transition-all"
+                  title="Descartar prova"
+                >
+                  <Trash2 className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleResumeExam(s)}
+                  className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-black flex items-center gap-1.5 transition-all active:scale-95"
+                >
+                  <Play className="w-3.5 h-3.5 fill-current" />
+                  <span>Continuar</span>
+                </button>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
 
   // ==========================================
   // RENDER ETAPA 2: PROVA EM ANDAMENTO (SIMULADO SILENCIOSO)
@@ -1284,15 +1512,18 @@ export function QuestoesScreen({
             <button
               type="button"
               onClick={() => {
-                if (window.confirm('Deseja interromper o simulado e voltar ao Banco de Questões?')) {
+                if (examMeta) {
+                  setShowExitModal(true);
+                } else if (window.confirm('Deseja interromper o simulado e voltar ao Banco de Questões?')) {
                   setIsTimerRunning(false);
                   setStage('navegacao_banco');
                 }
               }}
-              className="p-1.5 rounded-lg bg-ink-850 hover:bg-ink-800 text-zinc-400 hover:text-white transition-colors"
-              title="Voltar ao Banco de Questões"
+              className="px-2 py-1.5 rounded-lg bg-ink-850 hover:bg-ink-800 text-zinc-400 hover:text-white transition-colors flex items-center gap-1 text-xs font-bold"
+              title="Sair da prova"
             >
-              <ChevronLeft className="w-5 h-5" />
+              <LogOut className="w-4 h-4" />
+              <span>Sair</span>
             </button>
 
             <div className="flex items-center gap-1.5">
@@ -1456,6 +1687,39 @@ export function QuestoesScreen({
             </div>
           )}
 
+          {showExitModal && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fade-in safe-top safe-bottom">
+              <div className="w-full max-w-md rounded-2xl bg-ink-900 border border-ink-850 p-5 sm:p-6 shadow-2xl space-y-4 animate-scale-up">
+                <div className="w-12 h-12 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 mx-auto">
+                  <LogOut className="w-6 h-6" />
+                </div>
+                <div className="text-center space-y-1.5">
+                  <h3 className="text-base sm:text-lg font-bold text-white">Sair da prova?</h3>
+                  <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
+                    Seu andamento fica salvo ({answeredCount}/{totalQ} respondidas) e você pode continuar depois
+                    pela tela do tema. Vamos mostrar o resultado até aqui.
+                  </p>
+                </div>
+                <div className="flex gap-2 pt-2">
+                  <button
+                    type="button"
+                    onClick={() => setShowExitModal(false)}
+                    className="flex-1 py-2.5 rounded-xl bg-ink-850 border border-ink-800 text-xs sm:text-sm font-semibold text-zinc-300 hover:text-white"
+                  >
+                    Continuar Prova
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleExitExam}
+                    className="flex-1 py-2.5 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-bold shadow-md shadow-red-600/30"
+                  >
+                    Sair e Ver Resultado
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
+
           {showConfirmFinishModal && (
             <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fade-in safe-top safe-bottom">
               <div className="w-full max-w-md rounded-2xl bg-ink-900 border border-ink-850 p-5 sm:p-6 shadow-2xl space-y-4 animate-scale-up">
@@ -1538,7 +1802,7 @@ export function QuestoesScreen({
                 </div>
                 <div>
                   <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400 block">
-                    Simulado Concluído
+                    {examPartial ? 'Prova Interrompida • Andamento Salvo' : 'Simulado Concluído'}
                   </span>
                   <h2 className="text-xl sm:text-2xl font-black text-white">Resultado e Gabarito</h2>
                 </div>
@@ -1557,6 +1821,9 @@ export function QuestoesScreen({
               <div className="p-3.5 rounded-xl bg-ink-900 border border-ink-875 text-center">
                 <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider block mb-1">Aproveitamento</span>
                 <span className="text-2xl sm:text-3xl font-black text-emerald-400 tabular-nums">{examStats.percentage}%</span>
+                {examPartial && (
+                  <span className="text-[10px] font-bold text-zinc-500 block mt-0.5">das respondidas</span>
+                )}
               </div>
               <div className="p-3.5 rounded-xl bg-ink-900 border border-ink-875 text-center">
                 <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider block mb-1">Acertos</span>
@@ -1569,7 +1836,9 @@ export function QuestoesScreen({
                 <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider block mb-1">Erros</span>
                 <span className="text-2xl sm:text-3xl font-black text-red-400 tabular-nums">{examStats.wrong}</span>
                 <span className="text-xs font-bold text-red-400/80 block mt-0.5 tabular-nums">
-                  {examStats.total > 0 ? Math.round(((examStats.total - examStats.correct) / examStats.total) * 100) : 0}% de erro
+                  {examPartial
+                    ? `${examStats.correct + examStats.wrong > 0 ? 100 - examStats.percentage : 0}% de erro`
+                    : `${examStats.total > 0 ? Math.round(((examStats.total - examStats.correct) / examStats.total) * 100) : 0}% de erro`}
                 </span>
               </div>
               <div className="p-3.5 rounded-xl bg-ink-900 border border-ink-875 text-center">
@@ -1577,14 +1846,24 @@ export function QuestoesScreen({
                 <span className="text-2xl sm:text-3xl font-black text-zinc-200 font-mono tabular-nums">{formatTimer(elapsedSeconds)}</span>
               </div>
             </div>
+            <p className="text-xs text-zinc-400 text-center">
+              Total: <strong className="text-white">{examStats.total}</strong> questões •{' '}
+              Acertos: <strong className="text-emerald-400">{examStats.correct}</strong> •{' '}
+              Erros: <strong className="text-red-400">{examStats.wrong}</strong> •{' '}
+              Em branco: <strong className="text-zinc-200">{examStats.unanswered}</strong>
+            </p>
           </div>
 
           {/* Correção questão por questão */}
           <div className="space-y-4">
             <h3 className="text-sm font-extrabold uppercase tracking-wider text-zinc-300 px-1">
-              Correção Questão por Questão ({examQuestions.length}):
+              {examPartial
+                ? `Correção das Questões Respondidas (${examStats.correct + examStats.wrong}):`
+                : `Correção Questão por Questão (${examQuestions.length}):`}
             </h3>
             {examQuestions.map((q, idx) => {
+              // Prova interrompida: não revela o gabarito do que ainda falta responder
+              if (examPartial && !examAnswers[q.id]) return null;
               const chosen = examAnswers[q.id];
               const isCorrect = chosen === q.correctOption;
               const isCommentsOpen = expandedComments.has(q.id);
@@ -1724,20 +2003,31 @@ export function QuestoesScreen({
           </div>
 
           <div className="p-4 rounded-2xl bg-ink-900 border border-ink-875 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <button
-              type="button"
-              onClick={() => {
-                setExamAnswers({});
-                setElapsedSeconds(0);
-                setIsTimerRunning(true);
-                setCurrentExamIndex(0);
-                setStage('em_andamento');
-              }}
-              className="w-full sm:w-auto px-5 py-3 rounded-xl bg-ink-850 hover:bg-ink-800 border border-ink-800 text-xs sm:text-sm font-bold text-zinc-200 transition-all flex items-center justify-center gap-2"
-            >
-              <RotateCcw className="w-4 h-4" />
-              <span>Refazer Este Simulado</span>
-            </button>
+            {examPartial ? (
+              <button
+                type="button"
+                onClick={handleContinueExam}
+                className="w-full sm:w-auto px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-2"
+              >
+                <Play className="w-4 h-4 fill-current" />
+                <span>Continuar Prova</span>
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={() => {
+                  setExamAnswers({});
+                  setElapsedSeconds(0);
+                  setIsTimerRunning(true);
+                  setCurrentExamIndex(0);
+                  setStage('em_andamento');
+                }}
+                className="w-full sm:w-auto px-5 py-3 rounded-xl bg-ink-850 hover:bg-ink-800 border border-ink-800 text-xs sm:text-sm font-bold text-zinc-200 transition-all flex items-center justify-center gap-2"
+              >
+                <RotateCcw className="w-4 h-4" />
+                <span>Refazer Este Simulado</span>
+              </button>
+            )}
             <button
               type="button"
               onClick={handleBackToBanco}
@@ -1936,6 +2226,10 @@ export function QuestoesScreen({
                 )}
               </div>
             </div>
+
+            {themeSavedExams.length > 0 && (
+              <div className="p-4 rounded-2xl bg-ink-900 border border-ink-875">{renderSavedExams()}</div>
+            )}
 
             {/* Barra de Filtro Rápido no Tema */}
             <div className="flex items-center justify-between gap-3 flex-wrap">
@@ -2267,14 +2561,16 @@ export function QuestoesScreen({
                   <Clock className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="text-base font-bold text-white">Iniciar Simulado Cronometrado</h3>
+                  <h3 className="text-base font-bold text-white">Iniciar Prova</h3>
                   <p className="text-xs text-zinc-400">{selectedSubtopic}</p>
                 </div>
               </div>
 
+              {renderSavedExams()}
+
               <div className="space-y-2">
                 <label className="text-xs font-bold text-zinc-300 uppercase tracking-wider block">
-                  Quantidade de Questões para o Simulado:
+                  Quantidade de Questões da Prova (sorteadas do tema):
                 </label>
                 <div className="grid grid-cols-3 gap-2">
                   {(['10', '20', '30', '50', 'todas'] as const).map((cnt) => {
@@ -2311,7 +2607,7 @@ export function QuestoesScreen({
                   onClick={handleStartSimuladoFromTheme}
                   className="flex-1 py-2.5 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs font-black shadow-lg shadow-red-600/30 transition-all"
                 >
-                  Começar Simulado
+                  Começar Prova
                 </button>
               </div>
             </div>
