@@ -48,3 +48,84 @@ Os temas exibidos ficam em `SUBTEMAS_POR_AREA` em `src/components/QuestoesScreen
 O estado do usuário vive em `src/lib/profileStore.ts`: localStorage por perfil (`santisoft:<perfilId>:<chave>`) espelhado na tabela `profile_state` do Supabase. Use `useProfileState(chave, valorInicial)` (`src/hooks/useProfileState.ts`) como um `useState`. Chaves novas precisam entrar em `StateKey` e `ALL_KEYS` no `profileStore.ts`, senão não sincronizam com a nuvem.
 
 Chaves atuais: `lesson_progress`, `mentor_revisoes`, `custom_drive_urls`, `question_answers` (respostas do banco livre) e `exam_sessions` (provas em andamento do Banco).
+
+## Progresso das questões difíceis
+
+Lista dos temas de `SUBTEMAS_POR_AREA` (`QuestoesScreen.tsx`) que ainda precisam de questões difíceis. `[x]` = já recebeu (em CM2, os arquivos `cm2Extra*.ts`, nível USP/UNIFESP/ENARE/SUS-SP, já ligados em `questoesClinica.ts`); `[ ]` = pendente.
+
+Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `difCirTrauma.ts`). Siga o fluxo de "Ligando um arquivo a um tema" e marque o tema como `[x]` aqui ao ligar o arquivo. O nome do tema passado a `montarQuestoes` deve bater com o `label` abaixo.
+
+### Clínica Médica 2
+
+- [x] Cardiologia: Hipertensão Arterial
+- [x] Cardiologia: Doença Coronariana
+- [x] Cardiologia: Definição Universal do Infarto do Miocárdio
+- [x] Cardiologia: Insuficiência Cardíaca
+- [x] Cardiologia: Arritmias Cardíacas
+- [x] Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda
+- [x] Cardiologia: Parada Cardiorrespiratória
+- [x] Terapia Intensiva: Instabilidade Hemodinâmica
+- [x] Pneumologia: Asma
+- [x] Pneumologia: Tromboembolia Pulmonar
+- [x] Pneumologia: Tuberculose
+- [x] Pneumologia: Câncer de Pulmão
+- [x] Pneumologia: DPOC
+- [x] Pneumologia: Insuficiência Respiratória Aguda
+- [x] Endocrinologia: Diabetes Mellitus
+- [x] Endocrinologia: Tireoide
+- [x] Endocrinologia: Paratireoide e Suprarrenal
+- [x] Hepatologia: Hepatopatias Agudas
+- [ ] Hepatologia: Hepatopatias Crônicas e Cirrose
+- [ ] Hepatologia: Síndrome da Hipertensão Portal
+- [ ] Neurologia: Acidente Vascular Encefálico
+- [ ] Neurologia: Cefaleia
+- [ ] Neurologia: Demência
+- [ ] Neurologia: Doenças Motoras
+- [ ] Neurologia: Estado de Mal Epiléptico e Crise Febril
+
+### Cirurgia
+
+- [ ] Abdome Agudo
+- [ ] Anestesiologia
+- [ ] Cicatrização
+- [ ] Cirurgia Bariátrica
+- [ ] Cirurgia Pediátrica
+- [ ] Complicações Cirúrgicas
+- [ ] Delgado e Cólon: Pólipos e Câncer Colorretal
+- [ ] Doença Inflamatória Intestinal
+- [ ] Doenças do Esôfago
+- [ ] Doenças do Estômago
+- [ ] Fígado e Vias Biliares
+- [ ] Fios de Sutura
+- [ ] Pâncreas
+- [ ] Proctologia
+- [ ] Risco Cirúrgico
+- [ ] Trauma I: Avaliação Inicial e Tórax
+- [ ] Trauma II: Transição Toracoabdominal, Abdome, Pelve e TCE
+- [ ] Urologia
+- [ ] Cirurgia Vascular
+- [ ] Hérnias da Parede Abdominal
+- [ ] Queimaduras e Cirurgia Plástica
+
+### Preventiva
+
+- [ ] Epidemiologia: Processo Epidêmico e Prevenção de Doenças
+- [ ] Epidemiologia: Índices, Transição Demográfica e Epidemiológica
+- [ ] Epidemiologia: Coeficientes
+- [ ] Epidemiologia: Doenças Crônicas Não Transmissíveis e Declaração de Óbito
+- [ ] Epidemiologia: Classificação dos Estudos Epidemiológicos
+- [ ] Epidemiologia: Análise I - Medidas de Frequência e Associação
+- [ ] Epidemiologia: Análise II - Estatística
+- [ ] Epidemiologia: Extras e Validação de Teste Diagnóstico
+- [ ] Epidemiologia Clínica
+- [ ] Vigilância: Raiva, Tétano e Vigilância da Saúde
+- [ ] SUS: Atenção Básica
+- [ ] SUS: Financiamento do SUS
+- [ ] Saúde do Trabalhador
+- [ ] Acidente de Trabalho
+- [ ] Ética Médica
+- [ ] Acidente por Animais Peçonhentos
+- [ ] Intoxicações
+- [ ] Psiquiatria: Transtornos Psicóticos e Transtornos de Humor
+- [ ] Psiquiatria: Transtornos de Ansiedade e Transtornos Alimentares
+- [ ] Psiquiatria: Delirium e Transtornos Relacionados a Substâncias
