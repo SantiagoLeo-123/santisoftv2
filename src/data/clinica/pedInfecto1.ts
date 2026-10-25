@@ -5,7 +5,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'FSSL no recém-nascido',
     e: 'Recém-nascido de 15 dias, nascido a termo e sem intercorrências, é levado ao pronto-socorro com temperatura axilar de 38,5 °C aferida em casa e confirmada na triagem. Está em bom estado geral, mamando bem, com exame físico normal. A conduta adequada é:',
-    o: ['Colher hemograma e sumário de urina e, se normais, liberar com retorno em 24 horas', 'Internar, colher hemograma, hemocultura, urina com urocultura e líquor e iniciar antibioticoterapia empírica', 'Prescrever antitérmico e orientar observação domiciliar por 48 horas', 'Colher apenas urocultura e iniciar cefalexina oral ambulatorialmente'],
+    o: ['Hemograma e urina; se normais, liberar com retorno em 24 horas', 'Internar, colher hemograma, culturas e líquor, e iniciar antibiótico empírico', 'Dar antitérmico e orientar observação domiciliar por 48 horas', 'Colher apenas urocultura e iniciar cefalexina oral ambulatorial'],
     g: 'B',
     c: 'No menor de 28 a 30 dias, a febre sem foco tem risco elevado de infecção bacteriana grave, e o exame físico e os exames isolados não são confiáveis para excluí-la, pois a resposta imune é imatura. Por isso, todo recém-nascido febril deve ser internado, submetido à investigação completa (sangue, urina e líquor) e receber antibiótico empírico até o resultado das culturas.',
     x: { A: 'Nessa faixa etária exames normais não autorizam a alta, pois não excluem infecção grave.', C: 'Observação domiciliar sem investigação é inaceitável no recém-nascido febril.', D: 'A investigação deve incluir sangue e líquor, e o tratamento inicial é parenteral.' },
@@ -29,7 +29,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'FSSL de 1 a 3 meses',
     e: 'Lactente de 2 meses, previamente hígido, nascido a termo, apresenta febre de 38,6 °C há 12 horas. Está ativo, corado, hidratado, mamando bem e sem foco ao exame físico. Hemograma com 9.000 leucócitos/mm³ sem desvio, sumário de urina normal e culturas colhidas. Os pais são orientados e moram perto do hospital. A melhor conduta é:',
-    o: ['Internar e iniciar ampicilina com gentamicina por 10 dias', 'Liberar para acompanhamento ambulatorial com reavaliação obrigatória em 24 horas e checagem das culturas', 'Liberar com amoxicilina oral e retorno somente se houver piora', 'Repetir o hemograma a cada 6 horas até a febre ceder'],
+    o: ['Internar e iniciar ampicilina com gentamicina por 10 dias', 'Liberar com reavaliação obrigatória em 24 horas e checagem das culturas', 'Liberar com amoxicilina oral e retorno só se houver piora', 'Repetir o hemograma a cada 6 horas até a febre ceder'],
     g: 'B',
     c: 'Entre 1 e 3 meses, o lactente em bom estado geral que preenche critérios de baixo risco clínicos e laboratoriais tem probabilidade muito baixa de infecção bacteriana grave e pode ser acompanhado ambulatorialmente. A segurança dessa conduta depende de reavaliação em 24 horas, acompanhamento das culturas e cuidadores confiáveis.',
     x: { A: 'A internação com antibiótico é reservada aos lactentes de alto risco ou toxemiados.', C: 'Antibiótico oral empírico sem reavaliação programada mascara o quadro e não é recomendado.', D: 'Hemogramas seriados não substituem a reavaliação clínica e não têm indicação.' },
@@ -37,7 +37,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'FSSL de 3 a 36 meses',
     e: 'Menina de 14 meses, com vacinação completa para a idade, apresenta febre de 39,4 °C há 2 dias, sem outros sintomas. Está em bom estado geral, brincando no consultório, com exame físico normal. O exame inicial mais importante na investigação é:',
-    o: ['Radiografia de tórax', 'Sumário de urina e urocultura colhidos por método adequado', 'Punção lombar', 'Hemocultura seguida de ceftriaxona intramuscular'],
+    o: ['Radiografia de tórax, em incidência anteroposterior', 'Sumário de urina e urocultura, por coleta adequada', 'Punção lombar, para análise do líquor', 'Hemocultura e ceftriaxona intramuscular, de imediato'],
     g: 'B',
     c: 'Na criança de 3 a 36 meses com vacinação completa contra pneumococo e hemófilo, a bacteremia oculta tornou-se rara, e a infecção urinária passou a ser a infecção bacteriana mais frequente na febre sem foco. A investigação urinária está indicada sobretudo em meninas menores de 24 meses e em meninos menores de 12 meses com febre alta.',
     x: { A: 'A radiografia é reservada a quem tem sinais respiratórios ou leucocitose muito elevada.', C: 'A punção lombar não é indicada em criança em bom estado geral sem sinais neurológicos.', D: 'Ceftriaxona empírica não é rotina na criança vacinada e em bom estado geral.' },
@@ -53,7 +53,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Criança toxemiada',
     e: 'Lactente de 8 meses com febre de 39,8 °C há 1 dia é trazido hipoativo, gemente, com olhar vago, extremidades frias e tempo de enchimento capilar de 4 segundos. Não há foco aparente ao exame. A conduta correta é:',
-    o: ['Administrar antitérmico e reavaliar o estado geral após a queda da temperatura', 'Internar, estabilizar, colher culturas e iniciar antibioticoterapia empírica parenteral de imediato', 'Colher urina e liberar com retorno em 24 horas', 'Solicitar apenas hemograma e decidir conforme a contagem de leucócitos'],
+    o: ['Dar antitérmico e reavaliar o estado geral após a queda da febre', 'Internar, estabilizar, colher culturas e iniciar antibiótico parenteral já', 'Colher urina e liberar com retorno em 24 horas', 'Pedir apenas hemograma e decidir pela contagem de leucócitos'],
     g: 'B',
     c: 'Toxemia (letargia, má perfusão, gemência, hipo ou hiperventilação) indica alta probabilidade de infecção bacteriana grave em qualquer idade. Nessa situação não se aplicam protocolos de estratificação: a criança deve ser internada, estabilizada, investigada para sepse e receber antibiótico empírico sem atraso.',
     x: { A: 'Sinais de má perfusão exigem tratamento imediato, não observação após antitérmico.', C: 'A alta é contraindicada em criança toxemiada, independentemente de exames.', D: 'O hemograma isolado não pode retardar nem definir o tratamento do paciente toxemiado.' },
@@ -61,7 +61,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Resposta ao antitérmico',
     e: 'A mãe de um lactente de 10 meses com febre de 39 °C pergunta se a boa resposta ao antitérmico significa que a infecção não é grave. A orientação correta é:',
-    o: ['A queda da febre com antitérmico praticamente exclui infecção bacteriana', 'A resposta ao antitérmico não diferencia infecção viral de bacteriana; o que importa é o estado geral da criança sem febre', 'A ausência de resposta ao antitérmico confirma meningite', 'Febres acima de 39 °C são sempre bacterianas, independentemente da resposta ao antitérmico'],
+    o: ['A queda da febre com antitérmico praticamente exclui infecção bacteriana', 'A resposta ao antitérmico não distingue viral de bacteriana; vale o estado geral', 'A ausência de resposta ao antitérmico confirma meningite', 'Febres acima de 39 °C são sempre bacterianas, qualquer que seja a resposta'],
     g: 'B',
     c: 'Estudos mostram que a redução da temperatura após o antitérmico ocorre igualmente em infecções virais e bacterianas, de modo que essa resposta não tem valor discriminatório. O dado clínico útil é a avaliação do estado geral após o controle da febre: a criança que permanece prostrada ou irritada merece investigação mais ampla.',
     x: { A: 'Crianças com bacteremia também apresentam queda da febre com antitérmicos.', C: 'A persistência da febre após o antitérmico não é diagnóstica de nenhuma doença específica.', D: 'A maioria das febres altas em lactentes é de etiologia viral e autolimitada.' },
@@ -69,7 +69,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Sepse: reconhecimento',
     e: 'Na avaliação de uma criança com suspeita de sepse, é correto afirmar sobre os sinais de choque:',
-    o: ['A hipotensão é o primeiro sinal e é necessária para o diagnóstico de choque', 'Taquicardia e alteração da perfusão periférica precedem a hipotensão, que é sinal tardio', 'A pressão arterial normal exclui choque séptico', 'A bradicardia é o sinal mais precoce de choque compensado'],
+    o: ['Hipotensão é o primeiro sinal e é necessária para diagnosticar choque', 'Taquicardia e má perfusão precedem a hipotensão, que é tardia', 'Pressão arterial normal exclui o choque séptico', 'Bradicardia é o sinal mais precoce do choque compensado'],
     g: 'B',
     c: 'A criança mantém a pressão arterial por longo tempo à custa de taquicardia e vasoconstrição periférica. Por isso, os sinais precoces de choque são taquicardia, enchimento capilar alterado, pulsos finos, extremidades frias, oligúria e alteração do nível de consciência. A hipotensão indica choque descompensado e iminência de parada cardiorrespiratória.',
     x: { A: 'Esperar a hipotensão para diagnosticar choque atrasa o tratamento e piora o prognóstico.', C: 'O choque compensado cursa com pressão arterial normal graças aos mecanismos compensatórios.', D: 'A bradicardia é sinal pré-terminal, e não manifestação precoce do choque.' },
@@ -77,7 +77,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Choque séptico: primeira hora',
     e: 'Pré-escolar de 4 anos chega com febre, taquicardia, pulsos finos, enchimento capilar de 5 segundos e sonolência. Após oferta de oxigênio e obtenção de acesso venoso, as medidas prioritárias na primeira hora são:',
-    o: ['Aguardar o resultado das culturas para iniciar o antibiótico e manter hidratação de manutenção', 'Expansão com cristaloide em alíquotas com reavaliação a cada etapa e antibiótico de amplo espectro na primeira hora', 'Iniciar corticoide em dose alta e diurético', 'Infundir albumina e concentrado de hemácias antes de qualquer outra medida'],
+    o: ['Aguardar as culturas para iniciar antibiótico e manter hidratação de manutenção', 'Cristaloide em alíquotas, reavaliando, e antibiótico de amplo espectro na 1ª hora', 'Iniciar corticoide em dose alta e diurético, de imediato', 'Infundir albumina e hemácias antes de qualquer outra medida'],
     g: 'B',
     c: 'O tratamento do choque séptico pediátrico baseia-se em reconhecimento precoce, expansão volêmica com cristaloide em alíquotas de 10 a 20 mL/kg com reavaliação de perfusão e de sinais de sobrecarga, coleta de culturas e antibiótico de amplo espectro na primeira hora. Cada hora de atraso do antibiótico aumenta a mortalidade.',
     x: { A: 'O antibiótico não deve aguardar resultados; as culturas são colhidas e o tratamento é imediato.', C: 'Corticoide é reservado ao choque refratário, e diurético piora a hipovolemia.', D: 'Hemoderivados e albumina não são a medida inicial da ressuscitação volêmica.' },
@@ -85,7 +85,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Choque refratário a volume',
     e: 'Criança de 6 anos em choque séptico permanece com má perfusão e hipotensão após expansão volêmica adequada, já apresentando estertores e hepatomegalia. O próximo passo é:',
-    o: ['Repetir novas alíquotas de cristaloide até normalizar a pressão', 'Iniciar droga vasoativa, preferencialmente adrenalina ou noradrenalina, inclusive por acesso periférico ou intraósseo', 'Aguardar acesso venoso central para iniciar dopamina em dose baixa', 'Suspender os fluidos e administrar apenas furosemida'],
+    o: ['Repetir alíquotas de cristaloide até normalizar a pressão arterial', 'Iniciar droga vasoativa (adrenalina ou noradrenalina), mesmo por via periférica', 'Aguardar um acesso central para iniciar dopamina em dose baixa', 'Suspender os fluidos e dar apenas furosemida por via venosa'],
     g: 'B',
     c: 'O choque que persiste após ressuscitação volêmica, ou em que surgem sinais de sobrecarga, é chamado refratário a volume e exige droga vasoativa. As diretrizes atuais preferem adrenalina ou noradrenalina à dopamina e orientam que a infusão seja iniciada por acesso periférico ou intraósseo, sem aguardar o cateter central.',
     x: { A: 'Estertores e hepatomegalia indicam sobrecarga, e novas expansões são prejudiciais.', C: 'Não se deve atrasar o vasoativo aguardando acesso central, e a dopamina não é a preferência.', D: 'Diurético isolado em paciente hipotenso agrava a hipoperfusão tecidual.' },
@@ -101,7 +101,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Meningite no lactente',
     e: 'Lactente de 5 meses apresenta febre há 2 dias, irritabilidade intensa que piora ao ser pego no colo, recusa alimentar, vômitos e fontanela anterior abaulada e tensa. Não há rigidez de nuca. Sobre esse quadro, é correto afirmar:',
-    o: ['A ausência de rigidez de nuca afasta meningite e dispensa a punção lombar', 'O quadro é compatível com meningite, pois os sinais meníngeos clássicos costumam estar ausentes no lactente', 'O diagnóstico mais provável é cólica do lactente', 'Deve-se aguardar o surgimento dos sinais de Kernig e Brudzinski para investigar'],
+    o: ['Sem rigidez de nuca, afasta-se meningite e dispensa-se a punção lombar', 'Compatível com meningite: sinais meníngeos costumam faltar no lactente', 'O diagnóstico mais provável é cólica do lactente', 'Aguardar os sinais de Kernig e Brudzinski antes de investigar'],
     g: 'B',
     c: 'No lactente, a meningite manifesta-se de forma inespecífica: febre ou hipotermia, irritabilidade paradoxal, letargia, recusa alimentar, vômitos, convulsões e fontanela abaulada. A rigidez de nuca e os sinais de Kernig e Brudzinski são pouco sensíveis antes dos 12 a 18 meses, de modo que sua ausência não exclui o diagnóstico e a punção lombar está indicada.',
     x: { A: 'Os sinais de irritação meníngea são pouco sensíveis em lactentes e não excluem a doença.', C: 'Cólica não causa febre, vômitos nem abaulamento de fontanela.', D: 'Aguardar sinais meníngeos atrasa o diagnóstico de uma doença com alta letalidade.' },
@@ -109,7 +109,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Punção lombar: contraindicações',
     e: 'Constituem contraindicações à realização imediata da punção lombar em criança com suspeita de meningite, EXCETO:',
-    o: ['Instabilidade hemodinâmica ou respiratória', 'Sinais neurológicos focais ou papiledema', 'Infecção de pele no local da punção', 'Fontanela abaulada isolada em lactente sem sinais focais'],
+    o: ['Instabilidade hemodinâmica ou respiratória', 'Sinais neurológicos focais ou papiledema', 'Infecção de pele no local da punção', 'Fontanela abaulada isolada, sem sinais focais'],
     g: 'D',
     c: 'A punção deve ser adiada diante de instabilidade cardiorrespiratória, sinais de hipertensão intracraniana com risco de herniação (sinais focais, papiledema, anisocoria, coma), infecção no local e coagulopatia ou plaquetopenia graves. A fontanela abaulada isolada é achado habitual da meningite do lactente e não contraindica o procedimento. Quando a punção é adiada, o antibiótico é iniciado logo após a hemocultura.',
     x: { A: 'A instabilidade clínica contraindica a punção pelo risco de piora durante o posicionamento.', B: 'Sinais focais e papiledema sugerem risco de herniação e exigem neuroimagem prévia.', C: 'A infecção no local da punção pode ser inoculada no espaço subaracnóideo.' },
@@ -141,7 +141,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Tratamento empírico neonatal',
     e: 'Recém-nascido de 10 dias com febre, hipoatividade e convulsão tem líquor compatível com meningite bacteriana. O esquema empírico adequado e a justificativa são:',
-    o: ['Ceftriaxona isolada, por cobrir todos os agentes do período neonatal', 'Ampicilina associada a cefotaxima, pois a ampicilina cobre Listeria e estreptococo do grupo B', 'Vancomicina isolada, por cobrir estafilococo coagulase-negativo', 'Penicilina benzatina em dose única'],
+    o: ['Ceftriaxona isolada, por cobrir todos os agentes neonatais', 'Ampicilina mais cefotaxima: a ampicilina cobre Listeria e EGB', 'Vancomicina isolada, por cobrir estafilococo coagulase-negativo', 'Penicilina benzatina em dose única intramuscular'],
     g: 'B',
     c: 'No período neonatal o esquema deve cobrir estreptococo do grupo B, gram-negativos entéricos e Listeria. As cefalosporinas não têm ação contra Listeria, daí a necessidade de ampicilina. A ceftriaxona é evitada no recém-nascido porque desloca a bilirrubina da albumina e pode precipitar com soluções contendo cálcio; usa-se cefotaxima.',
     x: { A: 'A ceftriaxona não cobre Listeria e é evitada no recém-nascido.', C: 'A vancomicina isolada não cobre gram-negativos nem é esquema empírico neonatal.', D: 'A penicilina benzatina não atinge nível liquórico e não trata meningite.' },
@@ -149,7 +149,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Dexametasona',
     e: 'Sobre o uso de dexametasona como adjuvante no tratamento da meningite bacteriana na criança, é correto afirmar:',
-    o: ['Deve ser iniciada após 48 horas de antibiótico, quando a cultura confirmar o agente', 'O benefício mais bem demonstrado é a redução de perda auditiva na meningite por hemófilo tipo b, devendo ser iniciada antes ou junto com a primeira dose do antibiótico', 'Está indicada em todos os recém-nascidos com meningite', 'Substitui o antibiótico nos casos de meningite viral'],
+    o: ['Iniciar após 48 horas de antibiótico, com cultura confirmada', 'Reduz perda auditiva na meningite por Hib; iniciar junto ao antibiótico', 'Indicada em todos os recém-nascidos com meningite', 'Substitui o antibiótico nos casos de meningite viral'],
     g: 'B',
     c: 'A lise bacteriana provocada pelo antibiótico libera componentes da parede que amplificam a inflamação no espaço subaracnóideo e a lesão coclear. A dexametasona atenua essa resposta quando administrada pouco antes ou junto da primeira dose do antibiótico, com benefício comprovado na redução de surdez na meningite por hemófilo tipo b. Não é recomendada no período neonatal.',
     x: { A: 'O início tardio perde o efeito de bloquear a cascata inflamatória inicial.', C: 'Não há evidência de benefício no período neonatal, e seu uso não é recomendado.', D: 'O corticoide é apenas adjuvante e não tem papel na meningite viral.' },
@@ -157,7 +157,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Quimioprofilaxia meningocócica',
     e: 'Menino de 4 anos é internado com meningite e petéquias; a bacterioscopia do líquor mostra diplococos gram-negativos. Ele mora com os pais e uma irmã de 7 anos e frequenta creche em período integral. A médica que o atendeu não realizou intubação nem aspiração de vias aéreas. A quimioprofilaxia está indicada para:',
-    o: ['Apenas a irmã, por ser criança', 'Os contatos domiciliares e os contatos próximos da creche, com rifampicina por 2 dias', 'Todos os profissionais de saúde que entraram no quarto', 'Ninguém, pois a vacinação prévia dispensa a profilaxia'],
+    o: ['Apenas a irmã, por ser criança, e mais ninguém', 'Contatos domiciliares e da creche, com rifampicina por 2 dias', 'Todos os profissionais de saúde que entraram no quarto', 'Ninguém, pois a vacinação prévia dispensa a profilaxia'],
     g: 'B',
     c: 'Na doença meningocócica, a quimioprofilaxia visa erradicar o estado de portador nos contatos próximos, que têm risco muito aumentado de doença nos dias seguintes: moradores do mesmo domicílio, contatos de creche e pessoas expostas diretamente às secreções. A droga de escolha é a rifampicina a cada 12 horas por 2 dias, idealmente nas primeiras 48 horas. Profissionais de saúde só recebem se expostos a secreções respiratórias sem proteção.',
     x: { A: 'Todos os contatos domiciliares são elegíveis, independentemente da idade.', C: 'Profissionais sem exposição desprotegida a secreções respiratórias não têm indicação.', D: 'A profilaxia é indicada aos contatos próximos independentemente do estado vacinal.' },
@@ -173,7 +173,7 @@ export const PED_INFECTO_1: QuestaoCompacta[] = [
   {
     s: 'Sequelas',
     e: 'A sequela neurológica mais frequente da meningite bacteriana na infância, que justifica avaliação específica de todos os pacientes antes ou logo após a alta, é:',
-    o: ['Cegueira cortical', 'Perda auditiva neurossensorial', 'Hemiparesia', 'Diabetes insípido'],
+    o: ['Cegueira cortical, por infarto occipital', 'Perda auditiva neurossensorial, bilateral', 'Hemiparesia, por infarto no território da cerebral média', 'Diabetes insípido, por lesão hipotalâmica'],
     g: 'B',
     c: 'A surdez neurossensorial é a sequela mais comum, decorrente de labirintite e lesão coclear por extensão do processo inflamatório pelo aqueduto coclear, e é mais frequente na meningite pneumocócica. Todos os pacientes devem realizar avaliação audiológica, pois o diagnóstico precoce permite reabilitação e evita atraso de linguagem.',
     x: { A: 'A cegueira cortical é complicação rara da meningite bacteriana.', C: 'Déficits motores ocorrem, porém com frequência menor que a perda auditiva.', D: 'O diabetes insípido é incomum; a alteração hídrica mais vista é a secreção inapropriada de ADH.' },

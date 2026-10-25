@@ -5,7 +5,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: classificação',
     e: 'O sistema PALM-COEIN da FIGO classifica as causas de sangramento uterino anormal em estruturais e não estruturais. São causas estruturais:',
-    o: ['Pólipo, adenomiose, leiomioma e malignidade ou hiperplasia', 'Coagulopatia, disfunção ovulatória e causa endometrial', 'Causas iatrogênicas', 'Causas não classificadas'],
+    o: ['Pólipo, adenomiose, leiomioma e malignidade', 'Coagulopatia, disfunção ovulatória e endometrial', 'Causas iatrogênicas e causas não classificadas', 'Causas infecciosas, traumáticas e hormonais'],
     g: 'A',
     c: 'COEIN: coagulopatia, ovulatória, endometrial, iatrogênica e não classificada. Referência: Munro MG et al. The two FIGO systems for normal and abnormal uterine bleeding symptoms and classification of causes of abnormal uterine bleeding in the reproductive years: 2018 revisions. Int J Gynaecol Obstet. 2018;143(3):393-408.',
     x: { B: 'São não estruturais.', C: 'É não estrutural.', D: 'É não estrutural.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: coagulopatia',
     e: 'Adolescente com sangramento menstrual intenso desde a menarca, epistaxes frequentes e sangramento prolongado após extração dentária. A hipótese principal é:',
-    o: ['Doença de von Willebrand', 'SOP', 'Mioma', 'Pólipo endometrial'],
+    o: ['Doença de von Willebrand', 'Síndrome dos ovários policísticos', 'Mioma uterino submucoso', 'Pólipo endometrial, com sangramento'],
     g: 'A',
     c: 'É a coagulopatia hereditária mais comum entre mulheres com sangramento aumentado. Referência: Munro MG et al. The two FIGO systems for normal and abnormal uterine bleeding symptoms and classification of causes of abnormal uterine bleeding in the reproductive years: 2018 revisions. Int J Gynaecol Obstet. 2018;143(3):393-408.',
     x: { B: 'Não explica sangramentos em outros sítios.', C: 'Raro na adolescência.', D: 'Não explica epistaxes.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: disfunção ovulatória',
     e: 'Adolescente com ciclos irregulares e sangramento abundante 1 ano após a menarca, com exame normal e beta-hCG negativo. A causa mais provável é:',
-    o: ['Anovulação por imaturidade do eixo hipotálamo-hipófise-ovário', 'Câncer de endométrio', 'Mioma submucoso', 'Adenomiose'],
+    o: ['Anovulação por imaturidade do eixo hipotálamo-hipófise', 'Câncer de endométrio, em adolescente jovem e obesa', 'Mioma submucoso, com sangramento intenso e anemia', 'Adenomiose, com útero globoso e muito doloroso'],
     g: 'A',
     c: 'Ainda assim, deve-se excluir coagulopatia em sangramentos intensos. Referência: Munro MG et al. The two FIGO systems for normal and abnormal uterine bleeding symptoms and classification of causes of abnormal uterine bleeding in the reproductive years: 2018 revisions. Int J Gynaecol Obstet. 2018;143(3):393-408.',
     x: { B: 'Raro.', C: 'Raro.', D: 'Raro.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA aguda',
     e: 'Mulher de 30 anos, estável, com sangramento uterino agudo intenso, sem gestação. Uma opção de tratamento clínico inicial é:',
-    o: ['Anticoncepcional combinado em dose aumentada por alguns dias, ou ácido tranexâmico', 'Histerectomia imediata', 'Observação sem tratamento', 'Antibiótico'],
+    o: ['ACO em dose aumentada por dias, ou ácido tranexâmico', 'Histerectomia imediata, por sangramento intenso', 'Observação sem nenhum tratamento específico', 'Antibiótico de amplo espectro por via oral'],
     g: 'A',
     c: 'Com instabilidade, indica-se reposição volêmica, estrogênio intravenoso e, se necessário, curetagem ou tamponamento. Referência: American College of Obstetricians and Gynecologists. Committee Opinion 557: Management of Acute Abnormal Uterine Bleeding in Nonpregnant Reproductive-Aged Women. Obstet Gynecol. 2013;121(4):891-6.',
     x: { B: 'Medida extrema.', C: 'Inadequado.', D: 'Sem infecção.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: tratamento',
     e: 'Mulher de 44 anos com mioma intramural e sangramento aumentado, sem desejo reprodutivo, que deseja evitar cirurgia. Uma opção eficaz é:',
-    o: ['SIU de levonorgestrel, se a cavidade não estiver distorcida', 'Antibiótico', 'Estrogênio isolado', 'Observação com estrogênio'],
+    o: ['SIU de levonorgestrel, sem cavidade distorcida', 'Antibiótico de amplo espectro, por 14 dias, em casa', 'Estrogênio isolado, em dose alta e contínua, oral', 'Observação, associada a estrogênio em dose baixa'],
     g: 'A',
     c: 'Análogos de GnRH, embolização e histerectomia são outras opções conforme o caso. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sem relação.', C: 'Pode estimular o mioma.', D: 'Inadequado.' },
@@ -77,7 +77,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: análogo de GnRH',
     e: 'O uso de análogo de GnRH antes de cirurgia de mioma tem como objetivo:',
-    o: ['Reduzir o volume do mioma e corrigir anemia antes da cirurgia', 'Curar definitivamente o mioma', 'Aumentar a fertilidade imediatamente', 'Prevenir câncer'],
+    o: ['Reduzir o volume do mioma e corrigir a anemia', 'Curar definitivamente o mioma, sem cirurgia', 'Aumentar a fertilidade, de forma imediata', 'Prevenir o câncer de endométrio e de colo'],
     g: 'A',
     c: 'O efeito é temporário e há perda óssea com uso prolongado. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'O efeito é temporário.', C: 'Sem esse efeito.', D: 'Sem relação.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: gestação',
     e: 'Gestante de 20 semanas com mioma conhecido apresenta dor localizada intensa, febre baixa e leucocitose leve. A hipótese é:',
-    o: ['Degeneração rubra (necrobiose) do mioma', 'Descolamento de placenta', 'Apendicite obrigatoriamente', 'Sarcoma'],
+    o: ['Degeneração rubra (necrobiose) do mioma', 'Descolamento prematuro de placenta, crônico', 'Apendicite aguda, obrigatoriamente', 'Sarcoma uterino, com crescimento rápido'],
     g: 'A',
     c: 'O tratamento é conservador, com analgesia. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Haveria sangramento.', C: 'Deve ser considerada, mas não é a hipótese principal com mioma doloroso.', D: 'Raro.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Pólipo endometrial',
     e: 'Mulher de 38 anos com sangramento intermenstrual e imagem ecogênica focal no endométrio. O diagnóstico e o tratamento são:',
-    o: ['Pólipo endometrial; polipectomia histeroscópica', 'Mioma subseroso; observação', 'Adenomiose; histerectomia', 'Câncer de colo; radioterapia'],
+    o: ['Pólipo endometrial; polipectomia histeroscópica', 'Mioma subseroso; apenas observação clínica', 'Adenomiose; histerectomia, de rotina', 'Câncer de colo; radioterapia, de imediato'],
     g: 'A',
     c: 'Pólipos na pós-menopausa ou sintomáticos devem ser retirados para análise. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Não é intracavitário.', C: 'Não corresponde.', D: 'Não corresponde.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: clínica',
     e: 'A tríade clínica sugestiva de endometriose é:',
-    o: ['Dismenorreia progressiva, dispareunia de profundidade e infertilidade', 'Febre, leucorreia e dor aguda', 'Galactorreia, amenorreia e cefaleia', 'Hirsutismo, acne e obesidade'],
+    o: ['Dismenorreia progressiva, dispareunia profunda e infertilidade', 'Febre, leucorreia e dor pélvica aguda, associadas', 'Galactorreia, amenorreia e cefaleia persistente, associadas', 'Hirsutismo, acne e obesidade abdominal, associados'],
     g: 'A',
     c: 'Também podem ocorrer dor pélvica crônica e sintomas intestinais ou urinários cíclicos. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Sugere infecção.', C: 'Sugere prolactinoma.', D: 'Sugere SOP.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: diagnóstico',
     e: 'Sobre o diagnóstico de endometriose segundo diretrizes atuais, é correto afirmar:',
-    o: ['Pode ser feito clinicamente e por imagem (ultrassom especializado ou ressonância), sem exigir laparoscopia para iniciar tratamento', 'Exige sempre laparoscopia antes de qualquer tratamento', 'É feito pelo CA-125', 'É feito por colposcopia'],
+    o: ['Pode ser clínico e por imagem, sem exigir laparoscopia', 'Exige laparoscopia antes de qualquer tratamento', 'É feito pela dosagem sérica do CA-125', 'É feito por colposcopia, com biópsia do colo'],
     g: 'A',
     c: 'A laparoscopia fica para casos selecionados ou quando a imagem é negativa e a suspeita persiste. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Não é mais obrigatória.', C: 'Baixa especificidade.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: tratamento clínico',
     e: 'Primeira linha no tratamento clínico da dor por endometriose é:',
-    o: ['Progestagênios (como dienogeste) ou anticoncepcional combinado, além de analgésicos', 'Análogo de GnRH sem add-back por anos', 'Antibiótico', 'Estrogênio isolado'],
+    o: ['Progestagênio (dienogeste) ou ACO, mais analgésicos', 'Análogo de GnRH sem add-back, usado por muitos anos', 'Antibiótico de amplo espectro, por 14 dias, em casa', 'Estrogênio isolado, em dose alta e contínua, por via oral'],
     g: 'A',
     c: 'Análogos de GnRH são segunda linha, com terapia de reposição (add-back) para reduzir efeitos hipoestrogênicos. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Segunda linha e com add-back.', C: 'Sem relação.', D: 'Pioraria.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: endometrioma',
     e: 'Imagem ovariana cística com conteúdo de aspecto em vidro fosco homogêneo em mulher com dismenorreia. O diagnóstico mais provável é:',
-    o: ['Endometrioma (cisto de chocolate)', 'Teratoma maduro', 'Cisto folicular', 'Cistoadenocarcinoma'],
+    o: ['Endometrioma (cisto de chocolate)', 'Teratoma maduro, com componente gorduroso', 'Cisto folicular, que regride sozinho', 'Cistoadenocarcinoma, com projeções papilares'],
     g: 'A',
     c: 'A cirurgia de endometrioma pode reduzir a reserva ovariana, o que pesa em quem deseja engravidar. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Teria gordura e calcificação.', C: 'Seria anecoico.', D: 'Teria vegetações sólidas.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: teoria',
     e: 'A teoria mais aceita para a patogênese da endometriose é:',
-    o: ['Menstruação retrógrada com implante de células endometriais (teoria de Sampson)', 'Infecção bacteriana', 'Origem genética exclusiva', 'Trauma pélvico'],
+    o: ['Menstruação retrógrada com implante endometrial (Sampson)', 'Infecção bacteriana crônica da pelve', 'Origem genética exclusiva, sem fatores ambientais', 'Trauma pélvico repetido, em mulheres jovens'],
     g: 'A',
     c: 'Fatores imunológicos e genéticos explicam por que só algumas mulheres desenvolvem a doença. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Sem relação.', C: 'Não é exclusiva.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose de parede',
     e: 'Mulher com cesárea prévia apresenta nódulo doloroso na cicatriz, com dor que piora na menstruação. O diagnóstico e o tratamento são:',
-    o: ['Endometriose de parede abdominal; excisão cirúrgica com margens', 'Hérnia incisional; observação', 'Lipoma; nada', 'Abscesso; drenagem'],
+    o: ['Endometriose de parede; excisão com margens', 'Hérnia incisional, tratada com observação', 'Lipoma de parede, sem tratamento', 'Abscesso de parede, tratado com drenagem'],
     g: 'A',
     c: 'Implantes iatrogênicos durante a cesárea explicam o quadro. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Não cíclico.', C: 'Não cíclico.', D: 'Sem sinais infecciosos.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose profunda',
     e: 'Mulher com dor ao evacuar no período menstrual, dispareunia profunda e nódulo palpável no fundo de saco posterior. A hipótese é:',
-    o: ['Endometriose profunda retrovaginal', 'Câncer de reto obrigatoriamente', 'Hemorroidas', 'Cisto de Bartholin'],
+    o: ['Endometriose profunda retrovaginal', 'Câncer de reto, obrigatoriamente, nesse quadro', 'Hemorroidas internas, com sangramento', 'Cisto de Bartholin, com abscesso associado'],
     g: 'A',
     c: 'A ressonância ou ultrassom com preparo intestinal mapeiam as lesões. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Possível, mas a ciclicidade sugere endometriose.', C: 'Não explica.', D: 'Localização incorreta.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: pós-menopausa',
     e: 'Qualquer sangramento genital na pós-menopausa:',
-    o: ['Deve ser investigado para excluir câncer de endométrio', 'É normal e não precisa de investigação', 'Indica sempre mioma', 'Deve ser tratado com estrogênio'],
+    o: ['Deve ser investigado para excluir câncer de endométrio', 'É normal e não precisa de investigação', 'Indica sempre a presença de mioma uterino', 'Deve ser tratado com estrogênio, sem investigar'],
     g: 'A',
     c: 'A ultrassonografia transvaginal e a amostragem endometrial são os exames iniciais. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Exige investigação.', C: 'Não é regra.', D: 'Pode piorar.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: epidemiologia',
     e: 'Sobre os miomas uterinos, é correto afirmar:',
-    o: ['São os tumores pélvicos benignos mais comuns em mulheres e tendem a regredir após a menopausa', 'São raros', 'Aumentam na pós-menopausa sem terapia hormonal', 'São malignos na maioria'],
+    o: ['Tumor pélvico benigno mais comum; regride após a menopausa', 'São tumores raros, em mulheres da menacme saudáveis', 'Aumentam de volume na pós-menopausa, sem terapia hormonal', 'São malignos na maioria dos casos, com risco alto'],
     g: 'A',
     c: 'São mais frequentes em mulheres negras. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'São muito comuns.', C: 'Tendem a regredir.', D: 'São benignos.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: embolização',
     e: 'A embolização das artérias uterinas é uma opção para:',
-    o: ['Mulheres com miomas sintomáticos que desejam evitar histerectomia', 'Miomas em gestantes', 'Câncer de colo', 'Miomas pediculados subserosos com desejo de gestação imediata'],
+    o: ['Miomas sintomáticos, para evitar histerectomia', 'Miomas em gestantes, no segundo trimestre', 'Câncer de colo, em estádio inicial', 'Miomas pediculados, com desejo de gestação imediata'],
     g: 'A',
     c: 'Não é a primeira escolha em quem deseja gestar. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 228: Management of Symptomatic Uterine Leiomyomas. Obstet Gynecol. 2021;137(6):e100-15.',
     x: { B: 'Contraindicada.', C: 'Sem indicação.', D: 'Não é ideal nesse caso.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: AINEs',
     e: 'Os anti-inflamatórios não esteroides no sangramento menstrual aumentado:',
-    o: ['Reduzem o fluxo em cerca de 20 a 40% e aliviam a dismenorreia', 'Aumentam o fluxo', 'Não têm efeito', 'São contraindicados em todas'],
+    o: ['Reduzem o fluxo em 20 a 40% e aliviam a dismenorreia', 'Aumentam o fluxo menstrual, por inibir plaquetas', 'Não têm efeito sobre o fluxo menstrual', 'São contraindicados em todas as mulheres'],
     g: 'A',
     c: 'São opção para quem não deseja hormônios. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Reduzem.', C: 'Têm efeito.', D: 'Não são contraindicados em todas.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: indicação cirúrgica',
     e: 'Indicação de tratamento de mioma inclui:',
-    o: ['Sangramento com anemia, sintomas compressivos ou infertilidade relacionada', 'Mioma assintomático pequeno em qualquer mulher', 'Mioma na pós-menopausa estável', 'Desejo de prevenir câncer'],
+    o: ['Sangramento com anemia, sintomas compressivos ou infertilidade', 'Mioma assintomático e pequeno, em qualquer mulher jovem', 'Mioma estável na pós-menopausa, sem queixas e sem anemia', 'Desejo de prevenir o câncer de útero, no futuro'],
     g: 'A',
     c: 'Miomas assintomáticos geralmente são acompanhados. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 228: Management of Symptomatic Uterine Leiomyomas. Obstet Gynecol. 2021;137(6):e100-15.',
     x: { B: 'Pode ser acompanhado.', C: 'Tende a regredir.', D: 'Não é indicação.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: miomectomia',
     e: 'Mulher de 32 anos com mioma intramural grande e desejo de gestar. A cirurgia indicada é:',
-    o: ['Miomectomia, preservando o útero', 'Histerectomia', 'Embolização como primeira escolha', 'Ablação endometrial'],
+    o: ['Miomectomia, preservando o útero', 'Histerectomia total, por laparotomia', 'Embolização, como primeira escolha', 'Ablação endometrial, por histeroscopia'],
     g: 'A',
     c: 'Após miomectomia com abertura da cavidade, a cesárea pode ser recomendada. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 228: Management of Symptomatic Uterine Leiomyomas. Obstet Gynecol. 2021;137(6):e100-15.',
     x: { B: 'Impede gestação.', C: 'Não é primeira escolha para quem deseja gestar.', D: 'Contraindicada com desejo reprodutivo.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Ablação endometrial',
     e: 'A ablação endometrial é opção para sangramento aumentado em mulheres:',
-    o: ['Com prole completa, sem lesões malignas e com cavidade uterina adequada', 'Que desejam gestar', 'Com câncer de endométrio', 'Com miomas submucosos grandes'],
+    o: ['Com prole completa, sem malignidade e cavidade adequada', 'Que desejam engravidar nos próximos anos', 'Com câncer de endométrio já diagnosticado', 'Com miomas submucosos grandes e múltiplos'],
     g: 'A',
     c: 'Após a ablação, é necessária anticoncepção, pois a gestação é de alto risco. Referência: National Institute for Health and Care Excellence. Heavy menstrual bleeding: assessment and management (NG88). London: NICE, 2018, atualizado em 2021.',
     x: { B: 'Contraindicada.', C: 'Contraindicada.', D: 'Pouco eficaz.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: dor crônica',
     e: 'Mulher com dor pélvica crônica, laparoscopia sem endometriose e exame normal. Deve-se considerar:',
-    o: ['Outras causas, como síndrome do intestino irritável, cistite intersticial, dor miofascial e fatores psicossociais', 'Repetir a laparoscopia a cada 6 meses', 'Histerectomia', 'Nenhuma investigação adicional'],
+    o: ['Outras causas: intestino irritável, cistite, dor miofascial', 'Repetir a laparoscopia a cada 6 meses, por segurança', 'Indicar histerectomia como primeira conduta resolutiva', 'Nenhuma investigação adicional, apenas analgesia contínua'],
     g: 'A',
     c: 'A abordagem multidisciplinar é fundamental. Referência: Royal College of Obstetricians and Gynaecologists. Green-top Guideline 41: The Initial Management of Chronic Pelvic Pain. London: RCOG, 2012.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Deve-se investigar.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: estadiamento',
     e: 'O estadiamento da endometriose pela classificação revisada da ASRM:',
-    o: ['Baseia-se em achados cirúrgicos e não se correlaciona bem com a intensidade da dor', 'Baseia-se no CA-125', 'Define a dor', 'É feito por ultrassom transabdominal'],
+    o: ['Baseia-se em achados cirúrgicos; correlaciona mal com a dor', 'Baseia-se na dosagem do CA-125 sérico, no pré-operatório', 'Define a intensidade da dor, de forma bastante fiel', 'É feito por ultrassom transabdominal, como exame de rotina'],
     g: 'A',
     c: 'Novas classificações, como #Enzian, incluem endometriose profunda. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Não é marcador de estadiamento.', C: 'Não se correlaciona.', D: 'Não é o método.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: gestação',
     e: 'Sobre endometriose e gestação, é correto afirmar:',
-    o: ['A gestação não cura a endometriose e não deve ser recomendada como tratamento', 'A gestação cura definitivamente a endometriose', 'Endometriose impede qualquer gestação', 'A gestação é o tratamento de escolha'],
+    o: ['Gestação não cura a endometriose; não é tratamento', 'A gestação cura definitivamente a endometriose', 'A endometriose impede qualquer gestação futura', 'A gestação é o tratamento de escolha da doença'],
     g: 'A',
     c: 'A melhora dos sintomas durante a gestação costuma ser temporária. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Não cura.', C: 'Muitas engravidam.', D: 'Não é tratamento.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Adenomiose: imagem',
     e: 'Na ressonância, a adenomiose caracteriza-se por:',
-    o: ['Espessamento da zona juncional acima de cerca de 12 mm', 'Massa ovariana', 'Pólipo pediculado', 'Hidrossalpinge'],
+    o: ['Espessamento da zona juncional acima de ~12 mm', 'Massa ovariana, com componente sólido', 'Pólipo pediculado, na cavidade uterina', 'Hidrossalpinge, com dilatação da tuba'],
     g: 'A',
     c: 'O ultrassom transvaginal também mostra útero globoso, assimetria das paredes e cistos miometriais. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: ulipristal',
     e: 'Sobre o acetato de ulipristal no tratamento de miomas, é correto afirmar:',
-    o: ['Seu uso foi restringido por relatos de lesão hepática grave', 'É o tratamento mais seguro em todas', 'É usado em gestantes', 'Não tem efeito em miomas'],
+    o: ['Uso restringido por relatos de lesão hepática grave', 'É o tratamento mais seguro, em todas as pacientes', 'Pode ser usado em gestantes, sem restrições', 'Não tem nenhum efeito sobre os miomas uterinos'],
     g: 'A',
     c: 'A agência europeia limitou seu uso. Referência: European Medicines Agency. Ulipristal acetate 5mg medicinal products: restriction of use due to risk of liver injury. 2021.',
     x: { B: 'Há restrições.', C: 'Sem indicação.', D: 'Tem efeito.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Pólipo cervical',
     e: 'Pólipo cervical pequeno, com sangramento pós-coito. A conduta é:',
-    o: ['Exérese ambulatorial e exame anatomopatológico', 'Histerectomia', 'Radioterapia', 'Observação sem análise'],
+    o: ['Exérese ambulatorial e exame anatomopatológico', 'Histerectomia total, por sangramento pós-coito', 'Radioterapia pélvica, em dose baixa', 'Observação, sem análise da peça retirada'],
     g: 'A',
     c: 'A grande maioria é benigna. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Excessivo.', C: 'Sem indicação.', D: 'Deve ser analisado.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: histeroscopia',
     e: 'A histeroscopia diagnóstica é o melhor exame para avaliar:',
-    o: ['Lesões intracavitárias, como pólipos e miomas submucosos', 'Ovários', 'Tubas uterinas como exame principal', 'Linfonodos'],
+    o: ['Lesões intracavitárias, como pólipos e miomas submucosos', 'Os ovários, em suas características morfológicas', 'As tubas uterinas, como exame principal', 'Os linfonodos pélvicos, em suas cadeias'],
     g: 'A',
     c: 'Permite diagnóstico e tratamento no mesmo procedimento. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sem acesso.', C: 'Avalia apenas os óstios.', D: 'Sem acesso.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: localização',
     e: 'O local mais comum de endometriose é:',
-    o: ['Ovários e peritônio pélvico (incluindo ligamentos uterossacros)', 'Pulmão', 'Cérebro', 'Fígado'],
+    o: ['Ovários e peritônio pélvico, incluindo uterossacros', 'Pulmão, com hemoptise cíclica e pneumotórax', 'Cérebro, com cefaleia cíclica e déficits focais', 'Fígado, com dor em hipocôndrio direito e icterícia'],
     g: 'A',
     c: 'Endometriose torácica é rara e pode causar pneumotórax catamenial. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Raro.', C: 'Raríssimo.', D: 'Raro.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: dienogeste',
     e: 'O dienogeste no tratamento da endometriose tem como efeito adverso mais comum:',
-    o: ['Sangramento irregular', 'Hipertensão grave', 'Hiperglicemia', 'Perda auditiva'],
+    o: ['Sangramento irregular', 'Hipertensão arterial grave', 'Hiperglicemia persistente', 'Perda auditiva neurossensorial'],
     g: 'A',
     c: 'É bem tolerado e pode ser usado por longo prazo. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Não é comum.', C: 'Não é comum.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: adolescentes com sangramento grave',
     e: 'Adolescente com sangramento menstrual intenso e hemoglobina de 7 g/dL, estável. Além do tratamento hormonal, deve-se:',
-    o: ['Investigar coagulopatias, como doença de von Willebrand', 'Fazer histerectomia', 'Fazer curetagem obrigatória', 'Ignorar'],
+    o: ['Investigar coagulopatias, como doença de von Willebrand', 'Fazer histerectomia, por sangramento grave', 'Fazer curetagem uterina, obrigatoriamente', 'Ignorar a história de sangramento, por ser comum'],
     g: 'A',
     c: 'A coagulopatia é encontrada em parte importante das adolescentes com sangramento grave. Referência: American College of Obstetricians and Gynecologists. Committee Opinion 785: Screening and Management of Bleeding Disorders in Adolescents with Heavy Menstrual Bleeding. Obstet Gynecol. 2019;134(3):e71-83.',
     x: { B: 'Sem indicação.', C: 'Raramente necessária.', D: 'Exige investigação.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: classificação',
     e: 'Mioma tipo 6 da FIGO é:',
-    o: ['Subseroso com menos de 50% intramural', 'Submucoso pediculado', 'Intramural com contato endometrial', 'Cervical'],
+    o: ['Subseroso com menos de 50% intramural', 'Submucoso pediculado, na cavidade uterina', 'Intramural, com contato com o endométrio', 'Cervical, no colo do útero, parasita'],
     g: 'A',
     c: 'Tipo 5: subseroso com 50% ou mais intramural; tipo 7: subseroso pediculado. Referência: Munro MG et al. The two FIGO systems for normal and abnormal uterine bleeding symptoms and classification of causes of abnormal uterine bleeding in the reproductive years: 2018 revisions. Int J Gynaecol Obstet. 2018;143(3):393-408.',
     x: { B: 'É tipo 0.', C: 'É tipo 3.', D: 'É tipo 8.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: progestagênio',
     e: 'Mulher com sangramento por anovulação, sem desejo de anticoncepção hormonal combinada. Uma opção é:',
-    o: ['Progestagênio cíclico ou contínuo, que regula o endométrio', 'Estrogênio isolado', 'Antibiótico', 'Nenhuma opção'],
+    o: ['Progestagênio, cíclico ou contínuo, regulando o endométrio', 'Estrogênio isolado, em dose alta e contínua, por via oral', 'Antibiótico de amplo espectro, por 14 dias, em casa', 'Nenhuma opção medicamentosa é eficaz nesses casos'],
     g: 'A',
     c: 'O SIU de levonorgestrel é a opção mais eficaz para sangramento aumentado. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Risco de hiperplasia.', C: 'Sem relação.', D: 'Há opções.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: análogo de GnRH',
     e: 'Ao usar análogo de GnRH por mais de 6 meses para endometriose, deve-se associar:',
-    o: ['Terapia add-back com estrogênio e progestagênio em dose baixa, para reduzir perda óssea e fogachos', 'Nada', 'Testosterona', 'Corticoide'],
+    o: ['Add-back com estrogênio e progestagênio em dose baixa', 'Nada, pois não há efeitos adversos esperados', 'Testosterona, em dose baixa e contínua', 'Corticoide, em dose baixa e contínua'],
     g: 'A',
     c: 'A add-back não reduz a eficácia contra a dor. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Aumenta efeitos adversos.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: avaliação endometrial',
     e: 'Em mulher de 47 anos com sangramento irregular persistente e obesidade, a investigação deve incluir:',
-    o: ['Amostragem endometrial, pelo risco de hiperplasia ou câncer', 'Apenas observação', 'Apenas citologia de colo', 'CA-125'],
+    o: ['Amostragem endometrial, pelo risco de hiperplasia', 'Apenas observação clínica, com retorno em 6 meses', 'Apenas citologia de colo uterino, em exame anual', 'Apenas dosagem sérica do CA-125, no sangue periférico'],
     g: 'A',
     c: 'Idade acima de 45 anos, obesidade e anovulação crônica indicam biópsia. Referência: American College of Obstetricians and Gynecologists. Committee Opinion 557: Management of Acute Abnormal Uterine Bleeding in Nonpregnant Reproductive-Aged Women. Obstet Gynecol. 2013;121(4):891-6.',
     x: { B: 'Insuficiente.', C: 'Não avalia endométrio.', D: 'Não avalia endométrio.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Miomas: anemia pré-operatória',
     e: 'Mulher com mioma e anemia grave aguardando cirurgia. Uma estratégia pré-operatória é:',
-    o: ['Ferro intravenoso e supressão hormonal temporária do sangramento', 'Cirurgia imediata sem corrigir anemia', 'Transfusão de rotina de 4 bolsas', 'Nada'],
+    o: ['Ferro intravenoso e supressão hormonal do sangramento', 'Cirurgia imediata, sem corrigir a anemia', 'Transfusão de rotina de 4 bolsas, antes da cirurgia', 'Nenhuma medida, apenas aguardar a cirurgia'],
     g: 'A',
     c: 'Corrigir a anemia reduz transfusões e complicações. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 228: Management of Symptomatic Uterine Leiomyomas. Obstet Gynecol. 2021;137(6):e100-15.',
     x: { B: 'Aumenta riscos.', C: 'Excessivo.', D: 'Inadequado.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'Endometriose: malignidade',
     e: 'A endometriose ovariana associa-se a risco discretamente maior de:',
-    o: ['Carcinoma ovariano de células claras e endometrioide', 'Disgerminoma', 'Teratoma imaturo', 'Tumor de Krukenberg'],
+    o: ['Carcinoma ovariano de células claras e endometrioide', 'Disgerminoma, de células germinativas', 'Teratoma imaturo, de células germinativas', 'Tumor de Krukenberg, metastático gástrico'],
     g: 'A',
     c: 'O risco absoluto continua baixo. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'É metastático.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_SUA: QuestaoCompacta[] = [
   {
     s: 'SUA: DIU de cobre',
     e: 'Usuária de DIU de cobre com aumento do fluxo e cólicas. A conduta inicial é:',
-    o: ['AINEs durante a menstruação; se não houver melhora, considerar troca por SIU de levonorgestrel', 'Retirar o DIU e não oferecer outro método', 'Antibiótico', 'Histerectomia'],
+    o: ['AINEs na menstruação; se falhar, trocar por SIU de levonorgestrel', 'Retirar o DIU e não oferecer nenhum outro método', 'Antibiótico de amplo espectro, por 14 dias, em casa', 'Histerectomia total, por sangramento aumentado e cólicas'],
     g: 'A',
     c: 'O aumento de fluxo é efeito esperado do DIU de cobre, mais nos primeiros meses. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Deve-se oferecer alternativa.', C: 'Sem infecção.', D: 'Excessivo.' },

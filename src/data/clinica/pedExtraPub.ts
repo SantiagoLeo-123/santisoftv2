@@ -5,7 +5,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade normal',
     e: 'O primeiro sinal de puberdade nas meninas é geralmente:',
-    o: ['Telarca (broto mamário)', 'Menarca', 'Pubarca obrigatoriamente', 'Estirão final'],
+    o: ['Telarca (broto mamário)', 'Menarca, geralmente aos 12 anos', 'Pubarca, obrigatoriamente, antes da telarca', 'Estirão final, após a menarca'],
     g: 'A',
     c: 'A menarca ocorre em média 2 a 2,5 anos após a telarca. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Evento tardio.', C: 'Pode vir antes em algumas, mas não é o habitual.', D: 'Ocorre durante a puberdade.' },
@@ -13,7 +13,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade normal',
     e: 'O primeiro sinal de puberdade nos meninos é:',
-    o: ['Aumento do volume testicular para 4 mL ou mais', 'Mudança de voz', 'Pelos faciais', 'Estirão de crescimento'],
+    o: ['Aumento testicular para 4 mL ou mais', 'Mudança de voz, com timbre grave', 'Pelos faciais, no buço e na barba', 'Estirão de crescimento, antes do aumento testicular'],
     g: 'A',
     c: 'Avalia-se com o orquidômetro de Prader. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Tardio.', C: 'Tardio.', D: 'Ocorre mais tarde, em G3 e G4.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade normal',
     e: 'O pico de velocidade de crescimento (estirão) ocorre:',
-    o: ['Mais cedo nas meninas, antes da menarca, e mais tarde nos meninos', 'Mais cedo nos meninos', 'Após a menarca nas meninas', 'Somente após os 18 anos'],
+    o: ['Mais cedo nas meninas, antes da menarca; tarde nos meninos', 'Mais cedo nos meninos, antes do aumento testicular', 'Após a menarca, nas meninas, em geral, no fim', 'Somente após os 18 anos, em ambos os sexos'],
     g: 'A',
     c: 'Após a menarca, as meninas crescem em média mais 5 a 7 cm. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O inverso.', C: 'Antes da menarca.', D: 'Antes.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade precoce: definição',
     e: 'Puberdade precoce é definida como início de caracteres sexuais secundários antes de:',
-    o: ['8 anos nas meninas e 9 anos nos meninos', '10 anos em ambos', '6 anos nas meninas e 7 nos meninos', '12 anos nas meninas'],
+    o: ['Antes de 8 anos nas meninas e 9 nos meninos', 'Antes de 10 anos, em ambos os sexos', 'Antes de 6 anos nas meninas e 7 nos meninos', 'Antes de 12 anos nas meninas, apenas'],
     g: 'A',
     c: 'Atraso puberal: ausência de telarca aos 13 anos nas meninas e de aumento testicular aos 14 nos meninos. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Critério incorreto.', C: 'Critério incorreto.', D: 'Seria normal.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade precoce central',
     e: 'Menina de 6 anos com telarca, pubarca, aceleração do crescimento e idade óssea avançada. O exame que confirma a forma central é:',
-    o: ['LH elevado basal ou após estímulo com GnRH (ou análogo)', 'Cariótipo', 'Ultrassom de tireoide', 'Prolactina'],
+    o: ['LH basal elevado ou após estímulo com GnRH', 'Cariótipo, com bandeamento G', 'Ultrassom de tireoide, com Doppler', 'Prolactina sérica basal, em jejum'],
     g: 'A',
     c: 'A forma central depende da ativação do eixo hipotálamo-hipófise-gônadas. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade precoce central',
     e: 'Menino de 6 anos com puberdade precoce central confirmada. O próximo exame é:',
-    o: ['Ressonância magnética de crânio', 'Nenhum exame', 'Apenas idade óssea', 'Cariótipo'],
+    o: ['Ressonância magnética de crânio', 'Nenhum exame adicional, apenas tratamento', 'Apenas a idade óssea, em radiografia de mão', 'Cariótipo, com bandeamento G, no sangue'],
     g: 'A',
     c: 'O hamartoma hipotalâmico é causa clássica. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Risco de lesão orgânica.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade precoce: tratamento',
     e: 'O tratamento da puberdade precoce central é:',
-    o: ['Análogo de GnRH de depósito (como leuprorrelina)', 'Testosterona', 'Estrogênio', 'Hormônio de crescimento isolado'],
+    o: ['Análogo de GnRH de depósito (leuprorrelina)', 'Testosterona, em dose baixa, por via intramuscular', 'Estrogênio, em dose baixa, por via oral', 'Hormônio de crescimento, de forma isolada'],
     g: 'A',
     c: 'O objetivo é preservar estatura final e adequação psicossocial. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Não bloqueia a puberdade.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Telarca precoce isolada',
     e: 'Menina de 18 meses com aumento mamário bilateral leve, sem outros sinais puberais, velocidade de crescimento e idade óssea normais. A conduta é:',
-    o: ['Acompanhamento clínico, pois a telarca precoce isolada costuma regredir', 'Análogo de GnRH', 'Ressonância urgente obrigatória', 'Mastectomia'],
+    o: ['Acompanhar: a telarca precoce isolada costuma regredir', 'Análogo de GnRH, por via intramuscular mensal', 'Ressonância urgente, obrigatória, em todos os casos', 'Mastectomia, por via cirúrgica, ainda na infância'],
     g: 'A',
     c: 'Deve-se reavaliar se surgirem outros sinais. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Sem indicação.', C: 'Não é necessária inicialmente.', D: 'Sem indicação.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Adrenarca precoce',
     e: 'Menina de 7 anos com pelos pubianos isolados, sem telarca, com idade óssea discretamente avançada e DHEA-S elevado para a idade. A hipótese é:',
-    o: ['Adrenarca precoce (pubarca precoce isolada)', 'Puberdade precoce central', 'Tumor ovariano', 'McCune-Albright'],
+    o: ['Adrenarca precoce (pubarca precoce isolada)', 'Puberdade precoce central, com ativação do eixo', 'Tumor ovariano, produtor de androgênios', 'Síndrome de McCune-Albright, com manchas café com leite'],
     g: 'A',
     c: 'Deve-se excluir hiperplasia adrenal congênita não clássica com 17-hidroxiprogesterona. Associa-se a risco de SOP. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Haveria telarca.', C: 'Haveria estrogênio elevado.', D: 'Haveria manchas e lesões ósseas.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Atraso puberal',
     e: 'A causa mais comum de atraso puberal é:',
-    o: ['Retardo constitucional do crescimento e da puberdade', 'Síndrome de Turner', 'Síndrome de Kallmann', 'Tumor hipofisário'],
+    o: ['Retardo constitucional do crescimento e da puberdade', 'Síndrome de Turner, com cariótipo 45,X', 'Síndrome de Kallmann, com anosmia associada', 'Tumor hipofisário, com compressão do quiasma'],
     g: 'A',
     c: 'Há história familiar de puberdade tardia e idade óssea atrasada; a estatura final costuma ser normal. Referência: Palmert MR, Dunkel L. Delayed puberty. N Engl J Med. 2012;366(5):443-53.',
     x: { B: 'Menos comum.', C: 'Menos comum.', D: 'Rara.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Atraso puberal',
     e: 'Menino de 15 anos sem sinais puberais, estatura no percentil 3, idade óssea de 12 anos e pai com puberdade tardia. A hipótese é:',
-    o: ['Retardo constitucional do crescimento e da puberdade', 'Klinefelter', 'Hipogonadismo hipergonadotrófico', 'Puberdade precoce'],
+    o: ['Retardo constitucional do crescimento e da puberdade', 'Síndrome de Klinefelter, com cariótipo 47,XXY', 'Hipogonadismo hipergonadotrófico, por falência gonadal', 'Puberdade precoce, com ativação do eixo'],
     g: 'A',
     c: 'A conduta pode ser expectante ou com testosterona em baixa dose por curto período. Referência: Palmert MR, Dunkel L. Delayed puberty. N Engl J Med. 2012;366(5):443-53.',
     x: { B: 'Teria testículos pequenos e firmes com puberdade iniciada.', C: 'FSH e LH altos.', D: 'Oposto.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Hipogonadismo',
     e: 'Adolescente de 16 anos sem desenvolvimento puberal, com anosmia e LH e FSH baixos. O diagnóstico é:',
-    o: ['Síndrome de Kallmann (hipogonadismo hipogonadotrófico)', 'Turner', 'Klinefelter', 'Retardo constitucional com anosmia coincidente'],
+    o: ['Síndrome de Kallmann (hipogonadismo hipogonadotrófico)', 'Síndrome de Turner, com cariótipo 45,X', 'Síndrome de Klinefelter, com cariótipo 47,XXY', 'Retardo constitucional, com anosmia coincidente'],
     g: 'A',
     c: 'Há defeito de migração dos neurônios de GnRH. Referência: Palmert MR, Dunkel L. Delayed puberty. N Engl J Med. 2012;366(5):443-53.',
     x: { B: 'FSH alto e em meninas.', C: 'FSH alto.', D: 'A anosmia indica Kallmann.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Ginecomastia puberal',
     e: 'Adolescente de 13 anos com aumento mamário bilateral discreto e doloroso, em puberdade normal. A conduta é:',
-    o: ['Tranquilizar e acompanhar, pois a ginecomastia puberal costuma regredir em 1 a 2 anos', 'Mastectomia imediata', 'Investigar câncer de mama', 'Testosterona'],
+    o: ['Acompanhar: a ginecomastia puberal regride em 1-2 anos', 'Mastectomia imediata, por via cirúrgica', 'Investigar câncer de mama, com biópsia', 'Testosterona, em dose alta, por via intramuscular'],
     g: 'A',
     c: 'Investiga-se se for volumosa, unilateral endurecida ou com outros sinais. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem indicação.', C: 'Raríssimo.', D: 'Sem indicação.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade e hipotireoidismo',
     e: 'Criança com hipotireoidismo primário grave, não tratado, pode apresentar paradoxalmente:',
-    o: ['Puberdade precoce com idade óssea atrasada (síndrome de Van Wyk-Grumbach)', 'Alta estatura', 'Idade óssea avançada', 'Hipertireoidismo'],
+    o: ['Puberdade precoce com idade óssea atrasada (Van Wyk-Grumbach)', 'Alta estatura, com crescimento acelerado', 'Idade óssea avançada, com crescimento acelerado', 'Hipertireoidismo, com taquicardia e tremores'],
     g: 'A',
     c: 'Regride com tratamento do hipotireoidismo. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O crescimento é reduzido.', C: 'A idade óssea atrasa.', D: 'Contraditório.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Idade óssea',
     e: 'A idade óssea é avaliada pela radiografia:',
-    o: ['De mão e punho esquerdos', 'De crânio', 'De coluna lombar', 'De tórax'],
+    o: ['De mão e punho esquerdos', 'De crânio, em incidência de perfil', 'De coluna lombar, em incidência de perfil', 'De tórax, em incidência anteroposterior'],
     g: 'A',
     c: 'O método de Greulich-Pyle é o mais usado. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é usada.', C: 'Não é usada.', D: 'Não é usada.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade precoce periférica',
     e: 'Menino de 5 anos com pelos pubianos, aumento do pênis, aceleração do crescimento e testículos pré-puberais. A hipótese principal é:',
-    o: ['Hiperplasia adrenal congênita ou tumor produtor de androgênio (puberdade precoce periférica)', 'Puberdade precoce central', 'Ginecomastia puberal', 'Klinefelter'],
+    o: ['HAC ou tumor produtor de androgênio (precoce periférica)', 'Puberdade precoce central, com testículos aumentados', 'Ginecomastia puberal, com broto mamário doloroso', 'Síndrome de Klinefelter, com testículos pequenos'],
     g: 'A',
     c: 'Na forma central, os testículos aumentam. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Testículos aumentariam.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: tumor testicular',
     e: 'Menino de 7 anos com sinais de virilização e testículo unilateral aumentado e endurecido. A hipótese é:',
-    o: ['Tumor de células de Leydig', 'Puberdade central', 'Hidrocele', 'Varicocele'],
+    o: ['Tumor de células de Leydig', 'Puberdade precoce central, com ativação do eixo', 'Hidrocele, com transiluminação positiva', 'Varicocele, com dilatação do plexo pampiniforme'],
     g: 'A',
     c: 'A ultrassonografia testicular confirma. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Seria bilateral.', C: 'Não causa virilização.', D: 'Não causa virilização.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Menarca',
     e: 'Menina de 10 anos com menarca há 1 mês pergunta sobre a irregularidade dos ciclos. A orientação é:',
-    o: ['Ciclos irregulares são comuns nos primeiros anos após a menarca por anovulação', 'Indica doença grave', 'Exige anticoncepcional obrigatório', 'Exige ressonância'],
+    o: ['Ciclos irregulares são comuns nos primeiros anos, por anovulação', 'Indica doença grave, que exige investigação', 'Exige anticoncepcional, obrigatoriamente, para regular', 'Exige ressonância magnética de crânio e pelve'],
     g: 'A',
     c: 'Sangramento excessivo exige avaliação. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'É fisiológico.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: estatura',
     e: 'O que mais prejudica a estatura final na puberdade precoce central não tratada é:',
-    o: ['O fechamento precoce das epífises pela ação dos esteroides sexuais', 'A deficiência de hormônio de crescimento', 'O hipotireoidismo', 'A desnutrição'],
+    o: ['Fechamento precoce das epífises pelos esteroides sexuais', 'Deficiência de hormônio de crescimento associada', 'Hipotireoidismo, com atraso do crescimento', 'Desnutrição, com baixo aporte calórico e proteico'],
     g: 'A',
     c: 'A criança é alta para a idade, mas pode ficar baixa na vida adulta. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Não é o mecanismo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Atraso puberal: avaliação',
     e: 'Na avaliação de menina de 14 anos sem telarca, exames iniciais incluem:',
-    o: ['LH, FSH, estradiol, idade óssea, TSH e prolactina; cariótipo se FSH elevado', 'Apenas ultrassom de mama', 'Nenhum exame', 'Apenas hemograma'],
+    o: ['LH, FSH, estradiol, idade óssea, TSH e prolactina', 'Apenas ultrassom de mama, sem nenhuma dosagem hormonal', 'Nenhum exame, apenas observação clínica por 1 ano', 'Apenas hemograma completo, sem dosagens hormonais'],
     g: 'A',
     c: 'FSH elevado sugere falência gonadal, como na síndrome de Turner. Referência: Palmert MR, Dunkel L. Delayed puberty. N Engl J Med. 2012;366(5):443-53.',
     x: { B: 'Insuficiente.', C: 'Exige investigação.', D: 'Insuficiente.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Tanner: genitália masculina',
     e: 'Menino com aumento do pênis em comprimento e testículos e escroto maiores, em G3. Nesse estágio, ocorre geralmente:',
-    o: ['Início do estirão de crescimento', 'Fim do crescimento', 'Menarca', 'Nenhuma alteração'],
+    o: ['Início do estirão de crescimento', 'Fim do crescimento, com fechamento das epífises', 'Menarca, que ocorre em meninas, e não em meninos', 'Nenhuma alteração, pois é variação normal'],
     g: 'A',
     c: 'O pico de velocidade nos meninos é por volta de G3 e G4. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Ocorre depois.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade precoce: diagnóstico diferencial',
     e: 'Menina de 7 anos com telarca e ultrassom pélvico mostrando cisto ovariano funcional grande, com LH suprimido. A hipótese é:',
-    o: ['Puberdade precoce periférica por cisto ovariano autônomo', 'Puberdade precoce central', 'Adrenarca', 'Turner'],
+    o: ['Precoce periférica por cisto ovariano autônomo', 'Puberdade precoce central, com LH elevado após GnRH', 'Adrenarca precoce, com pubarca isolada e sem telarca', 'Síndrome de Turner, com cariótipo 45,X e baixa estatura'],
     g: 'A',
     c: 'Os cistos funcionais costumam regredir espontaneamente. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'LH estaria elevado.', C: 'Sem telarca.', D: 'Sem relação.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Hormônio do crescimento',
     e: 'A baixa estatura por deficiência de hormônio de crescimento caracteriza-se por:',
-    o: ['Velocidade de crescimento baixa, idade óssea atrasada e proporções corporais preservadas', 'Velocidade normal', 'Idade óssea avançada', 'Alta estatura'],
+    o: ['Velocidade baixa, idade óssea atrasada e proporções normais', 'Velocidade normal, com idade óssea normal para a idade', 'Idade óssea avançada, com proporções corporais preservadas', 'Alta estatura, com velocidade de crescimento aumentada'],
     g: 'A',
     c: 'O diagnóstico exige testes de estímulo. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'É baixa.', C: 'É atrasada.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: pseudopuberdade exógena',
     e: 'Menina de 4 anos com telarca e sangramento vaginal, com uso inadvertido de creme de estrogênio da avó. A hipótese é:',
-    o: ['Puberdade precoce periférica por estrogênio exógeno', 'Puberdade central', 'McCune-Albright', 'Turner'],
+    o: ['Puberdade precoce periférica por estrogênio exógeno', 'Puberdade precoce central, com LH elevado', 'Síndrome de McCune-Albright, com manchas café com leite', 'Síndrome de Turner, com cariótipo 45,X'],
     g: 'A',
     c: 'A suspensão da exposição resolve o quadro. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'LH estaria elevado.', C: 'Sem manchas e lesões ósseas.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: sangramento vaginal na infância',
     e: 'Menina de 5 anos com sangramento vaginal sem sinais puberais. Deve-se investigar:',
-    o: ['Corpo estranho vaginal, trauma, abuso sexual, infecção e tumores', 'Apenas menarca normal', 'Gestação', 'Nada'],
+    o: ['Corpo estranho, trauma, abuso, infecção e tumores', 'Apenas menarca normal, sem outras causas', 'Gestação, em qualquer idade, sem outras causas', 'Nada, pois o sangramento é autolimitado'],
     g: 'A',
     c: 'Sem telarca, menarca precoce isolada é diagnóstico de exclusão. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem sinais puberais.', C: 'Sem relação.', D: 'Exige investigação.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: obesidade',
     e: 'Sobre obesidade e puberdade em meninas, é correto afirmar:',
-    o: ['A obesidade associa-se a início puberal mais precoce', 'A obesidade atrasa sempre a puberdade', 'Não há relação', 'A obesidade impede a menarca'],
+    o: ['A obesidade associa-se a início puberal mais precoce', 'A obesidade atrasa sempre a puberdade, em meninas', 'Não há relação entre obesidade e puberdade', 'A obesidade impede a menarca, em todos os casos'],
     g: 'A',
     c: 'O tecido adiposo e a leptina influenciam o eixo reprodutivo. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Em meninas, tende a antecipar.', C: 'Há relação.', D: 'Sem fundamento.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: desnutrição e esporte',
     e: 'Atleta de ginástica de 15 anos, com baixo peso e treino intenso, sem menarca. A hipótese mais provável é:',
-    o: ['Amenorreia primária por hipogonadismo hipogonadotrófico funcional', 'Turner', 'Rokitansky', 'Insensibilidade androgênica'],
+    o: ['Amenorreia primária por hipogonadismo funcional', 'Síndrome de Turner, com cariótipo 45,X e baixa estatura', 'Síndrome de Rokitansky, com agenesia uterina e vaginal', 'Insensibilidade androgênica, com cariótipo 46,XY e mamas'],
     g: 'A',
     c: 'O déficit energético suprime o GnRH. Referência: Palmert MR, Dunkel L. Delayed puberty. N Engl J Med. 2012;366(5):443-53.',
     x: { B: 'Haveria outros sinais.', C: 'Teria mamas e ausência de útero.', D: 'Teria pelos escassos.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Hiperplasia adrenal não clássica',
     e: 'Menina de 7 anos com pubarca, acne, aceleração do crescimento e clitoromegalia leve. Deve-se dosar:',
-    o: ['17-hidroxiprogesterona', 'Prolactina', 'Cortisol noturno', 'TSH isolado'],
+    o: ['17-hidroxiprogesterona', 'Prolactina sérica, em jejum', 'Cortisol noturno, em saliva', 'TSH, isoladamente, no sangue'],
     g: 'A',
     c: 'A deficiência parcial de 21-hidroxilase aumenta androgênios. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem relação.', C: 'Investiga Cushing.', D: 'Insuficiente.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: tratamento do atraso',
     e: 'Menino com retardo constitucional e sofrimento psicológico importante com a baixa estatura. Uma opção é:',
-    o: ['Testosterona em dose baixa por curto período (3 a 6 meses)', 'Análogo de GnRH', 'Hormônio de crescimento obrigatório', 'Estrogênio'],
+    o: ['Testosterona em dose baixa, por curto período (3-6 meses)', 'Análogo de GnRH, por via intramuscular mensal', 'Hormônio de crescimento, obrigatoriamente, por anos', 'Estrogênio, em dose baixa, por via oral'],
     g: 'A',
     c: 'A testosterona induz a puberdade sem prejudicar a estatura final. Referência: Palmert MR, Dunkel L. Delayed puberty. N Engl J Med. 2012;366(5):443-53.',
     x: { B: 'Atrasaria mais.', C: 'Não é indicado de rotina.', D: 'Inadequado.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: Klinefelter',
     e: 'No exame de Klinefelter, o achado mais característico é:',
-    o: ['Testículos pequenos e firmes, menores que o esperado para a puberdade', 'Testículos aumentados', 'Micropênis grave sempre', 'Criptorquidia em todos'],
+    o: ['Testículos pequenos e firmes, menores que o esperado', 'Testículos aumentados, para a idade puberal', 'Micropênis grave, em todos os casos', 'Criptorquidia, em todos os casos, bilateral'],
     g: 'A',
     c: 'Os níveis de FSH e LH são elevados. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O oposto.', C: 'Não é a regra.', D: 'Não é a regra.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Ginecomastia patológica',
     e: 'Adolescente com ginecomastia unilateral, volumosa e de crescimento rápido, com massa testicular. A conduta é:',
-    o: ['Investigar tumor produtor de hormônios, com ultrassom testicular e dosagens hormonais', 'Tranquilizar', 'Mastectomia apenas', 'Ignorar'],
+    o: ['Investigar tumor hormonal: USG testicular e dosagens', 'Tranquilizar a família, pois é fisiológico', 'Mastectomia, apenas, sem outras medidas', 'Ignorar o achado, pois regride sozinho'],
     g: 'A',
     c: 'Tumores testiculares podem produzir hCG e estrogênio. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Há sinais de alarme.', C: 'Insuficiente.', D: 'Exige investigação.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade precoce: tumores',
     e: 'A forma de puberdade precoce mais associada a tumores do sistema nervoso central é:',
-    o: ['Central, especialmente em meninos', 'Periférica por cisto ovariano', 'Telarca isolada', 'Adrenarca'],
+    o: ['Central, especialmente em meninos', 'Periférica, por cisto ovariano funcional', 'Telarca isolada, em lactentes meninas', 'Adrenarca, com pubarca isolada'],
     g: 'A',
     c: 'Hamartomas hipotalâmicos, gliomas e outras lesões. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Disforia de gênero',
     e: 'Adolescente com disforia de gênero persistente e intensa no início da puberdade. Sobre o cuidado, é correto afirmar:',
-    o: ['Exige acompanhamento por equipe multiprofissional especializada, com avaliação individualizada', 'Deve ser ignorado', 'É indicação de cirurgia imediata em menores', 'Deve ser tratado com punição'],
+    o: ['Equipe multiprofissional especializada, com avaliação individual', 'Deve ser ignorado, por ser fase passageira da adolescência', 'Indicação de cirurgia imediata, em menores de idade, sempre', 'Deve ser tratado com punição, em ambiente escolar e familiar'],
     g: 'A',
     c: 'As condutas seguem normas éticas e regulatórias vigentes no país. Referência: Conselho Federal de Medicina. Resolução CFM nº 2.427/2025.',
     x: { B: 'Inadequado.', C: 'Não é permitido em menores.', D: 'Inaceitável.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: alta estatura',
     e: 'Adolescente muito alto, com braços longos, aracnodactilia, ectopia do cristalino e dilatação de aorta. A hipótese é:',
-    o: ['Síndrome de Marfan', 'Klinefelter', 'Puberdade precoce', 'Turner'],
+    o: ['Síndrome de Marfan', 'Síndrome de Klinefelter, com testículos pequenos', 'Puberdade precoce, com avanço da idade óssea', 'Síndrome de Turner, com baixa estatura'],
     g: 'A',
     c: 'Exige ecocardiograma e acompanhamento da aorta. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem esses achados oculares e aórticos.', C: 'Causaria baixa estatura final.', D: 'Baixa estatura.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: hipogonadismo hipergonadotrófico',
     e: 'Hipogonadismo hipergonadotrófico significa:',
-    o: ['Falha gonadal primária, com FSH e LH elevados', 'Falha hipotalâmica com FSH e LH baixos', 'Excesso de testosterona', 'Puberdade precoce'],
+    o: ['Falha gonadal primária, com FSH e LH elevados', 'Falha hipotalâmica, com FSH e LH baixos', 'Excesso de testosterona, de origem tumoral', 'Puberdade precoce, com ativação do eixo'],
     g: 'A',
     c: 'Exemplos: Turner, Klinefelter, quimioterapia e radioterapia. Referência: Palmert MR, Dunkel L. Delayed puberty. N Engl J Med. 2012;366(5):443-53.',
     x: { B: 'É o hipogonadotrófico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Estatura-alvo',
     e: 'O cálculo da estatura-alvo familiar para um menino é:',
-    o: ['(Altura do pai + altura da mãe + 13) dividido por 2', '(Altura do pai + altura da mãe - 13) dividido por 2', 'Altura do pai apenas', 'Altura da mãe multiplicada por 2'],
+    o: ['(Pai + mãe + 13) dividido por 2', '(Pai + mãe − 13) dividido por 2', 'Altura do pai, apenas, em centímetros', 'Altura da mãe multiplicada por 2'],
     g: 'A',
     c: 'Para meninas, subtrai-se 13 cm. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Fórmula das meninas.', C: 'Incompleto.', D: 'Sem base.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade precoce: impacto',
     e: 'Uma preocupação psicossocial da puberdade precoce é:',
-    o: ['Exposição a assédio e dificuldades emocionais por desenvolvimento antecipado', 'Melhor desempenho esportivo sempre', 'Ausência de impacto', 'Maior altura final garantida'],
+    o: ['Exposição a assédio e dificuldades emocionais', 'Melhor desempenho esportivo, sempre', 'Ausência de impacto emocional, em todos', 'Maior altura final, garantida, em todos'],
     g: 'A',
     c: 'O acolhimento familiar e escolar é parte do cuidado. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Não é regra.', C: 'Há impacto.', D: 'Pode reduzir a altura final.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: menarca normal',
     e: 'A idade média da menarca no Brasil é de cerca de:',
-    o: ['12 a 13 anos', '9 anos', '16 anos', '18 anos'],
+    o: ['12 a 13 anos de idade', '9 a 10 anos de idade', '16 a 17 anos de idade', '18 a 19 anos de idade'],
     g: 'A',
     c: 'Varia com fatores genéticos e nutricionais. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Precoce.', C: 'Tardio.', D: 'Tardio.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_PUB: QuestaoCompacta[] = [
   {
     s: 'Puberdade: avaliação de puberdade precoce central',
     e: 'No teste de estímulo com GnRH ou análogo, a resposta que confirma puberdade precoce central é:',
-    o: ['Pico de LH acima do limite puberal do método', 'LH suprimido', 'FSH predominante com LH baixo sempre', 'Ausência de resposta'],
+    o: ['Pico de LH acima do limite puberal do método', 'LH suprimido, abaixo do limite do método', 'FSH predominante, com LH baixo, sempre', 'Ausência de resposta, de LH e de FSH'],
     g: 'A',
     c: 'Na forma periférica, o LH fica suprimido. Referência: Carel JC, Léger J. Precocious puberty. N Engl J Med. 2008;358(22):2366-77.',
     x: { B: 'Sugere periférica.', C: 'Padrão pré-puberal.', D: 'Sugere periférica ou pré-puberal.' },

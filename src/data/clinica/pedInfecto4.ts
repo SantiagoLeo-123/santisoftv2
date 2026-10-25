@@ -5,7 +5,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Sífilis congênita: mãe inadequadamente tratada',
     e: 'Recém-nascido a termo, assintomático, é filho de mãe com sífilis diagnosticada no pré-natal, que recebeu a última dose de penicilina benzatina 15 dias antes do parto. O VDRL materno é 1:16 e o do recém-nascido é 1:4. A conduta correta é:',
-    o: ['Considerar criança exposta e apenas acompanhar com VDRL seriado', 'Notificar como sífilis congênita, realizar hemograma, radiografia de ossos longos e líquor e tratar com penicilina conforme os resultados', 'Dispensar investigação, pois o título do recém-nascido é menor que o materno', 'Tratar com ceftriaxona em dose única'],
+    o: ['Considerar criança exposta e apenas acompanhar com VDRL seriado', 'Notificar sífilis congênita; hemograma, RX, líquor e penicilina', 'Dispensar investigação, pois o título do RN é menor que o materno', 'Tratar com ceftriaxona em dose única, por via intramuscular'],
     g: 'B',
     c: 'O tratamento materno só é considerado adequado quando feito com penicilina benzatina, em esquema completo para a fase clínica e iniciado até 30 dias antes do parto. Se qualquer desses requisitos falha, o recém-nascido é caso de sífilis congênita independentemente dos seus exames e sintomas, devendo ser notificado, investigado de forma completa e tratado.',
     x: { A: 'O seguimento sem tratamento só cabe ao filho de mãe adequadamente tratada.', C: 'O título baixo não exclui infecção quando a mãe foi inadequadamente tratada.', D: 'A ceftriaxona em dose única não é tratamento da sífilis congênita.' },
@@ -13,7 +13,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Sífilis: criança exposta',
     e: 'Recém-nascido assintomático, com exame físico normal, é filho de mãe tratada adequadamente para sífilis no segundo trimestre, com queda documentada dos títulos. O VDRL materno no parto é 1:2 e o do recém-nascido, colhido em sangue periférico, é 1:1. A conduta é:',
-    o: ['Penicilina cristalina por 10 dias', 'Considerar criança exposta à sífilis, sem necessidade de tratamento, com seguimento clínico e de teste não treponêmico', 'Punção lombar e radiografia de ossos longos obrigatórias', 'Penicilina procaína por 10 dias'],
+    o: ['Penicilina cristalina por 10 dias, por via intravenosa', 'Criança exposta, sem tratamento; seguimento clínico e VDRL', 'Punção lombar e radiografia de ossos longos obrigatórias', 'Penicilina procaína por 10 dias, por via intramuscular'],
     g: 'B',
     c: 'Quando a mãe foi adequadamente tratada, o recém-nascido tem exame físico normal e seu teste não treponêmico não é maior que o materno em duas diluições ou mais, ele é classificado como criança exposta. Os anticorpos detectados são IgG maternos transferidos pela placenta. Não se trata, mas o seguimento com teste não treponêmico é obrigatório para confirmar a queda dos títulos.',
     x: { A: 'A penicilina cristalina é reservada ao caso de sífilis congênita, sobretudo com neurossífilis.', C: 'A investigação invasiva não é necessária na criança exposta com exame normal.', D: 'Não há indicação de tratamento quando os critérios de criança exposta são preenchidos.' },
@@ -45,7 +45,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Toxoplasmose congênita: tratamento',
     e: 'Recém-nascido assintomático tem toxoplasmose congênita confirmada por IgM positiva e persistência de IgG, com mãe que apresentou soroconversão na gestação. A conduta terapêutica é:',
-    o: ['Apenas acompanhamento oftalmológico, pois a criança é assintomática', 'Sulfadiazina, pirimetamina e ácido folínico durante o primeiro ano de vida', 'Espiramicina por 3 meses', 'Aciclovir intravenoso por 21 dias'],
+    o: ['Apenas acompanhamento oftalmológico, pois é assintomática', 'Sulfadiazina, pirimetamina e ácido folínico por 1 ano', 'Espiramicina por 3 meses, em dose de manutenção', 'Aciclovir intravenoso por 21 dias, em dose alta'],
     g: 'B',
     c: 'Toda criança com toxoplasmose congênita confirmada deve ser tratada por 12 meses, mesmo assintomática, porque a maioria desenvolve sequelas tardias, especialmente coriorretinite com perda visual. A sulfadiazina e a pirimetamina bloqueiam em sequência a síntese de folato do parasita; o ácido folínico previne a mielotoxicidade da pirimetamina. Corticoide é associado se houver coriorretinite em atividade ou proteína liquórica muito elevada.',
     x: { A: 'A ausência de sintomas ao nascer não dispensa o tratamento, pois as sequelas são tardias.', C: 'A espiramicina é usada na gestante e não trata a infecção fetal ou neonatal estabelecida.', D: 'O aciclovir é antiviral e não tem ação contra o Toxoplasma gondii.' },
@@ -53,7 +53,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Citomegalovirose congênita',
     e: 'Recém-nascido pequeno para a idade gestacional apresenta microcefalia, petéquias, icterícia com aumento de bilirrubina direta e hepatoesplenomegalia. A tomografia de crânio mostra calcificações periventriculares. O exame que confirma a etiologia e a sequela mais frequente são:',
-    o: ['Sorologia IgG no recém-nascido; cegueira', 'PCR para citomegalovírus em urina ou saliva nas primeiras 3 semanas de vida; surdez neurossensorial', 'VDRL em sangue periférico; deformidades ósseas', 'Sorologia para toxoplasmose; hidrocefalia'],
+    o: ['Sorologia IgG no recém-nascido; cegueira cortical', 'PCR de CMV em urina ou saliva em 3 semanas; surdez', 'VDRL em sangue periférico; deformidades ósseas graves', 'Sorologia para toxoplasmose; hidrocefalia obstrutiva'],
     g: 'B',
     c: 'O citomegalovírus é a infecção congênita mais comum e a principal causa infecciosa de surdez neurossensorial na infância, que pode ser progressiva e surgir mesmo em crianças assintomáticas ao nascer. O vírus tem tropismo pela matriz germinativa periventricular, daí a localização das calcificações. A detecção viral deve ocorrer nas primeiras 3 semanas, pois depois disso não distingue infecção congênita de adquirida no parto ou pelo leite.',
     x: { A: 'A IgG do recém-nascido reflete anticorpos maternos e não confirma infecção.', C: 'O VDRL investiga sífilis, que não causa calcificações periventriculares.', D: 'As calcificações da toxoplasmose são difusas e associam-se a hidrocefalia.' },
@@ -61,7 +61,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Herpes neonatal',
     e: 'Recém-nascido de 10 dias, nascido de parto vaginal, apresenta febre, hipoatividade, recusa alimentar e crises convulsivas. Há vesículas agrupadas sobre base eritematosa no couro cabeludo. A mãe não refere lesões genitais. A conduta é:',
-    o: ['Aciclovir tópico nas lesões e observação', 'Aciclovir intravenoso imediato, com coleta de PCR para herpes simples em líquor e sangue', 'Ampicilina e gentamicina apenas, pois a mãe não tem história de herpes', 'Aguardar a cultura das vesículas para decidir o tratamento'],
+    o: ['Aciclovir tópico nas lesões e observação', 'Aciclovir IV imediato, com PCR de herpes simples em líquor e sangue', 'Ampicilina e gentamicina apenas, pois a mãe não tem história de herpes', 'Aguardar a cultura das vesículas para decidir o tratamento'],
     g: 'B',
     c: 'O herpes neonatal é adquirido principalmente durante a passagem pelo canal de parto, e a maioria das mães não tem lesões nem história conhecida da doença. Manifesta-se entre a primeira e a terceira semana de vida nas formas localizada (pele, olhos e boca), do sistema nervoso central ou disseminada. A letalidade e as sequelas são altas sem tratamento, e o aciclovir intravenoso deve ser iniciado na suspeita.',
     x: { A: 'O tratamento tópico é ineficaz diante do risco de doença neurológica e disseminada.', C: 'A ausência de história materna não exclui herpes neonatal, que é o habitual.', D: 'Aguardar exames atrasa um tratamento cuja precocidade define o prognóstico.' },
@@ -69,7 +69,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Exposição ao HIV: baixo risco',
     e: 'Recém-nascido a termo é filho de mãe vivendo com HIV, em uso regular de terapia antirretroviral desde antes da gestação e com carga viral indetectável no terceiro trimestre. A profilaxia antirretroviral indicada para a criança é:',
-    o: ['Nenhuma, pois a carga viral materna é indetectável', 'Zidovudina oral iniciada nas primeiras 4 horas de vida e mantida por 28 dias', 'Zidovudina, lamivudina e raltegravir por 28 dias', 'Nevirapina em dose única'],
+    o: ['Nenhuma, pois a carga viral materna é indetectável', 'Zidovudina oral nas primeiras 4 horas e mantida por 28 dias', 'Zidovudina, lamivudina e raltegravir por 28 dias', 'Nevirapina em dose única, após o nascimento'],
     g: 'B',
     c: 'Todo recém-nascido exposto ao HIV recebe profilaxia antirretroviral, iniciada o mais cedo possível, de preferência ainda na sala de parto ou nas primeiras 4 horas. Quando a mãe usou terapia antirretroviral com boa adesão e tem carga viral indetectável no terceiro trimestre, a exposição é de baixo risco e usa-se apenas zidovudina por 28 dias.',
     x: { A: 'A profilaxia é indicada a todos os expostos, mesmo com carga viral materna indetectável.', C: 'O esquema triplo é reservado às situações de alto risco de transmissão.', D: 'A nevirapina em dose única não é o esquema preconizado para o baixo risco.' },
@@ -85,7 +85,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'HIV e aleitamento',
     e: 'Puérpera vivendo com HIV, com carga viral indetectável, pergunta sobre a alimentação do seu recém-nascido. A orientação preconizada no Brasil é:',
-    o: ['Aleitamento materno exclusivo, pois a carga viral é indetectável', 'Contraindicar o aleitamento materno, inibir a lactação e fornecer fórmula láctea infantil', 'Aleitamento misto até os 6 meses', 'Oferecer leite de outra nutriz da família (aleitamento cruzado)'],
+    o: ['Aleitamento materno exclusivo, pois a carga viral é indetectável', 'Contraindicar o aleitamento, inibir a lactação e dar fórmula', 'Aleitamento misto até os 6 meses de vida', 'Oferecer leite de outra nutriz da família'],
     g: 'B',
     c: 'O HIV é transmitido pelo leite materno, e o aleitamento acrescenta risco de transmissão a cada mamada. Como há alternativa segura e gratuita, no Brasil a amamentação é contraindicada para mulheres vivendo com HIV, mesmo com carga viral indetectável: inibe-se a lactação com cabergolina e fornece-se fórmula infantil. O aleitamento cruzado é proscrito para todas as crianças.',
     x: { A: 'A carga viral indetectável reduz, mas não elimina, o risco pela amamentação.', C: 'O aleitamento misto associa-se ao maior risco de transmissão.', D: 'O aleitamento cruzado é contraindicado pelo risco de transmissão de infecções.' },
@@ -93,7 +93,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'HIV: diagnóstico na criança exposta',
     e: 'Para definir se um lactente de 4 meses, exposto verticalmente ao HIV, está infectado, o exame adequado é:',
-    o: ['Sorologia anti-HIV por ELISA', 'Carga viral (RNA do HIV), confirmada em segunda amostra se detectável', 'Teste rápido em duas marcas diferentes', 'Contagem de linfócitos T CD4'],
+    o: ['Sorologia anti-HIV por ELISA, em sangue periférico', 'Carga viral (RNA do HIV), confirmada em 2ª amostra', 'Teste rápido em duas marcas diferentes, em sequência', 'Contagem de linfócitos T CD4, em sangue periférico'],
     g: 'B',
     c: 'A IgG materna anti-HIV atravessa a placenta e pode persistir na criança até os 18 meses, de modo que testes de anticorpos são reagentes em todos os expostos e não distinguem os infectados. Antes dessa idade o diagnóstico depende de métodos moleculares que detectam o vírus: duas cargas virais detectáveis confirmam a infecção. A sorologia aos 18 meses documenta a perda dos anticorpos maternos.',
     x: { A: 'A sorologia detecta anticorpos maternos e é reagente em todo lactente exposto.', C: 'Os testes rápidos também detectam anticorpos e têm a mesma limitação.', D: 'O CD4 avalia a imunidade, mas não faz o diagnóstico da infecção.' },
@@ -101,7 +101,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose',
     e: 'Lactente de 4 meses, filho de mãe sem pré-natal, apresenta tosse seca, taquipneia progressiva e hipoxemia importante, com ausculta pulmonar pouco alterada e sem febre alta. Tem candidíase oral persistente e baixo ganho de peso. Radiografia com infiltrado intersticial bilateral difuso e desidrogenase lática muito elevada. O diagnóstico mais provável e o tratamento são:',
-    o: ['Bronquiolite viral; suporte com oxigênio', 'Pneumonia por Pneumocystis jirovecii em criança com provável infecção pelo HIV; sulfametoxazol-trimetoprima', 'Coqueluche; azitromicina', 'Pneumonia afebril por clamídia; eritromicina'],
+    o: ['Bronquiolite viral; suporte com oxigênio e hidratação', 'Pneumocistose, provável HIV; sulfametoxazol-trimetoprima', 'Coqueluche; azitromicina por 5 dias, por via oral', 'Pneumonia afebril por clamídia; eritromicina por 14 dias'],
     g: 'B',
     c: 'A pneumocistose é a infecção oportunista mais característica do lactente infectado pelo HIV, com pico entre 3 e 6 meses. Hipoxemia desproporcional à ausculta, infiltrado intersticial difuso e desidrogenase lática elevada são sugestivos. Por isso todo lactente exposto recebe profilaxia com sulfametoxazol-trimetoprima a partir de 4 semanas de vida até que a infecção seja excluída.',
     x: { A: 'A bronquiolite não explica a candidíase persistente nem a desidrogenase lática elevada.', C: 'A coqueluche cursa com tosse paroxística e radiografia pouco alterada.', D: 'A pneumonia por clamídia tem hipoxemia leve, conjuntivite prévia e eosinofilia.' },
@@ -109,7 +109,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Hepatite B perinatal',
     e: 'Recém-nascido a termo é filho de mãe com HBsAg reagente. A conduta para prevenir a transmissão vertical e a orientação sobre o aleitamento são:',
-    o: ['Vacina contra hepatite B com 1 mês de vida; suspender o aleitamento', 'Vacina e imunoglobulina humana anti-hepatite B nas primeiras 12 horas de vida, em locais diferentes; aleitamento materno liberado', 'Apenas imunoglobulina ao nascer; aleitamento contraindicado', 'Apenas vacina ao nascer; indicar cesariana em futuras gestações'],
+    o: ['Vacina com 1 mês de vida; suspender o aleitamento', 'Vacina e imunoglobulina anti-HB em 12 horas; aleitamento liberado', 'Apenas imunoglobulina ao nascer; aleitamento contraindicado', 'Apenas vacina ao nascer; cesariana em futuras gestações'],
     g: 'B',
     c: 'A transmissão ocorre principalmente no momento do parto, e a infecção adquirida nessa fase cronifica em cerca de 90 por cento dos casos. A associação de imunização ativa e passiva nas primeiras 12 horas de vida previne a grande maioria das infecções. Com a imunoprofilaxia realizada, o aleitamento materno não aumenta o risco e deve ser mantido.',
     x: { A: 'O atraso da vacina perde a janela de proteção, e o aleitamento não é contraindicado.', C: 'A imunoglobulina isolada não confere proteção duradoura sem a vacina.', D: 'A vacina isolada é menos eficaz, e a cesariana não é indicada por esse motivo.' },
@@ -125,7 +125,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Tuberculose: esquema na criança',
     e: 'O esquema básico de tratamento da tuberculose pulmonar em crianças menores de 10 anos, segundo o Ministério da Saúde, é:',
-    o: ['Rifampicina, isoniazida, pirazinamida e etambutol por 2 meses, seguidos de rifampicina e isoniazida por 4 meses', 'Rifampicina, isoniazida e pirazinamida por 2 meses, seguidas de rifampicina e isoniazida por 4 meses', 'Isoniazida isolada por 6 meses', 'Rifampicina e etambutol por 9 meses'],
+    o: ['Rifampicina, isoniazida, pirazinamida e etambutol por 2 meses; depois RH por 4', 'Rifampicina, isoniazida e pirazinamida por 2 meses; depois RH por 4', 'Isoniazida isolada por 6 meses, em dose diária', 'Rifampicina e etambutol por 9 meses, em dose diária'],
     g: 'B',
     c: 'Em menores de 10 anos o esquema básico não inclui o etambutol, porque a neurite óptica, seu principal efeito adverso, é difícil de monitorar em crianças pequenas, que não conseguem relatar alterações visuais ou de percepção de cores. Usam-se três drogas na fase intensiva de 2 meses e duas na fase de manutenção de 4 meses.',
     x: { A: 'O esquema com etambutol é o de adolescentes a partir de 10 anos e de adultos.', C: 'A isoniazida isolada trata a infecção latente, não a doença ativa.', D: 'Esse esquema não existe e omitiria as drogas mais importantes.' },
@@ -141,7 +141,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Recém-nascido coabitante de bacilífero',
     e: 'Recém-nascido saudável receberá alta para um domicílio onde a mãe iniciou tratamento para tuberculose pulmonar bacilífera há 5 dias. A conduta correta é:',
-    o: ['Aplicar a BCG ao nascer e suspender o aleitamento materno', 'Não aplicar a BCG, iniciar quimioprofilaxia primária por 3 meses e então realizar a prova tuberculínica; manter o aleitamento com uso de máscara pela mãe', 'Aplicar a BCG e iniciar esquema tríplice', 'Separar a criança da mãe por 6 meses, sem medicação'],
+    o: ['BCG ao nascer e suspender o aleitamento materno', 'Sem BCG; quimioprofilaxia por 3 meses e prova tuberculínica', 'BCG ao nascer e iniciar esquema tríplice completo', 'Separar da mãe por 6 meses, sem nenhuma medicação'],
     g: 'B',
     c: 'O recém-nascido coabitante de caso bacilífero não recebe a BCG de imediato, pois a quimioprofilaxia inativaria o bacilo vacinal. Inicia-se isoniazida ou rifampicina por 3 meses e faz-se a prova tuberculínica: se menor que 5 mm, suspende-se o medicamento e vacina-se; se 5 mm ou mais, completa-se o tratamento e não se vacina. O aleitamento é mantido, pois o bacilo não é transmitido pelo leite, com a mãe usando máscara.',
     x: { A: 'A BCG é adiada, e o aleitamento não deve ser suspenso.', C: 'O esquema tríplice é reservado à doença ativa, que precisa ser investigada antes.', D: 'A separação prolongada não é indicada e prejudica o vínculo e a amamentação.' },
@@ -149,7 +149,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Impetigo crostoso',
     e: 'Pré-escolar de 4 anos apresenta, há 5 dias, três lesões ao redor das narinas e do lábio superior, que começaram como vesículas e evoluíram para crostas espessas amareladas, cor de mel. Não há febre. O diagnóstico e o tratamento adequado são:',
-    o: ['Herpes simples labial; aciclovir oral', 'Impetigo crostoso; higiene local com remoção das crostas e antibiótico tópico, como mupirocina', 'Dermatite seborreica; corticoide tópico', 'Tinha da face; antifúngico tópico'],
+    o: ['Herpes simples labial; aciclovir por via oral', 'Impetigo crostoso; remover crostas e usar mupirocina tópica', 'Dermatite seborreica; corticoide tópico de baixa potência', 'Tinha da face; antifúngico tópico por 4 semanas'],
     g: 'B',
     c: 'O impetigo crostoso é infecção superficial da epiderme causada por Staphylococcus aureus e Streptococcus pyogenes, com as típicas crostas melicéricas, mais comum na face e em áreas expostas. Nas formas localizadas o tratamento tópico é suficiente; o antibiótico oral é reservado a lesões numerosas ou extensas. O tratamento não previne a glomerulonefrite pós-estreptocócica.',
     x: { A: 'O herpes labial forma vesículas agrupadas dolorosas e recorrentes, sem crostas melicéricas.', C: 'A dermatite seborreica tem escamas gordurosas, sem vesículas ou crostas cor de mel.', D: 'A tinha forma placa anular com borda ativa descamativa e centro claro.' },
@@ -157,7 +157,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome da pele escaldada',
     e: 'Lactente de 10 meses apresenta febre, irritabilidade e eritema difuso doloroso, mais intenso em dobras, que evolui com bolhas flácidas e descolamento da pele em lâminas à fricção leve. Há crostas e fissuras radiadas ao redor da boca, sem lesões em mucosa oral. O mecanismo da doença e o tratamento são:',
-    o: ['Reação de hipersensibilidade a fármaco com necrose de toda a epiderme; suspensão do fármaco e imunoglobulina', 'Toxinas esfoliativas do Staphylococcus aureus que clivam a desmogleína 1 na camada granulosa; oxacilina intravenosa e cuidados com a pele', 'Infecção viral por herpes simples disseminado; aciclovir', 'Toxina eritrogênica do estreptococo; penicilina benzatina'],
+    o: ['Hipersensibilidade a fármaco, com necrose epidérmica; imunoglobulina', 'Toxina esfoliativa do S. aureus (desmogleína 1); oxacilina IV', 'Herpes simples disseminado; aciclovir intravenoso', 'Toxina eritrogênica do estreptococo; penicilina benzatina'],
     g: 'B',
     c: 'Na síndrome da pele escaldada estafilocócica, toxinas esfoliativas produzidas em um foco à distância (nasofaringe, conjuntiva, coto umbilical) disseminam-se pelo sangue e clivam a desmogleína 1, separando a epiderme na camada granulosa. Por isso o sinal de Nikolsky é positivo, as bolhas são estéreis e as mucosas são poupadas, já que nelas predomina a desmogleína 3. A clivagem superficial explica a cicatrização sem sequelas.',
     x: { A: 'Na necrólise epidérmica tóxica há acometimento de mucosas e necrose de toda a epiderme.', C: 'O herpes disseminado forma vesículas agrupadas, sem descolamento em lâminas.', D: 'A escarlatina causa exantema em lixa com descamação tardia, sem bolhas.' },
@@ -165,7 +165,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Escabiose',
     e: 'Lactente de 8 meses apresenta pápulas e vesículas muito pruriginosas em palmas, plantas, axilas e couro cabeludo, com piora à noite e irritabilidade. A mãe e um irmão têm prurido noturno e lesões entre os dedos das mãos e nos punhos. O tratamento adequado é:',
-    o: ['Corticoide tópico de alta potência apenas na criança', 'Permetrina a 5 por cento na criança e em todos os contactantes domiciliares, simultaneamente, com repetição em uma semana', 'Antifúngico tópico por 4 semanas', 'Anti-histamínico oral isolado'],
+    o: ['Corticoide tópico de alta potência apenas na criança', 'Permetrina 5% em toda a família, repetindo em 1 semana', 'Antifúngico tópico por 4 semanas, nas lesões', 'Anti-histamínico oral isolado, sem tratamento tópico'],
     g: 'B',
     c: 'A escabiose é causada pelo Sarcoptes scabiei, cuja fêmea escava túneis na camada córnea; o prurido noturno decorre de hipersensibilidade ao ácaro e a seus produtos. No lactente as lesões acometem também palmas, plantas, face e couro cabeludo, áreas poupadas no adulto. A permetrina a 5 por cento é a escolha a partir dos 2 meses, e o tratamento simultâneo de todos os conviventes, mesmo assintomáticos, evita a reinfestação.',
     x: { A: 'O corticoide alivia o prurido, mas não elimina o ácaro e mascara o quadro.', C: 'Não se trata de micose; o quadro familiar e o prurido noturno indicam escabiose.', D: 'O anti-histamínico é apenas sintomático e não trata a infestação.' },
@@ -173,7 +173,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Tinha do couro cabeludo',
     e: 'Menino de 6 anos apresenta, há 1 mês, placa arredondada de alopecia no couro cabeludo, com descamação e cabelos quebrados rente à pele (tonsurados). Convive com um gato filhote. O tratamento de escolha é:',
-    o: ['Cetoconazol em xampu como tratamento único', 'Antifúngico sistêmico, como a griseofulvina, por várias semanas', 'Corticoide intralesional', 'Mupirocina tópica por 7 dias'],
+    o: ['Cetoconazol em xampu como tratamento único', 'Antifúngico sistêmico, como griseofulvina, por semanas', 'Corticoide intralesional, em dose única', 'Mupirocina tópica por 7 dias nas lesões'],
     g: 'B',
     c: 'A tinha do couro cabeludo é a dermatofitose típica da infância, causada por Microsporum canis ou Trichophyton tonsurans. Como o fungo parasita a haste e o folículo piloso, os antifúngicos tópicos não atingem concentração suficiente, e o tratamento precisa ser sistêmico e prolongado. O xampu antifúngico é apenas adjuvante para reduzir a transmissão.',
     x: { A: 'O tratamento tópico isolado não penetra no folículo piloso e falha.', C: 'O corticoide intralesional é usado na alopecia areata, que não descama.', D: 'A mupirocina é antibacteriana e não tem ação sobre dermatófitos.' },
@@ -181,7 +181,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Osteomielite hematogênica aguda',
     e: 'Menino de 7 anos apresenta febre há 3 dias, dor intensa na região distal da coxa direita e recusa em apoiar o membro. Há dor à palpação da metáfise distal do fêmur, com calor local e sem derrame articular. Leucocitose, PCR e VHS elevadas; a radiografia do fêmur é normal. A interpretação e a conduta corretas são:',
-    o: ['A radiografia normal exclui osteomielite; prescrever anti-inflamatório', 'O quadro é compatível com osteomielite aguda, pois a radiografia só se altera após 10 a 14 dias; colher hemocultura e iniciar antibiótico antiestafilocócico intravenoso', 'Trata-se de tumor ósseo; solicitar biópsia', 'Dor de crescimento; orientar a família'],
+    o: ['RX normal exclui osteomielite; dar anti-inflamatório e observar', 'Osteomielite aguda: RX só altera em 10-14 dias; hemocultura e antibiótico', 'Tumor ósseo; solicitar biópsia óssea imediata, sem culturas', 'Dor de crescimento; orientar a família e tranquilizar sobre o quadro'],
     g: 'B',
     c: 'Na criança a osteomielite é hematogênica e acomete a metáfise dos ossos longos, onde o fluxo lento nos sinusoides venosos favorece a implantação bacteriana. O Staphylococcus aureus é o principal agente. As alterações ósseas radiográficas surgem apenas após 10 a 14 dias, de modo que a radiografia inicial normal não afasta o diagnóstico; a ressonância magnética é o exame mais sensível na fase precoce.',
     x: { A: 'A radiografia normal é esperada na fase inicial e não exclui a doença.', C: 'O quadro febril agudo com provas inflamatórias elevadas indica infecção.', D: 'A dor de crescimento é bilateral, noturna, sem febre nem sinais inflamatórios.' },
@@ -189,7 +189,7 @@ export const PED_INFECTO_4: QuestaoCompacta[] = [
   {
     s: 'Artrite séptica de quadril',
     e: 'Menina de 3 anos apresenta febre de 39 °C há 2 dias e recusa-se a andar. Mantém o membro inferior esquerdo em flexão, abdução e rotação externa, com dor intensa a qualquer mobilização do quadril. Leucócitos de 18.000/mm³ e VHS de 70 mm. A ultrassonografia mostra derrame articular. A conduta é:',
-    o: ['Repouso e anti-inflamatório, com reavaliação em 7 dias', 'Punção e drenagem cirúrgica de urgência, com antibioticoterapia intravenosa', 'Antibiótico oral ambulatorial', 'Tração cutânea e fisioterapia'],
+    o: ['Repouso e anti-inflamatório, com reavaliação em 7 dias', 'Punção e drenagem cirúrgica urgente, com antibiótico IV', 'Antibiótico oral ambulatorial, com retorno em 7 dias', 'Tração cutânea e fisioterapia motora precoce'],
     g: 'B',
     c: 'A artrite séptica do quadril é urgência ortopédica: o pus sob pressão compromete a irrigação da cabeça femoral e as enzimas destroem a cartilagem em poucos dias, com risco de necrose e sequelas definitivas. A posição antálgica em flexão, abdução e rotação externa aumenta o volume da cápsula. Febre, recusa em apoiar o membro, leucocitose e VHS elevada (critérios de Kocher) tornam o diagnóstico muito provável.',
     x: { A: 'Essa conduta cabe à sinovite transitória, que não tem febre alta nem VHS tão elevada.', C: 'O tratamento ambulatorial sem drenagem leva à destruição articular.', D: 'Tração e fisioterapia não tratam a infecção e atrasam a drenagem.' },

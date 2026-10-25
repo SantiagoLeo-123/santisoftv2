@@ -5,7 +5,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento: recomendação',
     e: 'O Ministério da Saúde e a OMS recomendam:',
-    o: ['Aleitamento materno exclusivo até 6 meses e complementado até 2 anos ou mais', 'Aleitamento exclusivo até 3 meses', 'Desmame aos 6 meses', 'Água e chás desde o primeiro mês'],
+    o: ['Exclusivo até 6 meses; complementado até 2 anos', 'Exclusivo apenas até 3 meses de vida, e depois fórmula', 'Desmame total aos 6 meses, com início de papas', 'Água e chás desde o primeiro mês de vida'],
     g: 'A',
     c: 'O aleitamento exclusivo não inclui água, chás ou outros leites. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Insuficiente.', C: 'Precoce.', D: 'Não recomendado.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Pega correta',
     e: 'São sinais de pega correta:',
-    o: ['Boca bem aberta, lábio inferior virado para fora, queixo tocando a mama e mais aréola visível acima da boca', 'Bochechas encovadas e estalos', 'Boca pouco aberta pegando só o mamilo', 'Dor intensa na mama'],
+    o: ['Boca bem aberta, lábio inferior evertido e queixo na mama', 'Bochechas encovadas a cada sucção e estalos de língua', 'Boca pouco aberta, pegando só o mamilo da mãe', 'Dor intensa na mama durante toda a mamada'],
     g: 'A',
     c: 'A pega incorreta causa fissuras e baixa transferência de leite. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Sinais de pega inadequada.', C: 'Pega inadequada.', D: 'Sinal de problema.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Ingurgitamento',
     e: 'Puérpera com mamas cheias, duras e dolorosas no terceiro dia. A conduta é:',
-    o: ['Amamentar com frequência, massagear e fazer ordenha de alívio', 'Suspender a amamentação', 'Restringir líquidos', 'Antibiótico'],
+    o: ['Amamentar com frequência, massagear e ordenhar o excesso', 'Suspender a amamentação até a mama amolecer por completo', 'Restringir a ingestão de líquidos, para reduzir a produção', 'Iniciar antibiótico oral de imediato, por sete dias'],
     g: 'A',
     c: 'O ingurgitamento é fisiológico na apojadura. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Piora.', C: 'Sem efeito.', D: 'Sem infecção.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Mastite',
     e: 'Puérpera com febre, dor e hiperemia em quadrante da mama. A amamentação:',
-    o: ['Deve ser mantida, inclusive na mama afetada', 'Deve ser suspensa', 'Só pode ser feita na mama sadia', 'Deve ser substituída por fórmula'],
+    o: ['Deve ser mantida, inclusive na mama afetada', 'Deve ser suspensa até o fim do antibiótico', 'Só pode ser feita na mama sadia', 'Deve ser substituída por fórmula infantil'],
     g: 'A',
     c: 'O esvaziamento ajuda no tratamento. O antibiótico cobre estafilococo. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Pioraria.', C: 'Pode amamentar na afetada.', D: 'Sem indicação.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Medicamentos e amamentação',
     e: 'Nutriz deprimida pergunta se pode usar sertralina. A orientação é:',
-    o: ['A sertralina é compatível com a amamentação', 'Deve suspender a amamentação', 'Nenhum antidepressivo é permitido', 'Deve tomar só após desmame'],
+    o: ['A sertralina é compatível com a amamentação', 'Deve suspender a amamentação para usá-la', 'Nenhum antidepressivo é permitido na lactação', 'Deve tomá-la somente depois do desmame'],
     g: 'A',
     c: 'A maioria dos medicamentos é compatível; consultar fontes como o manual do MS. Referência: Brasil. Ministério da Saúde. Amamentação e uso de medicamentos e outras substâncias. 2ª ed. Brasília: MS, 2010.',
     x: { B: 'Sem necessidade.', C: 'Afirmativa falsa.', D: 'Sem necessidade.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Leite materno: composição',
     e: 'O colostro é rico em:',
-    o: ['Imunoglobulina A secretória, proteínas e células de defesa', 'Gordura, sendo pobre em proteínas', 'Lactose em excesso', 'Ferro em grande quantidade'],
+    o: ['IgA secretória, proteínas e células de defesa', 'Gordura, sendo pobre em proteínas e anticorpos', 'Lactose em excesso, com poucas defesas', 'Ferro em grande quantidade, sem imunoglobulinas'],
     g: 'A',
     c: 'O leite posterior da mamada é mais rico em gordura. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'O oposto.', C: 'Não é a característica.', D: 'Não é a característica.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Leite materno: anterior e posterior',
     e: 'A orientação de deixar o bebê esvaziar uma mama antes de oferecer a outra se deve a:',
-    o: ['O leite do fim da mamada (posterior) ser mais rico em gordura e calorias', 'O leite anterior ser tóxico', 'Não haver diferença', 'O leite posterior ter menos gordura'],
+    o: ['O leite do fim da mamada é mais rico em gordura e calorias', 'O leite anterior é tóxico para o lactente', 'Não há diferença entre o início e o fim', 'O leite posterior tem menos gordura que o anterior'],
     g: 'A',
     c: 'Garante saciedade e ganho de peso. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Afirmativa falsa.', C: 'Há diferença.', D: 'O oposto.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Hipogalactia',
     e: 'A principal causa de pouco leite é:',
-    o: ['Esvaziamento insuficiente da mama por pega inadequada ou mamadas pouco frequentes', 'Mama pequena', 'Mãe magra', 'Leite fraco'],
+    o: ['Esvaziamento insuficiente por pega ruim ou mamadas raras', 'Mama pequena, com pouco tecido glandular funcionante', 'Mãe magra, sem reserva de gordura para o leite', 'Leite fraco, com baixo valor nutricional para o bebê'],
     g: 'A',
     c: 'A produção depende da demanda. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Não determina produção.', C: 'Não determina.', D: 'Mito.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Alimentação complementar',
     e: 'Sobre a consistência dos alimentos aos 6 meses, é correto:',
-    o: ['Oferecer amassados com garfo, evoluindo para pedaços, sem liquidificar', 'Oferecer apenas sopas ralas e sucos', 'Liquidificar tudo', 'Só oferecer papinhas industrializadas'],
+    o: ['Oferecer amassados com garfo, evoluindo para pedaços', 'Oferecer apenas sopas ralas e sucos coados', 'Liquidificar todos os alimentos da refeição', 'Oferecer só papinhas industrializadas prontas'],
     g: 'A',
     c: 'Aos 12 meses, a criança pode comer a comida da família. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Pouca densidade energética.', C: 'Prejudica a mastigação.', D: 'Não recomendado.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Mel',
     e: 'O mel não deve ser oferecido a crianças menores de 1 ano pelo risco de:',
-    o: ['Botulismo infantil', 'Diabetes', 'Cárie apenas', 'Anemia'],
+    o: ['Botulismo infantil', 'Diabetes mellitus tipo 1', 'Cárie dentária, apenas', 'Anemia ferropriva, por pouco ferro'],
     g: 'A',
     c: 'Esporos de Clostridium botulinum podem colonizar o intestino imaturo. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Sem relação.', C: 'Não é o principal.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Leite de vaca',
     e: 'O leite de vaca integral não deve ser oferecido antes de 1 ano porque:',
-    o: ['Tem excesso de proteínas e sódio, pouco ferro e associa-se a anemia e alergia', 'É mais nutritivo que o leite materno', 'Previne anemia', 'É recomendado desde o nascimento'],
+    o: ['Excesso de proteínas e sódio, pouco ferro; anemia e alergia', 'É mais nutritivo que o leite materno em todos os nutrientes', 'Previne a anemia, por ser rico em ferro bem absorvido', 'É recomendado desde o nascimento, por ser mais barato'],
     g: 'A',
     c: 'Na impossibilidade do aleitamento, usa-se fórmula infantil. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Afirmativa falsa.', C: 'O oposto.', D: 'Não é recomendado.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento: benefícios',
     e: 'Benefício do aleitamento materno para a criança é:',
-    o: ['Redução de diarreia, infecções respiratórias, otites e mortalidade infantil', 'Aumento de alergias', 'Menor desenvolvimento cognitivo', 'Maior risco de obesidade'],
+    o: ['Menos diarreia, infecções respiratórias, otites e mortalidade', 'Mais alergias e infecções respiratórias nos primeiros anos', 'Pior desenvolvimento cognitivo no longo prazo da vida', 'Maior risco de obesidade na vida adulta da criança'],
     g: 'A',
     c: 'Também protege contra obesidade e diabetes no futuro. Referência: Victora CG et al. Breastfeeding in the 21st century: epidemiology, mechanisms, and lifelong effect. Lancet. 2016;387(10017):475-90.',
     x: { B: 'O oposto.', C: 'O oposto.', D: 'O oposto.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento: benefícios maternos',
     e: 'Benefício do aleitamento materno para a mãe é:',
-    o: ['Redução do risco de câncer de mama e ovário e de diabetes tipo 2', 'Aumento do risco de câncer', 'Maior sangramento pós-parto', 'Nenhum'],
+    o: ['Menor risco de câncer de mama e ovário e de diabetes tipo 2', 'Aumento do risco de câncer de mama e ovário', 'Maior sangramento no pós-parto imediato', 'Nenhum benefício comprovado para a saúde da mãe'],
     g: 'A',
     c: 'Também favorece a involução uterina. Referência: Victora CG et al. Lancet. 2016;387(10017):475-90.',
     x: { B: 'O oposto.', C: 'O oposto.', D: 'Há benefícios.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Ordenha e armazenamento',
     e: 'O leite materno ordenhado pode ser armazenado na geladeira por até:',
-    o: ['12 horas', '7 dias', '1 mês', '1 hora'],
+    o: ['Até 12 horas', 'Até 7 dias na geladeira', 'Até 1 mês na geladeira', 'Até 1 hora na geladeira'],
     g: 'A',
     c: 'No congelador ou freezer, até 15 dias. Referência: Brasil. Ministério da Saúde. Cartilha para a mulher trabalhadora que amamenta. Brasília: MS, 2015.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Insuficiente.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Leite ordenhado: descongelamento',
     e: 'O leite materno congelado deve ser descongelado:',
-    o: ['Em banho-maria fora do fogo, sem micro-ondas', 'No micro-ondas', 'Fervendo', 'Em temperatura ambiente por 24 horas'],
+    o: ['Em banho-maria fora do fogo, sem micro-ondas', 'No micro-ondas, por 30 segundos', 'Fervendo o leite por cinco minutos', 'Em temperatura ambiente por 24 horas'],
     g: 'A',
     c: 'O micro-ondas aquece de forma irregular e destrói componentes. Referência: Brasil. Ministério da Saúde. Cartilha para a mulher trabalhadora que amamenta. Brasília: MS, 2015.',
     x: { B: 'Contraindicado.', C: 'Destrói componentes.', D: 'Risco de contaminação.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Direitos',
     e: 'A licença-maternidade garantida pela CLT é de:',
-    o: ['120 dias, podendo chegar a 180 dias em empresas do Programa Empresa Cidadã', '30 dias', '1 ano', '15 dias'],
+    o: ['120 dias, até 180 no Programa Empresa Cidadã', '30 dias, com extensão de 15 dias', '1 ano completo, em qualquer empresa', '15 dias, apenas para mães de prematuros'],
     g: 'A',
     c: 'Também há direito a dois intervalos de 30 minutos para amamentar até 6 meses. Referência: Brasil. Lei nº 11.770, de 9 de setembro de 2008.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Insuficiente.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Bicos artificiais',
     e: 'O uso de chupetas e mamadeiras nos primeiros meses:',
-    o: ['Pode prejudicar o aleitamento por confusão de bicos e redução das mamadas', 'Melhora o aleitamento', 'Não interfere', 'É recomendado pela OMS'],
+    o: ['Pode prejudicar o aleitamento, por confusão de bicos', 'Melhora o aleitamento e o ganho de peso', 'Não interfere no aleitamento materno', 'É recomendado pela OMS desde a maternidade'],
     g: 'A',
     c: 'Está entre os Dez Passos da Iniciativa Hospital Amigo da Criança. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'O oposto.', C: 'Interfere.', D: 'Não é recomendado.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Livre demanda',
     e: 'A orientação sobre horários de mamada nos primeiros meses é:',
-    o: ['Livre demanda, sem horários rígidos', 'A cada 4 horas exatas', 'Somente 3 vezes por dia', 'Apenas de dia'],
+    o: ['Livre demanda, sem horários rígidos', 'A cada 4 horas exatas, sem exceção', 'Somente 3 vezes por dia, em horários fixos', 'Apenas durante o dia, sem mamadas noturnas'],
     g: 'A',
     c: 'Recém-nascidos mamam 8 a 12 vezes por dia. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Rígido demais.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Ganho de peso',
     e: 'Recém-nascido em aleitamento exclusivo deve recuperar o peso de nascimento até:',
-    o: ['10 a 14 dias de vida', '30 dias', '3 meses', '2 dias'],
+    o: ['10 a 14 dias de vida', '30 dias de vida, no mínimo', '3 meses de vida, no mínimo', '2 dias de vida, no máximo'],
     g: 'A',
     c: 'A perda de mais de 10% exige avaliação da amamentação. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Tardio.', C: 'Tardio.', D: 'Precoce.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Fórmula infantil',
     e: 'Quando o aleitamento materno não é possível no primeiro ano, recomenda-se:',
-    o: ['Fórmula infantil adequada à idade', 'Leite de vaca integral diluído', 'Leite de cabra', 'Leite em pó integral'],
+    o: ['Fórmula infantil adequada à idade', 'Leite de vaca integral diluído em água', 'Leite de cabra, sem outra adaptação', 'Leite integral em pó, sem diluição'],
     g: 'A',
     c: 'O preparo deve seguir as instruções para evitar diluições erradas. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Não recomendado.', C: 'Não recomendado.', D: 'Não recomendado.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Fisiologia da lactação',
     e: 'A lactação plena começa após o parto principalmente pela queda de:',
-    o: ['Progesterona, com a saída da placenta', 'Prolactina', 'Ocitocina', 'Cortisol'],
+    o: ['Queda da progesterona, com a saída da placenta', 'Queda da prolactina, após a dequitação', 'Queda da ocitocina, após a dequitação', 'Queda do cortisol, após a dequitação'],
     g: 'A',
     c: 'Restos placentários podem atrasar a apojadura. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Precisa estar alta.', C: 'Necessária para ejeção.', D: 'Sem relação principal.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Dez passos',
     e: 'Entre os Dez Passos para o Sucesso do Aleitamento Materno, está:',
-    o: ['Ajudar as mães a iniciar a amamentação na primeira hora após o parto', 'Oferecer fórmula a todos na primeira noite', 'Separar mãe e bebê para descanso', 'Oferecer chupeta para acalmar'],
+    o: ['Ajudar a iniciar a amamentação na primeira hora', 'Oferecer fórmula a todos na primeira noite', 'Separar mãe e bebê para o descanso', 'Oferecer chupeta para acalmar o recém-nascido'],
     g: 'A',
     c: 'Iniciativa Hospital Amigo da Criança. Referência: World Health Organization; UNICEF. Ten steps to successful breastfeeding (revised 2018).',
     x: { B: 'Contrário aos passos.', C: 'Contrário.', D: 'Contrário.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento e icterícia',
     e: 'Recém-nascido com icterícia por amamentação insuficiente. A conduta é:',
-    o: ['Aumentar a frequência e a eficácia das mamadas', 'Suspender o aleitamento', 'Oferecer água', 'Oferecer chá'],
+    o: ['Aumentar a frequência e a eficácia das mamadas', 'Suspender o aleitamento por 48 horas', 'Oferecer água entre as mamadas', 'Oferecer chá de ervas entre as mamadas'],
     g: 'A',
     c: 'Água e chás não reduzem a bilirrubina. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Sem indicação.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento: mãe com tuberculose',
     e: 'Mãe com tuberculose pulmonar bacilífera recém-diagnosticada. Sobre a amamentação:',
-    o: ['Pode amamentar usando máscara, e o bebê recebe quimioprofilaxia conforme protocolo', 'Está contraindicada', 'Deve separar o bebê por 6 meses', 'Deve dar fórmula obrigatoriamente'],
+    o: ['Amamentar com máscara; quimioprofilaxia no bebê', 'Amamentação contraindicada durante todo o tratamento', 'Separar o bebê por 6 meses', 'Dar fórmula, obrigatoriamente, até a cura'],
     g: 'A',
     c: 'Os medicamentos de tuberculose são compatíveis com a amamentação. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Não está.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento e herpes',
     e: 'Mãe com lesão de herpes na mama:',
-    o: ['Não deve amamentar na mama com lesão até a cicatrização, podendo usar a outra', 'Deve suspender toda amamentação', 'Pode amamentar na mama com lesão', 'Deve usar antibiótico'],
+    o: ['Poupar a mama com lesão até cicatrizar; usar a outra', 'Suspender toda a amamentação, nas duas mamas', 'Amamentar normalmente na mama com lesão', 'Usar antibiótico e manter a amamentação'],
     g: 'A',
     c: 'Higiene das mãos é essencial. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Pode usar a outra mama.', C: 'Risco ao bebê.', D: 'Antiviral, se indicado.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento e varicela',
     e: 'Mãe que desenvolveu varicela 2 dias antes do parto. Sobre o recém-nascido:',
-    o: ['Deve receber imunoglobulina antivaricela-zóster, e a amamentação pode ser mantida com leite ordenhado ou após cuidados', 'Não precisa de nada', 'Deve receber vacina', 'Nunca pode receber leite materno'],
+    o: ['Dar imunoglobulina ao RN; manter leite ordenhado', 'Nada é necessário, pois o RN está protegido pela mãe', 'Vacinar o recém-nascido no primeiro dia de vida', 'Nunca pode receber leite materno nesse caso'],
     g: 'A',
     c: 'Varicela materna entre 5 dias antes e 2 dias após o parto expõe o recém-nascido a forma grave. Referência: Brasil. Ministério da Saúde. Manual dos CRIE. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Risco alto.', C: 'Contraindicada.', D: 'Pode receber.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento e álcool',
     e: 'Nutriz pergunta sobre bebida alcoólica. A orientação é:',
-    o: ['Evitar o álcool; se consumir ocasionalmente, aguardar algumas horas antes de amamentar', 'Pode beber livremente', 'O álcool aumenta a produção de leite', 'Deve suspender a amamentação por 1 mês'],
+    o: ['Evitar; se ocasional, esperar algumas horas para mamar', 'Pode beber livremente, sem nenhuma restrição à mãe', 'O álcool aumenta a produção de leite materno', 'Suspender a amamentação por 1 mês após a bebida'],
     g: 'A',
     c: 'O álcool passa para o leite e pode reduzir a ejeção. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Não é recomendado.', C: 'Mito.', D: 'Excessivo.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento e tabagismo',
     e: 'Mãe tabagista deseja amamentar. A orientação é:',
-    o: ['Incentivar a amamentação e a cessação do tabagismo, evitando fumar perto do bebê', 'Contraindicar a amamentação', 'Fumar mais para reduzir o estresse', 'Dar fórmula obrigatoriamente'],
+    o: ['Incentivar amamentar e parar de fumar; não fumar perto', 'Contraindicar a amamentação em tabagistas', 'Fumar mais, para reduzir o estresse', 'Dar fórmula, obrigatoriamente, a essas mães'],
     g: 'A',
     c: 'Os benefícios do aleitamento superam os riscos, mesmo em fumantes. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Não contraindica.', C: 'Sem sentido.', D: 'Sem indicação.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Bancos de leite',
     e: 'O leite humano de bancos de leite é prioritário para:',
-    o: ['Prematuros e recém-nascidos de risco internados', 'Todos os bebês saudáveis', 'Adultos', 'Crianças acima de 2 anos'],
+    o: ['Prematuros e recém-nascidos de risco internados', 'Todos os bebês saudáveis nascidos a termo', 'Adultos com desnutrição grave ou em recuperação', 'Crianças maiores de 2 anos de idade, em geral'],
     g: 'A',
     c: 'O Brasil tem a maior rede de bancos de leite humano do mundo. Referência: Rede Brasileira de Bancos de Leite Humano (rBLH-BR), Fiocruz.',
     x: { B: 'Não é prioridade.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Alimentação complementar: carnes',
     e: 'A carne na alimentação complementar a partir dos 6 meses é importante principalmente como fonte de:',
-    o: ['Ferro e zinco de alta biodisponibilidade', 'Fibra', 'Vitamina C', 'Água'],
+    o: ['Ferro e zinco de alta biodisponibilidade', 'Fibra, para regular o trânsito intestinal', 'Vitamina C, para a absorção de ferro', 'Água, para hidratação da criança'],
     g: 'A',
     c: 'Pode ser oferecida desfiada ou bem picada. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Não é a principal.', C: 'Não é a principal.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Alimentação complementar: ovo',
     e: 'Sobre o ovo na alimentação complementar, é correto afirmar:',
-    o: ['Pode ser oferecido inteiro (bem cozido) a partir dos 6 meses', 'Só após 2 anos', 'Só a gema após 1 ano', 'Nunca'],
+    o: ['Inteiro e bem cozido a partir dos 6 meses', 'Só após os 2 anos de idade, por risco de alergia', 'Só a gema, após 1 ano de idade completo', 'Nunca deve ser oferecido, por risco de alergia grave'],
     g: 'A',
     c: 'A introdução precoce de alimentos alergênicos não aumenta o risco de alergia. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Restrição desnecessária.', C: 'Restrição desnecessária.', D: 'Sem fundamento.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Alimentação complementar: água',
     e: 'A partir de quando oferecer água à criança?',
-    o: ['Junto com a introdução da alimentação complementar, aos 6 meses', 'Desde o primeiro dia', 'Somente após 1 ano', 'Nunca'],
+    o: ['Com a alimentação complementar, aos 6 meses', 'Desde o primeiro dia de vida, em colher', 'Somente depois de 1 ano de idade', 'Nunca, pois o leite materno basta'],
     g: 'A',
     c: 'No aleitamento exclusivo, não é necessária. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Desnecessário.', C: 'Tardio.', D: 'Sem sentido.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Alimentação complementar: sal',
     e: 'Sobre o sal na comida do bebê, é correto afirmar:',
-    o: ['Usar pouco sal, preferindo temperos naturais', 'Não há restrição', 'Usar caldos industrializados', 'Usar mais sal para aceitação'],
+    o: ['Pouco sal, com preferência a temperos naturais', 'Sem restrição de sal na comida do bebê', 'Usar caldos industrializados, para dar sabor', 'Usar mais sal, para melhorar a aceitação'],
     g: 'A',
     c: 'Evitar temperos prontos ricos em sódio. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Há restrição.', C: 'Não recomendado.', D: 'Não recomendado.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Alimentação complementar: sucos',
     e: 'Sobre sucos de fruta para crianças pequenas, é correto afirmar:',
-    o: ['Preferir a fruta inteira; sucos, mesmo naturais, não são recomendados antes de 1 ano', 'Sucos devem substituir o leite', 'Sucos industrializados são recomendados', 'Sucos aos 2 meses'],
+    o: ['Preferir a fruta inteira; sem sucos antes de 1 ano', 'Sucos devem substituir uma mamada de leite', 'Sucos industrializados são recomendados', 'Sucos de fruta a partir dos 2 meses'],
     g: 'A',
     c: 'A fruta inteira tem fibras e menos açúcar livre. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Inadequado.', C: 'Não recomendado.', D: 'Precoce.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Alimentação complementar: recusa',
     e: 'Criança de 8 meses recusa um alimento novo. A orientação é:',
-    o: ['Oferecer novamente em outros momentos, pois podem ser necessárias 8 a 10 exposições', 'Desistir do alimento', 'Forçar a criança a comer', 'Substituir por doces'],
+    o: ['Oferecer de novo em outros momentos, até 8-10 exposições', 'Desistir do alimento, pois a criança não gosta', 'Forçar a criança a comer, para vencer a recusa', 'Substituir por doces, para garantir a ingestão'],
     g: 'A',
     c: 'A paciência favorece hábitos saudáveis. Referência: Brasil. Ministério da Saúde. Guia alimentar para crianças brasileiras menores de 2 anos. Brasília: MS, 2019.',
     x: { B: 'Precoce desistir.', C: 'Contraproducente.', D: 'Inadequado.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento e trabalho',
     e: 'Mãe que volta ao trabalho aos 4 meses e deseja manter o aleitamento exclusivo. A orientação é:',
-    o: ['Ordenhar e armazenar o leite para ser oferecido em copinho na sua ausência', 'Iniciar fórmula obrigatoriamente', 'Iniciar alimentação complementar', 'Desmamar'],
+    o: ['Ordenhar e guardar o leite, para ser dado em copinho', 'Iniciar fórmula, obrigatoriamente, na volta ao trabalho', 'Iniciar a alimentação complementar, aos 4 meses', 'Desmamar, pois não é possível conciliar'],
     g: 'A',
     c: 'O copinho é preferível à mamadeira. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Desnecessário.', C: 'Precoce.', D: 'Desnecessário.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento: duração das mamadas',
     e: 'Sobre a duração das mamadas, é correto afirmar:',
-    o: ['Não há tempo fixo; o bebê deve esvaziar a mama', 'Deve durar exatamente 10 minutos de cada lado', 'Deve durar 1 hora', 'Deve ser cronometrada'],
+    o: ['Sem tempo fixo; o bebê esvazia a mama', 'Exatamente 10 minutos de cada lado, sempre', 'Deve durar 1 hora em cada mama', 'Deve ser cronometrada, para evitar excessos'],
     g: 'A',
     c: 'Varia entre bebês e mamadas. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Rígido demais.', C: 'Excessivo.', D: 'Desnecessário.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Fenda palatina',
     e: 'Recém-nascido com fenda palatina. Sobre a amamentação:',
-    o: ['Pode ser possível com técnicas e posicionamento adequados, com apoio especializado', 'É sempre impossível', 'Exige sonda por toda a vida', 'Deve ser substituída por leite de vaca'],
+    o: ['Pode ser possível, com técnica, posição e apoio', 'É sempre impossível, em qualquer fissura palatina', 'Exige sonda por toda a vida da criança', 'Deve ser trocada por leite de vaca desde o início'],
     g: 'A',
     c: 'O leite materno ordenhado também pode ser oferecido com dispositivos especiais. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Nem sempre.', C: 'Nem sempre.', D: 'Não recomendado.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Freio lingual',
     e: 'Recém-nascido com dificuldade de pega, dor materna e frênulo lingual curto. A conduta pode incluir:',
-    o: ['Avaliação pelo protocolo de frênulo e frenotomia quando indicada', 'Ignorar', 'Suspender amamentação', 'Antibiótico'],
+    o: ['Avaliar o frênulo por protocolo; frenotomia se indicada', 'Ignorar o achado, pois melhora com o tempo', 'Suspender a amamentação até a realização da cirurgia', 'Iniciar antibiótico, por precaução, antes de qualquer conduta'],
     g: 'A',
     c: 'O teste da linguinha é obrigatório nas maternidades. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Pode prejudicar a amamentação.', C: 'Sem indicação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Galactosemia',
     e: 'Recém-nascido com vômitos, icterícia, hepatomegalia e catarata após iniciar o leite materno. A hipótese e a conduta são:',
-    o: ['Galactosemia; suspender leite materno e usar fórmula sem lactose (à base de soja)', 'Alergia leve; manter', 'Refluxo; omeprazol', 'Icterícia fisiológica; nada'],
+    o: ['Galactosemia; suspender o leite e usar fórmula de soja', 'Alergia leve; manter o leite materno em livre demanda', 'Refluxo gastroesofágico; dar omeprazol por 8 semanas', 'Icterícia fisiológica; apenas observar e dar banho de sol'],
     g: 'A',
     c: 'É uma das poucas contraindicações absolutas ao aleitamento. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Quadro grave.', C: 'Sem relação.', D: 'Quadro diferente.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento: candidíase',
     e: 'Bebê com placas brancas na boca e mãe com dor e prurido no mamilo. A conduta é:',
-    o: ['Tratar mãe e bebê com antifúngico, mantendo a amamentação', 'Suspender a amamentação', 'Tratar só o bebê', 'Antibiótico'],
+    o: ['Tratar mãe e bebê com antifúngico; manter a amamentação', 'Suspender a amamentação até a cura completa das lesões', 'Tratar apenas o bebê, com nistatina oral por 14 dias', 'Dar antibiótico oral para a mãe e para o bebê'],
     g: 'A',
     c: 'Nistatina para o bebê e antifúngico tópico para a mãe. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Desnecessário.', C: 'Risco de recorrência.', D: 'Sem efeito.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento: relactação',
     e: 'Mãe que parou de amamentar deseja voltar. A técnica que pode ajudar é:',
-    o: ['Relactação com estímulo frequente e sonda junto ao seio', 'Medicamento obrigatório', 'Não é possível', 'Aguardar nova gestação'],
+    o: ['Relactação: estímulo frequente e sonda junto ao seio', 'Medicamento obrigatório, por via oral, por vários meses', 'Não é possível retomar após a interrupção da lactação', 'Aguardar uma nova gestação para voltar a amamentar'],
     g: 'A',
     c: 'O estímulo da sucção aumenta a prolactina. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 23: Saúde da criança: aleitamento materno e alimentação complementar. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Não é obrigatório.', C: 'É possível.', D: 'Sem sentido.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_ALEIT: QuestaoCompacta[] = [
   {
     s: 'Aleitamento: prematuros',
     e: 'O método canguru favorece:',
-    o: ['Aleitamento materno, vínculo, controle térmico e menor tempo de internação em prematuros', 'Hipotermia', 'Infecções', 'Desmame precoce'],
+    o: ['Aleitamento, vínculo, controle térmico e alta mais precoce', 'Hipotermia, por contato prolongado com o corpo da mãe', 'Infecções hospitalares, em prematuros de baixo peso', 'Desmame precoce, por separação entre mãe e bebê'],
     g: 'A',
     c: 'É política do Ministério da Saúde. Referência: Brasil. Ministério da Saúde. Atenção humanizada ao recém-nascido: Método Canguru. 3ª ed. Brasília: MS, 2017.',
     x: { B: 'O oposto.', C: 'O oposto.', D: 'O oposto.' },

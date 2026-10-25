@@ -21,7 +21,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Sarampo',
     e: 'Toda criança com sarampo deve receber:',
-    o: ['Vitamina A, que reduz gravidade e mortalidade', 'Antibiótico profilático', 'Aciclovir', 'Corticoide sistêmico'],
+    o: ['Vitamina A, que reduz gravidade e mortalidade', 'Antibiótico profilático, para evitar infecção secundária', 'Aciclovir oral, para reduzir a replicação viral', 'Corticoide sistêmico, para reduzir a inflamação'],
     g: 'A',
     c: 'A OMS recomenda duas doses de vitamina A conforme a idade. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Só se houver infecção bacteriana.', C: 'Sem efeito.', D: 'Sem indicação.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Sarampo: bloqueio',
     e: 'Após contato com caso de sarampo, criança suscetível de 2 anos deve receber vacina tríplice viral, como bloqueio, em até:',
-    o: ['72 horas após a exposição', '30 dias', '6 meses', '2 semanas obrigatoriamente'],
+    o: ['Até 72 horas após a exposição', 'Até 30 dias após a exposição', 'Até 6 meses após a exposição', 'Somente 2 semanas depois, obrigatoriamente'],
     g: 'A',
     c: 'Imunoglobulina humana pode ser usada até 6 dias em suscetíveis com contraindicação à vacina, como imunodeprimidos, gestantes e lactentes pequenos. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Tardio para proteção.', C: 'Tardio.', D: 'Prazo incorreto.' },
@@ -53,7 +53,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Eritema infeccioso',
     e: 'Criança com anemia falciforme e infecção por parvovírus B19 tem risco de:',
-    o: ['Crise aplásica transitória', 'Policitemia', 'Hiperesplenismo', 'Hipertireoidismo'],
+    o: ['Crise aplásica transitória', 'Policitemia, com aumento da hemoglobina', 'Hiperesplenismo, com esplenomegalia', 'Hipertireoidismo, com taquicardia'],
     g: 'A',
     c: 'O vírus infecta precursores eritroides; na gestação, pode causar hidropsia fetal. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Ocorre o oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Exantema súbito',
     e: 'Lactente de 10 meses com febre alta por 3 dias, bom estado geral. A febre some e surge exantema róseo no tronco. O diagnóstico é:',
-    o: ['Exantema súbito (roséola), pelo herpesvírus humano 6', 'Sarampo', 'Rubéola', 'Kawasaki'],
+    o: ['Exantema súbito (roséola), por HHV-6', 'Sarampo, com coriza e conjuntivite', 'Rubéola, com adenopatia retroauricular', 'Kawasaki, com febre por mais de 5 dias'],
     g: 'A',
     c: 'O exantema após a defervescência é característico; pode haver convulsão febril. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Exantema com febre e pródromo.', C: 'Exantema com febre baixa.', D: 'Febre persistente com exantema.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Varicela',
     e: 'A complicação mais comum da varicela em crianças é:',
-    o: ['Infecção bacteriana secundária da pele por estreptococo ou estafilococo', 'Encefalite', 'Pneumonia viral', 'Hepatite fulminante'],
+    o: ['Infecção bacteriana secundária da pele', 'Encefalite, com ataxia cerebelar aguda', 'Pneumonia viral, em criança saudável', 'Hepatite fulminante, em criança saudável'],
     g: 'A',
     c: 'Infecções graves, como fasciite necrosante por estreptococo, podem ocorrer. Referência: Sociedade Brasileira de Pediatria. Tratado de Pediatria. 5ª ed. Barueri: Manole, 2022.',
     x: { B: 'Menos comum.', C: 'Mais comum em adultos e imunodeprimidos.', D: 'Rara.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Varicela: tratamento',
     e: 'O aciclovir oral na varicela é indicado, entre outros, para:',
-    o: ['Maiores de 12 anos, portadores de doença cutânea ou pulmonar crônica e casos secundários domiciliares', 'Todas as crianças saudáveis menores de 2 anos', 'Somente após 7 dias de doença', 'Nunca em crianças'],
+    o: ['Maiores de 12 anos, doença crônica e casos domiciliares', 'Todas as crianças saudáveis menores de 2 anos de idade', 'Somente após 7 dias de doença, em qualquer idade', 'Nunca em crianças, em nenhuma circunstância clínica'],
     g: 'A',
     c: 'Imunodeprimidos e casos graves recebem aciclovir intravenoso. Deve ser iniciado nas primeiras 24 horas do exantema. Referência: Sociedade Brasileira de Pediatria. Tratado de Pediatria. 5ª ed. Barueri: Manole, 2022.',
     x: { B: 'Não é rotina.', C: 'Perde benefício.', D: 'Há indicações.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Varicela: pós-exposição',
     e: 'Criança imunodeprimida suscetível teve contato com caso de varicela. A conduta é:',
-    o: ['Imunoglobulina específica antivaricela-zóster, idealmente em até 96 horas', 'Vacina de vírus vivo', 'Nenhuma', 'Aguardar sintomas'],
+    o: ['Imunoglobulina antivaricela-zóster, idealmente em até 96 h', 'Vacina de vírus vivo, em dose única', 'Nenhuma conduta específica, apenas orientação', 'Aguardar o surgimento dos sintomas para tratar'],
     g: 'A',
     c: 'Imunocompetentes suscetíveis podem receber a vacina em até 5 dias como bloqueio. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Contraindicada em imunodeprimidos.', C: 'Risco de doença grave.', D: 'Atrasa a profilaxia.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Escarlatina',
     e: 'Criança de 7 anos com febre, faringite exsudativa e exantema micropapular áspero ao toque, mais intenso nas dobras, com palidez perioral e língua em framboesa. O diagnóstico é:',
-    o: ['Escarlatina', 'Sarampo', 'Kawasaki', 'Rubéola'],
+    o: ['Escarlatina', 'Sarampo, com manchas de Koplik', 'Kawasaki, com febre prolongada', 'Rubéola, com adenopatia retroauricular'],
     g: 'A',
     c: 'É causada por toxinas do estreptococo do grupo A. Sinais clássicos: Pastia (linhas nas dobras) e Filatov (palidez perioral). Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Exantema morbiliforme e Koplik.', C: 'Sem faringite exsudativa e febre de 5 dias.', D: 'Exantema discreto.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Escarlatina: tratamento',
     e: 'O tratamento da escarlatina é:',
-    o: ['Penicilina benzatina dose única ou amoxicilina por 10 dias', 'Aciclovir', 'Corticoide', 'Apenas sintomáticos'],
+    o: ['Penicilina benzatina em dose única ou amoxicilina por 10 dias', 'Aciclovir oral, por 7 dias, em dose habitual', 'Corticoide oral, por 5 dias, em dose habitual', 'Apenas sintomáticos, sem antibiótico específico'],
     g: 'A',
     c: 'O tratamento previne febre reumática. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Antiviral sem efeito.', C: 'Sem indicação.', D: 'Exige antibiótico.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Escarlatina: descamação',
     e: 'Na escarlatina, a descamação característica, que ocorre na convalescença, é:',
-    o: ['Lamelar, em grandes placas, principalmente em mãos e pés', 'Furfurácea fina', 'Inexistente', 'Hemorrágica'],
+    o: ['Lamelar, em grandes placas, em mãos e pés', 'Furfurácea fina, por todo o corpo', 'Inexistente, em qualquer fase da doença', 'Hemorrágica, com púrpura associada'],
     g: 'A',
     c: 'No sarampo, a descamação é furfurácea. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Típica do sarampo.', C: 'Ocorre.', D: 'Sem relação.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Kawasaki: diagnóstico',
     e: 'Criança de 2 anos com febre há 6 dias, conjuntivite bilateral sem secreção, lábios rachados e vermelhos, língua em framboesa, exantema polimorfo e edema de mãos e pés. O diagnóstico é:',
-    o: ['Doença de Kawasaki', 'Escarlatina', 'Sarampo', 'Mononucleose'],
+    o: ['Doença de Kawasaki', 'Escarlatina, com exantema em lixa', 'Sarampo, com manchas de Koplik', 'Mononucleose, com esplenomegalia'],
     g: 'A',
     c: 'Critérios: febre de 5 dias ou mais com 4 de 5 sinais (conjuntivite, alterações orais, exantema, alterações de extremidades, linfadenopatia cervical). Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Teria faringite exsudativa e exantema em lixa.', C: 'Teria Koplik e tosse.', D: 'Teria linfadenopatia generalizada e esplenomegalia.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Kawasaki: tratamento',
     e: 'O tratamento da doença de Kawasaki é:',
-    o: ['Imunoglobulina intravenosa 2 g/kg em dose única e ácido acetilsalicílico', 'Apenas antibiótico', 'Apenas antitérmico', 'Aciclovir'],
+    o: ['Imunoglobulina IV 2 g/kg em dose única e AAS', 'Apenas antibiótico, por via oral', 'Apenas antitérmico, por via oral', 'Aciclovir intravenoso, em dose alta'],
     g: 'A',
     c: 'O tratamento nos primeiros 10 dias reduz muito o risco de aneurismas coronarianos. Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Não é infecção bacteriana tratável.', C: 'Insuficiente.', D: 'Sem efeito.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Kawasaki: complicação',
     e: 'A principal complicação da doença de Kawasaki é:',
-    o: ['Aneurisma de artérias coronárias', 'Glomerulonefrite', 'Insuficiência hepática', 'Pneumonia'],
+    o: ['Aneurisma de artérias coronárias', 'Glomerulonefrite aguda, com hematúria', 'Insuficiência hepática aguda grave', 'Pneumonia bacteriana, com derrame pleural'],
     g: 'A',
     c: 'Por isso todos os pacientes fazem ecocardiograma no diagnóstico e no seguimento. Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Kawasaki incompleto',
     e: 'Lactente de 5 meses com febre há 7 dias e apenas 2 critérios clínicos de Kawasaki, com PCR elevada. A conduta é:',
-    o: ['Considerar Kawasaki incompleto e avaliar com ecocardiograma e exames laboratoriais', 'Descartar Kawasaki', 'Dar alta', 'Iniciar apenas antibiótico'],
+    o: ['Kawasaki incompleto; ecocardiograma e exames laboratoriais', 'Descartar Kawasaki, por faltarem critérios clínicos', 'Dar alta, com orientação de retorno se piora', 'Iniciar apenas antibiótico, por via oral'],
     g: 'A',
     c: 'Lactentes pequenos têm mais formas incompletas e maior risco coronariano. Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Pode ser incompleto.', C: 'Risco de aneurisma.', D: 'Insuficiente.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Mão-pé-boca',
     e: 'Criança com febre baixa, úlceras orais dolorosas e vesículas em palmas, plantas e região glútea. O agente mais comum é:',
-    o: ['Coxsackievírus A16 (enterovírus)', 'Herpes simples tipo 2', 'Estreptococo', 'Sarampo'],
+    o: ['Coxsackievírus A16 (enterovírus)', 'Herpes simples tipo 2, genital', 'Estreptococo beta-hemolítico do grupo A', 'Vírus do sarampo, com manchas de Koplik'],
     g: 'A',
     c: 'O tratamento é sintomático, com atenção à hidratação. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem esse padrão.', C: 'Sem esse padrão.', D: 'Sem esse padrão.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Mononucleose',
     e: 'Adolescente com febre, faringite, linfadenopatia cervical posterior, esplenomegalia e exantema após uso de amoxicilina. O diagnóstico é:',
-    o: ['Mononucleose infecciosa pelo vírus Epstein-Barr', 'Escarlatina', 'Sarampo', 'Rubéola'],
+    o: ['Mononucleose infecciosa pelo vírus Epstein-Barr', 'Escarlatina, pelo estreptococo do grupo A', 'Sarampo, com manchas de Koplik', 'Rubéola, com adenopatia retroauricular'],
     g: 'A',
     c: 'O exantema após aminopenicilinas é muito comum. Deve-se evitar esporte de contato pelo risco de ruptura esplênica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem esplenomegalia típica.', C: 'Sem esse padrão.', D: 'Sem esplenomegalia.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Síndrome da pele escaldada',
     e: 'Lactente com febre, eritema difuso doloroso e descolamento da pele à fricção leve (sinal de Nikolsky), sem lesões em mucosas. O diagnóstico é:',
-    o: ['Síndrome da pele escaldada estafilocócica', 'Necrólise epidérmica tóxica', 'Escarlatina', 'Kawasaki'],
+    o: ['Síndrome da pele escaldada estafilocócica', 'Necrólise epidérmica tóxica, medicamentosa', 'Escarlatina, com exantema em lixa', 'Doença de Kawasaki, com febre prolongada'],
     g: 'A',
     c: 'É mediada por toxinas esfoliativas do Staphylococcus aureus; trata-se com antibiótico antiestafilocócico. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Envolve mucosas e geralmente é por medicamento.', C: 'Não descola a pele.', D: 'Sem descolamento.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Meningococcemia',
     e: 'Criança com febre alta, prostração e petéquias que evoluem rapidamente para púrpura. A conduta imediata é:',
-    o: ['Antibiótico intravenoso (ceftriaxona) imediatamente e suporte para choque', 'Observar por 24 horas', 'Antitérmico e alta', 'Aguardar punção lombar para iniciar antibiótico'],
+    o: ['Ceftriaxona IV de imediato e suporte para choque', 'Observar por 24 horas, antes de tratar', 'Antitérmico e alta, com retorno se piora', 'Aguardar a punção lombar para iniciar antibiótico'],
     g: 'A',
     c: 'A meningococcemia pode evoluir para óbito em poucas horas. Contatos íntimos recebem quimioprofilaxia. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Risco de óbito.', C: 'Inadequado.', D: 'Não se deve atrasar o antibiótico.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Sarampo: período de transmissão',
     e: 'O sarampo é transmitido desde:',
-    o: ['Cerca de 4 a 6 dias antes até 4 dias após o início do exantema', 'Somente após o exantema desaparecer', 'Apenas durante a febre do último dia', 'Só por contato com sangue'],
+    o: ['De 4-6 dias antes até 4 dias após o exantema', 'Somente depois que o exantema desaparece', 'Apenas durante a febre do último dia', 'Somente por contato com sangue contaminado'],
     g: 'A',
     c: 'A transmissão é respiratória, por aerossóis, e altamente contagiosa. Exige isolamento respiratório. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Já não transmite.', C: 'Período incorreto.', D: 'Transmissão respiratória.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Sarampo: vacinação',
     e: 'No calendário nacional, a vacina tríplice viral é aplicada aos:',
-    o: ['12 meses, com segunda dose aos 15 meses (tetraviral ou tríplice e varicela)', '2 meses', 'Ao nascer', 'Somente aos 10 anos'],
+    o: ['12 meses, com 2ª dose aos 15 meses', '2 meses de vida, com reforço aos 4 meses', 'Ao nascer, na maternidade, junto com a BCG', 'Somente aos 10 anos de idade, na escola'],
     g: 'A',
     c: 'Em situações de surto, pode haver dose zero a partir de 6 meses. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Precoce demais.', C: 'Não é aplicada ao nascer.', D: 'Tardio.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Exantemas: escarlatina vs Kawasaki',
     e: 'Um dado que favorece Kawasaki em relação à escarlatina é:',
-    o: ['Conjuntivite não purulenta bilateral e febre persistente por 5 dias apesar de antibiótico', 'Faringite exsudativa com teste rápido positivo para estreptococo', 'Exantema em lixa com sinal de Pastia', 'Resposta rápida à penicilina'],
+    o: ['Conjuntivite não purulenta e febre de 5 dias apesar de antibiótico', 'Faringite exsudativa, com teste rápido positivo para estreptococo', 'Exantema em lixa, com sinal de Pastia nas dobras', 'Resposta rápida à penicilina, em 24 a 48 horas'],
     g: 'A',
     c: 'Ambos podem ter língua em framboesa. Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Favorece escarlatina.', C: 'Favorece escarlatina.', D: 'Favorece escarlatina.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Kawasaki: descamação',
     e: 'A descamação periungueal das mãos na doença de Kawasaki ocorre tipicamente:',
-    o: ['Na fase subaguda, cerca de 2 a 3 semanas após o início da febre', 'No primeiro dia', 'Antes da febre', 'Nunca'],
+    o: ['Na fase subaguda, 2 a 3 semanas após a febre', 'No primeiro dia da febre, de forma precoce', 'Antes do início da febre, como pródromo', 'Nunca ocorre, em nenhuma fase da doença'],
     g: 'A',
     c: 'Na fase aguda, há edema e eritema de mãos e pés. Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Precoce demais.', C: 'Não ocorre antes.', D: 'Ocorre.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Kawasaki: refratário',
     e: 'Criança com Kawasaki mantém febre 36 horas após a imunoglobulina intravenosa. A conduta é:',
-    o: ['Considerar doença refratária, com segunda dose de imunoglobulina ou outras terapias, como corticoide', 'Dar alta', 'Suspender o AAS e observar', 'Indicar cirurgia cardíaca'],
+    o: ['Doença refratária: 2ª dose de imunoglobulina ou corticoide', 'Dar alta hospitalar, mantendo o AAS em casa', 'Suspender o AAS e apenas observar a criança', 'Indicar cirurgia cardíaca, de imediato, na admissão'],
     g: 'A',
     c: 'Febre persistente aumenta o risco de aneurisma. Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Sem indicação.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'MIS-C',
     e: 'Criança com febre persistente, sintomas gastrointestinais, conjuntivite, exantema, choque e marcadores inflamatórios muito elevados, semanas após infecção por SARS-CoV-2. O diagnóstico é:',
-    o: ['Síndrome inflamatória multissistêmica pediátrica associada à covid-19', 'Exantema súbito', 'Rubéola', 'Escarlatina simples'],
+    o: ['Síndrome inflamatória multissistêmica pediátrica pós-covid', 'Exantema súbito, por herpesvírus humano 6, benigno', 'Rubéola, com adenopatia retroauricular e exantema', 'Escarlatina simples, sem choque nem disfunção de órgãos'],
     g: 'A',
     c: 'Tem semelhança com Kawasaki, mas com disfunção cardíaca e choque mais frequentes. Referência: Henderson LA et al. American College of Rheumatology Clinical Guidance for MIS-C associated with SARS-CoV-2. Arthritis Rheumatol. 2022;74(4):e1-20.',
     x: { B: 'Febre e exantema sem choque.', C: 'Quadro leve.', D: 'Sem choque e marcadores tão altos.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Exantema e medicamentos',
     e: 'Criança em uso de amoxicilina há 7 dias apresenta exantema maculopapular pruriginoso, sem sinais de gravidade, sem lesões de mucosa. A hipótese mais comum é:',
-    o: ['Exantema medicamentoso ou viral benigno', 'Síndrome de Stevens-Johnson', 'Necrólise epidérmica tóxica', 'Doença de Kawasaki'],
+    o: ['Exantema medicamentoso ou viral benigno', 'Síndrome de Stevens-Johnson, com mucosas', 'Necrólise epidérmica tóxica, com descolamento', 'Doença de Kawasaki, com febre prolongada'],
     g: 'A',
     c: 'Lesões em mucosa, bolhas e descolamento sugerem formas graves, que exigem suspensão imediata. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Haveria lesão de mucosa.', C: 'Haveria descolamento.', D: 'Sem critérios.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Stevens-Johnson',
     e: 'Criança iniciou anticonvulsivante e, após 2 semanas, apresenta febre, lesões em alvo atípicas, erosões em mucosas oral e ocular e descolamento menor que 10% da pele. O diagnóstico e a conduta inicial são:',
-    o: ['Síndrome de Stevens-Johnson; suspender o medicamento e dar suporte em unidade especializada', 'Eritema multiforme menor; manter o medicamento', 'Escarlatina; penicilina', 'Varicela; aciclovir'],
+    o: ['Stevens-Johnson; suspender o fármaco e dar suporte', 'Eritema multiforme menor; manter o medicamento', 'Escarlatina; penicilina benzatina em dose única', 'Varicela; aciclovir oral por 7 dias'],
     g: 'A',
     c: 'Acima de 30% de descolamento, fala-se em necrólise epidérmica tóxica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Mucosas acometidas e associação com droga.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Dengue em crianças',
     e: 'Criança com dengue apresenta dor abdominal intensa, vômitos persistentes e letargia. A classificação e a conduta são:',
-    o: ['Dengue com sinais de alarme; internação e hidratação venosa', 'Dengue sem sinais de alarme; hidratação oral em casa', 'Dengue grave; alta', 'Doença exantemática benigna; nenhuma conduta'],
+    o: ['Dengue com sinais de alarme; internação e hidratação IV', 'Dengue sem sinais de alarme; hidratação oral em casa', 'Dengue grave; alta, com retorno em 24 horas', 'Exantema benigno; nenhuma conduta específica'],
     g: 'A',
     c: 'Sinais de alarme surgem geralmente na defervescência. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Há sinais de alarme.', C: 'Exige internação.', D: 'Exige conduta.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Dengue: antitérmico',
     e: 'Na criança com suspeita de dengue, deve-se evitar:',
-    o: ['Anti-inflamatórios não esteroides e ácido acetilsalicílico', 'Paracetamol', 'Dipirona', 'Hidratação oral'],
+    o: ['AINEs e ácido acetilsalicílico', 'Paracetamol, em dose habitual', 'Dipirona, em dose habitual', 'Hidratação oral, em volume habitual'],
     g: 'A',
     c: 'Aumentam o risco de sangramento. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Permitido.', C: 'Permitida.', D: 'Recomendada.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Eritema multiforme',
     e: 'Lesões em alvo típicas, simétricas em extremidades, após herpes labial, sem envolvimento importante de mucosas. O diagnóstico é:',
-    o: ['Eritema multiforme menor', 'Stevens-Johnson', 'Urticária simples', 'Kawasaki'],
+    o: ['Eritema multiforme menor', 'Stevens-Johnson, com mucosas envolvidas', 'Urticária simples, com placas migratórias', 'Doença de Kawasaki, com febre prolongada'],
     g: 'A',
     c: 'O herpes simples é o principal desencadeante. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Envolve mucosas extensamente.', C: 'Lesões fugazes sem alvo.', D: 'Febre prolongada.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Impetigo',
     e: 'Criança com lesões crostosas de cor mel ao redor do nariz e boca. O tratamento das formas localizadas é:',
-    o: ['Antibiótico tópico, como mupirocina', 'Aciclovir', 'Corticoide tópico isolado', 'Antifúngico'],
+    o: ['Antibiótico tópico, como mupirocina', 'Aciclovir tópico, quatro vezes ao dia', 'Corticoide tópico isolado, por 7 dias', 'Antifúngico tópico, por 4 semanas'],
     g: 'A',
     c: 'Formas extensas exigem antibiótico oral. A glomerulonefrite pós-estreptocócica pode seguir o impetigo. Referência: Sociedade Brasileira de Pediatria. Tratado de Pediatria. 5ª ed. Barueri: Manole, 2022.',
     x: { B: 'Sem efeito.', C: 'Pode piorar.', D: 'Sem efeito.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Varicela: vacina',
     e: 'No calendário nacional, a vacina contra varicela é aplicada aos:',
-    o: ['15 meses (tetraviral) e reforço aos 4 anos', '2 meses', 'Ao nascer', '9 meses'],
+    o: ['15 meses (tetraviral), com reforço aos 4 anos', '2 meses de vida, com reforço aos 4 meses', 'Ao nascer, na maternidade, junto com a BCG', '9 meses de vida, junto com a febre amarela'],
     g: 'A',
     c: 'É vacina de vírus vivo atenuado. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Precoce.', C: 'Não é aplicada.', D: 'Não é a idade.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Sarampo: diagnóstico laboratorial',
     e: 'O diagnóstico laboratorial do sarampo é feito por:',
-    o: ['Sorologia IgM e detecção viral por RT-PCR em secreção, sangue ou urina', 'Hemocultura', 'Cultura de fezes', 'Teste rápido para estreptococo'],
+    o: ['IgM e RT-PCR em secreção, sangue ou urina', 'Hemocultura, colhida no pico febril', 'Cultura de fezes, para enterovírus', 'Teste rápido para estreptococo, na orofaringe'],
     g: 'A',
     c: 'A coleta deve ocorrer no primeiro atendimento. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Exantema súbito: complicação',
     e: 'A complicação mais comum do exantema súbito é:',
-    o: ['Convulsão febril', 'Encefalite', 'Pneumonia', 'Miocardite'],
+    o: ['Convulsão febril', 'Encefalite, com sequelas neurológicas', 'Pneumonia viral, com derrame pleural', 'Miocardite aguda, com insuficiência cardíaca'],
     g: 'A',
     c: 'Ocorre durante a fase de febre alta. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Rara.', C: 'Rara.', D: 'Rara.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Escarlatina: complicações',
     e: 'Complicações não supurativas da infecção estreptocócica incluem:',
-    o: ['Febre reumática e glomerulonefrite pós-estreptocócica', 'Síndrome de Reye', 'Panencefalite esclerosante', 'Hidropsia fetal'],
+    o: ['Febre reumática e glomerulonefrite pós-estreptocócica', 'Síndrome de Reye, após uso de AAS', 'Panencefalite esclerosante subaguda, pelo sarampo', 'Hidropsia fetal, por parvovírus B19'],
     g: 'A',
     c: 'O tratamento da faringite previne febre reumática, mas não necessariamente a glomerulonefrite. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Relacionada a AAS.', C: 'Relacionada ao sarampo.', D: 'Relacionada a parvovírus.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Rubéola: linfadenopatia',
     e: 'Na rubéola, a linfadenopatia caracteristicamente:',
-    o: ['Precede o exantema e acomete cadeias retroauriculares, occipitais e cervicais posteriores', 'Ocorre somente após o exantema desaparecer', 'Nunca ocorre', 'É exclusivamente inguinal'],
+    o: ['Precede o exantema; cadeias retroauriculares e occipitais', 'Ocorre somente depois que o exantema desaparece', 'Nunca ocorre, em nenhuma fase da doença', 'É exclusivamente inguinal, bilateral e dolorosa'],
     g: 'A',
     c: 'O exantema é craniocaudal e mais discreto que no sarampo. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Precede.', C: 'Ocorre.', D: 'Não é o padrão.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Febre reumática',
     e: 'Os critérios de Jones maiores incluem:',
-    o: ['Cardite, artrite, coreia, eritema marginado e nódulos subcutâneos', 'Febre e artralgia', 'Leucocitose e VHS elevada', 'Faringite e exantema'],
+    o: ['Cardite, artrite, coreia, eritema marginado e nódulos', 'Febre e artralgia, em associação, como critérios maiores', 'Leucocitose e VHS elevada, em associação, como critérios maiores', 'Faringite e exantema, em associação, como critérios maiores'],
     g: 'A',
     c: 'Exige evidência de infecção estreptocócica prévia. Referência: Gewitz MH et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography. Circulation. 2015;131(20):1806-18.',
     x: { B: 'São critérios menores.', C: 'São critérios menores.', D: 'Não são critérios maiores.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Exantemas: diferenciação',
     e: 'Exantema que surge somente após o fim da febre é característico de:',
-    o: ['Exantema súbito', 'Sarampo', 'Escarlatina', 'Kawasaki'],
+    o: ['Exantema súbito', 'Sarampo, com febre alta e coriza', 'Escarlatina, com febre e faringite', 'Doença de Kawasaki, com febre prolongada'],
     g: 'A',
     c: 'No sarampo e na escarlatina, o exantema ocorre com febre. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Exantema com febre.', C: 'Exantema com febre.', D: 'Febre persiste.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Varicela: retorno à escola',
     e: 'A criança com varicela pode retornar à escola quando:',
-    o: ['Todas as lesões estiverem em fase de crosta', 'Ainda houver vesículas', 'No primeiro dia de exantema', 'Somente após 30 dias'],
+    o: ['Todas as lesões estiverem em crosta', 'Ainda houver vesículas, desde que sem febre', 'For o primeiro dia de exantema', 'Passarem 30 dias do início da doença'],
     g: 'A',
     c: 'A transmissão vai de 1 a 2 dias antes do exantema até todas as lesões estarem crostosas. Referência: Sociedade Brasileira de Pediatria. Tratado de Pediatria. 5ª ed. Barueri: Manole, 2022.',
     x: { B: 'Ainda transmite.', C: 'Ainda transmite.', D: 'Excessivo.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_EXANT: QuestaoCompacta[] = [
   {
     s: 'Eritema infeccioso: transmissão',
     e: 'Sobre o isolamento da criança com eritema infeccioso já com exantema típico, é correto afirmar:',
-    o: ['Não é necessário, pois o período de transmissão ocorre antes do exantema', 'É necessário por 30 dias', 'Deve ser em UTI', 'Deve ser feito com aciclovir'],
+    o: ['Desnecessário: a transmissão ocorre antes do exantema', 'Necessário por 30 dias, em quarto privativo', 'Deve ser feito em UTI, por risco de aplasia', 'Deve ser feito com aciclovir, por via oral'],
     g: 'A',
     c: 'Exceção: pacientes com crise aplásica ou imunodeprimidos, que transmitem por mais tempo. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Excessivo.', C: 'Sem indicação.', D: 'Sem efeito.' },

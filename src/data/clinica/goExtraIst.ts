@@ -13,7 +13,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Vaginose bacteriana: tratamento',
     e: 'O tratamento de escolha da vaginose bacteriana sintomática é:',
-    o: ['Metronidazol 500 mg por via oral de 12 em 12 horas por 7 dias', 'Fluconazol 150 mg dose única', 'Ceftriaxona intramuscular', 'Aciclovir'],
+    o: ['Metronidazol 500 mg VO de 12/12 h por 7 dias', 'Fluconazol 150 mg por via oral, em dose única', 'Ceftriaxona 500 mg por via intramuscular, dose única', 'Aciclovir 400 mg por via oral de 8/8 h por 7 dias'],
     g: 'A',
     c: 'Metronidazol gel vaginal é alternativa. Gestantes sintomáticas também devem ser tratadas. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Trata candidíase.', C: 'Trata gonorreia.', D: 'Trata herpes.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Candidíase',
     e: 'Mulher com prurido vulvar intenso, ardor, corrimento branco grumoso e pH vaginal de 4. O diagnóstico e o tratamento são:',
-    o: ['Candidíase vulvovaginal; fluconazol 150 mg dose única ou antifúngico tópico', 'Vaginose bacteriana; metronidazol', 'Tricomoníase; metronidazol 2 g', 'Gonorreia; ceftriaxona'],
+    o: ['Candidíase; fluconazol 150 mg em dose única ou antifúngico tópico', 'Vaginose bacteriana, tratada com metronidazol oral', 'Tricomoníase, tratada com metronidazol 2 g em dose única', 'Gonorreia, tratada com ceftriaxona intramuscular'],
     g: 'A',
     c: 'Não se trata parceria assintomática. Recorrente é definida por 4 ou mais episódios em 1 ano. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'pH seria acima de 4,5.', C: 'pH seria alto.', D: 'Cervicite, sem esse corrimento.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Tricomoníase',
     e: 'Mulher com corrimento amarelo-esverdeado, bolhoso, fétido, colo com aspecto de morango (framboesa) e pH de 6. O tratamento é:',
-    o: ['Metronidazol, tratando também a parceria sexual', 'Fluconazol', 'Apenas creme vaginal de nistatina', 'Nenhum tratamento para a parceria'],
+    o: ['Metronidazol, com tratamento da parceria sexual', 'Fluconazol oral, sem tratar a parceria sexual', 'Apenas creme vaginal de nistatina, por 14 dias', 'Nenhum tratamento para a parceria, só para a mulher'],
     g: 'A',
     c: 'É IST, e o tratamento das parcerias evita reinfecção. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'A parceria deve ser tratada.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Cervicite',
     e: 'Mulher com corrimento cervical mucopurulento, colo friável e sangramento ao toque, sem dor pélvica. A conduta sindrômica é:',
-    o: ['Tratar clamídia e gonorreia com ceftriaxona 500 mg IM dose única e azitromicina 1 g VO dose única, além da parceria', 'Tratar apenas com metronidazol', 'Aguardar cultura sem tratar', 'Tratar apenas candidíase'],
+    o: ['Ceftriaxona 500 mg IM e azitromicina 1 g VO, mais a parceria', 'Tratar apenas com metronidazol, por via oral', 'Aguardar a cultura do material, sem tratar antes', 'Tratar apenas a candidíase, com fluconazol oral'],
     g: 'A',
     c: 'Testes moleculares (NAAT) devem ser solicitados quando disponíveis. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não trata cervicite.', C: 'A conduta sindrômica trata no ato.', D: 'Não trata cervicite.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Doença inflamatória pélvica: diagnóstico',
     e: 'Os critérios mínimos para diagnóstico clínico de doença inflamatória pélvica são:',
-    o: ['Dor à mobilização do colo, dor anexial ou dor uterina à palpação, com dor pélvica', 'Febre alta obrigatória', 'Leucocitose acima de 20.000', 'Abscesso tubo-ovariano obrigatório'],
+    o: ['Dor à mobilização do colo, anexial ou uterina, com dor pélvica', 'Febre alta, obrigatoriamente, em todos os casos', 'Leucocitose acima de 20.000/mm³, obrigatoriamente', 'Abscesso tubo-ovariano, obrigatoriamente, ao ultrassom'],
     g: 'A',
     c: 'Critérios adicionais aumentam a especificidade, como febre, secreção cervical e proteína C reativa elevada. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não é obrigatória.', C: 'Não é obrigatória.', D: 'É complicação.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Doença inflamatória pélvica: tratamento',
     e: 'Tratamento ambulatorial da doença inflamatória pélvica pelo PCDT 2022:',
-    o: ['Ceftriaxona 500 mg IM dose única, mais doxiciclina 100 mg 12/12 h por 14 dias e metronidazol 500 mg 12/12 h por 14 dias', 'Azitromicina dose única isolada', 'Fluconazol', 'Amoxicilina por 3 dias'],
+    o: ['Ceftriaxona IM, doxiciclina e metronidazol por 14 dias', 'Azitromicina em dose única, isoladamente', 'Fluconazol 150 mg em dose única oral', 'Amoxicilina oral, por 3 dias, em dose habitual'],
     g: 'A',
     c: 'A paciente deve ser reavaliada em 72 horas. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Insuficiente.', C: 'Sem efeito.', D: 'Insuficiente.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Doença inflamatória pélvica: internação',
     e: 'É indicação de internação na doença inflamatória pélvica:',
-    o: ['Abscesso tubo-ovariano, gestação, falha do tratamento oral ou quadro grave', 'Primeiro episódio leve', 'Uso de DIU sem outros sinais', 'Idade de 25 anos'],
+    o: ['Abscesso tubo-ovariano, gestação, falha oral ou quadro grave', 'Primeiro episódio de DIP leve, em mulher estável', 'Uso de DIU, sem outros sinais de gravidade', 'Idade de 25 anos, em mulher sem comorbidades'],
     g: 'A',
     c: 'Também: impossibilidade de excluir emergência cirúrgica, como apendicite, e intolerância ao tratamento oral. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Pode ser ambulatorial.', C: 'Não é critério isolado.', D: 'Não é critério.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Doença inflamatória pélvica: complicações',
     e: 'Paciente com DIP apresenta dor em hipocôndrio direito e aderências em corda de violino entre fígado e diafragma. O diagnóstico é:',
-    o: ['Síndrome de Fitz-Hugh-Curtis (peri-hepatite)', 'Colecistite aguda', 'Hepatite viral', 'Abscesso hepático amebiano'],
+    o: ['Síndrome de Fitz-Hugh-Curtis (peri-hepatite)', 'Colecistite aguda litiásica, com Murphy positivo', 'Hepatite viral aguda, com transaminases altas', 'Abscesso hepático amebiano, em área endêmica'],
     g: 'A',
     c: 'Associa-se a clamídia e gonococo. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não é o mecanismo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Doença inflamatória pélvica: sequelas',
     e: 'Uma sequela de longo prazo da doença inflamatória pélvica é:',
-    o: ['Infertilidade por fator tubário e gestação ectópica', 'Câncer de colo', 'Endometriose', 'Mioma'],
+    o: ['Infertilidade tubária e gestação ectópica', 'Câncer de colo uterino, por HPV oncogênico', 'Endometriose pélvica, com lesões profundas', 'Mioma uterino, com sangramento aumentado'],
     g: 'A',
     c: 'Dor pélvica crônica também é frequente. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Relação com HPV.', C: 'Sem relação causal.', D: 'Sem relação.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Úlceras genitais: sífilis primária',
     e: 'Homem com úlcera genital única, indolor, de bordas endurecidas e fundo limpo, com linfonodo inguinal indolor. A hipótese principal é:',
-    o: ['Sífilis primária (cancro duro)', 'Cancro mole', 'Herpes genital', 'Linfogranuloma venéreo'],
+    o: ['Sífilis primária (cancro duro)', 'Cancro mole, causado pelo H. ducreyi', 'Herpes genital, em primoinfecção', 'Linfogranuloma venéreo, por clamídia L1-L3'],
     g: 'A',
     c: 'O tratamento é penicilina benzatina 2,4 milhões UI em dose única. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Úlceras dolorosas e múltiplas.', C: 'Vesículas dolorosas.', D: 'Úlcera fugaz e bubão.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Úlceras genitais: cancro mole',
     e: 'Úlceras genitais múltiplas, dolorosas, de fundo sujo e bordas irregulares, com bubão inguinal que fistuliza por orifício único. O agente e o tratamento são:',
-    o: ['Haemophilus ducreyi; azitromicina 1 g VO dose única', 'Treponema pallidum; penicilina', 'Chlamydia trachomatis L1 a L3; doxiciclina 21 dias', 'Herpes simplex; aciclovir'],
+    o: ['H. ducreyi; azitromicina 1 g VO em dose única', 'T. pallidum, com penicilina benzatina', 'C. trachomatis L1 a L3, com doxiciclina por 21 dias', 'Herpes simplex, com aciclovir por 7 dias'],
     g: 'A',
     c: 'Ceftriaxona IM também é opção. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Úlcera única e indolor.', C: 'Bubão com múltiplos orifícios.', D: 'Vesículas.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Úlceras genitais: herpes',
     e: 'Mulher com vesículas agrupadas sobre base eritematosa na vulva, dor e ardor, que evoluem para úlceras rasas. O tratamento do primeiro episódio é:',
-    o: ['Aciclovir 400 mg VO de 8 em 8 horas por 7 a 10 dias', 'Penicilina benzatina', 'Azitromicina', 'Metronidazol'],
+    o: ['Aciclovir 400 mg VO de 8/8 h por 7 a 10 dias', 'Penicilina benzatina 2,4 milhões UI, dose única', 'Azitromicina 1 g por via oral, em dose única', 'Metronidazol 500 mg de 12/12 h por 7 dias'],
     g: 'A',
     c: 'Recorrências podem ser tratadas por 5 dias; supressão crônica se 6 ou mais episódios por ano. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Linfogranuloma venéreo',
     e: 'Homem com úlcera genital pequena e transitória, seguida de bubão inguinal doloroso que fistuliza por múltiplos orifícios (bico de regador). O tratamento é:',
-    o: ['Doxiciclina 100 mg 12/12 h por 21 dias', 'Penicilina benzatina dose única', 'Aciclovir', 'Fluconazol'],
+    o: ['Doxiciclina 100 mg 12/12 h por 21 dias', 'Penicilina benzatina 2,4 milhões UI em dose única', 'Aciclovir 400 mg 8/8 h por 7 dias', 'Fluconazol 150 mg em dose única oral'],
     g: 'A',
     c: 'Causado por Chlamydia trachomatis sorotipos L1 a L3. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Trata sífilis.', C: 'Trata herpes.', D: 'Antifúngico.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Donovanose',
     e: 'Úlcera genital indolor, de crescimento lento, com aspecto vermelho-vivo de carne, sangrante, sem linfadenopatia importante. O diagnóstico é:',
-    o: ['Donovanose (granuloma inguinal)', 'Cancro mole', 'Sífilis primária', 'Herpes'],
+    o: ['Donovanose (granuloma inguinal)', 'Cancro mole, de fundo sujo e doloroso', 'Sífilis primária, com úlcera indolor e limpa', 'Herpes genital, com vesículas agrupadas'],
     g: 'A',
     c: 'Agente: Klebsiella granulomatis. Diagnóstico pelos corpúsculos de Donovan. Tratamento com doxiciclina ou azitromicina por pelo menos 3 semanas. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Úlcera dolorosa.', C: 'Úlcera de fundo limpo e endurecida.', D: 'Vesículas dolorosas.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Sífilis: testes',
     e: 'Sobre os testes para sífilis, é correto afirmar:',
-    o: ['Testes treponêmicos permanecem reagentes após o tratamento, e os não treponêmicos (VDRL) servem para seguimento', 'O VDRL sempre negativa em 1 semana', 'O teste treponêmico é usado para controle de cura', 'Os testes não têm utilidade'],
+    o: ['Treponêmicos seguem reagentes; VDRL serve ao seguimento', 'O VDRL sempre negativa em uma semana', 'O teste treponêmico é usado como controle de cura', 'Os testes não têm utilidade no seguimento'],
     g: 'A',
     c: 'Uma queda de duas diluições do VDRL em 6 a 12 meses indica resposta adequada. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não é o padrão.', C: 'O VDRL é usado para controle.', D: 'Têm utilidade.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Sífilis: reação',
     e: 'Após a primeira dose de penicilina para sífilis secundária, o paciente apresenta febre, mialgia e piora transitória das lesões em poucas horas. Trata-se de:',
-    o: ['Reação de Jarisch-Herxheimer', 'Alergia grave à penicilina', 'Falha terapêutica', 'Neurossífilis'],
+    o: ['Reação de Jarisch-Herxheimer', 'Alergia grave à penicilina, com anafilaxia', 'Falha terapêutica precoce, com resistência', 'Neurossífilis aguda, com sinais meníngeos'],
     g: 'A',
     c: 'É autolimitada e tratada com sintomáticos; não contraindica a penicilina. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não é alergia.', C: 'Não é falha.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Neurossífilis',
     e: 'O tratamento da neurossífilis é:',
-    o: ['Penicilina cristalina intravenosa por 14 dias', 'Penicilina benzatina dose única', 'Azitromicina', 'Doxiciclina por 7 dias'],
+    o: ['Penicilina cristalina IV por 14 dias', 'Penicilina benzatina em dose única intramuscular', 'Azitromicina 1 g por via oral, dose única', 'Doxiciclina por via oral durante 7 dias'],
     g: 'A',
     c: 'A penicilina benzatina não atinge níveis adequados no líquor. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não atinge o SNC.', C: 'Inadequada.', D: 'Inadequada.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'HPV: verrugas',
     e: 'Mulher não gestante com verrugas anogenitais pequenas. Tratamentos possíveis incluem:',
-    o: ['Imiquimode, podofilotoxina, ácido tricloroacético ou crioterapia', 'Penicilina', 'Fluconazol', 'Metronidazol'],
+    o: ['Imiquimode, podofilotoxina, ácido tricloroacético ou crioterapia', 'Penicilina benzatina em dose única, por via intramuscular', 'Fluconazol 150 mg em dose única, por via oral', 'Metronidazol 500 mg de 12/12 h, por via oral'],
     g: 'A',
     c: 'Na gestação, evitam-se imiquimode e podofilotoxina; usam-se ácido tricloroacético, crioterapia ou exérese. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Profilaxia pós-exposição',
     e: 'Mulher com relação sexual desprotegida com parceiro de status sorológico desconhecido para HIV há 30 horas. A conduta é:',
-    o: ['Avaliar e iniciar profilaxia pós-exposição (PEP) por 28 dias, que deve começar até 72 horas', 'Não há indicação após 24 horas', 'Esperar 3 meses e testar', 'Usar apenas preservativo depois'],
+    o: ['Avaliar e iniciar PEP por 28 dias, em até 72 horas', 'Não há indicação de PEP após 24 horas', 'Esperar 3 meses e apenas testar a paciente', 'Usar apenas preservativo nas relações seguintes'],
     g: 'A',
     c: 'Também se avaliam sífilis, hepatites, outras IST, contracepção de emergência e vacinação. Referência: Brasil. Ministério da Saúde. PCDT para Profilaxia Pós-Exposição (PEP) de Risco à Infecção pelo HIV, IST e Hepatites Virais. Brasília: MS, 2021.',
     x: { B: 'O prazo é de 72 horas.', C: 'Perde a janela.', D: 'Insuficiente.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'PrEP',
     e: 'A profilaxia pré-exposição ao HIV (PrEP) consiste em:',
-    o: ['Uso de antirretroviral (tenofovir com entricitabina) por pessoas HIV negativas com risco aumentado', 'Vacina contra HIV', 'Tratamento após exposição', 'Uso de preservativo apenas'],
+    o: ['Tenofovir com entricitabina em pessoas HIV negativas de risco', 'Vacina contra o HIV, em esquema de duas doses', 'Tratamento iniciado após uma exposição de risco', 'Uso exclusivo de preservativo, sem medicamentos'],
     g: 'A',
     c: 'Exige testagem regular e acompanhamento da função renal. Referência: Brasil. Ministério da Saúde. PCDT para Profilaxia Pré-Exposição (PrEP) de Risco à Infecção pelo HIV. Brasília: MS, 2022.',
     x: { B: 'Não há vacina disponível.', C: 'É a PEP.', D: 'Não é PrEP.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Abordagem sindrômica',
     e: 'A abordagem sindrômica das IST tem como vantagem:',
-    o: ['Tratar no primeiro atendimento, sem esperar exames, reduzindo perdas de seguimento e transmissão', 'Dispensar orientação e tratamento de parcerias', 'Substituir a testagem para HIV e sífilis', 'Diagnosticar com certeza o agente'],
+    o: ['Tratar no 1º atendimento, sem esperar exames', 'Dispensar a orientação e o tratamento de parcerias', 'Substituir a testagem para HIV e sífilis', 'Diagnosticar com certeza o agente etiológico'],
     g: 'A',
     c: 'Deve vir acompanhada de testagem para HIV, sífilis e hepatites, aconselhamento e tratamento das parcerias. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'As parcerias devem ser tratadas.', C: 'Não substitui.', D: 'Não identifica o agente com certeza.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Gonorreia: resistência',
     e: 'A ceftriaxona é a base do tratamento da gonorreia porque:',
-    o: ['Há resistência crescente do gonococo a outros antibióticos, como quinolonas', 'É mais barata que todos', 'É oral', 'Também trata candidíase'],
+    o: ['Resistência crescente do gonococo a outras drogas', 'Ser mais barata que todas as outras opções', 'Ser administrada por via oral, em dose única', 'Tratar também a candidíase vulvovaginal associada'],
     g: 'A',
     c: 'Quinolonas não são mais recomendadas. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não é o motivo.', C: 'É intramuscular.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Clamídia: rastreio',
     e: 'Para mulheres jovens sexualmente ativas, o rastreio de clamídia e gonococo:',
-    o: ['É recomendado, pois a infecção costuma ser assintomática e causa infertilidade', 'É desnecessário', 'Só é feito em gestantes acima de 40 anos', 'Só é feito após infertilidade'],
+    o: ['Recomendado: costuma ser assintomática e causa infertilidade', 'É desnecessário, mesmo em mulheres jovens ativas', 'Só é feito em gestantes acima de 40 anos de idade', 'Só é feito depois do diagnóstico de infertilidade'],
     g: 'A',
     c: 'O PCDT recomenda rastreio em grupos prioritários, como gestantes e jovens até 25 anos, quando disponível. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'É recomendado.', C: 'Grupo incorreto.', D: 'Tardio.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Sífilis latente',
     e: 'Paciente assintomático com VDRL 1:8 e teste treponêmico reagente, sem tratamento prévio, sem saber quando se infectou. O tratamento é:',
-    o: ['Penicilina benzatina 2,4 milhões UI semanal por 3 semanas (total de 7,2 milhões UI)', 'Dose única de penicilina benzatina', 'Doxiciclina por 7 dias', 'Nenhum tratamento'],
+    o: ['Penicilina benzatina 2,4 milhões UI/semana por 3 semanas', 'Penicilina benzatina em dose única de 2,4 milhões UI', 'Doxiciclina 100 mg 12/12 h por 7 dias', 'Nenhum tratamento, apenas seguimento com VDRL'],
     g: 'A',
     c: 'Sífilis latente de duração ignorada é tratada como tardia. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Só para sífilis recente.', C: 'Esquema inadequado.', D: 'Exige tratamento.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Sífilis na gestação: parceria',
     e: 'Gestante tratada adequadamente para sífilis, mas com parceiro não tratado. O risco é:',
-    o: ['Reinfecção materna e sífilis congênita', 'Nenhum', 'Apenas risco para o parceiro', 'Cura definitiva garantida'],
+    o: ['Reinfecção materna e sífilis congênita', 'Nenhum risco, pois a mãe foi tratada', 'Apenas risco para o parceiro, sem risco ao feto', 'Cura definitiva garantida, após o tratamento'],
     g: 'A',
     c: 'A parceria deve ser testada e tratada. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Há risco.', C: 'A gestante pode se reinfectar.', D: 'Não há garantia.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Sífilis: alergia na gestação',
     e: 'Gestante com sífilis e história de alergia à penicilina. A conduta é:',
-    o: ['Dessensibilização à penicilina, pois é o único tratamento que previne sífilis congênita', 'Usar azitromicina', 'Usar doxiciclina', 'Não tratar'],
+    o: ['Dessensibilizar e tratar com penicilina', 'Usar azitromicina 1 g em dose única', 'Usar doxiciclina 100 mg 12/12 h por 14 dias', 'Não tratar, até o parto, e tratar o RN'],
     g: 'A',
     c: 'A maioria dos relatos de alergia não se confirma; testes e dessensibilização são preferíveis. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Não previne sífilis congênita.', C: 'Contraindicada.', D: 'Inaceitável.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'HPV: rastreio',
     e: 'Sobre as verrugas anogenitais, é correto afirmar:',
-    o: ['São causadas geralmente por HPV de baixo risco (6 e 11) e não são lesões precursoras de câncer de colo', 'São sempre causadas por HPV 16 e 18', 'Causam câncer de colo diretamente', 'São tratadas com antibiótico'],
+    o: ['Em geral HPV 6 e 11, de baixo risco, sem risco de câncer', 'Sempre causadas por HPV 16 e 18, de alto risco', 'Causam câncer de colo diretamente, em todos os casos', 'São tratadas com antibiótico por via oral'],
     g: 'A',
     c: 'Mulheres com verrugas seguem o rastreio habitual de câncer de colo. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Geralmente baixo risco.', C: 'Não são precursoras.', D: 'Sem efeito.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Corrimento: fisiológico',
     e: 'Mulher com corrimento branco, sem odor, sem prurido, com pH de 4 e microscopia normal. A conduta é:',
-    o: ['Tranquilizar, pois é corrimento fisiológico', 'Tratar com metronidazol', 'Tratar com fluconazol', 'Tratar a parceria'],
+    o: ['Tranquilizar: corrimento fisiológico', 'Tratar com metronidazol oral por 7 dias', 'Tratar com fluconazol 150 mg em dose única', 'Tratar a parceria sexual com antibiótico'],
     g: 'A',
     c: 'O conteúdo vaginal fisiológico varia ao longo do ciclo. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Candidíase recorrente',
     e: 'Mulher com 5 episódios confirmados de candidíase em 1 ano. A conduta é:',
-    o: ['Tratamento de indução seguido de supressão com fluconazol semanal por 6 meses, investigando fatores predisponentes', 'Tratar a parceria sempre', 'Usar metronidazol', 'Ignorar'],
+    o: ['Indução e supressão com fluconazol semanal por 6 meses', 'Tratar a parceria sexual sempre, com antifúngico', 'Usar metronidazol oral por 7 dias', 'Ignorar o quadro, pois é fisiológico'],
     g: 'A',
     c: 'Fatores: diabetes, imunossupressão, antibióticos e espécies não albicans. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não reduz recorrência.', C: 'Sem efeito.', D: 'Exige tratamento.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Tricomoníase: gestação',
     e: 'Gestante com tricomoníase sintomática. A conduta é:',
-    o: ['Tratar com metronidazol, que pode ser usado na gestação', 'Não tratar na gestação', 'Usar fluconazol', 'Usar tetraciclina'],
+    o: ['Tratar com metronidazol, que é seguro na gestação', 'Não tratar durante a gestação, por segurança', 'Usar fluconazol 150 mg em dose única oral', 'Usar tetraciclina 500 mg de 6/6 horas'],
     g: 'A',
     c: 'A tricomoníase associa-se a prematuridade e rotura prematura de membranas. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Deve ser tratada.', C: 'Sem efeito.', D: 'Contraindicada.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Vaginose bacteriana: recorrência',
     e: 'Sobre o tratamento da parceria masculina na vaginose bacteriana, é correto afirmar:',
-    o: ['Não é recomendado de rotina, pois não reduz recorrência na mulher', 'É obrigatório', 'Deve ser feito com fluconazol', 'Deve ser feito com penicilina'],
+    o: ['Não recomendado de rotina; não reduz recorrência', 'Obrigatório, para evitar recorrência na mulher', 'Deve ser feito com fluconazol 150 mg em dose única', 'Deve ser feito com penicilina benzatina intramuscular'],
     g: 'A',
     c: 'Recorrências frequentes podem ser tratadas com esquemas supressivos de metronidazol vaginal. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não é recomendado.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'DIP e DIU',
     e: 'Usuária de DIU com DIP leve a moderada. A conduta sobre o DIU é:',
-    o: ['Manter o DIU e tratar, retirando-o se não houver melhora em 72 horas', 'Retirar imediatamente antes de qualquer antibiótico', 'Inserir outro DIU', 'Nunca mais usar DIU'],
+    o: ['Manter o DIU e tratar; retirar se sem melhora em 72 h', 'Retirar imediatamente, antes de qualquer antibiótico', 'Inserir outro DIU, por segurança, no mesmo ato', 'Contraindicar definitivamente o uso de qualquer DIU'],
     g: 'A',
     c: 'Retirar o DIU não melhora o desfecho na maioria dos casos. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Não é necessário.', C: 'Sem sentido.', D: 'Pode voltar a usar.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Abscesso tubo-ovariano',
     e: 'Paciente com DIP e massa anexial complexa de 9 cm, febre persistente apesar de antibiótico intravenoso por 72 horas. A conduta é:',
-    o: ['Drenagem (guiada por imagem ou cirúrgica)', 'Manter apenas antibiótico oral', 'Alta', 'Usar fluconazol'],
+    o: ['Drenagem, guiada por imagem ou cirúrgica', 'Manter apenas antibiótico por via oral, em casa', 'Alta hospitalar, com retorno em 7 dias', 'Usar fluconazol por via oral, em dose única'],
     g: 'A',
     c: 'Abscessos grandes ou sem resposta exigem drenagem; ruptura é emergência cirúrgica. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Insuficiente.', C: 'Inadequado.', D: 'Sem efeito.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Herpes: gestação',
     e: 'Gestante com herpes genital recorrente. Para reduzir recorrência no parto, recomenda-se:',
-    o: ['Aciclovir supressivo a partir de 36 semanas', 'Cesárea eletiva para todas as que já tiveram herpes', 'Nenhuma medida', 'Penicilina'],
+    o: ['Aciclovir supressivo a partir de 36 semanas', 'Cesárea eletiva para todas que já tiveram herpes', 'Nenhuma medida específica, apenas observação', 'Penicilina benzatina em dose única semanal'],
     g: 'A',
     c: 'A cesárea é indicada se houver lesão ativa ou pródromos no trabalho de parto. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Só com lesão ativa.', C: 'Há medida eficaz.', D: 'Sem efeito.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Uretrite masculina',
     e: 'Homem com secreção uretral purulenta e disúria. O tratamento sindrômico é:',
-    o: ['Ceftriaxona 500 mg IM e azitromicina 1 g VO, tratando também a parceria', 'Fluconazol', 'Metronidazol isolado', 'Aciclovir'],
+    o: ['Ceftriaxona 500 mg IM e azitromicina 1 g VO', 'Fluconazol 150 mg por via oral, em dose única', 'Metronidazol 2 g por via oral, em dose única isolada', 'Aciclovir 400 mg por via oral de 8/8 h, 7 dias'],
     g: 'A',
     c: 'Cobre gonococo e clamídia. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Sem efeito.', C: 'Insuficiente.', D: 'Sem efeito.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Notificação',
     e: 'Entre as IST abaixo, é de notificação compulsória no Brasil:',
-    o: ['Sífilis adquirida, gestacional e congênita', 'Candidíase', 'Vaginose bacteriana', 'Verruga anogenital'],
+    o: ['Sífilis adquirida, gestacional e congênita', 'Candidíase vulvovaginal recorrente', 'Vaginose bacteriana, em gestantes e não gestantes', 'Verruga anogenital, em qualquer localização'],
     g: 'A',
     c: 'HIV, hepatites virais e sífilis estão na lista de notificação. Referência: Brasil. Ministério da Saúde. Portaria GM/MS nº 217, de 1º de março de 2023 (Lista Nacional de Notificação Compulsória).',
     x: { B: 'Não é notificável.', C: 'Não é notificável.', D: 'Não é notificável.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Úlceras: diferencial',
     e: 'Úlcera genital dolorosa, recorrente, precedida de ardor e formigamento local, em paciente com episódios prévios. O diagnóstico mais provável é:',
-    o: ['Herpes genital recorrente', 'Sífilis primária', 'Donovanose', 'Linfogranuloma'],
+    o: ['Herpes genital recorrente', 'Sífilis primária, com úlcera única indolor', 'Donovanose, com úlcera vermelha e indolor', 'Linfogranuloma venéreo, com bubão inguinal'],
     g: 'A',
     c: 'Os pródromos são característicos do herpes. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Indolor.', C: 'Indolor.', D: 'Lesão transitória e bubão.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Violência sexual',
     e: 'Mulher vítima de violência sexual atendida 24 horas após o evento. A conduta inclui:',
-    o: ['Contracepção de emergência, profilaxia para IST e HIV, vacina e imunoglobulina para hepatite B se indicado, e acolhimento', 'Apenas registro policial', 'Apenas exame ginecológico', 'Aguardar 1 mês para avaliar'],
+    o: ['Contracepção de emergência, profilaxia de IST/HIV, vacina e acolhimento', 'Apenas registro do boletim policial, sem exame clínico', 'Apenas exame ginecológico, sem outras medidas de proteção', 'Aguardar 1 mês para reavaliar e então decidir condutas'],
     g: 'A',
     c: 'O atendimento não depende de boletim de ocorrência. Referência: Brasil. Ministério da Saúde. Norma Técnica: Prevenção e tratamento dos agravos resultantes da violência sexual contra mulheres e adolescentes. 3ª ed. Brasília: MS, 2012.',
     x: { B: 'Não é obrigatório.', C: 'Insuficiente.', D: 'Perde janela.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Sífilis: seguimento',
     e: 'Após tratamento de sífilis recente, o VDRL deve ser repetido:',
-    o: ['A cada 3 meses no primeiro ano (mensal na gestante)', 'Somente após 5 anos', 'Nunca', 'Diariamente'],
+    o: ['A cada 3 meses no 1º ano (mensal na gestante)', 'Somente após 5 anos do tratamento', 'Nunca, pois o tratamento é curativo', 'Diariamente, durante o primeiro mês'],
     g: 'A',
     c: 'Elevação de duas diluições ou mais sugere reinfecção ou falha. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Tardio.', C: 'Necessário.', D: 'Desnecessário.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Pediculose pubiana',
     e: 'Prurido pubiano com lêndeas aderidas aos pelos. O tratamento é:',
-    o: ['Permetrina tópica e tratamento das parcerias', 'Fluconazol', 'Metronidazol', 'Penicilina'],
+    o: ['Permetrina tópica e tratamento das parcerias', 'Fluconazol 150 mg por via oral, dose única', 'Metronidazol 500 mg por via oral, por 7 dias', 'Penicilina benzatina 2,4 milhões UI, dose única'],
     g: 'A',
     c: 'Também se deve lavar roupas e roupas de cama. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Gonorreia: complicação',
     e: 'A gonorreia pode causar, em sua forma disseminada:',
-    o: ['Artrite séptica, tenossinovite e lesões cutâneas pustulosas', 'Pancreatite', 'Hipotireoidismo', 'Anemia megaloblástica'],
+    o: ['Artrite séptica, tenossinovite e pústulas cutâneas', 'Pancreatite aguda, com elevação importante de amilase', 'Hipotireoidismo primário, com TSH elevado persistente', 'Anemia megaloblástica, com macrocitose e hipersegmentação'],
     g: 'A',
     c: 'É mais comum em mulheres e durante a menstruação ou gestação. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Clamídia: recém-nascido',
     e: 'Recém-nascido de mãe com clamídia não tratada tem risco de:',
-    o: ['Conjuntivite e pneumonia neonatal', 'Sífilis congênita', 'Rubéola', 'Toxoplasmose'],
+    o: ['Conjuntivite e pneumonia neonatal', 'Sífilis congênita, com lesões cutâneas', 'Rubéola congênita, com catarata e surdez', 'Toxoplasmose congênita, com calcificações'],
     g: 'A',
     c: 'O rastreio e tratamento na gestação previnem a transmissão. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Outro agente.', C: 'Outro agente.', D: 'Outro agente.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Testagem',
     e: 'Toda pessoa diagnosticada com uma IST deve ser oferecida:',
-    o: ['Testagem para HIV, sífilis e hepatites B e C', 'Apenas tratamento da IST atual', 'Exame de imagem', 'Internação'],
+    o: ['Testagem para HIV, sífilis e hepatites B e C', 'Apenas o tratamento da IST atual, sem testes', 'Exame de imagem pélvico, por ultrassonografia', 'Internação hospitalar, para observação clínica'],
     g: 'A',
     c: 'As IST frequentemente coexistem. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Insuficiente.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Prevenção combinada',
     e: 'A estratégia de prevenção combinada do HIV inclui:',
-    o: ['Preservativos, testagem regular, PrEP, PEP, tratamento das pessoas vivendo com HIV e redução de danos', 'Apenas preservativo', 'Apenas antibiótico profilático', 'Apenas abstinência'],
+    o: ['Preservativo, testagem, PrEP, PEP, tratamento e redução de danos', 'Apenas o uso de preservativo, de forma isolada', 'Apenas antibiótico profilático, antes da relação', 'Apenas abstinência sexual, como estratégia única'],
     g: 'A',
     c: 'O tratamento com carga viral indetectável impede a transmissão sexual (indetectável igual a intransmissível). Referência: Brasil. Ministério da Saúde. Prevenção combinada do HIV: bases conceituais para profissionais, trabalhadores e gestores de saúde. Brasília: MS, 2017.',
     x: { B: 'Insuficiente.', C: 'Sem efeito.', D: 'Insuficiente.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_IST: QuestaoCompacta[] = [
   {
     s: 'Vaginose: complicações',
     e: 'A vaginose bacteriana associa-se a:',
-    o: ['Maior risco de aquisição de IST, incluindo HIV, e a complicações obstétricas como prematuridade', 'Câncer de ovário', 'Diabetes', 'Mioma'],
+    o: ['Mais risco de IST, inclusive HIV, e de prematuridade', 'Câncer de ovário, por inflamação crônica', 'Diabetes mellitus, por alteração da flora', 'Mioma uterino, por estímulo estrogênico'],
     g: 'A',
     c: 'Por isso deve ser tratada quando sintomática. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },

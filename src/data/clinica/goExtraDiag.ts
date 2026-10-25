@@ -5,7 +5,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de gravidez',
     e: 'Mulher com atraso menstrual de 2 semanas e beta-hCG positivo. A ultrassonografia transvaginal costuma visualizar o saco gestacional a partir de:',
-    o: ['4,5 a 5 semanas de amenorreia', '8 semanas', '10 semanas', '12 semanas'],
+    o: ['4,5 a 5 semanas de amenorreia', '8 semanas de amenorreia', '10 semanas de amenorreia', '12 semanas de amenorreia'],
     g: 'A',
     c: 'Pela via transvaginal, o saco gestacional aparece por volta de 4,5 a 5 semanas; a vesícula vitelina, por volta de 5 a 5,5 semanas; e o embrião com batimentos, por volta de 6 semanas. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Tardio demais para o saco gestacional.', C: 'Tardio demais.', D: 'Tardio demais.' },
@@ -13,7 +13,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de gravidez',
     e: 'A zona discriminatória do beta-hCG, acima da qual o saco gestacional intrauterino deveria ser visto pela ultrassonografia transvaginal, situa-se em torno de:',
-    o: ['1.500 a 2.000 mUI/mL (com valores de referência mais conservadores de até 3.500)', '100 mUI/mL', '10.000 mUI/mL', '50.000 mUI/mL'],
+    o: ['1.500 a 2.000 mUI/mL, ou até 3.500 se conservador', '100 mUI/mL, valor muito baixo para o saco', '10.000 mUI/mL, valor muito acima do esperado', '50.000 mUI/mL, valor muito acima do esperado'],
     g: 'A',
     c: 'Beta-hCG acima da zona sem saco intrauterino levanta suspeita de gestação ectópica. Valores mais altos são usados para evitar interromper gestação viável. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Muito baixo.', C: 'Muito alto.', D: 'Muito alto.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de gravidez',
     e: 'Na gestação inicial normal, o beta-hCG sérico tende a:',
-    o: ['Aumentar ao menos cerca de 50% a cada 48 horas nas primeiras semanas', 'Diminuir progressivamente desde a implantação', 'Permanecer estável', 'Aumentar 10 vezes por dia'],
+    o: ['Aumentar ao menos 50% a cada 48 horas', 'Diminuir progressivamente desde a implantação', 'Permanecer estável nas primeiras semanas', 'Aumentar 10 vezes por dia nas primeiras semanas'],
     g: 'A',
     c: 'Elevação inadequada sugere gestação inviável ou ectópica. O pico ocorre por volta de 8 a 10 semanas. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Indica gestação inviável ou resolução.', C: 'Sugere anormalidade.', D: 'Valor sem base fisiológica.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de gravidez',
     e: 'São sinais de certeza de gravidez:',
-    o: ['Batimentos cardíacos fetais e movimentos fetais percebidos pelo examinador', 'Amenorreia e náuseas', 'Sinal de Hegar e de Chadwick', 'Aumento do volume abdominal'],
+    o: ['BCF e movimentos fetais sentidos pelo examinador', 'Amenorreia e náuseas matinais na gestante', 'Sinais de Hegar e de Chadwick ao exame físico', 'Aumento do volume abdominal e das mamas'],
     g: 'A',
     c: 'Os sinais de certeza dependem da identificação do feto: BCF, movimentos percebidos pelo médico e visualização fetal por imagem. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'São sinais de presunção.', C: 'São sinais de probabilidade.', D: 'É sinal de probabilidade.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de gravidez',
     e: 'A coloração violácea da mucosa vulvar e vaginal na gestação é chamada sinal de:',
-    o: ['Chadwick (Jacquemier)', 'Hegar', 'Goodell', 'Puzos'],
+    o: ['Sinal de Chadwick', 'Sinal de Hegar', 'Sinal de Goodell', 'Sinal de Puzos'],
     g: 'A',
     c: 'Decorre da congestão vascular pélvica. Goodell é o amolecimento do colo; Puzos, o rechaço fetal. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Amolecimento ístmico.', C: 'Amolecimento do colo.', D: 'Rechaço fetal.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Idade gestacional',
     e: 'O método mais preciso para datar a gestação é:',
-    o: ['Ultrassonografia do primeiro trimestre pelo comprimento cabeça-nádega', 'DUM em mulher com ciclos irregulares', 'Altura uterina no terceiro trimestre', 'Ultrassonografia de 36 semanas'],
+    o: ['USG do 1º trimestre pelo comprimento cabeça-nádega', 'DUM em mulher com ciclos irregulares', 'Altura uterina medida no terceiro trimestre', 'USG de 36 semanas pela biometria fetal'],
     g: 'A',
     c: 'A medida do CCN até cerca de 14 semanas tem erro de poucos dias; quando diverge muito da DUM, prevalece a ultrassonografia. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Ciclos irregulares tornam a DUM imprecisa.', C: 'Muito imprecisa.', D: 'O erro aumenta com a idade gestacional.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações hematológicas',
     e: 'A anemia fisiológica da gestação decorre principalmente de:',
-    o: ['Aumento do volume plasmático proporcionalmente maior que o da massa eritrocitária', 'Hemólise', 'Deficiência de vitamina B12', 'Perda sanguínea oculta'],
+    o: ['Aumento do plasma maior que o da massa eritrocitária', 'Hemólise intravascular crônica da gestação', 'Deficiência de vitamina B12 na dieta', 'Perda sanguínea oculta durante a gestação'],
     g: 'A',
     c: 'O volume plasmático aumenta cerca de 40 a 50% e a massa eritrocitária cerca de 20 a 30%, causando hemodiluição. Hemoglobina abaixo de 11 g/dL caracteriza anemia na gestação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não é o mecanismo fisiológico.', C: 'Não é o mecanismo.', D: 'Não é o mecanismo.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações hematológicas',
     e: 'Sobre a coagulação na gestação normal, é correto afirmar:',
-    o: ['Há estado de hipercoagulabilidade, com aumento de fibrinogênio e fatores de coagulação', 'Há redução do fibrinogênio', 'Há tendência hemorrágica fisiológica', 'As plaquetas aumentam muito'],
+    o: ['Hipercoagulabilidade, com mais fibrinogênio e fatores', 'Redução do fibrinogênio plasmático circulante', 'Tendência hemorrágica fisiológica nas gestantes', 'Aumento muito grande da contagem de plaquetas'],
     g: 'A',
     c: 'O aumento dos fatores (como VII, VIII, X e fibrinogênio) prepara para o parto, mas eleva o risco de tromboembolismo. Pode haver leve redução de plaquetas. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'O fibrinogênio aumenta.', C: 'O estado é pró-trombótico.', D: 'As plaquetas podem reduzir discretamente.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações cardiovasculares',
     e: 'Na gestação normal, o débito cardíaco:',
-    o: ['Aumenta cerca de 30 a 50%, por aumento da frequência cardíaca e do volume sistólico', 'Diminui progressivamente', 'Não se altera', 'Aumenta só no puerpério'],
+    o: ['Aumenta 30 a 50%, por FC e volume sistólico maiores', 'Diminui progressivamente ao longo da gestação', 'Não se altera durante a gestação normal', 'Aumenta somente a partir do puerpério imediato'],
     g: 'A',
     c: 'A resistência vascular periférica cai, e a PA tende a diminuir no segundo trimestre. O pico de sobrecarga ocorre no parto e no pós-parto imediato. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Aumenta.', C: 'Aumenta.', D: 'Aumenta já na gestação.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações cardiovasculares',
     e: 'Na gestação, a pressão arterial habitualmente:',
-    o: ['Cai no segundo trimestre e retorna a níveis pré-gestacionais no terceiro', 'Sobe progressivamente desde o primeiro trimestre', 'Não varia', 'Cai apenas no puerpério'],
+    o: ['Cai no 2º trimestre e volta ao basal no 3º', 'Sobe progressivamente desde o primeiro trimestre', 'Não varia ao longo de toda a gestação', 'Cai apenas no puerpério, após o parto'],
     g: 'A',
     c: 'A queda decorre da redução da resistência vascular periférica por progesterona e outros vasodilatadores. Elevação após 20 semanas sugere doença hipertensiva. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Elevação sugere doença.', C: 'Há variação fisiológica.', D: 'Varia na gestação.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações cardiovasculares',
     e: 'Achado de ausculta considerado fisiológico na gestação é:',
-    o: ['Sopro sistólico suave e terceira bulha', 'Sopro diastólico', 'Atrito pericárdico', 'Quarta bulha intensa com galope'],
+    o: ['Sopro sistólico suave e terceira bulha', 'Sopro diastólico em foco mitral', 'Atrito pericárdico à ausculta', 'Quarta bulha intensa com galope'],
     g: 'A',
     c: 'O aumento do fluxo justifica sopro sistólico e B3. Sopros diastólicos sugerem doença valvar e exigem investigação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Exige investigação.', C: 'Patológico.', D: 'Patológico.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Supine hypotension',
     e: 'Gestante de 34 semanas em decúbito dorsal apresenta tontura, palidez e hipotensão, que melhoram em decúbito lateral esquerdo. O mecanismo é:',
-    o: ['Compressão da veia cava inferior pelo útero gravídico', 'Embolia pulmonar', 'Descolamento de placenta', 'Hipoglicemia'],
+    o: ['Compressão da veia cava inferior pelo útero', 'Embolia pulmonar aguda maciça', 'Descolamento prematuro de placenta', 'Hipoglicemia por jejum prolongado'],
     g: 'A',
     c: 'A síndrome da hipotensão supina reduz o retorno venoso; o decúbito lateral esquerdo alivia a compressão. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Não melhoraria com a posição.', C: 'Teria dor e sangramento.', D: 'Não depende da posição.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações respiratórias',
     e: 'A gasometria arterial típica na gestação normal mostra:',
-    o: ['Alcalose respiratória compensada, com PaCO2 em torno de 30 mmHg', 'Acidose respiratória', 'Alcalose metabólica', 'PaCO2 de 50 mmHg'],
+    o: ['Alcalose respiratória compensada, PaCO2 ~30 mmHg', 'Acidose respiratória crônica compensada', 'Alcalose metabólica com hipocalemia', 'PaCO2 de 50 mmHg, com hipoxemia leve'],
     g: 'A',
     c: 'A progesterona estimula o centro respiratório e aumenta a ventilação minuto, principalmente pelo volume corrente. O bicarbonato cai para compensar. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'O CO2 está baixo.', C: 'O distúrbio é respiratório.', D: 'Indicaria hipoventilação.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações renais',
     e: 'Gestante de 24 semanas tem creatinina sérica de 1,1 mg/dL. A interpretação é:',
-    o: ['Valor elevado para a gestação, pois a taxa de filtração glomerular aumenta cerca de 50%', 'Valor normal para a gestação', 'Valor baixo', 'Valor que não pode ser interpretado'],
+    o: ['Elevado para a gestação, pois a filtração glomerular sobe 50%', 'Valor normal para a gestação, sem necessidade de investigação', 'Valor baixo, devendo-se repetir o exame em jejum', 'Valor que não pode ser interpretado na gestação'],
     g: 'A',
     c: 'A creatinina normal na gestação costuma ficar abaixo de 0,8 a 0,9 mg/dL; valores maiores sugerem disfunção renal. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Na gestação esse valor é alto.', C: 'Não é baixo.', D: 'Pode e deve ser interpretado.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações renais',
     e: 'A dilatação ureteral e pielocalicial na gestação:',
-    o: ['É fisiológica, mais frequente à direita, e favorece pielonefrite', 'É sempre sinal de obstrução patológica', 'É mais comum à esquerda', 'Não ocorre na gestação'],
+    o: ['Fisiológica, mais à direita, e favorece pielonefrite', 'Sempre sinal de obstrução patológica ureteral', 'Mais comum à esquerda, por compressão do útero', 'Não ocorre durante a gestação normal'],
     g: 'A',
     c: 'Progesterona e compressão pelo útero dextrorrotado explicam o predomínio à direita. A estase favorece infecção ascendente. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'É fisiológica.', C: 'É mais comum à direita.', D: 'Ocorre frequentemente.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações endócrinas',
     e: 'No primeiro trimestre, o TSH tende a cair por causa de:',
-    o: ['Ação tireoestimulante do hCG, semelhante estruturalmente ao TSH', 'Aumento do cortisol', 'Queda da TBG', 'Aumento da prolactina'],
+    o: ['Ação tireoestimulante do hCG, parecido com o TSH', 'Aumento do cortisol sérico materno', 'Queda da TBG pelo estrogênio elevado', 'Aumento da prolactina materna progressivo'],
     g: 'A',
     c: 'O pico do hCG estimula a tireoide e reduz o TSH; a TBG aumenta pelo estrogênio, elevando T4 total. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não é o mecanismo.', C: 'A TBG aumenta.', D: 'Não é o mecanismo.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações metabólicas',
     e: 'A resistência à insulina na segunda metade da gestação se deve principalmente a:',
-    o: ['Hormônios placentários, como o lactogênio placentário humano (hPL)', 'Redução do cortisol', 'Hipotireoidismo fisiológico', 'Queda da prolactina'],
+    o: ['Hormônios placentários, como o lactogênio placentário (hPL)', 'Redução do cortisol materno ao longo da gestação', 'Hipotireoidismo fisiológico da segunda metade', 'Queda da prolactina sérica no 3º trimestre'],
     g: 'A',
     c: 'O efeito diabetogênico favorece oferta de glicose ao feto e explica o rastreamento de diabetes gestacional entre 24 e 28 semanas. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'O cortisol aumenta.', C: 'Não é fisiológico.', D: 'A prolactina aumenta.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações gastrointestinais',
     e: 'A pirose e a constipação comuns na gestação devem-se principalmente a:',
-    o: ['Relaxamento da musculatura lisa pela progesterona e compressão uterina', 'Aumento da motilidade intestinal', 'Hipersecreção ácida isolada', 'Infecção por Helicobacter'],
+    o: ['Relaxamento da musculatura lisa pela progesterona', 'Aumento da motilidade intestinal pelo estrogênio', 'Hipersecreção ácida gástrica de causa isolada', 'Infecção crônica por Helicobacter pylori'],
     g: 'A',
     c: 'A progesterona reduz o tônus do esfíncter esofágico inferior e a motilidade intestinal. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'A motilidade diminui.', C: 'Não é o mecanismo principal.', D: 'Não é o mecanismo.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações laboratoriais',
     e: 'Exame laboratorial que se eleva fisiologicamente na gestação, por produção placentária, é:',
-    o: ['Fosfatase alcalina', 'Albumina', 'Ureia', 'Bilirrubina'],
+    o: ['Fosfatase alcalina', 'Albumina sérica', 'Ureia sérica', 'Bilirrubina total'],
     g: 'A',
     c: 'A fosfatase alcalina pode dobrar ou triplicar. A albumina cai por hemodiluição; ureia e creatinina caem pelo aumento da filtração. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Diminui.', C: 'Diminui.', D: 'Não se eleva fisiologicamente.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações cutâneas',
     e: 'São alterações cutâneas fisiológicas da gestação:',
-    o: ['Cloasma, linha nigra, estrias, eritema palmar e telangiectasias', 'Lesões bolhosas pruriginosas generalizadas', 'Icterícia com prurido intenso', 'Púrpura palpável'],
+    o: ['Cloasma, linha nigra, estrias e eritema palmar', 'Lesões bolhosas pruriginosas generalizadas e extensas', 'Icterícia com prurido intenso e acolia fecal', 'Púrpura palpável em membros inferiores e nádegas'],
     g: 'A',
     c: 'Alterações pigmentares e vasculares são fisiológicas, ligadas a estrogênios e hormônio melanotrófico. As demais sugerem doenças específicas, como penfigoide gestacional ou colestase. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Sugere penfigoide gestacional.', C: 'Sugere colestase ou hepatopatia.', D: 'Sugere vasculite.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações mamárias',
     e: 'A hipertrofia das glândulas sebáceas da aréola na gestação recebe o nome de:',
-    o: ['Tubérculos de Montgomery', 'Sinal de Hunter', 'Rede de Haller', 'Sinal de Osiander'],
+    o: ['Tubérculos de Montgomery', 'Sinal de Hunter', 'Rede venosa de Haller', 'Sinal de Osiander'],
     g: 'A',
     c: 'São sinais de presunção de gravidez. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Aréola secundária.', C: 'Rede venosa.', D: 'Pulso vaginal.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Sinais de gravidez',
     e: 'A percepção dos movimentos fetais pela própria gestante costuma ocorrer, na primigesta, por volta de:',
-    o: ['18 a 20 semanas', '8 semanas', '12 semanas', '28 semanas'],
+    o: ['18 a 20 semanas', '8 a 10 semanas', '12 a 14 semanas', '28 a 30 semanas'],
     g: 'A',
     c: 'Multíparas costumam perceber mais cedo, por volta de 16 semanas. A percepção materna é sinal de presunção; a do examinador, de certeza. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Precoce demais.', C: 'Precoce demais.', D: 'Tardio.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Sinais de gravidez',
     e: 'Os batimentos cardíacos fetais podem ser detectados pelo sonar Doppler a partir de cerca de:',
-    o: ['10 a 12 semanas', '6 semanas', '20 semanas', '30 semanas'],
+    o: ['10 a 12 semanas', '6 a 7 semanas', '20 a 22 semanas', '30 a 32 semanas'],
     g: 'A',
     c: 'Com o estetoscópio de Pinard, a ausculta é possível por volta de 18 a 20 semanas. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Só visível ao ultrassom transvaginal.', C: 'É o tempo do Pinard.', D: 'Tardio.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de gravidez',
     e: 'Beta-hCG muito acima do esperado para a idade gestacional, com sangramento e útero maior que o esperado, sugere:',
-    o: ['Doença trofoblástica gestacional ou gestação múltipla', 'Gestação ectópica', 'Abortamento completo', 'Gestação anembrionada sempre'],
+    o: ['Doença trofoblástica ou gestação múltipla', 'Gestação ectópica tubária rota', 'Abortamento completo já ocorrido', 'Gestação anembrionada, em todos os casos'],
     g: 'A',
     c: 'Na mola completa, o ultrassom mostra padrão em flocos de neve e o beta-hCG está muito elevado. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'O beta-hCG costuma ser mais baixo.', C: 'O beta-hCG cai.', D: 'Não explica o beta-hCG elevado.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações hematológicas',
     e: 'Leucometria de 13.000/mm³ em gestante sem sinais infecciosos:',
-    o: ['Pode ser fisiológica na gestação', 'Indica infecção bacteriana grave', 'Indica leucemia', 'Exige antibiótico'],
+    o: ['Pode ser fisiológica na gestação', 'Indica infecção bacteriana grave', 'Indica leucemia aguda, devendo-se investigar', 'Exige antibiótico de amplo espectro'],
     g: 'A',
     c: 'A leucocitose fisiológica pode chegar a cerca de 15.000/mm³ e aumenta mais no trabalho de parto. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Sem quadro clínico, não indica.', C: 'Sem outros achados, não sugere.', D: 'Sem infecção, não.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações metabólicas',
     e: 'Os lipídios séricos na gestação normal:',
-    o: ['Aumentam, com elevação de colesterol total e triglicerídeos', 'Diminuem', 'Não se alteram', 'Caem apenas no terceiro trimestre'],
+    o: ['Aumentam: colesterol total e triglicerídeos', 'Diminuem ao longo de toda a gestação', 'Não se alteram durante a gestação', 'Caem apenas no terceiro trimestre'],
     g: 'A',
     c: 'A hiperlipidemia fisiológica supre o feto; não se recomenda dosar lipídios rotineiramente na gestação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Aumentam.', C: 'Alteram-se.', D: 'Aumentam.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações renais',
     e: 'Glicosúria em gestante com glicemia normal:',
-    o: ['Pode ser fisiológica, pelo aumento da filtração que supera a reabsorção tubular', 'Confirma diabetes gestacional', 'Indica pielonefrite', 'Indica insuficiência renal'],
+    o: ['Pode ser fisiológica, por filtração acima da reabsorção', 'Confirma o diagnóstico de diabetes gestacional', 'Indica pielonefrite aguda em evolução clínica', 'Indica insuficiência renal em evolução silenciosa'],
     g: 'A',
     c: 'A glicosúria não serve para diagnosticar diabetes na gestação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'O diagnóstico exige glicemia.', C: 'Não há relação.', D: 'Não indica.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações renais',
     e: 'Na gestação normal, o ácido úrico sérico no primeiro e segundo trimestres tende a:',
-    o: ['Diminuir, pela maior filtração renal', 'Aumentar acentuadamente', 'Permanecer igual à não gestante', 'Ser indetectável'],
+    o: ['Diminuir, pela maior filtração renal', 'Aumentar acentuadamente desde o início', 'Permanecer igual ao da mulher não gestante', 'Ser indetectável no sangue materno'],
     g: 'A',
     c: 'A elevação do ácido úrico no terceiro trimestre pode acompanhar a pré-eclâmpsia. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Elevação sugere doença.', C: 'Há redução.', D: 'Não é indetectável.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Queixas comuns',
     e: 'Edema de membros inferiores no fim da gestação, sem hipertensão nem proteinúria, é:',
-    o: ['Comum e geralmente fisiológico, pela compressão venosa e retenção hídrica', 'Sempre sinal de pré-eclâmpsia', 'Indicação de diurético', 'Indicação de internação'],
+    o: ['Comum e fisiológico, por compressão venosa e retenção hídrica', 'Sempre sinal de pré-eclâmpsia, mesmo sem hipertensão', 'Indicação de diurético para alívio do edema', 'Indicação de internação para observação'],
     g: 'A',
     c: 'O edema isolado não define pré-eclâmpsia; deve-se, porém, aferir PA e investigar se for súbito, facial ou unilateral. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'A pré-eclâmpsia exige hipertensão.', C: 'Diuréticos não são indicados.', D: 'Não exige internação.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Queixas comuns',
     e: 'Gestante de 30 semanas com parestesia noturna nos três primeiros dedos da mão, sem outras alterações. O diagnóstico mais provável é:',
-    o: ['Síndrome do túnel do carpo pela retenção hídrica', 'Esclerose múltipla', 'AVC', 'Hipocalcemia grave'],
+    o: ['Síndrome do túnel do carpo, por retenção hídrica', 'Esclerose múltipla em surto inicial de doença', 'Acidente vascular cerebral isquêmico em evolução', 'Hipocalcemia grave da gestação, com tetania franca'],
     g: 'A',
     c: 'É comum na gestação e costuma melhorar após o parto; usa-se órtese de punho. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Sem outros déficits.', C: 'Sem déficit focal agudo.', D: 'Não explica o padrão.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Queixas comuns',
     e: 'Gengivas edemaciadas e sangrantes na gestação, sem outras alterações:',
-    o: ['São comuns pela ação hormonal, e a gestante deve ter acompanhamento odontológico', 'Indicam deficiência de vitamina C obrigatória', 'Contraindicam tratamento odontológico', 'Indicam leucemia'],
+    o: ['Comuns por ação hormonal; manter acompanhamento odontológico', 'Indicam deficiência de vitamina C, obrigatoriamente', 'Contraindicam qualquer tratamento odontológico', 'Indicam leucemia aguda, devendo-se investigar'],
     g: 'A',
     c: 'O pré-natal inclui consulta odontológica; o tratamento é seguro, preferencialmente no segundo trimestre. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Não obrigatoriamente.', C: 'O tratamento é seguro.', D: 'Sem outros achados, não.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações respiratórias',
     e: 'A dispneia leve e progressiva sem outros sintomas em gestante saudável:',
-    o: ['É comum e relaciona-se ao aumento da ventilação induzido pela progesterona', 'Sempre indica embolia pulmonar', 'Indica asma em todos os casos', 'Exige tomografia de tórax'],
+    o: ['Comum, pela ventilação aumentada pela progesterona', 'Sempre indica embolia pulmonar, em toda gestante', 'Indica asma brônquica, em todos os casos', 'Exige tomografia de tórax, em todos os casos'],
     g: 'A',
     c: 'Sinais de alarme (dor torácica, taquicardia, hipoxemia, início súbito) exigem investigação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Exige sinais associados.', C: 'Sem sibilos, não.', D: 'Não é rotina.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações cardiovasculares',
     e: 'O momento de maior sobrecarga hemodinâmica para gestantes cardiopatas é:',
-    o: ['O trabalho de parto e o puerpério imediato', 'O primeiro trimestre', 'A 12ª semana', 'O período pré-concepcional'],
+    o: ['Trabalho de parto e puerpério imediato', 'Primeiro trimestre da gestação inicial', 'Décima segunda semana da gestação', 'Período pré-concepcional da mulher'],
     g: 'A',
     c: 'Contrações uterinas e a autotransfusão após a dequitação elevam muito o débito cardíaco. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'A sobrecarga é menor.', C: 'Não é o pico.', D: 'Não há gestação.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações endócrinas',
     e: 'Na gestação, a prolactina sérica:',
-    o: ['Aumenta progressivamente, preparando a lactação', 'Diminui', 'Não se altera', 'Só aumenta após o parto'],
+    o: ['Aumenta progressivamente, preparando a lactação', 'Diminui progressivamente durante a gestação', 'Não se altera durante a gestação', 'Só aumenta depois do parto, na lactação'],
     g: 'A',
     c: 'A lactação plena é inibida pelos altos níveis de progesterona e estrogênio até a dequitação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Aumenta.', C: 'Aumenta.', D: 'Aumenta já na gestação.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações endócrinas',
     e: 'A TBG (globulina ligadora de tiroxina) na gestação aumenta por efeito do:',
-    o: ['Estrogênio', 'Cortisol', 'hPL', 'Prolactina'],
+    o: ['Estrogênio', 'Cortisol', 'Lactogênio', 'Prolactina'],
     g: 'A',
     c: 'Com mais TBG, T4 e T3 totais aumentam; por isso a função tireoidiana na gestação é avaliada pelo TSH e pelo T4 livre. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não é o principal.', C: 'Não é o mecanismo.', D: 'Não é o mecanismo.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Modificações endócrinas',
     e: 'Na gestação, a necessidade de iodo:',
-    o: ['Aumenta, sendo recomendada ingestão de cerca de 220 a 250 microgramas por dia', 'Diminui', 'Não muda', 'Deve ser zerada'],
+    o: ['Aumenta; ingestão de 220 a 250 microgramas por dia', 'Diminui ao longo de toda a gestação', 'Não muda em relação à mulher não gestante', 'Deve ser zerada, para evitar bócio fetal'],
     g: 'A',
     c: 'O aumento da produção de hormônio tireoidiano e da depuração renal de iodo eleva a necessidade. Referência: Alexander EK et al. 2017 Guidelines of the American Thyroid Association for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum. Thyroid. 2017;27(3):315-89.',
     x: { B: 'Aumenta.', C: 'Aumenta.', D: 'O iodo é essencial.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Pelve e postura',
     e: 'A lombalgia comum no fim da gestação relaciona-se principalmente a:',
-    o: ['Lordose acentuada e relaxamento ligamentar pela relaxina e progesterona', 'Fratura vertebral', 'Hérnia de disco em todas as gestantes', 'Pielonefrite obrigatória'],
+    o: ['Lordose acentuada e relaxamento ligamentar por relaxina', 'Fratura vertebral por osteoporose da gestação', 'Hérnia de disco, em todas as gestantes', 'Pielonefrite, obrigatoriamente, nesse caso'],
     g: 'A',
     c: 'Sinais de alarme (febre, déficit neurológico) exigem investigação; na maioria, orientações posturais e fisioterapia ajudam. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Não é a causa comum.', C: 'Não é a regra.', D: 'Exige febre e sinais urinários.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Teste de gravidez',
     e: 'O teste urinário de gravidez detecta:',
-    o: ['A subunidade beta do hCG', 'A progesterona', 'O estrogênio', 'A prolactina'],
+    o: ['A subunidade beta do hCG', 'A progesterona urinária', 'O estrogênio urinário', 'A prolactina urinária'],
     g: 'A',
     c: 'Os testes modernos detectam níveis baixos de hCG, positivando por volta da data do atraso menstrual. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não é o alvo.', C: 'Não é o alvo.', D: 'Não é o alvo.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de gravidez',
     e: 'Mulher com beta-hCG positivo, mas sem gestação: uma causa de resultado falso-positivo é:',
-    o: ['Presença de anticorpos heterofílicos', 'Uso de anticoncepcional oral', 'Hipotireoidismo', 'Anemia ferropriva'],
+    o: ['Anticorpos heterofílicos', 'Uso de anticoncepcional oral', 'Hipotireoidismo materno', 'Anemia ferropriva materna'],
     g: 'A',
     c: 'Anticorpos heterofílicos interferem no imunoensaio sérico, mas não aparecem na urina; a dosagem urinária ajuda a identificar o problema. Tumores produtores de hCG também elevam o exame. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não causa beta-hCG positivo.', C: 'Não causa.', D: 'Não causa.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_DIAG: QuestaoCompacta[] = [
   {
     s: 'Altura uterina',
     e: 'Gestante de 32 semanas com altura uterina de 26 cm. A conduta inicial é:',
-    o: ['Investigar restrição de crescimento, oligoâmnio ou erro de datação com ultrassonografia', 'Considerar normal', 'Indicar parto imediato', 'Repetir a medida apenas no puerpério'],
+    o: ['Investigar RCF, oligoâmnio ou erro de datação por USG', 'Considerar o achado normal para a idade gestacional', 'Indicar parto imediato, pela suspeita de RCF', 'Repetir a medida somente no puerpério imediato'],
     g: 'A',
     c: 'Diferença maior que 3 cm em relação à idade gestacional exige avaliação. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Está abaixo do esperado.', C: 'Sem diagnóstico, não.', D: 'Não é conduta.' },

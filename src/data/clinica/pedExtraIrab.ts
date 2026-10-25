@@ -29,7 +29,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: internação',
     e: 'É indicação de internação em criança com pneumonia:',
-    o: ['Idade menor que 2 meses, saturação abaixo de 92%, incapacidade de beber, convulsão ou letargia', 'Tosse produtiva', 'Febre de 38 °C', 'Taquipneia leve em criança bem alimentada'],
+    o: ['Idade < 2 meses, SatO2 < 92%, não beber, convulsão ou letargia', 'Tosse produtiva, com secreção, em criança alerta', 'Febre de 38 °C, em criança que aceita a dieta', 'Taquipneia leve, em criança bem alimentada e alerta'],
     g: 'A',
     c: 'Também: complicações como derrame e falha do tratamento ambulatorial. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Não é critério.', C: 'Não é critério.', D: 'Pode ser tratada em casa.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia atípica',
     e: 'Escolar de 8 anos com tosse seca persistente, cefaleia, febre baixa e radiografia com infiltrado intersticial, em bom estado geral. O agente provável e o tratamento são:',
-    o: ['Mycoplasma pneumoniae; macrolídeo (azitromicina)', 'Pneumococo; amoxicilina', 'Estafilococo; oxacilina', 'Vírus sincicial; oseltamivir'],
+    o: ['Mycoplasma pneumoniae; macrolídeo (azitromicina)', 'Pneumococo; amoxicilina em dose alta, por 5 dias', 'Estafilococo; oxacilina por via intravenosa', 'Vírus sincicial; oseltamivir por via oral'],
     g: 'A',
     c: 'Pneumonia atípica é mais comum em escolares e adolescentes. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Quadro típico seria mais agudo e lobar.', C: 'Quadro grave com pneumatoceles.', D: 'Sem indicação.' },
@@ -53,7 +53,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia estafilocócica',
     e: 'Lactente com pneumonia grave, evolução rápida, pneumatoceles e derrame pleural. O agente mais provável é:',
-    o: ['Staphylococcus aureus', 'Mycoplasma', 'Vírus sincicial', 'Chlamydia'],
+    o: ['Staphylococcus aureus', 'Mycoplasma pneumoniae, atípico', 'Vírus sincicial respiratório, viral', 'Chlamydia trachomatis, do lactente'],
     g: 'A',
     c: 'Pode haver história de lesão de pele. O tratamento inclui oxacilina ou vancomicina conforme resistência. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Quadro leve.', C: 'Sem pneumatoceles.', D: 'Sem pneumatoceles.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Derrame pleural',
     e: 'Criança com pneumonia mantém febre após 72 horas de antibiótico, com macicez e diminuição do murmúrio à direita. A conduta é:',
-    o: ['Investigar derrame pleural com radiografia e ultrassom, com toracocentese se volumoso', 'Trocar o antibiótico sem investigar', 'Dar alta', 'Iniciar corticoide'],
+    o: ['Investigar derrame com RX e ultrassom; toracocentese se volumoso', 'Trocar o antibiótico, sem investigar a causa da febre', 'Dar alta, com orientação de retorno se houver piora', 'Iniciar corticoide sistêmico por 5 dias, e observar'],
     g: 'A',
     c: 'Empiema (pus, pH baixo, glicose baixa) exige drenagem. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Investigar primeiro.', C: 'Inadequado.', D: 'Sem indicação.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: etiologia',
     e: 'O principal agente da bronquiolite viral aguda é:',
-    o: ['Vírus sincicial respiratório', 'Rinovírus em todos os casos', 'Adenovírus', 'Influenza B'],
+    o: ['Vírus sincicial respiratório', 'Rinovírus, em todos os casos', 'Adenovírus, em todos os casos', 'Influenza B, em todos os casos'],
     g: 'A',
     c: 'Ocorre principalmente em menores de 2 anos, com pico no outono e inverno. Referência: Ralston SL et al. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Pediatrics. 2014;134(5):e1474-502.',
     x: { B: 'Também causa, mas menos.', C: 'Menos comum.', D: 'Menos comum.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: tratamento',
     e: 'Lactente de 4 meses com bronquiolite, saturação de 94%, mamando bem. O tratamento é:',
-    o: ['Suporte: lavagem nasal, hidratação e observação de sinais de piora', 'Salbutamol de rotina', 'Corticoide sistêmico', 'Antibiótico'],
+    o: ['Suporte: lavagem nasal, hidratação e vigilância de piora', 'Salbutamol inalatório de rotina, a cada 4 horas', 'Corticoide sistêmico por 5 dias, em dose habitual', 'Antibiótico oral por 7 dias, em dose habitual'],
     g: 'A',
     c: 'Broncodilatadores, corticoides e antibióticos não são recomendados de rotina. Referência: Ralston SL et al. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Pediatrics. 2014;134(5):e1474-502.',
     x: { B: 'Sem benefício de rotina.', C: 'Sem benefício.', D: 'Sem infecção bacteriana.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: oxigênio',
     e: 'Na bronquiolite, o oxigênio suplementar é indicado quando a saturação está persistentemente abaixo de:',
-    o: ['90% a 92%, conforme o protocolo', '98%', '100%', '80% apenas'],
+    o: ['90% a 92%, conforme o protocolo do serviço', '98%, de forma persistente, em ar ambiente', '100%, de forma persistente, em ar ambiente', '80%, apenas, de forma persistente, em ar ambiente'],
     g: 'A',
     c: 'Cânula nasal de alto fluxo pode ser usada em casos moderados a graves. Referência: Ralston SL et al. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Pediatrics. 2014;134(5):e1474-502.',
     x: { B: 'Desnecessário.', C: 'Desnecessário.', D: 'Atraso perigoso.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: risco',
     e: 'É fator de risco para bronquiolite grave:',
-    o: ['Prematuridade, idade menor que 3 meses, cardiopatia congênita e doença pulmonar crônica', 'Idade de 18 meses sem comorbidades', 'Aleitamento materno exclusivo', 'Sexo feminino'],
+    o: ['Prematuridade, idade < 3 meses, cardiopatia e pneumopatia crônica', 'Idade de 18 meses, sem comorbidades associadas ao quadro', 'Aleitamento materno exclusivo, até os 6 meses de vida', 'Sexo feminino, sem outras condições associadas ao quadro'],
     g: 'A',
     c: 'Apneia é complicação temida em lactentes muito jovens. Referência: Ralston SL et al. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Pediatrics. 2014;134(5):e1474-502.',
     x: { B: 'Baixo risco.', C: 'É protetor.', D: 'Não é fator.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: prevenção',
     e: 'Medida de prevenção da infecção grave por vírus sincicial em lactentes de risco é:',
-    o: ['Anticorpo monoclonal (palivizumabe ou nirsevimabe), conforme protocolo', 'Antibiótico profilático', 'Vacina BCG', 'Corticoide inalatório'],
+    o: ['Anticorpo monoclonal (palivizumabe ou nirsevimabe)', 'Antibiótico profilático, de forma contínua', 'Vacina BCG, aplicada ao nascer', 'Corticoide inalatório, de forma contínua'],
     g: 'A',
     c: 'A vacina materna contra VSR na gestação também protege o recém-nascido. Referência: Hammitt LL et al. Nirsevimab for prevention of RSV in healthy late-preterm and term infants. N Engl J Med. 2022;386(9):837-46.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Tuberculose infantil',
     e: 'Sobre o diagnóstico de tuberculose pulmonar em crianças, é correto afirmar:',
-    o: ['Usa-se sistema de pontuação do Ministério da Saúde, pois a baciloscopia costuma ser negativa', 'A baciloscopia é sempre positiva', 'A radiografia é sempre normal', 'O diagnóstico é feito só por PPD'],
+    o: ['Pontuação do MS; a baciloscopia costuma ser negativa', 'A baciloscopia é sempre positiva, em todas as crianças', 'A radiografia de tórax é sempre normal, em crianças', 'O diagnóstico é feito apenas pelo PPD, em crianças'],
     g: 'A',
     c: 'O escore considera clínica, radiografia, contato, prova tuberculínica e estado nutricional. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Geralmente paucibacilar.', C: 'Costuma ter alterações.', D: 'Não isoladamente.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Tuberculose infantil: tratamento',
     e: 'O esquema básico para tuberculose em crianças menores de 10 anos é:',
-    o: ['Rifampicina, isoniazida e pirazinamida por 2 meses, seguido de rifampicina e isoniazida por 4 meses', 'Somente isoniazida por 6 meses', 'Rifampicina por 1 mês', 'Estreptomicina isolada'],
+    o: ['RHZ por 2 meses, seguidos de RH por 4 meses', 'Somente isoniazida, por 6 meses, em dose diária', 'Rifampicina isolada, por 1 mês, em dose diária', 'Estreptomicina isolada, por 2 meses, intramuscular'],
     g: 'A',
     c: 'Acima de 10 anos, inclui-se etambutol na fase intensiva. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'É tratamento de infecção latente.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Tuberculose: contato',
     e: 'Criança de 4 anos assintomática, contato domiciliar de adulto bacilífero, com prova tuberculínica positiva e radiografia normal. A conduta é:',
-    o: ['Tratar infecção latente (por exemplo, com isoniazida ou rifapentina com isoniazida)', 'Esquema completo de tuberculose ativa', 'Nenhuma', 'Repetir BCG'],
+    o: ['Tratar infecção latente (isoniazida, ou rifapentina com isoniazida)', 'Esquema completo de tuberculose ativa, por 6 meses', 'Nenhuma medida, apenas observar a criança em casa', 'Repetir a BCG, no braço contralateral, em dose única'],
     g: 'A',
     c: 'Excluir doença ativa antes. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Não há doença ativa.', C: 'Risco de adoecer.', D: 'Sem indicação.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Corpo estranho',
     e: 'Criança de 2 anos com tosse e sibilância súbitas após engasgo com amendoim, com murmúrio reduzido à direita. A conduta é:',
-    o: ['Broncoscopia rígida para retirada', 'Antibiótico e alta', 'Corticoide', 'Aguardar eliminação'],
+    o: ['Broncoscopia rígida para retirada', 'Antibiótico oral e alta, com retorno em 48 horas', 'Corticoide sistêmico, e broncodilatador inalatório', 'Aguardar eliminação espontânea, com observação'],
     g: 'A',
     c: 'A radiografia em inspiração e expiração pode mostrar aprisionamento aéreo. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Risco de complicações.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Radiografia na pneumonia',
     e: 'Sobre a radiografia de tórax na pneumonia infantil não complicada em ambulatório, é correto afirmar:',
-    o: ['Não é obrigatória para o diagnóstico em crianças com quadro típico e tratamento ambulatorial', 'É obrigatória em todos os casos', 'Diferencia com precisão vírus de bactéria', 'Deve ser repetida a cada 2 dias'],
+    o: ['Não é obrigatória em quadro típico tratado em ambulatório', 'É obrigatória em todos os casos, para confirmar', 'Diferencia com precisão vírus de bactéria', 'Deve ser repetida a cada 2 dias, até a cura'],
     g: 'A',
     c: 'É indicada em casos graves, internados ou com suspeita de complicação. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Não é obrigatória.', C: 'Não diferencia bem.', D: 'Sem indicação.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: sinais de gravidade',
     e: 'Sinal de pneumonia grave na criança, pela OMS, é:',
-    o: ['Incapacidade de beber, convulsões, letargia ou cianose', 'Tosse', 'Febre', 'Coriza'],
+    o: ['Incapacidade de beber, convulsões, letargia ou cianose', 'Tosse, como achado isolado, em criança alerta', 'Febre, como achado isolado, em criança alerta', 'Coriza, como achado isolado, em criança alerta'],
     g: 'A',
     c: 'Exige internação e antibiótico parenteral. Referência: World Health Organization. Revised WHO classification and treatment of childhood pneumonia at health facilities. Geneva: WHO, 2014.',
     x: { B: 'Não indica gravidade.', C: 'Não indica gravidade.', D: 'Não indica gravidade.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: radiografia',
     e: 'Na bronquiolite típica, a radiografia de tórax:',
-    o: ['Não é necessária de rotina; pode mostrar hiperinsuflação e atelectasias', 'É obrigatória', 'Diagnostica o vírus', 'Deve ser diária'],
+    o: ['Não é necessária de rotina; pode mostrar hiperinsuflação', 'É obrigatória, em todos os casos de bronquiolite', 'Diagnostica o vírus, com precisão', 'Deve ser repetida diariamente, durante a internação'],
     g: 'A',
     c: 'Seu uso de rotina aumenta o uso desnecessário de antibióticos. Referência: Ralston SL et al. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Pediatrics. 2014;134(5):e1474-502.',
     x: { B: 'Não é rotina.', C: 'Não identifica vírus.', D: 'Sem indicação.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Crise de asma',
     e: 'Criança de 7 anos com crise de asma moderada no pronto-socorro. O tratamento inicial é:',
-    o: ['Salbutamol inalatório repetido na primeira hora e corticoide sistêmico, com oxigênio se saturação baixa', 'Antibiótico', 'Apenas antitussígeno', 'Sedativo'],
+    o: ['Salbutamol inalatório na 1ª hora e corticoide sistêmico', 'Antibiótico oral por 7 dias, em dose habitual', 'Apenas antitussígeno, em dose habitual, por via oral', 'Sedativo, para reduzir a agitação e o desconforto'],
     g: 'A',
     c: 'Ipratrópio pode ser associado nas crises moderadas a graves. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem infecção.', C: 'Contraindicado.', D: 'Contraindicado.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Crise de asma: gravidade',
     e: 'É sinal de crise de asma grave ou com risco de vida:',
-    o: ['Fala em palavras isoladas, uso intenso de musculatura acessória, saturação abaixo de 92% e tórax silencioso', 'Sibilos leves e fala normal', 'Tosse noturna isolada', 'Coriza'],
+    o: ['Palavras isoladas, musculatura acessória, SatO2 < 92%, tórax silencioso', 'Sibilos leves, com fala normal, boa aeração e SatO2 normal', 'Tosse noturna isolada, sem desconforto respiratório ao esforço', 'Coriza, como achado isolado, sem sibilância nem desconforto'],
     g: 'A',
     c: 'O tórax silencioso indica fluxo aéreo muito reduzido. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Crise leve.', C: 'Controle inadequado, não crise grave.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Crise de asma: sulfato de magnésio',
     e: 'Criança com crise grave de asma sem resposta ao tratamento inicial. Uma opção é:',
-    o: ['Sulfato de magnésio intravenoso', 'Antibiótico', 'Mucolítico', 'Anti-histamínico'],
+    o: ['Sulfato de magnésio por via intravenosa', 'Antibiótico por via intravenosa, em dose alta', 'Mucolítico, por via inalatória', 'Anti-histamínico, por via oral'],
     g: 'A',
     c: 'Reduz necessidade de internação em crises graves. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem infecção.', C: 'Sem benefício.', D: 'Sem benefício.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Asma: diagnóstico em crianças',
     e: 'Em criança de 8 anos com suspeita de asma, o exame que confirma obstrução reversível é:',
-    o: ['Espirometria com resposta ao broncodilatador', 'Radiografia de tórax', 'Hemograma', 'Teste do suor'],
+    o: ['Espirometria com resposta ao broncodilatador', 'Radiografia de tórax, em duas incidências', 'Hemograma, com contagem de eosinófilos', 'Teste do suor, para fibrose cística'],
     g: 'A',
     c: 'Abaixo de 5 anos, o diagnóstico é principalmente clínico. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Não confirma.', C: 'Não confirma.', D: 'Investiga fibrose cística.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Asma: controle',
     e: 'Criança com asma usando salbutamol mais de 2 vezes por semana e despertares noturnos. A conduta é:',
-    o: ['Iniciar ou aumentar corticoide inalatório de manutenção, verificando técnica e adesão', 'Usar apenas salbutamol', 'Antibiótico contínuo', 'Suspender o tratamento'],
+    o: ['Iniciar ou aumentar o corticoide inalatório; checar técnica e adesão', 'Usar apenas salbutamol, quando houver sintomas, sem manutenção', 'Antibiótico contínuo por 3 meses, em dose baixa, por via oral', 'Suspender o tratamento de manutenção, por 3 meses, e reavaliar'],
     g: 'A',
     c: 'O corticoide inalatório é a base do controle. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Indica falta de controle.', C: 'Sem indicação.', D: 'Pioraria.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: falha terapêutica',
     e: 'Criança com pneumonia em uso de amoxicilina há 72 horas, sem melhora e com piora do desconforto. A conduta é:',
-    o: ['Reavaliar complicações (derrame, abscesso) e considerar internação e mudança de antibiótico', 'Manter igual por mais 10 dias', 'Suspender o antibiótico', 'Iniciar corticoide'],
+    o: ['Reavaliar complicações (derrame, abscesso); internar e trocar antibiótico', 'Manter o mesmo esquema por mais 10 dias, sem reavaliar', 'Suspender o antibiótico, por falta de resposta clínica', 'Iniciar corticoide sistêmico por 5 dias, em dose habitual'],
     g: 'A',
     c: 'Ausência de melhora em 48 a 72 horas exige reavaliação. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Sem indicação.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Empiema',
     e: 'Líquido pleural com pus franco, pH de 6,9 e glicose de 20 mg/dL em criança com pneumonia. A conduta é:',
-    o: ['Drenagem torácica, com ou sem fibrinolíticos ou videotoracoscopia, mantendo antibiótico', 'Apenas antibiótico oral', 'Observação', 'Corticoide'],
+    o: ['Drenagem torácica, com ou sem fibrinolítico ou VATS, e antibiótico', 'Apenas antibiótico oral, em dose habitual, por 10 dias', 'Observação clínica, com reavaliação diária, sem drenagem', 'Corticoide sistêmico por 5 dias, em dose habitual'],
     g: 'A',
     c: 'São critérios de empiema complicado. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Insuficiente.', C: 'Inadequado.', D: 'Sem indicação.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Abscesso pulmonar',
     e: 'Criança após aspiração com febre persistente e radiografia com cavidade com nível hidroaéreo. O diagnóstico é:',
-    o: ['Abscesso pulmonar', 'Pneumotórax', 'Atelectasia', 'Bronquiolite'],
+    o: ['Abscesso pulmonar', 'Pneumotórax, com colapso pulmonar', 'Atelectasia, por obstrução brônquica', 'Bronquiolite, com hiperinsuflação difusa'],
     g: 'A',
     c: 'Trata-se com antibiótico prolongado com cobertura para anaeróbios. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem nível hidroaéreo no parênquima.', C: 'Sem cavidade.', D: 'Sem cavidade.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: vacinação',
     e: 'A vacina com maior impacto na redução de pneumonias bacterianas graves em crianças é:',
-    o: ['Pneumocócica conjugada', 'BCG', 'Hepatite B', 'Febre amarela'],
+    o: ['Pneumocócica conjugada', 'BCG, aplicada ao nascer', 'Hepatite B, em 3 doses', 'Febre amarela, em dose única'],
     g: 'A',
     c: 'A vacina contra Hib também reduziu pneumonias. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Sem esse efeito.', C: 'Sem esse efeito.', D: 'Sem esse efeito.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Coqueluche: profilaxia',
     e: 'Contato domiciliar de criança com coqueluche, lactente de 3 meses. A conduta é:',
-    o: ['Quimioprofilaxia com azitromicina, independentemente da situação vacinal', 'Nenhuma', 'Apenas vacina', 'Antibiótico só se tiver tosse'],
+    o: ['Azitromicina profilática, qualquer que seja a vacinação', 'Nenhuma medida, pois o contato está assintomático', 'Apenas vacina, sem quimioprofilaxia', 'Antibiótico apenas se surgir tosse no contato'],
     g: 'A',
     c: 'Lactentes pequenos têm maior risco de complicações graves. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed., 2023 (capítulo Coqueluche).',
     x: { B: 'Risco alto.', C: 'Insuficiente.', D: 'Atrasa a proteção.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: alta',
     e: 'Critérios para alta na bronquiolite incluem:',
-    o: ['Saturação estável em ar ambiente, boa aceitação alimentar e família orientada', 'Ausência total de tosse', 'Radiografia normal', 'Ausência de vírus no exame'],
+    o: ['SatO2 estável em ar ambiente, boa dieta e família orientada', 'Ausência total de tosse, por 48 horas seguidas', 'Radiografia de tórax normal, no dia da alta', 'Ausência do vírus, em novo exame de secreção'],
     g: 'A',
     c: 'A tosse pode persistir por semanas. Referência: Ralston SL et al. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Pediatrics. 2014;134(5):e1474-502.',
     x: { B: 'Pode persistir.', C: 'Não é necessária.', D: 'Não é necessária.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: hidratação',
     e: 'Lactente com bronquiolite e desconforto que impede a alimentação oral. Uma opção é:',
-    o: ['Hidratação por sonda nasogástrica ou intravenosa', 'Jejum sem hidratação', 'Mamadeira forçada', 'Diurético'],
+    o: ['Hidratação por sonda nasogástrica ou intravenosa', 'Jejum, sem nenhuma hidratação associada', 'Mamadeira forçada, em grande volume', 'Diurético por via intravenosa, em dose alta'],
     g: 'A',
     c: 'A via enteral por sonda é tão segura quanto a intravenosa. Referência: Ralston SL et al. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Pediatrics. 2014;134(5):e1474-502.',
     x: { B: 'Inadequado.', C: 'Risco de aspiração.', D: 'Sem indicação.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: aspiração',
     e: 'Criança com doença neurológica e pneumonias de repetição no lobo inferior direito. A causa provável é:',
-    o: ['Pneumonia aspirativa por disfagia ou refluxo', 'Asma', 'Fibrose cística', 'Imunodeficiência'],
+    o: ['Pneumonia aspirativa, por disfagia ou refluxo', 'Asma brônquica, com sibilância recorrente', 'Fibrose cística, com infecção pulmonar crônica', 'Imunodeficiência primária, com infecções recorrentes'],
     g: 'A',
     c: 'O lobo inferior direito é mais acometido pela anatomia do brônquio. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não explica.', C: 'Não explica a localização.', D: 'Possível, mas o contexto sugere aspiração.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite obliterante',
     e: 'Criança após adenovírus grave com sibilância e hipoxemia persistentes e padrão em mosaico na tomografia. O diagnóstico é:',
-    o: ['Bronquiolite obliterante pós-infecciosa', 'Asma leve', 'Bronquiolite aguda simples', 'Pneumonia lobar'],
+    o: ['Bronquiolite obliterante pós-infecciosa', 'Asma leve, intermitente, sem hipoxemia', 'Bronquiolite aguda simples, com resolução rápida', 'Pneumonia lobar, com consolidação localizada'],
     g: 'A',
     c: 'É sequela crônica de infecção grave. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não causa hipoxemia persistente.', C: 'Evolução aguda.', D: 'Sem esse padrão.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia por vírus',
     e: 'Sobre pneumonias virais em lactentes, é correto afirmar:',
-    o: ['São muito frequentes em menores de 2 anos e não exigem antibiótico', 'Sempre exigem antibiótico', 'São raras', 'São sempre graves'],
+    o: ['Frequentes antes dos 2 anos; dispensam antibiótico', 'Sempre exigem antibiótico, por via oral, por 7 dias', 'São raras, em menores de 2 anos de idade', 'São sempre graves, e exigem internação hospitalar'],
     g: 'A',
     c: 'Coinfecção bacteriana deve ser suspeitada se piora ou febre alta persistente. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Não exigem.', C: 'São frequentes.', D: 'Muitas são leves.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Sinusite e pneumonia',
     e: 'Criança com pneumonias e sinusites de repetição e situs inversus. A hipótese é:',
-    o: ['Discinesia ciliar primária (síndrome de Kartagener)', 'Asma', 'Fibrose cística', 'Imunodeficiência humoral'],
+    o: ['Discinesia ciliar primária (síndrome de Kartagener)', 'Asma brônquica, com sibilância recorrente', 'Fibrose cística, com infecção pulmonar crônica', 'Imunodeficiência humoral, com hipogamaglobulinemia'],
     g: 'A',
     c: 'O diagnóstico envolve óxido nítrico nasal e estudo ciliar. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não explica situs inversus.', C: 'Sem situs inversus.', D: 'Sem situs inversus.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Imunodeficiência',
     e: 'Criança com pneumonias bacterianas recorrentes por germes encapsulados após 6 meses de vida. Deve-se investigar:',
-    o: ['Imunodeficiência humoral, com dosagem de imunoglobulinas', 'Asma', 'Refluxo', 'Hipotireoidismo'],
+    o: ['Imunodeficiência humoral; dosar imunoglobulinas', 'Asma brônquica, com sibilância recorrente', 'Refluxo gastroesofágico, com aspiração crônica', 'Hipotireoidismo, com infecções recorrentes'],
     g: 'A',
     c: 'A agamaglobulinemia ligada ao X manifesta-se após a queda dos anticorpos maternos. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não explica.', C: 'Não explica.', D: 'Não explica.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: oxigênio',
     e: 'Criança com pneumonia e saturação de 89% em ar ambiente. A conduta é:',
-    o: ['Oxigênio suplementar e internação', 'Alta com amoxicilina', 'Apenas nebulização com soro', 'Antitérmico'],
+    o: ['Oxigênio suplementar e internação', 'Alta com amoxicilina, e retorno em 48 horas', 'Apenas nebulização com soro fisiológico', 'Antitérmico, e retorno se persistir a febre'],
     g: 'A',
     c: 'Hipoxemia é critério de gravidade. Referência: Bradley JS et al. The management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by PIDS and IDSA. Clin Infect Dis. 2011;53(7):e25-76.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Coqueluche: diagnóstico',
     e: 'O exame para confirmar coqueluche é:',
-    o: ['PCR ou cultura de secreção de nasofaringe', 'Hemocultura', 'Radiografia', 'Sorologia para VSR'],
+    o: ['PCR ou cultura de secreção de nasofaringe', 'Hemocultura, colhida no pico febril', 'Radiografia de tórax, com coração felpudo', 'Sorologia para o vírus sincicial respiratório'],
     g: 'A',
     c: 'A linfocitose sugere, mas não confirma. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed., 2023 (capítulo Coqueluche).',
     x: { B: 'Não confirma.', C: 'Não confirma.', D: 'Outro vírus.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Tuberculose: meningite',
     e: 'Criança com febre, cefaleia, vômitos e alteração de consciência há 2 semanas, contato com tuberculoso e líquor com linfócitos e glicose baixa. O diagnóstico e a conduta incluem:',
-    o: ['Meningite tuberculosa; esquema para tuberculose meningoencefálica com corticoide', 'Meningite viral; observação', 'Meningite bacteriana aguda; penicilina', 'Encefalite herpética; aciclovir isolado'],
+    o: ['Meningite tuberculosa; esquema para TB com corticoide', 'Meningite viral; observação e sintomáticos, em casa', 'Meningite bacteriana aguda; penicilina por via intravenosa', 'Encefalite herpética; aciclovir como medida isolada'],
     g: 'A',
     c: 'O tratamento dura 12 meses. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Glicose seria normal.', C: 'Evolução mais aguda e neutrófilos.', D: 'Sem contato e com outro quadro.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Bronquiolite: nebulização',
     e: 'Sobre nebulização com solução salina hipertônica na bronquiolite, é correto afirmar:',
-    o: ['Não é recomendada de rotina no pronto-socorro, com benefício incerto', 'É obrigatória', 'Cura a infecção', 'Deve ser feita com antibiótico'],
+    o: ['Não recomendada de rotina; benefício incerto', 'É obrigatória, em todos os casos de bronquiolite', 'Cura a infecção, por ação antiviral direta', 'Deve ser feita sempre com antibiótico inalatório'],
     g: 'A',
     c: 'O manejo é essencialmente de suporte. Referência: Ralston SL et al. Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis. Pediatrics. 2014;134(5):e1474-502.',
     x: { B: 'Não é obrigatória.', C: 'Não cura.', D: 'Sem indicação.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_IRAB: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: duração do tratamento',
     e: 'A duração do tratamento com amoxicilina na pneumonia não complicada em crianças, segundo estudos recentes, pode ser de:',
-    o: ['5 dias, com eficácia semelhante a 10 dias', '1 dia', '30 dias', '6 meses'],
+    o: ['5 dias, com eficácia semelhante à de 10 dias', '1 dia, em dose única, por via oral', '30 dias, em dose alta, por via oral', '6 meses, em dose baixa, por via oral'],
     g: 'A',
     c: 'Esquemas curtos reduzem efeitos adversos e resistência. Referência: Williams DJ et al. Short- vs Standard-Course Outpatient Antibiotic Therapy for Community-Acquired Pneumonia in Children: The SCOUT-CAP Randomized Clinical Trial. JAMA Pediatr. 2022;176(3):253-61.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Excessivo.' },

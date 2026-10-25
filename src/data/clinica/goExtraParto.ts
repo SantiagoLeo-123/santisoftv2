@@ -5,7 +5,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Fases do parto',
     e: 'Os períodos clínicos do parto são:',
-    o: ['Dilatação, expulsão, dequitação e quarto período (Greenberg)', 'Latência, aceleração e desaceleração apenas', 'Insinuação, descida e rotação', 'Pré-parto, parto e puerpério tardio'],
+    o: ['Dilatação, expulsão, dequitação e quarto período', 'Latência, aceleração e desaceleração, apenas', 'Insinuação, descida e rotação da apresentação', 'Pré-parto, parto e puerpério tardio, em sequência'],
     g: 'A',
     c: 'O quarto período corresponde à primeira hora após a dequitação, de maior risco de hemorragia. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'São subfases da dilatação.', C: 'São tempos do mecanismo de parto.', D: 'Não é a divisão clínica.' },
@@ -13,7 +13,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Mecanismo de parto',
     e: 'A sequência correta dos tempos do mecanismo de parto na apresentação cefálica fletida é:',
-    o: ['Insinuação, descida, rotação interna, desprendimento cefálico, rotação externa e desprendimento do tronco', 'Descida, insinuação, rotação externa e rotação interna', 'Rotação interna, insinuação e descida', 'Desprendimento, insinuação e descida'],
+    o: ['Insinuação, descida, rotação interna, desprendimentos e rotação externa', 'Descida, insinuação, rotação externa e rotação interna', 'Rotação interna, insinuação e descida, nessa ordem', 'Desprendimento, insinuação e descida, nessa ordem'],
     g: 'A',
     c: 'A flexão acompanha a insinuação; a rotação interna leva o occipital para a frente; a rotação externa (restituição) alinha a cabeça ao dorso. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Ordem incorreta.', C: 'Ordem incorreta.', D: 'Ordem incorreta.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Partograma',
     e: 'No partograma, a linha de ação é traçada:',
-    o: ['4 horas à direita da linha de alerta', '1 hora à direita da linha de alerta', 'No início do registro', 'Na dilatação de 10 cm'],
+    o: ['4 horas à direita da linha de alerta', '1 hora à direita da linha de alerta', 'Sobre o ponto inicial do registro', 'Na altura da dilatação de 10 cm'],
     g: 'A',
     c: 'Cruzar a linha de alerta pede atenção; atingir a linha de ação pede intervenção e avaliação de distocia. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Intervalo incorreto.', C: 'Não é a definição.', D: 'Não é a definição.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Distocias',
     e: 'Partograma mostra dilatação estacionada em 7 cm por 2 horas, com contrações adequadas, apresentação alta e bossa serossanguínea. A hipótese principal é:',
-    o: ['Parada secundária da dilatação por desproporção cefalopélvica', 'Parto taquitócico', 'Fase latente prolongada', 'Período pélvico prolongado'],
+    o: ['Parada secundária da dilatação, por desproporção', 'Parto taquitócico, com dilatação rápida', 'Fase latente prolongada, com colo fechado', 'Período pélvico prolongado, no expulsivo'],
     g: 'A',
     c: 'Com contrações eficazes e sinais de desproporção, a conduta costuma ser cesárea. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'O parto seria rápido.', C: 'Já está na fase ativa.', D: 'Ocorre no período expulsivo.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Distocias',
     e: 'Dilatação completa em menos de 4 horas desde o início do trabalho de parto é chamada:',
-    o: ['Parto taquitócico (precipitado)', 'Parada secundária da descida', 'Fase ativa prolongada', 'Distocia de ombro'],
+    o: ['Parto taquitócico (precipitado)', 'Parada secundária da descida fetal', 'Fase ativa prolongada da dilatação', 'Distocia de ombro, com impactação'],
     g: 'A',
     c: 'Associa-se a lacerações de trajeto e hemorragia pós-parto. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'A descida não parou.', C: 'É o oposto.', D: 'É outra distocia.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Período expulsivo',
     e: 'Sobre a duração do período expulsivo, é correto afirmar:',
-    o: ['É considerado prolongado após cerca de 3 horas em nulíparas e 2 horas em multíparas, com tolerância maior sob analgesia', 'Deve terminar em 15 minutos', 'Não tem limite de duração', 'É sempre mais longo em multíparas'],
+    o: ['Prolongado após ~3 h em nulíparas e 2 h em multíparas', 'Deve terminar em até 15 minutos, em todas', 'Não tem limite de duração, em nenhum caso', 'É sempre mais longo em multíparas que em nulíparas'],
     g: 'A',
     c: 'O progresso da descida e a vitalidade fetal orientam a conduta. Referência: Brasil. Ministério da Saúde. Diretrizes Nacionais de Assistência ao Parto Normal. Brasília: MS, 2017.',
     x: { B: 'Prazo irreal.', C: 'Há limites.', D: 'Costuma ser mais curto nas multíparas.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Dequitação',
     e: 'Na dequitação pelo mecanismo de Baudelocque-Schultze:',
-    o: ['A placenta se exterioriza pela face fetal, com hematoma retroplacentário saindo depois', 'A placenta se exterioriza pela face materna, com sangramento antes', 'Não há descolamento placentário', 'A placenta sai em fragmentos'],
+    o: ['Sai primeiro a face fetal; o hematoma depois', 'Sai primeiro a face materna, com sangramento antes', 'Não há descolamento da placenta nesse mecanismo', 'A placenta sai em fragmentos, de forma gradual'],
     g: 'A',
     c: 'É o mecanismo mais comum, ligado à inserção fúndica. No mecanismo de Duncan, a placenta sai pela face materna, com sangramento antes. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Descreve Duncan.', C: 'Sem sentido.', D: 'Sugere retenção de restos.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Boas práticas',
     e: 'A manobra de Kristeller (pressão no fundo uterino para acelerar o expulsivo):',
-    o: ['Não é recomendada, por riscos maternos e fetais', 'É recomendada em todos os partos', 'É obrigatória em primíparas', 'Previne distocia de ombro'],
+    o: ['Não é recomendada, por riscos maternos e fetais', 'É recomendada em todos os partos vaginais', 'É obrigatória em primíparas, no expulsivo', 'Previne a distocia de ombro, quando bem feita'],
     g: 'A',
     c: 'Associa-se a lesões perineais, ruptura uterina e trauma fetal. Referência: Brasil. Ministério da Saúde. Diretrizes Nacionais de Assistência ao Parto Normal. Brasília: MS, 2017.',
     x: { B: 'Não é recomendada.', C: 'Não é recomendada.', D: 'Não previne.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Boas práticas',
     e: 'Durante o trabalho de parto de baixo risco, a parturiente deve ser estimulada a:',
-    o: ['Escolher posições confortáveis, deambular e ingerir líquidos claros', 'Permanecer em decúbito dorsal o tempo todo', 'Fazer jejum absoluto', 'Evitar acompanhante'],
+    o: ['Escolher posições, deambular e ingerir líquidos claros', 'Permanecer em decúbito dorsal o tempo todo', 'Fazer jejum absoluto durante o trabalho de parto', 'Ficar sem acompanhante, para não atrapalhar'],
     g: 'A',
     c: 'O direito ao acompanhante é garantido pela Lei 11.108/2005. Referência: Brasil. Ministério da Saúde. Diretrizes Nacionais de Assistência ao Parto Normal. Brasília: MS, 2017.',
     x: { B: 'Não é recomendado.', C: 'Não é recomendado no baixo risco.', D: 'O acompanhante é direito.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: definição',
     e: 'Parto prematuro é aquele que ocorre:',
-    o: ['Antes de 37 semanas completas de gestação', 'Antes de 40 semanas', 'Antes de 34 semanas apenas', 'Antes de 28 semanas apenas'],
+    o: ['Antes de 37 semanas completas de gestação', 'Antes de 40 semanas completas de gestação', 'Somente antes de 34 semanas de gestação', 'Somente antes de 28 semanas de gestação'],
     g: 'A',
     c: 'Prematuro extremo é antes de 28 semanas; muito prematuro, de 28 a menos de 32; moderado a tardio, de 32 a menos de 37. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Inclui o termo.', C: 'Exclui os tardios.', D: 'Só os extremos.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: rastreamento',
     e: 'A medida do colo uterino pela ultrassonografia transvaginal entre 18 e 24 semanas, com valor menor ou igual a 25 mm, indica:',
-    o: ['Maior risco de parto prematuro, com indicação de progesterona vaginal', 'Colo normal', 'Necessidade de cesárea', 'Diagnóstico de placenta prévia'],
+    o: ['Maior risco de parto prematuro; progesterona vaginal', 'Colo normal, sem necessidade de conduta', 'Necessidade de cesárea eletiva precoce', 'Diagnóstico de placenta prévia marginal'],
     g: 'A',
     c: 'Em gestante com parto prematuro prévio e colo curto, a cerclagem pode ser considerada. Referência: Romero R et al. Vaginal progesterone for preventing preterm birth and adverse perinatal outcomes in singleton gestations with a short cervix: a meta-analysis. Am J Obstet Gynecol. 2018;218(2):161-80.',
     x: { B: 'Está curto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: corticoide',
     e: 'O corticoide antenatal para maturação pulmonar fetal é indicado entre:',
-    o: ['24 e 34 semanas, quando há risco de parto prematuro nos próximos 7 dias', '12 e 20 semanas', '37 e 40 semanas para todas', 'Somente após o nascimento'],
+    o: ['24 a 34 semanas, se parto previsto em 7 dias', '12 a 20 semanas, para todas as gestantes', '37 a 40 semanas, para todas as gestantes', 'Somente após o nascimento, no recém-nascido'],
     g: 'A',
     c: 'O esquema clássico é betametasona 12 mg IM, duas doses com intervalo de 24 horas. Reduz síndrome do desconforto respiratório, hemorragia intraventricular e mortalidade neonatal. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Sem benefício nesse período.', C: 'Sem indicação universal no termo.', D: 'É antenatal.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: neuroproteção',
     e: 'O sulfato de magnésio na iminência de parto prematuro abaixo de 32 semanas é usado para:',
-    o: ['Neuroproteção fetal, reduzindo o risco de paralisia cerebral', 'Tocólise prolongada', 'Maturação pulmonar', 'Prevenção de infecção'],
+    o: ['Neuroproteção fetal, reduzindo paralisia cerebral', 'Tocólise prolongada, por dias seguidos', 'Maturação pulmonar do feto prematuro', 'Prevenção de infecção materna intraparto'],
     g: 'A',
     c: 'Não deve ser confundido com seu uso na prevenção de eclâmpsia. Referência: Doyle LW et al. Magnesium sulphate for women at risk of preterm birth for neuroprotection of the fetus. Cochrane Database Syst Rev. 2009;(1):CD004661.',
     x: { B: 'Não é o objetivo nesse contexto.', C: 'Função do corticoide.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: tocólise',
     e: 'A indometacina como tocolítico deve ser evitada após 32 semanas porque:',
-    o: ['Pode causar fechamento precoce do ducto arterioso e oligoâmnio', 'Causa hipertensão materna grave', 'Aumenta as contrações', 'É ineficaz'],
+    o: ['Pode fechar o ducto arterioso e causar oligoâmnio', 'Causa hipertensão materna grave e persistente', 'Aumenta a frequência das contrações uterinas', 'É ineficaz como tocolítico em qualquer idade'],
     g: 'A',
     c: 'O uso é limitado a 48 a 72 horas, abaixo de 32 semanas. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não é o motivo.', C: 'Não aumenta.', D: 'É eficaz, mas tem riscos.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Rotura prematura de membranas',
     e: 'Gestante de 30 semanas com perda de líquido claro há 6 horas, sem contrações e sem sinais de infecção. A conduta é:',
-    o: ['Internar, corticoide, antibioticoprofilaxia (ampicilina com azitromicina) e conduta expectante com vigilância de infecção', 'Indução imediata do parto', 'Alta com orientação', 'Tocólise prolongada e alta'],
+    o: ['Internar, dar corticoide e antibiótico, e vigiar infecção', 'Indução imediata do parto, com ocitocina', 'Alta com orientação e retorno em 1 semana', 'Tocólise prolongada, seguida de alta hospitalar'],
     g: 'A',
     c: 'A conduta expectante abaixo de 34 semanas reduz complicações da prematuridade; a corioamnionite exige resolução. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Abaixo de 34 semanas, a prematuridade pesa mais.', C: 'Inadequado.', D: 'Tocólise não é indicada sem contrações.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Corioamnionite',
     e: 'Gestante com bolsa rota há 20 horas apresenta febre de 38,5 °C, taquicardia materna e fetal, útero doloroso e secreção fétida. A conduta é:',
-    o: ['Antibioticoterapia de amplo espectro e resolução da gestação', 'Tocólise', 'Corticoide e conduta expectante', 'Cerclagem'],
+    o: ['Antibiótico de amplo espectro e resolver a gestação', 'Tocólise, para adiar o parto por alguns dias', 'Corticoide e conduta expectante, com vigilância', 'Cerclagem de urgência, para fechar o colo'],
     g: 'A',
     c: 'A corioamnionite clínica exige antibióticos (por exemplo, ampicilina e gentamicina) e parto, sem necessidade de cesárea apenas pela infecção. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Contraindicada.', C: 'A infecção exige resolução.', D: 'Contraindicada.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: predição',
     e: 'A fibronectina fetal negativa em secreção cervicovaginal de gestante com contrações prematuras:',
-    o: ['Tem alto valor preditivo negativo, tornando improvável o parto nos próximos 7 a 14 dias', 'Confirma o parto prematuro iminente', 'Indica corioamnionite', 'Não tem utilidade clínica'],
+    o: ['Alto valor preditivo negativo; parto improvável em 7-14 dias', 'Confirma que o parto prematuro é iminente', 'Indica corioamnionite, com necessidade de antibiótico', 'Não tem nenhuma utilidade na prática clínica'],
     g: 'A',
     c: 'Seu principal valor é afastar o parto iminente e evitar intervenções desnecessárias. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'O valor preditivo positivo é baixo.', C: 'Sem relação.', D: 'Tem utilidade.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Distocia de ombro',
     e: 'Após o desprendimento da cabeça, ela se retrai contra o períneo (sinal da tartaruga) e os ombros não se desprendem. A primeira manobra recomendada é:',
-    o: ['McRoberts (hiperflexão das coxas sobre o abdome), associada a pressão suprapúbica', 'Pressão no fundo uterino (Kristeller)', 'Tração forte da cabeça fetal', 'Cesárea imediata sem manobras'],
+    o: ['McRoberts, associada à pressão suprapúbica', 'Pressão no fundo uterino (Kristeller) forte', 'Tração forte da cabeça fetal para baixo', 'Cesárea imediata, sem tentar nenhuma manobra'],
     g: 'A',
     c: 'Se falhar, seguem-se manobras internas (Rubin, Woods, retirada do braço posterior) e de quatro apoios (Gaskin). Referência: Royal College of Obstetricians and Gynaecologists. Green-top Guideline 42: Shoulder Dystocia. London: RCOG, 2012.',
     x: { B: 'Piora a impactação.', C: 'Causa lesão de plexo braquial.', D: 'Manobras vêm primeiro.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Distocia de ombro',
     e: 'Fator de risco importante para distocia de ombro é:',
-    o: ['Macrossomia fetal, especialmente em gestante diabética', 'Prematuridade', 'Oligoâmnio isolado', 'Apresentação pélvica'],
+    o: ['Macrossomia fetal, sobretudo em gestante diabética', 'Prematuridade extrema, com feto pequeno', 'Oligoâmnio como achado isolado e leve', 'Apresentação pélvica, com cabeça derradeira'],
     g: 'A',
     c: 'Ainda assim, muitos casos ocorrem em fetos de peso normal, sendo pouco previsível. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Fetos pequenos têm menor risco.', C: 'Não é fator clássico.', D: 'Não se aplica.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Analgesia de parto',
     e: 'Sobre a analgesia de parto, é correto afirmar:',
-    o: ['Pode ser oferecida a qualquer momento, a pedido da parturiente, sem dilatação mínima obrigatória', 'Só pode ser feita com 8 cm', 'Aumenta a mortalidade materna', 'Contraindica o parto vaginal'],
+    o: ['Pode ser oferecida a pedido, sem dilatação mínima', 'Só pode ser feita com dilatação de 8 cm', 'Aumenta a mortalidade materna, de forma significativa', 'Contraindica o parto vaginal, em todos os casos'],
     g: 'A',
     c: 'Métodos não farmacológicos também devem ser oferecidos. A analgesia pode prolongar discretamente o expulsivo. Referência: Brasil. Ministério da Saúde. Diretrizes Nacionais de Assistência ao Parto Normal. Brasília: MS, 2017.',
     x: { B: 'Não há dilatação mínima.', C: 'Afirmativa falsa.', D: 'Afirmativa falsa.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Cesárea anterior',
     e: 'Gestante com uma cesárea anterior segmentar transversa, sem outras indicações de cesárea. Sobre a via de parto, é correto:',
-    o: ['Pode tentar parto vaginal, com monitorização, pelo risco baixo de ruptura uterina', 'A cesárea é obrigatória', 'O parto vaginal é contraindicado', 'Deve-se usar misoprostol para indução'],
+    o: ['Pode tentar parto vaginal, com monitorização', 'A cesárea é obrigatória, em todos os casos', 'O parto vaginal é contraindicado, sempre', 'Deve-se induzir com misoprostol, para segurança'],
     g: 'A',
     c: 'O risco de ruptura com uma cicatriz segmentar é de cerca de 0,5 a 1%. Cicatriz clássica contraindica parto vaginal. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 205: Vaginal Birth After Cesarean Delivery. Obstet Gynecol. 2019;133(2):e110-27.',
     x: { B: 'Não é obrigatória.', C: 'Não é contraindicado.', D: 'Contraindicado com cicatriz.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prolapso de cordão',
     e: 'Após amniotomia, palpa-se o cordão umbilical à frente da apresentação, com desacelerações fetais. A conduta imediata é:',
-    o: ['Elevar manualmente a apresentação, posicionar a paciente e realizar cesárea de emergência', 'Tentar recolocar o cordão no útero e aguardar', 'Fazer fórceps em apresentação alta', 'Aguardar dilatação completa'],
+    o: ['Elevar a apresentação, posicionar a paciente e fazer cesárea', 'Tentar recolocar o cordão no útero e aguardar', 'Fazer fórceps, mesmo em apresentação alta', 'Aguardar a dilatação completa, com vigilância'],
     g: 'A',
     c: 'Posição genupeitoral ou Trendelenburg ajuda a reduzir a compressão. Parto vaginal só se iminente e seguro. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Não é recomendado.', C: 'Contraindicado com apresentação alta.', D: 'Risco de morte fetal.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: fatores de risco',
     e: 'O principal fator de risco para parto prematuro é:',
-    o: ['Parto prematuro espontâneo prévio', 'Primeira gestação', 'Idade materna de 25 anos', 'Gestação planejada'],
+    o: ['Parto prematuro espontâneo prévio', 'Primeira gestação, em mulher saudável', 'Idade materna de 25 anos, sem comorbidades', 'Gestação planejada, com pré-natal precoce'],
     g: 'A',
     c: 'Outros fatores: colo curto, gemelaridade, infecções, sangramentos, tabagismo e extremos de idade. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não é o principal.', C: 'Não é fator de risco.', D: 'Não é fator.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: progesterona',
     e: 'Gestante com parto prematuro espontâneo anterior. Uma medida com evidência para reduzir recorrência é:',
-    o: ['Progesterona, iniciada no segundo trimestre, com vigilância do comprimento do colo', 'Repouso absoluto', 'Relações sexuais proibidas como único tratamento', 'Tocólise contínua profilática'],
+    o: ['Progesterona no 2º trimestre, com vigilância do colo', 'Repouso absoluto no leito, durante toda a gestação', 'Proibir relações sexuais, como único tratamento', 'Tocólise contínua profilática, durante a gestação'],
     g: 'A',
     c: 'Repouso e abstinência sexual isolados não têm evidência de benefício. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Sem evidência e com riscos.', C: 'Sem evidência isolada.', D: 'Não é recomendada.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Cerclagem',
     e: 'A cerclagem uterina está indicada classicamente em:',
-    o: ['Insuficiência istmocervical com perdas gestacionais de segundo trimestre indolores', 'Placenta prévia', 'Gestação gemelar sem outros fatores, de rotina', 'Rotura prematura de membranas'],
+    o: ['Insuficiência istmocervical, com perdas indolores no 2º trimestre', 'Placenta prévia, com sangramento vivo recorrente', 'Gestação gemelar de rotina, sem outros fatores de risco', 'Rotura prematura de membranas, com colo já pérvio'],
     g: 'A',
     c: 'Pode ser eletiva (12 a 14 semanas), indicada por colo curto em quem tem história, ou de emergência. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Contraindicada.', C: 'Não é rotina em gemelares.', D: 'Contraindicada.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: estreptococo B',
     e: 'Gestante em trabalho de parto prematuro com cultura para estreptococo do grupo B desconhecida. A conduta é:',
-    o: ['Iniciar profilaxia antibiótica intraparto contra o estreptococo do grupo B', 'Não usar antibiótico', 'Esperar o resultado da cultura para tratar', 'Usar apenas antibiótico oral após o parto'],
+    o: ['Iniciar profilaxia antibiótica intraparto para o EGB', 'Não usar antibiótico, por ser parto prematuro', 'Esperar o resultado da cultura, para tratar', 'Usar antibiótico oral apenas após o parto'],
     g: 'A',
     c: 'Penicilina ou ampicilina intravenosa são as escolhas. Referência: American College of Obstetricians and Gynecologists. Committee Opinion 797: Prevention of Group B Streptococcal Early-Onset Disease in Newborns. Obstet Gynecol. 2020;135(2):e51-72.',
     x: { B: 'Há indicação pelo risco.', C: 'Atrasa a profilaxia.', D: 'Inadequado.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Mecanismo de parto',
     e: 'O desprendimento da cabeça na apresentação cefálica fletida em occipitopúbica ocorre por:',
-    o: ['Deflexão da cabeça, com o suboccipital apoiado sob a sínfise', 'Flexão máxima da cabeça', 'Rotação externa', 'Assinclitismo posterior'],
+    o: ['Deflexão da cabeça, com o suboccipital sob a sínfise', 'Flexão máxima da cabeça, contra o tórax', 'Rotação externa da cabeça, após o desprendimento', 'Assinclitismo posterior, com sutura desviada'],
     g: 'A',
     c: 'A deflexão permite que fronte, face e mento passem pelo períneo. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Ocorre antes.', C: 'Ocorre depois.', D: 'Ocorre na insinuação.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Mecanismo de parto',
     e: 'O assinclitismo ocorre quando:',
-    o: ['A sutura sagital não está equidistante do promontório e da sínfise na insinuação', 'O feto está em situação transversa', 'A cabeça está defletida', 'O ombro anterior fica preso'],
+    o: ['A sutura sagital não equidista do promontório e da sínfise', 'O feto está em situação transversa, no útero', 'A cabeça fetal está defletida, em apresentação de face', 'O ombro anterior fica retido atrás da sínfise'],
     g: 'A',
     c: 'No assinclitismo posterior (de Litzmann), mais comum, o parietal posterior desce primeiro; no anterior (de Nägele), o parietal anterior. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'É outra situação.', C: 'É deflexão.', D: 'É distocia de ombro.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Pelve obstétrica',
     e: 'O diâmetro conjugata vera obstétrica, menor diâmetro anteroposterior do estreito superior, mede normalmente:',
-    o: ['Cerca de 10,5 a 11 cm', '5 cm', '14 cm', '20 cm'],
+    o: ['Cerca de 10,5 a 11 cm', 'Cerca de 5 a 6 cm', 'Cerca de 14 a 15 cm', 'Cerca de 20 a 21 cm'],
     g: 'A',
     c: 'É estimado subtraindo-se 1,5 cm da conjugata diagonalis, medida ao toque. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Pequeno demais.', C: 'Grande demais.', D: 'Grande demais.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Gemelaridade e parto',
     e: 'Gestação gemelar com ambos os fetos em apresentação cefálica, a termo. A via de parto pode ser:',
-    o: ['Vaginal, se não houver outras contraindicações', 'Obrigatoriamente cesárea', 'Vaginal apenas antes de 32 semanas', 'Fórceps de rotina'],
+    o: ['Vaginal, se não houver outras contraindicações', 'Obrigatoriamente cesárea, em toda gestação gemelar', 'Vaginal somente antes de 32 semanas de gestação', 'Fórceps de rotina, em ambos os fetos'],
     g: 'A',
     c: 'Quando o primeiro gemelar não é cefálico, a cesárea é geralmente indicada. Referência: Barrett JFR et al. A randomized trial of planned cesarean or vaginal delivery for twin pregnancy. N Engl J Med. 2013;369(14):1295-305.',
     x: { B: 'Não é obrigatória.', C: 'Sem restrição de idade gestacional.', D: 'Não é rotina.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: corticoide',
     e: 'Sobre o uso de corticoide antenatal entre 34 e 36 semanas e 6 dias, é correto afirmar:',
-    o: ['Pode reduzir morbidade respiratória neonatal em situações selecionadas, mas exige vigilância de hipoglicemia neonatal', 'É sempre contraindicado', 'É obrigatório em todas as gestações', 'Substitui o surfactante após o nascimento'],
+    o: ['Pode reduzir morbidade respiratória; vigiar hipoglicemia', 'É sempre contraindicado entre 34 e 37 semanas', 'É obrigatório em todas as gestações de termo', 'Substitui o surfactante dado ao recém-nascido'],
     g: 'A',
     c: 'O uso no período prematuro tardio é discutido; em diabéticas pré-gestacionais, recomenda-se cautela. Referência: Gyamfi-Bannerman C et al. Antenatal betamethasone for women at risk for late preterm delivery. N Engl J Med. 2016;374(14):1311-20.',
     x: { B: 'Não é absoluto.', C: 'Não é universal.', D: 'Não substitui.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Puerpério imediato',
     e: 'No quarto período do parto (primeira hora após a dequitação), deve-se monitorar principalmente:',
-    o: ['Tônus uterino (globo de segurança de Pinard), sangramento e sinais vitais', 'Somente a temperatura', 'Somente a diurese', 'Somente o peso'],
+    o: ['Tônus uterino (globo de Pinard), sangramento e sinais vitais', 'Somente a temperatura axilar da puérpera, de hora em hora', 'Somente a diurese, nas primeiras horas do puerpério', 'Somente o peso da puérpera, medido na balança'],
     g: 'A',
     c: 'O globo de segurança de Pinard indica útero contraído. A atonia é a principal causa de hemorragia pós-parto. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Boas práticas',
     e: 'O contato pele a pele e a amamentação na primeira hora de vida devem ser:',
-    o: ['Estimulados em recém-nascidos estáveis', 'Evitados até a alta', 'Feitos só após o banho', 'Contraindicados em cesárea'],
+    o: ['Estimulados em recém-nascidos estáveis', 'Evitados até a alta hospitalar, em todos', 'Feitos somente depois do primeiro banho', 'Contraindicados nos nascidos de cesárea'],
     g: 'A',
     c: 'Reduzem hipotermia e favorecem o aleitamento. Referência: World Health Organization; UNICEF. Ten steps to successful breastfeeding (revised 2018).',
     x: { B: 'Contrário às recomendações.', C: 'Não é preciso esperar.', D: 'Também são possíveis na cesárea.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Distocias',
     e: 'Fase ativa com dilatação progredindo menos que o esperado e contrações fracas e espaçadas, sem desproporção. A conduta inicial é:',
-    o: ['Corrigir a hipoatividade uterina com ocitocina e, se possível, amniotomia', 'Indicar cesárea imediata', 'Aplicar fórceps', 'Fazer Kristeller'],
+    o: ['Corrigir a hipoatividade com ocitocina e amniotomia', 'Indicar cesárea imediata, sem outra medida', 'Aplicar fórceps, com dilatação incompleta', 'Fazer a manobra de Kristeller, para acelerar'],
     g: 'A',
     c: 'É a distocia funcional por hipocontratilidade. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Pode ser evitada.', C: 'Exige dilatação completa.', D: 'Proscrita.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Fórceps: condições',
     e: 'Para aplicar fórceps, é obrigatório:',
-    o: ['Dilatação completa, bolsa rota, apresentação insinuada e variedade de posição conhecida', 'Apresentação alta e móvel', 'Colo com 5 cm', 'Bolsa íntegra'],
+    o: ['Dilatação completa, bolsa rota, insinuação e variedade conhecida', 'Apresentação alta e móvel, sem insinuação da cabeça', 'Colo com 5 cm de dilatação, em fase ativa do parto', 'Bolsa íntegra, para proteger a cabeça fetal na tração'],
     g: 'A',
     c: 'Também são necessários bexiga vazia, analgesia adequada e ausência de desproporção. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Contraindicação.', C: 'Exige dilatação completa.', D: 'Exige bolsa rota.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: transferência',
     e: 'Gestante de 28 semanas em trabalho de parto prematuro em hospital sem UTI neonatal. A conduta mais adequada é:',
-    o: ['Iniciar corticoide e tocólise e transferir para centro com UTI neonatal, se o parto não for iminente', 'Manter no local sem medicação', 'Indicar cesárea imediata no local', 'Dar alta para casa'],
+    o: ['Dar corticoide e tocólise e transferir para UTI neonatal', 'Manter no local, sem nenhuma medicação, aguardando o parto', 'Indicar cesárea imediata, no próprio hospital, sem transferência', 'Dar alta para casa, com orientação de repouso relativo'],
     g: 'A',
     c: 'O transporte intraútero melhora os desfechos neonatais. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Inadequado.', C: 'Sem indicação.', D: 'Inaceitável.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_PARTO: QuestaoCompacta[] = [
   {
     s: 'Puerpério imediato',
     e: 'Após parto vaginal, a puérpera deve ser observada no hospital por pelo menos:',
-    o: ['24 horas, nos casos sem intercorrências', '2 horas', '7 dias', '30 dias'],
+    o: ['24 horas, quando não há intercorrências', '2 horas, apenas, após o parto', '7 dias completos, em todos os casos', '30 dias completos, em todos os casos'],
     g: 'A',
     c: 'Nesse período avaliam-se sangramento, sinais vitais, amamentação e o recém-nascido. Referência: Brasil. Ministério da Saúde. Portaria nº 2.068, de 21 de outubro de 2016 (Alojamento Conjunto).',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Excessivo.' },

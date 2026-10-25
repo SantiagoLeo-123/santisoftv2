@@ -13,7 +13,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Dengue: grupo B',
     e: 'Lactente de 1 ano e 3 meses, morador de área com epidemia de dengue, apresenta febre há 3 dias, irritabilidade leve e exantema. Aceita bem líquidos, não tem sinais de alarme e a prova do laço é negativa. A classificação e a conduta são:',
-    o: ['Grupo A; hidratação oral em casa, sem necessidade de exames', 'Grupo B; hemograma obrigatório e hidratação oral em observação até o resultado', 'Grupo C; internação com hidratação venosa', 'Grupo D; expansão rápida em unidade de terapia intensiva'],
+    o: ['Grupo A; hidratação oral em casa, sem exames', 'Grupo B; hemograma e hidratação oral em observação', 'Grupo C; internação com hidratação venosa', 'Grupo D; expansão rápida em unidade de terapia intensiva'],
     g: 'B',
     c: 'O grupo B reúne casos sem sinais de alarme, mas com sangramento de pele espontâneo ou induzido (prova do laço positiva) ou com condições de risco: menores de 2 anos, gestantes, idosos e portadores de comorbidades. Nesses pacientes o hemograma é obrigatório para avaliar hemoconcentração, e a criança permanece em hidratação oral supervisionada até o resultado.',
     x: { A: 'Menores de 2 anos não são grupo A, pois a idade é condição de risco.', C: 'O grupo C exige a presença de algum sinal de alarme, ausente no caso.', D: 'O grupo D corresponde a choque, sangramento grave ou disfunção de órgãos.' },
@@ -21,7 +21,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Dengue: grupo C',
     e: 'Menino de 8 anos, no quinto dia de dengue, já afebril há 12 horas, apresenta dor abdominal intensa e três episódios de vômito na última hora. Pressão arterial e perfusão normais. O hematócrito subiu de 36 para 44 por cento. A conduta é:',
-    o: ['Liberar com hidratação oral e retorno em 48 horas', 'Manter em leito de internação e iniciar hidratação venosa com cristaloide, 10 mL/kg na primeira hora, com reavaliação clínica e de hematócrito', 'Transfundir concentrado de plaquetas', 'Infundir 20 mL/kg em 20 minutos, repetindo até três vezes'],
+    o: ['Liberar com hidratação oral e retorno em 48 horas', 'Internar; cristaloide 10 mL/kg na 1ª hora e reavaliar o hematócrito', 'Transfundir concentrado de plaquetas, de imediato', 'Infundir 20 mL/kg em 20 minutos, repetindo até três vezes'],
     g: 'B',
     c: 'A presença de sinais de alarme define o grupo C. Esses pacientes estão em extravasamento plasmático e precisam de reposição venosa imediata com cristaloide, em qualquer ponto de atenção, com reavaliação clínica horária e controle do hematócrito, permanecendo internados por no mínimo 48 horas. A melhora da febre não significa melhora da doença.',
     x: { A: 'Sinal de alarme contraindica a alta e exige hidratação venosa em observação.', C: 'A transfusão de plaquetas não é indicada pela contagem ou por sinais de alarme isolados.', D: 'A expansão rápida de 20 mL/kg em 20 minutos é a conduta do grupo D, em choque.' },
@@ -29,7 +29,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Dengue: grupo D',
     e: 'Adolescente de 12 anos com dengue há 5 dias chega com extremidades frias, pulso fino, enchimento capilar de 5 segundos e pressão arterial de 90 x 75 mmHg. A conduta imediata é:',
-    o: ['Hidratação oral supervisionada e hemograma', 'Expansão com soro fisiológico 20 mL/kg em até 20 minutos, podendo repetir até três vezes, em leito de emergência ou terapia intensiva', 'Hidratação venosa de manutenção e observação por 6 horas', 'Dopamina e furosemida como primeiras medidas'],
+    o: ['Hidratação oral supervisionada e hemograma', 'Soro fisiológico 20 mL/kg em até 20 min, repetindo até 3 vezes', 'Hidratação venosa de manutenção e observação por 6 horas', 'Dopamina e furosemida como primeiras medidas'],
     g: 'B',
     c: 'Sinais de choque, incluindo o estreitamento da pressão de pulso (diferença igual ou menor que 20 mmHg), definem o grupo D. O tratamento é a expansão rápida com cristaloide, 20 mL/kg em até 20 minutos, repetida até três vezes conforme a resposta, com reavaliação a cada 15 a 30 minutos. A pressão convergente precede a hipotensão e reflete a queda do débito com vasoconstrição compensatória.',
     x: { A: 'A hidratação oral é insuficiente e inadequada no paciente em choque.', C: 'O volume de manutenção não corrige a hipovolemia do extravasamento plasmático.', D: 'Diurético agrava o choque hipovolêmico e não há indicação inicial de vasoativo.' },
@@ -37,7 +37,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Dengue: fase crítica',
     e: 'Sobre a evolução clínica da dengue, o período de maior risco para o surgimento de sinais de alarme e choque é:',
-    o: ['As primeiras 24 horas de febre, quando a viremia é máxima', 'A defervescência, geralmente entre o terceiro e o sétimo dia de doença', 'A fase de recuperação, após o décimo dia', 'Qualquer momento, sem relação com a curva térmica'],
+    o: ['As primeiras 24 horas de febre, quando a viremia é máxima', 'A defervescência, entre o 3º e o 7º dia de doença', 'A fase de recuperação, após o décimo dia de doença', 'Qualquer momento, sem relação com a curva térmica'],
     g: 'B',
     c: 'A fase crítica coincide com o declínio da febre, entre o terceiro e o sétimo dia, quando a resposta imune aumenta a permeabilidade capilar e ocorre extravasamento de plasma, com hemoconcentração, derrames cavitários e risco de choque. Por isso a família deve ser orientada de que a queda da febre é o momento de maior vigilância, e não de alívio.',
     x: { A: 'No início da febre predominam sintomas inespecíficos, sem extravasamento plasmático.', C: 'Na recuperação o líquido é reabsorvido; o risco passa a ser de sobrecarga hídrica.', D: 'Há relação clara entre a defervescência e o início da fase crítica.' },
@@ -45,7 +45,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Dengue: medicamentos',
     e: 'A mãe de uma criança de 7 anos com suspeita de dengue pergunta qual medicamento pode usar para febre e dor. A orientação correta é:',
-    o: ['Ibuprofeno, por ter ação anti-inflamatória adicional', 'Dipirona ou paracetamol, evitando ácido acetilsalicílico e anti-inflamatórios não esteroides', 'Ácido acetilsalicílico em dose baixa', 'Corticoide oral para reduzir a plaquetopenia'],
+    o: ['Ibuprofeno, por ter ação anti-inflamatória adicional', 'Dipirona ou paracetamol; evitar AAS e anti-inflamatórios', 'Ácido acetilsalicílico em dose baixa, a cada 8 horas', 'Corticoide oral, para reduzir a plaquetopenia'],
     g: 'B',
     c: 'Salicilatos e anti-inflamatórios não esteroides inibem a função plaquetária e lesam a mucosa gástrica, aumentando o risco de sangramento em uma doença que já cursa com plaquetopenia e fragilidade capilar. Os sintomáticos indicados são dipirona e paracetamol. Corticoides não têm benefício demonstrado.',
     x: { A: 'O ibuprofeno é contraindicado na suspeita de dengue pelo risco de sangramento.', C: 'O ácido acetilsalicílico inibe as plaquetas e é contraindicado na dengue.', D: 'O corticoide não melhora a plaquetopenia nem a evolução da doença.' },
@@ -69,7 +69,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Zika',
     e: 'Pré-escolar de 4 anos apresenta exantema maculopapular muito pruriginoso desde o primeiro dia de doença, febre baixa referida, hiperemia conjuntival sem secreção e edema discreto de mãos e pés. Hemograma normal. O diagnóstico mais provável e a principal preocupação de saúde pública associada ao agente são:',
-    o: ['Dengue; síndrome do choque', 'Zika; síndrome congênita quando a infecção ocorre na gestação', 'Chikungunya; artropatia crônica', 'Sarampo; panencefalite esclerosante subaguda'],
+    o: ['Dengue; síndrome do choque da dengue', 'Zika; síndrome congênita se a infecção ocorrer na gestação', 'Chikungunya; artropatia crônica pós-infecciosa', 'Sarampo; panencefalite esclerosante subaguda'],
     g: 'B',
     c: 'Na zika o exantema pruriginoso é precoce e predominante, a febre é baixa ou ausente, e a conjuntivite não purulenta é frequente. A doença costuma ser leve, mas o vírus é neurotrópico: na gestante pode causar síndrome congênita com microcefalia, calcificações subcorticais e alterações oculares, além de associar-se à síndrome de Guillain-Barré.',
     x: { A: 'A dengue tem febre alta, mialgia e plaquetopenia, com exantema mais tardio.', C: 'A chikungunya tem febre alta e artralgia intensa como achados dominantes.', D: 'O sarampo cursa com febre alta, tosse, coriza e manchas de Koplik.' },
@@ -85,7 +85,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Calazar: diagnóstico',
     e: 'Para confirmação parasitológica de um caso suspeito de leishmaniose visceral em uma criança, o método de escolha, por aliar boa sensibilidade e segurança, é:',
-    o: ['Hemocultura para bactérias', 'Pesquisa de formas amastigotas em aspirado de medula óssea', 'Gota espessa de sangue periférico', 'Biópsia de pele (intradermorreação de Montenegro)'],
+    o: ['Hemocultura para bactérias, em meio específico', 'Amastigotas em aspirado de medula óssea', 'Gota espessa de sangue periférico, corada pelo Giemsa', 'Biópsia de pele (intradermorreação de Montenegro)'],
     g: 'B',
     c: 'O diagnóstico parasitológico é feito pela visualização de amastigotas no interior de macrófagos em aspirado de medula óssea, que tem boa sensibilidade e baixo risco. A punção esplênica é mais sensível, porém tem risco de hemorragia. O teste rápido com antígeno rK39 e a imunofluorescência são úteis como métodos sorológicos. A intradermorreação de Montenegro é negativa na doença ativa.',
     x: { A: 'A hemocultura bacteriana não identifica a Leishmania.', C: 'A gota espessa é o exame de escolha para malária, não para calazar.', D: 'O teste de Montenegro é negativo na forma visceral ativa pela anergia celular.' },
@@ -93,7 +93,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Calazar: tratamento',
     e: 'Lactente de 9 meses tem diagnóstico confirmado de leishmaniose visceral. Segundo as recomendações do Ministério da Saúde, o medicamento de escolha para esse paciente é:',
-    o: ['Antimoniato de meglumina', 'Anfotericina B lipossomal', 'Miltefosina oral', 'Pentamidina'],
+    o: ['Antimoniato de meglumina, por via intravenosa', 'Anfotericina B lipossomal, por via intravenosa', 'Miltefosina por via oral, por 28 dias', 'Pentamidina, por via intramuscular'],
     g: 'B',
     c: 'O antimonial pentavalente é a droga de primeira escolha na maioria dos casos, mas tem toxicidade cardíaca, renal, hepática e pancreática. A anfotericina B lipossomal é preferida nos grupos de maior risco de óbito ou de toxicidade: menores de 1 ano, maiores de 50 anos, gestantes, pacientes com insuficiência renal, hepática ou cardíaca, coinfecção pelo HIV e sinais de gravidade.',
     x: { A: 'O antimonial é a escolha fora dos grupos de risco; no menor de 1 ano prefere-se a lipossomal.', C: 'A miltefosina não é o tratamento padronizado para calazar humano no Brasil.', D: 'A pentamidina é alternativa em formas tegumentares, não a escolha no calazar.' },
@@ -109,7 +109,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Leptospirose',
     e: 'Adolescente de 14 anos, morador de área que sofreu enchente há 10 dias, apresenta febre alta, cefaleia, dor intensa em panturrilhas e hiperemia conjuntival. Evolui com icterícia de tom alaranjado, oligúria e tosse com escarro hemoptoico. Creatinina elevada com potássio sérico de 3,1 mEq/L. O diagnóstico e o tratamento são:',
-    o: ['Hepatite A fulminante; suporte e transplante hepático', 'Leptospirose em forma grave; penicilina cristalina ou ceftriaxona e suporte intensivo', 'Dengue grave; hidratação venosa vigorosa', 'Febre amarela; suporte'],
+    o: ['Hepatite A fulminante; suporte e transplante hepático', 'Leptospirose grave; penicilina ou ceftriaxona e suporte intensivo', 'Dengue grave; hidratação venosa vigorosa e monitorização', 'Febre amarela; suporte clínico intensivo e monitorização'],
     g: 'B',
     c: 'A exposição a água contaminada por urina de roedores, com mialgia de panturrilhas e sufusão conjuntival, sugere leptospirose. A forma grave (doença de Weil) reúne icterícia rubínica, insuficiência renal e hemorragias, sendo a hemorragia pulmonar a principal causa de óbito. A lesão tubular proximal causa insuficiência renal com potássio normal ou baixo, dado característico. O antibiótico venoso é indicado em qualquer fase da forma grave.',
     x: { A: 'A hepatite A não cursa com mialgia de panturrilhas, lesão renal e hemorragia pulmonar.', C: 'A dengue não causa icterícia rubínica com insuficiência renal hipocalêmica.', D: 'Não há história de exposição em área de mata, e a hipocalemia aponta para leptospirose.' },
@@ -117,7 +117,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Febre maculosa',
     e: 'Menino de 8 anos, que passou o fim de semana em um sítio no interior de São Paulo onde há capivaras, apresenta febre alta, cefaleia e mialgia há 4 dias. Surge exantema maculopapular em punhos e tornozelos, que se espalha para o tronco e acomete palmas e plantas, com algumas lesões petequiais. A conduta é:',
-    o: ['Aguardar a sorologia pareada para iniciar o tratamento', 'Iniciar doxiciclina imediatamente, com base na suspeita clínico-epidemiológica', 'Prescrever amoxicilina por 10 dias', 'Tratar como dengue, com hidratação e sintomáticos'],
+    o: ['Aguardar a sorologia pareada para iniciar o tratamento', 'Iniciar doxiciclina já, pela suspeita clínico-epidemiológica', 'Prescrever amoxicilina por 10 dias, por via oral', 'Tratar como dengue, com hidratação e sintomáticos'],
     g: 'B',
     c: 'A Rickettsia rickettsii, transmitida pelo carrapato-estrela, invade o endotélio e causa vasculite sistêmica, o que explica o exantema de início distal, com acometimento palmoplantar e evolução petequial. A letalidade é alta quando o tratamento atrasa além do quinto dia. A doxiciclina é a droga de escolha em qualquer idade e deve ser iniciada na suspeita, sem aguardar confirmação.',
     x: { A: 'A sorologia só positiva tardiamente, e esperar por ela eleva muito a letalidade.', C: 'Betalactâmicos não têm ação contra riquétsias, que são intracelulares.', D: 'O exantema palmoplantar com exposição a carrapato exige tratamento específico imediato.' },
@@ -125,7 +125,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Doença de Kawasaki',
     e: 'Menino de 2 anos apresenta febre alta há 6 dias, sem resposta a antibiótico, hiperemia conjuntival bilateral sem secreção, lábios fissurados com língua em framboesa, exantema polimorfo em tronco, edema endurado de mãos e pés e linfonodo cervical de 2 cm. O diagnóstico e o tratamento indicado são:',
-    o: ['Escarlatina; penicilina benzatina', 'Doença de Kawasaki; imunoglobulina intravenosa e ácido acetilsalicílico', 'Sarampo; vitamina A', 'Síndrome de Stevens-Johnson; suspensão de fármacos e suporte'],
+    o: ['Escarlatina; penicilina benzatina em dose única', 'Kawasaki; imunoglobulina IV e ácido acetilsalicílico', 'Sarampo; vitamina A em dose única, por 2 dias', 'Stevens-Johnson; suspender fármacos e dar suporte'],
     g: 'B',
     c: 'O diagnóstico de Kawasaki é clínico: febre por 5 dias ou mais associada a pelo menos quatro de cinco critérios (conjuntivite não exsudativa, alterações de lábios e cavidade oral, exantema, alterações de extremidades e linfadenopatia cervical). É uma vasculite de médios vasos com predileção pelas coronárias. A imunoglobulina nos primeiros 10 dias reduz de forma importante o risco de aneurismas coronarianos, e o ecocardiograma é obrigatório.',
     x: { A: 'A escarlatina responde ao antibiótico e não causa conjuntivite nem edema de extremidades.', C: 'O sarampo tem pródromo com tosse, coriza e manchas de Koplik, ausentes no caso.', D: 'No Stevens-Johnson há lesões bolhosas e erosões de mucosas, não o quadro descrito.' },
@@ -133,7 +133,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'MIS-C',
     e: 'Menina de 9 anos, que teve COVID-19 leve há 4 semanas, apresenta febre alta há 5 dias, dor abdominal intensa, vômitos, diarreia, exantema e hiperemia conjuntival. Está hipotensa e taquicárdica. Exames: linfopenia, plaquetopenia, PCR e ferritina muito elevadas, troponina e BNP aumentados; ecocardiograma com disfunção ventricular. O diagnóstico mais provável é:',
-    o: ['Apendicite aguda complicada', 'Síndrome inflamatória multissistêmica pediátrica associada à COVID-19', 'Doença de Kawasaki clássica', 'Gastroenterite viral com desidratação'],
+    o: ['Apendicite aguda complicada, com peritonite', 'Síndrome inflamatória multissistêmica pós-COVID-19', 'Doença de Kawasaki clássica, com aneurismas', 'Gastroenterite viral, com desidratação associada'],
     g: 'B',
     c: 'A síndrome inflamatória multissistêmica pediátrica é uma resposta imune desregulada que surge 2 a 6 semanas após a infecção pelo SARS-CoV-2. Diferencia-se do Kawasaki clássico por acometer crianças maiores, ter sintomas gastrointestinais proeminentes, choque e disfunção miocárdica frequentes, linfopenia, plaquetopenia e marcadores inflamatórios e cardíacos muito elevados. O tratamento inclui imunoglobulina e corticoide.',
     x: { A: 'A apendicite não explica a disfunção miocárdica e os achados mucocutâneos.', C: 'O Kawasaki clássico acomete menores de 5 anos e cursa com plaquetose, não plaquetopenia.', D: 'A gastroenterite não causa elevação de troponina nem disfunção ventricular.' },
@@ -141,7 +141,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Ascaridíase: suboclusão',
     e: 'Menino de 4 anos, morador de área sem saneamento, apresenta dor abdominal em cólica, distensão, vômitos e parada de eliminação de fezes há 1 dia; eliminou um verme cilíndrico pela boca. Palpa-se massa móvel em região periumbilical. Sem sinais de peritonite. A conduta inicial é:',
-    o: ['Laparotomia exploradora imediata', 'Jejum, sonda nasogástrica, hidratação venosa e óleo mineral, com piperazina; anti-helmíntico curativo após a resolução', 'Albendazol em dose única e alta hospitalar', 'Lavagem intestinal com solução hipertônica e dieta livre'],
+    o: ['Laparotomia exploradora imediata, por obstrução', 'Jejum, SNG, hidratação e óleo mineral; anti-helmíntico depois', 'Albendazol em dose única e alta hospitalar logo após', 'Lavagem intestinal hipertônica e dieta livre em seguida'],
     g: 'B',
     c: 'A suboclusão por bolo de Ascaris lumbricoides é a complicação mais comum da ascaridíase maciça. O tratamento inicial é clínico: jejum, descompressão gástrica, hidratação e óleo mineral para lubrificar e desfazer o novelo. A piperazina causa paralisia flácida dos vermes e facilita sua eliminação. A cirurgia é reservada à falha clínica ou a sinais de obstrução completa, volvo ou perfuração.',
     x: { A: 'A cirurgia fica reservada à falha do tratamento clínico ou a sinais de complicação.', C: 'O anti-helmíntico na fase oclusiva pode agravar o quadro e não permite alta.', D: 'A dieta livre é contraindicada na obstrução; o paciente deve permanecer em jejum.' },
@@ -165,7 +165,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Enterobíase',
     e: 'Menina de 5 anos apresenta prurido anal intenso, principalmente à noite, sono agitado e irritabilidade; há também corrimento vaginal e hiperemia vulvar. O exame mais adequado para o diagnóstico e a conduta terapêutica são:',
-    o: ['Parasitológico de fezes por sedimentação; tratar apenas a criança', 'Método da fita gomada (Graham); tratar a criança e os contactantes domiciliares, repetindo a dose em 2 semanas', 'Coprocultura; antibiótico oral', 'Método de Baermann-Moraes; ivermectina em dose única'],
+    o: ['Parasitológico de fezes por sedimentação; tratar só a criança', 'Fita gomada (Graham); tratar contactantes e repetir em 2 semanas', 'Coprocultura; antibiótico oral por 7 dias', 'Baermann-Moraes; ivermectina em dose única'],
     g: 'B',
     c: 'A fêmea do Enterobius vermicularis migra à noite para a região perianal para depositar os ovos, o que provoca o prurido noturno; nas meninas pode alcançar a genitália e causar vulvovaginite. Como os ovos não são eliminados nas fezes, o exame parasitológico convencional tem baixa sensibilidade, e usa-se a fita gomada. A transmissão intradomiciliar e a autoinfecção justificam tratar todos os conviventes e repetir a dose.',
     x: { A: 'O parasitológico comum tem baixa sensibilidade, e tratar só a criança leva a reinfecção.', C: 'A coprocultura pesquisa bactérias e não diagnostica helmintíase.', D: 'O método de Baermann-Moraes pesquisa larvas, como as de Strongyloides.' },
@@ -173,7 +173,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Ancilostomíase',
     e: 'Escolar de 8 anos, morador de zona rural, que anda descalço, apresenta palidez intensa, cansaço, hábito de comer terra e baixo rendimento escolar. Hemograma com anemia microcítica e hipocrômica e eosinofilia; ferritina baixa. O mecanismo da anemia e o parasita envolvido são:',
-    o: ['Hemólise intravascular por Plasmodium', 'Perda crônica de sangue no intestino delgado por espoliação de ancilostomídeos', 'Deficiência de vitamina B12 por Diphyllobothrium latum', 'Má absorção de ferro por Giardia lamblia'],
+    o: ['Hemólise intravascular por Plasmodium', 'Perda crônica de sangue intestinal por ancilostomídeos', 'Deficiência de B12 por Diphyllobothrium latum', 'Má absorção de ferro por Giardia lamblia'],
     g: 'B',
     c: 'Ancylostoma duodenale e Necator americanus penetram pela pele, fazem ciclo pulmonar e fixam-se à mucosa do intestino delgado, onde sugam sangue e liberam substâncias anticoagulantes. A perda sanguínea crônica leva a anemia ferropriva, que pode ser grave, com geofagia e hipoalbuminemia. O tratamento inclui albendazol ou mebendazol e reposição de ferro.',
     x: { A: 'A malária causa anemia hemolítica normocítica, com febre, sem ferropenia.', C: 'A deficiência de vitamina B12 produz anemia macrocítica, não microcítica.', D: 'A giardíase causa má absorção de gorduras, não anemia ferropriva intensa com eosinofilia.' },
@@ -189,7 +189,7 @@ export const PED_INFECTO_3: QuestaoCompacta[] = [
   {
     s: 'Teníase e cisticercose',
     e: 'Menino de 9 anos, previamente hígido, apresenta primeira crise convulsiva focal. A tomografia de crânio mostra lesões císticas e nódulos calcificados no parênquima cerebral. A forma de aquisição dessa doença é:',
-    o: ['Ingestão de carne de porco malcozida contendo cisticercos', 'Ingestão de ovos de Taenia solium em água ou alimentos contaminados por fezes humanas', 'Ingestão de carne bovina malcozida', 'Penetração de larvas pela pele ao andar descalço'],
+    o: ['Ingestão de carne de porco malcozida com cisticercos', 'Ingestão de ovos de Taenia solium em alimento contaminado', 'Ingestão de carne bovina malcozida com cisticercos', 'Penetração de larvas pela pele ao andar descalço'],
     g: 'B',
     c: 'A neurocisticercose ocorre quando o ser humano ingere ovos de Taenia solium e passa a se comportar como hospedeiro intermediário: os embriões atravessam a mucosa intestinal e alojam-se nos tecidos, sobretudo no sistema nervoso central. Já a ingestão de carne suína com cisticercos causa teníase, a forma intestinal com o verme adulto. É causa importante de epilepsia adquirida em áreas endêmicas.',
     x: { A: 'A carne suína com cisticercos causa teníase intestinal, não cisticercose.', C: 'A carne bovina transmite Taenia saginata, que não causa cisticercose humana.', D: 'A penetração cutânea de larvas é o mecanismo de ancilostomídeos e Strongyloides.' },

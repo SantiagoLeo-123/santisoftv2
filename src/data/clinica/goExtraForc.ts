@@ -5,7 +5,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: definição',
     e: 'Hemorragia pós-parto é classicamente definida como perda sanguínea de:',
-    o: ['500 mL ou mais após parto vaginal ou 1.000 mL ou mais após cesárea, ou qualquer perda com instabilidade', '100 mL após parto vaginal', '2.000 mL em qualquer parto', 'Qualquer sangramento após o parto'],
+    o: ['≥ 500 mL no parto vaginal ou ≥ 1.000 mL na cesárea', '100 mL de perda após um parto vaginal', '2.000 mL de perda em qualquer tipo de parto', 'Qualquer sangramento visível após o parto'],
     g: 'A',
     c: 'Na prática, perdas menores com sinais de choque também são consideradas. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Volume normal.', C: 'Limite alto demais.', D: 'Sangramento fisiológico existe.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: contraindicações',
     e: 'A metilergometrina é contraindicada em puérperas com:',
-    o: ['Hipertensão ou pré-eclâmpsia', 'Anemia leve', 'Primiparidade', 'Diabetes gestacional'],
+    o: ['Hipertensão arterial ou pré-eclâmpsia', 'Anemia leve, com hemoglobina acima de 10', 'Primiparidade, sem outros fatores de risco', 'Diabetes mellitus gestacional controlado'],
     g: 'A',
     c: 'Causa vasoconstrição e crise hipertensiva. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: cirurgia',
     e: 'A sutura de B-Lynch é uma técnica de:',
-    o: ['Compressão uterina para atonia', 'Correção de laceração perineal', 'Histerectomia', 'Ligadura tubária'],
+    o: ['Compressão uterina para atonia', 'Correção de laceração perineal grave', 'Histerectomia subtotal de urgência', 'Ligadura tubária no pós-parto'],
     g: 'A',
     c: 'É usada durante laparotomia quando os uterotônicos falham. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Outra técnica.', C: 'Outra técnica.', D: 'Outro procedimento.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: prevenção',
     e: 'A principal medida para prevenir hemorragia pós-parto em todos os partos é:',
-    o: ['Ocitocina profilática logo após o nascimento', 'Ergometrina para todas', 'Massagem uterina contínua por 24 horas', 'Tração vigorosa do cordão'],
+    o: ['Ocitocina profilática logo após o nascimento', 'Ergometrina profilática para todas as parturientes', 'Massagem uterina contínua por 24 horas', 'Tração vigorosa do cordão antes da dequitação'],
     g: 'A',
     c: 'Ocitocina 10 UI IM ou IV lenta é a recomendação da OMS. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Contraindicada em hipertensas.', C: 'Não é a principal.', D: 'Pode causar inversão.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Retenção placentária',
     e: 'Placenta não expelida 30 minutos após o nascimento, apesar de manejo ativo, sem sangramento importante. A conduta é:',
-    o: ['Extração manual da placenta sob analgesia', 'Aguardar 24 horas', 'Histerectomia', 'Ocitocina via oral'],
+    o: ['Extração manual da placenta sob analgesia', 'Aguardar 24 horas pela expulsão espontânea', 'Histerectomia imediata, por retenção placentária', 'Ocitocina por via oral, em dose alta'],
     g: 'A',
     c: 'Se houver plano de clivagem inexistente, suspeitar de acretismo. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Risco de hemorragia e infecção.', C: 'Medida extrema.', D: 'Via ineficaz.' },
@@ -77,7 +77,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Sheehan',
     e: 'Puérpera com hemorragia grave no parto evolui com falha na lactação, amenorreia e astenia. O diagnóstico é:',
-    o: ['Síndrome de Sheehan (necrose hipofisária pós-parto)', 'Síndrome de Asherman', 'Síndrome de Turner', 'Hiperprolactinemia'],
+    o: ['Síndrome de Sheehan, por necrose hipofisária', 'Síndrome de Asherman, por sinéquias uterinas', 'Síndrome de Turner, com cariótipo 45,X', 'Hiperprolactinemia por adenoma hipofisário'],
     g: 'A',
     c: 'A falha de lactação é sinal precoce, pela deficiência de prolactina. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'Causa amenorreia por sinéquias, sem falha de lactação.', C: 'Disgenesia gonadal.', D: 'Causa galactorreia.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Endometrite puerperal',
     e: 'O principal fator de risco para endometrite puerperal é:',
-    o: ['Cesárea, especialmente após trabalho de parto e bolsa rota prolongada', 'Parto vaginal sem intercorrências', 'Amamentação', 'Primiparidade isolada'],
+    o: ['Cesárea, sobretudo após trabalho de parto e bolsa rota', 'Parto vaginal sem nenhuma intercorrência', 'Amamentação precoce na primeira hora de vida', 'Primiparidade, sem outros fatores associados'],
     g: 'A',
     c: 'A antibioticoprofilaxia na cesárea reduz muito o risco. Referência: Smaill FM, Grivell RM. Antibiotic prophylaxis versus no prophylaxis for preventing infection after cesarean section. Cochrane Database Syst Rev. 2014;(10):CD007482.',
     x: { B: 'Risco menor.', C: 'Não é fator.', D: 'Não é fator.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Endometrite puerperal',
     e: 'Puérpera no terceiro dia após cesárea com febre, útero amolecido e doloroso e lóquios fétidos. O tratamento de escolha é:',
-    o: ['Clindamicina associada a gentamicina por via intravenosa', 'Cefalexina oral', 'Amoxicilina oral em dose baixa', 'Apenas analgesia'],
+    o: ['Clindamicina mais gentamicina por via intravenosa', 'Cefalexina por via oral, em dose habitual', 'Amoxicilina por via oral, em dose baixa', 'Apenas analgesia e observação clínica'],
     g: 'A',
     c: 'A infecção é polimicrobiana, com anaeróbios. O tratamento segue até a paciente ficar afebril por 24 a 48 horas. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Cobertura inadequada.', C: 'Cobertura inadequada.', D: 'Exige antibiótico.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Infecção puerperal: refratária',
     e: 'Puérpera com endometrite em uso de antibióticos adequados há 72 horas, persistindo com febre, sem abscesso nem restos à imagem. A hipótese é:',
-    o: ['Tromboflebite pélvica séptica', 'Mastite', 'Infecção urinária obrigatória', 'Febre por amamentação'],
+    o: ['Tromboflebite pélvica séptica', 'Mastite puerperal em fase inicial', 'Infecção urinária, obrigatoriamente associada', 'Febre fisiológica da amamentação'],
     g: 'A',
     c: 'O tratamento inclui anticoagulação com heparina, mantendo os antibióticos. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Haveria sinais mamários.', C: 'Seria investigada, mas não explica a refratariedade.', D: 'Não existe.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Febre puerperal',
     e: 'Febre puerperal é classicamente definida como temperatura de 38 °C ou mais:',
-    o: ['Em pelo menos 2 dos primeiros 10 dias pós-parto, excluídas as primeiras 24 horas', 'Apenas nas primeiras 24 horas', 'Somente após 30 dias', 'Em qualquer momento da gestação'],
+    o: ['Em 2 dos primeiros 10 dias, após as primeiras 24 horas', 'Apenas nas primeiras 24 horas após o parto', 'Somente após 30 dias do parto', 'Em qualquer momento da gestação, sem relação com o parto'],
     g: 'A',
     c: 'Febre nas primeiras 24 horas pode ser fisiológica ou por outras causas. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Período excluído.', C: 'Fora do puerpério imediato.', D: 'Não é puerperal.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Mastite',
     e: 'Puérpera de 3 semanas amamentando, com febre, dor, calor e hiperemia em quadrante da mama. A conduta é:',
-    o: ['Manter a amamentação, esvaziar a mama e usar antibiótico com cobertura para estafilococo, como cefalexina', 'Suspender a amamentação', 'Drenagem cirúrgica imediata sem antibiótico', 'Apenas compressas frias'],
+    o: ['Manter a amamentação, esvaziar a mama e dar cefalexina', 'Suspender a amamentação até o fim do tratamento', 'Drenar cirurgicamente, sem usar antibiótico', 'Usar apenas compressas frias e analgesia'],
     g: 'A',
     c: 'Abscesso exige drenagem; a amamentação pode continuar na mama não acometida ou com ordenha. Referência: Amir LH et al. ABM Clinical Protocol 36: The Mastitis Spectrum. Breastfeed Med. 2022;17(5):360-76.',
     x: { B: 'A amamentação deve continuar.', C: 'Sem abscesso não se drena.', D: 'Insuficiente.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério fisiológico',
     e: 'Logo após o parto, o fundo uterino localiza-se aproximadamente:',
-    o: ['Na altura da cicatriz umbilical', 'No apêndice xifoide', 'Abaixo da sínfise', 'No hipocôndrio direito'],
+    o: ['Na altura da cicatriz umbilical', 'No apêndice xifoide, ao fim da dequitação', 'Abaixo da sínfise púbica, já contraído', 'No hipocôndrio direito, desviado pela bexiga'],
     g: 'A',
     c: 'O útero involui e se torna intrapélvico por volta de 2 semanas após o parto. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Acima do esperado.', C: 'Abaixo do esperado.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Fórceps',
     e: 'O fórceps de Piper é utilizado para:',
-    o: ['Extração da cabeça derradeira no parto pélvico', 'Rotação de 180 graus', 'Variedades transversas', 'Cesárea'],
+    o: ['Extração da cabeça derradeira no parto pélvico', 'Rotação de 180 graus da cabeça fetal', 'Extração em variedades transversas altas', 'Extração fetal na cesárea de emergência'],
     g: 'A',
     c: 'Protege a coluna cervical fetal e controla a deflexão. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Usa-se Kielland.', C: 'Usa-se Barton ou Kielland.', D: 'Não é usado.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Fórceps: indicações',
     e: 'É indicação clássica de fórceps:',
-    o: ['Período expulsivo prolongado ou sofrimento fetal com condições de aplicabilidade preenchidas', 'Dilatação incompleta', 'Apresentação alta e móvel', 'Desproporção cefalopélvica'],
+    o: ['Expulsivo prolongado ou sofrimento fetal, com aplicabilidade', 'Dilatação incompleta, com colo ainda espesso e pérvio', 'Apresentação alta e móvel, ainda sem insinuação', 'Desproporção cefalopélvica comprovada ao exame'],
     g: 'A',
     c: 'Também: necessidade de abreviar o expulsivo por doença materna, como cardiopatia. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Contraindicação.', C: 'Contraindicação.', D: 'Contraindicação.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Vácuo-extrator',
     e: 'Comparado ao fórceps, o vácuo-extrator:',
-    o: ['Causa menos lacerações maternas, porém mais céfalo-hematoma e falha de extração', 'Exige menos condições de aplicabilidade', 'Pode ser usado em fetos muito prematuros sem restrição', 'Permite rotações amplas como o Kielland'],
+    o: ['Causa menos lacerações maternas, mas mais céfalo-hematoma e falha', 'Exige menos condições de aplicabilidade que o fórceps', 'Pode ser usado em prematuros extremos, sem restrição', 'Permite rotações amplas, como o fórceps de Kielland'],
     g: 'A',
     c: 'Evita-se o vácuo abaixo de cerca de 34 semanas. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 219: Operative Vaginal Birth. Obstet Gynecol. 2020;135(4):e149-59.',
     x: { B: 'Exige as mesmas condições básicas.', C: 'Contraindicado em prematuros extremos.', D: 'Não permite.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Fórceps: classificação',
     e: 'Fórceps aplicado com a cabeça fetal visível no introito sem separar os lábios, com escalpo no assoalho pélvico, é classificado como:',
-    o: ['Fórceps de alívio (baixo, de saída)', 'Fórceps médio', 'Fórceps alto', 'Fórceps de rotação obrigatória'],
+    o: ['Fórceps de alívio (de saída)', 'Fórceps médio, com cabeça insinuada', 'Fórceps alto, com cabeça móvel', 'Fórceps de rotação, obrigatoriamente'],
     g: 'A',
     c: 'O fórceps alto, com apresentação não insinuada, não é mais aceito. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Apresentação mais alta.', C: 'Proscrito.', D: 'Não necessariamente.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: tromboembolismo',
     e: 'O período de maior risco para tromboembolismo venoso no ciclo gravídico-puerperal é:',
-    o: ['O puerpério, especialmente nas primeiras semanas', 'O primeiro trimestre', 'A 20ª semana', 'O período pré-concepcional'],
+    o: ['O puerpério, sobretudo nas primeiras semanas', 'O primeiro trimestre da gestação, no início', 'A 20ª semana de gestação, no meio', 'O período pré-concepcional, antes da gestação'],
     g: 'A',
     c: 'A deambulação precoce e a profilaxia em pacientes de risco são fundamentais. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Risco menor.', C: 'Risco menor.', D: 'Sem gestação.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: choque',
     e: 'Em puérpera com hemorragia grave, a reposição volêmica deve:',
-    o: ['Iniciar com cristaloides e evoluir precocemente para hemoderivados, evitando excesso de cristaloide', 'Usar apenas soro glicosado', 'Aguardar exames para transfundir sempre', 'Evitar qualquer volume'],
+    o: ['Cristaloides e logo hemoderivados, sem excesso de volume', 'Apenas soro glicosado, em grande volume', 'Aguardar os exames para transfundir, sempre', 'Evitar qualquer reposição de volume inicial'],
     g: 'A',
     c: 'Protocolos de transfusão maciça com plasma, plaquetas e fibrinogênio melhoram desfechos. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Inadequado.', C: 'Atraso perigoso.', D: 'Inadequado.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: laceração',
     e: 'Puérpera com útero bem contraído e sangramento vermelho vivo contínuo após parto vaginal. A causa mais provável é:',
-    o: ['Laceração do trajeto (colo, vagina ou períneo)', 'Atonia uterina', 'Inversão uterina', 'Coagulopatia isolada sempre'],
+    o: ['Laceração do trajeto (colo, vagina ou períneo)', 'Atonia uterina, com útero hipotônico', 'Inversão uterina, com fundo não palpável', 'Coagulopatia isolada, em todos os casos'],
     g: 'A',
     c: 'Exige revisão do canal de parto e sutura. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'O útero estaria amolecido.', C: 'O fundo não seria palpável.', D: 'Menos provável.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Fórceps: pegada',
     e: 'A pegada ideal do fórceps na cabeça fetal é a:',
-    o: ['Biparietomalomentoniana, simétrica, com as colheres sobre os parietais e malares', 'Frontoccipital', 'Sobre as órbitas', 'Assimétrica na face'],
+    o: ['Biparietomalomentoniana, simétrica', 'Frontoccipital, com colheres assimétricas', 'Sobre as órbitas, protegendo o globo ocular', 'Assimétrica na face, com apoio na bochecha'],
     g: 'A',
     c: 'A pegada correta reduz trauma fetal. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Incorreta.', C: 'Lesiva.', D: 'Incorreta.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Fórceps: complicações',
     e: 'Complicação fetal possível do parto com fórceps é:',
-    o: ['Paralisia facial transitória e fraturas de crânio raras', 'Hidropsia', 'Macrossomia', 'Anemia por isoimunização'],
+    o: ['Paralisia facial transitória e fraturas raras', 'Hidropsia fetal imune ou não imune, grave', 'Macrossomia fetal por diabetes materno', 'Anemia fetal por isoimunização Rh grave'],
     g: 'A',
     c: 'Complicações maternas incluem lacerações de terceiro e quarto graus. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 219: Operative Vaginal Birth. Obstet Gynecol. 2020;135(4):e149-59.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Vácuo-extrator: complicação',
     e: 'Complicação típica do vácuo-extrator é:',
-    o: ['Céfalo-hematoma e hemorragia subgaleal', 'Fratura de clavícula exclusiva', 'Lesão ocular frequente', 'Paralisia facial'],
+    o: ['Céfalo-hematoma e hemorragia subgaleal', 'Fratura de clavícula, como lesão exclusiva', 'Lesão ocular fetal frequente e grave', 'Paralisia facial, como complicação típica'],
     g: 'A',
     c: 'A hemorragia subgaleal pode ser grave e exige vigilância do recém-nascido. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 219: Operative Vaginal Birth. Obstet Gynecol. 2020;135(4):e149-59.',
     x: { B: 'Associa-se à distocia de ombro.', C: 'Rara.', D: 'Mais típica do fórceps.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: anticoncepção',
     e: 'Para a mulher que amamenta exclusivamente, o anticoncepcional hormonal combinado:',
-    o: ['Deve ser evitado antes de 6 semanas pós-parto, pelo risco trombótico e possível redução do leite', 'É a primeira escolha desde o primeiro dia', 'Não interfere em nada', 'É obrigatório'],
+    o: ['Evitar antes de 6 semanas, pelo risco trombótico', 'Primeira escolha desde o primeiro dia pós-parto', 'Não interfere em nada na produção de leite', 'É obrigatório em todas as lactantes, sem exceção'],
     g: 'A',
     c: 'Métodos com progestagênio isolado, DIU e LAM são opções no início do puerpério. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Contraindicado no início.', C: 'Há riscos.', D: 'Não é obrigatório.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: LAM',
     e: 'O método da lactação e amenorreia (LAM) é eficaz quando:',
-    o: ['A mulher está em amenorreia, amamenta exclusivamente em livre demanda e o bebê tem menos de 6 meses', 'O bebê tem mais de 1 ano', 'A mulher já menstruou', 'A amamentação é complementada com fórmula na maior parte do dia'],
+    o: ['Amenorreia, mamada exclusiva e bebê com menos de 6 meses', 'Bebê com mais de 1 ano de idade completa', 'Mulher que já menstruou depois do parto', 'Amamentação complementada com fórmula quase todo o dia'],
     g: 'A',
     c: 'Se qualquer critério falhar, outro método deve ser iniciado. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Perde eficácia.', C: 'Perde eficácia.', D: 'Perde eficácia.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: DIU',
     e: 'O DIU de cobre pode ser inserido no pós-parto:',
-    o: ['Nos primeiros 10 minutos após a dequitação ou a partir de 4 semanas pós-parto', 'Somente após 1 ano', 'Apenas em quem não amamenta', 'Entre 48 horas e 4 semanas como período ideal'],
+    o: ['Em 10 minutos após a dequitação ou após 4 semanas', 'Somente após 1 ano de pós-parto', 'Apenas em mulheres que não amamentam', 'Entre 48 horas e 4 semanas, como ideal'],
     g: 'A',
     c: 'Entre 48 horas e 4 semanas a inserção não é recomendada pelo maior risco de expulsão e perfuração. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Sem fundamento.', C: 'Pode ser usado na amamentação.', D: 'É o período a evitar.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: depressão',
     e: 'Puérpera de 5 semanas com tristeza persistente, anedonia, insônia e culpa intensa. O diagnóstico mais provável é:',
-    o: ['Depressão pós-parto', 'Baby blues', 'Psicose puerperal', 'Sheehan'],
+    o: ['Depressão pós-parto', 'Baby blues, ou tristeza puerperal', 'Psicose puerperal com delírios', 'Síndrome de Sheehan, por hipopituitarismo'],
     g: 'A',
     c: 'O baby blues é leve e regride em até 2 semanas. Pode-se usar a Escala de Edimburgo para rastreio. Referência: Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry. 1987;150:782-6.',
     x: { B: 'Dura até 2 semanas.', C: 'Haveria sintomas psicóticos.', D: 'Haveria falha de lactação.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: tranexâmico',
     e: 'O ácido tranexâmico na hemorragia pós-parto deve ser administrado:',
-    o: ['Na dose de 1 g intravenoso o mais cedo possível, idealmente nas primeiras 3 horas', 'Somente após 6 horas', 'Apenas por via oral', 'Somente se houver coagulopatia confirmada'],
+    o: ['1 g IV o mais cedo possível, em até 3 horas', 'Somente após 6 horas do início do sangramento', 'Apenas por via oral, em dose de 1 g', 'Somente se houver coagulopatia confirmada'],
     g: 'A',
     c: 'Após 3 horas, o benefício desaparece. Referência: WOMAN Trial Collaborators. Lancet. 2017;389(10084):2105-16.',
     x: { B: 'Perde benefício.', C: 'Via inadequada.', D: 'Não precisa aguardar exames.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: misoprostol',
     e: 'Na hemorragia por atonia sem resposta à ocitocina, o misoprostol pode ser usado na dose de:',
-    o: ['800 microgramas por via retal ou sublingual', '25 microgramas vaginal', '5 microgramas oral', '10 gramas'],
+    o: ['800 microgramas, por via retal ou sublingual', '25 microgramas por via vaginal, em dose única', '5 microgramas por via oral, em dose única', '10 gramas por via oral, em dose única'],
     g: 'A',
     c: 'É útil sobretudo onde não há outros uterotônicos. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Dose de indução.', C: 'Dose ineficaz.', D: 'Dose impossível.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: retenção urinária',
     e: 'Puérpera após parto com analgesia peridural não urina há 6 horas e tem bexiga palpável. A conduta é:',
-    o: ['Cateterismo vesical de alívio', 'Aguardar 24 horas', 'Diurético', 'Ocitocina'],
+    o: ['Cateterismo vesical de alívio', 'Aguardar 24 horas, sem intervir', 'Diurético intravenoso, em dose alta', 'Ocitocina em infusão, para contrair a bexiga'],
     g: 'A',
     c: 'A bexiga distendida prejudica a contração uterina e pode piorar a hemorragia. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Risco de lesão vesical.', C: 'Pioraria.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Infecção de ferida operatória',
     e: 'Puérpera no quinto dia após cesárea com hiperemia, calor e saída de secreção purulenta pela incisão. A conduta é:',
-    o: ['Abrir e drenar a ferida, com antibiótico se houver celulite extensa', 'Apenas antibiótico oral sem abrir', 'Ressutura imediata', 'Ignorar'],
+    o: ['Abrir e drenar a ferida, com antibiótico se celulite', 'Só antibiótico oral, sem abrir a ferida', 'Ressutura imediata da pele, sob anestesia', 'Ignorar o achado e manter a observação'],
     g: 'A',
     c: 'A drenagem é o tratamento principal do abscesso de parede. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'A coleção precisa ser drenada.', C: 'Contraindicada com infecção.', D: 'Inadequado.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia: embolia amniótica',
     e: 'Durante o parto, paciente apresenta súbita dispneia, hipotensão, hipoxemia, convulsão e coagulopatia grave. A hipótese é:',
-    o: ['Embolia de líquido amniótico', 'Atonia uterina', 'Eclâmpsia isolada', 'Inversão uterina'],
+    o: ['Embolia de líquido amniótico', 'Atonia uterina, com sangramento maciço', 'Eclâmpsia isolada, sem hipoxemia importante', 'Inversão uterina, com choque neurogênico'],
     g: 'A',
     c: 'É diagnóstico clínico de exclusão, com tratamento de suporte intensivo. Referência: Society for Maternal-Fetal Medicine; Pacheco LD et al. Amniotic fluid embolism: diagnosis and management. Am J Obstet Gynecol. 2016;215(2):B16-24.',
     x: { B: 'Não explica o colapso respiratório.', C: 'Não explica coagulopatia e hipoxemia.', D: 'Não explica o quadro respiratório.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: retorno',
     e: 'A consulta puerperal na atenção básica deve ocorrer:',
-    o: ['Na primeira semana pós-parto e novamente até 42 dias', 'Somente após 6 meses', 'Apenas se houver complicação', 'Somente para o recém-nascido'],
+    o: ['Na 1ª semana pós-parto e de novo até 42 dias', 'Somente depois de 6 meses do parto', 'Apenas se houver complicação puerperal', 'Somente para consulta do recém-nascido'],
     g: 'A',
     c: 'Avaliam-se a puérpera, a amamentação e a anticoncepção. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Tardio.', C: 'Deve ser rotina.', D: 'Ambos devem ser avaliados.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Fórceps: rotação',
     e: 'Antes de aplicar o fórceps, é essencial determinar:',
-    o: ['A variedade de posição da cabeça fetal', 'O peso fetal exato', 'O sexo fetal', 'A idade materna'],
+    o: ['A variedade de posição da cabeça fetal', 'O peso fetal exato, medido pelo ultrassom', 'O sexo fetal, pelo exame genital', 'A idade materna, em anos completos'],
     g: 'A',
     c: 'O erro na variedade leva a pegada inadequada e trauma. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Não é obrigatório.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: monitorização',
     e: 'A estimativa visual da perda sanguínea no parto tende a:',
-    o: ['Subestimar o volume real, sendo útil medir ou pesar compressas', 'Superestimar sempre', 'Ser sempre exata', 'Não ter utilidade'],
+    o: ['Subestimar o volume real; convém pesar as compressas', 'Superestimar o volume real da perda, sempre', 'Ser sempre exata, dispensando outras medidas', 'Não ter nenhuma utilidade na prática clínica'],
     g: 'A',
     c: 'A quantificação reduz o atraso no reconhecimento da hemorragia. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'O erro mais comum é subestimar.', C: 'É imprecisa.', D: 'Tem utilidade com cautela.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: anticoncepção definitiva',
     e: 'A laqueadura tubária no pós-parto imediato, pela Lei 14.443/2022:',
-    o: ['Pode ser realizada durante o parto, desde que respeitados os requisitos legais, como prazo de 60 dias entre a manifestação e o procedimento', 'Exige autorização do cônjuge', 'É proibida', 'Só é permitida acima de 40 anos'],
+    o: ['Pode ser feita no parto, com prazo mínimo de 60 dias', 'Exige autorização escrita do cônjuge, sempre, em qualquer idade', 'É proibida no pós-parto imediato, sem nenhuma exceção legal', 'Só é permitida acima de 40 anos de idade completos'],
     g: 'A',
     c: 'A lei reduziu a idade mínima para 21 anos ou dois filhos vivos e retirou a exigência de consentimento do cônjuge. Referência: Brasil. Lei nº 14.443, de 2 de setembro de 2022.',
     x: { B: 'Não exige mais.', C: 'É permitida.', D: 'Não é o critério.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: anemia',
     e: 'Puérpera com hemoglobina de 7 g/dL, estável e assintomática, após hemorragia controlada. A conduta é:',
-    o: ['Ferro, preferencialmente intravenoso se disponível, e acompanhamento', 'Transfusão obrigatória', 'Nenhuma', 'Esplenectomia'],
+    o: ['Ferro, de preferência IV, e acompanhamento', 'Transfusão obrigatória, em todos os casos', 'Nenhuma medida, apenas observação', 'Esplenectomia, como tratamento da anemia'],
     g: 'A',
     c: 'Transfusão é indicada se houver instabilidade ou sintomas importantes. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Não é obrigatória se estável.', C: 'Exige tratamento.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Endometrite: parto vaginal',
     e: 'Após parto vaginal, endometrite puerperal:',
-    o: ['É menos frequente que após cesárea, mas pode ocorrer, sobretudo com manipulação e restos', 'Nunca ocorre', 'É mais comum que após cesárea', 'Não precisa de antibiótico'],
+    o: ['Menos frequente que na cesárea, mas possível', 'Nunca ocorre após parto vaginal normal', 'Mais comum que após a cesárea eletiva', 'Não precisa de antibiótico, em nenhum caso'],
     g: 'A',
     c: 'O tratamento segue os mesmos princípios. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Pode ocorrer.', C: 'É menos comum.', D: 'Exige.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: ocitocina',
     e: 'Após o parto, em infusão de ocitocina para atonia, um efeito adverso em bolus rápido é:',
-    o: ['Hipotensão por vasodilatação', 'Hipertensão grave', 'Bradicardia fetal', 'Hiperglicemia'],
+    o: ['Hipotensão por vasodilatação', 'Hipertensão arterial grave e súbita', 'Bradicardia fetal, pela passagem placentária', 'Hiperglicemia materna transitória'],
     g: 'A',
     c: 'Doses em bolus devem ser administradas lentamente, especialmente em cardiopatas. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Efeito da ergometrina.', C: 'O feto já nasceu.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia pós-parto: fatores de risco',
     e: 'É fator de risco para atonia uterina:',
-    o: ['Sobredistensão uterina (gemelaridade, polidrâmnio, macrossomia) e trabalho de parto prolongado', 'Gestação única de peso normal', 'Parto rápido sem uso de ocitocina em multípara com feto pequeno', 'Primeiro trimestre'],
+    o: ['Sobredistensão uterina e trabalho de parto prolongado', 'Gestação única de feto com peso normal', 'Parto rápido em multípara, sem uso de ocitocina', 'Gestação no primeiro trimestre, sem complicações'],
     g: 'A',
     c: 'Outros: corioamnionite, uso prolongado de ocitocina e anestésicos halogenados. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Risco baixo.', C: 'Não é o padrão de risco.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Fórceps: anestesia',
     e: 'Para aplicação de fórceps, a analgesia adequada mais usada é:',
-    o: ['Bloqueio do nervo pudendo ou analgesia de neuroeixo', 'Nenhuma', 'Anestesia geral sempre', 'Apenas anestesia tópica'],
+    o: ['Bloqueio do pudendo ou analgesia de neuroeixo', 'Nenhuma analgesia, para não retardar o parto', 'Anestesia geral, em todos os casos', 'Apenas anestesia tópica, com lidocaína gel'],
     g: 'A',
     c: 'A analgesia adequada permite manobras com menos trauma. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Inaceitável.', C: 'Raramente necessária.', D: 'Insuficiente.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_FORC: QuestaoCompacta[] = [
   {
     s: 'Puerpério: hemorragia secundária',
     e: 'Puérpera de 10 dias com sangramento aumentado e útero subinvoluído, colo pérvio. A causa mais provável é:',
-    o: ['Restos placentários ou subinvolução do sítio placentário, com ou sem endometrite', 'Placenta prévia', 'Gestação ectópica', 'Vasa prévia'],
+    o: ['Restos placentários ou subinvolução, com ou sem endometrite', 'Placenta prévia, com sangramento indolor e vivo', 'Gestação ectópica, com beta-hCG positivo no soro', 'Vasa prévia, com rotura de vasos fetais livres'],
     g: 'A',
     c: 'A ultrassonografia ajuda; conduta com uterotônicos, antibiótico se infecção e esvaziamento se restos. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Sem relação no puerpério.', C: 'Sem relação.', D: 'Sem relação.' },

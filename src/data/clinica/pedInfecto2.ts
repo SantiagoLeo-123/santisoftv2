@@ -5,7 +5,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Mononucleose infecciosa',
     e: 'Adolescente de 15 anos apresenta febre há 8 dias, odinofagia intensa, fadiga, amígdalas hipertrofiadas com exsudato, linfonodomegalia cervical posterior bilateral, edema palpebral e baço palpável a 3 cm do rebordo costal. O hemograma mostra leucocitose com linfocitose e 20 por cento de linfócitos atípicos. O diagnóstico mais provável é:',
-    o: ['Faringoamigdalite estreptocócica', 'Mononucleose infecciosa pelo vírus Epstein-Barr', 'Leucemia linfoide aguda', 'Difteria'],
+    o: ['Faringoamigdalite estreptocócica', 'Mononucleose infecciosa pelo EBV', 'Leucemia linfoide aguda', 'Difteria, com pseudomembrana'],
     g: 'B',
     c: 'A tríade febre, faringite exsudativa e linfadenopatia generalizada, com predomínio cervical posterior, associada a esplenomegalia e linfocitose atípica caracteriza a mononucleose infecciosa. Os linfócitos atípicos são linfócitos T CD8 ativados que reagem contra os linfócitos B infectados pelo vírus. O edema palpebral (sinal de Hoagland) reforça a hipótese.',
     x: { A: 'A amigdalite estreptocócica não causa esplenomegalia nem linfocitose atípica.', C: 'Na leucemia há blastos e citopenias, não linfócitos atípicos reacionais.', D: 'A difteria cursa com pseudomembrana aderente e toxemia, sem esplenomegalia.' },
@@ -13,7 +13,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Exantema após aminopenicilina',
     e: 'Menina de 12 anos com febre e amigdalite exsudativa recebeu amoxicilina. No quarto dia de tratamento, mantém febre e surge exantema maculopapular difuso e pruriginoso; há esplenomegalia e linfonodos cervicais posteriores. A interpretação correta é:',
-    o: ['Alergia verdadeira à penicilina, devendo ser proscrita por toda a vida', 'Exantema característico da mononucleose após uso de aminopenicilina, que não indica alergia permanente', 'Escarlatina com falha do tratamento', 'Síndrome de Stevens-Johnson'],
+    o: ['Alergia verdadeira à penicilina, proscrita por toda a vida', 'Exantema típico da mononucleose após aminopenicilina; não é alergia', 'Escarlatina, com falha do tratamento anterior', 'Síndrome de Stevens-Johnson, por reação à droga'],
     g: 'B',
     c: 'A maioria dos pacientes com mononucleose por Epstein-Barr que recebe ampicilina ou amoxicilina desenvolve exantema maculopapular, por mecanismo imunológico transitório ligado à ativação linfocitária da infecção, e não por hipersensibilidade duradoura ao fármaco. O achado é uma pista diagnóstica clássica e o antibiótico deve ser suspenso por ser desnecessário.',
     x: { A: 'Esse exantema não representa alergia permanente e não contraindica o uso futuro.', C: 'A escarlatina responde rapidamente à amoxicilina e não causa esplenomegalia.', D: 'Não há acometimento de mucosas nem descolamento epidérmico no quadro descrito.' },
@@ -21,7 +21,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico do EBV em pré-escolares',
     e: 'Criança de 3 anos apresenta quadro clínico e hemograma sugestivos de mononucleose, mas a pesquisa de anticorpos heterófilos (monoteste) foi negativa. A conduta diagnóstica mais adequada é:',
-    o: ['Excluir infecção por Epstein-Barr, pois o teste tem alta sensibilidade nessa idade', 'Solicitar sorologia específica com IgM contra o antígeno do capsídeo viral (anti-VCA)', 'Realizar biópsia de linfonodo', 'Solicitar antiestreptolisina O'],
+    o: ['Excluir EBV, pois o teste é muito sensível nessa idade', 'Solicitar sorologia específica com IgM anti-VCA', 'Realizar biópsia de linfonodo cervical', 'Solicitar antiestreptolisina O no sangue'],
     g: 'B',
     c: 'Os anticorpos heterófilos são frequentemente negativos em crianças menores de 4 anos, que produzem pouco esse tipo de anticorpo, e também na primeira semana de doença. Nessa faixa etária o diagnóstico deve ser feito com sorologia específica: IgM anti-VCA positiva indica infecção aguda, enquanto o anti-EBNA surge apenas tardiamente.',
     x: { A: 'A sensibilidade do teste de anticorpos heterófilos é baixa em menores de 4 anos.', C: 'A biópsia é invasiva e desnecessária diante de quadro típico com sorologia disponível.', D: 'A antiestreptolisina O avalia infecção estreptocócica prévia, não mononucleose.' },
@@ -29,7 +29,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Ruptura esplênica',
     e: 'Adolescente de 14 anos, jogador de futebol, tem diagnóstico de mononucleose infecciosa com esplenomegalia. A orientação mais importante para prevenir a complicação potencialmente fatal dessa doença é:',
-    o: ['Uso de aciclovir por 10 dias', 'Afastamento de esportes de contato e de esforços intensos por pelo menos 3 a 4 semanas', 'Repouso absoluto no leito por 2 meses', 'Uso profilático de antibiótico'],
+    o: ['Uso de aciclovir por 10 dias seguidos', 'Afastar esportes de contato por 3 a 4 semanas', 'Repouso absoluto no leito durante 2 meses', 'Uso profilático de antibiótico por 10 dias'],
     g: 'B',
     c: 'O baço aumentado na mononucleose tem cápsula distendida e parênquima infiltrado por linfócitos, tornando-se frágil. A ruptura esplênica é rara, mas grave, e ocorre sobretudo nas primeiras 3 semanas, espontaneamente ou após trauma leve. Por isso recomenda-se evitar esportes de contato e esforço intenso até a regressão da esplenomegalia.',
     x: { A: 'O aciclovir não altera a evolução clínica da mononucleose e não é indicado.', C: 'O repouso absoluto prolongado não é necessário; restringem-se as atividades de risco.', D: 'Antibióticos não têm papel na doença viral e não previnem ruptura esplênica.' },
@@ -45,7 +45,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Toxoplasmose adquirida',
     e: 'Escolar de 9 anos, que mora em sítio e convive com gatos, apresenta linfonodomegalia cervical e occipital indolor há 3 semanas, febre baixa e fadiga. Exame da orofaringe normal. Sorologia para toxoplasmose com IgM e IgG reagentes. Não há alterações oculares. A conduta é:',
-    o: ['Sulfadiazina, pirimetamina e ácido folínico por 12 meses', 'Acompanhamento clínico, pois a forma ganglionar do imunocompetente é autolimitada', 'Biópsia excisional do linfonodo', 'Espiramicina por 6 meses'],
+    o: ['Sulfadiazina, pirimetamina e ácido folínico por 12 meses', 'Acompanhar: a forma ganglionar do imunocompetente é autolimitada', 'Biópsia excisional do linfonodo cervical', 'Espiramicina por 6 meses, em dose de manutenção'],
     g: 'B',
     c: 'A toxoplasmose adquirida no imunocompetente é assintomática na maioria dos casos; quando sintomática, manifesta-se como linfadenopatia, principalmente cervical, com ou sem febre. A evolução é benigna e autolimitada, sem necessidade de tratamento. O tratamento específico é reservado a coriorretinite, formas graves ou viscerais, imunossuprimidos, gestantes e infecção congênita.',
     x: { A: 'Esse esquema prolongado é o da toxoplasmose congênita, não o da forma ganglionar.', C: 'Com sorologia compatível e quadro típico, a biópsia é desnecessária.', D: 'A espiramicina é usada na gestante com infecção aguda para reduzir a transmissão fetal.' },
@@ -61,7 +61,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Coqueluche: fases',
     e: 'Sobre a história natural da coqueluche, é correto afirmar:',
-    o: ['A fase paroxística é a de maior transmissibilidade e de febre mais alta', 'A fase catarral, com sintomas inespecíficos de resfriado, é a de maior transmissibilidade', 'A fase de convalescença dura poucos dias e não tem tosse', 'O guincho inspiratório é típico da fase catarral'],
+    o: ['A fase paroxística é a de maior transmissibilidade e febre mais alta', 'A fase catarral, com sintomas de resfriado, é a mais transmissível', 'A convalescença dura poucos dias e não tem tosse', 'O guincho inspiratório é típico da fase catarral'],
     g: 'B',
     c: 'A coqueluche evolui em três fases: catarral (1 a 2 semanas, com coriza e tosse leve), paroxística (2 a 6 semanas, com acessos de tosse, guincho e vômito pós-tosse) e de convalescença (semanas a meses). A carga bacteriana na nasofaringe é máxima na fase catarral, quando a doença ainda é indistinguível de um resfriado, o que explica a alta transmissão. A febre é baixa ou ausente em toda a evolução.',
     x: { A: 'Na fase paroxística a transmissibilidade já declina e a febre costuma estar ausente.', C: 'A convalescença dura semanas a meses, com tosse residual que reaparece em novas viroses.', D: 'O guincho inspiratório ocorre ao final dos paroxismos, na fase paroxística.' },
@@ -85,7 +85,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Coqueluche: confirmação',
     e: 'Para confirmação laboratorial de um caso suspeito de coqueluche, o exame indicado é:',
-    o: ['Hemocultura colhida no pico febril', 'Cultura ou PCR de secreção de nasofaringe, colhida preferencialmente antes do antibiótico', 'Escarro para bacterioscopia pelo Gram', 'Radiografia de tórax com coração felpudo'],
+    o: ['Hemocultura colhida no pico febril da criança', 'Cultura ou PCR de nasofaringe, de preferência antes do antibiótico', 'Escarro para bacterioscopia pelo método de Gram', 'Radiografia de tórax, buscando o sinal do coração felpudo'],
     g: 'B',
     c: 'A Bordetella pertussis coloniza o epitélio ciliado e não invade a corrente sanguínea, de modo que o diagnóstico depende de material de nasofaringe. A cultura é o padrão-ouro de especificidade, e o PCR tem maior sensibilidade. O rendimento é maior na fase catarral e no início da paroxística e cai após o início do antibiótico.',
     x: { A: 'A bactéria não causa bacteremia, e a hemocultura é sempre negativa.', C: 'O Gram de escarro não identifica a Bordetella e a criança raramente expectora.', D: 'A imagem de coração felpudo é sugestiva, porém inespecífica e não confirma o caso.' },
@@ -93,7 +93,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Coqueluche: tratamento',
     e: 'Criança de 4 anos tem coqueluche diagnosticada na segunda semana da fase paroxística. A família pergunta sobre o efeito do antibiótico. A informação correta é:',
-    o: ['A penicilina é a droga de escolha e abrevia a tosse em poucos dias', 'A azitromicina é a droga de escolha; nessa fase reduz a transmissão, mas pouco altera a evolução da tosse', 'O antibiótico é inútil após a fase catarral e não deve ser prescrito', 'A cefalexina por 10 dias erradica a bactéria'],
+    o: ['A penicilina é a droga de escolha e abrevia a tosse em poucos dias', 'Azitromicina é a escolha; reduz transmissão, mas pouco altera a tosse', 'O antibiótico é inútil após a fase catarral e não se prescreve', 'A cefalexina por 10 dias erradica a bactéria'],
     g: 'B',
     c: 'O macrolídeo, preferencialmente a azitromicina, erradica a Bordetella da nasofaringe e interrompe a transmissão. Quando iniciado na fase catarral pode atenuar a doença, mas na fase paroxística os sintomas já decorrem da lesão do epitélio pelas toxinas, e a tosse persiste apesar do tratamento. O paciente deixa de ser contagioso após 5 dias de antibiótico.',
     x: { A: 'Penicilinas não são eficazes na erradicação da Bordetella pertussis.', C: 'Mesmo na fase paroxística o antibiótico é indicado para interromper a transmissão.', D: 'Cefalosporinas de primeira geração não têm ação contra a Bordetella.' },
@@ -101,7 +101,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Macrolídeo no recém-nascido',
     e: 'Recém-nascido de 20 dias necessita de tratamento para coqueluche. O macrolídeo preferido nessa idade e o motivo da escolha são:',
-    o: ['Eritromicina, por ser a mais estudada e segura no período neonatal', 'Azitromicina, pois a eritromicina associa-se a estenose hipertrófica do piloro em menores de 1 mês', 'Claritromicina, por ser a única com apresentação oral', 'Nenhum, pois macrolídeos são contraindicados antes dos 6 meses'],
+    o: ['Eritromicina, por ser a mais estudada e segura no neonato', 'Azitromicina: a eritromicina associa-se a estenose de piloro < 1 mês', 'Claritromicina, por ser a única com apresentação oral', 'Nenhum, pois macrolídeos são contraindicados antes de 6 meses'],
     g: 'B',
     c: 'A eritromicina tem efeito agonista sobre os receptores de motilina e associa-se a maior risco de estenose hipertrófica do piloro quando usada nas primeiras semanas de vida. Por isso a azitromicina é o macrolídeo de escolha no menor de 1 mês, tanto para tratamento quanto para quimioprofilaxia, mantendo-se vigilância para vômitos em jato.',
     x: { A: 'A eritromicina é justamente o macrolídeo associado à estenose pilórica no neonato.', C: 'A claritromicina não é recomendada antes de 1 mês de vida.', D: 'Macrolídeos são indicados e necessários, sendo a azitromicina a opção segura.' },
@@ -133,7 +133,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Difteria: tratamento',
     e: 'Diante de um caso clinicamente suspeito de difteria, a medida terapêutica mais importante e seu momento de aplicação são:',
-    o: ['Antibiótico, iniciado após o resultado da cultura', 'Soro antidiftérico, administrado imediatamente após a suspeita clínica, sem aguardar confirmação', 'Vacina dT, aplicada na admissão', 'Corticoide em dose alta para reduzir o edema'],
+    o: ['Antibiótico, iniciado após o resultado da cultura', 'Soro antidiftérico imediato, sem aguardar confirmação', 'Vacina dT, aplicada na admissão do paciente', 'Corticoide em dose alta para reduzir o edema'],
     g: 'B',
     c: 'O soro antidiftérico neutraliza apenas a toxina circulante, ainda não fixada aos tecidos; por isso deve ser administrado o mais cedo possível, com base na suspeita clínica. O antibiótico (penicilina ou eritromicina) é medida auxiliar que interrompe a produção de toxina e a transmissão, mas não substitui o soro. Como a doença não confere imunidade duradoura, o paciente deve ser vacinado na convalescença.',
     x: { A: 'O antibiótico é adjuvante e nenhuma medida deve aguardar o resultado da cultura.', C: 'A vacina não tem efeito terapêutico na doença em curso; é feita após a recuperação.', D: 'O corticoide não neutraliza a toxina e não altera a evolução da doença.' },
@@ -141,7 +141,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Difteria: complicações',
     e: 'Menino de 7 anos em tratamento para difteria apresenta, na segunda semana de doença, taquicardia, abafamento de bulhas, arritmia e alterações de repolarização ao eletrocardiograma. Essa complicação é:',
-    o: ['Pericardite bacteriana por disseminação hematogênica do bacilo', 'Miocardite pela ação da toxina diftérica, principal causa de óbito na doença', 'Endocardite infecciosa', 'Febre reumática aguda'],
+    o: ['Pericardite bacteriana por disseminação hematogênica do bacilo', 'Miocardite pela toxina diftérica, principal causa de óbito', 'Endocardite infecciosa, por disseminação do bacilo', 'Febre reumática aguda, após a faringite'],
     g: 'B',
     c: 'O bacilo diftérico permanece no local da infecção, mas sua toxina se dissemina e tem tropismo por miocárdio, nervos periféricos e rins. A miocardite surge habitualmente entre a primeira e a segunda semana e é a principal causa de morte. As complicações neurológicas, como paralisia do véu palatino, com voz anasalada e regurgitação nasal, são mais tardias.',
     x: { A: 'O bacilo não é invasivo; a lesão cardíaca decorre da toxina e não de bacteremia.', C: 'A endocardite não é complicação típica da difteria.', D: 'A febre reumática é sequela de infecção estreptocócica, não diftérica.' },
@@ -149,7 +149,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Caxumba: complicações',
     e: 'Escolar de 8 anos, não vacinado, apresenta aumento doloroso bilateral das parótidas há 4 dias. Evolui com cefaleia, vômitos e rigidez de nuca, mantendo bom estado geral. A complicação mais provável e sua evolução habitual são:',
-    o: ['Meningite bacteriana secundária, com alta letalidade', 'Meningite asséptica pelo vírus da caxumba, de evolução benigna', 'Abscesso cerebral por contiguidade', 'Encefalite necrosante com sequelas graves'],
+    o: ['Meningite bacteriana secundária, com alta letalidade', 'Meningite asséptica pelo vírus da caxumba, benigna', 'Abscesso cerebral por contiguidade, com sequelas', 'Encefalite necrosante, com sequelas graves e permanentes'],
     g: 'B',
     c: 'O vírus da caxumba tem tropismo por tecido glandular e pelo sistema nervoso central. A meningite asséptica é a complicação mais comum na criança, com líquor linfomonocitário, podendo haver hipoglicorraquia discreta, e evolução favorável sem sequelas. A complicação neurológica mais temida, embora rara, é a surdez neurossensorial, em geral unilateral.',
     x: { A: 'A caxumba não predispõe a meningite bacteriana, e o estado geral está preservado.', C: 'A parotidite viral não é supurativa e não origina abscesso por contiguidade.', D: 'A encefalite é rara; a forma habitual de acometimento neurológico é a meningite benigna.' },
@@ -157,7 +157,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Tétano acidental',
     e: 'Menino de 9 anos, com vacinação desconhecida, sofreu ferimento perfurante no pé há 8 dias. Apresenta dificuldade para abrir a boca, riso sardônico, rigidez de nuca e abdome em tábua, com espasmos dolorosos desencadeados por ruídos e toque. Está consciente e afebril. O mecanismo responsável pelo quadro é:',
-    o: ['Bloqueio da liberação de acetilcolina na junção neuromuscular', 'Bloqueio da liberação de neurotransmissores inibitórios (GABA e glicina) na medula e no tronco cerebral', 'Inflamação das meninges por invasão bacteriana', 'Desmielinização dos nervos periféricos'],
+    o: ['Bloqueio da liberação de acetilcolina na junção neuromuscular', 'Bloqueio da liberação de GABA e glicina na medula e no tronco', 'Inflamação das meninges por invasão bacteriana direta', 'Desmielinização dos nervos periféricos, de instalação aguda'],
     g: 'B',
     c: 'A tetanospasmina produzida pelo Clostridium tetani na ferida migra por transporte axonal retrógrado até o sistema nervoso central e impede a liberação de GABA e glicina pelos interneurônios inibitórios. Sem essa inibição, os neurônios motores disparam continuamente, gerando hipertonia e espasmos aos estímulos, com consciência preservada. O diagnóstico é clínico.',
     x: { A: 'Esse é o mecanismo da toxina botulínica, que causa paralisia flácida.', C: 'O tétano não invade as meninges; a rigidez é muscular e a consciência está preservada.', D: 'A desmielinização periférica causa fraqueza flácida, como na síndrome de Guillain-Barré.' },
@@ -165,7 +165,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Tétano neonatal',
     e: 'Recém-nascido de 7 dias, nascido em domicílio, filho de mãe sem pré-natal, sugava bem nos primeiros dias e passou a apresentar choro constante, dificuldade para mamar, trismo e contraturas ao manuseio. O coto umbilical foi tratado com substâncias caseiras. A principal medida de prevenção dessa doença é:',
-    o: ['Antibiótico profilático para todos os recém-nascidos de parto domiciliar', 'Vacinação adequada da gestante contra o tétano e cuidados higiênicos com o coto umbilical', 'Vacinação do recém-nascido nas primeiras horas de vida', 'Aleitamento materno exclusivo'],
+    o: ['Antibiótico profilático para todo RN de parto domiciliar', 'Vacinar a gestante contra o tétano e cuidar do coto umbilical', 'Vacinar o recém-nascido nas primeiras horas de vida', 'Aleitamento materno exclusivo desde o nascimento'],
     g: 'B',
     c: 'O tétano neonatal, ou mal dos sete dias, decorre da contaminação do coto umbilical por esporos do Clostridium tetani em filhos de mães não imunizadas. O recém-nascido que mamava normalmente passa a ter dificuldade de sucção, trismo e espasmos entre 3 e 12 dias de vida. A imunização materna transfere anticorpos antitoxina pela placenta e, com o parto limpo, praticamente elimina a doença.',
     x: { A: 'Antibiótico profilático não previne a ação da toxina e não é medida recomendada.', C: 'A vacina antitetânica não é aplicada ao nascer e não protegeria a tempo.', D: 'O leite materno não confere proteção suficiente contra a toxina tetânica.' },
@@ -173,7 +173,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Profilaxia do tétano: vacinação incerta',
     e: 'Adolescente de 13 anos sofre ferimento profundo e sujo de terra ao pisar em um prego em área rural. A família não sabe informar sobre vacinas e não possui caderneta. Além da limpeza e do desbridamento, a profilaxia do tétano deve incluir:',
-    o: ['Apenas vacina antitetânica', 'Vacina antitetânica e imunização passiva com soro antitetânico ou imunoglobulina humana antitetânica', 'Apenas imunoglobulina humana antitetânica', 'Nenhuma medida específica, apenas antibiótico'],
+    o: ['Apenas vacina antitetânica, sem imunização passiva', 'Vacina antitetânica e soro ou imunoglobulina antitetânica', 'Apenas imunoglobulina humana antitetânica, sem vacina', 'Nenhuma medida específica, apenas antibiótico'],
     g: 'B',
     c: 'Ferimentos profundos, perfurantes, com corpo estranho, terra ou tecido desvitalizado têm alto risco de tétano. Quando a história vacinal é incerta ou há menos de 3 doses, o paciente não tem proteção e a vacina demora a induzir anticorpos; por isso associa-se imunização passiva, em local diferente da vacina, e completa-se depois o esquema vacinal.',
     x: { A: 'A vacina isolada não protege a tempo o indivíduo sem imunidade prévia com ferida de risco.', C: 'A imunização passiva isolada não induz memória; o esquema vacinal deve ser iniciado.', D: 'Antibiótico não neutraliza a toxina e não substitui a imunoprofilaxia.' },
@@ -181,7 +181,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Profilaxia do tétano: vacinado',
     e: 'Menino de 12 anos, com esquema vacinal completo e última dose de reforço contra o tétano aos 5 anos, apresenta ferimento profundo e contaminado na perna após queda em terreno baldio. A conduta em relação à profilaxia do tétano é:',
-    o: ['Nenhuma medida, pois o esquema está completo', 'Limpeza da ferida e dose de reforço da vacina, sem imunização passiva', 'Vacina e soro antitetânico', 'Reiniciar o esquema com três doses'],
+    o: ['Nenhuma medida, pois o esquema está completo', 'Limpar a ferida e dar reforço, sem imunização passiva', 'Vacina e soro antitetânico, em locais distintos', 'Reiniciar o esquema com três doses da vacina'],
     g: 'B',
     c: 'Quem recebeu 3 ou mais doses tem memória imunológica e responde rapidamente ao reforço. Nos ferimentos de alto risco, o reforço é indicado se a última dose foi há mais de 5 anos; nos de baixo risco, apenas se há mais de 10 anos. A imunização passiva é dispensada, salvo em situações especiais como imunodeprimidos e desnutridos graves.',
     x: { A: 'Em ferimento de alto risco com última dose há mais de 5 anos o reforço é necessário.', C: 'O vacinado com esquema completo não precisa de soro em situações habituais.', D: 'Esquema completo nunca é reiniciado; aplica-se apenas o reforço.' },
@@ -189,7 +189,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Raiva: cão observável',
     e: 'Menina de 6 anos sofreu mordedura profunda na mão por um cão da vizinhança, conhecido, domiciliado, sem sinais de doença e que pode ser observado. De acordo com as normas atuais do Ministério da Saúde, a conduta é:',
-    o: ['Iniciar imediatamente soro e vacina antirrábica', 'Lavar o ferimento com água e sabão e observar o animal por 10 dias, sem iniciar profilaxia; se o animal morrer, desaparecer ou ficar raivoso, indicar soro e vacina', 'Apenas lavar o ferimento, sem necessidade de observar o animal', 'Aplicar somente o soro antirrábico'],
+    o: ['Iniciar de imediato soro e vacina antirrábica, sem observar o cão', 'Lavar com água e sabão e observar o cão por 10 dias, sem profilaxia', 'Apenas lavar o ferimento, sem necessidade de observar o animal', 'Aplicar somente o soro antirrábico, sem a vacina'],
     g: 'B',
     c: 'O cão e o gato eliminam o vírus pela saliva poucos dias antes de adoecer e morrem em seguida; se permanecem sadios por 10 dias, não estavam transmitindo no momento do acidente. Por isso, quando o animal é observável e sem sinais de raiva, a norma vigente orienta lavar o ferimento e apenas observar. Mordedura em mãos é acidente grave, e a profilaxia completa é iniciada se a observação falhar.',
     x: { A: 'Com animal observável e sadio, a profilaxia imediata não é mais indicada pela norma atual.', C: 'A observação do animal por 10 dias é indispensável para dispensar a profilaxia.', D: 'O soro nunca é usado isoladamente; quando indicado, acompanha a vacina.' },
@@ -197,7 +197,7 @@ export const PED_INFECTO_2: QuestaoCompacta[] = [
   {
     s: 'Raiva: morcego',
     e: 'Menino de 5 anos acordou com um morcego no quarto e apresenta pequena escoriação no ombro, sem que a família saiba dizer se houve mordedura. O animal fugiu. A conduta correta é:',
-    o: ['Apenas lavar o local, pois não houve mordedura confirmada', 'Lavar o local e indicar soro (ou imunoglobulina) antirrábico e vacina', 'Indicar apenas a vacina antirrábica', 'Aguardar 10 dias para avaliar o surgimento de sintomas'],
+    o: ['Apenas lavar o local, pois não houve mordedura confirmada', 'Lavar o local e indicar soro (ou imunoglobulina) e vacina', 'Indicar apenas a vacina antirrábica, sem soro', 'Aguardar 10 dias para avaliar o surgimento de sintomas'],
     g: 'B',
     c: 'Qualquer contato com morcego é classificado como acidente grave, pois esses animais são reservatórios importantes do vírus, sua mordedura pode passar despercebida e não são passíveis de observação. Indica-se sempre a profilaxia completa: lavagem com água e sabão, imunização passiva infiltrada na lesão e esquema de vacina. Como a raiva é praticamente sempre fatal, não se pode aguardar sintomas.',
     x: { A: 'A mordedura de morcego pode ser imperceptível, e o contato já define acidente grave.', C: 'Em acidente grave por animal silvestre a vacina deve ser acompanhada de imunização passiva.', D: 'Após o início dos sintomas a raiva é quase invariavelmente fatal.' },

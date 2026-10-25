@@ -13,7 +13,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Critérios de elegibilidade',
     e: 'Para mulher com enxaqueca com aura, o anticoncepcional combinado é categoria:',
-    o: ['4, pelo risco de AVC isquêmico', '1', '2', 'Só contraindicado acima de 50 anos'],
+    o: ['4, pelo risco de AVC', '1, sem restrição ao uso', '2, benefícios superam os riscos', 'Só contraindicado após os 50 anos'],
     g: 'A',
     c: 'Métodos com progestagênio isolado e DIU são opções. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Há contraindicação.', C: 'Há contraindicação.', D: 'Contraindicado em qualquer idade.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Critérios de elegibilidade',
     e: 'É contraindicação absoluta (categoria 4) ao anticoncepcional combinado:',
-    o: ['Trombose venosa profunda atual ou prévia', 'Varizes simples', 'Cefaleia tensional', 'Dismenorreia'],
+    o: ['Trombose venosa profunda atual', 'Varizes simples de membros', 'Cefaleia tensional episódica', 'Dismenorreia primária intensa'],
     g: 'A',
     c: 'Também: trombofilia conhecida, câncer de mama atual, hepatopatia grave, lúpus com antifosfolípide positivo e pós-parto precoce. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Categoria 1.', C: 'Categoria 1.', D: 'O combinado até trata a dismenorreia.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Interações',
     e: 'Mulher em uso de anticoncepcional combinado inicia rifampicina para tuberculose. A orientação é:',
-    o: ['Trocar para método não afetado por indução enzimática, como DIU ou acetato de medroxiprogesterona', 'Manter a pílula sem preocupação', 'Dobrar a dose da pílula como solução definitiva', 'Suspender a rifampicina'],
+    o: ['Trocar por DIU ou medroxiprogesterona', 'Manter a pílula sem mudança', 'Dobrar a dose da pílula combinada', 'Suspender a rifampicina e manter a pílula'],
     g: 'A',
     c: 'Rifampicina e anticonvulsivantes indutores (carbamazepina, fenitoína) reduzem a eficácia de pílulas, adesivo, anel e implante. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Risco de falha.', C: 'Não é a recomendação padrão.', D: 'O tratamento é necessário.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Pílula combinada: mecanismo',
     e: 'O principal mecanismo de ação do anticoncepcional combinado é:',
-    o: ['Inibição da ovulação por supressão do pico de LH', 'Destruição dos espermatozoides', 'Implantação ectópica', 'Aumento da motilidade tubária'],
+    o: ['Inibição da ovulação por supressão do LH', 'Destruição direta dos espermatozoides', 'Estímulo à implantação tubária', 'Aumento da motilidade das tubas uterinas'],
     g: 'A',
     c: 'Efeitos adicionais incluem espessamento do muco cervical e alterações endometriais. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Efeito de espermicidas.', C: 'Sem sentido.', D: 'Não é o mecanismo.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Pílula: esquecimento',
     e: 'Mulher esqueceu 1 comprimido de pílula combinada há menos de 24 horas. A orientação é:',
-    o: ['Tomar o comprimido esquecido assim que lembrar e seguir normalmente, sem método adicional', 'Suspender a cartela', 'Usar contracepção de emergência sempre', 'Esperar a menstruação para recomeçar'],
+    o: ['Tomar assim que lembrar e seguir normalmente', 'Suspender a cartela e iniciar outra em seguida', 'Usar contracepção de emergência em todos os casos', 'Esperar a próxima menstruação para recomeçar a cartela'],
     g: 'A',
     c: 'Com 2 ou mais comprimidos esquecidos, usar preservativo por 7 dias e avaliar emergência se houve relação na primeira semana. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Desnecessário.', C: 'Desnecessária nesse caso.', D: 'Desnecessário.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Índice de Pearl',
     e: 'O índice de Pearl expressa:',
-    o: ['O número de gestações em 100 mulheres usando o método por 1 ano', 'A dose hormonal do método', 'O custo do método', 'A taxa de efeitos adversos'],
+    o: ['Gestações por 100 mulheres-ano de uso', 'A dose hormonal total do método usado', 'O custo anual do método para a usuária', 'A taxa de efeitos adversos do método usado'],
     g: 'A',
     c: 'Quanto menor, mais eficaz. Uso típico difere de uso perfeito. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Não é a definição.', C: 'Não é a definição.', D: 'Não é a definição.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Eficácia',
     e: 'Entre os métodos abaixo, o de maior eficácia em uso típico é:',
-    o: ['Implante subdérmico de etonogestrel', 'Preservativo masculino', 'Pílula combinada', 'Coito interrompido'],
+    o: ['Implante subdérmico de etonogestrel', 'Preservativo masculino em uso típico', 'Pílula combinada em uso típico', 'Coito interrompido com boa técnica'],
     g: 'A',
     c: 'Os métodos reversíveis de longa duração (implante e DIU) não dependem da usuária. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Muito menos eficaz em uso típico.', C: 'Depende de uso correto.', D: 'Pouco eficaz.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'DIU de cobre',
     e: 'O DIU de cobre atua principalmente:',
-    o: ['Por efeito espermicida e reação inflamatória que impede a fertilização', 'Inibindo a ovulação', 'Por ação hormonal sistêmica', 'Causando abortamento'],
+    o: ['Efeito espermicida e reação inflamatória local', 'Inibição da ovulação pelo cobre liberado', 'Ação hormonal sistêmica contínua e prolongada', 'Provocando abortamento nas primeiras semanas'],
     g: 'A',
     c: 'Não é abortivo. Pode durar 10 anos ou mais e aumentar o fluxo menstrual. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Não inibe a ovulação.', C: 'Não é hormonal.', D: 'Atua antes da fertilização.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'SIU de levonorgestrel',
     e: 'O sistema intrauterino de levonorgestrel (52 mg) tem como benefício adicional:',
-    o: ['Redução do fluxo menstrual, sendo usado no sangramento uterino aumentado', 'Aumento do fluxo menstrual', 'Ganho de massa óssea', 'Tratamento de infecção'],
+    o: ['Reduz o fluxo menstrual, útil no sangramento aumentado', 'Aumenta o fluxo menstrual nos primeiros meses de uso', 'Ganho de massa óssea comprovado em todas as usuárias', 'Tratamento da infecção pélvica crônica recorrente'],
     g: 'A',
     c: 'Também protege o endométrio na terapia hormonal da menopausa. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Efeito do DIU de cobre.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'DIU: contraindicações',
     e: 'É contraindicação à inserção de DIU:',
-    o: ['Doença inflamatória pélvica atual ou cervicite purulenta', 'Nuliparidade', 'Adolescência', 'HIV com boa adesão ao tratamento'],
+    o: ['Doença inflamatória pélvica atual', 'Nuliparidade, isoladamente', 'Adolescência, isoladamente', 'HIV com boa adesão ao tratamento'],
     g: 'A',
     c: 'Nuliparidade e adolescência não contraindicam. Outras: gestação, sangramento vaginal inexplicado, câncer de colo ou endométrio aguardando tratamento e malformação uterina que distorça a cavidade. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Categoria 2.', C: 'Categoria 2.', D: 'Categoria 1 ou 2.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Injetável trimestral',
     e: 'Um efeito adverso do acetato de medroxiprogesterona de depósito (injetável trimestral) é:',
-    o: ['Redução da densidade mineral óssea, reversível, e atraso no retorno da fertilidade', 'Aumento do risco de trombose como o estrogênio', 'Aumento do fluxo menstrual', 'Câncer de colo'],
+    o: ['Perda de massa óssea reversível e atraso da fertilidade', 'Aumento do risco de trombose como o estrogênio', 'Aumento do fluxo menstrual com o uso contínuo', 'Aumento do risco de câncer de colo uterino'],
     g: 'A',
     c: 'Ganho de peso e amenorreia são comuns. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Não contém estrogênio.', C: 'Causa amenorreia.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Contracepção de emergência',
     e: 'O método de contracepção de emergência mais eficaz é:',
-    o: ['DIU de cobre inserido em até 5 dias após a relação', 'Levonorgestrel após 5 dias', 'Pílula combinada comum', 'Ducha vaginal'],
+    o: ['DIU de cobre em até 5 dias da relação', 'Levonorgestrel tomado 5 dias após a relação', 'Pílula combinada comum em dose habitual', 'Ducha vaginal logo após a relação'],
     g: 'A',
     c: 'O levonorgestrel 1,5 mg é eficaz até 72 horas (podendo ser usado até 120 horas, com menor eficácia). Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Perde eficácia.', C: 'Método de Yuzpe, menos eficaz.', D: 'Ineficaz.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Contracepção de emergência',
     e: 'O levonorgestrel como contracepção de emergência atua:',
-    o: ['Principalmente retardando ou inibindo a ovulação, sem efeito abortivo', 'Interrompendo gestação implantada', 'Destruindo o embrião', 'Causando menstruação imediata obrigatória'],
+    o: ['Retarda ou inibe a ovulação, sem efeito abortivo', 'Interrompe a gestação já implantada', 'Destrói o embrião após a fecundação', 'Provoca menstruação imediata obrigatória'],
     g: 'A',
     c: 'Não tem efeito se a gestação já estiver implantada. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Não interrompe.', C: 'Não tem esse efeito.', D: 'Não é o mecanismo.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Lactação',
     e: 'Para puérpera que amamenta exclusivamente, com 3 semanas pós-parto, métodos adequados incluem:',
-    o: ['Pílula de progestagênio isolado (desogestrel), implante ou preservativo', 'Pílula combinada', 'Anel vaginal combinado', 'Adesivo combinado'],
+    o: ['Desogestrel, implante ou preservativo', 'Pílula combinada de baixa dose', 'Anel vaginal combinado mensal', 'Adesivo transdérmico combinado'],
     g: 'A',
     c: 'Métodos com estrogênio devem ser evitados antes de 6 semanas na lactação. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Contraindicada nesse período.', C: 'Contém estrogênio.', D: 'Contém estrogênio.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Laqueadura e vasectomia',
     e: 'Após vasectomia, a esterilidade deve ser considerada apenas após:',
-    o: ['Espermograma confirmando azoospermia, cerca de 3 meses após o procedimento', 'O dia seguinte à cirurgia', '1 semana', 'A primeira ejaculação'],
+    o: ['Azoospermia no espermograma, cerca de 3 meses depois', 'O dia seguinte à realização da cirurgia', 'Uma semana após o procedimento cirúrgico', 'A primeira ejaculação após a vasectomia'],
     g: 'A',
     c: 'Até a confirmação, deve-se usar outro método. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Há espermatozoides residuais.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Esterilização: legislação',
     e: 'Pela Lei 14.443/2022, a esterilização voluntária pode ser feita em pessoas com capacidade civil plena:',
-    o: ['Com mais de 21 anos ou com pelo menos dois filhos vivos, respeitado prazo mínimo de 60 dias entre a manifestação e a cirurgia', 'Somente com mais de 35 anos', 'Somente com autorização do cônjuge', 'Em qualquer idade, sem prazo'],
+    o: ['Acima de 21 anos ou 2 filhos vivos, com 60 dias de prazo', 'Somente acima dos 35 anos de idade completos', 'Somente com autorização escrita e assinada do cônjuge', 'Em qualquer idade, sem nenhum prazo de reflexão'],
     g: 'A',
     c: 'A lei retirou a exigência de consentimento do cônjuge. Referência: Brasil. Lei nº 14.443, de 2 de setembro de 2022.',
     x: { B: 'Idade incorreta.', C: 'Não exige mais.', D: 'Há critérios.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Adolescentes',
     e: 'Adolescente de 15 anos procura sozinha a unidade pedindo anticoncepcional. A conduta adequada é:',
-    o: ['Atender, orientar e prescrever método adequado, preservando o sigilo, salvo risco à vida ou abuso', 'Recusar sem a presença dos pais', 'Exigir autorização judicial', 'Prescrever apenas se ela já tiver filhos'],
+    o: ['Atender, orientar e prescrever, com sigilo', 'Recusar o atendimento sem os pais presentes', 'Exigir autorização judicial para prescrever', 'Prescrever só se ela já tiver filhos'],
     g: 'A',
     c: 'A confidencialidade é garantida pelo Código de Ética Médica e pelo ECA, com exceções previstas. Referência: Brasil. Ministério da Saúde. Proteger e cuidar da saúde de adolescentes na atenção básica. 2ª ed. Brasília: MS, 2018.',
     x: { B: 'Viola direitos.', C: 'Não é necessário.', D: 'Sem fundamento.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Métodos de barreira',
     e: 'O único método que também protege contra infecções sexualmente transmissíveis é:',
-    o: ['Preservativo (masculino ou feminino)', 'DIU de cobre', 'Pílula combinada', 'Implante'],
+    o: ['Preservativo masculino ou feminino', 'DIU de cobre em uso contínuo', 'Pílula combinada em uso correto', 'Implante de etonogestrel subdérmico'],
     g: 'A',
     c: 'A dupla proteção (preservativo e outro método) é recomendada. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Não protege.', C: 'Não protege.', D: 'Não protege.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Pílula combinada: benefícios',
     e: 'Benefício não contraceptivo do anticoncepcional combinado é:',
-    o: ['Redução do risco de câncer de ovário e de endométrio', 'Aumento da densidade óssea em todas', 'Prevenção de IST', 'Tratamento de trombose'],
+    o: ['Menor risco de câncer de ovário e endométrio', 'Aumento da densidade óssea em todas as usuárias', 'Prevenção das infecções sexualmente transmissíveis', 'Tratamento de trombose venosa estabelecida'],
     g: 'A',
     c: 'Também melhora dismenorreia, acne e sangramento aumentado. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Não é benefício estabelecido.', C: 'Não previne.', D: 'Aumenta o risco de trombose.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Anel e adesivo',
     e: 'O anel vaginal combinado é usado por:',
-    o: ['3 semanas, com pausa de 1 semana', '1 dia por mês', '3 anos', 'Apenas na relação sexual'],
+    o: ['3 semanas de uso, com pausa de 1 semana', 'Um dia por mês, sempre no mesmo dia', '3 anos de uso contínuo, sem trocas', 'Apenas nos dias de relação sexual'],
     g: 'A',
     c: 'Segue as mesmas contraindicações dos combinados orais. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Não é o esquema.', C: 'É o implante.', D: 'Não é método coital.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Injetável mensal',
     e: 'O injetável mensal contém:',
-    o: ['Estrogênio e progestagênio, seguindo as contraindicações dos métodos combinados', 'Apenas progestagênio', 'Cobre', 'Levonorgestrel em dose de emergência'],
+    o: ['Estrogênio e progestagênio combinados', 'Apenas progestagênio, sem estrogênio', 'Cobre em depósito de liberação lenta', 'Levonorgestrel em dose de emergência'],
     g: 'A',
     c: 'O trimestral contém apenas progestagênio. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'É o trimestral.', C: 'É o DIU.', D: 'Não é.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Pílula de progestagênio',
     e: 'A pílula de desogestrel 75 microgramas:',
-    o: ['Inibe a ovulação na maioria dos ciclos e pode ser usada por quem tem contraindicação a estrogênio', 'É contraindicada na amamentação', 'Contém estrogênio', 'Deve ser tomada com pausa de 7 dias'],
+    o: ['Inibe a ovulação e serve a quem não pode usar estrogênio', 'É contraindicada durante a amamentação exclusiva', 'Contém estrogênio em baixa dose, como as combinadas', 'Deve ser tomada com pausa de 7 dias a cada cartela'],
     g: 'A',
     c: 'É de uso contínuo, sem pausa. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'É adequada na amamentação.', C: 'Não contém.', D: 'É contínua.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Critérios de elegibilidade: diabetes',
     e: 'Mulher com diabetes há 25 anos e nefropatia. O anticoncepcional combinado é:',
-    o: ['Categoria 3 ou 4, conforme a gravidade, preferindo-se outros métodos', 'Categoria 1', 'Obrigatório', 'Categoria 2 sempre'],
+    o: ['Categoria 3 ou 4, preferindo-se outros métodos', 'Categoria 1, sem restrição nenhuma', 'Obrigatório para evitar gestação de risco', 'Categoria 2 em todos os casos'],
     g: 'A',
     c: 'Diabetes com lesão vascular ou mais de 20 anos de evolução eleva o risco cardiovascular. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Há restrição.', C: 'Não é obrigatório.', D: 'Há doença vascular.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Critérios de elegibilidade: epilepsia',
     e: 'Mulher em uso de carbamazepina deseja método eficaz. A melhor opção é:',
-    o: ['DIU de cobre ou de levonorgestrel, ou injetável de medroxiprogesterona', 'Pílula combinada de baixa dose', 'Implante de etonogestrel isolado', 'Pílula de progestagênio isolado'],
+    o: ['DIU de cobre ou de levonorgestrel, ou medroxiprogesterona', 'Pílula combinada de baixa dose', 'Implante de etonogestrel isolado, sem associação', 'Pílula de progestagênio isolado em dose habitual'],
     g: 'A',
     c: 'Indutores enzimáticos reduzem a eficácia de pílulas e implante. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Eficácia reduzida.', C: 'Eficácia reduzida.', D: 'Eficácia reduzida.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Critérios de elegibilidade: câncer de mama',
     e: 'Mulher com câncer de mama atual. É contraindicado (categoria 4):',
-    o: ['Qualquer método hormonal', 'DIU de cobre', 'Preservativo', 'Laqueadura'],
+    o: ['Qualquer método hormonal', 'DIU de cobre, método não hormonal', 'Preservativo masculino ou feminino', 'Laqueadura tubária'],
     g: 'A',
     c: 'O DIU de cobre é a opção de escolha. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'É a escolha.', C: 'Permitido.', D: 'Permitida.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Critérios de elegibilidade: obesidade',
     e: 'Mulher com IMC de 32, sem outras doenças, quer pílula combinada. A categoria OMS é:',
-    o: ['2, pode usar com acompanhamento', '4', '3', 'Contraindicação absoluta'],
+    o: ['2, pode usar com acompanhamento', '4, contraindicação absoluta', '3, riscos superam os benefícios', 'Contraindicação absoluta por obesidade'],
     g: 'A',
     c: 'A obesidade isolada aumenta discretamente o risco de trombose. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Não há contraindicação absoluta.', C: 'Não é categoria 3 isoladamente.', D: 'Não é absoluta.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'DIU: inserção',
     e: 'O DIU pode ser inserido:',
-    o: ['Em qualquer momento do ciclo, desde que haja razoável certeza de que a mulher não está grávida', 'Somente durante a menstruação', 'Apenas em multíparas', 'Apenas com exame de imagem prévio obrigatório'],
+    o: ['Qualquer dia, se a gravidez estiver excluída', 'Somente durante os dias da menstruação', 'Apenas em mulheres que já são multíparas', 'Só após exame de imagem prévio e obrigatório'],
     g: 'A',
     c: 'Não é necessário ultrassom de rotina antes da inserção. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Não é obrigatório.', C: 'Nuliparidade não contraindica.', D: 'Não é obrigatório.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'DIU: complicações',
     e: 'Usuária de DIU com dor pélvica, febre e secreção cervical purulenta. A conduta é:',
-    o: ['Tratar doença inflamatória pélvica com antibiótico, sem necessidade de retirar o DIU de imediato', 'Retirar o DIU e não tratar', 'Ignorar', 'Indicar histerectomia'],
+    o: ['Tratar a DIP com antibiótico, mantendo o DIU', 'Retirar o DIU e não tratar a infecção pélvica', 'Ignorar o quadro e manter apenas conduta expectante', 'Indicar histerectomia como primeira conduta'],
     g: 'A',
     c: 'Retira-se o DIU se não houver melhora em 48 a 72 horas ou se a paciente desejar. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Exige tratamento.', C: 'Exige tratamento.', D: 'Sem indicação.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'DIU: gestação',
     e: 'Usuária de DIU com gestação intrauterina inicial e fios visíveis. A conduta é:',
-    o: ['Retirar o DIU, após excluir ectópica, para reduzir risco de abortamento e infecção', 'Manter o DIU sempre', 'Indicar interrupção', 'Inserir outro DIU'],
+    o: ['Retirar o DIU após excluir ectópica', 'Manter o DIU até o término da gestação', 'Indicar interrupção imediata da gestação', 'Inserir outro DIU no mesmo ato'],
     g: 'A',
     c: 'Se os fios não forem visíveis, a retirada pode ser mais arriscada e a conduta é individualizada. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Mantê-lo aumenta riscos.', C: 'Sem indicação.', D: 'Sem sentido.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Sangramento de escape nos primeiros meses de pílula combinada:',
-    o: ['É comum e costuma melhorar após 3 meses', 'Indica câncer de endométrio', 'Exige suspensão imediata', 'Indica gravidez obrigatoriamente'],
+    o: ['É comum e costuma melhorar após 3 meses', 'Indica câncer de endométrio já nos primeiros ciclos', 'Exige suspensão imediata do método', 'Indica gravidez, obrigatoriamente, em todos os casos'],
     g: 'A',
     c: 'Persistência exige avaliar adesão, interações, infecções e gravidez. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Improvável.', C: 'Não é necessário.', D: 'Não obrigatoriamente.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Contracepção de emergência: ulipristal',
     e: 'Sobre o acetato de ulipristal como contracepção de emergência, é correto afirmar:',
-    o: ['É eficaz até 120 horas e mais eficaz que o levonorgestrel no fim desse período', 'É eficaz apenas por 12 horas', 'É abortivo após implantação', 'Contém estrogênio'],
+    o: ['Eficaz até 120 horas, superior ao levonorgestrel no fim do prazo', 'Eficaz somente nas primeiras 12 horas após a relação', 'Abortivo quando a gestação já está implantada no útero', 'Contém estrogênio em dose elevada, como a pílula comum'],
     g: 'A',
     c: 'Não está disponível em todos os países. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Prazo maior.', C: 'Não interrompe gestação implantada.', D: 'É modulador de receptor de progesterona.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Métodos comportamentais',
     e: 'O método da tabela (Ogino-Knaus):',
-    o: ['Tem eficácia baixa em uso típico e exige ciclos regulares', 'É mais eficaz que o DIU', 'Protege contra IST', 'Funciona em ciclos irregulares'],
+    o: ['Eficácia baixa em uso típico e exige ciclos regulares', 'Mais eficaz que o DIU em uso típico', 'Protege contra infecções sexualmente transmissíveis', 'Funciona bem em ciclos irregulares'],
     g: 'A',
     c: 'Métodos baseados na percepção da fertilidade dependem de disciplina e ciclos regulares. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Menos eficaz.', C: 'Não protege.', D: 'Não funciona bem.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Coito interrompido',
     e: 'Sobre o coito interrompido, é correto afirmar:',
-    o: ['Tem alta taxa de falha em uso típico', 'É o mais eficaz', 'Previne IST', 'É recomendado como método principal'],
+    o: ['Tem alta taxa de falha em uso típico', 'É o método mais eficaz disponível', 'Previne as infecções sexualmente transmissíveis', 'É recomendado como método principal'],
     g: 'A',
     c: 'Pode haver espermatozoides no líquido pré-ejaculatório. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Pouco eficaz.', C: 'Não previne.', D: 'Não é recomendado.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Anticoncepção e enxaqueca',
     e: 'Mulher com enxaqueca sem aura, de 30 anos, não fumante. O anticoncepcional combinado é categoria:',
-    o: ['2 para iniciar', '4', '3', '1 em qualquer idade'],
+    o: ['2, pode iniciar', '4, contraindicação absoluta', '3, riscos geralmente superam benefícios', '1, em qualquer idade'],
     g: 'A',
     c: 'A enxaqueca com aura em qualquer idade é categoria 4. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Sem aura não é categoria 4.', C: 'Para início abaixo de 35 anos é categoria 2.', D: 'Há leve aumento de risco.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Implante: indicações',
     e: 'O implante de etonogestrel é adequado para:',
-    o: ['Adolescentes e mulheres que desejam método de alta eficácia e longa duração, inclusive na amamentação', 'Somente mulheres acima de 40 anos', 'Somente quem já teve filhos', 'Quem usa carbamazepina'],
+    o: ['Adolescentes e mulheres que querem método eficaz e duradouro', 'Somente mulheres acima de 40 anos de idade completos', 'Somente mulheres que já tiveram filhos anteriormente', 'Mulheres em uso de carbamazepina, sem nenhuma restrição'],
     g: 'A',
     c: 'É um dos métodos mais eficazes. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Sem restrição de idade.', C: 'Sem restrição.', D: 'Perde eficácia.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Injetável trimestral: retorno',
     e: 'Após suspender o injetável trimestral, o retorno da fertilidade:',
-    o: ['Pode demorar em média 7 a 10 meses após a última injeção', 'É imediato', 'Nunca ocorre', 'Ocorre em 1 semana'],
+    o: ['Pode demorar em média 7 a 10 meses', 'É imediato após a última injeção', 'Nunca ocorre depois do uso prolongado', 'Ocorre em uma semana, em todas'],
     g: 'A',
     c: 'Deve-se orientar quem deseja engravidar em breve. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Há atraso.', C: 'Ocorre.', D: 'Prazo irreal.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Anticoncepção e HIV',
     e: 'Mulher vivendo com HIV em uso de terapia antirretroviral com dolutegravir. Sobre a pílula combinada:',
-    o: ['Pode ser usada, pois o dolutegravir não reduz sua eficácia de forma relevante', 'É contraindicada', 'Perde toda a eficácia', 'Exige dose dobrada'],
+    o: ['Pode ser usada, pois o dolutegravir não reduz sua eficácia', 'É contraindicada em qualquer terapia antirretroviral', 'Perde toda a eficácia com o dolutegravir', 'Exige dose dobrada da pílula combinada'],
     g: 'A',
     c: 'Alguns esquemas com efavirenz reduzem a eficácia de métodos hormonais. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Não é contraindicada.', C: 'Não perde.', D: 'Não é necessário.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Laqueadura: falha',
     e: 'Mulher com laqueadura prévia apresenta atraso menstrual e beta-hCG positivo. A principal preocupação é:',
-    o: ['Gestação ectópica, pois a proporção de ectópicas é maior em falhas de laqueadura', 'Mola hidatiforme', 'Gestação gemelar', 'Nenhuma'],
+    o: ['Gestação ectópica, mais comum após falha de laqueadura', 'Mola hidatiforme completa, com vesículas e sangramento', 'Gestação gemelar espontânea, pelo atraso menstrual', 'Nenhuma, pois a laqueadura tubária é definitiva'],
     g: 'A',
     c: 'O risco absoluto é baixo, mas, em caso de falha, a ectópica deve ser investigada. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Exige investigação.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Anticoncepção: tromboembolismo',
     e: 'O risco de tromboembolismo venoso com anticoncepcional combinado:',
-    o: ['É maior no primeiro ano de uso, porém menor que o da gestação e do puerpério', 'É maior que na gestação', 'Não existe', 'É igual entre todos os métodos, inclusive DIU de cobre'],
+    o: ['Maior no 1º ano, mas menor que na gestação e no puerpério', 'Maior que o risco da gestação e do puerpério juntos', 'Não existe aumento de risco com nenhuma formulação', 'Igual em todos os métodos, inclusive no DIU de cobre'],
     g: 'A',
     c: 'Progestagênios de terceira geração e drospirenona associam-se a risco um pouco maior que o levonorgestrel. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'É menor.', C: 'Existe.', D: 'O DIU de cobre não aumenta.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Perimenopausa',
     e: 'Mulher de 47 anos, sem fatores de risco cardiovascular, com ciclos irregulares, quer anticoncepção. Uma boa opção é:',
-    o: ['SIU de levonorgestrel, que também controla sangramento', 'Nenhuma, pois não pode engravidar', 'Apenas coito interrompido', 'Pílula combinada para fumante de 20 cigarros ao dia'],
+    o: ['SIU de levonorgestrel, que também controla o sangramento', 'Nenhuma, pois nessa idade não engravida mais', 'Apenas coito interrompido, por segurança', 'Pílula combinada, mesmo se fumante de 20 cigarros/dia'],
     g: 'A',
     c: 'A anticoncepção deve continuar até 12 meses de amenorreia após os 50 anos ou 24 meses antes dos 50. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Ainda há risco de gestação.', C: 'Pouco eficaz.', D: 'Contraindicada.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Pílula combinada: retorno da fertilidade',
     e: 'Após suspender a pílula combinada, o retorno da fertilidade é:',
-    o: ['Rápido, geralmente no ciclo seguinte', 'Após 2 anos', 'Nunca ocorre', 'Após 10 meses obrigatoriamente'],
+    o: ['Rápido, geralmente no ciclo seguinte', 'Só após 2 anos de suspensão', 'Nunca ocorre de forma espontânea', 'Só após 10 meses, obrigatoriamente'],
     g: 'A',
     c: 'Diferente do injetável trimestral. Referência: World Health Organization; Johns Hopkins CCP. Family Planning: A Global Handbook for Providers. 2022 update. Baltimore and Geneva: CCP and WHO, 2022.',
     x: { B: 'Prazo irreal.', C: 'Ocorre.', D: 'É do injetável trimestral.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'Critérios de elegibilidade: categorias',
     e: 'Na classificação da OMS, a categoria 3 significa:',
-    o: ['Os riscos geralmente superam os benefícios; uso apenas se não houver alternativa, com acompanhamento', 'Sem restrição', 'Benefícios superam riscos', 'Risco inaceitável'],
+    o: ['Riscos geralmente superam benefícios; uso só sem alternativa', 'Sem restrição de uso do método, em qualquer condição', 'Benefícios em geral superam os riscos do método', 'Risco inaceitável para a saúde, uso contraindicado'],
     g: 'A',
     c: 'Categoria 1: sem restrição; 2: benefícios superam riscos; 4: risco inaceitável. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Categoria 1.', C: 'Categoria 2.', D: 'Categoria 4.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_ANTIC: QuestaoCompacta[] = [
   {
     s: 'DIU: nulípara',
     e: 'Mulher nulípara de 19 anos deseja DIU. A conduta é:',
-    o: ['O DIU pode ser oferecido, pois nuliparidade e idade jovem não são contraindicações', 'Contraindicar por ser nulípara', 'Exigir que tenha filhos antes', 'Exigir autorização dos pais'],
+    o: ['Pode ser oferecido; nuliparidade e idade não contraindicam', 'Contraindicar o DIU em toda mulher nulípara jovem', 'Exigir que tenha filhos antes de inserir o DIU', 'Exigir autorização dos pais para inserir o DIU'],
     g: 'A',
     c: 'O risco de expulsão é um pouco maior, mas os benefícios superam os riscos. Referência: World Health Organization. Medical eligibility criteria for contraceptive use. 5ª ed. Geneva: WHO, 2015.',
     x: { B: 'Não contraindica.', C: 'Sem fundamento.', D: 'Não é necessário em maior de idade.' },

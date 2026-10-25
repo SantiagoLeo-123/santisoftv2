@@ -5,7 +5,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Febre sem sinais localizatórios',
     e: 'Lactente de 25 dias com febre de 38,3 °C, em bom estado geral, sem foco. A conduta é:',
-    o: ['Avaliação laboratorial com urina, hemograma, marcadores inflamatórios e hemocultura, considerando punção lombar conforme protocolo', 'Alta com antitérmico', 'Antibiótico oral sem exames', 'Apenas observação domiciliar'],
+    o: ['Urina, hemograma, marcadores e hemocultura; líquor conforme protocolo', 'Alta com antitérmico e retorno em 24 horas, se piora', 'Antibiótico oral, sem exames, e retorno em 48 horas', 'Apenas observação domiciliar, com retorno em 72 horas'],
     g: 'A',
     c: 'Lactentes pequenos têm risco elevado de infecção bacteriana grave mesmo com bom aspecto. Referência: Pantell RH et al. Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old. Pediatrics. 2021;148(2):e2021052228.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -13,7 +13,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Febre sem sinais localizatórios',
     e: 'A infecção bacteriana grave mais frequente em lactentes febris sem foco é:',
-    o: ['Infecção do trato urinário', 'Meningite', 'Osteomielite', 'Pneumonia lobar'],
+    o: ['Infecção do trato urinário', 'Meningite bacteriana, com sinais meníngeos', 'Osteomielite aguda, com dor localizada', 'Pneumonia lobar, com consolidação à radiografia'],
     g: 'A',
     c: 'Por isso a avaliação da urina é essencial. Referência: Pantell RH et al. Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old. Pediatrics. 2021;148(2):e2021052228.',
     x: { B: 'Menos frequente.', C: 'Menos frequente.', D: 'Menos frequente.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Meningite bacteriana: agentes',
     e: 'Os principais agentes de meningite bacteriana em crianças acima de 3 meses são:',
-    o: ['Streptococcus pneumoniae e Neisseria meningitidis', 'Estreptococo B e E. coli', 'Listeria e Klebsiella', 'Staphylococcus epidermidis'],
+    o: ['Streptococcus pneumoniae e Neisseria meningitidis', 'Estreptococo do grupo B e Escherichia coli', 'Listeria monocytogenes e Klebsiella pneumoniae', 'Staphylococcus epidermidis, em cateter liquórico'],
     g: 'A',
     c: 'O Haemophilus tipo b diminuiu muito com a vacina. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Típicos do período neonatal.', C: 'Neonatal.', D: 'Associado a dispositivos.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Meningite: clínica',
     e: 'Criança de 4 anos com febre, cefaleia, vômitos e rigidez de nuca. O exame que confirma o diagnóstico é:',
-    o: ['Punção lombar com análise do líquor', 'Tomografia de crânio', 'Hemograma', 'Radiografia'],
+    o: ['Punção lombar com análise do líquor', 'Tomografia de crânio, antes de qualquer conduta', 'Hemograma, com contagem de leucócitos', 'Radiografia de crânio, em duas incidências'],
     g: 'A',
     c: 'Tomografia antes da punção é reservada a sinais focais, papiledema ou coma. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Não confirma.', C: 'Inespecífico.', D: 'Sem relação.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Meningite: líquor',
     e: 'Líquor turvo, com 1.500 células predominantemente neutrófilos, proteína elevada e glicose muito baixa sugere:',
-    o: ['Meningite bacteriana', 'Meningite viral', 'Meningite tuberculosa', 'Normal'],
+    o: ['Meningite bacteriana', 'Meningite viral, de evolução benigna', 'Meningite tuberculosa, de evolução subaguda', 'Líquor normal, para a idade da criança'],
     g: 'A',
     c: 'Na viral, predominam linfócitos e a glicose é normal. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Glicose normal e linfócitos.', C: 'Linfócitos e evolução subaguda.', D: 'Alterado.' },
@@ -53,7 +53,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Meningite: corticoide',
     e: 'A dexametasona na meningite bacteriana em crianças tem benefício principal na redução de:',
-    o: ['Surdez, especialmente na meningite por Haemophilus', 'Mortalidade em todos os agentes', 'Febre', 'Duração do antibiótico'],
+    o: ['Surdez, sobretudo na meningite por Haemophilus', 'Mortalidade, em todos os agentes etiológicos', 'Febre, que cede mais rápido com o corticoide', 'Duração do antibiótico, que passa a ser menor'],
     g: 'A',
     c: 'Deve ser dada antes ou junto com a primeira dose do antibiótico. Referência: Brouwer MC et al. Corticosteroids for acute bacterial meningitis. Cochrane Database Syst Rev. 2015;(9):CD004405.',
     x: { B: 'Benefício variável.', C: 'Sem indicação.', D: 'Sem efeito.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Meningite: profilaxia',
     e: 'Contatos íntimos de criança com doença meningocócica devem receber:',
-    o: ['Quimioprofilaxia com rifampicina (ou ceftriaxona ou ciprofloxacino conforme o caso)', 'Vacina BCG', 'Nada', 'Corticoide'],
+    o: ['Quimioprofilaxia com rifampicina, ceftriaxona ou ciprofloxacino', 'Vacina BCG, em dose única, aplicada nos contatos', 'Nada, pois a transmissão exige contato prolongado', 'Corticoide oral, por 5 dias, em todos os contatos'],
     g: 'A',
     c: 'Deve ser feita idealmente nas primeiras 48 horas. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Sem relação.', C: 'Risco de doença.', D: 'Sem indicação.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Encefalite herpética',
     e: 'Criança com febre, convulsões focais, alteração de comportamento e lesão temporal na ressonância. A conduta é:',
-    o: ['Aciclovir intravenoso imediatamente', 'Ceftriaxona isolada', 'Observação', 'Corticoide isolado'],
+    o: ['Aciclovir intravenoso imediatamente', 'Ceftriaxona isolada, por via intravenosa', 'Observação clínica, com reavaliação em 24 horas', 'Corticoide isolado, por via intravenosa'],
     g: 'A',
     c: 'O PCR para herpes no líquor confirma. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Insuficiente.', C: 'Alta mortalidade sem tratamento.', D: 'Sem indicação.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Artrite séptica',
     e: 'Criança com febre, joelho quente, edemaciado, com dor intensa à mobilização. A conduta é:',
-    o: ['Artrocentese e antibiótico, com drenagem cirúrgica conforme o caso', 'Anti-inflamatório e alta', 'Imobilização sem antibiótico', 'Corticoide intra-articular'],
+    o: ['Artrocentese e antibiótico; drenagem cirúrgica conforme o caso', 'Anti-inflamatório e alta, com retorno se piora', 'Imobilização do joelho, sem uso de antibiótico', 'Corticoide intra-articular, em dose única'],
     g: 'A',
     c: 'É urgência ortopédica pelo risco de destruição articular. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Risco de sequela.', C: 'Inadequado.', D: 'Contraindicado.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Sinovite transitória',
     e: 'Criança de 5 anos com dor no quadril e claudicação após IVAS, afebril, PCR normal e bom estado geral. A hipótese é:',
-    o: ['Sinovite transitória do quadril', 'Artrite séptica', 'Osteomielite', 'Fratura'],
+    o: ['Sinovite transitória do quadril', 'Artrite séptica, com febre e PCR elevada', 'Osteomielite, com dor óssea localizada', 'Fratura de colo do fêmur, com trauma prévio'],
     g: 'A',
     c: 'Os critérios de Kocher ajudam a diferenciar da artrite séptica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Febre e marcadores altos.', C: 'Febre e marcadores altos.', D: 'Sem trauma.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'HIV pediátrico',
     e: 'O diagnóstico de HIV em lactentes menores de 18 meses expostos é feito por:',
-    o: ['Carga viral (teste molecular)', 'Sorologia (anticorpos)', 'Hemograma', 'Teste rápido de anticorpo'],
+    o: ['Carga viral (teste molecular)', 'Sorologia de anticorpos, por ELISA', 'Hemograma, com contagem de linfócitos', 'Teste rápido de anticorpo, em amostra capilar'],
     g: 'A',
     c: 'Anticorpos maternos podem persistir até 18 meses. Referência: Brasil. Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Crianças e Adolescentes. Brasília: MS, 2023.',
     x: { B: 'Pode refletir anticorpos maternos.', C: 'Inespecífico.', D: 'Reflete anticorpos maternos.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Leishmaniose visceral',
     e: 'Criança de área endêmica com febre prolongada, emagrecimento, hepatoesplenomegalia volumosa e pancitopenia. O diagnóstico mais provável é:',
-    o: ['Leishmaniose visceral (calazar)', 'Leucemia sempre', 'Malária', 'Dengue'],
+    o: ['Leishmaniose visceral (calazar)', 'Leucemia aguda, sempre, com blastos no sangue', 'Malária, com febre terçã e anemia', 'Dengue, com plaquetopenia e hemoconcentração'],
     g: 'A',
     c: 'Diagnóstico por teste rápido, sorologia ou mielograma. O tratamento inclui anfotericina B lipossomal ou antimoniais. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Deve ser excluída, mas o contexto sugere calazar.', C: 'Sem esse padrão.', D: 'Quadro agudo.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Leptospirose',
     e: 'Criança após enchente com febre, mialgia intensa em panturrilhas, sufusão conjuntival e icterícia. A hipótese é:',
-    o: ['Leptospirose', 'Hepatite A', 'Dengue', 'Malária'],
+    o: ['Leptospirose', 'Hepatite A, com icterícia e colúria', 'Dengue, com plaquetopenia e exantema', 'Malária, com febre terçã e esplenomegalia'],
     g: 'A',
     c: 'A forma grave (Weil) cursa com icterícia, insuficiência renal e hemorragia. Tratamento com penicilina, ceftriaxona ou doxiciclina. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Sem mialgia típica.', C: 'Sem sufusão.', D: 'Sem exposição.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Dengue em crianças',
     e: 'Sinal de alarme na dengue em crianças é:',
-    o: ['Dor abdominal intensa e contínua, vômitos persistentes, sangramento de mucosas e letargia', 'Febre de 39 °C no primeiro dia', 'Exantema', 'Cefaleia'],
+    o: ['Dor abdominal contínua, vômitos, sangramento e letargia', 'Febre de 39 °C no primeiro dia de doença, isolada', 'Exantema, presente em fases avançadas da doença', 'Cefaleia, como queixa isolada, sem outros sinais'],
     g: 'A',
     c: 'A fase crítica ocorre na defervescência. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Esperado.', C: 'Esperado.', D: 'Esperado.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Doença de Chagas congênita',
     e: 'Recém-nascido de mãe com doença de Chagas. O diagnóstico de infecção congênita é feito:',
-    o: ['Por parasitológico direto ao nascer e sorologia após 9 meses', 'Por sorologia ao nascer apenas', 'Por eletrocardiograma', 'Não é necessário investigar'],
+    o: ['Parasitológico direto ao nascer e sorologia após 9 meses', 'Sorologia ao nascer, somente, sem outro exame', 'Eletrocardiograma ao nascer, para avaliar arritmias', 'Não é necessário investigar, se o RN está bem'],
     g: 'A',
     c: 'O tratamento com benznidazol tem alta taxa de cura no lactente. Referência: Brasil. Ministério da Saúde. PCDT Doença de Chagas. Brasília: MS, 2018.',
     x: { B: 'Pode refletir anticorpos maternos.', C: 'Inespecífico.', D: 'Deve investigar.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Tétano neonatal',
     e: 'Recém-nascido com 7 dias, dificuldade de sucção, trismo, rigidez e espasmos, parto domiciliar com corte do cordão em condições precárias. O diagnóstico é:',
-    o: ['Tétano neonatal', 'Sepse', 'Meningite', 'Hipocalcemia'],
+    o: ['Tétano neonatal', 'Sepse neonatal tardia, com instabilidade', 'Meningite bacteriana, com abaulamento de fontanela', 'Hipocalcemia neonatal, com tetania e convulsões'],
     g: 'A',
     c: 'Prevenção: vacinação da gestante e cuidado com o coto umbilical. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Sem espasmos e trismo.', C: 'Sem trismo.', D: 'Sem trismo.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Escarlatina vs Kawasaki',
     e: 'Criança com febre prolongada e linfadenopatia cervical, sem resposta a antibiótico. Um diagnóstico a considerar é:',
-    o: ['Doença de Kawasaki', 'Gripe', 'Rubéola', 'Mão-pé-boca'],
+    o: ['Doença de Kawasaki', 'Gripe, com mialgia e coriza', 'Rubéola, com adenopatia retroauricular', 'Mão-pé-boca, com vesículas em palmas e plantas'],
     g: 'A',
     c: 'Febre por 5 dias ou mais exige pensar em Kawasaki. Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Autolimitada.', C: 'Febre baixa.', D: 'Febre curta.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Antibioticoprofilaxia',
     e: 'Criança asplênica deve receber, além de vacinas especiais:',
-    o: ['Penicilina profilática e orientação de procurar atendimento imediato em febre', 'Nenhuma medida', 'Corticoide', 'Antifúngico'],
+    o: ['Penicilina profilática e procura imediata se febre', 'Nenhuma medida adicional, além das vacinas', 'Corticoide oral, em dose baixa e contínua', 'Antifúngico oral, em dose baixa e contínua'],
     g: 'A',
     c: 'O risco de sepse fulminante por pneumococo é alto. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Risco alto.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Febre: neonato',
     e: 'Recém-nascido de 12 dias com febre. Mesmo em bom estado geral, a conduta inclui:',
-    o: ['Internação, exames completos incluindo líquor e antibiótico empírico intravenoso', 'Alta com retorno em 48 horas', 'Apenas urina tipo 1', 'Antitérmico isolado'],
+    o: ['Internação, exames com líquor e antibiótico empírico IV', 'Alta com retorno em 48 horas, se bom estado', 'Apenas urina tipo 1, como exame isolado', 'Antitérmico isolado, com retorno se persistir a febre'],
     g: 'A',
     c: 'O risco de infecção bacteriana grave é alto nessa idade. Referência: Pantell RH et al. Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old. Pediatrics. 2021;148(2):e2021052228.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Inadequado.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Sepse pediátrica',
     e: 'Na criança com suspeita de choque séptico, o antibiótico deve ser iniciado:',
-    o: ['Na primeira hora após o reconhecimento', 'Somente após resultados de culturas', 'Após 24 horas', 'Somente após tomografia'],
+    o: ['Na primeira hora após o reconhecimento', 'Somente após o resultado das culturas', 'Após 24 horas, com a criança estabilizada', 'Somente depois de uma tomografia de crânio'],
     g: 'A',
     c: 'Colher culturas sem atrasar o antibiótico. Referência: Weiss SL et al. Surviving Sepsis Campaign International Guidelines for Children. Pediatr Crit Care Med. 2020;21(2):e52-106.',
     x: { B: 'Atraso aumenta a mortalidade.', C: 'Atraso.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Meningococo: vacina',
     e: 'A vacina meningocócica no calendário infantil brasileiro protege contra o sorogrupo C (e ACWY em adolescentes). O sorogrupo B:',
-    o: ['Tem vacina específica, disponível em situações especiais e na rede privada', 'Não existe', 'É coberto pela vacina C', 'É coberto pela BCG'],
+    o: ['Tem vacina própria, em situações especiais e na rede privada', 'Não existe vacina contra esses sorogrupos', 'É coberto pela própria vacina meningocócica C', 'É coberto pela vacina BCG, aplicada ao nascer'],
     g: 'A',
     c: 'O sorogrupo B é causa importante de doença em lactentes. Referência: Brasil. Ministério da Saúde. Manual dos CRIE. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Existe.', C: 'Não é coberto.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Meningite: complicação',
     e: 'A complicação neurológica mais frequente após meningite bacteriana em crianças é:',
-    o: ['Perda auditiva neurossensorial', 'Cegueira', 'Paralisia facial', 'Epilepsia generalizada sempre'],
+    o: ['Perda auditiva neurossensorial', 'Cegueira cortical, bilateral e permanente', 'Paralisia facial periférica, unilateral', 'Epilepsia generalizada, em todos os casos'],
     g: 'A',
     c: 'Toda criança deve fazer avaliação auditiva após o quadro. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Menos frequente.', C: 'Menos frequente.', D: 'Não é a regra.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'HIV: transmissão vertical',
     e: 'A principal via de infecção pelo HIV em crianças é:',
-    o: ['Transmissão vertical (gestação, parto ou amamentação)', 'Transfusão', 'Uso de drogas', 'Relação sexual'],
+    o: ['Transmissão vertical (gestação, parto ou amamentação)', 'Transfusão de sangue contaminado, na infância', 'Uso de drogas injetáveis, na adolescência', 'Relação sexual desprotegida, em adolescentes'],
     g: 'A',
     c: 'A prevenção da transmissão vertical reduziu muito os casos. Referência: Brasil. Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Crianças e Adolescentes. Brasília: MS, 2023.',
     x: { B: 'Rara hoje.', C: 'Rara em crianças.', D: 'Em adolescentes.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'HIV: profilaxia',
     e: 'Criança com HIV e imunossupressão grave deve receber profilaxia para pneumocistose com:',
-    o: ['Sulfametoxazol-trimetoprima', 'Azitromicina', 'Fluconazol', 'Aciclovir'],
+    o: ['Sulfametoxazol-trimetoprima', 'Azitromicina, em dose semanal', 'Fluconazol, em dose semanal', 'Aciclovir, em dose diária'],
     g: 'A',
     c: 'Lactentes expostos também recebem a partir de 4 a 6 semanas até exclusão da infecção. Referência: Brasil. Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Crianças e Adolescentes. Brasília: MS, 2023.',
     x: { B: 'Profilaxia para outras infecções.', C: 'Para fungos.', D: 'Para herpes.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose',
     e: 'Lactente com HIV com desconforto respiratório progressivo, hipoxemia desproporcional e infiltrado intersticial bilateral. A hipótese é:',
-    o: ['Pneumonia por Pneumocystis jirovecii', 'Bronquiolite simples', 'Asma', 'Pneumonia lobar pneumocócica'],
+    o: ['Pneumonia por Pneumocystis jirovecii', 'Bronquiolite viral simples, sem hipoxemia', 'Asma, com sibilância e resposta ao broncodilatador', 'Pneumonia lobar pneumocócica, com consolidação'],
     g: 'A',
     c: 'Tratamento com sulfametoxazol-trimetoprima em dose alta e corticoide. Referência: Brasil. Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Crianças e Adolescentes. Brasília: MS, 2023.',
     x: { B: 'Quadro diferente.', C: 'Sem relação.', D: 'Infiltrado lobar.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Toxoplasmose adquirida',
     e: 'Criança com linfadenopatia cervical, febre baixa e cansaço, sorologia IgM positiva para toxoplasmose, imunocompetente. A conduta é geralmente:',
-    o: ['Observação, pois a forma ganglionar é autolimitada', 'Tratamento prolongado obrigatório', 'Cirurgia', 'Corticoide'],
+    o: ['Observação: forma ganglionar é autolimitada', 'Tratamento prolongado, obrigatoriamente, por 12 meses', 'Cirurgia, com biópsia excisional do linfonodo', 'Corticoide oral, por 4 semanas, em dose alta'],
     g: 'A',
     c: 'Trata-se em imunodeprimidos, forma ocular ou sintomas graves. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é obrigatório.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Toxocaríase',
     e: 'Criança com eosinofilia intensa, hepatomegalia e geofagia, com cães em casa. A hipótese é:',
-    o: ['Toxocaríase (larva migrans visceral)', 'Giardíase', 'Ascaridíase simples', 'Leucemia'],
+    o: ['Toxocaríase (larva migrans visceral)', 'Giardíase, com esteatorreia e distensão abdominal', 'Ascaridíase simples, sem eosinofilia intensa', 'Leucemia aguda, com blastos no sangue periférico'],
     g: 'A',
     c: 'Tratamento com albendazol. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem eosinofilia intensa.', C: 'Eosinofilia leve.', D: 'Sem relação.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Esquistossomose',
     e: 'Criança de área endêmica com hepatoesplenomegalia e hipertensão portal, após banhos em lagoas. A hipótese é:',
-    o: ['Esquistossomose mansônica', 'Leishmaniose', 'Hepatite A', 'Malária'],
+    o: ['Esquistossomose mansônica', 'Leishmaniose visceral, com febre prolongada', 'Hepatite A, com icterícia e colúria', 'Malária, com febre terçã e anemia'],
     g: 'A',
     c: 'Tratamento com praziquantel. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Sem relação com lagoas.', C: 'Quadro agudo.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Dengue: hidratação',
     e: 'Criança com dengue sem sinais de alarme. A hidratação oral recomendada é:',
-    o: ['Aumentar a ingestão de líquidos, incluindo soro de reidratação oral, conforme o peso', 'Restringir líquidos', 'Hidratação venosa obrigatória', 'Apenas refrigerantes'],
+    o: ['Aumentar líquidos, incluindo SRO, conforme o peso', 'Restringir líquidos, para evitar sobrecarga', 'Hidratação venosa obrigatória, em todos os casos', 'Apenas refrigerantes, para melhor aceitação'],
     g: 'A',
     c: 'A hidratação adequada previne complicações. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Pioraria.', C: 'Desnecessária.', D: 'Inadequado.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Raiva',
     e: 'A conduta após mordedura de morcego em criança é:',
-    o: ['Profilaxia antirrábica com soro (ou imunoglobulina) e vacina, independentemente da gravidade aparente', 'Apenas lavar o ferimento', 'Observar o morcego', 'Nenhuma'],
+    o: ['Soro (ou imunoglobulina) e vacina, qualquer que seja a gravidade', 'Apenas lavar o ferimento, com água e sabão em abundância', 'Observar o morcego por 10 dias, mantido em cativeiro', 'Nenhuma medida adicional, se o ferimento for muito pequeno'],
     g: 'A',
     c: 'Toda exposição a morcego é considerada grave. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023 (capítulo Raiva).',
     x: { B: 'Insuficiente.', C: 'Inviável.', D: 'Risco de raiva.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Infecções de pele: impetigo bolhoso',
     e: 'Lactente com bolhas flácidas que se rompem deixando erosões, sem febre. O agente mais provável é:',
-    o: ['Staphylococcus aureus', 'Estreptococo do grupo B', 'Candida', 'Herpes'],
+    o: ['Staphylococcus aureus', 'Estreptococo do grupo B, perinatal', 'Candida albicans, em dobras e mucosas', 'Herpes simples, com vesículas agrupadas'],
     g: 'A',
     c: 'Toxinas esfoliativas causam as bolhas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Neonatal sistêmico.', C: 'Placas em dobras.', D: 'Vesículas agrupadas.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Escabiose: tratamento',
     e: 'O tratamento da escabiose em criança acima de 2 meses é:',
-    o: ['Permetrina 5% tópica, tratando todos os contatos', 'Antibiótico oral', 'Corticoide tópico isolado', 'Antifúngico'],
+    o: ['Permetrina 5% tópica, tratando todos os contatos', 'Antibiótico oral, por 7 dias, em dose habitual', 'Corticoide tópico isolado, por 14 dias', 'Antifúngico tópico, por 4 semanas, nas lesões'],
     g: 'A',
     c: 'Ivermectina oral é opção acima de 15 kg. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem efeito.', C: 'Pode piorar.', D: 'Sem efeito.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Pediculose',
     e: 'Criança com prurido no couro cabeludo e lêndeas. O tratamento é:',
-    o: ['Permetrina 1% e remoção mecânica das lêndeas, repetindo em 7 a 10 dias', 'Raspar a cabeça obrigatoriamente', 'Antibiótico', 'Corticoide'],
+    o: ['Permetrina 1%, remover lêndeas e repetir em 7-10 dias', 'Raspar a cabeça, obrigatoriamente, em todos os casos', 'Antibiótico oral, por 7 dias, em dose habitual', 'Corticoide tópico, por 14 dias, no couro cabeludo'],
     g: 'A',
     c: 'Contatos devem ser examinados. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é obrigatório.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Larva migrans cutânea',
     e: 'Criança com lesão linear serpiginosa pruriginosa no pé após brincar na areia. O tratamento é:',
-    o: ['Albendazol oral ou ivermectina', 'Antibiótico', 'Corticoide', 'Antifúngico'],
+    o: ['Albendazol oral ou ivermectina', 'Antibiótico oral, por 7 dias, em dose habitual', 'Corticoide tópico, por 7 dias, nas lesões', 'Antifúngico tópico, por 4 semanas, nas lesões'],
     g: 'A',
     c: 'Causada por larvas de Ancylostoma de cães e gatos. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Tuberculose: BCG e PPD',
     e: 'Criança vacinada com BCG ao nascer e PPD de 12 mm aos 4 anos, contato de tuberculose. A interpretação é:',
-    o: ['Infecção provável, pois a BCG raramente causa PPD forte após 2 anos', 'Efeito exclusivo da BCG', 'PPD negativo', 'Erro de leitura'],
+    o: ['Infecção provável: BCG raramente causa PPD forte após 2 anos', 'Efeito exclusivo da BCG, sem infecção por M. tuberculosis', 'PPD negativo, pela vacinação prévia com BCG', 'Erro de leitura, sem relevância clínica'],
     g: 'A',
     c: 'Exige excluir doença ativa e tratar infecção latente. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Improvável após anos.', C: 'É positivo.', D: 'Sem motivo.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Infecção de corrente sanguínea',
     e: 'Criança com cateter venoso central, febre e calafrios durante infusão. A hipótese é:',
-    o: ['Infecção de corrente sanguínea relacionada ao cateter', 'Reação alérgica simples', 'Febre medicamentosa', 'Hipoglicemia'],
+    o: ['Infecção de corrente sanguínea relacionada ao cateter', 'Reação alérgica simples, ao líquido infundido', 'Febre medicamentosa, por droga em infusão', 'Hipoglicemia, com sudorese e calafrios'],
     g: 'A',
     c: 'Colher hemoculturas do cateter e periférica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Possível, mas menos provável.', C: 'Menos provável.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Doença da arranhadura do gato',
     e: 'Criança com linfadenopatia axilar dolorosa após arranhão de gato, com pápula no local. O agente é:',
-    o: ['Bartonella henselae', 'Toxoplasma', 'Staphylococcus', 'Pasteurella'],
+    o: ['Bartonella henselae', 'Toxoplasma gondii, pelas fezes do gato', 'Staphylococcus aureus, por pele lesada', 'Pasteurella multocida, por mordedura de gato'],
     g: 'A',
     c: 'Geralmente autolimitada; azitromicina pode acelerar a resolução. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem relação com arranhão.', C: 'Infecção local aguda.', D: 'Celulite precoce após mordida.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Infecção por mordedura',
     e: 'Criança mordida por cão na mão, com ferimento profundo. A profilaxia antibiótica de escolha é:',
-    o: ['Amoxicilina com clavulanato', 'Cefalexina isolada', 'Azitromicina', 'Nenhuma'],
+    o: ['Amoxicilina com clavulanato', 'Cefalexina, como antibiótico isolado', 'Azitromicina, em dose única, por via oral', 'Nenhuma profilaxia antibiótica, por ser mordedura limpa'],
     g: 'A',
     c: 'Avaliar também tétano e raiva. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não cobre Pasteurella e anaeróbios.', C: 'Inadequada.', D: 'Mordeduras de mão são de alto risco.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_INFECTO: QuestaoCompacta[] = [
   {
     s: 'Mononucleose: complicação',
     e: 'Adolescente com mononucleose que joga futebol deve ser orientado a:',
-    o: ['Evitar esportes de contato por cerca de 3 a 4 semanas, pelo risco de ruptura esplênica', 'Manter atividades normalmente', 'Fazer esplenectomia', 'Usar antibiótico'],
+    o: ['Evitar esportes de contato por 3-4 semanas (risco de ruptura esplênica)', 'Manter atividades normalmente, sem nenhuma restrição', 'Fazer esplenectomia eletiva, para prevenir ruptura do baço', 'Usar antibiótico por 10 dias, para prevenir complicações'],
     g: 'A',
     c: 'A esplenomegalia é frequente. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Risco de ruptura.', C: 'Sem indicação.', D: 'Sem indicação.' },

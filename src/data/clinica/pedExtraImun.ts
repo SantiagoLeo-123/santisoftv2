@@ -13,7 +13,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Calendário: 2 meses',
     e: 'Aos 2 meses, a criança recebe:',
-    o: ['Pentavalente, VIP, pneumocócica 10-valente e rotavírus', 'BCG e hepatite B', 'Febre amarela', 'Tríplice viral'],
+    o: ['Pentavalente, VIP, pneumocócica 10 e rotavírus', 'BCG e hepatite B, em dose única, na maternidade', 'Febre amarela, em dose única, com reforço aos 4 anos', 'Tríplice viral, em dose única, com reforço aos 15 meses'],
     g: 'A',
     c: 'A pentavalente protege contra difteria, tétano, coqueluche, Haemophilus influenzae tipo b e hepatite B. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Ao nascer.', C: 'Aos 9 meses.', D: 'Aos 12 meses.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Calendário: febre amarela',
     e: 'No calendário nacional, a vacina contra febre amarela é aplicada a partir dos:',
-    o: ['9 meses, com reforço aos 4 anos', '2 meses', 'Ao nascer', '12 anos'],
+    o: ['9 meses, com reforço aos 4 anos', '2 meses, com reforço aos 4 meses', 'Ao nascer, na maternidade, com a BCG', '12 anos, na escola, com a vacina HPV'],
     g: 'A',
     c: 'Em áreas com circulação viral intensa, pode haver orientação específica. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Precoce.', C: 'Precoce.', D: 'Tardio.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Calendário: poliomielite',
     e: 'Desde 2024, o esquema contra poliomielite no calendário nacional utiliza:',
-    o: ['Vacina inativada (VIP) aos 2, 4 e 6 meses, com reforço de VIP aos 15 meses', 'Somente vacina oral (VOP)', 'Somente reforço aos 10 anos', 'Vacina só em campanhas'],
+    o: ['VIP aos 2, 4 e 6 meses, com reforço de VIP aos 15 meses', 'Somente vacina oral (VOP), em campanhas', 'Somente reforço aos 10 anos de idade', 'Vacina somente em campanhas, sem calendário'],
     g: 'A',
     c: 'A VOP deixou de ser usada nos reforços de rotina. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Não é mais o esquema de rotina.', C: 'Esquema incorreto.', D: 'Esquema incorreto.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Calendário: rotavírus',
     e: 'A vacina oral contra rotavírus tem limite de idade: a primeira dose deve ser dada até:',
-    o: ['3 meses e 15 dias, e a segunda até 7 meses e 29 dias', '12 meses', '5 anos', 'Qualquer idade'],
+    o: ['1ª dose até 3 meses e 15 dias; 2ª até 7 meses e 29 dias', 'Até 12 meses de idade, em qualquer das doses', 'Até 5 anos de idade, em qualquer das doses', 'Em qualquer idade, sem limite de prazo'],
     g: 'A',
     c: 'Os limites existem pelo risco de invaginação intestinal em idades maiores. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Fora do limite.', C: 'Fora do limite.', D: 'Há limite.' },
@@ -53,7 +53,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Calendário: hepatite A',
     e: 'A vacina contra hepatite A no calendário nacional é aplicada aos:',
-    o: ['15 meses, em dose única', 'Ao nascer', '2 meses', '10 anos'],
+    o: ['15 meses, em dose única', 'Ao nascer, junto com a BCG', '2 meses, junto com a pentavalente', '10 anos, na escola, junto com o HPV'],
     g: 'A',
     c: 'É inativada. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Não é aplicada.', C: 'Não é aplicada.', D: 'Não é a idade de rotina.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Calendário: HPV',
     e: 'A vacina HPV no calendário nacional é indicada para:',
-    o: ['Meninas e meninos de 9 a 14 anos, em dose única desde 2024', 'Somente meninas de 15 a 20 anos', 'Somente adultos', 'Recém-nascidos'],
+    o: ['Meninas e meninos de 9 a 14 anos, em dose única', 'Somente meninas de 15 a 20 anos, em 3 doses', 'Somente adultos, a partir dos 30 anos', 'Recém-nascidos, na maternidade, ao nascer'],
     g: 'A',
     c: 'Grupos especiais, como imunodeprimidos, têm esquema próprio. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Faixa incorreta.', C: 'Faixa incorreta.', D: 'Faixa incorreta.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Prematuros',
     e: 'Prematuro nascido com 30 semanas, hoje com 2 meses de idade cronológica, clinicamente estável. A vacinação deve seguir:',
-    o: ['A idade cronológica, aplicando as vacinas dos 2 meses', 'A idade corrigida', 'Somente após atingir 40 semanas corrigidas', 'Somente após a alta da UTI, com 6 meses'],
+    o: ['A idade cronológica, com as vacinas dos 2 meses', 'A idade corrigida, com as vacinas aos 4 meses', 'Somente após atingir 40 semanas corrigidas', 'Somente após a alta da UTI, com 6 meses'],
     g: 'A',
     c: 'Exceções existem, como a BCG, que exige peso mínimo de 2 kg. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Atrasa a proteção.', C: 'Atrasa a proteção.', D: 'Atrasa a proteção.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'BCG: evolução',
     e: 'Evolução esperada da cicatriz da BCG inclui:',
-    o: ['Mácula, pápula, pústula, úlcera e cicatriz ao longo de 6 a 12 semanas', 'Ausência de reação', 'Abscesso grande com flutuação em todos', 'Linfadenite supurada obrigatória'],
+    o: ['Mácula, pápula, pústula, úlcera e cicatriz em 6-12 semanas', 'Ausência de qualquer reação local, na maioria', 'Abscesso grande com flutuação, em todos os casos', 'Linfadenite supurada, obrigatoriamente, em todos'],
     g: 'A',
     c: 'Úlcera maior que 1 cm ou com mais de 12 semanas é evento adverso a notificar. Referência: Brasil. Ministério da Saúde. Manual de Vigilância Epidemiológica de Eventos Supostamente Atribuíveis à Vacinação ou Imunização. 4ª ed. Brasília: MS, 2021.',
     x: { B: 'Há reação esperada.', C: 'Evento adverso.', D: 'Evento adverso.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'BCG: eventos adversos',
     e: 'Lactente com linfonodo axilar homolateral à BCG, maior que 3 cm, com flutuação. A conduta é:',
-    o: ['Isoniazida e acompanhamento, conforme protocolo do MS, notificando o evento', 'Drenagem cirúrgica imediata', 'Antibiótico para estafilococo', 'Repetir a BCG'],
+    o: ['Isoniazida e acompanhamento, conforme o MS, com notificação', 'Drenagem cirúrgica imediata, sob anestesia geral', 'Antibiótico para estafilococo, por via oral', 'Repetir a BCG, no braço contralateral'],
     g: 'A',
     c: 'A drenagem cirúrgica não é recomendada pelo risco de fístula. Referência: Brasil. Ministério da Saúde. Manual de Vigilância Epidemiológica de Eventos Supostamente Atribuíveis à Vacinação ou Imunização. 4ª ed. Brasília: MS, 2021.',
     x: { B: 'Não recomendada.', C: 'Não é o agente.', D: 'Sem indicação.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Contraindicações',
     e: 'É contraindicação verdadeira à vacinação:',
-    o: ['Anafilaxia a dose anterior da mesma vacina ou a componente dela', 'Resfriado comum sem febre alta', 'Uso de antibiótico', 'Prematuridade'],
+    o: ['Anafilaxia à dose anterior da vacina ou a um componente', 'Resfriado comum, sem febre alta e sem comprometimento', 'Uso de antibiótico, em dose habitual, por via oral', 'Prematuridade, com peso adequado para a idade corrigida'],
     g: 'A',
     c: 'Falsas contraindicações causam atrasos desnecessários. Referência: Brasil. Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação. Brasília: MS, 2014.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Vacina-se pela idade cronológica.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Vacinas vivas',
     e: 'São vacinas de vírus ou bactérias vivos atenuados:',
-    o: ['BCG, tríplice viral, varicela, febre amarela e rotavírus', 'Hepatite B, pentavalente e VIP', 'Influenza inativada e HPV', 'Pneumocócica e meningocócica'],
+    o: ['BCG, tríplice viral, varicela, febre amarela e rotavírus', 'Hepatite B, pentavalente e VIP, que são inativadas', 'Influenza inativada e HPV, que são inativadas', 'Pneumocócica e meningocócica, que são conjugadas'],
     g: 'A',
     c: 'São contraindicadas em imunodeprimidos graves e gestantes. Referência: Brasil. Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação. Brasília: MS, 2014.',
     x: { B: 'São inativadas.', C: 'São inativadas.', D: 'São inativadas ou conjugadas.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Imunodeprimidos',
     e: 'Criança em quimioterapia para leucemia. Sobre vacinas, é correto afirmar:',
-    o: ['Vacinas vivas são contraindicadas durante a imunossupressão; inativadas podem ser aplicadas, com menor resposta', 'Todas as vacinas são permitidas normalmente', 'Nenhuma vacina pode ser aplicada em toda a vida', 'Somente vacinas vivas são permitidas'],
+    o: ['Vivas contraindicadas na imunossupressão; inativadas podem, com menor resposta', 'Todas as vacinas são permitidas, normalmente, na quimioterapia', 'Nenhuma vacina pode ser aplicada, durante toda a vida', 'Somente vacinas vivas são permitidas, durante a quimioterapia'],
     g: 'A',
     c: 'Os contactantes domiciliares devem ser vacinados, inclusive contra influenza e varicela. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Vivas são contraindicadas.', C: 'Podem ser vacinadas após o tratamento.', D: 'Ocorre o oposto.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Corticoide e vacinas',
     e: 'Criança em uso de prednisona 2 mg/kg/dia há 3 semanas. Vacinas vivas devem ser:',
-    o: ['Adiadas até pelo menos 1 mês após suspender o corticoide em dose imunossupressora', 'Aplicadas normalmente', 'Aplicadas em dobro', 'Substituídas por imunoglobulina sempre'],
+    o: ['Adiadas até 1 mês após suspender o corticoide imunossupressor', 'Aplicadas normalmente, sem restrição alguma', 'Aplicadas em dose dobrada, para compensar', 'Substituídas por imunoglobulina, em todos os casos'],
     g: 'A',
     c: 'Dose imunossupressora: 2 mg/kg/dia ou 20 mg/dia ou mais por 14 dias ou mais. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Risco de doença vacinal.', C: 'Sem sentido.', D: 'Não é a regra.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Eventos adversos: DTP',
     e: 'Lactente, 4 horas após a pentavalente, apresenta palidez, hipotonia e diminuição da resposta a estímulos, com recuperação espontânea. O evento é:',
-    o: ['Episódio hipotônico-hiporresponsivo', 'Anafilaxia', 'Encefalite', 'Convulsão febril'],
+    o: ['Episódio hipotônico-hiporresponsivo', 'Anafilaxia, com urticária e broncoespasmo', 'Encefalite, com convulsões e febre alta', 'Convulsão febril, com abalos tônico-clônicos'],
     g: 'A',
     c: 'Doses seguintes podem ser feitas com vacina acelular (DTPa) no CRIE. Referência: Brasil. Ministério da Saúde. Manual de Vigilância Epidemiológica de Eventos Supostamente Atribuíveis à Vacinação ou Imunização. 4ª ed. Brasília: MS, 2021.',
     x: { B: 'Haveria urticária e broncoespasmo.', C: 'Não é o padrão.', D: 'Sem convulsão.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Eventos adversos: rotavírus',
     e: 'Evento adverso raro, mas grave, associado à vacina oral contra rotavírus é:',
-    o: ['Invaginação intestinal', 'Paralisia flácida', 'Encefalite', 'Artrite'],
+    o: ['Invaginação intestinal', 'Paralisia flácida, associada à vacina', 'Encefalite, associada à vacina', 'Artrite aguda, associada à vacina'],
     g: 'A',
     c: 'Por isso existem limites de idade para as doses. Referência: Brasil. Ministério da Saúde. Manual de Vigilância Epidemiológica de Eventos Supostamente Atribuíveis à Vacinação ou Imunização. 4ª ed. Brasília: MS, 2021.',
     x: { B: 'Associada à VOP.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Calendário: influenza',
     e: 'A vacina contra influenza no calendário infantil é indicada para crianças de:',
-    o: ['6 meses a menores de 6 anos, anualmente', 'Recém-nascidos', '10 a 14 anos apenas', 'Somente maiores de 60 anos'],
+    o: ['6 meses a menos de 6 anos, todo ano', 'Recém-nascidos, na maternidade, ao nascer', '10 a 14 anos, apenas, na escola', 'Somente maiores de 60 anos, em campanhas'],
     g: 'A',
     c: 'Na primeira vez, menores de 9 anos recebem duas doses com intervalo de 30 dias. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Não é indicada.', C: 'Faixa incorreta.', D: 'Faixa incorreta.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Alergia a ovo',
     e: 'Criança com alergia a ovo pode receber a vacina tríplice viral?',
-    o: ['Sim, na rotina, pois o conteúdo de proteína do ovo é desprezível', 'Não, nunca', 'Somente com dessensibilização', 'Somente aos 18 anos'],
+    o: ['Sim, na rotina, pois a proteína do ovo é desprezível', 'Não, nunca, em nenhuma circunstância', 'Somente com dessensibilização prévia ao ovo', 'Somente aos 18 anos de idade, em centro especializado'],
     g: 'A',
     c: 'Para febre amarela, a alergia grave ao ovo exige avaliação no CRIE. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Pode receber.', C: 'Sem necessidade.', D: 'Sem sentido.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Profilaxia do tétano',
     e: 'Criança de 6 anos com esquema vacinal completo, última dose há 2 anos, com ferimento sujo e profundo. A conduta é:',
-    o: ['Limpeza do ferimento, sem necessidade de vacina ou imunoglobulina', 'Imunoglobulina antitetânica', 'Vacina dupla imediatamente', 'Soro antitetânico e vacina'],
+    o: ['Limpar o ferimento, sem vacina nem imunoglobulina', 'Imunoglobulina antitetânica, em dose única', 'Vacina dupla imediatamente, como reforço', 'Soro antitetânico e vacina, em locais distintos'],
     g: 'A',
     c: 'Em ferimento de alto risco, reforço é indicado se a última dose foi há mais de 5 anos. Referência: Brasil. Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação. Brasília: MS, 2014.',
     x: { B: 'Sem indicação.', C: 'Desnecessária.', D: 'Sem indicação.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Raiva',
     e: 'Criança mordida no rosto por cão desaparecido. A profilaxia indicada é:',
-    o: ['Lavagem do ferimento, vacina antirrábica e soro ou imunoglobulina antirrábica', 'Apenas observar o cão', 'Apenas antibiótico', 'Nenhuma'],
+    o: ['Lavar, vacina antirrábica e soro ou imunoglobulina', 'Apenas observar o cão, por 10 dias, sem profilaxia', 'Apenas antibiótico oral, por 7 dias, sem vacina', 'Nenhuma medida, por ser mordedura considerada leve'],
     g: 'A',
     c: 'Mordeduras em face, mãos e pés são graves. Com cão observável, pode-se observar 10 dias conforme o caso. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023 (capítulo Raiva).',
     x: { B: 'O cão não pode ser observado.', C: 'Insuficiente.', D: 'Risco de raiva.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Vacinas conjugadas',
     e: 'A vantagem das vacinas conjugadas (como Hib e pneumocócica) em lactentes é:',
-    o: ['Induzir resposta T-dependente com memória imunológica, eficaz em menores de 2 anos', 'Serem vacinas vivas', 'Dispensarem reforço', 'Proteger contra todos os sorotipos'],
+    o: ['Resposta T-dependente com memória; eficaz antes dos 2 anos', 'São vacinas vivas atenuadas, de dose única', 'Dispensam reforço, após o esquema básico', 'Protegem contra todos os sorotipos conhecidos'],
     g: 'A',
     c: 'Vacinas polissacarídicas puras são pouco imunogênicas em menores de 2 anos. Referência: Brasil. Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação. Brasília: MS, 2014.',
     x: { B: 'São inativadas.', C: 'Exigem reforço.', D: 'Cobrem sorotipos específicos.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Coqueluche: gestante',
     e: 'A estratégia para proteger lactentes muito jovens contra coqueluche é:',
-    o: ['Vacinar a gestante com dTpa a partir de 20 semanas em cada gestação', 'Vacinar o recém-nascido ao nascer com pentavalente', 'Antibiótico profilático no recém-nascido', 'Isolamento até 2 meses'],
+    o: ['Vacinar a gestante com dTpa, a partir de 20 semanas', 'Vacinar o RN ao nascer com a pentavalente', 'Dar antibiótico profilático ao recém-nascido', 'Isolar o lactente em casa até os 2 meses'],
     g: 'A',
     c: 'Anticorpos maternos atravessam a placenta. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Não é aplicada ao nascer.', C: 'Sem indicação.', D: 'Sem fundamento.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Atraso vacinal',
     e: 'Criança de 3 anos que nunca recebeu pentavalente. A conduta é:',
-    o: ['Iniciar o esquema com vacinas adequadas para a idade (como DTP e hepatite B), sem reiniciar doses já feitas de outras vacinas', 'Não vacinar mais', 'Aplicar todas as doses no mesmo dia em dobro', 'Aguardar campanha'],
+    o: ['Iniciar o esquema adequado à idade, sem reiniciar outras vacinas', 'Não vacinar mais, pois perdeu a oportunidade', 'Aplicar todas as doses no mesmo dia, em dobro', 'Aguardar a próxima campanha nacional de vacinação'],
     g: 'A',
     c: 'Não se reinicia esquema; completam-se as doses faltantes conforme a idade. Referência: Brasil. Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação. Brasília: MS, 2014.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Atrasa a proteção.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Doses interrompidas',
     e: 'Criança recebeu a primeira dose de VIP aos 2 meses e perdeu a dose dos 4 meses, voltando aos 8 meses. A conduta é:',
-    o: ['Aplicar a segunda dose e seguir o esquema, sem reiniciar', 'Reiniciar o esquema', 'Aplicar 3 doses no mesmo dia', 'Não vacinar'],
+    o: ['Aplicar a 2ª dose e seguir o esquema, sem reiniciar', 'Reiniciar o esquema do zero, com 3 doses', 'Aplicar três doses no mesmo dia, de uma vez', 'Não vacinar mais, pois perdeu o prazo'],
     g: 'A',
     c: 'Doses aplicadas são válidas, desde que respeitado intervalo mínimo. Referência: Brasil. Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação. Brasília: MS, 2014.',
     x: { B: 'Desnecessário.', C: 'Incorreto.', D: 'Inadequado.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: não respondedor',
     e: 'Profissional de saúde com anti-HBs negativo após esquema completo de hepatite B. A conduta é:',
-    o: ['Repetir um novo esquema de 3 doses e dosar anti-HBs depois', 'Considerar imune', 'Nunca mais vacinar', 'Aplicar imunoglobulina mensal'],
+    o: ['Repetir esquema de 3 doses e dosar anti-HBs depois', 'Considerar imune, pelo esquema completo anterior', 'Nunca mais vacinar, por não responder', 'Aplicar imunoglobulina mensal, por 6 meses'],
     g: 'A',
     c: 'Se continuar negativo, é não respondedor e deve receber imunoglobulina após exposições. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Não está protegido.', C: 'Pode responder ao segundo esquema.', D: 'Sem indicação.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Febre amarela: contraindicações',
     e: 'A vacina de febre amarela é contraindicada em:',
-    o: ['Lactentes menores de 6 meses, imunodeprimidos graves e pessoas com anafilaxia a ovo, salvo avaliação especializada', 'Adultos saudáveis', 'Crianças de 2 anos saudáveis', 'Pessoas com resfriado leve'],
+    o: ['Menores de 6 meses, imunodeprimidos graves e anafilaxia a ovo', 'Adultos saudáveis, sem comorbidades e sem viagem', 'Crianças de 2 anos saudáveis, sem comorbidades', 'Pessoas com resfriado leve, sem febre e sem sintomas'],
     g: 'A',
     c: 'Em mulheres amamentando bebês menores de 6 meses, recomenda-se suspender o aleitamento por 10 dias após a vacina, se a vacinação for imprescindível. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Indicada.', C: 'Indicada.', D: 'Não contraindica.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Febre amarela: evento adverso',
     e: 'Evento adverso grave e raro da vacina de febre amarela é:',
-    o: ['Doença viscerotrópica aguda e doença neurológica associadas à vacina', 'Invaginação', 'Síndrome de Reye', 'Anemia aplásica'],
+    o: ['Doença viscerotrópica aguda e doença neurológica pós-vacina', 'Invaginação intestinal, em lactentes vacinados', 'Síndrome de Reye, em crianças vacinadas', 'Anemia aplásica, em adolescentes vacinados'],
     g: 'A',
     c: 'Ocorrem mais em primovacinados idosos e imunodeprimidos. Referência: Brasil. Ministério da Saúde. Manual de Vigilância Epidemiológica de Eventos Supostamente Atribuíveis à Vacinação ou Imunização. 4ª ed. Brasília: MS, 2021.',
     x: { B: 'Associada a rotavírus.', C: 'Associada a AAS.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Meningocócica',
     e: 'A vacina meningocócica C conjugada no calendário infantil protege contra:',
-    o: ['Doença meningocócica pelo sorogrupo C', 'Todos os sorogrupos de meningococo', 'Pneumococo', 'Haemophilus'],
+    o: ['Doença meningocócica pelo sorogrupo C', 'Todos os sorogrupos de meningococo, A a Y', 'Doença pneumocócica invasiva, por vários sorotipos', 'Doença invasiva por Haemophilus influenzae tipo b'],
     g: 'A',
     c: 'Há vacinas ACWY e B, com indicações específicas. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Apenas sorogrupo C.', C: 'Outra bactéria.', D: 'Outra bactéria.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Pneumocócica',
     e: 'A vacina pneumocócica 10-valente do calendário nacional é aplicada aos:',
-    o: ['2 e 4 meses, com reforço aos 12 meses', 'Ao nascer', '9 meses', '15 anos'],
+    o: ['2 e 4 meses, com reforço aos 12 meses', 'Ao nascer, junto com a BCG, na maternidade', '9 meses de vida, junto com a febre amarela', '15 anos de idade, na escola, com o HPV'],
     g: 'A',
     c: 'Grupos especiais podem receber a 13 ou 15/20-valente e a 23-valente no CRIE. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Não é aplicada.', C: 'Não é a idade.', D: 'Não é a idade.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Calendário: reforço DTP',
     e: 'Os reforços com DTP (tríplice bacteriana) ocorrem aos:',
-    o: ['15 meses e 4 anos', '2 e 4 meses', '10 e 20 anos', 'Ao nascer'],
+    o: ['15 meses e 4 anos', '2 e 4 meses de vida', '10 e 20 anos de idade', 'Ao nascer, na maternidade'],
     g: 'A',
     c: 'Depois, dT a cada 10 anos. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'São doses da pentavalente.', C: 'Não é o esquema.', D: 'Não é aplicada.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Varicela: pós-exposição',
     e: 'Criança imunocompetente de 3 anos, não vacinada, exposta a varicela há 3 dias. A conduta é:',
-    o: ['Vacinar contra varicela, o que pode prevenir ou atenuar a doença se feito em até 5 dias', 'Imunoglobulina antivaricela', 'Aciclovir profilático em todos', 'Nenhuma'],
+    o: ['Vacinar contra varicela: previne ou atenua em até 5 dias', 'Imunoglobulina antivaricela, em dose única', 'Aciclovir profilático, em todos, por 7 dias', 'Nenhuma conduta específica, apenas observar'],
     g: 'A',
     c: 'A imunoglobulina é reservada a imunodeprimidos, gestantes e recém-nascidos de risco. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Para grupos especiais.', C: 'Não é rotina.', D: 'Há medida eficaz.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Sarampo: dose zero',
     e: 'Em situação de surto de sarampo, lactentes podem receber dose zero da tríplice viral a partir dos:',
-    o: ['6 meses, sem contar para o esquema de rotina', '2 meses', 'Ao nascer', '3 anos'],
+    o: ['6 meses, sem contar para o esquema de rotina', '2 meses, contando para o esquema de rotina', 'Ao nascer, contando para o esquema de rotina', '3 anos, contando para o esquema de rotina'],
     g: 'A',
     c: 'As doses dos 12 e 15 meses são mantidas. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Precoce.', C: 'Precoce.', D: 'Tardio.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Vacinação e amamentação',
     e: 'Sobre vacinação de lactantes, é correto afirmar:',
-    o: ['A maioria das vacinas é compatível com a amamentação, com cautela na febre amarela em bebês menores de 6 meses', 'Nenhuma vacina pode ser aplicada', 'A amamentação deve ser suspensa por 30 dias após qualquer vacina', 'A amamentação impede a resposta vacinal do bebê'],
+    o: ['Maioria compatível com amamentar; cautela na febre amarela < 6 meses', 'Nenhuma vacina pode ser aplicada na lactante', 'Suspender a amamentação por 30 dias após qualquer vacina', 'A amamentação impede a resposta vacinal do bebê'],
     g: 'A',
     c: 'A amamentação não interfere na vacinação da criança. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Afirmativa falsa.', C: 'Sem indicação.', D: 'Afirmativa falsa.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Eventos adversos: febre',
     e: 'Febre após a vacina pentavalente nas primeiras 48 horas é:',
-    o: ['Evento comum, tratado com antitérmico, sem contraindicar doses futuras', 'Contraindicação absoluta', 'Sinal de encefalite', 'Indicação de antibiótico'],
+    o: ['Evento comum, tratado com antitérmico; não contraindica doses', 'Contraindicação absoluta às doses seguintes da vacina', 'Sinal de encefalite, que exige internação imediata', 'Indicação de antibiótico, por via oral, por 7 dias'],
     g: 'A',
     c: 'Convulsão febril também não contraindica doses futuras, mas pode-se usar antitérmico profilático. Referência: Brasil. Ministério da Saúde. Manual de Vigilância Epidemiológica de Eventos Supostamente Atribuíveis à Vacinação ou Imunização. 4ª ed. Brasília: MS, 2021.',
     x: { B: 'Não contraindica.', C: 'Não é o caso.', D: 'Sem indicação.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Notificação de eventos',
     e: 'Os eventos adversos graves pós-vacinação devem ser:',
-    o: ['Notificados ao sistema de vigilância (e-SUS Notifica)', 'Ignorados', 'Comunicados só à família', 'Tratados sem registro'],
+    o: ['Notificados ao sistema de vigilância (e-SUS Notifica)', 'Ignorados, por serem eventos raros e sem relevância', 'Comunicados somente à família da criança vacinada', 'Tratados sem qualquer registro formal no serviço'],
     g: 'A',
     c: 'A vigilância garante a segurança das vacinas. Referência: Brasil. Ministério da Saúde. Manual de Vigilância Epidemiológica de Eventos Supostamente Atribuíveis à Vacinação ou Imunização. 4ª ed. Brasília: MS, 2021.',
     x: { B: 'Devem ser notificados.', C: 'Devem ser notificados.', D: 'Devem ser registrados.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Hepatite B',
     e: 'O esquema de hepatite B na criança é composto por:',
-    o: ['Dose ao nascer e três doses na pentavalente (2, 4 e 6 meses)', 'Dose única aos 10 anos', 'Duas doses aos 15 meses', 'Somente para grupos de risco'],
+    o: ['Dose ao nascer e 3 doses na pentavalente (2, 4 e 6 meses)', 'Dose única, aos 10 anos de idade, na escola', 'Duas doses, aos 15 meses e aos 4 anos de idade', 'Somente para grupos de risco, em campanhas anuais'],
     g: 'A',
     c: 'A vacina ao nascer previne a transmissão vertical. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Esquema incorreto.', C: 'Esquema incorreto.', D: 'É universal.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Doença de base',
     e: 'Criança com asplenia (anemia falciforme) deve receber, além do calendário:',
-    o: ['Vacinas especiais como pneumocócica 13-valente e 23-valente, meningocócica ACWY e Hib', 'Nenhuma vacina adicional', 'Apenas BCG de reforço', 'Apenas febre amarela'],
+    o: ['Pneumocócica 13 e 23-valente, meningocócica ACWY e Hib', 'Nenhuma vacina adicional, além do calendário', 'Apenas BCG de reforço, aos 5 anos', 'Apenas febre amarela, de reforço, aos 5 anos'],
     g: 'A',
     c: 'São aplicadas nos CRIE. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Há indicações adicionais.', C: 'Não indicada.', D: 'Insuficiente.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Imunoglobulina e vacinas',
     e: 'Criança que recebeu imunoglobulina humana intravenosa em dose alta deve aguardar para receber vacina tríplice viral porque:',
-    o: ['Os anticorpos passivos podem neutralizar a vacina viva, reduzindo a resposta', 'A combinação causa anafilaxia', 'A vacina inativa a imunoglobulina', 'Não há motivo'],
+    o: ['Anticorpos passivos neutralizam a vacina viva, reduzindo a resposta', 'A combinação causa anafilaxia, com risco de morte', 'A vacina inativa a imunoglobulina aplicada antes', 'Não há motivo para aguardar, entre as duas aplicações'],
     g: 'A',
     c: 'O intervalo depende da dose recebida, podendo ser de vários meses. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Não é o motivo.', C: 'Sem relação.', D: 'Há motivo.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'BCG: proteção',
     e: 'A BCG protege principalmente contra:',
-    o: ['Formas graves de tuberculose na infância (miliar e meníngea)', 'Tuberculose pulmonar em adultos com alta eficácia', 'Hanseníase exclusivamente', 'Todas as micobactérias'],
+    o: ['Formas graves de TB na infância (miliar e meníngea)', 'Tuberculose pulmonar em adultos, com alta eficácia', 'Hanseníase, exclusivamente, com proteção total', 'Todas as micobactérias, inclusive as atípicas'],
     g: 'A',
     c: 'Também oferece alguma proteção contra hanseníase. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Criança. Brasília: MS, 2024.',
     x: { B: 'Proteção limitada.', C: 'Não exclusivamente.', D: 'Não protege contra todas.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Recusa vacinal',
     e: 'Pais recusam vacinar o filho por medo de autismo. A abordagem adequada é:',
-    o: ['Escutar as preocupações e esclarecer, com base em evidências, que não há associação entre vacinas e autismo', 'Expulsar a família do serviço', 'Concordar com a recusa sem diálogo', 'Ameaçar com a polícia como primeira medida'],
+    o: ['Escutar e esclarecer, com evidências, que vacinas não causam autismo', 'Expulsar a família do serviço de saúde, por recusa', 'Concordar com a recusa, sem diálogo com a família', 'Ameaçar com a polícia, como primeira medida, na consulta'],
     g: 'A',
     c: 'A hesitação vacinal deve ser abordada com comunicação respeitosa. Referência: Taylor LE, Swerdfeger AL, Eslick GD. Vaccines are not associated with autism: an evidence-based meta-analysis. Vaccine. 2014;32(29):3623-9.',
     x: { B: 'Inadequado.', C: 'Perde a chance de vacinar.', D: 'Não é a primeira medida.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Hepatite A: indicação',
     e: 'A vacina contra hepatite A, além da rotina aos 15 meses, é indicada no CRIE para:',
-    o: ['Hepatopatas crônicos e imunodeprimidos, entre outros', 'Todos os adultos', 'Gestantes de rotina', 'Recém-nascidos'],
+    o: ['Hepatopatas crônicos e imunodeprimidos, entre outros', 'Todos os adultos, em campanhas anuais', 'Gestantes de rotina, no segundo trimestre', 'Recém-nascidos, na maternidade, ao nascer'],
     g: 'A',
     c: 'Também para portadores de hepatite B ou C. Referência: Brasil. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Não é rotina.', C: 'Não é rotina.', D: 'Não é indicada.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Vacinação: via',
     e: 'A vacina BCG é aplicada por via:',
-    o: ['Intradérmica, no braço direito', 'Intramuscular, na coxa', 'Oral', 'Subcutânea, no braço esquerdo'],
+    o: ['Intradérmica, no braço direito', 'Intramuscular, na região da coxa', 'Via oral, em gotas, com água', 'Subcutânea, no braço esquerdo'],
     g: 'A',
     c: 'A padronização do local facilita identificar a cicatriz. Referência: Brasil. Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação. Brasília: MS, 2014.',
     x: { B: 'Via incorreta.', C: 'Via incorreta.', D: 'Via e local incorretos.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_IMUN: QuestaoCompacta[] = [
   {
     s: 'Vacinação: múltiplas vacinas',
     e: 'Sobre aplicar várias vacinas no mesmo dia, é correto afirmar:',
-    o: ['É seguro e eficaz, e evita atrasos no esquema', 'Reduz a eficácia de todas', 'É proibido', 'Causa sempre febre alta'],
+    o: ['Seguro e eficaz, evitando atrasos no esquema', 'Reduz a eficácia de todas as vacinas aplicadas', 'É proibido, pelo risco de sobrecarga imunológica', 'Causa sempre febre alta, em todas as crianças'],
     g: 'A',
     c: 'Exceção: febre amarela e tríplice viral em menores de 2 anos. Referência: Brasil. Ministério da Saúde. Manual de Normas e Procedimentos para Vacinação. Brasília: MS, 2014.',
     x: { B: 'Não reduz.', C: 'É permitido.', D: 'Não é regra.' },

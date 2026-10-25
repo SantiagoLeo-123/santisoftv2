@@ -21,7 +21,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Tetralogia de Fallot',
     e: 'Os componentes da tetralogia de Fallot são:',
-    o: ['CIV, estenose pulmonar (obstrução da via de saída do VD), dextroposição da aorta e hipertrofia de VD', 'CIA, estenose aórtica, coarctação e hipertrofia de VE', 'Canal arterial, CIA, CIV e estenose mitral', 'Transposição, CIV, estenose pulmonar e CIA'],
+    o: ['CIV, estenose pulmonar, aorta dextroposta e hipertrofia de VD', 'CIA, estenose aórtica, coarctação e hipertrofia de VE', 'Canal arterial, CIA, CIV e estenose mitral grave', 'Transposição, CIV, estenose pulmonar e CIA associada'],
     g: 'A',
     c: 'A radiografia mostra coração em bota com trama pulmonar diminuída. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Não são os componentes.', C: 'Não são os componentes.', D: 'Não são os componentes.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Crise hipoxêmica',
     e: 'Criança com tetralogia de Fallot apresenta, após choro, cianose intensa, irritabilidade e redução do sopro. A conduta inicial é:',
-    o: ['Posição genupeitoral, oxigênio, sedação com morfina e, se necessário, volume e betabloqueador', 'Digoxina', 'Diurético', 'Adrenalina em bolus'],
+    o: ['Posição genupeitoral, O2, morfina e, se preciso, volume e betabloqueador', 'Digoxina por via intravenosa, em dose de ataque rápida', 'Diurético de alça por via intravenosa, em dose alta', 'Adrenalina em bolus, por via intravenosa, imediata'],
     g: 'A',
     c: 'A redução do sopro indica menor fluxo pela via de saída do VD. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Transposição das grandes artérias',
     e: 'Recém-nascido com cianose intensa nas primeiras horas, sem melhora com oxigênio, sopro discreto e radiografia com coração em ovo deitado. A medida inicial é:',
-    o: ['Prostaglandina E1 para manter o canal arterial e atriosseptostomia se necessário', 'Oxigênio a 100% isolado', 'Diurético', 'Digoxina'],
+    o: ['Prostaglandina E1 e atriosseptostomia, se necessário', 'Oxigênio a 100% como medida isolada', 'Diurético por via intravenosa, em dose alta', 'Digoxina por via intravenosa, em dose de ataque'],
     g: 'A',
     c: 'A cirurgia definitiva é a correção de Jatene. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Não corrige a mistura.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Teste da hiperóxia',
     e: 'No teste da hiperóxia, recém-nascido com PaO2 que não ultrapassa 100 mmHg com oxigênio a 100% sugere:',
-    o: ['Cardiopatia cianótica com shunt direita-esquerda', 'Doença pulmonar', 'Anemia', 'Hipotermia'],
+    o: ['Cardiopatia cianótica, com shunt direita-esquerda', 'Doença pulmonar parenquimatosa, como pneumonia', 'Anemia grave, com baixa oferta de oxigênio', 'Hipotermia, com consumo reduzido de oxigênio'],
     g: 'A',
     c: 'Na doença pulmonar, a PaO2 geralmente sobe com oxigênio. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'A PaO2 subiria.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Comunicação interatrial',
     e: 'O achado de ausculta característico da comunicação interatrial é:',
-    o: ['Desdobramento fixo da segunda bulha', 'Sopro contínuo em maquinaria', 'Sopro diastólico em ruflar', 'Estalido de abertura'],
+    o: ['Desdobramento fixo da segunda bulha', 'Sopro contínuo em maquinaria, infraclavicular', 'Sopro diastólico em ruflar, apical', 'Estalido de abertura, com sopro diastólico'],
     g: 'A',
     c: 'O sopro sistólico pulmonar decorre do hiperfluxo. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Canal arterial.', C: 'Estenose mitral.', D: 'Estenose mitral.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Persistência do canal arterial',
     e: 'O sopro característico da persistência do canal arterial em criança maior é:',
-    o: ['Contínuo, em maquinaria, na região infraclavicular esquerda', 'Diastólico apical', 'Sistólico ejetivo aórtico', 'Ausente sempre'],
+    o: ['Contínuo, em maquinaria, infraclavicular esquerdo', 'Diastólico apical, em ruflar, com estalido', 'Sistólico ejetivo aórtico, com irradiação carotídea', 'Ausente, sempre, em crianças maiores'],
     g: 'A',
     c: 'Pulsos amplos também são característicos. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Estenose mitral.', C: 'Estenose aórtica.', D: 'Não é a regra.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'CIV: evolução',
     e: 'Lactente com CIV grande apresenta, aos 2 meses, cansaço às mamadas, sudorese, taquipneia e baixo ganho de peso. O quadro é:',
-    o: ['Insuficiência cardíaca por hiperfluxo pulmonar, com a queda da resistência pulmonar', 'Crise hipoxêmica', 'Endocardite', 'Hipertensão arterial'],
+    o: ['Insuficiência cardíaca por hiperfluxo pulmonar', 'Crise hipoxêmica, com cianose e irritabilidade', 'Endocardite infecciosa, com febre prolongada', 'Hipertensão arterial, por coarctação associada'],
     g: 'A',
     c: 'O tratamento inclui diurético e, se refratário, correção cirúrgica. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Ocorre em cianóticas.', C: 'Sem febre.', D: 'Sem relação.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Eisenmenger',
     e: 'Paciente com CIV grande não corrigida desenvolve cianose na adolescência. O mecanismo é:',
-    o: ['Hipertensão pulmonar com inversão do shunt (Eisenmenger)', 'Endocardite', 'Melhora espontânea', 'Fechamento da CIV'],
+    o: ['Hipertensão pulmonar com shunt invertido (Eisenmenger)', 'Endocardite infecciosa, de repetição, com vegetação', 'Melhora espontânea, com fechamento do shunt', 'Fechamento espontâneo da CIV, com cianose residual'],
     g: 'A',
     c: 'A cirurgia precoce evita essa evolução. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Não explica.', C: 'Sem cianose.', D: 'Não causaria cianose.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Sopro inocente',
     e: 'Criança de 4 anos com sopro sistólico suave, musical, em borda esternal esquerda baixa, que varia com a posição, sem outros achados. A hipótese é:',
-    o: ['Sopro inocente (de Still)', 'CIV grande', 'Estenose aórtica', 'Canal arterial'],
+    o: ['Sopro inocente (de Still)', 'CIV grande, com sopro holossistólico intenso', 'Estenose aórtica valvar, com frêmito', 'Canal arterial, com sopro contínuo'],
     g: 'A',
     c: 'Sopros inocentes não são diastólicos nem acompanhados de frêmito. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Seria holossistólico e rude.', C: 'Seria ejetivo com frêmito.', D: 'Seria contínuo.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Sopro: sinais de patologia',
     e: 'Característica que sugere sopro patológico é:',
-    o: ['Sopro diastólico, intensidade 3 ou mais com frêmito, ou associado a sintomas', 'Sopro sistólico suave que muda com a posição', 'Sopro em criança febril que desaparece', 'Sopro venoso que some ao deitar'],
+    o: ['Sopro diastólico, ≥ 3/6 com frêmito, ou com sintomas', 'Sopro sistólico suave que muda com a posição da criança', 'Sopro de criança febril, que desaparece quando a febre cede', 'Sopro venoso, que desaparece quando a criança se deita'],
     g: 'A',
     c: 'Exige ecocardiograma. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Inocente.', C: 'Fisiológico.', D: 'Inocente.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: profilaxia',
     e: 'Após febre reumática com cardite e lesão valvar residual, a profilaxia secundária com penicilina benzatina deve durar:',
-    o: ['Até os 40 anos ou por toda a vida, conforme a gravidade', '1 mês', '1 ano', 'Não é necessária'],
+    o: ['Até os 40 anos ou por toda a vida, conforme a gravidade', 'Por 1 mês, após o episódio agudo de cardite', 'Por 1 ano, após o episódio agudo de cardite', 'Não é necessária, após o tratamento da cardite'],
     g: 'A',
     c: 'Sem cardite, até os 21 anos ou 5 anos após o surto. Referência: Sociedade Brasileira de Cardiologia. Diretrizes Brasileiras para o Diagnóstico, Tratamento e Prevenção da Febre Reumática. Arq Bras Cardiol. 2009;93(3 Suppl 4):1-18.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'É necessária.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Endocardite',
     e: 'Criança com cardiopatia congênita, febre prolongada, sopro novo, esplenomegalia e petéquias. A conduta é:',
-    o: ['Colher múltiplas hemoculturas antes do antibiótico e fazer ecocardiograma', 'Antibiótico oral e alta', 'Antitérmico isolado', 'Corticoide'],
+    o: ['Hemoculturas múltiplas antes do antibiótico e ecocardiograma', 'Antibiótico oral ambulatorial e alta hospitalar', 'Antitérmico isolado, com retorno em uma semana', 'Corticoide por via oral, em dose de prova'],
     g: 'A',
     c: 'Os critérios de Duke orientam o diagnóstico. Referência: Baltimore RS et al. Infective Endocarditis in Childhood: 2015 Update. Circulation. 2015;132(15):1487-515.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Miocardite',
     e: 'Criança com quadro viral recente evolui com taquicardia desproporcional à febre, desconforto respiratório, hepatomegalia e ritmo de galope. A hipótese é:',
-    o: ['Miocardite viral', 'Pneumonia simples', 'Asma', 'Bronquiolite'],
+    o: ['Miocardite viral', 'Pneumonia simples, adquirida na comunidade', 'Asma aguda, de início recente', 'Bronquiolite viral aguda, no lactente'],
     g: 'A',
     c: 'A troponina e o ecocardiograma ajudam no diagnóstico. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Não explica o galope.', C: 'Não explica.', D: 'Não explica.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Kawasaki: coronárias',
     e: 'Na doença de Kawasaki, o ecocardiograma deve ser feito:',
-    o: ['No diagnóstico e repetido em 1 a 2 semanas e 4 a 6 semanas', 'Somente após 1 ano', 'Só se houver dor torácica', 'Nunca'],
+    o: ['No diagnóstico e repetido em 1-2 e em 4-6 semanas', 'Somente após 1 ano, na consulta de rotina', 'Só se houver dor torácica, ou alterações do ECG', 'Nunca, pois não altera a conduta'],
     g: 'A',
     c: 'O seguimento depende das alterações coronarianas. Referência: McCrindle BW et al. Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Scientific Statement From the American Heart Association. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Tardio.', C: 'Insuficiente.', D: 'É obrigatório.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Síncope',
     e: 'Adolescente com desmaio em pé, precedido de calor, náusea e escurecimento da visão, com recuperação rápida. A hipótese é:',
-    o: ['Síncope vasovagal', 'Arritmia grave', 'Epilepsia', 'Hipoglicemia'],
+    o: ['Síncope vasovagal', 'Arritmia grave, com risco de morte súbita', 'Epilepsia, com crise tônico-clônica generalizada', 'Hipoglicemia, em adolescente em jejum'],
     g: 'A',
     c: 'Sinais de alarme: síncope ao esforço, história familiar de morte súbita e alterações no ECG. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Sem sinais de alarme.', C: 'Sem convulsão.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Morte súbita',
     e: 'Adolescente com síncope durante exercício e história familiar de morte súbita jovem. A investigação inclui:',
-    o: ['ECG e ecocardiograma, pesquisando miocardiopatia hipertrófica e canalopatias como QT longo', 'Apenas observação', 'Eletroencefalograma isolado', 'Hemograma isolado'],
+    o: ['ECG e ecocardiograma: miocardiopatia hipertrófica e QT longo', 'Apenas observação clínica, sem solicitar exames complementares', 'Eletroencefalograma isolado, sem outros exames complementares', 'Hemograma isolado, sem outros exames complementares'],
     g: 'A',
     c: 'A miocardiopatia hipertrófica é causa importante de morte súbita em atletas. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Hipertensão arterial',
     e: 'Na criança, a hipertensão arterial é definida por PA igual ou acima do percentil:',
-    o: ['95 para idade, sexo e estatura, em três ocasiões', '50', '75', '25'],
+    o: ['95 para idade, sexo e estatura, em 3 ocasiões', '50 para idade, sexo e estatura, em 3 ocasiões', '75 para idade, sexo e estatura, em 3 ocasiões', '25 para idade, sexo e estatura, em 3 ocasiões'],
     g: 'A',
     c: 'Em adolescentes a partir de 13 anos, usa-se 130 x 80 mmHg. Referência: Flynn JT et al. Clinical Practice Guideline for Screening and Management of High Blood Pressure in Children and Adolescents. Pediatrics. 2017;140(3):e20171904.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Normal.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Hipertensão secundária',
     e: 'Em crianças pequenas com hipertensão, a causa mais comum é:',
-    o: ['Doença renal (parenquimatosa ou renovascular)', 'Hipertensão essencial', 'Uso de café', 'Estresse'],
+    o: ['Doença renal (parenquimatosa ou renovascular)', 'Hipertensão essencial, como nos adultos', 'Consumo de café, em crianças pequenas', 'Estresse emocional, com ansiedade'],
     g: 'A',
     c: 'Em adolescentes obesos, a hipertensão primária é mais comum. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Mais comum em adolescentes.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Síndromes genéticas',
     e: 'A cardiopatia mais associada à síndrome de Down é:',
-    o: ['Defeito do septo atrioventricular', 'Coarctação de aorta', 'Estenose pulmonar valvar', 'Transposição'],
+    o: ['Defeito do septo atrioventricular', 'Coarctação de aorta, com hipertensão de MMSS', 'Estenose pulmonar valvar, isolada', 'Transposição das grandes artérias'],
     g: 'A',
     c: 'Todas as crianças com Down devem fazer ecocardiograma. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Associada a Turner.', C: 'Associada a Noonan.', D: 'Sem associação.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Insuficiência cardíaca no lactente',
     e: 'Sinal precoce de insuficiência cardíaca em lactente é:',
-    o: ['Cansaço e sudorese durante as mamadas, com baixo ganho de peso', 'Edema de membros inferiores', 'Turgência jugular evidente', 'Ascite volumosa'],
+    o: ['Cansaço e sudorese nas mamadas, com pouco ganho de peso', 'Edema de membros inferiores, bilateral e simétrico', 'Turgência jugular evidente, ao exame do pescoço', 'Ascite volumosa, com circulação colateral abdominal'],
     g: 'A',
     c: 'Em lactentes, edema periférico e turgência jugular são pouco frequentes; a hepatomegalia é comum. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Menos comum.', C: 'Difícil de ver.', D: 'Tardio.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Síndrome de hipoplasia do coração esquerdo',
     e: 'Recém-nascido de 3 dias evolui com choque, pulsos fracos em todos os membros e acidose ao fechar o canal arterial. A hipótese é:',
-    o: ['Síndrome de hipoplasia do coração esquerdo', 'Sepse apenas', 'Transposição simples', 'CIA'],
+    o: ['Síndrome de hipoplasia do coração esquerdo', 'Sepse neonatal isolada, sem cardiopatia', 'Transposição simples das grandes artérias', 'CIA isolada, com shunt esquerda-direita'],
     g: 'A',
     c: 'É cardiopatia dependente do canal; prostaglandina é a medida inicial. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Deve ser considerada, mas o quadro sugere cardiopatia.', C: 'Cianose sem choque precoce.', D: 'Sem choque.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Drenagem anômala',
     e: 'Recém-nascido com cianose e desconforto, radiografia com padrão de congestão venosa e coração pequeno. A hipótese é:',
-    o: ['Drenagem anômala total das veias pulmonares obstrutiva', 'Tetralogia de Fallot', 'CIV pequena', 'Canal arterial'],
+    o: ['Drenagem anômala total das veias pulmonares obstrutiva', 'Tetralogia de Fallot, com hipofluxo pulmonar', 'CIV pequena, sem repercussão hemodinâmica', 'Canal arterial pérvio, com hiperfluxo pulmonar'],
     g: 'A',
     c: 'É emergência cirúrgica. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Trama diminuída e coração em bota.', C: 'Acianótica.', D: 'Acianótica.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Anomalia de Ebstein',
     e: 'Cardiopatia associada ao uso materno de lítio na gestação é:',
-    o: ['Anomalia de Ebstein', 'Coarctação', 'CIV', 'Canal arterial'],
+    o: ['Anomalia de Ebstein', 'Coarctação de aorta, com hipertensão de MMSS', 'CIV perimembranosa, de pequena dimensão', 'Canal arterial, com sopro contínuo'],
     g: 'A',
     c: 'A valva tricúspide é deslocada para o ventrículo direito. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Sem associação.', C: 'Sem associação clássica.', D: 'Associada a rubéola.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Rubéola congênita: cardiopatia',
     e: 'A cardiopatia classicamente associada à rubéola congênita é:',
-    o: ['Persistência do canal arterial e estenose de ramos pulmonares', 'Transposição', 'Tetralogia', 'Hipoplasia de VE'],
+    o: ['Canal arterial e estenose de ramos pulmonares', 'Transposição das grandes artérias, com cianose', 'Tetralogia de Fallot, com cianose progressiva', 'Hipoplasia do ventrículo esquerdo, com choque'],
     g: 'A',
     c: 'Junto com catarata e surdez. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Sem associação.', C: 'Sem associação.', D: 'Sem associação.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Diabetes materno',
     e: 'Filho de mãe diabética tem risco aumentado de:',
-    o: ['Cardiomiopatia hipertrófica transitória e cardiopatias congênitas', 'Kawasaki', 'Febre reumática', 'Miocardite'],
+    o: ['Cardiomiopatia hipertrófica transitória e cardiopatias congênitas', 'Doença de Kawasaki, com febre prolongada e conjuntivite', 'Febre reumática, com cardite e coreia associadas', 'Miocardite viral, com insuficiência cardíaca aguda'],
     g: 'A',
     c: 'A hipertrofia septal costuma regredir. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Síndrome de DiGeorge',
     e: 'Recém-nascido com hipocalcemia, infecções e interrupção do arco aórtico. A hipótese é:',
-    o: ['Síndrome de deleção 22q11.2 (DiGeorge)', 'Turner', 'Down', 'Williams'],
+    o: ['Deleção 22q11.2 (DiGeorge)', 'Síndrome de Turner, com cariótipo 45,X', 'Síndrome de Down, com trissomia do 21', 'Síndrome de Williams, com estenose supravalvar'],
     g: 'A',
     c: 'Associa-se também a truncus arteriosus e tetralogia. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Coarctação.', C: 'Defeito septal.', D: 'Estenose supravalvar.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'PCR pediátrica: ritmo',
     e: 'Criança em PCR com assistolia. A medicação indicada é:',
-    o: ['Adrenalina 0,01 mg/kg a cada 3 a 5 minutos', 'Amiodarona', 'Choque', 'Atropina'],
+    o: ['Adrenalina 0,01 mg/kg a cada 3 a 5 minutos', 'Amiodarona 5 mg/kg, em bolus rápido', 'Choque elétrico de 2 J/kg, não sincronizado', 'Atropina 0,02 mg/kg, em dose única'],
     g: 'A',
     c: 'Assistolia e AESP não são chocáveis. Referência: American Heart Association. 2020 AHA Guidelines for CPR and ECC: Pediatric Basic and Advanced Life Support. Circulation. 2020;142(16 Suppl 2):S469-523.',
     x: { B: 'Ritmos chocáveis.', C: 'Não é chocável.', D: 'Sem indicação.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'PCR pediátrica: choque',
     e: 'Criança em PCR com fibrilação ventricular. A carga do primeiro choque é:',
-    o: ['2 J/kg, seguida de 4 J/kg', '10 J/kg', '0,5 J/kg', '200 J fixos'],
+    o: ['2 J/kg, depois 4 J/kg', '10 J/kg, em dose única, fixa', '0,5 J/kg, em dose única, fixa', '200 J fixos, em qualquer idade'],
     g: 'A',
     c: 'Doses subsequentes de 4 J/kg ou mais, até 10 J/kg. Referência: American Heart Association. 2020 AHA Guidelines for CPR and ECC: Pediatric Basic and Advanced Life Support. Circulation. 2020;142(16 Suppl 2):S469-523.',
     x: { B: 'Excessiva.', C: 'Insuficiente.', D: 'Fixa para adultos.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'PCR pediátrica: causa',
     e: 'A principal causa de parada cardiorrespiratória em crianças é:',
-    o: ['Insuficiência respiratória ou choque, evoluindo para hipóxia', 'Arritmia primária', 'Infarto', 'Embolia pulmonar'],
+    o: ['Insuficiência respiratória ou choque, evoluindo à hipóxia', 'Arritmia primária, com fibrilação ventricular súbita', 'Infarto agudo do miocárdio, por aterosclerose', 'Embolia pulmonar maciça, por trombose venosa'],
     g: 'A',
     c: 'Por isso a ventilação é tão importante. Referência: American Heart Association. 2020 AHA Guidelines for CPR and ECC: Pediatric Basic and Advanced Life Support. Circulation. 2020;142(16 Suppl 2):S469-523.',
     x: { B: 'Menos comum que em adultos.', C: 'Raro.', D: 'Raro.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Choque séptico',
     e: 'Criança com sepse, hipotensão e enchimento capilar lento. A primeira medida é:',
-    o: ['Expansão com cristaloide 10 a 20 mL/kg, reavaliando após cada alíquota, e antibiótico precoce', 'Diurético', 'Restrição hídrica', 'Corticoide antes do volume'],
+    o: ['Cristaloide 10-20 mL/kg, reavaliando e dando antibiótico cedo', 'Diurético de alça por via intravenosa, em dose alta', 'Restrição hídrica, para evitar edema pulmonar associado', 'Corticoide antes do volume, em dose de estresse'],
     g: 'A',
     c: 'Vasoativos (adrenalina ou noradrenalina) se refratário. Referência: Weiss SL et al. Surviving Sepsis Campaign International Guidelines for the Management of Septic Shock and Sepsis-Associated Organ Dysfunction in Children. Pediatr Crit Care Med. 2020;21(2):e52-106.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Não é primeira.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Pericardite',
     e: 'Criança com dor torácica que melhora ao sentar inclinada para a frente, atrito pericárdico e supradesnivelamento difuso do ST. O diagnóstico é:',
-    o: ['Pericardite aguda', 'Infarto', 'Costocondrite', 'Pneumonia'],
+    o: ['Pericardite aguda', 'Infarto agudo do miocárdio, em criança', 'Costocondrite, com dor à palpação', 'Pneumonia lobar, com derrame pleural'],
     g: 'A',
     c: 'Tamponamento é complicação grave: hipotensão, turgência jugular e pulso paradoxal. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Supra localizado.', C: 'Sem atrito.', D: 'Sem esse padrão.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Hipertensão pulmonar',
     e: 'Recém-nascido de mãe que usou anti-inflamatório no fim da gestação apresenta hipoxemia por fechamento precoce do canal arterial. O mecanismo é:',
-    o: ['Inibição das prostaglandinas pelo AINE', 'Excesso de prostaglandinas', 'Hipoglicemia', 'Anemia'],
+    o: ['Inibição das prostaglandinas pelo AINE', 'Excesso de prostaglandinas, com canal aberto', 'Hipoglicemia neonatal, por hiperinsulinismo', 'Anemia neonatal, por perda sanguínea'],
     g: 'A',
     c: 'AINEs são evitados no terceiro trimestre. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'QT longo',
     e: 'Criança com síncope desencadeada por susto e QTc de 520 ms. A hipótese é:',
-    o: ['Síndrome do QT longo congênito', 'Síncope vasovagal', 'Epilepsia', 'Hipoglicemia'],
+    o: ['Síndrome do QT longo congênito', 'Síncope vasovagal, com pródromos típicos', 'Epilepsia, com crise tônico-clônica', 'Hipoglicemia, com sudorese e tremores'],
     g: 'A',
     c: 'Tratamento com betabloqueador e evitar drogas que prolongam o QT. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'QT normal.', C: 'QT alterado sugere arritmia.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Cardiopatias: oximetria',
     e: 'O teste do coraçãozinho rastreia principalmente:',
-    o: ['Cardiopatias congênitas críticas dependentes do canal arterial', 'Sopro inocente', 'Hipertensão arterial', 'Arritmias benignas'],
+    o: ['Cardiopatias congênitas críticas, canal-dependentes', 'Sopro inocente, na primeira semana de vida', 'Hipertensão arterial, no período neonatal', 'Arritmias benignas, no período neonatal'],
     g: 'A',
     c: 'Um teste normal não exclui todas as cardiopatias. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Não é o objetivo.', C: 'Não é o objetivo.', D: 'Não é o objetivo.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Endocardite: profilaxia',
     e: 'Profilaxia antibiótica para endocardite antes de procedimento dentário é indicada em:',
-    o: ['Prótese valvar, endocardite prévia e cardiopatias cianóticas não corrigidas, entre outras de alto risco', 'Toda criança com sopro', 'Toda CIA corrigida há anos', 'Sopro inocente'],
+    o: ['Prótese valvar, endocardite prévia e cianóticas não corrigidas', 'Toda criança com sopro, independentemente do tipo', 'Toda CIA corrigida há anos, sem shunt residual', 'Sopro inocente, em procedimentos dentários'],
     g: 'A',
     c: 'A higiene oral é a principal prevenção. Referência: Wilson WR et al. Prevention of Viridans Group Streptococcal Infective Endocarditis: A Scientific Statement From the AHA. Circulation. 2021;143(20):e963-78.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Cardiopatias: ECG',
     e: 'Na tetralogia de Fallot, o ECG tipicamente mostra:',
-    o: ['Desvio do eixo para a direita e hipertrofia de ventrículo direito', 'Hipertrofia de ventrículo esquerdo', 'Eixo para a esquerda', 'Pré-excitação'],
+    o: ['Desvio do eixo para a direita e hipertrofia de VD', 'Hipertrofia de ventrículo esquerdo, com eixo normal', 'Eixo desviado para a esquerda, com sobrecarga de VE', 'Pré-excitação ventricular, com onda delta'],
     g: 'A',
     c: 'Diferente da atresia tricúspide. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Não é típico.', C: 'Atresia tricúspide.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Cardiopatias: radiografia',
     e: 'Radiografia com coração em forma de bota e trama vascular pulmonar diminuída sugere:',
-    o: ['Tetralogia de Fallot', 'Transposição', 'CIV grande', 'Drenagem anômala'],
+    o: ['Tetralogia de Fallot', 'Transposição das grandes artérias', 'CIV grande, com hiperfluxo pulmonar', 'Drenagem anômala total das veias pulmonares'],
     g: 'A',
     c: 'A trama diminuída reflete o fluxo pulmonar reduzido. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Ovo deitado.', C: 'Hiperfluxo.', D: 'Congestão.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Miocardiopatia dilatada',
     e: 'Uma causa reversível de miocardiopatia dilatada em crianças é:',
-    o: ['Taquicardia persistente (taquicardiomiopatia)', 'Síndrome de Down', 'Mutação genética sempre', 'Hipertensão leve'],
+    o: ['Taquicardia persistente (taquicardiomiopatia)', 'Síndrome de Down, com cardiopatia congênita', 'Mutação genética, em todos os casos', 'Hipertensão arterial leve, de longa data'],
     g: 'A',
     c: 'O controle da arritmia restaura a função. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Sem relação direta.', C: 'Nem sempre.', D: 'Não é a regra.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_CARDIO: QuestaoCompacta[] = [
   {
     s: 'Cardiopatias: atividade física',
     e: 'Criança com CIA pequena sem repercussão. Sobre atividade física, a orientação é:',
-    o: ['Pode praticar atividades normalmente', 'Proibir esportes', 'Repouso absoluto', 'Apenas natação'],
+    o: ['Pode praticar atividades normalmente', 'Proibir esportes, por risco de morte súbita', 'Repouso absoluto, enquanto não for corrigida', 'Apenas natação, em piscina aquecida'],
     g: 'A',
     c: 'A maioria das cardiopatias leves não restringe atividade. Referência: Park MK. Park Cardiologia Pediátrica. 6ª ed. Rio de Janeiro: Elsevier, 2015.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem fundamento.' },

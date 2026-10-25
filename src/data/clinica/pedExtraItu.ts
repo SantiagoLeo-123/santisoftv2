@@ -13,7 +13,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: coleta de urina',
     e: 'Lactente de 8 meses com febre sem foco. Para o diagnóstico de ITU, a urina deve ser colhida, preferencialmente, por:',
-    o: ['Cateterismo vesical ou punção suprapúbica', 'Saco coletor para urocultura', 'Fralda', 'Qualquer método, sem diferença'],
+    o: ['Cateterismo vesical ou punção suprapúbica', 'Saco coletor, para a urocultura', 'Coleta da urina direto da fralda', 'Qualquer método, sem diferença entre eles'],
     g: 'A',
     c: 'O saco coletor tem alta taxa de contaminação; seu resultado só é útil quando negativo. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Alta contaminação.', C: 'Inadequado.', D: 'Há diferença.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: urocultura',
     e: 'Pela AAP, em lactente febril com urina colhida por cateterismo, o diagnóstico de ITU exige:',
-    o: ['Urina tipo 1 sugestiva (piúria ou bacteriúria) e pelo menos 50.000 UFC/mL de um uropatógeno', 'Somente nitrito positivo', 'Qualquer crescimento em saco coletor', '100 UFC/mL em jato médio'],
+    o: ['Urina tipo 1 sugestiva e ≥ 50.000 UFC/mL de um uropatógeno', 'Somente nitrito positivo, em urina de jato', 'Qualquer crescimento em urina de saco coletor', '100 UFC/mL em urina colhida por jato médio'],
     g: 'A',
     c: 'Na punção suprapúbica, qualquer crescimento é significativo. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Insuficiente.', C: 'Alta contaminação.', D: 'Limite baixo e método inadequado.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: nitrito',
     e: 'Em lactentes, o teste do nitrito na urina tem sensibilidade baixa porque:',
-    o: ['Urinam com frequência, e a urina fica pouco tempo na bexiga para a conversão de nitrato em nitrito', 'O nitrito não é produzido por E. coli', 'A urina dos lactentes é ácida', 'O teste só funciona em adultos'],
+    o: ['Urinam muito e a urina fica pouco tempo na bexiga', 'O nitrito não é produzido por E. coli, em lactentes', 'A urina dos lactentes é ácida, o que impede a reação', 'O teste só funciona em adultos, e não em lactentes'],
     g: 'A',
     c: 'A leucocitúria e a cultura são fundamentais. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'E. coli produz nitrito.', C: 'Não é o motivo.', D: 'Não é o motivo.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: fatores de risco',
     e: 'É fator de risco para ITU em lactentes:',
-    o: ['Sexo masculino não circuncidado no primeiro ano de vida', 'Sexo feminino sem nenhuma relação com risco', 'Aleitamento materno exclusivo', 'Vacinação em dia'],
+    o: ['Sexo masculino não circuncidado, no primeiro ano', 'Sexo feminino, sem nenhuma relação com o risco', 'Aleitamento materno exclusivo, nos primeiros meses', 'Vacinação em dia, para a idade da criança'],
     g: 'A',
     c: 'Após o primeiro ano, as meninas têm risco muito maior. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Meninas têm risco maior após 1 ano.', C: 'É protetor.', D: 'Sem relação.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: tratamento',
     e: 'Lactente de 10 meses com ITU febril, em bom estado geral, aceitando via oral. O tratamento recomendado é:',
-    o: ['Antibiótico oral, como cefalosporina, por 7 a 10 dias, ajustado ao antibiograma', 'Internação obrigatória com antibiótico intravenoso', 'Nitrofurantoína', 'Observação sem antibiótico'],
+    o: ['Antibiótico oral (cefalosporina) por 7-10 dias, pelo antibiograma', 'Internação obrigatória com antibiótico intravenoso, por 14 dias', 'Nitrofurantoína oral, por 7 a 10 dias, conforme antibiograma', 'Observação clínica, sem antibiótico, por 7 dias, em casa'],
     g: 'A',
     c: 'A via oral é tão eficaz quanto a intravenosa em crianças que aceitam e estão estáveis. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Não é obrigatória.', C: 'Não atinge níveis renais adequados.', D: 'Risco de lesão renal.' },
@@ -53,7 +53,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: menores de 2 meses',
     e: 'Recém-nascido de 20 dias com febre e urocultura positiva. A conduta é:',
-    o: ['Internação, antibiótico intravenoso e avaliação para sepse', 'Antibiótico oral ambulatorial', 'Observação', 'Nitrofurantoína'],
+    o: ['Internação, antibiótico intravenoso e avaliação para sepse', 'Antibiótico oral, em regime ambulatorial', 'Observação clínica, com retorno em 48 horas', 'Nitrofurantoína oral, em regime ambulatorial'],
     g: 'A',
     c: 'Neonatos têm maior risco de bacteremia e meningite associadas. Referência: National Institute for Health and Care Excellence. Urinary tract infection in under 16s: diagnosis and management (NG224). London: NICE, 2022.',
     x: { B: 'Inadequado nessa idade.', C: 'Inadequado.', D: 'Inadequada.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: nitrofurantoína',
     e: 'A nitrofurantoína não é indicada na ITU febril (pielonefrite) porque:',
-    o: ['Não atinge concentração adequada no parênquima renal e no sangue', 'É muito tóxica para crianças', 'Não age contra E. coli', 'É apenas intravenosa'],
+    o: ['Não atinge concentração adequada no rim e no sangue', 'É muito tóxica para crianças, em qualquer dose', 'Não tem ação contra E. coli, o principal agente', 'Só existe em apresentação intravenosa, no Brasil'],
     g: 'A',
     c: 'É útil para cistite em crianças maiores. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Não é o motivo.', C: 'Age contra E. coli.', D: 'É oral.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: investigação por imagem',
     e: 'Após a primeira ITU febril em criança de 2 a 24 meses, o exame de imagem recomendado inicialmente é:',
-    o: ['Ultrassonografia de rins e vias urinárias', 'Uretrocistografia miccional para todos', 'Tomografia', 'Cintilografia DMSA obrigatória'],
+    o: ['Ultrassonografia de rins e vias urinárias', 'Uretrocistografia miccional, para todas as crianças', 'Tomografia computadorizada de abdome e pelve', 'Cintilografia com DMSA, obrigatória em todos'],
     g: 'A',
     c: 'A uretrocistografia é reservada a ultrassom alterado, ITU recorrente ou situações atípicas. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Não é rotina na primeira ITU.', C: 'Sem indicação.', D: 'Não é rotina.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: uretrocistografia',
     e: 'A uretrocistografia miccional após ITU febril está indicada quando:',
-    o: ['O ultrassom mostra hidronefrose, cicatriz ou sinais de refluxo de alto grau, ou há ITU febril recorrente', 'Toda ITU, mesmo cistite em adolescente', 'Nunca', 'Somente em meninas acima de 10 anos'],
+    o: ['USG com hidronefrose, cicatriz ou refluxo alto, ou ITU febril recorrente', 'Toda ITU, mesmo cistite em adolescente, já na primeira vez', 'Nunca, pois o exame não altera a conduta clínica', 'Somente em meninas acima de 10 anos, na primeira ITU'],
     g: 'A',
     c: 'É o exame que diagnostica e gradua o refluxo vesicoureteral. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Excessivo.', C: 'Tem indicações.', D: 'Critério incorreto.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Refluxo vesicoureteral',
     e: 'Sobre o refluxo vesicoureteral, é correto afirmar:',
-    o: ['É graduado de I a V, e os graus menores tendem a resolver espontaneamente com o crescimento', 'Sempre exige cirurgia', 'Nunca causa lesão renal', 'É diagnosticado pela urina tipo 1'],
+    o: ['É graduado de I a V; graus menores tendem a resolver', 'Sempre exige cirurgia, em qualquer grau', 'Nunca causa lesão renal, em nenhum grau', 'É diagnosticado pela urina tipo 1, de rotina'],
     g: 'A',
     c: 'Graus altos associam-se a cicatrizes renais e hipertensão. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Muitos resolvem sozinhos.', C: 'Pode causar.', D: 'Diagnóstico por uretrocistografia.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Refluxo vesicoureteral: profilaxia',
     e: 'Criança com refluxo vesicoureteral grau III e ITU febril recorrente. A profilaxia antibiótica:',
-    o: ['Reduz recorrência de ITU, sendo considerada em refluxo de graus mais altos ou com disfunção vesical e intestinal', 'É contraindicada', 'Previne todas as cicatrizes renais com certeza', 'Deve ser feita com antibiótico intravenoso diário'],
+    o: ['Reduz recorrência; considerada em refluxo alto ou disfunção vesical', 'É contraindicada, em qualquer grau de refluxo vesicoureteral', 'Previne todas as cicatrizes renais, com certeza absoluta', 'Deve ser feita com antibiótico intravenoso diário, no hospital'],
     g: 'A',
     c: 'O estudo RIVUR mostrou redução de recorrências com profilaxia. Referência: RIVUR Trial Investigators. Antimicrobial prophylaxis for children with vesicoureteral reflux. N Engl J Med. 2014;370(25):2367-76.',
     x: { B: 'Não é contraindicada.', C: 'Não garante.', D: 'Oral em dose baixa.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Disfunção vesical e intestinal',
     e: 'Menina de 6 anos com ITU de repetição, urgência miccional, perdas diurnas e constipação crônica. Uma medida importante é:',
-    o: ['Tratar a constipação e orientar micções regulares', 'Cirurgia de refluxo imediata', 'Antibiótico contínuo sem outras medidas', 'Restringir a ingestão de líquidos'],
+    o: ['Tratar a constipação e orientar micções regulares', 'Cirurgia de refluxo imediata, sem outras medidas', 'Antibiótico contínuo, sem outras medidas associadas', 'Restringir a ingestão de líquidos, para reduzir a diurese'],
     g: 'A',
     c: 'A disfunção vesical e intestinal favorece ITU e refluxo. Referência: National Institute for Health and Care Excellence. Urinary tract infection in under 16s: diagnosis and management (NG224). London: NICE, 2022.',
     x: { B: 'Não é a primeira medida.', C: 'Insuficiente.', D: 'Contraproducente.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Bacteriúria assintomática',
     e: 'Criança assintomática com urocultura positiva colhida por rotina. A conduta é:',
-    o: ['Não tratar, pois a bacteriúria assintomática não traz benefício com antibiótico em crianças', 'Tratar por 14 dias', 'Fazer profilaxia contínua', 'Indicar cirurgia'],
+    o: ['Não tratar: a bacteriúria assintomática não traz benefício', 'Tratar por 14 dias, com antibiótico oral, em casa', 'Fazer profilaxia contínua por 6 meses, em dose baixa', 'Indicar cirurgia, para correção de refluxo, de forma eletiva'],
     g: 'A',
     c: 'O tratamento pode selecionar germes mais virulentos. Referência: National Institute for Health and Care Excellence. Urinary tract infection in under 16s: diagnosis and management (NG224). London: NICE, 2022.',
     x: { B: 'Sem benefício.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Válvula de uretra posterior',
     e: 'Recém-nascido menino com jato urinário fraco, bexiga palpável e hidronefrose bilateral ao ultrassom. A hipótese principal é:',
-    o: ['Válvula de uretra posterior', 'Refluxo grau I', 'Cistite simples', 'Fimose fisiológica'],
+    o: ['Válvula de uretra posterior', 'Refluxo vesicoureteral grau I, isolado', 'Cistite simples, sem obstrução associada', 'Fimose fisiológica, sem repercussão urinária'],
     g: 'A',
     c: 'O diagnóstico é feito por uretrocistografia miccional, e o tratamento é a ablação endoscópica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não causa obstrução.', C: 'Não explica.', D: 'Não causa hidronefrose bilateral.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: clínica no lactente',
     e: 'Em lactentes, a infecção urinária costuma se manifestar como:',
-    o: ['Febre sem foco, irritabilidade, vômitos e baixo ganho de peso', 'Disúria referida claramente', 'Dor lombar localizada sempre', 'Hematúria macroscópica em todos'],
+    o: ['Febre sem foco, irritabilidade, vômitos e baixo ganho de peso', 'Disúria referida de forma clara, pelo lactente', 'Dor lombar localizada, sempre presente, no lactente', 'Hematúria macroscópica, em todos os lactentes'],
     g: 'A',
     c: 'Sintomas urinários específicos aparecem em crianças maiores. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Lactentes não referem.', C: 'Não é típico.', D: 'Não é a regra.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: febre sem foco',
     e: 'Lactente de 6 meses com febre de 39,5 °C há 2 dias, sem foco aparente ao exame. Um exame que deve ser considerado é:',
-    o: ['Urina tipo 1 e urocultura colhidas de forma adequada', 'Radiografia de crânio', 'Eletroencefalograma', 'Ecocardiograma'],
+    o: ['Urina tipo 1 e urocultura, com coleta adequada', 'Radiografia de crânio, em duas incidências', 'Eletroencefalograma, com privação de sono', 'Ecocardiograma, com Doppler colorido'],
     g: 'A',
     c: 'A ITU é a infecção bacteriana grave mais comum em lactentes febris sem foco. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Cintilografia DMSA',
     e: 'A cintilografia renal com DMSA é o melhor exame para avaliar:',
-    o: ['Cicatrizes renais e pielonefrite aguda', 'Refluxo vesicoureteral', 'Cálculos ureterais', 'Bexiga neurogênica'],
+    o: ['Cicatrizes renais e pielonefrite aguda', 'Refluxo vesicoureteral, durante a micção', 'Cálculos ureterais, com obstrução associada', 'Bexiga neurogênica, com alteração urodinâmica'],
     g: 'A',
     c: 'Para cicatriz, deve ser feita cerca de 4 a 6 meses após a infecção. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Usa-se a uretrocistografia.', C: 'Usa-se ultrassom ou tomografia.', D: 'Usa-se urodinâmica.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: cistite em adolescente',
     e: 'Adolescente de 15 anos com disúria e polaciúria, sem febre e sem dor lombar. Uma opção de tratamento é:',
-    o: ['Nitrofurantoína ou cefalexina por 5 dias', 'Ceftriaxona intravenosa por 14 dias', 'Nenhum tratamento', 'Antifúngico'],
+    o: ['Nitrofurantoína ou cefalexina por 5 dias', 'Ceftriaxona intravenosa por 14 dias, internada', 'Nenhum tratamento, apenas hidratação oral', 'Antifúngico oral, por 7 dias, em dose habitual'],
     g: 'A',
     c: 'Cistite sem febre tem tratamento mais curto. Referência: National Institute for Health and Care Excellence. Urinary tract infection in under 16s: diagnosis and management (NG224). London: NICE, 2022.',
     x: { B: 'Excessivo.', C: 'Exige tratamento.', D: 'Sem indicação.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: Proteus',
     e: 'ITU por Proteus mirabilis associa-se a:',
-    o: ['Urina alcalina e cálculos de estruvita', 'Urina muito ácida e cálculos de ácido úrico', 'Hemólise', 'Hipoglicemia'],
+    o: ['Urina alcalina e cálculos de estruvita', 'Urina muito ácida e cálculos de ácido úrico', 'Hemólise, com anemia e icterícia associadas', 'Hipoglicemia, com sudorese e confusão mental'],
     g: 'A',
     c: 'A urease do Proteus alcaliniza a urina. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: complicação',
     e: 'A principal complicação a longo prazo de pielonefrites de repetição na infância é:',
-    o: ['Cicatriz renal, com risco de hipertensão e doença renal crônica', 'Diabetes', 'Asma', 'Surdez'],
+    o: ['Cicatriz renal; risco de hipertensão e DRC', 'Diabetes mellitus tipo 1, na adolescência', 'Asma brônquica, com sibilância recorrente', 'Surdez neurossensorial, bilateral e progressiva'],
     g: 'A',
     c: 'O tratamento precoce reduz o risco. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Fimose',
     e: 'Menino de 2 anos sem conseguir retrair o prepúcio, sem ITU nem balanites. A conduta é:',
-    o: ['Tranquilizar, pois a fimose fisiológica é normal nessa idade', 'Postectomia imediata', 'Retração forçada do prepúcio', 'Antibiótico'],
+    o: ['Tranquilizar: fimose fisiológica é normal nessa idade', 'Postectomia imediata, sob anestesia geral', 'Retração forçada do prepúcio, com lubrificação', 'Antibiótico oral, por 7 dias, em dose habitual'],
     g: 'A',
     c: 'Corticoide tópico pode ser usado em casos persistentes; cirurgia em indicações específicas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem indicação.', C: 'Causa lesões e cicatrizes.', D: 'Sem infecção.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: urina tipo 1',
     e: 'Achado na urina tipo 1 que mais sugere ITU é:',
-    o: ['Leucocitúria associada a nitrito positivo', 'Densidade urinária baixa', 'pH ácido isolado', 'Presença de cristais de oxalato'],
+    o: ['Leucocitúria associada a nitrito positivo', 'Densidade urinária baixa, isoladamente', 'pH ácido, de forma isolada, na amostra', 'Cristais de oxalato, presentes na amostra'],
     g: 'A',
     c: 'A confirmação é sempre pela urocultura. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Sem relação.', C: 'Não é específico.', D: 'Sem relação.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: duração',
     e: 'Para ITU febril em crianças, a AAP recomenda duração total de antibiótico de:',
-    o: ['7 a 14 dias', '1 dia', '30 dias', '6 meses'],
+    o: ['7 a 14 dias', '1 dia, em dose única, por via oral', '30 dias, em dose alta, por via oral', '6 meses, em dose baixa, por via oral'],
     g: 'A',
     c: 'Esquemas mais curtos (cerca de 7 a 10 dias) têm sido aceitos em casos sem complicação. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Excessivo.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: hidronefrose antenatal',
     e: 'Recém-nascido com hidronefrose detectada no pré-natal. O primeiro ultrassom pós-natal deve ser feito preferencialmente:',
-    o: ['Após as primeiras 48 a 72 horas de vida, salvo casos graves', 'Na primeira hora de vida', 'Somente aos 2 anos', 'Nunca'],
+    o: ['Após as primeiras 48 a 72 horas de vida', 'Na primeira hora de vida, ainda na sala de parto', 'Somente aos 2 anos de idade, na escola', 'Nunca, pois o achado pré-natal se resolve sozinho'],
     g: 'A',
     c: 'A oligúria fisiológica dos primeiros dias pode subestimar a dilatação. Referência: Nguyen HT et al. Multidisciplinary consensus on the classification of prenatal and postnatal urinary tract dilation (UTD classification system). J Pediatr Urol. 2014;10(6):982-98.',
     x: { B: 'Subestima a dilatação.', C: 'Tardio.', D: 'Exige seguimento.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: definição de pielonefrite',
     e: 'Na criança, sugere pielonefrite e não apenas cistite:',
-    o: ['Febre igual ou acima de 38 °C, dor lombar e comprometimento do estado geral', 'Disúria isolada sem febre', 'Urina turva sem sintomas', 'Prurido vulvar'],
+    o: ['Febre ≥ 38 °C, dor lombar e comprometimento do estado geral', 'Disúria isolada, sem febre, em criança alerta', 'Urina turva, sem sintomas, em criança alerta', 'Prurido vulvar, sem febre, em criança alerta'],
     g: 'A',
     c: 'A pielonefrite exige tratamento mais prolongado e vigilância de complicações. Referência: National Institute for Health and Care Excellence. Urinary tract infection in under 16s: diagnosis and management (NG224). London: NICE, 2022.',
     x: { B: 'Sugere cistite.', C: 'Bacteriúria assintomática ou contaminação.', D: 'Sugere vulvovaginite.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: hemocultura',
     e: 'Em lactente de 3 meses com ITU febril e bom estado geral, a hemocultura:',
-    o: ['Pode ser considerada, sobretudo em lactentes pequenos ou com toxemia', 'É obrigatória em todos os adolescentes com cistite', 'Substitui a urocultura', 'Nunca tem utilidade'],
+    o: ['Pode ser considerada, sobretudo em lactentes pequenos ou toxêmicos', 'É obrigatória em todos os adolescentes com cistite aguda', 'Substitui a urocultura, em todos os casos de ITU febril', 'Nunca tem utilidade, em lactentes com ITU febril'],
     g: 'A',
     c: 'Bacteremia é mais frequente em lactentes jovens. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem indicação na cistite.', C: 'Não substitui.', D: 'Pode ter utilidade.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: resposta ao tratamento',
     e: 'Criança com ITU febril tratada adequadamente mantém febre após 48 a 72 horas de antibiótico. A conduta é:',
-    o: ['Reavaliar antibiograma e solicitar ultrassom para pesquisar abscesso ou obstrução', 'Manter igual por mais 30 dias', 'Suspender o antibiótico', 'Dar alta'],
+    o: ['Reavaliar antibiograma e pedir USG: abscesso ou obstrução', 'Manter o mesmo antibiótico por mais 30 dias, sem exames', 'Suspender o antibiótico, por falta de resposta clínica', 'Dar alta hospitalar, com retorno se a febre persistir'],
     g: 'A',
     c: 'Falha de resposta sugere germe resistente, abscesso renal ou uropatia obstrutiva. Referência: National Institute for Health and Care Excellence. Urinary tract infection in under 16s: diagnosis and management (NG224). London: NICE, 2022.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: meninas e vulvovaginite',
     e: 'Menina de 5 anos com disúria, sem febre, com hiperemia vulvar e urocultura negativa. A hipótese principal é:',
-    o: ['Vulvovaginite inespecífica por higiene inadequada', 'Pielonefrite', 'Abuso sexual em todos os casos', 'Válvula de uretra posterior'],
+    o: ['Vulvovaginite inespecífica, por higiene inadequada', 'Pielonefrite aguda, com febre e dor lombar', 'Abuso sexual, em todos os casos, sem exceção', 'Válvula de uretra posterior, em meninas'],
     g: 'A',
     c: 'Orientações de higiene e evitar irritantes resolvem a maioria; abuso deve ser considerado conforme a história. Referência: Sociedade Brasileira de Pediatria. Tratado de Pediatria. 5ª ed. Barueri: Manole, 2022.',
     x: { B: 'Sem febre e urocultura negativa.', C: 'Não é regra, mas deve ser considerado conforme a história.', D: 'Ocorre em meninos.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: enurese',
     e: 'Criança de 7 anos que volta a perder urina à noite após 1 ano seco, com disúria. A primeira investigação é:',
-    o: ['Urina tipo 1 e urocultura, pela possibilidade de ITU', 'Ressonância de coluna', 'Eletroencefalograma', 'Nenhuma'],
+    o: ['Urina tipo 1 e urocultura, pela possibilidade de ITU', 'Ressonância de coluna lombossacra, com contraste', 'Eletroencefalograma, com privação de sono', 'Nenhum exame, apenas orientação à família'],
     g: 'A',
     c: 'Enurese secundária pode ser causada por ITU, diabetes, constipação ou estresse. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é inicial.', C: 'Sem relação.', D: 'Exige investigação.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: bexiga neurogênica',
     e: 'Criança com mielomeningocele e ITU de repetição. Uma medida que reduz infecções e protege os rins é:',
-    o: ['Cateterismo vesical intermitente limpo', 'Sonda de demora permanente', 'Restrição hídrica', 'Antibiótico intravenoso contínuo'],
+    o: ['Cateterismo vesical intermitente limpo', 'Sonda de demora permanente, trocada a cada mês', 'Restrição hídrica, para reduzir a diurese', 'Antibiótico intravenoso contínuo, em dose baixa'],
     g: 'A',
     c: 'O esvaziamento regular da bexiga reduz pressão e estase. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Aumenta infecção.', C: 'Contraproducente.', D: 'Excessivo.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: circuncisão',
     e: 'Sobre a circuncisão e ITU, é correto afirmar:',
-    o: ['Reduz o risco de ITU em lactentes, mas não é recomendada de rotina apenas para prevenção', 'Aumenta o risco de ITU', 'Não tem relação', 'É obrigatória após a primeira ITU'],
+    o: ['Reduz o risco de ITU em lactentes, mas não é rotina', 'Aumenta o risco de ITU, em lactentes meninos', 'Não tem relação com a ocorrência de ITU', 'É obrigatória após a primeira ITU, em meninos'],
     g: 'A',
     c: 'Pode ser considerada em meninos com ITU recorrente e uropatia. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Reduz.', C: 'Há relação.', D: 'Não é obrigatória.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: urina de saco coletor',
     e: 'Lactente com urocultura de saco coletor com crescimento de 3 germes diferentes. A interpretação é:',
-    o: ['Provável contaminação, sendo necessário repetir a coleta por cateterismo', 'ITU confirmada por múltiplos germes', 'ITU fúngica', 'Bacteriúria assintomática que exige tratamento'],
+    o: ['Provável contaminação; repetir a coleta por cateterismo', 'ITU confirmada, por múltiplos germes isolados', 'ITU fúngica, por múltiplos germes isolados', 'Bacteriúria assintomática, que exige tratamento'],
     g: 'A',
     c: 'Crescimento de múltiplos germes sugere contaminação. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Improvável.', C: 'Sem relação.', D: 'Não exige tratamento.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: urina tipo 1 normal',
     e: 'Lactente febril com urina tipo 1 completamente normal colhida por cateterismo. A probabilidade de ITU:',
-    o: ['É baixa, mas a urocultura deve ser colhida conforme protocolo', 'É alta', 'É de 100%', 'Não pode ser avaliada'],
+    o: ['Baixa, mas colher a urocultura conforme o protocolo', 'Alta, pela febre sem foco associada', 'De 100%, pela febre sem foco associada', 'Não pode ser avaliada, sem exame de imagem'],
     g: 'A',
     c: 'A combinação de exame sumário e cultura orienta o diagnóstico. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'A urina normal reduz a probabilidade.', C: 'Irreal.', D: 'Pode.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: sinal de gravidade',
     e: 'Criança com ITU febril, vômitos persistentes, desidratação e aspecto toxêmico. A conduta é:',
-    o: ['Internação e antibiótico intravenoso', 'Antibiótico oral ambulatorial', 'Observação domiciliar', 'Somente hidratação oral'],
+    o: ['Internação e antibiótico intravenoso', 'Antibiótico oral, em regime ambulatorial', 'Observação domiciliar, com retorno em 48 horas', 'Somente hidratação oral, em regime ambulatorial'],
     g: 'A',
     c: 'Após melhora, pode-se trocar para via oral. Referência: National Institute for Health and Care Excellence. Urinary tract infection in under 16s: diagnosis and management (NG224). London: NICE, 2022.',
     x: { B: 'Inadequado com vômitos e toxemia.', C: 'Inadequado.', D: 'Insuficiente.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Hipospádia',
     e: 'Recém-nascido com meato uretral na face ventral do pênis e prepúcio em capuz dorsal. A orientação é:',
-    o: ['Não realizar circuncisão, pois o prepúcio pode ser usado na correção cirúrgica', 'Circuncisão imediata', 'Ignorar', 'Iniciar antibiótico'],
+    o: ['Não circuncidar: o prepúcio é usado na correção cirúrgica', 'Circuncisão imediata, ainda na maternidade', 'Ignorar o achado, pois é variante normal', 'Iniciar antibiótico profilático, por 6 meses'],
     g: 'A',
     c: 'A correção é feita geralmente entre 6 e 18 meses. Hipospádia com criptorquidia exige investigação de distúrbio do desenvolvimento sexual. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Contraindicada.', C: 'Exige acompanhamento.', D: 'Sem indicação.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Criptorquidia',
     e: 'Lactente de 6 meses com testículo não palpável em bolsa à direita. A conduta é:',
-    o: ['Encaminhar ao cirurgião para orquidopexia idealmente entre 6 e 18 meses', 'Aguardar até a puberdade', 'Ultrassom como exame obrigatório antes do encaminhamento', 'Tratamento hormonal como primeira escolha'],
+    o: ['Encaminhar ao cirurgião para orquidopexia entre 6 e 18 meses', 'Aguardar até a puberdade, para reavaliar', 'Ultrassom como exame obrigatório antes de encaminhar', 'Tratamento hormonal, como primeira escolha'],
     g: 'A',
     c: 'A cirurgia precoce reduz risco de infertilidade e facilita detecção de neoplasia. Referência: Kolon TF et al. Evaluation and treatment of cryptorchidism: AUA guideline. J Urol. 2014;192(2):337-45.',
     x: { B: 'Aumenta riscos.', C: 'Não é necessário.', D: 'Pouco eficaz.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'Escroto agudo',
     e: 'Adolescente com dor testicular súbita e intensa, testículo elevado e horizontalizado, reflexo cremastérico ausente. A conduta é:',
-    o: ['Exploração cirúrgica de urgência por suspeita de torção testicular', 'Antibiótico para epididimite', 'Analgesia e alta', 'Aguardar 48 horas'],
+    o: ['Exploração cirúrgica de urgência, por suspeita de torção', 'Antibiótico para epididimite, e alta hospitalar', 'Analgesia e alta, com retorno se piorar', 'Aguardar 48 horas, com compressa de gelo'],
     g: 'A',
     c: 'A viabilidade testicular depende do tempo, idealmente cirurgia em até 6 horas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O quadro sugere torção.', C: 'Risco de perda testicular.', D: 'Risco de perda testicular.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: sinal na urina',
     e: 'A presença de cilindros leucocitários na urina sugere:',
-    o: ['Acometimento do parênquima renal, como pielonefrite', 'Cistite simples', 'Contaminação', 'Desidratação'],
+    o: ['Acometimento do parênquima renal, como pielonefrite', 'Cistite simples, sem acometimento do parênquima', 'Contaminação da amostra, por coleta inadequada', 'Desidratação, com urina concentrada e escura'],
     g: 'A',
     c: 'Cilindros se formam nos túbulos renais. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem envolvimento renal.', C: 'Não forma cilindros.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: idade escolar',
     e: 'Menina de 8 anos com segunda cistite em 6 meses, sem febre e com hábito de segurar a urina. A orientação inicial é:',
-    o: ['Micções regulares, ingesta hídrica adequada e tratamento da constipação', 'Profilaxia antibiótica por 5 anos', 'Cirurgia', 'Restrição de líquidos'],
+    o: ['Micções regulares, boa ingesta hídrica e tratar constipação', 'Profilaxia antibiótica por 5 anos, em dose baixa', 'Cirurgia de correção de refluxo, de forma eletiva', 'Restrição de líquidos, para reduzir a diurese'],
     g: 'A',
     c: 'A disfunção miccional é causa comum de recorrência. Referência: National Institute for Health and Care Excellence. Urinary tract infection in under 16s: diagnosis and management (NG224). London: NICE, 2022.',
     x: { B: 'Não é a primeira medida.', C: 'Sem indicação.', D: 'Contraproducente.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: antibiótico empírico',
     e: 'A escolha do antibiótico empírico para ITU em criança deve considerar principalmente:',
-    o: ['O perfil local de resistência dos uropatógenos', 'A cor da urina', 'A preferência dos pais', 'O peso apenas'],
+    o: ['O perfil local de resistência dos uropatógenos', 'A cor da urina, no momento da coleta', 'A preferência dos pais, na hora da prescrição', 'O peso da criança, de forma isolada'],
     g: 'A',
     c: 'Ajusta-se depois pelo antibiograma. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Sem relação.', C: 'Não é critério.', D: 'Insuficiente.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: refluxo e cicatriz',
     e: 'Criança com refluxo grau V bilateral e cicatrizes renais deve ser acompanhada com:',
-    o: ['Pressão arterial e função renal periódicas', 'Somente urina tipo 1 anual', 'Nenhum seguimento', 'Eletrocardiograma mensal'],
+    o: ['Pressão arterial e função renal periódicas', 'Somente urina tipo 1, anual, sem outros exames', 'Nenhum seguimento, após a alta do serviço', 'Eletrocardiograma mensal, durante toda a infância'],
     g: 'A',
     c: 'Há risco de hipertensão e doença renal crônica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Insuficiente.', C: 'Exige seguimento.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: menino com primeira ITU',
     e: 'Menino de 3 anos com primeira ITU febril e ultrassom normal. A conduta sobre imagem é:',
-    o: ['Não é necessária uretrocistografia de rotina se o ultrassom é normal e não há recorrência', 'Uretrocistografia obrigatória', 'Tomografia', 'Ressonância de crânio'],
+    o: ['Sem uretrocistografia de rotina se USG normal e sem recorrência', 'Uretrocistografia obrigatória, em todas as crianças, sempre', 'Tomografia computadorizada de abdome e pelve, com contraste', 'Ressonância de crânio, sem contraste, de rotina'],
     g: 'A',
     c: 'A indicação se amplia com recorrência ou alterações. Referência: Roberts KB et al. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months. Pediatrics. 2011;128(3):595-610.',
     x: { B: 'Não obrigatória.', C: 'Sem indicação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: fungos',
     e: 'ITU por Candida em criança é mais comum em:',
-    o: ['Prematuros em UTI neonatal, com cateteres e antibióticos de amplo espectro', 'Escolares saudáveis', 'Adolescentes sem fatores de risco', 'Lactentes em aleitamento exclusivo'],
+    o: ['Prematuros em UTI neonatal, com cateteres e antibióticos amplos', 'Escolares saudáveis, sem fatores de risco', 'Adolescentes sem fatores de risco, sem cateter', 'Lactentes em aleitamento exclusivo, sem internação'],
     g: 'A',
     c: 'Pode haver bolas fúngicas no trato urinário. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Raro.', C: 'Raro.', D: 'Raro.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_ITU: QuestaoCompacta[] = [
   {
     s: 'ITU: recém-nascido',
     e: 'Recém-nascido com ITU deve ter avaliação adicional porque:',
-    o: ['Há maior associação com malformações urinárias e infecção sistêmica', 'Nunca há malformação', 'A ITU neonatal é sempre viral', 'Não exige tratamento'],
+    o: ['Associa-se mais a malformações urinárias e infecção sistêmica', 'Nunca há malformação associada, em nenhum caso', 'A ITU neonatal é sempre viral, e autolimitada', 'Não exige tratamento, apenas observação clínica'],
     g: 'A',
     c: 'Ultrassom e, conforme o caso, uretrocistografia são indicados. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Há associação.', C: 'É bacteriana.', D: 'Exige.' },

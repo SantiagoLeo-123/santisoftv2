@@ -5,7 +5,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'Recém-nascido de 39 semanas nasce chorando, com bom tônus. A conduta é:',
-    o: ['Clampeamento do cordão após 1 a 3 minutos e contato pele a pele com a mãe, mantendo-o aquecido', 'Levar à mesa de reanimação e aspirar vias aéreas', 'Iniciar ventilação com pressão positiva', 'Intubar para aspirar mecônio'],
+    o: ['Clampear em 1-3 minutos e manter pele a pele, aquecido', 'Levar à mesa de reanimação e aspirar vias aéreas', 'Iniciar ventilação com pressão positiva, por máscara', 'Intubar o recém-nascido, para aspirar mecônio'],
     g: 'A',
     c: 'As três perguntas iniciais são: idade gestacional de 34 semanas ou mais, respirando ou chorando e tônus em flexão. Se sim para todas, fica com a mãe. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Desnecessário.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -13,7 +13,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'Recém-nascido a termo nasce hipotônico e em apneia. Após os passos iniciais (aquecer, posicionar e aspirar se necessário), mantém apneia. A próxima conduta é:',
-    o: ['Iniciar ventilação com pressão positiva com máscara, idealmente dentro do primeiro minuto de vida', 'Massagem cardíaca imediata', 'Adrenalina', 'Aguardar 5 minutos'],
+    o: ['Ventilação com pressão positiva por máscara, no 1º minuto', 'Massagem cardíaca imediata, sem ventilar antes', 'Adrenalina por via intravenosa, em dose única', 'Aguardar 5 minutos, com observação do esforço'],
     g: 'A',
     c: 'O minuto de ouro: a ventilação deve começar nos primeiros 60 segundos. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Só se FC menor que 60 após ventilação efetiva.', C: 'Não é a próxima etapa.', D: 'Atraso perigoso.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'A ventilação com pressão positiva no recém-nascido de 34 semanas ou mais é iniciada com:',
-    o: ['Ar ambiente (FiO2 de 21%)', 'Oxigênio a 100%', 'FiO2 de 60%', 'Hélio'],
+    o: ['Ar ambiente (FiO2 de 21%)', 'Oxigênio a 100%, por máscara facial', 'FiO2 de 60%, por máscara facial', 'Hélio, em mistura com oxigênio a 21%'],
     g: 'A',
     c: 'No prematuro abaixo de 34 semanas, inicia-se com FiO2 de 30%. A FiO2 é ajustada pela oximetria pré-ductal. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Excesso de oxigênio é lesivo.', C: 'Não é o padrão.', D: 'Sem relação.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'A frequência da ventilação com pressão positiva na reanimação neonatal é de:',
-    o: ['40 a 60 ventilações por minuto', '10 por minuto', '100 por minuto', '120 por minuto'],
+    o: ['40 a 60 ventilações por minuto', '10 ventilações por minuto, em ritmo lento', '100 ventilações por minuto, em ritmo rápido', '120 ventilações por minuto, em ritmo rápido'],
     g: 'A',
     c: 'Usa-se a regra "aperta, solta, solta". Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Muito baixa.', C: 'Muito alta.', D: 'Muito alta.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'O principal indicador de ventilação eficaz durante a reanimação neonatal é:',
-    o: ['Aumento da frequência cardíaca', 'Cor rosada imediata', 'Choro forte imediato', 'Movimentos dos membros'],
+    o: ['Aumento da frequência cardíaca', 'Cor rosada imediata, em toda a pele', 'Choro forte imediato, ainda na ventilação', 'Movimentos dos membros, após ventilar'],
     g: 'A',
     c: 'Monitor cardíaco com três eletrodos é o método mais preciso para avaliar a FC. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Pouco confiável.', C: 'Nem sempre ocorre logo.', D: 'Menos confiável.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'A massagem cardíaca está indicada quando a frequência cardíaca permanece:',
-    o: ['Abaixo de 60 bpm após 30 segundos de ventilação efetiva por cânula traqueal ou máscara laríngea', 'Abaixo de 100 bpm no primeiro minuto, antes de ventilar', 'Acima de 100 bpm', 'Abaixo de 120 bpm'],
+    o: ['FC < 60 bpm após 30 s de ventilação efetiva por cânula ou máscara', 'FC < 100 bpm no 1º minuto, ainda antes de iniciar a ventilação', 'FC > 100 bpm, mantida após a ventilação com máscara', 'FC < 120 bpm, mantida após os passos iniciais'],
     g: 'A',
     c: 'A relação é de 3 compressões para 1 ventilação, com oxigênio a 100%. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Primeiro se ventila.', C: 'Normal.', D: 'Sem indicação.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'A medicação indicada quando a FC permanece abaixo de 60 bpm apesar de ventilação adequada e massagem cardíaca coordenada é:',
-    o: ['Adrenalina, preferencialmente por via intravenosa pelo cateter umbilical', 'Bicarbonato de sódio', 'Naloxona', 'Atropina'],
+    o: ['Adrenalina, de preferência IV pelo cateter umbilical', 'Bicarbonato de sódio, por via intravenosa, em bolus', 'Naloxona, por via intramuscular, em dose única', 'Atropina, por via intravenosa, em bolus, em dose única'],
     g: 'A',
     c: 'A via endotraqueal pode ser usada uma vez enquanto se obtém o acesso, com dose maior. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Não recomendado de rotina.', C: 'Sem indicação na reanimação.', D: 'Sem indicação.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'O expansor de volume na reanimação neonatal está indicado em:',
-    o: ['Suspeita de hipovolemia (perda sanguínea, palidez, pulsos fracos) sem resposta às outras medidas, com soro fisiológico 10 mL/kg', 'Todo recém-nascido que recebeu ventilação', 'Recém-nascido com FC acima de 100', 'Mecônio espesso'],
+    o: ['Suspeita de hipovolemia sem resposta, com SF 10 mL/kg', 'Todo recém-nascido que recebeu ventilação', 'Recém-nascido com FC acima de 100 bpm', 'Líquido amniótico com mecônio espesso'],
     g: 'A',
     c: 'É administrado em 5 a 10 minutos. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'Recém-nascido não vigoroso com líquido amniótico meconial. A conduta atual é:',
-    o: ['Realizar os passos iniciais e, se necessário, ventilação com máscara, sem aspiração traqueal de rotina', 'Intubar e aspirar a traqueia de rotina antes de ventilar', 'Aspirar o estômago imediatamente', 'Aguardar 3 minutos'],
+    o: ['Passos iniciais e, se preciso, ventilação, sem aspirar a traqueia', 'Intubar e aspirar a traqueia de rotina antes de ventilar', 'Aspirar o estômago imediatamente, antes de tudo', 'Aguardar 3 minutos, antes de qualquer conduta'],
     g: 'A',
     c: 'A aspiração traqueal fica reservada a obstrução das vias aéreas. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Abandonada como rotina.', C: 'Sem indicação.', D: 'Atraso perigoso.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'A saturação de oxigênio pré-ductal deve ser medida:',
-    o: ['No membro superior direito (pulso ou palma direita)', 'No pé esquerdo', 'No lóbulo da orelha esquerda', 'No abdome'],
+    o: ['No membro superior direito (pulso ou palma)', 'No pé esquerdo, em região plantar', 'No lóbulo da orelha esquerda, com sensor', 'No abdome, ao nível do umbigo'],
     g: 'A',
     c: 'Os alvos aumentam progressivamente: cerca de 60 a 65% no primeiro minuto e 85 a 95% aos 10 minutos. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'É pós-ductal.', C: 'Não é o local.', D: 'Não é o local.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação neonatal',
     e: 'Prematuro de 28 semanas: medida importante para prevenir hipotermia na sala de parto é:',
-    o: ['Envolver em saco plástico transparente sem secar e colocar sob calor radiante com touca', 'Banho imediato', 'Secar vigorosamente e deixar descoberto', 'Colocar sobre superfície fria'],
+    o: ['Saco plástico sem secar, calor radiante e touca', 'Banho imediato, com água morna, e depois secar', 'Secar vigorosamente e deixar descoberto, sob calor', 'Colocar sobre superfície fria, para reduzir o metabolismo'],
     g: 'A',
     c: 'A temperatura deve ficar entre 36,5 e 37,5 °C. Referência: Sociedade Brasileira de Pediatria. Reanimação do prematuro < 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Aumenta perda de calor.', C: 'Para prematuros abaixo de 32 semanas, não se seca.', D: 'Causa hipotermia.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Encefalopatia hipóxico-isquêmica',
     e: 'Recém-nascido de 39 semanas com asfixia grave e encefalopatia moderada nas primeiras horas. O tratamento com evidência de redução de morte e sequelas é:',
-    o: ['Hipotermia terapêutica iniciada nas primeiras 6 horas de vida', 'Hipertermia', 'Corticoide', 'Fenobarbital profilático isolado'],
+    o: ['Hipotermia terapêutica nas primeiras 6 horas de vida', 'Hipertermia controlada, nas primeiras 6 horas', 'Corticoide por via intravenosa, em dose única', 'Fenobarbital profilático isolado, em dose única'],
     g: 'A',
     c: 'Mantém-se temperatura entre 33 e 34 °C por 72 horas. Referência: Jacobs SE et al. Cooling for newborns with hypoxic ischaemic encephalopathy. Cochrane Database Syst Rev. 2013;(1):CD003311.',
     x: { B: 'Lesiva.', C: 'Sem benefício.', D: 'Sem benefício isolado.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia neonatal',
     e: 'Icterícia que surge nas primeiras 24 horas de vida é:',
-    o: ['Sempre patológica, sugerindo hemólise', 'Fisiológica', 'Por aleitamento materno', 'Sem importância'],
+    o: ['Sempre patológica, sugerindo hemólise', 'Fisiológica, em todos os casos', 'Por aleitamento materno, em todos os casos', 'Sem importância clínica, em todos os casos'],
     g: 'A',
     c: 'Causas: incompatibilidade Rh ou ABO, deficiência de G6PD, esferocitose. Exige bilirrubinas, tipagem e Coombs direto. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'A fisiológica surge após 24 horas.', C: 'Surge mais tarde.', D: 'Exige investigação.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia neonatal',
     e: 'A icterícia fisiológica do recém-nascido a termo caracteriza-se por:',
-    o: ['Início após 24 horas, pico entre o terceiro e o quinto dia e resolução em cerca de 1 a 2 semanas', 'Início ao nascer', 'Bilirrubina direta elevada', 'Acolia fecal'],
+    o: ['Início após 24 h, pico no 3º-5º dia, resolução em 1-2 semanas', 'Início ao nascer, com pico por volta do 10º dia', 'Bilirrubina direta elevada, desde o primeiro dia de vida', 'Acolia fecal e colúria, desde o primeiro dia de vida'],
     g: 'A',
     c: 'Deve-se à maior produção de bilirrubina e imaturidade hepática. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Sugere patologia.', C: 'Sugere colestase.', D: 'Sugere colestase.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia neonatal',
     e: 'Recém-nascido de mãe O positivo, ele A positivo, com icterícia no primeiro dia e Coombs direto positivo. O diagnóstico é:',
-    o: ['Doença hemolítica por incompatibilidade ABO', 'Icterícia fisiológica', 'Atresia de vias biliares', 'Icterícia do leite materno'],
+    o: ['Doença hemolítica por incompatibilidade ABO', 'Icterícia fisiológica do recém-nascido', 'Atresia de vias biliares, com colestase', 'Icterícia do leite materno, de início tardio'],
     g: 'A',
     c: 'Geralmente é mais leve que a doença por Rh. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Precoce demais.', C: 'Bilirrubina direta e acolia.', D: 'Ocorre após a primeira semana.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia neonatal: fototerapia',
     e: 'A indicação de fototerapia no recém-nascido de 35 semanas ou mais é definida por:',
-    o: ['Valor da bilirrubina total conforme idade em horas, idade gestacional e fatores de risco para neurotoxicidade', 'Apenas a cor da pele', 'Bilirrubina direta', 'Peso de nascimento isolado'],
+    o: ['Bilirrubina total, idade em horas, IG e fatores de risco', 'Apenas a cor da pele, avaliada pela zona de Kramer', 'Bilirrubina direta, dosada no sangue, de forma isolada', 'Peso de nascimento, de forma isolada, sem outros dados'],
     g: 'A',
     c: 'As curvas da AAP de 2022 orientam a indicação de fototerapia e exsanguineotransfusão. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Pouco confiável.', C: 'Não é o critério.', D: 'Insuficiente.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia neonatal: kernicterus',
     e: 'O risco da hiperbilirrubinemia indireta muito elevada no recém-nascido é:',
-    o: ['Encefalopatia bilirrubínica (kernicterus), com sequelas neurológicas e auditivas', 'Insuficiência renal', 'Hepatite', 'Hipoglicemia'],
+    o: ['Encefalopatia bilirrubínica (kernicterus), com sequelas', 'Insuficiência renal aguda, com oligúria e edema', 'Hepatite neonatal, com colestase e acolia fecal', 'Hipoglicemia grave, com convulsões e hipotonia'],
     g: 'A',
     c: 'A bilirrubina indireta livre atravessa a barreira hematoencefálica. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia neonatal: exsanguineotransfusão',
     e: 'A exsanguineotransfusão está indicada quando:',
-    o: ['A bilirrubina atinge os níveis de exsanguineotransfusão nas curvas ou há sinais de encefalopatia bilirrubínica aguda', 'Toda icterícia visível', 'Bilirrubina direta de 2 mg/dL', 'Icterícia após 2 semanas sempre'],
+    o: ['Bilirrubina nos níveis de exsanguíneo ou encefalopatia aguda', 'Toda icterícia visível, em qualquer nível', 'Bilirrubina direta de 2 mg/dL, de forma isolada', 'Icterícia após 2 semanas, em todos os casos'],
     g: 'A',
     c: 'Remove bilirrubina e anticorpos e corrige anemia. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Excessivo.', C: 'Sem relação.', D: 'Não é critério.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia por aleitamento',
     e: 'Recém-nascido de 4 dias, em aleitamento exclusivo, com perda de peso de 11%, poucas fraldas molhadas e icterícia. O mecanismo é:',
-    o: ['Icterícia por ingesta insuficiente de leite (aleitamento inadequado)', 'Icterícia do leite materno tardia', 'Atresia de vias biliares', 'Hemólise por Rh'],
+    o: ['Icterícia por ingesta insuficiente de leite', 'Icterícia do leite materno, de início tardio', 'Atresia de vias biliares, com colestase', 'Hemólise por incompatibilidade Rh materna'],
     g: 'A',
     c: 'O manejo é melhorar a amamentação, não suspendê-la. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Ocorre após a primeira semana, com bom ganho de peso.', C: 'Teria acolia.', D: 'Seria precoce e com Coombs positivo.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia: colestase',
     e: 'Icterícia que persiste após 2 semanas em recém-nascido a termo exige:',
-    o: ['Dosagem de bilirrubina total e direta', 'Apenas observação até 6 meses', 'Suspensão do aleitamento', 'Fototerapia domiciliar'],
+    o: ['Dosagem de bilirrubina total e direta', 'Apenas observação, até os 6 meses de vida', 'Suspensão do aleitamento, por 48 horas', 'Fototerapia domiciliar, por 7 dias'],
     g: 'A',
     c: 'Bilirrubina direta elevada sugere colestase e exige investigação. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Atraso perigoso.', C: 'Não é necessário.', D: 'Sem indicação.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia: fototerapia',
     e: 'Recém-nascido com colestase (bilirrubina direta elevada) que recebe fototerapia pode apresentar:',
-    o: ['Síndrome do bebê bronzeado', 'Pele amarela intensificada', 'Cianose', 'Petéquias'],
+    o: ['Síndrome do bebê bronzeado', 'Pele amarela intensificada, sem alteração de cor', 'Cianose central, com SatO2 reduzida', 'Petéquias, por plaquetopenia associada'],
     g: 'A',
     c: 'Por isso a fototerapia é usada com cautela na colestase. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é o efeito.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia: avaliação clínica',
     e: 'A progressão craniocaudal da icterícia (zonas de Kramer):',
-    o: ['Ajuda a estimar a bilirrubina, mas a confirmação deve ser por dosagem sérica ou transcutânea', 'É precisa e dispensa exames', 'Indica sempre colestase', 'Não tem utilidade'],
+    o: ['Estima a bilirrubina, mas exige confirmação por dosagem', 'É precisa e dispensa qualquer exame', 'Indica sempre colestase, quando atinge os pés', 'Não tem nenhuma utilidade na prática clínica'],
     g: 'A',
     c: 'A estimativa visual é pouco precisa, especialmente em peles mais escuras. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Pouco precisa.', C: 'Sem relação.', D: 'Tem utilidade limitada.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação: passos iniciais',
     e: 'Os passos iniciais na mesa de reanimação do recém-nascido incluem:',
-    o: ['Prover calor, posicionar a cabeça em leve extensão, aspirar boca e narinas se necessário e secar', 'Massagem cardíaca e adrenalina', 'Intubação imediata', 'Banho e vestimenta'],
+    o: ['Calor, cabeça em leve extensão, aspirar se preciso e secar', 'Massagem cardíaca e adrenalina, de imediato', 'Intubação imediata, com aspiração traqueal', 'Banho e vestimenta, antes de qualquer conduta'],
     g: 'A',
     c: 'Devem ser feitos em até 30 segundos. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Etapas avançadas.', C: 'Sem indicação inicial.', D: 'Inadequado.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação: avaliação',
     e: 'Após os passos iniciais, avaliam-se simultaneamente:',
-    o: ['Frequência cardíaca e respiração', 'Cor da pele e reflexos', 'Peso e estatura', 'Glicemia e temperatura'],
+    o: ['Frequência cardíaca e respiração', 'Cor da pele e reflexos primitivos', 'Peso e estatura, ao nascer', 'Glicemia e temperatura axilar'],
     g: 'A',
     c: 'FC abaixo de 100 bpm ou apneia ou respiração irregular indicam ventilação. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Cor é pouco confiável.', C: 'Sem relação.', D: 'Não define a ventilação.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação: Apgar',
     e: 'Sobre o boletim de Apgar, é correto afirmar:',
-    o: ['Avalia a resposta à reanimação no 1º e 5º minutos, mas não deve ser usado para decidir iniciar a reanimação', 'Define o momento de iniciar a ventilação', 'É feito somente aos 10 minutos', 'Avalia apenas a cor'],
+    o: ['Avalia a resposta à reanimação; não decide iniciá-la', 'Define o momento de iniciar a ventilação, ao nascer', 'É feito somente aos 10 minutos, após o nascimento', 'Avalia apenas a cor da pele, no primeiro minuto'],
     g: 'A',
     c: 'A decisão de reanimar se baseia em FC, respiração e tônus. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Não é critério de início.', C: 'Feito no 1º e 5º minutos.', D: 'Avalia cinco parâmetros.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação: Apgar',
     e: 'Os cinco parâmetros do Apgar são:',
-    o: ['Frequência cardíaca, esforço respiratório, tônus, irritabilidade reflexa e cor', 'Peso, estatura, perímetro cefálico, temperatura e glicemia', 'Pressão arterial, saturação, diurese, temperatura e cor', 'Choro, sucção, deglutição, sono e peso'],
+    o: ['FC, esforço respiratório, tônus, irritabilidade reflexa e cor', 'Peso, estatura, perímetro cefálico, temperatura e glicemia', 'Pressão arterial, saturação, diurese, temperatura e cor', 'Choro, sucção, deglutição, sono e peso'],
     g: 'A',
     c: 'Cada parâmetro vale de 0 a 2 pontos. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Não fazem parte.', C: 'Não fazem parte.', D: 'Não fazem parte.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação: interrupção',
     e: 'Sobre interromper a reanimação neonatal, é correto afirmar:',
-    o: ['Pode ser considerada após cerca de 20 minutos sem FC detectável apesar de todas as medidas, decisão individualizada', 'Deve ocorrer após 1 minuto', 'Nunca deve ser interrompida', 'Deve ocorrer sempre aos 5 minutos'],
+    o: ['Considerar após ~20 min sem FC, apesar de tudo; individualizar', 'Deve ocorrer após 1 minuto, se não houver resposta', 'Nunca deve ser interrompida, em nenhuma circunstância', 'Deve ocorrer sempre aos 5 minutos, sem exceção alguma'],
     g: 'A',
     c: 'A decisão envolve equipe e família. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Precoce demais.', C: 'Há limites.', D: 'Precoce demais.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia neonatal',
     e: 'É fator de risco para hipoglicemia neonatal:',
-    o: ['Filho de mãe diabética, pequeno ou grande para a idade gestacional e prematuridade', 'Recém-nascido a termo de peso adequado e mamando bem', 'Parto vaginal sem intercorrências', 'Clampeamento tardio'],
+    o: ['Filho de mãe diabética, PIG ou GIG e prematuridade', 'RN a termo, de peso adequado e mamando bem', 'Parto vaginal, sem intercorrências, e mamando bem', 'Clampeamento tardio do cordão umbilical'],
     g: 'A',
     c: 'Recém-nascidos de risco devem ter glicemia monitorada nas primeiras horas. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Baixo risco.', C: 'Não é fator.', D: 'Não é fator.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia neonatal',
     e: 'Recém-nascido de mãe diabética com glicemia de 25 mg/dL e tremores. A conduta é:',
-    o: ['Glicose intravenosa em bolus de 2 mL/kg de soro glicosado a 10% seguida de infusão contínua', 'Apenas aguardar a próxima mamada', 'Glicose a 50% em bolus', 'Insulina'],
+    o: ['Bolus de 2 mL/kg de glicose a 10% e infusão contínua', 'Apenas aguardar a próxima mamada, com observação', 'Glicose a 50% em bolus, por via intravenosa', 'Insulina por via subcutânea, em dose baixa'],
     g: 'A',
     c: 'Hipoglicemia sintomática exige tratamento intravenoso. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Inadequado com sintomas.', C: 'Concentração inadequada e perigosa.', D: 'Pioraria.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia: fatores de risco',
     e: 'É fator de risco para hiperbilirrubinemia significativa:',
-    o: ['Idade gestacional entre 35 e 37 semanas, cefalo-hematoma e irmão que precisou de fototerapia', 'Nascimento com 40 semanas e mamando bem', 'Sexo feminino sem outros fatores', 'Parto cesárea isolado'],
+    o: ['IG de 35-37 semanas, cefalo-hematoma e irmão com fototerapia', 'Nascimento com 40 semanas, mamando bem e sem hematomas', 'Sexo feminino, sem outros fatores associados de risco', 'Parto cesárea, como fator isolado de risco, sem outros'],
     g: 'A',
     c: 'Prematuros tardios têm amamentação menos eficaz e fígado mais imaturo. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Baixo risco.', C: 'Não é fator isolado.', D: 'Não é fator relevante.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia: G6PD',
     e: 'Recém-nascido de origem mediterrânea ou africana com icterícia grave e hemólise, Coombs negativo. Uma causa a investigar é:',
-    o: ['Deficiência de glicose-6-fosfato desidrogenase', 'Incompatibilidade Rh', 'Atresia de vias biliares', 'Hipotireoidismo'],
+    o: ['Deficiência de glicose-6-fosfato desidrogenase', 'Incompatibilidade Rh, com Coombs positivo', 'Atresia de vias biliares, com colestase', 'Hipotireoidismo congênito, com icterícia prolongada'],
     g: 'A',
     c: 'A triagem de G6PD está incluída em alguns programas de triagem neonatal. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Coombs seria positivo.', C: 'Seria colestase.', D: 'Causa icterícia prolongada indireta, sem hemólise.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia: esferocitose',
     e: 'Recém-nascido com icterícia precoce, anemia, Coombs negativo e história familiar de esplenectomia. A hipótese é:',
-    o: ['Esferocitose hereditária', 'Incompatibilidade ABO', 'Gilbert', 'Crigler-Najjar tipo 2'],
+    o: ['Esferocitose hereditária', 'Incompatibilidade ABO, com Coombs positivo', 'Síndrome de Gilbert, com icterícia leve', 'Crigler-Najjar tipo 2, com resposta ao fenobarbital'],
     g: 'A',
     c: 'O esfregaço mostra esferócitos. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Coombs geralmente positivo.', C: 'Sem hemólise relevante.', D: 'Sem hemólise.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia do leite materno',
     e: 'Recém-nascido com 3 semanas, mamando bem, ganhando peso, com icterícia indireta leve e exame normal. A conduta é:',
-    o: ['Manter o aleitamento e acompanhar, após excluir colestase e hipotireoidismo', 'Suspender o aleitamento definitivamente', 'Exsanguineotransfusão', 'Fototerapia obrigatória em todos'],
+    o: ['Manter o aleitamento e acompanhar, excluindo colestase e hipotireoidismo', 'Suspender o aleitamento definitivamente, por 48 horas, e reavaliar', 'Exsanguineotransfusão por via umbilical, de imediato, em UTI', 'Fototerapia obrigatória, em todos os casos, por 72 horas'],
     g: 'A',
     c: 'A icterícia do leite materno é benigna. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Não é necessário.', C: 'Sem indicação.', D: 'Depende dos níveis.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Fototerapia: mecanismo',
     e: 'A fototerapia reduz a bilirrubina por:',
-    o: ['Fotoisomerização da bilirrubina em formas mais hidrossolúveis, eliminadas na bile e urina', 'Aumento da conjugação hepática direta', 'Destruição de hemácias', 'Aumento da produção de bilirrubina direta'],
+    o: ['Fotoisomerização em formas hidrossolúveis, eliminadas na bile e urina', 'Aumento da conjugação hepática, formando bilirrubina direta', 'Destruição das hemácias circulantes, pela luz azul', 'Aumento da produção de bilirrubina direta, no fígado'],
     g: 'A',
     c: 'A luz azul de 460 a 490 nm é a mais eficaz. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é o mecanismo principal.', C: 'Efeito oposto.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Fototerapia: cuidados',
     e: 'Durante a fototerapia, um cuidado importante é:',
-    o: ['Proteger os olhos e manter hidratação e alimentação adequadas', 'Suspender o aleitamento', 'Manter o bebê vestido', 'Usar luz vermelha'],
+    o: ['Proteger os olhos e manter hidratação e alimentação', 'Suspender o aleitamento, enquanto durar a luz', 'Manter o bebê vestido, sob a luz', 'Usar luz vermelha, em vez de luz azul'],
     g: 'A',
     c: 'A amamentação deve continuar. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é necessário.', C: 'Reduz eficácia.', D: 'Ineficaz.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Bilirrubina transcutânea',
     e: 'Sobre a medida de bilirrubina transcutânea, é correto afirmar:',
-    o: ['É útil como triagem, mas valores próximos do limite de tratamento devem ser confirmados por dosagem sérica', 'Substitui totalmente a dosagem sérica', 'Não pode ser usada em recém-nascidos', 'É mais precisa durante a fototerapia'],
+    o: ['Útil como triagem; confirmar por dosagem sérica perto do limite', 'Substitui totalmente a dosagem sérica de bilirrubina', 'Não pode ser usada em recém-nascidos, por imprecisão', 'É mais precisa durante a fototerapia, na pele exposta'],
     g: 'A',
     c: 'Durante a fototerapia, a medida transcutânea perde confiabilidade. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Não substitui sempre.', C: 'Pode ser usada.', D: 'Perde precisão.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Encefalopatia bilirrubínica',
     e: 'Sinais de encefalopatia bilirrubínica aguda incluem:',
-    o: ['Letargia, hipotonia, sucção débil, depois hipertonia, opistótono e choro agudo', 'Febre e exantema', 'Hipertensão arterial isolada', 'Diarreia'],
+    o: ['Letargia, hipotonia e sucção débil; depois hipertonia e opistótono', 'Febre alta e exantema generalizado, com petéquias', 'Hipertensão arterial isolada, sem outros sinais clínicos', 'Diarreia aquosa, com desidratação e acidose associadas'],
     g: 'A',
     c: 'É emergência: exsanguineotransfusão imediata. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação: corticoide antenatal e sala de parto',
     e: 'Antes do nascimento de prematuro, a preparação da sala de parto inclui:',
-    o: ['Equipe treinada, material testado, temperatura da sala elevada e briefing com a equipe', 'Apenas um médico, sem checagem de material', 'Sala fria para evitar infecção', 'Iniciar adrenalina profilática'],
+    o: ['Equipe treinada, material testado, sala aquecida e briefing', 'Apenas um médico, sem checagem de material', 'Sala fria, para evitar infecção, sem aquecimento', 'Adrenalina profilática, antes do nascimento'],
     g: 'A',
     c: 'A preparação reduz falhas na reanimação. Referência: Sociedade Brasileira de Pediatria. Reanimação do prematuro < 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'Insuficiente.', C: 'Causa hipotermia.', D: 'Sem indicação.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia: hemólise Rh',
     e: 'Recém-nascido de mãe Rh negativo sensibilizada com icterícia precoce intensa, anemia e hepatoesplenomegalia. O exame que confirma o mecanismo é:',
-    o: ['Teste de Coombs direto positivo', 'Bilirrubina direta', 'Teste do pezinho', 'Ultrassom de crânio'],
+    o: ['Teste de Coombs direto positivo', 'Bilirrubina direta, no sangue do cordão', 'Teste do pezinho, para triagem neonatal', 'Ultrassom de crânio, por via transfontanelar'],
     g: 'A',
     c: 'Mostra anticorpos maternos ligados às hemácias do bebê. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Não confirma hemólise imune.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Icterícia: alta hospitalar',
     e: 'Antes da alta, todo recém-nascido deve:',
-    o: ['Ter o risco de hiperbilirrubinemia avaliado e retorno programado conforme o risco', 'Receber fototerapia profilática', 'Ter bilirrubina direta dosada obrigatoriamente', 'Ficar internado por 7 dias'],
+    o: ['Ter o risco de hiperbilirrubinemia avaliado e retorno programado', 'Receber fototerapia profilática, antes da alta hospitalar', 'Ter bilirrubina direta dosada, obrigatoriamente, antes da alta', 'Ficar internado por 7 dias, para observação clínica'],
     g: 'A',
     c: 'Altas precoces exigem reavaliação em 24 a 48 horas. Referência: Kemper AR et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
     x: { B: 'Sem indicação.', C: 'Não é rotina.', D: 'Excessivo.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_NEO1: QuestaoCompacta[] = [
   {
     s: 'Reanimação: naloxona',
     e: 'Sobre a naloxona na sala de parto, é correto afirmar:',
-    o: ['Não é recomendada na reanimação; a prioridade é a ventilação adequada', 'É a primeira medicação para recém-nascido em apneia', 'Deve ser dada a todos os filhos de mães que receberam opioides', 'Substitui a ventilação'],
+    o: ['Não é recomendada; a prioridade é ventilar', 'É a primeira medicação para RN em apneia', 'Deve ser dada a todos os filhos de mães com opioides', 'Substitui a ventilação, em RN com apneia'],
     g: 'A',
     c: 'Pode precipitar abstinência em filhos de mães dependentes. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022. Rio de Janeiro: SBP, 2022.',
     x: { B: 'A ventilação é a prioridade.', C: 'Não é rotina.', D: 'Não substitui.' },

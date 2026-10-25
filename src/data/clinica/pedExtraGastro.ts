@@ -5,7 +5,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: desidratação',
     e: 'Criança de 2 anos com diarreia, irritada, com olhos fundos, sede intensa, sinal da prega desaparecendo lentamente e pulso normal. A classificação e o plano são:',
-    o: ['Desidratação (algum grau); Plano B, com reidratação oral supervisionada na unidade', 'Sem desidratação; Plano A', 'Desidratação grave; Plano C', 'Choque; Plano C imediato com intubação'],
+    o: ['Desidratação; Plano B, reidratação oral supervisionada', 'Sem desidratação; Plano A, em casa', 'Desidratação grave; Plano C, com hidratação venosa', 'Choque; Plano C imediato, com intubação precoce'],
     g: 'A',
     c: 'Pelo manual do MS, dois ou mais sinais de desidratação definem o Plano B. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Há sinais de desidratação.', C: 'Não há sinais de gravidade como letargia ou incapacidade de beber.', D: 'Sem choque.' },
@@ -13,7 +13,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: plano A',
     e: 'Criança com diarreia, alerta, sem sinais de desidratação. A conduta é:',
-    o: ['Plano A: aumentar a oferta de líquidos, manter alimentação, soro de reidratação oral após cada evacuação e zinco', 'Hidratação venosa', 'Antibiótico', 'Jejum até parar a diarreia'],
+    o: ['Plano A: mais líquidos, dieta, SRO a cada evacuação e zinco', 'Hidratação venosa, em fase de expansão rápida, na unidade', 'Antibiótico oral por 5 dias, em dose habitual, em casa', 'Jejum até cessar a diarreia, com observação em casa'],
     g: 'A',
     c: 'Orientar sinais de alerta para retorno. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Sem indicação.', C: 'Não é rotina.', D: 'Contraindicado.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: plano C',
     e: 'Criança com diarreia, letárgica, com pulso fraco, enchimento capilar lento e incapaz de beber. A conduta é:',
-    o: ['Plano C: hidratação venosa rápida (fase de expansão com soro fisiológico)', 'Plano A', 'Plano B', 'Somente antiemético'],
+    o: ['Plano C: hidratação venosa rápida com soro fisiológico', 'Plano A, com mais líquidos e alimentação em casa', 'Plano B, com reidratação oral supervisionada', 'Somente antiemético por via venosa, sem hidratação'],
     g: 'A',
     c: 'Após a expansão, segue-se a fase de manutenção e reposição. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: zinco',
     e: 'O zinco na diarreia aguda em crianças:',
-    o: ['Reduz duração e gravidade, sendo recomendado por 10 a 14 dias', 'Aumenta a diarreia', 'É indicado apenas em adultos', 'Substitui a reidratação'],
+    o: ['Reduz duração e gravidade; recomendado por 10 a 14 dias', 'Aumenta a diarreia e o volume das fezes', 'É indicado apenas em adultos desnutridos', 'Substitui a reidratação oral, quando associado'],
     g: 'A',
     c: 'Dose de 10 mg por dia em menores de 6 meses e 20 mg acima disso. Referência: World Health Organization. The treatment of diarrhoea: a manual for physicians and other senior health workers. 4ª rev. Geneva: WHO, 2005.',
     x: { B: 'Não aumenta.', C: 'É para crianças.', D: 'Não substitui.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: antibiótico',
     e: 'Na diarreia aguda em crianças, o antibiótico é indicado em:',
-    o: ['Disenteria (sangue nas fezes) e cólera grave, entre outras situações específicas', 'Toda diarreia aquosa', 'Diarreia por rotavírus', 'Diarreia com febre baixa'],
+    o: ['Disenteria (sangue nas fezes) e cólera grave, entre outras', 'Toda diarreia aquosa, em qualquer criança', 'Diarreia por rotavírus, com vômitos associados', 'Diarreia com febre baixa, sem sangue nas fezes'],
     g: 'A',
     c: 'A maioria das diarreias é viral e autolimitada. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Não é indicado.', C: 'Viral.', D: 'Não é indicação isolada.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Disenteria',
     e: 'Criança com diarreia com sangue, febre e cólicas. O antibiótico de primeira escolha para disenteria em crianças, segundo a OMS e o MS, é:',
-    o: ['Ciprofloxacino, com ceftriaxona nos casos graves que exigem internação', 'Amoxicilina', 'Metronidazol isolado como primeira escolha', 'Nenhum'],
+    o: ['Ciprofloxacino; ceftriaxona nos graves, internados', 'Amoxicilina oral, por 7 dias, em dose habitual', 'Metronidazol isolado, como primeira escolha', 'Nenhum antibiótico, apenas reidratação e dieta'],
     g: 'A',
     c: 'Shigella é o agente mais comum; a azitromicina é alternativa conforme o perfil local de resistência. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Alta resistência.', C: 'Indicado para amebíase confirmada.', D: 'Exige antibiótico.' },
@@ -53,7 +53,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: antieméticos',
     e: 'Criança com gastroenterite aguda e vômitos que impedem a reidratação oral. Uma medicação que pode ajudar é:',
-    o: ['Ondansetrona em dose única', 'Metoclopramida', 'Loperamida', 'Bromoprida em doses repetidas'],
+    o: ['Ondansetrona em dose única', 'Metoclopramida, em doses repetidas', 'Loperamida, em doses repetidas', 'Bromoprida, em doses repetidas'],
     g: 'A',
     c: 'Antidiarreicos e antieméticos com efeitos extrapiramidais devem ser evitados em crianças. Referência: Guarino A et al. ESPGHAN/ESPID evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014. J Pediatr Gastroenterol Nutr. 2014;59(1):132-52.',
     x: { B: 'Risco de efeitos extrapiramidais.', C: 'Contraindicada em crianças.', D: 'Risco de efeitos extrapiramidais.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: loperamida',
     e: 'Sobre loperamida em crianças pequenas com diarreia aguda, é correto afirmar:',
-    o: ['É contraindicada, pelo risco de íleo paralítico e complicações', 'É a primeira linha', 'Deve ser associada ao soro', 'É segura em menores de 2 anos'],
+    o: ['É contraindicada, pelo risco de íleo paralítico', 'É a primeira linha de tratamento da diarreia', 'Deve ser associada ao soro de reidratação oral', 'É segura em crianças menores de 2 anos'],
     g: 'A',
     c: 'O tratamento é hidratação, alimentação e zinco. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Não é recomendada.', C: 'Não é recomendada.', D: 'Não é segura.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia persistente',
     e: 'Diarreia persistente é definida como diarreia que dura:',
-    o: ['14 dias ou mais', '3 dias', '7 dias', 'Mais de 6 meses'],
+    o: ['14 dias ou mais', '3 dias ou mais, de forma contínua', '7 dias ou mais, de forma contínua', 'Mais de 6 meses, de forma contínua'],
     g: 'A',
     c: 'Associa-se a desnutrição e exige investigação de causas como intolerância e parasitoses. Referência: World Health Organization. The treatment of diarrhoea: a manual for physicians and other senior health workers. 4ª rev. Geneva: WHO, 2005.',
     x: { B: 'Diarreia aguda.', C: 'Diarreia aguda.', D: 'Não é a definição.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Estenose hipertrófica de piloro',
     e: 'Lactente de 4 semanas, menino, com vômitos em jato, não biliosos, após as mamadas, com fome logo depois e oliva palpável. O diagnóstico e o distúrbio metabólico são:',
-    o: ['Estenose hipertrófica de piloro; alcalose metabólica hipoclorêmica e hipocalêmica', 'Refluxo fisiológico; acidose metabólica', 'Volvo; hiperpotassemia', 'Invaginação; hipoglicemia'],
+    o: ['Estenose de piloro; alcalose hipoclorêmica e hipocalêmica', 'Refluxo fisiológico; acidose metabólica hiperclorêmica', 'Volvo; hiperpotassemia e acidose lática', 'Invaginação; hipoglicemia e acidose metabólica'],
     g: 'A',
     c: 'O diagnóstico é por ultrassom; a cirurgia (piloromiotomia) é feita após corrigir os distúrbios. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não causa vômito em jato com oliva.', C: 'Vômito bilioso.', D: 'Faixa etária e quadro diferentes.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Volvo',
     e: 'Lactente com vômitos biliosos súbitos e distensão abdominal. A hipótese que exige avaliação cirúrgica urgente é:',
-    o: ['Má rotação intestinal com volvo', 'Refluxo fisiológico', 'Cólica do lactente', 'Constipação'],
+    o: ['Má rotação intestinal com volvo', 'Refluxo fisiológico, com vômitos claros', 'Cólica do lactente, com choro vespertino', 'Constipação funcional, com fezes endurecidas'],
     g: 'A',
     c: 'Vômito bilioso em lactente é emergência até prova em contrário. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é bilioso.', C: 'Não causa vômito bilioso.', D: 'Não causa vômito bilioso agudo.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Refluxo gastroesofágico',
     e: 'Lactente de 3 meses com regurgitações frequentes após as mamadas, ganhando peso bem e feliz. A conduta é:',
-    o: ['Tranquilizar e orientar, pois é refluxo fisiológico que tende a melhorar até 12 a 18 meses', 'Omeprazol', 'Domperidona', 'Fórmula sem lactose obrigatória'],
+    o: ['Tranquilizar: refluxo fisiológico melhora até 12-18 meses', 'Omeprazol por 8 semanas, em dose habitual', 'Domperidona por 4 semanas, em dose habitual', 'Fórmula sem lactose, obrigatoriamente, por 4 semanas'],
     g: 'A',
     c: 'Medicações são reservadas à doença do refluxo com complicações. Referência: Rosen R et al. Pediatric Gastroesophageal Reflux Clinical Practice Guidelines: joint recommendations of NASPGHAN and ESPGHAN. J Pediatr Gastroenterol Nutr. 2018;66(3):516-54.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Alergia à proteína do leite de vaca',
     e: 'Lactente em aleitamento misto com sangue e muco nas fezes, bom estado geral e crescimento adequado. A hipótese mais provável é:',
-    o: ['Proctocolite alérgica por proteína do leite de vaca', 'Invaginação', 'Enterocolite necrosante', 'Fissura anal apenas'],
+    o: ['Proctocolite alérgica por proteína do leite de vaca', 'Invaginação intestinal, com fezes em geleia', 'Enterocolite necrosante, em lactente a termo', 'Fissura anal apenas, sem causa alérgica'],
     g: 'A',
     c: 'Mantém-se o aleitamento com dieta materna sem leite de vaca; se fórmula, usa-se fórmula extensamente hidrolisada. Referência: Associação Brasileira de Alergia e Imunologia; Sociedade Brasileira de Pediatria. Consenso Brasileiro sobre Alergia Alimentar: 2018. Arq Asma Alerg Imunol. 2018;2(1):7-38.',
     x: { B: 'Teria dor e geleia.', C: 'Ocorre em prematuros graves.', D: 'Não explica o muco e sangue difusos.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Doença celíaca',
     e: 'Criança de 2 anos com diarreia crônica, distensão abdominal, perda de peso e irritabilidade após introdução de trigo. O exame inicial de triagem é:',
-    o: ['Antitransglutaminase IgA com dosagem de IgA total', 'Teste do suor', 'Parasitológico apenas', 'Colonoscopia'],
+    o: ['Antitransglutaminase IgA e IgA total', 'Teste do suor, para fibrose cística', 'Parasitológico de fezes, apenas', 'Colonoscopia, com biópsia de íleo'],
     g: 'A',
     c: 'A confirmação geralmente exige biópsia duodenal, embora possa ser dispensada em casos selecionados com títulos muito altos. Referência: Husby S et al. ESPGHAN Guidelines for Diagnosing Coeliac Disease 2020. J Pediatr Gastroenterol Nutr. 2020;70(1):141-56.',
     x: { B: 'Fibrose cística.', C: 'Insuficiente.', D: 'Não é inicial.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Constipação funcional',
     e: 'Criança de 4 anos com evacuações dolorosas a cada 5 dias, fezes grossas, retenção voluntária e escape fecal. O tratamento inicial é:',
-    o: ['Desimpactação, se necessário, e polietilenoglicol, com orientação dietética e treino evacuatório', 'Cirurgia', 'Enema diário por meses', 'Restringir líquidos'],
+    o: ['Desimpactação e polietilenoglicol; dieta e treino evacuatório', 'Cirurgia, com ressecção do segmento dilatado do cólon', 'Enema diário por meses, em casa, com solução fosfatada', 'Restrição de líquidos, para endurecer as fezes e reduzir escapes'],
     g: 'A',
     c: 'O tratamento de manutenção costuma durar meses. Referência: Tabbers MM et al. Evaluation and treatment of functional constipation in infants and children: ESPGHAN and NASPGHAN. J Pediatr Gastroenterol Nutr. 2014;58(2):258-74.',
     x: { B: 'Sem indicação.', C: 'Não é rotina.', D: 'Pioraria.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Cólica do lactente',
     e: 'Lactente de 6 semanas, saudável, com choro intenso no fim da tarde por mais de 3 horas, sem outros sintomas e com bom ganho de peso. A conduta é:',
-    o: ['Tranquilizar e orientar a família, pois a cólica tende a melhorar até 3 a 4 meses', 'Fórmula especial obrigatória', 'Simeticona com efeito comprovado', 'Investigação com exames'],
+    o: ['Tranquilizar a família: cólica melhora até 3-4 meses', 'Fórmula especial, obrigatoriamente, por 4 semanas', 'Simeticona, com efeito comprovado em estudos', 'Investigação com exames de sangue e imagem'],
     g: 'A',
     c: 'Deve-se avaliar sinais de alarme e apoiar a família. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem indicação.', C: 'Sem eficácia comprovada.', D: 'Sem indicação.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Apendicite',
     e: 'Criança de 10 anos com dor periumbilical que migrou para fossa ilíaca direita, anorexia, febre baixa e sinal de Blumberg. A conduta é:',
-    o: ['Avaliação cirúrgica para apendicectomia', 'Analgesia e alta', 'Laxativo', 'Antibiótico oral e retorno em 1 semana'],
+    o: ['Avaliação cirúrgica para apendicectomia', 'Analgesia e alta, com retorno se piora', 'Laxativo, por via oral, por 3 dias', 'Antibiótico oral, com retorno em 1 semana'],
     g: 'A',
     c: 'Crianças pequenas perfuram mais. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Risco de perfuração.', C: 'Contraindicado.', D: 'Inadequado.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Parasitoses: giardíase',
     e: 'Criança com diarreia crônica, esteatorreia e distensão, em creche. O agente mais provável e o tratamento são:',
-    o: ['Giardia lamblia; metronidazol, tinidazol ou secnidazol', 'Ascaris; albendazol', 'Enterobius; mebendazol', 'Strongyloides; ivermectina'],
+    o: ['Giardia lamblia; metronidazol, tinidazol ou secnidazol', 'Ascaris lumbricoides; albendazol em dose única', 'Enterobius vermicularis; mebendazol em dose única', 'Strongyloides stercoralis; ivermectina em dose única'],
     g: 'A',
     c: 'Pode causar má absorção e deficit de crescimento. Referência: Brasil. Ministério da Saúde. Doenças infecciosas e parasitárias: guia de bolso. 8ª ed. Brasília: MS, 2010.',
     x: { B: 'Não causa esteatorreia típica.', C: 'Causa prurido anal.', D: 'Não é o mais provável.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Parasitoses: oxiúros',
     e: 'Criança com prurido anal noturno intenso. O agente e o exame são:',
-    o: ['Enterobius vermicularis; método da fita adesiva (Graham)', 'Giardia; parasitológico simples', 'Ascaris; radiografia', 'Tênia; sorologia'],
+    o: ['Enterobius; fita adesiva (Graham)', 'Giardia; parasitológico simples de fezes', 'Ascaris; radiografia simples de abdome', 'Tênia; sorologia para cisticercose'],
     g: 'A',
     c: 'Tratar toda a família. Referência: Brasil. Ministério da Saúde. Doenças infecciosas e parasitárias: guia de bolso. 8ª ed. Brasília: MS, 2010.',
     x: { B: 'Não causa prurido anal.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Parasitoses: ascaridíase',
     e: 'Criança com cólicas e vômitos, com massa palpável abdominal em área com saneamento precário. A complicação mais provável é:',
-    o: ['Suboclusão intestinal por bolo de Ascaris', 'Apendicite', 'Invaginação', 'Volvo'],
+    o: ['Suboclusão por bolo de Ascaris', 'Apendicite aguda, com dor em fossa ilíaca', 'Invaginação intestinal, com fezes em geleia', 'Volvo intestinal, com vômitos biliosos'],
     g: 'A',
     c: 'O tratamento inicial é clínico, com óleo mineral e anti-helmíntico após a resolução da obstrução. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não explica a massa.', C: 'Possível, mas o contexto sugere áscaris.', D: 'Não é o mais provável.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Intolerância à lactose',
     e: 'Criança após gastroenterite viral com diarreia aquosa, distensão e flatulência após ingerir leite, com fezes ácidas. A hipótese é:',
-    o: ['Intolerância secundária à lactose', 'Alergia ao leite IgE mediada', 'Doença celíaca', 'Giardíase'],
+    o: ['Intolerância secundária à lactose', 'Alergia ao leite mediada por IgE, com urticária', 'Doença celíaca, com anticorpos positivos', 'Giardíase, com esteatorreia e distensão'],
     g: 'A',
     c: 'É transitória; reduz-se a lactose temporariamente. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Causaria urticária e vômitos imediatos.', C: 'Mais crônica.', D: 'Possível, mas o contexto sugere intolerância.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Desidratação hipernatrêmica',
     e: 'Lactente desidratado com sódio de 160 mEq/L. Um cuidado essencial na reidratação é:',
-    o: ['Reduzir o sódio lentamente, cerca de 10 a 12 mEq/L em 24 horas, pelo risco de edema cerebral', 'Corrigir o sódio em 1 hora', 'Usar água pura intravenosa', 'Restringir toda a hidratação'],
+    o: ['Reduzir o sódio lentamente, 10-12 mEq/L em 24 h', 'Corrigir o sódio em 1 hora, com solução hipertônica', 'Usar água pura por via intravenosa, em grande volume', 'Restringir toda a hidratação, para evitar edema'],
     g: 'A',
     c: 'A pele pode ter aspecto pastoso, e os sinais de desidratação são menos evidentes. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Risco de edema cerebral.', C: 'Causa hemólise.', D: 'Pioraria.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: soro de reidratação',
     e: 'O soro de reidratação oral de osmolaridade reduzida recomendado pela OMS:',
-    o: ['Reduz volume das fezes, vômitos e necessidade de hidratação venosa em comparação ao soro antigo', 'Deve ser diluído em refrigerante', 'Contém muito açúcar', 'Só serve para adultos'],
+    o: ['Reduz o volume das fezes, vômitos e hidratação venosa', 'Deve ser diluído em refrigerante, para melhor sabor', 'Contém muito açúcar, o que piora a diarreia', 'Só serve para adultos, nunca para crianças'],
     g: 'A',
     c: 'Refrigerantes e sucos industrializados pioram a diarreia por osmolaridade alta. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Inadequado.', C: 'Tem osmolaridade baixa.', D: 'Indicado para crianças.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: alimentação',
     e: 'Durante a diarreia aguda, a alimentação da criança deve ser:',
-    o: ['Mantida, incluindo o aleitamento materno', 'Suspensa por 24 horas', 'Restrita a chá', 'Trocada por fórmula sem lactose em todos'],
+    o: ['Mantida, incluindo o aleitamento materno', 'Suspensa por 24 horas, para repouso intestinal', 'Restrita a chá, durante toda a diarreia', 'Trocada por fórmula sem lactose, em todos'],
     g: 'A',
     c: 'O jejum piora o estado nutricional. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Contraindicado.', C: 'Inadequado.', D: 'Não é rotina.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: sinais de perigo',
     e: 'É sinal de desidratação grave em criança com diarreia:',
-    o: ['Letargia ou inconsciência, incapacidade de beber e sinal da prega muito lento', 'Sede intensa com criança alerta', 'Olhos levemente fundos isoladamente', 'Duas evacuações por dia'],
+    o: ['Letargia, incapacidade de beber e prega muito lenta', 'Sede intensa, com criança alerta e ativa', 'Olhos levemente fundos, como achado isolado', 'Duas evacuações por dia, como achado isolado'],
     g: 'A',
     c: 'Indica Plano C. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Sinal de algum grau.', C: 'Isolado não indica gravidade.', D: 'Não é diarreia significativa.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Amebíase',
     e: 'Criança com disenteria e trofozoítos de Entamoeba histolytica com hemácias fagocitadas nas fezes. O tratamento é:',
-    o: ['Metronidazol seguido de amebicida luminal', 'Albendazol', 'Ivermectina', 'Penicilina'],
+    o: ['Metronidazol seguido de amebicida luminal', 'Albendazol em dose única, por via oral', 'Ivermectina em dose única, por via oral', 'Penicilina benzatina em dose única, intramuscular'],
     g: 'A',
     c: 'Abscesso hepático amebiano é complicação. Referência: Brasil. Ministério da Saúde. Doenças infecciosas e parasitárias: guia de bolso. 8ª ed. Brasília: MS, 2010.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Estrongiloidíase',
     e: 'Criança imunodeprimida em corticoide com diarreia, dor abdominal e eosinofilia. O risco de forma grave (hiperinfecção) é por:',
-    o: ['Strongyloides stercoralis', 'Giardia', 'Enterobius', 'Ascaris'],
+    o: ['Strongyloides stercoralis', 'Giardia lamblia, com esteatorreia', 'Enterobius vermicularis, com prurido anal', 'Ascaris lumbricoides, com obstrução intestinal'],
     g: 'A',
     c: 'Tratamento com ivermectina. Antes de corticoide prolongado, deve-se considerar tratamento empírico em áreas endêmicas. Referência: Brasil. Ministério da Saúde. Doenças infecciosas e parasitárias: guia de bolso. 8ª ed. Brasília: MS, 2010.',
     x: { B: 'Não causa hiperinfecção.', C: 'Não causa.', D: 'Não causa hiperinfecção.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Divertículo de Meckel',
     e: 'Criança de 2 anos com sangramento retal volumoso e indolor, sem outros sintomas. A hipótese principal é:',
-    o: ['Divertículo de Meckel com mucosa gástrica ectópica', 'Fissura anal', 'Invaginação', 'Pólipo juvenil'],
+    o: ['Divertículo de Meckel com mucosa gástrica ectópica', 'Fissura anal, com dor à evacuação', 'Invaginação intestinal, com dor em cólica', 'Pólipo juvenil, com sangramento intermitente'],
     g: 'A',
     c: 'A cintilografia com tecnécio identifica a mucosa gástrica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sangramento pequeno com dor.', C: 'Haveria dor em cólica.', D: 'Sangramento geralmente discreto.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Vômitos cíclicos',
     e: 'Criança com episódios recorrentes estereotipados de vômitos intensos, sem sintomas entre as crises, e história familiar de enxaqueca. A hipótese é:',
-    o: ['Síndrome dos vômitos cíclicos', 'Estenose de piloro', 'Gastroenterite viral', 'Apendicite'],
+    o: ['Síndrome dos vômitos cíclicos', 'Estenose hipertrófica de piloro', 'Gastroenterite viral, com diarreia', 'Apendicite aguda, com dor localizada'],
     g: 'A',
     c: 'Diagnóstico de exclusão. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Ocorre no lactente.', C: 'Não seria recorrente estereotipado.', D: 'Sem episódios recorrentes.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Corpo estranho',
     e: 'Criança de 3 anos engoliu uma bateria de botão, que está no esôfago na radiografia. A conduta é:',
-    o: ['Retirada endoscópica de urgência', 'Aguardar eliminação', 'Induzir vômito', 'Laxativo'],
+    o: ['Retirada endoscópica de urgência', 'Aguardar a eliminação espontânea nas fezes', 'Induzir vômito, com xarope de ipeca', 'Laxativo, para acelerar a eliminação'],
     g: 'A',
     c: 'A bateria causa lesão grave em menos de 2 horas. Referência: Kramer RE et al. Management of ingested foreign bodies in children: a clinical report of the NASPGHAN Endoscopy Committee. J Pediatr Gastroenterol Nutr. 2015;60(4):562-74.',
     x: { B: 'Risco grave.', C: 'Contraindicado.', D: 'Inadequado.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Doença celíaca: tratamento',
     e: 'O tratamento da doença celíaca é:',
-    o: ['Dieta isenta de glúten por toda a vida', 'Corticoide', 'Antibiótico', 'Dieta sem lactose apenas'],
+    o: ['Dieta sem glúten por toda a vida', 'Corticoide oral, por 4 semanas', 'Antibiótico oral, por 14 dias', 'Dieta sem lactose, apenas, por 1 mês'],
     g: 'A',
     c: 'Deve-se iniciar a dieta só após o diagnóstico confirmado. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Insuficiente.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Alergia alimentar IgE',
     e: 'Lactente apresenta urticária, vômitos e sibilância minutos após ingerir fórmula de leite de vaca. A hipótese é:',
-    o: ['Alergia à proteína do leite de vaca mediada por IgE', 'Intolerância à lactose', 'Refluxo', 'Doença celíaca'],
+    o: ['APLV mediada por IgE', 'Intolerância à lactose, com diarreia ácida', 'Refluxo gastroesofágico, com vômitos', 'Doença celíaca, com diarreia crônica'],
     g: 'A',
     c: 'Anafilaxia exige adrenalina IM. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não causa urticária.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Hirschsprung: diagnóstico',
     e: 'O exame padrão-ouro para doença de Hirschsprung é:',
-    o: ['Biópsia retal mostrando ausência de células ganglionares', 'Enema opaco', 'Manometria isolada', 'Ultrassom'],
+    o: ['Biópsia retal, sem células ganglionares', 'Enema opaco, com zona de transição', 'Manometria anorretal, como exame isolado', 'Ultrassom abdominal, com alças dilatadas'],
     g: 'A',
     c: 'O enema mostra zona de transição; a manometria mostra ausência do reflexo inibitório retoanal. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sugestivo, não definitivo.', C: 'Sugestiva.', D: 'Sem utilidade.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Desidratação: avaliação',
     e: 'O melhor indicador isolado de desidratação em criança é:',
-    o: ['Perda aguda de peso', 'Cor da urina', 'Choro', 'Temperatura'],
+    o: ['Perda aguda de peso', 'Cor da urina, em fralda', 'Choro, com lágrimas ausentes', 'Temperatura axilar, em graus Celsius'],
     g: 'A',
     c: 'Na prática, combinam-se sinais clínicos. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Pouco preciso.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: probióticos',
     e: 'Sobre probióticos na diarreia aguda infantil, é correto afirmar:',
-    o: ['Algumas cepas podem reduzir discretamente a duração, mas não substituem a reidratação', 'São obrigatórios', 'Curam todas as diarreias', 'São contraindicados'],
+    o: ['Algumas cepas reduzem a duração, sem substituir a reidratação', 'São obrigatórios em todas as crianças com diarreia aguda', 'Curam todas as diarreias, inclusive as bacterianas graves', 'São contraindicados em todas as crianças, por risco de sepse'],
     g: 'A',
     c: 'As evidências variam conforme a cepa. Referência: Guarino A et al. ESPGHAN/ESPID evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014. J Pediatr Gastroenterol Nutr. 2014;59(1):132-52.',
     x: { B: 'Não são obrigatórios.', C: 'Afirmativa falsa.', D: 'Não são contraindicados em geral.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Cólera',
     e: 'Criança com diarreia aquosa abundante em água de arroz, com desidratação grave, em área de surto de cólera. Além da reidratação, recomenda-se:',
-    o: ['Antibiótico (como azitromicina) para reduzir a duração e transmissão', 'Apenas antiemético', 'Loperamida', 'Nada'],
+    o: ['Antibiótico (azitromicina) para reduzir duração e transmissão', 'Apenas antiemético, sem outras medidas terapêuticas', 'Loperamida, para reduzir o volume das fezes aquosas', 'Nada, apenas observação clínica, sem medicação alguma'],
     g: 'A',
     c: 'A reidratação é a medida mais importante. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Insuficiente.', C: 'Contraindicada.', D: 'Há indicação de antibiótico.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Pancreatite',
     e: 'Criança com dor abdominal epigástrica intensa irradiada para o dorso, vômitos e lipase mais de três vezes o normal. O diagnóstico é:',
-    o: ['Pancreatite aguda', 'Gastroenterite', 'Apendicite', 'Constipação'],
+    o: ['Pancreatite aguda', 'Gastroenterite aguda, com febre baixa', 'Apendicite aguda, com dor em fossa ilíaca', 'Constipação funcional, com fezes endurecidas'],
     g: 'A',
     c: 'Causas em crianças: trauma, cálculos, medicamentos e doenças sistêmicas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem elevação de lipase.', C: 'Dor em fossa ilíaca.', D: 'Sem elevação de lipase.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Constipação: sinais de alarme',
     e: 'Sinal de alarme na constipação que sugere causa orgânica é:',
-    o: ['Atraso na eliminação de mecônio e distensão abdominal com déficit de crescimento', 'Fezes duras ocasionais', 'Retenção voluntária', 'Escape fecal'],
+    o: ['Atraso de mecônio e distensão com déficit de crescimento', 'Fezes duras ocasionais, em criança sadia e sem sintomas', 'Retenção voluntária das fezes, após evacuação dolorosa', 'Escape fecal, em criança com constipação funcional'],
     g: 'A',
     c: 'Sugere Hirschsprung, hipotireoidismo ou doenças neurológicas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Funcional.', C: 'Funcional.', D: 'Funcional.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Esofagite eosinofílica',
     e: 'Adolescente com disfagia, impactação alimentar e atopia. O diagnóstico é confirmado por:',
-    o: ['Endoscopia com biópsia mostrando 15 ou mais eosinófilos por campo', 'Radiografia de tórax', 'pH-metria isolada', 'Hemograma'],
+    o: ['Endoscopia com biópsia: 15 ou mais eosinófilos por campo', 'Radiografia de tórax, em duas incidências, e esofagograma', 'pH-metria esofágica de 24 horas, como exame isolado', 'Hemograma, com eosinofilia periférica, como exame isolado'],
     g: 'A',
     c: 'Tratamento: inibidor de bomba de prótons, corticoide deglutido ou dieta de eliminação. Referência: Dellon ES et al. Updated International Consensus Diagnostic Criteria for Eosinophilic Esophagitis. Gastroenterology. 2018;155(4):1022-33.',
     x: { B: 'Sem relação.', C: 'Não confirma.', D: 'Não confirma.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Hepatomegalia e icterícia neonatal',
     e: 'Lactente com fezes acólicas persistentes deve ser investigado com urgência para:',
-    o: ['Atresia de vias biliares', 'Icterícia fisiológica', 'Alergia ao leite', 'Refluxo'],
+    o: ['Atresia de vias biliares', 'Icterícia fisiológica, do recém-nascido', 'Alergia ao leite de vaca, com sangue', 'Refluxo gastroesofágico, com regurgitações'],
     g: 'A',
     c: 'O cartão de cores das fezes ajuda na identificação precoce. Referência: Brasil. Ministério da Saúde. Caderneta da Criança, 2024 (escala de cores das fezes).',
     x: { B: 'Sem acolia.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Diarreia: hidratação venosa',
     e: 'Na fase de expansão do Plano C, o volume de soro fisiológico costuma ser de:',
-    o: ['20 mL/kg em bolus, repetido conforme a resposta, ou esquemas por peso e idade do MS', '500 mL/kg', '2 mL/kg', 'Apenas soro glicosado a 50%'],
+    o: ['20 mL/kg em bolus, repetido conforme a resposta', '500 mL/kg em bolus, em 30 minutos', '2 mL/kg em bolus, em 30 minutos', 'Apenas soro glicosado a 50%, por via venosa'],
     g: 'A',
     c: 'Reavalia-se após cada etapa. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Excessivo.', C: 'Insuficiente.', D: 'Inadequado.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_GASTRO: QuestaoCompacta[] = [
   {
     s: 'Prevenção da diarreia',
     e: 'Medidas com maior impacto na prevenção de diarreia infantil incluem:',
-    o: ['Aleitamento materno, saneamento, água tratada, higiene das mãos e vacinação contra rotavírus', 'Antibiótico profilático', 'Jejum', 'Evitar frutas'],
+    o: ['Aleitamento, saneamento, água tratada, mãos limpas e vacina', 'Antibiótico profilático, de forma contínua, nos primeiros anos', 'Jejum prolongado, nos primeiros meses de vida', 'Evitar frutas, na alimentação complementar, por risco de diarreia'],
     g: 'A',
     c: 'São medidas de saúde pública com grande impacto. Referência: Brasil. Ministério da Saúde. Manejo do paciente com diarreia (cartaz e manual de condutas). Brasília: MS, 2023.',
     x: { B: 'Sem indicação.', C: 'Contraproducente.', D: 'Sem fundamento.' },

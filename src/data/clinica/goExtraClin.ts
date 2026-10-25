@@ -5,7 +5,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: diagnóstico',
     e: 'Pré-eclâmpsia é definida como hipertensão após 20 semanas associada a:',
-    o: ['Proteinúria ou, na ausência dela, disfunção de órgão-alvo ou insuficiência placentária', 'Apenas edema de membros inferiores', 'Hipertensão prévia à gestação', 'Glicosúria'],
+    o: ['Proteinúria ou disfunção de órgão-alvo ou placentária', 'Apenas edema de membros inferiores associado', 'Hipertensão arterial já existente antes da gestação', 'Glicosúria persistente em exames de urina seriados'],
     g: 'A',
     c: 'Disfunções incluem plaquetopenia, alteração hepática ou renal, edema pulmonar, sintomas neurológicos e restrição de crescimento fetal. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'O edema não define.', C: 'É hipertensão crônica.', D: 'Sem relação.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: gravidade',
     e: 'É sinal de gravidade na pré-eclâmpsia:',
-    o: ['PA maior ou igual a 160 x 110 mmHg, cefaleia persistente, escotomas ou dor epigástrica', 'PA de 140 x 90 mmHg isolada', 'Edema de tornozelos', 'Proteinúria de 400 mg isolada'],
+    o: ['PA ≥ 160 x 110, cefaleia persistente, escotomas ou dor epigástrica', 'PA de 140 x 90 mmHg isolada, sem sintomas associados', 'Edema de tornozelos acompanhado de ganho de peso', 'Proteinúria de 400 mg em 24 horas, isoladamente'],
     g: 'A',
     c: 'Também: plaquetopenia, alteração de enzimas hepáticas, creatinina elevada, edema pulmonar e oligúria. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Sem gravidade isoladamente.', C: 'Não indica gravidade.', D: 'O valor da proteinúria não define gravidade.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: magnésio',
     e: 'Durante uso de sulfato de magnésio, paciente com reflexos patelares abolidos e frequência respiratória de 10 irpm. A conduta é:',
-    o: ['Suspender o magnésio e administrar gluconato de cálcio', 'Aumentar a dose', 'Manter e observar', 'Administrar ocitocina'],
+    o: ['Suspender o magnésio e dar gluconato de cálcio', 'Aumentar a dose do sulfato de magnésio em curso', 'Manter a infusão e apenas observar a paciente', 'Administrar ocitocina para acelerar o parto'],
     g: 'A',
     c: 'Arreflexia ocorre antes da depressão respiratória. Monitorar reflexos, frequência respiratória e diurese. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Pioraria a intoxicação.', C: 'Risco de parada respiratória.', D: 'Sem relação.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: crise hipertensiva',
     e: 'Gestante de 33 semanas com PA de 170 x 115 mmHg. Uma opção de anti-hipertensivo para crise é:',
-    o: ['Hidralazina intravenosa ou nifedipina oral de liberação imediata', 'Inibidor da ECA', 'Losartana', 'Atenolol em dose alta'],
+    o: ['Hidralazina IV ou nifedipina oral de ação rápida', 'Inibidor da ECA por via oral, como o captopril', 'Losartana por via oral em dose habitual', 'Atenolol em dose alta por via oral'],
     g: 'A',
     c: 'IECA e BRA são contraindicados na gestação pelo risco fetal. O objetivo é PA entre 140-150 x 90-100. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Contraindicado.', C: 'Contraindicada.', D: 'Associa-se a restrição de crescimento e não é de urgência.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: manutenção',
     e: 'Para hipertensão crônica ou pré-eclâmpsia sem gravidade, um anti-hipertensivo oral de primeira linha na gestação é:',
-    o: ['Metildopa ou nifedipina de liberação prolongada', 'Enalapril', 'Losartana', 'Espironolactona'],
+    o: ['Metildopa ou nifedipina de liberação prolongada', 'Enalapril por via oral em dose habitual', 'Losartana por via oral em dose habitual', 'Espironolactona por via oral em dose habitual'],
     g: 'A',
     c: 'O anlodipino também é usado em muitos protocolos. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Contraindicado.', C: 'Contraindicada.', D: 'Evitada pelo efeito antiandrogênico.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Síndrome HELLP',
     e: 'A síndrome HELLP caracteriza-se por:',
-    o: ['Hemólise, elevação de enzimas hepáticas e plaquetopenia', 'Hipertensão, edema e letargia', 'Hiperglicemia e cetose', 'Hipotireoidismo e anemia'],
+    o: ['Hemólise, enzimas hepáticas elevadas e plaquetopenia', 'Hipertensão, edema generalizado e letargia', 'Hiperglicemia, cetose e desidratação grave', 'Hipotireoidismo, anemia e ganho de peso excessivo'],
     g: 'A',
     c: 'Pode cursar com dor em hipocôndrio direito e epigástrio. Exige resolução da gestação após estabilização. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Não é a definição.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Eclâmpsia',
     e: 'Gestante de 36 semanas tem convulsão tônico-clônica. A primeira medida após proteger a via aérea é:',
-    o: ['Sulfato de magnésio intravenoso', 'Diazepam como escolha', 'Cesárea imediata durante a crise', 'Fenitoína'],
+    o: ['Sulfato de magnésio por via intravenosa', 'Diazepam como droga de escolha inicial', 'Cesárea imediata, durante a própria crise', 'Fenitoína intravenosa em dose de ataque'],
     g: 'A',
     c: 'Após estabilização materna, planeja-se a resolução da gestação. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Menos eficaz.', C: 'Primeiro estabilizar.', D: 'Menos eficaz.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Diabetes gestacional: metas',
     e: 'As metas glicêmicas no diabetes gestacional são:',
-    o: ['Jejum abaixo de 95, 1 hora após refeição abaixo de 140 e 2 horas abaixo de 120 mg/dL', 'Jejum abaixo de 130', 'Jejum abaixo de 70 sempre', 'Pós-prandial abaixo de 200'],
+    o: ['Jejum < 95, 1 h < 140 e 2 h < 120 mg/dL', 'Jejum abaixo de 130 mg/dL, 2 h < 180 mg/dL', 'Jejum abaixo de 70 mg/dL em todas as medidas', 'Glicemia pós-prandial abaixo de 200 mg/dL'],
     g: 'A',
     c: 'Metas mais rígidas reduzem macrossomia e complicações neonatais. Referência: Organização Pan-Americana da Saúde; Ministério da Saúde; FEBRASGO; SBD. Tratamento do diabetes mellitus gestacional no Brasil. Brasília: OPAS, 2019.',
     x: { B: 'Meta frouxa.', C: 'Risco de hipoglicemia.', D: 'Meta frouxa.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Diabetes gestacional: puerpério',
     e: 'Após o parto, a mulher com diabetes gestacional deve:',
-    o: ['Suspender a insulina e fazer TOTG de 75 g entre 4 e 12 semanas após o parto', 'Manter insulina por toda a vida', 'Não fazer reavaliação', 'Fazer apenas hemoglobina glicada no dia do parto'],
+    o: ['Suspender a insulina e fazer TOTG 75 g em 4 a 12 semanas', 'Manter a insulina durante toda a vida', 'Não fazer nenhuma reavaliação glicêmica depois', 'Fazer só a hemoglobina glicada no dia do parto'],
     g: 'A',
     c: 'O risco de diabetes tipo 2 no futuro é alto; a reavaliação deve ser periódica. Referência: Organização Pan-Americana da Saúde; Ministério da Saúde; FEBRASGO; SBD. Tratamento do diabetes mellitus gestacional no Brasil. Brasília: OPAS, 2019.',
     x: { B: 'Não é necessário.', C: 'A reavaliação é obrigatória.', D: 'Não substitui o TOTG.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Diabetes: complicações fetais',
     e: 'Filho de mãe diabética com controle inadequado tem risco aumentado de:',
-    o: ['Macrossomia, hipoglicemia neonatal, desconforto respiratório e malformações', 'Microcefalia isolada', 'Pós-datismo', 'Hipertireoidismo neonatal'],
+    o: ['Macrossomia, hipoglicemia neonatal e malformações', 'Microcefalia isolada e restrição de crescimento fetal', 'Pós-datismo com oligoâmnio e sofrimento fetal agudo', 'Hipertireoidismo neonatal e bócio congênito grave'],
     g: 'A',
     c: 'A hiperinsulinemia fetal explica macrossomia e hipoglicemia neonatal; a hiperglicemia no primeiro trimestre aumenta malformações. Referência: Organização Pan-Americana da Saúde; Ministério da Saúde; FEBRASGO; SBD. Tratamento do diabetes mellitus gestacional no Brasil. Brasília: OPAS, 2019.',
     x: { B: 'Não é típico.', C: 'Não é típico.', D: 'Sem relação.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Infecção urinária',
     e: 'Gestante com febre, dor lombar, Giordano positivo e urocultura com E. coli. A conduta é:',
-    o: ['Internar e iniciar antibiótico intravenoso, como ceftriaxona', 'Tratar com nitrofurantoína oral por 3 dias em casa', 'Aguardar a urocultura sem antibiótico', 'Usar ciprofloxacino'],
+    o: ['Internar e dar antibiótico IV, como ceftriaxona', 'Tratar em casa com nitrofurantoína por 3 dias', 'Aguardar a urocultura final antes de tratar', 'Usar ciprofloxacino oral em ambulatório'],
     g: 'A',
     c: 'A pielonefrite na gestação exige internação pelo risco de sepse e parto prematuro. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Inadequado para pielonefrite.', C: 'Atraso perigoso.', D: 'Evitado na gestação.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Esteatose hepática aguda',
     e: 'Gestante de 35 semanas com náuseas, vômitos, icterícia, hipoglicemia, coagulopatia e insuficiência renal. O diagnóstico mais provável é:',
-    o: ['Esteatose hepática aguda da gestação', 'Colestase da gestação', 'Hiperêmese gravídica', 'Diabetes gestacional'],
+    o: ['Esteatose hepática aguda da gestação', 'Colestase intra-hepática da gestação', 'Hiperêmese gravídica com distúrbio hidroeletrolítico', 'Diabetes mellitus gestacional descompensado'],
     g: 'A',
     c: 'É emergência: estabilização e resolução da gestação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não causa hipoglicemia e coagulopatia.', C: 'Ocorre no primeiro trimestre.', D: 'Não explica o quadro.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Trombose na gestação',
     e: 'Gestante com edema e dor em panturrilha esquerda. O exame diagnóstico de escolha é:',
-    o: ['Ultrassonografia com Doppler venoso', 'D-dímero isolado', 'Flebografia', 'Tomografia de abdome'],
+    o: ['Ultrassonografia com Doppler venoso', 'D-dímero isolado, em dosagem seriada', 'Flebografia com contraste iodado', 'Tomografia de abdome com contraste'],
     g: 'A',
     c: 'O D-dímero tem valor limitado na gestação, pois se eleva fisiologicamente. O tratamento é com heparina de baixo peso molecular. Referência: Bates SM et al. American Society of Hematology 2018 guidelines for management of venous thromboembolism in the context of pregnancy. Blood Adv. 2018;2(22):3317-59.',
     x: { B: 'Pouco útil na gestação.', C: 'Invasivo.', D: 'Sem indicação.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação na gestação',
     e: 'O anticoagulante de escolha para tratar trombose venosa na gestação é:',
-    o: ['Heparina de baixo peso molecular', 'Varfarina', 'Rivaroxabana', 'Dabigatrana'],
+    o: ['Heparina de baixo peso molecular', 'Varfarina em dose ajustada pelo INR', 'Rivaroxabana em dose habitual diária', 'Dabigatrana em dose habitual diária'],
     g: 'A',
     c: 'A varfarina é teratogênica e os anticoagulantes orais diretos não têm segurança estabelecida. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Teratogênica.', C: 'Sem segurança estabelecida.', D: 'Sem segurança estabelecida.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Epilepsia na gestação',
     e: 'Gestante epiléptica bem controlada com lamotrigina. A orientação é:',
-    o: ['Manter o anticonvulsivante, suplementar ácido fólico e monitorar níveis, pois a depuração aumenta', 'Suspender o anticonvulsivante', 'Trocar por valproato', 'Usar fenitoína associada'],
+    o: ['Manter a droga, dar ácido fólico e monitorar níveis', 'Suspender o anticonvulsivante na gestação', 'Trocar a lamotrigina por valproato', 'Associar fenitoína à lamotrigina em uso'],
     g: 'A',
     c: 'Crises convulsivas trazem risco materno e fetal; a lamotrigina tem perfil favorável. Referência: Tomson T et al. Management of epilepsy in pregnancy: a report from the International League Against Epilepsy Task Force on Women and Pregnancy. Epileptic Disord. 2019;21(6):497-517.',
     x: { B: 'Risco de crises.', C: 'Mais teratogênico.', D: 'Sem indicação.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Lúpus na gestação',
     e: 'Gestante com lúpus estável deve manter, em geral:',
-    o: ['Hidroxicloroquina, que reduz reativações', 'Micofenolato', 'Ciclofosfamida', 'Metotrexato'],
+    o: ['Hidroxicloroquina, que reduz as reativações', 'Micofenolato de mofetila em dose plena', 'Ciclofosfamida em pulsos mensais', 'Metotrexato em dose semanal baixa'],
     g: 'A',
     c: 'Micofenolato, ciclofosfamida e metotrexato são teratogênicos. Associa-se AAS para prevenir pré-eclâmpsia. Referência: Andreoli L et al. EULAR recommendations for women health and the management of family planning, assisted reproduction, pregnancy and menopause in patients with SLE and/or APS. Ann Rheum Dis. 2017;76(3):476-85.',
     x: { B: 'Teratogênico.', C: 'Teratogênico.', D: 'Teratogênico.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Lúpus neonatal',
     e: 'Recém-nascido de mãe com anti-Ro positivo tem risco de:',
-    o: ['Bloqueio atrioventricular congênito', 'Macrossomia', 'Hipertireoidismo', 'Pós-datismo'],
+    o: ['Bloqueio atrioventricular congênito', 'Macrossomia com hipoglicemia neonatal', 'Hipertireoidismo neonatal transitório', 'Pós-datismo com oligoâmnio persistente'],
     g: 'A',
     c: 'O rastreio com ecocardiograma fetal é recomendado entre 16 e 26 semanas. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Hipertensão na gestação: classificação',
     e: 'Gestante com hipertensão diagnosticada antes de 20 semanas, sem proteinúria. O diagnóstico é:',
-    o: ['Hipertensão arterial crônica', 'Hipertensão gestacional', 'Pré-eclâmpsia', 'Eclâmpsia'],
+    o: ['Hipertensão arterial crônica', 'Hipertensão gestacional transitória', 'Pré-eclâmpsia sem sinais de gravidade', 'Eclâmpsia com crise convulsiva prévia'],
     g: 'A',
     c: 'A hipertensão gestacional surge após 20 semanas sem proteinúria nem disfunção de órgãos. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Surge após 20 semanas.', C: 'Exige proteinúria ou disfunção após 20 semanas.', D: 'Exige convulsão.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia superposta',
     e: 'Gestante com hipertensão crônica passa a ter proteinúria significativa e plaquetopenia após 24 semanas. O diagnóstico é:',
-    o: ['Pré-eclâmpsia sobreposta à hipertensão crônica', 'Hipertensão gestacional', 'Hipertensão crônica não complicada', 'Síndrome nefrótica primária obrigatória'],
+    o: ['Pré-eclâmpsia sobreposta à hipertensão crônica', 'Hipertensão gestacional isolada', 'Hipertensão crônica sem complicações', 'Síndrome nefrótica primária, obrigatoriamente'],
     g: 'A',
     c: 'Exige a mesma vigilância e conduta da pré-eclâmpsia. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Já havia hipertensão prévia.', C: 'Surgiram complicações.', D: 'Não é o diagnóstico mais provável.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: fisiopatologia',
     e: 'A base fisiopatológica da pré-eclâmpsia é:',
-    o: ['Falha na segunda onda de invasão trofoblástica das artérias espiraladas, com isquemia placentária e disfunção endotelial', 'Hiperglicemia materna', 'Infecção bacteriana', 'Excesso de sal na dieta'],
+    o: ['Falha da invasão trofoblástica, com isquemia placentária', 'Hiperglicemia materna mantida durante toda a gestação', 'Infecção bacteriana ascendente do trato urinário baixo', 'Excesso de sal na dieta materna diária habitual'],
     g: 'A',
     c: 'O desequilíbrio entre fatores angiogênicos (sFlt-1 e PlGF) contribui para o quadro. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação causal.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: puerpério',
     e: 'Sobre a pré-eclâmpsia no puerpério, é correto afirmar:',
-    o: ['Pode surgir ou agravar-se após o parto, e o sulfato de magnésio é mantido por 24 horas após a resolução', 'Desaparece imediatamente no parto', 'Não exige monitorização', 'Contraindica amamentação'],
+    o: ['Pode surgir ou piorar após o parto; magnésio por 24 h', 'Desaparece imediatamente com a saída da placenta', 'Dispensa monitorização após a alta hospitalar', 'Contraindica a amamentação durante o tratamento'],
     g: 'A',
     c: 'Mulheres com pré-eclâmpsia têm maior risco cardiovascular futuro e devem ser acompanhadas. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Pode persistir ou surgir.', C: 'Exige.', D: 'Não contraindica.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: eclâmpsia',
     e: 'Sobre a eclâmpsia, é correto afirmar:',
-    o: ['Pode ocorrer sem hipertensão grave prévia e até no puerpério', 'Só ocorre com PA acima de 200 x 120', 'Só ocorre antes de 20 semanas', 'Não tem tratamento específico'],
+    o: ['Pode ocorrer sem hipertensão grave prévia e no puerpério', 'Só ocorre com PA acima de 200 x 120 mmHg', 'Só ocorre antes de completar 20 semanas', 'Não tem tratamento específico para as crises'],
     g: 'A',
     c: 'Por isso, sinais premonitórios como cefaleia e escotomas devem ser valorizados. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Pode ocorrer com níveis menores.', C: 'Ocorre após 20 semanas.', D: 'O tratamento é o magnésio.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Diabetes pré-gestacional',
     e: 'Mulher com diabetes tipo 1 planejando engravidar. A meta de hemoglobina glicada antes da concepção é:',
-    o: ['Abaixo de 6,5%, se possível sem hipoglicemia', 'Abaixo de 10%', 'Abaixo de 12%', 'Não há meta'],
+    o: ['Abaixo de 6,5%, se sem hipoglicemia', 'Abaixo de 10%, sem outras exigências', 'Abaixo de 12%, pelo risco de hipoglicemia', 'Não existe meta antes da concepção'],
     g: 'A',
     c: 'O controle pré-concepcional reduz malformações e abortamentos. Referência: American Diabetes Association. Standards of Care in Diabetes 2024, seção 15: Management of Diabetes in Pregnancy. Diabetes Care. 2024;47(Suppl 1):S282-94.',
     x: { B: 'Meta frouxa.', C: 'Meta frouxa.', D: 'Há meta.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Diabetes pré-gestacional',
     e: 'A malformação mais característica associada ao diabetes pré-gestacional mal controlado é:',
-    o: ['Síndrome da regressão caudal', 'Anencefalia exclusiva', 'Fenda palatina isolada', 'Polidactilia'],
+    o: ['Síndrome da regressão caudal', 'Anencefalia como achado exclusivo', 'Fenda palatina como achado isolado', 'Polidactilia como achado isolado'],
     g: 'A',
     c: 'Cardiopatias e defeitos de tubo neural também são mais frequentes. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Ocorre, mas não é a mais característica.', C: 'Não é característica.', D: 'Não é característica.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Diabetes gestacional: vitalidade',
     e: 'Na gestante com diabetes gestacional controlado apenas com dieta, a resolução da gestação:',
-    o: ['Pode aguardar até 40 semanas e 6 dias, com vigilância', 'Deve ser feita com 34 semanas', 'Deve ser cesárea obrigatória', 'Deve ocorrer com 37 semanas sempre'],
+    o: ['Aguardar até 40 semanas e 6 dias, com vigilância', 'Resolver obrigatoriamente com 34 semanas', 'Fazer cesárea, obrigatoriamente, em todos os casos', 'Resolver sempre com 37 semanas completas'],
     g: 'A',
     c: 'Em diabetes com insulina ou mau controle, a resolução costuma ser antecipada para 38 a 39 semanas. Referência: Organização Pan-Americana da Saúde; Ministério da Saúde; FEBRASGO; SBD. Tratamento do diabetes mellitus gestacional no Brasil. Brasília: OPAS, 2019.',
     x: { B: 'Prematuridade desnecessária.', C: 'A via segue indicação obstétrica.', D: 'Não é regra para controle dietético.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Asma na gestação',
     e: 'Gestante asmática pergunta se deve suspender o corticoide inalatório. A orientação é:',
-    o: ['Manter o tratamento, pois a asma descontrolada é mais perigosa que os medicamentos', 'Suspender todos os inalatórios', 'Usar apenas broncodilatador sob demanda', 'Usar corticoide oral contínuo'],
+    o: ['Manter; a asma descontrolada é mais perigosa', 'Suspender todos os inalatórios na gestação', 'Usar só broncodilatador quando houver sintomas', 'Trocar por corticoide oral contínuo diário'],
     g: 'A',
     c: 'Budesonida tem ampla segurança na gestação. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Aumenta exacerbações.', C: 'Insuficiente na asma persistente.', D: 'Excessivo.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Sífilis na gestação',
     e: 'Gestante com sífilis latente tardia (ou de duração ignorada). O tratamento é:',
-    o: ['Penicilina benzatina 2,4 milhões UI semanal por 3 semanas', 'Dose única de penicilina benzatina', 'Doxiciclina por 14 dias', 'Azitromicina'],
+    o: ['Penicilina benzatina 2,4 milhões UI semanal, por 3 semanas', 'Penicilina benzatina em dose única de 2,4 milhões UI', 'Doxiciclina 100 mg duas vezes ao dia por 14 dias', 'Azitromicina 2 g por via oral em dose única'],
     g: 'A',
     c: 'Sífilis recente (primária, secundária ou latente recente) é tratada com dose única. Doxiciclina é contraindicada na gestação. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Para sífilis recente.', C: 'Contraindicada.', D: 'Não é adequada.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Hepatite B na gestação',
     e: 'Gestante com HBsAg positivo e carga viral do HBV muito elevada no terceiro trimestre. A conduta para reduzir a transmissão vertical inclui:',
-    o: ['Tenofovir a partir do terceiro trimestre e imunoprofilaxia do recém-nascido com vacina e imunoglobulina', 'Cesárea obrigatória', 'Contraindicar amamentação', 'Nenhuma'],
+    o: ['Tenofovir no 3º trimestre e vacina com imunoglobulina ao RN', 'Cesárea, obrigatoriamente, em todas as gestantes', 'Contraindicar a amamentação após o nascimento', 'Nenhuma medida adicional, apenas observar o RN'],
     g: 'A',
     c: 'A vacina e a imunoglobulina devem ser aplicadas nas primeiras 12 horas de vida. A amamentação é permitida. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Não é obrigatória.', C: 'Amamentação é permitida.', D: 'Há medidas eficazes.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'HIV na gestação',
     e: 'Gestante com HIV e carga viral indetectável com 34 semanas. A via de parto é:',
-    o: ['Definida por indicação obstétrica, podendo ser vaginal', 'Cesárea obrigatória', 'Vaginal obrigatória', 'Cesárea antes de 37 semanas'],
+    o: ['Definida por indicação obstétrica, podendo ser vaginal', 'Cesárea obrigatória, em todos os casos de HIV', 'Parto vaginal obrigatório, sem exceções', 'Cesárea eletiva antes de completar 37 semanas'],
     g: 'A',
     c: 'Cesárea eletiva é indicada com carga viral desconhecida ou acima de 1.000 cópias. A amamentação é contraindicada no Brasil. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Não é obrigatória.', C: 'Não é obrigatória.', D: 'Sem indicação.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Hiperêmese gravídica',
     e: 'Gestante de 9 semanas com vômitos incoercíveis, perda de 6% do peso, cetonúria e hipocalemia. A conduta é:',
-    o: ['Internação, hidratação venosa, reposição eletrolítica, tiamina e antieméticos', 'Alta com dieta', 'Indicar interrupção da gestação', 'Corticoide como primeira linha'],
+    o: ['Internar, hidratar, repor eletrólitos, dar tiamina e antiemético', 'Alta hospitalar com orientação de dieta fracionada', 'Indicar a interrupção da gestação, pela gravidade', 'Corticoide como primeira linha de tratamento'],
     g: 'A',
     c: 'A tiamina previne encefalopatia de Wernicke. Corticoide fica para casos refratários. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Inadequado.', C: 'Sem indicação.', D: 'Não é primeira linha.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Doença renal na gestação',
     e: 'Gestante com doença renal crônica tem maior risco de:',
-    o: ['Pré-eclâmpsia, restrição de crescimento fetal e piora da função renal', 'Pós-datismo', 'Macrossomia', 'Polidrâmnio isolado'],
+    o: ['Pré-eclâmpsia, restrição de crescimento e piora renal', 'Pós-datismo com macrossomia fetal', 'Macrossomia fetal e diabetes gestacional', 'Polidrâmnio isolado e prematuridade tardia'],
     g: 'A',
     c: 'O acompanhamento deve ser em pré-natal de alto risco. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Trombofilia',
     e: 'Gestante com trombose venosa profunda prévia não provocada. A profilaxia na gestação é:',
-    o: ['Heparina de baixo peso molecular profilática durante a gestação e por 6 semanas pós-parto', 'Nenhuma', 'Varfarina', 'AAS isolado como única medida'],
+    o: ['HBPM profilática na gestação e por 6 semanas pós-parto', 'Nenhuma profilaxia, apenas deambulação precoce e hidratação', 'Varfarina em dose ajustada pelo INR durante a gestação', 'AAS isolado como única medida de profilaxia'],
     g: 'A',
     c: 'O puerpério é o período de maior risco trombótico. Referência: Bates SM et al. American Society of Hematology 2018 guidelines for management of venous thromboembolism in the context of pregnancy. Blood Adv. 2018;2(22):3317-59.',
     x: { B: 'O risco é alto.', C: 'Teratogênica.', D: 'Insuficiente.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Infecções congênitas',
     e: 'Gestante com exantema e linfadenopatia retroauricular no primeiro trimestre, com IgM para rubéola positiva. O risco para o feto é de:',
-    o: ['Síndrome da rubéola congênita, com catarata, surdez e cardiopatia', 'Nenhum risco', 'Apenas macrossomia', 'Hipertireoidismo neonatal'],
+    o: ['Síndrome da rubéola congênita: catarata, surdez, cardiopatia', 'Nenhum risco para o feto, se a mãe está bem', 'Apenas macrossomia fetal e polidrâmnio leve', 'Hipertireoidismo neonatal e bócio congênito'],
     g: 'A',
     c: 'O risco é maior no primeiro trimestre. A vacinação antes da gestação é a prevenção. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'O risco é alto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Doença hipertensiva: prevenção',
     e: 'Medida com evidência para reduzir pré-eclâmpsia em gestantes com baixa ingestão de cálcio é:',
-    o: ['Suplementação de cálcio', 'Restrição de sal', 'Repouso absoluto', 'Diurético'],
+    o: ['Suplementação de cálcio', 'Restrição de sal na dieta', 'Repouso absoluto no leito', 'Uso contínuo de diurético'],
     g: 'A',
     c: 'A OMS recomenda 1,5 a 2 g de cálcio elementar ao dia em populações com baixa ingestão. Referência: World Health Organization. WHO recommendation: Calcium supplementation during pregnancy for the prevention of pre-eclampsia and its complications. Geneva: WHO, 2018.',
     x: { B: 'Sem benefício.', C: 'Sem benefício.', D: 'Sem benefício.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: rastreamento',
     e: 'Gestante com pré-eclâmpsia em gestação anterior, nova gestação de 12 semanas. A conduta preventiva é:',
-    o: ['Ácido acetilsalicílico em dose baixa até 36 semanas', 'Nenhuma', 'Anti-hipertensivo profilático', 'Repouso'],
+    o: ['AAS em dose baixa até 36 semanas', 'Nenhuma medida, apenas pré-natal habitual', 'Anti-hipertensivo profilático desde o início', 'Repouso relativo domiciliar a partir do 2º trimestre'],
     g: 'A',
     c: 'Pré-eclâmpsia prévia é fator de alto risco. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Há prevenção.', C: 'Sem indicação.', D: 'Sem benefício.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Diabetes: cetoacidose',
     e: 'Gestante com diabetes tipo 1 e cetoacidose. É correto afirmar:',
-    o: ['Pode ocorrer com glicemias menos elevadas que fora da gestação e associa-se a alta mortalidade fetal', 'Nunca ocorre na gestação', 'Não exige tratamento imediato', 'Exige cesárea imediata durante a descompensação'],
+    o: ['Ocorre com glicemias mais baixas; eleva a mortalidade fetal', 'Nunca ocorre durante a gestação, mesmo no tipo 1', 'Não exige tratamento imediato, apenas observação clínica', 'Exige cesárea imediata durante a descompensação materna'],
     g: 'A',
     c: 'A estabilização materna é prioridade, e as alterações fetais costumam melhorar com o tratamento. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Pode ocorrer.', C: 'É emergência.', D: 'Primeiro estabiliza-se a mãe.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Gestação e obesidade',
     e: 'Gestante com IMC pré-gestacional de 38. É correto afirmar:',
-    o: ['Tem maior risco de diabetes gestacional, pré-eclâmpsia, macrossomia e tromboembolismo', 'Tem menor risco obstétrico', 'Deve perder peso de forma intensa durante a gestação', 'Não precisa de rastreamento de diabetes'],
+    o: ['Maior risco de DMG, pré-eclâmpsia, macrossomia e TEV', 'Menor risco obstétrico que as gestantes de peso normal', 'Deve perder peso de forma intensa na gestação', 'Dispensa rastreamento de diabetes na gestação'],
     g: 'A',
     c: 'O ganho de peso recomendado é de 5 a 9 kg. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Maior risco.', C: 'Dieta restritiva intensa não é recomendada.', D: 'Precisa.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_CLIN: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia: sinais premonitórios',
     e: 'Sinais que indicam iminência de eclâmpsia incluem:',
-    o: ['Cefaleia intensa, escotomas visuais, epigastralgia e hiper-reflexia', 'Edema discreto de tornozelos', 'Náuseas no primeiro trimestre', 'Polaciúria'],
+    o: ['Cefaleia intensa, escotomas, epigastralgia e hiper-reflexia', 'Edema discreto de tornozelos ao fim do dia', 'Náuseas e vômitos matinais do primeiro trimestre', 'Polaciúria e aumento da frequência de micções'],
     g: 'A',
     c: 'Exigem sulfato de magnésio e avaliação para resolução. Referência: Peraçoli JC et al. Pré-eclâmpsia/eclâmpsia: Protocolo nº 01. Rede Brasileira de Estudos sobre Hipertensão e Gravidez (RBEHG), 2023.',
     x: { B: 'Achado comum.', C: 'Sem relação.', D: 'Sem relação.' },

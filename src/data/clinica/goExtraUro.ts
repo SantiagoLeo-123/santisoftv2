@@ -13,7 +13,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência de esforço: tratamento',
     e: 'O tratamento de primeira linha da incontinência urinária de esforço é:',
-    o: ['Treinamento da musculatura do assoalho pélvico supervisionado por pelo menos 3 meses', 'Sling imediato em todas', 'Antimuscarínico', 'Sondagem vesical'],
+    o: ['Treino do assoalho pélvico supervisionado por 3 meses', 'Sling imediato em todas as pacientes', 'Antimuscarínico oral, em dose habitual', 'Sondagem vesical de demora, por 2 semanas'],
     g: 'A',
     c: 'Perda de peso e controle de tosse e constipação também ajudam. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Reservado a falha do tratamento conservador.', C: 'Trata urgência.', D: 'Sem indicação.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência de esforço: cirurgia',
     e: 'Após falha do tratamento conservador na incontinência de esforço, a cirurgia mais usada é:',
-    o: ['Sling de uretra média (retropúbico ou transobturatório)', 'Histerectomia', 'Colpocleise', 'Cistectomia'],
+    o: ['Sling de uretra média (retropúbico ou transobturatório)', 'Histerectomia total, por via vaginal ou aberta', 'Colpocleise, com fechamento total da vagina', 'Cistectomia parcial, por via aberta ou laparoscópica'],
     g: 'A',
     c: 'A colpossuspensão de Burch é alternativa. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Não trata incontinência.', C: 'Trata prolapso.', D: 'Sem indicação.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Bexiga hiperativa',
     e: 'Mulher de 60 anos com urgência miccional, polaciúria, noctúria e perdas antes de chegar ao banheiro, urina tipo 1 normal. O diagnóstico é:',
-    o: ['Síndrome da bexiga hiperativa', 'Incontinência de esforço', 'Cistite aguda', 'Fístula'],
+    o: ['Síndrome da bexiga hiperativa', 'Incontinência urinária de esforço pura', 'Cistite bacteriana aguda não complicada', 'Fístula vesicovaginal, após cirurgia pélvica'],
     g: 'A',
     c: 'É diagnóstico clínico, após excluir infecção e outras causas. Referência: Lightner DJ et al. Diagnosis and Treatment of Overactive Bladder (Non-Neurogenic) in Adults: AUA/SUFU Guideline Amendment 2019. J Urol. 2019;202(3):558-63.',
     x: { B: 'Perda aos esforços.', C: 'Urina seria alterada.', D: 'Perda contínua.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Bexiga hiperativa: tratamento',
     e: 'O tratamento de primeira linha da bexiga hiperativa é:',
-    o: ['Medidas comportamentais: treinamento vesical, ajuste de líquidos, redução de cafeína e treino do assoalho pélvico', 'Sling de uretra média', 'Toxina botulínica como primeira escolha', 'Cirurgia de prolapso'],
+    o: ['Medidas comportamentais: treino vesical, líquidos e cafeína', 'Sling de uretra média, como primeira escolha de tratamento', 'Toxina botulínica no detrusor, como primeira escolha', 'Cirurgia de correção do prolapso genital associado'],
     g: 'A',
     c: 'Farmacoterapia (antimuscarínicos ou beta-3 agonistas) é segunda linha. Referência: Lightner DJ et al. Diagnosis and Treatment of Overactive Bladder (Non-Neurogenic) in Adults: AUA/SUFU Guideline Amendment 2019. J Urol. 2019;202(3):558-63.',
     x: { B: 'Trata incontinência de esforço.', C: 'Terceira linha.', D: 'Sem relação.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Bexiga hiperativa: medicamentos',
     e: 'Idosa com bexiga hiperativa e comprometimento cognitivo leve. A opção farmacológica preferível é:',
-    o: ['Mirabegrona (agonista beta-3)', 'Oxibutinina', 'Amitriptilina', 'Diazepam'],
+    o: ['Mirabegrona (agonista beta-3)', 'Oxibutinina, antimuscarínico de longa data', 'Amitriptilina, antidepressivo tricíclico', 'Diazepam, benzodiazepínico de ação longa'],
     g: 'A',
     c: 'Antimuscarínicos, como a oxibutinina, associam-se a piora cognitiva em idosos. Referência: Lightner DJ et al. Diagnosis and Treatment of Overactive Bladder (Non-Neurogenic) in Adults: AUA/SUFU Guideline Amendment 2019. J Urol. 2019;202(3):558-63.',
     x: { B: 'Risco cognitivo.', C: 'Anticolinérgico.', D: 'Sem indicação.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Bexiga hiperativa: refratária',
     e: 'Na bexiga hiperativa refratária ao tratamento comportamental e medicamentoso, uma opção é:',
-    o: ['Injeção de toxina botulínica no detrusor ou neuromodulação sacral ou tibial', 'Sling', 'Histerectomia', 'Antibiótico prolongado'],
+    o: ['Toxina botulínica no detrusor ou neuromodulação sacral', 'Sling de uretra média, por via transobturatória', 'Histerectomia total, por via vaginal', 'Antibiótico prolongado, em dose de supressão'],
     g: 'A',
     c: 'A toxina pode causar retenção urinária, exigindo autocateterismo em alguns casos. Referência: Lightner DJ et al. Diagnosis and Treatment of Overactive Bladder (Non-Neurogenic) in Adults: AUA/SUFU Guideline Amendment 2019. J Urol. 2019;202(3):558-63.',
     x: { B: 'Trata esforço.', C: 'Sem relação.', D: 'Sem infecção.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência mista',
     e: 'Mulher com perdas aos esforços e também por urgência. A conduta inicial é:',
-    o: ['Tratamento conservador direcionado ao componente predominante', 'Cirurgia imediata', 'Sondagem de demora', 'Nada'],
+    o: ['Tratamento conservador do componente predominante', 'Cirurgia imediata, com sling de uretra média', 'Sondagem de demora, por tempo indeterminado', 'Nenhuma medida, apenas acompanhamento anual'],
     g: 'A',
     c: 'O componente mais incômodo orienta a escolha inicial. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Não é inicial.', C: 'Sem indicação.', D: 'Exige tratamento.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência por transbordamento',
     e: 'Mulher diabética com gotejamento constante, jato fraco e resíduo pós-miccional de 400 mL. O diagnóstico é:',
-    o: ['Incontinência por transbordamento por hipocontratilidade do detrusor', 'Incontinência de esforço', 'Bexiga hiperativa', 'Fístula vesicovaginal'],
+    o: ['Incontinência por transbordamento, com hipocontratilidade do detrusor', 'Incontinência urinária de esforço, por hipermobilidade', 'Bexiga hiperativa, com contrações involuntárias', 'Fístula vesicovaginal, com perda contínua de urina'],
     g: 'A',
     c: 'A neuropatia diabética é causa comum; o tratamento envolve cateterismo intermitente. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sem retenção.', C: 'Sem retenção.', D: 'Resíduo não seria alto.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Investigação',
     e: 'Na avaliação inicial da incontinência urinária, o diário miccional serve para:',
-    o: ['Registrar frequência, volume urinado, ingestão de líquidos e episódios de perda', 'Diagnosticar câncer', 'Substituir a urina tipo 1', 'Medir a pressão do detrusor'],
+    o: ['Registrar frequência, volume, líquidos e perdas', 'Diagnosticar câncer de bexiga, com precisão', 'Substituir o exame de urina tipo 1', 'Medir a pressão do detrusor, durante o enchimento'],
     g: 'A',
     c: 'Preenchido por 3 dias, orienta diagnóstico e tratamento. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Sem relação.', C: 'Não substitui.', D: 'Isso é o estudo urodinâmico.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Estudo urodinâmico',
     e: 'O estudo urodinâmico está indicado principalmente:',
-    o: ['Antes de cirurgia quando o tipo de incontinência é incerto, após falha cirúrgica ou em suspeita de disfunção neurológica', 'Para toda mulher com incontinência na primeira consulta', 'Para diagnosticar infecção', 'Na gestação de rotina'],
+    o: ['Antes de cirurgia com tipo incerto, após falha ou suspeita neurológica', 'Em toda mulher com incontinência, na primeira consulta', 'Para diagnosticar infecção do trato urinário baixo', 'Na gestação, como exame de rotina do pré-natal'],
     g: 'A',
     c: 'Na incontinência de esforço pura e clara, não é obrigatório antes do sling. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Não é rotina.', C: 'Sem relação.', D: 'Sem indicação.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: fatores de risco',
     e: 'O principal fator de risco para prolapso genital é:',
-    o: ['Parto vaginal, especialmente múltiplos e com fetos grandes', 'Nuliparidade', 'Uso de anticoncepcional', 'Cesárea eletiva'],
+    o: ['Parto vaginal, sobretudo múltiplos e com fetos grandes', 'Nuliparidade, com assoalho pélvico íntegro', 'Uso prolongado de anticoncepcional hormonal', 'Cesárea eletiva, sem trabalho de parto prévio'],
     g: 'A',
     c: 'Outros: idade, menopausa, obesidade, constipação e tosse crônicas. Referência: Bump RC et al. The standardization of terminology of female pelvic organ prolapse and pelvic floor dysfunction. Am J Obstet Gynecol. 1996;175(1):10-7.',
     x: { B: 'Fator protetor relativo.', C: 'Sem relação.', D: 'Menor risco.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: estadiamento',
     e: 'Prolapso cuja porção mais distal ultrapassa o hímen em mais de 1 cm, mas sem eversão completa, corresponde ao estádio POP-Q:',
-    o: ['III', 'I', 'II', 'IV'],
+    o: ['Estádio III', 'Estádio I', 'Estádio II', 'Estádio IV'],
     g: 'A',
     c: 'Estádio II: porção mais distal entre 1 cm acima e 1 cm abaixo do hímen; IV: eversão completa. Referência: Bump RC et al. The standardization of terminology of female pelvic organ prolapse and pelvic floor dysfunction. Am J Obstet Gynecol. 1996;175(1):10-7.',
     x: { B: 'Acima do hímen.', C: 'Até 1 cm do hímen.', D: 'Eversão completa.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: colpocleise',
     e: 'Idosa com prolapso total, sem vida sexual e sem desejo de tê-la, com alto risco cirúrgico. Uma cirurgia de baixa morbidade e alta eficácia é:',
-    o: ['Colpocleise (fechamento vaginal)', 'Sacrocolpopexia abdominal', 'Sling', 'Miomectomia'],
+    o: ['Colpocleise (fechamento vaginal)', 'Sacrocolpopexia abdominal, com tela', 'Sling de uretra média, transobturatório', 'Miomectomia, por via histeroscópica'],
     g: 'A',
     c: 'Impede relação sexual vaginal futura, o que deve ser discutido. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Maior morbidade.', C: 'Trata incontinência.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso de cúpula',
     e: 'Prolapso de cúpula vaginal após histerectomia, em mulher sexualmente ativa. A cirurgia com melhores resultados de longo prazo é:',
-    o: ['Sacrocolpopexia', 'Colpocleise', 'Sling', 'Conização'],
+    o: ['Sacrocolpopexia, com tela, por via abdominal', 'Colpocleise, com fechamento total da vagina', 'Sling de uretra média, retropúbico', 'Conização do colo, com bisturi a frio'],
     g: 'A',
     c: 'Fixação ao ligamento sacroespinhoso por via vaginal é alternativa. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Impede atividade sexual.', C: 'Trata incontinência.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: compartimentos',
     e: 'Abaulamento da parede vaginal anterior, com sensação de bola e dificuldade para esvaziar a bexiga, corresponde a:',
-    o: ['Cistocele (prolapso de parede anterior)', 'Retocele', 'Enterocele', 'Prolapso uterino isolado'],
+    o: ['Cistocele (prolapso de parede anterior)', 'Retocele (prolapso da parede posterior)', 'Enterocele (herniação do intestino delgado)', 'Prolapso uterino isolado, sem cistocele'],
     g: 'A',
     c: 'A retocele acomete a parede posterior e causa dificuldade evacuatória. Referência: Bump RC et al. The standardization of terminology of female pelvic organ prolapse and pelvic floor dysfunction. Am J Obstet Gynecol. 1996;175(1):10-7.',
     x: { B: 'Parede posterior.', C: 'Fundo de saco.', D: 'Não é a parede anterior.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência: estrogênio',
     e: 'Na mulher pós-menopáusica com bexiga hiperativa e atrofia vaginal, o estrogênio vaginal:',
-    o: ['Pode melhorar sintomas de urgência e reduzir infecções urinárias recorrentes', 'Piora a incontinência', 'É contraindicado sempre', 'Trata incontinência de esforço como primeira linha'],
+    o: ['Melhora a urgência e reduz ITU de repetição', 'Piora a incontinência, por irritação local', 'É sempre contraindicado, após a menopausa', 'Trata a incontinência de esforço, como primeira linha'],
     g: 'A',
     c: 'O estrogênio sistêmico, por outro lado, pode piorar a incontinência. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Não piora.', C: 'Não é contraindicado sempre.', D: 'Não é primeira linha para esforço.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Cistite intersticial',
     e: 'Mulher com dor suprapúbica crônica que piora com a bexiga cheia e melhora após urinar, polaciúria e uroculturas sempre negativas. A hipótese é:',
-    o: ['Síndrome da bexiga dolorosa (cistite intersticial)', 'Cistite bacteriana aguda', 'Incontinência de esforço', 'Fístula'],
+    o: ['Síndrome da bexiga dolorosa (cistite intersticial)', 'Cistite bacteriana aguda, com urocultura positiva', 'Incontinência urinária de esforço, com tosse', 'Fístula vesicovaginal, com perda contínua de urina'],
     g: 'A',
     c: 'É diagnóstico de exclusão. Referência: Clemens JQ et al. Diagnosis and Treatment of Interstitial Cystitis/Bladder Pain Syndrome: AUA Guideline Amendment 2022. J Urol. 2022;208(1):34-42.',
     x: { B: 'Urocultura seria positiva.', C: 'Sem dor.', D: 'Haveria perda contínua.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Teste de esforço',
     e: 'Para demonstrar incontinência de esforço no consultório, solicita-se à paciente:',
-    o: ['Tossir ou fazer Valsalva com a bexiga confortavelmente cheia, observando a perda', 'Urinar em jato', 'Ficar em jejum', 'Deitar sem bexiga cheia'],
+    o: ['Tossir ou fazer Valsalva com a bexiga cheia', 'Urinar em jato, durante o exame', 'Permanecer em jejum, antes do exame', 'Deitar com a bexiga vazia, em repouso'],
     g: 'A',
     c: 'A perda sincrônica com a tosse confirma o diagnóstico clínico. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Não demonstra.', C: 'Sem relação.', D: 'Reduz a sensibilidade.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência: idosas',
     e: 'Idosa com incontinência de início recente e confusão. Antes de tratar como incontinência crônica, deve-se buscar causas transitórias, como:',
-    o: ['Delirium, infecção urinária, medicamentos, constipação e restrição de mobilidade', 'Mioma', 'Câncer de ovário', 'Endometriose'],
+    o: ['Delirium, ITU, drogas, constipação e imobilidade', 'Mioma uterino, com sintomas compressivos vesicais', 'Câncer de ovário, com ascite e compressão vesical', 'Endometriose profunda, com dor pélvica crônica'],
     g: 'A',
     c: 'O mnemônico DIAPPERS resume as causas transitórias. Referência: Resnick NM. Urinary incontinence in the elderly. Med Grand Rounds. 1984;3:281-90.',
     x: { B: 'Raro.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Anatomia do assoalho pélvico',
     e: 'O principal músculo de sustentação dos órgãos pélvicos é o:',
-    o: ['Levantador do ânus', 'Reto abdominal', 'Psoas', 'Glúteo máximo'],
+    o: ['Levantador do ânus', 'Reto abdominal, na parede anterior', 'Psoas, na parede posterior da pelve', 'Glúteo máximo, na região glútea'],
     g: 'A',
     c: 'Lesões no parto vaginal, como a avulsão do levantador, associam-se a prolapso. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Anatomia: níveis de DeLancey',
     e: 'Pela teoria de DeLancey, o nível I de suporte vaginal é dado por:',
-    o: ['Complexo de ligamentos cardinais e uterossacros, sustentando o ápice', 'Fáscia pubocervical lateral', 'Corpo perineal', 'Esfíncter anal'],
+    o: ['Ligamentos cardinais e uterossacros, sustentando o ápice', 'Fáscia pubocervical lateral, no terço médio', 'Corpo perineal, no terço distal da vagina', 'Esfíncter anal, no terço distal do canal'],
     g: 'A',
     c: 'Falhas no nível I causam prolapso apical (uterino ou de cúpula). Referência: DeLancey JO. Anatomic aspects of vaginal eversion after hysterectomy. Am J Obstet Gynecol. 1992;166(6 Pt 1):1717-24.',
     x: { B: 'Nível II.', C: 'Nível III.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso uterino: cirurgia',
     e: 'Mulher de 65 anos com prolapso uterino estádio III, sexualmente ativa, sem desejo de preservar o útero. Uma opção cirúrgica é:',
-    o: ['Histerectomia vaginal com suspensão da cúpula', 'Colpocleise', 'Sling isolado', 'Miomectomia'],
+    o: ['Histerectomia vaginal com suspensão da cúpula', 'Colpocleise, com fechamento da vagina', 'Sling isolado, sem correção do prolapso', 'Miomectomia, por via histeroscópica'],
     g: 'A',
     c: 'A suspensão apical é essencial para evitar recidiva. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Impede relação sexual.', C: 'Não corrige prolapso.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: telas',
     e: 'Sobre o uso de telas sintéticas por via vaginal no reparo de prolapso, é correto afirmar:',
-    o: ['Foi restringido em vários países por complicações como erosão e dor', 'É a primeira escolha em todos os casos', 'Não tem complicações', 'É proibido em sacrocolpopexia abdominal'],
+    o: ['Restringido em vários países por erosão e dor', 'É a primeira escolha em todos os casos', 'Não tem complicações, em nenhuma série', 'É proibido na sacrocolpopexia abdominal'],
     g: 'A',
     c: 'Telas abdominais na sacrocolpopexia continuam sendo usadas. Referência: U.S. Food and Drug Administration. FDA takes action to protect women health, orders manufacturers of surgical mesh intended for transvaginal repair of pelvic organ prolapse to stop selling all devices. 2019.',
     x: { B: 'Não é primeira escolha.', C: 'Há complicações.', D: 'Continua em uso.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: sintomas',
     e: 'O sintoma mais específico de prolapso genital é:',
-    o: ['Sensação de bola ou peso na vagina, que piora no fim do dia', 'Febre', 'Sangramento pós-coito isolado', 'Prurido'],
+    o: ['Sensação de bola ou peso na vagina, pior à tarde', 'Febre baixa, com dor pélvica persistente', 'Sangramento pós-coito, como queixa isolada', 'Prurido vulvar intenso, de longa duração'],
     g: 'A',
     c: 'O prolapso assintomático não precisa de tratamento. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência: prolapso oculto',
     e: 'Mulher com prolapso grande sem incontinência de esforço passa a perder urina após a correção cirúrgica. O fenômeno é chamado de:',
-    o: ['Incontinência de esforço oculta (mascarada pelo prolapso)', 'Fístula', 'Bexiga hiperativa de novo obrigatória', 'Retenção'],
+    o: ['Incontinência de esforço oculta, mascarada pelo prolapso', 'Fístula vesicovaginal, por lesão cirúrgica', 'Bexiga hiperativa de novo, obrigatoriamente', 'Retenção urinária, por obstrução uretral'],
     g: 'A',
     c: 'O prolapso pode dobrar a uretra e esconder a incontinência; o teste com redução do prolapso ajuda a identificá-la. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Não é fístula.', C: 'Não necessariamente.', D: 'Efeito oposto.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Bexiga hiperativa: antimuscarínicos',
     e: 'Os antimuscarínicos são contraindicados em pacientes com:',
-    o: ['Glaucoma de ângulo fechado não tratado e retenção urinária', 'Hipertensão controlada', 'Diabetes', 'Asma'],
+    o: ['Glaucoma de ângulo fechado não tratado e retenção urinária', 'Hipertensão arterial controlada com medicação', 'Diabetes mellitus tipo 2, bem controlado', 'Asma brônquica, em uso de corticoide inalado'],
     g: 'A',
     c: 'Efeitos adversos incluem boca seca, constipação e alteração cognitiva. Referência: Lightner DJ et al. Diagnosis and Treatment of Overactive Bladder (Non-Neurogenic) in Adults: AUA/SUFU Guideline Amendment 2019. J Urol. 2019;202(3):558-63.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência: gestação e parto',
     e: 'Sobre incontinência urinária no puerpério, é correto afirmar:',
-    o: ['É comum e frequentemente melhora com o tempo e com fisioterapia do assoalho pélvico', 'É sempre permanente', 'Exige sling imediato', 'Não tem relação com o parto'],
+    o: ['É comum e melhora com o tempo e fisioterapia', 'É sempre permanente, após o parto', 'Exige sling imediato, ainda no puerpério', 'Não tem relação com o parto vaginal'],
     g: 'A',
     c: 'O treinamento do assoalho pélvico na gestação também reduz incontinência pós-parto. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Tende a melhorar.', C: 'Sem indicação imediata.', D: 'Há relação.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Bexiga neurogênica',
     e: 'Mulher com esclerose múltipla e urgência com perdas. Sobre a investigação, é correto afirmar:',
-    o: ['O estudo urodinâmico é recomendado, pela possibilidade de disfunção neurogênica com dissinergia', 'Não precisa de investigação', 'Deve receber sling', 'Deve receber cistectomia'],
+    o: ['Estudo urodinâmico, por possível disfunção neurogênica', 'Não precisa de investigação complementar, pelo quadro', 'Deve receber sling de uretra média, de imediato', 'Deve receber cistectomia parcial, de imediato'],
     g: 'A',
     c: 'A proteção do trato urinário superior é prioritária. Referência: Ginsberg DA et al. The AUA/SUFU Guideline on Adult Neurogenic Lower Urinary Tract Dysfunction. J Urol. 2021;206(5):1097-105.',
     x: { B: 'Precisa.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência: obesidade',
     e: 'Em mulher obesa com incontinência de esforço, a perda de peso:',
-    o: ['Reduz os episódios de incontinência, sendo recomendada', 'Piora a incontinência', 'Não tem efeito', 'Só ajuda após sling'],
+    o: ['Reduz os episódios, sendo recomendada', 'Piora a incontinência, por aumento da pressão', 'Não tem nenhum efeito sobre a incontinência', 'Só ajuda após a realização do sling'],
     g: 'A',
     c: 'Perdas de 5 a 10% do peso já trazem benefício. Referência: Subak LL et al. Weight loss to treat urinary incontinence in overweight and obese women. N Engl J Med. 2009;360(5):481-90.',
     x: { B: 'Melhora.', C: 'Tem efeito.', D: 'Ajuda antes.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: pessário',
     e: 'Usuária de pessário vaginal apresenta corrimento fétido e sangramento. A hipótese principal é:',
-    o: ['Erosão ou ulceração vaginal pelo pessário', 'Câncer de colo obrigatoriamente', 'Gestação', 'Prolapso curado'],
+    o: ['Erosão ou ulceração vaginal pelo pessário', 'Câncer de colo, obrigatoriamente, nesse quadro', 'Gestação, com sangramento de implantação', 'Cura do prolapso, com eliminação de secreção'],
     g: 'A',
     c: 'Remove-se temporariamente, usa-se estrogênio vaginal e reavalia-se. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Deve-se considerar, mas a erosão é mais comum.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência fecal',
     e: 'Mulher com incontinência fecal após parto com laceração de terceiro grau. A causa provável é:',
-    o: ['Lesão do esfíncter anal', 'Hemorroidas', 'Bexiga hiperativa', 'Prolapso uterino'],
+    o: ['Lesão do esfíncter anal', 'Hemorroidas internas, com prolapso', 'Bexiga hiperativa, associada ao parto', 'Prolapso uterino, de grau avançado'],
     g: 'A',
     c: 'A ultrassonografia endoanal avalia o defeito. Referência: Royal College of Obstetricians and Gynaecologists. Green-top Guideline 29: The Management of Third- and Fourth-Degree Perineal Tears. London: RCOG, 2015.',
     x: { B: 'Não causa incontinência.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência: tipos',
     e: 'A incontinência urinária mais comum em mulheres jovens e de meia-idade é:',
-    o: ['Incontinência de esforço', 'Por transbordamento', 'Por fístula', 'Funcional'],
+    o: ['Incontinência de esforço', 'Incontinência por transbordamento', 'Incontinência por fístula urinária', 'Incontinência funcional, em idosas'],
     g: 'A',
     c: 'Em idosas, a bexiga hiperativa e a mista ganham importância. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Rara.', C: 'Rara.', D: 'Mais comum em idosas frágeis.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: hidronefrose',
     e: 'Prolapso uterino total de longa data pode causar:',
-    o: ['Hidronefrose por angulação ureteral', 'Hipertireoidismo', 'Diabetes', 'Anemia hemolítica'],
+    o: ['Hidronefrose, por angulação ureteral', 'Hipertireoidismo, com bócio e tremores', 'Diabetes mellitus, por resistência insulínica', 'Anemia hemolítica, com icterícia e esplenomegalia'],
     g: 'A',
     c: 'A correção do prolapso costuma resolver a obstrução. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Sling: complicação',
     e: 'Após sling de uretra média, paciente tem dificuldade de esvaziar a bexiga e resíduo elevado. A complicação é:',
-    o: ['Obstrução infravesical por tensão excessiva da faixa', 'Fístula retovaginal', 'Prolapso', 'Bexiga hiperativa sempre'],
+    o: ['Obstrução infravesical por tensão excessiva da faixa', 'Fístula retovaginal, por lesão do reto', 'Prolapso de cúpula vaginal, recorrente', 'Bexiga hiperativa de novo, em todos os casos'],
     g: 'A',
     c: 'Pode exigir afrouxamento ou secção da faixa. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Pode surgir, mas não explica retenção.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência: cafeína',
     e: 'Para mulher com bexiga hiperativa, a orientação sobre cafeína é:',
-    o: ['Reduzir, pois a cafeína é irritante vesical e diurética', 'Aumentar o consumo', 'Não tem relação', 'Substituir água por café'],
+    o: ['Reduzir, pois irrita a bexiga e é diurética', 'Aumentar o consumo, para limpar a bexiga', 'Não tem relação com os sintomas urinários', 'Substituir água por café, ao longo do dia'],
     g: 'A',
     c: 'Também se recomenda ajustar a ingestão de líquidos, evitando excesso e restrição grave. Referência: Lightner DJ et al. Diagnosis and Treatment of Overactive Bladder (Non-Neurogenic) in Adults: AUA/SUFU Guideline Amendment 2019. J Urol. 2019;202(3):558-63.',
     x: { B: 'Pioraria.', C: 'Há relação.', D: 'Pioraria.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: gestação',
     e: 'O prolapso uterino durante a gestação:',
-    o: ['É raro e geralmente melhora com o crescimento uterino, que traz o útero para o abdome', 'É sempre indicação de cesárea imediata', 'Exige histerectomia', 'É comum no terceiro trimestre'],
+    o: ['Raro; costuma melhorar com o crescimento do útero', 'Sempre indicação de cesárea imediata, ao diagnóstico', 'Exige histerectomia, ainda durante a gestação', 'É comum no terceiro trimestre, em todas'],
     g: 'A',
     c: 'O pessário pode ser usado no início da gestação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não necessariamente.', C: 'Sem indicação.', D: 'É raro.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Teste de Bonney e cotonete',
     e: 'O teste do cotonete (Q-tip), com variação do ângulo uretral maior que 30 graus ao esforço, indica:',
-    o: ['Hipermobilidade uretral', 'Fístula', 'Bexiga neurogênica', 'Uretrite'],
+    o: ['Hipermobilidade uretral', 'Fístula vesicovaginal, com perda contínua', 'Bexiga neurogênica, com retenção urinária', 'Uretrite, com disúria e secreção'],
     g: 'A',
     c: 'Hoje é menos usado; a ultrassonografia perineal pode substituí-lo. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Bexiga hiperativa: noctúria',
     e: 'Mulher com noctúria importante e edema de membros inferiores ao fim do dia. Uma orientação útil é:',
-    o: ['Elevar as pernas no fim da tarde e reduzir líquidos à noite', 'Aumentar a ingestão noturna', 'Usar diurético antes de dormir', 'Usar oxibutinina em dose dobrada'],
+    o: ['Elevar as pernas à tarde e reduzir líquidos à noite', 'Aumentar a ingestão de líquidos à noite', 'Usar diurético imediatamente antes de dormir', 'Usar oxibutinina em dose dobrada, à noite'],
     g: 'A',
     c: 'A mobilização do líquido do edema ao deitar aumenta a diurese noturna. Referência: Lightner DJ et al. Diagnosis and Treatment of Overactive Bladder (Non-Neurogenic) in Adults: AUA/SUFU Guideline Amendment 2019. J Urol. 2019;202(3):558-63.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Não resolve a causa.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Fístula: obstétrica',
     e: 'Em países com acesso precário ao parto, a principal causa de fístula vesicovaginal é:',
-    o: ['Trabalho de parto obstruído prolongado, com necrose por pressão', 'Cesárea eletiva', 'Infecção urinária simples', 'Uso de DIU'],
+    o: ['Trabalho de parto obstruído e prolongado, com necrose', 'Cesárea eletiva, sem trabalho de parto prévio', 'Infecção urinária simples, de repetição, tratada', 'Uso prolongado de DIU de cobre, bem posicionado'],
     g: 'A',
     c: 'A prevenção é o acesso a cuidado obstétrico de qualidade. Referência: World Health Organization. Obstetric fistula: guiding principles for clinical management and programme development. Geneva: WHO, 2006.',
     x: { B: 'Não é a principal.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Incontinência: pessário',
     e: 'Pessários de continência podem ser usados em:',
-    o: ['Mulheres com incontinência de esforço que preferem evitar cirurgia ou praticam atividades específicas', 'Mulheres com fístula', 'Bexiga neurogênica com retenção', 'Cistite aguda'],
+    o: ['Incontinência de esforço, em quem evita cirurgia', 'Mulheres com fístula vesicovaginal conhecida', 'Bexiga neurogênica com retenção urinária', 'Cistite aguda bacteriana, não complicada'],
     g: 'A',
     c: 'São opção conservadora reversível. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Não trata fístula.', C: 'Pode piorar.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Prolapso: assintomático',
     e: 'Mulher com prolapso estádio II assintomático ao exame de rotina. A conduta é:',
-    o: ['Observação e orientação, com treino do assoalho pélvico se desejado', 'Cirurgia imediata', 'Pessário obrigatório', 'Histerectomia'],
+    o: ['Observação e orientação, com treino do assoalho', 'Cirurgia imediata, com correção do prolapso', 'Pessário obrigatório, em todos os casos', 'Histerectomia vaginal, de rotina'],
     g: 'A',
     c: 'O tratamento é guiado por sintomas. Referência: National Institute for Health and Care Excellence. Urinary incontinence and pelvic organ prolapse in women: management (NG123). London: NICE, 2019.',
     x: { B: 'Sem indicação.', C: 'Não obrigatório.', D: 'Sem indicação.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_URO: QuestaoCompacta[] = [
   {
     s: 'Infecção urinária: diagnóstico',
     e: 'Mulher com disúria, polaciúria e urgência há 2 dias, sem febre nem dor lombar, não gestante. A conduta é:',
-    o: ['Tratar cistite não complicada empiricamente, por exemplo com nitrofurantoína ou fosfomicina', 'Exigir urocultura antes de qualquer tratamento em todos os casos', 'Internar', 'Indicar cistoscopia'],
+    o: ['Tratar cistite não complicada: nitrofurantoína ou fosfomicina', 'Exigir urocultura antes de qualquer tratamento, sempre', 'Internar para antibiótico intravenoso, de rotina', 'Indicar cistoscopia, antes de tratar a infecção'],
     g: 'A',
     c: 'A urocultura é indicada em recorrências, falhas e gestantes. Referência: Gupta K et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women. Clin Infect Dis. 2011;52(5):e103-20.',
     x: { B: 'Não é obrigatório.', C: 'Sem indicação.', D: 'Sem indicação.' },

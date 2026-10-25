@@ -37,7 +37,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento',
     e: 'Critério ultrassonográfico de gestação anembrionada (ovo anembrionado) é:',
-    o: ['Saco gestacional com diâmetro médio de 25 mm ou mais sem embrião', 'Saco gestacional de 5 mm sem embrião', 'Vesícula vitelina visível', 'Embrião de 3 mm sem batimentos'],
+    o: ['Saco gestacional de 25 mm ou mais, sem embrião', 'Saco gestacional de 5 mm, sem embrião visível', 'Vesícula vitelina visível dentro do saco', 'Embrião de 3 mm sem batimentos cardíacos'],
     g: 'A',
     c: 'Com saco menor, deve-se repetir o ultrassom antes de concluir inviabilidade. Referência: Doubilet PM et al. Diagnostic criteria for nonviable pregnancy early in the first trimester. N Engl J Med. 2013;369(15):1443-51.',
     x: { B: 'Pode ser gestação muito inicial.', C: 'Indica gestação em desenvolvimento.', D: 'Embriões pequenos podem ainda não ter batimentos visíveis.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento infectado',
     e: 'Paciente com sangramento após manipulação uterina, febre de 39 °C, secreção fétida e útero doloroso. A conduta é:',
-    o: ['Antibioticoterapia de amplo espectro e esvaziamento uterino', 'Apenas antibiótico oral e alta', 'Apenas esvaziamento sem antibiótico', 'Conduta expectante'],
+    o: ['Antibiótico de amplo espectro e esvaziamento uterino', 'Apenas antibiótico por via oral e alta hospitalar', 'Apenas esvaziamento uterino, sem antibiótico', 'Conduta expectante, com observação clínica diária'],
     g: 'A',
     c: 'Esquemas comuns incluem clindamicina com gentamicina, com ou sem ampicilina. O esvaziamento é feito após início do antibiótico. Referência: Brasil. Ministério da Saúde. Atenção Humanizada ao Abortamento: norma técnica. 2ª ed. Brasília: MS, 2011.',
     x: { B: 'Inadequado para a gravidade.', C: 'O antibiótico é essencial.', D: 'Pode evoluir para sepse.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento: técnicas',
     e: 'Para esvaziamento uterino no abortamento incompleto até 12 semanas, a técnica preferencial pela OMS é:',
-    o: ['Aspiração manual intrauterina (AMIU)', 'Curetagem uterina com cureta cortante', 'Histerectomia', 'Microcesárea'],
+    o: ['Aspiração manual intrauterina (AMIU)', 'Curetagem uterina com cureta cortante', 'Histerectomia total abdominal de urgência', 'Microcesárea sob anestesia geral'],
     g: 'A',
     c: 'A AMIU tem menos complicações, como perfuração e sinéquias, e menor custo. Referência: World Health Organization. Abortion care guideline. Geneva: WHO, 2022.',
     x: { B: 'Mais complicações.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento de repetição',
     e: 'Abortamento habitual (de repetição) é classicamente definido como:',
-    o: ['Três ou mais perdas gestacionais consecutivas', 'Uma perda no primeiro trimestre', 'Duas perdas separadas por 10 anos', 'Qualquer sangramento na gestação'],
+    o: ['Três ou mais perdas gestacionais consecutivas', 'Uma única perda no primeiro trimestre', 'Duas perdas separadas por 10 anos', 'Qualquer sangramento durante a gestação'],
     g: 'A',
     c: 'Algumas sociedades consideram duas perdas para iniciar investigação. Causas: síndrome antifosfolípide, alterações uterinas, cromossomopatias parentais, entre outras. Referência: ESHRE Guideline Group on RPL. ESHRE guideline: recurrent pregnancy loss. Hum Reprod Open. 2018;2018(2):hoy004.',
     x: { B: 'Uma perda é comum.', C: 'Não é o critério.', D: 'Não é definição.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento de repetição',
     e: 'Gestante com três perdas no primeiro trimestre e anticoagulante lúpico positivo em duas dosagens com 12 semanas de intervalo. O tratamento na próxima gestação é:',
-    o: ['AAS em dose baixa e heparina de baixo peso molecular profilática', 'Corticoide em dose alta', 'Progesterona isolada', 'Sem tratamento'],
+    o: ['AAS em dose baixa e HBPM profilática', 'Corticoide em dose alta, na gestação toda', 'Progesterona isolada, desde o início', 'Sem tratamento, apenas acompanhamento'],
     g: 'A',
     c: 'A síndrome antifosfolípide obstétrica tem melhor desfecho com AAS e heparina. Referência: Tektonidou MG et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. Ann Rheum Dis. 2019;78(10):1296-304.',
     x: { B: 'Sem benefício.', C: 'Sem benefício isolado.', D: 'Há tratamento eficaz.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento legal',
     e: 'No Brasil, o aborto é permitido por lei ou decisão judicial nas situações de:',
-    o: ['Gestação resultante de estupro, risco de vida materno e anencefalia fetal', 'Qualquer gestação até 12 semanas', 'Malformação fetal de qualquer tipo', 'Dificuldade financeira'],
+    o: ['Estupro, risco de vida materno e anencefalia fetal', 'Qualquer gestação com até 12 semanas', 'Malformação fetal de qualquer tipo', 'Dificuldade financeira grave da família'],
     g: 'A',
     c: 'No caso de estupro, não é exigido boletim de ocorrência. A anencefalia foi incluída pelo STF (ADPF 54, 2012). Referência: Brasil. Ministério da Saúde. Atenção Humanizada ao Abortamento: norma técnica. 2ª ed. Brasília: MS, 2011.',
     x: { B: 'Não é permitido em qualquer caso.', C: 'Não inclui todas as malformações.', D: 'Não é hipótese legal.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica',
     e: 'O local mais comum de gestação ectópica é:',
-    o: ['Ampola da tuba uterina', 'Ovário', 'Colo uterino', 'Cavidade abdominal'],
+    o: ['Ampola da tuba uterina', 'Ovário, na superfície ou no estroma', 'Colo uterino, no canal cervical', 'Cavidade abdominal, no peritônio'],
     g: 'A',
     c: 'A maioria das ectópicas é tubária, e a ampola é o segmento mais acometido. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'Raro.', C: 'Raro.', D: 'Raro.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica',
     e: 'Paciente com atraso menstrual, dor abdominal intensa, hipotensão, taquicardia e abdome com sinais de irritação peritoneal. O beta-hCG é positivo e há líquido livre volumoso. A conduta é:',
-    o: ['Cirurgia de urgência (laparoscopia ou laparotomia), com ressuscitação volêmica', 'Metotrexato', 'Conduta expectante', 'Repetir beta-hCG em 48 horas'],
+    o: ['Cirurgia de urgência com ressuscitação volêmica', 'Metotrexato em dose única intramuscular', 'Conduta expectante, com observação em casa', 'Repetir o beta-hCG após 48 horas'],
     g: 'A',
     c: 'Ectópica rota com instabilidade exige cirurgia imediata. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'Contraindicado na instabilidade.', C: 'Inadequado.', D: 'Atraso perigoso.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica',
     e: 'São critérios para tratamento da gestação ectópica com metotrexato:',
-    o: ['Estabilidade hemodinâmica, massa menor que cerca de 3,5 cm, beta-hCG baixo (geralmente abaixo de 5.000) e ausência de batimentos embrionários', 'Instabilidade hemodinâmica', 'Embrião com batimentos e massa de 6 cm', 'Ruptura tubária'],
+    o: ['Estável, massa < 3,5 cm, beta-hCG baixo, sem batimentos', 'Instabilidade hemodinâmica, com dor abdominal intensa', 'Embrião com batimentos e massa anexial de 6 cm', 'Ruptura tubária, com líquido livre volumoso na pelve'],
     g: 'A',
     c: 'O seguimento é feito com beta-hCG no 4º e 7º dia, esperando queda de pelo menos 15%. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'Indica cirurgia.', C: 'Contraindica.', D: 'Indica cirurgia.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica',
     e: 'Após metotrexato para gestação ectópica, o seguimento correto do beta-hCG espera:',
-    o: ['Queda de pelo menos 15% entre o 4º e o 7º dia, seguida de queda semanal até negativar', 'Aumento no 7º dia como sinal de sucesso', 'Negativação em 24 horas', 'Nenhuma dosagem adicional'],
+    o: ['Queda de ao menos 15% entre o 4º e o 7º dia', 'Aumento no 7º dia, como sinal de sucesso', 'Negativação completa em 24 horas', 'Nenhuma dosagem adicional, após a dose única'],
     g: 'A',
     c: 'Pequena elevação no 4º dia pode ocorrer; sem queda adequada até o 7º dia, repete-se a dose ou opera-se. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'Indica falha.', C: 'Irreal.', D: 'O seguimento é obrigatório.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica',
     e: 'Gestação de localização desconhecida com beta-hCG de 2.500 mUI/mL e útero vazio ao ultrassom transvaginal, paciente estável. A interpretação é:',
-    o: ['Forte suspeita de gestação ectópica, exigindo investigação e seguimento rigoroso', 'Gestação intrauterina normal confirmada', 'Abortamento completo confirmado', 'Mola hidatiforme'],
+    o: ['Suspeita forte de ectópica, com seguimento rigoroso', 'Gestação intrauterina normal já confirmada', 'Abortamento completo já confirmado', 'Mola hidatiforme completa já confirmada'],
     g: 'A',
     c: 'Acima da zona discriminatória, útero vazio sugere ectópica ou abortamento completo; o beta-hCG seriado ajuda a distinguir. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'Não há saco intrauterino.', C: 'Não é possível confirmar sem seguimento.', D: 'Não há padrão molar.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica',
     e: 'Na cirurgia de gestação ectópica tubária com tuba contralateral normal, a salpingectomia é geralmente preferida à salpingostomia porque:',
-    o: ['Tem menor risco de persistência de tecido trofoblástico, com fertilidade futura semelhante', 'Preserva melhor a fertilidade', 'Exige seguimento com beta-hCG mais longo', 'É mais complexa'],
+    o: ['Menor risco de tecido trofoblástico persistente', 'Preserva melhor a fertilidade que a salpingostomia', 'Exige seguimento mais longo do beta-hCG', 'É tecnicamente mais complexa que a salpingostomia'],
     g: 'A',
     c: 'A salpingostomia é considerada se a tuba contralateral estiver doente e houver desejo reprodutivo. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'A fertilidade é semelhante quando a outra tuba é normal.', C: 'O seguimento é mais simples após salpingectomia.', D: 'Não é o motivo.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica',
     e: 'A mola hidatiforme completa tem cariótipo geralmente:',
-    o: ['46,XX, de origem exclusivamente paterna', '69,XXY, triploide', '45,X', '47,XXY'],
+    o: ['46,XX, de origem exclusivamente paterna', '69,XXY, ou seja, triploide', '45,X, monossomia do cromossomo X', '47,XXY, trissomia dos cromossomos sexuais'],
     g: 'A',
     c: 'A mola parcial é triploide (69), com componente materno e paterno, podendo haver partes fetais. Referência: Braga A et al. Doença trofoblástica gestacional. São Paulo: FEBRASGO, 2018 (Protocolo FEBRASGO de Obstetrícia, nº 23).',
     x: { B: 'É a mola parcial.', C: 'Monossomia, sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica',
     e: 'Gestante de 11 semanas com sangramento, útero maior que o esperado, hiperêmese e beta-hCG de 350.000 mUI/mL. O ultrassom mostra imagem em flocos de neve, sem embrião. A conduta é:',
-    o: ['Esvaziamento uterino por aspiração, com seguimento de beta-hCG', 'Conduta expectante', 'Indução com ocitocina', 'Histerectomia em todas as pacientes jovens'],
+    o: ['Esvaziamento por aspiração e seguimento do beta-hCG', 'Conduta expectante, com ultrassom semanal', 'Indução com ocitocina, até a expulsão', 'Histerectomia em todas as pacientes jovens'],
     g: 'A',
     c: 'A aspiração a vácuo é o método de escolha. A histerectomia pode ser opção para quem tem prole completa. Referência: Braga A et al. Doença trofoblástica gestacional. São Paulo: FEBRASGO, 2018 (Protocolo FEBRASGO de Obstetrícia, nº 23).',
     x: { B: 'Inadequado.', C: 'Aumenta riscos.', D: 'Não é a regra.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica',
     e: 'Após esvaziamento de mola completa, o beta-hCG deve ser dosado:',
-    o: ['Semanalmente até 3 dosagens negativas consecutivas, depois mensalmente por cerca de 6 meses', 'Apenas uma vez, 1 semana depois', 'A cada ano', 'Somente se houver sangramento'],
+    o: ['Semanal até 3 negativos, depois mensal por 6 meses', 'Apenas uma vez, uma semana depois do esvaziamento', 'A cada ano, durante cinco anos', 'Somente se houver sangramento vaginal'],
     g: 'A',
     c: 'O seguimento visa detectar neoplasia trofoblástica gestacional. Durante esse período, recomenda-se anticoncepção eficaz. Referência: Braga A et al. Doença trofoblástica gestacional. São Paulo: FEBRASGO, 2018 (Protocolo FEBRASGO de Obstetrícia, nº 23).',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica',
     e: 'Durante o seguimento pós-molar, é critério diagnóstico de neoplasia trofoblástica gestacional:',
-    o: ['Platô do beta-hCG em 4 dosagens por 3 semanas ou elevação em 3 dosagens por 2 semanas', 'Queda progressiva do beta-hCG', 'Negativação em 4 semanas', 'Beta-hCG negativo por 6 meses'],
+    o: ['Platô em 4 dosagens por 3 semanas, ou aumento em 3', 'Queda progressiva do beta-hCG a cada semana', 'Negativação do beta-hCG em até 4 semanas', 'Beta-hCG negativo durante 6 meses seguidos'],
     g: 'A',
     c: 'Também são critérios a persistência de beta-hCG elevado por mais de 6 meses e o diagnóstico histológico de coriocarcinoma. Referência: Ngan HYS et al. FIGO Cancer Report 2021: Gestational trophoblastic disease. Int J Gynaecol Obstet. 2021;155(Suppl 1):86-93.',
     x: { B: 'É a evolução esperada.', C: 'É favorável.', D: 'Indica cura.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica',
     e: 'A anticoncepção indicada durante o seguimento pós-molar é:',
-    o: ['Anticoncepcional hormonal oral, que não altera o risco de neoplasia trofoblástica', 'DIU de cobre imediatamente após o esvaziamento, de rotina', 'Nenhuma', 'Apenas o coito interrompido'],
+    o: ['Anticoncepcional hormonal oral, sem aumento do risco', 'DIU de cobre imediatamente, como rotina', 'Nenhuma, até a negativação definitiva do beta-hCG', 'Apenas coito interrompido, durante o seguimento'],
     g: 'A',
     c: 'A nova gestação dificultaria a interpretação do beta-hCG. O DIU deve aguardar a negativação, pelo risco de perfuração. Referência: Braga A et al. Doença trofoblástica gestacional. São Paulo: FEBRASGO, 2018 (Protocolo FEBRASGO de Obstetrícia, nº 23).',
     x: { B: 'Aguarda-se a negativação.', C: 'A anticoncepção é necessária.', D: 'Método pouco eficaz.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Hemorragias do primeiro trimestre',
     e: 'As causas clássicas de hemorragia da primeira metade da gestação são:',
-    o: ['Abortamento, gestação ectópica e doença trofoblástica gestacional', 'Placenta prévia e descolamento de placenta', 'Vasa prévia e rotura de seio marginal', 'Atonia uterina e acretismo'],
+    o: ['Abortamento, ectópica e doença trofoblástica', 'Placenta prévia e descolamento de placenta', 'Vasa prévia e rotura de seio marginal', 'Atonia uterina e acretismo placentário'],
     g: 'A',
     c: 'As causas da segunda metade são placenta prévia, descolamento prematuro de placenta, rotura uterina e vasa prévia. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'São da segunda metade.', C: 'São da segunda metade.', D: 'São do pós-parto.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento: epidemiologia',
     e: 'A causa mais frequente de abortamento espontâneo no primeiro trimestre é:',
-    o: ['Anomalia cromossômica embrionária, principalmente trissomias', 'Infecção materna', 'Incompetência istmocervical', 'Trauma abdominal'],
+    o: ['Anomalia cromossômica embrionária, sobretudo trissomias', 'Infecção materna aguda por agentes diversos', 'Incompetência istmocervical, com dilatação indolor', 'Trauma abdominal durante a gestação inicial'],
     g: 'A',
     c: 'Cerca de metade dos abortamentos precoces tem cariótipo anormal; a trissomia autossômica é a mais comum, seguida da monossomia X. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Causa menos frequente.', C: 'Causa de perdas de segundo trimestre.', D: 'Causa rara.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento: definição',
     e: 'Pela OMS, abortamento é a interrupção da gestação:',
-    o: ['Antes de 20 a 22 semanas ou com feto pesando menos de 500 g', 'Antes de 28 semanas', 'Antes de 37 semanas', 'Em qualquer idade gestacional'],
+    o: ['Antes de 20 a 22 semanas ou feto < 500 g', 'Antes de 28 semanas completas de gestação', 'Antes de 37 semanas completas de gestação', 'Em qualquer idade gestacional, sem limite de peso'],
     g: 'A',
     c: 'Após esse limite, fala-se em parto prematuro ou óbito fetal. Referência: Brasil. Ministério da Saúde. Atenção Humanizada ao Abortamento: norma técnica. 2ª ed. Brasília: MS, 2011.',
     x: { B: 'Limite antigo.', C: 'É o limite da prematuridade.', D: 'Não é a definição.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento: misoprostol',
     e: 'No abortamento retido do primeiro trimestre com opção por tratamento medicamentoso, usa-se:',
-    o: ['Misoprostol, isolado ou após mifepristona, em doses definidas por protocolo', 'Ocitocina em dose baixa como primeira escolha', 'Metotrexato', 'Progesterona'],
+    o: ['Misoprostol, isolado ou após mifepristona', 'Ocitocina em dose baixa, como primeira escolha', 'Metotrexato em dose única intramuscular', 'Progesterona em dose alta, por via vaginal'],
     g: 'A',
     c: 'A ocitocina é pouco eficaz no primeiro trimestre pela escassez de receptores. Referência: World Health Organization. Abortion care guideline. Geneva: WHO, 2022.',
     x: { B: 'Pouco eficaz no primeiro trimestre.', C: 'Usado em ectópica.', D: 'Não induz expulsão.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica: clínica',
     e: 'A tríade clássica da gestação ectópica é:',
-    o: ['Atraso menstrual, dor pélvica e sangramento vaginal', 'Febre, leucorreia e disúria', 'Hipertensão, edema e proteinúria', 'Hiperêmese, útero aumentado e cistos ovarianos'],
+    o: ['Atraso menstrual, dor pélvica e sangramento', 'Febre, leucorreia e disúria associadas', 'Hipertensão, edema e proteinúria juntos', 'Hiperêmese, útero aumentado e cistos ovarianos'],
     g: 'A',
     c: 'Muitas pacientes não apresentam a tríade completa; a suspeita deve ser ampla em mulheres em idade fértil com dor abdominal. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'Sugere infecção.', C: 'Sugere pré-eclâmpsia.', D: 'Sugere mola.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica: exame',
     e: 'O sinal de Proust, na gestação ectópica rota, corresponde a:',
-    o: ['Dor intensa ao toque do fundo de saco posterior (grito de Douglas) por sangue na pelve', 'Equimose periumbilical', 'Dor no ombro', 'Massa palpável no hipocôndrio'],
+    o: ['Dor intensa ao toque do fundo de saco posterior', 'Equimose periumbilical, por sangue na cavidade', 'Dor referida no ombro, por irritação diafragmática', 'Massa palpável no hipocôndrio direito, dolorosa'],
     g: 'A',
     c: 'O sinal de Cullen é a equimose periumbilical, e a dor no ombro (sinal de Laffont) decorre da irritação frênica pelo sangue. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'É o sinal de Cullen.', C: 'É o sinal de Laffont.', D: 'Não é o sinal.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica: conduta expectante',
     e: 'A conduta expectante na gestação ectópica pode ser considerada em:',
-    o: ['Paciente estável, assintomática, com beta-hCG baixo e em queda espontânea', 'Paciente com dor intensa e líquido livre volumoso', 'Embrião vivo na tuba', 'Beta-hCG em ascensão rápida'],
+    o: ['Paciente estável, assintomática, com beta-hCG baixo e em queda', 'Paciente com dor intensa e líquido livre volumoso', 'Embrião vivo na tuba, com batimentos presentes', 'Beta-hCG em ascensão rápida a cada 48 horas'],
     g: 'A',
     c: 'A maioria das ectópicas com beta-hCG baixo e em queda resolve espontaneamente, com seguimento até negativar. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'Indica cirurgia.', C: 'Indica cirurgia.', D: 'Indica tratamento.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica: metotrexato',
     e: 'É contraindicação ao uso de metotrexato na gestação ectópica:',
-    o: ['Amamentação, insuficiência renal ou hepática e imunodeficiência', 'Paciente estável', 'Massa de 2 cm', 'Beta-hCG de 1.500'],
+    o: ['Amamentação, insuficiência renal ou hepática', 'Paciente estável, sem dor e sem líquido livre', 'Massa anexial de 2 cm, sem batimentos embrionários', 'Beta-hCG baixo, de 1.500 mUI/mL, em platô'],
     g: 'A',
     c: 'Também contraindicam: gestação intrauterina coexistente, ruptura tubária e alterações hematológicas importantes. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'É condição para o uso.', C: 'É condição favorável.', D: 'É condição favorável.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica: cicatriz',
     e: 'Gestação implantada na cicatriz de cesárea anterior:',
-    o: ['Tem alto risco de ruptura e hemorragia, devendo ser diagnosticada precocemente', 'É uma variante normal de gestação intrauterina', 'Deve sempre evoluir até o termo', 'Não tem relação com acretismo'],
+    o: ['Alto risco de ruptura e hemorragia; diagnóstico precoce', 'Variante normal de gestação intrauterina, sem riscos', 'Deve sempre evoluir até o termo, sem intervenção', 'Não tem relação com o acretismo placentário'],
     g: 'A',
     c: 'Associa-se ao espectro de placenta acreta se evoluir. Referência: Society for Maternal-Fetal Medicine. Consult Series 49: Cesarean scar pregnancy. Am J Obstet Gynecol. 2020;222(5):B2-14.',
     x: { B: 'É patológica.', C: 'Alto risco materno.', D: 'Relaciona-se ao acretismo.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica: clínica',
     e: 'Uma complicação associada à mola hidatiforme completa com beta-hCG muito elevado é:',
-    o: ['Hipertireoidismo e pré-eclâmpsia precoce, antes de 20 semanas', 'Hipotireoidismo grave', 'Hipoglicemia', 'Diabetes insipidus'],
+    o: ['Hipertireoidismo e pré-eclâmpsia antes de 20 semanas', 'Hipotireoidismo grave, por supressão do TSH', 'Hipoglicemia materna persistente e grave', 'Diabetes insipidus de origem central ou nefrogênica'],
     g: 'A',
     c: 'O hCG tem atividade tireoestimulante; pré-eclâmpsia antes de 20 semanas sugere mola. Cistos tecaluteínicos ovarianos também são comuns. Referência: Braga A et al. Doença trofoblástica gestacional. São Paulo: FEBRASGO, 2018 (Protocolo FEBRASGO de Obstetrícia, nº 23).',
     x: { B: 'O hCG estimula a tireoide.', C: 'Não é típico.', D: 'Não é típico.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica: ovários',
     e: 'Os cistos tecaluteínicos ovarianos associados à mola hidatiforme:',
-    o: ['Regridem espontaneamente com a queda do beta-hCG, e a conduta é expectante', 'Exigem ooforectomia bilateral', 'São malignos', 'Indicam quimioterapia'],
+    o: ['Regridem sozinhos com a queda do beta-hCG', 'Exigem ooforectomia bilateral, de rotina, na cirurgia', 'São sempre malignos, devendo ser ressecados', 'Indicam quimioterapia imediata, com metotrexato'],
     g: 'A',
     c: 'Só se intervém em caso de torção ou ruptura. Referência: Braga A et al. Doença trofoblástica gestacional. São Paulo: FEBRASGO, 2018 (Protocolo FEBRASGO de Obstetrícia, nº 23).',
     x: { B: 'Sem indicação.', C: 'São benignos.', D: 'Sem indicação.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica: tratamento',
     e: 'A neoplasia trofoblástica gestacional de baixo risco pela classificação FIGO/OMS é tratada inicialmente com:',
-    o: ['Quimioterapia com agente único, como metotrexato ou actinomicina D', 'Histerectomia radical em todas as pacientes', 'Radioterapia pélvica', 'Observação apenas'],
+    o: ['Quimioterapia com agente único: metotrexato ou actinomicina D', 'Histerectomia radical, em todas as pacientes', 'Radioterapia pélvica, em esquema fracionado', 'Apenas observação, sem tratamento específico'],
     g: 'A',
     c: 'Os índices de cura se aproximam de 100%. O alto risco exige poliquimioterapia (EMA-CO). Referência: Ngan HYS et al. FIGO Cancer Report 2021: Gestational trophoblastic disease. Int J Gynaecol Obstet. 2021;155(Suppl 1):86-93.',
     x: { B: 'Não é a primeira linha.', C: 'Sem indicação.', D: 'Exige tratamento.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica: mola parcial',
     e: 'Sobre a mola parcial, é correto afirmar:',
-    o: ['É triploide, pode ter tecido fetal e tem menor risco de evoluir para neoplasia que a completa', 'É diploide de origem paterna', 'Nunca apresenta tecido fetal', 'Tem maior risco de neoplasia que a completa'],
+    o: ['Triploide, com tecido fetal e menor risco que a completa', 'Diploide, de origem exclusivamente paterna', 'Nunca apresenta tecido fetal no exame histológico', 'Tem risco de neoplasia maior que a mola completa'],
     g: 'A',
     c: 'A mola completa evolui para neoplasia em cerca de 15 a 20% dos casos; a parcial, em cerca de 1 a 5%. Referência: Braga A et al. Doença trofoblástica gestacional. São Paulo: FEBRASGO, 2018 (Protocolo FEBRASGO de Obstetrícia, nº 23).',
     x: { B: 'Descreve a completa.', C: 'Pode ter feto.', D: 'O risco é menor.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento: Rh',
     e: 'Mulher Rh negativo com ameaça de abortamento com sangramento importante no primeiro trimestre:',
-    o: ['Pode receber imunoglobulina anti-D conforme protocolo, para prevenir sensibilização', 'Nunca deve receber imunoglobulina', 'Deve receber transfusão', 'Precisa de corticoide'],
+    o: ['Pode receber imunoglobulina anti-D, conforme protocolo', 'Nunca deve receber imunoglobulina anti-D nessa fase', 'Deve receber transfusão de concentrado de hemácias', 'Precisa de corticoide para proteção fetal imediata'],
     g: 'A',
     c: 'A indicação é mais clara após 12 semanas e em procedimentos; muitos protocolos a recomendam em sangramentos do primeiro trimestre. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Pode ter indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica: ovariana',
     e: 'Gestação ectópica abdominal avançada com placenta inserida em alças intestinais. Na cirurgia, a conduta com a placenta costuma ser:',
-    o: ['Deixá-la no local quando a remoção provocar hemorragia grave, acompanhando sua reabsorção', 'Removê-la sempre, a qualquer custo', 'Fazer curetagem uterina', 'Aplicar ocitocina para expulsá-la'],
+    o: ['Deixá-la no local, se a remoção causar hemorragia grave', 'Removê-la sempre, a qualquer custo, na cirurgia', 'Fazer curetagem uterina para retirada da placenta', 'Aplicar ocitocina para provocar sua expulsão'],
     g: 'A',
     c: 'A remoção forçada pode causar hemorragia incontrolável. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Risco de hemorragia.', C: 'A placenta não está no útero.', D: 'Não age.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Hemorragia do primeiro trimestre: investigação',
     e: 'Em gestante com sangramento no primeiro trimestre, os exames iniciais mais úteis são:',
-    o: ['Ultrassonografia transvaginal e beta-hCG quantitativo, com tipagem sanguínea', 'Ressonância pélvica', 'Colposcopia', 'Histerossalpingografia'],
+    o: ['USG transvaginal, beta-hCG quantitativo e tipagem sanguínea', 'Ressonância magnética de pelve, de rotina', 'Colposcopia com biópsia dirigida do colo', 'Histerossalpingografia, na fase aguda do sangramento'],
     g: 'A',
     c: 'A tipagem orienta a imunoglobulina anti-D. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Não é inicial.', C: 'Não é inicial.', D: 'Contraindicada na gestação.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento: ultrassom',
     e: 'Em gestante com sangramento, ultrassom mostra saco gestacional intrauterino com vesícula vitelina, sem embrião, diâmetro médio de 10 mm. A conduta mais adequada é:',
-    o: ['Repetir o ultrassom em 7 a 14 dias antes de concluir inviabilidade', 'Esvaziamento uterino imediato', 'Metotrexato', 'Considerar gestação anembrionada definitiva'],
+    o: ['Repetir o USG em 7 a 14 dias, antes de concluir inviabilidade', 'Esvaziamento uterino imediato, sem nova avaliação', 'Metotrexato em dose única, por via intramuscular', 'Considerar gestação anembrionada definitiva já agora'],
     g: 'A',
     c: 'Os critérios de inviabilidade exigem medidas maiores ou intervalos de seguimento. Referência: Doubilet PM et al. Diagnostic criteria for nonviable pregnancy early in the first trimester. N Engl J Med. 2013;369(15):1443-51.',
     x: { B: 'Pode interromper gestação viável.', C: 'Sem indicação.', D: 'Prematuro.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Doença trofoblástica: tumor do sítio placentário',
     e: 'O tumor trofoblástico do sítio placentário se diferencia do coriocarcinoma por:',
-    o: ['Produzir pouco beta-hCG, responder mal à quimioterapia e ser tratado principalmente com histerectomia', 'Produzir beta-hCG altíssimo', 'Responder sempre à quimioterapia com agente único', 'Ocorrer só após mola parcial'],
+    o: ['Pouco beta-hCG, resposta ruim à quimioterapia, histerectomia', 'Produz beta-hCG altíssimo, em todos os casos clínicos', 'Responde sempre à quimioterapia com agente único', 'Ocorre somente após mola parcial, nunca após parto a termo'],
     g: 'A',
     c: 'O lactogênio placentário pode ser marcador. Referência: Braga A et al. Doença trofoblástica gestacional. São Paulo: FEBRASGO, 2018 (Protocolo FEBRASGO de Obstetrícia, nº 23).',
     x: { B: 'Descreve o coriocarcinoma.', C: 'Responde mal.', D: 'Pode ocorrer após qualquer gestação.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Gestação ectópica: rastreamento',
     e: 'Usuária de DIU que engravida:',
-    o: ['Tem maior proporção de gestações ectópicas, devendo ser investigada', 'Não pode ter gestação ectópica', 'Tem sempre gestação molar', 'Deve manter o DIU sem avaliação'],
+    o: ['Maior proporção de ectópicas; deve ser investigada', 'Não pode ter gestação ectópica, pelo DIU', 'Tem sempre gestação molar associada', 'Deve manter o DIU, sem avaliação adicional'],
     g: 'A',
     c: 'O DIU reduz muito o risco absoluto de gestação, mas, se ocorrer, a chance de ser ectópica é maior. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'Pode ter.', C: 'Sem relação.', D: 'Exige avaliação.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Abortamento: alta',
     e: 'Após abortamento, a orientação anticoncepcional deve ser oferecida:',
-    o: ['Imediatamente, pois a ovulação pode retornar em cerca de 2 semanas', 'Somente após 6 meses', 'Apenas se a mulher pedir por escrito', 'Só após nova menstruação'],
+    o: ['Imediatamente, pois a ovulação volta em cerca de 2 semanas', 'Somente depois de 6 meses do abortamento, por segurança', 'Apenas se a mulher pedir por escrito, em consulta', 'Só após a próxima menstruação espontânea, depois de 1 mês'],
     g: 'A',
     c: 'O DIU pode ser inserido logo após a aspiração, se não houver infecção. Referência: World Health Organization. Abortion care guideline. Geneva: WHO, 2022.',
     x: { B: 'Risco de nova gestação.', C: 'Deve ser oferecida.', D: 'Pode haver gestação antes.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_HEM1: QuestaoCompacta[] = [
   {
     s: 'Hemorragias da primeira metade',
     e: 'Paciente com 7 semanas, sangramento e dor, beta-hCG de 800 que subiu apenas 10% em 48 horas e útero vazio. A hipótese principal é:',
-    o: ['Gestação ectópica ou gestação intrauterina inviável', 'Gestação intrauterina normal', 'Mola completa', 'Gestação gemelar'],
+    o: ['Gestação ectópica ou intrauterina inviável', 'Gestação intrauterina normal, em evolução', 'Mola hidatiforme completa, com útero grande', 'Gestação gemelar, com beta-hCG elevado'],
     g: 'A',
     c: 'A curva inadequada e o útero vazio exigem investigação e seguimento. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 193: Tubal Ectopic Pregnancy. Obstet Gynecol. 2018;131(3):e91-103.',
     x: { B: 'A curva é inadequada.', C: 'O hCG seria muito alto.', D: 'O hCG subiria mais.' },

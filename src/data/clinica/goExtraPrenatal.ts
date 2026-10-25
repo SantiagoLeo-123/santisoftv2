@@ -5,7 +5,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: calendário',
     e: 'Segundo o Ministério da Saúde, a periodicidade das consultas de pré-natal de baixo risco é:',
-    o: ['Mensal até 28 semanas, quinzenal de 28 a 36 semanas e semanal após 36 semanas', 'Semanal desde o início', 'Apenas uma consulta por trimestre', 'Somente no terceiro trimestre'],
+    o: ['Mensal até 28 sem; quinzenal até 36; semanal depois', 'Semanal desde o início da gestação, até o parto', 'Apenas uma consulta por trimestre de gestação', 'Somente no terceiro trimestre, a partir de 28 semanas'],
     g: 'A',
     c: 'O MS preconiza ao menos 6 consultas; a OMS recomenda ao menos 8 contatos. Não existe alta do pré-natal antes do parto. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Desnecessário no baixo risco.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: suplementação',
     e: 'A suplementação de ácido fólico para prevenção de defeitos do tubo neural em gestante de baixo risco é:',
-    o: ['0,4 mg/dia, idealmente iniciada pelo menos 30 dias antes da concepção e mantida até 12 semanas', '5 mg/dia para todas', 'Somente no terceiro trimestre', 'Desnecessária se a alimentação for boa'],
+    o: ['0,4 mg/dia, desde 30 dias antes da concepção até 12 semanas', '5 mg/dia para todas as gestantes, desde o início', 'Somente no terceiro trimestre, em dose habitual', 'Desnecessária, se a alimentação for equilibrada'],
     g: 'A',
     c: 'Dose de 4 a 5 mg é reservada a alto risco, como filho anterior com defeito de tubo neural ou uso de anticonvulsivantes. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Dose de alto risco.', C: 'O tubo neural fecha no início da gestação.', D: 'A suplementação é recomendada a todas.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: exames',
     e: 'Exames solicitados na primeira consulta de pré-natal incluem:',
-    o: ['Hemograma, tipagem sanguínea e fator Rh, glicemia de jejum, testes para sífilis, HIV e hepatites, toxoplasmose e urocultura', 'Apenas ultrassonografia', 'Apenas beta-hCG seriado', 'Ressonância pélvica'],
+    o: ['Hemograma, tipagem e Rh, glicemia, sorologias, urocultura', 'Apenas ultrassonografia obstétrica de rotina', 'Apenas beta-hCG seriado, a cada 48 horas', 'Ressonância magnética de pelve e abdome'],
     g: 'A',
     c: 'Os testes para sífilis e HIV são repetidos no terceiro trimestre e no parto, conforme protocolo. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Insuficiente.', C: 'Não é a rotina.', D: 'Sem indicação.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: vacinação',
     e: 'Vacina indicada em toda gestação a partir de 20 semanas, para proteger o recém-nascido contra coqueluche, é:',
-    o: ['dTpa (tríplice bacteriana acelular do adulto)', 'Tríplice viral', 'Febre amarela', 'HPV'],
+    o: ['dTpa (tríplice bacteriana acelular do adulto)', 'Tríplice viral (sarampo, caxumba e rubéola)', 'Febre amarela, em área de risco', 'HPV quadrivalente, em dose única'],
     g: 'A',
     c: 'A dTpa deve ser aplicada em cada gestação, mesmo que a mulher tenha sido vacinada antes. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação da Gestante.',
     x: { B: 'Contraindicada na gestação.', C: 'Evitada, salvo situações de risco.', D: 'Adiada para após o parto.' },
@@ -77,7 +77,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: vacinação',
     e: 'É contraindicada durante a gestação a vacina:',
-    o: ['Tríplice viral (sarampo, caxumba e rubéola)', 'Influenza inativada', 'Hepatite B', 'dTpa'],
+    o: ['Tríplice viral (sarampo, caxumba, rubéola)', 'Influenza inativada, na campanha anual', 'Hepatite B, em três doses', 'dTpa, a partir de 20 semanas'],
     g: 'A',
     c: 'Vacinas de vírus vivos atenuados, como tríplice viral e varicela, são contraindicadas; a de febre amarela só em risco epidemiológico elevado. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'É recomendada.', C: 'É recomendada se suscetível.', D: 'É recomendada.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: isoimunização',
     e: 'Gestante Rh negativo, com Coombs indireto negativo e parceiro Rh positivo. A profilaxia recomendada é:',
-    o: ['Imunoglobulina anti-D com 28 semanas e até 72 horas após o parto se o recém-nascido for Rh positivo', 'Imunoglobulina apenas se o Coombs for positivo', 'Nenhuma profilaxia', 'Transfusão de sangue Rh negativo'],
+    o: ['Anti-D com 28 semanas e até 72 h após o parto, se RN Rh+', 'Anti-D somente se o Coombs indireto for positivo', 'Nenhuma profilaxia, pois o Coombs é negativo', 'Transfusão de sangue Rh negativo, na gestação'],
     g: 'A',
     c: 'Também se aplica após sangramentos, abortamento, ectópica e procedimentos invasivos. Coombs positivo indica já sensibilizada, e a imunoglobulina não é mais útil. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Se já sensibilizada, não há benefício.', C: 'A profilaxia é indicada.', D: 'Sem indicação.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: bacteriúria',
     e: 'Gestante assintomática com urocultura de 100.000 UFC/mL de E. coli. A conduta é:',
-    o: ['Tratar com antibiótico guiado pelo antibiograma e repetir a urocultura de controle', 'Não tratar, pois é assintomática', 'Tratar só se tiver febre', 'Iniciar quinolona'],
+    o: ['Tratar conforme o antibiograma e repetir a urocultura', 'Não tratar, pois a gestante é assintomática', 'Tratar somente se surgir febre ou disúria', 'Iniciar quinolona oral, por 7 dias'],
     g: 'A',
     c: 'Bacteriúria assintomática na gestação deve ser tratada pelo risco de pielonefrite e parto prematuro. Quinolonas são evitadas. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Na gestação deve ser tratada.', C: 'O tratamento é indicado mesmo sem sintomas.', D: 'Evitadas na gestação.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: toxoplasmose',
     e: 'Gestante com IgG e IgM negativos para toxoplasmose na primeira consulta. A orientação é:',
-    o: ['Medidas de prevenção (higiene de alimentos, carne bem cozida, evitar fezes de gato) e repetir a sorologia periodicamente', 'Iniciar espiramicina', 'Considerá-la imune', 'Indicar amniocentese'],
+    o: ['Prevenção (higiene, carne bem cozida) e sorologia periódica', 'Iniciar espiramicina, como profilaxia fetal', 'Considerá-la imune, sem repetir sorologia', 'Indicar amniocentese, para pesquisa de toxoplasma'],
     g: 'A',
     c: 'A gestante suscetível deve repetir sorologia conforme protocolo, para detectar soroconversão. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Sem infecção, não há indicação.', C: 'Não tem anticorpos.', D: 'Sem indicação.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Estática fetal',
     e: 'O ponto de referência fetal na apresentação cefálica fletida é:',
-    o: ['O lambda (occipital)', 'O bregma', 'A glabela', 'O mento'],
+    o: ['O lambda (occipital)', 'O bregma, na fontanela anterior', 'A glabela, na base do nariz', 'O mento, no queixo do feto'],
     g: 'A',
     c: 'Na deflexão de primeiro grau (bregma), o ponto é o bregma; de segundo grau (fronte), a glabela ou raiz do nariz; de terceiro grau (face), o mento. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Apresentação de bregma.', C: 'Apresentação de fronte.', D: 'Apresentação de face.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Estática fetal',
     e: 'A variedade de posição mais comum na apresentação cefálica fletida é:',
-    o: ['Occipito-esquerda-anterior (OEA)', 'Occipito-direita-posterior', 'Mento-anterior', 'Sacro-esquerda-anterior'],
+    o: ['Occipito-esquerda-anterior (OEA)', 'Occipito-direita-posterior (ODP)', 'Mento-anterior, na apresentação de face', 'Sacro-esquerda-anterior, na pélvica'],
     g: 'A',
     c: 'A rotação interna leva habitualmente o occipital para a frente, sob a sínfise (occipitopúbica). Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Menos comum.', C: 'Apresentação de face.', D: 'Apresentação pélvica.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Estática fetal',
     e: 'Na apresentação de fronte, o diâmetro de insinuação é o occipitomentoniano, de cerca de 13,5 cm. Por isso:',
-    o: ['É a apresentação cefálica mais desfavorável ao parto vaginal, geralmente indicando cesárea se persistir', 'É a mais favorável ao parto vaginal', 'Insinua-se facilmente', 'Não tem implicação obstétrica'],
+    o: ['É a mais desfavorável ao parto vaginal; geralmente cesárea', 'É a apresentação mais favorável ao parto vaginal', 'Insinua-se facilmente, com bom mecanismo de parto', 'Não tem implicação obstétrica, em nenhum caso'],
     g: 'A',
     c: 'Na cefálica fletida, o diâmetro é o suboccipitobregmático, de 9,5 cm. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'O diâmetro é o maior.', C: 'Dificulta a insinuação.', D: 'Tem implicação importante.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Estática fetal',
     e: 'O terceiro plano de Hodge corresponde a:',
-    o: ['Plano paralelo que passa pelas espinhas isquiáticas, equivalente ao zero de DeLee', 'Borda superior da sínfise', 'Borda inferior da sínfise', 'Ponta do cóccix'],
+    o: ['Plano das espinhas isquiáticas (zero de DeLee)', 'Plano da borda superior da sínfise púbica', 'Plano da borda inferior da sínfise púbica', 'Plano da ponta do cóccix, no estreito inferior'],
     g: 'A',
     c: 'Primeiro plano: borda superior da sínfise; segundo: borda inferior; terceiro: espinhas isquiáticas; quarto: ponta do cóccix. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'É o primeiro plano.', C: 'É o segundo plano.', D: 'É o quarto plano.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Manobras de Leopold',
     e: 'Na primeira manobra de Leopold, palpa-se:',
-    o: ['O fundo uterino, para identificar o polo fetal que o ocupa', 'O dorso fetal', 'A mobilidade do polo inferior', 'O grau de penetração da apresentação na pelve'],
+    o: ['O fundo uterino, identificando o polo fetal', 'O dorso fetal, em um dos lados', 'A mobilidade do polo inferior fetal', 'O grau de penetração da apresentação na pelve'],
     g: 'A',
     c: 'Segunda manobra: dorso; terceira: polo inferior e sua mobilidade; quarta: penetração da apresentação na pelve. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'É a segunda.', C: 'É a terceira.', D: 'É a quarta.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Estática fetal',
     e: 'Na situação transversa, a apresentação é:',
-    o: ['Córmica (de ombro)', 'Cefálica', 'Pélvica', 'De face'],
+    o: ['Córmica (de ombro)', 'Cefálica, fletida ou defletida', 'Pélvica, completa ou incompleta', 'De face, com mento anterior'],
     g: 'A',
     c: 'Na situação transversa a termo, o parto vaginal é inviável e indica-se cesárea. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Exige situação longitudinal.', C: 'Exige situação longitudinal.', D: 'Variedade da cefálica.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Estática fetal',
     e: 'A atitude fetal normal no fim da gestação é de:',
-    o: ['Flexão generalizada (ovoide fetal)', 'Extensão da cabeça', 'Hiperextensão do tronco', 'Membros estendidos'],
+    o: ['Flexão generalizada (ovoide fetal)', 'Extensão da cabeça, em face', 'Hiperextensão do tronco, em opistótono', 'Membros estendidos, ao longo do corpo'],
     g: 'A',
     c: 'A flexão adapta o feto à cavidade uterina e favorece os menores diâmetros na insinuação. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Define apresentações defletidas.', C: 'Não é normal.', D: 'Não é normal.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Indução do parto',
     e: 'O índice de Bishop avalia:',
-    o: ['Dilatação, apagamento e consistência do colo, posição do colo e altura da apresentação', 'Frequência cardíaca fetal e movimentos', 'Peso fetal estimado e líquido amniótico', 'Pressão arterial e proteinúria'],
+    o: ['Dilatação, apagamento, consistência, posição e altura', 'FC fetal, movimentos fetais e tônus do feto', 'Peso fetal estimado e volume do líquido amniótico', 'Pressão arterial materna e proteinúria de 24 horas'],
     g: 'A',
     c: 'O Bishop estima a chance de sucesso da indução. Valores baixos indicam colo desfavorável e necessidade de preparo cervical. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 107: Induction of Labor. Obstet Gynecol. 2009;114(2):386-97.',
     x: { B: 'Avaliação da vitalidade.', C: 'Avaliação ultrassonográfica.', D: 'Avaliação de pré-eclâmpsia.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Indução do parto',
     e: 'Gestante de 41 semanas com Bishop de 3, sem cesárea anterior. O método mais adequado para iniciar a indução é:',
-    o: ['Preparo cervical com misoprostol vaginal ou sonda de Foley', 'Ocitocina em dose alta isolada', 'Amniotomia imediata', 'Cesárea eletiva sem tentativa'],
+    o: ['Preparo cervical: misoprostol vaginal ou sonda de Foley', 'Ocitocina em dose alta, como método isolado', 'Amniotomia imediata, com colo desfavorável', 'Cesárea eletiva, sem tentativa de indução'],
     g: 'A',
     c: 'Com colo desfavorável, prostaglandinas ou métodos mecânicos amadurecem o colo; a ocitocina é mais eficaz com Bishop favorável. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 107: Induction of Labor. Obstet Gynecol. 2009;114(2):386-97.',
     x: { B: 'Pouco eficaz com colo desfavorável.', C: 'Exige colo dilatado e apresentação insinuada.', D: 'Não há indicação.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Indução do parto',
     e: 'O misoprostol para indução do parto a termo, com feto vivo, costuma ser usado na dose de:',
-    o: ['25 microgramas por via vaginal a cada 6 horas', '800 microgramas a cada 2 horas', '200 microgramas a cada hora', '1 mg dose única'],
+    o: ['25 microgramas por via vaginal, a cada 6 horas', '800 microgramas por via vaginal, a cada 2 horas', '200 microgramas por via oral, a cada hora', '1 mg por via vaginal, em dose única'],
     g: 'A',
     c: 'Doses baixas reduzem taquissistolia. Doses altas são usadas em situações de feto morto ou esvaziamento uterino no primeiro trimestre, conforme protocolo. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Dose muito alta.', C: 'Dose muito alta.', D: 'Dose muito alta.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Indução do parto',
     e: 'O misoprostol é contraindicado para indução em gestante com:',
-    o: ['Cesárea anterior, pelo risco de ruptura uterina', 'Primiparidade', 'Idade acima de 35 anos', 'Diabetes gestacional controlado'],
+    o: ['Cesárea anterior, pelo risco de ruptura uterina', 'Primiparidade, com colo desfavorável', 'Idade materna acima de 35 anos, isolada', 'Diabetes gestacional controlado com dieta'],
     g: 'A',
     c: 'Em cicatriz uterina, preferem-se métodos mecânicos (sonda de Foley) e ocitocina com cautela. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 107: Induction of Labor. Obstet Gynecol. 2009;114(2):386-97.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Indução do parto',
     e: 'Durante indução com ocitocina, a paciente apresenta 6 contrações em 10 minutos, com desacelerações fetais. A conduta inicial é:',
-    o: ['Suspender a ocitocina, posicionar em decúbito lateral e avaliar tocolítico', 'Aumentar a ocitocina', 'Manter e reavaliar em 2 horas', 'Fazer amniotomia imediata'],
+    o: ['Suspender ocitocina, decúbito lateral e avaliar tocolítico', 'Aumentar a dose de ocitocina em infusão contínua', 'Manter a infusão atual e reavaliar em 2 horas', 'Fazer amniotomia imediata, para acelerar o parto'],
     g: 'A',
     c: 'Taquissistolia é mais de 5 contrações em 10 minutos e compromete a oxigenação fetal. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 107: Induction of Labor. Obstet Gynecol. 2009;114(2):386-97.',
     x: { B: 'Pioraria o quadro.', C: 'Risco fetal.', D: 'Não resolve a taquissistolia.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Indução do parto',
     e: 'Um efeito adverso da ocitocina em altas doses e com grande volume de soro hipotônico é:',
-    o: ['Intoxicação hídrica com hiponatremia, por efeito antidiurético', 'Hipertermia maligna', 'Hipercalemia grave', 'Hipoglicemia materna'],
+    o: ['Intoxicação hídrica com hiponatremia, por efeito antidiurético', 'Hipertermia maligna, com rigidez muscular intensa', 'Hipercalemia grave, com alterações do ECG', 'Hipoglicemia materna, com sudorese e confusão'],
     g: 'A',
     c: 'A ocitocina tem semelhança estrutural com o hormônio antidiurético. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Sem relação.', C: 'Não é efeito típico.', D: 'Não é efeito típico.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Gestação prolongada',
     e: 'Gestação prolongada (pós-termo) é definida como aquela com idade gestacional de:',
-    o: ['42 semanas ou mais', '40 semanas', '41 semanas apenas', '39 semanas'],
+    o: ['42 semanas ou mais', '40 semanas completas', '41 semanas, apenas', '39 semanas completas'],
     g: 'A',
     c: 'O risco de oligoâmnio, macrossomia, aspiração de mecônio e óbito fetal aumenta após 41 a 42 semanas. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'É o termo completo.', C: 'É o termo tardio.', D: 'É termo precoce.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Indução do parto',
     e: 'Amniotomia como método de indução exige:',
-    o: ['Colo pérvio e apresentação insinuada, para reduzir o risco de prolapso de cordão', 'Colo fechado', 'Apresentação alta e móvel', 'Situação transversa'],
+    o: ['Colo pérvio e apresentação insinuada, evitando prolapso de cordão', 'Colo fechado, com apresentação insinuada na pelve', 'Apresentação alta e móvel, com colo ainda fechado', 'Situação transversa, mantendo a bolsa íntegra'],
     g: 'A',
     c: 'Com apresentação alta, o risco de prolapso de cordão é maior. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 107: Induction of Labor. Obstet Gynecol. 2009;114(2):386-97.',
     x: { B: 'Inviável.', C: 'Alto risco de prolapso.', D: 'Contraindicação.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: sífilis',
     e: 'Gestante com teste rápido para sífilis reagente no pré-natal. A conduta imediata é:',
-    o: ['Iniciar penicilina benzatina, colher VDRL e tratar a parceria', 'Aguardar VDRL para iniciar', 'Tratar apenas no terceiro trimestre', 'Tratar com azitromicina'],
+    o: ['Penicilina benzatina, VDRL e tratar a parceria', 'Aguardar o VDRL, para só depois iniciar', 'Tratar apenas no terceiro trimestre', 'Tratar com azitromicina 1 g, em dose única'],
     g: 'A',
     c: 'Na gestação, um teste reagente já justifica tratamento imediato, pelo risco de sífilis congênita. A penicilina é o único tratamento adequado para prevenir a transmissão vertical. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: MS, 2022.',
     x: { B: 'Atrasa e aumenta o risco.', C: 'Aumenta o risco fetal.', D: 'Não é tratamento adequado na gestação.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: HIV',
     e: 'Gestante com teste rápido para HIV reagente no pré-natal. Após confirmação, a conduta é:',
-    o: ['Iniciar terapia antirretroviral o quanto antes, independentemente de CD4 ou carga viral', 'Aguardar o terceiro trimestre', 'Indicar interrupção da gestação', 'Contraindicar o pré-natal na rede básica'],
+    o: ['Iniciar TARV logo, independentemente de CD4 ou carga viral', 'Aguardar o terceiro trimestre, para iniciar', 'Indicar interrupção da gestação, por segurança', 'Contraindicar o pré-natal na rede básica de saúde'],
     g: 'A',
     c: 'A TARV precoce, com carga viral indetectável, reduz a transmissão vertical para menos de 1%. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Aumenta o risco.', C: 'Sem indicação.', D: 'Deve ser acompanhada com a rede.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: hipertensão',
     e: 'A prevenção de pré-eclâmpsia em gestante de alto risco é feita com:',
-    o: ['Ácido acetilsalicílico em dose baixa, iniciado entre 12 e 16 semanas, associado a cálcio se a ingestão for baixa', 'Diurético', 'Restrição de sal intensa', 'Repouso absoluto'],
+    o: ['AAS em dose baixa de 12 a 16 semanas, mais cálcio', 'Diurético tiazídico, desde o início da gestação', 'Restrição intensa de sal, em toda a gestação', 'Repouso absoluto no leito, desde o primeiro trimestre'],
     g: 'A',
     c: 'O AAS (cerca de 100 a 150 mg à noite) até 36 semanas reduz pré-eclâmpsia precoce. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Não previne.', C: 'Não previne.', D: 'Não previne.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: anemia',
     e: 'Gestante de 26 semanas com hemoglobina de 9,5 g/dL. A conduta é:',
-    o: ['Tratar com dose terapêutica de ferro (cerca de 120 a 200 mg de ferro elementar ao dia) e reavaliar', 'Manter apenas a dose profilática', 'Transfundir', 'Não tratar, pois é anemia fisiológica'],
+    o: ['Ferro em dose terapêutica (120 a 200 mg/dia) e reavaliar', 'Manter apenas a dose profilática de ferro diário', 'Transfundir concentrado de hemácias, de rotina', 'Não tratar, pois é anemia fisiológica da gestação'],
     g: 'A',
     c: 'Hemoglobina abaixo de 11 g/dL na gestação indica anemia. Pede-se parasitológico e investigam-se outras causas se não houver resposta. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Dose insuficiente.', C: 'Sem indicação nesse valor.', D: 'Abaixo de 11 é anemia.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: queixas',
     e: 'Gestante de 10 semanas com náuseas e vômitos leves, sem desidratação. A orientação inicial é:',
-    o: ['Fracionar refeições, evitar jejum prolongado e alimentos gordurosos; antieméticos se necessário', 'Internar para hidratação venosa', 'Suspender a alimentação', 'Indicar nutrição parenteral'],
+    o: ['Fracionar refeições e evitar jejum e gordura; antiemético se preciso', 'Internar para hidratação venosa, em todos os casos', 'Suspender toda a alimentação, por 48 horas seguidas', 'Indicar nutrição parenteral, desde o primeiro dia'],
     g: 'A',
     c: 'A hiperêmese gravídica (vômitos incoercíveis com perda de peso, desidratação e distúrbios eletrolíticos) exige internação. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Sem desidratação, não.', C: 'Contraproducente.', D: 'Sem indicação.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: exame físico',
     e: 'Durante o pré-natal, a ausculta dos batimentos cardíacos fetais deve ser registrada:',
-    o: ['Em todas as consultas a partir de cerca de 12 semanas com sonar Doppler', 'Somente no parto', 'Apenas uma vez por trimestre', 'Somente se a gestante sentir dor'],
+    o: ['Em toda consulta, a partir de 12 semanas, com sonar', 'Somente no momento do parto, na sala de parto', 'Apenas uma vez por trimestre, com sonar Doppler', 'Somente se a gestante referir dor abdominal'],
     g: 'A',
     c: 'A frequência normal do BCF é de 110 a 160 bpm. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: atividade física',
     e: 'Para gestante saudável, sem contraindicações, a recomendação sobre atividade física é:',
-    o: ['Praticar cerca de 150 minutos por semana de atividade aeróbica moderada', 'Repouso absoluto', 'Evitar qualquer exercício', 'Apenas exercícios de alta intensidade'],
+    o: ['Cerca de 150 minutos semanais de atividade aeróbica moderada', 'Repouso absoluto no leito, em toda a gestação', 'Evitar qualquer tipo de exercício físico', 'Somente exercícios de alta intensidade, diariamente'],
     g: 'A',
     c: 'A atividade física reduz diabetes gestacional e ganho de peso excessivo. Contraindicações incluem placenta prévia após 26 semanas e risco de parto prematuro. Referência: American College of Obstetricians and Gynecologists. Committee Opinion 804: Physical Activity and Exercise During Pregnancy and the Postpartum Period. Obstet Gynecol. 2020;135(4):e178-88.',
     x: { B: 'Sem benefício e com riscos.', C: 'Sem base.', D: 'Não é a recomendação.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Indução do parto',
     e: 'A sonda de Foley para indução do parto age:',
-    o: ['Mecanicamente, dilatando o colo e liberando prostaglandinas locais', 'Como agonista da ocitocina', 'Bloqueando receptores de progesterona', 'Reduzindo as contrações'],
+    o: ['Mecanicamente, dilatando o colo e liberando prostaglandinas', 'Como agonista dos receptores de ocitocina', 'Bloqueando os receptores de progesterona', 'Reduzindo a frequência das contrações uterinas'],
     g: 'A',
     c: 'É opção segura em cesárea anterior, com menos taquissistolia que as prostaglandinas. Referência: American College of Obstetricians and Gynecologists. Practice Bulletin 107: Induction of Labor. Obstet Gynecol. 2009;114(2):386-97.',
     x: { B: 'Não é o mecanismo.', C: 'É mecanismo da mifepristona.', D: 'Efeito oposto.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Estática fetal',
     e: 'A apresentação pélvica no termo ocorre em cerca de:',
-    o: ['3 a 4% das gestações', '25%', '50%', '0,01%'],
+    o: ['3 a 4% das gestações', 'Cerca de 25% das gestações', 'Cerca de 50% das gestações', 'Cerca de 0,01% das gestações'],
     g: 'A',
     c: 'A frequência é maior em prematuros. A versão cefálica externa pode ser oferecida a partir de 36 a 37 semanas. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Frequência muito alta.', C: 'Frequência muito alta.', D: 'Frequência baixa demais.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Estática fetal',
     e: 'A versão cefálica externa pode ser oferecida em apresentação pélvica a partir de:',
-    o: ['36 a 37 semanas, sem contraindicações', '20 semanas', '28 semanas', 'Durante o período expulsivo'],
+    o: ['36 a 37 semanas, sem contraindicações', '20 semanas, ainda no segundo trimestre', '28 semanas, ainda no terceiro trimestre', 'Durante o período expulsivo, com dilatação total'],
     g: 'A',
     c: 'Contraindicações incluem placenta prévia, oligoâmnio grave, sofrimento fetal e outras indicações de cesárea. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Precoce, com alta chance de reverter.', C: 'Precoce.', D: 'Não é o momento.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_PRENATAL: QuestaoCompacta[] = [
   {
     s: 'Pré-natal: orientações',
     e: 'Gestante pergunta sobre consumo de álcool na gestação. A orientação correta é:',
-    o: ['Não há quantidade segura, e o álcool deve ser evitado em toda a gestação', 'Uma taça por dia é segura', 'Pode beber no terceiro trimestre', 'Somente destilados são proibidos'],
+    o: ['Não há dose segura; evitar o álcool em toda a gestação', 'Uma taça por dia é considerada segura', 'Pode beber no terceiro trimestre, com moderação', 'Somente destilados são proibidos, vinho é seguro'],
     g: 'A',
     c: 'O álcool causa o espectro de desordens fetais alcoólicas. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 32: Atenção ao pré-natal de baixo risco. Brasília: MS, 2012.',
     x: { B: 'Não há dose segura.', C: 'Não há período seguro.', D: 'Qualquer bebida alcoólica é prejudicial.' },

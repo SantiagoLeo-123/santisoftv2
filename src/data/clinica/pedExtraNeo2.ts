@@ -5,7 +5,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Doença da membrana hialina',
     e: 'Prematuro de 29 semanas com desconforto respiratório progressivo nas primeiras horas, gemência e radiografia com infiltrado reticulogranular difuso e broncograma aéreo. O diagnóstico é:',
-    o: ['Síndrome do desconforto respiratório (doença da membrana hialina)', 'Taquipneia transitória', 'Aspiração de mecônio', 'Pneumotórax'],
+    o: ['Síndrome do desconforto respiratório (membrana hialina)', 'Taquipneia transitória do recém-nascido, benigna', 'Síndrome de aspiração de mecônio, em pós-termo', 'Pneumotórax espontâneo, com desvio do mediastino'],
     g: 'A',
     c: 'Deve-se à deficiência de surfactante. O corticoide antenatal reduz sua incidência. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Ocorre em termos, com evolução benigna.', C: 'Ocorre em termos e pós-termos com mecônio.', D: 'Teria hipertransparência unilateral.' },
@@ -13,7 +13,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Doença da membrana hialina',
     e: 'O tratamento específico da síndrome do desconforto respiratório do prematuro é:',
-    o: ['Surfactante exógeno e suporte ventilatório, preferencialmente com CPAP', 'Antibiótico isolado', 'Corticoide pós-natal em todos', 'Diurético'],
+    o: ['Surfactante exógeno e suporte, de preferência com CPAP', 'Antibiótico isolado, por via intravenosa, por 7 dias', 'Corticoide pós-natal, em todos os prematuros', 'Diurético de alça, por via intravenosa, de rotina'],
     g: 'A',
     c: 'Técnicas menos invasivas de administrar surfactante reduzem ventilação mecânica. Referência: Sweet DG et al. European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2022 Update. Neonatology. 2023;120(1):3-23.',
     x: { B: 'Não trata a deficiência de surfactante.', C: 'Não é rotina.', D: 'Sem indicação.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Síndrome de aspiração de mecônio',
     e: 'Recém-nascido pós-termo, com líquido meconial espesso, desconforto respiratório grave e radiografia com infiltrados grosseiros e hiperinsuflação. O diagnóstico é:',
-    o: ['Síndrome de aspiração de mecônio', 'Doença da membrana hialina', 'Taquipneia transitória', 'Hérnia diafragmática'],
+    o: ['Síndrome de aspiração de mecônio', 'Doença da membrana hialina, em prematuros', 'Taquipneia transitória do recém-nascido, benigna', 'Hérnia diafragmática congênita, com abdome escavado'],
     g: 'A',
     c: 'Complicações incluem hipertensão pulmonar persistente e pneumotórax. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Ocorre em prematuros.', C: 'Quadro leve e transitório.', D: 'Abdome escavado e alças no tórax.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Hérnia diafragmática',
     e: 'Recém-nascido com desconforto respiratório grave, abdome escavado e ruídos hidroaéreos no tórax esquerdo. A conduta imediata na sala de parto é:',
-    o: ['Intubação traqueal, evitando ventilação com máscara, e sonda gástrica', 'Ventilação com máscara prolongada', 'Aguardar respiração espontânea', 'Cirurgia na sala de parto'],
+    o: ['Intubar, evitar ventilação com máscara e passar sonda gástrica', 'Ventilação com máscara prolongada, com pressão positiva', 'Aguardar respiração espontânea, com oxigênio inalatório', 'Cirurgia imediata, na sala de parto, sem estabilizar'],
     g: 'A',
     c: 'A ventilação com máscara distende as alças intratorácicas e piora a compressão pulmonar. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Piora o quadro.', C: 'Atraso perigoso.', D: 'A cirurgia ocorre após estabilização.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Sepse neonatal precoce',
     e: 'Sepse neonatal precoce (nas primeiras 72 horas) é causada principalmente por:',
-    o: ['Estreptococo do grupo B e Escherichia coli', 'Staphylococcus epidermidis', 'Pseudomonas', 'Candida'],
+    o: ['Estreptococo do grupo B e Escherichia coli', 'Staphylococcus epidermidis, de pele e cateter', 'Pseudomonas aeruginosa, de ambiente hospitalar', 'Candida albicans, em prematuros de muito baixo peso'],
     g: 'A',
     c: 'O tratamento empírico usual é ampicilina e gentamicina. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Típico da sepse tardia hospitalar.', C: 'Típico da sepse tardia.', D: 'Típico de prematuros extremos em UTI.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Sepse neonatal: fatores de risco',
     e: 'É fator de risco materno para sepse neonatal precoce:',
-    o: ['Bolsa rota há mais de 18 horas, febre intraparto e colonização por estreptococo B sem profilaxia', 'Parto cesárea eletiva sem trabalho de parto', 'Mãe vacinada contra influenza', 'Aleitamento materno'],
+    o: ['Bolsa rota > 18 h, febre intraparto e EGB sem profilaxia', 'Cesárea eletiva, sem trabalho de parto', 'Mãe vacinada contra a influenza na gestação', 'Aleitamento materno exclusivo, após o parto'],
     g: 'A',
     c: 'A corioamnionite é um dos fatores mais importantes. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Risco baixo.', C: 'Sem relação.', D: 'É protetor.' },
@@ -53,7 +53,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Sepse neonatal tardia',
     e: 'Prematuro em UTI neonatal, com cateter central há 10 dias, apresenta apneias, instabilidade térmica e intolerância alimentar. O agente mais comum nesse contexto é:',
-    o: ['Estafilococo coagulase-negativo', 'Estreptococo do grupo B precoce', 'Listeria', 'Vírus da rubéola'],
+    o: ['Estafilococo coagulase-negativo', 'Estreptococo do grupo B, de início precoce', 'Listeria monocytogenes, de transmissão vertical', 'Vírus da rubéola, de transmissão vertical'],
     g: 'A',
     c: 'A sepse tardia associa-se a dispositivos invasivos e internação prolongada. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Mais associado à sepse precoce.', C: 'Mais associada à sepse precoce.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Infecções congênitas: citomegalovírus',
     e: 'Recém-nascido com microcefalia, calcificações periventriculares, hepatoesplenomegalia, petéquias e falha no teste da orelhinha. A hipótese é:',
-    o: ['Citomegalovírus congênito', 'Toxoplasmose', 'Rubéola', 'Sífilis'],
+    o: ['Citomegalovírus congênito', 'Toxoplasmose congênita, com hidrocefalia', 'Rubéola congênita, com catarata e surdez', 'Sífilis congênita, com lesões ósseas'],
     g: 'A',
     c: 'O diagnóstico é feito por PCR em urina ou saliva nas primeiras 3 semanas. Valganciclovir pode ser indicado nos sintomáticos. Referência: Rawlinson WD et al. Congenital cytomegalovirus infection in pregnancy and the neonate: consensus recommendations. Lancet Infect Dis. 2017;17(6):e177-88.',
     x: { B: 'Calcificações difusas.', C: 'Catarata e cardiopatia.', D: 'Sem esse padrão.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Sífilis congênita',
     e: 'Recém-nascido de mãe com sífilis não tratada, com VDRL de 1:32 (o da mãe é 1:8), hepatoesplenomegalia e lesões ósseas. O tratamento é:',
-    o: ['Penicilina cristalina intravenosa por 10 dias, após avaliação com líquor', 'Penicilina benzatina dose única', 'Azitromicina', 'Observação'],
+    o: ['Penicilina cristalina IV por 10 dias, após avaliar o líquor', 'Penicilina benzatina em dose única, intramuscular', 'Azitromicina oral, por 5 dias, em dose habitual', 'Observação clínica, com VDRL seriado'],
     g: 'A',
     c: 'Título no recém-nascido maior que o materno em duas diluições indica sífilis congênita provável. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Insuficiente para doença sintomática.', C: 'Inadequada.', D: 'Exige tratamento.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Sífilis congênita',
     e: 'A sífilis congênita tardia (após 2 anos) pode manifestar-se com:',
-    o: ['Dentes de Hutchinson, nariz em sela, tíbia em sabre e surdez', 'Catarata', 'Hidropsia', 'Calcificações periventriculares'],
+    o: ['Dentes de Hutchinson, nariz em sela, tíbia em sabre e surdez', 'Catarata congênita, com leucocoria bilateral', 'Hidropsia fetal, com derrames cavitários', 'Calcificações periventriculares, com microcefalia'],
     g: 'A',
     c: 'A tríade de Hutchinson inclui ceratite intersticial, surdez e dentes de Hutchinson. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Forma precoce ou outras causas.', D: 'Típico de CMV.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'HIV: exposição vertical',
     e: 'Recém-nascido de mãe com HIV e carga viral detectável próxima ao parto. A profilaxia indicada é:',
-    o: ['Antirretroviral combinado conforme risco, iniciado o mais cedo possível, e contraindicação do aleitamento materno', 'Nenhuma', 'Apenas vacina BCG adiada', 'Aleitamento exclusivo'],
+    o: ['ARV combinado conforme o risco, logo; sem amamentar', 'Nenhuma profilaxia, pois a carga viral é baixa', 'Apenas BCG adiada, sem nenhum antirretroviral', 'Aleitamento exclusivo, com zidovudina por 4 semanas'],
     g: 'A',
     c: 'Em baixo risco, usa-se zidovudina isolada; em alto risco, esquema combinado. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Há profilaxia.', C: 'Insuficiente.', D: 'Contraindicado no Brasil.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: recém-nascido',
     e: 'Recém-nascido de mãe HBsAg positiva deve receber:',
-    o: ['Vacina contra hepatite B e imunoglobulina anti-hepatite B nas primeiras 12 horas de vida', 'Apenas a vacina aos 2 meses', 'Somente imunoglobulina após 1 mês', 'Nada'],
+    o: ['Vacina anti-hepatite B e imunoglobulina em até 12 horas', 'Apenas a vacina anti-hepatite B, aos 2 meses de vida', 'Somente imunoglobulina, aplicada após 1 mês de vida', 'Nada, pois a mãe está assintomática e sem tratamento'],
     g: 'A',
     c: 'A amamentação é permitida. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Atraso aumenta transmissão.', C: 'Tardio.', D: 'Há profilaxia eficaz.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Triagem neonatal',
     e: 'O teste do coraçãozinho (oximetria de pulso) é considerado alterado quando:',
-    o: ['A saturação é menor que 95% ou há diferença maior que 3% entre membro superior direito e membro inferior', 'Saturação de 98% em ambos', 'Frequência cardíaca de 140', 'Sopro inocente'],
+    o: ['SatO2 < 95% ou diferença > 3% entre MSD e membro inferior', 'Saturação de 98% em ambos, pré e pós-ductal', 'Frequência cardíaca de 140 bpm, em repouso', 'Sopro inocente, à ausculta, sem hipoxemia'],
     g: 'A',
     c: 'Rastreia cardiopatias congênitas críticas; deve ser feito entre 24 e 48 horas de vida. Referência: Sociedade Brasileira de Pediatria. Diagnóstico precoce de cardiopatia congênita crítica: oximetria de pulso como ferramenta de triagem neonatal. 2011.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Não é critério.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Triagem neonatal',
     e: 'O teste do olhinho (reflexo vermelho) serve para detectar precocemente:',
-    o: ['Catarata congênita, glaucoma congênito e retinoblastoma', 'Estrabismo apenas', 'Miopia', 'Conjuntivite'],
+    o: ['Catarata congênita, glaucoma congênito e retinoblastoma', 'Estrabismo, apenas, sem outras alterações', 'Miopia, em graus elevados, ao nascimento', 'Conjuntivite, de origem infecciosa, no recém-nascido'],
     g: 'A',
     c: 'Reflexo ausente, assimétrico ou branco (leucocoria) exige oftalmologista com urgência. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Não é o objetivo principal.', C: 'Não é o objetivo.', D: 'Não é o objetivo.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Triagem neonatal',
     e: 'O teste da orelhinha (triagem auditiva) deve ser realizado:',
-    o: ['Preferencialmente antes da alta da maternidade, até o primeiro mês de vida', 'Somente aos 2 anos', 'Apenas em prematuros', 'Somente se houver queixa'],
+    o: ['Antes da alta da maternidade, até 1 mês de vida', 'Somente aos 2 anos de idade, na escola', 'Apenas em prematuros, internados em UTI', 'Somente se houver queixa dos pais, em consulta'],
     g: 'A',
     c: 'Recém-nascidos com indicador de risco fazem PEATE. Referência: Brasil. Ministério da Saúde. Diretrizes de Atenção da Triagem Auditiva Neonatal. Brasília: MS, 2012.',
     x: { B: 'Tardio.', C: 'É universal.', D: 'É universal.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: retinopatia',
     e: 'A retinopatia da prematuridade está associada principalmente a:',
-    o: ['Prematuridade extrema, baixo peso e exposição excessiva ao oxigênio', 'Pós-datismo', 'Fototerapia', 'Aleitamento materno'],
+    o: ['Prematuridade extrema, baixo peso e excesso de oxigênio', 'Pós-datismo, com macrossomia fetal associada', 'Fototerapia, por icterícia neonatal prolongada', 'Aleitamento materno, em prematuros extremos'],
     g: 'A',
     c: 'Recomenda-se triagem oftalmológica em prematuros com menos de 1.500 g ou 32 semanas, conforme protocolos nacionais. Referência: Zin A et al. Proposta de diretrizes brasileiras do exame e tratamento de retinopatia da prematuridade. Arq Bras Oftalmol. 2007;70(5):875-83.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'É protetor.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: hemorragia',
     e: 'A hemorragia peri-intraventricular no prematuro:',
-    o: ['Ocorre geralmente nos primeiros dias de vida e é rastreada por ultrassonografia transfontanelar', 'Ocorre só após 1 ano', 'É mais comum em termos', 'Não tem relação com a idade gestacional'],
+    o: ['Ocorre nos primeiros dias; rastreada por USG transfontanelar', 'Ocorre só após 1 ano de vida, em prematuros tardios', 'É mais comum em recém-nascidos a termo e saudáveis', 'Não tem relação com a idade gestacional ao nascimento'],
     g: 'A',
     c: 'Origina-se na matriz germinativa. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Precoce.', C: 'Mais comum em prematuros.', D: 'Quanto menor a IG, maior o risco.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: displasia broncopulmonar',
     e: 'A displasia broncopulmonar é definida pela necessidade de oxigênio em prematuros:',
-    o: ['Com 36 semanas de idade pós-menstrual (ou 28 dias de vida, conforme critério)', 'Somente ao nascer', 'Apenas em termos', 'Após 5 anos'],
+    o: ['Com 36 semanas de IG pós-menstrual (ou 28 dias de vida)', 'Somente ao nascer, na sala de parto', 'Apenas em recém-nascidos a termo, com asfixia', 'Após 5 anos, em crianças com sibilância'],
     g: 'A',
     c: 'Associa-se a ventilação mecânica, oxigênio e inflamação. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é critério.', C: 'Ocorre em prematuros.', D: 'Definição incorreta.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Filho de mãe diabética',
     e: 'Recém-nascido de mãe com diabetes mal controlado tem maior risco de:',
-    o: ['Hipoglicemia, macrossomia, policitemia, hipocalcemia e desconforto respiratório', 'Hipotireoidismo', 'Hiperglicemia persistente', 'Pós-datismo'],
+    o: ['Hipoglicemia, macrossomia, policitemia, hipocalcemia e desconforto respiratório', 'Hipotireoidismo congênito, com icterícia prolongada e hipotonia', 'Hiperglicemia persistente, em todos os casos de diabetes materno', 'Pós-datismo, com oligoâmnio, mecônio e pele descamativa'],
     g: 'A',
     c: 'A hiperinsulinemia fetal explica hipoglicemia e macrossomia. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Sem relação.', C: 'O oposto.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Policitemia neonatal',
     e: 'Recém-nascido com hematócrito venoso de 70%, pletórico e sintomático. O tratamento é:',
-    o: ['Exsanguineotransfusão parcial com soro fisiológico', 'Transfusão de concentrado de hemácias', 'Ferro oral', 'Observação'],
+    o: ['Exsanguineotransfusão parcial com soro fisiológico', 'Transfusão de concentrado de hemácias, em volume', 'Ferro oral, em dose profilática, por 3 meses', 'Observação clínica, sem intervenção, por 24 horas'],
     g: 'A',
     c: 'Associa-se a hiperviscosidade, hipoglicemia e icterícia. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Pioraria.', C: 'Sem indicação.', D: 'Inadequado com sintomas.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Recém-nascido: vitamina K',
     e: 'A vitamina K intramuscular ao nascer previne:',
-    o: ['Doença hemorrágica do recém-nascido (sangramento por deficiência de vitamina K)', 'Icterícia', 'Hipoglicemia', 'Infecção'],
+    o: ['Doença hemorrágica do recém-nascido (déficit de vitamina K)', 'Icterícia neonatal, por hemólise de origem imune', 'Hipoglicemia neonatal, em filhos de mães diabéticas', 'Infecção neonatal precoce, por estreptococo do grupo B'],
     g: 'A',
     c: 'O leite materno tem pouca vitamina K. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Recém-nascido: profilaxia ocular',
     e: 'A profilaxia ocular neonatal visa prevenir principalmente:',
-    o: ['Conjuntivite gonocócica (oftalmia neonatal)', 'Catarata', 'Glaucoma', 'Retinopatia'],
+    o: ['Conjuntivite gonocócica (oftalmia neonatal)', 'Catarata congênita, por rubéola materna', 'Glaucoma congênito, por malformação ocular', 'Retinopatia da prematuridade, em prematuros'],
     g: 'A',
     c: 'Usa-se colírio ou pomada antimicrobiana nas primeiras horas. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Sepse neonatal: listeria',
     e: 'A ampicilina faz parte do esquema empírico da sepse neonatal porque cobre:',
-    o: ['Listeria monocytogenes e estreptococo do grupo B', 'Pseudomonas', 'Fungos', 'Vírus'],
+    o: ['Listeria monocytogenes e estreptococo do grupo B', 'Pseudomonas aeruginosa, de ambiente hospitalar', 'Fungos, como Candida, em prematuros', 'Vírus, como o herpes simples neonatal'],
     g: 'A',
     c: 'As cefalosporinas não cobrem Listeria. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não cobre.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Canal arterial',
     e: 'Prematuro com sopro contínuo, pulsos amplos e piora respiratória na primeira semana. A hipótese é:',
-    o: ['Persistência do canal arterial', 'Tetralogia de Fallot', 'Coarctação da aorta', 'Comunicação interatrial'],
+    o: ['Persistência do canal arterial', 'Tetralogia de Fallot, com cianose', 'Coarctação da aorta, com pulsos diminuídos', 'Comunicação interatrial, com desdobramento fixo'],
     g: 'A',
     c: 'O tratamento pode ser com ibuprofeno, paracetamol ou indometacina, ou fechamento cirúrgico. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Seria cianótico.', C: 'Pulsos reduzidos em membros inferiores.', D: 'Sopro sistólico suave e sem repercussão precoce.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Triagem neonatal: teste do pezinho',
     e: 'O teste do pezinho básico do SUS inclui, entre outras, as doenças:',
-    o: ['Fenilcetonúria, hipotireoidismo congênito, doença falciforme, fibrose cística, hiperplasia adrenal congênita e deficiência de biotinidase', 'Diabetes tipo 1', 'Câncer infantil', 'Autismo'],
+    o: ['Fenilcetonúria, hipotireoidismo, falciforme, fibrose cística, HAC e biotinidase', 'Diabetes mellitus tipo 1, com pesquisa de autoanticorpos específicos', 'Câncer infantil, com dosagem de marcadores tumorais séricos', 'Autismo, com marcadores comportamentais precoces e genéticos'],
     g: 'A',
     c: 'A Lei 14.154/2021 prevê ampliação gradual do teste. Referência: Brasil. Ministério da Saúde. Triagem neonatal biológica: manual técnico. Brasília: MS, 2016.',
     x: { B: 'Não é detectado.', C: 'Não é detectado.', D: 'Não é detectado.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Hiperplasia adrenal congênita',
     e: 'Recém-nascido com genitália ambígua (46,XX virilizada) e, na segunda semana, vômitos, desidratação, hiponatremia e hipercalemia. O diagnóstico é:',
-    o: ['Hiperplasia adrenal congênita forma perdedora de sal (deficiência de 21-hidroxilase)', 'Estenose de piloro', 'Sepse', 'Hipotireoidismo'],
+    o: ['HAC perdedora de sal (deficiência de 21-hidroxilase)', 'Estenose hipertrófica de piloro, com vômitos', 'Sepse neonatal tardia, com instabilidade', 'Hipotireoidismo congênito, com icterícia prolongada'],
     g: 'A',
     c: 'A 17-hidroxiprogesterona está elevada. O tratamento envolve hidrocortisona e fludrocortisona. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Causa alcalose hipoclorêmica e hipocalemia.', C: 'Não explica a genitália.', D: 'Sem esses distúrbios eletrolíticos.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Fenilcetonúria',
     e: 'O tratamento da fenilcetonúria é:',
-    o: ['Dieta restrita em fenilalanina, iniciada o mais cedo possível', 'Reposição de hormônio tireoidiano', 'Corticoide', 'Insulina'],
+    o: ['Dieta restrita em fenilalanina, iniciada o mais cedo possível', 'Reposição de hormônio tireoidiano, por via oral', 'Corticoide oral, em dose de reposição fisiológica', 'Insulina subcutânea, em dose fisiológica'],
     g: 'A',
     c: 'Sem tratamento, causa deficiência intelectual. Referência: Brasil. Ministério da Saúde. Triagem neonatal biológica: manual técnico. Brasília: MS, 2016.',
     x: { B: 'Trata hipotireoidismo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo congênito',
     e: 'Recém-nascido com TSH elevado no teste do pezinho, confirmado em sangue venoso com T4 livre baixo. A conduta é:',
-    o: ['Iniciar levotiroxina imediatamente, idealmente até 2 semanas de vida', 'Repetir o exame em 6 meses', 'Aguardar sintomas', 'Iniciar iodo'],
+    o: ['Iniciar levotiroxina logo, idealmente até 2 semanas de vida', 'Repetir o exame em 6 meses, e só então reavaliar', 'Aguardar sintomas clínicos, para iniciar a reposição', 'Iniciar iodo por via oral, em dose diária, e reavaliar'],
     g: 'A',
     c: 'O tratamento precoce previne prejuízo neurológico. Referência: Brasil. Ministério da Saúde. Triagem neonatal biológica: manual técnico. Brasília: MS, 2016.',
     x: { B: 'Atraso prejudicial.', C: 'Atraso prejudicial.', D: 'Sem indicação.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Doença falciforme',
     e: 'Lactente com diagnóstico de anemia falciforme no teste do pezinho deve iniciar:',
-    o: ['Penicilina profilática a partir de 2 a 3 meses e vacinação especial', 'Transfusões mensais obrigatórias', 'Esplenectomia', 'Nenhuma medida até ter sintomas'],
+    o: ['Penicilina profilática aos 2-3 meses e vacinação especial', 'Transfusões mensais, obrigatórias, desde o nascimento', 'Esplenectomia precoce, antes do primeiro ano', 'Nenhuma medida até surgirem os primeiros sintomas'],
     g: 'A',
     c: 'A asplenia funcional aumenta o risco de infecção por pneumococo. Referência: Brasil. Ministério da Saúde. Doença falciforme: diretrizes básicas da linha de cuidado. Brasília: MS, 2015.',
     x: { B: 'Não é rotina.', C: 'Sem indicação.', D: 'Há medidas preventivas.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Fibrose cística',
     e: 'O teste do pezinho alterado para fibrose cística (tripsinogênio imunorreativo elevado) deve ser confirmado por:',
-    o: ['Teste do suor (dosagem de cloro)', 'Radiografia de tórax', 'Espirometria em recém-nascido', 'Ultrassom abdominal'],
+    o: ['Teste do suor (dosagem de cloro)', 'Radiografia de tórax, em incidência anteroposterior', 'Espirometria em recém-nascido, com sedação', 'Ultrassom abdominal, para avaliar o pâncreas'],
     g: 'A',
     c: 'Cloro igual ou acima de 60 mmol/L confirma. Referência: Farrell PM et al. Diagnosis of Cystic Fibrosis: Consensus Guidelines from the Cystic Fibrosis Foundation. J Pediatr. 2017;181S:S4-15.',
     x: { B: 'Não confirma.', C: 'Inviável.', D: 'Não confirma.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Recém-nascido: classificação',
     e: 'Recém-nascido com 37 semanas e 2.200 g é classificado como:',
-    o: ['A termo e pequeno para a idade gestacional', 'Prematuro e adequado', 'Pós-termo e grande', 'A termo e grande'],
+    o: ['A termo e pequeno para a idade gestacional', 'Prematuro e adequado para a idade gestacional', 'Pós-termo e grande para a idade gestacional', 'A termo e grande para a idade gestacional'],
     g: 'A',
     c: 'Usam-se curvas de crescimento como a Intergrowth-21st. Referência: Villar J et al. International standards for newborn weight, length, and head circumference by gestational age and sex: the Newborn Cross-Sectional Study of the INTERGROWTH-21st Project. Lancet. 2014;384(9946):857-68.',
     x: { B: '37 semanas é termo.', C: 'Não é pós-termo nem grande.', D: 'O peso é baixo para a IG.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Hipocalcemia neonatal',
     e: 'Recém-nascido de mãe diabética com tremores e convulsão, glicemia normal e cálcio iônico baixo. O tratamento é:',
-    o: ['Gluconato de cálcio intravenoso lento, com monitorização cardíaca', 'Glicose', 'Fenobarbital isolado', 'Magnésio sem cálcio'],
+    o: ['Gluconato de cálcio IV lento, com monitorização cardíaca', 'Glicose a 10%, por via intravenosa, em bolus', 'Fenobarbital isolado, por via intravenosa', 'Sulfato de magnésio, sem reposição de cálcio'],
     g: 'A',
     c: 'Hipomagnesemia associada também deve ser corrigida. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'A glicemia está normal.', C: 'Não corrige a causa.', D: 'Insuficiente.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Abstinência neonatal',
     e: 'Recém-nascido de mãe usuária de opioides apresenta irritabilidade, tremores, choro agudo, sucção desorganizada e diarreia no 2º dia. A primeira linha de manejo é:',
-    o: ['Medidas não farmacológicas (ambiente calmo, alojamento conjunto, enrolar, amamentação se permitida), com medicamento se grave', 'Naloxona', 'Fenobarbital para todos', 'Antibiótico'],
+    o: ['Medidas não farmacológicas; medicamento se grave', 'Naloxona por via intramuscular, de rotina', 'Fenobarbital, em todos os recém-nascidos', 'Antibiótico intravenoso, por 7 dias'],
     g: 'A',
     c: 'A escala de Finnegan ou a abordagem ESC orientam o tratamento. Referência: Patrick SW et al. Neonatal Opioid Withdrawal Syndrome. Pediatrics. 2020;146(5):e2020029074.',
     x: { B: 'Contraindicada, precipita abstinência.', C: 'Não é primeira linha.', D: 'Sem infecção.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Infecções congênitas: Zika',
     e: 'Recém-nascido com microcefalia grave, calcificações subcorticais e artrogripose, mãe com exantema no primeiro trimestre em área endêmica. A hipótese é:',
-    o: ['Síndrome congênita do Zika', 'Toxoplasmose', 'Rubéola', 'Hipotireoidismo'],
+    o: ['Síndrome congênita do Zika', 'Toxoplasmose congênita, com hidrocefalia', 'Rubéola congênita, com catarata e surdez', 'Hipotireoidismo congênito, com icterícia'],
     g: 'A',
     c: 'O seguimento é multiprofissional. Referência: Brasil. Ministério da Saúde. Orientações integradas de vigilância e atenção à saúde no âmbito da Emergência de Saúde Pública de Importância Nacional (Zika). Brasília: MS, 2017.',
     x: { B: 'Calcificações difusas, sem artrogripose.', C: 'Catarata e cardiopatia.', D: 'Sem esse quadro.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Teste da linguinha',
     e: 'O teste da linguinha (protocolo de avaliação do frênulo lingual) avalia:',
-    o: ['Anquiloglossia que pode prejudicar a amamentação', 'Fenda palatina', 'Língua geográfica', 'Macroglossia por hipotireoidismo apenas'],
+    o: ['Anquiloglossia, que pode prejudicar a amamentação', 'Fenda palatina, com dificuldade de sucção', 'Língua geográfica, com lesões migratórias', 'Macroglossia, apenas por hipotireoidismo congênito'],
     g: 'A',
     c: 'É obrigatório nas maternidades pela Lei 13.002/2014. Referência: Brasil. Ministério da Saúde. Atenção à Saúde do Recém-Nascido: guia para os profissionais de saúde. 2ª ed. Brasília: MS, 2014.',
     x: { B: 'Não é o foco.', C: 'Não é o foco.', D: 'Não é o objetivo.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Distúrbios respiratórios: pneumotórax',
     e: 'Recém-nascido em ventilação mecânica com piora súbita, assimetria do murmúrio e desvio do ictus. A hipótese é:',
-    o: ['Pneumotórax hipertensivo', 'Taquipneia transitória', 'Atelectasia leve', 'Hipoglicemia'],
+    o: ['Pneumotórax hipertensivo', 'Taquipneia transitória, com resolução rápida', 'Atelectasia leve, sem repercussão hemodinâmica', 'Hipoglicemia, com tremores e apneia'],
     g: 'A',
     c: 'A transiluminação pode ajudar; o tratamento é punção e drenagem. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não causa piora súbita com desvio.', C: 'Não causa desvio do ictus.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Hipertensão pulmonar persistente',
     e: 'Recém-nascido a termo com hipoxemia grave e diferença de saturação pré e pós-ductal maior que 10%. A hipótese é:',
-    o: ['Hipertensão pulmonar persistente do recém-nascido', 'Taquipneia transitória', 'Canal arterial em prematuro', 'Anemia'],
+    o: ['Hipertensão pulmonar persistente do recém-nascido', 'Taquipneia transitória, com resolução rápida', 'Canal arterial pérvio, em prematuro extremo', 'Anemia neonatal, com palidez e taquicardia'],
     g: 'A',
     c: 'O óxido nítrico inalatório é uma das terapias. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não cursa com essa diferença.', C: 'Ocorre em prematuros.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Infecções: oftalmia por clamídia',
     e: 'Recém-nascido de 10 dias com conjuntivite secretora. A clamídia deve ser tratada com:',
-    o: ['Eritromicina ou azitromicina por via oral', 'Colírio isolado', 'Penicilina benzatina', 'Aciclovir'],
+    o: ['Eritromicina ou azitromicina por via oral', 'Colírio antibiótico isolado, por 7 dias', 'Penicilina benzatina, em dose única, IM', 'Aciclovir intravenoso, por 14 a 21 dias'],
     g: 'A',
     c: 'Também previne pneumonia por clamídia. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Insuficiente.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Recém-nascido: alojamento conjunto',
     e: 'Sobre o alojamento conjunto, é correto afirmar:',
-    o: ['Favorece o aleitamento materno, o vínculo e reduz infecções hospitalares', 'Aumenta infecções', 'Deve ser evitado em todos os partos', 'Só é permitido após 7 dias'],
+    o: ['Favorece o aleitamento e o vínculo, e reduz infecções', 'Aumenta as infecções hospitalares, no berçário', 'Deve ser evitado em todos os partos', 'Só é permitido após 7 dias de vida'],
     g: 'A',
     c: 'É recomendado para mães e bebês estáveis. Referência: Brasil. Ministério da Saúde. Portaria nº 2.068, de 21 de outubro de 2016.',
     x: { B: 'Reduz infecções.', C: 'É recomendado.', D: 'Começa logo após o parto.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Prematuridade: nutrição',
     e: 'O leite materno para prematuros de muito baixo peso:',
-    o: ['É o alimento preferencial, podendo exigir aditivo para suprir proteínas, cálcio e fósforo', 'É contraindicado', 'Deve ser substituído por fórmula', 'Causa enterocolite'],
+    o: ['Alimento preferencial; pode exigir aditivo de proteínas, cálcio e fósforo', 'É contraindicado, por risco de enterocolite necrosante grave', 'Deve ser substituído por fórmula, desde o nascimento, sempre', 'Causa enterocolite necrosante, em todos os casos, sem exceção'],
     g: 'A',
     c: 'O leite humano reduz enterocolite e sepse. Referência: Sociedade Brasileira de Pediatria. Tratado de Pediatria. 5ª ed. Barueri: Manole, 2022.',
     x: { B: 'É indicado.', C: 'Não é necessário.', D: 'Protege contra enterocolite.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_NEO2: QuestaoCompacta[] = [
   {
     s: 'Doença de Hirschsprung',
     e: 'Recém-nascido que não elimina mecônio nas primeiras 48 horas, com distensão abdominal e vômitos. A hipótese a investigar é:',
-    o: ['Doença de Hirschsprung', 'Estenose de piloro', 'Refluxo', 'Intolerância à lactose'],
+    o: ['Doença de Hirschsprung', 'Estenose hipertrófica de piloro, com vômitos em jato', 'Refluxo gastroesofágico, com regurgitações', 'Intolerância à lactose, com diarreia ácida'],
     g: 'A',
     c: 'O diagnóstico é confirmado por biópsia retal com ausência de células ganglionares. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não altera mecônio.', C: 'Sem relação.', D: 'Sem relação.' },

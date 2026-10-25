@@ -21,7 +21,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Definições da OMS',
     e: 'Lactente de 4 meses recebe leite materno em livre demanda durante o dia e uma mamadeira de fórmula infantil à noite. Não recebe outros alimentos. A classificação correta do padrão alimentar é aleitamento materno:',
-    o: ['Complementado', 'Misto ou parcial', 'Predominante', 'Exclusivo'],
+    o: ['Aleitamento complementado', 'Aleitamento misto ou parcial', 'Aleitamento predominante', 'Aleitamento exclusivo'],
     g: 'B',
     c: 'O aleitamento materno misto ou parcial é definido pela oferta de leite materno associada a outros tipos de leite, como fórmula infantil ou leite de vaca. A introdução de outro leite diminui o estímulo de sucção e o esvaziamento da mama, o que tende a reduzir a produção láctea.',
     x: { A: 'Complementado refere-se à adição de alimentos sólidos ou semissólidos, não de outro leite.', C: 'Predominante é leite materno com água, chás ou sucos, sem outro leite.', D: 'Qualquer outro leite além do humano descaracteriza o aleitamento exclusivo.' },
@@ -29,7 +29,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Definições da OMS',
     e: 'Criança de 8 meses mama no peito pela manhã e à noite e recebe papa de legumes com carne no almoço e fruta amassada nos lanches. Não usa outro leite. Trata-se de aleitamento materno:',
-    o: ['Predominante', 'Complementado', 'Misto', 'Exclusivo'],
+    o: ['Aleitamento predominante', 'Aleitamento complementado', 'Aleitamento misto', 'Aleitamento exclusivo'],
     g: 'B',
     c: 'No aleitamento materno complementado, a criança recebe leite materno e alimentos sólidos ou semissólidos, oferecidos com a finalidade de complementá-lo e não de substituí-lo. É o padrão esperado a partir dos 6 meses, quando o leite materno isolado deixa de suprir as necessidades de energia, ferro e zinco.',
     x: { A: 'O predominante envolve apenas líquidos à base de água, sem alimentos sólidos.', C: 'O misto exige o uso de outro leite além do materno, que a criança não recebe.', D: 'A oferta de papas e frutas é incompatível com a definição de exclusivo.' },
@@ -69,7 +69,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Reflexo de ejeção',
     e: 'Nutriz de lactente de 1 mês, muito ansiosa, com dor por fissuras mamilares e privação de sono, queixa-se de que o leite demora a sair, embora as mamas estejam cheias. A explicação fisiológica mais provável é:',
-    o: ['Queda da prolactina por excesso de mamadas noturnas', 'Inibição do reflexo de ejeção, pois dor, estresse e ansiedade reduzem a liberação de ocitocina', 'Esgotamento da capacidade de síntese dos alvéolos mamários', 'Aumento do fator inibidor da lactação por esvaziamento excessivo das mamas'],
+    o: ['Queda da prolactina por excesso de mamadas noturnas', 'Inibição do reflexo de ejeção: dor e estresse reduzem a ocitocina', 'Esgotamento da capacidade de síntese dos alvéolos mamários', 'Aumento do fator inibidor da lactação por esvaziamento excessivo'],
     g: 'B',
     c: 'A liberação de ocitocina é fortemente influenciada por fatores emocionais: dor, estresse, ansiedade, medo e insegurança inibem o reflexo de ejeção. O leite é produzido, mas fica retido nos alvéolos, e o manejo inclui corrigir a pega para aliviar a dor, promover ambiente tranquilo e apoiar a mãe.',
     x: { A: 'Mamadas noturnas elevam a prolactina, não a reduzem.', C: 'As mamas cheias mostram que a síntese de leite está preservada.', D: 'O fator inibidor da lactação aumenta com a mama cheia, não com o esvaziamento.' },
@@ -77,7 +77,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Lactogênese',
     e: 'A lactogênese fase II, conhecida como apojadura ou descida do leite, ocorre em geral entre o terceiro e o quarto dia pós-parto. O evento que a desencadeia é:',
-    o: ['O início da sucção do recém-nascido na primeira hora de vida', 'A queda abrupta da progesterona após a dequitação da placenta, com liberação da ação da prolactina', 'O aumento do estrogênio materno no puerpério imediato', 'A elevação do lactogênio placentário após o parto'],
+    o: ['O início da sucção do recém-nascido na primeira hora de vida', 'Queda da progesterona após a dequitação, liberando a prolactina', 'O aumento do estrogênio materno no puerpério imediato', 'A elevação do lactogênio placentário após o parto'],
     g: 'B',
     c: 'Durante a gestação, a progesterona e o estrogênio placentários bloqueiam a ação da prolactina sobre a mama. Com a saída da placenta, a progesterona cai rapidamente e a prolactina passa a induzir secreção abundante de leite. Essa fase é de controle endócrino e ocorre mesmo que a criança não sugue.',
     x: { A: 'A fase II é endócrina e acontece mesmo sem sucção, embora esta seja essencial para manter a produção.', C: 'O estrogênio cai após o parto e, quando alto, inibe a secreção láctea.', D: 'O lactogênio placentário desaparece com a dequitação da placenta.' },
@@ -85,7 +85,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Lactogênese',
     e: 'Após a apojadura, a manutenção da produção de leite (lactogênese fase III ou galactopoese) depende principalmente de:',
-    o: ['Controle endócrino pela progesterona circulante', 'Controle autócrino local, com sucção e esvaziamento frequente e efetivo da mama', 'Ingestão hídrica materna acima de quatro litros por dia', 'Tamanho das mamas e quantidade de tecido adiposo mamário'],
+    o: ['Controle endócrino pela progesterona circulante', 'Controle autócrino local: sucção e esvaziamento frequentes', 'Ingestão hídrica materna acima de quatro litros por dia', 'Tamanho das mamas e quantidade de tecido adiposo'],
     g: 'B',
     c: 'Na galactopoese, o controle passa a ser predominantemente autócrino: a produção se ajusta à remoção do leite. O leite retido contém um peptídeo inibidor da lactação e aumenta a pressão intra-alveolar, reduzindo a síntese. Por isso a livre demanda e o esvaziamento efetivo são a base para manter e aumentar a produção.',
     x: { A: 'A progesterona inibe a lactação e está baixa no puerpério.', C: 'A nutriz deve beber água conforme a sede; excesso de líquidos não aumenta a produção.', D: 'O tamanho da mama reflete tecido adiposo e não determina a capacidade de produzir leite.' },
@@ -93,7 +93,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Lactogênese',
     e: 'A lactogênese fase I caracteriza-se por:',
-    o: ['Iniciar-se após a dequitação placentária, com produção abundante de leite', 'Ocorrer durante a gestação, com diferenciação do tecido alveolar e capacidade de secretar colostro', 'Depender exclusivamente do esvaziamento da mama pelo lactente', 'Corresponder à involução da glândula mamária após o desmame'],
+    o: ['Inicia-se após a dequitação, com produção abundante de leite', 'Ocorre na gestação, com diferenciação alveolar e colostro', 'Depende exclusivamente do esvaziamento da mama pelo lactente', 'Corresponde à involução da glândula após o desmame'],
     g: 'B',
     c: 'A fase I acontece na gestação, sobretudo na segunda metade, quando estrogênio, progesterona, prolactina e lactogênio placentário promovem proliferação de ductos e alvéolos e diferenciação das células secretoras. A mama já é capaz de produzir colostro, mas a secreção abundante fica bloqueada pela progesterona placentária.',
     x: { A: 'O início após a dequitação com produção abundante descreve a lactogênese fase II.', C: 'A dependência do esvaziamento caracteriza a fase III ou galactopoese.', D: 'A involução da glândula após o desmame não é uma fase da lactogênese.' },
@@ -101,7 +101,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Colostro',
     e: 'Puérpera no segundo dia pós-parto está preocupada porque sai das mamas apenas pequena quantidade de líquido espesso e amarelado e pede fórmula para o recém-nascido a termo, saudável e com boa sucção. A orientação adequada é:',
-    o: ['Prescrever complemento com fórmula até que ocorra a apojadura', 'Explicar que o colostro, em pequeno volume, é suficiente e adequado à capacidade gástrica do recém-nascido e manter livre demanda', 'Oferecer soro glicosado em copinho para prevenir hipoglicemia', 'Suspender as mamadas até a apojadura para poupar os mamilos'],
+    o: ['Prescrever complemento com fórmula até ocorrer a apojadura', 'Explicar que o colostro em pouco volume basta; manter livre demanda', 'Oferecer soro glicosado em copinho para prevenir hipoglicemia', 'Suspender as mamadas até a apojadura, para poupar os mamilos'],
     g: 'B',
     c: 'O colostro é secretado nos primeiros dias em pequeno volume, compatível com a pequena capacidade gástrica do recém-nascido. É rico em proteínas, imunoglobulina A secretora, leucócitos, vitamina A e fatores de crescimento, e tem efeito laxativo que favorece a eliminação de mecônio. A sucção frequente acelera a apojadura.',
     x: { A: 'Complemento sem indicação médica reduz a sucção e prejudica o estabelecimento da lactação.', C: 'Recém-nascido a termo saudável em livre demanda não precisa de soro glicosado.', D: 'Suspender as mamadas retarda a apojadura e favorece o ingurgitamento.' },
@@ -109,7 +109,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Colostro',
     e: 'Quando comparado ao leite humano maduro, o colostro apresenta:',
-    o: ['Mais gordura e mais lactose, com menor teor de proteínas', 'Mais proteínas, imunoglobulinas e vitamina A, com menor teor de gordura e lactose', 'Menos sódio e menos imunoglobulina A secretora', 'Maior densidade calórica e ausência de fatores de defesa'],
+    o: ['Mais gordura e mais lactose, com menos proteínas', 'Mais proteínas, imunoglobulinas e vitamina A; menos gordura', 'Menos sódio e menos imunoglobulina A secretora', 'Maior densidade calórica, sem fatores de defesa'],
     g: 'B',
     c: 'O colostro contém mais proteínas, especialmente imunoglobulina A secretora e lactoferrina, além de mais vitamina A (que lhe dá a cor amarelada), sódio e minerais. Tem menos gordura e lactose e, portanto, menor valor calórico que o leite maduro, funcionando como uma primeira proteção imunológica da mucosa intestinal.',
     x: { A: 'É o leite maduro que tem mais gordura e lactose e menos proteínas.', C: 'O colostro tem mais sódio e é a secreção mais rica em imunoglobulina A.', D: 'O colostro é menos calórico e é justamente a fase mais rica em fatores de defesa.' },
@@ -117,7 +117,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Leite anterior e posterior',
     e: 'Lactente de 2 meses em aleitamento exclusivo apresenta ganho de peso abaixo do esperado, fezes esverdeadas e explosivas e muitos gases. A mãe troca de mama a cada cinco minutos, por orientação de uma vizinha. A explicação e a conduta mais adequadas são:',
-    o: ['Intolerância congênita à lactose; substituir por fórmula sem lactose', 'Ingestão predominante de leite anterior, pobre em gordura; orientar a esvaziar uma mama antes de oferecer a outra', 'Alergia à proteína do leite de vaca; iniciar fórmula extensamente hidrolisada', 'Leite materno fraco; complementar com fórmula após cada mamada'],
+    o: ['Intolerância congênita à lactose; trocar por fórmula sem lactose', 'Leite anterior pobre em gordura; esvaziar uma mama antes da outra', 'Alergia à proteína do leite de vaca; usar fórmula hidrolisada', 'Leite fraco; complementar com fórmula após cada mamada'],
     g: 'B',
     c: 'O teor de gordura aumenta ao longo da mamada: o leite do início é mais rico em água e lactose e o do final (posterior) é mais rico em gordura e calorias. A troca precoce de mama faz a criança ingerir grande volume de leite anterior, com muita lactose e poucas calorias, o que causa saciedade curta, gases, fezes explosivas e baixo ganho ponderal.',
     x: { A: 'A intolerância congênita à lactose é raríssima e o quadro se explica pela técnica da mamada.', C: 'Não há sangue nas fezes nem outras manifestações que sustentem alergia alimentar.', D: 'Não existe leite fraco; o problema é a técnica, e o complemento reduziria a produção.' },
@@ -133,7 +133,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Leite humano x leite de vaca',
     e: 'Na comparação entre o leite humano maduro e o leite de vaca integral, é correto afirmar que o leite humano contém:',
-    o: ['Mais proteínas e mais eletrólitos', 'Menos proteínas e menos eletrólitos, com mais lactose', 'Menos lactose e mais caseína', 'A mesma quantidade de proteínas, com menos gordura'],
+    o: ['Mais proteínas e mais eletrólitos', 'Menos proteínas e eletrólitos, com mais lactose', 'Menos lactose e mais caseína', 'Mesma quantidade de proteínas, com menos gordura'],
     g: 'B',
     c: 'O leite de vaca tem cerca de três vezes mais proteínas e maior teor de sódio, potássio, cálcio e fósforo, o que resulta em carga renal de solutos elevada para o rim imaturo do lactente. O leite humano tem mais lactose, que fornece energia, favorece a absorção de cálcio e o crescimento de bifidobactérias.',
     x: { A: 'É o leite de vaca que tem mais proteínas e eletrólitos, com alta carga renal de solutos.', C: 'O leite humano tem mais lactose e menos caseína que o leite de vaca.', D: 'O teor proteico do leite de vaca é bem maior, e o teor de gordura é semelhante.' },
@@ -149,7 +149,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Ferro no leite',
     e: 'Sobre o ferro no leite humano, é correto afirmar:',
-    o: ['Está presente em alta concentração, o que dispensa suplementação até os 2 anos', 'Está presente em baixa concentração, porém com biodisponibilidade muito superior à do leite de vaca', 'Tem a mesma biodisponibilidade do ferro do leite de vaca', 'É pouco absorvido por causa do alto teor de lactoferrina e de lactose'],
+    o: ['Em alta concentração, dispensando suplementação até 2 anos', 'Em baixa concentração, mas com biodisponibilidade muito superior', 'Biodisponibilidade igual à do ferro do leite de vaca', 'Pouco absorvido, pelo alto teor de lactoferrina e lactose'],
     g: 'B',
     c: 'A quantidade de ferro é baixa tanto no leite humano quanto no de vaca, mas a absorção do ferro do leite materno é muito maior, favorecida pela lactoferrina, pela lactose, pelo pH intestinal mais ácido e pelo menor teor de cálcio e fósforo. Isso, somado às reservas do nascimento, protege o lactente a termo nos primeiros meses.',
     x: { A: 'A concentração é baixa, e a suplementação profilática é recomendada no primeiro e segundo anos.', C: 'A biodisponibilidade do ferro do leite de vaca é bem menor.', D: 'Lactoferrina e lactose favorecem a absorção do ferro, não a prejudicam.' },
@@ -173,7 +173,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Gorduras do leite',
     e: 'Em relação aos lipídios do leite humano, é correto afirmar que:',
-    o: ['Representam menos de um décimo das calorias do leite maduro', 'São a principal fonte de energia e incluem ácidos graxos poli-insaturados de cadeia longa, importantes para retina e sistema nervoso', 'Têm composição idêntica à do leite de vaca, que também é rico em ácido docosa-hexaenoico', 'São mal absorvidos, pois o leite humano não contém lipase'],
+    o: ['Representam menos de um décimo das calorias do leite maduro', 'Principal fonte de energia; incluem ácidos graxos para retina e cérebro', 'Composição idêntica à do leite de vaca, rico em DHA', 'São mal absorvidos, pois o leite humano não tem lipase'],
     g: 'B',
     c: 'A gordura fornece cerca de metade das calorias do leite humano. Ele contém ácidos graxos essenciais e poli-insaturados de cadeia longa, como o docosa-hexaenoico e o araquidônico, fundamentais para a mielinização e o desenvolvimento da retina. A lipase presente no próprio leite facilita a digestão das gorduras.',
     x: { A: 'Os lipídios respondem por aproximadamente metade do valor calórico do leite maduro.', C: 'O leite de vaca é pobre em ácidos graxos essenciais e poli-insaturados de cadeia longa.', D: 'O leite humano contém lipase estimulada por sais biliares, que melhora a absorção.' },
@@ -197,7 +197,7 @@ export const PED_ALEITAMENTO_1: QuestaoCompacta[] = [
   {
     s: 'Amenorreia lactacional',
     e: 'Puérpera pergunta se a amamentação pode protegê-la de uma nova gravidez. O método da amenorreia lactacional tem alta eficácia contraceptiva quando estão presentes, simultaneamente:',
-    o: ['Aleitamento misto, amenorreia e criança com até 1 ano', 'Aleitamento exclusivo ou predominante em livre demanda, amenorreia e criança com menos de 6 meses', 'Qualquer padrão de aleitamento, desde que a mãe esteja em amenorreia', 'Aleitamento exclusivo, mesmo após o retorno da menstruação, até os 6 meses'],
+    o: ['Aleitamento misto, amenorreia e criança com até 1 ano', 'Aleitamento exclusivo ou predominante, amenorreia e bebê < 6 meses', 'Qualquer padrão de aleitamento, com a mãe em amenorreia', 'Aleitamento exclusivo, mesmo após o retorno da menstruação'],
     g: 'B',
     c: 'A sucção frequente mantém a prolactina elevada e altera a secreção pulsátil de gonadotrofinas, inibindo a ovulação. A eficácia é alta apenas se a mulher estiver em amenorreia, amamentando de forma exclusiva ou quase exclusiva, de dia e de noite, e nos primeiros 6 meses pós-parto. Ausente qualquer um dos critérios, é preciso outro método.',
     x: { A: 'O aleitamento misto reduz a sucção e a eficácia, e o limite é de 6 meses.', C: 'A amenorreia isolada não garante anovulação se a sucção for pouco frequente.', D: 'O retorno da menstruação indica retomada da função ovariana e invalida o método.' },

@@ -21,7 +21,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Cardiotocografia',
     e: 'Desacelerações que começam e terminam junto com a contração, com nadir coincidente com o pico, simétricas, são chamadas:',
-    o: ['Precoces (DIP I), por compressão do polo cefálico', 'Tardias (DIP II)', 'Variáveis', 'Prolongadas'],
+    o: ['Precoces (DIP I), por compressão do polo cefálico', 'Tardias (DIP II), por insuficiência placentária', 'Variáveis, por compressão do cordão umbilical', 'Prolongadas, com duração superior a 2 minutos'],
     g: 'A',
     c: 'São benignas e associadas a reflexo vagal pela compressão cefálica. Referência: Macones GA et al. The 2008 National Institute of Child Health and Human Development workshop report on electronic fetal monitoring. Obstet Gynecol. 2008;112(3):661-6.',
     x: { B: 'O nadir ocorre após o pico.', C: 'São abruptas e de forma variável.', D: 'Duram mais de 2 minutos.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Cardiotocografia',
     e: 'Desacelerações tardias (DIP II), com nadir após o pico da contração, recorrentes, sugerem:',
-    o: ['Insuficiência uteroplacentária com hipoxemia fetal', 'Compressão do polo cefálico benigna', 'Sono fetal', 'Movimentação fetal normal'],
+    o: ['Insuficiência uteroplacentária com hipoxemia fetal', 'Compressão benigna do polo cefálico no parto', 'Sono fetal, com variabilidade reduzida', 'Movimentação fetal normal, com acelerações'],
     g: 'A',
     c: 'Exigem medidas de ressuscitação intrauterina e, se persistentes, resolução. Referência: Macones GA et al. The 2008 National Institute of Child Health and Human Development workshop report on electronic fetal monitoring. Obstet Gynecol. 2008;112(3):661-6.',
     x: { B: 'Descreve as precoces.', C: 'Não causa desacelerações.', D: 'Causa acelerações.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Cardiotocografia',
     e: 'Pela classificação em três categorias do NICHD, o traçado categoria III inclui:',
-    o: ['Variabilidade ausente associada a desacelerações tardias ou variáveis recorrentes, ou bradicardia; ou padrão sinusoidal', 'Linha de base normal com acelerações', 'Taquicardia isolada com variabilidade normal', 'Desacelerações precoces'],
+    o: ['Sem variabilidade com DIPs recorrentes, bradicardia ou sinusoidal', 'Linha de base normal, com acelerações presentes e variabilidade', 'Taquicardia isolada, com variabilidade moderada preservada', 'Desacelerações precoces, com variabilidade moderada preservada'],
     g: 'A',
     c: 'Categoria III exige ação imediata, geralmente resolução rápida se não houver melhora com as medidas. Referência: Macones GA et al. The 2008 National Institute of Child Health and Human Development workshop report on electronic fetal monitoring. Obstet Gynecol. 2008;112(3):661-6.',
     x: { B: 'É categoria I.', C: 'É categoria II.', D: 'É categoria I.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Cardiotocografia anteparto',
     e: 'Na cardiotocografia anteparto de feto a termo, o traçado é reativo quando há:',
-    o: ['Pelo menos duas acelerações de 15 bpm por 15 segundos em 20 minutos', 'Uma desaceleração tardia', 'Ausência de movimentos', 'Frequência de 100 bpm'],
+    o: ['Ao menos 2 acelerações de 15 bpm por 15 s em 20 min', 'Uma desaceleração tardia, em 20 minutos', 'Ausência de movimentos fetais e de acelerações', 'Frequência cardíaca basal de 100 bpm'],
     g: 'A',
     c: 'Abaixo de 32 semanas, o critério é de 10 bpm por 10 segundos. Traçado não reativo exige prolongar o exame ou estímulo sonoro. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Sugere comprometimento.', C: 'Não define reatividade.', D: 'Bradicardia.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Ressuscitação intrauterina',
     e: 'Durante trabalho de parto com ocitocina, surgem desacelerações tardias recorrentes. As medidas iniciais de ressuscitação intrauterina incluem:',
-    o: ['Suspender a ocitocina, decúbito lateral esquerdo, hidratação venosa e correção de hipotensão', 'Aumentar a ocitocina', 'Fazer Kristeller', 'Administrar sedativos à mãe'],
+    o: ['Suspender ocitocina, decúbito lateral E, hidratar e tratar hipotensão', 'Aumentar a dose de ocitocina em infusão contínua', 'Fazer a manobra de Kristeller, para abreviar o parto', 'Administrar sedativos à mãe, para reduzir as contrações'],
     g: 'A',
     c: 'Se não houver melhora, indica-se a resolução pela via mais rápida. Referência: Ayres-de-Campos D et al. FIGO consensus guidelines on intrapartum fetal monitoring: Cardiotocography. Int J Gynaecol Obstet. 2015;131(1):13-24.',
     x: { B: 'Pioraria.', C: 'Proscrita.', D: 'Não ajuda.' },
@@ -77,7 +77,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Bradicardia fetal',
     e: 'Bradicardia fetal prolongada abaixo de 80 bpm por mais de 3 minutos no trabalho de parto, sem melhora com as medidas. A conduta é:',
-    o: ['Resolução imediata pela via mais rápida', 'Observação por 1 hora', 'Ocitocina', 'Amnioinfusão como conduta definitiva'],
+    o: ['Resolução imediata pela via mais rápida', 'Observação por 1 hora, com reavaliação', 'Ocitocina, para acelerar o trabalho de parto', 'Amnioinfusão como conduta definitiva e isolada'],
     g: 'A',
     c: 'Causas incluem descolamento de placenta, ruptura uterina, prolapso de cordão e taquissistolia. Referência: Ayres-de-Campos D et al. FIGO consensus guidelines on intrapartum fetal monitoring: Cardiotocography. Int J Gynaecol Obstet. 2015;131(1):13-24.',
     x: { B: 'Atraso perigoso.', C: 'Pioraria.', D: 'Não resolve.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Perfil biofísico fetal',
     e: 'O perfil biofísico fetal avalia:',
-    o: ['Cardiotocografia, movimentos respiratórios, movimentos corporais, tônus e volume de líquido amniótico', 'Peso fetal e circunferência abdominal', 'Doppler das artérias uterinas', 'Comprimento do colo'],
+    o: ['CTG, respiração, movimentos, tônus e líquido amniótico', 'Peso fetal e circunferência abdominal fetal', 'Doppler das artérias uterinas maternas', 'Comprimento do colo, pela ultrassonografia'],
     g: 'A',
     c: 'Cada parâmetro vale 2 pontos; 8 a 10 é normal. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'É biometria.', C: 'É rastreio de pré-eclâmpsia.', D: 'É rastreio de prematuridade.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Perfil biofísico fetal',
     e: 'Os primeiros parâmetros do perfil biofísico a se alterarem na hipóxia aguda são:',
-    o: ['Reatividade cardíaca e movimentos respiratórios', 'Tônus fetal', 'Volume de líquido amniótico', 'Peso fetal'],
+    o: ['Reatividade cardíaca e movimentos respiratórios', 'Tônus fetal e movimentos corporais grosseiros', 'Volume de líquido amniótico, no bolsão vertical', 'Peso fetal estimado, pela biometria'],
     g: 'A',
     c: 'A ordem de comprometimento inverte a de surgimento no desenvolvimento: o tônus, mais primitivo, é o último a se perder. O líquido reflete hipóxia crônica. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'É o último.', C: 'Reflete hipóxia crônica.', D: 'Não faz parte.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Líquido amniótico',
     e: 'Oligoâmnio é definido ultrassonograficamente como:',
-    o: ['Maior bolsão vertical menor que 2 cm ou índice de líquido amniótico menor que 5 cm', 'Maior bolsão de 6 cm', 'ILA de 15 cm', 'ILA acima de 25 cm'],
+    o: ['Maior bolsão < 2 cm ou ILA < 5 cm', 'Maior bolsão vertical de 6 cm de profundidade', 'ILA de 15 cm, em gestação a termo', 'ILA acima de 25 cm, em gestação a termo'],
     g: 'A',
     c: 'O maior bolsão é preferido por gerar menos intervenções desnecessárias. Polidrâmnio: maior bolsão de 8 cm ou mais, ou ILA de 25 cm ou mais. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Polidrâmnio.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Líquido amniótico',
     e: 'A causa mais comum de oligoâmnio no terceiro trimestre, em gestação com membranas íntegras, é:',
-    o: ['Insuficiência placentária com centralização do fluxo fetal', 'Diabetes materno', 'Anencefalia', 'Atresia de esôfago'],
+    o: ['Insuficiência placentária, com centralização do fluxo', 'Diabetes materno, com polidrâmnio associado', 'Anencefalia, por déficit de deglutição fetal', 'Atresia de esôfago, com impedimento da deglutição'],
     g: 'A',
     c: 'Também se associa a pós-datismo e a malformações renais fetais. Rotura de membranas deve ser afastada. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Associa-se a polidrâmnio.', C: 'Associa-se a polidrâmnio.', D: 'Associa-se a polidrâmnio.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Doppler',
     e: 'Na dopplervelocimetria da artéria umbilical, a diástole zero ou reversa indica:',
-    o: ['Grave aumento da resistência placentária, com alto risco fetal', 'Achado normal', 'Anemia fetal', 'Polidrâmnio'],
+    o: ['Grave aumento da resistência placentária; alto risco fetal', 'Achado normal em fetos de termo, sem significado', 'Anemia fetal, por isoimunização materna Rh', 'Polidrâmnio, por redução da diurese fetal'],
     g: 'A',
     c: 'Diástole reversa é critério de resolução próximo da viabilidade, conforme a idade gestacional e protocolo. Referência: Lees CC et al. ISUOG Practice Guidelines: diagnosis and management of small-for-gestational-age fetus and fetal growth restriction. Ultrasound Obstet Gynecol. 2020;56(2):298-312.',
     x: { B: 'É patológico.', C: 'A anemia altera a artéria cerebral média.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Doppler',
     e: 'Centralização fetal é a situação em que:',
-    o: ['O fluxo é redistribuído para órgãos nobres, com baixa resistência na artéria cerebral média e alta na umbilical', 'O feto está em apresentação cefálica', 'Há aumento do líquido amniótico', 'O cordão está centralizado na placenta'],
+    o: ['Fluxo vai a órgãos nobres: ACM baixa e umbilical alta', 'O feto está em apresentação cefálica, fletida', 'Há aumento do volume de líquido amniótico', 'O cordão está inserido no centro da placenta'],
     g: 'A',
     c: 'A relação cérebro-placentária abaixo de 1 indica centralização. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Sem relação.', C: 'Ocorre o oposto.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Restrição de crescimento',
     e: 'Restrição de crescimento fetal é caracterizada principalmente por:',
-    o: ['Peso ou circunferência abdominal fetal abaixo do percentil 10, com sinais de insuficiência placentária, ou abaixo do percentil 3', 'Peso acima do percentil 90', 'Polidrâmnio', 'Comprimento femoral longo'],
+    o: ['Peso ou CA < p10 com sinais de insuficiência, ou < p3', 'Peso fetal acima do percentil 90 para a idade', 'Polidrâmnio, com ILA acima de 25 cm', 'Comprimento femoral longo, para a idade gestacional'],
     g: 'A',
     c: 'Diferenciar o feto pequeno constitucional da restrição por insuficiência placentária é essencial. Referência: Gordijn SJ et al. Consensus definition of fetal growth restriction: a Delphi procedure. Ultrasound Obstet Gynecol. 2016;48(3):333-9.',
     x: { B: 'É macrossomia.', C: 'Não define.', D: 'Não define.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Restrição de crescimento',
     e: 'A restrição de crescimento assimétrica, com circunferência abdominal mais reduzida que a cefálica, sugere:',
-    o: ['Insuficiência placentária, de início geralmente tardio', 'Aneuploidia', 'Infecção congênita precoce', 'Feto constitucionalmente pequeno'],
+    o: ['Insuficiência placentária, geralmente de início tardio', 'Aneuploidia, de início precoce e simétrica', 'Infecção congênita precoce, com restrição simétrica', 'Feto constitucionalmente pequeno, com crescimento normal'],
     g: 'A',
     c: 'A restrição simétrica e precoce sugere causa intrínseca, como cromossomopatia ou infecção. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Geralmente simétrica.', C: 'Geralmente simétrica.', D: 'Proporcional.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Vitalidade fetal: mecônio',
     e: 'Líquido amniótico meconial no trabalho de parto:',
-    o: ['Exige vigilância da vitalidade, mas isoladamente não indica cesárea', 'Indica cesárea imediata', 'Exige aspiração traqueal de todo recém-nascido', 'Não tem qualquer significado'],
+    o: ['Exige vigilância da vitalidade; isolado, não indica cesárea', 'Indica cesárea imediata, em todos os casos', 'Exige aspiração traqueal de todo recém-nascido', 'Não tem qualquer significado clínico ou obstétrico'],
     g: 'A',
     c: 'A aspiração traqueal de rotina foi abandonada; só se faz se houver obstrução de vias aéreas. Referência: Sociedade Brasileira de Pediatria. Reanimação do recém-nascido ≥ 34 semanas em sala de parto: diretrizes 2022.',
     x: { B: 'Não indica isoladamente.', C: 'Não é rotina.', D: 'Exige vigilância.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Taquicardia fetal',
     e: 'Taquicardia fetal persistente acima de 160 bpm durante trabalho de parto, com febre materna. A causa mais provável é:',
-    o: ['Infecção intra-amniótica (corioamnionite)', 'Sono fetal', 'Hipotermia materna', 'Desaceleração precoce'],
+    o: ['Infecção intra-amniótica (corioamnionite)', 'Sono fetal, com variabilidade reduzida', 'Hipotermia materna, após analgesia peridural', 'Desaceleração precoce, por compressão cefálica'],
     g: 'A',
     c: 'Outras causas: medicamentos (beta-agonistas), hipertireoidismo materno, arritmias fetais e hipóxia em evolução. Referência: Ayres-de-Campos D et al. FIGO consensus guidelines on intrapartum fetal monitoring: Cardiotocography. Int J Gynaecol Obstet. 2015;131(1):13-24.',
     x: { B: 'Reduz a variabilidade, não causa taquicardia.', C: 'Causaria o oposto.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Ausculta intermitente',
     e: 'No trabalho de parto de baixo risco, a ausculta intermitente dos batimentos fetais na fase ativa deve ser feita:',
-    o: ['A cada 30 minutos no primeiro período e a cada 5 minutos no segundo, durante e após a contração', 'Somente no parto', 'A cada 4 horas', 'Apenas uma vez por hora no expulsivo'],
+    o: ['A cada 30 min no 1º período e 5 min no 2º', 'Somente no momento do parto, na expulsão', 'A cada 4 horas, em todo o trabalho de parto', 'Apenas uma vez por hora, no expulsivo'],
     g: 'A',
     c: 'A monitorização contínua é reservada a situações de risco. Referência: Brasil. Ministério da Saúde. Diretrizes Nacionais de Assistência ao Parto Normal. Brasília: MS, 2017.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Sofrimento fetal crônico',
     e: 'A causa mais comum de sofrimento fetal crônico é:',
-    o: ['Insuficiência placentária, como na pré-eclâmpsia e na hipertensão crônica', 'Compressão aguda do cordão', 'Taquissistolia', 'Hipotensão por anestesia'],
+    o: ['Insuficiência placentária, como na pré-eclâmpsia', 'Compressão aguda do cordão umbilical, no parto', 'Taquissistolia, com hipertonia uterina súbita', 'Hipotensão materna, após bloqueio anestésico'],
     g: 'A',
     c: 'Manifesta-se como restrição de crescimento, oligoâmnio e alterações ao Doppler. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Causa aguda.', C: 'Causa aguda.', D: 'Causa aguda.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Cardiotocografia',
     e: 'A presença de acelerações transitórias na cardiotocografia indica:',
-    o: ['Feto bem oxigenado e sem acidemia naquele momento', 'Hipóxia fetal grave', 'Anemia fetal', 'Compressão de cordão grave'],
+    o: ['Feto bem oxigenado, sem acidemia no momento', 'Hipóxia fetal grave, com acidemia importante', 'Anemia fetal, por isoimunização Rh', 'Compressão de cordão grave e prolongada'],
     g: 'A',
     c: 'Acelerações espontâneas ou provocadas por estímulo sonoro são sinal tranquilizador. Referência: Macones GA et al. The 2008 National Institute of Child Health and Human Development workshop report on electronic fetal monitoring. Obstet Gynecol. 2008;112(3):661-6.',
     x: { B: 'O oposto.', C: 'Associa-se a padrão sinusoidal.', D: 'Associa-se a desacelerações.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Cardiotocografia: medicamentos',
     e: 'Gestante recebeu opioide para analgesia e a cardiotocografia mostra redução transitória da variabilidade. A interpretação mais provável é:',
-    o: ['Efeito medicamentoso, que deve ser reavaliado após o período de ação', 'Hipóxia grave que exige cesárea imediata', 'Padrão sinusoidal', 'Anemia fetal'],
+    o: ['Efeito do fármaco; reavaliar após o período de ação', 'Hipóxia grave, que exige cesárea imediata', 'Padrão sinusoidal, por anemia fetal grave', 'Anemia fetal, por isoimunização materna'],
     g: 'A',
     c: 'Opioides, sulfato de magnésio e sono fetal reduzem a variabilidade transitoriamente. Referência: Ayres-de-Campos D et al. FIGO consensus guidelines on intrapartum fetal monitoring: Cardiotocography. Int J Gynaecol Obstet. 2015;131(1):13-24.',
     x: { B: 'A causa provável é o medicamento.', C: 'Não é sinusoidal.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Sono fetal',
     e: 'Cardiotocografia com variabilidade reduzida por 30 minutos, sem desacelerações, em feto a termo. A primeira hipótese benigna é:',
-    o: ['Período de sono fetal, que pode durar até cerca de 40 minutos', 'Óbito fetal iminente', 'Ruptura uterina', 'Padrão sinusoidal'],
+    o: ['Sono fetal, que pode durar cerca de 40 minutos', 'Óbito fetal iminente, com acidemia grave', 'Ruptura uterina, com perda de variabilidade', 'Padrão sinusoidal, por anemia fetal grave'],
     g: 'A',
     c: 'Prolonga-se o exame ou usa-se estímulo sonoro. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Exige outras alterações.', C: 'Sem dor ou sangramento.', D: 'Não é o padrão.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Estímulo sonoro',
     e: 'O teste de estimulação sônica na cardiotocografia anteparto serve para:',
-    o: ['Despertar o feto e provocar acelerações, reduzindo falsos traçados não reativos por sono', 'Avaliar a audição fetal', 'Induzir o parto', 'Medir o líquido amniótico'],
+    o: ['Despertar o feto e provocar acelerações', 'Avaliar a audição fetal, no 3º trimestre', 'Induzir o trabalho de parto, em gestação a termo', 'Medir o volume de líquido amniótico, por Doppler'],
     g: 'A',
     c: 'Feto que não reage ao estímulo exige investigação complementar. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Não é o objetivo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Doppler: artéria uterina',
     e: 'O Doppler das artérias uterinas com índice de pulsatilidade elevado no primeiro ou segundo trimestre é usado para:',
-    o: ['Rastrear risco de pré-eclâmpsia e restrição de crescimento', 'Diagnosticar anemia fetal', 'Avaliar maturidade pulmonar', 'Diagnosticar placenta prévia'],
+    o: ['Rastrear risco de pré-eclâmpsia e restrição de crescimento', 'Diagnosticar anemia fetal, por isoimunização', 'Avaliar a maturidade pulmonar do feto, no 3º trimestre', 'Diagnosticar placenta prévia, em gestação inicial'],
     g: 'A',
     c: 'Combinado a fatores maternos e PlGF, compõe modelos de rastreio de pré-eclâmpsia. Referência: Poon LC et al. The International Federation of Gynecology and Obstetrics (FIGO) initiative on pre-eclampsia. Int J Gynaecol Obstet. 2019;145(Suppl 1):1-33.',
     x: { B: 'Usa-se a artéria cerebral média.', C: 'Sem relação.', D: 'Usa-se ultrassom morfológico.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Restrição de crescimento tardia',
     e: 'Na restrição de crescimento de início tardio (após 32 semanas), o Doppler da artéria umbilical costuma:',
-    o: ['Ser normal ou pouco alterado, e a artéria cerebral média e a relação cérebro-placentária são mais úteis', 'Mostrar sempre diástole reversa', 'Mostrar onda A reversa no ducto venoso', 'Não ter nenhuma utilidade'],
+    o: ['Ser normal; ACM e relação cérebro-placentária ajudam mais', 'Mostrar sempre diástole reversa, desde o início', 'Mostrar onda A reversa no ducto venoso, de início', 'Não ter utilidade, no diagnóstico de RCF tardia'],
     g: 'A',
     c: 'O comprometimento placentário é menor, e a vasodilatação cerebral é o marcador mais sensível. Referência: Lees CC et al. ISUOG Practice Guidelines: diagnosis and management of small-for-gestational-age fetus and fetal growth restriction. Ultrasound Obstet Gynecol. 2020;56(2):298-312.',
     x: { B: 'Típico da forma precoce grave.', C: 'Típico da forma precoce grave.', D: 'Tem utilidade.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Restrição de crescimento: resolução',
     e: 'Feto com restrição de crescimento e diástole zero na artéria umbilical, com ducto venoso normal. A resolução costuma ser indicada a partir de:',
-    o: ['Cerca de 34 semanas, conforme protocolos internacionais', '24 semanas obrigatoriamente', '40 semanas', '42 semanas'],
+    o: ['Cerca de 34 semanas, segundo protocolos internacionais', '24 semanas, obrigatoriamente, em todos os casos', '40 semanas completas, com vigilância semanal', '42 semanas completas, com vigilância diária'],
     g: 'A',
     c: 'Diástole reversa antecipa a resolução para cerca de 30 a 32 semanas. Referência: Lees CC et al. ISUOG Practice Guidelines: diagnosis and management of small-for-gestational-age fetus and fetal growth restriction. Ultrasound Obstet Gynecol. 2020;56(2):298-312.',
     x: { B: 'Antes, depende de outras alterações.', C: 'Tardio.', D: 'Tardio.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Oligoâmnio',
     e: 'Agenesia renal bilateral fetal causa anidrâmnio e a sequência de:',
-    o: ['Potter, com hipoplasia pulmonar e deformidades', 'Pierre Robin', 'DiGeorge', 'Turner'],
+    o: ['Potter, com hipoplasia pulmonar e deformidades', 'Pierre Robin, com micrognatia e fenda palatina', 'DiGeorge, com cardiopatia e hipocalcemia', 'Turner, com cariótipo 45,X e linfedema'],
     g: 'A',
     c: 'A hipoplasia pulmonar torna a condição letal. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Micrognatia e glossoptose.', C: 'Deleção 22q11.', D: 'Monossomia X.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Amnioinfusão',
     e: 'A amnioinfusão intraparto pode ser usada para:',
-    o: ['Reduzir desacelerações variáveis recorrentes por compressão de cordão em oligoâmnio', 'Tratar desacelerações tardias por insuficiência placentária', 'Prevenir aspiração de mecônio em todos os casos', 'Induzir o parto'],
+    o: ['Reduzir DIP variável recorrente, por compressão em oligoâmnio', 'Tratar DIP tardia por insuficiência placentária', 'Prevenir aspiração de mecônio, em todos os casos', 'Induzir o parto, em gestação a termo'],
     g: 'A',
     c: 'Não é recomendada de rotina para mecônio. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Não trata insuficiência placentária.', C: 'Sem benefício comprovado.', D: 'Não é método de indução.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Óbito fetal',
     e: 'Gestante de 30 semanas com ausência de batimentos cardíacos fetais confirmada ao ultrassom, estável. A conduta mais recomendada é:',
-    o: ['Indução do parto vaginal, com investigação da causa do óbito', 'Cesárea de urgência', 'Aguardar por meses', 'Curetagem'],
+    o: ['Indução do parto vaginal e investigação da causa', 'Cesárea de urgência, para retirada do feto', 'Aguardar por meses, a expulsão espontânea', 'Curetagem uterina, com dilatação do colo'],
     g: 'A',
     c: 'Investigação inclui sorologias, pesquisa de trombofilias, Kleihauer, exame da placenta e necropsia, se autorizada. Referência: American College of Obstetricians and Gynecologists. Obstetric Care Consensus 10: Management of Stillbirth. Obstet Gynecol. 2020;135(3):e110-32.',
     x: { B: 'Sem indicação materna.', C: 'Risco de coagulopatia.', D: 'Inviável nessa idade.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Óbito fetal',
     e: 'Uma complicação materna rara de feto morto retido por semanas é:',
-    o: ['Coagulação intravascular disseminada', 'Diabetes', 'Hipertireoidismo', 'Pré-eclâmpsia sempre'],
+    o: ['Coagulação intravascular disseminada', 'Diabetes mellitus, por resistência insulínica', 'Hipertireoidismo, por liberação de hCG', 'Pré-eclâmpsia, em todos os casos de óbito'],
     g: 'A',
     c: 'O risco é maior após cerca de 4 semanas de retenção. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Não é regra.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Sofrimento fetal: pH',
     e: 'Na acidemia fetal ao nascimento, o pH da artéria umbilical associado a risco de lesão neurológica é:',
-    o: ['Abaixo de 7,0, com déficit de bases importante', '7,30', '7,25', '7,40'],
+    o: ['Abaixo de 7,0, com déficit de bases importante', '7,30, com excesso de bases normal', '7,25, com excesso de bases normal', '7,40, com excesso de bases normal'],
     g: 'A',
     c: 'A gasometria de cordão documenta o estado acidobásico ao nascimento. Referência: American College of Obstetricians and Gynecologists. Neonatal Encephalopathy and Neurologic Outcome. 2ª ed. Washington: ACOG, 2014.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Normal.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Cardiotocografia: desacelerações variáveis',
     e: 'São sinais de desaceleração variável complicada:',
-    o: ['Duração acima de 60 segundos, queda abaixo de 60 bpm, recuperação lenta ou variabilidade perdida', 'Duração de 15 segundos com recuperação rápida', 'Ombros de aceleração', 'Associação com acelerações'],
+    o: ['Duração > 60 s, queda < 60 bpm, recuperação lenta', 'Duração de 15 segundos, com recuperação rápida', 'Presença de ombros de aceleração, antes e depois', 'Associação com acelerações, antes e depois da queda'],
     g: 'A',
     c: 'Ombros e acelerações indicam boa reserva. Referência: Ayres-de-Campos D et al. FIGO consensus guidelines on intrapartum fetal monitoring: Cardiotocography. Int J Gynaecol Obstet. 2015;131(1):13-24.',
     x: { B: 'Variável simples.', C: 'Sinal tranquilizador.', D: 'Sinal tranquilizador.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Gestação de alto risco',
     e: 'Na gestante diabética em insulina, a vigilância da vitalidade fetal com cardiotocografia costuma começar a partir de:',
-    o: ['32 semanas, com frequência conforme o controle', '12 semanas', '20 semanas', '42 semanas'],
+    o: ['32 semanas, com frequência conforme o controle', '12 semanas, em todas as gestantes diabéticas', '20 semanas, em todas as gestantes diabéticas', '42 semanas, apenas se pós-termo'],
     g: 'A',
     c: 'Em diabetes com mau controle ou complicações, a vigilância é mais frequente. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Precoce demais.', C: 'Precoce demais.', D: 'Tardio.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Movimentos fetais',
     e: 'O mobilograma (contagem de movimentos) é considerado anormal quando:',
-    o: ['Há menos de 6 a 10 movimentos em 1 a 2 horas, conforme o método', 'Há mais de 20 movimentos em 2 horas', 'Os movimentos ocorrem à noite', 'Os movimentos ocorrem após refeições'],
+    o: ['Menos de 6 a 10 movimentos em 1 a 2 horas', 'Mais de 20 movimentos em 2 horas de contagem', 'Movimentos que ocorrem no período da noite', 'Movimentos que ocorrem após as refeições'],
     g: 'A',
     c: 'Redução deve levar a avaliação da vitalidade. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Normal.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Vitalidade: cordão',
     e: 'A artéria umbilical única ao ultrassom:',
-    o: ['Associa-se a malformações, aneuploidias e restrição de crescimento, exigindo avaliação morfológica detalhada', 'É sempre normal sem significado', 'Indica cesárea obrigatória', 'Indica interrupção da gestação'],
+    o: ['Associa-se a malformações, aneuploidias e RCF; exige morfológico', 'É sempre normal, sem significado clínico algum', 'Indica cesárea obrigatória, em todos os casos', 'Indica interrupção da gestação, em todos os casos'],
     g: 'A',
     c: 'Isolada, tem bom prognóstico, mas merece vigilância de crescimento. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Tem significado.', C: 'Não indica.', D: 'Não indica.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Cardiotocografia: classificação',
     e: 'Taquicardia fetal de 170 bpm com variabilidade moderada e sem desacelerações é classificada como categoria:',
-    o: ['II (indeterminada)', 'I', 'III', 'Sinusoidal'],
+    o: ['Categoria II (indeterminada)', 'Categoria I (normal), sem alterações', 'Categoria III (anormal), de risco', 'Padrão sinusoidal, por anemia fetal'],
     g: 'A',
     c: 'Exige investigar causas, como febre materna, e vigilância. Referência: Macones GA et al. The 2008 National Institute of Child Health and Human Development workshop report on electronic fetal monitoring. Obstet Gynecol. 2008;112(3):661-6.',
     x: { B: 'A taquicardia exclui categoria I.', C: 'Não há critérios de categoria III.', D: 'Não é sinusoidal.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Vitalidade: hipóxia intraparto',
     e: 'A sequência típica de piora do traçado na hipóxia progressiva intraparto é:',
-    o: ['Perda de acelerações, desacelerações recorrentes, taquicardia e por fim perda da variabilidade', 'Aumento da variabilidade e surgimento de acelerações', 'Bradicardia súbita sem alterações prévias sempre', 'Padrão normal até o óbito'],
+    o: ['Perda de acelerações, DIPs, taquicardia e perda de variabilidade', 'Aumento da variabilidade e surgimento de acelerações', 'Bradicardia súbita, sem alterações prévias, sempre', 'Padrão normal, mantido até o momento do óbito'],
     g: 'A',
     c: 'Reconhecer a progressão permite intervir antes da acidemia grave. Referência: Ayres-de-Campos D et al. FIGO consensus guidelines on intrapartum fetal monitoring: Cardiotocography. Int J Gynaecol Obstet. 2015;131(1):13-24.',
     x: { B: 'O oposto.', C: 'Ocorre em eventos agudos, não é a regra.', D: 'Há sinais prévios.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Vitalidade fetal: Doppler venoso',
     e: 'O aumento da pulsatilidade no ducto venoso fetal reflete:',
-    o: ['Aumento da pressão no átrio direito por disfunção cardíaca fetal', 'Melhora da oxigenação', 'Anemia apenas', 'Polidrâmnio'],
+    o: ['Aumento da pressão no átrio direito por disfunção cardíaca', 'Melhora da oxigenação, com redução da resistência', 'Anemia fetal, por isoimunização, apenas', 'Polidrâmnio, por aumento da diurese fetal'],
     g: 'A',
     c: 'É marcador tardio de comprometimento. Referência: Lees CC et al. ISUOG Practice Guidelines: diagnosis and management of small-for-gestational-age fetus and fetal growth restriction. Ultrasound Obstet Gynecol. 2020;56(2):298-312.',
     x: { B: 'O oposto.', C: 'Não especificamente.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Vitalidade fetal: pós-datismo',
     e: 'Na gestação de 41 semanas aguardando trabalho de parto, a vigilância recomendada inclui:',
-    o: ['Cardiotocografia e avaliação do líquido amniótico ao menos duas vezes por semana', 'Nenhuma vigilância', 'Apenas ultrassom morfológico', 'Apenas contagem de movimentos'],
+    o: ['CTG e líquido amniótico, ao menos 2 vezes por semana', 'Nenhuma vigilância, até o início do trabalho de parto', 'Apenas ultrassom morfológico, a cada semana', 'Apenas contagem de movimentos, uma vez por semana'],
     g: 'A',
     c: 'O risco de oligoâmnio e óbito aumenta após 41 semanas. Referência: Brasil. Ministério da Saúde. Diretrizes Nacionais de Assistência ao Parto Normal. Brasília: MS, 2017.',
     x: { B: 'Inadequado.', C: 'Não avalia vitalidade.', D: 'Insuficiente.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_SOFR: QuestaoCompacta[] = [
   {
     s: 'Sofrimento fetal: conduta',
     e: 'Feto com categoria III na cardiotocografia e dilatação completa, apresentação no plano +3, variedade conhecida. A via mais rápida pode ser:',
-    o: ['Parto vaginal operatório (fórceps ou vácuo-extrator)', 'Cesárea após 2 horas de observação', 'Aguardar o expulsivo espontâneo', 'Indução com ocitocina'],
+    o: ['Parto vaginal operatório (fórceps ou vácuo)', 'Cesárea após 2 horas de observação, com CTG', 'Aguardar o expulsivo espontâneo, por mais 1 hora', 'Indução com ocitocina, em dose alta, para acelerar'],
     g: 'A',
     c: 'Com condições preenchidas, o parto instrumental é geralmente mais rápido que a cesárea. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Atraso perigoso.', C: 'Atraso perigoso.', D: 'Pioraria.' },

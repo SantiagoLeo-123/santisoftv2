@@ -13,7 +13,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Placenta prévia',
     e: 'Na suspeita de placenta prévia, deve-se evitar:',
-    o: ['Toque vaginal antes de afastar a placenta prévia por ultrassonografia', 'Ultrassonografia transvaginal', 'Avaliação dos sinais vitais', 'Tipagem sanguínea'],
+    o: ['Toque vaginal antes de excluir placenta prévia ao USG', 'Ultrassonografia transvaginal, com a bexiga vazia', 'Avaliação dos sinais vitais maternos, de forma seriada', 'Tipagem sanguínea e reserva de hemocomponentes'],
     g: 'A',
     c: 'O toque pode provocar hemorragia maciça; a ultrassonografia transvaginal é segura e é o melhor exame. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'É segura e indicada.', C: 'É necessária.', D: 'É necessária.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Placenta prévia',
     e: 'Gestante com placenta prévia total, assintomática, com 36 semanas. A via e o momento de parto recomendados são:',
-    o: ['Cesárea programada por volta de 36 a 37 semanas', 'Parto vaginal a termo', 'Indução com misoprostol', 'Cesárea apenas com 41 semanas'],
+    o: ['Cesárea programada com 36 a 37 semanas', 'Parto vaginal a termo, com monitorização', 'Indução do parto com misoprostol vaginal', 'Cesárea somente com 41 semanas completas'],
     g: 'A',
     c: 'Placenta prévia que recobre o orifício interno contraindica parto vaginal. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'Contraindicado.', C: 'Contraindicado.', D: 'Aumenta risco de sangramento.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Placenta prévia',
     e: 'Placenta de inserção baixa diagnosticada no ultrassom morfológico com 20 semanas. A conduta é:',
-    o: ['Repetir ultrassonografia com 32 semanas, pois a maioria migra com o crescimento do segmento inferior', 'Indicar cesárea imediata', 'Repouso absoluto até o termo', 'Contraindicar o pré-natal habitual'],
+    o: ['Repetir o USG com 32 semanas, pois a maioria migra', 'Indicar cesárea imediata, ainda com 20 semanas', 'Orientar repouso absoluto até o termo da gestação', 'Contraindicar o pré-natal habitual, até o parto'],
     g: 'A',
     c: 'A migração placentária ocorre com a formação do segmento inferior. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'Sem indicação.', C: 'Sem benefício comprovado.', D: 'Não é necessário.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Acretismo placentário',
     e: 'Na suspeita forte de placenta percreta, a conduta mais frequentemente indicada é:',
-    o: ['Cesárea com histerectomia, sem tentar retirar a placenta, em centro com equipe e banco de sangue', 'Parto vaginal', 'Tentar descolar a placenta manualmente', 'Curetagem pós-parto'],
+    o: ['Cesárea com histerectomia, sem retirar a placenta', 'Parto vaginal, com dequitação manual de rotina', 'Tentar descolar a placenta manualmente após o parto', 'Curetagem uterina logo após o parto, para retirar restos'],
     g: 'A',
     c: 'Tentar retirar a placenta causa hemorragia maciça. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'Contraindicado.', C: 'Risco de hemorragia grave.', D: 'Inadequado.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Descolamento prematuro de placenta',
     e: 'Gestante hipertensa de 34 semanas com dor abdominal súbita intensa, sangramento escuro, útero hipertônico e lenhoso e bradicardia fetal. O diagnóstico é:',
-    o: ['Descolamento prematuro de placenta', 'Placenta prévia', 'Trabalho de parto normal', 'Rotura do seio marginal'],
+    o: ['Descolamento prematuro de placenta', 'Placenta prévia, com sangramento indolor', 'Trabalho de parto normal, em fase ativa', 'Rotura do seio marginal da placenta'],
     g: 'A',
     c: 'A hipertensão é o principal fator de risco. O sangramento externo pode subestimar a perda pelo hematoma retroplacentário. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Sangramento indolor e útero relaxado.', C: 'Sem hipertonia nem dor contínua.', D: 'Sangramento discreto sem esse quadro.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Descolamento prematuro de placenta',
     e: 'O útero de Couvelaire, encontrado em descolamentos graves, consiste em:',
-    o: ['Infiltração sanguínea do miométrio, com útero de aspecto arroxeado', 'Útero bicorno', 'Mioma intramural', 'Placenta acreta'],
+    o: ['Infiltração sanguínea do miométrio, com útero arroxeado', 'Útero bicorno, malformação mülleriana congênita', 'Mioma intramural, com degeneração hemorrágica', 'Placenta acreta, com invasão do miométrio'],
     g: 'A',
     c: 'Não é indicação obrigatória de histerectomia; a maioria contrai com uterotônicos. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Malformação.', C: 'Tumor benigno.', D: 'Outra condição.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Descolamento prematuro de placenta',
     e: 'Uma complicação grave do DPP, por consumo de fatores de coagulação, é:',
-    o: ['Coagulação intravascular disseminada', 'Hiperglicemia', 'Hipertireoidismo', 'Trombocitose'],
+    o: ['Coagulação intravascular disseminada', 'Hiperglicemia materna transitória e grave', 'Hipertireoidismo materno, com crise tireotóxica', 'Trombocitose reativa, com aumento de plaquetas'],
     g: 'A',
     c: 'O fibrinogênio baixo é marcador de gravidade; a reposição é guiada pela clínica e pelos exames. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'O esperado é plaquetopenia.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Descolamento prematuro de placenta',
     e: 'A amniotomia no DPP com feto morto e parto vaginal planejado tem como objetivo:',
-    o: ['Reduzir a pressão intrauterina e a passagem de tromboplastina para a circulação materna, acelerando o parto', 'Aumentar o sangramento', 'Induzir hipertonia', 'Evitar a dilatação'],
+    o: ['Reduzir a pressão intrauterina e a passagem de tromboplastina', 'Aumentar o sangramento, para esvaziar o útero', 'Induzir hipertonia uterina, para acelerar o parto', 'Evitar a dilatação do colo e prolongar o trabalho'],
     g: 'A',
     c: 'Também facilita a progressão do trabalho de parto. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Efeito oposto.', C: 'Efeito oposto.', D: 'Efeito oposto.' },
@@ -125,7 +125,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Vasa prévia',
     e: 'Fator associado a vasa prévia é:',
-    o: ['Inserção velamentosa do cordão e placenta bilobada ou com lobo sucenturiado', 'Placenta fúndica', 'Gestação de baixo risco espontânea', 'Oligoâmnio'],
+    o: ['Inserção velamentosa do cordão e lobo sucenturiado', 'Placenta de inserção fúndica, bem posicionada', 'Gestação espontânea de baixo risco habitual', 'Oligoâmnio, com índice de líquido reduzido'],
     g: 'A',
     c: 'Gestações por reprodução assistida e placenta baixa no segundo trimestre também aumentam o risco. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal',
     e: 'A doença hemolítica perinatal por anti-D ocorre quando:',
-    o: ['Mãe Rh negativo sensibilizada produz anticorpos IgG que atravessam a placenta e hemolisam hemácias fetais Rh positivo', 'Mãe Rh positivo tem feto Rh negativo', 'Há incompatibilidade de anticorpos IgM', 'O feto produz anticorpos contra a mãe'],
+    o: ['Mãe Rh negativo sensibilizada; IgG hemolisa hemácias fetais Rh positivo', 'Mãe Rh positivo com feto Rh negativo, em gestação comum', 'Incompatibilidade por anticorpos IgM, que atravessam a placenta', 'O feto produz anticorpos contra as hemácias da própria mãe'],
     g: 'A',
     c: 'A sensibilização ocorre geralmente em gestação anterior, por hemorragia feto-materna. Referência: Society for Maternal-Fetal Medicine; Mari G et al. SMFM Clinical Guideline 8: The fetus at risk for anemia: diagnosis and management. Am J Obstet Gynecol. 2015;212(6):697-710.',
     x: { B: 'Não causa a doença.', C: 'IgM não atravessa a placenta.', D: 'Mecanismo invertido.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal',
     e: 'Gestante Rh negativo com Coombs indireto positivo, anti-D com título de 1:32. O exame não invasivo de escolha para rastrear anemia fetal é:',
-    o: ['Doppler da artéria cerebral média, medindo o pico de velocidade sistólica', 'Cardiotocografia', 'Ultrassonografia morfológica isolada', 'Amniocentese para espectrofotometria como primeira escolha'],
+    o: ['Doppler da artéria cerebral média (pico sistólico)', 'Cardiotocografia anteparto, em repouso', 'Ultrassonografia morfológica, como exame isolado', 'Amniocentese para espectrofotometria, em primeira escolha'],
     g: 'A',
     c: 'Pico sistólico acima de 1,5 MoM sugere anemia moderada a grave e indica cordocentese. Referência: Society for Maternal-Fetal Medicine; Mari G et al. SMFM Clinical Guideline 8: The fetus at risk for anemia: diagnosis and management. Am J Obstet Gynecol. 2015;212(6):697-710.',
     x: { B: 'Não detecta anemia precocemente.', C: 'Detecta só hidropsia avançada.', D: 'Foi substituída pelo Doppler.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal',
     e: 'Em gestante sensibilizada por anti-D, o título considerado crítico, a partir do qual se inicia vigilância fetal com Doppler, costuma ser:',
-    o: ['1:16 (em muitos serviços, 1:8 a 1:32)', '1:1', '1:2', '1:1024 apenas'],
+    o: ['1:16 (em muitos serviços, de 1:8 a 1:32)', '1:1, qualquer título detectável é crítico', '1:2, título muito baixo, já crítico', '1:1024, apenas acima desse valor é crítico'],
     g: 'A',
     c: 'Abaixo do valor crítico, repetem-se títulos mensalmente. Na anti-Kell, o título não prediz bem a anemia. Referência: Society for Maternal-Fetal Medicine; Mari G et al. SMFM Clinical Guideline 8: The fetus at risk for anemia: diagnosis and management. Am J Obstet Gynecol. 2015;212(6):697-710.',
     x: { B: 'Baixo demais.', C: 'Baixo demais.', D: 'Muito alto e tardio.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal',
     e: 'Feto com anemia grave confirmada por cordocentese, com 28 semanas. O tratamento é:',
-    o: ['Transfusão intrauterina intravascular', 'Parto imediato', 'Imunoglobulina anti-D materna', 'Corticoide e espera'],
+    o: ['Transfusão intrauterina intravascular', 'Parto imediato por cesárea, com 28 semanas', 'Imunoglobulina anti-D aplicada na mãe', 'Corticoide materno e conduta expectante'],
     g: 'A',
     c: 'A transfusão intrauterina mudou o prognóstico de fetos com hidropsia. Referência: Society for Maternal-Fetal Medicine; Mari G et al. SMFM Clinical Guideline 8: The fetus at risk for anemia: diagnosis and management. Am J Obstet Gynecol. 2015;212(6):697-710.',
     x: { B: 'Prematuridade extrema.', C: 'Sem efeito após sensibilização.', D: 'Não trata anemia.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal',
     e: 'A hidropsia fetal imune decorre principalmente de:',
-    o: ['Anemia grave com insuficiência cardíaca e hipoproteinemia por disfunção hepática', 'Infecção por parvovírus apenas', 'Cardiopatia congênita estrutural', 'Diabetes materno'],
+    o: ['Anemia grave, insuficiência cardíaca e hipoproteinemia', 'Infecção por parvovírus B19, como causa exclusiva', 'Cardiopatia congênita estrutural do feto', 'Diabetes materno mal controlado na gestação'],
     g: 'A',
     c: 'A hidropsia não imune tem outras causas, como parvovírus, aneuploidias e cardiopatias. Referência: Society for Maternal-Fetal Medicine; Mari G et al. SMFM Clinical Guideline 8: The fetus at risk for anemia: diagnosis and management. Am J Obstet Gynecol. 2015;212(6):697-710.',
     x: { B: 'É causa não imune.', C: 'É causa não imune.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal',
     e: 'O teste de Kleihauer-Betke é usado para:',
-    o: ['Quantificar a hemorragia feto-materna e ajustar a dose de imunoglobulina anti-D', 'Diagnosticar diabetes gestacional', 'Avaliar vitalidade fetal', 'Detectar sífilis'],
+    o: ['Quantificar a hemorragia feto-materna e ajustar a anti-D', 'Diagnosticar diabetes mellitus gestacional, no 3º trimestre', 'Avaliar a vitalidade fetal, em exame anteparto', 'Detectar infecção materna por sífilis, no pré-natal'],
     g: 'A',
     c: 'Uma dose de 300 microgramas neutraliza cerca de 30 mL de sangue fetal. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal',
     e: 'Sobre a incompatibilidade ABO, é correto afirmar:',
-    o: ['Ocorre geralmente em mães tipo O, pode acometer o primeiro filho e costuma causar doença leve', 'Causa hidropsia grave na maioria dos casos', 'Exige imunoglobulina anti-D', 'Só ocorre a partir da segunda gestação'],
+    o: ['Em mães O, pode acometer o 1º filho e costuma ser leve', 'Causa hidropsia grave na maioria dos casos', 'Exige imunoglobulina anti-D na profilaxia', 'Só ocorre a partir da segunda gestação'],
     g: 'A',
     c: 'Os anticorpos anti-A e anti-B naturais são predominantemente IgM, e os antígenos fetais são pouco expressos. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Geralmente leve.', C: 'Não se aplica.', D: 'Pode ocorrer na primeira.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal',
     e: 'Gestante Rh negativo com Coombs indireto negativo. A conduta no pré-natal é:',
-    o: ['Repetir o Coombs indireto conforme protocolo e aplicar imunoglobulina anti-D com 28 semanas se o parceiro for Rh positivo ou desconhecido', 'Não repetir exames', 'Iniciar transfusão fetal', 'Indicar cesárea'],
+    o: ['Repetir Coombs e dar anti-D com 28 semanas se pai Rh positivo', 'Não repetir exames, pois o primeiro resultado foi negativo', 'Iniciar transfusão fetal intrauterina, de rotina, na gestação', 'Indicar cesárea eletiva por incompatibilidade sanguínea'],
     g: 'A',
     c: 'Após o parto, aplica-se nova dose em até 72 horas se o recém-nascido for Rh positivo. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Deve haver seguimento.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Placenta prévia: classificação',
     e: 'Pela classificação atual por ultrassonografia transvaginal, a placenta é chamada de baixa quando:',
-    o: ['Sua borda está a menos de 20 mm do orifício interno do colo, sem recobri-lo', 'Recobre totalmente o orifício interno', 'Está no fundo uterino', 'Está a mais de 5 cm do orifício interno'],
+    o: ['Borda a menos de 20 mm do orifício interno, sem cobri-lo', 'Recobre totalmente o orifício interno do colo', 'Está inserida no fundo uterino, na face anterior', 'Está a mais de 5 cm do orifício interno do colo'],
     g: 'A',
     c: 'Classificações antigas (total, parcial, marginal, lateral) foram simplificadas em placenta prévia e placenta baixa. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'É placenta prévia.', C: 'É normoinserida.', D: 'É normoinserida.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Placenta prévia: conduta',
     e: 'Gestante de 30 semanas com placenta prévia e sangramento discreto que cessou, mãe e feto estáveis. A conduta é:',
-    o: ['Internação, corticoide para maturação pulmonar, reserva de sangue e conduta expectante', 'Cesárea imediata', 'Indução do parto', 'Alta imediata sem acompanhamento'],
+    o: ['Internar, dar corticoide, reservar sangue e aguardar', 'Cesárea imediata, ainda com 30 semanas, sem corticoide', 'Indução do parto por via vaginal, com misoprostol', 'Alta imediata, sem nenhum acompanhamento posterior'],
     g: 'A',
     c: 'Sangramento intenso ou instabilidade materna ou fetal indicam cesárea em qualquer idade gestacional. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'Sem indicação com estabilidade.', C: 'Contraindicada.', D: 'Exige vigilância.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Placenta prévia: complicações',
     e: 'A placenta prévia aumenta o risco de hemorragia pós-parto porque:',
-    o: ['O segmento inferior, onde a placenta se insere, contrai mal após a dequitação', 'A placenta é sempre acreta', 'O útero é sempre bicorno', 'Há coagulopatia de consumo inerente'],
+    o: ['O segmento inferior contrai mal após a dequitação', 'A placenta é sempre acreta, nesses casos', 'O útero é sempre bicorno, nessas pacientes', 'Há coagulopatia de consumo inerente à doença'],
     g: 'A',
     c: 'Além disso, há maior associação com acretismo. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'Nem sempre.', C: 'Não há relação.', D: 'Não é inerente.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Descolamento prematuro de placenta: classificação',
     e: 'DPP com feto morto, hipotensão materna e coagulopatia corresponde a:',
-    o: ['Grau III (classificação de Sher)', 'Grau I', 'Grau II', 'Grau 0'],
+    o: ['Grau III, pela classificação de Sher', 'Grau I, forma assintomática da doença', 'Grau II, com feto vivo e sofrimento', 'Grau 0, achado apenas após o parto'],
     g: 'A',
     c: 'Grau I: diagnóstico retrospectivo ou sangramento leve; grau II: feto vivo com sinais de descolamento; grau III: feto morto, subdividido conforme a coagulopatia. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Forma leve.', C: 'Feto vivo.', D: 'Inexistente.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Descolamento prematuro de placenta: trauma',
     e: 'Gestante de 30 semanas vítima de acidente automobilístico, sem sangramento. A conduta adequada inclui:',
-    o: ['Monitorização fetal contínua por algumas horas, pelo risco de descolamento tardio', 'Alta imediata se não houver sangramento', 'Indução do parto', 'Ultrassom apenas após 1 semana'],
+    o: ['Monitorização fetal contínua por horas, pelo risco de DPP', 'Alta imediata, se não houver sangramento vaginal visível', 'Indução do parto imediata, por via vaginal', 'Ultrassom apenas após uma semana do trauma abdominal'],
     g: 'A',
     c: 'Muitos protocolos recomendam ao menos 4 a 6 horas de cardiotocografia após trauma. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022 (capítulo Trauma na gestação).',
     x: { B: 'Pode haver descolamento oculto.', C: 'Sem indicação.', D: 'Tardio.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Descolamento prematuro de placenta: drogas',
     e: 'O uso de cocaína na gestação associa-se fortemente a:',
-    o: ['Descolamento prematuro de placenta', 'Placenta prévia', 'Macrossomia', 'Pós-datismo'],
+    o: ['Descolamento prematuro de placenta', 'Placenta prévia, com sangramento indolor', 'Macrossomia fetal, com risco de distocia', 'Pós-datismo, com oligoâmnio persistente'],
     g: 'A',
     c: 'A vasoconstrição e as crises hipertensivas explicam a associação. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Associação mais fraca.', C: 'Associa-se à restrição de crescimento.', D: 'Associa-se a prematuridade.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Ruptura uterina',
     e: 'O principal fator de risco para ruptura uterina é:',
-    o: ['Cicatriz uterina prévia, como cesárea ou miomectomia com abertura da cavidade', 'Primiparidade', 'Gestação única sem cicatriz', 'Idade de 20 anos'],
+    o: ['Cicatriz uterina prévia, como cesárea ou miomectomia', 'Primiparidade, em mulheres jovens', 'Gestação única, em útero sem cicatriz', 'Idade materna de 20 anos, na primeira gestação'],
     g: 'A',
     c: 'Outros: uso inadequado de uterotônicos, trabalho de parto obstruído e multiparidade. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Não é fator.', C: 'Risco baixo.', D: 'Não é fator.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Ruptura uterina',
     e: 'O sinal mais precoce e frequente de ruptura uterina durante o trabalho de parto é geralmente:',
-    o: ['Alteração da frequência cardíaca fetal, especialmente bradicardia', 'Hipertensão materna', 'Febre', 'Prurido'],
+    o: ['Alteração dos BCF, sobretudo bradicardia', 'Hipertensão materna, de início súbito', 'Febre materna, de instalação gradual', 'Prurido generalizado, com colestase associada'],
     g: 'A',
     c: 'Dor súbita, parada das contrações e sangramento também ocorrem. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Não é típico.', C: 'Não é típico.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Sangramentos da segunda metade',
     e: 'A causa mais comum de sangramento na segunda metade da gestação, em geral leve, é:',
-    o: ['Sangramento do colo ou do canal (como cervicites, pólipos ou início do trabalho de parto)', 'Vasa prévia', 'Ruptura uterina', 'Acretismo'],
+    o: ['Sangramento do colo ou canal: cervicite, pólipo, trabalho de parto', 'Vasa prévia, com rotura de vasos fetais no colo', 'Ruptura uterina, em mulher com cicatriz de cesárea', 'Acretismo placentário, com invasão miometrial profunda'],
     g: 'A',
     c: 'Entre as causas graves, destacam-se placenta prévia e descolamento de placenta. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Rara.', C: 'Rara.', D: 'Causa de hemorragia no parto.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Acretismo: diagnóstico',
     e: 'Achados ultrassonográficos sugestivos de acretismo incluem:',
-    o: ['Lacunas placentárias, perda da zona hipoecoica retroplacentária e hipervascularização ao Doppler', 'Placenta fúndica homogênea', 'Cordão com três vasos', 'Líquido amniótico normal'],
+    o: ['Lacunas placentárias e hipervascularização ao Doppler', 'Placenta de inserção fúndica, homogênea e sem lacunas', 'Cordão umbilical com três vasos normais e regulares', 'Líquido amniótico em volume normal, sem alterações'],
     g: 'A',
     c: 'A ressonância pode complementar em casos duvidosos. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'Achado normal.', C: 'Normal.', D: 'Normal.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal: profilaxia',
     e: 'A imunoglobulina anti-D após o parto deve ser aplicada:',
-    o: ['Em até 72 horas, se a mãe for Rh negativo não sensibilizada e o recém-nascido Rh positivo', 'Somente se o recém-nascido for Rh negativo', 'Após 30 dias', 'Apenas na segunda gestação'],
+    o: ['Em até 72 h, se mãe Rh negativa e RN Rh positivo', 'Somente se o recém-nascido for Rh negativo', 'Após 30 dias, na consulta puerperal', 'Apenas na segunda gestação, quando sensibilizada'],
     g: 'A',
     c: 'Mesmo após 72 horas, há algum benefício até cerca de 28 dias. Referência: Brasil. Ministério da Saúde. Manual de Gestação de Alto Risco. Brasília: MS, 2022.',
     x: { B: 'Sem indicação.', C: 'Tardio.', D: 'Tardio.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal: genotipagem',
     e: 'A genotipagem fetal do RhD em plasma materno permite:',
-    o: ['Identificar fetos Rh negativo, evitando imunoglobulina e vigilância desnecessárias', 'Tratar a anemia fetal', 'Substituir o Coombs indireto em todas as gestantes', 'Diagnosticar diabetes'],
+    o: ['Identificar feto Rh negativo e evitar condutas desnecessárias', 'Tratar a anemia fetal já instalada na gestação', 'Substituir o Coombs indireto em todas as gestantes', 'Diagnosticar diabetes mellitus gestacional no feto'],
     g: 'A',
     c: 'Usa DNA fetal livre circulante no sangue materno. Referência: Society for Maternal-Fetal Medicine; Mari G et al. SMFM Clinical Guideline 8: The fetus at risk for anemia: diagnosis and management. Am J Obstet Gynecol. 2015;212(6):697-710.',
     x: { B: 'Não trata.', C: 'Não substitui.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal: recém-nascido',
     e: 'Recém-nascido de mãe sensibilizada, com icterícia nas primeiras 24 horas e Coombs direto positivo. A conduta inclui:',
-    o: ['Fototerapia intensiva e avaliação de exsanguineotransfusão conforme bilirrubina', 'Alta precoce', 'Apenas aleitamento', 'Nenhuma'],
+    o: ['Fototerapia intensiva e avaliar exsanguineotransfusão', 'Alta precoce, com retorno em uma semana', 'Apenas aleitamento materno em livre demanda', 'Nenhuma medida, pois a icterícia é fisiológica'],
     g: 'A',
     c: 'Icterícia nas primeiras 24 horas é sempre patológica. Referência: Sociedade Brasileira de Pediatria. Hiperbilirrubinemia indireta no período neonatal. Rio de Janeiro: SBP, 2021.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Exige tratamento.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal: Doppler',
     e: 'O pico de velocidade sistólica na artéria cerebral média aumenta na anemia fetal porque:',
-    o: ['A viscosidade sanguínea diminui e o débito cardíaco aumenta', 'O feto fica hipertenso', 'A placenta se calcifica', 'O cordão fica mais curto'],
+    o: ['A viscosidade do sangue cai e o débito cardíaco sobe', 'O feto fica hipertenso, por ativação de renina', 'A placenta se calcifica, com redução da perfusão', 'O cordão fica mais curto, com maior pulsatilidade'],
     g: 'A',
     c: 'Valores acima de 1,5 múltiplo da mediana indicam anemia moderada a grave. Referência: Society for Maternal-Fetal Medicine; Mari G et al. SMFM Clinical Guideline 8: The fetus at risk for anemia: diagnosis and management. Am J Obstet Gynecol. 2015;212(6):697-710.',
     x: { B: 'Não é o mecanismo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Hemorragia: choque',
     e: 'Gestante com hemorragia grave e choque. Um índice útil à beira do leito para estimar gravidade e necessidade de transfusão é:',
-    o: ['Índice de choque (FC dividida pela PA sistólica), com valores a partir de 0,9 a 1 indicando gravidade', 'Índice de Apgar', 'Índice de Bishop', 'Índice de Pearl'],
+    o: ['Índice de choque (FC/PAS); gravidade com ≥ 0,9 a 1', 'Índice de Apgar, aplicado ao recém-nascido', 'Índice de Bishop, para avaliar o colo uterino', 'Índice de Pearl, para eficácia contraceptiva'],
     g: 'A',
     c: 'O índice de choque detecta instabilidade antes da hipotensão evidente. Referência: Organização Pan-Americana da Saúde. Recomendações assistenciais para prevenção, diagnóstico e tratamento da hemorragia obstétrica. Brasília: OPAS, 2018.',
     x: { B: 'Avalia o recém-nascido.', C: 'Avalia o colo.', D: 'Avalia anticoncepção.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Hemorragia: transfusão',
     e: 'Em hemorragia obstétrica maciça, o ácido tranexâmico:',
-    o: ['Reduz mortalidade por sangramento quando usado precocemente, de preferência nas primeiras 3 horas', 'É contraindicado', 'Só deve ser usado após 24 horas', 'Substitui a correção cirúrgica'],
+    o: ['Reduz a mortalidade por sangramento se usado nas primeiras 3 horas', 'É contraindicado na hemorragia obstétrica maciça', 'Só deve ser usado após 24 horas do sangramento', 'Substitui a correção cirúrgica da causa do sangramento'],
     g: 'A',
     c: 'Dose de 1 g IV, podendo repetir. Referência: WOMAN Trial Collaborators. Effect of early tranexamic acid administration on mortality, hysterectomy, and other morbidities in women with post-partum haemorrhage. Lancet. 2017;389(10084):2105-16.',
     x: { B: 'Tem benefício.', C: 'O benefício é maior quanto mais precoce.', D: 'Não substitui.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Placenta prévia: diagnóstico',
     e: 'O melhor exame para diagnosticar placenta prévia é:',
-    o: ['Ultrassonografia transvaginal', 'Toque vaginal', 'Ressonância como primeira escolha', 'Cardiotocografia'],
+    o: ['Ultrassonografia transvaginal', 'Toque vaginal cuidadoso, em centro cirúrgico', 'Ressonância, como primeira escolha', 'Cardiotocografia anteparto, em repouso'],
     g: 'A',
     c: 'A via transvaginal é segura e mais precisa que a abdominal. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'Contraindicado antes do diagnóstico.', C: 'Complementar.', D: 'Não avalia placenta.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Descolamento prematuro de placenta: diagnóstico',
     e: 'Sobre o diagnóstico de descolamento prematuro de placenta, é correto afirmar:',
-    o: ['É essencialmente clínico, e a ultrassonografia normal não o exclui', 'Exige ressonância', 'A ultrassonografia sempre mostra o hematoma', 'Depende de cardiotocografia normal'],
+    o: ['Essencialmente clínico; USG normal não o exclui', 'Exige ressonância magnética para confirmação', 'A ultrassonografia sempre mostra o hematoma', 'Depende de cardiotocografia normal para o diagnóstico'],
     g: 'A',
     c: 'A ultrassonografia tem baixa sensibilidade; não se deve atrasar a conduta para fazê-la. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Sem indicação.', C: 'Baixa sensibilidade.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Doença hemolítica perinatal: ultrassom',
     e: 'O sinal ultrassonográfico de hidropsia fetal é:',
-    o: ['Acúmulo de líquido em pelo menos duas cavidades fetais, ou uma cavidade associada a edema de pele', 'Polidrâmnio isolado', 'Placenta fina', 'Biometria normal'],
+    o: ['Líquido em 2 cavidades fetais, ou 1 mais edema de pele', 'Polidrâmnio como achado isolado e persistente', 'Placenta fina, com área reduzida', 'Biometria fetal normal, sem edema de pele'],
     g: 'A',
     c: 'Ascite, derrame pleural, derrame pericárdico e edema subcutâneo compõem o quadro. Referência: Society for Maternal-Fetal Medicine; Mari G et al. SMFM Clinical Guideline 8: The fetus at risk for anemia: diagnosis and management. Am J Obstet Gynecol. 2015;212(6):697-710.',
     x: { B: 'Pode acompanhar, mas não define.', C: 'Geralmente a placenta fica espessa.', D: 'Não define.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Vasa prévia: diagnóstico',
     e: 'O diagnóstico antenatal de vasa prévia é feito por:',
-    o: ['Ultrassonografia transvaginal com Doppler colorido mostrando vasos sobre o orifício interno', 'Toque vaginal', 'Amnioscopia', 'Cardiotocografia'],
+    o: ['USG transvaginal com Doppler: vasos sobre o orifício', 'Toque vaginal, durante o trabalho de parto ativo', 'Amnioscopia, com avaliação visual do líquido', 'Cardiotocografia anteparto, com padrão sinusoidal'],
     g: 'A',
     c: 'O diagnóstico antenatal muda radicalmente o prognóstico. Referência: Cunningham FG et al. Williams Obstetrics. 26ª ed. New York: McGraw-Hill, 2022.',
     x: { B: 'Risco de ruptura.', C: 'Não indicado.', D: 'Não diagnostica.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Placenta prévia: sangramento sentinela',
     e: 'Sobre o primeiro episódio de sangramento na placenta prévia, é correto afirmar:',
-    o: ['Costuma ser autolimitado e sem repercussão, mas tende a se repetir com maior intensidade', 'É sempre fatal', 'Ocorre sempre após o parto', 'Nunca se repete'],
+    o: ['Costuma ser autolimitado, mas tende a se repetir mais forte', 'É sempre fatal, quando não tratado imediatamente', 'Ocorre sempre após o parto, na fase de dequitação', 'Nunca se repete depois do primeiro episódio de sangramento'],
     g: 'A',
     c: 'Por isso exige internação e vigilância. Referência: Jauniaux E et al. Placenta Praevia and Placenta Accreta: Diagnosis and Management. Green-top Guideline 27a. BJOG. 2019;126(1):e1-48.',
     x: { B: 'Geralmente não é.', C: 'Ocorre antes.', D: 'Tende a recorrer.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_HEM2: QuestaoCompacta[] = [
   {
     s: 'Sangramentos: diferencial',
     e: 'Comparando placenta prévia e descolamento prematuro de placenta, é característica do descolamento:',
-    o: ['Dor abdominal e hipertonia uterina, com sofrimento fetal frequente', 'Sangramento indolor de repetição', 'Útero de tônus normal', 'Sangue vermelho vivo sem coágulos e boa vitalidade fetal'],
+    o: ['Dor abdominal e hipertonia uterina, com sofrimento fetal', 'Sangramento indolor de repetição, vermelho vivo', 'Útero de tônus normal, sem hipertonia', 'Sangue vivo sem coágulos e boa vitalidade fetal'],
     g: 'A',
     c: 'O sangue costuma ser escuro e a hipertonia é marcante. Referência: Zugaib M, Francisco RPV (ed.). Zugaib Obstetrícia. 4ª ed. Barueri: Manole, 2020.',
     x: { B: 'Característica da placenta prévia.', C: 'Característica da placenta prévia.', D: 'Característica da placenta prévia.' },

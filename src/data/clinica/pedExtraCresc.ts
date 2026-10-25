@@ -5,7 +5,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Avaliação do crescimento',
     e: 'O parâmetro mais sensível para detectar precocemente um problema de crescimento é:',
-    o: ['Velocidade de crescimento acompanhada em gráfico ao longo do tempo', 'Uma medida isolada de estatura', 'Peso isolado ao nascer', 'Perímetro torácico'],
+    o: ['Velocidade de crescimento acompanhada no gráfico', 'Uma única medida isolada de estatura', 'O peso de nascimento, de forma isolada', 'O perímetro torácico, aferido na consulta'],
     g: 'A',
     c: 'Desvios do canal de crescimento indicam investigação, mesmo dentro da faixa normal. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 33: Saúde da criança: crescimento e desenvolvimento. Brasília: MS, 2012.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Pouco usado.' },
@@ -13,7 +13,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Curvas de crescimento',
     e: 'No Brasil, as curvas recomendadas para crianças são:',
-    o: ['As da OMS (2006 para 0 a 5 anos e 2007 para 5 a 19 anos)', 'As do NCHS de 1977', 'Curvas de adultos', 'Não se usam curvas'],
+    o: ['As da OMS (2006 até 5 anos e 2007 de 5 a 19)', 'As do NCHS de 1977, usadas antigamente', 'Curvas de adultos, adaptadas por idade', 'Não se usam curvas na rotina'],
     g: 'A',
     c: 'Estão na Caderneta da Criança. Referência: World Health Organization. WHO Child Growth Standards. Geneva: WHO, 2006; WHO Growth Reference 5-19 years, 2007.',
     x: { B: 'Substituídas.', C: 'Sem sentido.', D: 'São usadas.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Crescimento normal',
     e: 'O peso de nascimento geralmente:',
-    o: ['Dobra por volta dos 4 a 5 meses e triplica com 1 ano', 'Dobra com 1 mês', 'Triplica aos 3 meses', 'Não se altera no primeiro ano'],
+    o: ['Dobra aos 4-5 meses e triplica com 1 ano', 'Dobra com 1 mês de vida, e triplica aos 3 meses', 'Triplica aos 3 meses de vida, e quadruplica com 1 ano', 'Não se altera durante todo o primeiro ano de vida'],
     g: 'A',
     c: 'A perda de até 10% nos primeiros dias é fisiológica, com recuperação em 10 a 14 dias. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Rápido demais.', C: 'Rápido demais.', D: 'Sem sentido.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Microcefalia',
     e: 'Microcefalia é definida por perímetro cefálico abaixo de:',
-    o: ['2 desvios-padrão (escore Z -2) para idade e sexo', 'Percentil 50', 'Percentil 25', '1 desvio-padrão acima'],
+    o: ['2 desvios-padrão (escore Z -2) para idade e sexo', 'Percentil 50 para a idade e o sexo', 'Percentil 25 para a idade e o sexo', '1 desvio-padrão acima da média para a idade'],
     g: 'A',
     c: 'Abaixo de -3 desvios-padrão é microcefalia grave. Causas: infecções congênitas (Zika, CMV), genéticas e lesões cerebrais. Referência: World Health Organization. Assessment of infants with microcephaly in the context of Zika virus. Geneva: WHO, 2016.',
     x: { B: 'Normal.', C: 'Normal.', D: 'O oposto.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: marcos',
     e: 'Lactente de 4 meses normal deve ser capaz de:',
-    o: ['Sustentar a cabeça, sorrir socialmente e levar as mãos à boca', 'Andar com apoio', 'Falar frases', 'Sentar sem apoio por muito tempo'],
+    o: ['Sustentar a cabeça, sorrir e levar as mãos à boca', 'Andar com apoio, segurando nos móveis', 'Falar frases curtas, com duas palavras', 'Sentar sem apoio por muito tempo, sozinho'],
     g: 'A',
     c: 'A Caderneta da Criança traz os marcos por idade. Referência: Brasil. Ministério da Saúde. Caderneta da Criança: passaporte da cidadania. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Por volta de 9 a 12 meses.', C: 'Por volta de 2 anos.', D: 'Por volta de 6 a 7 meses.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: marcos',
     e: 'A criança senta sem apoio, em geral, por volta dos:',
-    o: ['6 a 8 meses', '2 meses', '15 meses', '3 anos'],
+    o: ['6 a 8 meses', '2 a 3 meses', '15 a 18 meses', '3 a 4 anos'],
     g: 'A',
     c: 'Engatinha por volta dos 9 meses e anda sem apoio entre 12 e 15 meses. Referência: Brasil. Ministério da Saúde. Caderneta da Criança: passaporte da cidadania. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Precoce.', C: 'Tardio.', D: 'Tardio.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: linguagem',
     e: 'Sinal de alerta para atraso de linguagem é:',
-    o: ['Não falar nenhuma palavra com significado aos 16 a 18 meses ou não juntar duas palavras aos 24 meses', 'Falar poucas palavras aos 12 meses', 'Balbuciar aos 6 meses', 'Trocar letras aos 3 anos'],
+    o: ['Nenhuma palavra aos 16-18 meses ou sem frases de 2 palavras aos 24', 'Falar poucas palavras isoladas aos 12 meses de idade', 'Balbuciar sílabas repetidas aos 6 meses de idade', 'Trocar algumas letras na fala aos 3 anos de idade'],
     g: 'A',
     c: 'Deve-se avaliar audição e sinais de transtorno do espectro autista. Referência: Brasil. Ministério da Saúde. Caderneta da Criança: passaporte da cidadania. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Pode ser normal.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: autismo',
     e: 'Sinais precoces de transtorno do espectro autista incluem:',
-    o: ['Pouco contato visual, ausência de apontar e de resposta ao nome, perda de habilidades', 'Sentar aos 7 meses', 'Andar aos 13 meses', 'Medo de estranhos aos 8 meses'],
+    o: ['Pouco contato visual, sem apontar e sem resposta ao nome', 'Sentar sem apoio aos 7 meses de idade, normalmente', 'Andar sem apoio aos 13 meses de idade, normalmente', 'Medo de estranhos aos 8 meses de idade, normalmente'],
     g: 'A',
     c: 'O M-CHAT é usado no rastreio entre 16 e 30 meses. Referência: Sociedade Brasileira de Pediatria. Manual de Orientação: Transtorno do Espectro do Autismo. Rio de Janeiro: SBP, 2019.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Normal.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Baixa estatura: patológica',
     e: 'Criança com baixa estatura e velocidade de crescimento baixa deve ser investigada com:',
-    o: ['Hemograma, função renal, TSH, T4 livre, anticorpos para doença celíaca, IGF-1, idade óssea e cariótipo em meninas', 'Nenhum exame', 'Apenas radiografia de crânio', 'Apenas glicemia'],
+    o: ['Hemograma, função renal, TSH, T4, celíaca, IGF-1, idade óssea e cariótipo', 'Nenhum exame, apenas observar a criança por 1 ano', 'Apenas radiografia de crânio em perfil, sem outros exames', 'Apenas glicemia de jejum, sem outros exames de sangue'],
     g: 'A',
     c: 'Doença celíaca e hipotireoidismo são causas tratáveis frequentes. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Exige investigação.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -125,7 +125,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desnutrição: marasmo',
     e: 'Criança de 1 ano com emagrecimento extremo, perda de massa muscular e gordura, aspecto envelhecido, sem edema. O diagnóstico é:',
-    o: ['Marasmo (desnutrição grave sem edema)', 'Kwashiorkor', 'Obesidade', 'Eutrofia'],
+    o: ['Marasmo (desnutrição grave sem edema)', 'Kwashiorkor (desnutrição com edema)', 'Obesidade, com excesso de gordura', 'Eutrofia, com peso adequado para a idade'],
     g: 'A',
     c: 'Decorre de déficit energético global. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Teria edema.', C: 'O oposto.', D: 'Fora do padrão.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desnutrição grave: tratamento',
     e: 'Na fase inicial de estabilização da desnutrição grave, uma medida importante é:',
-    o: ['Tratar hipoglicemia, hipotermia, desidratação com cautela e infecção, iniciando dieta lentamente', 'Dar dieta hipercalórica imediata', 'Hidratação venosa rápida como regra', 'Iniciar ferro no primeiro dia'],
+    o: ['Tratar hipoglicemia, hipotermia, desidratação e infecção; dieta lenta', 'Dar dieta hipercalórica imediata, em grande volume', 'Hidratação venosa rápida, como regra geral, no 1º dia', 'Iniciar ferro por via oral no primeiro dia de tratamento'],
     g: 'A',
     c: 'A realimentação rápida causa síndrome de realimentação; o ferro é iniciado na fase de reabilitação. Referência: Brasil. Ministério da Saúde. Manual de atendimento da criança com desnutrição grave em nível hospitalar. Brasília: MS, 2005.',
     x: { B: 'Risco de realimentação.', C: 'Risco de insuficiência cardíaca.', D: 'Pode piorar infecção.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Obesidade infantil',
     e: 'Criança obesa de 10 anos deve ser rastreada para:',
-    o: ['Dislipidemia, alterações da glicose, hipertensão e esteatose hepática', 'Apenas anemia', 'Somente asma', 'Nada'],
+    o: ['Dislipidemia, glicose, hipertensão e esteatose hepática', 'Apenas anemia ferropriva, com hemograma completo', 'Somente asma, por prova de função pulmonar', 'Nada, pois não há risco metabólico na infância'],
     g: 'A',
     c: 'O tratamento envolve mudanças de estilo de vida com a família. Referência: Hampl SE et al. Clinical Practice Guideline for the Evaluation and Treatment of Children and Adolescents With Obesity. Pediatrics. 2023;151(2):e2022060640.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Exige rastreio.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Obesidade: acantose',
     e: 'Adolescente obeso com manchas escuras e aveludadas no pescoço e axilas. O achado sugere:',
-    o: ['Resistência à insulina (acantose nigricans)', 'Sujeira', 'Micose', 'Vitiligo'],
+    o: ['Resistência à insulina (acantose nigricans)', 'Sujeira acumulada, por higiene inadequada', 'Micose superficial, por fungos', 'Vitiligo, por perda de melanócitos'],
     g: 'A',
     c: 'Associa-se a risco de diabetes tipo 2. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Achado clínico importante.', C: 'Sem relação.', D: 'Despigmentação.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Leite de vaca e anemia',
     e: 'O leite de vaca integral antes de 1 ano associa-se a anemia ferropriva porque:',
-    o: ['Tem pouco ferro de baixa biodisponibilidade e pode causar micro-hemorragias intestinais', 'Tem ferro em excesso', 'Melhora a absorção de ferro', 'Não tem relação'],
+    o: ['Pouco ferro, mal absorvido, e microperdas intestinais', 'Tem ferro em excesso, que causa saturação da transferrina', 'Melhora a absorção do ferro dos outros alimentos', 'Não tem relação com a anemia ferropriva no lactente'],
     g: 'A',
     c: 'Por isso não é recomendado antes de 1 ano. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O oposto.', C: 'Prejudica.', D: 'Há relação.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Raquitismo',
     e: 'Criança com alargamento de punhos, rosário raquítico, pernas arqueadas e fosfatase alcalina elevada. A causa mais comum é:',
-    o: ['Deficiência de vitamina D', 'Excesso de cálcio', 'Hipotireoidismo', 'Excesso de vitamina A'],
+    o: ['Deficiência de vitamina D', 'Excesso de cálcio, com hipercalcemia', 'Hipotireoidismo, com atraso do crescimento', 'Excesso de vitamina A, com hipervitaminose'],
     g: 'A',
     c: 'A suplementação de vitamina D é recomendada no primeiro ano. Referência: Munns CF et al. Global Consensus Recommendations on Prevention and Management of Nutritional Rickets. J Clin Endocrinol Metab. 2016;101(2):394-415.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: reflexos primitivos',
     e: 'O reflexo de Moro costuma desaparecer por volta dos:',
-    o: ['4 a 6 meses', '2 semanas', '2 anos', '10 anos'],
+    o: ['4 a 6 meses de idade', '2 a 3 semanas de idade', '2 a 3 anos de idade', '10 a 12 anos de idade'],
     g: 'A',
     c: 'Persistência além do esperado sugere lesão neurológica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Precoce demais.', C: 'Tardio.', D: 'Tardio.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: pinça',
     e: 'A preensão em pinça (polegar e indicador) surge por volta dos:',
-    o: ['9 a 10 meses', '2 meses', '4 anos', '15 dias'],
+    o: ['9 a 10 meses', '2 a 3 meses', '4 a 5 anos', '15 dias a 1 mês'],
     g: 'A',
     c: 'Permite pegar pequenos objetos. Referência: Brasil. Ministério da Saúde. Caderneta da Criança: passaporte da cidadania. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Precoce.', C: 'Tardio.', D: 'Precoce demais.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: social',
     e: 'O sorriso social surge por volta de:',
-    o: ['6 a 8 semanas', '6 meses', '1 ano', 'Ao nascer'],
+    o: ['6 a 8 semanas', '6 a 8 meses', '12 a 15 meses', 'Logo ao nascer, na sala de parto'],
     g: 'A',
     c: 'A ausência de sorriso social aos 3 meses é sinal de alerta. Referência: Brasil. Ministério da Saúde. Caderneta da Criança: passaporte da cidadania. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Tardio.', C: 'Tardio.', D: 'Precoce demais.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: controle esfincteriano',
     e: 'O controle esfincteriano diurno costuma ocorrer entre:',
-    o: ['2 e 3 anos', '6 meses', '8 anos', '10 anos'],
+    o: ['2 a 3 anos', '6 a 9 meses', '8 a 9 anos', '10 a 12 anos'],
     g: 'A',
     c: 'O noturno pode demorar mais; enurese é considerada após 5 anos. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Precoce.', C: 'Tardio.', D: 'Tardio.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: hipotonia',
     e: 'Lactente com hipotonia, fenda palpebral oblíqua para cima, prega palmar única e cardiopatia. O diagnóstico é:',
-    o: ['Síndrome de Down (trissomia 21)', 'Paralisia cerebral', 'Turner', 'Hipotireoidismo'],
+    o: ['Síndrome de Down (trissomia 21)', 'Paralisia cerebral, com hipertonia', 'Síndrome de Turner, em meninas', 'Hipotireoidismo congênito, sem cardiopatia'],
     g: 'A',
     c: 'Exige ecocardiograma, TSH e acompanhamento do desenvolvimento. Referência: Bull MJ et al. Health Supervision for Children and Adolescents With Down Syndrome. Pediatrics. 2022;149(5):e2022057010.',
     x: { B: 'Hipertonia.', C: 'Fenótipo diferente.', D: 'Sem prega palmar e fenda típica.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Crescimento: catch-up',
     e: 'Recém-nascido pequeno para a idade gestacional que não recuperou a estatura até 2 a 4 anos. Uma opção terapêutica é:',
-    o: ['Hormônio do crescimento', 'Testosterona', 'Corticoide', 'Insulina'],
+    o: ['Hormônio do crescimento (GH)', 'Testosterona, em dose baixa', 'Corticoide, em dose baixa', 'Insulina, em dose fisiológica'],
     g: 'A',
     c: 'A maioria recupera o crescimento nos primeiros 2 anos. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Deficiência de GH',
     e: 'Criança com baixa estatura grave, velocidade de crescimento baixa, idade óssea atrasada, gordura troncular e hipoglicemias. A hipótese é:',
-    o: ['Deficiência de hormônio do crescimento', 'Baixa estatura familiar', 'Obesidade exógena', 'Retardo constitucional sem patologia'],
+    o: ['Deficiência de hormônio do crescimento', 'Baixa estatura familiar, sem patologia', 'Obesidade exógena, com estatura alta', 'Retardo constitucional do crescimento, sem patologia'],
     g: 'A',
     c: 'Confirma-se com IGF-1 baixo e testes de estímulo. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Velocidade normal.', C: 'Sem baixa estatura.', D: 'Sem hipoglicemias.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo adquirido',
     e: 'Criança com queda da velocidade de crescimento, ganho de peso, constipação, cansaço e pele seca. O exame principal é:',
-    o: ['TSH e T4 livre', 'Cortisol', 'Prolactina', 'Glicemia'],
+    o: ['TSH e T4 livre', 'Cortisol sérico matinal', 'Prolactina sérica basal', 'Glicemia de jejum e insulina'],
     g: 'A',
     c: 'A causa mais comum é a tireoidite de Hashimoto. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Investiga Cushing.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Cushing',
     e: 'Criança obesa com baixa estatura, estrias violáceas e hipertensão. A hipótese é:',
-    o: ['Síndrome de Cushing (frequentemente iatrogênica por corticoide)', 'Obesidade exógena', 'Hipotireoidismo', 'Deficiência de GH'],
+    o: ['Síndrome de Cushing (muitas vezes por corticoide)', 'Obesidade exógena, com estatura normal', 'Hipotireoidismo, com bócio', 'Deficiência de GH, com adiposidade central'],
     g: 'A',
     c: 'A obesidade exógena cursa com estatura normal ou alta. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Estatura normal ou alta.', C: 'Sem estrias.', D: 'Sem estrias e hipertensão.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Obesidade: estatura',
     e: 'Uma pista para diferenciar obesidade exógena de causa endócrina é:',
-    o: ['Na obesidade exógena, a estatura costuma estar normal ou acima da média', 'Na exógena há sempre baixa estatura', 'Não há diferença', 'A endócrina tem estatura alta'],
+    o: ['Na obesidade exógena, a estatura é normal ou alta', 'Na exógena há sempre baixa estatura', 'Não há diferença entre as duas causas', 'A endócrina tem sempre estatura alta'],
     g: 'A',
     c: 'Obesidade com baixa estatura sugere causa endócrina ou genética. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O oposto.', C: 'Há diferença.', D: 'Costuma ser baixa.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: audição',
     e: 'Recém-nascido que falhou na triagem auditiva neonatal deve:',
-    o: ['Fazer reteste e, se mantiver a falha, avaliação audiológica completa até 3 meses', 'Ignorar', 'Repetir só aos 5 anos', 'Fazer cirurgia'],
+    o: ['Reteste e, se falhar, avaliação audiológica até 3 meses', 'Ignorar o resultado, por ser transitório', 'Repetir somente aos 5 anos de idade', 'Indicar cirurgia, para colocação de implante'],
     g: 'A',
     c: 'A intervenção até 6 meses melhora o desenvolvimento da linguagem. Referência: Brasil. Ministério da Saúde. Diretrizes de Atenção da Triagem Auditiva Neonatal. Brasília: MS, 2012.',
     x: { B: 'Atraso prejudicial.', C: 'Tardio.', D: 'Sem indicação.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Desenvolvimento: vigilância',
     e: 'A vigilância do desenvolvimento na atenção primária usa:',
-    o: ['Os marcos da Caderneta da Criança em todas as consultas de puericultura', 'Somente exames de imagem', 'Apenas consulta ao especialista', 'Nada'],
+    o: ['Marcos da Caderneta da Criança, em todas as consultas', 'Somente exames de imagem, a cada semestre', 'Apenas consulta ao especialista, a cada ano', 'Nada, pois o desenvolvimento é espontâneo'],
     g: 'A',
     c: 'Alterações levam a encaminhamento oportuno. Referência: Brasil. Ministério da Saúde. Caderneta da Criança: passaporte da cidadania. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Sem indicação.', C: 'Não é necessário de rotina.', D: 'Exige vigilância.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Puericultura',
     e: 'O calendário mínimo de consultas de puericultura do Ministério da Saúde no primeiro ano é de:',
-    o: ['7 consultas (1ª semana, 1, 2, 4, 6, 9 e 12 meses)', '1 consulta', '12 consultas mensais obrigatórias apenas', 'Nenhuma'],
+    o: ['7 consultas (1ª semana, 1, 2, 4, 6, 9 e 12 meses)', 'Apenas 1 consulta, no primeiro ano', '12 consultas mensais obrigatórias, e nenhuma outra', 'Nenhuma, pois a puericultura é opcional'],
     g: 'A',
     c: 'No segundo ano, consultas aos 18 e 24 meses. Referência: Brasil. Ministério da Saúde. Cadernos de Atenção Básica nº 33: Saúde da criança: crescimento e desenvolvimento. Brasília: MS, 2012.',
     x: { B: 'Insuficiente.', C: 'Não é o mínimo preconizado.', D: 'Há calendário.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Saúde bucal',
     e: 'A primeira consulta odontológica deve ocorrer:',
-    o: ['A partir da erupção do primeiro dente, idealmente até 1 ano', 'Somente aos 6 anos', 'Somente com cárie', 'Após os dentes permanentes'],
+    o: ['Ao erupcionar o 1º dente, idealmente até 1 ano', 'Somente aos 6 anos, com a dentição mista', 'Somente se houver cárie instalada', 'Após a erupção dos dentes permanentes'],
     g: 'A',
     c: 'Creme dental com flúor em quantidade de grão de arroz até 3 anos. Referência: Brasil. Ministério da Saúde. Guia de recomendações para o uso de fluoretos no Brasil. Brasília: MS, 2009.',
     x: { B: 'Tardio.', C: 'Tardio.', D: 'Tardio.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Sono seguro',
     e: 'Para reduzir a síndrome da morte súbita do lactente, recomenda-se:',
-    o: ['Dormir em decúbito dorsal, em berço sem objetos soltos e sem compartilhar a cama', 'Dormir de bruços', 'Dormir com travesseiros e bichos de pelúcia', 'Dormir na cama dos pais'],
+    o: ['Decúbito dorsal, berço sem objetos soltos, sem dividir a cama', 'Dormir de bruços, com a cabeça virada para o lado', 'Dormir com travesseiros e bichos de pelúcia no berço', 'Dormir na cama dos pais, para facilitar a vigilância'],
     g: 'A',
     c: 'Amamentação e evitar fumo também protegem. Referência: Moon RY et al. Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment. Pediatrics. 2022;150(1):e2022057990.',
     x: { B: 'Aumenta o risco.', C: 'Aumenta o risco.', D: 'Aumenta o risco.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Telas',
     e: 'Segundo a SBP, para crianças menores de 2 anos, o tempo de tela recomendado é:',
-    o: ['Evitar a exposição a telas', 'Até 4 horas por dia', 'Livre', '1 hora por dia obrigatoriamente'],
+    o: ['Evitar a exposição a telas', 'Até 4 horas por dia, em programas educativos', 'Livre, desde que haja supervisão dos pais', '1 hora por dia, obrigatoriamente, em horário fixo'],
     g: 'A',
     c: 'De 2 a 5 anos, até 1 hora por dia com supervisão. Referência: Sociedade Brasileira de Pediatria. Manual de Orientação: Menos Telas, Mais Saúde. Rio de Janeiro: SBP, 2019 (atualizado em 2024).',
     x: { B: 'Excessivo.', C: 'Sem limite não é recomendado.', D: 'Não é recomendado.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Cadeirinha',
     e: 'Criança de 2 anos deve ser transportada no carro em:',
-    o: ['Cadeirinha voltada para trás pelo maior tempo possível, no banco traseiro', 'Colo do adulto', 'Banco da frente com cinto', 'Assento de elevação'],
+    o: ['Cadeirinha voltada para trás, no banco traseiro', 'No colo do adulto, com cinto de segurança', 'No banco da frente, com cinto de segurança', 'Assento de elevação, sem encosto, no banco traseiro'],
     g: 'A',
     c: 'O Código de Trânsito exige dispositivo de retenção adequado à idade e ao peso. Referência: Brasil. Lei nº 14.071, de 13 de outubro de 2020.',
     x: { B: 'Proibido e perigoso.', C: 'Proibido.', D: 'Para crianças maiores.' },
@@ -381,7 +381,7 @@ export const PED_EXTRA_CRESC: QuestaoCompacta[] = [
   {
     s: 'Baixa estatura: Turner',
     e: 'Menina com baixa estatura sem outros achados evidentes. Um exame que deve ser considerado é:',
-    o: ['Cariótipo, pela possibilidade de síndrome de Turner', 'Teste do suor', 'Eletroencefalograma', 'Ressonância de joelho'],
+    o: ['Cariótipo, por possível síndrome de Turner', 'Teste do suor, por possível fibrose cística', 'Eletroencefalograma, por possível epilepsia', 'Ressonância de joelho, por possível displasia'],
     g: 'A',
     c: 'Turner pode ter poucos estigmas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },

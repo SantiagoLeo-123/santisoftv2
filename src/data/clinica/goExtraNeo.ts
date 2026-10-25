@@ -5,7 +5,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: etiologia',
     e: 'O principal fator para o desenvolvimento do câncer do colo do útero é:',
-    o: ['Infecção persistente por HPV de alto risco, principalmente tipos 16 e 18', 'Infecção por herpes simples', 'Uso de DIU', 'Nuliparidade'],
+    o: ['Infecção persistente por HPV de alto risco (16 e 18)', 'Infecção por herpes simples tipo 2, recorrente', 'Uso prolongado de DIU de cobre ou hormonal', 'Nuliparidade, sem outros fatores associados'],
     g: 'A',
     c: 'Tabagismo, imunossupressão e múltiplos parceiros são cofatores. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Não é causa.', C: 'Não é causa.', D: 'Não é fator.' },
@@ -13,7 +13,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: rastreamento',
     e: 'Pelas diretrizes do INCA de 2016, o rastreamento citopatológico é indicado para mulheres que já tiveram atividade sexual:',
-    o: ['Dos 25 aos 64 anos, a cada 3 anos após dois exames anuais normais', 'Dos 15 aos 80 anos, anualmente', 'Somente após a menopausa', 'A cada 10 anos a partir dos 18'],
+    o: ['25 a 64 anos, a cada 3 anos após 2 exames normais', '15 a 80 anos de idade, com exame anual', 'Somente após a menopausa, a cada 5 anos', 'A cada 10 anos, a partir dos 18 anos de idade'],
     g: 'A',
     c: 'O Brasil está implantando o rastreio com teste de DNA-HPV, que tende a substituir a citologia como exame primário. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Fora da faixa.', C: 'Fora da faixa.', D: 'Fora da faixa e intervalo.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: rastreamento',
     e: 'Mulher de 22 anos, com vida sexual ativa, pede exame preventivo. Pelas diretrizes do INCA de 2016:',
-    o: ['O rastreamento de rotina deve começar aos 25 anos', 'Deve fazer anualmente desde já', 'Deve fazer colposcopia', 'Deve fazer biópsia'],
+    o: ['O rastreio de rotina começa aos 25 anos', 'Deve fazer o exame anualmente, desde já', 'Deve fazer colposcopia, como rastreamento', 'Deve fazer biópsia do colo, como rastreamento'],
     g: 'A',
     c: 'Antes dos 25 anos, as lesões costumam regredir e o rastreio gera mais danos que benefícios. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Fora da faixa.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Citologia: condutas',
     e: 'Mulher de 35 anos com citologia mostrando lesão intraepitelial de alto grau (HSIL). A conduta é:',
-    o: ['Colposcopia, com biópsia ou excisão da zona de transformação conforme achados', 'Repetir a citologia em 1 ano', 'Histerectomia imediata', 'Apenas observar'],
+    o: ['Colposcopia, com biópsia ou excisão conforme achados', 'Repetir a citologia em 1 ano, sem outra conduta', 'Histerectomia imediata, por lesão de alto grau', 'Apenas observar, com retorno anual para exame'],
     g: 'A',
     c: 'Na colposcopia satisfatória com achado maior compatível, pode-se fazer a abordagem "ver e tratar". Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Atraso inadequado.', C: 'Excessivo.', D: 'Inadequado.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Citologia: condutas',
     e: 'Mulher de 30 anos com citologia de células escamosas atípicas de significado indeterminado, possivelmente não neoplásicas (ASC-US). A conduta pelo INCA é:',
-    o: ['Repetir a citologia em 6 meses', 'Colposcopia imediata', 'Conização', 'Histerectomia'],
+    o: ['Repetir a citologia em 6 meses', 'Colposcopia imediata, com biópsia dirigida', 'Conização com bisturi a frio, de imediato', 'Histerectomia total abdominal, de imediato'],
     g: 'A',
     c: 'Abaixo de 30 anos, a repetição é em 1 ano. Se persistir, encaminha-se à colposcopia. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Não é a primeira conduta.', C: 'Excessivo.', D: 'Excessivo.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Citologia: condutas',
     e: 'Citologia com lesão intraepitelial de baixo grau (LSIL) em mulher de 40 anos. A conduta pelo INCA é:',
-    o: ['Repetir a citologia em 6 meses', 'Conização imediata', 'Histerectomia', 'Nenhum seguimento'],
+    o: ['Repetir a citologia em 6 meses', 'Conização imediata, com bisturi a frio', 'Histerectomia total, por lesão de baixo grau', 'Nenhum seguimento, pois a lesão regride'],
     g: 'A',
     c: 'Grande parte regride. Em menores de 25 anos, repete-se em 3 anos. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Exige seguimento.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Lesões precursoras',
     e: 'Biópsia de colo com NIC 3 em mulher de 32 anos. O tratamento é:',
-    o: ['Excisão da zona de transformação (por exemplo, com cirurgia de alta frequência)', 'Observação por 2 anos', 'Quimioterapia', 'Radioterapia'],
+    o: ['Excisão da zona de transformação, por exemplo com CAF', 'Observação por 2 anos, com citologias semestrais', 'Quimioterapia com cisplatina, por via venosa', 'Radioterapia pélvica, em esquema fracionado'],
     g: 'A',
     c: 'A NIC 3 tem alto potencial de progressão. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Risco de progressão.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Prevenção',
     e: 'A vacina contra HPV no Programa Nacional de Imunizações é oferecida a:',
-    o: ['Meninas e meninos de 9 a 14 anos, além de grupos especiais', 'Somente mulheres acima de 40 anos', 'Somente gestantes', 'Somente quem tem lesão no colo'],
+    o: ['Meninas e meninos de 9 a 14 anos e grupos especiais', 'Somente mulheres acima de 40 anos de idade', 'Somente gestantes, a partir do segundo trimestre', 'Somente quem já tem lesão no colo do útero'],
     g: 'A',
     c: 'O esquema para essa faixa é de dose única desde 2024 no Brasil. Referência: Brasil. Ministério da Saúde. Calendário Nacional de Vacinação, 2024 (vacina HPV em dose única).',
     x: { B: 'Fora da faixa.', C: 'Não é recomendada na gestação.', D: 'Não é o público-alvo principal.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: estadiamento',
     e: 'Pela FIGO 2018, o estadiamento do câncer do colo do útero:',
-    o: ['É clínico, podendo incorporar achados de imagem e patologia', 'É exclusivamente cirúrgico', 'Não considera linfonodos', 'É feito apenas por marcadores tumorais'],
+    o: ['É clínico, podendo incluir imagem e patologia', 'É exclusivamente cirúrgico, com linfadenectomia', 'Não considera o comprometimento linfonodal', 'É feito apenas por marcadores tumorais séricos'],
     g: 'A',
     c: 'Linfonodos comprometidos classificam o tumor como IIIC. Referência: Bhatla N et al. Revised FIGO staging for carcinoma of the cervix uteri. Int J Gynaecol Obstet. 2019;145(1):129-35.',
     x: { B: 'Não é exclusivamente cirúrgico.', C: 'Considera desde 2018.', D: 'Não usa marcadores.' },
@@ -77,7 +77,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: tratamento',
     e: 'Paciente com câncer de colo estádio IIB (invasão de paramétrio). O tratamento padrão é:',
-    o: ['Quimiorradiação (radioterapia com cisplatina)', 'Histerectomia radical isolada', 'Conização', 'Observação'],
+    o: ['Quimiorradiação (radioterapia com cisplatina)', 'Histerectomia radical isolada, sem radioterapia', 'Conização do colo, com margens livres', 'Observação clínica, com controle semestral'],
     g: 'A',
     c: 'Estádios iniciais (IA2 a IB2, e alguns IIA1) podem ser tratados com cirurgia radical. Referência: Bhatla N et al. Revised FIGO staging for carcinoma of the cervix uteri. Int J Gynaecol Obstet. 2019;145(1):129-35.',
     x: { B: 'Não indicada com paramétrio invadido.', C: 'Insuficiente.', D: 'Inadequado.' },
@@ -85,7 +85,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: clínica',
     e: 'O sintoma mais comum do câncer invasor do colo do útero é:',
-    o: ['Sangramento vaginal anormal, especialmente pós-coito', 'Prurido vulvar', 'Dor torácica', 'Galactorreia'],
+    o: ['Sangramento vaginal anormal, sobretudo pós-coito', 'Prurido vulvar intenso e crônico, sem sangramento', 'Dor torácica, por metástase pulmonar precoce', 'Galactorreia, por hiperprolactinemia associada'],
     g: 'A',
     c: 'Lesões iniciais podem ser assintomáticas, o que justifica o rastreamento. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Típico de vulvovaginites ou vulva.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de endométrio: clínica',
     e: 'Mulher de 62 anos com sangramento vaginal pós-menopausa. O primeiro exame indicado é:',
-    o: ['Ultrassonografia transvaginal para medir a espessura endometrial', 'Mamografia', 'Colonoscopia', 'Dosagem de CA-125'],
+    o: ['USG transvaginal para medir o eco endometrial', 'Mamografia bilateral, de rastreamento anual', 'Colonoscopia, para investigar sangramento oculto', 'Dosagem sérica de CA-125, como exame isolado'],
     g: 'A',
     c: 'Espessura de 4 mm ou menos tem baixo risco de câncer; acima disso, ou com sangramento persistente, indica-se biópsia ou histeroscopia. Referência: Concin N et al. ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma. Int J Gynecol Cancer. 2021;31(1):12-39.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Não é inicial.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de endométrio: fatores de risco',
     e: 'É fator de risco para câncer de endométrio tipo endometrioide:',
-    o: ['Obesidade, anovulação crônica e uso de tamoxifeno', 'Multiparidade', 'Uso de anticoncepcional combinado', 'Tabagismo como fator de risco'],
+    o: ['Obesidade, anovulação crônica e uso de tamoxifeno', 'Multiparidade, com várias gestações a termo', 'Uso prolongado de anticoncepcional combinado', 'Tabagismo, que aumenta o risco endometrial'],
     g: 'A',
     c: 'O excesso de estrogênio sem oposição progestagênica é a base. O anticoncepcional combinado é protetor. Referência: Concin N et al. ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma. Int J Gynecol Cancer. 2021;31(1):12-39.',
     x: { B: 'É protetor.', C: 'É protetor.', D: 'O tabagismo até reduz o risco.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de endométrio: estadiamento',
     e: 'O estadiamento do câncer de endométrio é:',
-    o: ['Cirúrgico, com histerectomia, anexectomia e avaliação linfonodal', 'Clínico exclusivamente', 'Feito apenas por CA-125', 'Feito apenas por ultrassom'],
+    o: ['Cirúrgico: histerectomia, anexectomia e linfonodos', 'Exclusivamente clínico, pelo exame físico', 'Feito apenas pela dosagem do CA-125 sérico', 'Feito apenas pelo ultrassom transvaginal'],
     g: 'A',
     c: 'A classificação molecular passou a orientar o prognóstico e o tratamento adjuvante. Referência: Berek JS et al. FIGO staging of endometrial cancer: 2023. Int J Gynaecol Obstet. 2023;162(2):383-94.',
     x: { B: 'É cirúrgico.', C: 'Não é marcador de estadiamento.', D: 'Insuficiente.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de ovário: epidemiologia',
     e: 'O tipo histológico mais comum de câncer de ovário é:',
-    o: ['Epitelial, especialmente seroso de alto grau', 'Disgerminoma', 'Tumor de células da granulosa', 'Teratoma imaturo'],
+    o: ['Epitelial, sobretudo o seroso de alto grau', 'Disgerminoma, tumor de células germinativas', 'Tumor de células da granulosa, do estroma', 'Teratoma imaturo, de células germinativas'],
     g: 'A',
     c: 'O seroso de alto grau origina-se frequentemente na fímbria tubária. Referência: Berek JS et al. Cancer of the ovary, fallopian tube, and peritoneum: 2021 update. Int J Gynaecol Obstet. 2021;155(Suppl 1):61-85.',
     x: { B: 'Mais comum em jovens, mas raro no geral.', C: 'Raro.', D: 'Raro.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de ovário: genética',
     e: 'Mulher com mutação em BRCA1 tem risco muito elevado de câncer de ovário. A medida mais eficaz para reduzir esse risco é:',
-    o: ['Salpingo-ooforectomia bilateral redutora de risco, em geral entre 35 e 40 anos após prole completa', 'Ultrassom anual como rastreamento eficaz', 'CA-125 isolado', 'Nenhuma medida'],
+    o: ['Salpingo-ooforectomia aos 35-40 anos, após prole completa', 'Ultrassom anual, como rastreamento eficaz da doença', 'CA-125 isolado, dosado a cada seis meses', 'Nenhuma medida, apenas seguimento clínico anual'],
     g: 'A',
     c: 'O rastreamento com ultrassom e CA-125 não reduziu mortalidade. Referência: National Comprehensive Cancer Network. NCCN Guidelines: Genetic/Familial High-Risk Assessment: Breast, Ovarian, and Pancreatic. Version 2024.',
     x: { B: 'Não reduz mortalidade.', C: 'Não reduz mortalidade.', D: 'Há medida eficaz.' },
@@ -149,7 +149,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de ovário: rastreamento',
     e: 'Sobre o rastreamento de câncer de ovário na população geral, é correto afirmar:',
-    o: ['Não é recomendado, pois não reduziu mortalidade e gera falsos-positivos e cirurgias desnecessárias', 'Deve ser feito anualmente com CA-125 em todas', 'Deve ser feito com ultrassom semestral', 'Deve ser feito com tomografia anual'],
+    o: ['Não recomendado: não reduz mortalidade e gera falso-positivos', 'Deve ser feito anualmente com CA-125, em todas', 'Deve ser feito com ultrassom a cada semestre', 'Deve ser feito com tomografia anual, em todas'],
     g: 'A',
     c: 'O ensaio UKCTOCS não mostrou redução de mortalidade. Referência: Menon U et al. Ovarian cancer population screening and mortality after long-term follow-up in the UKCTOCS. Lancet. 2021;397(10290):2182-93.',
     x: { B: 'Não é recomendado.', C: 'Não é recomendado.', D: 'Não é recomendado.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Massas anexiais',
     e: 'Mulher de 60 anos com massa ovariana sólida com projeções papilares, ascite e CA-125 muito elevado. A suspeita é:',
-    o: ['Câncer epitelial de ovário avançado', 'Cisto funcional', 'Endometrioma', 'Teratoma maduro'],
+    o: ['Câncer epitelial de ovário avançado', 'Cisto funcional, que regride sozinho', 'Endometrioma, com conteúdo em vidro fosco', 'Teratoma maduro, com componente gorduroso'],
     g: 'A',
     c: 'O tratamento envolve cirurgia citorredutora e quimioterapia com carboplatina e paclitaxel. Referência: Berek JS et al. Cancer of the ovary, fallopian tube, and peritoneum: 2021 update. Int J Gynaecol Obstet. 2021;155(Suppl 1):61-85.',
     x: { B: 'Ocorre em idade fértil e é anecoico.', C: 'Aspecto típico de vidro fosco.', D: 'Tem gordura e calcificações.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Tumores do estroma',
     e: 'Mulher na pós-menopausa com sangramento uterino, hiperplasia endometrial e massa ovariana sólida produtora de estrogênio. A hipótese é:',
-    o: ['Tumor de células da granulosa', 'Disgerminoma', 'Teratoma maduro', 'Tumor de Krukenberg'],
+    o: ['Tumor de células da granulosa', 'Disgerminoma, de células germinativas', 'Teratoma maduro, com componente gorduroso', 'Tumor de Krukenberg, metastático gástrico'],
     g: 'A',
     c: 'A inibina é marcador útil. Referência: Berek JS et al. Cancer of the ovary, fallopian tube, and peritoneum: 2021 update. Int J Gynaecol Obstet. 2021;155(Suppl 1):61-85.',
     x: { B: 'Não produz estrogênio.', C: 'Não produz estrogênio.', D: 'Metástase sem produção hormonal típica.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Tumor de Krukenberg',
     e: 'O tumor de Krukenberg é:',
-    o: ['Metástase ovariana, geralmente de adenocarcinoma gástrico, com células em anel de sinete', 'Tumor primário de células germinativas', 'Tumor benigno do estroma', 'Cisto funcional'],
+    o: ['Metástase ovariana, em geral gástrica, com células em anel de sinete', 'Tumor primário de células germinativas do ovário, em jovens', 'Tumor benigno do estroma ovariano, de baixo risco', 'Cisto funcional ovariano, que regride espontaneamente'],
     g: 'A',
     c: 'Costuma ser bilateral. Referência: Berek JS et al. Cancer of the ovary, fallopian tube, and peritoneum: 2021 update. Int J Gynaecol Obstet. 2021;155(Suppl 1):61-85.',
     x: { B: 'É metastático.', C: 'Não é benigno.', D: 'Não é cisto funcional.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de vulva',
     e: 'O câncer de vulva mais comum é:',
-    o: ['Carcinoma de células escamosas', 'Melanoma', 'Adenocarcinoma de Bartholin', 'Sarcoma'],
+    o: ['Carcinoma de células escamosas', 'Melanoma, de origem melanocítica', 'Adenocarcinoma da glândula de Bartholin', 'Sarcoma de partes moles, de origem mesenquimal'],
     g: 'A',
     c: 'Associa-se ao HPV em mulheres jovens e ao líquen escleroso em idosas. Referência: Olawaiye AB et al. FIGO staging for carcinoma of the vulva: 2021 revision. Int J Gynaecol Obstet. 2021;155(1):43-7.',
     x: { B: 'Menos comum.', C: 'Raro.', D: 'Raro.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Lesões de vulva',
     e: 'Mulher de 70 anos com prurido vulvar crônico e placa branca, atrófica, com aspecto de pergaminho. O diagnóstico mais provável e a conduta são:',
-    o: ['Líquen escleroso; corticoide tópico de alta potência e vigilância pelo risco de carcinoma', 'Candidíase; fluconazol', 'Psoríase; nenhuma vigilância', 'Herpes; aciclovir'],
+    o: ['Líquen escleroso; corticoide potente e vigilância', 'Candidíase, tratada com fluconazol por via oral', 'Psoríase, sem necessidade de vigilância', 'Herpes genital, tratado com aciclovir oral'],
     g: 'A',
     c: 'Lesões suspeitas ou refratárias devem ser biopsiadas. Referência: Lewis FM et al. British Association of Dermatologists guidelines for the management of lichen sclerosus. Br J Dermatol. 2018;178(4):839-53.',
     x: { B: 'Não explica placa atrófica crônica.', C: 'Exige vigilância.', D: 'Não é herpes.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: rastreamento em imunossuprimidas',
     e: 'Mulher vivendo com HIV, com 28 anos, deve fazer citologia:',
-    o: ['Após o início da atividade sexual, semestral no primeiro ano e depois anual, com intervalo maior se CD4 adequado conforme protocolo', 'Somente a partir dos 25 anos a cada 3 anos', 'Nunca', 'Somente após os 64 anos'],
+    o: ['Ao iniciar a vida sexual: semestral no 1º ano, depois anual', 'Somente a partir dos 25 anos, a cada 3 anos', 'Nunca, pois a imunossupressão não aumenta o risco', 'Somente após os 64 anos de idade, em exame único'],
     g: 'A',
     c: 'O risco de lesões e progressão é maior em imunossuprimidas. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Intervalo inadequado.', C: 'Há risco aumentado.', D: 'Inadequado.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Citologia: atipia glandular',
     e: 'Citologia com atipias em células glandulares (AGC) em mulher de 45 anos. A conduta é:',
-    o: ['Colposcopia com avaliação do canal e investigação endometrial', 'Repetir a citologia em 3 anos', 'Nenhuma', 'Apenas antibiótico'],
+    o: ['Colposcopia, com avaliação do canal e do endométrio', 'Repetir a citologia em 3 anos, sem outra conduta', 'Nenhuma conduta, pois são alterações benignas', 'Apenas antibiótico, com nova citologia após 1 mês'],
     g: 'A',
     c: 'Pode representar lesão cervical ou endometrial. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Atraso perigoso.', C: 'Exige investigação.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Colposcopia',
     e: 'Na colposcopia, achado maior sugestivo de lesão de alto grau é:',
-    o: ['Epitélio acetobranco denso com mosaico ou pontilhado grosseiros', 'Epitélio escamoso original normal', 'Ectopia simples', 'Cistos de Naboth'],
+    o: ['Acetobranco denso, com mosaico ou pontilhado grosseiro', 'Epitélio escamoso original, de aspecto normal', 'Ectopia simples, com epitélio colunar visível', 'Cistos de Naboth, com vasos de aspecto normal'],
     g: 'A',
     c: 'A biópsia guiada confirma o diagnóstico. Referência: Bornstein J et al. 2011 colposcopic terminology of the International Federation for Cervical Pathology and Colposcopy. Obstet Gynecol. 2012;120(1):166-72.',
     x: { B: 'Normal.', C: 'Benigno.', D: 'Benigno.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: gestação',
     e: 'Gestante de 16 semanas com citologia HSIL. A conduta é:',
-    o: ['Colposcopia, com biópsia apenas se suspeita de invasão, adiando o tratamento da lesão precursora para após o parto', 'Conização imediata', 'Interromper a gestação', 'Ignorar até 1 ano após o parto'],
+    o: ['Colposcopia; biópsia só se suspeita de invasão; tratar após o parto', 'Conização imediata, ainda com 16 semanas de gestação', 'Interromper a gestação, por lesão intraepitelial de alto grau', 'Ignorar a lesão e reavaliar 1 ano depois do parto'],
     g: 'A',
     c: 'A progressão para câncer durante a gestação é rara. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'Risco de sangramento e perda gestacional.', C: 'Sem indicação.', D: 'Exige avaliação.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de endométrio: tipos',
     e: 'O carcinoma endometrial seroso, diferente do endometrioide:',
-    o: ['É mais agressivo, ocorre em mulheres mais velhas e não depende de estrogênio', 'É hormônio-dependente e de bom prognóstico', 'Associa-se a obesidade e hiperplasia', 'Ocorre só em jovens'],
+    o: ['Mais agressivo, em idosas, sem dependência de estrogênio', 'Hormônio-dependente e de bom prognóstico', 'Associado à obesidade e à hiperplasia endometrial', 'Ocorre somente em mulheres jovens, na menacme'],
     g: 'A',
     c: 'A classificação molecular (POLE, MMRd, p53 anormal, sem perfil específico) refina o prognóstico. Referência: Concin N et al. ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma. Int J Gynecol Cancer. 2021;31(1):12-39.',
     x: { B: 'Descreve o endometrioide.', C: 'Descreve o endometrioide.', D: 'Ocorre em idosas.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de endométrio: tamoxifeno',
     e: 'Mulher em uso de tamoxifeno para câncer de mama apresenta sangramento vaginal. A conduta é:',
-    o: ['Investigar o endométrio, com ultrassom e biópsia ou histeroscopia', 'Ignorar, pois é efeito esperado', 'Suspender o tamoxifeno sem investigar', 'Iniciar estrogênio'],
+    o: ['Investigar o endométrio: USG e biópsia ou histeroscopia', 'Ignorar, pois é um efeito esperado do tamoxifeno', 'Suspender o tamoxifeno, sem investigar o endométrio', 'Iniciar estrogênio, para controlar o sangramento'],
     g: 'A',
     c: 'O tamoxifeno tem efeito agonista no endométrio e aumenta o risco de câncer. Referência: Concin N et al. ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma. Int J Gynecol Cancer. 2021;31(1):12-39.',
     x: { B: 'Exige investigação.', C: 'Exige investigação.', D: 'Contraindicado.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Massas anexiais: ultrassom',
     e: 'Cisto ovariano unilocular, anecoico, de paredes finas, com 4 cm, em mulher de 28 anos assintomática. A conduta é:',
-    o: ['Seguimento com ultrassom, pois provavelmente é funcional e benigno', 'Ooforectomia', 'Quimioterapia', 'Laparotomia de urgência'],
+    o: ['Seguimento com USG; provável cisto funcional benigno', 'Ooforectomia, com envio de peça para patologia', 'Quimioterapia, por suspeita de malignidade', 'Laparotomia de urgência, por risco de torção'],
     g: 'A',
     c: 'As regras simples da IOTA ajudam a classificar massas como benignas ou suspeitas. Referência: Timmerman D et al. ESGO/ISUOG/IOTA/ESGE Consensus Statement on preoperative diagnosis of ovarian tumors. Ultrasound Obstet Gynecol. 2021;58(1):148-68.',
     x: { B: 'Excessivo.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Massas anexiais: teratoma',
     e: 'Massa ovariana com componente gorduroso, calcificação (dente) e sombra acústica em mulher de 25 anos. O diagnóstico é:',
-    o: ['Teratoma cístico maduro (cisto dermoide)', 'Disgerminoma', 'Endometrioma', 'Cistoadenocarcinoma'],
+    o: ['Teratoma cístico maduro (cisto dermoide)', 'Disgerminoma, com componente sólido homogêneo', 'Endometrioma, com conteúdo em vidro fosco', 'Cistoadenocarcinoma, com septos espessos e vascularizados'],
     g: 'A',
     c: 'É o tumor ovariano benigno mais comum em jovens; o risco de torção justifica cirurgia conservadora (cistectomia). Referência: Timmerman D et al. ESGO/ISUOG/IOTA/ESGE Consensus Statement on preoperative diagnosis of ovarian tumors. Ultrasound Obstet Gynecol. 2021;58(1):148-68.',
     x: { B: 'Sólido, sem gordura.', C: 'Aspecto em vidro fosco.', D: 'Aspecto sólido-cístico com vegetações.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Torção anexial',
     e: 'Mulher de 22 anos com dor pélvica súbita intensa, náuseas e massa ovariana de 7 cm. A conduta diante da suspeita de torção é:',
-    o: ['Laparoscopia de urgência com distorção e preservação do ovário sempre que possível', 'Analgesia e alta', 'Ooforectomia obrigatória', 'Aguardar 48 horas'],
+    o: ['Laparoscopia de urgência, com destorção e preservação do ovário', 'Analgesia e alta, com retorno em 48 horas', 'Ooforectomia obrigatória, em todos os casos de torção', 'Aguardar 48 horas, com analgesia e observação'],
     g: 'A',
     c: 'O aspecto escuro do ovário não indica obrigatoriamente necrose irreversível. Referência: American College of Obstetricians and Gynecologists. Committee Opinion 783: Adnexal Torsion in Adolescents. Obstet Gynecol. 2019;134(2):e56-63.',
     x: { B: 'Risco de perda ovariana.', C: 'Não é obrigatória.', D: 'Risco de necrose.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de ovário: CA-125',
     e: 'Sobre o CA-125, é correto afirmar:',
-    o: ['Pode estar elevado em condições benignas, como endometriose, miomas e gestação, e é mais útil no seguimento do câncer', 'É específico para câncer de ovário', 'Deve ser usado como rastreio populacional', 'É sempre normal no câncer de ovário'],
+    o: ['Eleva-se em doenças benignas; útil no seguimento do câncer', 'É específico para o diagnóstico do câncer de ovário', 'Deve ser usado como rastreio populacional em todas', 'É sempre normal em mulheres com câncer de ovário'],
     g: 'A',
     c: 'Sua utilidade diagnóstica é maior na pós-menopausa. Referência: Berek JS et al. Cancer of the ovary, fallopian tube, and peritoneum: 2021 update. Int J Gynaecol Obstet. 2021;155(Suppl 1):61-85.',
     x: { B: 'Baixa especificidade.', C: 'Não é recomendado.', D: 'Pode estar elevado.' },
@@ -301,7 +301,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Tumores borderline',
     e: 'Tumor ovariano borderline em mulher jovem com desejo reprodutivo. O tratamento pode ser:',
-    o: ['Cirurgia conservadora, preservando útero e ovário contralateral, com estadiamento adequado', 'Quimioterapia obrigatória', 'Radioterapia', 'Histerectomia radical obrigatória'],
+    o: ['Cirurgia conservadora, com útero e ovário contralateral preservados', 'Quimioterapia, obrigatoriamente, em todos os casos', 'Radioterapia pélvica, em esquema fracionado', 'Histerectomia radical, obrigatoriamente, com linfadenectomia'],
     g: 'A',
     c: 'O prognóstico é muito bom. Referência: Berek JS et al. Cancer of the ovary, fallopian tube, and peritoneum: 2021 update. Int J Gynaecol Obstet. 2021;155(Suppl 1):61-85.',
     x: { B: 'Não é necessária na maioria.', C: 'Sem indicação.', D: 'Não é obrigatória.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de ovário: proteção',
     e: 'É fator protetor contra câncer de ovário:',
-    o: ['Uso de anticoncepcional combinado, multiparidade, amamentação e laqueadura ou salpingectomia', 'Nuliparidade', 'Endometriose', 'Mutação BRCA'],
+    o: ['ACO combinado, multiparidade, amamentação e salpingectomia', 'Nuliparidade, sem uso de anticoncepcional hormonal', 'Endometriose, com endometriomas ovarianos persistentes', 'Mutação em BRCA1 ou BRCA2, de herança familiar'],
     g: 'A',
     c: 'A salpingectomia oportunística em cirurgias pélvicas é recomendada para reduzir risco. Referência: Berek JS et al. Cancer of the ovary, fallopian tube, and peritoneum: 2021 update. Int J Gynaecol Obstet. 2021;155(Suppl 1):61-85.',
     x: { B: 'Fator de risco.', C: 'Associada a alguns subtipos.', D: 'Fator de risco.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: tratamento inicial',
     e: 'Câncer de colo estádio IA1, sem invasão linfovascular, em mulher que deseja ter filhos. O tratamento pode ser:',
-    o: ['Conização com margens livres', 'Quimiorradiação', 'Exenteração pélvica', 'Nenhum'],
+    o: ['Conização com margens livres', 'Quimiorradiação, com cisplatina semanal', 'Exenteração pélvica, com ressecção de órgãos', 'Nenhum tratamento, apenas seguimento'],
     g: 'A',
     c: 'Em estádios iniciais selecionados, é possível preservar a fertilidade. Referência: Bhatla N et al. Revised FIGO staging for carcinoma of the cervix uteri. Int J Gynaecol Obstet. 2019;145(1):129-35.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Exige tratamento.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: complicação',
     e: 'A principal causa de óbito no câncer de colo avançado é:',
-    o: ['Insuficiência renal por obstrução ureteral (uremia)', 'Metástase cerebral', 'Hemorragia digestiva', 'Embolia pulmonar'],
+    o: ['Insuficiência renal por obstrução ureteral (uremia)', 'Metástase cerebral, com hipertensão intracraniana', 'Hemorragia digestiva alta, por invasão retal', 'Embolia pulmonar maciça, por trombose venosa'],
     g: 'A',
     c: 'A invasão parametrial e da parede pélvica comprime os ureteres; hidronefrose classifica o tumor como IIIB. Referência: Bhatla N et al. Revised FIGO staging for carcinoma of the cervix uteri. Int J Gynaecol Obstet. 2019;145(1):129-35.',
     x: { B: 'Menos comum.', C: 'Sem relação.', D: 'Menos comum.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Neoplasias: mioma e sarcoma',
     e: 'Mulher na pós-menopausa com crescimento rápido de massa uterina previamente diagnosticada como mioma. Deve-se suspeitar de:',
-    o: ['Sarcoma uterino (leiomiossarcoma)', 'Degeneração rubra', 'Adenomiose', 'Pólipo endometrial'],
+    o: ['Sarcoma uterino (leiomiossarcoma)', 'Degeneração rubra do mioma, na gestação', 'Adenomiose, com útero globoso e doloroso', 'Pólipo endometrial, com sangramento irregular'],
     g: 'A',
     c: 'Miomas tendem a regredir na pós-menopausa. Referência: Berek JS. Berek e Novak: Tratado de Ginecologia. 16ª ed. Rio de Janeiro: Guanabara Koogan, 2021.',
     x: { B: 'Ocorre na gestação.', C: 'Não cresce rapidamente assim.', D: 'Não causa massa.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Doença de Paget extramamária',
     e: 'Lesão vulvar eritematosa, pruriginosa, com aspecto de bolo de framboesa e áreas brancas, em mulher idosa. A hipótese a confirmar por biópsia é:',
-    o: ['Doença de Paget extramamária', 'Candidíase simples', 'Herpes genital', 'Condiloma'],
+    o: ['Doença de Paget extramamária', 'Candidíase simples, sem placas brancas', 'Herpes genital, com vesículas agrupadas', 'Condiloma acuminado, com lesões papilomatosas'],
     g: 'A',
     c: 'Pode associar-se a adenocarcinoma subjacente. Referência: Berek JS. Berek e Novak: Tratado de Ginecologia. 16ª ed. Rio de Janeiro: Guanabara Koogan, 2021.',
     x: { B: 'Não tem esse aspecto crônico.', C: 'Lesões vesiculares.', D: 'Lesões verrucosas.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de endométrio: proteção',
     e: 'Fator protetor para câncer de endométrio é:',
-    o: ['Uso de anticoncepcional combinado ou de SIU de levonorgestrel', 'Obesidade', 'Diabetes', 'Tamoxifeno'],
+    o: ['Uso de ACO combinado ou SIU de levonorgestrel', 'Obesidade, com anovulação crônica', 'Diabetes mellitus, com resistência insulínica', 'Uso de tamoxifeno, por efeito estrogênico uterino'],
     g: 'A',
     c: 'O progestagênio protege o endométrio do estrogênio sem oposição. Referência: Concin N et al. ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma. Int J Gynecol Cancer. 2021;31(1):12-39.',
     x: { B: 'Fator de risco.', C: 'Fator de risco.', D: 'Fator de risco.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: HPV teste',
     e: 'No rastreamento primário com teste de DNA-HPV, um resultado positivo para HPV 16 ou 18 indica, em geral:',
-    o: ['Encaminhamento direto para colposcopia', 'Repetir o teste em 5 anos', 'Nenhuma conduta', 'Histerectomia'],
+    o: ['Encaminhar direto para colposcopia', 'Repetir o teste de DNA-HPV em 5 anos', 'Nenhuma conduta, apenas orientação', 'Histerectomia total, por lesão provável'],
     g: 'A',
     c: 'Para outros tipos de alto risco, faz-se citologia de triagem. Referência: Perkins RB et al. 2019 ASCCP Risk-Based Management Consensus Guidelines for Abnormal Cervical Cancer Screening Tests and Cancer Precursors. J Low Genit Tract Dis. 2020;24(2):102-31.',
     x: { B: 'Atraso inadequado.', C: 'Exige conduta.', D: 'Excessivo.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Massas anexiais: pós-menopausa',
     e: 'Mulher de 65 anos com cisto ovariano simples de 3 cm, CA-125 normal. A conduta é:',
-    o: ['Seguimento com ultrassom, pois o risco de malignidade é muito baixo', 'Cirurgia radical imediata', 'Quimioterapia', 'Biópsia percutânea'],
+    o: ['Seguimento com USG; risco de malignidade muito baixo', 'Cirurgia radical imediata, por idade avançada', 'Quimioterapia neoadjuvante, antes de qualquer cirurgia', 'Biópsia percutânea do cisto, guiada por imagem'],
     g: 'A',
     c: 'Cistos simples pequenos na pós-menopausa são geralmente benignos. Referência: Timmerman D et al. ESGO/ISUOG/IOTA/ESGE Consensus Statement on preoperative diagnosis of ovarian tumors. Ultrasound Obstet Gynecol. 2021;58(1):148-68.',
     x: { B: 'Excessivo.', C: 'Sem indicação.', D: 'Contraindicada pelo risco de disseminação.' },
@@ -381,7 +381,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de endométrio: rastreamento',
     e: 'Sobre o rastreamento de câncer de endométrio em mulheres assintomáticas na população geral:',
-    o: ['Não é recomendado; a investigação é feita diante de sangramento anormal', 'Deve ser feito com ultrassom anual em todas', 'Deve ser feito com biópsia anual', 'Deve ser feito com citologia'],
+    o: ['Não recomendado; investiga-se diante de sangramento', 'Deve ser feito com USG anual, em todas', 'Deve ser feito com biópsia anual, em todas', 'Deve ser feito com citologia endometrial anual'],
     g: 'A',
     c: 'Mulheres com síndrome de Lynch são exceção e têm seguimento específico. Referência: Concin N et al. ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma. Int J Gynecol Cancer. 2021;31(1):12-39.',
     x: { B: 'Não é recomendado.', C: 'Não é recomendado.', D: 'A citologia não rastreia endométrio.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Neoplasias: ovário em gestante',
     e: 'Massa anexial complexa de 6 cm descoberta no primeiro trimestre, assintomática. A conduta mais adequada é:',
-    o: ['Reavaliar no segundo trimestre, pois muitas são funcionais e regridem', 'Cirurgia imediata no primeiro trimestre', 'Interromper a gestação', 'Quimioterapia'],
+    o: ['Reavaliar no 2º trimestre; muitas são funcionais e regridem', 'Cirurgia imediata ainda no primeiro trimestre', 'Interromper a gestação, por suspeita de neoplasia', 'Quimioterapia imediata, com esquema habitual'],
     g: 'A',
     c: 'Cirurgia, se necessária, é preferencialmente no segundo trimestre. Referência: Timmerman D et al. ESGO/ISUOG/IOTA/ESGE Consensus Statement on preoperative diagnosis of ovarian tumors. Ultrasound Obstet Gynecol. 2021;58(1):148-68.',
     x: { B: 'Maior risco de perda.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_NEO: QuestaoCompacta[] = [
   {
     s: 'Câncer de colo: adenocarcinoma',
     e: 'O adenocarcinoma do colo do útero:',
-    o: ['Origina-se no epitélio glandular endocervical e é menos detectado pela citologia', 'É o tipo mais comum', 'Não tem relação com HPV', 'Só ocorre na vulva'],
+    o: ['Origina-se do epitélio glandular; a citologia o detecta menos', 'É o tipo histológico mais comum no colo uterino', 'Não tem relação com a infecção persistente por HPV', 'Só ocorre na vulva, nunca no colo do útero'],
     g: 'A',
     c: 'O HPV 18 associa-se mais ao adenocarcinoma. Referência: Brasil. Instituto Nacional de Câncer. Diretrizes brasileiras para o rastreamento do câncer do colo do útero. 2ª ed. Rio de Janeiro: INCA, 2016.',
     x: { B: 'O mais comum é o escamoso.', C: 'Relaciona-se ao HPV.', D: 'Ocorre no colo.' },

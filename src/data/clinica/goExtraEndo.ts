@@ -5,7 +5,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Ciclo menstrual',
     e: 'O pico de LH que desencadeia a ovulação é precedido por:',
-    o: ['Elevação sustentada do estradiol produzido pelo folículo dominante, com feedback positivo', 'Queda do estradiol', 'Elevação da progesterona do corpo lúteo', 'Queda do FSH a zero'],
+    o: ['Estradiol alto e sustentado do folículo dominante', 'Queda do estradiol no meio do ciclo', 'Elevação da progesterona do corpo lúteo', 'Queda do FSH até níveis indetectáveis'],
     g: 'A',
     c: 'A ovulação ocorre cerca de 24 a 36 horas após o início do pico de LH. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'O feedback seria negativo.', C: 'Ocorre depois da ovulação.', D: 'O FSH também tem pico.' },
@@ -21,7 +21,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia: definição',
     e: 'Amenorreia primária é definida como ausência de menstruação:',
-    o: ['Aos 15 anos com caracteres sexuais secundários, ou aos 13 anos sem eles', 'Aos 11 anos', 'Por 3 meses após ciclos regulares', 'Após a menopausa'],
+    o: ['Aos 15 anos com caracteres sexuais, ou aos 13 sem eles', 'Aos 11 anos de idade, sem caracteres sexuais', 'Por 3 meses após ciclos antes regulares', 'Após a menopausa, em mulheres idosas'],
     g: 'A',
     c: 'Amenorreia secundária é a ausência por 3 meses em mulher com ciclos regulares ou 6 meses com ciclos irregulares. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Precoce demais.', C: 'É amenorreia secundária.', D: 'É fisiológico.' },
@@ -29,7 +29,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia: investigação',
     e: 'Na investigação de amenorreia secundária, os primeiros exames são:',
-    o: ['Beta-hCG, TSH e prolactina', 'Ressonância de sela para todas', 'Cariótipo', 'Laparoscopia'],
+    o: ['Beta-hCG, TSH e prolactina', 'Ressonância de sela túrcica em todas', 'Cariótipo com bandeamento em todas', 'Laparoscopia diagnóstica em todas'],
     g: 'A',
     c: 'Gravidez é a causa mais comum de amenorreia secundária. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Não é inicial.', C: 'Usado na amenorreia primária com suspeita.', D: 'Invasivo.' },
@@ -37,7 +37,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia: teste da progesterona',
     e: 'Mulher com amenorreia secundária, beta-hCG negativo, TSH e prolactina normais, apresenta sangramento após teste com progestagênio. Isso indica:',
-    o: ['Anovulação com estrogênio endógeno adequado e trato de saída pérvio', 'Hipoestrogenismo grave', 'Síndrome de Asherman', 'Falência ovariana'],
+    o: ['Anovulação com estrogênio adequado e trato pérvio', 'Hipoestrogenismo grave com atrofia genital', 'Síndrome de Asherman com sinéquias uterinas', 'Falência ovariana com FSH muito elevado'],
     g: 'A',
     c: 'É o padrão da síndrome dos ovários policísticos. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Não haveria sangramento.', C: 'Não haveria sangramento.', D: 'Não haveria sangramento com progestagênio.' },
@@ -45,7 +45,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia: teste do estrogênio e progestagênio',
     e: 'Paciente sem sangramento ao teste de progestagênio e também sem sangramento após estrogênio com progestagênio. A causa provável é:',
-    o: ['Fator uterino ou de trato de saída, como síndrome de Asherman', 'Anovulação crônica', 'Hipogonadismo hipogonadotrófico', 'Falência ovariana'],
+    o: ['Fator uterino ou de saída, como Asherman', 'Anovulação crônica com estrogênio adequado', 'Hipogonadismo hipogonadotrófico por causa central', 'Falência ovariana com hipoestrogenismo'],
     g: 'A',
     c: 'Se houvesse sangramento após estrogênio com progestagênio, a causa seria hipoestrogenismo, investigado pelo FSH. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sangraria ao progestagênio.', C: 'Sangraria com estrogênio.', D: 'Sangraria com estrogênio.' },
@@ -53,7 +53,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia: hipoestrogenismo',
     e: 'Na amenorreia com hipoestrogenismo, FSH elevado indica:',
-    o: ['Falência ovariana (causa ovariana)', 'Causa hipotalâmica', 'Causa hipofisária', 'Gravidez'],
+    o: ['Falência ovariana (causa ovariana)', 'Causa hipotalâmica funcional ou orgânica', 'Causa hipofisária, como adenoma', 'Gravidez inicial, com beta-hCG positivo'],
     g: 'A',
     c: 'FSH baixo ou normal indica causa central (hipotalâmica ou hipofisária). Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'FSH seria baixo.', C: 'FSH seria baixo.', D: 'Sem relação.' },
@@ -61,7 +61,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Insuficiência ovariana prematura',
     e: 'Mulher de 32 anos com amenorreia há 6 meses, fogachos e FSH elevado em duas dosagens. O diagnóstico é:',
-    o: ['Insuficiência ovariana prematura', 'Menopausa normal', 'Síndrome dos ovários policísticos', 'Hiperprolactinemia'],
+    o: ['Insuficiência ovariana prematura', 'Menopausa normal, esperada na idade', 'Síndrome dos ovários policísticos', 'Hiperprolactinemia por adenoma hipofisário'],
     g: 'A',
     c: 'Definida antes dos 40 anos, com FSH acima de 25 UI/L em duas medidas. Investiga-se cariótipo e pré-mutação do X frágil, e recomenda-se terapia hormonal até a idade da menopausa. Referência: European Society of Human Reproduction and Embryology. ESHRE Guideline: management of women with premature ovarian insufficiency. Hum Reprod. 2016;31(5):926-37.',
     x: { B: 'Ocorre por volta dos 50 anos.', C: 'FSH não fica elevado assim.', D: 'Haveria galactorreia e FSH baixo.' },
@@ -69,7 +69,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Síndrome dos ovários policísticos',
     e: 'Pelos critérios de Rotterdam, o diagnóstico de SOP exige:',
-    o: ['Dois de três: oligoanovulação, hiperandrogenismo clínico ou laboratorial e ovários policísticos (ou AMH elevado)', 'Os três critérios obrigatoriamente', 'Apenas ovários policísticos ao ultrassom', 'Apenas obesidade'],
+    o: ['2 de 3: oligoanovulação, hiperandrogenismo e ovário policístico', 'Os três critérios juntos, obrigatoriamente, em toda paciente', 'Apenas ovários policísticos ao ultrassom transvaginal', 'Apenas obesidade associada à resistência insulínica'],
     g: 'A',
     c: 'É preciso excluir outras causas, como hiperplasia adrenal, hiperprolactinemia e disfunção tireoidiana. Em adolescentes, o ultrassom não é usado para o diagnóstico. Referência: Teede HJ et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. Fertil Steril. 2023;120(4):767-93.',
     x: { B: 'Bastam dois.', C: 'Insuficiente.', D: 'Não é critério.' },
@@ -77,7 +77,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Síndrome dos ovários policísticos',
     e: 'Mulher com SOP sem desejo de gestação, com irregularidade menstrual e acne. O tratamento de primeira linha é:',
-    o: ['Anticoncepcional combinado, com mudanças de estilo de vida', 'Letrozol', 'Clomifeno', 'Cirurgia ovariana'],
+    o: ['Anticoncepcional combinado e estilo de vida', 'Letrozol para indução da ovulação', 'Clomifeno para indução da ovulação', 'Drilling ovariano por laparoscopia'],
     g: 'A',
     c: 'O anticoncepcional regula o ciclo, protege o endométrio e reduz o hiperandrogenismo. Referência: Teede HJ et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. Fertil Steril. 2023;120(4):767-93.',
     x: { B: 'Usado para indução de ovulação.', C: 'Usado para indução de ovulação.', D: 'Não é primeira linha.' },
@@ -93,7 +93,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Síndrome dos ovários policísticos',
     e: 'Uma complicação de longo prazo da anovulação crônica na SOP é:',
-    o: ['Hiperplasia e câncer de endométrio pela exposição estrogênica sem oposição de progesterona', 'Osteoporose precoce em todas', 'Câncer de colo', 'Insuficiência renal'],
+    o: ['Hiperplasia e câncer de endométrio por estrogênio sem oposição', 'Osteoporose precoce em todas as pacientes com SOP', 'Câncer de colo uterino por infecção persistente por HPV', 'Insuficiência renal crônica progressiva por nefropatia'],
     g: 'A',
     c: 'A proteção endometrial com progestagênio ou anticoncepcional é parte do tratamento. Referência: Teede HJ et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. Fertil Steril. 2023;120(4):767-93.',
     x: { B: 'Não é típico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -101,7 +101,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Hiperprolactinemia',
     e: 'Mulher com amenorreia, galactorreia e prolactina elevada. Antes de investigar tumor hipofisário, deve-se excluir:',
-    o: ['Gravidez, hipotireoidismo primário e uso de medicamentos como antipsicóticos e metoclopramida', 'Diabetes', 'Anemia', 'Hipertensão'],
+    o: ['Gravidez, hipotireoidismo e drogas como antipsicóticos', 'Diabetes mellitus descompensado, com cetoacidose recente', 'Anemia ferropriva e deficiência de vitamina B12 grave', 'Hipertensão arterial sistêmica de longa data, tratada'],
     g: 'A',
     c: 'A macroprolactina pode elevar a dosagem sem significado clínico. Referência: Melmed S et al. Diagnosis and treatment of hyperprolactinemia: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(2):273-88.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -109,7 +109,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Hiperprolactinemia',
     e: 'O tratamento de primeira escolha do prolactinoma sintomático é:',
-    o: ['Agonista dopaminérgico, preferencialmente cabergolina', 'Cirurgia transesfenoidal para todas', 'Radioterapia', 'Anticoncepcional isolado'],
+    o: ['Agonista dopaminérgico, de preferência cabergolina', 'Cirurgia transesfenoidal para todas as pacientes', 'Radioterapia hipofisária como primeira escolha', 'Anticoncepcional isolado, sem outro tratamento'],
     g: 'A',
     c: 'A cabergolina normaliza a prolactina e reduz o tumor na maioria dos casos. Referência: Melmed S et al. J Clin Endocrinol Metab. 2011;96(2):273-88.',
     x: { B: 'Reservada a falha ou intolerância.', C: 'Não é primeira linha.', D: 'Não trata o tumor.' },
@@ -117,7 +117,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia hipotalâmica',
     e: 'Atleta de 20 anos com amenorreia, baixo peso, FSH e LH baixos e estradiol baixo. A causa é:',
-    o: ['Amenorreia hipotalâmica funcional', 'Falência ovariana', 'SOP', 'Síndrome de Asherman'],
+    o: ['Amenorreia hipotalâmica funcional', 'Falência ovariana prematura', 'Síndrome dos ovários policísticos', 'Síndrome de Asherman por sinéquias'],
     g: 'A',
     c: 'Estresse, exercício excessivo e baixa ingestão calórica suprimem o GnRH. O tratamento envolve recuperar peso e reduzir a carga de treino. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'FSH seria alto.', C: 'Estrogênio seria normal.', D: 'Hormônios normais.' },
@@ -133,7 +133,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia primária',
     e: 'Adolescente com amenorreia primária, mamas e pelos normais, vagina curta em fundo cego e ausência de útero, com cariótipo 46,XX. O diagnóstico é:',
-    o: ['Síndrome de Mayer-Rokitansky-Küster-Hauser', 'Insensibilidade androgênica completa', 'Síndrome de Turner', 'Hímen imperfurado'],
+    o: ['Síndrome de Mayer-Rokitansky-Küster-Hauser', 'Insensibilidade androgênica completa', 'Síndrome de Turner clássica', 'Hímen imperfurado com hematocolpo'],
     g: 'A',
     c: 'Os ovários são normais. Associa-se a malformações renais. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'Cariótipo 46,XY e pelos escassos.', C: 'Sem desenvolvimento mamário.', D: 'Haveria útero e hematocolpo.' },
@@ -141,7 +141,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia primária',
     e: 'Adolescente com amenorreia primária, mamas desenvolvidas, pelos pubianos e axilares escassos, vagina em fundo cego, sem útero, e testosterona em nível masculino. O diagnóstico é:',
-    o: ['Síndrome de insensibilidade androgênica completa', 'Síndrome de Rokitansky', 'Síndrome de Turner', 'Hiperplasia adrenal congênita'],
+    o: ['Insensibilidade androgênica completa', 'Síndrome de Rokitansky, com útero rudimentar', 'Síndrome de Turner, com cariótipo 45,X', 'Hiperplasia adrenal congênita virilizante'],
     g: 'A',
     c: 'Cariótipo 46,XY; as gônadas são testículos e devem ser retiradas após a puberdade pelo risco de neoplasia. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'Pelos normais e testosterona feminina.', C: 'Sem mamas.', D: 'Haveria virilização.' },
@@ -157,7 +157,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia primária',
     e: 'Adolescente com dor pélvica cíclica, amenorreia primária, caracteres sexuais normais e abaulamento azulado no introito vaginal. O diagnóstico é:',
-    o: ['Hímen imperfurado com hematocolpo', 'Síndrome de Turner', 'Insensibilidade androgênica', 'Kallmann'],
+    o: ['Hímen imperfurado com hematocolpo', 'Síndrome de Turner, com cariótipo 45,X', 'Insensibilidade androgênica completa', 'Síndrome de Kallmann, com anosmia'],
     g: 'A',
     c: 'O tratamento é himenotomia. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sem caracteres sexuais.', C: 'Sem útero.', D: 'Sem desenvolvimento puberal.' },
@@ -165,7 +165,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Hiperandrogenismo',
     e: 'Mulher com hirsutismo e irregularidade menstrual. Para excluir hiperplasia adrenal congênita não clássica, dosa-se:',
-    o: ['17-hidroxiprogesterona pela manhã, na fase folicular', 'Cortisol noturno', 'Prolactina', 'Estradiol'],
+    o: ['17-hidroxiprogesterona de manhã, na fase folicular', 'Cortisol noturno em amostra de saliva noturna', 'Prolactina sérica dosada em jejum, pela manhã', 'Estradiol sérico dosado no início do ciclo menstrual'],
     g: 'A',
     c: 'Valores elevados exigem teste de estímulo com ACTH. Referência: Teede HJ et al. Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome. Fertil Steril. 2023;120(4):767-93.',
     x: { B: 'Investiga Cushing.', C: 'Investiga hiperprolactinemia.', D: 'Não diferencia.' },
@@ -173,7 +173,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Hiperandrogenismo',
     e: 'Virilização de instalação rápida (clitoromegalia, voz grave) com testosterona muito elevada sugere:',
-    o: ['Tumor produtor de androgênios ovariano ou adrenal', 'SOP', 'Hirsutismo idiopático', 'Uso de anticoncepcional'],
+    o: ['Tumor produtor de androgênios, ovariano ou adrenal', 'Síndrome dos ovários policísticos clássica', 'Hirsutismo idiopático de início na puberdade', 'Uso de anticoncepcional hormonal combinado'],
     g: 'A',
     c: 'Exige investigação com imagem. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'Instalação lenta e níveis moderados.', C: 'Sem virilização.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: definição',
     e: 'Infertilidade é definida como ausência de gestação após:',
-    o: ['12 meses de relações regulares sem contracepção, ou 6 meses se a mulher tiver 35 anos ou mais', '1 mês de tentativas', '5 anos de tentativas', 'Qualquer abortamento'],
+    o: ['12 meses de tentativas, ou 6 meses se ≥ 35 anos', '1 mês de tentativas regulares sem sucesso', '5 anos de tentativas regulares sem sucesso', 'Qualquer abortamento espontâneo anterior'],
     g: 'A',
     c: 'Mulheres acima de 40 anos ou com fatores de risco conhecidos devem ser avaliadas imediatamente. Referência: Practice Committee of the American Society for Reproductive Medicine. Fertility evaluation of infertile women: a committee opinion. Fertil Steril. 2021;116(5):1255-65.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Não é a definição.' },
@@ -189,7 +189,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: investigação',
     e: 'A investigação básica do casal infértil inclui:',
-    o: ['Espermograma, avaliação da ovulação, avaliação tubária (histerossalpingografia) e reserva ovariana', 'Apenas ultrassom da mulher', 'Laparoscopia como primeiro exame', 'Apenas dosagem de prolactina'],
+    o: ['Espermograma, ovulação, avaliação tubária e reserva ovariana', 'Apenas ultrassom pélvico da mulher, em qualquer fase', 'Laparoscopia como primeiro exame do casal infértil', 'Apenas dosagem de prolactina da mulher, em jejum'],
     g: 'A',
     c: 'O fator masculino contribui em cerca de metade dos casos. Referência: Practice Committee of the American Society for Reproductive Medicine. Fertility evaluation of infertile women: a committee opinion. Fertil Steril. 2021;116(5):1255-65.',
     x: { B: 'Insuficiente.', C: 'Não é o primeiro exame.', D: 'Insuficiente.' },
@@ -197,7 +197,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: reserva ovariana',
     e: 'O marcador hormonal mais usado para estimar reserva ovariana, que pode ser dosado em qualquer fase do ciclo, é:',
-    o: ['Hormônio antimülleriano (AMH)', 'Prolactina', 'TSH', 'Progesterona'],
+    o: ['Hormônio antimülleriano (AMH)', 'Prolactina sérica, dosada em jejum', 'TSH sérico, dosado em jejum', 'Progesterona sérica, na fase lútea'],
     g: 'A',
     c: 'A contagem de folículos antrais ao ultrassom também é usada. Referência: Practice Committee of the American Society for Reproductive Medicine. Fertility evaluation of infertile women: a committee opinion. Fertil Steril. 2021;116(5):1255-65.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Avalia ovulação.' },
@@ -205,7 +205,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: ovulação',
     e: 'Um exame simples para confirmar ovulação é:',
-    o: ['Progesterona sérica na fase lútea média (cerca de 7 dias antes da menstruação esperada)', 'FSH no 21º dia', 'Prolactina', 'Estradiol no primeiro dia'],
+    o: ['Progesterona sérica na fase lútea média', 'FSH sérico dosado no 21º dia do ciclo', 'Prolactina sérica dosada no início do ciclo', 'Estradiol sérico dosado no primeiro dia'],
     g: 'A',
     c: 'Valores acima de cerca de 3 ng/mL sugerem ovulação. Referência: Practice Committee of the American Society for Reproductive Medicine. Fertility evaluation of infertile women: a committee opinion. Fertil Steril. 2021;116(5):1255-65.',
     x: { B: 'Não confirma ovulação.', C: 'Sem relação.', D: 'Não confirma.' },
@@ -213,7 +213,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: tubas',
     e: 'O exame de primeira linha para avaliar permeabilidade tubária é:',
-    o: ['Histerossalpingografia', 'Ressonância', 'Tomografia', 'Colposcopia'],
+    o: ['Histerossalpingografia', 'Ressonância magnética de pelve', 'Tomografia computadorizada de pelve', 'Colposcopia com biópsia dirigida'],
     g: 'A',
     c: 'A laparoscopia com cromotubagem é o padrão-ouro, mas é invasiva. Referência: Practice Committee of the American Society for Reproductive Medicine. Fertility evaluation of infertile women: a committee opinion. Fertil Steril. 2021;116(5):1255-65.',
     x: { B: 'Não é primeira linha.', C: 'Sem indicação.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: hidrossalpinge',
     e: 'Mulher com hidrossalpinge bilateral que fará fertilização in vitro. A conduta recomendada antes da FIV é:',
-    o: ['Salpingectomia ou oclusão tubária, pois a hidrossalpinge reduz a taxa de gestação', 'Nenhuma', 'Antibiótico prolongado', 'Indução com clomifeno'],
+    o: ['Salpingectomia ou oclusão tubária antes da FIV', 'Nenhuma, pois não interfere na FIV', 'Antibiótico prolongado para esterilizar a tuba', 'Indução da ovulação com clomifeno'],
     g: 'A',
     c: 'O líquido tubário é embriotóxico e dificulta a implantação. Referência: Practice Committee of the ASRM. Role of tubal surgery in the era of assisted reproductive technology. Fertil Steril. 2021;115(5):1143-50.',
     x: { B: 'Reduz o sucesso da FIV.', C: 'Não resolve.', D: 'Não resolve.' },
@@ -237,7 +237,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: FIV',
     e: 'A síndrome de hiperestimulação ovariana grave caracteriza-se por:',
-    o: ['Aumento ovariano, ascite, hemoconcentração e risco de trombose', 'Hipotensão por hemorragia sem ascite', 'Ovários pequenos', 'Hipercoagulabilidade inexistente'],
+    o: ['Ovários aumentados, ascite, hemoconcentração e trombose', 'Hipotensão por hemorragia, sem ascite', 'Ovários pequenos, com folículos atrésicos', 'Ausência de hipercoagulabilidade associada'],
     g: 'A',
     c: 'Ocorre após estímulo ovariano, especialmente com hCG; a gestação agrava o quadro. Referência: Practice Committee of the ASRM. Prevention of moderate and severe ovarian hyperstimulation syndrome: a guideline. Fertil Steril. 2024;121(2):230-45.',
     x: { B: 'Não é o quadro.', C: 'Os ovários aumentam.', D: 'Há risco trombótico.' },
@@ -245,7 +245,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: idade',
     e: 'O principal fator que reduz a fertilidade feminina é:',
-    o: ['Idade, pela redução quantitativa e qualitativa dos oócitos', 'Uso prévio de anticoncepcional oral', 'Altura', 'Tipo sanguíneo'],
+    o: ['Idade, pela perda quantitativa e qualitativa de oócitos', 'Uso prévio de anticoncepcional oral por muitos anos', 'Altura da mulher, medida em centímetros ao exame', 'Tipo sanguíneo da mulher ou do parceiro, no sistema ABO'],
     g: 'A',
     c: 'A queda acelera após os 35 anos. Referência: Practice Committee of the American Society for Reproductive Medicine. Fertility evaluation of infertile women: a committee opinion. Fertil Steril. 2021;116(5):1255-65.',
     x: { B: 'Não reduz a fertilidade futura.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Menopausa: definição',
     e: 'Menopausa é diagnosticada:',
-    o: ['Retrospectivamente, após 12 meses de amenorreia, em geral por volta dos 50 anos', 'Após 1 mês de amenorreia', 'Pela dosagem de FSH em qualquer mulher com ciclos regulares', 'Aos 40 anos obrigatoriamente'],
+    o: ['Após 12 meses de amenorreia, por volta dos 50 anos', 'Após 1 mês de amenorreia, em qualquer idade', 'Pelo FSH dosado em mulher com ciclos regulares', 'Aos 40 anos de idade, obrigatoriamente'],
     g: 'A',
     c: 'Antes dos 40 anos, fala-se em insuficiência ovariana prematura. Referência: The 2022 Hormone Therapy Position Statement of The North American Menopause Society. Menopause. 2022;29(7):767-94.',
     x: { B: 'Insuficiente.', C: 'Não é necessário dosar.', D: 'Idade incorreta.' },
@@ -261,7 +261,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Menopausa: terapia hormonal',
     e: 'Mulher de 52 anos, com útero, com fogachos intensos e sem contraindicações. A terapia hormonal adequada é:',
-    o: ['Estrogênio associado a progestagênio, para proteger o endométrio', 'Estrogênio isolado', 'Progestagênio isolado como primeira escolha', 'Testosterona'],
+    o: ['Estrogênio mais progestagênio, protegendo o endométrio', 'Estrogênio isolado, em dose baixa e contínua', 'Progestagênio isolado, como primeira escolha', 'Testosterona isolada, em dose fisiológica diária'],
     g: 'A',
     c: 'Mulheres histerectomizadas podem usar estrogênio isolado. Referência: The 2022 Hormone Therapy Position Statement of The North American Menopause Society. Menopause. 2022;29(7):767-94.',
     x: { B: 'Risco de câncer de endométrio.', C: 'Menos eficaz para fogachos.', D: 'Não é indicação.' },
@@ -269,7 +269,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Menopausa: contraindicações',
     e: 'É contraindicação à terapia hormonal da menopausa:',
-    o: ['Câncer de mama atual ou prévio', 'Fogachos', 'Idade de 51 anos', 'Osteopenia'],
+    o: ['Câncer de mama atual ou prévio', 'Fogachos de intensidade moderada', 'Idade de 51 anos, na menopausa', 'Osteopenia na densitometria óssea'],
     g: 'A',
     c: 'Outras: tromboembolismo, doença coronariana ou AVC, doença hepática ativa e sangramento genital não esclarecido. Referência: The 2022 Hormone Therapy Position Statement of The North American Menopause Society. Menopause. 2022;29(7):767-94.',
     x: { B: 'É indicação.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -277,7 +277,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Menopausa: janela de oportunidade',
     e: 'A terapia hormonal tem perfil de risco e benefício mais favorável quando iniciada:',
-    o: ['Antes dos 60 anos ou em até 10 anos da menopausa', 'Após os 70 anos', 'Mais de 20 anos após a menopausa', 'Somente após infarto'],
+    o: ['Antes dos 60 anos ou até 10 anos da menopausa', 'Após os 70 anos de idade, em qualquer caso', 'Mais de 20 anos depois da menopausa', 'Somente depois de um infarto do miocárdio'],
     g: 'A',
     c: 'Início tardio associa-se a maior risco cardiovascular. Referência: The 2022 Hormone Therapy Position Statement of The North American Menopause Society. Menopause. 2022;29(7):767-94.',
     x: { B: 'Desfavorável.', C: 'Desfavorável.', D: 'Contraindicada.' },
@@ -285,7 +285,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Menopausa: síndrome geniturinária',
     e: 'Mulher na pós-menopausa com secura vaginal e dispareunia, sem sintomas vasomotores. O tratamento de escolha é:',
-    o: ['Estrogênio vaginal em baixa dose ou hidratantes e lubrificantes', 'Terapia hormonal sistêmica obrigatória', 'Antibiótico', 'Cirurgia'],
+    o: ['Estrogênio vaginal em baixa dose ou lubrificantes', 'Terapia hormonal sistêmica, obrigatoriamente', 'Antibiótico por via oral por longo prazo', 'Cirurgia reconstrutora do assoalho pélvico'],
     g: 'A',
     c: 'O estrogênio vaginal em baixa dose tem mínima absorção sistêmica. Referência: The 2022 Hormone Therapy Position Statement of The North American Menopause Society. Menopause. 2022;29(7):767-94.',
     x: { B: 'Não é obrigatória.', C: 'Sem infecção.', D: 'Sem indicação.' },
@@ -293,7 +293,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Menopausa: fogachos sem hormônio',
     e: 'Para mulher com contraindicação a hormônios e fogachos intensos, uma opção não hormonal com evidência é:',
-    o: ['ISRS ou IRSN em dose baixa, como paroxetina ou venlafaxina', 'Fitoestrógenos como primeira linha comprovada', 'Antibióticos', 'Diuréticos'],
+    o: ['ISRS ou IRSN em baixa dose, como paroxetina ou venlafaxina', 'Fitoestrógenos, como primeira linha comprovada', 'Antibióticos de uso prolongado, em dose baixa', 'Diuréticos tiazídicos, em dose baixa diária'],
     g: 'A',
     c: 'Gabapentina e fezolinetanto (onde disponível) são outras opções. Referência: The 2023 Nonhormone Therapy Position Statement of The North American Menopause Society. Menopause. 2023;30(6):573-90.',
     x: { B: 'Evidência fraca.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Ciclo menstrual: dismenorreia primária',
     e: 'A dismenorreia primária deve-se principalmente a:',
-    o: ['Produção aumentada de prostaglandinas endometriais', 'Endometriose', 'Mioma', 'Infecção'],
+    o: ['Produção aumentada de prostaglandinas no endométrio', 'Endometriose pélvica profunda com aderências', 'Mioma uterino submucoso com sangramento', 'Infecção pélvica crônica por clamídia'],
     g: 'A',
     c: 'O tratamento inicial é com anti-inflamatórios não esteroides ou anticoncepcional hormonal. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Causa de dismenorreia secundária.', C: 'Causa secundária.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Síndrome pré-menstrual',
     e: 'A síndrome pré-menstrual caracteriza-se por sintomas físicos e emocionais que:',
-    o: ['Surgem na fase lútea e melhoram com o início da menstruação', 'Persistem durante todo o ciclo', 'Surgem apenas na fase folicular', 'Ocorrem só após a menopausa'],
+    o: ['Surgem na fase lútea e melhoram com a menstruação', 'Persistem durante todo o ciclo menstrual', 'Surgem apenas na fase folicular do ciclo', 'Ocorrem somente após a menopausa'],
     g: 'A',
     c: 'A forma grave é o transtorno disfórico pré-menstrual. Referência: Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO). Tratado de Ginecologia. Rio de Janeiro: Elsevier, 2019.',
     x: { B: 'Sugere outro transtorno.', C: 'Não é o padrão.', D: 'Sem ciclo menstrual.' },
@@ -325,7 +325,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'SOP: metabolismo',
     e: 'Em mulheres com SOP, deve-se rastrear:',
-    o: ['Intolerância à glicose, dislipidemia e risco cardiovascular', 'Apenas câncer de colo', 'Apenas osteoporose', 'Apenas hipertireoidismo'],
+    o: ['Intolerância à glicose, dislipidemia e risco cardiovascular', 'Apenas câncer de colo uterino, pelo Papanicolau', 'Apenas osteoporose, pela densitometria óssea anual', 'Apenas hipertireoidismo, pela dosagem do TSH'],
     g: 'A',
     c: 'A resistência insulínica é frequente, independentemente do peso. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'Insuficiente.', C: 'Não é o foco.', D: 'Não é o foco.' },
@@ -333,7 +333,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'SOP: hirsutismo',
     e: 'Para hirsutismo na SOP sem desejo de gestar, após anticoncepcional por 6 meses sem resposta, pode-se associar:',
-    o: ['Antiandrogênio, como espironolactona, com contracepção eficaz', 'Testosterona', 'Corticoide em alta dose', 'Clomifeno'],
+    o: ['Antiandrogênio, como espironolactona, com contracepção', 'Testosterona em dose baixa por via oral', 'Corticoide em dose alta por tempo prolongado', 'Clomifeno para indução da ovulação'],
     g: 'A',
     c: 'Antiandrogênios são teratogênicos para fetos masculinos. Referência: Teede HJ et al. Fertil Steril. 2023;120(4):767-93.',
     x: { B: 'Pioraria.', C: 'Sem indicação.', D: 'Indução de ovulação.' },
@@ -341,7 +341,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Hiperprolactinemia: gestação',
     e: 'Mulher com microprolactinoma que engravida em uso de cabergolina. Em geral, a conduta é:',
-    o: ['Suspender o agonista dopaminérgico e acompanhar sintomas, como cefaleia e alteração visual', 'Manter dose dobrada', 'Indicar cirurgia imediata', 'Interromper a gestação'],
+    o: ['Suspender o agonista e vigiar cefaleia e visão', 'Manter a cabergolina com dose dobrada', 'Indicar cirurgia hipofisária imediata', 'Interromper a gestação por segurança'],
     g: 'A',
     c: 'O risco de crescimento significativo do microadenoma na gestação é baixo. Referência: Melmed S et al. J Clin Endocrinol Metab. 2011;96(2):273-88.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -349,7 +349,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Amenorreia: Sheehan e Asherman',
     e: 'Mulher com amenorreia após curetagem por restos placentários, com hormônios normais e sem sangramento após estrogênio e progestagênio. O diagnóstico é:',
-    o: ['Síndrome de Asherman', 'Síndrome de Sheehan', 'SOP', 'Falência ovariana'],
+    o: ['Síndrome de Asherman', 'Síndrome de Sheehan', 'Síndrome dos ovários policísticos', 'Falência ovariana prematura'],
     g: 'A',
     c: 'O diagnóstico e o tratamento são histeroscópicos. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'Teria alterações hormonais e falha de lactação.', C: 'Sangraria com progestagênio.', D: 'FSH seria elevado.' },
@@ -357,7 +357,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Ciclo menstrual: anovulação',
     e: 'Ciclos anovulatórios são frequentes:',
-    o: ['Nos primeiros anos após a menarca e na perimenopausa', 'Somente aos 25 anos', 'Apenas durante a gestação', 'Nunca'],
+    o: ['Nos primeiros anos pós-menarca e na perimenopausa', 'Somente aos 25 anos de idade, na vida adulta', 'Apenas durante a gestação e a lactação', 'Nunca ocorrem em mulheres saudáveis, em nenhuma fase'],
     g: 'A',
     c: 'Explicam irregularidades menstruais nesses extremos da vida reprodutiva. Referência: Speroff L, Fritz MA. Endocrinologia Ginecológica Clínica e Infertilidade. 8ª ed. Rio de Janeiro: Revinter, 2015.',
     x: { B: 'Não é a fase típica.', C: 'Não há ciclos.', D: 'Ocorrem.' },
@@ -365,7 +365,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: endometriose',
     e: 'Mulher infértil com endometriose mínima confirmada na laparoscopia. Uma medida com benefício para fertilidade é:',
-    o: ['Excisão ou ablação das lesões durante a laparoscopia', 'Anticoncepcional contínuo por anos antes de tentar', 'Análogo de GnRH por 6 meses antes de tentar naturalmente', 'Nada'],
+    o: ['Excisão ou ablação das lesões na laparoscopia', 'Anticoncepcional contínuo por anos antes de tentar', 'Análogo de GnRH por 6 meses antes de tentar', 'Nenhuma medida cirúrgica ou medicamentosa'],
     g: 'A',
     c: 'Supressão hormonal prévia não melhora a fertilidade espontânea. Referência: Becker CM et al. ESHRE guideline: endometriosis. Hum Reprod Open. 2022;2022(2):hoac009.',
     x: { B: 'Impede a gestação sem benefício.', C: 'Sem benefício.', D: 'Há benefício.' },
@@ -373,7 +373,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: inseminação',
     e: 'A inseminação intrauterina é indicada principalmente em:',
-    o: ['Fator masculino leve, infertilidade sem causa aparente e fator cervical, com tubas pérvias', 'Obstrução tubária bilateral', 'Azoospermia sem doador', 'Insuficiência ovariana'],
+    o: ['Fator masculino leve ou causa inexplicada, com tubas pérvias', 'Obstrução tubária bilateral comprovada na histerossalpingografia', 'Azoospermia, sem uso de sêmen de doador', 'Insuficiência ovariana prematura, com FSH elevado'],
     g: 'A',
     c: 'Com tubas obstruídas, indica-se FIV. Referência: Practice Committee of the American Society for Reproductive Medicine. Fertility evaluation of infertile women: a committee opinion. Fertil Steril. 2021;116(5):1255-65.',
     x: { B: 'Exige tubas pérvias.', C: 'Exige espermatozoides.', D: 'Exige oócitos próprios ou doação.' },
@@ -389,7 +389,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Menopausa: osteoporose',
     e: 'Para mulher na pós-menopausa com osteoporose e sem sintomas vasomotores, o tratamento de primeira linha é:',
-    o: ['Bisfosfonato, com cálcio e vitamina D adequados', 'Terapia hormonal obrigatória', 'Testosterona', 'Nenhum'],
+    o: ['Bisfosfonato, com cálcio e vitamina D', 'Terapia hormonal, obrigatoriamente', 'Testosterona em dose fisiológica', 'Nenhum tratamento, apenas observação'],
     g: 'A',
     c: 'A terapia hormonal pode ser usada em mulheres jovens com sintomas, mas não é primeira escolha isolada para osteoporose. Referência: Eastell R et al. Pharmacological management of osteoporosis in postmenopausal women: an Endocrine Society guideline update. J Clin Endocrinol Metab. 2020;105(3):dgaa048.',
     x: { B: 'Não é obrigatória.', C: 'Sem indicação.', D: 'Exige tratamento.' },
@@ -397,7 +397,7 @@ export const GO_EXTRA_ENDO: QuestaoCompacta[] = [
   {
     s: 'Infertilidade: FIV',
     e: 'A fertilização in vitro está indicada principalmente em:',
-    o: ['Fator tubário grave, fator masculino importante e falha de tratamentos menos complexos', 'Primeira tentativa em casal jovem sem investigação', 'Mulher com 25 anos tentando há 2 meses', 'Casal sem desejo de gestação'],
+    o: ['Fator tubário grave, masculino importante ou falha de tratamentos simples', 'Primeira tentativa em casal jovem, sem nenhuma investigação prévia', 'Mulher de 25 anos que tenta engravidar há apenas 2 meses', 'Casal sem desejo de gestação no momento atual, por opção'],
     g: 'A',
     c: 'A ICSI é usada no fator masculino grave. Referência: Practice Committee of the American Society for Reproductive Medicine. Fertility evaluation of infertile women: a committee opinion. Fertil Steril. 2021;116(5):1255-65.',
     x: { B: 'Sem investigação.', C: 'Ainda não é infertilidade.', D: 'Sem indicação.' },

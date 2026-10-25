@@ -5,7 +5,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Resfriado comum',
     e: 'Criança de 3 anos com coriza, obstrução nasal, tosse e febre baixa há 3 dias, em bom estado geral. A conduta é:',
-    o: ['Sintomáticos, lavagem nasal com soro e orientação de sinais de alarme', 'Amoxicilina', 'Antitussígeno com codeína', 'Descongestionante oral'],
+    o: ['Sintomáticos, lavagem nasal e orientação de sinais de alarme', 'Amoxicilina oral, por 7 dias, em dose habitual', 'Antitussígeno com codeína, por 5 dias, em dose habitual', 'Descongestionante oral, por 5 dias, em dose habitual'],
     g: 'A',
     c: 'Antibiótico não acelera a resolução e causa efeitos adversos. Descongestionantes e antitussígenos são contraindicados em crianças pequenas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Etiologia viral.', C: 'Contraindicado.', D: 'Contraindicado em crianças pequenas.' },
@@ -13,7 +13,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Resfriado: duração',
     e: 'A tosse do resfriado comum em crianças pode durar:',
-    o: ['Até 2 a 3 semanas, sem significar infecção bacteriana', 'No máximo 1 dia', 'Sempre mais de 2 meses', 'Nunca mais de 3 dias'],
+    o: ['Até 2 a 3 semanas, sem indicar infecção bacteriana', 'No máximo 1 dia, com resolução espontânea', 'Sempre mais de 2 meses, em todas as crianças', 'Nunca mais de 3 dias, em crianças saudáveis'],
     g: 'A',
     c: 'Secreção nasal amarelada ou esverdeada também pode ocorrer em infecção viral. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Pode durar mais.', C: 'Não é a regra.', D: 'Pode durar mais.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite média aguda: diagnóstico',
     e: 'O achado à otoscopia mais específico de otite média aguda é:',
-    o: ['Abaulamento moderado a intenso da membrana timpânica', 'Hiperemia isolada da membrana', 'Cerume', 'Membrana translúcida'],
+    o: ['Abaulamento moderado a intenso da membrana timpânica', 'Hiperemia isolada da membrana timpânica, sem abaulamento', 'Cerume obstruindo o conduto auditivo externo', 'Membrana timpânica translúcida, de aspecto normal'],
     g: 'A',
     c: 'Hiperemia isolada pode ocorrer com choro e febre. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'Pouco específica.', C: 'Sem relação.', D: 'Achado normal.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite média aguda: tratamento',
     e: 'Criança de 1 ano com otite média aguda bilateral e febre. O tratamento de primeira escolha é:',
-    o: ['Amoxicilina em dose alta (80 a 90 mg/kg/dia)', 'Ciprofloxacino', 'Azitromicina como primeira escolha', 'Apenas observação'],
+    o: ['Amoxicilina em dose alta (80-90 mg/kg/dia)', 'Ciprofloxacino oral, por 10 dias, em dose habitual', 'Azitromicina oral, por 5 dias, como primeira escolha', 'Apenas observação, sem antibiótico, por 72 horas'],
     g: 'A',
     c: 'Em menores de 2 anos, a duração recomendada é de 10 dias. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'Sem indicação.', C: 'Não é primeira linha.', D: 'Antibiótico indicado nessa idade com bilateralidade.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite média aguda: observação',
     e: 'Criança de 3 anos com otite unilateral leve, otalgia leve e febre abaixo de 39 °C. Uma conduta aceitável é:',
-    o: ['Observação por 48 a 72 horas com analgesia, garantindo reavaliação', 'Antibiótico intravenoso', 'Timpanocentese obrigatória', 'Corticoide'],
+    o: ['Observação por 48-72 h com analgesia e reavaliação', 'Antibiótico intravenoso, em regime de internação', 'Timpanocentese obrigatória, para coleta de cultura', 'Corticoide oral, por 5 dias, em dose habitual'],
     g: 'A',
     c: 'A analgesia é parte essencial do tratamento. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'Excessivo.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite: falha',
     e: 'Criança com otite média em uso de amoxicilina há 72 horas, sem melhora. A conduta é:',
-    o: ['Trocar para amoxicilina com clavulanato', 'Manter por mais 2 semanas', 'Suspender o antibiótico', 'Usar gotas otológicas apenas'],
+    o: ['Trocar para amoxicilina com clavulanato', 'Manter a amoxicilina por mais 2 semanas', 'Suspender o antibiótico, por falta de resposta', 'Usar apenas gotas otológicas, por 7 dias'],
     g: 'A',
     c: 'Ceftriaxona IM por 3 dias é alternativa. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Insuficiente.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite média com efusão',
     e: 'Criança assintomática com líquido na orelha média após otite, sem sinais inflamatórios. A conduta é:',
-    o: ['Observação por 3 meses, com avaliação auditiva se persistir', 'Antibiótico prolongado', 'Corticoide', 'Cirurgia imediata'],
+    o: ['Observação por 3 meses; audiometria se persistir', 'Antibiótico prolongado, por 3 meses, em dose baixa', 'Corticoide oral, por 5 dias, em dose habitual', 'Cirurgia imediata, com colocação de tubos'],
     g: 'A',
     c: 'Tubos de ventilação são indicados se persistente com perda auditiva ou riscos. Referência: Rosenfeld RM et al. Clinical Practice Guideline: Otitis Media with Effusion (Update). Otolaryngol Head Neck Surg. 2016;154(1 Suppl):S1-41.',
     x: { B: 'Sem benefício.', C: 'Sem benefício.', D: 'Sem indicação inicial.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite externa',
     e: 'Criança após natação com otalgia intensa à tração do pavilhão auricular e conduto edemaciado. O tratamento é:',
-    o: ['Gotas otológicas com antibiótico (e corticoide)', 'Amoxicilina oral', 'Nenhum', 'Lavagem com água'],
+    o: ['Gotas otológicas com antibiótico e corticoide', 'Amoxicilina oral, por 7 dias, em dose habitual', 'Nenhum tratamento, apenas observação clínica', 'Lavagem do conduto com água, em abundância'],
     g: 'A',
     c: 'Agentes comuns: Pseudomonas e Staphylococcus. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é primeira linha.', C: 'Exige tratamento.', D: 'Pioraria.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Sinusite bacteriana',
     e: 'Criança com coriza e tosse diurna há 12 dias, sem melhora. O diagnóstico mais provável é:',
-    o: ['Rinossinusite bacteriana aguda (sintomas persistentes por mais de 10 dias)', 'Resfriado comum de evolução típica', 'Rinite alérgica', 'Corpo estranho nasal'],
+    o: ['Rinossinusite bacteriana (sintomas por mais de 10 dias)', 'Resfriado comum de evolução típica, com melhora', 'Rinite alérgica, com espirros em salva e prurido', 'Corpo estranho nasal, com secreção unilateral'],
     g: 'A',
     c: 'Também: piora após melhora inicial, ou início grave com febre alta e secreção purulenta por 3 dias. Referência: Wald ER et al. Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years. Pediatrics. 2013;132(1):e262-80.',
     x: { B: 'Deveria ter melhorado.', C: 'Sem esse padrão.', D: 'Seria unilateral e fétido.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Sinusite: complicação',
     e: 'Criança com sinusite, edema palpebral, dor à movimentação ocular, proptose e redução da acuidade visual. O diagnóstico é:',
-    o: ['Celulite orbitária (pós-septal)', 'Conjuntivite', 'Celulite pré-septal simples', 'Alergia'],
+    o: ['Celulite orbitária (pós-septal)', 'Conjuntivite viral, com hiperemia e secreção', 'Celulite pré-septal simples, sem proptose', 'Alergia periocular, com prurido e edema'],
     g: 'A',
     c: 'Exige internação, tomografia e antibiótico intravenoso. Referência: Wald ER et al. Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years. Pediatrics. 2013;132(1):e262-80.',
     x: { B: 'Sem proptose.', C: 'Sem dor à movimentação ou proptose.', D: 'Sem relação.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Faringite: escore',
     e: 'Criança de 10 anos com febre, exsudato amigdaliano, adenomegalia cervical anterior dolorosa e ausência de tosse. A conduta é:',
-    o: ['Teste rápido ou cultura para estreptococo do grupo A antes de tratar', 'Antibiótico sem teste em todos', 'Nenhuma investigação', 'Tratar como viral sem teste'],
+    o: ['Teste rápido ou cultura para EBHGA antes de tratar', 'Antibiótico sem teste, em todas as crianças', 'Nenhuma investigação, apenas sintomáticos', 'Tratar como viral, sem realizar nenhum teste'],
     g: 'A',
     c: 'Os critérios de Centor e McIsaac aumentam a probabilidade, mas a confirmação reduz uso desnecessário de antibiótico. Referência: Shulman ST et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the IDSA. Clin Infect Dis. 2012;55(10):e86-102.',
     x: { B: 'Aumenta uso desnecessário.', C: 'Probabilidade alta.', D: 'Pode ser bacteriana.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Faringite: idade',
     e: 'Faringite estreptocócica é incomum em crianças:',
-    o: ['Menores de 3 anos', 'De 5 a 15 anos', 'Escolares', 'Adolescentes'],
+    o: ['Menores de 3 anos de idade', 'De 5 a 15 anos de idade', 'Em escolares, de modo geral', 'Em adolescentes, de modo geral'],
     g: 'A',
     c: 'Abaixo de 3 anos, febre reumática também é rara. Referência: Shulman ST et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the IDSA. Clin Infect Dis. 2012;55(10):e86-102.',
     x: { B: 'Faixa de pico.', C: 'Faixa comum.', D: 'Faixa comum.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Amigdalectomia',
     e: 'Indicação clássica de amigdalectomia é:',
-    o: ['Apneia obstrutiva do sono por hipertrofia adenoamigdaliana', 'Uma faringite por ano', 'Halitose isolada', 'Resfriados frequentes'],
+    o: ['Apneia obstrutiva do sono por hipertrofia adenoamigdaliana', 'Uma única faringite por ano, bem tratada, sem complicações', 'Halitose, como queixa isolada, sem outros sintomas', 'Resfriados frequentes, sem outras complicações associadas'],
     g: 'A',
     c: 'Faringites recorrentes graves também podem indicar (critérios de Paradise). Referência: Mitchell RB et al. Clinical Practice Guideline: Tonsillectomy in Children (Update). Otolaryngol Head Neck Surg. 2019;160(1 Suppl):S1-42.',
     x: { B: 'Insuficiente.', C: 'Não é indicação isolada.', D: 'Não é indicação.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Rinite alérgica',
     e: 'Criança com espirros em salva, prurido nasal, coriza aquosa e obstrução nasal crônica, com olheiras e prega nasal transversa. O tratamento de primeira linha é:',
-    o: ['Corticoide intranasal e controle ambiental', 'Antibiótico', 'Descongestionante nasal contínuo', 'Corticoide oral prolongado'],
+    o: ['Corticoide intranasal e controle ambiental', 'Antibiótico oral, por 10 dias, em dose habitual', 'Descongestionante nasal contínuo, por tempo prolongado', 'Corticoide oral prolongado, por 30 dias'],
     g: 'A',
     c: 'Anti-histamínicos de segunda geração são opções. Referência: Brożek JL et al. Allergic Rhinitis and its Impact on Asthma (ARIA) guidelines: 2016 revision. J Allergy Clin Immunol. 2017;140(4):950-8.',
     x: { B: 'Sem infecção.', C: 'Causa rinite medicamentosa.', D: 'Efeitos sistêmicos.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Corpo estranho nasal',
     e: 'Criança de 3 anos com secreção nasal unilateral, fétida e sanguinolenta. A hipótese é:',
-    o: ['Corpo estranho nasal', 'Sinusite bilateral', 'Rinite alérgica', 'Resfriado'],
+    o: ['Corpo estranho nasal', 'Sinusite bilateral, com secreção purulenta', 'Rinite alérgica, com espirros em salva', 'Resfriado comum, com coriza hialina bilateral'],
     g: 'A',
     c: 'A remoção resolve. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Seria bilateral.', C: 'Bilateral e aquosa.', D: 'Bilateral.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Conjuntivite',
     e: 'Criança com conjuntivite bilateral com secreção purulenta e otite média simultânea. O agente mais provável é:',
-    o: ['Haemophilus influenzae não tipável', 'Adenovírus', 'Clamídia', 'Alergia'],
+    o: ['Haemophilus influenzae não tipável', 'Adenovírus, com febre faringoconjuntival', 'Chlamydia trachomatis, com conjuntivite de inclusão', 'Alergia ocular, com prurido e secreção filante'],
     g: 'A',
     c: 'Síndrome conjuntivite-otite; trata-se com antibiótico sistêmico. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Secreção aquosa.', C: 'Recém-nascido.', D: 'Sem secreção purulenta.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Adenoide',
     e: 'Criança com respiração bucal, roncos, fácies adenoideana e voz anasalada. A hipótese é:',
-    o: ['Hipertrofia de adenoide', 'Sinusite aguda', 'Rinite viral', 'Corpo estranho'],
+    o: ['Hipertrofia de adenoide', 'Sinusite aguda, com secreção purulenta', 'Rinite viral, com coriza e febre', 'Corpo estranho nasal, com secreção fétida'],
     g: 'A',
     c: 'Pode causar apneia do sono e otites de repetição. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Quadro agudo.', C: 'Agudo.', D: 'Unilateral.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Gengivoestomatite herpética',
     e: 'Criança de 2 anos com febre, recusa alimentar, gengivas edemaciadas e sangrantes e várias úlceras orais. O diagnóstico e a conduta são:',
-    o: ['Gengivoestomatite herpética primária; hidratação, analgesia e aciclovir se precoce', 'Herpangina; antibiótico', 'Candidíase; nistatina', 'Escarlatina; penicilina'],
+    o: ['Gengivoestomatite herpética; hidratação, analgesia, aciclovir precoce', 'Herpangina; antibiótico oral por 7 dias, e alta', 'Candidíase oral; nistatina em suspensão por 7 dias', 'Escarlatina; penicilina benzatina em dose única, e alta'],
     g: 'A',
     c: 'A desidratação é a principal complicação. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Lesões posteriores, sem gengivite.', C: 'Placas brancas.', D: 'Exantema e faringite.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Herpangina',
     e: 'Criança com febre e vesículas e úlceras no palato mole, úvula e pilares amigdalianos. O agente é:',
-    o: ['Enterovírus (Coxsackie A)', 'Herpes simples', 'Estreptococo', 'Candida'],
+    o: ['Enterovírus (Coxsackie A)', 'Herpes simples tipo 1, com gengivoestomatite', 'Estreptococo beta-hemolítico do grupo A', 'Candida albicans, com placas brancas na boca'],
     g: 'A',
     c: 'O tratamento é sintomático. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Lesões anteriores com gengivite.', C: 'Sem vesículas.', D: 'Placas brancas.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'IVAS: febre',
     e: 'Criança com IVAS e febre de 38,5 °C em bom estado geral. Sobre o antitérmico, é correto afirmar:',
-    o: ['Visa conforto; não é necessário baixar a febre em toda situação', 'Deve ser alternado em todos os casos', 'Previne convulsão febril', 'É contraindicado'],
+    o: ['Visa conforto; não precisa baixar a febre sempre', 'Deve ser alternado em todos os casos, de 4/4 horas', 'Previne a convulsão febril, quando dado de rotina', 'É contraindicado, em crianças com febre'],
     g: 'A',
     c: 'Paracetamol ou dipirona; ibuprofeno a partir de 6 meses. Referência: Sullivan JE, Farrar HC. Fever and antipyretic use in children. Pediatrics. 2011;127(3):580-7.',
     x: { B: 'Não é recomendado de rotina.', C: 'Não previne.', D: 'Pode ser usado.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite: etiologia',
     e: 'Os principais agentes bacterianos da otite média aguda são:',
-    o: ['Streptococcus pneumoniae, Haemophilus influenzae não tipável e Moraxella catarrhalis', 'Pseudomonas e Staphylococcus', 'Mycoplasma e Chlamydia', 'Estreptococo do grupo B'],
+    o: ['S. pneumoniae, H. influenzae não tipável e Moraxella', 'Pseudomonas aeruginosa e Staphylococcus aureus, em geral', 'Mycoplasma pneumoniae e Chlamydia pneumoniae, em geral', 'Estreptococo do grupo B e Escherichia coli, em geral'],
     g: 'A',
     c: 'Moraxella e Haemophilus podem produzir betalactamase. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'Típicos de otite externa.', C: 'Raros.', D: 'Neonatal.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite: fatores de risco',
     e: 'É fator de risco para otite média aguda recorrente:',
-    o: ['Frequentar creche, exposição ao tabaco e uso de chupeta', 'Aleitamento materno exclusivo', 'Vacinação pneumocócica', 'Idade acima de 10 anos'],
+    o: ['Frequentar creche, exposição ao tabaco e uso de chupeta', 'Aleitamento materno exclusivo, até os 6 meses', 'Vacinação pneumocócica, em dia, para a idade', 'Idade acima de 10 anos, com boa imunidade'],
     g: 'A',
     c: 'O aleitamento materno é protetor. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'É protetor.', C: 'É protetor.', D: 'Menos comum.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite: otorreia',
     e: 'Criança com otite média e otorreia purulenta após perfuração espontânea. A conduta é:',
-    o: ['Antibiótico, pois a otorreia indica otite média aguda; gotas otológicas são úteis', 'Lavagem com água', 'Nada', 'Cirurgia imediata'],
+    o: ['Antibiótico, pois a otorreia indica OMA; gotas ajudam', 'Lavagem do conduto com água, em abundância', 'Nada, pois a perfuração cicatriza sozinha', 'Cirurgia imediata, com reparo da perfuração'],
     g: 'A',
     c: 'A perfuração costuma fechar espontaneamente. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'Contraindicada.', C: 'Exige tratamento.', D: 'Sem indicação.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite: analgesia',
     e: 'No tratamento da otite média aguda, a analgesia:',
-    o: ['Deve ser sempre oferecida, com paracetamol ou ibuprofeno', 'É desnecessária', 'Deve ser feita com gotas de anestésico em perfurações', 'Substitui o antibiótico em todos'],
+    o: ['Deve ser sempre oferecida: paracetamol ou ibuprofeno', 'É desnecessária, pois a dor cede com o antibiótico', 'Deve ser feita com anestésico em gotas, nas perfurações', 'Substitui o antibiótico em todos os casos'],
     g: 'A',
     c: 'A dor é o principal sintoma. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'É necessária.', C: 'Contraindicado na perfuração.', D: 'Não em todos.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite: prevenção',
     e: 'Medida que reduz otite média aguda é:',
-    o: ['Vacinação pneumocócica e contra influenza, e aleitamento materno', 'Antibiótico profilático em todos', 'Evitar banho', 'Uso de chupeta'],
+    o: ['Vacinas pneumocócica e contra influenza, e aleitamento', 'Antibiótico profilático em todas as crianças', 'Evitar o banho, para não molhar o ouvido', 'Uso de chupeta, para reduzir a dor'],
     g: 'A',
     c: 'Também: evitar exposição ao tabaco. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'Não é rotina.', C: 'Sem relação.', D: 'Aumenta risco.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Sinusite: tratamento',
     e: 'Criança com rinossinusite bacteriana aguda. O tratamento de primeira escolha é:',
-    o: ['Amoxicilina, com ou sem clavulanato', 'Ciprofloxacino', 'Azitromicina como primeira escolha', 'Apenas descongestionante'],
+    o: ['Amoxicilina, com ou sem clavulanato', 'Ciprofloxacino oral, por 10 dias, em dose habitual', 'Azitromicina oral, por 5 dias, como primeira escolha', 'Apenas descongestionante, por 5 dias, sem antibiótico'],
     g: 'A',
     c: 'Usar clavulanato se uso recente de antibiótico, creche ou gravidade. Referência: Wald ER et al. Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years. Pediatrics. 2013;132(1):e262-80.',
     x: { B: 'Sem indicação.', C: 'Alta resistência.', D: 'Insuficiente.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Sinusite: seios',
     e: 'Os seios paranasais presentes já ao nascimento são:',
-    o: ['Etmoidais e maxilares', 'Frontais', 'Esfenoidais desenvolvidos', 'Nenhum'],
+    o: ['Etmoidais e maxilares', 'Frontais, já desenvolvidos ao nascimento', 'Esfenoidais, já desenvolvidos ao nascimento', 'Nenhum dos seios está presente ao nascimento'],
     g: 'A',
     c: 'Os frontais se desenvolvem a partir dos 6 a 8 anos. Referência: Wald ER et al. Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years. Pediatrics. 2013;132(1):e262-80.',
     x: { B: 'Tardios.', C: 'Tardios.', D: 'Há seios.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Celulite pré-septal',
     e: 'Criança com edema e eritema palpebral, sem proptose, sem dor à movimentação ocular e acuidade normal. O diagnóstico e a conduta são:',
-    o: ['Celulite pré-septal; antibiótico oral e reavaliação', 'Celulite orbitária; cirurgia imediata', 'Conjuntivite viral; nada', 'Alergia; corticoide'],
+    o: ['Celulite pré-septal; antibiótico oral e reavaliação', 'Celulite orbitária; cirurgia imediata, sob anestesia', 'Conjuntivite viral; nada além de lubrificantes', 'Alergia periocular; corticoide oral por 5 dias'],
     g: 'A',
     c: 'A diferenciação com celulite orbitária é essencial. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Haveria proptose e dor.', C: 'Há sinais de celulite.', D: 'Há infecção.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Faringite: complicações',
     e: 'Complicação supurativa da faringite estreptocócica é:',
-    o: ['Abscesso periamigdaliano', 'Febre reumática', 'Glomerulonefrite', 'Coreia'],
+    o: ['Abscesso periamigdaliano', 'Febre reumática, não supurativa', 'Glomerulonefrite aguda, não supurativa', 'Coreia de Sydenham, não supurativa'],
     g: 'A',
     c: 'Febre reumática e glomerulonefrite são complicações não supurativas. Referência: Shulman ST et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the IDSA. Clin Infect Dis. 2012;55(10):e86-102.',
     x: { B: 'Não supurativa.', C: 'Não supurativa.', D: 'Não supurativa.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Faringite: contactantes',
     e: 'Sobre contatos assintomáticos de criança com faringite estreptocócica, é correto afirmar:',
-    o: ['Não precisam de teste ou tratamento de rotina', 'Devem receber penicilina benzatina', 'Devem ser afastados por 30 dias', 'Devem fazer cultura semanal'],
+    o: ['Não precisam de teste nem de tratamento de rotina', 'Devem receber penicilina benzatina, em dose única', 'Devem ser afastados por 30 dias, da escola', 'Devem fazer cultura semanal, por 4 semanas'],
     g: 'A',
     c: 'Exceção em situações de surtos ou histórico de febre reumática. Referência: Shulman ST et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the IDSA. Clin Infect Dis. 2012;55(10):e86-102.',
     x: { B: 'Sem indicação.', C: 'Excessivo.', D: 'Sem indicação.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Portador de estreptococo',
     e: 'Criança assintomática com cultura positiva para estreptococo do grupo A entre episódios. O mais provável é:',
-    o: ['Estado de portador crônico, que não exige tratamento na maioria dos casos', 'Infecção ativa', 'Febre reumática', 'Imunodeficiência'],
+    o: ['Portador crônico, em geral sem necessidade de tratamento', 'Infecção ativa, que exige tratamento imediato, por 10 dias', 'Febre reumática, em fase subclínica, sem sintomas', 'Imunodeficiência, com infecções bacterianas recorrentes'],
     g: 'A',
     c: 'Portadores têm baixo risco de complicações e transmissão. Referência: Shulman ST et al. Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the IDSA. Clin Infect Dis. 2012;55(10):e86-102.',
     x: { B: 'Sem sintomas.', C: 'Sem critérios.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Mononucleose: diagnóstico',
     e: 'O exame que apoia o diagnóstico de mononucleose em adolescente é:',
-    o: ['Linfocitose com linfócitos atípicos e anticorpos heterófilos ou sorologia para EBV', 'Teste rápido para estreptococo', 'Hemocultura', 'Radiografia de seios'],
+    o: ['Linfocitose atípica e anticorpos heterófilos ou sorologia para EBV', 'Teste rápido para estreptococo, colhido na orofaringe', 'Hemocultura, colhida no pico febril, em dois frascos', 'Radiografia de seios da face, em duas incidências'],
     g: 'A',
     c: 'O teste heterófilo pode ser negativo em crianças pequenas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Pode coexistir, mas não diagnostica.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'IVAS: antibiótico',
     e: 'Uma das maiores consequências do uso inadequado de antibióticos em IVAS virais é:',
-    o: ['Resistência bacteriana e efeitos adversos sem benefício', 'Cura mais rápida', 'Prevenção de pneumonia', 'Prevenção de otite'],
+    o: ['Resistência bacteriana e efeitos adversos, sem benefício', 'Cura mais rápida do quadro viral, em poucos dias', 'Prevenção de pneumonia, nos meses seguintes', 'Prevenção de otite média, nos meses seguintes'],
     g: 'A',
     c: 'O uso racional é prioridade de saúde pública. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não acelera.', C: 'Não previne.', D: 'Não previne de forma relevante.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite: timpanostomia',
     e: 'A indicação de tubos de ventilação (timpanostomia) inclui:',
-    o: ['Otite média com efusão bilateral persistente por 3 meses ou mais com perda auditiva, ou otite aguda recorrente com efusão', 'Uma otite aguda', 'Otite externa', 'Cerume'],
+    o: ['Efusão bilateral ≥ 3 meses com perda auditiva, ou OMA recorrente', 'Uma única otite aguda, em criança saudável e vacinada', 'Otite externa, após natação, em época de calor intenso', 'Cerume impactado, em conduto auditivo estreito e tortuoso'],
     g: 'A',
     c: 'A decisão envolve audiometria e avaliação do desenvolvimento. Referência: Rosenfeld RM et al. Clinical Practice Guideline: Tympanostomy Tubes in Children (Update). Otolaryngol Head Neck Surg. 2022;166(1 Suppl):S1-55.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Rinite: complicações',
     e: 'A rinite alérgica não tratada associa-se a:',
-    o: ['Piora do controle da asma, sinusites e distúrbios do sono', 'Diabetes', 'Anemia', 'Hipertensão'],
+    o: ['Piora do controle da asma, sinusites e distúrbios do sono', 'Diabetes mellitus, de início na adolescência', 'Anemia ferropriva, por perda sanguínea nasal', 'Hipertensão arterial, por uso de descongestionantes'],
     g: 'A',
     c: 'O conceito de via aérea única relaciona rinite e asma. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Adenite cervical',
     e: 'Criança com linfonodo cervical unilateral aumentado, quente, doloroso e com febre. O agente mais comum e o tratamento são:',
-    o: ['Staphylococcus aureus ou estreptococo; antibiótico com cobertura para esses agentes (como cefalexina)', 'Micobactéria atípica; isoniazida', 'EBV; aciclovir', 'Toxoplasma; sulfa'],
+    o: ['S. aureus ou estreptococo; cefalexina cobre esses agentes', 'Micobactéria atípica; isoniazida oral por 6 meses', 'EBV; aciclovir oral, por 7 dias, em dose habitual', 'Toxoplasma; sulfadiazina e pirimetamina por 4 semanas'],
     g: 'A',
     c: 'Flutuação indica abscesso e drenagem. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem sinais inflamatórios intensos.', C: 'Sem tratamento antiviral.', D: 'Quadro diferente.' },
@@ -341,7 +341,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Linfadenopatia: sinais de alarme',
     e: 'Sinal de alarme em linfonodomegalia cervical na criança é:',
-    o: ['Linfonodo endurecido, aderido, supraclavicular ou com sintomas B (febre, sudorese, perda de peso)', 'Linfonodo móvel menor que 1 cm', 'Linfonodo doloroso após IVAS', 'Linfonodo occipital pequeno'],
+    o: ['Linfonodo duro, aderido, supraclavicular ou com sintomas B', 'Linfonodo móvel, menor que 1 cm, bilateral', 'Linfonodo doloroso, após IVAS, com sinais flogísticos', 'Linfonodo occipital pequeno, sem outros sintomas'],
     g: 'A',
     c: 'Exige investigação de neoplasia. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Benigno.', C: 'Reativo.', D: 'Benigno.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Otite: recém-nascido',
     e: 'Otite média aguda em lactente menor de 2 meses deve ser:',
-    o: ['Avaliada com mais cuidado, pela possibilidade de germes neonatais e infecção sistêmica', 'Tratada sempre só com observação', 'Ignorada', 'Tratada com quinolona'],
+    o: ['Avaliada com mais cuidado: germes neonatais e infecção sistêmica', 'Tratada sempre só com observação, por 72 horas em casa', 'Ignorada, por ser um achado comum na idade, sem relevância', 'Tratada com quinolona oral, por 10 dias, em dose habitual'],
     g: 'A',
     c: 'Considerar avaliação para sepse conforme o estado geral. Referência: Lieberthal AS et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964-99.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Contraindicada.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'IVAS: descongestionantes',
     e: 'Descongestionantes nasais tópicos em crianças pequenas:',
-    o: ['Devem ser evitados, pelo risco de intoxicação e efeitos sistêmicos', 'São recomendados por 30 dias', 'Curam a infecção', 'Previnem otite'],
+    o: ['Devem ser evitados: risco de intoxicação e efeitos sistêmicos', 'São recomendados por 30 dias, em crianças pequenas', 'Curam a infecção viral, em poucos dias', 'Previnem a otite média aguda, nos meses seguintes'],
     g: 'A',
     c: 'A nafazolina pode causar bradicardia, hipotermia e depressão do SNC. Referência: Sociedade Brasileira de Pediatria. Tratado de Pediatria. 5ª ed. Barueri: Manole, 2022.',
     x: { B: 'Contraindicado.', C: 'Não curam.', D: 'Não previnem.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Febre: sinais de alarme',
     e: 'Criança febril com IVAS. Sinal de alarme que indica avaliação imediata é:',
-    o: ['Petéquias, letargia, dificuldade respiratória ou rigidez de nuca', 'Coriza', 'Tosse leve', 'Espirros'],
+    o: ['Petéquias, letargia, dificuldade respiratória ou rigidez de nuca', 'Coriza hialina, de intensidade leve a moderada', 'Tosse leve, de predomínio noturno, sem febre', 'Espirros em salva, de intensidade leve, sem febre'],
     g: 'A',
     c: 'Podem indicar doença bacteriana grave. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem gravidade.', C: 'Sem gravidade.', D: 'Sem gravidade.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Sinusite: frontal',
     e: 'Adolescente com sinusite frontal, cefaleia intensa e edema mole na fronte. A hipótese de complicação é:',
-    o: ['Tumor de Pott (osteomielite frontal com abscesso subperiosteal)', 'Enxaqueca', 'Celulite pré-septal', 'Furúnculo'],
+    o: ['Tumor de Pott (osteomielite frontal com abscesso subperiosteal)', 'Enxaqueca, com aura visual, fotofobia e vômitos', 'Celulite pré-septal, com edema palpebral e febre', 'Furúnculo, com pústula localizada na região da fronte'],
     g: 'A',
     c: 'Pode associar-se a abscesso intracraniano; exige tomografia e tratamento intensivo. Referência: Wald ER et al. Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years. Pediatrics. 2013;132(1):e262-80.',
     x: { B: 'Sem edema frontal.', C: 'Localização diferente.', D: 'Superficial.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Influenza',
     e: 'Criança com febre alta súbita, mialgia, cefaleia e tosse em época de influenza. Para criança saudável de 7 anos sem complicações, o oseltamivir:',
-    o: ['Pode ser considerado se iniciado nas primeiras 48 horas, sendo indicado nos grupos de risco', 'É obrigatório em todos', 'Deve ser iniciado só após 7 dias', 'É contraindicado'],
+    o: ['Pode ser considerado nas primeiras 48 h; indicado nos grupos de risco', 'É obrigatório em todas as crianças com influenza, sem exceção', 'Deve ser iniciado somente após 7 dias de sintomas, em todos', 'É contraindicado em qualquer criança com influenza, por toxicidade'],
     g: 'A',
     c: 'Grupos de risco incluem menores de 5 anos e doentes crônicos. Referência: Brasil. Ministério da Saúde. Guia de Manejo e Tratamento de Influenza 2023. Brasília: MS, 2023.',
     x: { B: 'Não é obrigatório.', C: 'Perde benefício.', D: 'Não é contraindicado.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_IVAS: QuestaoCompacta[] = [
   {
     s: 'Rinite alérgica: anti-histamínicos',
     e: 'Anti-histamínicos de primeira geração (como dexclorfeniramina) em crianças:',
-    o: ['Causam sedação e prejuízo cognitivo, preferindo-se os de segunda geração', 'São os mais seguros', 'Não têm efeitos adversos', 'Curam a rinite'],
+    o: ['Causam sedação e prejuízo cognitivo; preferir os de 2ª geração', 'São os mais seguros, em crianças pequenas', 'Não têm efeitos adversos, em nenhuma faixa etária', 'Curam a rinite alérgica, de forma definitiva'],
     g: 'A',
     c: 'Os de segunda geração incluem loratadina, desloratadina e cetirizina. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O oposto.', C: 'Têm efeitos.', D: 'Controlam sintomas.' },

@@ -5,7 +5,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe viral',
     e: 'Criança de 2 anos com coriza há 2 dias, febre baixa, rouquidão, tosse ladrante e estridor inspiratório que piora à noite. O diagnóstico é:',
-    o: ['Laringotraqueobronquite viral (crupe)', 'Epiglotite', 'Traqueíte bacteriana', 'Corpo estranho'],
+    o: ['Laringotraqueobronquite viral (crupe)', 'Epiglotite aguda, por Haemophilus', 'Traqueíte bacteriana, secundária', 'Corpo estranho de via aérea'],
     g: 'A',
     c: 'O vírus parainfluenza é o principal agente. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Teria toxemia, sialorreia e evolução rápida sem tosse ladrante.', C: 'Teria toxemia e falha à adrenalina.', D: 'Início súbito após engasgo.' },
@@ -13,7 +13,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe viral: tratamento',
     e: 'Criança com crupe leve, estridor apenas ao chorar. O tratamento é:',
-    o: ['Dexametasona oral em dose única (0,15 a 0,6 mg/kg)', 'Antibiótico', 'Adrenalina nebulizada obrigatória', 'Intubação'],
+    o: ['Dexametasona oral em dose única', 'Antibiótico oral por 7 dias, em dose habitual', 'Adrenalina nebulizada, repetida em todos os casos', 'Intubação orotraqueal imediata, para proteger a via aérea'],
     g: 'A',
     c: 'O corticoide reduz gravidade, retorno e internação. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Etiologia viral.', C: 'Reservada a estridor em repouso.', D: 'Sem indicação.' },
@@ -21,7 +21,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe viral: adrenalina',
     e: 'Criança com crupe moderado, estridor em repouso e tiragem. Além do corticoide, indica-se:',
-    o: ['Adrenalina nebulizada, com observação de 2 a 4 horas pelo efeito rebote', 'Antibiótico intravenoso', 'Sedativo', 'Broncodilatador beta-2'],
+    o: ['Adrenalina nebulizada; observar 2-4 h pelo rebote', 'Antibiótico intravenoso, de amplo espectro', 'Sedativo, para reduzir a agitação', 'Broncodilatador beta-2, inalatório'],
     g: 'A',
     c: 'O efeito da adrenalina dura cerca de 2 horas. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Sem infecção bacteriana.', C: 'Contraindicado.', D: 'Sem benefício.' },
@@ -29,7 +29,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe viral: radiografia',
     e: 'Na radiografia cervical anteroposterior do crupe, o achado clássico é:',
-    o: ['Sinal da torre (estreitamento subglótico em ponta de lápis)', 'Sinal do polegar', 'Alargamento do espaço pré-vertebral', 'Hiperinsuflação unilateral'],
+    o: ['Sinal da torre (estreitamento subglótico)', 'Sinal do polegar, na epiglote', 'Alargamento do espaço pré-vertebral', 'Hiperinsuflação unilateral, com desvio'],
     g: 'A',
     c: 'A radiografia não é necessária para o diagnóstico típico. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Típico de epiglotite.', C: 'Típico de abscesso retrofaríngeo.', D: 'Sugere corpo estranho.' },
@@ -37,7 +37,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Epiglotite',
     e: 'Criança de 4 anos não vacinada com febre alta súbita, aspecto toxêmico, sialorreia, voz abafada, sentada inclinada para a frente com pescoço estendido. A hipótese é:',
-    o: ['Epiglotite aguda', 'Crupe viral', 'Laringomalácia', 'Asma'],
+    o: ['Epiglotite aguda', 'Crupe viral, de evolução gradual', 'Laringomalácia, desde o nascimento', 'Asma, com sibilância e tosse'],
     g: 'A',
     c: 'Agente clássico: Haemophilus influenzae tipo b. A vacinação reduziu muito os casos. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Tem tosse ladrante e evolução mais lenta.', C: 'Congênita.', D: 'Sibilância expiratória.' },
@@ -45,7 +45,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Epiglotite: conduta',
     e: 'Diante de suspeita de epiglotite, a conduta correta é:',
-    o: ['Manter a criança calma, evitar examinar a orofaringe e garantir via aérea em ambiente controlado, com equipe experiente', 'Abaixar a língua para ver a epiglote', 'Deitar a criança para radiografia', 'Colher sangue de imediato'],
+    o: ['Manter calma, não examinar a orofaringe e garantir a via aérea', 'Abaixar a língua para visualizar a epiglote com a espátula', 'Deitar a criança para fazer a radiografia lateral do pescoço', 'Colher sangue de imediato, para hemograma e culturas'],
     g: 'A',
     c: 'Manipulações podem precipitar obstrução total. Após via aérea, ceftriaxona. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Pode precipitar obstrução.', C: 'Pode piorar a obstrução.', D: 'Agitação piora.' },
@@ -53,7 +53,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Epiglotite: radiografia',
     e: 'Na radiografia cervical em perfil da epiglotite, o achado típico é:',
-    o: ['Sinal do polegar (epiglote edemaciada)', 'Sinal da torre', 'Pneumatocele', 'Nível hidroaéreo'],
+    o: ['Sinal do polegar (epiglote edemaciada)', 'Sinal da torre, na região subglótica', 'Pneumatocele, no parênquima pulmonar', 'Nível hidroaéreo, em seios da face'],
     g: 'A',
     c: 'Não se deve atrasar o manejo da via aérea para radiografia. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Típico de crupe.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -61,7 +61,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Traqueíte bacteriana',
     e: 'Criança com crupe há 3 dias evolui com febre alta, toxemia, secreção purulenta e sem resposta à adrenalina. A hipótese é:',
-    o: ['Traqueíte bacteriana', 'Crupe leve', 'Laringomalácia', 'Asma'],
+    o: ['Traqueíte bacteriana', 'Crupe leve, de evolução benigna', 'Laringomalácia, de início tardio', 'Asma, com sibilância persistente'],
     g: 'A',
     c: 'Agente mais comum: Staphylococcus aureus. Exige antibiótico e frequentemente intubação. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não explica a toxemia.', C: 'Sem toxemia.', D: 'Sem toxemia.' },
@@ -69,7 +69,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Laringomalácia',
     e: 'Lactente de 2 meses com estridor inspiratório desde as primeiras semanas, que piora ao chorar, mamar e em decúbito dorsal, com bom ganho de peso. A hipótese é:',
-    o: ['Laringomalácia', 'Epiglotite', 'Crupe', 'Corpo estranho'],
+    o: ['Laringomalácia', 'Epiglotite, com febre alta e toxemia', 'Crupe viral, com tosse ladrante', 'Corpo estranho laríngeo, de início súbito'],
     g: 'A',
     c: 'É a causa mais comum de estridor congênito; costuma resolver até 18 a 24 meses. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Quadro agudo e toxêmico.', C: 'Agudo e com coriza.', D: 'Agudo.' },
@@ -77,7 +77,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Laringomalácia: sinais de alarme',
     e: 'Na laringomalácia, indicação de avaliação cirúrgica (supraglotoplastia) é:',
-    o: ['Baixo ganho de peso, apneias, cianose ou desconforto respiratório importante', 'Estridor ao chorar', 'Estridor que melhora em prona', 'Idade de 3 meses'],
+    o: ['Baixo ganho de peso, apneias, cianose ou desconforto grave', 'Estridor apenas durante o choro, com bom ganho de peso', 'Estridor que melhora em posição prona, sem outros sintomas', 'Idade de 3 meses, como critério isolado de indicação'],
     g: 'A',
     c: 'O diagnóstico é confirmado por laringoscopia flexível. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Achado esperado.', C: 'Achado esperado.', D: 'Não é critério.' },
@@ -85,7 +85,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Abscesso retrofaríngeo',
     e: 'Criança de 3 anos com febre, dor de garganta, disfagia, sialorreia, rigidez cervical e torcicolo. A radiografia lateral mostra alargamento do espaço pré-vertebral. O diagnóstico é:',
-    o: ['Abscesso retrofaríngeo', 'Crupe', 'Epiglotite', 'Meningite'],
+    o: ['Abscesso retrofaríngeo', 'Crupe viral, com tosse ladrante', 'Epiglotite aguda, com sialorreia', 'Meningite bacteriana, com rigidez de nuca'],
     g: 'A',
     c: 'A tomografia com contraste confirma; tratamento com antibiótico e drenagem se necessário. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem esse achado.', C: 'Sinal do polegar.', D: 'Sem esse achado radiológico.' },
@@ -93,7 +93,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Corpo estranho de via aérea alta',
     e: 'Criança de 18 meses com estridor e tosse súbitos após brincar com peças pequenas, sem febre. A conduta é:',
-    o: ['Suspeitar de corpo estranho e encaminhar para broncoscopia', 'Tratar como crupe e dar alta', 'Antibiótico', 'Corticoide oral apenas'],
+    o: ['Suspeitar de corpo estranho; encaminhar à broncoscopia', 'Tratar como crupe e dar alta com orientações', 'Prescrever antibiótico, por via oral', 'Dar corticoide oral e observar em casa'],
     g: 'A',
     c: 'A história de engasgo é o dado mais importante. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Pode atrasar o diagnóstico.', C: 'Sem infecção.', D: 'Insuficiente.' },
@@ -101,7 +101,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Obstrução total',
     e: 'Criança de 3 anos engasgada, consciente, sem conseguir tossir, falar ou respirar. A manobra indicada é:',
-    o: ['Compressões abdominais (manobra de Heimlich)', 'Tapas nas costas em decúbito dorsal', 'Aguardar', 'Varredura às cegas com o dedo'],
+    o: ['Compressões abdominais (manobra de Heimlich)', 'Tapas nas costas, em decúbito dorsal', 'Aguardar a expulsão espontânea, observando', 'Varredura às cegas com o dedo, na boca'],
     g: 'A',
     c: 'Em lactentes, usam-se 5 golpes nas costas e 5 compressões torácicas. Referência: American Heart Association. 2020 AHA Guidelines for CPR and ECC: Pediatric Basic and Advanced Life Support. Circulation. 2020;142(16 Suppl 2):S469-523.',
     x: { B: 'Posição incorreta.', C: 'Risco de morte.', D: 'Contraindicada.' },
@@ -109,7 +109,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Obstrução em lactente',
     e: 'Lactente de 6 meses engasgado, consciente, sem conseguir chorar. A conduta é:',
-    o: ['Alternar 5 golpes nas costas e 5 compressões torácicas', 'Compressões abdominais', 'Varredura às cegas', 'Aguardar'],
+    o: ['Alternar 5 golpes nas costas e 5 compressões torácicas', 'Compressões abdominais, como no adulto', 'Varredura às cegas, com o dedo na boca', 'Aguardar a expulsão espontânea, com observação'],
     g: 'A',
     c: 'Compressões abdominais são evitadas em lactentes pelo risco de lesão de órgãos. Referência: American Heart Association. 2020 AHA Guidelines for CPR and ECC: Pediatric Basic and Advanced Life Support. Circulation. 2020;142(16 Suppl 2):S469-523.',
     x: { B: 'Contraindicadas em lactentes.', C: 'Contraindicada.', D: 'Risco de morte.' },
@@ -117,7 +117,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Difteria',
     e: 'Criança não vacinada com faringite, febre baixa, membrana acinzentada aderente nas amígdalas que sangra ao ser removida e pescoço edemaciado. O diagnóstico e o tratamento são:',
-    o: ['Difteria; soro antidiftérico e antibiótico (penicilina ou eritromicina)', 'Mononucleose; corticoide', 'Faringite estreptocócica; amoxicilina apenas', 'Candidíase; nistatina'],
+    o: ['Difteria; soro antidiftérico e antibiótico', 'Mononucleose; corticoide por via oral e repouso', 'Faringite estreptocócica; apenas amoxicilina oral', 'Candidíase oral; nistatina por 7 dias, em suspensão'],
     g: 'A',
     c: 'Complicações: miocardite e neurite. É de notificação compulsória. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Membrana não aderente e sem pescoço taurino.', C: 'Sem membrana aderente.', D: 'Placas que saem facilmente.' },
@@ -133,7 +133,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Estridor: localização',
     e: 'Estridor predominantemente inspiratório sugere obstrução em:',
-    o: ['Região supraglótica ou glótica (extratorácica)', 'Brônquios intratorácicos', 'Bronquíolos', 'Alvéolos'],
+    o: ['Supraglótica ou glótica (extratorácica)', 'Brônquios intratorácicos, de grande calibre', 'Bronquíolos terminais, de pequeno calibre', 'Alvéolos, em região periférica do pulmão'],
     g: 'A',
     c: 'Estridor bifásico sugere obstrução subglótica ou traqueal; sibilos expiratórios, vias intratorácicas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Causa sibilos expiratórios.', C: 'Causa sibilos.', D: 'Não causa estridor.' },
@@ -141,7 +141,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Estenose subglótica',
     e: 'Lactente ex-prematuro, intubado por semanas, com estridor bifásico progressivo após a alta. A hipótese é:',
-    o: ['Estenose subglótica adquirida', 'Laringomalácia', 'Crupe viral', 'Asma'],
+    o: ['Estenose subglótica adquirida', 'Laringomalácia, de início neonatal', 'Crupe viral recorrente, de repetição', 'Asma, com sibilância expiratória'],
     g: 'A',
     c: 'Diagnóstico por laringoscopia e broncoscopia. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Estridor inspiratório e precoce.', C: 'Agudo.', D: 'Sibilância.' },
@@ -149,7 +149,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Anafilaxia com estridor',
     e: 'Criança com estridor, edema de lábios e urticária minutos após comer amendoim. A primeira medida é:',
-    o: ['Adrenalina intramuscular 0,01 mg/kg (máximo 0,3 a 0,5 mg)', 'Anti-histamínico oral', 'Corticoide oral', 'Observação'],
+    o: ['Adrenalina IM 0,01 mg/kg (máximo 0,3 a 0,5 mg)', 'Anti-histamínico oral, em dose habitual', 'Corticoide oral, em dose habitual', 'Observação clínica por algumas horas'],
     g: 'A',
     c: 'Adrenalina IM na face anterolateral da coxa. Referência: Cardona V et al. World Allergy Organization Anaphylaxis Guidance 2020. World Allergy Organ J. 2020;13(10):100472.',
     x: { B: 'Adjuvante.', C: 'Adjuvante.', D: 'Risco de morte.' },
@@ -157,7 +157,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: escore de Westley',
     e: 'O escore de Westley no crupe avalia:',
-    o: ['Nível de consciência, cianose, estridor, entrada de ar e retrações', 'Febre e leucocitose', 'Peso e altura', 'Frequência cardíaca apenas'],
+    o: ['Consciência, cianose, estridor, entrada de ar e retrações', 'Febre, leucocitose e proteína C reativa elevada', 'Peso, altura e perímetro cefálico, em curvas', 'Frequência cardíaca e saturação, de forma isolada'],
     g: 'A',
     c: 'Orienta a gravidade e a conduta. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Não faz parte.', C: 'Sem relação.', D: 'Insuficiente.' },
@@ -165,7 +165,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: internação',
     e: 'Indicação de internação no crupe é:',
-    o: ['Estridor em repouso persistente após adrenalina e corticoide, hipoxemia ou alteração de consciência', 'Tosse ladrante isolada', 'Rouquidão', 'Febre baixa'],
+    o: ['Estridor persistente em repouso, hipoxemia ou torpor', 'Tosse ladrante, como achado isolado, sem estridor', 'Rouquidão, como achado isolado, sem estridor', 'Febre baixa, como achado isolado, sem estridor'],
     g: 'A',
     c: 'Também: necessidade de mais de duas doses de adrenalina. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Pode ir para casa.', C: 'Pode ir para casa.', D: 'Pode ir para casa.' },
@@ -173,7 +173,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Paralisia de cordas vocais',
     e: 'Recém-nascido com estridor e choro fraco após cirurgia cardíaca. A hipótese é:',
-    o: ['Paralisia de corda vocal por lesão do nervo laríngeo recorrente', 'Laringomalácia', 'Crupe', 'Epiglotite'],
+    o: ['Paralisia de prega vocal, por lesão do nervo laríngeo recorrente', 'Laringomalácia, de início neonatal, com estridor inspiratório', 'Crupe viral, com tosse ladrante e febre baixa', 'Epiglotite aguda, com febre alta, sialorreia e toxemia'],
     g: 'A',
     c: 'O nervo laríngeo recorrente esquerdo contorna o arco aórtico. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não relacionada à cirurgia.', C: 'Agudo infeccioso.', D: 'Infeccioso.' },
@@ -181,7 +181,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Hemangioma subglótico',
     e: 'Lactente de 3 meses com estridor progressivo e hemangioma cutâneo em barba. A hipótese é:',
-    o: ['Hemangioma subglótico', 'Laringomalácia', 'Crupe', 'Corpo estranho'],
+    o: ['Hemangioma subglótico', 'Laringomalácia, de início neonatal', 'Crupe viral recorrente', 'Corpo estranho laríngeo, aspirado'],
     g: 'A',
     c: 'O tratamento de escolha é propranolol. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não progressivo com hemangioma.', C: 'Agudo.', D: 'História diferente.' },
@@ -189,7 +189,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Epiglotite: vacina',
     e: 'A principal medida que reduziu a incidência de epiglotite em crianças foi:',
-    o: ['Vacinação contra Haemophilus influenzae tipo b', 'BCG', 'Vacina contra hepatite B', 'Antibiótico profilático'],
+    o: ['Vacinação contra Haemophilus influenzae tipo b', 'Vacina BCG, aplicada ao nascer, na maternidade', 'Vacina contra hepatite B, aplicada em 3 doses', 'Antibiótico profilático, dado a todos os contatos'],
     g: 'A',
     c: 'Hoje, outros agentes, como estreptococos, também podem causar. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem indicação.' },
@@ -197,7 +197,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: oxigênio e posição',
     e: 'Na criança com crupe, uma medida geral importante é:',
-    o: ['Manter a criança calma, no colo dos pais, evitando procedimentos que causem choro', 'Deitar e separar dos pais', 'Colher vários exames', 'Abaixador de língua'],
+    o: ['Manter a criança calma, no colo dos pais, sem choro', 'Deitar e separar a criança dos pais', 'Colher vários exames de sangue, na admissão', 'Usar abaixador de língua, para examinar a garganta'],
     g: 'A',
     c: 'O choro piora a obstrução. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Aumenta a agitação.', C: 'Desnecessário e piora.', D: 'Desnecessário.' },
@@ -205,7 +205,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: epidemiologia',
     e: 'O crupe viral acomete principalmente crianças de:',
-    o: ['6 meses a 3 anos', 'Recém-nascidos', '10 a 15 anos', 'Adultos'],
+    o: ['6 meses a 3 anos', 'Recém-nascidos, nas primeiras semanas', '10 a 15 anos, na adolescência', 'Adultos, de meia-idade'],
     g: 'A',
     c: 'A subglote estreita das crianças pequenas explica a gravidade. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Raro.', C: 'Raro.', D: 'Raro.' },
@@ -213,7 +213,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: corticoide',
     e: 'O corticoide no crupe atua principalmente por:',
-    o: ['Redução do edema da mucosa laríngea e subglótica', 'Ação antiviral', 'Ação antibacteriana', 'Broncodilatação direta'],
+    o: ['Redução do edema da mucosa laríngea e subglótica', 'Ação antiviral direta, sobre o vírus', 'Ação antibacteriana, sobre a flora local', 'Broncodilatação direta, nas vias aéreas'],
     g: 'A',
     c: 'A dexametasona tem efeito prolongado, permitindo dose única. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Sem efeito antiviral.', C: 'Sem efeito.', D: 'Não é o mecanismo.' },
@@ -221,7 +221,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: via do corticoide',
     e: 'No crupe, a dexametasona pode ser dada por via:',
-    o: ['Oral, intramuscular ou intravenosa, com eficácia semelhante', 'Apenas inalatória', 'Apenas retal', 'Somente intravenosa'],
+    o: ['Oral, IM ou IV, com eficácia semelhante', 'Apenas inalatória, por nebulização', 'Apenas retal, em supositório', 'Somente intravenosa, em ambiente hospitalar'],
     g: 'A',
     c: 'A budesonida inalatória é alternativa. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Não é a única.', C: 'Não é usual.', D: 'Não é a única.' },
@@ -229,7 +229,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: diagnóstico diferencial',
     e: 'Um sinal que diferencia epiglotite de crupe é:',
-    o: ['Ausência de tosse ladrante, com sialorreia e toxemia na epiglotite', 'Presença de estridor', 'Febre', 'Idade'],
+    o: ['Sem tosse ladrante; sialorreia e toxemia na epiglotite', 'Presença de estridor inspiratório, em ambos os quadros', 'Presença de febre e de rouquidão, em ambos os quadros', 'Idade da criança, que é igual em ambos os quadros'],
     g: 'A',
     c: 'Na epiglotite, a criança não consegue deglutir a saliva. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Ambos podem ter.', C: 'Ambos podem ter.', D: 'Sobreposição.' },
@@ -237,7 +237,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Laringite: adolescente',
     e: 'Adolescente com rouquidão após gritar em um show, sem febre nem estridor. A conduta é:',
-    o: ['Repouso vocal e hidratação', 'Intubação', 'Antibiótico', 'Adrenalina'],
+    o: ['Repouso vocal e hidratação', 'Intubação orotraqueal, por segurança', 'Antibiótico oral, por 7 dias', 'Adrenalina nebulizada, de imediato'],
     g: 'A',
     c: 'Rouquidão persistente além de 2 a 3 semanas exige laringoscopia. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -245,7 +245,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Papilomatose laríngea',
     e: 'Criança com rouquidão progressiva e estridor, com mãe que teve verrugas genitais na gestação. A hipótese é:',
-    o: ['Papilomatose respiratória recorrente por HPV', 'Crupe', 'Laringomalácia', 'Epiglotite'],
+    o: ['Papilomatose respiratória recorrente por HPV', 'Crupe viral recorrente, de repetição', 'Laringomalácia, de início neonatal', 'Epiglotite aguda, com febre alta'],
     g: 'A',
     c: 'Tipos 6 e 11; tratamento cirúrgico recorrente. A vacina HPV é preventiva. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Agudo.', C: 'Congênito e não progressivo assim.', D: 'Agudo e toxêmico.' },
@@ -253,7 +253,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Anel vascular',
     e: 'Lactente com estridor e sibilância desde o nascimento, piora com a alimentação e disfagia. A hipótese a investigar é:',
-    o: ['Anel vascular comprimindo traqueia e esôfago', 'Crupe', 'Epiglotite', 'Asma'],
+    o: ['Anel vascular comprimindo traqueia e esôfago', 'Crupe viral, de evolução recorrente', 'Epiglotite, com febre e toxemia', 'Asma, com resposta ao broncodilatador'],
     g: 'A',
     c: 'A tomografia ou ressonância com contraste define a anatomia. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Agudo.', C: 'Agudo e toxêmico.', D: 'Sem disfagia.' },
@@ -261,7 +261,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Traqueomalácia',
     e: 'Lactente com sibilância expiratória persistente, tosse metálica e piora com choro, sem resposta a broncodilatadores. A hipótese é:',
-    o: ['Traqueomalácia', 'Asma', 'Crupe', 'Laringomalácia'],
+    o: ['Traqueomalácia', 'Asma, com resposta ao broncodilatador', 'Crupe viral, com tosse ladrante', 'Laringomalácia, com estridor inspiratório'],
     g: 'A',
     c: 'Associa-se a atresia de esôfago corrigida. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Responderia a broncodilatador.', C: 'Agudo.', D: 'Estridor inspiratório.' },
@@ -269,7 +269,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Corpo estranho: radiografia',
     e: 'Na suspeita de corpo estranho brônquico não radiopaco, a radiografia em expiração pode mostrar:',
-    o: ['Hiperinsuflação do lado acometido por mecanismo valvular', 'Atelectasia bilateral simétrica sempre', 'Sinal da torre', 'Sinal do polegar'],
+    o: ['Hiperinsuflação do lado acometido, por mecanismo valvular', 'Atelectasia bilateral e simétrica, em todos os casos', 'Sinal da torre, com estreitamento subglótico simétrico', 'Sinal do polegar, com epiglote edemaciada em perfil'],
     g: 'A',
     c: 'Radiografia normal não exclui; a broncoscopia é diagnóstica e terapêutica. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é o padrão.', C: 'Típico de crupe.', D: 'Típico de epiglotite.' },
@@ -277,7 +277,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Abscesso periamigdaliano',
     e: 'Adolescente com dor de garganta intensa, trismo, voz de batata quente e desvio da úvula. O diagnóstico e a conduta são:',
-    o: ['Abscesso periamigdaliano; drenagem e antibiótico', 'Faringite viral; sintomáticos', 'Epiglotite; intubação imediata obrigatória', 'Crupe; dexametasona'],
+    o: ['Abscesso periamigdaliano; drenagem e antibiótico', 'Faringite viral; apenas sintomáticos', 'Epiglotite; intubação imediata, obrigatoriamente', 'Crupe; dexametasona por via oral'],
     g: 'A',
     c: 'Ocorre mais em adolescentes. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Sem trismo e desvio.', C: 'Quadro diferente.', D: 'Quadro diferente.' },
@@ -285,7 +285,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Difteria: complicações',
     e: 'A complicação mais temida da difteria é:',
-    o: ['Miocardite pela toxina diftérica', 'Pneumonia', 'Otite', 'Conjuntivite'],
+    o: ['Miocardite pela toxina diftérica', 'Pneumonia bacteriana secundária', 'Otite média aguda, supurativa', 'Conjuntivite purulenta, bilateral'],
     g: 'A',
     c: 'Também pode haver paralisias de nervos cranianos. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Não é a principal.', C: 'Não é a principal.', D: 'Não é a principal.' },
@@ -293,7 +293,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Difteria: contatos',
     e: 'Contatos de caso de difteria devem receber:',
-    o: ['Avaliação, cultura de orofaringe, quimioprofilaxia e atualização vacinal', 'Nada', 'Somente soro antidiftérico', 'Corticoide'],
+    o: ['Avaliação, cultura, quimioprofilaxia e atualização vacinal', 'Nada, pois o contato está assintomático e sem exames', 'Somente soro antidiftérico, em dose única, no contato', 'Corticoide oral por 5 dias seguidos, no contato'],
     g: 'A',
     c: 'O soro é reservado aos doentes. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde, 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Exige medidas.', C: 'Não é profilático.', D: 'Sem indicação.' },
@@ -301,7 +301,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Estridor: sinais de gravidade',
     e: 'Sinal de obstrução grave de via aérea alta em criança é:',
-    o: ['Agitação ou sonolência, cianose e redução do estridor por fadiga', 'Estridor apenas ao chorar', 'Rouquidão leve', 'Tosse ladrante isolada'],
+    o: ['Agitação ou sonolência, cianose e estridor menor por fadiga', 'Estridor apenas ao chorar, com boa ventilação', 'Rouquidão leve, sem outros sinais associados', 'Tosse ladrante isolada, sem desconforto'],
     g: 'A',
     c: 'A diminuição do estridor pode indicar exaustão, não melhora. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Leve.', C: 'Leve.', D: 'Leve.' },
@@ -309,7 +309,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: heliox',
     e: 'Na criança com crupe grave refratário, o heliox (mistura de hélio e oxigênio):',
-    o: ['Pode reduzir o trabalho respiratório por diminuir a turbulência, como medida temporária', 'É o tratamento de primeira linha', 'Substitui o corticoide', 'Cura a infecção'],
+    o: ['Reduz o trabalho respiratório; medida temporária', 'É o tratamento de primeira linha do crupe grave', 'Substitui o corticoide, no crupe grave refratário', 'Cura a infecção viral, por ação antiviral direta'],
     g: 'A',
     c: 'Não substitui as medidas principais. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Não é primeira linha.', C: 'Não substitui.', D: 'Sem efeito.' },
@@ -317,7 +317,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Epiglotite: antibiótico',
     e: 'Após garantir a via aérea na epiglotite, o antibiótico empírico é:',
-    o: ['Ceftriaxona ou cefotaxima', 'Amoxicilina oral', 'Azitromicina', 'Nenhum'],
+    o: ['Ceftriaxona ou cefotaxima', 'Amoxicilina por via oral, por 7 dias', 'Azitromicina por via oral, por 3 dias', 'Nenhum antibiótico, apenas suporte'],
     g: 'A',
     c: 'Contatos domiciliares podem receber rifampicina profilática em situações específicas. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Inadequada para quadro grave.', C: 'Inadequada.', D: 'Exige.' },
@@ -325,7 +325,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Crupe: recidivas',
     e: 'Criança com mais de dois episódios de crupe por ano, ou crupe atípico, deve ser investigada para:',
-    o: ['Anomalias estruturais da via aérea, como estenose subglótica', 'Asma apenas', 'Diabetes', 'Anemia'],
+    o: ['Anomalias estruturais, como estenose subglótica', 'Asma brônquica, apenas, sem outras causas', 'Diabetes mellitus, de início recente', 'Anemia ferropriva, por baixa ingestão'],
     g: 'A',
     c: 'Endoscopia de via aérea pode ser indicada. Referência: Bjornson CL, Johnson DW. Croup in children. CMAJ. 2013;185(15):1317-23; Gates A et al. Glucocorticoids for croup in children. Cochrane Database Syst Rev. 2018;8:CD001955.',
     x: { B: 'Não é a única.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Estridor: neonatal',
     e: 'Recém-nascido com estridor e choro rouco desde o nascimento e ausência de outros sinais. Além de laringomalácia, considera-se:',
-    o: ['Paralisia de cordas vocais ou membrana laríngea', 'Crupe viral', 'Epiglotite', 'Asma'],
+    o: ['Paralisia de cordas vocais ou membrana laríngea', 'Crupe viral, de evolução recorrente', 'Epiglotite aguda, com febre e toxemia', 'Asma, com resposta ao broncodilatador'],
     g: 'A',
     c: 'Laringoscopia flexível define a causa. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Agudo e infeccioso.', C: 'Agudo e infeccioso.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Faringite estreptocócica',
     e: 'Criança de 8 anos com febre, dor de garganta, exsudato amigdaliano, adenomegalia cervical dolorosa e sem tosse. O teste rápido para estreptococo é positivo. O tratamento é:',
-    o: ['Amoxicilina por 10 dias ou penicilina benzatina', 'Nenhum', 'Azitromicina por 1 dia', 'Corticoide'],
+    o: ['Amoxicilina por 10 dias ou penicilina benzatina', 'Nenhum tratamento, apenas sintomáticos', 'Azitromicina por 1 dia, em dose única', 'Corticoide oral, por 5 dias seguidos'],
     g: 'A',
     c: 'O tratamento previne febre reumática. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Exige.', C: 'Inadequado.', D: 'Sem indicação.' },
@@ -357,7 +357,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Mononucleose e via aérea',
     e: 'Adolescente com mononucleose e hipertrofia amigdaliana obstrutiva com desconforto respiratório. Uma medida pode ser:',
-    o: ['Corticoide sistêmico, em casos de obstrução de via aérea', 'Amoxicilina', 'Antiviral', 'Cirurgia imediata obrigatória'],
+    o: ['Corticoide sistêmico, se houver obstrução de via aérea', 'Amoxicilina oral por 10 dias, para cobrir estreptococo', 'Antiviral, como aciclovir, por 7 dias, em dose habitual', 'Cirurgia imediata, obrigatoriamente, em todos os casos'],
     g: 'A',
     c: 'O corticoide não é rotina na mononucleose não complicada. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Causa exantema e não trata.', C: 'Sem eficácia.', D: 'Não é a primeira opção.' },
@@ -365,7 +365,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Angioedema hereditário',
     e: 'Adolescente com episódios recorrentes de edema de lábios e laringe, sem urticária, que não respondem a adrenalina e anti-histamínicos. A hipótese é:',
-    o: ['Angioedema hereditário por deficiência de C1 inibidor', 'Anafilaxia alérgica', 'Crupe', 'Epiglotite'],
+    o: ['Angioedema hereditário, por deficiência de C1 inibidor', 'Anafilaxia alérgica, desencadeada por alimento ou droga', 'Crupe viral, de repetição, em criança pequena', 'Epiglotite aguda, com febre alta e toxemia'],
     g: 'A',
     c: 'Mediado por bradicinina; tratamento com concentrado de C1 inibidor ou icatibanto. Referência: Maurer M et al. The international WAO/EAACI guideline for the management of hereditary angioedema: the 2021 revision. Allergy. 2022;77(7):1961-90.',
     x: { B: 'Responderia à adrenalina.', C: 'Quadro diferente.', D: 'Quadro diferente.' },
@@ -373,7 +373,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Estridor: tosse ladrante sem febre',
     e: 'Criança com estridor, tosse ladrante, sem febre, após inalar fumaça em incêndio. A conduta é:',
-    o: ['Avaliar lesão inalatória, com possibilidade de intubação precoce', 'Tratar como crupe simples e dar alta', 'Antibiótico', 'Observar em casa'],
+    o: ['Avaliar lesão inalatória; intubação precoce, se preciso', 'Tratar como crupe simples, com dexametasona, e dar alta', 'Dar antibiótico oral por 7 dias e observar em casa', 'Observar em casa por 24 horas, sem exames adicionais'],
     g: 'A',
     c: 'O edema pode progredir rapidamente. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Risco de obstrução.', C: 'Sem infecção.', D: 'Risco de obstrução.' },
@@ -389,7 +389,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Laringomalácia: posição',
     e: 'Na laringomalácia, o estridor tipicamente:',
-    o: ['Piora em decúbito dorsal e melhora em decúbito ventral', 'Piora em decúbito ventral', 'Não varia com a posição', 'Desaparece ao chorar'],
+    o: ['Piora em decúbito dorsal e melhora em ventral', 'Piora em decúbito ventral e melhora em dorsal', 'Não varia com a posição da criança', 'Desaparece ao chorar, e piora ao dormir'],
     g: 'A',
     c: 'O colapso das estruturas supraglóticas varia com a posição. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'O oposto.', C: 'Varia.', D: 'Piora ao chorar.' },
@@ -397,7 +397,7 @@ export const PED_EXTRA_ESTR: QuestaoCompacta[] = [
   {
     s: 'Epiglotite: idade',
     e: 'Atualmente, com a vacinação contra Hib, a epiglotite:',
-    o: ['Tornou-se rara em crianças e é relativamente mais vista em adultos', 'É a principal causa de estridor', 'Ocorre somente em recém-nascidos', 'Não existe mais'],
+    o: ['Tornou-se rara em crianças; mais vista em adultos', 'É a principal causa de estridor na infância', 'Ocorre somente em recém-nascidos', 'Não existe mais, após a vacinação'],
     g: 'A',
     c: 'Ainda ocorre em não vacinados. Referência: Kliegman RM et al. Nelson Textbook of Pediatrics. 21ª ed. Philadelphia: Elsevier, 2020.',
     x: { B: 'Não é mais.', C: 'Sem relação.', D: 'Ainda existe.' },
