@@ -75,8 +75,8 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Endocrinologia: Tireoide
 - [x] Endocrinologia: Paratireoide e Suprarrenal
 - [x] Hepatologia: Hepatopatias Agudas
-- [ ] Hepatologia: Hepatopatias Crônicas e Cirrose
-- [ ] Hepatologia: Síndrome da Hipertensão Portal
+- [x] Hepatologia: Hepatopatias Crônicas e Cirrose
+- [x] Hepatologia: Síndrome da Hipertensão Portal
 - [ ] Neurologia: Acidente Vascular Encefálico
 - [ ] Neurologia: Cefaleia
 - [ ] Neurologia: Demência

@@ -329,6 +329,10 @@ import { CM2_EXTRA_DM } from './clinica/cm2ExtraDm'
 import { CM2_EXTRA_TIR } from './clinica/cm2ExtraTir'
 import { CM2_EXTRA_PAR } from './clinica/cm2ExtraPar'
 import { CM2_EXTRA_HEPAG } from './clinica/cm2ExtraHepag'
+import { DIF_CIRROSE_1 } from './clinica/difCirrose1'
+import { DIF_CIRROSE_2 } from './clinica/difCirrose2'
+import { DIF_HIP_PORTAL_1 } from './clinica/difHipPortal1'
+import { DIF_HIP_PORTAL_2 } from './clinica/difHipPortal2'
 
 // Banco de Clínica Médica 2 e complementos de Pediatria (100 questões por tema)
 export const QUESTOES_CLINICA: Question[] = [
@@ -595,4 +599,10 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm2-extra-tir', 'Clínica Médica', 'Endocrinologia: Tireoide', CM2_EXTRA_TIR),
   ...montarQuestoes('cm2-extra-par', 'Clínica Médica', 'Endocrinologia: Paratireoide e Suprarrenal', CM2_EXTRA_PAR),
   ...montarQuestoes('cm2-extra-hepag', 'Clínica Médica', 'Hepatologia: Hepatopatias Agudas', CM2_EXTRA_HEPAG),
+  ...montarQuestoes('dif-cirrose', 'Clínica Médica', 'Hepatologia: Hepatopatias Crônicas e Cirrose', [
+    ...DIF_CIRROSE_1, ...DIF_CIRROSE_2,
+  ]),
+  ...montarQuestoes('dif-hip-portal', 'Clínica Médica', 'Hepatologia: Síndrome da Hipertensão Portal', [
+    ...DIF_HIP_PORTAL_1, ...DIF_HIP_PORTAL_2,
+  ]),
 ];
