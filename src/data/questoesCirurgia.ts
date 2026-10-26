@@ -38,6 +38,7 @@ import { COLORRETAL_1 } from './cirurgia/colorretal1';
 import { COLORRETAL_2 } from './cirurgia/colorretal2';
 import { COLORRETAL_3 } from './cirurgia/colorretal3';
 import { COLORRETAL_4 } from './cirurgia/colorretal4';
+import { DIF_COLORRETAL } from './cirurgia/difColorretal';
 import { DII_1 } from './cirurgia/dii1';
 import { DII_2 } from './cirurgia/dii2';
 import { DII_3 } from './cirurgia/dii3';
@@ -115,7 +116,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...COMPLICACOES_1, ...COMPLICACOES_2, ...COMPLICACOES_3, ...COMPLICACOES_4, ...DIF_COMPLICACOES,
   ]),
   ...montarQuestoes('cir-colorretal', 'Cirurgia', 'Delgado e Cólon: Pólipos e Câncer Colorretal', [
-    ...COLORRETAL_1, ...COLORRETAL_2, ...COLORRETAL_3, ...COLORRETAL_4,
+    ...COLORRETAL_1, ...COLORRETAL_2, ...COLORRETAL_3, ...COLORRETAL_4, ...DIF_COLORRETAL,
   ]),
   ...montarQuestoes('cir-dii', 'Cirurgia', 'Doença Inflamatória Intestinal', [
     ...DII_1, ...DII_2, ...DII_3, ...DII_4,
