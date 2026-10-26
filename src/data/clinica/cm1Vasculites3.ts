@@ -29,7 +29,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Granulomatose com poliangeíte: via aérea',
     e: 'Na granulomatose com poliangeíte, a deformidade conhecida como nariz em sela decorre de:',
-    o: ['Depósito de imunocomplexos na pele do dorso nasal', 'Destruição da cartilagem do septo nasal por inflamação granulomatosa necrosante', 'Fratura patológica dos ossos nasais por osteoporose', 'Paralisia dos músculos nasais por mononeurite'],
+    o: ['Imunocomplexos na pele do dorso nasal', 'Granuloma necrosante destrói a cartilagem do septo nasal', 'Fratura patológica dos ossos nasais por osteoporose', 'Paralisia dos músculos nasais por mononeurite'],
     g: 'B',
     c: 'A inflamação granulomatosa necrosante da mucosa nasal compromete a irrigação e destrói a cartilagem septal, levando à perfuração do septo e ao colapso da ponte nasal. A mesma deformidade pode ocorrer na policondrite recidivante, no uso de cocaína e em infecções como hanseníase, sífilis e leishmaniose, que entram no diagnóstico diferencial.',
     x: { A: 'A doença é pauci-imune, com pouco ou nenhum depósito de imunocomplexos.', C: 'Não se trata de fratura óssea, e sim de perda do suporte cartilaginoso.', D: 'A mononeurite não causa colapso estrutural do nariz.' },
@@ -45,7 +45,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Granulomatose com poliangeíte: olho',
     e: 'A manifestação orbitária característica da granulomatose com poliangeíte, que pode causar proptose e diplopia, é:',
-    o: ['Oftalmopatia tireoidiana', 'Pseudotumor de órbita por massa granulomatosa retro-orbitária', 'Catarata subcapsular posterior', 'Retinopatia por cotton-wool spots'],
+    o: ['Oftalmopatia tireoidiana, de Graves', 'Pseudotumor de órbita: massa granulomatosa retro-orbitária', 'Catarata subcapsular posterior, por corticoide', 'Retinopatia por cotton-wool spots, da hipertensão'],
     g: 'B',
     c: 'O granuloma retro-orbitário (pseudotumor de órbita) é uma lesão típica da granulomatose com poliangeíte, que desloca o globo ocular, causa proptose, dor e diplopia e pode comprimir o nervo óptico. Outras manifestações oculares da doença são esclerite, episclerite e obstrução do ducto nasolacrimal.',
     x: { A: 'A oftalmopatia tireoidiana decorre de doença de Graves, com proptose em geral bilateral.', C: 'A catarata subcapsular é efeito adverso do uso de corticoide, não manifestação da doença.', D: 'Exsudatos algodonosos sugerem retinopatia hipertensiva, diabética ou lúpica.' },
@@ -69,7 +69,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Glomerulonefrite pauci-imune',
     e: 'A biópsia renal de um paciente com vasculite associada ao ANCA e perda rápida da função renal mostra caracteristicamente:',
-    o: ['Glomerulonefrite proliferativa difusa com depósitos granulares de IgG, IgA, IgM, C3 e C1q', 'Glomerulonefrite necrosante segmentar com crescentes e imunofluorescência com pouco ou nenhum depósito', 'Espessamento difuso da membrana basal com espículas e depósitos subepiteliais', 'Depósitos mesangiais dominantes de IgA'],
+    o: ['GN proliferativa difusa com IgG, IgA, IgM, C3 e C1q granulares', 'GN necrosante segmentar com crescentes; IF com pouco ou nenhum depósito', 'Espessamento difuso da membrana basal com espículas', 'Depósitos mesangiais dominantes de IgA, à IF'],
     g: 'B',
     c: 'A lesão renal das vasculites associadas ao ANCA é a glomerulonefrite necrosante com crescentes do tipo pauci-imune, isto é, com imunofluorescência negativa ou com depósitos escassos. A lesão não depende de imunocomplexos: os ANCA ativam neutrófilos, que aderem ao endotélio e liberam enzimas e radicais livres, rompendo a parede capilar.',
     x: { A: 'O padrão com todas as imunoglobulinas e complemento (full house) é da nefrite lúpica.', C: 'Espessamento com espículas é o achado da glomerulopatia membranosa.', D: 'IgA mesangial dominante define a nefropatia por IgA e a nefrite da vasculite por IgA.' },
@@ -77,7 +77,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Glomerulonefrite rapidamente progressiva',
     e: 'A glomerulonefrite rapidamente progressiva é classificada pela imunofluorescência em três tipos. A correspondência correta é:',
-    o: ['Tipo I, pauci-imune; tipo II, depósito linear; tipo III, depósito granular', 'Tipo I, depósito linear de anticorpo antimembrana basal; tipo II, depósito granular de imunocomplexos; tipo III, pauci-imune', 'Tipo I, depósito granular; tipo II, pauci-imune; tipo III, depósito linear', 'Tipo I, depósito de IgA; tipo II, depósito de C3 isolado; tipo III, depósito linear'],
+    o: ['I pauci-imune; II depósito linear; III depósito granular', 'I linear (anti-MBG); II granular (imunocomplexos); III pauci-imune', 'I depósito granular; II pauci-imune; III depósito linear', 'I depósito de IgA; II C3 isolado; III depósito linear'],
     g: 'B',
     c: 'O tipo I corresponde à doença antimembrana basal glomerular, com depósito linear de IgG; o tipo II reúne as doenças por imunocomplexos, com depósito granular, como lúpus, glomerulonefrite pós-infecciosa e nefropatia por IgA; o tipo III é pauci-imune, associado ao ANCA, e é o mais frequente em adultos, sobretudo idosos.',
     x: { A: 'A ordem está invertida: o pauci-imune é o tipo III, não o tipo I.', C: 'O depósito linear é o tipo I e o granular é o tipo II.', D: 'Essa divisão não corresponde à classificação da glomerulonefrite rapidamente progressiva.' },
@@ -85,7 +85,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome pulmão-rim: diferencial',
     e: 'Homem de 24 anos, tabagista, apresenta hemoptise volumosa, anemia e insuficiência renal aguda com hematúria dismórfica. Não tem sintomas sistêmicos prévios. ANCA negativo, complemento normal e fator antinuclear negativo. A biópsia renal mostra crescentes em mais de 80% dos glomérulos e imunofluorescência com depósito linear de IgG ao longo da membrana basal. O diagnóstico é:',
-    o: ['Poliangeíte microscópica', 'Doença antimembrana basal glomerular (síndrome de Goodpasture)', 'Nefrite lúpica classe IV', 'Granulomatose com poliangeíte'],
+    o: ['Poliangeíte microscópica, com ANCA', 'Doença antimembrana basal (síndrome de Goodpasture)', 'Nefrite lúpica classe IV, com full house', 'Granulomatose com poliangeíte, com ANCA'],
     g: 'B',
     c: 'O depósito linear de IgG na membrana basal glomerular é patognomônico da doença antimembrana basal, em que autoanticorpos reagem contra a cadeia alfa-3 do colágeno tipo IV, presente nos glomérulos e nos alvéolos. O tabagismo e a inalação de hidrocarbonetos facilitam a lesão pulmonar ao expor o antígeno alveolar.',
     x: { A: 'A poliangeíte microscópica tem ANCA positivo e imunofluorescência pauci-imune.', C: 'A nefrite lúpica mostra depósitos granulares com consumo de complemento.', D: 'A granulomatose com poliangeíte é pauci-imune e costuma ter ANCA positivo.' },
@@ -93,7 +93,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome pulmão-rim: tratamento do Goodpasture',
     e: 'O tratamento da doença antimembrana basal glomerular com hemorragia alveolar e glomerulonefrite rapidamente progressiva inclui, além de glicocorticoide e ciclofosfamida:',
-    o: ['Imunoglobulina endovenosa em dose alta', 'Plasmaférese, para remover rapidamente os anticorpos circulantes', 'Transplante renal imediato', 'Anticoagulação plena com heparina'],
+    o: ['Imunoglobulina endovenosa em dose alta, isolada', 'Plasmaférese, para remover rápido os anticorpos', 'Transplante renal imediato, antes da imunossupressão', 'Anticoagulação plena com heparina, por via venosa'],
     g: 'B',
     c: 'Na doença antimembrana basal, o autoanticorpo é diretamente patogênico, de modo que sua remoção rápida por plasmaférese, associada à imunossupressão que interrompe a produção, é parte central do tratamento. Quanto mais precoce o início, antes de creatinina muito elevada ou necessidade de diálise, maior a chance de recuperar a função renal.',
     x: { A: 'A imunoglobulina não é o tratamento padrão da doença antimembrana basal.', C: 'O transplante só deve ser feito após meses de anticorpo negativo, pelo risco de recorrência.', D: 'A anticoagulação é contraindicada diante de hemorragia alveolar.' },
@@ -101,7 +101,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome pulmão-rim: diferencial',
     e: 'Mulher de 27 anos com poliartrite, eritema malar e úlceras orais é internada com hemorragia alveolar e glomerulonefrite. Em comparação com as vasculites associadas ao ANCA, o dado laboratorial que mais aponta para lúpus eritematoso sistêmico como causa da síndrome pulmão-rim é:',
-    o: ['Elevação da proteína C reativa', 'Redução de C3 e C4 com anti-DNA de dupla hélice positivo', 'Anemia com queda rápida da hemoglobina', 'Hematúria com dismorfismo eritrocitário'],
+    o: ['Elevação da proteína C reativa, no soro', 'Redução de C3 e C4 com anti-DNA dupla hélice positivo', 'Anemia com queda rápida da hemoglobina, no soro', 'Hematúria com dismorfismo eritrocitário, na urina'],
     g: 'B',
     c: 'O lúpus é doença por imunocomplexos, que ativam a via clássica e consomem C3 e C4, enquanto nas vasculites associadas ao ANCA e na doença antimembrana basal o complemento sérico costuma ser normal. O anti-DNA de dupla hélice em título alto reforça a nefrite lúpica, cuja imunofluorescência mostra depósitos granulares abundantes.',
     x: { A: 'A proteína C reativa é inespecífica e se eleva em qualquer das causas.', C: 'A queda da hemoglobina reflete a hemorragia alveolar, comum a todas as etiologias.', D: 'O dismorfismo indica origem glomerular, mas não distingue a causa.' },
@@ -109,7 +109,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Hemorragia alveolar',
     e: 'Em paciente com vasculite associada ao ANCA, infiltrado alveolar bilateral e queda da hemoglobina, mas sem hemoptise, o achado que confirma hemorragia alveolar difusa é:',
-    o: ['Derrame pleural bilateral na tomografia', 'Lavado broncoalveolar com alíquotas progressivamente mais hemorrágicas', 'Escarro com predomínio de eosinófilos', 'Redução da capacidade de difusão do monóxido de carbono'],
+    o: ['Derrame pleural bilateral na tomografia', 'BAL com alíquotas progressivamente mais hemorrágicas', 'Escarro com predomínio de eosinófilos', 'Redução da difusão de monóxido de carbono'],
     g: 'B',
     c: 'Até um terço dos pacientes com hemorragia alveolar difusa não apresenta hemoptise. O lavado broncoalveolar com retorno cada vez mais hemorrágico nas alíquotas sucessivas indica sangue de origem alveolar, e a presença de macrófagos com hemossiderina reforça o diagnóstico. A difusão do monóxido de carbono tende a aumentar, pois a hemoglobina nos alvéolos capta o gás.',
     x: { A: 'Derrame pleural não é sinal de hemorragia alveolar.', C: 'Eosinófilos no escarro sugerem asma ou pneumonia eosinofílica.', D: 'Na hemorragia alveolar a difusão do monóxido de carbono costuma estar aumentada, não reduzida.' },
@@ -117,7 +117,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Granulomatose eosinofílica com poliangeíte: quadro clínico',
     e: 'Mulher de 44 anos, com rinite alérgica e polipose nasal há anos e asma de difícil controle iniciada na vida adulta, apresenta há 1 mês febre, púrpura nas pernas, parestesias e pé caído à direita. Radiografia de tórax com infiltrados pulmonares migratórios. Hemograma com 9.800 eosinófilos/mm3. O diagnóstico mais provável é:',
-    o: ['Aspergilose broncopulmonar alérgica', 'Granulomatose eosinofílica com poliangeíte', 'Granulomatose com poliangeíte', 'Poliarterite nodosa'],
+    o: ['Aspergilose broncopulmonar alérgica, com IgE alta', 'Granulomatose eosinofílica com poliangeíte', 'Granulomatose com poliangeíte, com c-ANCA e sinusite', 'Poliarterite nodosa, sem asma e sem eosinofilia'],
     g: 'B',
     c: 'A granulomatose eosinofílica com poliangeíte (Churg-Strauss) evolui classicamente em fases: uma prodrômica alérgica, com rinite, polipose e asma de início tardio; uma eosinofílica, com eosinofilia periférica e infiltrados pulmonares fugazes; e uma vasculítica, com púrpura e mononeurite múltipla. A combinação de asma, eosinofilia marcante e neuropatia é a pista principal.',
     x: { A: 'A aspergilose alérgica não causa vasculite sistêmica com púrpura e mononeurite.', C: 'A granulomatose com poliangeíte não cursa com asma nem eosinofilia acentuada.', D: 'A poliarterite nodosa poupa o pulmão e não se associa a asma e eosinofilia.' },
@@ -133,7 +133,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Granulomatose eosinofílica com poliangeíte: ANCA',
     e: 'Em relação ao ANCA na granulomatose eosinofílica com poliangeíte, é correto afirmar que:',
-    o: ['É positivo em praticamente todos os pacientes, com padrão c-ANCA', 'É positivo em menos da metade dos casos, geralmente p-ANCA com anti-mieloperoxidase', 'Sua negatividade exclui o diagnóstico', 'Está associado principalmente ao acometimento cardíaco'],
+    o: ['Positivo em quase todos, com padrão c-ANCA', 'Positivo em menos da metade, p-ANCA anti-MPO', 'A negatividade exclui o diagnóstico', 'Associa-se principalmente ao acometimento cardíaco'],
     g: 'B',
     c: 'Apenas cerca de 30 a 40% dos pacientes com granulomatose eosinofílica com poliangeíte têm ANCA positivo, quase sempre anti-mieloperoxidase. Os casos positivos tendem a apresentar mais manifestações vasculíticas, como glomerulonefrite, mononeurite e púrpura, enquanto os negativos têm mais acometimento cardíaco e pulmonar eosinofílico.',
     x: { A: 'A positividade é minoritária e o padrão predominante é o perinuclear.', C: 'A maioria dos pacientes tem ANCA negativo, e o diagnóstico é clínico e histológico.', D: 'O acometimento cardíaco é mais frequente nos pacientes com ANCA negativo.' },
@@ -149,7 +149,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento de indução',
     e: 'Homem de 58 anos com granulomatose com poliangeíte recém-diagnosticada apresenta glomerulonefrite rapidamente progressiva (creatinina de 3,9 mg/dL) e nódulos pulmonares. O esquema de indução de remissão indicado é:',
-    o: ['Metotrexato associado a prednisona em dose baixa', 'Glicocorticoide em dose alta associado a ciclofosfamida ou a rituximabe', 'Azatioprina isolada', 'Sulfametoxazol-trimetoprima em monoterapia'],
+    o: ['Metotrexato com prednisona em dose baixa, por via oral', 'Glicocorticoide em dose alta com ciclofosfamida ou rituximabe', 'Azatioprina isolada, sem corticoide, por via oral', 'SMX-TMP em monoterapia, sem corticoide, por via oral'],
     g: 'B',
     c: 'Na vasculite associada ao ANCA com ameaça a órgãos ou à vida, a indução é feita com glicocorticoide em dose alta, frequentemente iniciado com pulsoterapia de metilprednisolona, combinado a ciclofosfamida ou rituximabe, que têm eficácia equivalente. O rituximabe é preferido em doença recidivante e quando se quer preservar a fertilidade.',
     x: { A: 'O metotrexato é reservado para doença não grave e é contraindicado com função renal tão reduzida.', C: 'A azatioprina é fármaco de manutenção, sem potência para indução.', D: 'O sulfametoxazol-trimetoprima é adjuvante e profilático, não tratamento de doença grave.' },
@@ -157,7 +157,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento de manutenção',
     e: 'Após obter remissão de uma vasculite associada ao ANCA com corticoide e rituximabe, a estratégia de manutenção atualmente preferida é:',
-    o: ['Suspender toda a imunossupressão, pois a recidiva é rara', 'Manter rituximabe em doses periódicas, com azatioprina ou metotrexato como alternativas', 'Manter ciclofosfamida oral diária por 3 a 5 anos', 'Manter apenas prednisona em dose alta indefinidamente'],
+    o: ['Suspender toda a imunossupressão: recidiva é rara', 'Rituximabe periódico; azatioprina ou metotrexato alternativos', 'Ciclofosfamida oral diária por 3 a 5 anos', 'Apenas prednisona em dose alta, indefinidamente'],
     g: 'B',
     c: 'As recidivas são frequentes, sobretudo na doença com anti-proteinase 3, o que justifica terapia de manutenção por pelo menos 2 anos após a remissão. O rituximabe em infusões periódicas mostrou-se superior à azatioprina na prevenção de recaídas; azatioprina e metotrexato (este apenas com função renal preservada) são alternativas.',
     x: { A: 'As recidivas são comuns e a suspensão precoce aumenta o risco de dano orgânico.', C: 'A ciclofosfamida prolongada causa toxicidade cumulativa, como cistite hemorrágica, neoplasias e infertilidade.', D: 'Corticoide em dose alta por tempo indefinido tem toxicidade inaceitável e não é estratégia de manutenção.' },
@@ -165,7 +165,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Ciclofosfamida: efeitos adversos',
     e: 'Paciente em indução com ciclofosfamida endovenosa para vasculite associada ao ANCA recebe hidratação vigorosa e mesna. O objetivo dessas medidas é prevenir:',
-    o: ['Neutropenia febril', 'Cistite hemorrágica causada pela acroleína', 'Fibrose pulmonar', 'Infertilidade por falência gonadal'],
+    o: ['Neutropenia febril, com mielossupressão', 'Cistite hemorrágica, causada pela acroleína', 'Fibrose pulmonar, com tosse seca', 'Infertilidade por falência gonadal, tardia'],
     g: 'B',
     c: 'A acroleína, metabólito da ciclofosfamida excretado na urina, é tóxica para o urotélio e causa cistite hemorrágica e, a longo prazo, aumento do risco de câncer de bexiga. A hidratação dilui e acelera a eliminação do metabólito, e a mesna se liga à acroleína na urina, inativando-a.',
     x: { A: 'A neutropenia é controlada por ajuste de dose e monitorização do hemograma, não pela mesna.', C: 'A fibrose pulmonar não é prevenida por hidratação ou mesna.', D: 'A toxicidade gonadal depende da dose cumulativa e não é evitada pela mesna.' },
@@ -173,7 +173,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Profilaxia de infecções',
     e: 'Durante a indução de remissão de vasculite associada ao ANCA com corticoide em dose alta associado a ciclofosfamida ou rituximabe, recomenda-se profilaxia com sulfametoxazol-trimetoprima para prevenir:',
-    o: ['Tuberculose pulmonar', 'Pneumonia por Pneumocystis jirovecii', 'Candidíase esofágica', 'Reativação de citomegalovírus'],
+    o: ['Tuberculose pulmonar, em imunossuprimidos', 'Pneumonia por Pneumocystis jirovecii', 'Candidíase esofágica, em imunossuprimidos', 'Reativação de citomegalovírus, em imunossuprimidos'],
     g: 'B',
     c: 'A imunossupressão intensa, com depleção da imunidade celular, aumenta muito o risco de pneumocistose, infecção de alta letalidade em pacientes sem infecção pelo HIV. A profilaxia com sulfametoxazol-trimetoprima é recomendada durante a indução, e as infecções são hoje uma das principais causas de morte no primeiro ano de tratamento.',
     x: { A: 'A tuberculose latente é tratada com isoniazida ou esquemas com rifamicina, não com sulfametoxazol-trimetoprima.', C: 'A candidíase não é o alvo dessa profilaxia.', D: 'O citomegalovírus não é sensível ao sulfametoxazol-trimetoprima.' },
@@ -181,7 +181,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Plasmaférese nas vasculites associadas ao ANCA',
     e: 'Em relação ao uso de plasmaférese nas vasculites associadas ao ANCA, a afirmativa mais adequada às evidências atuais é:',
-    o: ['Deve ser realizada de rotina em todos os pacientes no momento do diagnóstico', 'Não é indicada de rotina, podendo ser considerada em casos selecionados com insuficiência renal grave ou hemorragia alveolar com hipoxemia', 'Substitui a ciclofosfamida e o rituximabe na indução de remissão', 'É contraindicada quando há anticorpo antimembrana basal associado'],
+    o: ['Realizar de rotina, em todos, no diagnóstico', 'Não de rotina; casos selecionados (IRA grave, hemorragia alveolar)', 'Substitui a ciclofosfamida e o rituximabe na indução', 'Contraindicada se há anti-MBG associado, em qualquer caso'],
     g: 'B',
     c: 'Estudos recentes mostraram que a plasmaférese acrescentada ao tratamento padrão não reduziu o desfecho combinado de morte ou doença renal terminal, o que restringiu seu uso a casos selecionados de maior gravidade. Quando coexiste anticorpo antimembrana basal, a plasmaférese está formalmente indicada.',
     x: { A: 'O uso rotineiro não mostrou benefício e aumenta o risco de infecção.', C: 'A plasmaférese é adjuvante e não substitui a imunossupressão.', D: 'A positividade dupla com antimembrana basal é justamente indicação de plasmaférese.' },
@@ -189,7 +189,7 @@ export const VASCULITES_3: QuestaoCompacta[] = [
   {
     s: 'Vasculites associadas ao ANCA: recidiva',
     e: 'Entre os fatores abaixo, o que se associa a maior risco de recidiva nas vasculites associadas ao ANCA é:',
-    o: ['Positividade para anti-mieloperoxidase em vez de anti-proteinase 3', 'Positividade para anti-proteinase 3 e acometimento de via aérea superior', 'Idade avançada no momento do diagnóstico', 'Insuficiência renal grave na apresentação'],
+    o: ['Anti-MPO em vez de anti-proteinase 3, no diagnóstico', 'Anti-PR3 e acometimento de via aérea superior', 'Idade avançada ao diagnóstico, de pior prognóstico', 'Insuficiência renal grave na apresentação, de pior prognóstico'],
     g: 'B',
     c: 'A especificidade do ANCA tem valor prognóstico: pacientes com anti-proteinase 3 recidivam mais do que aqueles com anti-mieloperoxidase, assim como os que têm doença de via aérea superior e pulmonar. Já a doença anti-mieloperoxidase tende a se apresentar com lesão renal mais crônica, porém com menos recaídas.',
     x: { A: 'A doença anti-mieloperoxidase recidiva menos do que a anti-proteinase 3.', C: 'A idade avançada aumenta a mortalidade e as infecções, não a taxa de recidiva.', D: 'A insuficiência renal grave se associa a pior sobrevida renal, mas a menor risco de recidiva.' },

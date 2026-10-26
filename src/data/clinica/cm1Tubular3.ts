@@ -13,7 +13,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Fanconi',
     e: 'Homem de 39 anos, em tratamento de infecção pelo HIV com esquema contendo tenofovir desoproxila, apresenta dores ósseas e fraqueza. Exames: glicemia de 88 mg/dL com glicosúria 3+, fósforo de 1,6 mg/dL, ácido úrico de 1,4 mg/dL, bicarbonato de 17 mEq/L com ânion-gap normal e potássio de 3,0 mEq/L. O diagnóstico é:',
-    o: ['Diabetes mellitus em fase inicial', 'Síndrome de Fanconi por disfunção generalizada do túbulo proximal', 'Acidose tubular renal tipo IV', 'Síndrome de Gitelman'],
+    o: ['Diabetes mellitus em fase inicial, com glicosúria', 'Síndrome de Fanconi: disfunção generalizada do túbulo proximal', 'ATR tipo IV, com hipercalemia e acidose', 'Síndrome de Gitelman, com hipocalemia e hipomagnesemia'],
     g: 'B',
     c: 'A síndrome de Fanconi é a falência global da reabsorção no túbulo proximal, com perda urinária de glicose, aminoácidos, fosfato, ácido úrico e bicarbonato. Resultam hipofosfatemia, com osteomalácia no adulto e raquitismo na criança, hipouricemia e acidose tubular proximal. O tenofovir acumula-se na célula proximal e lesa suas mitocôndrias, sendo causa adquirida clássica.',
     x: { A: 'A glicemia normal mostra que a glicosúria é de origem renal, e não por hiperglicemia.', C: 'A acidose tipo IV cursa com hipercalemia e não explica glicosúria, fosfatúria e uricosúria.', D: 'A síndrome de Gitelman cursa com alcalose metabólica e hipomagnesemia, sem glicosúria.' },
@@ -21,7 +21,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'Fanconi - causas',
     e: 'Todas as condições abaixo são causas reconhecidas de síndrome de Fanconi, EXCETO:',
-    o: ['Cistinose', 'Mieloma múltiplo', 'Doença de Wilson', 'Uso de hidroclorotiazida'],
+    o: ['Cistinose, uma causa conhecida de Fanconi', 'Mieloma múltiplo, uma causa conhecida de Fanconi', 'Doença de Wilson, uma causa conhecida de Fanconi', 'Uso de hidroclorotiazida, que não causa Fanconi'],
     g: 'D',
     c: 'A síndrome de Fanconi pode ser hereditária, como na cistinose (causa mais comum na criança), na doença de Wilson, na galactosemia e na tirosinemia, ou adquirida, como no mieloma (toxicidade das cadeias leves ao túbulo proximal), por metais pesados e por drogas como tenofovir, ifosfamida e cisplatina. Os tiazídicos atuam no túbulo distal e não causam disfunção proximal generalizada.',
     x: { A: 'A cistinose leva ao acúmulo lisossomal de cistina e é a principal causa hereditária na infância.', B: 'As cadeias leves do mieloma são tóxicas para a célula do túbulo proximal.', C: 'O acúmulo de cobre na doença de Wilson lesa o túbulo proximal.' },
@@ -29,7 +29,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'ATR tipo II - mecanismo',
     e: 'Na acidose tubular renal proximal (tipo II), o pH urinário pode ficar abaixo de 5,5 quando a acidose já está estabelecida. Isso ocorre porque:',
-    o: ['O túbulo proximal passa a secretar hidrogênio em maior quantidade', 'A redução do bicarbonato plasmático diminui a carga filtrada abaixo do limiar de reabsorção reduzido, e o néfron distal íntegro consegue acidificar a urina', 'A aldosterona fica suprimida e bloqueia a secreção distal de potássio', 'A amônia passa a ser produzida no ducto coletor'],
+    o: ['O túbulo proximal passa a secretar mais hidrogênio', 'Menos bicarbonato filtrado que o limiar reduzido; distal acidifica a urina', 'A aldosterona fica suprimida e bloqueia a secreção de potássio', 'A amônia passa a ser produzida no ducto coletor'],
     g: 'B',
     c: 'Na acidose tubular tipo II o defeito é um limiar reduzido de reabsorção proximal de bicarbonato. No início há bicarbonatúria e urina alcalina, mas, quando o bicarbonato sérico cai até o novo limiar (em geral entre 14 e 20 mEq/L), toda a carga filtrada volta a ser reabsorvida e os mecanismos distais normais acidificam a urina. Por isso a acidose é autolimitada e menos grave que a do tipo I.',
     x: { A: 'O defeito é justamente a incapacidade proximal de recuperar o bicarbonato filtrado.', C: 'Na acidose tipo II a aldosterona costuma estar aumentada, e há perda de potássio.', D: 'A amônia é produzida no túbulo proximal, e isso não explica o comportamento do pH urinário.' },
@@ -37,7 +37,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'ATR tipo II - tratamento',
     e: 'Criança de 3 anos com acidose tubular renal proximal recebe reposição de bicarbonato em altas doses e evolui com piora importante da hipocalemia. A explicação é:',
-    o: ['O bicarbonato desloca potássio para o meio extracelular', 'O bicarbonato não reabsorvido no túbulo proximal chega ao néfron distal acompanhado de sódio, aumentando a secreção de potássio', 'O bicarbonato inibe a secreção de aldosterona', 'O bicarbonato bloqueia a reabsorção de potássio na alça de Henle'],
+    o: ['O bicarbonato desloca potássio para o meio extracelular', 'Bicarbonato chega ao distal com sódio: mais K+ secretado', 'O bicarbonato inibe a secreção de aldosterona renal', 'O bicarbonato bloqueia a reabsorção de K+ na alça'],
     g: 'B',
     c: 'Ao elevar o bicarbonato sérico acima do limiar proximal, o excesso é perdido na urina como ânion não reabsorvível, carregando sódio ao ducto coletor. A maior oferta distal de sódio, somada ao hiperaldosteronismo secundário, intensifica a troca por potássio e agrava a caliurese. Por isso o tipo II exige doses altas de álcali e, com frequência, reposição de potássio ou associação de tiazídico.',
     x: { A: 'O álcali desloca potássio para dentro das células, e não para fora.', C: 'Não há inibição da aldosterona; ela está elevada e contribui para a perda de potássio.', D: 'O bicarbonato não tem efeito bloqueador sobre o transporte na alça de Henle.' },
@@ -61,7 +61,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'ATR tipo IV',
     e: 'Homem de 66 anos, diabético há 18 anos, com creatinina de 1,8 mg/dL, apresenta potássio de 6,1 mEq/L, bicarbonato de 18 mEq/L, cloro de 112 mEq/L, ânion-gap normal e pH urinário de 5,2. O mecanismo desse distúrbio é:',
-    o: ['Defeito da reabsorção proximal de bicarbonato', 'Hipoaldosteronismo hiporreninêmico, em que a hipercalemia inibe a produção renal de amônia', 'Incapacidade das células intercaladas de secretar hidrogênio contra gradiente', 'Perda intestinal de bicarbonato por neuropatia autonômica'],
+    o: ['Defeito da reabsorção proximal de bicarbonato', 'Hipoaldosteronismo hiporreninêmico: hipercalemia inibe a amônia renal', 'Células intercaladas não secretam H+ contra o gradiente', 'Perda intestinal de bicarbonato por neuropatia autonômica'],
     g: 'B',
     c: 'A acidose tubular tipo IV decorre de deficiência ou resistência à aldosterona, sendo a nefropatia diabética a causa mais comum, por lesão do aparelho justaglomerular com baixa produção de renina. A falta de aldosterona reduz a secreção distal de potássio e hidrogênio, e a hipercalemia suprime a amoniogênese proximal, diminuindo a excreção de ácido. Como a bomba de hidrogênio distal está preservada, o pH urinário fica abaixo de 5,5.',
     x: { A: 'O defeito proximal caracteriza o tipo II, que cursa com hipocalemia.', C: 'Esse é o mecanismo do tipo I, com urina alcalina e hipocalemia.', D: 'A perda intestinal causaria hipocalemia, e não hipercalemia.' },
@@ -85,7 +85,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'Ânion-gap urinário',
     e: 'Paciente com acidose metabólica hiperclorêmica apresenta sódio urinário de 40 mEq/L, potássio urinário de 30 mEq/L e cloro urinário de 45 mEq/L. A interpretação do ânion-gap urinário é:',
-    o: ['Negativo, indicando excreção adequada de amônio, como na diarreia', 'Positivo, indicando excreção reduzida de amônio, compatível com acidose tubular renal', 'Nulo, sem valor para o diagnóstico diferencial', 'Positivo, indicando perda gastrointestinal de bicarbonato'],
+    o: ['Negativo: excreção adequada de amônio, como na diarreia', 'Positivo: amônio reduzido, compatível com ATR', 'Nulo: sem valor para o diagnóstico diferencial', 'Positivo: perda gastrointestinal de bicarbonato'],
     g: 'B',
     c: 'O ânion-gap urinário é calculado pela soma de sódio e potássio menos o cloro; aqui o resultado é positivo, de 25 mEq/L. Como o amônio é excretado junto com o cloro, um rim que responde bem à acidose elimina muito cloreto de amônio e torna o ânion-gap negativo. O valor positivo mostra que o rim não está excretando amônio, apontando para acidose de origem tubular.',
     x: { A: 'A conta resulta em valor positivo, e não negativo, com os dados fornecidos.', C: 'O índice é útil justamente para separar causa renal de causa extrarrenal.', D: 'Na perda intestinal o rim íntegro aumenta o amônio urinário e o ânion-gap fica negativo.' },
@@ -93,7 +93,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'Bartter',
     e: 'Lactente de 8 meses, nascido prematuro após gestação com polidrâmnio, apresenta poliúria, déficit de crescimento e episódios de desidratação. Exames: potássio de 2,4 mEq/L, bicarbonato de 34 mEq/L, cloro urinário elevado, renina e aldosterona elevadas, pressão arterial normal e hipercalciúria com nefrocalcinose. O diagnóstico e o local do defeito são:',
-    o: ['Síndrome de Gitelman; cotransportador de sódio e cloro do túbulo distal', 'Síndrome de Bartter; cotransportador de sódio, potássio e 2 cloros da porção espessa ascendente da alça de Henle', 'Síndrome de Liddle; canal epitelial de sódio do ducto coletor', 'Hiperaldosteronismo primário; zona glomerulosa da adrenal'],
+    o: ['Gitelman; cotransportador Na-Cl do túbulo distal', 'Bartter; cotransportador Na-K-2Cl da alça ascendente espessa', 'Liddle; canal epitelial de sódio do ducto coletor', 'Hiperaldosteronismo primário; zona glomerulosa da adrenal'],
     g: 'B',
     c: 'A síndrome de Bartter resulta de defeito no transporte de cloreto de sódio na alça ascendente espessa, reproduzindo o efeito crônico da furosemida. A perda de sal ativa o sistema renina-angiotensina-aldosterona, gerando hipocalemia e alcalose metabólica sem hipertensão. A perda do gradiente elétrico que impulsiona a reabsorção paracelular de cálcio causa hipercalciúria, e a falha da concentração medular explica a poliúria.',
     x: { A: 'A síndrome de Gitelman aparece mais tardiamente, com hipocalciúria e hipomagnesemia.', C: 'A síndrome de Liddle cursa com hipertensão e com renina e aldosterona suprimidas.', D: 'No hiperaldosteronismo primário há hipertensão e renina suprimida.' },
@@ -109,7 +109,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'Bartter x Gitelman',
     e: 'O dado laboratorial que melhor diferencia a síndrome de Bartter da síndrome de Gitelman é:',
-    o: ['O potássio sérico, baixo apenas na síndrome de Bartter', 'A calciúria, elevada na síndrome de Bartter e reduzida na síndrome de Gitelman', 'A renina plasmática, suprimida na síndrome de Gitelman', 'O cloro urinário, baixo na síndrome de Bartter'],
+    o: ['O potássio sérico, baixo apenas na síndrome de Bartter', 'A calciúria: alta no Bartter e baixa no Gitelman', 'A renina plasmática, suprimida na síndrome de Gitelman', 'O cloro urinário, baixo na síndrome de Bartter'],
     g: 'B',
     c: 'Ambas as síndromes cursam com alcalose metabólica hipocalêmica, renina e aldosterona elevadas, cloro urinário alto e pressão arterial normal ou baixa. A diferença está no manejo do cálcio: o defeito da alça de Henle produz hipercalciúria, como a furosemida, enquanto o defeito do túbulo distal produz hipocalciúria, como os tiazídicos. A hipomagnesemia é mais marcante na síndrome de Gitelman.',
     x: { A: 'A hipocalemia está presente nas duas síndromes e não as diferencia.', C: 'Nas duas há hiperaldosteronismo hiperreninêmico secundário à perda de sal.', D: 'O cloro urinário é elevado em ambas, pois a perda de cloreto é renal.' },
@@ -125,7 +125,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão com hipocalemia',
     e: 'No diagnóstico diferencial da hipertensão arterial com hipocalemia e alcalose metabólica, a combinação de renina baixa com aldosterona baixa é encontrada em qual grupo de condições?',
-    o: ['Estenose de artéria renal e tumor secretor de renina', 'Síndrome de Liddle, excesso aparente de mineralocorticoide e ingestão de alcaçuz', 'Hiperaldosteronismo primário por adenoma adrenal', 'Uso de diuréticos e hipertensão maligna'],
+    o: ['Estenose de artéria renal e tumor secretor de renina', 'Síndrome de Liddle, mineralocorticoide aparente e alcaçuz', 'Hiperaldosteronismo primário por adenoma adrenal', 'Uso de diuréticos e hipertensão maligna'],
     g: 'B',
     c: 'Renina e aldosterona suprimidas indicam que há ativação da via mineralocorticoide sem aldosterona. Isso ocorre quando o canal de sódio é constitutivamente ativo (Liddle) ou quando o cortisol ocupa o receptor mineralocorticoide por falha da enzima 11-beta-hidroxiesteroide desidrogenase tipo 2, seja por mutação (excesso aparente de mineralocorticoide), seja por inibição pelo ácido glicirrízico do alcaçuz.',
     x: { A: 'Nessas condições a renina está elevada e leva a hiperaldosteronismo secundário.', C: 'No hiperaldosteronismo primário a aldosterona está alta, com renina suprimida.', D: 'Diuréticos e hipertensão maligna cursam com renina e aldosterona elevadas.' },
@@ -149,7 +149,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'DI nefrogênico - tratamento',
     e: 'O uso de diurético tiazídico reduz o volume urinário no diabetes insipidus nefrogênico, o que parece paradoxal. O mecanismo desse efeito é:',
-    o: ['Aumento da sensibilidade do ducto coletor ao hormônio antidiurético', 'Depleção leve de volume que aumenta a reabsorção proximal de sódio e água, reduzindo a oferta de fluido aos segmentos distais', 'Estímulo direto à síntese de aquaporina-2', 'Aumento da osmolaridade do interstício medular'],
+    o: ['Maior sensibilidade do coletor ao hormônio antidiurético', 'Depleção de volume: mais reabsorção proximal, menos oferta distal', 'Estímulo direto à síntese de aquaporina-2 no coletor', 'Maior osmolaridade do interstício medular renal'],
     g: 'B',
     c: 'O tiazídico, associado a dieta pobre em sódio e em proteínas, provoca discreta contração do volume extracelular. Em resposta, o túbulo proximal reabsorve maior fração do filtrado, e chega menos fluido ao ducto coletor, que é incapaz de reabsorver água. O resultado é a redução do débito urinário, que pode ser potencializada por anti-inflamatórios e, no caso do lítio, pela amilorida.',
     x: { A: 'O tiazídico não restaura a resposta do ducto coletor ao hormônio antidiurético.', C: 'Não há estímulo direto à síntese de aquaporina como mecanismo principal.', D: 'O tiazídico atua no córtex e não aumenta a tonicidade do interstício medular.' },
@@ -165,7 +165,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'Diuréticos - cálcio',
     e: 'Homem de 47 anos, com nefrolitíase recorrente por oxalato de cálcio e hipercalciúria idiopática, mantém formação de cálculos apesar de boa ingestão hídrica e restrição de sódio. O diurético indicado para reduzir a calciúria é:',
-    o: ['Furosemida', 'Hidroclorotiazida', 'Acetazolamida', 'Manitol'],
+    o: ['Furosemida, diurético de alça', 'Hidroclorotiazida, diurético tiazídico', 'Acetazolamida, inibidor da anidrase carbônica', 'Manitol, diurético osmótico'],
     g: 'B',
     c: 'Os tiazídicos reduzem a excreção urinária de cálcio por dois mecanismos: a contração de volume aumenta a reabsorção proximal de sódio e de cálcio, e o bloqueio da entrada de sódio na célula do túbulo distal favorece a troca basolateral de sódio por cálcio, aumentando a reabsorção de cálcio. Por isso são usados na hipercalciúria e podem causar hipercalcemia.',
     x: { A: 'A furosemida aumenta a calciúria ao abolir o gradiente elétrico que reabsorve cálcio na alça.', C: 'A acetazolamida alcaliniza a urina e reduz o citrato, favorecendo cálculos de fosfato de cálcio.', D: 'O manitol é diurético osmótico sem efeito de redução da calciúria.' },
@@ -173,7 +173,7 @@ export const TUBULAR_3: QuestaoCompacta[] = [
   {
     s: 'Diuréticos - efeitos adversos',
     e: 'Mulher de 72 anos iniciou há 3 semanas um diurético para hipertensão arterial. É trazida com confusão mental e sódio sérico de 118 mEq/L, potássio de 3,0 mEq/L e osmolaridade urinária de 420 mOsm/kg. O diurético mais provavelmente envolvido e a razão são:',
-    o: ['Furosemida, porque aumenta a tonicidade do interstício medular', 'Tiazídico, porque prejudica a diluição urinária no túbulo distal sem comprometer o gradiente medular, mantendo a capacidade de reter água', 'Espironolactona, porque causa perda renal de potássio', 'Acetazolamida, porque provoca alcalose metabólica'],
+    o: ['Furosemida, porque aumenta a tonicidade medular', 'Tiazídico: piora a diluição sem desfazer o gradiente medular', 'Espironolactona, porque causa perda renal de K+', 'Acetazolamida, porque causa alcalose metabólica'],
     g: 'B',
     c: 'O túbulo distal é segmento diluidor; ao bloqueá-lo, o tiazídico impede a geração de água livre. Como o interstício medular continua hipertônico, o hormônio antidiurético segue promovendo reabsorção de água no ducto coletor, e o resultado é hiponatremia, mais comum em idosas de baixo peso. Os diuréticos de alça desfazem o gradiente medular e, por isso, raramente causam hiponatremia.',
     x: { A: 'A furosemida reduz a tonicidade medular e limita a retenção de água livre.', C: 'A espironolactona poupa potássio e tende a causar hipercalemia.', D: 'A acetazolamida provoca acidose metabólica hiperclorêmica, e não alcalose.' },

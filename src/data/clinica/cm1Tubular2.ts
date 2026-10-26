@@ -5,7 +5,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'NIA - etiologia',
     e: 'A causa mais frequente de nefrite intersticial aguda é:',
-    o: ['Infecção bacteriana ascendente', 'Reação de hipersensibilidade a medicamentos', 'Doença autoimune sistêmica', 'Deposição de cadeias leves'],
+    o: ['Infecção bacteriana ascendente, em geral', 'Reação de hipersensibilidade a medicamentos', 'Doença autoimune sistêmica, em geral', 'Deposição de cadeias leves, em geral'],
     g: 'B',
     c: 'Os medicamentos respondem pela maioria dos casos de nefrite intersticial aguda, por um mecanismo de hipersensibilidade mediada por linfócitos T, que independe da dose. Os principais grupos são antibióticos beta-lactâmicos, sulfas, rifampicina, quinolonas, anti-inflamatórios não esteroides, inibidores da bomba de prótons, alopurinol e, mais recentemente, os inibidores de checkpoint imunológico.',
     x: { A: 'Infecções são causa possível, mas bem menos frequente que os medicamentos atualmente.', C: 'Doenças como Sjögren e sarcoidose respondem por uma minoria dos casos.', D: 'A deposição de cadeias leves causa a nefropatia do cilindro do mieloma, outra entidade.' },
@@ -13,7 +13,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'NIA - quadro clínico',
     e: 'Homem de 48 anos, em uso de oxacilina há 12 dias por endocardite, evolui com febre, exantema maculopapular, artralgia e creatinina de 3,1 mg/dL (prévia de 0,9). O hemograma mostra eosinofilia e o exame de urina revela piúria estéril, hematúria discreta, proteinúria de 0,6 g por dia e cilindros leucocitários. O diagnóstico mais provável é:',
-    o: ['Glomerulonefrite associada à endocardite', 'Nefrite intersticial aguda induzida por droga', 'Necrose tubular aguda por sepse', 'Embolia séptica renal'],
+    o: ['Glomerulonefrite associada à endocardite', 'Nefrite intersticial aguda induzida por droga', 'Necrose tubular aguda por sepse', 'Embolia séptica renal, com infartos'],
     g: 'B',
     c: 'A associação de febre, exantema e eosinofilia após dias de uso de um beta-lactâmico, com piúria estéril e cilindros leucocitários, caracteriza a nefrite intersticial alérgica. O infiltrado inflamatório do interstício comprime os túbulos e lesa suas células, reduzindo a filtração. A proteinúria é discreta, de padrão tubular, pois o glomérulo é poupado.',
     x: { A: 'A glomerulonefrite da endocardite teria hematúria dismórfica, cilindros hemáticos e complemento baixo.', C: 'Na necrose tubular predominam cilindros granulosos pigmentados, sem exantema ou eosinofilia.', D: 'A embolia séptica causa dor lombar e hematúria, não uma síndrome de hipersensibilidade.' },
@@ -29,7 +29,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'NIA por AINE',
     e: 'Mulher de 63 anos usa naproxeno diariamente há 5 meses por osteoartrite. Apresenta edema de membros inferiores, creatinina de 2,7 mg/dL e proteinúria de 6 g em 24 horas, sem febre, exantema ou eosinofilia. A biópsia renal mais provavelmente mostrará:',
-    o: ['Glomerulonefrite crescêntica pauci-imune', 'Nefrite intersticial associada a doença de lesão mínima', 'Glomeruloesclerose nodular', 'Necrose cortical bilateral'],
+    o: ['GN crescêntica pauci-imune, com ANCA positivo', 'Nefrite intersticial associada à doença de lesão mínima', 'Glomeruloesclerose nodular, em diabéticos', 'Necrose cortical bilateral, com anúria persistente'],
     g: 'B',
     c: 'Os anti-inflamatórios não esteroides produzem uma forma particular de nefrite intersticial, que surge após meses de uso, sem sinais de hipersensibilidade, e que pode vir acompanhada de síndrome nefrótica por doença de lesão mínima. Acredita-se que o desvio do ácido araquidônico para a via dos leucotrienos ative linfócitos T, que lesam o interstício e os podócitos.',
     x: { A: 'A forma crescêntica cursa com síndrome nefrítica e perda rápida de função, não com esse padrão.', C: 'A glomeruloesclerose nodular é a lesão da nefropatia diabética avançada.', D: 'A necrose cortical ocorre em catástrofes obstétricas e choque grave, com anúria.' },
@@ -37,7 +37,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'NIA - eosinofilúria',
     e: 'Sobre a pesquisa de eosinófilos na urina no diagnóstico de nefrite intersticial aguda, assinale a alternativa correta:',
-    o: ['É exame patognomônico, dispensando a biópsia renal', 'Tem sensibilidade e especificidade limitadas, podendo ser positiva em ateroembolismo, infecção urinária e glomerulonefrites', 'É sempre negativa nos casos causados por antibióticos', 'É realizada com a coloração de Gram'],
+    o: ['Exame patognomônico, que dispensa a biópsia renal', 'Sensibilidade limitada; positiva também em ateroembolismo e ITU', 'Sempre negativa nos casos causados por antibióticos', 'Feita com a coloração de Gram, na amostra de urina'],
     g: 'B',
     c: 'A eosinofilúria, pesquisada pelas colorações de Hansel ou Wright, foi por muito tempo valorizada, mas estudos com biópsia mostraram baixo desempenho: falta em muitos casos confirmados e aparece em outras doenças, como ateroembolismo por colesterol, prostatite, cistite e glomerulonefrite rapidamente progressiva. O padrão-ouro para o diagnóstico continua sendo a biópsia renal.',
     x: { A: 'O exame não é patognomônico e a biópsia permanece como o padrão-ouro diagnóstico.', C: 'É justamente nos casos por beta-lactâmicos que a eosinofilúria é mais encontrada.', D: 'A coloração de Gram não evidencia eosinófilos; usam-se as colorações de Hansel ou Wright.' },
@@ -53,7 +53,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'NIA - histologia',
     e: 'O achado histológico característico da nefrite intersticial aguda é:',
-    o: ['Crescentes celulares em mais da metade dos glomérulos', 'Edema e infiltrado inflamatório intersticial com linfócitos, monócitos e eosinófilos, com tubulite e glomérulos preservados', 'Depósitos subepiteliais de imunocomplexos com espículas na membrana basal', 'Trombos de fibrina nos capilares glomerulares'],
+    o: ['Crescentes celulares em mais da metade dos glomérulos', 'Edema e infiltrado intersticial com eosinófilos; glomérulos íntegros', 'Depósitos subepiteliais de imunocomplexos com espículas', 'Trombos de fibrina nos capilares glomerulares'],
     g: 'B',
     c: 'Na nefrite intersticial aguda o interstício está edemaciado e infiltrado por células mononucleares, com número variável de eosinófilos, e os linfócitos invadem o epitélio tubular (tubulite). Glomérulos e vasos são poupados, o que explica a proteinúria discreta. Granulomas podem aparecer em casos por drogas, sarcoidose ou tuberculose.',
     x: { A: 'As crescentes definem a glomerulonefrite rapidamente progressiva, doença do glomérulo.', C: 'Depósitos subepiteliais com espículas caracterizam a nefropatia membranosa.', D: 'Trombos de fibrina glomerulares indicam microangiopatia trombótica.' },
@@ -69,7 +69,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'TINU e outras causas',
     e: 'Adolescente de 15 anos, sexo feminino, apresenta fadiga, perda de peso, creatinina de 1,9 mg/dL, glicosúria com glicemia normal e proteinúria tubular. Três semanas depois surge dor e hiperemia ocular bilateral, com diagnóstico de uveíte anterior. A hipótese mais provável é:',
-    o: ['Síndrome de Alport', 'Síndrome de nefrite tubulointersticial e uveíte', 'Granulomatose com poliangiite', 'Cistinose nefropática'],
+    o: ['Síndrome de Alport, com surdez', 'Nefrite tubulointersticial e uveíte (TINU)', 'Granulomatose com poliangiite, com ANCA', 'Cistinose nefropática, com cristais'],
     g: 'B',
     c: 'A síndrome de nefrite tubulointersticial e uveíte acomete principalmente adolescentes e mulheres jovens, combinando nefrite intersticial aguda com sinais de disfunção tubular proximal e uveíte anterior bilateral, que pode preceder ou suceder o quadro renal. Tem provável base autoimune e costuma responder bem ao corticoide.',
     x: { A: 'A síndrome de Alport cursa com hematúria, surdez neurossensorial e lenticone, não com uveíte.', C: 'A granulomatose com poliangiite causa glomerulonefrite necrosante e acometimento de vias aéreas.', D: 'A cistinose manifesta-se no lactente com síndrome de Fanconi e depósitos de cristais na córnea.' },
@@ -109,7 +109,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'Nefropatia do refluxo',
     e: 'Mulher de 24 anos, com história de infecções urinárias febris de repetição na infância, apresenta hipertensão arterial, creatinina de 1,5 mg/dL e proteinúria de 1,8 g por dia. A cintilografia renal com DMSA mostra cicatrizes corticais nos polos renais. Sobre essa condição, é correto afirmar:',
-    o: ['O exame de escolha para demonstrar o refluxo é a cintilografia com DMSA', 'As cicatrizes decorrem de refluxo vesicoureteral com infecção, e a proteinúria crescente sugere glomeruloesclerose segmentar e focal secundária', 'A lesão é causada por depósito de imunocomplexos após as infecções', 'A hipertensão arterial é rara nessa nefropatia'],
+    o: ['O exame de escolha para o refluxo é a cintilografia DMSA', 'Cicatrizes do refluxo com infecção; proteinúria sugere GESF secundária', 'Lesão por imunocomplexos depositados após as infecções', 'Hipertensão arterial é rara nessa nefropatia'],
     g: 'B',
     c: 'O refluxo vesicoureteral permite que urina infectada alcance o parênquima, sobretudo nos polos, onde as papilas compostas facilitam o refluxo intrarrenal, gerando cicatrizes. A perda de néfrons leva à hiperfiltração dos remanescentes e a glomeruloesclerose segmentar e focal secundária, com proteinúria e hipertensão. A uretrocistografia miccional demonstra o refluxo, enquanto o DMSA identifica as cicatrizes.',
     x: { A: 'O DMSA detecta cicatrizes; o refluxo é demonstrado pela uretrocistografia miccional.', C: 'O mecanismo é a lesão por infecção e pressão retrógrada, sem participação de imunocomplexos.', D: 'A nefropatia do refluxo é causa importante de hipertensão em crianças e adultos jovens.' },
@@ -117,7 +117,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'Ácido úrico - nefropatia aguda',
     e: 'Na nefropatia aguda por ácido úrico, a precipitação dos cristais ocorre preferencialmente nos túbulos distais e ductos coletores porque:',
-    o: ['Nesses segmentos o pH urinário é alcalino, o que reduz a solubilidade do urato', 'Nesses segmentos a urina está mais concentrada e mais ácida, favorecendo a forma não dissociada e pouco solúvel do ácido úrico', 'O ácido úrico é secretado ativamente apenas no ducto coletor', 'A proteína de Tamm-Horsfall dissolve os cristais no túbulo proximal'],
+    o: ['O pH urinário é alcalino, e reduz a solubilidade do urato', 'Urina mais concentrada e ácida: forma não dissociada, pouco solúvel', 'O urato é secretado ativamente só no ducto coletor', 'A Tamm-Horsfall dissolve os cristais no túbulo proximal'],
     g: 'B',
     c: 'O ácido úrico é um ácido fraco; em pH urinário baixo predomina a forma não ionizada, que é muito menos solúvel que o urato. Como a acidificação máxima e a concentração da urina acontecem no néfron distal, é ali que os cristais precipitam e obstruem os túbulos. Uma relação ácido úrico/creatinina urinária acima de 1 em amostra isolada sugere esse diagnóstico.',
     x: { A: 'O pH alcalino aumenta a solubilidade do ácido úrico, em vez de reduzi-la.', C: 'O manejo tubular do urato ocorre essencialmente no túbulo proximal.', D: 'A proteína de Tamm-Horsfall é produzida na alça de Henle e não dissolve cristais de urato.' },
@@ -125,7 +125,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'Ácido úrico - formas',
     e: 'O ácido úrico pode lesar o rim por três formas distintas. A alternativa que as descreve corretamente é:',
-    o: ['Glomerulonefrite membranosa, amiloidose e nefrocalcinose', 'Nefropatia aguda por obstrução tubular por cristais, nefropatia crônica com tofos no interstício medular e nefrolitíase por cálculos radiotransparentes', 'Nefrite lúpica, vasculite e trombose de veia renal', 'Diabetes insipidus nefrogênico, síndrome de Fanconi e acidose tubular distal'],
+    o: ['GN membranosa, amiloidose e nefrocalcinose renal', 'Cristais tubulares, tofos medulares e cálculos radiotransparentes', 'Nefrite lúpica, vasculite e trombose de veia renal', 'DI nefrogênico, síndrome de Fanconi e ATR distal'],
     g: 'B',
     c: 'A forma aguda decorre da precipitação maciça de cristais nos túbulos, como na lise tumoral. A forma crônica, hoje rara e de existência discutida como entidade isolada, consiste em depósitos de urato monossódico no interstício medular com reação inflamatória. A terceira é a litíase, cujos cálculos são radiotransparentes na radiografia simples e se formam em urina persistentemente ácida.',
     x: { A: 'Nenhuma dessas lesões glomerulares ou de depósito é causada pelo ácido úrico.', C: 'Essas são doenças imunológicas e vasculares, sem relação com hiperuricemia.', D: 'Esses distúrbios tubulares não fazem parte do espectro de lesão renal pelo urato.' },
@@ -133,7 +133,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'Lítio',
     e: 'Homem de 49 anos, com transtorno bipolar em uso de carbonato de lítio há 14 anos, queixa-se de poliúria de 6 litros por dia e noctúria. Exames: sódio de 146 mEq/L, osmolaridade urinária de 160 mOsm/kg, sem resposta à desmopressina, e creatinina de 1,7 mg/dL. Sobre a nefrotoxicidade do lítio, é correto afirmar:',
-    o: ['O lítio inibe a liberação de hormônio antidiurético pela neuro-hipófise', 'O lítio entra na célula principal do ducto coletor pelo canal epitelial de sódio e reduz a expressão de aquaporina-2, causando diabetes insipidus nefrogênico, além de nefrite intersticial crônica com o uso prolongado', 'A lesão típica é uma glomerulonefrite proliferativa difusa', 'O quadro deve ser tratado com restrição hídrica rigorosa'],
+    o: ['O lítio inibe a liberação de ADH pela neuro-hipófise', 'O lítio entra pelo ENaC e reduz a AQP2: DI nefrogênico', 'A lesão típica é GN proliferativa difusa, com crescentes', 'Tratar com restrição hídrica rigorosa, em todos'],
     g: 'B',
     c: 'O lítio penetra na célula principal pelo canal epitelial de sódio da membrana luminal e interfere na sinalização do hormônio antidiurético, reduzindo a inserção de aquaporina-2 e gerando resistência ao hormônio. O uso por muitos anos pode levar a nefrite tubulointersticial crônica com microcistos e queda da filtração. A amilorida, ao bloquear o canal epitelial de sódio, reduz a entrada do lítio na célula e melhora a poliúria.',
     x: { A: 'O defeito é renal, de resistência ao hormônio, e por isso não há resposta à desmopressina.', C: 'O lítio causa doença tubulointersticial, e não glomerulonefrite proliferativa.', D: 'A restrição hídrica levaria a hipernatremia grave, já que o rim não consegue concentrar a urina.' },
@@ -141,7 +141,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'Lítio - outras complicações',
     e: 'Além dos efeitos renais, o uso crônico de lítio associa-se classicamente a qual distúrbio endócrino-metabólico?',
-    o: ['Hipocalcemia por hipoparatireoidismo', 'Hipercalcemia por hiperparatireoidismo, além de hipotireoidismo', 'Hipoglicemia por hiperinsulinismo', 'Insuficiência adrenal primária'],
+    o: ['Hipocalcemia por hipoparatireoidismo, com tetania', 'Hipercalcemia por hiperparatireoidismo e hipotireoidismo', 'Hipoglicemia por hiperinsulinismo, com sudorese', 'Insuficiência adrenal primária, com hipercalemia'],
     g: 'B',
     c: 'O lítio eleva o limiar do sensor de cálcio das paratireoides, de modo que é necessária uma calcemia mais alta para suprimir o paratormônio, resultando em hipercalcemia com paratormônio inapropriadamente elevado. Também inibe a síntese e a liberação de hormônio tireoidiano, causando bócio e hipotireoidismo. A hipercalcemia, por sua vez, agrava o defeito de concentração urinária.',
     x: { A: 'O efeito do lítio sobre as paratireoides é de estimulação, com hipercalcemia.', C: 'O lítio não causa hiperinsulinismo nem hipoglicemia como efeito característico.', D: 'Não há associação clássica entre lítio e insuficiência adrenal.' },
@@ -157,7 +157,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'Rim do mieloma',
     e: 'Homem de 67 anos apresenta dor lombar, anemia, cálcio de 12,4 mg/dL e creatinina de 4,1 mg/dL. A fita reagente urinária mostra proteína negativa, mas a proteinúria de 24 horas quantificada é de 4,5 g. Essa discrepância se explica porque:',
-    o: ['A fita reagente perde sensibilidade em urina concentrada', 'A fita reagente detecta principalmente albumina e não reage com as cadeias leves de imunoglobulina', 'A proteinúria é intermitente, ocorrendo apenas à noite', 'A hipercalcemia interfere quimicamente na reação da fita'],
+    o: ['A fita perde sensibilidade em urina concentrada', 'A fita detecta albumina e não reage com cadeias leves', 'A proteinúria é intermitente, só à noite', 'A hipercalcemia interfere quimicamente na fita'],
     g: 'B',
     c: 'A fita reagente usa um indicador sensível sobretudo à albumina e praticamente não detecta as cadeias leves (proteína de Bence Jones). No mieloma, as cadeias leves são filtradas livremente e aparecem na urina em grande quantidade, sendo demonstradas por métodos que dosam proteína total, como o ácido sulfossalicílico, e pela eletroforese com imunofixação. A discrepância é uma pista clássica da doença.',
     x: { A: 'A urina concentrada tenderia a aumentar, e não a anular, a positividade da fita.', C: 'Não há padrão noturno; a diferença está no tipo de proteína detectada por cada método.', D: 'O cálcio sérico não interfere na reação química da fita urinária.' },
@@ -165,7 +165,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'Rim do mieloma - mecanismo',
     e: 'A lesão renal mais comum no mieloma múltiplo, chamada nefropatia do cilindro ou rim do mieloma, decorre de:',
-    o: ['Deposição de amiloide AA no mesângio', 'Precipitação de cadeias leves com a proteína de Tamm-Horsfall no néfron distal, formando cilindros obstrutivos, além de toxicidade direta ao túbulo proximal', 'Infiltração do parênquima renal por plasmócitos', 'Vasculite de pequenos vasos mediada por crioglobulinas'],
+    o: ['Depósito de amiloide AA no mesângio dos glomérulos', 'Cadeias leves + Tamm-Horsfall no néfron distal; toxicidade tubular', 'Infiltração do parênquima renal por plasmócitos', 'Vasculite de pequenos vasos por crioglobulinas'],
     g: 'B',
     c: 'Quando a carga filtrada de cadeias leves supera a capacidade de reabsorção do túbulo proximal, elas chegam ao néfron distal e se ligam à uromodulina (proteína de Tamm-Horsfall), formando cilindros densos e fraturados, cercados por reação de células gigantes, que obstruem os túbulos. Desidratação, hipercalcemia, contraste, anti-inflamatórios e diuréticos de alça favorecem essa precipitação.',
     x: { A: 'No mieloma a amiloidose é do tipo AL, e esse não é o mecanismo da nefropatia do cilindro.', C: 'A infiltração plasmocitária do rim é rara e não é a causa habitual da insuficiência renal.', D: 'A crioglobulinemia causa glomerulonefrite membranoproliferativa, outro tipo de lesão.' },
@@ -189,7 +189,7 @@ export const TUBULAR_2: QuestaoCompacta[] = [
   {
     s: 'Sjögren e interstício',
     e: 'Mulher de 46 anos, com xerostomia, xeroftalmia e anti-Ro positivo, apresenta fraqueza muscular. Exames: potássio de 2,6 mEq/L, bicarbonato de 15 mEq/L, cloro elevado, ânion-gap normal e pH urinário de 6,8. A lesão renal mais característica dessa doença é:',
-    o: ['Glomerulonefrite membranosa', 'Nefrite tubulointersticial crônica com acidose tubular renal distal', 'Glomerulonefrite crescêntica com anticorpo antimembrana basal', 'Nefropatia por IgA'],
+    o: ['GN membranosa, com proteinúria nefrótica', 'Nefrite tubulointersticial crônica com ATR distal', 'GN crescêntica antimembrana basal, com hemoptise', 'Nefropatia por IgA, com hematúria'],
     g: 'B',
     c: 'Na síndrome de Sjögren o acometimento renal típico é a infiltração linfocitária do interstício, análoga à que ocorre nas glândulas exócrinas. A lesão dos segmentos distais prejudica a secreção de hidrogênio, causando acidose tubular renal tipo I, com hipocalemia que pode chegar à paralisia e incapacidade de acidificar a urina. Pode haver também diabetes insipidus nefrogênico.',
     x: { A: 'A nefropatia membranosa não é a lesão renal característica da síndrome de Sjögren.', C: 'A doença antimembrana basal não tem relação com a síndrome de Sjögren.', D: 'A nefropatia por IgA cursa com hematúria recorrente, e não com acidose tubular.' },

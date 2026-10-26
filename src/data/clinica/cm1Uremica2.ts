@@ -5,7 +5,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia: eletrocardiograma',
     e: 'A alteração eletrocardiográfica mais precoce da hipercalemia é:',
-    o: ['Alargamento do complexo QRS', 'Onda T alta, apiculada e de base estreita', 'Desaparecimento da onda P', 'Aparecimento de onda U proeminente'],
+    o: ['Alargamento do QRS, tardio', 'Onda T alta, apiculada e de base estreita', 'Desaparecimento da onda P, tardio', 'Onda U proeminente, da hipocalemia'],
     g: 'B',
     c: 'O excesso de potássio extracelular acelera a repolarização ventricular, produzindo ondas T altas, simétricas e em tenda, mais visíveis nas derivações precordiais. Com a progressão surgem achatamento e desaparecimento da onda P, prolongamento do PR, alargamento do QRS e, por fim, padrão sinusoidal, fibrilação ventricular ou assistolia.',
     x: { A: 'O alargamento do QRS é alteração mais tardia, que indica maior gravidade.', C: 'A onda P desaparece depois do surgimento da onda T apiculada.', D: 'A onda U proeminente é achado característico da hipocalemia.' },
@@ -21,7 +21,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Mecanismo do cálcio na hipercalemia',
     e: 'Sobre o uso de gluconato de cálcio na hipercalemia, é correto afirmar que:',
-    o: ['Reduz o potássio sérico por promover sua entrada nas células', 'Estabiliza a membrana do miócito cardíaco sem alterar a concentração de potássio, com efeito de curta duração', 'Aumenta a excreção renal de potássio', 'Deve ser reservado aos pacientes com hipocalcemia associada'],
+    o: ['Reduz o K+ sérico, por entrada nas células', 'Estabiliza a membrana do miócito; curta duração', 'Aumenta a excreção renal de potássio, na urina', 'Reservado a pacientes com hipocalcemia associada'],
     g: 'B',
     c: 'A hipercalemia despolariza parcialmente a membrana e inativa canais de sódio; o cálcio eleva o limiar de excitação e restaura a diferença entre o potencial de repouso e o limiar, antagonizando o efeito cardíaco do potássio. Como não reduz a calemia e seu efeito dura de 30 a 60 minutos, deve ser seguido de outras medidas e pode ser repetido se o eletrocardiograma não normalizar.',
     x: { A: 'O deslocamento para o intracelular é efeito da insulina, dos beta-2 agonistas e do bicarbonato.', C: 'A excreção renal é aumentada por diuréticos de alça, não pelo cálcio.', D: 'A indicação é a alteração eletrocardiográfica, independentemente da calcemia.' },
@@ -29,7 +29,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Insulina com glicose',
     e: 'A solução de insulina regular com glicose reduz o potássio sérico porque:',
-    o: ['Aumenta a secreção de potássio no túbulo coletor', 'Estimula a bomba de sódio e potássio, deslocando o potássio para o meio intracelular', 'Troca potássio por cálcio na luz intestinal', 'Antagoniza a aldosterona no néfron distal'],
+    o: ['Aumenta a secreção de K+ no túbulo coletor', 'Estimula a Na-K-ATPase: K+ para dentro da célula', 'Troca K+ por cálcio na luz intestinal', 'Antagoniza a aldosterona no néfron distal'],
     g: 'B',
     c: 'A insulina ativa a sódio-potássio ATPase no músculo e no fígado, levando potássio para dentro das células, com início de ação em 15 a 30 minutos e duração de algumas horas. A glicose é associada apenas para prevenir hipoglicemia, e a glicemia deve ser monitorada, pois o risco é maior na insuficiência renal.',
     x: { A: 'A insulina não aumenta a excreção renal; o potássio corporal total não se altera.', C: 'A troca na luz intestinal é o mecanismo das resinas de troca iônica.', D: 'Antagonizar a aldosterona reteria potássio, o que agravaria a hipercalemia.' },
@@ -45,7 +45,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Bicarbonato de sódio',
     e: 'No tratamento da hipercalemia, o bicarbonato de sódio venoso tem maior utilidade quando:',
-    o: ['É usado como medida isolada em qualquer paciente', 'Há acidose metabólica associada e o paciente tolera a carga de sódio e volume', 'O paciente está hipervolêmico e anúrico', 'Existe alcalose metabólica concomitante'],
+    o: ['Usado como medida isolada em qualquer paciente', 'Há acidose metabólica e o paciente tolera sódio e volume', 'O paciente está hipervolêmico e anúrico', 'Existe alcalose metabólica concomitante'],
     g: 'B',
     c: 'A correção da acidemia favorece a entrada de potássio na célula em troca de hidrogênio e, havendo diurese, aumenta a oferta distal de sódio e a secreção de potássio. Seu efeito é modesto e lento quando usado isoladamente, e a carga de sódio pode precipitar congestão em pacientes oligúricos.',
     x: { A: 'Como medida isolada tem efeito pequeno e inconsistente sobre a calemia.', C: 'No hipervolêmico anúrico a carga de sódio pode causar edema agudo de pulmão.', D: 'Na alcalose o bicarbonato está contraindicado e não traria benefício.' },
@@ -61,7 +61,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Resinas de troca',
     e: 'Sobre o poliestirenossulfonato de cálcio no tratamento da hipercalemia, é correto afirmar:',
-    o: ['Tem início de ação em minutos, sendo a primeira escolha na emergência', 'Troca cálcio por potássio no intestino, tem início de ação lento e pode causar constipação e, raramente, necrose intestinal', 'Atua deslocando o potássio para o meio intracelular', 'É contraindicado em pacientes com doença renal crônica'],
+    o: ['Início em minutos: primeira escolha na emergência', 'Troca cálcio por K+ no intestino; início lento; constipa', 'Desloca o potássio para o meio intracelular', 'Contraindicado em pacientes com DRC'],
     g: 'B',
     c: 'A resina libera cálcio e se liga ao potássio na luz do cólon, eliminando-o nas fezes, com efeito que demora horas. Não é medida de emergência e deve ser evitada em pacientes com íleo, obstrução ou pós-operatório abdominal recente, pelo risco de lesão isquêmica do cólon.',
     x: { A: 'O início de ação é de horas, o que a torna inadequada como medida inicial na emergência.', C: 'Ela remove potássio pelo trato digestivo, sem deslocá-lo para dentro das células.', D: 'É bastante usada justamente na doença renal crônica com hipercalemia crônica.' },
@@ -77,7 +77,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Indicações de diálise de urgência',
     e: 'São indicações de terapia de substituição renal de urgência na lesão renal aguda todas as situações abaixo, EXCETO:',
-    o: ['Hipercalemia refratária ao tratamento clínico', 'Edema agudo de pulmão refratário a diuréticos', 'Pericardite urêmica', 'Creatinina de 5,0 mg/dL em paciente assintomático, com diurese preservada e sem distúrbios refratários'],
+    o: ['Hipercalemia refratária ao tratamento clínico', 'Edema agudo de pulmão refratário a diuréticos', 'Pericardite urêmica, com atrito pericárdico', 'Creatinina 5,0 em assintomático e sem distúrbios refratários'],
     g: 'D',
     c: 'A indicação de diálise de urgência se baseia em complicações, e não em um valor isolado de creatinina ou ureia: hipercalemia, acidose e hipervolemia refratárias, sinais de uremia (pericardite, encefalopatia, sangramento) e algumas intoxicações dialisáveis. Paciente estável e com diurese pode ser acompanhado de perto com tratamento conservador.',
     x: { A: 'A hipercalemia refratária é indicação clássica, pelo risco de arritmia fatal.', B: 'A hipervolemia refratária exige ultrafiltração para remover o excesso de volume.', C: 'A pericardite urêmica indica diálise pelo risco de tamponamento cardíaco.' },
@@ -85,7 +85,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Pericardite urêmica',
     e: 'Homem de 52 anos com lesão renal aguda e ureia de 280 mg/dL refere dor torácica que piora ao deitar e melhora ao inclinar o tronco para a frente. Ausculta-se atrito pericárdico. A conduta e o cuidado específico são:',
-    o: ['Anti-inflamatório não esteroide em dose plena e alta hospitalar', 'Hemodiálise de urgência, preferencialmente sem heparina ou com mínima anticoagulação', 'Pericardiocentese imediata em todos os casos', 'Anticoagulação plena com heparina e observação'],
+    o: ['AINE em dose plena e alta hospitalar', 'Hemodiálise de urgência, sem heparina ou com mínima', 'Pericardiocentese imediata em todos os casos', 'Heparina plena e observação clínica em enfermaria'],
     g: 'B',
     c: 'A pericardite urêmica decorre da inflamação das serosas por toxinas retidas e é indicação formal de diálise. O derrame costuma ser hemorrágico, de modo que a anticoagulação durante a sessão deve ser evitada ou minimizada, para não precipitar hemopericárdio e tamponamento.',
     x: { A: 'Os anti-inflamatórios são nefrotóxicos e não tratam a causa, que é a uremia.', C: 'A pericardiocentese fica reservada aos casos com tamponamento cardíaco.', D: 'A anticoagulação plena aumenta o risco de sangramento pericárdico e tamponamento.' },
@@ -101,7 +101,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Sangramento urêmico',
     e: 'O sangramento associado à uremia é explicado principalmente por:',
-    o: ['Plaquetopenia grave por hiperesplenismo', 'Disfunção plaquetária, com adesão e agregação prejudicadas, apesar de contagem de plaquetas e coagulograma normais', 'Deficiência dos fatores dependentes de vitamina K', 'Hiperfibrinólise primária'],
+    o: ['Plaquetopenia grave por hiperesplenismo', 'Disfunção plaquetária; contagem e coagulograma normais', 'Deficiência de fatores dependentes de vitamina K', 'Hiperfibrinólise primária, com fibrinogênio baixo'],
     g: 'B',
     c: 'As toxinas urêmicas prejudicam a interação das plaquetas com o fator de von Willebrand e com o endotélio, e a anemia reduz o deslocamento das plaquetas para junto da parede do vaso. O resultado é tempo de sangramento prolongado com plaquetas, tempo de protrombina e tempo de tromboplastina parcial normais; o tratamento inclui diálise, desmopressina, crioprecipitado e correção da anemia.',
     x: { A: 'A contagem de plaquetas é normal ou apenas discretamente reduzida na uremia.', C: 'O tempo de protrombina é normal, pois não há deficiência de fatores da coagulação.', D: 'A fibrinólise primária não é o mecanismo do sangramento urêmico.' },
@@ -117,7 +117,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Acidose metabólica refratária',
     e: 'Na lesão renal aguda, a acidose metabólica decorre da incapacidade de excretar ácidos fixos e regenerar bicarbonato. Sobre seu manejo, é correto afirmar:',
-    o: ['Qualquer redução do bicarbonato sérico exige diálise imediata', 'A acidose grave e refratária, especialmente em paciente oligúrico e hipervolêmico que não tolera bicarbonato, é indicação de terapia de substituição renal', 'O bicarbonato de sódio é contraindicado em qualquer situação', 'A hiperventilação mecânica é o tratamento definitivo'],
+    o: ['Qualquer redução do bicarbonato exige diálise imediata', 'Acidose grave e refratária, oligúria e hipervolemia: diálise', 'Bicarbonato de sódio contraindicado em toda situação', 'A hiperventilação mecânica é o tratamento definitivo'],
     g: 'B',
     c: 'A acidose leve a moderada é tratada com controle da causa e, se necessário, bicarbonato. Quando é grave (pH abaixo de 7,1 a 7,2) e persistente, ou quando o paciente não tolera a carga de sódio por estar hipervolêmico, a diálise corrige o distúrbio ao remover ácidos e fornecer base pelo dialisato.',
     x: { A: 'Acidose leve é manejada clinicamente, sem necessidade de diálise.', C: 'O bicarbonato pode ser usado na acidose grave quando o paciente tolera volume.', D: 'A hiperventilação é compensação transitória e não remove os ácidos fixos retidos.' },
@@ -125,7 +125,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Reposição volêmica',
     e: 'Na prevenção e no manejo inicial da lesão renal aguda em paciente hipovolêmico, a recomendação quanto à reposição volêmica é:',
-    o: ['Usar hidroxietilamido como expansor de escolha', 'Usar cristaloides isotônicos, guiando o volume pela resposta hemodinâmica e evitando sobrecarga hídrica', 'Manter balanço hídrico positivo crescente até normalizar a creatinina', 'Usar albumina humana de rotina em todos os pacientes'],
+    o: ['Hidroxietilamido como expansor de escolha', 'Cristaloides isotônicos, guiados pela resposta, sem sobrecarga', 'Balanço hídrico positivo crescente até normalizar a creatinina', 'Albumina humana de rotina em todos os pacientes'],
     g: 'B',
     c: 'Os cristaloides isotônicos são a primeira escolha, com preferência crescente por soluções balanceadas quando se usam grandes volumes, pois a salina em excesso causa acidose hiperclorêmica. Corrigida a hipovolemia, insistir em volume não melhora a função renal e a sobrecarga hídrica aumenta a mortalidade.',
     x: { A: 'Os amidos aumentam o risco de lesão renal aguda e de necessidade de diálise.', C: 'O balanço positivo acumulado causa congestão renal e piora o prognóstico.', D: 'A albumina tem indicações específicas, como no cirrótico, e não é de uso rotineiro.' },
@@ -141,7 +141,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Nefrotóxicos',
     e: 'Idoso com doença renal crônica estágio 3 interna por pneumonia e desidratação, evoluindo com piora da creatinina. Faz uso de losartana, hidroclorotiazida, ibuprofeno e metformina. Além da hidratação, a conduta mais adequada em relação aos medicamentos é:',
-    o: ['Manter todos, pois a suspensão descompensaria as doenças de base', 'Suspender temporariamente o anti-inflamatório, o bloqueador do receptor de angiotensina, o diurético e a metformina, e ajustar as doses dos demais fármacos pela função renal', 'Suspender apenas a metformina', 'Trocar a losartana por enalapril'],
+    o: ['Manter todos: suspender descompensa as doenças de base', 'Suspender AINE, BRA, diurético e metformina; ajustar doses', 'Suspender apenas a metformina, e manter os demais', 'Trocar a losartana por enalapril, mantendo os demais'],
     g: 'B',
     c: 'Na lesão renal aguda com hipovolemia, retiram-se as drogas que prejudicam a autorregulação glomerular (anti-inflamatórios, bloqueadores do sistema renina-angiotensina) e os diuréticos, que perpetuam a hipoperfusão. A metformina é suspensa pelo risco de acúmulo e acidose lática, e todos os fármacos de excreção renal têm a dose revista.',
     x: { A: 'Manter as drogas perpetua a hipoperfusão glomerular e o risco de acidose lática.', C: 'O anti-inflamatório e o bloqueador de angiotensina são os que mais prejudicam a filtração.', D: 'O enalapril tem o mesmo efeito hemodinâmico da losartana sobre a arteríola eferente.' },
@@ -157,7 +157,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Rabdomiólise: tratamento',
     e: 'A medida mais importante para prevenir e tratar a lesão renal aguda na rabdomiólise é:',
-    o: ['Furosemida em dose alta desde a admissão', 'Hidratação venosa precoce e vigorosa com cristaloide, mantendo débito urinário elevado', 'Restrição hídrica para evitar sobrecarga de volume', 'Hemodiálise profilática para remover a mioglobina'],
+    o: ['Furosemida em dose alta desde a admissão', 'Hidratação venosa precoce e vigorosa com cristaloide', 'Restrição hídrica para evitar sobrecarga de volume', 'Hemodiálise profilática para remover a mioglobina'],
     g: 'B',
     c: 'O músculo lesado sequestra grande volume de líquido, causando hipovolemia, que somada à mioglobina precipita a lesão tubular. A reposição volêmica agressiva e precoce restaura a perfusão renal e dilui e lava o pigmento dos túbulos; a alcalinização urinária pode ser considerada em casos selecionados, mas tem menor evidência.',
     x: { A: 'O diurético de alça acidifica a urina e pode agravar a hipovolemia inicial.', C: 'A restrição hídrica agrava a hipoperfusão e a precipitação de mioglobina.', D: 'A diálise não remove mioglobina com eficácia e só se indica por complicações.' },
@@ -165,7 +165,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Rabdomiólise: distúrbios eletrolíticos',
     e: 'Paciente com rabdomiólise por esmagamento apresenta, na fase inicial, cálcio sérico de 6,9 mg/dL, sem tetania e sem alterações eletrocardiográficas atribuíveis ao cálcio. A conduta correta é:',
-    o: ['Repor cálcio venoso até normalizar a calcemia', 'Não repor cálcio de rotina, reservando-o para hipocalcemia sintomática ou hipercalemia com alteração eletrocardiográfica', 'Administrar calcitriol em dose alta', 'Iniciar quelante de fósforo à base de cálcio'],
+    o: ['Repor cálcio venoso até normalizar a calcemia', 'Sem cálcio de rotina; só se sintomática ou hipercalemia', 'Calcitriol em dose alta, por via oral', 'Quelante de fósforo à base de cálcio, por via oral'],
     g: 'B',
     c: 'Na fase inicial o cálcio se deposita no músculo necrosado, junto com o fosfato liberado, causando hipocalcemia. Na fase de recuperação esse cálcio é mobilizado e pode ocorrer hipercalcemia de rebote, razão pela qual a reposição só é feita se houver sintomas ou necessidade de proteger o miocárdio na hipercalemia.',
     x: { A: 'A reposição rotineira aumenta o depósito muscular e a hipercalcemia de rebote.', C: 'O calcitriol elevaria cálcio e fósforo, favorecendo a precipitação tecidual.', D: 'O quelante com cálcio aumenta a carga de cálcio sem indicação nesta fase.' },
@@ -173,7 +173,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Síndrome do desequilíbrio da diálise',
     e: 'Homem de 60 anos com ureia de 360 mg/dL realiza sua primeira sessão de hemodiálise, de 4 horas e com alto fluxo. Ao final, apresenta cefaleia, náuseas, confusão mental e crise convulsiva. A explicação mais provável é:',
-    o: ['Hipoglicemia induzida pelo dialisato', 'Edema cerebral por queda rápida da osmolaridade plasmática em relação ao tecido cerebral', 'Embolia gasosa pelo circuito', 'Hemorragia subaracnoide espontânea'],
+    o: ['Hipoglicemia induzida pelo dialisato, na sessão', 'Edema cerebral: queda rápida da osmolaridade plasmática', 'Embolia gasosa pelo circuito extracorpóreo', 'Hemorragia subaracnoide espontânea, na sessão'],
     g: 'B',
     c: 'Na síndrome do desequilíbrio, a ureia é removida rapidamente do plasma, mas permanece mais tempo no tecido cerebral, criando um gradiente osmótico que desloca água para dentro dos neurônios. O risco é maior na primeira sessão, com ureia muito alta, em sessões longas e eficientes.',
     x: { A: 'O dialisato habitualmente contém glicose, e a hipoglicemia não explica o contexto.', C: 'A embolia gasosa causa quadro súbito cardiorrespiratório e é rara com os sistemas atuais.', D: 'O quadro relacionado ao fim da primeira diálise com ureia muito alta sugere desequilíbrio.' },
@@ -181,7 +181,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Prevenção do desequilíbrio',
     e: 'Para prevenir a síndrome do desequilíbrio em um paciente com uremia muito acentuada que iniciará hemodiálise, a estratégia recomendada é:',
-    o: ['Realizar sessão longa, com alto fluxo de sangue, para remover rapidamente a ureia', 'Realizar sessões iniciais curtas, com baixo fluxo e menor eficiência, repetidas em dias consecutivos', 'Usar dialisato com sódio baixo', 'Administrar furosemida antes da sessão'],
+    o: ['Sessão longa, alto fluxo, para remover rápido a ureia', 'Sessões iniciais curtas, baixo fluxo, em dias consecutivos', 'Dialisato com sódio baixo, na primeira sessão', 'Furosemida antes da sessão, para proteger o rim'],
     g: 'B',
     c: 'A redução gradual da ureia permite que o cérebro equilibre sua osmolaridade com a do plasma, evitando o edema cerebral. Por isso as primeiras sessões são curtas, com fluxos reduzidos e filtro de menor superfície, aumentando-se a dose de diálise progressivamente.',
     x: { A: 'A remoção rápida da ureia é justamente o que provoca o gradiente osmótico.', C: 'O sódio baixo no dialisato reduz ainda mais a osmolaridade plasmática e piora o risco.', D: 'O diurético não interfere no gradiente osmótico entre plasma e cérebro.' },
@@ -189,7 +189,7 @@ export const UREMICA_2: QuestaoCompacta[] = [
   {
     s: 'Momento de início da diálise',
     e: 'Paciente em choque séptico, em ventilação mecânica, apresenta lesão renal aguda KDIGO 3 há 24 horas, com potássio de 5,1 mEq/L, pH de 7,30, diurese de 0,3 mL/kg/h e sem congestão pulmonar. Com base nos ensaios clínicos sobre o momento de início da terapia de substituição renal, a conduta é:',
-    o: ['Iniciar diálise imediatamente, pois o início precoce reduz a mortalidade', 'Manter tratamento conservador com vigilância rigorosa, iniciando diálise se surgirem indicações clássicas ou se a oligúria se prolongar', 'Contraindicar diálise enquanto houver uso de vasopressor', 'Indicar diálise peritoneal preventiva'],
+    o: ['Diálise imediata: o início precoce reduz a mortalidade', 'Conservador; dialisar se indicação clássica ou oligúria', 'Diálise contraindicada enquanto houver vasopressor', 'Diálise peritoneal preventiva, de rotina em UTI'],
     g: 'B',
     c: 'Os grandes ensaios que compararam início precoce e início tardio da diálise em pacientes graves sem urgência dialítica não mostraram redução de mortalidade com a estratégia precoce, e uma parcela dos pacientes do grupo expectante recuperou a função sem precisar de diálise. A espera, porém, exige monitorização próxima e não deve ser prolongada indefinidamente.',
     x: { A: 'O início precoce não reduziu a mortalidade e expõe aos riscos do cateter e do procedimento.', C: 'O uso de vasopressor não contraindica diálise; apenas orienta a escolha da modalidade.', D: 'Não há indicação de diálise preventiva em paciente sem urgência dialítica.' },

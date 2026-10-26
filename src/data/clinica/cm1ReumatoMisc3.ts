@@ -5,7 +5,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: patogenia',
     e: 'A febre reumática é uma complicação não supurativa tardia de infecção estreptocócica. Sobre sua patogenia, é correto afirmar:',
-    o: ['Decorre de invasão direta do miocárdio e da sinóvia pelo estreptococo', 'Resulta de mimetismo molecular após faringoamigdalite pelo estreptococo beta-hemolítico do grupo A, com período de latência de 2 a 3 semanas', 'Sucede tanto a faringite quanto o impetigo estreptocócico, com a mesma frequência', 'É causada por toxina do estreptococo do grupo B em recém-nascidos'],
+    o: ['Invasão direta do miocárdio e da sinóvia pelo estreptococo', 'Mimetismo molecular após faringite por EBHGA (latência 2-3 semanas)', 'Segue faringite e impetigo estreptocócico, com igual frequência', 'Toxina do estreptococo do grupo B em recém-nascidos'],
     g: 'B',
     c: 'Em indivíduos geneticamente suscetíveis, anticorpos e linfócitos T dirigidos contra antígenos do Streptococcus pyogenes, como a proteína M, reagem de forma cruzada com tecidos do hospedeiro (miosina cardíaca, valvas, núcleos da base, sinóvia). A doença surge 2 a 3 semanas após a faringoamigdalite; as infecções de pele estão classicamente ligadas à glomerulonefrite, e não à febre reumática.',
     x: { A: 'As lesões são estéreis e imunomediadas; a bactéria não é encontrada nos tecidos acometidos.', C: 'A febre reumática é classicamente consequência da infecção de orofaringe, não do impetigo.', D: 'O agente é o estreptococo do grupo A, e a doença predomina entre 5 e 15 anos.' },
@@ -21,7 +21,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: diagnóstico',
     e: 'Menino de 9 anos apresenta há 5 dias artrite que acometeu o joelho direito, depois o tornozelo esquerdo e agora o cotovelo direito, com febre de 38,5 °C. Teve dor de garganta há 3 semanas. Exames: VHS de 80 mm/h, intervalo PR de 0,24 s e ASLO elevada. Não há sopros. De acordo com os critérios de Jones, o caso apresenta:',
-    o: ['Dois critérios maiores e nenhum menor, sem evidência de estreptococcia', 'Um critério maior (artrite) e pelo menos dois menores (febre, VHS elevada, PR prolongado), com evidência de estreptococcia prévia, confirmando o diagnóstico', 'Apenas critérios menores, insuficientes para o diagnóstico', 'Um critério maior isolado, sendo necessária biópsia sinovial'],
+    o: ['Dois critérios maiores, nenhum menor e sem estreptococcia', 'Um maior (artrite) e ≥ 2 menores, com estreptococcia prévia', 'Apenas critérios menores, insuficientes para o diagnóstico', 'Um critério maior isolado, com biópsia sinovial'],
     g: 'B',
     c: 'O primeiro surto de febre reumática é diagnosticado com dois critérios maiores, ou um maior e dois menores, somados à evidência de infecção estreptocócica recente (ASLO elevada ou em ascensão, cultura ou teste rápido positivo). Aqui há poliartrite migratória como critério maior e três menores. A artralgia não pode ser contada como menor quando a artrite já é o critério maior.',
     x: { A: 'Há apenas um critério maior, e a ASLO elevada comprova a infecção prévia.', C: 'A poliartrite migratória é critério maior.', D: 'O diagnóstico é clínico-laboratorial; não há indicação de biópsia.' },
@@ -29,7 +29,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: artrite',
     e: 'A artrite da febre reumática tem características bem definidas. Assinale a alternativa que as descreve corretamente:',
-    o: ['Poliartrite simétrica e aditiva de pequenas articulações das mãos, com erosões', 'Poliartrite migratória de grandes articulações, muito dolorosa, com resposta rápida aos salicilatos e sem sequelas', 'Monoartrite crônica do joelho, com destruição articular', 'Oligoartrite de membros inferiores com entesite e sacroiliíte'],
+    o: ['Poliartrite simétrica aditiva de pequenas articulações, com erosões', 'Poliartrite migratória de grandes articulações, com resposta a salicilatos', 'Monoartrite crônica do joelho, com destruição articular', 'Oligoartrite de membros inferiores com entesite e sacroiliíte'],
     g: 'B',
     c: 'A artrite é a manifestação mais frequente da febre reumática: acomete grandes articulações (joelhos, tornozelos, cotovelos, punhos), cada uma por poucos dias, migrando de uma para outra, com dor desproporcional aos sinais inflamatórios. Melhora de forma marcante em 48 a 72 horas com anti-inflamatórios e cura sem deformidade.',
     x: { A: 'Esse padrão aditivo, simétrico e erosivo é o da artrite reumatoide.', C: 'A artrite reumática é fugaz e não destrutiva; monoartrite crônica sugere outra causa.', D: 'Entesite e sacroiliíte caracterizam as espondiloartrites.' },
@@ -53,7 +53,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Coreia de Sydenham',
     e: 'Menina de 10 anos é trazida por movimentos involuntários, rápidos e incoordenados de face e membros há 2 semanas, que desaparecem durante o sono, além de labilidade emocional e piora da caligrafia. Não tem febre nem artrite; VHS e ASLO são normais. A interpretação correta é:',
-    o: ['O diagnóstico de febre reumática está excluído pela ASLO normal', 'Trata-se de coreia de Sydenham, que pode ser manifestação isolada e tardia da febre reumática, permitindo o diagnóstico mesmo sem evidência de estreptococcia', 'Trata-se de transtorno de tiques, sem relação com febre reumática', 'Deve-se aguardar o surgimento de artrite para diagnosticar febre reumática'],
+    o: ['Febre reumática excluída pela ASLO normal', 'Coreia de Sydenham: pode ser manifestação isolada e tardia', 'Transtorno de tiques, sem relação com febre reumática', 'Aguardar a artrite para diagnosticar febre reumática'],
     g: 'B',
     c: 'A coreia surge de 1 a 6 meses após a infecção estreptocócica, quando as provas inflamatórias e os anticorpos antiestreptocócicos frequentemente já se normalizaram. Por isso, a coreia isolada permite o diagnóstico de febre reumática sem os demais critérios, afastadas outras causas. Deve-se pesquisar cardite com ecocardiograma e instituir a profilaxia secundária.',
     x: { A: 'Na coreia, a latência longa explica a ASLO frequentemente normal.', C: 'Tiques são estereotipados e suprimíveis, sem hipotonia nem incoordenação difusa.', D: 'A coreia isolada é suficiente para o diagnóstico; a artrite raramente coexiste.' },
@@ -69,7 +69,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'ASLO',
     e: 'Sobre a antiestreptolisina O (ASLO) na febre reumática, assinale a alternativa correta:',
-    o: ['Títulos elevados indicam atividade da doença e servem para monitorar a resposta ao tratamento', 'Indica apenas infecção estreptocócica prévia, pode ser normal em cerca de 20% dos casos e não se correlaciona com a gravidade', 'Sua normalização define o momento de suspender a profilaxia secundária', 'É um critério maior de Jones'],
+    o: ['Títulos altos indicam atividade e monitoram o tratamento', 'Indica só infecção prévia; pode ser normal; não mede gravidade', 'Sua normalização define quando suspender a profilaxia', 'É um critério maior de Jones, nas crianças'],
     g: 'B',
     c: 'A ASLO começa a subir cerca de uma semana após a faringite, atinge o pico em 3 a 6 semanas e apenas documenta o contato recente com o estreptococo. Não mede atividade inflamatória nem gravidade, e cerca de um quinto dos pacientes não a eleva; nesses casos, outros anticorpos, como a anti-DNAse B, aumentam a sensibilidade. A atividade é acompanhada por VHS e proteína C reativa.',
     x: { A: 'A atividade da doença é monitorada pelas provas de fase aguda, não pela ASLO.', C: 'A duração da profilaxia depende da idade e da presença de cardite, não da ASLO.', D: 'A ASLO é evidência de estreptococcia, requisito adicional, e não um critério maior.' },
@@ -77,7 +77,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Erradicação do estreptococo',
     e: 'Adolescente de 13 anos recebe o diagnóstico de febre reumática aguda com poliartrite. No momento não tem dor de garganta e a cultura de orofaringe é negativa. Em relação ao tratamento antimicrobiano, a conduta é:',
-    o: ['Não prescrever antibiótico, pois não há infecção ativa', 'Administrar penicilina G benzatina em dose única para erradicar o estreptococo, o que já corresponde à primeira dose da profilaxia secundária', 'Prescrever ciprofloxacino por 5 dias', 'Aguardar o resultado de nova cultura em 2 semanas'],
+    o: ['Não prescrever antibiótico: não há infecção ativa', 'Penicilina benzatina em dose única: erradica e inicia a profilaxia', 'Prescrever ciprofloxacino por 5 dias, por via oral', 'Aguardar nova cultura em 2 semanas para decidir'],
     g: 'B',
     c: 'Todo paciente com febre reumática aguda deve receber tratamento de erradicação, independentemente de sintomas ou do resultado da cultura, pois a permanência do estreptococo na orofaringe mantém o estímulo antigênico e a transmissão. A penicilina benzatina em dose única intramuscular é a escolha e inaugura a profilaxia secundária.',
     x: { A: 'A erradicação é obrigatória mesmo sem faringite clínica ou com cultura negativa.', C: 'As quinolonas não são tratamento adequado para a erradicação do estreptococo do grupo A.', D: 'Não se deve adiar a erradicação à espera de novos exames.' },
@@ -93,7 +93,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Profilaxia secundária: duração sem cardite',
     e: 'Menino de 10 anos teve o primeiro surto de febre reumática, com poliartrite e sem cardite, confirmado por ecocardiograma normal. A profilaxia secundária deve ser mantida:',
-    o: ['Por 1 ano após o surto', 'Até os 21 anos de idade ou por 5 anos após o último surto, valendo o que durar mais tempo', 'Até os 40 anos de idade ou por toda a vida', 'Apenas até a normalização das provas inflamatórias'],
+    o: ['Por 1 ano após o surto, no mínimo', 'Até os 21 anos ou 5 anos após o surto, o que for maior', 'Até os 40 anos de idade ou por toda a vida', 'Apenas até a normalização das provas inflamatórias'],
     g: 'B',
     c: 'A duração depende da presença e da gravidade da cardite. Sem cardite, mantém-se até os 21 anos ou por 5 anos após o último surto, o que for mais longo; nesse caso, até os 21 anos, ou seja, por 11 anos. O risco de recorrência é maior nos primeiros anos após o surto e em crianças e adolescentes, mais expostos ao estreptococo.',
     x: { A: 'Um ano é insuficiente; o risco de recorrência persiste por vários anos.', C: 'Essa duração é reservada a pacientes com lesão valvar residual moderada a grave.', D: 'As provas inflamatórias orientam o tratamento do surto, não a duração da profilaxia.' },
@@ -117,7 +117,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Artrite séptica não gonocócica',
     e: 'Homem de 67 anos, diabético, com artrite reumatoide, apresenta há 2 dias dor intensa, calor, rubor e bloqueio dos movimentos do joelho esquerdo, com febre e calafrios. O agente mais provável e a primeira conduta são:',
-    o: ['Neisseria gonorrhoeae; iniciar ceftriaxona sem punção', 'Staphylococcus aureus; realizar artrocentese com análise do líquido, Gram e cultura antes do antibiótico, seguida de antibioticoterapia e drenagem articular', 'Streptococcus pyogenes; solicitar ressonância magnética antes de qualquer medida', 'Pseudomonas aeruginosa; prescrever anti-inflamatório e reavaliar em 72 horas'],
+    o: ['Neisseria gonorrhoeae; ceftriaxona sem punção', 'S. aureus; artrocentese (Gram e cultura) antes do antibiótico; drenar', 'Streptococcus pyogenes; ressonância antes de qualquer medida', 'Pseudomonas aeruginosa; anti-inflamatório e reavaliar em 72 h'],
     g: 'B',
     c: 'O S. aureus é o principal agente de artrite séptica em adultos, por disseminação hematogênica, e articulação previamente lesada, diabetes, idade avançada e imunossupressão são fatores de risco. Monoartrite aguda é séptica até prova em contrário: a punção deve ser imediata (líquido com celularidade geralmente acima de 50.000/mm³ e predomínio de neutrófilos), seguida de antibiótico venoso e drenagem, pois a cartilagem é destruída em poucos dias.',
     x: { A: 'O gonococo predomina em jovens sexualmente ativos, e a punção nunca deve ser dispensada.', C: 'Exames de imagem não devem retardar a artrocentese.', D: 'Postergar o tratamento por 72 horas permite destruição articular irreversível.' },
@@ -125,7 +125,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Artrite gonocócica',
     e: 'Mulher de 22 anos, sexualmente ativa, apresenta há 4 dias febre, poliartralgia migratória, dor e edema no dorso do punho e dos dedos com dor à movimentação dos tendões, e algumas pústulas com base eritematosa nas extremidades. O diagnóstico mais provável e o tratamento são:',
-    o: ['Febre reumática aguda; penicilina benzatina e ácido acetilsalicílico', 'Infecção gonocócica disseminada; ceftriaxona, com coleta de material de sítios mucosos e tratamento de clamídia', 'Artrite reativa; anti-inflamatório não esteroide isolado', 'Endocardite estafilocócica; oxacilina e gentamicina'],
+    o: ['Febre reumática aguda; penicilina benzatina e AAS', 'Gonocócica disseminada; ceftriaxona e tratar clamídia', 'Artrite reativa; anti-inflamatório isolado, por via oral', 'Endocardite estafilocócica; oxacilina e gentamicina'],
     g: 'B',
     c: 'A tríade de poliartralgia migratória, tenossinovite e dermatite (pápulas e pústulas acrais pouco numerosas) define a forma bacteriêmica da gonococcia disseminada, mais comum em mulheres jovens, especialmente no período perimenstrual. As culturas de sangue e de líquido sinovial são frequentemente negativas, e o rendimento é maior em colo uterino, uretra, reto e faringe. O tratamento é ceftriaxona, com cobertura para clamídia e abordagem das parcerias.',
     x: { A: 'A febre reumática não causa tenossinovite nem pústulas e é rara nessa idade como primeiro surto.', C: 'A artrite reativa surge semanas após a infecção, com oligoartrite assimétrica e sem pústulas desse tipo.', D: 'Não há sopro nem fenômenos embólicos típicos, e o quadro é clássico de gonococcia.' },
@@ -141,7 +141,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Chikungunya',
     e: 'Mulher de 52 anos teve, há 4 meses, febre alta de início súbito, exantema e poliartrite intensa e simétrica de mãos, punhos e tornozelos durante epidemia de arbovirose. Mantém artrite de mãos e punhos com rigidez matinal prolongada. A sorologia para chikungunya é IgG positiva. Sobre o caso, é correto afirmar:',
-    o: ['O quadro articular por chikungunya nunca ultrapassa 2 semanas, devendo-se buscar outro diagnóstico', 'Trata-se da fase crônica da chikungunya (sintomas por mais de 3 meses), que pode exigir fármacos como hidroxicloroquina ou metotrexato', 'Na fase aguda da doença, os anti-inflamatórios não esteroides e o ácido acetilsalicílico são a primeira escolha', 'O tratamento indicado é antiviral específico por 6 meses'],
+    o: ['O quadro articular da chikungunya nunca passa de 2 semanas', 'Fase crônica da chikungunya (> 3 meses): HCQ ou metotrexato', 'Na fase aguda, AINE e AAS são a primeira escolha', 'Tratamento antiviral específico por 6 meses'],
     g: 'B',
     c: 'A chikungunya evolui em fase aguda (até cerca de 14 dias), subaguda (até 3 meses) e crônica (além de 3 meses), esta com artrite persistente que pode simular artrite reumatoide. Na fase aguda usam-se analgésicos comuns, evitando-se AINE e ácido acetilsalicílico pelo risco de sangramento enquanto a dengue não for afastada; na fase crônica empregam-se hidroxicloroquina e, em casos refratários, metotrexato.',
     x: { A: 'A cronificação articular é frequente, sobretudo em mulheres acima de 45 anos e com doença articular prévia.', C: 'Na fase aguda esses fármacos devem ser evitados pelo risco hemorrágico e pela possibilidade de dengue.', D: 'Não existe antiviral específico para chikungunya.' },
@@ -149,7 +149,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Parvovírus B19',
     e: 'Professora de educação infantil, de 34 anos, apresenta há 10 dias poliartrite simétrica de metacarpofalângicas, interfalângicas proximais e punhos, com rigidez matinal. Várias crianças de sua turma tiveram exantema com aspecto de face esbofeteada. Fator reumatoide negativo. A hipótese mais provável e a evolução esperada são:',
-    o: ['Artrite reumatoide inicial; evolução erosiva em poucos meses', 'Artrite por parvovírus B19; quadro autolimitado, com resolução em semanas e sem dano articular', 'Febre reumática; evolução para cardite', 'Artrite reativa pós-disenteria; evolução para sacroiliíte'],
+    o: ['AR inicial; evolução erosiva em poucos meses', 'Parvovírus B19: autolimitado, semanas, sem dano articular', 'Febre reumática; evolução para cardite', 'Artrite reativa pós-disenteria; evolução para sacroiliíte'],
     g: 'B',
     c: 'Em adultos, sobretudo mulheres com contato com crianças com eritema infeccioso, o parvovírus B19 causa poliartrite simétrica de pequenas articulações que imita a artrite reumatoide, frequentemente sem o exantema facial. O mecanismo é a deposição de imunocomplexos; o diagnóstico é feito por IgM específica, e o quadro regride em semanas, sem erosões, com tratamento sintomático.',
     x: { A: 'O contexto epidemiológico e a duração curta favorecem artrite viral; a classificação de artrite reumatoide requer persistência por 6 semanas ou mais.', C: 'A febre reumática causa poliartrite migratória de grandes articulações, sobretudo em crianças.', D: 'A artrite reativa é oligoarticular, assimétrica e de membros inferiores.' },
@@ -157,7 +157,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Epicondilite lateral',
     e: 'Pedreiro de 44 anos refere dor na face lateral do cotovelo direito, que piora ao apertar a mão de outras pessoas e ao torcer panos. Há dor à palpação do epicôndilo lateral e à extensão do punho contra resistência, com mobilidade do cotovelo preservada. A estrutura acometida é:',
-    o: ['A origem dos tendões flexores do punho e pronadores', 'A origem dos tendões extensores do punho, especialmente o extensor radial curto do carpo', 'A bursa olecraniana', 'O nervo ulnar no túnel cubital'],
+    o: ['A origem dos tendões flexores do punho e pronadores', 'A origem dos extensores do punho (extensor radial curto)', 'A bursa olecraniana, na ponta do cotovelo', 'O nervo ulnar no túnel cubital, no cotovelo'],
     g: 'B',
     c: 'A epicondilite lateral (cotovelo de tenista) é uma tendinopatia degenerativa por sobrecarga repetitiva da origem comum dos extensores do punho, principalmente do extensor radial curto do carpo. A dor é reproduzida pela extensão resistida do punho com o cotovelo estendido. O tratamento é conservador, com modificação de atividade, analgesia e fisioterapia.',
     x: { A: 'A origem dos flexores e pronadores é acometida na epicondilite medial (cotovelo de golfista).', C: 'A bursite olecraniana causa tumefação flutuante posterior, não dor lateral.', D: 'A compressão do nervo ulnar causa parestesia em quarto e quinto dedos.' },
@@ -189,7 +189,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Fasciíte plantar',
     e: 'Homem de 48 anos, obeso, que trabalha em pé, queixa-se de dor na região plantar medial do calcanhar direito, mais intensa nos primeiros passos pela manhã e ao levantar-se após ficar sentado, com alívio parcial ao caminhar. Há dor à palpação da tuberosidade medial do calcâneo. A conduta inicial é:',
-    o: ['Ressonância magnética do pé e encaminhamento para fasciotomia', 'Tratamento conservador com alongamento da fáscia plantar e do tríceps sural, calçado adequado ou palmilha, redução de peso e analgésicos', 'Imobilização gessada sem carga por 8 semanas', 'Antibioticoterapia para osteomielite do calcâneo'],
+    o: ['RM do pé e encaminhar para fasciotomia plantar', 'Conservador: alongamento, palmilha, perda de peso, analgésicos', 'Imobilização gessada sem carga por 8 semanas', 'Antibiótico prolongado para osteomielite do calcâneo'],
     g: 'B',
     c: 'A fasciíte plantar é uma entesopatia degenerativa da inserção da fáscia plantar no calcâneo, por sobrecarga, favorecida por obesidade, ortostatismo prolongado e encurtamento do tríceps sural. O diagnóstico é clínico, pela dor nos primeiros passos. A grande maioria dos casos melhora em meses com medidas conservadoras; infiltração e cirurgia ficam para casos refratários.',
     x: { A: 'O diagnóstico é clínico, e a cirurgia é exceção após longo período de falha conservadora.', C: 'A imobilização prolongada sem carga não é necessária e causa rigidez e atrofia.', D: 'Não há febre, sinais flogísticos ou porta de entrada que sugiram infecção óssea.' },
@@ -197,7 +197,7 @@ export const REUMATO_MISC_3: QuestaoCompacta[] = [
   {
     s: 'Bursite trocantérica',
     e: 'Mulher de 60 anos queixa-se de dor na face lateral do quadril direito, que piora ao deitar-se sobre esse lado e ao subir escadas, com irradiação pela face lateral da coxa até o joelho. A rotação interna e a externa passivas do quadril são amplas e indolores, e há dor intensa à palpação do trocanter maior. O diagnóstico mais provável é:',
-    o: ['Osteoartrite do quadril', 'Síndrome dolorosa do trocanter maior (bursite trocantérica e tendinopatia glútea)', 'Radiculopatia de S1', 'Necrose avascular da cabeça femoral'],
+    o: ['Osteoartrite do quadril, com dor na virilha e rigidez', 'Síndrome dolorosa do trocanter maior (bursite, tendinopatia glútea)', 'Radiculopatia de S1, com dor irradiada e hipoestesia', 'Necrose avascular da cabeça femoral, com dor inguinal'],
     g: 'B',
     c: 'A dor verdadeiramente articular do quadril é referida na virilha e limita a rotação interna. Já a dor lateral, com ponto doloroso sobre o trocanter maior, piora ao decúbito lateral e mobilidade passiva preservada, caracteriza a síndrome dolorosa do trocanter maior, que envolve a bursa e os tendões dos glúteos médio e mínimo. O tratamento inclui fisioterapia, analgésicos e, se necessário, infiltração.',
     x: { A: 'A osteoartrite do quadril causa dor inguinal e restrição dolorosa da rotação interna.', C: 'A radiculopatia S1 irradia pela face posterior até o pé, com alteração do reflexo aquileu.', D: 'A necrose avascular causa dor inguinal e limitação da mobilidade articular.' },

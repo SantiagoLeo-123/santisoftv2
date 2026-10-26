@@ -5,7 +5,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Definição KDIGO',
     e: 'Segundo os critérios KDIGO, o diagnóstico de lesão renal aguda é estabelecido na presença de:',
-    o: ['Elevação da ureia sérica acima de 100 mg/dL em qualquer intervalo de tempo', 'Aumento da creatinina sérica de pelo menos 0,3 mg/dL em 48 horas, ou de 1,5 vez o valor basal em 7 dias, ou débito urinário menor que 0,5 mL/kg/h por 6 horas', 'Queda da taxa de filtração glomerular abaixo de 60 mL/min por mais de 3 meses', 'Débito urinário menor que 400 mL em 24 horas, obrigatoriamente associado a hipercalemia'],
+    o: ['Ureia sérica acima de 100 mg/dL, em qualquer intervalo', 'Creatinina +0,3 em 48 h, ou 1,5x em 7 dias, ou oligúria', 'TFG abaixo de 60 mL/min por mais de 3 meses', 'Diurese < 400 mL em 24 h, obrigatoriamente com hipercalemia'],
     g: 'B',
     c: 'O KDIGO define lesão renal aguda por qualquer um de três critérios: aumento da creatinina de 0,3 mg/dL ou mais em 48 horas, aumento para 1,5 vez ou mais o valor basal em até 7 dias, ou diurese menor que 0,5 mL/kg/h por 6 horas. A definição é sensível de propósito, porque pequenas elevações da creatinina já se associam a maior mortalidade.',
     x: { A: 'A ureia não entra na definição KDIGO, pois sofre influência de dieta, catabolismo e sangramento digestivo.', C: 'Alteração por mais de 3 meses define doença renal crônica, e não lesão renal aguda.', D: 'Oligúria isolada já é critério, e a hipercalemia é complicação, não critério diagnóstico.' },
@@ -13,7 +13,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Estadiamento KDIGO pela creatinina',
     e: 'Homem de 58 anos, com creatinina basal de 1,0 mg/dL, é internado por sepse de foco urinário. No terceiro dia, a creatinina é de 3,4 mg/dL, com diurese de 0,6 mL/kg/h. Pelo KDIGO, a lesão renal aguda deve ser classificada como estágio:',
-    o: ['Estágio 2, pois a diurese está preservada', 'Estágio 3, pois a creatinina atingiu pelo menos 3 vezes o valor basal', 'Estágio 1, pois o aumento ocorreu em mais de 48 horas', 'Não é possível estadiar sem a dosagem de ureia'],
+    o: ['Estágio 2, pois a diurese está preservada', 'Estágio 3: creatinina ≥ 3 vezes a basal', 'Estágio 1, pois o aumento ocorreu em mais de 48 horas', 'Não é possível estadiar sem a dosagem de ureia'],
     g: 'B',
     c: 'O estágio 3 do KDIGO corresponde a creatinina igual ou superior a 3 vezes a basal, creatinina de 4,0 mg/dL ou mais, diurese menor que 0,3 mL/kg/h por 24 horas, anúria por 12 horas ou início de terapia de substituição renal. O estadiamento usa o pior critério entre creatinina e diurese, de modo que a diurese preservada não reduz o estágio.',
     x: { A: 'O estágio 2 corresponde a creatinina de 2,0 a 2,9 vezes a basal; vale o pior critério disponível.', C: 'O estágio 1 é aumento de 1,5 a 1,9 vez ou de 0,3 mg/dL, muito menor que o observado.', D: 'A ureia não participa do estadiamento KDIGO da lesão renal aguda.' },
@@ -21,7 +21,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Estadiamento KDIGO pela diurese',
     e: 'Paciente de 70 kg em pós-operatório de cirurgia abdominal mantém diurese de 25 mL/h nas últimas 14 horas, com creatinina que subiu de 0,9 para 1,3 mg/dL. O estágio KDIGO da lesão renal aguda é:',
-    o: ['Estágio 1, definido pela creatinina', 'Estágio 2, definido pela diurese menor que 0,5 mL/kg/h por 12 horas ou mais', 'Estágio 3, definido pela oligúria', 'Sem lesão renal aguda, pois a creatinina está abaixo de 1,5 mg/dL'],
+    o: ['Estágio 1, definido pela creatinina', 'Estágio 2: diurese < 0,5 mL/kg/h por ≥ 12 horas', 'Estágio 3, definido pela oligúria', 'Sem LRA, pois a creatinina está abaixo de 1,5 mg/dL'],
     g: 'B',
     c: 'A diurese é de cerca de 0,36 mL/kg/h por mais de 12 horas, o que caracteriza estágio 2 (menos de 0,5 mL/kg/h por 12 horas ou mais). Pela creatinina seria estágio 1 (aumento de 1,4 vez, com elevação de 0,4 mg/dL), mas o estadiamento adota sempre o critério mais grave.',
     x: { A: 'A creatinina isolada indicaria estágio 1, porém prevalece o critério de diurese, que é mais grave.', C: 'O estágio 3 exige menos de 0,3 mL/kg/h por 24 horas ou anúria por 12 horas.', D: 'O valor absoluto da creatinina não exclui lesão renal aguda; importa a variação e a diurese.' },
@@ -29,7 +29,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Limitações da creatinina',
     e: 'Sobre a creatinina sérica como marcador de lesão renal aguda, é correto afirmar que:',
-    o: ['Eleva-se imediatamente após a queda da filtração glomerular, sendo um marcador precoce', 'É um marcador tardio, pois só se eleva horas a dias após a agressão e depende da massa muscular e do estado volêmico', 'Não sofre influência de medicamentos que bloqueiam sua secreção tubular', 'Subestima a gravidade em pacientes muito musculosos e superestima em idosos sarcopênicos'],
+    o: ['Sobe logo após a queda da filtração: marcador precoce', 'Marcador tardio; depende de massa muscular e volemia', 'Não sofre influência de drogas que bloqueiam a secreção tubular', 'Subestima a gravidade em musculosos e superestima em sarcopênicos'],
     g: 'B',
     c: 'A creatinina precisa se acumular para subir, o que leva de 24 a 48 horas após a queda da filtração, e seu nível depende da produção muscular e do volume de distribuição. Por isso, pacientes sarcopênicos ou hiper-hidratados podem ter lesão renal importante com creatinina pouco alterada, e o débito urinário ganha valor como critério complementar.',
     x: { A: 'A elevação é lenta e tardia, pois depende do acúmulo progressivo da substância.', C: 'Trimetoprima e cimetidina bloqueiam a secreção tubular e elevam a creatinina sem queda real da filtração.', D: 'É o contrário: a baixa massa muscular do idoso sarcopênico faz a creatinina subestimar a lesão.' },
@@ -61,7 +61,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Fração de excreção de ureia',
     e: 'Homem de 68 anos com insuficiência cardíaca, em uso de furosemida, evolui com piora da função renal após episódio de vômitos. A fração de excreção de sódio é de 2,5%. O índice mais adequado para diferenciar azotemia pré-renal de necrose tubular aguda nesse contexto é:',
-    o: ['Sódio urinário isolado, que não sofre influência do diurético', 'Fração de excreção de ureia, que sugere causa pré-renal quando menor que 35%', 'Relação entre sódio e potássio urinários', 'Dosagem de creatinina urinária isolada'],
+    o: ['Sódio urinário isolado, que independe do diurético', 'Fração de excreção de ureia < 35% sugere pré-renal', 'Relação entre sódio e potássio urinários', 'Dosagem isolada de creatinina urinária'],
     g: 'B',
     c: 'O diurético de alça aumenta a excreção de sódio e eleva falsamente a fração de excreção de sódio, mesmo com hipoperfusão renal. A ureia é reabsorvida principalmente no túbulo proximal, segmento não afetado pela furosemida, de modo que uma fração de excreção de ureia abaixo de 35% continua indicando estado pré-renal.',
     x: { A: 'O sódio urinário também se eleva com o uso de diuréticos, perdendo valor discriminatório.', C: 'A relação sódio/potássio urinária não é o índice validado para essa diferenciação.', D: 'A creatinina urinária isolada não diferencia hipoperfusão de lesão tubular.' },
@@ -101,7 +101,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Anti-inflamatórios e hemodinâmica glomerular',
     e: 'Idoso desidratado por gastroenterite usa ibuprofeno para dor e evolui com lesão renal aguda. O mecanismo hemodinâmico pelo qual o anti-inflamatório reduz a filtração glomerular é:',
-    o: ['Dilatação da arteríola eferente por bloqueio da angiotensina II', 'Constrição da arteríola aferente por inibição da síntese de prostaglandinas vasodilatadoras', 'Obstrução intratubular por cristais', 'Vasoconstrição da arteríola eferente por ação direta'],
+    o: ['Dilatação da eferente por bloqueio da angiotensina II', 'Constrição aferente por falta de prostaglandinas vasodilatadoras', 'Obstrução intratubular por cristais da droga', 'Vasoconstrição da eferente por ação direta da droga'],
     g: 'B',
     c: 'Em estados de hipoperfusão, a prostaglandina E2 e a prostaciclina dilatam a arteríola aferente e mantêm o fluxo glomerular. Os anti-inflamatórios inibem a ciclo-oxigenase, retiram essa vasodilatação compensatória e fazem cair a pressão de filtração, o que é mais grave em idosos, hipovolêmicos, cardiopatas, cirróticos e portadores de doença renal crônica.',
     x: { A: 'A dilatação eferente é o mecanismo dos inibidores da enzima conversora e dos bloqueadores do receptor de angiotensina.', C: 'Cristalúria obstrutiva é mecanismo de drogas como aciclovir, sulfadiazina e indinavir.', D: 'Constrição eferente aumentaria a pressão de filtração, e não é o efeito dos anti-inflamatórios.' },
@@ -109,7 +109,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'IECA e estenose de artéria renal',
     e: 'Homem de 72 anos, tabagista, com doença arterial periférica e hipertensão de difícil controle, inicia enalapril. Após 10 dias, a creatinina sobe de 1,2 para 2,9 mg/dL. A hipótese mais provável é:',
-    o: ['Nefrite intersticial aguda pelo enalapril', 'Estenose bilateral de artérias renais, com perda da constrição eferente dependente de angiotensina II', 'Necrose tubular aguda por toxicidade direta do fármaco', 'Glomerulonefrite membranosa induzida pela droga'],
+    o: ['Nefrite intersticial aguda pelo enalapril, com eosinofilia', 'Estenose bilateral de renais: perde a constrição eferente da AII', 'Necrose tubular aguda por toxicidade direta do fármaco', 'GN membranosa induzida pela droga, com proteinúria'],
     g: 'B',
     c: 'Na estenose bilateral de artérias renais (ou em rim único) a perfusão glomerular é baixa, e a filtração é mantida pela constrição da arteríola eferente mediada pela angiotensina II. O bloqueio do sistema renina-angiotensina dilata a eferente, derruba a pressão intraglomerular e provoca queda abrupta da filtração, geralmente reversível com a suspensão.',
     x: { A: 'Nefrite intersticial por enalapril é rara e viria com febre, exantema ou leucocitúria.', C: 'O enalapril não é tóxico direto ao túbulo; o efeito é hemodinâmico.', D: 'A elevação rápida da creatinina sem proteinúria não é compatível com nefropatia membranosa.' },
@@ -141,7 +141,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Ultrassonografia',
     e: 'Na investigação de um paciente com lesão renal aguda de causa não esclarecida, o exame de imagem inicial de escolha e seu principal objetivo são:',
-    o: ['Tomografia com contraste, para avaliar perfusão cortical', 'Ultrassonografia de rins e vias urinárias, para afastar obstrução (hidronefrose) e avaliar tamanho renal', 'Urografia excretora, para estudo da via excretora', 'Cintilografia renal com DMSA, para medir a função tubular'],
+    o: ['TC com contraste, para avaliar a perfusão cortical', 'USG de rins e vias: afastar hidronefrose e ver o tamanho renal', 'Urografia excretora, para estudo da via excretora', 'Cintilografia com DMSA, para medir função tubular'],
     g: 'B',
     c: 'A ultrassonografia é rápida, sem radiação e sem contraste, e identifica hidronefrose, que indica causa pós-renal potencialmente reversível. Também informa o tamanho e a ecogenicidade dos rins: rins pequenos e com perda da diferenciação corticomedular sugerem doença crônica preexistente.',
     x: { A: 'O contraste iodado pode agravar a lesão renal e não é o exame inicial.', C: 'A urografia excretora usa contraste e está em desuso nesse contexto.', D: 'A cintilografia com DMSA avalia cicatrizes corticais e não é exame de triagem na fase aguda.' },
@@ -149,7 +149,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Anúria',
     e: 'A anúria completa (débito urinário menor que 50 a 100 mL em 24 horas) é incomum na necrose tubular aguda e deve levar à pesquisa prioritária de:',
-    o: ['Nefrite intersticial aguda por anti-inflamatórios', 'Obstrução urinária total, oclusão vascular renal bilateral, necrose cortical ou glomerulonefrite grave', 'Nefropatia por aminoglicosídeo', 'Diabetes insípido nefrogênico'],
+    o: ['Nefrite intersticial aguda por anti-inflamatórios', 'Obstrução total, oclusão vascular bilateral, necrose cortical', 'Nefropatia por aminoglicosídeo, em geral oligúrica', 'Diabetes insípido nefrogênico, com poliúria'],
     g: 'B',
     c: 'A anúria verdadeira indica interrupção quase total do fluxo de urina ou da filtração, o que ocorre na obstrução bilateral ou em rim único, na oclusão das artérias ou veias renais, na necrose cortical e nas glomerulonefrites rapidamente progressivas graves. Como a obstrução é a causa mais comum e tratável, deve ser excluída primeiro com sonda vesical e ultrassonografia.',
     x: { A: 'A nefrite intersticial habitualmente cursa com diurese preservada ou oligúria leve.', C: 'A nefrotoxicidade por aminoglicosídeo é classicamente não oligúrica.', D: 'O diabetes insípido cursa com poliúria, o oposto da anúria.' },
@@ -157,7 +157,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Poliúria pós-desobstrução',
     e: 'Após a passagem de sonda vesical em paciente com obstrução urinária bilateral prolongada, observa-se diurese de 400 mL/h. Sobre essa poliúria pós-desobstrutiva, é correto afirmar:',
-    o: ['Deve ser tratada com restrição hídrica rigorosa', 'Decorre de diurese osmótica pela ureia retida e de disfunção tubular transitória, exigindo vigilância de volemia e eletrólitos', 'Indica necrose cortical irreversível', 'Deve-se repor por via venosa todo o volume urinado, mililitro por mililitro, por vários dias'],
+    o: ['Tratar com restrição hídrica rigorosa, sempre', 'Diurese osmótica e disfunção tubular; vigiar volemia e eletrólitos', 'Indica necrose cortical irreversível, em geral', 'Repor por via venosa todo o volume urinado, mL a mL'],
     g: 'B',
     c: 'A poliúria pós-desobstrução resulta da excreção da ureia e do sódio acumulados, que arrastam água, e da resistência tubular transitória ao hormônio antidiurético, com menor capacidade de concentrar a urina. Pode causar hipovolemia, hipocalemia e hipomagnesemia, de modo que se monitoram volume e eletrólitos e se repõe apenas parte das perdas.',
     x: { A: 'A restrição hídrica pode levar a hipovolemia e nova lesão renal de padrão pré-renal.', C: 'A poliúria indica retorno da filtração, e não necrose cortical.', D: 'A reposição integral e prolongada perpetua a poliúria; repõe-se apenas uma fração das perdas.' },
@@ -165,7 +165,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Lesão renal com fração de excreção de sódio baixa',
     e: 'A fração de excreção de sódio menor que 1% não é exclusiva da azotemia pré-renal. Todas as causas abaixo de lesão renal aguda podem cursar com fração de excreção de sódio baixa, EXCETO:',
-    o: ['Nefropatia por contraste iodado', 'Rabdomiólise', 'Glomerulonefrite aguda', 'Necrose tubular aguda por aminoglicosídeo'],
+    o: ['Nefropatia por contraste iodado, nefrotóxica', 'Rabdomiólise, nefrotóxica', 'Glomerulonefrite aguda, nefrotóxica', 'NTA por aminoglicosídeo, pré-renal'],
     g: 'D',
     c: 'A toxicidade dos aminoglicosídeos lesa diretamente o túbulo proximal, que perde a capacidade de reabsorver sódio, resultando em fração de excreção elevada. Já no contraste e na mioglobinúria há intensa vasoconstrição renal, e na glomerulonefrite a filtração cai com túbulos íntegros, mantendo a reabsorção ávida de sódio.',
     x: { A: 'O contraste provoca vasoconstrição intrarrenal intensa, com sódio urinário baixo na fase inicial.', B: 'A mioglobina causa vasoconstrição renal, e a fração de excreção de sódio costuma ser baixa no início.', C: 'Na glomerulonefrite o túbulo está preservado e reabsorve sódio, com fração de excreção baixa.' },
@@ -173,7 +173,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Nefrotoxicidade por aminoglicosídeos',
     e: 'Paciente em uso de gentamicina há 8 dias por pielonefrite apresenta elevação progressiva da creatinina, mantendo diurese de 1.800 mL em 24 horas. Os exames mostram hipocalemia e hipomagnesemia. Esse quadro corresponde a:',
-    o: ['Nefrite intersticial aguda alérgica', 'Necrose tubular aguda não oligúrica por toxicidade no túbulo proximal', 'Azotemia pré-renal por hipovolemia', 'Obstrução intratubular por cristais'],
+    o: ['Nefrite intersticial aguda alérgica', 'NTA não oligúrica, por toxicidade proximal', 'Azotemia pré-renal por hipovolemia', 'Obstrução intratubular por cristais'],
     g: 'B',
     c: 'Os aminoglicosídeos são filtrados e captados pelas células do túbulo proximal, onde se acumulam nos lisossomos e causam necrose, tipicamente após 5 a 7 dias de uso. A lesão é caracteristicamente não oligúrica e se acompanha de perda renal de potássio e magnésio.',
     x: { A: 'Não há febre, exantema, eosinofilia ou leucocitúria que sugiram reação de hipersensibilidade.', C: 'Na azotemia pré-renal há oligúria e não ocorre perda tubular de magnésio e potássio.', D: 'A cristalúria é mecanismo de outras drogas, como aciclovir e sulfadiazina.' },
@@ -181,7 +181,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome hepatorrenal',
     e: 'Homem de 55 anos com cirrose alcoólica e ascite volumosa apresenta creatinina de 2,8 mg/dL após peritonite bacteriana espontânea. Sódio urinário menor que 10 mEq/L, sedimento normal, ultrassonografia renal normal. Não houve melhora após 48 horas de suspensão de diuréticos e expansão com albumina. O mecanismo da lesão renal é:',
-    o: ['Necrose tubular aguda por endotoxina', 'Vasoconstrição renal intensa secundária à vasodilatação esplâncnica, com rim estruturalmente normal', 'Glomerulonefrite por imunocomplexos', 'Obstrução ureteral bilateral pela ascite'],
+    o: ['NTA por endotoxina, com cilindros granulosos', 'Vasoconstrição renal por vasodilatação esplâncnica; rim normal', 'GN por imunocomplexos, com hematúria dismórfica', 'Obstrução ureteral bilateral pela ascite volumosa'],
     g: 'B',
     c: 'Na síndrome hepatorrenal, a vasodilatação esplâncnica da hipertensão portal reduz o volume arterial efetivo e ativa o sistema renina-angiotensina, o simpático e o hormônio antidiurético, com vasoconstrição renal extrema. O rim é estruturalmente normal, tem padrão urinário pré-renal e não responde à expansão volêmica; o tratamento usa vasoconstritor esplâncnico (terlipressina) com albumina, e o definitivo é o transplante hepático.',
     x: { A: 'Sedimento normal e sódio urinário muito baixo falam contra necrose tubular.', C: 'Não há hematúria nem proteinúria que sugiram doença glomerular.', D: 'A ultrassonografia normal exclui hidronefrose, e a ascite não obstrui os ureteres.' },
@@ -189,7 +189,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Ateroembolismo renal',
     e: 'Homem de 70 anos, com aterosclerose difusa, realizou cateterismo cardíaco há 3 semanas. Evolui com piora lenta e progressiva da função renal, livedo reticular em membros inferiores e pododáctilos cianóticos com pulsos presentes. Exames: eosinofilia e complemento reduzido. O diagnóstico é:',
-    o: ['Nefropatia por contraste iodado', 'Doença renal ateroembólica por cristais de colesterol', 'Poliarterite nodosa', 'Nefrite intersticial alérgica'],
+    o: ['Nefropatia por contraste iodado, em 48 h', 'Doença ateroembólica por cristais de colesterol', 'Poliarterite nodosa, com microaneurismas', 'Nefrite intersticial alérgica, com eosinofilia'],
     g: 'B',
     c: 'A manipulação da aorta desprende cristais de colesterol de placas ateromatosas, que ocluem pequenas artérias renais e cutâneas e desencadeiam inflamação. A piora renal é subaguda, ao longo de semanas, e se associa a livedo, síndrome do dedo azul com pulsos preservados, eosinofilia e hipocomplementemia.',
     x: { A: 'A nefropatia por contraste surge em 24 a 48 horas e melhora em cerca de uma semana.', C: 'A história de cateterismo recente e os pulsos preservados apontam para embolia de colesterol.', D: 'Não há droga suspeita nem leucocitúria, e o livedo com dedos azuis não é explicado por nefrite.' },
@@ -197,7 +197,7 @@ export const UREMICA_1: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por pigmento e cristais',
     e: 'Paciente com linfoma de Burkitt inicia quimioterapia e, em 48 horas, apresenta oligúria, creatinina de 3,5 mg/dL, hipercalemia, hiperfosfatemia, hipocalcemia e ácido úrico de 14 mg/dL. O mecanismo principal da lesão renal aguda é:',
-    o: ['Infiltração do parênquima renal pelo linfoma', 'Precipitação intratubular de ácido úrico e de fosfato de cálcio na síndrome de lise tumoral', 'Toxicidade tubular direta dos quimioterápicos', 'Microangiopatia trombótica'],
+    o: ['Infiltração renal pelo linfoma, com rins aumentados', 'Precipitação de urato e fosfato de cálcio (lise tumoral)', 'Toxicidade tubular direta dos quimioterápicos', 'Microangiopatia trombótica por quimioterápicos'],
     g: 'B',
     c: 'A lise maciça de células tumorais libera potássio, fosfato e ácidos nucleicos, que são metabolizados em ácido úrico. O ácido úrico precipita na luz tubular em urina ácida e o fosfato se liga ao cálcio formando cristais, com obstrução intratubular; a prevenção é feita com hidratação vigorosa e alopurinol ou rasburicase.',
     x: { A: 'A infiltração renal não explica a instalação abrupta com os distúrbios metabólicos descritos.', C: 'O conjunto de hiperuricemia, hiperfosfatemia e hipercalemia aponta para lise, e não para toxicidade direta.', D: 'Não há anemia hemolítica microangiopática nem plaquetopenia no quadro apresentado.' },

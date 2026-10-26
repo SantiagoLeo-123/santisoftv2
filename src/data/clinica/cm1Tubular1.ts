@@ -13,7 +13,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'NTA - segmentos vulneráveis',
     e: 'Na necrose tubular aguda isquêmica, os segmentos do néfron mais suscetíveis à lesão são:',
-    o: ['Túbulo contorcido distal e ducto coletor cortical', 'Segmento reto (S3) do túbulo proximal e ramo ascendente espesso da alça de Henle', 'Glomérulo e cápsula de Bowman', 'Ramo descendente fino da alça de Henle e ducto coletor papilar'],
+    o: ['Túbulo contorcido distal e ducto coletor cortical', 'Segmento S3 do túbulo proximal e ramo ascendente espesso', 'Glomérulo e cápsula de Bowman, com podócitos', 'Ramo descendente fino e ducto coletor papilar'],
     g: 'B',
     c: 'O segmento S3 do túbulo proximal e a porção espessa ascendente da alça de Henle ficam na medula externa, região que recebe pouco oxigênio e tem altíssimo consumo de ATP pelo transporte ativo de sódio. Diante de hipoperfusão, essas células são as primeiras a sofrer depleção energética e necrose.',
     x: { A: 'O túbulo distal e o coletor cortical têm menor demanda metabólica e estão em região mais bem oxigenada.', C: 'O glomérulo é relativamente poupado na lesão isquêmica; a doença é tubular.', D: 'O ramo descendente fino faz transporte passivo, com baixo consumo de oxigênio.' },
@@ -53,7 +53,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Aminoglicosídeo',
     e: 'Mulher de 54 anos, internada por pielonefrite complicada, recebe gentamicina há 8 dias. Mantém diurese de 1.800 mL por dia, mas a creatinina subiu de 0,9 para 2,6 mg/dL. Exames mostram potássio de 3,1 mEq/L e magnésio de 1,1 mg/dL. Sobre esse quadro, é correto afirmar:',
-    o: ['Trata-se de nefrite intersticial alérgica, sendo obrigatória a presença de eosinofilia', 'Trata-se de necrose tubular aguda não oligúrica, que surge tipicamente após 5 a 7 dias de uso e cursa com perda renal de potássio e magnésio', 'A lesão ocorre no glomérulo, por deposição de imunocomplexos', 'A diurese preservada afasta lesão renal pelo antibiótico'],
+    o: ['Nefrite alérgica, com eosinofilia obrigatória', 'NTA não oligúrica após 5-7 dias; perda de potássio e magnésio', 'Lesão glomerular por deposição de imunocomplexos', 'Diurese preservada afasta lesão renal pelo antibiótico'],
     g: 'B',
     c: 'Os aminoglicosídeos são filtrados e captados pelas células do túbulo proximal, onde se acumulam nos lisossomos e causam necrose. A lesão aparece em geral após cerca de uma semana de tratamento, é caracteristicamente não oligúrica e acompanha-se de hipocalemia e hipomagnesemia por perda tubular. O risco aumenta com dose, duração, idade avançada, hipovolemia e doença renal prévia.',
     x: { A: 'O quadro é de toxicidade tubular direta e dose-dependente, não de hipersensibilidade.', C: 'O alvo é a célula do túbulo proximal, sem participação de imunocomplexos glomerulares.', D: 'A forma não oligúrica é justamente a apresentação típica da toxicidade por aminoglicosídeo.' },
@@ -69,7 +69,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Anfotericina B',
     e: 'Homem de 37 anos, com aids e meningite criptocócica, está no décimo dia de anfotericina B desoxicolato. Evolui com creatinina de 2,2 mg/dL, potássio de 2,7 mEq/L, magnésio de 1,0 mg/dL e bicarbonato de 16 mEq/L com ânion-gap normal. O conjunto de alterações se explica por:',
-    o: ['Obstrução intratubular por cristais do antifúngico', 'Vasoconstrição da arteríola aferente associada a lesão direta da membrana das células tubulares distais, com perda de potássio e magnésio e acidose tubular distal', 'Glomerulonefrite membranosa induzida pela droga', 'Bloqueio do canal epitelial de sódio no ducto coletor'],
+    o: ['Obstrução intratubular por cristais do antifúngico', 'Vasoconstrição aferente e lesão tubular distal; perde K+ e Mg2+', 'Glomerulonefrite membranosa induzida pela droga', 'Bloqueio do canal de sódio (ENaC) do ducto coletor'],
     g: 'B',
     c: 'A anfotericina B liga-se a esteróis de membrana e forma poros nas células tubulares, além de provocar vasoconstrição renal. Os poros permitem a saída de potássio e magnésio e a retrodifusão de hidrogênio no néfron distal, gerando hipocalemia, hipomagnesemia e acidose tubular renal tipo I, podendo haver ainda diabetes insipidus nefrogênico. A hidratação com solução salina antes das infusões e as formulações lipídicas reduzem a toxicidade.',
     x: { A: 'A anfotericina não precipita em cristais; nefropatia por cristais ocorre com aciclovir e sulfadiazina.', C: 'Não há lesão glomerular imunomediada; o dano é hemodinâmico e tubular.', D: 'O bloqueio do canal epitelial de sódio causaria hipercalemia, como ocorre com trimetoprima e amilorida.' },
@@ -77,7 +77,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Cisplatina',
     e: 'Paciente em quimioterapia com cisplatina para tumor de testículo desenvolve queda progressiva da função renal. O distúrbio eletrolítico mais característico dessa nefrotoxicidade e a principal medida de prevenção são, respectivamente:',
-    o: ['Hipercalemia; alcalinização urinária', 'Hipomagnesemia; hidratação vigorosa com solução salina', 'Hipercalcemia; uso de diurético tiazídico', 'Hipernatremia; restrição hídrica'],
+    o: ['Hipercalemia; alcalinização urinária', 'Hipomagnesemia; hidratação vigorosa com salina', 'Hipercalcemia; uso de diurético tiazídico', 'Hipernatremia; restrição hídrica'],
     g: 'B',
     c: 'A cisplatina é tóxica para o túbulo proximal e para segmentos distais, causando perda renal de magnésio que pode persistir por meses, além de eventual síndrome de Fanconi e perda de sal. A hidratação com solução salina mantém alto fluxo urinário e alta concentração de cloreto, o que reduz a formação dos metabólitos tóxicos da droga dentro da célula tubular.',
     x: { A: 'A toxicidade cursa com perda tubular de eletrólitos, e a alcalinização não é a medida preventiva.', C: 'A cisplatina tende a causar hipocalcemia secundária à hipomagnesemia, e não hipercalcemia.', D: 'A droga pode causar perda renal de sal com hiponatremia, e a restrição hídrica aumentaria a toxicidade.' },
@@ -85,7 +85,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Rabdomiólise',
     e: 'Homem de 26 anos é resgatado após ficar 10 horas preso sob escombros. Apresenta urina escura, creatinina de 3,0 mg/dL e creatinofosfoquinase de 48.000 U/L. A fita reagente urinária mostra hemoglobina 3+, mas a microscopia do sedimento não revela hemácias. Esse achado se explica por:',
-    o: ['Hemólise intravascular com hemoglobinúria', 'Mioglobinúria, pois a fita reagente detecta o grupo heme tanto da hemoglobina quanto da mioglobina', 'Hematúria glomerular com hemácias lisadas pela urina ácida', 'Porfiria aguda desencadeada pelo trauma'],
+    o: ['Hemólise intravascular com hemoglobinúria franca', 'Mioglobinúria: a fita detecta o heme das duas proteínas', 'Hematúria glomerular, com hemácias lisadas pelo pH ácido', 'Porfiria aguda desencadeada pelo trauma muscular'],
     g: 'B',
     c: 'A fita reagente identifica a atividade peroxidase do heme e não distingue hemoglobina de mioglobina. Na rabdomiólise, a mioglobina liberada pelo músculo lesado é filtrada livremente, de modo que a fita é fortemente positiva para sangue sem hemácias no sedimento. A elevação acentuada da creatinofosfoquinase confirma a origem muscular.',
     x: { A: 'Na hemólise o plasma fica avermelhado e a creatinofosfoquinase não se eleva dessa forma.', C: 'A hematúria glomerular mostra hemácias dismórficas e cilindros hemáticos ao exame microscópico.', D: 'A porfiria não positiva a fita para heme nem explica a enzima muscular muito elevada.' },
@@ -101,7 +101,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Rabdomiólise - tratamento',
     e: 'Mulher de 22 anos chega ao pronto-socorro após maratona de exercício intenso, com dor muscular difusa, urina cor de coca-cola e creatinofosfoquinase de 62.000 U/L. A creatinina é de 1,3 mg/dL e o potássio de 5,0 mEq/L. A medida mais importante para prevenir a injúria renal aguda é:',
-    o: ['Furosemida em dose alta para forçar a diurese', 'Hidratação venosa vigorosa e precoce com solução cristaloide, visando alto débito urinário', 'Hemodiálise profilática para remoção da mioglobina', 'Restrição hídrica e reposição de gluconato de cálcio de rotina'],
+    o: ['Furosemida em dose alta para forçar a diurese', 'Hidratação venosa vigorosa e precoce com cristaloide', 'Hemodiálise profilática para remover a mioglobina', 'Restrição hídrica e gluconato de cálcio de rotina'],
     g: 'B',
     c: 'A mioglobina lesa o rim por vasoconstrição, toxicidade direta do heme ao túbulo proximal e precipitação com a proteína de Tamm-Horsfall formando cilindros obstrutivos, fenômenos agravados por hipovolemia e urina ácida. A expansão volêmica precoce e agressiva corrige o sequestro de líquido no músculo e dilui e lava o pigmento. A alcalinização urinária com bicarbonato pode ser associada, mas tem evidência menos sólida.',
     x: { A: 'O diurético de alça não substitui a hidratação e pode piorar a hipovolemia e acidificar a urina.', C: 'A diálise remove mal a mioglobina e fica reservada às indicações habituais de urgência dialítica.', D: 'O cálcio só é reposto se houver hipocalcemia sintomática ou hipercalemia grave, pois se deposita no músculo.' },
@@ -109,7 +109,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por contraste',
     e: 'Homem de 70 anos, diabético, com creatinina basal de 1,6 mg/dL, é submetido a cineangiocoronariografia. A evolução típica da injúria renal associada ao contraste iodado é:',
-    o: ['Elevação da creatinina após 2 a 3 semanas, com eosinofilia e livedo reticular', 'Elevação da creatinina em 24 a 48 horas, pico em 3 a 5 dias e retorno ao basal em cerca de 7 a 10 dias, geralmente sem oligúria', 'Anúria imediata e irreversível, com necessidade de diálise permanente', 'Proteinúria nefrótica de início após 1 semana'],
+    o: ['Creatinina sobe após 2-3 semanas, com eosinofilia e livedo', 'Creatinina sobe em 24-48 h, pico em 3-5 dias, volta em 7-10; sem oligúria', 'Anúria imediata e irreversível, com diálise permanente', 'Proteinúria nefrótica de início após 1 semana'],
     g: 'B',
     c: 'O contraste provoca vasoconstrição renal com isquemia medular e toxicidade direta às células tubulares. A creatinina sobe precocemente, atinge o pico em poucos dias e normaliza em uma a duas semanas, na maioria das vezes de forma não oligúrica e com fração de excreção de sódio baixa. A cronologia ajuda a diferenciar do ateroembolismo, que é tardio e progressivo.',
     x: { A: 'Início tardio, eosinofilia e livedo após cateterismo apontam para ateroembolismo por colesterol.', C: 'A lesão por contraste costuma ser leve e reversível, raramente exigindo diálise.', D: 'O contraste não causa lesão glomerular nem proteinúria em faixa nefrótica.' },
@@ -117,7 +117,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Contraste - fatores de risco',
     e: 'O principal fator de risco para injúria renal aguda associada ao contraste iodado é:',
-    o: ['Sexo feminino', 'Doença renal crônica preexistente, sobretudo se associada a diabetes mellitus', 'Alergia a frutos do mar', 'Hipertireoidismo'],
+    o: ['Sexo feminino, como fator de risco', 'Doença renal crônica prévia, sobretudo com diabetes', 'Alergia a frutos do mar, como fator de risco', 'Hipertireoidismo, como fator de risco'],
     g: 'B',
     c: 'A redução prévia da taxa de filtração glomerular é o fator de risco mais importante, pois há menor reserva de néfrons e maior exposição de cada túbulo ao contraste. O risco cresce quando há diabetes, hipovolemia, insuficiência cardíaca, mieloma múltiplo, uso de anti-inflamatórios, grande volume de contraste e via intra-arterial.',
     x: { A: 'O sexo não é determinante relevante do risco de lesão renal por contraste.', C: 'A alergia a frutos do mar não prediz nefrotoxicidade nem mesmo reação alérgica ao contraste.', D: 'O hipertireoidismo implica risco de tireotoxicose induzida por iodo, não de lesão renal.' },
@@ -125,7 +125,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Contraste - prevenção',
     e: 'Mulher de 66 anos, diabética e com taxa de filtração glomerular estimada de 28 mL/min/1,73 m2, necessita de angiotomografia com contraste iodado. A medida com melhor evidência para prevenir a injúria renal associada ao contraste é:',
-    o: ['N-acetilcisteína oral em dose alta como medida isolada', 'Hidratação venosa com solução salina isotônica antes e depois do exame, com uso do menor volume possível de contraste de baixa osmolaridade ou iso-osmolar', 'Furosemida venosa imediatamente antes do exame', 'Hemodiálise profilática logo após a injeção do contraste'],
+    o: ['N-acetilcisteína oral em dose alta como medida isolada', 'Salina isotônica antes e depois; pouco contraste iso-osmolar', 'Furosemida venosa imediatamente antes do exame contrastado', 'Hemodiálise profilática logo após o contraste iodado'],
     g: 'B',
     c: 'A expansão volêmica com cristaloide isotônico aumenta o fluxo tubular, dilui o contraste e atenua a vasoconstrição medular, sendo a medida preventiva mais consistente em pacientes de alto risco. Somam-se a ela o uso do menor volume possível de contraste não iônico de baixa osmolaridade ou iso-osmolar e a suspensão de nefrotoxinas, como os anti-inflamatórios. Grandes ensaios não demonstraram benefício da N-acetilcisteína.',
     x: { A: 'Estudos randomizados de grande porte não mostraram benefício da N-acetilcisteína na prevenção.', C: 'Diuréticos aumentam o risco por causarem depleção de volume antes do contraste.', D: 'A diálise profilática não previne a lesão e acrescenta riscos do procedimento.' },
@@ -141,7 +141,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Lise tumoral - risco',
     e: 'O risco de síndrome de lise tumoral é maior em neoplasias com alta taxa de proliferação, grande massa tumoral e alta sensibilidade à quimioterapia. Entre as opções abaixo, a de maior risco é:',
-    o: ['Adenocarcinoma de próstata localizado', 'Leucemia linfoide aguda com hiperleucocitose', 'Mieloma múltiplo indolente', 'Carcinoma basocelular de pele'],
+    o: ['Adenocarcinoma de próstata localizado, indolente', 'Leucemia linfoide aguda com hiperleucocitose', 'Mieloma múltiplo indolente, assintomático', 'Carcinoma basocelular de pele, localizado'],
     g: 'B',
     c: 'As neoplasias hematológicas agressivas, como a leucemia linfoide aguda com leucometria muito elevada, o linfoma de Burkitt e o linfoma linfoblástico, concentram os casos de lise tumoral. Nelas há enorme número de células em divisão que morrem simultaneamente após o início do tratamento, e a desidrogenase lática elevada reflete essa carga tumoral.',
     x: { A: 'Tumores sólidos de crescimento lento raramente evoluem com lise tumoral.', C: 'O mieloma indolente tem baixa taxa proliferativa e risco baixo de lise tumoral.', D: 'O carcinoma basocelular é localizado e não libera carga celular significativa.' },
@@ -149,7 +149,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Lise tumoral - rasburicase',
     e: 'Homem de 31 anos com leucemia aguda inicia quimioterapia e, apesar de hidratação e alopurinol, evolui com ácido úrico de 14 mg/dL e creatinina em ascensão. Optou-se por rasburicase. Sobre essa droga, é correto afirmar:',
-    o: ['Inibe a xantina oxidase, impedindo a formação de novo ácido úrico', 'É uma urato oxidase recombinante que converte o ácido úrico em alantoína, mais solúvel, sendo contraindicada na deficiência de G6PD', 'Aumenta a excreção renal de ácido úrico por inibir sua reabsorção no túbulo proximal', 'Deve ser associada à alcalinização urinária com bicarbonato para ser eficaz'],
+    o: ['Inibe a xantina oxidase e impede a formação de urato', 'Urato oxidase recombinante: urato → alantoína; contraindicada em G6PD', 'Aumenta a excreção renal de urato inibindo a reabsorção', 'Deve ser associada à alcalinização da urina para agir'],
     g: 'B',
     c: 'A rasburicase degrada o ácido úrico já formado em alantoína, composto muito mais solúvel, reduzindo rapidamente a uricemia. A reação gera peróxido de hidrogênio, que pode desencadear hemólise e metemoglobinemia em portadores de deficiência de G6PD. Já o alopurinol apenas bloqueia a produção de novo ácido úrico, sem remover o que já existe.',
     x: { A: 'A inibição da xantina oxidase é o mecanismo do alopurinol e do febuxostate.', C: 'Esse é o mecanismo dos uricosúricos, que aumentariam a carga tubular de urato e são evitados.', D: 'A alcalinização não é recomendada de rotina, pois favorece a precipitação de fosfato de cálcio.' },
@@ -157,7 +157,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Lise tumoral - prevenção',
     e: 'Na prevenção da síndrome de lise tumoral em paciente de alto risco, a conduta de base, aplicável a todos os casos, é:',
-    o: ['Alcalinização urinária de rotina com bicarbonato de sódio', 'Hidratação venosa vigorosa para manter alto débito urinário, associada a agente hipouricemiante', 'Restrição hídrica e diurético tiazídico', 'Reposição profilática de cálcio e de potássio'],
+    o: ['Alcalinização urinária de rotina com bicarbonato', 'Hidratação vigorosa (alto débito urinário) e hipouricemiante', 'Restrição hídrica e diurético tiazídico', 'Reposição profilática de cálcio e potássio'],
     g: 'B',
     c: 'A hidratação vigorosa aumenta o fluxo tubular e reduz a concentração de ácido úrico e de fosfato na luz, dificultando a precipitação de cristais. Associa-se alopurinol nos casos de risco intermediário ou rasburicase nos de alto risco. A alcalinização foi abandonada como rotina porque, embora solubilize o urato, favorece a deposição de fosfato de cálcio.',
     x: { A: 'O bicarbonato aumenta o risco de precipitação de fosfato de cálcio nos túbulos e tecidos.', C: 'A restrição de volume e o tiazídico reduzem o fluxo urinário e a excreção de urato.', D: 'O potássio já está elevado, e o cálcio só é reposto se houver hipocalcemia sintomática.' },
@@ -165,7 +165,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Fases da NTA',
     e: 'Homem de 45 anos, em recuperação de necrose tubular aguda por choque séptico, passa a apresentar diurese de 5 litros por dia, embora a creatinina ainda esteja em 4,0 mg/dL. Nessa fase, o principal cuidado é:',
-    o: ['Restringir líquidos, pois a poliúria indica sobrecarga de volume', 'Monitorar e repor perdas de água e eletrólitos, pelo risco de hipovolemia, hipocalemia e hipomagnesemia', 'Indicar hemodiálise, pois a creatinina elevada com poliúria significa piora da lesão', 'Iniciar desmopressina para reduzir o volume urinário'],
+    o: ['Restringir líquidos: poliúria indica sobrecarga de volume', 'Repor perdas de água e eletrólitos: hipovolemia, hipo-K e hipo-Mg', 'Indicar hemodiálise: creatinina alta com poliúria é piora', 'Iniciar desmopressina para reduzir a diurese'],
     g: 'B',
     c: 'Na fase de recuperação da necrose tubular, a filtração glomerular volta antes de os túbulos regenerados recuperarem a capacidade de reabsorver solutos e concentrar a urina, além de haver diurese osmótica pela ureia acumulada. Surge então poliúria com perdas importantes de sódio, potássio e magnésio, que podem levar a nova hipoperfusão renal se não forem repostas.',
     x: { A: 'A poliúria decorre de disfunção tubular transitória, e restringir líquidos levaria a hipovolemia.', C: 'A queda da creatinina vem depois do aumento da diurese; não há indicação de diálise por isso.', D: 'O defeito não é falta de hormônio antidiurético, e sim incapacidade tubular transitória.' },
@@ -173,7 +173,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'IRA - urgência dialítica',
     e: 'Em um paciente com necrose tubular aguda oligúrica, todas as situações abaixo constituem indicação de terapia de substituição renal de urgência, EXCETO:',
-    o: ['Hipercalemia refratária às medidas clínicas', 'Edema agudo de pulmão por hipervolemia sem resposta a diurético', 'Pericardite urêmica', 'Creatinina de 5,0 mg/dL em paciente assintomático, com potássio e gasometria normais'],
+    o: ['Hipercalemia refratária às medidas clínicas, com ECG alterado', 'Edema agudo de pulmão sem resposta a diurético', 'Pericardite urêmica, com atrito pericárdico à ausculta', 'Creatinina de 5,0 em assintomático, com K+ e gasometria normais'],
     g: 'D',
     c: 'A indicação de diálise de urgência depende das complicações da uremia, e não de um valor isolado de creatinina ou ureia. São indicações clássicas a hipercalemia e a acidose metabólica refratárias, a hipervolemia refratária e as manifestações urêmicas, como pericardite, encefalopatia e sangramento, além de algumas intoxicações exógenas dialisáveis.',
     x: { A: 'A hipercalemia refratária tem risco de arritmia fatal e é indicação clássica de diálise.', B: 'A congestão pulmonar sem resposta ao diurético exige remoção de volume por ultrafiltração.', C: 'A pericardite urêmica pode evoluir para tamponamento e indica diálise imediata.' },
@@ -181,7 +181,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome hepatorrenal x NTA',
     e: 'Homem de 57 anos, cirrótico com ascite tensa, apresenta creatinina de 2,8 mg/dL após peritonite bacteriana espontânea. O sódio urinário é de 6 mEq/L, o sedimento urinário é normal e não houve melhora da função renal após 48 horas de suspensão de diuréticos e expansão com albumina. A hipótese mais provável e seu mecanismo são:',
-    o: ['Necrose tubular aguda, por toxicidade direta das bactérias sobre o túbulo', 'Síndrome hepatorrenal, por vasodilatação esplâncnica com intensa vasoconstrição renal funcional', 'Nefrite intersticial aguda, por hipersensibilidade ao antibiótico', 'Glomerulonefrite por IgA associada à cirrose'],
+    o: ['NTA por toxicidade direta das bactérias sobre o túbulo', 'Síndrome hepatorrenal: vasodilatação esplâncnica e vasoconstrição renal', 'Nefrite intersticial aguda por hipersensibilidade ao antibiótico', 'Glomerulonefrite por IgA associada à cirrose'],
     g: 'B',
     c: 'Na síndrome hepatorrenal, a vasodilatação esplâncnica reduz o volume arterial efetivo e ativa de forma máxima os sistemas vasoconstritores, levando a hipoperfusão renal intensa com rins estruturalmente normais. O padrão urinário é o de um quadro pré-renal, com sódio urinário muito baixo e sedimento inocente, porém sem resposta à expansão volêmica. O tratamento inclui vasoconstritor esplâncnico, como a terlipressina, associado à albumina.',
     x: { A: 'Na necrose tubular haveria sódio urinário alto e cilindros granulosos no sedimento.', C: 'A nefrite intersticial cursa com piúria e cilindros leucocitários, ausentes nesse caso.', D: 'Glomerulonefrite produziria hematúria e proteinúria, e o sedimento aqui é normal.' },
@@ -189,7 +189,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'AINE e IECA',
     e: 'Os anti-inflamatórios não esteroides e os inibidores da enzima conversora de angiotensina podem precipitar injúria renal aguda hemodinâmica em pacientes com baixo volume arterial efetivo. Os mecanismos são, respectivamente:',
-    o: ['Vasodilatação da arteríola eferente; vasoconstrição da arteríola aferente', 'Perda da vasodilatação da arteríola aferente mediada por prostaglandinas; perda da vasoconstrição da arteríola eferente mediada por angiotensina II', 'Lesão direta do podócito; obstrução tubular por cristais', 'Vasoconstrição da arteríola eferente; vasodilatação da arteríola aferente'],
+    o: ['Dilata a eferente e contrai a aferente, reduzindo a pressão', 'Perde a dilatação aferente (prostaglandinas) e a constrição eferente (AII)', 'Lesão direta do podócito e cristais tubulares', 'Contrai a eferente e dilata a aferente, sem alterar a TFG'],
     g: 'B',
     c: 'Em estados de hipoperfusão, a filtração glomerular é sustentada por dois mecanismos de autorregulação: as prostaglandinas dilatam a arteríola aferente e a angiotensina II contrai a eferente, mantendo a pressão dentro do capilar glomerular. Os anti-inflamatórios bloqueiam o primeiro e os inibidores da enzima conversora bloqueiam o segundo, derrubando a pressão de filtração.',
     x: { A: 'A alternativa atribui a cada droga o efeito da outra e inverte o vaso acometido.', C: 'O mecanismo em questão é hemodinâmico, sem lesão estrutural de podócito ou túbulo.', D: 'Contrair a eferente e dilatar a aferente aumentaria a filtração, em vez de reduzi-la.' },
@@ -197,7 +197,7 @@ export const TUBULAR_1: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por cristais',
     e: 'Mulher de 40 anos, com encefalite herpética, recebe aciclovir venoso em dose alta, infundido em bolus e com pouca hidratação. Após 48 horas apresenta dor lombar, náuseas e creatinina de 2,9 mg/dL. O sedimento urinário mostra cristais em forma de agulha, birrefringentes. O mecanismo da lesão é:',
-    o: ['Nefrite intersticial alérgica com infiltrado eosinofílico', 'Precipitação intratubular de cristais da droga, com obstrução dos túbulos', 'Vasoconstrição da arteríola eferente', 'Microangiopatia trombótica induzida pela droga'],
+    o: ['Nefrite intersticial alérgica com infiltrado eosinofílico', 'Precipitação intratubular de cristais, com obstrução dos túbulos', 'Vasoconstrição da arteríola eferente, com queda da TFG', 'Microangiopatia trombótica induzida pela droga'],
     g: 'B',
     c: 'O aciclovir é pouco solúvel na urina e, quando infundido rapidamente em paciente com baixo fluxo urinário, precipita na luz tubular e causa obstrução intrarrenal. O quadro surge em um a dois dias e é prevenido com infusão lenta e hidratação adequada. Mecanismo semelhante ocorre com sulfadiazina, metotrexato em dose alta e indinavir.',
     x: { A: 'A nefrite alérgica costuma surgir após dias a semanas, com piúria, e não com cristalúria.', C: 'Não há mecanismo hemodinâmico eferente descrito para o aciclovir.', D: 'Não há anemia hemolítica nem plaquetopenia que sugiram microangiopatia trombótica.' },

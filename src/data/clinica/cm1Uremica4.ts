@@ -5,7 +5,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Início da diálise na doença renal crônica',
     e: 'Em pacientes com doença renal crônica estágio 5, a decisão de iniciar a terapia de substituição renal deve se basear em:',
-    o: ['Valor isolado da taxa de filtração, iniciando sempre que estiver abaixo de 15 mL/min/1,73 m2', 'Presença de sintomas ou sinais urêmicos, desnutrição, hipervolemia ou distúrbios metabólicos refratários, o que costuma ocorrer com filtração entre 5 e 10 mL/min/1,73 m2', 'Nível de creatinina acima de 6 mg/dL', 'Tempo de diagnóstico da doença renal superior a 5 anos'],
+    o: ['Valor isolado da TFG: iniciar sempre abaixo de 15 mL/min', 'Sintomas urêmicos, desnutrição, hipervolemia ou distúrbios refratários', 'Nível de creatinina acima de 6 mg/dL, de forma isolada', 'Tempo de diagnóstico da DRC superior a 5 anos'],
     g: 'B',
     c: 'O início precoce da diálise, guiado apenas por um valor de filtração, não melhora a sobrevida em comparação ao início orientado por sintomas. Indicam o início a uremia sintomática (anorexia, náuseas, prurido, alteração cognitiva, serosite), a perda de peso, a sobrecarga de volume ou a hipertensão de difícil controle e a hipercalemia ou acidose refratárias.',
     x: { A: 'Um valor de filtração isolado não define o início em paciente assintomático e estável.', C: 'A creatinina depende da massa muscular e não serve como critério isolado.', D: 'O tempo de doença não é critério para iniciar a terapia de substituição.' },
@@ -21,7 +21,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Transplante preemptivo e tipo de doador',
     e: 'Mulher de 38 anos, com doença renal policística e taxa de filtração de 14 mL/min/1,73 m2, ainda sem sintomas urêmicos, tem uma irmã saudável disposta a doar. A melhor orientação é:',
-    o: ['Aguardar pelo menos 2 anos em hemodiálise antes de transplantar', 'Avaliar a doadora para transplante preemptivo com doador vivo, que oferece os melhores resultados', 'Recusar o doador vivo, pois o rim de doador falecido tem maior sobrevida', 'Contraindicar o transplante por se tratar de doença hereditária'],
+    o: ['Aguardar 2 anos em hemodiálise antes de transplantar', 'Transplante preemptivo com doador vivo: melhores resultados', 'Recusar o doador vivo: o rim de falecido dura mais', 'Contraindicar o transplante por ser doença hereditária'],
     g: 'B',
     c: 'O transplante realizado antes do início da diálise evita a morbidade do período dialítico e se associa a maior sobrevida do enxerto e do paciente. O rim de doador vivo tem resultados superiores aos de doador falecido, pelo menor tempo de isquemia fria e pela possibilidade de programar o procedimento; como a doença é hereditária, a doadora aparentada deve ser investigada para excluir a mesma condição.',
     x: { A: 'O tempo em diálise antes do transplante piora os resultados do enxerto.', C: 'É o contrário: o enxerto de doador vivo tem maior sobrevida que o de falecido.', D: 'A doença policística não recorre no enxerto e não contraindica o transplante.' },
@@ -29,7 +29,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Acesso vascular de escolha',
     e: 'O acesso vascular de escolha para hemodiálise crônica é:',
-    o: ['Cateter de duplo lúmen tunelizado em veia jugular interna', 'Fístula arteriovenosa autóloga, preferencialmente distal no membro superior não dominante', 'Prótese arteriovenosa de politetrafluoretileno', 'Cateter de duplo lúmen em veia subclávia'],
+    o: ['Cateter de duplo lúmen tunelizado em veia jugular', 'Fístula arteriovenosa autóloga distal no membro não dominante', 'Prótese arteriovenosa de politetrafluoretileno', 'Cateter de duplo lúmen em veia subclávia'],
     g: 'B',
     c: 'A fístula arteriovenosa com vasos do próprio paciente tem a maior durabilidade e as menores taxas de infecção e trombose entre os acessos. Inicia-se pelo ponto mais distal (radiocefálica no punho) do braço não dominante, preservando sítios proximais para confecções futuras.',
     x: { A: 'O cateter tunelizado tem maior risco de infecção, disfunção e estenose venosa central.', C: 'A prótese é alternativa quando não há veia adequada, com mais trombose e infecção.', D: 'A subclávia deve ser evitada pelo alto risco de estenose venosa central.' },
@@ -37,7 +37,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Planejamento da fístula',
     e: 'Homem de 57 anos, diabético, com doença renal crônica progressiva e taxa de filtração de 17 mL/min/1,73 m2, optou por hemodiálise como terapia futura. Em relação ao acesso vascular, a conduta é:',
-    o: ['Aguardar o surgimento de uremia para implantar cateter', 'Encaminhar desde já para confecção de fístula arteriovenosa, pois ela precisa de semanas a meses para amadurecer', 'Implantar cateter tunelizado preventivamente', 'Confeccionar a fístula apenas depois de iniciada a diálise por cateter'],
+    o: ['Aguardar a uremia para implantar o cateter', 'Encaminhar já para fístula: leva semanas a meses para maturar', 'Implantar cateter tunelizado preventivamente', 'Fazer a fístula só depois de iniciada a diálise por cateter'],
     g: 'B',
     c: 'Após a anastomose, a veia precisa dilatar e ter a parede espessada (arterializada) para suportar punções repetidas e fluxo adequado, processo que leva de semanas a meses e pode falhar. Planejar o acesso com antecedência evita o início da diálise por cateter, que aumenta infecção, hospitalização e mortalidade.',
     x: { A: 'Aguardar a uremia obriga a iniciar por cateter, com maior morbidade e mortalidade.', C: 'O cateter preventivo expõe a infecção e a estenose venosa sem necessidade.', D: 'Iniciar por cateter é justamente o que o planejamento antecipado busca evitar.' },
@@ -45,7 +45,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Preservação de veias',
     e: 'Paciente de 50 anos com doença renal crônica G4 é internado para antibioticoterapia venosa prolongada. Pensando em futura hemodiálise, a orientação correta sobre os acessos venosos é:',
-    o: ['Implantar cateter central de inserção periférica no braço não dominante', 'Preservar as veias dos antebraços e braços, sobretudo do membro não dominante, evitando punções, cateter central de inserção periférica e cateter em subclávia', 'Preferir a veia subclávia para acesso central, por ter menor taxa de infecção', 'Puncionar preferencialmente a veia cefálica do antebraço não dominante'],
+    o: ['Implantar PICC no braço não dominante', 'Preservar as veias dos braços; evitar PICC e subclávia', 'Preferir a veia subclávia para acesso, por menor infecção', 'Puncionar a veia cefálica do antebraço não dominante'],
     g: 'B',
     c: 'A viabilidade da futura fístula depende de veias superficiais íntegras e de veias centrais pérvias. Punções repetidas causam flebite e esclerose das veias do braço, e cateteres em subclávia ou de inserção periférica provocam estenose e trombose venosa, podendo inviabilizar o acesso no membro; preferem-se as veias do dorso da mão e, se necessário acesso central, a jugular interna.',
     x: { A: 'O cateter de inserção periférica causa trombose e estenose das veias do braço e centrais.', C: 'A subclávia tem alta taxa de estenose central, que inviabiliza fístula do mesmo lado.', D: 'A veia cefálica é a mais usada para a fístula e deve ser poupada de punções.' },
@@ -61,7 +61,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Infecção de cateter',
     e: 'Mulher de 63 anos faz hemodiálise por cateter tunelizado há 4 meses. Durante a sessão, apresenta febre de 39 graus, calafrios e hipotensão, sem outro foco aparente. A conduta inicial é:',
-    o: ['Antitérmico e alta após o término da sessão', 'Coletar hemoculturas e iniciar antibiótico empírico com cobertura para estafilococos e bacilos gram-negativos, avaliando a retirada do cateter', 'Trocar o cateter por fio-guia sem antibioticoterapia', 'Iniciar antifúngico empírico'],
+    o: ['Antitérmico e alta após o término da sessão', 'Hemoculturas e antibiótico empírico; avaliar retirar o cateter', 'Trocar o cateter por fio-guia sem antibiótico algum', 'Iniciar antifúngico empírico, por via venosa, de rotina'],
     g: 'B',
     c: 'Febre e calafrios durante a diálise em portador de cateter indicam bacteremia relacionada ao cateter até prova em contrário, com predomínio de estafilococos, incluindo Staphylococcus aureus. Colhem-se culturas e inicia-se antibiótico empírico; a remoção do cateter é indicada na instabilidade, na infecção por S. aureus, Pseudomonas ou fungos e nas complicações como endocardite.',
     x: { A: 'Liberar o paciente sem investigação expõe a sepse e a endocardite.', C: 'A troca sem antibiótico não trata a bacteremia já instalada.', D: 'Fungos são agentes menos frequentes e não justificam cobertura inicial isolada.' },
@@ -77,7 +77,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome do roubo',
     e: 'Homem de 68 anos, diabético, teve fístula braquiocefálica confeccionada há 3 semanas. Queixa-se de mão fria, pálida, com parestesias e dor que piora durante a diálise. O pulso radial é fraco e melhora com a compressão da fístula. O diagnóstico é:',
-    o: ['Trombose da fístula', 'Síndrome do roubo, com isquemia distal por desvio do fluxo arterial para a fístula', 'Síndrome do túnel do carpo por amiloidose', 'Estenose de veia central'],
+    o: ['Trombose da fístula, com perda do frêmito', 'Síndrome do roubo: isquemia distal por desvio do fluxo', 'Síndrome do túnel do carpo por amiloidose', 'Estenose de veia central, com edema do braço'],
     g: 'B',
     c: 'A fístula é um circuito de baixa resistência que desvia o sangue arterial e pode inverter o fluxo na artéria distal, causando isquemia da mão. É mais frequente em fístulas proximais, em diabéticos e em portadores de doença arterial periférica; casos graves exigem correção cirúrgica para evitar necrose.',
     x: { A: 'Na trombose desaparecem o frêmito e o sopro, sem isquemia distal da mão.', C: 'O túnel do carpo causa parestesia no território do mediano, sem palidez ou frialdade.', D: 'A estenose central causa edema do membro e circulação colateral, não isquemia.' },
@@ -85,7 +85,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Prótese arteriovenosa',
     e: 'Em comparação com a fístula arteriovenosa autóloga, a prótese arteriovenosa sintética caracteriza-se por:',
-    o: ['Maior durabilidade e menor taxa de infecção', 'Possibilidade de uso mais precoce, porém com maiores taxas de trombose e infecção e menor durabilidade', 'Necessidade de período de maturação mais longo', 'Ausência de risco de síndrome do roubo'],
+    o: ['Maior durabilidade e menor taxa de infecção, que a fístula', 'Uso mais precoce, porém mais trombose e menor durabilidade', 'Necessidade de período de maturação bem mais longo', 'Ausência total de risco de síndrome do roubo'],
     g: 'B',
     c: 'A prótese pode ser puncionada em poucas semanas e é a alternativa quando não há veias adequadas. No entanto, a hiperplasia da íntima na anastomose venosa leva a estenose e trombose frequentes, e o material sintético favorece infecção, o que reduz sua vida útil.',
     x: { A: 'É o contrário: a fístula autóloga dura mais e infecta menos.', C: 'A prótese pode ser usada mais cedo que a fístula, que precisa amadurecer.', D: 'A prótese também desvia fluxo arterial e pode causar isquemia distal.' },
@@ -101,7 +101,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Peritonite: diagnóstico',
     e: 'Mulher de 46 anos em diálise peritoneal ambulatorial contínua refere dor abdominal difusa e efluente turvo há 1 dia. O critério laboratorial que confirma peritonite e o grupo de agentes mais frequente são:',
-    o: ['Mais de 250 neutrófilos por mm3; bacilos gram-negativos entéricos', 'Mais de 100 leucócitos por mm3 no efluente, com mais de 50% de polimorfonucleares; cocos gram-positivos, como estafilococos', 'Qualquer celularidade com cultura positiva; fungos', 'Mais de 500 linfócitos por mm3; micobactérias'],
+    o: ['> 250 neutrófilos/mm³; bacilos gram-negativos entéricos', '> 100 leucócitos/mm³, > 50% de PMN; cocos gram-positivos', 'Qualquer celularidade com cultura positiva; fungos', '> 500 linfócitos/mm³; micobactérias'],
     g: 'B',
     c: 'A peritonite associada à diálise peritoneal é diagnosticada com dois de três critérios: dor abdominal ou efluente turvo, leucócitos acima de 100 por mm3 com predomínio de polimorfonucleares e cultura positiva. A contaminação ocorre pelo toque durante as trocas ou pelo trajeto do cateter, o que explica o predomínio de estafilococos coagulase-negativos e Staphylococcus aureus.',
     x: { A: 'O corte de 250 neutrófilos refere-se à peritonite bacteriana espontânea do cirrótico.', C: 'Exige-se celularidade aumentada, e os fungos são agentes pouco frequentes.', D: 'Predomínio linfocitário sugere tuberculose, que é causa incomum.' },
@@ -109,7 +109,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Peritonite: tratamento',
     e: 'Confirmada a peritonite em paciente estável em diálise peritoneal, a conduta inicial é:',
-    o: ['Retirar imediatamente o cateter e transferir para hemodiálise em todos os casos', 'Colher cultura do efluente e iniciar antibioticoterapia empírica intraperitoneal cobrindo gram-positivos e gram-negativos', 'Iniciar antibiótico oral e suspender as trocas por 7 dias', 'Aguardar o resultado da cultura para iniciar o tratamento'],
+    o: ['Retirar o cateter e passar para hemodiálise em todos', 'Cultura do efluente e antibiótico intraperitoneal empírico', 'Antibiótico oral e suspender as trocas por 7 dias', 'Aguardar a cultura para iniciar o tratamento'],
     g: 'B',
     c: 'A via intraperitoneal garante alta concentração do antibiótico no local da infecção. O esquema empírico associa cobertura para gram-positivos (vancomicina ou cefalosporina de primeira geração) e para gram-negativos (cefalosporina de terceira geração ou aminoglicosídeo), ajustado depois pela cultura; a maioria dos casos é tratada sem retirar o cateter.',
     x: { A: 'A retirada é reservada a peritonite refratária, recidivante, fúngica ou com infecção de túnel.', C: 'A via oral não é a preferida, e as trocas são mantidas para veicular o antibiótico.', D: 'O atraso no tratamento aumenta o risco de falência da membrana e de sepse.' },
@@ -117,7 +117,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Peritonite fúngica',
     e: 'Paciente em diálise peritoneal, com vários cursos recentes de antibióticos, apresenta nova peritonite. A cultura do efluente isola Candida albicans. A conduta é:',
-    o: ['Manter o cateter e tratar com fluconazol intraperitoneal por 6 semanas', 'Remover o cateter peritoneal e iniciar antifúngico sistêmico, com transferência temporária para hemodiálise', 'Aumentar o número de trocas diárias para lavar a cavidade', 'Associar vancomicina intraperitoneal e reavaliar em 5 dias'],
+    o: ['Manter o cateter e tratar com fluconazol IP por 6 semanas', 'Remover o cateter e dar antifúngico sistêmico; hemodiálise temporária', 'Aumentar o número de trocas diárias para lavar', 'Associar vancomicina IP e reavaliar em 5 dias'],
     g: 'B',
     c: 'Os fungos formam biofilme no cateter, o que impede a erradicação apenas com antifúngico, e a peritonite fúngica tem alta mortalidade e alto risco de falência do peritônio. A remoção precoce do cateter é mandatória, associada a tratamento antifúngico sistêmico; o uso prévio de antibióticos é o principal fator de risco.',
     x: { A: 'Manter o cateter leva a falha terapêutica pelo biofilme e aumenta a mortalidade.', C: 'A lavagem da cavidade não erradica o fungo aderido ao cateter.', D: 'A vancomicina não tem ação antifúngica, e aguardar atrasa a retirada do cateter.' },
@@ -125,7 +125,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Rejeição hiperaguda',
     e: 'Minutos após a liberação das pinças vasculares em um transplante renal, o enxerto torna-se cianótico, amolecido e sem produção de urina. O mecanismo e a forma de prevenção são:',
-    o: ['Infiltração de linfócitos T; prevenida com corticoide na indução', 'Anticorpos pré-formados contra antígenos HLA ou ABO do doador, com ativação do complemento e trombose; prevenida pela prova cruzada e pela compatibilidade ABO', 'Toxicidade aguda do tacrolimo; prevenida pelo ajuste do nível sérico', 'Infecção pelo citomegalovírus; prevenida com valganciclovir'],
+    o: ['Infiltração de linfócitos T; prevenida com corticoide inicial', 'Anticorpos pré-formados anti-HLA/ABO; prevenida pela prova cruzada', 'Toxicidade aguda do tacrolimo; prevenida ajustando o nível', 'Infecção por CMV; prevenida com valganciclovir'],
     g: 'B',
     c: 'Na rejeição hiperaguda, anticorpos já existentes no receptor, formados por transfusões, gestações ou transplantes prévios, ligam-se ao endotélio do enxerto e ativam o complemento, causando trombose difusa e necrose em minutos a horas. Não há tratamento eficaz e o enxerto precisa ser retirado; a prova cruzada antes do transplante tornou o evento raro.',
     x: { A: 'A resposta mediada por linfócitos T leva dias a semanas e caracteriza a rejeição aguda celular.', C: 'A toxicidade do inibidor de calcineurina não causa necrose imediata do enxerto.', D: 'O citomegalovírus manifesta-se semanas a meses depois do transplante.' },
@@ -141,7 +141,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Disfunção crônica do enxerto',
     e: 'A perda lenta e progressiva da função do enxerto renal ao longo de anos, acompanhada de hipertensão e proteinúria, com fibrose intersticial e atrofia tubular à biópsia, corresponde a:',
-    o: ['Rejeição hiperaguda tardia', 'Rejeição crônica (nefropatia crônica do enxerto), principal causa de perda tardia do transplante', 'Rejeição aguda celular', 'Trombose da artéria renal do enxerto'],
+    o: ['Rejeição hiperaguda tardia, por anticorpos pré-formados', 'Rejeição crônica: principal causa de perda tardia', 'Rejeição aguda celular, nos primeiros meses de pós', 'Trombose da artéria renal do enxerto, precoce'],
     g: 'B',
     c: 'A disfunção crônica do enxerto resulta de lesão imunológica persistente, principalmente mediada por anticorpos contra o doador, somada a fatores não imunológicos, como nefrotoxicidade dos inibidores de calcineurina, hipertensão e episódios prévios de rejeição. Não responde à pulsoterapia, e a má adesão ao tratamento é um fator de risco importante.',
     x: { A: 'A rejeição hiperaguda ocorre em minutos a horas, não existindo forma tardia.', C: 'A rejeição aguda tem instalação rápida e infiltrado com tubulite, respondendo a corticoide.', D: 'A trombose arterial é evento agudo, precoce, com anúria súbita.' },
@@ -149,7 +149,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Imunossupressão de manutenção',
     e: 'Mulher de 36 anos, transplantada renal há 1 ano, em uso de tacrolimo, micofenolato e prednisona, apresenta tremor de extremidades, glicemia de jejum elevada e aumento da creatinina, com nível sérico de tacrolimo acima do alvo. O mecanismo da disfunção renal é:',
-    o: ['Nefrite intersticial alérgica pelo micofenolato', 'Vasoconstrição da arteríola aferente induzida pelo inibidor de calcineurina', 'Depósito de cristais do fármaco nos túbulos', 'Glomerulonefrite por imunocomplexos'],
+    o: ['Nefrite intersticial alérgica pelo micofenolato', 'Vasoconstrição aferente do inibidor de calcineurina', 'Cristais do fármaco depositados nos túbulos renais', 'GN por imunocomplexos, com hematúria dismórfica'],
     g: 'B',
     c: 'O esquema de manutenção habitual combina um inibidor de calcineurina, um antiproliferativo e corticoide. O tacrolimo causa vasoconstrição aferente dose-dependente, com queda reversível da filtração, e, de forma crônica, fibrose intersticial em faixas; também provoca tremor, diabetes pós-transplante, hipercalemia e hipomagnesemia, daí a necessidade de monitorar o nível sérico.',
     x: { A: 'O micofenolato causa principalmente diarreia e citopenias, não nefrotoxicidade.', C: 'A cristalúria não é o mecanismo de toxicidade dos inibidores de calcineurina.', D: 'Não há hematúria ou proteinúria que sugiram glomerulonefrite.' },
@@ -173,7 +173,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Ajuste de drogas',
     e: 'Mulher de 72 anos, diabética, com taxa de filtração estimada de 24 mL/min/1,73 m2, usa metformina, glibenclamida, enoxaparina em dose plena e ibuprofeno. Sobre o ajuste dessas drogas, é correto afirmar:',
-    o: ['Nenhuma exige ajuste, pois todas têm metabolismo exclusivamente hepático', 'A metformina deve ser suspensa pelo risco de acidose lática, a glibenclamida evitada pelo risco de hipoglicemia prolongada, a enoxaparina ter a dose reduzida e o anti-inflamatório ser suspenso', 'Apenas o anti-inflamatório deve ser suspenso', 'A metformina pode ser mantida em dose plena até o início da diálise'],
+    o: ['Nenhuma exige ajuste: todas têm metabolismo hepático', 'Suspender metformina e AINE; evitar glibenclamida; reduzir enoxaparina', 'Apenas o anti-inflamatório deve ser suspenso, só ele', 'Metformina em dose plena até o início da diálise'],
     g: 'B',
     c: 'Com filtração abaixo de 30 mL/min/1,73 m2 a metformina é contraindicada, pois se acumula e favorece acidose lática. A glibenclamida tem metabólitos ativos de excreção renal e, somada à menor depuração de insulina, causa hipoglicemia grave; a enoxaparina se acumula e aumenta o risco de sangramento, e os anti-inflamatórios reduzem a perfusão glomerular e aceleram a perda de função.',
     x: { A: 'Todas as drogas citadas têm eliminação renal relevante ou efeito hemodinâmico renal.', C: 'As demais drogas também exigem suspensão ou ajuste nesse nível de filtração.', D: 'A metformina é contraindicada com filtração abaixo de 30 mL/min/1,73 m2.' },
@@ -181,7 +181,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Gadolínio',
     e: 'Homem de 64 anos, em hemodiálise, realizou ressonância magnética com gadolínio há 2 meses. Evolui com espessamento e endurecimento progressivo da pele de pernas e antebraços, com placas acastanhadas e contraturas articulares. O diagnóstico é:',
-    o: ['Calcifilaxia', 'Fibrose sistêmica nefrogênica', 'Esclerose sistêmica', 'Amiloidose associada à diálise'],
+    o: ['Calcifilaxia, com necrose cutânea', 'Fibrose sistêmica nefrogênica, após gadolínio', 'Esclerose sistêmica, com Raynaud', 'Amiloidose da diálise, com beta-2-microglobulina'],
     g: 'B',
     c: 'Na insuficiência renal avançada o gadolínio permanece mais tempo no organismo, dissocia-se do quelante e deposita-se nos tecidos, ativando fibroblastos e causando fibrose da pele e de órgãos internos. O risco concentra-se em pacientes com filtração abaixo de 30 mL/min/1,73 m2, em diálise ou com lesão renal aguda, e é maior com os agentes lineares; não há tratamento eficaz, de modo que a prevenção é essencial.',
     x: { A: 'A calcifilaxia causa nódulos e úlceras necróticas muito dolorosos, por calcificação vascular.', C: 'A relação temporal com o gadolínio e a ausência de Raynaud apontam para outra causa.', D: 'A amiloidose por beta-2 microglobulina causa túnel do carpo e artropatia.' },
@@ -189,7 +189,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Contraste iodado',
     e: 'Mulher de 69 anos, diabética, com taxa de filtração de 32 mL/min/1,73 m2, precisa de tomografia com contraste iodado. A medida com melhor evidência para prevenir a lesão renal aguda associada ao contraste é:',
-    o: ['N-acetilcisteína oral em dose alta como medida única', 'Hidratação venosa com solução salina isotônica antes e depois do exame, com o menor volume possível de contraste iso ou hipo-osmolar', 'Furosemida venosa antes do exame', 'Hemodiálise profilática logo após o exame'],
+    o: ['N-acetilcisteína oral em dose alta como medida única', 'Salina isotônica antes e depois; pouco contraste iso-osmolar', 'Furosemida venosa antes do exame contrastado', 'Hemodiálise profilática logo após o exame contrastado'],
     g: 'B',
     c: 'O contraste causa vasoconstrição medular e toxicidade tubular direta, com elevação da creatinina em 24 a 48 horas, pico em 3 a 5 dias e recuperação em cerca de uma semana. A expansão com salina isotônica aumenta o fluxo tubular e dilui o contraste, sendo a medida com melhor respaldo, junto com a suspensão de nefrotóxicos e o uso da menor dose de contraste de baixa osmolaridade.',
     x: { A: 'A acetilcisteína não mostrou benefício consistente nos grandes ensaios clínicos.', C: 'O diurético causa depleção de volume e aumenta o risco de lesão renal.', D: 'A hemodiálise profilática não previne a nefropatia e acrescenta riscos.' },
@@ -197,7 +197,7 @@ export const UREMICA_4: QuestaoCompacta[] = [
   {
     s: 'Preparo para a terapia de substituição',
     e: 'O encaminhamento ao nefrologista e o preparo para a terapia de substituição renal devem ocorrer com antecedência, em geral a partir do estágio 4 da doença renal crônica. Esse preparo inclui:',
-    o: ['Apenas a programação da primeira sessão de hemodiálise por cateter', 'Orientação sobre as modalidades (hemodiálise, diálise peritoneal, transplante e tratamento conservador), confecção oportuna do acesso, vacinação contra hepatite B e avaliação para transplante', 'Transfusões periódicas para manter a hemoglobina normal antes do transplante', 'Suspensão dos bloqueadores do sistema renina-angiotensina em todos os pacientes'],
+    o: ['Só a programação da primeira sessão de hemodiálise por cateter', 'Modalidades, acesso oportuno, vacina da hepatite B e transplante', 'Transfusões periódicas para manter a hemoglobina normal', 'Suspender os bloqueadores do SRA em todos os pacientes'],
     g: 'B',
     c: 'O preparo antecipado permite escolha informada da modalidade, confecção da fístula ou implante do cateter peritoneal a tempo, inscrição para transplante e imunização enquanto a resposta vacinal ainda é melhor. O encaminhamento tardio associa-se a início de urgência por cateter, maior tempo de internação e maior mortalidade.',
     x: { A: 'Iniciar por cateter de forma não planejada é o desfecho que o preparo procura evitar.', C: 'As transfusões sensibilizam contra antígenos HLA e dificultam o transplante.', D: 'O bloqueio do sistema renina-angiotensina não é suspenso de rotina na doença avançada.' },

@@ -61,7 +61,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico das vasculites',
     e: 'Sempre que possível, a confirmação diagnóstica de uma vasculite sistêmica deve ser buscada por meio de:',
-    o: ['Dosagem seriada de proteína C reativa e VHS', 'Biópsia de tecido acometido ou, em vasos maiores, exame de imagem vascular', 'Pesquisa de fator antinuclear em títulos altos', 'Prova terapêutica com glicocorticoide em dose alta'],
+    o: ['PCR e VHS seriadas, para o diagnóstico', 'Biópsia do tecido acometido ou imagem vascular', 'FAN em títulos altos, para o diagnóstico', 'Prova terapêutica com corticoide em dose alta'],
     g: 'B',
     c: 'O diagnóstico de vasculite exige a demonstração de inflamação da parede vascular, obtida por biópsia de um órgão clinicamente acometido (pele, nervo, rim, artéria temporal) ou, quando o vaso não é acessível, por imagem vascular que mostre estenoses, oclusões, aneurismas ou espessamento parietal. Como o tratamento é tóxico e prolongado, a confirmação é importante.',
     x: { A: 'As provas inflamatórias são inespecíficas e apenas apoiam a suspeita.', C: 'O fator antinuclear não é marcador das vasculites primárias.', D: 'A melhora com corticoide é inespecífica e não substitui a confirmação diagnóstica.' },
@@ -69,7 +69,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: epidemiologia',
     e: 'Sobre a epidemiologia da arterite de células gigantes, é correto afirmar que:',
-    o: ['Predomina em mulheres com menos de 40 anos, sobretudo de origem asiática', 'É a vasculite sistêmica primária mais comum em adultos e ocorre quase exclusivamente após os 50 anos', 'Acomete igualmente crianças e idosos, sem predileção por sexo', 'É mais frequente em homens jovens tabagistas'],
+    o: ['Mulheres < 40 anos, sobretudo de origem asiática', 'Vasculite primária mais comum do adulto; quase só > 50 anos', 'Crianças e idosos por igual, sem predileção por sexo', 'Homens jovens tabagistas, em geral'],
     g: 'B',
     c: 'A arterite de células gigantes é a vasculite primária mais frequente em adultos, com incidência crescente com a idade, pico na oitava década de vida e predomínio em mulheres. A idade igual ou superior a 50 anos é praticamente um pré-requisito para o diagnóstico.',
     x: { A: 'Esse perfil corresponde à arterite de Takayasu.', C: 'A doença não ocorre em crianças e predomina no sexo feminino.', D: 'Homem jovem tabagista é o perfil da tromboangeíte obliterante.' },
@@ -93,7 +93,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: perda visual',
     e: 'A complicação mais temida da arterite de células gigantes é a perda visual irreversível. Seu mecanismo mais frequente é:',
-    o: ['Oclusão da veia central da retina', 'Neuropatia óptica isquêmica anterior por acometimento das artérias ciliares posteriores', 'Descolamento seroso de retina', 'Glaucoma agudo de ângulo fechado'],
+    o: ['Oclusão da veia central da retina, de início súbito', 'Neuropatia óptica isquêmica anterior (artérias ciliares)', 'Descolamento seroso de retina, de início súbito', 'Glaucoma agudo de ângulo fechado, com olho vermelho'],
     g: 'B',
     c: 'A inflamação das artérias ciliares posteriores, ramos da artéria oftálmica, causa infarto da cabeça do nervo óptico, a neuropatia óptica isquêmica anterior arterítica. A perda visual é súbita, indolor e geralmente definitiva, podendo ser precedida por amaurose fugaz ou diplopia, e o olho contralateral pode ser acometido em dias se não houver tratamento.',
     x: { A: 'A oclusão venosa não é o mecanismo habitual da perda visual na arterite.', C: 'Descolamento seroso de retina não é manifestação típica da doença.', D: 'O glaucoma agudo causa olho vermelho e doloroso, sem relação com a arterite.' },
@@ -101,7 +101,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: conduta',
     e: 'Homem de 78 anos com cefaleia temporal há 1 mês, claudicação de mandíbula e VHS de 102 mm/h procura o pronto-socorro após dois episódios de amaurose fugaz no olho esquerdo nas últimas 24 horas. A conduta mais adequada é:',
-    o: ['Agendar biópsia de artéria temporal e iniciar corticoide somente após o resultado', 'Iniciar imediatamente glicocorticoide em dose alta, com pulsoterapia de metilprednisolona, e programar a biópsia em seguida', 'Prescrever anti-inflamatório não esteroide e reavaliar em 1 semana', 'Solicitar ressonância de crânio e aguardar o laudo antes de qualquer tratamento'],
+    o: ['Biópsia da temporal e corticoide só após o resultado', 'Corticoide em dose alta já, com pulso; biópsia depois', 'AINE e reavaliar em 1 semana, em ambulatório', 'RM de crânio e aguardar o laudo antes do tratamento'],
     g: 'B',
     c: 'Diante de suspeita forte de arterite de células gigantes, o corticoide deve ser iniciado imediatamente, sem aguardar a biópsia, pois a perda visual é irreversível. Havendo sintomas visuais, indica-se pulsoterapia com metilprednisolona endovenosa seguida de prednisona em dose alta. A biópsia permanece positiva por pelo menos 1 a 2 semanas após o início do tratamento.',
     x: { A: 'Aguardar a biópsia expõe o paciente a cegueira definitiva e é erro clássico de prova.', C: 'Anti-inflamatórios não controlam a vasculite nem previnem a perda visual.', D: 'Postergar o tratamento para realizar imagem é inaceitável diante de ameaça visual.' },
@@ -109,7 +109,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: biópsia',
     e: 'Sobre a biópsia de artéria temporal na arterite de células gigantes, assinale a alternativa correta:',
-    o: ['Um resultado negativo exclui definitivamente a doença', 'O acometimento é segmentar, de modo que se recomenda um fragmento longo e um resultado negativo não afasta o diagnóstico', 'Deve ser realizada obrigatoriamente antes da primeira dose de corticoide', 'Mostra tipicamente vasculite leucocitoclástica com depósitos de IgA'],
+    o: ['Negativa exclui a doença definitivamente', 'Acometimento segmentar: fragmento longo; negativa não afasta', 'Obrigatória antes da primeira dose de corticoide', 'Mostra vasculite leucocitoclástica com IgA'],
     g: 'B',
     c: 'A inflamação na arterite de células gigantes é salteada, com segmentos normais intercalados com segmentos doentes. Por isso, recomenda-se retirar um fragmento longo de artéria, e a biópsia negativa não exclui a doença quando a suspeita clínica é alta. O achado típico é uma panarterite com infiltrado mononuclear, fragmentação da lâmina elástica interna e, em parte dos casos, células gigantes multinucleadas.',
     x: { A: 'As lesões salteadas geram falsos-negativos; a clínica pode sustentar o diagnóstico.', C: 'O corticoide não deve ser adiado; a histologia segue alterada nas primeiras semanas de tratamento.', D: 'Vasculite leucocitoclástica com IgA é o achado da vasculite por IgA, de pequenos vasos.' },
@@ -117,7 +117,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: histologia',
     e: 'O achado histopatológico característico da arterite de células gigantes na biópsia de artéria temporal é:',
-    o: ['Necrose fibrinoide segmentar sem granulomas', 'Infiltrado inflamatório mononuclear granulomatoso com ruptura da lâmina elástica interna', 'Trombo intraluminal muito celular com parede vascular preservada', 'Depósitos subendoteliais de crioglobulinas'],
+    o: ['Necrose fibrinoide segmentar, sem granulomas', 'Infiltrado mononuclear granulomatoso; lâmina elástica rota', 'Trombo intraluminal celular, com parede preservada', 'Depósitos subendoteliais de crioglobulinas, na parede'],
     g: 'B',
     c: 'A arterite de células gigantes é uma panarterite granulomatosa, com infiltrado de linfócitos T e macrófagos concentrado na junção entre a íntima e a média, fragmentação da lâmina elástica interna e hiperplasia intimal que estreita a luz. As células gigantes multinucleadas são típicas, mas não são obrigatórias para o diagnóstico.',
     x: { A: 'Necrose fibrinoide sem granulomas é o padrão da poliarterite nodosa.', C: 'Trombo inflamatório com parede relativamente preservada descreve a tromboangeíte obliterante.', D: 'Depósitos de crioglobulinas ocorrem na vasculite crioglobulinêmica, de pequenos vasos.' },
@@ -133,7 +133,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Polimialgia reumática',
     e: 'Mulher de 70 anos queixa-se há 6 semanas de dor e rigidez matinal de mais de 1 hora nos ombros, no pescoço e nos quadris, com dificuldade para se levantar da cama e pentear os cabelos. A força muscular é normal ao exame. VHS de 70 mm/h e creatinofosfoquinase normal. O diagnóstico mais provável e o tratamento inicial são:',
-    o: ['Polimiosite; prednisona 1 mg/kg/dia', 'Polimialgia reumática; prednisona em dose baixa, com resposta rápida esperada', 'Fibromialgia; antidepressivo tricíclico', 'Hipotireoidismo; levotiroxina'],
+    o: ['Polimiosite; prednisona 1 mg/kg/dia, por via oral', 'Polimialgia reumática; prednisona baixa, resposta rápida', 'Fibromialgia; antidepressivo tricíclico, à noite', 'Hipotireoidismo; levotiroxina, por via oral'],
     g: 'B',
     c: 'A polimialgia reumática causa dor e rigidez das cinturas escapular e pélvica em pessoas com mais de 50 anos, com provas inflamatórias elevadas, mas sem fraqueza verdadeira e com enzimas musculares normais, pois o processo é uma sinovite e bursite periarticular, e não uma miosite. A resposta dramática a doses baixas de prednisona, em torno de 15 a 20 mg/dia, é característica.',
     x: { A: 'Na polimiosite há fraqueza proximal verdadeira e elevação de enzimas musculares.', C: 'A fibromialgia não eleva VHS e cursa com dor difusa crônica, sem resposta a corticoide.', D: 'O hipotireoidismo pode causar mialgia, mas com creatinofosfoquinase elevada e sem VHS tão alta.' },
@@ -141,7 +141,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Polimialgia reumática e arterite',
     e: 'Paciente de 72 anos em tratamento de polimialgia reumática com prednisona em dose baixa passa a apresentar cefaleia temporal nova e um episódio de visão dupla transitória. A conduta correta é:',
-    o: ['Manter a dose atual, pois a cefaleia é efeito adverso do corticoide', 'Considerar arterite de células gigantes associada e elevar imediatamente o corticoide para dose alta', 'Suspender o corticoide e iniciar analgésico simples', 'Associar apenas hidroxicloroquina e reavaliar em 1 mês'],
+    o: ['Manter a dose: a cefaleia é efeito adverso do corticoide', 'Pensar em arterite de células gigantes: elevar já o corticoide', 'Suspender o corticoide e iniciar analgésico simples', 'Associar só hidroxicloroquina e reavaliar em 1 mês'],
     g: 'B',
     c: 'A polimialgia reumática e a arterite de células gigantes fazem parte do mesmo espectro de doença: uma parcela dos pacientes com polimialgia desenvolve arterite, e cerca de metade dos pacientes com arterite tem polimialgia. A dose baixa usada na polimialgia não protege contra a perda visual, de modo que sintomas cranianos ou visuais exigem dose alta imediata.',
     x: { A: 'Atribuir a cefaleia ao corticoide atrasa o tratamento de uma emergência oftalmológica.', C: 'Suspender o corticoide agravaria o risco de cegueira irreversível.', D: 'A hidroxicloroquina não tem papel no tratamento da arterite de células gigantes.' },
@@ -173,7 +173,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Arterite de Takayasu: hipertensão',
     e: 'Adolescente de 17 anos, sexo feminino, é encaminhada por hipertensão arterial de difícil controle. Ao exame há sopro abdominal periumbilical, pulsos femorais diminuídos e sopro carotídeo bilateral. Proteína C reativa elevada. O mecanismo mais provável da hipertensão é:',
-    o: ['Hiperaldosteronismo primário por adenoma adrenal', 'Estenose de artéria renal com ativação do sistema renina-angiotensina-aldosterona', 'Glomerulonefrite crescêntica pauci-imune', 'Excesso de catecolaminas por feocromocitoma'],
+    o: ['Hiperaldosteronismo primário por adenoma adrenal', 'Estenose de renal: ativação do sistema renina-angiotensina', 'GN crescêntica pauci-imune, com cilindros hemáticos', 'Excesso de catecolaminas por feocromocitoma'],
     g: 'B',
     c: 'Na arterite de Takayasu, a hipertensão decorre principalmente de estenose inflamatória das artérias renais, que reduz a perfusão renal e ativa o sistema renina-angiotensina-aldosterona, podendo também haver contribuição de estenose da aorta. É causa importante de hipertensão renovascular em mulheres jovens.',
     x: { A: 'O adenoma adrenal não explica sopros, pulsos diminuídos nem inflamação sistêmica.', C: 'Takayasu acomete grandes vasos e não causa glomerulonefrite crescêntica.', D: 'O feocromocitoma causa paroxismos adrenérgicos, sem sopros vasculares múltiplos.' },
@@ -189,7 +189,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Arterite de Takayasu: diagnóstico',
     e: 'Para confirmar o diagnóstico e mapear a extensão das lesões na arterite de Takayasu, o exame mais apropriado é:',
-    o: ['Biópsia de artéria temporal', 'Angiotomografia ou angiorressonância da aorta e de seus ramos', 'Pesquisa de ANCA por imunofluorescência', 'Eletroneuromiografia dos quatro membros'],
+    o: ['Biópsia de artéria temporal, no couro cabeludo', 'Angio-TC ou angio-RM da aorta e de seus ramos', 'Pesquisa de ANCA por imunofluorescência indireta', 'Eletroneuromiografia dos quatro membros'],
     g: 'B',
     c: 'Como os vasos acometidos não são acessíveis à biópsia, o diagnóstico de Takayasu é feito por imagem vascular. A angiotomografia e a angiorressonância mostram estenoses longas, oclusões, dilatações e espessamento concêntrico da parede, e substituíram em grande parte a arteriografia convencional, reservada para quando se planeja intervenção.',
     x: { A: 'A artéria temporal não é sítio habitual da doença de Takayasu.', C: 'O ANCA é negativo na arterite de Takayasu e não auxilia o diagnóstico.', D: 'A eletroneuromiografia avalia neuropatia, que não é manifestação típica de Takayasu.' },
@@ -197,7 +197,7 @@ export const VASCULITES_1: QuestaoCompacta[] = [
   {
     s: 'Arterite de Takayasu: tratamento',
     e: 'Sobre o tratamento da arterite de Takayasu, assinale a alternativa INCORRETA:',
-    o: ['O glicocorticoide em dose alta é a base do tratamento da doença ativa', 'Imunossupressores como metotrexato ou azatioprina costumam ser associados para poupar corticoide', 'O controle da hipertensão arterial é parte essencial do manejo', 'A revascularização cirúrgica ou endovascular deve ser feita preferencialmente durante a fase de atividade inflamatória'],
+    o: ['Glicocorticoide em dose alta é a base do tratamento', 'Imunossupressores (MTX, azatioprina) poupam corticoide', 'Controle da hipertensão é parte essencial do manejo', 'Revascularizar de preferência na fase de atividade'],
     g: 'D',
     c: 'Os procedimentos de revascularização devem ser realizados, sempre que possível, com a doença em remissão, pois intervir sobre um vaso inflamado aumenta muito o risco de reestenose e de falha do enxerto ou da angioplastia. O tratamento clínico se baseia em corticoide associado a imunossupressor poupador, além do controle rigoroso da pressão arterial.',
     x: { A: 'Afirmativa correta: a prednisona em dose alta é a terapia inicial da doença ativa.', B: 'Afirmativa correta: as recidivas na redução do corticoide são frequentes, o que justifica o imunossupressor.', C: 'Afirmativa correta: a hipertensão renovascular é causa importante de morbidade.' },

@@ -21,7 +21,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Poliarterite nodosa: rim',
     e: 'Na poliarterite nodosa, o acometimento renal se manifesta caracteristicamente por:',
-    o: ['Glomerulonefrite crescêntica com cilindros hemáticos', 'Hipertensão renovascular e infartos renais por lesão de artérias renais e interlobares', 'Síndrome nefrótica por lesão membranosa', 'Nefrite tubulointersticial eosinofílica'],
+    o: ['GN crescêntica com cilindros hemáticos, rápida', 'Hipertensão renovascular e infartos (renais, interlobares)', 'Síndrome nefrótica por lesão membranosa, com edema', 'Nefrite tubulointersticial eosinofílica, com rash'],
     g: 'B',
     c: 'A lesão renal da poliarterite nodosa é vascular, não glomerular: a inflamação das artérias renais e de seus ramos provoca isquemia, com ativação do sistema renina-angiotensina e hipertensão, além de infartos e microaneurismas, que podem romper e causar hematoma perirrenal. O sedimento urinário costuma ser pobre.',
     x: { A: 'Glomerulonefrite crescêntica indica vasculite de pequenos vasos, não poliarterite nodosa.', C: 'Síndrome nefrótica membranosa não é manifestação da poliarterite nodosa.', D: 'Nefrite intersticial eosinofílica sugere reação a drogas, não vasculite de médios vasos.' },
@@ -37,7 +37,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Poliarterite nodosa: diagnóstico por imagem',
     e: 'Paciente de 55 anos com perda de peso, hipertensão recente, mononeurite múltipla e dor abdominal pós-prandial tem ANCA negativo e não apresenta lesão cutânea ou nervo acessível para biópsia. O exame que pode confirmar o diagnóstico e o achado esperado são:',
-    o: ['Tomografia de tórax; nódulos pulmonares cavitados', 'Arteriografia mesentérica e renal; múltiplos microaneurismas e estenoses segmentares', 'Ecocardiograma; aneurisma de artéria coronária', 'Ultrassom de artérias temporais; sinal do halo'],
+    o: ['TC de tórax; nódulos pulmonares cavitados, múltiplos', 'Arteriografia visceral; microaneurismas e estenoses', 'Ecocardiograma; aneurisma de artéria coronária', 'USG de temporais; sinal do halo em idosos'],
     g: 'B',
     c: 'Na poliarterite nodosa, a necrose da parede das artérias viscerais produz microaneurismas saculares alternados com estenoses, em aspecto de contas de rosário, visíveis na arteriografia dos territórios renal, mesentérico e hepático. Esse achado, em contexto clínico compatível, sustenta o diagnóstico quando não há tecido disponível para biópsia.',
     x: { A: 'Nódulos cavitados são típicos da granulomatose com poliangeíte; a poliarterite poupa o pulmão.', C: 'Aneurisma coronariano é a complicação característica da doença de Kawasaki.', D: 'O sinal do halo é achado da arterite de células gigantes.' },
@@ -53,7 +53,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Poliarterite nodosa: neuropatia',
     e: 'A manifestação neurológica mais característica da poliarterite nodosa é:',
-    o: ['Polineuropatia desmielinizante simétrica ascendente', 'Mononeurite múltipla, com déficits sensitivo-motores assimétricos em territórios de nervos distintos', 'Mielite transversa longitudinalmente extensa', 'Paralisia facial periférica bilateral isolada'],
+    o: ['Polineuropatia desmielinizante simétrica ascendente', 'Mononeurite múltipla: déficits assimétricos em nervos distintos', 'Mielite transversa longitudinalmente extensa', 'Paralisia facial periférica bilateral isolada'],
     g: 'B',
     c: 'A inflamação dos vasa nervorum causa infarto de troncos nervosos individuais, de forma sequencial e assimétrica, resultando em quadros como pé caído (nervo fibular) e mão caída (nervo radial), com dor e parestesia. A mononeurite múltipla ocorre na maioria dos pacientes com poliarterite nodosa e é forte indício de vasculite.',
     x: { A: 'Padrão ascendente simétrico desmielinizante é da síndrome de Guillain-Barré.', C: 'Mielite extensa lembra neuromielite óptica ou lúpus, não poliarterite nodosa.', D: 'Paralisia facial bilateral sugere sarcoidose, doença de Lyme ou Guillain-Barré.' },
@@ -61,7 +61,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Poliarterite nodosa: trato gastrointestinal',
     e: 'Homem de 60 anos com diagnóstico recente de poliarterite nodosa refere dor abdominal difusa que piora cerca de 30 minutos após as refeições, com medo de se alimentar e emagrecimento. A explicação mais provável é:',
-    o: ['Úlcera péptica induzida por corticoide', 'Isquemia mesentérica por vasculite das artérias mesentéricas', 'Pancreatite crônica calcificante', 'Síndrome do intestino irritável'],
+    o: ['Úlcera péptica induzida por corticoide, com melena', 'Isquemia mesentérica por vasculite das mesentéricas', 'Pancreatite crônica calcificante, com esteatorreia', 'Síndrome do intestino irritável, sem alarme'],
     g: 'B',
     c: 'A dor abdominal pós-prandial (angina mesentérica) na poliarterite nodosa decorre de vasculite das artérias mesentéricas, com fluxo insuficiente para a demanda digestiva. É sinal de gravidade, pois pode evoluir para infarto intestinal, perfuração e hemorragia, e indica imunossupressão mais intensa.',
     x: { A: 'A úlcera péptica não explica o padrão de angina mesentérica em vasculite recém-diagnosticada.', C: 'Não há dados de etilismo, esteatorreia ou calcificações que sugiram pancreatite crônica.', D: 'Diagnóstico funcional não se aplica a doente com vasculite sistêmica e emagrecimento.' },
@@ -77,7 +77,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Poliarterite nodosa: tratamento',
     e: 'Mulher de 50 anos com poliarterite nodosa idiopática, sorologias virais negativas, apresenta mononeurite múltipla, isquemia mesentérica e insuficiência renal. O esquema de indução mais adequado é:',
-    o: ['Prednisona isolada em dose baixa', 'Glicocorticoide em dose alta associado a ciclofosfamida', 'Colchicina e dapsona', 'Metotrexato semanal isolado'],
+    o: ['Prednisona isolada em dose baixa, por 6 meses', 'Glicocorticoide em dose alta e ciclofosfamida', 'Colchicina e dapsona, por via oral, por 6 meses', 'Metotrexato semanal isolado, sem corticoide'],
     g: 'B',
     c: 'Na poliarterite nodosa não associada a vírus, a presença de fatores de mau prognóstico, como acometimento gastrointestinal, renal, cardíaco ou do sistema nervoso, indica associação de corticoide em dose alta com ciclofosfamida. Formas leves, sem acometimento de órgãos críticos, podem ser tratadas apenas com corticoide.',
     x: { A: 'Dose baixa de corticoide é insuficiente para doença com risco a órgãos vitais.', C: 'Colchicina e dapsona são usadas em vasculites cutâneas limitadas.', D: 'O metotrexato isolado não é adequado para indução em doença grave com insuficiência renal.' },
@@ -85,7 +85,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Poliarterite nodosa cutânea',
     e: 'Mulher de 35 anos apresenta nódulos subcutâneos dolorosos nas pernas, livedo racemoso e úlceras maleolares, sem febre, perda de peso ou acometimento de órgãos internos. A biópsia profunda de pele mostra vasculite necrosante de artéria de médio calibre na junção dermo-hipodérmica. O diagnóstico é:',
-    o: ['Eritema nodoso', 'Poliarterite nodosa cutânea', 'Vasculite por IgA', 'Pioderma gangrenoso'],
+    o: ['Eritema nodoso, na paniculite septal', 'Poliarterite nodosa cutânea, com nódulos e livedo', 'Vasculite por IgA, com púrpura palpável', 'Pioderma gangrenoso, com úlcera'],
     g: 'B',
     c: 'A poliarterite nodosa cutânea é a forma limitada à pele, com nódulos dolorosos, livedo e úlceras, podendo haver neuropatia periférica local e artralgia, mas sem doença visceral. O curso é crônico e recorrente, com prognóstico melhor que o da forma sistêmica, e a biópsia deve ser profunda para alcançar as artérias da hipoderme.',
     x: { A: 'O eritema nodoso é uma paniculite septal sem vasculite e não ulcera.', C: 'A vasculite por IgA acomete vênulas superficiais, com púrpura palpável e depósito de IgA.', D: 'O pioderma gangrenoso é dermatose neutrofílica, sem vasculite necrosante de artéria média.' },
@@ -109,7 +109,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Kawasaki: critérios',
     e: 'Entre os critérios clínicos da doença de Kawasaki, a conjuntivite apresenta-se caracteristicamente como:',
-    o: ['Unilateral, com secreção purulenta abundante', 'Bilateral, bulbar, sem exsudato e poupando a região ao redor do limbo', 'Bilateral, com folículos e pseudomembranas', 'Unilateral, com úlcera de córnea dendrítica'],
+    o: ['Unilateral, com secreção purulenta abundante', 'Bilateral, bulbar, sem exsudato, poupando o limbo', 'Bilateral, com folículos e pseudomembranas', 'Unilateral, com úlcera dendrítica de córnea'],
     g: 'B',
     c: 'A hiperemia conjuntival da doença de Kawasaki é bilateral, acomete a conjuntiva bulbar, não produz secreção e classicamente poupa uma faixa ao redor do limbo. Essa apresentação ajuda a diferenciar de conjuntivites infecciosas, que em geral são exsudativas.',
     x: { A: 'Secreção purulenta indica conjuntivite bacteriana, não Kawasaki.', C: 'Folículos e pseudomembranas sugerem conjuntivite por adenovírus.', D: 'Úlcera dendrítica é característica da ceratite pelo herpes simples.' },
@@ -125,7 +125,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Kawasaki: tratamento',
     e: 'Lactente de 18 meses com diagnóstico de doença de Kawasaki no sétimo dia de febre deve receber como tratamento inicial:',
-    o: ['Prednisolona oral isolada por 5 dias', 'Imunoglobulina endovenosa em dose alta única associada a ácido acetilsalicílico', 'Penicilina benzatina e sintomáticos', 'Ibuprofeno em dose anti-inflamatória e observação'],
+    o: ['Prednisolona oral isolada por 5 dias, em casa', 'Imunoglobulina IV em dose única e ácido acetilsalicílico', 'Penicilina benzatina e sintomáticos, em casa', 'Ibuprofeno em dose anti-inflamatória e observação'],
     g: 'B',
     c: 'A imunoglobulina endovenosa em dose alta (2 g/kg em infusão única), administrada idealmente nos primeiros 10 dias de doença, reduz a incidência de aneurismas coronarianos de cerca de 25% para menos de 5%. O ácido acetilsalicílico é associado na fase aguda e mantido em dose baixa, antiagregante, nas semanas seguintes.',
     x: { A: 'O corticoide isolado não é a primeira linha; pode ser adjuvante em casos de alto risco ou refratários.', C: 'Antibiótico não tem papel, pois a doença não é infecção bacteriana tratável.', D: 'O ibuprofeno não previne aneurismas e pode antagonizar o efeito antiagregante do ácido acetilsalicílico.' },
@@ -133,7 +133,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Kawasaki: epidemiologia',
     e: 'Em relação à epidemiologia da doença de Kawasaki, é correto afirmar que a maior parte dos casos ocorre em:',
-    o: ['Adolescentes do sexo feminino', 'Crianças com menos de 5 anos, com discreto predomínio no sexo masculino', 'Recém-nascidos prematuros', 'Adultos jovens de origem mediterrânea'],
+    o: ['Adolescentes do sexo feminino, em geral, na puberdade', 'Crianças < 5 anos, com discreto predomínio masculino', 'Recém-nascidos prematuros, em geral, na maternidade', 'Adultos jovens de origem mediterrânea, em geral'],
     g: 'B',
     c: 'Cerca de 80% dos casos de doença de Kawasaki ocorrem antes dos 5 anos de idade, com leve predomínio em meninos e maior incidência em crianças de ascendência asiática. Lactentes com menos de 6 meses têm mais formas incompletas e maior risco de aneurisma coronariano.',
     x: { A: 'A doença é rara em adolescentes e predomina em meninos.', C: 'Não há predileção pelo período neonatal nem pela prematuridade.', D: 'Adultos jovens mediterrâneos lembram a epidemiologia da doença de Behçet.' },
@@ -149,7 +149,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Kawasaki: extremidades',
     e: 'Criança de 3 anos, tratada há 2 semanas por quadro febril prolongado com conjuntivite e exantema, apresenta agora descamação em dedos de luva, iniciada ao redor das unhas das mãos e dos pés. Esse achado corresponde a:',
-    o: ['Reação adversa tardia à imunoglobulina', 'Alteração de extremidades da fase subaguda da doença de Kawasaki', 'Síndrome da pele escaldada estafilocócica', 'Dermatite atópica em fase de resolução'],
+    o: ['Reação adversa tardia à imunoglobulina', 'Alteração de extremidades da fase subaguda de Kawasaki', 'Síndrome da pele escaldada estafilocócica', 'Dermatite atópica em fase de resolução'],
     g: 'B',
     c: 'As alterações de extremidades da doença de Kawasaki evoluem em duas etapas: na fase aguda há eritema palmoplantar e edema endurecido de mãos e pés e, na fase subaguda, em torno da segunda ou terceira semana, surge a descamação periungueal. O achado tardio pode permitir o diagnóstico retrospectivo e indica ecocardiograma.',
     x: { A: 'A imunoglobulina não provoca descamação periungueal tardia.', C: 'A síndrome da pele escaldada causa bolhas e descolamento difuso, com sinal de Nikolsky.', D: 'A dermatite atópica é pruriginosa, crônica e acomete áreas flexurais.' },
@@ -165,7 +165,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Kawasaki: seguimento',
     e: 'Criança de 4 anos tratada para doença de Kawasaki com imunoglobulina evoluiu sem febre, mas o ecocardiograma mostrou pequeno aneurisma de artéria coronária. Em relação ao ácido acetilsalicílico, a orientação correta é:',
-    o: ['Suspender assim que a febre desaparecer', 'Manter em dose baixa, antiagregante, por tempo prolongado enquanto persistir a alteração coronariana', 'Substituir por ibuprofeno em uso contínuo', 'Manter dose anti-inflamatória alta indefinidamente'],
+    o: ['Suspender assim que a febre desaparecer, em 48 h', 'AAS em dose baixa prolongada, enquanto houver alteração coronária', 'Substituir por ibuprofeno em uso contínuo, por meses', 'Manter dose anti-inflamatória alta de AAS, indefinidamente'],
     g: 'B',
     c: 'Após a fase aguda, o ácido acetilsalicílico é reduzido para dose antiagregante e mantido por 6 a 8 semanas se as coronárias forem normais. Quando há aneurisma, a antiagregação é mantida por tempo indeterminado, pois o fluxo turbulento e a lesão endotelial favorecem trombose; aneurismas gigantes exigem ainda anticoagulação.',
     x: { A: 'Suspender com o fim da febre deixa a criança sem proteção na fase de maior risco trombótico.', C: 'O ibuprofeno interfere no efeito antiagregante e não é substituto.', D: 'A dose alta é usada apenas na fase febril; mantê-la aumenta a toxicidade sem benefício.' },
@@ -181,7 +181,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Tromboangeíte obliterante: tratamento',
     e: 'A única medida comprovadamente capaz de interromper a progressão da tromboangeíte obliterante e evitar amputações é:',
-    o: ['Uso contínuo de glicocorticoide em dose alta', 'Cessação completa e definitiva do tabaco em todas as suas formas', 'Anticoagulação plena com varfarina', 'Revascularização cirúrgica com ponte distal'],
+    o: ['Uso contínuo de glicocorticoide em dose alta', 'Cessação completa e definitiva do tabaco', 'Anticoagulação plena com varfarina', 'Revascularização cirúrgica com ponte distal'],
     g: 'B',
     c: 'A atividade da tromboangeíte obliterante está diretamente ligada à exposição ao tabaco, e a abstinência total, incluindo fumo passivo e reposição de nicotina em alguns pacientes, é a base do tratamento, com queda drástica do risco de amputação. Análogos de prostaciclina e cuidados locais são medidas de apoio para a isquemia crítica.',
     x: { A: 'Corticoide e imunossupressores não têm benefício demonstrado na doença.', C: 'A anticoagulação não modifica a história natural da tromboangeíte.', D: 'A revascularização raramente é viável, pois a doença é distal e difusa, sem leito receptor.' },
@@ -189,7 +189,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Tromboangeíte obliterante: patologia',
     e: 'O achado histopatológico que caracteriza a fase aguda da tromboangeíte obliterante é:',
-    o: ['Necrose fibrinoide transmural com destruição da lâmina elástica', 'Trombo oclusivo altamente celular, com microabscessos, e relativa preservação da parede do vaso', 'Granulomas com células gigantes na camada média', 'Placa ateromatosa com núcleo lipídico e calcificação'],
+    o: ['Necrose fibrinoide transmural; destrói a lâmina elástica', 'Trombo oclusivo celular, microabscessos e parede preservada', 'Granulomas com células gigantes na camada média', 'Placa de ateroma com núcleo lipídico e calcificação'],
     g: 'B',
     c: 'Na tromboangeíte obliterante, a lesão central é um trombo inflamatório rico em células, com neutrófilos e microabscessos, enquanto a arquitetura da parede, incluindo a lâmina elástica interna, fica relativamente preservada. Isso a diferencia das vasculites necrosantes e da aterosclerose. As provas inflamatórias e os autoanticorpos costumam ser normais.',
     x: { A: 'Necrose fibrinoide transmural é o padrão da poliarterite nodosa.', C: 'Granulomas na média caracterizam as arterites de células gigantes e de Takayasu.', D: 'Placa ateromatosa é o achado da aterosclerose, não de vasculite.' },
@@ -197,7 +197,7 @@ export const VASCULITES_2: QuestaoCompacta[] = [
   {
     s: 'Tromboangeíte obliterante: exame físico',
     e: 'Em paciente jovem tabagista com suspeita de tromboangeíte obliterante, o teste de Allen alterado é útil porque demonstra:',
-    o: ['Compressão do plexo braquial no desfiladeiro torácico', 'Oclusão de artérias distais do membro superior, indicando acometimento além dos membros inferiores', 'Insuficiência valvar das veias perfurantes', 'Estenose da artéria subclávia proximal'],
+    o: ['Compressão do plexo braquial no desfiladeiro torácico', 'Oclusão de artérias distais do membro superior', 'Insuficiência valvar das veias perfurantes', 'Estenose da subclávia proximal, com sopro'],
     g: 'B',
     c: 'O teste de Allen avalia a perviedade das artérias radial e ulnar e do arco palmar. Seu resultado alterado em jovem tabagista com isquemia de pés revela envolvimento arterial distal também dos membros superiores, o que favorece a tromboangeíte obliterante e torna a aterosclerose menos provável.',
     x: { A: 'A compressão do plexo braquial é avaliada por manobras posicionais, não pelo teste de Allen.', C: 'O teste de Allen é arterial e não avalia o sistema venoso.', D: 'A subclávia proximal é avaliada por pulsos, pressão comparada e ausculta, e sugere Takayasu.' },

@@ -21,7 +21,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Doença renal crônica com filtração normal',
     e: 'Homem de 48 anos, diabético há 12 anos, apresenta taxa de filtração glomerular estimada de 96 mL/min/1,73 m2 e relação albumina/creatinina urinária de 180 mg/g, confirmada em duas amostras com intervalo de 4 meses. É correto afirmar que:',
-    o: ['Não tem doença renal crônica, pois a filtração está normal', 'Tem doença renal crônica G1 A2, pois há marcador de dano renal persistente', 'Tem doença renal crônica G3a A1', 'Só será considerado doente renal quando a creatinina se elevar'],
+    o: ['Não tem DRC, pois a filtração está normal', 'DRC G1 A2: há marcador de dano renal persistente', 'Tem DRC G3a A1, pela filtração reduzida', 'Só é doente renal quando a creatinina se elevar'],
     g: 'B',
     c: 'A albuminúria persistente por mais de 3 meses é marcador de dano renal e basta para o diagnóstico, mesmo com filtração normal ou aumentada. Na doença renal do diabetes, a albuminúria reflete lesão da barreira glomerular e identifica o paciente que mais se beneficia de nefroproteção.',
     x: { A: 'A filtração normal não exclui a doença quando existe marcador de dano persistente.', C: 'G3a exigiria filtração de 45 a 59, e A1 exigiria albuminúria menor que 30 mg/g.', D: 'Esperar a creatinina subir significa perder a janela de nefroproteção.' },
@@ -45,7 +45,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Nefropatia associada ao HIV',
     e: 'Homem negro de 34 anos, com infecção pelo HIV sem tratamento e contagem baixa de linfócitos CD4, apresenta proteinúria de 8 g/dia, creatinina de 3,6 mg/dL e pressão arterial normal. A ultrassonografia mostra rins aumentados e hiperecogênicos. O achado histológico esperado é:',
-    o: ['Glomerulonefrite membranosa', 'Glomeruloesclerose segmentar e focal na forma colapsante', 'Nefropatia por IgA', 'Doença de lesões mínimas'],
+    o: ['Glomerulonefrite membranosa, com PLA2R', 'GESF, forma colapsante, associada ao HIV', 'Nefropatia por IgA, com hematúria', 'Doença de lesões mínimas, na criança'],
     g: 'B',
     c: 'A nefropatia associada ao HIV caracteriza-se por glomeruloesclerose segmentar e focal colapsante, com dilatação microcística dos túbulos, e predomina em pessoas de ascendência africana, pela associação com variantes de risco do gene APOL1. Cursa com proteinúria nefrótica, perda rápida de função e rins aumentados; o tratamento é a terapia antirretroviral associada ao bloqueio do sistema renina-angiotensina.',
     x: { A: 'A membranosa associa-se mais a hepatite B, neoplasias e lúpus.', C: 'A nefropatia por IgA cursa com hematúria, e não com este padrão nefrótico e rins aumentados.', D: 'Lesões mínimas não explicam a perda rápida de função com rins aumentados.' },
@@ -53,7 +53,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Agudo ou crônico',
     e: 'Paciente de 55 anos, sem exames prévios, chega com creatinina de 6,5 mg/dL. Entre os achados abaixo, o que mais fortemente indica doença renal crônica, e não lesão renal aguda, é:',
-    o: ['Hipercalemia', 'Rins de tamanho reduzido, com perda da diferenciação corticomedular à ultrassonografia', 'Acidose metabólica', 'Ureia acima de 200 mg/dL'],
+    o: ['Hipercalemia, em qualquer estágio de DRC', 'Rins reduzidos, com perda da diferenciação corticomedular', 'Acidose metabólica, em qualquer estágio de DRC', 'Ureia acima de 200 mg/dL, em qualquer estágio de DRC'],
     g: 'B',
     c: 'A redução do tamanho renal e o afilamento do córtex refletem fibrose e perda irreversível de néfrons, que demandam meses a anos para se instalar. Anemia normocítica, hiperparatireoidismo secundário e alterações ósseas também sugerem cronicidade, enquanto os distúrbios eletrolíticos e ácido-básicos ocorrem nas duas situações.',
     x: { A: 'A hipercalemia ocorre tanto na lesão aguda quanto na doença crônica.', C: 'A acidose metabólica é comum às duas condições e não as diferencia.', D: 'O nível de ureia não distingue a duração da disfunção renal.' },
@@ -61,7 +61,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Bloqueio do sistema renina-angiotensina',
     e: 'Mulher de 58 anos, diabética, com taxa de filtração de 52 mL/min/1,73 m2 e albuminúria de 600 mg/g, inicia losartana. Após 3 semanas, a creatinina passa de 1,2 para 1,45 mg/dL e o potássio é de 4,9 mEq/L. A conduta é:',
-    o: ['Suspender a losartana definitivamente', 'Manter a losartana, pois elevação de creatinina de até 30% é esperada e reflete a queda da pressão intraglomerular', 'Associar enalapril para potencializar a nefroproteção', 'Trocar por anlodipino, que tem o mesmo efeito antiproteinúrico'],
+    o: ['Suspender a losartana definitivamente', 'Manter a losartana: alta de creatinina até 30% é esperada', 'Associar enalapril para potencializar a nefroproteção', 'Trocar por anlodipino, de mesmo efeito antiproteinúrico'],
     g: 'B',
     c: 'Os bloqueadores do sistema renina-angiotensina dilatam preferencialmente a arteríola eferente, reduzindo a pressão intraglomerular, a hiperfiltração e a proteinúria. Uma queda inicial da filtração de até cerca de 30% é efeito hemodinâmico esperado e associado a proteção em longo prazo; elevações maiores ou hipercalemia importante exigem reavaliação.',
     x: { A: 'A suspensão retira a principal medida de nefroproteção sem motivo que a justifique.', C: 'A associação de inibidor da enzima conversora com bloqueador do receptor aumenta hipercalemia e lesão renal aguda.', D: 'Os di-hidropiridínicos dilatam a aferente e não reduzem a proteinúria.' },
@@ -69,7 +69,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Inibidores de SGLT2',
     e: 'O mecanismo pelo qual os inibidores do cotransportador sódio-glicose tipo 2 retardam a progressão da doença renal crônica é:',
-    o: ['Dilatação da arteríola eferente, semelhante aos bloqueadores de angiotensina', 'Aumento da oferta de sódio à mácula densa, restaurando o feedback tubuloglomerular e provocando constrição da arteríola aferente, com queda da pressão intraglomerular', 'Bloqueio do receptor mineralocorticoide no túbulo coletor', 'Redução direta da produção hepática de glicose'],
+    o: ['Dilatação da eferente, como os bloqueadores de angiotensina', 'Mais Na na mácula densa: constrição aferente e menor pressão glomerular', 'Bloqueio do receptor mineralocorticoide no coletor', 'Redução direta da produção hepática de glicose'],
     g: 'B',
     c: 'Ao bloquear a reabsorção de sódio e glicose no túbulo proximal, a droga aumenta o sódio que chega à mácula densa, o que reativa o feedback tubuloglomerular e contrai a arteríola aferente, reduzindo a hiperfiltração. O benefício renal e cardiovascular ocorre em diabéticos e não diabéticos, e uma pequena queda inicial da filtração é esperada.',
     x: { A: 'A dilatação eferente é o mecanismo dos bloqueadores do sistema renina-angiotensina.', C: 'O bloqueio do receptor mineralocorticoide é o mecanismo da espironolactona e da finerenona.', D: 'A ação é renal; a redução da produção hepática de glicose é efeito da metformina.' },
@@ -77,7 +77,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Indicação de iSGLT2',
     e: 'Homem de 61 anos, não diabético, com doença renal crônica por nefropatia por IgA, taxa de filtração de 35 mL/min/1,73 m2 e albuminúria de 900 mg/g, já em dose máxima tolerada de enalapril, com pressão controlada. A medida adicional com maior evidência para retardar a progressão é:',
-    o: ['Associar losartana ao enalapril', 'Associar um inibidor de SGLT2, como a dapagliflozina', 'Iniciar dieta com 2 g/kg/dia de proteína', 'Substituir o enalapril por hidralazina'],
+    o: ['Associar losartana ao enalapril, na dose máxima', 'Associar um inibidor de SGLT2, como a dapagliflozina', 'Iniciar dieta com 2 g/kg/dia de proteína animal', 'Substituir o enalapril por hidralazina oral'],
     g: 'B',
     c: 'Os inibidores de SGLT2 reduzem o risco de progressão da doença renal, de eventos cardiovasculares e de morte em pacientes com doença renal crônica albuminúrica, independentemente da presença de diabetes. Devem ser somados ao bloqueio do sistema renina-angiotensina, e não usados em seu lugar.',
     x: { A: 'O bloqueio duplo aumenta hipercalemia e lesão renal aguda, sem benefício adicional.', C: 'A dieta hiperproteica aumenta a hiperfiltração e acelera a progressão.', D: 'A hidralazina não tem efeito nefroprotetor e retiraria uma droga com benefício comprovado.' },
@@ -93,7 +93,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Teoria da hiperfiltração',
     e: 'A progressão da doença renal crônica, mesmo depois de controlada a causa inicial, é explicada principalmente por:',
-    o: ['Isquemia medular por vasoconstrição da arteríola eferente', 'Hiperfiltração adaptativa dos néfrons remanescentes, com hipertensão intraglomerular, proteinúria e glomeruloesclerose', 'Deposição contínua de imunocomplexos em todos os casos', 'Obstrução tubular por cilindros hialinos'],
+    o: ['Isquemia medular por constrição da arteríola eferente', 'Hiperfiltração dos néfrons remanescentes e esclerose', 'Deposição contínua de imunocomplexos em todos os casos', 'Obstrução tubular por cilindros hialinos, difusa'],
     g: 'B',
     c: 'Com a perda de néfrons, os remanescentes aumentam sua filtração individual à custa de maior pressão no capilar glomerular. Essa sobrecarga lesa podócitos, aumenta a passagem de proteínas, que são tóxicas ao túbulo, e leva a esclerose glomerular e fibrose intersticial, perpetuando a perda de néfrons; por isso as medidas que reduzem a pressão intraglomerular são nefroprotetoras.',
     x: { A: 'O mecanismo central é a hipertensão do capilar glomerular, e não isquemia medular.', C: 'A progressão ocorre mesmo em doenças não mediadas por imunocomplexos.', D: 'Cilindros hialinos são fisiológicos e não causam perda de néfrons.' },
@@ -109,7 +109,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Anemia: fisiopatologia',
     e: 'Homem de 66 anos, com doença renal crônica G4, apresenta hemoglobina de 9,4 g/dL, volume corpuscular médio de 88 fL, reticulócitos baixos, ferritina de 250 ng/mL e saturação de transferrina de 28%. A causa principal da anemia é:',
-    o: ['Hemólise microangiopática', 'Produção insuficiente de eritropoetina pelas células peritubulares do rim', 'Deficiência de vitamina B12', 'Perda digestiva crônica com ferropenia'],
+    o: ['Hemólise microangiopática, com esquizócitos', 'Falta de eritropoetina das células peritubulares', 'Deficiência de vitamina B12, com macrocitose', 'Perda digestiva crônica, com ferropenia'],
     g: 'B',
     c: 'A anemia da doença renal crônica é tipicamente normocítica, normocrômica e hipoproliferativa, por menor síntese de eritropoetina pelos fibroblastos peritubulares do córtex renal. Contribuem a inflamação com aumento de hepcidina, que restringe a disponibilidade de ferro, a menor sobrevida das hemácias e as perdas sanguíneas.',
     x: { A: 'Não há sinais de hemólise, e os reticulócitos estariam elevados.', C: 'A deficiência de B12 causaria macrocitose, que não está presente.', D: 'Ferritina e saturação de transferrina adequadas falam contra ferropenia.' },
@@ -117,7 +117,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Anemia: avaliação do ferro',
     e: 'Mulher de 54 anos em hemodiálise apresenta hemoglobina de 8,8 g/dL, ferritina de 60 ng/mL e saturação de transferrina de 12%. Antes de iniciar ou aumentar o agente estimulador da eritropoiese, deve-se:',
-    o: ['Transfundir concentrado de hemácias', 'Corrigir a deficiência de ferro, preferencialmente por via venosa', 'Iniciar ácido fólico em dose alta', 'Solicitar biópsia de medula óssea'],
+    o: ['Transfundir concentrado de hemácias, de imediato', 'Corrigir a deficiência de ferro, de preferência IV', 'Iniciar ácido fólico em dose alta, por via oral', 'Pedir biópsia de medula óssea, de rotina'],
     g: 'B',
     c: 'A eritropoiese estimulada consome ferro rapidamente, e a deficiência de ferro é a principal causa de resposta inadequada à eritropoetina. Por isso os estoques devem ser avaliados e repostos antes; no paciente em hemodiálise a via venosa é preferida, pela má absorção oral ligada à hepcidina elevada e pelas perdas no circuito.',
     x: { A: 'A transfusão é evitada, pois sensibiliza contra antígenos HLA e prejudica futuro transplante.', C: 'Não há evidência de deficiência de folato, e o ferro é o fator limitante.', D: 'A causa é evidente pelos índices de ferro, sem necessidade de estudo medular.' },
@@ -141,7 +141,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Distúrbio mineral e ósseo: fisiopatologia',
     e: 'Na gênese do hiperparatireoidismo secundário da doença renal crônica, a sequência de eventos é:',
-    o: ['Hipercalcemia primária, que estimula a paratireoide', 'Retenção de fósforo com aumento do FGF-23, queda da produção de calcitriol, hipocalcemia e estímulo crônico à secreção de paratormônio', 'Excesso de calcitriol com aumento da absorção intestinal de cálcio', 'Perda renal de fósforo com hipofosfatemia'],
+    o: ['Hipercalcemia primária, que estimula a paratireoide', 'Retenção de fósforo, FGF-23 alto, menos calcitriol e PTH crônico', 'Excesso de calcitriol, com mais absorção de cálcio', 'Perda renal de fósforo, com hipofosfatemia'],
     g: 'B',
     c: 'A queda da filtração retém fósforo, que eleva o FGF-23; este inibe a 1-alfa-hidroxilase e reduz o calcitriol, já diminuído pela perda de massa renal. A menor absorção intestinal de cálcio e a ligação do cálcio ao fósforo causam hipocalcemia, e os três fatores (fósforo alto, cálcio baixo e calcitriol baixo) estimulam a paratireoide, que sofre hiperplasia.',
     x: { A: 'A tendência é de hipocalcemia; a hipercalcemia inibiria a paratireoide.', C: 'O calcitriol está reduzido, e não aumentado, na doença renal crônica.', D: 'Há retenção de fósforo com hiperfosfatemia, e não perda renal.' },
@@ -149,7 +149,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Osteíte fibrosa cística',
     e: 'Mulher de 49 anos, em hemodiálise há 9 anos, queixa-se de dor óssea e prurido. Exames: paratormônio muito elevado, fósforo alto e fosfatase alcalina aumentada. A radiografia das mãos mostra reabsorção subperiosteal das falanges, e a do crânio, aspecto em sal e pimenta. O diagnóstico é:',
-    o: ['Doença óssea adinâmica', 'Osteíte fibrosa cística, doença de alto remodelamento por hiperparatireoidismo secundário', 'Osteomalácia por alumínio', 'Osteoporose pós-menopausa'],
+    o: ['Doença óssea adinâmica, de baixo remodelamento', 'Osteíte fibrosa cística: alto remodelamento, por HPT secundário', 'Osteomalácia por alumínio, de baixo remodelamento', 'Osteoporose pós-menopausa, de alto remodelamento'],
     g: 'B',
     c: 'O paratormônio em excesso estimula intensamente os osteoclastos e a remodelação, com reabsorção óssea, fibrose medular e formação de cistos e tumores marrons. A reabsorção subperiosteal das falanges, na face radial, é o sinal radiológico mais característico, e a fosfatase alcalina elevada reflete o alto remodelamento.',
     x: { A: 'Na doença adinâmica o paratormônio e a fosfatase alcalina estão baixos ou normais.', C: 'A osteomalácia por alumínio cursa com baixo remodelamento e defeito de mineralização.', D: 'A osteoporose não causa reabsorção subperiosteal nem crânio em sal e pimenta.' },
@@ -157,7 +157,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Doença óssea adinâmica',
     e: 'Homem de 70 anos, diabético, em diálise peritoneal, em uso de carbonato de cálcio e calcitriol em doses altas, apresenta fraturas por fragilidade e calcificações vasculares extensas. Exames: cálcio no limite superior, paratormônio persistentemente baixo e fosfatase alcalina normal. O diagnóstico e a conduta são:',
-    o: ['Osteíte fibrosa; indicar paratireoidectomia', 'Doença óssea adinâmica; reduzir a oferta de cálcio e de vitamina D ativa para permitir a elevação do paratormônio', 'Osteomalácia; aumentar a dose de calcitriol', 'Hiperparatireoidismo terciário; iniciar cinacalcete'],
+    o: ['Osteíte fibrosa; indicar paratireoidectomia total', 'Doença óssea adinâmica; reduzir cálcio e vitamina D', 'Osteomalácia; aumentar a dose de calcitriol oral', 'HPT terciário; iniciar cinacalcete, em dose baixa'],
     g: 'B',
     c: 'A doença adinâmica é um estado de baixo remodelamento por supressão excessiva do paratormônio, favorecida por carga de cálcio, vitamina D ativa, diabetes e idade avançada. O osso pouco ativo não tampona o cálcio e o fósforo, que se depositam em vasos e partes moles; a conduta é retirar os fatores que suprimem a paratireoide.',
     x: { A: 'O paratormônio está baixo; a paratireoidectomia agravaria o quadro.', C: 'Aumentar o calcitriol suprime ainda mais o paratormônio e eleva o cálcio.', D: 'No hiperparatireoidismo terciário o paratormônio é muito alto, com hipercalcemia.' },
@@ -173,7 +173,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Calcitriol',
     e: 'Sobre o uso de calcitriol ou análogos da vitamina D ativa no hiperparatireoidismo secundário da doença renal crônica, é correto afirmar:',
-    o: ['Reduzem o paratormônio e também diminuem o cálcio e o fósforo séricos', 'Suprimem a síntese de paratormônio, mas aumentam a absorção intestinal de cálcio e fósforo, devendo ser evitados na hiperfosfatemia ou hipercalcemia não controladas', 'São a primeira medida mesmo com fósforo muito elevado', 'Não têm efeito sobre a glândula paratireoide'],
+    o: ['Reduzem o PTH e diminuem também o cálcio e o fósforo', 'Suprimem o PTH, mas elevam a absorção de cálcio e fósforo', 'São a primeira medida mesmo com fósforo muito elevado', 'Não têm efeito sobre a glândula paratireoide'],
     g: 'B',
     c: 'A vitamina D ativa age no receptor da paratireoide inibindo a transcrição do gene do paratormônio, mas também aumenta a absorção intestinal de cálcio e fósforo. Por isso, o primeiro passo é controlar o fósforo com dieta e quelantes; usar calcitriol com produto cálcio-fósforo elevado favorece calcificação vascular e de partes moles.',
     x: { A: 'O calcitriol eleva cálcio e fósforo, por aumentar a absorção intestinal de ambos.', C: 'Com fósforo muito elevado, o controle da hiperfosfatemia vem antes.', D: 'A paratireoide possui receptor de vitamina D, que inibe a síntese do hormônio.' },
@@ -181,7 +181,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Calcimiméticos',
     e: 'Mulher em hemodiálise mantém paratormônio muito elevado, com cálcio de 10,4 mg/dL e fósforo de 6,5 mg/dL, apesar de dieta e quelante sem cálcio. A droga indicada e seu mecanismo são:',
-    o: ['Calcitriol, que bloqueia o receptor de paratormônio no osso', 'Cinacalcete, que aumenta a sensibilidade do receptor sensor de cálcio da paratireoide, reduzindo o paratormônio sem elevar cálcio e fósforo', 'Carbonato de cálcio, que suprime a paratireoide por hipercalcemia', 'Alendronato, que inibe a secreção de paratormônio'],
+    o: ['Calcitriol, que bloqueia o receptor de PTH no osso', 'Cinacalcete: sensibiliza o sensor de cálcio e reduz o PTH', 'Carbonato de cálcio, que suprime a paratireoide', 'Alendronato, que inibe a secreção de PTH'],
     g: 'B',
     c: 'O calcimimético é um modulador alostérico do receptor sensor de cálcio: a glândula passa a perceber o cálcio como mais alto e reduz a secreção de paratormônio. Como tende a baixar cálcio e fósforo, é a opção quando esses estão elevados, e seu principal efeito adverso é a hipocalcemia, além de náuseas; a paratireoidectomia fica para os casos refratários.',
     x: { A: 'O calcitriol elevaria ainda mais cálcio e fósforo, e não bloqueia o receptor do hormônio.', C: 'O cálcio adicional agravaria a hipercalcemia e a calcificação vascular.', D: 'O bisfosfonato inibe osteoclastos e não reduz a secreção de paratormônio.' },
@@ -189,7 +189,7 @@ export const UREMICA_3: QuestaoCompacta[] = [
   {
     s: 'Acidose metabólica',
     e: 'Homem de 63 anos, com doença renal crônica G4, apresenta bicarbonato sérico de 17 mEq/L de forma persistente. A conduta e sua justificativa são:',
-    o: ['Não tratar, pois a acidose crônica é bem tolerada e protege o rim', 'Repor bicarbonato de sódio por via oral, pois a acidose crônica causa perda óssea e muscular e acelera a progressão da doença renal', 'Indicar hemodiálise imediata', 'Prescrever acetazolamida'],
+    o: ['Não tratar: a acidose crônica protege o rim', 'Repor bicarbonato oral: acidose causa perda óssea e muscular', 'Indicar hemodiálise imediata, por acidose crônica', 'Prescrever acetazolamida, para corrigir a acidose'],
     g: 'B',
     c: 'A perda de néfrons reduz a produção de amônia e a excreção de ácidos; no início a acidose tem ânion gap normal e, nas fases avançadas, ânion gap aumentado pela retenção de fosfatos e sulfatos. A acidose crônica é tamponada pelo osso, aumenta o catabolismo muscular e favorece a fibrose renal, de modo que se repõe álcali para manter o bicarbonato próximo do normal.',
     x: { A: 'A acidose crônica desmineraliza o osso, consome músculo e acelera a perda de função renal.', C: 'A acidose isolada e tratável por via oral não indica diálise imediata.', D: 'A acetazolamida causa perda de bicarbonato na urina e pioraria a acidose.' },

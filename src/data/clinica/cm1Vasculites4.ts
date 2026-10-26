@@ -5,7 +5,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Vasculite por IgA: quadro clínico',
     e: 'Menino de 6 anos, 10 dias após um resfriado, apresenta lesões purpúricas elevadas nas nádegas e nas pernas, dor e edema nos tornozelos e joelhos e dor abdominal em cólica. Está afebril e em bom estado geral. Hemograma com 320.000 plaquetas/mm3 e coagulograma normal. O diagnóstico mais provável é:',
-    o: ['Púrpura trombocitopênica imune', 'Vasculite por IgA (púrpura de Henoch-Schönlein)', 'Meningococcemia', 'Leucemia linfoide aguda'],
+    o: ['Púrpura trombocitopênica imune, com plaquetopenia', 'Vasculite por IgA (Henoch-Schönlein), plaquetas normais', 'Meningococcemia, com febre e toxemia, e plaquetopenia', 'Leucemia linfoide aguda, com citopenias e blastos'],
     g: 'B',
     c: 'A vasculite por IgA é a vasculite mais comum da infância e se manifesta pela tétrade de púrpura palpável em áreas dependentes (membros inferiores e nádegas), artrite ou artralgia, dor abdominal e nefrite, frequentemente após infecção de vias aéreas. A púrpura é vascular, e não por falta de plaquetas, por isso a contagem plaquetária e a coagulação são normais.',
     x: { A: 'Na púrpura trombocitopênica imune as plaquetas estão baixas e as lesões não são palpáveis.', C: 'A meningococcemia cursa com febre, toxemia e rápida deterioração clínica.', D: 'A leucemia causaria citopenias, e não plaquetas normais com bom estado geral.' },
@@ -29,7 +29,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Vasculite por IgA: prognóstico',
     e: 'O principal determinante do prognóstico a longo prazo na vasculite por IgA e a conduta de seguimento recomendada são:',
-    o: ['Artrite; radiografias seriadas das articulações por 2 anos', 'Nefrite; exame de urina e aferição da pressão arterial periódicos por pelo menos 6 meses', 'Púrpura; biópsia de pele a cada recidiva', 'Dor abdominal; endoscopia digestiva de controle'],
+    o: ['Artrite; radiografias seriadas por 2 anos', 'Nefrite; urina e pressão arterial por ao menos 6 meses', 'Púrpura; biópsia de pele a cada recidiva', 'Dor abdominal; endoscopia de controle'],
     g: 'B',
     c: 'A artrite não deixa sequelas e as manifestações cutâneas e abdominais são autolimitadas; é o acometimento renal que pode evoluir para doença renal crônica. Como a nefrite pode surgir semanas a meses após a púrpura e ser assintomática, recomenda-se seguimento com urina e pressão arterial por no mínimo 6 meses.',
     x: { A: 'A artrite é transitória, não erosiva e não deixa deformidade.', C: 'Recidivas cutâneas são comuns e não exigem nova biópsia.', D: 'A dor abdominal se resolve com a doença e não requer endoscopia de rotina.' },
@@ -45,7 +45,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Vasculite por IgA: tratamento',
     e: 'Menino de 7 anos com vasculite por IgA apresenta púrpura em membros inferiores e artralgia leve de tornozelos, sem dor abdominal, com exame de urina e pressão arterial normais. A conduta adequada é:',
-    o: ['Pulsoterapia com metilprednisolona e ciclofosfamida', 'Repouso relativo, hidratação, analgesia e seguimento ambulatorial com exame de urina', 'Imunoglobulina endovenosa e ácido acetilsalicílico', 'Transfusão de plaquetas e internação em terapia intensiva'],
+    o: ['Pulsoterapia com metilprednisolona e ciclofosfamida', 'Repouso relativo, hidratação, analgesia e urina ambulatorial', 'Imunoglobulina IV e ácido acetilsalicílico', 'Transfusão de plaquetas e internação em UTI'],
     g: 'B',
     c: 'A vasculite por IgA é autolimitada na maioria das crianças, resolvendo-se em cerca de 4 semanas, e o tratamento é de suporte. O corticoide é reservado para dor abdominal intensa ou acometimento articular importante, e a imunossupressão mais intensa para nefrite grave; o corticoide não previne o surgimento de nefrite.',
     x: { A: 'Imunossupressão intensa só se justifica em nefrite grave, ausente neste caso.', C: 'Esse é o tratamento da doença de Kawasaki, não da vasculite por IgA.', D: 'As plaquetas são normais e não há gravidade que justifique terapia intensiva.' },
@@ -61,7 +61,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Crioglobulinemia: complemento',
     e: 'O padrão de complemento sérico mais característico da crioglobulinemia mista é:',
-    o: ['C3 muito baixo com C4 normal', 'C4 muito baixo, com C3 normal ou pouco reduzido', 'C3 e C4 elevados', 'Complemento total normal com deficiência isolada de C2'],
+    o: ['C3 muito baixo com C4 normal, no soro', 'C4 muito baixo, com C3 normal ou pouco reduzido', 'C3 e C4 elevados, como reagentes de fase aguda', 'Complemento total normal com deficiência isolada de C2'],
     g: 'B',
     c: 'Os imunocomplexos formados pelas crioglobulinas ativam a via clássica do complemento, consumindo intensamente os componentes iniciais, sobretudo o C4, que pode ficar indetectável, enquanto o C3 costuma estar normal ou apenas discretamente reduzido. C3 muito baixo com C4 normal indica ativação da via alternativa, como na glomerulonefrite pós-estreptocócica.',
     x: { A: 'Esse padrão é da via alternativa, visto na glomerulonefrite pós-estreptocócica.', C: 'O complemento elevado é reagente de fase aguda, sem relação com a crioglobulinemia.', D: 'A deficiência de C2 é hereditária e predispõe a lúpus e infecções.' },
@@ -69,7 +69,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Crioglobulinemia: classificação',
     e: 'Na classificação de Brouet, a crioglobulinemia tipo I é composta por imunoglobulina monoclonal isolada e está associada principalmente a:',
-    o: ['Infecção crônica pelo vírus da hepatite C', 'Doenças linfoproliferativas, como macroglobulinemia de Waldenström e mieloma múltiplo', 'Síndrome de Sjögren e lúpus eritematoso sistêmico', 'Endocardite bacteriana subaguda'],
+    o: ['Hepatite C crônica, a mais frequente na forma mista', 'Doenças linfoproliferativas (Waldenström, mieloma)', 'Sjögren e LES, doenças autoimunes sistêmicas', 'Endocardite bacteriana subaguda, infecciosa'],
     g: 'B',
     c: 'A crioglobulinemia tipo I, formada por uma única imunoglobulina monoclonal, ocorre nas neoplasias de linfócitos B e plasmócitos e produz sobretudo fenômenos de oclusão vascular e hiperviscosidade, como acrocianose, necrose de extremidades e livedo. Os tipos II e III são as crioglobulinemias mistas, com fator reumatoide, ligadas à hepatite C e a doenças autoimunes.',
     x: { A: 'A hepatite C é a principal causa das crioglobulinemias mistas, sobretudo do tipo II.', C: 'As doenças autoimunes se associam às formas mistas, principalmente ao tipo III.', D: 'Infecções crônicas podem gerar crioglobulinas mistas policlonais, não o tipo I.' },
@@ -77,7 +77,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Crioglobulinemia: tratamento',
     e: 'Homem de 60 anos com crioglobulinemia mista associada à hepatite C apresenta púrpura recorrente, artralgia e neuropatia sensitiva leve, sem insuficiência renal. A base do tratamento é:',
-    o: ['Ciclofosfamida oral contínua', 'Antivirais de ação direta para erradicar o vírus da hepatite C', 'Colchicina por tempo indeterminado', 'Plasmaférese semanal como terapia isolada'],
+    o: ['Ciclofosfamida oral contínua, a longo prazo', 'Antivirais de ação direta para erradicar a hepatite C', 'Colchicina por tempo indeterminado, por via oral', 'Plasmaférese semanal como terapia isolada'],
     g: 'B',
     c: 'Como o estímulo para a produção das crioglobulinas é a infecção viral crônica, a erradicação do vírus com antivirais de ação direta é o tratamento de base e leva à remissão da vasculite na maioria dos pacientes. Nas formas graves, com glomerulonefrite progressiva, neuropatia motora ou úlceras extensas, associa-se rituximabe e corticoide, e a plasmaférese fica para situações de risco de vida.',
     x: { A: 'Imunossupressão isolada sem tratar o vírus não remove a causa da doença.', C: 'A colchicina tem papel apenas em vasculite cutânea leve, sem tratar a etiologia.', D: 'A plasmaférese isolada tem efeito transitório e é reservada a casos graves.' },
@@ -93,7 +93,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Vasculite por hipersensibilidade',
     e: 'Mulher de 40 anos, previamente hígida, apresenta púrpura palpável nas pernas 8 dias após iniciar amoxicilina para sinusite. Não tem febre, dor abdominal ou artrite. Exame de urina, creatinina, hemograma e complemento normais. A conduta inicial mais adequada é:',
-    o: ['Iniciar ciclofosfamida e prednisona em dose alta', 'Suspender o medicamento suspeito, orientar repouso com elevação dos membros e observar', 'Solicitar arteriografia mesentérica', 'Indicar plasmaférese de urgência'],
+    o: ['Iniciar ciclofosfamida e prednisona em dose alta', 'Suspender o fármaco suspeito; repouso e elevação dos membros', 'Solicitar arteriografia mesentérica, de imediato', 'Indicar plasmaférese de urgência, de imediato'],
     g: 'B',
     c: 'A vasculite cutânea de pequenos vasos por hipersensibilidade surge em geral 7 a 10 dias após a exposição a um fármaco ou infecção, por depósito de imunocomplexos em vênulas pós-capilares, e é limitada à pele. A retirada do agente causal costuma levar à resolução em semanas; anti-histamínicos, colchicina ou curso curto de corticoide ficam para casos sintomáticos ou persistentes.',
     x: { A: 'Imunossupressão intensa é desproporcional em doença restrita à pele e autolimitada.', C: 'Não há sinal de acometimento de médios vasos que justifique arteriografia.', D: 'Plasmaférese não tem indicação em vasculite cutânea isolada.' },
@@ -101,7 +101,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Vasculite cutânea leucocitoclástica',
     e: 'O termo vasculite leucocitoclástica refere-se a:',
-    o: ['Uma doença específica causada por anticorpos contra leucócitos', 'Um padrão histológico com infiltrado neutrofílico e fragmentação nuclear em vênulas pós-capilares, comum a várias causas', 'Uma vasculite granulomatosa restrita a artérias de grande calibre', 'Uma trombose de capilares sem inflamação da parede'],
+    o: ['Doença específica causada por anticorpos contra leucócitos', 'Padrão histológico: neutrófilos e carioréxis em vênulas pós-capilares', 'Vasculite granulomatosa restrita a artérias de grande calibre', 'Trombose de capilares sem inflamação da parede'],
     g: 'B',
     c: 'A leucocitoclasia é a fragmentação dos núcleos dos neutrófilos que infiltram a parede das vênulas, acompanhada de necrose fibrinoide e extravasamento de hemácias. Trata-se de um padrão de lesão, não de um diagnóstico etiológico: pode resultar de drogas, infecções, doenças autoimunes, neoplasias, vasculite por IgA, crioglobulinemia ou vasculites associadas ao ANCA.',
     x: { A: 'Não é uma doença única nem depende de anticorpos contra leucócitos.', C: 'O padrão ocorre em vênulas da pele, sem granulomas e sem relação com grandes artérias.', D: 'Há inflamação evidente da parede vascular, o que define vasculite.' },
@@ -109,7 +109,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Púrpura palpável: investigação',
     e: 'Homem de 50 anos apresenta púrpura palpável em membros inferiores há 2 semanas, sem causa evidente. Além da biópsia de pele com imunofluorescência, a avaliação inicial deve priorizar:',
-    o: ['Apenas a observação clínica, pois toda púrpura palpável é benigna', 'A busca de acometimento sistêmico e de causa, com exame de urina, função renal, hemograma, complemento, sorologias para hepatites B e C e HIV, ANCA e fator antinuclear', 'A realização de tomografia por emissão de pósitrons de corpo inteiro', 'A dosagem isolada de IgE total'],
+    o: ['Só observar: toda púrpura palpável é benigna e passageira', 'Buscar acometimento sistêmico e causa (urina, creatinina, complemento)', 'Realizar PET de corpo inteiro, em todos os casos', 'Dosar apenas a IgE total, no soro, de forma isolada'],
     g: 'B',
     c: 'A púrpura palpável indica vasculite de pequenos vasos e obriga a responder duas perguntas: há envolvimento de outros órgãos, sobretudo rim, e qual é a causa. O exame de urina é indispensável, pois a nefrite pode ser silenciosa, e a investigação etiológica inclui infecções, doenças autoimunes, crioglobulinas e ANCA. A biópsia deve ser feita em lesão recente, de 24 a 48 horas, para que a imunofluorescência seja informativa.',
     x: { A: 'A púrpura palpável pode ser o primeiro sinal de vasculite sistêmica grave.', C: 'Exame de imagem metabólica não é a prioridade na avaliação inicial.', D: 'A IgE isolada não esclarece a causa nem a extensão da vasculite.' },
@@ -125,7 +125,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Vasculite urticariforme',
     e: 'Mulher de 42 anos apresenta placas urticadas que duram mais de 48 horas cada uma, causam mais ardor e dor do que prurido e deixam hiperpigmentação residual. Tem ainda artralgia e C3 e C4 baixos. O diagnóstico mais provável e o exame para confirmá-lo são:',
-    o: ['Urticária crônica espontânea; teste de provocação com gelo', 'Vasculite urticariforme; biópsia de pele mostrando vasculite leucocitoclástica', 'Angioedema hereditário; dosagem do inibidor de C1', 'Eritema multiforme; sorologia para herpes simples'],
+    o: ['Urticária crônica espontânea; teste do gelo', 'Vasculite urticariforme; biópsia com leucocitoclasia', 'Angioedema hereditário; dosar o inibidor de C1', 'Eritema multiforme; sorologia para herpes simples'],
     g: 'B',
     c: 'Na urticária comum, cada lesão dura menos de 24 horas, é muito pruriginosa e some sem deixar marca. Lesões que persistem por mais de 24 a 48 horas, dolorosas e com púrpura ou pigmentação residual sugerem vasculite urticariforme, confirmada pela biópsia. A forma hipocomplementêmica, com anticorpos anti-C1q, associa-se a doença sistêmica e ao lúpus.',
     x: { A: 'Na urticária crônica as lesões são fugazes, pruriginosas e sem consumo de complemento.', C: 'O angioedema hereditário não cursa com urticas e apresenta C4 baixo com C3 normal.', D: 'O eritema multiforme tem lesões em alvo, sem hipocomplementemia.' },
@@ -141,7 +141,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Doença de Behçet: patergia',
     e: 'O fenômeno de patergia, pesquisado na doença de Behçet, consiste em:',
-    o: ['Aparecimento de lesões cutâneas em áreas expostas ao sol', 'Formação de pápula ou pústula estéril 24 a 48 horas após punção da pele com agulha', 'Surgimento de novas lesões de psoríase em locais de trauma', 'Empalidecimento dos dedos após exposição ao frio'],
+    o: ['Lesões cutâneas em áreas expostas ao sol', 'Pápula/pústula estéril 24-48 h após punção da pele', 'Novas lesões de psoríase em locais de trauma', 'Empalidecimento dos dedos após exposição ao frio'],
     g: 'B',
     c: 'A patergia é uma hiper-reatividade inespecífica da pele ao trauma mínimo: a punção intradérmica com agulha estéril é seguida, em 24 a 48 horas, por pápula eritematosa ou pústula estéril. Reflete a resposta neutrofílica exagerada da doença. O teste é específico, porém pouco sensível, sobretudo fora das regiões de alta prevalência.',
     x: { A: 'Lesões em áreas expostas ao sol caracterizam fotossensibilidade, como no lúpus.', C: 'Lesões de psoríase em locais de trauma constituem o fenômeno de Koebner.', D: 'Palidez digital ao frio é o fenômeno de Raynaud.' },
@@ -149,7 +149,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Doença de Behçet: acometimento ocular',
     e: 'A manifestação ocular mais característica da doença de Behçet, responsável por grande morbidade, é:',
-    o: ['Ceratoconjuntivite seca', 'Uveíte recorrente, podendo ser anterior com hipópio ou posterior com vasculite retiniana', 'Esclerite necrosante isolada', 'Neuropatia óptica isquêmica anterior arterítica'],
+    o: ['Ceratoconjuntivite seca, comum na síndrome', 'Uveíte recorrente: anterior (hipópio) ou posterior (vasculite)', 'Esclerite necrosante isolada, como achado típico', 'Neuropatia óptica isquêmica anterior arterítica'],
     g: 'B',
     c: 'O envolvimento ocular ocorre em cerca de metade dos pacientes com doença de Behçet, é geralmente bilateral e recorrente e pode se apresentar como uveíte anterior com hipópio ou como panuveíte com vasculite retiniana, forma que ameaça a visão. Por isso, o acometimento do segmento posterior exige imunossupressão, com azatioprina ou anti-fator de necrose tumoral.',
     x: { A: 'O olho seco é típico da síndrome de Sjögren.', C: 'A esclerite necrosante lembra artrite reumatoide e granulomatose com poliangeíte.', D: 'Essa neuropatia óptica é a complicação da arterite de células gigantes.' },
@@ -157,7 +157,7 @@ export const VASCULITES_4: QuestaoCompacta[] = [
   {
     s: 'Doença de Behçet: acometimento vascular',
     e: 'Homem de 31 anos com doença de Behçet apresenta trombose venosa profunda de membro inferior e hemoptise. A angiotomografia de tórax revela aneurismas de artérias pulmonares. Sobre o manejo, é correto afirmar que:',
-    o: ['A anticoagulação plena isolada é o tratamento de escolha', 'A base do tratamento é a imunossupressão, e a anticoagulação pode causar sangramento fatal na presença de aneurisma pulmonar', 'Deve-se usar apenas colchicina, pois o quadro é mucocutâneo', 'O tratamento é exclusivamente cirúrgico, sem papel para medicamentos'],
+    o: ['Anticoagulação plena isolada é o tratamento de escolha', 'Base é a imunossupressão; anticoagular pode causar sangramento fatal', 'Apenas colchicina, pois o quadro é mucocutâneo', 'Tratamento exclusivamente cirúrgico, sem papel de remédios'],
     g: 'B',
     c: 'Na doença de Behçet, a trombose resulta de inflamação da parede do vaso, com trombo aderente, e não de um estado primário de hipercoagulabilidade; por isso se trata com corticoide e imunossupressor. Os aneurismas de artéria pulmonar são a lesão vascular mais letal da doença, e anticoagular nessa situação pode provocar hemoptise maciça.',
     x: { A: 'Anticoagular sem tratar a inflamação é ineficaz e perigoso se houver aneurisma pulmonar.', C: 'A colchicina é útil para lesões mucocutâneas e articulares, não para doença vascular grave.', D: 'A cirurgia sem controle da inflamação tem alta taxa de complicações e recidiva.' },

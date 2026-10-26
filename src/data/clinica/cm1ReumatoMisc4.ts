@@ -5,7 +5,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: diagnóstico',
     e: 'Mulher de 42 anos queixa-se de dor difusa pelo corpo há 2 anos, fadiga, sono não reparador, dificuldade de concentração e cefaleia frequente. O exame físico mostra dor à palpação em vários pontos, sem sinovite e com força muscular preservada. Hemograma, VHS, proteína C reativa, TSH e CPK são normais. A conduta diagnóstica correta é:',
-    o: ['Solicitar FAN, fator reumatoide e ressonância magnética de corpo inteiro para confirmar o diagnóstico', 'Estabelecer o diagnóstico clínico de fibromialgia, sem necessidade de exames adicionais', 'Indicar biópsia muscular', 'Considerar o quadro simulação, já que os exames são normais'],
+    o: ['FAN, fator reumatoide e RM de corpo inteiro para confirmar', 'Diagnóstico clínico de fibromialgia, sem exames adicionais', 'Indicar biópsia muscular, para confirmar o diagnóstico', 'Considerar simulação, já que os exames são normais'],
     g: 'B',
     c: 'A fibromialgia é uma síndrome de dor crônica generalizada, por amplificação central da dor, acompanhada de fadiga, sono não restaurador e sintomas cognitivos. O diagnóstico é clínico, e os exames servem apenas para afastar condições que a mimetizam, como hipotireoidismo e doenças inflamatórias. Pedir autoanticorpos sem suspeita clínica gera falso-positivos e iatrogenia.',
     x: { A: 'Autoanticorpos e imagem sem indicação clínica não confirmam o diagnóstico e geram achados falso-positivos.', C: 'Força e CPK normais afastam miopatia; a biópsia não tem indicação.', D: 'A fibromialgia é uma condição real, com base neurobiológica, e exames normais são esperados.' },
@@ -13,7 +13,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: critérios',
     e: 'Em relação aos critérios para o diagnóstico de fibromialgia, é correto afirmar:',
-    o: ['A presença de 11 dos 18 pontos dolorosos continua sendo obrigatória para o diagnóstico', 'Os critérios atuais baseiam-se no índice de dor generalizada e na escala de gravidade dos sintomas, presentes por pelo menos 3 meses, dispensando a contagem de pontos dolorosos', 'O diagnóstico exige elevação de provas inflamatórias', 'A presença de outra doença reumática exclui o diagnóstico de fibromialgia'],
+    o: ['Ter 11 dos 18 pontos dolorosos ainda é obrigatório', 'Índice de dor generalizada e gravidade por ≥ 3 meses', 'Exige elevação de provas inflamatórias para o diagnóstico', 'Outra doença reumática exclui a fibromialgia por definição'],
     g: 'B',
     c: 'Os critérios de 1990 exigiam dor difusa e 11 de 18 pontos dolorosos. A partir de 2010, passou-se a usar o índice de dor generalizada (número de regiões dolorosas) combinado à escala de gravidade de sintomas (fadiga, sono não reparador, sintomas cognitivos e somáticos), com duração mínima de 3 meses. A fibromialgia pode coexistir com outras doenças, como artrite reumatoide e lúpus.',
     x: { A: 'A contagem de pontos dolorosos deixou de ser exigida nos critérios mais recentes.', C: 'As provas inflamatórias são caracteristicamente normais na fibromialgia.', D: 'A fibromialgia é frequente em portadores de outras doenças reumáticas e não é excluída por elas.' },
@@ -21,7 +21,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: tratamento não farmacológico',
     e: 'Entre as intervenções para fibromialgia, aquela com evidência mais consistente de benefício sobre dor, função e qualidade de vida, devendo ser recomendada a todos os pacientes, é:',
-    o: ['Repouso no leito durante as fases de piora', 'Exercício físico aeróbico regular, de início gradual, associado à educação do paciente', 'Uso contínuo de anti-inflamatórios não esteroides', 'Infiltração dos pontos dolorosos com corticoide'],
+    o: ['Repouso no leito durante as fases de piora', 'Exercício aeróbico regular e gradual, com educação do paciente', 'Uso contínuo de anti-inflamatórios não esteroides', 'Infiltração dos pontos dolorosos com corticoide'],
     g: 'B',
     c: 'O exercício aeróbico de baixo impacto, com progressão lenta, é a medida de maior evidência na fibromialgia, pois modula as vias descendentes inibitórias da dor e melhora o sono e o humor. Deve ser combinado à educação sobre a natureza benigna da doença, higiene do sono e, quando indicado, terapia cognitivo-comportamental. Os fármacos são adjuvantes.',
     x: { A: 'O repouso leva ao descondicionamento e piora a dor e a fadiga.', C: 'Não há inflamação periférica, e os AINEs têm eficácia pobre na fibromialgia.', D: 'A infiltração com corticoide não tem base fisiopatológica nem evidência nessa doença.' },
@@ -45,7 +45,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Polimialgia reumática: diagnóstico',
     e: 'Mulher de 72 anos apresenta há 6 semanas dor e rigidez em ombros, região cervical e quadris, com rigidez matinal de 2 horas e dificuldade para levantar os braços e sair da cama. A força muscular é normal quando a dor permite a avaliação. Exames: VHS de 88 mm/h, proteína C reativa elevada, CPK normal e fator reumatoide negativo. O diagnóstico mais provável é:',
-    o: ['Polimiosite', 'Polimialgia reumática', 'Fibromialgia', 'Hipotireoidismo'],
+    o: ['Polimiosite, com CPK elevada', 'Polimialgia reumática, com VHS alta', 'Fibromialgia, com provas normais', 'Hipotireoidismo, com TSH elevado'],
     g: 'B',
     c: 'A polimialgia reumática acomete pessoas com mais de 50 anos e manifesta-se por dor e rigidez matinal prolongada das cinturas escapular e pélvica, de início relativamente rápido, com provas inflamatórias elevadas. A limitação decorre de dor por bursite e sinovite periarticulares, e não de fraqueza; por isso força e enzimas musculares são normais.',
     x: { A: 'Na polimiosite predomina a fraqueza proximal, com CPK elevada.', C: 'A fibromialgia cursa com provas inflamatórias normais e dor mais difusa e crônica.', D: 'O hipotireoidismo não explica VHS tão elevada e costuma elevar a CPK.' },
@@ -53,7 +53,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Polimialgia reumática: tratamento',
     e: 'Homem de 70 anos com diagnóstico de polimialgia reumática, sem cefaleia, sintomas visuais ou claudicação de mandíbula, deve ser tratado inicialmente com:',
-    o: ['Anti-inflamatório não esteroide isolado por 6 meses', 'Prednisona em dose baixa a moderada (cerca de 12,5 a 25 mg/dia), com resposta rápida esperada e redução lenta', 'Pulsoterapia com metilprednisolona 1 g por 3 dias', 'Metotrexato isolado, sem corticoide'],
+    o: ['AINE isolado por 6 meses, em dose plena, sem corticoide', 'Prednisona em dose baixa-moderada (12,5-25 mg/dia), resposta rápida', 'Pulso de metilprednisolona 1 g por 3 dias, de início', 'Metotrexato isolado, sem corticoide, por 6 meses'],
     g: 'B',
     c: 'A resposta rápida e marcante a doses baixas de corticoide é tão característica que sua ausência obriga a rever o diagnóstico. Inicia-se prednisona entre 12,5 e 25 mg/dia, com redução gradual ao longo de 1 a 2 anos, pois as recidivas são comuns. Doses altas ficam reservadas à arterite de células gigantes associada, que deve ser sempre pesquisada.',
     x: { A: 'Os AINEs isolados são insuficientes para controlar a doença.', C: 'A pulsoterapia é reservada à arterite de células gigantes com ameaça visual.', D: 'O metotrexato é apenas poupador de corticoide em casos de recidiva, não tratamento isolado inicial.' },
@@ -61,7 +61,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Lombalgia mecânica x inflamatória',
     e: 'Qual dos conjuntos de características abaixo define uma lombalgia de ritmo inflamatório, em oposição à lombalgia mecânica?',
-    o: ['Início súbito após esforço, piora com o movimento e melhora com o repouso', 'Início insidioso antes dos 40 anos, duração superior a 3 meses, melhora com o exercício, ausência de melhora com o repouso e dor noturna', 'Dor que piora ao caminhar e melhora ao sentar, em idoso', 'Dor irradiada abaixo do joelho, com parestesia no trajeto de uma raiz'],
+    o: ['Início súbito após esforço; piora com movimento e melhora com repouso', 'Início insidioso < 40 anos, > 3 meses, melhora com exercício, dor noturna', 'Dor que piora ao caminhar e melhora ao sentar, em idoso', 'Dor abaixo do joelho com parestesia no trajeto da raiz'],
     g: 'B',
     c: 'A dor lombar inflamatória começa de forma insidiosa em adultos jovens, é crônica, acorda o paciente na segunda metade da noite, acompanha-se de rigidez matinal prolongada e melhora com a atividade, mas não com o repouso. Esse padrão deve levar à investigação de espondiloartrite axial. A dor mecânica, muito mais comum, piora com o esforço e alivia com o repouso.',
     x: { A: 'Esse é o padrão típico da lombalgia mecânica comum.', C: 'Esse quadro corresponde à claudicação neurogênica da estenose do canal lombar.', D: 'Dor irradiada em trajeto radicular indica radiculopatia, e não ritmo inflamatório.' },
@@ -69,7 +69,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Lombalgia: sinais de alarme',
     e: 'Todos os achados abaixo são sinais de alarme (bandeiras vermelhas) na avaliação da lombalgia e justificam investigação complementar, EXCETO:',
-    o: ['História prévia de câncer e perda de peso inexplicada', 'Febre em usuário de drogas injetáveis', 'Retenção urinária e anestesia em sela', 'Dor iniciada há 5 dias após levantar peso, em adulto de 35 anos, sem déficit neurológico'],
+    o: ['História de câncer e perda de peso inexplicada, na lombalgia', 'Febre em usuário de drogas injetáveis, na lombalgia', 'Retenção urinária e anestesia em sela, na lombalgia', 'Dor há 5 dias após levantar peso, aos 35 anos, sem déficit'],
     g: 'D',
     c: 'Os sinais de alarme apontam para neoplasia, infecção, fratura ou compressão neurológica grave: idade acima de 50 anos ou abaixo de 20 no início da dor, câncer prévio, perda de peso, febre, imunossupressão, uso de drogas injetáveis, trauma, uso de corticoide, dor noturna ou em repouso e déficit neurológico progressivo ou de esfíncteres. A lombalgia aguda mecânica em adulto jovem sem esses achados é benigna e autolimitada.',
     x: { A: 'Câncer prévio e emagrecimento sugerem metástase vertebral e exigem investigação.', B: 'Febre com uso de drogas injetáveis sugere espondilodiscite ou abscesso epidural.', C: 'Retenção urinária e anestesia em sela indicam síndrome da cauda equina, uma emergência.' },
@@ -77,7 +77,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Lombalgia aguda: quando pedir imagem',
     e: 'Homem de 38 anos procura a unidade básica com dor lombar há 4 dias, iniciada após carregar móveis, sem irradiação, sem febre, sem perda de peso e com exame neurológico normal. A conduta mais adequada é:',
-    o: ['Solicitar ressonância magnética da coluna lombar', 'Não solicitar exame de imagem, orientar manutenção das atividades conforme tolerado, prescrever analgésico e reavaliar', 'Prescrever repouso absoluto no leito por 2 semanas', 'Solicitar radiografia e tomografia da coluna lombar'],
+    o: ['Solicitar ressonância magnética da coluna lombar', 'Sem imagem: manter atividades, analgésico e reavaliar', 'Prescrever repouso absoluto no leito por 2 semanas', 'Pedir radiografia e tomografia da coluna lombar'],
     g: 'B',
     c: 'A lombalgia aguda inespecífica tem evolução favorável, com melhora em até 4 a 6 semanas na grande maioria dos casos. Na ausência de sinais de alarme, exames de imagem não mudam a conduta, expõem à radiação e revelam achados incidentais que levam a intervenções desnecessárias. Manter-se ativo acelera a recuperação, ao contrário do repouso no leito.',
     x: { A: 'Sem sinais de alarme ou déficit neurológico, a ressonância não está indicada nas primeiras semanas.', C: 'O repouso absoluto prolongado retarda a recuperação e não é recomendado.', D: 'Radiografia e tomografia não trazem benefício na lombalgia aguda sem sinais de alarme.' },
@@ -109,7 +109,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Estenose do canal lombar',
     e: 'Homem de 71 anos queixa-se de dor, peso e formigamento em ambas as nádegas e pernas ao caminhar cerca de 200 metros ou ao ficar muito tempo em pé. Os sintomas aliviam quando ele se senta ou se inclina para a frente, como ao empurrar o carrinho do supermercado. Os pulsos pediosos são amplos e simétricos. O diagnóstico mais provável é:',
-    o: ['Doença arterial obstrutiva periférica', 'Estenose do canal vertebral lombar com claudicação neurogênica', 'Hérnia de disco aguda em L5-S1', 'Polineuropatia diabética'],
+    o: ['Doença arterial obstrutiva periférica, com pulsos ausentes', 'Estenose do canal lombar com claudicação neurogênica', 'Hérnia de disco aguda em L5-S1, com Lasègue', 'Polineuropatia diabética, em bota e luva'],
     g: 'B',
     c: 'Na estenose degenerativa do canal lombar, a extensão da coluna (ficar em pé, caminhar) reduz ainda mais o diâmetro do canal e comprime as raízes, enquanto a flexão o amplia e alivia os sintomas. Essa claudicação neurogênica distingue-se da vascular pelos pulsos normais, pelo alívio dependente da postura (e não apenas de parar) e pela melhor tolerância a pedalar ou subir ladeiras.',
     x: { A: 'Na claudicação vascular os pulsos estão diminuídos e a dor cede ao parar, mesmo em pé.', C: 'A hérnia aguda causa dor radicular unilateral que piora ao sentar e ao fletir o tronco.', D: 'A polineuropatia causa sintomas distais, simétricos e contínuos, sem relação com a postura.' },
@@ -133,7 +133,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Sarcoidose: síndrome de Löfgren',
     e: 'Mulher de 30 anos apresenta febre, nódulos dolorosos e eritematosos na face anterior das pernas e artrite de ambos os tornozelos há 2 semanas. A radiografia de tórax mostra adenomegalia hilar bilateral simétrica, com parênquima normal. O diagnóstico, o prognóstico e a conduta são:',
-    o: ['Tuberculose ganglionar; iniciar esquema básico imediatamente', 'Síndrome de Löfgren, forma aguda da sarcoidose; prognóstico favorável, com remissão espontânea na maioria, tratando-se com anti-inflamatórios', 'Linfoma de Hodgkin; quimioterapia', 'Lúpus eritematoso sistêmico; pulsoterapia com corticoide'],
+    o: ['TB ganglionar; iniciar esquema básico imediatamente', 'Löfgren (sarcoidose aguda): bom prognóstico; AINE', 'Linfoma de Hodgkin; quimioterapia imediata', 'LES; pulsoterapia com corticoide imediata'],
     g: 'B',
     c: 'A síndrome de Löfgren é a tríade de eritema nodoso, adenopatia hilar bilateral e artrite ou periartrite, principalmente de tornozelos, muitas vezes com febre. É tão característica que permite o diagnóstico de sarcoidose sem biópsia, e a remissão espontânea ocorre na grande maioria dos casos em meses. O tratamento é sintomático, com AINE, reservando-se corticoide em dose baixa para os casos mais intensos.',
     x: { A: 'A adenopatia da tuberculose costuma ser unilateral ou assimétrica, e a tríade descrita é típica de sarcoidose.', C: 'O linfoma não se apresenta com eritema nodoso e artrite de tornozelos nessa tríade clássica.', D: 'Não há critérios de lúpus, e a adenopatia hilar bilateral não faz parte dessa doença.' },
@@ -141,7 +141,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Sarcoidose: histopatologia',
     e: 'O achado histopatológico característico da sarcoidose e a implicação diagnóstica desse achado são:',
-    o: ['Granuloma com necrose caseosa central; o achado é patognomônico', 'Granuloma não caseoso, de células epitelioides; o diagnóstico exige quadro clínico compatível e exclusão de outras causas de granuloma, como tuberculose e micoses', 'Vasculite leucocitoclástica; o diagnóstico é confirmado por ANCA', 'Depósito amorfo corado pelo vermelho Congo; o diagnóstico exige imunofixação'],
+    o: ['Granuloma com necrose caseosa: patognomônico', 'Granuloma não caseoso; exige clínica e excluir TB e micoses', 'Vasculite leucocitoclástica; confirmada por ANCA', 'Depósito amorfo vermelho-congo; exige imunofixação'],
     g: 'B',
     c: 'A sarcoidose é uma doença granulomatosa multissistêmica de causa desconhecida, cujo marco é o granuloma bem formado, compacto e sem necrose caseosa. Como esse padrão não é exclusivo, o diagnóstico apoia-se em três pilares: clínica e imagem compatíveis, demonstração histológica do granuloma não caseoso e exclusão de infecções por micobactérias e fungos, beriliose e outras causas.',
     x: { A: 'A necrose caseosa sugere tuberculose, e nenhum granuloma é patognomônico de sarcoidose.', C: 'Vasculite leucocitoclástica e ANCA não fazem parte do diagnóstico da sarcoidose.', D: 'Depósitos corados pelo vermelho Congo caracterizam a amiloidose.' },
@@ -149,7 +149,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Sarcoidose: hipercalcemia',
     e: 'Homem de 45 anos com sarcoidose pulmonar apresenta poliúria, constipação e nefrolitíase. Exames: cálcio sérico elevado, PTH suprimido e hipercalciúria. O mecanismo da hipercalcemia nessa doença é:',
-    o: ['Secreção de peptídeo relacionado ao PTH pelos granulomas', 'Produção extrarrenal de calcitriol pela 1-alfa-hidroxilase dos macrófagos dos granulomas, aumentando a absorção intestinal de cálcio', 'Destruição osteolítica extensa por infiltração granulomatosa do osso', 'Hiperplasia das paratireoides induzida pela doença'],
+    o: ['PTHrP secretado pelos granulomas, que eleva o cálcio', 'Calcitriol extrarrenal: 1-alfa-hidroxilase dos macrófagos do granuloma', 'Osteólise extensa por infiltração granulomatosa óssea', 'Hiperplasia das paratireoides induzida pela doença'],
     g: 'B',
     c: 'Os macrófagos ativados dos granulomas expressam 1-alfa-hidroxilase não regulada pelo PTH e convertem a 25-hidroxivitamina D em calcitriol, que aumenta a absorção intestinal de cálcio. O PTH fica suprimido, e a hipercalciúria é ainda mais frequente que a hipercalcemia. O tratamento inclui corticoide, que inibe essa enzima, além de evitar exposição solar e suplementos de cálcio e vitamina D.',
     x: { A: 'O peptídeo relacionado ao PTH é o mecanismo da hipercalcemia humoral de neoplasias.', C: 'O acometimento ósseo da sarcoidose é incomum e não explica a hipercalcemia.', D: 'O PTH está suprimido, o que afasta hiperfunção das paratireoides.' },
@@ -157,7 +157,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Sarcoidose: tratamento',
     e: 'Em relação à indicação de corticoterapia sistêmica na sarcoidose, é correto afirmar:',
-    o: ['Todo paciente com adenopatia hilar bilateral deve receber prednisona, mesmo assintomático', 'O corticoide é o tratamento de primeira linha quando há doença pulmonar sintomática ou progressiva, ou acometimento cardíaco, neurológico, ocular refratário ao tratamento tópico ou hipercalcemia', 'O corticoide está contraindicado na sarcoidose, sendo o metotrexato a primeira escolha', 'O tratamento é indicado apenas se a enzima conversora de angiotensina estiver elevada'],
+    o: ['Todo paciente com adenopatia hilar bilateral deve receber prednisona', 'Corticoide se pulmonar progressiva, cardíaca, neurológica, ocular ou Ca alto', 'Corticoide contraindicado: metotrexato é a 1ª escolha', 'Tratar só se a ECA estiver elevada, em qualquer caso'],
     g: 'B',
     c: 'Grande parte dos casos de sarcoidose, sobretudo o estádio I assintomático (apenas adenopatia hilar), regride espontaneamente e deve ser apenas observada. O tratamento com prednisona é reservado à doença sintomática ou com risco de dano a órgãos nobres: pulmão com dispneia e perda funcional, coração, sistema nervoso, uveíte que não responde a colírios e hipercalcemia. Metotrexato e outros agentes são poupadores de corticoide.',
     x: { A: 'O estádio I assintomático tem alta taxa de remissão espontânea e dispensa tratamento.', C: 'O corticoide é a primeira linha; o metotrexato é opção poupadora ou de segunda linha.', D: 'A enzima conversora tem baixa sensibilidade e especificidade e não define o tratamento.' },
@@ -165,7 +165,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Amiloidose AA',
     e: 'Homem de 52 anos, com artrite inflamatória crônica mal controlada há 20 anos, apresenta edema de membros inferiores e proteinúria de 6 g em 24 horas. A biópsia de gordura abdominal mostra depósitos que, corados pelo vermelho Congo, exibem birrefringência verde-maçã à luz polarizada. O tipo de amiloidose e a proteína precursora são:',
-    o: ['Amiloidose AL; cadeias leves de imunoglobulina', 'Amiloidose AA; proteína amiloide A sérica, reagente de fase aguda', 'Amiloidose ATTR; transtirretina', 'Amiloidose associada à diálise; beta-2-microglobulina'],
+    o: ['Amiloidose AL; cadeias leves de imunoglobulina', 'Amiloidose AA; amiloide A sérico, reagente de fase aguda', 'Amiloidose ATTR; transtirretina', 'Amiloidose da diálise; beta-2-microglobulina'],
     g: 'B',
     c: 'A amiloidose AA (secundária) complica doenças inflamatórias ou infecciosas crônicas, nas quais a produção hepática sustentada de amiloide A sérico, estimulada por citocinas, leva ao depósito de fibrilas. O rim é o órgão mais acometido, com proteinúria nefrótica e perda de função. O tratamento consiste em controlar a doença de base para reduzir o precursor.',
     x: { A: 'A forma AL decorre de discrasia de plasmócitos, não de inflamação crônica.', C: 'A forma ATTR causa principalmente cardiomiopatia e polineuropatia, hereditária ou senil.', D: 'A amiloidose por beta-2-microglobulina ocorre em pacientes em diálise prolongada, com acometimento osteoarticular.' },
@@ -173,7 +173,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Amiloidose AL',
     e: 'Homem de 63 anos apresenta síndrome nefrótica, insuficiência cardíaca com paredes ventriculares espessadas e baixa voltagem no eletrocardiograma, macroglossia e púrpura periorbitária após esforços mínimos. A hipótese diagnóstica e o exame que identifica a doença de base são:',
-    o: ['Amiloidose AA; pesquisa de foco infeccioso crônico', 'Amiloidose AL; pesquisa de proteína monoclonal por imunofixação sérica e urinária e dosagem de cadeias leves livres', 'Sarcoidose; dosagem da enzima conversora de angiotensina', 'Hipotireoidismo; dosagem de TSH'],
+    o: ['Amiloidose AA; procurar foco infeccioso crônico', 'Amiloidose AL; imunofixação sérica/urinária e cadeias leves livres', 'Sarcoidose; dosagem da enzima conversora de angiotensina', 'Hipotireoidismo; dosagem de TSH e T4 livre'],
     g: 'B',
     c: 'A amiloidose AL (primária) decorre do depósito de cadeias leves monoclonais produzidas por um clone de plasmócitos, isolado ou associado a mieloma múltiplo. Macroglossia e púrpura periorbitária são achados muito sugestivos, e o acometimento cardíaco, com espessamento das paredes e baixa voltagem, é o principal determinante do prognóstico. O tratamento é dirigido ao clone plasmocitário.',
     x: { A: 'Macroglossia e púrpura periorbitária não ocorrem na forma AA, que raramente acomete o coração.', C: 'A sarcoidose não causa macroglossia nem púrpura periorbitária.', D: 'O hipotireoidismo pode causar macroglossia, mas não explica a púrpura e a síndrome nefrótica.' },
@@ -181,7 +181,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Doença relacionada à IgG4',
     e: 'Homem de 61 anos apresenta icterícia obstrutiva e aumento difuso do pâncreas, com aspecto em salsicha à tomografia, além de aumento bilateral das glândulas submandibulares e lacrimais e massa periaórtica compatível com fibrose retroperitoneal. A IgG4 sérica está elevada. Sobre essa doença, é correto afirmar:',
-    o: ['A biópsia mostra granulomas caseosos e a doença não responde a corticoide', 'A biópsia mostra infiltrado linfoplasmocitário rico em plasmócitos IgG4 positivos, fibrose estoriforme e flebite obliterante, e a resposta ao corticoide costuma ser rápida', 'Trata-se de adenocarcinoma de pâncreas metastático, com indicação de duodenopancreatectomia', 'A elevação da IgG4 sérica é obrigatória e suficiente para o diagnóstico'],
+    o: ['Biópsia com granulomas caseosos, sem resposta a corticoide', 'Plasmócitos IgG4+, fibrose estoriforme e flebite; responde ao corticoide', 'Adenocarcinoma de pâncreas metastático, com duodenopancreatectomia', 'IgG4 sérica elevada é obrigatória e suficiente ao diagnóstico'],
     g: 'B',
     c: 'A doença relacionada à IgG4 é uma condição fibroinflamatória que forma lesões tumefativas em múltiplos órgãos: pâncreas (pancreatite autoimune tipo 1), vias biliares, glândulas salivares e lacrimais, retroperitônio, rim e aorta. A histologia tem três marcos: infiltrado linfoplasmocitário denso com plasmócitos IgG4 positivos, fibrose estoriforme e flebite obliterante. O corticoide é o tratamento inicial, e o rituximabe é opção nas recidivas.',
     x: { A: 'Não há granulomas caseosos, e a boa resposta ao corticoide é característica.', C: 'O acometimento multiorgânico e o pâncreas difusamente aumentado indicam doença por IgG4, que imita neoplasia e evita cirurgia desnecessária.', D: 'A IgG4 sérica pode ser normal em parte dos casos e elevar-se em outras doenças; a histologia é fundamental.' },
@@ -197,7 +197,7 @@ export const REUMATO_MISC_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome de hipermobilidade',
     e: 'Adolescente de 16 anos, bailarina, queixa-se de dores articulares recorrentes em joelhos e tornozelos após atividades, sem edema articular, além de entorses de repetição. Consegue encostar o polegar no antebraço, hiperestender cotovelos e joelhos além de 10 graus e apoiar as palmas das mãos no chão com os joelhos estendidos. As provas inflamatórias são normais. O instrumento utilizado para quantificar a hipermobilidade e a base do tratamento são:',
-    o: ['Critérios de Jones; penicilina benzatina', 'Escore de Beighton; fortalecimento muscular, treino de propriocepção e orientações de proteção articular', 'Índice de Schober; anti-inflamatório contínuo e agente biológico', 'Critérios de Nova York; imobilização das articulações dolorosas'],
+    o: ['Critérios de Jones; penicilina benzatina', 'Escore de Beighton; fortalecimento, propriocepção e proteção articular', 'Índice de Schober; anti-inflamatório contínuo e biológico', 'Critérios de Nova York; imobilizar as articulações dolorosas'],
     g: 'B',
     c: 'O escore de Beighton soma 9 pontos: dorsiflexão passiva do quinto dedo além de 90 graus, aposição do polegar ao antebraço, hiperextensão de cotovelos e de joelhos além de 10 graus (um ponto por lado em cada um) e palmas das mãos no chão com os joelhos estendidos. A frouxidão ligamentar gera microtraumas e dor mecânica sem inflamação; o tratamento baseia-se em fortalecer a musculatura estabilizadora e melhorar a propriocepção.',
     x: { A: 'Os critérios de Jones aplicam-se à febre reumática, que não explica o quadro.', C: 'O índice de Schober mede a mobilidade lombar reduzida na espondilite anquilosante.', D: 'Os critérios de Nova York referem-se à espondilite anquilosante, e a imobilização agrava a instabilidade.' },
