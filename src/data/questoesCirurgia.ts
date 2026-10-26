@@ -33,6 +33,7 @@ import { COMPLICACOES_1 } from './cirurgia/complicacoes1';
 import { COMPLICACOES_2 } from './cirurgia/complicacoes2';
 import { COMPLICACOES_3 } from './cirurgia/complicacoes3';
 import { COMPLICACOES_4 } from './cirurgia/complicacoes4';
+import { DIF_COMPLICACOES } from './cirurgia/difComplicacoes';
 import { COLORRETAL_1 } from './cirurgia/colorretal1';
 import { COLORRETAL_2 } from './cirurgia/colorretal2';
 import { COLORRETAL_3 } from './cirurgia/colorretal3';
@@ -111,7 +112,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...VASCULAR_1, ...VASCULAR_2, ...VASCULAR_3, ...VASCULAR_4,
   ]),
   ...montarQuestoes('cir-complicacoes', 'Cirurgia', 'Complicações Cirúrgicas', [
-    ...COMPLICACOES_1, ...COMPLICACOES_2, ...COMPLICACOES_3, ...COMPLICACOES_4,
+    ...COMPLICACOES_1, ...COMPLICACOES_2, ...COMPLICACOES_3, ...COMPLICACOES_4, ...DIF_COMPLICACOES,
   ]),
   ...montarQuestoes('cir-colorretal', 'Cirurgia', 'Delgado e Cólon: Pólipos e Câncer Colorretal', [
     ...COLORRETAL_1, ...COLORRETAL_2, ...COLORRETAL_3, ...COLORRETAL_4,

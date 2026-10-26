@@ -90,7 +90,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Cicatrização
 - [x] Cirurgia Bariátrica
 - [x] Cirurgia Pediátrica
-- [ ] Complicações Cirúrgicas
+- [x] Complicações Cirúrgicas
 - [ ] Delgado e Cólon: Pólipos e Câncer Colorretal
 - [ ] Doença Inflamatória Intestinal
 - [ ] Doenças do Esôfago
