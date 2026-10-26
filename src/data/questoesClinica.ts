@@ -319,6 +319,8 @@ import { DIF_PED_CRESC } from './clinica/difPedCresc';
 import { DIF_PED_ALEIT } from './clinica/difPedAleit';
 import { DIF_CM1_GLOM_A } from './clinica/difCm1GlomA';
 import { DIF_CM1_GLOM_B } from './clinica/difCm1GlomB';
+import { DIF_CM1_TUB_A } from './clinica/difCm1TubA';
+import { DIF_CM1_TUB_B } from './clinica/difCm1TubB';
 import { DIF_PED_INFECTO } from './clinica/difPedInfecto';
 import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
 import { CM_EXTRA_GLOM } from './clinica/cmExtraGlom';
@@ -608,6 +610,8 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-ped-aleit', 'Pediatria', 'Aleitamento Materno', DIF_PED_ALEIT),
   ...montarQuestoes('dif-cm1-glom-a', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', DIF_CM1_GLOM_A),
   ...montarQuestoes('dif-cm1-glom-b', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', DIF_CM1_GLOM_B),
+  ...montarQuestoes('dif-cm1-tub-a', 'Clínica Médica', 'Nefrologia: Síndromes Tubulares e Vasculares', DIF_CM1_TUB_A),
+  ...montarQuestoes('dif-cm1-tub-b', 'Clínica Médica', 'Nefrologia: Síndromes Tubulares e Vasculares', DIF_CM1_TUB_B),
   ...montarQuestoes('dif-ped-infecto', 'Pediatria', 'Infectologia Pediátrica', DIF_PED_INFECTO),
   ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
   ...montarQuestoes('cm-extra-glom', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', CM_EXTRA_GLOM),
