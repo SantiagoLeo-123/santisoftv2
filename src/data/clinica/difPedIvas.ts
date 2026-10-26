@@ -325,7 +325,7 @@ export const DIF_PED_IVAS: QuestaoCompacta[] = [
   {
     s: 'Doença de Kawasaki versus faringite',
     e: 'Qual achado em criança com faringite febril há 5 dias sugere doença de Kawasaki e não infecção viral comum?',
-    o: ['Febre persistente, língua em framboesa e edema de mãos', 'Coriza hialina e espirros em salvas', 'Tosse produtiva, com secreção purulenta', 'Melhora espontânea após 3 dias de febre'],
+    o: ['Febre longa, língua em framboesa e edema de mãos', 'Coriza hialina e espirros em salvas', 'Tosse produtiva, com secreção purulenta', 'Melhora espontânea após 3 dias de febre'],
     g: 'A',
     c: 'A febre por 5 dias ou mais associada a conjuntivite não exsudativa, alterações orais (língua em framboesa), exantema, edema de extremidades e linfadenopatia cervical sugere Kawasaki. O tratamento com IGIV evita aneurismas coronarianos. Referência: McCrindle BW et al. Circulation. 2017;135:e927-e999.',
     x: { B: 'A coriza é típica de infecção viral respiratória.', C: 'A tosse com secreção indica infecção respiratória.', D: 'A melhora em 3 dias é padrão viral.' },
