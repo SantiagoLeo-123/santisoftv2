@@ -21,7 +21,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Biópsia excisional',
     e: 'Na suspeita de linfoma, a biópsia excisional do linfonodo é preferida à punção aspirativa por agulha fina porque:',
-    o: ['Tem menor custo e dispensa anestesia', 'Permite avaliar a arquitetura linfonodal e obter material suficiente para imuno-histoquímica', 'É o único método capaz de identificar células neoplásicas', 'Tem efeito terapêutico, reduzindo a massa tumoral'],
+    o: ['Tem menor custo e dispensa anestesia', 'Avalia a arquitetura do linfonodo e dá material para IHQ', 'É o único método capaz de identificar células neoplásicas', 'Tem efeito terapêutico, reduzindo a massa tumoral'],
     g: 'B',
     c: 'A classificação dos linfomas depende do padrão arquitetural (folicular, difuso, nodular) e do imunofenótipo das células. A punção por agulha fina fornece células isoladas, perdendo a arquitetura, e pode não amostrar as raras células neoplásicas do linfoma de Hodgkin. Quando a excisão não é viável, a biópsia por agulha grossa é alternativa aceitável.',
     x: { A: 'A biópsia excisional é mais cara e invasiva; sua vantagem é diagnóstica, não econômica.', C: 'A citologia pode mostrar células malignas, mas não permite classificar adequadamente o linfoma.', D: 'A retirada do linfonodo tem finalidade diagnóstica; o tratamento do linfoma é sistêmico.' },
@@ -37,7 +37,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Linfonodomegalia: abordagem inicial',
     e: 'Adolescente de 16 anos apresenta febre, odinofagia intensa com exsudato amigdaliano, linfonodos cervicais posteriores aumentados e dolorosos e esplenomegalia discreta há 8 dias. Hemograma com linfocitose e 20% de linfócitos atípicos. A conduta mais adequada em relação à linfonodomegalia é:',
-    o: ['Biópsia excisional imediata de linfonodo cervical', 'Solicitar pesquisa de mononucleose infecciosa e acompanhar clinicamente', 'Iniciar corticoide empírico por suspeita de linfoma', 'Realizar mielograma para afastar leucemia aguda'],
+    o: ['Biópsia excisional imediata de linfonodo cervical', 'Pesquisar mononucleose e acompanhar clinicamente', 'Corticoide empírico por suspeita de linfoma', 'Mielograma para afastar leucemia aguda'],
     g: 'B',
     c: 'O quadro é típico de mononucleose infecciosa pelo vírus Epstein-Barr: faringite exsudativa, linfonodomegalia cervical posterior, esplenomegalia e linfócitos atípicos (linfócitos T reativos). A linfonodomegalia é reacional e regride em semanas, cabendo confirmar com sorologia e observar. A biópsia nessa fase pode inclusive confundir, pois a hiperplasia imunoblástica simula linfoma.',
     x: { A: 'A biópsia é desnecessária em quadro agudo com causa infecciosa provável e pode gerar confusão histológica.', C: 'Corticoide antes do diagnóstico pode mascarar um linfoma e não está indicado nesse quadro.', D: 'Linfócitos atípicos reativos não são blastos, e não há citopenias que justifiquem mielograma.' },
@@ -53,7 +53,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: epidemiologia',
     e: 'Sobre a epidemiologia do linfoma de Hodgkin clássico, é correto afirmar:',
-    o: ['É mais frequente que os linfomas não Hodgkin', 'Apresenta distribuição etária bimodal, com pico em adultos jovens e outro após os 55 anos', 'Predomina em crianças menores de 5 anos', 'O subtipo mais comum é a depleção linfocitária'],
+    o: ['Mais frequente que os linfomas não Hodgkin', 'Distribuição bimodal: adultos jovens e após os 55 anos', 'Predomina em crianças menores de 5 anos', 'O subtipo mais comum é a depleção linfocitária'],
     g: 'B',
     c: 'O linfoma de Hodgkin tem curva de incidência bimodal: um primeiro pico em adultos jovens (em torno dos 20 a 30 anos), no qual predomina a esclerose nodular, e um segundo pico em idosos, no qual a celularidade mista e a associação com EBV são mais frequentes. Ele corresponde a uma minoria dos linfomas, sendo os não Hodgkin muito mais comuns.',
     x: { A: 'Os linfomas não Hodgkin são bem mais frequentes, respondendo pela grande maioria dos linfomas.', C: 'O linfoma de Hodgkin é raro em crianças pequenas; o primeiro pico ocorre em adultos jovens.', D: 'A depleção linfocitária é o subtipo mais raro; o mais comum é a esclerose nodular.' },
@@ -93,7 +93,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: sintomas B',
     e: 'Os sintomas B, utilizados no estadiamento dos linfomas, são:',
-    o: ['Prurido, dor à ingestão de álcool e fadiga', 'Febre acima de 38 graus sem causa aparente, sudorese noturna profusa e perda de mais de 10% do peso em 6 meses', 'Febre, linfonodomegalia dolorosa e esplenomegalia', 'Astenia, anorexia e perda de mais de 5% do peso em 1 ano'],
+    o: ['Prurido, dor ao álcool e fadiga persistente', 'Febre > 38 °C, sudorese noturna e perda > 10% do peso', 'Febre, linfonodo doloroso e esplenomegalia', 'Astenia, anorexia e perda > 5% do peso em 1 ano'],
     g: 'B',
     c: 'Os sintomas B refletem a liberação de citocinas inflamatórias pelo tumor e pelo infiltrado reacional e indicam maior carga de doença, com valor prognóstico. A definição é estrita: febre inexplicada acima de 38 graus, sudorese noturna que encharca as roupas e perda ponderal maior que 10% em 6 meses. A presença de qualquer um deles acrescenta a letra B ao estádio.',
     x: { A: 'Prurido e dor com álcool são manifestações do linfoma de Hodgkin, mas não são sintomas B.', C: 'Linfonodomegalia e esplenomegalia são sinais de extensão da doença, não sintomas B.', D: 'O critério de peso exige perda maior que 10% em 6 meses; astenia e anorexia não entram.' },
@@ -109,7 +109,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: padrão de disseminação',
     e: 'Uma característica que diferencia o linfoma de Hodgkin dos linfomas não Hodgkin é:',
-    o: ['O acometimento frequente do anel de Waldeyer e de linfonodos mesentéricos', 'A disseminação por contiguidade entre cadeias linfonodais, com predomínio de doença central e supradiafragmática', 'A alta frequência de apresentação extranodal e leucemização', 'A ausência de massa mediastinal ao diagnóstico'],
+    o: ['Acometimento frequente do anel de Waldeyer e dos mesentéricos', 'Disseminação por contiguidade, com doença central e supradiafragmática', 'Alta frequência de apresentação extranodal e leucemização', 'Ausência de massa mediastinal ao diagnóstico'],
     g: 'B',
     c: 'O linfoma de Hodgkin dissemina-se de forma ordenada, de uma cadeia para a cadeia contígua, pelos vasos linfáticos, e acomete principalmente cadeias cervicais, supraclaviculares e mediastinais. Essa previsibilidade explica a utilidade histórica da radioterapia em campos. Os linfomas não Hodgkin disseminam-se de forma não contígua, com mais doença extranodal, medular e em cadeias periféricas.',
     x: { A: 'Anel de Waldeyer e linfonodos mesentéricos são acometidos tipicamente nos linfomas não Hodgkin.', C: 'Apresentação extranodal e células circulantes são muito mais comuns nos linfomas não Hodgkin.', D: 'A massa mediastinal é frequente no Hodgkin, sobretudo na esclerose nodular.' },
@@ -117,7 +117,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: febre de Pel-Ebstein',
     e: 'A febre de Pel-Ebstein, descrita no linfoma de Hodgkin, caracteriza-se por:',
-    o: ['Febre contínua, sem remissões, por mais de 3 semanas', 'Períodos de dias a semanas de febre alternados com períodos afebris de duração semelhante', 'Picos febris diários vespertinos acompanhados de exantema evanescente', 'Febre a cada 48 ou 72 horas, com calafrios'],
+    o: ['Febre contínua, sem remissões, por > 3 semanas', 'Dias a semanas de febre alternados com períodos afebris', 'Picos vespertinos diários com exantema evanescente', 'Febre a cada 48 ou 72 horas, com calafrios'],
     g: 'B',
     c: 'A febre de Pel-Ebstein é um padrão cíclico em que períodos febris de vários dias se alternam com intervalos sem febre de duração parecida. É incomum, mas sugestiva de linfoma de Hodgkin, e decorre da liberação intermitente de citocinas pirogênicas pelo tecido tumoral. O linfoma é causa importante de febre de origem indeterminada.',
     x: { A: 'Febre contínua sem remissões não corresponde ao padrão cíclico descrito por Pel e Ebstein.', C: 'Picos vespertinos com exantema evanescente sugerem doença de Still do adulto.', D: 'Febre a cada 48 ou 72 horas é o padrão terçã ou quartã da malária.' },
@@ -141,7 +141,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: PET-CT',
     e: 'A respeito do papel do PET-CT com FDG no linfoma de Hodgkin, é correto afirmar:',
-    o: ['Não tem utilidade, pois o linfoma de Hodgkin capta pouca glicose', 'É o exame de escolha para o estadiamento e para a avaliação de resposta, e dispensa a biópsia de medula óssea na maioria dos casos', 'Substitui a biópsia do linfonodo para o diagnóstico', 'Deve ser realizado apenas no seguimento anual de pacientes em remissão'],
+    o: ['Sem utilidade: o Hodgkin capta pouca glicose', 'Estadiamento e resposta; dispensa biópsia de medula na maioria', 'Substitui a biópsia do linfonodo para o diagnóstico', 'Só no seguimento anual dos pacientes em remissão'],
     g: 'B',
     c: 'O linfoma de Hodgkin é ávido por FDG, e o PET-CT é o padrão para estadiar e para avaliar a resposta, graduada pela escala de Deauville. Como tem alta sensibilidade para detectar infiltração medular focal, tornou desnecessária a biópsia de medula óssea de rotina. O PET-CT interino, após os primeiros ciclos, orienta a intensificação ou a redução do tratamento.',
     x: { A: 'O linfoma de Hodgkin tem alta avidez por FDG, o que fundamenta o uso do exame.', C: 'O diagnóstico é sempre histológico; captação aumentada ocorre também em infecção e inflamação.', D: 'O PET-CT de vigilância rotineira em pacientes em remissão não é recomendado.' },
@@ -149,7 +149,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: tratamento da doença localizada',
     e: 'Homem de 25 anos tem linfoma de Hodgkin clássico, esclerose nodular, estádio IIA, sem massa volumosa, com acometimento cervical e mediastinal. O tratamento de primeira linha habitualmente indicado é:',
-    o: ['Radioterapia exclusiva em campo estendido', 'Quimioterapia com ABVD por poucos ciclos, associada ou não a radioterapia em campo envolvido', 'R-CHOP por 6 ciclos', 'Transplante autólogo de células-tronco hematopoéticas'],
+    o: ['Radioterapia exclusiva em campo estendido', 'ABVD por poucos ciclos, com ou sem RT em campo envolvido', 'R-CHOP por 6 ciclos, por via venosa mensal', 'Transplante autólogo de células-tronco primário'],
     g: 'B',
     c: 'A doença localizada é tratada com modalidade combinada: poucos ciclos de ABVD (doxorrubicina, bleomicina, vimblastina e dacarbazina) seguidos de radioterapia restrita às áreas acometidas, ou ABVD isolado guiado por PET-CT. A estratégia busca manter a alta taxa de cura reduzindo a toxicidade tardia, sobretudo a da irradiação extensa.',
     x: { A: 'A radioterapia extensa exclusiva foi abandonada pelas recidivas e pelas toxicidades tardias.', C: 'R-CHOP é o esquema do linfoma difuso de grandes células B, não do Hodgkin clássico.', D: 'O transplante autólogo é reservado à doença recidivada ou refratária, não à primeira linha.' },
@@ -157,7 +157,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: doença recidivada',
     e: 'Mulher de 29 anos, tratada com ABVD para linfoma de Hodgkin estádio IIIB, apresenta recidiva confirmada por biópsia 10 meses após o término do tratamento. Tem bom estado geral e função orgânica preservada. A estratégia com intenção curativa é:',
-    o: ['Repetir o mesmo esquema ABVD por mais 6 ciclos', 'Quimioterapia de resgate seguida de altas doses com transplante autólogo de células-tronco hematopoéticas', 'Radioterapia paliativa isolada', 'Esplenectomia e observação'],
+    o: ['Repetir o ABVD por mais 6 ciclos', 'QT de resgate e altas doses com transplante autólogo', 'Radioterapia paliativa isolada, em campo envolvido', 'Esplenectomia e observação, após a recaída'],
     g: 'B',
     c: 'Na recidiva do linfoma de Hodgkin em paciente apto, o padrão é quimioterapia de resgate para reduzir a doença e, havendo quimiossensibilidade, consolidação com altas doses e resgate com células-tronco autólogas, o que cura parcela importante dos casos. Brentuximabe vedotina (anti-CD30) e inibidores de PD-1 são usados no resgate e após falha do transplante.',
     x: { A: 'Repetir ABVD acumula antraciclina e bleomicina e é inferior ao resgate com transplante.', C: 'A radioterapia paliativa abandona a possibilidade de cura em paciente jovem e apta.', D: 'A esplenectomia não tem papel terapêutico no linfoma de Hodgkin recidivado.' },
@@ -173,7 +173,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: toxicidades tardias',
     e: 'Mulher de 42 anos foi tratada aos 20 anos para linfoma de Hodgkin com quimioterapia e radioterapia em manto (mediastino, axilas e região cervical). Em relação ao seguimento tardio, deve-se considerar risco aumentado de:',
-    o: ['Câncer de colo uterino e hipertireoidismo', 'Câncer de mama, doença coronariana precoce e hipotireoidismo', 'Melanoma e insuficiência adrenal', 'Câncer de pâncreas e diabetes insípido'],
+    o: ['Câncer de colo uterino e hipertireoidismo', 'Câncer de mama, coronariopatia precoce e hipotireoidismo', 'Melanoma e insuficiência adrenal, tardios', 'Câncer de pâncreas e diabetes insípido, tardios'],
     g: 'B',
     c: 'Os sobreviventes do linfoma de Hodgkin morrem mais de complicações tardias do tratamento do que da doença. A irradiação torácica em mulheres jovens aumenta muito o risco de câncer de mama, além de câncer de pulmão, doença coronariana e valvar aceleradas e hipotireoidismo pela irradiação cervical. Por isso recomenda-se rastreamento mamário antecipado e controle rigoroso de fatores de risco cardiovascular.',
     x: { A: 'O efeito da irradiação cervical é o hipotireoidismo; colo uterino está fora do campo.', C: 'Melanoma e insuficiência adrenal não são complicações típicas da radioterapia em manto.', D: 'Pâncreas e hipófise não estão no campo do manto e não são toxicidades esperadas.' },
@@ -181,7 +181,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: toxicidade da quimioterapia',
     e: 'Associe a toxicidade tardia ao componente do tratamento do linfoma de Hodgkin. A alternativa correta é:',
-    o: ['Dacarbazina: fibrose pulmonar', 'Doxorrubicina: cardiomiopatia dilatada dose-dependente', 'Vimblastina: cistite hemorrágica', 'Bleomicina: infertilidade e leucemia secundária'],
+    o: ['Dacarbazina: fibrose pulmonar, dose-dependente', 'Doxorrubicina: cardiomiopatia dilatada dose-dependente', 'Vimblastina: cistite hemorrágica, dose-dependente', 'Bleomicina: infertilidade e leucemia secundária'],
     g: 'B',
     c: 'As antraciclinas, como a doxorrubicina, lesam o cardiomiócito por formação de radicais livres e inibição da topoisomerase II beta, causando cardiomiopatia dilatada relacionada à dose cumulativa. Já a infertilidade e a leucemia mieloide secundária associam-se principalmente aos alquilantes, presentes em esquemas como o BEACOPP e escassos no ABVD, razão da menor gonadotoxicidade deste.',
     x: { A: 'A fibrose pulmonar é toxicidade da bleomicina, não da dacarbazina.', C: 'A cistite hemorrágica é causada por ciclofosfamida e ifosfamida, não por vimblastina.', D: 'Infertilidade e leucemia secundária decorrem de alquilantes; a bleomicina lesa o pulmão.' },
@@ -189,7 +189,7 @@ export const LINFOMAS_1: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: prognóstico',
     e: 'No linfoma de Hodgkin avançado, o Escore Prognóstico Internacional (Hasenclever) inclui fatores de pior prognóstico. Todos os itens abaixo fazem parte desse escore, EXCETO:',
-    o: ['Albumina sérica menor que 4 g/dL', 'Sexo masculino', 'Estádio IV de Ann Arbor', 'Subtipo histológico esclerose nodular'],
+    o: ['Albumina sérica menor que 4 g/dL, no IPS', 'Sexo masculino, no índice prognóstico internacional', 'Estádio IV de Ann Arbor, no IPS', 'Subtipo esclerose nodular, que não compõe o IPS'],
     g: 'D',
     c: 'O escore de Hasenclever reúne sete fatores: albumina abaixo de 4 g/dL, hemoglobina abaixo de 10,5 g/dL, sexo masculino, idade de 45 anos ou mais, estádio IV, leucocitose de 15.000 ou mais e linfopenia. O subtipo histológico do Hodgkin clássico não entra no escore, e a esclerose nodular tem bom prognóstico. Em geral, o estádio e os fatores clínicos pesam mais que a histologia.',
     x: { A: 'A hipoalbuminemia é um dos sete fatores do escore, refletindo inflamação sistêmica.', B: 'O sexo masculino integra o escore como fator de pior prognóstico.', C: 'O estádio IV é um dos fatores do escore, indicando doença extranodal disseminada.' },

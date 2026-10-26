@@ -13,7 +13,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose: tratamento',
     e: 'O tratamento de primeira escolha da pneumonia por Pneumocystis jirovecii é:',
-    o: ['Anfotericina B', 'Sulfametoxazol-trimetoprima por 21 dias', 'Fluconazol por 14 dias', 'Azitromicina em dose única'],
+    o: ['Anfotericina B desoxicolato, por 14 dias', 'Sulfametoxazol-trimetoprima por 21 dias', 'Fluconazol por 14 dias, em dose alta', 'Azitromicina em dose única, por via oral'],
     g: 'B',
     c: 'O sulfametoxazol-trimetoprima inibe duas etapas sequenciais da síntese de folato do Pneumocystis e é o tratamento de escolha, por 21 dias, seguido de profilaxia secundária. O fungo não tem ergosterol na membrana, o que explica a ineficácia dos antifúngicos convencionais.',
     x: { A: 'A anfotericina age no ergosterol, ausente na membrana do Pneumocystis.', C: 'Os azólicos inibem a síntese de ergosterol e não têm ação sobre o agente.', D: 'A azitromicina não trata pneumocistose.' },
@@ -21,7 +21,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose: corticoide',
     e: 'Mulher de 29 anos, com pneumocistose, apresenta gasometria arterial em ar ambiente com PaO2 de 58 mmHg. Além do sulfametoxazol-trimetoprima, deve-se prescrever:',
-    o: ['Furosemida para reduzir o edema intersticial', 'Corticoide sistêmico, iniciado junto com o antimicrobiano', 'Anfotericina B lipossomal', 'Ganciclovir empírico'],
+    o: ['Furosemida para reduzir o edema intersticial', 'Corticoide sistêmico junto com o antimicrobiano', 'Anfotericina B lipossomal, por via venosa', 'Ganciclovir empírico, por via venosa'],
     g: 'B',
     c: 'Quando a PaO2 em ar ambiente é menor que 70 mmHg, o corticoide reduz a mortalidade e a necessidade de ventilação mecânica. A morte dos fungos no início do tratamento intensifica a inflamação alveolar e piora a troca gasosa, efeito que o corticoide atenua. Deve ser iniciado junto com o antimicrobiano, nas primeiras 72 horas.',
     x: { A: 'O infiltrado é inflamatório, e não por congestão, de modo que diurético não ajuda.', C: 'A anfotericina não tem ação contra o Pneumocystis.', D: 'Não há indicação de cobertura para citomegalovírus nesse cenário.' },
@@ -29,7 +29,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose: alternativas',
     e: 'Paciente com pneumocistose moderada a grave apresenta alergia grave a sulfa, com história de síndrome de Stevens-Johnson. A alternativa terapêutica mais adequada é:',
-    o: ['Amoxicilina com clavulanato', 'Clindamicina associada a primaquina', 'Itraconazol', 'Claritromicina'],
+    o: ['Amoxicilina com clavulanato, por 7 dias', 'Clindamicina associada a primaquina', 'Itraconazol oral, por 6 semanas', 'Claritromicina oral, por 6 semanas'],
     g: 'B',
     c: 'A associação de clindamicina com primaquina é a principal alternativa ao sulfametoxazol-trimetoprima. Antes de usar primaquina convém pesquisar deficiência de glicose-6-fosfato desidrogenase, pelo risco de hemólise. Reações graves como a síndrome de Stevens-Johnson impedem a dessensibilização à sulfa.',
     x: { A: 'Betalactâmicos não têm atividade contra o Pneumocystis.', C: 'Os azólicos são ineficazes, pois o agente não possui ergosterol.', D: 'Os macrolídeos não tratam pneumocistose.' },
@@ -37,7 +37,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose: complicações',
     e: 'Homem de 42 anos, em tratamento de pneumocistose, apresenta subitamente dor torácica à direita e piora da dispneia, com murmúrio vesicular abolido e hipertimpanismo no hemitórax direito. A complicação mais provável é:',
-    o: ['Derrame pleural parapneumônico', 'Pneumotórax espontâneo por ruptura de pneumatocele', 'Tromboembolia pulmonar', 'Empiema pleural'],
+    o: ['Derrame pleural parapneumônico, por empiema', 'Pneumotórax espontâneo por ruptura de pneumatocele', 'Tromboembolia pulmonar, por trombose venosa', 'Empiema pleural, por infecção bacteriana'],
     g: 'B',
     c: 'A pneumocistose pode formar cistos de paredes finas, as pneumatoceles, principalmente nos lobos superiores, cuja ruptura causa pneumotórax. Já o derrame pleural e a linfonodomegalia hilar são incomuns na pneumocistose, e sua presença deve fazer pensar em outro diagnóstico.',
     x: { A: 'O derrame cursa com macicez à percussão, e é raro na pneumocistose.', C: 'A embolia não abole o murmúrio nem causa hipertimpanismo.', D: 'O empiema produz macicez e não é complicação típica da pneumocistose.' },
@@ -45,7 +45,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Tuberculose e CD4',
     e: 'Em relação à apresentação da tuberculose em pessoas vivendo com HIV, é correto afirmar que:',
-    o: ['A tuberculose só ocorre com CD4 abaixo de 200', 'Com CD4 baixo predominam formas atípicas, com infiltrados em campos inferiores, ausência de cavitação, linfonodomegalia e doença extrapulmonar ou disseminada', 'Com CD4 baixo, a baciloscopia é mais frequentemente positiva e as cavitações são maiores', 'A radiografia de tórax normal exclui tuberculose pulmonar'],
+    o: ['A tuberculose só ocorre com CD4 abaixo de 200', 'CD4 baixo: forma atípica, sem cavernas, extrapulmonar', 'CD4 baixo: baciloscopia mais positiva e cavernas maiores', 'RX de tórax normal exclui tuberculose pulmonar'],
     g: 'B',
     c: 'A formação de granuloma e de cavidade depende da imunidade celular. Com CD4 preservado, a doença se parece com a do imunocompetente, com cavitação apical. Com imunodeficiência grave, o granuloma é mal formado, há disseminação hematogênica, formas extrapulmonares e poucos bacilos no escarro.',
     x: { A: 'A tuberculose pode ocorrer com qualquer valor de CD4.', C: 'Com CD4 baixo há menos cavitação e menor positividade da baciloscopia.', D: 'A radiografia pode ser normal em pessoas com imunodeficiência avançada.' },
@@ -61,7 +61,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Tuberculose latente',
     e: 'Mulher de 33 anos, vivendo com HIV, assintomática, tem CD4 de 240 células por mm3 e radiografia de tórax normal. Não há sinais ou sintomas de tuberculose ativa. Em relação à infecção latente pelo Mycobacterium tuberculosis, a conduta recomendada é:',
-    o: ['Tratar apenas se a prova tuberculínica for maior que 10 mm', 'Indicar o tratamento preventivo, independentemente da prova tuberculínica, pois o CD4 é menor ou igual a 350', 'Não tratar, pois o risco de adoecimento é baixo', 'Iniciar esquema completo com quatro fármacos'],
+    o: ['Tratar só se a prova tuberculínica for > 10 mm', 'Tratamento preventivo, independente da PT, pois o CD4 ≤ 350', 'Não tratar, pois o risco de adoecimento é baixo', 'Esquema completo com quatro fármacos'],
     g: 'B',
     c: 'A infecção pelo HIV é o maior fator de risco para a progressão de infecção latente para doença ativa. Em pessoas com CD4 menor ou igual a 350, o tratamento preventivo é indicado sem necessidade de prova tuberculínica, desde que excluída a doença ativa. Com CD4 acima de 350, trata-se quando a prova é maior ou igual a 5 mm.',
     x: { A: 'No HIV o ponto de corte é 5 mm, e com CD4 até 350 o teste é dispensado.', C: 'O risco de adoecimento é muito alto nessa população.', D: 'O esquema com quatro fármacos é para doença ativa, que foi excluída.' },
@@ -77,7 +77,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Histoplasmose: diagnóstico',
     e: 'Entre os exames abaixo, o que confirma de forma mais rápida a histoplasmose disseminada em pessoa com aids é:',
-    o: ['Sorologia para toxoplasmose', 'Pesquisa de antígeno do Histoplasma na urina ou visualização de leveduras intracelulares em sangue periférico, medula óssea ou biópsia', 'Prova tuberculínica', 'Dosagem de beta-D-glucana isolada, que é específica para o agente'],
+    o: ['Sorologia para toxoplasmose, em amostra pareada', 'Antígeno de Histoplasma na urina ou leveduras intracelulares', 'Prova tuberculínica, em teste cutâneo', 'Beta-D-glucana isolada, específica para o agente'],
     g: 'B',
     c: 'Na doença disseminada a carga fúngica é alta, de modo que o antígeno é detectado na urina com boa sensibilidade e pequenas leveduras podem ser vistas dentro de macrófagos em esfregaços e biópsias. A cultura confirma o diagnóstico, mas leva semanas.',
     x: { A: 'A sorologia para toxoplasmose não tem relação com o diagnóstico de histoplasmose.', C: 'A prova tuberculínica investiga infecção por micobactéria.', D: 'A beta-D-glucana é marcador inespecífico de vários fungos.' },
@@ -101,7 +101,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Neurotoxoplasmose: quadro',
     e: 'Homem de 38 anos, com HIV e sem tratamento, é trazido com cefaleia, febre, hemiparesia esquerda e uma crise convulsiva. O CD4 é de 62 células por mm3 e a sorologia IgG para toxoplasmose é reagente. A tomografia com contraste mostra três lesões hipodensas em núcleos da base e junção corticossubcortical, com realce anelar e edema perilesional. A conduta inicial é:',
-    o: ['Biópsia estereotáxica imediata', 'Tratamento empírico para neurotoxoplasmose com sulfadiazina, pirimetamina e ácido folínico', 'Radioterapia de crânio', 'Punção lombar de alívio e anfotericina B'],
+    o: ['Biópsia estereotáxica imediata, antes de tratar', 'Tratar empiricamente a neurotoxoplasmose, sem biópsia', 'Radioterapia de crânio, como primeira conduta', 'Punção lombar de alívio e anfotericina B'],
     g: 'B',
     c: 'A neurotoxoplasmose é a causa mais comum de lesão expansiva cerebral na aids e resulta da reativação de cistos latentes, por isso a IgG é reagente. Lesões múltiplas com realce anelar em núcleos da base, CD4 abaixo de 100 e sorologia positiva autorizam o tratamento empírico. O ácido folínico previne a toxicidade medular da pirimetamina.',
     x: { A: 'A biópsia é reservada aos casos sem resposta ao tratamento empírico.', C: 'A radioterapia é opção para linfoma, após confirmação diagnóstica.', D: 'A punção lombar é arriscada com lesões expansivas e efeito de massa.' },
@@ -109,7 +109,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Neurotoxoplasmose: seguimento',
     e: 'Paciente com aids e lesões cerebrais com realce anelar iniciou tratamento empírico para neurotoxoplasmose. Após 14 dias não houve melhora clínica nem radiológica. O próximo passo é:',
-    o: ['Manter o mesmo esquema por mais 6 meses', 'Considerar diagnóstico alternativo, principalmente linfoma primário do sistema nervoso central, e indicar biópsia', 'Trocar para fluconazol', 'Suspender a investigação e iniciar cuidados paliativos'],
+    o: ['Manter o mesmo esquema por mais 6 meses', 'Considerar linfoma primário do SNC e indicar biópsia', 'Trocar para fluconazol, por via oral', 'Suspender a investigação e iniciar cuidados paliativos'],
     g: 'B',
     c: 'A neurotoxoplasmose costuma responder em 10 a 14 dias, com melhora clínica e de imagem. A falta de resposta nesse prazo funciona como teste terapêutico negativo e obriga a pesquisar outras causas, das quais a mais importante é o linfoma primário do sistema nervoso central, além de tuberculoma e outros abscessos.',
     x: { A: 'Insistir em tratamento sem resposta atrasa o diagnóstico correto.', C: 'O fluconazol não trata as principais hipóteses alternativas.', D: 'Há diagnósticos tratáveis a esclarecer, e não cabe encerrar a investigação.' },
@@ -141,7 +141,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Meningite criptocócica: hipertensão intracraniana',
     e: 'Homem de 36 anos, com meningite criptocócica em tratamento, mantém cefaleia intensa, vômitos e diplopia. A pressão de abertura do líquor é de 42 cmH2O, e a tomografia não mostra lesão expansiva. A medida indicada para controlar a hipertensão intracraniana é:',
-    o: ['Acetazolamida oral', 'Punções lombares de alívio repetidas, até normalizar a pressão', 'Dexametasona em dose alta', 'Manitol de horário por 14 dias'],
+    o: ['Acetazolamida oral, em dose habitual', 'Punções lombares de alívio repetidas, até normalizar', 'Dexametasona em dose alta, por via venosa', 'Manitol de horário por 14 dias, por via venosa'],
     g: 'B',
     c: 'A hipertensão intracraniana da criptococose é do tipo comunicante, por bloqueio da reabsorção do líquor, e seu tratamento é mecânico. Com pressão de abertura igual ou maior que 25 cmH2O, faz-se punção de alívio diária até a estabilização. Se não houver controle, indica-se derivação liquórica.',
     x: { A: 'A acetazolamida não tem benefício e causa acidose e distúrbios eletrolíticos.', C: 'O corticoide não é indicado e associa-se a piores desfechos na criptococose.', D: 'O manitol não tem eficácia nesse mecanismo de hipertensão intracraniana.' },
@@ -157,7 +157,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Criptococose: rastreio',
     e: 'Em pessoa com diagnóstico recente de HIV e CD4 de 70 células por mm3, assintomática do ponto de vista neurológico, a pesquisa de antígeno criptocócico no sangue tem a finalidade de:',
-    o: ['Substituir a contagem de CD4 no seguimento', 'Identificar infecção criptocócica subclínica e permitir tratamento preemptivo antes de iniciar os antirretrovirais', 'Diagnosticar pneumocistose', 'Indicar profilaxia para toxoplasmose'],
+    o: ['Substituir a contagem de CD4 no seguimento', 'Achar criptococose subclínica e tratar antes dos ARV', 'Diagnosticar pneumocistose, na fase pulmonar', 'Indicar profilaxia para toxoplasmose em todos'],
     g: 'B',
     c: 'A antigenemia criptocócica precede a meningite em semanas. Detectá-la em pessoas com imunodeficiência avançada permite investigar meningite e tratar preemptivamente com fluconazol, evitando doença manifesta e a forma desmascarada da síndrome de reconstituição imune.',
     x: { A: 'O antígeno criptocócico não tem relação com o monitoramento imunológico.', C: 'O teste é específico para Cryptococcus e não detecta Pneumocystis.', D: 'A profilaxia para toxoplasmose depende do CD4 e da sorologia IgG.' },
@@ -181,7 +181,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Lesões focais: diagnóstico diferencial',
     e: 'Na diferenciação por imagem entre neurotoxoplasmose e leucoencefalopatia multifocal progressiva, o achado que favorece a segunda é:',
-    o: ['Lesões múltiplas com realce anelar', 'Lesões de substância branca sem realce pelo contraste e sem efeito de massa', 'Edema perilesional intenso com desvio da linha média', 'Localização preferencial nos núcleos da base'],
+    o: ['Lesões múltiplas com realce anelar pelo contraste', 'Lesões de substância branca sem realce e sem efeito de massa', 'Edema perilesional intenso, com desvio da linha média', 'Localização preferencial nos núcleos da base'],
     g: 'B',
     c: 'Na leucoencefalopatia há desmielinização sem resposta inflamatória e sem quebra da barreira hematoencefálica, daí a ausência de realce, de edema e de efeito de massa, com acometimento da substância branca subcortical. A neurotoxoplasmose forma abscessos com necrose central, realce anelar e edema, de preferência em núcleos da base.',
     x: { A: 'O realce anelar é característico de neurotoxoplasmose e de linfoma.', C: 'Edema e efeito de massa indicam lesão expansiva, como abscesso ou tumor.', D: 'Os núcleos da base são localização típica da neurotoxoplasmose.' },
@@ -189,7 +189,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Neurossífilis',
     e: 'Homem de 34 anos, vivendo com HIV, apresenta VDRL sérico de 1:64, cefaleia, zumbido e perda auditiva recente. O exame do líquor mostra pleocitose linfocítica, proteína elevada e VDRL reagente. O tratamento indicado é:',
-    o: ['Penicilina benzatina em dose única', 'Penicilina cristalina intravenosa por 14 dias', 'Doxiciclina oral por 7 dias', 'Azitromicina em dose única'],
+    o: ['Penicilina benzatina em dose única, intramuscular', 'Penicilina cristalina IV por 14 dias', 'Doxiciclina oral por 7 dias, em dose habitual', 'Azitromicina em dose única, por via oral'],
     g: 'B',
     c: 'Sintomas neurológicos, oftalmológicos ou otológicos em pessoa com sífilis exigem punção lombar, e o VDRL reagente no líquor confirma neurossífilis. A penicilina benzatina não atinge concentração treponemicida no sistema nervoso central, por isso usa-se a penicilina cristalina intravenosa. Em pessoas com HIV o acometimento neurológico é mais precoce e frequente.',
     x: { A: 'A penicilina benzatina não alcança nível adequado no líquor.', C: 'A doxiciclina por 7 dias não é tratamento adequado para neurossífilis.', D: 'A azitromicina não é recomendada, e há resistência do treponema.' },
@@ -197,7 +197,7 @@ export const HIV_3: QuestaoCompacta[] = [
   {
     s: 'Profilaxia secundária',
     e: 'Após completar 6 semanas de tratamento de neurotoxoplasmose com boa resposta, um paciente com CD4 de 80 células por mm3 deve:',
-    o: ['Suspender todos os medicamentos para toxoplasmose', 'Manter terapia de manutenção em dose reduzida até recuperação imune sustentada com os antirretrovirais', 'Repetir o tratamento completo a cada 3 meses', 'Trocar para fluconazol de manutenção'],
+    o: ['Suspender todos os medicamentos para toxoplasmose', 'Manter manutenção em dose reduzida até a recuperação imune', 'Repetir o tratamento completo a cada 3 meses', 'Trocar para fluconazol de manutenção, por via oral'],
     g: 'B',
     c: 'Os fármacos atuam nos taquizoítos, mas não eliminam os cistos teciduais, de modo que a recidiva é frequente enquanto a imunodeficiência persiste. Por isso mantém-se profilaxia secundária com os mesmos fármacos em dose menor, que pode ser suspensa quando o CD4 se mantém acima de 200 por alguns meses sob terapia antirretroviral.',
     x: { A: 'A suspensão com CD4 baixo leva a alta taxa de recidiva.', C: 'Não se repetem ciclos de tratamento pleno; usa-se manutenção contínua.', D: 'O fluconazol não tem ação contra o Toxoplasma gondii.' },

@@ -5,7 +5,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Estrutura do vírus',
     e: 'O HIV é um retrovírus do gênero Lentivirus. A enzima viral responsável por converter o RNA genômico em DNA de fita dupla, etapa que caracteriza os retrovírus, é a:',
-    o: ['Integrase', 'Transcriptase reversa', 'Protease', 'Neuraminidase'],
+    o: ['Integrase viral, que integra o DNA proviral', 'Transcriptase reversa, que sintetiza DNA a partir do RNA', 'Protease viral, que cliva as poliproteínas', 'Neuraminidase do influenza, ausente no HIV'],
     g: 'B',
     c: 'A transcriptase reversa é uma DNA polimerase dependente de RNA que copia o RNA viral em DNA logo após a entrada do vírus na célula. Como não tem atividade de revisão, comete muitos erros, o que explica a grande variabilidade genética do HIV e o surgimento de mutações de resistência.',
     x: { A: 'A integrase insere o DNA viral já sintetizado no genoma da célula hospedeira.', C: 'A protease cliva as poliproteínas virais na fase final de maturação do vírion.', D: 'A neuraminidase é enzima do vírus influenza e não existe no HIV.' },
@@ -21,7 +21,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Tropismo viral',
     e: 'Em relação ao tropismo do HIV pelos correceptores, é correto afirmar que:',
-    o: ['As cepas X4 predominam na transmissão sexual e na infecção recente', 'As cepas R5 predominam na transmissão e na fase inicial, e as X4 tendem a surgir em fases avançadas', 'O tropismo não tem qualquer implicação terapêutica', 'As cepas R5 infectam apenas hemácias e plaquetas'],
+    o: ['Cepas X4 predominam na transmissão sexual e na infecção recente', 'Cepas R5 na transmissão e fase inicial; X4 em fases avançadas', 'O tropismo não tem qualquer implicação terapêutica', 'As cepas R5 infectam apenas hemácias e plaquetas'],
     g: 'B',
     c: 'Os vírus com tropismo pelo CCR5 (R5) são os que habitualmente estabelecem a infecção, pois infectam macrófagos e linfócitos T de memória das mucosas. Ao longo dos anos podem emergir variantes X4, associadas a queda mais rápida de CD4 e progressão da doença.',
     x: { A: 'As cepas X4 são típicas de doença avançada, e não da transmissão inicial.', C: 'O teste de tropismo é obrigatório antes de usar antagonista de CCR5, como o maraviroque.', D: 'Hemácias e plaquetas não expressam CD4 e não são infectadas pelo HIV.' },
@@ -37,7 +37,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Patogenia',
     e: 'O principal sítio de depleção maciça de linfócitos T CD4 nas primeiras semanas da infecção pelo HIV é:',
-    o: ['A medula óssea', 'O tecido linfoide associado ao intestino', 'O sistema nervoso central', 'O parênquima hepático'],
+    o: ['A medula óssea, com precursores hematopoéticos', 'O tecido linfoide associado ao intestino (GALT)', 'O sistema nervoso central, protegido pela barreira', 'O parênquima hepático, com hepatócitos infectados'],
     g: 'B',
     c: 'O tecido linfoide associado ao intestino concentra grande quantidade de linfócitos T CD4 de memória ativados que expressam CCR5, alvo ideal do vírus. A destruição precoce dessas células lesa a barreira mucosa, permite translocação de produtos bacterianos e alimenta a ativação imune crônica que caracteriza a doença.',
     x: { A: 'A medula óssea não é o sítio principal da depleção inicial de CD4.', C: 'O sistema nervoso central é invadido cedo, mas funciona como reservatório, não como sítio de depleção.', D: 'O fígado não concentra a população de linfócitos T CD4 destruída na fase aguda.' },
@@ -45,7 +45,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Reservatório latente',
     e: 'A terapia antirretroviral suprime a replicação, mas não cura a infecção pelo HIV. O principal motivo é:',
-    o: ['A incapacidade dos fármacos de atingir o plasma', 'A persistência de DNA proviral integrado em linfócitos T CD4 de memória em repouso', 'A replicação do vírus dentro de hemácias', 'A ausência de resposta de anticorpos contra o vírus'],
+    o: ['A incapacidade dos fármacos de atingir o plasma', 'DNA proviral integrado em linfócitos T CD4 de memória em repouso', 'A replicação do vírus dentro de hemácias', 'A ausência de resposta de anticorpos contra o vírus'],
     g: 'B',
     c: 'O DNA viral integrado ao genoma de linfócitos T CD4 de memória quiescentes não é transcrito, de modo que essas células não são reconhecidas pelo sistema imune nem atingidas pelos antirretrovirais, que só agem em vírus em replicação. Essas células têm vida longa e, se a terapia for interrompida, a viremia retorna em poucas semanas.',
     x: { A: 'Os antirretrovirais atingem bem o plasma, tanto que a carga viral fica indetectável.', C: 'Hemácias não têm núcleo nem CD4 e não sustentam a replicação viral.', D: 'Há produção de anticorpos, usada inclusive no diagnóstico, mas eles não eliminam o vírus.' },
@@ -53,7 +53,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'HIV-2',
     e: 'Sobre o HIV-2, assinale a alternativa correta.',
-    o: ['É mais transmissível e mais agressivo que o HIV-1', 'É endêmico na África Ocidental, progride mais lentamente e tem resistência intrínseca aos inibidores não nucleosídeos da transcriptase reversa', 'É o tipo predominante no Brasil', 'Não é detectado por nenhum teste sorológico disponível'],
+    o: ['É mais transmissível e mais agressivo que o HIV-1', 'Endêmico na África Ocidental; mais lento; resistente aos ITRNN', 'É o tipo predominante no Brasil, no momento', 'Não é detectado por nenhum teste sorológico disponível'],
     g: 'B',
     c: 'O HIV-2 concentra-se na África Ocidental e em países com vínculo histórico com a região. Cursa com carga viral mais baixa, menor transmissibilidade e progressão mais lenta. Sua transcriptase reversa é naturalmente resistente aos inibidores não nucleosídeos, como o efavirenz, o que muda a escolha do esquema.',
     x: { A: 'O HIV-2 é menos transmissível e evolui mais lentamente que o HIV-1.', C: 'No Brasil a epidemia é causada quase exclusivamente pelo HIV-1.', D: 'Os imunoensaios atuais detectam anticorpos contra HIV-1 e HIV-2.' },
@@ -93,7 +93,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome retroviral aguda',
     e: 'Homem de 26 anos procura atendimento com febre, odinofagia, linfonodomegalia cervical, exantema maculopapular em tronco e úlceras orais há 5 dias. Refere relação sexual desprotegida há 3 semanas. O teste rápido para HIV é não reagente. A conduta mais adequada é:',
-    o: ['Descartar infecção pelo HIV e tratar como faringite bacteriana', 'Solicitar carga viral do HIV, pois o quadro é compatível com infecção aguda em janela imunológica', 'Repetir o teste rápido apenas em 6 meses', 'Solicitar contagem de CD4 como exame diagnóstico'],
+    o: ['Descartar HIV e tratar como faringite bacteriana', 'Pedir carga viral: infecção aguda em janela imunológica', 'Repetir o teste rápido apenas em 6 meses', 'Pedir contagem de CD4 como exame diagnóstico'],
     g: 'B',
     c: 'A síndrome retroviral aguda surge 2 a 4 semanas após a exposição e lembra a mononucleose. Nessa fase os anticorpos ainda podem estar ausentes, mas a viremia é muito alta, de modo que a pesquisa do RNA viral confirma o diagnóstico. Identificar o caso permite tratar cedo e interromper a cadeia de transmissão.',
     x: { A: 'Um teste de anticorpos negativo não exclui infecção recente dentro da janela.', C: 'Esperar 6 meses atrasa o diagnóstico em fase de altíssima transmissibilidade.', D: 'A contagem de CD4 não é exame diagnóstico e pode cair por outras causas.' },
@@ -101,7 +101,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Infecção aguda',
     e: 'Sobre a fase de infecção aguda pelo HIV, é correto afirmar que:',
-    o: ['É sempre assintomática', 'Cursa com viremia muito elevada e queda transitória de CD4, com alta transmissibilidade', 'A carga viral é indetectável nas primeiras semanas', 'O quadro clínico dura em média 6 meses'],
+    o: ['É sempre assintomática, em todos os casos', 'Viremia alta e queda transitória de CD4; transmissibilidade alta', 'A carga viral é indetectável nas primeiras semanas', 'O quadro clínico dura em média 6 meses seguidos'],
     g: 'B',
     c: 'Antes de surgir a resposta imune específica, o vírus se replica livremente e atinge o pico de viremia, com queda transitória dos linfócitos T CD4. Com a resposta dos linfócitos T CD8 a viremia cai e se estabiliza em um patamar chamado set point, que tem valor prognóstico para a velocidade de progressão.',
     x: { A: 'A maioria dos infectados tem sintomas, embora inespecíficos e pouco reconhecidos.', C: 'A carga viral é altíssima nessa fase, e é o que permite o diagnóstico precoce.', D: 'A síndrome retroviral aguda é autolimitada e dura poucas semanas.' },
@@ -109,7 +109,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Latência clínica',
     e: 'Mulher de 31 anos, assintomática, vivendo com HIV há 4 anos, apresenta linfonodos palpáveis, móveis e indolores, de cerca de 1 cm, em cadeias cervicais e axilares bilateralmente há mais de 6 meses. O restante do exame é normal. O achado corresponde a:',
-    o: ['Linfoma não Hodgkin, exigindo biópsia imediata', 'Linfadenopatia generalizada persistente, própria da fase de latência clínica', 'Tuberculose ganglionar', 'Sarcoma de Kaposi ganglionar'],
+    o: ['Linfoma não Hodgkin, exigindo biópsia imediata', 'Linfadenopatia generalizada persistente, da fase de latência', 'Tuberculose ganglionar, exigindo punção imediata', 'Sarcoma de Kaposi ganglionar, exigindo biópsia'],
     g: 'B',
     c: 'A linfadenopatia generalizada persistente é definida por linfonodos aumentados em duas ou mais cadeias extrainguinais por mais de 3 meses, sem outra causa. Reflete a hiperplasia folicular causada pela replicação viral contínua no tecido linfoide durante a fase de latência clínica, que não é uma latência virológica.',
     x: { A: 'Linfoma costuma cursar com massas de crescimento rápido, assimétricas e sintomas B.', C: 'A tuberculose ganglionar tende a ser assimétrica, com febre, flutuação ou fistulização.', D: 'O Kaposi ganglionar é incomum e geralmente acompanha lesões cutâneas ou mucosas.' },
@@ -133,7 +133,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Doença avançada',
     e: 'De acordo com o protocolo do Ministério da Saúde, considera-se doença avançada pelo HIV em adultos a situação de:',
-    o: ['Qualquer pessoa com carga viral acima de 100.000 cópias por mL', 'Contagem de linfócitos T CD4 abaixo de 200 células por mm3 ou presença de doença definidora de aids', 'Apenas pessoas com CD4 abaixo de 50 células por mm3', 'Qualquer pessoa com mais de 10 anos de infecção'],
+    o: ['Carga viral acima de 100.000 cópias por mL', 'CD4 < 200 células/mm³ ou doença definidora de aids', 'Apenas CD4 abaixo de 50 células/mm³', 'Qualquer pessoa com mais de 10 anos de infecção'],
     g: 'B',
     c: 'A contagem de CD4 abaixo de 200 marca o ponto em que o risco de infecções oportunistas graves aumenta muito, e a ocorrência de doença definidora indica imunodeficiência grave independentemente do valor de CD4. Esses pacientes precisam de rastreio ativo de tuberculose e criptococose, profilaxias e início rápido da terapia antirretroviral.',
     x: { A: 'A carga viral indica replicação e transmissibilidade, mas não define doença avançada.', C: 'O ponto de corte é 200; abaixo de 50 há risco adicional para outros agentes.', D: 'O tempo de infecção isolado não define o grau de imunodeficiência.' },
@@ -149,7 +149,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Janela imunológica',
     e: 'Paciente de 22 anos teve relação sexual desprotegida há 10 dias e realizou teste rápido para HIV com resultado não reagente. Está assintomático. A orientação correta é:',
-    o: ['Informar que a infecção está descartada de forma definitiva', 'Explicar que o resultado pode refletir a janela imunológica e repetir o teste 30 dias após a exposição', 'Iniciar terapia antirretroviral empírica por tempo indeterminado', 'Solicitar apenas contagem de CD4 para definir o caso'],
+    o: ['Informar que a infecção está descartada, em definitivo', 'Resultado pode ser janela imunológica; repetir em 30 dias', 'Iniciar terapia antirretroviral empírica, por tempo indeterminado', 'Solicitar apenas CD4 para definir o caso'],
     g: 'B',
     c: 'Janela imunológica é o intervalo entre a infecção e a detecção do marcador pesquisado pelo teste. O Ministério da Saúde orienta repetir a testagem 30 dias após a exposição quando o primeiro resultado é não reagente e existe suspeita de infecção recente.',
     x: { A: 'Com apenas 10 dias da exposição, o teste pode ser falso-negativo.', C: 'Não se inicia tratamento sem diagnóstico; a profilaxia pós-exposição só cabe até 72 horas.', D: 'A contagem de CD4 não serve para diagnosticar a infecção pelo HIV.' },
@@ -157,7 +157,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Imunoensaio de quarta geração',
     e: 'O imunoensaio de quarta geração reduz a janela imunológica em relação aos de terceira geração porque:',
-    o: ['Detecta apenas anticorpos da classe IgG', 'Detecta simultaneamente anticorpos e o antígeno p24', 'Quantifica o RNA viral no plasma', 'Mede a contagem de linfócitos T CD4'],
+    o: ['Detecta apenas anticorpos da classe IgG, tardios', 'Detecta anticorpos e o antígeno p24 em conjunto', 'Quantifica o RNA viral no plasma, em cópias/mL', 'Mede a contagem de linfócitos T CD4, em células/mm³'],
     g: 'B',
     c: 'O antígeno p24, proteína do capsídeo viral, torna-se detectável no sangue antes dos anticorpos. Ao combinar a pesquisa de p24 com a de anticorpos IgM e IgG, o teste de quarta geração positiva alguns dias antes, em torno de duas semanas após a infecção.',
     x: { A: 'Detectar apenas IgG corresponde a gerações antigas, com janela mais longa.', C: 'A quantificação de RNA é feita por teste molecular, não por imunoensaio.', D: 'A contagem de CD4 é feita por citometria e não tem papel diagnóstico.' },
@@ -173,7 +173,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Testes rápidos discordantes',
     e: 'Homem de 40 anos tem o primeiro teste rápido para HIV reagente e o segundo, de outro fabricante, não reagente. Os dois testes são repetidos e a discordância se mantém. A conduta indicada é:',
-    o: ['Liberar o resultado como reagente para HIV', 'Coletar amostra por punção venosa e encaminhar para testagem laboratorial', 'Liberar o resultado como não reagente e encerrar a investigação', 'Iniciar terapia antirretroviral imediatamente'],
+    o: ['Liberar o resultado como reagente para HIV', 'Coletar sangue venoso e enviar para teste laboratorial', 'Liberar como não reagente e encerrar a investigação', 'Iniciar terapia antirretroviral imediatamente'],
     g: 'B',
     c: 'Diante de testes rápidos discordantes, o fluxograma manda repetir ambos. Se a discordância persistir, o resultado não pode ser definido no local, e uma amostra venosa deve ser enviada para um fluxograma laboratorial, com imunoensaio e teste complementar.',
     x: { A: 'Não se define amostra reagente com apenas um dos dois testes positivo.', C: 'A discordância pode representar infecção recente e precisa ser esclarecida.', D: 'Não se inicia tratamento sem diagnóstico confirmado da infecção.' },
@@ -181,7 +181,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Carga viral como teste complementar',
     e: 'No fluxograma laboratorial que utiliza imunoensaio de quarta geração seguido de teste molecular, uma amostra apresenta imunoensaio reagente e carga viral indetectável. A interpretação e a conduta corretas são:',
-    o: ['A infecção está confirmada, sem necessidade de outros exames', 'O resultado não é conclusivo, devendo-se realizar teste complementar de anticorpos, como Western blot ou imunoblot', 'A infecção está definitivamente excluída', 'Deve-se solicitar contagem de CD4 para confirmar o diagnóstico'],
+    o: ['A infecção está confirmada, sem outros exames', 'Resultado inconclusivo: teste complementar (imunoblot)', 'A infecção está definitivamente excluída do paciente', 'Pedir CD4 para confirmar o diagnóstico de HIV'],
     g: 'B',
     c: 'A carga viral detectável confirma a infecção, mas um resultado indetectável não a exclui, pois pode se tratar de controlador de elite, de pessoa em uso de antirretroviral ou de falso-positivo do imunoensaio. Nessa situação o fluxograma prevê um teste complementar de anticorpos para esclarecer.',
     x: { A: 'Sem o teste complementar reagente, o diagnóstico não está confirmado.', C: 'Controladores de elite têm sorologia reagente e viremia indetectável.', D: 'A contagem de CD4 não confirma nem exclui a infecção pelo HIV.' },
@@ -197,7 +197,7 @@ export const HIV_1: QuestaoCompacta[] = [
   {
     s: 'Notificação',
     e: 'Sobre a vigilância epidemiológica do HIV no Brasil, assinale a alternativa correta.',
-    o: ['Somente os casos de aids são de notificação compulsória', 'A infecção pelo HIV, a aids, a gestante com HIV e a criança exposta são de notificação compulsória', 'A notificação depende de autorização escrita do paciente', 'Apenas os óbitos por aids devem ser notificados'],
+    o: ['Só os casos de aids são de notificação compulsória', 'HIV, aids, gestante com HIV e criança exposta são notificados', 'A notificação depende de autorização escrita do paciente', 'Apenas os óbitos por aids devem ser notificados'],
     g: 'B',
     c: 'Desde 2014 a infecção pelo HIV passou a ser de notificação compulsória, independentemente do estágio clínico, somando-se à aids, à gestante, parturiente ou puérpera com HIV e à criança exposta. Notificar a infecção, e não só a doença avançada, permite acompanhar a epidemia em tempo mais próximo do real.',
     x: { A: 'Desde 2014 a infecção pelo HIV, mesmo assintomática, também é notificada.', C: 'A notificação compulsória é dever do profissional e não exige autorização, mantido o sigilo.', D: 'A notificação é feita ao diagnóstico, e não apenas diante do óbito.' },

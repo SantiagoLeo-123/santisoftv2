@@ -13,7 +13,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Nefrite lúpica – imunofluorescência',
     e: 'O padrão de imunofluorescência característico da nefrite lúpica é:',
-    o: ['Depósito linear de IgG na membrana basal', 'Padrão full house, com depósitos de IgG, IgA, IgM, C3 e C1q', 'Ausência de depósitos (pauci-imune)', 'Depósito isolado de C3 no mesângio'],
+    o: ['Depósito linear de IgG na membrana basal', 'Padrão full house: IgG, IgA, IgM, C3 e C1q', 'Ausência de depósitos (pauci-imune), na IF', 'Depósito isolado de C3 no mesângio, na IF'],
     g: 'B',
     c: 'A nefrite lúpica é a doença por imunocomplexos por excelência, com positividade simultânea para as três classes de imunoglobulina e para C3 e C1q. A presença de C1q reflete a ativação da via clássica, coerente com o consumo sérico de C3 e C4.',
     x: { A: 'O padrão linear de IgG é típico da doença antimembrana basal glomerular.', C: 'O padrão pauci-imune é típico das vasculites associadas ao ANCA.', D: 'O C3 isolado sugere glomerulopatia por C3 ou fase tardia de pós-infecciosa.' },
@@ -21,7 +21,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Nefrite lúpica – marcadores de atividade',
     e: 'Mulher de 24 anos com lúpus apresenta edema, hipertensão, hematúria dismórfica com cilindros hemáticos, proteinúria de 3,2 g/dia e creatinina em elevação. Os exames séricos que melhor acompanham a atividade da nefrite são:',
-    o: ['FAN e anti-Sm', 'Anti-DNA de dupla hélice elevado e C3 e C4 reduzidos', 'Anti-Ro e anti-La', 'Fator reumatoide e VHS'],
+    o: ['FAN e anti-Sm, que são diagnósticos', 'Anti-DNA de dupla hélice alto e C3 e C4 baixos', 'Anti-Ro e anti-La, da síndrome de Sjögren', 'Fator reumatoide e VHS elevada, inespecíficos'],
     g: 'B',
     c: 'Os títulos de anti-DNA de dupla hélice sobem e o complemento cai nas reativações da nefrite lúpica proliferativa, pois esses anticorpos formam imunocomplexos que ativam a via clássica. FAN e anti-Sm servem ao diagnóstico de lúpus, mas não oscilam com a atividade.',
     x: { A: 'FAN e anti-Sm são úteis no diagnóstico, mas não acompanham atividade.', C: 'Anti-Ro e anti-La relacionam-se a lúpus neonatal, cutâneo e síndrome de Sjögren.', D: 'São marcadores inespecíficos e não refletem a atividade renal.' },
@@ -29,7 +29,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Nefrite lúpica – tratamento de indução',
     e: 'Mulher de 28 anos com lúpus tem biópsia renal mostrando nefrite classe IV com sinais de atividade. O tratamento de indução indicado é:',
-    o: ['Hidroxicloroquina isolada', 'Glicocorticoide (com pulsoterapia inicial) associado a micofenolato ou a ciclofosfamida endovenosa, além de hidroxicloroquina', 'Apenas IECA e estatina', 'Plasmaférese como rotina'],
+    o: ['Hidroxicloroquina isolada, em dose habitual, por via oral', 'Glicocorticoide (pulso) mais micofenolato ou ciclofosfamida', 'Apenas IECA e estatina, como tratamento da classe IV', 'Plasmaférese como rotina, em todos os casos de lúpus'],
     g: 'B',
     c: 'As classes proliferativas (III e IV) exigem imunossupressão de indução com glicocorticoide combinado a micofenolato ou ciclofosfamida, seguida de manutenção prolongada com micofenolato ou azatioprina. A hidroxicloroquina é recomendada a todos os pacientes com nefrite lúpica, salvo contraindicação.',
     x: { A: 'A hidroxicloroquina é adjuvante e insuficiente como único tratamento da classe IV.', C: 'Medidas de suporte isoladas não controlam a inflamação proliferativa.', D: 'A plasmaférese não tem benefício demonstrado na nefrite lúpica habitual.' },
@@ -37,7 +37,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Nefrite lúpica – classe V',
     e: 'Mulher de 35 anos com lúpus apresenta síndrome nefrótica, com proteinúria de 6 g/dia, sedimento sem hematúria significativa, creatinina normal e complemento normal. A classe histológica mais provável é:',
-    o: ['Classe II', 'Classe V (membranosa)', 'Classe IV', 'Classe VI'],
+    o: ['Classe II (mesangial proliferativa)', 'Classe V (membranosa)', 'Classe IV (proliferativa difusa)', 'Classe VI (esclerose avançada)'],
     g: 'B',
     c: 'A classe V caracteriza-se por depósitos subepiteliais e manifesta-se como síndrome nefrótica pura, frequentemente com complemento e anti-DNA normais. Tem risco aumentado de trombose de veia renal, à semelhança da nefropatia membranosa primária.',
     x: { A: 'A classe II cursa com alterações urinárias discretas, sem síndrome nefrótica.', C: 'A classe IV tem sedimento ativo, hipocomplementemia e perda de função.', D: 'A classe VI é a esclerose avançada, com doença renal crônica terminal.' },
@@ -45,7 +45,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Doença renal do diabetes – história natural',
     e: 'A alteração funcional mais precoce da doença renal do diabetes é:',
-    o: ['Proteinúria nefrótica', 'Hiperfiltração glomerular, com aumento da taxa de filtração e do tamanho renal', 'Queda da taxa de filtração abaixo de 30 mL/min', 'Hematúria macroscópica'],
+    o: ['Proteinúria nefrótica, de instalação súbita', 'Hiperfiltração glomerular, com TFG e tamanho renal aumentados', 'Queda da TFG abaixo de 30 mL/min, já no início', 'Hematúria macroscópica, de instalação súbita'],
     g: 'B',
     c: 'A hiperglicemia aumenta a reabsorção proximal de sódio e glicose, reduzindo a oferta de sódio à mácula densa e dilatando a arteríola aferente, o que eleva a pressão intraglomerular. Segue-se a fase de albuminúria moderadamente aumentada e, depois, proteinúria franca com queda progressiva da filtração.',
     x: { A: 'A proteinúria nefrótica é manifestação tardia da doença.', C: 'A queda acentuada da filtração é fase avançada, não inicial.', D: 'Hematúria macroscópica não é própria da doença renal do diabetes.' },
@@ -53,7 +53,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Doença renal do diabetes – histologia',
     e: 'Em relação às lesões glomerulares da doença renal do diabetes, a mais comum e a mais específica são, respectivamente:',
-    o: ['Glomeruloesclerose nodular e glomeruloesclerose difusa', 'Glomeruloesclerose difusa e glomeruloesclerose nodular (Kimmelstiel-Wilson)', 'Crescentes celulares e necrose fibrinoide', 'Depósitos subepiteliais e espículas'],
+    o: ['Glomeruloesclerose nodular e difusa, nessa ordem', 'Glomeruloesclerose difusa e nodular (Kimmelstiel-Wilson)', 'Crescentes celulares e necrose fibrinoide', 'Depósitos subepiteliais e espículas'],
     g: 'B',
     c: 'A expansão mesangial difusa, com espessamento da membrana basal, é a lesão mais frequente. A lesão nodular de Kimmelstiel-Wilson, formada por nódulos acelulares de matriz mesangial, é a mais característica, embora possa ser simulada por doença de depósito de cadeias leves e amiloidose.',
     x: { A: 'A ordem está invertida: a difusa é a mais comum e a nodular a mais específica.', C: 'Crescentes e necrose são lesões de glomerulonefrites rapidamente progressivas.', D: 'Depósitos subepiteliais com espículas caracterizam a nefropatia membranosa.' },
@@ -61,7 +61,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Doença renal do diabetes – rastreamento',
     e: 'O rastreamento da doença renal do diabetes deve ser feito com:',
-    o: ['Proteinúria de 24 horas a cada 5 anos em todos os diabéticos', 'Relação albumina/creatinina em amostra isolada de urina e taxa de filtração estimada, anualmente, desde o diagnóstico no tipo 2 e após 5 anos no tipo 1', 'Ultrassonografia renal anual', 'Exame de urina simples com fita reagente, apenas se houver sintomas'],
+    o: ['Proteinúria de 24 h a cada 5 anos, em todos os diabéticos', 'Relação albumina/creatinina e TFG anuais, desde o diagnóstico do tipo 2', 'Ultrassonografia renal anual, de rotina, em todos', 'EAS com fita reagente, somente se houver sintomas'],
     g: 'B',
     c: 'A albuminúria em amostra isolada e a filtração estimada detectam a doença em fase precoce e tratável. No diabetes tipo 2, o início é incerto e o rastreio começa ao diagnóstico; no tipo 1, começa após 5 anos de doença. A albuminúria deve ser confirmada em pelo menos duas de três amostras.',
     x: { A: 'A coleta de 24 horas não é necessária e o intervalo de 5 anos é inadequado.', C: 'A ultrassonografia não detecta a doença em fase inicial.', D: 'A fita convencional não detecta albuminúria moderadamente aumentada.' },
@@ -85,7 +85,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Amiloidose renal',
     e: 'Homem de 62 anos apresenta síndrome nefrótica, hipotensão postural, macroglossia, hepatomegalia e rins de tamanho aumentado à ultrassonografia. O achado que confirma o diagnóstico na biópsia é:',
-    o: ['Depósitos granulares de IgA no mesângio', 'Material amorfo corado pelo vermelho-congo, com birrefringência verde-maçã à luz polarizada', 'Crescentes celulares com imunofluorescência linear', 'Duplo contorno da membrana basal'],
+    o: ['Depósitos granulares de IgA no mesângio, à IF', 'Material vermelho-congo, com birrefringência verde-maçã', 'Crescentes celulares com imunofluorescência linear', 'Duplo contorno da membrana basal, à prata'],
     g: 'B',
     c: 'A amiloidose resulta do depósito extracelular de fibrilas proteicas em conformação de folha beta pregueada, que se coram pelo vermelho-congo e exibem birrefringência verde-maçã. Macroglossia e neuropatia autonômica sugerem a forma AL, por cadeias leves, ligada a discrasia plasmocitária.',
     x: { A: 'Depósitos mesangiais de IgA definem a nefropatia por IgA.', C: 'Crescentes com padrão linear definem a doença antimembrana basal glomerular.', D: 'O duplo contorno é próprio da glomerulonefrite membranoproliferativa.' },
@@ -93,7 +93,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Amiloidose AA',
     e: 'Mulher de 55 anos com artrite reumatoide de longa data mal controlada desenvolve síndrome nefrótica. A biópsia renal mostra depósitos vermelho-congo positivos. A proteína precursora do amiloide nesse caso é:',
-    o: ['Cadeia leve de imunoglobulina', 'Amiloide sérico A, reagente de fase aguda', 'Transtirretina', 'Beta-2-microglobulina'],
+    o: ['Cadeia leve de imunoglobulina (AL)', 'Amiloide sérico A, reagente de fase aguda (AA)', 'Transtirretina, da forma familiar (ATTR)', 'Beta-2-microglobulina, da hemodiálise'],
     g: 'B',
     c: 'Na amiloidose secundária (AA), a inflamação crônica mantém elevada a produção hepática de amiloide sérico A, que se deposita nos tecidos. Ocorre em artrite reumatoide, espondilite anquilosante, doença inflamatória intestinal, febre familiar do Mediterrâneo e infecções crônicas como tuberculose, osteomielite, bronquiectasias e hanseníase.',
     x: { A: 'As cadeias leves formam a amiloidose AL, ligada a discrasias plasmocitárias.', C: 'A transtirretina causa formas hereditária e senil, com acometimento cardíaco e neural.', D: 'A beta-2-microglobulina causa a amiloidose associada à diálise prolongada.' },
@@ -101,7 +101,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Nefropatia associada ao HIV',
     e: 'Homem negro de 32 anos, com infecção pelo HIV sem tratamento e CD4 de 90 células/mm3, apresenta proteinúria de 9 g/dia, creatinina de 3,4 mg/dL, pressão arterial normal, pouco edema e rins aumentados e hiperecogênicos à ultrassonografia. A lesão histológica esperada é:',
-    o: ['Nefropatia membranosa', 'Glomeruloesclerose segmentar e focal variante colapsante, com dilatação microcística dos túbulos', 'Glomerulonefrite proliferativa difusa com humps', 'Nefropatia por IgA'],
+    o: ['Nefropatia membranosa, com depósitos subepiteliais', 'GESF colapsante, com dilatação microcística dos túbulos', 'GN proliferativa difusa com humps subepiteliais', 'Nefropatia por IgA, com hematúria macroscópica'],
     g: 'B',
     c: 'A nefropatia associada ao HIV é uma glomerulopatia colapsante, com retração do tufo capilar e hiperplasia de podócitos, além de túbulos dilatados em microcistos. Predomina em afrodescendentes com variantes de risco do APOL1 e doença avançada, e cursa com proteinúria maciça, perda rápida de função e rins grandes.',
     x: { A: 'A membranosa não é a lesão clássica do HIV e associa-se mais à hepatite B.', C: 'Humps são próprios da glomerulonefrite pós-estreptocócica.', D: 'A nefropatia por IgA não explica proteinúria maciça com rins aumentados.' },
@@ -117,7 +117,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Esquistossomose',
     e: 'Homem de 38 anos, procedente de área endêmica do interior da Bahia, com esquistossomose hepatoesplênica e hipertensão portal, apresenta síndrome nefrótica com C3 reduzido. A glomerulopatia mais classicamente associada é:',
-    o: ['Doença de lesão mínima', 'Glomerulonefrite membranoproliferativa', 'Glomerulonefrite antimembrana basal', 'Nefropatia do refluxo'],
+    o: ['Doença de lesão mínima, em criança', 'GN membranoproliferativa, com duplo contorno', 'GN antimembrana basal, com IF linear', 'Nefropatia do refluxo, com cicatrizes'],
     g: 'B',
     c: 'Na forma hepatoesplênica da esquistossomose mansônica, os antígenos do parasita deixam de ser depurados pelo fígado por causa das colaterais portossistêmicas e formam imunocomplexos que se depositam no glomérulo. Os padrões mais comuns são o membranoproliferativo e o proliferativo mesangial, e a lesão em geral não regride com o tratamento antiparasitário.',
     x: { A: 'A lesão mínima não é a forma clássica associada à esquistossomose.', C: 'A doença anti-MBG é autoimune e não se relaciona ao parasita.', D: 'A nefropatia do refluxo é doença tubulointersticial sem relação com o quadro.' },
@@ -125,7 +125,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Esquistossomose e Salmonella',
     e: 'Paciente com esquistossomose hepatoesplênica apresenta febre prolongada, hepatoesplenomegalia, anemia e síndrome nefrótica. As hemoculturas isolam Salmonella. Sobre essa associação, é correto afirmar:',
-    o: ['A glomerulopatia é irreversível, mesmo com tratamento', 'Trata-se de salmonelose septicêmica prolongada, e a lesão renal costuma regredir com o tratamento da infecção e da esquistossomose', 'O tratamento é feito apenas com corticoide', 'A Salmonella é contaminante e não deve ser tratada'],
+    o: ['A glomerulopatia é irreversível, mesmo com tratamento', 'Salmonelose septicêmica prolongada; a lesão regride tratando a infecção', 'Tratar apenas com corticoide, por 6 semanas, em dose alta', 'A Salmonella é contaminante e não deve ser tratada'],
     g: 'B',
     c: 'A Salmonella adere ao tegumento do Schistosoma, o que perpetua a bacteremia e a formação de imunocomplexos. Diferentemente da glomerulopatia esquistossomótica clássica, essa forma responde bem ao tratamento conjunto com antibiótico e antiparasitário.',
     x: { A: 'Essa forma é justamente a que costuma regredir com o tratamento.', C: 'O corticoide não trata a bacteremia que sustenta a lesão renal.', D: 'A bacteremia é verdadeira e sustentada pelo parasita, exigindo tratamento.' },
@@ -141,7 +141,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Mieloma múltiplo',
     e: 'Mulher de 70 anos apresenta dor lombar, anemia, hipercalcemia e creatinina de 4,0 mg/dL. A fita urinária mostra proteína negativa ou traços, mas a proteinúria de 24 horas é de 5 g. A explicação para essa discrepância e a lesão renal mais comum são:',
-    o: ['Erro laboratorial; nefropatia membranosa', 'Proteinúria composta por cadeias leves, não detectadas pela fita; nefropatia do cilindro (rim do mieloma)', 'Albuminúria maciça; glomeruloesclerose focal', 'Hemoglobinúria; necrose tubular por pigmento'],
+    o: ['Erro laboratorial; nefropatia membranosa, com albuminúria', 'Proteinúria de cadeias leves, não detectada pela fita: mieloma', 'Albuminúria maciça; glomeruloesclerose segmentar e focal', 'Hemoglobinúria; necrose tubular aguda por pigmento'],
     g: 'B',
     c: 'A fita reagente detecta essencialmente albumina, não as cadeias leves (proteína de Bence Jones), que são identificadas por métodos quantitativos e imunofixação. Na nefropatia do cilindro, as cadeias leves filtradas precipitam com a proteína de Tamm-Horsfall no túbulo distal, causando obstrução e lesão tubular.',
     x: { A: 'A discrepância é real e característica de proteinúria não albumínica.', C: 'A albuminúria maciça seria fortemente positiva na fita reagente.', D: 'Não há dados de hemólise e a hemoglobina positivaria o campo de sangue.' },
@@ -149,7 +149,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Mieloma – lesões glomerulares',
     e: 'Todas as lesões renais abaixo podem ser causadas por gamopatia monoclonal ou mieloma múltiplo, EXCETO:',
-    o: ['Amiloidose AL', 'Doença de depósito de cadeias leves, com glomeruloesclerose nodular', 'Nefropatia do cilindro', 'Glomerulonefrite proliferativa difusa com humps subepiteliais e ASLO elevada'],
+    o: ['Amiloidose AL, com depósitos de cadeias leves', 'Doença de depósito de cadeias leves, com nódulos mesangiais', 'Nefropatia do cilindro, do mieloma múltiplo', 'GN proliferativa difusa com humps e ASLO alta'],
     g: 'D',
     c: 'A glomerulonefrite com humps e ASLO elevada é pós-estreptocócica, sem relação com paraproteínas. As cadeias leves monoclonais podem causar nefropatia do cilindro, amiloidose AL (vermelho-congo positiva, mais frequentemente lambda), doença de depósito de cadeias leves (vermelho-congo negativa, mais frequentemente kappa) e síndrome de Fanconi.',
     x: { A: 'A amiloidose AL decorre do depósito fibrilar de cadeias leves monoclonais.', B: 'O depósito granular de cadeias leves produz nódulos semelhantes aos do diabetes.', C: 'É a lesão renal mais comum do mieloma, por precipitação tubular de cadeias leves.' },
@@ -165,7 +165,7 @@ export const GLOMERULAR_4: QuestaoCompacta[] = [
   {
     s: 'Biópsia renal – contraindicações',
     e: 'Constitui contraindicação à biópsia renal percutânea:',
-    o: ['Síndrome nefrótica em adulto sem causa aparente', 'Diátese hemorrágica não corrigida ou hipertensão arterial grave não controlada', 'Suspeita de glomerulonefrite rapidamente progressiva', 'Proteinúria de 2 g/dia com hematúria dismórfica'],
+    o: ['Síndrome nefrótica em adulto sem causa aparente', 'Diátese hemorrágica ou hipertensão grave não controlada', 'Suspeita de glomerulonefrite rapidamente progressiva', 'Proteinúria de 2 g/dia com hematúria dismórfica'],
     g: 'B',
     c: 'O principal risco da biópsia renal é o sangramento, de modo que coagulopatia não corrigida e hipertensão grave não controlada a contraindicam. Outras contraindicações são infecção renal ou de pele no local, rins pequenos e hiperecogênicos (doença crônica avançada), hidronefrose e paciente não cooperativo; rim único é contraindicação relativa.',
     x: { A: 'A síndrome nefrótica do adulto é uma das principais indicações de biópsia.', C: 'A suspeita de forma rapidamente progressiva é indicação urgente de biópsia.', D: 'Proteinúria com hematúria glomerular é indicação habitual de biópsia.' },

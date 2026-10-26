@@ -5,7 +5,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Hematúria glomerular x urológica',
     e: 'O achado que mais sugere origem glomerular de uma hematúria é:',
-    o: ['Presença de coágulos na urina', 'Hemácias dismórficas com acantócitos e cilindros hemáticos', 'Hematúria apenas no início do jato urinário', 'Hemácias isomórficas com dor lombar em cólica'],
+    o: ['Presença de coágulos na urina, de formato alongado', 'Hemácias dismórficas com acantócitos e cilindros hemáticos', 'Hematúria só no início do jato urinário, uretral', 'Hemácias isomórficas com dor lombar em cólica'],
     g: 'B',
     c: 'Ao atravessar a membrana basal glomerular e sofrer variações osmóticas ao longo dos túbulos, as hemácias se deformam, originando o dismorfismo eritrocitário, cujo tipo mais específico é o acantócito. Cilindros hemáticos e proteinúria associada reforçam a origem glomerular.',
     x: { A: 'Coágulos indicam sangramento da via urinária, pois a uroquinase tubular impede sua formação no néfron.', C: 'Hematúria inicial sugere origem uretral, não glomerular.', D: 'Hemácias isomórficas com cólica sugerem litíase urinária.' },
@@ -13,7 +13,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Dismorfismo eritrocitário',
     e: 'Na pesquisa de dismorfismo eritrocitário por microscopia de contraste de fase, a célula considerada mais específica de hematúria glomerular é:',
-    o: ['O esquizócito', 'O acantócito (hemácia com projeções vesiculares em forma de anel)', 'O esferócito', 'O drepanócito'],
+    o: ['O esquizócito, da microangiopatia trombótica', 'O acantócito (hemácia com projeções em anel)', 'O esferócito, da esferocitose hereditária', 'O drepanócito, da anemia falciforme'],
     g: 'B',
     c: 'Os acantócitos urinários, hemácias em anel com uma ou mais protrusões vesiculares, são o marcador morfológico mais específico de sangramento glomerular. Um percentual a partir de cerca de 5% de acantócitos já sugere fortemente glomerulopatia.',
     x: { A: 'Esquizócitos são achado de sangue periférico nas microangiopatias trombóticas.', C: 'Esferócitos são vistos no sangue periférico em anemias hemolíticas.', D: 'Drepanócitos são hemácias falcizadas do sangue periférico.' },
@@ -37,7 +37,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por IgA – patogênese',
     e: 'O evento inicial na patogênese da nefropatia por IgA é:',
-    o: ['Produção de anticorpos contra o colágeno tipo IV', 'Produção de IgA1 com deficiência de galactose, contra a qual se formam autoanticorpos e imunocomplexos que se depositam no mesângio', 'Deposição de cadeias leves monoclonais no mesângio', 'Lesão podocitária por fator de permeabilidade circulante'],
+    o: ['Anticorpos contra o colágeno tipo IV da membrana', 'IgA1 com déficit de galactose e imunocomplexos mesangiais', 'Cadeias leves monoclonais depositadas no mesângio', 'Lesão podocitária por fator de permeabilidade circulante'],
     g: 'B',
     c: 'No modelo de múltiplos eventos, há síntese de IgA1 deficiente em galactose na região da dobradiça, formação de autoanticorpos contra essa molécula e deposição mesangial dos imunocomplexos. Estes ativam o complemento e induzem proliferação mesangial.',
     x: { A: 'Anticorpos contra o colágeno IV causam a doença antimembrana basal glomerular.', C: 'Cadeias leves monoclonais relacionam-se às gamopatias, não à nefropatia por IgA.', D: 'O fator de permeabilidade circulante é implicado na glomeruloesclerose focal primária.' },
@@ -45,7 +45,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por IgA – diagnóstico',
     e: 'O diagnóstico de certeza da nefropatia por IgA é feito por:',
-    o: ['Dosagem de IgA sérica elevada', 'Biópsia renal com depósitos mesangiais dominantes de IgA à imunofluorescência', 'Biópsia de pele com depósitos de IgA', 'Complemento sérico reduzido associado a hematúria'],
+    o: ['Dosagem de IgA sérica elevada, que é diagnóstica', 'Biópsia renal: depósitos mesangiais dominantes de IgA', 'Biópsia de pele com depósitos de IgA, que é diagnóstica', 'Complemento sérico reduzido com hematúria associada'],
     g: 'B',
     c: 'O diagnóstico é histológico e depende da demonstração de depósitos mesangiais dominantes ou codominantes de IgA, geralmente com C3. A IgA sérica eleva-se em apenas parte dos pacientes e o complemento sérico é normal.',
     x: { A: 'A IgA sérica está elevada em menos da metade dos casos e não é diagnóstica.', C: 'A biópsia de pele não tem sensibilidade nem especificidade suficientes.', D: 'O complemento sérico é caracteristicamente normal na nefropatia por IgA.' },
@@ -53,7 +53,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por IgA – prognóstico',
     e: 'Todos os itens abaixo são marcadores de pior prognóstico na nefropatia por IgA, EXCETO:',
-    o: ['Proteinúria persistente acima de 1 g/dia', 'Hipertensão arterial', 'Redução da taxa de filtração glomerular ao diagnóstico', 'Episódios recorrentes de hematúria macroscópica com função renal normal'],
+    o: ['Proteinúria persistente acima de 1 g/dia, como fator de pior prognóstico', 'Hipertensão arterial, como fator de pior prognóstico', 'Queda da filtração ao diagnóstico, como fator de pior prognóstico', 'Hematúria macroscópica recorrente com função normal'],
     g: 'D',
     c: 'Os episódios de hematúria macroscópica isolada, típicos de jovens, associam-se paradoxalmente a melhor prognóstico. Os principais preditores de progressão são proteinúria persistente, hipertensão, função renal reduzida e lesões crônicas na biópsia (classificação de Oxford).',
     x: { A: 'A proteinúria persistente é o principal preditor clínico de progressão.', B: 'A hipertensão arterial acelera a perda de função renal na doença.', C: 'Função renal já reduzida ao diagnóstico indica doença mais avançada.' },
@@ -61,7 +61,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por IgA – tratamento',
     e: 'Homem de 30 anos com nefropatia por IgA confirmada por biópsia apresenta PA 138 x 88 mmHg, proteinúria de 1,2 g/dia e taxa de filtração de 85 mL/min. A primeira medida terapêutica é:',
-    o: ['Ciclofosfamida oral por 6 meses', 'Bloqueio do sistema renina-angiotensina em dose máxima tolerada, controle pressórico e medidas de estilo de vida', 'Amigdalectomia de rotina', 'Plasmaférese'],
+    o: ['Ciclofosfamida oral por 6 meses, como primeira escolha', 'Bloqueio do SRA em dose máxima, controle pressórico e estilo de vida', 'Amigdalectomia de rotina, para reduzir as recidivas', 'Plasmaférese semanal, como primeira escolha'],
     g: 'B',
     c: 'A base do tratamento da nefropatia por IgA é o suporte otimizado: IECA ou BRA titulados, controle da pressão, restrição de sódio e controle de fatores de risco, podendo-se associar inibidor de SGLT2. Corticoide é considerado apenas se persistir alto risco de progressão, com proteinúria elevada apesar dessas medidas.',
     x: { A: 'A ciclofosfamida é reservada à forma crescêntica rapidamente progressiva.', C: 'A amigdalectomia não é recomendada de rotina fora de populações específicas.', D: 'A plasmaférese não tem papel no tratamento da nefropatia por IgA.' },
@@ -69,7 +69,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Vasculite por IgA',
     e: 'Menino de 6 anos apresenta púrpura palpável em nádegas e membros inferiores, artralgia de joelhos, dor abdominal em cólica e hematúria com proteinúria leve. Plaquetas normais. O diagnóstico e o achado renal esperado são:',
-    o: ['Púrpura trombocitopênica imune; rim normal', 'Vasculite por IgA (púrpura de Henoch-Schönlein); depósitos mesangiais de IgA', 'Síndrome hemolítico-urêmica; microangiopatia trombótica', 'Lúpus eritematoso sistêmico; padrão full house'],
+    o: ['PTI; rim normal, com plaquetopenia isolada', 'Vasculite por IgA (Henoch-Schönlein); IgA mesangial', 'SHU; microangiopatia trombótica, com esquizócitos', 'LES; padrão full house, com anti-DNA'],
     g: 'B',
     c: 'A vasculite por IgA é a vasculite mais comum da infância e cursa com púrpura palpável não trombocitopênica, artrite, dor abdominal e nefrite. A lesão renal é histologicamente indistinguível da nefropatia por IgA, sendo considerada sua forma sistêmica.',
     x: { A: 'As plaquetas estão normais e a púrpura é palpável, o que afasta essa hipótese.', C: 'Não há anemia hemolítica, plaquetopenia nem insuficiência renal aguda.', D: 'A tétrade clínica e a faixa etária são típicas de vasculite por IgA, não de lúpus.' },
@@ -85,7 +85,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Alport – microscopia eletrônica',
     e: 'O achado ultraestrutural característico da síndrome de Alport é:',
-    o: ['Depósitos subepiteliais com espículas de membrana basal', 'Espessamento irregular e lamelação da lâmina densa da membrana basal, com aspecto em cesta trançada', 'Depósitos densos em fita na lâmina densa', 'Fusão podocitária difusa como único achado'],
+    o: ['Depósitos subepiteliais com espículas de membrana basal', 'Espessamento e lamelação da lâmina densa (cesta trançada)', 'Depósitos densos em fita na lâmina densa', 'Fusão podocitária difusa como único achado'],
     g: 'B',
     c: 'O colágeno IV anormal gera uma membrana basal glomerular com áreas de adelgaçamento alternadas com espessamento e divisão longitudinal da lâmina densa, o chamado aspecto em cesta trançada. A microscopia óptica e a imunofluorescência convencional são inespecíficas.',
     x: { A: 'Depósitos subepiteliais com espículas caracterizam a nefropatia membranosa.', C: 'Depósitos em fita na lâmina densa caracterizam a doença de depósitos densos.', D: 'Fusão podocitária isolada é o achado da doença de lesão mínima.' },
@@ -93,7 +93,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Doença da membrana fina',
     e: 'Mulher de 28 anos, assintomática, tem hematúria microscópica dismórfica persistente, sem proteinúria, com PA e função renal normais. A mãe e uma irmã têm o mesmo achado, sem doença renal crônica ou surdez na família. O diagnóstico mais provável e a conduta são:',
-    o: ['Síndrome de Alport; indicar transplante preemptivo', 'Doença da membrana basal fina; seguimento periódico com pressão arterial, proteinúria e função renal', 'Nefropatia por IgA; iniciar corticoide', 'Nefrolitíase; tomografia de abdome'],
+    o: ['Alport; indicar transplante preemptivo, em breve', 'Membrana basal fina; seguimento de PA, proteinúria e função', 'Nefropatia por IgA; iniciar corticoide, em dose alta', 'Nefrolitíase; tomografia de abdome sem contraste'],
     g: 'B',
     c: 'A doença da membrana basal fina (hematúria familiar benigna) cursa com hematúria glomerular isolada persistente, história familiar positiva e evolução em geral favorável. A conduta é o acompanhamento, reservando a biópsia para casos com proteinúria, hipertensão ou perda de função.',
     x: { A: 'Não há surdez, alteração ocular nem familiares com falência renal.', C: 'Sem proteinúria, não haveria indicação de corticoide mesmo em nefropatia por IgA.', D: 'A hematúria é dismórfica, o que aponta para origem glomerular e não litíase.' },
@@ -101,7 +101,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Hematúria isolada – biópsia',
     e: 'Em um adulto jovem com hematúria microscópica glomerular isolada, sem proteinúria, com pressão arterial e função renal normais, a conduta recomendada é:',
-    o: ['Biópsia renal imediata em todos os casos', 'Acompanhamento periódico, com biópsia se surgir proteinúria, hipertensão ou queda da filtração glomerular', 'Início empírico de prednisona', 'Cistoscopia semestral'],
+    o: ['Biópsia renal imediata em todos os casos, sem exceção', 'Seguimento periódico; biópsia se proteinúria, HAS ou queda de TFG', 'Início empírico de prednisona, por 8 semanas, em dose alta', 'Cistoscopia semestral, por risco de neoplasia vesical'],
     g: 'B',
     c: 'Na hematúria glomerular isolada, as causas mais prováveis (nefropatia por IgA leve, membrana fina) têm bom prognóstico e não possuem tratamento específico nessa fase. Por isso a biópsia não muda a conduta e fica reservada para quando aparecem sinais de progressão.',
     x: { A: 'O resultado da biópsia não mudaria a conduta nesse cenário de baixo risco.', C: 'Não há indicação de imunossupressão empírica em hematúria isolada.', D: 'A hematúria é glomerular, e a cistoscopia seriada não tem utilidade.' },
@@ -109,7 +109,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'GNRP – definição',
     e: 'A glomerulonefrite rapidamente progressiva é definida por:',
-    o: ['Síndrome nefrótica com função renal normal por mais de 6 meses', 'Síndrome nefrítica com perda de função renal em dias a semanas, tendo como substrato a glomerulonefrite crescêntica', 'Hematúria isolada persistente por mais de 3 meses', 'Elevação da creatinina por necrose tubular após choque'],
+    o: ['Síndrome nefrótica com função normal por mais de 6 meses', 'Síndrome nefrítica com perda de função em dias a semanas', 'Hematúria isolada persistente por mais de 3 meses', 'Elevação da creatinina por necrose tubular após choque'],
     g: 'B',
     c: 'A glomerulonefrite rapidamente progressiva é uma síndrome clínica em que há declínio da função renal em dias a semanas ou poucos meses, acompanhado de sedimento nefrítico. O correlato histológico é a presença de crescentes em mais de 50% dos glomérulos.',
     x: { A: 'Função renal estável com síndrome nefrótica não caracteriza a síndrome.', C: 'Hematúria isolada estável é uma alteração urinária assintomática.', D: 'A necrose tubular aguda não cursa com sedimento nefrítico nem crescentes.' },
@@ -117,7 +117,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'GNRP – crescentes',
     e: 'O crescente glomerular, lesão que define a glomerulonefrite crescêntica, é formado por:',
-    o: ['Proliferação de células mesangiais e expansão da matriz mesangial', 'Proliferação de células epiteliais parietais e infiltração de macrófagos no espaço de Bowman, após ruptura da parede capilar com extravasamento de fibrina', 'Depósito de material hialino nas arteríolas aferentes', 'Espessamento homogêneo da membrana basal glomerular'],
+    o: ['Proliferação de células mesangiais e expansão da matriz', 'Proliferação de células parietais e macrófagos no espaço de Bowman', 'Depósito de material hialino nas arteríolas aferentes', 'Espessamento homogêneo da membrana basal glomerular'],
     g: 'B',
     c: 'A lesão grave da parede capilar permite a passagem de fibrina e de mediadores inflamatórios para o espaço de Bowman, estimulando a proliferação das células epiteliais parietais e o afluxo de macrófagos. O crescente celular comprime o tufo e, se não tratado, evolui para crescente fibroso irreversível.',
     x: { A: 'A proliferação mesangial é intracapilar e não forma crescentes.', C: 'A hialinose arteriolar é própria da nefroesclerose e do diabetes.', D: 'O espessamento homogêneo da membrana basal caracteriza a nefropatia membranosa.' },
@@ -125,7 +125,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'GNRP – classificação pela imunofluorescência',
     e: 'Os três tipos de glomerulonefrite rapidamente progressiva correspondem, respectivamente, aos seguintes padrões de imunofluorescência:',
-    o: ['Tipo I granular, tipo II linear, tipo III pauci-imune', 'Tipo I linear (anti-MBG), tipo II granular (imunocomplexos), tipo III pauci-imune (ANCA)', 'Tipo I pauci-imune, tipo II linear, tipo III granular', 'Tipo I linear, tipo II pauci-imune, tipo III granular'],
+    o: ['Tipo I granular, tipo II linear, tipo III pauci-imune', 'Tipo I linear (anti-MBG), II granular, III pauci-imune (ANCA)', 'Tipo I pauci-imune, tipo II linear, tipo III granular', 'Tipo I linear, tipo II pauci-imune, tipo III granular'],
     g: 'B',
     c: 'No tipo I, o anticorpo contra a membrana basal glomerular deposita-se de forma contínua, gerando padrão linear de IgG. No tipo II, imunocomplexos produzem padrão granular (lúpus, pós-infecciosa, IgA). No tipo III há pouca ou nenhuma marcação, sendo a maioria associada ao ANCA.',
     x: { A: 'O padrão linear pertence ao tipo I, e o granular ao tipo II.', C: 'O tipo pauci-imune é o III, e não o I.', D: 'O tipo II é o de imunocomplexos (granular), não o pauci-imune.' },
@@ -141,7 +141,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Goodpasture',
     e: 'Homem de 24 anos, tabagista, apresenta hemoptise, dispneia, anemia, infiltrado alveolar bilateral e creatinina de 4,8 mg/dL, com hematúria dismórfica. A imunofluorescência da biópsia renal mostra depósito linear de IgG ao longo da membrana basal glomerular. O alvo do autoanticorpo é:',
-    o: ['A proteinase 3 dos neutrófilos', 'O domínio não colagenoso (NC1) da cadeia alfa-3 do colágeno tipo IV', 'O receptor de fosfolipase A2 do podócito', 'O DNA de dupla hélice'],
+    o: ['A proteinase 3 dos neutrófilos, no citoplasma', 'O domínio NC1 da cadeia alfa-3 do colágeno IV', 'O receptor de fosfolipase A2 do podócito', 'O DNA de dupla hélice, do núcleo celular'],
     g: 'B',
     c: 'Na doença antimembrana basal glomerular, o autoanticorpo IgG dirige-se contra o domínio NC1 da cadeia alfa-3 do colágeno IV, presente nas membranas basais glomerular e alveolar. Isso explica a síndrome pulmão-rim, e a hemorragia alveolar é favorecida por tabagismo e outras agressões pulmonares.',
     x: { A: 'A proteinase 3 é o alvo do c-ANCA da granulomatose com poliangiite.', C: 'O receptor de fosfolipase A2 é o antígeno da nefropatia membranosa primária.', D: 'O anti-DNA de dupla hélice é marcador de lúpus, com padrão granular.' },
@@ -173,7 +173,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'ANCA – tratamento de indução',
     e: 'Mulher de 64 anos tem glomerulonefrite crescêntica pauci-imune com p-ANCA positivo e creatinina de 3,2 mg/dL em elevação. O tratamento de indução recomendado é:',
-    o: ['Azatioprina isolada', 'Glicocorticoide associado a ciclofosfamida ou a rituximabe', 'Apenas IECA e controle pressórico', 'Colchicina e anti-inflamatório não esteroide'],
+    o: ['Azatioprina isolada, por via oral', 'Glicocorticoide com ciclofosfamida ou rituximabe', 'Apenas IECA e controle pressórico, sem imunossupressão', 'Colchicina e AINE, por via oral'],
     g: 'B',
     c: 'A indução de remissão nas vasculites associadas ao ANCA com acometimento renal grave é feita com glicocorticoide (em geral iniciado com pulsoterapia de metilprednisolona) combinado a ciclofosfamida ou rituximabe. Após a remissão, segue-se manutenção com rituximabe ou azatioprina.',
     x: { A: 'A azatioprina é droga de manutenção, insuficiente para indução.', C: 'Medidas de suporte isoladas levam à perda renal irreversível em semanas.', D: 'Anti-inflamatórios não tratam a vasculite e são nefrotóxicos.' },
@@ -181,7 +181,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'GNRP – urgência da biópsia',
     e: 'Homem de 48 anos apresenta creatinina de 1,1 mg/dL há 3 semanas e 3,9 mg/dL hoje, com hematúria dismórfica, cilindros hemáticos e proteinúria de 1,8 g/dia. Ultrassonografia com rins de tamanho normal. A conduta mais adequada é:',
-    o: ['Repetir a creatinina em 30 dias para confirmar a tendência', 'Solicitar sorologias (ANCA, anti-MBG, FAN, complemento), realizar biópsia renal com urgência e considerar pulsoterapia precoce', 'Iniciar hidratação venosa e aguardar recuperação tubular', 'Indicar hemodiálise e encerrar a investigação'],
+    o: ['Repetir a creatinina em 30 dias para confirmar a tendência', 'Sorologias (ANCA, anti-MBG, FAN), biópsia urgente e pulso precoce', 'Hidratação venosa e aguardar a recuperação tubular espontânea', 'Indicar hemodiálise e encerrar a investigação diagnóstica'],
     g: 'B',
     c: 'A glomerulonefrite rapidamente progressiva é uma urgência: os crescentes celulares tornam-se fibrosos em pouco tempo e o prognóstico depende da precocidade do tratamento. A investigação sorológica e a biópsia devem ser imediatas, e a pulsoterapia com metilprednisolona pode ser iniciada antes do resultado quando a suspeita é forte.',
     x: { A: 'Esperar 30 dias pode significar perda irreversível da função renal.', C: 'O sedimento nefrítico afasta necrose tubular aguda como causa principal.', D: 'A diálise é suporte e não dispensa o diagnóstico e o tratamento específicos.' },
@@ -197,7 +197,7 @@ export const GLOMERULAR_2: QuestaoCompacta[] = [
   {
     s: 'Anti-MBG – prognóstico renal',
     e: 'Na doença por anticorpo antimembrana basal glomerular, o fator que mais se associa à baixa chance de recuperação renal é:',
-    o: ['Sexo masculino', 'Necessidade de diálise à apresentação, com crescentes em praticamente todos os glomérulos', 'Presença de hemoptise leve', 'Título baixo do anticorpo circulante'],
+    o: ['Sexo masculino, como fator de pior prognóstico renal', 'Necessidade de diálise à apresentação, com crescentes difusos', 'Hemoptise leve, como fator de pior prognóstico renal', 'Título baixo do anticorpo circulante, ao diagnóstico'],
     g: 'B',
     c: 'Pacientes que já chegam dependentes de diálise, com creatinina muito elevada e crescentes em quase 100% dos glomérulos, raramente recuperam a função renal. Isso reforça a importância do diagnóstico e do tratamento precoces, antes da fibrose dos crescentes.',
     x: { A: 'O sexo não é o determinante principal do prognóstico renal.', C: 'A hemoptise indica acometimento pulmonar, mas não prediz o desfecho renal.', D: 'Títulos baixos associam-se a doença menos agressiva, não a pior desfecho.' },

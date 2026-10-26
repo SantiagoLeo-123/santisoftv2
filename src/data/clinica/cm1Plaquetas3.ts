@@ -21,7 +21,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Doença de von Willebrand: laboratório',
     e: 'Diante da suspeita de doença de von Willebrand, os exames iniciais específicos que devem ser solicitados são:',
-    o: ['Dosagem dos fatores IX e XI e tempo de trombina', 'Antígeno do fator de von Willebrand, atividade do fator (cofator de ristocetina) e fator VIII', 'Anticorpos anti-PF4 e ADAMTS13', 'Fibrinogênio, D-dímero e pesquisa de esquizócitos'],
+    o: ['Dosagem dos fatores IX e XI e tempo de trombina', 'Antígeno de vWF, cofator de ristocetina e fator VIII', 'Anticorpos anti-PF4 e ADAMTS13, no plasma', 'Fibrinogênio, D-dímero e pesquisa de esquizócitos'],
     g: 'B',
     c: 'O antígeno mede a quantidade de fator de von Willebrand, o cofator de ristocetina mede sua capacidade funcional de ligar as plaquetas, e o fator VIII avalia a função carreadora. No tipo 1 há redução proporcional de antígeno e atividade; no tipo 2, a atividade está desproporcionalmente baixa em relação ao antígeno; no tipo 3, tudo é praticamente indetectável.',
     x: { A: 'Fatores IX e XI não participam do diagnóstico da doença de von Willebrand.', C: 'Anti-PF4 e ADAMTS13 investigam HIT e PTT, respectivamente.', D: 'Esse painel investiga coagulopatia de consumo e microangiopatia.' },
@@ -37,7 +37,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Desmopressina',
     e: 'Paciente de 23 anos com doença de von Willebrand tipo 1 será submetida a extração de terceiro molar. O medicamento indicado para a profilaxia de sangramento e seu mecanismo de ação são:',
-    o: ['Vitamina K, por aumentar a síntese hepática do fator', 'Desmopressina, por liberar o fator de von Willebrand armazenado no endotélio', 'Protamina, por neutralizar inibidores do fator', 'Prednisona, por reduzir a depuração do fator'],
+    o: ['Vitamina K, por aumentar a síntese hepática do fator', 'Desmopressina: libera o vWF armazenado no endotélio', 'Protamina, por neutralizar inibidores do fator', 'Prednisona, por reduzir a depuração do fator'],
     g: 'B',
     c: 'A desmopressina (DDAVP) age em receptores V2 do endotélio e libera o fator de von Willebrand dos corpúsculos de Weibel-Palade, elevando também o fator VIII. É eficaz no tipo 1, em que o fator é normal porém reduzido. Costuma-se associar ácido tranexâmico em procedimentos em mucosas. Doses repetidas causam taquifilaxia e risco de hiponatremia.',
     x: { A: 'O fator de von Willebrand não depende da vitamina K.', C: 'A protamina é antídoto da heparina e não tem papel nessa doença.', D: 'Corticoide não eleva o fator de von Willebrand na forma hereditária.' },
@@ -45,7 +45,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Doença de von Willebrand tipo 3',
     e: 'Menino de 6 anos tem hemartroses e sangramentos mucosos graves. Os pais são consanguíneos e assintomáticos. Exames: TTPa alargado, fator VIII de 4%, antígeno e atividade do fator de von Willebrand indetectáveis. O tratamento de um episódio hemorrágico deve ser feito com:',
-    o: ['Desmopressina intranasal', 'Concentrado de fator VIII rico em fator de von Willebrand', 'Fator VIII recombinante isolado', 'Vitamina K intravenosa'],
+    o: ['Desmopressina intranasal, em dose habitual', 'Concentrado de fator VIII rico em vWF', 'Fator VIII recombinante isolado, em dose plena', 'Vitamina K intravenosa, em dose plena'],
     g: 'B',
     c: 'No tipo 3 (autossômico recessivo) praticamente não há fator de von Willebrand e, sem seu carreador, o fator VIII fica muito baixo, somando sangramento de mucosas e hemartroses. Como não existem estoques endoteliais, a desmopressina é ineficaz; é preciso repor o fator com concentrado plasmático que o contenha.',
     x: { A: 'Não há fator armazenado para ser liberado pela desmopressina no tipo 3.', C: 'O fator VIII recombinante isolado não repõe o fator de von Willebrand e teria meia-vida curta.', D: 'A vitamina K não tem efeito sobre os fatores VIII e de von Willebrand.' },
@@ -53,7 +53,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Doença de von Willebrand tipo 2B',
     e: 'Entre os subtipos da doença de von Willebrand, aquele em que há ganho de afinidade do fator pela glicoproteína Ib, com plaquetopenia associada, e no qual a desmopressina deve ser evitada, é o tipo:',
-    o: ['1', '2B', '2N', '3'],
+    o: ['Tipo 1, com defeito quantitativo parcial', 'Tipo 2B, com ganho de função', 'Tipo 2N, com defeito de ligação ao FVIII', 'Tipo 3, com ausência total do vWF'],
     g: 'B',
     c: 'No tipo 2B, a mutação aumenta a ligação do fator de von Willebrand à GPIb, levando à remoção de complexos plaqueta-fator da circulação, com perda dos multímeros grandes e plaquetopenia. A desmopressina libera mais fator anômalo e pode agravar a plaquetopenia, por isso é classicamente evitada.',
     x: { A: 'No tipo 1 a desmopressina é o tratamento de escolha e não há plaquetopenia.', C: 'No tipo 2N o defeito é na ligação ao fator VIII, simulando hemofilia A.', D: 'No tipo 3 a desmopressina é ineficaz, mas não há ganho de função.' },
@@ -69,7 +69,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Trombastenia de Glanzmann',
     e: 'A trombastenia de Glanzmann é um distúrbio hereditário autossômico recessivo da função plaquetária caracterizado por:',
-    o: ['Deficiência de GPIb, com plaquetas gigantes', 'Deficiência de GPIIb/IIIa, com contagem e morfologia plaquetárias normais', 'Deficiência de grânulos densos, com albinismo', 'Deficiência de ADAMTS13, com microtrombos'],
+    o: ['Deficiência de GPIb, com plaquetas gigantes', 'Deficiência de GPIIb/IIIa, com plaquetas normais', 'Deficiência de grânulos densos, com albinismo', 'Deficiência de ADAMTS13, com microtrombos'],
     g: 'B',
     c: 'Sem a GPIIb/IIIa, a plaqueta não liga o fibrinogênio e não agrega. A contagem e o tamanho das plaquetas são normais, e a agregometria mostra ausência de resposta a ADP, colágeno e adrenalina, com resposta preservada à ristocetina (que testa a adesão via GPIb). O sangramento grave é tratado com transfusão de plaquetas ou fator VII ativado recombinante.',
     x: { A: 'Deficiência de GPIb com plaquetas gigantes define a síndrome de Bernard-Soulier.', C: 'Deficiência de grânulos densos com albinismo ocorre na síndrome de Hermansky-Pudlak.', D: 'A deficiência de ADAMTS13 causa PTT, e não trombocitopatia hereditária.' },
@@ -85,7 +85,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Ácido acetilsalicílico',
     e: 'O efeito antiagregante do ácido acetilsalicílico persiste por cerca de 7 a 10 dias após a suspensão do fármaco. Isso ocorre porque:',
-    o: ['O fármaco tem meia-vida plasmática de vários dias', 'A inibição da COX-1 é irreversível e a plaqueta, anucleada, não sintetiza nova enzima', 'O fármaco bloqueia de forma permanente o receptor P2Y12', 'O fármaco destrói os megacariócitos da medula'],
+    o: ['O fármaco tem meia-vida plasmática de vários dias', 'A COX-1 é inibida de forma irreversível; sem nova enzima', 'O fármaco bloqueia, de forma permanente, o P2Y12', 'O fármaco destrói os megacariócitos da medula óssea'],
     g: 'B',
     c: 'O ácido acetilsalicílico acetila irreversivelmente a ciclo-oxigenase 1, bloqueando a síntese de tromboxano A2. Como a plaqueta não tem núcleo, não repõe a enzima, e o efeito dura toda a sua vida útil. A função só se normaliza com a renovação da população plaquetária, o que explica o intervalo de suspensão antes de cirurgias de alto risco hemorrágico.',
     x: { A: 'A meia-vida plasmática do fármaco é curta, de minutos a poucas horas.', C: 'O bloqueio do P2Y12 é o mecanismo de clopidogrel, prasugrel e ticagrelor.', D: 'O fármaco não é tóxico para os megacariócitos nem reduz a contagem de plaquetas.' },
@@ -93,7 +93,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Clopidogrel',
     e: 'O clopidogrel, usado na dupla antiagregação após angioplastia coronariana, atua por:',
-    o: ['Inibição reversível da ciclo-oxigenase 1', 'Bloqueio irreversível do receptor P2Y12 do ADP, após ativação hepática', 'Bloqueio direto da glicoproteína IIb/IIIa', 'Inibição da fosfodiesterase plaquetária'],
+    o: ['Inibição reversível da ciclo-oxigenase 1 plaquetária', 'Bloqueio irreversível do P2Y12 do ADP, após ativação hepática', 'Bloqueio direto da glicoproteína IIb/IIIa plaquetária', 'Inibição da fosfodiesterase plaquetária, com mais AMPc'],
     g: 'B',
     c: 'O clopidogrel é uma tienopiridina, pró-fármaco convertido no fígado (com participação do CYP2C19) em metabólito ativo que bloqueia irreversivelmente o receptor P2Y12, impedindo a ativação plaquetária mediada por ADP. Variantes genéticas do CYP2C19 explicam a resposta reduzida de alguns pacientes.',
     x: { A: 'A inibição da COX-1 é o mecanismo do AAS e de outros anti-inflamatórios.', C: 'O bloqueio da GPIIb/IIIa é o mecanismo de abciximabe e tirofibana.', D: 'A inibição da fosfodiesterase é o mecanismo de dipiridamol e cilostazol.' },
@@ -101,7 +101,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Herança das hemofilias',
     e: 'Um homem com hemofilia A grave e sua esposa, que não é portadora, desejam aconselhamento genético. A orientação correta sobre os filhos do casal é:',
-    o: ['Metade dos filhos homens terá hemofilia', 'Todas as filhas serão portadoras e nenhum filho homem será afetado', 'Todos os filhos homens serão hemofílicos', 'Metade das filhas terá a doença na forma grave'],
+    o: ['Metade dos filhos homens terá hemofilia', 'Todas as filhas serão portadoras; nenhum filho afetado', 'Todos os filhos homens serão hemofílicos', 'Metade das filhas terá a doença na forma grave'],
     g: 'B',
     c: 'As hemofilias A e B têm herança recessiva ligada ao X. O pai transmite seu único cromossomo X (com a mutação) a todas as filhas, que serão portadoras obrigatórias, e o cromossomo Y aos filhos, que serão sadios. Cerca de um terço dos casos surge por mutação nova, sem história familiar.',
     x: { A: 'O filho homem recebe o Y do pai e o X da mãe, que não é portadora.', C: 'Não há transmissão de pai para filho homem em doenças ligadas ao X.', D: 'As filhas herdam um X normal da mãe e são portadoras, em geral assintomáticas.' },
@@ -117,7 +117,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Hemofilia B',
     e: 'Sobre a hemofilia B, assinale a afirmativa correta:',
-    o: ['Tem herança autossômica dominante', 'É a deficiência de fator IX e é clinicamente indistinguível da hemofilia A', 'É mais frequente que a hemofilia A', 'Cursa com TP alargado e TTPa normal'],
+    o: ['Tem herança autossômica dominante, ligada ao X', 'É a deficiência de fator IX, igual à hemofilia A', 'É mais frequente que a hemofilia A, na população', 'Cursa com TP alargado e TTPa normal, no exame'],
     g: 'B',
     c: 'A hemofilia B (doença de Christmas) é a deficiência de fator IX, ligada ao X. Como os fatores VIII e IX atuam juntos no complexo tenase, a falta de qualquer um produz o mesmo quadro de hemartroses e hematomas com TTPa alargado. A distinção depende da dosagem específica e define qual concentrado repor.',
     x: { A: 'A herança é recessiva ligada ao X, como na hemofilia A.', C: 'A hemofilia A responde pela grande maioria dos casos de hemofilia.', D: 'O fator IX é da via intrínseca: alarga o TTPa e mantém o TP normal.' },
@@ -149,7 +149,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Emicizumabe',
     e: 'O emicizumabe, aplicado por via subcutânea na profilaxia de sangramentos da hemofilia A, com ou sem inibidores, é:',
-    o: ['Um concentrado de fator VIII de meia-vida estendida', 'Um anticorpo biespecífico que aproxima o fator IXa do fator X, mimetizando o fator VIII', 'Um anticorpo anti-CD20 que elimina os inibidores', 'Um análogo da vasopressina que libera fator VIII endotelial'],
+    o: ['Concentrado de fator VIII de meia-vida estendida', 'Anticorpo biespecífico que une IXa e X, imitando o VIII', 'Anticorpo anti-CD20 que elimina os inibidores', 'Análogo da vasopressina que libera fator VIII endotelial'],
     g: 'B',
     c: 'O emicizumabe liga simultaneamente o fator IXa e o fator X, exercendo a função de cofator que caberia ao fator VIIIa no complexo tenase. Por não ter a estrutura do fator VIII, não é neutralizado pelos inibidores. É usado apenas como profilaxia; sangramentos agudos ainda exigem fator VIII ou agente de bypass. Não tem utilidade na hemofilia B.',
     x: { A: 'Não é fator VIII, e justamente por isso escapa dos inibidores.', C: 'Anticorpo anti-CD20 é o rituximabe, usado na hemofilia adquirida.', D: 'O análogo da vasopressina é a desmopressina, útil na hemofilia A leve.' },
@@ -157,7 +157,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Deficiência de vitamina K',
     e: 'Homem de 70 anos, internado há 3 semanas em UTI, em jejum prolongado e uso de antibióticos de amplo espectro, apresenta sangramento em sítios de punção. Exames: plaquetas 210.000/mm3, INR 3,4, TTPa discretamente alargado, fibrinogênio normal, função hepática preservada. A conduta que confirma e trata o diagnóstico é:',
-    o: ['Transfusão de crioprecipitado', 'Administração de vitamina K, com correção do TP em 12 a 24 horas', 'Infusão de concentrado de fator VIII', 'Administração de protamina'],
+    o: ['Transfusão de crioprecipitado, de imediato', 'Vitamina K; o TP corrige em 12 a 24 horas', 'Infusão de concentrado de fator VIII, de imediato', 'Administração de protamina, de imediato'],
     g: 'B',
     c: 'A vitamina K provém da dieta e da flora intestinal; jejum prolongado somado a antibióticos esgota as reservas em poucas semanas. Caem os fatores II, VII, IX e X, com TP muito alargado e TTPa pouco alterado, e plaquetas e fibrinogênio normais. A correção rápida do TP após a reposição confirma o diagnóstico e o diferencia da hepatopatia.',
     x: { A: 'O crioprecipitado repõe fibrinogênio, que está normal nesse caso.', C: 'O fator VIII não depende de vitamina K e não está deficiente.', D: 'A protamina é antídoto da heparina, sem papel nessa situação.' },
@@ -173,7 +173,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Hemofilia A adquirida',
     e: 'Mulher de 72 anos, sem história pessoal ou familiar de sangramento, apresenta equimoses extensas em tronco e hematoma volumoso em coxa, sem trauma. Exames: plaquetas e TP normais, TTPa de 95 segundos, que não corrige após mistura com plasma normal incubada por 2 horas. Fator VIII de 2%. O diagnóstico é:',
-    o: ['Doença de von Willebrand tipo 1', 'Hemofilia A adquirida por autoanticorpo contra o fator VIII', 'Síndrome do anticorpo antifosfolípide', 'Deficiência de fator XII'],
+    o: ['Doença de von Willebrand tipo 1, com TTPa alargado', 'Hemofilia A adquirida: autoanticorpo contra o fator VIII', 'Síndrome do anticorpo antifosfolípide, com TTPa alargado', 'Deficiência de fator XII, com TTPa alargado'],
     g: 'B',
     c: 'A hemofilia adquirida ocorre por autoanticorpos contra o fator VIII, em idosos, no puerpério, em doenças autoimunes ou neoplasias. Predominam hematomas subcutâneos e musculares extensos, e não hemartroses. O inibidor é dependente de tempo e temperatura, daí a falha de correção após incubação. Trata-se o sangramento com agentes de bypass e erradica-se o inibidor com imunossupressão.',
     x: { A: 'A doença de von Willebrand tipo 1 é hereditária, leve e corrige na mistura.', C: 'O anticoagulante lúpico alarga o TTPa, mas causa trombose, e não sangramento.', D: 'A deficiência de fator XII não causa sangramento e corrige na mistura.' },
@@ -181,7 +181,7 @@ export const PLAQUETAS_3: QuestaoCompacta[] = [
   {
     s: 'Deficiência de fator XIII',
     e: 'Recém-nascido apresenta sangramento persistente pelo coto umbilical. Aos 2 anos, evolui com hemorragia intracraniana após trauma leve e cicatrização deficiente de feridas. Plaquetas, TP, TTPa, tempo de trombina e fibrinogênio são normais. A hipótese diagnóstica e o exame que a investiga são:',
-    o: ['Hemofilia A; dosagem de fator VIII', 'Deficiência de fator XIII; teste de solubilidade do coágulo ou dosagem do fator', 'Doença de von Willebrand; cofator de ristocetina', 'Deficiência de fator VII; tempo de protrombina'],
+    o: ['Hemofilia A; dosagem de fator VIII', 'Deficiência de fator XIII; solubilidade do coágulo', 'vW; cofator de ristocetina, no plasma', 'Deficiência de fator VII; tempo de protrombina'],
     g: 'B',
     c: 'O fator XIII estabiliza a fibrina com ligações cruzadas. Na sua deficiência o coágulo se forma no tempo normal, por isso todos os testes de triagem são normais, mas é frágil e se dissolve em ureia. O quadro clássico é sangramento tardio do coto umbilical, hemorragia intracraniana, má cicatrização e abortos de repetição.',
     x: { A: 'Na hemofilia A o TTPa estaria alargado.', C: 'Na doença de von Willebrand predomina sangramento mucoso, sem o quadro umbilical típico.', D: 'Na deficiência de fator VII o TP estaria alargado.' },

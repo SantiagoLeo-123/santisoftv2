@@ -5,7 +5,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'GMSI: definição',
     e: 'Mulher de 68 anos, assintomática, realiza eletroforese de proteínas que mostra pico monoclonal em região gama de 1,1 g/dL, identificado como IgG kappa na imunofixação. Hemoglobina, creatinina e cálcio são normais, o mielograma mostra 6% de plasmócitos e o inventário ósseo não tem lesões. O diagnóstico e a conduta são:',
-    o: ['Mieloma múltiplo; iniciar bortezomibe, lenalidomida e dexametasona', 'Gamopatia monoclonal de significado indeterminado; acompanhamento periódico sem tratamento', 'Mieloma indolente; transplante autólogo', 'Macroglobulinemia de Waldenström; plasmaférese'],
+    o: ['Mieloma múltiplo; bortezomibe, lenalidomida e dexametasona', 'MGUS; acompanhamento periódico, sem tratamento', 'Mieloma indolente; transplante autólogo imediato', 'Waldenström; plasmaférese de urgência'],
     g: 'B',
     c: 'A gamopatia monoclonal de significado indeterminado é definida por proteína monoclonal sérica menor que 3 g/dL, menos de 10% de plasmócitos clonais na medula e ausência de lesão de órgão-alvo ou de eventos definidores de mieloma. É condição pré-maligna comum em idosos, com risco de progressão de cerca de 1% ao ano, de modo que a conduta é apenas a vigilância clínica e laboratorial.',
     x: { A: 'Não há critério CRAB nem evento definidor, e os plasmócitos estão abaixo de 10%.', C: 'O mieloma indolente exige proteína M de 3 g/dL ou mais, ou 10% a 60% de plasmócitos.', D: 'A proteína é IgG, não IgM, e não há sintomas de hiperviscosidade que indiquem plasmaférese.' },
@@ -21,7 +21,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma indolente',
     e: 'O mieloma múltiplo indolente (smoldering) caracteriza-se por:',
-    o: ['Proteína monoclonal menor que 3 g/dL e menos de 10% de plasmócitos clonais na medula', 'Proteína monoclonal sérica de 3 g/dL ou mais ou plasmócitos clonais medulares entre 10% e 60%, sem eventos definidores de mieloma', 'Presença de lesões líticas com proteína monoclonal baixa', 'Plasmócitos circulantes em grande número no sangue periférico'],
+    o: ['Proteína monoclonal < 3 g/dL e < 10% de plasmócitos na medula', 'Proteína monoclonal ≥ 3 g/dL ou 10-60% de plasmócitos, sem eventos', 'Lesões líticas com proteína monoclonal baixa', 'Plasmócitos circulantes em grande número no sangue'],
     g: 'B',
     c: 'O mieloma indolente é o estágio intermediário entre a gamopatia de significado indeterminado e o mieloma ativo: a carga clonal já é a de mieloma, mas não há lesão de órgão (CRAB) nem biomarcadores de malignidade. O risco de progressão é bem maior, cerca de 10% ao ano nos primeiros anos, e a conduta habitual é observação rigorosa, com tratamento precoce discutido nos casos de alto risco.',
     x: { A: 'Esses valores definem a gamopatia monoclonal de significado indeterminado.', C: 'Lesões líticas são evento definidor e classificam o caso como mieloma ativo.', D: 'Plasmócitos circulantes em grande número caracterizam a leucemia de células plasmáticas.' },
@@ -37,7 +37,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: eventos definidores',
     e: 'Homem de 62 anos, assintomático, tem proteína monoclonal IgA lambda de 2,4 g/dL, hemoglobina, creatinina e cálcio normais e tomografia de corpo inteiro sem lesões líticas. A biópsia de medula mostra 65% de plasmócitos clonais. A conduta correta é:',
-    o: ['Classificar como gamopatia de significado indeterminado e reavaliar em 1 ano', 'Diagnosticar mieloma múltiplo e iniciar tratamento, pois há biomarcador de malignidade', 'Classificar como mieloma indolente e apenas observar', 'Repetir a biópsia de medula em 6 meses antes de decidir'],
+    o: ['Gamopatia monoclonal de significado indeterminado; reavaliar em 1 ano', 'Mieloma múltiplo: iniciar tratamento, pois há biomarcador de malignidade', 'Mieloma indolente; apenas observar o paciente com exames', 'Repetir a biópsia de medula em 6 meses antes de decidir'],
     g: 'B',
     c: 'Além dos critérios CRAB, três biomarcadores definem mieloma ativo mesmo sem sintomas, porque indicam risco muito alto de lesão de órgão em curto prazo: 60% ou mais de plasmócitos clonais na medula, relação entre cadeia leve livre envolvida e não envolvida de 100 ou mais e mais de uma lesão focal na ressonância. Tratar antes da lesão evita dano irreversível, como insuficiência renal e fraturas.',
     x: { A: 'A gamopatia de significado indeterminado exige menos de 10% de plasmócitos clonais.', C: 'O mieloma indolente admite plasmócitos entre 10% e 60%; com 60% ou mais já é mieloma ativo.', D: 'O critério já está preenchido, e adiar expõe o paciente a lesão de órgão evitável.' },
@@ -45,7 +45,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: quadro clínico',
     e: 'Homem de 70 anos queixa-se de dor lombar há 4 meses, que piora ao movimento, e de cansaço. Exames: hemoglobina de 8,6 g/dL, VCM normal, VHS de 118 mm/h, creatinina de 2,3 mg/dL, cálcio de 11,9 mg/dL, proteínas totais de 10,2 g/dL e albumina de 2,9 g/dL. A radiografia mostra fratura por compressão de L2 e lesões líticas em crânio. O exame mais adequado para iniciar a confirmação diagnóstica é:',
-    o: ['Cintilografia óssea com tecnécio', 'Eletroforese de proteínas séricas com imunofixação', 'Dosagem de PSA e biópsia de próstata', 'Dosagem de paratormônio'],
+    o: ['Cintilografia óssea com tecnécio, de corpo inteiro', 'Eletroforese de proteínas séricas com imunofixação', 'Dosagem de PSA e biópsia de próstata', 'Dosagem de paratormônio e cálcio ionizado'],
     g: 'B',
     c: 'A combinação de dor óssea, anemia, lesão renal, hipercalcemia, VHS muito elevado e inversão da relação albumina/globulina em idoso é altamente sugestiva de mieloma múltiplo. A eletroforese identifica o pico monoclonal e a imunofixação define o tipo de imunoglobulina e de cadeia leve. A confirmação requer ainda a demonstração de plasmócitos clonais na medula óssea.',
     x: { A: 'A cintilografia tem baixa sensibilidade no mieloma, pois as lesões são puramente líticas.', C: 'A metástase de próstata é blástica e não explica hiperglobulinemia e hipercalcemia.', D: 'O paratormônio estará suprimido; o hiperparatireoidismo não causa hiperglobulinemia.' },
@@ -53,7 +53,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: hiato de proteínas',
     e: 'No mieloma múltiplo, o achado de proteínas totais elevadas com albumina reduzida explica-se por:',
-    o: ['Perda renal de globulinas com retenção de albumina', 'Produção de grande quantidade de imunoglobulina monoclonal, com redução da albumina por efeito de citocinas inflamatórias', 'Hemoconcentração por desidratação', 'Aumento policlonal de imunoglobulinas por infecção crônica'],
+    o: ['Perda renal de globulinas com retenção de albumina', 'Muita Ig monoclonal e albumina baixa por citocinas inflamatórias', 'Hemoconcentração por desidratação, com albumina alta', 'Aumento policlonal de imunoglobulinas por infecção crônica'],
     g: 'B',
     c: 'Os plasmócitos clonais secretam uma única imunoglobulina em grande quantidade, o que eleva a fração de globulinas e as proteínas totais. A albumina cai porque a interleucina 6, produzida no microambiente medular, inibe sua síntese hepática, sendo marcador prognóstico. Enquanto isso, as imunoglobulinas normais estão suprimidas, o que causa imunodeficiência humoral apesar da hiperglobulinemia.',
     x: { A: 'A perda renal no mieloma é de cadeias leves, e a albumina não é retida seletivamente.', C: 'A desidratação eleva proporcionalmente albumina e globulinas, sem inverter a relação.', D: 'No mieloma o aumento é monoclonal, com supressão das imunoglobulinas policlonais.' },
@@ -69,7 +69,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma de cadeias leves',
     e: 'Mulher de 59 anos apresenta dor óssea, anemia e creatinina de 4,1 mg/dL. A eletroforese de proteínas séricas mostra hipogamaglobulinemia, sem pico monoclonal. A fita reagente urinária é negativa para proteína, mas a proteinúria de 24 horas é de 5 g. A interpretação correta é:',
-    o: ['O mieloma está excluído pela ausência de pico monoclonal no soro', 'Trata-se provavelmente de mieloma de cadeias leves; devem ser solicitadas imunofixação sérica e urinária e dosagem de cadeias leves livres', 'Trata-se de síndrome nefrótica por lesão mínima', 'A proteinúria de 24 horas está falsamente elevada e deve ser desconsiderada'],
+    o: ['Mieloma excluído pela ausência de pico monoclonal no soro', 'Provável mieloma de cadeias leves: imunofixação e cadeias livres', 'Síndrome nefrótica por lesão mínima, com albuminúria', 'A proteinúria de 24 h está falsamente elevada; desconsiderar'],
     g: 'B',
     c: 'No mieloma de cadeias leves, o clone produz apenas cadeias kappa ou lambda, que são pequenas, filtradas livremente pelo glomérulo e por isso não formam pico no soro, restando hipogamaglobulinemia. A fita reagente detecta essencialmente albumina e não reage com cadeias leves (proteína de Bence Jones). A dissociação entre fita negativa e proteinúria de 24 horas elevada é a pista clássica.',
     x: { A: 'Parte dos mielomas não exibe pico sérico, por secretar apenas cadeias leves filtradas.', C: 'Na síndrome nefrótica a proteinúria é de albumina, com fita reagente fortemente positiva.', D: 'A dosagem quantitativa detecta todas as proteínas; o método limitado é a fita reagente.' },
@@ -77,7 +77,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: rouleaux',
     e: 'O fenômeno de rouleaux (hemácias empilhadas) no esfregaço de sangue periférico e o VHS muito elevado no mieloma múltiplo decorrem de:',
-    o: ['Presença de anticorpos frios contra antígenos eritrocitários', 'Neutralização das cargas negativas da superfície das hemácias pelo excesso de imunoglobulina, reduzindo a repulsão entre elas', 'Deficiência de espectrina na membrana eritrocitária', 'Fragmentação mecânica das hemácias na microcirculação'],
+    o: ['Anticorpos frios contra antígenos eritrocitários', 'Excesso de Ig neutraliza as cargas das hemácias e reduz a repulsão', 'Deficiência de espectrina na membrana eritrocitária', 'Fragmentação mecânica das hemácias na microcirculação'],
     g: 'B',
     c: 'As hemácias repelem-se por terem carga negativa na superfície (potencial zeta). Proteínas plasmáticas em excesso, como a imunoglobulina monoclonal e o fibrinogênio, neutralizam essas cargas e permitem que as hemácias se empilhem como moedas. Os agregados sedimentam mais rápido, elevando o VHS. Vale notar que o mieloma de cadeias leves pode cursar com VHS normal.',
     x: { A: 'Anticorpos frios causam aglutinação em grumos irregulares, e não empilhamento em moedas.', C: 'A deficiência de espectrina causa esferocitose hereditária, sem relação com rouleaux.', D: 'A fragmentação mecânica produz esquizócitos, vistos nas microangiopatias trombóticas.' },
@@ -85,7 +85,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: cintilografia óssea',
     e: 'A cintilografia óssea com tecnécio tem baixa sensibilidade para detectar as lesões do mieloma múltiplo porque:',
-    o: ['As lesões são pequenas demais para a resolução do método', 'As lesões são puramente osteolíticas, sem atividade osteoblástica reacional para captar o radiofármaco', 'O radiofármaco é eliminado rapidamente quando há insuficiência renal', 'As lesões localizam-se apenas em ossos longos, mal avaliados pelo exame'],
+    o: ['As lesões são pequenas demais para a resolução do método', 'As lesões são osteolíticas, sem reação osteoblástica para captar o traçador', 'O radiofármaco é eliminado rápido na insuficiência renal', 'As lesões ficam só em ossos longos, mal avaliados'],
     g: 'B',
     c: 'O tecnécio ligado a difosfonatos fixa-se onde há formação óssea ativa. No mieloma, as células tumorais estimulam os osteoclastos (via RANKL) e, ao mesmo tempo, inibem os osteoblastos (via DKK1), de modo que não há neoformação óssea e as lesões não captam. Pela mesma razão, a fosfatase alcalina costuma ser normal. Preferem-se tomografia de baixa dose de corpo inteiro, ressonância ou PET-CT.',
     x: { A: 'O problema não é o tamanho, e sim a ausência de atividade osteoblástica nas lesões.', C: 'A função renal não é o motivo da baixa captação pelas lesões do mieloma.', D: 'O mieloma acomete sobretudo o esqueleto axial: coluna, crânio, costelas e pelve.' },
@@ -93,7 +93,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: hipercalcemia',
     e: 'Mulher de 66 anos com mieloma múltiplo é trazida por sonolência, constipação, poliúria e vômitos. Está desidratada, com cálcio sérico de 14,8 mg/dL e creatinina de 2,0 mg/dL. A primeira medida terapêutica é:',
-    o: ['Furosemida intravenosa em dose alta', 'Hidratação vigorosa com solução salina isotônica', 'Hemodiálise imediata', 'Restrição hídrica e hidroclorotiazida'],
+    o: ['Furosemida intravenosa em dose alta, de imediato', 'Hidratação vigorosa com solução salina isotônica', 'Hemodiálise imediata, por via de cateter central', 'Restrição hídrica e hidroclorotiazida, por via oral'],
     g: 'B',
     c: 'A hipercalcemia causa diabetes insípido nefrogênico, com poliúria e depleção de volume, o que reduz a filtração glomerular e a excreção de cálcio, perpetuando o quadro. A expansão com salina isotônica restaura o volume e aumenta a calciurese, sendo a medida inicial. Em seguida associa-se bisfosfonato (com ajuste pela função renal) e corticoide, que tem ação antitumoral no mieloma.',
     x: { A: 'O diurético de alça antes da reposição volêmica agrava a desidratação e a lesão renal.', C: 'A diálise fica para casos refratários ou com lesão renal grave e sobrecarga de volume.', D: 'Restrição hídrica piora o quadro, e os tiazídicos reduzem a excreção urinária de cálcio.' },
@@ -101,7 +101,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: doença renal',
     e: 'A lesão renal mais característica do mieloma múltiplo, conhecida como rim do mieloma, corresponde a:',
-    o: ['Glomerulonefrite membranoproliferativa por imunocomplexos', 'Nefropatia por cilindros, com obstrução e lesão tubular por cadeias leves precipitadas com a proteína de Tamm-Horsfall', 'Nefrite intersticial alérgica por anti-inflamatórios', 'Necrose cortical bilateral por hiperviscosidade'],
+    o: ['GN membranoproliferativa por imunocomplexos circulantes', 'Nefropatia do cilindro: cadeias leves e proteína de Tamm-Horsfall obstruem', 'Nefrite intersticial alérgica por anti-inflamatórios', 'Necrose cortical bilateral por hiperviscosidade sanguínea'],
     g: 'B',
     c: 'As cadeias leves filtradas em excesso ultrapassam a capacidade de reabsorção do túbulo proximal, chegam ao néfron distal e precipitam com a uromodulina (proteína de Tamm-Horsfall), formando cilindros que obstruem os túbulos e desencadeiam inflamação. Desidratação, hipercalcemia, contraste iodado e anti-inflamatórios precipitam o quadro. Outras formas são a amiloidose AL e a doença de depósito de cadeias leves.',
     x: { A: 'A glomerulonefrite por imunocomplexos não é o mecanismo típico da lesão renal do mieloma.', C: 'Os anti-inflamatórios agravam a lesão, mas a nefrite alérgica não é a lesão característica.', D: 'A necrose cortical não faz parte do espectro de lesões renais do mieloma.' },
@@ -117,7 +117,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: infecções',
     e: 'Homem de 72 anos com mieloma múltiplo é internado pela terceira vez em um ano por pneumonia pneumocócica. O principal mecanismo da suscetibilidade a infecções nessa doença é:',
-    o: ['Neutropenia grave por infiltração medular desde o diagnóstico', 'Hipogamaglobulinemia funcional, por supressão da produção das imunoglobulinas normais', 'Deficiência de complemento por consumo', 'Asplenia funcional por infiltração do baço'],
+    o: ['Neutropenia grave por infiltração medular desde o início', 'Hipogamaglobulinemia funcional: supressão das Ig normais', 'Deficiência de complemento por consumo, nas infecções', 'Asplenia funcional por infiltração do baço'],
     g: 'B',
     c: 'Apesar do excesso de imunoglobulina total, a proteína monoclonal não tem função protetora, e a produção das imunoglobulinas policlonais normais está suprimida (imunoparesia). Isso prejudica a opsonização e torna o paciente suscetível a bactérias encapsuladas, como pneumococo e Haemophilus. A infecção é a principal causa de morte no mieloma, e a quimioterapia e o corticoide somam outros defeitos imunes.',
     x: { A: 'A neutropenia grave não é habitual ao diagnóstico; surge sobretudo com o tratamento.', C: 'O consumo de complemento não é o mecanismo central da imunodeficiência do mieloma.', D: 'O baço raramente é infiltrado no mieloma, e não há asplenia funcional típica.' },
@@ -125,7 +125,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: compressão medular',
     e: 'Mulher de 64 anos com mieloma múltiplo refere piora da dor torácica dorsal há 1 semana e, há 2 dias, fraqueza progressiva em membros inferiores, parestesias e retenção urinária. Ao exame, paraparesia com nível sensitivo em T8. A conduta imediata é:',
-    o: ['Analgesia e repouso, com ressonância ambulatorial em 2 semanas', 'Dexametasona em dose alta e ressonância de coluna de urgência, seguidas de radioterapia ou descompressão cirúrgica', 'Punção lombar para pesquisa de células neoplásicas', 'Iniciar bisfosfonato e reavaliar em 1 mês'],
+    o: ['Analgesia e repouso; ressonância ambulatorial em 2 semanas', 'Dexametasona alta e RM de coluna urgente; depois RT ou cirurgia', 'Punção lombar para pesquisa de células neoplásicas', 'Iniciar bisfosfonato e reavaliar em 1 mês'],
     g: 'B',
     c: 'A compressão medular epidural é emergência oncológica: o prognóstico funcional depende do déficit no momento do tratamento, e a paralisia instalada raramente reverte. O corticoide reduz o edema vasogênico e, no mieloma, tem também efeito citotóxico sobre os plasmócitos. A ressonância de toda a coluna define a extensão, e o tratamento definitivo é radioterapia, pois o tumor é radiossensível, ou cirurgia se houver instabilidade.',
     x: { A: 'Adiar a investigação com déficit neurológico em progressão leva a paraplegia irreversível.', C: 'A punção lombar não diagnostica compressão epidural e pode piorar o quadro neurológico.', D: 'O bisfosfonato previne eventos ósseos, mas não trata a compressão medular aguda.' },
@@ -133,7 +133,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: tratamento do paciente elegível',
     e: 'Homem de 56 anos, sem comorbidades, recebe diagnóstico de mieloma múltiplo sintomático. A estratégia terapêutica de primeira linha mais adequada é:',
-    o: ['Melfalano e prednisona orais por tempo indeterminado', 'Indução com esquema triplo contendo bortezomibe, lenalidomida e dexametasona, seguida de melfalano em altas doses com transplante autólogo e manutenção', 'Transplante alogênico de medula óssea imediato', 'Radioterapia de todas as lesões líticas e observação'],
+    o: ['Melfalano e prednisona orais por tempo indeterminado, sem transplante', 'Indução tripla (bortezomibe, lenalidomida, dexametasona), depois transplante autólogo', 'Transplante alogênico de medula óssea imediato, sem indução', 'Radioterapia de todas as lesões líticas e observação clínica'],
     g: 'B',
     c: 'No paciente apto, a indução combina inibidor de proteassoma (bortezomibe), imunomodulador (lenalidomida) e corticoide, com ou sem anticorpo anti-CD38, para reduzir a massa tumoral. Segue-se a consolidação com melfalano em altas doses e resgate com células-tronco autólogas, que prolonga a sobrevida livre de progressão, e a manutenção com lenalidomida. A doença continua incurável, mas com sobrevida bem maior.',
     x: { A: 'O melfalano na indução lesa as células-tronco e prejudica a coleta para o transplante.', C: 'O transplante alogênico tem alta mortalidade e não é o padrão no mieloma.', D: 'A radioterapia é paliativa para lesões dolorosas ou compressivas, não tratamento sistêmico.' },
@@ -141,7 +141,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: efeitos adversos',
     e: 'Em relação aos efeitos adversos dos fármacos usados no mieloma múltiplo, assinale a alternativa correta:',
-    o: ['A lenalidomida causa principalmente neuropatia periférica dolorosa e reativação de herpes-zóster', 'O bortezomibe associa-se a neuropatia periférica e reativação de herpes-zóster; a lenalidomida e a talidomida aumentam o risco de tromboembolismo venoso', 'A dexametasona é a principal causa de trombocitopenia', 'O bortezomibe é teratogênico e exige programa de prevenção de gravidez'],
+    o: ['Lenalidomida causa neuropatia dolorosa e herpes-zóster', 'Bortezomibe: neuropatia e zóster; lenalidomida/talidomida: trombose venosa', 'A dexametasona é a principal causa de trombocitopenia', 'O bortezomibe é teratogênico e exige prevenção de gravidez'],
     g: 'B',
     c: 'O bortezomibe, inibidor do proteassoma, causa neuropatia periférica sensitiva (menor com a via subcutânea) e reativação do vírus varicela-zóster, exigindo profilaxia com aciclovir. Os imunomoduladores (talidomida, lenalidomida) aumentam o risco de trombose venosa, sobretudo com dexametasona, o que indica tromboprofilaxia, e são teratogênicos. A talidomida também causa neuropatia.',
     x: { A: 'Neuropatia e zóster são próprios do bortezomibe; a lenalidomida causa trombose e citopenias.', C: 'O corticoide causa hiperglicemia, insônia e infecções, não trombocitopenia relevante.', D: 'A teratogenicidade é característica dos imunomoduladores, como talidomida e lenalidomida.' },
@@ -149,7 +149,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Mieloma: bisfosfonato',
     e: 'Mulher de 61 anos com mieloma múltiplo e múltiplas lesões líticas vai iniciar ácido zoledrônico mensal. Antes da primeira dose, deve-se obrigatoriamente:',
-    o: ['Realizar cintilografia óssea para quantificar as lesões', 'Avaliar a função renal e providenciar avaliação odontológica, pelo risco de osteonecrose de mandíbula', 'Suspender cálcio e vitamina D para evitar hipercalcemia', 'Solicitar densitometria óssea e tratar apenas se houver osteoporose'],
+    o: ['Cintilografia óssea para quantificar as lesões', 'Avaliar função renal e dentista (osteonecrose de mandíbula)', 'Suspender cálcio e vitamina D para evitar hipercalcemia', 'Densitometria óssea; tratar só se houver osteoporose'],
     g: 'B',
     c: 'Os bisfosfonatos inibem os osteoclastos e reduzem fraturas, dor e hipercalcemia no mieloma, sendo indicados a todos os pacientes em tratamento. Seus principais riscos são a nefrotoxicidade, que exige ajuste pela creatinina, e a osteonecrose de mandíbula, favorecida por procedimentos dentários invasivos durante o uso. Por isso o tratamento odontológico deve ser concluído antes do início.',
     x: { A: 'A cintilografia é pouco sensível no mieloma e não orienta o uso de bisfosfonato.', C: 'Cálcio e vitamina D devem ser repostos, pois o bisfosfonato pode causar hipocalcemia.', D: 'A indicação independe da densitometria; baseia-se na doença óssea do mieloma.' },
@@ -165,7 +165,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Waldenström: quadro clínico',
     e: 'Homem de 69 anos apresenta fadiga, epistaxes, cefaleia e borramento visual há 2 meses. Ao exame, linfonodomegalia discreta e esplenomegalia. A fundoscopia mostra veias retinianas dilatadas e tortuosas, em salsicha, com hemorragias. Exames: anemia, pico monoclonal IgM de 5,2 g/dL, radiografias ósseas sem lesões líticas e medula óssea infiltrada por linfócitos plasmocitoides. O diagnóstico é:',
-    o: ['Mieloma múltiplo IgM', 'Macroglobulinemia de Waldenström', 'Leucemia linfocítica crônica', 'Amiloidose AL'],
+    o: ['Mieloma múltiplo IgM, raro', 'Macroglobulinemia de Waldenström (IgM)', 'Leucemia linfocítica crônica (IgM)', 'Amiloidose AL, com cadeias leves'],
     g: 'B',
     c: 'A macroglobulinemia de Waldenström é um linfoma linfoplasmocítico com infiltração medular e secreção de IgM monoclonal. Diferentemente do mieloma, cursa com linfonodomegalia e hepatoesplenomegalia e não causa lesões líticas nem hipercalcemia. A IgM é um pentâmero grande, predominantemente intravascular, que eleva a viscosidade do sangue. A mutação MYD88 L265P está presente na grande maioria dos casos.',
     x: { A: 'O mieloma IgM é raríssimo e teria plasmócitos na medula, com lesões líticas.', C: 'A leucemia linfocítica crônica cursa com linfocitose e não com paraproteína IgM elevada.', D: 'A amiloidose AL manifesta-se por depósito em órgãos, sem hiperviscosidade típica.' },
@@ -181,7 +181,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Amiloidose AL: quadro clínico',
     e: 'Homem de 63 anos apresenta edema de membros inferiores, dispneia, parestesias em mãos e hipotensão postural. Ao exame, macroglossia com impressões dentárias e púrpura periorbitária. Exames: proteinúria de 6 g em 24 horas com albumina baixa, ecocardiograma com paredes ventriculares espessadas e fração de ejeção preservada, e eletrocardiograma com baixa voltagem. A imunofixação mostra cadeia leve lambda monoclonal. O exame inicial mais adequado para confirmar o diagnóstico é:',
-    o: ['Biópsia endomiocárdica como primeiro exame', 'Aspirado de gordura abdominal ou biópsia de medula com coloração pelo vermelho Congo', 'Cintilografia óssea com tecnécio', 'Dosagem sérica de enzima conversora de angiotensina'],
+    o: ['Biópsia endomiocárdica como primeiro exame', 'Aspirado de gordura abdominal ou medula, com vermelho Congo', 'Cintilografia óssea com tecnécio, de corpo inteiro', 'Dosagem sérica de enzima conversora de angiotensina'],
     g: 'B',
     c: 'Na amiloidose AL, cadeias leves monoclonais, mais frequentemente lambda, depositam-se como fibrilas em folha beta-pregueada nos tecidos. Macroglossia e púrpura periorbitária são muito sugestivas, somadas a síndrome nefrótica, cardiomiopatia restritiva com baixa voltagem, neuropatia e disautonomia. O diagnóstico exige demonstrar o depósito, que se cora pelo vermelho Congo e exibe birrefringência verde-maçã à luz polarizada, começando por sítios de fácil acesso.',
     x: { A: 'A biópsia de órgão acometido é reservada a casos com sítios acessíveis negativos.', C: 'A cintilografia com tecnécio sugere amiloidose por transtirretina, não a forma AL.', D: 'A enzima conversora serve à investigação de sarcoidose, não de amiloidose.' },
@@ -189,7 +189,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Amiloidose AL: conceito',
     e: 'A respeito da amiloidose AL (primária), é correto afirmar:',
-    o: ['É causada pelo depósito de proteína amiloide A sérica em doenças inflamatórias crônicas', 'É uma discrasia de plasmócitos em que o depósito é formado por cadeias leves de imunoglobulina, podendo ocorrer isoladamente ou associada ao mieloma', 'O depósito é formado por transtirretina mutante', 'Acomete exclusivamente os rins, poupando coração e nervos'],
+    o: ['Depósito de proteína amiloide A em doenças inflamatórias crônicas', 'Discrasia de plasmócitos: depósito de cadeias leves; isolada ou com mieloma', 'O depósito é de transtirretina mutante, hereditária', 'Acomete só os rins, poupando coração e nervos'],
     g: 'B',
     c: 'A amiloidose AL decorre de um clone de plasmócitos, em geral pequeno, cujas cadeias leves têm tendência a se dobrar de forma anômala e formar fibrilas insolúveis. Pode surgir isolada ou em parcela dos pacientes com mieloma. O tratamento é dirigido ao clone, com esquemas à base de bortezomibe e daratumumabe, e o acometimento cardíaco é o principal determinante do prognóstico.',
     x: { A: 'O depósito de amiloide A sérico caracteriza a amiloidose AA, secundária à inflamação crônica.', C: 'A transtirretina forma o depósito das amiloidoses ATTR, hereditária ou senil.', D: 'A forma AL é sistêmica, atingindo rim, coração, nervos, fígado e trato gastrointestinal.' },
@@ -197,7 +197,7 @@ export const LINFOMAS_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome POEMS',
     e: 'A síndrome POEMS é uma síndrome paraneoplásica associada a discrasia de plasmócitos. Sobre ela, é correto afirmar:',
-    o: ['Cursa tipicamente com lesões ósseas líticas, hipercalcemia e insuficiência renal', 'Caracteriza-se por polineuropatia, organomegalia, endocrinopatia, proteína monoclonal e alterações cutâneas, com lesões ósseas escleróticas e VEGF elevado', 'A proteína monoclonal é quase sempre de cadeia leve kappa', 'A polineuropatia é rara e não é necessária para o diagnóstico'],
+    o: ['Lesões líticas, hipercalcemia e insuficiência renal, típicas do mieloma', 'POEMS: polineuropatia, organomegalia, endocrinopatia, M e pele; VEGF alto', 'A proteína monoclonal é quase sempre de cadeia leve kappa', 'A polineuropatia é rara e não é necessária ao diagnóstico'],
     g: 'B',
     c: 'O acrônimo POEMS reúne polineuropatia (desmielinizante, obrigatória para o diagnóstico), organomegalia, endocrinopatia, proteína M e alterações de pele (skin), como hiperpigmentação. Ao contrário do mieloma clássico, as lesões ósseas são escleróticas, a cadeia leve é quase sempre lambda e o fator de crescimento do endotélio vascular está muito elevado, explicando edema, derrames e papiledema.',
     x: { A: 'Esse é o quadro do mieloma clássico; na POEMS as lesões ósseas são escleróticas.', C: 'A cadeia leve envolvida na síndrome POEMS é quase sempre lambda, não kappa.', D: 'A polineuropatia é critério obrigatório, junto com a gamopatia monoclonal.' },

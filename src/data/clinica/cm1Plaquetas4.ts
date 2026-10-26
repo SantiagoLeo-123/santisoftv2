@@ -29,7 +29,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Quando pesquisar trombofilia',
     e: 'A investigação de trombofilia hereditária deve ser seletiva. Em todas as situações abaixo ela costuma ser considerada, EXCETO:',
-    o: ['Trombose venosa não provocada antes dos 45 anos', 'Trombose venosa em sítio incomum, como veias cerebrais ou esplâncnicas', 'Trombose venosa recorrente com forte história familiar', 'Primeiro episódio de trombose venosa em idoso de 74 anos após artroplastia de quadril'],
+    o: ['Trombose venosa não provocada antes dos 45 anos', 'Trombose em sítio incomum (veias cerebrais ou esplâncnicas)', 'Trombose recorrente com forte história familiar', 'Primeiro episódio em idoso de 74 anos após artroplastia'],
     g: 'D',
     c: 'Quando a trombose é provocada por fator de risco maior e transitório, como cirurgia ortopédica, o risco de recorrência é baixo e o resultado da pesquisa não muda a conduta, que é anticoagular por tempo limitado. A investigação faz mais sentido em jovens, em eventos não provocados, recorrentes, em sítios atípicos ou com história familiar marcante.',
     x: { A: 'Evento não provocado em jovem é indicação clássica de investigação.', B: 'Sítios incomuns sugerem trombofilia ou outra doença de base.', C: 'Recorrência e história familiar aumentam a probabilidade de trombofilia hereditária.' },
@@ -45,7 +45,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome do anticorpo antifosfolípide: diagnóstico',
     e: 'Mulher de 32 anos tem antecedente de três abortamentos antes de 10 semanas e apresenta agora trombose venosa profunda. Exames: plaquetas 110.000/mm3, TP normal e TTPa alargado, que não corrige na mistura. VDRL reagente em baixo título, com teste treponêmico negativo. A principal hipótese é:',
-    o: ['Hemofilia A adquirida', 'Síndrome do anticorpo antifosfolípide', 'Deficiência de fator XI', 'Sífilis latente tardia'],
+    o: ['Hemofilia A adquirida, com TTPa alargado', 'Síndrome do anticorpo antifosfolípide', 'Deficiência de fator XI, com TTPa alargado', 'Sífilis latente tardia, com VDRL falso-positivo'],
     g: 'B',
     c: 'Trombose associada a perdas gestacionais de repetição, plaquetopenia leve, TTPa alargado que não corrige e VDRL falso-positivo (o reagente do teste contém cardiolipina) formam o quadro clássico da síndrome antifosfolípide. A confirmação exige anticoagulante lúpico, anticardiolipina ou anti-beta-2-glicoproteína I positivos.',
     x: { A: 'O inibidor de fator VIII causa sangramento grave, e não trombose.', C: 'A deficiência de fator XI corrige na mistura e causa sangramento leve.', D: 'O teste treponêmico negativo indica VDRL falso-positivo.' },
@@ -53,7 +53,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome do anticorpo antifosfolípide: critérios',
     e: 'Para o diagnóstico de síndrome do anticorpo antifosfolípide, além de um evento clínico trombótico ou obstétrico, é necessário:',
-    o: ['Uma única dosagem positiva de qualquer anticorpo', 'Positividade persistente de anticorpo antifosfolípide, confirmada após pelo menos 12 semanas', 'FAN e anti-DNA positivos', 'Demonstração de consumo de complemento'],
+    o: ['Uma única dosagem positiva de qualquer anticorpo', 'Positividade persistente de aPL, confirmada após 12 semanas', 'FAN e anti-DNA positivos, em títulos altos e persistentes', 'Demonstração de consumo de complemento, no soro'],
     g: 'B',
     c: 'Os anticorpos considerados são o anticoagulante lúpico, a anticardiolipina e o anti-beta-2-glicoproteína I (IgG ou IgM, em títulos moderados a altos). Como infecções e medicamentos induzem positividade transitória sem significado clínico, exige-se a repetição com intervalo mínimo de 12 semanas. A tripla positividade identifica os pacientes de maior risco trombótico.',
     x: { A: 'Positividade isolada pode ser transitória, por infecção ou fármacos.', C: 'FAN e anti-DNA são marcadores de lúpus; a síndrome pode ser primária.', D: 'O consumo de complemento não faz parte dos critérios diagnósticos.' },
@@ -61,7 +61,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Anticoagulante lúpico',
     e: 'O anticoagulante lúpico prolonga o TTPa, mas os pacientes apresentam trombose, e não sangramento. Esse aparente paradoxo se explica porque:',
-    o: ['O anticorpo destrói o fator VIII apenas in vivo', 'O anticorpo interfere com os fosfolípides do reagente in vitro, mas in vivo ativa endotélio, plaquetas e complemento', 'O anticorpo estimula a fibrinólise no tubo de ensaio', 'O anticorpo consome a antitrombina do reagente'],
+    o: ['O anticorpo destrói o fator VIII apenas in vivo, no sangue', 'Interfere in vitro com fosfolípides; in vivo ativa endotélio', 'O anticorpo estimula a fibrinólise no tubo de ensaio', 'O anticorpo consome a antitrombina do reagente do exame'],
     g: 'B',
     c: 'Os testes de coagulação dependem de fosfolípides como superfície para os complexos enzimáticos; o anticorpo se liga a eles e atrasa a formação do coágulo no tubo. No organismo, porém, esses anticorpos ativam células endoteliais, plaquetas, monócitos e o complemento, criando um estado pró-trombótico. Por ser um inibidor, o TTPa não corrige na mistura.',
     x: { A: 'O anticoagulante lúpico não é um inibidor específico do fator VIII.', C: 'Não há ativação de fibrinólise como mecanismo do prolongamento.', D: 'O anticorpo não tem a antitrombina como alvo.' },
@@ -77,7 +77,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Heparina não fracionada',
     e: 'Em relação à heparina não fracionada em dose terapêutica por via intravenosa, é correto afirmar que:',
-    o: ['Inibe diretamente a trombina, sem necessidade de cofator', 'Potencializa a antitrombina e é monitorizada pelo TTPa', 'É monitorizada pelo INR', 'Tem eliminação exclusivamente renal'],
+    o: ['Inibe a trombina diretamente, sem cofator', 'Potencializa a antitrombina; monitorizada pelo TTPa', 'Monitorizada pelo INR, a cada consulta', 'Tem eliminação exclusivamente renal, sem metabolismo'],
     g: 'B',
     c: 'A heparina não fracionada liga-se à antitrombina e acelera a inibição da trombina e do fator Xa em proporções semelhantes. Sua resposta é pouco previsível, pois se liga a proteínas plasmáticas e células, exigindo ajuste pelo TTPa (ou pelo anti-Xa). A meia-vida curta e a reversão completa pela protamina a tornam útil no paciente instável ou com insuficiência renal grave.',
     x: { A: 'A ação é indireta e depende obrigatoriamente da antitrombina.', C: 'O INR monitoriza os antagonistas da vitamina K, não a heparina.', D: 'A depuração é principalmente pelo sistema reticuloendotelial, daí seu uso na doença renal.' },
@@ -101,7 +101,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Mecanismo da varfarina',
     e: 'A varfarina exerce seu efeito anticoagulante por:',
-    o: ['Inibição direta e reversível do fator Xa', 'Inibição da vitamina K epóxido redutase, impedindo a regeneração da vitamina K ativa', 'Potencialização da antitrombina', 'Bloqueio da absorção intestinal de vitamina K'],
+    o: ['Inibição direta e reversível do fator Xa, no plasma', 'Inibição da vitamina K epóxido redutase hepática', 'Potencialização da antitrombina, no plasma', 'Bloqueio da absorção intestinal de vitamina K'],
     g: 'B',
     c: 'Ao inibir a enzima VKORC1, a varfarina impede a reciclagem da vitamina K à forma reduzida, necessária para a gama-carboxilação dos fatores II, VII, IX e X. São sintetizados fatores não funcionais. Como os fatores já circulantes precisam ser depurados, o efeito pleno demora alguns dias, e a monitorização é feita pelo INR.',
     x: { A: 'A inibição direta do fator Xa é o mecanismo de rivaroxabana e apixabana.', C: 'A potencialização da antitrombina é o mecanismo das heparinas.', D: 'A varfarina não interfere na absorção, e sim na reciclagem da vitamina K.' },
@@ -109,7 +109,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Início da varfarina',
     e: 'No tratamento da trombose venosa profunda com varfarina, recomenda-se manter heparina em dose plena por pelo menos 5 dias e até o INR atingir a faixa terapêutica. A razão dessa sobreposição é:',
-    o: ['A heparina aumenta a absorção intestinal da varfarina', 'A proteína C cai antes dos fatores pró-coagulantes de meia-vida longa, gerando hipercoagulabilidade transitória', 'A varfarina inibe a antitrombina nos primeiros dias', 'O INR não se altera na primeira semana de tratamento'],
+    o: ['A heparina aumenta a absorção intestinal da varfarina', 'A proteína C cai antes dos fatores longos: risco trombótico', 'A varfarina inibe a antitrombina nos primeiros dias', 'O INR não se altera na primeira semana de tratamento'],
     g: 'B',
     c: 'A proteína C e o fator VII têm meia-vida curta e caem logo nos primeiros dias; o INR pode até subir pela queda do fator VII, mas a protrombina e o fator X, de meia-vida longa, ainda estão presentes. Nesse período o paciente está sem anticoagulante natural e ainda sem proteção antitrombótica real, o que pode propagar o trombo.',
     x: { A: 'Não há interação de absorção entre heparina e varfarina.', C: 'A varfarina não atua sobre a antitrombina.', D: 'O INR se eleva cedo, mas isso não significa anticoagulação efetiva.' },
@@ -125,7 +125,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Interações da varfarina',
     e: 'Homem de 69 anos, com fibrilação atrial e INR estável entre 2 e 3 em uso de varfarina, inicia amiodarona. Três semanas depois, apresenta hematúria e INR de 7,2. A explicação é:',
-    o: ['A amiodarona induz o CYP2C9 e reduz o nível de varfarina', 'A amiodarona inibe o metabolismo hepático da varfarina, potencializando seu efeito', 'A amiodarona desloca a vitamina K do fígado', 'A amiodarona causa plaquetopenia grave'],
+    o: ['A amiodarona induz o CYP2C9 e reduz o nível de varfarina', 'A amiodarona inibe o metabolismo da varfarina: efeito maior', 'A amiodarona desloca a vitamina K do fígado', 'A amiodarona causa plaquetopenia grave, associada'],
     g: 'B',
     c: 'A varfarina é metabolizada principalmente pelo CYP2C9. Inibidores dessa via, como amiodarona, sulfametoxazol-trimetoprima, metronidazol e antifúngicos azólicos, elevam seu nível e o INR. Ao iniciar amiodarona, deve-se reduzir a dose da varfarina e monitorizar o INR de perto. O efeito oposto ocorre com indutores como rifampicina, carbamazepina e fenitoína.',
     x: { A: 'A amiodarona é inibidora, e não indutora, do metabolismo da varfarina.', C: 'Não há deslocamento de vitamina K como mecanismo dessa interação.', D: 'A amiodarona não costuma causar plaquetopenia, e o INR elevado explica o sangramento.' },
@@ -133,7 +133,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'INR elevado sem sangramento',
     e: 'Mulher de 74 anos, em uso de varfarina por prótese mitral mecânica, comparece assintomática com INR de 6,5. Não há sangramento nem queda recente. A conduta mais adequada é:',
-    o: ['Complexo protrombínico imediatamente', 'Suspender uma ou duas doses, reavaliar o INR e reiniciar com dose menor', 'Plasma fresco congelado e internação em UTI', 'Vitamina K intravenosa em dose alta e suspensão definitiva da varfarina'],
+    o: ['Complexo protrombínico imediatamente, por via venosa', 'Suspender 1-2 doses, rever o INR e reiniciar com dose menor', 'Plasma fresco congelado e internação em UTI', 'Vitamina K IV em dose alta e suspender a varfarina para sempre'],
     g: 'B',
     c: 'Com INR entre 4,5 e 10 e sem sangramento, basta omitir uma ou duas doses e monitorizar, pois o risco hemorrágico de curto prazo é baixo. A vitamina K oral em dose baixa é reservada a INR acima de 10 ou a alto risco de sangramento. Doses altas de vitamina K causam resistência à varfarina por dias, o que é perigoso em portadores de prótese mecânica.',
     x: { A: 'O complexo protrombínico é reservado a sangramento grave ou cirurgia de emergência.', C: 'Plasma não é indicado sem sangramento e acarreta sobrecarga de volume.', D: 'Dose alta de vitamina K dificulta a reanticoagulação e expõe a trombose de prótese.' },
@@ -141,7 +141,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Reversão de emergência da varfarina',
     e: 'Homem de 78 anos em uso de varfarina é trazido após queda, com rebaixamento do nível de consciência. Tomografia mostra hematoma subdural agudo e o INR é de 4,8. A reversão da anticoagulação deve ser feita com:',
-    o: ['Vitamina K oral isolada', 'Concentrado de complexo protrombínico associado a vitamina K intravenosa', 'Sulfato de protamina', 'Concentrado de plaquetas'],
+    o: ['Vitamina K oral isolada, em dose habitual', 'Complexo protrombínico mais vitamina K intravenosa', 'Sulfato de protamina, por via venosa', 'Concentrado de plaquetas, por via venosa'],
     g: 'B',
     c: 'No sangramento com risco de vida, o complexo protrombínico de quatro fatores repõe II, VII, IX e X em minutos e com pequeno volume, sendo preferível ao plasma fresco. Seu efeito é transitório, por isso se associa vitamina K intravenosa, que restabelece a síntese hepática dos fatores em algumas horas e sustenta a correção.',
     x: { A: 'A vitamina K isolada demora horas para agir, tempo inaceitável na hemorragia intracraniana.', C: 'A protamina é o antídoto da heparina, sem efeito sobre a varfarina.', D: 'O problema é a falta de fatores da coagulação, e não de plaquetas.' },
@@ -157,7 +157,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Inibidores do fator Xa',
     e: 'Sobre a rivaroxabana e a apixabana, é correto afirmar que:',
-    o: ['Exigem controle periódico do INR para ajuste de dose', 'São inibidores diretos do fator Xa, cujo efeito pode ser revertido por andexanet alfa ou complexo protrombínico', 'São revertidas pelo idarucizumabe', 'Dependem da antitrombina para exercer seu efeito'],
+    o: ['Exigem controle periódico do INR para ajuste de dose', 'Inibem o fator Xa; reversão com andexanet ou complexo protrombínico', 'São revertidas pelo idarucizumabe, específico', 'Dependem da antitrombina para exercer seu efeito'],
     g: 'B',
     c: 'Esses fármacos inibem o fator Xa livre e o ligado ao complexo protrombinase, sem cofator. Têm farmacocinética previsível, dispensando monitorização de rotina. O andexanet alfa é um fator Xa recombinante modificado, sem atividade enzimática, que funciona como isca para o fármaco; quando indisponível, usa-se o complexo protrombínico de quatro fatores.',
     x: { A: 'Não há necessidade de monitorização laboratorial de rotina.', C: 'O idarucizumabe reverte apenas a dabigatrana.', D: 'A inibição do fator Xa é direta, ao contrário de heparinas e fondaparinux.' },
@@ -165,7 +165,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Limitações dos anticoagulantes diretos',
     e: 'Mulher de 55 anos, portadora de prótese valvar mitral mecânica, pergunta se pode trocar a varfarina por um anticoagulante oral direto para não precisar mais controlar o INR. A resposta correta é:',
-    o: ['Sim, a dabigatrana é superior à varfarina nessa situação', 'Não, pois a varfarina é o anticoagulante indicado em prótese mecânica', 'Sim, desde que se associe ácido acetilsalicílico', 'Sim, se a função renal for normal'],
+    o: ['Sim: dabigatrana é superior à varfarina nessa situação', 'Não: varfarina é o anticoagulante indicado em prótese mecânica', 'Sim, desde que se associe ácido acetilsalicílico', 'Sim, se a função renal for normal, em dose plena'],
     g: 'B',
     c: 'Em portadores de prótese mecânica, a dabigatrana causou mais eventos tromboembólicos e mais sangramento que a varfarina, e os anticoagulantes diretos são contraindicados. O mesmo vale para a fibrilação atrial com estenose mitral moderada a grave. Nessas situações, mantém-se o antagonista da vitamina K com controle do INR.',
     x: { A: 'A dabigatrana foi inferior à varfarina em próteses mecânicas.', C: 'A associação de antiagregante não torna os anticoagulantes diretos seguros na prótese.', D: 'A contraindicação independe da função renal.' },
@@ -173,7 +173,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Fibrinolíticos',
     e: 'A alteplase, utilizada no acidente vascular cerebral isquêmico e na embolia pulmonar de alto risco, age por:',
-    o: ['Inibição da trombina ligada ao coágulo', 'Conversão do plasminogênio em plasmina, que degrada a fibrina', 'Bloqueio da glicoproteína IIb/IIIa', 'Inibição da gama-carboxilação dos fatores'],
+    o: ['Inibição da trombina ligada ao coágulo', 'Conversão do plasminogênio em plasmina, que degrada fibrina', 'Bloqueio da glicoproteína IIb/IIIa das plaquetas', 'Inibição da gama-carboxilação dos fatores'],
     g: 'B',
     c: 'A alteplase é o ativador tecidual do plasminogênio recombinante: converte o plasminogênio em plasmina preferencialmente na superfície da fibrina, dissolvendo o trombo. Como a plasmina também degrada fibrinogênio e tampões hemostáticos, o principal risco é a hemorragia, sobretudo intracraniana, o que define as contraindicações.',
     x: { A: 'A inibição da trombina é o mecanismo de dabigatrana e bivalirudina.', C: 'O bloqueio da GPIIb/IIIa é antiagregante, e não fibrinolítico.', D: 'A inibição da gama-carboxilação é o mecanismo da varfarina.' },
@@ -181,7 +181,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Ácido tranexâmico',
     e: 'Homem de 29 anos, vítima de colisão de motocicleta há 1 hora, chega em choque hemorrágico por fratura pélvica. Entre as medidas iniciais, indica-se ácido tranexâmico. Sobre esse fármaco, é correto afirmar que:',
-    o: ['É um fibrinolítico que dissolve trombos já formados', 'É um antifibrinolítico que impede a ligação do plasminogênio à fibrina e deve ser iniciado nas primeiras 3 horas do trauma', 'Só deve ser iniciado após 6 horas do trauma', 'É o antídoto específico da heparina de baixo peso molecular'],
+    o: ['Fibrinolítico que dissolve trombos já formados', 'Antifibrinolítico; iniciar nas primeiras 3 horas do trauma', 'Só deve ser iniciado após 6 horas do trauma', 'Antídoto específico da heparina de baixo peso molecular'],
     g: 'B',
     c: 'O ácido tranexâmico é um análogo da lisina que ocupa os sítios de ligação do plasminogênio, impedindo sua fixação à fibrina e a lise do coágulo. No trauma com hemorragia, reduz a mortalidade quando administrado precocemente, com benefício maior quanto mais cedo e possível prejuízo após 3 horas. Também é usado na hemorragia pós-parto e em sangramentos de mucosas.',
     x: { A: 'O fármaco inibe a fibrinólise; quem dissolve trombos são os fibrinolíticos.', C: 'O início tardio não traz benefício e pode ser prejudicial.', D: 'O antídoto das heparinas é a protamina.' },
@@ -197,7 +197,7 @@ export const PLAQUETAS_4: QuestaoCompacta[] = [
   {
     s: 'Plasma fresco congelado',
     e: 'Em relação ao plasma fresco congelado, assinale a indicação apropriada:',
-    o: ['Expansão volêmica no choque hipovolêmico', 'Sangramento com deficiência de múltiplos fatores, como na hepatopatia e na transfusão maciça', 'Correção de INR discretamente alargado em paciente estável e sem sangramento', 'Reposição nutricional de proteínas'],
+    o: ['Expansão volêmica no choque hipovolêmico grave', 'Sangramento com déficit de vários fatores (hepatopatia, transfusão)', 'Correção de INR discretamente alargado, sem sangramento ativo', 'Reposição nutricional de proteínas, no paciente hepatopata'],
     g: 'B',
     c: 'O plasma fresco congelado contém todos os fatores da coagulação e os anticoagulantes naturais. É indicado no sangramento, ou antes de procedimento invasivo, quando há deficiência de vários fatores (hepatopatia, CIVD, transfusão maciça), e como fluido de reposição na plasmaférese da PTT. Não deve ser usado como expansor nem para corrigir exames isoladamente.',
     x: { A: 'Para expansão volêmica usam-se cristaloides, com menor risco e custo.', C: 'Alterações leves sem sangramento não se beneficiam da transfusão de plasma.', D: 'Plasma não é suporte nutricional e expõe a riscos transfusionais.' },

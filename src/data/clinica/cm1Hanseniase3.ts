@@ -29,7 +29,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Dose supervisionada',
     e: 'Na PQT-U do adulto, a dose mensal supervisionada, tomada na presença do profissional de saúde, inclui:',
-    o: ['Apenas rifampicina 600 mg', 'Rifampicina 600 mg, clofazimina 300 mg e dapsona 100 mg', 'Dapsona 100 mg e clofazimina 50 mg', 'Rifampicina 300 mg e dapsona 50 mg'],
+    o: ['Apenas rifampicina 600 mg, em dose mensal', 'Rifampicina 600 mg, clofazimina 300 mg e dapsona 100 mg', 'Dapsona 100 mg e clofazimina 50 mg, em dose mensal', 'Rifampicina 300 mg e dapsona 50 mg, em dose mensal'],
     g: 'B',
     c: 'Na dose mensal supervisionada o adulto recebe rifampicina 600 mg, clofazimina 300 mg e dapsona 100 mg. Nos demais dias, toma em casa, sem supervisão, dapsona 100 mg e clofazimina 50 mg. A supervisão garante a tomada do fármaco bactericida e a oportunidade de reavaliar o paciente todo mês.',
     x: { A: 'A dose supervisionada inclui os três fármacos, não só a rifampicina.', C: 'Essas são as doses diárias autoadministradas, não a dose supervisionada.', D: 'As doses do adulto são rifampicina 600 mg e dapsona 100 mg.' },
@@ -45,7 +45,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Farmacologia',
     e: 'O mecanismo de ação da dapsona sobre o Mycobacterium leprae é:',
-    o: ['Inibição da síntese de ácidos micólicos da parede celular', 'Inibição da di-hidropteroato sintase, bloqueando a síntese de ácido fólico', 'Inibição da DNA girase bacteriana', 'Ligação à subunidade 30S do ribossomo'],
+    o: ['Inibição da síntese de ácidos micólicos da parede', 'Inibição da di-hidropteroato sintase (ácido fólico)', 'Inibição da DNA girase bacteriana, na replicação', 'Ligação à subunidade 30S do ribossomo, na tradução'],
     g: 'B',
     c: 'A dapsona é uma sulfona que, à semelhança das sulfonamidas, compete com o ácido para-aminobenzoico e inibe a di-hidropteroato sintase, impedindo a síntese de folato pelo bacilo. O efeito é bacteriostático, e a resistência decorre de mutações no gene dessa enzima.',
     x: { A: 'Esse é o mecanismo da isoniazida, usada na tuberculose.', C: 'A inibição da DNA girase é o mecanismo das fluoroquinolonas, como o ofloxacino.', D: 'A ligação à subunidade 30S é mecanismo de aminoglicosídeos e tetraciclinas.' },
@@ -53,7 +53,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos da dapsona',
     e: 'Homem de 27 anos, na terceira semana de PQT-U, queixa-se de cansaço e urina escura. Está pálido e ictérico. Exames: hemoglobina 7,8 g/dL (era 13,5 g/dL), reticulocitose, desidrogenase lática elevada e bilirrubina indireta aumentada. O fármaco responsável e a condição que predispõe a quadros graves são:',
-    o: ['Rifampicina e deficiência de vitamina B12', 'Dapsona e deficiência de glicose-6-fosfato desidrogenase', 'Clofazimina e traço falciforme', 'Dapsona e deficiência de ferro'],
+    o: ['Rifampicina e deficiência de vitamina B12', 'Dapsona e deficiência de glicose-6-fosfato desidrogenase', 'Clofazimina e traço falciforme, associados', 'Dapsona e deficiência de ferro, associadas'],
     g: 'B',
     c: 'A dapsona gera metabólitos oxidantes que lesam a membrana da hemácia e causam hemólise dose-dependente, em geral leve, em quase todos os pacientes. Na deficiência de G6PD a hemácia não regenera glutationa reduzida e fica indefesa ao estresse oxidativo, resultando em hemólise grave, que exige suspender o fármaco.',
     x: { A: 'A deficiência de B12 causa anemia megaloblástica, sem relação com a rifampicina.', C: 'A clofazimina não causa hemólise; seus efeitos são cutâneos e gastrointestinais.', D: 'A ferropenia causa anemia hipoproliferativa, sem reticulocitose nem icterícia.' },
@@ -69,7 +69,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos da dapsona',
     e: 'Mulher de 34 anos, na quinta semana de PQT-U, apresenta febre alta, exantema difuso com descamação, linfonodomegalia generalizada, icterícia e elevação acentuada de transaminases, com eosinofilia. A hipótese e a conduta são:',
-    o: ['Reação hansênica tipo 1; manter a PQT-U e iniciar prednisona', 'Síndrome de hipersensibilidade à dapsona (síndrome sulfona); suspender a PQT-U, tratar com corticoide e não reintroduzir a dapsona', 'Hepatite viral aguda; manter o esquema e solicitar sorologias', 'Eritema nodoso hansênico; iniciar talidomida'],
+    o: ['Reação tipo 1; manter a PQT-U e iniciar prednisona', 'Síndrome da dapsona: suspender a PQT-U, corticoide, sem reintroduzir', 'Hepatite viral aguda; manter o esquema e pedir sorologias', 'Eritema nodoso hansênico; iniciar talidomida'],
     g: 'B',
     c: 'A síndrome sulfona é uma reação de hipersensibilidade grave, do tipo DRESS, que surge nas primeiras semanas de uso da dapsona com febre, exantema, linfadenopatia, hepatite e eosinofilia, e pode ser fatal. Exige suspensão imediata dos fármacos, suporte e corticoide, com substituição definitiva da dapsona no esquema.',
     x: { A: 'A reação tipo 1 inflama lesões e nervos, sem hepatite, eosinofilia ou exantema difuso.', C: 'A relação temporal com a dapsona, o exantema e a eosinofilia apontam para reação ao fármaco.', D: 'O eritema nodoso cursa com nódulos dolorosos e não com exantema descamativo e hepatite.' },
@@ -77,7 +77,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos da clofazimina',
     e: 'Paciente de pele clara, no sexto mês de tratamento multibacilar, queixa-se de que a pele ficou escurecida, de tom pardo-avermelhado, sobretudo nas áreas das lesões, e muito ressecada. Ele pergunta se isso é permanente. A orientação correta é:',
-    o: ['O efeito é da rifampicina e desaparece em poucos dias', 'O efeito é da clofazimina, é esperado e regride lentamente após o término do tratamento', 'O efeito é da dapsona e indica suspensão imediata', 'Trata-se de reação hansênica, devendo-se iniciar corticoide'],
+    o: ['Efeito da rifampicina, que some em poucos dias', 'Efeito da clofazimina: esperado e regride lentamente', 'Efeito da dapsona, que indica suspensão imediata', 'Reação hansênica, devendo-se iniciar corticoide'],
     g: 'B',
     c: 'A clofazimina é um corante lipofílico que se deposita na pele e em macrófagos, provocando pigmentação pardo-avermelhada, mais intensa nas lesões infiltradas, além de xerose e ictiose. O efeito é reversível, mas regride devagar, em meses a anos após a suspensão; orientar o paciente e indicar hidratação e fotoproteção melhora a adesão.',
     x: { A: 'A rifampicina cora urina e secreções, não pigmenta a pele de forma duradoura.', C: 'A dapsona não escurece a pele, e a pigmentação não exige interromper o tratamento.', D: 'A pigmentação difusa e progressiva sem inflamação não caracteriza reação hansênica.' },
@@ -85,7 +85,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos da clofazimina',
     e: 'Além das alterações cutâneas, qual efeito adverso da clofazimina deve ser lembrado, especialmente com doses altas e uso prolongado?',
-    o: ['Neurite óptica retrobulbar', 'Dor abdominal, diarreia e quadro suboclusivo por depósito de cristais na parede intestinal', 'Ototoxicidade com perda auditiva irreversível', 'Hiperuricemia com crises de gota'],
+    o: ['Neurite óptica retrobulbar, com perda visual', 'Dor abdominal, diarreia e suboclusão por cristais intestinais', 'Ototoxicidade, com perda auditiva irreversível', 'Hiperuricemia, com crises de gota recorrentes'],
     g: 'B',
     c: 'A clofazimina deposita-se como cristais na mucosa do intestino delgado e nos linfonodos mesentéricos, podendo causar dor abdominal, náuseas, diarreia e, raramente, enteropatia com suboclusão. O risco cresce com as doses altas e prolongadas usadas no controle do eritema nodoso hansênico.',
     x: { A: 'Neurite óptica é efeito adverso clássico do etambutol.', C: 'Ototoxicidade é efeito de aminoglicosídeos, como a estreptomicina.', D: 'Hiperuricemia é efeito característico da pirazinamida.' },
@@ -93,7 +93,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos da rifampicina',
     e: 'Paciente liga para a unidade preocupado porque, horas após a dose supervisionada, a urina ficou alaranjada. Não tem outras queixas. A conduta é:',
-    o: ['Suspender a PQT-U e solicitar função renal com urgência', 'Tranquilizar e orientar que se trata de efeito esperado e inofensivo da rifampicina', 'Trocar a rifampicina por ofloxacino', 'Solicitar bilirrubinas e sorologias para hepatites antes da próxima dose'],
+    o: ['Suspender a PQT-U e pedir função renal com urgência', 'Tranquilizar: efeito esperado e inofensivo da rifampicina', 'Trocar a rifampicina por ofloxacino, por via oral', 'Pedir bilirrubinas e sorologias antes da próxima dose'],
     g: 'B',
     c: 'A rifampicina e seus metabólitos são pigmentados e eliminados em urina, suor, lágrimas e saliva, que adquirem cor alaranjada ou avermelhada. O efeito é benigno e transitório, e avisar o paciente previamente evita abandono; lentes de contato gelatinosas podem ficar manchadas.',
     x: { A: 'Não há lesão renal; trata-se apenas da eliminação do pigmento do fármaco.', C: 'Efeito benigno e esperado não justifica esquema substitutivo.', D: 'Sem icterícia nem outros sintomas, não há indicação de investigar hepatopatia.' },
@@ -101,7 +101,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos da rifampicina',
     e: 'Na PQT-U a rifampicina é usada de forma intermitente, uma vez ao mês. Um efeito adverso classicamente associado ao uso intermitente desse fármaco é:',
-    o: ['Pigmentação cutânea difusa', 'Síndrome pseudogripal, com febre, calafrios, mialgia e cefaleia após a dose', 'Metemoglobinemia', 'Neuropatia periférica sensitiva'],
+    o: ['Pigmentação cutânea difusa, escurecimento da pele', 'Síndrome pseudogripal: febre, calafrios, mialgia e cefaleia', 'Metemoglobinemia, com cianose e dispneia', 'Neuropatia periférica sensitiva, em bota e luva'],
     g: 'B',
     c: 'O uso intermitente da rifampicina favorece reações imunomediadas, como a síndrome pseudogripal, que surge horas após a tomada e, raramente, se acompanha de trombocitopenia, hemólise e insuficiência renal aguda. Hepatotoxicidade e intolerância gastrointestinal são outros efeitos relevantes do fármaco.',
     x: { A: 'A pigmentação difusa da pele é efeito da clofazimina.', C: 'A metemoglobinemia é efeito adverso da dapsona.', D: 'Neuropatia periférica é efeito da talidomida e da isoniazida, não da rifampicina.' },
@@ -109,7 +109,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Interações medicamentosas',
     e: 'Mulher de 26 anos, usuária de anticoncepcional oral combinado, inicia PQT-U para hanseníase multibacilar. Que orientação contraceptiva deve ser dada?',
-    o: ['Manter o anticoncepcional oral, pois a dose mensal de rifampicina não interfere', 'Associar ou trocar por método não afetado por indução enzimática, pois a rifampicina reduz a eficácia do contraceptivo oral', 'Suspender qualquer contracepção, pois a PQT-U causa infertilidade temporária', 'Dobrar a dose do anticoncepcional oral no dia da dose supervisionada'],
+    o: ['Manter o anticoncepcional oral: a rifampicina mensal não interfere', 'Associar ou trocar por método sem indução enzimática', 'Suspender qualquer contracepção: a PQT-U causa infertilidade', 'Dobrar o anticoncepcional oral no dia da dose supervisionada'],
     g: 'B',
     c: 'A rifampicina é potente indutora do citocromo P450 e acelera o metabolismo de estrogênios e progestagênios, reduzindo a eficácia dos contraceptivos hormonais orais. Recomenda-se método de barreira associado ou método não afetado, como dispositivo intrauterino ou acetato de medroxiprogesterona injetável.',
     x: { A: 'Mesmo em uso intermitente, a indução enzimática pode comprometer a contracepção oral.', C: 'A PQT-U não causa infertilidade nem dispensa contracepção.', D: 'Dobrar a dose não é conduta validada e não garante proteção contraceptiva.' },
@@ -117,7 +117,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Esquemas substitutivos',
     e: 'Paciente multibacilar desenvolve anemia hemolítica grave atribuída à dapsona, que é suspensa definitivamente. A conduta recomendada quanto ao esquema é:',
-    o: ['Manter apenas rifampicina mensal em monoterapia', 'Manter rifampicina e clofazimina e substituir a dapsona por ofloxacino ou minociclina', 'Interromper todo o tratamento e observar a evolução', 'Substituir os três fármacos por talidomida'],
+    o: ['Manter apenas rifampicina mensal, em monoterapia', 'Manter rifampicina e clofazimina; trocar a dapsona por ofloxacino', 'Interromper todo o tratamento e observar a evolução', 'Substituir os três fármacos por talidomida'],
     g: 'B',
     c: 'Na intolerância à dapsona, mantêm-se a rifampicina e a clofazimina e, no multibacilar, acrescenta-se um fármaco de segunda linha, ofloxacino ou minociclina, preservando a associação de três medicamentos pela mesma duração. A monoterapia deve ser sempre evitada pelo risco de selecionar resistência.',
     x: { A: 'A monoterapia com rifampicina favorece a seleção de bacilos resistentes.', C: 'Interromper o tratamento mantém a doença ativa e a progressão do dano neural.', D: 'A talidomida trata a reação tipo 2 e não tem ação contra o bacilo.' },
@@ -125,7 +125,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Esquemas substitutivos',
     e: 'Homem com hanseníase multibacilar apresenta hepatite medicamentosa confirmada por rifampicina, que não pode ser reintroduzida. Sobre o esquema substitutivo, é correto afirmar que:',
-    o: ['Basta manter dapsona e clofazimina pelo mesmo período de 12 meses', 'Utilizam-se fármacos de segunda linha, como ofloxacino e minociclina, associados à clofazimina, por tempo mais prolongado', 'Deve-se trocar a rifampicina por isoniazida', 'Indica-se monoterapia com dapsona por toda a vida'],
+    o: ['Basta manter dapsona e clofazimina por 12 meses', 'Fármacos de 2ª linha (ofloxacino, minociclina) mais clofazimina', 'Trocar a rifampicina por isoniazida por via oral', 'Monoterapia com dapsona por toda a vida do paciente'],
     g: 'B',
     c: 'Sem a rifampicina perde-se o componente mais bactericida do esquema. Por isso o substitutivo combina clofazimina com fármacos de segunda linha, como ofloxacino e minociclina, e tem duração maior que a do esquema padrão, para compensar a menor potência bactericida.',
     x: { A: 'Sem um bactericida potente, dois fármacos por 12 meses são insuficientes.', C: 'A isoniazida não tem atividade útil contra o M. leprae.', D: 'A monoterapia com dapsona gerou resistência e foi abandonada.' },
@@ -141,7 +141,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Aleitamento',
     e: 'Puérpera em tratamento com PQT-U nota que o leite e a pele do recém-nascido, em aleitamento exclusivo, ficaram levemente escurecidos. A orientação é:',
-    o: ['Suspender o aleitamento, pois há intoxicação do lactente', 'Manter o aleitamento; a pigmentação decorre da clofazimina excretada no leite e é reversível', 'Suspender a PQT-U até o desmame', 'Trocar a clofazimina por talidomida'],
+    o: ['Suspender o aleitamento: há intoxicação do lactente', 'Manter o aleitamento; a pigmentação é da clofazimina e reversível', 'Suspender a PQT-U até o desmame completo do bebê', 'Trocar a clofazimina por talidomida durante a lactação'],
     g: 'B',
     c: 'A clofazimina é excretada no leite materno e pode pigmentar de forma transitória a pele do lactente, efeito benigno que regride após o fim da exposição. O aleitamento deve ser mantido durante a PQT-U, pois seus benefícios superam esse efeito e a mãe tratada não transmite a doença.',
     x: { A: 'A pigmentação é efeito benigno e não indica intoxicação nem suspensão do aleitamento.', C: 'Interromper o tratamento expõe a mãe a incapacidades e o bebê à infecção.', D: 'A talidomida não trata a infecção e não substitui fármacos da PQT-U.' },
@@ -149,7 +149,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento na criança',
     e: 'Criança de 6 anos, com 20 kg, recebe diagnóstico de hanseníase paucibacilar. Em relação ao tratamento, é correto afirmar:',
-    o: ['Crianças não devem receber rifampicina antes dos 10 anos', 'Utiliza-se a PQT-U com os mesmos três fármacos, com doses ajustadas ao peso e mesma duração do adulto', 'O tratamento é feito apenas com dapsona por 6 meses', 'A duração do esquema paucibacilar na criança é o dobro da do adulto'],
+    o: ['Crianças não recebem rifampicina antes dos 10 anos', 'PQT-U com os mesmos três fármacos, doses por peso, mesma duração', 'Tratamento só com dapsona por 6 meses', 'A duração do esquema na criança é o dobro da do adulto'],
     g: 'B',
     c: 'Crianças são tratadas com os mesmos fármacos e a mesma duração dos adultos: 6 doses para paucibacilares e 12 para multibacilares. Há apresentação infantil das cartelas, e nas crianças com menos de 30 kg as doses são calculadas por quilograma de peso.',
     x: { A: 'A rifampicina é usada em crianças, com dose ajustada ao peso.', C: 'A monoterapia com dapsona não é aceita em nenhuma faixa etária.', D: 'A duração depende da classificação operacional e é igual à do adulto.' },
@@ -157,7 +157,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Coinfecção com HIV',
     e: 'Paciente vivendo com HIV, em terapia antirretroviral, recebe diagnóstico de hanseníase multibacilar. Sobre o tratamento da hanseníase, é correto afirmar:',
-    o: ['A duração da PQT-U deve ser duplicada', 'Mantém-se a PQT-U padrão, com atenção às interações da rifampicina e à possibilidade de reação tipo 1 como reconstituição imune', 'A PQT-U é contraindicada até que a carga viral esteja indetectável', 'Deve-se suspender a terapia antirretroviral durante a PQT-U'],
+    o: ['A duração da PQT-U deve ser duplicada no HIV', 'PQT-U padrão; atenção às interações e à reação tipo 1 (reconstituição)', 'PQT-U contraindicada até a carga viral ficar indetectável', 'Suspender a terapia antirretroviral durante a PQT-U'],
     g: 'B',
     c: 'O esquema e a duração da PQT-U não mudam na coinfecção com HIV. Deve-se lembrar que a rifampicina induz o metabolismo de vários antirretrovirais e que a recuperação imune após o início da terapia pode desmascarar a hanseníase ou desencadear reação do tipo 1.',
     x: { A: 'Não há recomendação de prolongar a PQT-U por causa do HIV.', C: 'O tratamento da hanseníase não deve aguardar a supressão viral.', D: 'A terapia antirretroviral deve ser mantida durante o tratamento da hanseníase.' },
@@ -165,7 +165,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Alta por cura',
     e: 'Paciente multibacilar completou as 12 doses supervisionadas de PQT-U em 14 meses. Ainda apresenta algumas placas residuais e baciloscopia positiva, com bacilos fragmentados. A conduta é:',
-    o: ['Prolongar a PQT-U até a negativação da baciloscopia', 'Dar alta por cura, com exame dermatoneurológico e avaliação do grau de incapacidade, e orientar retorno se houver novos sinais', 'Reiniciar o esquema, pois houve falha terapêutica', 'Manter dapsona isolada por mais dois anos'],
+    o: ['Prolongar a PQT-U até a baciloscopia negativar', 'Alta por cura, com exame neurológico e grau de incapacidade', 'Reiniciar o esquema, pois houve falha terapêutica', 'Manter dapsona isolada por mais dois anos de seguimento'],
     g: 'B',
     c: 'O critério de alta por cura é a conclusão do número de doses no prazo previsto, e não a negativação da baciloscopia ou o desaparecimento das lesões. Bacilos mortos são removidos lentamente dos tecidos, e as lesões regridem ao longo de meses a anos; na alta, faz-se exame dermatoneurológico e avaliação do grau de incapacidade.',
     x: { A: 'A baciloscopia pode permanecer positiva por anos com bacilos inviáveis.', C: 'Bacilos fragmentados e lesões em regressão não significam falha terapêutica.', D: 'A monoterapia com dapsona não tem indicação após a PQT-U.' },
@@ -173,7 +173,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Alta por cura',
     e: 'Ao dar alta por cura a um paciente que apresentou neurite durante o tratamento, o médico deve orientar que:',
-    o: ['Não há mais risco de reações ou de piora neural após a última dose', 'Reações hansênicas e piora da função neural ainda podem ocorrer nos anos seguintes, exigindo retorno imediato diante de novos sintomas', 'Os contatos domiciliares não precisam mais de acompanhamento', 'Deve manter rifampicina mensal como profilaxia de recidiva'],
+    o: ['Não há mais risco de reações após a última dose', 'Reações e piora neural podem ocorrer nos anos seguintes; retorno imediato', 'Os contatos domiciliares não precisam mais de acompanhamento', 'Manter rifampicina mensal como profilaxia de recidiva'],
     g: 'B',
     c: 'A alta da PQT-U encerra o tratamento antimicrobiano, mas antígenos bacilares persistem nos tecidos e podem desencadear reações por anos, principalmente em multibacilares. O paciente deve reconhecer sinais de reação e de neurite e manter o autocuidado, pois reação após a alta se trata com imunomoduladores e não com nova PQT-U.',
     x: { A: 'Reações são frequentes após a alta, sobretudo nos primeiros anos.', C: 'O acompanhamento dos contatos segue independente da alta do caso índice.', D: 'Não existe profilaxia de recidiva com rifampicina após a alta.' },
@@ -181,7 +181,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Recidiva x reação',
     e: 'Homem tratado de hanseníase multibacilar, com alta por cura há um ano, apresenta subitamente eritema e edema nas antigas placas, que estavam em regressão, com dor no trajeto do nervo ulnar. Em três semanas de prednisona, há melhora completa. O quadro corresponde a:',
-    o: ['Recidiva, devendo-se reiniciar a PQT-U', 'Reação hansênica tipo 1, que não indica novo ciclo de poliquimioterapia', 'Resistência medicamentosa, devendo-se usar esquema de segunda linha', 'Reinfecção por nova cepa do bacilo'],
+    o: ['Recidiva, devendo-se reiniciar a PQT-U', 'Reação hansênica tipo 1; não indica novo ciclo de PQT', 'Resistência medicamentosa; usar esquema de 2ª linha', 'Reinfecção por nova cepa do bacilo, após a alta'],
     g: 'B',
     c: 'A reação tipo 1 tem início súbito, reativa lesões antigas, pode trazer lesões novas e neurite, costuma ocorrer nos primeiros anos após a alta e responde bem ao corticoide. Como se trata de fenômeno imunológico e não de multiplicação bacilar, não se reinicia a PQT-U.',
     x: { A: 'A recidiva é tardia, insidiosa e não responde ao corticoide.', C: 'A resposta completa ao corticoide fala contra doença bacilar ativa por resistência.', D: 'Reativação aguda das lesões antigas com boa resposta ao corticoide define reação.' },
@@ -189,7 +189,7 @@ export const HANSENIASE_3: QuestaoCompacta[] = [
   {
     s: 'Recidiva x reação',
     e: 'Qual das situações abaixo é mais sugestiva de recidiva de hanseníase, e não de estado reacional?',
-    o: ['Início súbito de nódulos dolorosos com febre, seis meses após a alta', 'Surgimento lento e progressivo de lesões novas e de novos déficits neurais, muitos anos após a alta, sem resposta ao corticoide', 'Edema e eritema de placas antigas no terceiro mês de tratamento', 'Dor aguda no nervo ulnar durante a PQT-U, com melhora após prednisona'],
+    o: ['Nódulos dolorosos súbitos com febre, seis meses após a alta', 'Lesões novas e déficit neural lento, anos após a alta, sem resposta', 'Edema e eritema de placas antigas no 3º mês de tratamento', 'Dor aguda no nervo ulnar na PQT-U, com melhora após prednisona'],
     g: 'B',
     c: 'A recidiva é rara após a PQT completa e costuma surgir mais de cinco anos depois da alta, de forma lenta e insidiosa, com lesões novas, comprometimento de novos nervos, ausência de resposta ao corticoide e, nos multibacilares, aumento do índice baciloscópico. O caso deve ser investigado em referência, inclusive quanto à resistência medicamentosa.',
     x: { A: 'Nódulos dolorosos com febre de início súbito caracterizam reação do tipo 2.', C: 'Piora inflamatória durante o tratamento é reação tipo 1, não recidiva.', D: 'Neurite aguda com resposta à prednisona é quadro reacional.' },

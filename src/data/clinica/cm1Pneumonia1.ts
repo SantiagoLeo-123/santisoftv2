@@ -29,7 +29,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Germes atípicos',
     e: 'Os chamados germes atípicos da pneumonia comunitária (Mycoplasma pneumoniae, Chlamydophila pneumoniae e Legionella pneumophila) compartilham a seguinte característica, com implicação terapêutica direta:',
-    o: ['São cocos Gram-positivos produtores de betalactamase', 'Não são visualizados ao Gram nem crescem em meios de cultura habituais e não respondem aos betalactâmicos', 'São anaeróbios estritos sensíveis apenas ao metronidazol', 'São sempre adquiridos em ambiente hospitalar e multirresistentes'],
+    o: ['Cocos Gram-positivos produtores de betalactamase, extracelulares', 'Invisíveis ao Gram; não crescem em meio comum; sem resposta a betalactâmicos', 'Anaeróbios estritos, sensíveis apenas ao metronidazol', 'Sempre adquiridos no hospital e multirresistentes'],
     g: 'B',
     c: 'Os atípicos não coram ao Gram e não crescem nos meios de cultura convencionais. O Mycoplasma não possui parede celular e a Chlamydophila e a Legionella são intracelulares, de modo que os betalactâmicos, que atuam na síntese da parede, são ineficazes. A cobertura é feita com macrolídeos, doxiciclina ou quinolonas respiratórias.',
     x: { A: 'Nenhum dos três é coco Gram-positivo, e a ineficácia dos betalactâmicos não decorre de betalactamase.', C: 'Não são anaeróbios, e o metronidazol não tem ação contra eles.', D: 'São agentes tipicamente comunitários, e não patógenos hospitalares multirresistentes.' },
@@ -69,7 +69,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Aspiração',
     e: 'Homem de 49 anos, etilista, com dentes em péssimo estado de conservação e episódios de perda de consciência por embriaguez, apresenta há 3 semanas febre baixa, emagrecimento e tosse com escarro abundante e fétido. Os agentes mais prováveis são:',
-    o: ['Vírus respiratórios, como influenza e vírus sincicial respiratório', 'Anaeróbios da cavidade oral, como Peptostreptococcus, Prevotella e Fusobacterium', 'Germes atípicos, como Mycoplasma e Chlamydophila', 'Fungos dimórficos, como Histoplasma capsulatum'],
+    o: ['Vírus respiratórios, como influenza e VSR, na orofaringe', 'Anaeróbios orais (Peptostreptococcus, Prevotella, Fusobacterium)', 'Germes atípicos, como Mycoplasma e Chlamydophila, na orofaringe', 'Fungos dimórficos, como Histoplasma capsulatum, no solo'],
     g: 'B',
     c: 'Rebaixamento do nível de consciência com perda dos reflexos protetores e má higiene dentária, que aumenta a carga de anaeróbios na boca, são os dois requisitos da pneumonia aspirativa por anaeróbios. A evolução é arrastada, e o escarro pútrido é praticamente patognomônico dessa etiologia.',
     x: { A: 'Vírus causam quadro agudo, sem escarro fétido nem evolução de semanas.', C: 'Os atípicos causam tosse seca e não produzem escarro pútrido.', D: 'A histoplasmose depende de exposição a fezes de aves ou morcegos e não cursa com escarro fétido.' },
@@ -77,7 +77,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Quadro típico',
     e: 'Homem de 40 anos, previamente hígido, apresenta início súbito de calafrio intenso, febre de 39,5 °C, dor torácica ventilatório-dependente à direita e tosse com escarro ferruginoso. Ao exame, há macicez, frêmito toracovocal aumentado, sopro tubário e estertores crepitantes em base direita. Esse conjunto caracteriza:',
-    o: ['Pneumonia atípica, causada mais provavelmente por Mycoplasma pneumoniae', 'Pneumonia típica com síndrome de consolidação, causada mais provavelmente pelo pneumococo', 'Derrame pleural volumoso, sem acometimento do parênquima', 'Atelectasia lobar por obstrução brônquica'],
+    o: ['Pneumonia atípica, provável Mycoplasma pneumoniae', 'Pneumonia típica com consolidação, provável pneumococo', 'Derrame pleural volumoso, sem acometer o parênquima', 'Atelectasia lobar por obstrução brônquica'],
     g: 'B',
     c: 'O quadro típico tem início abrupto, febre alta, calafrios, dor pleurítica e escarro purulento ou ferruginoso, e seu protótipo é a pneumonia pneumocócica. O preenchimento alveolar por exsudato com brônquio pérvio transmite melhor o som, gerando frêmito aumentado, macicez e sopro tubário.',
     x: { A: 'O quadro atípico é arrastado, com tosse seca e pobreza de achados ao exame físico.', C: 'No derrame pleural, o frêmito e o murmúrio estão reduzidos ou abolidos.', D: 'Na atelectasia obstrutiva, o frêmito está diminuído e não há febre alta de início súbito.' },
@@ -85,7 +85,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Quadro atípico',
     e: 'Estudante de 21 anos apresenta há 10 dias febre baixa, cefaleia, odinofagia, mialgia e tosse seca persistente. A ausculta pulmonar é quase normal, mas a radiografia mostra infiltrado intersticial bilateral. Sobre esse quadro, é correto afirmar:',
-    o: ['A pobreza do exame físico torna improvável o diagnóstico de pneumonia', 'A dissociação clínico-radiológica é característica da pneumonia por germes atípicos, como o Mycoplasma pneumoniae', 'O agente mais provável é a Klebsiella pneumoniae', 'A monoterapia com amoxicilina tem excelente atividade contra o agente mais provável'],
+    o: ['Exame físico pobre torna improvável o diagnóstico de pneumonia', 'Dissociação clínico-radiológica: típica de atípicos como Mycoplasma', 'O agente mais provável é a Klebsiella pneumoniae', 'Amoxicilina isolada tem ótima atividade contra o agente provável'],
     g: 'B',
     c: 'A pneumonia atípica tem início subagudo, sintomas sistêmicos e de vias aéreas superiores, tosse seca e poucos achados na ausculta, contrastando com alterações radiológicas mais extensas. O Mycoplasma pneumoniae é o agente mais comum, sobretudo em adultos jovens e em ambientes fechados.',
     x: { A: 'A dissociação entre ausculta pobre e radiografia alterada é justamente a marca do quadro atípico.', C: 'A Klebsiella causa pneumonia grave e consolidativa em etilistas e diabéticos.', D: 'O Mycoplasma não tem parede celular e, por isso, não responde aos betalactâmicos.' },
@@ -125,7 +125,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Broncograma aéreo',
     e: 'Na radiografia de tórax de um paciente com pneumonia lobar, observam-se imagens tubulares radiotransparentes no interior de uma opacidade homogênea. Esse achado, chamado broncograma aéreo, significa que:',
-    o: ['Há obstrução completa do brônquio lobar por tumor ou rolha de secreção', 'Os alvéolos estão preenchidos por material denso, enquanto os brônquios permanecem pérvios e aerados', 'Existe ar no espaço pleural adjacente à lesão', 'Houve necrose do parênquima com formação de cavidade'],
+    o: ['Obstrução completa do brônquio lobar por tumor ou rolha', 'Alvéolos cheios de material denso; brônquios pérvios e aerados', 'Ar no espaço pleural adjacente à lesão', 'Necrose do parênquima com formação de cavidade'],
     g: 'B',
     c: 'O broncograma aéreo surge quando o ar dos brônquios pérvios contrasta com os alvéolos vizinhos preenchidos por exsudato, sangue ou outro material. Ele localiza a lesão no espaço alveolar e é característico da consolidação, sendo incomum na atelectasia por obstrução brônquica central.',
     x: { A: 'Na obstrução brônquica completa, o ar dos brônquios é reabsorvido e o broncograma desaparece.', C: 'Ar no espaço pleural caracteriza pneumotórax, com linha pleural visceral visível.', D: 'A cavitação aparece como área radiotransparente arredondada, muitas vezes com nível hidroaéreo.' },
@@ -133,7 +133,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Padrões radiológicos',
     e: 'Sobre a relação entre o padrão radiológico e a etiologia da pneumonia adquirida na comunidade, é correto afirmar:',
-    o: ['O padrão intersticial exclui etiologia bacteriana e dispensa antibiótico', 'O padrão radiológico sugere, mas não permite definir com segurança o agente etiológico', 'A consolidação lobar é exclusiva do pneumococo', 'A radiografia normal na admissão exclui definitivamente pneumonia'],
+    o: ['O padrão intersticial exclui bactéria e dispensa antibiótico', 'O padrão sugere, mas não define com segurança o agente', 'A consolidação lobar é exclusiva do pneumococo', 'Radiografia normal na admissão exclui pneumonia de vez'],
     g: 'B',
     c: 'A consolidação lobar é mais associada ao pneumococo, a broncopneumonia a S. aureus e Gram-negativos, e o infiltrado intersticial a atípicos e vírus, mas há grande sobreposição. Por isso, a radiografia confirma o diagnóstico, avalia extensão e complicações, mas não deve ser usada isoladamente para predizer o agente.',
     x: { A: 'Mycoplasma, Chlamydophila e Legionella são bactérias e podem causar padrão intersticial.', C: 'Klebsiella, Legionella e outros agentes também produzem consolidação lobar.', D: 'A radiografia pode ser falsamente normal em fase muito precoce, na desidratação e na neutropenia.' },
@@ -141,7 +141,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Ultrassom de tórax',
     e: 'Em relação ao uso da ultrassonografia de tórax à beira do leito na suspeita de pneumonia, é correto afirmar:',
-    o: ['Não tem utilidade, pois o ar impede a avaliação do parênquima pulmonar', 'Apresenta sensibilidade superior à da radiografia para consolidações e é muito útil para detectar derrame pleural', 'Substitui a avaliação clínica de gravidade e os escores prognósticos', 'Só identifica consolidações que não tenham contato com a superfície pleural'],
+    o: ['Sem utilidade: o ar impede avaliar o parênquima', 'Mais sensível que a radiografia para consolidação e derrame', 'Substitui a avaliação clínica e os escores prognósticos', 'Só identifica consolidações sem contato com a pleura'],
     g: 'B',
     c: 'A ultrassonografia pulmonar identifica consolidação (hepatização do parênquima com broncograma aéreo dinâmico), linhas B focais e derrame pleural, com sensibilidade maior que a da radiografia. É particularmente útil em gestantes, em pacientes restritos ao leito e para guiar a toracocentese.',
     x: { A: 'A consolidação elimina o ar alveolar e torna o parênquima visível ao ultrassom.', C: 'O exame de imagem não substitui a estratificação de gravidade, que define o local de tratamento.', D: 'O ultrassom só visualiza lesões que alcançam a pleura; as profundas, cercadas por pulmão aerado, não são vistas.' },
@@ -149,7 +149,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Tomografia',
     e: 'A tomografia computadorizada de tórax NÃO está indicada de rotina na pneumonia comunitária. Entre as situações abaixo, aquela em que o exame é mais claramente justificado é:',
-    o: ['Adulto jovem com consolidação lobar típica e boa resposta ao antibiótico em 48 horas', 'Paciente com forte suspeita clínica e radiografia normal, ou com suspeita de complicação como abscesso e empiema loculado', 'Todo paciente com CURB-65 igual a 1 tratado ambulatorialmente', 'Controle de cura obrigatório ao final do tratamento em todos os pacientes'],
+    o: ['Adulto jovem com consolidação típica e boa resposta em 48 h', 'Forte suspeita com RX normal, ou suspeita de abscesso/empiema', 'Todo paciente com CURB-65 igual a 1 tratado em casa', 'Controle de cura obrigatório ao final, em todos os pacientes'],
     g: 'B',
     c: 'A tomografia tem maior sensibilidade que a radiografia e é reservada para dúvida diagnóstica (clínica sugestiva com radiografia normal ou inconclusiva), suspeita de complicações como abscesso, necrose e derrame loculado, investigação de falha terapêutica e suspeita de neoplasia ou de infecção em imunossuprimido.',
     x: { A: 'Caso típico com boa evolução não se beneficia de tomografia.', C: 'Pacientes de baixo risco tratados em casa não precisam de tomografia.', D: 'Não há indicação de tomografia de controle de rotina após pneumonia de boa evolução.' },
@@ -165,7 +165,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Hemocultura e escarro',
     e: 'Segundo a diretriz ATS/IDSA, a coleta de hemoculturas e de Gram e cultura de escarro antes do início do antibiótico está indicada na pneumonia comunitária:',
-    o: ['Em todos os pacientes, inclusive os tratados em casa', 'Na pneumonia grave e quando se inicia cobertura empírica para MRSA ou Pseudomonas aeruginosa', 'Apenas quando houver derrame pleural associado', 'Somente após 7 dias de tratamento sem melhora'],
+    o: ['Em todos os pacientes, inclusive os tratados em casa', 'Em pneumonia grave ou cobertura empírica para MRSA/Pseudomonas', 'Apenas quando houver derrame pleural associado', 'Somente após 7 dias de tratamento sem melhora'],
     g: 'B',
     c: 'As culturas são recomendadas na PAC grave e nos pacientes com fatores de risco para MRSA ou Pseudomonas (isolamento prévio desses agentes ou internação com antibiótico parenteral nos últimos 90 dias). Nesses cenários, o resultado permite ajustar ou descalonar o esquema de amplo espectro.',
     x: { A: 'No paciente ambulatorial, as culturas têm baixo rendimento e não são recomendadas de rotina.', C: 'O derrame pleural indica avaliação para toracocentese, mas não é o critério que define a coleta de culturas.', D: 'As culturas devem ser colhidas antes do antibiótico, e não apenas diante de falha tardia.' },
@@ -181,7 +181,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Antígeno urinário',
     e: 'Sobre os testes de antígeno urinário para pneumococo e Legionella na pneumonia comunitária, é correto afirmar:',
-    o: ['Tornam-se negativos logo após a primeira dose de antibiótico', 'O teste para Legionella detecta apenas o sorogrupo 1, e ambos são indicados principalmente na pneumonia grave', 'Devem ser solicitados de rotina em todos os casos ambulatoriais', 'Permitem a realização de antibiograma do agente identificado'],
+    o: ['Ficam negativos logo após a primeira dose de antibiótico', 'O teste de Legionella detecta só o sorogrupo 1; úteis na grave', 'Devem ser pedidos de rotina em todos os casos ambulatoriais', 'Permitem fazer antibiograma do agente identificado'],
     g: 'B',
     c: 'Os antígenos urinários são rápidos e permanecem positivos mesmo após o início do antibiótico. O teste para Legionella identifica somente o sorogrupo 1 da L. pneumophila, de modo que resultado negativo não exclui a doença. São recomendados na PAC grave e, para Legionella, também em surtos ou exposição epidemiológica.',
     x: { A: 'Uma das vantagens do método é manter a positividade após o início do tratamento.', C: 'Em casos leves, o resultado não muda a conduta e o exame não é recomendado.', D: 'Por não isolar o microrganismo, o teste não permite avaliar a sensibilidade aos antimicrobianos.' },
@@ -197,7 +197,7 @@ export const PNEUMONIA_1: QuestaoCompacta[] = [
   {
     s: 'Pistas etiológicas',
     e: 'Todas as associações abaixo entre condição do hospedeiro e agente de pneumonia estão corretas, EXCETO:',
-    o: ['Etilismo e Klebsiella pneumoniae', 'Bronquiectasias e Pseudomonas aeruginosa', 'Infecção recente por influenza e Staphylococcus aureus', 'Exposição a sistemas de ar condicionado e Chlamydophila psittaci'],
+    o: ['Etilismo e Klebsiella pneumoniae, típicos', 'Bronquiectasias e Pseudomonas aeruginosa, típicos', 'Influenza recente e Staphylococcus aureus, típicos', 'Ar condicionado e Chlamydophila psittaci'],
     g: 'D',
     c: 'A exposição a sistemas de ar condicionado, torres de resfriamento e reservatórios de água aquecida se relaciona com a Legionella pneumophila, que se multiplica em água e é inalada em aerossóis. A Chlamydophila psittaci é adquirida pelo contato com aves, especialmente psitacídeos.',
     x: { A: 'Associação correta: etilistas têm maior risco de pneumonia por Klebsiella e por anaeróbios.', B: 'Associação correta: a doença estrutural favorece a colonização por Pseudomonas.', C: 'Associação correta: o S. aureus é causa clássica de pneumonia bacteriana pós-influenza.' },

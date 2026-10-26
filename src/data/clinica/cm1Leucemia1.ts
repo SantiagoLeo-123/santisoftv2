@@ -13,7 +13,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Leucemia aguda x crônica',
     e: 'A diferença fisiopatológica fundamental entre as leucemias agudas e as leucemias crônicas é:',
-    o: ['Nas agudas a leucometria é sempre mais alta que nas crônicas', 'Nas agudas há bloqueio de maturação com acúmulo de blastos; nas crônicas a maturação é preservada, com acúmulo de células maduras ou em maturação', 'Nas agudas a origem é sempre linfoide; nas crônicas, sempre mieloide', 'Nas agudas a doença surge em menos de 30 dias; nas crônicas, após 6 meses de sintomas'],
+    o: ['Nas agudas a leucometria é sempre mais alta que nas crônicas', 'Agudas: bloqueio de maturação e blastos; crônicas: maturação preservada', 'Nas agudas a origem é sempre linfoide; nas crônicas, mieloide', 'Agudas surgem em < 30 dias; crônicas, após 6 meses de sintomas'],
     g: 'B',
     c: 'Na leucemia aguda, o clone neoplásico perde a capacidade de se diferenciar e as células ficam paradas em estágio imaturo (blasto), ocupando a medula e suprimindo a hematopoese normal em poucas semanas. Nas leucemias crônicas, o clone prolifera, mas amadurece, de modo que predominam células maduras e a evolução é lenta. Os termos referem-se à biologia e à história natural sem tratamento, e não a um prazo fixo de sintomas.',
     x: { A: 'A leucometria pode ser baixa na leucemia aguda e muito alta nas leucemias crônicas.', C: 'Há formas mieloides e linfoides tanto entre as agudas quanto entre as crônicas.', D: 'Não existe critério de tempo de sintomas; a definição é pelo grau de maturação celular.' },
@@ -37,7 +37,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Fatores de risco: radiação',
     e: 'Sobre a relação entre radiação ionizante e leucemias, é correto afirmar:',
-    o: ['A radiação ionizante aumenta apenas o risco de leucemia linfocítica crônica', 'A radiação ionizante aumenta o risco de leucemias agudas e de leucemia mieloide crônica, enquanto a leucemia linfocítica crônica não tem associação estabelecida', 'O risco existe apenas para exposição durante a vida intrauterina', 'A radiação não ionizante de telefones celulares é fator de risco comprovado para leucemia aguda'],
+    o: ['A radiação ionizante aumenta só o risco de leucemia linfocítica crônica', 'Radiação ionizante: risco de LA e LMC; sem associação com LLC', 'O risco existe apenas na exposição intrauterina à radiação', 'A radiação de telefones celulares é fator de risco comprovado'],
     g: 'B',
     c: 'A radiação ionizante provoca quebras de dupla fita no DNA e rearranjos cromossômicos nas células-tronco. Estudos com sobreviventes de bombas atômicas e com pacientes irradiados mostraram aumento de leucemia mieloide aguda, leucemia linfoide aguda e leucemia mieloide crônica, com pico alguns anos após a exposição. A leucemia linfocítica crônica é a exceção clássica, sem associação consistente com radiação.',
     x: { A: 'A leucemia linfocítica crônica é justamente a leucemia sem associação clara com radiação.', C: 'O risco ocorre em qualquer idade, embora seja maior nas exposições em idade jovem.', D: 'Não há comprovação de que radiação não ionizante cause leucemia.' },
@@ -53,7 +53,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'LMA relacionada à terapia: inibidores de topoisomerase II',
     e: 'Em comparação com a leucemia secundária a agentes alquilantes, a leucemia mieloide aguda relacionada a inibidores de topoisomerase II, como etoposídeo e antraciclinas, caracteriza-se por:',
-    o: ['Latência de 5 a 10 anos, com fase mielodisplásica prolongada', 'Latência curta, de 1 a 3 anos, sem mielodisplasia prévia, com rearranjos de 11q23 (KMT2A) e frequente morfologia monocítica', 'Evolução indolente, com remissão espontânea após suspensão do fármaco', 'Associação com deleção do cromossomo 5 e cariótipo complexo'],
+    o: ['Latência de 5 a 10 anos, com fase mielodisplásica prolongada', 'Latência de 1-3 anos, sem mielodisplasia, com 11q23 (KMT2A)', 'Evolução indolente, com remissão após suspender o fármaco', 'Associação com deleção do 5 e cariótipo complexo'],
     g: 'B',
     c: 'Os inibidores de topoisomerase II estabilizam quebras de dupla fita no DNA, favorecendo translocações balanceadas, sobretudo envolvendo o gene KMT2A (antigo MLL) em 11q23. A leucemia aparece cedo, de forma abrupta, sem a fase de mielodisplasia, muitas vezes com diferenciação monocítica. Reconhecer os dois padrões ajuda a interpretar a história de quimioterapia prévia.',
     x: { A: 'Latência longa com mielodisplasia prévia é o padrão dos agentes alquilantes.', C: 'Não há remissão espontânea; é leucemia aguda que exige tratamento intensivo.', D: 'Perdas dos cromossomos 5 e 7 pertencem ao padrão dos alquilantes.' },
@@ -61,7 +61,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Down e leucemia',
     e: 'Recém-nascido com síndrome de Down apresenta, na primeira semana de vida, leucocitose de 48.000/mm3 com 30% de blastos circulantes, hepatomegalia leve e bom estado geral. Sobre essa situação, é correto afirmar:',
-    o: ['Trata-se de leucemia linfoide aguda congênita, que exige quimioterapia intensiva imediata', 'Trata-se provavelmente de mielopoese anormal transitória, que costuma regredir espontaneamente em semanas a meses, mas exige seguimento pelo risco de leucemia megacarioblástica nos primeiros anos de vida', 'O achado é fisiológico em qualquer recém-nascido e dispensa acompanhamento', 'A síndrome de Down protege contra leucemias, e o quadro deve ser atribuído a infecção congênita'],
+    o: ['LLA congênita, que exige quimioterapia intensiva imediata', 'Mielopoese anormal transitória; regride, mas exige seguimento (risco de LMA)', 'Achado fisiológico em qualquer recém-nascido, sem seguimento', 'A síndrome de Down protege contra leucemias; é infecção congênita'],
     g: 'B',
     c: 'Cerca de 10% dos recém-nascidos com trissomia do 21 têm proliferação transitória de blastos megacarioblásticos com mutação do gene GATA1. Na maioria, o quadro regride sozinho, mas uma parcela desenvolve leucemia mieloide aguda megacarioblástica (M7) até os 4 anos. A síndrome de Down aumenta em 10 a 20 vezes o risco de leucemia aguda, tanto linfoide quanto mieloide.',
     x: { A: 'Os blastos são megacarioblásticos e o quadro geralmente regride sem quimioterapia intensiva.', C: 'Blastos circulantes nessa proporção não são fisiológicos e exigem seguimento hematológico.', D: 'A trissomia do 21 aumenta, e não reduz, o risco de leucemia aguda.' },
@@ -69,7 +69,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Mielodisplasia como fator de risco',
     e: 'Homem de 71 anos, em acompanhamento por síndrome mielodisplásica com 8% de blastos na medula, dependente de transfusões, evolui em 2 meses com febre, piora da plaquetopenia e blastos no sangue periférico. O novo mielograma mostra 31% de blastos mieloides. Em relação a essa evolução, é correto afirmar:',
-    o: ['Trata-se de leucemia de novo, sem relação com a doença prévia, e com prognóstico favorável', 'Trata-se de leucemia mieloide aguda secundária à mielodisplasia, que costuma ter citogenética desfavorável e pior resposta à quimioterapia', 'A transformação da mielodisplasia ocorre habitualmente para leucemia linfoide aguda', 'O aumento de blastos é efeito das transfusões repetidas e regride com quelação de ferro'],
+    o: ['Leucemia de novo, sem relação com a doença prévia e de bom prognóstico', 'LMA secundária à mielodisplasia: citogenética ruim e pior resposta', 'A transformação da mielodisplasia é para LLA, habitualmente', 'Blastos aumentados por transfusões; regride com quelação'],
     g: 'B',
     c: 'A mielodisplasia é doença clonal da célula-tronco que acumula mutações e, em parte dos casos, progride para leucemia mieloide aguda quando os blastos atingem 20%. Essa leucemia secundária ocorre em idosos, tem alterações citogenéticas de alto risco e clones resistentes à quimioterapia, com taxas de remissão e sobrevida inferiores às da leucemia de novo. O percentual de blastos é o principal preditor de transformação.',
     x: { A: 'Há relação clonal direta com a mielodisplasia, e o prognóstico é desfavorável.', C: 'A mielodisplasia é doença mieloide e evolui para leucemia mieloide aguda.', D: 'Transfusões causam sobrecarga de ferro, mas não elevam o percentual de blastos.' },
@@ -85,7 +85,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Falência medular: mecanismo',
     e: 'As citopenias observadas ao diagnóstico de uma leucemia aguda decorrem principalmente de:',
-    o: ['Destruição periférica das células maduras por autoanticorpos', 'Ocupação da medula óssea pelos blastos e inibição da hematopoese normal residual', 'Sequestro esplênico das células normais', 'Deficiência de ferro, folato e vitamina B12 por consumo tumoral'],
+    o: ['Destruição periférica das células maduras por autoanticorpos', 'Ocupação medular pelos blastos e inibição da hematopoese normal', 'Sequestro esplênico das células normais, com esplenomegalia', 'Deficiência de ferro, folato e B12 por consumo tumoral'],
     g: 'B',
     c: 'O clone leucêmico expande-se dentro da medula, ocupa o espaço físico e modifica o microambiente, liberando citocinas que suprimem as células-tronco normais. Como os blastos não amadurecem, deixam de ser produzidos hemácias, neutrófilos e plaquetas funcionais, o que gera a tríade de anemia, infecção e sangramento. Por isso a pancitopenia pode coexistir com leucocitose à custa de blastos.',
     x: { A: 'Citopenias autoimunes são próprias da leucemia linfocítica crônica, não das agudas.', C: 'O baço pode aumentar, mas o hiperesplenismo não é o mecanismo principal.', D: 'Não há carência nutricional como causa; a falha é de produção por infiltração medular.' },
@@ -93,7 +93,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Febre na leucemia aguda',
     e: 'Mulher de 44 anos é admitida com fadiga, febre de 38,8 graus e gengivorragia. Hemograma: hemoglobina de 7,1 g/dL, leucócitos de 54.000/mm3 com 85% de blastos e 2% de neutrófilos, e plaquetas de 19.000/mm3. Em relação à febre, a conduta correta é:',
-    o: ['Atribuir a febre à própria leucemia, já que a leucometria está elevada, e apenas observar', 'Considerar a paciente neutropênica, coletar culturas e iniciar antibiótico empírico de amplo espectro', 'Aguardar o mielograma antes de qualquer antimicrobiano', 'Prescrever anti-inflamatório não esteroide para controle da febre tumoral'],
+    o: ['Atribuir a febre à leucemia (leucometria alta) e observar', 'Considerá-la neutropênica: culturas e antibiótico empírico amplo', 'Aguardar o mielograma antes de qualquer antimicrobiano', 'AINE para controle da febre tumoral, e observar'],
     g: 'B',
     c: 'Blastos não exercem função de defesa, de modo que o que importa é o número absoluto de neutrófilos: 2% de 54.000 corresponde a cerca de 1.080/mm3, em queda e com função prejudicada. A febre na leucemia aguda recém-diagnosticada deve ser tratada como infecciosa até prova em contrário, pois a infecção é a principal causa de morte. A leucocitose à custa de blastos não protege o paciente.',
     x: { A: 'A leucocitose é de blastos, sem função fagocítica; presumir febre tumoral é perigoso.', C: 'O antibiótico não deve esperar o mielograma, que pode ser feito em paralelo.', D: 'Anti-inflamatórios pioram a disfunção plaquetária e mascaram um quadro infeccioso.' },
@@ -109,7 +109,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Dor óssea: achados radiográficos',
     e: 'Menina de 5 anos tem dor em joelhos e claudicação há 1 mês, com palidez. A radiografia dos joelhos, solicitada pelo ortopedista, mostra faixas radiotransparentes transversais nas metáfises distais dos fêmures. Hemograma: hemoglobina de 8,2 g/dL, leucócitos de 4.100/mm3 com linfocitose relativa e plaquetas de 96.000/mm3. A interpretação correta é:',
-    o: ['Achado compatível com dor de crescimento, sem necessidade de investigação', 'Bandas metafisárias radiotransparentes sugerem infiltração leucêmica e, associadas às citopenias, indicam avaliação da medula óssea', 'Achado típico de raquitismo, devendo-se iniciar vitamina D', 'Achado típico de osteomielite, devendo-se iniciar antibiótico e puncionar a articulação'],
+    o: ['Dor de crescimento, sem necessidade de investigação', 'Bandas metafisárias sugerem infiltração; avaliar a medula', 'Raquitismo típico: iniciar vitamina D', 'Osteomielite típica: antibiótico e punção articular'],
     g: 'B',
     c: 'A expansão do tecido leucêmico na medula das metáfises, região de crescimento rápido, reduz a trabeculação e produz faixas radiotransparentes transversais, além de osteopenia e reação periosteal. A dor óssea é queixa inicial frequente da leucemia da criança e leva muitos pacientes primeiro ao ortopedista ou ao reumatologista. A presença de duas citopenias torna obrigatória a investigação medular.',
     x: { A: 'Dor de crescimento não causa claudicação, alteração radiográfica nem citopenias.', C: 'O raquitismo mostra alargamento e irregularidade da placa de crescimento, sem citopenias.', D: 'A osteomielite é geralmente focal e unilateral, com sinais inflamatórios e leucocitose.' },
@@ -117,7 +117,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Sarcoma granulocítico (cloroma)',
     e: 'Menino de 8 anos apresenta proptose unilateral progressiva há 3 semanas. A tomografia mostra massa sólida em órbita. Hemograma: hemoglobina de 9,0 g/dL, leucócitos de 21.000/mm3 com 40% de blastos contendo bastonetes de Auer. A massa orbitária corresponde mais provavelmente a:',
-    o: ['Retinoblastoma com extensão extraocular', 'Sarcoma granulocítico (cloroma), tumor extramedular de blastos mieloides', 'Celulite orbitária por neutropenia', 'Metástase de neuroblastoma'],
+    o: ['Retinoblastoma com extensão extraocular, na órbita', 'Sarcoma granulocítico (cloroma): tumor extramedular mieloide', 'Celulite orbitária por neutropenia, na órbita', 'Metástase de neuroblastoma, na órbita'],
     g: 'B',
     c: 'O sarcoma granulocítico, ou sarcoma mieloide, é uma massa tumoral formada por blastos mieloides fora da medula, com predileção por órbita, ossos, pele e linfonodos. O nome cloroma vem da cor esverdeada ao corte, causada pela mieloperoxidase dos blastos. Tem valor diagnóstico equivalente ao de leucemia mieloide aguda, mesmo quando precede o acometimento medular, e é tratado com quimioterapia sistêmica.',
     x: { A: 'O retinoblastoma ocorre em lactentes, com leucocoria, e não explica blastos com Auer.', C: 'A celulite orbitária teria dor, calor e eritema, sem massa sólida de crescimento lento.', D: 'O neuroblastoma causa equimose periorbitária em crianças menores, sem blastos mieloides.' },
@@ -133,7 +133,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Infiltração do sistema nervoso central',
     e: 'Adolescente de 15 anos com leucemia linfoide aguda recém-diagnosticada queixa-se de cefaleia, vômitos matinais e visão dupla. Ao exame, há paralisia do VI nervo craniano à direita e paralisia facial periférica à esquerda. A tomografia de crânio é normal. O exame que confirma a suspeita é:',
-    o: ['Eletroencefalograma', 'Análise do líquor com citologia, pesquisando blastos', 'Angiografia cerebral', 'Dosagem sérica de DHL'],
+    o: ['Eletroencefalograma, com privação de sono', 'Líquor com citologia, pesquisando blastos', 'Angiografia cerebral, com contraste', 'Dosagem sérica de DHL, no soro'],
     g: 'B',
     c: 'A infiltração leucêmica do sistema nervoso central ocorre nas leptomeninges, causando hipertensão intracraniana e comprometimento de nervos cranianos no espaço subaracnóideo, com exames de imagem frequentemente normais. O diagnóstico é citológico, pela identificação de blastos no líquor. O acometimento é mais comum na leucemia linfoide aguda, na leucemia mieloide com componente monocítico e nas hiperleucocitoses.',
     x: { A: 'O eletroencefalograma não identifica infiltração meníngea por células leucêmicas.', C: 'Não há suspeita de doença vascular; a angiografia não avalia as leptomeninges.', D: 'A DHL sérica reflete carga tumoral global, sem localizar doença no sistema nervoso.' },
@@ -141,7 +141,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Organomegalias: LLA x LMA',
     e: 'Em relação às manifestações de infiltração tecidual nas leucemias agudas, é correto afirmar:',
-    o: ['Linfonodomegalia e esplenomegalia são mais frequentes na leucemia mieloide aguda do que na linfoide', 'Linfonodomegalia, hepatoesplenomegalia, dor óssea e acometimento de testículo e sistema nervoso central são mais frequentes na leucemia linfoide aguda', 'A hipertrofia gengival é característica da leucemia linfoide aguda de linhagem T', 'A esplenomegalia maciça, que ultrapassa a cicatriz umbilical, é a regra nas leucemias agudas'],
+    o: ['Linfonodos e baço aumentados são mais frequentes na LMA', 'Na LLA: linfonodos, hepatoesplenomegalia, dor óssea, testículo e SNC', 'Hipertrofia gengival é típica da LLA de linhagem T', 'Esplenomegalia maciça é a regra nas leucemias agudas'],
     g: 'B',
     c: 'Os linfoblastos têm tropismo pelos órgãos linfoides e pelos santuários, de modo que adenomegalias, hepatoesplenomegalia, dor óssea e infiltração de sistema nervoso e testículo predominam na leucemia linfoide aguda. Na mieloide, as organomegalias são menos comuns e discretas, destacando-se a infiltração de gengiva e pele nos subtipos monocíticos. Esplenomegalia maciça sugere doença crônica, como leucemia mieloide crônica ou mielofibrose.',
     x: { A: 'É o inverso: as organomegalias são mais comuns e exuberantes na leucemia linfoide.', C: 'A hipertrofia gengival é marca dos subtipos monocíticos da leucemia mieloide aguda.', D: 'Esplenomegalia maciça é rara nas agudas e sugere doença mieloproliferativa crônica.' },
@@ -149,7 +149,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Leucemia aleucêmica',
     e: 'Mulher de 36 anos apresenta fadiga, febre e petéquias há 2 semanas. Hemograma: hemoglobina de 6,5 g/dL, leucócitos de 1.400/mm3 (neutrófilos de 300/mm3, sem blastos) e plaquetas de 11.000/mm3. Não há organomegalias. Vitamina B12 e folato são normais. O próximo passo e a justificativa são:',
-    o: ['Repetir o hemograma em 30 dias, pois a ausência de blastos afasta leucemia', 'Realizar mielograma, pois a leucemia aguda pode se apresentar com pancitopenia sem blastos circulantes', 'Iniciar corticoide em dose alta para citopenia autoimune', 'Solicitar apenas sorologias virais e orientar retorno'],
+    o: ['Repetir o hemograma em 30 dias: sem blastos afasta leucemia', 'Mielograma: a leucemia aguda pode ter pancitopenia sem blastos', 'Corticoide em dose alta para citopenia autoimune', 'Apenas sorologias virais e orientar retorno'],
     g: 'B',
     c: 'Na forma aleucêmica, os blastos permanecem confinados à medula e o sangue periférico mostra apenas pancitopenia, o que ocorre em parcela relevante das leucemias agudas. Por isso, a ausência de blastos no hemograma não exclui o diagnóstico. Pancitopenia inexplicada com sintomas de falência medular exige exame da medula, que também diferencia aplasia, mielodisplasia e infiltração.',
     x: { A: 'Adiar a investigação expõe a paciente a infecção e sangramento graves sem diagnóstico.', C: 'Corticoide antes do diagnóstico pode mascarar leucemia linfoide e piorar o prognóstico.', D: 'Sorologias podem ser coletadas, mas não substituem o exame da medula óssea.' },
@@ -157,7 +157,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Aspirado seco',
     e: 'Durante a investigação de um homem de 50 anos com pancitopenia e raros blastos circulantes, a punção aspirativa de medula óssea em crista ilíaca não obtém material, mesmo após duas tentativas com técnica adequada. A conduta correta é:',
-    o: ['Considerar o exame normal e encerrar a investigação medular', 'Realizar biópsia de medula óssea com imprint e encaminhar material para imuno-histoquímica', 'Repetir a punção apenas após 3 meses', 'Substituir o exame por tomografia de corpo inteiro'],
+    o: ['Considerar o exame normal e encerrar a investigação', 'Biópsia de medula com imprint e imuno-histoquímica', 'Repetir a punção apenas após 3 meses', 'Substituir o exame por tomografia de corpo inteiro'],
     g: 'B',
     c: 'O aspirado seco ocorre quando a medula está fibrosada ou tão compactada por células neoplásicas que elas não são aspiradas. Na leucemia aguda, isso é típico do subtipo megacarioblástico e de medulas hipercelulares empacotadas. A biópsia fornece a arquitetura, a celularidade e o grau de fibrose, e a imuno-histoquímica no fragmento permite definir a linhagem dos blastos.',
     x: { A: 'A punção seca é achado patológico por si só e nunca equivale a exame normal.', C: 'Adiar o diagnóstico de possível leucemia aguda por meses é inaceitável.', D: 'Exames de imagem não fornecem diagnóstico citológico nem histológico da medula.' },
@@ -165,7 +165,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Imunofenotipagem',
     e: 'No diagnóstico de uma leucemia aguda, o papel principal da imunofenotipagem por citometria de fluxo é:',
-    o: ['Quantificar o percentual de blastos, substituindo a contagem morfológica', 'Definir a linhagem (mieloide, linfoide B ou linfoide T) e o estágio de maturação dos blastos pelos antígenos expressos', 'Identificar translocações cromossômicas balanceadas', 'Avaliar a celularidade e a fibrose da medula óssea'],
+    o: ['Quantificar o percentual de blastos, no lugar da morfologia', 'Definir a linhagem (mieloide, B ou T) e o estágio dos blastos', 'Identificar translocações cromossômicas balanceadas', 'Avaliar a celularidade e a fibrose da medula'],
     g: 'B',
     c: 'A citometria de fluxo marca as células com anticorpos monoclonais fluorescentes e identifica combinações de antígenos de superfície e citoplasmáticos. Mieloperoxidase, CD13, CD33 e CD117 indicam linhagem mieloide; CD19, CD22 e CD79a, linhagem B; CD3 citoplasmático e CD7, linhagem T. A distinção é essencial porque blastos mieloides e linfoides podem ser indistinguíveis à microscopia e os tratamentos são diferentes.',
     x: { A: 'O percentual de blastos que define o diagnóstico é o da contagem morfológica.', C: 'Translocações são detectadas por cariótipo, hibridização in situ ou métodos moleculares.', D: 'Celularidade e fibrose são avaliadas na biópsia de medula óssea.' },
@@ -173,7 +173,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Citogenética',
     e: 'Em um paciente com leucemia aguda recém-diagnosticada, o cariótipo da medula óssea deve ser solicitado antes do início do tratamento porque:',
-    o: ['É o exame que confirma se há 20% de blastos', 'As alterações cromossômicas são o principal determinante do prognóstico e orientam a intensidade do tratamento e a indicação de transplante', 'Serve apenas para fins de pesquisa, sem impacto na conduta', 'Substitui a imunofenotipagem na definição da linhagem'],
+    o: ['Confirma se há 20% de blastos na medula óssea', 'Alterações cromossômicas definem prognóstico e transplante', 'Serve só para pesquisa, sem impacto na conduta', 'Substitui a imunofenotipagem na definição da linhagem'],
     g: 'B',
     c: 'As alterações citogenéticas refletem a biologia do clone e separam grupos de risco favorável, intermediário e adverso, com chances de cura muito distintas. Essa estratificação decide se a consolidação será apenas quimioterápica ou se haverá transplante alogênico em primeira remissão, e identifica alvos terapêuticos. A amostra deve ser colhida antes da quimioterapia, que elimina as células em divisão necessárias à análise.',
     x: { A: 'O percentual de blastos é dado pela morfologia do aspirado, não pelo cariótipo.', C: 'O resultado muda diretamente a estratégia terapêutica de consolidação.', D: 'A linhagem é definida pela imunofenotipagem; o cariótipo estratifica o risco.' },
@@ -181,7 +181,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico com menos de 20% de blastos',
     e: 'Homem de 34 anos tem anemia e plaquetopenia. O mielograma mostra 14% de blastos mieloides com bastonetes de Auer, e a citogenética revela t(8;21). A interpretação correta é:',
-    o: ['Síndrome mielodisplásica com excesso de blastos, pois não há 20% de blastos', 'Leucemia mieloide aguda, pois essa alteração genética recorrente define o diagnóstico independentemente do percentual de blastos', 'Leucemia mieloide crônica em fase acelerada', 'Medula reacional, devendo-se repetir o exame em 3 meses'],
+    o: ['SMD com excesso de blastos, pois não há 20% de blastos', 'LMA: a alteração recorrente define o diagnóstico', 'LMC em fase acelerada, com BCR-ABL positivo', 'Medula reacional; repetir o exame em 3 meses'],
     g: 'B',
     c: 'Algumas alterações genéticas recorrentes, como t(8;21), inv(16) ou t(16;16) e t(15;17), são tão específicas da leucemia mieloide aguda que definem a doença mesmo com blastos abaixo de 20%. Esses pacientes têm a mesma biologia e a mesma resposta ao tratamento dos que apresentam blastos mais numerosos. Tratá-los como mielodisplasia retardaria uma terapia potencialmente curativa.',
     x: { A: 'A alteração genética definidora prevalece sobre o limiar de 20% de blastos.', C: 'A leucemia mieloide crônica exige BCR-ABL1, e não apresenta t(8;21).', D: 'Blastos com bastonetes de Auer são clonais; não se trata de medula reacional.' },
@@ -189,7 +189,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Biologia molecular',
     e: 'Entre as utilidades dos métodos moleculares, como PCR e sequenciamento, nas leucemias agudas, é correto citar:',
-    o: ['Substituem o hemograma no acompanhamento da neutropenia', 'Detectam mutações e genes de fusão com valor prognóstico e terapêutico e permitem monitorar a doença residual em níveis abaixo da detecção morfológica', 'Só são úteis na leucemia mieloide crônica', 'Determinam o percentual de blastos necessário ao diagnóstico'],
+    o: ['Substituem o hemograma no acompanhamento da neutropenia', 'Detectam mutações e fusões com valor prognóstico e monitoram a DRM', 'Só são úteis na leucemia mieloide crônica', 'Determinam o percentual de blastos para o diagnóstico'],
     g: 'B',
     c: 'Mutações como FLT3 e NPM1 e transcritos de fusão como PML-RARA e BCR-ABL1 não são vistas ou são mal avaliadas pelo cariótipo convencional, mas mudam o prognóstico e indicam terapias-alvo. Além disso, a PCR detecta uma célula leucêmica entre dezenas de milhares de células normais, permitindo acompanhar a doença residual enquanto o paciente está em remissão morfológica, definida por menos de 5% de blastos.',
     x: { A: 'O acompanhamento das contagens é feito pelo hemograma, exame simples e insubstituível.', C: 'Têm papel central também nas leucemias agudas, mieloides e linfoides.', D: 'O percentual de blastos é uma contagem morfológica, não molecular.' },
@@ -197,7 +197,7 @@ export const LEUCEMIA_1: QuestaoCompacta[] = [
   {
     s: 'Punção lombar no diagnóstico',
     e: 'Sobre a punção lombar na avaliação inicial das leucemias agudas, é correto afirmar:',
-    o: ['É indicada de rotina apenas na leucemia mieloide aguda, pois a linfoide raramente acomete o sistema nervoso', 'É indicada em todos os pacientes com leucemia linfoide aguda, com administração de quimioterapia intratecal já na primeira punção, após correção de plaquetopenia grave', 'Deve ser feita antes do hemograma, para não atrasar o diagnóstico', 'É contraindicada em crianças pelo risco de herniação'],
+    o: ['Indicada de rotina só na LMA; a LLA raramente acomete o SNC', 'Indicada em todos com LLA, com QT intratecal na 1ª punção', 'Feita antes do hemograma, para não atrasar o diagnóstico', 'Contraindicada em crianças, pelo risco de herniação'],
     g: 'B',
     c: 'Na leucemia linfoide aguda, o sistema nervoso central é sítio frequente de doença oculta, de modo que todo paciente realiza punção para estadiamento e já recebe quimioterapia intratecal. A punção deve ser feita por profissional experiente e com plaquetas em nível seguro, porque uma punção traumática pode introduzir blastos circulantes no líquor. Na leucemia mieloide aguda, a punção é reservada a pacientes com sintomas neurológicos ou de maior risco.',
     x: { A: 'É o contrário: o acometimento neurológico é mais comum na leucemia linfoide aguda.', C: 'O hemograma e a coagulação são necessários antes, para garantir a segurança da punção.', D: 'Não há contraindicação pela idade; é procedimento rotineiro na oncologia pediátrica.' },

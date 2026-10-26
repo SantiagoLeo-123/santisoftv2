@@ -5,7 +5,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'LNH: indolentes x agressivos',
     e: 'Sobre o comportamento clínico dos linfomas não Hodgkin, é correto afirmar:',
-    o: ['Os linfomas indolentes são facilmente curados com quimioterapia, enquanto os agressivos são incuráveis', 'Os linfomas indolentes têm sobrevida longa, mas em geral são incuráveis em estádio avançado; os agressivos são rapidamente fatais sem tratamento, mas potencialmente curáveis', 'Indolentes e agressivos têm a mesma chance de cura, diferindo apenas na idade de apresentação', 'Os linfomas agressivos devem ser apenas observados enquanto forem assintomáticos'],
+    o: ['Indolentes são curados facilmente; agressivos, incuráveis', 'Indolentes: longos, incuráveis se avançados; agressivos: curáveis', 'Indolentes e agressivos têm a mesma chance de cura', 'Agressivos assintomáticos devem ser só observados'],
     g: 'B',
     c: 'Este é o paradoxo dos linfomas não Hodgkin. Os indolentes têm baixa fração de proliferação, de modo que respondem à quimioterapia mas recidivam repetidamente, sem cura na doença avançada, embora a sobrevida seja de muitos anos. Os agressivos proliferam rapidamente, o que os torna letais em meses se não tratados, mas também muito sensíveis à quimioterapia, com cura em boa parte dos casos.',
     x: { A: 'É o inverso: os indolentes avançados são incuráveis e os agressivos são potencialmente curáveis.', C: 'A chance de cura difere muito entre os grupos, justamente pela cinética de proliferação.', D: 'A conduta expectante vale para indolentes assintomáticos; agressivos exigem tratamento imediato.' },
@@ -13,7 +13,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'LNH: subtipos mais comuns',
     e: 'O linfoma não Hodgkin mais frequente no adulto e o linfoma indolente mais frequente são, respectivamente:',
-    o: ['Linfoma de Burkitt e linfoma do manto', 'Linfoma difuso de grandes células B e linfoma folicular', 'Linfoma folicular e linfoma linfoblástico', 'Linfoma MALT e micose fungoide'],
+    o: ['Burkitt e linfoma do manto, os mais comuns', 'Difuso de grandes células B e folicular', 'Folicular e linfoblástico, os mais comuns', 'MALT e micose fungoide, os mais comuns'],
     g: 'B',
     c: 'O linfoma difuso de grandes células B é o linfoma não Hodgkin mais comum, respondendo por cerca de um terço dos casos, e é um linfoma agressivo. O folicular é o segundo mais comum e o principal representante dos indolentes. Ambos derivam de linfócitos B, que originam a grande maioria dos linfomas não Hodgkin.',
     x: { A: 'Burkitt e manto são subtipos pouco frequentes entre os linfomas não Hodgkin do adulto.', C: 'O folicular é o indolente mais comum, não o mais comum no geral; o linfoblástico é raro no adulto.', D: 'O linfoma MALT e a micose fungoide são entidades menos frequentes.' },
@@ -29,7 +29,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Linfoma folicular: conduta',
     e: 'Homem de 63 anos descobre, em exame de rotina, linfonodomegalias cervicais, axilares e inguinais de até 2 cm, indolores, que oscilam de tamanho há 2 anos. Está assintomático, com hemograma e DHL normais. A biópsia mostra linfoma folicular grau 1, e o estadiamento revela doença em estádio III, sem massas volumosas. A conduta mais adequada é:',
-    o: ['R-CHOP imediato por 6 ciclos', 'Observação vigilante, com tratamento quando surgirem sintomas ou critérios de alta carga tumoral', 'Transplante alogênico em primeira remissão', 'Radioterapia de todas as cadeias acometidas'],
+    o: ['R-CHOP imediato por 6 ciclos, em todos os casos', 'Observação vigilante; tratar se sintomas ou alta carga', 'Transplante alogênico na primeira remissão', 'Radioterapia de todas as cadeias acometidas'],
     g: 'B',
     c: 'O linfoma folicular avançado é incurável com a terapia convencional, e tratar precocemente o paciente assintomático de baixa carga tumoral não aumenta a sobrevida, apenas antecipa toxicidade. Por isso adota-se a observação vigilante, iniciando imunoquimioterapia com anti-CD20 quando houver sintomas B, citopenias, massas volumosas, compressão de órgãos ou progressão rápida.',
     x: { A: 'A imunoquimioterapia imediata não prolonga a sobrevida no assintomático de baixa carga tumoral.', C: 'O transplante alogênico tem alta mortalidade e é reservado a recidivas múltiplas selecionadas.', D: 'A radioterapia com intenção curativa só se aplica à doença localizada, estádios I e II.' },
@@ -45,7 +45,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'LDGCB: tratamento',
     e: 'Homem de 55 anos apresenta massa cervical de crescimento rápido em 6 semanas, febre e emagrecimento. A biópsia mostra proliferação difusa de células grandes CD20 positivas, com Ki-67 de 80%. O estadiamento indica estádio III. O tratamento de primeira linha é:',
-    o: ['ABVD por 6 ciclos', 'R-CHOP (rituximabe, ciclofosfamida, doxorrubicina, vincristina e prednisona)', 'Observação vigilante até o surgimento de citopenias', 'Clorambucil oral isolado'],
+    o: ['ABVD por 6 ciclos, por via venosa mensal', 'R-CHOP (rituximabe + CHOP)', 'Observação vigilante até surgirem citopenias graves', 'Clorambucil oral isolado, por tempo indeterminado'],
     g: 'B',
     c: 'O linfoma difuso de grandes células B é agressivo e potencialmente curável, e o padrão é a imunoquimioterapia R-CHOP por cerca de 6 ciclos. O rituximabe é um anticorpo monoclonal anti-CD20 que destrói linfócitos B por citotoxicidade dependente de anticorpo e de complemento, e sua adição ao CHOP aumentou de forma significativa a taxa de cura.',
     x: { A: 'ABVD é o esquema do linfoma de Hodgkin clássico, não dos linfomas B agressivos.', C: 'Linfomas agressivos são fatais em meses sem tratamento; não cabe conduta expectante.', D: 'Clorambucil é alquilante oral de baixa intensidade, inadequado para linfoma agressivo.' },
@@ -61,7 +61,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Burkitt: genética e histologia',
     e: 'O linfoma de Burkitt caracteriza-se por:',
-    o: ['t(14;18), padrão folicular e curso indolente', 't(8;14) com ativação do oncogene MYC, padrão histológico em céu estrelado e índice de proliferação próximo de 100%', 't(11;14), células pequenas CD5 positivas e ciclina D1 positiva', 'Células de Reed-Sternberg em fundo inflamatório polimórfico'],
+    o: ['t(14;18), padrão folicular e curso indolente', 't(8;14), MYC, céu estrelado e proliferação de ~100%', 't(11;14), células pequenas CD5+ e ciclina D1+', 'Células de Reed-Sternberg em fundo inflamatório'],
     g: 'B',
     c: 'Na t(8;14), o MYC é justaposto ao locus da cadeia pesada de imunoglobulina e passa a ser expresso continuamente, impulsionando a proliferação. O Ki-67 fica próximo de 100%, e a intensa apoptose gera restos celulares fagocitados por macrófagos claros dispersos entre as células tumorais escuras, o padrão em céu estrelado. É um dos tumores de crescimento mais rápido que existem.',
     x: { A: 'A t(14;18) com padrão folicular e curso indolente define o linfoma folicular.', C: 'A t(11;14) com ciclina D1 e CD5 positivo corresponde ao linfoma do manto.', D: 'Células de Reed-Sternberg em fundo inflamatório caracterizam o linfoma de Hodgkin.' },
@@ -69,7 +69,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Burkitt: formas clínicas',
     e: 'Menino de 7 anos, procedente de região de clima temperado, apresenta dor abdominal, vômitos e massa palpável em fossa ilíaca direita, com quadro de invaginação intestinal. A cirurgia revela tumor em região ileocecal, e a histologia mostra células linfoides de tamanho médio com numerosos macrófagos de corpos tingíveis e Ki-67 de quase 100%. Sobre essa doença, é correto afirmar:',
-    o: ['Trata-se da forma endêmica, que acomete tipicamente a mandíbula e quase sempre é EBV negativa', 'Trata-se da forma esporádica, que acomete tipicamente a região ileocecal; a forma endêmica africana acomete a mandíbula e associa-se fortemente ao EBV', 'É um linfoma indolente, tratado com ressecção cirúrgica exclusiva', 'A associação com o EBV é mais forte na forma esporádica do que na endêmica'],
+    o: ['Forma endêmica: mandíbula e quase sempre EBV negativa', 'Esporádica: região ileocecal; endêmica: mandíbula e EBV', 'Linfoma indolente, tratado com ressecção exclusiva', 'O EBV se associa mais à forma esporádica que à endêmica'],
     g: 'B',
     c: 'O linfoma de Burkitt tem três formas. A endêmica, da África equatorial, acomete mandíbula e ossos da face em crianças e associa-se ao EBV em quase todos os casos, com a malária como cofator. A esporádica acomete o abdome, sobretudo a região ileocecal, com EBV em minoria dos casos. A terceira é a associada à imunodeficiência, em pessoas com HIV.',
     x: { A: 'A forma endêmica é a da mandíbula e é quase sempre EBV positiva, não negativa.', C: 'É linfoma altamente agressivo, tratado com quimioterapia intensiva e profilaxia do SNC.', D: 'A associação com EBV é quase universal na forma endêmica e minoritária na esporádica.' },
@@ -93,7 +93,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Rasburicase: contraindicação',
     e: 'A rasburicase, usada na síndrome de lise tumoral, é contraindicada em pacientes com:',
-    o: ['Insuficiência renal aguda', 'Deficiência de glicose-6-fosfato desidrogenase', 'Hipercalemia', 'Alergia a sulfas'],
+    o: ['Insuficiência renal aguda, na lise tumoral', 'Deficiência de glicose-6-fosfato desidrogenase', 'Hipercalemia, na lise tumoral', 'Alergia a sulfas, ao medicamento'],
     g: 'B',
     c: 'A oxidação do ácido úrico pela rasburicase gera peróxido de hidrogênio como subproduto. Na deficiência de G6PD, a hemácia não regenera glutationa reduzida para neutralizar esse oxidante, ocorrendo hemólise grave e meta-hemoglobinemia. Nesses pacientes, a alternativa é o alopurinol associado à hidratação.',
     x: { A: 'A lesão renal aguda por hiperuricemia é justamente uma indicação de rasburicase.', C: 'A hipercalemia é tratada em paralelo e não contraindica o uso da rasburicase.', D: 'Não há reatividade cruzada entre a rasburicase e as sulfonamidas.' },
@@ -109,7 +109,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Linfoma MALT gástrico',
     e: 'Mulher de 52 anos realiza endoscopia por dispepsia, que mostra área de mucosa espessada e erosada no antro. A biópsia revela linfoma da zona marginal extranodal do tipo MALT, de baixo grau, com pesquisa de Helicobacter pylori positiva. O estadiamento mostra doença restrita à parede gástrica. O tratamento inicial é:',
-    o: ['Gastrectomia total', 'Erradicação do Helicobacter pylori com antibióticos e inibidor de bomba de prótons', 'R-CHOP por 6 ciclos', 'Radioterapia gástrica imediata'],
+    o: ['Gastrectomia total, de imediato, como primeira conduta', 'Erradicação do H. pylori (antibióticos e IBP)', 'R-CHOP por 6 ciclos, de imediato, como primeira conduta', 'Radioterapia gástrica imediata, como primeira conduta'],
     g: 'B',
     c: 'O linfoma MALT gástrico surge da estimulação antigênica crônica pelo Helicobacter pylori, que induz a formação de tecido linfoide na mucosa e a proliferação de linfócitos B dependente de linfócitos T específicos para a bactéria. Na doença localizada de baixo grau, a erradicação remove esse estímulo e leva à regressão do linfoma na maioria dos casos. A presença da t(11;18) prediz falta de resposta aos antibióticos.',
     x: { A: 'A gastrectomia foi abandonada, pois a doença responde a tratamento clínico conservador.', C: 'A imunoquimioterapia é reservada a doença avançada ou transformação para alto grau.', D: 'A radioterapia fica para casos H. pylori negativos ou sem resposta à erradicação.' },
@@ -133,7 +133,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Sézary',
     e: 'A síndrome de Sézary é definida pela tríade de:',
-    o: ['Placas cutâneas localizadas, hipercalcemia e lesões ósseas líticas', 'Eritrodermia, linfonodomegalia generalizada e células T neoplásicas de núcleo cerebriforme no sangue periférico', 'Tumores cutâneos, esplenomegalia volumosa e pancitopenia', 'Prurido aquagênico, pletora facial e eritrocitose'],
+    o: ['Placas cutâneas, hipercalcemia e lesões ósseas líticas', 'Eritrodermia, linfonodomegalia e células de núcleo cerebriforme no sangue', 'Tumores cutâneos, esplenomegalia volumosa e pancitopenia', 'Prurido aquagênico, pletora facial e eritrocitose'],
     g: 'B',
     c: 'A síndrome de Sézary é a forma leucêmica e agressiva dos linfomas cutâneos de células T. As células de Sézary são linfócitos T CD4 positivos com núcleo convoluto, de aspecto cerebriforme, que circulam no sangue. O paciente apresenta eritrodermia esfoliativa muito pruriginosa, queratodermia palmoplantar e linfonodomegalia, com prognóstico pior que o da micose fungoide.',
     x: { A: 'Hipercalcemia e lesões líticas sugerem leucemia/linfoma T do adulto, ligada ao HTLV-1.', C: 'Esplenomegalia volumosa com pancitopenia lembra tricoleucemia, não síndrome de Sézary.', D: 'Prurido aquagênico com pletora e eritrocitose compõe o quadro da policitemia vera.' },
@@ -149,7 +149,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Linfoma primário do SNC no HIV',
     e: 'Homem de 36 anos, com aids e contagem de CD4 de 28 células/mm3, apresenta cefaleia, sonolência e hemiparesia direita. A ressonância mostra lesão única periventricular, com realce pelo contraste e edema. Não houve melhora clínica nem radiológica após 14 dias de tratamento empírico para neurotoxoplasmose. A pesquisa de DNA do vírus Epstein-Barr no líquor é positiva. A principal hipótese é:',
-    o: ['Leucoencefalopatia multifocal progressiva', 'Linfoma primário do sistema nervoso central', 'Tuberculoma', 'Criptococoma'],
+    o: ['Leucoencefalopatia multifocal progressiva', 'Linfoma primário do sistema nervoso central', 'Tuberculoma, com realce anelar', 'Criptococoma, com realce anelar'],
     g: 'B',
     c: 'O linfoma primário do SNC é doença definidora de aids, ocorre com CD4 muito baixo, em geral abaixo de 50, e é quase sempre um linfoma B de grandes células relacionado ao EBV. O principal diagnóstico diferencial é a neurotoxoplasmose; a ausência de resposta ao tratamento empírico em 10 a 14 dias, a lesão única periventricular e o EBV positivo no líquor apontam para linfoma, cabendo biópsia estereotáxica.',
     x: { A: 'A leucoencefalopatia causa lesões de substância branca sem realce e sem efeito de massa.', C: 'O tuberculoma é possível, mas o EBV positivo no líquor direciona fortemente para linfoma.', D: 'O criptococoma é raro e não se associa à detecção de EBV no líquor.' },
@@ -157,7 +157,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Linfomas associados ao HIV',
     e: 'A respeito dos linfomas em pessoas vivendo com HIV, é correto afirmar:',
-    o: ['Os linfomas T indolentes são os mais frequentes', 'Predominam linfomas B agressivos, como o difuso de grandes células B e o de Burkitt, frequentemente com doença extranodal e sintomas B', 'O linfoma de Hodgkin não tem incidência aumentada nessa população', 'A terapia antirretroviral deve ser suspensa durante a quimioterapia'],
+    o: ['Linfomas T indolentes são os mais frequentes', 'Predominam linfomas B agressivos, extranodais, com sintomas B', 'O Hodgkin não tem incidência aumentada nessa população', 'A TARV deve ser suspensa durante a quimioterapia'],
     g: 'B',
     c: 'A imunodeficiência e a estimulação crônica de linfócitos B, com participação do EBV e do HHV-8, favorecem linfomas B de alto grau. Eles costumam apresentar-se em estádio avançado, com acometimento extranodal (trato gastrointestinal, medula óssea, SNC) e sintomas B. Linfoma difuso de grandes células B, Burkitt e primário do SNC são doenças definidoras de aids.',
     x: { A: 'Os linfomas no HIV são predominantemente de células B e de comportamento agressivo.', C: 'O linfoma de Hodgkin tem incidência aumentada no HIV, embora não seja definidor de aids.', D: 'A terapia antirretroviral deve ser mantida, pois melhora a tolerância e a sobrevida.' },
@@ -189,7 +189,7 @@ export const LINFOMAS_2: QuestaoCompacta[] = [
   {
     s: 'Linfoma NK/T nasal',
     e: 'Homem de 45 anos apresenta obstrução nasal unilateral, epistaxe e lesão ulceronecrótica destrutiva na cavidade nasal e no palato, com perfuração. A biópsia mostra infiltrado linfoide atípico angiocêntrico, com necrose, positivo para CD56 e para EBV. O diagnóstico é:',
-    o: ['Granulomatose com poliangiite', 'Linfoma extranodal de células NK/T, tipo nasal', 'Leishmaniose mucosa', 'Carcinoma espinocelular de cavidade nasal'],
+    o: ['Granulomatose com poliangiite, nasal', 'Linfoma extranodal de células NK/T, tipo nasal', 'Leishmaniose mucosa, nasal', 'Carcinoma espinocelular de cavidade nasal'],
     g: 'B',
     c: 'O linfoma NK/T tipo nasal causa lesão destrutiva da linha média da face. As células neoplásicas invadem e destroem a parede dos vasos (angiocentricidade), o que explica a necrose extensa. Expressa CD56 e associa-se ao EBV em praticamente todos os casos, sendo mais frequente na Ásia e na América Latina.',
     x: { A: 'A granulomatose com poliangiite tem granulomas e vasculite, sem células atípicas EBV positivas.', C: 'A leishmaniose mucosa mostra infiltrado granulomatoso, sem linfócitos atípicos CD56 positivos.', D: 'O carcinoma espinocelular é epitelial, positivo para citoqueratinas, e não linfoide.' },

@@ -21,7 +21,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Agentes hospitalares',
     e: 'Os agentes mais frequentemente implicados na pneumonia hospitalar e na associada à ventilação mecânica são:',
-    o: ['Mycoplasma pneumoniae, Chlamydophila pneumoniae e vírus sincicial respiratório', 'Bacilos Gram-negativos, como Pseudomonas aeruginosa, Acinetobacter e Klebsiella, e Staphylococcus aureus', 'Streptococcus pyogenes e Moraxella catarrhalis', 'Pneumocystis jirovecii e Aspergillus fumigatus'],
+    o: ['Mycoplasma, Chlamydophila e vírus sincicial respiratório', 'Gram-negativos (Pseudomonas, Acinetobacter, Klebsiella) e S. aureus', 'Streptococcus pyogenes e Moraxella catarrhalis', 'Pneumocystis jirovecii e Aspergillus fumigatus'],
     g: 'B',
     c: 'Após alguns dias de internação, a orofaringe passa a ser colonizada por flora hospitalar. Predominam os bacilos Gram-negativos (Pseudomonas, Acinetobacter, Klebsiella e outras enterobactérias) e o S. aureus, incluindo o MRSA, frequentemente com perfis de multirresistência que variam conforme a unidade.',
     x: { A: 'Atípicos e vírus são agentes predominantemente comunitários.', C: 'São causas incomuns de pneumonia e não caracterizam o ambiente hospitalar.', D: 'São agentes oportunistas de pacientes com imunossupressão grave.' },
@@ -29,7 +29,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Risco para multirresistentes',
     e: 'Segundo a diretriz ATS/IDSA de pneumonia hospitalar, o fator de risco mais importante para infecção por germes multirresistentes, comum à pneumonia hospitalar e à associada à ventilação, é:',
-    o: ['Idade acima de 60 anos', 'Uso de antibiótico intravenoso nos últimos 90 dias', 'Tabagismo prévio', 'Sexo masculino'],
+    o: ['Idade acima de 60 anos, como fator de risco', 'Antibiótico IV nos últimos 90 dias', 'Tabagismo prévio, como fator de risco', 'Sexo masculino, como fator de risco'],
     g: 'B',
     c: 'A exposição recente a antibióticos intravenosos elimina a flora sensível e seleciona cepas resistentes, sendo o principal fator de risco. Na PAV, somam-se choque séptico, síndrome do desconforto respiratório agudo prévia, 5 dias ou mais de internação antes da pneumonia e terapia renal substitutiva aguda.',
     x: { A: 'A idade isoladamente não é fator de risco validado para multirresistência.', C: 'O tabagismo aumenta o risco de pneumonia, mas não de germes multirresistentes.', D: 'O sexo não está entre os fatores de risco para patógenos resistentes.' },
@@ -37,7 +37,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de PAV',
     e: 'Homem de 62 anos, no sétimo dia de ventilação mecânica por trauma craniano, apresenta febre, leucocitose, secreção traqueal purulenta, piora da oxigenação e infiltrado novo em base direita. A conduta diagnóstica e terapêutica recomendada é:',
-    o: ['Aguardar o resultado das culturas para iniciar o antibiótico', 'Colher amostra respiratória, como aspirado traqueal, para cultura e iniciar antibiótico empírico imediatamente', 'Realizar biópsia pulmonar a céu aberto para confirmação', 'Iniciar antifúngico empírico e observar a evolução'],
+    o: ['Aguardar as culturas para iniciar o antibiótico', 'Colher aspirado traqueal para cultura e iniciar antibiótico já', 'Biópsia pulmonar a céu aberto, para confirmação', 'Antifúngico empírico e observar a evolução'],
     g: 'B',
     c: 'O diagnóstico de PAV é clínico: infiltrado novo ou progressivo associado a sinais de infecção. Recomenda-se coleta de amostra respiratória, podendo ser o aspirado traqueal não invasivo, antes do antibiótico, e início imediato do tratamento empírico, pois o atraso aumenta a mortalidade. A cultura orienta o descalonamento.',
     x: { A: 'Atrasar o tratamento em pneumonia associada à ventilação aumenta a mortalidade.', C: 'A biópsia pulmonar é invasiva e não é necessária para o diagnóstico.', D: 'Fungos são causa rara de pneumonia associada à ventilação em imunocompetentes.' },
@@ -45,7 +45,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Esquema empírico hospitalar',
     e: 'Mulher de 58 anos, internada em enfermaria há 9 dias após colectomia, desenvolve pneumonia hospitalar sem choque e sem necessidade de ventilação. Não recebeu antibiótico intravenoso nos últimos 90 dias, e a prevalência de MRSA na unidade é baixa. O esquema empírico mais adequado é:',
-    o: ['Amoxicilina por via oral', 'Monoterapia com betalactâmico antipseudomonas, como piperacilina-tazobactam ou cefepima', 'Vancomicina em monoterapia', 'Azitromicina associada a oseltamivir'],
+    o: ['Amoxicilina por via oral, em dose habitual, por 5 dias', 'Monoterapia com betalactâmico antipseudomonas (pip-tazo, cefepima)', 'Vancomicina em monoterapia, por via venosa, por 7 dias', 'Azitromicina com oseltamivir, por via oral, por 5 dias'],
     g: 'B',
     c: 'Toda pneumonia hospitalar deve ter cobertura para Pseudomonas, outros Gram-negativos e S. aureus sensível. No paciente sem alto risco de morte e sem fatores para multirresistência, basta um agente como piperacilina-tazobactam, cefepima, levofloxacino ou carbapenêmico, ajustado à microbiota local.',
     x: { A: 'A amoxicilina não cobre os Gram-negativos hospitalares nem a Pseudomonas.', C: 'A vancomicina isolada não tem atividade contra bacilos Gram-negativos.', D: 'Esse esquema é voltado a agentes comunitários e não cobre a flora hospitalar.' },
@@ -53,7 +53,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Cobertura ampliada',
     e: 'Homem de 70 anos em ventilação mecânica há 10 dias, em uso de noradrenalina, desenvolve PAV. Recebeu ceftriaxona intravenosa há 3 semanas, e a unidade tem alta prevalência de MRSA e de Gram-negativos resistentes. O esquema empírico inicial mais adequado é:',
-    o: ['Ceftriaxona associada a azitromicina', 'Dois agentes antipseudomonas de classes diferentes associados a vancomicina ou linezolida', 'Ampicilina-sulbactam em monoterapia', 'Fluconazol associado a metronidazol'],
+    o: ['Ceftriaxona associada a azitromicina, por via venosa', 'Dois antipseudomonas de classes distintas e vancomicina ou linezolida', 'Ampicilina-sulbactam em monoterapia, por via venosa', 'Fluconazol associado a metronidazol, por via venosa'],
     g: 'B',
     c: 'Com fatores de risco para multirresistência (antibiótico intravenoso recente, choque séptico), recomenda-se cobertura dupla para Pseudomonas, com betalactâmico associado a aminoglicosídeo, quinolona ou polimixina, mais um agente anti-MRSA. O objetivo é aumentar a chance de ao menos uma droga ser ativa; depois, descalona-se pela cultura.',
     x: { A: 'É esquema para pneumonia comunitária, sem ação contra Pseudomonas e MRSA.', C: 'A ampicilina-sulbactam não cobre Pseudomonas nem MRSA.', D: 'Antifúngico e anaerobicida não tratam os agentes habituais da pneumonia associada à ventilação.' },
@@ -61,7 +61,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Descalonamento',
     e: 'Mulher de 49 anos com PAV iniciou meropenem, amicacina e vancomicina. Após 72 horas está em melhora, e a cultura do aspirado traqueal, de boa qualidade, isolou apenas Klebsiella pneumoniae sensível a ceftriaxona. A conduta correta é:',
-    o: ['Manter os três antibióticos até completar 14 dias', 'Descalonar para o antibiótico de menor espectro ativo contra o agente, suspendendo os demais', 'Suspender todos os antibióticos, pois houve melhora clínica', 'Associar antifúngico para ampliar a cobertura'],
+    o: ['Manter os três antibióticos até completar 14 dias', 'Descalonar para o de menor espectro ativo; suspender os demais', 'Suspender todos os antibióticos: houve melhora clínica', 'Associar antifúngico para ampliar a cobertura'],
     g: 'B',
     c: 'O descalonamento consiste em estreitar o espectro conforme cultura e antibiograma, suspendendo coberturas desnecessárias. A estratégia mantém a eficácia e reduz toxicidade, custos, infecção por Clostridioides difficile e pressão seletiva para resistência.',
     x: { A: 'Manter amplo espectro sem necessidade aumenta toxicidade e resistência bacteriana.', C: 'A melhora em 72 horas não autoriza interromper o tratamento de infecção confirmada.', D: 'Não há indício de infecção fúngica, e ampliar a cobertura contraria o descalonamento.' },
@@ -85,7 +85,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Cabeceira elevada',
     e: 'O mecanismo pelo qual a elevação da cabeceira do leito reduz a incidência de pneumonia associada à ventilação mecânica é:',
-    o: ['Aumento da complacência pulmonar com redução da pressão de platô', 'Redução do refluxo gastroesofágico e da microaspiração de secreções em torno do balonete', 'Aumento da atividade bactericida dos macrófagos alveolares', 'Redução da colonização do circuito do ventilador'],
+    o: ['Maior complacência pulmonar e menor pressão de platô', 'Menos refluxo e microaspiração em torno do balonete', 'Mais atividade bactericida dos macrófagos alveolares', 'Menor colonização do circuito do ventilador'],
     g: 'B',
     c: 'A PAV resulta principalmente da microaspiração de secreções da orofaringe e do estômago, que se acumulam acima do balonete e escoam para a traqueia. No decúbito horizontal, o refluxo e esse escoamento são facilitados, sobretudo durante a dieta enteral; a posição semissentada utiliza a gravidade para reduzi-los.',
     x: { A: 'A posição pode ajudar a mecânica ventilatória, mas não é esse o mecanismo de prevenção da infecção.', C: 'A posição do leito não altera a função imunológica alveolar.', D: 'A colonização do circuito não é modificada pela inclinação da cabeceira.' },
@@ -109,7 +109,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'SRAG',
     e: 'Homem de 54 anos, diabético, apresenta febre, tosse e mialgia há 3 dias, evoluindo com dispneia, frequência respiratória de 30 irpm e saturação de 90% em ar ambiente. Sobre esse quadro, é correto afirmar:',
-    o: ['Trata-se de síndrome gripal simples, com indicação de tratamento domiciliar com sintomáticos', 'Trata-se de síndrome respiratória aguda grave, com indicação de internação, início de oseltamivir e notificação compulsória', 'O oseltamivir não deve ser prescrito, pois já se passaram mais de 48 horas', 'A notificação só é necessária em caso de óbito'],
+    o: ['Síndrome gripal simples: tratar em casa com sintomáticos', 'SRAG: internar, oseltamivir e notificação compulsória', 'Sem oseltamivir: já passaram mais de 48 horas', 'Notificação só em caso de óbito'],
     g: 'B',
     c: 'A síndrome respiratória aguda grave (SRAG) é a síndrome gripal acompanhada de dispneia, desconforto respiratório, saturação menor que 95% ou cianose. Exige internação, oseltamivir em qualquer momento da evolução, coleta de amostra respiratória e notificação compulsória imediata dos casos hospitalizados.',
     x: { A: 'Hipoxemia e taquipneia definem gravidade e contraindicam o tratamento domiciliar.', C: 'Nos casos graves, o antiviral é indicado mesmo após 48 horas de sintomas.', D: 'Todo caso de SRAG hospitalizado deve ser notificado, e não apenas os óbitos.' },
@@ -117,7 +117,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Covid-19: fases',
     e: 'A covid-19 grave costuma evoluir em fases. A piora respiratória que ocorre tipicamente no final da primeira semana ou na segunda semana de sintomas se deve principalmente a:',
-    o: ['Pico de replicação viral nas vias aéreas superiores', 'Resposta inflamatória desregulada do hospedeiro, com lesão pulmonar e estado pró-trombótico', 'Superinfecção bacteriana em praticamente todos os casos', 'Broncoespasmo por hiper-reatividade brônquica'],
+    o: ['Pico de replicação viral nas vias aéreas superiores, tardio', 'Resposta inflamatória desregulada, lesão pulmonar e trombose', 'Superinfecção bacteriana em praticamente todos os casos', 'Broncoespasmo por hiper-reatividade brônquica, no asmático'],
     g: 'B',
     c: 'Na fase inicial predomina a replicação viral, com sintomas gripais. Em parte dos pacientes, por volta do 7º ao 10º dia, instala-se a fase inflamatória, com liberação exagerada de citocinas, dano alveolar difuso, endotelite e microtrombose. Por isso, o imunomodulador é útil nessa fase.',
     x: { A: 'O pico de carga viral ocorre nos primeiros dias, antes da piora respiratória.', C: 'A coinfecção bacteriana é incomum na apresentação da covid-19.', D: 'O broncoespasmo não é o mecanismo central da hipoxemia nessa doença.' },
@@ -125,7 +125,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Covid-19: dexametasona',
     e: 'Mulher de 60 anos com covid-19 confirmada, no nono dia de sintomas, é internada com saturação de 89% em ar ambiente e passa a receber oxigênio por cateter nasal. Em relação ao corticoide, a conduta correta é:',
-    o: ['Não prescrever, pois corticoide é contraindicado em infecções virais', 'Prescrever dexametasona, pois há redução de mortalidade nos pacientes que necessitam de oxigênio suplementar', 'Prescrever dexametasona apenas se houver necessidade de ventilação mecânica invasiva', 'Prescrever pulsoterapia com metilprednisolona por 3 dias em todos os casos'],
+    o: ['Não prescrever: corticoide é contraindicado em virose', 'Dexametasona: reduz mortalidade se há O2 suplementar', 'Dexametasona só se houver ventilação mecânica invasiva', 'Pulsoterapia com metilprednisolona por 3 dias, em todos'],
     g: 'B',
     c: 'O estudo RECOVERY mostrou que a dexametasona em dose baixa, por até 10 dias, reduz a mortalidade em pacientes com covid-19 que necessitam de oxigênio, com benefício maior nos ventilados. O efeito se explica pela modulação da fase inflamatória da doença.',
     x: { A: 'Na covid-19 hipoxêmica, o corticoide reduz mortalidade ao modular a inflamação.', C: 'O benefício já existe em quem usa oxigênio suplementar, não apenas nos intubados.', D: 'A pulsoterapia não é o esquema validado; a dose estudada foi baixa.' },
@@ -133,7 +133,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Covid-19 sem hipoxemia',
     e: 'Homem de 40 anos, sem comorbidades, com covid-19 confirmada, está no terceiro dia de sintomas, com febre e tosse, saturação de 97% em ar ambiente e ausculta normal. Um familiar pergunta se ele deve tomar dexametasona para evitar o agravamento. A orientação correta é:',
-    o: ['Iniciar dexametasona imediatamente por 10 dias', 'Não usar corticoide, pois não há benefício e pode haver prejuízo em pacientes sem necessidade de oxigênio', 'Iniciar dexametasona associada a anticoagulante em dose plena', 'Iniciar azitromicina associada a corticoide'],
+    o: ['Iniciar dexametasona imediatamente por 10 dias', 'Sem corticoide: sem benefício e com risco se não há O2', 'Dexametasona associada a anticoagulante em dose plena', 'Azitromicina associada a corticoide, por 5 dias'],
     g: 'B',
     c: 'Em pacientes sem hipoxemia, a dexametasona não reduziu a mortalidade e houve tendência a dano. Na fase inicial predomina a replicação viral, e a imunossupressão pode prejudicar o clearance viral. O corticoide é reservado a quem precisa de oxigênio suplementar.',
     x: { A: 'O uso precoce em quadro leve não traz benefício e pode ser prejudicial.', C: 'Paciente ambulatorial sem trombose não tem indicação de anticoagulação plena.', D: 'A azitromicina não tem eficácia no tratamento da covid-19.' },
@@ -149,7 +149,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose',
     e: 'Homem de 33 anos com infecção pelo HIV sem tratamento apresenta há 3 semanas febre, tosse seca e dispneia progressiva aos esforços. Tem candidíase oral, saturação de 88% em ar ambiente, LDH muito elevada e radiografia com infiltrado intersticial bilateral peri-hilar, sem derrame pleural. O diagnóstico mais provável e o tratamento de escolha são:',
-    o: ['Pneumonia pneumocócica; ceftriaxona', 'Pneumocistose; sulfametoxazol-trimetoprima, com corticoide associado se houver hipoxemia importante', 'Tuberculose miliar; esquema RIPE', 'Histoplasmose disseminada; fluconazol'],
+    o: ['Pneumonia pneumocócica; ceftriaxona por via venosa', 'Pneumocistose; SMX-TMP, com corticoide se hipoxemia grave', 'Tuberculose miliar; esquema RIPE por via oral', 'Histoplasmose disseminada; fluconazol por via oral'],
     g: 'B',
     c: 'A pneumonia por Pneumocystis jirovecii ocorre tipicamente com CD4 abaixo de 200 células/mm³ e tem curso subagudo, com tosse seca, dispneia, hipoxemia desproporcional, LDH elevada e infiltrado intersticial difuso. Trata-se com sulfametoxazol-trimetoprima por 21 dias, associando corticoide quando a PaO2 é menor que 70 mmHg.',
     x: { A: 'A pneumonia pneumocócica é aguda, com escarro purulento e consolidação lobar.', C: 'A tuberculose miliar tem padrão micronodular difuso e LDH menos elevada.', D: 'A histoplasmose disseminada é tratada com anfotericina ou itraconazol, e não com fluconazol.' },
@@ -157,7 +157,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Corticoide na pneumocistose',
     e: 'Na pneumocistose do paciente com aids, a associação de corticoide ao tratamento antimicrobiano está indicada quando:',
-    o: ['A contagem de CD4 é menor que 50 células/mm³', 'A PaO2 em ar ambiente é menor que 70 mmHg ou o gradiente alvéolo-arterial é maior que 35 mmHg', 'Há derrame pleural bilateral', 'A LDH está dentro dos limites normais'],
+    o: ['CD4 abaixo de 50 células/mm³, como critério de corticoide', 'PaO2 ar ambiente < 70 mmHg ou gradiente A-a > 35 mmHg', 'Derrame pleural bilateral, como critério de corticoide', 'LDH dentro dos limites normais, como critério'],
     g: 'B',
     c: 'A morte dos microrganismos após o início do tratamento intensifica a inflamação alveolar e pode agravar a hipoxemia nos primeiros dias. Nos casos moderados a graves, o corticoide iniciado junto com o antimicrobiano atenua essa resposta e reduz a insuficiência respiratória e a mortalidade.',
     x: { A: 'A indicação se baseia na gravidade da hipoxemia, e não na contagem de CD4.', C: 'Derrame pleural não é achado típico de pneumocistose e sugere outro diagnóstico.', D: 'A LDH costuma estar elevada e não é o critério de indicação do corticoide.' },
@@ -181,7 +181,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Pneumonia por CMV',
     e: 'Homem de 51 anos, no segundo mês após transplante alogênico de células-tronco hematopoéticas, apresenta febre, tosse seca, hipoxemia e infiltrado intersticial bilateral difuso. O lavado broncoalveolar tem pesquisa negativa para Pneumocystis, e a biópsia mostra células grandes com inclusões intranucleares em olho de coruja. O tratamento indicado é:',
-    o: ['Aciclovir oral', 'Ganciclovir intravenoso', 'Oseltamivir', 'Anfotericina B'],
+    o: ['Aciclovir oral, em dose habitual, por 7 dias', 'Ganciclovir intravenoso, por 21 dias', 'Oseltamivir oral, em dose habitual, por 5 dias', 'Anfotericina B desoxicolato, por via venosa'],
     g: 'B',
     c: 'A pneumonite por citomegalovírus é clássica do período de 1 a 4 meses após o transplante, fase de maior imunossupressão celular. As células citomegálicas com inclusão intranuclear em olho de coruja são características, e o tratamento é feito com ganciclovir intravenoso.',
     x: { A: 'O aciclovir tem atividade insuficiente contra o CMV e serve para herpes simples e varicela-zóster.', C: 'O oseltamivir atua apenas contra o vírus influenza.', D: 'A anfotericina B é antifúngica e não tem ação contra vírus.' },
@@ -189,7 +189,7 @@ export const PNEUMONIA_4: QuestaoCompacta[] = [
   {
     s: 'Vacina pneumocócica',
     e: 'Em relação à vacinação pneumocócica do adulto, segundo as recomendações das sociedades brasileiras de imunizações e de pneumologia, é correto afirmar:',
-    o: ['Só está indicada para crianças menores de 5 anos', 'Está indicada para idosos e para adultos com condições de risco, como pneumopatia crônica, cardiopatia, diabetes, asplenia e imunossupressão', 'É contraindicada em portadores de DPOC pelo risco de exacerbação', 'É uma vacina de bactéria viva atenuada, contraindicada em imunossuprimidos'],
+    o: ['Só está indicada para crianças menores de 5 anos de idade', 'Idosos e adultos de risco: pneumopatia, cardiopatia, diabetes, asplenia', 'Contraindicada em portadores de DPOC por exacerbação', 'Vacina de bactéria viva, contraindicada em imunossuprimidos'],
     g: 'B',
     c: 'A doença pneumocócica invasiva é mais frequente e mais letal nos extremos de idade e em portadores de doenças crônicas, asplenia e imunossupressão. As vacinas conjugadas induzem resposta dependente de linfócitos T, com memória imunológica, e a polissacarídica 23-valente amplia a cobertura de sorotipos, compondo esquemas sequenciais.',
     x: { A: 'Idosos e adultos de risco estão entre os principais beneficiados pela vacina.', C: 'O portador de DPOC é justamente um dos grupos com indicação formal.', D: 'São vacinas inativadas, seguras e indicadas em imunossuprimidos.' },

@@ -5,7 +5,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome nefrótica – definição',
     e: 'O critério laboratorial que define a síndrome nefrótica no adulto é:',
-    o: ['Hematúria dismórfica com cilindros hemáticos', 'Proteinúria acima de 3,5 g em 24 horas, com hipoalbuminemia e edema', 'Proteinúria entre 150 mg e 1 g em 24 horas', 'Creatinina sérica acima de 2 mg/dL com oligúria'],
+    o: ['Hematúria dismórfica com cilindros hemáticos', 'Proteinúria > 3,5 g/24 h, hipoalbuminemia e edema', 'Proteinúria entre 150 mg e 1 g em 24 horas', 'Creatinina > 2 mg/dL com oligúria'],
     g: 'B',
     c: 'A síndrome nefrótica decorre de aumento da permeabilidade glomerular às proteínas, definida por proteinúria maior que 3,5 g/1,73 m2/dia no adulto (ou maior que 50 mg/kg/dia na criança). A perda proteica leva a hipoalbuminemia, edema, hiperlipidemia e lipidúria.',
     x: { A: 'Hematúria dismórfica com cilindros hemáticos caracteriza a síndrome nefrítica.', C: 'Essa faixa corresponde a proteinúria subnefrótica.', D: 'Azotemia com oligúria não faz parte da definição de síndrome nefrótica.' },
@@ -13,7 +13,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia do edema nefrótico',
     e: 'Sobre os mecanismos do edema na síndrome nefrótica, é correto afirmar:',
-    o: ['O edema é explicado exclusivamente pela ativação do sistema renina-angiotensina por hipovolemia', 'Além da queda da pressão oncótica (underfilling), há retenção renal primária de sódio no néfron distal (overfilling), predominante em muitos adultos', 'O edema decorre de obstrução linfática pelos lipídios plasmáticos', 'A volemia está sempre reduzida, de modo que diuréticos são contraindicados'],
+    o: ['O edema vem só da ativação do SRAA por hipovolemia', 'Queda oncótica (underfilling) e retenção primária de sódio (overfilling)', 'O edema decorre de obstrução linfática por lipídios', 'A volemia é sempre reduzida; diuréticos são contraindicados'],
     g: 'B',
     c: 'A teoria clássica do underfilling atribui o edema à hipoalbuminemia com queda da pressão oncótica e ativação neuro-hormonal secundária. Hoje se reconhece também a retenção primária de sódio no túbulo coletor (overfilling), com ativação do canal epitelial de sódio por proteases filtradas, o que explica a volemia normal ou aumentada de muitos pacientes.',
     x: { A: 'Muitos pacientes têm renina suprimida e volemia normal ou aumentada.', C: 'Não há obstrução linfática por lipídios como mecanismo do edema.', D: 'Os diuréticos de alça são parte central do tratamento do edema nefrótico.' },
@@ -21,7 +21,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Dislipidemia na síndrome nefrótica',
     e: 'A hipercolesterolemia da síndrome nefrótica é explicada principalmente por:',
-    o: ['Aumento da absorção intestinal de colesterol', 'Aumento da síntese hepática de lipoproteínas estimulado pela queda da pressão oncótica, somado à redução do catabolismo', 'Deficiência adquirida de insulina', 'Perda urinária de LDL'],
+    o: ['Aumento da absorção intestinal de colesterol, na dieta', 'Mais síntese hepática de lipoproteínas e menos catabolismo', 'Deficiência adquirida de insulina, na síndrome nefrótica', 'Perda urinária de LDL, em grande quantidade, pelo rim'],
     g: 'B',
     c: 'A queda da pressão oncótica estimula o fígado a sintetizar proteínas, incluindo apolipoproteína B e, consequentemente, LDL. Soma-se a isso a menor depuração de lipoproteínas, por redução da atividade da lipase lipoproteica e do receptor de LDL, elevando colesterol e triglicerídeos.',
     x: { A: 'A absorção intestinal de colesterol não é o mecanismo envolvido.', C: 'Não há deficiência de insulina na síndrome nefrótica.', D: 'A LDL é grande demais para ser filtrada; ela se acumula no plasma.' },
@@ -29,7 +29,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Hipercoagulabilidade',
     e: 'O principal mecanismo do estado de hipercoagulabilidade da síndrome nefrótica é:',
-    o: ['Perda urinária de fatores de coagulação dependentes de vitamina K', 'Perda urinária de antitrombina III, associada a aumento da síntese hepática de fibrinogênio e hiperagregação plaquetária', 'Plaquetopenia por consumo', 'Deficiência hereditária de proteína C'],
+    o: ['Perda urinária de fatores dependentes de vitamina K', 'Perda de antitrombina III, mais fibrinogênio e hiperagregação', 'Plaquetopenia por consumo, na síndrome', 'Deficiência hereditária de proteína C, associada'],
     g: 'B',
     c: 'A antitrombina III tem baixo peso molecular e é perdida na urina, enquanto o fígado aumenta a produção de fibrinogênio e de outros fatores pró-coagulantes. A hemoconcentração e a maior reatividade plaquetária completam o desequilíbrio a favor da trombose.',
     x: { A: 'A perda de fatores de coagulação geraria sangramento, não trombose.', C: 'As plaquetas costumam estar normais ou aumentadas e hiper-reativas.', D: 'O distúrbio é adquirido, não uma trombofilia hereditária.' },
@@ -45,7 +45,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Infecções na síndrome nefrótica',
     e: 'Menino de 5 anos com síndrome nefrótica descompensada e ascite apresenta febre, dor abdominal difusa e descompressão brusca dolorosa. O agente mais provável e o mecanismo da predisposição são:',
-    o: ['Staphylococcus aureus; neutropenia induzida pela doença', 'Streptococcus pneumoniae; perda urinária de IgG e de fatores da via alternativa do complemento', 'Pseudomonas aeruginosa; uso de cateter venoso', 'Candida albicans; uso de antibiótico prévio'],
+    o: ['Staphylococcus aureus; neutropenia induzida pela doença', 'S. pneumoniae; perda urinária de IgG e fatores do complemento', 'Pseudomonas aeruginosa; uso de cateter venoso prolongado', 'Candida albicans; uso prévio de antibiótico de amplo espectro'],
     g: 'B',
     c: 'A peritonite bacteriana espontânea é a infecção clássica da criança nefrótica, e o pneumococo é o agente mais frequente, seguido por gram-negativos como Escherichia coli. A perda urinária de imunoglobulina G e de fatores B e D do complemento prejudica a opsonização de bactérias encapsuladas.',
     x: { A: 'Não há neutropenia como parte da síndrome nefrótica.', C: 'Pseudomonas não é o agente típico da peritonite espontânea do nefrótico.', D: 'A peritonite fúngica não é a complicação clássica nesse contexto.' },
@@ -61,7 +61,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Lesão mínima – histologia',
     e: 'Na doença de lesão mínima, os achados da biópsia renal são:',
-    o: ['Microscopia óptica com esclerose segmentar e imunofluorescência com IgM e C3', 'Microscopia óptica normal, imunofluorescência negativa e fusão difusa dos processos podocitários à microscopia eletrônica', 'Espessamento da membrana basal com depósitos granulares de IgG', 'Proliferação mesangial com depósitos de IgA'],
+    o: ['MO com esclerose segmentar; IF com IgM e C3', 'MO normal, IF negativa e fusão podocitária à ME', 'Espessamento da membrana basal com depósitos de IgG', 'Proliferação mesangial com depósitos de IgA'],
     g: 'B',
     c: 'O nome da doença vem da aparência normal dos glomérulos à microscopia óptica, com imunofluorescência negativa. A única alteração é o apagamento (fusão) difuso dos pedicelos dos podócitos à microscopia eletrônica, que causa a perda da barreira de carga e proteinúria seletiva.',
     x: { A: 'Esclerose segmentar define a glomeruloesclerose segmentar e focal.', C: 'Espessamento da membrana basal com IgG granular define a nefropatia membranosa.', D: 'Depósitos mesangiais de IgA definem a nefropatia por IgA.' },
@@ -77,7 +77,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome nefrótica na criança – biópsia',
     e: 'Todas as situações abaixo indicam biópsia renal em criança com síndrome nefrótica, EXCETO:',
-    o: ['Ausência de resposta a 4 a 8 semanas de corticoide', 'Complemento sérico reduzido', 'Início antes de 1 ano de idade', 'Recidiva única após suspensão do corticoide, com nova resposta ao tratamento'],
+    o: ['Ausência de resposta a 4-8 semanas de corticoide, que sugere outra lesão', 'Complemento sérico reduzido, que sugere outra lesão', 'Início antes de 1 ano de idade, que sugere outra lesão', 'Recidiva única após suspender o corticoide, com nova resposta'],
     g: 'D',
     c: 'A recidiva é comum na lesão mínima e, enquanto o paciente permanece corticossensível, o diagnóstico presumido se mantém e não há necessidade de biópsia. A biópsia é indicada em corticorresistência, idade atípica (menor que 1 ano ou adolescente), hipocomplementemia, hematúria macroscópica, hipertensão persistente ou insuficiência renal.',
     x: { A: 'A corticorresistência sugere esclerose focal ou causa genética e indica biópsia.', B: 'Complemento baixo sugere membranoproliferativa ou lúpus e indica biópsia.', C: 'Abaixo de 1 ano predominam formas congênitas e genéticas, não lesão mínima.' },
@@ -93,7 +93,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'GESF – epidemiologia',
     e: 'Em adultos negros, a causa mais frequente de síndrome nefrótica primária é:',
-    o: ['Nefropatia membranosa', 'Glomeruloesclerose segmentar e focal', 'Doença de lesão mínima', 'Nefropatia por IgA'],
+    o: ['Nefropatia membranosa, em adultos', 'Glomeruloesclerose segmentar e focal, em adultos', 'Doença de lesão mínima, em crianças', 'Nefropatia por IgA, em adultos jovens'],
     g: 'B',
     c: 'A glomeruloesclerose segmentar e focal é a principal causa de síndrome nefrótica primária em adultos negros e, em séries brasileiras, a mais comum no adulto em geral. Variantes de risco do gene APOL1 explicam parte dessa predisposição em afrodescendentes.',
     x: { A: 'A membranosa é a principal causa em adultos brancos de meia-idade e idosos.', C: 'A lesão mínima predomina em crianças.', D: 'A nefropatia por IgA manifesta-se sobretudo com hematúria, não síndrome nefrótica.' },
@@ -109,7 +109,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'GESF – tratamento',
     e: 'Mulher de 29 anos tem síndrome nefrótica completa, com proteinúria de 8 g/dia. A biópsia mostra glomeruloesclerose segmentar e focal, com fusão podocitária difusa, sem causa secundária identificada. O tratamento inicial é:',
-    o: ['Apenas IECA, pois a forma primária não responde à imunossupressão', 'Prednisona em dose alta por período prolongado, associada a IECA ou BRA', 'Plasmaférese semanal', 'Rituximabe como primeira escolha obrigatória'],
+    o: ['Apenas IECA: a forma primária não responde à imunossupressão', 'Prednisona em dose alta e prolongada, mais IECA ou BRA', 'Plasmaférese semanal, por 6 semanas', 'Rituximabe como primeira escolha obrigatória'],
     g: 'B',
     c: 'A forma primária, com síndrome nefrótica e fusão podocitária difusa, é tratada com corticoide em dose alta por tempo prolongado (até cerca de 16 semanas antes de se definir resistência), além de medidas antiproteinúricas. Os inibidores de calcineurina são a alternativa nos casos corticorresistentes ou com contraindicação ao corticoide.',
     x: { A: 'A forma primária nefrótica tem indicação de imunossupressão; IECA isolado é para formas secundárias.', C: 'A plasmaférese é usada na recorrência após transplante, não como rotina.', D: 'O rituximabe não é a primeira escolha estabelecida para essa doença.' },
@@ -117,7 +117,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Nefropatia membranosa – anti-PLA2R',
     e: 'Homem branco de 54 anos apresenta síndrome nefrótica com função renal normal e complemento normal. A biópsia mostra espessamento difuso da membrana basal glomerular, sem proliferação celular, com depósitos granulares de IgG e C3. O autoanticorpo que confirma a forma primária dessa doença é dirigido contra:',
-    o: ['A mieloperoxidase', 'O receptor de fosfolipase A2 do tipo M (PLA2R) do podócito', 'O colágeno tipo IV', 'A cardiolipina'],
+    o: ['A mieloperoxidase, do neutrófilo', 'O receptor de fosfolipase A2 do tipo M (PLA2R)', 'O colágeno tipo IV, da membrana basal', 'A cardiolipina, de membrana plaquetária'],
     g: 'B',
     c: 'Na maioria dos casos de nefropatia membranosa primária há autoanticorpos IgG4 contra o PLA2R, antígeno expresso no podócito, formando imunocomplexos in situ no espaço subepitelial. O anticorpo tem alta especificidade, e seus títulos acompanham a atividade da doença e a resposta ao tratamento.',
     x: { A: 'O anticorpo antimieloperoxidase é o p-ANCA das vasculites.', C: 'O anticorpo anticolágeno IV causa a doença antimembrana basal glomerular.', D: 'A anticardiolipina é marcador da síndrome antifosfolípide.' },
@@ -125,7 +125,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Nefropatia membranosa – causas secundárias',
     e: 'Homem de 68 anos, tabagista, com emagrecimento de 8 kg, desenvolve síndrome nefrótica. A biópsia revela nefropatia membranosa e o anti-PLA2R é negativo. A conduta prioritária é:',
-    o: ['Iniciar imediatamente ciclofosfamida e corticoide', 'Investigar neoplasia oculta, especialmente de pulmão e trato gastrointestinal', 'Repetir a biópsia renal em 3 meses', 'Solicitar apenas ASLO e complemento'],
+    o: ['Iniciar de imediato ciclofosfamida e corticoide', 'Investigar neoplasia oculta (pulmão e trato gastrointestinal)', 'Repetir a biópsia renal em 3 meses, com imunofluorescência', 'Solicitar apenas ASLO e complemento sérico'],
     g: 'B',
     c: 'A nefropatia membranosa é a glomerulopatia mais associada a tumores sólidos (pulmão, cólon, estômago, mama, próstata), sobretudo em idosos e quando o anti-PLA2R é negativo. Outras causas secundárias são hepatite B, lúpus classe V, sífilis e drogas como sais de ouro, penicilamina, captopril e anti-inflamatórios.',
     x: { A: 'Imunossuprimir antes de excluir câncer pode agravar uma neoplasia não tratada.', C: 'Repetir a biópsia não esclarece a causa secundária.', D: 'A membranosa não é doença pós-estreptocócica e tem complemento normal.' },
@@ -133,7 +133,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Nefropatia membranosa – evolução e tratamento',
     e: 'Mulher de 45 anos com nefropatia membranosa primária, proteinúria de 4,5 g/dia, albumina de 3,0 g/dL e função renal normal recebe o diagnóstico há 1 mês. A conduta inicial mais adequada é:',
-    o: ['Ciclofosfamida e corticoide imediatamente', 'Tratamento conservador com IECA ou BRA e observação por cerca de 6 meses, pois há chance de remissão espontânea', 'Corticoide isolado em dose alta', 'Plasmaférese'],
+    o: ['Ciclofosfamida e corticoide imediatamente, em dose alta', 'IECA/BRA e observação por ~6 meses; remissão espontânea possível', 'Corticoide isolado em dose alta, por 6 meses', 'Plasmaférese semanal, por 6 semanas consecutivas'],
     g: 'B',
     c: 'Cerca de um terço dos pacientes com nefropatia membranosa primária entra em remissão espontânea, de modo que os de risco baixo ou moderado são observados com terapia de suporte. A imunossupressão (rituximabe, ou ciclofosfamida com corticoide, ou inibidor de calcineurina) fica para os de alto risco, com proteinúria persistente ou perda de função.',
     x: { A: 'A imunossupressão imediata expõe a toxicidade pacientes que poderiam remitir sozinhos.', C: 'O corticoide em monoterapia é ineficaz na nefropatia membranosa.', D: 'A plasmaférese não tem indicação nessa glomerulopatia.' },
@@ -141,7 +141,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Membranosa – microscopia',
     e: 'O achado histológico típico da nefropatia membranosa, visto na coloração pela prata, é:',
-    o: ['Duplo contorno da membrana basal (trilho de trem)', 'Espículas (spikes) de membrana basal entre depósitos subepiteliais', 'Crescentes celulares em mais de 50% dos glomérulos', 'Nódulos mesangiais acelulares'],
+    o: ['Duplo contorno da membrana basal (trilho de trem)', 'Espículas (spikes) de membrana basal entre depósitos', 'Crescentes celulares em mais de 50% dos glomérulos', 'Nódulos mesangiais acelulares, de matriz expandida'],
     g: 'B',
     c: 'Os imunocomplexos depositam-se no espaço subepitelial, e a membrana basal neoformada projeta-se entre eles, formando as espículas visíveis à prata. Não há proliferação celular, e a imunofluorescência mostra IgG e C3 em padrão granular ao longo das alças capilares.',
     x: { A: 'O duplo contorno é próprio da glomerulonefrite membranoproliferativa.', C: 'Crescentes caracterizam a glomerulonefrite rapidamente progressiva.', D: 'Nódulos mesangiais acelulares são a lesão de Kimmelstiel-Wilson do diabetes.' },
@@ -157,7 +157,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'GNMP – histologia',
     e: 'A glomerulonefrite membranoproliferativa caracteriza-se histologicamente por:',
-    o: ['Glomérulos normais à microscopia óptica', 'Hipercelularidade mesangial com aspecto lobulado e duplicação da membrana basal (duplo contorno ou trilho de trem)', 'Espessamento da membrana basal sem proliferação celular', 'Esclerose de parte do tufo em alguns glomérulos'],
+    o: ['Glomérulos normais à microscopia óptica, sem lesão', 'Hipercelularidade mesangial lobulada e duplo contorno', 'Espessamento da membrana basal sem proliferação celular', 'Esclerose de parte do tufo em alguns glomérulos'],
     g: 'B',
     c: 'A interposição de células mesangiais e de matriz entre o endotélio e a membrana basal leva à síntese de uma nova membrana, criando o duplo contorno. A proliferação mesangial acentua a lobulação do tufo, e o complemento sérico costuma estar persistentemente reduzido.',
     x: { A: 'Glomérulos normais à óptica caracterizam a doença de lesão mínima.', C: 'Espessamento sem proliferação é o padrão da nefropatia membranosa.', D: 'Esclerose segmentar em parte dos glomérulos define a esclerose focal.' },
@@ -165,7 +165,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'GNMP – classificação atual',
     e: 'Na classificação atual da glomerulonefrite membranoproliferativa baseada na imunofluorescência, a presença de depósitos dominantes de C3, com pouca ou nenhuma imunoglobulina, indica:',
-    o: ['Doença mediada por imunocomplexos, devendo-se investigar infecções e autoimunidade', 'Glomerulopatia por C3, por desregulação da via alternativa do complemento', 'Microangiopatia trombótica crônica', 'Nefropatia membranosa secundária'],
+    o: ['Imunocomplexos; investigar infecções e autoimunidade', 'Glomerulopatia por C3: via alternativa do complemento desregulada', 'Microangiopatia trombótica crônica, com esquizócitos', 'Nefropatia membranosa secundária, com PLA2R'],
     g: 'B',
     c: 'A marcação isolada ou dominante de C3 define a glomerulopatia por C3 (glomerulonefrite por C3 e doença de depósitos densos), causada por ativação descontrolada da via alternativa, por exemplo pelo fator nefrítico C3 ou por defeitos de fator H. Quando há imunoglobulina e complemento, a doença é mediada por imunocomplexos ou por gamopatia monoclonal.',
     x: { A: 'A forma por imunocomplexos exibe imunoglobulinas junto com o complemento.', C: 'A microangiopatia trombótica tem imunofluorescência negativa para ambos.', D: 'A membranosa tem IgG granular subepitelial, sem proliferação.' },
@@ -173,7 +173,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento geral – antiproteinúrico',
     e: 'Homem de 47 anos com síndrome nefrótica tem PA 148 x 92 mmHg, proteinúria de 5 g/dia, creatinina de 1,0 mg/dL e potássio de 4,3 mEq/L. A classe de anti-hipertensivo preferida e o motivo são:',
-    o: ['Bloqueador de canal de cálcio di-hidropiridínico, por dilatar a arteríola aferente', 'IECA ou BRA, por dilatar a arteríola eferente, reduzindo a pressão intraglomerular e a proteinúria', 'Betabloqueador, por reduzir a renina', 'Hidralazina, por não alterar o potássio'],
+    o: ['BCC di-hidropiridínico, por dilatar a arteríola aferente', 'IECA ou BRA, por dilatar a eferente e baixar a pressão glomerular', 'Betabloqueador, por reduzir a renina plasmática', 'Hidralazina, por não alterar o potássio sérico'],
     g: 'B',
     c: 'Os bloqueadores do sistema renina-angiotensina dilatam preferencialmente a arteríola eferente, reduzindo a pressão intraglomerular e a proteinúria além do efeito sobre a pressão sistêmica. Com isso, retardam a progressão da doença renal proteinúrica.',
     x: { A: 'Os di-hidropiridínicos dilatam a aferente e podem aumentar a pressão intraglomerular.', C: 'Betabloqueadores não têm efeito antiproteinúrico relevante.', D: 'A hidralazina não reduz a proteinúria nem protege o rim.' },
@@ -181,7 +181,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento geral – edema',
     e: 'Paciente com síndrome nefrótica e anasarca não responde a furosemida oral em dose habitual. Sobre a resistência a diuréticos nessa síndrome, é correto afirmar:',
-    o: ['Deve-se suspender o diurético e aumentar a ingestão de sódio', 'São frequentemente necessárias doses maiores de diurético de alça, com restrição de sódio e, se preciso, associação de tiazídico', 'A albumina endovenosa isolada resolve o edema de forma duradoura', 'Os diuréticos são contraindicados pelo risco de trombose'],
+    o: ['Suspender o diurético e aumentar a ingestão de sódio', 'Doses maiores de alça, restrição de sódio e tiazídico associado', 'Albumina IV isolada resolve o edema de forma duradoura', 'Diuréticos contraindicados pelo risco de trombose'],
     g: 'B',
     c: 'Na síndrome nefrótica, o edema da parede intestinal reduz a absorção oral, a hipoalbuminemia diminui a entrega do diurético ao túbulo e a albumina intratubular liga-se à droga, exigindo doses maiores. A restrição de sódio e o bloqueio sequencial do néfron com tiazídico potencializam a natriurese.',
     x: { A: 'A restrição de sódio é essencial; aumentar a ingestão agrava o edema.', C: 'A albumina infundida é rapidamente perdida na urina, com efeito transitório.', D: 'Diuréticos são indicados, com cuidado para evitar depleção volêmica excessiva.' },
@@ -189,7 +189,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento geral – anticoagulação',
     e: 'Em qual das situações abaixo a anticoagulação profilática é mais fortemente considerada na síndrome nefrótica?',
-    o: ['Lesão mínima em criança com albumina de 3,2 g/dL', 'Nefropatia membranosa com albumina sérica muito baixa (abaixo de 2,0 a 2,5 g/dL) e baixo risco de sangramento', 'Qualquer paciente com proteinúria acima de 1 g/dia', 'Nefropatia por IgA com hematúria macroscópica'],
+    o: ['Lesão mínima em criança com albumina de 3,2 g/dL', 'Membranosa com albumina < 2-2,5 g/dL e baixo risco de sangramento', 'Qualquer paciente com proteinúria acima de 1 g/dia', 'Nefropatia por IgA com hematúria macroscópica recorrente'],
     g: 'B',
     c: 'O risco trombótico é maior na nefropatia membranosa e aumenta de forma importante conforme a albumina cai. Por isso, nesses pacientes com hipoalbuminemia acentuada e baixo risco hemorrágico, considera-se anticoagulação profilática, pesando risco e benefício individualmente.',
     x: { A: 'Com albumina pouco reduzida, o risco trombótico é baixo.', C: 'Proteinúria subnefrótica não configura estado de hipercoagulabilidade relevante.', D: 'A nefropatia por IgA com hematúria não tem risco trombótico aumentado.' },
@@ -197,7 +197,7 @@ export const GLOMERULAR_3: QuestaoCompacta[] = [
   {
     s: 'Glomerulonefrite proliferativa mesangial',
     e: 'A glomerulonefrite proliferativa mesangial, quando se manifesta como síndrome nefrótica idiopática, caracteriza-se por:',
-    o: ['Crescentes em mais de metade dos glomérulos e imunofluorescência linear', 'Hipercelularidade mesangial difusa, podendo haver depósitos mesangiais de IgM e C3, e resposta ao corticoide inferior à da lesão mínima', 'Depósitos subepiteliais de IgG4 com anti-PLA2R positivo', 'Nódulos mesangiais vermelho-congo positivos'],
+    o: ['Crescentes em mais da metade dos glomérulos e IF linear', 'Hipercelularidade mesangial difusa; resposta pior ao corticoide', 'Depósitos subepiteliais de IgG4 com anti-PLA2R positivo', 'Nódulos mesangiais corados pelo vermelho-congo'],
     g: 'B',
     c: 'Essa forma é definida por aumento difuso de células e matriz mesangiais, frequentemente com depósitos de IgM e C3 (nefropatia por IgM), após exclusão de IgA e lúpus. É considerada por muitos um espectro intermediário entre a lesão mínima e a esclerose focal, com resposta menos favorável ao corticoide.',
     x: { A: 'Crescentes com padrão linear definem a doença antimembrana basal glomerular.', C: 'Depósitos subepiteliais de IgG4 com anti-PLA2R definem a membranosa primária.', D: 'Depósitos vermelho-congo positivos definem a amiloidose.' },

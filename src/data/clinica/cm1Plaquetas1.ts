@@ -13,7 +13,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'Agregação plaquetária',
     e: 'A agregação plaquetária, etapa em que uma plaqueta se liga a outra para formar o tampão plaquetário, é mediada por:',
-    o: ['Glicoproteína Ib ligada ao colágeno', 'Glicoproteína IIb/IIIa ligada ao fibrinogênio', 'Fator XIII ligado à fibrina', 'Trombomodulina ligada à trombina'],
+    o: ['Glicoproteína Ib ligada ao colágeno', 'Glicoproteína IIb/IIIa ligada ao fibrinogênio', 'Fator XIII ligado à fibrina do coágulo', 'Trombomodulina ligada à trombina'],
     g: 'B',
     c: 'A ativação plaquetária muda a conformação da glicoproteína IIb/IIIa, que passa a ligar o fibrinogênio. Cada molécula de fibrinogênio une duas plaquetas, formando pontes que constroem o tampão plaquetário. É esse receptor que falta na trombastenia de Glanzmann e que é bloqueado por abciximabe e tirofibana.',
     x: { A: 'A glicoproteína Ib participa da adesão, por meio do fator de von Willebrand.', C: 'O fator XIII estabiliza a rede de fibrina, sem papel na ligação entre plaquetas.', D: 'A trombomodulina ativa a proteína C, mecanismo anticoagulante natural.' },
@@ -37,7 +37,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'TTPa alargado isolado',
     e: 'Todas as condições abaixo podem cursar com alargamento isolado do tempo de tromboplastina parcial ativada (TTPa), com tempo de protrombina normal, EXCETO:',
-    o: ['Hemofilia A', 'Uso de heparina não fracionada', 'Anticoagulante lúpico', 'Deficiência isolada de fator VII'],
+    o: ['Hemofilia A, com TTPa prolongado', 'Uso de heparina não fracionada, com TTPa prolongado', 'Anticoagulante lúpico, com TTPa prolongado', 'Deficiência isolada de fator VII, com TP prolongado'],
     g: 'D',
     c: 'O fator VII é o único fator exclusivo da via extrínseca, de modo que sua deficiência alarga somente o TP e mantém o TTPa normal. O TTPa avalia a via intrínseca (XII, XI, IX, VIII) e a via comum, alargando-se de forma isolada nas hemofilias, com heparina e na presença de anticoagulante lúpico.',
     x: { A: 'A deficiência de fator VIII alarga o TTPa e mantém o TP normal.', B: 'A heparina não fracionada prolonga o TTPa, exame usado em sua monitorização.', C: 'O anticoagulante lúpico interfere com os fosfolípides do teste e alarga o TTPa.' },
@@ -53,7 +53,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'Meia-vida dos fatores',
     e: 'Na insuficiência hepática aguda e no início do uso de varfarina, o tempo de protrombina se alarga antes do TTPa. Isso ocorre porque:',
-    o: ['O fator VIII é sintetizado apenas pelo hepatócito', 'O fator VII tem a meia-vida mais curta entre os fatores da coagulação', 'O fibrinogênio é o primeiro fator a ser consumido', 'O fator XII tem meia-vida de poucos minutos'],
+    o: ['O fator VIII é sintetizado apenas pelo hepatócito', 'O fator VII tem a meia-vida mais curta', 'O fibrinogênio é o primeiro fator consumido', 'O fator XII tem meia-vida de poucos minutos'],
     g: 'B',
     c: 'O fator VII tem meia-vida de poucas horas, a menor entre os fatores da coagulação. Quando a síntese hepática cai ou a vitamina K é antagonizada, ele é o primeiro a se reduzir, alargando o TP precocemente. Por isso o TP/INR é um marcador sensível e precoce da função de síntese do fígado.',
     x: { A: 'O fator VIII também é produzido pelo endotélio e costuma estar normal ou alto na hepatopatia.', C: 'O fibrinogênio cai apenas tardiamente na doença hepática avançada.', D: 'O fator XII não tem meia-vida tão curta e não é avaliado pelo TP.' },
@@ -61,7 +61,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'Fibrinólise e D-dímero',
     e: 'O D-dímero é um produto formado especificamente pela ação da:',
-    o: ['Trombina sobre o fibrinogênio circulante', 'Plasmina sobre a fibrina estabilizada por ligações cruzadas', 'Antitrombina sobre o fator Xa', 'Proteína C ativada sobre o fator Va'],
+    o: ['Trombina sobre o fibrinogênio circulante', 'Plasmina sobre a fibrina com ligações cruzadas', 'Antitrombina sobre o fator Xa, na via comum', 'Proteína C ativada sobre o fator Va'],
     g: 'B',
     c: 'A plasmina, gerada a partir do plasminogênio pelo ativador tecidual (tPA), degrada a rede de fibrina. Quando a fibrina já foi estabilizada pelo fator XIII, os fragmentos liberados contêm dois domínios D unidos, o D-dímero. Sua elevação indica, portanto, que houve formação e lise de coágulo, como na trombose venosa e na CIVD.',
     x: { A: 'A trombina sobre o fibrinogênio gera monômeros de fibrina e fibrinopeptídeos, não D-dímero.', C: 'A antitrombina inibe o fator Xa e a trombina, sem gerar produtos de degradação.', D: 'A proteína C ativada inativa os fatores Va e VIIIa, sem relação com o D-dímero.' },
@@ -85,7 +85,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'Pseudotrombocitopenia',
     e: 'Homem de 40 anos, assintomático, realiza hemograma de rotina que mostra plaquetas de 38.000/mm3, com hemoglobina e leucócitos normais. Não tem petéquias nem história de sangramento. O laboratório descreve grumos plaquetários no esfregaço. A conduta mais adequada é:',
-    o: ['Iniciar prednisona 1 mg/kg/dia', 'Repetir a contagem em tubo com citrato e revisar o esfregaço', 'Solicitar aspirado de medula óssea', 'Transfundir concentrado de plaquetas'],
+    o: ['Iniciar prednisona 1 mg/kg/dia, de imediato', 'Repetir a contagem em citrato e revisar o esfregaço', 'Pedir aspirado de medula óssea, de imediato', 'Transfundir concentrado de plaquetas, de imediato'],
     g: 'B',
     c: 'A pseudotrombocitopenia é um artefato in vitro: anticorpos dependentes de EDTA aglutinam as plaquetas no tubo, e o contador automático não reconhece os grumos. A contagem real é normal e não há risco de sangramento. A confirmação se faz pela visualização dos grumos no esfregaço e pela normalização da contagem em tubo com citrato.',
     x: { A: 'Não há plaquetopenia verdadeira, portanto não há indicação de corticoide.', C: 'O mielograma é desnecessário diante de um artefato laboratorial evidente.', D: 'Transfusão não se justifica, pois a contagem real de plaquetas é normal.' },
@@ -117,7 +117,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'Tempo de sangramento',
     e: 'Paciente com epistaxes de repetição apresenta contagem de plaquetas, TP e TTPa normais e tempo de sangramento prolongado. Esse conjunto de resultados aponta para:',
-    o: ['Deficiência de fator IX', 'Distúrbio qualitativo das plaquetas ou doença de von Willebrand', 'Deficiência de vitamina K', 'Hiperfibrinólise primária'],
+    o: ['Deficiência de fator IX, com TTPa prolongado', 'Distúrbio plaquetário qualitativo ou doença de von Willebrand', 'Deficiência de vitamina K, com TP prolongado', 'Hiperfibrinólise primária, com fibrinogênio baixo'],
     g: 'B',
     c: 'O tempo de sangramento avalia a hemostasia primária in vivo. Se está prolongado com número normal de plaquetas, o defeito é de função plaquetária (hereditário, uremia, antiagregantes) ou do fator de von Willebrand. Hoje o exame é pouco usado por ser mal reprodutível, sendo substituído por testes como o PFA-100 e a agregometria.',
     x: { A: 'A deficiência de fator IX alarga o TTPa e não altera o tempo de sangramento.', C: 'A deficiência de vitamina K alarga o TP, sem alterar a hemostasia primária.', D: 'A hiperfibrinólise não é avaliada pelo tempo de sangramento.' },
@@ -173,7 +173,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'Contaminação por heparina',
     e: 'Paciente internado em UTI, sem sangramento, tem coagulograma colhido de cateter venoso central mostrando TTPa muito alargado e tempo de trombina prolongado, com TP pouco alterado e tempo de reptilase normal. A explicação mais provável é:',
-    o: ['Hipofibrinogenemia grave', 'Contaminação da amostra por heparina', 'Hemofilia A adquirida', 'Deficiência de fator XIII'],
+    o: ['Hipofibrinogenemia grave, com TT prolongado', 'Contaminação da amostra por heparina', 'Hemofilia A adquirida, com inibidor', 'Deficiência de fator XIII, com coágulo instável'],
     g: 'B',
     c: 'A heparina, via antitrombina, inibe a trombina e prolonga o TTPa e o tempo de trombina. A reptilase é uma enzima de veneno de serpente que coagula o fibrinogênio sem ser inibida pela heparina, de modo que o tempo de reptilase normal distingue a contaminação por heparina das alterações do fibrinogênio. A conduta é repetir a coleta por punção periférica.',
     x: { A: 'Na hipofibrinogenemia o tempo de reptilase também estaria prolongado.', C: 'O inibidor de fator VIII alarga o TTPa, mas mantém o tempo de trombina normal.', D: 'A deficiência de fator XIII não altera TTPa nem tempo de trombina.' },
@@ -181,7 +181,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'Cinética plaquetária',
     e: 'Sobre a produção e a distribuição das plaquetas no organismo, é correto afirmar que:',
-    o: ['Vivem cerca de 120 dias na circulação', 'Cerca de um terço fica sequestrado no baço, e a vida média é de 7 a 10 dias', 'São produzidas por fragmentação dos mieloblastos', 'A trombopoetina é sintetizada principalmente pelo baço'],
+    o: ['Vivem cerca de 120 dias na circulação', '1/3 fica sequestrado no baço; vida média de 7-10 dias', 'São produzidas por fragmentação dos mieloblastos', 'A trombopoetina é sintetizada sobretudo no baço'],
     g: 'B',
     c: 'As plaquetas são fragmentos do citoplasma dos megacariócitos, circulam por 7 a 10 dias e aproximadamente um terço delas permanece no baço. Na esplenomegalia essa fração sequestrada aumenta muito, causando plaquetopenia. A trombopoetina, principal estímulo à megacariopoese, é produzida sobretudo pelo fígado.',
     x: { A: 'Vida média de 120 dias é característica das hemácias, não das plaquetas.', C: 'As plaquetas derivam dos megacariócitos, e não dos mieloblastos.', D: 'A trombopoetina é sintetizada principalmente no fígado, o que contribui para a plaquetopenia do cirrótico.' },
@@ -189,7 +189,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'TP alargado isolado',
     e: 'Homem de 62 anos, em pré-operatório, apresenta INR de 1,9 com TTPa, plaquetas e fibrinogênio normais. Não tem sangramento. Entre as hipóteses abaixo, a que explica o alargamento isolado do tempo de protrombina é:',
-    o: ['Doença de von Willebrand tipo 1', 'Fase inicial de deficiência de vitamina K ou de uso de varfarina', 'Hemofilia B leve', 'Deficiência de fator XII'],
+    o: ['Doença de von Willebrand tipo 1, com TTPa alterado', 'Fase inicial de déficit de vitamina K ou uso de varfarina', 'Hemofilia B leve, com TTPa alterado', 'Deficiência de fator XII, com TTPa alterado'],
     g: 'B',
     c: 'O TP alargado isolado reflete redução do fator VII. Como esse fator tem a meia-vida mais curta entre os dependentes de vitamina K, ele cai primeiro na deficiência da vitamina, no início da varfarina e na hepatopatia inicial. Com a progressão, caem também os fatores II, IX e X, e o TTPa passa a se alargar.',
     x: { A: 'A doença de von Willebrand não altera o TP e pode alargar discretamente o TTPa.', C: 'A hemofilia B alarga o TTPa, mantendo o TP normal.', D: 'A deficiência de fator XII alarga apenas o TTPa, sem repercussão clínica.' },
@@ -197,7 +197,7 @@ export const PLAQUETAS_1: QuestaoCompacta[] = [
   {
     s: 'Valor do D-dímero',
     e: 'Paciente ambulatorial de 35 anos, com baixa probabilidade clínica de trombose venosa profunda, tem D-dímero normal por método de alta sensibilidade. A interpretação correta é:',
-    o: ['O resultado confirma trombofilia hereditária', 'O resultado praticamente exclui trombose, pelo alto valor preditivo negativo', 'O resultado obriga a realizar ultrassonografia com Doppler', 'O exame não tem utilidade em pacientes ambulatoriais'],
+    o: ['O resultado confirma trombofilia hereditária', 'Resultado normal praticamente exclui trombose (VPN alto)', 'O resultado obriga a fazer Doppler, em qualquer caso', 'O exame não tem utilidade em pacientes ambulatoriais'],
     g: 'B',
     c: 'O D-dímero é muito sensível, mas pouco específico: eleva-se em trombose, CIVD, infecção, câncer, gestação, pós-operatório e idade avançada. Sua utilidade está no valor preditivo negativo: quando normal em paciente de baixa probabilidade clínica, dispensa a investigação por imagem. Um resultado elevado, por si só, não confirma trombose.',
     x: { A: 'O D-dímero não tem relação com o diagnóstico de trombofilias hereditárias.', C: 'Com baixa probabilidade e D-dímero normal, a imagem pode ser dispensada.', D: 'É justamente no paciente ambulatorial de baixo risco que o exame é mais útil.' },

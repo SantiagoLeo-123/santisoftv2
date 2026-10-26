@@ -5,7 +5,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Agente etiológico',
     e: 'Sobre o Mycobacterium leprae, agente etiológico da hanseníase, é correto afirmar que se trata de:',
-    o: ['Bacilo gram-negativo de crescimento rápido, cultivável em ágar-sangue', 'Bacilo álcool-ácido resistente, intracelular obrigatório, não cultivável em meios artificiais', 'Coco gram-positivo extracelular produtor de toxina neurotrópica', 'Espiroqueta visível apenas em microscopia de campo escuro'],
+    o: ['Bacilo gram-negativo de crescimento rápido, cultivável em ágar', 'Bacilo álcool-ácido resistente, intracelular, não cultivável', 'Coco gram-positivo extracelular produtor de toxina neurotrópica', 'Espiroqueta visível apenas em campo escuro'],
     g: 'B',
     c: 'O M. leprae é um bacilo álcool-ácido resistente, corado pelo método de Ziehl-Neelsen, parasita intracelular obrigatório de macrófagos e células de Schwann. Ele não cresce em meios de cultura artificiais, o que explica por que o diagnóstico laboratorial se apoia na baciloscopia, na histopatologia e em métodos moleculares, e não em cultura.',
     x: { A: 'O bacilo tem multiplicação muito lenta e não é cultivável em meios artificiais.', C: 'Não é um coco nem produz toxina; a lesão neural decorre da invasão e da resposta imune.', D: 'Espiroqueta de campo escuro descreve o Treponema pallidum, agente da sífilis.' },
@@ -21,7 +21,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Tropismo neural',
     e: 'O acometimento de nervos periféricos é a marca da hanseníase. A célula que o bacilo invade preferencialmente no nervo e a consequência disso são:',
-    o: ['Neurônio motor do corno anterior, com paralisia flácida aguda e simétrica', 'Célula de Schwann, com desmielinização e, mais tarde, lesão axonal de fibras sensitivas, autonômicas e motoras', 'Oligodendrócito, com placas desmielinizantes no sistema nervoso central', 'Astrócito, com gliose e hipertensão intracraniana'],
+    o: ['Neurônio motor do corno anterior, com paralisia flácida aguda', 'Célula de Schwann: desmielinização e lesão axonal tardia', 'Oligodendrócito, com placas desmielinizantes no SNC', 'Astrócito, com gliose e hipertensão intracraniana'],
     g: 'B',
     c: 'O M. leprae tem tropismo pela célula de Schwann dos nervos periféricos, à qual se liga por meio do glicolipídeo fenólico 1 (PGL-1). A infecção e a resposta inflamatória causam desmielinização e depois dano axonal, comprometendo primeiro as fibras finas sensitivas e autonômicas e, posteriormente, as fibras motoras.',
     x: { A: 'O corno anterior da medula é alvo da poliomielite; a hanseníase é doença do nervo periférico.', C: 'Oligodendrócitos são do sistema nervoso central, que não é acometido pela hanseníase.', D: 'A hanseníase não acomete o encéfalo nem causa hipertensão intracraniana.' },
@@ -29,7 +29,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Transmissão',
     e: 'A principal forma de transmissão da hanseníase é:',
-    o: ['Contato com objetos pessoais e roupas de pacientes em tratamento', 'Eliminação de bacilos pelas vias aéreas superiores de doente multibacilar não tratado, em convívio próximo e prolongado', 'Contato da pele íntegra com as manchas de pacientes paucibacilares', 'Picada de insetos hematófagos em áreas endêmicas'],
+    o: ['Contato com objetos pessoais e roupas de pacientes tratados', 'Bacilos das vias aéreas de multibacilar sem tratamento, em convívio longo', 'Contato da pele íntegra com manchas de paucibacilares', 'Picada de insetos hematófagos em áreas endêmicas'],
     g: 'B',
     c: 'A transmissão ocorre pelas vias aéreas superiores (secreções nasais, gotículas da fala, tosse e espirro) de pacientes multibacilares sem tratamento, que são a principal fonte de infecção. Exige contato próximo e prolongado, razão pela qual os contatos domiciliares têm o maior risco de adoecer.',
     x: { A: 'Objetos e roupas não transmitem a doença, e o paciente em tratamento deixa de ser fonte de infecção.', C: 'O toque na pele íntegra não transmite, e paucibacilares têm carga bacilar insuficiente para transmitir.', D: 'Não há transmissão vetorial comprovada da hanseníase por insetos.' },
@@ -37,7 +37,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Transmissão',
     e: 'Homem de 40 anos recebe diagnóstico de hanseníase virchowiana e inicia a poliquimioterapia. A esposa pergunta se ele precisa dormir em quarto separado e usar talheres próprios. A orientação correta é:',
-    o: ['Isolamento domiciliar até a negativação da baciloscopia', 'Não há necessidade de isolamento nem de separar utensílios, pois a transmissão é interrompida logo após o início do tratamento', 'Separar utensílios e roupas de cama durante todo o tratamento', 'Afastamento do trabalho e do convívio familiar pelos primeiros seis meses'],
+    o: ['Isolamento domiciliar até a baciloscopia negativar', 'Sem isolamento nem separar utensílios; transmissão cessa ao iniciar', 'Separar utensílios e roupas de cama durante o tratamento', 'Afastamento do trabalho e do convívio por seis meses'],
     g: 'B',
     c: 'Logo nas primeiras doses da poliquimioterapia, sobretudo pela ação bactericida da rifampicina, a carga de bacilos viáveis cai drasticamente e o paciente deixa de transmitir. Por isso não se indica isolamento, afastamento do trabalho ou separação de objetos, medidas que apenas reforçam o estigma.',
     x: { A: 'A baciloscopia pode permanecer positiva por anos com bacilos mortos, sem risco de transmissão.', C: 'Utensílios e roupas não são veículos de transmissão da hanseníase.', D: 'Não há indicação de afastamento do trabalho ou da família pelo diagnóstico.' },
@@ -45,7 +45,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'História natural',
     e: 'Diz-se que o bacilo de Hansen tem alta infectividade e baixa patogenicidade. Isso significa que:',
-    o: ['Poucas pessoas se infectam, mas quase todas as infectadas adoecem', 'Muitas pessoas expostas se infectam, mas a grande maioria não adoece por ter resistência natural ao bacilo', 'A doença é altamente letal nos poucos indivíduos que adoecem', 'A infecção só ocorre em pessoas com imunodeficiência grave'],
+    o: ['Poucos se infectam, mas quase todos adoecem', 'Muitos se infectam, mas a maioria não adoece (resistência natural)', 'A doença é altamente letal nos poucos que adoecem', 'A infecção só ocorre em pessoas com imunodeficiência grave'],
     g: 'B',
     c: 'O bacilo infecta grande número de pessoas expostas (alta infectividade), mas a maior parte da população tem imunidade celular eficaz e elimina a infecção sem adoecer (baixa patogenicidade). O adoecimento depende de suscetibilidade individual, com componente genético, e da intensidade e duração da exposição.',
     x: { A: 'É o inverso: a infecção é frequente e o adoecimento é que é incomum.', C: 'Patogenicidade não se refere a letalidade; a hanseníase raramente mata, mas incapacita.', D: 'A doença ocorre em imunocompetentes; não depende de imunodeficiência grave.' },
@@ -53,7 +53,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Epidemiologia',
     e: 'Em relação à epidemiologia da hanseníase, assinale a alternativa correta:',
-    o: ['O Brasil eliminou a hanseníase como problema de saúde pública na década de 1990', 'O Brasil ocupa o segundo lugar mundial em número de casos novos, atrás apenas da Índia', 'A doença é restrita à região Sul do Brasil', 'A maior parte dos casos mundiais ocorre na Europa Oriental'],
+    o: ['O Brasil eliminou a hanseníase como problema de saúde nos anos 1990', 'O Brasil é o 2º do mundo em casos novos, atrás da Índia', 'A doença é restrita à região Sul do Brasil', 'A maior parte dos casos mundiais ocorre na Europa Oriental'],
     g: 'B',
     c: 'O Brasil é o segundo país do mundo em número absoluto de casos novos de hanseníase, ficando atrás somente da Índia, e concentra a quase totalidade dos casos das Américas. A distribuição é heterogênea, com maior endemicidade nas regiões Centro-Oeste, Norte e Nordeste.',
     x: { A: 'O Brasil ainda não atingiu a meta de eliminação e segue como país de alta carga.', C: 'A região Sul tem as menores taxas de detecção do país.', D: 'Os casos concentram-se na Índia, no Brasil e na Indonésia, não na Europa.' },
@@ -77,7 +77,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Resposta imune',
     e: 'A forma clínica que a hanseníase assume depende do padrão de resposta imune do hospedeiro. No polo tuberculoide observa-se:',
-    o: ['Resposta Th2 predominante, com altos títulos de anticorpos e muitos bacilos', 'Resposta Th1 predominante, com imunidade celular eficaz, granulomas bem formados e poucos bacilos', 'Ausência completa de resposta imune celular e humoral', 'Resposta mediada por IgE, com eosinofilia tecidual'],
+    o: ['Resposta Th2, com altos títulos de anticorpos e muitos bacilos', 'Resposta Th1: imunidade celular eficaz, granulomas e poucos bacilos', 'Ausência completa de resposta imune celular e humoral', 'Resposta mediada por IgE, com eosinofilia tecidual'],
     g: 'B',
     c: 'No polo tuberculoide predomina a resposta Th1, com produção de interleucina 2 e interferon gama, que ativam macrófagos e formam granulomas epitelioides capazes de conter o bacilo. O resultado é doença localizada, com poucas lesões e baciloscopia negativa, porém com dano neural precoce causado pela própria inflamação granulomatosa.',
     x: { A: 'Esse é o padrão do polo virchowiano, não do tuberculoide.', C: 'O tuberculoide tem resposta celular vigorosa, o oposto de ausência de resposta.', D: 'A resposta com IgE e eosinófilos caracteriza helmintíases e atopia, não a hanseníase.' },
@@ -85,7 +85,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Resposta imune',
     e: 'Paciente com hanseníase virchowiana tem altos títulos de anticorpos anti-PGL-1 e, mesmo assim, apresenta enorme carga bacilar. Isso ocorre porque:',
-    o: ['Os anticorpos produzidos são dirigidos contra antígenos do hospedeiro', 'O bacilo é intracelular e seu controle depende da imunidade celular Th1, deficiente nesse polo; a resposta humoral Th2 não é protetora', 'O bacilo virchowiano é uma cepa mais virulenta e resistente a anticorpos', 'Há deficiência de complemento associada à doença'],
+    o: ['Os anticorpos produzidos são dirigidos contra o hospedeiro', 'Bacilo intracelular; o controle exige Th1, deficiente nesse polo', 'O bacilo virchowiano é cepa mais virulenta e resistente', 'Há deficiência de complemento associada à doença'],
     g: 'B',
     c: 'Por ser parasita intracelular, o M. leprae só é eliminado por macrófagos ativados pela via Th1. No polo virchowiano há anergia celular específica ao bacilo e predomínio de citocinas Th2 (interleucinas 4 e 10), que estimulam a produção de anticorpos, mas não destroem o bacilo, que prolifera livremente dentro de macrófagos espumosos.',
     x: { A: 'Os anticorpos são específicos contra antígenos do bacilo, como o PGL-1.', C: 'Não há cepas distintas; a diferença entre os polos está na resposta do hospedeiro.', D: 'Não há deficiência de complemento; na reação tipo 2 há até deposição de imunocomplexos.' },
@@ -93,7 +93,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Reação de Mitsuda',
     e: 'A reação de Mitsuda (teste da lepromina) avalia a imunidade celular ao bacilo. Sobre esse teste, é correto afirmar:',
-    o: ['É positiva na forma virchowiana e confirma o diagnóstico de hanseníase', 'É positiva na forma tuberculoide e negativa na virchowiana, tendo valor prognóstico e não diagnóstico', 'É exame obrigatório para definir o esquema terapêutico', 'Sua leitura é feita em 48 a 72 horas, como a prova tuberculínica'],
+    o: ['Positiva na virchowiana e confirma o diagnóstico', 'Positiva na tuberculoide, negativa na virchowiana: valor prognóstico', 'Exame obrigatório para definir o esquema terapêutico', 'Lida em 48-72 horas, como a prova tuberculínica'],
     g: 'B',
     c: 'A reação de Mitsuda expressa a capacidade de resposta celular tardia ao bacilo: é positiva no polo tuberculoide e negativa no virchowiano. Como a maioria das pessoas sadias também é Mitsuda-positiva, o teste não serve para diagnóstico, apenas para estimar o polo da doença, e não é usado na rotina.',
     x: { A: 'No polo virchowiano o teste é negativo, refletindo anergia celular ao bacilo.', C: 'O esquema é definido pela classificação operacional clínica, sem necessidade do teste.', D: 'A leitura da reação de Mitsuda é tardia, em cerca de quatro semanas.' },
@@ -125,7 +125,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Classificação operacional',
     e: 'Homem de 35 anos apresenta três placas eritematosas com hipoestesia no tronco. A baciloscopia do raspado intradérmico é positiva. A classificação operacional é:',
-    o: ['Paucibacilar, pois há menos de cinco lesões', 'Multibacilar, pois a baciloscopia positiva classifica o caso independentemente do número de lesões', 'Indeterminada, devendo aguardar evolução para classificar', 'Paucibacilar, desde que não haja nervos espessados'],
+    o: ['Paucibacilar, pois há menos de cinco lesões cutâneas', 'Multibacilar: baciloscopia positiva classifica, mesmo com poucas lesões', 'Indeterminada, devendo aguardar evolução para classificar', 'Paucibacilar, desde que não haja nervos espessados'],
     g: 'B',
     c: 'A baciloscopia positiva classifica o caso como multibacilar qualquer que seja o número de lesões, porque demonstra carga bacilar significativa. O contrário não vale: baciloscopia negativa não exclui a classificação multibacilar se houver mais de cinco lesões.',
     x: { A: 'O número de lesões só vale para classificar se a baciloscopia for negativa.', C: 'Indeterminada é forma clínica, não categoria da classificação operacional.', D: 'A baciloscopia positiva basta para classificar como multibacilar.' },
@@ -157,7 +157,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Forma tuberculoide',
     e: 'Lactente de 2 anos, filho de mãe com hanseníase virchowiana diagnosticada recentemente, apresenta um nódulo eritemato-acastanhado único na bochecha, assintomático. Trata-se provavelmente de:',
-    o: ['Hansenoma, indicando forma virchowiana na criança', 'Hanseníase nodular da infância, variante tuberculoide que acomete crianças conviventes de casos multibacilares', 'Eritema nodoso hansênico', 'Fenômeno de Lúcio'],
+    o: ['Hansenoma, indicando forma virchowiana na criança', 'Hanseníase nodular da infância (variante tuberculoide)', 'Eritema nodoso hansênico, na reação tipo 2', 'Fenômeno de Lúcio, em virchowiana difusa'],
     g: 'B',
     c: 'A hanseníase nodular da infância é uma variante do polo tuberculoide que surge em crianças pequenas com contato íntimo com doentes multibacilares, como pápulas ou nódulos em áreas expostas, especialmente a face. Reflete boa resposta imune celular e tende à regressão, mas sinaliza fonte de infecção ativa no domicílio.',
     x: { A: 'Hansenomas são múltiplos e ocorrem em adultos com doença virchowiana avançada.', C: 'Eritema nodoso hansênico é reação de pacientes multibacilares, com nódulos dolorosos e febre.', D: 'O fenômeno de Lúcio cursa com lesões necróticas em virchowianos difusos.' },
@@ -165,7 +165,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Forma virchowiana',
     e: 'Homem de 50 anos apresenta infiltração difusa da face, pavilhões auriculares espessados, perda da porção lateral das sobrancelhas, nódulos nos cotovelos, obstrução nasal crônica e hipoestesia em luvas e botas. Qual forma clínica e achado baciloscópico são esperados?',
-    o: ['Tuberculoide, com baciloscopia negativa', 'Virchowiana, com baciloscopia fortemente positiva e bacilos agrupados em globias', 'Indeterminada, com baciloscopia negativa', 'Tuberculoide reacional, com raros bacilos'],
+    o: ['Tuberculoide, com baciloscopia negativa e poucas lesões', 'Virchowiana: baciloscopia fortemente positiva, globias', 'Indeterminada, com baciloscopia negativa e mancha única', 'Tuberculoide reacional, com raros bacilos na lesão'],
     g: 'B',
     c: 'A hanseníase virchowiana é o polo anérgico: infiltração difusa e simétrica da pele, hansenomas, madarose, fácies leonina, acometimento da mucosa nasal e polineuropatia distal simétrica. A baciloscopia é fortemente positiva, com bacilos íntegros agrupados em globias dentro de macrófagos espumosos (células de Virchow).',
     x: { A: 'A tuberculoide tem poucas lesões bem delimitadas, sem infiltração difusa.', C: 'A indeterminada é mancha hipocrômica isolada, sem infiltração nem nódulos.', D: 'O quadro difuso e simétrico com hansenomas não corresponde ao polo tuberculoide.' },
@@ -197,7 +197,7 @@ export const HANSENIASE_1: QuestaoCompacta[] = [
   {
     s: 'Ridley-Jopling',
     e: 'A classificação de Ridley-Jopling subdivide o espectro da hanseníase com base em critérios clínicos, baciloscópicos, imunológicos e histopatológicos. Nela, os subgrupos imunologicamente instáveis, mais sujeitos a reações do tipo 1, são:',
-    o: ['Os polos tuberculoide (TT) e virchowiano (LL)', 'Os dimorfos: dimorfo-tuberculoide (BT), dimorfo-dimorfo (BB) e dimorfo-virchowiano (BL)', 'Apenas o polo virchowiano (LL)', 'Apenas a forma indeterminada'],
+    o: ['Os polos tuberculoide (TT) e virchowiano (LL)', 'Os dimorfos: BT, BB e BL', 'Apenas o polo virchowiano (LL), estável', 'Apenas a forma indeterminada, inicial'],
     g: 'B',
     c: 'Ridley e Jopling descrevem um espectro com dois polos estáveis, TT e LL, e três subgrupos intermediários, BT, BB e BL. Os dimorfos têm imunidade celular oscilante, o que os torna propensos às reações do tipo 1, que nada mais são do que mudanças bruscas dessa imunidade contra o bacilo.',
     x: { A: 'Os polos TT e LL são imunologicamente estáveis.', C: 'O polo LL é estável e associa-se à reação do tipo 2, não à do tipo 1.', D: 'A forma indeterminada não integra o espectro de Ridley-Jopling e não costuma reagir.' },

@@ -13,7 +13,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'CURB-65: conduta',
     e: 'De acordo com a pontuação no escore CURB-65, a conduta geralmente recomendada quanto ao local de tratamento é:',
-    o: ['0 a 2: ambulatorial; 3: enfermaria; 4 ou 5: terapia intensiva', '0 ou 1: ambulatorial; 2: considerar internação; 3 ou mais: internação, avaliando terapia intensiva se 4 ou 5', '0: ambulatorial; 1 ou mais: internação obrigatória em terapia intensiva', '0 a 3: ambulatorial; 4 ou 5: internação em enfermaria'],
+    o: ['0 a 2: ambulatorial; 3: enfermaria; 4 ou 5: UTI', '0-1: ambulatorial; 2: considerar internar; ≥ 3: internar', '0: ambulatorial; ≥ 1: internação obrigatória em UTI', '0 a 3: ambulatorial; 4 ou 5: internação em enfermaria'],
     g: 'B',
     c: 'A mortalidade cresce com a pontuação: 0 ou 1 ponto indica baixo risco e tratamento ambulatorial; 2 pontos, risco intermediário, com internação a considerar; 3 ou mais, pneumonia grave com internação, avaliando-se terapia intensiva com 4 ou 5 pontos. O escore deve ser complementado por julgamento clínico, oximetria, comorbidades e condições sociais.',
     x: { A: 'Com 2 pontos a mortalidade já é relevante, e a internação deve ser considerada.', C: 'Um único ponto, como a idade isolada, não obriga internação nem terapia intensiva.', D: 'Três pontos já definem pneumonia grave com indicação de internação.' },
@@ -37,7 +37,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'PSI',
     e: 'Sobre o Pneumonia Severity Index (PSI, escore de Fine), é correto afirmar:',
-    o: ['Utiliza apenas quatro variáveis clínicas e dispensa exames laboratoriais', 'Classifica os pacientes em cinco classes de risco com base em idade, comorbidades, exame físico e exames complementares', 'Tende a superestimar a gravidade em adultos jovens previamente hígidos', 'Foi desenvolvido para definir o antibiótico de escolha em cada classe de risco'],
+    o: ['Usa só quatro variáveis clínicas e dispensa exames', 'Cinco classes de risco: idade, comorbidades, exame físico e exames', 'Tende a superestimar a gravidade em jovens hígidos', 'Foi criado para definir o antibiótico de cada classe'],
     g: 'B',
     c: 'O PSI reúne 20 variáveis (demográficas, comorbidades, exame físico, laboratório e radiografia) e estratifica em classes I a V; as classes I e II têm baixa mortalidade e permitem tratamento ambulatorial. Por dar grande peso à idade e às comorbidades, pode subestimar a gravidade em jovens.',
     x: { A: 'Essa descrição corresponde ao CRB-65; o PSI é complexo e exige exames.', C: 'O peso da idade faz o PSI subestimar, e não superestimar, a gravidade em jovens.', D: 'O escore prediz mortalidade e orienta o local de tratamento, não o antibiótico.' },
@@ -45,7 +45,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Critérios maiores ATS/IDSA',
     e: 'Segundo os critérios ATS/IDSA de pneumonia comunitária grave, a presença de um único critério maior já indica internação em unidade de terapia intensiva. Os critérios maiores são:',
-    o: ['Confusão mental e ureia elevada', 'Choque séptico com necessidade de vasopressor e insuficiência respiratória com necessidade de ventilação mecânica', 'Infiltrado multilobar e frequência respiratória a partir de 30 irpm', 'Leucopenia e plaquetopenia'],
+    o: ['Confusão mental e ureia elevada, critérios menores', 'Choque com vasopressor ou ventilação mecânica', 'Infiltrado multilobar e FR ≥ 30 irpm, critérios menores', 'Leucopenia e plaquetopenia, critérios menores'],
     g: 'B',
     c: 'Os dois critérios maiores são o choque séptico com necessidade de vasopressor e a insuficiência respiratória com necessidade de ventilação mecânica. Um critério maior ou três ou mais menores definem pneumonia grave. Ambos os maiores exigem suporte disponível apenas em terapia intensiva.',
     x: { A: 'Confusão mental e uremia são critérios menores.', C: 'Infiltrado multilobar e taquipneia são critérios menores.', D: 'Leucopenia e plaquetopenia são critérios menores de gravidade.' },
@@ -53,7 +53,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Critérios menores ATS/IDSA',
     e: 'Mulher de 59 anos internada por pneumonia comunitária apresenta frequência respiratória de 34 irpm, relação PaO2/FiO2 de 220, infiltrados em três lobos e desorientação. A pressão arterial é de 110 x 70 mmHg sem drogas vasoativas, e ela respira espontaneamente com cateter nasal. Segundo os critérios ATS/IDSA, essa paciente:',
-    o: ['Não tem pneumonia grave, pois não apresenta nenhum critério maior', 'Tem pneumonia grave por apresentar três ou mais critérios menores, devendo ser considerada para terapia intensiva', 'Tem pneumonia grave apenas se o CURB-65 for igual a 5', 'Deve receber alta com antibiótico oral por estar hemodinamicamente estável'],
+    o: ['Sem pneumonia grave, pois não tem nenhum critério maior', 'Pneumonia grave: ≥ 3 critérios menores; considerar UTI', 'Pneumonia grave só se o CURB-65 for igual a 5', 'Alta com antibiótico oral por estar hemodinamicamente estável'],
     g: 'B',
     c: 'Os critérios menores incluem frequência respiratória igual ou maior que 30 irpm, PaO2/FiO2 igual ou menor que 250, infiltrado multilobar, confusão, uremia, leucopenia, plaquetopenia, hipotermia e hipotensão que exige reposição volêmica agressiva. A paciente reúne quatro deles, e três ou mais definem pneumonia grave.',
     x: { A: 'A gravidade também é definida por três ou mais critérios menores, mesmo sem critério maior.', C: 'Os critérios ATS/IDSA são independentes do CURB-65.', D: 'Taquipneia intensa, hipoxemia e confusão contraindicam o tratamento domiciliar.' },
@@ -69,7 +69,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Ambulatorial com comorbidades',
     e: 'Homem de 63 anos, diabético e com insuficiência cardíaca compensada, usou amoxicilina há 6 semanas por sinusite. Apresenta pneumonia comunitária com CURB-65 igual a 1 e condições de tratamento domiciliar. O esquema mais adequado é:',
-    o: ['Amoxicilina isolada em dose habitual', 'Amoxicilina-clavulanato associada a azitromicina, ou quinolona respiratória isolada', 'Azitromicina isolada por 3 dias', 'Sulfametoxazol-trimetoprima por 7 dias'],
+    o: ['Amoxicilina isolada em dose habitual, por 7 dias', 'Amoxicilina-clavulanato com azitromicina, ou quinolona respiratória', 'Azitromicina isolada por 3 dias, por via oral', 'Sulfametoxazol-trimetoprima por 7 dias, por via oral'],
     g: 'B',
     c: 'Comorbidades e uso recente de antibiótico aumentam o risco de pneumococo resistente e de Gram-negativos, como o Haemophilus produtor de betalactamase. Recomenda-se betalactâmico associado a macrolídeo ou monoterapia com quinolona respiratória (levofloxacino ou moxifloxacino), preferindo-se classe diferente da usada recentemente.',
     x: { A: 'A exposição recente à amoxicilina e as comorbidades tornam a monoterapia com ela inadequada.', C: 'A monoterapia com macrolídeo é reservada a pacientes sem comorbidades e sem antibiótico recente.', D: 'O sulfametoxazol-trimetoprima tem alta taxa de resistência do pneumococo e não é opção empírica.' },
@@ -85,7 +85,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Enfermaria',
     e: 'Homem de 70 anos, hipertenso, é internado em enfermaria por pneumonia comunitária com CURB-65 igual a 2 e saturação de 90% em ar ambiente. Não tem internação recente nem isolamento prévio de germes resistentes. O esquema empírico recomendado é:',
-    o: ['Azitromicina intravenosa isolada', 'Ceftriaxona associada a azitromicina, ou levofloxacino em monoterapia', 'Piperacilina-tazobactam associada a vancomicina', 'Amoxicilina oral isolada'],
+    o: ['Azitromicina intravenosa isolada, por 5 dias', 'Ceftriaxona com azitromicina, ou levofloxacino isolado', 'Piperacilina-tazobactam com vancomicina, por via venosa', 'Amoxicilina oral isolada, por 7 dias, em casa'],
     g: 'B',
     c: 'No paciente internado em enfermaria sem risco para germes resistentes, as opções são betalactâmico (ceftriaxona, cefotaxima ou ampicilina-sulbactam) associado a macrolídeo, ou quinolona respiratória isolada. Ambos cobrem pneumococo, Haemophilus e atípicos, com resultados equivalentes.',
     x: { A: 'A monoterapia com macrolídeo não é recomendada no paciente internado, pela resistência do pneumococo.', C: 'Cobertura para Pseudomonas e MRSA só se justifica na presença de fatores de risco específicos.', D: 'A amoxicilina oral isolada não cobre atípicos e é inadequada para paciente hipoxêmico internado.' },
@@ -101,7 +101,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Risco para Pseudomonas',
     e: 'Homem de 66 anos com DPOC muito grave e bronquiectasias, com cultura de escarro positiva para Pseudomonas aeruginosa há 4 meses, é internado com pneumonia comunitária grave. A melhor opção de betalactâmico para compor o esquema empírico é:',
-    o: ['Ceftriaxona', 'Piperacilina-tazobactam', 'Ampicilina-sulbactam', 'Ertapenem'],
+    o: ['Ceftriaxona, sem cobertura antipseudomonas', 'Piperacilina-tazobactam, com cobertura antipseudomonas', 'Ampicilina-sulbactam, sem cobertura antipseudomonas', 'Ertapenem, sem cobertura antipseudomonas'],
     g: 'B',
     c: 'O isolamento prévio de Pseudomonas em amostra respiratória é o fator de risco mais forte para nova infecção por esse agente. O esquema deve conter betalactâmico antipseudomonas, como piperacilina-tazobactam, cefepima, ceftazidima, meropenem ou imipenem, com coleta de culturas para posterior descalonamento.',
     x: { A: 'A ceftriaxona não tem atividade confiável contra Pseudomonas aeruginosa.', C: 'A ampicilina-sulbactam não cobre Pseudomonas.', D: 'O ertapenem é o carbapenêmico sem atividade contra Pseudomonas.' },
@@ -109,7 +109,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Risco para MRSA',
     e: 'Segundo a diretriz ATS/IDSA de 2019, os fatores que mais fortemente justificam a cobertura empírica para Staphylococcus aureus resistente à meticilina (MRSA) na pneumonia comunitária são:',
-    o: ['Idade acima de 65 anos e residência em instituição de longa permanência', 'Isolamento prévio de MRSA em amostra respiratória e internação recente com uso de antibiótico parenteral nos últimos 90 dias', 'Tabagismo ativo e etilismo', 'Diabetes mellitus e hipertensão arterial'],
+    o: ['Idade > 65 anos e residência em instituição de longa permanência', 'MRSA prévio em amostra respiratória e internação recente com antibiótico IV', 'Tabagismo ativo e etilismo, isoladamente considerados', 'Diabetes mellitus e hipertensão arterial, isoladamente'],
     g: 'B',
     c: 'A diretriz de 2019 abandonou a categoria de pneumonia associada aos cuidados de saúde, que levava ao uso excessivo de amplo espectro. A cobertura para MRSA (vancomicina ou linezolida) passa a depender de fatores validados: isolamento prévio do agente e hospitalização com antibiótico parenteral nos últimos 90 dias, sempre com culturas para descalonar.',
     x: { A: 'Idade e institucionalização isoladamente não justificam mais cobertura para MRSA.', C: 'Tabagismo e etilismo não são fatores de risco validados para MRSA.', D: 'Comorbidades clínicas comuns não indicam cobertura antiestafilocócica resistente.' },
@@ -125,7 +125,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Duração',
     e: 'Homem de 47 anos com pneumonia comunitária não complicada, tratado em enfermaria, está afebril há 72 horas, com sinais vitais normais e alimentando-se bem no quinto dia de antibiótico. A conduta quanto à duração do tratamento é:',
-    o: ['Manter o antibiótico até completar 14 dias', 'Encerrar o tratamento, pois a duração mínima de 5 dias com estabilidade clínica foi alcançada', 'Manter até a normalização completa da radiografia de tórax', 'Manter até a negativação da proteína C reativa'],
+    o: ['Manter o antibiótico até completar 14 dias', 'Encerrar: ≥ 5 dias com estabilidade clínica', 'Manter até a normalização da radiografia de tórax', 'Manter até a PCR negativar, no controle'],
     g: 'B',
     c: 'A duração deve ser guiada pela estabilidade clínica, com mínimo de 5 dias, e a maioria dos pacientes atinge estabilidade em 48 a 72 horas. Cursos curtos têm a mesma eficácia, com menos efeitos adversos e menor pressão de resistência. Tratamento mais longo fica para complicações ou agentes como S. aureus e Pseudomonas.',
     x: { A: 'Cursos de 14 dias não trazem benefício na pneumonia não complicada com boa resposta.', C: 'A resolução radiológica é tardia e não serve para definir a duração do antibiótico.', D: 'Não é necessário aguardar a normalização de marcadores inflamatórios.' },
@@ -141,7 +141,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Corticoide',
     e: 'Homem de 61 anos é admitido em terapia intensiva com pneumonia comunitária grave, em cânula nasal de alto fluxo com fração inspirada de oxigênio elevada. O teste para influenza é negativo e não há suspeita de tuberculose ou de infecção fúngica. Em relação ao corticoide sistêmico, com base nas evidências mais recentes:',
-    o: ['Está contraindicado em qualquer pneumonia bacteriana', 'A hidrocortisona iniciada precocemente pode reduzir mortalidade nesse cenário de pneumonia grave', 'Deve ser prescrito a todos os pacientes com pneumonia, inclusive os ambulatoriais', 'Só deve ser iniciado após 10 dias de antibiótico sem melhora'],
+    o: ['Está contraindicado em qualquer pneumonia bacteriana', 'Hidrocortisona precoce pode reduzir a mortalidade na pneumonia grave', 'Deve ser prescrito a todos, inclusive aos ambulatoriais', 'Só deve ser iniciado após 10 dias sem melhora'],
     g: 'B',
     c: 'Ensaios recentes mostraram redução de mortalidade e de necessidade de intubação com hidrocortisona precoce na PAC grave em terapia intensiva, ao atenuar a resposta inflamatória pulmonar exagerada. O benefício não se estende à pneumonia leve, e o corticoide deve ser evitado na pneumonia por influenza e quando há suspeita de tuberculose ou fungos.',
     x: { A: 'Há benefício demonstrado na forma grave; não se trata de contraindicação absoluta.', C: 'Na pneumonia não grave não há benefício, apenas risco de hiperglicemia e outros efeitos adversos.', D: 'O benefício observado depende do início precoce, nas primeiras horas de gravidade.' },
@@ -149,7 +149,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Falha terapêutica',
     e: 'Mulher de 52 anos internada por pneumonia comunitária mantém febre e piora da dispneia após 72 horas de ceftriaxona e azitromicina em doses corretas. A conduta inicial mais adequada é:',
-    o: ['Manter o esquema por mais 7 dias antes de qualquer investigação', 'Reavaliar o diagnóstico, colher novas culturas e pesquisar complicações com novo exame de imagem', 'Associar corticoide em dose alta e suspender os antibióticos', 'Trocar para antibiótico oral e dar alta com retorno em 2 semanas'],
+    o: ['Manter o esquema por mais 7 dias antes de investigar', 'Reavaliar o diagnóstico, colher culturas e pesquisar complicações por imagem', 'Associar corticoide em dose alta e suspender os antibióticos', 'Trocar para antibiótico oral e dar alta, retorno em 2 semanas'],
     g: 'B',
     c: 'A ausência de resposta em 48 a 72 horas define falha terapêutica precoce. Deve-se pesquisar complicações (derrame complicado, empiema, abscesso), agente não coberto ou resistente (S. aureus, Pseudomonas, tuberculose, fungos), dose inadequada e diagnósticos alternativos, como embolia pulmonar, neoplasia e pneumonia em organização.',
     x: { A: 'Insistir no mesmo esquema sem reavaliação atrasa o diagnóstico de complicações.', C: 'Suspender antibióticos sem diagnóstico alternativo confirmado é perigoso.', D: 'Paciente em piora clínica não tem critério de estabilidade para via oral nem para alta.' },
@@ -157,7 +157,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Controle radiológico',
     e: 'Homem de 58 anos, tabagista de 40 maços-ano, teve pneumonia em lobo superior direito tratada com resolução completa dos sintomas. Quanto ao controle radiológico, a conduta mais adequada é:',
-    o: ['Repetir a radiografia a cada 48 horas durante o tratamento', 'Realizar exame de imagem de controle em cerca de 6 a 8 semanas, pelo risco de neoplasia subjacente', 'Não realizar nenhum controle, pois ele nunca está indicado', 'Solicitar broncoscopia imediatamente, ainda durante o tratamento'],
+    o: ['Repetir a radiografia a cada 48 horas', 'Imagem de controle em 6-8 semanas (risco de neoplasia)', 'Nenhum controle, pois nunca está indicado', 'Broncoscopia imediata, durante o tratamento'],
     g: 'B',
     c: 'A resolução radiológica é mais lenta que a clínica e pode levar várias semanas, sobretudo em idosos e tabagistas. O controle de rotina é dispensável em pacientes de baixo risco com boa evolução, mas é recomendado em tabagistas com mais de 50 anos e quando os sintomas persistem, para afastar neoplasia obstrutiva.',
     x: { A: 'Radiografias seriadas precoces não mudam a conduta em paciente com boa evolução.', C: 'Há indicação seletiva de controle em pacientes com risco de câncer de pulmão.', D: 'A broncoscopia só é considerada se a imagem não regredir no controle.' },
@@ -165,7 +165,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Resolução radiológica',
     e: 'Mulher de 76 anos tratada por pneumonia pneumocócica multilobar está assintomática há 3 semanas, mas a radiografia de controle ainda mostra opacidade residual, menor que a inicial. A interpretação mais adequada é:',
-    o: ['Falha terapêutica, com necessidade de novo ciclo de antibiótico de amplo espectro', 'Evolução esperada, pois a resolução radiológica é mais lenta que a clínica, especialmente em idosos e em doença multilobar', 'Diagnóstico confirmado de neoplasia, com indicação de lobectomia', 'Empiema pleural, com indicação de drenagem torácica'],
+    o: ['Falha terapêutica: novo ciclo de antibiótico de amplo espectro', 'Evolução esperada: a resolução radiológica é mais lenta que a clínica', 'Neoplasia confirmada, com indicação de lobectomia', 'Empiema pleural, com indicação de drenagem torácica'],
     g: 'B',
     c: 'A imagem pode levar de 4 a 12 semanas para normalizar, e a resolução é mais lenta em idosos, tabagistas, portadores de DPOC, na doença multilobar e na bacteremia. Em paciente assintomática com opacidade em regressão, a conduta é o acompanhamento com nova imagem.',
     x: { A: 'A melhora clínica completa com imagem em regressão não caracteriza falha terapêutica.', C: 'Opacidade em regressão não confirma neoplasia nem indica cirurgia.', D: 'Empiema cursa com febre persistente e derrame pleural, ausentes no caso.' },
@@ -173,7 +173,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Oxigenação e internação',
     e: 'Homem de 35 anos, sem comorbidades, com pneumonia comunitária e CURB-65 igual a zero, apresenta saturação de oxigênio de 88% em ar ambiente. A conduta correta é:',
-    o: ['Tratamento ambulatorial, pois o escore indica baixo risco', 'Internação hospitalar, pois a hipoxemia indica gravidade não captada pelo escore', 'Tratamento ambulatorial com corticoide oral associado', 'Alta sem antibiótico, com reavaliação em 48 horas'],
+    o: ['Tratamento ambulatorial: o escore indica baixo risco', 'Internar: a hipoxemia indica gravidade não captada pelo escore', 'Tratamento ambulatorial com corticoide oral associado', 'Alta sem antibiótico, com reavaliação em 48 horas'],
     g: 'B',
     c: 'Os escores auxiliam, mas não substituem o julgamento clínico. Hipoxemia (saturação abaixo de 90 a 92%), comorbidades descompensadas, derrame pleural, impossibilidade de via oral e falta de suporte social são motivos de internação mesmo com pontuação baixa. O CURB-65 não inclui a oxigenação e pode subestimar a gravidade em jovens.',
     x: { A: 'O escore baixo não autoriza alta de paciente hipoxêmico.', C: 'O corticoide não corrige a necessidade de oxigênio suplementar e de monitorização.', D: 'Pneumonia confirmada com hipoxemia exige antibiótico e internação.' },
@@ -181,7 +181,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Cobertura anaeróbia',
     e: 'Homem de 80 anos com sequela de AVC e disfagia é internado com pneumonia em segmento posterior do lobo inferior direito após episódio presenciado de engasgo. Não há abscesso nem empiema na imagem. Segundo a diretriz ATS/IDSA, quanto à cobertura específica para anaeróbios:',
-    o: ['Deve-se associar metronidazol em todos os casos de suspeita de aspiração', 'Não é recomendada de rotina, sendo reservada aos casos com abscesso pulmonar ou empiema', 'Deve-se utilizar clindamicina em monoterapia', 'Deve-se utilizar carbapenêmico em todos os casos'],
+    o: ['Associar metronidazol em todos os casos de aspiração', 'Não recomendada de rotina; só se abscesso ou empiema', 'Clindamicina em monoterapia, em todos os casos', 'Carbapenêmico em todos os casos, por via venosa'],
     g: 'B',
     c: 'Estudos atuais mostram que os agentes da pneumonia aspirativa são semelhantes aos da PAC habitual, com papel menor dos anaeróbios do que se acreditava. O esquema padrão para PAC é suficiente, e a cobertura anaeróbia adicional é reservada para abscesso ou empiema, evitando efeitos adversos como infecção por Clostridioides difficile.',
     x: { A: 'A associação rotineira de metronidazol não melhora desfechos e aumenta efeitos adversos.', C: 'A clindamicina isolada não cobre adequadamente os Gram-negativos nem os atípicos.', D: 'Carbapenêmicos são desnecessários sem risco de germes multirresistentes.' },
@@ -189,7 +189,7 @@ export const PNEUMONIA_2: QuestaoCompacta[] = [
   {
     s: 'Influenza associada',
     e: 'Durante o período de sazonalidade da influenza, mulher de 67 anos é internada com pneumonia comunitária e teste molecular positivo para influenza A. Os sintomas começaram há 4 dias. A conduta correta é:',
-    o: ['Prescrever apenas oseltamivir, sem antibiótico', 'Prescrever oseltamivir associado ao esquema antibacteriano padrão para pneumonia comunitária', 'Não prescrever oseltamivir, pois já se passaram mais de 48 horas', 'Prescrever apenas antibiótico, pois o antiviral só serve como profilaxia'],
+    o: ['Apenas oseltamivir, sem antibiótico algum', 'Oseltamivir mais esquema antibacteriano padrão', 'Sem oseltamivir: já passaram mais de 48 horas', 'Apenas antibiótico: o antiviral serve só de profilaxia'],
     g: 'B',
     c: 'No paciente internado com influenza, o oseltamivir é indicado independentemente do tempo de sintomas, pois ainda reduz complicações e mortalidade. Como a coinfecção bacteriana por pneumococo e S. aureus é frequente e difícil de excluir na admissão, mantém-se também o antibiótico empírico.',
     x: { A: 'A pneumonia com infiltrado em paciente com influenza exige cobertura antibacteriana inicial.', C: 'O limite de 48 horas não se aplica a pacientes hospitalizados ou graves.', D: 'O oseltamivir é tratamento eficaz da influenza, e não apenas profilaxia.' },

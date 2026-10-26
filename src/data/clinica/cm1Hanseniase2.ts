@@ -13,7 +13,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Testes de sensibilidade',
     e: 'Na unidade básica, para testar a sensibilidade térmica de uma mancha suspeita de hanseníase, o método recomendado é:',
-    o: ['Aplicar gelo diretamente sobre a lesão por um minuto', 'Tocar a pele alternadamente com dois tubos de ensaio, um com água quente e outro com água fria, comparando com pele normal e com o paciente de olhos fechados', 'Usar a chama de um isqueiro próxima à lesão', 'Perguntar ao paciente se sente frio ou calor na mancha no dia a dia'],
+    o: ['Aplicar gelo diretamente sobre a lesão por um minuto', 'Tubos de água quente e fria, comparando com pele normal', 'Usar a chama de um isqueiro próxima à lesão cutânea', 'Perguntar se sente frio ou calor na mancha no dia a dia'],
     g: 'B',
     c: 'O teste térmico é feito com dois tubos, um com água morna a quente e outro com água fria, encostados de forma aleatória na lesão e na pele sã, com o paciente de olhos fechados para evitar respostas induzidas. A incapacidade de distinguir quente de frio na área suspeita caracteriza alteração da sensibilidade térmica.',
     x: { A: 'O gelo prolongado causa dor e adormecimento, o que confunde a interpretação do teste.', C: 'A chama traz risco de queimadura em pele que pode estar anestésica.', D: 'O relato subjetivo não substitui o teste objetivo e comparativo.' },
@@ -21,7 +21,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Testes de sensibilidade',
     e: 'A sensibilidade tátil das mãos e dos pés, na avaliação neurológica simplificada, é pesquisada de forma padronizada com:',
-    o: ['Diapasão de 128 Hz', 'Monofilamentos de Semmes-Weinstein (estesiômetro)', 'Martelo de reflexos', 'Agulha hipodérmica aplicada com pressão crescente'],
+    o: ['Diapasão de 128 Hz, aplicado sobre a lesão', 'Monofilamentos de Semmes-Weinstein (estesiômetro)', 'Martelo de reflexos, aplicado sobre a lesão', 'Agulha hipodérmica aplicada com pressão crescente'],
     g: 'B',
     c: 'Os monofilamentos de Semmes-Weinstein são fios de náilon de diferentes calibres que aplicam forças conhecidas e permitem graduar e acompanhar a sensibilidade tátil e protetora em pontos padronizados das mãos e dos pés. A perda da sensibilidade protetora identifica risco de queimaduras e úlceras e entra na definição do grau de incapacidade.',
     x: { A: 'O diapasão avalia sensibilidade vibratória, alterada tardiamente na hanseníase.', C: 'O martelo testa reflexos tendíneos, em geral preservados na hanseníase.', D: 'A agulha pesquisa sensibilidade dolorosa, e não permite graduação padronizada do tato.' },
@@ -37,7 +37,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Nervos acometidos',
     e: 'O tronco nervoso mais frequentemente acometido na hanseníase e o local em que deve ser palpado são:',
-    o: ['Nervo mediano, na fossa cubital', 'Nervo ulnar, na goteira epitrocleana, atrás do epicôndilo medial do cotovelo', 'Nervo radial, no túnel do carpo', 'Nervo femoral, no trígono femoral'],
+    o: ['Nervo mediano, na fossa cubital do cotovelo', 'Nervo ulnar, na goteira epitrocleana do cotovelo', 'Nervo radial, no túnel do carpo do punho', 'Nervo femoral, no trígono femoral da coxa'],
     g: 'B',
     c: 'O nervo ulnar é o tronco mais acometido, palpado na goteira epitrocleana com o cotovelo fletido. O bacilo prefere segmentos de nervo superficiais, mais frios e próximos a túneis osteofibrosos, onde o edema inflamatório também causa compressão.',
     x: { A: 'O mediano é palpado no punho, entre os tendões flexores, e é menos acometido que o ulnar.', C: 'O radial é palpado no braço, no canal de torção do úmero; o túnel do carpo contém o mediano.', D: 'O nervo femoral é profundo e não é sede habitual da neuropatia hansênica.' },
@@ -93,7 +93,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Nervo auricular',
     e: 'Durante o exame de um contato de hanseníase, observa-se um cordão espessado e visível na lateral do pescoço, cruzando o músculo esternocleidomastoideo, que se evidencia ao rodar a cabeça para o lado oposto. Trata-se do nervo:',
-    o: ['Acessório', 'Auricular magno', 'Frênico', 'Vago'],
+    o: ['Nervo acessório, no pescoço, palpável', 'Nervo auricular magno, no pescoço, palpável', 'Nervo frênico, no pescoço, palpável', 'Nervo vago, no pescoço, palpável'],
     g: 'B',
     c: 'O nervo auricular magno é sensitivo, superficial e cruza obliquamente o esternocleidomastoideo em direção ao pavilhão auricular. Seu espessamento é visível e palpável com a rotação da cabeça e constitui achado sugestivo de hanseníase, devendo motivar exame dermatoneurológico completo.',
     x: { A: 'O nervo acessório é profundo e motor, não sendo visível à inspeção.', C: 'O frênico corre profundamente sobre o escaleno anterior e não é palpável.', D: 'O vago está dentro da bainha carotídea e não é acessível à palpação.' },
@@ -101,7 +101,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Nervo trigêmeo',
     e: 'Na avaliação ocular do paciente com hanseníase, pesquisa-se a sensibilidade da córnea tocando-a suavemente com fio dental sem sabor. A diminuição do reflexo de piscar nesse teste indica comprometimento do nervo:',
-    o: ['Facial', 'Trigêmeo, em seu ramo oftálmico', 'Óptico', 'Abducente'],
+    o: ['Nervo facial, em seu ramo temporal', 'Nervo trigêmeo, em seu ramo oftálmico', 'Nervo óptico, na órbita', 'Nervo abducente, na órbita'],
     g: 'B',
     c: 'A sensibilidade corneana depende do ramo oftálmico do trigêmeo. Sua lesão torna a córnea anestésica: o paciente não percebe corpos estranhos nem ressecamento, pisca menos e desenvolve ceratite e úlceras, risco que se multiplica quando há lagoftalmo associado.',
     x: { A: 'O facial é a via motora do piscar; a via sensitiva da córnea é o trigêmeo.', C: 'O nervo óptico conduz a visão e não a sensibilidade da córnea.', D: 'O abducente inerva o músculo reto lateral, sem função sensitiva.' },
@@ -109,7 +109,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Exame dermatoneurológico',
     e: 'Na palpação dos troncos nervosos periféricos de um paciente com suspeita de hanseníase, os achados que devem ser pesquisados são:',
-    o: ['Apenas a presença de dor, pois o calibre do nervo não tem valor', 'Espessamento, dor, consistência e choque à percussão, sempre comparando com o lado oposto', 'Pulsatilidade e frêmito ao longo do trajeto', 'Temperatura da pele sobre o nervo, medida com termômetro'],
+    o: ['Apenas dor, pois o calibre do nervo não tem valor', 'Espessamento, dor, consistência e choque, comparando o lado oposto', 'Pulsatilidade e frêmito ao longo do trajeto do nervo', 'Temperatura da pele sobre o nervo, com termômetro'],
     g: 'B',
     c: 'A palpação deve avaliar se o nervo está espessado, endurecido, doloroso ou com sensação de choque, sempre de forma bilateral e comparativa, pois o acometimento costuma ser assimétrico. O exame se completa com a avaliação da função sensitiva e motora no território de cada nervo.',
     x: { A: 'O espessamento neural é achado central e pode ocorrer sem dor.', C: 'Pulsatilidade e frêmito são achados vasculares, não neurais.', D: 'A temperatura sobre o trajeto não faz parte da avaliação dos nervos.' },
@@ -117,7 +117,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Avaliação neurológica',
     e: 'A avaliação neurológica simplificada, com palpação de nervos, teste de força muscular e de sensibilidade de olhos, mãos e pés, deve ser realizada em quais momentos do acompanhamento?',
-    o: ['Somente no momento do diagnóstico', 'No diagnóstico, periodicamente durante o tratamento, na alta e sempre que houver queixas ou episódios reacionais', 'Apenas quando o paciente relatar perda de força', 'Somente após o término da poliquimioterapia'],
+    o: ['Somente no momento do diagnóstico clínico', 'No diagnóstico, durante o tratamento, na alta e nas reações', 'Apenas quando o paciente relatar perda de força', 'Somente após o término da poliquimioterapia'],
     g: 'B',
     c: 'O dano neural pode instalar-se a qualquer momento, inclusive de forma silenciosa e durante reações, mesmo com o tratamento em curso. A avaliação seriada permite detectar precocemente a piora da função neural e iniciar corticoide a tempo de evitar incapacidade permanente.',
     x: { A: 'Uma única avaliação não detecta a piora neural que ocorre ao longo do tratamento.', C: 'Esperar a queixa de fraqueza deixa passar a neurite silenciosa.', D: 'Avaliar só no fim do tratamento perde a janela para prevenir incapacidades.' },
@@ -125,7 +125,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Baciloscopia',
     e: 'A baciloscopia para hanseníase é realizada em material obtido de:',
-    o: ['Escarro espontâneo colhido pela manhã', 'Raspado intradérmico de lóbulos auriculares, cotovelos e lesão cutânea', 'Sangue periférico em gota espessa', 'Swab da superfície da lesão, sem incisão'],
+    o: ['Escarro espontâneo colhido pela manhã, em jejum', 'Raspado intradérmico de lóbulos, cotovelos e lesão cutânea', 'Sangue periférico em gota espessa, corada', 'Swab da superfície da lesão, sem incisão'],
     g: 'B',
     c: 'O esfregaço intradérmico é colhido por pequena incisão na pele sob isquemia, com raspado da derme (linfa) em sítios padronizados: lóbulos das orelhas, cotovelos e lesão suspeita. O material é corado pelo método de Ziehl-Neelsen para pesquisa de bacilos álcool-ácido resistentes.',
     x: { A: 'O escarro é material para a baciloscopia da tuberculose pulmonar.', C: 'A gota espessa é método diagnóstico da malária.', D: 'Os bacilos estão na derme, e o swab superficial não os alcança.' },
@@ -133,7 +133,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Baciloscopia',
     e: 'Sobre a interpretação da baciloscopia na hanseníase, assinale a alternativa correta:',
-    o: ['Resultado negativo exclui o diagnóstico de hanseníase', 'Resultado positivo classifica o caso como multibacilar, enquanto o negativo não afasta a doença', 'É exame indispensável para iniciar o tratamento em qualquer caso', 'Deve negativar ao final do tratamento para que o paciente receba alta'],
+    o: ['Resultado negativo exclui o diagnóstico de hanseníase', 'Positivo classifica como multibacilar; negativo não afasta a doença', 'Exame indispensável para iniciar o tratamento', 'Deve negativar ao final do tratamento para dar alta'],
     g: 'B',
     c: 'A baciloscopia tem alta especificidade e baixa sensibilidade: é negativa nas formas indeterminada e tuberculoide e em parte das dimorfas. Um resultado positivo classifica o caso como multibacilar, mas o negativo não exclui a doença, cujo diagnóstico é clínico.',
     x: { A: 'As formas paucibacilares têm baciloscopia negativa por definição.', C: 'O tratamento pode e deve ser iniciado com base no diagnóstico clínico.', D: 'A alta depende do número de doses; bacilos mortos podem persistir por anos no esfregaço.' },
@@ -141,7 +141,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Baciloscopia',
     e: 'No laudo da baciloscopia, o índice baciloscópico e o índice morfológico informam, respectivamente:',
-    o: ['A espécie da micobactéria e sua sensibilidade aos fármacos', 'A quantidade de bacilos, em escala logarítmica, e a proporção de bacilos íntegros (viáveis)', 'O número de lesões e o número de nervos acometidos', 'O título de anticorpos e a resposta celular do paciente'],
+    o: ['A espécie da micobactéria e a sensibilidade aos fármacos', 'A quantidade de bacilos (escala logarítmica) e a proporção de íntegros', 'O número de lesões e o número de nervos acometidos', 'O título de anticorpos e a resposta celular do paciente'],
     g: 'B',
     c: 'O índice baciloscópico quantifica a carga bacilar por campo em escala logarítmica de 0 a 6+. O índice morfológico avalia o aspecto dos bacilos: os íntegros, corados de forma uniforme, são considerados viáveis, enquanto os fragmentados e granulosos são inviáveis, como se vê após o início do tratamento.',
     x: { A: 'A baciloscopia não identifica espécie nem testa sensibilidade a fármacos.', C: 'Lesões e nervos são dados do exame clínico, não do laudo baciloscópico.', D: 'Sorologia e imunidade celular não são avaliadas no esfregaço.' },
@@ -165,7 +165,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Prova da histamina',
     e: 'Em criança pequena com mancha hipocrômica, na qual o teste de sensibilidade é pouco confiável, realiza-se a prova da histamina. O resultado que sugere hanseníase é:',
-    o: ['Tríplice reação de Lewis completa na mancha', 'Resposta incompleta na mancha, com ausência do eritema reflexo secundário', 'Ausência de pápula tanto na mancha como na pele normal', 'Formação de bolha no local da aplicação'],
+    o: ['Tríplice reação de Lewis completa na mancha', 'Resposta incompleta na mancha, sem eritema reflexo', 'Ausência de pápula na mancha e na pele normal', 'Formação de bolha no local da aplicação'],
     g: 'B',
     c: 'A histamina provoca na pele normal a tríplice reação de Lewis: eritema primário puntiforme, eritema reflexo secundário e pápula. O eritema secundário depende de um reflexo axonal por fibras nervosas íntegras; na lesão hansênica, com filetes lesados, ele não aparece e a prova é dita incompleta.',
     x: { A: 'A reação completa indica integridade dos filetes nervosos e fala contra hanseníase.', C: 'A pápula depende de ação vascular direta da histamina e forma-se mesmo sem inervação.', D: 'A formação de bolha não faz parte da resposta esperada à histamina.' },
@@ -173,7 +173,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Sorologia e teste rápido',
     e: 'Filha de 19 anos de um paciente com hanseníase multibacilar realiza o teste rápido imunocromatográfico (anticorpos IgM anti-PGL-1), que resulta reagente. O exame dermatoneurológico é normal. A interpretação correta é:',
-    o: ['Diagnóstico de hanseníase confirmado; iniciar esquema multibacilar', 'Indica exposição ao bacilo e maior risco de adoecer; não confirma a doença e exige acompanhamento clínico mais cuidadoso', 'Resultado falso-positivo, sem qualquer significado clínico', 'Indica imunidade protetora, dispensando seguimento'],
+    o: ['Hanseníase confirmada; iniciar esquema multibacilar', 'Exposição ao bacilo e maior risco; não confirma a doença', 'Falso-positivo, sem qualquer significado clínico', 'Imunidade protetora, dispensando seguimento'],
     g: 'B',
     c: 'O teste rápido detecta anticorpos contra o glicolipídeo fenólico 1 do bacilo e foi incorporado no SUS como ferramenta auxiliar na avaliação de contatos. O resultado reagente sem sinais clínicos não é critério de caso nem indica tratamento, mas aponta maior risco de adoecimento, justificando seguimento mais atento.',
     x: { A: 'Sem sinal cardinal não há caso de hanseníase nem indicação de tratamento.', C: 'O resultado reagente tem significado: reflete exposição e maior risco de adoecer.', D: 'Anticorpos anti-PGL-1 não são protetores contra um patógeno intracelular.' },
@@ -189,7 +189,7 @@ export const HANSENIASE_2: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico diferencial',
     e: 'Na diferenciação entre vitiligo e hanseníase diante de manchas claras, o dado que mais favorece vitiligo é:',
-    o: ['Mancha hipocrômica com hipoestesia térmica', 'Mancha acrômica, de limites nítidos, com sensibilidade e sudorese preservadas', 'Espessamento do nervo ulnar no lado da lesão', 'Rarefação de pelos e pele seca na mancha'],
+    o: ['Mancha hipocrômica com hipoestesia térmica local', 'Mancha acrômica, limites nítidos, sensibilidade preservada', 'Espessamento do nervo ulnar do lado da lesão', 'Rarefação de pelos e pele seca na área da mancha'],
     g: 'B',
     c: 'No vitiligo há perda completa de melanócitos, resultando em manchas acrômicas, branco-leitosas e bem delimitadas, sem qualquer dano aos nervos ou às glândulas. Na hanseníase a mancha é hipocrômica, nunca totalmente acrômica, e acompanha-se de alteração de sensibilidade e de sudorese.',
     x: { A: 'Hipocromia com hipoestesia térmica é sinal cardinal de hanseníase.', C: 'Espessamento neural não ocorre no vitiligo e aponta para hanseníase.', D: 'Alopecia e xerose localizadas sugerem dano autonômico e de anexos da hanseníase.' },

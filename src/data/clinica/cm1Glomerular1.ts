@@ -5,7 +5,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome nefrítica – definição',
     e: 'A síndrome nefrítica clássica é caracterizada pelo conjunto de:',
-    o: ['Proteinúria maior que 3,5 g/dia, hipoalbuminemia, edema e hiperlipidemia', 'Hematúria glomerular, hipertensão arterial, edema e oligúria, com proteinúria subnefrótica', 'Piúria estéril, febre, eosinofilia e exantema', 'Poliúria, hipocalemia, acidose metabólica e glicosúria'],
+    o: ['Proteinúria > 3,5 g/dia, hipoalbuminemia, edema e dislipidemia', 'Hematúria glomerular, hipertensão, edema e oligúria', 'Piúria estéril, febre, eosinofilia e exantema cutâneo', 'Poliúria, hipocalemia, acidose metabólica e glicosúria'],
     g: 'B',
     c: 'A síndrome nefrítica resulta de inflamação aguda dos glomérulos, que reduz a superfície de filtração e permite a passagem de hemácias. O quadro típico reúne hematúria dismórfica, hipertensão, edema e oligúria, com proteinúria geralmente abaixo de 3,5 g/dia e, por vezes, azotemia.',
     x: { A: 'Esse conjunto define a síndrome nefrótica, e não a síndrome nefrítica.', C: 'Piúria, febre, eosinofilia e exantema sugerem nefrite intersticial aguda.', D: 'Poliúria com glicosúria e acidose indica disfunção tubular proximal, não glomerular.' },
@@ -45,7 +45,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – complemento',
     e: 'O padrão de complemento sérico esperado na fase aguda da glomerulonefrite pós-estreptocócica é:',
-    o: ['C3 normal e C4 muito reduzido', 'C3 e CH50 reduzidos, com C4 normal ou pouco alterado', 'C3 e C4 normais', 'C3 elevado e C4 reduzido'],
+    o: ['C3 normal e C4 muito reduzido, no soro', 'C3 e CH50 reduzidos, com C4 normal ou pouco alterado', 'C3 e C4 ambos normais, durante a fase aguda', 'C3 elevado e C4 reduzido, durante a fase aguda'],
     g: 'B',
     c: 'Na glomerulonefrite pós-estreptocócica predomina a ativação da via alternativa do complemento, que consome C3 e reduz o CH50, poupando os componentes iniciais da via clássica, como o C4. Essa hipocomplementemia é transitória.',
     x: { A: 'C4 muito reduzido com C3 normal sugere crioglobulinemia ou angioedema hereditário.', C: 'Complemento normal em síndrome nefrítica aponta para nefropatia por IgA ou vasculites.', D: 'Não há elevação de C3 na fase aguda da doença; ele é consumido.' },
@@ -61,7 +61,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – evolução temporal',
     e: 'Sobre a evolução natural das manifestações da glomerulonefrite pós-estreptocócica na criança, assinale a alternativa correta:',
-    o: ['A hematúria microscópica desaparece em 1 semana e sua persistência indica biópsia', 'A oligúria e a hipertensão melhoram em 1 a 2 semanas, enquanto a hematúria microscópica pode persistir por até 1 a 2 anos', 'A proteinúria nefrótica persistente por 6 meses é esperada na maioria dos casos', 'O complemento permanece baixo por 6 meses na evolução habitual'],
+    o: ['A hematúria some em 1 semana; persistir indica biópsia', 'Oligúria e hipertensão melhoram em 1-2 semanas; hematúria pode durar anos', 'A proteinúria nefrótica por 6 meses é esperada na maioria', 'O complemento fica baixo por 6 meses na evolução habitual'],
     g: 'B',
     c: 'A doença é autolimitada: diurese e pressão arterial melhoram em dias a poucas semanas, a hematúria macroscópica cede em poucas semanas e o C3 normaliza em até 8 semanas. A hematúria microscópica pode durar 1 a 2 anos e a proteinúria leve, vários meses, sem significar mau prognóstico.',
     x: { A: 'A hematúria microscópica isolada pode durar até 1 a 2 anos sem indicar biópsia.', C: 'Proteinúria nefrótica por mais de 4 semanas é atípica e indica investigação.', D: 'A hipocomplementemia habitual dura no máximo cerca de 8 semanas.' },
@@ -69,7 +69,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – indicações de biópsia',
     e: 'Todas as situações abaixo são indicações de biópsia renal em criança com suspeita de glomerulonefrite pós-estreptocócica, EXCETO:',
-    o: ['Oligúria ou anúria por mais de 72 horas', 'Hipocomplementemia por mais de 8 semanas', 'Proteinúria em faixa nefrótica por mais de 4 semanas', 'Hematúria microscópica persistente após 3 meses, com função renal e complemento normais'],
+    o: ['Oligúria ou anúria por mais de 72 horas, sem melhora', 'Hipocomplementemia por mais de 8 semanas, sem melhora', 'Proteinúria nefrótica por mais de 4 semanas, sem melhora', 'Hematúria microscópica persistente após 3 meses, com função normal'],
     g: 'D',
     c: 'A hematúria microscópica pode persistir por até 1 a 2 anos na evolução habitual, não exigindo biópsia. A biópsia é reservada para apresentações atípicas: oligúria ou azotemia prolongadas, hipertensão ou hematúria macroscópica por mais de 4 a 6 semanas, proteinúria nefrótica persistente, C3 baixo além de 8 semanas ou sinais de doença sistêmica.',
     x: { A: 'Oligúria prolongada sugere glomerulonefrite rapidamente progressiva e indica biópsia.', B: 'C3 baixo além de 8 semanas sugere membranoproliferativa ou lúpus e indica biópsia.', C: 'Proteinúria nefrótica persistente é atípica e constitui indicação de biópsia.' },
@@ -85,7 +85,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – tratamento',
     e: 'Menino de 8 anos, com faringite há 2 semanas, apresenta edema, hematúria macroscópica, PA 140 x 95 mmHg e creatinina 0,9 mg/dL. Exame de urina com cilindros hemáticos e C3 reduzido. A base do tratamento é:',
-    o: ['Prednisona 2 mg/kg/dia por 4 semanas', 'Restrição de sódio e água, com diurético de alça e anti-hipertensivo se necessário', 'Pulsoterapia com metilprednisolona e ciclofosfamida', 'Hidratação venosa vigorosa com solução salina'],
+    o: ['Prednisona 2 mg/kg/dia por 4 semanas, por via oral', 'Restrição de sódio e água, diurético de alça e anti-hipertensivo', 'Pulsoterapia com metilprednisolona e ciclofosfamida', 'Hidratação venosa vigorosa com solução salina isotônica'],
     g: 'B',
     c: 'A glomerulonefrite pós-estreptocócica é autolimitada e o tratamento é de suporte, voltado à hipervolemia: restrição hidrossalina e furosemida, acrescentando vasodilatadores quando a hipertensão persiste. Imunossupressão não modifica a evolução da forma típica.',
     x: { A: 'O corticoide não tem benefício na glomerulonefrite pós-estreptocócica típica.', C: 'A imunossupressão intensa é reservada às formas crescênticas rapidamente progressivas.', D: 'O paciente está hipervolêmico, e a expansão volêmica agravaria edema e hipertensão.' },
@@ -93,7 +93,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – antibioticoterapia',
     e: 'Em relação ao uso de antibiótico (penicilina) no paciente com glomerulonefrite pós-estreptocócica, é correto afirmar que:',
-    o: ['Reduz a duração e a gravidade da nefrite já instalada', 'Não altera o curso da nefrite, mas erradica cepas nefritogênicas e reduz a transmissão', 'Deve ser mantido mensalmente por 5 anos como profilaxia secundária', 'É contraindicado pelo risco de nefrite intersticial'],
+    o: ['Reduz a duração e a gravidade da nefrite já instalada', 'Não altera a nefrite, mas erradica cepas e reduz a transmissão', 'Mantido mensalmente por 5 anos, como profilaxia secundária', 'Contraindicado, pelo risco de nefrite intersticial alérgica'],
     g: 'B',
     c: 'A antibioticoterapia não previne nem modifica a glomerulonefrite, pois a lesão é imunomediada e já está estabelecida. Ela é indicada para erradicar o estreptococo do paciente, diminuindo a disseminação da cepa nefritogênica entre os contatos.',
     x: { A: 'A lesão é imunológica e não regride com a eliminação tardia da bactéria.', C: 'Profilaxia secundária é indicada na febre reumática, não na glomerulonefrite.', D: 'Não há contraindicação à penicilina; ela é recomendada para erradicação.' },
@@ -101,7 +101,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – prevenção',
     e: 'O tratamento antibiótico precoce e adequado da faringoamigdalite estreptocócica tem como efeito:',
-    o: ['Prevenir tanto a febre reumática quanto a glomerulonefrite pós-estreptocócica', 'Prevenir a febre reumática, sem prevenir de forma confiável a glomerulonefrite pós-estreptocócica', 'Prevenir apenas a glomerulonefrite pós-estreptocócica', 'Não prevenir nenhuma das complicações não supurativas'],
+    o: ['Prevenir tanto febre reumática quanto glomerulonefrite', 'Prevenir a febre reumática, mas não a GNPE de forma confiável', 'Prevenir apenas a glomerulonefrite pós-estreptocócica', 'Não prevenir nenhuma complicação não supurativa'],
     g: 'B',
     c: 'O tratamento da faringite estreptocócica em até cerca de 9 dias do início previne a febre reumática. Em contrapartida, não há evidência consistente de que o antibiótico evite a glomerulonefrite, que depende da nefritogenicidade da cepa.',
     x: { A: 'A prevenção da glomerulonefrite pelo antibiótico não está demonstrada.', C: 'É a febre reumática, e não a glomerulonefrite, que é prevenida pelo antibiótico.', D: 'A febre reumática é efetivamente prevenida pelo tratamento adequado da faringite.' },
@@ -109,7 +109,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – encefalopatia hipertensiva',
     e: 'Menina de 9 anos, internada por glomerulonefrite pós-estreptocócica, evolui com cefaleia intensa, vômitos, borramento visual e crise convulsiva. PA 180 x 120 mmHg. A complicação e a conduta mais adequadas são:',
-    o: ['Meningite bacteriana; punção lombar e ceftriaxona', 'Encefalopatia hipertensiva; anti-hipertensivo parenteral com redução gradual da pressão e diurético de alça', 'Uremia; hemodiálise de urgência', 'Trombose de seio venoso; anticoagulação plena'],
+    o: ['Meningite bacteriana; punção lombar e ceftriaxona venosa', 'Encefalopatia hipertensiva; anti-hipertensivo IV e diurético de alça', 'Uremia; hemodiálise de urgência, por cateter central', 'Trombose de seio venoso; anticoagulação plena imediata'],
     g: 'B',
     c: 'A encefalopatia hipertensiva é uma das complicações agudas mais graves da síndrome nefrítica, ao lado da congestão circulatória e da hipercalemia. Trata-se de emergência hipertensiva, que exige fármaco parenteral titulável, com redução controlada da pressão, associado a furosemida para tratar a hipervolemia.',
     x: { A: 'Não há febre nem sinais meníngeos, e a hipertensão grave explica o quadro.', C: 'A convulsão se relaciona à pressão arterial, não a níveis elevados de ureia.', D: 'Trombose venosa é complicação da síndrome nefrótica, não da nefrítica.' },
@@ -117,7 +117,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – prognóstico',
     e: 'Quanto ao prognóstico da glomerulonefrite pós-estreptocócica, assinale a correta:',
-    o: ['A maioria das crianças evolui para doença renal crônica em 5 anos', 'É excelente em crianças, com recuperação completa na grande maioria; adultos têm maior risco de sequelas', 'A recorrência após novo episódio de faringite é a regra', 'O prognóstico independe da idade e da presença de crescentes'],
+    o: ['A maioria das crianças evolui para DRC em 5 anos', 'Excelente em crianças, com recuperação quase sempre completa', 'A recorrência após nova faringite é a regra', 'O prognóstico independe da idade e dos crescentes'],
     g: 'B',
     c: 'Em crianças, a recuperação da função renal é a regra, e menos de 1% a 5% evoluem de forma desfavorável. Adultos, sobretudo idosos e portadores de comorbidades, têm maior chance de persistência de proteinúria, hipertensão e perda de função renal.',
     x: { A: 'A evolução para doença renal crônica em crianças é exceção, não a regra.', C: 'A recorrência é rara porque há imunidade duradoura contra a cepa nefritogênica.', D: 'Idade avançada e crescentes na biópsia pioram claramente o prognóstico.' },
@@ -141,7 +141,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'Complemento – síndrome nefrítica com complemento normal',
     e: 'Homem de 58 anos apresenta síndrome nefrítica com perda rápida de função renal, sinusite crônica, nódulos pulmonares e C3 e C4 normais. A principal hipótese é:',
-    o: ['Glomerulonefrite membranoproliferativa por hepatite C', 'Vasculite associada ao ANCA (granulomatose com poliangiite)', 'Nefrite lúpica classe IV', 'Glomerulonefrite associada à endocardite'],
+    o: ['GN membranoproliferativa por hepatite C crônica', 'Vasculite associada ao ANCA (granulomatose com poliangiite)', 'Nefrite lúpica classe IV, com full house', 'GN associada à endocardite bacteriana, por imunocomplexos'],
     g: 'B',
     c: 'As vasculites associadas ao ANCA causam glomerulonefrite pauci-imune, com poucos ou nenhum depósito de imunoglobulinas e complemento, e por isso o complemento sérico é normal. O acometimento de via aérea superior, pulmão e rim é a tríade da granulomatose com poliangiite.',
     x: { A: 'A membranoproliferativa por hepatite C cursa com complemento baixo, sobretudo C4.', C: 'A nefrite lúpica proliferativa cursa com queda de C3 e C4.', D: 'A glomerulonefrite da endocardite cursa com hipocomplementemia.' },
@@ -149,7 +149,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GN associada à endocardite',
     e: 'Usuário de drogas injetáveis, 34 anos, com febre há 3 semanas, sopro tricúspide e hemoculturas positivas para Staphylococcus aureus, desenvolve hematúria, proteinúria de 1,5 g/dia, elevação da creatinina e C3 baixo. A conduta fundamental para o controle da lesão renal é:',
-    o: ['Pulsoterapia com metilprednisolona', 'Antibioticoterapia adequada para erradicar a infecção', 'Plasmaférese diária', 'Ciclofosfamida endovenosa mensal'],
+    o: ['Pulsoterapia com metilprednisolona, por 3 dias', 'Antibioticoterapia adequada, para erradicar a infecção', 'Plasmaférese diária, por 5 sessões', 'Ciclofosfamida endovenosa mensal, por 6 meses'],
     g: 'B',
     c: 'A glomerulonefrite associada à endocardite é mediada por imunocomplexos formados enquanto a infecção está ativa, com consumo de complemento. O tratamento é a erradicação da bactéria com antibiótico (e cirurgia valvar quando indicada), o que leva à resolução da nefrite e à normalização do complemento.',
     x: { A: 'Imunossuprimir um paciente com infecção ativa não controlada é arriscado.', C: 'A plasmaférese não tem papel na glomerulonefrite relacionada à infecção.', D: 'A ciclofosfamida pioraria o controle da endocardite e não trata a causa.' },
@@ -157,7 +157,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GN relacionada a estafilococo',
     e: 'Homem de 68 anos, diabético, com infecção de pé por Staphylococcus aureus em atividade, apresenta hematúria, proteinúria de 4 g/dia e piora da função renal. A biópsia mostra glomerulonefrite proliferativa com depósitos dominantes de IgA e C3. Sobre essa entidade, é correto afirmar:',
-    o: ['Ocorre semanas após a cura da infecção, como a forma pós-estreptocócica', 'Ocorre com a infecção ainda ativa, predomina em idosos com comorbidades e tem prognóstico renal pior', 'É idêntica à nefropatia por IgA primária e deve ser tratada com corticoide', 'Cursa obrigatoriamente com complemento normal e remissão espontânea'],
+    o: ['Semanas após a cura da infecção, como a pós-estreptocócica', 'Com infecção ativa; idosos com comorbidades; pior prognóstico renal', 'Idêntica à nefropatia por IgA primária; tratar com corticoide', 'Cursa sempre com complemento normal e remissão espontânea'],
     g: 'B',
     c: 'A glomerulonefrite associada a infecção estafilocócica, com depósitos dominantes de IgA, ocorre durante a infecção em atividade, sobretudo em idosos, diabéticos e etilistas. O tratamento é o controle da infecção, e a recuperação renal é menos frequente do que na forma pós-estreptocócica da criança.',
     x: { A: 'Não há latência; a nefrite é concomitante à infecção, sendo chamada relacionada à infecção.', C: 'O corticoide pode agravar a infecção ativa e não é o tratamento indicado.', D: 'O complemento pode estar reduzido e a remissão espontânea não é a regra.' },
@@ -165,7 +165,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'Nefrite do shunt',
     e: 'Criança portadora de derivação ventriculoatrial por hidrocefalia apresenta febre baixa intermitente, anemia, hematúria, proteinúria e C3 e C4 reduzidos. O agente mais associado a essa glomerulonefrite e o tratamento indicado são:',
-    o: ['Streptococcus pyogenes; penicilina benzatina', 'Staphylococcus epidermidis; antibiótico e retirada do cateter infectado', 'Escherichia coli; ciprofloxacino oral', 'Candida albicans; fluconazol'],
+    o: ['Streptococcus pyogenes; penicilina benzatina', 'S. epidermidis; antibiótico e retirada do cateter infectado', 'Escherichia coli; ciprofloxacino por via oral', 'Candida albicans; fluconazol por via oral'],
     g: 'B',
     c: 'A nefrite do shunt decorre de infecção crônica de derivações ventriculoatriais, classicamente por estafilococos coagulase-negativos, com formação contínua de imunocomplexos e hipocomplementemia. A resolução exige antibiótico e a remoção do dispositivo colonizado.',
     x: { A: 'O Streptococcus pyogenes não é o agente da infecção crônica de derivações.', C: 'Enterobactérias não são os agentes típicos da nefrite do shunt.', D: 'Fungos não são a causa clássica dessa glomerulonefrite por imunocomplexos.' },
@@ -181,7 +181,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – apresentação clínica',
     e: 'Menino de 6 anos é levado ao pronto-socorro com dispneia, ortopneia, estertores crepitantes bibasais, edema palpebral e PA 150 x 100 mmHg. Teve amigdalite há 15 dias. Urina com hematúria e cilindros hemáticos. O mecanismo da dispneia é:',
-    o: ['Miocardite estreptocócica com disfunção sistólica grave', 'Congestão circulatória por hipervolemia secundária à retenção de sódio e água', 'Pneumonia bacteriana associada', 'Hemorragia alveolar por anticorpo antimembrana basal'],
+    o: ['Miocardite estreptocócica com disfunção sistólica grave', 'Congestão por hipervolemia (retenção de sódio e água)', 'Pneumonia bacteriana associada, com derrame', 'Hemorragia alveolar por anticorpo antimembrana basal'],
     g: 'B',
     c: 'A congestão circulatória da glomerulonefrite pós-estreptocócica resulta da retenção renal de sódio e água, e não de falência miocárdica primária. O tratamento é restrição hidrossalina e diurético de alça, com diálise nos casos refratários.',
     x: { A: 'A função miocárdica é habitualmente preservada; o problema é a sobrecarga de volume.', C: 'Não há febre nem foco consolidativo, e o contexto aponta para hipervolemia.', D: 'A doença antimembrana basal é rara em crianças e não segue amigdalite.' },
@@ -189,7 +189,7 @@ export const GLOMERULAR_1: QuestaoCompacta[] = [
   {
     s: 'GNPE – proteinúria',
     e: 'Em relação à proteinúria na glomerulonefrite pós-estreptocócica, é correto afirmar que:',
-    o: ['Está sempre ausente, pois a lesão é exclusivamente mesangial', 'Costuma ser subnefrótica, e proteinúria nefrótica ocorre em uma minoria dos casos', 'É nefrótica em mais de 90% dos casos', 'Sua presença afasta o diagnóstico'],
+    o: ['Sempre ausente: a lesão é exclusivamente mesangial', 'Em geral subnefrótica; nefrótica só em minoria', 'Nefrótica em mais de 90% dos casos de IgA', 'Sua presença afasta o diagnóstico de nefropatia por IgA'],
     g: 'B',
     c: 'A proteinúria é frequente, porém habitualmente discreta a moderada. Apenas uma pequena parcela dos pacientes, mais comumente adultos, apresenta proteinúria em faixa nefrótica, e sua persistência por mais de 4 semanas é considerada atípica.',
     x: { A: 'A proteinúria leve é achado comum, e a lesão é proliferativa difusa endocapilar.', C: 'A proteinúria nefrótica é exceção, não a regra, nessa doença.', D: 'A proteinúria subnefrótica é compatível e esperada no quadro.' },

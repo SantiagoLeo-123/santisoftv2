@@ -13,7 +13,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Critérios de Light',
     e: 'Segundo os critérios de Light, o líquido pleural é classificado como exsudato quando apresenta pelo menos um dos seguintes achados:',
-    o: ['Proteína pleural/sérica menor que 0,5; LDH pleural/sérica menor que 0,6; glicose pleural menor que 60 mg/dL', 'Proteína pleural/sérica maior que 0,5; LDH pleural/sérica maior que 0,6; LDH pleural maior que dois terços do limite superior do valor sérico normal', 'pH menor que 7,2; glicose menor que 40 mg/dL; presença de bactérias ao Gram', 'Albumina sérica menos albumina pleural maior que 1,2 g/dL; ADA maior que 40 U/L'],
+    o: ['Prot pleura/soro < 0,5; LDH < 0,6; glicose pleural < 60 mg/dL', 'Prot pleura/soro > 0,5; LDH > 0,6; LDH pleural > 2/3 do limite sérico', 'pH < 7,2; glicose < 40 mg/dL; bactérias ao Gram', 'Gradiente de albumina > 1,2 g/dL; ADA > 40 U/L'],
     g: 'B',
     c: 'Os critérios de Light comparam proteína e LDH do líquido pleural e do soro; basta um critério positivo para definir exsudato. O exsudato reflete aumento da permeabilidade capilar por inflamação pleural, como ocorre no derrame parapneumônico, na tuberculose e nas neoplasias.',
     x: { A: 'Relações abaixo dos pontos de corte caracterizam transudato, e a glicose não integra os critérios.', C: 'Esses parâmetros definem derrame parapneumônico complicado, e não a distinção exsudato-transudato.', D: 'O gradiente de albumina é critério auxiliar, e a ADA é marcador de tuberculose pleural.' },
@@ -21,7 +21,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Derrame complicado',
     e: 'Mulher de 46 anos com pneumonia e derrame pleural é submetida a toracocentese, que revela líquido amarelo-turvo, com pH de 7,05, glicose de 28 mg/dL e LDH de 1.850 U/L. O Gram não mostra bactérias. O diagnóstico e a conduta são:',
-    o: ['Derrame parapneumônico simples; manter apenas o antibiótico', 'Derrame parapneumônico complicado; drenagem torácica em selo de água associada ao antibiótico', 'Transudato por hipoalbuminemia; reposição de albumina', 'Empiema crônico; toracostomia aberta como primeira medida'],
+    o: ['Derrame parapneumônico simples; manter apenas o antibiótico', 'Derrame complicado; drenagem torácica em selo d\'água e antibiótico', 'Transudato por hipoalbuminemia; reposição de albumina', 'Empiema crônico; toracostomia aberta como primeira medida'],
     g: 'B',
     c: 'O derrame complicado resulta da invasão bacteriana do espaço pleural: o metabolismo de bactérias e neutrófilos consome glicose e produz ácido, reduzindo o pH para menos de 7,2 e a glicose para menos de 40 a 60 mg/dL, enquanto a lise celular eleva a LDH acima de 1.000 U/L. Sem drenagem, evolui com loculações e empiema.',
     x: { A: 'O derrame simples tem pH acima de 7,2, glicose normal e LDH menos elevada.', C: 'O líquido descrito é um exsudato francamente inflamatório.', D: 'Não há pus franco, e a toracostomia aberta é medida de exceção em empiema crônico.' },
@@ -37,7 +37,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Indicações de drenagem',
     e: 'São indicações de drenagem torácica no derrame parapneumônico, EXCETO:',
-    o: ['Líquido pleural purulento', 'Bacterioscopia pelo Gram ou cultura do líquido positivas', 'pH do líquido pleural menor que 7,2', 'Líquido pleural com proteína total de 3,5 g/dL e pH de 7,45'],
+    o: ['Líquido pleural purulento, indicando drenagem', 'Gram ou cultura do líquido positivos, indicando drenagem', 'pH do líquido pleural menor que 7,2, indicando drenagem', 'Proteína de 3,5 g/dL e pH de 7,45 no líquido pleural'],
     g: 'D',
     c: 'Proteína elevada com pH normal caracteriza apenas um exsudato não complicado, que resolve com o antibiótico. A drenagem é indicada diante de pus, Gram ou cultura positivos, pH menor que 7,2, glicose baixa, LDH muito elevada ou derrame loculado ou volumoso.',
     x: { A: 'Pus franco define empiema e sempre indica drenagem.', B: 'A presença de bactérias no líquido indica infecção pleural e exige drenagem.', C: 'O pH abaixo de 7,2 é o marcador bioquímico mais útil de derrame complicado.' },
@@ -45,7 +45,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Fases do derrame',
     e: 'O derrame parapneumônico evolui em três fases sequenciais. A ordem correta e a característica da fase intermediária são:',
-    o: ['Organização, exsudativa e fibrinopurulenta; a fase intermediária é estéril', 'Exsudativa, fibrinopurulenta e de organização; na fase intermediária há invasão bacteriana, depósito de fibrina e formação de loculações', 'Fibrinopurulenta, organização e exsudativa; na fase intermediária o pulmão fica encarcerado', 'Exsudativa, organização e fibrinopurulenta; a fase intermediária dispensa drenagem'],
+    o: ['Organização, exsudativa e fibrinopurulenta; a intermediária é estéril', 'Exsudativa, fibrinopurulenta e de organização; invasão e loculações no meio', 'Fibrinopurulenta, organização e exsudativa; pulmão encarcerado no meio', 'Exsudativa, organização e fibrinopurulenta; o meio dispensa drenagem'],
     g: 'B',
     c: 'Na fase exsudativa o líquido é estéril e livre. Na fibrinopurulenta, as bactérias invadem a pleura, o pH e a glicose caem e a fibrina forma septos e lojas. Na fase de organização, os fibroblastos produzem uma carapaça espessa que encarcera o pulmão. O tratamento se torna mais invasivo a cada fase.',
     x: { A: 'A sequência está invertida, e a fase fibrinopurulenta é a de invasão bacteriana.', C: 'O encarceramento pulmonar ocorre na fase final, de organização.', D: 'A organização é a última fase, e a fibrinopurulenta exige drenagem.' },
@@ -53,7 +53,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Derrame loculado',
     e: 'Homem de 57 anos com empiema pleural foi submetido a drenagem torácica há 3 dias, mas mantém febre e débito mínimo pelo dreno. A tomografia mostra dreno bem posicionado e derrame multiloculado com septações espessas. A conduta mais adequada é:',
-    o: ['Retirar o dreno e manter apenas o antibiótico', 'Instilar fibrinolítico intrapleural associado a DNase ou indicar videotoracoscopia para desbridamento', 'Trocar o antibiótico e aguardar mais 10 dias', 'Realizar toracocenteses de alívio diárias'],
+    o: ['Retirar o dreno e manter apenas o antibiótico oral', 'Fibrinolítico com DNase intrapleural, ou VATS e desbridamento', 'Trocar o antibiótico e aguardar mais 10 dias de evolução', 'Toracocenteses de alívio diárias, sem manter o dreno'],
     g: 'B',
     c: 'As septações de fibrina compartimentalizam o líquido e impedem a drenagem por um único dreno. A combinação de ativador do plasminogênio tecidual com DNase rompe os septos e reduz a viscosidade do pus, e a videotoracoscopia permite o desbridamento das lojas. A escolha depende da disponibilidade e do risco cirúrgico.',
     x: { A: 'Retirar o dreno com infecção pleural não controlada perpetua a sepse.', C: 'O problema é mecânico, de drenagem inadequada, e não de espectro antimicrobiano.', D: 'Punções repetidas não esvaziam um derrame multiloculado.' },
@@ -69,7 +69,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Abscesso: fatores de risco',
     e: 'O abscesso pulmonar primário decorre, na maioria dos casos, de:',
-    o: ['Disseminação hematogênica de endocardite de valva mitral', 'Aspiração de conteúdo da orofaringe em pessoa com rebaixamento de consciência e doença periodontal', 'Reativação de tuberculose latente em paciente imunocompetente', 'Embolia pulmonar com infarto estéril'],
+    o: ['Disseminação hematogênica de endocardite de valva mitral', 'Aspiração da orofaringe em rebaixado, com doença periodontal', 'Reativação de tuberculose latente em imunocompetente', 'Embolia pulmonar com infarto estéril'],
     g: 'B',
     c: 'A aspiração de secreções ricas em anaeróbios, facilitada por etilismo, crises convulsivas, sedação, AVC ou disfagia, e a má higiene oral são os fatores clássicos. Os anaeróbios causam necrose do parênquima e, após 1 a 2 semanas, formam cavidade que drena para o brônquio.',
     x: { A: 'A endocardite que causa abscessos pulmonares é a de câmaras direitas, com lesões múltiplas.', C: 'A tuberculose causa cavitação, mas é diagnóstico diferencial, e não abscesso piogênico.', D: 'O infarto pulmonar pode cavitar, mas é causa rara.' },
@@ -85,7 +85,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Segmentos dependentes',
     e: 'Em paciente que aspira conteúdo da orofaringe enquanto está deitado em decúbito dorsal, os segmentos pulmonares mais acometidos são:',
-    o: ['Língula e lobo médio', 'Segmento posterior do lobo superior direito e segmento superior do lobo inferior direito', 'Segmentos basais anteriores bilateralmente', 'Segmentos apicais de ambos os lobos superiores'],
+    o: ['Língula e lobo médio, nos segmentos anteriores', 'Segmento posterior do LSD e superior do LID', 'Segmentos basais anteriores, bilateralmente', 'Segmentos apicais de ambos os lobos superiores'],
     g: 'B',
     c: 'O material aspirado segue a gravidade e a anatomia brônquica. O brônquio principal direito é mais calibroso e mais verticalizado, e, no decúbito dorsal, os segmentos mais dependentes são o posterior do lobo superior e o superior do lobo inferior. Em posição ortostática ou sentada, predominam os segmentos basais dos lobos inferiores.',
     x: { A: 'Língula e lobo médio são anteriores e não são dependentes no decúbito dorsal.', C: 'Os segmentos anteriores são os menos dependentes com o paciente deitado.', D: 'Os segmentos apicais são sede típica de tuberculose, e não de aspiração.' },
@@ -93,7 +93,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Abscesso: tratamento',
     e: 'Homem de 48 anos com abscesso pulmonar de 4 cm, clinicamente estável, sem empiema associado. O tratamento inicial de escolha é:',
-    o: ['Lobectomia de urgência', 'Antibioticoterapia com cobertura para anaeróbios, como clindamicina ou amoxicilina-clavulanato, por várias semanas', 'Metronidazol em monoterapia por 7 dias', 'Drenagem percutânea imediata, sem antibiótico'],
+    o: ['Lobectomia de urgência, por via aberta, como primeira medida', 'Antibiótico com anaeróbios (clindamicina, amoxicilina-clavulanato) por semanas', 'Metronidazol em monoterapia por 7 dias, por via oral', 'Drenagem percutânea imediata, sem uso de antibiótico algum'],
     g: 'B',
     c: 'A maioria dos abscessos drena espontaneamente pelo brônquio e cura com antibiótico prolongado. Usa-se clindamicina ou betalactâmico com inibidor de betalactamase, pois muitos anaeróbios orais produzem betalactamase e a flora é mista. O tratamento dura semanas, até a resolução ou estabilização radiológica.',
     x: { A: 'A cirurgia é reservada à falha clínica, a hemoptise grave ou à suspeita de neoplasia.', C: 'O metronidazol isolado falha por não cobrir estreptococos microaerófilos e aeróbios da flora oral.', D: 'A drenagem percutânea é exceção, e nunca dispensa o antibiótico.' },
@@ -101,7 +101,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Abscesso: duração',
     e: 'Em relação ao tempo de tratamento do abscesso pulmonar por anaeróbios, a orientação mais adequada é:',
-    o: ['Suspender o antibiótico 48 horas após o desaparecimento da febre', 'Manter o tratamento por tempo prolongado, em geral várias semanas, até a resolução ou estabilização da imagem', 'Limitar o tratamento a 5 dias, como na pneumonia não complicada', 'Manter antibiótico intravenoso por 6 meses, como na tuberculose'],
+    o: ['Suspender o antibiótico 48 h após a febre cessar', 'Tratar por várias semanas, até a imagem resolver ou estabilizar', 'Limitar a 5 dias, como na pneumonia não complicada', 'Antibiótico IV por 6 meses, como na tuberculose'],
     g: 'B',
     c: 'O tecido necrótico e a cavidade têm penetração limitada de antibiótico e demoram a cicatrizar. Cursos curtos se associam a recaída, e por isso o tratamento é mantido por semanas, com troca para via oral após a melhora clínica, até que a cavidade desapareça ou reste lesão pequena e estável.',
     x: { A: 'A melhora da febre precede em muito a cura da cavidade, e a suspensão precoce leva a recidiva.', C: 'O curso de 5 dias se aplica à pneumonia não complicada, não a infecção supurativa.', D: 'Não há necessidade de seis meses nem de via intravenosa durante todo o tratamento.' },
@@ -117,7 +117,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Pneumonia necrosante',
     e: 'A pneumonia necrosante diferencia-se do abscesso pulmonar clássico por apresentar:',
-    o: ['Cavidade única, maior que 2 cm, de paredes espessas', 'Múltiplas pequenas cavidades, menores que 2 cm, em áreas de consolidação', 'Ausência de necrose do parênquima', 'Acometimento exclusivo da pleura, sem lesão parenquimatosa'],
+    o: ['Cavidade única, > 2 cm, de paredes espessas', 'Múltiplas pequenas cavidades (< 2 cm) em consolidação', 'Ausência de necrose do parênquima pulmonar', 'Acometimento exclusivo da pleura, sem lesão do parênquima'],
     g: 'B',
     c: 'Ambas são formas de infecção supurativa com necrose. Por convenção, o abscesso é uma cavidade dominante maior que 2 cm, e a pneumonia necrosante se caracteriza por múltiplas cavitações menores dentro da consolidação. Seus agentes típicos são S. aureus, Klebsiella, Pseudomonas, pneumococo sorotipo 3 e anaeróbios.',
     x: { A: 'A cavidade única e maior que 2 cm é justamente a definição de abscesso.', C: 'A necrose do parênquima é o elemento central das duas condições.', D: 'O acometimento pleural isolado corresponde ao empiema.' },
@@ -125,7 +125,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Pneumatocele',
     e: 'Homem de 26 anos, usuário de drogas injetáveis, é tratado por pneumonia estafilocócica. Na segunda semana, já afebril e em melhora clínica, a radiografia mostra imagens císticas arredondadas, de paredes finas e sem nível líquido. O diagnóstico e a conduta são:',
-    o: ['Abscessos pulmonares múltiplos; drenagem cirúrgica', 'Pneumatoceles; conduta expectante, pois costumam regredir espontaneamente', 'Bolhas de enfisema; indicação de bulectomia', 'Cavitações tuberculosas; início de esquema RIPE'],
+    o: ['Abscessos pulmonares múltiplos; drenagem cirúrgica', 'Pneumatoceles; conduta expectante: regridem sozinhas', 'Bolhas de enfisema; indicação de bulectomia', 'Cavitações tuberculosas; início de esquema RIPE'],
     g: 'B',
     c: 'As pneumatoceles são cistos aéreos de paredes finas, formados quando a necrose brônquica cria um mecanismo valvular que aprisiona ar. São características da pneumonia por S. aureus, aparecem na fase de recuperação e regridem em semanas a meses. Só exigem intervenção se houver ruptura com pneumotórax ou infecção secundária.',
     x: { A: 'Abscessos têm parede espessa e nível hidroaéreo e cursam com febre persistente.', C: 'O aparecimento agudo no curso de pneumonia estafilocócica não corresponde a enfisema.', D: 'A tuberculose causa cavidades de parede espessa em ápices, com evolução crônica.' },
@@ -133,7 +133,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Mendelson',
     e: 'Mulher de 32 anos vomita e aspira conteúdo gástrico durante a indução anestésica. Duas horas depois apresenta dispneia, sibilos, hipoxemia e infiltrados bilaterais, com febre baixa. Está estável, e em 48 horas há melhora importante. O diagnóstico e a conduta inicial são:',
-    o: ['Pneumonia aspirativa bacteriana; antibiótico de amplo espectro por 14 dias', 'Pneumonite química (síndrome de Mendelson); suporte ventilatório, sem antibiótico de rotina', 'Embolia pulmonar; trombólise sistêmica', 'Edema pulmonar cardiogênico; diurético e vasodilatador'],
+    o: ['Pneumonia aspirativa bacteriana; antibiótico amplo por 14 dias', 'Pneumonite química (Mendelson); suporte, sem antibiótico de rotina', 'Embolia pulmonar; trombólise sistêmica imediata', 'Edema pulmonar cardiogênico; diurético e vasodilatador'],
     g: 'B',
     c: 'A síndrome de Mendelson é uma lesão química causada pelo ácido gástrico, que é estéril. Instala-se em minutos a horas após aspiração volumosa e presenciada e costuma melhorar em 24 a 48 horas. O tratamento é de suporte; antibiótico é reservado para casos sem melhora em 48 horas ou com sinais de infecção secundária.',
     x: { A: 'A pneumonia aspirativa bacteriana surge dias depois, de forma insidiosa.', C: 'O evento aspirativo presenciado e os infiltrados explicam o quadro sem embolia.', D: 'Não há cardiopatia nem sobrecarga volêmica que justifiquem edema cardiogênico.' },
@@ -141,7 +141,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Corticoide na aspiração',
     e: 'Na pneumonite química por aspiração de conteúdo gástrico, é correto afirmar em relação ao tratamento:',
-    o: ['O corticoide sistêmico em dose alta é obrigatório nas primeiras 6 horas', 'O tratamento é de suporte, com aspiração das vias aéreas e oxigenoterapia, sem benefício comprovado de corticoide', 'O lavado brônquico com bicarbonato neutraliza o ácido e deve ser feito de rotina', 'A antibioticoterapia profilática reduz a mortalidade e deve ser sempre prescrita'],
+    o: ['Corticoide sistêmico em dose alta obrigatório nas 6 primeiras horas', 'Suporte (aspirar vias aéreas, O2), sem benefício de corticoide', 'Lavado brônquico com bicarbonato neutraliza o ácido, de rotina', 'Antibiótico profilático reduz mortalidade; prescrever sempre'],
     g: 'B',
     c: 'A lesão pelo ácido ocorre em segundos e é rapidamente tamponada pelas secreções, de modo que não há como neutralizá-la depois. O manejo consiste em aspirar a via aérea, ofertar oxigênio e suporte ventilatório se preciso. Corticoide e antibiótico profilático não melhoram os desfechos.',
     x: { A: 'Estudos não mostraram benefício do corticoide na pneumonite por aspiração.', C: 'A lavagem com bicarbonato é ineficaz e pode espalhar o material aspirado.', D: 'O antibiótico profilático não previne pneumonia e seleciona germes resistentes.' },
@@ -165,7 +165,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Diferencial: tuberculose',
     e: 'Mulher de 38 anos apresenta tosse produtiva há 5 semanas, febre vespertina, sudorese noturna e emagrecimento. Recebeu dois cursos de antibiótico, incluindo levofloxacino, com melhora parcial e transitória. A radiografia mostra infiltrado com cavitação em lobo superior direito. A conduta mais adequada é:',
-    o: ['Prescrever um terceiro curso de antibiótico, agora com moxifloxacino', 'Solicitar teste rápido molecular para tuberculose e baciloscopia e cultura do escarro', 'Indicar lobectomia superior direita', 'Iniciar corticoide por suspeita de pneumonia em organização'],
+    o: ['Terceiro curso de antibiótico, agora com moxifloxacino', 'Teste molecular para TB, baciloscopia e cultura do escarro', 'Indicar lobectomia superior direita, de imediato', 'Corticoide por suspeita de pneumonia em organização'],
     g: 'B',
     c: 'Tosse por três semanas ou mais com sintomas constitucionais e lesão cavitária apical é tuberculose até prova em contrário. As quinolonas têm atividade contra o Mycobacterium tuberculosis e causam melhora parcial que atrasa o diagnóstico e pode induzir resistência. Todo sintomático respiratório deve ter o escarro investigado.',
     x: { A: 'Nova quinolona mascararia ainda mais a tuberculose e favoreceria resistência.', C: 'A cirurgia não é abordagem inicial de lesão cavitária sem diagnóstico.', D: 'O corticoide sem excluir tuberculose pode agravar e disseminar a doença.' },
@@ -173,7 +173,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Diferencial: embolia',
     e: 'Mulher de 44 anos, no 12º dia de pós-operatório de cirurgia ortopédica, apresenta dor pleurítica súbita, dispneia, hemoptise discreta e febre baixa. A radiografia mostra opacidade periférica em cunha com base pleural e pequeno derrame. Não há escarro purulento, e a leucometria é normal. A hipótese que deve ser investigada prioritariamente é:',
-    o: ['Pneumonia por germe atípico', 'Tromboembolia pulmonar com infarto pulmonar', 'Pneumonia em organização criptogênica', 'Tuberculose pleural'],
+    o: ['Pneumonia por germe atípico, com infiltrado', 'TEP com infarto pulmonar, com consolidação periférica', 'Pneumonia em organização criptogênica, com opacidades', 'Tuberculose pleural, com derrame linfocítico'],
     g: 'B',
     c: 'O infarto pulmonar simula pneumonia, com febre baixa, dor pleurítica e opacidade periférica em cunha (corcova de Hampton). Início súbito, hemoptise, fator de risco evidente e ausência de escarro purulento apontam para embolia, que deve ser investigada com angiotomografia.',
     x: { A: 'O quadro atípico é insidioso e não tem início súbito com hemoptise e dor pleurítica.', C: 'A pneumonia em organização tem evolução subaguda, de semanas.', D: 'A tuberculose pleural é subaguda e não tem relação com o pós-operatório.' },
@@ -181,7 +181,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Pneumonia em organização',
     e: 'Homem de 56 anos apresenta há 2 meses tosse seca, dispneia progressiva e febre baixa. Recebeu três esquemas de antibióticos sem melhora. A tomografia mostra consolidações periféricas e peribrônquicas bilaterais, que mudaram de localização entre os exames, e as culturas são negativas. O diagnóstico mais provável e o tratamento são:',
-    o: ['Pneumonia bacteriana resistente; carbapenêmico', 'Pneumonia em organização criptogênica; corticoide sistêmico', 'Adenocarcinoma lepídico; quimioterapia', 'Pneumocistose; sulfametoxazol-trimetoprima'],
+    o: ['Pneumonia bacteriana resistente; carbapenêmico por via venosa', 'Pneumonia em organização criptogênica; corticoide sistêmico', 'Adenocarcinoma lepídico; quimioterapia sistêmica, de imediato', 'Pneumocistose; sulfametoxazol-trimetoprima por via venosa'],
     g: 'B',
     c: 'A pneumonia em organização tem evolução subaguda e simula pneumonia que não responde a antibióticos. Há preenchimento de alvéolos e bronquíolos por tampões de tecido de granulação, com consolidações periféricas e migratórias. A resposta ao corticoide é rápida, mas recidivas são comuns na redução da dose.',
     x: { A: 'Culturas negativas, evolução de meses e lesões migratórias falam contra infecção bacteriana.', C: 'A neoplasia não produz opacidades que migram e regridem de um local para outro.', D: 'A pneumocistose ocorre em imunossuprimidos, com vidro fosco difuso.' },
@@ -189,7 +189,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Pneumonia no idoso',
     e: 'Mulher de 86 anos, previamente independente, é levada ao pronto-socorro por confusão mental aguda, queda da própria altura e inapetência há 2 dias. Não tem febre nem tosse. A frequência respiratória é de 28 irpm, e há crepitações em base esquerda. Em relação a esse quadro, é correto afirmar:',
-    o: ['A ausência de febre e de tosse exclui o diagnóstico de pneumonia', 'A pneumonia no idoso frequentemente se apresenta de forma atípica, com delirium, quedas e declínio funcional, sendo a taquipneia um sinal sensível', 'O quadro corresponde a demência em progressão e dispensa investigação', 'O agente etiológico mais provável é o Mycoplasma pneumoniae'],
+    o: ['Ausência de febre e tosse exclui o diagnóstico no idoso', 'No idoso é atípica: delirium, quedas, declínio; taquipneia', 'Demência em progressão, sem necessidade de investigação', 'O agente mais provável é o Mycoplasma pneumoniae, atípico'],
     g: 'B',
     c: 'No idoso, a resposta febril e o reflexo de tosse são atenuados, e a pneumonia se manifesta por sintomas inespecíficos: confusão aguda, quedas, inapetência e descompensação de doenças de base. A taquipneia costuma ser o sinal mais precoce. O pneumococo segue como principal agente, e a mortalidade é maior.',
     x: { A: 'Febre e tosse estão ausentes em parcela importante dos idosos com pneumonia.', C: 'Alteração cognitiva aguda é delirium e exige busca de causa orgânica, como infecção.', D: 'O Mycoplasma predomina em jovens; no idoso prevalece o pneumococo.' },
@@ -197,7 +197,7 @@ export const PNEUMONIA_3: QuestaoCompacta[] = [
   {
     s: 'Derrame simples',
     e: 'Homem de 41 anos com pneumonia é submetido a toracocentese por derrame pleural de 15 mm de espessura. O líquido é amarelo-citrino, com pH de 7,38, glicose de 85 mg/dL, LDH de 420 U/L, Gram e cultura negativos. A conduta é:',
-    o: ['Drenagem torácica em selo de água', 'Manter a antibioticoterapia, sem drenagem, com acompanhamento clínico e de imagem', 'Videotoracoscopia com desbridamento pleural', 'Fibrinolítico intrapleural por 3 dias'],
+    o: ['Drenagem torácica em selo d\'água, de imediato, hoje', 'Manter só o antibiótico e acompanhar, sem drenar', 'VATS com desbridamento pleural, de imediato, hoje', 'Fibrinolítico intrapleural por 3 dias, de imediato'],
     g: 'B',
     c: 'O derrame parapneumônico simples é um exsudato reacional estéril, resultante do aumento da permeabilidade da pleura vizinha à pneumonia. Com pH acima de 7,2, glicose normal, LDH abaixo de 1.000 U/L e ausência de bactérias, resolve com o tratamento da pneumonia, sem necessidade de drenagem.',
     x: { A: 'Não há critério bioquímico nem microbiológico de derrame complicado.', C: 'O procedimento cirúrgico é reservado a derrames loculados ou falha de drenagem.', D: 'O fibrinolítico é usado em derrames loculados já drenados.' },

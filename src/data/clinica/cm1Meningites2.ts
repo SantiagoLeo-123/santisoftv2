@@ -13,7 +13,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Sequência de condutas',
     e: 'Homem de 44 anos, vivendo com HIV e sem tratamento, chega com febre, cefaleia, rigidez de nuca e hemiparesia esquerda. A sequência de condutas mais adequada é:',
-    o: ['Punção lombar imediata, antibiótico após o resultado do líquor e tomografia se não houver melhora', 'Hemoculturas, início imediato de dexametasona e antibiótico empírico, tomografia de crânio e, se segura, punção lombar', 'Tomografia de crânio, punção lombar e somente depois o antibiótico', 'Ressonância magnética, eletroencefalograma e antibiótico apenas se o líquor for purulento'],
+    o: ['Punção lombar já; antibiótico após o líquor; TC se não melhorar', 'Hemoculturas, dexametasona e antibiótico já; TC; punção se segura', 'TC de crânio, punção lombar e só então o antibiótico', 'RM, EEG e antibiótico só se o líquor for purulento'],
     g: 'B',
     c: 'Quando há indicação de tomografia antes da punção (imunossupressão e déficit focal, neste caso), o tratamento não pode esperar pelo exame. Colhem-se hemoculturas, iniciam-se dexametasona e antibiótico empírico e só então se realiza a imagem; a punção é feita em seguida, se não houver contraindicação, pois a celularidade e a bioquímica permanecem alteradas por dias.',
     x: { A: 'O déficit focal em imunossuprimido exige imagem antes da punção pelo risco de herniação.', C: 'Aguardar a tomografia e a punção para iniciar o antibiótico aumenta a mortalidade.', D: 'Condicionar o antibiótico a exames demorados atrasa o tratamento de uma emergência.' },
@@ -21,7 +21,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Punção sem imagem prévia',
     e: 'Mulher de 24 anos, previamente hígida, apresenta febre, cefaleia e rigidez de nuca há 14 horas. Está alerta e orientada, sem déficits focais, sem papiledema e sem crises convulsivas. A conduta inicial correta é:',
-    o: ['Solicitar tomografia de crânio e aguardar o laudo antes de qualquer outra medida', 'Realizar punção lombar imediatamente, sem tomografia prévia, e iniciar o tratamento empírico logo em seguida', 'Solicitar ressonância magnética de encéfalo antes da punção', 'Observar por 24 horas e puncionar apenas se houver piora'],
+    o: ['Pedir TC de crânio e aguardar o laudo antes de tudo', 'Puncionar de imediato, sem TC prévia, e tratar empiricamente', 'Pedir RM de encéfalo antes da punção lombar', 'Observar por 24 horas; puncionar só se piorar'],
     g: 'B',
     c: 'Na ausência de imunossupressão, déficit focal, papiledema, convulsão recente ou rebaixamento importante do nível de consciência, o risco de herniação é muito baixo e a tomografia apenas atrasa o diagnóstico. A punção deve ser feita de imediato, com coleta de hemoculturas, e o antibiótico iniciado logo após, sem aguardar resultados.',
     x: { A: 'Sem critérios de risco, a tomografia é desnecessária e retarda o diagnóstico e o tratamento.', C: 'A ressonância não é necessária antes da punção e atrasaria ainda mais a conduta.', D: 'A meningite bacteriana é emergência, e a observação sem diagnóstico é inaceitável.' },
@@ -45,7 +45,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Antibiótico prévio e líquor',
     e: 'Quando a punção lombar é realizada algumas horas após o início do antibiótico endovenoso na meningite bacteriana, espera-se que:',
-    o: ['O líquor esteja completamente normal, o que impede o diagnóstico', 'A cultura possa negativar em poucas horas, mas a celularidade e a bioquímica permaneçam alteradas por dias', 'A glicose se normalize imediatamente e os neutrófilos desapareçam', 'A proteína caia para valores normais em menos de 1 hora'],
+    o: ['O líquor esteja totalmente normal, o que impede o diagnóstico', 'A cultura pode negativar em horas, mas celularidade e bioquímica persistem', 'A glicose normalize de imediato e os neutrófilos desapareçam', 'A proteína caia ao normal em menos de 1 hora'],
     g: 'B',
     c: 'A esterilização do líquor é rápida, sobretudo no meningococo, que pode deixar de crescer em cultura poucas horas após a primeira dose. Já a pleocitose neutrofílica, a hiperproteinorraquia e a hipoglicorraquia persistem por dias, e métodos independentes de viabilidade bacteriana, como PCR e pesquisa de antígenos, continuam úteis.',
     x: { A: 'O líquor mantém as alterações inflamatórias por dias, permitindo o diagnóstico.', C: 'A glicose e a celularidade demoram dias para se normalizar após o início do tratamento.', D: 'A proteína é o parâmetro que mais demora a se normalizar no líquor.' },
@@ -53,7 +53,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Líquor normal',
     e: 'O conjunto de achados compatível com líquor normal de um adulto, colhido por punção lombar, é:',
-    o: ['Aspecto turvo, 50 células/mm³, proteína de 80 mg/dL e glicose igual à glicemia', 'Aspecto límpido, até 5 células/mm³ (mononucleares), proteína de até cerca de 45 mg/dL e glicose em torno de dois terços da glicemia', 'Aspecto xantocrômico, 20 células/mm³, proteína de 100 mg/dL e glicose de 20 mg/dL', 'Aspecto límpido, 30 neutrófilos/mm³, proteína de 10 mg/dL e glicose de um terço da glicemia'],
+    o: ['Turvo, 50 células, proteína 80 mg/dL e glicose igual à glicemia', 'Límpido, ≤ 5 células, proteína ≤ 45 mg/dL e glicose ~2/3 da glicemia', 'Xantocrômico, 20 células, proteína 100 mg/dL e glicose 20 mg/dL', 'Límpido, 30 neutrófilos, proteína 10 mg/dL e glicose 1/3 da glicemia'],
     g: 'B',
     c: 'O líquor normal do adulto é límpido e incolor (aspecto de água de rocha), acelular ou com até 5 células mononucleares por mm³, proteína lombar de até cerca de 45 mg/dL e glicose correspondente a aproximadamente dois terços da glicemia simultânea. Por isso a glicorraquia deve sempre ser interpretada junto com a glicemia colhida no mesmo momento.',
     x: { A: 'Turvação, pleocitose e proteína elevada indicam processo inflamatório.', C: 'Xantocromia, pleocitose e glicose baixa são achados patológicos.', D: 'Neutrófilos não estão presentes no líquor normal, e a relação de um terço é baixa.' },
@@ -61,7 +61,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Líquor bacteriano',
     e: 'Homem de 31 anos com febre, cefaleia e rigidez de nuca há 20 horas tem líquor turvo, com 2.400 células/mm³ (92% de neutrófilos), proteína de 280 mg/dL e glicose de 18 mg/dL, com glicemia de 100 mg/dL. Esse perfil é característico de meningite:',
-    o: ['Viral', 'Bacteriana aguda', 'Tuberculosa', 'Criptocócica'],
+    o: ['Meningite viral, com linfócitos', 'Meningite bacteriana aguda, com neutrófilos', 'Meningite tuberculosa, subaguda', 'Meningite criptocócica, com antígeno positivo'],
     g: 'B',
     c: 'O perfil bacteriano clássico reúne pleocitose acima de 1.000 células com predomínio de neutrófilos, proteína muito elevada pela quebra da barreira hematoencefálica e glicose baixa, com relação líquor/soro menor que 0,4. A hipoglicorraquia decorre do consumo de glicose por bactérias e leucócitos e, principalmente, do transporte prejudicado pela barreira inflamada.',
     x: { A: 'Na meningite viral predominam linfomononucleares, com glicose normal.', C: 'Na tuberculosa a evolução é subaguda e predominam linfomononucleares.', D: 'Na criptocócica a celularidade é baixa e linfomononuclear, em paciente imunodeprimido.' },
@@ -85,7 +85,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Líquor fúngico',
     e: 'Homem de 37 anos, com infecção pelo HIV e contagem de CD4 de 42 células/mm³, queixa-se de cefaleia há 4 semanas, com turvação visual. A pressão de abertura é de 38 cmH2O, e o líquor tem 40 células/mm³ (linfomononucleares), proteína de 90 mg/dL e glicose de 30 mg/dL. O exame que mais provavelmente confirmará o diagnóstico é:',
-    o: ['Pesquisa de bandas oligoclonais', 'Pesquisa de antígeno criptocócico no líquor', 'Dosagem de adenosina deaminase', 'Pesquisa de células neoplásicas'],
+    o: ['Pesquisa de bandas oligoclonais no líquor', 'Pesquisa de antígeno criptocócico no líquor', 'Dosagem de adenosina deaminase no líquor', 'Pesquisa de células neoplásicas no líquor'],
     g: 'B',
     c: 'Cefaleia subaguda em paciente com imunodepressão avançada pelo HIV, pressão de abertura muito elevada e líquor com poucas células, proteína pouco elevada e glicose baixa sugerem meningite criptocócica. A pesquisa do antígeno criptocócico tem sensibilidade e especificidade muito altas, superiores às da tinta da China.',
     x: { A: 'Bandas oligoclonais investigam doenças desmielinizantes, como esclerose múltipla.', C: 'A adenosina deaminase auxilia na suspeita de tuberculose e não confirma criptococose.', D: 'A citologia oncótica investiga carcinomatose meníngea, hipótese menos provável aqui.' },
@@ -93,7 +93,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Relação glicose líquor/soro',
     e: 'Homem de 57 anos, diabético, com febre e confusão mental, tem glicemia de 320 mg/dL no momento da punção. O líquor mostra 1.450 células/mm³ (84% de neutrófilos), proteína de 175 mg/dL e glicose de 64 mg/dL. Em relação à glicorraquia, é correto afirmar que:',
-    o: ['Está normal, o que afasta meningite bacteriana', 'Está reduzida, pois a relação líquor/soro é de 0,2, valor compatível com meningite bacteriana', 'Não pode ser interpretada em pacientes diabéticos', 'Está elevada, o que sugere etiologia viral'],
+    o: ['Normal, o que afasta meningite bacteriana de vez', 'Reduzida: relação líquor/soro de 0,2, compatível com bacteriana', 'Não pode ser interpretada em pacientes diabéticos', 'Elevada, o que sugere etiologia viral do quadro'],
     g: 'B',
     c: 'A glicose do líquor depende da glicemia, por isso deve ser avaliada pela relação líquor/soro, que normalmente é de cerca de 0,6. Neste caso a relação é de 64/320, ou seja, 0,2, e valores abaixo de 0,4 indicam hipoglicorraquia verdadeira, compatível com etiologia bacteriana apesar do valor absoluto aparentemente normal.',
     x: { A: 'O valor absoluto é enganoso na hiperglicemia, e a relação está francamente baixa.', C: 'A interpretação é possível e obrigatória, bastando usar a relação com a glicemia.', D: 'A glicorraquia está proporcionalmente reduzida, e não elevada.' },
@@ -109,7 +109,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Gram: diplococo gram-negativo',
     e: 'Mulher de 20 anos, universitária, com febre, cefaleia e vômitos há 12 horas, tem líquor com 2.050 células/mm³ (90% de neutrófilos), proteína de 198 mg/dL, glicose de 26 mg/dL e bacterioscopia com diplococos gram-negativos intracelulares. O agente e a principal implicação de saúde pública são:',
-    o: ['Pneumococo; não há medidas para os contatos', 'Meningococo; indicar precaução por gotículas e quimioprofilaxia dos contatos íntimos', 'Listeria; investigar a fonte alimentar', 'Haemophilus; vacinar todos os adultos contactantes'],
+    o: ['Pneumococo; sem medidas para os contatos próximos', 'Meningococo: gotículas e quimioprofilaxia dos contatos íntimos', 'Listeria; investigar a fonte alimentar do caso', 'Haemophilus; vacinar todos os adultos contactantes'],
     g: 'B',
     c: 'Diplococos gram-negativos, frequentemente dentro de neutrófilos, identificam a Neisseria meningitidis. Como a doença é transmitida por gotículas e os contatos íntimos têm risco aumentado, o achado desencadeia a precaução respiratória nas primeiras 24 horas de antibiótico, a notificação imediata e a quimioprofilaxia dos contatos.',
     x: { A: 'O pneumococo é gram-positivo, e a morfologia descrita não corresponde a ele.', C: 'A Listeria é bacilo gram-positivo e não aparece como diplococo gram-negativo.', D: 'O Haemophilus é cocobacilo, e a medida para contatos é quimioprofilaxia em situações específicas.' },
@@ -133,7 +133,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Aglutinação pelo látex',
     e: 'Sobre a pesquisa de antígenos bacterianos no líquor por aglutinação pelo látex, é correto afirmar que:',
-    o: ['Tem sensibilidade superior à da cultura e a substitui', 'Fornece resultado rápido e pode ser útil em pacientes que já receberam antibiótico, mas o resultado negativo não exclui meningite bacteriana', 'Identifica o perfil de sensibilidade aos antimicrobianos', 'Só é positiva em meningites virais'],
+    o: ['Mais sensível que a cultura, que ela substitui', 'Resultado rápido e útil após antibiótico; negativo não exclui', 'Mostra o perfil de sensibilidade aos antimicrobianos', 'Só é positiva em meningites virais e nas tuberculosas'],
     g: 'B',
     c: 'O látex detecta antígenos capsulares dos principais agentes e não depende da viabilidade das bactérias, por isso pode permanecer positivo após o início do antibiótico. Sua sensibilidade, porém, é limitada e variável conforme o agente, de modo que um resultado negativo não afasta a doença nem modifica a conduta empírica.',
     x: { A: 'O látex é menos sensível que a cultura e não a substitui como método de referência.', C: 'O antibiograma depende do isolamento do agente em cultura.', D: 'O teste pesquisa antígenos bacterianos e não tem utilidade nas meningites virais.' },
@@ -157,7 +157,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Lactato no líquor',
     e: 'A dosagem de lactato no líquor é útil na avaliação das meningites porque:',
-    o: ['Valores elevados são específicos de etiologia viral', 'Valores elevados favorecem etiologia bacteriana em relação à viral e não dependem do valor sérico', 'Substitui a cultura na identificação do agente', 'Valores baixos indicam meningite tuberculosa'],
+    o: ['Valores altos são específicos de etiologia viral', 'Valores altos favorecem bacteriana, independentemente do soro', 'Substitui a cultura na identificação do agente', 'Valores baixos indicam meningite tuberculosa'],
     g: 'B',
     c: 'O lactato do líquor aumenta na meningite bacteriana pelo metabolismo anaeróbio de bactérias e leucócitos e pela hipóxia tecidual, e é produzido localmente, sem refletir o lactato do sangue. Por isso ajuda a diferenciar meningite bacteriana de viral, embora perca acurácia quando o paciente já recebeu antibiótico.',
     x: { A: 'Nas meningites virais o lactato costuma ser normal ou pouco elevado.', C: 'O lactato é um marcador de apoio e não identifica o agente etiológico.', D: 'Na tuberculosa o lactato tende a estar elevado, e não baixo.' },
@@ -165,7 +165,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Acidente de punção: correção',
     e: 'Mulher de 30 anos com cefaleia e febre baixa é submetida a punção lombar difícil. O líquor do primeiro tubo é hemorrágico, com 7.000 hemácias/mm³ e 12 leucócitos/mm³, proteína de 48 mg/dL e glicose de 60 mg/dL (glicemia de 95 mg/dL). O hemograma é normal. A interpretação correta é:',
-    o: ['Meningite bacteriana, pois há mais de 5 leucócitos por mm³', 'Leucócitos compatíveis com a contaminação por sangue, pois se espera cerca de 1 leucócito para cada 500 a 1.000 hemácias', 'Hemorragia subaracnóidea confirmada pela presença de hemácias', 'Meningite tuberculosa em fase inicial'],
+    o: ['Meningite bacteriana, pois há mais de 5 leucócitos/mm³', 'Leucócitos do sangue contaminante: ~1 para cada 500-1.000 hemácias', 'Hemorragia subaracnóidea, confirmada pelas hemácias', 'Meningite tuberculosa em fase inicial, com linfócitos'],
     g: 'B',
     c: 'No acidente de punção entram no líquor hemácias e leucócitos na mesma proporção do sangue periférico, cerca de 1 leucócito para cada 500 a 1.000 hemácias. Com 7.000 hemácias esperam-se aproximadamente 7 a 14 leucócitos, de modo que a contagem corrigida é normal, o que é coerente com a proteína e a glicose praticamente normais.',
     x: { A: 'A contagem precisa ser corrigida pelo número de hemácias antes de se concluir por pleocitose.', C: 'Hemácias isoladas no primeiro tubo após punção difícil não confirmam hemorragia subaracnóidea.', D: 'Não há pleocitose real, nem glicose baixa ou proteína muito elevada.' },
@@ -173,7 +173,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Acidente de punção e hemorragia',
     e: 'O achado que favorece acidente de punção, em vez de hemorragia subaracnóidea verdadeira, diante de um líquor hemorrágico é:',
-    o: ['Presença de xantocromia no sobrenadante após centrifugação', 'Clareamento progressivo do líquor do primeiro para o último tubo, com sobrenadante límpido', 'Contagem de hemácias constante em todos os tubos', 'Presença de macrófagos com hemossiderina'],
+    o: ['Xantocromia no sobrenadante após centrifugação', 'Clareamento do 1º ao último tubo, sobrenadante límpido', 'Contagem de hemácias constante em todos os tubos', 'Macrófagos com hemossiderina'],
     g: 'B',
     c: 'No acidente de punção o sangue vem de um vaso lesado pela agulha, por isso a contagem de hemácias diminui nos tubos sucessivos e o sobrenadante centrifugado é límpido. Na hemorragia subaracnóidea o sangue está misturado ao líquor há horas, a contagem é uniforme e a degradação da hemoglobina produz xantocromia.',
     x: { A: 'A xantocromia indica sangramento prévio, com degradação da hemoglobina no líquor.', C: 'A contagem constante entre os tubos é típica de hemorragia subaracnóidea.', D: 'Macrófagos com hemossiderina indicam sangramento antigo, e não acidente de punção.' },
@@ -181,7 +181,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Meningite viral em fase inicial',
     e: 'Homem de 21 anos, em bom estado geral, com febre e cefaleia há 16 horas, tem líquor límpido com 210 células/mm³ (65% de neutrófilos), proteína de 55 mg/dL, glicose de 61 mg/dL (glicemia de 90 mg/dL), lactato normal e bacterioscopia negativa. Sobre esse resultado, é correto afirmar que:',
-    o: ['O predomínio de neutrófilos confirma etiologia bacteriana', 'A etiologia viral é possível, pois o predomínio neutrofílico pode ocorrer nas primeiras 24 a 48 horas da meningite viral', 'A glicose normal confirma meningite tuberculosa', 'O resultado é compatível com líquor normal'],
+    o: ['Neutrófilos predominantes confirmam etiologia bacteriana', 'Viral possível: predomínio neutrofílico nas primeiras 24-48 h', 'Glicose normal confirma meningite tuberculosa', 'O resultado é compatível com líquor normal'],
     g: 'B',
     c: 'Na fase inicial das meningites virais, especialmente por enterovírus, pode haver predomínio transitório de neutrófilos, com viragem para linfomononucleares em 12 a 48 horas. Glicose e lactato normais, proteína pouco elevada, celularidade moderada e bacterioscopia negativa favorecem a etiologia viral, embora a decisão de manter ou não o antibiótico dependa da evolução clínica e das culturas.',
     x: { A: 'O predomínio neutrofílico isolado não confirma etiologia bacteriana, sobretudo com glicose e lactato normais.', C: 'A tuberculosa cursa com glicose baixa e evolução subaguda.', D: 'Uma contagem de 210 células por mm³ é claramente patológica.' },
@@ -189,7 +189,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Pressão de abertura',
     e: 'A pressão de abertura do líquor deve ser medida com o paciente em decúbito lateral. Em relação a essa medida, é correto afirmar que:',
-    o: ['Valores de até 50 cmH2O são considerados normais no adulto', 'O valor normal no adulto é de até cerca de 18 a 20 cmH2O, e está frequentemente elevada na meningite bacteriana e na criptocócica', 'Só pode ser medida com o paciente sentado', 'Está caracteristicamente reduzida nas meningites bacterianas'],
+    o: ['Até 50 cmH2O é considerado normal no adulto sadio', 'Normal até ~18-20 cmH2O; alta em bacteriana e criptocócica', 'Só pode ser medida com o paciente sentado, em geral', 'Está reduzida nas meningites bacterianas e nas virais'],
     g: 'B',
     c: 'A pressão de abertura normal no adulto em decúbito lateral é de até cerca de 18 a 20 cmH2O. Na meningite bacteriana ela se eleva pelo edema cerebral e pela menor reabsorção do líquor, e na criptocócica pode atingir valores muito altos pela obstrução das vilosidades aracnóideas por leveduras e polissacarídeo capsular.',
     x: { A: 'Uma pressão de 50 cmH2O representa hipertensão intracraniana grave.', C: 'Na posição sentada a coluna hidrostática falseia o valor para cima.', D: 'Na meningite bacteriana a pressão costuma estar elevada, e não reduzida.' },
@@ -197,7 +197,7 @@ export const MENINGITES_2: QuestaoCompacta[] = [
   {
     s: 'Cefaleia pós-punção',
     e: 'Mulher de 28 anos, 2 dias após punção lombar diagnóstica com líquor normal (2 células/mm³, proteína de 30 mg/dL e glicose de 65 mg/dL), queixa-se de cefaleia intensa que surge ao ficar em pé e melhora completamente ao deitar. Está afebril e sem rigidez de nuca. O diagnóstico e o mecanismo são:',
-    o: ['Meningite bacteriana iatrogênica por inoculação de bactérias pela agulha', 'Cefaleia pós-punção por hipotensão liquórica, decorrente do extravasamento de líquor pelo orifício da dura-máter', 'Trombose venosa cerebral provocada pela punção', 'Hemorragia subaracnóidea tardia'],
+    o: ['Meningite iatrogênica por inoculação de bactérias pela agulha', 'Cefaleia pós-punção: hipotensão liquórica por extravasamento pela dura', 'Trombose venosa cerebral provocada pela punção', 'Hemorragia subaracnóidea tardia, pós-punção'],
     g: 'B',
     c: 'A cefaleia pós-punção é tipicamente postural: piora em ortostase e alivia em decúbito, porque o extravasamento persistente de líquor reduz a pressão intracraniana e traciona estruturas sensíveis à dor quando o paciente se levanta. O tratamento inicial é conservador (repouso, hidratação, analgésicos e cafeína), e os casos refratários respondem ao tampão sanguíneo epidural.',
     x: { A: 'Não há febre nem sinais meníngeos, e a cefaleia da meningite não é postural.', C: 'A trombose venosa cerebral não tem esse caráter postural típico com alívio completo ao deitar.', D: 'A hemorragia subaracnóidea causa cefaleia súbita e intensa, sem relação com a postura.' },

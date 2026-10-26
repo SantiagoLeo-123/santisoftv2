@@ -5,7 +5,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Quando iniciar a TARV',
     e: 'Mulher de 27 anos, assintomática, recebe diagnóstico de infecção pelo HIV. Os exames mostram CD4 de 780 células por mm3 e carga viral de 12.000 cópias por mL. Em relação à terapia antirretroviral, a conduta recomendada é:',
-    o: ['Aguardar o CD4 cair abaixo de 500 para iniciar', 'Iniciar o tratamento o mais cedo possível, independentemente do CD4', 'Iniciar apenas se surgirem sintomas', 'Aguardar a carga viral ultrapassar 100.000 cópias por mL'],
+    o: ['Aguardar o CD4 cair abaixo de 500 para iniciar', 'Iniciar o mais cedo possível, independentemente do CD4', 'Iniciar apenas se surgirem sintomas da doença', 'Aguardar a carga viral ultrapassar 100.000 cópias/mL'],
     g: 'B',
     c: 'A terapia antirretroviral está indicada para todas as pessoas vivendo com HIV, qualquer que seja o CD4 ou o estágio clínico, de preferência no mesmo dia ou em até 7 dias do diagnóstico. O início precoce reduz eventos definidores e não definidores de aids, diminui a inflamação crônica e elimina a transmissão sexual quando a carga viral fica indetectável.',
     x: { A: 'Não existe mais ponto de corte de CD4 para indicar o tratamento.', C: 'Esperar sintomas expõe a paciente a dano imunológico evitável.', D: 'A carga viral não é critério para adiar o início do tratamento.' },
@@ -29,7 +29,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Mecanismo de ação',
     e: 'Os inibidores de protease, como o darunavir e o atazanavir, atuam em qual etapa do ciclo do HIV?',
-    o: ['Ligação da gp120 ao correceptor', 'Clivagem das poliproteínas virais, impedindo a maturação de vírions infectantes', 'Síntese de DNA a partir do RNA viral', 'Integração do DNA proviral ao genoma celular'],
+    o: ['Ligação da gp120 ao correceptor da célula', 'Clivagem das poliproteínas e maturação dos vírions', 'Síntese de DNA a partir do RNA viral, na célula', 'Integração do DNA proviral ao genoma da célula'],
     g: 'B',
     c: 'A protease viral cliva as poliproteínas Gag e Gag-Pol em proteínas estruturais e enzimas funcionais. Com a enzima inibida, as partículas brotam da célula, mas permanecem imaturas e incapazes de infectar novas células. O ritonavir em dose baixa é associado para inibir o citocromo P450 3A4 e elevar o nível sérico do inibidor de protease.',
     x: { A: 'A ligação ao correceptor CCR5 é bloqueada pelo maraviroque.', C: 'A síntese de DNA é bloqueada pelos inibidores da transcriptase reversa.', D: 'A integração é bloqueada pelos inibidores da integrase.' },
@@ -53,7 +53,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Abacavir e HLA-B*5701',
     e: 'Antes de prescrever abacavir, deve-se pesquisar o alelo HLA-B*5701 porque sua presença se associa a:',
-    o: ['Falha virológica precoce', 'Reação de hipersensibilidade grave e potencialmente fatal', 'Anemia hemolítica', 'Prolongamento do intervalo QT'],
+    o: ['Falha virológica precoce, com resistência', 'Reação de hipersensibilidade grave, potencialmente fatal', 'Anemia hemolítica, com hemoglobinúria', 'Prolongamento do intervalo QT, com arritmias'],
     g: 'B',
     c: 'Em portadores do alelo, o abacavir é apresentado aos linfócitos T de forma anômala e desencadeia reação de hipersensibilidade sistêmica nas primeiras semanas, com febre, exantema, sintomas gastrointestinais e respiratórios. A reexposição após a suspensão pode ser fatal, por isso o fármaco nunca deve ser reintroduzido.',
     x: { A: 'O alelo não tem relação com resposta virológica ao tratamento.', C: 'Anemia hemolítica não é o efeito associado ao alelo nem ao abacavir.', D: 'O alelo não se relaciona com alterações da repolarização ventricular.' },
@@ -69,7 +69,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Efeito adverso do efavirenz',
     e: 'Homem de 33 anos iniciou esquema com efavirenz há 2 semanas e refere tontura, sonhos vívidos, pesadelos e dificuldade de concentração. A orientação mais adequada, entre as abaixo, é:',
-    o: ['Suspender todo o esquema por reação de hipersensibilidade', 'Explicar que são efeitos neuropsiquiátricos do efavirenz, em geral transitórios, e orientar a tomada ao deitar', 'Investigar neurotoxoplasmose com tomografia de urgência', 'Associar zidovudina para reduzir os sintomas'],
+    o: ['Suspender todo o esquema por hipersensibilidade', 'Efeitos neuropsiquiátricos do efavirenz, transitórios; tomar à noite', 'Investigar neurotoxoplasmose com tomografia de urgência', 'Associar zidovudina para reduzir os sintomas'],
     g: 'B',
     c: 'O efavirenz penetra bem no sistema nervoso central e causa tontura, insônia, sonhos vívidos e alterações de humor, sobretudo nas primeiras 2 a 4 semanas. Tomar o comprimido à noite, longe de refeições gordurosas, reduz os sintomas. Se persistirem ou houver depressão ou ideação suicida, o fármaco deve ser trocado.',
     x: { A: 'Não há exantema, febre ou outros sinais de hipersensibilidade.', C: 'Não há sinais focais, febre ou cefaleia que sugiram lesão expansiva.', D: 'Acrescentar zidovudina não trata o efeito e soma toxicidade.' },
@@ -77,7 +77,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Efeito adverso do atazanavir',
     e: 'Mulher de 41 anos, em uso de atazanavir com ritonavir, nota os olhos amarelados. Está assintomática, com bilirrubina total de 4,1 mg por dL à custa de bilirrubina indireta e transaminases normais. A explicação é:',
-    o: ['Hepatite medicamentosa grave, com indicação de transplante', 'Inibição da UDP-glicuronosiltransferase pelo atazanavir, de caráter benigno', 'Hemólise autoimune', 'Obstrução biliar por cálculos de atazanavir'],
+    o: ['Hepatite medicamentosa grave, com indicação de transplante', 'Inibição da UGT1A1 pelo atazanavir, benigna', 'Hemólise autoimune, com Coombs positivo', 'Obstrução biliar por cálculos de atazanavir'],
     g: 'B',
     c: 'O atazanavir inibe a enzima UGT1A1, responsável pela conjugação da bilirrubina, produzindo hiperbilirrubinemia indireta semelhante à da síndrome de Gilbert. Não há lesão hepática e a alteração é reversível, sendo a troca indicada apenas por incômodo estético. O fármaco também exige meio ácido para absorção, o que contraindica o uso com inibidores de bomba de prótons.',
     x: { A: 'As transaminases normais e a ausência de sintomas afastam hepatite grave.', C: 'Não há anemia nem outros sinais de hemólise no quadro descrito.', D: 'A obstrução biliar elevaria a bilirrubina direta e as enzimas canaliculares.' },
@@ -85,7 +85,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos do dolutegravir',
     e: 'Sobre o dolutegravir, assinale a alternativa correta.',
-    o: ['Tem baixa barreira genética, com resistência frequente já nas primeiras semanas', 'Pode causar insônia e cefaleia e eleva discretamente a creatinina sérica sem reduzir a filtração glomerular real', 'É contraindicado em qualquer pessoa com mais de 50 anos', 'Deve ser tomado junto com antiácidos para melhorar a absorção'],
+    o: ['Baixa barreira genética, com resistência já nas primeiras semanas', 'Insônia, cefaleia e discreta elevação da creatinina sem queda real da TFG', 'Contraindicado em qualquer pessoa com mais de 50 anos', 'Deve ser tomado junto com antiácidos, para melhor absorção'],
     g: 'B',
     c: 'Os efeitos mais comuns do dolutegravir são insônia e cefaleia, além de ganho de peso. Ele inibe o transportador tubular OCT2, que secreta creatinina, de modo que a creatinina sérica sobe um pouco nas primeiras semanas e se estabiliza, sem lesão renal. O mesmo mecanismo eleva o nível da metformina.',
     x: { A: 'O dolutegravir tem alta barreira genética, e a resistência é rara.', C: 'Não há contraindicação por idade para o uso do dolutegravir.', D: 'Cátions como alumínio, magnésio, cálcio e ferro quelam o fármaco e reduzem a absorção.' },
@@ -93,7 +93,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Interações do dolutegravir',
     e: 'Homem de 58 anos, diabético em uso de metformina, inicia tenofovir, lamivudina e dolutegravir. Em relação à interação entre dolutegravir e metformina, é correto afirmar que:',
-    o: ['A metformina anula o efeito antiviral do dolutegravir', 'O dolutegravir aumenta a exposição à metformina, exigindo monitorar a glicemia e, se preciso, ajustar a dose', 'A associação é absolutamente contraindicada', 'Não há qualquer interação entre os dois fármacos'],
+    o: ['A metformina anula o efeito antiviral do dolutegravir', 'Dolutegravir eleva a exposição à metformina: monitorar glicemia', 'A associação é absolutamente contraindicada', 'Não há qualquer interação entre os dois fármacos'],
     g: 'B',
     c: 'O dolutegravir inibe os transportadores renais OCT2 e MATE1, que eliminam a metformina, elevando sua concentração plasmática. Isso aumenta o risco de efeitos adversos, como intolerância gastrointestinal e hipoglicemia, e pode exigir limitar a dose da metformina, mas não impede o uso conjunto.',
     x: { A: 'A metformina não reduz a concentração nem a eficácia do dolutegravir.', C: 'A associação é permitida, com monitorização e ajuste de dose.', D: 'Existe interação relevante por inibição da eliminação renal da metformina.' },
@@ -101,7 +101,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Coinfecção com tuberculose',
     e: 'Homem de 36 anos recebe diagnóstico simultâneo de tuberculose pulmonar e infecção pelo HIV e inicia rifampicina, isoniazida, pirazinamida e etambutol. Ao prescrever tenofovir, lamivudina e dolutegravir, o ajuste necessário é:',
-    o: ['Substituir a rifampicina por estreptomicina', 'Administrar o dolutegravir duas vezes ao dia durante o uso da rifampicina', 'Reduzir a dose do dolutegravir pela metade', 'Suspender a lamivudina enquanto durar o tratamento da tuberculose'],
+    o: ['Substituir a rifampicina por estreptomicina', 'Dolutegravir duas vezes ao dia durante a rifampicina', 'Reduzir a dose do dolutegravir pela metade', 'Suspender a lamivudina durante o tratamento da TB'],
     g: 'B',
     c: 'A rifampicina é potente indutora da UGT1A1 e do citocromo P450 3A4, enzimas que metabolizam o dolutegravir, reduzindo sua concentração. Para compensar, o dolutegravir passa a ser dado de 12 em 12 horas durante o tratamento e por mais duas semanas após o término da rifampicina, tempo necessário para o efeito indutor desaparecer.',
     x: { A: 'A rifampicina é o fármaco mais importante do esquema e deve ser mantida.', C: 'Reduzir a dose agravaria a queda de nível causada pela indução enzimática.', D: 'A lamivudina não tem interação relevante com os tuberculostáticos.' },
@@ -109,7 +109,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'TARV e tuberculose pulmonar',
     e: 'Em pessoa vivendo com HIV, virgem de tratamento, com tuberculose pulmonar sem acometimento do sistema nervoso central, a terapia antirretroviral deve ser iniciada:',
-    o: ['Somente após o término dos 6 meses de tratamento da tuberculose', 'Precocemente, nas primeiras semanas após o início do tratamento da tuberculose', 'Antes do tratamento da tuberculose, que deve ser adiado', 'Apenas se o CD4 estiver acima de 350'],
+    o: ['Somente após o término dos 6 meses de tratamento da TB', 'Precocemente, nas primeiras semanas do tratamento da TB', 'Antes do tratamento da TB, adiando o esquema', 'Apenas se o CD4 estiver acima de 350 células/mm³'],
     g: 'B',
     c: 'Trata-se primeiro a tuberculose e introduz-se a terapia antirretroviral logo em seguida, nas primeiras semanas, pois o início precoce reduz a mortalidade, sobretudo nos pacientes com CD4 baixo. O risco de síndrome de reconstituição imune aumenta, mas na forma pulmonar ele é superado pelo benefício.',
     x: { A: 'Adiar até o fim do tratamento aumenta muito a mortalidade.', C: 'A tuberculose é tratada primeiro; não se adia o esquema tuberculostático.', D: 'Quanto menor o CD4, maior a urgência de iniciar os antirretrovirais.' },
@@ -117,7 +117,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Adiar a TARV',
     e: 'Paciente de 34 anos, com diagnóstico recente de HIV e CD4 de 28 células por mm3, é internado com meningite criptocócica e inicia tratamento antifúngico. Em relação à terapia antirretroviral, a conduta correta é:',
-    o: ['Iniciar no mesmo dia do antifúngico', 'Adiar o início por cerca de 4 a 6 semanas após o começo do tratamento antifúngico', 'Não iniciar enquanto o CD4 estiver abaixo de 50', 'Iniciar apenas após 12 meses de fluconazol'],
+    o: ['Iniciar no mesmo dia do antifúngico', 'Adiar o início por ~4 a 6 semanas após o antifúngico', 'Não iniciar enquanto o CD4 estiver abaixo de 50', 'Iniciar apenas após 12 meses de fluconazol'],
     g: 'B',
     c: 'Na meningite criptocócica, o início precoce dos antirretrovirais aumenta a mortalidade, pois a recuperação imune em um espaço fechado, com grande carga fúngica, agrava a inflamação e a hipertensão intracraniana. Por isso aguarda-se a fase de indução e o controle da infecção. O mesmo raciocínio de adiamento vale para a meningite tuberculosa.',
     x: { A: 'O início imediato aumenta a mortalidade por reconstituição imune no sistema nervoso central.', C: 'O CD4 muito baixo torna o tratamento necessário, apenas com o momento ajustado.', D: 'Esperar 12 meses deixa o paciente exposto a outras doenças oportunistas.' },
@@ -125,7 +125,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Gestante',
     e: 'Gestante de 14 semanas, sem tratamento prévio, recebe diagnóstico de infecção pelo HIV no pré-natal. Está assintomática, com CD4 de 520 células por mm3. A conduta em relação à terapia antirretroviral é:',
-    o: ['Iniciar somente no terceiro trimestre para evitar teratogenicidade', 'Iniciar imediatamente, após coleta de genotipagem, sem aguardar o resultado', 'Usar zidovudina isolada até o parto', 'Não tratar, pois o CD4 está acima de 500'],
+    o: ['Iniciar só no terceiro trimestre, por teratogenicidade', 'Iniciar já, após coletar a genotipagem, sem aguardar', 'Usar zidovudina isolada até o parto, por segurança', 'Não tratar, pois o CD4 está acima de 500'],
     g: 'B',
     c: 'Toda gestante vivendo com HIV deve iniciar terapia antirretroviral combinada o quanto antes, pois a carga viral materna é o principal determinante da transmissão vertical. A genotipagem pré-tratamento é indicada na gestação, mas o início não deve esperar o resultado. O esquema preferencial é tenofovir, lamivudina e dolutegravir.',
     x: { A: 'Adiar reduz o tempo para atingir carga viral indetectável antes do parto.', C: 'A monoterapia com zidovudina é inferior e favorece resistência.', D: 'O tratamento é indicado para todas as gestantes, independentemente do CD4.' },
@@ -133,7 +133,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Coinfecção com hepatite B',
     e: 'Homem de 44 anos, coinfectado por HIV e vírus da hepatite B, em uso de tenofovir, lamivudina e dolutegravir com carga viral indetectável, decide interromper os medicamentos por conta própria. O risco específico dessa interrupção, relacionado à coinfecção, é:',
-    o: ['Reativação de tuberculose latente', 'Exacerbação aguda da hepatite B, com risco de descompensação hepática', 'Desenvolvimento de resistência à insulina', 'Nefrolitíase de rebote'],
+    o: ['Reativação de tuberculose latente, com febre', 'Exacerbação aguda da hepatite B, com risco hepático', 'Resistência à insulina, com hiperglicemia', 'Nefrolitíase de rebote, com cólica renal'],
     g: 'B',
     c: 'Tenofovir e lamivudina são ativos também contra o vírus da hepatite B. A suspensão libera a replicação desse vírus e a resposta imune contra os hepatócitos infectados pode causar hepatite aguda grave. Por isso o esquema do coinfectado deve sempre conter tenofovir, e a troca de fármacos precisa preservar a cobertura para hepatite B.',
     x: { A: 'A reativação de tuberculose não é o risco específico ligado à hepatite B.', C: 'A suspensão dos fármacos não causa resistência à insulina.', D: 'Não existe nefrolitíase de rebote após suspensão desses fármacos.' },
@@ -141,7 +141,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Genotipagem pré-tratamento',
     e: 'No Brasil, a genotipagem antes do início da terapia antirretroviral está indicada em todas as situações abaixo, EXCETO:',
-    o: ['Gestantes', 'Crianças e adolescentes', 'Pessoas com tuberculose ativa', 'Todo adulto assintomático, obrigatoriamente antes de iniciar o tratamento'],
+    o: ['Gestantes, em qualquer idade gestacional', 'Crianças e adolescentes, em qualquer CD4', 'Pessoas com tuberculose ativa em tratamento', 'Todo adulto assintomático, antes de iniciar'],
     g: 'D',
     c: 'A genotipagem pré-tratamento não é feita de rotina em todos os adultos, pois o esquema inicial com dolutegravir tem alta barreira genética. Ela é reservada a grupos em que a resistência transmitida teria maior impacto, como gestantes, crianças, pessoas com tuberculose e pessoas que se infectaram com parceiro em uso de antirretrovirais ou em uso de profilaxia pré-exposição. Mesmo nesses casos, o início do tratamento não deve ser adiado.',
     x: { A: 'Na gestação a genotipagem é indicada, pelo impacto na transmissão vertical.', B: 'Crianças e adolescentes têm indicação de genotipagem antes de tratar.', C: 'Na tuberculose há indicação, pois as opções de esquema ficam mais restritas.' },
@@ -149,7 +149,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Falha virológica',
     e: 'Homem de 39 anos usa tenofovir, lamivudina e efavirenz há 2 anos. A carga viral, antes indetectável, é agora de 8.400 cópias por mL em duas medidas com intervalo de 4 semanas. Ele admite esquecer doses com frequência. A conduta mais adequada é:',
-    o: ['Trocar o esquema de imediato e de forma empírica, sem outros exames', 'Reforçar a adesão e solicitar genotipagem com o paciente ainda em uso do esquema atual', 'Suspender os antirretrovirais por 3 meses e depois genotipar', 'Manter o esquema e repetir a carga viral em 1 ano'],
+    o: ['Trocar o esquema de imediato, sem outros exames', 'Reforçar a adesão e pedir genotipagem em uso do esquema atual', 'Suspender os ARV por 3 meses e depois genotipar', 'Manter o esquema e repetir a carga viral em 1 ano'],
     g: 'B',
     c: 'Carga viral detectável após 6 meses de tratamento ou rebote após supressão, confirmada em segunda coleta, caracteriza falha virológica, cuja principal causa é a má adesão. A genotipagem deve ser colhida com o paciente em uso dos medicamentos, pois sem a pressão seletiva as cepas selvagens voltam a predominar e as mutações deixam de ser detectadas.',
     x: { A: 'A troca deve ser guiada pela genotipagem, e não feita às cegas.', C: 'Sem os fármacos, as mutações de resistência ficam ocultas no exame.', D: 'Manter viremia sob tratamento acumula novas mutações de resistência.' },
@@ -173,7 +173,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Indetectável igual a intransmissível',
     e: 'Casal sorodiferente procura orientação. Ele vive com HIV, usa antirretrovirais com boa adesão e mantém carga viral indetectável há 2 anos. Sobre o risco de transmissão sexual para a parceira, deve-se informar que:',
-    o: ['O risco é igual ao de uma pessoa sem tratamento', 'Não há transmissão sexual do HIV por pessoas com carga viral indetectável sustentada há pelo menos 6 meses', 'O risco só é zero se o CD4 estiver acima de 500', 'A supressão viral também protege contra sífilis e gonorreia'],
+    o: ['O risco é igual ao de uma pessoa sem tratamento', 'Sem transmissão sexual com carga viral indetectável há ≥ 6 meses', 'O risco só é zero se o CD4 estiver acima de 500', 'A supressão viral também protege contra sífilis e gonorreia'],
     g: 'B',
     c: 'Grandes estudos com casais sorodiferentes não registraram transmissão sexual a partir de parceiros com carga viral suprimida de forma sustentada, o que fundamenta o conceito de indetectável igual a intransmissível. Sem vírus em quantidade nas secreções genitais, não há inóculo para infectar o parceiro. O preservativo continua útil contra outras infecções sexualmente transmissíveis.',
     x: { A: 'A supressão viral sustentada elimina o risco de transmissão sexual.', C: 'O conceito depende da carga viral, e não do valor de CD4.', D: 'A supressão do HIV não oferece proteção contra outras infecções sexuais.' },
@@ -181,7 +181,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Síndrome de reconstituição imune',
     e: 'Homem de 30 anos, com CD4 de 35 células por mm3, iniciou tratamento para tuberculose ganglionar com boa resposta e, duas semanas depois, terapia antirretroviral. Após 3 semanas do antirretroviral, volta com febre e aumento doloroso dos linfonodos cervicais. A carga viral caiu de forma acentuada. A principal hipótese e a conduta são:',
-    o: ['Falha do tratamento da tuberculose; trocar todo o esquema', 'Síndrome inflamatória da reconstituição imune paradoxal; manter os tratamentos e usar anti-inflamatório ou corticoide conforme a gravidade', 'Reação adversa ao dolutegravir; suspender a terapia antirretroviral', 'Linfoma; iniciar quimioterapia'],
+    o: ['Falha do tratamento da TB; trocar todo o esquema', 'IRIS paradoxal; manter tratamentos e usar anti-inflamatório', 'Reação adversa ao dolutegravir; suspender o ARV', 'Linfoma; iniciar quimioterapia de imediato'],
     g: 'B',
     c: 'A recuperação da resposta imune, sinalizada pela queda da carga viral, desencadeia inflamação exagerada contra antígenos de um agente já em tratamento, com piora clínica paradoxal. É mais comum quando o CD4 inicial é muito baixo e a terapia começa logo após o tratamento da infecção. Os antirretrovirais são mantidos, e corticoide é usado nos casos mais intensos.',
     x: { A: 'Houve boa resposta inicial e não há dado de resistência; a piora é inflamatória.', C: 'Suspender os antirretrovirais só se justifica em casos com risco de vida.', D: 'A relação temporal com a queda da carga viral aponta para reconstituição imune.' },
@@ -189,7 +189,7 @@ export const HIV_2: QuestaoCompacta[] = [
   {
     s: 'Reconstituição imune desmascarada',
     e: 'Diferentemente da forma paradoxal, a síndrome inflamatória da reconstituição imune do tipo desmascarada caracteriza-se por:',
-    o: ['Piora de infecção oportunista que já estava diagnosticada e em tratamento', 'Aparecimento, após o início dos antirretrovirais, de infecção oportunista até então subclínica e não diagnosticada', 'Reação alérgica aos antirretrovirais', 'Aumento progressivo da carga viral'],
+    o: ['Piora de infecção oportunista já diagnosticada e em tratamento', 'Surgimento, após os ARV, de oportunista até então subclínica', 'Reação alérgica aos antirretrovirais, em geral cutânea', 'Aumento progressivo da carga viral, apesar do tratamento'],
     g: 'B',
     c: 'Na forma desmascarada, uma infecção que estava presente de modo silencioso, por falta de resposta imune, torna-se evidente e inflamatória quando a imunidade se recupera. Por isso é importante rastrear tuberculose e criptococose antes de iniciar o tratamento em pessoas com CD4 muito baixo.',
     x: { A: 'Essa descrição corresponde à forma paradoxal da síndrome.', C: 'A síndrome é resposta imune a agentes infecciosos, e não alergia a fármaco.', D: 'Na síndrome a carga viral cai, refletindo a eficácia do tratamento.' },

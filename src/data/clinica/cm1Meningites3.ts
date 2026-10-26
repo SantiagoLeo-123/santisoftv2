@@ -21,7 +21,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Empírico pós-neurocirurgia',
     e: 'Homem de 49 anos, no 8º dia de pós-operatório de ressecção de meningioma, apresenta febre, cefaleia e rebaixamento do nível de consciência. O líquor mostra 1.250 células/mm³ (87% de neutrófilos), proteína de 260 mg/dL e glicose de 19 mg/dL. O esquema empírico mais adequado é:',
-    o: ['Ceftriaxona associada a ampicilina', 'Vancomicina associada a cefepime ou meropenem', 'Penicilina cristalina isolada', 'Ceftriaxona isolada'],
+    o: ['Ceftriaxona associada a ampicilina, em dose plena', 'Vancomicina associada a cefepime ou meropenem', 'Penicilina cristalina isolada, em dose plena', 'Ceftriaxona isolada, em dose plena, por via venosa'],
     g: 'B',
     c: 'A meningite pós-neurocirurgia é causada por estafilococos, incluindo cepas resistentes à oxacilina, e por bacilos gram-negativos hospitalares, como Pseudomonas e Acinetobacter. O esquema deve unir vancomicina a um betalactâmico com ação antipseudomonas e boa penetração liquórica, como cefepime, ceftazidima ou meropenem.',
     x: { A: 'Esse esquema é voltado para agentes comunitários e Listeria, sem cobrir estafilococo resistente e Pseudomonas.', C: 'A penicilina não cobre estafilococos hospitalares nem bacilos gram-negativos.', D: 'A ceftriaxona não tem ação confiável contra Pseudomonas nem contra estafilococo resistente.' },
@@ -37,7 +37,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento da Listeria',
     e: 'Homem de 71 anos em tratamento empírico de meningite tem hemocultura e cultura do líquor positivas para Listeria monocytogenes. O tratamento dirigido de escolha é:',
-    o: ['Ceftriaxona em dose dobrada', 'Ampicilina, podendo-se associar gentamicina', 'Vancomicina isolada', 'Ciprofloxacino oral'],
+    o: ['Ceftriaxona em dose dobrada, por via venosa', 'Ampicilina, podendo associar gentamicina', 'Vancomicina isolada, por via venosa, em dose plena', 'Ciprofloxacino oral, em dose plena, por 14 dias'],
     g: 'B',
     c: 'A ampicilina (ou a penicilina G) é a droga de escolha para a listeriose do sistema nervoso central, e a associação com aminoglicosídeo é frequentemente empregada pelo sinergismo. Em alérgicos graves à penicilina, a alternativa é o sulfametoxazol-trimetoprima, e o tratamento deve ser prolongado, de pelo menos 21 dias.',
     x: { A: 'A Listeria é intrinsecamente resistente às cefalosporinas, qualquer que seja a dose.', C: 'A vancomicina tem resultados clínicos insatisfatórios na meningite por Listeria.', D: 'A via oral e as quinolonas não são tratamento adequado para listeriose meníngea.' },
@@ -53,7 +53,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Dexametasona: benefício',
     e: 'O benefício da dexametasona adjuvante na meningite bacteriana está mais bem demonstrado para os seguintes agentes e desfechos:',
-    o: ['Meningococo, com redução da necessidade de quimioprofilaxia dos contatos', 'Pneumococo no adulto, com redução de mortalidade e sequelas, e Haemophilus influenzae na criança, com redução de surdez', 'Listeria, com redução do tempo de tratamento', 'Estafilococo, com menor taxa de infecção de derivações'],
+    o: ['Meningococo, com menos necessidade de quimioprofilaxia dos contatos', 'Pneumococo (adulto) e Haemophilus (criança): menos mortalidade e surdez', 'Listeria, com redução do tempo de tratamento', 'Estafilococo, com menos infecção de derivações'],
     g: 'B',
     c: 'Os ensaios clínicos mostraram redução de mortalidade e de sequelas neurológicas na meningite pneumocócica do adulto e redução de perda auditiva na meningite por Haemophilus influenzae tipo b da criança. Por isso o corticoide é iniciado empiricamente e interrompido quando outro agente é identificado.',
     x: { A: 'O corticoide não interfere na indicação de quimioprofilaxia, e o benefício no meningococo não foi demonstrado.', C: 'Na listeriose o corticoide não traz benefício e pode ser prejudicial.', D: 'Não há papel do corticoide na prevenção de infecção de derivações.' },
@@ -69,7 +69,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Duração por agente',
     e: 'Assinale a associação correta entre o agente da meningite bacteriana e a duração habitual do tratamento:',
-    o: ['Pneumococo: 3 a 5 dias', 'Pneumococo: 10 a 14 dias; Listeria: pelo menos 21 dias', 'Listeria: 5 a 7 dias', 'Bacilos gram-negativos entéricos: 7 dias'],
+    o: ['Pneumococo: 3 a 5 dias de tratamento venoso', 'Pneumococo: 10-14 dias; Listeria: ao menos 21 dias', 'Listeria: 5 a 7 dias de tratamento venoso', 'Bacilos gram-negativos entéricos: 7 dias'],
     g: 'B',
     c: 'A meningite pneumocócica exige 10 a 14 dias por sua maior carga inflamatória e pelo risco de complicações supurativas. A Listeria, por ser intracelular, e os bacilos gram-negativos, pela esterilização mais lenta do líquor e pelo maior risco de recaída, demandam pelo menos 21 dias.',
     x: { A: 'Tratar o pneumococo por 3 a 5 dias é insuficiente e aumenta o risco de falha.', C: 'A Listeria requer tratamento prolongado, de pelo menos 3 semanas.', D: 'Os bacilos gram-negativos exigem cerca de 21 dias de tratamento.' },
@@ -77,7 +77,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Meningococcemia',
     e: 'Homem de 18 anos chega ao pronto-socorro com febre há 8 horas, mialgia intensa, petéquias e áreas purpúricas em rápida progressão, pressão arterial de 70 x 40 mmHg, extremidades frias e tempo de enchimento capilar prolongado. Não há rigidez de nuca. A conduta imediata é:',
-    o: ['Realizar punção lombar e aguardar o resultado para iniciar o antibiótico', 'Colher hemoculturas, iniciar ceftriaxona imediatamente e ressuscitação volêmica, sem atrasar o tratamento para a punção', 'Solicitar tomografia de crânio antes de qualquer medida', 'Prescrever corticoide em dose alta e observar a evolução do exantema'],
+    o: ['Puncionar e aguardar o resultado para iniciar o antibiótico', 'Hemoculturas, ceftriaxona imediata e volume; sem atrasar por punção', 'TC de crânio antes de qualquer medida terapêutica', 'Corticoide em dose alta e observar o exantema'],
     g: 'B',
     c: 'Febre com púrpura de progressão rápida e choque deve ser tratada como meningococcemia até prova em contrário, e o antibiótico não pode ser adiado por nenhum exame. A endotoxina do meningococo causa lesão endotelial, extravasamento capilar, depressão miocárdica e coagulação intravascular, de modo que a reposição volêmica agressiva e o suporte hemodinâmico são tão importantes quanto o antibiótico.',
     x: { A: 'No choque a punção é contraindicada pela instabilidade e atrasaria o antibiótico.', C: 'A tomografia não tem prioridade em paciente em choque e sem sinais neurológicos.', D: 'Observar a evolução sem antibiótico em doença fulminante é conduta fatal.' },
@@ -85,7 +85,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Waterhouse-Friderichsen',
     e: 'A síndrome de Waterhouse-Friderichsen, complicação da meningococcemia fulminante, caracteriza-se por:',
-    o: ['Trombose dos seios venosos durais com infarto cerebral', 'Necrose hemorrágica bilateral das adrenais, com choque refratário e coagulação intravascular disseminada', 'Hidrocefalia obstrutiva aguda por exsudato nas cisternas da base', 'Surdez neurossensorial bilateral por labirintite'],
+    o: ['Trombose de seios durais com infarto cerebral', 'Necrose hemorrágica bilateral das adrenais, choque refratário e CIVD', 'Hidrocefalia obstrutiva aguda por exsudato nas cisternas', 'Surdez neurossensorial bilateral por labirintite'],
     g: 'B',
     c: 'Na meningococcemia fulminante, a coagulação intravascular e a lesão endotelial causam hemorragia e necrose bilateral das glândulas adrenais, levando a insuficiência adrenal aguda. O quadro se manifesta por choque refratário, púrpura extensa e alta letalidade.',
     x: { A: 'A trombose de seios venosos é outra complicação e não define a síndrome.', C: 'A hidrocefalia é complicação da meningite, sem relação com as adrenais.', D: 'A surdez é sequela da meningite e não compõe a síndrome de Waterhouse-Friderichsen.' },
@@ -93,7 +93,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Prognóstico na doença meningocócica',
     e: 'Todos os achados abaixo indicam pior prognóstico na doença meningocócica, EXCETO:',
-    o: ['Choque na admissão', 'Púrpura extensa de progressão rápida', 'Leucopenia e plaquetopenia', 'Presença de meningite com líquor purulento e sinais meníngeos evidentes'],
+    o: ['Choque na admissão, como fator de mau prognóstico', 'Púrpura extensa de progressão rápida, de mau prognóstico', 'Leucopenia e plaquetopenia, como fatores de mau prognóstico', 'Meningite com líquor purulento e sinais meníngeos evidentes'],
     g: 'D',
     c: 'A forma de pior prognóstico é a meningococcemia sem meningite, em que a bacteremia é tão rápida que leva ao choque antes de haver resposta inflamatória no líquor. A presença de meningite franca indica evolução mais lenta e maior capacidade de resposta do hospedeiro, com letalidade bem menor.',
     x: { A: 'O choque na admissão é o principal marcador de letalidade.', B: 'A púrpura extensa e rápida reflete coagulação intravascular e doença fulminante.', C: 'Leucopenia e plaquetopenia traduzem consumo e resposta inadequada, com pior evolução.' },
@@ -109,7 +109,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Quimioprofilaxia: droga de escolha',
     e: 'A droga de escolha para a quimioprofilaxia dos contatos íntimos de um caso de doença meningocócica, segundo o Ministério da Saúde, é:',
-    o: ['Amoxicilina por 7 dias', 'Rifampicina a cada 12 horas por 2 dias', 'Penicilina benzatina em dose única', 'Azitromicina por 5 dias'],
+    o: ['Amoxicilina por 7 dias, por via oral', 'Rifampicina a cada 12 horas por 2 dias', 'Penicilina benzatina em dose única', 'Azitromicina por 5 dias, por via oral'],
     g: 'B',
     c: 'A rifampicina atinge alta concentração nas secreções respiratórias e erradica o estado de portador da nasofaringe, interrompendo a cadeia de transmissão. Deve ser dada o mais cedo possível, de preferência nas primeiras 48 horas após a exposição, e as alternativas são ceftriaxona intramuscular em dose única e ciprofloxacino oral em dose única.',
     x: { A: 'A amoxicilina não erradica o meningococo da nasofaringe de forma confiável.', C: 'A penicilina benzatina não atinge nível adequado nas secreções e não elimina o portador.', D: 'A azitromicina por 5 dias não é o esquema preconizado para essa finalidade.' },
@@ -117,7 +117,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Quimioprofilaxia: indicações',
     e: 'Diante de um caso confirmado de meningite meningocócica em um adulto, a quimioprofilaxia está indicada para todos os contatos abaixo, EXCETO:',
-    o: ['Pessoas que residem no mesmo domicílio do paciente', 'Parceiro com quem houve troca de saliva por beijo', 'Colegas que compartilham o mesmo dormitório em alojamento', 'Técnico de enfermagem que aferiu os sinais vitais do paciente sem contato com secreções respiratórias'],
+    o: ['Pessoas que moram no mesmo domicílio do paciente', 'Parceiro com quem houve troca de saliva por beijo', 'Colegas que dividem o mesmo dormitório em alojamento', 'Técnico que aferiu sinais vitais, sem contato com secreções'],
     g: 'D',
     c: 'A quimioprofilaxia é indicada aos contatos próximos, isto é, moradores do mesmo domicílio, pessoas que compartilham dormitório, comunicantes de creches e escolas infantis e indivíduos diretamente expostos às secreções do paciente. O profissional de saúde só a recebe se tiver realizado procedimentos com exposição a secreções respiratórias sem proteção, e não pelo cuidado rotineiro.',
     x: { A: 'Os contatos domiciliares têm o maior risco de doença secundária e devem receber profilaxia.', B: 'A troca de saliva é exposição direta às secreções e indica profilaxia.', C: 'Quem divide dormitório tem contato próximo e prolongado, com indicação de profilaxia.' },
@@ -141,7 +141,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Erradicação do portador no caso índice',
     e: 'Homem de 34 anos com meningite meningocócica foi tratado com penicilina cristalina por 7 dias, com boa evolução. Antes da alta hospitalar, deve-se:',
-    o: ['Repetir a punção lombar para confirmar a cura', 'Prescrever quimioprofilaxia ao próprio paciente, pois a penicilina não erradica o meningococo da nasofaringe', 'Manter o isolamento por gotículas até a alta', 'Prolongar a penicilina por mais 14 dias'],
+    o: ['Repetir a punção lombar para confirmar a cura', 'Quimioprofilaxia ao paciente: a penicilina não erradica o meningococo', 'Manter o isolamento por gotículas até a alta hospitalar', 'Prolongar a penicilina por mais 14 dias seguidos'],
     g: 'B',
     c: 'A penicilina e a ampicilina tratam a doença invasiva, mas não eliminam de forma confiável o estado de portador na nasofaringe, de modo que o paciente poderia continuar transmitindo o agente. Por isso ele deve receber o esquema de erradicação antes da alta, medida dispensável quando o tratamento foi feito com ceftriaxona.',
     x: { A: 'A punção de controle não é necessária em paciente com boa evolução clínica.', C: 'O isolamento por gotículas só é necessário nas primeiras 24 horas de antibiótico eficaz.', D: 'Sete dias de tratamento são suficientes para a meningite meningocócica.' },
@@ -149,7 +149,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Profilaxia no Haemophilus',
     e: 'Em relação à quimioprofilaxia dos contatos de um caso de meningite por Haemophilus influenzae tipo b, é correto afirmar que:',
-    o: ['Não existe indicação de quimioprofilaxia para esse agente', 'É feita com rifampicina uma vez ao dia por 4 dias, para os contatos domiciliares quando há criança menor de 4 anos não vacinada ou com vacinação incompleta', 'É feita com penicilina benzatina em dose única para todos os colegas de trabalho', 'É indicada apenas para profissionais de saúde'],
+    o: ['Não há indicação de quimioprofilaxia para esse agente', 'Rifampicina 1x/dia por 4 dias a domiciliares com criança < 4 anos', 'Penicilina benzatina em dose única para os colegas de trabalho', 'Indicada apenas para os profissionais de saúde expostos'],
     g: 'B',
     c: 'A profilaxia no Haemophilus visa proteger as crianças pequenas suscetíveis do domicílio, que são as de maior risco de doença invasiva. Havendo criança menor de 4 anos não vacinada ou com esquema incompleto, todos os moradores recebem rifampicina em dose diária única por 4 dias, esquema diferente do usado no meningococo.',
     x: { A: 'Há indicação formal de profilaxia em situações específicas, sobretudo no domicílio.', C: 'A penicilina benzatina não erradica o portador, e colegas de trabalho não são contatos de risco.', D: 'O alvo da profilaxia são os contatos domiciliares, e não o profissional de saúde.' },
@@ -157,7 +157,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Vacinas',
     e: 'Sobre a prevenção das meningites bacterianas por vacinação no Brasil, assinale a alternativa correta:',
-    o: ['Não existem vacinas contra os agentes de meningite bacteriana no calendário nacional', 'O calendário inclui vacinas conjugadas contra meningococo, pneumococo e Haemophilus influenzae tipo b, esta última como componente da vacina pentavalente', 'A vacina BCG protege contra a meningite meningocócica', 'A vacina contra o Haemophilus é de vírus vivo atenuado'],
+    o: ['Não existem vacinas contra meningite bacteriana no calendário', 'Conjugadas contra meningococo, pneumococo e Hib (pentavalente)', 'A BCG protege contra a meningite meningocócica', 'A vacina contra Haemophilus é de vírus vivo atenuado'],
     g: 'B',
     c: 'O Programa Nacional de Imunizações oferece a vacina meningocócica conjugada na infância, com reforço e dose na adolescência, a pneumocócica conjugada e a vacina contra o Haemophilus influenzae tipo b, que integra a pentavalente. Por serem conjugadas a proteínas, induzem memória imunológica já no lactente e reduzem o estado de portador, gerando proteção coletiva.',
     x: { A: 'O calendário nacional contempla os três principais agentes de meningite bacteriana.', C: 'A BCG protege contra as formas graves de tuberculose, como a meníngea e a miliar.', D: 'A vacina contra o Haemophilus é de polissacarídeo conjugado a proteína, e não de vírus vivo.' },
@@ -165,7 +165,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Notificação',
     e: 'Em relação à vigilância epidemiológica das meningites no Brasil, é correto afirmar que:',
-    o: ['Apenas os casos confirmados por cultura devem ser notificados', 'Todo caso suspeito de meningite é de notificação compulsória imediata, sem aguardar a confirmação laboratorial', 'A notificação é semanal e restrita à doença meningocócica', 'A notificação é facultativa nos serviços privados'],
+    o: ['Só casos confirmados por cultura são notificados', 'Todo caso suspeito: notificação compulsória imediata', 'Notificação semanal e restrita à doença meningocócica', 'Notificação facultativa nos serviços privados'],
     g: 'B',
     c: 'A doença meningocócica e as demais meningites são de notificação compulsória imediata, em até 24 horas, já na suspeita clínica. A rapidez é necessária para desencadear a investigação, a identificação dos contatos e a quimioprofilaxia em tempo oportuno, o que não seria possível se fosse preciso esperar a confirmação.',
     x: { A: 'A notificação é feita na suspeita, sem depender de confirmação laboratorial.', C: 'A notificação é imediata e abrange todas as meningites, não apenas a meningocócica.', D: 'A notificação é obrigatória para todos os serviços, públicos e privados.' },
@@ -173,7 +173,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Sequelas',
     e: 'A sequela neurológica permanente mais frequente da meningite bacteriana, particularmente da pneumocócica, é:',
-    o: ['Cegueira cortical', 'Perda auditiva neurossensorial', 'Paraplegia espástica', 'Anosmia'],
+    o: ['Cegueira cortical, por infarto occipital', 'Perda auditiva neurossensorial, por labirintite', 'Paraplegia espástica, por mielopatia associada', 'Anosmia, por lesão do nervo olfatório'],
     g: 'B',
     c: 'A inflamação se estende do espaço subaracnóideo à cóclea pelo aqueduto coclear, causando labirintite supurativa e lesão das células ciliadas. A perda auditiva pode surgir precocemente e ser irreversível, razão pela qual todo sobrevivente deve ser submetido a avaliação audiológica.',
     x: { A: 'A cegueira cortical é complicação rara, ligada a infartos occipitais.', C: 'A paraplegia não é sequela habitual da meningite bacteriana.', D: 'A anosmia não figura entre as sequelas frequentes da meningite bacteriana.' },
@@ -181,7 +181,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia',
     e: 'Mulher de 55 anos, no 3º dia de tratamento de meningite pneumocócica, torna-se mais sonolenta. Está euvolêmica, com sódio sérico de 122 mEq/L, osmolalidade plasmática baixa, sódio urinário de 58 mEq/L e osmolalidade urinária elevada. A causa mais provável da hiponatremia é:',
-    o: ['Diabetes insípido central', 'Síndrome de secreção inapropriada de hormônio antidiurético', 'Insuficiência adrenal primária por uso de dexametasona', 'Hiperaldosteronismo'],
+    o: ['Diabetes insípido central, com poliúria', 'Síndrome de secreção inapropriada de ADH (SIADH)', 'Insuficiência adrenal primária por dexametasona', 'Hiperaldosteronismo, com hipocalemia e hipertensão'],
     g: 'B',
     c: 'A inflamação do sistema nervoso central estimula a liberação não osmótica de hormônio antidiurético, com retenção de água livre. O resultado é hiponatremia hipotônica em paciente euvolêmico, com urina inapropriadamente concentrada e sódio urinário elevado, e a queda do sódio agrava o edema cerebral.',
     x: { A: 'O diabetes insípido causa poliúria com urina diluída e hipernatremia.', C: 'A dexametasona não provoca insuficiência adrenal primária em poucos dias de uso.', D: 'O hiperaldosteronismo cursa com hipertensão, hipocalemia e tendência a hipernatremia.' },
@@ -189,7 +189,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Piora no curso do tratamento',
     e: 'Homem de 47 anos com meningite pneumocócica secundária a sinusite frontal mantém febre no 6º dia de antibiótico adequado e desenvolve crise convulsiva focal e hemiparesia direita. A conduta e a principal hipótese são:',
-    o: ['Repetir a punção lombar imediatamente; resistência bacteriana', 'Solicitar neuroimagem com contraste; empiema subdural ou outra complicação supurativa intracraniana', 'Trocar o antibiótico por antifúngico; meningite criptocócica', 'Suspender o antibiótico; febre por droga'],
+    o: ['Repetir a punção lombar de imediato; resistência bacteriana', 'Neuroimagem com contraste; empiema subdural ou complicação', 'Trocar por antifúngico; meningite criptocócica', 'Suspender o antibiótico; febre por droga'],
     g: 'B',
     c: 'Febre persistente associada a sinais focais novos ou a convulsões no curso de uma meningite indica complicação intracraniana, como empiema subdural, abscesso, infarto por vasculite ou trombose venosa. A neuroimagem com contraste é o primeiro passo, e a punção lombar é arriscada enquanto não se afasta lesão com efeito de massa.',
     x: { A: 'Com déficit focal novo, a punção sem imagem prévia traz risco de herniação.', C: 'Não há dado que sugira etiologia fúngica em meningite pneumocócica confirmada.', D: 'A febre por droga não explica a convulsão focal nem a hemiparesia.' },
@@ -197,7 +197,7 @@ export const MENINGITES_3: QuestaoCompacta[] = [
   {
     s: 'Hidrocefalia',
     e: 'Mulher de 63 anos, no 9º dia de tratamento de meningite bacteriana, evolui com cefaleia progressiva, vômitos, lentificação e alteração da marcha. A tomografia mostra dilatação de todo o sistema ventricular. A complicação e seu mecanismo são:',
-    o: ['Abscesso cerebral por disseminação hematogênica', 'Hidrocefalia comunicante, por prejuízo da reabsorção do líquor nas granulações aracnóideas obstruídas pelo exsudato', 'Hemorragia intraparenquimatosa por coagulopatia', 'Encefalite herpética associada'],
+    o: ['Abscesso cerebral por disseminação hematogênica', 'Hidrocefalia comunicante: exsudato obstrui as granulações', 'Hemorragia intraparenquimatosa por coagulopatia', 'Encefalite herpética associada ao quadro de base'],
     g: 'B',
     c: 'O exsudato inflamatório e a fibrose das leptomeninges obstruem as granulações aracnóideas, reduzindo a reabsorção do líquor, o que dilata todo o sistema ventricular (hidrocefalia comunicante). Em outros casos, o bloqueio ocorre nas cisternas da base ou nos forames do quarto ventrículo, e a hidrocefalia sintomática pode exigir derivação liquórica.',
     x: { A: 'O abscesso apareceria como lesão focal com realce anelar, e não como dilatação ventricular.', C: 'A tomografia não mostra hemorragia, e sim dilatação ventricular difusa.', D: 'A encefalite herpética acomete os lobos temporais e não explica a dilatação ventricular.' },

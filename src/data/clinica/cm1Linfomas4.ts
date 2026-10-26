@@ -5,7 +5,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Leucemia aguda: diagnóstico',
     e: 'O critério que define o diagnóstico de leucemia aguda, na maioria das situações, é:',
-    o: ['Leucocitose acima de 100.000/mm3 no sangue periférico', 'Presença de 20% ou mais de blastos na medula óssea ou no sangue periférico', 'Pancitopenia com medula óssea hipocelular', 'Presença de qualquer número de blastos no sangue periférico'],
+    o: ['Leucocitose acima de 100.000/mm³ no sangue periférico', 'Presença de ≥ 20% de blastos na medula ou no sangue', 'Pancitopenia com medula óssea hipocelular', 'Qualquer número de blastos no sangue periférico'],
     g: 'B',
     c: 'A leucemia aguda resulta de bloqueio de maturação com proliferação de precursores imaturos, e o limiar clássico é de 20% de blastos. Os blastos ocupam a medula e suprimem a hematopoese normal, causando anemia, neutropenia e plaquetopenia. A contagem de leucócitos pode estar alta, normal ou baixa, e algumas alterações genéticas definidoras permitem o diagnóstico de leucemia mieloide aguda com percentual menor.',
     x: { A: 'A leucometria é variável; muitas leucemias agudas cursam com leucopenia.', C: 'Pancitopenia com medula hipocelular define a anemia aplásica, não a leucemia aguda.', D: 'Blastos circulantes em pequeno número ocorrem em mielofibrose e reações leucoeritroblásticas.' },
@@ -21,7 +21,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Leucemia promielocítica: diagnóstico e conduta',
     e: 'Mulher de 32 anos é admitida com gengivorragia, metrorragia e equimoses extensas há 5 dias. Exames: hemoglobina de 8,0 g/dL, leucócitos de 2.100/mm3, plaquetas de 14.000/mm3, tempo de protrombina alargado, fibrinogênio de 70 mg/dL e dímero D muito elevado. O esfregaço mostra promielócitos anômalos hipergranulares com múltiplos bastonetes de Auer em feixes. A conduta imediata é:',
-    o: ['Aguardar o resultado da citogenética para iniciar o tratamento', 'Iniciar ácido transretinoico (ATRA) imediatamente, diante da suspeita morfológica, com suporte transfusional', 'Iniciar heparina em dose plena para tratar a coagulação intravascular', 'Iniciar hidroxiureia e programar leucoaférese'],
+    o: ['Aguardar a citogenética para iniciar o tratamento instituído', 'Iniciar ATRA já, na suspeita morfológica, com suporte transfusional', 'Iniciar heparina em dose plena para tratar a CIVD instalada', 'Iniciar hidroxiureia e programar a leucoaférese de urgência'],
     g: 'B',
     c: 'A leucemia promielocítica aguda é emergência: os grânulos dos promielócitos liberam fator tecidual e ativadores da fibrinólise, causando coagulopatia com sangramento fatal precoce, sobretudo intracraniano. O ATRA induz a diferenciação dos promielócitos e corrige a coagulopatia em dias, devendo ser iniciado na suspeita, sem esperar a confirmação genética. Associam-se plaquetas, crioprecipitado e plasma para manter alvos seguros.',
     x: { A: 'A mortalidade por hemorragia é precoce; esperar a citogenética pode ser fatal.', C: 'A heparina não é indicada de rotina e aumenta o risco de sangramento nesse contexto.', D: 'A hidroxiureia não trata a coagulopatia, e a leucoaférese é contraindicada nessa leucemia.' },
@@ -29,7 +29,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Leucemia promielocítica: genética',
     e: 'A alteração genética característica da leucemia promielocítica aguda (subtipo M3) e seu efeito são:',
-    o: ['t(9;22), gerando a tirosina-quinase BCR-ABL', 't(15;17), gerando a proteína de fusão PML-RARA, que bloqueia a diferenciação no estágio de promielócito', 't(8;21), com bom prognóstico e sem coagulopatia associada', 'inv(16), associada a eosinófilos anômalos na medula'],
+    o: ['t(9;22), gerando a tirosina-quinase BCR-ABL', 't(15;17), PML-RARA: bloqueia a diferenciação no promielócito', 't(8;21), com bom prognóstico e sem coagulopatia', 'inv(16), com eosinófilos anômalos na medula'],
     g: 'B',
     c: 'A t(15;17) funde o gene PML ao gene do receptor alfa do ácido retinoico. A proteína quimérica reprime os genes necessários à maturação mieloide, e as células ficam paradas no estágio de promielócito. Doses farmacológicas de ácido transretinoico, associadas ao trióxido de arsênio, degradam a proteína de fusão e liberam a diferenciação, tornando essa a leucemia mieloide aguda de melhor prognóstico.',
     x: { A: 'A t(9;22) caracteriza a leucemia mieloide crônica e parte das linfoides agudas.', C: 'A t(8;21) ocorre em leucemia mieloide aguda com maturação, não na promielocítica.', D: 'A inv(16) define a leucemia mielomonocítica com eosinofilia, de bom prognóstico.' },
@@ -37,7 +37,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'LMA monocítica',
     e: 'Homem de 45 anos apresenta hiperplasia gengival dolorosa e sangrante, nódulos cutâneos violáceos e febre. Hemograma: leucócitos de 96.000/mm3 com 80% de blastos de aspecto monocitoide, anemia e plaquetopenia. O subtipo de leucemia mieloide aguda mais provável é:',
-    o: ['Promielocítica (M3)', 'Com diferenciação monocítica (M4 ou M5)', 'Eritroleucemia (M6)', 'Megacarioblástica (M7)'],
+    o: ['Promielocítica (M3), com t(15;17)', 'Com diferenciação monocítica (M4 ou M5)', 'Eritroleucemia (M6), com eritroblastos', 'Megacarioblástica (M7), com fibrose'],
     g: 'B',
     c: 'Os blastos de linhagem monocítica têm maior capacidade de migrar para os tecidos, o que explica a infiltração de gengiva, pele (leucemia cutânea) e sistema nervoso central nos subtipos mielomonocítico e monocítico. Esses subtipos também cursam com hiperleucocitose mais frequentemente e podem elevar a lisozima, com lesão tubular e hipocalemia.',
     x: { A: 'A promielocítica caracteriza-se por coagulopatia e leucopenia, sem hiperplasia gengival.', C: 'A eritroleucemia apresenta precursores eritroides displásicos, sem infiltração gengival.', D: 'A megacarioblástica associa-se a fibrose medular e à síndrome de Down em crianças.' },
@@ -45,7 +45,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Leucostase',
     e: 'Homem de 52 anos com leucemia mieloide aguda recém-diagnosticada e leucócitos de 210.000/mm3 apresenta dispneia, hipoxemia, infiltrado pulmonar difuso, cefaleia e sonolência. A hemoglobina é de 6,9 g/dL. Em relação ao manejo, é correto afirmar:',
-    o: ['Deve-se transfundir concentrado de hemácias de imediato para corrigir a anemia', 'Deve-se promover citorredução urgente com hidroxiureia ou quimioterapia, com hidratação e profilaxia de lise tumoral, evitando transfusão de hemácias antes da redução dos blastos', 'A leucostase só ocorre na leucemia linfocítica crônica', 'O quadro deve ser tratado como pneumonia, adiando a citorredução'],
+    o: ['Transfundir hemácias de imediato para corrigir a anemia grave', 'Citorredução urgente com hidratação; evitar transfundir hemácias antes', 'A leucostase só ocorre na leucemia linfocítica crônica', 'Tratar como pneumonia e adiar a citorredução por dias'],
     g: 'B',
     c: 'A leucostase ocorre quando blastos grandes e pouco deformáveis, em número muito elevado, obstruem a microcirculação e lesam o endotélio, principalmente no pulmão e no sistema nervoso central. É emergência com alta mortalidade precoce, e a medida central é reduzir rapidamente os blastos. A transfusão de hemácias aumenta a viscosidade e pode agravar o quadro, devendo ser evitada ou feita com cautela.',
     x: { A: 'A transfusão de hemácias eleva a viscosidade e pode piorar a obstrução microvascular.', C: 'Linfócitos maduros são pequenos e deformáveis; a leucostase é típica dos blastos mieloides.', D: 'Adiar a citorredução mantém a obstrução microvascular, com alto risco de morte.' },
@@ -61,7 +61,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'LLA: santuários',
     e: 'Na leucemia linfoide aguda, o tratamento inclui obrigatoriamente quimioterapia intratecal porque:',
-    o: ['A doença se origina nas meninges na maioria dos casos', 'O sistema nervoso central é um santuário, onde os fármacos sistêmicos penetram mal e as células leucêmicas podem persistir e causar recidiva', 'A quimioterapia intratecal substitui a quimioterapia sistêmica de manutenção', 'A punção lombar seriada reduz a pressão intracraniana elevada pela doença'],
+    o: ['A doença se origina nas meninges na maioria dos casos', 'O SNC é santuário: pouca penetração sistêmica e recidiva', 'A QT intratecal substitui a QT sistêmica de manutenção', 'A punção lombar seriada reduz a pressão intracraniana'],
     g: 'B',
     c: 'A barreira hematoencefálica limita a entrada da maioria dos quimioterápicos, criando um reservatório de células leucêmicas protegidas. Antes da profilaxia rotineira, grande parte das crianças recidivava no sistema nervoso central. O testículo, protegido pela barreira hematotesticular, é o outro santuário clássico, podendo ser sede de recidiva com aumento indolor do volume testicular.',
     x: { A: 'A doença origina-se na medula óssea; o acometimento meníngeo é secundário.', C: 'A terapia intratecal complementa, e não substitui, a quimioterapia sistêmica prolongada.', D: 'O objetivo é erradicar células leucêmicas, e não controlar a pressão intracraniana.' },
@@ -77,7 +77,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'LMC: quadro clínico e laboratorial',
     e: 'Homem de 47 anos procura atendimento por saciedade precoce, desconforto em hipocôndrio esquerdo e emagrecimento. O baço é palpável a 12 cm do rebordo costal. Hemograma: hemoglobina de 11,2 g/dL, leucócitos de 186.000/mm3 com neutrófilos, bastões, metamielócitos, mielócitos, promielócitos e 2% de blastos, basofilia e eosinofilia, e plaquetas de 620.000/mm3. O exame que confirma o diagnóstico é:',
-    o: ['Pesquisa da mutação JAK2 V617F', 'Pesquisa do gene de fusão BCR-ABL1 por PCR ou do cromossomo Filadélfia por citogenética', 'Imunofenotipagem de sangue periférico para CD5 e CD23', 'Dosagem de eritropoetina sérica'],
+    o: ['Pesquisa da mutação JAK2 V617F no sangue periférico', 'Pesquisa de BCR-ABL1 por PCR ou do Filadélfia na citogenética', 'Imunofenotipagem do sangue periférico para CD5 e CD23', 'Dosagem de eritropoetina sérica e hemoglobina'],
     g: 'B',
     c: 'A leucemia mieloide crônica apresenta leucocitose acentuada com desvio à esquerda escalonado (todas as fases de maturação presentes, sem hiato), basofilia, eosinofilia, trombocitose e esplenomegalia. A doença é definida pela t(9;22), que gera o cromossomo Filadélfia e o gene BCR-ABL1, cuja proteína é uma tirosina-quinase constitutivamente ativa que estimula a proliferação mieloide.',
     x: { A: 'A mutação JAK2 pertence às mieloproliferativas BCR-ABL negativas, como a policitemia vera.', C: 'CD5 e CD23 identificam a leucemia linfocítica crônica, doença de linfócitos maduros.', D: 'A eritropoetina auxilia na investigação de eritrocitose, não de leucocitose mieloide.' },
@@ -85,7 +85,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'LMC x reação leucemoide',
     e: 'Para diferenciar uma reação leucemoide de leucemia mieloide crônica em paciente com leucocitose neutrofílica acentuada, é correto afirmar:',
-    o: ['Na reação leucemoide há basofilia e a fosfatase alcalina leucocitária está baixa', 'Na leucemia mieloide crônica a fosfatase alcalina leucocitária está baixa e há basofilia; na reação leucemoide o escore está elevado, com granulações tóxicas', 'A esplenomegalia volumosa é mais característica da reação leucemoide', 'O cromossomo Filadélfia está presente em ambas as situações'],
+    o: ['Na reação leucemoide há basofilia e FALP baixa', 'LMC: FALP baixa e basofilia; reação leucemoide: FALP alta', 'A esplenomegalia volumosa é mais da reação leucemoide', 'O Filadélfia está presente em ambas as situações'],
     g: 'B',
     c: 'A fosfatase alcalina leucocitária é uma enzima dos grânulos secundários de neutrófilos maduros e funcionais. Na reação leucemoide, os neutrófilos são normais e ativados por infecção ou inflamação, com escore alto, granulações tóxicas e corpúsculos de Döhle. Na leucemia mieloide crônica, os neutrófilos do clone são deficientes na enzima, e somam-se basofilia e esplenomegalia. A confirmação é feita pelo BCR-ABL1.',
     x: { A: 'É o inverso: basofilia e escore baixo pertencem à leucemia mieloide crônica.', C: 'A esplenomegalia volumosa é típica da leucemia mieloide crônica, não da reação leucemoide.', D: 'O cromossomo Filadélfia é exclusivo da doença clonal, ausente na reação leucemoide.' },
@@ -93,7 +93,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'LMC: tratamento',
     e: 'O tratamento de primeira linha da leucemia mieloide crônica em fase crônica e seu mecanismo de ação são:',
-    o: ['Hidroxiureia, por inibição da ribonucleotídeo redutase, com intenção curativa', 'Imatinibe, inibidor de tirosina-quinase que ocupa o sítio de ligação do ATP na proteína BCR-ABL', 'Transplante alogênico imediato para todos os pacientes', 'Ácido transretinoico, por indução de diferenciação celular'],
+    o: ['Hidroxiureia, que inibe a ribonucleotídeo redutase, com intenção curativa', 'Imatinibe: inibidor de TK, ocupa o sítio de ATP do BCR-ABL', 'Transplante alogênico imediato para todos os pacientes', 'ATRA, que induz a diferenciação celular'],
     g: 'B',
     c: 'O imatinibe liga-se ao sítio do ATP da quinase BCR-ABL, impedindo a fosforilação dos substratos que sustentam a proliferação e a sobrevivência do clone. Foi a primeira terapia-alvo de sucesso em oncologia e deu aos pacientes em fase crônica expectativa de vida próxima à da população geral. A resposta é monitorada pela quantificação seriada do transcrito BCR-ABL1 por PCR.',
     x: { A: 'A hidroxiureia apenas reduz a leucometria, sem alterar a história natural da doença.', C: 'O transplante alogênico fica para falha aos inibidores ou para fases avançadas.', D: 'O ácido transretinoico é o tratamento da leucemia promielocítica aguda.' },
@@ -101,7 +101,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'LMC: crise blástica',
     e: 'Mulher de 51 anos com leucemia mieloide crônica, com má adesão ao tratamento, retorna com febre, dor óssea, sudorese e aumento rápido do baço. Hemograma: hemoglobina de 7,2 g/dL, leucócitos de 94.000/mm3 com 35% de blastos e plaquetas de 41.000/mm3. O quadro corresponde a:',
-    o: ['Fase crônica com resposta subótima', 'Crise blástica, que se comporta como leucemia aguda e pode ser mieloide ou linfoide', 'Reação leucemoide por infecção', 'Mielofibrose secundária, sem relação com a progressão da doença'],
+    o: ['Fase crônica com resposta subótima ao imatinibe', 'Crise blástica: comporta-se como leucemia aguda, mieloide ou linfoide', 'Reação leucemoide por infecção associada à doença', 'Mielofibrose secundária, sem relação com a progressão'],
     g: 'B',
     c: 'Sem controle do clone, a leucemia mieloide crônica acumula novas lesões genéticas e progride para a fase blástica, definida por 20% ou mais de blastos no sangue ou na medula ou por proliferação blástica extramedular. Como a célula de origem é uma célula-tronco pluripotente, a transformação é mieloide na maioria dos casos e linfoide em cerca de um terço. O prognóstico é ruim, e o transplante alogênico é considerado.',
     x: { A: 'Na fase crônica os blastos são poucos, sem citopenias graves e sintomas sistêmicos.', C: 'A reação leucemoide não cursa com essa proporção de blastos nem com citopenias graves.', D: 'O quadro é de proliferação blástica, e não de falência medular por fibrose.' },
@@ -109,7 +109,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'LLC: diagnóstico',
     e: 'Homem de 70 anos, assintomático, realiza hemograma de rotina: hemoglobina de 13,8 g/dL, leucócitos de 38.000/mm3 com 82% de linfócitos pequenos de aspecto maduro e plaquetas de 210.000/mm3. O esfregaço mostra numerosas sombras nucleares. O exame que confirma o diagnóstico e o achado esperado são:',
-    o: ['Mielograma, com mais de 20% de blastos', 'Imunofenotipagem do sangue periférico, com linfócitos B clonais CD19, CD5 e CD23 positivos', 'Biópsia de linfonodo, com células de Reed-Sternberg', 'Pesquisa de BCR-ABL1, positiva'],
+    o: ['Mielograma, com mais de 20% de blastos na medula', 'Imunofenotipagem do sangue: B clonais CD19+, CD5+, CD23+', 'Biópsia de linfonodo, com células de Reed-Sternberg', 'Pesquisa de BCR-ABL1, positiva no sangue periférico'],
     g: 'B',
     c: 'A leucemia linfocítica crônica é a leucemia mais comum do idoso no Ocidente e é diagnosticada pela presença de 5.000 ou mais linfócitos B clonais por mm3 no sangue, com fenótipo típico: marcadores B (CD19, CD20 fraco), coexpressão do marcador T CD5 e CD23 positivo. As manchas de Gumprecht são restos de linfócitos frágeis rompidos na confecção do esfregaço. O mielograma não é necessário para o diagnóstico.',
     x: { A: 'As células são linfócitos maduros, e não blastos; o mielograma é dispensável.', C: 'Células de Reed-Sternberg definem linfoma de Hodgkin, que não cursa com linfocitose.', D: 'O BCR-ABL1 define a leucemia mieloide crônica, doença da linhagem mieloide.' },
@@ -125,7 +125,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'LLC: indicação de tratamento',
     e: 'Mulher de 66 anos tem leucemia linfocítica crônica diagnosticada há 2 anos. Está assintomática, com linfonodos cervicais de 1,5 cm, sem esplenomegalia. Hemograma: hemoglobina de 13,1 g/dL, linfócitos de 62.000/mm3 (eram 48.000/mm3 há 1 ano) e plaquetas de 190.000/mm3. A conduta adequada é:',
-    o: ['Iniciar tratamento, pois a linfocitose ultrapassou 50.000/mm3', 'Manter observação clínica e laboratorial, pois não há critério de doença ativa', 'Indicar transplante alogênico de medula óssea', 'Realizar leucoaférese para prevenir leucostase'],
+    o: ['Iniciar tratamento, pois a linfocitose ultrapassou 50.000/mm³', 'Manter observação clínica e laboratorial, sem critério de doença ativa', 'Indicar transplante alogênico de medula óssea precoce', 'Realizar leucoaférese para prevenir a leucostase'],
     g: 'B',
     c: 'A leucemia linfocítica crônica inicial e assintomática não se beneficia de tratamento precoce, que não aumenta a sobrevida. Trata-se apenas a doença ativa: citopenias progressivas por falência medular, linfonodomegalia ou esplenomegalia volumosa ou sintomática, sintomas constitucionais, citopenia autoimune refratária a corticoide ou tempo de duplicação dos linfócitos menor que 6 meses. A contagem isolada de linfócitos não é indicação.',
     x: { A: 'Não existe limiar de linfocitose que, isoladamente, indique tratamento nessa doença.', C: 'O transplante alogênico é reservado a casos refratários de alto risco, muito selecionados.', D: 'Linfócitos maduros são pequenos e deformáveis; a leucostase é rara nessa doença.' },
@@ -141,7 +141,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Richter',
     e: 'Mulher de 72 anos, com leucemia linfocítica crônica há 6 anos, apresenta febre, emagrecimento e crescimento rápido e assimétrico de linfonodos retroperitoneais, com DHL quatro vezes acima do limite. A principal hipótese é:',
-    o: ['Transformação em leucemia prolinfocítica', 'Síndrome de Richter, transformação em linfoma agressivo, geralmente difuso de grandes células B', 'Infecção oportunista por hipogamaglobulinemia', 'Progressão habitual da doença, sem necessidade de biópsia'],
+    o: ['Transformação em leucemia prolinfocítica', 'Síndrome de Richter: linfoma agressivo, em geral DGCB', 'Infecção oportunista por hipogamaglobulinemia', 'Progressão habitual, sem necessidade de biópsia'],
     g: 'B',
     c: 'A síndrome de Richter é a transformação da leucemia linfocítica crônica em linfoma de alto grau, quase sempre difuso de grandes células B, em pequena parcela dos pacientes. Manifesta-se por piora clínica abrupta, sintomas B, crescimento rápido e localizado de massas e DHL muito elevada. O diagnóstico exige biópsia da lesão de maior captação no PET-CT, e o prognóstico é reservado.',
     x: { A: 'A transformação prolinfocítica cursa com aumento de prolinfócitos circulantes e do baço.', C: 'Infecção não explica massa de crescimento rápido com DHL muito elevada.', D: 'A mudança brusca de comportamento exige confirmação histológica de transformação.' },
@@ -149,7 +149,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Tricoleucemia',
     e: 'Homem de 54 anos apresenta fadiga e infecções de repetição. Ao exame, esplenomegalia volumosa, sem linfonodomegalia. Hemograma: pancitopenia com monocitopenia acentuada e linfócitos com projeções citoplasmáticas finas. O aspirado de medula foi seco, e a biópsia mostrou fibrose reticulínica. O diagnóstico e o tratamento de escolha são:',
-    o: ['Mielofibrose primária; ruxolitinibe', 'Tricoleucemia; análogo da purina, como a cladribina', 'Leucemia linfocítica crônica; observação', 'Anemia aplásica; imunossupressão'],
+    o: ['Mielofibrose primária; ruxolitinibe por via oral', 'Tricoleucemia; análogo da purina (cladribina)', 'LLC; observação clínica e laboratorial', 'Anemia aplásica; imunossupressão com ciclosporina'],
     g: 'B',
     c: 'A tricoleucemia (leucemia de células pilosas) é neoplasia indolente de linfócitos B, típica de homens de meia-idade, com esplenomegalia maciça sem adenopatia, pancitopenia e monocitopenia. As células induzem fibrose reticulínica, causando punção seca, e são positivas para fosfatase ácida resistente ao tartarato, CD11c, CD25 e CD103, com mutação BRAF V600E. A cladribina produz remissões duradouras na maioria dos casos.',
     x: { A: 'A mielofibrose tem dacriócitos e leucoeritroblastose, sem linfócitos pilosos nem monocitopenia.', C: 'A leucemia linfocítica crônica cursa com linfocitose e adenopatia, não com pancitopenia isolada.', D: 'A anemia aplásica não causa esplenomegalia e tem medula hipocelular gordurosa.' },
@@ -165,7 +165,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Policitemia vera: tratamento',
     e: 'Mulher de 67 anos, com policitemia vera recém-diagnosticada, hematócrito de 56% e antecedente de trombose venosa profunda há 1 ano, queixa-se de dor em queimação e eritema nos dedos das mãos, que aliviam com ácido acetilsalicílico. O plano terapêutico adequado é:',
-    o: ['Apenas flebotomias para manter o hematócrito abaixo de 55%', 'Flebotomias para manter o hematócrito abaixo de 45%, ácido acetilsalicílico em dose baixa e citorredução com hidroxiureia', 'Imatinibe e anticoagulação por tempo indeterminado, sem flebotomia', 'Reposição de ferro para corrigir a ferropenia e observação'],
+    o: ['Só flebotomias para manter o hematócrito < 55%', 'Flebotomias (Ht < 45%), AAS em dose baixa e hidroxiureia', 'Imatinibe e anticoagulação, sem flebotomia', 'Repor ferro para corrigir a ferropenia e observar'],
     g: 'B',
     c: 'A principal causa de morbimortalidade na policitemia vera é a trombose, e manter o hematócrito abaixo de 45% reduz eventos cardiovasculares. Todos recebem flebotomia e ácido acetilsalicílico em dose baixa, que também alivia a eritromelalgia, causada por agregação plaquetária na microcirculação. Pacientes de alto risco (idade acima de 60 anos ou trombose prévia) recebem citorredução com hidroxiureia ou interferon.',
     x: { A: 'O alvo de hematócrito é abaixo de 45%, e a paciente de alto risco precisa de citorredução.', C: 'O imatinibe não atua na doença com JAK2 mutado, e a flebotomia é a base do tratamento.', D: 'Repor ferro estimula a eritropoese e eleva o hematócrito; a ferropenia é desejada.' },
@@ -173,7 +173,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Trombocitemia essencial',
     e: 'Em relação à trombocitemia essencial, é correto afirmar:',
-    o: ['É confirmada pela presença do cromossomo Filadélfia', 'É diagnóstico de exclusão de trombocitose persistente, com mutação em JAK2, CALR ou MPL na maioria dos casos, e pode causar tanto trombose quanto sangramento', 'A plaquetose acima de 1.000.000/mm3 indica uso de ácido acetilsalicílico em dose alta', 'A causa mais comum de plaquetose na prática clínica é a trombocitemia essencial'],
+    o: ['Confirmada pela presença do cromossomo Filadélfia', 'Diagnóstico de exclusão; JAK2, CALR ou MPL; trombose ou sangramento', 'Plaquetose > 1.000.000 indica AAS em dose alta', 'A causa mais comum de plaquetose é a trombocitemia essencial'],
     g: 'B',
     c: 'A trombocitemia essencial exige plaquetose persistente, proliferação megacariocítica na medula e exclusão de causas reativas (ferropenia, inflamação, infecção, asplenia) e de outras neoplasias mieloides. Predispõe à trombose, mas contagens extremas podem causar sangramento, porque as plaquetas adsorvem os multímeros grandes do fator de von Willebrand, gerando doença de von Willebrand adquirida.',
     x: { A: 'O cromossomo Filadélfia deve estar ausente; sua presença indica leucemia mieloide crônica.', C: 'Na plaquetose extrema há risco de sangramento, e o ácido acetilsalicílico deve ser evitado.', D: 'A maioria das plaquetoses é reativa, por ferropenia, inflamação ou infecção.' },
@@ -197,7 +197,7 @@ export const LINFOMAS_4: QuestaoCompacta[] = [
   {
     s: 'Neutropenia febril',
     e: 'Homem de 49 anos, no décimo dia após quimioterapia para linfoma, chega à emergência com temperatura axilar de 38,5 graus, sem foco aparente. Está hipotenso e taquicárdico. Hemograma: neutrófilos de 180/mm3. A conduta correta é:',
-    o: ['Aguardar o resultado das hemoculturas para escolher o antibiótico', 'Coletar hemoculturas e iniciar, na primeira hora, antibiótico intravenoso de amplo espectro com ação antipseudomonas, em regime de internação', 'Prescrever amoxicilina com clavulanato e ciprofloxacino orais e liberar para casa', 'Iniciar apenas fator estimulador de colônias de granulócitos e antitérmico'],
+    o: ['Aguardar as hemoculturas para escolher o antibiótico ideal', 'Hemoculturas e antibiótico IV amplo na 1ª hora; internar', 'Amoxicilina-clavulanato e ciprofloxacino orais; alta imediata', 'Apenas G-CSF e antitérmico, sem antibiótico algum'],
     g: 'B',
     c: 'A neutropenia febril é definida por temperatura de 38,3 graus em medida isolada, ou 38 graus mantida por 1 hora, com neutrófilos abaixo de 500/mm3 ou com queda prevista para esse nível. Sem neutrófilos, os sinais inflamatórios são escassos e a infecção por bacilos Gram-negativos progride rapidamente para choque. O antibiótico empírico, como cefepima ou piperacilina-tazobactam, deve ser imediato, e a instabilidade classifica o caso como de alto risco.',
     x: { A: 'Esperar culturas atrasa o tratamento de uma emergência com alta mortalidade precoce.', C: 'O tratamento oral ambulatorial cabe apenas ao baixo risco, sem instabilidade hemodinâmica.', D: 'O fator estimulador não substitui o antibiótico, que é a medida que reduz a mortalidade.' },

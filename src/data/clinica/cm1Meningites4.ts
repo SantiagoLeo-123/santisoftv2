@@ -5,7 +5,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Meningite viral: etiologia',
     e: 'Os agentes mais frequentes de meningite viral em adultos e crianças são:',
-    o: ['Vírus herpes simples tipo 1', 'Enterovírus, como echovírus e coxsackievírus', 'Vírus da caxumba', 'Citomegalovírus'],
+    o: ['Vírus herpes simples tipo 1, o mais comum', 'Enterovírus (echovírus e coxsackievírus)', 'Vírus da caxumba, em não vacinados', 'Citomegalovírus, em imunossuprimidos'],
     g: 'B',
     c: 'Os enterovírus não pólio respondem pela grande maioria das meningites virais com agente identificado. São transmitidos por via fecal-oral e respiratória, e o quadro pode vir acompanhado de exantema, faringite ou sintomas gastrointestinais.',
     x: { A: 'O herpes simples tipo 1 é a principal causa de encefalite esporádica, não de meningite viral.', C: 'A caxumba tornou-se causa rara de meningite após a vacinação.', D: 'O citomegalovírus acomete o sistema nervoso principalmente em imunodeprimidos graves.' },
@@ -13,7 +13,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Meningite viral: conduta',
     e: 'Mulher de 23 anos, com febre, cefaleia e fotofobia há 3 dias, está lúcida e sem déficits. O líquor mostra 140 células/mm³ (90% de linfócitos), proteína de 58 mg/dL e glicose de 55 mg/dL (glicemia de 88 mg/dL), com bacterioscopia negativa e PCR positiva para enterovírus. A conduta adequada é:',
-    o: ['Ceftriaxona por 10 dias e dexametasona por 4 dias', 'Tratamento de suporte com analgésicos e hidratação, pois o curso é benigno e autolimitado', 'Aciclovir endovenoso por 21 dias', 'Esquema para tuberculose por 12 meses'],
+    o: ['Ceftriaxona por 10 dias e dexametasona por 4 dias', 'Suporte (analgesia, hidratação): curso benigno e autolimitado', 'Aciclovir endovenoso por 21 dias, em dose alta', 'Esquema para tuberculose por 12 meses seguidos'],
     g: 'B',
     c: 'A meningite por enterovírus tem evolução benigna, com recuperação completa em cerca de uma a duas semanas, e não há antiviral específico. Confirmada a etiologia, o tratamento é sintomático, e o antibiótico iniciado empiricamente pode ser suspenso.',
     x: { A: 'Antibiótico e corticoide não têm papel na meningite viral confirmada.', C: 'O aciclovir é indicado na encefalite herpética, e não na meningite por enterovírus.', D: 'Não há evolução subaguda nem glicose baixa que sugiram tuberculose.' },
@@ -29,7 +29,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Encefalite herpética: líquor',
     e: 'O perfil do líquor mais característico da encefalite pelo vírus herpes simples e o exame de escolha para a confirmação etiológica são:',
-    o: ['Pleocitose neutrofílica com glicose muito baixa; cultura para vírus', 'Pleocitose linfomononuclear, com hemácias ou xantocromia, proteína elevada e glicose normal; PCR para herpes simples no líquor', 'Líquor sempre normal; sorologia sérica', 'Eosinofilia no líquor; pesquisa de larvas'],
+    o: ['Pleocitose neutrofílica, glicose muito baixa; cultura para vírus', 'Pleocitose linfomononuclear, proteína alta, glicose normal; PCR HSV', 'Líquor sempre normal; solicitar sorologia sérica', 'Eosinofilia no líquor; pesquisar larvas no líquor'],
     g: 'B',
     c: 'A encefalite herpética produz necrose hemorrágica do parênquima, por isso é comum a presença de hemácias ou xantocromia no líquor, junto com pleocitose linfomononuclear, proteína elevada e glicose normal. A PCR para herpes simples no líquor tem sensibilidade e especificidade muito altas e substituiu a biópsia cerebral como método diagnóstico.',
     x: { A: 'Predomínio de neutrófilos com glicose muito baixa indica meningite bacteriana.', C: 'O líquor é alterado na maioria dos casos, e a sorologia sérica não confirma o diagnóstico.', D: 'A eosinofilia no líquor sugere parasitose, como a angiostrongilíase.' },
@@ -37,7 +37,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Encefalite herpética: imagem e EEG',
     e: 'Os achados de ressonância magnética e de eletroencefalograma que apoiam o diagnóstico de encefalite herpética são:',
-    o: ['Lesões desmielinizantes periventriculares e eletroencefalograma normal', 'Hipersinal em lobo temporal medial e região frontobasal, frequentemente assimétrico, e descargas periódicas lateralizadas em região temporal', 'Realce meníngeo basal com hidrocefalia e ritmo delta difuso', 'Lesões nodulares múltiplas com realce anelar em núcleos da base'],
+    o: ['Lesões periventriculares desmielinizantes e EEG normal', 'Hipersinal em lobo temporal medial/frontobasal e descargas periódicas', 'Realce meníngeo basal, hidrocefalia e ritmo delta difuso', 'Nódulos múltiplos com realce anelar em núcleos da base'],
     g: 'B',
     c: 'O herpes simples tipo 1 tem tropismo pelo sistema límbico, com acometimento do lobo temporal medial, da ínsula e da região orbitofrontal, uni ou bilateral e assimétrico. A ressonância é o exame de imagem mais sensível, e o eletroencefalograma pode mostrar descargas periódicas lateralizadas temporais.',
     x: { A: 'Lesões periventriculares desmielinizantes são típicas de esclerose múltipla.', C: 'Realce basal com hidrocefalia sugere meningite tuberculosa.', D: 'Lesões com realce anelar em núcleos da base sugerem toxoplasmose cerebral.' },
@@ -45,7 +45,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'PCR negativa na fase inicial',
     e: 'Mulher de 39 anos com febre, confusão mental e afasia há 36 horas tem ressonância com hipersinal em lobo temporal esquerdo. O líquor mostra 75 células/mm³ (linfócitos), proteína de 78 mg/dL e glicose normal, e a PCR para herpes simples colhida na admissão é negativa. A conduta correta é:',
-    o: ['Suspender o aciclovir, pois a PCR negativa exclui o diagnóstico', 'Manter o aciclovir e repetir a PCR em nova amostra de líquor após alguns dias', 'Trocar o aciclovir por ganciclovir', 'Indicar biópsia cerebral imediata'],
+    o: ['Suspender o aciclovir: a PCR negativa exclui o diagnóstico', 'Manter o aciclovir e repetir a PCR após alguns dias', 'Trocar o aciclovir por ganciclovir, por via venosa', 'Indicar biópsia cerebral imediata, por craniotomia'],
     g: 'B',
     c: 'A PCR para herpes simples pode ser falsamente negativa nas primeiras 72 horas de doença, quando a carga viral no líquor ainda é baixa. Com quadro clínico e imagem típicos, o aciclovir deve ser mantido e o exame repetido alguns dias depois, antes de se afastar o diagnóstico.',
     x: { A: 'Um resultado negativo precoce não exclui a doença quando a suspeita clínica é alta.', C: 'O ganciclovir é droga para citomegalovírus e não é o tratamento da encefalite herpética.', D: 'A biópsia cerebral foi substituída pela PCR e não é a conduta inicial.' },
@@ -69,7 +69,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Meningite tuberculosa: complicações',
     e: 'Todas as alterações abaixo são complicações características da meningite tuberculosa, EXCETO:',
-    o: ['Hidrocefalia', 'Paralisia de nervos cranianos', 'Infartos cerebrais por vasculite das artérias da base', 'Necrose hemorrágica bilateral dos lobos temporais'],
+    o: ['Hidrocefalia, por obstrução do fluxo liquórico', 'Paralisia de nervos cranianos, pelo exsudato basal', 'Infartos por vasculite das artérias da base', 'Necrose hemorrágica bilateral dos lobos temporais'],
     g: 'D',
     c: 'O exsudato basal da tuberculose meníngea causa hidrocefalia, paralisia de nervos cranianos e vasculite das artérias que atravessam as cisternas, com infartos em núcleos da base e cápsula interna. A necrose hemorrágica dos lobos temporais é a lesão típica da encefalite pelo herpes simples.',
     x: { A: 'A hidrocefalia decorre da obstrução das cisternas da base pelo exsudato.', B: 'Os nervos cranianos são envolvidos e comprimidos pelo exsudato basal.', C: 'A vasculite das artérias da base é causa conhecida de infartos na tuberculose meníngea.' },
@@ -77,7 +77,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Meningite tuberculosa: tratamento',
     e: 'O tratamento recomendado no Brasil para a meningite tuberculosa do adulto é:',
-    o: ['Rifampicina, isoniazida, pirazinamida e etambutol por 2 meses, seguidos de rifampicina e isoniazida por 4 meses, sem corticoide', 'Rifampicina, isoniazida, pirazinamida e etambutol por 2 meses, seguidos de rifampicina e isoniazida por 10 meses, com corticoide associado nas primeiras semanas', 'Isoniazida isolada por 9 meses', 'Ceftriaxona por 21 dias associada a dexametasona por 4 dias'],
+    o: ['RIPE por 2 meses e RI por 4 meses, sem corticoide', 'RIPE por 2 meses e RI por 10 meses, com corticoide inicial', 'Isoniazida isolada por 9 meses, sem outros fármacos', 'Ceftriaxona por 21 dias e dexametasona por 4 dias'],
     g: 'B',
     c: 'Na forma meningoencefálica a fase de manutenção é estendida, totalizando 12 meses de tratamento, pela dificuldade de penetração das drogas e pela gravidade das recaídas. O corticoide é associado nas primeiras semanas porque reduz a inflamação do exsudato basal e diminui a mortalidade.',
     x: { A: 'O esquema de 6 meses sem corticoide é o da tuberculose pulmonar, insuficiente para a forma meníngea.', C: 'A isoniazida isolada é esquema de infecção latente, e não de doença ativa.', D: 'A ceftriaxona não tem ação contra o Mycobacterium tuberculosis.' },
@@ -93,7 +93,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Criptococose: diagnóstico',
     e: 'Homem de 29 anos, com diagnóstico recente de infecção pelo HIV e CD4 de 28 células/mm³, tem cefaleia há 5 semanas, febre baixa e diplopia. O líquor mostra pressão de abertura de 42 cmH2O, 18 células/mm³, proteína de 72 mg/dL e glicose de 34 mg/dL. Em relação aos métodos diagnósticos, é correto afirmar que:',
-    o: ['A tinta da China é mais sensível do que a pesquisa de antígeno', 'A pesquisa de antígeno criptocócico no líquor ou no soro é o método mais sensível, e a tinta da China mostra leveduras encapsuladas em parte dos casos', 'A cultura para fungos não tem utilidade', 'O diagnóstico depende de biópsia de meninge'],
+    o: ['A tinta da China é mais sensível que o antígeno criptocócico', 'O antígeno criptocócico é o mais sensível; a tinta da China, menos', 'A cultura para fungos não tem utilidade diagnóstica alguma', 'O diagnóstico depende de biópsia de meninge, sempre'],
     g: 'B',
     c: 'O Cryptococcus neoformans possui cápsula polissacarídica espessa, que aparece como um halo claro na tinta da China e libera antígeno detectável no líquor e no soro. A pesquisa do antígeno, por látex ou por teste rápido de fluxo lateral, tem sensibilidade superior à da tinta da China, e a cultura confirma o diagnóstico e permite acompanhar a esterilização.',
     x: { A: 'A tinta da China é menos sensível, principalmente com baixa carga fúngica.', C: 'A cultura é método confirmatório e serve para monitorar a resposta ao tratamento.', D: 'O diagnóstico é feito no líquor, sem necessidade de biópsia.' },
@@ -101,7 +101,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Criptococose: tratamento',
     e: 'O esquema de indução preferencial para a meningite criptocócica em paciente com HIV e as fases seguintes do tratamento são:',
-    o: ['Fluconazol em dose baixa isolado desde o início, por 7 dias', 'Anfotericina B associada a flucitosina na indução, seguida de fluconazol na consolidação e na manutenção', 'Itraconazol oral por 6 semanas', 'Caspofungina por 14 dias'],
+    o: ['Fluconazol em dose baixa, isolado, por 7 dias', 'Anfotericina B com flucitosina na indução; depois fluconazol', 'Itraconazol oral por 6 semanas, em dose plena', 'Caspofungina por 14 dias, por via venosa'],
     g: 'B',
     c: 'A indução com anfotericina B associada a flucitosina é a que esteriliza o líquor mais rapidamente e reduz a mortalidade. Segue-se a consolidação com fluconazol em dose alta e depois a manutenção com dose menor, até a recuperação imunológica sustentada com a terapia antirretroviral.',
     x: { A: 'O fluconazol isolado em dose baixa é fungistático e inadequado para a fase de indução.', C: 'O itraconazol tem penetração liquórica ruim e não é droga de escolha.', D: 'As equinocandinas não têm atividade contra Cryptococcus.' },
@@ -109,7 +109,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Criptococose: hipertensão intracraniana',
     e: 'Mulher de 35 anos com HIV e meningite criptocócica em tratamento antifúngico mantém cefaleia intensa, vômitos e borramento visual. A tomografia não mostra lesão expansiva, e a pressão de abertura é de 45 cmH2O. A conduta para o controle da hipertensão intracraniana é:',
-    o: ['Acetazolamida oral', 'Punções lombares de alívio repetidas, com retirada de líquor até reduzir a pressão', 'Dexametasona em dose alta', 'Manitol endovenoso contínuo'],
+    o: ['Acetazolamida oral, em dose habitual, por semanas', 'Punções lombares de alívio repetidas, até reduzir a pressão', 'Dexametasona em dose alta, por via venosa, por dias', 'Manitol endovenoso contínuo, por 14 dias seguidos'],
     g: 'B',
     c: 'Na criptococose a hipertensão intracraniana resulta da obstrução das vilosidades aracnóideas por leveduras e polissacarídeo capsular, que impede a reabsorção do líquor. O tratamento é mecânico, com punções de alívio diárias enquanto a pressão permanecer elevada, e derivação liquórica nos casos refratários; essa medida reduz mortalidade e perda visual.',
     x: { A: 'A acetazolamida não mostrou benefício e se associou a efeitos adversos nessa situação.', C: 'O corticoide não é recomendado para a hipertensão intracraniana da criptococose e piora os desfechos.', D: 'O manitol não corrige o defeito de reabsorção do líquor e não é recomendado.' },
@@ -125,7 +125,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Neurossífilis: diagnóstico',
     e: 'Homem de 48 anos com sífilis latente de duração ignorada apresenta alteração de memória e pupilas que acomodam, mas não reagem à luz. O líquor mostra 38 células/mm³ (linfócitos), proteína de 82 mg/dL e glicose de 60 mg/dL. Sobre o VDRL no líquor, é correto afirmar que:',
-    o: ['Tem alta sensibilidade, e o resultado não reagente exclui neurossífilis', 'Tem alta especificidade, de modo que o resultado reagente confirma o diagnóstico, mas o não reagente não o exclui', 'É um teste treponêmico e permanece positivo por toda a vida', 'Não tem utilidade, pois apenas o teste sérico importa'],
+    o: ['Alta sensibilidade; não reagente exclui neurossífilis', 'Alta especificidade: reagente confirma; não reagente não exclui', 'É treponêmico e permanece positivo por toda a vida', 'Sem utilidade: só o teste sérico importa'],
     g: 'B',
     c: 'O VDRL no líquor é muito específico, e um resultado reagente, na ausência de contaminação por sangue, confirma neurossífilis. Sua sensibilidade é limitada, por isso um resultado não reagente não afasta o diagnóstico quando há quadro clínico compatível com pleocitose e hiperproteinorraquia.',
     x: { A: 'A sensibilidade é baixa, e o teste não reagente não exclui a doença.', C: 'O VDRL é um teste não treponêmico, cujos títulos caem com o tratamento.', D: 'O VDRL no líquor é o exame de referência para confirmar neurossífilis.' },
@@ -133,7 +133,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Neurossífilis: tratamento',
     e: 'O tratamento de escolha da neurossífilis é:',
-    o: ['Penicilina benzatina intramuscular semanal por 3 semanas', 'Penicilina cristalina endovenosa em altas doses por 14 dias', 'Doxiciclina oral por 7 dias', 'Azitromicina em dose única'],
+    o: ['Penicilina benzatina IM semanal por 3 semanas', 'Penicilina cristalina IV em altas doses por 14 dias', 'Doxiciclina oral por 7 dias, em dose plena', 'Azitromicina em dose única, por via oral'],
     g: 'B',
     c: 'A penicilina benzatina não atinge concentração treponemicida no líquor, por isso a neurossífilis exige penicilina cristalina endovenosa em altas doses, fracionada a cada 4 horas, por 14 dias. A ceftriaxona é a alternativa, e o líquor deve ser reavaliado periodicamente até a normalização.',
     x: { A: 'A penicilina benzatina trata a sífilis sem acometimento neurológico, mas não penetra no líquor.', C: 'A doxiciclina por 7 dias não é esquema adequado para neurossífilis.', D: 'A azitromicina não é recomendada pela resistência e pela falta de penetração adequada.' },
@@ -149,7 +149,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Meningite asséptica por drogas',
     e: 'Mulher de 32 anos com lúpus eritematoso sistêmico apresenta febre, cefaleia e rigidez de nuca poucas horas após tomar ibuprofeno; refere episódio semelhante há 1 ano, também após o uso do mesmo medicamento. O líquor tem 310 células/mm³ (70% de neutrófilos), proteína de 105 mg/dL, glicose de 59 mg/dL, com bacterioscopia e culturas negativas. O diagnóstico mais provável é:',
-    o: ['Meningite pneumocócica recorrente', 'Meningite asséptica induzida por droga', 'Meningite tuberculosa', 'Hemorragia subaracnóidea'],
+    o: ['Meningite pneumocócica recorrente, por fístula', 'Meningite asséptica induzida por droga (AINE)', 'Meningite tuberculosa, subaguda e basal', 'Hemorragia subaracnóidea, com cefaleia súbita'],
     g: 'B',
     c: 'Anti-inflamatórios não esteroides, sobretudo o ibuprofeno, além de sulfametoxazol-trimetoprima e imunoglobulina endovenosa, podem causar meningite asséptica por hipersensibilidade, mais comum em pacientes com lúpus. O líquor pode ter predomínio de neutrófilos, mas a glicose é normal e as culturas são negativas, e o quadro regride com a suspensão da droga e recorre na reexposição.',
     x: { A: 'A glicose normal e as culturas negativas, com relação temporal à droga, afastam o pneumococo.', C: 'A tuberculose tem evolução subaguda e glicose baixa, sem relação com medicamentos.', D: 'Não há hemácias nem xantocromia, e a cefaleia não foi súbita.' },
@@ -157,7 +157,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Meningite recorrente e fístula liquórica',
     e: 'Homem de 40 anos é internado com o terceiro episódio de meningite pneumocócica em 2 anos. Refere saída de líquido claro pela narina esquerda ao inclinar a cabeça para a frente. O exame que confirma que esse líquido é líquor e a conduta definitiva são:',
-    o: ['Dosagem de sódio no líquido; antibiótico profilático contínuo', 'Pesquisa de beta-2 transferrina no líquido; localização e correção cirúrgica da fístula', 'Cultura do líquido nasal; vacinação isolada', 'Radiografia simples de crânio; observação'],
+    o: ['Sódio no líquido nasal; antibiótico contínuo', 'Beta-2 transferrina no líquido; localizar e corrigir a fístula', 'Cultura do líquido nasal; vacinação isolada', 'Radiografia simples de crânio; apenas observação'],
     g: 'B',
     c: 'A meningite bacteriana recorrente, principalmente por pneumococo, obriga a pesquisar defeito anatômico que comunique a nasofaringe ao espaço subaracnóideo. A beta-2 transferrina é uma proteína praticamente exclusiva do líquor, e sua detecção confirma a fístula, que deve ser localizada por imagem e corrigida cirurgicamente.',
     x: { A: 'A dosagem de sódio não distingue líquor de secreção nasal, e a profilaxia contínua não resolve a fístula.', C: 'A cultura do líquido não confirma sua origem, e a vacina isolada não elimina a porta de entrada.', D: 'A radiografia simples não localiza a fístula, e a observação mantém o risco de novos episódios.' },
@@ -165,7 +165,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Abscesso cerebral: origem otogênica',
     e: 'Os abscessos cerebrais secundários a otite média crônica e mastoidite localizam-se preferencialmente:',
-    o: ['No lobo frontal', 'No lobo temporal e no cerebelo', 'No lobo occipital', 'No tronco encefálico'],
+    o: ['No lobo frontal, por contiguidade', 'No lobo temporal e no cerebelo', 'No lobo occipital, por contiguidade', 'No tronco encefálico, por contiguidade'],
     g: 'B',
     c: 'A disseminação por contiguidade segue a anatomia: a infecção do ouvido médio e da mastoide atinge o lobo temporal, pelo teto da cavidade timpânica, e o cerebelo, pela fossa posterior. Já a sinusite frontal e etmoidal e as infecções dentárias originam abscessos no lobo frontal.',
     x: { A: 'O lobo frontal é sede dos abscessos de origem sinusal e dentária.', C: 'O lobo occipital não é localização típica de abscesso por contiguidade.', D: 'O abscesso de tronco é raro e não se relaciona com foco otogênico.' },
@@ -173,7 +173,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Abscesso cerebral: punção lombar',
     e: 'Homem de 45 anos, com sinusite frontal há 3 semanas, apresenta cefaleia progressiva, febre baixa, lentificação e hemiparesia direita. A tomografia com contraste mostra lesão frontal esquerda arredondada, com centro hipodenso, realce anelar fino e regular e edema perilesional com desvio da linha média. Em relação à punção lombar, é correto afirmar que:',
-    o: ['Deve ser realizada de imediato para identificar o agente', 'Está contraindicada, pelo risco de herniação e pelo baixo rendimento diagnóstico', 'Deve ser feita após uma dose de manitol', 'É o exame de escolha para o diagnóstico de abscesso cerebral'],
+    o: ['Deve ser feita de imediato para achar o agente', 'Contraindicada: risco de herniação e baixo rendimento', 'Deve ser feita após uma dose de manitol', 'É o exame de escolha para o abscesso cerebral'],
     g: 'B',
     c: 'O abscesso cerebral se manifesta como lesão expansiva com realce anelar e edema, e a retirada de líquor por via lombar cria um gradiente de pressão que pode precipitar herniação. Além disso, o líquor acrescenta pouco, pois costuma ser inespecífico e com cultura negativa; o diagnóstico etiológico vem da aspiração da lesão.',
     x: { A: 'Com efeito de massa e desvio da linha média, a punção pode precipitar herniação.', C: 'O manitol não elimina o risco e não torna a punção segura ou útil.', D: 'O diagnóstico é feito por imagem e pela aspiração da lesão, e não pelo líquor.' },
@@ -181,7 +181,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Abscesso cerebral: tratamento',
     e: 'Mulher de 51 anos tem abscesso cerebral frontal único de 3,5 cm, secundário a infecção dentária. O tratamento mais adequado é:',
-    o: ['Antibiótico oral por 7 dias, sem intervenção', 'Drenagem ou aspiração neurocirúrgica associada a antibiótico endovenoso prolongado, como ceftriaxona e metronidazol', 'Corticoide isolado até a regressão do edema', 'Radioterapia de crânio total'],
+    o: ['Antibiótico oral por 7 dias, sem intervenção', 'Drenagem neurocirúrgica e antibiótico IV prolongado', 'Corticoide isolado até a regressão do edema', 'Radioterapia de crânio total, em dose única'],
     g: 'B',
     c: 'Abscessos maiores que cerca de 2,5 cm devem ser aspirados ou drenados, o que reduz o efeito de massa e fornece material para cultura. O antibiótico cobre estreptococos do grupo anginosus e anaeróbios, os principais agentes dos focos dentários, sinusais e otogênicos, e é mantido por 6 a 8 semanas; acrescenta-se vancomicina quando há trauma ou neurocirurgia prévia.',
     x: { A: 'O tratamento curto por via oral é insuficiente para uma coleção encapsulada.', C: 'O corticoide é reservado ao edema com efeito de massa importante e não trata a infecção.', D: 'A radioterapia é tratamento de neoplasias e não tem papel em infecção.' },
@@ -189,7 +189,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Abscesso cerebral: via hematogênica',
     e: 'Homem de 26 anos, usuário de drogas injetáveis, com sopro cardíaco novo e febre há 2 semanas, apresenta crise convulsiva. A ressonância mostra cinco lesões pequenas com realce anelar na junção entre substância cinzenta e branca, no território das artérias cerebrais médias, com restrição à difusão no centro das lesões. A interpretação mais provável é:',
-    o: ['Abscesso único por contiguidade a partir de sinusite', 'Abscessos múltiplos por disseminação hematogênica, tendo a endocardite infecciosa como fonte', 'Metástases cerebrais de neoplasia pulmonar', 'Esclerose múltipla em surto'],
+    o: ['Abscesso único por contiguidade, a partir de sinusite', 'Abscessos múltiplos hematogênicos; fonte: endocardite infecciosa', 'Metástases cerebrais de neoplasia pulmonar', 'Esclerose múltipla em surto, com lesões múltiplas'],
     g: 'B',
     c: 'A disseminação hematogênica produz abscessos múltiplos, localizados na junção corticossubcortical do território da artéria cerebral média, onde o fluxo é maior e os êmbolos sépticos se alojam. As fontes clássicas são endocardite, abscesso pulmonar, empiema e cardiopatias cianóticas, e a restrição à difusão no centro da lesão favorece pus em relação a necrose tumoral.',
     x: { A: 'O abscesso por contiguidade é geralmente único e adjacente ao foco de origem.', C: 'Nas metástases o centro necrótico não costuma restringir à difusão, e o quadro febril com sopro aponta infecção.', D: 'A esclerose múltipla causa lesões desmielinizantes periventriculares, sem febre nem sopro.' },
@@ -197,7 +197,7 @@ export const MENINGITES_4: QuestaoCompacta[] = [
   {
     s: 'Empiema subdural',
     e: 'Homem de 19 anos, em tratamento irregular de sinusite frontal, evolui em 3 dias com febre alta, cefaleia intensa, crises convulsivas focais, hemiparesia esquerda e rebaixamento do nível de consciência. A ressonância mostra coleção em crescente sobre a convexidade direita e junto à foice, com realce periférico e restrição à difusão. O diagnóstico e a conduta são:',
-    o: ['Meningite viral; tratamento sintomático', 'Empiema subdural; drenagem neurocirúrgica de urgência e antibiótico endovenoso', 'Hematoma subdural crônico; observação clínica', 'Encefalite herpética; aciclovir isolado'],
+    o: ['Meningite viral; tratamento sintomático', 'Empiema subdural: drenagem urgente e antibiótico IV', 'Hematoma subdural crônico; observação clínica', 'Encefalite herpética; aciclovir isolado'],
     g: 'B',
     c: 'O empiema subdural é uma coleção de pus entre a dura-máter e a aracnoide, mais comum em homens jovens como complicação de sinusite frontal. Como o espaço subdural não tem barreiras, o pus se espalha rapidamente pela convexidade e provoca tromboflebite cortical, com piora neurológica acelerada; trata-se de emergência neurocirúrgica, na qual a punção lombar é contraindicada.',
     x: { A: 'A meningite viral não produz coleção extra-axial nem déficit focal progressivo.', C: 'O hematoma subdural crônico não cursa com febre, realce periférico e restrição à difusão.', D: 'A encefalite herpética acomete o parênquima temporal e não forma coleção subdural.' },

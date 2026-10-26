@@ -21,7 +21,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Osteoartrite: quadro clínico',
     e: 'Mulher de 66 anos, obesa, queixa-se de dor nos joelhos há 3 anos, que piora ao subir escadas e ao fim do dia e melhora com o repouso. Refere rigidez ao acordar que dura cerca de 10 minutos. Ao exame há crepitação e alargamento ósseo, sem calor. VHS e proteína C reativa normais. Sobre o caso, é correto afirmar:',
-    o: ['É necessária ressonância magnética para confirmar o diagnóstico', 'O diagnóstico de osteoartrite é clínico e a rigidez matinal curta (menos de 30 minutos) é característica', 'O fator reumatoide deve ser solicitado, pois a rigidez matinal indica artrite reumatoide', 'O quadro é de artrite inflamatória e exige início de metotrexato'],
+    o: ['Ressonância magnética é necessária para confirmar o diagnóstico', 'Diagnóstico clínico; rigidez matinal curta (< 30 min) é característica', 'Pedir fator reumatoide: a rigidez indica artrite reumatoide', 'Artrite inflamatória: iniciar metotrexato'],
     g: 'B',
     c: 'Dor de ritmo mecânico (piora com o uso, melhora com o repouso), rigidez matinal fugaz, crepitação, aumento ósseo e provas inflamatórias normais em pessoa acima de 45 a 50 anos permitem o diagnóstico clínico de osteoartrite. A rigidez das artrites inflamatórias costuma ultrapassar uma hora. Exames de imagem servem para casos atípicos ou planejamento cirúrgico.',
     x: { A: 'A ressonância não é necessária em quadro clínico típico de osteoartrite.', C: 'Rigidez de 10 minutos, sem sinovite e com provas inflamatórias normais, não sugere artrite reumatoide.', D: 'Não há sinais de doença inflamatória, e o metotrexato não tem papel na osteoartrite.' },
@@ -37,7 +37,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Osteoartrite: tratamento não farmacológico',
     e: 'A base do tratamento da osteoartrite de joelho, recomendada para todos os pacientes independentemente da gravidade, consiste em:',
-    o: ['Repouso articular prolongado e uso contínuo de joelheira rígida', 'Educação, exercícios físicos (fortalecimento e aeróbico de baixo impacto) e perda de peso quando houver excesso', 'Suplementação de glicosamina e condroitina por tempo indeterminado', 'Infiltrações mensais de corticoide intra-articular'],
+    o: ['Repouso articular prolongado e joelheira rígida contínua', 'Educação, exercícios e emagrecer se houver excesso de peso', 'Glicosamina e condroitina por tempo indeterminado, sempre', 'Infiltrações mensais de corticoide intra-articular, sempre'],
     g: 'B',
     c: 'As medidas não farmacológicas são o pilar do tratamento: o exercício fortalece o quadríceps, melhora a estabilidade e reduz a dor, e a perda de peso diminui a carga sobre o joelho e os mediadores inflamatórios do tecido adiposo. Nenhum fármaco disponível modifica comprovadamente a progressão estrutural da doença.',
     x: { A: 'O repouso prolongado causa atrofia muscular e piora a função articular.', C: 'Glicosamina e condroitina têm evidência inconsistente e não são a base do tratamento.', D: 'Infiltrações repetidas e frequentes de corticoide não são recomendadas e podem lesar a cartilagem.' },
@@ -53,7 +53,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Osteoartrite: infiltração',
     e: 'Homem de 69 anos com osteoartrite de joelho apresenta piora aguda da dor, com derrame articular moderado e sem sinais de infecção. Sobre a infiltração intra-articular de corticoide nessa situação, é correto afirmar:',
-    o: ['Modifica a história natural da doença e retarda a artroplastia', 'Proporciona alívio da dor de curta duração, sendo útil nos períodos de agudização', 'Deve ser repetida a cada duas semanas para manter o efeito', 'Está contraindicada na presença de derrame articular'],
+    o: ['Modifica a história natural e retarda a artroplastia', 'Alívio de dor de curta duração; útil nas agudizações', 'Repetida a cada duas semanas para manter o efeito', 'Contraindicada na presença de derrame articular'],
     g: 'B',
     c: 'O corticoide intra-articular reduz a sinovite secundária que acompanha as agudizações e alivia a dor por algumas semanas, sem alterar a progressão estrutural. Por isso é reservado para surtos dolorosos, especialmente com derrame, e não deve ser repetido com frequência, pelo possível dano à cartilagem.',
     x: { A: 'Nenhuma infiltração demonstrou modificar a progressão estrutural da osteoartrite.', C: 'Aplicações tão frequentes não são recomendadas; em geral limitam-se a poucas por ano.', D: 'O derrame não infeccioso é justamente situação em que a infiltração tem melhor resposta.' },
@@ -61,7 +61,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Osteoartrite: artroplastia',
     e: 'A artroplastia total de joelho ou de quadril está indicada na osteoartrite quando há:',
-    o: ['Osteófitos na radiografia, mesmo em paciente assintomático', 'Dor persistente e limitação funcional importante, com prejuízo da qualidade de vida, refratárias ao tratamento conservador otimizado', 'Idade superior a 60 anos, independentemente dos sintomas', 'Primeiro episódio de derrame articular'],
+    o: ['Osteófitos na radiografia, mesmo em paciente assintomático', 'Dor e limitação refratárias ao tratamento conservador otimizado', 'Idade superior a 60 anos, independentemente dos sintomas', 'Primeiro episódio de derrame articular, em qualquer idade'],
     g: 'B',
     c: 'A indicação cirúrgica é clínica e não radiográfica: baseia-se em dor e incapacidade que persistem apesar das medidas não farmacológicas e farmacológicas adequadas, em paciente com alteração estrutural compatível. A artroplastia tem excelentes resultados em dor e função nesses casos.',
     x: { A: 'A dissociação clínico-radiológica é comum; achado de imagem isolado não indica cirurgia.', C: 'A idade isolada não define a indicação, que depende de sintomas e função.', D: 'Um derrame isolado é tratado de forma conservadora, eventualmente com infiltração.' },
@@ -77,7 +77,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Osteoporose: definição densitométrica',
     e: 'Mulher de 67 anos, na pós-menopausa, realiza densitometria óssea com T-score de -2,7 na coluna lombar e -1,9 no colo do fêmur. Segundo os critérios da Organização Mundial da Saúde, o diagnóstico é:',
-    o: ['Osteopenia, pois se considera o sítio de melhor resultado', 'Osteoporose, pois o T-score é igual ou inferior a -2,5 em um dos sítios avaliados', 'Densidade óssea normal para a idade', 'Osteoporose grave (estabelecida), pelo valor da coluna'],
+    o: ['Osteopenia: considera-se o sítio de melhor resultado', 'Osteoporose: T-score ≤ -2,5 em um dos sítios', 'Densidade óssea normal para a idade', 'Osteoporose grave (estabelecida), pelo valor da coluna'],
     g: 'B',
     c: 'O T-score compara a densidade mineral óssea da paciente com a média de adultos jovens. Valores até -1,0 são normais, entre -1,0 e -2,5 caracterizam osteopenia e iguais ou inferiores a -2,5 definem osteoporose. O diagnóstico é dado pelo menor valor entre coluna lombar, colo do fêmur e fêmur total.',
     x: { A: 'Classifica-se pelo pior sítio, não pelo melhor.', C: 'Um T-score de -2,7 está bem abaixo do limite da normalidade.', D: 'Osteoporose grave ou estabelecida exige a presença de fratura por fragilidade.' },
@@ -93,7 +93,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Osteoporose: Z-score',
     e: 'Mulher de 34 anos, que menstrua regularmente, em uso de prednisona há 1 ano por doença inflamatória intestinal, realiza densitometria óssea. Para a interpretação do exame nessa paciente, deve-se utilizar:',
-    o: ['O T-score, com diagnóstico de osteoporose se igual ou inferior a -2,5', 'O Z-score, sendo valores iguais ou inferiores a -2,0 descritos como baixa massa óssea para a idade', 'O T-score, com diagnóstico de osteopenia se inferior a -1,0', 'Apenas a densidade em g/cm², sem comparação com população de referência'],
+    o: ['T-score; osteoporose se ≤ -2,5', 'Z-score; ≤ -2,0 é baixa massa óssea para a idade', 'T-score; osteopenia se < -1,0', 'Só a densidade em g/cm², sem população de referência'],
     g: 'B',
     c: 'Em mulheres na pré-menopausa, homens com menos de 50 anos e crianças, usa-se o Z-score, que compara a densidade com a de indivíduos da mesma idade e sexo. Valores iguais ou inferiores a -2,0 são relatados como abaixo do esperado para a faixa etária, e o diagnóstico de osteoporose nesse grupo não se baseia apenas na densitometria.',
     x: { A: 'Os critérios da OMS com T-score aplicam-se a mulheres na pós-menopausa e homens a partir de 50 anos.', C: 'O termo osteopenia pelo T-score não deve ser aplicado a mulheres na pré-menopausa.', D: 'O valor absoluto precisa ser comparado a uma população de referência para ter significado.' },
@@ -109,7 +109,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Osteoporose induzida por corticoide',
     e: 'O corticoide é a causa mais comum de osteoporose secundária. O principal mecanismo e o padrão de perda óssea associados a esse fármaco são:',
-    o: ['Aumento isolado da atividade osteoclástica, com perda lenta e predomínio em osso cortical', 'Inibição da formação óssea por redução da função e aumento da apoptose de osteoblastos e osteócitos, com perda rápida nos primeiros meses e predomínio em osso trabecular', 'Bloqueio da hidroxilação renal da vitamina D, com perda apenas após 5 anos de uso', 'Aumento da absorção intestinal de cálcio, com calcificação de partes moles'],
+    o: ['Só mais atividade osteoclástica; perda lenta no osso cortical', 'Menos formação óssea (osteoblastos, osteócitos); perda rápida trabecular', 'Bloqueio da hidroxilação renal da vitamina D; perda após 5 anos', 'Mais absorção de cálcio, com calcificação de partes moles'],
     g: 'B',
     c: 'O corticoide reduz a formação óssea ao inibir a diferenciação e induzir a apoptose de osteoblastos e osteócitos, além de reduzir a absorção intestinal e aumentar a excreção renal de cálcio. A perda é mais rápida nos primeiros 3 a 6 meses e atinge sobretudo o osso trabecular, o que explica as fraturas vertebrais, que podem ocorrer com densidade pouco alterada.',
     x: { A: 'O efeito dominante é a supressão da formação, e o osso trabecular é o mais atingido.', C: 'A perda óssea começa já nos primeiros meses de uso, não após anos.', D: 'O corticoide reduz, e não aumenta, a absorção intestinal de cálcio.' },
@@ -117,7 +117,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Bisfosfonatos: mecanismo',
     e: 'Os bisfosfonatos nitrogenados, como alendronato, risedronato e ácido zoledrônico, são a primeira linha de tratamento da osteoporose na maioria dos pacientes. Seu mecanismo de ação é:',
-    o: ['Estimular os osteoblastos por ação no receptor do PTH', 'Ligar-se à hidroxiapatita e inibir os osteoclastos, por bloqueio da farnesil pirofosfato sintase, reduzindo a reabsorção óssea', 'Neutralizar o ligante do RANK por anticorpo monoclonal', 'Atuar como agonista do receptor de estrogênio no osso'],
+    o: ['Estimular os osteoblastos pelo receptor do PTH', 'Ligar-se à hidroxiapatita e inibir osteoclastos (FPPS)', 'Neutralizar o RANKL por anticorpo monoclonal', 'Agonista do receptor de estrogênio no osso'],
     g: 'B',
     c: 'Os bisfosfonatos têm alta afinidade pelo mineral ósseo e são internalizados pelos osteoclastos durante a reabsorção. Os nitrogenados inibem a farnesil pirofosfato sintase da via do mevalonato, o que compromete a função e induz a apoptose do osteoclasto. O resultado é a redução da reabsorção e de fraturas vertebrais, não vertebrais e de quadril.',
     x: { A: 'Esse é o mecanismo anabólico da teriparatida.', C: 'O anticorpo contra o ligante do RANK é o denosumabe.', D: 'O agonismo estrogênico seletivo no osso é o mecanismo do raloxifeno.' },
@@ -125,7 +125,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Bisfosfonatos: modo de uso',
     e: 'Ao prescrever alendronato 70 mg por semana, a orientação correta para reduzir o risco de efeitos adversos e garantir a absorção é:',
-    o: ['Tomar à noite, ao deitar, com leite', 'Tomar em jejum, com um copo cheio de água, e permanecer sem se deitar e sem comer por pelo menos 30 minutos', 'Tomar junto com o café da manhã e o suplemento de cálcio', 'Tomar com suco de laranja, podendo deitar-se em seguida'],
+    o: ['À noite, ao deitar, com leite, após o jantar', 'Em jejum, com água, sem deitar nem comer por 30 min', 'Com o café da manhã e o suplemento de cálcio', 'Com suco de laranja, podendo deitar em seguida'],
     g: 'B',
     c: 'Os bisfosfonatos orais têm absorção muito baixa, que é quase anulada por alimentos, cálcio e outras bebidas. Além disso, o contato prolongado do comprimido com a mucosa pode causar esofagite e úlceras. Daí a orientação de jejum, água pura em volume suficiente e posição ereta por ao menos 30 minutos.',
     x: { A: 'Deitar após a tomada favorece esofagite, e o leite impede a absorção.', C: 'Alimentos e cálcio quelam o fármaco e praticamente anulam sua absorção.', D: 'Sucos reduzem a absorção, e o decúbito aumenta o risco de lesão esofágica.' },
@@ -133,7 +133,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Bisfosfonatos: efeitos adversos tardios',
     e: 'Mulher de 71 anos usa alendronato há 9 anos. Refere dor surda na face lateral da coxa direita há 2 meses, sem trauma. A radiografia mostra espessamento da cortical lateral da diáfise femoral, com linha transversa radiotransparente. O diagnóstico e a conduta são:',
-    o: ['Metástase óssea; solicitar cintilografia e manter o alendronato', 'Fratura atípica de fêmur incompleta associada ao bisfosfonato; suspender o fármaco, restringir carga e avaliar o fêmur contralateral', 'Bursite trocantérica; infiltrar corticoide', 'Osteonecrose da cabeça femoral; aumentar a dose do alendronato'],
+    o: ['Metástase óssea; cintilografia e manter o alendronato', 'Fratura atípica por bisfosfonato: suspender e poupar a carga', 'Bursite trocantérica; infiltrar corticoide no local', 'Osteonecrose da cabeça femoral; aumentar o alendronato'],
     g: 'B',
     c: 'O uso prolongado de bisfosfonatos suprime excessivamente a remodelação e associa-se a fraturas atípicas, subtrocantéricas ou diafisárias, de traço transverso, com espessamento da cortical lateral e dor prodrômica na coxa. Devem-se suspender o antirreabsortivo, proteger o membro, avaliar o lado oposto (frequentemente bilateral) e encaminhar ao ortopedista. Outro efeito tardio raro é a osteonecrose de mandíbula.',
     x: { A: 'O aspecto de espessamento cortical lateral com traço transverso é típico de fratura atípica, não de metástase.', C: 'A bursite trocantérica não produz alteração da cortical diafisária na radiografia.', D: 'A lesão é diafisária, e manter ou aumentar o bisfosfonato agravaria o problema.' },
@@ -149,7 +149,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Denosumabe',
     e: 'Paciente em uso de denosumabe há 3 anos decide interromper as aplicações por conta própria. Sobre esse fármaco e essa situação, é correto afirmar:',
-    o: ['O efeito persiste por anos após a suspensão, como ocorre com os bisfosfonatos', 'É um anticorpo contra o ligante do RANK, aplicado por via subcutânea a cada 6 meses, cuja suspensão leva a perda óssea rápida com risco de múltiplas fraturas vertebrais', 'É um agente anabólico que estimula os osteoblastos', 'Deve ser interrompido periodicamente para um período de pausa terapêutica'],
+    o: ['Efeito que persiste por anos após suspender, como os bisfosfonatos', 'Anti-RANKL SC a cada 6 meses; suspender causa perda rápida e fraturas', 'Agente anabólico que estimula os osteoblastos', 'Deve ser interrompido periodicamente, com pausa terapêutica'],
     g: 'B',
     c: 'O denosumabe neutraliza o RANKL, impedindo a formação e a ativação dos osteoclastos. Diferentemente dos bisfosfonatos, não se incorpora ao osso, e seu efeito é totalmente reversível: a suspensão provoca rebote da reabsorção, com perda rápida de massa óssea e fraturas vertebrais múltiplas. Por isso não se faz pausa, e, se for interrompido, deve-se seguir com um bisfosfonato.',
     x: { A: 'O efeito do denosumabe desaparece em poucos meses, ao contrário do dos bisfosfonatos.', C: 'É um antirreabsortivo; os anabólicos são teriparatida e romosozumabe.', D: 'A pausa terapêutica aplica-se aos bisfosfonatos, não ao denosumabe.' },
@@ -157,7 +157,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Teriparatida',
     e: 'Mulher de 73 anos, com três fraturas vertebrais e T-score de -3,8, sofre nova fratura apesar de 4 anos de uso correto de alendronato. Considera-se o uso de teriparatida. Sobre esse fármaco, é correto afirmar:',
-    o: ['É um antirreabsortivo que inibe a catepsina K', 'É um análogo do PTH que, administrado de forma intermitente, estimula a formação óssea, indicado em pacientes de muito alto risco e por tempo limitado', 'É a primeira escolha em pacientes com doença de Paget óssea', 'Pode ser usado sem restrições em pacientes com hipercalcemia'],
+    o: ['Antirreabsortivo que inibe a catepsina K óssea', 'Análogo do PTH intermitente, anabólico; por tempo limitado', 'Primeira escolha na doença de Paget óssea', 'Pode ser usado sem restrições na hipercalcemia'],
     g: 'B',
     c: 'A exposição contínua ao PTH causa reabsorção óssea, mas pulsos diários de teriparatida (PTH 1-34) estimulam preferencialmente os osteoblastos, com efeito anabólico. É reservada a pacientes com risco muito alto ou falha de antirreabsortivos, por período limitado (em geral até 2 anos), seguido de um antirreabsortivo para manter o ganho.',
     x: { A: 'A teriparatida é um agente formador de osso, não um antirreabsortivo.', C: 'A doença de Paget é contraindicação, pelo risco teórico de osteossarcoma.', D: 'A hipercalcemia é contraindicação ao uso de teriparatida.' },
@@ -165,7 +165,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Raloxifeno',
     e: 'Sobre o raloxifeno no tratamento da osteoporose pós-menopausa, assinale a alternativa correta:',
-    o: ['Reduz fraturas vertebrais, não vertebrais e de quadril, e alivia os fogachos', 'Reduz o risco de fraturas vertebrais e de câncer de mama invasivo, mas aumenta o risco de tromboembolismo venoso', 'É um bisfosfonato de uso mensal', 'Aumenta o risco de câncer de endométrio de forma semelhante ao tamoxifeno'],
+    o: ['Reduz fraturas vertebrais, não vertebrais e de quadril; alivia fogachos', 'Reduz fraturas vertebrais e câncer de mama invasivo; aumenta TEV', 'Bisfosfonato de uso mensal, por via oral', 'Aumenta o risco de câncer de endométrio, como o tamoxifeno'],
     g: 'B',
     c: 'O raloxifeno é um modulador seletivo do receptor de estrogênio, com ação agonista no osso e antagonista na mama e no endométrio. Tem eficácia demonstrada apenas para fraturas vertebrais e reduz a incidência de câncer de mama com receptor hormonal positivo. Seus inconvenientes são o aumento de eventos tromboembólicos e a piora dos fogachos.',
     x: { A: 'Não há redução comprovada de fraturas de quadril, e os fogachos podem piorar.', C: 'O raloxifeno é um modulador do receptor de estrogênio de uso diário, não um bisfosfonato.', D: 'O raloxifeno não estimula o endométrio, ao contrário do tamoxifeno.' },
@@ -173,7 +173,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Cálcio e vitamina D',
     e: 'Mulher de 69 anos vai iniciar ácido zoledrônico para osteoporose. Os exames mostram 25-hidroxivitamina D de 11 ng/mL e cálcio no limite inferior. Antes da infusão, deve-se:',
-    o: ['Aplicar o fármaco imediatamente, pois ele corrige a deficiência de vitamina D', 'Corrigir a deficiência de vitamina D e garantir aporte adequado de cálcio, para evitar hipocalcemia e resposta inadequada', 'Suspender todo o cálcio da dieta para evitar hipercalcemia', 'Substituir o tratamento por calcitonina nasal'],
+    o: ['Aplicar logo o fármaco: ele corrige a deficiência de vitamina D', 'Corrigir vitamina D e garantir cálcio, para evitar hipocalcemia', 'Suspender todo o cálcio da dieta para evitar hipercalcemia', 'Trocar o tratamento por calcitonina nasal'],
     g: 'B',
     c: 'Os antirreabsortivos potentes reduzem o efluxo de cálcio do osso para o sangue; na deficiência de vitamina D, a absorção intestinal não compensa e pode ocorrer hipocalcemia sintomática. Além disso, a deficiência grave pode indicar osteomalácia associada. Por isso se corrige a vitamina D e se assegura ingestão de cálcio de cerca de 1.000 a 1.200 mg ao dia, de preferência pela dieta.',
     x: { A: 'O ácido zoledrônico não corrige a vitamina D e pode precipitar hipocalcemia nesse contexto.', C: 'O aporte de cálcio deve ser garantido, não suspenso.', D: 'A calcitonina tem eficácia inferior e não é opção de primeira linha.' },
@@ -189,7 +189,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Paget: tratamento e complicações',
     e: 'Em paciente com doença de Paget óssea sintomática, o tratamento de escolha e a complicação neoplásica rara, que deve ser suspeitada diante de piora súbita da dor em osso acometido, são:',
-    o: ['Teriparatida; condrossarcoma', 'Bisfosfonato potente, como o ácido zoledrônico; osteossarcoma', 'Calcitriol em altas doses; mieloma múltiplo', 'Corticoide sistêmico; tumor de células gigantes'],
+    o: ['Teriparatida; condrossarcoma', 'Bisfosfonato potente (zoledronato); osteossarcoma', 'Calcitriol em altas doses; mieloma múltiplo', 'Corticoide sistêmico; tumor de células gigantes'],
     g: 'B',
     c: 'Como a doença é dirigida por osteoclastos hiperativos, os bisfosfonatos são o tratamento de escolha, e uma única infusão de ácido zoledrônico costuma normalizar a fosfatase alcalina por anos. A transformação sarcomatosa (osteossarcoma) ocorre em menos de 1% dos casos, com prognóstico reservado, e manifesta-se por dor de início recente, aumento de volume ou fratura patológica.',
     x: { A: 'A teriparatida é contraindicada na doença de Paget.', C: 'O calcitriol não trata a doença, e o mieloma não é complicação do Paget.', D: 'Corticoide não tem papel no tratamento; o tumor de células gigantes é complicação muito mais rara.' },
@@ -197,7 +197,7 @@ export const REUMATO_MISC_2: QuestaoCompacta[] = [
   {
     s: 'Osteomalácia',
     e: 'Mulher de 58 anos, submetida a cirurgia bariátrica disabsortiva há 6 anos, queixa-se de dor óssea difusa, fraqueza muscular proximal e marcha anserina. Exames: cálcio no limite inferior, fósforo baixo, fosfatase alcalina elevada, PTH elevado e 25-hidroxivitamina D muito baixa. A radiografia mostra linhas radiotransparentes perpendiculares à cortical nos ramos púbicos. O diagnóstico e seu substrato são:',
-    o: ['Osteoporose; redução da massa óssea com mineralização normal', 'Osteomalácia; defeito de mineralização da matriz osteoide por deficiência de vitamina D', 'Doença de Paget; remodelação óssea focal acelerada', 'Hiperparatireoidismo primário; adenoma de paratireoide'],
+    o: ['Osteoporose: menos massa óssea com mineralização normal', 'Osteomalácia: defeito de mineralização por falta de vitamina D', 'Doença de Paget: remodelação focal acelerada', 'Hiperparatireoidismo primário: adenoma de paratireoide'],
     g: 'B',
     c: 'Na osteomalácia, a falta de vitamina D reduz a oferta de cálcio e fósforo, e a matriz osteoide recém-formada não mineraliza. O resultado é dor óssea, miopatia proximal, fosfatase alcalina elevada, hiperparatireoidismo secundário com hipofosfatemia e as pseudofraturas (zonas de Looser). Na osteoporose, ao contrário, o osso é pouco, mas normalmente mineralizado, e os exames bioquímicos são normais.',
     x: { A: 'A osteoporose é assintomática até a fratura e não altera cálcio, fósforo ou fosfatase alcalina.', C: 'No Paget, cálcio, fósforo e PTH são normais e não há miopatia proximal.', D: 'No hiperparatireoidismo primário o cálcio está elevado, não baixo.' },

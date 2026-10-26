@@ -5,7 +5,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Conceito',
     e: 'Do ponto de vista anatômico, a meningite é definida como o processo inflamatório que acomete:',
-    o: ['A dura-máter e o espaço epidural', 'As leptomeninges (pia-máter e aracnoide) e o espaço subaracnóideo', 'O parênquima cerebral, com preservação das meninges', 'Exclusivamente o epêndima dos ventrículos laterais'],
+    o: ['A dura-máter e o espaço epidural', 'As leptomeninges (pia e aracnoide) e o espaço subaracnóideo', 'O parênquima cerebral, com meninges preservadas', 'Exclusivamente o epêndima dos ventrículos laterais'],
     g: 'B',
     c: 'A meningite é a inflamação da pia-máter e da aracnoide, com acometimento do líquor que circula no espaço subaracnóideo entre elas. Como esse espaço é contínuo ao redor do encéfalo e da medula, a infecção se dissemina por todo o neuroeixo, o que explica a irritação meníngea difusa e a possibilidade de diagnóstico pela punção lombar.',
     x: { A: 'O acometimento da dura-máter e do espaço epidural corresponde a paquimeningite ou abscesso epidural.', C: 'A inflamação do parênquima cerebral define encefalite, e não meningite.', D: 'A inflamação restrita ao epêndima ventricular é a ventriculite, que pode complicar a meningite.' },
@@ -29,7 +29,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Listeria: transmissão',
     e: 'Gestante de 29 anos, no terceiro trimestre, desenvolve meningite por Listeria monocytogenes. A via de aquisição habitual dessa infecção é:',
-    o: ['Inalação de gotículas respiratórias de portadores assintomáticos', 'Ingestão de alimentos contaminados, como laticínios não pasteurizados e embutidos', 'Picada de carrapatos em áreas rurais', 'Contato sexual desprotegido'],
+    o: ['Gotículas respiratórias de portadores assintomáticos', 'Alimentos contaminados (laticínios sem pasteurização, embutidos)', 'Picada de carrapatos em áreas rurais endêmicas', 'Contato sexual desprotegido com portadores do agente'],
     g: 'B',
     c: 'A listeriose é uma infecção de transmissão alimentar: a bactéria se multiplica mesmo em temperatura de geladeira e contamina queijos frescos não pasteurizados, embutidos, patês e vegetais crus. Após atravessar a mucosa intestinal, causa bacteremia e tem tropismo pelo sistema nervoso central e pela placenta, o que explica a gravidade na gestante e no feto.',
     x: { A: 'A transmissão por gotículas é característica do meningococo e do Haemophilus, não da Listeria.', C: 'Carrapatos transmitem riquetsioses e borreliose, sem relação com a listeriose.', D: 'A Listeria não é agente de infecção sexualmente transmissível.' },
@@ -37,7 +37,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Derivação ventricular',
     e: 'Mulher de 41 anos, portadora de derivação ventriculoperitoneal instalada há 5 semanas, apresenta febre baixa, cefaleia e sonolência. O líquor colhido do reservatório mostra 95 células/mm³, proteína de 88 mg/dL e glicose de 44 mg/dL. O agente mais frequentemente envolvido nessa situação é:',
-    o: ['Neisseria meningitidis', 'Estafilococo coagulase-negativo, como Staphylococcus epidermidis', 'Streptococcus pneumoniae', 'Haemophilus influenzae'],
+    o: ['Neisseria meningitidis, comum em surtos', 'Estafilococo coagulase-negativo (S. epidermidis)', 'Streptococcus pneumoniae, comum em adultos', 'Haemophilus influenzae, comum antes da vacina'],
     g: 'B',
     c: 'As infecções de derivações liquóricas são causadas principalmente por bactérias da microbiota da pele, que colonizam o cateter durante o implante e formam biofilme. O estafilococo coagulase-negativo é o agente mais comum, seguido pelo Staphylococcus aureus, e o quadro costuma ser indolente, com pouca pleocitose e sinais de disfunção da derivação.',
     x: { A: 'O meningococo causa meningite comunitária aguda, sem relação com dispositivos implantados.', C: 'O pneumococo é agente comunitário e não coloniza cateteres de derivação com frequência.', D: 'O Haemophilus é agente comunitário raro e não está associado a infecção de dispositivos.' },
@@ -69,7 +69,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia',
     e: 'A sequência de eventos que melhor descreve a patogênese habitual da meningite bacteriana comunitária é:',
-    o: ['Inoculação direta no líquor, bacteremia secundária e colonização da nasofaringe', 'Colonização da nasofaringe, invasão da mucosa, bacteremia e passagem pela barreira hematoencefálica', 'Ingestão do agente, replicação hepática e invasão por via linfática', 'Infecção do parênquima cerebral com extensão tardia às meninges'],
+    o: ['Inoculação direta no líquor, bacteremia e colonização nasofaríngea', 'Colonização da nasofaringe, invasão, bacteremia e barreira hematoencefálica', 'Ingestão do agente, replicação hepática e invasão linfática', 'Infecção do parênquima, com extensão tardia às meninges'],
     g: 'B',
     c: 'Os agentes clássicos colonizam a nasofaringe, atravessam o epitélio, sobrevivem na corrente sanguínea graças à cápsula polissacarídica e cruzam a barreira hematoencefálica. No líquor, pobre em complemento e imunoglobulinas, multiplicam-se livremente, e a resposta inflamatória aos componentes bacterianos é a principal responsável pelo edema e pela lesão neuronal.',
     x: { A: 'A inoculação direta só ocorre em trauma, neurocirurgia ou fístula, não na forma comunitária habitual.', C: 'Essa sequência não corresponde aos agentes clássicos, que chegam ao sistema nervoso por via hematogênica.', D: 'Na meningite, a infecção começa no espaço subaracnóideo, e o parênquima é atingido secundariamente.' },
@@ -77,7 +77,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Rombencefalite por Listeria',
     e: 'Além da meningite, a Listeria monocytogenes pode causar uma forma neurológica característica em adultos, que é:',
-    o: ['Encefalite do lobo temporal com crises convulsivas', 'Rombencefalite, com paralisia de nervos cranianos, ataxia e sinais de tronco encefálico', 'Mielite transversa com nível sensitivo torácico', 'Polirradiculoneurite ascendente simétrica'],
+    o: ['Encefalite do lobo temporal com crises convulsivas', 'Rombencefalite: nervos cranianos, ataxia e tronco encefálico', 'Mielite transversa com nível sensitivo torácico', 'Polirradiculoneurite ascendente e simétrica'],
     g: 'B',
     c: 'A Listeria tem tropismo pelo tronco encefálico e pode causar rombencefalite, quadro bifásico com pródromo febril seguido de paralisias assimétricas de nervos cranianos, ataxia cerebelar e déficits motores ou sensitivos. Pode ocorrer inclusive em adultos previamente hígidos, e o líquor frequentemente mostra alterações discretas.',
     x: { A: 'O acometimento do lobo temporal é a marca da encefalite pelo herpes simples.', C: 'A mielite transversa não é a apresentação característica da listeriose.', D: 'A polirradiculoneurite ascendente corresponde à síndrome de Guillain-Barré.' },
@@ -85,7 +85,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Tríade clássica',
     e: 'Em relação à tríade clássica da meningite bacteriana no adulto (febre, rigidez de nuca e alteração do estado mental), é correto afirmar que:',
-    o: ['Está presente em praticamente todos os casos, e sua ausência exclui o diagnóstico', 'Está completa em menos da metade dos casos, mas quase todos apresentam ao menos dois entre febre, cefaleia, rigidez de nuca e alteração mental', 'Só é observada em meningites virais', 'É específica da meningite meningocócica'],
+    o: ['Presente em praticamente todos; a ausência exclui', 'Completa em menos da metade; quase todos têm ≥ 2 de 4', 'Só é observada em meningites virais', 'É específica da meningite meningocócica'],
     g: 'B',
     c: 'A tríade completa aparece em menos da metade dos adultos com meningite bacteriana, de modo que não se deve esperar por ela para suspeitar da doença. Por outro lado, a grande maioria apresenta pelo menos dois dos quatro achados cardinais (febre, cefaleia, rigidez de nuca e alteração do nível de consciência), e a ausência de todos torna o diagnóstico muito improvável.',
     x: { A: 'A sensibilidade da tríade completa é baixa, portanto sua ausência não afasta a doença.', C: 'A tríade é descrita na meningite bacteriana, e a alteração mental é incomum na viral.', D: 'A tríade não é específica de nenhum agente e é até mais frequente na pneumocócica.' },
@@ -93,7 +93,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Sinal de Kernig',
     e: 'O sinal de Kernig é pesquisado e considerado positivo quando:',
-    o: ['A flexão passiva do pescoço provoca flexão involuntária dos quadris e joelhos', 'Com o quadril e o joelho fletidos a 90 graus, a extensão passiva do joelho encontra resistência e dor', 'A compressão da panturrilha provoca dor intensa', 'A estimulação da planta do pé provoca extensão do hálux'],
+    o: ['A flexão passiva do pescoço flete quadris e joelhos', 'Quadril e joelho a 90°: extensão do joelho com resistência e dor', 'A compressão da panturrilha provoca dor intensa', 'A estimulação plantar provoca extensão do hálux'],
     g: 'B',
     c: 'No sinal de Kernig, o paciente em decúbito dorsal tem a coxa fletida sobre o quadril e a perna sobre a coxa; ao tentar estender o joelho, há dor e resistência. A manobra estira as raízes lombossacrais inflamadas, e a contração reflexa dos isquiotibiais limita o movimento.',
     x: { A: 'A flexão dos membros inferiores à flexão do pescoço corresponde ao sinal de Brudzinski.', C: 'A dor à compressão da panturrilha é pesquisada na suspeita de trombose venosa ou miosite.', D: 'A extensão do hálux é o sinal de Babinski, indicativo de lesão do trato piramidal.' },
@@ -101,7 +101,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Sinal de Brudzinski',
     e: 'O sinal de Brudzinski, na pesquisa de irritação meníngea, consiste em:',
-    o: ['Dor lombar à elevação do membro inferior estendido', 'Flexão involuntária dos quadris e dos joelhos quando o examinador flete passivamente o pescoço do paciente', 'Dor à percussão dos seios da face', 'Resistência à rotação lateral do pescoço'],
+    o: ['Dor lombar à elevação do membro inferior estendido', 'Flexão involuntária de quadris e joelhos à flexão passiva do pescoço', 'Dor à percussão dos seios da face, bilateralmente', 'Resistência à rotação lateral do pescoço, com dor'],
     g: 'B',
     c: 'No sinal de Brudzinski, a flexão passiva da nuca estira as meninges e as raízes inflamadas, e o paciente flete quadris e joelhos de forma reflexa para aliviar a tração. Assim como o sinal de Kernig, tem boa especificidade, mas baixa sensibilidade.',
     x: { A: 'A dor à elevação do membro estendido é o sinal de Lasègue, das radiculopatias lombares.', C: 'A percussão dos seios da face avalia sinusite, não irritação meníngea.', D: 'Na irritação meníngea a resistência é à flexão, e a rotação lateral costuma estar preservada.' },
@@ -109,7 +109,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Acurácia dos sinais meníngeos',
     e: 'Mulher de 33 anos procura o pronto-socorro com febre de 39 °C e cefaleia holocraniana intensa há 18 horas, com fotofobia e vômitos. Não há rigidez de nuca, e os sinais de Kernig e Brudzinski são negativos. A conduta mais adequada é:',
-    o: ['Afastar meningite, pois a ausência de sinais meníngeos exclui o diagnóstico', 'Manter a suspeita de meningite e indicar punção lombar, pois os sinais meníngeos têm baixa sensibilidade', 'Prescrever analgésico e reavaliar apenas se surgir rigidez de nuca', 'Solicitar somente radiografia de seios da face'],
+    o: ['Afastar meningite: sem sinais meníngeos, está excluída', 'Manter a suspeita e puncionar: baixa sensibilidade dos sinais', 'Analgésico e reavaliar só se surgir rigidez de nuca', 'Radiografia de seios da face, apenas'],
     g: 'B',
     c: 'Rigidez de nuca, Kernig e Brudzinski têm sensibilidade baixa em adultos, de modo que sua ausência não afasta meningite quando a história é sugestiva. Diante de febre com cefaleia intensa, fotofobia e vômitos, a punção lombar é o exame que define o diagnóstico e não deve ser dispensada com base apenas no exame físico.',
     x: { A: 'Os sinais meníngeos são específicos, mas pouco sensíveis, e não servem para excluir a doença.', C: 'Aguardar a rigidez de nuca atrasa o diagnóstico de uma doença de alta letalidade.', D: 'A radiografia de seios da face não investiga a hipótese principal e atrasa a conduta.' },
@@ -141,7 +141,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Deficiência de complemento',
     e: 'Mulher de 22 anos é internada com o terceiro episódio de meningite meningocócica. A imunodeficiência que deve ser investigada é:',
-    o: ['Deficiência seletiva de IgA', 'Deficiência dos componentes terminais do complemento (C5 a C9)', 'Doença granulomatosa crônica', 'Deficiência de adesão leucocitária'],
+    o: ['Deficiência seletiva de IgA, a mais comum', 'Deficiência dos componentes terminais do complemento (C5-C9)', 'Doença granulomatosa crônica, com abscessos', 'Deficiência de adesão leucocitária, com onfalite'],
     g: 'B',
     c: 'A destruição das neissérias depende da lise mediada pelo complexo de ataque à membrana, formado pelos componentes C5 a C9. Sua deficiência, hereditária ou induzida por inibidores de C5, predispõe a infecções recorrentes por Neisseria meningitidis, muitas vezes por sorogrupos incomuns.',
     x: { A: 'A deficiência de IgA predispõe a infecções sinopulmonares e intestinais, não a meningococcemia recorrente.', C: 'A doença granulomatosa crônica causa infecções por germes catalase-positivos, como estafilococo.', D: 'A deficiência de adesão leucocitária cursa com infecções cutâneas sem pus e leucocitose acentuada.' },
@@ -165,7 +165,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Foco contíguo',
     e: 'Homem de 52 anos, com otalgia e otorreia à direita há 6 dias, evolui com febre, cefaleia e sonolência. O líquor mostra 2.750 células/mm³ (93% de neutrófilos), proteína de 220 mg/dL, glicose de 15 mg/dL (glicemia de 110 mg/dL) e diplococos gram-positivos. A interpretação correta é:',
-    o: ['Meningite viral secundária a infecção de vias aéreas', 'Meningite pneumocócica por disseminação a partir de foco otogênico', 'Meningite meningocócica com otite coincidente', 'Meningite por Listeria de origem alimentar'],
+    o: ['Meningite viral secundária a infecção de vias aéreas', 'Meningite pneumocócica a partir de foco otogênico', 'Meningite meningocócica com otite coincidente', 'Meningite por Listeria de origem alimentar'],
     g: 'B',
     c: 'O líquor com intensa pleocitose neutrofílica, proteína elevada e glicose muito baixa é típico de meningite bacteriana, e os diplococos gram-positivos identificam o pneumococo. A otite média e a mastoidite são focos contíguos clássicos, a partir dos quais a bactéria alcança as meninges por extensão direta ou por tromboflebite de veias emissárias.',
     x: { A: 'A meningite viral cursa com predomínio linfomononuclear e glicose normal.', C: 'O meningococo é diplococo gram-negativo e não se associa a foco otogênico.', D: 'A Listeria é bacilo gram-positivo e não tem relação com otite média.' },
@@ -181,7 +181,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Meningite e encefalite',
     e: 'O elemento clínico que melhor distingue a encefalite da meningite pura é:',
-    o: ['Presença de febre e cefaleia', 'Disfunção cerebral precoce, como alteração de comportamento, déficits focais e crises convulsivas', 'Presença de rigidez de nuca', 'Fotofobia associada a náuseas'],
+    o: ['Febre e cefaleia, presentes na meningite aguda', 'Disfunção cerebral precoce: comportamento, déficit focal e crises', 'Rigidez de nuca, presente na meningite aguda', 'Fotofobia com náuseas, presentes na meningite aguda'],
     g: 'B',
     c: 'Na meningite pura a função cerebral está preservada no início, e o paciente pode estar desconfortável ou sonolento, mas orientado. Na encefalite o parênquima é acometido, de modo que surgem precocemente alteração do nível e do conteúdo da consciência, mudanças de comportamento, déficits focais e crises convulsivas.',
     x: { A: 'Febre e cefaleia ocorrem tanto na meningite quanto na encefalite.', C: 'A rigidez de nuca indica irritação meníngea e é mais própria da meningite.', D: 'Fotofobia e náuseas são sintomas meníngeos inespecíficos, comuns às duas condições.' },
@@ -189,7 +189,7 @@ export const MENINGITES_1: QuestaoCompacta[] = [
   {
     s: 'Bacilos gram-negativos',
     e: 'Mulher de 58 anos, em uso de prednisona em dose alta há 2 meses por doença reumatológica, apresenta diarreia, tosse com sibilos e, a seguir, febre e rebaixamento do nível de consciência. O líquor mostra 1.100 células/mm³ (80% de neutrófilos), proteína de 205 mg/dL, glicose de 20 mg/dL e cultura positiva para Escherichia coli. A condição de base que deve ser pesquisada é:',
-    o: ['Neurocisticercose em atividade', 'Hiperinfecção por Strongyloides stercoralis', 'Toxoplasmose cerebral', 'Esquistossomose medular'],
+    o: ['Neurocisticercose em atividade, com cistos', 'Hiperinfecção por Strongyloides stercoralis', 'Toxoplasmose cerebral, com lesões anelares', 'Esquistossomose medular, com mielite'],
     g: 'B',
     c: 'Meningite comunitária por bacilos gram-negativos entéricos em paciente que usa corticoide deve levantar a suspeita de estrongiloidíase disseminada. Na hiperinfecção, as larvas filarioides atravessam a parede intestinal em grande número e carregam bactérias entéricas para a circulação, causando sepse e meningite por gram-negativos.',
     x: { A: 'A neurocisticercose causa crises convulsivas e hidrocefalia, sem bacteremia por entéricos.', C: 'A toxoplasmose cerebral produz lesões focais com realce anelar, não meningite por E. coli.', D: 'A esquistossomose medular causa mielorradiculopatia, sem relação com sepse por gram-negativos.' },

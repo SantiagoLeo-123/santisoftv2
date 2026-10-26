@@ -5,7 +5,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Hiperleucocitose: conceito',
     e: 'Sobre a hiperleucocitose e a leucostase nas leucemias, é correto afirmar:',
-    o: ['A leucostase é mais frequente na leucemia linfocítica crônica do que na leucemia mieloide aguda, para a mesma contagem', 'A hiperleucocitose costuma ser definida por leucócitos acima de 100.000/mm3, e a leucostase sintomática é mais comum na leucemia mieloide aguda, porque os blastos mieloides são maiores, menos deformáveis e mais aderentes ao endotélio', 'A leucostase depende apenas do número de células, e não do tipo celular', 'A leucostase é diagnóstico laboratorial, feito pela medida da viscosidade sanguínea'],
+    o: ['A leucostase é mais frequente na LLC que na LMA', 'Hiperleucocitose > 100.000; leucostase mais na LMA (blastos grandes)', 'A leucostase depende só do número, não do tipo celular', 'A leucostase é diagnóstico laboratorial, pela viscosidade'],
     g: 'B',
     c: 'O risco de leucostase depende do número e das características das células. Mieloblastos e monoblastos são grandes, rígidos e expressam moléculas de adesão, obstruindo a microcirculação e lesando o endotélio com contagens a partir de 50.000 a 100.000/mm3. Linfoblastos e linfócitos maduros são menores, de modo que a leucostase é rara na leucemia linfoide aguda e excepcional na linfocítica crônica, mesmo com contagens muito altas.',
     x: { A: 'Linfócitos maduros são pequenos e deformáveis, e raramente causam leucostase.', C: 'O tipo celular é determinante: blastos mieloides causam sintomas com contagens menores.', D: 'O diagnóstico é clínico, por sintomas pulmonares ou neurológicos com hiperleucocitose.' },
@@ -13,7 +13,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Hiperleucocitose: pseudo-hipoxemia',
     e: 'Homem de 48 anos com leucemia mieloide aguda e leucócitos de 280.000/mm3 está eupneico, com saturação de 96% na oximetria de pulso em ar ambiente. A gasometria arterial, analisada 30 minutos após a coleta, mostra pressão parcial de oxigênio de 48 mmHg. A explicação mais provável é:',
-    o: ['Embolia pulmonar maciça', 'Pseudo-hipoxemia: consumo do oxigênio da amostra pelos blastos antes da análise', 'Metemoglobinemia', 'Erro da oximetria de pulso, que superestima a saturação em anêmicos'],
+    o: ['Embolia pulmonar maciça, com hipoxemia verdadeira', 'Pseudo-hipoxemia: blastos consomem o O2 da amostra', 'Metemoglobinemia, com saturação baixa e PaO2 normal', 'Erro da oximetria, que superestima a saturação em anêmicos'],
     g: 'B',
     c: 'Na hiperleucocitose extrema, o grande número de células metabolicamente ativas consome o oxigênio dissolvido no plasma dentro da seringa, reduzindo falsamente a pressão parcial de oxigênio. O fenômeno é minimizado analisando a amostra imediatamente e mantendo-a em gelo. Nesses pacientes, a oximetria de pulso reflete melhor a oxigenação real, e a discordância com a clínica deve levantar a suspeita.',
     x: { A: 'O paciente está eupneico e com oximetria normal, o que não condiz com embolia maciça.', C: 'Na metemoglobinemia a pressão parcial de oxigênio é normal e a oximetria fica baixa.', D: 'A anemia não faz a oximetria superestimar a saturação dessa forma.' },
@@ -21,7 +21,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Leucostase: medidas de citorredução',
     e: 'Mulher de 37 anos com leucemia mieloide aguda monocítica recém-diagnosticada, leucócitos de 240.000/mm3, confusão mental e hipoxemia aguarda a transferência para início da quimioterapia de indução. Entre as medidas abaixo, a correta é:',
-    o: ['Prescrever diurético de alça para reduzir o infiltrado pulmonar', 'Iniciar hidratação venosa vigorosa e hidroxiureia, com profilaxia de lise tumoral, podendo-se usar leucoaférese como medida transitória; a transfusão de plaquetas é permitida se houver plaquetopenia grave', 'Realizar leucoaférese como tratamento único, dispensando quimioterapia', 'Restringir líquidos para evitar edema cerebral'],
+    o: ['Diurético de alça para reduzir o infiltrado pulmonar', 'Hidratar, hidroxiureia e profilaxia de lise; leucoaférese temporária', 'Leucoaférese como único tratamento, sem quimioterapia', 'Restringir líquidos para evitar edema cerebral'],
     g: 'B',
     c: 'A hidratação reduz a viscosidade e protege o rim, e a hidroxiureia diminui a leucometria em 24 a 48 horas enquanto se inicia a quimioterapia definitiva, que é a medida que realmente controla a doença. A leucoaférese remove células rapidamente, mas seu efeito é transitório e sem benefício comprovado de sobrevida. Plaquetas acrescentam pouco à viscosidade e devem ser transfundidas, pois o risco de hemorragia cerebral é alto.',
     x: { A: 'Diuréticos causam hemoconcentração e aumentam a viscosidade do sangue.', C: 'A leucoaférese é ponte; sem quimioterapia a leucometria volta a subir em horas.', D: 'A restrição hídrica aumenta a viscosidade e agrava a obstrução microvascular.' },
@@ -29,7 +29,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Lise tumoral: fisiopatologia',
     e: 'Na síndrome de lise tumoral, a hipocalcemia é explicada por:',
-    o: ['Perda urinária de cálcio induzida pela hiperuricemia', 'Precipitação de fosfato de cálcio nos tecidos, secundária à hiperfosfatemia causada pela liberação do fosfato intracelular', 'Deficiência de vitamina D causada pela quimioterapia', 'Hipoparatireoidismo por infiltração tumoral das paratireoides'],
+    o: ['Perda urinária de cálcio induzida pela hiperuricemia', 'Fosfato de cálcio precipita nos tecidos pela hiperfosfatemia', 'Deficiência de vitamina D causada pela quimioterapia', 'Hipoparatireoidismo por infiltração das paratireoides'],
     g: 'B',
     c: 'A destruição maciça de células tumorais libera potássio, fosfato e ácidos nucleicos, estes últimos metabolizados em ácido úrico. As células neoplásicas contêm muito mais fosfato que as normais, e o excesso se liga ao cálcio circulante, formando cristais que se depositam nos túbulos renais e em outros tecidos. O cálcio sérico cai, podendo causar tetania, convulsões e arritmias. A hipocalcemia é, portanto, a única alteração secundária do conjunto.',
     x: { A: 'O ácido úrico lesa o rim por cristalização, sem causar perda de cálcio.', C: 'O quadro surge em horas a dias, tempo incompatível com carência de vitamina D.', D: 'Não há infiltração das paratireoides; o mecanismo é a quelação pelo fosfato.' },
@@ -53,7 +53,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Alopurinol',
     e: 'Em relação ao uso do alopurinol na prevenção da síndrome de lise tumoral, é correto afirmar:',
-    o: ['Degrada rapidamente o ácido úrico já formado', 'Inibe a xantina oxidase e reduz a formação de novo ácido úrico, mas não elimina o que já existe, devendo ser iniciado antes da quimioterapia nos pacientes de risco baixo a intermediário', 'É contraindicado em pacientes com deficiência de G6PD', 'Dispensa a hidratação venosa'],
+    o: ['Degrada rapidamente o ácido úrico já formado', 'Inibe a xantina oxidase; não elimina o urato já formado', 'Contraindicado em pacientes com deficiência de G6PD', 'Dispensa a hidratação venosa durante o uso'],
     g: 'B',
     c: 'O alopurinol bloqueia a conversão de hipoxantina em xantina e desta em ácido úrico. Por agir apenas sobre a síntese, leva 1 a 2 dias para reduzir a uricemia e não serve para tratar hiperuricemia já instalada. Além disso, acumula xantina, que também pode precipitar nos túbulos. A base da prevenção continua sendo a hidratação venosa vigorosa, mantendo diurese elevada.',
     x: { A: 'Quem degrada o ácido úrico já formado é a rasburicase, não o alopurinol.', C: 'A contraindicação na deficiência de G6PD é da rasburicase.', D: 'A hidratação vigorosa é a medida preventiva mais importante e nunca é dispensada.' },
@@ -61,7 +61,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Rasburicase: indicação',
     e: 'Homem de 26 anos tem linfoma de Burkitt em fase leucêmica, DHL dez vezes acima do limite, ácido úrico de 11,8 mg/dL e creatinina de 1,6 mg/dL antes do início da quimioterapia. Além da hidratação venosa vigorosa, a medida mais adequada para controle do ácido úrico é:',
-    o: ['Alopurinol oral isolado', 'Rasburicase, urato oxidase recombinante que converte o ácido úrico em alantoína, composto muito mais solúvel', 'Alcalinização da urina com bicarbonato de sódio', 'Colchicina'],
+    o: ['Alopurinol oral isolado, em dose habitual', 'Rasburicase: urato oxidase, converte urato em alantoína', 'Alcalinização da urina com bicarbonato de sódio', 'Colchicina oral, em dose habitual'],
     g: 'B',
     c: 'A rasburicase oxida o ácido úrico existente em alantoína, que é 5 a 10 vezes mais solúvel na urina, reduzindo a uricemia em poucas horas. É indicada nos pacientes de alto risco e naqueles que já apresentam hiperuricemia ou disfunção renal antes do tratamento, situação em que o alopurinol, que só impede a formação, seria insuficiente. Não acumula xantina nem exige ajuste para a função renal.',
     x: { A: 'O alopurinol não reduz o ácido úrico já elevado e age lentamente.', C: 'A alcalinização não é mais recomendada, por favorecer precipitação de fosfato de cálcio.', D: 'A colchicina trata a crise de gota e não reduz a uricemia.' },
@@ -69,7 +69,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Rasburicase e deficiência de G6PD',
     e: 'Homem de 30 anos, com leucemia linfoide aguda e hiperuricemia, recebe rasburicase. Após 12 horas, apresenta urina escura, icterícia, queda da hemoglobina de 9,8 para 6,1 g/dL e saturação de 85% na oximetria, que não melhora com oxigênio, com sangue arterial de cor acastanhada. O mecanismo desse evento é:',
-    o: ['Reação anafilática à proteína recombinante', 'Hemólise oxidativa e metemoglobinemia por peróxido de hidrogênio, gerado na reação da urato oxidase, em paciente com deficiência de G6PD', 'Síndrome de lise tumoral com hemoglobinúria', 'Anemia hemolítica autoimune por anticorpos quentes'],
+    o: ['Anafilaxia à proteína recombinante, com choque', 'Hemólise e metemoglobinemia por H2O2 na deficiência de G6PD', 'Lise tumoral com hemoglobinúria, por lise de blastos', 'Anemia hemolítica autoimune, por anticorpos quentes'],
     g: 'B',
     c: 'A conversão do ácido úrico em alantoína pela rasburicase produz peróxido de hidrogênio. A hemácia com deficiência de glicose-6-fosfato desidrogenase não regenera glutationa reduzida e não neutraliza esse oxidante, sofrendo hemólise intravascular e oxidação do ferro da hemoglobina. Por isso a rasburicase é contraindicada nesses pacientes, que devem receber alopurinol. O azul de metileno também é contraindicado na deficiência de G6PD.',
     x: { A: 'A anafilaxia seria imediata, com broncoespasmo e hipotensão, sem hemólise.', C: 'A lise tumoral não causa hemólise nem saturação baixa refratária ao oxigênio.', D: 'Não há motivo para autoimunidade aguda; a relação temporal aponta para o fármaco.' },
@@ -77,7 +77,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Lise tumoral: hipocalcemia',
     e: 'Mulher de 40 anos com síndrome de lise tumoral tem cálcio total de 6,9 mg/dL e fósforo de 8,8 mg/dL. Está assintomática, sem tetania, sem convulsões e com eletrocardiograma normal. Em relação ao cálcio, a conduta correta é:',
-    o: ['Infundir gluconato de cálcio até normalizar o cálcio sérico', 'Não repor cálcio enquanto a paciente estiver assintomática, priorizando o controle do fósforo, pois a reposição aumenta a precipitação de fosfato de cálcio nos rins', 'Administrar calcitriol em dose alta', 'Alcalinizar a urina com bicarbonato para elevar o cálcio ionizado'],
+    o: ['Gluconato de cálcio até normalizar o cálcio sérico', 'Não repor se assintomática: precipita fosfato de cálcio nos rins', 'Calcitriol em dose alta, por via oral', 'Alcalinizar a urina com bicarbonato para elevar o Ca iônico'],
     g: 'B',
     c: 'Com fósforo elevado, o cálcio administrado combina-se ao fosfato e precipita nos túbulos renais e em tecidos moles, agravando a lesão renal. Por isso a hipocalcemia assintomática não é tratada, e o esforço se concentra em reduzir o fósforo com hidratação, quelantes e, se necessário, diálise. A reposição venosa de cálcio é reservada para hipocalcemia sintomática, com tetania, convulsão ou arritmia, na menor dose eficaz.',
     x: { A: 'Repor cálcio com fósforo alto promove calcificação metastática e piora renal.', C: 'O calcitriol aumenta a absorção de cálcio e de fósforo, piorando o produto cálcio-fósforo.', D: 'A alcalose reduz o cálcio ionizado e favorece a precipitação do fosfato de cálcio.' },
@@ -85,7 +85,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Lise tumoral: alcalinização e diálise',
     e: 'Sobre o manejo da síndrome de lise tumoral estabelecida, é correto afirmar:',
-    o: ['A alcalinização urinária com bicarbonato é medida obrigatória em todos os pacientes', 'A base do tratamento é a hidratação venosa vigorosa, com correção dos distúrbios eletrolíticos, e a terapia de substituição renal está indicada em hipercalemia ou hiperfosfatemia refratárias, sobrecarga de volume ou oligúria persistente', 'Os diuréticos tiazídicos são os de escolha para manter a diurese', 'A quimioterapia deve ser suspensa definitivamente'],
+    o: ['Alcalinização urinária obrigatória em todos os pacientes', 'Hidratação e correção eletrolítica; diálise se refratário', 'Tiazídicos são os de escolha para manter a diurese', 'Suspender a quimioterapia de forma definitiva'],
     g: 'B',
     c: 'A hidratação aumenta o fluxo tubular e dilui ácido úrico e fosfato, prevenindo a cristalização. A alcalinização aumenta a solubilidade do ácido úrico, mas reduz a do fosfato de cálcio e a da xantina, e deixou de ser recomendada, sobretudo com a disponibilidade da rasburicase. Quando o rim não consegue eliminar potássio e fósforo, a diálise é a forma eficaz de removê-los.',
     x: { A: 'A alcalinização foi abandonada, por favorecer a precipitação de fosfato de cálcio.', C: 'Tiazídicos elevam o ácido úrico; quando necessário usa-se diurético de alça.', D: 'A quimioterapia é ajustada ou adiada, mas a doença de base precisa ser tratada.' },
@@ -93,7 +93,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Neutropenia febril: baixo risco',
     e: 'Mulher de 38 anos, em quimioterapia ambulatorial para tumor sólido, sem comorbidades, apresenta temperatura de 38,4 graus, sem foco, com neutrófilos de 420/mm3. Está em bom estado geral, normotensa, hidratada, aceitando via oral, mora perto do hospital e tem acompanhante. O escore MASCC é de 24. A conduta aceitável é:',
-    o: ['Internação obrigatória em unidade de terapia intensiva', 'Tratamento ambulatorial com antibiótico oral, como ciprofloxacino associado a amoxicilina com clavulanato, após primeira dose e período de observação, com reavaliação precoce', 'Apenas antitérmico e retorno se a febre persistir por 5 dias', 'Antifúngico empírico imediato'],
+    o: ['Internação obrigatória em unidade de terapia intensiva', 'Antibiótico oral ambulatorial, após 1ª dose e observação', 'Apenas antitérmico; retorno se a febre durar 5 dias', 'Antifúngico empírico imediato, por via venosa'],
     g: 'B',
     c: 'O escore MASCC estima o risco de complicações na neutropenia febril, e valores iguais ou superiores a 21 indicam baixo risco. Pacientes com neutropenia de curta duração esperada, sem instabilidade, sem comorbidades relevantes e com suporte social adequado podem ser tratados fora do hospital, com esquema oral que cubra bacilos Gram-negativos, inclusive Pseudomonas, e cocos Gram-positivos. Pacientes em indução de leucemia aguda são, por definição, de alto risco.',
     x: { A: 'Não há critério de gravidade que justifique terapia intensiva nessa paciente.', C: 'Toda neutropenia febril exige antibiótico imediato, mesmo no baixo risco.', D: 'O antifúngico empírico é reservado à febre persistente em neutropenia prolongada.' },
@@ -101,7 +101,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Neutropenia febril: vancomicina',
     e: 'No esquema empírico inicial da neutropenia febril, são indicações para acrescentar vancomicina ao betalactâmico antipseudomonas, EXCETO:',
-    o: ['Instabilidade hemodinâmica ou sepse grave', 'Suspeita de infecção relacionada a cateter venoso central', 'Infecção de pele e partes moles ou pneumonia', 'Febre isolada, em paciente estável, apenas por ser neutropenia grave'],
+    o: ['Instabilidade hemodinâmica ou sepse grave', 'Suspeita de infecção de cateter venoso central', 'Infecção de pele e partes moles ou pneumonia', 'Febre isolada em paciente estável com neutropenia grave'],
     g: 'D',
     c: 'A cobertura inicial deve priorizar bacilos Gram-negativos, responsáveis pelas infecções de evolução mais rápida e letal. A adição empírica de vancomicina não reduz a mortalidade no paciente estável e aumenta nefrotoxicidade e resistência. Está indicada quando há maior probabilidade de Gram-positivo resistente: instabilidade, infecção de cateter, pele ou pulmão, colonização por estafilococo resistente à meticilina ou hemocultura com cocos Gram-positivos.',
     x: { A: 'Na instabilidade hemodinâmica amplia-se a cobertura para Gram-positivos resistentes.', B: 'Infecção de cateter é frequentemente causada por estafilococos resistentes.', C: 'Pele, partes moles e pneumonia são focos com participação relevante de estafilococos.' },
@@ -109,7 +109,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Neutropenia febril: febre persistente',
     e: 'Homem de 44 anos, em indução para leucemia mieloide aguda, está no sexto dia de cefepima por neutropenia febril, com neutrófilos de 50/mm3 há 12 dias. Permanece febril, estável, com hemoculturas negativas e sem foco ao exame. A conduta mais adequada é:',
-    o: ['Suspender os antibióticos, pois as culturas são negativas', 'Investigar infecção fúngica invasiva com tomografia de tórax e de seios da face e biomarcadores, e iniciar antifúngico com ação contra fungos filamentosos', 'Trocar cefepima por ceftriaxona', 'Apenas acrescentar vancomicina e aguardar mais 7 dias'],
+    o: ['Suspender os antibióticos, pois as culturas são negativas', 'Investigar fungo invasivo e dar antifúngico para filamentosos', 'Trocar cefepima por ceftriaxona, por via venosa', 'Acrescentar vancomicina e aguardar mais 7 dias'],
     g: 'B',
     c: 'A febre que persiste por 4 a 7 dias de antibiótico de amplo espectro, em paciente com neutropenia profunda e prolongada, tem alta probabilidade de ser causada por fungo, sobretudo Aspergillus e Candida, que raramente crescem em hemoculturas. A conduta é buscar ativamente o foco com tomografia e galactomanana e iniciar antifúngico, de forma empírica ou guiada pelos achados. Leucemia mieloide em indução é a situação de maior risco.',
     x: { A: 'Suspender antibiótico em neutropênico febril grave expõe a bacteremia fatal.', C: 'A ceftriaxona não cobre Pseudomonas e estreitaria a cobertura de forma inadequada.', D: 'Sem indicação específica, a vancomicina não resolve a febre persistente.' },
@@ -125,7 +125,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Tiflite',
     e: 'Menino de 11 anos, no décimo segundo dia de indução para leucemia aguda, com neutrófilos de 80/mm3, apresenta febre, dor em fossa ilíaca direita, distensão abdominal e diarreia. A tomografia mostra espessamento da parede do ceco e do cólon ascendente, sem pneumoperitônio. A conduta inicial é:',
-    o: ['Apendicectomia de urgência', 'Tratamento clínico: jejum, hidratação venosa, antibiótico de amplo espectro com cobertura para Gram-negativos e anaeróbios e avaliação cirúrgica seriada', 'Colonoscopia para biópsia do ceco', 'Loperamida e alta com antibiótico oral'],
+    o: ['Apendicectomia de urgência, sem antibiótico prévio', 'Clínico: jejum, hidratação, antibiótico e avaliação seriada', 'Colonoscopia para biópsia do ceco, de imediato', 'Loperamida e alta com antibiótico oral'],
     g: 'B',
     c: 'A tiflite, ou enterocolite neutropênica, resulta da lesão da mucosa pela quimioterapia somada à neutropenia, permitindo invasão bacteriana da parede intestinal, com edema, necrose e risco de perfuração. O ceco é o local preferencial, por ser distensível e menos vascularizado. O tratamento é conservador na maioria dos casos, e a cirurgia é reservada a perfuração, sangramento incontrolável ou deterioração clínica.',
     x: { A: 'A cirurgia em neutropênico plaquetopênico tem alta mortalidade e não é a conduta inicial.', C: 'A colonoscopia é contraindicada, pelo risco de perfuração da parede friável.', D: 'Antidiarreicos favorecem íleo e megacólon, e o quadro exige internação.' },
@@ -133,7 +133,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Transfusão profilática de plaquetas',
     e: 'Homem de 57 anos, internado em aplasia pós-quimioterapia para leucemia aguda não promielocítica, está afebril, sem sangramento e sem procedimentos programados. Em relação à transfusão de plaquetas, a indicação profilática habitual é com contagem:',
-    o: ['Abaixo de 100.000/mm3', 'Abaixo de 10.000/mm3, elevando-se o limiar para 20.000/mm3 se houver febre ou outros fatores de consumo', 'Abaixo de 50.000/mm3 em qualquer situação', 'Apenas se houver sangramento ativo, independentemente da contagem'],
+    o: ['Abaixo de 100.000/mm³, em qualquer situação', 'Abaixo de 10.000/mm³ (20.000 com febre ou consumo)', 'Abaixo de 50.000/mm³ em qualquer situação', 'Só se houver sangramento ativo, qualquer que seja a contagem'],
     g: 'B',
     c: 'Em pacientes estáveis com plaquetopenia por falência de produção, o risco de hemorragia espontânea grave aumenta de modo importante abaixo de 10.000/mm3, e esse limiar reduz transfusões sem aumentar sangramentos. Febre, infecção e coagulopatia aumentam o consumo e justificam limiar maior. Para procedimentos invasivos, como punção lombar e passagem de cateter, e para sangramento ativo, buscam-se contagens mais altas, em torno de 50.000/mm3.',
     x: { A: 'Esse limiar é reservado a neurocirurgia e sangramento em sistema nervoso central.', C: 'O limiar de 50.000 aplica-se a procedimentos invasivos e sangramento ativo.', D: 'A transfusão profilática reduz hemorragias e não deve aguardar o sangramento.' },
@@ -141,7 +141,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Hemocomponentes irradiados',
     e: 'Pacientes com leucemia aguda em quimioterapia intensiva ou candidatos a transplante devem receber hemocomponentes celulares irradiados. A finalidade da irradiação é:',
-    o: ['Esterilizar a bolsa, eliminando bactérias e vírus', 'Inativar os linfócitos T do doador, prevenindo a doença do enxerto contra o hospedeiro associada à transfusão', 'Remover leucócitos, prevenindo reação febril não hemolítica', 'Prevenir a aloimunização contra antígenos eritrocitários'],
+    o: ['Esterilizar a bolsa, eliminando bactérias e vírus', 'Inativar os linfócitos T do doador: previne a DECH transfusional', 'Remover leucócitos, prevenindo reação febril não hemolítica', 'Prevenir a aloimunização contra antígenos eritrocitários'],
     g: 'B',
     c: 'Linfócitos T viáveis presentes em concentrados de hemácias e plaquetas podem enxertar no receptor imunossuprimido, que não consegue eliminá-los, e atacar pele, fígado, intestino e a própria medula óssea. A doença do enxerto contra o hospedeiro transfusional é quase sempre fatal, por causar aplasia medular, e não tem tratamento eficaz. A irradiação gama lesa o DNA dos linfócitos e impede sua proliferação.',
     x: { A: 'A irradiação não esteriliza a bolsa nem inativa agentes infecciosos.', C: 'A remoção de leucócitos é feita por filtração, que não previne a doença do enxerto.', D: 'A aloimunização eritrocitária é evitada por compatibilidade e fenotipagem.' },
@@ -149,7 +149,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Hemocomponentes filtrados',
     e: 'A leucorredução (filtração) dos hemocomponentes celulares, recomendada para pacientes com leucemia aguda politransfundidos, tem como benefícios:',
-    o: ['Prevenir a doença do enxerto contra o hospedeiro transfusional', 'Reduzir reações febris não hemolíticas, a aloimunização contra antígenos HLA, com refratariedade plaquetária, e a transmissão de citomegalovírus', 'Prevenir reações alérgicas às proteínas plasmáticas', 'Prevenir a sobrecarga de ferro'],
+    o: ['Prevenir a doença do enxerto contra o hospedeiro', 'Reduz reação febril, aloimunização HLA e transmissão de CMV', 'Prevenir reações alérgicas às proteínas do plasma', 'Prevenir a sobrecarga de ferro nas transfusões'],
     g: 'B',
     c: 'Os leucócitos do doador liberam citocinas durante a estocagem e são alvo de anticorpos do receptor, causando febre e calafrios. Também expressam antígenos HLA, que sensibilizam o receptor e levam à destruição das plaquetas transfundidas, e carregam o citomegalovírus em estado latente. A filtração reduz esses riscos, mas deixa linfócitos suficientes para causar doença do enxerto, que só é prevenida pela irradiação.',
     x: { A: 'A prevenção da doença do enxerto transfusional exige irradiação, não filtração.', C: 'Reações alérgicas ao plasma são prevenidas com hemocomponentes lavados.', D: 'A sobrecarga de ferro depende do número de concentrados de hemácias transfundidos.' },
@@ -157,7 +157,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'CIVD: diagnóstico laboratorial',
     e: 'Mulher de 54 anos com leucemia mieloide aguda monocítica e sepse apresenta sangramento em locais de punção e equimoses. Exames: plaquetas de 21.000/mm3, tempo de protrombina e tempo de tromboplastina parcial alargados, fibrinogênio de 85 mg/dL, dímero D muito elevado e esquizócitos no esfregaço. O diagnóstico e a base do tratamento são:',
-    o: ['Deficiência de vitamina K; reposição parenteral', 'Coagulação intravascular disseminada; tratamento da causa de base, com reposição de plaquetas, plasma e crioprecipitado se houver sangramento ou risco elevado', 'Púrpura trombocitopênica trombótica; plasmaférese', 'Hemofilia adquirida; imunossupressão'],
+    o: ['Deficiência de vitamina K; reposição parenteral', 'CIVD: tratar a causa e repor plaquetas, plasma e crio', 'PTT; plasmaférese terapêutica diária, em UTI', 'Hemofilia adquirida; imunossupressão com corticoide'],
     g: 'B',
     c: 'Na coagulação intravascular disseminada, a exposição maciça de fator tecidual, por blastos ou pela sepse, ativa a coagulação de forma descontrolada. Formam-se microtrombos que consomem plaquetas, fatores e fibrinogênio e fragmentam hemácias, enquanto a fibrinólise secundária eleva o dímero D. O tratamento essencial é controlar o que desencadeou o processo, e os hemocomponentes são suporte para o paciente que sangra.',
     x: { A: 'A deficiência de vitamina K não reduz plaquetas nem fibrinogênio.', C: 'Na púrpura trombótica os tempos de coagulação e o fibrinogênio são normais.', D: 'A hemofilia adquirida alarga apenas o tempo de tromboplastina parcial, com plaquetas normais.' },
@@ -165,7 +165,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Efeitos tardios do tratamento',
     e: 'Mulher de 28 anos, tratada de leucemia aguda aos 12 anos com esquema que incluiu doses cumulativas altas de antraciclina, apresenta dispneia aos esforços e edema de membros inferiores. O efeito tardio mais provável e o exame para avaliá-lo são:',
-    o: ['Fibrose pulmonar; prova de função pulmonar', 'Cardiomiopatia dilatada por antraciclina; ecocardiograma', 'Nefropatia crônica; ultrassonografia renal', 'Hipotireoidismo; TSH'],
+    o: ['Fibrose pulmonar; prova de função pulmonar', 'Cardiomiopatia por antraciclina; ecocardiograma', 'Nefropatia crônica; ultrassonografia renal', 'Hipotireoidismo; TSH e T4 livre'],
     g: 'B',
     c: 'As antraciclinas geram radicais livres e lesam os cardiomiócitos, células sem capacidade de regeneração, de forma cumulativa e irreversível. A disfunção ventricular pode surgir anos ou décadas depois, com risco maior quanto maior a dose total, na exposição em idade jovem e com radioterapia torácica associada. Sobreviventes devem ter seguimento ecocardiográfico periódico. Outros efeitos tardios são segundas neoplasias, infertilidade, osteonecrose e déficits cognitivos.',
     x: { A: 'A fibrose pulmonar é efeito tardio de bleomicina e bussulfano, não de antraciclina.', C: 'A nefrotoxicidade crônica relaciona-se a cisplatina e ifosfamida.', D: 'O hipotireoidismo tardio decorre de irradiação cervical ou craniana.' },
@@ -173,7 +173,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Diferencial: reação leucemoide',
     e: 'Homem de 66 anos, com abscesso hepático e sepse, tem leucócitos de 58.000/mm3, com 70% de segmentados, 18% de bastões, 6% de metamielócitos, 3% de mielócitos e ausência de blastos. Há granulações tóxicas e vacuolização nos neutrófilos. Hemoglobina de 12,8 g/dL e plaquetas de 410.000/mm3. A interpretação correta é:',
-    o: ['Leucemia mieloide aguda, pela leucometria acima de 50.000/mm3', 'Reação leucemoide secundária à infecção, com desvio à esquerda escalonado, sem blastos e sem falência das outras linhagens', 'Leucemia linfocítica crônica', 'Leucemia aguda aleucêmica'],
+    o: ['LMA, pela leucometria acima de 50.000/mm³ isolada', 'Reação leucemoide: desvio escalonado, sem blastos', 'LLC, com linfocitose madura e células esmagadas', 'Leucemia aguda aleucêmica, sem blastos no sangue'],
     g: 'B',
     c: 'A reação leucemoide é uma leucocitose reativa intensa, geralmente acima de 50.000/mm3, em resposta a infecção grave, inflamação ou neoplasia. A medula normal acelera a produção e libera formas jovens, mantendo a ordem de maturação, e os neutrófilos mostram sinais de ativação. A ausência de blastos, de hiato leucêmico, de anemia e de plaquetopenia afasta a leucemia aguda. A conduta é tratar a causa.',
     x: { A: 'O diagnóstico de leucemia aguda exige blastos, e não apenas leucometria elevada.', C: 'A leucocitose é de neutrófilos e precursores, e não de linfócitos maduros.', D: 'A forma aleucêmica cursa com pancitopenia, o oposto do quadro apresentado.' },
@@ -181,7 +181,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Diferencial: mononucleose infecciosa',
     e: 'Adolescente de 16 anos apresenta febre, odinofagia com exsudato amigdaliano, linfonodomegalia cervical posterior e esplenomegalia há 10 dias. Hemograma: hemoglobina de 13,4 g/dL, leucócitos de 17.000/mm3 com 62% de linfócitos, sendo 20% atípicos, com citoplasma amplo e basofílico que se amolda às hemácias vizinhas, e plaquetas de 148.000/mm3. A interpretação e a conduta corretas são:',
-    o: ['Leucemia linfoide aguda; mielograma de urgência', 'Mononucleose infecciosa; os linfócitos atípicos são linfócitos T reativos, e a confirmação é sorológica, sem necessidade de mielograma', 'Leucemia linfocítica crônica; imunofenotipagem', 'Faringite estreptocócica; amoxicilina'],
+    o: ['LLA; mielograma de urgência, com imunofenotipagem', 'Mononucleose: T reativos; sorologia, sem mielograma', 'LLC; imunofenotipagem do sangue periférico', 'Faringite estreptocócica; amoxicilina por 10 dias'],
     g: 'B',
     c: 'Na mononucleose pelo vírus Epstein-Barr, os linfócitos atípicos são linfócitos T citotóxicos ativados contra as células B infectadas. São células maduras, pleomórficas, de citoplasma abundante, diferentes dos blastos, que são monótonos, com cromatina frouxa, nucléolo e pouco citoplasma. A hemoglobina, os neutrófilos e as plaquetas preservados reforçam o processo reativo. A amoxicilina, nesse contexto, costuma provocar exantema.',
     x: { A: 'Não há blastos nem falência das outras linhagens que justifiquem mielograma.', C: 'A leucemia linfocítica crônica é doença de idosos, com linfócitos pequenos e monótonos.', D: 'A faringite estreptocócica não causa esplenomegalia nem linfocitose atípica.' },
@@ -197,7 +197,7 @@ export const LEUCEMIA_4: QuestaoCompacta[] = [
   {
     s: 'Diferencial: anemia megaloblástica',
     e: 'Mulher de 62 anos, vegetariana estrita há 15 anos, tem fadiga e parestesias nos pés. Hemograma: hemoglobina de 6,2 g/dL, VCM de 124 fL, leucócitos de 2.600/mm3, plaquetas de 72.000/mm3, neutrófilos hipersegmentados e DHL muito elevada. O mielograma, feito por suspeita de leucemia, mostra medula hipercelular com precursores eritroides megaloblásticos e 2% de blastos. A conduta correta é:',
-    o: ['Iniciar indução 7+3, pois a medula hipercelular com DHL alta indica leucemia aguda', 'Dosar vitamina B12 e folato e repor a vitamina deficiente, pois a anemia megaloblástica pode simular leucemia e mielodisplasia', 'Diagnosticar síndrome mielodisplásica e iniciar azacitidina', 'Indicar transplante alogênico de medula óssea'],
+    o: ['Indução 7+3: medula hipercelular e DHL alta indicam LA', 'Dosar B12 e folato: megaloblastose simula leucemia e SMD', 'SMD, e iniciar azacitidina de imediato', 'Transplante alogênico de medula óssea imediato'],
     g: 'B',
     c: 'A deficiência de vitamina B12 prejudica a síntese de DNA, causando assincronia de maturação entre núcleo e citoplasma e morte dos precursores dentro da medula. O resultado é uma medula hipercelular e de aspecto bizarro, com pancitopenia periférica e DHL muito alta pela eritropoese ineficaz, quadro que pode ser confundido com neoplasia. Blastos normais, hipersegmentação de neutrófilos e sintomas neurológicos apontam para a carência, que é reversível.',
     x: { A: 'Com 2% de blastos não há leucemia aguda; a quimioterapia seria um erro grave.', C: 'A mielodisplasia só pode ser diagnosticada após exclusão de carência de B12 e folato.', D: 'Trata-se de doença carencial reversível com reposição vitamínica.' },

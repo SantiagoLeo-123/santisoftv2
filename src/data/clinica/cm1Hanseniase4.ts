@@ -5,7 +5,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Estados reacionais',
     e: 'Os estados reacionais da hanseníase são mais bem definidos como:',
-    o: ['Efeitos adversos previsíveis dos fármacos da poliquimioterapia', 'Episódios inflamatórios agudos, de natureza imunológica, que podem ocorrer antes, durante ou após o tratamento', 'Sinais de resistência do bacilo ao tratamento', 'Infecções bacterianas secundárias das lesões cutâneas'],
+    o: ['Efeitos adversos previsíveis dos fármacos da PQT', 'Episódios inflamatórios imunológicos, antes, durante ou depois da PQT', 'Sinais de resistência do bacilo ao tratamento instituído', 'Infecções bacterianas secundárias das lesões da pele'],
     g: 'B',
     c: 'As reações hansênicas são fenômenos de agudização imunológica sobre o curso crônico da doença, dirigidos contra antígenos do bacilo, e podem surgir antes do diagnóstico, durante a poliquimioterapia ou anos após a alta. São a principal causa de dano neural e de incapacidades e constituem urgência.',
     x: { A: 'Não são reações aos fármacos, tanto que ocorrem antes e depois do tratamento.', C: 'Reação não indica resistência; reflete resposta imune a antígenos bacilares.', D: 'Não se trata de infecção secundária, e antibióticos não têm papel.' },
@@ -29,7 +29,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Reação tipo 1',
     e: 'O tratamento de escolha da reação tipo 1 com neurite e a conduta em relação à poliquimioterapia são:',
-    o: ['Talidomida, suspendendo a PQT-U até a melhora', 'Prednisona em dose imunossupressora, em torno de 1 mg/kg/dia, com redução lenta, mantendo a PQT-U', 'Anti-inflamatório não esteroide, reiniciando a contagem das doses da PQT-U', 'Clofazimina em dose alta, suspendendo a rifampicina'],
+    o: ['Talidomida, suspendendo a PQT-U até a melhora', 'Prednisona ~1 mg/kg/dia, redução lenta, mantendo a PQT-U', 'AINE, reiniciando a contagem das doses da PQT-U', 'Clofazimina em dose alta, suspendendo a rifampicina'],
     g: 'B',
     c: 'A reação tipo 1 é tratada com prednisona em torno de 1 mg/kg/dia, mantida até o controle do quadro e reduzida de forma lenta e gradual, com reavaliação neurológica periódica. A poliquimioterapia não deve ser suspensa nem reiniciada, pois a reação é imunológica e não significa falha do tratamento.',
     x: { A: 'A talidomida não tem eficácia na reação tipo 1, e a PQT-U não deve ser suspensa.', C: 'Anti-inflamatórios comuns não previnem o dano neural na reação com neurite.', D: 'A clofazimina em dose alta é adjuvante na reação tipo 2, e a rifampicina deve ser mantida.' },
@@ -37,7 +37,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Corticoterapia',
     e: 'Paciente com reação tipo 1 iniciará prednisona 1 mg/kg/dia por tempo prolongado. Entre os cuidados antes e durante a corticoterapia, é recomendado:',
-    o: ['Suspender a PQT-U para evitar interação medicamentosa', 'Tratar profilaticamente a estrongiloidíase e monitorar pressão arterial, glicemia e peso', 'Associar talidomida de rotina para poupar corticoide', 'Indicar repouso absoluto no leito durante todo o uso'],
+    o: ['Suspender a PQT-U para evitar interação medicamentosa', 'Tratar estrongiloidíase profilaticamente; monitorar PA, glicemia e peso', 'Associar talidomida de rotina, para poupar corticoide', 'Indicar repouso absoluto no leito durante todo o uso'],
     g: 'B',
     c: 'A corticoterapia em dose imunossupressora pode desencadear hiperinfecção por Strongyloides stercoralis, razão pela qual se faz tratamento antiparasitário profilático, com ivermectina ou albendazol. Também é preciso vigiar pressão, glicemia, peso, sintomas dispépticos e risco de osteoporose, além de infecções como a tuberculose.',
     x: { A: 'A PQT-U deve ser mantida durante o tratamento da reação.', C: 'A talidomida não é eficaz na reação tipo 1 e tem toxicidade própria.', D: 'Indica-se repouso do membro afetado pela neurite, não repouso absoluto.' },
@@ -45,7 +45,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Reação tipo 2',
     e: 'Homem de 33 anos, com hanseníase virchowiana no oitavo mês de tratamento, apresenta febre de 39 °C, mal-estar, artralgias e múltiplos nódulos eritematosos, quentes e dolorosos nos braços, nas coxas e na face, em pele antes aparentemente normal. O hemograma mostra leucocitose com neutrofilia. O diagnóstico é:',
-    o: ['Reação tipo 1 (reação reversa)', 'Reação tipo 2 (eritema nodoso hansênico)', 'Recidiva da hanseníase', 'Sepse de foco cutâneo'],
+    o: ['Reação tipo 1 (reação reversa), em borderline', 'Reação tipo 2 (eritema nodoso hansênico), em virchowiano', 'Recidiva da hanseníase, após a alta por cura', 'Sepse de foco cutâneo, com bacteremia'],
     g: 'B',
     c: 'A reação tipo 2 ocorre em multibacilares, sobretudo virchowianos, e manifesta-se com nódulos subcutâneos dolorosos que surgem de forma abrupta, inclusive em pele sã, acompanhados de febre, artralgia, mal-estar e leucocitose. Pode envolver nervos, olhos, testículos, rins e linfonodos.',
     x: { A: 'Na reação tipo 1 inflamam as lesões antigas, com poucos sintomas sistêmicos.', C: 'A recidiva é tardia e insidiosa, não um quadro febril agudo durante o tratamento.', D: 'Nódulos múltiplos e simétricos em virchowiano em tratamento definem reação tipo 2.' },
@@ -53,7 +53,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Reação tipo 2',
     e: 'O eritema nodoso hansênico ocorre quase exclusivamente em pacientes multibacilares porque:',
-    o: ['Esses pacientes têm imunidade celular exacerbada contra o bacilo', 'A grande carga de antígenos bacilares e os altos títulos de anticorpos favorecem a formação e a deposição de imunocomplexos', 'A clofazimina, usada só nesse grupo, é a causadora da reação', 'Os paucibacilares não têm antígenos do bacilo nos tecidos'],
+    o: ['Esses pacientes têm imunidade celular exacerbada ao bacilo', 'Muito antígeno e muito anticorpo favorecem imunocomplexos', 'A clofazimina, usada só nesse grupo, causa a reação', 'Os paucibacilares não têm antígenos do bacilo nos tecidos'],
     g: 'B',
     c: 'A reação tipo 2 depende da combinação de abundante antígeno bacilar, liberado sobretudo com a destruição dos bacilos pelo tratamento, e resposta humoral intensa. Formam-se imunocomplexos que se depositam em vasos e tecidos, ativam complemento e neutrófilos e elevam o fator de necrose tumoral alfa, gerando inflamação sistêmica.',
     x: { A: 'Os multibacilares têm imunidade celular deficiente, não exacerbada.', C: 'A clofazimina tem efeito anti-inflamatório e ajuda a controlar a reação tipo 2.', D: 'Paucibacilares têm antígenos, mas em quantidade pequena e com poucos anticorpos.' },
@@ -69,7 +69,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Talidomida',
     e: 'O efeito adverso mais grave da talidomida, que motiva controle rigoroso de sua prescrição e dispensação no Brasil, é:',
-    o: ['Hepatite fulminante', 'Teratogenicidade, com malformações de membros como a focomelia', 'Aplasia de medula óssea', 'Síndrome de Stevens-Johnson'],
+    o: ['Hepatite fulminante, com icterícia e coagulopatia', 'Teratogenicidade: malformações de membros, como a focomelia', 'Aplasia de medula óssea, com pancitopenia', 'Síndrome de Stevens-Johnson, com bolhas mucosas'],
     g: 'B',
     c: 'A talidomida é potente teratógeno: uma única dose no início da gestação pode causar focomelia e outras malformações graves de membros, orelhas, coração e trato digestivo. Por isso sua prescrição e dispensação são regulamentadas por legislação específica, com termo de responsabilidade e esclarecimento.',
     x: { A: 'A hepatotoxicidade grave não é o efeito característico do fármaco.', C: 'A talidomida pode causar neutropenia leve, mas aplasia não é seu efeito principal.', D: 'Farmacodermia grave pode ocorrer, mas não é o motivo do controle legal.' },
@@ -77,7 +77,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Talidomida',
     e: 'Mulher de 24 anos, com hanseníase virchowiana, vida sexual ativa e sem método contraceptivo seguro, apresenta eritema nodoso hansênico moderado, sem neurite. A melhor opção terapêutica é:',
-    o: ['Talidomida, orientando apenas o uso de preservativo', 'Prednisona, podendo-se usar pentoxifilina como alternativa', 'Talidomida em metade da dose habitual', 'Suspender a PQT-U e observar'],
+    o: ['Talidomida, orientando apenas o uso de preservativo', 'Prednisona; pentoxifilina como alternativa', 'Talidomida em metade da dose habitual', 'Suspender a PQT-U e observar a paciente'],
     g: 'B',
     c: 'Em mulheres em idade fértil a talidomida deve ser evitada pelo risco de embriopatia; seu uso só é admitido em situações excepcionais, com contracepção eficaz por dois métodos e teste de gravidez negativo. O tratamento é feito com prednisona, e a pentoxifilina, que também reduz o fator de necrose tumoral alfa, é alternativa.',
     x: { A: 'O preservativo isolado não oferece a segurança contraceptiva exigida para o uso do fármaco.', C: 'Não há dose segura de talidomida na gestação; mesmo doses baixas são teratogênicas.', D: 'A PQT-U não deve ser suspensa, e a reação exige tratamento.' },
@@ -85,7 +85,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Talidomida',
     e: 'Além da teratogenicidade, são efeitos adversos importantes da talidomida que devem ser monitorados:',
-    o: ['Nefrotoxicidade e ototoxicidade', 'Neuropatia periférica sensitiva, sonolência e eventos tromboembólicos', 'Hemólise e metemoglobinemia', 'Hepatotoxicidade e hiperuricemia'],
+    o: ['Nefrotoxicidade e ototoxicidade, dose-dependentes', 'Neuropatia periférica sensitiva, sonolência e tromboembolismo', 'Hemólise e metemoglobinemia, dose-dependentes', 'Hepatotoxicidade e hiperuricemia, dose-dependentes'],
     g: 'B',
     c: 'A talidomida pode causar neuropatia periférica sensitiva, que se confunde com a própria neuropatia hansênica, além de sonolência, constipação e xerose. Há também aumento do risco de trombose venosa, principalmente quando associada a corticoides, o que pode justificar profilaxia com ácido acetilsalicílico.',
     x: { A: 'Rim e ouvido interno não são alvos típicos da toxicidade da talidomida.', C: 'Hemólise e metemoglobinemia são efeitos da dapsona.', D: 'Hepatotoxicidade e hiperuricemia são efeitos ligados a rifampicina e pirazinamida.' },
@@ -101,7 +101,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Fatores desencadeantes',
     e: 'Paciente com eritema nodoso hansênico recorrente, com vários episódios em um ano apesar do tratamento adequado. Um passo importante da abordagem é:',
-    o: ['Reiniciar a PQT-U por mais 12 doses', 'Investigar e tratar fatores desencadeantes, como infecções dentárias e urinárias, parasitoses e estresse', 'Suspender definitivamente a clofazimina', 'Indicar esplenectomia'],
+    o: ['Reiniciar a PQT-U por mais 12 doses, de imediato', 'Tratar fatores desencadeantes: infecções, parasitoses, estresse', 'Suspender definitivamente a clofazimina do esquema', 'Indicar esplenectomia, para controlar as reações'],
     g: 'B',
     c: 'Reações recorrentes ou crônicas costumam ser mantidas por estímulos imunológicos persistentes. Focos infecciosos, especialmente dentários, infecções urinárias, parasitoses intestinais, gestação, puerpério e estresse físico ou emocional devem ser pesquisados e corrigidos.',
     x: { A: 'Reação não é falha terapêutica e não se trata com nova PQT-U.', C: 'A clofazimina ajuda no controle da reação tipo 2 por seu efeito anti-inflamatório.', D: 'Não existe indicação de esplenectomia no manejo das reações hansênicas.' },
@@ -117,7 +117,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Neurite',
     e: 'No manejo da neurite hansênica aguda, além do corticoide sistêmico, estão indicados:',
-    o: ['Massagem vigorosa e exercícios resistidos do membro afetado', 'Repouso e imobilização do membro, com avaliação para descompressão cirúrgica nos casos de abscesso de nervo ou falha do tratamento clínico', 'Infiltração de anestésico no nervo a cada semana', 'Suspensão da PQT-U até a resolução da dor'],
+    o: ['Massagem vigorosa e exercícios resistidos do membro', 'Repouso e imobilização; descompressão se abscesso ou falha', 'Infiltração de anestésico no nervo a cada semana', 'Suspensão da PQT-U até a resolução da dor'],
     g: 'B',
     c: 'Na fase aguda o membro deve ser mantido em repouso, com imobilização em posição funcional, para reduzir o trauma sobre o nervo inflamado. A descompressão cirúrgica é considerada no abscesso de nervo, na neurite que não responde ao tratamento clínico, nas neurites subintrantes e na dor intratável.',
     x: { A: 'Exercícios e manipulação vigorosa agravam a inflamação do nervo na fase aguda.', C: 'Bloqueios anestésicos repetidos não tratam a inflamação e podem lesar o nervo.', D: 'A PQT-U é mantida durante a neurite.' },
@@ -149,7 +149,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Indicadores',
     e: 'Em um município, a proporção de casos novos de hanseníase com grau 2 de incapacidade física no momento do diagnóstico é elevada. Esse indicador sugere principalmente:',
-    o: ['Baixa adesão dos pacientes à poliquimioterapia', 'Diagnóstico tardio, com falha da rede de saúde em detectar precocemente os casos', 'Alta cobertura de exame de contatos', 'Circulação de cepas resistentes à rifampicina'],
+    o: ['Baixa adesão dos pacientes à poliquimioterapia', 'Diagnóstico tardio: a rede falha em detectar cedo', 'Alta cobertura de exame de contatos, no município', 'Circulação de cepas resistentes à rifampicina'],
     g: 'B',
     c: 'A incapacidade visível leva anos para se instalar; encontrá-la já no diagnóstico significa que o paciente conviveu longamente com a doença sem ser identificado. O indicador mede, portanto, a efetividade da detecção precoce e aponta endemia oculta e necessidade de busca ativa e capacitação da atenção primária.',
     x: { A: 'A adesão é avaliada pela proporção de cura e de abandono, não por esse indicador.', C: 'Boa cobertura de contatos levaria a diagnósticos mais precoces e a menos grau 2.', D: 'O indicador não tem relação com resistência medicamentosa.' },
@@ -157,7 +157,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Indicadores',
     e: 'A detecção de casos de hanseníase em menores de 15 anos é monitorada como indicador prioritário porque revela:',
-    o: ['Transmissão vertical frequente do bacilo', 'Transmissão ativa e recente na comunidade, com fonte de infecção próxima e exposição precoce', 'Falha da vacina BCG aplicada ao nascer', 'Maior suscetibilidade genética das crianças brasileiras'],
+    o: ['Transmissão vertical frequente do bacilo, na gestação', 'Transmissão ativa e recente, com fonte próxima e exposição precoce', 'Falha da vacina BCG aplicada ao nascer', 'Maior suscetibilidade genética das crianças brasileiras'],
     g: 'B',
     c: 'Como a incubação é longa, o adoecimento de uma criança indica que ela foi exposta muito cedo e de forma intensa a um doente bacilífero, geralmente no domicílio. Casos em menores de 15 anos sinalizam focos de transmissão ativos e endemia oculta, e devem desencadear investigação rigorosa dos contatos.',
     x: { A: 'A transmissão vertical não é mecanismo relevante da hanseníase.', C: 'A BCG confere proteção parcial; o indicador reflete exposição, não falha vacinal.', D: 'Não se trata de particularidade genética, e sim de intensidade de transmissão.' },
@@ -165,7 +165,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Notificação',
     e: 'Médico de unidade básica faz diagnóstico clínico de hanseníase paucibacilar. Em relação à vigilância epidemiológica, é correto afirmar que a hanseníase:',
-    o: ['Só deve ser notificada após confirmação por baciloscopia ou biópsia', 'É doença de notificação compulsória e investigação obrigatória, devendo o caso confirmado ser registrado no Sinan', 'É de notificação facultativa nos casos paucibacilares', 'Deve ser notificada apenas por serviços de referência em dermatologia'],
+    o: ['Notificada só após confirmação por baciloscopia ou biópsia', 'Notificação compulsória e investigação obrigatória; registro no Sinan', 'Notificação facultativa nos casos paucibacilares', 'Notificada só por serviços de referência em dermatologia'],
     g: 'B',
     c: 'A hanseníase é de notificação compulsória em todo o território nacional e de investigação obrigatória. O caso é confirmado clinicamente na própria atenção primária e registrado na ficha de notificação e investigação do Sinan, o que dispara o tratamento e a vigilância dos contatos.',
     x: { A: 'O diagnóstico é clínico e a notificação não depende de exame laboratorial.', C: 'Todos os casos são de notificação obrigatória, qualquer que seja a classificação.', D: 'Qualquer serviço que diagnostique deve notificar, sobretudo a atenção primária.' },
@@ -173,7 +173,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'Exame de contatos',
     e: 'Após o diagnóstico de um caso novo de hanseníase tuberculoide, a conduta em relação às pessoas que residem com o paciente é:',
-    o: ['Nenhuma, pois casos paucibacilares não transmitem a doença', 'Realizar exame dermatoneurológico de todos os contatos, orientar sobre sinais da doença e avaliar a indicação de BCG', 'Prescrever PQT-U por 6 meses para todos os moradores', 'Solicitar baciloscopia de todos os contatos e examinar apenas os positivos'],
+    o: ['Nenhuma: paucibacilares não transmitem a doença', 'Examinar todos os contatos, orientar sinais e avaliar BCG', 'PQT-U por 6 meses para todos os moradores', 'Baciloscopia dos contatos; examinar só os positivos'],
     g: 'B',
     c: 'Todos os contatos de qualquer caso novo, paucibacilar ou multibacilar, devem ser examinados, porque o caso índice pode não ser a fonte e haver outro doente no mesmo ambiente. A vigilância inclui exame dermatoneurológico, orientação sobre sinais e sintomas, seguimento e BCG conforme a situação vacinal dos contatos sem sinais da doença.',
     x: { A: 'O paucibacilar pode ter sido infectado por um multibacilar ainda não diagnosticado na casa.', C: 'Contatos sem doença não recebem poliquimioterapia.', D: 'A baciloscopia não é exame de triagem de contatos e é negativa em muitos doentes.' },
@@ -189,7 +189,7 @@ export const HANSENIASE_4: QuestaoCompacta[] = [
   {
     s: 'BCG em contatos',
     e: 'Sobre a aplicação de BCG em contatos de hanseníase, assinale a alternativa correta:',
-    o: ['Deve ser aplicada mesmo se o contato tiver lesão suspeita de hanseníase', 'Pode antecipar o aparecimento de sinais clínicos em quem já estava infectado, o que deve ser explicado ao contato', 'Dispensa o acompanhamento posterior do contato vacinado', 'Está indicada para contatos com duas cicatrizes vacinais'],
+    o: ['Aplicada mesmo se o contato tiver lesão suspeita', 'Pode antecipar sinais clínicos em quem já estava infectado', 'Dispensa o acompanhamento posterior do contato vacinado', 'Indicada a contatos com duas cicatrizes vacinais'],
     g: 'B',
     c: 'A BCG estimula a imunidade celular e, em pessoa já infectada e em período de incubação, pode fazer surgir sinais clínicos nos meses seguintes à aplicação. O contato deve ser orientado a retornar se notar manchas ou alterações de sensibilidade, e a vacina só é aplicada após exame que exclua doença.',
     x: { A: 'Havendo lesão suspeita, o contato deve ser investigado como caso, não vacinado.', C: 'A proteção é parcial, e o contato segue em acompanhamento.', D: 'Contatos com duas cicatrizes não recebem nova dose.' },

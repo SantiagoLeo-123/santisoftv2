@@ -5,7 +5,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'PTI na criança',
     e: 'Menina de 4 anos, previamente hígida, surge com petéquias e equimoses em membros e tronco três semanas após quadro gripal. Está em bom estado geral, sem sangramento mucoso, sem adenomegalias ou esplenomegalia. Hemograma: hemoglobina 12,4 g/dL, leucócitos 7.800/mm3 com diferencial normal e plaquetas 14.000/mm3. A conduta mais adequada é:',
-    o: ['Aspirado de medula óssea antes de qualquer decisão', 'Observação clínica, com orientação à família e restrição de atividades de risco', 'Transfusão profilática de concentrado de plaquetas', 'Esplenectomia eletiva'],
+    o: ['Aspirado de medula antes de qualquer decisão clínica', 'Observação, orientação à família e restrição de atividades de risco', 'Transfusão profilática de concentrado de plaquetas, de imediato', 'Esplenectomia eletiva, após vacinação prévia'],
     g: 'B',
     c: 'A púrpura trombocitopênica imune da criança costuma ser aguda, pós-viral e autolimitada, com remissão espontânea na maioria dos casos em semanas a meses. Na ausência de sangramento mucoso ou grave, as diretrizes recomendam apenas observação, independentemente da contagem de plaquetas, pois o risco de hemorragia intracraniana é muito baixo.',
     x: { A: 'Com quadro típico e plaquetopenia isolada, o mielograma não é necessário.', C: 'As plaquetas transfundidas são destruídas rapidamente; reserva-se a sangramento grave.', D: 'A esplenectomia é evitada na criança e reservada a casos crônicos refratários.' },
@@ -13,7 +13,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico da PTI',
     e: 'Sobre o diagnóstico da púrpura trombocitopênica imune (PTI) primária, é correto afirmar que:',
-    o: ['Exige a demonstração de anticorpos antiplaquetários no soro', 'É de exclusão, baseado em plaquetopenia isolada com esfregaço sem outras alterações', 'Depende de mielograma com redução de megacariócitos', 'Requer esplenomegalia palpável ao exame físico'],
+    o: ['Exige a demonstração de anticorpos antiplaquetários', 'É de exclusão: plaquetopenia isolada, esfregaço sem outras alterações', 'Depende de mielograma com redução de megacariócitos', 'Requer esplenomegalia palpável ao exame físico'],
     g: 'B',
     c: 'Não há exame confirmatório para PTI. O diagnóstico exige plaquetopenia isolada (abaixo de 100.000/mm3), demais séries normais, esfregaço sem esquizócitos ou blastos e exclusão de causas secundárias, como HIV, hepatite C, lúpus, medicamentos e doenças linfoproliferativas. Quando feito, o mielograma mostra megacariócitos normais ou aumentados.',
     x: { A: 'A pesquisa de anticorpos antiplaquetários tem baixa acurácia e não é recomendada.', C: 'Na PTI os megacariócitos estão normais ou aumentados, pois a destruição é periférica.', D: 'Esplenomegalia fala contra PTI primária e obriga a buscar outra causa.' },
@@ -21,7 +21,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Indicação de tratamento na PTI',
     e: 'Mulher de 34 anos, assintomática, descobre em exame de rotina plaquetas de 62.000/mm3, confirmadas em nova coleta. Hemoglobina e leucócitos normais, esfregaço sem alterações, sorologias para HIV e hepatite C negativas. Não usa medicamentos. Estabelecido o diagnóstico de PTI, a conduta é:',
-    o: ['Prednisona 1 mg/kg/dia por 4 semanas', 'Acompanhamento clínico e laboratorial, sem tratamento', 'Imunoglobulina intravenosa por 2 dias', 'Rituximabe semanal por 4 semanas'],
+    o: ['Prednisona 1 mg/kg/dia por 4 semanas, por via oral', 'Acompanhamento clínico e laboratorial, sem tratamento', 'Imunoglobulina intravenosa por 2 dias, em dose alta', 'Rituximabe semanal por 4 semanas, por via venosa'],
     g: 'B',
     c: 'No adulto, o objetivo do tratamento da PTI é prevenir sangramento, e não normalizar a contagem. Em geral trata-se quando as plaquetas estão abaixo de 20.000 a 30.000/mm3 ou quando há sangramento. Acima disso, em paciente assintomático, os riscos da imunossupressão superam os benefícios.',
     x: { A: 'Corticoide é a primeira linha, mas só quando há indicação de tratar.', C: 'A imunoglobulina é reservada a sangramento grave ou necessidade de elevação rápida.', D: 'Rituximabe é opção de segunda linha em doença persistente ou refratária.' },
@@ -29,7 +29,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Primeira linha na PTI',
     e: 'Homem de 45 anos apresenta petéquias difusas e gengivorragia leve há 4 dias. Plaquetas 9.000/mm3, sem outras citopenias, esfregaço sem esquizócitos e sorologias virais negativas. Está hemodinamicamente estável. O tratamento inicial indicado é:',
-    o: ['Esplenectomia de urgência', 'Glicocorticoide (prednisona ou dexametasona em pulso)', 'Plasmaférese diária', 'Eltrombopague como primeira escolha'],
+    o: ['Esplenectomia de urgência, por via laparoscópica', 'Glicocorticoide (prednisona ou dexametasona em pulso)', 'Plasmaférese diária, por 5 sessões', 'Eltrombopague como primeira escolha, por via oral'],
     g: 'B',
     c: 'O corticoide é o tratamento de primeira linha da PTI do adulto com indicação terapêutica. Ele reduz a produção de autoanticorpos e a fagocitose das plaquetas opsonizadas pelos macrófagos esplênicos. Usa-se prednisona por curto período, com desmame, ou ciclos de dexametasona em dose alta.',
     x: { A: 'A esplenectomia é opção tardia, para doença crônica refratária.', C: 'A plasmaférese é o tratamento da PTT, sem papel na PTI.', D: 'Agonistas do receptor da trombopoetina são usados após falha da primeira linha.' },
@@ -37,7 +37,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Sangramento grave na PTI',
     e: 'Paciente de 28 anos, com diagnóstico de PTI, é admitida com cefaleia intensa e sonolência. Plaquetas 4.000/mm3 e tomografia com hematoma intraparenquimatoso. Além das medidas de suporte, o tratamento deve incluir de imediato:',
-    o: ['Apenas prednisona oral e observação', 'Imunoglobulina intravenosa, corticoide em dose alta e transfusão de plaquetas', 'Esplenectomia isolada sem medicamentos', 'Romiplostim subcutâneo em dose única'],
+    o: ['Apenas prednisona oral e observação clínica em casa', 'Imunoglobulina IV, corticoide alto e transfusão de plaquetas', 'Esplenectomia isolada, sem medicamentos associados', 'Romiplostim subcutâneo em dose única, ambulatorial'],
     g: 'B',
     c: 'No sangramento com risco de vida, o objetivo é elevar as plaquetas o mais rápido possível. A imunoglobulina bloqueia os receptores Fc dos macrófagos e age em 24 a 48 horas, o corticoide em dose alta é associado e, nessa situação excepcional, transfundem-se plaquetas, mesmo com sobrevida curta. Podem-se associar antifibrinolíticos.',
     x: { A: 'A prednisona oral isolada tem início de ação lento para uma emergência.', C: 'A esplenectomia de emergência é medida de exceção e nunca isolada.', D: 'Os agonistas da trombopoetina levam dias a semanas para elevar a contagem.' },
@@ -45,7 +45,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Agonistas da trombopoetina',
     e: 'Eltrombopague e romiplostim são utilizados na PTI persistente ou crônica que não responde ou recai após corticoide. O mecanismo de ação desses fármacos é:',
-    o: ['Depleção de linfócitos B CD20 positivos', 'Estímulo ao receptor da trombopoetina, aumentando a produção de plaquetas', 'Bloqueio dos receptores Fc dos macrófagos esplênicos', 'Inibição da ativação do complemento'],
+    o: ['Depleção de linfócitos B CD20 positivos', 'Estímulo ao receptor da trombopoetina: mais plaquetas', 'Bloqueio dos receptores Fc dos macrófagos esplênicos', 'Inibição da ativação do complemento'],
     g: 'B',
     c: 'Na PTI, além da destruição periférica, os autoanticorpos prejudicam os megacariócitos, e os níveis de trombopoetina são inapropriadamente baixos. Os agonistas do receptor da trombopoetina estimulam a megacariopoese e elevam a contagem enquanto são usados, sendo opção de segunda linha ao lado de rituximabe e esplenectomia.',
     x: { A: 'A depleção de linfócitos B é o mecanismo do rituximabe.', C: 'O bloqueio dos receptores Fc é o mecanismo da imunoglobulina intravenosa.', D: 'A inibição do complemento é o mecanismo do eculizumabe, usado na SHU atípica.' },
@@ -53,7 +53,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Esplenectomia na PTI',
     e: 'Paciente com PTI crônica, refratária a corticoide e a outras terapias, tem esplenectomia programada. Sobre esse procedimento, é correto afirmar que:',
-    o: ['Deve ser feita logo no primeiro mês de doença', 'Exige vacinação prévia contra pneumococo, meningococo e hemófilo', 'Não oferece chance de remissão duradoura', 'Está contraindicada em adultos'],
+    o: ['Deve ser feita logo no primeiro mês da doença', 'Exige vacinação prévia contra encapsulados', 'Não oferece chance de remissão duradoura', 'Está contraindicada em adultos, em qualquer caso'],
     g: 'B',
     c: 'O baço é o principal local de destruição das plaquetas opsonizadas e de produção de autoanticorpos; sua retirada leva a remissão duradoura em boa parte dos pacientes. Como o asplênico fica suscetível a sepse por germes encapsulados, a vacinação deve ser feita idealmente pelo menos duas semanas antes. Costuma-se aguardar cerca de um ano de doença, pois pode haver remissão espontânea.',
     x: { A: 'Recomenda-se adiar, pois remissões espontâneas ocorrem no primeiro ano.', C: 'A esplenectomia é a terapia com maior taxa de remissão sustentada.', D: 'É justamente no adulto com doença crônica refratária que ela é considerada.' },
@@ -69,7 +69,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia da PTT',
     e: 'A púrpura trombocitopênica trombótica adquirida decorre de:',
-    o: ['Ativação descontrolada da via alternativa do complemento', 'Autoanticorpos contra a ADAMTS13, com acúmulo de multímeros ultragrandes de fator de von Willebrand', 'Anticorpos contra o complexo heparina-fator plaquetário 4', 'Lesão endotelial direta pela toxina Shiga'],
+    o: ['Ativação descontrolada da via alternativa do complemento', 'Autoanticorpos anti-ADAMTS13 e multímeros ultragrandes de vWF', 'Anticorpos contra o complexo heparina-PF4', 'Lesão endotelial direta pela toxina Shiga'],
     g: 'B',
     c: 'A ADAMTS13 é a metaloprotease que cliva os multímeros ultragrandes do fator de von Willebrand liberados pelo endotélio. Com atividade muito reduzida (abaixo de 10%), esses multímeros agregam plaquetas espontaneamente na microcirculação, formando trombos ricos em plaquetas que consomem plaquetas, fragmentam hemácias e causam isquemia de órgãos.',
     x: { A: 'A desregulação do complemento é o mecanismo da SHU atípica.', C: 'Anticorpos anti-PF4/heparina causam a trombocitopenia induzida por heparina.', D: 'A toxina Shiga é a causa da síndrome hemolítico-urêmica típica.' },
@@ -85,7 +85,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Transfusão de plaquetas na PTT',
     e: 'Na púrpura trombocitopênica trombótica, a transfusão profilática de plaquetas deve ser evitada porque:',
-    o: ['As plaquetas transfundidas causam hemólise autoimune', 'Pode agravar a formação de microtrombos e a isquemia de órgãos', 'Provoca inibição da ADAMTS13 residual', 'Interfere com a dosagem de DHL'],
+    o: ['As plaquetas transfundidas causam hemólise autoimune', 'Pode agravar microtrombos e isquemia de órgãos', 'Provoca inibição da ADAMTS13 residual', 'Interfere com a dosagem de DHL'],
     g: 'B',
     c: 'Na PTT a plaquetopenia é de consumo: as plaquetas são incorporadas a trombos na microcirculação pelos multímeros ultragrandes do fator de von Willebrand. Fornecer mais plaquetas oferece substrato para novos trombos, com relatos de piora neurológica e cardíaca. A transfusão fica restrita a sangramento com risco de vida.',
     x: { A: 'A hemólise da PTT é mecânica, e não causada por plaquetas transfundidas.', C: 'A transfusão de plaquetas não inibe a ADAMTS13.', D: 'Não há interferência analítica; o problema é clínico, de piora da trombose.' },
@@ -93,7 +93,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'SHU típica',
     e: 'Menino de 3 anos apresenta palidez, oligúria e edema uma semana após quadro de diarreia com sangue. Exames: hemoglobina 6,8 g/dL com esquizócitos, plaquetas 45.000/mm3, creatinina 3,9 mg/dL, coagulograma normal. Sobre essa condição, é correto afirmar que:',
-    o: ['O tratamento de escolha é a antibioticoterapia precoce', 'É causada por Escherichia coli produtora de toxina Shiga, e o tratamento é de suporte', 'A atividade da ADAMTS13 está abaixo de 10%', 'A plasmaférese é obrigatória em todos os casos'],
+    o: ['O tratamento de escolha é antibiótico precoce', 'E. coli produtora de Shiga; tratamento de suporte', 'A atividade da ADAMTS13 está abaixo de 10%', 'A plasmaférese é obrigatória em todos os casos'],
     g: 'B',
     c: 'A síndrome hemolítico-urêmica típica segue-se a diarreia por E. coli êntero-hemorrágica (classicamente O157:H7). A toxina Shiga lesa o endotélio glomerular, gerando microangiopatia com predomínio renal. O tratamento é de suporte: hidratação, controle pressórico, transfusão de hemácias quando necessário e diálise se indicada.',
     x: { A: 'Antibióticos não são recomendados, pois podem aumentar a liberação de toxina.', C: 'ADAMTS13 muito reduzida caracteriza a PTT, não a SHU.', D: 'A plasmaférese não tem benefício estabelecido na SHU típica.' },
@@ -101,7 +101,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'SHU atípica',
     e: 'Mulher de 29 anos apresenta anemia hemolítica microangiopática, plaquetopenia e insuficiência renal grave, sem diarreia prévia. A pesquisa de toxina Shiga é negativa e a atividade de ADAMTS13 é de 62%. O mecanismo da doença e o tratamento específico são, respectivamente:',
-    o: ['Autoanticorpo contra ADAMTS13 e rituximabe', 'Ativação descontrolada da via alternativa do complemento e eculizumabe', 'Consumo de fatores da coagulação e plasma fresco', 'Anticorpos antiplaquetários e imunoglobulina'],
+    o: ['Anti-ADAMTS13 e rituximabe', 'Via alternativa do complemento e eculizumabe', 'Consumo de fatores e plasma fresco', 'Anticorpos antiplaquetários e imunoglobulina'],
     g: 'B',
     c: 'A SHU atípica resulta de mutações ou autoanticorpos que afetam reguladores do complemento (como o fator H), com ativação excessiva da via alternativa sobre o endotélio, principalmente renal. O eculizumabe, anticorpo anti-C5, bloqueia a formação do complexo de ataque à membrana. Antes de seu uso, é necessária a vacinação antimeningocócica.',
     x: { A: 'ADAMTS13 preservada afasta PTT, em que o rituximabe teria papel.', C: 'O coagulograma é normal nas microangiopatias trombóticas; não há consumo de fatores.', D: 'Anticorpos antiplaquetários são o mecanismo da PTI, sem hemólise microangiopática.' },
@@ -109,7 +109,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico da HIT',
     e: 'Homem de 67 anos recebe heparina não fracionada profilática após artroplastia de quadril. No 7º dia, as plaquetas caem de 240.000 para 88.000/mm3 e surge trombose venosa profunda em membro inferior. Não há sangramento nem outra causa aparente de plaquetopenia. A principal hipótese é:',
-    o: ['Púrpura trombocitopênica imune', 'Trombocitopenia induzida por heparina tipo II', 'Pseudotrombocitopenia por EDTA', 'Hemodiluição pós-operatória'],
+    o: ['Púrpura trombocitopênica imune, por autoanticorpos', 'Trombocitopenia induzida por heparina tipo II', 'Pseudotrombocitopenia por EDTA, na amostra', 'Hemodiluição pós-operatória, dilucional'],
     g: 'B',
     c: 'A trombocitopenia induzida por heparina tipo II surge tipicamente entre 5 e 10 dias de exposição, com queda de mais de 50% das plaquetas (raramente abaixo de 20.000/mm3) e, paradoxalmente, tromboses venosas e arteriais. O escore 4T estima a probabilidade clínica e a pesquisa de anticorpos anti-PF4/heparina confirma.',
     x: { A: 'A PTI não se associa a trombose nem tem essa relação temporal com heparina.', C: 'A pseudotrombocitopenia é artefato laboratorial e não causa trombose.', D: 'A hemodiluição ocorre nos primeiros dias e não explica queda tardia com trombose.' },
@@ -117,7 +117,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Conduta na HIT',
     e: 'Paciente internada por pneumonia usa enoxaparina profilática há 8 dias. As plaquetas caíram de 310.000 para 95.000/mm3, e o escore 4T indica alta probabilidade de trombocitopenia induzida por heparina. Não há sangramento. A conduta imediata é:',
-    o: ['Manter a enoxaparina e transfundir plaquetas', 'Suspender toda heparina e iniciar anticoagulante não heparínico em dose plena', 'Trocar a enoxaparina por heparina não fracionada', 'Suspender a heparina e iniciar apenas varfarina'],
+    o: ['Manter a enoxaparina e transfundir plaquetas', 'Suspender toda heparina e iniciar anticoagulante não heparínico', 'Trocar a enoxaparina por heparina não fracionada', 'Suspender a heparina e iniciar apenas varfarina'],
     g: 'B',
     c: 'Diante de probabilidade intermediária ou alta, suspende-se toda forma de heparina (inclusive a usada em lavagem de cateteres) e inicia-se anticoagulante alternativo, como argatrobana, bivalirudina, fondaparinux ou anticoagulante oral direto, mesmo sem trombose documentada, pois o risco trombótico é alto. Não se aguarda o resultado do anti-PF4.',
     x: { A: 'Manter a heparina perpetua a doença, e transfundir plaquetas pode favorecer trombose.', C: 'Há reação cruzada: qualquer heparina mantém a ativação plaquetária.', D: 'Varfarina isolada na fase aguda reduz a proteína C e pode causar gangrena venosa.' },
@@ -125,7 +125,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia da HIT',
     e: 'O mecanismo da trombocitopenia induzida por heparina tipo II, que explica a associação paradoxal de plaquetopenia com trombose, é:',
-    o: ['Agregação plaquetária direta e não imune pela heparina', 'IgG contra o complexo heparina-fator plaquetário 4, que ativa plaquetas pelo receptor Fc', 'Deficiência adquirida de ADAMTS13', 'Supressão medular dos megacariócitos pela heparina'],
+    o: ['Agregação plaquetária direta, não imune, pela heparina', 'IgG anti-heparina-PF4, que ativa plaquetas pelo Fc', 'Deficiência adquirida de ADAMTS13 na criança', 'Supressão dos megacariócitos pela heparina'],
     g: 'B',
     c: 'A heparina liga-se ao fator plaquetário 4 e expõe neoepítopos que induzem IgG. Os imunocomplexos ligam-se ao receptor Fc gama IIa das plaquetas, ativando-as: há liberação de micropartículas pró-coagulantes e geração de trombina, enquanto as plaquetas ativadas são removidas da circulação. O resultado é plaquetopenia com trombose.',
     x: { A: 'Esse é o mecanismo do tipo I, benigno, precoce e sem trombose.', C: 'A deficiência de ADAMTS13 é o mecanismo da PTT.', D: 'A heparina não causa supressão medular; a plaquetopenia é por consumo periférico.' },
@@ -165,7 +165,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Hiperesplenismo',
     e: 'Homem de 54 anos, com cirrose alcoólica e hipertensão portal, apresenta baço palpável a 6 cm do rebordo costal. Hemograma: hemoglobina 11,2 g/dL, leucócitos 3.100/mm3 e plaquetas 68.000/mm3. O principal mecanismo da plaquetopenia é:',
-    o: ['Destruição por autoanticorpos antiplaquetários', 'Sequestro esplênico, somado à menor produção hepática de trombopoetina', 'Consumo em microtrombos pela deficiência de ADAMTS13', 'Aglutinação in vitro induzida por EDTA'],
+    o: ['Destruição por autoanticorpos antiplaquetários', 'Sequestro esplênico e menor trombopoetina hepática', 'Consumo em microtrombos por falta de ADAMTS13', 'Aglutinação in vitro induzida por EDTA'],
     g: 'B',
     c: 'Normalmente um terço das plaquetas fica no baço; na esplenomegalia congestiva essa fração pode chegar a 90%, causando plaquetopenia moderada, em geral com leucopenia e anemia leves associadas. No cirrótico soma-se a menor síntese hepática de trombopoetina. As contagens raramente ficam abaixo de 30.000 a 40.000/mm3 e não costumam exigir tratamento.',
     x: { A: 'O mecanismo imune caracteriza a PTI, que cursa sem esplenomegalia.', C: 'Não há hemólise microangiopática nem dados de PTT no caso.', D: 'A pseudotrombocitopenia não explicaria a pancitopenia com esplenomegalia.' },
@@ -173,7 +173,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Plaquetopenia na dengue',
     e: 'Paciente de 22 anos, no 5º dia de dengue, está afebril, hidratado, sem sinais de alarme e sem sangramento. Hemograma mostra hematócrito estável e plaquetas de 18.000/mm3. Em relação à plaquetopenia, a conduta correta é:',
-    o: ['Transfusão profilática de plaquetas', 'Não transfundir, manter hidratação e monitorização clínica e laboratorial', 'Iniciar prednisona 1 mg/kg/dia', 'Prescrever ácido acetilsalicílico para a mialgia'],
+    o: ['Transfusão profilática de plaquetas, de imediato', 'Não transfundir; manter hidratação e monitorização', 'Prednisona 1 mg/kg/dia, por via oral, de imediato', 'AAS para a mialgia, em dose habitual, por 5 dias'],
     g: 'B',
     c: 'Na dengue a plaquetopenia decorre de supressão medular transitória e destruição periférica imune; as plaquetas transfundidas são destruídas rapidamente e a transfusão profilática não reduz sangramento. Ela fica reservada a sangramento grave. O determinante da gravidade é o extravasamento plasmático, daí a prioridade da hidratação.',
     x: { A: 'Transfusão profilática não traz benefício e expõe a riscos transfusionais.', C: 'Corticoide não tem indicação na plaquetopenia da dengue.', D: 'Salicilatos e anti-inflamatórios são contraindicados pelo risco de sangramento.' },
@@ -181,7 +181,7 @@ export const PLAQUETAS_2: QuestaoCompacta[] = [
   {
     s: 'Trombocitopenia gestacional',
     e: 'Gestante de 34 semanas, assintomática, normotensa e sem história prévia de plaquetopenia, apresenta plaquetas de 112.000/mm3 em exame de rotina. Hemoglobina, enzimas hepáticas e proteinúria normais. O diagnóstico mais provável e a conduta são:',
-    o: ['PTI; iniciar corticoide', 'Trombocitopenia gestacional; acompanhamento, sem tratamento', 'Síndrome HELLP; interromper a gestação', 'PTT; iniciar plasmaférese'],
+    o: ['PTI; iniciar corticoide, por via oral', 'Trombocitopenia gestacional; acompanhar, sem tratar', 'HELLP; interromper a gestação, de imediato', 'PTT; iniciar plasmaférese, de imediato'],
     g: 'B',
     c: 'A trombocitopenia gestacional é a causa mais comum de plaquetopenia na gravidez. É leve (em geral acima de 70.000 a 100.000/mm3), aparece no fim do segundo ou no terceiro trimestre, é assintomática, não afeta o feto e resolve após o parto. Decorre de hemodiluição e maior consumo placentário e não requer intervenção.',
     x: { A: 'PTI costuma ser mais intensa, surgir mais cedo ou já existir antes da gestação.', C: 'HELLP exige hemólise e enzimas hepáticas elevadas, em geral com hipertensão.', D: 'PTT cursaria com anemia microangiopática e esquizócitos.' },
