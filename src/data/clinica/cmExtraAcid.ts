@@ -13,7 +13,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Fórmula de Winter',
     e: 'Paciente com acidose metabólica e bicarbonato de 12. A PaCO2 esperada pela fórmula de Winter é cerca de:',
-    o: ['26 mmHg (1,5 × 12 + 8, com variação de ± 2)', '40 mmHg', '12 mmHg', '50 mmHg'],
+    o: ['26 mmHg (1,5 × 12 + 8, variação de ± 2)', '40 mmHg, valor normal de PaCO2, sem compensação', '12 mmHg, igual ao valor do bicarbonato sérico', '50 mmHg, indicando retenção de CO2 associada'],
     g: 'A',
     c: 'PaCO2 acima do esperado indica acidose respiratória associada; abaixo, alcalose respiratória associada. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem compensação.', C: 'Excessivo.', D: 'Sentido errado.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Ânion gap aumentado',
     e: 'São causas de acidose metabólica com ânion gap aumentado:',
-    o: ['Cetoacidose, acidose lática, uremia e intoxicações por metanol, etilenoglicol e salicilatos', 'Diarreia e acidose tubular renal', 'Vômitos', 'Uso de diurético de alça'],
+    o: ['Cetoacidose, acidose lática, uremia e intoxicação por metanol/etilenoglicol/salicilato', 'Diarreia e acidose tubular renal, que cursam com ânion gap normal e acidose hiperclorêmica', 'Vômitos, que cursam com alcalose metabólica hipoclorêmica e hipocalemia associada', 'Uso de diurético de alça, que cursa com alcalose metabólica de contração'],
     g: 'A',
     c: 'A diarreia e a ATR causam ânion gap normal (hiperclorêmica). Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Ânion gap normal.', C: 'Alcalose.', D: 'Alcalose.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Ânion gap normal',
     e: 'Paciente com diarreia profusa, pH 7,28, bicarbonato 14 e cloreto elevado, ânion gap normal. O distúrbio é:',
-    o: ['Acidose metabólica hiperclorêmica por perda de bicarbonato', 'Acidose lática', 'Cetoacidose', 'Alcalose metabólica'],
+    o: ['Acidose metabólica hiperclorêmica por perda de bicarbonato', 'Acidose lática, com ânion gap aumentado e lactato elevado', 'Cetoacidose, com ânion gap aumentado e cetonemia presente', 'Alcalose metabólica, com bicarbonato elevado e pH alto'],
     g: 'A',
     c: 'O ânion gap urinário negativo sugere perda gastrointestinal. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Ânion gap aumentado.', C: 'Ânion gap aumentado.', D: 'pH baixo.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Ânion gap urinário',
     e: 'Paciente com acidose hiperclorêmica e ânion gap urinário positivo. A causa mais provável é:',
-    o: ['Acidose tubular renal', 'Diarreia', 'Cetoacidose', 'Acidose lática'],
+    o: ['Acidose tubular renal, com perda renal de bicarbonato', 'Diarreia, em que o ânion gap urinário é negativo', 'Cetoacidose, em que o ânion gap sérico está aumentado', 'Acidose lática, em que o ânion gap sérico está aumentado'],
     g: 'A',
     c: 'Indica baixa excreção de amônio. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Ânion gap urinário negativo.', C: 'Ânion gap sérico aumentado.', D: 'Ânion gap sérico aumentado.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Gap osmolar',
     e: 'Paciente com acidose metabólica de ânion gap aumentado e gap osmolar elevado, após ingerir bebida adulterada, com alteração visual. A hipótese e o tratamento são:',
-    o: ['Intoxicação por metanol; fomepizol ou etanol e hemodiálise', 'Cetoacidose diabética; insulina', 'Acidose lática; bicarbonato', 'Salicilato; carvão'],
+    o: ['Intoxicação por metanol; fomepizol ou etanol e hemodiálise', 'Cetoacidose diabética; insulina e hidratação, sem gap osmolar', 'Acidose lática; bicarbonato e tratamento da causa, sem gap osmolar', 'Salicilato; carvão ativado e alcalinização, sem gap osmolar'],
     g: 'A',
     c: 'O etilenoglicol causa insuficiência renal com cristais de oxalato. Referência: Goldfrank LR et al. Goldfrank Toxicologic Emergencies. 11ª ed. New York: McGraw-Hill, 2019.',
     x: { B: 'Sem gap osmolar alto e alteração visual.', C: 'Sem gap osmolar.', D: 'Sem alteração visual.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Salicilato',
     e: 'Intoxicação por salicilato em adulto causa tipicamente:',
-    o: ['Alcalose respiratória associada a acidose metabólica de ânion gap aumentado', 'Acidose respiratória isolada', 'Alcalose metabólica isolada', 'Gasometria normal'],
+    o: ['Alcalose respiratória + acidose metabólica de ânion gap aumentado', 'Acidose respiratória isolada, por depressão do centro respiratório', 'Alcalose metabólica isolada, com perda de cloreto e hipocalemia', 'Gasometria normal, sem distúrbio ácido-base associado'],
     g: 'A',
     c: 'Estimula o centro respiratório e desacopla a fosforilação oxidativa. Tratamento: alcalinização urinária e hemodiálise se grave. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Não é típico.', C: 'Não é típico.', D: 'Alterada.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Alcalose metabólica',
     e: 'Paciente com vômitos prolongados, pH 7,52, bicarbonato 36 e cloreto urinário abaixo de 20. O tratamento é:',
-    o: ['Reposição de soro fisiológico e potássio', 'Acetazolamida como primeira linha', 'Diurético de alça', 'Restrição de cloreto'],
+    o: ['Reposição de soro fisiológico e potássio', 'Acetazolamida como primeira linha, em dose habitual', 'Diurético de alça, para eliminar o excesso de bicarbonato', 'Restrição de cloreto na dieta e na hidratação venosa'],
     g: 'A',
     c: 'Alcalose cloreto-responsiva. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Opção em hipervolêmicos.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Alcalose resistente ao cloreto',
     e: 'Alcalose metabólica com cloreto urinário acima de 40, hipertensão e hipocalemia sugere:',
-    o: ['Excesso de mineralocorticoide (hiperaldosteronismo)', 'Vômitos', 'Uso prévio de diurético já suspenso', 'Diarreia'],
+    o: ['Excesso de mineralocorticoide (hiperaldosteronismo)', 'Vômitos, que cursam com cloreto urinário baixo', 'Uso prévio de diurético já suspenso, com cloreto urinário baixo', 'Diarreia, que cursa com acidose metabólica hiperclorêmica'],
     g: 'A',
     c: 'Não responde a soro fisiológico. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Cloreto urinário baixo.', C: 'Cloreto urinário baixo.', D: 'Acidose.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose respiratória crônica',
     e: 'Paciente com DPOC grave, pH 7,36, PaCO2 60 e bicarbonato 34. O distúrbio é:',
-    o: ['Acidose respiratória crônica compensada', 'Acidose metabólica', 'Alcalose respiratória', 'Gasometria normal'],
+    o: ['Acidose respiratória crônica, compensada', 'Acidose metabólica, com bicarbonato reduzido', 'Alcalose respiratória, com PaCO2 reduzida', 'Gasometria normal, sem distúrbio ácido-base associado'],
     g: 'A',
     c: 'Oxigênio em excesso pode piorar a hipercapnia. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Bicarbonato alto.', C: 'PaCO2 alta.', D: 'Alterada.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Alcalose respiratória',
     e: 'Paciente com crise de ansiedade, parestesias periorais e espasmo carpopedal, pH 7,55 e PaCO2 25. O distúrbio é:',
-    o: ['Alcalose respiratória aguda', 'Acidose metabólica', 'Alcalose metabólica', 'Acidose respiratória'],
+    o: ['Alcalose respiratória aguda, por hiperventilação', 'Acidose metabólica, com bicarbonato reduzido', 'Alcalose metabólica, com bicarbonato elevado', 'Acidose respiratória, com PaCO2 elevada'],
     g: 'A',
     c: 'A alcalose reduz o cálcio ionizado. Excluir causas orgânicas, como embolia pulmonar. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'pH alto.', C: 'PaCO2 baixa.', D: 'pH alto.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose lática',
     e: 'Paciente em choque séptico com lactato de 6 mmol/L e acidose de ânion gap aumentado. O tratamento principal é:',
-    o: ['Tratar a causa: ressuscitação volêmica, vasopressor e antibiótico', 'Bicarbonato em dose alta para todos', 'Restringir volume', 'Diurético'],
+    o: ['Tratar a causa: volume, vasopressor e antibiótico', 'Bicarbonato em dose alta para todos os pacientes sépticos', 'Restringir volume, para evitar sobrecarga hídrica', 'Diurético de alça, para eliminar o excesso de ácido'],
     g: 'A',
     c: 'O bicarbonato não melhora desfechos na maioria, salvo acidose muito grave com lesão renal. Referência: Jaber S et al. Sodium bicarbonate therapy for patients with severe metabolic acidaemia in the ICU (BICAR-ICU). Lancet. 2018;392(10141):31-40.',
     x: { B: 'Sem benefício geral.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose diabética',
     e: 'Na cetoacidose diabética, o tratamento inicial inclui:',
-    o: ['Hidratação vigorosa, insulina intravenosa e reposição de potássio', 'Bicarbonato para todos', 'Insulina antes de qualquer hidratação, com potássio de 2,8', 'Restrição hídrica'],
+    o: ['Hidratação vigorosa, insulina IV e reposição de potássio', 'Bicarbonato de sódio para todos os pacientes, como primeira medida', 'Insulina antes de qualquer hidratação, mesmo com potássio de 2,8', 'Restrição hídrica, para evitar sobrecarga de volume'],
     g: 'A',
     c: 'Bicarbonato só se pH abaixo de 6,9 a 7,0. Referência: Kitabchi AE et al. Hyperglycemic crises in adult patients with diabetes. Diabetes Care. 2009;32(7):1335-43.',
     x: { B: 'Sem indicação geral.', C: 'Risco de arritmia.', D: 'Pioraria.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose alcoólica',
     e: 'Etilista após jejum e vômitos com acidose de ânion gap aumentado e glicemia normal ou baixa. O tratamento é:',
-    o: ['Soro glicosado, tiamina e reposição de volume e eletrólitos', 'Insulina', 'Bicarbonato isolado', 'Restrição hídrica'],
+    o: ['Soro glicosado, tiamina e reposição de volume e eletrólitos', 'Insulina em infusão contínua, para corrigir a cetose', 'Bicarbonato isolado, sem outras medidas de suporte', 'Restrição hídrica, para evitar sobrecarga de volume'],
     g: 'A',
     c: 'A tiamina precede a glicose para prevenir Wernicke. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem hiperglicemia.', C: 'Insuficiente.', D: 'Pioraria.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Distúrbio misto',
     e: 'Paciente com pH 7,40, PaCO2 25 e bicarbonato 15. A interpretação é:',
-    o: ['Distúrbio misto: acidose metabólica e alcalose respiratória', 'Gasometria normal', 'Acidose respiratória', 'Alcalose metabólica'],
+    o: ['Distúrbio misto: acidose metabólica e alcalose respiratória', 'Gasometria normal, pois o pH está na faixa de normalidade', 'Acidose respiratória simples, com PaCO2 elevada', 'Alcalose metabólica simples, com bicarbonato elevado'],
     g: 'A',
     c: 'pH normal não exclui distúrbio; valores anormais com pH normal indicam distúrbio misto. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Valores alterados.', C: 'PaCO2 baixa.', D: 'Bicarbonato baixo.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'A gasometria da gestante normal mostra:',
-    o: ['Alcalose respiratória compensada', 'Acidose metabólica', 'Alcalose metabólica', 'Acidose respiratória'],
+    o: ['Alcalose respiratória compensada, por hiperventilação da gestação', 'Acidose metabólica, por aumento da produção de ácidos', 'Alcalose metabólica, por perda de ácido nos vômitos', 'Acidose respiratória, por retenção de CO2 na gestação'],
     g: 'A',
     c: 'A progesterona estimula a ventilação. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'O oposto.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Embolia pulmonar',
     e: 'Paciente com embolia pulmonar apresenta tipicamente:',
-    o: ['Hipoxemia com hipocapnia (alcalose respiratória)', 'Hipercapnia', 'Alcalose metabólica', 'Acidose metabólica isolada sempre'],
+    o: ['Hipoxemia com hipocapnia (alcalose respiratória)', 'Hipercapnia, por depressão respiratória associada', 'Alcalose metabólica, por perda de cloreto associada', 'Acidose metabólica isolada, sempre, em todos os casos'],
     g: 'A',
     c: 'A hipocapnia decorre da hiperventilação. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Raro, exceto em casos graves.', C: 'Sem relação.', D: 'Pode ocorrer em choque.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Hipoalbuminemia e ânion gap',
     e: 'Paciente cirrótico com albumina de 2 g/dL e ânion gap de 10. O ânion gap corrigido é cerca de:',
-    o: ['15 mEq/L, indicando possível acidose de ânion gap aumentado oculta', '10 mEq/L', '5 mEq/L', '30 mEq/L'],
+    o: ['15 mEq/L: pode haver acidose de ânion gap aumentado oculta', '10 mEq/L, valor medido, sem correção pela albumina', '5 mEq/L, valor menor que o medido, sem sentido clínico', '30 mEq/L, valor muito acima do esperado para a albumina'],
     g: 'A',
     c: 'Somar 2,5 mEq/L para cada 1 g/dL de albumina abaixo de 4. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem correção.', C: 'Sentido errado.', D: 'Excessivo.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose D-lática',
     e: 'Paciente com síndrome do intestino curto apresenta confusão e acidose de ânion gap aumentado após refeição rica em carboidratos, com lactato comum normal. A hipótese é:',
-    o: ['Acidose D-lática', 'Cetoacidose', 'Uremia', 'Salicilato'],
+    o: ['Acidose D-lática, por fermentação bacteriana no cólon', 'Cetoacidose, por jejum e deficiência de insulina', 'Uremia, por insuficiência renal crônica avançada', 'Intoxicação por salicilato, com alcalose respiratória associada'],
     g: 'A',
     c: 'Bactérias colônicas fermentam carboidratos. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem cetonas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose piroglutâmica',
     e: 'Paciente em uso crônico de paracetamol, desnutrido, com acidose de ânion gap aumentado sem outra causa. A hipótese é:',
-    o: ['Acidose por 5-oxoprolina (piroglutâmica)', 'Acidose lática', 'Cetoacidose diabética', 'ATR'],
+    o: ['Acidose por 5-oxoprolina (piroglutâmica)', 'Acidose lática, com lactato muito elevado no sangue', 'Cetoacidose diabética, com glicemia elevada e cetonemia', 'Acidose tubular renal, com ânion gap normal'],
     g: 'A',
     c: 'Associa-se a depleção de glutationa. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Lactato normal.', C: 'Sem diabetes.', D: 'Ânion gap normal.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Compensação respiratória',
     e: 'Na alcalose metabólica, a compensação respiratória esperada é:',
-    o: ['Hipoventilação com aumento da PaCO2 (cerca de 0,7 mmHg para cada 1 mEq/L de bicarbonato)', 'Hiperventilação', 'Nenhuma', 'Queda do bicarbonato'],
+    o: ['Hipoventilação: PaCO2 sobe ~0,7 mmHg a cada 1 mEq/L de bicarbonato', 'Hiperventilação, com queda da PaCO2 proporcional ao bicarbonato', 'Nenhuma compensação respiratória ocorre na alcalose metabólica', 'Queda do bicarbonato, por compensação renal rápida'],
     g: 'A',
     c: 'A compensação é limitada pela hipoxemia. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'O oposto.', C: 'Há compensação.', D: 'Sem sentido.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose e potássio',
     e: 'Na acidose metabólica aguda inorgânica, o potássio sérico tende a:',
-    o: ['Aumentar, pelo deslocamento para fora das células', 'Diminuir sempre', 'Não se alterar', 'Desaparecer'],
+    o: ['Aumentar, pelo deslocamento de K+ para fora das células', 'Diminuir sempre, em qualquer tipo de acidose metabólica', 'Não se alterar, pois o potássio independe do pH', 'Desaparecer do sangue, por perda urinária maciça'],
     g: 'A',
     c: 'Com a correção da acidose, o potássio cai. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Tende a aumentar.', C: 'Altera-se.', D: 'Sem sentido.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'pH normal',
     e: 'Os valores normais de gasometria arterial são aproximadamente:',
-    o: ['pH 7,35 a 7,45, PaCO2 35 a 45 mmHg e bicarbonato 22 a 26 mEq/L', 'pH 7,0 a 7,2', 'PaCO2 60 mmHg', 'Bicarbonato 40 mEq/L'],
+    o: ['pH 7,35-7,45, PaCO2 35-45 mmHg e bicarbonato 22-26 mEq/L', 'pH 7,0 a 7,2, PaCO2 de 20 mmHg e bicarbonato de 10 mEq/L', 'PaCO2 de 60 mmHg e bicarbonato de 36 mEq/L', 'Bicarbonato de 40 mEq/L e pH de 7,6, em condição fisiológica'],
     g: 'A',
     c: 'Base da interpretação. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Acidemia.', C: 'Hipercapnia.', D: 'Alto.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose respiratória: causa',
     e: 'Causa de acidose respiratória aguda é:',
-    o: ['Depressão do centro respiratório por opioides ou sedativos', 'Crise de ansiedade', 'Vômitos', 'Diarreia'],
+    o: ['Depressão do centro respiratório por opioides ou sedativos', 'Crise de ansiedade, que causa alcalose respiratória', 'Vômitos, que causam alcalose metabólica', 'Diarreia, que causa acidose metabólica'],
     g: 'A',
     c: 'Também: doenças neuromusculares e obstrução de via aérea. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Alcalose respiratória.', C: 'Alcalose metabólica.', D: 'Acidose metabólica.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose metabólica: compensação',
     e: 'A compensação respiratória da acidose metabólica ocorre em:',
-    o: ['Minutos a horas, por hiperventilação', 'Dias, por retenção renal', 'Semanas', 'Não ocorre'],
+    o: ['Minutos a horas, por hiperventilação', 'Dias, por retenção renal de bicarbonato', 'Semanas, por mecanismo renal de excreção de ácido', 'Não ocorre, pois não há compensação respiratória'],
     g: 'A',
     c: 'A respiração de Kussmaul é exemplo. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Compensação renal.', C: 'Lenta demais.', D: 'Ocorre.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Compensação renal',
     e: 'A compensação renal de distúrbios respiratórios leva:',
-    o: ['3 a 5 dias para se completar', 'Minutos', '1 hora', 'Não ocorre'],
+    o: ['3 a 5 dias para se completar', 'Minutos, por troca gasosa pulmonar imediata', '1 hora, por ajuste do centro respiratório', 'Não ocorre, pois os rins não compensam esses distúrbios'],
     g: 'A',
     c: 'Por isso diferenciam-se formas aguda e crônica. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Rápido demais.', C: 'Rápido demais.', D: 'Ocorre.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose hiperclorêmica iatrogênica',
     e: 'Paciente recebeu grandes volumes de soro fisiológico e desenvolveu acidose com ânion gap normal. O mecanismo é:',
-    o: ['Excesso de cloreto (acidose hiperclorêmica dilucional)', 'Acidose lática', 'Cetose', 'Uremia'],
+    o: ['Excesso de cloreto (acidose hiperclorêmica dilucional)', 'Acidose lática, por hipoperfusão tecidual', 'Cetose, por jejum prolongado e vômitos', 'Uremia, por insuficiência renal aguda'],
     g: 'A',
     c: 'Soluções balanceadas reduzem o problema. Referência: Semler MW et al. Balanced Crystalloids versus Saline in Critically Ill Adults (SMART). N Engl J Med. 2018;378(9):829-39.',
     x: { B: 'Sem lactato elevado.', C: 'Sem cetonas.', D: 'Sem uremia.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose urêmica',
     e: 'A acidose da doença renal crônica avançada tende a ser:',
-    o: ['De ânion gap aumentado, por retenção de ânions como fosfato e sulfato', 'Sempre de ânion gap normal', 'Alcalose', 'Respiratória'],
+    o: ['De ânion gap aumentado, por retenção de ânions (fosfato e sulfato)', 'Sempre de ânion gap normal, por perda renal de bicarbonato', 'Alcalose metabólica, por retenção renal de bicarbonato', 'Acidose respiratória, por retenção de CO2 nos pulmões'],
     g: 'A',
     c: 'Em fases iniciais pode ser hiperclorêmica. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Varia com a fase.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Etilenoglicol',
     e: 'Paciente com acidose grave, gap osmolar aumentado, insuficiência renal e cristais de oxalato de cálcio na urina. A hipótese é:',
-    o: ['Intoxicação por etilenoglicol', 'Metanol', 'Salicilato', 'Cetoacidose'],
+    o: ['Intoxicação por etilenoglicol, com insuficiência renal', 'Intoxicação por metanol, com distúrbio visual', 'Intoxicação por salicilato, com alcalose respiratória', 'Cetoacidose diabética, sem gap osmolar'],
     g: 'A',
     c: 'Tratamento: fomepizol e hemodiálise. Referência: Goldfrank LR et al. Goldfrank Toxicologic Emergencies. 11ª ed. New York: McGraw-Hill, 2019.',
     x: { B: 'Alteração visual.', C: 'Sem gap osmolar.', D: 'Sem gap osmolar.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Alcalose de contração',
     e: 'Paciente em uso intenso de furosemida com perda de volume e alcalose metabólica. O mecanismo é:',
-    o: ['Alcalose de contração com hiperaldosteronismo secundário e perda de H+ e K+', 'Acidose tubular', 'Excesso de cloreto', 'Hiperventilação'],
+    o: ['Alcalose de contração, com hiperaldosteronismo secundário e perda de H+ e K+', 'Acidose tubular, com perda renal de bicarbonato e acidose hiperclorêmica', 'Excesso de cloreto, com acidose hiperclorêmica e queda do bicarbonato', 'Hiperventilação, com alcalose respiratória e queda da PaCO2'],
     g: 'A',
     c: 'Acetazolamida pode ajudar se for preciso manter diurese. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Causa acidose.', C: 'Causa acidose.', D: 'Respiratória.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Síndrome leite-álcali',
     e: 'Paciente usando grandes doses de carbonato de cálcio apresenta hipercalcemia, alcalose metabólica e lesão renal. O diagnóstico é:',
-    o: ['Síndrome leite-álcali', 'Hiperparatireoidismo', 'Mieloma', 'Sarcoidose'],
+    o: ['Síndrome leite-álcali', 'Hiperparatireoidismo primário, com PTH elevado', 'Mieloma múltiplo, com lesões líticas', 'Sarcoidose, com produção de calcitriol'],
     g: 'A',
     c: 'Suspender o cálcio e hidratar. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'PTH elevado.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Interpretação passo a passo',
     e: 'Na interpretação gasométrica, após identificar o distúrbio primário, o próximo passo é:',
-    o: ['Verificar se a compensação é adequada', 'Ignorar a compensação', 'Pedir nova gasometria sempre', 'Tratar com bicarbonato'],
+    o: ['Verificar se a compensação é adequada', 'Ignorar a compensação, pois não tem importância', 'Pedir nova gasometria sempre, antes de interpretar', 'Tratar de imediato com bicarbonato de sódio'],
     g: 'A',
     c: 'Compensação inadequada indica distúrbio misto. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Perde distúrbios mistos.', C: 'Desnecessário.', D: 'Sem indicação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Bicarbonato: indicação',
     e: 'Uma indicação aceita de bicarbonato de sódio é:',
-    o: ['Intoxicação por tricíclicos com QRS alargado', 'Acidose lática leve', 'Cetoacidose com pH 7,25', 'Alcalose metabólica'],
+    o: ['Intoxicação por tricíclicos com QRS alargado', 'Acidose lática leve, sem repercussão hemodinâmica', 'Cetoacidose com pH 7,25, sem repercussão hemodinâmica', 'Alcalose metabólica, com bicarbonato elevado'],
     g: 'A',
     c: 'Também: alcalinização na intoxicação por salicilato. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem benefício.', C: 'Sem benefício.', D: 'Contraindicado.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Hipocalemia e alcalose',
     e: 'A hipocalemia contribui para manter a alcalose metabólica por:',
-    o: ['Aumento da secreção de H+ e da reabsorção de bicarbonato no rim', 'Aumento de cloreto', 'Redução de aldosterona', 'Hiperventilação'],
+    o: ['Aumento da secreção de H+ e da reabsorção de bicarbonato no rim', 'Aumento do cloreto sérico, por perda de potássio', 'Redução da aldosterona, por perda de potássio', 'Hiperventilação, por estimulação do centro respiratório'],
     g: 'A',
     c: 'Repor potássio é parte do tratamento. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem relação.', C: 'O oposto.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose: ânion gap',
     e: 'Na cetoacidose diabética, o fechamento do ânion gap indica:',
-    o: ['Resolução da cetose, permitindo transição para insulina subcutânea', 'Piora', 'Necessidade de bicarbonato', 'Hipoglicemia'],
+    o: ['Resolução da cetose: transição para insulina SC', 'Piora do quadro, com maior produção de cetoácidos pelo fígado', 'Necessidade de bicarbonato, para corrigir o pH do paciente', 'Hipoglicemia, por excesso de insulina na infusão contínua'],
     g: 'A',
     c: 'A glicemia normaliza antes do ânion gap. Referência: Kitabchi AE et al. Diabetes Care. 2009;32(7):1335-43.',
     x: { B: 'Indica melhora.', C: 'Sem indicação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Estado hiperosmolar',
     e: 'Paciente idoso com glicemia de 900 mg/dL, osmolalidade de 350, sem cetoacidose significativa e rebaixamento de consciência. O diagnóstico é:',
-    o: ['Estado hiperglicêmico hiperosmolar', 'Cetoacidose diabética', 'Hipoglicemia', 'Acidose lática'],
+    o: ['Estado hiperglicêmico hiperosmolar', 'Cetoacidose diabética, com cetonemia e acidose', 'Hipoglicemia, com sintomas adrenérgicos', 'Acidose lática, com lactato elevado'],
     g: 'A',
     c: 'A prioridade é hidratação. Referência: Kitabchi AE et al. Diabetes Care. 2009;32(7):1335-43.',
     x: { B: 'Há cetonas e acidose importante.', C: 'O oposto.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Hiperventilação mecânica',
     e: 'Paciente em ventilação mecânica com pH 7,55 e PaCO2 25. A conduta é:',
-    o: ['Reduzir a ventilação minuto (frequência ou volume)', 'Aumentar a ventilação', 'Bicarbonato', 'Nada'],
+    o: ['Reduzir a ventilação minuto (frequência ou volume)', 'Aumentar a ventilação minuto, para reduzir o CO2', 'Dar bicarbonato de sódio, para corrigir o pH', 'Nenhuma alteração do ventilador é necessária'],
     g: 'A',
     c: 'Alcalose respiratória iatrogênica. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Exige ajuste.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Hipocloremia',
     e: 'A hipocloremia acompanha tipicamente:',
-    o: ['Alcalose metabólica por vômitos', 'Acidose hiperclorêmica', 'Diarreia', 'ATR'],
+    o: ['Alcalose metabólica por vômitos', 'Acidose hiperclorêmica, com cloro elevado', 'Diarreia, com acidose hiperclorêmica', 'Acidose tubular renal, com cloro elevado'],
     g: 'A',
     c: 'Perda de HCl gástrico. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'O oposto.', C: 'Hipercloremia.', D: 'Hipercloremia.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Acidose e ventilação',
     e: 'Paciente com acidose metabólica grave intubado. Um cuidado essencial é:',
-    o: ['Manter ventilação minuto alta para preservar a compensação respiratória', 'Usar frequência baixa padrão', 'Hipoventilar', 'Desligar o ventilador'],
+    o: ['Manter ventilação minuto alta, preservando a compensação respiratória', 'Usar frequência baixa padrão, como em qualquer paciente', 'Hipoventilar o paciente, para elevar a PaCO2', 'Desligar o ventilador, para o paciente respirar sozinho'],
     g: 'A',
     c: 'Hipoventilação piora a acidose. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Sem sentido.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Alcalose metabólica: sinais',
     e: 'A alcalose metabólica grave pode causar:',
-    o: ['Arritmias, tetania e convulsões', 'Respiração de Kussmaul', 'Hiperventilação', 'Hipercalcemia'],
+    o: ['Arritmias, tetania e convulsões', 'Respiração de Kussmaul, que é da acidose', 'Hiperventilação, que é da acidose', 'Hipercalcemia, que não é consequência da alcalose'],
     g: 'A',
     c: 'Reduz o cálcio ionizado. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Acidose.', C: 'Alcalose respiratória.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Ânion gap baixo',
     e: 'Ânion gap muito baixo pode ocorrer em:',
-    o: ['Hipoalbuminemia e mieloma múltiplo com paraproteína catiônica', 'Cetoacidose', 'Acidose lática', 'Uremia'],
+    o: ['Hipoalbuminemia e mieloma múltiplo (paraproteína catiônica)', 'Cetoacidose, em que o ânion gap está aumentado', 'Acidose lática, em que o ânion gap está aumentado', 'Uremia, em que o ânion gap está aumentado'],
     g: 'A',
     c: 'Também intoxicação por lítio ou brometo. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Aumenta.', C: 'Aumenta.', D: 'Aumenta.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Uso de laxativos',
     e: 'Abuso de laxativos causa tipicamente:',
-    o: ['Acidose metabólica hiperclorêmica com hipocalemia', 'Alcalose respiratória', 'Hipercalemia', 'Acidose de ânion gap aumentado'],
+    o: ['Acidose metabólica hiperclorêmica com hipocalemia', 'Alcalose respiratória, por hiperventilação', 'Hipercalemia, por perda renal de potássio', 'Acidose de ânion gap aumentado, por perda de ácidos'],
     g: 'A',
     c: 'Abuso de diuréticos causa alcalose. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem relação.', C: 'Hipocalemia.', D: 'Ânion gap normal.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Hipoxemia e lactato',
     e: 'Paciente com hipoxemia grave e choque tem acidose lática do tipo:',
-    o: ['A (hipoperfusão ou hipóxia tecidual)', 'B (sem hipóxia)', 'D', 'Nenhum'],
+    o: ['Tipo A (hipoperfusão ou hipóxia tecidual)', 'Tipo B (sem hipóxia tecidual evidente)', 'Tipo D (por acúmulo de D-lactato intestinal)', 'Nenhum tipo, pois o lactato não se eleva no choque'],
     g: 'A',
     c: 'Tipo B: metformina, linfomas, deficiência de tiamina. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Sem hipóxia.', C: 'Outra causa.', D: 'Existe.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Metformina',
     e: 'Acidose lática associada à metformina é mais provável em:',
-    o: ['Insuficiência renal, choque, hipóxia ou insuficiência hepática', 'Pacientes saudáveis em dose usual', 'Uso com insulina isolado', 'Hipotireoidismo'],
+    o: ['Insuficiência renal, choque, hipóxia ou insuficiência hepática', 'Pacientes saudáveis em dose usual, sem comorbidades', 'Uso com insulina isolado, em diabéticos controlados', 'Hipotireoidismo, sem outra comorbidade associada'],
     g: 'A',
     c: 'Tratar com suporte e hemodiálise em casos graves. Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'Raro.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_ACID: QuestaoCompacta[] = [
   {
     s: 'Equilíbrio ácido-básico: rins',
     e: 'O principal tampão urinário que permite a excreção de ácido é:',
-    o: ['Amônio (NH4+)', 'Bicarbonato', 'Glicose', 'Ureia'],
+    o: ['Amônio (NH4+)', 'Bicarbonato, filtrado e reabsorvido no túbulo', 'Glicose, filtrada e reabsorvida no túbulo', 'Ureia, filtrada e excretada na urina'],
     g: 'A',
     c: 'Também o fosfato (acidez titulável). Referência: Berend K, de Vries APJ, Gans ROB. Physiological approach to assessment of acid-base disturbances. N Engl J Med. 2014;371(15):1434-45.',
     x: { B: 'É reabsorvido.', C: 'Sem relação.', D: 'Sem relação.' },

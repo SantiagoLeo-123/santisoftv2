@@ -5,7 +5,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia: avaliação',
     e: 'O primeiro passo na avaliação da hiponatremia é:',
-    o: ['Medir a osmolalidade plasmática para confirmar hiponatremia hipotônica', 'Repor sódio imediatamente', 'Restringir água em todos', 'Dar diurético'],
+    o: ['Medir a osmolalidade plasmática para confirmar hiponatremia hipotônica', 'Repor sódio imediatamente, antes de qualquer avaliação do volume', 'Restringir água em todos os pacientes, antes de qualquer avaliação', 'Dar diurético de alça, antes de qualquer avaliação do volume'],
     g: 'A',
     c: 'Hiperglicemia causa hiponatremia hipertônica; hiperlipidemia e hiperproteinemia, pseudo-hiponatremia. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Sem avaliação.', C: 'Depende da causa.', D: 'Depende da causa.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia: SIADH',
     e: 'Paciente com câncer de pulmão de pequenas células, euvolêmico, sódio de 124, osmolalidade plasmática baixa, urina concentrada e sódio urinário acima de 30 mEq/L, com função tireoidiana e adrenal normais. O diagnóstico é:',
-    o: ['Síndrome da secreção inapropriada de hormônio antidiurético', 'Hiponatremia hipovolêmica', 'Polidipsia primária', 'Insuficiência cardíaca'],
+    o: ['SIADH (síndrome da secreção inapropriada de ADH)', 'Hiponatremia hipovolêmica, com sinais de desidratação e hipotensão', 'Polidipsia primária, com urina diluída e osmolalidade urinária baixa', 'Insuficiência cardíaca, com edema, hipervolemia e sódio urinário baixo'],
     g: 'A',
     c: 'Tratamento: restrição hídrica e tratar a causa; ureia oral ou vaptanas em casos selecionados. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Haveria sódio urinário baixo.', C: 'Urina diluída.', D: 'Hipervolêmico.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia grave',
     e: 'Paciente com sódio de 115 mEq/L, convulsionando. O tratamento imediato é:',
-    o: ['Bolus de solução salina hipertônica a 3% (100 a 150 mL), podendo repetir', 'Restrição hídrica isolada', 'Soro fisiológico lento', 'Diurético'],
+    o: ['Bolus de salina hipertônica a 3% (100-150 mL), podendo repetir', 'Restrição hídrica isolada, sem salina hipertônica', 'Soro fisiológico lento, sem salina hipertônica', 'Diurético de alça isolado, sem salina hipertônica'],
     g: 'A',
     c: 'O objetivo inicial é elevar 4 a 6 mEq/L para reverter sintomas. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Lento demais.', C: 'Insuficiente.', D: 'Pioraria.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia: correção',
     e: 'O limite de correção da hiponatremia crônica, para evitar desmielinização osmótica, é de:',
-    o: ['8 a 10 mEq/L em 24 horas (até 8 em pacientes de alto risco)', '20 mEq/L em 24 horas', '30 mEq/L em 24 horas', 'Não há limite'],
+    o: ['8 a 10 mEq/L em 24 horas (até 8 se alto risco)', '20 mEq/L em 24 horas, sem risco de desmielinização', '30 mEq/L em 24 horas, sem risco de desmielinização', 'Não há limite de correção, pois o risco é nulo'],
     g: 'A',
     c: 'Etilistas, desnutridos e hipocalêmicos têm maior risco. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Há limite.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Desmielinização osmótica',
     e: 'Paciente com hiponatremia corrigida rapidamente evolui dias depois com disartria, disfagia e tetraparesia. O diagnóstico é:',
-    o: ['Síndrome de desmielinização osmótica (mielinólise pontina)', 'Hiponatremia persistente', 'AVC hemorrágico', 'Encefalopatia de Wernicke obrigatória'],
+    o: ['Síndrome de desmielinização osmótica (mielinólise pontina)', 'Hiponatremia persistente, sem novos sintomas neurológicos', 'AVC hemorrágico, de causa hipertensiva', 'Encefalopatia de Wernicke, em todos os casos'],
     g: 'A',
     c: 'Prevenção é a correção lenta. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Já foi corrigida.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia hipovolêmica',
     e: 'Paciente com vômitos e diarreia, desidratado, sódio de 128 e sódio urinário abaixo de 20. O tratamento é:',
-    o: ['Soro fisiológico a 0,9%', 'Restrição hídrica', 'Vaptana', 'Diurético'],
+    o: ['Soro fisiológico a 0,9%, para repor o volume', 'Restrição hídrica, para elevar o sódio', 'Vaptana, para aumentar a excreção de água livre', 'Diurético de alça, para aumentar a excreção de água'],
     g: 'A',
     c: 'Tiazídicos são causa comum de hiponatremia. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Pioraria.', C: 'Contraindicada na hipovolemia.', D: 'Pioraria.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia hipervolêmica',
     e: 'Paciente com insuficiência cardíaca descompensada, edema e sódio de 126. O tratamento inclui:',
-    o: ['Restrição hídrica e diurético de alça, tratando a doença de base', 'Soro fisiológico em grande volume', 'Salina hipertônica de rotina', 'Suspender todos os diuréticos'],
+    o: ['Restrição hídrica e diurético de alça, tratando a doença de base', 'Soro fisiológico em grande volume, para elevar o sódio', 'Salina hipertônica de rotina, para elevar o sódio', 'Suspender todos os diuréticos, para elevar o sódio'],
     g: 'A',
     c: 'O volume circulante efetivo está reduzido. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Pioraria.', C: 'Reservada a sintomas graves.', D: 'Pioraria a congestão.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiperglicemia e sódio',
     e: 'Paciente com glicemia de 700 mg/dL e sódio de 128. O sódio corrigido é aproximadamente:',
-    o: ['138 mEq/L (somar cerca de 1,6 a 2,4 mEq/L para cada 100 mg/dL acima de 100)', '128 mEq/L', '118 mEq/L', '150 mEq/L'],
+    o: ['138 mEq/L (somar ~1,6-2,4 para cada 100 mg/dL acima de 100)', '128 mEq/L, igual ao valor medido, sem correção', '118 mEq/L, valor menor que o medido, após correção', '150 mEq/L, valor muito maior que o medido, após correção'],
     g: 'A',
     c: 'A água sai das células pela glicose elevada. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem correção.', C: 'Sentido errado.', D: 'Excessivo.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipernatremia',
     e: 'Idoso acamado, com sódio de 160 e sinais de desidratação. O tratamento é:',
-    o: ['Reposição de água livre (via oral ou soro glicosado a 5%) com correção lenta', 'Salina hipertônica', 'Restrição hídrica', 'Diurético'],
+    o: ['Água livre (via oral ou SG 5%), com correção lenta', 'Salina hipertônica, que piora a hipernatremia', 'Restrição hídrica, que piora a hipernatremia', 'Diurético de alça, que piora a hipernatremia'],
     g: 'A',
     c: 'Corrigir cerca de 10 mEq/L em 24 horas na forma crônica, pelo risco de edema cerebral. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Diabetes insipidus central',
     e: 'Paciente após traumatismo craniano apresenta poliúria com urina muito diluída e hipernatremia, com resposta à desmopressina. O diagnóstico é:',
-    o: ['Diabetes insipidus central', 'Diabetes insipidus nefrogênico', 'SIADH', 'Polidipsia primária'],
+    o: ['Diabetes insipidus central', 'Diabetes insipidus nefrogênico, que não responde à desmopressina', 'SIADH, que cursa com urina concentrada', 'Polidipsia primária, que cursa com urina diluída por ingesta'],
     g: 'A',
     c: 'Tratamento com desmopressina. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem resposta à desmopressina.', C: 'Hiponatremia.', D: 'Sódio baixo ou normal.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipocalemia: ECG',
     e: 'Achado eletrocardiográfico típico da hipocalemia é:',
-    o: ['Onda U proeminente e achatamento da onda T', 'Onda T apiculada', 'QRS largo com onda sinusoidal', 'Supradesnivelamento de ST'],
+    o: ['Onda U proeminente e achatamento da onda T', 'Onda T apiculada, que é da hipercalemia', 'QRS largo com onda sinusoidal, que é da hipercalemia grave', 'Supradesnivelamento de ST, que é da isquemia'],
     g: 'A',
     c: 'Aumenta o risco de arritmias, especialmente com digitálicos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Hipercalemia.', C: 'Hipercalemia grave.', D: 'Isquemia.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipocalemia: reposição',
     e: 'Paciente com potássio de 2,5 mEq/L e arritmia. A reposição intravenosa de potássio em veia periférica deve ser:',
-    o: ['Em velocidade de até cerca de 10 mEq por hora em veia periférica, com monitorização', 'Em bolus rápido', 'Por via intramuscular', 'Sem monitorização'],
+    o: ['Até ~10 mEq/h em veia periférica, com monitorização', 'Em bolus rápido, que causa arritmia', 'Por via intramuscular, em dose única', 'Sem monitorização cardíaca, em velocidade livre'],
     g: 'A',
     c: 'Em acesso central e UTI, velocidades maiores. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco de parada cardíaca.', C: 'Sem sentido.', D: 'Exige monitorização.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia: ECG',
     e: 'A primeira alteração eletrocardiográfica da hipercalemia costuma ser:',
-    o: ['Onda T apiculada', 'Onda U', 'QT longo', 'Onda delta'],
+    o: ['Onda T apiculada', 'Onda U proeminente, que é da hipocalemia', 'QT longo, que é da hipocalcemia', 'Onda delta, que é da pré-excitação'],
     g: 'A',
     c: 'Depois: PR longo, perda da onda P, QRS largo e padrão sinusoidal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Hipocalemia.', C: 'Hipocalcemia.', D: 'Pré-excitação.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia: tratamento',
     e: 'A insulina com glicose no tratamento da hipercalemia atua:',
-    o: ['Deslocando o potássio para dentro das células', 'Eliminando potássio pela urina', 'Estabilizando a membrana cardíaca', 'Eliminando potássio pelas fezes'],
+    o: ['Desloca o potássio para dentro das células, sem retirá-lo do corpo', 'Elimina o potássio do corpo pela urina, aumentando a caliurese', 'Estabiliza a membrana cardíaca, sem alterar o nível sérico', 'Elimina o potássio do corpo pelas fezes, ligando-se no intestino'],
     g: 'A',
     c: 'O efeito começa em cerca de 15 a 30 minutos e é temporário. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Efeito de diuréticos.', C: 'Efeito do cálcio.', D: 'Efeito de resinas.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Pseudo-hipercalemia',
     e: 'Paciente assintomático com potássio de 6,5 em amostra hemolisada e ECG normal. A conduta é:',
-    o: ['Repetir a dosagem com coleta adequada', 'Diálise imediata', 'Gluconato de cálcio', 'Insulina'],
+    o: ['Repetir a dosagem com coleta adequada', 'Diálise imediata, por hipercalemia grave', 'Gluconato de cálcio, por via venosa', 'Insulina com glicose, por via venosa'],
     g: 'A',
     c: 'Hemólise, trombocitose e leucocitose extremas causam falsa elevação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Pode ser falsa.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia: causas',
     e: 'As causas mais comuns de hipercalcemia são:',
-    o: ['Hiperparatireoidismo primário (ambulatorial) e neoplasias (internados)', 'Hipotireoidismo e anemia', 'Deficiência de vitamina D', 'Uso de furosemida'],
+    o: ['Hiperparatireoidismo primário (ambulatório) e neoplasias (internados)', 'Hipotireoidismo e anemia, que são causas frequentes em internados', 'Deficiência de vitamina D, que é causa frequente em idosos', 'Uso de furosemida, que é causa frequente em pacientes cardiopatas'],
     g: 'A',
     c: 'PTH elevado sugere hiperparatireoidismo; suprimido, neoplasia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Causa hipocalcemia.', D: 'Reduz o cálcio.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia grave',
     e: 'Paciente com câncer, cálcio de 14,5 mg/dL, desidratado e confuso. O tratamento inicial é:',
-    o: ['Hidratação vigorosa com soro fisiológico e bisfosfonato intravenoso (zoledronato), com calcitonina se necessário', 'Tiazídico', 'Suplemento de vitamina D', 'Restrição hídrica'],
+    o: ['Hidratação com SF e bisfosfonato IV (zoledronato); calcitonina se preciso', 'Tiazídico, que reduz a excreção urinária de cálcio e piora o quadro', 'Suplemento de vitamina D, que eleva ainda mais o cálcio sérico', 'Restrição hídrica, que piora a desidratação e a hipercalcemia'],
     g: 'A',
     c: 'Denosumabe é alternativa na insuficiência renal. Referência: Walker MD, Shane E. Hypercalcemia: A Review. JAMA. 2022;328(16):1624-36.',
     x: { B: 'Aumenta o cálcio.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia humoral',
     e: 'No câncer de pulmão escamoso, a hipercalcemia ocorre principalmente por:',
-    o: ['Produção de peptídeo relacionado ao PTH (PTHrP)', 'Excesso de vitamina D sempre', 'Hiperparatireoidismo primário', 'Imobilização apenas'],
+    o: ['Produção de peptídeo relacionado ao PTH (PTHrP)', 'Excesso de vitamina D, sempre, na dieta', 'Hiperparatireoidismo primário, com PTH elevado', 'Imobilização apenas, sem outros fatores associados'],
     g: 'A',
     c: 'Linfomas podem produzir calcitriol. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Em linfomas.', C: 'PTH suprimido.', D: 'Contribui pouco.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipocalcemia: ECG',
     e: 'A hipocalcemia causa no ECG:',
-    o: ['Prolongamento do intervalo QT', 'Encurtamento do QT', 'Onda U', 'Onda delta'],
+    o: ['Prolongamento do intervalo QT', 'Encurtamento do intervalo QT, que é da hipercalcemia', 'Onda U, que é da hipocalemia', 'Onda delta, que é da pré-excitação'],
     g: 'A',
     c: 'A hipercalcemia encurta o QT. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Hipercalcemia.', C: 'Hipocalemia.', D: 'Pré-excitação.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipomagnesemia',
     e: 'Causas comuns de hipomagnesemia incluem:',
-    o: ['Etilismo, diarreia, inibidores de bomba de prótons e diuréticos', 'Insuficiência renal', 'Uso de antiácidos com magnésio', 'Hipotireoidismo'],
+    o: ['Etilismo, diarreia, inibidores de bomba de prótons e diuréticos', 'Insuficiência renal, que cursa com hipermagnesemia', 'Uso de antiácidos com magnésio, que causa hipermagnesemia', 'Hipotireoidismo, que não costuma alterar o magnésio'],
     g: 'A',
     c: 'Pode causar hipocalcemia (reduz PTH) e hipocalemia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Causa hipermagnesemia.', C: 'Causa hipermagnesemia.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipermagnesemia',
     e: 'Gestante em uso de sulfato de magnésio apresenta arreflexia e depressão respiratória. O antídoto é:',
-    o: ['Gluconato de cálcio', 'Naloxona', 'Flumazenil', 'Bicarbonato'],
+    o: ['Gluconato de cálcio, que antagoniza o magnésio', 'Naloxona, que é antídoto de opioides', 'Flumazenil, que é antídoto de benzodiazepínicos', 'Bicarbonato de sódio, que não antagoniza o magnésio'],
     g: 'A',
     c: 'Sinais progressivos: perda de reflexos, depressão respiratória e parada cardíaca. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Opioides.', C: 'Benzodiazepínicos.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia: tiazídicos',
     e: 'Idosa em uso de hidroclorotiazida apresenta sódio de 126. A conduta é:',
-    o: ['Suspender o tiazídico e corrigir conforme o volume', 'Aumentar a dose', 'Adicionar mais tiazídico', 'Nenhuma'],
+    o: ['Suspender o tiazídico e corrigir conforme o volume', 'Aumentar a dose do tiazídico, para corrigir o sódio', 'Adicionar mais um tiazídico, para corrigir o sódio', 'Nenhuma conduta, pois o sódio de 126 é aceitável'],
     g: 'A',
     c: 'Tiazídicos causam hiponatremia mais que diuréticos de alça. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Exige conduta.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia: insuficiência adrenal',
     e: 'Paciente com hiponatremia, hipercalemia, hipotensão e hiperpigmentação. O diagnóstico a considerar é:',
-    o: ['Insuficiência adrenal primária (doença de Addison)', 'SIADH', 'Polidipsia', 'Insuficiência cardíaca'],
+    o: ['Insuficiência adrenal primária (doença de Addison)', 'SIADH, que cursa com hipercalemia normal', 'Polidipsia primária, que cursa com urina diluída', 'Insuficiência cardíaca, que cursa com edema'],
     g: 'A',
     c: 'Tratamento com hidrocortisona e fludrocortisona. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem hipercalemia.', C: 'Sem hipercalemia.', D: 'Sem esses achados.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia: hipotireoidismo',
     e: 'Antes de diagnosticar SIADH, deve-se excluir:',
-    o: ['Hipotireoidismo e insuficiência adrenal', 'Diabetes', 'Anemia', 'Asma'],
+    o: ['Hipotireoidismo e insuficiência adrenal', 'Diabetes mellitus, com hiperglicemia', 'Anemia grave, com baixa hemoglobina', 'Asma brônquica, com broncoespasmo'],
     g: 'A',
     c: 'Ambos podem causar hiponatremia euvolêmica. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'SIADH: causas',
     e: 'Medicamentos que podem causar SIADH incluem:',
-    o: ['Inibidores seletivos de recaptação de serotonina, carbamazepina e ciclofosfamida', 'Furosemida', 'Insulina', 'Amoxicilina'],
+    o: ['ISRS, carbamazepina e ciclofosfamida', 'Furosemida, que causa hiponatremia por perda de sódio', 'Insulina, que causa hipoglicemia e hipocalemia', 'Amoxicilina, que não causa SIADH'],
     g: 'A',
     c: 'Também: doenças pulmonares, do SNC e dor pós-operatória. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Não causa.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia: exercício',
     e: 'Maratonista com confusão e sódio de 122 após ingerir muita água durante a prova. O diagnóstico é:',
-    o: ['Hiponatremia associada ao exercício', 'Hipernatremia', 'Hipoglicemia', 'Insolação'],
+    o: ['Hiponatremia associada ao exercício', 'Hipernatremia, por perda de água', 'Hipoglicemia, por esforço prolongado', 'Insolação, por hipertermia'],
     g: 'A',
     c: 'Sintomáticos graves recebem salina hipertônica. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'O oposto.', C: 'Possível, mas o sódio explica.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipocalemia: causas',
     e: 'Paciente com hipocalemia e alcalose metabólica, hipertensão e renina baixa. A hipótese é:',
-    o: ['Hiperaldosteronismo primário', 'Diarreia', 'Acidose tubular', 'Uso de laxativos'],
+    o: ['Hiperaldosteronismo primário', 'Diarreia, que cursa com acidose metabólica', 'Acidose tubular, que cursa com acidose metabólica', 'Uso de laxativos, que cursa com acidose metabólica'],
     g: 'A',
     c: 'Rastreio com relação aldosterona/renina. Referência: Funder JW et al. The Management of Primary Aldosteronism: Case Detection, Diagnosis, and Treatment. J Clin Endocrinol Metab. 2016;101(5):1889-916.',
     x: { B: 'Causa acidose.', C: 'Causa acidose.', D: 'Sem hipertensão.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipocalemia: diarreia',
     e: 'A diarreia causa hipocalemia associada a:',
-    o: ['Acidose metabólica hiperclorêmica', 'Alcalose metabólica', 'Acidose respiratória', 'Alcalose respiratória'],
+    o: ['Acidose metabólica hiperclorêmica', 'Alcalose metabólica, por perda de ácido', 'Acidose respiratória, por retenção de CO2', 'Alcalose respiratória, por hiperventilação'],
     g: 'A',
     c: 'Vômitos causam alcalose metabólica com hipocalemia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Vômitos.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Paralisia periódica',
     e: 'Jovem com episódios de fraqueza súbita após refeição rica em carboidratos, com hipocalemia e taquicardia, e perda de peso. Deve-se pensar em:',
-    o: ['Paralisia periódica tireotóxica', 'Miastenia', 'Guillain-Barré', 'Hipoglicemia'],
+    o: ['Paralisia periódica tireotóxica', 'Miastenia gravis, com fatigabilidade', 'Síndrome de Guillain-Barré, com arreflexia', 'Hipoglicemia pós-prandial, com sintomas adrenérgicos'],
     g: 'A',
     c: 'Tratar o hipertireoidismo; betabloqueador ajuda. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem hipocalemia.', C: 'Sem episódios recorrentes.', D: 'Sem relação.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia: drogas',
     e: 'Medicamentos que podem causar hipercalemia incluem:',
-    o: ['IECA, BRA, espironolactona, trimetoprima e heparina', 'Furosemida', 'Salbutamol', 'Insulina'],
+    o: ['IECA, BRA, espironolactona, trimetoprima e heparina', 'Furosemida, que causa hipocalemia por perda urinária de potássio', 'Salbutamol, que causa hipocalemia por desvio para o intracelular', 'Insulina, que causa hipocalemia por desvio para o intracelular'],
     g: 'A',
     c: 'Monitorar potássio em pacientes com DRC. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Reduz.', C: 'Reduz.', D: 'Reduz.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia: remoção',
     e: 'Medidas que removem potássio do organismo incluem:',
-    o: ['Diuréticos de alça, quelantes intestinais e diálise', 'Gluconato de cálcio', 'Insulina', 'Salbutamol'],
+    o: ['Diuréticos de alça, quelantes intestinais e diálise', 'Gluconato de cálcio, que só estabiliza a membrana', 'Insulina, que só desloca o potássio', 'Salbutamol, que só desloca o potássio'],
     g: 'A',
     c: 'Insulina e salbutamol apenas deslocam o potássio. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Estabiliza a membrana.', C: 'Desloca.', D: 'Desloca.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia: sintomas',
     e: 'Sintomas de hipercalcemia incluem:',
-    o: ['Poliúria, constipação, náuseas, confusão e nefrolitíase', 'Tetania e parestesias', 'Diarreia e hiper-reflexia', 'Convulsões por hipocalcemia'],
+    o: ['Poliúria, constipação, náuseas, confusão e nefrolitíase', 'Tetania e parestesias, que são da hipocalcemia', 'Diarreia e hiper-reflexia, que não são da hipercalcemia', 'Convulsões por hipocalcemia, que não são da hipercalcemia'],
     g: 'A',
     c: 'Mnemônico: pedras, ossos, gemidos abdominais e alterações psíquicas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Hipocalcemia.', C: 'Não é típico.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo primário',
     e: 'Mulher de 60 anos com cálcio de 11 mg/dL, PTH elevado e osteoporose. A causa mais comum é:',
-    o: ['Adenoma único de paratireoide', 'Carcinoma de paratireoide', 'Hiperplasia por DRC', 'Neoplasia maligna'],
+    o: ['Adenoma único de paratireoide', 'Carcinoma de paratireoide, que é raro', 'Hiperplasia por doença renal crônica, no secundário', 'Neoplasia maligna, com PTH suprimido'],
     g: 'A',
     c: 'A cirurgia é indicada em sintomáticos ou com critérios. Referência: Bilezikian JP et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res. 2022;37(11):2293-314.',
     x: { B: 'Raro.', C: 'Secundário.', D: 'PTH suprimido.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia hipocalciúrica familiar',
     e: 'Paciente com hipercalcemia leve, PTH normal ou levemente alto e cálcio urinário muito baixo. A hipótese é:',
-    o: ['Hipercalcemia hipocalciúrica familiar', 'Hiperparatireoidismo primário típico', 'Neoplasia', 'Sarcoidose'],
+    o: ['Hipercalcemia hipocalciúrica familiar', 'Hiperparatireoidismo primário típico, com hipercalciúria', 'Neoplasia, com PTH suprimido', 'Sarcoidose, com PTH suprimido'],
     g: 'A',
     c: 'Não exige cirurgia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Cálcio urinário alto ou normal.', C: 'PTH suprimido.', D: 'PTH suprimido.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Sarcoidose',
     e: 'Paciente com sarcoidose e hipercalcemia com PTH suprimido. O mecanismo é:',
-    o: ['Produção extrarrenal de calcitriol pelos granulomas', 'Excesso de PTH', 'PTHrP', 'Imobilização'],
+    o: ['Produção extrarrenal de calcitriol pelos granulomas', 'Excesso de PTH, por adenoma de paratireoide', 'Produção de PTHrP, por neoplasia', 'Imobilização prolongada, com reabsorção óssea'],
     g: 'A',
     c: 'Responde a corticoide. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'PTH suprimido.', C: 'Típico de câncer.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipocalcemia: tratamento',
     e: 'Paciente com hipocalcemia sintomática e tetania. O tratamento imediato é:',
-    o: ['Gluconato de cálcio intravenoso lento', 'Vitamina D oral isolada', 'Diurético tiazídico', 'Bicarbonato'],
+    o: ['Gluconato de cálcio IV lento', 'Vitamina D oral isolada, sem cálcio venoso', 'Diurético tiazídico, que reduz a excreção de cálcio', 'Bicarbonato de sódio, que reduz o cálcio ionizado'],
     g: 'A',
     c: 'Corrigir magnésio se baixo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Efeito lento.', C: 'Sem efeito agudo.', D: 'Pioraria.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Fósforo',
     e: 'A hiperfosfatemia aguda grave pode ocorrer em:',
-    o: ['Síndrome de lise tumoral e rabdomiólise', 'Síndrome de realimentação', 'Hiperparatireoidismo', 'Alcoolismo crônico'],
+    o: ['Síndrome de lise tumoral e rabdomiólise', 'Síndrome de realimentação, que causa hipofosfatemia', 'Hiperparatireoidismo, que causa hipofosfatemia', 'Alcoolismo crônico, que causa hipofosfatemia'],
     g: 'A',
     c: 'Pode causar hipocalcemia secundária. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Causa hipofosfatemia.', C: 'Reduz o fósforo.', D: 'Causa hipofosfatemia.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Água corporal',
     e: 'Na avaliação de distúrbios do sódio, a natremia reflete principalmente:',
-    o: ['O balanço de água corporal', 'O sódio corporal total', 'O potássio', 'A função hepática'],
+    o: ['O balanço de água corporal', 'O sódio corporal total, medido em mEq', 'O potássio corporal total, medido em mEq', 'A função hepática, medida pela albumina'],
     g: 'A',
     c: 'O volume extracelular reflete o sódio total. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Reflete o volume.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipernatremia: causas',
     e: 'Causa comum de hipernatremia em idosos é:',
-    o: ['Perda de água com acesso limitado à água (sede prejudicada, demência, acamados)', 'Excesso de ingestão de água', 'SIADH', 'Hipotireoidismo'],
+    o: ['Perda de água com acesso limitado (sede prejudicada, demência, acamados)', 'Excesso de ingestão de água, que causa hiponatremia por diluição', 'SIADH, que causa hiponatremia por retenção de água livre', 'Hipotireoidismo, que causa hiponatremia por retenção de água livre'],
     g: 'A',
     c: 'Avaliar também diabetes insipidus. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Causa hiponatremia.', C: 'Hiponatremia.', D: 'Hiponatremia.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia: vaptanas',
     e: 'Sobre o uso de tolvaptana na hiponatremia, é correto afirmar:',
-    o: ['Pode corrigir rapidamente demais, exigindo monitorização frequente do sódio', 'Não altera o sódio', 'É indicada na hiponatremia hipovolêmica', 'Deve ser associada a salina hipertônica sempre'],
+    o: ['Pode corrigir rápido demais: exige monitorização frequente do sódio', 'Não altera o sódio sérico, em nenhuma dose utilizada', 'É indicada na hiponatremia hipovolêmica, em qualquer situação', 'Deve ser sempre associada a salina hipertônica, em todos os casos'],
     g: 'A',
     c: 'Contraindicada em hipovolemia; risco hepático em uso prolongado. Referência: Spasovski G et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Eur J Endocrinol. 2014;170(3):G1-47.',
     x: { B: 'Altera.', C: 'Contraindicada.', D: 'Risco de correção rápida.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia: digoxina',
     e: 'Na intoxicação digitálica com hipercalemia, o tratamento específico é:',
-    o: ['Anticorpo antidigoxina (fragmentos Fab)', 'Gluconato de cálcio em grandes doses', 'Digoxina adicional', 'Diálise como primeira escolha'],
+    o: ['Anticorpo antidigoxina (fragmentos Fab)', 'Gluconato de cálcio em grandes doses, que é contraindicado', 'Digoxina adicional, que agrava a intoxicação', 'Diálise como primeira escolha, que não retira digoxina'],
     g: 'A',
     c: 'O uso de cálcio na intoxicação digitálica é controverso. Referência: Goldfrank LR et al. Goldfrank Toxicologic Emergencies. 11ª ed. New York: McGraw-Hill, 2019.',
     x: { B: 'Controverso.', C: 'Pioraria.', D: 'Pouco eficaz.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipocalemia e insulina',
     e: 'Na cetoacidose diabética, antes de iniciar insulina, o potássio deve ser:',
-    o: ['Maior ou igual a 3,3 mEq/L; se menor, repor primeiro', 'Abaixo de 2,5 mEq/L', 'Ignorado', 'Acima de 7'],
+    o: ['≥ 3,3 mEq/L; se menor, repor primeiro', 'Abaixo de 2,5 mEq/L, que contraindica a insulina', 'Ignorado, pois a insulina independe do potássio', 'Acima de 7 mEq/L, que contraindica a insulina'],
     g: 'A',
     c: 'A insulina leva potássio para dentro das células. Referência: Kitabchi AE et al. Hyperglycemic crises in adult patients with diabetes. Diabetes Care. 2009;32(7):1335-43.',
     x: { B: 'Risco de arritmia.', C: 'Exige monitorização.', D: 'Hipercalemia.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_ELETR: QuestaoCompacta[] = [
   {
     s: 'Hipofosfatemia: sintomas',
     e: 'Hipofosfatemia grave pode causar:',
-    o: ['Fraqueza muscular, rabdomiólise, insuficiência respiratória e hemólise', 'Tetania por excesso de fósforo', 'Hipertensão', 'Poliúria'],
+    o: ['Fraqueza muscular, rabdomiólise, insuficiência respiratória e hemólise', 'Tetania por excesso de fósforo circulante, com cãibras', 'Hipertensão arterial grave, por retenção de sódio e água', 'Poliúria importante, por perda renal de água livre'],
     g: 'A',
     c: 'O fósforo é essencial para o ATP. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },

@@ -5,7 +5,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: classificação',
     e: 'Paciente com dengue no quinto dia, com dor abdominal intensa e contínua, vômitos persistentes e hematócrito em elevação. A classificação é:',
-    o: ['Dengue com sinais de alarme (grupo C)', 'Dengue sem sinais de alarme (grupo A)', 'Grupo B', 'Dengue grave com choque (grupo D)'],
+    o: ['Dengue com sinais de alarme (grupo C)', 'Dengue sem sinais de alarme (grupo A), com hidratação oral', 'Dengue do grupo B, com comorbidade ou risco social', 'Dengue grave com choque (grupo D), com hipotensão'],
     g: 'A',
     c: 'Exige internação e hidratação venosa com 10 mL/kg na primeira hora, reavaliando. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Há sinais de alarme.', C: 'Há sinais de alarme.', D: 'Sem choque descrito.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: grupo B',
     e: 'Paciente com dengue sem sinais de alarme, mas com comorbidade (diabetes) ou prova do laço positiva. A classificação e a conduta são:',
-    o: ['Grupo B; hemograma obrigatório e hidratação oral supervisionada', 'Grupo A; alta sem exames', 'Grupo C; internação obrigatória', 'Grupo D; UTI'],
+    o: ['Grupo B: hemograma obrigatório e hidratação oral supervisionada', 'Grupo A; alta sem exames e com hidratação domiciliar', 'Grupo C; internação obrigatória em enfermaria ou UTI', 'Grupo D; internação em UTI com reposição volêmica intensiva'],
     g: 'A',
     c: 'Se o hemograma for normal, segue tratamento ambulatorial com retorno. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Comorbidade muda o grupo.', C: 'Sem sinais de alarme.', D: 'Sem choque.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: choque',
     e: 'Paciente com dengue, extremidades frias, enchimento capilar lento, pulso fino e pressão convergente. A conduta é:',
-    o: ['Expansão rápida com cristaloide 20 mL/kg em 20 minutos, repetindo até 3 vezes, em leito de terapia intensiva', 'Hidratação oral', 'Diurético', 'Transfusão de plaquetas'],
+    o: ['Cristaloide 20 mL/kg em 20 min (até 3 vezes), em terapia intensiva', 'Hidratação oral domiciliar, com orientação de retorno e sinais de alarme', 'Diurético de alça venoso, para reduzir o extravasamento plasmático', 'Transfusão de plaquetas profilática, para elevar a contagem plaquetária'],
     g: 'A',
     c: 'É o grupo D (dengue grave). Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Insuficiente.', C: 'Pioraria.', D: 'Sem indicação.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: diagnóstico',
     e: 'Paciente no terceiro dia de febre com suspeita de dengue. O exame de diagnóstico mais adequado é:',
-    o: ['Teste do antígeno NS1 ou RT-PCR', 'Sorologia IgM no primeiro dia', 'Hemocultura', 'Prova do laço isolada'],
+    o: ['Teste do antígeno NS1 ou RT-PCR', 'Sorologia IgM no primeiro dia de febre, que ainda é negativa', 'Hemocultura, que não diagnostica dengue', 'Prova do laço isolada, que não confirma a doença'],
     g: 'A',
     c: 'A IgM é mais útil após o sexto dia. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Pode ser negativa precocemente.', C: 'Sem relação.', D: 'Não confirma.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Weil',
     e: 'Paciente com leptospirose evolui com icterícia rubínica, insuficiência renal com hipocalemia e hemorragia pulmonar. O quadro é:',
-    o: ['Síndrome de Weil (forma grave)', 'Forma anictérica leve', 'Hepatite viral', 'Dengue hemorrágica'],
+    o: ['Síndrome de Weil (forma grave)', 'Forma anictérica leve, sem icterícia nem insuficiência renal', 'Hepatite viral, com transaminases muito elevadas', 'Dengue hemorrágica, com plaquetopenia e hemoconcentração'],
     g: 'A',
     c: 'A insuficiência renal da leptospirose é tipicamente não oligúrica com hipocalemia. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Grave.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Malária vivax',
     e: 'No tratamento da malária por Plasmodium vivax, a primaquina é usada para:',
-    o: ['Eliminar hipnozoítos hepáticos e evitar recaídas', 'Tratar a fase sanguínea aguda isolada', 'Prevenir dengue', 'Tratar a anemia'],
+    o: ['Eliminar hipnozoítos hepáticos e evitar recaídas', 'Tratar a fase sanguínea aguda isolada, sem ação hepática', 'Prevenir a dengue, por ação repelente', 'Tratar a anemia associada, por ação hematínica'],
     g: 'A',
     c: 'Antes, deve-se considerar teste de G6PD pelo risco de hemólise. Referência: Brasil. Ministério da Saúde. Guia de tratamento da malária no Brasil. 2ª ed. Brasília: MS, 2021.',
     x: { B: 'Feito com cloroquina.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre tifoide',
     e: 'Paciente com febre progressiva há 10 dias, bradicardia relativa, dor abdominal, hepatoesplenomegalia e roséolas tíficas. A hipótese é:',
-    o: ['Febre tifoide', 'Dengue', 'Malária', 'Leptospirose'],
+    o: ['Febre tifoide', 'Dengue, com febre curta e exantema', 'Malária, com febre terçã ou quartã', 'Leptospirose, com mialgia e hemorragia'],
     g: 'A',
     c: 'Hemocultura é o exame de escolha na primeira semana. Complicações: perfuração e sangramento intestinal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Febre aguda e sem bradicardia relativa.', C: 'Febre periódica.', D: 'Mialgia e sufusão.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre maculosa',
     e: 'Paciente com febre alta, cefaleia, mialgia e exantema maculopapular que surge em punhos e tornozelos e se espalha para palmas e plantas, após exposição a carrapatos. A conduta é:',
-    o: ['Iniciar doxiciclina imediatamente, sem aguardar exames', 'Aguardar sorologia', 'Penicilina benzatina', 'Apenas sintomáticos'],
+    o: ['Doxiciclina imediatamente, sem aguardar exames', 'Aguardar a sorologia para iniciar o tratamento', 'Penicilina benzatina, em dose única', 'Apenas sintomáticos, com retorno se piorar'],
     g: 'A',
     c: 'A doença causada por Rickettsia rickettsii tem alta letalidade se tratada tardiamente. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Atraso aumenta letalidade.', C: 'Ineficaz.', D: 'Insuficiente.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Leishmaniose visceral',
     e: 'Paciente com febre prolongada, emagrecimento, hepatoesplenomegalia volumosa, pancitopenia e hipergamaglobulinemia. A hipótese é:',
-    o: ['Leishmaniose visceral (calazar)', 'Leucemia sempre', 'Malária', 'Febre tifoide'],
+    o: ['Leishmaniose visceral (calazar)', 'Leucemia, em todos os casos de esplenomegalia', 'Malária, com febre periódica e anemia', 'Febre tifoide, com bradicardia relativa'],
     g: 'A',
     c: 'Tratamento com anfotericina B lipossomal ou antimoniais. Coinfecção com HIV é grave. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Deve ser excluída.', C: 'Febre periódica.', D: 'Sem esplenomegalia tão volumosa.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre de origem indeterminada',
     e: 'Febre de origem indeterminada clássica é definida como febre acima de 38,3 °C por:',
-    o: ['Pelo menos 3 semanas, sem diagnóstico após investigação inicial adequada', '2 dias', '1 semana', '24 horas'],
+    o: ['≥ 3 semanas, sem diagnóstico após investigação inicial adequada', '2 dias de febre, com investigação em curso e exames pendentes', '1 semana de febre, sem diagnóstico ainda e sem investigação completa', '24 horas de febre, sem foco aparente e sem investigação inicial'],
     g: 'A',
     c: 'As principais causas são infecções, neoplasias e doenças inflamatórias. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Hantavirose',
     e: 'Trabalhador rural com febre, mialgia, evoluindo rapidamente com insuficiência respiratória, edema pulmonar não cardiogênico, hemoconcentração e plaquetopenia, após contato com roedores. A hipótese é:',
-    o: ['Síndrome cardiopulmonar por hantavírus', 'Leptospirose sempre', 'Pneumonia pneumocócica', 'Dengue'],
+    o: ['Síndrome cardiopulmonar por hantavírus', 'Leptospirose, em todos os casos de insuficiência respiratória', 'Pneumonia pneumocócica, com consolidação lobar', 'Dengue, com extravasamento plasmático'],
     g: 'A',
     c: 'Não há antiviral específico; o suporte intensivo é fundamental. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Possível, mas o quadro sugere hantavírus.', C: 'Sem esse quadro.', D: 'Sem edema pulmonar.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Esquistossomose aguda',
     e: 'Paciente após banho em lagoa apresenta febre, urticária, tosse, diarreia e eosinofilia intensa 4 a 8 semanas depois. A hipótese é:',
-    o: ['Esquistossomose aguda (febre de Katayama)', 'Dengue', 'Leptospirose', 'Malária'],
+    o: ['Esquistossomose aguda (febre de Katayama)', 'Dengue, com mialgia e exantema', 'Leptospirose, com icterícia e insuficiência renal', 'Malária, com febre periódica'],
     g: 'A',
     c: 'O tratamento é com praziquantel, às vezes associado a corticoide. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Sem eosinofilia.', C: 'Sem eosinofilia.', D: 'Sem eosinofilia.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Doença de Chagas aguda',
     e: 'Paciente com febre, edema palpebral unilateral (sinal de Romaña) e linfadenopatia, após ingestão de açaí contaminado. A hipótese é:',
-    o: ['Doença de Chagas aguda', 'Celulite orbitária', 'Conjuntivite', 'Leishmaniose'],
+    o: ['Doença de Chagas aguda', 'Celulite orbitária, com dor e febre', 'Conjuntivite viral, bilateral', 'Leishmaniose, com úlcera cutânea'],
     g: 'A',
     c: 'O diagnóstico na fase aguda é parasitológico direto. Tratamento com benznidazol. Referência: Brasil. Ministério da Saúde. PCDT Doença de Chagas. Brasília: MS, 2018.',
     x: { B: 'Sem febre sistêmica e contexto.', C: 'Sem relação.', D: 'Sem esse sinal.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Mononucleose',
     e: 'Adulto jovem com febre, faringite, linfadenopatia cervical posterior, esplenomegalia e linfócitos atípicos. A hipótese é:',
-    o: ['Mononucleose infecciosa', 'Leucemia', 'Toxoplasmose sempre', 'Escarlatina'],
+    o: ['Mononucleose infecciosa', 'Leucemia aguda, com blastos no sangue', 'Toxoplasmose, em todos os casos', 'Escarlatina, com exantema em lixa'],
     g: 'A',
     c: 'Uso de amoxicilina causa exantema. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem blastos.', C: 'Possível, mas menos comum.', D: 'Sem esse quadro.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Sepse',
     e: 'A definição atual de sepse (Sepsis-3) é:',
-    o: ['Disfunção orgânica ameaçadora à vida causada por resposta desregulada à infecção, com aumento de 2 ou mais pontos no SOFA', 'Qualquer infecção com febre', 'SIRS com infecção', 'Bacteremia isolada'],
+    o: ['Disfunção orgânica por resposta desregulada à infecção (SOFA ≥ 2 pontos)', 'Qualquer infecção com febre, independentemente da gravidade clínica', 'SIRS associada à infecção, que era a definição anterior (Sepsis-2)', 'Bacteremia isolada, com hemocultura positiva, sem disfunção orgânica'],
     g: 'A',
     c: 'Choque séptico: necessidade de vasopressor para PAM de 65 ou mais e lactato acima de 2 apesar de volume. Referência: Singer M et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):801-10.',
     x: { B: 'Insuficiente.', C: 'Definição antiga.', D: 'Insuficiente.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Sepse: tratamento',
     e: 'Paciente com choque séptico. As medidas da primeira hora incluem:',
-    o: ['Lactato, hemoculturas, antibiótico de amplo espectro, 30 mL/kg de cristaloide se hipoperfusão e vasopressor se necessário', 'Apenas antitérmico', 'Esperar resultado de culturas para antibiótico', 'Corticoide como primeira medida'],
+    o: ['Lactato, hemoculturas, antibiótico, 30 mL/kg de cristaloide e vasopressor se preciso', 'Apenas antitérmico e hidratação oral, para controlar a febre', 'Esperar o resultado das culturas para dar o antibiótico de amplo espectro', 'Corticoide como primeira medida, antes do volume e do antibiótico'],
     g: 'A',
     c: 'A noradrenalina é o vasopressor de primeira escolha. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Insuficiente.', C: 'Atraso aumenta mortalidade.', D: 'Não é a primeira medida.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: fases',
     e: 'A fase crítica da dengue, com risco de extravasamento plasmático e choque, ocorre tipicamente:',
-    o: ['Na defervescência, entre o terceiro e o sétimo dia', 'No primeiro dia de febre', 'Somente após 30 dias', 'Antes da febre'],
+    o: ['Na defervescência, entre o 3º e o 7º dia', 'No primeiro dia de febre, na fase inicial', 'Somente após 30 dias de doença', 'Antes do início da febre, na fase de incubação'],
     g: 'A',
     c: 'Por isso o paciente deve ser reavaliado quando a febre cede. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Fase febril.', C: 'Recuperação.', D: 'Sem sentido.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: hematócrito',
     e: 'Um sinal laboratorial de extravasamento plasmático na dengue é:',
-    o: ['Hemoconcentração (aumento do hematócrito)', 'Leucocitose intensa', 'Queda do hematócrito sem sangramento', 'Hiperglicemia'],
+    o: ['Hemoconcentração (aumento do hematócrito)', 'Leucocitose intensa, com desvio à esquerda', 'Queda do hematócrito sem sangramento aparente', 'Hiperglicemia, por estresse metabólico'],
     g: 'A',
     c: 'Hipoalbuminemia e derrames cavitários também indicam extravasamento. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Leucopenia é mais comum.', C: 'Sugere sangramento.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: hidratação oral',
     e: 'Para o paciente do grupo A em casa, a hidratação oral recomendada para adultos é de cerca de:',
-    o: ['60 mL/kg/dia, sendo um terço com soro de reidratação oral', '10 mL/kg/dia', '200 mL/kg/dia', 'Somente água quando tiver sede'],
+    o: ['60 mL/kg/dia, sendo um terço com soro de reidratação oral', '10 mL/kg/dia, que seria o mínimo a ser ingerido por dia', '200 mL/kg/dia, que seria um grande volume a ser ingerido', 'Somente água, apenas quando o paciente tiver sede'],
     g: 'A',
     c: 'O paciente deve retornar se surgirem sinais de alarme. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Insuficiente.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: medicamentos',
     e: 'Para febre e dor na dengue, o recomendado é:',
-    o: ['Paracetamol ou dipirona, evitando AINEs e AAS', 'Ibuprofeno', 'Ácido acetilsalicílico', 'Corticoide'],
+    o: ['Paracetamol ou dipirona; evitar AINEs e AAS', 'Ibuprofeno, em dose habitual', 'Ácido acetilsalicílico, em dose habitual', 'Corticoide oral, em dose anti-inflamatória'],
     g: 'A',
     c: 'AINEs aumentam risco de sangramento. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Contraindicado.', C: 'Contraindicado.', D: 'Sem indicação.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Dengue: gestante',
     e: 'Gestante com suspeita de dengue deve ser classificada, no mínimo, como:',
-    o: ['Grupo B, com acompanhamento mais próximo', 'Grupo A sempre', 'Sem necessidade de avaliação', 'Grupo D'],
+    o: ['Grupo B, com acompanhamento mais próximo', 'Grupo A sempre, com alta e hidratação oral', 'Sem necessidade de avaliação adicional', 'Grupo D sempre, com UTI imediata'],
     g: 'A',
     c: 'Gestantes têm maior risco de complicações. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Risco maior.', C: 'Exige avaliação.', D: 'Sem choque.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Leptospirose: notificação',
     e: 'A leptospirose é doença:',
-    o: ['De notificação compulsória, ligada a enchentes e contato com urina de roedores', 'Transmitida por mosquito', 'Sem notificação', 'Transmitida de pessoa a pessoa'],
+    o: ['Notificação compulsória; ligada a enchentes e à urina de roedores', 'Transmitida por mosquito, como a dengue e a febre amarela', 'Sem notificação compulsória, por ser doença muito comum', 'Transmitida de pessoa a pessoa, por via respiratória'],
     g: 'A',
     c: 'Profilaxia com doxiciclina pode ser considerada após exposição de risco. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Transmitida por urina de roedores.', C: 'É notificável.', D: 'Rara.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Calazar: diagnóstico',
     e: 'O exame com maior sensibilidade para confirmar leishmaniose visceral é:',
-    o: ['Aspirado de medula óssea ou baço com pesquisa do parasita', 'Hemograma', 'Radiografia', 'Ultrassom'],
+    o: ['Aspirado de medula óssea ou baço com pesquisa do parasita', 'Hemograma, que não confirma o diagnóstico', 'Radiografia de tórax, que não confirma o diagnóstico', 'Ultrassom de abdome, que não confirma o diagnóstico'],
     g: 'A',
     c: 'Testes rápidos com antígeno rK39 também são usados. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Inespecífico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre tifoide: tratamento',
     e: 'O tratamento da febre tifoide no Brasil inclui:',
-    o: ['Ceftriaxona, ciprofloxacino ou azitromicina conforme sensibilidade', 'Penicilina benzatina', 'Metronidazol', 'Nada'],
+    o: ['Ceftriaxona, ciprofloxacino ou azitromicina, conforme a sensibilidade', 'Penicilina benzatina, em dose única, por via intramuscular', 'Metronidazol oral, em dose habitual, por 7 dias', 'Nenhum antibiótico, apenas medidas de suporte e hidratação'],
     g: 'A',
     c: 'A vacina existe, mas tem uso restrito. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Ineficaz.', C: 'Ineficaz.', D: 'Exige tratamento.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Malária: falciparum não grave',
     e: 'Malária por Plasmodium falciparum sem gravidade é tratada com:',
-    o: ['Derivado de artemisinina combinado (como artemeter com lumefantrina) e primaquina em dose única', 'Cloroquina', 'Penicilina', 'Nada'],
+    o: ['Artemisinina combinada (artemeter + lumefantrina) e primaquina em dose única', 'Cloroquina, que tem resistência frequente em todas as regiões do país', 'Penicilina, que não tem atividade nenhuma contra o plasmódio', 'Nenhum tratamento, pois a doença é autolimitada na maioria dos casos'],
     g: 'A',
     c: 'A primaquina em dose única reduz transmissão (gametocitocida). Referência: Brasil. Ministério da Saúde. Guia de tratamento da malária no Brasil. 2ª ed. Brasília: MS, 2021.',
     x: { B: 'Resistência.', C: 'Ineficaz.', D: 'Exige.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre: viajante',
     e: 'Viajante retornando da África com febre deve sempre ser investigado para:',
-    o: ['Malária, mesmo que tenha feito profilaxia', 'Apenas gripe', 'Apenas dengue', 'Nada'],
+    o: ['Malária, mesmo com profilaxia', 'Apenas gripe, por ser a causa mais comum', 'Apenas dengue, por ser a causa mais comum', 'Nenhuma investigação, se feita a profilaxia'],
     g: 'A',
     c: 'A malária por falciparum pode ser fatal em poucos dias. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Exige investigação.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre maculosa: vetor',
     e: 'No Brasil, o principal vetor da febre maculosa brasileira é o:',
-    o: ['Carrapato-estrela (Amblyomma)', 'Aedes aegypti', 'Anopheles', 'Flebotomíneo'],
+    o: ['Carrapato-estrela (Amblyomma)', 'Aedes aegypti, vetor da dengue', 'Anopheles, vetor da malária', 'Flebotomíneo, vetor da leishmaniose'],
     g: 'A',
     c: 'Capivaras e cavalos são hospedeiros importantes. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Arboviroses urbanas.', C: 'Malária.', D: 'Leishmaniose.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Hantavírus: transmissão',
     e: 'A transmissão do hantavírus ocorre principalmente por:',
-    o: ['Inalação de aerossóis de excretas de roedores silvestres', 'Picada de mosquito', 'Contato sexual', 'Água contaminada por fezes humanas'],
+    o: ['Inalação de aerossóis de excretas de roedores silvestres', 'Picada de mosquito, como ocorre na dengue e na febre amarela', 'Contato sexual sem proteção, como em outras infecções', 'Água contaminada por fezes humanas, como na febre tifoide'],
     g: 'A',
     c: 'Ocorre em áreas rurais e em atividades como limpeza de galpões. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Doença de Chagas crônica',
     e: 'Paciente de área endêmica com bloqueio de ramo direito, hemibloqueio anterior esquerdo e aneurisma apical ao ecocardiograma. A hipótese é:',
-    o: ['Cardiopatia chagásica crônica', 'Cardiopatia isquêmica sempre', 'Miocardite viral aguda', 'Hipertensiva'],
+    o: ['Cardiopatia chagásica crônica', 'Cardiopatia isquêmica, em todos os casos', 'Miocardite viral aguda, de curta duração', 'Cardiopatia hipertensiva, de longa data'],
     g: 'A',
     c: 'Também causa megaesôfago e megacólon. Referência: Brasil. Ministério da Saúde. PCDT Doença de Chagas. Brasília: MS, 2018.',
     x: { B: 'Possível, mas o padrão sugere Chagas.', C: 'Quadro crônico.', D: 'Sem esse padrão.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Toxoplasmose aguda',
     e: 'Adulto imunocompetente com linfadenopatia cervical e fadiga, IgM e IgG positivas para toxoplasmose com avidez baixa. A conduta é:',
-    o: ['Geralmente observação, exceto em gestantes, imunodeprimidos e formas oculares', 'Tratamento por 1 ano obrigatório', 'Cirurgia', 'Corticoide isolado'],
+    o: ['Observação, exceto em gestantes, imunodeprimidos e formas oculares', 'Tratamento por 1 ano, obrigatório, em todos os pacientes', 'Cirurgia de ressecção do linfonodo, em todos os pacientes', 'Corticoide isolado, em dose alta, em todos os pacientes'],
     g: 'A',
     c: 'A avidez baixa sugere infecção recente. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é obrigatório.', C: 'Sem indicação.', D: 'Insuficiente.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'HIV agudo',
     e: 'Paciente com febre, faringite, exantema, linfadenopatia e úlceras orais 2 a 4 semanas após relação desprotegida. Uma hipótese importante é:',
-    o: ['Infecção aguda pelo HIV', 'Mononucleose apenas', 'Sífilis terciária', 'Gripe'],
+    o: ['Infecção aguda pelo HIV', 'Mononucleose, apenas, por vírus Epstein-Barr', 'Sífilis terciária, com lesões gomosas', 'Gripe, com mialgia e sintomas respiratórios'],
     g: 'A',
     c: 'O teste de carga viral detecta antes dos anticorpos. Referência: Brasil. Ministério da Saúde. PCDT para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Deve ser considerada, mas HIV não pode ser esquecido.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Doença de Lyme',
     e: 'Sobre a doença de Lyme no Brasil, é correto afirmar:',
-    o: ['Há uma síndrome semelhante (Baggio-Yoshinari), menos frequente que nos Estados Unidos', 'É a doença transmitida por carrapato mais comum no Brasil', 'É transmitida por mosquito', 'Não existe nenhuma forma semelhante'],
+    o: ['Há síndrome semelhante (Baggio-Yoshinari), menos frequente que nos EUA', 'É a doença transmitida por carrapato mais comum no território brasileiro', 'É transmitida por mosquito, como a dengue e a febre amarela', 'Não existe nenhuma forma semelhante no Brasil, em nenhuma região'],
     g: 'A',
     c: 'Febre maculosa é a mais importante no Brasil. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Febre maculosa é mais relevante.', C: 'Carrapato.', D: 'Existe.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Sepse: lactato',
     e: 'No choque séptico, o lactato elevado indica:',
-    o: ['Hipoperfusão tecidual e pior prognóstico, devendo ser monitorado', 'Infecção viral', 'Bom prognóstico', 'Desidratação simples'],
+    o: ['Hipoperfusão tecidual e pior prognóstico; deve ser monitorado', 'Infecção viral, sem hipoperfusão tecidual ou disfunção orgânica', 'Bom prognóstico, com resolução rápida e espontânea do quadro', 'Desidratação simples, sem hipoperfusão tecidual ou disfunção orgânica'],
     g: 'A',
     c: 'O clareamento do lactato orienta a ressuscitação. Referência: Evans L et al. Surviving Sepsis Campaign 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Sem relação.', C: 'O oposto.', D: 'Insuficiente.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Sepse: qSOFA',
     e: 'O qSOFA inclui:',
-    o: ['Frequência respiratória de 22 ou mais, alteração do nível de consciência e pressão sistólica de 100 ou menos', 'Febre, leucocitose e taquicardia', 'Lactato e creatinina', 'Plaquetas e bilirrubina'],
+    o: ['FR ≥ 22, alteração do nível de consciência e PAS ≤ 100', 'Febre, leucocitose e taquicardia, que são critérios de SIRS', 'Lactato e creatinina, que são do SOFA', 'Plaquetas e bilirrubina, que são do SOFA'],
     g: 'A',
     c: 'Não é recomendado como ferramenta única de triagem. Referência: Singer M et al. JAMA. 2016;315(8):801-10.',
     x: { B: 'São critérios de SIRS.', C: 'São do SOFA.', D: 'São do SOFA.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre periódica',
     e: 'Paciente com febres recorrentes de 1 a 3 dias, serosite (dor abdominal ou torácica) e origem mediterrânea. A hipótese é:',
-    o: ['Febre familiar do Mediterrâneo', 'Malária', 'Tuberculose', 'Linfoma'],
+    o: ['Febre familiar do Mediterrâneo', 'Malária, com febre periódica e anemia', 'Tuberculose, com febre vespertina', 'Linfoma, com febre e emagrecimento'],
     g: 'A',
     c: 'Tratamento com colchicina, que também previne amiloidose. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Contexto diferente.', C: 'Evolução diferente.', D: 'Sem periodicidade.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre e esplenomegalia',
     e: 'Paciente com febre e esplenomegalia volumosa. Causas a considerar incluem:',
-    o: ['Calazar, malária crônica, esquistossomose, leucemias e linfomas', 'Apenas gripe', 'Apenas apendicite', 'Apenas dengue'],
+    o: ['Calazar, malária crônica, esquistossomose, leucemias e linfomas', 'Apenas gripe, que não causa esplenomegalia volumosa', 'Apenas apendicite, que não causa esplenomegalia volumosa', 'Apenas dengue, que não causa esplenomegalia volumosa'],
     g: 'A',
     c: 'Esplenomegalia volumosa restringe o diagnóstico diferencial. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem esplenomegalia.', C: 'Sem esplenomegalia.', D: 'Sem esplenomegalia volumosa.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Febre por drogas',
     e: 'Paciente internado com febre persistente, bom estado geral e eosinofilia após iniciar betalactâmico. A hipótese é:',
-    o: ['Febre por medicamento', 'Sepse grave', 'Endocardite sempre', 'Linfoma'],
+    o: ['Febre por medicamento', 'Sepse grave, com instabilidade hemodinâmica', 'Endocardite, em todos os casos de febre persistente', 'Linfoma, com febre e emagrecimento'],
     g: 'A',
     c: 'Melhora em 48 a 72 horas após suspender a droga. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Bom estado geral.', C: 'Sem sopro e culturas.', D: 'Sem achados.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_FEBR: QuestaoCompacta[] = [
   {
     s: 'Arboviroses: prevenção',
     e: 'A medida mais eficaz para prevenir dengue, zika e chikungunya é:',
-    o: ['Eliminar criadouros do Aedes aegypti', 'Antibiótico profilático', 'Vacina BCG', 'Uso de máscara'],
+    o: ['Eliminar criadouros do Aedes aegypti', 'Antibiótico profilático, de uso contínuo', 'Vacina BCG, aplicada na infância', 'Uso de máscara, em ambientes fechados'],
     g: 'A',
     c: 'A vacina contra dengue está disponível no SUS para faixas etárias específicas. Referência: Brasil. Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança. 6ª ed. Brasília: MS, 2024.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },

@@ -21,7 +21,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma de Hodgkin',
     e: 'Sintoma curioso, mas característico, do linfoma de Hodgkin é:',
-    o: ['Dor nos linfonodos acometidos após ingestão de álcool', 'Melhora com álcool', 'Hipoglicemia', 'Bradicardia'],
+    o: ['Dor nos linfonodos acometidos após ingestão de álcool', 'Melhora dos sintomas com o consumo de álcool', 'Hipoglicemia, de forma característica', 'Bradicardia, de forma característica'],
     g: 'A',
     c: 'É raro, mas sugestivo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem fundamento.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Sintomas B',
     e: 'São considerados sintomas B nos linfomas:',
-    o: ['Febre acima de 38 °C, sudorese noturna e perda de mais de 10% do peso em 6 meses', 'Prurido e fadiga', 'Dor óssea', 'Tosse e dispneia'],
+    o: ['Febre > 38 °C, sudorese noturna e perda > 10% do peso em 6 meses', 'Prurido e fadiga, que não são considerados sintomas B nos linfomas', 'Dor óssea, que não é considerada sintoma B nos linfomas', 'Tosse e dispneia, que não são considerados sintomas B nos linfomas'],
     g: 'A',
     c: 'Os sintomas B pioram o prognóstico. Referência: Cheson BD et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification. J Clin Oncol. 2014;32(27):3059-68.',
     x: { B: 'Não são sintomas B.', C: 'Não são sintomas B.', D: 'Não são sintomas B.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma não Hodgkin',
     e: 'O linfoma não Hodgkin mais comum em adultos é:',
-    o: ['Linfoma difuso de grandes células B', 'Linfoma de Burkitt', 'Linfoma de manto', 'Linfoma de zona marginal'],
+    o: ['Linfoma difuso de grandes células B', 'Linfoma de Burkitt, que é mais raro em adultos', 'Linfoma de manto, que é mais raro em adultos', 'Linfoma de zona marginal, que é mais raro em adultos'],
     g: 'A',
     c: 'É agressivo e tratado com R-CHOP. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Raro em adultos.', C: 'Menos comum.', D: 'Menos comum.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Síndrome de lise tumoral',
     e: 'Paciente com linfoma de Burkitt inicia quimioterapia e evolui com hiperuricemia, hiperpotassemia, hiperfosfatemia, hipocalcemia e insuficiência renal. A prevenção inclui:',
-    o: ['Hidratação vigorosa e alopurinol ou rasburicase', 'Restrição hídrica', 'Suplementação de potássio', 'Diurético tiazídico'],
+    o: ['Hidratação vigorosa e alopurinol ou rasburicase', 'Restrição hídrica, que piora a lise tumoral', 'Suplementação de potássio, que piora a hipercalemia', 'Diurético tiazídico, que eleva o ácido úrico'],
     g: 'A',
     c: 'A rasburicase é indicada em alto risco. Referência: Howard SC, Jones DP, Pui CH. The tumor lysis syndrome. N Engl J Med. 2011;364(19):1844-54.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Sem indicação.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma MALT',
     e: 'Paciente com linfoma gástrico MALT de baixo grau e infecção por Helicobacter pylori. O tratamento inicial é:',
-    o: ['Erradicação do Helicobacter pylori', 'Gastrectomia total', 'Quimioterapia intensiva', 'Radioterapia de rotina'],
+    o: ['Erradicação do Helicobacter pylori', 'Gastrectomia total, em todos os casos', 'Quimioterapia intensiva, em todos os casos', 'Radioterapia de rotina, em todos os casos'],
     g: 'A',
     c: 'Muitos casos regridem com a erradicação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Reservada a refratários.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma de manto',
     e: 'Linfoma de células do manto associa-se à translocação:',
-    o: ['t(11;14), com hiperexpressão de ciclina D1', 't(8;14)', 't(14;18)', 't(9;22)'],
+    o: ['t(11;14), com hiperexpressão de ciclina D1', 't(8;14), que é do linfoma de Burkitt', 't(14;18), que é do linfoma folicular', 't(9;22), que é da LMC'],
     g: 'A',
     c: 'Tem comportamento agressivo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Burkitt.', C: 'Folicular.', D: 'Leucemia mieloide crônica.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfomas e HIV',
     e: 'Paciente com aids e CD4 muito baixo apresenta lesão cerebral com captação de contraste e PCR para EBV positivo no líquor. A hipótese é:',
-    o: ['Linfoma primário do sistema nervoso central', 'Toxoplasmose sempre', 'Abscesso bacteriano', 'Glioblastoma'],
+    o: ['Linfoma primário do sistema nervoso central', 'Toxoplasmose, em todos os casos de lesão', 'Abscesso bacteriano, em todos os casos de lesão', 'Glioblastoma, em todos os casos de lesão'],
     g: 'A',
     c: 'A toxoplasmose é o principal diferencial; teste terapêutico pode ser usado. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Possível, mas o EBV sugere linfoma.', C: 'Sem febre e quadro agudo.', D: 'Não associado ao EBV.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Leucemia linfoide crônica',
     e: 'Idoso assintomático com linfocitose de 25.000, células de Gumprecht (smudge cells) e imunofenotipagem CD5 e CD23 positiva. O diagnóstico é:',
-    o: ['Leucemia linfoide crônica', 'Leucemia aguda', 'Linfoma de Burkitt', 'Mieloma'],
+    o: ['Leucemia linfoide crônica', 'Leucemia aguda, com blastos', 'Linfoma de Burkitt, de crescimento rápido', 'Mieloma múltiplo, com plasmócitos'],
     g: 'A',
     c: 'Nos estágios iniciais assintomáticos, a conduta é observação. Referência: Hallek M et al. iwCLL guidelines for diagnosis, indications for treatment, response assessment, and supportive management of CLL. Blood. 2018;131(25):2745-60.',
     x: { B: 'Haveria blastos.', C: 'Sem esse fenótipo.', D: 'Plasmócitos.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'LLC: complicações',
     e: 'Complicações da leucemia linfoide crônica incluem:',
-    o: ['Anemia hemolítica autoimune, hipogamaglobulinemia com infecções e transformação de Richter', 'Policitemia', 'Trombocitose', 'Hipercalcemia sempre'],
+    o: ['Anemia hemolítica autoimune, hipogamaglobulinemia e transformação de Richter', 'Policitemia, por eritrocitose, como complicação frequente da doença', 'Trombocitose, por hiperplasia megacariocítica, como complicação frequente', 'Hipercalcemia, sempre, em todos os casos, como complicação frequente'],
     g: 'A',
     c: 'A transformação de Richter é para linfoma agressivo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Mais de mieloma.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma múltiplo: diagnóstico',
     e: 'Exames para pesquisar proteína monoclonal incluem:',
-    o: ['Eletroforese e imunofixação de proteínas séricas e urinárias e cadeias leves livres no soro', 'Apenas hemograma', 'PSA', 'Ferritina'],
+    o: ['Eletroforese e imunofixação de proteínas séricas e urinárias e cadeias leves', 'Apenas hemograma, que não detecta proteína monoclonal no soro', 'PSA, que não detecta proteína monoclonal no soro nem na urina', 'Ferritina, que não detecta proteína monoclonal no soro nem na urina'],
     g: 'A',
     c: 'A medula com 10% ou mais de plasmócitos clonais é critério. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'MGUS',
     e: 'Paciente assintomático com proteína monoclonal de 1,2 g/dL, menos de 10% de plasmócitos na medula e sem lesões de órgão-alvo. O diagnóstico é:',
-    o: ['Gamopatia monoclonal de significado indeterminado', 'Mieloma múltiplo ativo', 'Mieloma latente obrigatoriamente', 'Amiloidose'],
+    o: ['Gamopatia monoclonal de significado indeterminado', 'Mieloma múltiplo ativo, com lesão de órgão-alvo', 'Mieloma latente, obrigatoriamente, sem sintomas', 'Amiloidose, com depósito em órgãos'],
     g: 'A',
     c: 'Risco de progressão de cerca de 1% ao ano; exige seguimento. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Sem CRAB.', C: 'Exigiria 10% ou mais de plasmócitos ou proteína alta.', D: 'Sem lesão de órgão.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma: rim',
     e: 'Uma causa importante de insuficiência renal no mieloma é:',
-    o: ['Nefropatia por cilindros de cadeias leves (rim do mieloma)', 'Glomerulonefrite pós-estreptocócica', 'Litíase de oxalato', 'Pielonefrite'],
+    o: ['Nefropatia por cilindros de cadeias leves (rim do mieloma)', 'Glomerulonefrite pós-estreptocócica, pós-infecciosa', 'Litíase de oxalato, por hiperoxalúria', 'Pielonefrite, por infecção ascendente'],
     g: 'A',
     c: 'Hipercalcemia, desidratação e contrastes também contribuem. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Sem relação.', C: 'Menos comum.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma: hipercalcemia',
     e: 'Paciente com mieloma e cálcio de 14 mg/dL, confuso. O tratamento inicial é:',
-    o: ['Hidratação venosa vigorosa, bisfosfonato intravenoso (ou denosumabe) e calcitonina', 'Diurético tiazídico', 'Suplemento de cálcio', 'Vitamina D'],
+    o: ['Hidratação vigorosa, bisfosfonato IV (ou denosumabe) e calcitonina', 'Diurético tiazídico, que reduz a calciúria e piora a hipercalcemia', 'Suplemento de cálcio, que piora a hipercalcemia do paciente', 'Vitamina D, que piora a hipercalcemia do paciente'],
     g: 'A',
     c: 'Os tiazídicos aumentam o cálcio. Referência: Mirrakhimov AE. Hypercalcemia of malignancy: an update on pathogenesis and management. N Am J Med Sci. 2015;7(11):483-93.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma: tratamento',
     e: 'O tratamento atual do mieloma em candidatos elegíveis inclui:',
-    o: ['Combinações com inibidor de proteassoma, imunomodulador e anticorpo anti-CD38, seguidas de transplante autólogo', 'Apenas observação', 'Radioterapia de corpo inteiro', 'Antibiótico'],
+    o: ['Inibidor de proteassoma, imunomodulador e anti-CD38; depois, transplante autólogo', 'Apenas observação, sem tratamento específico, em candidatos elegíveis', 'Radioterapia de corpo inteiro, como tratamento padrão em candidatos elegíveis', 'Antibiótico de amplo espectro, como tratamento do mieloma em elegíveis'],
     g: 'A',
     c: 'Exemplos: bortezomibe, lenalidomida e daratumumabe. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Para MGUS.', C: 'Sem indicação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Macroglobulinemia de Waldenström',
     e: 'Paciente com proteína monoclonal IgM, hiperviscosidade (cefaleia, alterações visuais, sangramento mucoso) e linfadenopatia. A hipótese é:',
-    o: ['Macroglobulinemia de Waldenström', 'Mieloma IgG', 'LLC', 'Hodgkin'],
+    o: ['Macroglobulinemia de Waldenström', 'Mieloma IgG, sem hiperviscosidade', 'LLC, sem proteína monoclonal IgM', 'Linfoma de Hodgkin, sem proteína monoclonal'],
     g: 'A',
     c: 'A mutação MYD88 L265P é frequente. A plasmaférese trata a hiperviscosidade. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'IgG, não IgM.', C: 'Sem IgM tão alta.', D: 'Sem proteína IgM.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma: síndrome da veia cava superior',
     e: 'Paciente com massa mediastinal, edema de face e membros superiores e circulação colateral no tórax. O diagnóstico é:',
-    o: ['Síndrome da veia cava superior', 'Insuficiência cardíaca direita', 'Angioedema', 'Pericardite'],
+    o: ['Síndrome da veia cava superior', 'Insuficiência cardíaca direita, com turgência jugular', 'Angioedema, com edema de face', 'Pericardite, com atrito pericárdico'],
     g: 'A',
     c: 'Causas: câncer de pulmão e linfomas. A biópsia é importante antes de tratar. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem esse padrão.', C: 'Sem massa.', D: 'Sem esse quadro.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: tratamento',
     e: 'O esquema de quimioterapia clássico para linfoma de Hodgkin é:',
-    o: ['ABVD (doxorrubicina, bleomicina, vimblastina e dacarbazina)', 'R-CHOP', 'Imatinibe', 'Metotrexato isolado'],
+    o: ['ABVD (doxorrubicina, bleomicina, vimblastina e dacarbazina)', 'R-CHOP, que é o esquema do linfoma difuso de grandes células B', 'Imatinibe, que é o tratamento da leucemia mieloide crônica', 'Metotrexato isolado, que não é esquema padrão no linfoma de Hodgkin'],
     g: 'A',
     c: 'A bleomicina pode causar fibrose pulmonar. Referência: Cheson BD et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification. J Clin Oncol. 2014;32(27):3059-68.',
     x: { B: 'Usado no linfoma B.', C: 'Usado na LMC.', D: 'Sem indicação.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: efeitos tardios',
     e: 'Sobreviventes de linfoma de Hodgkin tratados com radioterapia de mediastino têm risco aumentado de:',
-    o: ['Câncer de mama, doença coronariana e hipotireoidismo', 'Diabetes tipo 1', 'Osteoporose apenas', 'Nenhum efeito'],
+    o: ['Câncer de mama, doença coronariana e hipotireoidismo', 'Diabetes tipo 1, sem relação com a radioterapia', 'Osteoporose apenas, sem outras complicações tardias', 'Nenhum efeito tardio, após a radioterapia'],
     g: 'A',
     c: 'O seguimento de longo prazo é importante. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação direta.', C: 'Insuficiente.', D: 'Há efeitos.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma: estadiamento',
     e: 'Linfoma com acometimento de linfonodos acima e abaixo do diafragma, sem órgãos extranodais, é estádio:',
-    o: ['III', 'I', 'II', 'IV'],
+    o: ['III, com acometimento acima e abaixo do diafragma', 'I, com uma única região linfonodal', 'II, com regiões do mesmo lado do diafragma', 'IV, com acometimento extranodal disseminado'],
     g: 'A',
     c: 'Estádio IV envolve acometimento extranodal difuso, como medula óssea. Referência: Cheson BD et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification. J Clin Oncol. 2014;32(27):3059-68.',
     x: { B: 'Uma região.', C: 'Um lado do diafragma.', D: 'Extranodal difuso.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma T',
     e: 'Linfoma T cutâneo com placas eritematosas pruriginosas e eritrodermia com células de Sézary circulantes. O diagnóstico é:',
-    o: ['Micose fungoide e síndrome de Sézary', 'Psoríase', 'Hodgkin', 'Linfoma B'],
+    o: ['Micose fungoide e síndrome de Sézary', 'Psoríase, que não é linfoma', 'Linfoma de Hodgkin, que é de células B', 'Linfoma B, que não é cutâneo T'],
     g: 'A',
     c: 'É o linfoma cutâneo mais comum. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem células atípicas.', C: 'Sem pele.', D: 'Fenótipo T.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'HTLV',
     e: 'Paciente do Nordeste com leucemia ou linfoma de células T, hipercalcemia e lesões cutâneas, com sorologia positiva para HTLV-1. A hipótese é:',
-    o: ['Leucemia ou linfoma de células T do adulto', 'LLC', 'Mieloma', 'Hodgkin'],
+    o: ['Leucemia ou linfoma de células T do adulto (HTLV-1)', 'LLC, que é uma neoplasia de células B maduras, sem hipercalcemia', 'Mieloma múltiplo, com plasmócitos clonais na medula óssea', 'Linfoma de Hodgkin, com células de Reed-Sternberg nos linfonodos'],
     g: 'A',
     c: 'O HTLV-1 também causa paraparesia espástica tropical. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Fenótipo B.', C: 'Plasmócitos.', D: 'Reed-Sternberg.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma: anemia',
     e: 'No esfregaço de sangue do mieloma múltiplo, um achado característico é:',
-    o: ['Hemácias em rouleaux (empilhamento)', 'Esferócitos', 'Células em alvo', 'Corpúsculos de Heinz'],
+    o: ['Hemácias em rouleaux (empilhamento)', 'Esferócitos, típicos da esferocitose', 'Células em alvo, típicas da talassemia', 'Corpúsculos de Heinz, típicos da deficiência de G6PD'],
     g: 'A',
     c: 'Associado à VHS muito elevada. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Esferocitose.', C: 'Talassemia.', D: 'G6PD.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma: gap',
     e: 'Um achado laboratorial sugestivo de mieloma é:',
-    o: ['Aumento das proteínas totais com albumina normal ou baixa (gap proteico)', 'Gamaglobulinas muito baixas sempre', 'Albumina muito elevada', 'Proteínas totais baixas'],
+    o: ['Proteínas totais altas com albumina normal ou baixa (gap proteico)', 'Gamaglobulinas muito baixas, sempre, em todos os casos de mieloma', 'Albumina muito elevada, sempre, em todos os casos de mieloma', 'Proteínas totais baixas, sempre, em todos os casos de mieloma'],
     g: 'A',
     c: 'Na eletroforese, há pico monoclonal em gama. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Não é o padrão.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma: infecções',
     e: 'Pacientes com mieloma têm mais infecções por germes encapsulados por causa de:',
-    o: ['Imunoparesia (redução das imunoglobulinas normais)', 'Neutrofilia', 'Hiperesplenismo', 'Eosinofilia'],
+    o: ['Imunoparesia (redução das imunoglobulinas normais)', 'Neutrofilia, que protege contra infecções', 'Hiperesplenismo, que causa citopenias', 'Eosinofilia, que não causa infecções'],
     g: 'A',
     c: 'Vacinação e, em alguns casos, imunoglobulina ajudam. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Plasmocitoma',
     e: 'Lesão óssea lítica única com plasmócitos clonais e medula sem infiltração significativa. O diagnóstico é:',
-    o: ['Plasmocitoma solitário', 'Mieloma múltiplo', 'MGUS', 'Metástase'],
+    o: ['Plasmocitoma solitário', 'Mieloma múltiplo, com infiltração medular', 'MGUS, sem lesão óssea', 'Metástase óssea, com tumor primário'],
     g: 'A',
     c: 'O tratamento é radioterapia local. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Exige critérios sistêmicos.', C: 'Sem lesão.', D: 'Plasmócitos clonais.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma latente',
     e: 'Paciente com 15% de plasmócitos na medula, proteína M de 3,5 g/dL e sem CRAB nem biomarcadores de alto risco. O diagnóstico é:',
-    o: ['Mieloma latente (smoldering)', 'Mieloma ativo', 'MGUS', 'Plasmocitoma'],
+    o: ['Mieloma latente (smoldering)', 'Mieloma ativo, com lesão de órgão-alvo', 'MGUS, com menos de 10% de plasmócitos', 'Plasmocitoma solitário, sem infiltração medular'],
     g: 'A',
     c: 'Biomarcadores como 60% de plasmócitos ou relação de cadeias leves de 100 ou mais indicam mieloma ativo. Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Sem CRAB.', C: 'Excede os critérios.', D: 'Sem lesão única.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfadenopatia generalizada',
     e: 'Causas de linfadenopatia generalizada incluem:',
-    o: ['Infecção por HIV, mononucleose, linfomas, LLC, sífilis secundária e lúpus', 'Apenas infecção dentária', 'Apenas faringite', 'Fratura'],
+    o: ['HIV, mononucleose, linfomas, LLC, sífilis secundária e lúpus', 'Apenas infecção dentária, que causa linfadenopatia de caráter local', 'Apenas faringite, que causa linfadenopatia de caráter local', 'Fratura óssea, sem relação com aumento de linfonodos'],
     g: 'A',
     c: 'Linfadenopatia generalizada exige investigação sistêmica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Localizada.', C: 'Localizada.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfonodo supraclavicular',
     e: 'Linfonodo supraclavicular esquerdo aumentado (Virchow) sugere:',
-    o: ['Neoplasia abdominal, como câncer gástrico', 'Infecção dentária', 'Otite', 'Faringite viral'],
+    o: ['Neoplasia abdominal, como câncer gástrico', 'Infecção dentária, que drena para a cadeia cervical', 'Otite, que drena para a cadeia cervical', 'Faringite viral, que drena para a cadeia cervical'],
     g: 'A',
     c: 'Linfonodos supraclaviculares têm alto risco de malignidade. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Hodgkin: prognóstico',
     e: 'O linfoma de Hodgkin tem, em geral:',
-    o: ['Alta taxa de cura, especialmente em estádios iniciais', 'Prognóstico sempre ruim', 'Tratamento apenas cirúrgico', 'Nenhuma resposta à quimioterapia'],
+    o: ['Alta taxa de cura, sobretudo em estádios iniciais', 'Prognóstico sempre ruim, mesmo em estádios iniciais', 'Tratamento apenas cirúrgico, sem quimioterapia', 'Nenhuma resposta à quimioterapia'],
     g: 'A',
     c: 'Mais de 80% dos pacientes são curados. Referência: Cheson BD et al. Recommendations for initial evaluation, staging, and response assessment of Hodgkin and non-Hodgkin lymphoma: the Lugano classification. J Clin Oncol. 2014;32(27):3059-68.',
     x: { B: 'Afirmativa falsa.', C: 'Sem indicação.', D: 'Responde bem.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Doxorrubicina',
     e: 'Um efeito adverso importante da doxorrubicina é:',
-    o: ['Cardiotoxicidade dose-dependente', 'Fibrose pulmonar', 'Neuropatia periférica', 'Cistite hemorrágica'],
+    o: ['Cardiotoxicidade dose-dependente', 'Fibrose pulmonar, que é da bleomicina', 'Neuropatia periférica, que é da vincristina', 'Cistite hemorrágica, que é da ciclofosfamida'],
     g: 'A',
     c: 'Deve-se avaliar a fração de ejeção antes e durante o tratamento. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Bleomicina.', C: 'Vincristina.', D: 'Ciclofosfamida.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Ciclofosfamida',
     e: 'Para prevenir cistite hemorrágica pela ciclofosfamida em doses altas, usa-se:',
-    o: ['Mesna e hidratação', 'Alopurinol', 'Dexrazoxano', 'Ácido folínico'],
+    o: ['Mesna e hidratação', 'Alopurinol, que previne a lise tumoral', 'Dexrazoxano, que previne a cardiotoxicidade', 'Ácido folínico, que resgata o metotrexato'],
     g: 'A',
     c: 'A acroleína é o metabólito tóxico para a bexiga. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Previne gota.', C: 'Protege o coração.', D: 'Resgate do metotrexato.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma e infecções',
     e: 'Linfoma de células B associado a hepatite C pode regredir com:',
-    o: ['Tratamento antiviral da hepatite C', 'Antibiótico', 'Corticoide isolado', 'Nada'],
+    o: ['Tratamento antiviral da hepatite C', 'Antibiótico, por via oral', 'Corticoide isolado, em dose alta', 'Nada, pois não regride'],
     g: 'A',
     c: 'Exemplo: linfoma de zona marginal esplênico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Insuficiente.', D: 'Pode regredir.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Doença de Castleman',
     e: 'Paciente com linfadenopatia, febre e marcadores inflamatórios elevados, biópsia com padrão de Castleman e HHV-8 positivo. A doença está associada a:',
-    o: ['HIV e herpesvírus humano 8', 'EBV apenas', 'Hepatite B', 'Toxoplasma'],
+    o: ['HIV e herpesvírus humano 8', 'EBV, apenas, sem outro vírus', 'Hepatite B, sem outro vírus', 'Toxoplasma, que é parasita'],
     g: 'A',
     c: 'O HHV-8 também causa sarcoma de Kaposi. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é a associação principal.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Mieloma: CRAB',
     e: 'No critério CRAB do mieloma, o A significa:',
-    o: ['Anemia (Hb abaixo de 10 g/dL ou queda de 2 g/dL)', 'Amiloidose', 'Albumina alta', 'Artrite'],
+    o: ['Anemia (Hb < 10 g/dL ou queda de 2 g/dL)', 'Amiloidose, que não é critério CRAB', 'Albumina alta, que não é critério CRAB', 'Artrite, que não é critério CRAB'],
     g: 'A',
     c: 'C: cálcio; R: renal; B: bone (ósseo). Referência: Rajkumar SV et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol. 2014;15(12):e538-48.',
     x: { B: 'Não faz parte.', C: 'Não faz parte.', D: 'Não faz parte.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'LLC: tratamento',
     e: 'O tratamento atual da LLC sintomática inclui:',
-    o: ['Inibidores de BTK (como ibrutinibe) ou de BCL2 (venetoclax), com ou sem anticorpo anti-CD20', 'Apenas quimioterapia intensiva de LMA', 'Imatinibe', 'Ácido transretinoico'],
+    o: ['Inibidores de BTK (ibrutinibe) ou BCL2 (venetoclax), com ou sem anti-CD20', 'Apenas quimioterapia intensiva de LMA, em todos os casos de LLC', 'Imatinibe, que é o tratamento da leucemia mieloide crônica', 'Ácido transretinoico, que é o tratamento da leucemia promielocítica'],
     g: 'A',
     c: 'A presença de del(17p) ou TP53 mutado orienta a escolha. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem indicação.', C: 'LMC.', D: 'LMA M3.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_LINF: QuestaoCompacta[] = [
   {
     s: 'Linfoma: hipercalcemia',
     e: 'Hipercalcemia em linfomas ocorre principalmente por:',
-    o: ['Produção de calcitriol pelo tumor', 'PTH elevado', 'Excesso de cálcio na dieta', 'Hipotireoidismo'],
+    o: ['Produção de calcitriol pelo tumor', 'PTH elevado, que é do hiperparatireoidismo', 'Excesso de cálcio na dieta, que é raro', 'Hipotireoidismo, que não causa hipercalcemia'],
     g: 'A',
     c: 'No mieloma, é por lise óssea. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'PTH baixo.', C: 'Sem relação.', D: 'Sem relação.' },

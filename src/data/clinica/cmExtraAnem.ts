@@ -13,7 +13,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia ferropriva',
     e: 'Homem de 60 anos com anemia ferropriva sem causa aparente. A investigação obrigatória é:',
-    o: ['Endoscopia digestiva alta e colonoscopia', 'Apenas reposição de ferro', 'Mielograma', 'Eletroforese de hemoglobina'],
+    o: ['EDA e colonoscopia', 'Apenas reposição de ferro, sem investigar a causa', 'Mielograma, como primeiro exame investigativo', 'Eletroforese de hemoglobina, como primeiro exame investigativo'],
     g: 'A',
     c: 'Em homens e mulheres pós-menopausa, a anemia ferropriva exige excluir neoplasia gastrointestinal. Referência: Camaschella C. Iron-Deficiency Anemia. N Engl J Med. 2015;372(19):1832-43.',
     x: { B: 'Pode mascarar câncer.', C: 'Não é inicial.', D: 'Sem indicação.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia ferropriva: laboratório',
     e: 'O padrão laboratorial da anemia ferropriva é:',
-    o: ['Ferritina baixa, ferro sérico baixo, transferrina (TIBC) alta e saturação de transferrina baixa', 'Ferritina alta e TIBC baixa', 'Ferro alto e saturação alta', 'Ferritina normal e TIBC baixa'],
+    o: ['Ferritina baixa, ferro baixo, TIBC alta e saturação baixa', 'Ferritina alta e TIBC baixa, com ferro sérico baixo', 'Ferro sérico alto e saturação de transferrina alta', 'Ferritina normal e TIBC baixa, com ferro sérico alto'],
     g: 'A',
     c: 'O RDW costuma estar aumentado (anisocitose). Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Padrão da doença crônica.', C: 'Sobrecarga de ferro.', D: 'Doença crônica.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia de doença crônica',
     e: 'Paciente com artrite reumatoide ativa e anemia normocítica, ferritina de 300 ng/mL, ferro baixo e TIBC baixa. O diagnóstico é:',
-    o: ['Anemia de doença crônica (inflamação)', 'Anemia ferropriva', 'Anemia megaloblástica', 'Anemia hemolítica'],
+    o: ['Anemia de doença crônica (inflamação)', 'Anemia ferropriva, com ferritina baixa', 'Anemia megaloblástica, com VCM aumentado', 'Anemia hemolítica, com reticulocitose'],
     g: 'A',
     c: 'A hepcidina elevada bloqueia a absorção e a liberação de ferro. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Ferritina seria baixa e TIBC alta.', C: 'VCM alto.', D: 'Haveria reticulocitose e LDH alta.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia ferropriva: tratamento',
     e: 'A resposta esperada ao ferro oral na anemia ferropriva é:',
-    o: ['Aumento dos reticulócitos em 5 a 10 dias e da hemoglobina em cerca de 2 g/dL em 3 a 4 semanas', 'Normalização da hemoglobina em 24 horas', 'Nenhuma mudança em 3 meses', 'Queda dos reticulócitos'],
+    o: ['Reticulócitos sobem em 5-10 dias; Hb sobe ~2 g/dL em 3-4 semanas', 'Normalização da hemoglobina em 24 horas de tratamento', 'Nenhuma mudança da hemoglobina em 3 meses de tratamento', 'Queda dos reticulócitos na primeira semana de tratamento'],
     g: 'A',
     c: 'Após normalizar a Hb, mantém-se o ferro por cerca de 3 meses para repor estoques. Referência: Camaschella C. Iron-Deficiency Anemia. N Engl J Med. 2015;372(19):1832-43.',
     x: { B: 'Irreal.', C: 'Indica falha.', D: 'O oposto.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Ferro intravenoso',
     e: 'Indicação de ferro intravenoso é:',
-    o: ['Intolerância ou falha ao ferro oral, má absorção (como após bariátrica) ou necessidade de reposição rápida', 'Toda anemia ferropriva leve', 'Anemia de doença crônica com ferritina alta', 'Talassemia minor'],
+    o: ['Intolerância ou falha ao ferro oral, má absorção ou reposição rápida', 'Toda anemia ferropriva leve, em qualquer situação clínica', 'Anemia de doença crônica com ferritina alta, em qualquer situação', 'Talassemia minor, sem deficiência de ferro documentada'],
     g: 'A',
     c: 'As formulações modernas têm baixo risco de reações graves. Referência: Camaschella C. Iron-Deficiency Anemia. N Engl J Med. 2015;372(19):1832-43.',
     x: { B: 'O oral é primeira linha.', C: 'Sem deficiência de ferro.', D: 'Sem deficiência de ferro.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Talassemia minor',
     e: 'Paciente com microcitose importante (VCM de 62 fL), Hb de 11,5 g/dL, hemácias aumentadas em número e ferritina normal. A hipótese é:',
-    o: ['Traço talassêmico (talassemia minor)', 'Anemia ferropriva grave', 'Anemia de doença crônica', 'Esferocitose'],
+    o: ['Traço talassêmico (talassemia minor)', 'Anemia ferropriva grave, com ferritina baixa', 'Anemia de doença crônica, com ferritina alta', 'Esferocitose, com esferócitos no esfregaço'],
     g: 'A',
     c: 'O índice de Mentzer (VCM dividido pelo número de hemácias) abaixo de 13 sugere talassemia. Eletroforese mostra HbA2 aumentada na beta. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'A Hb seria mais baixa e a ferritina baixa.', C: 'Normocítica geralmente.', D: 'Sem microcitose tão importante.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia perniciosa',
     e: 'A causa mais comum de deficiência de B12 em adultos é:',
-    o: ['Anemia perniciosa (gastrite atrófica autoimune com anticorpo anti-fator intrínseco)', 'Dieta vegetariana em todos', 'Excesso de ácido fólico', 'Hemólise'],
+    o: ['Anemia perniciosa (gastrite atrófica com anti-fator intrínseco)', 'Dieta vegetariana, em todos os casos de deficiência', 'Excesso de ácido fólico, na dieta ou em suplementos', 'Hemólise crônica, com consumo da vitamina B12'],
     g: 'A',
     c: 'Também: metformina, inibidores de bomba, gastrectomia e doença ileal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Possível, mas não a mais comum.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia megaloblástica: tratamento',
     e: 'Paciente com deficiência de B12 e anemia grave recebe ácido fólico isolado. O risco é:',
-    o: ['Melhorar a anemia mas piorar ou não corrigir o quadro neurológico', 'Nenhum', 'Causar hemólise', 'Causar trombose'],
+    o: ['Melhora a anemia, mas piora ou não corrige o quadro neurológico', 'Nenhum efeito sobre a anemia nem sobre os sintomas', 'Causa hemólise grave, com hemoglobinúria', 'Causa trombose venosa, com risco de embolia pulmonar'],
     g: 'A',
     c: 'Deve-se repor B12, por via intramuscular quando há má absorção. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Há risco.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia hemolítica: laboratório',
     e: 'Achados laboratoriais de hemólise incluem:',
-    o: ['Reticulocitose, LDH elevada, bilirrubina indireta elevada e haptoglobina baixa', 'Reticulócitos baixos e haptoglobina alta', 'Bilirrubina direta elevada isolada', 'Ferritina baixa'],
+    o: ['Reticulocitose, LDH alta, bilirrubina indireta alta, haptoglobina baixa', 'Reticulócitos baixos e haptoglobina alta, com LDH normal', 'Bilirrubina direta elevada, de forma isolada, com LDH normal', 'Ferritina baixa e transferrina elevada, com LDH normal'],
     g: 'A',
     c: 'A hemólise intravascular causa hemoglobinúria. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Padrão de hipoproliferação.', C: 'Colestase.', D: 'Ferropenia.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Deficiência de G6PD',
     e: 'Homem afrodescendente desenvolve anemia hemolítica aguda após uso de primaquina. A hipótese é:',
-    o: ['Deficiência de glicose-6-fosfato desidrogenase', 'Esferocitose', 'Talassemia', 'Anemia perniciosa'],
+    o: ['Deficiência de glicose-6-fosfato desidrogenase', 'Esferocitose hereditária, com esferócitos', 'Talassemia, com microcitose e células em alvo', 'Anemia perniciosa, com macrocitose e neuropatia'],
     g: 'A',
     c: 'Também desencadeada por sulfas, infecções e fava. O esfregaço mostra células mordidas e corpúsculos de Heinz. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Sem desencadeante por droga.', C: 'Sem hemólise aguda por droga.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Doença falciforme: crise',
     e: 'Paciente com anemia falciforme e dor intensa em ossos longos e tórax, sem febre. A conduta inicial é:',
-    o: ['Analgesia potente rápida (incluindo opioides), hidratação e oxigênio se hipoxemia', 'Transfusão de rotina', 'Antibiótico isolado', 'Observação sem analgesia'],
+    o: ['Analgesia potente e rápida (opioides), hidratação e O2 se hipoxemia', 'Transfusão de rotina, para todas as crises álgicas, sem analgesia', 'Antibiótico isolado, sem analgesia associada à terapia', 'Observação sem analgesia, com retorno apenas se piorar'],
     g: 'A',
     c: 'A crise vaso-oclusiva é a complicação mais comum. Referência: Brasil. Ministério da Saúde. Doença falciforme: diretrizes básicas da linha de cuidado. Brasília: MS, 2015.',
     x: { B: 'Não é rotina.', C: 'Sem infecção.', D: 'Inadequado.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Doença falciforme: síndrome torácica aguda',
     e: 'Paciente com doença falciforme apresenta febre, dor torácica, hipoxemia e novo infiltrado pulmonar. O diagnóstico e a conduta são:',
-    o: ['Síndrome torácica aguda; antibiótico (incluindo atípicos), oxigênio, analgesia e transfusão conforme gravidade', 'Pneumonia simples; alta com amoxicilina', 'Embolia pulmonar sempre; trombólise', 'Crise álgica simples; apenas analgesia'],
+    o: ['Síndrome torácica aguda: antibiótico, O2, analgesia e transfusão se grave', 'Pneumonia simples; alta hospitalar com amoxicilina oral', 'Embolia pulmonar sempre; trombólise sistêmica imediata', 'Crise álgica simples; apenas analgesia e hidratação venosa'],
     g: 'A',
     c: 'É uma das principais causas de óbito. Referência: Brasil. Ministério da Saúde. Doença falciforme: diretrizes básicas da linha de cuidado. Brasília: MS, 2015.',
     x: { B: 'Subestima a gravidade.', C: 'Não é a hipótese principal.', D: 'Insuficiente.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Doença falciforme: hidroxiureia',
     e: 'A hidroxiureia na doença falciforme:',
-    o: ['Aumenta a hemoglobina fetal e reduz crises e síndrome torácica', 'Cura a doença', 'Aumenta a falcização', 'É contraindicada'],
+    o: ['Aumenta a hemoglobina fetal; reduz crises e síndrome torácica', 'Cura a doença, por reposição definitiva da medula óssea', 'Aumenta a falcização, por desidratação celular e hemólise', 'É contraindicada na doença falciforme, por mielotoxicidade'],
     g: 'A',
     c: 'É indicada a partir de 9 meses de idade em muitos protocolos. Referência: Brasil. Ministério da Saúde. Doença falciforme: diretrizes básicas da linha de cuidado. Brasília: MS, 2015.',
     x: { B: 'Não cura.', C: 'O oposto.', D: 'É indicada.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Doença falciforme: AVC',
     e: 'Criança com anemia falciforme com Doppler transcraniano alterado (velocidade acima de 200 cm/s). A conduta é:',
-    o: ['Programa de transfusões crônicas para prevenção primária de AVC', 'Nada', 'Anticoagulação', 'Cirurgia'],
+    o: ['Transfusões crônicas para prevenção primária de AVC', 'Nenhuma conduta, apenas novo Doppler em 1 ano', 'Anticoagulação oral com varfarina, em dose habitual', 'Cirurgia, com revascularização cerebral'],
     g: 'A',
     c: 'O estudo STOP mostrou grande redução de AVC. Referência: Adams RJ et al. Prevention of a first stroke by transfusions in children with sickle cell anemia and abnormal results on transcranial Doppler ultrasonography. N Engl J Med. 1998;339(1):5-11.',
     x: { B: 'Alto risco.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'HPN',
     e: 'Paciente com urina escura pela manhã, hemólise Coombs negativo, trombose de veias hepáticas e pancitopenia. A hipótese é:',
-    o: ['Hemoglobinúria paroxística noturna', 'Esferocitose', 'Anemia ferropriva', 'Talassemia'],
+    o: ['Hemoglobinúria paroxística noturna', 'Esferocitose, com esferócitos e Coombs negativo', 'Anemia ferropriva, com microcitose e ferritina baixa', 'Talassemia, com microcitose e células em alvo'],
     g: 'A',
     c: 'Diagnóstico por citometria de fluxo (CD55 e CD59). Tratamento com inibidor do complemento. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Sem trombose.', C: 'Sem hemólise.', D: 'Sem trombose.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia: reticulócitos',
     e: 'A contagem de reticulócitos ajuda a classificar a anemia porque:',
-    o: ['Diferencia anemias hipoproliferativas (reticulócitos baixos) de perdas e hemólises (reticulócitos altos)', 'Mede o ferro', 'Mede a B12', 'Define a talassemia'],
+    o: ['Separa anemias hipoproliferativas (retic. baixos) de perdas ou hemólise (retic. altos)', 'Mede o ferro corporal total, em mg/dL, no sangue periférico do paciente', 'Mede a vitamina B12 sérica, em pg/mL, no sangue periférico do paciente', 'Define o diagnóstico de talassemia, em todos os casos de anemia'],
     g: 'A',
     c: 'Usa-se o índice de produção reticulocitária corrigido. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia na doença renal',
     e: 'A principal causa de anemia na doença renal crônica é:',
-    o: ['Deficiência de eritropoetina', 'Hemólise', 'Deficiência de B12', 'Talassemia'],
+    o: ['Deficiência de eritropoetina', 'Hemólise, por toxinas urêmicas', 'Deficiência de B12, por dieta pobre', 'Talassemia, por herança genética'],
     g: 'A',
     c: 'O tratamento inclui reposição de ferro e agentes estimuladores da eritropoese. Referência: KDIGO. Clinical Practice Guideline for Anemia in Chronic Kidney Disease. Kidney Int Suppl. 2012;2(4):279-335.',
     x: { B: 'Menos importante.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia sideroblástica',
     e: 'Paciente alcoólatra com anemia microcítica, ferritina elevada e sideroblastos em anel na medula. O diagnóstico é:',
-    o: ['Anemia sideroblástica adquirida', 'Anemia ferropriva', 'Talassemia', 'Anemia de doença crônica'],
+    o: ['Anemia sideroblástica adquirida', 'Anemia ferropriva, com ferritina baixa', 'Talassemia, com microcitose e células em alvo', 'Anemia de doença crônica, com ferritina alta'],
     g: 'A',
     c: 'Causas: álcool, isoniazida, deficiência de cobre e chumbo. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Ferritina baixa.', C: 'Sem sideroblastos.', D: 'Sem sideroblastos.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Intoxicação por chumbo',
     e: 'Trabalhador de baterias com anemia, dor abdominal, neuropatia e pontilhado basofílico nas hemácias. A hipótese é:',
-    o: ['Intoxicação por chumbo (saturnismo)', 'Anemia ferropriva', 'Talassemia', 'Anemia perniciosa'],
+    o: ['Intoxicação por chumbo (saturnismo)', 'Anemia ferropriva, com ferritina baixa', 'Talassemia, com microcitose e células em alvo', 'Anemia perniciosa, com macrocitose e neuropatia'],
     g: 'A',
     c: 'O chumbo inibe enzimas da síntese do heme. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem pontilhado e neuropatia.', C: 'Sem exposição.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Transfusão',
     e: 'Paciente estável, sem doença coronariana, com Hb de 7,5 g/dL. Sobre transfusão, é correto:',
-    o: ['Estratégia restritiva: transfundir geralmente abaixo de 7 g/dL', 'Transfundir sempre abaixo de 10 g/dL', 'Nunca transfundir', 'Transfundir 4 bolsas de rotina'],
+    o: ['Estratégia restritiva: em geral transfundir se Hb < 7 g/dL', 'Transfundir sempre que a Hb estiver abaixo de 10 g/dL', 'Nunca transfundir, em nenhuma circunstância clínica', 'Transfundir 4 bolsas de rotina, de uma só vez, no paciente'],
     g: 'A',
     c: 'Em síndrome coronariana aguda, alvos podem ser mais altos. Referência: Carson JL et al. Red Blood Cell Transfusion: 2023 AABB International Guidelines. JAMA. 2023;330(19):1892-902.',
     x: { B: 'Liberal sem benefício.', C: 'Pode ser necessário.', D: 'Excessivo.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia: classificação morfológica',
     e: 'São causas de anemia macrocítica:',
-    o: ['Deficiência de B12 ou folato, álcool, hepatopatia, hipotireoidismo e síndrome mielodisplásica', 'Ferropenia e talassemia', 'Doença crônica sempre', 'Esferocitose'],
+    o: ['B12 ou folato baixos, álcool, hepatopatia, hipotireoidismo e SMD', 'Ferropenia e talassemia, que são causas de anemia microcítica', 'Doença crônica, que é sempre macrocítica, em todos os casos', 'Esferocitose, que é sempre macrocítica, em todos os casos'],
     g: 'A',
     c: 'Reticulocitose intensa também eleva o VCM. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'São microcíticas.', C: 'Geralmente normocítica.', D: 'Normocítica.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Folato',
     e: 'Fator de risco para deficiência de ácido fólico é:',
-    o: ['Alcoolismo, gestação, hemólise crônica e uso de metotrexato', 'Vegetarianismo estrito exclusivamente', 'Uso de omeprazol isolado', 'Gastrite autoimune'],
+    o: ['Alcoolismo, gestação, hemólise crônica e uso de metotrexato', 'Vegetarianismo estrito, exclusivamente', 'Uso de omeprazol isolado, sem outras causas', 'Gastrite autoimune, que causa deficiência de B12'],
     g: 'A',
     c: 'Os estoques de folato duram poucos meses. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco para B12.', C: 'Risco para B12.', D: 'Risco para B12.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Sobrecarga de ferro',
     e: 'Paciente com talassemia maior em transfusões crônicas deve usar:',
-    o: ['Quelante de ferro (deferasirox, deferoxamina ou deferiprona)', 'Ferro oral', 'Vitamina C em altas doses isolada', 'Nada'],
+    o: ['Quelante de ferro (deferasirox, deferoxamina ou deferiprona)', 'Ferro oral, para repor o ferro perdido', 'Vitamina C em altas doses isolada, em uso contínuo', 'Nenhum tratamento específico, além das transfusões'],
     g: 'A',
     c: 'A sobrecarga causa cardiomiopatia, hepatopatia e endocrinopatias. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Exige.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Hemocromatose',
     e: 'Homem de 50 anos com diabetes, hiperpigmentação, hepatomegalia e saturação de transferrina de 70% com ferritina elevada. A hipótese e o tratamento são:',
-    o: ['Hemocromatose hereditária; flebotomias seriadas', 'Anemia ferropriva; ferro', 'Talassemia; transfusão', 'Doença de Wilson; quelante de cobre'],
+    o: ['Hemocromatose hereditária; flebotomias seriadas', 'Anemia ferropriva; ferro oral ou venoso', 'Talassemia; transfusão crônica de hemácias', 'Doença de Wilson; quelante de cobre'],
     g: 'A',
     c: 'Mutação C282Y do gene HFE. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia: hipotireoidismo',
     e: 'Hipotireoidismo pode causar anemia:',
-    o: ['Normocítica ou macrocítica', 'Sempre microcítica', 'Hemolítica', 'Sideroblástica sempre'],
+    o: ['Normocítica ou macrocítica', 'Sempre microcítica, em todos os casos', 'Hemolítica, por destruição de hemácias', 'Sideroblástica sempre, em todos os casos'],
     g: 'A',
     c: 'Também se associa a anemia perniciosa (autoimunidade). Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é a regra.', C: 'Não é a regra.', D: 'Não é a regra.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Microangiopatia trombótica',
     e: 'Paciente com anemia hemolítica, esquizócitos, plaquetopenia, alteração neurológica e febre. A hipótese é:',
-    o: ['Púrpura trombocitopênica trombótica', 'Anemia ferropriva', 'Esferocitose', 'Talassemia'],
+    o: ['Púrpura trombocitopênica trombótica', 'Anemia ferropriva, com microcitose', 'Esferocitose, com Coombs negativo e esferócitos', 'Talassemia, com microcitose e células em alvo'],
     g: 'A',
     c: 'É emergência: plasmaférese. Atividade de ADAMTS13 abaixo de 10% confirma. Referência: Zheng XL et al. ISTH guidelines for the treatment of thrombotic thrombocytopenic purpura. J Thromb Haemost. 2020;18(10):2496-502.',
     x: { B: 'Sem hemólise.', C: 'Sem esquizócitos.', D: 'Sem esse quadro.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Hemólise intravascular',
     e: 'Achado que sugere hemólise intravascular é:',
-    o: ['Hemoglobinúria e hemossiderinúria', 'Esplenomegalia isolada', 'Esferócitos', 'Bilirrubina direta alta'],
+    o: ['Hemoglobinúria e hemossiderinúria', 'Esplenomegalia isolada, comum na hemólise extravascular', 'Esferócitos no esfregaço, comuns na hemólise extravascular', 'Bilirrubina direta alta, comum na colestase'],
     g: 'A',
     c: 'Exemplos: reação transfusional ABO, HPN e microangiopatias. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Sugere extravascular.', C: 'Sugere extravascular.', D: 'Colestase.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Reação transfusional',
     e: 'Durante transfusão, paciente apresenta febre, dor lombar, hipotensão e urina escura. A conduta imediata é:',
-    o: ['Interromper a transfusão, manter acesso com soro fisiológico e investigar reação hemolítica aguda', 'Aumentar a velocidade', 'Dar antitérmico e continuar', 'Ignorar'],
+    o: ['Parar a transfusão, manter acesso com SF e investigar hemólise aguda', 'Aumentar a velocidade de infusão, para concluir logo a transfusão', 'Dar antitérmico e continuar a transfusão normalmente, sem investigar', 'Ignorar os sintomas, pois são comuns durante a transfusão'],
     g: 'A',
     c: 'Geralmente por incompatibilidade ABO por erro de identificação. Referência: Brasil. Ministério da Saúde. Guia para uso de hemocomponentes. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Pioraria.', C: 'Inadequado.', D: 'Risco de morte.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'TRALI',
     e: 'Paciente desenvolve insuficiência respiratória aguda e infiltrado pulmonar bilateral nas primeiras 6 horas após transfusão de plasma, sem sobrecarga volêmica. O diagnóstico é:',
-    o: ['Lesão pulmonar aguda relacionada à transfusão (TRALI)', 'Sobrecarga circulatória (TACO)', 'Reação febril não hemolítica', 'Anafilaxia'],
+    o: ['Lesão pulmonar aguda relacionada à transfusão (TRALI)', 'Sobrecarga circulatória associada à transfusão (TACO)', 'Reação febril não hemolítica, sem comprometimento pulmonar', 'Anafilaxia, com urticária e broncoespasmo'],
     g: 'A',
     c: 'Na TACO há sinais de hipervolemia e responde a diurético. Referência: Brasil. Ministério da Saúde. Guia para uso de hemocomponentes. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Haveria hipervolemia.', C: 'Sem insuficiência respiratória.', D: 'Haveria urticária e broncoespasmo.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Helicobacter e anemia',
     e: 'Anemia ferropriva refratária sem sangramento pode estar associada a:',
-    o: ['Infecção por Helicobacter pylori e gastrite atrófica', 'Excesso de vitamina C', 'Uso de ferro intravenoso', 'Hipertireoidismo'],
+    o: ['Infecção por Helicobacter pylori e gastrite atrófica', 'Excesso de vitamina C, que melhora a absorção', 'Uso de ferro intravenoso, que repõe o ferro', 'Hipertireoidismo, que aumenta o metabolismo'],
     g: 'A',
     c: 'O tratamento da infecção pode melhorar a resposta ao ferro. Referência: Camaschella C. Iron-Deficiency Anemia. N Engl J Med. 2015;372(19):1832-43.',
     x: { B: 'Melhora a absorção.', C: 'Corrige a anemia.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Doença falciforme: infecções',
     e: 'A principal causa de óbito em crianças pequenas com anemia falciforme é:',
-    o: ['Sepse por germes encapsulados, como pneumococo', 'Crise álgica', 'Litíase biliar', 'Úlcera de perna'],
+    o: ['Sepse por germes encapsulados, como o pneumococo', 'Crise álgica, de caráter recorrente', 'Litíase biliar, por hemólise crônica', 'Úlcera de perna, de cicatrização lenta'],
     g: 'A',
     c: 'Por isso: penicilina profilática e vacinação. Referência: Brasil. Ministério da Saúde. Doença falciforme: diretrizes básicas da linha de cuidado. Brasília: MS, 2015.',
     x: { B: 'Raramente fatal.', C: 'Raramente fatal.', D: 'Raramente fatal.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Doença falciforme: sequestro esplênico',
     e: 'Lactente com anemia falciforme apresenta palidez súbita, choque e esplenomegalia volumosa. O diagnóstico é:',
-    o: ['Sequestro esplênico agudo', 'Crise aplásica', 'Crise álgica', 'Síndrome torácica'],
+    o: ['Sequestro esplênico agudo', 'Crise aplásica, por infecção pelo parvovírus B19', 'Crise álgica, com dor em ossos longos', 'Síndrome torácica, com febre e infiltrado pulmonar'],
     g: 'A',
     c: 'Exige transfusão urgente; os pais devem aprender a palpar o baço. Referência: Brasil. Ministério da Saúde. Doença falciforme: diretrizes básicas da linha de cuidado. Brasília: MS, 2015.',
     x: { B: 'Sem esplenomegalia.', C: 'Sem esplenomegalia aguda.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Doença falciforme: priapismo',
     e: 'Adolescente com anemia falciforme apresenta ereção dolorosa persistente por mais de 4 horas. A conduta é:',
-    o: ['Urgência urológica: hidratação, analgesia e aspiração e irrigação dos corpos cavernosos', 'Observação por 24 horas', 'Antibiótico', 'Nada'],
+    o: ['Urgência urológica: hidratação, analgesia, aspiração e irrigação dos corpos cavernosos', 'Observação por 24 horas, com analgesia oral e retorno apenas se persistir', 'Antibiótico oral, por 7 dias, em dose habitual de manutenção diária', 'Nenhuma conduta específica, pois é autolimitado e resolve em poucas horas'],
     g: 'A',
     c: 'Pode causar disfunção erétil permanente. Referência: Brasil. Ministério da Saúde. Doença falciforme: diretrizes básicas da linha de cuidado. Brasília: MS, 2015.',
     x: { B: 'Risco de lesão.', C: 'Sem infecção.', D: 'Exige conduta.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia: idoso',
     e: 'Idoso com anemia leve normocítica, ferritina normal e função renal normal, sem causa aparente. Uma hipótese a considerar é:',
-    o: ['Síndrome mielodisplásica', 'Anemia ferropriva', 'Talassemia', 'Esferocitose'],
+    o: ['Síndrome mielodisplásica', 'Anemia ferropriva, com ferritina baixa', 'Talassemia, com microcitose acentuada', 'Esferocitose, com esferócitos no esfregaço'],
     g: 'A',
     c: 'O mielograma ajuda no diagnóstico. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Ferritina normal.', C: 'Sem microcitose.', D: 'Sem hemólise.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Eritrocitose secundária',
     e: 'Tabagista com DPOC e hematócrito elevado. A causa provável é:',
-    o: ['Eritrocitose secundária à hipoxemia, com eritropoetina elevada', 'Policitemia vera', 'Talassemia', 'Mielofibrose'],
+    o: ['Eritrocitose secundária à hipoxemia, com EPO elevada', 'Policitemia vera, com mutação JAK2 e eritropoetina baixa', 'Talassemia, com anemia microcítica e células em alvo', 'Mielofibrose, com esplenomegalia e dacriócitos no esfregaço'],
     g: 'A',
     c: 'Na policitemia vera, a eritropoetina é baixa. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'EPO baixa e JAK2.', C: 'Microcitose.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia: gestação',
     e: 'A principal causa de anemia na gestação é:',
-    o: ['Deficiência de ferro', 'Talassemia', 'Hemólise', 'B12'],
+    o: ['Deficiência de ferro', 'Talassemia, por herança genética', 'Hemólise, por anticorpos maternos', 'Deficiência de B12, por dieta pobre'],
     g: 'A',
     c: 'A suplementação profilática é recomendada. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos comum.', C: 'Menos comum.', D: 'Menos comum.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia: sangramento agudo',
     e: 'Logo após hemorragia aguda, a hemoglobina pode estar normal porque:',
-    o: ['Ainda não houve hemodiluição pela reposição de volume', 'A medula compensa em minutos', 'O sangue perdido não contém hemácias', 'A hemoglobina não muda com hemorragia'],
+    o: ['Ainda não houve hemodiluição pela reposição de volume', 'A medula compensa em minutos, repondo as hemácias', 'O sangue perdido não contém hemácias', 'A hemoglobina não muda com a hemorragia aguda'],
     g: 'A',
     c: 'A queda da Hb aparece após horas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é imediato.', C: 'Sem sentido.', D: 'Muda.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Anemia: esfregaço',
     e: 'Hemácias em alvo no esfregaço sugerem:',
-    o: ['Talassemia, hemoglobinopatia C ou hepatopatia', 'Esferocitose', 'Mielofibrose', 'Deficiência de B12'],
+    o: ['Talassemia, hemoglobinopatia C ou hepatopatia', 'Esferocitose, com esferócitos e perda da palidez central', 'Mielofibrose, com dacriócitos e eritroblastos', 'Deficiência de B12, com macroovalócitos'],
     g: 'A',
     c: 'Hemácias em lágrima sugerem mielofibrose. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Esferócitos.', C: 'Lágrima.', D: 'Macro-ovalócitos.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_ANEM: QuestaoCompacta[] = [
   {
     s: 'Ferro: interferências',
     e: 'Para melhorar a absorção do ferro oral, recomenda-se:',
-    o: ['Tomar longe das refeições e de laticínios, chá e café; dias alternados podem aumentar a absorção', 'Tomar com leite', 'Tomar com antiácidos', 'Tomar junto com café'],
+    o: ['Tomar longe de refeições, laticínios, chá e café; dias alternados', 'Tomar com leite, para reduzir os efeitos gástricos', 'Tomar com antiácidos, para reduzir os efeitos gástricos', 'Tomar junto com café, para melhorar a tolerância'],
     g: 'A',
     c: 'A hepcidina aumenta após doses diárias, reduzindo a absorção. Referência: Stoffel NU et al. Iron absorption from oral iron supplements given on consecutive versus alternate days. Lancet Haematol. 2017;4(11):e524-33.',
     x: { B: 'Reduz absorção.', C: 'Reduz absorção.', D: 'Reduz absorção.' },

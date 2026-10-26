@@ -5,7 +5,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: critérios',
     e: 'Pelos critérios EULAR/ACR 2019, o critério de entrada para classificar lúpus é:',
-    o: ['FAN positivo em título de 1:80 ou mais', 'Anti-DNA positivo', 'Artrite', 'Fotossensibilidade'],
+    o: ['FAN positivo em título ≥ 1:80', 'Anti-DNA positivo, que é critério laboratorial', 'Artrite, que é critério clínico', 'Fotossensibilidade, que é critério clínico'],
     g: 'A',
     c: 'Depois somam-se critérios clínicos e imunológicos, com pontuação de 10 ou mais. Referência: Aringer M et al. 2019 EULAR/ACR classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     x: { B: 'Critério pontuado, não de entrada.', C: 'Critério pontuado.', D: 'Critério pontuado.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: nefrite',
     e: 'Paciente com lúpus, proteinúria de 2 g/dia, hematúria dismórfica, anti-DNA alto e complemento baixo. A conduta é:',
-    o: ['Biópsia renal para classificar a nefrite', 'Apenas observação', 'Diurético isolado', 'Transplante imediato'],
+    o: ['Biópsia renal para classificar a nefrite', 'Apenas observação, pois a proteinúria é discreta', 'Diurético isolado, para controlar a proteinúria', 'Transplante renal imediato, nesse estágio'],
     g: 'A',
     c: 'Nefrites proliferativas (classes III e IV) exigem imunossupressão. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Atraso prejudicial.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: nefrite proliferativa',
     e: 'O tratamento de indução da nefrite lúpica classe IV é:',
-    o: ['Corticoide associado a micofenolato ou ciclofosfamida, com hidroxicloroquina', 'Apenas hidroxicloroquina', 'Apenas AINE', 'Plasmaférese isolada'],
+    o: ['Corticoide + micofenolato ou ciclofosfamida, mais hidroxicloroquina', 'Apenas hidroxicloroquina, em dose habitual, por via oral', 'Apenas AINE, em dose habitual, por via oral e por tempo curto', 'Plasmaférese isolada, de rotina, sem imunossupressor associado'],
     g: 'A',
     c: 'Belimumabe ou inibidores de calcineurina podem ser associados. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Insuficiente.', C: 'Contraindicado.', D: 'Não é padrão.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Hidroxicloroquina no lúpus',
     e: 'Sobre a hidroxicloroquina no lúpus, é correto afirmar:',
-    o: ['É recomendada para todos os pacientes, reduzindo surtos e mortalidade', 'Deve ser evitada', 'É usada só na nefrite', 'Deve ser suspensa na gestação'],
+    o: ['Recomendada para todos: reduz surtos e mortalidade', 'Deve ser evitada em todos os pacientes com lúpus', 'É usada só na nefrite lúpica, e em nenhuma outra forma', 'Deve ser suspensa na gestação, por teratogenicidade'],
     g: 'A',
     c: 'Pode ser mantida na gestação. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'O oposto.', C: 'Indicada a todos.', D: 'Deve ser mantida.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: complemento',
     e: 'Durante um surto de lúpus, o complemento (C3 e C4):',
-    o: ['Costuma estar baixo por consumo', 'Está sempre alto', 'Não muda', 'Só aumenta'],
+    o: ['Costuma estar baixo, por consumo', 'Está sempre alto, por reação de fase aguda', 'Não muda durante os surtos de atividade', 'Só aumenta durante os surtos de atividade'],
     g: 'A',
     c: 'Complemento baixo e anti-DNA alto indicam atividade. Referência: Aringer M et al. 2019 EULAR/ACR classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     x: { B: 'O oposto.', C: 'Muda.', D: 'O oposto.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus induzido por drogas',
     e: 'Paciente em uso de hidralazina desenvolve artralgia, serosite e FAN positivo com anti-histona, sem nefrite. O diagnóstico é:',
-    o: ['Lúpus induzido por medicamento', 'Lúpus sistêmico grave', 'AR', 'Esclerodermia'],
+    o: ['Lúpus induzido por medicamento', 'Lúpus sistêmico grave, com nefrite', 'Artrite reumatoide, com poliartrite', 'Esclerodermia, com espessamento cutâneo'],
     g: 'A',
     c: 'Outras drogas: procainamida, isoniazida e anti-TNF. Melhora com a suspensão. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem nefrite e com anti-histona.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Síndrome antifosfolípide',
     e: 'Paciente com trombose venosa profunda e duas perdas gestacionais com anticoagulante lúpico positivo em duas dosagens com 12 semanas. O tratamento de longo prazo é:',
-    o: ['Varfarina com INR entre 2 e 3', 'Rivaroxabana como primeira escolha em todos', 'AAS isolado', 'Nenhum'],
+    o: ['Varfarina, com INR entre 2 e 3', 'Rivaroxabana como primeira escolha em todos os casos', 'AAS isolado, em dose baixa, sem anticoagulação', 'Nenhuma anticoagulação, pela perda gestacional'],
     g: 'A',
     c: 'Anticoagulantes orais diretos são evitados, especialmente em triplo positivos. Referência: Tektonidou MG et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. Ann Rheum Dis. 2019;78(10):1296-304.',
     x: { B: 'Associados a mais eventos.', C: 'Insuficiente.', D: 'Exige.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Sjögren',
     e: 'Mulher de 50 anos com olhos e boca secos, aumento de parótidas e anti-Ro e anti-La positivos. O diagnóstico é:',
-    o: ['Síndrome de Sjögren', 'Lúpus', 'Sarcoidose', 'Esclerodermia'],
+    o: ['Síndrome de Sjögren', 'Lúpus, com FAN positivo e nefrite', 'Sarcoidose, com adenopatia hilar', 'Esclerodermia, com espessamento cutâneo'],
     g: 'A',
     c: 'Há risco aumentado de linfoma. O teste de Schirmer avalia o lacrimejamento. Referência: Shiboski CH et al. 2016 ACR/EULAR Classification Criteria for Primary Sjögren Syndrome. Arthritis Rheumatol. 2017;69(1):35-45.',
     x: { B: 'Sem secura isolada.', C: 'Sem anticorpos típicos.', D: 'Sem secura.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus neonatal',
     e: 'Gestante com anti-Ro positivo. O feto tem risco de:',
-    o: ['Bloqueio atrioventricular congênito', 'Hidrocefalia', 'Gastrosquise', 'Macrossomia'],
+    o: ['Bloqueio atrioventricular congênito', 'Hidrocefalia congênita, com macrocrania', 'Gastrosquise, com defeito de parede abdominal', 'Macrossomia fetal, com hipoglicemia neonatal'],
     g: 'A',
     c: 'Recomenda-se ecocardiograma fetal seriado entre 16 e 26 semanas; hidroxicloroquina reduz o risco. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica',
     e: 'Paciente com fenômeno de Raynaud, espessamento cutâneo de mãos, antebraços e tronco, e anti-Scl-70 positivo. A forma é:',
-    o: ['Esclerose sistêmica cutânea difusa', 'Forma limitada (CREST)', 'Morfeia', 'Lúpus'],
+    o: ['Esclerose sistêmica cutânea difusa', 'Forma limitada (CREST), com acometimento distal', 'Morfeia, que não tem acometimento visceral', 'Lúpus, com FAN positivo e nefrite'],
     g: 'A',
     c: 'Associa-se a doença intersticial pulmonar e crise renal. Referência: van den Hoogen F et al. 2013 classification criteria for systemic sclerosis: an ACR/EULAR collaborative initiative. Arthritis Rheum. 2013;65(11):2737-47.',
     x: { B: 'Anticentrômero e limitada.', C: 'Sem envolvimento sistêmico.', D: 'Sem esse quadro.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica limitada',
     e: 'A síndrome CREST associa-se ao anticorpo:',
-    o: ['Anticentrômero', 'Anti-Scl-70', 'Anti-Jo-1', 'Anti-Sm'],
+    o: ['Anticentrômero', 'Anti-Scl-70, da forma difusa', 'Anti-Jo-1, das miopatias inflamatórias', 'Anti-Sm, do lúpus'],
     g: 'A',
     c: 'Calcinose, Raynaud, dismotilidade esofágica, esclerodactilia e telangiectasias. Risco de hipertensão pulmonar. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Difusa.', C: 'Miosite.', D: 'Lúpus.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Crise renal esclerodérmica',
     e: 'Paciente com esclerose sistêmica difusa apresenta hipertensão grave súbita e insuficiência renal aguda. O tratamento é:',
-    o: ['Inibidor da ECA (como captopril)', 'Corticoide em dose alta', 'Betabloqueador isolado', 'Diurético isolado'],
+    o: ['Inibidor da ECA (captopril)', 'Corticoide em dose alta, que precipita a crise renal', 'Betabloqueador isolado, sem inibidor da ECA', 'Diurético isolado, sem inibidor da ECA'],
     g: 'A',
     c: 'Corticoide em dose alta é fator de risco para a crise. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Fator de risco.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Fenômeno de Raynaud',
     e: 'Sinal que sugere Raynaud secundário a doença do tecido conjuntivo é:',
-    o: ['Alterações na capilaroscopia, úlceras digitais e autoanticorpos', 'Início na adolescência', 'Simetria sem lesões', 'Ausência de outros sintomas'],
+    o: ['Capilaroscopia alterada, úlceras digitais e autoanticorpos', 'Início na adolescência, sem outros sintomas ou sinais associados', 'Simetria das crises, sem lesões isquêmicas digitais associadas', 'Ausência de outros sintomas e de autoanticorpos no sangue'],
     g: 'A',
     c: 'O primário é benigno e simétrico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sugere primário.', C: 'Sugere primário.', D: 'Sugere primário.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'DMTC',
     e: 'Paciente com características de lúpus, esclerodermia e miosite e anti-U1-RNP em título alto. O diagnóstico é:',
-    o: ['Doença mista do tecido conjuntivo', 'Lúpus isolado', 'AR', 'Sjögren'],
+    o: ['Doença mista do tecido conjuntivo', 'Lúpus isolado, sem esclerodermia nem miosite', 'Artrite reumatoide, com anti-CCP positivo', 'Síndrome de Sjögren, com anti-Ro e anti-La'],
     g: 'A',
     c: 'Hipertensão pulmonar é causa de morte. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Anti-U1-RNP sugere DMTC.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: manifestações',
     e: 'Manifestação cutânea específica do lúpus é:',
-    o: ['Eritema malar em asa de borboleta que poupa o sulco nasolabial', 'Heliótropo', 'Pápulas de Gottron', 'Psoríase'],
+    o: ['Eritema malar em asa de borboleta, poupando o sulco nasolabial', 'Heliótropo (edema palpebral violáceo), que é da dermatomiosite', 'Pápulas de Gottron nas articulações, que são da dermatomiosite', 'Psoríase em placas, que é manifestação da artrite psoriásica'],
     g: 'A',
     c: 'Lúpus discoide pode deixar cicatriz. Referência: Aringer M et al. 2019 EULAR/ACR classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     x: { B: 'Dermatomiosite.', C: 'Dermatomiosite.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: hematologia',
     e: 'Alteração hematológica do lúpus é:',
-    o: ['Anemia hemolítica autoimune, leucopenia e plaquetopenia', 'Policitemia', 'Trombocitose', 'Eosinofilia'],
+    o: ['Anemia hemolítica autoimune, leucopenia e plaquetopenia', 'Policitemia, com hematócrito elevado e eritropoetina alta', 'Trombocitose, com plaquetas acima de 450 mil por microlitro', 'Eosinofilia, com eosinófilos acima de 500 por microlitro'],
     g: 'A',
     c: 'Linfopenia é comum. Referência: Aringer M et al. 2019 EULAR/ACR classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: gestação',
     e: 'Mulher com lúpus deseja engravidar. A recomendação é:',
-    o: ['Planejar com doença inativa há pelo menos 6 meses, mantendo hidroxicloroquina e adicionando AAS', 'Engravidar durante surto', 'Suspender todos os medicamentos', 'Gestação proibida'],
+    o: ['Planejar com doença inativa há ≥ 6 meses; hidroxicloroquina e AAS', 'Engravidar durante o surto de atividade, para tratar a doença', 'Suspender todos os medicamentos, inclusive a hidroxicloroquina, antes da concepção', 'Gestação proibida em qualquer situação, pelo risco materno e fetal'],
     g: 'A',
     c: 'Micofenolato, ciclofosfamida e metotrexato devem ser trocados. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Aumenta riscos.', C: 'Aumenta surtos.', D: 'Não é proibida.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'FAN',
     e: 'Sobre o FAN, é correto afirmar:',
-    o: ['É muito sensível para lúpus, mas pode ser positivo em pessoas saudáveis e outras doenças', 'Positivo confirma lúpus', 'Negativo não ajuda', 'Só ocorre em lúpus'],
+    o: ['Muito sensível para lúpus, mas positivo em saudáveis e em outras doenças', 'Positivo confirma o lúpus, em qualquer título, de forma definitiva', 'Negativo não ajuda no diagnóstico, pois o exame não tem valor', 'Só ocorre no lúpus, e em nenhuma outra doença autoimune'],
     g: 'A',
     c: 'Um FAN negativo torna o lúpus improvável. Referência: Aringer M et al. 2019 EULAR/ACR classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     x: { B: 'Não confirma.', C: 'Ajuda a excluir.', D: 'Afirmativa falsa.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: pulmão',
     e: 'A principal causa de morte na esclerose sistêmica atualmente é:',
-    o: ['Doença pulmonar (intersticial e hipertensão pulmonar)', 'Crise renal', 'Raynaud', 'Calcinose'],
+    o: ['Doença pulmonar (intersticial e hipertensão pulmonar)', 'Crise renal esclerodérmica, que hoje é rara com o uso de IECA', 'Fenômeno de Raynaud, que raramente é causa de morte direta', 'Calcinose cutânea, que raramente é causa de morte direta'],
     g: 'A',
     c: 'O IECA reduziu a mortalidade pela crise renal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Reduziu com IECA.', C: 'Não é causa de morte.', D: 'Não é causa de morte.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Polimiosite e câncer',
     e: 'Em adulto com dermatomiosite recém-diagnosticada, deve-se:',
-    o: ['Rastrear neoplasias, como ovário, pulmão e trato gastrointestinal', 'Nada', 'Somente fisioterapia', 'Somente vitamina D'],
+    o: ['Rastrear neoplasias (ovário, pulmão e trato gastrointestinal)', 'Nenhuma investigação adicional, pois é doença benigna', 'Somente fisioterapia, sem rastreio de câncer', 'Somente vitamina D, sem rastreio de câncer'],
     g: 'A',
     c: 'A associação é maior nos primeiros anos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Exige rastreio.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: serosite',
     e: 'Paciente com lúpus e dor torácica pleurítica e atrito pericárdico. A manifestação é:',
-    o: ['Serosite (pleurite e pericardite)', 'Infarto', 'Pneumonia sempre', 'Embolia sempre'],
+    o: ['Serosite (pleurite e pericardite)', 'Infarto agudo do miocárdio, com troponina elevada', 'Pneumonia sempre, com consolidação lobar', 'Embolia pulmonar sempre, com hipoxemia'],
     g: 'A',
     c: 'Responde a AINE e corticoide. Referência: Aringer M et al. 2019 EULAR/ACR classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     x: { B: 'Sem relação.', C: 'Excluir, mas não é o mais provável.', D: 'Excluir, mas não é o mais provável.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: epidemiologia',
     e: 'O lúpus eritematoso sistêmico acomete principalmente:',
-    o: ['Mulheres em idade reprodutiva, com maior gravidade em afrodescendentes', 'Homens idosos', 'Crianças menores de 2 anos', 'Igualmente ambos os sexos'],
+    o: ['Mulheres em idade fértil; mais grave em afrodescendentes', 'Homens idosos, acima dos 70 anos', 'Crianças menores de 2 anos, com a forma neonatal', 'Igualmente ambos os sexos, sem predomínio'],
     g: 'A',
     c: 'A relação mulher:homem é de cerca de 9:1. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Raro.', C: 'Raro.', D: 'Predomina em mulheres.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: neuropsiquiátrico',
     e: 'Manifestações neuropsiquiátricas do lúpus incluem:',
-    o: ['Convulsões, psicose, AVC e mielite', 'Somente cefaleia', 'Somente neuropatia diabética', 'Nenhuma'],
+    o: ['Convulsões, psicose, AVC e mielite', 'Somente cefaleia, sem outras manifestações', 'Somente neuropatia diabética, sem outras manifestações', 'Nenhuma manifestação neuropsiquiátrica no lúpus'],
     g: 'A',
     c: 'Deve-se excluir infecções e efeitos de drogas. Referência: Aringer M et al. 2019 EULAR/ACR classification criteria for systemic lupus erythematosus. Arthritis Rheumatol. 2019;71(9):1400-12.',
     x: { B: 'Mais amplas.', C: 'Sem relação.', D: 'Ocorrem.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: fotossensibilidade',
     e: 'Orientação importante para paciente com lúpus é:',
-    o: ['Usar protetor solar e evitar exposição solar, que pode desencadear surtos', 'Expor-se ao sol diariamente', 'Evitar todas as vacinas', 'Suspender hidroxicloroquina no verão'],
+    o: ['Usar protetor solar e evitar o sol, que desencadeia surtos', 'Expor-se ao sol diariamente, para produzir vitamina D', 'Evitar todas as vacinas, inclusive as inativadas', 'Suspender a hidroxicloroquina no verão'],
     g: 'A',
     c: 'A radiação ultravioleta piora a doença. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Pioraria.', C: 'Vacinas inativadas são indicadas.', D: 'Não suspender.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: belimumabe',
     e: 'O belimumabe no lúpus:',
-    o: ['É anticorpo anti-BLyS usado em lúpus ativo apesar do tratamento padrão, inclusive na nefrite', 'É antibiótico', 'É antiviral', 'É anti-TNF'],
+    o: ['Anticorpo anti-BLyS; indicado em lúpus ativo apesar do tratamento padrão', 'É um antibiótico, de uso intravenoso, usado para infecções graves', 'É um antiviral, de uso oral, usado para infecções virais', 'É um anti-TNF, de uso subcutâneo, usado na artrite reumatoide'],
     g: 'A',
     c: 'Também o anifrolumabe (anti-interferon tipo I) é aprovado. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Anti-TNF pode induzir lúpus.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: corticoide',
     e: 'Em pacientes com lúpus, a dose de manutenção de prednisona deve ser:',
-    o: ['A menor possível, idealmente 5 mg/dia ou menos, ou suspensa', 'Sempre acima de 40 mg', 'Indefinidamente alta', 'Indiferente'],
+    o: ['A menor possível, idealmente ≤ 5 mg/dia, ou suspensa', 'Sempre acima de 40 mg, de forma contínua', 'Indefinidamente alta, para controle da doença', 'Indiferente, pois não há efeitos adversos'],
     g: 'A',
     c: 'O corticoide crônico causa dano cumulativo. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Excessiva.', C: 'Prejudicial.', D: 'Importa.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Síndrome antifosfolípide: laboratório',
     e: 'Os anticorpos que compõem os critérios laboratoriais da SAF são:',
-    o: ['Anticoagulante lúpico, anticardiolipina e anti-beta-2-glicoproteína I', 'Anti-DNA e anti-Sm', 'FR e anti-CCP', 'ANCA'],
+    o: ['Anticoagulante lúpico, anticardiolipina e anti-beta-2-glicoproteína I', 'Anti-DNA e anti-Sm, que são anticorpos específicos do lúpus', 'FR e anti-CCP, que são anticorpos da artrite reumatoide', 'ANCA, que são anticorpos das vasculites de pequenos vasos'],
     g: 'A',
     c: 'Devem ser persistentes, em duas medidas com 12 semanas. Referência: Barbhaiya M et al. 2023 ACR/EULAR antiphospholipid syndrome classification criteria. Ann Rheum Dis. 2023;82(10):1258-70.',
     x: { B: 'Lúpus.', C: 'AR.', D: 'Vasculites.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'SAF catastrófica',
     e: 'Paciente com SAF e tromboses simultâneas em múltiplos órgãos em menos de 1 semana. O diagnóstico e o tratamento são:',
-    o: ['SAF catastrófica; anticoagulação, corticoide e plasmaférese ou imunoglobulina', 'Sepse; antibiótico isolado', 'CIVD simples; plaquetas', 'Nenhum'],
+    o: ['SAF catastrófica: anticoagulação, corticoide e plasmaférese ou imunoglobulina', 'Sepse grave; antibiótico isolado, sem anticoagulação associada', 'CIVD simples; reposição de plaquetas e plasma fresco', 'Nenhuma conduta específica, apenas observação em enfermaria'],
     g: 'A',
     c: 'Mortalidade elevada. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Possível, mas o quadro sugere SAF catastrófica.', C: 'Inadequado.', D: 'Exige.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: esôfago',
     e: 'Manifestação gastrointestinal mais comum da esclerose sistêmica é:',
-    o: ['Dismotilidade esofágica com refluxo', 'Hepatite', 'Pancreatite', 'Apendicite'],
+    o: ['Dismotilidade esofágica com refluxo', 'Hepatite autoimune, com transaminases altas', 'Pancreatite aguda, com lipase elevada', 'Apendicite aguda, com dor em fossa ilíaca'],
     g: 'A',
     c: 'Inibidores de bomba de prótons são usados. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: úlceras',
     e: 'Úlceras digitais na esclerose sistêmica podem ser tratadas com:',
-    o: ['Bloqueadores de canal de cálcio, inibidores de fosfodiesterase 5 e análogos de prostaciclina', 'Betabloqueador', 'Corticoide em dose alta', 'Nada'],
+    o: ['BCC, inibidores da PDE5 e análogos de prostaciclina', 'Betabloqueador, que piora o fenômeno de Raynaud e a isquemia digital', 'Corticoide em dose alta, que precipita a crise renal esclerodérmica', 'Nenhum tratamento é eficaz nas úlceras digitais da esclerose sistêmica'],
     g: 'A',
     c: 'A bosentana reduz novas úlceras. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Piora Raynaud.', C: 'Risco de crise renal.', D: 'Há tratamento.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Sjögren: manifestações',
     e: 'Manifestação extraglandular da síndrome de Sjögren é:',
-    o: ['Acidose tubular renal distal, neuropatia e vasculite', 'Hipertireoidismo', 'Osteoartrite', 'Hepatite B'],
+    o: ['Acidose tubular renal distal, neuropatia e vasculite', 'Hipertireoidismo, com bócio difuso e exoftalmia', 'Osteoartrite, com dor mecânica e rigidez matinal curta', 'Hepatite B, com HBsAg positivo e transaminases elevadas'],
     g: 'A',
     c: 'Também artralgias e fenômeno de Raynaud. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Sjögren: tratamento',
     e: 'Tratamento sintomático da secura no Sjögren inclui:',
-    o: ['Lágrimas artificiais, saliva artificial e pilocarpina', 'Antibiótico', 'Corticoide em dose alta para todos', 'Anticoagulante'],
+    o: ['Lágrimas e saliva artificiais e pilocarpina', 'Antibiótico oral, por 14 dias, em dose habitual', 'Corticoide em dose alta para todos os pacientes', 'Anticoagulante oral, em dose habitual'],
     g: 'A',
     c: 'A hidroxicloroquina pode ajudar em artralgias. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem infecção.', C: 'Sem indicação.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Miopatia inflamatória: diagnóstico',
     e: 'Exames que ajudam no diagnóstico de miopatia inflamatória incluem:',
-    o: ['CK, eletroneuromiografia, ressonância muscular e biópsia muscular', 'Apenas hemograma', 'Apenas FAN', 'Apenas radiografia'],
+    o: ['CK, eletroneuromiografia, ressonância muscular e biópsia muscular', 'Apenas hemograma, sem dosagem de enzimas musculares', 'Apenas FAN, sem dosagem de enzimas musculares', 'Apenas radiografia, sem dosagem de enzimas musculares'],
     g: 'A',
     c: 'Autoanticorpos específicos de miosite orientam o fenótipo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Miosite por estatina',
     e: 'Paciente em uso de estatina com fraqueza proximal progressiva e CK muito elevada que persiste após suspender a droga. A hipótese é:',
-    o: ['Miopatia necrosante imunomediada (anti-HMGCR)', 'Mialgia simples', 'Polimialgia reumática', 'Hipotireoidismo'],
+    o: ['Miopatia necrosante imunomediada (anti-HMGCR)', 'Mialgia simples, com CK normal', 'Polimialgia reumática, com VHS elevada', 'Hipotireoidismo, com CK pouco elevada'],
     g: 'A',
     c: 'Exige imunossupressão. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Melhoraria com a suspensão.', C: 'CK normal.', D: 'Possível, mas o anticorpo define.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Miosite por corpúsculos de inclusão',
     e: 'Idoso com fraqueza lenta de flexores dos dedos e quadríceps, refratária a corticoide. O diagnóstico provável é:',
-    o: ['Miosite por corpúsculos de inclusão', 'Dermatomiosite', 'Polimiosite responsiva', 'Miastenia'],
+    o: ['Miosite por corpúsculos de inclusão', 'Dermatomiosite, com heliótropo e Gottron', 'Polimiosite responsiva ao corticoide', 'Miastenia gravis, com fatigabilidade'],
     g: 'A',
     c: 'É a miopatia inflamatória mais comum após os 50 anos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem lesões de pele.', C: 'Responderia.', D: 'Sem fatigabilidade.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Raynaud: tratamento',
     e: 'Paciente com Raynaud primário com crises frequentes. Medidas incluem:',
-    o: ['Proteção do frio e, se necessário, bloqueador de canal de cálcio (nifedipina)', 'Betabloqueador', 'Simpaticomiméticos', 'Tabagismo'],
+    o: ['Proteção do frio e, se preciso, nifedipina', 'Betabloqueador, que piora o fenômeno de Raynaud', 'Simpaticomiméticos, que pioram o fenômeno de Raynaud', 'Tabagismo, que piora o fenômeno de Raynaud'],
     g: 'A',
     c: 'Evitar tabagismo e vasoconstritores. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Piora.', C: 'Piora.', D: 'Piora.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Doenças do colágeno: FAN padrão',
     e: 'Padrão de FAN nuclear pontilhado fino denso (DFS70) isolado sugere:',
-    o: ['Menor probabilidade de doença autoimune sistêmica', 'Lúpus certo', 'Esclerodermia', 'Sjögren'],
+    o: ['Menor probabilidade de doença autoimune sistêmica', 'Lúpus certo, com FAN em título alto', 'Esclerodermia, com padrão centromérico', 'Síndrome de Sjögren, com anti-Ro e anti-La'],
     g: 'A',
     c: 'É frequente em pessoas saudáveis. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: vacinas',
     e: 'Pacientes com lúpus em imunossupressão devem:',
-    o: ['Receber vacinas inativadas (influenza, pneumocócica, covid-19) e evitar vivas', 'Evitar todas as vacinas', 'Receber apenas vivas', 'Receber BCG anual'],
+    o: ['Receber vacinas inativadas (influenza, pneumococo, covid-19); evitar as vivas', 'Evitar todas as vacinas, inclusive as inativadas, por risco de surto', 'Receber apenas as vacinas vivas, sem as inativadas', 'Receber BCG anual, como proteção contra infecções'],
     g: 'A',
     c: 'Planejar vacinas antes de imunossupressão intensa. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Inadequado.', C: 'Contraindicado.', D: 'Sem indicação.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: risco cardiovascular',
     e: 'Mulheres jovens com lúpus têm:',
-    o: ['Risco cardiovascular aumentado, exigindo controle de fatores de risco', 'Proteção contra infarto', 'Nenhum risco adicional', 'Risco apenas na velhice'],
+    o: ['Risco CV aumentado: controlar os fatores de risco', 'Proteção contra infarto, pela doença', 'Nenhum risco adicional, pela doença', 'Risco apenas na velhice, e nunca antes'],
     g: 'A',
     c: 'A inflamação e o corticoide contribuem. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'O oposto.', C: 'Há risco.', D: 'Desde cedo.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: diagnóstico precoce',
     e: 'Um exame útil para detectar precocemente microangiopatia em pacientes com Raynaud é:',
-    o: ['Capilaroscopia periungueal', 'Radiografia de mãos', 'Ultrassom abdominal', 'Eletrocardiograma'],
+    o: ['Capilaroscopia periungueal', 'Radiografia de mãos, que mostra calcinose', 'Ultrassom abdominal, que avalia órgãos internos', 'Eletrocardiograma, que avalia arritmias'],
     g: 'A',
     c: 'O padrão esclerodérmico prediz doença. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Tardio.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: tratamento de surto leve',
     e: 'Paciente com lúpus com artrite e lesões cutâneas leves. O tratamento inclui:',
-    o: ['Hidroxicloroquina, AINE se necessário e corticoide em dose baixa por curto período', 'Ciclofosfamida', 'Plasmaférese', 'Transplante'],
+    o: ['Hidroxicloroquina, AINE se necessário, corticoide em dose baixa e curta', 'Ciclofosfamida, que é reservada para doença grave de órgão', 'Plasmaférese, que é reservada para doença grave de órgão', 'Transplante, que não tem indicação nesse caso de doença leve'],
     g: 'A',
     c: 'Metotrexato pode ser usado para artrite persistente. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Excessivo.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: hipertensão pulmonar',
     e: 'Paciente com CREST e dispneia progressiva sem doença intersticial. O exame inicial para rastrear hipertensão pulmonar é:',
-    o: ['Ecocardiograma com estimativa da pressão sistólica de artéria pulmonar', 'Radiografia de mãos', 'Endoscopia', 'Densitometria'],
+    o: ['Ecocardiograma com estimativa da PSAP', 'Radiografia de mãos, que não avalia o pulmão', 'Endoscopia, que avalia o esôfago', 'Densitometria, que avalia a massa óssea'],
     g: 'A',
     c: 'O cateterismo direito confirma. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: ciclofosfamida',
     e: 'Efeitos adversos da ciclofosfamida incluem:',
-    o: ['Infertilidade, cistite hemorrágica, mielotoxicidade e risco de neoplasias', 'Ganho de massa óssea', 'Hipertensão maligna', 'Nenhum'],
+    o: ['Infertilidade, cistite hemorrágica, mielotoxicidade e risco de neoplasias', 'Ganho de massa óssea e aumento da fertilidade da paciente', 'Hipertensão maligna e hipercalemia, por efeito direto', 'Nenhum efeito adverso relevante na dose habitual de manutenção'],
     g: 'A',
     c: 'Por isso o micofenolato é preferido em muitas situações. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Há efeitos.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_COLAG: QuestaoCompacta[] = [
   {
     s: 'Lúpus: micofenolato',
     e: 'Sobre o micofenolato no lúpus, é correto afirmar:',
-    o: ['É eficaz na nefrite e é teratogênico, exigindo contracepção', 'É seguro na gestação', 'Não tem efeito na nefrite', 'É anti-inflamatório não esteroide'],
+    o: ['Eficaz na nefrite, mas teratogênico: exige contracepção', 'É seguro na gestação, em qualquer dose', 'Não tem efeito na nefrite lúpica', 'É um anti-inflamatório não esteroide, sem imunossupressão'],
     g: 'A',
     c: 'Deve ser trocado por azatioprina se a paciente desejar engravidar. Referência: Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis. 2024;83(1):15-29.',
     x: { B: 'Teratogênico.', C: 'Tem efeito.', D: 'Imunossupressor.' },

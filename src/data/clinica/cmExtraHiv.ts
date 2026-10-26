@@ -5,7 +5,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: diagnóstico',
     e: 'No Brasil, o diagnóstico de HIV em adultos pode ser feito com:',
-    o: ['Dois testes rápidos reagentes de fabricantes diferentes, em sequência', 'Um único teste rápido reagente', 'Apenas contagem de CD4', 'Apenas hemograma'],
+    o: ['Dois testes rápidos reagentes de fabricantes diferentes, em sequência', 'Um único teste rápido reagente, sem nenhuma confirmação adicional', 'Apenas contagem de CD4, sem testes específicos para o vírus', 'Apenas hemograma, sem testes específicos para o vírus'],
     g: 'A',
     c: 'Também há fluxogramas com imunoensaio de laboratório e teste molecular. Referência: Brasil. Ministério da Saúde. Manual Técnico para o Diagnóstico da Infecção pelo HIV em Adultos e Crianças. Brasília: MS, 2018.',
     x: { B: 'Exige confirmação.', C: 'Não diagnostica.', D: 'Não diagnostica.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: início da TARV',
     e: 'Sobre o início da terapia antirretroviral, a recomendação atual é:',
-    o: ['Iniciar para todas as pessoas vivendo com HIV, independentemente do CD4, o mais rápido possível', 'Iniciar só com CD4 abaixo de 200', 'Iniciar só com sintomas', 'Aguardar 1 ano'],
+    o: ['Iniciar em todos, qualquer que seja o CD4, o mais rápido possível', 'Iniciar só com CD4 abaixo de 200, e não antes disso', 'Iniciar só se houver sintomas, e não antes disso', 'Aguardar 1 ano antes de iniciar, em todos os casos'],
     g: 'A',
     c: 'O tratamento precoce reduz morbimortalidade e transmissão. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Critério antigo.', C: 'Atraso prejudicial.', D: 'Atraso prejudicial.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Indetectável',
     e: 'Pessoa com HIV em TARV com carga viral indetectável há mais de 6 meses:',
-    o: ['Não transmite o HIV por via sexual (indetectável igual a intransmissível)', 'Ainda transmite em alta taxa', 'Está curada', 'Pode suspender a TARV'],
+    o: ['Não transmite o HIV por via sexual (indetectável = intransmissível)', 'Ainda transmite o HIV em alta taxa, por via sexual, mesmo tratada', 'Está curada da infecção pelo HIV, definitivamente, após esse tempo', 'Pode suspender a TARV, sem risco de recaída, após esse tempo'],
     g: 'A',
     c: 'O conceito I=I tem base em grandes estudos. Referência: Rodger AJ et al. Risk of HIV transmission through condomless sex in serodifferent gay couples with the HIV-positive partner taking suppressive antiretroviral therapy (PARTNER). Lancet. 2019;393(10189):2428-38.',
     x: { B: 'Afirmativa falsa.', C: 'Não há cura.', D: 'A TARV deve continuar.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose',
     e: 'Paciente com HIV e CD4 de 80 apresenta tosse seca, dispneia progressiva, hipoxemia, LDH elevada e infiltrado intersticial bilateral. A hipótese e o tratamento são:',
-    o: ['Pneumocistose; sulfametoxazol-trimetoprima em dose alta e corticoide se PaO2 abaixo de 70 mmHg', 'Pneumonia pneumocócica; amoxicilina', 'Tuberculose; RIPE isolado', 'Asma; corticoide inalatório'],
+    o: ['Pneumocistose: SMX-TMP em dose alta e corticoide se PaO2 < 70 mmHg', 'Pneumonia pneumocócica; amoxicilina oral, em dose habitual', 'Tuberculose; RIPE isolado, sem outros tratamentos', 'Asma; corticoide inalatório, em dose habitual'],
     g: 'A',
     c: 'Pneumotórax é complicação. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Quadro lobar e agudo.', C: 'Possível, mas o quadro sugere pneumocistose.', D: 'Sem relação.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Profilaxia primária',
     e: 'Pessoa com HIV e CD4 de 150 deve receber profilaxia primária para pneumocistose com:',
-    o: ['Sulfametoxazol-trimetoprima', 'Fluconazol', 'Aciclovir', 'Azitromicina'],
+    o: ['Sulfametoxazol-trimetoprima', 'Fluconazol, que é para criptococose', 'Aciclovir, que é para herpes', 'Azitromicina, que é para micobacteriose atípica'],
     g: 'A',
     c: 'Indicada com CD4 abaixo de 200. Suspende-se com CD4 acima de 200 por 3 meses em TARV. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Criptococo.', C: 'Herpes.', D: 'Micobactérias atípicas em situações específicas.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Neurotoxoplasmose',
     e: 'Paciente com aids, CD4 de 40, cefaleia, febre e hemiparesia. A tomografia mostra múltiplas lesões com realce em anel nos núcleos da base. A conduta é:',
-    o: ['Tratamento empírico para neurotoxoplasmose com sulfadiazina, pirimetamina e ácido folínico', 'Biópsia cerebral imediata em todos', 'Corticoide isolado', 'Radioterapia'],
+    o: ['Tratar a neurotoxoplasmose: sulfadiazina, pirimetamina e ácido folínico', 'Biópsia cerebral imediata em todos os casos, antes de qualquer tratamento', 'Corticoide isolado, em dose alta, sem nenhum outro tratamento específico', 'Radioterapia de crânio, como primeira conduta, antes de qualquer tratamento'],
     g: 'A',
     c: 'Se não houver melhora em 10 a 14 dias, considerar linfoma e biópsia. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Não é o primeiro passo.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Criptococose',
     e: 'Paciente com aids e cefaleia intensa há 2 semanas, febre e líquor com pressão de abertura muito elevada e tinta da China positiva. O tratamento de indução é:',
-    o: ['Anfotericina B (preferencialmente lipossomal) com flucitosina, e punções de alívio para hipertensão intracraniana', 'Fluconazol em dose baixa isolado', 'Ceftriaxona', 'Corticoide'],
+    o: ['Anfotericina B (de preferência lipossomal) + flucitosina; punções de alívio', 'Fluconazol em dose baixa, isolado, por via oral', 'Ceftriaxona, por via venosa, como antibiótico empírico', 'Corticoide, em dose alta, para reduzir a pressão intracraniana'],
     g: 'A',
     c: 'A TARV deve ser adiada por 4 a 6 semanas pelo risco de síndrome inflamatória. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Insuficiente na indução.', C: 'Não trata fungo.', D: 'Pioraria.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Criptococose: TARV',
     e: 'Em paciente com meningite criptocócica, o início da TARV deve ser:',
-    o: ['Adiado por cerca de 4 a 6 semanas após o início do antifúngico', 'Imediato no mesmo dia', 'Adiado por 1 ano', 'Desnecessário'],
+    o: ['Adiado por cerca de 4 a 6 semanas após o início do antifúngico', 'Imediato, no mesmo dia do início do antifúngico, em todos os casos', 'Adiado por 1 ano após o início do antifúngico, em todos os casos', 'Desnecessário, pois o antifúngico basta para controlar a infecção'],
     g: 'A',
     c: 'Início precoce aumentou a mortalidade em estudos. Referência: Boulware DR et al. Timing of antiretroviral therapy after diagnosis of cryptococcal meningitis (COAT). N Engl J Med. 2014;370(26):2487-98.',
     x: { B: 'Aumenta mortalidade.', C: 'Excessivo.', D: 'Necessária.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Tuberculose e HIV',
     e: 'Paciente com HIV e tuberculose pulmonar recém-diagnosticada, sem TARV. O início da TARV deve ser:',
-    o: ['Em até 2 semanas após o início do tratamento da tuberculose', 'Somente após terminar o tratamento da tuberculose', 'No mesmo dia do RIPE em meningite tuberculosa', 'Nunca'],
+    o: ['Em até 2 semanas após o início do tratamento da tuberculose', 'Somente após terminar o tratamento da tuberculose', 'No mesmo dia do RIPE, em meningite tuberculosa', 'Nunca, pois a TARV é contraindicada com a tuberculose'],
     g: 'A',
     c: 'Na meningite tuberculosa, adia-se a TARV por 4 a 8 semanas. Com rifampicina, a dose de dolutegravir é dobrada. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Atraso aumenta mortalidade.', C: 'Risco na meningite.', D: 'Necessária.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Interação: rifampicina',
     e: 'Paciente com HIV em uso de dolutegravir inicia rifampicina. O ajuste é:',
-    o: ['Dobrar a dose de dolutegravir (50 mg de 12 em 12 horas)', 'Suspender o dolutegravir', 'Reduzir a rifampicina', 'Nenhum'],
+    o: ['Dobrar a dose do dolutegravir (50 mg a cada 12 horas)', 'Suspender o dolutegravir durante o uso da rifampicina', 'Reduzir a dose de rifampicina pela metade', 'Nenhum ajuste, pois não há interação medicamentosa'],
     g: 'A',
     c: 'A rifampicina é indutora enzimática. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Sem necessidade.', C: 'Inadequado.', D: 'Necessário.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Síndrome inflamatória de reconstituição',
     e: 'Paciente inicia TARV e, após 4 semanas, apresenta piora de linfonodomegalias com febre, com carga viral caindo e CD4 subindo, em tratamento para tuberculose. O diagnóstico é:',
-    o: ['Síndrome inflamatória da reconstituição imune', 'Falha da TARV', 'Resistência à rifampicina sempre', 'Linfoma'],
+    o: ['Síndrome inflamatória da reconstituição imune', 'Falha da TARV, por resistência viral', 'Resistência à rifampicina, em todos os casos', 'Linfoma, que sempre surge após a TARV'],
     g: 'A',
     c: 'Em geral, mantém-se TARV e tratamento da infecção; corticoide nos casos graves. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Carga viral está caindo.', C: 'Não é a principal hipótese.', D: 'Sem relação.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Sarcoma de Kaposi',
     e: 'Paciente com aids e lesões violáceas em pele e mucosa oral. O agente associado é:',
-    o: ['Herpesvírus humano 8', 'EBV', 'HPV', 'CMV'],
+    o: ['Herpesvírus humano 8', 'Vírus Epstein-Barr, da leucoplasia pilosa', 'HPV, dos condilomas e do câncer anal', 'Citomegalovírus, da retinite'],
     g: 'A',
     c: 'A TARV é parte essencial do tratamento. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Linfomas.', C: 'Câncer anal e de colo.', D: 'Retinite.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Retinite por CMV',
     e: 'Paciente com aids e CD4 de 30 com perda visual e retina com exsudatos e hemorragias (aspecto de pizza). O tratamento é:',
-    o: ['Ganciclovir ou valganciclovir', 'Aciclovir oral', 'Fluconazol', 'Sulfadiazina'],
+    o: ['Ganciclovir ou valganciclovir', 'Aciclovir oral, em dose habitual', 'Fluconazol oral, em dose habitual', 'Sulfadiazina, em dose habitual'],
     g: 'A',
     c: 'Ocorre com CD4 abaixo de 50. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Ineficaz.', C: 'Antifúngico.', D: 'Para toxoplasma.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'LEMP',
     e: 'Paciente com aids com déficits neurológicos progressivos sem febre, lesões de substância branca sem efeito de massa e sem realce na ressonância. A hipótese é:',
-    o: ['Leucoencefalopatia multifocal progressiva (vírus JC)', 'Neurotoxoplasmose', 'Linfoma', 'Criptococose'],
+    o: ['Leucoencefalopatia multifocal progressiva (vírus JC)', 'Neurotoxoplasmose, com lesões com efeito de massa', 'Linfoma primário do SNC, com lesão única', 'Criptococose, com meningite e hipertensão intracraniana'],
     g: 'A',
     c: 'Não há tratamento específico além da TARV. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Lesões com realce em anel.', C: 'Lesões com realce e efeito de massa.', D: 'Meningite.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Abacavir',
     e: 'Antes de iniciar abacavir, deve-se pesquisar:',
-    o: ['HLA-B*57:01, pelo risco de reação de hipersensibilidade', 'Função tireoidiana', 'Glicemia', 'HLA-B27'],
+    o: ['HLA-B*57:01, pelo risco de reação de hipersensibilidade', 'Função tireoidiana, antes do início do esquema', 'Glicemia de jejum, antes do início do esquema', 'HLA-B27, antes do início do esquema'],
     g: 'A',
     c: 'Pacientes positivos não devem usar abacavir. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Espondiloartrites.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Tenofovir',
     e: 'Efeitos adversos do tenofovir desoproxila incluem:',
-    o: ['Toxicidade renal (tubulopatia) e perda de massa óssea', 'Pancreatite', 'Lipoatrofia grave', 'Anemia macrocítica'],
+    o: ['Toxicidade renal (tubulopatia) e perda de massa óssea', 'Pancreatite, que é efeito de didanosina', 'Lipoatrofia grave, que é efeito de estavudina', 'Anemia macrocítica, que é efeito de zidovudina'],
     g: 'A',
     c: 'Monitorar função renal. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Didanosina.', C: 'Estavudina e zidovudina.', D: 'Zidovudina.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Efavirenz',
     e: 'Efeito adverso comum do efavirenz é:',
-    o: ['Alterações neuropsiquiátricas, como sonhos vívidos, tontura e insônia', 'Nefrotoxicidade', 'Anemia', 'Hipersensibilidade por HLA-B5701'],
+    o: ['Alterações neuropsiquiátricas: sonhos vívidos, tontura e insônia', 'Nefrotoxicidade, que é efeito adverso do tenofovir', 'Anemia, que é efeito adverso da zidovudina', 'Hipersensibilidade por HLA-B*57:01, que é efeito adverso do abacavir'],
     g: 'A',
     c: 'Costumam melhorar nas primeiras semanas. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Tenofovir.', C: 'Zidovudina.', D: 'Abacavir.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Dolutegravir',
     e: 'Sobre o dolutegravir, é correto afirmar:',
-    o: ['Tem alta barreira genética à resistência e pode aumentar o nível de metformina', 'Tem baixa barreira genética', 'É contraindicado em todas as mulheres', 'Não interage com nenhum medicamento'],
+    o: ['Alta barreira genética e pode aumentar o nível de metformina', 'Baixa barreira genética, com resistência rápida', 'É contraindicado em todas as mulheres, pelo risco fetal', 'Não interage com nenhum medicamento, em nenhuma dose'],
     g: 'A',
     c: 'Antiácidos com cálcio, magnésio e ferro reduzem sua absorção. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'O oposto.', C: 'Afirmativa falsa.', D: 'Há interações.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'PEP',
     e: 'Profissional de saúde se fere com agulha usada em paciente com HIV. A profilaxia pós-exposição deve ser:',
-    o: ['Iniciada o mais rápido possível, idealmente em até 2 horas e no máximo em 72 horas, por 28 dias', 'Iniciada após 7 dias', 'Usada por 3 dias', 'Desnecessária'],
+    o: ['O mais rápido possível, idealmente em 2 h e no máximo 72 h, por 28 dias', 'Iniciada após 7 dias da exposição, e mantida por 28 dias', 'Usada por apenas 3 dias, a partir da exposição ocupacional', 'Desnecessária, pois o risco de transmissão é desprezível'],
     g: 'A',
     c: 'Esquema preferencial: tenofovir, lamivudina e dolutegravir. Referência: Brasil. Ministério da Saúde. PCDT para Profilaxia Pós-Exposição (PEP) de Risco à Infecção pelo HIV, IST e Hepatites Virais. Brasília: MS, 2021.',
     x: { B: 'Fora da janela.', C: 'Insuficiente.', D: 'Indicada.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'PrEP',
     e: 'A profilaxia pré-exposição oral ao HIV no SUS usa:',
-    o: ['Tenofovir com entricitabina', 'Dolutegravir isolado', 'Zidovudina', 'Aciclovir'],
+    o: ['Tenofovir com entricitabina', 'Dolutegravir isolado, em dose diária', 'Zidovudina, em dose diária', 'Aciclovir, em dose diária'],
     g: 'A',
     c: 'Exige testagem regular para HIV e IST e monitorização renal. Referência: Brasil. Ministério da Saúde. PCDT para Profilaxia Pré-Exposição (PrEP) de Risco à Infecção pelo HIV. Brasília: MS, 2022.',
     x: { B: 'Não é PrEP padrão.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Falha virológica',
     e: 'Paciente em TARV há 1 ano com carga viral de 5.000 cópias em duas medidas. A conduta inicial é:',
-    o: ['Avaliar adesão e interações e solicitar genotipagem', 'Manter igual sem investigar', 'Suspender a TARV', 'Trocar empiricamente sem genotipagem'],
+    o: ['Avaliar adesão e interações e pedir genotipagem', 'Manter igual, sem investigar a falha virológica', 'Suspender a TARV, até o próximo exame', 'Trocar empiricamente, sem genotipagem'],
     g: 'A',
     c: 'Falha virológica: carga detectável após 6 meses de tratamento ou rebote. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Inadequado.', C: 'Pioraria.', D: 'Não é ideal.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: tuberculose latente',
     e: 'Pessoa com HIV, assintomática, com CD4 de 300 e PPD de 6 mm, radiografia normal. A conduta é:',
-    o: ['Tratar infecção latente de tuberculose', 'Nada', 'Esquema completo RIPE', 'Repetir PPD em 5 anos'],
+    o: ['Tratar a infecção latente de tuberculose', 'Nada, pois o CD4 está acima de 200', 'Esquema completo RIPE, por 6 meses', 'Repetir o PPD em 5 anos'],
     g: 'A',
     c: 'Em PVHIV, PPD de 5 mm ou mais indica tratamento, após excluir doença ativa. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Risco alto.', C: 'Sem doença ativa.', D: 'Risco alto.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: rastreio de câncer',
     e: 'Pessoas vivendo com HIV têm maior risco de:',
-    o: ['Câncer de colo do útero e câncer anal relacionados ao HPV', 'Câncer de tireoide', 'Melanoma exclusivamente', 'Câncer de próstata em menores de 30 anos'],
+    o: ['Câncer de colo do útero e câncer anal (HPV)', 'Câncer de tireoide, sem relação com o HPV', 'Melanoma, exclusivamente, sem relação com o HPV', 'Câncer de próstata em menores de 30 anos'],
     g: 'A',
     c: 'O rastreio de câncer de colo é mais frequente. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Sem relação forte.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: história natural',
     e: 'Sem tratamento, a fase de latência clínica do HIV dura em média:',
-    o: ['8 a 10 anos', '1 mês', '6 meses', '30 anos'],
+    o: ['8 a 10 anos', '1 mês, em todos os casos', '6 meses, em todos os casos', '30 anos, em todos os casos'],
     g: 'A',
     c: 'A queda progressiva do CD4 leva à aids. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Curto demais.', C: 'Curto demais.', D: 'Excessivo.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Aids: definição',
     e: 'É condição definidora de aids:',
-    o: ['Pneumocistose, neurotoxoplasmose, criptococose extrapulmonar, sarcoma de Kaposi ou tuberculose extrapulmonar', 'Candidíase oral isolada uma vez', 'Herpes zóster de um dermátomo', 'Diarreia aguda de 2 dias'],
+    o: ['Pneumocistose, neurotoxoplasmose, criptococose extrapulmonar, Kaposi, TB extrapulmonar', 'Candidíase oral isolada, em um único episódio, em paciente jovem e sem outras lesões', 'Herpes zóster de um único dermátomo, em paciente jovem e sem outras lesões', 'Diarreia aguda de 2 dias, autolimitada, em paciente jovem e sem outras lesões'],
     g: 'A',
     c: 'CD4 abaixo de 200 também caracteriza aids para fins de vigilância. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Não define aids isoladamente.', C: 'Não define aids.', D: 'Não define aids.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: vacinas',
     e: 'Em pessoas com HIV e CD4 abaixo de 200, deve-se evitar:',
-    o: ['Vacinas de vírus vivos, como febre amarela e tríplice viral', 'Vacina contra influenza inativada', 'Vacina contra hepatite B', 'Vacina pneumocócica'],
+    o: ['Vacinas de vírus vivos (febre amarela, tríplice viral)', 'Vacina contra influenza inativada, que é recomendada', 'Vacina contra hepatite B, que é recomendada', 'Vacina pneumocócica, que é recomendada'],
     g: 'A',
     c: 'Com CD4 adequado, algumas vacinas vivas podem ser feitas. Referência: Brasil. Ministério da Saúde. Manual dos CRIE. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'É recomendada.', C: 'É recomendada.', D: 'É recomendada.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: gestação',
     e: 'Gestante com HIV deve iniciar TARV:',
-    o: ['O mais cedo possível, mantendo após o parto', 'Somente após 28 semanas', 'Somente no parto', 'Não deve usar TARV'],
+    o: ['O mais cedo possível, mantendo após o parto', 'Somente após 28 semanas, para reduzir a exposição fetal', 'Somente no momento do parto, por via venosa', 'Não deve usar TARV durante a gestação'],
     g: 'A',
     c: 'O objetivo é carga viral indetectável no parto. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Atraso aumenta risco.', C: 'Tardio.', D: 'Indicado.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Histoplasmose',
     e: 'Paciente com aids, febre, perda de peso, hepatoesplenomegalia, pancitopenia e lesões cutâneas, após visitar cavernas. A hipótese é:',
-    o: ['Histoplasmose disseminada', 'Neurotoxoplasmose', 'Pneumocistose', 'Candidíase'],
+    o: ['Histoplasmose disseminada', 'Neurotoxoplasmose, com lesões cerebrais', 'Pneumocistose, com hipoxemia', 'Candidíase esofágica, com odinofagia'],
     g: 'A',
     c: 'Tratamento de indução com anfotericina B lipossomal. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Neurológica.', C: 'Pulmonar intersticial.', D: 'Mucosa.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'MAC',
     e: 'Paciente com aids e CD4 de 20 com febre, sudorese, perda de peso, diarreia e anemia. Hemocultura para micobactérias positiva para complexo Mycobacterium avium. O tratamento é:',
-    o: ['Claritromicina (ou azitromicina) com etambutol', 'RIPE', 'Fluconazol', 'Penicilina'],
+    o: ['Claritromicina (ou azitromicina) com etambutol', 'Esquema RIPE, que é para tuberculose', 'Fluconazol, que é para fungos', 'Penicilina, que não age contra micobactérias atípicas'],
     g: 'A',
     c: 'A profilaxia primária não é rotina se a TARV for iniciada prontamente. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Para tuberculose.', C: 'Antifúngico.', D: 'Ineficaz.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Diarreia crônica no HIV',
     e: 'Paciente com aids e diarreia crônica aquosa. Agentes oportunistas incluem:',
-    o: ['Cryptosporidium, Cystoisospora, microsporídios e CMV', 'Apenas rotavírus', 'Apenas Giardia', 'Apenas Shigella'],
+    o: ['Cryptosporidium, Cystoisospora, microsporídios e CMV', 'Apenas rotavírus, que é de diarreia aguda', 'Apenas Giardia, que é de diarreia aguda', 'Apenas Shigella, que é de diarreia aguda'],
     g: 'A',
     c: 'A TARV melhora a maioria dos casos. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Agudo.', C: 'Não é o único.', D: 'Agudo e disentérico.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Cystoisospora',
     e: 'Diarreia crônica no HIV causada por Cystoisospora belli é tratada com:',
-    o: ['Sulfametoxazol-trimetoprima', 'Metronidazol', 'Albendazol', 'Ivermectina'],
+    o: ['Sulfametoxazol-trimetoprima', 'Metronidazol, que age contra Giardia', 'Albendazol, que age contra helmintos', 'Ivermectina, que age contra estrongiloidíase'],
     g: 'A',
     c: 'Profilaxia secundária pode ser necessária. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Giardíase.', C: 'Microsporídios.', D: 'Estrongiloidíase.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Neurossífilis no HIV',
     e: 'Paciente com HIV e sífilis com alterações visuais e auditivas. A conduta é:',
-    o: ['Punção lombar e tratamento de neurossífilis com penicilina cristalina se confirmada', 'Penicilina benzatina dose única', 'Doxiciclina', 'Observação'],
+    o: ['Punção lombar; penicilina cristalina se neurossífilis for confirmada', 'Penicilina benzatina em dose única, por via intramuscular', 'Doxiciclina oral, por 28 dias, em dose habitual', 'Observação clínica, sem tratamento nem punção lombar'],
     g: 'A',
     c: 'Sífilis ocular e otológica são tratadas como neurossífilis. Referência: Brasil. Ministério da Saúde. PCDT para Atenção Integral às Pessoas com IST. Brasília: MS, 2022.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Exige tratamento.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Coinfecção HIV e hepatite B',
     e: 'Paciente com HIV e hepatite B crônica. O esquema antirretroviral deve conter:',
-    o: ['Tenofovir e lamivudina (ou entricitabina), ativos contra os dois vírus', 'Apenas dolutegravir', 'Zidovudina isolada', 'Abacavir e dolutegravir sem tenofovir'],
+    o: ['Tenofovir e lamivudina (ou entricitabina), ativos contra os dois vírus', 'Apenas dolutegravir, que não age contra o vírus B', 'Zidovudina isolada, que não age contra o vírus B', 'Abacavir e dolutegravir sem tenofovir, que não agem contra o vírus B'],
     g: 'A',
     c: 'Suspender tenofovir pode causar exacerbação da hepatite. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Sem ação contra HBV.', C: 'Sem ação contra HBV.', D: 'Sem cobertura adequada.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: rastreio',
     e: 'O rastreio de HIV deve ser oferecido:',
-    o: ['A todas as pessoas sexualmente ativas e em situações como gestação, tuberculose e IST', 'Somente a grupos específicos', 'Somente com sintomas', 'Nunca sem autorização judicial'],
+    o: ['A todas as pessoas sexualmente ativas e em gestação, TB e IST', 'Somente a grupos específicos de maior risco de infecção', 'Somente a quem tiver sintomas sugestivos de aids', 'Nunca, sem uma autorização judicial para a realização do teste'],
     g: 'A',
     c: 'O teste é voluntário e confidencial. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Insuficiente.', C: 'Tardio.', D: 'Sem fundamento.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: CD4 e carga viral',
     e: 'No acompanhamento da TARV, o principal marcador de sucesso do tratamento é:',
-    o: ['Carga viral indetectável', 'CD4 acima de 1.000', 'Ganho de peso', 'Hemograma normal'],
+    o: ['Carga viral indetectável', 'CD4 acima de 1.000, em todos os casos', 'Ganho de peso, em todos os casos', 'Hemograma normal, em todos os casos'],
     g: 'A',
     c: 'O CD4 avalia o grau de imunossupressão e indica profilaxias. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Não é o principal.', C: 'Inespecífico.', D: 'Inespecífico.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Herpes zóster no HIV',
     e: 'Herpes zóster em paciente jovem sem fatores de risco deve levar a:',
-    o: ['Oferta de teste para HIV', 'Nenhuma investigação', 'Antibiótico', 'Biópsia'],
+    o: ['Oferta de teste para HIV', 'Nenhuma investigação, pois é doença comum', 'Antibiótico oral, por 14 dias', 'Biópsia da lesão, para confirmação'],
     g: 'A',
     c: 'O zóster pode ser a primeira manifestação da imunossupressão. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Perde oportunidade.', C: 'Sem infecção bacteriana.', D: 'Sem indicação.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Leucoplasia pilosa',
     e: 'Lesão branca não removível na borda lateral da língua, em paciente com HIV. O diagnóstico é:',
-    o: ['Leucoplasia pilosa oral (EBV)', 'Candidíase', 'Líquen plano', 'Carcinoma sempre'],
+    o: ['Leucoplasia pilosa oral (EBV)', 'Candidíase oral, que é removível à raspagem', 'Líquen plano, com estrias reticuladas', 'Carcinoma espinocelular, em todos os casos'],
     g: 'A',
     c: 'É marcador de imunossupressão e não exige tratamento específico. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Removível.', C: 'Padrão rendilhado.', D: 'Não é a regra.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: síndrome metabólica',
     e: 'Pessoas vivendo com HIV em TARV de longo prazo têm risco aumentado de:',
-    o: ['Doença cardiovascular, dislipidemia e diabetes', 'Nenhuma doença crônica', 'Somente infecções', 'Hipotireoidismo exclusivamente'],
+    o: ['Doença cardiovascular, dislipidemia e diabetes', 'Nenhuma doença crônica, além da infecção', 'Somente infecções oportunistas, e nenhuma doença crônica', 'Hipotireoidismo, exclusivamente, entre as doenças crônicas'],
     g: 'A',
     c: 'O cuidado inclui controle de fatores de risco cardiovascular. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Há riscos.', C: 'Não só.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: estatina',
     e: 'Pessoas com HIV de 40 a 75 anos com risco cardiovascular baixo a intermediário se beneficiaram de:',
-    o: ['Pitavastatina, com redução de eventos cardiovasculares', 'Nenhuma estatina', 'Aspirina para todos', 'Fibrato'],
+    o: ['Pitavastatina, com redução de eventos cardiovasculares', 'Nenhuma estatina, pois não há benefício', 'Aspirina para todos, na prevenção primária', 'Fibrato, como primeira escolha, na prevenção primária'],
     g: 'A',
     c: 'Estudo REPRIEVE. Referência: Grinspoon SK et al. Pitavastatin to Prevent Cardiovascular Disease in HIV Infection. N Engl J Med. 2023;389(8):687-99.',
     x: { B: 'Houve benefício.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: notificação',
     e: 'A infecção pelo HIV, mesmo sem aids, é:',
-    o: ['De notificação compulsória no Brasil', 'Não notificável', 'Notificada apenas em óbito', 'Notificada apenas em gestantes'],
+    o: ['De notificação compulsória no Brasil', 'Não notificável, por sigilo médico', 'Notificada apenas em caso de óbito', 'Notificada apenas em gestantes'],
     g: 'A',
     c: 'A notificação é sigilosa. Referência: Brasil. Ministério da Saúde. Portaria GM/MS nº 217, de 1º de março de 2023.',
     x: { B: 'É notificável.', C: 'Todos os casos.', D: 'Todos os casos.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Teste rápido',
     e: 'Paciente com teste rápido para HIV não reagente, mas exposição de risco há 10 dias. A interpretação é:',
-    o: ['Pode estar na janela imunológica; repetir o teste em 30 dias', 'HIV excluído definitivamente', 'Iniciar TARV imediatamente', 'Teste positivo'],
+    o: ['Pode estar na janela imunológica: repetir em 30 dias', 'HIV excluído definitivamente, com um teste negativo', 'Iniciar TARV imediatamente, com teste negativo', 'Teste positivo, que é confirmado pelo laboratório'],
     g: 'A',
     c: 'Também se avalia PEP se dentro de 72 horas. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Não exclui.', C: 'Sem diagnóstico.', D: 'Afirmativa falsa.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Tuberculose no HIV',
     e: 'Em pessoas com HIV e CD4 muito baixo, a tuberculose pulmonar costuma ter:',
-    o: ['Apresentação atípica, com menos cavitação e mais formas extrapulmonares e disseminadas', 'Sempre cavitação apical', 'Baciloscopia sempre positiva', 'Evolução sempre benigna'],
+    o: ['Atípica: menos cavitação, mais formas extrapulmonares e disseminadas', 'Sempre com cavitação apical, como no paciente imunocompetente', 'Baciloscopia sempre positiva, como no paciente imunocompetente', 'Evolução sempre benigna, como no paciente imunocompetente'],
     g: 'A',
     c: 'O teste molecular rápido (TRM-TB) e o LAM urinário ajudam no diagnóstico. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Menos comum.', C: 'Frequentemente negativa.', D: 'Pode ser grave.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Pneumocistose: alergia a sulfa',
     e: 'Paciente com pneumocistose e alergia grave a sulfa. Uma alternativa é:',
-    o: ['Clindamicina com primaquina', 'Amoxicilina', 'Fluconazol', 'Aciclovir'],
+    o: ['Clindamicina com primaquina', 'Amoxicilina, que não age contra o Pneumocystis', 'Fluconazol, que não age contra o Pneumocystis', 'Aciclovir, que não age contra o Pneumocystis'],
     g: 'A',
     c: 'Pentamidina intravenosa é outra opção. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Ineficaz.', C: 'Ineficaz.', D: 'Ineficaz.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Neurotoxoplasmose: profilaxia',
     e: 'Profilaxia primária de neurotoxoplasmose em pessoa com HIV é indicada quando:',
-    o: ['CD4 abaixo de 100 e IgG positiva para toxoplasma', 'CD4 acima de 500', 'IgG negativa', 'Sempre, sem critério'],
+    o: ['CD4 < 100 e IgG positiva para toxoplasma', 'CD4 acima de 500, com IgG positiva', 'IgG negativa, em qualquer contagem de CD4', 'Sempre, sem critério de CD4 nem sorologia'],
     g: 'A',
     c: 'O sulfametoxazol-trimetoprima serve para pneumocistose e toxoplasmose. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Sem risco.', C: 'Sem infecção latente.', D: 'Há critério.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Criptococose: rastreio',
     e: 'Pessoa com HIV e CD4 abaixo de 100 sem sintomas. Uma estratégia recomendada é:',
-    o: ['Pesquisar antígeno criptocócico no sangue e tratar preventivamente se positivo', 'Nenhuma investigação', 'Punção lombar em todos', 'Fluconazol para todos sem teste'],
+    o: ['Antígeno criptocócico no sangue; tratamento preventivo se positivo', 'Nenhuma investigação, em paciente assintomático, mesmo com CD4 baixo', 'Punção lombar em todos, de forma rotineira, mesmo sem sintomas', 'Fluconazol para todos, sem teste prévio, mesmo sem sintomas'],
     g: 'A',
     c: 'Reduz mortalidade por meningite criptocócica. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Perde oportunidade.', C: 'Não é rotina.', D: 'Não é a estratégia.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Síndrome consumptiva',
     e: 'Perda de mais de 10% do peso com diarreia crônica ou febre prolongada sem outra causa em paciente com HIV caracteriza:',
-    o: ['Síndrome consumptiva associada ao HIV', 'Hipertireoidismo', 'Diabetes', 'Anorexia nervosa'],
+    o: ['Síndrome consumptiva associada ao HIV', 'Hipertireoidismo, com perda de peso e tremor', 'Diabetes mellitus, com poliúria e polidipsia', 'Anorexia nervosa, com distorção da imagem corporal'],
     g: 'A',
     c: 'É condição definidora de aids. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'HIV: amamentação',
     e: 'No Brasil, para mulheres vivendo com HIV, a amamentação:',
-    o: ['É contraindicada, com oferta de fórmula infantil gratuita e inibição da lactação', 'É recomendada', 'É permitida com carga viral detectável', 'Depende apenas do desejo'],
+    o: ['Contraindicada: fórmula infantil gratuita e inibição da lactação', 'Recomendada, mesmo com carga viral detectável na mãe', 'Permitida, se a carga viral materna estiver detectável', 'Depende apenas do desejo da mãe, em qualquer situação'],
     g: 'A',
     c: 'A cabergolina é usada para inibir a lactação. Referência: Brasil. Ministério da Saúde. PCDT para Prevenção da Transmissão Vertical de HIV, Sífilis e Hepatites Virais. Brasília: MS, 2022.',
     x: { B: 'Contraindicada no Brasil.', C: 'Contraindicada.', D: 'Há recomendação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_HIV: QuestaoCompacta[] = [
   {
     s: 'Pneumonia bacteriana no HIV',
     e: 'A pneumonia bacteriana mais comum em pessoas com HIV é causada por:',
-    o: ['Streptococcus pneumoniae', 'Pneumocystis', 'Pseudomonas', 'Legionella'],
+    o: ['Streptococcus pneumoniae', 'Pneumocystis jirovecii, que é fúngico', 'Pseudomonas aeruginosa, que é rara na comunidade', 'Legionella pneumophila, que é rara na comunidade'],
     g: 'A',
     c: 'A vacina pneumocócica é recomendada. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Não é bacteriana.', C: 'Menos comum.', D: 'Menos comum.' },

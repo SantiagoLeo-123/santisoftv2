@@ -5,7 +5,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Síndrome nefrítica',
     e: 'A síndrome nefrítica caracteriza-se por:',
-    o: ['Hematúria glomerular, hipertensão, edema, oligúria e graus variáveis de proteinúria e redução da função renal', 'Proteinúria maior que 3,5 g por dia, hipoalbuminemia e lipidúria sem hematúria', 'Poliúria e hipocalemia', 'Cólica renal e hematúria não glomerular'],
+    o: ['Hematúria glomerular, hipertensão, edema, oligúria e proteinúria variável', 'Proteinúria > 3,5 g/dia, hipoalbuminemia e lipidúria, sem hematúria glomerular', 'Poliúria e hipocalemia, sem hematúria glomerular nem hipertensão', 'Cólica renal e hematúria não glomerular, sem hipertensão nem oligúria'],
     g: 'A',
     c: 'Hemácias dismórficas e cilindros hemáticos indicam origem glomerular. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Síndrome nefrótica.', C: 'Tubulopatia.', D: 'Litíase.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Glomerulonefrite pós-estreptocócica',
     e: 'Criança de 8 anos com edema, hipertensão e urina escura 2 semanas após faringite, com C3 baixo e ASLO elevado. O diagnóstico é:',
-    o: ['Glomerulonefrite pós-estreptocócica', 'Nefropatia por IgA', 'Síndrome nefrótica por lesão mínima', 'Doença de Alport'],
+    o: ['Glomerulonefrite pós-estreptocócica', 'Nefropatia por IgA, com hematúria 1-2 dias após infecção', 'Síndrome nefrótica por lesão mínima, sem hematúria', 'Doença de Alport, com surdez e hematúria familiar'],
     g: 'A',
     c: 'O C3 deve normalizar em até 8 semanas; se persistir baixo, pensar em glomerulonefrite membranoproliferativa ou lúpus. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Ocorre 1 a 3 dias após IVAS, com C3 normal.', C: 'Sem hematúria e hipertensão.', D: 'Hereditária, com surdez.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Glomerulonefrite pós-estreptocócica',
     e: 'O tratamento da glomerulonefrite pós-estreptocócica é:',
-    o: ['Suporte com restrição de sal e água, diurético e anti-hipertensivo; antibiótico apenas se infecção ativa', 'Corticoide em pulso', 'Ciclofosfamida', 'Plasmaférese'],
+    o: ['Suporte: sal, água, diurético e anti-hipertensivo; antibiótico só se infecção ativa', 'Corticoide em pulso, em dose alta, por via venosa, por vários dias', 'Ciclofosfamida, em dose habitual, por via oral ou venosa, por vários meses', 'Plasmaférese, em sessões seriadas, por vários dias consecutivos'],
     g: 'A',
     c: 'A evolução costuma ser benigna em crianças. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por IgA',
     e: 'Adulto jovem com hematúria macroscópica 1 a 2 dias após infecção de vias aéreas superiores, com C3 normal. A hipótese é:',
-    o: ['Nefropatia por IgA (doença de Berger)', 'Glomerulonefrite pós-estreptocócica', 'Lesão mínima', 'Glomerulopatia membranosa'],
+    o: ['Nefropatia por IgA (doença de Berger)', 'Glomerulonefrite pós-estreptocócica, com latência de semanas', 'Lesão mínima, com síndrome nefrótica', 'Glomerulopatia membranosa, com síndrome nefrótica'],
     g: 'A',
     c: 'É a glomerulopatia primária mais comum no mundo. O diagnóstico é por biópsia com depósitos mesangiais de IgA. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Latência maior e C3 baixo.', C: 'Nefrótica sem hematúria.', D: 'Nefrótica.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Glomerulonefrite rapidamente progressiva',
     e: 'Paciente com perda de função renal em semanas, sedimento nefrítico e biópsia com crescentes em mais de 50% dos glomérulos. O diagnóstico é:',
-    o: ['Glomerulonefrite rapidamente progressiva', 'Glomerulonefrite pós-estreptocócica típica', 'Nefropatia diabética', 'Necrose tubular aguda'],
+    o: ['Glomerulonefrite rapidamente progressiva', 'Glomerulonefrite pós-estreptocócica típica, com bom prognóstico', 'Nefropatia diabética, de curso lento', 'Necrose tubular aguda, sem sedimento nefrítico'],
     g: 'A',
     c: 'Classifica-se pela imunofluorescência: linear (anti-MBG), granular (imunocomplexos) ou pauci-imune (ANCA). Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Evolução benigna.', C: 'Evolução lenta.', D: 'Sem crescentes.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Goodpasture',
     e: 'Homem jovem com hemoptise, insuficiência renal rapidamente progressiva e imunofluorescência linear na biópsia renal. O diagnóstico e o tratamento são:',
-    o: ['Doença antimembrana basal glomerular; plasmaférese, corticoide e ciclofosfamida', 'Lúpus; hidroxicloroquina', 'Nefropatia por IgA; IECA', 'Granulomatose com poliangeíte; antibiótico'],
+    o: ['Anti-MBG glomerular: plasmaférese, corticoide e ciclofosfamida', 'Lúpus; hidroxicloroquina em dose habitual', 'Nefropatia por IgA; IECA em dose habitual', 'Granulomatose com poliangeíte; antibiótico em dose habitual'],
     g: 'A',
     c: 'Os anticorpos anti-MBG atacam colágeno IV de rins e pulmões. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Granular.', C: 'Granular.', D: 'Pauci-imune.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Vasculites ANCA',
     e: 'Paciente com sinusite crônica, nódulos pulmonares cavitados e glomerulonefrite pauci-imune, com c-ANCA (anti-PR3) positivo. O diagnóstico é:',
-    o: ['Granulomatose com poliangeíte', 'Poliangeíte microscópica', 'Goodpasture', 'Lúpus'],
+    o: ['Granulomatose com poliangeíte', 'Poliangeíte microscópica, sem granulomas nem sinusite', 'Doença de Goodpasture, sem sinusite crônica', 'Lúpus eritematoso sistêmico, sem nódulos cavitados'],
     g: 'A',
     c: 'A poliangeíte microscópica associa-se mais a p-ANCA (anti-MPO), sem granulomas. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Sem granulomas e geralmente MPO.', C: 'Imunofluorescência linear.', D: 'Imunocomplexos.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Nefrite lúpica',
     e: 'Mulher com lúpus apresenta proteinúria de 2 g por dia, hematúria dismórfica e queda do complemento. A conduta é:',
-    o: ['Biópsia renal para definir a classe e orientar o tratamento', 'Observação', 'Apenas diurético', 'Hemodiálise imediata'],
+    o: ['Biópsia renal para definir a classe e orientar o tratamento', 'Observação clínica, sem biópsia nem tratamento imunossupressor', 'Apenas diurético, sem biópsia nem imunossupressão associada', 'Hemodiálise imediata, sem biópsia nem tratamento imunossupressor'],
     g: 'A',
     c: 'As classes III e IV (proliferativas) exigem imunossupressão com corticoide e micofenolato ou ciclofosfamida. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Risco de perda renal.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Nefrite lúpica',
     e: 'A classe de nefrite lúpica mais comum e mais grave é a:',
-    o: ['Classe IV (proliferativa difusa)', 'Classe I', 'Classe II', 'Classe VI'],
+    o: ['Classe IV (proliferativa difusa)', 'Classe I (mesangial mínima), de curso benigno', 'Classe II (mesangial proliferativa), de curso benigno', 'Classe VI (esclerosante avançada), sem atividade'],
     g: 'A',
     c: 'A classe V é membranosa e cursa com síndrome nefrótica. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Mínima.', C: 'Mesangial.', D: 'Esclerosante avançada.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Glomerulonefrite membranoproliferativa',
     e: 'Paciente com hepatite C, crioglobulinemia, síndrome nefrótico-nefrítica e C3 persistentemente baixo. A glomerulopatia mais provável é:',
-    o: ['Glomerulonefrite membranoproliferativa', 'Lesão mínima', 'Nefropatia por IgA', 'Membranosa idiopática'],
+    o: ['Glomerulonefrite membranoproliferativa', 'Lesão mínima, com síndrome nefrótica', 'Nefropatia por IgA, com hematúria macroscópica', 'Membranosa idiopática, com anti-PLA2R positivo'],
     g: 'A',
     c: 'O tratamento inclui o antiviral para hepatite C. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Sem hipocomplementemia.', C: 'Complemento normal.', D: 'Complemento normal.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Síndrome nefrótica',
     e: 'A síndrome nefrótica é definida por:',
-    o: ['Proteinúria acima de 3,5 g por dia, hipoalbuminemia e edema, geralmente com dislipidemia', 'Hematúria macroscópica isolada', 'Hipertensão e oligúria', 'Creatinina elevada isolada'],
+    o: ['Proteinúria > 3,5 g/dia, hipoalbuminemia e edema, em geral com dislipidemia', 'Hematúria macroscópica isolada, sem proteinúria nem edema', 'Hipertensão e oligúria, sem proteinúria maciça nem edema', 'Creatinina elevada isolada, sem proteinúria maciça nem edema'],
     g: 'A',
     c: 'Em crianças, proteinúria acima de 40 mg/m² por hora. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não define.', C: 'Síndrome nefrítica.', D: 'Insuficiente.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Lesão mínima',
     e: 'Criança de 4 anos com edema generalizado, proteinúria maciça, sem hematúria e com complemento normal. A causa mais provável e o tratamento são:',
-    o: ['Doença de lesão mínima; corticoide', 'GESF; ciclofosfamida', 'Membranosa; rituximabe', 'IgA; IECA'],
+    o: ['Doença de lesão mínima; corticoide', 'GESF; ciclofosfamida em dose habitual', 'Membranosa; rituximabe em dose habitual', 'Nefropatia por IgA; IECA em dose habitual'],
     g: 'A',
     c: 'A microscopia eletrônica mostra fusão dos processos podocitários. A maioria responde ao corticoide. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Menos comum em crianças.', C: 'Rara em crianças.', D: 'Nefrítica.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'GESF',
     e: 'A glomeruloesclerose segmentar e focal secundária associa-se a:',
-    o: ['HIV, obesidade, uso de heroína e redução de massa renal', 'Faringite estreptocócica', 'Infecção por hepatite A', 'Uso de anticoncepcional'],
+    o: ['HIV, obesidade, heroína e redução de massa renal', 'Faringite estreptocócica, que causa GNPE', 'Hepatite A, que não causa GESF', 'Uso de anticoncepcional, que não causa GESF'],
     g: 'A',
     c: 'A colapsante associada ao HIV tem pior prognóstico. Na população negra, variantes do gene APOL1 aumentam o risco. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Causa nefrítica.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Membranosa',
     e: 'A glomerulopatia membranosa primária associa-se a anticorpos contra:',
-    o: ['Receptor da fosfolipase A2 (anti-PLA2R)', 'Membrana basal glomerular', 'Mieloperoxidase', 'DNA de dupla hélice'],
+    o: ['Receptor da fosfolipase A2 (anti-PLA2R)', 'Membrana basal glomerular, na doença de Goodpasture', 'Mieloperoxidase, nas vasculites ANCA', 'DNA de dupla hélice, no lúpus'],
     g: 'A',
     c: 'Formas secundárias: neoplasias, hepatite B, lúpus e medicamentos. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Goodpasture.', C: 'Vasculite.', D: 'Lúpus.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Síndrome nefrótica: complicação',
     e: 'Paciente com glomerulopatia membranosa e síndrome nefrótica apresenta dor lombar súbita, hematúria e piora da função renal. A complicação mais provável é:',
-    o: ['Trombose de veia renal', 'Pielonefrite', 'Cálculo renal', 'Necrose de papila'],
+    o: ['Trombose de veia renal', 'Pielonefrite aguda, com febre', 'Cálculo renal, com cólica', 'Necrose de papila, com hematúria'],
     g: 'A',
     c: 'O estado de hipercoagulabilidade decorre da perda de antitrombina III e outros fatores. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem febre e disúria.', C: 'Menos provável.', D: 'Associada a outros contextos.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Síndrome nefrótica: hipercoagulabilidade',
     e: 'A hipercoagulabilidade da síndrome nefrótica deve-se, entre outros, à:',
-    o: ['Perda urinária de antitrombina III e aumento de fibrinogênio', 'Perda de plaquetas', 'Excesso de vitamina K', 'Uso de diuréticos apenas'],
+    o: ['Perda urinária de antitrombina III e aumento do fibrinogênio', 'Perda de plaquetas pela urina, com plaquetopenia associada', 'Excesso de vitamina K na dieta, com síntese hepática aumentada', 'Uso de diuréticos apenas, sem outros fatores associados'],
     g: 'A',
     c: 'Anticoagulação profilática pode ser considerada em membranosa com albumina muito baixa. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Não é o mecanismo.', C: 'Sem relação.', D: 'Contribui pouco.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Síndrome nefrótica: infecção',
     e: 'Criança com síndrome nefrótica e ascite apresenta febre e dor abdominal. A hipótese é:',
-    o: ['Peritonite bacteriana espontânea, geralmente pneumocócica', 'Apendicite', 'Gastroenterite viral', 'Pancreatite'],
+    o: ['Peritonite bacteriana espontânea, em geral pneumocócica', 'Apendicite aguda, com dor em fossa ilíaca direita', 'Gastroenterite viral, com diarreia e vômitos associados', 'Pancreatite aguda, com dor epigástrica e lipase elevada'],
     g: 'A',
     c: 'Perda de imunoglobulinas e complemento favorece infecções. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Possível, mas menos provável no contexto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Nefropatia diabética',
     e: 'O primeiro marcador laboratorial da doença renal do diabetes é:',
-    o: ['Albuminúria moderadamente aumentada (antes chamada microalbuminúria)', 'Creatinina elevada', 'Hematúria', 'Cilindros hemáticos'],
+    o: ['Albuminúria moderadamente aumentada (antes, microalbuminúria)', 'Creatinina elevada, que é um sinal tardio na evolução', 'Hematúria glomerular, que não é sinal precoce da doença', 'Cilindros hemáticos, que não são sinal precoce da doença'],
     g: 'A',
     c: 'O rastreio é anual com relação albumina/creatinina. Referência: American Diabetes Association. Standards of Care in Diabetes 2024, seção 11: Chronic Kidney Disease and Risk Management. Diabetes Care. 2024;47(Suppl 1):S219-30.',
     x: { B: 'Tardio.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Nefropatia diabética',
     e: 'Paciente diabético tipo 2 com albuminúria e taxa de filtração de 50 mL/min. Medicamentos que reduzem progressão renal incluem:',
-    o: ['IECA ou BRA e inibidores de SGLT2', 'Anti-inflamatórios', 'Diuréticos tiazídicos como única droga', 'Corticoide'],
+    o: ['IECA ou BRA e inibidores de SGLT2', 'Anti-inflamatórios não esteroides, que agravam a nefropatia', 'Diuréticos tiazídicos como única droga', 'Corticoide sistêmico, em dose alta'],
     g: 'A',
     c: 'A finerenona também tem benefício em casos selecionados. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Pioram a função renal.', C: 'Sem efeito específico.', D: 'Sem indicação.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Nefropatia diabética: histologia',
     e: 'A lesão histológica característica da nefropatia diabética é:',
-    o: ['Glomeruloesclerose nodular de Kimmelstiel-Wilson', 'Crescentes', 'Depósitos de IgA', 'Imunofluorescência linear'],
+    o: ['Glomeruloesclerose nodular de Kimmelstiel-Wilson', 'Crescentes epiteliais, típicos da GN rapidamente progressiva', 'Depósitos de IgA no mesângio, típicos da nefropatia por IgA', 'Imunofluorescência linear, típica da doença anti-MBG'],
     g: 'A',
     c: 'Também há espessamento da membrana basal e expansão mesangial. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'GNRP.', C: 'IgA.', D: 'Goodpasture.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Hematúria',
     e: 'Um achado que indica hematúria de origem glomerular é:',
-    o: ['Hemácias dismórficas e cilindros hemáticos', 'Coágulos na urina', 'Hematúria com dor em cólica', 'Hemácias isomórficas'],
+    o: ['Hemácias dismórficas e cilindros hemáticos', 'Coágulos na urina, de origem não glomerular', 'Hematúria com dor em cólica, de origem urológica', 'Hemácias isomórficas, de origem não glomerular'],
     g: 'A',
     c: 'Coágulos sugerem sangramento urológico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Urológica.', C: 'Litíase.', D: 'Não glomerular.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Glomerulopatias: biópsia',
     e: 'Indicação de biópsia renal em adulto com síndrome nefrótica é:',
-    o: ['Praticamente todos os adultos com síndrome nefrótica sem causa evidente', 'Nunca', 'Somente após 10 anos de doença', 'Somente com hematúria macroscópica'],
+    o: ['Praticamente todos os adultos com síndrome nefrótica sem causa evidente', 'Nunca, pois a biópsia não altera a conduta nesses casos', 'Somente após 10 anos de doença, em todos os casos', 'Somente se houver hematúria macroscópica, em todos os casos'],
     g: 'A',
     c: 'Em crianças, a biópsia é reservada a casos atípicos ou corticorresistentes. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'É indicada.', C: 'Atraso inadequado.', D: 'Não é o critério.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'GNPE: prognóstico',
     e: 'Sobre o prognóstico da glomerulonefrite pós-estreptocócica em crianças, é correto afirmar:',
-    o: ['A maioria recupera totalmente a função renal', 'Evolui sempre para diálise', 'Exige transplante', 'Recidiva todos os anos'],
+    o: ['A maioria recupera totalmente a função renal', 'Evolui sempre para diálise, na maioria dos casos', 'Exige transplante renal, na maioria dos casos', 'Recidiva todos os anos, em todos os casos'],
     g: 'A',
     c: 'Hematúria microscópica pode persistir por meses. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Raro.', C: 'Raro.', D: 'Raramente recidiva.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'GNPE: latência',
     e: 'A latência entre impetigo estreptocócico e glomerulonefrite é de cerca de:',
-    o: ['3 a 6 semanas', '1 dia', '6 meses', '1 ano'],
+    o: ['3 a 6 semanas', '1 dia, após o impetigo', '6 meses, após o impetigo', '1 ano, após o impetigo'],
     g: 'A',
     c: 'Após faringite, 1 a 3 semanas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Curto demais.', C: 'Longo demais.', D: 'Longo demais.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Púrpura de Henoch-Schönlein',
     e: 'Criança com púrpura palpável em membros inferiores, artralgia, dor abdominal e hematúria. O diagnóstico é:',
-    o: ['Vasculite por IgA (púrpura de Henoch-Schönlein)', 'PTI', 'Meningococcemia', 'Leucemia'],
+    o: ['Vasculite por IgA (Henoch-Schönlein)', 'PTI, com plaquetopenia isolada', 'Meningococcemia, com petéquias e toxemia', 'Leucemia, com citopenias'],
     g: 'A',
     c: 'A nefrite tem histologia semelhante à nefropatia por IgA. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Púrpura não palpável e sem artrite.', C: 'Quadro agudo grave com sepse.', D: 'Sem esse padrão.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Síndrome hepatorrenal e glomérulo',
     e: 'Paciente com hepatite B crônica e síndrome nefrótica. A glomerulopatia mais associada é:',
-    o: ['Glomerulopatia membranosa', 'Lesão mínima', 'Nefropatia diabética', 'Alport'],
+    o: ['Glomerulopatia membranosa', 'Lesão mínima, mais comum em crianças', 'Nefropatia diabética, em pacientes diabéticos', 'Síndrome de Alport, de herança familiar'],
     g: 'A',
     c: 'Poliarterite nodosa também se associa à hepatite B. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Sem associação típica.', C: 'Sem relação.', D: 'Hereditária.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Lesão mínima: causas secundárias',
     e: 'Lesão mínima secundária associa-se a:',
-    o: ['Anti-inflamatórios não esteroides e linfoma de Hodgkin', 'Hepatite C', 'Faringite', 'Diabetes'],
+    o: ['AINEs e linfoma de Hodgkin', 'Hepatite C, que causa MPGN', 'Faringite, que causa GNPE', 'Diabetes, que causa glomerulosclerose nodular'],
     g: 'A',
     c: 'A retirada do fármaco ou tratamento da neoplasia leva a remissão. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Associada a MPGN.', C: 'Associada a GNPE.', D: 'Nefropatia própria.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Corticorresistência',
     e: 'Criança com síndrome nefrótica sem resposta a 4 a 6 semanas de prednisona. A conduta é:',
-    o: ['Biópsia renal, pois a corticorresistência sugere outra lesão, como GESF', 'Manter prednisona indefinidamente', 'Suspender todo tratamento', 'Diálise'],
+    o: ['Biópsia renal: a corticorresistência sugere outra lesão, como GESF', 'Manter a prednisona indefinidamente, em dose alta, sem outras medidas', 'Suspender todo o tratamento, sem investigar a causa da resistência', 'Diálise, como primeira conduta, sem investigação adicional'],
     g: 'A',
     c: 'A pesquisa genética também pode ser indicada. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Risco de efeitos adversos.', C: 'Inadequado.', D: 'Sem indicação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'GESF: tratamento',
     e: 'Na GESF primária com síndrome nefrótica, o tratamento inicial é:',
-    o: ['Corticoide em dose alta, com inibidores de calcineurina se resistente', 'Apenas observação', 'Antibiótico', 'Transplante imediato'],
+    o: ['Corticoide em dose alta; inibidor de calcineurina se resistente', 'Apenas observação, sem imunossupressão, mesmo com síndrome nefrótica', 'Antibiótico por via oral, em dose habitual, por 14 dias', 'Transplante renal imediato, como primeira conduta terapêutica'],
     g: 'A',
     c: 'A GESF pode recorrer após transplante. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Risco de progressão.', C: 'Sem indicação.', D: 'Não é inicial.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Membranosa: tratamento',
     e: 'Na glomerulopatia membranosa primária com risco moderado a alto de progressão, opções de imunossupressão incluem:',
-    o: ['Rituximabe, ciclofosfamida com corticoide ou inibidor de calcineurina', 'Apenas antibiótico', 'Plasmaférese obrigatória', 'Nenhuma'],
+    o: ['Rituximabe, ciclofosfamida com corticoide ou inibidor de calcineurina', 'Apenas antibiótico, em dose habitual, por via oral', 'Plasmaférese obrigatória, em todos os casos de membranosa', 'Nenhum tratamento específico, apenas observação clínica'],
     g: 'A',
     c: 'Casos de baixo risco recebem suporte, pois há remissão espontânea em parte dos pacientes. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Há opções.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Anti-PLA2R',
     e: 'Em paciente com síndrome nefrótica, anti-PLA2R positivo e função renal preservada:',
-    o: ['Sustenta o diagnóstico de membranosa primária e serve para monitorar a atividade', 'Indica lúpus', 'Exclui membranosa', 'Indica GNPE'],
+    o: ['Sustenta a membranosa primária e serve para monitorar a atividade', 'Indica lúpus, que cursa com anti-DNA e complemento baixo', 'Exclui membranosa em qualquer caso, mesmo com síndrome nefrótica', 'Indica GNPE, que cursa com ASLO elevado e complemento baixo'],
     g: 'A',
     c: 'Em alguns casos, dispensa a biópsia. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Sem relação.', C: 'Confirma.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Edema nefrótico',
     e: 'O mecanismo do edema na síndrome nefrótica inclui:',
-    o: ['Redução da pressão oncótica e retenção renal primária de sódio', 'Insuficiência cardíaca obrigatória', 'Hipotireoidismo', 'Excesso de proteína na dieta'],
+    o: ['Redução da pressão oncótica e retenção renal primária de sódio', 'Insuficiência cardíaca, obrigatoriamente, em todos os casos', 'Hipotireoidismo, como causa principal em todos os casos', 'Excesso de proteína na dieta, como causa principal em todos os casos'],
     g: 'A',
     c: 'O diurético de alça é a base do tratamento do edema. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não obrigatória.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Dislipidemia nefrótica',
     e: 'A dislipidemia da síndrome nefrótica decorre principalmente de:',
-    o: ['Aumento da síntese hepática de lipoproteínas pela hipoalbuminemia', 'Dieta rica em gordura', 'Uso de estatina', 'Hipertireoidismo'],
+    o: ['Aumento da síntese hepática de lipoproteínas pela hipoalbuminemia', 'Dieta rica em gordura saturada, como causa principal do quadro', 'Uso de estatina, como causa principal do quadro', 'Hipertireoidismo associado, como causa principal do quadro'],
     g: 'A',
     c: 'Pode exigir estatina se persistente. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é a causa.', C: 'Trata.', D: 'O oposto.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Lúpus: anti-DNA',
     e: 'Na nefrite lúpica, marcadores de atividade incluem:',
-    o: ['Anti-DNA de dupla hélice elevado e complemento (C3 e C4) baixo', 'FAN negativo', 'Anti-Ro isolado', 'ASLO elevado'],
+    o: ['Anti-DNA dupla hélice elevado e C3/C4 baixos', 'FAN negativo, que afasta atividade', 'Anti-Ro isolado, que não indica atividade renal', 'ASLO elevado, que é da GNPE'],
     g: 'A',
     c: 'Acompanham a atividade da doença. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Contradiz lúpus.', C: 'Não é marcador de atividade.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Síndrome pulmão-rim',
     e: 'Diferenciais da síndrome pulmão-rim incluem:',
-    o: ['Goodpasture, vasculites ANCA e lúpus', 'Asma e cistite', 'Pneumonia e cálculo', 'DPOC e prostatite'],
+    o: ['Goodpasture, vasculites ANCA e lúpus', 'Asma e cistite, sem relação entre si', 'Pneumonia e cálculo renal, sem relação entre si', 'DPOC e prostatite, sem relação entre si'],
     g: 'A',
     c: 'Hemorragia alveolar com glomerulonefrite exige diagnóstico rápido. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Proteinúria: quantificação',
     e: 'O método prático mais usado para quantificar proteinúria em amostra isolada é:',
-    o: ['Relação proteína/creatinina urinária', 'Fita urinária isolada', 'Densidade urinária', 'Cultura de urina'],
+    o: ['Relação proteína/creatinina urinária', 'Fita urinária isolada, que é qualitativa', 'Densidade urinária, que não mede proteinúria', 'Cultura de urina, que não mede proteinúria'],
     g: 'A',
     c: 'Valor de 3,5 g/g ou mais sugere faixa nefrótica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Semiquantitativa.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Hematúria isolada',
     e: 'Jovem com hematúria microscópica isolada persistente, sem proteinúria, função normal e história familiar de hematúria benigna. A hipótese mais provável é:',
-    o: ['Doença da membrana basal fina', 'GNRP', 'Lesão mínima', 'Membranosa'],
+    o: ['Doença da membrana basal fina', 'GN rapidamente progressiva, com perda de função', 'Lesão mínima, com síndrome nefrótica', 'Membranosa, com síndrome nefrótica'],
     g: 'A',
     c: 'Prognóstico geralmente bom. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Evolução rápida.', C: 'Sem hematúria.', D: 'Nefrótica.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Doença renal e gestação',
     e: 'Gestante com proteinúria nefrótica antes de 20 semanas. Deve-se pensar em:',
-    o: ['Glomerulopatia prévia ou lúpus, e não em pré-eclâmpsia típica', 'Pré-eclâmpsia sempre', 'Infecção urinária', 'Normalidade'],
+    o: ['Glomerulopatia prévia ou lúpus, e não pré-eclâmpsia típica', 'Pré-eclâmpsia, sempre, a qualquer idade gestacional', 'Infecção urinária, que não causa proteinúria nefrótica', 'Normalidade da gestação, sem doença renal'],
     g: 'A',
     c: 'A pré-eclâmpsia ocorre após 20 semanas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Ocorre após 20 semanas.', C: 'Sem relação.', D: 'É anormal.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Nefrite intersticial vs glomerular',
     e: 'Achado que favorece nefrite intersticial em vez de glomerulonefrite é:',
-    o: ['Leucocitúria com cilindros leucocitários e eosinofilúria após uso de medicamento', 'Cilindros hemáticos', 'Hemácias dismórficas', 'Proteinúria nefrótica'],
+    o: ['Leucocitúria com cilindros leucocitários e eosinofilúria após medicamento', 'Cilindros hemáticos, que são típicos de glomerulonefrite', 'Hemácias dismórficas, que são típicas de glomerulonefrite', 'Proteinúria nefrótica, que é típica de glomerulopatia'],
     g: 'A',
     c: 'AINEs, antibióticos e IBP são causas comuns. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Glomerular.', C: 'Glomerular.', D: 'Glomerular.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'ANCA: tratamento',
     e: 'Na vasculite ANCA com glomerulonefrite grave, a indução é feita com:',
-    o: ['Corticoide associado a rituximabe ou ciclofosfamida', 'Apenas anti-inflamatório', 'Antibiótico', 'Observação'],
+    o: ['Corticoide + rituximabe ou ciclofosfamida', 'Apenas anti-inflamatório não esteroide', 'Antibiótico, por via oral, em dose habitual', 'Observação clínica, sem tratamento'],
     g: 'A',
     c: 'Avacopan pode reduzir a dose de corticoide. Referência: Chung SA et al. 2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of ANCA-Associated Vasculitis. Arthritis Rheumatol. 2021;73(8):1366-83.',
     x: { B: 'Ineficaz.', C: 'Sem indicação.', D: 'Risco de perda renal.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'IgA: prognóstico',
     e: 'Fator de pior prognóstico na nefropatia por IgA é:',
-    o: ['Proteinúria persistente acima de 1 g por dia, hipertensão e creatinina elevada', 'Hematúria macroscópica isolada', 'Idade jovem', 'Sexo feminino'],
+    o: ['Proteinúria persistente > 1 g/dia, hipertensão e creatinina elevada', 'Hematúria macroscópica isolada, que se associa a melhor prognóstico', 'Idade jovem ao diagnóstico, que se associa a melhor prognóstico', 'Sexo feminino, que não define o prognóstico da doença'],
     g: 'A',
     c: 'O controle pressórico e a redução da proteinúria com IECA ou BRA são fundamentais. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Não é o principal.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_GLOM: QuestaoCompacta[] = [
   {
     s: 'Glomerulopatias e neoplasia',
     e: 'Paciente idoso com síndrome nefrótica por membranosa deve ser investigado para:',
-    o: ['Neoplasias sólidas (pulmão, cólon, mama, próstata)', 'Infecção urinária', 'Litíase', 'Asma'],
+    o: ['Neoplasias sólidas (pulmão, cólon, mama, próstata)', 'Infecção urinária de repetição, que não causa membranosa', 'Litíase renal de repetição, que não causa membranosa', 'Asma brônquica de início tardio, que não causa membranosa'],
     g: 'A',
     c: 'A membranosa pode ser paraneoplásica, especialmente se anti-PLA2R negativo. Referência: Kidney Disease: Improving Global Outcomes (KDIGO) Glomerular Diseases Work Group. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4S):S1-276.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },

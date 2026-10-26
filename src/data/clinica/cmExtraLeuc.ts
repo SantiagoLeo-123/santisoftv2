@@ -5,7 +5,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia aguda: diagnóstico',
     e: 'O critério da OMS para diagnóstico de leucemia mieloide aguda, em geral, é:',
-    o: ['20% ou mais de blastos na medula óssea ou no sangue periférico', '5% de blastos', 'Leucocitose acima de 100.000', 'Anemia isolada'],
+    o: ['≥ 20% de blastos na medula óssea ou no sangue periférico', '5% de blastos na medula óssea, que é limite da normalidade', 'Leucocitose acima de 100.000, de forma isolada', 'Anemia isolada, sem blastos no sangue ou na medula'],
     g: 'A',
     c: 'Algumas alterações genéticas definem LMA independentemente do percentual. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Normal ou mielodisplasia.', C: 'Não define.', D: 'Não define.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia aguda: clínica',
     e: 'Manifestações típicas de leucemia aguda decorrem de:',
-    o: ['Falência medular: anemia, infecções por neutropenia e sangramentos por plaquetopenia', 'Excesso de hemácias', 'Hipercalcemia isolada', 'Esplenomegalia volumosa isolada'],
+    o: ['Falência medular: anemia, infecção por neutropenia e sangramento por plaquetopenia', 'Excesso de hemácias, com hiperviscosidade e eritrocitose importante', 'Hipercalcemia isolada, sem citopenias associadas ao quadro clínico', 'Esplenomegalia volumosa isolada, sem citopenias associadas ao quadro clínico'],
     g: 'A',
     c: 'Também dor óssea e infiltração de órgãos. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Mais típico de LMC.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LMA vs LLA',
     e: 'A presença de bastonetes de Auer nos blastos indica:',
-    o: ['Linhagem mieloide (LMA)', 'Linhagem linfoide (LLA)', 'LLC', 'Linfoma'],
+    o: ['Linhagem mieloide (LMA)', 'Linhagem linfoide (LLA), com blastos linfoides', 'LLC, com linfócitos maduros', 'Linfoma, com células linfoides atípicas'],
     g: 'A',
     c: 'A citometria de fluxo confirma a linhagem. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Não ocorre.', C: 'Não ocorre.', D: 'Não ocorre.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia promielocítica aguda',
     e: 'Paciente com leucemia aguda, CIVD com sangramento intenso e promielócitos com múltiplos bastonetes de Auer. A alteração genética e o tratamento são:',
-    o: ['t(15;17) PML-RARA; ácido transretinoico (ATRA) com trióxido de arsênio', 't(9;22); imatinibe', 't(8;21); observação', 't(14;18); rituximabe'],
+    o: ['t(15;17) PML-RARA: ATRA com trióxido de arsênio', 't(9;22): imatinibe, que é para LMC e LLA Ph+', 't(8;21): observação, que é para LMA de bom prognóstico', 't(14;18): rituximabe, que é para linfoma folicular'],
     g: 'A',
     c: 'Iniciar ATRA à mínima suspeita, pelo risco de morte por hemorragia. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'LMC ou LLA Ph positiva.', C: 'LMA de bom prognóstico, outro tratamento.', D: 'Linfoma folicular.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LLA: epidemiologia',
     e: 'A leucemia mais comum na infância é:',
-    o: ['Leucemia linfoblástica aguda', 'Leucemia mieloide aguda', 'LLC', 'LMC'],
+    o: ['Leucemia linfoblástica aguda', 'Leucemia mieloide aguda, mais comum em adultos', 'LLC, que é mais comum em idosos', 'LMC, que é rara na infância'],
     g: 'A',
     c: 'Pico entre 2 e 5 anos; alta taxa de cura. Referência: Pui CH, Evans WE. Treatment of acute lymphoblastic leukemia. N Engl J Med. 2006;354(2):166-78.',
     x: { B: 'Menos comum em crianças.', C: 'Adultos idosos.', D: 'Rara em crianças.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LLA: prognóstico',
     e: 'É fator de bom prognóstico na LLA infantil:',
-    o: ['Idade entre 1 e 10 anos, leucometria abaixo de 50.000 e hiperdiploidia', 'Idade menor que 1 ano', 'Leucometria acima de 100.000', 'Cromossomo Filadélfia'],
+    o: ['Idade de 1 a 10 anos, leucócitos < 50.000 e hiperdiploidia', 'Idade menor que 1 ano, que é de pior prognóstico', 'Leucometria acima de 100.000, que é de pior prognóstico', 'Cromossomo Filadélfia, que é de pior prognóstico'],
     g: 'A',
     c: 'Resposta precoce e doença residual mínima negativa também são favoráveis. Referência: Pui CH, Evans WE. N Engl J Med. 2006;354(2):166-78.',
     x: { B: 'Mau prognóstico.', C: 'Mau prognóstico.', D: 'Mau prognóstico.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LLA de células T',
     e: 'Adolescente com leucemia aguda e massa mediastinal anterior com desconforto respiratório. O tipo mais provável é:',
-    o: ['LLA de células T', 'LLA B comum', 'LMA M3', 'LLC'],
+    o: ['LLA de células T', 'LLA B comum, sem massa mediastinal', 'LMA M3, com CIVD e promielócitos', 'LLC, que é de idosos'],
     g: 'A',
     c: 'Cuidado com sedação pelo risco de compressão de via aérea. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sem massa mediastinal típica.', C: 'Sem massa.', D: 'Idosos.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Down',
     e: 'Crianças com síndrome de Down têm risco aumentado de:',
-    o: ['Leucemias agudas (LLA e LMA megacarioblástica)', 'Linfoma de Hodgkin', 'Mieloma', 'LLC'],
+    o: ['Leucemias agudas (LLA e LMA megacarioblástica)', 'Linfoma de Hodgkin, sem relação com a síndrome', 'Mieloma múltiplo, sem relação com a síndrome', 'LLC, sem relação com a síndrome de Down'],
     g: 'A',
     c: 'Também mielopoese anormal transitória neonatal. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sem associação.', C: 'Sem associação.', D: 'Sem associação.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Neutropenia febril',
     e: 'Paciente em quimioterapia com febre de 38,5 °C e neutrófilos de 300. A conduta é:',
-    o: ['Colher culturas e iniciar antibiótico de amplo espectro com cobertura antipseudomonas na primeira hora', 'Aguardar culturas', 'Antibiótico oral para todos', 'Antifúngico isolado'],
+    o: ['Culturas e antibiótico de amplo espectro, com cobertura antipseudomonas, na 1ª hora', 'Aguardar o resultado das culturas para iniciar o antibiótico de escolha', 'Antibiótico oral para todos, em ambulatório, com retorno em 48 horas', 'Antifúngico isolado, em dose habitual, por via venosa, sem antibiótico'],
     g: 'A',
     c: 'Opções: cefepime, piperacilina-tazobactam ou meropenem. Referência: Freifeld AG et al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the IDSA. Clin Infect Dis. 2011;52(4):e56-93.',
     x: { B: 'Atraso aumenta mortalidade.', C: 'Só em baixo risco selecionado.', D: 'Não é inicial.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Neutropenia febril: antifúngico',
     e: 'Paciente neutropênico com febre persistente após 4 a 7 dias de antibiótico. A conduta é:',
-    o: ['Investigar infecção fúngica e considerar antifúngico empírico ou preemptivo', 'Suspender antibióticos', 'Dar alta', 'Corticoide'],
+    o: ['Investigar infecção fúngica; antifúngico empírico ou preemptivo', 'Suspender os antibióticos, para reavaliar a causa da febre persistente', 'Dar alta hospitalar, com retorno se persistir a febre em casa', 'Iniciar corticoide, para reduzir a febre persistente do paciente'],
     g: 'A',
     c: 'Aspergillus e Candida são preocupações. Referência: Freifeld AG et al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the IDSA. Clin Infect Dis. 2011;52(4):e56-93.',
     x: { B: 'Risco alto.', C: 'Inadequado.', D: 'Sem indicação.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucostase',
     e: 'Paciente com LMA e leucometria de 200.000 apresenta dispneia, hipoxemia e confusão. O diagnóstico e a conduta são:',
-    o: ['Leucostase; citorredução urgente (hidroxiureia, leucaférese) e início da quimioterapia', 'Pneumonia; apenas antibiótico', 'Embolia; trombólise', 'AVC; observação'],
+    o: ['Leucostase: citorredução urgente (hidroxiureia, leucaférese) e quimioterapia', 'Pneumonia bacteriana; apenas antibiótico de amplo espectro, por via venosa', 'Embolia pulmonar; trombólise sistêmica com alteplase, de imediato', 'AVC isquêmico; observação clínica e antiagregação plaquetária'],
     g: 'A',
     c: 'Evitar transfusão de hemácias que aumente a viscosidade. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Inadequado.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Lise tumoral',
     e: 'Achados laboratoriais da síndrome de lise tumoral são:',
-    o: ['Hiperuricemia, hipercalemia, hiperfosfatemia e hipocalcemia', 'Hipocalemia e hipofosfatemia', 'Hipercalcemia', 'Hiponatremia isolada'],
+    o: ['Hiperuricemia, hipercalemia, hiperfosfatemia e hipocalcemia', 'Hipocalemia e hipofosfatemia, por perda renal de eletrólitos', 'Hipercalcemia, por reabsorção óssea aumentada pelo tumor', 'Hiponatremia isolada, por diluição, sem outras alterações'],
     g: 'A',
     c: 'Pode causar lesão renal aguda e arritmias. Referência: Cairo MS, Bishop M. Br J Haematol. 2004;127(1):3-11.',
     x: { B: 'O oposto.', C: 'O oposto.', D: 'Não é o padrão.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia: SNC',
     e: 'Na LLA, a profilaxia do sistema nervoso central é feita porque:',
-    o: ['O SNC é santuário com alto risco de recidiva', 'Não há risco', 'A LLA nunca acomete o SNC', 'Para tratar cefaleia'],
+    o: ['O SNC é santuário, com alto risco de recidiva', 'Não há risco de acometimento do SNC na LLA', 'A LLA nunca acomete o SNC, em nenhuma fase', 'Para tratar a cefaleia dos pacientes em quimioterapia'],
     g: 'A',
     c: 'Quimioterapia intratecal e sistêmica com penetração no SNC. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Há risco.', C: 'Afirmativa falsa.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LLA Filadélfia positiva',
     e: 'Na LLA com cromossomo Filadélfia, associa-se à quimioterapia:',
-    o: ['Inibidor de tirosina-quinase', 'Ácido transretinoico', 'Rituximabe isolado', 'Interferon'],
+    o: ['Inibidor de tirosina-quinase', 'Ácido transretinoico, que é da LPA', 'Rituximabe isolado, sem quimioterapia', 'Interferon, em dose habitual'],
     g: 'A',
     c: 'Melhora muito o prognóstico. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Para LPA.', C: 'Usado em LLA B CD20+, não é o principal.', D: 'Superado.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Mielodisplasia',
     e: 'Idoso com pancitopenia, macrocitose, medula hipercelular com displasia em várias linhagens e blastos abaixo de 20%. O diagnóstico é:',
-    o: ['Síndrome mielodisplásica', 'LMA', 'Anemia aplásica', 'Deficiência de B12 sempre'],
+    o: ['Síndrome mielodisplásica', 'LMA, com ≥ 20% de blastos', 'Anemia aplásica, com medula hipocelular', 'Deficiência de B12, em todos os casos'],
     g: 'A',
     c: 'Pode evoluir para LMA. Excluir deficiência de B12 e folato. Referência: Greenberg PL et al. Revised International Prognostic Scoring System for MDS. Blood. 2012;120(12):2454-65.',
     x: { B: 'Blastos acima de 20%.', C: 'Medula hipocelular.', D: 'Deve ser excluída, mas a displasia sugere SMD.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LMA: tratamento',
     e: 'Paciente jovem com LMA e boa condição clínica. O tratamento de indução clássico é:',
-    o: ['Citarabina associada a antraciclina (esquema 7+3)', 'Imatinibe', 'ATRA isolado', 'Observação'],
+    o: ['Citarabina + antraciclina (esquema 7+3)', 'Imatinibe, que é para LMC', 'ATRA isolado, que é para LPA', 'Observação clínica, sem quimioterapia'],
     g: 'A',
     c: 'Transplante alogênico conforme risco genético. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Para LMC.', C: 'Para LPA.', D: 'Exige tratamento.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LMA no idoso',
     e: 'Idoso frágil com LMA, inelegível para quimioterapia intensiva. Uma opção é:',
-    o: ['Agente hipometilante (azacitidina) com venetoclax', 'Esquema 7+3 em dose máxima', 'Transplante alogênico imediato', 'Nenhum tratamento sempre'],
+    o: ['Agente hipometilante (azacitidina) com venetoclax', 'Esquema 7+3 em dose máxima, que é intensivo', 'Transplante alogênico imediato, sem remissão prévia', 'Nenhum tratamento, sempre, em idosos'],
     g: 'A',
     c: 'Melhora a sobrevida em relação a cuidados de suporte isolados. Referência: DiNardo CD et al. Azacitidine and Venetoclax in Previously Untreated AML. N Engl J Med. 2020;383(7):617-29.',
     x: { B: 'Toxicidade alta.', C: 'Inelegível.', D: 'Há opções.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia: hipertrofia gengival',
     e: 'Infiltração gengival por blastos é mais típica de:',
-    o: ['LMA com componente monocítico (M4 e M5)', 'LLA', 'LLC', 'LMC fase crônica'],
+    o: ['LMA com componente monocítico (M4 e M5)', 'LLA, que raramente infiltra a gengiva', 'LLC, que raramente infiltra a gengiva', 'LMC em fase crônica, que raramente infiltra a gengiva'],
     g: 'A',
     c: 'Também infiltração de pele (leucemia cutis). Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Menos comum.', C: 'Rara.', D: 'Rara.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Cloroma',
     e: 'Massa extramedular formada por blastos mieloides é chamada de:',
-    o: ['Sarcoma mieloide (cloroma)', 'Plasmocitoma', 'Linfoma', 'Hemangioma'],
+    o: ['Sarcoma mieloide (cloroma)', 'Plasmocitoma, formado por plasmócitos', 'Linfoma, formado por linfócitos', 'Hemangioma, formado por vasos'],
     g: 'A',
     c: 'Pode preceder a leucemia na medula. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Plasmócitos.', C: 'Linfócitos.', D: 'Vascular.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Transplante de medula',
     e: 'O transplante alogênico de células-tronco hematopoéticas tem como principal complicação imunológica:',
-    o: ['Doença do enxerto contra o hospedeiro', 'Rejeição de órgão sólido', 'Alergia a antibiótico', 'Hipotireoidismo'],
+    o: ['Doença do enxerto contra o hospedeiro', 'Rejeição de órgão sólido, que não é do TMO', 'Alergia a antibiótico, que não é do TMO', 'Hipotireoidismo, que não é do TMO'],
     g: 'A',
     c: 'Acomete pele, fígado e trato gastrointestinal. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Pode ocorrer, mas não é a principal.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia: CIVD',
     e: 'A leucemia aguda que mais se associa a CIVD é:',
-    o: ['Leucemia promielocítica aguda', 'LLA B', 'LLC', 'LMC'],
+    o: ['Leucemia promielocítica aguda', 'LLA B, que raramente cursa com CIVD', 'LLC, que raramente cursa com CIVD', 'LMC, que raramente cursa com CIVD'],
     g: 'A',
     c: 'Os grânulos dos promielócitos ativam a coagulação. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Menos comum.', C: 'Rara.', D: 'Rara.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia: investigação',
     e: 'Na suspeita de leucemia aguda, o exame que confirma o diagnóstico e define a linhagem é:',
-    o: ['Mielograma com citometria de fluxo, citogenética e biologia molecular', 'Hemograma isolado', 'Tomografia', 'Sorologias'],
+    o: ['Mielograma com citometria de fluxo, citogenética e biologia molecular', 'Hemograma isolado, que não confirma o diagnóstico', 'Tomografia de corpo inteiro, que não confirma o diagnóstico', 'Sorologias virais, que não confirmam o diagnóstico'],
     g: 'A',
     c: 'Define prognóstico e tratamento. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Fatores de crescimento',
     e: 'O G-CSF (filgrastim) após quimioterapia é usado para:',
-    o: ['Reduzir duração da neutropenia e risco de neutropenia febril em esquemas de alto risco', 'Tratar anemia', 'Aumentar plaquetas', 'Tratar a leucemia diretamente'],
+    o: ['Reduzir a neutropenia e a neutropenia febril em esquemas de alto risco', 'Tratar a anemia dos pacientes em quimioterapia, por ação eritropoética', 'Aumentar as plaquetas dos pacientes em quimioterapia, por ação trombopoética', 'Tratar a leucemia diretamente, por ação antineoplásica citotóxica'],
     g: 'A',
     c: 'Indicação conforme o risco do esquema. Referência: Freifeld AG et al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the IDSA. Clin Infect Dis. 2011;52(4):e56-93.',
     x: { B: 'Eritropoetina.', C: 'Sem efeito.', D: 'Não é antineoplásico.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia: hiperuricemia',
     e: 'Antes da quimioterapia de leucemia com alta carga tumoral, para prevenir nefropatia por ácido úrico usa-se:',
-    o: ['Hidratação e alopurinol ou rasburicase', 'Diurético tiazídico', 'Vitamina C', 'Restrição hídrica'],
+    o: ['Hidratação e alopurinol ou rasburicase', 'Diurético tiazídico, que aumenta o ácido úrico', 'Vitamina C, em dose alta, por via oral', 'Restrição hídrica, que piora a lise tumoral'],
     g: 'A',
     c: 'Rasburicase é contraindicada na deficiência de G6PD. Referência: Cairo MS, Bishop M. Br J Haematol. 2004;127(1):3-11.',
     x: { B: 'Pioraria.', C: 'Sem efeito.', D: 'Pioraria.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia mieloide crônica',
     e: 'Paciente com leucocitose de 150.000 com todas as fases da maturação granulocítica, basofilia e esplenomegalia volumosa. O exame confirmatório é:',
-    o: ['Pesquisa do cromossomo Filadélfia ou do transcrito BCR-ABL1', 'Mielograma com 30% de blastos', 'Teste de Coombs', 'Eletroforese de hemoglobina'],
+    o: ['Pesquisa do cromossomo Filadélfia ou do BCR-ABL1', 'Mielograma com 30% de blastos, que é da LMA', 'Teste de Coombs, que é da anemia hemolítica', 'Eletroforese de hemoglobina, que é da talassemia'],
     g: 'A',
     c: 'A translocação t(9;22) gera a proteína BCR-ABL com atividade de tirosina-quinase. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Sugeriria leucemia aguda.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia mieloide crônica: tratamento',
     e: 'O tratamento de primeira linha da LMC em fase crônica é:',
-    o: ['Inibidor de tirosina-quinase, como imatinibe', 'Quimioterapia de indução 7+3', 'Esplenectomia', 'Ácido transretinoico'],
+    o: ['Inibidor de tirosina-quinase, como imatinibe', 'Quimioterapia de indução 7+3, que é da LMA', 'Esplenectomia, como tratamento inicial', 'Ácido transretinoico, que é da LPA'],
     g: 'A',
     c: 'Transformou a sobrevida, aproximando-a da população geral. Referência: Hochhaus A et al. European LeukemiaNet 2020 recommendations for treating chronic myeloid leukemia. Leukemia. 2020;34(4):966-84.',
     x: { B: 'Para LMA.', C: 'Sem benefício.', D: 'Para LPA.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LMC: fases',
     e: 'A crise blástica da LMC é definida por:',
-    o: ['20% ou mais de blastos no sangue ou medula, ou proliferação blástica extramedular', 'Leucocitose de 50.000', 'Basofilia de 5%', 'Esplenomegalia'],
+    o: ['≥ 20% de blastos no sangue ou na medula, ou blastos extramedulares', 'Leucocitose de 50.000, sem blastos no sangue nem na medula', 'Basofilia de 5%, sem blastos no sangue nem na medula', 'Esplenomegalia, sem blastos no sangue nem na medula'],
     g: 'A',
     c: 'Comporta-se como leucemia aguda, mieloide ou linfoide. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Fase crônica.', C: 'Fase crônica.', D: 'Comum na fase crônica.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Tricoleucemia',
     e: 'Homem de 55 anos com pancitopenia, esplenomegalia volumosa sem adenomegalia, aspirado de medula seco e linfócitos com projeções citoplasmáticas. A hipótese é:',
-    o: ['Leucemia de células pilosas (tricoleucemia)', 'LLC', 'Mielofibrose', 'Leucemia aguda'],
+    o: ['Leucemia de células pilosas (tricoleucemia)', 'LLC, com linfadenopatia e linfocitose', 'Mielofibrose, com dacriócitos', 'Leucemia aguda, com blastos no sangue'],
     g: 'A',
     c: 'Associa-se à mutação BRAF V600E; responde muito bem à cladribina. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Linfocitose sem pancitopenia típica.', C: 'Dacriócitos e fibrose.', D: 'Haveria blastos.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Mielofibrose primária',
     e: 'Paciente com esplenomegalia volumosa, anemia, hemácias em lágrima (dacriócitos), leucoeritroblastose e aspirado de medula seco. O diagnóstico é:',
-    o: ['Mielofibrose primária', 'Policitemia vera', 'Talassemia', 'Anemia ferropriva'],
+    o: ['Mielofibrose primária', 'Policitemia vera, com eritrocitose', 'Talassemia, com microcitose', 'Anemia ferropriva, com microcitose'],
     g: 'A',
     c: 'Associa-se a mutações JAK2, CALR ou MPL; o ruxolitinibe melhora sintomas e esplenomegalia. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Hematócrito elevado.', C: 'Hemácias em alvo.', D: 'Microcitose sem fibrose.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Trombocitemia essencial',
     e: 'Paciente com plaquetas de 1.100.000, mutação JAK2 e episódios de eritromelalgia. O tratamento para alto risco inclui:',
-    o: ['AAS em dose baixa e hidroxiureia', 'Transfusão de plaquetas', 'Esplenectomia', 'Corticoide'],
+    o: ['AAS em dose baixa e hidroxiureia', 'Transfusão de plaquetas, que é contraindicada', 'Esplenectomia, que não é tratamento padrão', 'Corticoide, em dose alta'],
     g: 'A',
     c: 'Alto risco: idade acima de 60 anos ou trombose prévia. Referência: Tefferi A, Pardanani A. Essential thrombocythemia. N Engl J Med. 2019;381(22):2135-44.',
     x: { B: 'Contraindicado.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Neutropenia febril',
     e: 'Paciente em quimioterapia com febre de 38,3 °C e neutrófilos de 200. O antibiótico empírico inicial é:',
-    o: ['Betalactâmico com ação antipseudomonas, como cefepima ou piperacilina-tazobactam', 'Amoxicilina oral', 'Vancomicina isolada de rotina', 'Fluconazol isolado'],
+    o: ['Betalactâmico antipseudomonas (cefepima ou piperacilina-tazobactam), por via venosa', 'Amoxicilina oral, em dose habitual, em tratamento ambulatorial', 'Vancomicina isolada de rotina, sem associar betalactâmico antipseudomonas', 'Fluconazol isolado, em dose habitual, sem antibiótico antibacteriano'],
     g: 'A',
     c: 'Vancomicina é associada se houver instabilidade, infecção de cateter ou pele. Referência: Freifeld AG et al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the IDSA. Clin Infect Dis. 2011;52(4):e56-93.',
     x: { B: 'Sem cobertura adequada.', C: 'Não é rotina.', D: 'Sem cobertura bacteriana.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Neutropenia febril: definição',
     e: 'Neutropenia febril é definida por febre e neutrófilos:',
-    o: ['Abaixo de 500/mm³ ou com previsão de queda abaixo desse valor', 'Abaixo de 5.000/mm³', 'Abaixo de 2.000/mm³ sempre', 'Acima de 1.500/mm³'],
+    o: ['< 500/mm³, ou com previsão de queda abaixo desse valor', '< 5.000/mm³, que é uma leucometria normal-baixa, sem neutropenia', '< 2.000/mm³, sempre, em todos os casos, sem previsão de queda', '> 1.500/mm³, que é um valor normal, sem neutropenia'],
     g: 'A',
     c: 'Neutrófilos abaixo de 100 indicam neutropenia profunda. Referência: Freifeld AG et al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the IDSA. Clin Infect Dis. 2011;52(4):e56-93.',
     x: { B: 'Valor normal.', C: 'Leve.', D: 'Normal.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia: hipertrofia gengival',
     e: 'Paciente com leucemia aguda e hipertrofia gengival importante. O subtipo mais associado é:',
-    o: ['LMA com componente monocítico (mielomonocítica ou monocítica)', 'LPA', 'LLA', 'LMC'],
+    o: ['LMA com componente monocítico (mielomonocítica ou monocítica)', 'LPA, que cursa com CIVD e sangramento, mas não com hipertrofia gengival', 'LLA, que raramente infiltra a gengiva do paciente', 'LMC, que raramente infiltra a gengiva do paciente'],
     g: 'A',
     c: 'Também associa-se a infiltração cutânea e do SNC. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Associada a CIVD.', C: 'Sem essa associação.', D: 'Fase crônica.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Sarcoma granulocítico',
     e: 'Paciente com massa tecidual composta por blastos mieloides, com ou sem doença na medula. O diagnóstico é:',
-    o: ['Sarcoma mieloide (cloroma)', 'Linfoma de Hodgkin', 'Plasmocitoma', 'Mieloma'],
+    o: ['Sarcoma mieloide (cloroma)', 'Linfoma de Hodgkin, com células de Reed-Sternberg', 'Plasmocitoma, formado por plasmócitos', 'Mieloma múltiplo, formado por plasmócitos'],
     g: 'A',
     c: 'É tratado como LMA. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Sem relação.', C: 'Plasmócitos.', D: 'Plasmócitos.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LLA: diagnóstico',
     e: 'O exame mais importante para classificar a linhagem de uma leucemia aguda é:',
-    o: ['Imunofenotipagem por citometria de fluxo', 'Hemograma isolado', 'VHS', 'Ferritina'],
+    o: ['Imunofenotipagem por citometria de fluxo', 'Hemograma isolado, que não define a linhagem', 'VHS, que não define a linhagem', 'Ferritina, que não define a linhagem'],
     g: 'A',
     c: 'Também se fazem citogenética e biologia molecular para estratificar risco. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LLA: recidiva',
     e: 'Locais santuário de recidiva da LLA, que exigem profilaxia ou vigilância, são:',
-    o: ['Sistema nervoso central e testículos', 'Fígado e baço', 'Pele', 'Pulmão'],
+    o: ['Sistema nervoso central e testículos', 'Fígado e baço, que não são santuários', 'Pele, que não é santuário', 'Pulmão, que não é santuário'],
     g: 'A',
     c: 'A profilaxia do SNC é feita com quimioterapia intratecal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não são santuários.', C: 'Não é santuário clássico.', D: 'Não é santuário.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Transplante de medula',
     e: 'A principal complicação do transplante alogênico de medula óssea é:',
-    o: ['Doença do enxerto contra o hospedeiro', 'Rejeição sempre', 'Policitemia', 'Hipertensão leve'],
+    o: ['Doença do enxerto contra o hospedeiro', 'Rejeição, sempre, em todos os casos de TMO', 'Policitemia, em todos os casos de TMO', 'Hipertensão leve, em todos os casos de TMO'],
     g: 'A',
     c: 'Acomete pele, fígado e trato gastrointestinal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos comum.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucocitose',
     e: 'A causa mais comum de leucocitose com neutrofilia em adultos é:',
-    o: ['Infecção bacteriana', 'Leucemia', 'Mielofibrose', 'Linfoma'],
+    o: ['Infecção bacteriana', 'Leucemia, que é causa menos comum', 'Mielofibrose, que é causa menos comum', 'Linfoma, que é causa menos comum'],
     g: 'A',
     c: 'Corticoides, tabagismo e estresse também elevam neutrófilos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos comum.', C: 'Menos comum.', D: 'Menos comum.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Linfocitose',
     e: 'Linfocitose com linfócitos atípicos em adulto jovem com febre e faringite sugere:',
-    o: ['Mononucleose infecciosa', 'LLC', 'Leucemia aguda', 'Mieloma'],
+    o: ['Mononucleose infecciosa', 'LLC, que é de idosos', 'Leucemia aguda, com blastos', 'Mieloma múltiplo, com plasmócitos'],
     g: 'A',
     c: 'A LLC ocorre em idosos com linfócitos maduros. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Idosos.', C: 'Haveria blastos.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Eosinofilia',
     e: 'Causa comum de eosinofilia em países tropicais é:',
-    o: ['Parasitoses intestinais com ciclo tecidual, como estrongiloidíase', 'Infecção bacteriana aguda', 'Corticoide', 'Estresse'],
+    o: ['Parasitoses intestinais com ciclo tecidual (estrongiloidíase)', 'Infecção bacteriana aguda, que causa neutrofilia e não eosinofilia', 'Corticoide, que causa eosinopenia e não eosinofilia', 'Estresse físico, que causa eosinopenia e não eosinofilia'],
     g: 'A',
     c: 'Asma, alergias e drogas também causam. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Reduz eosinófilos.', C: 'Reduz eosinófilos.', D: 'Reduz eosinófilos.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Neutropenia étnica',
     e: 'Afrodescendente assintomático com neutrófilos de 1.200, sem infecções recorrentes e exames normais. A hipótese é:',
-    o: ['Neutropenia étnica benigna', 'Leucemia', 'Aplasia', 'Mielodisplasia'],
+    o: ['Neutropenia étnica benigna', 'Leucemia, com blastos e citopenias', 'Aplasia de medula, com pancitopenia', 'Mielodisplasia, com displasia e citopenias'],
     g: 'A',
     c: 'Não exige tratamento. Referência: Merz LE et al. Absolute neutrophil count by Duffy status among healthy Black and African American adults. Blood Adv. 2023;7(3):317-20.',
     x: { B: 'Haveria outras alterações.', C: 'Pancitopenia.', D: 'Outras alterações.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Agranulocitose por drogas',
     e: 'Paciente em uso de metimazol apresenta febre e dor de garganta, com neutrófilos de 100. A conduta é:',
-    o: ['Suspender o metimazol e tratar como neutropenia febril', 'Manter o metimazol', 'Aumentar a dose', 'Iniciar corticoide isolado'],
+    o: ['Suspender o metimazol e tratar como neutropenia febril', 'Manter o metimazol, em dose habitual', 'Aumentar a dose do metimazol, para controle', 'Iniciar corticoide isolado, em dose alta'],
     g: 'A',
     c: 'Também causam: dipirona, clozapina e sulfas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco de morte.', C: 'Pioraria.', D: 'Insuficiente.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Fator estimulador de colônias',
     e: 'O G-CSF (filgrastim) pode ser usado para:',
-    o: ['Reduzir duração da neutropenia após quimioterapia em pacientes de alto risco', 'Tratar policitemia', 'Tratar trombocitose', 'Tratar anemia ferropriva'],
+    o: ['Reduzir a duração da neutropenia pós-quimioterapia em pacientes de alto risco', 'Tratar policitemia, por supressão da medula óssea e redução do hematócrito', 'Tratar trombocitose, por supressão da medula óssea e redução das plaquetas', 'Tratar anemia ferropriva, por reposição do ferro corporal e da ferritina'],
     g: 'A',
     c: 'Também mobiliza células-tronco para transplante. Referência: Freifeld AG et al. Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the IDSA. Clin Infect Dis. 2011;52(4):e56-93.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucostase',
     e: 'A leucoaferese é considerada na leucemia aguda com:',
-    o: ['Hiperleucocitose sintomática (leucostase), enquanto se inicia o tratamento', 'Leucocitose de 15.000', 'Neutropenia febril', 'Anemia leve'],
+    o: ['Hiperleucocitose sintomática (leucostase), enquanto se inicia o tratamento', 'Leucocitose de 15.000, sem sintomas de leucostase ou hiperviscosidade', 'Neutropenia febril, sem hiperleucocitose nem sintomas de leucostase', 'Anemia leve, sem hiperleucocitose nem sintomas de leucostase'],
     g: 'A',
     c: 'A hidroxiureia também reduz rapidamente os leucócitos. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Sem indicação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'LMA: prognóstico',
     e: 'É alteração citogenética de bom prognóstico na LMA:',
-    o: ['t(8;21) e inv(16), ou t(15;17) na LPA', 'Cariótipo complexo', 'Monossomia do 7', 'Mutação TP53'],
+    o: ['t(8;21) e inv(16), ou t(15;17) na LPA', 'Cariótipo complexo, que é de mau prognóstico', 'Monossomia do 7, que é de mau prognóstico', 'Mutação TP53, que é de mau prognóstico'],
     g: 'A',
     c: 'São as leucemias com fator de ligação ao core. Referência: Döhner H et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood. 2022;140(12):1345-77.',
     x: { B: 'Mau prognóstico.', C: 'Mau prognóstico.', D: 'Mau prognóstico.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Pancitopenia',
     e: 'Causas de pancitopenia incluem:',
-    o: ['Aplasia de medula, leucemia, mielodisplasia, hiperesplenismo, deficiência de B12 e infecções como calazar', 'Apenas sangramento agudo', 'Apenas talassemia minor', 'Apenas desidratação'],
+    o: ['Aplasia, leucemia, mielodisplasia, hiperesplenismo, falta de B12 e calazar', 'Apenas sangramento agudo, sem outras causas de pancitopenia', 'Apenas talassemia minor, sem outras causas de pancitopenia', 'Apenas desidratação, sem outras causas de pancitopenia'],
     g: 'A',
     c: 'O mielograma e a biópsia de medula são centrais na investigação. Referência: Hoffbrand AV, Moss PAH. Fundamentos em Hematologia de Hoffbrand. 7ª ed. Porto Alegre: Artmed, 2018.',
     x: { B: 'Não causa pancitopenia.', C: 'Não causa.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_LEUC: QuestaoCompacta[] = [
   {
     s: 'Leucemia: exame de medula',
     e: 'Para o diagnóstico de leucemia aguda, o exame essencial é:',
-    o: ['Mielograma (aspirado de medula) com imunofenotipagem', 'Radiografia de tórax', 'Ultrassom', 'Tomografia de crânio'],
+    o: ['Mielograma (aspirado de medula) com imunofenotipagem', 'Radiografia de tórax, que não confirma o diagnóstico', 'Ultrassom de abdome, que não confirma o diagnóstico', 'Tomografia de crânio, que não confirma o diagnóstico'],
     g: 'A',
     c: 'A biópsia é útil quando o aspirado é seco. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },

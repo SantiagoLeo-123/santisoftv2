@@ -13,7 +13,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: usuários de drogas',
     e: 'Usuário de drogas injetáveis com febre, êmbolos pulmonares sépticos e sopro de regurgitação tricúspide. O agente provável é:',
-    o: ['Staphylococcus aureus', 'Streptococcus bovis', 'Enterococcus', 'Fungos sempre'],
+    o: ['Staphylococcus aureus', 'Streptococcus bovis, associado a neoplasia de cólon', 'Enterococcus, associado a procedimentos geniturinários', 'Fungos, em todos os usuários de drogas'],
     g: 'A',
     c: 'A valva tricúspide é a mais acometida nesse grupo. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Associado a câncer colorretal.', C: 'Mais em idosos e procedimentos urológicos.', D: 'Menos comum.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Streptococcus gallolyticus',
     e: 'Paciente com endocardite por Streptococcus gallolyticus (antigo S. bovis). A investigação adicional obrigatória é:',
-    o: ['Colonoscopia, pela associação com neoplasia colorretal', 'Endoscopia de vias biliares', 'Ressonância de crânio', 'Cintilografia óssea'],
+    o: ['Colonoscopia, pela associação com neoplasia colorretal', 'Endoscopia de vias biliares, para pesquisa de colangite', 'Ressonância de crânio, para pesquisa de embolia', 'Cintilografia óssea, para pesquisa de osteomielite'],
     g: 'A',
     c: 'A associação com lesões colônicas é bem estabelecida. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Critérios de Duke',
     e: 'São critérios maiores de Duke para endocardite:',
-    o: ['Hemoculturas positivas para germe típico em amostras separadas e evidência de envolvimento endocárdico por imagem', 'Febre e fenômenos vasculares', 'Fator reumatoide positivo', 'Glomerulonefrite'],
+    o: ['Hemoculturas típicas em amostras separadas e envolvimento endocárdico à imagem', 'Febre e fenômenos vasculares, que são apenas critérios menores', 'Fator reumatoide positivo, que é apenas critério menor imunológico', 'Glomerulonefrite, que é apenas critério menor imunológico'],
     g: 'A',
     c: 'Diagnóstico definitivo: 2 maiores, 1 maior e 3 menores, ou 5 menores. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'São critérios menores.', C: 'Critério menor imunológico.', D: 'Critério menor.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: hemoculturas',
     e: 'Na suspeita de endocardite em paciente estável, antes do antibiótico, devem ser colhidas:',
-    o: ['Pelo menos três pares de hemoculturas de punções diferentes', 'Uma única hemocultura', 'Urocultura apenas', 'Nenhuma'],
+    o: ['Pelo menos três pares de hemoculturas de punções diferentes', 'Uma única hemocultura, de uma única punção venosa', 'Urocultura apenas, sem hemoculturas', 'Nenhuma cultura, pois o antibiótico não pode esperar'],
     g: 'A',
     c: 'A coleta adequada é essencial para o diagnóstico e escolha do antibiótico. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Essenciais.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: ecocardiograma',
     e: 'Paciente com suspeita forte de endocardite e ecocardiograma transtorácico normal. A conduta é:',
-    o: ['Realizar ecocardiograma transesofágico', 'Descartar endocardite', 'Repetir o transtorácico em 6 meses', 'Fazer radiografia'],
+    o: ['Realizar ecocardiograma transesofágico', 'Descartar endocardite, pois o transtorácico foi normal', 'Repetir o transtorácico em 6 meses, sem outros exames', 'Fazer radiografia de tórax, para excluir a doença'],
     g: 'A',
     c: 'O transesofágico tem maior sensibilidade, especialmente em próteses e abscessos. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Não exclui.', C: 'Atraso perigoso.', D: 'Sem utilidade.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: tratamento empírico',
     e: 'Tratamento empírico de endocardite aguda em valva nativa, com suspeita de Staphylococcus aureus, inclui:',
-    o: ['Vancomicina (ou oxacilina se baixa prevalência de MRSA), associada conforme protocolo', 'Amoxicilina oral', 'Azitromicina', 'Fluconazol'],
+    o: ['Vancomicina (ou oxacilina se pouco MRSA), conforme protocolo', 'Amoxicilina oral, em dose habitual, por 7 dias de tratamento', 'Azitromicina oral, em dose única diária, por 5 dias de tratamento', 'Fluconazol oral, em dose habitual diária, por 14 dias de tratamento'],
     g: 'A',
     c: 'O antibiótico é ajustado pelas culturas. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: duração',
     e: 'O tratamento antibiótico de endocardite em valva nativa dura geralmente:',
-    o: ['4 a 6 semanas, majoritariamente intravenoso', '7 dias', '3 dias', '1 ano'],
+    o: ['4 a 6 semanas, majoritariamente intravenoso', '7 dias, por via oral ambulatorial', '3 dias, por via intravenosa hospitalar', '1 ano, por via oral ambulatorial'],
     g: 'A',
     c: 'Estudos mostraram que a transição para via oral em pacientes estáveis pode ser segura. Referência: Iversen K et al. Partial Oral versus Intravenous Antibiotic Treatment of Endocarditis (POET). N Engl J Med. 2019;380(5):415-24.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Excessivo.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: cirurgia',
     e: 'É indicação de cirurgia na endocardite:',
-    o: ['Insuficiência cardíaca por disfunção valvar, infecção não controlada (abscesso) e prevenção de embolia com vegetação grande', 'Febre no primeiro dia', 'Qualquer vegetação pequena', 'Sopro sem repercussão'],
+    o: ['IC por disfunção valvar, infecção não controlada ou vegetação grande com embolia', 'Febre no primeiro dia de tratamento antibiótico, sem outros critérios', 'Qualquer vegetação pequena, sem repercussão hemodinâmica ou embolia', 'Sopro sem repercussão hemodinâmica e sem sinais de infecção persistente'],
     g: 'A',
     c: 'A cirurgia precoce reduz mortalidade em casos selecionados. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Não é critério.', C: 'Não é critério isolado.', D: 'Não é critério.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite com hemocultura negativa',
     e: 'Causas de endocardite com hemoculturas negativas incluem:',
-    o: ['Uso prévio de antibiótico, Coxiella burnetii, Bartonella e germes do grupo HACEK', 'Staphylococcus aureus sempre', 'Pneumococo', 'E. coli'],
+    o: ['Antibiótico prévio, Coxiella burnetii, Bartonella e grupo HACEK', 'Staphylococcus aureus, que cresce rapidamente na hemocultura habitual', 'Pneumococo, que cresce rapidamente na hemocultura habitual', 'E. coli, que cresce rapidamente na hemocultura habitual'],
     g: 'A',
     c: 'Sorologias e PCR do tecido valvar ajudam. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Cresce facilmente.', C: 'Cresce facilmente.', D: 'Cresce facilmente.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'HACEK',
     e: 'Os germes do grupo HACEK:',
-    o: ['São gram-negativos de crescimento lento, causa de endocardite com cultura demorada', 'São estafilococos', 'São fungos', 'São vírus'],
+    o: ['Gram-negativos de crescimento lento; cultura demorada', 'Estafilococos, de crescimento rápido na hemocultura habitual', 'Fungos leveduriformes, de crescimento rápido na hemocultura', 'Vírus, que não crescem em hemocultura convencional'],
     g: 'A',
     c: 'Inclui Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella e Kingella. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Gram-negativos.', C: 'Bactérias.', D: 'Bactérias.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite em prótese precoce',
     e: 'Endocardite em prótese valvar nos primeiros meses após a cirurgia é causada principalmente por:',
-    o: ['Estafilococos (coagulase-negativo e aureus)', 'Streptococcus viridans', 'Enterococcus em todos', 'Pneumococo'],
+    o: ['Estafilococos (coagulase-negativo e aureus)', 'Streptococcus viridans, comum na valva nativa', 'Enterococcus em todos os casos de prótese', 'Pneumococo, comum na pneumonia'],
     g: 'A',
     c: 'Associa-se à contaminação perioperatória. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Mais tardia.', C: 'Menos comum.', D: 'Raro.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: profilaxia',
     e: 'Profilaxia antibiótica antes de procedimento dentário com manipulação gengival é indicada para:',
-    o: ['Portadores de prótese valvar, endocardite prévia e algumas cardiopatias congênitas cianóticas', 'Todos com sopro', 'Todos com prolapso mitral', 'Todos os diabéticos'],
+    o: ['Prótese valvar, endocardite prévia e algumas cardiopatias cianóticas', 'Todos os pacientes com sopro, mesmo sem cardiopatia estrutural', 'Todos os pacientes com prolapso mitral sem regurgitação valvar', 'Todos os diabéticos, mesmo sem cardiopatia estrutural'],
     g: 'A',
     c: 'Amoxicilina 2 g VO 30 a 60 minutos antes. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Não indicada.', C: 'Não indicada.', D: 'Não indicada.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: complicações',
     e: 'A complicação extracardíaca mais frequente da endocardite do lado esquerdo é:',
-    o: ['Embolia sistêmica, especialmente para o sistema nervoso central', 'Pneumonia', 'Pancreatite', 'Hepatite'],
+    o: ['Embolia sistêmica, sobretudo para o sistema nervoso central', 'Pneumonia por aspiração, de ocorrência pouco frequente', 'Pancreatite aguda por embolia mesentérica, de ocorrência rara', 'Hepatite aguda por toxicidade medicamentosa, de ocorrência rara'],
     g: 'A',
     c: 'Vegetações grandes e móveis aumentam o risco. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Mais lado direito.', C: 'Rara.', D: 'Rara.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Aneurisma micótico',
     e: 'Paciente com endocardite apresenta cefaleia súbita e hemorragia intracraniana. A hipótese é:',
-    o: ['Aneurisma micótico roto', 'Enxaqueca', 'Meningite viral', 'Hipertensão leve'],
+    o: ['Aneurisma micótico roto', 'Enxaqueca, com aura visual', 'Meningite viral, com febre e rigidez de nuca', 'Hipertensão leve, sem relação com a endocardite'],
     g: 'A',
     c: 'Angiotomografia ou angiografia identificam o aneurisma. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Sem relação.', C: 'Sem hemorragia.', D: 'Sem relação.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: glomerulonefrite',
     e: 'Na endocardite, a glomerulonefrite por imunocomplexos pode cursar com:',
-    o: ['Hematúria e consumo de complemento', 'Apenas glicosúria', 'Hipercalemia isolada', 'Poliúria'],
+    o: ['Hematúria e consumo de complemento', 'Apenas glicosúria, sem alteração urinária', 'Hipercalemia isolada, sem alteração urinária', 'Poliúria, sem alteração do sedimento urinário'],
     g: 'A',
     c: 'É critério menor imunológico de Duke. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: enterococo',
     e: 'Endocardite por Enterococcus faecalis sensível é tratada com:',
-    o: ['Ampicilina associada a ceftriaxona ou gentamicina', 'Cefalosporina isolada', 'Vancomicina isolada como primeira escolha', 'Azitromicina'],
+    o: ['Ampicilina associada a ceftriaxona ou gentamicina', 'Cefalosporina isolada, que não tem ação contra enterococo', 'Vancomicina isolada como primeira escolha, em qualquer caso', 'Azitromicina oral, em dose habitual'],
     g: 'A',
     c: 'Enterococos são intrinsecamente resistentes a cefalosporinas isoladas. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Ineficaz.', C: 'Alternativa.', D: 'Ineficaz.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite marântica',
     e: 'Paciente com câncer avançado e êmbolos sistêmicos, com vegetações estéreis. O diagnóstico é:',
-    o: ['Endocardite trombótica não bacteriana (marântica)', 'Endocardite estafilocócica', 'Febre reumática', 'Miocardite'],
+    o: ['Endocardite trombótica não bacteriana (marântica)', 'Endocardite estafilocócica, com bacteremia persistente', 'Febre reumática, com cardite e vegetações', 'Miocardite, sem vegetações valvares'],
     g: 'A',
     c: 'Associa-se a estados de hipercoagulabilidade e é tratada com anticoagulação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Culturas seriam positivas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: bloqueio AV',
     e: 'Paciente com endocardite aórtica desenvolve bloqueio atrioventricular novo. Isso sugere:',
-    o: ['Abscesso perivalvar com extensão ao sistema de condução', 'Melhora clínica', 'Efeito do antibiótico', 'Endocardite tricúspide'],
+    o: ['Abscesso perivalvar com extensão ao sistema de condução', 'Melhora clínica, com resolução da infecção', 'Efeito do antibiótico, sem relação com a infecção', 'Endocardite tricúspide, sem relação com a condução'],
     g: 'A',
     c: 'É indicação de cirurgia. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Sinal de gravidade.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Bacteremia por S. aureus',
     e: 'Paciente com bacteremia por Staphylococcus aureus sem foco aparente. A conduta inclui:',
-    o: ['Ecocardiograma para pesquisar endocardite e hemoculturas de controle', 'Antibiótico por 3 dias', 'Nenhum exame adicional', 'Antibiótico oral imediato'],
+    o: ['Ecocardiograma para pesquisar endocardite; hemoculturas de controle', 'Antibiótico por 3 dias, sem outros exames complementares', 'Nenhum exame adicional, pois não há foco aparente de infecção', 'Antibiótico oral imediato, sem exames complementares adicionais'],
     g: 'A',
     c: 'A bacteremia por S. aureus nunca deve ser considerada contaminação. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Insuficiente.', C: 'Exige investigação.', D: 'Inadequado.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: fatores de risco',
     e: 'É fator de risco para endocardite infecciosa:',
-    o: ['Prótese valvar, endocardite prévia, uso de drogas injetáveis e cateteres de longa permanência', 'Hipertensão controlada', 'Asma', 'Diabetes tipo 2 bem controlado isoladamente'],
+    o: ['Prótese valvar, endocardite prévia, drogas injetáveis, cateter longo', 'Hipertensão controlada, sem cardiopatia estrutural associada', 'Asma brônquica, sem cardiopatia estrutural associada', 'Diabetes tipo 2 bem controlado, de forma isolada e sem valvopatia'],
     g: 'A',
     c: 'A hemodiálise também aumenta o risco. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Não é fator importante.', C: 'Sem relação.', D: 'Não é fator principal.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite aguda vs subaguda',
     e: 'A endocardite subaguda caracteriza-se por:',
-    o: ['Evolução arrastada em semanas, com febre baixa, perda de peso e germes menos virulentos, como estreptococos viridans', 'Evolução em horas com choque', 'Sempre causada por S. aureus', 'Ausência de febre'],
+    o: ['Evolução arrastada, com febre baixa e emagrecimento; germes pouco virulentos', 'Evolução em horas, com choque séptico e instabilidade', 'Sempre causada por Staphylococcus aureus, de alta virulência', 'Ausência de febre durante toda a evolução da doença'],
     g: 'A',
     c: 'A forma aguda é mais associada ao S. aureus. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Forma aguda.', C: 'Forma aguda.', D: 'A febre é frequente.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: hemorragias em estilhaço',
     e: 'Hemorragias subungueais lineares na endocardite:',
-    o: ['São inespecíficas e também ocorrem com trauma', 'São patognomônicas', 'Indicam cura', 'São dolorosas sempre'],
+    o: ['São inespecíficas e também ocorrem com trauma', 'São patognomônicas da endocardite infecciosa', 'Indicam cura da infecção, quando presentes', 'São sempre dolorosas, quando presentes'],
     g: 'A',
     c: 'Os sinais periféricos são pouco específicos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não são.', C: 'Sem relação.', D: 'Não são dolorosas.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: Coxiella',
     e: 'Paciente com endocardite com culturas negativas, contato com animais de fazenda e prótese valvar. Um agente a pesquisar é:',
-    o: ['Coxiella burnetii (febre Q), por sorologia', 'Streptococcus pyogenes', 'Escherichia coli', 'Candida auris'],
+    o: ['Coxiella burnetii (febre Q), por sorologia', 'Streptococcus pyogenes, que cresce na hemocultura', 'Escherichia coli, que cresce na hemocultura', 'Candida auris, que cresce na hemocultura'],
     g: 'A',
     c: 'Tratamento prolongado com doxiciclina e hidroxicloroquina. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Cresce em cultura.', C: 'Cresce em cultura.', D: 'Fungo.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite fúngica',
     e: 'Endocardite por Candida é mais comum em:',
-    o: ['Usuários de drogas, pacientes com cateteres, nutrição parenteral e próteses', 'Jovens saudáveis', 'Gestantes', 'Asmáticos'],
+    o: ['Usuários de drogas, cateteres, nutrição parenteral e próteses', 'Jovens saudáveis, sem nenhum fator de risco associado', 'Gestantes saudáveis, sem nenhum fator de risco associado', 'Asmáticos em uso de corticoide inalatório, sem outros fatores'],
     g: 'A',
     c: 'Exige cirurgia na maioria dos casos. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Raro.', C: 'Raro.', D: 'Raro.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: insuficiência aórtica',
     e: 'Paciente com endocardite aórtica apresenta dispneia súbita, hipotensão e sopro diastólico novo. A conduta é:',
-    o: ['Cirurgia de urgência, pela insuficiência aórtica aguda com insuficiência cardíaca', 'Antibiótico e alta', 'Diurético isolado', 'Betabloqueador'],
+    o: ['Cirurgia de urgência: insuficiência aórtica aguda com IC', 'Antibiótico e alta hospitalar, com retorno ambulatorial', 'Diurético isolado, sem avaliação cirúrgica', 'Betabloqueador intravenoso, que piora a regurgitação'],
     g: 'A',
     c: 'É a principal indicação cirúrgica. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Pioraria.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: anticoagulação',
     e: 'Paciente com endocardite em valva nativa sem outra indicação de anticoagulação. Sobre anticoagulante ou antiagregante para prevenir embolia:',
-    o: ['Não são indicados, pelo risco de sangramento sem benefício', 'São obrigatórios', 'Previnem toda embolia', 'Substituem o antibiótico'],
+    o: ['Não indicados, pelo risco de sangramento sem benefício', 'São obrigatórios em toda endocardite, por embolia', 'Previnem toda embolia, em qualquer vegetação', 'Substituem o antibiótico no tratamento'],
     g: 'A',
     c: 'O antibiótico reduz rapidamente o risco embólico. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Não são indicados.', C: 'Sem benefício.', D: 'Não substituem.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: equipe',
     e: 'Diretrizes atuais recomendam que pacientes com endocardite complicada sejam manejados por:',
-    o: ['Equipe multidisciplinar (endocarditis team) em centro de referência', 'Médico generalista isolado', 'Somente cirurgião', 'Atenção primária'],
+    o: ['Equipe multidisciplinar (endocarditis team) em centro de referência', 'Médico generalista isolado, em hospital de pequeno porte', 'Somente o cirurgião cardíaco, sem outras especialidades', 'Atenção primária, com acompanhamento ambulatorial'],
     g: 'A',
     c: 'Reduz mortalidade. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: hemodiálise',
     e: 'Paciente em hemodiálise por cateter com febre e bacteremia. A hipótese principal é:',
-    o: ['Infecção relacionada ao cateter, com risco de endocardite', 'Gripe', 'Pneumonia viral', 'Tuberculose'],
+    o: ['Infecção relacionada ao cateter, com risco de endocardite', 'Gripe, com sintomas respiratórios e mialgia, sem relação com o cateter', 'Pneumonia viral, com infiltrado pulmonar, sem relação com o cateter', 'Tuberculose, com febre vespertina, sem relação com o cateter'],
     g: 'A',
     c: 'Estafilococos são os principais agentes. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Menos provável.', C: 'Menos provável.', D: 'Menos provável.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: vegetação',
     e: 'O tamanho de vegetação associado a maior risco de embolia é:',
-    o: ['Maior que 10 mm, especialmente móvel em valva mitral', 'Menor que 2 mm', 'Qualquer tamanho igual', 'Apenas vegetações calcificadas'],
+    o: ['Maior que 10 mm, sobretudo móvel em valva mitral', 'Menor que 2 mm, em qualquer valva', 'Qualquer tamanho, com o mesmo risco', 'Apenas vegetações calcificadas e imóveis'],
     g: 'A',
     c: 'Vegetação maior que 10 mm com embolia ou maior que 30 mm é indicação cirúrgica. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Menor risco.', C: 'Há diferença.', D: 'Não é o critério.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: VHS e PCR',
     e: 'Na endocardite, marcadores inflamatórios:',
-    o: ['Costumam estar elevados e ajudam a monitorar a resposta', 'São sempre normais', 'Confirmam o diagnóstico', 'Não têm utilidade'],
+    o: ['Costumam estar elevados e ajudam a monitorar a resposta', 'São sempre normais, mesmo na infecção ativa', 'Confirmam o diagnóstico, de forma isolada', 'Não têm utilidade no acompanhamento'],
     g: 'A',
     c: 'Anemia de doença crônica também é comum. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Costumam estar elevados.', C: 'Não confirmam.', D: 'Têm utilidade.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: fator reumatoide',
     e: 'Fator reumatoide positivo na endocardite é:',
-    o: ['Critério menor imunológico de Duke', 'Critério maior', 'Sinal de artrite reumatoide obrigatória', 'Sem significado'],
+    o: ['Critério menor imunológico de Duke', 'Critério maior de Duke, por ser imunológico', 'Sinal de artrite reumatoide, obrigatoriamente', 'Sem significado no diagnóstico da endocardite'],
     g: 'A',
     c: 'Reflete estímulo imunológico crônico. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Não é maior.', C: 'Sem relação obrigatória.', D: 'Tem significado.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite tricúspide',
     e: 'Na endocardite tricúspide, as embolias vão principalmente para:',
-    o: ['Os pulmões, causando nódulos e cavitações (êmbolos sépticos)', 'O cérebro', 'Os rins', 'O baço'],
+    o: ['Pulmões: nódulos e cavitações (êmbolos sépticos)', 'Cérebro, com AVC embólico e abscessos cerebrais', 'Rins, com infartos renais e glomerulonefrite', 'Baço, com infartos esplênicos e abscessos esplênicos'],
     g: 'A',
     c: 'O prognóstico costuma ser melhor que nas do lado esquerdo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Lado esquerdo.', C: 'Lado esquerdo.', D: 'Lado esquerdo.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: dentes',
     e: 'Para reduzir o risco de endocardite em pacientes com valvopatia, a principal medida é:',
-    o: ['Boa higiene bucal e acompanhamento odontológico regular', 'Antibiótico mensal', 'Evitar escovar os dentes', 'Nenhuma medida'],
+    o: ['Boa higiene bucal e acompanhamento odontológico regular', 'Antibiótico mensal, para todos os valvopatas', 'Evitar escovar os dentes, para evitar bacteremia', 'Nenhuma medida preventiva é recomendada'],
     g: 'A',
     c: 'Bacteremias diárias pela mastigação e escovação superam as de procedimentos. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Sem indicação.', C: 'Contraproducente.', D: 'Há medida.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: dispositivos',
     e: 'Paciente com marca-passo e bacteremia persistente por S. aureus. A conduta inclui:',
-    o: ['Remoção completa do sistema do dispositivo, além do antibiótico', 'Apenas antibiótico', 'Apenas trocar o gerador', 'Observação'],
+    o: ['Remover todo o sistema do dispositivo e dar antibiótico', 'Apenas antibiótico, sem remover o dispositivo', 'Apenas trocar o gerador, mantendo os eletrodos', 'Observação clínica, sem outras medidas'],
     g: 'A',
     c: 'Sem remoção, a infecção persiste. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Inadequado.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: estreptococo sensível',
     e: 'Endocardite em valva nativa por Streptococcus viridans sensível à penicilina é tratada com:',
-    o: ['Penicilina G cristalina ou ceftriaxona por 4 semanas', 'Vancomicina por 1 semana', 'Amoxicilina oral por 3 dias', 'Nenhum'],
+    o: ['Penicilina G cristalina ou ceftriaxona por 4 semanas', 'Vancomicina por 1 semana, por via intravenosa', 'Amoxicilina oral por 3 dias, ambulatorial', 'Nenhum antibiótico, apenas observação clínica'],
     g: 'A',
     c: 'Em casos selecionados, 2 semanas com aminoglicosídeo associado. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Exige.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: acompanhamento',
     e: 'Após endocardite, o paciente deve ser orientado sobre:',
-    o: ['Risco de recorrência, profilaxia dentária e sinais de alerta de nova infecção', 'Nenhum cuidado', 'Antibiótico contínuo por toda a vida', 'Evitar atividade física sempre'],
+    o: ['Risco de recorrência, profilaxia dentária e sinais de alerta', 'Nenhum cuidado adicional, pois a doença está curada', 'Antibiótico contínuo por toda a vida, para evitar recidiva', 'Evitar sempre qualquer atividade física, mesmo leve'],
     g: 'A',
     c: 'O seguimento inclui ecocardiograma e avaliação valvar. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Há cuidados.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Bacteremia: fonte',
     e: 'Paciente idoso com endocardite por Enterococcus. Deve-se investigar foco:',
-    o: ['Urinário ou gastrointestinal', 'Respiratório', 'Dentário apenas', 'Cutâneo apenas'],
+    o: ['Urinário ou gastrointestinal', 'Respiratório, por pneumonia prévia', 'Dentário apenas, por procedimento odontológico', 'Cutâneo apenas, por lesão de pele'],
     g: 'A',
     c: 'Procedimentos urológicos são fatores clássicos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos comum.', C: 'Não é o principal.', D: 'Não é o principal.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: diagnóstico diferencial',
     e: 'Paciente com febre, sopro e artralgias após faringite. A diferenciação entre febre reumática e endocardite é feita principalmente por:',
-    o: ['Hemoculturas e ecocardiograma', 'Hemograma', 'Radiografia de tórax', 'Eletrocardiograma'],
+    o: ['Hemoculturas e ecocardiograma', 'Hemograma completo, que não diferencia as causas', 'Radiografia de tórax, que não diferencia as causas', 'Eletrocardiograma, que não diferencia as causas'],
     g: 'A',
     c: 'Na endocardite, as hemoculturas costumam ser positivas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Inespecífico.', C: 'Inespecífico.', D: 'Inespecífico.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: insuficiência renal',
     e: 'Insuficiência renal na endocardite pode resultar de:',
-    o: ['Glomerulonefrite, êmbolos renais e toxicidade por antibióticos como aminoglicosídeos', 'Somente desidratação', 'Sempre de obstrução', 'Nunca ocorre'],
+    o: ['Glomerulonefrite, êmbolos renais e aminoglicosídeos', 'Somente desidratação, sem outras causas de lesão renal', 'Sempre por obstrução do trato urinário, sem outras causas', 'Nunca ocorre na endocardite infecciosa, em nenhum caso'],
     g: 'A',
     c: 'Monitorar função renal durante o tratamento. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não só.', C: 'Raro.', D: 'Ocorre.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: diagnóstico tardio',
     e: 'Atraso no diagnóstico de endocardite é comum porque:',
-    o: ['Os sintomas são inespecíficos, como febre e mal-estar', 'Os sintomas são muito específicos', 'Não há exames', 'É muito rara'],
+    o: ['Sintomas inespecíficos, como febre e mal-estar', 'Sintomas muito específicos, que levam ao diagnóstico', 'Não há exames para o diagnóstico', 'É uma doença muito rara, em todos os grupos'],
     g: 'A',
     c: 'Febre com sopro ou fatores de risco deve levar à investigação. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Afirmativa falsa.', C: 'Há exames.', D: 'Não é tão rara.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: estafilococo sensível',
     e: 'Endocardite por Staphylococcus aureus sensível à oxacilina em valva nativa é tratada com:',
-    o: ['Oxacilina (ou cefazolina) intravenosa', 'Vancomicina como primeira escolha', 'Amoxicilina oral', 'Penicilina benzatina'],
+    o: ['Oxacilina (ou cefazolina) intravenosa', 'Vancomicina como primeira escolha, que é inferior', 'Amoxicilina oral, em dose habitual', 'Penicilina benzatina intramuscular, em dose única'],
     g: 'A',
     c: 'Betalactâmicos são superiores à vancomicina para MSSA. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Inferior para MSSA.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: MRSA',
     e: 'Endocardite por MRSA é tratada com:',
-    o: ['Vancomicina ou daptomicina', 'Oxacilina', 'Cefazolina', 'Amoxicilina'],
+    o: ['Vancomicina ou daptomicina', 'Oxacilina, que não age contra MRSA', 'Cefazolina, que não age contra MRSA', 'Amoxicilina, que não age contra MRSA'],
     g: 'A',
     c: 'O MRSA é resistente a betalactâmicos habituais. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Resistente.', C: 'Resistente.', D: 'Resistente.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_ENDOC: QuestaoCompacta[] = [
   {
     s: 'Endocardite: sopro',
     e: 'Sopro novo de regurgitação em paciente febril com bacteremia deve sugerir:',
-    o: ['Endocardite infecciosa', 'Sopro inocente', 'Anemia apenas', 'Hipertireoidismo'],
+    o: ['Endocardite infecciosa', 'Sopro inocente, sem repercussão clínica', 'Anemia apenas, sem lesão valvar', 'Hipertireoidismo, com sopro funcional'],
     g: 'A',
     c: 'É dado clínico importante nos critérios de Duke. Referência: Delgado V et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948-4042.',
     x: { B: 'Não em contexto de bacteremia.', C: 'Não explica.', D: 'Não explica.' },

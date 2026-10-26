@@ -5,7 +5,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: diagnóstico',
     e: 'O diagnóstico de hanseníase é essencialmente clínico e baseado em:',
-    o: ['Lesão de pele com alteração de sensibilidade, espessamento de nervo periférico com alteração sensitiva, motora ou autonômica, ou baciloscopia positiva', 'Apenas biópsia em todos', 'Hemograma', 'Radiografia'],
+    o: ['Lesão cutânea com perda sensitiva, nervo espessado alterado ou baciloscopia positiva', 'Apenas biópsia de pele, que é obrigatória em todos os casos, sem exceção', 'Hemograma completo, que mostra alterações características da hanseníase', 'Radiografia de mãos e pés, que mostra lesões características da doença'],
     g: 'A',
     c: 'A presença de um desses sinais cardinais define o caso. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é obrigatória.', C: 'Inespecífico.', D: 'Sem relação.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: classificação',
     e: 'Pela classificação operacional do Ministério da Saúde, é multibacilar o caso com:',
-    o: ['Mais de 5 lesões de pele, ou baciloscopia positiva, ou envolvimento de mais de um nervo conforme protocolo', 'Até 5 lesões com baciloscopia negativa', 'Uma única lesão', 'Ausência de lesões'],
+    o: ['> 5 lesões de pele, baciloscopia positiva ou mais de um nervo acometido', 'Até 5 lesões com baciloscopia negativa, que é paucibacilar', 'Uma única lesão de pele, com baciloscopia negativa', 'Ausência de lesões de pele, com baciloscopia negativa'],
     g: 'A',
     c: 'Paucibacilar: até 5 lesões e baciloscopia negativa. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Paucibacilar.', C: 'Paucibacilar.', D: 'Sem diagnóstico.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: tratamento',
     e: 'Desde 2021, o tratamento da hanseníase no SUS usa a poliquimioterapia única (PQT-U) com:',
-    o: ['Rifampicina, dapsona e clofazimina para todos, com 6 doses no paucibacilar e 12 no multibacilar', 'Somente dapsona', 'Somente rifampicina', 'Isoniazida e etambutol'],
+    o: ['Rifampicina, dapsona e clofazimina: 6 doses (PB) ou 12 doses (MB)', 'Somente dapsona, em dose diária, por 12 meses seguidos, em todos os casos', 'Somente rifampicina, em dose mensal, por 12 meses seguidos, em todos os casos', 'Isoniazida e etambutol, em dose diária, por 12 meses seguidos, em todos os casos'],
     g: 'A',
     c: 'A dose mensal supervisionada é tomada na unidade. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Monoterapia não é usada.', C: 'Monoterapia não é usada.', D: 'Esquema de tuberculose.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Nervos',
     e: 'Os nervos periféricos mais acometidos na hanseníase incluem:',
-    o: ['Ulnar, mediano, radial, fibular comum e tibial posterior, além do auricular magno', 'Nervo óptico', 'Nervo frênico', 'Nervo vago'],
+    o: ['Ulnar, mediano, radial, fibular comum, tibial posterior e auricular magno', 'Nervo óptico, que não costuma ser acometido na hanseníase', 'Nervo frênico, que não costuma ser acometido na hanseníase', 'Nervo vago, que não costuma ser acometido na hanseníase'],
     g: 'A',
     c: 'A avaliação neurológica simplificada deve ser feita no diagnóstico e no seguimento. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é típico.', C: 'Não é típico.', D: 'Não é típico.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Incapacidades',
     e: 'A mão em garra na hanseníase resulta do acometimento do nervo:',
-    o: ['Ulnar (e mediano)', 'Fibular', 'Facial', 'Radial isolado'],
+    o: ['Ulnar (e mediano)', 'Fibular, que causa o pé caído', 'Facial, que causa o lagoftalmo', 'Radial isolado, que causa a mão caída'],
     g: 'A',
     c: 'O pé caído resulta do acometimento do fibular comum. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Pé caído.', C: 'Lagoftalmo.', D: 'Mão caída.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Reação tipo 2',
     e: 'Paciente multibacilar com nódulos subcutâneos dolorosos, febre, mal-estar e artralgia. O diagnóstico é:',
-    o: ['Eritema nodoso hansênico (reação tipo 2)', 'Reação tipo 1', 'Erisipela', 'Recidiva'],
+    o: ['Eritema nodoso hansênico (reação tipo 2)', 'Reação tipo 1 (reversa), com lesões que se inflamam', 'Erisipela, com placa eritematosa de bordas nítidas', 'Recidiva da doença, após o tratamento completo'],
     g: 'A',
     c: 'Tratamento com talidomida, que é contraindicada em mulheres em idade fértil sem contracepção. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Piora das lesões preexistentes.', C: 'Sem nódulos múltiplos.', D: 'Sem esse padrão.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Talidomida',
     e: 'Mulher de 25 anos com eritema nodoso hansênico. Sobre o tratamento:',
-    o: ['A talidomida é teratogênica; usa-se prednisona, ou talidomida apenas com contracepção rigorosa conforme a legislação', 'A talidomida é o padrão sem restrição', 'Não há tratamento', 'Usa-se antibiótico'],
+    o: ['Talidomida é teratogênica: prednisona, ou talidomida com contracepção rigorosa', 'A talidomida é o padrão de tratamento, sem nenhuma restrição de uso', 'Não há tratamento específico, apenas observação clínica do quadro', 'Usa-se antibiótico de amplo espectro, por via oral, por 14 dias'],
     g: 'A',
     c: 'A legislação brasileira regula o uso da talidomida. Referência: Brasil. Agência Nacional de Vigilância Sanitária. RDC nº 11, de 22 de março de 2011.',
     x: { B: 'Há restrições.', C: 'Há tratamento.', D: 'Sem infecção bacteriana.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Dapsona',
     e: 'Efeito adverso importante da dapsona é:',
-    o: ['Anemia hemolítica e metemoglobinemia, especialmente com deficiência de G6PD', 'Hiperpigmentação', 'Urina alaranjada', 'Neurite óptica'],
+    o: ['Anemia hemolítica e metemoglobinemia, sobretudo na deficiência de G6PD', 'Hiperpigmentação da pele, que é efeito adverso da clofazimina', 'Urina alaranjada, que é efeito adverso da rifampicina', 'Neurite óptica, que é efeito adverso do etambutol'],
     g: 'A',
     c: 'A clofazimina causa hiperpigmentação; a rifampicina, urina alaranjada. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Clofazimina.', C: 'Rifampicina.', D: 'Etambutol.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Clofazimina',
     e: 'Efeito adverso esperado da clofazimina é:',
-    o: ['Hiperpigmentação da pele (avermelhada a acastanhada) e ressecamento', 'Hemólise', 'Neuropatia', 'Surdez'],
+    o: ['Hiperpigmentação (avermelhada a acastanhada) e ressecamento da pele', 'Hemólise, que é efeito adverso importante da dapsona', 'Neuropatia periférica, que é efeito adverso da isoniazida', 'Surdez neurossensorial, que é efeito adverso dos aminoglicosídeos'],
     g: 'A',
     c: 'É reversível após o tratamento. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Dapsona.', C: 'Isoniazida.', D: 'Aminoglicosídeos.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Contatos',
     e: 'Os contatos domiciliares de paciente com hanseníase devem:',
-    o: ['Ser examinados e receber BCG conforme a situação vacinal', 'Receber PQT completa', 'Ser isolados', 'Não precisam de avaliação'],
+    o: ['Ser examinados e receber BCG conforme a situação vacinal', 'Receber PQT completa, mesmo sem sinais da doença', 'Ser isolados do convívio familiar, por tempo prolongado', 'Não precisam de avaliação, se estiverem assintomáticos'],
     g: 'A',
     c: 'O teste rápido de anticorpos também pode ser usado na investigação de contatos. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Sem doença.', C: 'Sem indicação.', D: 'Exige avaliação.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Transmissão',
     e: 'A principal via de transmissão da hanseníase é:',
-    o: ['Respiratória, por contato próximo e prolongado com doente multibacilar não tratado', 'Contato com a pele sem lesões', 'Alimentos', 'Picada de inseto'],
+    o: ['Respiratória, por contato próximo e prolongado com multibacilar sem tratamento', 'Contato com a pele íntegra do doente, sem lesões, no convívio', 'Alimentos contaminados, por via fecal-oral, no convívio', 'Picada de inseto vetor, como o barbeiro, no convívio'],
     g: 'A',
     c: 'Após o início da PQT, a transmissão cessa rapidamente. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Menos relevante.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Baciloscopia',
     e: 'A baciloscopia de raspado intradérmico na hanseníase:',
-    o: ['Quando positiva, classifica o caso como multibacilar; quando negativa, não exclui a doença', 'Sempre é positiva', 'Exclui hanseníase se negativa', 'Não é usada'],
+    o: ['Positiva: multibacilar; negativa: não exclui a doença', 'Sempre é positiva em todos os casos de hanseníase, em qualquer forma', 'Exclui hanseníase quando é negativa, em qualquer forma clínica', 'Não é usada no diagnóstico nem na classificação operacional da doença'],
     g: 'A',
     c: 'É coletada de lóbulos, cotovelos e lesões. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não sempre.', C: 'Não exclui.', D: 'É usada.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: notificação',
     e: 'A hanseníase é doença de:',
-    o: ['Notificação compulsória e investigação obrigatória', 'Notificação facultativa', 'Não notificação', 'Notificação apenas em crianças'],
+    o: ['Notificação compulsória e investigação obrigatória', 'Notificação facultativa, a critério do serviço de saúde', 'Não é notificada, por ser doença crônica', 'Notificação apenas em crianças, e não em adultos'],
     g: 'A',
     c: 'A busca ativa de casos é parte do controle. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'É compulsória.', C: 'É notificável.', D: 'Todos os casos.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Neurite',
     e: 'Paciente com hanseníase com dor intensa em trajeto do nervo ulnar e perda de força recente. A conduta é:',
-    o: ['Prednisona, imobilização e avaliação para descompressão se não houver melhora', 'Analgésico simples e alta', 'Suspender a PQT', 'Antibiótico'],
+    o: ['Prednisona, imobilização e avaliar descompressão se não melhorar', 'Analgésico simples e alta, com orientação de retorno', 'Suspender a PQT, por suspeita de toxicidade', 'Antibiótico de amplo espectro, por via oral'],
     g: 'A',
     c: 'A neurite pode causar incapacidade permanente. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Insuficiente.', C: 'Não suspender.', D: 'Sem infecção.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Prevenção de incapacidades',
     e: 'Uma medida de prevenção de incapacidades na hanseníase é:',
-    o: ['Orientar autocuidado com olhos, mãos e pés, como hidratação e uso de calçados adequados', 'Restringir atividades sociais', 'Isolamento domiciliar', 'Usar apenas analgésicos'],
+    o: ['Autocuidado: hidratação e proteção de olhos, mãos e pés', 'Restringir atividades sociais e de trabalho, durante o tratamento', 'Isolamento domiciliar, durante todo o tratamento com a PQT', 'Usar apenas analgésicos, sem outras medidas de cuidado'],
     g: 'A',
     c: 'O grau de incapacidade deve ser avaliado no diagnóstico e na alta. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Contribui ao estigma.', C: 'Sem indicação.', D: 'Insuficiente.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: epidemiologia',
     e: 'Sobre a hanseníase no Brasil, é correto afirmar:',
-    o: ['O país está entre os de maior número de casos novos no mundo', 'É doença erradicada', 'Ocorre apenas em idosos', 'Não tem cura'],
+    o: ['O país está entre os de maior número de casos novos no mundo', 'É doença erradicada no Brasil desde a década de 1990', 'Ocorre apenas em idosos, e não em crianças', 'Não tem cura, mesmo com tratamento completo'],
     g: 'A',
     c: 'A detecção em menores de 15 anos indica transmissão ativa. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é erradicada.', C: 'Ocorre em todas as idades.', D: 'Tem cura.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: estigma',
     e: 'O uso do termo lepra é proibido em documentos oficiais no Brasil por:',
-    o: ['Lei, para reduzir o estigma da doença', 'Ser um termo científico', 'Ser outra doença', 'Nenhum motivo'],
+    o: ['Lei, para reduzir o estigma da doença', 'Ser um termo científico, de uso oficial', 'Ser o nome de outra doença, distinta da hanseníase', 'Nenhum motivo, pois o uso do termo é livre'],
     g: 'A',
     c: 'Referência: Brasil. Lei nº 9.010, de 29 de março de 1995.',
     x: { B: 'Motivo de estigma.', C: 'Mesma doença.', D: 'Há motivo.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: gestação',
     e: 'Gestante com hanseníase deve:',
-    o: ['Fazer a PQT normalmente, pois é segura na gestação', 'Adiar o tratamento até o parto', 'Interromper a gestação', 'Usar talidomida'],
+    o: ['PQT normalmente: é segura na gestação', 'Adiar o tratamento até o parto, por risco ao feto', 'Interromper a gestação, por risco ao feto', 'Usar talidomida, que é segura na gestação'],
     g: 'A',
     c: 'A talidomida é contraindicada. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Atraso desnecessário.', C: 'Sem indicação.', D: 'Contraindicada.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: resistência',
     e: 'Paciente com recidiva após PQT completa deve ser investigado para:',
-    o: ['Resistência medicamentosa, com teste molecular, além de confirmar a recidiva', 'Nenhuma investigação', 'Alergia', 'Tuberculose apenas'],
+    o: ['Resistência medicamentosa (teste molecular) e confirmar a recidiva', 'Nenhuma investigação, apenas novo ciclo de PQT', 'Alergia medicamentosa, sem investigação molecular', 'Tuberculose apenas, e não resistência ao tratamento'],
     g: 'A',
     c: 'O MS oferece investigação de resistência. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Exige investigação.', C: 'Sem relação.', D: 'Não exclusivamente.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: agente',
     e: 'O agente da hanseníase é:',
-    o: ['Mycobacterium leprae, bacilo álcool-ácido resistente com tropismo por pele e nervos periféricos', 'Mycobacterium tuberculosis', 'Treponema pallidum', 'Staphylococcus aureus'],
+    o: ['Mycobacterium leprae, BAAR com tropismo por pele e nervos periféricos', 'Mycobacterium tuberculosis, com tropismo pulmonar', 'Treponema pallidum, com tropismo cutâneo e neurológico', 'Staphylococcus aureus, com tropismo cutâneo e ósseo'],
     g: 'A',
     c: 'O M. lepromatosis também pode causar a doença. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Causa tuberculose.', C: 'Causa sífilis.', D: 'Causa piodermites.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: incubação',
     e: 'O período de incubação da hanseníase é:',
-    o: ['Longo, em média de 2 a 7 anos', 'De 2 dias', 'De 1 semana', 'De 1 mês exato'],
+    o: ['Longo, em média de 2 a 7 anos', 'Curto, de apenas 2 dias', 'Curto, de apenas 1 semana', 'Exatamente 1 mês, em todos os casos'],
     g: 'A',
     c: 'Por isso os contatos devem ser acompanhados por anos. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Curto demais.', C: 'Curto demais.', D: 'Curto demais.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase neural pura',
     e: 'Paciente com espessamento e dor em nervo ulnar e perda sensitiva no território, sem lesões de pele. O diagnóstico pode ser:',
-    o: ['Hanseníase neural primária', 'Síndrome do túnel do carpo', 'Diabetes', 'Tendinite'],
+    o: ['Hanseníase neural primária', 'Síndrome do túnel do carpo, com compressão do mediano', 'Neuropatia diabética, simétrica e distal', 'Tendinite, com dor mecânica e sem perda sensitiva'],
     g: 'A',
     c: 'A eletroneuromiografia e a biópsia de nervo ajudam. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Outro nervo.', C: 'Sem espessamento.', D: 'Sem relação.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Teste rápido',
     e: 'O teste rápido sorológico (anti-PGL-I) para hanseníase no SUS é usado principalmente:',
-    o: ['Na avaliação de contatos, para identificar os que precisam de vigilância mais próxima', 'Para confirmar o diagnóstico isoladamente', 'Para controle de cura', 'Em toda a população'],
+    o: ['Avaliação de contatos: mostra quem precisa de vigilância mais próxima', 'Confirmar o diagnóstico isoladamente, sem exame clínico do paciente', 'Controle de cura, ao final do tratamento com a PQT completa', 'Rastreamento de toda a população, de rotina, sem sintomas'],
     g: 'A',
     c: 'Positividade não define doença, mas indica infecção. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não confirma isoladamente.', C: 'Não é o uso.', D: 'Não é rastreio populacional.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: avaliação neurológica',
     e: 'O grau de incapacidade física é avaliado com:',
-    o: ['Teste de sensibilidade com monofilamentos, força muscular e inspeção de olhos, mãos e pés', 'Somente radiografia', 'Somente hemograma', 'Somente biópsia'],
+    o: ['Monofilamentos, força muscular e inspeção de olhos, mãos e pés', 'Somente radiografia, dos olhos, das mãos e dos pés', 'Somente hemograma, no início do tratamento', 'Somente biópsia de pele, no início do tratamento'],
     g: 'A',
     c: 'Grau 0, 1 ou 2, registrado no diagnóstico e na alta. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: alta',
     e: 'O paciente recebe alta por cura da hanseníase quando:',
-    o: ['Completa as doses previstas de PQT no prazo, mesmo que as lesões ainda não tenham desaparecido totalmente', 'As lesões desaparecem completamente', 'A baciloscopia negativa em 1 mês', 'Após 10 anos'],
+    o: ['Completa as doses de PQT no prazo, mesmo com lesões ainda visíveis', 'As lesões desaparecem por completo, em todos os casos tratados', 'A baciloscopia fica negativa em 1 mês de tratamento com a PQT', 'Após 10 anos de acompanhamento clínico e laboratorial'],
     g: 'A',
     c: 'Lesões e incapacidades podem persistir após a alta. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é necessário.', C: 'Não é o critério.', D: 'Excessivo.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: reação tipo 2 sistêmica',
     e: 'Eritema nodoso hansênico pode cursar com:',
-    o: ['Febre, artrite, neurite, irite, orquite e glomerulonefrite', 'Apenas lesões de pele', 'Somente prurido', 'Nenhum sintoma sistêmico'],
+    o: ['Febre, artrite, neurite, irite, orquite e glomerulonefrite', 'Apenas lesões de pele, sem sintomas sistêmicos', 'Somente prurido, sem outras manifestações', 'Nenhum sintoma sistêmico, apenas lesões cutâneas'],
     g: 'A',
     c: 'É reação mediada por imunocomplexos. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Sistêmico.', C: 'Insuficiente.', D: 'Há sintomas.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: prova da histamina',
     e: 'A prova da histamina na hanseníase avalia:',
-    o: ['Integridade das fibras nervosas autonômicas da pele (eritema reflexo incompleto em lesões)', 'Função renal', 'Alergia', 'Imunidade celular'],
+    o: ['Integridade das fibras autonômicas da pele (eritema reflexo incompleto)', 'Função renal do paciente, pela depuração de creatinina', 'Alergia a medicamentos do paciente, por reação cutânea', 'Imunidade celular do paciente, pela resposta tardia'],
     g: 'A',
     c: 'É útil em lesões duvidosas. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Não é o objetivo.', D: 'Não é o objetivo.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: crianças',
     e: 'Casos de hanseníase em menores de 15 anos indicam:',
-    o: ['Transmissão ativa e recente na comunidade', 'Erradicação', 'Doença hereditária', 'Erro diagnóstico sempre'],
+    o: ['Transmissão ativa e recente na comunidade', 'Erradicação da doença na comunidade', 'Doença hereditária, de transmissão genética', 'Erro diagnóstico, em todos os casos'],
     g: 'A',
     c: 'É indicador epidemiológico importante. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'O oposto.', C: 'Não é hereditária.', D: 'Não necessariamente.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: espessamento',
     e: 'O espessamento do nervo auricular magno é observado:',
-    o: ['Na região lateral do pescoço, com rotação da cabeça', 'Na mão', 'No pé', 'No abdome'],
+    o: ['Região lateral do pescoço, ao girar a cabeça', 'Mão, na região do punho, ao fechar o punho', 'Pé, na região do tornozelo, durante a marcha', 'Abdome, na região lombar, ao inspirar'],
     g: 'A',
     c: 'Faz parte do exame neurológico simplificado. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: dapsona',
     e: 'Paciente em PQT com febre, exantema, linfadenopatia e hepatite. A hipótese é:',
-    o: ['Síndrome de hipersensibilidade à dapsona', 'Reação tipo 1', 'Recidiva', 'Tuberculose'],
+    o: ['Síndrome de hipersensibilidade à dapsona', 'Reação tipo 1 (reversa), com lesões inflamadas', 'Recidiva da doença, após o tratamento', 'Tuberculose associada, com febre e hepatite'],
     g: 'A',
     c: 'Exige suspensão da dapsona e esquema alternativo. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Sem esse quadro sistêmico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: esquema alternativo',
     e: 'Na impossibilidade de usar rifampicina, o esquema alternativo pode incluir:',
-    o: ['Ofloxacino ou minociclina com clofazimina, conforme protocolo', 'Somente dapsona', 'Penicilina', 'Fluconazol'],
+    o: ['Ofloxacino ou minociclina com clofazimina, conforme protocolo', 'Somente dapsona, em dose diária, por 12 meses', 'Penicilina benzatina, em dose única mensal', 'Fluconazol oral, em dose diária, por 12 meses'],
     g: 'A',
     c: 'O esquema substitutivo é definido em centros de referência. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Insuficiente.', C: 'Ineficaz.', D: 'Ineficaz.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: úlcera plantar',
     e: 'Paciente com hanseníase e úlcera plantar indolor. A causa principal é:',
-    o: ['Perda da sensibilidade protetora nos pés', 'Infecção fúngica', 'Insuficiência arterial sempre', 'Alergia'],
+    o: ['Perda da sensibilidade protetora nos pés', 'Infecção fúngica, com prurido e descamação', 'Insuficiência arterial, sempre, em todos os casos', 'Alergia medicamentosa, com urticária'],
     g: 'A',
     c: 'Calçados adequados e inspeção diária previnem. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é a causa.', C: 'Não é a causa principal.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: BCG',
     e: 'A BCG em contatos de hanseníase:',
-    o: ['Aumenta a proteção contra as formas multibacilares', 'Cura a hanseníase', 'É contraindicada', 'Não tem efeito'],
+    o: ['Aumenta a proteção contra as formas multibacilares', 'Cura a hanseníase, em contatos infectados', 'É contraindicada nos contatos, em qualquer idade', 'Não tem efeito na proteção dos contatos'],
     g: 'A',
     c: 'Pode desencadear a doença precoce em quem já está infectado. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não cura.', C: 'É indicada.', D: 'Tem efeito.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: neuropatia',
     e: 'A neuropatia da hanseníase é tipicamente:',
-    o: ['Mononeuropatia múltipla, com espessamento neural', 'Polineuropatia simétrica sempre', 'Sem acometimento sensitivo', 'Apenas central'],
+    o: ['Mononeuropatia múltipla, com espessamento neural', 'Polineuropatia simétrica distal, sempre, em todos os casos', 'Sem acometimento sensitivo, apenas motor', 'Apenas central, sem acometimento periférico'],
     g: 'A',
     c: 'Diferente da neuropatia diabética típica. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é a regra.', C: 'Sensitiva é predominante.', D: 'Periférica.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: lesões cutâneas',
     e: 'Lesão de hanseníase em queijo suíço tem:',
-    o: ['Borda interna bem definida e externa mal definida', 'Bordas totalmente indefinidas', 'Vesículas', 'Pústulas'],
+    o: ['Borda interna bem definida e externa mal definida', 'Bordas totalmente indefinidas, em toda a lesão', 'Vesículas agrupadas sobre base eritematosa', 'Pústulas dispersas sobre base eritematosa'],
     g: 'A',
     c: 'Característica da forma dimorfa. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é típico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: diferenciais',
     e: 'Diagnóstico diferencial de lesões hipocrômicas com sensibilidade preservada inclui:',
-    o: ['Pitiríase versicolor, vitiligo e pitiríase alba', 'Hanseníase sempre', 'Melanoma', 'Psoríase'],
+    o: ['Pitiríase versicolor, vitiligo e pitiríase alba', 'Hanseníase, sempre, em todos os casos', 'Melanoma, com lesão pigmentada irregular', 'Psoríase, com placas eritematodescamativas'],
     g: 'A',
     c: 'A sensibilidade preservada fala contra hanseníase. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Sem perda de sensibilidade.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: seguimento de contatos',
     e: 'Contatos de casos multibacilares devem ser:',
-    o: ['Examinados anualmente por 5 anos, orientados sobre sinais e sintomas', 'Examinados uma única vez', 'Tratados com PQT completa', 'Isolados'],
+    o: ['Examinados anualmente por 5 anos e orientados quanto a sinais e sintomas', 'Examinados uma única vez, no momento do diagnóstico do caso índice', 'Tratados com PQT completa, mesmo sem nenhum sinal da doença', 'Isolados do convívio familiar, por tempo prolongado, durante o tratamento'],
     g: 'A',
     c: 'O risco é maior para contatos de multibacilares. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Insuficiente.', C: 'Sem doença.', D: 'Sem indicação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: lesões nasais',
     e: 'Paciente virchowiano com obstrução nasal, epistaxe e crostas. O achado é:',
-    o: ['Infiltração da mucosa nasal, que pode levar a perfuração septal', 'Rinite alérgica', 'Sinusite bacteriana', 'Pólipo'],
+    o: ['Infiltração da mucosa nasal, com risco de perfuração do septo', 'Rinite alérgica, com espirros, prurido e coriza clara recorrente', 'Sinusite bacteriana, com secreção purulenta e dor facial', 'Pólipo nasal, com obstrução unilateral e anosmia associada'],
     g: 'A',
     c: 'A mucosa nasal é via de eliminação do bacilo. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: diagnóstico laboratorial',
     e: 'A biópsia de pele na hanseníase:',
-    o: ['É útil em casos duvidosos, mas não é obrigatória para o diagnóstico', 'É obrigatória em todos', 'Não tem utilidade', 'Substitui o exame clínico'],
+    o: ['Útil nos casos duvidosos; não obrigatória para o diagnóstico', 'É obrigatória em todos os casos de hanseníase, sem exceção', 'Não tem nenhuma utilidade no diagnóstico da hanseníase', 'Substitui o exame clínico e neurológico completo do paciente'],
     g: 'A',
     c: 'O diagnóstico é clínico na maioria. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é obrigatória.', C: 'Tem utilidade.', D: 'Não substitui.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: orquite',
     e: 'A orquite na hanseníase virchowiana pode levar a:',
-    o: ['Hipogonadismo e ginecomastia', 'Hipertireoidismo', 'Diabetes', 'Hipercalcemia'],
+    o: ['Hipogonadismo e ginecomastia', 'Hipertireoidismo, com tremor e perda de peso', 'Diabetes mellitus, com poliúria e polidipsia', 'Hipercalcemia, com poliúria e constipação'],
     g: 'A',
     c: 'Associa-se à reação tipo 2. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: madarose',
     e: 'A madarose na hanseníase é:',
-    o: ['A perda dos pelos das sobrancelhas, começando pela porção lateral', 'A perda dos cílios apenas', 'Uma lesão de unha', 'Uma lesão de mucosa'],
+    o: ['Perda dos pelos das sobrancelhas, a partir da porção lateral', 'Perda apenas dos cílios, sem acometer as sobrancelhas', 'Uma lesão de unha, com distrofia ungueal', 'Uma lesão de mucosa oral, com ulceração'],
     g: 'A',
     c: 'É sinal da forma virchowiana. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Não é a definição.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_HANS: QuestaoCompacta[] = [
   {
     s: 'Hanseníase: cura',
     e: 'Sobre a cura da hanseníase, é correto afirmar:',
-    o: ['A doença tem cura com a PQT, que é gratuita no SUS', 'Não tem cura', 'Exige cirurgia', 'O tratamento é pago'],
+    o: ['Tem cura com a PQT, que é gratuita no SUS', 'Não tem cura, mesmo com tratamento completo', 'Exige cirurgia, como parte do tratamento', 'O tratamento é pago, e não está disponível no SUS'],
     g: 'A',
     c: 'O diagnóstico precoce previne incapacidades. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Hanseníase. Brasília: MS, 2022.',
     x: { B: 'Tem cura.', C: 'Não exige.', D: 'É gratuito.' },

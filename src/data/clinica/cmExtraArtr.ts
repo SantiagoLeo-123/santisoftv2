@@ -5,7 +5,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide: clínica',
     e: 'Mulher de 45 anos com poliartrite simétrica de pequenas articulações das mãos (MCF e IFP) e punhos, rigidez matinal acima de 1 hora, há 4 meses. A hipótese é:',
-    o: ['Artrite reumatoide', 'Osteoartrite', 'Gota', 'Artrite psoriásica'],
+    o: ['Artrite reumatoide', 'Osteoartrite, com dor mecânica e rigidez curta', 'Gota, com crises agudas monoarticulares e uricemia', 'Artrite psoriásica, com psoríase e dactilite'],
     g: 'A',
     c: 'Poupa as interfalângicas distais. Referência: Aletaha D et al. 2010 Rheumatoid arthritis classification criteria: an ACR/EULAR collaborative initiative. Arthritis Rheum. 2010;62(9):2569-81.',
     x: { B: 'Rigidez curta e IFD.', C: 'Monoartrite aguda.', D: 'Acomete IFD e dactilite.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide: anticorpos',
     e: 'O anticorpo mais específico para artrite reumatoide é:',
-    o: ['Anti-CCP (antipeptídeo citrulinado cíclico)', 'Fator reumatoide', 'FAN', 'Anti-DNA'],
+    o: ['Anti-CCP (antipeptídeo citrulinado cíclico)', 'Fator reumatoide, que é menos específico', 'FAN, que é mais típico do lúpus', 'Anti-DNA, que é mais típico do lúpus'],
     g: 'A',
     c: 'O anti-CCP também prediz doença mais erosiva. Referência: Aletaha D et al. 2010 Rheumatoid arthritis classification criteria: an ACR/EULAR collaborative initiative. Arthritis Rheum. 2010;62(9):2569-81.',
     x: { B: 'Menos específico.', C: 'Inespecífico.', D: 'Lúpus.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide: critérios',
     e: 'Os critérios ACR/EULAR 2010 para AR consideram:',
-    o: ['Número e tipo de articulações, sorologia (FR e anti-CCP), provas inflamatórias e duração dos sintomas', 'Apenas radiografia com erosões', 'Apenas FR', 'Apenas idade'],
+    o: ['Articulações acometidas, sorologia (FR e anti-CCP), provas inflamatórias e duração', 'Apenas a radiografia com erosões, sem considerar a clínica do paciente', 'Apenas o fator reumatoide, sem considerar a clínica do paciente', 'Apenas a idade do paciente, sem considerar a clínica e os exames'],
     g: 'A',
     c: 'Pontuação de 6 ou mais em 10 classifica como AR. Referência: Aletaha D et al. 2010 Rheumatoid arthritis classification criteria: an ACR/EULAR collaborative initiative. Arthritis Rheum. 2010;62(9):2569-81.',
     x: { B: 'Não é necessário.', C: 'Insuficiente.', D: 'Sem relação.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Metotrexato',
     e: 'Cuidados no uso de metotrexato incluem:',
-    o: ['Suplementação de ácido fólico e monitorização de hemograma, função hepática e renal', 'Uso diário em dose alta', 'Associação com álcool', 'Uso na gestação'],
+    o: ['Suplementar ácido fólico; monitorar hemograma e funções hepática e renal', 'Uso diário em dose alta, sem ácido fólico associado ao tratamento', 'Associação com álcool, que não aumenta a toxicidade hepática', 'Uso na gestação, em qualquer trimestre, sem nenhum risco ao feto'],
     g: 'A',
     c: 'É teratogênico e contraindicado na gestação. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'É semanal.', C: 'Hepatotoxicidade.', D: 'Contraindicado.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide: biológicos',
     e: 'Paciente com AR ativa apesar de metotrexato em dose adequada por 3 a 6 meses, com fatores de mau prognóstico. A conduta é:',
-    o: ['Associar medicamento biológico (como anti-TNF) ou inibidor de JAK', 'Suspender o tratamento', 'Manter apenas anti-inflamatório', 'Fazer apenas fisioterapia'],
+    o: ['Associar biológico (como anti-TNF) ou inibidor de JAK', 'Suspender o tratamento, pois a falha indica remissão', 'Manter apenas anti-inflamatório, sem trocar o esquema', 'Fazer apenas fisioterapia, sem alterar o tratamento'],
     g: 'A',
     c: 'A estratégia treat-to-target busca remissão. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Anti-TNF',
     e: 'Antes de iniciar anti-TNF, é obrigatório:',
-    o: ['Rastrear e tratar tuberculose latente, além de hepatites B e C', 'Fazer ressonância de crânio', 'Fazer colonoscopia', 'Nada'],
+    o: ['Rastrear e tratar tuberculose latente, além de hepatites B e C', 'Fazer ressonância de crânio, de rotina, antes de iniciar o biológico', 'Fazer colonoscopia, de rotina, antes de iniciar o biológico', 'Nenhum exame prévio, pois a droga é segura em qualquer paciente'],
     g: 'A',
     c: 'O anti-TNF aumenta o risco de reativação de tuberculose. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Exige rastreio.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'AR: coluna',
     e: 'Paciente com AR de longa data apresenta dor cervical e parestesias. A complicação a pesquisar é:',
-    o: ['Instabilidade atlantoaxial (C1-C2)', 'Hérnia lombar', 'Espondilite', 'Fratura de clavícula'],
+    o: ['Instabilidade atlantoaxial (C1-C2)', 'Hérnia lombar, que não explica a dor cervical', 'Espondilite, que é típica da espondiloartrite', 'Fratura de clavícula, que não explica a dor cervical'],
     g: 'A',
     c: 'Importante antes de intubação orotraqueal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Outra região.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Felty',
     e: 'Paciente com AR soropositiva, esplenomegalia e neutropenia. O diagnóstico é:',
-    o: ['Síndrome de Felty', 'Síndrome de Sjögren', 'Lúpus', 'Leucemia'],
+    o: ['Síndrome de Felty', 'Síndrome de Sjögren, com olho e boca secos', 'Lúpus, com FAN e anti-DNA positivos', 'Leucemia, com blastos no sangue periférico'],
     g: 'A',
     c: 'Aumenta o risco de infecções. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Secura.', C: 'Outro quadro.', D: 'Sem relação.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'AR: manifestações extra-articulares',
     e: 'Manifestação extra-articular da AR é:',
-    o: ['Nódulos reumatoides, doença intersticial pulmonar e esclerite', 'Uveíte anterior aguda típica', 'Psoríase', 'Uretrite'],
+    o: ['Nódulos reumatoides, doença intersticial pulmonar e esclerite', 'Uveíte anterior aguda típica, que é manifestação da espondiloartrite', 'Psoríase cutânea, que é manifestação da artrite psoriásica', 'Uretrite, que é manifestação da artrite reativa pós-infecciosa'],
     g: 'A',
     c: 'São mais comuns em soropositivos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Espondiloartrites.', C: 'Artrite psoriásica.', D: 'Artrite reativa.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Osteoartrite: tratamento',
     e: 'O tratamento de primeira linha da osteoartrite de joelho inclui:',
-    o: ['Exercícios, fortalecimento muscular, perda de peso e AINE tópico', 'Corticoide oral contínuo', 'Opioide forte de rotina', 'Antibiótico'],
+    o: ['Exercícios, fortalecimento, perda de peso e AINE tópico', 'Corticoide oral contínuo, em dose habitual', 'Opioide forte de rotina, em dose habitual', 'Antibiótico oral, por 14 dias, em dose habitual'],
     g: 'A',
     c: 'Infiltração com corticoide pode aliviar crises. Referência: Kolasinski SL et al. Arthritis Care Res. 2020;72(2):149-62.',
     x: { B: 'Sem indicação.', C: 'Não é primeira linha.', D: 'Sem infecção.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondilite anquilosante',
     e: 'Homem de 25 anos com dor lombar há 6 meses, que melhora com exercício e piora com repouso, rigidez matinal e dor glútea alternante. A hipótese é:',
-    o: ['Espondiloartrite axial (espondilite anquilosante)', 'Lombalgia mecânica', 'Hérnia de disco', 'Osteoartrite'],
+    o: ['Espondiloartrite axial (espondilite anquilosante)', 'Lombalgia mecânica, que piora com o exercício', 'Hérnia de disco, com dor irradiada', 'Osteoartrite, com dor mecânica e rigidez curta'],
     g: 'A',
     c: 'Dor lombar inflamatória: início antes dos 40 anos, insidiosa, melhora com exercício, dor noturna. Referência: Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34.',
     x: { B: 'Melhora com repouso.', C: 'Dor radicular.', D: 'Idade e padrão.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondilite: imagem',
     e: 'O exame mais sensível para sacroiliíte precoce é:',
-    o: ['Ressonância magnética das sacroilíacas', 'Radiografia simples', 'Ultrassom', 'Cintilografia de tireoide'],
+    o: ['RM das sacroilíacas', 'Radiografia simples, que é pouco sensível na fase precoce', 'Ultrassom, que não avalia a sacroilíaca', 'Cintilografia de tireoide, que não avalia a sacroilíaca'],
     g: 'A',
     c: 'Mostra edema ósseo antes das alterações radiográficas. Referência: Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34.',
     x: { B: 'Alterações tardias.', C: 'Sem utilidade.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondilite: tratamento',
     e: 'O tratamento de primeira linha da espondiloartrite axial é:',
-    o: ['Anti-inflamatórios não esteroides e exercícios', 'Metotrexato', 'Corticoide oral prolongado', 'Hidroxicloroquina'],
+    o: ['AINEs e exercícios', 'Metotrexato, que não é eficaz na doença axial', 'Corticoide oral prolongado, em dose habitual', 'Hidroxicloroquina, que não é eficaz na doença axial'],
     g: 'A',
     c: 'Se refratário, anti-TNF ou anti-IL-17. Referência: Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34.',
     x: { B: 'Ineficaz na forma axial.', C: 'Não recomendado.', D: 'Ineficaz.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondilite: uveíte',
     e: 'Manifestação extra-articular mais comum da espondilite anquilosante é:',
-    o: ['Uveíte anterior aguda unilateral', 'Esclerite', 'Retinite', 'Glaucoma'],
+    o: ['Uveíte anterior aguda unilateral', 'Esclerite, mais comum na artrite reumatoide', 'Retinite, mais comum nas infecções', 'Glaucoma, mais comum no uso de corticoide'],
     g: 'A',
     c: 'Causa olho vermelho, dor e fotofobia. Referência: Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34.',
     x: { B: 'Mais em AR.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite psoriásica',
     e: 'Paciente com psoríase e dor e edema de todo o dedo (dedo em salsicha), acometimento de IFD e onicólise. O diagnóstico é:',
-    o: ['Artrite psoriásica', 'Artrite reumatoide', 'Gota', 'Osteoartrite'],
+    o: ['Artrite psoriásica', 'Artrite reumatoide, com poliartrite simétrica', 'Gota, com crises monoarticulares', 'Osteoartrite, com dor mecânica'],
     g: 'A',
     c: 'A radiografia pode mostrar deformidade em lápis na taça. Referência: Coates LC et al. GRAPPA treatment recommendations for psoriatic arthritis 2021. Nat Rev Rheumatol. 2022;18(8):465-79.',
     x: { B: 'Poupa IFD.', C: 'Monoartrite aguda.', D: 'Sem dactilite.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite reativa',
     e: 'Homem com oligoartrite assimétrica de membros inferiores, conjuntivite e uretrite, 3 semanas após diarreia. O diagnóstico é:',
-    o: ['Artrite reativa', 'Artrite séptica', 'Gota', 'AR'],
+    o: ['Artrite reativa', 'Artrite séptica, com febre e monoartrite', 'Gota, com crises agudas e uricemia', 'Artrite reumatoide, com poliartrite simétrica'],
     g: 'A',
     c: 'Agentes desencadeantes: Chlamydia, Salmonella, Shigella, Campylobacter, Yersinia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Monoartrite séptica.', C: 'Sem essa tríade.', D: 'Poliartrite simétrica.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite enteropática',
     e: 'Paciente com doença de Crohn e artrite de grandes articulações que acompanha a atividade intestinal. A hipótese é:',
-    o: ['Artrite enteropática', 'AR', 'Gota', 'Osteoartrite'],
+    o: ['Artrite enteropática', 'Artrite reumatoide, com poliartrite simétrica', 'Gota, com crises monoarticulares', 'Osteoartrite, com dor mecânica'],
     g: 'A',
     c: 'A forma axial é independente da atividade intestinal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Líquido sinovial',
     e: 'Líquido sinovial com 20.000 leucócitos, predominando neutrófilos, sem cristais e cultura negativa sugere:',
-    o: ['Artrite inflamatória (como AR)', 'Osteoartrite', 'Normal', 'Artrite séptica sempre'],
+    o: ['Artrite inflamatória (como AR)', 'Osteoartrite, que tem líquido não inflamatório', 'Líquido normal, com menos de 200 leucócitos', 'Artrite séptica sempre, em qualquer contagem'],
     g: 'A',
     c: 'Acima de 50.000 sugere fortemente artrite séptica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Abaixo de 2.000.', C: 'Abaixo de 200.', D: 'Pode ser, mas o valor sugere inflamatória.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite idiopática juvenil',
     e: 'Criança com oligoartrite de joelho e FAN positivo tem risco aumentado de:',
-    o: ['Uveíte anterior crônica assintomática, exigindo avaliação oftalmológica periódica', 'Hepatite', 'Insuficiência renal', 'Surdez'],
+    o: ['Uveíte anterior crônica assintomática: exame oftalmológico periódico', 'Hepatite autoimune, com transaminases elevadas e anticorpos específicos', 'Insuficiência renal, com proteinúria e hipertensão arterial', 'Surdez neurossensorial progressiva, com perda auditiva bilateral'],
     g: 'A',
     c: 'A uveíte pode causar cegueira se não detectada. Referência: Petty RE et al. International League of Associations for Rheumatology classification of juvenile idiopathic arthritis. J Rheumatol. 2004;31(2):390-2.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Doença de Still',
     e: 'Adulto jovem com febre alta diária, exantema róseo evanescente, artrite, dor de garganta e ferritina muito elevada. A hipótese é:',
-    o: ['Doença de Still do adulto', 'AR', 'Lúpus', 'Febre reumática'],
+    o: ['Doença de Still do adulto', 'Artrite reumatoide, com poliartrite simétrica', 'Lúpus, com FAN positivo', 'Febre reumática, com cardite'],
     g: 'A',
     c: 'Diagnóstico de exclusão; risco de síndrome de ativação macrofágica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem febre alta.', C: 'Sem ferritina tão alta.', D: 'Sem infecção estreptocócica.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'AR: radiografia',
     e: 'Achados radiográficos típicos da artrite reumatoide são:',
-    o: ['Osteopenia periarticular, redução simétrica do espaço articular e erosões marginais', 'Osteófitos e esclerose subcondral', 'Calcificação de cartilagem', 'Lesões em saca-bocado com bordas pendentes'],
+    o: ['Osteopenia periarticular, redução simétrica do espaço e erosões marginais', 'Osteófitos e esclerose subcondral, típicos da osteoartrite', 'Calcificação de cartilagem, típica da condrocalcinose', 'Lesões em saca-bocado com bordas pendentes, típicas da gota'],
     g: 'A',
     c: 'O ultrassom e a ressonância detectam erosões mais cedo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Osteoartrite.', C: 'Condrocalcinose.', D: 'Gota.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'AR: gestação',
     e: 'Mulher com AR em uso de metotrexato deseja engravidar. A conduta é:',
-    o: ['Suspender o metotrexato cerca de 3 meses antes e trocar por droga compatível, como hidroxicloroquina ou sulfassalazina', 'Manter o metotrexato', 'Usar leflunomida', 'Não há opções'],
+    o: ['Suspender o metotrexato ~3 meses antes; hidroxicloroquina ou sulfassalazina', 'Manter o metotrexato, pois é seguro na gestação em dose baixa', 'Usar leflunomida, que é seguro na gestação em dose baixa', 'Não há opções terapêuticas compatíveis com a gestação nesses casos'],
     g: 'A',
     c: 'A leflunomida também é teratogênica e exige washout com colestiramina. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'Teratogênico.', C: 'Teratogênica.', D: 'Há opções.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Leflunomida',
     e: 'Paciente em uso de leflunomida que deseja engravidar deve:',
-    o: ['Fazer washout com colestiramina', 'Apenas suspender 1 dia antes', 'Dobrar a dose', 'Não há restrição'],
+    o: ['Fazer washout com colestiramina', 'Apenas suspender 1 dia antes da concepção', 'Dobrar a dose, para proteger o feto', 'Não há restrição, pois é seguro na gestação'],
     g: 'A',
     c: 'A droga persiste por muito tempo no organismo. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'Insuficiente.', C: 'Pioraria.', D: 'Há restrição.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'AR: risco cardiovascular',
     e: 'Pacientes com artrite reumatoide têm:',
-    o: ['Risco cardiovascular aumentado, exigindo controle da inflamação e dos fatores de risco', 'Risco cardiovascular reduzido', 'Nenhum risco adicional', 'Proteção cardiovascular pelo metotrexato total'],
+    o: ['Risco cardiovascular aumentado: controlar inflamação e fatores de risco', 'Risco cardiovascular reduzido pela própria doença inflamatória', 'Nenhum risco cardiovascular adicional na doença, em comparação à população', 'Proteção cardiovascular total pelo uso do metotrexato, em qualquer dose'],
     g: 'A',
     c: 'A inflamação crônica acelera a aterosclerose. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'O oposto.', C: 'Há risco.', D: 'Não total.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Cisto de Baker',
     e: 'Paciente com AR e dor e edema súbitos na panturrilha. Além de trombose venosa, deve-se considerar:',
-    o: ['Ruptura de cisto de Baker', 'Fratura de tíbia', 'Celulite sempre', 'Gota'],
+    o: ['Ruptura de cisto de Baker', 'Fratura de tíbia, após trauma', 'Celulite, em todos os casos', 'Gota, em todos os casos'],
     g: 'A',
     c: 'O ultrassom diferencia as duas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem trauma.', C: 'Possível, mas o contexto sugere cisto.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondilite: Schober',
     e: 'O teste de Schober avalia:',
-    o: ['Mobilidade da coluna lombar', 'Força muscular', 'Sensibilidade', 'Reflexos'],
+    o: ['Mobilidade da coluna lombar', 'Força muscular dos membros superiores', 'Sensibilidade tátil dos membros inferiores', 'Reflexos tendinosos dos membros inferiores'],
     g: 'A',
     c: 'Valor reduzido sugere restrição de mobilidade por espondilite. Referência: Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondilite: radiografia',
     e: 'Na espondilite anquilosante avançada, a radiografia da coluna mostra:',
-    o: ['Coluna em bambu, com sindesmófitos e anquilose', 'Lesões líticas', 'Osteófitos horizontais', 'Fraturas por compressão sem outras alterações'],
+    o: ['Coluna em bambu, com sindesmófitos e anquilose', 'Lesões líticas, típicas de metástases ou mieloma', 'Osteófitos horizontais, típicos da espondilose', 'Fraturas por compressão, sem outras alterações'],
     g: 'A',
     c: 'A sacroiliíte bilateral é precoce. Referência: Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34.',
     x: { B: 'Mieloma.', C: 'Osteoartrite.', D: 'Osteoporose.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondilite: fratura',
     e: 'Paciente com espondilite anquilosante avançada e trauma leve com dor cervical intensa. A suspeita é:',
-    o: ['Fratura da coluna rígida, com alto risco neurológico', 'Torcicolo simples', 'Contusão muscular', 'Hérnia de disco'],
+    o: ['Fratura da coluna rígida, com alto risco neurológico', 'Torcicolo simples, de evolução benigna', 'Contusão muscular, de evolução benigna', 'Hérnia de disco, de evolução benigna'],
     g: 'A',
     c: 'A coluna anquilosada fratura com traumas pequenos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Subestima.', C: 'Subestima.', D: 'Menos provável.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite psoriásica: tratamento',
     e: 'Paciente com artrite psoriásica periférica ativa. O tratamento inicial pode incluir:',
-    o: ['Metotrexato, e se refratário, biológicos como anti-TNF ou anti-IL-17', 'Hidroxicloroquina como primeira escolha', 'Corticoide sistêmico prolongado', 'Nada'],
+    o: ['Metotrexato; se refratário, anti-TNF ou anti-IL-17', 'Hidroxicloroquina como primeira escolha, em dose habitual', 'Corticoide sistêmico prolongado, em dose alta', 'Nenhum tratamento, apenas observação clínica'],
     g: 'A',
     c: 'Corticoide sistêmico pode piorar a psoríase na retirada. Referência: Coates LC et al. GRAPPA 2021. Nat Rev Rheumatol. 2022;18(8):465-79.',
     x: { B: 'Pouco eficaz.', C: 'Não recomendado.', D: 'Exige tratamento.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite reativa: tratamento',
     e: 'O tratamento da artrite reativa é principalmente:',
-    o: ['Anti-inflamatórios não esteroides, com tratamento da infecção desencadeante se ativa (como clamídia)', 'Antibiótico prolongado para todos', 'Cirurgia', 'Alopurinol'],
+    o: ['AINEs; tratar a infecção desencadeante (clamídia) se ativa', 'Antibiótico prolongado para todos os pacientes, por vários meses', 'Cirurgia de sinovectomia, em todos os casos de artrite reativa', 'Alopurinol em dose habitual de manutenção, por via oral'],
     g: 'A',
     c: 'Casos crônicos podem precisar de sulfassalazina ou metotrexato. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem benefício na artrite.', C: 'Sem indicação.', D: 'Gota.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Osteoartrite: fatores de risco',
     e: 'São fatores de risco para osteoartrite de joelho:',
-    o: ['Idade, obesidade, trauma prévio e sexo feminino', 'Tabagismo protegendo', 'Atividade física moderada causando sempre', 'Altura'],
+    o: ['Idade, obesidade, trauma prévio e sexo feminino', 'Tabagismo, que seria fator protetor', 'Atividade física moderada, que sempre causa a doença', 'Altura do paciente, como fator principal'],
     g: 'A',
     c: 'A perda de peso reduz a dor. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Não causa.', D: 'Não é fator principal.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Osteoartrite: articulações',
     e: 'Articulação geralmente poupada pela osteoartrite primária é:',
-    o: ['Metacarpofalângica', 'Interfalângica distal', 'Joelho', 'Quadril'],
+    o: ['Metacarpofalângica', 'Interfalângica distal, que é comumente acometida', 'Joelho, que é comumente acometido', 'Quadril, que é comumente acometido'],
     g: 'A',
     c: 'Acometimento de MCF sugere outras causas, como hemocromatose. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Acometida.', C: 'Acometida.', D: 'Acometida.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Osteoartrite: laboratório',
     e: 'Na osteoartrite, os exames laboratoriais geralmente mostram:',
-    o: ['VHS e PCR normais e líquido sinovial não inflamatório', 'PCR muito elevada', 'FR alto', 'Ácido úrico sempre alto'],
+    o: ['VHS e PCR normais e líquido sinovial não inflamatório', 'PCR muito elevada, com líquido sinovial inflamatório', 'Fator reumatoide alto, com anti-CCP positivo', 'Ácido úrico sempre alto, com cristais no líquido'],
     g: 'A',
     c: 'O diagnóstico é clínico-radiológico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem inflamação sistêmica.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite: padrões',
     e: 'Poliartrite simétrica aguda com rash e febre, que resolve em semanas, em adulto jovem, sugere inicialmente:',
-    o: ['Artrite viral (como parvovírus B19, chikungunya ou hepatite B)', 'AR estabelecida', 'Osteoartrite', 'Gota'],
+    o: ['Artrite viral (parvovírus B19, chikungunya ou hepatite B)', 'Artrite reumatoide estabelecida, de curso crônico', 'Osteoartrite, de curso crônico e mecânico', 'Gota, com crises recorrentes e cristais'],
     g: 'A',
     c: 'Antes de diagnosticar AR, deve-se observar a duração. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Exige mais de 6 semanas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondiloartrites: entesite',
     e: 'Entesite, inflamação da inserção de tendões e ligamentos no osso, é característica de:',
-    o: ['Espondiloartrites', 'Lúpus', 'Osteoartrite', 'Gota'],
+    o: ['Espondiloartrites', 'Lúpus, que cursa com sinovite e não com entesite', 'Osteoartrite, que cursa com osteófitos', 'Gota, que cursa com tofos e cristais'],
     g: 'A',
     c: 'Exemplo comum: entesite do tendão de Aquiles. Referência: Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'AR: corticoide',
     e: 'Sobre o uso de corticoide na artrite reumatoide, é correto afirmar:',
-    o: ['Pode ser usado em dose baixa por curto período, como ponte até o efeito do DMARD', 'Deve ser a única droga em longo prazo', 'É contraindicado sempre', 'Substitui o metotrexato'],
+    o: ['Dose baixa e curta, como ponte até o efeito do DMARD', 'Deve ser a única droga em longo prazo, em dose alta', 'É contraindicado sempre na artrite reumatoide', 'Substitui o metotrexato no tratamento de manutenção'],
     g: 'A',
     c: 'Deve ser reduzido e suspenso o mais rápido possível. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'Não recomendado.', C: 'Pode ser usado.', D: 'Não substitui.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Inibidores de JAK',
     e: 'Uma preocupação com os inibidores de JAK (como tofacitinibe) em pacientes acima de 65 anos com fatores de risco é:',
-    o: ['Maior risco de eventos cardiovasculares, tromboses, câncer e herpes zóster', 'Ganho de altura', 'Hipoglicemia', 'Nenhum risco'],
+    o: ['Mais eventos cardiovasculares, trombose, câncer e herpes-zóster', 'Ganho de altura, em crianças e adolescentes, em uso prolongado', 'Hipoglicemia grave, em jejum prolongado, em uso prolongado', 'Nenhum risco adicional, em qualquer idade, em uso prolongado'],
     g: 'A',
     c: 'Devem ser usados com cautela nesses grupos. Referência: Ytterberg SR et al. Cardiovascular and Cancer Risk with Tofacitinib in Rheumatoid Arthritis (ORAL Surveillance). N Engl J Med. 2022;386(4):316-26.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Há riscos.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Sulfassalazina',
     e: 'A sulfassalazina na artrite reumatoide:',
-    o: ['É um DMARD sintético que pode ser usado em associação, inclusive na gestação', 'É contraindicada na gestação', 'É um biológico', 'É um anti-inflamatório não esteroide'],
+    o: ['DMARD sintético usado em associação, inclusive na gestação', 'É contraindicada na gestação, por teratogenicidade', 'É um biológico, de uso subcutâneo', 'É um anti-inflamatório não esteroide, sem ação modificadora'],
     g: 'A',
     c: 'Pode causar alterações hematológicas e é contraindicada na alergia a sulfa. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'Pode ser usada.', C: 'Sintético.', D: 'Não é AINE.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite: monoartrite aguda',
     e: 'Paciente com monoartrite aguda de joelho, febre e calor local. O primeiro exame é:',
-    o: ['Artrocentese com análise do líquido (celularidade, Gram, cultura e cristais)', 'Radiografia apenas', 'FR', 'Ácido úrico sérico isolado'],
+    o: ['Artrocentese com análise (celularidade, Gram, cultura, cristais)', 'Radiografia apenas, sem análise do líquido sinovial', 'Fator reumatoide, sem análise do líquido sinovial', 'Ácido úrico sérico isolado, sem análise do líquido sinovial'],
     g: 'A',
     c: 'Exclui artrite séptica, que é emergência. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Não confirma gota.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'AR: pulmão',
     e: 'Complicação pulmonar da artrite reumatoide que pode ser causada pelo metotrexato ou pela doença é:',
-    o: ['Doença pulmonar intersticial ou pneumonite', 'Asma', 'Pneumotórax de repetição', 'Câncer obrigatório'],
+    o: ['Doença pulmonar intersticial ou pneumonite', 'Asma, de início tardio', 'Pneumotórax de repetição, espontâneo', 'Câncer de pulmão, obrigatoriamente'],
     g: 'A',
     c: 'Tosse e dispneia exigem avaliação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Espondilite: aorta',
     e: 'Complicação cardiovascular da espondilite anquilosante é:',
-    o: ['Insuficiência aórtica e distúrbios de condução', 'Estenose mitral', 'Pericardite constritiva sempre', 'Miocardite viral'],
+    o: ['Insuficiência aórtica e distúrbios de condução', 'Estenose mitral, de origem reumática', 'Pericardite constritiva, em todos os casos', 'Miocardite viral, em todos os casos'],
     g: 'A',
     c: 'Decorre de aortite. Referência: Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis. 2023;82(1):19-34.',
     x: { B: 'Febre reumática.', C: 'Raro.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'Artrite séptica gonocócica',
     e: 'Adulto jovem sexualmente ativo com poliartralgia migratória, tenossinovite e lesões cutâneas pustulosas. A hipótese é:',
-    o: ['Infecção gonocócica disseminada', 'AR', 'Gota', 'Lúpus'],
+    o: ['Infecção gonocócica disseminada', 'Artrite reumatoide, com poliartrite simétrica', 'Gota, com crises agudas e uricemia', 'Lúpus, com FAN positivo'],
     g: 'A',
     c: 'Tratamento com ceftriaxona. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem tenossinovite e pústulas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_ARTR: QuestaoCompacta[] = [
   {
     s: 'AR: remissão',
     e: 'O objetivo do tratamento da artrite reumatoide é:',
-    o: ['Remissão ou baixa atividade de doença (estratégia treat-to-target)', 'Apenas aliviar dor', 'Apenas reduzir FR', 'Apenas normalizar a VHS'],
+    o: ['Remissão ou baixa atividade da doença (treat-to-target)', 'Apenas aliviar a dor, sem controlar a atividade', 'Apenas reduzir o fator reumatoide, sem outras medidas', 'Apenas normalizar a VHS, sem outras medidas'],
     g: 'A',
     c: 'Ajusta-se o tratamento a cada 1 a 3 meses. Referência: Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis. 2023;82(1):3-18.',
     x: { B: 'Insuficiente.', C: 'Não é o alvo.', D: 'Insuficiente.' },
