@@ -86,7 +86,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 ### Cirurgia
 
 - [x] Abdome Agudo
-- [ ] Anestesiologia
+- [x] Anestesiologia
 - [ ] Cicatrização
 - [ ] Cirurgia Bariátrica
 - [ ] Cirurgia Pediátrica

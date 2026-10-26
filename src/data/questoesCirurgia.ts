@@ -9,6 +9,7 @@ import { ANESTESIOLOGIA_1 } from './cirurgia/anestesiologia1';
 import { ANESTESIOLOGIA_2 } from './cirurgia/anestesiologia2';
 import { ANESTESIOLOGIA_3 } from './cirurgia/anestesiologia3';
 import { ANESTESIOLOGIA_4 } from './cirurgia/anestesiologia4';
+import { DIF_ANESTESIOLOGIA } from './cirurgia/difAnestesiologia';
 import { CICATRIZACAO_1 } from './cirurgia/cicatrizacao1';
 import { CICATRIZACAO_2 } from './cirurgia/cicatrizacao2';
 import { CICATRIZACAO_3 } from './cirurgia/cicatrizacao3';
@@ -92,7 +93,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...ABDOME_AGUDO_1, ...ABDOME_AGUDO_2, ...ABDOME_AGUDO_3, ...ABDOME_AGUDO_4, ...DIF_ABDOME_AGUDO,
   ]),
   ...montarQuestoes('cir-anestesiologia', 'Cirurgia', 'Anestesiologia', [
-    ...ANESTESIOLOGIA_1, ...ANESTESIOLOGIA_2, ...ANESTESIOLOGIA_3, ...ANESTESIOLOGIA_4,
+    ...ANESTESIOLOGIA_1, ...ANESTESIOLOGIA_2, ...ANESTESIOLOGIA_3, ...ANESTESIOLOGIA_4, ...DIF_ANESTESIOLOGIA,
   ]),
   ...montarQuestoes('cir-cicatrizacao', 'Cirurgia', 'Cicatrização', [
     ...CICATRIZACAO_1, ...CICATRIZACAO_2, ...CICATRIZACAO_3, ...CICATRIZACAO_4,
