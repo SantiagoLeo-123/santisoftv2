@@ -116,7 +116,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Epidemiologia: Classificação dos Estudos Epidemiológicos
 - [x] Epidemiologia: Análise I - Medidas de Frequência e Associação
 - [x] Epidemiologia: Análise II - Estatística
-- [ ] Epidemiologia: Extras e Validação de Teste Diagnóstico
+- [x] Epidemiologia: Extras e Validação de Teste Diagnóstico
 - [ ] Epidemiologia Clínica
 - [ ] Vigilância: Raiva, Tétano e Vigilância da Saúde
 - [ ] SUS: Atenção Básica
