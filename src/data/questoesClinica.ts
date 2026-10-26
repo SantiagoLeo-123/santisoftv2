@@ -302,6 +302,7 @@ import { DIF_PED_NEO2 } from './clinica/difPedNeo2';
 import { DIF_PED_PUB } from './clinica/difPedPub';
 import { DIF_PED_IMUN } from './clinica/difPedImun';
 import { DIF_PED_GASTRO } from './clinica/difPedGastro';
+import { DIF_PED_IRAB } from './clinica/difPedIrab';
 import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
 import { CM_EXTRA_GLOM } from './clinica/cmExtraGlom';
 import { CM_EXTRA_TUB } from './clinica/cmExtraTub';
@@ -578,6 +579,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-ped-pub', 'Pediatria', 'Puberdade e seus Distúrbios', DIF_PED_PUB),
   ...montarQuestoes('dif-ped-imun', 'Pediatria', 'Imunizações', DIF_PED_IMUN),
   ...montarQuestoes('dif-ped-gastro', 'Pediatria', 'Doenças Gastrointestinais', DIF_PED_GASTRO),
+  ...montarQuestoes('dif-ped-irab', 'Pediatria', 'Infecções Respiratórias Inferiores (IRA Baixa)', DIF_PED_IRAB),
   ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
   ...montarQuestoes('cm-extra-glom', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', CM_EXTRA_GLOM),
   ...montarQuestoes('cm-extra-tub', 'Clínica Médica', 'Nefrologia: Síndromes Tubulares e Vasculares', CM_EXTRA_TUB),
