@@ -4,6 +4,7 @@ import { ABDOME_AGUDO_1 } from './cirurgia/abdomeAgudo1';
 import { ABDOME_AGUDO_2 } from './cirurgia/abdomeAgudo2';
 import { ABDOME_AGUDO_3 } from './cirurgia/abdomeAgudo3';
 import { ABDOME_AGUDO_4 } from './cirurgia/abdomeAgudo4';
+import { DIF_ABDOME_AGUDO } from './cirurgia/difAbdomeAgudo';
 import { ANESTESIOLOGIA_1 } from './cirurgia/anestesiologia1';
 import { ANESTESIOLOGIA_2 } from './cirurgia/anestesiologia2';
 import { ANESTESIOLOGIA_3 } from './cirurgia/anestesiologia3';
@@ -88,7 +89,7 @@ import { UROLOGIA_4 } from './cirurgia/urologia4';
 // Para incluir um tema novo, acrescente uma linha aqui e o subtema em QuestoesScreen.
 export const QUESTOES_CIRURGIA: Question[] = [
   ...montarQuestoes('cir-abdome-agudo', 'Cirurgia', 'Abdome Agudo', [
-    ...ABDOME_AGUDO_1, ...ABDOME_AGUDO_2, ...ABDOME_AGUDO_3, ...ABDOME_AGUDO_4,
+    ...ABDOME_AGUDO_1, ...ABDOME_AGUDO_2, ...ABDOME_AGUDO_3, ...ABDOME_AGUDO_4, ...DIF_ABDOME_AGUDO,
   ]),
   ...montarQuestoes('cir-anestesiologia', 'Cirurgia', 'Anestesiologia', [
     ...ANESTESIOLOGIA_1, ...ANESTESIOLOGIA_2, ...ANESTESIOLOGIA_3, ...ANESTESIOLOGIA_4,
