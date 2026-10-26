@@ -19,6 +19,7 @@ import { BARIATRICA_1 } from './cirurgia/bariatrica1';
 import { BARIATRICA_2 } from './cirurgia/bariatrica2';
 import { BARIATRICA_3 } from './cirurgia/bariatrica3';
 import { BARIATRICA_4 } from './cirurgia/bariatrica4';
+import { DIF_BARIATRICA } from './cirurgia/difBariatrica';
 import { PEDIATRICA_1 } from './cirurgia/pediatrica1';
 import { PEDIATRICA_2 } from './cirurgia/pediatrica2';
 import { PEDIATRICA_3 } from './cirurgia/pediatrica3';
@@ -100,7 +101,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...CICATRIZACAO_1, ...CICATRIZACAO_2, ...CICATRIZACAO_3, ...CICATRIZACAO_4, ...DIF_CICATRIZACAO,
   ]),
   ...montarQuestoes('cir-bariatrica', 'Cirurgia', 'Cirurgia Bariátrica', [
-    ...BARIATRICA_1, ...BARIATRICA_2, ...BARIATRICA_3, ...BARIATRICA_4,
+    ...BARIATRICA_1, ...BARIATRICA_2, ...BARIATRICA_3, ...BARIATRICA_4, ...DIF_BARIATRICA,
   ]),
   ...montarQuestoes('cir-pediatrica', 'Cirurgia', 'Cirurgia Pediátrica', [
     ...PEDIATRICA_1, ...PEDIATRICA_2, ...PEDIATRICA_3, ...PEDIATRICA_4,
