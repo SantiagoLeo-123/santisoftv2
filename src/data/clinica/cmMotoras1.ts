@@ -13,7 +13,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome do segundo neurônio motor',
     e: 'Homem de 40 anos apresenta fraqueza da mão direita com atrofia acentuada da musculatura tenar e hipotenar, fasciculações visíveis no antebraço, hipotonia e abolição dos reflexos no membro. Esse conjunto indica lesão localizada em:',
-    o: ['Cápsula interna contralateral', 'Neurônio motor inferior (corno anterior, raiz ou nervo)', 'Junção neuromuscular', 'Trato corticoespinal lateral ipsilateral'],
+    o: ['Cápsula interna contralateral, com lesão do trato piramidal', 'Neurônio motor inferior (corno anterior, raiz ou nervo)', 'Junção neuromuscular, com bloqueio da transmissão', 'Trato corticoespinal lateral ipsilateral na medula cervical'],
     g: 'B',
     c: 'O segundo neurônio motor é a via final comum e o braço eferente do arco reflexo. Sua lesão desnerva o músculo, produzindo paralisia flácida, hipo ou arreflexia, atrofia precoce e intensa e fasciculações, que são descargas espontâneas de unidades motoras.',
     x: { A: 'Lesão capsular causa hemiparesia espástica com hiperreflexia, sem atrofia precoce.', C: 'Na junção neuromuscular não há atrofia marcada nem fasciculações, e os reflexos costumam estar preservados.', D: 'Lesão do trato corticoespinal produz espasticidade e hiperreflexia, não arreflexia.' },
@@ -21,7 +21,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Sinal de Babinski',
     e: 'Em relação ao sinal de Babinski, é correto afirmar que:',
-    o: ['Consiste na flexão plantar do hálux e indica lesão de nervo periférico', 'Consiste na extensão do hálux ao estímulo da planta do pé e indica disfunção do trato corticoespinal', 'É achado patológico em lactentes com menos de 6 meses', 'É característico das lesões cerebelares hemisféricas'],
+    o: ['Consiste na flexão plantar do hálux e indica lesão de nervo periférico', 'Extensão do hálux à estimulação plantar; indica disfunção corticoespinal', 'É achado patológico em lactentes com menos de 6 meses de idade', 'É característico das lesões cerebelares hemisféricas e vermianas'],
     g: 'B',
     c: 'O estímulo da borda lateral da planta provoca normalmente flexão dos dedos. A extensão do hálux, com ou sem abertura em leque dos demais dedos, traduz liberação de um reflexo primitivo de retirada por perda do controle piramidal, sendo marcador de lesão do primeiro neurônio motor.',
     x: { A: 'A flexão plantar do hálux é a resposta normal, e não o sinal de Babinski.', C: 'No lactente a resposta em extensão é fisiológica, pela mielinização incompleta da via piramidal.', D: 'Lesões cerebelares causam ataxia e dismetria, sem resposta plantar em extensão.' },
@@ -45,7 +45,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Topografia: tronco encefálico',
     e: 'O achado que mais sugere lesão no tronco encefálico em um paciente com déficit motor é:',
-    o: ['Hemiparesia associada a afasia', 'Paralisia de nervo craniano de um lado com hemiparesia do lado oposto (síndrome alterna)', 'Paraparesia com nível sensitivo torácico', 'Fraqueza proximal simétrica com enzimas musculares elevadas'],
+    o: ['Hemiparesia associada a afasia e desvio do olhar conjugado', 'Paralisia de nervo craniano de um lado e hemiparesia do outro (alterna)', 'Paraparesia com nível sensitivo torácico bem definido', 'Fraqueza proximal simétrica com enzimas musculares elevadas'],
     g: 'B',
     c: 'No tronco, o núcleo ou o fascículo de um nervo craniano é lesado no mesmo lado da lesão, enquanto o trato corticoespinal, que ainda não decussou, produz hemiparesia contralateral. Esse padrão cruzado é a marca das síndromes alternas, como a de Weber no mesencéfalo.',
     x: { A: 'Hemiparesia com afasia aponta para lesão cortical do hemisfério dominante.', C: 'Paraparesia com nível sensitivo localiza a lesão na medula espinal.', D: 'Fraqueza proximal com enzimas elevadas indica doença primária do músculo.' },
@@ -77,7 +77,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'ELA: funções preservadas',
     e: 'Na esclerose lateral amiotrófica, classicamente permanecem preservados até fases avançadas:',
-    o: ['Deglutição e fonação', 'Motricidade ocular extrínseca, sensibilidade e controle esfincteriano', 'Força da musculatura respiratória', 'Trofismo da musculatura intrínseca das mãos'],
+    o: ['Deglutição e fonação, mesmo na fase avançada', 'Motricidade ocular, sensibilidade e controle esfincteriano', 'Força da musculatura respiratória, mesmo na fase avançada', 'Trofismo da musculatura intrínseca das mãos, até o fim'],
     g: 'B',
     c: 'A degeneração é seletiva para os neurônios motores e poupa os núcleos oculomotores (III, IV e VI) e o núcleo de Onuf, que controla os esfíncteres, além das vias sensitivas. Por isso, alteração sensitiva objetiva, oftalmoparesia ou incontinência precoce devem fazer questionar o diagnóstico.',
     x: { A: 'Disfagia e disartria são frequentes pelo acometimento bulbar e pseudobulbar.', C: 'A insuficiência respiratória por fraqueza diafragmática é a principal causa de morte.', D: 'A atrofia das mãos é uma das manifestações iniciais mais comuns.' },
@@ -93,7 +93,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'ELA: riluzol',
     e: 'Sobre o tratamento farmacológico da esclerose lateral amiotrófica com riluzol, é correto afirmar que o medicamento:',
-    o: ['Reverte a atrofia muscular já instalada', 'Reduz a excitotoxicidade glutamatérgica e prolonga modestamente a sobrevida', 'É um inibidor da acetilcolinesterase que melhora a força', 'Deve ser reservado à fase de ventilação mecânica invasiva'],
+    o: ['Reverte a atrofia muscular já instalada, restaurando a força', 'Reduz a excitotoxicidade glutamatérgica; prolonga pouco a sobrevida', 'É um inibidor da acetilcolinesterase que melhora a força muscular', 'Deve ser reservado à fase de ventilação mecânica invasiva'],
     g: 'B',
     c: 'O riluzol diminui a liberação pré-sináptica de glutamato, atenuando a excitotoxicidade sobre os neurônios motores. O benefício é um aumento modesto da sobrevida, da ordem de poucos meses, sem recuperação de força; exige monitorização de enzimas hepáticas.',
     x: { A: 'Nenhum tratamento disponível reverte a perda neuronal e a atrofia estabelecidas.', C: 'O riluzol não atua na acetilcolinesterase e não produz ganho de força.', D: 'O início deve ser precoce, pois o benefício é maior nas fases iniciais da doença.' },
@@ -101,7 +101,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'ELA: suporte',
     e: 'Paciente com esclerose lateral amiotrófica refere cefaleia matinal, sono não reparador e ortopneia. A capacidade vital forçada caiu para menos de metade do previsto. A medida com maior impacto em sobrevida e qualidade de vida nesse momento é:',
-    o: ['Iniciar piridostigmina', 'Indicar ventilação não invasiva com pressão positiva em dois níveis', 'Prescrever pulsoterapia com metilprednisolona', 'Iniciar imunoglobulina intravenosa'],
+    o: ['Iniciar piridostigmina para melhora da força respiratória', 'Indicar ventilação não invasiva com dois níveis de pressão', 'Prescrever pulsoterapia com metilprednisolona por três dias', 'Iniciar imunoglobulina intravenosa em dose de 2 g/kg'],
     g: 'B',
     c: 'Os sintomas indicam hipoventilação noturna por fraqueza diafragmática. A ventilação não invasiva alivia os sintomas e prolonga a sobrevida, mais do que qualquer fármaco, sendo indicada diante de sintomas de hipoventilação ou queda da capacidade vital. A gastrostomia é outra medida de suporte importante na disfagia.',
     x: { A: 'A piridostigmina trata a miastenia gravis e não tem papel na doença do neurônio motor.', C: 'A doença é degenerativa e não responde a corticoide.', D: 'A imunoglobulina não modifica a evolução da esclerose lateral amiotrófica.' },
@@ -117,7 +117,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Brown-Séquard',
     e: 'Homem de 25 anos sofre ferimento por arma branca na região dorsal, à direita da linha média. O exame neurológico esperado abaixo do nível da lesão é:',
-    o: ['Paresia e anestesia termoalgésica à direita, com perda da propriocepção à esquerda', 'Paresia e perda da propriocepção à direita, com perda da sensibilidade térmica e dolorosa à esquerda', 'Paraparesia com perda bilateral da dor e temperatura e propriocepção preservada', 'Perda bilateral da propriocepção com força preservada'],
+    o: ['Paresia e anestesia termoalgésica à direita, com perda da propriocepção à esquerda', 'Paresia e perda proprioceptiva à direita, termoalgesia perdida à esquerda', 'Paraparesia com perda bilateral da dor e temperatura e propriocepção preservada', 'Perda bilateral da propriocepção com força preservada e sem alteração térmica'],
     g: 'B',
     c: 'Na hemissecção medular, o trato corticoespinal e o funículo posterior, que já cruzaram ou só cruzarão no bulbo, são lesados do mesmo lado, dando fraqueza e perda proprioceptiva ipsilaterais. O trato espinotalâmico cruza na medula logo após a entrada, por isso a perda termoalgésica é contralateral.',
     x: { A: 'A distribuição está invertida: a perda termoalgésica é contralateral e a proprioceptiva é ipsilateral.', C: 'Esse padrão bilateral com propriocepção poupada é o da síndrome medular anterior.', D: 'Perda proprioceptiva bilateral isolada caracteriza a síndrome cordonal posterior.' },
@@ -141,7 +141,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Siringomielia',
     e: 'Mulher de 30 anos, com malformação de Chiari tipo I, apresenta queimaduras indolores nas mãos, perda da sensibilidade térmica e dolorosa em ombros e membros superiores (em xale), com tato e propriocepção preservados, além de atrofia da musculatura das mãos. A explicação anatômica para a dissociação sensitiva é a lesão:',
-    o: ['Dos funículos posteriores', 'Das fibras que cruzam na comissura branca anterior', 'Dos gânglios das raízes dorsais', 'Do trato corticoespinal lateral'],
+    o: ['Dos funículos posteriores da medula cervical', 'Das fibras que cruzam na comissura branca anterior', 'Dos gânglios das raízes dorsais cervicais', 'Do trato corticoespinal lateral da medula'],
     g: 'B',
     c: 'A cavidade siringomiélica expande-se a partir do centro da medula e interrompe as fibras de dor e temperatura no ponto em que cruzam pela comissura anterior, gerando anestesia termoalgésica suspensa e bilateral. O tato e a propriocepção seguem pelo funículo posterior e são poupados; a extensão ao corno anterior causa a atrofia das mãos.',
     x: { A: 'Lesão dos funículos posteriores causaria perda de vibração e propriocepção, que estão preservadas.', C: 'A ganglionopatia compromete todas as modalidades sensitivas, sobretudo a propriocepção.', D: 'O trato corticoespinal é motor e sua lesão não explica a dissociação sensitiva.' },
@@ -149,7 +149,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Degeneração combinada subaguda',
     e: 'Mulher de 55 anos, gastrectomizada há 8 anos, apresenta parestesias nos pés, marcha instável que piora no escuro, sinal de Romberg positivo, perda da sensibilidade vibratória, hiperreflexia patelar e sinal de Babinski bilateral. Hemograma com volume corpuscular médio elevado. O diagnóstico é:',
-    o: ['Tabes dorsalis', 'Degeneração combinada subaguda da medula por deficiência de vitamina B12', 'Esclerose lateral amiotrófica', 'Polineuropatia alcoólica'],
+    o: ['Tabes dorsalis por neurossífilis tardia', 'Degeneração combinada subaguda por deficiência de vitamina B12', 'Esclerose lateral amiotrófica de início espinhal', 'Polineuropatia alcoólica com deficiência de tiamina'],
     g: 'B',
     c: 'A deficiência de cobalamina prejudica a síntese de mielina e causa desmielinização dos funículos posteriores (ataxia sensitiva, perda vibratória) e dos tratos corticoespinais laterais (sinais piramidais). A gastrectomia elimina o fator intrínseco, e a macrocitose reforça a suspeita.',
     x: { A: 'A tabes dorsalis acomete só os cordões posteriores, com arreflexia e sem sinal de Babinski.', C: 'A esclerose lateral amiotrófica não causa alteração sensitiva nem ataxia sensitiva.', D: 'A polineuropatia alcoólica cursa com arreflexia distal e sem sinais piramidais.' },
@@ -157,7 +157,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome cordonal posterior',
     e: 'A síndrome cordonal posterior, cujo exemplo clássico é a tabes dorsalis da neurossífilis, caracteriza-se por:',
-    o: ['Paraparesia espástica com perda da dor e da temperatura', 'Perda da propriocepção e da sensibilidade vibratória, ataxia sensitiva com Romberg positivo e arreflexia', 'Anestesia suspensa termoalgésica em xale', 'Paralisia flácida com atrofia e fasciculações'],
+    o: ['Paraparesia espástica com perda da dor e da temperatura abaixo da lesão', 'Perda de propriocepção e vibração, ataxia sensitiva e Romberg positivo', 'Anestesia suspensa termoalgésica em xale, com força preservada', 'Paralisia flácida com atrofia, fasciculações e arreflexia'],
     g: 'B',
     c: 'A lesão das raízes dorsais e dos funículos posteriores elimina a aferência proprioceptiva, causando ataxia que piora com os olhos fechados, marcha talonante e arreflexia por interrupção do braço aferente do reflexo. Na tabes somam-se dores lancinantes e pupilas de Argyll Robertson.',
     x: { A: 'Paraparesia espástica com perda termoalgésica indica lesão anterior da medula.', C: 'A anestesia suspensa em xale é o padrão da lesão centromedular da siringomielia.', D: 'Paralisia flácida com fasciculações indica lesão do corno anterior, e não dos cordões posteriores.' },
@@ -173,7 +173,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Compressão medular neoplásica',
     e: 'Mulher de 62 anos, com câncer de mama metastático, refere dor dorsal há 3 semanas, que piora à noite e ao deitar, e há 2 dias fraqueza nas pernas e dificuldade para urinar. Ao exame: paraparesia, hiperreflexia e nível sensitivo em T8. A conduta imediata é:',
-    o: ['Solicitar cintilografia óssea e reavaliar em uma semana', 'Iniciar dexametasona e solicitar ressonância magnética de toda a coluna com urgência', 'Realizar punção lombar para pesquisa de células neoplásicas', 'Prescrever analgesia e encaminhar para fisioterapia motora'],
+    o: ['Solicitar cintilografia óssea e reavaliar em uma semana em ambulatório', 'Dexametasona e ressonância magnética de toda a coluna com urgência', 'Realizar punção lombar para pesquisa de células neoplásicas', 'Prescrever analgesia e encaminhar para fisioterapia motora'],
     g: 'B',
     c: 'A compressão medular epidural metastática é emergência oncológica, e o prognóstico funcional depende do estado neurológico no início do tratamento. O corticoide reduz o edema vasogênico e deve ser dado já na suspeita, enquanto a ressonância de toda a coluna define nível e extensão para cirurgia descompressiva ou radioterapia.',
     x: { A: 'A cintilografia não avalia o canal medular, e o atraso pode tornar a paraplegia irreversível.', C: 'A punção lombar não faz o diagnóstico e pode piorar o déficit abaixo de um bloqueio.', D: 'O tratamento apenas sintomático permite a progressão para déficit definitivo.' },
@@ -181,7 +181,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome da cauda equina',
     e: 'Homem de 42 anos, com lombalgia crônica, evolui em 24 horas com dor ciática bilateral, fraqueza assimétrica nos pés, abolição dos reflexos aquileus, anestesia em região perineal e retenção urinária com perdas por transbordamento. O diagnóstico e a conduta são:',
-    o: ['Lombociatalgia mecânica; anti-inflamatório e repouso relativo', 'Síndrome da cauda equina; ressonância magnética urgente e descompressão cirúrgica', 'Síndrome de Guillain-Barré; imunoglobulina intravenosa', 'Mielite transversa; pulsoterapia com metilprednisolona'],
+    o: ['Lombociatalgia mecânica; anti-inflamatório e repouso relativo', 'Síndrome da cauda equina; RM urgente e descompressão cirúrgica', 'Síndrome de Guillain-Barré; imunoglobulina intravenosa por cinco dias', 'Mielite transversa; pulsoterapia com metilprednisolona'],
     g: 'B',
     c: 'A compressão das raízes lombossacras, em geral por hérnia discal volumosa, produz quadro de segundo neurônio: dor radicular, paresia flácida assimétrica, arreflexia, anestesia em sela e disfunção esfincteriana. É urgência cirúrgica, pois a descompressão precoce aumenta a chance de recuperar a função vesical.',
     x: { A: 'Anestesia em sela e retenção urinária são sinais de alarme que excluem conduta conservadora.', C: 'Guillain-Barré não causa anestesia em sela nem dor radicular com retenção urinária precoce.', D: 'A mielite cursa com nível sensitivo e sinais piramidais, não com arreflexia e dor radicular.' },
@@ -189,7 +189,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Cone medular x cauda equina',
     e: 'Em comparação com a síndrome da cauda equina, a síndrome do cone medular caracteriza-se por:',
-    o: ['Dor radicular intensa e déficit motor assimétrico acentuado', 'Disfunção esfincteriana e sexual precoce, anestesia em sela simétrica e pouca dor radicular', 'Preservação da função vesical até fases tardias', 'Nível sensitivo torácico com paraplegia espástica'],
+    o: ['Dor radicular intensa e déficit motor assimétrico acentuado', 'Disfunção esfincteriana precoce, anestesia em sela simétrica, pouca dor', 'Preservação da função vesical até fases tardias da doença', 'Nível sensitivo torácico com paraplegia espástica franca'],
     g: 'B',
     c: 'O cone medular contém os segmentos sacrais, incluindo os centros parassimpáticos da micção, da defecação e da ereção. Sua lesão causa disfunção esfincteriana e sexual precoce e simétrica, com anestesia perineal e déficit motor discreto, podendo coexistir sinais de primeiro e de segundo neurônio.',
     x: { A: 'Dor radicular intensa e déficit assimétrico são mais típicos da lesão das raízes da cauda equina.', C: 'No cone a disfunção vesical é precoce; ela tende a ser mais tardia na cauda equina.', D: 'Nível torácico com paraplegia espástica indica lesão medular acima do cone.' },
@@ -197,7 +197,7 @@ export const MOTORAS_1: QuestaoCompacta[] = [
   {
     s: 'Mielite transversa',
     e: 'Mulher de 28 anos apresenta, em 48 horas, paraparesia, nível sensitivo em T6 e retenção urinária, sem trauma e sem dor importante. A ressonância magnética não mostra compressão, mas evidencia hipersinal medular em T2 com realce pelo contraste; o líquor tem pleocitose linfocítica. O tratamento inicial é:',
-    o: ['Descompressão cirúrgica de urgência', 'Metilprednisolona intravenosa em altas doses', 'Anticoagulação plena com heparina', 'Riluzol por via oral'],
+    o: ['Descompressão cirúrgica de urgência da medula', 'Metilprednisolona intravenosa em altas doses', 'Anticoagulação plena com heparina não fracionada', 'Riluzol por via oral, em dose de 50 mg duas vezes ao dia'],
     g: 'B',
     c: 'Afastada a compressão, o quadro medular agudo com sinais inflamatórios na imagem e no líquor define mielite transversa. O tratamento inicial é a pulsoterapia com corticoide, reservando-se a plasmaférese aos casos graves ou refratários, e deve-se investigar esclerose múltipla, neuromielite óptica e causas infecciosas.',
     x: { A: 'Não há lesão compressiva na ressonância que justifique abordagem cirúrgica.', C: 'A anticoagulação não trata a inflamação medular e não há evidência de trombose.', D: 'O riluzol é usado na esclerose lateral amiotrófica, sem papel em mielite inflamatória.' },

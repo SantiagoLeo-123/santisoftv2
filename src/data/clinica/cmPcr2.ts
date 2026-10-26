@@ -5,7 +5,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Desfibrilação',
     e: 'Homem de 60 anos, internado por infarto, fica subitamente irresponsivo e sem pulso. O monitor mostra ondulações rápidas, irregulares, de amplitude variável, sem complexos QRS identificáveis. O desfibrilador manual está ao lado do leito. A prioridade é:',
-    o: ['Obter acesso venoso e administrar adrenalina', 'Desfibrilar imediatamente, mantendo compressões até o aparelho estar carregado', 'Realizar intubação orotraqueal', 'Administrar amiodarona 300 mg'],
+    o: ['Obter acesso venoso e administrar adrenalina antes do choque', 'Desfibrilar imediatamente, mantendo compressões até o aparelho carregar', 'Realizar intubação orotraqueal e iniciar ventilação', 'Administrar amiodarona 300 mg antes de desfibrilar'],
     g: 'B',
     c: 'O traçado é de fibrilação ventricular, e o único tratamento capaz de interrompê-la é o choque, que despolariza o miocárdio de uma vez e permite ao nó sinusal reassumir o comando. A chance de sucesso cai a cada minuto, por isso o choque precede acesso venoso, drogas e via aérea.',
     x: { A: 'A adrenalina entra após o segundo choque, não antes do primeiro.', C: 'A via aérea avançada não é prioridade inicial no ritmo chocável.', D: 'A amiodarona é reservada à fibrilação refratária aos choques.' },
@@ -13,7 +13,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Desfibrilação',
     e: 'Em uma parada por fibrilação ventricular, a equipe dispõe de um desfibrilador bifásico cuja dose recomendada pelo fabricante é desconhecida. A energia do primeiro choque deve ser:',
-    o: ['50 J', 'A carga máxima disponível no aparelho (em geral 200 J)', '360 J obrigatoriamente', '2 J/kg'],
+    o: ['50 J, com escalonamento nos choques seguintes', 'A carga máxima do aparelho (em geral 200 J)', '360 J obrigatoriamente, em qualquer aparelho', '2 J/kg, como na criança, também no adulto'],
     g: 'B',
     c: 'Nos aparelhos bifásicos usa-se a dose indicada pelo fabricante, geralmente entre 120 e 200 J. Quando essa dose é desconhecida, emprega-se a carga máxima do aparelho, e os choques seguintes têm energia igual ou maior.',
     x: { A: 'Energia insuficiente para desfibrilar um adulto.', C: '360 J é a dose do aparelho monofásico; a maioria dos bifásicos não chega a esse valor.', D: 'Dose por peso é usada em pediatria.' },
@@ -37,7 +37,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Ciclos de RCP',
     e: 'Após o primeiro choque em um paciente com fibrilação ventricular, o monitor passa a exibir um ritmo aparentemente organizado. A conduta imediata é:',
-    o: ['Checar o pulso e, se presente, suspender a RCP', 'Retomar as compressões por 2 minutos e só então checar ritmo e pulso', 'Aplicar um segundo choque de segurança', 'Administrar adrenalina 1 mg e aguardar'],
+    o: ['Checar o pulso e, se presente, suspender a RCP de imediato', 'Retomar as compressões por 2 minutos e só então checar ritmo e pulso', 'Aplicar um segundo choque de segurança logo em seguida', 'Administrar adrenalina 1 mg e aguardar a resposta do ritmo'],
     g: 'B',
     c: 'Depois do choque, o miocárdio atordoado frequentemente apresenta atividade elétrica sem contração eficaz por alguns segundos a minutos. Dois minutos de compressões mantêm a perfusão coronariana e aumentam a chance de o ritmo organizado se tornar perfusional. O pulso só é checado ao fim do ciclo, se o ritmo for organizado.',
     x: { A: 'A checagem imediata prolonga a pausa em um momento de miocárdio atordoado.', C: 'Choques em sequência, sem RCP entre eles, não são recomendados de rotina.', D: 'A RCP não pode ser interrompida para aguardar o efeito de droga.' },
@@ -45,7 +45,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Adrenalina',
     e: 'Paciente de 66 anos em fibrilação ventricular recebeu o primeiro choque e 2 minutos de RCP. Na reavaliação o ritmo persiste e um segundo choque é aplicado. Com acesso venoso disponível, a droga a ser administrada nesse momento e sua dose são:',
-    o: ['Amiodarona 150 mg em bolus', 'Adrenalina 1 mg, repetida a cada 3 a 5 minutos', 'Atropina 1 mg', 'Adrenalina 0,1 mg, dose única'],
+    o: ['Amiodarona 150 mg em bolus após o primeiro choque', 'Adrenalina 1 mg, repetida a cada 3 a 5 minutos', 'Atropina 1 mg, repetida a cada 3 a 5 minutos', 'Adrenalina 0,1 mg, em dose única durante a RCP'],
     g: 'B',
     c: 'Nos ritmos chocáveis a adrenalina é iniciada após o segundo choque, na dose de 1 mg por via venosa ou intraóssea a cada 3 a 5 minutos (na prática, um ciclo sim e outro não). Seu efeito alfa-adrenérgico causa vasoconstrição periférica, eleva a pressão diastólica da aorta e, com isso, a perfusão coronariana.',
     x: { A: 'A amiodarona entra após o terceiro choque, com dose inicial de 300 mg.', C: 'A atropina não faz parte do algoritmo de parada.', D: 'A dose do adulto é de 1 mg, repetida a cada 3 a 5 minutos.' },
@@ -77,7 +77,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Torsades de pointes',
     e: 'Mulher de 45 anos, em uso de haloperidol e com hipocalemia, sofre parada cardiorrespiratória. O monitor mostra taquicardia ventricular polimórfica com complexos que giram em torno da linha de base; um ECG prévio tinha QT corrigido de 560 ms. Além da desfibrilação, a droga indicada é:',
-    o: ['Amiodarona 300 mg', 'Sulfato de magnésio 1 a 2 g por via venosa', 'Procainamida', 'Sotalol'],
+    o: ['Amiodarona 300 mg em bolus venoso rápido', 'Sulfato de magnésio 1 a 2 g por via venosa', 'Procainamida 20 mg/min em infusão venosa', 'Sotalol 1,5 mg/kg em infusão venosa lenta'],
     g: 'B',
     c: 'O quadro é de torsades de pointes, associada ao QT longo. O magnésio suprime as pós-despolarizações precoces que deflagram a arritmia, ao reduzir o influxo de cálcio. Fora desse cenário e da hipomagnesemia, o magnésio não é recomendado de rotina na parada.',
     x: { A: 'A amiodarona prolonga o QT e pode perpetuar a arritmia.', C: 'A procainamida prolonga o QT e é contraindicada.', D: 'O sotalol prolonga o QT e é causa clássica de torsades.' },
@@ -117,7 +117,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Capnografia',
     e: 'Durante a RCP de um paciente intubado, a capnografia mostra onda presente, com ETCO2 persistentemente em 7 mmHg. A interpretação e a conduta mais adequadas são:',
-    o: ['Hiperventilação; reduzir as compressões', 'Baixo fluxo pulmonar; melhorar a qualidade das compressões', 'Retorno da circulação espontânea; checar o pulso', 'Valor ideal; manter a estratégia'],
+    o: ['Hiperventilação; reduzir as compressões e a frequência', 'Baixo fluxo pulmonar; melhorar a qualidade das compressões', 'Retorno da circulação espontânea; checar o pulso carotídeo', 'Valor ideal; manter a estratégia atual de compressões'],
     g: 'B',
     c: 'Com ventilação constante, o CO2 exalado depende do sangue que chega aos pulmões, ou seja, do débito gerado pelas compressões. ETCO2 abaixo de 10 mmHg indica RCP ineficaz e pede correção de profundidade, frequência, retorno do tórax ou troca do compressor.',
     x: { A: 'O valor baixo reflete baixo débito; reduzir compressões piora o quadro.', C: 'O retorno da circulação provoca elevação abrupta do ETCO2.', D: 'A meta durante a RCP é manter ETCO2 de pelo menos 10 mmHg.' },
@@ -133,7 +133,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'TV sem pulso',
     e: 'Homem de 72 anos com miocardiopatia isquêmica é encontrado irresponsivo, em apneia e sem pulso. O monitor mostra taquicardia regular de QRS largo, a 190 bpm. A conduta é:',
-    o: ['Cardioversão elétrica sincronizada com 100 J', 'Desfibrilação com choque não sincronizado e RCP', 'Amiodarona 150 mg em 10 minutos', 'Adenosina 6 mg em bolus'],
+    o: ['Cardioversão elétrica sincronizada com 100 J e sedação', 'Desfibrilação com choque não sincronizado e RCP', 'Amiodarona 150 mg em 10 minutos e observação', 'Adenosina 6 mg em bolus rápido seguido de flush'],
     g: 'B',
     c: 'A taquicardia ventricular sem pulso é ritmo de parada e segue o mesmo algoritmo da fibrilação ventricular: choque não sincronizado de alta energia e RCP. A cardioversão sincronizada e os antiarrítmicos em infusão são reservados à taquicardia ventricular com pulso.',
     x: { A: 'Cardioversão sincronizada é para taquicardia instável com pulso.', C: 'Infusão lenta é para taquicardia ventricular estável com pulso.', D: 'A adenosina não trata ritmo de parada.' },
@@ -141,7 +141,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Checagem de ritmo',
     e: 'Em uma parada por fibrilação ventricular, após o terceiro ciclo de RCP, a checagem mostra ritmo sinusal a 70 bpm no monitor. O passo seguinte é:',
-    o: ['Aplicar novo choque', 'Checar o pulso carotídeo por até 10 segundos', 'Suspender os esforços e iniciar hipotermia', 'Administrar amiodarona 150 mg'],
+    o: ['Aplicar novo choque imediatamente após o ciclo', 'Checar ritmo e pulso carotídeo por até 10 segundos', 'Suspender os esforços e iniciar hipotermia terapêutica', 'Administrar amiodarona 150 mg antes de checar ritmo'],
     g: 'B',
     c: 'Ritmo organizado no monitor não garante contração eficaz. Só diante de ritmo organizado checa-se o pulso: se presente, iniciam-se os cuidados pós-parada; se ausente, trata-se de atividade elétrica sem pulso e a RCP continua pelo algoritmo dos ritmos não chocáveis.',
     x: { A: 'Ritmo organizado não é chocável.', C: 'Antes é preciso confirmar se há pulso.', D: 'Sem confirmar o pulso não se define a conduta.' },
@@ -149,7 +149,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Desfibrilação',
     e: 'Sobre a colocação das pás adesivas do desfibrilador no adulto, a posição padrão é:',
-    o: ['Ambas as pás sobre o esterno', 'Uma pá infraclavicular direita e outra na linha axilar média esquerda, lateral ao ápice cardíaco', 'Uma pá em cada ombro', 'Uma pá no epigástrio e outra na região lombar'],
+    o: ['Ambas as pás sobre o esterno, uma acima da outra', 'Uma infraclavicular direita e outra axilar média esquerda', 'Uma pá em cada ombro, sobre as clavículas', 'Uma pá no epigástrio e outra na região lombar baixa'],
     g: 'B',
     c: 'Na posição anterolateral o coração fica no trajeto da corrente entre as pás, o que maximiza a massa de miocárdio despolarizada. A posição anteroposterior é alternativa aceitável. Pás muito próximas ou sobre o osso desviam a corrente e reduzem a eficácia.',
     x: { A: 'Pás juntas fazem a corrente passar pela superfície, sem atravessar o coração.', C: 'Nessa posição a corrente passa acima do coração.', D: 'A corrente atravessaria o abdome, não o coração.' },
@@ -157,7 +157,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Monitorização da RCP',
     e: 'Paciente em pós-operatório de cirurgia cardíaca, com pressão arterial invasiva, sofre fibrilação ventricular. Durante a RCP, a pressão diastólica registrada é de 12 mmHg. Esse valor indica:',
-    o: ['RCP adequada, sem necessidade de ajustes', 'Perfusão coronariana insuficiente, com necessidade de melhorar as compressões e considerar vasopressor', 'Hipertensão intratorácica por excesso de compressão', 'Necessidade de suspender a adrenalina'],
+    o: ['RCP adequada, sem necessidade de ajustes nas compressões', 'Perfusão coronariana insuficiente; melhorar compressões, avaliar vasopressor', 'Hipertensão intratorácica por excesso de compressão torácica', 'Necessidade de suspender a adrenalina e as compressões'],
     g: 'B',
     c: 'A perfusão coronariana ocorre na fase de descompressão e depende da diferença entre a pressão diastólica da aorta e a do átrio direito. Pressão diastólica abaixo de 20 mmHg durante a RCP associa-se a baixa chance de retorno da circulação e pede melhora das compressões e uso de vasopressor.',
     x: { A: 'O valor está abaixo do mínimo desejado de 20 mmHg.', C: 'O achado reflete baixo fluxo, não excesso de compressão.', D: 'A adrenalina justamente eleva a pressão diastólica.' },
@@ -165,7 +165,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Vasopressores',
     e: 'Um residente pergunta se deve substituir a primeira dose de adrenalina por vasopressina 40 U em um paciente em fibrilação ventricular refratária. A resposta correta é:',
-    o: ['Sim, pois a vasopressina aumenta a sobrevida com bom desfecho neurológico', 'Não é necessário: a vasopressina não mostrou vantagem sobre a adrenalina e saiu do algoritmo', 'Sim, pois a adrenalina é contraindicada em ritmos chocáveis', 'Não, pois a vasopressina causa fibrilação ventricular'],
+    o: ['Sim, pois a vasopressina aumenta a sobrevida com bom desfecho neurológico', 'Não: a vasopressina não superou a adrenalina e saiu do algoritmo', 'Sim, pois a adrenalina é contraindicada em ritmos chocáveis', 'Não, pois a vasopressina causa fibrilação ventricular refratária'],
     g: 'B',
     c: 'Os estudos não demonstraram superioridade da vasopressina, isolada ou associada, em relação à adrenalina. Para simplificar o algoritmo, ela foi retirada em 2015 e a adrenalina permaneceu como vasopressor padrão.',
     x: { A: 'Não há evidência de benefício sobre a adrenalina.', C: 'A adrenalina é indicada em todos os ritmos de parada.', D: 'A droga não foi retirada por ser arritmogênica, mas por não agregar benefício.' },
@@ -173,7 +173,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Drogas na PCR',
     e: 'Em relação às drogas usadas na fibrilação ventricular refratária do adulto, todas as afirmativas abaixo estão corretas, EXCETO:',
-    o: ['A adrenalina é administrada na dose de 1 mg a cada 3 a 5 minutos', 'O bicarbonato de sódio deve ser administrado de rotina a cada 10 minutos de parada', 'A amiodarona tem dose inicial de 300 mg e segunda dose de 150 mg', 'A lidocaína é alternativa à amiodarona'],
+    o: ['A adrenalina é administrada na dose de 1 mg a cada 3 a 5 minutos', 'O bicarbonato de sódio é indicado de rotina a cada 10 minutos', 'A amiodarona tem dose inicial de 300 mg e segunda dose de 150 mg', 'A lidocaína é alternativa à amiodarona quando esta não está disponível'],
     g: 'B',
     c: 'O bicarbonato não é recomendado de rotina: gera CO2, que se difunde para dentro das células e pode agravar a acidose intracelular, além de causar hipernatremia e desviar a curva da hemoglobina. Fica reservado a situações específicas, como hipercalemia, acidose metabólica grave prévia e intoxicação por antidepressivos tricíclicos.',
     x: { A: 'Afirmativa correta: é a dose padrão da adrenalina.', C: 'Afirmativa correta: são as doses da amiodarona na parada.', D: 'Afirmativa correta: a lidocaína substitui a amiodarona.' },
@@ -189,7 +189,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Desfibrilação',
     e: 'Para reduzir a pausa nas compressões em torno do choque com desfibrilador manual, a melhor estratégia é:',
-    o: ['Interromper as compressões enquanto o aparelho carrega', 'Carregar o aparelho durante as compressões, pausar apenas para analisar e chocar, e retomar em seguida', 'Checar o pulso antes e depois de cada choque', 'Aplicar três choques consecutivos em todos os casos'],
+    o: ['Interromper as compressões enquanto o aparelho carrega a carga', 'Carregar durante as compressões e pausar só para analisar e chocar', 'Checar o pulso por 10 segundos antes e depois de cada choque', 'Aplicar três choques consecutivos em todos os casos de FV'],
     g: 'B',
     c: 'Quanto maior a pausa antes e depois do choque, menor a chance de sucesso da desfibrilação, porque a pressão de perfusão coronariana cai em segundos. Carregar o aparelho com as compressões em andamento e retomá-las logo após o disparo mantém a pausa total abaixo de 10 segundos.',
     x: { A: 'O carregamento leva vários segundos, que seriam perdidos sem fluxo.', C: 'As checagens de pulso em torno do choque alongam a pausa.', D: 'Choques em série prolongam o tempo sem compressões.' },
@@ -197,7 +197,7 @@ export const PCR_2: QuestaoCompacta[] = [
   {
     s: 'Via aérea avançada',
     e: 'Homem de 64 anos em fibrilação ventricular está sendo bem ventilado com bolsa-válvula-máscara, com expansão torácica adequada. Um médico pouco experiente deseja interromper a RCP para intubá-lo. A melhor orientação é:',
-    o: ['Intubar imediatamente, pois a intubação precoce é obrigatória', 'Manter a ventilação com bolsa-válvula-máscara e oxigênio a 100%, sem interromper compressões para intubar', 'Suspender as ventilações e manter apenas compressões', 'Realizar cricotireoidostomia'],
+    o: ['Intubar imediatamente, pois a intubação precoce é obrigatória', 'Manter bolsa-válvula-máscara a 100% de O2, sem parar para intubar', 'Suspender as ventilações e manter apenas compressões contínuas', 'Realizar cricotireoidostomia de urgência de imediato'],
     g: 'B',
     c: 'Nenhuma via aérea avançada demonstrou superioridade sobre a ventilação eficaz com bolsa-válvula-máscara, e tentativas prolongadas de intubação interrompem compressões e atrasam choques. A intubação é feita por profissional experiente, com pausa mínima; durante a RCP usa-se a maior fração de oxigênio disponível.',
     x: { A: 'A intubação não é obrigatória nem prioritária quando a ventilação é eficaz.', C: 'No ambiente hospitalar com equipe, a ventilação deve ser mantida.', D: 'Via aérea cirúrgica só se indica quando não se ventila nem se intuba.' },

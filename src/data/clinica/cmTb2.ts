@@ -29,7 +29,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento diretamente observado',
     e: 'Sobre o tratamento diretamente observado (TDO) da tuberculose, assinale a alternativa correta.',
-    o: ['Consiste em entregar a medicação mensalmente e conferir as cartelas vazias na consulta', 'Consiste na observação da ingestão dos medicamentos por profissional de saúde, idealmente em todos os dias úteis e no mínimo três vezes por semana, e é indicado a todos os casos', 'É reservado aos pacientes com história de abandono ou uso de álcool', 'Dispensa as consultas mensais e as baciloscopias de controle'],
+    o: ['Consiste em entregar a medicação mensalmente e conferir as cartelas vazias na consulta', 'Ingestão observada por profissional, ao menos 3 vezes por semana, para todos os casos', 'É reservado aos pacientes com história de abandono ou uso de álcool e drogas', 'Dispensa as consultas mensais e as baciloscopias de controle do tratamento'],
     g: 'B',
     c: 'No TDO um profissional de saúde (ou pessoa supervisionada por ele) observa a tomada do medicamento, idealmente de segunda a sexta-feira e no mínimo três vezes por semana durante todo o tratamento. É recomendado para todos os casos, pois não se consegue prever quem vai abandonar, e fortalece o vínculo, a adesão e a detecção precoce de efeitos adversos.',
     x: { A: 'Entrega mensal com conferência de cartelas é tratamento autoadministrado, não observado.', C: 'A estratégia é universal; restringi-la a grupos de risco deixa de fora grande parte dos abandonos.', D: 'O TDO soma-se ao acompanhamento clínico e bacteriológico mensal, não o substitui.' },
@@ -37,7 +37,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Controle do tratamento',
     e: 'Homem de 44 anos, em tratamento regular de tuberculose pulmonar com esquema básico, tem baciloscopia positiva (+) ao final do segundo mês. Refere melhora da tosse e ganho de peso. A conduta recomendada é:',
-    o: ['Declarar falência e trocar imediatamente para esquema de tuberculose multirresistente', 'Solicitar cultura com teste de sensibilidade e manter o acompanhamento com baciloscopias mensais', 'Suspender o tratamento por 15 dias e reiniciar a fase intensiva', 'Acrescentar estreptomicina ao esquema em uso'],
+    o: ['Declarar falência e trocar imediatamente para esquema de tuberculose multirresistente', 'Cultura com teste de sensibilidade e manter acompanhamento com baciloscopias mensais', 'Suspender o tratamento por 15 dias e reiniciar a fase intensiva do esquema', 'Acrescentar estreptomicina ao esquema em uso e prolongar a fase intensiva'],
     g: 'B',
     c: 'Baciloscopia positiva ao final do segundo mês não define falência: pode refletir bacilos inviáveis, carga inicial alta ou cavidades extensas, mas também má adesão ou resistência. Por isso deve-se solicitar cultura com teste de sensibilidade, reavaliar a adesão e seguir com baciloscopias mensais; a conduta final depende desses resultados.',
     x: { A: 'Os critérios de falência não estão preenchidos no segundo mês, e a troca de esquema exige teste de sensibilidade.', C: 'Interromper o tratamento favorece resistência e não tem fundamento.', D: 'Acrescentar um único fármaco a um esquema possivelmente falho é erro clássico que amplia a resistência.' },
@@ -45,7 +45,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Falência',
     e: 'Mulher de 39 anos, com baciloscopia inicial +++, mantém baciloscopia positiva ao final do sexto mês de esquema básico em tratamento observado. Essa situação é classificada como:',
-    o: ['Recidiva', 'Falência terapêutica', 'Abandono', 'Cura com sequela'],
+    o: ['Recidiva após alta por cura', 'Falência terapêutica', 'Abandono do tratamento', 'Cura com sequela pulmonar'],
     g: 'B',
     c: 'Há falência quando a baciloscopia persiste positiva ao final do tratamento, quando o doente fortemente positivo (++ ou +++) no início assim se mantém até o quarto mês, ou quando há nova positividade por 2 meses consecutivos a partir do quarto mês após negativação. A principal causa é a resistência; deve-se solicitar cultura e teste de sensibilidade e encaminhar à referência.',
     x: { A: 'Recidiva é o adoecimento após cura ou tratamento completo, não a persistência durante o tratamento.', C: 'Abandono pressupõe interrupção do tratamento, o que não ocorreu.', D: 'Baciloscopia positiva ao final impede o encerramento por cura.' },
@@ -61,7 +61,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Retratamento',
     e: 'Homem de 50 anos, tratado e curado de tuberculose pulmonar há 3 anos, volta com tosse, febre e baciloscopia positiva. A conduta inicial recomendada é:',
-    o: ['Iniciar diretamente esquema para tuberculose multirresistente', 'Solicitar teste rápido molecular, cultura e teste de sensibilidade e iniciar o esquema básico até os resultados', 'Tratar com isoniazida isolada por 9 meses', 'Aguardar o teste de sensibilidade para então iniciar qualquer tratamento'],
+    o: ['Iniciar diretamente esquema para tuberculose multirresistente de segunda linha', 'Solicitar TRM, cultura e sensibilidade e iniciar o esquema básico até os resultados', 'Tratar com isoniazida isolada por 9 meses, sem solicitar outros exames', 'Aguardar o teste de sensibilidade para então iniciar qualquer tratamento'],
     g: 'B',
     c: 'Recidiva e reingresso após abandono são casos de retratamento, com maior probabilidade de resistência. Devem ser colhidos teste rápido molecular (que antecipa a resistência à rifampicina), baciloscopia, cultura e teste de sensibilidade, iniciando-se o esquema básico, que será mantido ou trocado conforme os resultados.',
     x: { A: 'A maioria das recidivas ainda é sensível; esquema para multirresistência só com evidência de resistência.', C: 'Isoniazida isolada é tratamento de infecção latente e, na doença ativa, selecionaria resistência.', D: 'Aguardar semanas sem tratar mantém a transmissão e a progressão da doença.' },
@@ -69,7 +69,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Paciente no quinto dia de esquema básico procura a unidade assustado porque a urina e o suor ficaram alaranjados. Está assintomático e sem icterícia. A conduta é:',
-    o: ['Suspender a pirazinamida e dosar transaminases', 'Orientar que é efeito esperado da rifampicina, sem gravidade, e manter o tratamento', 'Suspender todo o esquema até a normalização da cor da urina', 'Trocar o etambutol por estreptomicina'],
+    o: ['Suspender a pirazinamida e dosar transaminases e bilirrubinas', 'Efeito esperado da rifampicina, sem gravidade; manter o tratamento', 'Suspender todo o esquema até a normalização da cor da urina', 'Trocar o etambutol por estreptomicina e manter a rifampicina'],
     g: 'B',
     c: 'A rifampicina e seus metabólitos têm cor vermelho-alaranjada e são eliminados na urina, no suor, na saliva e na lágrima (podem manchar lentes de contato gelatinosas). É um efeito inofensivo, sem relação com hepatotoxicidade, e o paciente deve ser avisado no início do tratamento para não abandonar por medo.',
     x: { A: 'A pirazinamida não altera a cor da urina, e não há sinal de lesão hepática.', C: 'Suspender o esquema por um efeito benigno favorece resistência e atraso da cura.', D: 'O etambutol não causa essa alteração, e a troca não tem indicação.' },
@@ -77,7 +77,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Interações medicamentosas',
     e: 'Mulher de 24 anos, usuária de anticoncepcional oral combinado, inicia o esquema básico para tuberculose pulmonar. A orientação correta quanto à contracepção é:',
-    o: ['Manter o anticoncepcional oral, pois não há interação com os fármacos do esquema', 'Trocar ou associar outro método, pois a rifampicina induz o metabolismo hepático e reduz a eficácia dos contraceptivos hormonais orais', 'Dobrar a dose da isoniazida para compensar a interação', 'Suspender a rifampicina enquanto usar o anticoncepcional'],
+    o: ['Manter o anticoncepcional oral, pois não há interação com os fármacos do esquema', 'Associar outro método, pois a rifampicina reduz a eficácia do anticoncepcional oral', 'Dobrar a dose da isoniazida para compensar a interação medicamentosa', 'Suspender a rifampicina enquanto a paciente usar o anticoncepcional'],
     g: 'B',
     c: 'A rifampicina é potente indutor das enzimas do citocromo P450 e acelera o metabolismo de estrogênios e progestagênios, reduzindo seus níveis e a eficácia contraceptiva. Deve-se orientar método que não dependa dessa via, como preservativo ou dispositivo intrauterino, durante o tratamento.',
     x: { A: 'A interação é clássica e clinicamente relevante, com risco de gravidez não planejada.', C: 'A isoniazida não participa dessa interação, e dobrar sua dose só aumenta a toxicidade.', D: 'A rifampicina é o fármaco mais importante do esquema e não deve ser retirada por esse motivo.' },
@@ -85,7 +85,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Interações medicamentosas',
     e: 'Homem de 66 anos, com fibrilação atrial e INR estável em 2,5 com varfarina, inicia o esquema básico para tuberculose. Nas semanas seguintes espera-se:',
-    o: ['Elevação do INR, com risco de sangramento', 'Queda do INR, com necessidade de aumentar a dose da varfarina e monitorar de perto', 'INR inalterado, pois a varfarina não é metabolizada no fígado', 'Elevação do INR apenas após o término do etambutol'],
+    o: ['Elevação do INR, com risco de sangramento e necessidade de reduzir a dose', 'Queda do INR, com necessidade de aumentar a dose de varfarina e monitorar', 'INR inalterado, pois a varfarina não é metabolizada no fígado', 'Elevação do INR apenas após o término do uso do etambutol'],
     g: 'B',
     c: 'A indução enzimática pela rifampicina acelera a depuração da varfarina, reduz o INR e pode exigir aumento expressivo da dose. O efeito surge em 1 a 2 semanas e desaparece algumas semanas após a suspensão da rifampicina, quando a dose do anticoagulante precisa ser reduzida para evitar sangramento.',
     x: { A: 'Aumento do INR ocorreria com inibidores enzimáticos, não com um indutor.', C: 'A varfarina é extensamente metabolizada pelo citocromo P450 hepático.', D: 'O etambutol não interfere no metabolismo da varfarina.' },
@@ -93,7 +93,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Homem de 52 anos, etilista, no segundo mês do esquema básico, queixa-se de formigamento e queimação em pés, simétricos, em bota. Não há fraqueza. O fármaco responsável e a conduta são, respectivamente:',
-    o: ['Etambutol; suspender o esquema', 'Isoniazida; associar piridoxina e manter o esquema', 'Rifampicina; trocar por rifabutina', 'Pirazinamida; associar alopurinol'],
+    o: ['Etambutol; suspender o esquema e iniciar esquema alternativo', 'Isoniazida; associar piridoxina e manter o esquema', 'Rifampicina; trocar por rifabutina e manter o restante', 'Pirazinamida; associar alopurinol e manter o esquema'],
     g: 'B',
     c: 'A isoniazida interfere no metabolismo da piridoxina (vitamina B6), aumentando sua excreção e inibindo sua ativação, o que causa neuropatia periférica sensitiva, mais comum em etilistas, desnutridos, diabéticos, gestantes e pessoas com HIV. É reação menor: trata-se com piridoxina e mantém-se o esquema.',
     x: { A: 'O etambutol causa neurite óptica, não polineuropatia em bota, e não há indicação de suspender tudo.', C: 'A rifampicina não é causa habitual de neuropatia periférica.', D: 'A pirazinamida causa hiperuricemia e artralgia, não parestesias em bota.' },
@@ -101,7 +101,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Piridoxina',
     e: 'A piridoxina profilática durante o uso de isoniazida está indicada em todas as situações abaixo, EXCETO:',
-    o: ['Gestante', 'Adulto jovem hígido, sem comorbidades e bem nutrido', 'Etilista crônico', 'Pessoa vivendo com HIV'],
+    o: ['Gestante, com maior risco de neuropatia', 'Adulto jovem hígido, sem comorbidades', 'Etilista crônico com desnutrição associada', 'Pessoa vivendo com HIV em uso de isoniazida'],
     g: 'B',
     c: 'A profilaxia com piridoxina é reservada a quem tem maior risco de neuropatia pela isoniazida: gestantes, etilistas, desnutridos, diabéticos, pessoas com HIV e doentes renais crônicos. No adulto hígido e bem nutrido as reservas de vitamina B6 são suficientes e a neuropatia é rara, de modo que a suplementação de rotina não é necessária.',
     x: { A: 'A gestação aumenta a demanda de piridoxina e é indicação formal da profilaxia.', C: 'O etilismo cursa com deficiência de vitamina B6 e alto risco de neuropatia.', D: 'A infecção pelo HIV é fator de risco independente para neuropatia periférica.' },
@@ -125,7 +125,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Hepatotoxicidade',
     e: 'Mulher de 55 anos, na terceira semana do esquema básico, apresenta náuseas, vômitos, colúria e icterícia. TGO 210 U/L e TGP 245 U/L (limite superior de 40 U/L). A conduta imediata é:',
-    o: ['Manter o esquema e associar antiemético', 'Suspender todos os fármacos do esquema e monitorar a função hepática', 'Suspender apenas o etambutol', 'Reduzir todas as doses pela metade'],
+    o: ['Manter o esquema e associar antiemético, acompanhando a evolução', 'Suspender todo o esquema e monitorar a função hepática', 'Suspender apenas o etambutol e manter os demais fármacos', 'Reduzir todas as doses pela metade por duas semanas'],
     g: 'B',
     c: 'O tratamento deve ser interrompido quando houver icterícia, transaminases de 3 vezes ou mais o limite superior com sintomas, ou de 5 vezes ou mais mesmo sem sintomas. Isoniazida, rifampicina e pirazinamida são hepatotóxicas, e a continuidade pode levar a hepatite fulminante. Após a queda das enzimas para menos de 2 vezes o limite, reintroduzem-se os fármacos de forma escalonada.',
     x: { A: 'Tratar apenas o sintoma diante de icterícia expõe a risco de insuficiência hepática aguda.', C: 'O etambutol é o menos hepatotóxico do esquema; suspendê-lo isoladamente não resolve.', D: 'Subdoses não evitam a lesão hepática e favorecem resistência.' },
@@ -149,7 +149,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Mulher de 36 anos, na segunda semana do esquema básico, queixa-se de náuseas e desconforto epigástrico cerca de 1 hora após tomar os comprimidos em jejum. Não tem icterícia, e as transaminases são normais. A conduta é:',
-    o: ['Suspender o esquema e reintroduzir fármaco a fármaco', 'Reformular o horário da tomada (por exemplo, após o café da manhã), considerar sintomáticos e manter o esquema', 'Substituir a rifampicina por levofloxacino', 'Fracionar a dose diária em três tomadas'],
+    o: ['Suspender o esquema e reintroduzir fármaco a fármaco após 2 semanas', 'Mudar o horário da tomada (após o café), dar sintomáticos e manter o esquema', 'Substituir a rifampicina por levofloxacino e manter os demais', 'Fracionar a dose diária em três tomadas ao longo do dia'],
     g: 'B',
     c: 'A intolerância digestiva é a reação menor mais frequente e não exige suspensão. Excluída hepatotoxicidade, orienta-se a tomada após uma refeição leve e usam-se antieméticos ou protetores gástricos se preciso. O manejo adequado das reações menores na atenção básica é essencial para evitar abandono.',
     x: { A: 'A suspensão com reintrodução escalonada é reservada às reações maiores, como a hepatotoxicidade.', C: 'Não se troca o fármaco mais importante do esquema por uma queixa digestiva leve.', D: 'O esquema é de tomada única diária; fracionar reduz o pico sérico e a eficácia.' },
@@ -181,7 +181,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Homem de 49 anos reiniciou o esquema básico após abandono, tomando os comprimidos de forma irregular. Apresenta petéquias difusas, gengivorragia e plaquetas de 14.000/mm3. A conduta é:',
-    o: ['Manter o esquema e transfundir plaquetas a cada 3 dias', 'Suspender o tratamento, identificar a rifampicina como causa provável e não a reintroduzir', 'Suspender apenas a pirazinamida', 'Reduzir a dose da isoniazida e associar piridoxina'],
+    o: ['Manter o esquema e transfundir plaquetas a cada 3 dias, se necessário', 'Suspender o tratamento; rifampicina é a causa provável e não deve voltar', 'Suspender apenas a pirazinamida e manter os demais fármacos', 'Reduzir a dose da isoniazida e associar piridoxina em dose alta'],
     g: 'B',
     c: 'A rifampicina pode induzir anticorpos que, na reexposição, destroem plaquetas, hemácias ou lesam o rim; essas reações de hipersensibilidade são mais comuns no uso irregular ou intermitente. Trombocitopenia, anemia hemolítica, nefrite intersticial e choque são reações maiores: o fármaco é suspenso definitivamente e o caso segue na referência com esquema especial.',
     x: { A: 'Manter o agente causador perpetua a destruição imune das plaquetas e o risco de sangramento grave.', C: 'A pirazinamida não é causa típica de púrpura trombocitopênica.', D: 'A isoniazida não explica o quadro, e a piridoxina não tem papel aqui.' },
@@ -189,7 +189,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Homem de 61 anos, em esquema especial que inclui estreptomicina por hepatopatia, passa a apresentar vertigem, desequilíbrio ao caminhar e zumbido. O efeito adverso em questão e outro órgão a ser monitorado com esse fármaco são:',
-    o: ['Neurite óptica; fígado', 'Toxicidade vestibulococlear (VIII par); rim', 'Neuropatia periférica; medula óssea', 'Síndrome cerebelar; pâncreas'],
+    o: ['Neurite óptica retrobulbar; fígado e pâncreas', 'Toxicidade vestibulococlear (VIII par); rim', 'Neuropatia periférica sensitiva; medula óssea', 'Síndrome cerebelar aguda; pâncreas e fígado'],
     g: 'B',
     c: 'A estreptomicina é um aminoglicosídeo: acumula-se na endolinfa e lesa as células ciliadas, com predomínio vestibular (vertigem, ataxia) e também coclear, podendo ser irreversível. É ainda nefrotóxica, por lesão tubular proximal. O risco cresce com idade, dose cumulativa e disfunção renal; é contraindicada na gestação pelo risco de surdez congênita.',
     x: { A: 'Neurite óptica é efeito do etambutol, e a estreptomicina não é hepatotóxica.', C: 'Neuropatia periférica é típica da isoniazida; a estreptomicina não é mielotóxica.', D: 'O quadro é vestibular periférico, não cerebelar, e não há toxicidade pancreática.' },
@@ -197,7 +197,7 @@ export const TB_2: QuestaoCompacta[] = [
   {
     s: 'Encerramento',
     e: 'Paciente com tuberculose pulmonar, baciloscopia inicial positiva, completa 6 meses de esquema básico. Para que o caso seja encerrado como cura, é necessário:',
-    o: ['Normalização completa da radiografia de tórax', 'Duas baciloscopias negativas, uma na fase de acompanhamento e outra ao final do tratamento', 'Teste rápido molecular negativo no sexto mês', 'Negativação da prova tuberculínica'],
+    o: ['Normalização completa da radiografia de tórax e do hemograma', 'Duas baciloscopias negativas, uma no acompanhamento e outra ao final', 'Teste rápido molecular negativo no sexto mês de tratamento', 'Negativação da prova tuberculínica ao final do tratamento'],
     g: 'B',
     c: 'O critério de cura do caso bacilífero é bacteriológico: pelo menos duas baciloscopias negativas, uma em qualquer mês do acompanhamento e outra ao final (quinto ou sexto mês). Quem completou o tratamento sem comprovação bacteriológica, por não ter escarro, por exemplo, é encerrado como tratamento completo, com base em critérios clínicos e radiológicos.',
     x: { A: 'Lesões residuais e fibrose são comuns e não significam doença em atividade.', C: 'O teste molecular pode permanecer positivo por DNA de bacilos mortos e não é usado para alta.', D: 'A prova tuberculínica permanece reatora após o tratamento.' },

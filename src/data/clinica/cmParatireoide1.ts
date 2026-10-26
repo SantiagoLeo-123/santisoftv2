@@ -21,7 +21,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Cálcio corrigido',
     e: 'Paciente cirrótico, assintomático, apresenta cálcio total de 7,8 mg/dL e albumina de 2,0 g/dL. A interpretação correta é:',
-    o: ['Hipocalcemia verdadeira, com indicação de gluconato de cálcio endovenoso', 'Cálcio corrigido para a albumina dentro da normalidade, sem hipocalcemia verdadeira', 'Hipercalcemia mascarada pela hipoalbuminemia', 'O resultado só pode ser interpretado após a dosagem de PTH'],
+    o: ['Hipocalcemia verdadeira, com indicação de gluconato de cálcio endovenoso', 'Cálcio corrigido para a albumina normal, sem hipocalcemia verdadeira', 'Hipercalcemia mascarada pela hipoalbuminemia, a ser investigada', 'O resultado só pode ser interpretado após a dosagem de PTH'],
     g: 'B',
     c: 'Cerca de metade do cálcio circula ligado à albumina; por isso, para cada 1 g/dL de albumina abaixo de 4, soma-se 0,8 mg/dL ao cálcio total. Aqui o cálcio corrigido é 7,8 + 0,8 x 2 = 9,4 mg/dL, normal. A fração ionizada, biologicamente ativa, está preservada, o que explica a ausência de sintomas.',
     x: { A: 'A fração ionizada está normal; repor cálcio endovenoso seria desnecessário e arriscado.', C: 'O valor corrigido de 9,4 mg/dL está na faixa normal, não elevada.', D: 'A correção pela albumina (ou o cálcio iônico) já esclarece o achado, sem necessidade de PTH.' },
@@ -61,7 +61,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Osteíte fibrosa cística',
     e: 'Homem de 49 anos com dor óssea difusa, nefrolitíase de repetição e cálcio de 13,4 mg/dL apresenta radiografia das mãos com reabsorção subperiosteal na face radial das falanges médias e crânio com aspecto em sal e pimenta. Há lesão lítica expansiva na mandíbula. Esses achados correspondem a:',
-    o: ['Doença de Paget óssea', 'Osteíte fibrosa cística do hiperparatireoidismo grave', 'Mieloma múltiplo', 'Metástases osteoblásticas'],
+    o: ['Doença de Paget óssea com fosfatase alcalina muito alta', 'Osteíte fibrosa cística do hiperparatireoidismo', 'Mieloma múltiplo com lesões líticas em saca-bocado', 'Metástases osteoblásticas de próstata'],
     g: 'B',
     c: 'A osteíte fibrosa cística resulta da reabsorção osteoclástica intensa provocada por PTH muito elevado e prolongado. A reabsorção subperiosteal das falanges é o sinal radiológico mais específico, e os tumores marrons são acúmulos de osteoclastos e tecido fibroso com hemossiderina, não neoplasias verdadeiras, que regridem após a paratireoidectomia.',
     x: { A: 'A doença de Paget causa espessamento cortical e trabeculado grosseiro, com cálcio habitualmente normal.', C: 'O mieloma dá lesões líticas em saca-bocado, mas não reabsorção subperiosteal de falanges.', D: 'Metástases blásticas são escleróticas e não explicam a reabsorção subperiosteal.' },
@@ -69,7 +69,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo primário - cirurgia',
     e: 'Mulher de 46 anos, com hiperparatireoidismo primário confirmado, está assintomática. Cálcio de 10,9 mg/dL (limite superior 10,2), depuração de creatinina de 85 mL/min, densitometria com T-escore de -1,2 em todos os sítios e sem nefrolitíase em exame de imagem. A conduta mais adequada é:',
-    o: ['Acompanhamento clínico, pois não há nenhum critério cirúrgico', 'Paratireoidectomia, pois a idade inferior a 50 anos é indicação cirúrgica', 'Iniciar cinacalcete por tempo indeterminado', 'Iniciar hidroclorotiazida para reduzir a calciúria'],
+    o: ['Acompanhamento clínico, pois não há nenhum critério cirúrgico', 'Paratireoidectomia, pois idade abaixo de 50 anos é critério cirúrgico', 'Iniciar cinacalcete por tempo indeterminado, sem cirurgia', 'Iniciar hidroclorotiazida para reduzir a calciúria e a litíase'],
     g: 'B',
     c: 'Nos assintomáticos, a cirurgia está indicada quando há idade menor que 50 anos, cálcio mais de 1 mg/dL acima do limite superior, T-escore igual ou menor que -2,5 ou fratura vertebral, depuração de creatinina menor que 60 mL/min, nefrolitíase ou nefrocalcinose ou hipercalciúria acentuada. Pacientes jovens têm longo tempo de exposição à doença e maior chance de progressão, o que justifica operar.',
     x: { A: 'A idade abaixo de 50 anos é, por si só, um critério de indicação cirúrgica.', C: 'O cinacalcete reduz a calcemia, mas não melhora a massa óssea e fica reservado a quem não pode operar.', D: 'Tiazídicos reduzem a excreção de cálcio e podem agravar a hipercalcemia.' },
@@ -85,7 +85,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome da fome óssea',
     e: 'Paciente com hiperparatireoidismo primário grave e osteíte fibrosa é submetido à retirada de adenoma de paratireoide. No segundo dia de pós-operatório apresenta parestesias periorais e câimbras. Exames: cálcio 6,9 mg/dL, fósforo 1,8 mg/dL, magnésio baixo e PTH no limite inferior da normalidade. O quadro é explicado por:',
-    o: ['Hipoparatireoidismo definitivo por lesão das glândulas remanescentes', 'Síndrome da fome óssea, com rápida deposição de cálcio, fósforo e magnésio no osso desmineralizado', 'Hipercalcitoninemia reacional à manipulação da tireoide', 'Deficiência aguda de vitamina D pelo jejum perioperatório'],
+    o: ['Hipoparatireoidismo definitivo por lesão das glândulas remanescentes', 'Síndrome da fome óssea, com rápida deposição de Ca, P e Mg no osso', 'Hipercalcitoninemia reacional à manipulação da tireoide', 'Deficiência aguda de vitamina D pelo jejum perioperatório'],
     g: 'B',
     c: 'Com a queda brusca do PTH, cessa a reabsorção e o osso previamente desmineralizado passa a captar avidamente cálcio, fósforo e magnésio. A hipofosfatemia é a pista que diferencia a fome óssea do hipoparatireoidismo, no qual o fósforo se eleva pela perda do efeito fosfatúrico do PTH.',
     x: { A: 'No hipoparatireoidismo o fósforo estaria alto e o PTH indetectável ou muito baixo.', C: 'A calcitonina não provoca hipocalcemia clinicamente relevante nesse contexto.', D: 'Poucos dias de jejum não causam deficiência de vitamina D com hipocalcemia aguda.' },
@@ -93,7 +93,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo secundário',
     e: 'Homem de 62 anos, com doença renal crônica estágio 4, apresenta cálcio de 8,4 mg/dL, fósforo de 6,1 mg/dL e PTH de 420 pg/mL. O mecanismo que explica a elevação do PTH é:',
-    o: ['Produção autônoma de PTH por adenoma de paratireoide', 'Retenção de fosfato, redução do calcitriol e tendência à hipocalcemia estimulando as paratireoides', 'Mutação inativadora do receptor sensor de cálcio', 'Produção ectópica de PTH pelo rim doente'],
+    o: ['Produção autônoma de PTH por adenoma de uma paratireoide', 'Retenção de fosfato e redução do calcitriol estimulam as paratireoides', 'Mutação inativadora do receptor sensor de cálcio hereditária', 'Produção ectópica de PTH pelo rim doente e atrofiado'],
     g: 'B',
     c: 'Na doença renal crônica, a perda de néfrons retém fosfato e eleva o FGF-23, com queda da 1-alfa-hidroxilação e do calcitriol. A menor absorção intestinal de cálcio, a hiperfosfatemia e a falta do efeito inibitório do calcitriol sobre as paratireoides levam à hiperplasia e hipersecreção compensatória de PTH.',
     x: { A: 'No adenoma autônomo o cálcio está elevado e o fósforo baixo, o inverso do caso.', C: 'A mutação do sensor de cálcio causa hipercalcemia leve familiar com função renal normal.', D: 'O rim não secreta PTH; a produção ectópica verdadeira desse hormônio é excepcional.' },
@@ -101,7 +101,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo secundário - tratamento',
     e: 'No manejo do distúrbio mineral e ósseo da doença renal crônica dialítica com PTH persistentemente elevado, cálcio normal e fósforo elevado, a primeira medida entre as abaixo é:',
-    o: ['Paratireoidectomia total imediata', 'Controle do fósforo com restrição dietética e quelantes, como o sevelâmer', 'Reposição de fosfato oral', 'Uso de bisfosfonato endovenoso mensal'],
+    o: ['Paratireoidectomia total imediata, em todos os casos', 'Controle do fósforo com dieta e quelantes, como o sevelâmer', 'Reposição de fosfato oral, para corrigir a hipofosfatemia', 'Uso de bisfosfonato endovenoso mensal, por 6 meses'],
     g: 'B',
     c: 'O controle da hiperfosfatemia é a base do tratamento, pois o fosfato estimula diretamente a secreção de PTH e reduz o calcitriol. Depois de controlado o fósforo, podem ser associados calcitriol ou análogos e calcimiméticos; a paratireoidectomia fica para os casos refratários ou com complicações graves.',
     x: { A: 'A cirurgia é reservada ao hiperparatireoidismo grave e refratário ao tratamento clínico.', C: 'Repor fosfato agravaria a hiperfosfatemia e o estímulo às paratireoides.', D: 'Bisfosfonatos não tratam o hiperparatireoidismo e podem favorecer doença óssea adinâmica.' },
@@ -117,7 +117,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia - causas',
     e: 'As duas causas responsáveis pela grande maioria dos casos de hipercalcemia e os cenários em que cada uma predomina são:',
-    o: ['Sarcoidose no ambulatório e intoxicação por vitamina D no hospital', 'Hiperparatireoidismo primário no ambulatório e neoplasias malignas nos pacientes internados', 'Uso de tiazídicos no ambulatório e imobilização no hospital', 'Hipertireoidismo no ambulatório e insuficiência adrenal no hospital'],
+    o: ['Sarcoidose no ambulatório e intoxicação por vitamina D no hospital', 'Hiperparatireoidismo primário no ambulatório e neoplasias nos internados', 'Uso de tiazídicos no ambulatório e imobilização no hospital', 'Hipertireoidismo no ambulatório e insuficiência adrenal no hospital'],
     g: 'B',
     c: 'Hiperparatireoidismo primário e malignidade respondem por cerca de 90% das hipercalcemias. O primeiro é típico do paciente ambulatorial, oligossintomático e com calcemia pouco elevada e crônica; a segunda predomina em internados, com hipercalcemia de instalação rápida, sintomática e geralmente com tumor já evidente.',
     x: { A: 'Doenças granulomatosas e intoxicação por vitamina D são causas reais, porém minoritárias.', C: 'Tiazídicos e imobilização causam hipercalcemia leve e são bem menos frequentes.', D: 'Hipertireoidismo e insuficiência adrenal são causas incomuns de hipercalcemia.' },
@@ -133,7 +133,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia - doenças granulomatosas',
     e: 'Mulher de 34 anos apresenta adenomegalia hilar bilateral, eritema nodoso e cálcio de 12,1 mg/dL com PTH suprimido e hipercalciúria. O mecanismo da hipercalcemia e o tratamento específico são:',
-    o: ['Produção de PTHrP pelos granulomas; bisfosfonato', 'Atividade de 1-alfa-hidroxilase nos macrófagos dos granulomas, com excesso de calcitriol; glicocorticoide', 'Reabsorção óssea por invasão granulomatosa da medula; calcitonina', 'Hiperplasia de paratireoides induzida por citocinas; paratireoidectomia'],
+    o: ['Produção de PTHrP pelos granulomas hiperativos; bisfosfonato', '1-alfa-hidroxilase nos granulomas (excesso de calcitriol); glicocorticoide', 'Reabsorção óssea por invasão granulomatosa da medula; calcitonina', 'Hiperplasia de paratireoides induzida por citocinas; paratireoidectomia'],
     g: 'B',
     c: 'Na sarcoidose e em outras doenças granulomatosas, os macrófagos ativados expressam 1-alfa-hidroxilase não regulada pelo PTH, convertendo a 25-hidroxivitamina D em calcitriol. Isso aumenta a absorção intestinal de cálcio. O glicocorticoide inibe essa enzima nos macrófagos e reduz a absorção intestinal, sendo o tratamento de escolha.',
     x: { A: 'Os granulomas produzem calcitriol, não PTHrP.', C: 'A hipercalcemia decorre de maior absorção intestinal, não de invasão medular.', D: 'O PTH está suprimido, o que afasta hiperfunção das paratireoides.' },
@@ -141,7 +141,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia - medicamentos',
     e: 'Entre os medicamentos abaixo, o que pode causar hipercalcemia com PTH elevado, por alterar o ponto de ajuste do receptor sensor de cálcio nas paratireoides, é:',
-    o: ['Furosemida', 'Carbonato de lítio', 'Alendronato', 'Fenitoína'],
+    o: ['Furosemida (diurético de alça)', 'Carbonato de lítio (estabilizador)', 'Alendronato (bisfosfonato)', 'Fenitoína (anticonvulsivante)'],
     g: 'B',
     c: 'O lítio desloca para a direita a curva de supressão do PTH pelo cálcio, de modo que é preciso calcemia mais alta para inibir a secreção. O resultado é um quadro bioquímico semelhante ao hiperparatireoidismo primário, inclusive com hipocalciúria, que pode regredir com a suspensão do fármaco.',
     x: { A: 'A furosemida aumenta a excreção urinária de cálcio e tende a reduzir a calcemia.', C: 'Os bisfosfonatos inibem os osteoclastos e podem causar hipocalcemia.', D: 'A fenitoína acelera o catabolismo da vitamina D e favorece hipocalcemia.' },
@@ -165,7 +165,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Crise hipercalcêmica - tratamento',
     e: 'Mulher de 61 anos, com câncer de mama metastático, chega torporosa e desidratada, com cálcio de 16,2 mg/dL e creatinina de 1,9 mg/dL. A medida inicial prioritária é:',
-    o: ['Furosemida endovenosa em altas doses', 'Hidratação vigorosa com solução salina isotônica', 'Hidroclorotiazida por via oral', 'Paratireoidectomia de urgência'],
+    o: ['Furosemida endovenosa em altas doses, como primeira medida', 'Hidratação vigorosa com solução salina isotônica', 'Hidroclorotiazida por via oral para aumentar a calciúria', 'Paratireoidectomia de urgência por hiperparatireoidismo'],
     g: 'B',
     c: 'O paciente com hipercalcemia grave está sempre depletado de volume, pela poliúria e pelos vômitos, e a hipovolemia reduz a filtração e aumenta a reabsorção proximal de cálcio. A solução salina restaura o volume e promove calciurese, pois a excreção de cálcio acompanha a de sódio. Em seguida associam-se calcitonina, de ação rápida, e bisfosfonato endovenoso, de ação mais tardia.',
     x: { A: 'O diurético de alça só deve ser usado após repor o volume ou se houver congestão; antes disso agrava a desidratação.', C: 'Os tiazídicos reduzem a excreção urinária de cálcio e pioram a hipercalcemia.', D: 'O quadro é de hipercalcemia da malignidade, sem papel para cirurgia de paratireoide.' },
@@ -173,7 +173,7 @@ export const PARATIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Crise hipercalcêmica - fármacos',
     e: 'No tratamento da hipercalcemia grave da malignidade, sobre o tempo de ação dos fármacos antirreabsortivos, é correto afirmar:',
-    o: ['O ácido zoledrônico age em poucas horas e a calcitonina leva dias para fazer efeito', 'A calcitonina age em poucas horas, mas sofre taquifilaxia em cerca de 48 horas; o ácido zoledrônico leva 2 a 4 dias para atingir efeito máximo', 'Ambos têm início de ação imediato e efeito sustentado por semanas', 'A calcitonina não tem efeito sobre a calcemia e é usada apenas como analgésico'],
+    o: ['O ácido zoledrônico age em poucas horas e a calcitonina leva dias para fazer efeito', 'Calcitonina age em horas, com taquifilaxia em 48 h; zoledronato leva 2 a 4 dias', 'Ambos têm início de ação imediato e efeito sustentado por semanas', 'A calcitonina não tem efeito sobre a calcemia e é usada apenas como analgésico'],
     g: 'B',
     c: 'A calcitonina inibe os osteoclastos e aumenta a calciurese em 4 a 6 horas, porém perde eficácia rapidamente por regulação negativa de seus receptores. Os bisfosfonatos endovenosos induzem apoptose dos osteoclastos, com efeito máximo em alguns dias e duração de semanas. Por isso são usados em conjunto: a calcitonina como ponte até o bisfosfonato agir.',
     x: { A: 'Os tempos estão trocados: o bisfosfonato é lento e a calcitonina é rápida.', C: 'Nenhum dos dois reúne início imediato e efeito sustentado, daí a associação.', D: 'A calcitonina reduz a calcemia, ainda que de forma modesta e transitória.' },

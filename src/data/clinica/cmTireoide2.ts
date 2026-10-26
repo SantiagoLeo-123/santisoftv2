@@ -5,7 +5,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Graves',
     e: 'Mulher de 28 anos apresenta perda de 7 kg, palpitações, tremor fino, intolerância ao calor e diarreia. Ao exame: bócio difuso com sopro, proptose bilateral e FC 118 bpm. TSH indetectável e T4 livre elevado. O mecanismo da doença é:',
-    o: ['Destruição folicular por infiltrado granulomatoso com liberação de hormônio pré-formado', 'Anticorpos que se ligam ao receptor de TSH e o estimulam, aumentando síntese hormonal e crescimento da glândula', 'Mutação ativadora do receptor de TSH em um clone de tireócitos', 'Secreção autônoma de TSH por adenoma hipofisário'],
+    o: ['Destruição folicular por infiltrado granulomatoso, liberando hormônio pré-formado', 'Anticorpos estimuladores do receptor de TSH, com aumento da síntese hormonal', 'Mutação ativadora do receptor de TSH em um clone de tireócitos autônomos', 'Secreção autônoma de TSH por adenoma hipofisário com bócio difuso'],
     g: 'B',
     c: 'A doença de Graves é a causa mais comum de hipertireoidismo. O anticorpo antirreceptor de TSH (TRAb) do tipo estimulador imita o TSH, ativando a síntese e a secreção hormonal e a proliferação dos tireócitos, de forma independente do feedback. Isso explica o bócio difuso hipervascularizado, com sopro, e a captação de iodo difusamente aumentada.',
     x: { A: 'Esse é o mecanismo da tireoidite subaguda, que cursa com dor e sem oftalmopatia.', C: 'Mutação somática ativadora do receptor de TSH é a base do adenoma tóxico, que causa nódulo e não bócio difuso com proptose.', D: 'No adenoma produtor de TSH o TSH estaria normal ou alto, não indetectável.' },
@@ -85,7 +85,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento',
     e: 'Mulher de 33 anos, não gestante e sem planos de engravidar, inicia tratamento clínico para doença de Graves. O antitireoidiano de primeira escolha e a justificativa são:',
-    o: ['Propiltiouracil, por ter menor risco de hepatotoxicidade', 'Metimazol, por permitir dose única diária e ter menor risco de hepatotoxicidade grave', 'Propiltiouracil, por ter meia-vida mais longa', 'Metimazol, por inibir a conversão periférica de T4 em T3'],
+    o: ['Propiltiouracil, por ter menor risco de hepatotoxicidade grave', 'Metimazol, pela dose única diária e menor risco de hepatotoxicidade grave', 'Propiltiouracil, por ter meia-vida mais longa que o metimazol', 'Metimazol, por inibir a conversão periférica de T4 em T3'],
     g: 'B',
     c: 'As tionamidas inibem a tireoperoxidase, bloqueando a organificação do iodo e o acoplamento das iodotirosinas. O metimazol é preferido em quase todos os cenários: tem meia-vida mais longa, permite tomada única, normaliza os hormônios mais depressa e raramente causa lesão hepática grave. O propiltiouracil fica reservado ao primeiro trimestre da gestação, à crise tireotóxica e à intolerância ao metimazol.',
     x: { A: 'É o propiltiouracil que se associa a necrose hepática fulminante, motivo de ser segunda linha.', C: 'O propiltiouracil tem meia-vida curta e exige duas a três tomadas ao dia.', D: 'A inibição da conversão periférica é propriedade do propiltiouracil, não do metimazol.' },
@@ -93,7 +93,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Antitireoidianos: efeitos adversos',
     e: 'Mulher de 30 anos iniciou metimazol 30 mg ao dia há 5 semanas. Procura o pronto-socorro com febre de 39 °C e dor de garganta intensa há 1 dia. A conduta imediata é:',
-    o: ['Prescrever amoxicilina e manter o metimazol', 'Suspender o metimazol e solicitar hemograma com contagem de neutrófilos', 'Trocar o metimazol por propiltiouracil', 'Reduzir a dose do metimazol pela metade e reavaliar em 1 semana'],
+    o: ['Prescrever amoxicilina e manter o metimazol em dose habitual', 'Suspender o metimazol e solicitar hemograma com contagem de neutrófilos', 'Trocar o metimazol por propiltiouracil e manter a dose', 'Reduzir a dose do metimazol pela metade e reavaliar em 1 semana'],
     g: 'B',
     c: 'A agranulocitose (neutrófilos abaixo de 500 por mm³) ocorre em 0,1 a 0,5% dos usuários de tionamidas, em geral nos primeiros 3 meses, de forma súbita e mais frequente com doses altas de metimazol. Febre e odinofagia são o alerta clássico: suspende-se o fármaco e colhe-se hemograma na hora. Confirmada, trata-se com antibiótico de amplo espectro e nunca mais se usa tionamida.',
     x: { A: 'Manter o fármaco diante de possível agranulocitose pode ser fatal.', C: 'Há reatividade cruzada entre as tionamidas; a troca é contraindicada na agranulocitose.', D: 'A reação é idiossincrásica e não se resolve reduzindo a dose.' },
@@ -101,7 +101,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Antitireoidianos: efeitos adversos',
     e: 'Adolescente de 16 anos trata doença de Graves com propiltiouracil há 2 meses. Apresenta náuseas, icterícia e colúria; ALT 1.850 U/L e INR alargado. Sobre esse efeito adverso, é correto afirmar:',
-    o: ['É típico do metimazol, que causa necrose hepatocelular dose-dependente', 'É a hepatite grave por propiltiouracil, mais temida em crianças e jovens, e motiva a restrição do fármaco a situações específicas', 'É colestase benigna e o propiltiouracil pode ser mantido', 'É esperada em toda tireotoxicose e não tem relação com o fármaco'],
+    o: ['É típico do metimazol, que causa necrose hepatocelular dose-dependente', 'Hepatite grave por propiltiouracil, mais temida em crianças e jovens', 'É colestase benigna e o propiltiouracil pode ser mantido sem riscos', 'É esperada em toda tireotoxicose e não tem relação com o fármaco'],
     g: 'B',
     c: 'O propiltiouracil pode causar lesão hepatocelular idiossincrásica grave, com insuficiência hepática aguda e necessidade de transplante, com risco maior em crianças. Já o metimazol associa-se mais a padrão colestático, geralmente reversível. Por isso o propiltiouracil não é primeira linha, e o fármaco deve ser suspenso de imediato diante de icterícia ou elevação importante de transaminases.',
     x: { A: 'O padrão clássico do metimazol é colestático; a necrose hepatocelular fulminante é do propiltiouracil.', C: 'Transaminases muito elevadas com coagulopatia indicam lesão hepatocelular grave; manter o fármaco é contraindicado.', D: 'A tireotoxicose causa apenas alterações leves de enzimas hepáticas, não insuficiência hepática.' },
@@ -117,7 +117,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento',
     e: 'Paciente com doença de Graves iniciou metimazol há 5 semanas. Está clinicamente melhor, com T4 livre e T3 normais, mas o TSH segue indetectável. A interpretação e a conduta corretas são:',
-    o: ['Falha terapêutica; dobrar a dose do metimazol', 'O TSH pode permanecer suprimido por semanas a meses; nesta fase o ajuste é guiado por T4 livre e T3', 'Má adesão; internar para tratamento supervisionado', 'Indicação de trocar para propiltiouracil'],
+    o: ['Falha terapêutica; dobrar a dose do metimazol e reavaliar em 4 semanas', 'O TSH pode ficar suprimido por meses; o ajuste é guiado por T4 livre e T3', 'Má adesão; internar para tratamento supervisionado do metimazol', 'Indicação de trocar para propiltiouracil por falha terapêutica'],
     g: 'B',
     c: 'Após longo período de supressão, os tireotrofos hipofisários demoram a retomar a secreção de TSH, mesmo com hormônios periféricos já normais. Se a dose for aumentada com base no TSH, o paciente evolui para hipotireoidismo iatrogênico. Por isso, nos primeiros meses, dosa-se T4 livre e T3 a cada 4 a 6 semanas e reduz-se a tionamida conforme esses valores.',
     x: { A: 'Aumentar a dose com T4 livre e T3 normais leva a hipotireoidismo.', C: 'A normalização dos hormônios e a melhora clínica demonstram boa adesão.', D: 'O metimazol está funcionando; não há motivo para troca por fármaco mais tóxico.' },
@@ -125,7 +125,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Iodo radioativo',
     e: 'Mulher de 48 anos, tabagista, tem doença de Graves recidivada após antitireoidiano e oftalmopatia ativa moderada a grave, com diplopia e edema periorbitário importante. Em relação ao tratamento definitivo, é correto afirmar:',
-    o: ['O iodo radioativo é a melhor opção, pois melhora a oftalmopatia', 'O iodo radioativo pode agravar a oftalmopatia; neste caso prefere-se tireoidectomia ou manutenção de antitireoidiano', 'A oftalmopatia contraindica qualquer tratamento definitivo', 'A tireoidectomia deve ser evitada por piorar a doença ocular'],
+    o: ['O iodo radioativo é a melhor opção, pois melhora a oftalmopatia de Graves', 'O iodo radioativo pode agravar a oftalmopatia; preferir cirurgia ou antitireoidiano', 'A oftalmopatia contraindica qualquer tratamento definitivo da doença', 'A tireoidectomia deve ser evitada por piorar a doença ocular'],
     g: 'B',
     c: 'A destruição da glândula pelo iodo radioativo libera antígenos tireoidianos e eleva o TRAb por meses, o que pode desencadear ou piorar a oftalmopatia, principalmente em tabagistas e se houver hipotireoidismo não corrigido depois da dose. Na doença ocular ativa moderada a grave o iodo é evitado. Nas formas leves pode ser usado com profilaxia com corticoide oral.',
     x: { A: 'O iodo radioativo não melhora a doença ocular e está associado a piora.', C: 'Tireoidectomia e antitireoidianos são opções seguras para a órbita.', D: 'A cirurgia não piora a oftalmopatia e reduz gradualmente o TRAb.' },
@@ -133,7 +133,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Cirurgia',
     e: 'Entre os pacientes com doença de Graves abaixo, aquele em que a tireoidectomia total é o tratamento definitivo mais indicado é:',
-    o: ['Mulher de 25 anos, primeiro episódio, bócio pequeno, sem oftalmopatia', 'Mulher de 37 anos com bócio volumoso, sintomas compressivos e nódulo com citologia suspeita de malignidade', 'Homem de 70 anos com insuficiência cardíaca grave e alto risco cirúrgico', 'Mulher de 45 anos com recidiva, bócio pequeno, sem oftalmopatia e que recusa cirurgia'],
+    o: ['Mulher de 25 anos, primeiro episódio, bócio pequeno, sem oftalmopatia', 'Mulher de 37 anos com bócio volumoso, sintomas compressivos e nódulo suspeito', 'Homem de 70 anos com insuficiência cardíaca grave e alto risco cirúrgico', 'Mulher de 45 anos com recidiva, bócio pequeno, sem oftalmopatia e que recusa cirurgia'],
     g: 'B',
     c: 'A cirurgia é preferida quando há bócio volumoso com compressão, nódulo suspeito ou maligno, oftalmopatia ativa moderada a grave, hiperparatireoidismo com indicação cirúrgica associado ou desejo de gestação a curto prazo. Deve ser feita por cirurgião de alto volume, pelos riscos de hipoparatireoidismo e lesão de nervo laríngeo recorrente.',
     x: { A: 'No primeiro episódio com bócio pequeno, o antitireoidiano por 12 a 18 meses é opção adequada.', C: 'Alto risco cirúrgico favorece o iodo radioativo.', D: 'Recidiva com bócio pequeno, sem doença ocular, responde bem ao iodo radioativo.' },
@@ -141,7 +141,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Cirurgia',
     e: 'Paciente com doença de Graves tem tireoidectomia total programada. O preparo pré-operatório adequado é:',
-    o: ['Suspender o metimazol 4 semanas antes para não interferir no exame anatomopatológico', 'Atingir eutireoidismo com antitireoidiano e usar solução de iodeto de potássio nos 7 a 10 dias anteriores à cirurgia', 'Administrar iodo radioativo na semana anterior para reduzir o volume glandular', 'Usar apenas levotiroxina para suprimir o TSH'],
+    o: ['Suspender o metimazol 4 semanas antes, para não interferir na anatomia patológica', 'Eutireoidismo com antitireoidiano e iodeto de potássio nos 7 a 10 dias antes', 'Administrar iodo radioativo na semana anterior para reduzir o volume glandular', 'Usar apenas levotiroxina para suprimir o TSH antes da cirurgia'],
     g: 'B',
     c: 'Operar em tireotoxicose pode precipitar crise tireotóxica pela manipulação da glândula, por isso o paciente deve chegar eutireoidiano com tionamida, com betabloqueador se necessário. O iodo inorgânico em dose alta (solução de Lugol ou iodeto de potássio) bloqueia agudamente a liberação hormonal e reduz a vascularização da glândula, diminuindo o sangramento. Recomenda-se também corrigir cálcio e vitamina D.',
     x: { A: 'Suspender a tionamida faz o paciente chegar hipertireoidiano à cirurgia, com risco de crise.', C: 'O iodo radioativo não tem efeito em dias e não faz parte do preparo cirúrgico.', D: 'A levotiroxina agravaria a tireotoxicose.' },
@@ -149,7 +149,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Gestante de 9 semanas, com vômitos incoercíveis e perda de 5% do peso, tem TSH 0,05 mUI/L e T4 livre discretamente elevado. Não tem bócio nem sinais oculares, e o TRAb é negativo. A conduta mais adequada é:',
-    o: ['Iniciar propiltiouracil', 'Hidratação, antieméticos e reavaliação da função tireoidiana, sem antitireoidiano', 'Iniciar metimazol', 'Indicar iodo radioativo após o primeiro trimestre'],
+    o: ['Iniciar propiltiouracil imediatamente, pelo TSH suprimido', 'Hidratação, antieméticos e reavaliar a tireoide, sem antitireoidiano', 'Iniciar metimazol imediatamente, pela perda de peso', 'Indicar iodo radioativo após o primeiro trimestre da gestação'],
     g: 'B',
     c: 'A gonadotrofina coriônica tem subunidade alfa igual à do TSH e estimula fracamente o seu receptor. No pico do hCG, entre 8 e 12 semanas, e mais ainda na hiperêmese e na gestação gemelar, ocorre tireotoxicose gestacional transitória. Ela se resolve sozinha até cerca de 14 a 18 semanas, com a queda do hCG, e não requer tionamida. Ausência de bócio, de oftalmopatia e de TRAb diferencia de Graves.',
     x: { A: 'Antitireoidiano não é indicado, pois o quadro é autolimitado e o fármaco tem riscos maternos e fetais.', C: 'O metimazol é teratogênico no primeiro trimestre e desnecessário aqui.', D: 'O iodo radioativo é contraindicado em qualquer fase da gestação.' },
@@ -157,7 +157,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Mulher de 27 anos em tratamento de doença de Graves com metimazol descobre gestação de 6 semanas e ainda necessita de antitireoidiano. A conduta recomendada e o motivo são:',
-    o: ['Manter o metimazol, pois o propiltiouracil não atravessa a placenta', 'Trocar para propiltiouracil no primeiro trimestre, pelo risco de embriopatia do metimazol (aplasia cútis, atresia de coanas e de esôfago)', 'Suspender qualquer antitireoidiano e usar apenas iodeto de potássio até o parto', 'Indicar tireoidectomia imediata no primeiro trimestre'],
+    o: ['Manter o metimazol, pois o propiltiouracil não atravessa a placenta', 'Trocar para propiltiouracil no 1º trimestre, pelo risco de embriopatia do metimazol', 'Suspender qualquer antitireoidiano e usar apenas iodeto de potássio até o parto', 'Indicar tireoidectomia imediata no primeiro trimestre da gestação'],
     g: 'B',
     c: 'O metimazol na organogênese associa-se a malformações como aplasia cútis congênita, atresia de coanas e de esôfago e onfalocele. O propiltiouracil também pode causar defeitos, mas mais leves, e por isso é o preferido no primeiro trimestre. A partir do segundo trimestre as diretrizes divergem entre manter o propiltiouracil e voltar ao metimazol, pelo risco hepático do primeiro; a resposta tradicional em provas é retornar ao metimazol.',
     x: { A: 'Ambas as tionamidas atravessam a placenta; a escolha se baseia no perfil de malformações.', C: 'O iodo em uso prolongado pode causar bócio e hipotireoidismo fetal.', D: 'Se necessária, a cirurgia é feita no segundo trimestre, e apenas em casos de intolerância ou falha do tratamento clínico.' },
@@ -165,7 +165,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'No acompanhamento da gestante com doença de Graves em uso de antitireoidiano, a meta terapêutica correta é:',
-    o: ['TSH no meio da faixa de referência, como fora da gestação', 'Usar a menor dose possível, mantendo o T4 livre materno no limite superior da normalidade ou discretamente acima', 'T4 livre no limite inferior, para proteger o feto do excesso hormonal', 'Bloqueio completo com antitireoidiano em dose alta associado a levotiroxina'],
+    o: ['TSH no meio da faixa de referência, como ocorre fora da gestação', 'Menor dose possível, com T4 livre materno no limite superior da normalidade', 'T4 livre no limite inferior, para proteger o feto do excesso hormonal', 'Bloqueio completo com antitireoidiano em dose alta associado a levotiroxina'],
     g: 'B',
     c: 'As tionamidas atravessam a placenta com mais facilidade que o T4 materno e bloqueiam a tireoide fetal. Se a mãe for levada ao pleno eutireoidismo ou ao hipotireoidismo, o feto pode desenvolver bócio e hipotireoidismo. Por isso aceita-se um hipertireoidismo materno muito leve. Dosa-se ainda o TRAb, que atravessa a placenta e pode causar hipertireoidismo fetal e neonatal.',
     x: { A: 'Normalizar o TSH materno exige doses que tendem a causar hipotireoidismo fetal.', C: 'T4 livre materno baixo significa excesso de tionamida, com risco de bócio e hipotireoidismo no feto.', D: 'O esquema de bloqueio e reposição é contraindicado na gestação, pois a tionamida chega ao feto e a levotiroxina quase não.' },
@@ -173,7 +173,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Hipertireoidismo subclínico',
     e: 'Mulher de 71 anos, com osteoporose, tem TSH 0,04 mUI/L em três dosagens ao longo de 6 meses, com T4 livre e T3 normais. Não usa levotiroxina, e a cintilografia mostra bócio multinodular com áreas autônomas. A conduta mais adequada é:',
-    o: ['Apenas observar, pois os hormônios periféricos são normais', 'Tratar o hipertireoidismo subclínico, pois há TSH persistentemente abaixo de 0,1 mUI/L em paciente com mais de 65 anos e osteoporose', 'Iniciar levotiroxina para reduzir os nódulos', 'Repetir exames apenas em 2 anos'],
+    o: ['Apenas observar, pois os hormônios periféricos são normais e a paciente é idosa', 'Tratar: TSH persistentemente < 0,1 mUI/L, idade > 65 anos e osteoporose', 'Iniciar levotiroxina para reduzir os nódulos e normalizar o TSH', 'Repetir exames apenas em 2 anos, sem outra conduta'],
     g: 'B',
     c: 'Hipertireoidismo subclínico é TSH baixo com T4 livre e T3 normais. Mesmo sem sintomas, a supressão persistente aumenta o risco de fibrilação atrial, de perda óssea e fraturas e de mortalidade cardiovascular. O tratamento é recomendado quando o TSH está persistentemente abaixo de 0,1 mUI/L em pessoas com 65 anos ou mais, com cardiopatia, osteoporose ou sintomas; com TSH entre 0,1 e o limite inferior, considera-se caso a caso.',
     x: { A: 'Nessa idade e com osteoporose, a supressão mantida do TSH traz risco real de fratura e arritmia.', C: 'A levotiroxina suprimiria ainda mais o TSH e agravaria os riscos.', D: 'O intervalo é longo demais para alteração já confirmada e com indicação de tratar.' },
@@ -181,7 +181,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Crise tireotóxica',
     e: 'Mulher de 36 anos, com doença de Graves e uso irregular do tratamento, é admitida 2 dias após quadro de pneumonia com temperatura de 40,2 °C, FC 162 bpm em fibrilação atrial, agitação e delirium, vômitos, diarreia, icterícia e estertores pulmonares. O diagnóstico é:',
-    o: ['Tireotoxicose não complicada com infecção associada', 'Crise tireotóxica (tempestade tireoidiana), diagnóstico clínico apoiado pelo escore de Burch-Wartofsky', 'Síndrome neuroléptica maligna', 'Feocromocitoma em crise'],
+    o: ['Tireotoxicose não complicada com infecção associada de vias aéreas', 'Crise tireotóxica, diagnóstico clínico apoiado pelo escore de Burch-Wartofsky', 'Síndrome neuroléptica maligna por uso de antipsicótico', 'Feocromocitoma em crise hipertensiva e taquicardia'],
     g: 'B',
     c: 'A crise tireotóxica é a tireotoxicose com descompensação de órgãos, desencadeada por infecção, cirurgia, trauma, parto, carga de iodo ou suspensão do antitireoidiano. O diagnóstico é clínico, e o escore de Burch-Wartofsky soma pontos para febre, disfunção do sistema nervoso central, disfunção gastrointestinal e hepática, taquicardia, insuficiência cardíaca, fibrilação atrial e fator precipitante: 45 ou mais é altamente sugestivo. Os níveis hormonais não diferenciam a crise da tireotoxicose comum.',
     x: { A: 'Hiperpirexia, delirium, icterícia e insuficiência cardíaca caracterizam falência de órgãos, e não tireotoxicose simples.', C: 'A síndrome neuroléptica exige uso de antipsicótico e cursa com rigidez muscular e CPK elevada.', D: 'O feocromocitoma causa paroxismos hipertensivos, sem icterícia, diarreia e história de Graves.' },
@@ -189,7 +189,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Crise tireotóxica',
     e: 'No tratamento da crise tireotóxica, a ordem correta entre a tionamida e o iodo e a sua justificativa são:',
-    o: ['Iodo primeiro, pois age mais rápido; a tionamida pode ser iniciada no dia seguinte', 'Tionamida primeiro e iodo pelo menos 1 hora depois, para que o iodo não sirva de substrato à síntese de mais hormônio', 'Os dois ao mesmo tempo, pois a ordem não tem importância', 'Apenas iodo, pois a tionamida é contraindicada na crise'],
+    o: ['Iodo primeiro, pois age mais rápido; a tionamida pode ser iniciada no dia seguinte', 'Tionamida primeiro e iodo pelo menos 1 hora depois, evitando mais síntese', 'Os dois ao mesmo tempo, pois a ordem não tem importância clínica', 'Apenas iodo, pois a tionamida é contraindicada na crise tireotóxica'],
     g: 'B',
     c: 'A tionamida bloqueia a organificação. Só depois de instalado esse bloqueio é que se dá o iodo, que inibe agudamente a liberação do hormônio já armazenado. Se o iodo vier antes, a glândula hiperativa o utiliza para fabricar mais hormônio, agravando o quadro. O esquema completo inclui betabloqueador, tionamida, iodo, glicocorticoide e tratamento do fator precipitante.',
     x: { A: 'Iodo antes do bloqueio da síntese fornece substrato para nova produção hormonal.', C: 'A ordem é o ponto essencial do tratamento e é cobrada justamente por isso.', D: 'A tionamida é pilar do tratamento; o iodo isolado tem efeito transitório, com escape.' },
@@ -197,7 +197,7 @@ export const TIREOIDE_2: QuestaoCompacta[] = [
   {
     s: 'Crise tireotóxica',
     e: 'Em paciente com crise tireotóxica, três dos fármacos habitualmente usados têm em comum a capacidade de reduzir a conversão periférica de T4 em T3. São eles:',
-    o: ['Metimazol, iodeto de potássio e colestiramina', 'Propiltiouracil, propranolol em dose alta e hidrocortisona', 'Metimazol, atenolol e dipirona', 'Iodeto de potássio, lítio e paracetamol'],
+    o: ['Metimazol, iodeto de potássio e colestiramina oral', 'Propiltiouracil, propranolol em dose alta e hidrocortisona', 'Metimazol, atenolol e dipirona para controle da febre', 'Iodeto de potássio, lítio e paracetamol para a febre'],
     g: 'B',
     c: 'Como o T3 é o hormônio ativo, bloquear a desiodase tipo 1 reduz rapidamente o efeito tecidual. O propiltiouracil faz isso além de inibir a síntese, razão de ser a tionamida tradicionalmente preferida na crise; o propranolol em doses altas e os glicocorticoides têm o mesmo efeito. O corticoide ainda cobre a insuficiência adrenal relativa causada pelo catabolismo acelerado do cortisol.',
     x: { A: 'O metimazol não inibe a desiodase; o iodo bloqueia a liberação hormonal e a colestiramina reduz a recirculação êntero-hepática.', C: 'Metimazol e atenolol não bloqueiam de forma relevante a conversão periférica, e a dipirona não tem esse efeito.', D: 'Iodo e lítio inibem a liberação do hormônio pela glândula, e o paracetamol é apenas antitérmico.' },

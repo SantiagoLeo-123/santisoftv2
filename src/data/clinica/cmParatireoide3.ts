@@ -5,7 +5,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Córtex adrenal - zonas',
     e: 'A correspondência correta entre as zonas do córtex adrenal, seu principal produto e seu principal regulador é:',
-    o: ['Glomerulosa: cortisol, regulado pelo ACTH', 'Glomerulosa: aldosterona, regulada principalmente por angiotensina II e potássio; fasciculada: cortisol, regulado pelo ACTH', 'Fasciculada: aldosterona, regulada pela renina; reticular: cortisol', 'Reticular: catecolaminas, reguladas pelo sistema simpático'],
+    o: ['Glomerulosa: cortisol, regulado pelo ACTH; fasciculada: aldosterona', 'Glomerulosa: aldosterona (angiotensina II e K+); fasciculada: cortisol (ACTH)', 'Fasciculada: aldosterona, regulada pela renina; reticular: cortisol', 'Reticular: catecolaminas, reguladas pelo sistema simpático'],
     g: 'B',
     c: 'A zona glomerulosa produz mineralocorticoide sob controle do sistema renina-angiotensina e do potássio, com papel menor do ACTH. A fasciculada produz glicocorticoide e a reticular produz andrógenos, ambas dependentes de ACTH. Isso explica por que na insuficiência adrenal secundária a aldosterona está preservada.',
     x: { A: 'A glomerulosa não possui 17-alfa-hidroxilase e por isso não sintetiza cortisol.', C: 'A fasciculada produz cortisol, e a reticular produz andrógenos adrenais.', D: 'As catecolaminas são produzidas na medula adrenal, não no córtex.' },
@@ -13,7 +13,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Cushing - causas',
     e: 'A causa mais comum de síndrome de Cushing na prática clínica e a causa mais comum de síndrome de Cushing endógena são, respectivamente:',
-    o: ['Adenoma adrenal e secreção ectópica de ACTH', 'Uso de glicocorticoide exógeno e adenoma hipofisário produtor de ACTH (doença de Cushing)', 'Doença de Cushing e carcinoma adrenal', 'Secreção ectópica de ACTH e uso de glicocorticoide exógeno'],
+    o: ['Adenoma adrenal e secreção ectópica de ACTH por tumor carcinoide', 'Glicocorticoide exógeno e adenoma hipofisário produtor de ACTH', 'Doença de Cushing e carcinoma adrenal produtor de cortisol', 'Secreção ectópica de ACTH e uso de glicocorticoide exógeno'],
     g: 'B',
     c: 'O hipercortisolismo iatrogênico é de longe a causa mais frequente, por isso a primeira etapa é sempre investigar uso de corticoide por qualquer via. Entre as causas endógenas, cerca de 70% são doença de Cushing, por adenoma corticotrófico hipofisário, geralmente microadenoma, mais comum em mulheres.',
     x: { A: 'Adenoma adrenal e ACTH ectópico são causas endógenas minoritárias.', C: 'A doença de Cushing é a principal causa endógena, não a principal no geral.', D: 'A ordem está invertida e a secreção ectópica não é a principal causa endógena.' },
@@ -21,7 +21,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Cushing - clínica',
     e: 'Entre os achados clínicos abaixo, os que têm maior especificidade para síndrome de Cushing, ajudando a diferenciá-la da obesidade comum, são:',
-    o: ['Obesidade central, hipertensão e intolerância à glicose', 'Fraqueza muscular proximal, estrias violáceas largas, equimoses fáceis e pletora facial', 'Acne, irregularidade menstrual e ganho de peso', 'Depressão, fadiga e edema de membros inferiores'],
+    o: ['Obesidade central, hipertensão arterial e intolerância à glicose', 'Fraqueza proximal, estrias violáceas largas, equimoses fáceis e pletora', 'Acne, irregularidade menstrual e ganho de peso progressivo', 'Depressão, fadiga e edema de membros inferiores leve'],
     g: 'B',
     c: 'Os sinais mais discriminativos refletem o efeito catabólico do cortisol sobre proteínas: atrofia da pele com estrias violáceas com mais de 1 cm, fragilidade capilar com equimoses, miopatia proximal e pletora. Obesidade, hipertensão e diabetes são frequentes, mas muito prevalentes na população geral e por isso pouco específicos.',
     x: { A: 'Esses achados compõem a síndrome metabólica e são pouco específicos.', C: 'Esse conjunto é comum na síndrome dos ovários policísticos.', D: 'São sintomas inespecíficos, presentes em inúmeras outras condições.' },
@@ -29,7 +29,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Cushing - rastreamento',
     e: 'Mulher de 39 anos apresenta ganho de peso central, estrias violáceas, hipertensão recente e fraqueza para levantar da cadeira. Nega uso de corticoides. Para rastrear hipercortisolismo, deve-se solicitar:',
-    o: ['Cortisol sérico basal às 8 horas e ACTH plasmático', 'Dois entre: cortisol livre urinário de 24 horas, cortisol salivar à meia-noite e teste de supressão com 1 mg de dexametasona', 'Ressonância magnética de sela turca', 'Tomografia de abdome para avaliação das adrenais'],
+    o: ['Cortisol sérico basal às 8 horas e ACTH plasmático isolados', 'Dois testes: cortisol urinário 24 h, salivar noturno ou supressão com 1 mg', 'Ressonância magnética de sela turca com gadolínio', 'Tomografia de abdome para avaliação das adrenais e do pâncreas'],
     g: 'B',
     c: 'O rastreamento baseia-se em demonstrar excesso de produção (cortisol urinário), perda do ritmo circadiano (cortisol salivar noturno) ou perda da retroalimentação (ausência de supressão após 1 mg de dexametasona à noite, com cortisol matinal acima de 1,8 mcg/dL). Recomenda-se ao menos dois testes alterados para confirmar. Só depois se dosa o ACTH e se pedem exames de imagem.',
     x: { A: 'O cortisol matinal isolado se sobrepõe ao normal, e o ACTH é etapa posterior.', C: 'Imagem antes da confirmação bioquímica pode revelar incidentaloma hipofisário e confundir.', D: 'A tomografia só se justifica após confirmar hipercortisolismo independente de ACTH.' },
@@ -61,7 +61,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Secreção ectópica de ACTH',
     e: 'Homem de 64 anos, tabagista, apresenta em 2 meses fraqueza muscular intensa, perda de peso, hiperpigmentação cutânea, hipertensão, edema, glicemia de 310 mg/dL e potássio de 2,4 mEq/L com alcalose metabólica. Cortisol urinário muito elevado e ACTH de 380 pg/mL. A hipótese principal é:',
-    o: ['Doença de Cushing por microadenoma', 'Síndrome de ACTH ectópico por carcinoma pulmonar de pequenas células', 'Hiperaldosteronismo primário', 'Carcinoma adrenal produtor de cortisol'],
+    o: ['Doença de Cushing por microadenoma hipofisário', 'ACTH ectópico por carcinoma de pequenas células do pulmão', 'Hiperaldosteronismo primário por adenoma de Conn', 'Carcinoma adrenal produtor de cortisol e androgênios'],
     g: 'B',
     c: 'Tumores agressivos produzem ACTH em níveis muito altos e de instalação rápida, sem tempo para o fenótipo cushingoide clássico: predominam emagrecimento, miopatia, hiperpigmentação e hiperglicemia. O cortisol em concentração muito elevada satura a 11-beta-hidroxiesteroide desidrogenase tipo 2 renal e passa a ativar o receptor mineralocorticoide, causando hipertensão, hipocalemia e alcalose.',
     x: { A: 'Na doença de Cushing a evolução é lenta, com ganho de peso e ACTH pouco elevado.', C: 'O hiperaldosteronismo não explica hipercortisolismo, hiperpigmentação nem hiperglicemia.', D: 'No carcinoma adrenal o ACTH está suprimido e não há hiperpigmentação.' },
@@ -69,7 +69,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Cateterismo de seios petrosos',
     e: 'Paciente com síndrome de Cushing dependente de ACTH tem ressonância de sela turca sem lesão visível e testes dinâmicos discordantes. O exame considerado padrão-ouro para diferenciar doença de Cushing de secreção ectópica de ACTH é:',
-    o: ['PET-CT com fluordesoxiglicose de corpo inteiro', 'Cateterismo bilateral de seios petrosos inferiores com dosagem de ACTH antes e após estímulo', 'Cintilografia com metaiodobenzilguanidina', 'Cateterismo de veias adrenais com dosagem de cortisol'],
+    o: ['PET-CT com fluordesoxiglicose de corpo inteiro e contraste', 'Cateterismo de seios petrosos inferiores com ACTH antes e após estímulo', 'Cintilografia com metaiodobenzilguanidina marcada com iodo', 'Cateterismo de veias adrenais com dosagem de cortisol e aldosterona'],
     g: 'B',
     c: 'O sangue venoso da hipófise drena para os seios petrosos. Um gradiente de ACTH central/periférico igual ou maior que 2 no basal, ou igual ou maior que 3 após CRH ou desmopressina, indica fonte hipofisária; a ausência de gradiente indica fonte ectópica. É indicado quando a ressonância é negativa ou mostra lesão menor que 6 mm, já que microadenomas podem não ser visíveis.',
     x: { A: 'O PET-CT pode ajudar a localizar tumor ectópico, mas não define a origem do ACTH.', C: 'A metaiodobenzilguanidina é usada para feocromocitoma e paraganglioma.', D: 'O cateterismo adrenal é usado no hiperaldosteronismo primário, não no Cushing dependente de ACTH.' },
@@ -85,7 +85,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Nelson',
     e: 'Mulher de 42 anos foi submetida a adrenalectomia bilateral há 3 anos por doença de Cushing refratária. Em uso regular de hidrocortisona e fludrocortisona, evolui com hiperpigmentação cutânea progressiva, cefaleia e hemianopsia bitemporal. O ACTH está muito elevado. O diagnóstico é:',
-    o: ['Insuficiência adrenal por dose insuficiente de reposição', 'Síndrome de Nelson, com crescimento do tumor corticotrófico após perda da retroalimentação pelo cortisol', 'Apoplexia hipofisária', 'Recidiva do hipercortisolismo por restos adrenais'],
+    o: ['Insuficiência adrenal por dose insuficiente de reposição de glicocorticoide', 'Síndrome de Nelson, com crescimento do tumor corticotrófico hipofisário', 'Apoplexia hipofisária com hemorragia do adenoma', 'Recidiva do hipercortisolismo por restos de tecido adrenal'],
     g: 'B',
     c: 'Após a retirada das duas adrenais, o adenoma hipofisário deixa de ser inibido pelo cortisol endógeno e pode crescer de forma agressiva, com ACTH muito alto. A hiperpigmentação decorre da ação do ACTH e de peptídeos derivados da pró-opiomelanocortina sobre o receptor de melanocortina, e o efeito de massa comprime o quiasma óptico.',
     x: { A: 'A dose inadequada não explica o defeito de campo visual por massa selar.', C: 'A apoplexia tem início súbito, com cefaleia intensa e oftalmoplegia.', D: 'Na recidiva haveria sinais de hipercortisolismo, não apenas hiperpigmentação e massa.' },
@@ -93,7 +93,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Cushing iatrogênico e supressão do eixo',
     e: 'Homem de 58 anos, em uso de prednisona 20 mg ao dia há 8 meses por polimialgia reumática, suspende o medicamento por conta própria. Quatro dias depois apresenta fraqueza, náuseas, hipotensão e hipoglicemia. Os níveis esperados de cortisol e ACTH e o mecanismo são:',
-    o: ['Cortisol baixo e ACTH alto, por destruição autoimune das adrenais', 'Cortisol baixo e ACTH baixo, por supressão do eixo hipotálamo-hipófise-adrenal com atrofia adrenal', 'Cortisol alto e ACTH baixo, por persistência do corticoide exógeno', 'Cortisol normal e ACTH normal, por síndrome de abstinência psicológica'],
+    o: ['Cortisol baixo e ACTH alto, por destruição autoimune das adrenais', 'Cortisol e ACTH baixos, por supressão do eixo HHA com atrofia adrenal', 'Cortisol alto e ACTH baixo, por persistência do corticoide exógeno', 'Cortisol normal e ACTH normal, por síndrome de abstinência psicológica'],
     g: 'B',
     c: 'O glicocorticoide exógeno em dose suprafisiológica por mais de 3 semanas inibe CRH e ACTH, e as zonas fasciculada e reticular atrofiam por falta de estímulo. A suspensão abrupta revela insuficiência adrenal secundária (terciária), a causa mais comum de insuficiência adrenal. Por isso a retirada deve ser gradual, e doses de estresse devem ser lembradas.',
     x: { A: 'ACTH alto caracteriza doença de Addison, que não é o mecanismo aqui.', C: 'A prednisona já foi eliminada e ela não é medida de forma confiável como cortisol.', D: 'Hipotensão e hipoglicemia indicam deficiência real de cortisol.' },
@@ -101,7 +101,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Doença de Addison - etiologia',
     e: 'As causas mais frequentes de insuficiência adrenal primária em países desenvolvidos e a causa infecciosa de maior relevância no Brasil são, respectivamente:',
-    o: ['Hemorragia adrenal e histoplasmose', 'Adrenalite autoimune; tuberculose e paracoccidioidomicose', 'Metástases adrenais e citomegalovírus', 'Adrenoleucodistrofia e sífilis'],
+    o: ['Hemorragia adrenal e histoplasmose disseminada', 'Adrenalite autoimune; tuberculose e paracoccidioidomicose', 'Metástases adrenais e citomegalovírus em imunossuprimidos', 'Adrenoleucodistrofia e sífilis terciária'],
     g: 'B',
     c: 'A adrenalite autoimune, com anticorpos anti-21-hidroxilase, é a principal causa de doença de Addison no mundo desenvolvido, isolada ou em síndromes poliglandulares. No Brasil, a tuberculose e a paracoccidioidomicose continuam causas importantes, por destruição granulomatosa bilateral, frequentemente com adrenais aumentadas ou calcificadas à tomografia.',
     x: { A: 'A hemorragia adrenal é causa aguda e pouco frequente de insuficiência adrenal.', C: 'Metástases raramente destroem tecido suficiente para causar insuficiência.', D: 'A adrenoleucodistrofia é rara e ligada ao X, acometendo meninos e homens jovens.' },
@@ -109,7 +109,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Doença de Addison - quadro clínico',
     e: 'Mulher de 31 anos, com tireoidite de Hashimoto, refere há 6 meses astenia, perda de 7 kg, tontura ao levantar e avidez por sal. Ao exame: pressão arterial de 88x54 mmHg, escurecimento das pregas palmares, das gengivas e de cicatrizes recentes. Sódio de 128 mEq/L e potássio de 5,9 mEq/L. O diagnóstico e o mecanismo da hiperpigmentação são:',
-    o: ['Insuficiência adrenal secundária; excesso de melatonina', 'Insuficiência adrenal primária; ACTH elevado estimulando o receptor de melanocortina dos melanócitos', 'Hemocromatose; depósito de ferro na pele', 'Hipotireoidismo descompensado; depósito de caroteno'],
+    o: ['Insuficiência adrenal secundária; excesso de melatonina cutânea', 'Insuficiência adrenal primária; ACTH elevado estimulando melanócitos', 'Hemocromatose; depósito de ferro na pele e nos tecidos', 'Hipotireoidismo descompensado; depósito de caroteno'],
     g: 'B',
     c: 'Na doença de Addison a queda do cortisol libera a hipófise da retroalimentação negativa, e a pró-opiomelanocortina é clivada em grandes quantidades de ACTH, que ativa o receptor MC1R dos melanócitos. A deficiência de aldosterona explica a perda de sal, a hipotensão e a hipercalemia. A coexistência com doença tireoidiana autoimune sugere síndrome poliglandular tipo 2.',
     x: { A: 'Na forma secundária o ACTH é baixo, não há hiperpigmentação nem hipercalemia.', C: 'A hemocromatose não causa hipotensão com hipercalemia e avidez por sal.', D: 'O hipotireoidismo dá pele amarelada e seca, sem pigmentação de mucosas.' },
@@ -133,7 +133,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Teste da cortrosina - limitações',
     e: 'Paciente submetido há 10 dias a ressecção de macroadenoma hipofisário tem sintomas sugestivos de hipocortisolismo, mas o teste de estímulo com ACTH sintético mostra resposta normal do cortisol. A interpretação correta é:',
-    o: ['A insuficiência adrenal está definitivamente excluída', 'Na deficiência recente de ACTH as adrenais ainda não atrofiaram e podem responder normalmente, gerando falso-negativo', 'O resultado indica insuficiência adrenal primária compensada', 'O teste deve ser repetido com dexametasona em dose alta'],
+    o: ['A insuficiência adrenal está definitivamente excluída pelo teste', 'Na deficiência recente de ACTH, adrenais ainda respondem: falso-negativo', 'O resultado indica insuficiência adrenal primária compensada', 'O teste deve ser repetido com dexametasona em dose alta'],
     g: 'B',
     c: 'O teste da cortrosina avalia a reserva da adrenal, não a hipófise. Para que a glândula deixe de responder ao ACTH exógeno é preciso algumas semanas de privação, tempo necessário para a atrofia. Na insuficiência secundária de início recente, deve-se valorizar o cortisol basal e a clínica, ou usar teste que avalie todo o eixo, como a hipoglicemia insulínica.',
     x: { A: 'A resposta normal não exclui deficiência hipofisária de instalação recente.', C: 'Na forma primária a adrenal não responderia ao estímulo com ACTH.', D: 'A dexametasona em dose alta é teste de hipercortisolismo, sem utilidade aqui.' },
@@ -141,7 +141,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Crise adrenal',
     e: 'Mulher de 36 anos, com doença de Addison, é trazida ao pronto-socorro após 2 dias de gastroenterite com vômitos, sem conseguir tomar as medicações. Está sonolenta, com pressão de 70x40 mmHg, sódio de 122 mEq/L, potássio de 6,3 mEq/L e glicemia de 58 mg/dL. A conduta imediata é:',
-    o: ['Coletar cortisol e aguardar o resultado antes de qualquer tratamento', 'Hidrocortisona 100 mg endovenosa em bolo e reposição vigorosa com solução salina isotônica, com glicose', 'Fludrocortisona por via oral e restrição hídrica pela hiponatremia', 'Noradrenalina em veia central como primeira medida isolada'],
+    o: ['Coletar cortisol e aguardar o resultado antes de qualquer tratamento', 'Hidrocortisona 100 mg EV em bolo e salina isotônica com glicose', 'Fludrocortisona por via oral e restrição hídrica pela hiponatremia', 'Noradrenalina em veia central como primeira medida isolada'],
     g: 'B',
     c: 'A crise adrenal é emergência e o tratamento não deve aguardar exames. A hidrocortisona em dose alta (100 mg em bolo, seguida de 200 mg em 24 horas) repõe o glicocorticoide e, nessa dose, tem ação mineralocorticoide suficiente. A solução salina corrige a hipovolemia e a hiponatremia, e a glicose trata a hipoglicemia; o fator precipitante deve ser investigado.',
     x: { A: 'Pode-se coletar a amostra, mas nunca atrasar a hidrocortisona pelo resultado.', C: 'A paciente está hipovolêmica; restringir água agravaria o choque, e a fludrocortisona oral é desnecessária na fase aguda.', D: 'O choque é pouco responsivo a vasopressores sem a reposição de glicocorticoide e volume.' },
@@ -149,7 +149,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Crise adrenal - hemorragia adrenal',
     e: 'Criança de 4 anos é admitida com febre, petéquias e púrpuras difusas, choque refratário a volume e a vasopressores. A punção lombar mostra diplococos gram-negativos. A complicação endócrina que deve ser suspeitada é:',
-    o: ['Tempestade tireotóxica', 'Insuficiência adrenal aguda por hemorragia adrenal bilateral (síndrome de Waterhouse-Friderichsen)', 'Diabetes insípido central', 'Apoplexia hipofisária'],
+    o: ['Tempestade tireotóxica desencadeada por quadro infeccioso grave', 'Hemorragia adrenal bilateral (síndrome de Waterhouse-Friderichsen)', 'Diabetes insípido central pós-infeccioso, com poliúria e desidratação', 'Apoplexia hipofisária com hemorragia súbita da sela turca'],
     g: 'B',
     c: 'A meningococcemia fulminante pode causar necrose hemorrágica bilateral das adrenais, por coagulação intravascular disseminada e lesão endotelial. A perda súbita de cortisol agrava o choque, que se torna refratário a catecolaminas, pois o cortisol é necessário para a responsividade vascular. Outras causas de hemorragia adrenal incluem anticoagulação e síndrome antifosfolípide.',
     x: { A: 'A tireotoxicose não se relaciona à meningococcemia nem explica a púrpura.', C: 'O diabetes insípido causa poliúria e hipernatremia, não choque refratário com púrpura.', D: 'A apoplexia ocorre em adenomas hipofisários, com cefaleia súbita e alteração visual.' },
@@ -157,7 +157,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Insuficiência adrenal - reposição',
     e: 'No tratamento de manutenção da insuficiência adrenal primária, o esquema adequado é:',
-    o: ['Dexametasona em dose única noturna, sem mineralocorticoide', 'Glicocorticoide em dose fisiológica, como hidrocortisona 15 a 25 mg ao dia fracionada com maior dose pela manhã, associado a fludrocortisona', 'Prednisona 40 mg ao dia e dieta hipossódica', 'Fludrocortisona isolada, pois o glicocorticoide só é necessário em situações de estresse'],
+    o: ['Dexametasona em dose única noturna, sem mineralocorticoide', 'Hidrocortisona 15-25 mg/dia fracionada (maior dose pela manhã) + fludrocortisona', 'Prednisona 40 mg ao dia em dose única e dieta hipossódica', 'Fludrocortisona isolada, pois o glicocorticoide só é necessário em estresse'],
     g: 'B',
     c: 'O objetivo é imitar a secreção fisiológica, com a menor dose de glicocorticoide que controle os sintomas, evitando Cushing iatrogênico e perda óssea. Como na forma primária falta também aldosterona, associa-se a fludrocortisona, ajustada por pressão arterial, potássio e renina, com ingestão livre de sal. Na forma secundária o mineralocorticoide é dispensável.',
     x: { A: 'A dexametasona não tem ação mineralocorticoide e é de difícil titulação, com risco de excesso.', C: 'É dose suprafisiológica, e restringir sal é prejudicial ao paciente com Addison.', D: 'A deficiência de cortisol é permanente e exige reposição diária.' },
@@ -165,7 +165,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Insuficiência adrenal - dose de estresse',
     e: 'Homem de 50 anos, com doença de Addison em uso de hidrocortisona 20 mg ao dia e fludrocortisona, apresenta quadro gripal com febre de 38,8 graus e está conseguindo se alimentar. A orientação correta é:',
-    o: ['Manter a dose habitual e observar', 'Dobrar ou triplicar a dose do glicocorticoide enquanto durar a doença febril, retornando depois à dose habitual', 'Suspender o glicocorticoide até a resolução da infecção', 'Aumentar apenas a dose da fludrocortisona'],
+    o: ['Manter a dose habitual e observar a evolução clínica', 'Dobrar ou triplicar o glicocorticoide durante a doença febril', 'Suspender o glicocorticoide até a resolução da infecção', 'Aumentar apenas a dose da fludrocortisona e hidratar'],
     g: 'B',
     c: 'Em situações de estresse o indivíduo normal aumenta várias vezes a produção de cortisol, o que o paciente com insuficiência adrenal não consegue fazer. Por isso todos devem ser orientados sobre as regras dos dias de doença: dobrar ou triplicar a dose na febre, usar hidrocortisona parenteral se houver vômitos e portar identificação. Essa orientação é a principal medida de prevenção da crise adrenal.',
     x: { A: 'Manter a dose basal em doença febril aumenta o risco de crise adrenal.', C: 'Suspender o glicocorticoide precipitaria crise adrenal potencialmente fatal.', D: 'O que precisa ser aumentado no estresse é o glicocorticoide, não o mineralocorticoide.' },
@@ -181,7 +181,7 @@ export const PARATIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'HAC não clássica',
     e: 'Mulher de 24 anos procura atendimento por hirsutismo progressivo desde a adolescência, acne e ciclos menstruais irregulares. Entre os diagnósticos diferenciais da síndrome dos ovários policísticos, deve-se pesquisar a forma não clássica da hiperplasia adrenal congênita por meio de:',
-    o: ['Dosagem de cortisol após 1 mg de dexametasona', 'Dosagem de 17-hidroxiprogesterona na fase folicular, basal e, se necessário, após estímulo com ACTH', 'Dosagem de 11-desoxicortisol após metirapona', 'Relação aldosterona/atividade de renina plasmática'],
+    o: ['Dosagem de cortisol após 1 mg de dexametasona à meia-noite', 'Dosagem de 17-hidroxiprogesterona na fase folicular, basal ou pós-ACTH', 'Dosagem de 11-desoxicortisol após estímulo com metirapona', 'Relação aldosterona/atividade de renina plasmática em posição ortostática'],
     g: 'B',
     c: 'A deficiência de 21-hidroxilase responde por mais de 90% das hiperplasias adrenais congênitas. O bloqueio enzimático acumula o precursor 17-hidroxiprogesterona, desviado para a síntese de andrógenos. Na forma não clássica a deficiência é parcial e se manifesta após a infância com hiperandrogenismo; valores basais limítrofes exigem confirmação com teste de estímulo com ACTH.',
     x: { A: 'O teste com dexametasona rastreia síndrome de Cushing, não defeito enzimático.', C: 'O 11-desoxicortisol eleva-se na deficiência de 11-beta-hidroxilase, forma bem menos comum.', D: 'A relação aldosterona/renina rastreia hiperaldosteronismo primário.' },

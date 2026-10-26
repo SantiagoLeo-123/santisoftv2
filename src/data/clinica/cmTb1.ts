@@ -5,7 +5,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Transmissão',
     e: 'Mulher de 30 anos, cujo marido iniciou tratamento para tuberculose pulmonar bacilífera há 3 dias, pergunta se deve separar pratos, talheres e roupas de cama dele. A orientação correta sobre a transmissão da doença é:',
-    o: ['Separar utensílios e roupas, pois o bacilo sobrevive em objetos e infecta por contato', 'Não é preciso separar objetos; a transmissão ocorre pela inalação de aerossóis eliminados pela tosse, fala ou espirro do doente', 'A transmissão ocorre principalmente por gotículas grandes depositadas nas mãos e levadas à boca', 'A transmissão é predominantemente fecal-oral, exigindo cuidado com o banheiro compartilhado'],
+    o: ['Separar utensílios e roupas, pois o bacilo sobrevive em objetos e infecta por contato', 'Não é preciso separar objetos; a transmissão é por aerossóis da tosse, fala ou espirro', 'A transmissão ocorre principalmente por gotículas grandes depositadas nas mãos e levadas à boca', 'A transmissão é predominantemente fecal-oral, exigindo cuidado com o banheiro compartilhado'],
     g: 'B',
     c: 'O Mycobacterium tuberculosis é transmitido por via aérea: o doente com forma pulmonar ou laríngea elimina aerossóis cujos núcleos secos (núcleos de Wells) ficam em suspensão e alcançam os alvéolos de quem os inala. Objetos, roupas e utensílios não têm papel na transmissão; o que importa é ventilar o ambiente, proteger a tosse e tratar o doente.',
     x: { A: 'Fômites não transmitem tuberculose; os bacilos depositados em superfícies não formam aerossóis infectantes.', C: 'Gotículas grandes ficam retidas nas vias aéreas superiores e são eliminadas; a infecção depende de partículas pequenas que chegam ao alvéolo.', D: 'Não há transmissão fecal-oral do M. tuberculosis; a via digestiva só tem importância histórica com o M. bovis no leite não pasteurizado.' },
@@ -13,7 +13,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'História natural',
     e: 'Sobre o risco de adoecimento de um adulto imunocompetente que se infecta pelo Mycobacterium tuberculosis, assinale a alternativa correta.',
-    o: ['Quase todos os infectados adoecem, em geral nos primeiros 6 meses', 'Cerca de 10% adoecem ao longo da vida, e aproximadamente metade desses casos ocorre nos 2 primeiros anos após a infecção', 'O adoecimento só ocorre décadas depois, quando há imunossupressão', 'Cerca de 50% adoecem, sempre na forma de tuberculose primária'],
+    o: ['Quase todos os infectados adoecem, em geral nos primeiros 6 meses', 'Cerca de 10% adoecem na vida, e metade desses casos nos 2 primeiros anos', 'O adoecimento só ocorre décadas depois, quando há imunossupressão', 'Cerca de 50% adoecem, sempre na forma de tuberculose primária'],
     g: 'B',
     c: 'A maioria dos infectados controla o bacilo pela imunidade celular e permanece com infecção latente. Estima-se que cerca de 5% adoeçam nos primeiros 2 anos (falha precoce do controle imune) e outros 5% ao longo do restante da vida por reativação. Por isso o contato recente é o grupo prioritário para investigação e tratamento da infecção latente.',
     x: { A: 'Em imunocompetentes a regra é a contenção do bacilo; o adoecimento é a exceção.', C: 'O período de maior risco é justamente o que se segue à infecção recente, não apenas a fase tardia.', D: 'A proporção de 50% é muito superior à real, e o adoecimento tardio ocorre como forma pós-primária.' },
@@ -37,7 +37,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Busca ativa',
     e: 'Homem de 27 anos, privado de liberdade há 1 ano em cela superlotada, refere tosse seca há 5 dias, sem febre. Em relação à investigação de tuberculose, a conduta correta é:',
-    o: ['Reavaliar em 3 semanas e investigar apenas se a tosse persistir', 'Investigar tuberculose agora, pois nessa população a tosse de qualquer duração define o sintomático respiratório', 'Tratar como infecção viral e investigar somente se surgir hemoptise', 'Solicitar apenas prova tuberculínica, que confirma a doença ativa'],
+    o: ['Reavaliar em 3 semanas e investigar apenas se a tosse persistir por mais de 3 semanas', 'Investigar já: nessa população, tosse de qualquer duração define o sintomático', 'Tratar como infecção viral e investigar somente se surgir hemoptise', 'Solicitar apenas prova tuberculínica, que confirma a doença ativa'],
     g: 'B',
     c: 'Em populações de alto risco (privados de liberdade, pessoas em situação de rua, pessoas vivendo com HIV, indígenas e contatos de casos de tuberculose), o tempo de tosse exigido cai para qualquer duração, porque a probabilidade pré-teste é muito alta e o atraso diagnóstico alimenta a transmissão em ambiente fechado. Deve-se colher escarro para teste rápido molecular ou baciloscopia e fazer radiografia.',
     x: { A: 'O corte de 3 semanas vale para a população geral, não para privados de liberdade.', C: 'Aguardar hemoptise significa diagnosticar em fase avançada e após contaminar a cela.', D: 'A prova tuberculínica indica infecção, não distingue doença ativa e não substitui o exame do escarro.' },
@@ -45,7 +45,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Patogenia',
     e: 'Na primoinfecção tuberculosa, o conjunto formado pelo foco parenquimatoso subpleural, pela linfangite e pela adenomegalia hilar satélite recebe o nome de:',
-    o: ['Foco de Simon', 'Complexo primário (de Ranke)', 'Aneurisma de Rasmussen', 'Foco de Rich'],
+    o: ['Foco de Simon, nos ápices pulmonares', 'Complexo primário (complexo de Ranke)', 'Aneurisma de Rasmussen em cavidade', 'Foco de Rich, no sistema nervoso'],
     g: 'B',
     c: 'O bacilo inalado implanta-se em região bem ventilada (terço médio ou inferior, subpleural) e forma o foco de Ghon; daí drena pelos linfáticos (linfangite) até os linfonodos hilares. O conjunto foco parenquimatoso, linfangite e adenopatia satélite é o complexo primário, que costuma cicatrizar e calcificar. Alguns textos chamam de complexo de Ghon o par foco e linfonodo e reservam Ranke para a forma calcificada.',
     x: { A: 'Focos de Simon são implantes apicais resultantes da disseminação hematogênica da primoinfecção, sede futura de reativação.', C: 'Aneurisma de Rasmussen é a dilatação de ramo arterial na parede de uma caverna, causa de hemoptise maciça.', D: 'Foco de Rich é o granuloma subependimário ou cortical cuja ruptura origina a meningite tuberculosa.' },
@@ -53,7 +53,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Imunopatogenia',
     e: 'O controle da infecção pelo Mycobacterium tuberculosis e a formação do granuloma com necrose caseosa dependem principalmente de:',
-    o: ['Anticorpos IgG neutralizantes e ativação do complemento', 'Linfócitos T CD4 de perfil Th1 que, por meio de interferon gama, ativam macrófagos (hipersensibilidade tipo IV)', 'Degranulação de mastócitos mediada por IgE', 'Neutrófilos e formação de imunocomplexos circulantes'],
+    o: ['Anticorpos IgG neutralizantes e ativação da via clássica do complemento', 'Linfócitos T Th1: interferon gama ativa macrófagos (hipersensibilidade tipo IV)', 'Degranulação de mastócitos mediada por IgE (hipersensibilidade tipo I)', 'Neutrófilos e formação de imunocomplexos circulantes (hipersensibilidade tipo III)'],
     g: 'B',
     c: 'O bacilo é um patógeno intracelular de macrófagos; a defesa eficaz é celular. Linfócitos Th1 secretam interferon gama, que ativa os macrófagos, e o TNF alfa organiza e mantém o granuloma. Essa resposta se estabelece em algumas semanas após a infecção e é a mesma detectada pela prova tuberculínica (hipersensibilidade tardia). Por isso HIV e bloqueadores de TNF favorecem o adoecimento.',
     x: { A: 'A imunidade humoral tem papel irrelevante contra um germe que vive dentro do macrófago.', C: 'IgE e mastócitos caracterizam a hipersensibilidade tipo I, sem relação com o granuloma.', D: 'Imunocomplexos caracterizam a hipersensibilidade tipo III; neutrófilos não contêm a infecção.' },
@@ -77,7 +77,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Tuberculose pós-primária',
     e: 'A predileção da tuberculose pós-primária pelos ápices pulmonares é explicada principalmente por:',
-    o: ['Maior perfusão sanguínea dos ápices, que facilita a chegada de bacilos', 'Maior tensão de oxigênio alveolar e menor drenagem linfática nessas regiões, favorecendo um bacilo aeróbio estrito', 'Menor ventilação dos ápices, que cria ambiente anaeróbio', 'Aspiração preferencial de secreções para os segmentos apicais'],
+    o: ['Maior perfusão sanguínea dos ápices, que facilita a chegada de bacilos', 'Maior tensão de oxigênio e menor drenagem linfática, favorecendo um bacilo aeróbio', 'Menor ventilação dos ápices, que cria ambiente anaeróbio favorável', 'Aspiração preferencial de secreções para os segmentos apicais'],
     g: 'B',
     c: 'O M. tuberculosis é aeróbio estrito. Na posição ortostática os ápices têm alta relação ventilação-perfusão, o que eleva a tensão alveolar de oxigênio, e a drenagem linfática é menos eficiente. Assim, os focos ali implantados na disseminação hematogênica da primoinfecção encontram condições ideais para persistir e reativar anos depois.',
     x: { A: 'A perfusão é menor nos ápices do que nas bases; é justamente a baixa perfusão que eleva a relação ventilação-perfusão.', C: 'O bacilo não se multiplica bem em anaerobiose; o ambiente apical é rico em oxigênio.', D: 'A aspiração atinge segmentos dependentes (posteriores e basais), mecanismo do abscesso pulmonar.' },
@@ -109,7 +109,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Coleta de escarro',
     e: 'Na investigação de tuberculose pulmonar por baciloscopia de escarro, a recomendação quanto ao número e ao momento das amostras é:',
-    o: ['Uma única amostra, colhida em qualquer horário', 'Duas amostras: uma no primeiro contato com o serviço e outra na manhã seguinte, ao despertar', 'Três amostras colhidas no mesmo dia, com intervalo de 1 hora', 'Cinco amostras em dias consecutivos, sempre após as refeições'],
+    o: ['Uma única amostra, colhida em qualquer horário do dia, no serviço', 'Duas amostras: uma no primeiro contato e outra na manhã seguinte, ao despertar', 'Três amostras colhidas no mesmo dia, com intervalo de 1 hora', 'Cinco amostras em dias consecutivos, sempre após as refeições'],
     g: 'B',
     c: 'São recomendadas duas amostras: a primeira no momento da identificação do sintomático respiratório, para não perder a oportunidade, e a segunda na manhã seguinte, ao despertar, quando as secreções acumuladas durante a noite aumentam o rendimento. A baciloscopia exige alguns milhares de bacilos por mililitro para ser positiva, daí a importância de uma boa amostra.',
     x: { A: 'Uma única amostra reduz a sensibilidade de um exame que já depende de alta carga bacilar.', C: 'Amostras seguidas no mesmo dia não aproveitam o acúmulo noturno de secreção.', D: 'Cinco amostras não fazem parte da rotina, e a coleta após refeições aumenta a contaminação por restos alimentares.' },
@@ -117,7 +117,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Resistência',
     e: 'Homem de 38 anos, com tosse há 2 meses, realiza teste rápido molecular no escarro: Mycobacterium tuberculosis detectado, resistência à rifampicina detectada. A conduta adequada é:',
-    o: ['Iniciar o esquema básico e repetir o teste ao final do segundo mês', 'Solicitar cultura com teste de sensibilidade e encaminhar à referência terciária para definição do esquema', 'Desconsiderar o resultado de resistência, por ser frequentemente falso', 'Tratar apenas com isoniazida e etambutol por 12 meses na unidade básica'],
+    o: ['Iniciar o esquema básico e repetir o teste ao final do segundo mês', 'Solicitar cultura com sensibilidade e encaminhar à referência para o esquema', 'Desconsiderar o resultado de resistência, por ser frequentemente falso', 'Tratar apenas com isoniazida e etambutol por 12 meses na unidade básica'],
     g: 'B',
     c: 'A resistência à rifampicina no teste molecular é forte marcador de tuberculose multirresistente. O paciente deve ter cultura e teste de sensibilidade solicitados (em geral repete-se o teste molecular em nova amostra) e ser encaminhado à referência terciária, que definirá o esquema para tuberculose resistente. Manter o esquema básico exporia o doente à falência e à ampliação da resistência.',
     x: { A: 'O esquema básico tem a rifampicina como pilar e seria ineficaz, selecionando mais resistência.', C: 'O resultado tem alta especificidade e não pode ser ignorado, sobretudo sem confirmação por cultura.', D: 'Esquemas para resistência são definidos na referência com base no teste de sensibilidade; essa dupla isolada é insuficiente.' },
@@ -141,7 +141,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Tuberculose na criança',
     e: 'Lactente de 1 ano e 8 meses, internado com pneumonia de evolução arrastada e suspeita de tuberculose, não consegue expectorar. A amostra mais utilizada para tentar a confirmação bacteriológica nessa faixa etária é:',
-    o: ['Swab de orofaringe', 'Lavado gástrico colhido pela manhã, em jejum', 'Hemocultura para micobactérias', 'Urina de 24 horas'],
+    o: ['Swab de orofaringe colhido pela manhã, em jejum', 'Lavado gástrico colhido pela manhã, em jejum', 'Hemocultura para micobactérias em meio especial', 'Urina de 24 horas para pesquisa de BAAR no sedimento'],
     g: 'B',
     c: 'Crianças pequenas deglutem as secreções respiratórias, que se acumulam no estômago durante o sono. O lavado gástrico, colhido pela manhã em jejum, em geral em dois dias, permite cultura e teste rápido molecular. O rendimento é limitado pela natureza paucibacilar da doença, e o resultado negativo não exclui o diagnóstico. O escarro induzido é alternativa.',
     x: { A: 'O swab de orofaringe não alcança secreção das vias aéreas inferiores e tem rendimento desprezível.', C: 'A hemocultura para micobactérias é útil em formas disseminadas de imunossuprimidos graves, não como rotina na criança.', D: 'A urina serve à investigação de tuberculose urinária, não pulmonar.' },
@@ -149,7 +149,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Sequelas',
     e: 'Homem de 52 anos, tratado e curado de tuberculose pulmonar há 8 anos, apresenta hemoptises de repetição. Baciloscopias e cultura para micobactérias negativas. A tomografia mostra cavidade apical de paredes finas contendo massa arredondada, móvel com a mudança de decúbito, circundada por um crescente de ar. O diagnóstico mais provável é:',
-    o: ['Recidiva de tuberculose', 'Bola fúngica (aspergiloma) em cavidade residual', 'Carcinoma broncogênico escavado', 'Abscesso pulmonar por anaeróbios'],
+    o: ['Recidiva de tuberculose por reinfecção ativa', 'Bola fúngica (aspergiloma) em cavidade residual', 'Carcinoma broncogênico escavado de lobo superior', 'Abscesso pulmonar por anaeróbios pós-aspiração'],
     g: 'B',
     c: 'Cavidades residuais de tuberculose podem ser colonizadas por Aspergillus, que forma um emaranhado de hifas, muco e restos celulares solto dentro da cavidade. A massa móvel com o decúbito e o sinal do crescente aéreo são característicos. A hemoptise decorre da erosão de vasos brônquicos hipertrofiados da parede e pode ser maciça.',
     x: { A: 'A recidiva cursaria com sintomas sistêmicos e exames bacteriológicos positivos, sem massa móvel intracavitária.', C: 'A neoplasia escavada tem parede espessa e irregular, e o conteúdo não se move com o decúbito.', D: 'O abscesso tem nível hidroaéreo e quadro febril com escarro fétido.' },
@@ -165,7 +165,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Tuberculose na criança',
     e: 'Em uma creche, uma criança de 3 anos recebe o diagnóstico de tuberculose pulmonar pelo escore clínico. Os pais das outras crianças temem o contágio. A informação correta é:',
-    o: ['A criança deve ser afastada por 6 meses, pois é a principal fonte de infecção da creche', 'Crianças pequenas com tuberculose pulmonar são em geral paucibacilares e pouco transmissoras; o essencial é procurar o adulto que a infectou', 'Todas as crianças da creche devem receber o esquema de tratamento de doença ativa', 'A transmissão entre crianças ocorre principalmente pelo compartilhamento de brinquedos'],
+    o: ['A criança deve ser afastada por 6 meses, pois é a principal fonte de infecção da creche', 'Crianças pequenas são em geral paucibacilares e pouco transmissoras; buscar o adulto fonte', 'Todas as crianças da creche devem receber o esquema de tratamento de doença ativa', 'A transmissão entre crianças ocorre principalmente pelo compartilhamento de brinquedos'],
     g: 'B',
     c: 'A tuberculose da criança menor de 10 anos costuma ser paucibacilar, sem cavidades, e a tosse é pouco vigorosa, de modo que a transmissão a partir dela é rara. O diagnóstico em uma criança é evento sentinela: indica um adulto bacilífero no convívio (familiar, cuidador, funcionário), que deve ser ativamente procurado.',
     x: { A: 'A criança raramente transmite e pode voltar às atividades logo após o início do tratamento e a melhora clínica.', C: 'Contatos são avaliados para doença e infecção latente; não se trata doença ativa sem diagnóstico.', D: 'Brinquedos e objetos não transmitem tuberculose.' },
@@ -173,7 +173,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Avaliação inicial',
     e: 'Homem de 31 anos recebe o diagnóstico de tuberculose pulmonar por teste rápido molecular. Não refere comorbidades nem comportamento de risco. O exame que deve ser oferecido a todo paciente com diagnóstico de tuberculose, independentemente de fatores de risco, é:',
-    o: ['Tomografia de tórax', 'Testagem para HIV, preferencialmente por teste rápido', 'Broncoscopia com lavado broncoalveolar', 'Dosagem de alfa-1 antitripsina'],
+    o: ['Tomografia de tórax de alta resolução para estadiamento', 'Testagem para HIV, preferencialmente por teste rápido', 'Broncoscopia com lavado broncoalveolar para confirmação', 'Dosagem de alfa-1 antitripsina sérica para avaliar enfisema'],
     g: 'B',
     c: 'A infecção pelo HIV é o principal fator de risco para adoecimento por tuberculose, e a tuberculose é a principal causa de morte entre pessoas vivendo com HIV. O diagnóstico da coinfecção muda a conduta (início de antirretrovirais, escolha de esquemas, investigação de formas extrapulmonares), por isso a testagem deve ser oferecida a todos no momento do diagnóstico.',
     x: { A: 'A tomografia fica reservada a dúvidas diagnósticas; a radiografia simples basta na maioria dos casos.', C: 'A broncoscopia só se justifica quando não se obtém amostra ou o diagnóstico permanece incerto.', D: 'A alfa-1 antitripsina é investigada no enfisema precoce, sem relação com a tuberculose.' },
@@ -197,7 +197,7 @@ export const TB_1: QuestaoCompacta[] = [
   {
     s: 'Complicações',
     e: 'Homem de 40 anos, com tuberculose pulmonar cavitária extensa diagnosticada há 1 semana, apresenta subitamente hemoptise maciça com instabilidade hemodinâmica. A lesão classicamente associada a esse evento, formada pela erosão de um ramo da artéria pulmonar na parede da caverna, é:',
-    o: ['Foco de Ghon', 'Aneurisma de Rasmussen', 'Foco de Simon', 'Nódulo de Assmann'],
+    o: ['Foco de Ghon, lesão da primoinfecção', 'Aneurisma de Rasmussen, em cavidade tuberculosa', 'Foco de Simon, lesão apical hematogênica', 'Nódulo de Assmann, infiltrado infraclavicular'],
     g: 'B',
     c: 'O processo inflamatório da parede da caverna enfraquece a adventícia e a média de ramos da artéria pulmonar que a atravessam, formando um pseudoaneurisma (aneurisma de Rasmussen) cuja ruptura causa hemoptise maciça. Na prática, a maioria das hemoptises da tuberculose vem da circulação brônquica, mas essa é a lesão epônima cobrada em provas.',
     x: { A: 'O foco de Ghon é a lesão parenquimatosa inicial da primoinfecção, sem relação com sangramento.', C: 'Focos de Simon são implantes apicais hematogênicos da primoinfecção.', D: 'O nódulo de Assmann é o infiltrado infraclavicular precoce da tuberculose pós-primária.' },

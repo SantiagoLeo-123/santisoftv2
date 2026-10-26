@@ -13,7 +13,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Estenose mitral – ausculta',
     e: 'Paciente com estenose mitral reumática apresentava ruflar diastólico com reforço pré-sistólico. Em nova consulta, o pulso está irregular e o reforço pré-sistólico desapareceu. A explicação é:',
-    o: ['Progressão da estenose para a forma crítica', 'Instalação de fibrilação atrial, com perda da contração atrial', 'Desenvolvimento de hipertensão pulmonar', 'Calcificação completa dos folhetos'],
+    o: ['Progressão da estenose para a forma crítica, com baixo fluxo', 'Instalação de fibrilação atrial, com perda da contração atrial', 'Desenvolvimento de hipertensão pulmonar e falência do VD', 'Calcificação completa dos folhetos e do anel mitral'],
     g: 'B',
     c: 'O reforço pré-sistólico é produzido pela contração atrial, que acelera o fluxo através da valva estenótica no fim da diástole. Na fibrilação atrial não há sístole atrial efetiva, e esse componente desaparece. A arritmia é a complicação mais comum da estenose mitral, consequência da dilatação do átrio esquerdo.',
     x: { A: 'A gravidade se relaciona ao intervalo curto entre a segunda bulha e o estalido e à duração do ruflar, não ao reforço.', C: 'A hipertensão pulmonar acentua o componente pulmonar da segunda bulha, sem abolir o reforço.', D: 'A calcificação reduz a primeira bulha e o estalido de abertura, mas não explica o pulso irregular.' },
@@ -21,7 +21,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Estenose mitral – gravidade à ausculta',
     e: 'Na estenose mitral, qual achado de ausculta indica maior gravidade da obstrução?',
-    o: ['Primeira bulha muito hiperfonética', 'Intervalo curto entre a segunda bulha e o estalido de abertura', 'Ruflar diastólico de grande intensidade', 'Presença de terceira bulha'],
+    o: ['Primeira bulha muito hiperfonética no foco mitral', 'Intervalo curto entre a segunda bulha e o estalido de abertura', 'Ruflar diastólico de grande intensidade no ápice', 'Presença de terceira bulha, que indica congestão'],
     g: 'B',
     c: 'Quanto mais grave a estenose, maior a pressão no átrio esquerdo; assim, a pressão ventricular cai abaixo da atrial mais cedo e a valva abre mais precocemente, aproximando o estalido da segunda bulha. A duração do ruflar, e não a sua intensidade, também acompanha a gravidade.',
     x: { A: 'A primeira bulha hiperfonética indica folhetos ainda móveis e não gradua a obstrução.', C: 'A intensidade do ruflar depende do fluxo e da parede torácica; o que importa é a duração.', D: 'A terceira bulha exige enchimento ventricular rápido, o que é impedido pela estenose mitral significativa.' },
@@ -37,7 +37,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Estenose mitral – tratamento clínico',
     e: 'Gestante de 26 semanas, com estenose mitral reumática até então assintomática, procura o pronto-socorro com dispneia, ortopneia e taquicardia sinusal de 124 bpm. Além do diurético, o fármaco que mais beneficia a hemodinâmica dessa paciente é:',
-    o: ['Hidralazina', 'Betabloqueador', 'Digoxina', 'Nifedipino'],
+    o: ['Hidralazina, para reduzir a pós-carga', 'Betabloqueador, para alongar a diástole', 'Digoxina, para controle do ritmo', 'Nifedipino, bloqueador de canal de cálcio'],
     g: 'B',
     c: 'Na estenose mitral, o enchimento ventricular depende do tempo de diástole. A gestação aumenta a volemia e a frequência cardíaca, encurtando a diástole e elevando a pressão no átrio esquerdo. O betabloqueador reduz a frequência, prolonga o enchimento e diminui o gradiente transvalvar, aliviando a congestão.',
     x: { A: 'O vasodilatador arterial provoca taquicardia reflexa e piora o enchimento ventricular.', C: 'A digoxina tem pouco efeito sobre a frequência em ritmo sinusal, sendo útil no controle da fibrilação atrial.', D: 'O nifedipino causa taquicardia reflexa e não melhora o tempo de enchimento.' },
@@ -69,7 +69,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Estenose mitral – complicações',
     e: 'Mulher de 40 anos, com estenose mitral grave e átrio esquerdo muito aumentado, passa a apresentar rouquidão. A laringoscopia mostra paralisia da prega vocal esquerda. A causa é:',
-    o: ['Refluxo laringofaríngeo pela congestão esofágica', 'Compressão do nervo laríngeo recorrente esquerdo pelo átrio esquerdo e pela artéria pulmonar dilatados', 'Embolia para a artéria laríngea superior', 'Edema de glote por congestão venosa'],
+    o: ['Refluxo laringofaríngeo pela congestão esofágica crônica', 'Compressão do laríngeo recorrente esquerdo pelo átrio esquerdo dilatado', 'Embolia para a artéria laríngea superior por trombo atrial', 'Edema de glote por congestão venosa cervical e hipoxemia'],
     g: 'B',
     c: 'A síndrome de Ortner (síndrome cardiovocal) decorre da compressão do nervo laríngeo recorrente esquerdo, que contorna o arco aórtico, entre a aorta e a artéria pulmonar dilatada, com contribuição do átrio esquerdo aumentado. O crescimento atrial também pode causar disfagia por compressão do esôfago.',
     x: { A: 'O refluxo causa rouquidão sem paralisia unilateral de prega vocal.', C: 'A embolia sistêmica da estenose mitral costuma atingir cérebro, rins e membros, não a laringe.', D: 'O edema de glote não provoca paralisia de prega vocal.' },
@@ -77,7 +77,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Insuficiência mitral crônica',
     e: 'Homem de 58 anos, com dispneia aos esforços, apresenta sopro holossistólico em foco mitral, irradiado para a axila, que encobre a segunda bulha, além de terceira bulha e ictus desviado para a esquerda e para baixo. O diagnóstico mais provável é:',
-    o: ['Estenose aórtica', 'Insuficiência mitral crônica importante', 'Comunicação interatrial', 'Insuficiência tricúspide'],
+    o: ['Estenose aórtica com irradiação para as carótidas', 'Insuficiência mitral crônica importante', 'Comunicação interatrial com hiperfluxo pulmonar', 'Insuficiência tricúspide com sinal de Rivero-Carvallo'],
     g: 'B',
     c: 'Na insuficiência mitral, a pressão ventricular supera a atrial durante toda a sístole, gerando sopro holossistólico de intensidade constante, irradiado para a axila. A terceira bulha reflete o grande volume que retorna ao ventrículo na diástole, e o desvio do ictus indica dilatação por sobrecarga de volume.',
     x: { A: 'O sopro da estenose aórtica é ejetivo, em diamante, na base, com irradiação para as carótidas.', C: 'A comunicação interatrial produz sopro ejetivo pulmonar suave e desdobramento fixo da segunda bulha.', D: 'O sopro tricúspide localiza-se na borda esternal baixa e aumenta na inspiração.' },
@@ -85,7 +85,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Insuficiência mitral aguda',
     e: 'Homem de 64 anos, no quarto dia de um infarto de parede inferior, apresenta subitamente edema agudo de pulmão e hipotensão. Há sopro sistólico suave no ápice. O ecocardiograma mostra ventrículo esquerdo hiperdinâmico. O diagnóstico mais provável é:',
-    o: ['Ruptura do septo interventricular', 'Insuficiência mitral aguda por ruptura do músculo papilar posteromedial', 'Ruptura da parede livre com tamponamento', 'Reinfarto com extensão para o ventrículo direito'],
+    o: ['Ruptura do septo interventricular com shunt esquerda-direita', 'Insuficiência mitral aguda por ruptura de músculo papilar', 'Ruptura da parede livre com tamponamento cardíaco agudo', 'Reinfarto com extensão para o ventrículo direito'],
     g: 'B',
     c: 'O músculo papilar posteromedial tem irrigação única, pela artéria descendente posterior, e por isso rompe com mais frequência nos infartos inferiores, geralmente entre o segundo e o sétimo dia. O átrio esquerdo não dilatado recebe o refluxo com grande elevação de pressão, causando edema pulmonar; o sopro pode ser discreto, pois as pressões se igualam rapidamente. O tratamento é cirúrgico de urgência.',
     x: { A: 'A comunicação interventricular produz sopro holossistólico rude com frêmito e predomínio de falência direita.', C: 'A ruptura de parede livre causa tamponamento e atividade elétrica sem pulso, sem edema pulmonar.', D: 'O infarto de ventrículo direito cursa com hipotensão, turgência jugular e pulmões limpos.' },
@@ -101,7 +101,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Insuficiência mitral secundária',
     e: 'Homem de 62 anos, com cardiomiopatia dilatada isquêmica, fração de ejeção de 28% e insuficiência mitral importante com folhetos estruturalmente normais, usa apenas furosemida. A primeira medida para tratar essa regurgitação é:',
-    o: ['Troca valvar mitral imediata', 'Otimizar o tratamento da insuficiência cardíaca com as medicações que modificam o prognóstico', 'Implante percutâneo de clipe mitral como primeira etapa', 'Anticoagulação plena'],
+    o: ['Troca valvar mitral imediata, por insuficiência mitral grave', 'Otimizar o tratamento da IC com os medicamentos que modificam o prognóstico', 'Implante percutâneo de clipe mitral como primeira etapa', 'Anticoagulação plena com varfarina por tempo indeterminado'],
     g: 'B',
     c: 'Na insuficiência mitral secundária (funcional), a valva é normal e o refluxo resulta da dilatação e do remodelamento do ventrículo, que tracionam os folhetos e dilatam o anel. O tratamento inicial é o da doença de base: terapia otimizada da insuficiência cardíaca e, se indicada, ressincronização. A intervenção valvar, como o reparo borda a borda, é reservada a quem persiste sintomático.',
     x: { A: 'A cirurgia isolada da valva não trata a doença ventricular e tem benefício incerto nesse cenário.', C: 'O clipe só é considerado após tratamento clínico otimizado e em pacientes selecionados.', D: 'Não há indicação de anticoagulação apenas pela regurgitação mitral.' },
@@ -109,7 +109,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Prolapso da valva mitral',
     e: 'Mulher de 27 anos, magra, com palpitações ocasionais, apresenta clique mesossistólico seguido de sopro telessistólico no ápice. Ao passar do decúbito para a posição ortostática, espera-se que:',
-    o: ['O clique se atrase e o sopro fique mais curto', 'O clique se antecipe, aproximando-se da primeira bulha, e o sopro se prolongue', 'O clique e o sopro desapareçam', 'Não haja mudança, pois o achado independe do volume ventricular'],
+    o: ['O clique se atrase e o sopro fique mais curto', 'O clique se antecipe e o sopro se prolongue', 'O clique e o sopro desapareçam por completo', 'Não haja mudança, pois independe do volume ventricular'],
     g: 'B',
     c: 'No prolapso mitral, o folheto redundante ultrapassa o plano do anel quando o ventrículo atinge um volume crítico durante a sístole. Manobras que reduzem o volume ventricular (ortostase, Valsalva) fazem esse ponto ser alcançado mais cedo: o clique se antecipa e o sopro fica mais longo. O agachamento tem efeito oposto.',
     x: { A: 'Esse é o efeito do agachamento, que aumenta o volume ventricular.', C: 'A redução do volume ventricular acentua, e não elimina, o prolapso.', D: 'O achado é tipicamente dinâmico e varia com o volume do ventrículo esquerdo.' },
@@ -133,7 +133,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Próteses valvares – escolha',
     e: 'Homem de 44 anos, sem comorbidades e sem contraindicação à anticoagulação, tem indicação de troca valvar aórtica. O tipo de prótese mais adequado e a justificativa são:',
-    o: ['Biológica, pois dispensa anticoagulação e dura por toda a vida', 'Mecânica, pela maior durabilidade, com necessidade de anticoagulação permanente com antagonista da vitamina K', 'Biológica, pois tem menor risco de endocardite', 'Mecânica, pois permite anticoagulação com anticoagulantes orais diretos'],
+    o: ['Biológica, pois dispensa anticoagulação e dura por toda a vida', 'Mecânica, pela durabilidade, com anticoagulação permanente com varfarina', 'Biológica, pois tem menor risco de endocardite do que a mecânica', 'Mecânica, pois permite anticoagulação com anticoagulantes orais diretos'],
     g: 'B',
     c: 'As próteses mecânicas duram décadas, mas são trombogênicas e exigem anticoagulação permanente. As biológicas dispensam anticoagulação prolongada, porém sofrem degeneração estrutural, mais rápida em jovens, levando a reoperação. Por isso, em pacientes jovens sem contraindicação à varfarina, prefere-se a mecânica; os limites de idade variam entre as diretrizes (em torno de 50 a 65 anos).',
     x: { A: 'A prótese biológica degenera em 10 a 15 anos, mais rapidamente em jovens.', C: 'O risco de endocardite é semelhante entre os dois tipos de prótese.', D: 'Os anticoagulantes diretos são contraindicados em próteses mecânicas.' },
@@ -141,7 +141,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Próteses valvares – anticoagulação',
     e: 'Mulher de 50 anos, portadora de prótese mecânica mitral e fibrilação atrial, em uso de varfarina, solicita a troca por um anticoagulante que não exija controle de INR. A orientação correta é:',
-    o: ['Trocar por dabigatrana 150 mg duas vezes ao dia', 'Manter a varfarina, pois os anticoagulantes orais diretos são contraindicados em prótese mecânica', 'Trocar por apixabana 5 mg duas vezes ao dia', 'Suspender o anticoagulante e manter dupla antiagregação'],
+    o: ['Trocar por dabigatrana 150 mg duas vezes ao dia, por comodidade', 'Manter a varfarina; anticoagulantes diretos são contraindicados em prótese mecânica', 'Trocar por apixabana 5 mg duas vezes ao dia, sem controle de INR', 'Suspender o anticoagulante e manter dupla antiagregação plaquetária'],
     g: 'B',
     c: 'Em próteses mecânicas, o único anticoagulante oral indicado é o antagonista da vitamina K. O estudo RE-ALIGN, com dabigatrana, foi interrompido por excesso de eventos trombóticos e hemorrágicos, e a apixabana também foi inferior à varfarina em prótese mecânica aórtica. A ativação da coagulação pela superfície artificial não é bem bloqueada por esses fármacos.',
     x: { A: 'A dabigatrana aumentou trombose de prótese e sangramento em comparação com a varfarina.', C: 'A apixabana mostrou mais eventos tromboembólicos que a varfarina em prótese mecânica.', D: 'A antiagregação isolada não protege contra trombose de prótese mecânica.' },
@@ -157,7 +157,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Próteses valvares – biológica',
     e: 'Mulher de 74 anos, em ritmo sinusal, será submetida a troca valvar aórtica cirúrgica. A prótese mais indicada e sua principal limitação são:',
-    o: ['Mecânica; trombose de prótese', 'Biológica; degeneração estrutural ao longo dos anos', 'Mecânica; ruído de fechamento', 'Biológica; necessidade de varfarina por toda a vida'],
+    o: ['Mecânica; trombose de prótese e risco de sangramento', 'Biológica; degeneração estrutural ao longo dos anos', 'Mecânica; ruído de fechamento audível ao paciente', 'Biológica; necessidade de varfarina por toda a vida'],
     g: 'B',
     c: 'Em idosos, a expectativa de vida costuma ser menor que a durabilidade da bioprótese, e o risco de sangramento com anticoagulação é maior, o que favorece a prótese biológica. Sua limitação é a degeneração estrutural (calcificação e ruptura dos folhetos), que é mais lenta nos idosos. Em ritmo sinusal, não há necessidade de anticoagulação prolongada.',
     x: { A: 'A prótese mecânica imporia anticoagulação permanente, com maior risco hemorrágico nessa idade.', C: 'O ruído não é fator determinante; a questão central é a anticoagulação.', D: 'A bioprótese não exige varfarina permanente em pacientes em ritmo sinusal.' },
@@ -173,7 +173,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Endocardite infecciosa – critérios de Duke',
     e: 'Mulher de 46 anos, com prolapso mitral, apresenta febre há três semanas, sopro regurgitante e máculas indolores nas palmas das mãos. Entre os achados abaixo, qual é considerado critério MAIOR de Duke para endocardite infecciosa?',
-    o: ['Febre igual ou superior a 38 graus', 'Hemoculturas persistentemente positivas para microrganismo típico', 'Lesões de Janeway', 'Fator reumatoide positivo'],
+    o: ['Febre igual ou superior a 38 graus Celsius, persistente', 'Hemoculturas positivas persistentes para microrganismo típico', 'Lesões de Janeway nas palmas e plantas dos pés', 'Fator reumatoide positivo no soro do paciente'],
     g: 'B',
     c: 'Os critérios maiores de Duke são microbiológicos (hemoculturas positivas para agente típico em amostras separadas ou persistentes) e de imagem (vegetação, abscesso, deiscência de prótese ou nova regurgitação valvar). Os menores incluem febre, predisposição, fenômenos vasculares e imunológicos. Por isso, a investigação exige hemoculturas antes do antibiótico e ecocardiograma.',
     x: { A: 'A febre é um critério menor.', C: 'As lesões de Janeway são fenômenos vasculares (embólicos), critério menor.', D: 'O fator reumatoide é fenômeno imunológico, critério menor, assim como nódulos de Osler e manchas de Roth.' },
@@ -181,7 +181,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Endocardite infecciosa – profilaxia',
     e: 'Homem de 61 anos, portador de prótese biológica aórtica, sem alergias, fará extração dentária. A conduta quanto à profilaxia de endocardite infecciosa é:',
-    o: ['Não está indicada, pois a prótese é biológica', 'Amoxicilina 2 g por via oral, em dose única, 30 a 60 minutos antes do procedimento', 'Amoxicilina 500 mg de 8 em 8 horas por 7 dias após o procedimento', 'Vancomicina intravenosa associada a gentamicina'],
+    o: ['Não está indicada, pois a prótese é biológica e não mecânica', 'Amoxicilina 2 g por via oral, dose única, 30 a 60 minutos antes', 'Amoxicilina 500 mg de 8 em 8 horas por 7 dias após o procedimento', 'Vancomicina intravenosa associada a gentamicina em dose única'],
     g: 'B',
     c: 'Portadores de prótese valvar (mecânica ou biológica), endocardite prévia e certas cardiopatias congênitas têm o maior risco de desfecho grave e recebem profilaxia antes de procedimentos dentários com manipulação gengival ou periapical. O alvo são os estreptococos da boca, cobertos pela amoxicilina em dose única. A diretriz brasileira também admite profilaxia na valvopatia reumática nativa, ponto em que diverge das internacionais.',
     x: { A: 'Qualquer prótese valvar, inclusive biológica e transcateter, define alto risco.', C: 'A profilaxia é feita em dose única antes do procedimento, não como tratamento prolongado depois.', D: 'Esquema intravenoso de amplo espectro não é necessário para procedimento dentário em paciente sem alergia.' },
@@ -189,7 +189,7 @@ export const VALVAS_2: QuestaoCompacta[] = [
   {
     s: 'Febre reumática – critérios de Jones',
     e: 'Segundo os critérios de Jones, todas as manifestações abaixo são critérios MAIORES de febre reumática aguda, EXCETO:',
-    o: ['Coreia de Sydenham', 'Eritema marginado', 'Prolongamento do intervalo PR', 'Nódulos subcutâneos'],
+    o: ['Coreia de Sydenham, com movimentos involuntários', 'Eritema marginado, em tronco e raiz dos membros', 'Prolongamento do intervalo PR ao eletrocardiograma', 'Nódulos subcutâneos nas superfícies extensoras'],
     g: 'C',
     c: 'Os critérios maiores são cardite, artrite, coreia, eritema marginado e nódulos subcutâneos. Febre, artralgia, elevação de provas inflamatórias e prolongamento do intervalo PR são critérios menores. O diagnóstico do primeiro surto exige dois maiores, ou um maior e dois menores, com evidência de infecção estreptocócica prévia. Na revisão de 2015, em populações de risco moderado a alto, a monoartrite e a poliartralgia passaram a contar como maiores.',
     x: { A: 'A coreia é critério maior e, por ser tardia, pode sozinha sustentar o diagnóstico.', B: 'O eritema marginado é critério maior, embora raro.', D: 'Os nódulos subcutâneos são critério maior e associam-se a cardite.' },

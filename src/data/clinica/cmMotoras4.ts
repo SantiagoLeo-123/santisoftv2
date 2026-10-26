@@ -13,7 +13,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Parkinson: patologia',
     e: 'O substrato anatomopatológico da doença de Parkinson é:',
-    o: ['Atrofia do núcleo caudado com perda de neurônios gabaérgicos', 'Degeneração de neurônios dopaminérgicos da substância negra com corpos de Lewy contendo alfa-sinucleína', 'Placas desmielinizantes periventriculares', 'Emaranhados neurofibrilares de proteína tau restritos ao hipocampo'],
+    o: ['Atrofia do núcleo caudado com perda de neurônios gabaérgicos', 'Perda de neurônios dopaminérgicos da substância negra, com corpos de Lewy', 'Placas desmielinizantes periventriculares com bandas oligoclonais', 'Emaranhados neurofibrilares de proteína tau restritos ao hipocampo'],
     g: 'B',
     c: 'Há perda dos neurônios pigmentados da parte compacta da substância negra, e os neurônios remanescentes exibem inclusões citoplasmáticas eosinofílicas, os corpos de Lewy, formados por agregados de alfa-sinucleína. Os sintomas motores surgem quando boa parte desses neurônios já se perdeu.',
     x: { A: 'A atrofia do caudado é a lesão característica da doença de Huntington.', C: 'Placas desmielinizantes periventriculares caracterizam a esclerose múltipla.', D: 'Emaranhados de tau no hipocampo são achado da doença de Alzheimer.' },
@@ -21,7 +21,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Parkinson: sintomas não motores',
     e: 'Entre os sintomas não motores que podem preceder em anos as manifestações motoras da doença de Parkinson, destacam-se:',
-    o: ['Alucinações visuais e demência grave', 'Hiposmia, constipação, depressão e transtorno comportamental do sono REM', 'Incontinência urinária e quedas precoces', 'Afasia e apraxia de membros'],
+    o: ['Alucinações visuais e demência grave com flutuação', 'Hiposmia, constipação, depressão e transtorno comportamental do sono REM', 'Incontinência urinária, hipotensão ortostática e quedas precoces', 'Afasia, apraxia de membros e fenômeno da mão alienígena'],
     g: 'B',
     c: 'A patologia por alfa-sinucleína começa em estruturas como o bulbo olfatório, o plexo entérico e o tronco encefálico baixo, antes de alcançar a substância negra. Por isso hiposmia, constipação, depressão e o transtorno comportamental do sono REM, em que o paciente encena os sonhos, compõem a fase prodrômica.',
     x: { A: 'Demência e alucinações precoces sugerem demência com corpos de Lewy, não a fase prodrômica.', C: 'Quedas e disautonomia grave precoces são sinais de alerta para parkinsonismo atípico.', D: 'Afasia e apraxia apontam para síndromes corticais, como a degeneração corticobasal.' },
@@ -29,7 +29,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Parkinson: diagnóstico',
     e: 'Sobre o diagnóstico da doença de Parkinson, é correto afirmar que:',
-    o: ['Exige ressonância magnética de encéfalo com alterações específicas', 'É clínico, baseado em bradicinesia com tremor de repouso ou rigidez, reforçado pela resposta à levodopa', 'Depende da dosagem de dopamina no líquor', 'Só pode ser firmado após o surgimento de instabilidade postural'],
+    o: ['Exige ressonância magnética de encéfalo com alterações específicas', 'É clínico, com bradicinesia e tremor ou rigidez, e resposta à levodopa', 'Depende da dosagem de dopamina no líquor cefalorraquidiano', 'Só pode ser firmado após o surgimento de instabilidade postural'],
     g: 'B',
     c: 'Não existe exame confirmatório de rotina: o diagnóstico se apoia na síndrome parkinsoniana, na ausência de sinais de alerta para outras causas e em critérios de suporte, como resposta clara e sustentada à levodopa. A neuroimagem serve para excluir causas secundárias quando o quadro é atípico.',
     x: { A: 'A ressonância convencional costuma ser normal e não confirma a doença.', C: 'A dosagem de dopamina no líquor não é utilizada na prática clínica.', D: 'A instabilidade postural é tardia; quando precoce, sugere parkinsonismo atípico.' },
@@ -37,7 +37,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Parkinson: levodopa',
     e: 'A levodopa é sempre administrada em associação com carbidopa ou benserazida. A finalidade dessa associação é:',
-    o: ['Inibir a monoaminoxidase B no sistema nervoso central', 'Inibir a descarboxilase periférica, aumentando a oferta de levodopa ao cérebro e reduzindo náuseas e hipotensão', 'Bloquear receptores dopaminérgicos D2 na área postrema', 'Inibir a recaptação de dopamina na fenda sináptica'],
+    o: ['Inibir a monoaminoxidase B no sistema nervoso central e periférico', 'Inibir a descarboxilase periférica: mais levodopa no cérebro, menos náuseas', 'Bloquear receptores dopaminérgicos D2 na área postrema bulbar', 'Inibir a recaptação de dopamina na fenda sináptica estriatal'],
     g: 'B',
     c: 'A levodopa atravessa a barreira hematoencefálica, mas é convertida em dopamina já na periferia pela descarboxilase dos aminoácidos aromáticos. Carbidopa e benserazida inibem essa enzima sem penetrar no sistema nervoso central, o que permite doses menores e reduz náuseas, vômitos e hipotensão. É o fármaco mais eficaz para os sintomas motores.',
     x: { A: 'Os inibidores da monoaminoxidase B são a selegilina e a rasagilina.', C: 'O bloqueio D2 periférico é o mecanismo da domperidona, usada contra a náusea.', D: 'Carbidopa e benserazida não atuam na recaptação sináptica de dopamina.' },
@@ -45,7 +45,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Parkinson: complicações motoras',
     e: 'Mulher de 62 anos, com doença de Parkinson há 8 anos em uso de levodopa, relata que o efeito de cada dose dura apenas 2 horas e meia, com retorno da lentidão e do tremor antes da dose seguinte. Esse fenômeno é chamado de:',
-    o: ['Discinesia de pico de dose', 'Deterioração de fim de dose (wearing-off)', 'Síndrome de desregulação dopaminérgica', 'Acatisia tardia'],
+    o: ['Discinesia de pico de dose da levodopa', 'Deterioração de fim de dose (wearing-off)', 'Síndrome de desregulação dopaminérgica', 'Acatisia tardia por antagonistas dopaminérgicos'],
     g: 'B',
     c: 'Com a progressão da doença, perde-se a capacidade dos terminais dopaminérgicos de armazenar dopamina e liberá-la de modo contínuo, e a resposta passa a acompanhar a meia-vida curta da levodopa. O manejo inclui fracionar as doses e associar inibidor da COMT, inibidor da MAO-B ou agonista dopaminérgico.',
     x: { A: 'A discinesia de pico são movimentos involuntários coreicos no momento de maior efeito da dose.', C: 'A desregulação dopaminérgica é o uso compulsivo e excessivo da medicação.', D: 'A acatisia tardia é efeito do uso crônico de bloqueadores dopaminérgicos.' },
@@ -61,7 +61,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Parkinson: agonistas dopaminérgicos',
     e: 'Homem de 52 anos, em uso de pramipexol para doença de Parkinson, passou a fazer apostas online de forma descontrolada e a realizar compras excessivas, comportamento inédito segundo a família. A conduta é:',
-    o: ['Associar antidepressivo tricíclico', 'Reduzir ou suspender gradualmente o agonista dopaminérgico', 'Aumentar a dose do pramipexol', 'Encaminhar para estimulação cerebral profunda imediata'],
+    o: ['Associar antidepressivo tricíclico em dose baixa', 'Reduzir ou suspender gradualmente o agonista dopaminérgico', 'Aumentar a dose do pramipexol para controle motor', 'Encaminhar para estimulação cerebral profunda imediata'],
     g: 'B',
     c: 'Os agonistas dopaminérgicos estimulam receptores D3 do circuito mesolímbico de recompensa e podem causar transtornos do controle de impulsos, como jogo patológico, compras compulsivas, hipersexualidade e compulsão alimentar. O paciente e a família devem ser alertados antes do início, e o tratamento é a redução ou a retirada gradual do fármaco.',
     x: { A: 'O antidepressivo não corrige o efeito adverso, que depende do estímulo dopaminérgico.', C: 'Aumentar a dose agravaria o transtorno do controle de impulsos.', D: 'A cirurgia não é o manejo de um efeito adverso medicamentoso reversível.' },
@@ -69,7 +69,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Parkinson: MAO-B e COMT',
     e: 'Sobre os fármacos adjuvantes no tratamento da doença de Parkinson, é correto afirmar que:',
-    o: ['Selegilina e rasagilina são inibidores da COMT', 'Entacapona inibe a COMT periférica e prolonga o efeito de cada dose de levodopa', 'Entacapona é eficaz em monoterapia, sem levodopa', 'Biperideno é a primeira escolha em idosos com declínio cognitivo'],
+    o: ['Selegilina e rasagilina são inibidores da COMT, sem ação na MAO', 'Entacapona inibe a COMT periférica e prolonga o efeito da levodopa', 'Entacapona é eficaz em monoterapia, sem levodopa associada', 'Biperideno é a primeira escolha em idosos com declínio cognitivo'],
     g: 'B',
     c: 'Quando a descarboxilase está inibida, a COMT torna-se a principal via de degradação periférica da levodopa. A entacapona bloqueia essa via, aumenta a meia-vida da levodopa e reduz o tempo em off, mas só tem efeito se administrada junto com ela. Selegilina e rasagilina inibem a MAO-B, reduzindo a degradação central da dopamina.',
     x: { A: 'Selegilina e rasagilina são inibidores da monoaminoxidase B, não da COMT.', C: 'Sem levodopa a entacapona não tem ação antiparkinsoniana.', D: 'Anticolinérgicos causam confusão mental e devem ser evitados em idosos.' },
@@ -85,7 +85,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Parkinson: estimulação cerebral profunda',
     e: 'O paciente com doença de Parkinson que mais se beneficia da estimulação cerebral profunda do núcleo subtalâmico ou do globo pálido interno é aquele com:',
-    o: ['Diagnóstico recente e ainda sem tratamento medicamentoso', 'Boa resposta à levodopa, mas com flutuações motoras e discinesias incapacitantes apesar de tratamento otimizado', 'Demência avançada e alucinações', 'Parkinsonismo atípico sem resposta à levodopa'],
+    o: ['Diagnóstico recente, ainda sem tratamento medicamentoso e com tremor leve', 'Boa resposta à levodopa, com flutuações e discinesias apesar do tratamento', 'Demência avançada, alucinações e instabilidade postural', 'Parkinsonismo atípico sem resposta à levodopa em dose plena'],
     g: 'B',
     c: 'A estimulação de alta frequência modula a atividade anormal do circuito dos núcleos da base e reproduz o melhor efeito da levodopa de forma contínua, reduzindo o tempo em off e as discinesias. O melhor preditor de benefício é a resposta à levodopa; demência e doença psiquiátrica não controlada contraindicam o procedimento.',
     x: { A: 'No início da doença o tratamento medicamentoso controla bem os sintomas.', C: 'O declínio cognitivo importante contraindica a cirurgia e pode piorar com ela.', D: 'Sem resposta à levodopa não se espera benefício da estimulação.' },
@@ -101,7 +101,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Paralisia supranuclear progressiva',
     e: 'Homem de 67 anos apresenta, há 1 ano e meio, quedas frequentes para trás, rigidez predominante no pescoço e no tronco, fala arrastada e dificuldade para olhar para baixo ao descer escadas. Não houve melhora com levodopa. O diagnóstico mais provável é:',
-    o: ['Doença de Parkinson', 'Paralisia supranuclear progressiva', 'Atrofia de múltiplos sistemas', 'Degeneração corticobasal'],
+    o: ['Doença de Parkinson idiopática', 'Paralisia supranuclear progressiva', 'Atrofia de múltiplos sistemas (tipo parkinsoniano)', 'Degeneração corticobasal assimétrica'],
     g: 'B',
     c: 'A paralisia supranuclear progressiva é uma taupatia que degenera o mesencéfalo e outras estruturas do tronco e dos núcleos da base. Caracteriza-se por instabilidade postural com quedas precoces, parkinsonismo axial e simétrico e paralisia do olhar vertical, sobretudo para baixo, com resposta pobre à levodopa. A ressonância pode mostrar atrofia do mesencéfalo.',
     x: { A: 'Na doença de Parkinson as quedas são tardias, o início é assimétrico e há resposta à levodopa.', C: 'Na atrofia de múltiplos sistemas dominam disautonomia grave e sinais cerebelares.', D: 'A degeneração corticobasal é muito assimétrica, com apraxia e membro alienígena.' },
@@ -125,7 +125,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Tremor essencial',
     e: 'Mulher de 45 anos apresenta, há vários anos, tremor bilateral das mãos ao segurar a xícara e ao escrever, além de tremor da cabeça. O tremor melhora após pequena ingestão de álcool. O pai tinha quadro semelhante. Não há bradicinesia nem rigidez. O diagnóstico e o tratamento de primeira linha são:',
-    o: ['Doença de Parkinson; levodopa', 'Tremor essencial; propranolol ou primidona', 'Tremor cerebelar; clonazepam', 'Hipertireoidismo; metimazol'],
+    o: ['Doença de Parkinson; levodopa com carbidopa', 'Tremor essencial; propranolol ou primidona', 'Tremor cerebelar; clonazepam em dose baixa', 'Hipertireoidismo; metimazol em dose de ataque'],
     g: 'B',
     c: 'O tremor essencial é o distúrbio de movimento mais comum: tremor postural e cinético bilateral dos membros superiores, podendo envolver cabeça e voz, com história familiar frequente e melhora com álcool. A ausência de outros sinais neurológicos o distingue do parkinsonismo. Propranolol e primidona são os fármacos de primeira linha.',
     x: { A: 'Na doença de Parkinson o tremor é de repouso, assimétrico e acompanha bradicinesia.', C: 'O tremor cerebelar é de intenção, com dismetria e outros sinais cerebelares.', D: 'O hipertireoidismo causa tremor fino com sintomas sistêmicos, sem história familiar de longa data.' },
@@ -133,7 +133,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Doença de Huntington',
     e: 'Homem de 40 anos apresenta, há 2 anos, irritabilidade, depressão e declínio do desempenho no trabalho, seguidos de movimentos involuntários rápidos, irregulares e imprevisíveis em face e membros. O pai morreu aos 55 anos com quadro semelhante. A base genética e o achado de imagem esperado são:',
-    o: ['Herança ligada ao X; atrofia cerebelar', 'Herança autossômica dominante com expansão de CAG; atrofia do núcleo caudado', 'Herança autossômica recessiva com acúmulo de cobre; lesão do putâmen', 'Herança mitocondrial; calcificação dos núcleos da base'],
+    o: ['Herança ligada ao X recessiva; atrofia cerebelar difusa', 'Autossômica dominante com expansão de CAG; atrofia do caudado', 'Herança autossômica recessiva com acúmulo de cobre; lesão do putâmen', 'Herança mitocondrial; calcificação dos núcleos da base'],
     g: 'B',
     c: 'A doença de Huntington resulta da expansão de repetições CAG no gene da huntingtina, com penetrância completa e antecipação, mais marcada na transmissão paterna. A degeneração dos neurônios gabaérgicos do estriado, sobretudo do caudado, desinibe o tálamo e gera coreia, acompanhada de alterações psiquiátricas e demência.',
     x: { A: 'A herança não é ligada ao X e a atrofia predominante é estriatal, não cerebelar.', C: 'Herança recessiva com acúmulo de cobre corresponde à doença de Wilson.', D: 'Não há herança mitocondrial, e calcificações dos núcleos da base indicam outras doenças.' },
@@ -141,7 +141,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Huntington: tratamento da coreia',
     e: 'Para o controle sintomático da coreia na doença de Huntington, uma opção farmacológica adequada é:',
-    o: ['Levodopa', 'Tetrabenazina ou antipsicótico', 'Pramipexol', 'Riluzol'],
+    o: ['Levodopa associada a carbidopa', 'Tetrabenazina ou antipsicótico', 'Pramipexol, agonista dopaminérgico', 'Riluzol, antiglutamatérgico'],
     g: 'B',
     c: 'A coreia reflete um estado de hiperatividade dopaminérgica relativa no estriado. A tetrabenazina depleta dopamina pré-sináptica ao inibir o transportador vesicular de monoaminas, e os antipsicóticos bloqueiam os receptores, reduzindo os movimentos. Não há tratamento que modifique a evolução da doença.',
     x: { A: 'A levodopa aumenta a oferta de dopamina e agrava os movimentos coreicos.', C: 'Agonistas dopaminérgicos também pioram a coreia.', D: 'O riluzol é usado na esclerose lateral amiotrófica, sem benefício estabelecido na coreia.' },
@@ -181,7 +181,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Esclerose múltipla: quadro clínico',
     e: 'Mulher de 29 anos apresenta dor à movimentação do olho esquerdo e baixa de acuidade visual há 5 dias. Há um ano teve formigamento em hemicorpo direito por 3 semanas, com resolução espontânea. Refere sensação de choque descendo pela coluna ao fletir o pescoço. A ressonância mostra lesões ovaladas periventriculares perpendiculares aos ventrículos. O diagnóstico é:',
-    o: ['Neuropatia óptica isquêmica', 'Esclerose múltipla remitente-recorrente', 'Esclerose lateral amiotrófica', 'Enxaqueca com aura'],
+    o: ['Neuropatia óptica isquêmica anterior arterítica', 'Esclerose múltipla remitente-recorrente', 'Esclerose lateral amiotrófica de início bulbar', 'Enxaqueca com aura visual prolongada'],
     g: 'B',
     c: 'A esclerose múltipla é uma doença inflamatória desmielinizante autoimune do sistema nervoso central, mais comum em mulheres jovens. O diagnóstico exige disseminação no espaço e no tempo: aqui há dois surtos em topografias distintas (neurite óptica e síndrome sensitiva), além de sinal de Lhermitte e lesões periventriculares típicas, os dedos de Dawson.',
     x: { A: 'A neuropatia isquêmica ocorre em idosos, é indolor e não explica o surto sensitivo prévio.', C: 'A esclerose lateral amiotrófica é puramente motora, sem sintomas visuais ou sensitivos.', D: 'A aura dura minutos a uma hora, e não dias ou semanas.' },
@@ -197,7 +197,7 @@ export const MOTORAS_4: QuestaoCompacta[] = [
   {
     s: 'Esclerose múltipla: tratamento do surto',
     e: 'Mulher de 33 anos, com esclerose múltipla remitente-recorrente, apresenta há 4 dias paraparesia e urgência urinária novas, sem febre e com exame de urina normal. O tratamento do surto é:',
-    o: ['Betainterferona em dose dobrada', 'Metilprednisolona intravenosa em altas doses por 3 a 5 dias', 'Imunoglobulina intravenosa como primeira escolha', 'Antibioticoterapia empírica e observação'],
+    o: ['Betainterferona em dose dobrada, por via subcutânea', 'Metilprednisolona intravenosa em altas doses por 3 a 5 dias', 'Imunoglobulina intravenosa como primeira escolha no surto', 'Antibioticoterapia empírica e observação por 72 horas'],
     g: 'B',
     c: 'O surto é um déficit neurológico novo com duração superior a 24 horas, na ausência de febre ou infecção, que podem causar pseudossurto. A pulsoterapia com metilprednisolona reduz a inflamação e o edema e acelera a recuperação, sem alterar o prognóstico em longo prazo; nos casos graves e refratários indica-se plasmaférese. A prevenção de novos surtos cabe às drogas modificadoras da doença.',
     x: { A: 'As drogas modificadoras previnem surtos, mas não tratam o episódio agudo.', C: 'A imunoglobulina não é o tratamento padrão do surto de esclerose múltipla.', D: 'Não há evidência de infecção, e postergar o corticoide retarda a recuperação.' },

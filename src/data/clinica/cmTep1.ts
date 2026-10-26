@@ -13,7 +13,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Fatores de risco',
     e: 'Entre as situações abaixo, a que representa fator de risco forte (maior) para tromboembolismo venoso é:',
-    o: ['Viagem aérea de 5 horas', 'Artroplastia total de joelho realizada há 2 semanas', 'Veias varicosas em membros inferiores', 'Obesidade grau I'],
+    o: ['Viagem aérea de 5 horas em poltrona estreita, sem pausas', 'Artroplastia total de joelho realizada há 2 semanas', 'Veias varicosas em membros inferiores, sem trombose prévia', 'Obesidade grau I, com IMC entre 30 e 34,9 kg/m²'],
     g: 'B',
     c: 'As cirurgias ortopédicas maiores, como a artroplastia de quadril ou de joelho, estão entre os fatores de risco mais fortes, ao lado de fratura de membro inferior, trauma maior, lesão medular e tromboembolismo venoso prévio. Elas combinam lesão endotelial direta, imobilização prolongada e ativação da coagulação pelo trauma cirúrgico.',
     x: { A: 'Viagens prolongadas são fator de risco fraco, com aumento pequeno do risco absoluto.', C: 'Varizes são consideradas fator de risco fraco para tromboembolismo venoso.', D: 'A obesidade é fator de risco fraco, com efeito aditivo a outros fatores.' },
@@ -37,7 +37,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome antifosfolípide',
     e: 'Mulher de 31 anos, com dois abortos espontâneos prévios, apresenta trombose venosa profunda de membro inferior sem fator desencadeante. Antes de iniciar a heparina, o coagulograma mostra tempo de tromboplastina parcial ativada prolongado, que não corrige com a mistura com plasma normal. A principal hipótese é:',
-    o: ['Hemofilia A adquirida', 'Síndrome do anticorpo antifosfolípide', 'Deficiência de fator XII', 'Doença de von Willebrand'],
+    o: ['Hemofilia A adquirida por autoanticorpos', 'Síndrome do anticorpo antifosfolípide', 'Deficiência de fator XII de coagulação', 'Doença de von Willebrand de tipo 2B'],
     g: 'B',
     c: 'A síndrome antifosfolípide associa tromboses venosas ou arteriais e morbidade gestacional à presença persistente de anticoagulante lúpico, anticardiolipina ou anti-beta-2-glicoproteína I. O anticoagulante lúpico prolonga o tempo de tromboplastina parcial in vitro por interferir nos fosfolípides do reagente, sem correção na mistura, embora in vivo cause trombose.',
     x: { A: 'O inibidor adquirido do fator VIII também não corrige na mistura, mas causa sangramento, não trombose e abortos.', C: 'A deficiência de fator XII prolonga o tempo de tromboplastina parcial, mas corrige na mistura com plasma normal.', D: 'A doença de von Willebrand causa sangramento mucocutâneo e não explica trombose nem perdas gestacionais.' },
@@ -45,7 +45,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Origem dos êmbolos',
     e: 'Na grande maioria dos casos de tromboembolia pulmonar, o êmbolo tem origem em:',
-    o: ['Veias superficiais dos membros inferiores', 'Veias profundas proximais dos membros inferiores (ilíacas, femorais e poplíteas)', 'Átrio direito de pacientes com fibrilação atrial', 'Veias profundas dos membros superiores'],
+    o: ['Veias superficiais dos membros inferiores, como a safena magna', 'Veias profundas proximais dos membros inferiores (ilíaca a poplítea)', 'Átrio direito de pacientes com fibrilação atrial e cardiopatia', 'Veias profundas dos membros superiores, em cateteres centrais'],
     g: 'B',
     c: 'A maior parte dos êmbolos pulmonares clinicamente relevantes provém de trombos do sistema venoso profundo proximal dos membros inferiores. Os trombos restritos às veias da panturrilha embolizam pouco, mas podem se estender proximalmente, quando passam a ter alto potencial emboligênico.',
     x: { A: 'A tromboflebite superficial raramente emboliza, a menos que se estenda ao sistema profundo.', C: 'Trombos de cavidades direitas são causa incomum de embolia pulmonar.', D: 'A trombose de membros superiores, geralmente ligada a cateteres, responde por uma minoria dos casos.' },
@@ -85,7 +85,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Eletrocardiograma',
     e: 'O padrão eletrocardiográfico S1Q3T3 (onda S em D1, onda Q em D3 e onda T invertida em D3) em paciente com dispneia aguda indica:',
-    o: ['Infarto de parede inferior associado', 'Sobrecarga aguda do ventrículo direito, achado pouco sensível e não patognomônico de embolia', 'Achado presente na maioria das embolias pulmonares, útil para excluir o diagnóstico quando ausente', 'Sobrecarga atrial esquerda por hipertensão venocapilar'],
+    o: ['Infarto de parede inferior associado, por oclusão coronariana', 'Sobrecarga aguda do VD, achado pouco sensível e não patognomônico', 'Achado presente na maioria das embolias e útil para excluir o diagnóstico', 'Sobrecarga atrial esquerda por hipertensão venocapilar pulmonar'],
     g: 'B',
     c: 'O padrão S1Q3T3 traduz cor pulmonale agudo, com dilatação e sobrecarga pressórica do ventrículo direito. É pouco sensível e pode aparecer em outras causas de sobrecarga direita aguda, como broncoespasmo grave e pneumotórax, de modo que sua ausência não afasta embolia.',
     x: { A: 'A onda Q em D3 isolada não caracteriza infarto inferior, que exige alterações em D2, D3 e aVF.', C: 'O achado é infrequente; sua ausência não tem valor para excluir embolia.', D: 'O padrão reflete as câmaras direitas, não o átrio esquerdo.' },
@@ -117,7 +117,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Infarto pulmonar',
     e: 'O infarto pulmonar ocorre em uma minoria dos pacientes com embolia pulmonar. A explicação para essa baixa frequência é:',
-    o: ['A rápida fibrinólise endógena, que dissolve os êmbolos em minutos', 'A dupla circulação pulmonar, com suprimento pelas artérias brônquicas, somada à oxigenação pelas vias aéreas', 'A baixa demanda metabólica do parênquima pulmonar, que dispensa oxigênio', 'A circulação colateral a partir das veias pulmonares do lado oposto'],
+    o: ['A rápida fibrinólise endógena, que dissolve os êmbolos em minutos', 'Dupla circulação pulmonar: suprimento brônquico e oxigenação pelas vias aéreas', 'A baixa demanda metabólica do parênquima pulmonar, que dispensa oxigênio', 'A circulação colateral a partir das veias pulmonares do lado oposto'],
     g: 'B',
     c: 'O parênquima pulmonar recebe oxigênio por três vias: artérias pulmonares, artérias brônquicas (circulação sistêmica) e diretamente pelo ar alveolar. Por isso a oclusão de um ramo pulmonar raramente causa necrose; o infarto surge principalmente em êmbolos periféricos e em pacientes com insuficiência cardíaca ou doença pulmonar, nos quais a circulação brônquica está comprometida.',
     x: { A: 'A fibrinólise endógena leva dias a semanas para resolver os trombos.', C: 'O tecido pulmonar necessita de oxigênio, que é garantido pelas fontes alternativas.', D: 'Não há circulação colateral relevante a partir das veias pulmonares contralaterais.' },
@@ -133,7 +133,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Quadro clínico',
     e: 'Homem de 67 anos, operado de câncer de cólon há 10 dias, sofre síncope ao levantar-se do leito. Recupera a consciência dispneico, com pressão arterial de 84 x 50 mmHg, frequência cardíaca de 124 bpm, turgência jugular e pulmões limpos. Nesse contexto, a síncope indica:',
-    o: ['Reflexo vasovagal desencadeado pela dor', 'Embolia de grande carga trombótica, com queda abrupta do débito cardíaco', 'Hipoxemia cerebral por infarto pulmonar periférico', 'Arritmia ventricular por distúrbio eletrolítico'],
+    o: ['Reflexo vasovagal desencadeado pela dor do pós-operatório', 'Embolia de grande carga, com queda abrupta do débito cardíaco', 'Hipoxemia cerebral por infarto pulmonar periférico extenso', 'Arritmia ventricular por distúrbio eletrolítico no pós-operatório'],
     g: 'B',
     c: 'A síncope na embolia pulmonar decorre de obstrução extensa do leito arterial pulmonar, com falência aguda do ventrículo direito e redução súbita do enchimento do ventrículo esquerdo. A combinação de hipotensão, turgência jugular e ausculta pulmonar limpa caracteriza choque obstrutivo.',
     x: { A: 'O reflexo vasovagal cursa com bradicardia e recuperação rápida, sem turgência jugular.', C: 'Êmbolos periféricos causam dor pleurítica e hemoptise, não síncope com choque.', D: 'Não há dado que sugira distúrbio eletrolítico, e o quadro hemodinâmico aponta obstrução.' },
@@ -141,7 +141,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Derrame pleural',
     e: 'O derrame pleural associado à tromboembolia pulmonar caracteriza-se habitualmente por ser:',
-    o: ['Transudato volumoso e bilateral', 'Exsudato pequeno, unilateral, muitas vezes sero-hemático', 'Empiema loculado', 'Quilotórax'],
+    o: ['Transudato volumoso e bilateral, com predomínio de linfócitos', 'Exsudato pequeno, unilateral, muitas vezes sero-hemático', 'Empiema loculado, com pH baixo e glicose consumida', 'Quilotórax, com triglicerídeos elevados no líquido'],
     g: 'B',
     c: 'O derrame da embolia pulmonar costuma ser pequeno, unilateral e exsudativo, resultante do aumento da permeabilidade capilar por isquemia e mediadores inflamatórios; pode ser hemorrágico quando há infarto. Sua presença não contraindica a anticoagulação.',
     x: { A: 'Transudato volumoso bilateral é típico de insuficiência cardíaca.', C: 'Empiema é complicação de infecção pleural, não de embolia.', D: 'Quilotórax decorre de lesão ou obstrução do ducto torácico.' },
@@ -149,7 +149,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Trombose venosa profunda',
     e: 'Em relação ao exame físico na suspeita de trombose venosa profunda de membro inferior, é correto afirmar que:',
-    o: ['O sinal de Homans positivo confirma o diagnóstico', 'O exame físico isolado tem baixa acurácia, e o edema assimétrico é o achado mais útil', 'A ausência de dor à palpação da panturrilha exclui trombose', 'O empastamento da panturrilha é patognomônico'],
+    o: ['O sinal de Homans positivo confirma o diagnóstico de trombose', 'O exame físico isolado tem baixa acurácia; o edema assimétrico é o mais útil', 'A ausência de dor à palpação da panturrilha exclui trombose', 'O empastamento da panturrilha é patognomônico de trombose'],
     g: 'B',
     c: 'Os sinais clínicos de trombose venosa profunda são pouco sensíveis e pouco específicos; muitos casos são assintomáticos. O edema unilateral, com diferença de circunferência entre as panturrilhas, é o dado de maior valor, mas a confirmação exige combinar probabilidade clínica, D-dímero e ultrassonografia.',
     x: { A: 'O sinal de Homans (dor à dorsiflexão do pé) tem baixa sensibilidade e especificidade.', C: 'Grande parte das tromboses é indolor; a ausência de dor não as afasta.', D: 'O empastamento ocorre também em ruptura muscular, cisto de Baker roto e celulite.' },
@@ -165,7 +165,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Escore de Wells para TVP',
     e: 'Mulher de 29 anos, sem comorbidades e sem uso de hormônios, queixa-se de dor na panturrilha direita após aula de corrida. Não há edema, diferença de circunferência nem imobilização recente, e a distensão muscular é considerada tão provável quanto trombose. O próximo passo é:',
-    o: ['Ultrassonografia com Doppler venoso imediata', 'Dosagem de D-dímero; se negativo, trombose venosa profunda excluída', 'Anticoagulação plena por 3 meses', 'Pesquisa de trombofilias hereditárias'],
+    o: ['Ultrassonografia com Doppler venoso imediata do membro afetado', 'Dosagem de D-dímero; se negativo, trombose venosa profunda excluída', 'Anticoagulação plena por 3 meses sem exames confirmatórios', 'Pesquisa de trombofilias hereditárias antes de qualquer conduta'],
     g: 'B',
     c: 'Com escore de Wells baixo (trombose improvável), um D-dímero de alta sensibilidade negativo exclui trombose venosa profunda com segurança, dispensando imagem. Se o D-dímero for positivo, indica-se então a ultrassonografia.',
     x: { A: 'A imagem como primeiro exame é reservada à probabilidade clínica elevada ou ao D-dímero positivo.', C: 'Não se anticoagula sem confirmação quando a probabilidade clínica é baixa.', D: 'A pesquisa de trombofilia não tem papel no diagnóstico do episódio agudo.' },
@@ -197,7 +197,7 @@ export const TEP_1: QuestaoCompacta[] = [
   {
     s: 'Embolia paradoxal',
     e: 'Mulher de 38 anos, no 3º dia após cesariana, apresenta dispneia súbita e, minutos depois, hemiparesia direita com afasia. O Doppler mostra trombose da veia femoral esquerda e a tomografia de crânio confirma infarto cerebral. O ritmo é sinusal. O mecanismo que melhor explica o evento neurológico é:',
-    o: ['Vasoespasmo cerebral secundário à hipoxemia', 'Embolia paradoxal por forame oval patente, favorecida pelo aumento da pressão no átrio direito', 'Trombose in situ da artéria cerebral média por trombofilia', 'Embolia a partir de trombo no átrio esquerdo'],
+    o: ['Vasoespasmo cerebral secundário à hipoxemia e à hipocapnia', 'Embolia paradoxal por forame oval patente, com aumento da pressão no AD', 'Trombose in situ da artéria cerebral média por trombofilia', 'Embolia a partir de trombo no átrio esquerdo com fibrilação atrial'],
     g: 'B',
     c: 'O forame oval patente está presente em cerca de um quarto dos adultos. Na embolia pulmonar, a elevação aguda da pressão no átrio direito inverte o gradiente interatrial e permite a passagem de trombos venosos para a circulação sistêmica, causando acidente vascular cerebral ou oclusão arterial periférica.',
     x: { A: 'A hipoxemia não provoca infarto em território arterial definido.', C: 'A simultaneidade com trombose venosa e embolia pulmonar aponta para origem embólica.', D: 'Trombo atrial esquerdo é esperado na fibrilação atrial ou na estenose mitral, ausentes no caso.' },

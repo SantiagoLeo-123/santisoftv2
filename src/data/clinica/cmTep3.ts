@@ -5,7 +5,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Estratificação de risco',
     e: 'O critério que define a tromboembolia pulmonar de alto risco (maciça) é:',
-    o: ['Trombo em sela na bifurcação do tronco pulmonar à tomografia', 'Instabilidade hemodinâmica: parada cardíaca, choque obstrutivo ou hipotensão persistente', 'Troponina elevada associada a dilatação do ventrículo direito', 'Saturação de oxigênio abaixo de 90% em ar ambiente'],
+    o: ['Trombo em sela na bifurcação do tronco pulmonar à angiotomografia', 'Instabilidade hemodinâmica: parada, choque obstrutivo ou hipotensão persistente', 'Troponina elevada associada a dilatação do ventrículo direito ao eco', 'Saturação de oxigênio abaixo de 90% em ar ambiente, com taquipneia'],
     g: 'B',
     c: 'A embolia de alto risco é definida clinicamente pela instabilidade hemodinâmica: parada cardíaca, choque obstrutivo ou pressão sistólica abaixo de 90 mmHg (ou queda de 40 mmHg ou mais) por mais de 15 minutos, não explicada por arritmia, hipovolemia ou sepse. A classificação depende da repercussão hemodinâmica, e não do tamanho ou da localização do trombo.',
     x: { A: 'A carga trombótica anatômica, mesmo com trombo em sela, não define alto risco em paciente estável.', C: 'Troponina elevada com disfunção de ventrículo direito em paciente estável define risco intermediário-alto.', D: 'A hipoxemia é item do escore PESI simplificado, mas não define alto risco.' },
@@ -21,7 +21,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Risco intermediário-alto',
     e: 'Mulher de 63 anos tem embolia pulmonar bilateral confirmada. Pressão arterial de 124 x 78 mmHg, frequência cardíaca de 114 bpm, saturação de 91%. O ecocardiograma mostra ventrículo direito dilatado e hipocinético, e a troponina está elevada. A conduta inicial recomendada é:',
-    o: ['Trombólise sistêmica em dose plena de rotina', 'Anticoagulação parenteral e monitorização, reservando a reperfusão para o caso de deterioração hemodinâmica', 'Alta com anticoagulante oral direto', 'Embolectomia cirúrgica imediata'],
+    o: ['Trombólise sistêmica em dose plena de rotina, para todos os casos', 'Anticoagulação parenteral e monitorização, com reperfusão se piorar', 'Alta com anticoagulante oral direto e retorno ambulatorial', 'Embolectomia cirúrgica imediata, por risco de choque tardio'],
     g: 'B',
     c: 'A paciente é normotensa, com disfunção de ventrículo direito e troponina elevada: risco intermediário-alto. A trombólise de rotina nesse grupo reduziu a descompensação hemodinâmica, mas aumentou sangramento maior e acidente vascular cerebral hemorrágico, sem benefício líquido em mortalidade. Por isso indica-se anticoagulação com vigilância próxima e reperfusão de resgate se houver instabilidade.',
     x: { A: 'A trombólise sistemática em normotensos aumenta sangramentos graves sem reduzir a mortalidade.', C: 'O tratamento ambulatorial é reservado ao baixo risco.', D: 'A embolectomia é reservada a pacientes instáveis com contraindicação ou falha da trombólise.' },
@@ -61,7 +61,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento ambulatorial',
     e: 'Constituem impedimentos ao tratamento domiciliar da embolia pulmonar aguda todos os itens abaixo, EXCETO:',
-    o: ['Necessidade de oxigênio suplementar para manter saturação acima de 90%', 'Dor intensa com necessidade de analgesia venosa', 'Depuração de creatinina abaixo de 30 mL/min', 'Embolia provocada por cirurgia ortopédica recente, em paciente com PESI simplificado zero'],
+    o: ['Necessidade de oxigênio suplementar para manter saturação acima de 90%', 'Dor intensa com necessidade de analgesia venosa contínua', 'Depuração de creatinina abaixo de 30 mL/min, sem diálise', 'Embolia pós-cirurgia ortopédica, com PESI simplificado zero'],
     g: 'D',
     c: 'Os critérios de exclusão para tratamento ambulatorial, como os de Hestia, incluem instabilidade, necessidade de oxigênio ou de analgesia venosa, sangramento ativo ou alto risco de sangramento, insuficiência renal ou hepática grave, gestação e falta de suporte social. O fato de o evento ter sido provocado por cirurgia não impede a alta se o paciente for de baixo risco.',
     x: { A: 'A hipoxemia com necessidade de oxigênio exige internação.', B: 'A analgesia parenteral por dor intensa é critério para manter o paciente internado.', C: 'A insuficiência renal grave dificulta o uso seguro dos anticoagulantes e contraindica o manejo domiciliar.' },
@@ -69,7 +69,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Biomarcadores',
     e: 'A elevação da troponina em paciente com tromboembolia pulmonar aguda significa:',
-    o: ['Infarto do miocárdio concomitante por doença coronariana, com indicação de cateterismo', 'Lesão do miocárdio do ventrículo direito por sobrecarga, com valor prognóstico e não diagnóstico', 'Erro laboratorial, pois a embolia não eleva troponina', 'Indicação isolada de trombólise sistêmica'],
+    o: ['Infarto do miocárdio concomitante por doença coronariana, com indicação de cateterismo', 'Lesão miocárdica do VD por sobrecarga; tem valor prognóstico, não diagnóstico', 'Erro laboratorial, pois a embolia não eleva a troponina, que seria normal', 'Indicação isolada de trombólise sistêmica, mesmo com estabilidade'],
     g: 'B',
     c: 'A sobrecarga pressórica aguda aumenta a tensão da parede e o consumo de oxigênio do ventrículo direito, enquanto a queda do débito reduz sua perfusão coronariana, gerando isquemia e microinfartos. A troponina elevada associa-se a maior mortalidade precoce e é usada para estratificar risco, mas não serve para diagnosticar embolia.',
     x: { A: 'A elevação decorre da sobrecarga do ventrículo direito, não de obstrução coronariana.', C: 'A troponina eleva-se em parcela importante das embolias, sobretudo nas mais graves.', D: 'Em paciente estável, a troponina elevada isolada não indica fibrinólise.' },
@@ -77,7 +77,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Biomarcadores',
     e: 'Na embolia pulmonar aguda, a elevação do peptídeo natriurético tipo B (BNP ou NT-proBNP) reflete:',
-    o: ['Congestão pulmonar por falência do ventrículo esquerdo', 'Distensão da parede do ventrículo direito pela sobrecarga pressórica', 'Extensão do infarto pulmonar', 'Ativação da coagulação e da fibrinólise'],
+    o: ['Congestão pulmonar por falência aguda do ventrículo esquerdo', 'Distensão da parede do ventrículo direito pela sobrecarga pressórica', 'Extensão do infarto pulmonar e da hemorragia alveolar', 'Ativação da coagulação e da fibrinólise pelo trombo'],
     g: 'B',
     c: 'Os peptídeos natriuréticos são liberados pelos miócitos ventriculares em resposta ao estiramento da parede. Na embolia, valores elevados indicam sobrecarga do ventrículo direito e pior prognóstico, enquanto valores baixos têm alto valor preditivo negativo para evolução desfavorável.',
     x: { A: 'Na embolia o ventrículo esquerdo está pouco cheio; não há congestão pulmonar.', C: 'O infarto pulmonar não é a fonte do peptídeo natriurético.', D: 'A ativação da coagulação e da fibrinólise é refletida pelo D-dímero.' },
@@ -93,7 +93,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Heparina não fracionada',
     e: 'O mecanismo de ação da heparina não fracionada e o exame usado para ajustar sua dose terapêutica são, respectivamente:',
-    o: ['Inibição direta da trombina; tempo de protrombina', 'Potencialização da antitrombina, inibindo trombina e fator Xa; tempo de tromboplastina parcial ativada', 'Inibição da síntese de fatores dependentes de vitamina K; INR', 'Inibição direta e seletiva do fator Xa; contagem de plaquetas'],
+    o: ['Inibição direta da trombina livre; tempo de protrombina', 'Potencializa a antitrombina, inibindo trombina e Xa; controle pelo TTPa', 'Inibição da síntese de fatores dependentes de vitamina K; INR', 'Inibição direta e seletiva do fator Xa; contagem de plaquetas'],
     g: 'B',
     c: 'A heparina liga-se à antitrombina e acelera muito sua capacidade de inativar a trombina (fator IIa) e o fator Xa. A resposta é variável entre os pacientes, exigindo ajuste da infusão pelo tempo de tromboplastina parcial ativada, com alvo de 1,5 a 2,5 vezes o controle.',
     x: { A: 'A inibição direta da trombina é o mecanismo da dabigatrana e do argatroban.', C: 'Esse é o mecanismo da varfarina, monitorada pelo INR.', D: 'A inibição direta do fator Xa é o mecanismo de rivaroxabana, apixabana e edoxabana.' },
@@ -109,7 +109,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Fondaparinux',
     e: 'Sobre o fondaparinux, opção de anticoagulante parenteral na embolia pulmonar, é correto afirmar que:',
-    o: ['É um inibidor direto da trombina, de eliminação hepática', 'É um pentassacarídeo que inibe seletivamente o fator Xa via antitrombina, contraindicado na insuficiência renal grave', 'Tem seu efeito totalmente revertido pela protamina', 'Exige ajuste diário pelo tempo de tromboplastina parcial ativada'],
+    o: ['É um inibidor direto da trombina, de eliminação hepática exclusiva', 'Pentassacarídeo inibidor seletivo do fator Xa; contraindicado na IR grave', 'Tem seu efeito totalmente revertido pela protamina em dose habitual', 'Exige ajuste diário pelo tempo de tromboplastina parcial ativada'],
     g: 'B',
     c: 'O fondaparinux é um pentassacarídeo sintético que se liga à antitrombina e inibe apenas o fator Xa. É aplicado por via subcutânea uma vez ao dia, com dose por faixa de peso, sem monitorização, e praticamente não causa trombocitopenia induzida por heparina. Como é eliminado pelos rins, é contraindicado com depuração abaixo de 30 mL/min.',
     x: { A: 'Ele age de forma indireta sobre o fator Xa e tem eliminação renal.', C: 'A protamina não neutraliza o fondaparinux, que não possui antídoto específico.', D: 'O fármaco tem resposta previsível e dispensa monitorização laboratorial.' },
@@ -133,7 +133,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Varfarina',
     e: 'Homem de 60 anos, com embolia pulmonar, inicia enoxaparina e varfarina no mesmo dia. No 3º dia o INR é 2,3. A conduta correta quanto à enoxaparina é:',
-    o: ['Suspender, pois o INR já está na faixa terapêutica', 'Manter por pelo menos 5 dias e até o INR estar em 2 ou mais por dois dias consecutivos', 'Manter por 3 meses junto com a varfarina', 'Suspender e dobrar a dose da varfarina'],
+    o: ['Suspender, pois o INR já está na faixa terapêutica de 2 a 3', 'Manter por pelo menos 5 dias e até INR ≥ 2 por dois dias consecutivos', 'Manter por 3 meses junto com a varfarina em dose plena', 'Suspender e dobrar a dose da varfarina para acelerar o efeito'],
     g: 'B',
     c: 'A varfarina reduz primeiro os fatores de meia-vida curta: o fator VII, o que eleva o INR precocemente, e a proteína C, anticoagulante natural. A protrombina, de meia-vida longa, leva dias para cair. Assim, o INR inicial não reflete anticoagulação efetiva, e há até um estado pró-trombótico transitório, exigindo sobreposição com heparina por no mínimo 5 dias e até INR terapêutico mantido.',
     x: { A: 'O INR precoce reflete a queda do fator VII e não proteção antitrombótica plena.', C: 'A heparina é suspensa após a sobreposição adequada, não mantida por meses.', D: 'Dobrar a varfarina aumenta o risco de sangramento sem acelerar a queda da protrombina.' },
@@ -149,7 +149,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Trombólise',
     e: 'O esquema trombolítico padrão para a embolia pulmonar de alto risco e a janela em que ainda pode haver benefício são:',
-    o: ['Alteplase 15 mg em bolus; até 3 horas do início dos sintomas', 'Alteplase 100 mg em 2 horas; até 14 dias do início dos sintomas, com maior benefício nas primeiras 48 horas', 'Estreptoquinase 1.500.000 UI em 1 hora; até 12 horas do início dos sintomas', 'Tenecteplase em dose única; apenas nas primeiras 4,5 horas'],
+    o: ['Alteplase 15 mg em bolus; até 3 horas do início dos sintomas', 'Alteplase 100 mg em 2 horas; até 14 dias do início dos sintomas', 'Estreptoquinase 1.500.000 UI em 1 hora; até 12 horas do início dos sintomas', 'Tenecteplase em dose única; apenas nas primeiras 4,5 horas'],
     g: 'B',
     c: 'O esquema mais usado é a alteplase 100 mg em infusão de 2 horas. Diferentemente do infarto e do acidente vascular cerebral, a trombólise na embolia pode ser útil até 14 dias após o início dos sintomas, embora o benefício seja maior quando realizada nas primeiras 48 horas.',
     x: { A: 'Essa dose e essa janela não correspondem ao tratamento da embolia pulmonar.', C: 'A janela de 12 horas é a do infarto do miocárdio, não a da embolia.', D: 'A janela de 4,5 horas refere-se ao acidente vascular cerebral isquêmico.' },
@@ -157,7 +157,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Trombólise',
     e: 'Constitui contraindicação absoluta à trombólise sistêmica na embolia pulmonar:',
-    o: ['Gestação', 'Acidente vascular cerebral hemorrágico prévio, em qualquer época', 'Uso de anticoagulante oral', 'Pressão sistólica acima de 180 mmHg refratária'],
+    o: ['Gestação em qualquer trimestre', 'AVC hemorrágico prévio, em qualquer época', 'Uso de anticoagulante oral em dose terapêutica', 'Pressão sistólica acima de 180 mmHg refratária'],
     g: 'B',
     c: 'São contraindicações absolutas: acidente vascular cerebral hemorrágico ou de origem desconhecida em qualquer tempo, isquêmico nos últimos 6 meses, neoplasia do sistema nervoso central, trauma maior, cirurgia ou traumatismo craniano nas últimas 3 semanas, diátese hemorrágica e sangramento ativo. Na embolia com risco iminente de morte, mesmo essas contraindicações podem ser relativizadas caso a caso.',
     x: { A: 'A gestação e a primeira semana pós-parto são contraindicações relativas.', C: 'O uso de anticoagulante oral é contraindicação relativa.', D: 'A hipertensão refratária é contraindicação relativa.' },
@@ -165,7 +165,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Embolectomia',
     e: 'Homem de 58 anos, operado de meningioma há 8 dias, apresenta embolia pulmonar com choque obstrutivo persistente, confirmada por angiotomografia com trombo central bilateral. O hospital dispõe de cirurgia cardíaca e hemodinâmica. A conduta é:',
-    o: ['Alteplase 100 mg em 2 horas', 'Embolectomia cirúrgica ou tratamento percutâneo dirigido por cateter', 'Apenas heparina em dose profilática', 'Varfarina com alvo de INR entre 2 e 3'],
+    o: ['Alteplase 100 mg em 2 horas, em infusão contínua', 'Embolectomia cirúrgica ou tratamento percutâneo por cateter', 'Apenas heparina em dose profilática e deambulação', 'Varfarina com alvo de INR entre 2 e 3 desde o início'],
     g: 'B',
     c: 'A neurocirurgia recente é contraindicação absoluta à fibrinólise sistêmica, pelo risco de hemorragia intracraniana. Na embolia de alto risco com contraindicação ou falha da trombólise, indica-se remoção mecânica do trombo, por embolectomia cirúrgica ou por cateter, conforme a experiência do centro.',
     x: { A: 'A trombólise sistêmica está contraindicada pela cirurgia intracraniana recente.', C: 'Dose profilática não trata embolia e não resolve a obstrução.', D: 'A varfarina tem início de ação lento e não serve como tratamento do choque obstrutivo.' },
@@ -173,7 +173,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Parada cardíaca',
     e: 'Mulher de 46 anos, no 9º dia após cirurgia ortopédica, tem parada cardíaca em atividade elétrica sem pulso logo após queixa de dispneia súbita. O ultrassom durante a reanimação mostra ventrículo direito muito dilatado. Além das manobras de reanimação, deve-se:',
-    o: ['Realizar pericardiocentese', 'Administrar trombolítico em bolus e manter a reanimação por tempo prolongado', 'Aplicar choque de 200 J', 'Administrar enoxaparina subcutânea e encerrar os esforços após 10 minutos'],
+    o: ['Realizar pericardiocentese de emergência às cegas', 'Trombolítico em bolus e manter a reanimação por tempo prolongado', 'Aplicar choque de 200 J e repetir a cada 2 minutos', 'Enoxaparina subcutânea e encerrar os esforços após 10 minutos'],
     g: 'B',
     c: 'A embolia pulmonar é causa reversível de parada em atividade elétrica sem pulso. Quando é a causa presumida, recomenda-se fibrinolítico em bolus durante a reanimação, que deve ser mantida por tempo prolongado, em geral 60 a 90 minutos, para permitir a ação do fármaco.',
     x: { A: 'A pericardiocentese trata tamponamento, no qual o ventrículo direito está colabado, e não dilatado.', C: 'A atividade elétrica sem pulso não é ritmo chocável.', D: 'A via subcutânea é ineficaz na parada, e a reanimação deve ser prolongada após o trombolítico.' },
@@ -181,7 +181,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Suporte hemodinâmico',
     e: 'Homem de 61 anos, com embolia pulmonar e pressão arterial de 82 x 48 mmHg, apresenta turgência jugular e ventrículo direito muito dilatado ao ecocardiograma. Enquanto se prepara a reperfusão, a medida de suporte hemodinâmico mais adequada é:',
-    o: ['Expansão vigorosa com 30 mL/kg de cristaloide', 'Volume com cautela (até cerca de 500 mL) e início precoce de noradrenalina', 'Nitroglicerina intravenosa para reduzir a pós-carga', 'Furosemida em bolus e betabloqueador'],
+    o: ['Expansão vigorosa com 30 mL/kg de cristaloide em 30 minutos', 'Volume com cautela (até 500 mL) e início precoce de noradrenalina', 'Nitroglicerina intravenosa para reduzir a pós-carga do VD', 'Furosemida em bolus e betabloqueador para reduzir a FC'],
     g: 'B',
     c: 'O ventrículo direito já está distendido; volume em excesso aumenta a tensão da parede, desvia mais o septo e reduz ainda mais o enchimento do ventrículo esquerdo. Por isso a expansão deve ser modesta, e o vasopressor é iniciado cedo para elevar a pressão arterial e manter a perfusão coronariana do ventrículo direito.',
     x: { A: 'Expansão agressiva agrava a dilatação do ventrículo direito e a interdependência ventricular.', C: 'O vasodilatador sistêmico reduz a pressão arterial e a perfusão coronariana, agravando o choque.', D: 'O betabloqueador reduz a contratilidade e a taquicardia compensatória, piorando o débito.' },
@@ -189,7 +189,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Filtro de veia cava',
     e: 'Mulher de 68 anos, internada por hemorragia digestiva alta por úlcera duodenal com sangramento ativo, apresenta no 3º dia trombose venosa profunda iliofemoral e embolia pulmonar segmentar, mantendo-se estável. A conduta para a prevenção de novos êmbolos é:',
-    o: ['Heparina não fracionada em dose plena', 'Filtro de veia cava inferior, de preferência removível', 'Trombólise sistêmica', 'Meias elásticas de compressão isoladamente'],
+    o: ['Heparina não fracionada em dose plena, em infusão', 'Filtro de veia cava inferior, de preferência removível', 'Trombólise sistêmica com alteplase em dose plena', 'Meias elásticas de compressão como medida isolada'],
     g: 'B',
     c: 'A principal indicação do filtro de veia cava é o tromboembolismo venoso agudo com contraindicação absoluta à anticoagulação, como o sangramento ativo. O filtro deve ser preferencialmente removível, e a anticoagulação é iniciada assim que o risco de sangramento permitir, com posterior retirada do dispositivo.',
     x: { A: 'A anticoagulação plena está contraindicada durante sangramento digestivo ativo.', C: 'A trombólise é contraindicada no sangramento ativo e não indicada em paciente estável.', D: 'As meias não previnem embolia em quem já tem trombose proximal estabelecida.' },
@@ -197,7 +197,7 @@ export const TEP_3: QuestaoCompacta[] = [
   {
     s: 'Filtro de veia cava',
     e: 'Sobre os efeitos do filtro de veia cava inferior em pacientes com tromboembolismo venoso, as evidências disponíveis mostram que ele:',
-    o: ['Reduz a mortalidade global e deve ser associado de rotina à anticoagulação', 'Reduz a recorrência de embolia pulmonar, mas aumenta a trombose venosa profunda tardia, sem reduzir a mortalidade', 'Dispensa a anticoagulação mesmo quando esta se torna possível', 'Elimina o risco de síndrome pós-trombótica'],
+    o: ['Reduz a mortalidade global e deve ser associado de rotina à anticoagulação', 'Reduz recorrência de embolia, mas aumenta TVP tardia, sem reduzir mortalidade', 'Dispensa a anticoagulação mesmo quando esta se torna possível depois', 'Elimina o risco de síndrome pós-trombótica a longo prazo'],
     g: 'B',
     c: 'Os estudos randomizados mostraram que o filtro diminui a embolia pulmonar precoce, mas aumenta a recorrência de trombose venosa profunda no longo prazo e não altera a mortalidade. Por isso não é indicado de rotina em pacientes que podem ser anticoagulados, ficando reservado à contraindicação à anticoagulação ou à recorrência apesar de anticoagulação adequada.',
     x: { A: 'Não há redução de mortalidade, e o uso rotineiro não é recomendado.', C: 'A anticoagulação deve ser iniciada assim que possível, pois o filtro é trombogênico.', D: 'O filtro pode até favorecer trombose e estase venosa, sem proteger contra a síndrome pós-trombótica.' },

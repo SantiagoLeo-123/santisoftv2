@@ -13,7 +13,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Duração da anticoagulação',
     e: 'Homem de 52 anos, sem comorbidades, teve embolia pulmonar sem nenhum fator desencadeante identificado. Completou 3 meses de apixabana sem intercorrências e tem baixo risco de sangramento. A melhor conduta é:',
-    o: ['Suspender a anticoagulação, pois 3 meses são suficientes em todos os casos', 'Manter a anticoagulação por tempo estendido, sem data prevista de término, com reavaliação periódica', 'Suspender e implantar filtro de veia cava', 'Suspender e repetir a angiotomografia a cada 3 meses'],
+    o: ['Suspender a anticoagulação, pois 3 meses são suficientes em todos os casos', 'Anticoagulação estendida, sem data de término, com reavaliação periódica', 'Suspender e implantar filtro de veia cava inferior definitivo', 'Suspender e repetir a angiotomografia a cada 3 meses por 1 ano'],
     g: 'B',
     c: 'A embolia não provocada tem risco de recorrência elevado após a suspensão do tratamento, sobretudo em homens. Em pacientes com risco de sangramento baixo ou moderado, as diretrizes recomendam anticoagulação estendida, reavaliando periodicamente a relação entre risco e benefício e a preferência do paciente.',
     x: { A: 'Três meses é o tempo mínimo; no evento não provocado o risco de recorrência justifica estender.', C: 'O filtro não substitui a anticoagulação em quem pode usá-la.', D: 'A imagem seriada não previne recorrência nem orienta a duração do tratamento.' },
@@ -29,7 +29,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Câncer',
     e: 'Mulher de 61 anos, com câncer de mama metastático em quimioterapia, apresenta embolia pulmonar segmentar. Função renal normal e plaquetas de 210.000/mm3. O tratamento anticoagulante e sua duração devem ser:',
-    o: ['Varfarina por 3 meses, com suspensão independentemente do câncer', 'Heparina de baixo peso molecular ou inibidor oral do fator Xa, por no mínimo 3 a 6 meses e enquanto o câncer estiver ativo', 'Ácido acetilsalicílico por tempo indefinido', 'Enoxaparina em dose profilática até o fim da quimioterapia'],
+    o: ['Varfarina por 3 meses, com suspensão independentemente da atividade do câncer', 'HBPM ou anti-Xa oral, por no mínimo 3 a 6 meses e enquanto o câncer estiver ativo', 'Ácido acetilsalicílico por tempo indefinido, como única medida', 'Enoxaparina em dose profilática até o fim da quimioterapia'],
     g: 'B',
     c: 'O câncer ativo é fator de risco persistente, com alta taxa de recorrência. A heparina de baixo peso molecular mostrou-se superior à varfarina nesses pacientes, e os inibidores orais do fator Xa (apixabana, rivaroxabana, edoxabana) são alternativas eficazes. As diretrizes divergem sobre qual é a primeira opção, mas concordam em manter o tratamento enquanto houver doença ativa ou tratamento oncológico.',
     x: { A: 'A varfarina é menos eficaz no câncer, e a suspensão em 3 meses ignora o fator de risco persistente.', C: 'O antiagregante não trata tromboembolismo venoso.', D: 'A dose profilática é insuficiente para tratar embolia estabelecida.' },
@@ -37,7 +37,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Câncer',
     e: 'Homem de 66 anos, com adenocarcinoma gástrico não ressecado, com lesão ulcerada, apresenta trombose venosa profunda femoral e embolia pulmonar. Está estável e sem sangramento ativo. A opção anticoagulante mais segura é:',
-    o: ['Rivaroxabana em dose plena', 'Heparina de baixo peso molecular em dose terapêutica', 'Edoxabana em dose plena', 'Nenhuma anticoagulação, apenas filtro de veia cava'],
+    o: ['Rivaroxabana em dose plena, 15 mg a cada 12 horas', 'Heparina de baixo peso molecular em dose terapêutica', 'Edoxabana em dose plena, 60 mg uma vez ao dia', 'Nenhuma anticoagulação, apenas filtro de veia cava'],
     g: 'B',
     c: 'Nos estudos em pacientes oncológicos, rivaroxabana e edoxabana causaram mais sangramento maior do que a heparina de baixo peso molecular, principalmente em tumores luminais do trato gastrointestinal e geniturinário não ressecados. Nesses casos prefere-se a heparina de baixo peso molecular.',
     x: { A: 'A rivaroxabana aumentou o sangramento gastrointestinal em tumores luminais intactos.', C: 'A edoxabana também aumentou o sangramento maior em pacientes com câncer gastrointestinal.', D: 'Sem sangramento ativo não há contraindicação à anticoagulação, e o filtro isolado não trata a trombose.' },
@@ -53,7 +53,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Profilaxia em pacientes clínicos',
     e: 'Mulher de 69 anos, com acidente vascular cerebral hemorrágico há 2 dias, está hemiplégica e acamada na unidade de terapia intensiva. A profilaxia de tromboembolismo venoso mais adequada neste momento é:',
-    o: ['Enoxaparina 40 mg subcutânea ao dia', 'Compressão pneumática intermitente dos membros inferiores', 'Nenhuma profilaxia, pois há sangramento', 'Heparina não fracionada em infusão contínua'],
+    o: ['Enoxaparina 40 mg subcutânea ao dia, desde a admissão', 'Compressão pneumática intermitente dos membros inferiores', 'Nenhuma profilaxia, pois há sangramento intracraniano', 'Heparina não fracionada em infusão contínua venosa'],
     g: 'B',
     c: 'Em pacientes de alto risco trombótico com sangramento ativo ou alto risco de sangramento, a profilaxia deve ser mecânica, de preferência com compressão pneumática intermitente, que reduz a estase venosa sem interferir na coagulação. A profilaxia farmacológica é introduzida quando o risco de sangramento diminuir.',
     x: { A: 'A heparina profilática é evitada na fase aguda da hemorragia intracraniana.', C: 'A paciente tem alto risco trombótico e não deve ficar sem profilaxia; o método mecânico é seguro.', D: 'A infusão contínua corresponde à anticoagulação plena, contraindicada na hemorragia cerebral aguda.' },
@@ -61,7 +61,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Profilaxia em pacientes clínicos',
     e: 'Homem de 78 anos, internado por insuficiência cardíaca descompensada, acamado, tem doença renal crônica com depuração de creatinina de 18 mL/min. Não há risco aumentado de sangramento. A opção mais adequada para profilaxia farmacológica é:',
-    o: ['Fondaparinux 2,5 mg ao dia', 'Heparina não fracionada 5.000 UI subcutânea a cada 8 ou 12 horas', 'Rivaroxabana 20 mg ao dia', 'Dabigatrana 150 mg a cada 12 horas'],
+    o: ['Fondaparinux 2,5 mg ao dia, por via subcutânea', 'Heparina não fracionada 5.000 UI SC a cada 8 ou 12 horas', 'Rivaroxabana 20 mg ao dia, por via oral', 'Dabigatrana 150 mg a cada 12 horas, por via oral'],
     g: 'B',
     c: 'A heparina não fracionada é depurada principalmente pelo sistema reticuloendotelial e não se acumula na insuficiência renal, sendo a opção preferida quando a depuração de creatinina está abaixo de 30 mL/min. Alternativamente, pode-se usar enoxaparina em dose reduzida.',
     x: { A: 'O fondaparinux é de eliminação renal e contraindicado com depuração abaixo de 30 mL/min.', C: 'Essa dose é terapêutica, e o fármaco deve ser evitado nesse grau de disfunção renal.', D: 'A dabigatrana é predominantemente renal e contraindicada na insuficiência renal grave.' },
@@ -77,7 +77,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Profilaxia em pacientes cirúrgicos',
     e: 'Homem de 63 anos foi submetido a colectomia aberta por adenocarcinoma de cólon, sem complicações e sem risco aumentado de sangramento. A tromboprofilaxia com heparina de baixo peso molecular deve ser mantida por:',
-    o: ['48 horas', 'Cerca de 4 semanas após a cirurgia', 'Até a retirada dos pontos, em 7 dias', '6 meses'],
+    o: ['48 horas após a cirurgia, até a alta', 'Cerca de 4 semanas após a cirurgia', 'Até a retirada dos pontos, em 7 dias', '6 meses após a cirurgia oncológica'],
     g: 'B',
     c: 'A cirurgia abdominal ou pélvica de grande porte por câncer combina dois fatores de alto risco, e os eventos trombóticos ocorrem com frequência após a alta. A profilaxia estendida por cerca de 4 semanas com heparina de baixo peso molecular reduz o tromboembolismo venoso sem aumento relevante de sangramento.',
     x: { A: 'Dois dias são insuficientes para cobrir o período de risco.', C: 'Limitar a 7 dias deixa descoberto o período após a alta, em que o risco persiste.', D: 'Não há indicação de profilaxia por 6 meses após cirurgia oncológica não complicada.' },
@@ -85,7 +85,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Profilaxia em pacientes cirúrgicos',
     e: 'Mulher de 26 anos, sem comorbidades, sem uso de hormônios e sem história de trombose, será submetida a exérese de lipoma no antebraço sob anestesia local, em regime ambulatorial. A medida de tromboprofilaxia indicada é:',
-    o: ['Enoxaparina 40 mg ao dia por 7 dias', 'Deambulação precoce, sem profilaxia farmacológica ou mecânica', 'Compressão pneumática intermitente por 48 horas', 'Rivaroxabana 10 mg ao dia por 14 dias'],
+    o: ['Enoxaparina 40 mg ao dia por 7 dias, em dose profilática', 'Deambulação precoce, sem profilaxia farmacológica ou mecânica', 'Compressão pneumática intermitente por 48 horas, em leito', 'Rivaroxabana 10 mg ao dia por 14 dias, por via oral'],
     g: 'B',
     c: 'Em procedimentos pequenos, em pacientes jovens, sem fatores de risco e com mobilidade preservada, o risco de tromboembolismo venoso é muito baixo (escore de Caprini muito baixo). Nessa situação recomenda-se apenas deambulação precoce, pois a profilaxia farmacológica acrescenta risco de sangramento sem benefício.',
     x: { A: 'A heparina não está indicada em cirurgia de risco muito baixo.', C: 'A profilaxia mecânica é desnecessária em paciente que deambula logo após o procedimento.', D: 'O anticoagulante oral profilático é reservado a cirurgias ortopédicas maiores.' },
@@ -93,7 +93,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Trombocitopenia induzida por heparina',
     e: 'Homem de 64 anos, em uso de heparina não fracionada profilática há 7 dias após cirurgia cardíaca, apresenta queda das plaquetas de 240.000 para 95.000/mm3 e trombose venosa profunda nova em membro superior. Não há sangramento nem outra causa aparente. O mecanismo da complicação é:',
-    o: ['Supressão medular direta pela heparina', 'Anticorpos IgG contra o complexo heparina-fator plaquetário 4, que ativam as plaquetas', 'Consumo de plaquetas por coagulação intravascular disseminada de origem infecciosa', 'Sequestro esplênico de plaquetas'],
+    o: ['Supressão medular direta pela heparina em uso prolongado', 'Anticorpos IgG contra o complexo heparina-PF4, que ativam as plaquetas', 'Consumo de plaquetas por coagulação intravascular disseminada de origem infecciosa', 'Sequestro esplênico de plaquetas por hipertensão portal'],
     g: 'B',
     c: 'Na trombocitopenia induzida por heparina tipo II, anticorpos IgG ligam-se ao complexo formado pela heparina e pelo fator plaquetário 4 e ativam as plaquetas por seus receptores Fc, gerando consumo plaquetário e intensa produção de trombina. O quadro típico é queda de mais de 50% das plaquetas entre o 5º e o 10º dia de exposição, com tromboses venosas ou arteriais, e não sangramento.',
     x: { A: 'A heparina não causa mielossupressão; o mecanismo é imunológico e periférico.', C: 'Não há infecção descrita, e o tempo de início é característico da reação imune à heparina.', D: 'Não há esplenomegalia nem motivo para sequestro esplênico agudo.' },
@@ -101,7 +101,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Trombocitopenia induzida por heparina',
     e: 'Mulher de 59 anos, em uso de enoxaparina terapêutica há 8 dias por embolia pulmonar, apresenta queda das plaquetas de 280.000 para 110.000/mm3, sem sangramento. A probabilidade clínica de trombocitopenia induzida por heparina é alta. A conduta imediata é:',
-    o: ['Trocar a enoxaparina por heparina não fracionada', 'Suspender toda heparina e iniciar anticoagulante não heparínico em dose terapêutica', 'Suspender a heparina e iniciar varfarina isolada em dose alta', 'Manter a enoxaparina e transfundir plaquetas'],
+    o: ['Trocar a enoxaparina por heparina não fracionada em dose plena', 'Suspender toda heparina e iniciar anticoagulante não heparínico', 'Suspender a heparina e iniciar varfarina isolada em dose alta', 'Manter a enoxaparina e transfundir plaquetas profilaticamente'],
     g: 'B',
     c: 'Diante de suspeita forte, deve-se suspender toda exposição à heparina, inclusive a de lavagem de cateteres, e iniciar anticoagulante alternativo, como argatroban, bivalirudina, fondaparinux ou anticoagulante oral direto, sem aguardar os testes confirmatórios, pois o risco de trombose é alto mesmo após a suspensão.',
     x: { A: 'Há reatividade cruzada; qualquer heparina mantém o processo.', C: 'A varfarina isolada na fase aguda reduz a proteína C e pode precipitar gangrena venosa e necrose cutânea.', D: 'A transfusão de plaquetas é evitada na ausência de sangramento, pois pode alimentar a trombose.' },
@@ -117,7 +117,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Reversão da anticoagulação',
     e: 'Mulher de 74 anos, em uso de varfarina por embolia pulmonar, é trazida com rebaixamento de consciência após queda. A tomografia mostra hematoma subdural agudo e o INR é 5,8. Além de suspender a varfarina, a conduta para a reversão é:',
-    o: ['Vitamina K oral e observação', 'Vitamina K intravenosa associada a concentrado de complexo protrombínico', 'Protamina intravenosa', 'Transfusão de plaquetas'],
+    o: ['Vitamina K oral e observação clínica por 24 horas', 'Vitamina K intravenosa e concentrado de complexo protrombínico', 'Protamina intravenosa em dose de neutralização', 'Transfusão de plaquetas em dose de aférese'],
     g: 'B',
     c: 'No sangramento com risco de morte associado à varfarina, é preciso repor imediatamente os fatores II, VII, IX e X com concentrado de complexo protrombínico, que age em minutos e com pequeno volume (o plasma fresco é alternativa quando ele não está disponível). A vitamina K intravenosa é associada para sustentar a correção, pois seu efeito leva horas e a meia-vida dos fatores infundidos é curta.',
     x: { A: 'A vitamina K oral isolada demora muitas horas para agir, tempo inaceitável em hemorragia intracraniana.', C: 'A protamina neutraliza heparina, sem efeito sobre a varfarina.', D: 'As plaquetas não corrigem a deficiência de fatores da coagulação.' },
@@ -133,7 +133,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Reversão da anticoagulação',
     e: 'Mulher de 66 anos, em uso de rivaroxabana, apresenta hemorragia intracraniana 4 horas após a última dose. Para a reversão do efeito anticoagulante, as opções recomendadas são:',
-    o: ['Idarucizumabe', 'Andexanet alfa ou, se indisponível, concentrado de complexo protrombínico', 'Vitamina K intravenosa em dose alta', 'Hemodiálise de urgência'],
+    o: ['Idarucizumabe, antídoto específico da dabigatrana', 'Andexanet alfa ou, se indisponível, complexo protrombínico', 'Vitamina K intravenosa em dose alta e plasma fresco', 'Hemodiálise de urgência para remover o fármaco'],
     g: 'B',
     c: 'O andexanet alfa é uma forma recombinante modificada e inativa do fator Xa, que funciona como isca e sequestra os inibidores do fator Xa. Onde não está disponível, usa-se o concentrado de complexo protrombínico de 4 fatores para superar o bloqueio. A hemodiálise não é eficaz porque esses fármacos têm alta ligação a proteínas.',
     x: { A: 'O idarucizumabe é específico para a dabigatrana.', C: 'A vitamina K não reverte os inibidores diretos do fator Xa.', D: 'A rivaroxabana tem alta ligação proteica e não é removida pela diálise.' },
@@ -149,7 +149,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Varfarina',
     e: 'Mulher de 42 anos inicia varfarina 10 mg ao dia, sem heparina associada, por trombose venosa profunda. No 4º dia surgem placas dolorosas, purpúricas e depois necróticas nas mamas e nas coxas. O mecanismo e a condição predisponente são:',
-    o: ['Vasculite por hipersensibilidade; alergia ao corante do comprimido', 'Queda rápida da proteína C com trombose da microcirculação cutânea; deficiência de proteína C', 'Embolia de colesterol; aterosclerose aórtica', 'Trombocitopenia imune; anticorpos contra o fator plaquetário 4'],
+    o: ['Vasculite por hipersensibilidade; alergia ao corante do comprimido', 'Queda rápida da proteína C, com trombose cutânea; deficiência de proteína C', 'Embolia de colesterol; aterosclerose aórtica ulcerada', 'Trombocitopenia imune; anticorpos contra o fator plaquetário 4'],
     g: 'B',
     c: 'A proteína C tem meia-vida curta e cai antes dos fatores pró-coagulantes de meia-vida longa, criando um estado de hipercoagulabilidade transitório nos primeiros dias de varfarina. Em portadores de deficiência de proteína C ou S, isso leva a trombose de vênulas da derme e necrose em áreas ricas em gordura. Previne-se iniciando a varfarina sob cobertura de heparina e sem dose de ataque.',
     x: { A: 'O quadro é trombótico, não inflamatório, e tem localização e tempo de início característicos.', C: 'A embolia de colesterol ocorre após manipulação arterial e acomete pododáctilos e rins.', D: 'Anticorpos contra o fator plaquetário 4 relacionam-se à heparina, que a paciente não recebeu.' },
@@ -157,7 +157,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão pulmonar tromboembólica crônica',
     e: 'Homem de 56 anos teve embolia pulmonar há 8 meses e mantém anticoagulação regular. Persiste com dispneia aos esforços progressiva e apresenta hiperfonese de segunda bulha no foco pulmonar. O ecocardiograma estima pressão sistólica da artéria pulmonar de 62 mmHg. O exame de rastreamento mais adequado para a principal hipótese é:',
-    o: ['D-dímero', 'Cintilografia pulmonar de ventilação e perfusão', 'Espirometria com prova broncodilatadora', 'Tomografia de tórax sem contraste'],
+    o: ['D-dímero de alta sensibilidade seriado', 'Cintilografia pulmonar de ventilação e perfusão', 'Espirometria com prova broncodilatadora', 'Tomografia de tórax sem contraste de alta resolução'],
     g: 'B',
     c: 'A hipertensão pulmonar tromboembólica crônica resulta da organização fibrosa de trombos não resolvidos, com remodelamento vascular, e deve ser suspeitada quando persistem dispneia e hipertensão pulmonar após pelo menos 3 meses de anticoagulação eficaz. A cintilografia de ventilação e perfusão é o exame de rastreamento por sua alta sensibilidade: se normal, praticamente exclui a doença. A confirmação exige cateterismo direito e imagem da árvore pulmonar.',
     x: { A: 'O D-dímero não tem utilidade na doença tromboembólica crônica organizada.', C: 'A espirometria avalia doenças das vias aéreas e não o leito vascular pulmonar.', D: 'A tomografia sem contraste não avalia as artérias pulmonares.' },
@@ -165,7 +165,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão pulmonar tromboembólica crônica',
     e: 'Mulher de 49 anos tem hipertensão pulmonar tromboembólica crônica confirmada por cateterismo direito, com obstruções em artérias lobares e segmentares proximais. Está em classe funcional III e não tem comorbidades relevantes. O tratamento de escolha, potencialmente curativo, é:',
-    o: ['Trombólise sistêmica com alteplase', 'Endarterectomia pulmonar, mantendo anticoagulação por toda a vida', 'Sildenafila isolada, com suspensão do anticoagulante', 'Filtro de veia cava inferior'],
+    o: ['Trombólise sistêmica com alteplase em dose plena', 'Endarterectomia pulmonar, mantendo anticoagulação por toda a vida', 'Sildenafila isolada, com suspensão do anticoagulante', 'Filtro de veia cava inferior, definitivo, sem outra conduta'],
     g: 'B',
     c: 'A endarterectomia pulmonar remove o material fibroso organizado aderido à parede arterial e é o tratamento de escolha em pacientes operáveis, com doença acessível cirurgicamente, podendo normalizar a hemodinâmica. A anticoagulação é mantida indefinidamente. Nos inoperáveis ou com hipertensão residual usam-se riociguate e angioplastia pulmonar por balão.',
     x: { A: 'O material é fibroso e organizado, não sendo dissolvido por fibrinolítico.', C: 'O tratamento medicamentoso é reservado a casos inoperáveis, e a anticoagulação nunca é suspensa.', D: 'O filtro não remove a obstrução crônica nem melhora a hipertensão pulmonar.' },
@@ -173,7 +173,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Embolia gordurosa',
     e: 'Homem de 23 anos, vítima de acidente de moto com fratura fechada de fêmur e tíbia, evolui 36 horas depois com dispneia, saturação de 84%, confusão mental e petéquias em axilas, tórax anterior e conjuntivas. A radiografia mostra infiltrado bilateral difuso. O diagnóstico e o tratamento são:',
-    o: ['Tromboembolia pulmonar; trombólise sistêmica', 'Síndrome da embolia gordurosa; suporte ventilatório e hemodinâmico', 'Contusão pulmonar; drenagem torácica', 'Meningococcemia; ceftriaxona e isolamento'],
+    o: ['Tromboembolia pulmonar; trombólise sistêmica em dose plena', 'Síndrome da embolia gordurosa; suporte ventilatório e hemodinâmico', 'Contusão pulmonar; drenagem torácica e analgesia', 'Meningococcemia; ceftriaxona e isolamento respiratório'],
     g: 'B',
     c: 'A síndrome da embolia gordurosa surge 24 a 72 horas após fraturas de ossos longos, com a tríade de insuficiência respiratória, alterações neurológicas e petéquias em tronco superior e conjuntivas. Glóbulos de gordura da medula obstruem capilares e, ao serem hidrolisados em ácidos graxos livres, causam lesão endotelial inflamatória. O tratamento é de suporte, e a fixação precoce da fratura é a principal prevenção.',
     x: { A: 'O intervalo curto, as petéquias e o quadro neurológico não são explicados pela embolia trombótica.', C: 'A contusão pulmonar aparece nas primeiras horas, no local do trauma torácico, sem petéquias.', D: 'Não há febre nem sinais meníngeos, e o contexto é de fratura de ossos longos.' },
@@ -181,7 +181,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Embolia amniótica',
     e: 'Parturiente de 34 anos, multípara, em trabalho de parto com amniotomia recente, apresenta subitamente dispneia intensa, cianose, hipotensão grave e convulsão. Minutos depois surgem sangramento difuso por punções e pela vagina, com fibrinogênio muito baixo. O diagnóstico mais provável é:',
-    o: ['Eclâmpsia', 'Embolia por líquido amniótico', 'Tromboembolia pulmonar maciça', 'Ruptura uterina'],
+    o: ['Eclâmpsia com crise convulsiva súbita', 'Embolia por líquido amniótico', 'Tromboembolia pulmonar maciça', 'Ruptura uterina com hemorragia intra-abdominal'],
     g: 'B',
     c: 'A embolia amniótica ocorre durante o trabalho de parto ou no pós-parto imediato, com a tríade de hipoxemia súbita, colapso hemodinâmico e coagulação intravascular disseminada. A entrada de material fetal na circulação materna desencadeia reação semelhante à anafilaxia, com vasoespasmo pulmonar, falência ventricular e ativação maciça da coagulação. O tratamento é de suporte intensivo.',
     x: { A: 'A eclâmpsia cursa com hipertensão e convulsão, sem colapso cardiorrespiratório súbito e coagulopatia imediata.', C: 'A embolia trombótica não costuma causar coagulação intravascular disseminada precoce.', D: 'A ruptura uterina causa dor abdominal e choque hemorrágico, sem hipoxemia súbita como evento inicial.' },
@@ -189,7 +189,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Embolia gasosa',
     e: 'Homem de 60 anos, sentado no leito, tem o cateter venoso central em jugular removido e apresenta imediatamente dispneia, tosse, hipotensão e sopro cardíaco em roda de moinho. Além de ocluir o orifício e oferecer oxigênio a 100%, o paciente deve ser posicionado em:',
-    o: ['Posição sentada com as pernas pendentes', 'Decúbito lateral esquerdo com a cabeça baixa (Trendelenburg)', 'Decúbito lateral direito com a cabeceira elevada', 'Decúbito ventral'],
+    o: ['Posição sentada com as pernas pendentes e tronco ereto', 'Decúbito lateral esquerdo e cabeça baixa (Trendelenburg)', 'Decúbito lateral direito com a cabeceira elevada', 'Decúbito ventral com a cabeça elevada em 30 graus'],
     g: 'B',
     c: 'Na embolia gasosa venosa, o decúbito lateral esquerdo com a cabeça baixa (manobra de Durant) mantém o ar aprisionado no ápice do ventrículo direito, longe da via de saída, aliviando a obstrução ao fluxo pulmonar. O oxigênio a 100% acelera a reabsorção do nitrogênio das bolhas. A prevenção consiste em retirar o cateter com o paciente deitado e em expiração.',
     x: { A: 'A posição sentada favorece a entrada de ar e sua migração para a via de saída do ventrículo direito.', C: 'O decúbito lateral direito desloca o ar em direção à via de saída do ventrículo direito.', D: 'O decúbito ventral não aprisiona o ar e dificulta o manejo do paciente.' },
@@ -197,7 +197,7 @@ export const TEP_4: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Gestante de 20 semanas tem embolia pulmonar confirmada e está estável. O tratamento anticoagulante adequado é:',
-    o: ['Varfarina com INR entre 2 e 3 até o parto', 'Heparina de baixo peso molecular em dose terapêutica durante toda a gestação e por pelo menos 6 semanas após o parto, com mínimo de 3 meses no total', 'Rivaroxabana até o parto e suspensão no puerpério', 'Heparina de baixo peso molecular por 3 meses, com suspensão ainda durante a gestação'],
+    o: ['Varfarina com INR entre 2 e 3 até o parto, por via oral', 'HBPM terapêutica na gestação toda e por ≥ 6 semanas após o parto (mínimo 3 meses)', 'Rivaroxabana até o parto e suspensão no puerpério, por via oral', 'HBPM por 3 meses, com suspensão ainda durante a gestação'],
     g: 'B',
     c: 'As heparinas não atravessam a placenta e são o tratamento de escolha na gestação; a de baixo peso molecular é preferida, com dose ajustada ao peso. Como a gravidez e o puerpério são fatores de risco persistentes, o tratamento vai até pelo menos 6 semanas após o parto, completando no mínimo 3 meses. A varfarina é teratogênica, e os anticoagulantes orais diretos atravessam a placenta; no puerpério, a varfarina é compatível com a amamentação.',
     x: { A: 'A varfarina atravessa a placenta, causando embriopatia e sangramento fetal.', C: 'Os anticoagulantes orais diretos são contraindicados na gestação e na amamentação.', D: 'Suspender durante a gestação deixa a paciente desprotegida no período de maior risco, o puerpério.' },

@@ -5,7 +5,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia dilatada – diagnóstico',
     e: 'Homem de 41 anos, sem hipertensão, diabetes ou etilismo, apresenta dispneia progressiva e edema de membros inferiores. O pai morreu aos 45 anos aguardando transplante cardíaco. Ecocardiograma: ventrículo esquerdo dilatado, hipocinesia difusa e fração de ejeção de 25%. A cineangiocoronariografia é normal. O diagnóstico é:',
-    o: ['Cardiomiopatia hipertrófica em fase final', 'Cardiomiopatia dilatada, provavelmente de base genética', 'Cardiomiopatia restritiva', 'Cardiomiopatia isquêmica'],
+    o: ['Cardiomiopatia hipertrófica em fase final de evolução', 'Cardiomiopatia dilatada, de provável base genética', 'Cardiomiopatia restritiva, de origem infiltrativa', 'Cardiomiopatia isquêmica, por doença coronariana oculta'],
     g: 'B',
     c: 'A cardiomiopatia dilatada é definida por dilatação e disfunção sistólica do ventrículo esquerdo não explicadas por doença coronariana ou por sobrecarga anormal (hipertensão, valvopatia). Uma parcela importante é familiar, com herança geralmente autossômica dominante, e as mutações truncadas da titina são as mais frequentes; por isso o rastreamento dos parentes de primeiro grau é recomendado.',
     x: { A: 'Não há hipertrofia ventricular nem história de cardiomiopatia hipertrófica.', C: 'Na forma restritiva, os ventrículos têm tamanho normal e a fração de ejeção costuma estar preservada.', D: 'As coronárias normais excluem a etiologia isquêmica.' },
@@ -13,7 +13,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia chagásica – achados',
     e: 'Homem de 52 anos, natural do norte de Minas Gerais, apresenta palpitações e um episódio de síncope. Qual combinação de achados é mais característica da cardiopatia chagásica crônica?',
-    o: ['Bloqueio de ramo esquerdo e hipertrofia septal assimétrica', 'Bloqueio de ramo direito associado a bloqueio divisional anterossuperior esquerdo e aneurisma apical do ventrículo esquerdo', 'Baixa voltagem difusa e espessamento ventricular com aspecto granuloso', 'Onda épsilon e dilatação isolada do ventrículo direito'],
+    o: ['Bloqueio de ramo esquerdo e hipertrofia septal assimétrica com gradiente', 'BRD com bloqueio divisional anterossuperior e aneurisma apical do VE', 'Baixa voltagem difusa e espessamento ventricular com aspecto granuloso', 'Onda épsilon e dilatação isolada do ventrículo direito, sem aneurisma'],
     g: 'B',
     c: 'A inflamação crônica e a fibrose da doença de Chagas acometem preferencialmente o sistema de condução, sobretudo o ramo direito e o fascículo anterossuperior esquerdo, e regiões como o ápice e a parede inferolateral. O aneurisma apical (lesão vorticilar) é típico e serve de substrato para trombos e para arritmias ventriculares por reentrada.',
     x: { A: 'O bloqueio de ramo esquerdo é menos comum em Chagas; a hipertrofia septal assimétrica é da cardiomiopatia hipertrófica.', C: 'Esses achados sugerem amiloidose cardíaca.', D: 'Esses achados sugerem cardiomiopatia arritmogênica do ventrículo direito.' },
@@ -21,7 +21,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia chagásica – diagnóstico etiológico',
     e: 'Mulher de 48 anos, com cardiomiopatia dilatada e epidemiologia positiva para doença de Chagas. Para confirmar a etiologia na fase crônica, deve-se solicitar:',
-    o: ['Pesquisa direta do Trypanosoma cruzi no sangue periférico (exame a fresco)', 'Dois testes sorológicos de princípios metodológicos diferentes para detecção de IgG', 'Sorologia IgM isolada', 'Biópsia endomiocárdica'],
+    o: ['Pesquisa direta do T. cruzi no sangue periférico (exame a fresco)', 'Dois testes sorológicos de princípios diferentes para IgG', 'Sorologia IgM isolada para confirmar a infecção crônica', 'Biópsia endomiocárdica com pesquisa do parasita'],
     g: 'B',
     c: 'Na fase crônica a parasitemia é baixa e intermitente, de modo que os métodos parasitológicos diretos têm sensibilidade muito pequena. O diagnóstico se apoia na detecção de anticorpos IgG por dois métodos de princípios distintos (como ELISA, imunofluorescência indireta ou hemaglutinação), ambos reagentes.',
     x: { A: 'O exame direto é útil na fase aguda, quando a parasitemia é alta.', C: 'A IgM é marcador de fase aguda e não serve para a forma crônica.', D: 'A biópsia é invasiva, pouco sensível e desnecessária para o diagnóstico etiológico.' },
@@ -53,7 +53,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia periparto – tratamento',
     e: 'Gestante de 36 semanas é diagnosticada com cardiomiopatia periparto e apresenta congestão pulmonar e pressão arterial de 150 x 95 mmHg. Qual vasodilatador pode ser usado durante a gestação?',
-    o: ['Enalapril', 'Hidralazina associada a nitrato', 'Losartana', 'Sacubitril-valsartana'],
+    o: ['Enalapril (inibidor da ECA)', 'Hidralazina associada a nitrato', 'Losartana (bloqueador do receptor)', 'Sacubitril-valsartana (ARNI)'],
     g: 'B',
     c: 'Os bloqueadores do sistema renina-angiotensina são contraindicados na gestação por toxicidade fetal (disgenesia renal, oligoâmnio e malformações), e a espironolactona também é evitada. Para reduzir a pós-carga usa-se hidralazina com nitrato, ao lado de betabloqueador e diurético com cautela. Após o parto, a terapia padrão pode ser iniciada.',
     x: { A: 'Os inibidores da enzima conversora são fetotóxicos, especialmente no segundo e terceiro trimestres.', C: 'Os bloqueadores do receptor de angiotensina têm a mesma toxicidade fetal.', D: 'A associação contém valsartana e é igualmente contraindicada na gestação.' },
@@ -61,7 +61,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiotoxicidade por quimioterápicos',
     e: 'Mulher de 56 anos, tratada para câncer de mama com doxorrubicina em dose cumulativa alta, desenvolve insuficiência cardíaca com fração de ejeção de 35% um ano depois. Sobre essa cardiotoxicidade, é correto afirmar:',
-    o: ['É independente da dose e sempre reversível com a suspensão', 'É dependente da dose cumulativa e decorre de lesão estrutural do miócito, frequentemente irreversível', 'Decorre de vasoespasmo coronariano', 'É causada por miocardite imunomediada, típica dessa classe'],
+    o: ['É independente da dose e sempre reversível com a suspensão do fármaco', 'É dependente da dose cumulativa e, em geral, irreversível', 'Decorre de vasoespasmo coronariano induzido pelo fármaco', 'É causada por miocardite imunomediada, típica dessa classe'],
     g: 'B',
     c: 'As antraciclinas lesam o miócito por estresse oxidativo e inibição da topoisomerase 2 beta, causando morte celular; o risco cresce com a dose cumulativa, e a disfunção tende a ser permanente (tipo I). Já o trastuzumabe causa disfunção não relacionada à dose e geralmente reversível (tipo II). Por isso se monitora a fração de ejeção durante o tratamento.',
     x: { A: 'Esse é o perfil da disfunção por trastuzumabe, não por antraciclina.', C: 'O vasoespasmo coronariano é efeito típico das fluoropirimidinas, como o fluorouracil.', D: 'A miocardite imunomediada é complicação dos inibidores de checkpoint imunológico.' },
@@ -77,7 +77,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia hipertrófica – manobras',
     e: 'Jogador de futebol de 19 anos teve síncope durante um treino. Há sopro sistólico ejetivo na borda esternal esquerda, que aumenta com a manobra de Valsalva e ao levantar-se e diminui ao agachar. O pulso carotídeo tem ascensão rápida. O diagnóstico mais provável é:',
-    o: ['Estenose aórtica por valva bicúspide', 'Cardiomiopatia hipertrófica obstrutiva', 'Prolapso da valva mitral', 'Sopro inocente'],
+    o: ['Estenose aórtica por valva bicúspide congênita', 'Cardiomiopatia hipertrófica obstrutiva', 'Prolapso da valva mitral com insuficiência', 'Sopro inocente (funcional) do atleta jovem'],
     g: 'B',
     c: 'Na cardiomiopatia hipertrófica a obstrução da via de saída é dinâmica: aumenta quando o ventrículo fica menor ou mais contrátil. Valsalva e ortostase reduzem o retorno venoso e intensificam o sopro; agachamento e handgrip aumentam o volume ventricular ou a pós-carga e o atenuam. É a principal causa de morte súbita em atletas jovens em séries clássicas.',
     x: { A: 'Na estenose valvar o sopro diminui com Valsalva e o pulso é lento e de pequena amplitude.', C: 'O prolapso produz clique mesossistólico e sopro telessistólico apical, e raramente causa síncope de esforço.', D: 'O sopro inocente não se acompanha de síncope de esforço e diminui com a ortostase.' },
@@ -85,7 +85,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia hipertrófica – fisiopatologia',
     e: 'O mecanismo da obstrução da via de saída do ventrículo esquerdo na cardiomiopatia hipertrófica é:',
-    o: ['Fusão das comissuras da valva aórtica', 'Hipertrofia septal associada ao movimento anterior sistólico do folheto anterior da valva mitral', 'Membrana fibrosa subaórtica fixa', 'Calcificação do anel mitral com extensão para a via de saída'],
+    o: ['Fusão das comissuras da valva aórtica, com calcificação', 'Hipertrofia septal com movimento anterior sistólico da valva mitral', 'Membrana fibrosa subaórtica fixa, sem movimento sistólico', 'Calcificação do anel mitral com extensão para a via de saída'],
     g: 'B',
     c: 'O septo hipertrofiado estreita a via de saída, e o fluxo acelerado arrasta o folheto anterior da mitral, que é alongado, em direção ao septo durante a sístole (movimento anterior sistólico). O contato do folheto com o septo gera o gradiente e, ao mesmo tempo, impede a coaptação mitral, causando regurgitação com jato posterior.',
     x: { A: 'A valva aórtica é normal; a obstrução é subvalvar e dinâmica.', C: 'A membrana subaórtica é obstrução fixa, que não varia com manobras.', D: 'A calcificação do anel mitral é achado de idosos e não é o mecanismo da doença.' },
@@ -109,7 +109,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia hipertrófica – tratamento clínico',
     e: 'Mulher de 38 anos, com cardiomiopatia hipertrófica obstrutiva, queixa-se de dispneia e angina aos esforços. O fármaco de primeira linha para o alívio dos sintomas é:',
-    o: ['Dinitrato de isossorbida', 'Betabloqueador sem ação vasodilatadora', 'Digoxina', 'Anlodipino'],
+    o: ['Dinitrato de isossorbida (vasodilatador)', 'Betabloqueador sem ação vasodilatadora', 'Digoxina (inotrópico positivo)', 'Anlodipino (di-hidropiridínico)'],
     g: 'B',
     c: 'O betabloqueador reduz a contratilidade e a frequência cardíaca, prolonga o enchimento diastólico e diminui o gradiente induzido pelo esforço. Na intolerância, usa-se verapamil ou diltiazem. Devem ser evitados fármacos que reduzem a pré-carga ou a pós-carga (nitratos, di-hidropiridínicos, diuréticos em dose alta) e inotrópicos positivos, pois todos acentuam a obstrução.',
     x: { A: 'O nitrato reduz a pré-carga, diminui o volume ventricular e agrava a obstrução.', C: 'A digoxina aumenta a contratilidade e, com ela, o gradiente na via de saída.', D: 'O vasodilatador di-hidropiridínico reduz a pós-carga e piora a obstrução.' },
@@ -117,7 +117,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia hipertrófica – redução septal',
     e: 'Homem de 45 anos, com cardiomiopatia hipertrófica obstrutiva, mantém dispneia em classe funcional III apesar de betabloqueador e verapamil em doses máximas toleradas. O gradiente na via de saída é de 80 mmHg em repouso. A conduta indicada é:',
-    o: ['Associar hidralazina e nitrato', 'Terapia de redução septal (miectomia cirúrgica ou ablação septal alcoólica)', 'Implante de marca-passo de dupla câmara como primeira opção', 'Transplante cardíaco'],
+    o: ['Associar hidralazina e nitrato para reduzir a pós-carga', 'Redução septal (miectomia cirúrgica ou ablação septal alcoólica)', 'Implante de marca-passo de dupla câmara como primeira opção', 'Transplante cardíaco como primeira opção de tratamento'],
     g: 'B',
     c: 'Pacientes que permanecem muito sintomáticos com tratamento clínico otimizado e gradiente de 50 mmHg ou mais têm indicação de redução septal em centro experiente. A miectomia cirúrgica é o método de referência; a ablação alcoólica é alternativa para pacientes de maior risco cirúrgico. Os inibidores da miosina cardíaca, como o mavacamten, são opção farmacológica mais recente.',
     x: { A: 'Vasodilatadores diminuem a pré e a pós-carga e agravam a obstrução.', C: 'O marca-passo tem benefício modesto e fica reservado a quem não pode fazer redução septal.', D: 'O transplante é reservado à fase final, com disfunção sistólica refratária.' },
@@ -133,7 +133,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Amiloidose cardíaca – diagnóstico',
     e: 'Idoso com suspeita de amiloidose cardíaca realiza cintilografia com pirofosfato marcado com tecnécio, que mostra captação miocárdica intensa (grau 3). A pesquisa de cadeias leves livres no soro e a imunofixação sérica e urinária são normais. A conclusão correta é:',
-    o: ['Amiloidose de cadeias leves (AL) confirmada', 'Amiloidose por transtirretina (ATTR) diagnosticada, sem necessidade de biópsia', 'Exame inconclusivo, com biópsia endomiocárdica obrigatória', 'Sarcoidose cardíaca'],
+    o: ['Amiloidose de cadeias leves (AL) confirmada pelo exame', 'Amiloidose por transtirretina (ATTR), sem necessidade de biópsia', 'Exame inconclusivo, com biópsia endomiocárdica obrigatória', 'Sarcoidose cardíaca com captação difusa'],
     g: 'B',
     c: 'Os traçadores ósseos ligam-se avidamente aos depósitos de transtirretina. Captação miocárdica de grau 2 ou 3, na ausência de proteína monoclonal (cadeias leves livres e imunofixação normais), permite o diagnóstico não invasivo da forma ATTR. Excluir a gamopatia é obrigatório, porque a forma AL pode captar o traçador e requer quimioterapia urgente.',
     x: { A: 'A forma AL exige demonstração de proteína monoclonal e confirmação tecidual.', C: 'Com esses dois achados combinados, a biópsia é dispensável.', D: 'A sarcoidose é avaliada por ressonância e PET com fluordesoxiglicose, não por traçador ósseo.' },
@@ -157,7 +157,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia arritmogênica – diagnóstico',
     e: 'Homem de 24 anos, ciclista, teve síncope durante uma prova. O eletrocardiograma mostra ondas T invertidas de V1 a V3 e um pequeno entalhe logo após o QRS nessas derivações. O Holter registra taquicardia ventricular com morfologia de bloqueio de ramo esquerdo. O diagnóstico mais provável é:',
-    o: ['Síndrome de Brugada', 'Cardiomiopatia arritmogênica do ventrículo direito', 'Síndrome do QT longo', 'Síndrome de Wolff-Parkinson-White'],
+    o: ['Síndrome de Brugada, com supra em V1-V2', 'Cardiomiopatia arritmogênica do ventrículo direito', 'Síndrome do QT longo congênito', 'Síndrome de Wolff-Parkinson-White com onda delta'],
     g: 'B',
     c: 'Mutações em proteínas dos desmossomos, como a placofilina-2, levam à perda de miócitos e à substituição fibrogordurosa, principalmente do ventrículo direito. As ilhas de miocárdio em meio à fibrose retardam a ativação (onda épsilon) e sustentam reentradas, gerando taquicardia originada no ventrículo direito, que por isso tem morfologia de bloqueio de ramo esquerdo. O exercício acelera a doença.',
     x: { A: 'Brugada apresenta supradesnivelamento de ST em V1 e V2 e arritmias em repouso ou durante o sono.', C: 'No QT longo, o intervalo QT está prolongado e a arritmia é a torsades de pointes.', D: 'Na pré-excitação há PR curto e onda delta, com taquicardias supraventriculares.' },
@@ -165,7 +165,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia arritmogênica – conduta',
     e: 'Mulher de 28 anos, maratonista, com diagnóstico de cardiomiopatia arritmogênica do ventrículo direito e taquicardia ventricular sustentada documentada. Além de betabloqueador, a orientação correta é:',
-    o: ['Manter o treinamento, pois o exercício melhora a função do ventrículo direito', 'Afastar-se de esportes competitivos e de exercício intenso, com implante de cardiodesfibrilador', 'Realizar apenas ablação por cateter e liberar para competição', 'Anticoagular e reavaliar em um ano'],
+    o: ['Manter o treinamento, pois o exercício melhora a função do ventrículo direito', 'Afastar-se de exercício intenso e implantar cardiodesfibrilador', 'Realizar apenas ablação por cateter e liberar para competição', 'Anticoagular e reavaliar em um ano, sem restrição'],
     g: 'B',
     c: 'O estresse mecânico do exercício intenso sobre os desmossomos defeituosos acelera a progressão da doença e desencadeia arritmias, razão pela qual a restrição ao esporte competitivo faz parte do tratamento. A taquicardia ventricular sustentada indica cardiodesfibrilador. A ablação reduz as recorrências, mas não elimina o risco, pois a doença é progressiva.',
     x: { A: 'O exercício de resistência agrava a doença e aumenta o risco de morte súbita.', C: 'A ablação é complementar; novos focos surgem com a progressão e ela não substitui o desfibrilador.', D: 'A anticoagulação não trata o risco arrítmico.' },
@@ -173,7 +173,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Takotsubo – diagnóstico',
     e: 'Mulher de 67 anos apresenta dor torácica intensa horas após receber a notícia da morte do filho. O eletrocardiograma mostra supradesnivelamento de ST de V2 a V5, e a troponina está discretamente elevada. A coronariografia não mostra obstruções, e a ventriculografia revela acinesia do ápice com hipercontratilidade da base. O diagnóstico é:',
-    o: ['Infarto por embolia coronariana', 'Síndrome de Takotsubo (cardiomiopatia do estresse)', 'Miocardite aguda', 'Angina vasoespástica'],
+    o: ['Infarto por embolia coronariana de origem cardíaca', 'Síndrome de Takotsubo (cardiomiopatia do estresse)', 'Miocardite aguda de provável etiologia viral', 'Angina vasoespástica (de Prinzmetal) isolada'],
     g: 'B',
     c: 'A síndrome de Takotsubo é uma disfunção ventricular aguda e transitória, desencadeada por estresse emocional ou físico e atribuída à descarga de catecolaminas. Predomina em mulheres após a menopausa. A alteração contrátil ultrapassa o território de uma única coronária, e a elevação da troponina é pequena diante da extensão da disfunção.',
     x: { A: 'O infarto embólico acomete o território de uma artéria, com oclusão visível ou troponina proporcional.', C: 'A miocardite costuma ter pródromo viral e disfunção global ou não apical; a ressonância ajuda a diferenciar.', D: 'O vasoespasmo causa alterações transitórias de ST, sem o balonamento apical característico.' },
@@ -181,7 +181,7 @@ export const VALVAS_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Takotsubo – evolução',
     e: 'Sobre a evolução da síndrome de Takotsubo, é correto afirmar:',
-    o: ['A disfunção ventricular é permanente na maioria dos casos', 'A função ventricular se recupera em dias a semanas, embora possam ocorrer complicações graves na fase aguda', 'O tratamento de escolha é a trombólise precoce', 'É uma condição sempre benigna, sem risco de complicações'],
+    o: ['A disfunção ventricular é permanente na maioria dos casos tratados', 'A função se recupera em dias a semanas, embora haja complicações na fase aguda', 'O tratamento de escolha é a trombólise precoce com alteplase', 'É uma condição sempre benigna, sem risco de complicações graves'],
     g: 'B',
     c: 'A marca da síndrome é a reversibilidade: a contratilidade normaliza em dias a poucas semanas, e o tratamento é de suporte. Na fase aguda, porém, podem ocorrer choque cardiogênico, obstrução dinâmica da via de saída pela base hipercontrátil, arritmias, trombo apical e ruptura ventricular. Havendo obstrução da via de saída, inotrópicos devem ser evitados.',
     x: { A: 'A recuperação completa da função é a regra e faz parte dos critérios diagnósticos.', C: 'Não há trombose coronariana; a trombólise só traz risco de sangramento.', D: 'A mortalidade hospitalar é comparável à das síndromes coronarianas agudas.' },

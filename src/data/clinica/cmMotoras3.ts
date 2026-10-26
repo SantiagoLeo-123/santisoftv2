@@ -21,7 +21,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Miastenia gravis: anticorpos',
     e: 'Mulher de 35 anos apresenta fraqueza bulbar, cervical e respiratória importante, com pouco acometimento ocular. A pesquisa de anticorpo antirreceptor de acetilcolina é negativa. O anticorpo que deve ser solicitado a seguir é:',
-    o: ['Anti-Jo-1', 'Anti-MuSK (tirosina-quinase músculo-específica)', 'Anti-GQ1b', 'Anti-Hu'],
+    o: ['Anti-Jo-1 (sintetase de histidil-tRNA)', 'Anti-MuSK (quinase músculo-específica)', 'Anti-GQ1b (gangliosídeo da síndrome de Miller Fisher)', 'Anti-Hu (antígeno neuronal nuclear)'],
     g: 'B',
     c: 'Parte dos pacientes sem anticorpo antirreceptor tem anticorpos contra a MuSK, proteína que organiza o agrupamento dos receptores na placa. Esse subgrupo tem predomínio feminino, fraqueza bulbar e respiratória marcada, resposta ruim aos anticolinesterásicos, sem associação com timoma e sem benefício claro da timectomia.',
     x: { A: 'O anti-Jo-1 marca a síndrome antissintetase das miopatias inflamatórias.', C: 'O anti-GQ1b está associado à síndrome de Miller Fisher.', D: 'O anti-Hu é um anticorpo paraneoplásico ligado a neuronopatia sensitiva e encefalite.' },
@@ -53,7 +53,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Miastenia gravis: timectomia',
     e: 'Sobre a timectomia na miastenia gravis, é correto afirmar que:',
-    o: ['Está indicada apenas quando há timoma', 'Está indicada no timoma e também beneficia pacientes sem timoma com doença generalizada e anticorpo antirreceptor positivo', 'Deve ser realizada em caráter de urgência durante a crise miastênica', 'É o tratamento de escolha na miastenia com anticorpo anti-MuSK'],
+    o: ['Está indicada apenas quando há timoma, e em nenhum outro caso', 'Indicada no timoma e na doença generalizada com anticorpo antirreceptor', 'Deve ser realizada em caráter de urgência durante a crise miastênica', 'É o tratamento de escolha na miastenia com anticorpo anti-MuSK'],
     g: 'B',
     c: 'No timoma a ressecção é oncológica e obrigatória. Na miastenia generalizada não timomatosa com anticorpo antirreceptor positivo, ensaio clínico randomizado mostrou que a timectomia melhora o controle clínico e reduz a necessidade de corticoide. É cirurgia eletiva, com o paciente compensado.',
     x: { A: 'O benefício também foi demonstrado em pacientes sem timoma com doença generalizada soropositiva.', C: 'Operar em crise eleva o risco; o paciente deve ser estabilizado antes.', D: 'Na forma anti-MuSK não há evidência de benefício da timectomia.' },
@@ -61,7 +61,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Miastenia gravis: tratamento sintomático',
     e: 'O medicamento de primeira linha para o controle sintomático da miastenia gravis e seu mecanismo de ação são:',
-    o: ['Prednisona; redução da produção de anticorpos', 'Piridostigmina; inibição da acetilcolinesterase na fenda sináptica', 'Atropina; bloqueio de receptores muscarínicos', 'Riluzol; redução da liberação de glutamato'],
+    o: ['Prednisona; redução da produção de anticorpos antirreceptor', 'Piridostigmina; inibição da acetilcolinesterase na fenda sináptica', 'Atropina; bloqueio de receptores muscarínicos periféricos', 'Riluzol; redução da liberação de glutamato pré-sináptico'],
     g: 'B',
     c: 'A piridostigmina inibe a enzima que degrada a acetilcolina, prolongando sua permanência na fenda e aumentando a chance de ativação dos receptores remanescentes. Melhora os sintomas sem alterar o processo autoimune; os efeitos adversos são muscarínicos, como cólicas, diarreia, sialorreia e bradicardia.',
     x: { A: 'A prednisona é imunossupressor modificador da doença, não tratamento sintomático.', C: 'A atropina apenas trata efeitos muscarínicos do excesso de anticolinesterásico.', D: 'O riluzol é usado na esclerose lateral amiotrófica.' },
@@ -69,7 +69,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Miastenia gravis: imunossupressão',
     e: 'Paciente com miastenia gravis generalizada mantém sintomas limitantes apesar de dose otimizada de piridostigmina. O próximo passo terapêutico é:',
-    o: ['Aumentar indefinidamente a piridostigmina', 'Associar corticoide, com início em dose baixa e aumento gradual, e considerar poupador como azatioprina', 'Suspender a piridostigmina e iniciar apenas fisioterapia', 'Iniciar aminoglicosídeo profilático'],
+    o: ['Aumentar indefinidamente a dose de piridostigmina até a resposta', 'Associar corticoide em dose baixa crescente e poupador como azatioprina', 'Suspender a piridostigmina e iniciar apenas fisioterapia', 'Iniciar aminoglicosídeo profilático para evitar infecções'],
     g: 'B',
     c: 'Quando o anticolinesterásico não basta, é preciso atuar no processo autoimune com corticoide, frequentemente associado a um poupador como azatioprina ou micofenolato. O corticoide em dose alta de início pode piorar transitoriamente a fraqueza nas primeiras semanas, daí o escalonamento progressivo em pacientes ambulatoriais.',
     x: { A: 'Doses excessivas de anticolinesterásico podem causar crise colinérgica, sem controlar a doença.', C: 'Retirar o tratamento sintomático pioraria o quadro e não aborda a autoimunidade.', D: 'Aminoglicosídeos pioram a transmissão neuromuscular e são contraindicados.' },
@@ -77,7 +77,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Crise miastênica',
     e: 'Mulher de 40 anos com miastenia gravis é internada por pneumonia e evolui com disfagia, tosse fraca, uso de musculatura acessória e queda da capacidade vital. Após proteção de via aérea e suporte ventilatório, o tratamento específico de ação rápida é:',
-    o: ['Azatioprina por via oral', 'Imunoglobulina intravenosa ou plasmaférese', 'Timectomia de urgência', 'Aumento da piridostigmina para dose máxima'],
+    o: ['Azatioprina por via oral, em dose plena', 'Imunoglobulina intravenosa ou plasmaférese', 'Timectomia de urgência durante a crise', 'Aumento da piridostigmina para a dose máxima tolerada'],
     g: 'B',
     c: 'A crise miastênica é a fraqueza respiratória ou bulbar que exige suporte ventilatório, geralmente precipitada por infecção. Imunoglobulina e plasmaférese agem em dias, neutralizando ou removendo anticorpos, e são as terapias de resgate. Os imunossupressores orais demoram semanas a meses.',
     x: { A: 'A azatioprina leva meses para ter efeito e não serve como terapia de resgate.', C: 'A timectomia é eletiva e contraindicada em paciente instável.', D: 'Aumentar o anticolinesterásico eleva secreções e pode dificultar o manejo ventilatório.' },
@@ -85,7 +85,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Crise miastênica x crise colinérgica',
     e: 'Paciente miastênico em uso de doses elevadas de piridostigmina apresenta piora da fraqueza, acompanhada de miose, sialorreia, broncorreia, cólicas abdominais, diarreia, bradicardia e fasciculações. O quadro corresponde a:',
-    o: ['Crise miastênica por subdose', 'Crise colinérgica por excesso de anticolinesterásico', 'Síndrome de Lambert-Eaton associada', 'Intoxicação por toxina botulínica'],
+    o: ['Crise miastênica por subdose de anticolinesterásico', 'Crise colinérgica por excesso de anticolinesterásico', 'Síndrome de Lambert-Eaton associada a neoplasia', 'Intoxicação por toxina botulínica alimentar'],
     g: 'B',
     c: 'O excesso de acetilcolina mantém a placa motora despolarizada, o que bloqueia a transmissão e causa fraqueza com fasciculações, além de hiperestimulação muscarínica (miose, secreções, diarreia, bradicardia). Na crise miastênica faltam esses sinais. A conduta é suspender o anticolinesterásico e garantir suporte ventilatório.',
     x: { A: 'Na crise miastênica não há miose, sialorreia, diarreia nem fasciculações.', C: 'Lambert-Eaton cursa com boca seca e hiporreflexia, e não com hipersecreção.', D: 'O botulismo produz midríase e boca seca, o oposto do quadro colinérgico.' },
@@ -101,7 +101,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Miastenia neonatal',
     e: 'Recém-nascido de mãe com miastenia gravis apresenta, nas primeiras 48 horas de vida, hipotonia, choro fraco e dificuldade de sucção. Sobre essa condição, é correto afirmar que:',
-    o: ['Trata-se de doença genética permanente da placa motora', 'É transitória, causada pela passagem transplacentária de anticorpos maternos', 'Indica timectomia no recém-nascido', 'Ocorre apenas se a mãe estiver em crise miastênica no parto'],
+    o: ['Trata-se de doença genética permanente da placa motora, de herança recessiva', 'É transitória, causada pela passagem transplacentária de anticorpos', 'Indica timectomia no recém-nascido nas primeiras semanas', 'Ocorre apenas se a mãe estiver em crise miastênica no parto'],
     g: 'B',
     c: 'Os anticorpos antirreceptor da classe IgG atravessam a placenta e causam miastenia neonatal transitória em uma parcela dos filhos de mães miastênicas. O quadro dura semanas, enquanto os anticorpos maternos são catabolizados, e o tratamento é de suporte, com anticolinesterásico quando necessário.',
     x: { A: 'As síndromes miastênicas congênitas são genéticas, mas o quadro descrito é adquirido e transitório.', C: 'Não há indicação de timectomia, pois o recém-nascido não produz os anticorpos.', D: 'A ocorrência não depende da gravidade da doença materna.' },
@@ -109,7 +109,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Lambert-Eaton',
     e: 'Homem de 62 anos, tabagista, queixa-se de dificuldade para subir escadas e levantar da cadeira, boca seca e disfunção erétil. Ao exame: fraqueza proximal de membros inferiores e reflexos hipoativos, que se tornam mais nítidos após contração voluntária sustentada por alguns segundos. O diagnóstico e a neoplasia a ser pesquisada são:',
-    o: ['Miastenia gravis; timoma', 'Síndrome de Lambert-Eaton; carcinoma de pequenas células do pulmão', 'Polimiosite; linfoma', 'Dermatomiosite; carcinoma de ovário'],
+    o: ['Miastenia gravis; timoma no mediastino anterior', 'Lambert-Eaton; carcinoma de pequenas células do pulmão', 'Polimiosite; linfoma não Hodgkin associado', 'Dermatomiosite; carcinoma de ovário associado'],
     g: 'B',
     c: 'Na síndrome de Lambert-Eaton, anticorpos contra canais de cálcio voltagem-dependentes pré-sinápticos reduzem a liberação de acetilcolina na placa e nas sinapses autonômicas. O esforço breve acumula cálcio no terminal e facilita a liberação, o que explica a melhora transitória da força e dos reflexos. Mais da metade dos casos é paraneoplásica.',
     x: { A: 'A miastenia predomina em musculatura ocular e bulbar, com reflexos normais e sem disautonomia.', C: 'A polimiosite não causa disautonomia nem facilitação dos reflexos após esforço.', D: 'A dermatomiosite exige lesões cutâneas típicas, ausentes no caso.' },
@@ -117,7 +117,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Lambert-Eaton: eletrofisiologia',
     e: 'O achado eletrofisiológico que diferencia a síndrome de Lambert-Eaton da miastenia gravis é:',
-    o: ['Decremento à estimulação repetitiva de baixa frequência', 'Potencial de ação muscular de baixa amplitude em repouso, com incremento acentuado após exercício breve ou estimulação de alta frequência', 'Bloqueio de condução motora multifocal', 'Potenciais de fibrilação difusos com condução sensitiva abolida'],
+    o: ['Decremento à estimulação repetitiva de baixa frequência (3 Hz)', 'Potencial muscular baixo em repouso, com incremento após exercício breve', 'Bloqueio de condução motora multifocal, com anticorpo anti-GM1', 'Potenciais de fibrilação difusos com condução sensitiva abolida'],
     g: 'B',
     c: 'No defeito pré-sináptico a quantidade de acetilcolina liberada em repouso é baixa, gerando potenciais pequenos. A estimulação rápida ou o esforço máximo breve acumulam cálcio no terminal e aumentam a liberação, com incremento superior a 100% da amplitude. O decremento em baixa frequência ocorre nas duas doenças.',
     x: { A: 'O decremento em baixa frequência é comum às duas doenças e não as distingue.', C: 'O bloqueio de condução é achado de neuropatias desmielinizantes.', D: 'Fibrilações com perda sensitiva indicam neuropatia axonal, não doença de placa.' },
@@ -125,7 +125,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Botulismo: tratamento',
     e: 'Paciente com paralisia flácida descendente, midríase e disfagia após consumo de conserva caseira tem diagnóstico clínico de botulismo alimentar. A conduta correta é:',
-    o: ['Aguardar a confirmação laboratorial da toxina para iniciar tratamento', 'Notificar, administrar antitoxina botulínica precocemente e garantir suporte ventilatório', 'Administrar imunoglobulina intravenosa em dose imunomoduladora', 'Iniciar piridostigmina e dar alta com retorno em 48 horas'],
+    o: ['Aguardar a confirmação laboratorial da toxina para iniciar tratamento', 'Notificar, dar antitoxina botulínica precoce e garantir suporte ventilatório', 'Administrar imunoglobulina intravenosa em dose imunomoduladora', 'Iniciar piridostigmina e dar alta com retorno em 48 horas'],
     g: 'B',
     c: 'A antitoxina neutraliza apenas a toxina ainda circulante, não revertendo a que já se ligou ao terminal nervoso; por isso deve ser dada o mais cedo possível, com base na suspeita clínica. A recuperação depende do brotamento de novos terminais e leva semanas, período em que o suporte ventilatório é decisivo. É doença de notificação compulsória imediata.',
     x: { A: 'Esperar o resultado laboratorial atrasa a antitoxina, cujo benefício depende da precocidade.', C: 'A imunoglobulina trata a síndrome de Guillain-Barré, sem efeito no botulismo.', D: 'O anticolinesterásico não reverte o bloqueio, e a alta é perigosa pelo risco respiratório.' },
@@ -133,7 +133,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Botulismo do lactente',
     e: 'Lactente de 5 meses, previamente hígido, apresenta constipação há 5 dias, seguida de sucção débil, choro fraco, ptose e hipotonia generalizada. A mãe relata uso de mel para adoçar a chupeta. O mecanismo da doença é:',
-    o: ['Ingestão de toxina pré-formada no alimento', 'Ingestão de esporos, com colonização intestinal e produção local de toxina', 'Infecção viral dos neurônios do corno anterior', 'Passagem transplacentária de anticorpos antirreceptor de acetilcolina'],
+    o: ['Ingestão de toxina pré-formada em alimento contaminado, de início rápido', 'Ingestão de esporos, com produção local de toxina no intestino', 'Infecção viral dos neurônios do corno anterior da medula', 'Passagem transplacentária de anticorpos antirreceptor de acetilcolina'],
     g: 'B',
     c: 'No botulismo do lactente, os esporos de Clostridium botulinum presentes no mel ou na poeira germinam no intestino, cuja microbiota ainda é imatura, e produzem toxina localmente. A constipação costuma ser o primeiro sinal, seguida de paralisia flácida descendente. Por isso o mel é contraindicado no primeiro ano de vida.',
     x: { A: 'A toxina pré-formada é o mecanismo do botulismo alimentar do adulto.', C: 'A lesão do corno anterior ocorre na poliomielite e na atrofia muscular espinhal, sem ptose e constipação iniciais.', D: 'A miastenia neonatal transitória surge nos primeiros dias de vida de filhos de mães miastênicas.' },
@@ -149,7 +149,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Polimiosite: padrão clínico',
     e: 'Nas miopatias inflamatórias do tipo polimiosite, o padrão clínico e laboratorial esperado é:',
-    o: ['Fraqueza distal assimétrica, arreflexia e hipoestesia em botas e luvas', 'Fraqueza proximal simétrica subaguda, enzimas musculares elevadas, reflexos e sensibilidade preservados', 'Fraqueza flutuante com ptose e diplopia', 'Fraqueza com fasciculações e sinal de Babinski'],
+    o: ['Fraqueza distal assimétrica, arreflexia e hipoestesia em botas e luvas', 'Fraqueza proximal simétrica subaguda, com CK alta e sensibilidade preservada', 'Fraqueza flutuante com ptose, diplopia e piora ao fim do dia', 'Fraqueza com fasciculações, sinal de Babinski e atrofia'],
     g: 'B',
     c: 'A agressão inflamatória mediada por linfócitos T citotóxicos destrói fibras musculares, sobretudo das cinturas, liberando creatinofosfoquinase e aldolase. Como nervo e junção estão íntegros, sensibilidade e reflexos são preservados e a musculatura ocular é poupada. O tratamento inicial é corticoide, com imunossupressor associado.',
     x: { A: 'Padrão distal com arreflexia e perda sensitiva caracteriza polineuropatia.', C: 'Fraqueza flutuante com sintomas oculares é própria da miastenia gravis.', D: 'Fasciculações com Babinski indicam doença do neurônio motor.' },
@@ -157,7 +157,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Miosite por corpos de inclusão',
     e: 'Homem de 68 anos apresenta, há 3 anos, quedas frequentes por fraqueza do quadríceps e dificuldade para segurar objetos por fraqueza dos flexores dos dedos, de forma assimétrica. A creatinofosfoquinase está pouco elevada e não houve resposta ao corticoide. O diagnóstico mais provável é:',
-    o: ['Polimiosite', 'Miosite por corpos de inclusão', 'Dermatomiosite amiopática', 'Miopatia por hipotireoidismo'],
+    o: ['Polimiosite com resposta ao corticoide', 'Miosite por corpos de inclusão', 'Dermatomiosite amiopática com rash', 'Miopatia por hipotireoidismo grave'],
     g: 'B',
     c: 'A miosite por corpos de inclusão é a miopatia adquirida mais comum após os 50 anos, com predomínio em homens. Acomete seletivamente quadríceps e flexores longos dos dedos, de modo lento e assimétrico, e tem componente degenerativo com vacúolos marginados na biópsia, o que explica a refratariedade à imunossupressão.',
     x: { A: 'A polimiosite é simétrica, proximal, subaguda e costuma responder ao corticoide.', C: 'A forma amiopática tem lesões cutâneas típicas sem fraqueza significativa.', D: 'A miopatia hipotireoidea é proximal, com cãibras e reflexos de relaxamento lento.' },
@@ -173,7 +173,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Distrofia de Becker',
     e: 'Em relação à distrofia muscular de Duchenne, a distrofia muscular de Becker caracteriza-se por:',
-    o: ['Herança autossômica dominante e início no período neonatal', 'Distrofina reduzida ou parcialmente funcional, início mais tardio e evolução mais lenta', 'Ausência de acometimento cardíaco', 'Acometimento exclusivo de meninas'],
+    o: ['Herança autossômica dominante e início no período neonatal precoce', 'Distrofina parcialmente funcional, início mais tardio e evolução lenta', 'Ausência de acometimento cardíaco, mesmo em fases tardias', 'Acometimento exclusivo de meninas, por herança ligada ao X dominante'],
     g: 'B',
     c: 'As duas doenças são alélicas, ligadas ao X. Em Becker a mutação preserva a fase de leitura do gene e permite a síntese de uma distrofina encurtada, mas parcialmente funcional, o que explica o início mais tardio e a deambulação preservada até a adolescência ou a vida adulta. A cardiomiopatia dilatada pode ser a manifestação dominante.',
     x: { A: 'A herança é recessiva ligada ao X, igual à da distrofia de Duchenne.', C: 'A cardiomiopatia é frequente e pode ser desproporcional à fraqueza esquelética.', D: 'Por ser ligada ao X, acomete essencialmente meninos.' },
@@ -181,7 +181,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Distrofia miotônica',
     e: 'Homem de 32 anos refere dificuldade para soltar objetos depois de apertá-los. Ao exame: calvície frontal, face alongada com atrofia temporal, ptose discreta, fraqueza distal e catarata. O pai tinha quadro semelhante, mais leve e de início mais tardio. Além do acompanhamento neurológico, é essencial pesquisar:',
-    o: ['Timoma', 'Distúrbios de condução cardíaca', 'Neoplasia pulmonar', 'Hiperplasia tímica'],
+    o: ['Timoma, com risco de miastenia associada', 'Distúrbios de condução cardíaca (BAV)', 'Neoplasia pulmonar de pequenas células', 'Hiperplasia tímica com anticorpo antirreceptor'],
     g: 'B',
     c: 'A distrofia miotônica tipo 1 é a distrofia mais comum do adulto, autossômica dominante, por expansão de trinucleotídeos CTG, com antecipação entre as gerações. É multissistêmica: miotonia, fraqueza distal e facial, catarata, calvície, resistência à insulina, hipogonadismo e, sobretudo, bloqueios e arritmias, causa de morte súbita.',
     x: { A: 'O timoma associa-se à miastenia gravis, não às distrofias musculares.', C: 'Neoplasia pulmonar é pesquisada na síndrome de Lambert-Eaton.', D: 'A hiperplasia tímica é achado da miastenia gravis de início precoce.' },
@@ -197,7 +197,7 @@ export const MOTORAS_3: QuestaoCompacta[] = [
   {
     s: 'Paralisia periódica hipocalêmica',
     e: 'Homem de 27 anos, de ascendência asiática, acorda sem conseguir mover as pernas após jantar rico em carboidratos na véspera. Refere emagrecimento, palpitações e tremor nos últimos meses. Ao exame: tetraparesia flácida de predomínio proximal, reflexos hipoativos, sensibilidade normal e frequência cardíaca de 112 bpm. Potássio sérico de 2,1 mEq/L. O diagnóstico mais provável é:',
-    o: ['Síndrome de Guillain-Barré', 'Paralisia periódica hipocalêmica tireotóxica', 'Miastenia gravis em crise', 'Mielite transversa cervical'],
+    o: ['Síndrome de Guillain-Barré, forma axonal aguda', 'Paralisia periódica hipocalêmica tireotóxica', 'Miastenia gravis em crise respiratória', 'Mielite transversa cervical aguda'],
     g: 'B',
     c: 'Na paralisia periódica hipocalêmica, o potássio desloca-se subitamente para o meio intracelular, tornando a fibra muscular inexcitável. As crises são desencadeadas por carboidratos, que elevam a insulina, e por repouso após exercício. A forma associada ao hipertireoidismo é mais comum em homens asiáticos, e o tratamento inclui reposição cautelosa de potássio, betabloqueador e controle da tireotoxicose.',
     x: { A: 'Guillain-Barré evolui em dias, com parestesias e potássio normal.', C: 'A crise miastênica tem sintomas oculares e bulbares e não cursa com hipocalemia.', D: 'A mielite causa nível sensitivo e disfunção esfincteriana, ausentes no caso.' },

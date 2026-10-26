@@ -5,7 +5,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Prova tuberculínica',
     e: 'Sobre a técnica e a leitura da prova tuberculínica (PPD), assinale a alternativa correta.',
-    o: ['Aplicação subcutânea no deltoide; leitura do eritema em 24 horas', 'Aplicação intradérmica no antebraço; leitura em 48 a 72 horas, medindo em milímetros o maior diâmetro transverso da enduração', 'Aplicação intramuscular no glúteo; leitura da enduração em 7 dias', 'Aplicação intradérmica no antebraço; leitura em 48 a 72 horas, medindo o diâmetro do eritema'],
+    o: ['Aplicação subcutânea no deltoide; leitura do eritema em 24 horas, em milímetros', 'Intradérmica no antebraço; leitura em 48-72 h do maior diâmetro transverso da enduração', 'Aplicação intramuscular no glúteo; leitura da enduração em 7 dias, em milímetros', 'Intradérmica no antebraço; leitura em 48-72 h, medindo o diâmetro do eritema'],
     g: 'B',
     c: 'Aplica-se 0,1 mL de derivado proteico purificado por via intradérmica no terço médio da face anterior do antebraço esquerdo. A leitura é feita em 48 a 72 horas (aceita-se até 96 horas), pois se trata de hipersensibilidade tardia mediada por linfócitos T. Mede-se apenas a área endurecida palpável, que reflete o infiltrado celular; o eritema é desprezado.',
     x: { A: 'A via não é subcutânea, o local não é o deltoide e 24 horas é cedo para uma reação tardia.', C: 'A aplicação intramuscular não produz a reação cutânea legível, e a leitura não é feita em 7 dias.', D: 'O eritema não é medido; apenas a enduração tem valor.' },
@@ -29,7 +29,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Infecção latente',
     e: 'Mulher de 40 anos, candidata a tratamento de infecção latente por prova tuberculínica de 12 mm, refere tosse há 4 semanas e perda de peso. Antes de prescrever o tratamento da infecção latente, é obrigatório:',
-    o: ['Repetir a prova tuberculínica para confirmar o resultado', 'Excluir tuberculose ativa por avaliação clínica, radiografia de tórax e exame de escarro', 'Solicitar IGRA, que diferencia infecção de doença', 'Iniciar isoniazida de imediato, pois os sintomas são inespecíficos'],
+    o: ['Repetir a prova tuberculínica em 8 semanas para confirmar o resultado', 'Excluir tuberculose ativa por clínica, radiografia de tórax e exame de escarro', 'Solicitar IGRA, que diferencia infecção latente de doença ativa', 'Iniciar isoniazida de imediato, pois os sintomas são inespecíficos'],
     g: 'B',
     c: 'Prova tuberculínica e IGRA apenas indicam infecção. O tratamento da infecção latente usa um ou dois fármacos; se houver doença ativa, a população bacilar é grande e a monoterapia seleciona mutantes resistentes. Por isso toda indicação de tratamento da infecção latente exige antes a exclusão de doença ativa, e esta paciente é sintomática respiratória.',
     x: { A: 'Repetir a prova não acrescenta informação e não exclui doença.', C: 'O IGRA também não distingue infecção latente de doença ativa.', D: 'Tratar com isoniazida isolada uma possível doença ativa induz resistência.' },
@@ -53,7 +53,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Conversão tuberculínica',
     e: 'Técnica de enfermagem de 29 anos, que trabalha em enfermaria de pneumologia, tinha prova tuberculínica de 2 mm no exame admissional e apresenta 14 mm no exame periódico, 1 ano depois. Está assintomática, com radiografia de tórax normal. A interpretação e a conduta são:',
-    o: ['Efeito da BCG da infância; nenhuma conduta', 'Conversão tuberculínica, indicando infecção recente; tratar a infecção latente', 'Tuberculose ativa; iniciar o esquema básico', 'Resultado indeterminado; substituir a prova por baciloscopia anual'],
+    o: ['Efeito da BCG da infância; nenhuma conduta e reavaliação anual', 'Conversão tuberculínica, infecção recente; tratar a infecção latente', 'Tuberculose ativa pulmonar; iniciar o esquema básico por 6 meses', 'Resultado indeterminado; substituir a prova por baciloscopia anual'],
     g: 'B',
     c: 'Considera-se conversão o incremento de pelo menos 10 mm em relação à prova anterior, o que indica infecção recente, a situação de maior risco de adoecimento. Em profissionais de saúde e contatos, a conversão é indicação de tratamento da infecção latente após exclusão da doença ativa.',
     x: { A: 'A reação pela BCG da infância se atenua com os anos e não explica um salto de 12 mm em 1 ano.', C: 'Sem sintomas e com radiografia normal não há doença ativa.', D: 'O resultado é claro e a baciloscopia não rastreia infecção em assintomáticos.' },
@@ -69,7 +69,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Infecção latente no HIV',
     e: 'Homem de 37 anos, recém-diagnosticado com HIV, CD4 de 210 células/mm3, assintomático respiratório, radiografia de tórax normal, sem história de tratamento de tuberculose. A prova tuberculínica não está disponível. Em relação à infecção latente, a conduta é:',
-    o: ['Aguardar a disponibilidade da prova tuberculínica para decidir', 'Indicar o tratamento da infecção latente, independentemente da prova tuberculínica', 'Não tratar, pois com CD4 baixo o tratamento é ineficaz', 'Iniciar o esquema básico para doença ativa'],
+    o: ['Aguardar a disponibilidade da prova tuberculínica para decidir', 'Tratar a infecção latente, independentemente da prova tuberculínica', 'Não tratar, pois com CD4 baixo o tratamento é ineficaz e tóxico', 'Iniciar o esquema básico para doença ativa, sem outros exames'],
     g: 'B',
     c: 'Em pessoas vivendo com HIV com CD4 de 350 células/mm3 ou menos, o tratamento da infecção latente é indicado independentemente da prova tuberculínica ou do IGRA, desde que excluída a doença ativa. O risco de adoecer é muito alto, e nessa faixa de CD4 a prova tem muitos falso-negativos por anergia. Com CD4 acima de 350, a indicação depende de prova de 5 mm ou mais ou IGRA positivo.',
     x: { A: 'Com CD4 de 350 ou menos a prova não é necessária e sua falta não deve atrasar a conduta.', C: 'O tratamento é eficaz e reduz adoecimento e mortalidade justamente nos mais imunossuprimidos.', D: 'Não há evidência de doença ativa: paciente assintomático e radiografia normal.' },
@@ -77,7 +77,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Infecção latente no HIV',
     e: 'Mulher de 30 anos, vivendo com HIV, CD4 de 620 células/mm3, assintomática, radiografia de tórax normal. O companheiro, com quem mora, iniciou tratamento de tuberculose pulmonar bacilífera. Prova tuberculínica: 0 mm. A conduta é:',
-    o: ['Repetir a prova em 8 semanas e tratar apenas se houver conversão', 'Tratar a infecção latente, pois em pessoas vivendo com HIV o contato com tuberculose pulmonar indica tratamento independentemente da prova', 'Não tratar, pois o CD4 é superior a 350', 'Iniciar o esquema básico por 6 meses'],
+    o: ['Repetir a prova em 8 semanas e tratar apenas se houver conversão tuberculínica', 'Tratar a infecção latente, pois em pessoas com HIV o contato indica tratamento', 'Não tratar, pois o CD4 é superior a 350 e a paciente é assintomática', 'Iniciar o esquema básico por 6 meses, como em doença ativa'],
     g: 'B',
     c: 'Pessoas vivendo com HIV que são contatos de caso de tuberculose pulmonar ou laríngea devem receber tratamento da infecção latente independentemente do resultado da prova tuberculínica ou do IGRA e do CD4, após exclusão de doença ativa. O risco de progressão rápida para doença é muito elevado, e a prova pode ser falsamente negativa.',
     x: { A: 'A estratégia de repetir em 8 semanas vale para contatos sem HIV; aqui não se espera.', C: 'O CD4 acima de 350 não afasta a indicação quando há contato com caso bacilífero.', D: 'Não há sinais de doença ativa que justifiquem o esquema básico.' },
@@ -85,7 +85,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Imunobiológicos',
     e: 'Homem de 42 anos, com espondilite anquilosante refratária, tem indicação de adalimumabe. Está assintomático, com radiografia de tórax normal e prova tuberculínica de 8 mm. A conduta é:',
-    o: ['Iniciar o adalimumabe, pois o ponto de corte nesse caso é de 10 mm', 'Tratar a infecção latente e iniciar o adalimumabe preferencialmente após pelo menos 1 mês desse tratamento', 'Contraindicar definitivamente qualquer bloqueador de TNF', 'Iniciar o adalimumabe junto com o esquema RHZE'],
+    o: ['Iniciar o adalimumabe, pois o ponto de corte nesse caso é de 10 mm', 'Tratar a infecção latente e iniciar o adalimumabe de preferência após 1 mês', 'Contraindicar definitivamente qualquer bloqueador de TNF nesses casos', 'Iniciar o adalimumabe junto com o esquema RHZE de tratamento'],
     g: 'B',
     c: 'O TNF alfa é essencial para formar e manter o granuloma que contém o bacilo; seu bloqueio desorganiza o granuloma e reativa a infecção, muitas vezes de forma extrapulmonar ou disseminada. Todo candidato a anti-TNF deve ser rastreado; com prova de 5 mm ou mais (ou IGRA positivo) e doença ativa excluída, trata-se a infecção latente, iniciando o imunobiológico idealmente após pelo menos 1 mês.',
     x: { A: 'Para candidatos a imunobiológicos o corte é de 5 mm.', C: 'A infecção latente não contraindica o anti-TNF; apenas exige tratamento prévio.', D: 'O esquema com quatro fármacos trata doença ativa, que não está presente.' },
@@ -93,7 +93,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Indicações de tratamento',
     e: 'Homem de 58 anos, em hemodiálise há 2 anos, assintomático, sem contato conhecido com tuberculose, radiografia de tórax normal. Prova tuberculínica: 11 mm. A conduta é:',
-    o: ['Nenhuma, pois só se trata infecção latente em contatos e pessoas com HIV', 'Tratar a infecção latente, pois na doença renal em diálise o ponto de corte é de 10 mm', 'Iniciar o esquema básico', 'Repetir a prova a cada 6 meses e tratar se atingir 15 mm'],
+    o: ['Nenhuma, pois só se trata infecção latente em contatos e pessoas com HIV', 'Tratar a infecção latente, pois em diálise o ponto de corte é de 10 mm', 'Iniciar o esquema básico para tuberculose em doença renal crônica', 'Repetir a prova a cada 6 meses e tratar se atingir 15 mm'],
     g: 'B',
     c: 'Algumas condições aumentam o risco de reativação, e nelas a prova tuberculínica de 10 mm ou mais (ou IGRA positivo) indica tratamento: insuficiência renal em diálise, diabetes melito, silicose, neoplasias de cabeça e pescoço e hematológicas, baixo peso, tabagismo intenso e calcificação isolada na radiografia. A uremia deprime a imunidade celular, o que explica o risco no dialítico.',
     x: { A: 'As indicações vão além de contatos e HIV e incluem várias condições de imunodepressão.', C: 'Não há doença ativa: paciente assintomático com radiografia normal.', D: 'O corte de 10 mm já foi atingido; 15 mm não é critério para esse grupo.' },
@@ -109,7 +109,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Esquemas de tratamento',
     e: 'Paciente de 28 anos em tratamento de infecção latente com isoniazida tomou o medicamento de forma irregular e, ao final de 9 meses de calendário, havia ingerido 200 doses. Para considerar o tratamento completo no esquema de 270 doses, a orientação é:',
-    o: ['Encerrar, pois o que conta é o tempo de 9 meses', 'Continuar até completar as 270 doses, desde que em até 12 meses', 'Reiniciar do zero todo o tratamento', 'Trocar para o esquema básico com RHZE'],
+    o: ['Encerrar, pois o que conta é o tempo de 9 meses de uso do fármaco', 'Continuar até completar as 270 doses, desde que em até 12 meses', 'Reiniciar do zero todo o tratamento, com nova avaliação', 'Trocar para o esquema básico com RHZE por 6 meses'],
     g: 'B',
     c: 'No tratamento da infecção latente o mais importante é o número de doses ingeridas, não o tempo de calendário. Com isoniazida, recomendam-se 270 doses tomadas em 9 a 12 meses (aceitam-se 180 doses em 6 a 9 meses, com menor proteção). Com rifampicina, 120 doses em 4 a 6 meses.',
     x: { A: 'O critério de conclusão é o número de doses, não a data.', C: 'Não há necessidade de reiniciar se as doses forem completadas dentro do prazo máximo.', D: 'O esquema RHZE trata doença ativa e não tem indicação aqui.' },
@@ -117,7 +117,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Esquemas de tratamento',
     e: 'O esquema 3HP para tratamento da infecção latente pelo Mycobacterium tuberculosis consiste em:',
-    o: ['Isoniazida e pirazinamida diárias por 3 meses', 'Rifapentina e isoniazida uma vez por semana, por 3 meses (12 doses)', 'Rifampicina, isoniazida e pirazinamida diárias por 3 meses', 'Rifapentina diária por 3 semanas'],
+    o: ['Isoniazida e pirazinamida diárias por 3 meses (90 doses)', 'Rifapentina e isoniazida uma vez por semana, por 3 meses (12 doses)', 'Rifampicina, isoniazida e pirazinamida diárias por 3 meses', 'Rifapentina em dose única diária por 3 semanas consecutivas'],
     g: 'B',
     c: 'O esquema 3HP associa rifapentina, uma rifamicina de meia-vida longa que permite dose semanal, à isoniazida em altas doses, em 12 tomadas semanais. A eficácia é semelhante à da isoniazida prolongada, com adesão muito maior e menos hepatotoxicidade. Como toda rifamicina, induz o citocromo P450 e exige atenção a interações.',
     x: { A: 'A pirazinamida não faz parte dos esquemas atuais de infecção latente, por hepatotoxicidade.', C: 'Essa tríade é a fase intensiva do tratamento da doença ativa na criança.', D: 'A rifapentina não é usada isoladamente nem por apenas 3 semanas nesse esquema.' },
@@ -125,7 +125,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Recém-nascido contato',
     e: 'Recém-nascido a termo, 3.200 g, assintomático, filho de mãe com tuberculose pulmonar bacilífera diagnosticada 1 semana antes do parto. A conduta em relação ao recém-nascido é:',
-    o: ['Vacinar com BCG ao nascer e suspender o aleitamento materno', 'Não vacinar com BCG, iniciar quimioprofilaxia primária com isoniazida por 3 meses e então realizar a prova tuberculínica', 'Vacinar com BCG e iniciar isoniazida simultaneamente', 'Iniciar o esquema com três fármacos por 6 meses'],
+    o: ['Vacinar com BCG ao nascer e suspender o aleitamento materno', 'Não vacinar com BCG; isoniazida por 3 meses e então prova tuberculínica', 'Vacinar com BCG e iniciar isoniazida simultaneamente por 3 meses', 'Iniciar o esquema com três fármacos por 6 meses de tratamento'],
     g: 'B',
     c: 'O recém-nascido exposto a caso bacilífero recebe quimioprofilaxia primária: adia-se a BCG e inicia-se isoniazida por 3 meses, quando se faz a prova tuberculínica. Se for de 5 mm ou mais, mantém-se a isoniazida por mais 3 meses e não se vacina; se menor que 5 mm, suspende-se o fármaco e aplica-se a BCG. A BCG é adiada porque a isoniazida mataria o bacilo vacinal e a vacina atrapalharia a leitura da prova. Normas recentes admitem rifampicina como alternativa.',
     x: { A: 'O aleitamento é mantido, com a mãe usando máscara; e a BCG deve ser adiada.', C: 'A isoniazida inativa o bacilo vivo da vacina, tornando a aplicação simultânea inútil.', D: 'O esquema de doença ativa só se justifica se houver sinais de tuberculose congênita ou neonatal.' },
@@ -133,7 +133,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Vacina BCG',
     e: 'A principal proteção conferida pela vacina BCG aplicada ao nascer é contra:',
-    o: ['A infecção pelo Mycobacterium tuberculosis em qualquer idade', 'As formas graves de tuberculose na infância, como a miliar e a meníngea', 'A tuberculose pulmonar bacilífera do adulto', 'A reativação de infecção latente em idosos'],
+    o: ['A infecção pelo Mycobacterium tuberculosis em qualquer idade', 'As formas graves de tuberculose na infância, como a miliar e a meníngea', 'A tuberculose pulmonar bacilífera do adulto jovem e do idoso', 'A reativação de infecção latente em idosos e imunossuprimidos'],
     g: 'B',
     c: 'A BCG é uma cepa viva atenuada de Mycobacterium bovis. Não impede a infecção nem protege de modo consistente contra a tuberculose pulmonar do adulto, mas reduz de forma importante a disseminação hematogênica da primoinfecção na criança, prevenindo as formas miliar e meníngea, que são as mais letais.',
     x: { A: 'A vacina não impede a infecção; o vacinado pode se infectar e ter prova tuberculínica reatora.', C: 'A proteção contra a forma pulmonar do adulto é variável e pouco confiável, por isso a vacina não controla a transmissão.', D: 'O efeito protetor diminui com os anos e não alcança a reativação na velhice.' },
@@ -149,7 +149,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Vacina BCG',
     e: 'Lactente de 6 semanas é trazido porque no local da BCG surgiu uma úlcera de 6 mm, com discreta secreção, sem linfonodos palpáveis e sem febre. A conduta é:',
-    o: ['Prescrever isoniazida até a cicatrização', 'Orientar que é a evolução normal da lesão vacinal e apenas manter o local limpo e seco, sem curativos ou pomadas', 'Drenar cirurgicamente e enviar material para cultura', 'Prescrever cefalexina por 7 dias'],
+    o: ['Prescrever isoniazida até a cicatrização completa da lesão', 'É evolução normal da lesão vacinal; manter local limpo e seco, sem curativos', 'Drenar cirurgicamente e enviar material para cultura de BAAR', 'Prescrever cefalexina por 7 dias e curativo oclusivo diário'],
     g: 'B',
     c: 'A lesão vacinal evolui de mácula a pápula, pústula e úlcera de 4 a 10 mm, que forma crosta e deixa cicatriz, processo que dura em média 6 a 12 semanas e pode chegar a 24 semanas. Trata-se da resposta granulomatosa local esperada ao bacilo vivo. Não se devem usar pomadas, curativos oclusivos ou medicamentos.',
     x: { A: 'A isoniazida é reservada aos eventos adversos, como úlcera maior que 1 cm que não cicatriza, abscesso frio ou linfadenite supurada.', C: 'Não há abscesso a drenar; manipular a lesão favorece infecção secundária.', D: 'Não há sinais de infecção bacteriana secundária que justifiquem antibiótico.' },
@@ -181,7 +181,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Vacina BCG',
     e: 'Recém-nascido a termo, saudável, filho de mãe com doença de Crohn que usou infliximabe até o terceiro trimestre da gestação. Em relação à BCG, a conduta é:',
-    o: ['Vacinar ao nascer, pois o medicamento foi usado pela mãe e não pela criança', 'Adiar a BCG, pois o anticorpo atravessa a placenta e permanece meses na circulação do lactente, com risco de doença disseminada pelo bacilo vacinal', 'Contraindicar definitivamente a BCG', 'Vacinar ao nascer e associar isoniazida profilática'],
+    o: ['Vacinar ao nascer, pois o medicamento foi usado pela mãe e não pela criança', 'Adiar a BCG: anticorpo transplacentário persiste meses, com risco de BCG disseminada', 'Contraindicar definitivamente a BCG, mesmo após meses de vida', 'Vacinar ao nascer e associar isoniazida profilática por 3 meses'],
     g: 'B',
     c: 'Os anticorpos monoclonais anti-TNF do tipo IgG são transportados ativamente pela placenta no fim da gestação e persistem por meses no lactente. Como o TNF é essencial para conter micobactérias, a aplicação de vacina de bactéria viva nesse período pode causar infecção disseminada pelo BCG, com casos fatais descritos. O prazo de adiamento varia entre as normas (6 a 12 meses).',
     x: { A: 'O fármaco chega ao feto pela placenta, de modo que o recém-nascido está imunossuprimido.', C: 'O efeito é transitório; a vacina é apenas adiada.', D: 'A isoniazida inativaria o bacilo vacinal e não torna segura a vacinação.' },
@@ -189,7 +189,7 @@ export const TB_3: QuestaoCompacta[] = [
   {
     s: 'Biossegurança',
     e: 'Homem de 48 anos é internado com tuberculose pulmonar cavitária, baciloscopia +++. As medidas de biossegurança adequadas no hospital são:',
-    o: ['Precaução de contato, com avental e luvas, em enfermaria comum', 'Precaução para aerossóis: quarto privativo, profissionais com respirador N95 ou PFF2 e máscara cirúrgica no paciente durante o transporte', 'Precaução para gotículas: máscara cirúrgica para os profissionais e distância de 1 metro entre leitos', 'Apenas precauções padrão, pois a transmissão hospitalar é desprezível'],
+    o: ['Precaução de contato, com avental e luvas, em enfermaria comum de quatro leitos', 'Precaução para aerossóis: quarto privativo e respirador N95 ou PFF2 nos profissionais', 'Precaução para gotículas: máscara cirúrgica para os profissionais e distância de 1 metro entre leitos', 'Apenas precauções padrão, pois a transmissão hospitalar é desprezível'],
     g: 'B',
     c: 'O bacilo é transmitido por partículas pequenas que ficam em suspensão; exige-se precaução para aerossóis, com quarto privativo, idealmente com pressão negativa e porta fechada. O profissional usa respirador N95 ou PFF2, que filtra partículas ao inspirar. O paciente usa máscara cirúrgica ao sair do quarto, pois ela retém as partículas na origem, quando ainda são grandes.',
     x: { A: 'A tuberculose não se transmite por contato; avental e luvas não protegem da inalação.', C: 'A máscara cirúrgica não veda nem filtra aerossóis, e 1 metro de distância é insuficiente.', D: 'A transmissão nosocomial é bem documentada e atinge pacientes e profissionais.' },

@@ -5,7 +5,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Controle de temperatura',
     e: 'Homem de 59 anos tem retorno da circulação espontânea após 15 minutos de parada por fibrilação ventricular. Permanece em coma, sem resposta a comandos. Em relação à temperatura, a conduta classicamente recomendada é:',
-    o: ['Aquecimento ativo até 38 °C para melhorar a perfusão cerebral', 'Controle direcionado de temperatura, com alvo constante entre 32 e 36 °C por pelo menos 24 horas', 'Resfriamento até 28 °C por 6 horas', 'Nenhum controle, tratando a febre apenas se passar de 39,5 °C'],
+    o: ['Aquecimento ativo até 38 °C para melhorar a perfusão cerebral', 'Controle de temperatura entre 32 e 36 °C por pelo menos 24 horas', 'Resfriamento até 28 °C por 6 horas, seguido de reaquecimento rápido', 'Nenhum controle, tratando a febre apenas se passar de 39,5 °C'],
     g: 'B',
     c: 'A lesão cerebral pós-parada é agravada pela febre, que aumenta o metabolismo cerebral, a excitotoxicidade e o edema. O controle de temperatura reduz esse dano. A resposta clássica é o alvo de 32 a 36 °C por ao menos 24 horas; atualizações mais recentes aceitam alvos até 37,5 °C, com ênfase em prevenir ativamente a febre.',
     x: { A: 'A hipertermia agrava a lesão neurológica.', C: 'Hipotermia profunda causa arritmias e coagulopatia.', D: 'A febre deve ser prevenida ativamente, não tolerada.' },
@@ -13,7 +13,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Controle de temperatura',
     e: 'O controle direcionado de temperatura após parada cardiorrespiratória está indicado para:',
-    o: ['Apenas pacientes com ritmo inicial chocável e parada extra-hospitalar', 'Adultos que não obedecem a comandos após o retorno da circulação, qualquer que seja o ritmo inicial ou o local da parada', 'Todos os pacientes, inclusive os que despertam e conversam', 'Apenas pacientes com menos de 50 anos'],
+    o: ['Apenas pacientes com ritmo inicial chocável e parada extra-hospitalar', 'Adultos que não obedecem a comandos após o retorno, em qualquer ritmo', 'Todos os pacientes, inclusive os que despertam e conversam', 'Apenas pacientes com menos de 50 anos e sem comorbidades'],
     g: 'B',
     c: 'O critério é a ausência de resposta adequada a comandos após o retorno da circulação, que sinaliza lesão cerebral. A indicação vale para ritmos chocáveis e não chocáveis, em parada intra ou extra-hospitalar. Quem acorda e obedece a comandos não precisa do controle.',
     x: { A: 'A indicação foi ampliada a todos os ritmos e locais.', C: 'Paciente que desperta e obedece a comandos não tem indicação.', D: 'Não existe limite de idade.' },
@@ -21,7 +21,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Oxigenação pós-parada',
     e: 'Mulher de 62 anos, intubada após retorno da circulação espontânea, está com FiO2 de 100% e saturação de 100%; a gasometria mostra PaO2 de 380 mmHg. A conduta em relação à oxigenação é:',
-    o: ['Manter FiO2 de 100% nas primeiras 24 horas', 'Reduzir a FiO2 para manter a saturação entre 92% e 98%', 'Reduzir a FiO2 para manter a saturação em 85%', 'Extubar imediatamente'],
+    o: ['Manter FiO2 de 100% nas primeiras 24 horas de internação', 'Reduzir a FiO2 para manter a saturação entre 92% e 98%', 'Reduzir a FiO2 para manter a saturação em torno de 85%', 'Extubar imediatamente e oferecer cateter de oxigênio'],
     g: 'B',
     c: 'Durante a RCP usa-se oxigênio a 100%, mas após o retorno da circulação a hiperóxia aumenta a formação de radicais livres na reperfusão e pode agravar a lesão neurológica. Assim que houver medida confiável, titula-se a FiO2 para saturação de 92% a 98%, evitando também a hipoxemia.',
     x: { A: 'A hiperóxia mantida agrava a lesão de reperfusão.', C: 'A hipoxemia piora a lesão cerebral.', D: 'Paciente comatosa precisa de via aérea protegida.' },
@@ -29,7 +29,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Ventilação pós-parada',
     e: 'Paciente comatoso, após retorno da circulação espontânea, está sendo ventilado com frequência de 28 por minuto, e a gasometria mostra PaCO2 de 24 mmHg. O principal risco dessa situação é:',
-    o: ['Vasodilatação cerebral e hipertensão intracraniana', 'Vasoconstrição cerebral com redução do fluxo sanguíneo ao cérebro', 'Hipercalemia grave', 'Acidose respiratória'],
+    o: ['Vasodilatação cerebral e hipertensão intracraniana secundária', 'Vasoconstrição cerebral com redução do fluxo sanguíneo cerebral', 'Hipercalemia grave com risco de nova parada cardíaca', 'Acidose respiratória com hipercapnia e vasodilatação'],
     g: 'B',
     c: 'O CO2 é o principal regulador do tônus dos vasos cerebrais: a hipocapnia causa vasoconstrição e reduz o fluxo a um cérebro que já sofreu isquemia. A hiperventilação também eleva a pressão intratorácica e reduz o retorno venoso. A meta é a normocapnia, com PaCO2 de 35 a 45 mmHg.',
     x: { A: 'Esse é o efeito da hipercapnia, não da hipocapnia.', C: 'A alcalose desloca potássio para dentro da célula.', D: 'PaCO2 baixa causa alcalose respiratória.' },
@@ -37,7 +37,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Hemodinâmica pós-parada',
     e: 'Após o retorno da circulação espontânea, um homem de 65 anos apresenta pressão arterial de 76 x 40 mmHg. A meta hemodinâmica mínima recomendada e as medidas para alcançá-la são:',
-    o: ['Pressão sistólica de 60 mmHg; restrição de volume', 'Pressão sistólica de pelo menos 90 mmHg ou média de pelo menos 65 mmHg; volume e vasopressor ou inotrópico', 'Pressão média de 40 mmHg; betabloqueador', 'Pressão sistólica acima de 200 mmHg; adrenalina em bolus repetidos'],
+    o: ['Pressão sistólica de 60 mmHg; restrição de volume e diurético', 'PAS ≥ 90 mmHg ou PAM ≥ 65 mmHg; volume e vasopressor ou inotrópico', 'Pressão média de 40 mmHg; betabloqueador para controle de FC', 'Pressão sistólica acima de 200 mmHg; adrenalina em bolus repetidos'],
     g: 'B',
     c: 'Após a parada, a autorregulação cerebral está comprometida e o fluxo cerebral passa a depender diretamente da pressão arterial. Além disso, é comum a disfunção miocárdica pós-parada. Evita-se a hipotensão com volume, noradrenalina ou outro vasopressor e inotrópico conforme a necessidade.',
     x: { A: 'A hipotensão agrava a lesão cerebral e de outros órgãos.', C: 'Meta muito baixa, e o betabloqueador pioraria o choque.', D: 'Hipertensão extrema e bolus repetidos não são a estratégia.' },
@@ -45,7 +45,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Coronariografia',
     e: 'Homem de 54 anos é reanimado de uma fibrilação ventricular extra-hospitalar. Chega comatoso, intubado e estável com noradrenalina. O ECG de 12 derivações mostra supradesnivelamento de ST de V1 a V4. A conduta é:',
-    o: ['Aguardar o despertar para decidir sobre o cateterismo', 'Coronariografia de emergência, com angioplastia se indicada, sem esperar a recuperação neurológica', 'Trombólise e alta da UTI em 24 horas', 'Apenas dosar troponina seriada'],
+    o: ['Aguardar o despertar para decidir sobre o cateterismo', 'Coronariografia de emergência, sem esperar a recuperação neurológica', 'Trombólise sistêmica e alta da UTI em 24 horas, se estável', 'Apenas dosar troponina seriada e acompanhar o eletrocardiograma'],
     g: 'B',
     c: 'A oclusão coronariana aguda é a causa mais comum de parada súbita no adulto, e o ECG deve ser feito logo após o retorno da circulação. Com supradesnivelamento de ST, a reperfusão imediata melhora a sobrevida, e o coma não contraindica o procedimento, que pode ser feito junto com o controle de temperatura.',
     x: { A: 'O prognóstico neurológico não pode ser definido nas primeiras horas.', C: 'A angioplastia primária é preferível e o paciente segue grave.', D: 'O ECG já define a indicação de reperfusão.' },
@@ -53,7 +53,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Neuroprognóstico',
     e: 'Familiares de um paciente comatoso, 12 horas após retorno da circulação e sob controle de temperatura com sedação, perguntam se ele vai acordar. Sobre o prognóstico neurológico, a orientação correta é:',
-    o: ['Pupilas sem reação na admissão já definem mau prognóstico', 'A avaliação deve ser multimodal e feita, em geral, pelo menos 72 horas após o retorno à normotermia e sem efeito de sedativos', 'A tomografia normal na admissão garante boa evolução', 'A ausência de resposta motora em 6 horas indica morte encefálica'],
+    o: ['Pupilas sem reação na admissão já definem mau prognóstico', 'Avaliação multimodal, em geral após 72 h da normotermia e sem sedativos', 'A tomografia normal na admissão garante boa evolução clínica', 'A ausência de resposta motora em 6 horas indica morte encefálica'],
     g: 'B',
     c: 'Sedativos, bloqueadores neuromusculares e a própria hipotermia deprimem o exame neurológico e têm depuração lenta. Por isso o prognóstico é adiado e combina exame clínico, eletroencefalograma, potencial evocado, biomarcadores e imagem, evitando a retirada precoce de suporte em quem poderia se recuperar.',
     x: { A: 'O exame precoce sofre influência de drogas e da hipóxia recente.', C: 'A tomografia precoce pode ser normal mesmo com lesão grave.', D: 'Seis horas é tempo insuficiente, ainda mais sob sedação.' },
@@ -69,7 +69,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Gestante',
     e: 'Gestante de 34 semanas em parada cardiorrespiratória por atividade elétrica sem pulso. Após 4 minutos de RCP adequada, com deslocamento uterino, não há retorno da circulação. A conduta indicada é:',
-    o: ['Transportar ao centro cirúrgico para cesariana eletiva', 'Cesariana perimortem no local, visando ao nascimento por volta do quinto minuto', 'Manter RCP por 30 minutos antes de considerar o parto', 'Induzir o parto vaginal com ocitocina'],
+    o: ['Transportar ao centro cirúrgico para cesariana eletiva, mantendo RCP', 'Cesariana perimortem no local, com nascimento por volta do 5º minuto', 'Manter RCP por 30 minutos antes de considerar o parto cesáreo', 'Induzir o parto vaginal com ocitocina durante as compressões'],
     g: 'B',
     c: 'O esvaziamento uterino elimina a compressão aortocava e melhora o retorno venoso, aumentando a chance de reanimar a mãe, além de proteger o feto da anóxia. A regra clássica é iniciar a histerotomia aos 4 minutos e retirar o feto aos 5, no próprio local, quando o útero está no nível do umbigo ou acima.',
     x: { A: 'O transporte atrasa um procedimento que depende do tempo.', C: 'A demora reduz a sobrevida materna e fetal.', D: 'Não há tempo nem circulação para indução do parto.' },
@@ -77,7 +77,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Gestante',
     e: 'Gestante com pré-eclâmpsia grave, em infusão de sulfato de magnésio, apresenta abolição do reflexo patelar, bradipneia e evolui para parada cardiorrespiratória. Além da RCP, deve-se:',
-    o: ['Dobrar a infusão de sulfato de magnésio', 'Suspender o magnésio e administrar gluconato de cálcio por via venosa', 'Administrar furosemida', 'Administrar hidralazina'],
+    o: ['Dobrar a infusão de sulfato de magnésio e repetir a dose', 'Suspender o magnésio e administrar gluconato de cálcio por via venosa', 'Administrar furosemida endovenosa para eliminar o magnésio', 'Administrar hidralazina para controle da pressão arterial'],
     g: 'B',
     c: 'A sequência de perda de reflexos, depressão respiratória e parada é típica da intoxicação por magnésio, que bloqueia a transmissão neuromuscular e a condução cardíaca. O cálcio antagoniza esses efeitos na membrana, e a infusão deve ser interrompida.',
     x: { A: 'Aumentar a dose agravaria a intoxicação.', C: 'O diurético não reverte o efeito agudo do magnésio.', D: 'Anti-hipertensivo não tem papel durante a parada.' },
@@ -85,7 +85,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Afogamento',
     e: 'Um guarda-vidas retira do mar um jovem de 19 anos, irresponsivo e sem respiração. Diferentemente da parada súbita do adulto, o atendimento da vítima de afogamento deve começar por:',
-    o: ['Compressões torácicas isoladas', 'Abertura da via aérea e ventilações de resgate, seguidas de compressões', 'Compressões abdominais para drenar a água', 'Imobilização cervical de rotina'],
+    o: ['Compressões torácicas isoladas e contínuas, sem ventilação', 'Via aérea aberta e ventilações de resgate, depois compressões', 'Compressões abdominais repetidas para drenar a água dos pulmões', 'Imobilização cervical de rotina antes de qualquer outra manobra'],
     g: 'B',
     c: 'A parada do afogado é hipóxica: o coração para por falta de oxigênio, e o sangue já está dessaturado. Por isso a prioridade é ventilar, seguindo a sequência A-B-C, com ventilações iniciais antes das compressões. Compressões isoladas circulariam sangue sem oxigênio.',
     x: { A: 'RCP só com as mãos é inadequada na parada asfíxica.', C: 'A manobra não remove água e provoca vômito e aspiração.', D: 'Só se indica com história de mergulho em local raso ou trauma.' },
@@ -93,7 +93,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Hipotermia',
     e: 'Alpinista de 30 anos é resgatado após horas soterrado na neve, em parada cardiorrespiratória, com temperatura central de 26 °C. Após 30 minutos de RCP não há retorno da circulação. A conduta é:',
-    o: ['Declarar o óbito, pelo tempo de reanimação', 'Manter a RCP e reaquecer ativamente, de preferência com circulação extracorpórea', 'Suspender a RCP até a temperatura subir espontaneamente', 'Administrar atropina em doses repetidas'],
+    o: ['Declarar o óbito, pelo tempo de reanimação e pela hipotermia', 'Manter a RCP e reaquecer, de preferência com circulação extracorpórea', 'Suspender a RCP até a temperatura subir espontaneamente', 'Administrar atropina em doses repetidas até a temperatura normalizar'],
     g: 'B',
     c: 'A hipotermia reduz o metabolismo cerebral e protege o cérebro da anóxia, permitindo recuperação íntegra após paradas muito prolongadas. Além disso, o miocárdio frio responde mal a choques e drogas. Daí a máxima de que o paciente só está morto quando está quente e morto.',
     x: { A: 'Na hipotermia grave o tempo habitual de reanimação não se aplica.', C: 'Sem RCP não há perfusão durante o reaquecimento.', D: 'A atropina não tem papel na parada.' },
@@ -101,7 +101,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Intoxicação por opioides',
     e: 'Homem de 28 anos é encontrado em um banheiro público com seringa ao lado. Está irresponsivo, com pupilas puntiformes, 4 incursões respiratórias por minuto e pulso carotídeo presente. A conduta é:',
-    o: ['Iniciar compressões torácicas 30:2', 'Abrir a via aérea, ventilar com bolsa-válvula-máscara e administrar naloxona', 'Administrar flumazenil', 'Realizar lavagem gástrica'],
+    o: ['Iniciar compressões torácicas na relação 30:2 de imediato', 'Abrir a via aérea, ventilar com bolsa-válvula-máscara e dar naloxona', 'Administrar flumazenil para reverter o efeito do opioide', 'Realizar lavagem gástrica com sonda antes de qualquer ventilação'],
     g: 'B',
     c: 'A tríade de coma, miose e depressão respiratória indica intoxicação por opioide. Com pulso presente, o problema é ventilatório: ventila-se e administra-se naloxona, antagonista competitivo dos receptores opioides. Na parada já instalada, a prioridade é a RCP padrão, e a naloxona não deve atrasá-la.',
     x: { A: 'Com pulso presente não se indicam compressões no adulto.', C: 'O flumazenil antagoniza benzodiazepínicos, não opioides.', D: 'A via de uso foi injetável e a prioridade é ventilar.' },
@@ -109,7 +109,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Intoxicação por tricíclicos',
     e: 'Mulher de 33 anos ingeriu grande quantidade de amitriptilina. Chega com midríase, pele seca, convulsão e taquicardia de QRS largo (160 ms), evoluindo para parada cardiorrespiratória. A terapia específica é:',
-    o: ['Fisostigmina', 'Bicarbonato de sódio em bolus', 'Procainamida', 'Flumazenil'],
+    o: ['Fisostigmina em dose repetida', 'Bicarbonato de sódio em bolus', 'Procainamida em infusão venosa', 'Flumazenil por via venosa'],
     g: 'B',
     c: 'Os tricíclicos bloqueiam os canais rápidos de sódio do miocárdio, alargando o QRS e causando arritmias ventriculares e hipotensão. O bicarbonato fornece carga de sódio, que supera o bloqueio, e alcaliniza o sangue, reduzindo a ligação da droga ao canal.',
     x: { A: 'Pode precipitar assistolia e convulsões nessa intoxicação.', C: 'Também bloqueia canais de sódio e agrava o quadro.', D: 'Sem ação sobre tricíclicos e ainda reduz o limiar convulsivo.' },
@@ -117,7 +117,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Intoxicação por anestésico local',
     e: 'Durante um bloqueio de plexo braquial com bupivacaína, um paciente de 50 anos refere gosto metálico e zumbido, apresenta convulsão e evolui para parada cardiorrespiratória. Além da RCP, a terapia específica é:',
-    o: ['Naloxona', 'Emulsão lipídica a 20% por via venosa', 'Azul de metileno', 'Glucagon'],
+    o: ['Naloxona em doses repetidas', 'Emulsão lipídica a 20% por via venosa', 'Azul de metileno a 1% por via venosa', 'Glucagon em bolus por via venosa'],
     g: 'B',
     c: 'A bupivacaína é lipossolúvel e bloqueia canais de sódio do miocárdio de forma prolongada. A emulsão lipídica cria no plasma um compartimento que sequestra o anestésico, retirando-o do coração e do cérebro. Sintomas neurológicos seguidos de colapso durante um bloqueio sugerem injeção intravascular.',
     x: { A: 'Antagoniza opioides, sem efeito sobre anestésicos locais.', C: 'É usado em metemoglobinemia e vasoplegia.', D: 'É usado na intoxicação por betabloqueador.' },
@@ -133,7 +133,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia',
     e: 'Homem de 61 anos, em hemodiálise, faltou a duas sessões e chega com fraqueza. O ECG mostra ondas T apiculadas e QRS alargado, e ele evolui para parada cardiorrespiratória com ritmo de QRS muito largo, sem pulso. Além da RCP, a medida específica imediata é:',
-    o: ['Reposição de cloreto de potássio', 'Cálcio intravenoso (gluconato ou cloreto), seguido de medidas que deslocam o potássio para dentro da célula', 'Sulfato de magnésio 2 g', 'Amiodarona 300 mg'],
+    o: ['Reposição de cloreto de potássio por via venosa central', 'Cálcio intravenoso, seguido de medidas que levam o potássio para a célula', 'Sulfato de magnésio 2 g por via venosa em 15 a 20 minutos', 'Amiodarona 300 mg em bolus venoso, seguida de 150 mg'],
     g: 'B',
     c: 'A hipercalemia despolariza parcialmente a membrana e alentece a condução, alargando o QRS até a parada. O cálcio restaura o limiar de excitabilidade e estabiliza a membrana em minutos, sem baixar o potássio; bicarbonato e insulina com glicose deslocam o potássio para a célula, e a diálise o remove.',
     x: { A: 'Agravaria o distúrbio que causou a parada.', C: 'Indicado em torsades de pointes, não na hipercalemia.', D: 'Não trata a causa e pode deprimir ainda mais a condução.' },
@@ -173,7 +173,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Pediatria',
     e: 'Lactente de 8 meses, com bronquiolite grave, evolui com cianose, bradicardia progressiva e parada cardiorrespiratória. O mecanismo e o ritmo inicial mais prováveis são:',
-    o: ['Arritmia primária; fibrilação ventricular', 'Hipóxia e choque progressivos; bradicardia evoluindo para assistolia ou atividade elétrica sem pulso', 'Trombose coronariana; taquicardia ventricular', 'Embolia pulmonar; fibrilação atrial'],
+    o: ['Arritmia primária súbita, com evolução para fibrilação ventricular', 'Hipóxia e choque progressivos; bradicardia evoluindo para assistolia', 'Trombose coronariana aguda; taquicardia ventricular sem pulso', 'Embolia pulmonar maciça; fibrilação atrial de alta resposta'],
     g: 'B',
     c: 'Na criança a parada raramente é súbita e cardíaca: é o estágio final de insuficiência respiratória ou choque. A hipóxia deprime o nó sinusal, levando à bradicardia e depois a ritmos não chocáveis. Por isso a prevenção e a ventilação precoce são o foco do suporte pediátrico.',
     x: { A: 'Ritmos chocáveis são a minoria das paradas pediátricas.', C: 'A doença coronariana é causa de parada em adultos.', D: 'Etiologia improvável em lactente com doença respiratória.' },
@@ -197,7 +197,7 @@ export const PCR_4: QuestaoCompacta[] = [
   {
     s: 'Pediatria',
     e: 'Dois profissionais reanimam um lactente de 3 meses. A técnica de compressão preferida e a profundidade adequada são:',
-    o: ['Duas mãos sobrepostas no esterno; 5 a 6 cm', 'Dois polegares com as mãos envolvendo o tórax; cerca de um terço do diâmetro anteroposterior (aproximadamente 4 cm)', 'Região hipotenar de uma mão; metade do diâmetro anteroposterior', 'Um dedo sobre o apêndice xifoide; 1 cm'],
+    o: ['Duas mãos sobrepostas no esterno; profundidade de 5 a 6 cm', 'Dois polegares com as mãos envolvendo o tórax; 1/3 do diâmetro AP (4 cm)', 'Região hipotenar de uma mão; metade do diâmetro anteroposterior', 'Um dedo sobre o apêndice xifoide; profundidade de cerca de 1 cm'],
     g: 'B',
     c: 'A técnica dos dois polegares com as mãos envolvendo o tórax gera maior pressão de perfusão coronariana e profundidade mais constante. Comprime-se um terço do diâmetro anteroposterior, cerca de 4 cm no lactente e 5 cm na criança, logo abaixo da linha intermamilar.',
     x: { A: 'Técnica e profundidade do adulto, lesivas para um lactente.', C: 'Metade do diâmetro é excessivo e pode causar lesões.', D: 'Local inadequado e profundidade insuficiente.' },

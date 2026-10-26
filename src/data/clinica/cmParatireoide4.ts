@@ -5,7 +5,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário - epidemiologia',
     e: 'Sobre o hiperaldosteronismo primário, é correto afirmar:',
-    o: ['É causa rara de hipertensão e sempre cursa com hipocalemia', 'É a causa endócrina mais comum de hipertensão secundária, e a maioria dos pacientes tem potássio normal', 'Acomete quase exclusivamente crianças e adolescentes', 'A causa mais comum é o carcinoma adrenal produtor de aldosterona'],
+    o: ['É causa rara de hipertensão e sempre cursa com hipocalemia', 'É a causa endócrina mais comum de HAS secundária; maioria tem potássio normal', 'Acomete quase exclusivamente crianças e adolescentes do sexo masculino', 'A causa mais comum é o carcinoma adrenal produtor de aldosterona'],
     g: 'B',
     c: 'O hiperaldosteronismo primário responde por parcela relevante dos hipertensos, especialmente daqueles com hipertensão resistente. A hipocalemia está presente apenas em uma minoria, de modo que sua ausência não exclui o diagnóstico. As duas principais etiologias são a hiperplasia adrenal bilateral (hiperaldosteronismo idiopático) e o adenoma produtor de aldosterona.',
     x: { A: 'A doença é frequente e a normocalemia é a apresentação mais comum.', C: 'O diagnóstico é feito tipicamente em adultos de meia-idade.', D: 'O carcinoma produtor de aldosterona é causa excepcional.' },
@@ -21,7 +21,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário - rastreamento',
     e: 'Homem de 46 anos tem hipertensão resistente a quatro fármacos e potássio de 3,1 mEq/L. O exame de rastreamento indicado e o resultado esperado no hiperaldosteronismo primário são:',
-    o: ['Atividade de renina plasmática isolada; elevada', 'Relação aldosterona/renina; elevada, com aldosterona alta e renina suprimida', 'Aldosterona urinária após restrição de sódio; baixa', 'Tomografia de adrenais; nódulo unilateral obrigatório'],
+    o: ['Atividade de renina plasmática isolada; elevada no diagnóstico', 'Relação aldosterona/renina elevada: aldosterona alta e renina suprimida', 'Aldosterona urinária após restrição de sódio; baixa e suprimida', 'Tomografia de adrenais; nódulo unilateral obrigatório ao exame'],
     g: 'B',
     c: 'A secreção autônoma de aldosterona expande o volume e suprime a renina, de modo que a relação aldosterona/atividade de renina fica elevada (em geral acima de 30, com aldosterona acima de 15 ng/dL). Antes da coleta deve-se corrigir o potássio, pois a hipocalemia inibe a secreção de aldosterona e pode gerar falso-negativo, e manter dieta sem restrição de sal.',
     x: { A: 'No hiperaldosteronismo primário a renina está suprimida, não elevada.', C: 'A restrição de sódio estimula a aldosterona e não é o teste de rastreamento.', D: 'A imagem só é feita após confirmação bioquímica, e a hiperplasia bilateral pode ter tomografia normal.' },
@@ -29,7 +29,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Relação aldosterona/renina - interferentes',
     e: 'Entre os anti-hipertensivos abaixo, o que mais interfere na relação aldosterona/renina, devendo ser suspenso por pelo menos 4 semanas antes do exame, é:',
-    o: ['Verapamil', 'Espironolactona', 'Hidralazina', 'Doxazosina'],
+    o: ['Verapamil (bloqueador de canal de cálcio)', 'Espironolactona (antialdosterônico)', 'Hidralazina (vasodilatador direto)', 'Doxazosina (alfabloqueador seletivo)'],
     g: 'B',
     c: 'Os antagonistas do receptor mineralocorticoide bloqueiam a ação da aldosterona, promovem natriurese e elevam a renina, podendo normalizar a relação e produzir falso-negativo. Quando é preciso manter tratamento durante a investigação, preferem-se fármacos com interferência mínima, como verapamil, hidralazina e alfabloqueadores.',
     x: { A: 'O verapamil de liberação lenta tem interferência mínima e é usado na investigação.', C: 'A hidralazina é uma das opções permitidas durante a coleta.', D: 'Os alfabloqueadores praticamente não alteram a relação aldosterona/renina.' },
@@ -37,7 +37,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo - diagnóstico diferencial pela renina',
     e: 'Mulher de 28 anos apresenta hipertensão grave de início recente, sopro abdominal e hipocalemia. Aldosterona e renina plasmáticas estão ambas elevadas. O diagnóstico mais provável é:',
-    o: ['Adenoma produtor de aldosterona', 'Hiperaldosteronismo secundário por estenose de artéria renal (displasia fibromuscular)', 'Síndrome de Liddle', 'Ingestão crônica de alcaçuz'],
+    o: ['Adenoma produtor de aldosterona (síndrome de Conn)', 'Hiperaldosteronismo secundário por estenose de artéria renal', 'Síndrome de Liddle, com ativação do canal ENaC', 'Ingestão crônica de alcaçuz, com excesso de mineralocorticoide'],
     g: 'B',
     c: 'A hipoperfusão renal estimula a liberação de renina pelo aparelho justaglomerular, com aumento de angiotensina II e, por consequência, de aldosterona. Aldosterona e renina altas definem hiperaldosteronismo secundário, e em mulher jovem com sopro abdominal a displasia fibromuscular é a principal causa.',
     x: { A: 'No adenoma a renina está suprimida pela expansão de volume.', C: 'Na síndrome de Liddle, aldosterona e renina estão ambas baixas.', D: 'O alcaçuz inibe a 11-beta-hidroxiesteroide desidrogenase e cursa com aldosterona e renina baixas.' },
@@ -53,7 +53,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário - confirmação',
     e: 'Paciente com relação aldosterona/renina elevada, aldosterona de 19 ng/dL e potássio normal realiza teste confirmatório com infusão de 2 litros de solução salina a 0,9% em 4 horas. O resultado que confirma hiperaldosteronismo primário é:',
-    o: ['Queda da aldosterona para menos de 5 ng/dL', 'Aldosterona persistentemente acima de 10 ng/dL ao final da infusão', 'Elevação da renina acima de três vezes o basal', 'Queda do cortisol abaixo de 1,8 mcg/dL'],
+    o: ['Queda da aldosterona para menos de 5 ng/dL ao fim da infusão', 'Aldosterona acima de 10 ng/dL ao final da infusão salina', 'Elevação da renina acima de três vezes o basal ao final', 'Queda do cortisol abaixo de 1,8 mcg/dL ao final da infusão'],
     g: 'B',
     c: 'A expansão de volume suprime o sistema renina-angiotensina e, em pessoas normais, reduz a aldosterona. Na produção autônoma a aldosterona não é suprimida, o que confirma o diagnóstico. Outros testes confirmatórios são a sobrecarga oral de sódio, o teste da fludrocortisona e o do captopril; podem ser dispensados quando há hipocalemia espontânea, renina indetectável e aldosterona acima de 20 ng/dL.',
     x: { A: 'A supressão para menos de 5 ng/dL é a resposta normal e afasta o diagnóstico.', C: 'A expansão de volume reduz a renina, e sua elevação não é critério do teste.', D: 'Esse é o critério do teste de supressão com dexametasona para Cushing.' },
@@ -61,7 +61,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário - subtipo',
     e: 'Homem de 55 anos tem hiperaldosteronismo primário confirmado e deseja tratamento cirúrgico. A tomografia mostra nódulo de 1,2 cm na adrenal esquerda. O próximo passo mais adequado é:',
-    o: ['Adrenalectomia esquerda imediata, pois o nódulo define a lateralização', 'Cateterismo de veias adrenais para confirmar a lateralização da secreção', 'Biópsia percutânea do nódulo adrenal', 'Cintilografia com metaiodobenzilguanidina'],
+    o: ['Adrenalectomia esquerda imediata, pois o nódulo define a lateralização', 'Cateterismo de veias adrenais para confirmar a lateralização', 'Biópsia percutânea do nódulo adrenal guiada por tomografia', 'Cintilografia com metaiodobenzilguanidina marcada com iodo'],
     g: 'B',
     c: 'A tomografia erra a lateralização em parcela considerável dos casos, pois pode mostrar adenoma não funcionante em paciente com hiperplasia bilateral ou deixar de ver microadenomas. Como incidentalomas não funcionantes aumentam com a idade, o cateterismo de veias adrenais é recomendado na maioria dos candidatos à cirurgia, podendo ser dispensado em jovens com menos de 35 anos, hipocalemia e adenoma unilateral típico.',
     x: { A: 'Operar com base só na imagem pode retirar a adrenal errada ou tratar doença bilateral.', C: 'A biópsia não diferencia tecido funcionante e não tem papel nessa investigação.', D: 'A metaiodobenzilguanidina é usada para tumores de células cromafins.' },
@@ -69,7 +69,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário - tratamento',
     e: 'O tratamento de escolha para o adenoma unilateral produtor de aldosterona e para a hiperplasia adrenal bilateral é, respectivamente:',
-    o: ['Espironolactona e adrenalectomia bilateral', 'Adrenalectomia unilateral laparoscópica e antagonista do receptor mineralocorticoide', 'Adrenalectomia unilateral e hidroclorotiazida', 'Inibidor da enzima conversora e adrenalectomia bilateral'],
+    o: ['Espironolactona associada a adrenalectomia bilateral', 'Adrenalectomia unilateral laparoscópica, com ARM no pré-operatório', 'Adrenalectomia unilateral e hidroclorotiazida em dose alta', 'Inibidor da enzima conversora e adrenalectomia bilateral'],
     g: 'B',
     c: 'Na doença unilateral a adrenalectomia laparoscópica corrige a hipocalemia e cura ou melhora a hipertensão. Na doença bilateral a cirurgia não se justifica, e o tratamento é o bloqueio do receptor mineralocorticoide com espironolactona ou eplerenona, que também protege contra os efeitos cardiovasculares e renais diretos da aldosterona.',
     x: { A: 'A adrenalectomia bilateral causaria insuficiência adrenal definitiva sem necessidade.', C: 'O tiazídico agrava a hipocalemia e não bloqueia a ação da aldosterona.', D: 'Com renina suprimida, o inibidor da enzima conversora tem pouca eficácia.' },
@@ -77,7 +77,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Espironolactona - efeitos adversos',
     e: 'Homem de 52 anos, com hiperaldosteronismo idiopático bem controlado com espironolactona, queixa-se de ginecomastia dolorosa e disfunção erétil. O mecanismo desses efeitos e a alternativa terapêutica são:',
-    o: ['Elevação da prolactina; cabergolina', 'Antagonismo do receptor androgênico e ação em receptores de progesterona; troca por eplerenona', 'Hipercalemia crônica; associar furosemida', 'Hipogonadismo hipogonadotrófico; reposição de testosterona'],
+    o: ['Elevação da prolactina com galactorreia; cabergolina', 'Antagonismo androgênico e de progesterona; trocar por eplerenona', 'Hipercalemia crônica sintomática; associar furosemida', 'Hipogonadismo hipogonadotrófico; reposição de testosterona'],
     g: 'B',
     c: 'A espironolactona é antagonista não seletivo, bloqueando também o receptor de andrógenos e estimulando o de progesterona, o que explica ginecomastia, redução da libido e irregularidade menstrual, de forma dependente da dose. A eplerenona é seletiva para o receptor mineralocorticoide e não causa esses efeitos, embora seja menos potente.',
     x: { A: 'A espironolactona não age elevando a prolactina.', C: 'A hipercalemia é efeito adverso possível, mas não causa ginecomastia.', D: 'Não há supressão das gonadotrofinas; o efeito é no receptor periférico.' },
@@ -93,7 +93,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma - diagnóstico bioquímico',
     e: 'Na suspeita de feocromocitoma, os exames de escolha para o diagnóstico bioquímico são:',
-    o: ['Catecolaminas plasmáticas colhidas durante a crise', 'Metanefrinas livres plasmáticas ou metanefrinas fracionadas em urina de 24 horas', 'Ácido vanilmandélico urinário isolado', 'Cromogranina A sérica'],
+    o: ['Catecolaminas plasmáticas colhidas apenas durante a crise', 'Metanefrinas livres plasmáticas ou fracionadas em urina de 24 horas', 'Ácido vanilmandélico urinário isolado de 24 horas', 'Cromogranina A sérica e enolase neuronal específica'],
     g: 'B',
     c: 'O tumor contém catecol-O-metiltransferase e converte continuamente as catecolaminas em metanefrinas no seu interior, independentemente da liberação episódica. Por isso as metanefrinas têm sensibilidade muito superior à das catecolaminas e do ácido vanilmandélico. Valores acima de três a quatro vezes o limite superior são praticamente diagnósticos; elevações discretas exigem excluir interferentes.',
     x: { A: 'A secreção de catecolaminas é episódica, e sua dosagem tem baixa sensibilidade.', C: 'O ácido vanilmandélico tem boa especificidade, porém sensibilidade baixa.', D: 'A cromogranina A é marcador inespecífico de tumores neuroendócrinos.' },
@@ -109,7 +109,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma - sequência diagnóstica',
     e: 'Homem de 38 anos tem metanefrinas plasmáticas cinco vezes acima do limite superior. O próximo passo é:',
-    o: ['Biópsia percutânea da adrenal guiada por tomografia', 'Tomografia computadorizada ou ressonância magnética de abdome e pelve para localizar o tumor', 'Cateterismo de veias adrenais com dosagem de catecolaminas', 'Iniciar propranolol e reavaliar em 3 meses'],
+    o: ['Biópsia percutânea da adrenal guiada por tomografia', 'TC ou RM de abdome e pelve para localizar o tumor', 'Cateterismo de veias adrenais com dosagem de catecolaminas', 'Iniciar propranolol isolado e reavaliar em 3 meses'],
     g: 'B',
     c: 'A confirmação bioquímica deve sempre preceder a imagem. Uma vez confirmado o excesso de catecolaminas, localiza-se o tumor com tomografia ou ressonância de abdome e pelve, já que a grande maioria está nas adrenais ou no abdome. Imagem funcional, como metaiodobenzilguanidina ou PET, fica para suspeita de doença metastática, múltipla ou extra-adrenal.',
     x: { A: 'Puncionar um feocromocitoma pode desencadear crise hipertensiva fatal e é contraindicado.', C: 'O cateterismo venoso não é usado para localizar feocromocitoma.', D: 'O betabloqueador isolado é perigoso, e o tumor deve ser localizado e ressecado.' },
@@ -117,7 +117,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma - preparo pré-operatório',
     e: 'Mulher de 45 anos tem feocromocitoma adrenal direito de 4 cm confirmado. O preparo pré-operatório adequado consiste em:',
-    o: ['Propranolol por 14 dias e restrição de sal', 'Alfabloqueio por 10 a 14 dias, com dieta rica em sal e hidratação, acrescentando betabloqueador somente depois, se houver taquicardia', 'Diurético tiazídico e inibidor da enzima conversora', 'Nenhum preparo se a pressão arterial estiver normal entre as crises'],
+    o: ['Propranolol isolado por 14 dias e restrição de sal na dieta', 'Alfabloqueio por 10-14 dias, com sal e hidratação; betabloqueador depois', 'Diurético tiazídico e inibidor da enzima conversora da angiotensina', 'Nenhum preparo se a pressão arterial estiver normal entre as crises'],
     g: 'B',
     c: 'O alfabloqueio com fenoxibenzamina ou doxazosina controla a pressão e evita crises durante a indução anestésica e a manipulação do tumor. Como a vasoconstrição crônica contrai o volume plasmático, libera-se sal e líquidos para prevenir hipotensão grave após a retirada do tumor. O betabloqueador nunca deve vir antes: sem oposição alfa, bloquear a vasodilatação beta-2 agrava a hipertensão.',
     x: { A: 'O betabloqueador isolado pode precipitar crise hipertensiva, e restringir sal agrava a hipovolemia.', C: 'Diurético piora a contração de volume, e essas classes não bloqueiam as catecolaminas.', D: 'Mesmo os normotensos devem receber preparo, pelo risco de crise intraoperatória.' },
@@ -125,7 +125,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma - betabloqueador isolado',
     e: 'Homem de 35 anos, com crises de palpitação e hipertensão, recebe propranolol em unidade básica. Horas depois, apresenta pressão de 240x140 mmHg, cefaleia intensa e edema agudo de pulmão. O mecanismo da piora é:',
-    o: ['Bloqueio dos receptores alfa-1 com vasodilatação reflexa', 'Bloqueio da vasodilatação mediada por receptores beta-2, deixando sem oposição a vasoconstrição alfa-adrenérgica', 'Inibição da síntese de catecolaminas pelo tumor', 'Aumento da liberação de renina pelo aparelho justaglomerular'],
+    o: ['Bloqueio dos receptores alfa-1 com vasodilatação reflexa intensa', 'Bloqueio da vasodilatação beta-2, sem oposição à vasoconstrição alfa', 'Inibição da síntese de catecolaminas pelo tumor adrenal', 'Aumento da liberação de renina pelo aparelho justaglomerular'],
     g: 'B',
     c: 'As catecolaminas atuam em receptores alfa-1, que contraem os vasos, e beta-2, que os dilatam na musculatura esquelética. O betabloqueador não seletivo elimina o componente vasodilatador, e a ação alfa sem oposição eleva abruptamente a resistência vascular. Além disso, a queda do inotropismo diante de pós-carga muito alta favorece o edema pulmonar.',
     x: { A: 'O propranolol não bloqueia receptores alfa; é justamente o efeito alfa que fica livre.', C: 'O betabloqueador não altera a síntese tumoral de catecolaminas.', D: 'Os betabloqueadores reduzem, e não aumentam, a liberação de renina.' },
@@ -133,7 +133,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma - genética',
     e: 'Sobre a genética do feocromocitoma e do paraganglioma, assinale a alternativa correta:',
-    o: ['A regra dos 10% permanece válida, e apenas 10% dos casos são hereditários', 'Cerca de um terço ou mais dos pacientes tem mutação germinativa, e o teste genético deve ser considerado em todos', 'Tumores hereditários ocorrem exclusivamente na neurofibromatose tipo 1', 'Mutações do gene SDHB associam-se a tumores sempre benignos e adrenais'],
+    o: ['A regra dos 10% permanece válida, e apenas 10% dos casos são hereditários', 'Cerca de um terço tem mutação germinativa; considerar teste em todos', 'Tumores hereditários ocorrem exclusivamente na neurofibromatose tipo 1', 'Mutações do gene SDHB associam-se a tumores sempre benignos e adrenais'],
     g: 'B',
     c: 'Hoje se sabe que 30 a 40% dos feocromocitomas e paragangliomas são hereditários, ligados a genes como RET, VHL, NF1 e os da succinato desidrogenase. Por isso o aconselhamento e o teste genético são recomendados a todos os pacientes, com impacto no rastreamento de outros tumores e dos familiares.',
     x: { A: 'A regra dos 10% está ultrapassada quanto à proporção de casos hereditários.', C: 'Há várias síndromes associadas, como NEM 2, von Hippel-Lindau e paraganglioma familiar.', D: 'As mutações de SDHB associam-se a paragangliomas extra-adrenais com maior risco de metástase.' },
@@ -141,7 +141,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Paraganglioma',
     e: 'Homem de 30 anos apresenta crises de cefaleia, palpitações e hipertensão desencadeadas pela micção. As metanefrinas urinárias mostram elevação isolada de normetanefrina, e a tomografia mostra adrenais normais. A localização mais provável do tumor e a explicação para o padrão bioquímico são:',
-    o: ['Medula adrenal; o tumor adrenal secreta apenas noradrenalina', 'Paraganglioma extra-adrenal, possivelmente na parede vesical; fora da adrenal falta a enzima que converte noradrenalina em adrenalina', 'Glomo carotídeo; tumores de cabeça e pescoço secretam grande quantidade de adrenalina', 'Hipófise; o tumor secreta ACTH que estimula a medula adrenal'],
+    o: ['Medula adrenal; o tumor adrenal secreta apenas noradrenalina', 'Paraganglioma extra-adrenal vesical; sem a enzima que forma adrenalina', 'Glomo carotídeo; tumores de cabeça e pescoço secretam grande quantidade de adrenalina', 'Hipófise; o tumor secreta ACTH que estimula a medula adrenal'],
     g: 'B',
     c: 'A feniletanolamina-N-metiltransferase, que converte noradrenalina em adrenalina, depende de altas concentrações locais de cortisol, existentes apenas na medula adrenal. Por isso os paragangliomas simpáticos extra-adrenais secretam predominantemente noradrenalina. Crises relacionadas à micção sugerem paraganglioma de bexiga.',
     x: { A: 'As adrenais são normais na imagem, e tumores adrenais costumam produzir também adrenalina.', C: 'Os paragangliomas de cabeça e pescoço são parassimpáticos e em geral não secretores.', D: 'Tumor hipofisário não explica a crise catecolaminérgica ligada à micção.' },
@@ -149,7 +149,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Crise hipertensiva adrenérgica',
     e: 'Paciente com feocromocitoma ainda não operado chega à emergência com pressão de 250x140 mmHg, cefaleia e sudorese. O fármaco endovenoso mais adequado para o controle da crise é:',
-    o: ['Metoprolol', 'Fentolamina ou nitroprussiato de sódio', 'Hidralazina', 'Furosemida'],
+    o: ['Metoprolol endovenoso (betabloqueador)', 'Fentolamina ou nitroprussiato de sódio', 'Hidralazina endovenosa (vasodilatador)', 'Furosemida endovenosa (diurético de alça)'],
     g: 'B',
     c: 'A crise decorre de vasoconstrição mediada por receptores alfa. A fentolamina é um alfabloqueador não seletivo de ação rápida e curta, específico para essa situação; o nitroprussiato e a nicardipina são alternativas eficazes. O betabloqueador só pode ser associado depois de estabelecido o alfabloqueio.',
     x: { A: 'O betabloqueador isolado agrava a hipertensão por ação alfa sem oposição.', C: 'A hidralazina provoca taquicardia reflexa e não é a escolha na crise adrenérgica.', D: 'O paciente está com volume contraído; o diurético piora o quadro.' },
@@ -165,7 +165,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Incidentaloma adrenal - avaliação funcional',
     e: 'Homem de 59 anos, hipertenso, realiza tomografia por dor lombar e tem achado incidental de nódulo de 2,5 cm na adrenal esquerda. A avaliação hormonal mínima recomendada inclui:',
-    o: ['Apenas cortisol basal e ACTH', 'Teste de supressão com 1 mg de dexametasona, metanefrinas e, por ser hipertenso, relação aldosterona/renina', 'Sulfato de desidroepiandrosterona e testosterona em todos os casos', 'Nenhuma avaliação, pois nódulos menores que 4 cm são sempre não funcionantes'],
+    o: ['Apenas cortisol basal e ACTH plasmático, sem outros testes', 'Dexametasona 1 mg, metanefrinas e, por ser hipertenso, aldosterona/renina', 'Sulfato de desidroepiandrosterona e testosterona em todos os casos', 'Nenhuma avaliação, pois nódulos menores que 4 cm são sempre não funcionantes'],
     g: 'B',
     c: 'Todo incidentaloma deve ser avaliado quanto à secreção autônoma de cortisol, que é a alteração funcional mais comum, por meio da supressão com 1 mg de dexametasona, e quanto a feocromocitoma, pelas metanefrinas. A pesquisa de hiperaldosteronismo é feita nos hipertensos ou com hipocalemia. Andrógenos são dosados quando há virilização ou suspeita de carcinoma.',
     x: { A: 'O cortisol basal não detecta secreção autônoma leve, e faltaria rastrear feocromocitoma.', C: 'Andrógenos só são solicitados diante de clínica sugestiva ou imagem suspeita.', D: 'O tamanho não prediz funcionalidade; lesões pequenas podem ser secretoras.' },
@@ -173,7 +173,7 @@ export const PARATIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Incidentaloma adrenal - características de imagem',
     e: 'Na tomografia sem contraste, o achado que indica com alta probabilidade um adenoma adrenal benigno, rico em lipídios, é:',
-    o: ['Densidade acima de 30 unidades Hounsfield com calcificações', 'Lesão homogênea, de contornos regulares, com densidade igual ou menor que 10 unidades Hounsfield', 'Lesão heterogênea com necrose central e mais de 6 cm', 'Lavagem (washout) absoluta do contraste menor que 40% em 15 minutos'],
+    o: ['Densidade acima de 30 unidades Hounsfield com calcificações', 'Lesão homogênea, de contornos regulares e densidade ≤ 10 UH', 'Lesão heterogênea com necrose central e mais de 6 cm', 'Lavagem (washout) absoluta do contraste menor que 40% em 15 minutos'],
     g: 'B',
     c: 'Os adenomas contêm grande quantidade de gordura intracelular, o que reduz sua atenuação. Lesão homogênea com 10 unidades Hounsfield ou menos, sem contraste, é praticamente sempre benigna e dispensa outros exames de imagem. Nas lesões mais densas, a lavagem rápida do contraste (absoluta acima de 60%) também sugere adenoma, enquanto carcinomas, metástases e feocromocitomas retêm o contraste.',
     x: { A: 'Densidade alta sem contraste é achado indeterminado ou suspeito, não típico de adenoma.', C: 'Heterogeneidade, necrose e grande tamanho sugerem carcinoma adrenal.', D: 'Lavagem lenta do contraste é característica de lesões não adenomatosas.' },

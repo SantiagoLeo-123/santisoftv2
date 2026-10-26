@@ -13,7 +13,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Tuberculose pleural',
     e: 'Na investigação de derrame pleural com suspeita de tuberculose, o procedimento com maior rendimento para a confirmação diagnóstica é:',
-    o: ['Baciloscopia do líquido pleural', 'Biópsia pleural com exame histopatológico e cultura do fragmento', 'Hemocultura para micobactérias', 'Prova tuberculínica'],
+    o: ['Baciloscopia do líquido pleural em duas amostras', 'Biópsia pleural com histopatológico e cultura do fragmento', 'Hemocultura para micobactérias em meio específico', 'Prova tuberculínica com leitura em 48 a 72 horas'],
     g: 'B',
     c: 'Como a doença está na pleura parietal e o líquido contém poucos bacilos, a baciloscopia do líquido é positiva em menos de 5% e a cultura em minoria dos casos. A biópsia pleural mostra granuloma, com ou sem necrose caseosa, na grande maioria, e a cultura do fragmento aumenta ainda mais o rendimento.',
     x: { A: 'A baciloscopia do líquido pleural é quase sempre negativa.', C: 'A hemocultura só tem utilidade em formas disseminadas de imunossuprimidos graves.', D: 'A prova tuberculínica indica infecção, pode ser negativa na fase aguda e não confirma a etiologia do derrame.' },
@@ -21,7 +21,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Epidemiologia das formas extrapulmonares',
     e: 'Em pessoas vivendo com HIV e em crianças, a forma mais frequente de tuberculose extrapulmonar é a:',
-    o: ['Pleural', 'Ganglionar periférica', 'Osteoarticular', 'Geniturinária'],
+    o: ['Pleural, com derrame unilateral', 'Ganglionar periférica (cervical)', 'Osteoarticular, com espondilite', 'Geniturinária, com cistite crônica'],
     g: 'B',
     c: 'Em adultos imunocompetentes a forma extrapulmonar mais comum é a pleural, que depende de resposta de hipersensibilidade vigorosa. Em pessoas com HIV e em crianças predomina a ganglionar periférica, reflexo da disseminação linfática e hematogênica do bacilo quando a contenção imune é deficiente.',
     x: { A: 'A pleural é a mais frequente em adultos sem HIV, não nos grupos citados.', C: 'A osteoarticular é menos frequente e predomina em crianças e idosos, sem ser a primeira.', D: 'A geniturinária é forma tardia, de adultos, após longo período de latência.' },
@@ -29,7 +29,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Tuberculose ganglionar',
     e: 'Mulher de 26 anos, vivendo com HIV, apresenta há 2 meses massa cervical anterior direita, formada por linfonodos coalescentes, endurecidos e pouco dolorosos, um deles com fístula drenando secreção caseosa. Radiografia de tórax normal. O exame mais adequado para o diagnóstico é:',
-    o: ['Sorologia para toxoplasmose', 'Punção aspirativa ou biópsia do linfonodo, com baciloscopia, teste rápido molecular, cultura e histopatológico', 'Baciloscopia de escarro em duas amostras', 'Ultrassonografia cervical seriada por 3 meses'],
+    o: ['Sorologia para toxoplasmose e citomegalovírus no sangue periférico', 'Punção ou biópsia do linfonodo, com baciloscopia, TRM, cultura e histopatológico', 'Baciloscopia de escarro em duas amostras, sem outros exames', 'Ultrassonografia cervical seriada por 3 meses, sem biópsia'],
     g: 'B',
     c: 'A tuberculose ganglionar acomete sobretudo as cadeias cervicais, de forma unilateral ou assimétrica; os linfonodos aderem entre si, amolecem pela necrose caseosa e podem fistulizar (escrófula). O diagnóstico é feito pelo exame do material do linfonodo, que mostra granuloma caseoso e permite pesquisa e cultura do bacilo.',
     x: { A: 'A toxoplasmose causa linfonodos pequenos, móveis e que não fistulizam.', C: 'Com radiografia normal e sem sintomas respiratórios o escarro tem baixo rendimento.', D: 'Apenas observar atrasa o diagnóstico de doença tratável em paciente imunossuprimida.' },
@@ -53,7 +53,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Tuberculose miliar',
     e: 'Mulher de 44 anos, em uso crônico de prednisona por lúpus, apresenta febre, emagrecimento e dispneia há 4 semanas. A radiografia mostra micronódulos de 1 a 3 mm difusos e bilaterais. Prova tuberculínica: 0 mm. A interpretação correta é:',
-    o: ['A prova não reatora exclui tuberculose; investigar apenas metástases', 'A prova não reatora é frequente na forma miliar e em imunossuprimidos e não afasta o diagnóstico; prosseguir a investigação e considerar tratamento', 'O quadro corresponde a infecção latente e deve ser tratado com isoniazida', 'O padrão radiológico indica disseminação broncogênica a partir de caverna'],
+    o: ['A prova não reatora exclui tuberculose; investigar apenas metástases pulmonares', 'A prova não reatora é comum em imunossuprimidos e não afasta o diagnóstico', 'O quadro corresponde a infecção latente e deve ser tratado com isoniazida', 'O padrão radiológico indica disseminação broncogênica a partir de caverna'],
     g: 'B',
     c: 'A tuberculose miliar resulta da disseminação hematogênica maciça do bacilo, com incontáveis granulomas do tamanho de grãos de milho em pulmões, fígado, baço, medula óssea e meninges. Ocorre em quem tem imunidade celular deficiente, e por isso a prova tuberculínica é frequentemente não reatora (anergia). É forma grave, que justifica investigação ampla e tratamento precoce.',
     x: { A: 'A anergia é comum nas formas disseminadas; o resultado negativo não exclui a doença.', C: 'Há doença ativa grave, com sintomas e alteração radiológica, não infecção latente.', D: 'A disseminação broncogênica produz nódulos centrolobulares agrupados e assimétricos, não micronódulos difusos e uniformes.' },
@@ -69,7 +69,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Tuberculose renal',
     e: 'Homem de 46 anos queixa-se de disúria e polaciúria há 4 meses, sem melhora após três cursos de antibiótico. Exames de urina repetidos: pH ácido, leucocitúria intensa, hematúria e uroculturas para germes comuns negativas. A hipótese e o exame confirmatório são:',
-    o: ['Cistite intersticial; cistoscopia com hidrodistensão', 'Tuberculose urinária; cultura de urina para micobactérias em várias amostras matinais', 'Nefrolitíase; tomografia sem contraste', 'Prostatite bacteriana crônica; cultura de secreção prostática'],
+    o: ['Cistite intersticial; cistoscopia com hidrodistensão e biópsia vesical', 'Tuberculose urinária; cultura de micobactérias em várias amostras matinais', 'Nefrolitíase; tomografia sem contraste de abdome e pelve', 'Prostatite bacteriana crônica; cultura de secreção prostática'],
     g: 'B',
     c: 'Piúria com urocultura convencional negativa (piúria estéril) em urina ácida, com sintomas urinários arrastados, é a apresentação clássica da tuberculose urinária, forma tardia que surge anos após a disseminação hematogênica para o córtex renal. A eliminação de bacilos é intermitente, por isso se colhem várias amostras da primeira urina da manhã para cultura. A evolução leva a estenoses ureterais, calcificações e bexiga contraída.',
     x: { A: 'A cistite intersticial não explica leucocitúria intensa persistente.', C: 'O cálculo não justifica piúria estéril prolongada com sintomas irritativos contínuos.', D: 'A prostatite crônica não é a primeira hipótese diante de piúria estéril e hematúria persistentes.' },
@@ -101,7 +101,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Coinfecção TB-HIV',
     e: 'Em relação à apresentação da tuberculose em pessoa vivendo com HIV e CD4 de 60 células/mm3, em comparação com o imunocompetente, espera-se:',
-    o: ['Maior frequência de cavitações apicais e baciloscopia fortemente positiva', 'Apresentação pulmonar atípica (infiltrados em terços inferiores, adenomegalia mediastinal, ausência de cavitação) e maior frequência de formas extrapulmonares e disseminadas', 'Prova tuberculínica fortemente reatora na maioria dos casos', 'Doença restrita aos pulmões, com evolução mais lenta'],
+    o: ['Maior frequência de cavitações apicais e baciloscopia fortemente positiva', 'Forma pulmonar atípica, sem cavitação, e mais formas extrapulmonares e disseminadas', 'Prova tuberculínica fortemente reatora na maioria dos casos avançados', 'Doença restrita aos pulmões, com evolução mais lenta e menos grave'],
     g: 'B',
     c: 'A cavitação e o granuloma organizado dependem de imunidade celular preservada. Com CD4 baixo a resposta é fraca: a radiografia lembra tuberculose primária ou pode até ser normal, a baciloscopia tem menor rendimento e o bacilo se dissemina, com formas ganglionar, miliar e meníngea. Com CD4 alto, o quadro se assemelha ao do imunocompetente.',
     x: { A: 'Cavidades apicais e escarro rico em bacilos são típicos de quem tem imunidade preservada.', C: 'Na imunossupressão avançada a prova tuberculínica costuma ser não reatora.', D: 'A doença tende a ser disseminada e de evolução mais rápida e grave.' },
@@ -117,7 +117,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Coinfecção TB-HIV',
     e: 'Mulher de 29 anos, vivendo com HIV e virgem de tratamento antirretroviral, recebe o diagnóstico de meningite tuberculosa e inicia o esquema RHZE com corticoide. Em relação ao início da terapia antirretroviral, a conduta é:',
-    o: ['Iniciar na primeira semana, pela gravidade do quadro', 'Adiar o início por cerca de 4 a 8 semanas após o começo do tratamento da tuberculose', 'Iniciar antes do tratamento da tuberculose', 'Contraindicar antirretrovirais durante os 12 meses de tratamento'],
+    o: ['Iniciar na primeira semana, pela gravidade do quadro clínico', 'Iniciar 4 a 8 semanas após o começo do tratamento da tuberculose', 'Iniciar antes do tratamento da tuberculose, por 4 semanas', 'Contraindicar antirretrovirais durante os 12 meses de tratamento'],
     g: 'B',
     c: 'Na tuberculose do sistema nervoso central, a síndrome de reconstituição imune ocorre em compartimento fechado, com edema, hidrocefalia e vasculite, e o início precoce dos antirretrovirais aumentou eventos graves sem benefício de sobrevida. Por isso é a exceção à regra do início precoce: posterga-se por algumas semanas (4 a 8, conforme a norma).',
     x: { A: 'O início na primeira semana aumenta o risco de reconstituição imune grave no sistema nervoso.', C: 'A tuberculose deve ser tratada primeiro, para reduzir a carga de antígenos.', D: 'Adiar por 12 meses expõe a paciente a outras infecções oportunistas e à morte.' },
@@ -125,7 +125,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome de reconstituição imune',
     e: 'Homem de 41 anos, com HIV (CD4 inicial de 45) e tuberculose ganglionar, vinha melhorando com RHZE. Três semanas após iniciar antirretrovirais, com boa adesão, volta a ter febre alta e aumento doloroso dos linfonodos cervicais. Carga viral em queda acentuada; culturas sem resistência. A conduta é:',
-    o: ['Suspender os antirretrovirais até o fim do tratamento da tuberculose', 'Manter o tratamento da tuberculose e os antirretrovirais, com anti-inflamatório ou corticoide conforme a gravidade', 'Trocar o esquema para tuberculose multirresistente', 'Suspender o esquema RHZE por provável reação medicamentosa'],
+    o: ['Suspender os antirretrovirais até o fim do tratamento da tuberculose e reiniciar', 'Manter tratamento da TB e ARV, com anti-inflamatório ou corticoide conforme a gravidade', 'Trocar o esquema para tuberculose multirresistente e solicitar cultura', 'Suspender o esquema RHZE por provável reação medicamentosa e investigar'],
     g: 'B',
     c: 'É a síndrome inflamatória de reconstituição imune paradoxal: com a recuperação dos linfócitos, surge resposta inflamatória exuberante aos antígenos do bacilo, com piora de lesões previamente em melhora. É mais comum com CD4 inicial baixo e início precoce dos antirretrovirais. Excluídas falha, resistência e outra infecção, mantêm-se ambos os tratamentos e usam-se sintomáticos ou corticoide nos casos graves.',
     x: { A: 'A suspensão dos antirretrovirais só é cogitada em casos com risco de vida, e não é a conduta habitual.', C: 'Não há evidência de resistência: houve melhora inicial e as culturas são sensíveis.', D: 'O quadro é de inflamação nos locais da doença, não de reação aos fármacos.' },
@@ -141,7 +141,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Coinfecção TB-HIV',
     e: 'Paciente com coinfecção TB-HIV, em uso do esquema básico com rifampicina, vai iniciar tenofovir, lamivudina e dolutegravir. O ajuste necessário durante o uso da rifampicina é:',
-    o: ['Reduzir o dolutegravir para 25 mg ao dia', 'Usar o dolutegravir em dose dobrada (50 mg de 12 em 12 horas)', 'Reduzir pela metade a dose da rifampicina', 'Suspender a lamivudina'],
+    o: ['Reduzir o dolutegravir para 25 mg ao dia, pela indução enzimática', 'Usar o dolutegravir em dose dobrada (50 mg de 12 em 12 horas)', 'Reduzir pela metade a dose da rifampicina durante o uso do ARV', 'Suspender a lamivudina durante o uso da rifampicina'],
     g: 'B',
     c: 'A rifampicina induz a UGT1A1 e o citocromo P450 3A4, vias de metabolização do dolutegravir, reduzindo sua concentração. Dobra-se a frequência para 50 mg de 12 em 12 horas durante o tratamento e por 2 semanas após o fim da rifampicina, tempo necessário para cessar a indução. Antes da incorporação dessa estratégia, o esquema preferencial na coinfecção usava efavirenz, que ainda aparece em questões antigas.',
     x: { A: 'Reduzir a dose agravaria a queda dos níveis e levaria à falha virológica.', C: 'A dose da rifampicina não é alterada; subdose compromete a cura da tuberculose.', D: 'A lamivudina não tem interação relevante com a rifampicina.' },
@@ -157,7 +157,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Gestante de 22 anos, com 14 semanas, recebe o diagnóstico de tuberculose pulmonar por teste rápido molecular, sem resistência à rifampicina. O tratamento recomendado é:',
-    o: ['Adiar o tratamento para depois do parto', 'Esquema básico com RHZE por 2 meses e RH por 4 meses, associado a piridoxina', 'Esquema sem pirazinamida, por 9 meses, obrigatoriamente', 'Estreptomicina e etambutol até o parto'],
+    o: ['Adiar o tratamento para depois do parto, por segurança fetal', 'Esquema básico com RHZE por 2 meses e RH por 4 meses, com piridoxina', 'Esquema sem pirazinamida, por 9 meses, obrigatoriamente', 'Estreptomicina e etambutol até o parto, e depois o esquema básico'],
     g: 'B',
     c: 'A tuberculose não tratada traz risco muito maior à gestante e ao feto (prematuridade, baixo peso, tuberculose congênita) do que os fármacos. O esquema básico é o mesmo da população geral, acrescido de piridoxina 50 mg ao dia, pois a gestação aumenta o risco de neuropatia pela isoniazida e de toxicidade neurológica no recém-nascido.',
     x: { A: 'Adiar o tratamento expõe mãe e feto às complicações da doença e mantém a transmissão.', C: 'O Ministério da Saúde mantém a pirazinamida na gestação; sua retirada não é obrigatória.', D: 'A estreptomicina é contraindicada na gestação, pelo risco de surdez congênita.' },
@@ -165,7 +165,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Aleitamento',
     e: 'Puérpera de 27 anos, no décimo dia de tratamento de tuberculose pulmonar bacilífera com esquema básico, pergunta se pode amamentar o recém-nascido. Não tem lesões nas mamas. A orientação é:',
-    o: ['Suspender a amamentação durante os 6 meses de tratamento', 'Manter a amamentação, usando máscara cirúrgica enquanto estiver bacilífera', 'Amamentar apenas com leite ordenhado e fervido', 'Suspender a rifampicina enquanto amamentar'],
+    o: ['Suspender a amamentação durante os 6 meses de tratamento da mãe', 'Manter a amamentação, usando máscara cirúrgica enquanto estiver bacilífera', 'Amamentar apenas com leite ordenhado e fervido, sem contato direto', 'Suspender a rifampicina enquanto amamentar e usar outro fármaco'],
     g: 'B',
     c: 'O bacilo não é transmitido pelo leite, e os fármacos do esquema básico passam em quantidade mínima, sem contraindicar o aleitamento. O risco para o bebê é a via aérea; por isso a mãe usa máscara ao amamentar e cuidar da criança enquanto bacilífera. A única contraindicação é a mastite tuberculosa.',
     x: { A: 'Não há motivo para privar o lactente dos benefícios do leite materno.', C: 'Ferver o leite é desnecessário, pois ele não transmite a doença.', D: 'A rifampicina é compatível com a amamentação e não deve ser retirada.' },
@@ -173,7 +173,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Hepatopatia',
     e: 'Homem de 57 anos, com cirrose alcoólica descompensada (ascite, bilirrubina de 4,2 mg/dL, TGO de 230 U/L), recebe o diagnóstico de tuberculose pulmonar. Em relação ao tratamento, a conduta mais adequada é:',
-    o: ['Iniciar o esquema básico em dose plena, com transaminases semanais', 'Encaminhar à referência para esquema especial sem os fármacos mais hepatotóxicos, como aminoglicosídeo, etambutol e fluoroquinolona', 'Tratar com isoniazida e pirazinamida, poupando a rifampicina', 'Não tratar até a compensação completa da cirrose'],
+    o: ['Iniciar o esquema básico em dose plena, com transaminases semanais', 'Esquema especial na referência, sem os fármacos mais hepatotóxicos (R, H e Z)', 'Tratar com isoniazida e pirazinamida, poupando a rifampicina', 'Não tratar até a compensação completa da cirrose e da ascite'],
     g: 'B',
     c: 'Isoniazida, rifampicina e, principalmente, pirazinamida são hepatotóxicas. Na doença hepática avançada, ou com transaminases acima de 5 vezes o limite superior, o risco de insuficiência hepática com o esquema básico é proibitivo, e usam-se esquemas especiais, definidos na referência, com fármacos de eliminação renal e baixa toxicidade hepática. Em hepatopatias leves, o esquema básico pode ser usado com monitorização.',
     x: { A: 'Na cirrose descompensada com transaminases muito altas o esquema básico pode precipitar falência hepática.', C: 'Isoniazida e pirazinamida são justamente os fármacos de maior risco hepático.', D: 'A tuberculose não tratada é fatal; deve-se tratar com esquema adaptado.' },
@@ -189,7 +189,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Diabetes',
     e: 'Homem de 59 anos, diabético bem controlado com glibenclamida, inicia o esquema básico para tuberculose pulmonar. Após 3 semanas, as glicemias de jejum passam de 110 para 240 mg/dL, sem mudança de dieta ou adesão. A explicação mais provável e a conduta são:',
-    o: ['Pancreatite pela isoniazida; suspender o esquema', 'Indução enzimática pela rifampicina, que reduz o nível das sulfonilureias; ajustar o tratamento do diabetes, considerando insulina', 'Efeito hiperglicemiante do etambutol; trocar por estreptomicina', 'Resistência do bacilo; solicitar teste de sensibilidade'],
+    o: ['Pancreatite pela isoniazida; suspender o esquema e investigar', 'Indução enzimática pela rifampicina reduz a sulfonilureia; ajustar a terapia', 'Efeito hiperglicemiante do etambutol; trocar por estreptomicina', 'Resistência do bacilo; solicitar teste de sensibilidade e cultura'],
     g: 'B',
     c: 'A rifampicina induz o citocromo P450 e acelera o metabolismo das sulfonilureias, reduzindo seu efeito; a própria infecção ativa também aumenta a resistência insulínica. Como o mau controle glicêmico piora a resposta ao tratamento da tuberculose, intensifica-se o tratamento do diabetes, e a insulina é a opção recomendada quando o controle com fármacos orais falha. Diabéticos também devem receber piridoxina.',
     x: { A: 'Não há dor abdominal nem outros sinais de pancreatite, e a isoniazida não é causa habitual.', C: 'O etambutol não tem efeito hiperglicemiante relevante.', D: 'A piora glicêmica não é sinal de resistência bacilar.' },
@@ -197,7 +197,7 @@ export const TB_4: QuestaoCompacta[] = [
   {
     s: 'Notificação',
     e: 'Sobre a notificação da tuberculose no Brasil, assinale a alternativa correta.',
-    o: ['Deve-se notificar todo sintomático respiratório no momento da coleta do escarro', 'É doença de notificação compulsória, e notificam-se os casos confirmados, por critério laboratorial ou clínico, no Sinan', 'A notificação é facultativa nas formas extrapulmonares', 'Apenas os casos com resistência medicamentosa são de notificação compulsória'],
+    o: ['Deve-se notificar todo sintomático respiratório no momento da coleta do escarro', 'É compulsória; notificam-se no Sinan os casos confirmados, por laboratório ou clínica', 'A notificação é facultativa nas formas extrapulmonares e ganglionares', 'Apenas os casos com resistência medicamentosa são de notificação compulsória'],
     g: 'B',
     c: 'A tuberculose é doença de notificação compulsória em todo o país. Diferentemente de muitos agravos, notifica-se apenas o caso confirmado, por critério laboratorial (baciloscopia, teste molecular ou cultura) ou clínico, e não o suspeito. O registro é feito no Sinan, e o encerramento (cura, abandono, óbito, falência, transferência) também deve ser informado. Casos em esquemas especiais são acompanhados ainda no sistema próprio (SITE-TB).',
     x: { A: 'O sintomático respiratório é registrado no livro da unidade, mas não é notificado no Sinan.', C: 'Todas as formas clínicas confirmadas, pulmonares ou extrapulmonares, são notificadas.', D: 'A notificação independe do perfil de sensibilidade do bacilo.' },

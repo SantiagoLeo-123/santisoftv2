@@ -13,7 +13,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Escore de Wells para TEP',
     e: 'No escore de Wells para tromboembolia pulmonar, os dois itens de maior pontuação (3 pontos cada) são:',
-    o: ['Hemoptise e câncer ativo', 'Sinais clínicos de trombose venosa profunda e diagnóstico alternativo menos provável que embolia', 'Frequência cardíaca acima de 100 bpm e imobilização recente', 'Embolia prévia e idade acima de 65 anos'],
+    o: ['Hemoptise e câncer ativo em tratamento ou paliação', 'Sinais de TVP e diagnóstico alternativo menos provável que embolia', 'Frequência cardíaca acima de 100 bpm e imobilização recente', 'Embolia ou trombose prévia e idade acima de 65 anos'],
     g: 'B',
     c: 'Sinais clínicos de trombose venosa profunda e a impressão de que embolia é o diagnóstico mais provável valem 3 pontos cada. Taquicardia, imobilização ou cirurgia nas últimas 4 semanas e tromboembolismo prévio valem 1,5 ponto; hemoptise e câncer, 1 ponto. Na versão dicotômica, mais de 4 pontos indica embolia provável.',
     x: { A: 'Hemoptise e câncer ativo valem apenas 1 ponto cada.', C: 'Taquicardia e imobilização ou cirurgia recente valem 1,5 ponto cada.', D: 'Embolia prévia vale 1,5 ponto, e a idade não entra no escore de Wells.' },
@@ -21,7 +21,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Escore de Genebra',
     e: 'Em comparação ao escore de Wells, a principal característica do escore de Genebra revisado para estimar a probabilidade de embolia pulmonar é:',
-    o: ['Incluir o resultado do D-dímero entre as variáveis', 'Usar apenas variáveis objetivas, sem o julgamento sobre diagnóstico alternativo', 'Ser validado somente para pacientes internados em terapia intensiva', 'Dispensar a frequência cardíaca do cálculo'],
+    o: ['Incluir o resultado do D-dímero entre as variáveis do escore', 'Usar apenas variáveis objetivas, sem julgamento sobre diagnóstico alternativo', 'Ser validado somente para pacientes internados em terapia intensiva', 'Dispensar a frequência cardíaca e a saturação do cálculo'],
     g: 'B',
     c: 'O escore de Genebra revisado utiliza somente dados objetivos: idade acima de 65 anos, tromboembolismo prévio, cirurgia ou fratura no último mês, câncer ativo, dor unilateral em membro inferior, hemoptise, frequência cardíaca e dor à palpação venosa com edema unilateral. O escore de Wells inclui um item subjetivo, que depende da experiência do examinador.',
     x: { A: 'Nenhum dos escores clínicos inclui o D-dímero; ele é o passo seguinte.', C: 'O escore foi validado em pacientes de emergência, não em terapia intensiva.', D: 'A frequência cardíaca é variável importante do escore de Genebra, em duas faixas de pontuação.' },
@@ -29,7 +29,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Regra PERC',
     e: 'Homem de 32 anos, sem comorbidades, procura a emergência com dor torácica ventilatório-dependente há 1 dia, após esforço na academia. Frequência cardíaca de 78 bpm, saturação de 98%, sem hemoptise, sem edema de membros, sem cirurgia, trauma ou tromboembolismo prévios. O médico julga baixa a probabilidade de embolia. A conduta é:',
-    o: ['Dosar D-dímero', 'Não prosseguir a investigação de embolia pulmonar', 'Solicitar angiotomografia de tórax', 'Solicitar cintilografia de ventilação e perfusão'],
+    o: ['Dosar D-dímero para excluir a hipótese de embolia', 'Não prosseguir a investigação de embolia pulmonar', 'Solicitar angiotomografia de tórax com contraste iodado', 'Solicitar cintilografia de ventilação e perfusão'],
     g: 'B',
     c: 'Em paciente com baixa probabilidade clínica, o preenchimento dos 8 critérios da regra PERC (idade abaixo de 50 anos, frequência cardíaca abaixo de 100 bpm, saturação de 95% ou mais, sem hemoptise, sem uso de estrogênio, sem tromboembolismo prévio, sem edema unilateral de perna e sem cirurgia ou trauma recente) torna o risco tão baixo que nenhum exame é necessário. Isso evita D-dímeros falso-positivos e tomografias desnecessárias.',
     x: { A: 'O D-dímero é dispensável quando todos os critérios PERC são negativos em paciente de baixa probabilidade.', C: 'A angiotomografia exporia o paciente a radiação e contraste sem benefício.', D: 'A cintilografia também é desnecessária nesse cenário.' },
@@ -45,7 +45,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'D-dímero',
     e: 'A principal utilidade do D-dímero de alta sensibilidade na investigação de tromboembolismo venoso é:',
-    o: ['Confirmar o diagnóstico quando elevado, pela alta especificidade', 'Excluir o diagnóstico quando normal em pacientes de probabilidade clínica baixa ou intermediária', 'Estimar a extensão da carga trombótica', 'Definir a duração da anticoagulação no momento do diagnóstico'],
+    o: ['Confirmar o diagnóstico quando elevado, pela alta especificidade do teste', 'Excluir embolia quando normal, em probabilidade clínica baixa ou intermediária', 'Estimar a extensão da carga trombótica e o risco de morte', 'Definir a duração da anticoagulação no momento do diagnóstico'],
     g: 'B',
     c: 'O D-dímero é produto da degradação da fibrina estabilizada e tem alta sensibilidade, com alto valor preditivo negativo. Como se eleva em idosos, câncer, infecção, gestação, pós-operatório e inflamação, sua especificidade é baixa; um valor elevado apenas indica a necessidade de exame de imagem.',
     x: { A: 'A especificidade é baixa; D-dímero elevado não confirma trombose.', C: 'O valor não se correlaciona de forma confiável com a extensão do trombo.', D: 'A duração do tratamento é definida pelo contexto clínico do evento, não pelo D-dímero inicial.' },
@@ -53,7 +53,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'D-dímero ajustado pela idade',
     e: 'Mulher de 78 anos, sem comorbidades, queixa-se de dispneia leve há 2 dias. Está estável, com escore de Wells de 1,5 ponto. O D-dímero é de 700 ng/mL (referência convencional: abaixo de 500 ng/mL). A melhor interpretação é:',
-    o: ['D-dímero positivo; solicitar angiotomografia de tórax', 'D-dímero negativo pelo ponto de corte ajustado pela idade; embolia excluída', 'D-dímero inconclusivo; repetir em 24 horas', 'D-dímero positivo; iniciar anticoagulação empírica por 3 meses'],
+    o: ['D-dímero positivo pelo corte padrão; solicitar angiotomografia de tórax', 'D-dímero negativo pelo corte ajustado à idade; embolia excluída', 'D-dímero inconclusivo; repetir em 24 horas e manter observação', 'D-dímero positivo; iniciar anticoagulação empírica por 3 meses'],
     g: 'B',
     c: 'Como o D-dímero aumenta com a idade, em pacientes acima de 50 anos recomenda-se o ponto de corte ajustado: idade multiplicada por 10 ng/mL. Para 78 anos, o limite é 780 ng/mL, de modo que 700 ng/mL é considerado negativo e exclui embolia em paciente de probabilidade não alta, aumentando a especificidade sem perda de segurança.',
     x: { A: 'O valor está abaixo do limite ajustado, não havendo indicação de imagem.', C: 'Repetir o exame não acrescenta informação diagnóstica.', D: 'Não se trata por 3 meses com base apenas em D-dímero, ainda mais abaixo do corte ajustado.' },
@@ -61,7 +61,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'D-dímero',
     e: 'Homem de 60 anos, com câncer de pulmão, apresenta dispneia súbita, hemoptise, frequência cardíaca de 115 bpm e edema doloroso da perna esquerda. Está estável. O plantonista solicita D-dímero, que vem normal. A conduta correta é:',
-    o: ['Afastar embolia pulmonar e investigar outras causas', 'Prosseguir com angiotomografia de tórax, pois a probabilidade clínica é alta', 'Repetir o D-dímero em 6 horas', 'Dar alta com orientação de retorno se houver piora'],
+    o: ['Afastar embolia pulmonar e investigar outras causas de dispneia', 'Prosseguir com angiotomografia, pois a probabilidade clínica é alta', 'Repetir o D-dímero em 6 horas antes de decidir sobre imagem', 'Dar alta com orientação de retorno se houver piora clínica'],
     g: 'B',
     c: 'Em pacientes com alta probabilidade pré-teste, o valor preditivo negativo do D-dímero cai, e um resultado normal não exclui a doença com segurança. Por isso o exame nem deveria ser solicitado nesse cenário: a conduta é realizar imagem e iniciar anticoagulação enquanto se aguarda, se não houver contraindicação.',
     x: { A: 'O D-dímero normal não afasta embolia quando a probabilidade clínica é alta.', C: 'A repetição do exame não modifica a necessidade de imagem.', D: 'Alta sem investigação em paciente de alto risco é conduta insegura.' },
@@ -85,7 +85,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Angiotomografia de tórax',
     e: 'Na angiotomografia de um paciente com embolia pulmonar, o achado que indica disfunção do ventrículo direito e tem valor prognóstico é:',
-    o: ['Derrame pleural bilateral', 'Relação entre os diâmetros do ventrículo direito e do esquerdo maior ou igual a 1', 'Opacidade em vidro fosco periférica', 'Linfonodomegalia hilar'],
+    o: ['Derrame pleural bilateral com atelectasias basais', 'Relação entre os diâmetros do VD e do VE maior ou igual a 1', 'Opacidade em vidro fosco periférica e subpleural', 'Linfonodomegalia hilar e mediastinal volumosa'],
     g: 'B',
     c: 'A dilatação do ventrículo direito, expressa pela relação entre os diâmetros ventriculares igual ou superior a 1 no corte axial, traduz sobrecarga pressórica aguda e associa-se a maior mortalidade precoce. Outros sinais são a retificação do septo interventricular e o refluxo de contraste para a veia cava inferior.',
     x: { A: 'Derrame pleural pode acompanhar a embolia, mas não mede a função do ventrículo direito.', C: 'Vidro fosco periférico pode corresponder a infarto ou hemorragia, sem relação com a função ventricular.', D: 'Linfonodomegalia hilar não guarda relação com a gravidade da embolia.' },
@@ -117,7 +117,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Ecocardiograma',
     e: 'Homem de 66 anos, no 4º dia após prostatectomia, apresenta dispneia súbita e síncope. Pressão arterial de 76 x 44 mmHg apesar de volume, frequência cardíaca de 130 bpm, turgência jugular. Está instável demais para transporte à tomografia. O exame inicial indicado é:',
-    o: ['D-dímero', 'Ecocardiograma transtorácico à beira do leito', 'Cintilografia de ventilação e perfusão', 'Ressonância magnética de tórax'],
+    o: ['D-dímero seriado a cada 6 horas até a estabilização', 'Ecocardiograma transtorácico à beira do leito', 'Cintilografia de ventilação e perfusão pulmonar', 'Ressonância magnética de tórax com gadolínio'],
     g: 'B',
     c: 'Na suspeita de embolia de alto risco em paciente que não pode ser transportado, o ecocardiograma à beira do leito é o exame inicial. A presença de sobrecarga aguda do ventrículo direito, sem outra causa evidente para o choque, autoriza o tratamento de reperfusão; a angiotomografia é feita se o paciente estabilizar e estiver disponível de imediato.',
     x: { A: 'O D-dímero não tem papel em paciente instável com alta probabilidade.', C: 'A cintilografia é demorada e exige transporte e colaboração do paciente.', D: 'A ressonância é demorada, pouco disponível e inadequada para pacientes instáveis.' },
@@ -133,7 +133,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Ecocardiograma',
     e: 'O sinal de McConnell, descrito no ecocardiograma de pacientes com embolia pulmonar aguda, consiste em:',
-    o: ['Movimento paradoxal do septo interventricular na diástole', 'Hipocinesia da parede livre do ventrículo direito com contratilidade preservada do ápice', 'Trombo móvel visualizado no átrio direito', 'Colapso diastólico do ventrículo direito'],
+    o: ['Movimento paradoxal do septo interventricular na diástole final', 'Hipocinesia da parede livre do VD com contratilidade preservada do ápice', 'Trombo móvel visualizado no átrio direito e na veia cava', 'Colapso diastólico do ventrículo direito por derrame pericárdico'],
     g: 'B',
     c: 'O sinal de McConnell é a acinesia ou hipocinesia da porção média da parede livre do ventrículo direito, poupando o ápice. É considerado sugestivo de sobrecarga aguda, ajudando a diferenciar a embolia das causas crônicas de hipertensão pulmonar, embora possa ocorrer também no infarto de ventrículo direito.',
     x: { A: 'O desvio septal pode ocorrer na sobrecarga direita, mas não é o sinal de McConnell.', C: 'O trombo em trânsito é achado distinto e raro.', D: 'O colapso diastólico do ventrículo direito é sinal de tamponamento cardíaco.' },
@@ -141,7 +141,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Arteriografia pulmonar',
     e: 'Sobre a arteriografia pulmonar por cateter no diagnóstico de tromboembolia pulmonar, é correto afirmar que:',
-    o: ['É o exame inicial de escolha em pacientes de alta probabilidade', 'É o padrão-ouro histórico, hoje pouco utilizado para diagnóstico e reservado a casos com tratamento por cateter', 'Tem acurácia inferior à da radiografia de tórax', 'É isenta de complicações por não utilizar contraste iodado'],
+    o: ['É o exame inicial de escolha em pacientes de alta probabilidade clínica', 'Padrão-ouro histórico, pouco usado hoje; reservado ao tratamento por cateter', 'Tem acurácia inferior à da radiografia de tórax simples', 'É isenta de complicações por não utilizar contraste iodado'],
     g: 'B',
     c: 'A arteriografia foi por décadas o padrão de referência, mas é invasiva, usa contraste e tem risco de complicações. Com a acurácia equivalente da angiotomografia, seu uso diagnóstico tornou-se raro, ficando restrita praticamente aos pacientes encaminhados a terapias dirigidas por cateter.',
     x: { A: 'O exame inicial em pacientes de alta probabilidade é a angiotomografia.', C: 'A arteriografia tem acurácia muito superior à da radiografia simples.', D: 'O exame utiliza contraste iodado e apresenta riscos de sangramento, arritmia e nefropatia.' },
@@ -149,7 +149,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Ultrassonografia venosa',
     e: 'Mulher de 62 anos, com dispneia súbita e dor pleurítica, tem escore de Wells elevado, mas o tomógrafo do hospital está em manutenção. A ultrassonografia de compressão mostra trombose da veia femoral comum direita. A conduta é:',
-    o: ['Aguardar o conserto do tomógrafo para definir o tratamento', 'Iniciar anticoagulação plena, pois a trombose proximal em paciente com suspeita de embolia é suficiente para tratar', 'Dosar D-dímero para confirmar a embolia', 'Indicar filtro de veia cava inferior'],
+    o: ['Aguardar o conserto do tomógrafo para definir o tratamento do caso', 'Iniciar anticoagulação plena, pois a trombose proximal basta para tratar', 'Dosar D-dímero para confirmar a embolia e iniciar tratamento', 'Indicar filtro de veia cava inferior como primeira medida'],
     g: 'B',
     c: 'A demonstração de trombose venosa profunda proximal em paciente com suspeita clínica de embolia pulmonar confirma tromboembolismo venoso e autoriza a anticoagulação, já que o tratamento inicial é o mesmo. A tomografia pode ser feita depois, se necessária para estratificar risco.',
     x: { A: 'Adiar o tratamento em paciente com trombose confirmada aumenta o risco de novo evento embólico.', C: 'O D-dímero nada acrescenta após a confirmação por imagem.', D: 'O filtro é reservado a quem tem contraindicação à anticoagulação.' },
@@ -157,7 +157,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico na gestante',
     e: 'Gestante de 28 semanas apresenta dispneia súbita, dor pleurítica e edema doloroso da perna esquerda. Está estável hemodinamicamente. O primeiro exame de imagem a ser solicitado é:',
-    o: ['Angiotomografia de tórax', 'Ultrassonografia de compressão dos membros inferiores', 'Arteriografia pulmonar', 'Ressonância magnética de tórax com gadolínio'],
+    o: ['Angiotomografia de tórax com contraste iodado', 'Ultrassonografia de compressão dos membros inferiores', 'Arteriografia pulmonar por cateter de emergência', 'Ressonância magnética de tórax com gadolínio'],
     g: 'B',
     c: 'Na gestante com suspeita de embolia e sinais de trombose venosa profunda, a ultrassonografia de compressão é o primeiro exame, pois, se positiva, confirma tromboembolismo venoso e permite tratar sem expor mãe e feto à radiação. Se for negativa, prossegue-se com radiografia de tórax e, a seguir, cintilografia de perfusão ou angiotomografia.',
     x: { A: 'A angiotomografia é opção válida, mas não é o primeiro exame quando há sinais de trombose na perna.', C: 'A arteriografia é invasiva e desnecessária como exame inicial.', D: 'O gadolínio deve ser evitado na gestação, e a ressonância tem baixa acurácia para embolia.' },
@@ -165,7 +165,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico na gestante',
     e: 'Sobre os exames de imagem com radiação na gestante com suspeita de embolia pulmonar e ultrassonografia de membros negativa, é correto afirmar que:',
-    o: ['Estão contraindicados, devendo-se tratar empiricamente até o parto', 'Cintilografia de perfusão e angiotomografia expõem o feto a doses muito abaixo do limiar de dano e não devem ser negadas', 'Só podem ser realizados após o primeiro trimestre', 'A angiotomografia é proibida, pois o contraste iodado é teratogênico'],
+    o: ['Estão contraindicados, devendo-se tratar empiricamente até o parto', 'Cintilografia e angiotomografia dão ao feto dose muito abaixo do limiar de dano', 'Só podem ser realizados após o primeiro trimestre de gestação', 'A angiotomografia é proibida, pois o contraste iodado é teratogênico'],
     g: 'B',
     c: 'Tanto a cintilografia de perfusão em baixa dose quanto a angiotomografia resultam em dose fetal muito inferior ao limiar associado a efeitos adversos. Como a embolia é causa importante de morte materna e o tratamento empírico implica meses de heparina, o diagnóstico deve ser confirmado por imagem. Com radiografia normal, a cintilografia costuma ser preferida por poupar a mama materna.',
     x: { A: 'Tratar sem confirmação expõe a gestante a anticoagulação prolongada desnecessária.', C: 'Os exames podem ser feitos em qualquer trimestre quando indicados.', D: 'O contraste iodado não é teratogênico e pode ser usado na gestação quando necessário.' },
@@ -181,7 +181,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação durante a investigação',
     e: 'Mulher de 50 anos, com probabilidade clínica alta de embolia pulmonar, está estável e sem contraindicação à anticoagulação. A angiotomografia só poderá ser realizada em 6 horas. A conduta enquanto aguarda o exame é:',
-    o: ['Manter apenas oxigênio e observação', 'Iniciar anticoagulação em dose terapêutica imediatamente', 'Administrar trombolítico em dose reduzida', 'Prescrever ácido acetilsalicílico'],
+    o: ['Manter apenas oxigênio e observação até o exame de imagem', 'Iniciar anticoagulação em dose terapêutica imediatamente', 'Administrar trombolítico em dose reduzida, antes do exame', 'Prescrever ácido acetilsalicílico em dose antiagregante'],
     g: 'B',
     c: 'Quando a probabilidade clínica é alta ou intermediária e não há contraindicação, a anticoagulação deve ser iniciada antes da confirmação diagnóstica, pois o risco de recorrência precoce e morte sem tratamento supera o risco de sangramento por algumas horas de anticoagulante.',
     x: { A: 'Aguardar sem tratamento expõe ao risco de novo êmbolo, potencialmente fatal.', C: 'A trombólise é reservada à embolia confirmada com instabilidade hemodinâmica.', D: 'O antiagregante plaquetário não trata tromboembolismo venoso agudo.' },
@@ -189,7 +189,7 @@ export const TEP_2: QuestaoCompacta[] = [
   {
     s: 'Angiorressonância',
     e: 'Sobre o uso da angiorressonância magnética para o diagnóstico de tromboembolia pulmonar aguda, é correto afirmar que:',
-    o: ['É o exame de escolha em jovens, por não usar radiação', 'Não é recomendada para excluir embolia, pela baixa sensibilidade e alta proporção de exames inconclusivos', 'Substituiu a cintilografia nos pacientes com alergia a contraste iodado', 'Tem sensibilidade superior à da angiotomografia para trombos subsegmentares'],
+    o: ['É o exame de escolha em jovens, por não usar radiação ionizante', 'Não é recomendada: baixa sensibilidade e muitos exames inconclusivos', 'Substituiu a cintilografia nos pacientes com alergia a contraste iodado', 'Tem sensibilidade superior à da angiotomografia para trombos subsegmentares'],
     g: 'B',
     c: 'Estudos mostraram que a angiorressonância tem sensibilidade insuficiente, grande proporção de exames tecnicamente inadequados e baixa disponibilidade na emergência. Por isso as diretrizes não a recomendam na rotina diagnóstica da embolia pulmonar.',
     x: { A: 'Apesar de não usar radiação, o exame não tem acurácia suficiente para ser a escolha.', C: 'A alternativa na alergia ao contraste iodado continua sendo a cintilografia.', D: 'A sensibilidade para trombos distais é inferior à da angiotomografia.' },

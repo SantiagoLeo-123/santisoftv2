@@ -21,7 +21,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Reconhecimento',
     e: 'Ao avaliar um adulto irresponsivo, o profissional de saúde deve checar pulso e respiração simultaneamente. O local e o tempo máximo recomendados para essa checagem são:',
-    o: ['Pulso radial, por até 30 segundos', 'Pulso carotídeo, por no mínimo 5 e no máximo 10 segundos', 'Pulso femoral, por até 60 segundos', 'Pulso braquial, por até 20 segundos'],
+    o: ['Pulso radial, por até 30 segundos, em ambos os punhos', 'Pulso carotídeo, por no mínimo 5 e no máximo 10 segundos', 'Pulso femoral, por até 60 segundos, antes de comprimir', 'Pulso braquial, por até 20 segundos, no braço esquerdo'],
     g: 'B',
     c: 'No adulto palpa-se o pulso carotídeo, por ser central e acessível, durante 5 a 10 segundos. Se não houver pulso claramente palpável nesse intervalo, iniciam-se as compressões, pois a demora em começar a RCP é mais danosa do que comprimir alguém que tem pulso.',
     x: { A: 'O pulso radial é periférico e desaparece na hipotensão; 30 segundos é tempo excessivo.', C: 'O femoral é aceitável, mas o tempo máximo é de 10 segundos.', D: 'O braquial é usado no lactente, e o limite é de 10 segundos.' },
@@ -37,7 +37,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Sequência C-A-B',
     e: 'A sequência C-A-B substituiu a A-B-C no atendimento da parada cardiorrespiratória do adulto. A principal justificativa para iniciar pelas compressões é:',
-    o: ['A ventilação não tem utilidade na parada cardíaca do adulto', 'Nos primeiros minutos o sangue ainda contém oxigênio, e o que falta é fluxo; começar pela via aérea atrasa as compressões', 'As compressões dispensam o uso do desfibrilador', 'A abertura da via aérea provoca lesão cervical na maioria das vítimas'],
+    o: ['A ventilação não tem utilidade na parada cardíaca do adulto', 'O sangue ainda tem O2 nos primeiros minutos; falta fluxo, não ar', 'As compressões dispensam o uso do desfibrilador em qualquer ritmo', 'A abertura da via aérea provoca lesão cervical na maioria das vítimas'],
     g: 'B',
     c: 'Na parada de origem cardíaca, o conteúdo arterial de oxigênio permanece razoável nos primeiros minutos, e o problema é a ausência de fluxo para coração e cérebro. Iniciar pelas compressões reduz o tempo até a primeira compressão, e as ventilações entram após as 30 primeiras compressões.',
     x: { A: 'A ventilação continua indicada, apenas depois das primeiras compressões.', C: 'A desfibrilação continua essencial nos ritmos chocáveis.', D: 'A abertura da via aérea é segura e continua fazendo parte da sequência.' },
@@ -53,7 +53,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Qualidade das compressões',
     e: 'Em um adulto de porte médio em parada cardiorrespiratória, a profundidade recomendada das compressões torácicas é de:',
-    o: ['2 a 3 cm', 'Pelo menos 5 cm, sem ultrapassar 6 cm', '8 a 10 cm', 'Metade do diâmetro anteroposterior do tórax'],
+    o: ['2 a 3 cm, para evitar fraturas de costelas', 'Pelo menos 5 cm, sem ultrapassar 6 cm', '8 a 10 cm, para garantir fluxo adequado', 'Metade do diâmetro anteroposterior do tórax'],
     g: 'B',
     c: 'A compressão deve deprimir o tórax pelo menos 5 cm para gerar pressão suficiente de perfusão coronariana e cerebral. Profundidades acima de 6 cm não aumentam o benefício e elevam o risco de fraturas e lesões de órgãos.',
     x: { A: 'Compressões superficiais não geram fluxo adequado.', C: 'Profundidade excessiva, associada a lesões torácicas e abdominais.', D: 'Na criança usa-se um terço do diâmetro anteroposterior; metade é excessivo.' },
@@ -61,7 +61,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Qualidade das compressões',
     e: 'Um socorrista cansado passa a se apoiar sobre o tórax da vítima entre as compressões. O principal prejuízo hemodinâmico de não permitir o retorno completo do tórax é:',
-    o: ['Aumento do volume corrente das ventilações', 'Redução do retorno venoso e da pressão de perfusão coronariana', 'Aumento da pressão arterial diastólica', 'Maior risco de fibrilação ventricular induzida'],
+    o: ['Aumento do volume corrente das ventilações oferecidas', 'Redução do retorno venoso e da pressão de perfusão coronariana', 'Aumento da pressão arterial diastólica durante o relaxamento', 'Maior risco de fibrilação ventricular induzida pela pressão'],
     g: 'B',
     c: 'Na fase de descompressão, a pressão intratorácica cai e o sangue retorna ao coração; é também nessa fase que as coronárias são perfundidas. Apoiar-se no tórax mantém a pressão intratorácica elevada, diminui o enchimento cardíaco e a perfusão coronariana, piorando o débito da compressão seguinte.',
     x: { A: 'O apoio sobre o tórax não melhora a ventilação.', C: 'A pressão diastólica e a perfusão coronariana caem, não sobem.', D: 'O problema é hemodinâmico, não indução de arritmia.' },
@@ -69,7 +69,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Qualidade das compressões',
     e: 'A fração de compressão torácica é a proporção do tempo de reanimação em que as compressões estão sendo efetivamente realizadas. A meta recomendada é:',
-    o: ['Pelo menos 30%', 'Pelo menos 60%, idealmente acima de 80%', 'Exatamente 50%', 'Qualquer valor, desde que a frequência seja adequada'],
+    o: ['Pelo menos 30%, desde que haja boa ventilação', 'Pelo menos 60%, idealmente acima de 80%', 'Exatamente 50%, com pausas simétricas', 'Qualquer valor, desde que a frequência seja adequada'],
     g: 'B',
     c: 'Cada pausa derruba a pressão de perfusão coronariana, que leva várias compressões para ser reconstruída. Por isso as interrupções devem ser mínimas (menos de 10 segundos para ventilar, checar ritmo ou chocar), mantendo a fração de compressão acima de 60% e, com equipe treinada, acima de 80%.',
     x: { A: 'Valor muito baixo, que indica pausas excessivas.', C: 'Metade do tempo sem compressões compromete a perfusão.', D: 'Frequência correta não compensa pausas longas.' },
@@ -85,7 +85,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'RCP por leigos',
     e: 'Uma mulher sem treinamento liga para o serviço de emergência após o marido de 62 anos desabar na sala, irresponsivo e sem respirar. A orientação mais adequada do atendente é:',
-    o: ['Aguardar a ambulância sem tocar na vítima', 'Realizar apenas compressões torácicas contínuas, fortes e rápidas, no centro do tórax', 'Fazer ventilação boca a boca isolada até a chegada do socorro', 'Dar tapas no rosto e oferecer água'],
+    o: ['Aguardar a ambulância sem tocar na vítima, por segurança', 'Compressões torácicas contínuas, fortes e rápidas, no centro do tórax', 'Fazer ventilação boca a boca isolada até a chegada do socorro', 'Dar tapas no rosto e oferecer água para reanimar'],
     g: 'B',
     c: 'Para o leigo não treinado, recomenda-se a RCP somente com as mãos, orientada por telefone. Ela é mais fácil de ensinar, elimina a barreira do boca a boca e, na parada de origem cardíaca do adulto, tem resultado semelhante ao da RCP convencional nos primeiros minutos.',
     x: { A: 'Sem RCP, a chance de sobrevida cai a cada minuto.', C: 'Ventilar sem comprimir não gera fluxo sanguíneo.', D: 'Medidas inúteis, que atrasam a RCP e podem causar aspiração.' },
@@ -93,7 +93,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'DEA',
     e: 'Durante a RCP de um homem de 50 anos em um aeroporto, chega um desfibrilador externo automático. O socorrista que o traz deve:',
-    o: ['Esperar o término de 5 ciclos completos antes de ligar o aparelho', 'Ligar o aparelho e colar as pás imediatamente, enquanto o colega mantém as compressões', 'Usar o aparelho somente após a chegada de um médico', 'Fazer 5 minutos de RCP antes de qualquer análise de ritmo'],
+    o: ['Esperar o término de 5 ciclos completos antes de ligar o aparelho', 'Ligar o aparelho e colar as pás de imediato, mantendo as compressões', 'Usar o aparelho somente após a chegada de um médico ao local', 'Fazer 5 minutos de RCP antes de qualquer análise de ritmo'],
     g: 'B',
     c: 'O DEA deve ser usado assim que estiver disponível, pois a chance de reverter a fibrilação ventricular cai a cada minuto sem choque. As compressões continuam enquanto as pás são coladas e só param quando o aparelho pede para analisar o ritmo.',
     x: { A: 'Não se aguarda o fim dos ciclos para instalar o DEA.', C: 'O DEA foi feito para uso por leigos e por qualquer profissional.', D: 'Atrasar a análise em vítima com ritmo chocável reduz a sobrevida.' },
@@ -125,7 +125,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Qualidade das compressões',
     e: 'Dois socorristas realizam RCP em um adulto há vários minutos. Para manter a qualidade das compressões, a troca de quem comprime deve ocorrer:',
-    o: ['Somente quando o compressor relatar exaustão', 'A cada 2 minutos (cerca de 5 ciclos de 30:2), ou antes se houver fadiga', 'A cada 10 minutos', 'A cada 30 segundos'],
+    o: ['Somente quando o compressor relatar exaustão evidente', 'A cada 2 minutos (5 ciclos de 30:2), ou antes se houver fadiga', 'A cada 10 minutos, para não interromper a RCP', 'A cada 30 segundos, para manter a qualidade'],
     g: 'B',
     c: 'A profundidade das compressões cai depois de 1 a 2 minutos, muitas vezes antes de o socorrista perceber o cansaço. A troca programada a cada 2 minutos, feita em menos de 5 segundos e de preferência durante a análise do ritmo, preserva a qualidade da RCP.',
     x: { A: 'A qualidade cai antes da percepção de fadiga.', C: 'Tempo longo demais, com compressões progressivamente superficiais.', D: 'Trocas tão frequentes aumentam as interrupções.' },
@@ -149,7 +149,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Ventilação',
     e: 'Durante a RCP com bolsa-válvula-máscara, um socorrista ventila com grande volume e rapidamente, distendendo o abdome da vítima. A técnica correta de cada ventilação é:',
-    o: ['Insuflação rápida e vigorosa, esvaziando toda a bolsa', 'Insuflação durante 1 segundo, com volume suficiente apenas para elevar visivelmente o tórax', 'Insuflação por 5 segundos, com o maior volume possível', 'Quatro insuflações seguidas sem permitir a expiração'],
+    o: ['Insuflação rápida e vigorosa, esvaziando toda a bolsa', 'Insuflação de 1 segundo, com volume que apenas eleve o tórax', 'Insuflação por 5 segundos, com o maior volume possível', 'Quatro insuflações seguidas sem permitir a expiração'],
     g: 'B',
     c: 'Ventilações excessivas elevam a pressão intratorácica, reduzem o retorno venoso e o débito gerado pelas compressões, e insuflam o estômago, favorecendo regurgitação e aspiração. Bastam cerca de 500 a 600 mL em 1 segundo, com elevação visível do tórax.',
     x: { A: 'Pressão alta abre o esfíncter esofágico e distende o estômago.', C: 'Tempo e volume excessivos prolongam a pausa das compressões.', D: 'O empilhamento de ar aumenta a pressão intratorácica e reduz o retorno venoso.' },
@@ -157,7 +157,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Parada respiratória',
     e: 'Mulher de 30 anos é encontrada irresponsiva, sem movimentos respiratórios, mas com pulso carotídeo cheio e regular. Não há sinais de trauma. A conduta do profissional de saúde é:',
-    o: ['Iniciar compressões torácicas na relação 30:2', 'Fornecer ventilações de resgate, cerca de 10 por minuto, e rechecar o pulso a cada 2 minutos', 'Aplicar choque com o DEA imediatamente', 'Apenas colocar em posição lateral de segurança'],
+    o: ['Iniciar compressões torácicas na relação 30:2 de imediato', 'Ventilações de resgate (~10/min) e rechecar o pulso a cada 2 minutos', 'Aplicar choque com o DEA imediatamente, antes de ventilar', 'Apenas colocar em posição lateral de segurança e observar'],
     g: 'B',
     c: 'Com pulso presente e sem respiração, trata-se de parada respiratória: o coração ainda bombeia e o que falta é oxigenação. Ventila-se uma vez a cada 6 segundos (edições anteriores citavam a cada 5 a 6 segundos), rechecando o pulso a cada 2 minutos, pois a hipóxia não corrigida evolui para parada cardíaca.',
     x: { A: 'Com pulso presente no adulto, não se iniciam compressões.', C: 'Não há ritmo de parada para ser chocado.', D: 'A posição lateral serve para quem respira espontaneamente.' },
@@ -165,7 +165,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Posição de recuperação',
     e: 'Homem de 40 anos, etilizado, é encontrado desacordado na calçada, sem sinais de trauma. Respira normalmente e tem pulso carotídeo palpável. Enquanto aguarda o socorro, o socorrista deve:',
-    o: ['Iniciar compressões torácicas', 'Colocá-lo em decúbito lateral (posição de recuperação) e monitorar a respiração', 'Mantê-lo em decúbito dorsal com a cabeça fletida', 'Oferecer café para despertá-lo'],
+    o: ['Iniciar compressões torácicas imediatas, pela inconsciência', 'Colocá-lo em decúbito lateral e monitorar a respiração', 'Mantê-lo em decúbito dorsal com a cabeça fletida sobre o tórax', 'Oferecer café para despertá-lo e deixá-lo na calçada'],
     g: 'B',
     c: 'Na vítima inconsciente que respira e tem pulso, o risco é a obstrução da via aérea pela língua e a aspiração de vômito. O decúbito lateral mantém a via aérea pérvia e permite a drenagem de secreções, devendo-se reavaliar a respiração continuamente.',
     x: { A: 'Não há parada: a vítima respira e tem pulso.', C: 'Em decúbito dorsal com flexão, a língua obstrui a via aérea.', D: 'Nada deve ser oferecido por via oral a vítima inconsciente.' },
@@ -173,7 +173,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Obstrução de via aérea',
     e: 'Em um restaurante, um homem de 55 anos se engasga com carne. Leva as mãos ao pescoço, não consegue falar nem tossir e fica cianótico, mas permanece consciente e em pé. A conduta classicamente indicada é:',
-    o: ['Oferecer água e orientar que respire fundo', 'Compressões abdominais (manobra de Heimlich) até a desobstrução ou a perda de consciência', 'Varredura digital às cegas da orofaringe', 'Iniciar compressões torácicas com a vítima em pé'],
+    o: ['Oferecer água e orientar que respire fundo e relaxe', 'Compressões abdominais (Heimlich) até desobstruir ou perder a consciência', 'Varredura digital às cegas da orofaringe, com o dedo em gancho', 'Iniciar compressões torácicas com a vítima em pé e consciente'],
     g: 'B',
     c: 'Na obstrução grave em adulto consciente, as compressões abdominais elevam o diafragma e a pressão intratorácica, criando uma tosse artificial que expulsa o corpo estranho. A atualização de 2025 da American Heart Association passou a sugerir alternar 5 golpes nas costas com 5 compressões abdominais no adulto, mas a manobra de Heimlich segue sendo a resposta tradicional das provas.',
     x: { A: 'Com obstrução total não passa ar nem líquido, e há risco de aspiração.', C: 'A varredura às cegas pode empurrar o corpo estranho para baixo.', D: 'Compressões torácicas em pé não são a manobra do adulto consciente comum.' },
@@ -181,7 +181,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Obstrução de via aérea',
     e: 'Mulher de 35 anos se engasga durante o almoço. Está assustada, mas tosse com força, consegue falar algumas palavras e respira com sibilos entre os acessos de tosse. A conduta é:',
-    o: ['Realizar a manobra de Heimlich imediatamente', 'Estimular a tosse e observar, sem intervir enquanto ela for eficaz', 'Dar golpes fortes nas costas com a paciente deitada', 'Iniciar RCP'],
+    o: ['Realizar a manobra de Heimlich imediatamente, por segurança', 'Estimular a tosse e observar, sem intervir enquanto for eficaz', 'Dar golpes fortes nas costas com a paciente deitada em decúbito dorsal', 'Iniciar RCP com compressões torácicas imediatas'],
     g: 'B',
     c: 'Tosse eficaz e capacidade de falar indicam obstrução leve, com passagem de ar. A tosse espontânea gera pressões maiores do que qualquer manobra externa, e intervir pode deslocar o objeto e transformar a obstrução parcial em total. Observa-se a evolução, agindo apenas se a tosse se tornar ineficaz.',
     x: { A: 'A manobra é reservada à obstrução grave, com tosse ineficaz.', C: 'Intervenções desnecessárias podem agravar a obstrução.', D: 'A paciente está consciente, respirando e com pulso.' },
@@ -189,7 +189,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Obstrução de via aérea',
     e: 'Durante a tentativa de desobstrução com compressões abdominais, um idoso engasgado perde a consciência e é amparado até o chão. A conduta a seguir é:',
-    o: ['Continuar as compressões abdominais com a vítima deitada', 'Acionar ajuda e iniciar RCP pelas compressões, inspecionando a boca antes de ventilar e retirando o objeto apenas se visível', 'Fazer varredura digital às cegas repetidas vezes', 'Aguardar o retorno espontâneo da consciência'],
+    o: ['Continuar as compressões abdominais com a vítima deitada', 'Acionar ajuda e iniciar RCP, inspecionando a boca antes de ventilar', 'Fazer varredura digital às cegas repetidas vezes na orofaringe', 'Aguardar o retorno espontâneo da consciência por 1 minuto'],
     g: 'B',
     c: 'Quando a vítima fica inconsciente, as compressões torácicas passam a ser a manobra de desobstrução, pois geram pressão intratorácica capaz de deslocar o objeto, além de manterem a circulação. A cada abertura da via aérea olha-se a boca, e o corpo estranho só é removido se for visto.',
     x: { A: 'Na vítima inconsciente a conduta passa a ser a RCP.', C: 'A varredura às cegas pode impactar ainda mais o objeto.', D: 'A hipóxia progride rapidamente para parada cardíaca.' },
@@ -197,7 +197,7 @@ export const PCR_1: QuestaoCompacta[] = [
   {
     s: 'Obstrução de via aérea',
     e: 'Gestante de 34 semanas se engasga com um pedaço de pão, não consegue tossir nem falar e permanece consciente. A manobra de desobstrução indicada é:',
-    o: ['Compressões abdominais na linha média, acima do umbigo', 'Compressões torácicas, com as mãos sobre o esterno', 'Compressão do fundo uterino', 'Varredura digital às cegas'],
+    o: ['Compressões abdominais na linha média, acima do umbigo', 'Compressões torácicas, com as mãos sobre o esterno', 'Compressão do fundo uterino pela via abdominal', 'Varredura digital às cegas da orofaringe da gestante'],
     g: 'B',
     c: 'No fim da gestação e nos grandes obesos, o socorrista não consegue envolver o abdome, e a compressão abdominal é ineficaz e pode lesar o útero e o feto. Aplica-se a compressão no tórax, sobre o esterno, que também aumenta a pressão intratorácica.',
     x: { A: 'A compressão abdominal é ineficaz e perigosa no útero gravídico volumoso.', C: 'Comprimir o útero não desobstrui a via aérea e lesa o feto.', D: 'A varredura às cegas pode empurrar o corpo estranho.' },

@@ -29,7 +29,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireoidite de Hashimoto',
     e: 'Mulher de 36 anos, com vitiligo, recebe diagnóstico de hipotireoidismo por Hashimoto e inicia levotiroxina. Duas semanas depois, piora, com fraqueza intensa, náuseas, hipotensão postural e hiperpigmentação de pregas palmares. Sódio 126 mEq/L e potássio 5,8 mEq/L. A explicação e a conduta são:',
-    o: ['Dose excessiva de levotiroxina; reduzir a dose pela metade', 'Insuficiência adrenal primária associada, descompensada pela levotiroxina; iniciar glicocorticoide', 'Coma mixedematoso; aumentar a dose de levotiroxina', 'Efeito adverso alérgico da levotiroxina; trocar a marca do medicamento'],
+    o: ['Dose excessiva de levotiroxina; reduzir a dose pela metade e reavaliar', 'Insuficiência adrenal associada, descompensada pela levotiroxina; dar glicocorticoide', 'Coma mixedematoso; aumentar a dose de levotiroxina em 50%', 'Efeito adverso alérgico da levotiroxina; trocar a marca do medicamento'],
     g: 'B',
     c: 'A associação de tireoidite autoimune com doença de Addison compõe a síndrome poliglandular autoimune tipo 2 (síndrome de Schmidt). A levotiroxina acelera o metabolismo e a depuração do cortisol, aumentando a demanda em uma adrenal incapaz de responder, e pode precipitar crise adrenal. Por isso, na suspeita, o glicocorticoide deve ser reposto antes do hormônio tireoidiano.',
     x: { A: 'Hiponatremia, hipercalemia e hiperpigmentação não são efeitos de excesso de levotiroxina.', C: 'O quadro surgiu após o início do tratamento, com sinais típicos de falência adrenal.', D: 'Não há manifestação alérgica, e trocar a marca não trataria a insuficiência adrenal.' },
@@ -45,7 +45,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireoidite subaguda de De Quervain',
     e: 'No tratamento da fase de tireotoxicose da tireoidite subaguda granulomatosa, a conduta correta é:',
-    o: ['Metimazol em dose alta até a normalização do T4 livre', 'Anti-inflamatório ou corticoide para a dor e betabloqueador para os sintomas adrenérgicos', 'Iodo radioativo em dose ablativa', 'Antibioticoterapia de amplo espectro por 14 dias'],
+    o: ['Metimazol em dose alta até a normalização do T4 livre e do TSH', 'Anti-inflamatório ou corticoide para a dor e betabloqueador para os sintomas', 'Iodo radioativo em dose ablativa, após o controle da dor', 'Antibioticoterapia de amplo espectro por 14 dias endovenosa'],
     g: 'B',
     c: 'A tireotoxicose decorre do vazamento de hormônio já armazenado, e não de produção aumentada. As tionamidas, que bloqueiam a síntese, não têm efeito; o tratamento é sintomático, com betabloqueador, e anti-inflamatório não esteroidal ou prednisona nos casos mais dolorosos, com resposta rápida ao corticoide.',
     x: { A: 'As tionamidas inibem a síntese hormonal, que já está suprimida nessa doença.', C: 'A glândula não capta iodo nessa fase, e a doença é autolimitada.', D: 'A etiologia é viral e inflamatória, sem indicação de antibiótico.' },
@@ -53,7 +53,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireoidite subaguda de De Quervain',
     e: 'Sobre a evolução natural da tireoidite subaguda granulomatosa, assinale a alternativa correta:',
-    o: ['Evolui quase sempre para hipotireoidismo permanente', 'Costuma seguir um curso em fases: tireotoxicose, hipotireoidismo transitório e recuperação do eutireoidismo na maioria dos casos', 'Evolui para doença de Graves em metade dos pacientes', 'Permanece em tireotoxicose por anos se não for tratada com tionamida'],
+    o: ['Evolui quase sempre para hipotireoidismo permanente após a fase aguda', 'Segue fases: tireotoxicose, hipotireoidismo transitório e eutireoidismo na maioria', 'Evolui para doença de Graves em metade dos pacientes tratados', 'Permanece em tireotoxicose por anos se não for tratada com tionamida'],
     g: 'B',
     c: 'Após a liberação do estoque hormonal, a glândula lesada fica temporariamente incapaz de sintetizar hormônio, e o paciente passa por uma fase de hipotireoidismo. Com a regeneração dos folículos, a função se normaliza na grande maioria; apenas uma minoria permanece com hipotireoidismo definitivo.',
     x: { A: 'O hipotireoidismo permanente ocorre apenas em uma minoria dos pacientes.', C: 'Não há relação causal entre a tireoidite subaguda e a doença de Graves.', D: 'A tireotoxicose é autolimitada, durando semanas, pois o estoque hormonal se esgota.' },
@@ -61,7 +61,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireoidite pós-parto',
     e: 'Mulher de 29 anos, 3 meses após o parto e amamentando, queixa-se de palpitações, irritabilidade e perda de peso. A tireoide é discretamente aumentada e indolor, sem sinais oculares. TSH suprimido, T4 livre pouco elevado, anti-TPO positivo e TRAb negativo. A principal hipótese e a conduta são:',
-    o: ['Doença de Graves; iniciar metimazol', 'Tireoidite pós-parto; betabloqueador se sintomática e acompanhamento da função tireoidiana', 'Tireoidite subaguda granulomatosa; prednisona', 'Tireotoxicose gestacional transitória; nenhuma medida'],
+    o: ['Doença de Graves; iniciar metimazol e solicitar cintilografia', 'Tireoidite pós-parto; betabloqueador se sintomática e seguir a função', 'Tireoidite subaguda granulomatosa; prednisona em dose alta', 'Tireotoxicose gestacional transitória; nenhuma medida específica'],
     g: 'B',
     c: 'A tireoidite pós-parto é uma tireoidite linfocítica autoimune e indolor que surge no primeiro ano após o parto, com o rebote imunológico que sucede a tolerância da gestação. A tireotoxicose é destrutiva, leve e autolimitada; o TRAb negativo e a ausência de oftalmopatia ajudam a diferenciar da doença de Graves, que também pode surgir no puerpério.',
     x: { A: 'O TRAb negativo e o quadro leve falam contra Graves, e as tionamidas não agem na tireoidite destrutiva.', C: 'A tireoidite granulomatosa é dolorosa, com VHS elevada, o que não ocorre aqui.', D: 'A tireotoxicose gestacional é mediada por hCG e ocorre no primeiro trimestre da gestação.' },
@@ -69,7 +69,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireoidite pós-parto',
     e: 'Em relação ao prognóstico da tireoidite pós-parto, é correto afirmar:',
-    o: ['A recuperação é sempre completa e não há necessidade de seguimento', 'Há risco de recorrência em gestações futuras e de hipotireoidismo permanente a longo prazo, o que justifica dosar o TSH periodicamente', 'A doença contraindica novas gestações', 'A amamentação deve ser suspensa durante a fase de hipotireoidismo'],
+    o: ['A recuperação é sempre completa e não há necessidade de seguimento', 'Há risco de recorrência e de hipotireoidismo permanente; dosar TSH periodicamente', 'A doença contraindica novas gestações em qualquer circunstância', 'A amamentação deve ser suspensa durante a fase de hipotireoidismo'],
     g: 'B',
     c: 'A tireoidite pós-parto ocorre sobre um fundo de autoimunidade tireoidiana, geralmente com anti-TPO positivo. Embora a maioria recupere o eutireoidismo em até um ano, uma parcela relevante evolui para hipotireoidismo definitivo nos anos seguintes, e a recorrência após novos partos é frequente.',
     x: { A: 'Parte das mulheres desenvolve hipotireoidismo permanente, exigindo seguimento.', C: 'Não há contraindicação a novas gestações, apenas necessidade de vigilância.', D: 'A amamentação é compatível com o quadro e com o uso de levotiroxina.' },
@@ -77,7 +77,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireotoxicose factícia',
     e: 'Mulher de 34 anos, técnica de enfermagem, apresenta perda de 9 kg, palpitações e tremor. A tireoide não é palpável e não há dor cervical. TSH suprimido, T4 livre elevado, captação de iodo radioativo muito baixa e tireoglobulina sérica indetectável. O diagnóstico mais provável é:',
-    o: ['Tireoidite silenciosa (indolor)', 'Tireotoxicose factícia por ingestão de hormônio tireoidiano', 'Doença de Graves em fase inicial', 'Struma ovarii'],
+    o: ['Tireoidite silenciosa (indolor) em fase tireotóxica', 'Tireotoxicose factícia por ingestão de hormônio tireoidiano', 'Doença de Graves em fase inicial, sem oftalmopatia', 'Struma ovarii, teratoma ovariano com tecido tireoidiano'],
     g: 'B',
     c: 'Tanto as tireoidites destrutivas quanto a ingestão de hormônio exógeno cursam com captação baixa. A diferença está na tireoglobulina: nas tireoidites ela se eleva, pois vaza dos folículos lesados; na ingestão de levotiroxina o TSH suprimido deixa a glândula em repouso, e a tireoglobulina fica baixa ou indetectável.',
     x: { A: 'Na tireoidite silenciosa a tireoglobulina está elevada pela destruição folicular.', C: 'Na doença de Graves a captação é alta e a tireoglobulina elevada.', D: 'No struma ovarii a tireoglobulina é produzida pelo tecido ectópico e está elevada.' },
@@ -93,7 +93,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireoidite de Riedel',
     e: 'Mulher de 52 anos tem aumento cervical lentamente progressivo, com disfagia, rouquidão e dispneia. A tireoide é de consistência pétrea, indolor e fixa aos planos adjacentes. A biópsia mostra fibrose densa que ultrapassa a cápsula tireoidiana, sem células malignas. Sobre essa doença, é correto afirmar:',
-    o: ['É causada por infecção viral e regride espontaneamente', 'É uma tireoidite fibrosante, que pode integrar a doença relacionada à IgG4 e se associar a fibrose de outros órgãos', 'Cursa sempre com tireotoxicose grave', 'O tratamento de escolha é a tireoidectomia total'],
+    o: ['É causada por infecção viral e regride espontaneamente', 'Tireoidite fibrosante, que pode integrar a doença relacionada à IgG4', 'Cursa sempre com tireotoxicose grave e bócio doloroso', 'O tratamento de escolha é a tireoidectomia total, sempre'],
     g: 'B',
     c: 'Na tireoidite de Riedel, o tecido tireoidiano é substituído por fibrose que invade músculos, traqueia, esôfago e nervos, simulando carcinoma anaplásico. Pode se associar a fibrose retroperitoneal, mediastinal e colangite esclerosante. O tratamento é clínico, com corticoide e tamoxifeno, e a cirurgia se limita a descompressão, pois os planos fibrosados tornam a ressecção arriscada.',
     x: { A: 'A etiologia viral autolimitada corresponde à tireoidite de De Quervain.', C: 'A função tireoidiana costuma ser normal ou evoluir para hipotireoidismo.', D: 'A tireoidectomia total é tecnicamente perigosa pela fibrose que apaga os planos anatômicos.' },
@@ -117,7 +117,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Amiodarona',
     e: 'Paciente eutireoidiano inicia amiodarona. Nos primeiros meses, o padrão de exames esperado, sem que haja doença tireoidiana, é:',
-    o: ['T4 livre baixo, T3 elevado e TSH suprimido', 'T4 livre normal-alto ou elevado, T3 reduzido, T3 reverso elevado e TSH transitoriamente pouco elevado', 'T4 livre, T3 e TSH todos reduzidos', 'T4 livre e T3 muito elevados com TSH indetectável'],
+    o: ['T4 livre baixo, T3 elevado e TSH suprimido, como na doença de Graves', 'T4 livre normal ou alto, T3 reduzido, T3 reverso alto e TSH discretamente elevado', 'T4 livre, T3 e TSH todos reduzidos, como no hipopituitarismo', 'T4 livre e T3 muito elevados com TSH indetectável desde o início'],
     g: 'B',
     c: 'A amiodarona inibe a desiodase tipo 1, que converte T4 em T3 nos tecidos periféricos, e a desiodase tipo 2 na hipófise. O T4 se acumula, o T3 cai e o T3 reverso sobe; a menor geração de T3 na hipófise eleva transitoriamente o TSH, que depois se normaliza. Reconhecer esse padrão evita diagnósticos e tratamentos indevidos.',
     x: { A: 'O efeito do fármaco é reduzir, e não aumentar, a conversão de T4 em T3.', C: 'Queda conjunta dos três sugere hipotireoidismo central ou doença grave, não efeito da amiodarona.', D: 'Esse padrão indica tireotoxicose verdadeira, que é complicação e não o efeito esperado.' },
@@ -125,7 +125,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Excesso de iodo',
     e: 'O efeito de Wolff-Chaikoff consiste em:',
-    o: ['Aumento da síntese de hormônio tireoidiano após carga de iodo em bócio nodular', 'Bloqueio agudo e transitório da organificação do iodo e da síntese hormonal diante de excesso de iodo', 'Inibição da conversão periférica de T4 em T3 pelo iodo', 'Destruição autoimune da tireoide induzida pelo iodo'],
+    o: ['Aumento da síntese de hormônio tireoidiano após carga de iodo em bócio nodular', 'Bloqueio agudo e transitório da organificação do iodo diante de excesso de iodo', 'Inibição da conversão periférica de T4 em T3 pelo excesso de iodo', 'Destruição autoimune da tireoide induzida pelo excesso de iodo'],
     g: 'B',
     c: 'Diante de excesso de iodeto intratireoidiano, a glândula normal inibe a organificação, protegendo-se da produção excessiva de hormônio. Em poucos dias há escape, pela redução do transportador de iodo. Em glândulas com tireoidite de Hashimoto ou previamente tratadas, o escape falha e surge hipotireoidismo; esse mesmo bloqueio é explorado no preparo pré-operatório da doença de Graves.',
     x: { A: 'O aumento de síntese após carga de iodo é o fenômeno de Jod-Basedow.', C: 'O efeito descrito ocorre dentro da tireoide, não na conversão periférica.', D: 'Trata-se de autorregulação fisiológica, não de mecanismo autoimune.' },
@@ -133,7 +133,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Excesso de iodo',
     e: 'Homem de 74 anos, com bócio multinodular atóxico de longa data e TSH prévio normal, realiza cateterismo cardíaco com contraste iodado. Seis semanas depois, apresenta emagrecimento, tremor e fibrilação atrial, com TSH suprimido e T4 livre elevado. O mecanismo é:',
-    o: ['Efeito de Wolff-Chaikoff sem escape', 'Fenômeno de Jod-Basedow, com hipertireoidismo induzido por iodo em tecido com autonomia', 'Tireoidite subaguda desencadeada pelo contraste', 'Reação alérgica tardia ao contraste iodado'],
+    o: ['Efeito de Wolff-Chaikoff sem escape, com hipotireoidismo', 'Jod-Basedow: hipertireoidismo induzido por iodo em tecido autônomo', 'Tireoidite subaguda desencadeada pelo contraste iodado', 'Reação alérgica tardia ao contraste iodado, com febre'],
     g: 'B',
     c: 'Áreas autônomas de um bócio nodular funcionam independentemente do TSH e perdem a autorregulação pelo iodo. Em regiões de baixa oferta, sua produção é limitada pelo substrato; a carga de iodo do contraste ou da amiodarona remove esse limite e desencadeia hipertireoidismo, sobretudo em idosos.',
     x: { A: 'A falha de escape do Wolff-Chaikoff causaria hipotireoidismo, não tireotoxicose.', C: 'Não há dor cervical nem quadro viral que sugiram tireoidite subaguda.', D: 'Reações alérgicas ao contraste não causam hipertireoidismo.' },
@@ -141,7 +141,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireoidite por fármacos',
     e: 'Homem de 57 anos, em tratamento de melanoma metastático com nivolumabe há 2 meses, apresenta palpitações e perda de peso, sem dor cervical. TSH suprimido e T4 livre elevado. Quatro semanas depois, sem tratamento específico, o TSH é de 48 mUI/L com T4 livre baixo. A explicação é:',
-    o: ['Doença de Graves induzida pela imunoterapia, com remissão espontânea', 'Tireoidite destrutiva por inibidor de checkpoint imunológico, com evolução para hipotireoidismo', 'Hipofisite com deficiência de TSH', 'Metástase de melanoma para a tireoide'],
+    o: ['Doença de Graves induzida pela imunoterapia, com remissão espontânea', 'Tireoidite destrutiva por inibidor de checkpoint, evoluindo a hipotireoidismo', 'Hipofisite com deficiência de TSH e de ACTH associada', 'Metástase de melanoma para a tireoide, com tireotoxicose'],
     g: 'B',
     c: 'Os inibidores de PD-1 liberam a resposta de linfócitos T, que podem atacar a tireoide. O quadro típico é uma tireoidite indolor com fase curta de tireotoxicose, por liberação de hormônio armazenado, seguida de hipotireoidismo frequentemente permanente. O tratamento é levotiroxina, em geral sem necessidade de suspender a imunoterapia.',
     x: { A: 'A evolução rápida para hipotireoidismo primário não corresponde à doença de Graves.', C: 'Na hipofisite o TSH estaria baixo ou inapropriadamente normal, não elevado.', D: 'Metástase tireoidiana não produz essa sequência de tireotoxicose e hipotireoidismo.' },
@@ -149,7 +149,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Bócio mergulhante',
     e: 'Mulher de 66 anos, com bócio volumoso há décadas, queixa-se de dispneia ao deitar. Ao elevar os dois braços acima da cabeça por 1 minuto, apresenta pletora facial, turgência jugular e estridor. Esse sinal e seu significado são:',
-    o: ['Sinal de Chvostek; hipocalcemia', 'Sinal de Pemberton; obstrução do estreito torácico superior por bócio mergulhante', 'Sinal de Trousseau; tetania latente', 'Sinal de Stellwag; oftalmopatia de Graves'],
+    o: ['Sinal de Chvostek; hipocalcemia com hiperexcitabilidade', 'Sinal de Pemberton; obstrução do estreito torácico superior pelo bócio', 'Sinal de Trousseau; tetania latente por hipocalcemia', 'Sinal de Stellwag; oftalmopatia de Graves com retração palpebral'],
     g: 'B',
     c: 'A elevação dos braços eleva o estreito torácico superior de encontro ao bócio subesternal, que passa a funcionar como uma rolha, comprimindo as veias jugulares e a traqueia. O sinal de Pemberton positivo indica bócio mergulhante com compressão e reforça a indicação de avaliação por tomografia e de tratamento cirúrgico.',
     x: { A: 'O sinal de Chvostek é a contração facial à percussão do nervo facial na hipocalcemia.', C: 'O sinal de Trousseau é o espasmo carpal à insuflação do manguito, na hipocalcemia.', D: 'O sinal de Stellwag é a diminuição do piscar, relacionada à oftalmopatia.' },
@@ -165,7 +165,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo subclínico',
     e: 'No hipotireoidismo subclínico, o fator que melhor prediz a progressão para hipotireoidismo franco é:',
-    o: ['Sexo masculino', 'Presença de anti-TPO positivo associada a valores mais altos de TSH', 'Colesterol LDL elevado', 'Idade inferior a 30 anos'],
+    o: ['Sexo masculino, de qualquer idade', 'Anti-TPO positivo com valores mais altos de TSH', 'Colesterol LDL elevado, acima de 160 mg/dL', 'Idade inferior a 30 anos, sem anticorpos'],
     g: 'B',
     c: 'O anti-TPO positivo indica que a causa do TSH elevado é uma tireoidite autoimune em atividade, com destruição glandular progressiva. Quanto mais alto o TSH inicial, menor a reserva funcional; a combinação dos dois achados identifica os pacientes com maior taxa anual de evolução para doença franca.',
     x: { A: 'O sexo masculino não é preditor de progressão; a doença é mais comum em mulheres.', C: 'O LDL elevado é consequência possível do hipotireoidismo, não preditor de progressão.', D: 'A idade jovem não aumenta, por si, o risco de progressão.' },
@@ -181,7 +181,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Hipertireoidismo subclínico',
     e: 'Mulher de 31 anos, assintomática, sem uso de medicamentos, tem TSH de 0,28 mUI/L (referência 0,4 a 4,5), com T4 livre e T3 normais, em exame de rotina. Não tem bócio, cardiopatia nem osteoporose. A conduta inicial é:',
-    o: ['Iniciar metimazol em dose baixa', 'Repetir os exames em alguns meses antes de qualquer intervenção', 'Indicar iodo radioativo', 'Iniciar levotiroxina para estimular o eixo'],
+    o: ['Iniciar metimazol em dose baixa e reavaliar em 1 mês', 'Repetir os exames em alguns meses antes de qualquer intervenção', 'Indicar iodo radioativo em dose terapêutica imediata', 'Iniciar levotiroxina para estimular o eixo hipotálamo-hipófise'],
     g: 'B',
     c: 'TSH levemente baixo, mas detectável, em pessoa jovem e sem fatores de risco frequentemente se normaliza de forma espontânea. O risco de fibrilação atrial e de perda óssea concentra-se nos casos com TSH persistentemente abaixo de 0,1 mUI/L, em idosos, cardiopatas ou com osteoporose, nos quais o tratamento é considerado.',
     x: { A: 'Não há indicação de tratar um achado leve, não confirmado, em paciente de baixo risco.', C: 'O tratamento definitivo é desproporcional a um achado que pode ser transitório.', D: 'A levotiroxina suprimiria ainda mais o TSH e não tem qualquer lógica aqui.' },
@@ -197,7 +197,7 @@ export const TIREOIDE_3: QuestaoCompacta[] = [
   {
     s: 'Tireoidite silenciosa',
     e: 'Homem de 38 anos apresenta palpitações e perda de peso há 3 semanas, sem dor cervical nem infecção recente. A tireoide é discretamente aumentada e indolor. TSH suprimido, T4 livre elevado, VHS normal, anti-TPO positivo, TRAb negativo e captação de iodo muito baixa. O diagnóstico mais provável é:',
-    o: ['Tireoidite subaguda granulomatosa', 'Tireoidite linfocítica silenciosa (indolor)', 'Adenoma tóxico', 'Tireoidite aguda supurativa'],
+    o: ['Tireoidite subaguda granulomatosa (de Quervain)', 'Tireoidite linfocítica silenciosa (indolor)', 'Adenoma tóxico (nódulo hiperfuncionante)', 'Tireoidite aguda supurativa (infecciosa)'],
     g: 'B',
     c: 'A tireoidite silenciosa é uma tireoidite autoimune linfocítica, considerada variante da tireoidite de Hashimoto e equivalente esporádico da forma pós-parto. Causa tireotoxicose destrutiva transitória sem dor e sem elevação importante da VHS, o que a distingue da tireoidite granulomatosa; pode ser seguida de fase de hipotireoidismo.',
     x: { A: 'A tireoidite granulomatosa é dolorosa e cursa com VHS muito elevada.', C: 'O adenoma tóxico apresenta nódulo com captação aumentada na cintilografia.', D: 'A forma supurativa tem febre, dor intensa e sinais flogísticos, com função normal.' },

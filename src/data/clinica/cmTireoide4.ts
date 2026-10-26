@@ -13,7 +13,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Nódulo: cintilografia',
     e: 'Homem de 55 anos tem nódulo tireoidiano de 2,8 cm e TSH de 0,02 mUI/L. A cintilografia mostra captação concentrada no nódulo, com supressão do restante da glândula. Em relação à punção aspirativa, a conduta correta é:',
-    o: ['Puncionar, pois nódulos acima de 2 cm sempre exigem citologia', 'Não puncionar, pois nódulos hipercaptantes raramente são malignos; tratar o hipertireoidismo', 'Puncionar apenas se houver microcalcificações', 'Indicar tireoidectomia total por suspeita de carcinoma'],
+    o: ['Puncionar, pois nódulos acima de 2 cm sempre exigem citologia', 'Não puncionar, pois nódulo hipercaptante raramente é maligno', 'Puncionar apenas se houver microcalcificações na ultrassonografia', 'Indicar tireoidectomia total por suspeita de carcinoma'],
     g: 'B',
     c: 'O nódulo quente é um adenoma que produz hormônio de forma autônoma e suprime o TSH, deixando o parênquima restante sem estímulo. Esses nódulos têm risco de malignidade muito baixo, e a citologia pode confundir, por lembrar neoplasia folicular. A conduta passa a ser o tratamento do hipertireoidismo, com iodo radioativo ou cirurgia.',
     x: { A: 'O tamanho isolado não indica punção quando o nódulo é hiperfuncionante.', C: 'A punção é dispensada no nódulo quente, independentemente desse achado.', D: 'Não há suspeita de carcinoma, e a tireoidectomia total não é o tratamento padrão do adenoma tóxico.' },
@@ -29,7 +29,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Nódulo: TI-RADS',
     e: 'Mulher de 37 anos, com TSH normal, tem à ultrassonografia um nódulo de 1,8 cm puramente cístico, anecoico, de paredes finas e sem componente sólido. A conduta correta é:',
-    o: ['Punção aspirativa para citologia, pelo tamanho', 'Não puncionar para diagnóstico, por se tratar de lesão benigna', 'Lobectomia diagnóstica', 'Cintilografia para definir a função do nódulo'],
+    o: ['Punção aspirativa para citologia, pelo tamanho do nódulo', 'Não puncionar para diagnóstico, por se tratar de lesão benigna', 'Lobectomia diagnóstica, sem citologia prévia', 'Cintilografia para definir a função do nódulo'],
     g: 'B',
     c: 'Nos sistemas de classificação ultrassonográfica, cistos puros e nódulos espongiformes pertencem à categoria benigna, com risco de malignidade desprezível, e não têm indicação de punção diagnóstica, qualquer que seja o tamanho. A aspiração só é considerada com finalidade de alívio, em cistos volumosos e sintomáticos.',
     x: { A: 'O tamanho não indica punção quando o padrão ultrassonográfico é benigno.', C: 'A cirurgia diagnóstica é desproporcional a uma lesão benigna.', D: 'Com TSH normal, a cintilografia não acrescenta informação útil.' },
@@ -53,7 +53,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Bethesda',
     e: 'A punção aspirativa de um nódulo sólido de 2 cm é classificada como Bethesda I (amostra não diagnóstica), por celularidade insuficiente. A conduta é:',
-    o: ['Considerar o nódulo benigno e dar alta', 'Repetir a punção aspirativa guiada por ultrassonografia', 'Indicar tireoidectomia total', 'Solicitar cintilografia com TSH normal'],
+    o: ['Considerar o nódulo benigno e dar alta sem seguimento', 'Repetir a punção aspirativa guiada por ultrassonografia', 'Indicar tireoidectomia total com esvaziamento cervical', 'Solicitar cintilografia com TSH normal para definir função'],
     g: 'B',
     c: 'A categoria I significa que o material não permite conclusão, por escassez de células foliculares, sangue ou artefatos; não equivale a benignidade. A repetição guiada por imagem costuma fornecer material adequado, e a cirurgia só é considerada após amostras repetidamente insatisfatórias em nódulo suspeito.',
     x: { A: 'Amostra insatisfatória não permite afirmar que o nódulo é benigno.', C: 'A cirurgia é precipitada antes de uma nova tentativa de obter material adequado.', D: 'A cintilografia não substitui a citologia quando o TSH é normal.' },
@@ -61,7 +61,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Bethesda',
     e: 'A punção de um nódulo de 2,2 cm é classificada como Bethesda III (atipia de significado indeterminado). O paciente é assintomático e o nódulo não tem características ultrassonográficas de alta suspeita. As condutas aceitas nesse cenário são:',
-    o: ['Tireoidectomia total com esvaziamento cervical imediato', 'Repetir a punção ou realizar teste molecular, reservando a lobectomia diagnóstica para casos selecionados', 'Iodo radioativo em dose ablativa', 'Alta sem seguimento, pois o resultado equivale a benigno'],
+    o: ['Tireoidectomia total com esvaziamento cervical imediato e iodo', 'Repetir a punção ou fazer teste molecular, com lobectomia em casos selecionados', 'Iodo radioativo em dose ablativa antes de qualquer cirurgia', 'Alta sem seguimento, pois o resultado equivale a benigno'],
     g: 'B',
     c: 'A categoria III reúne amostras com atipias insuficientes para classificar a lesão, com risco de malignidade intermediário e baixo. Uma nova punção reclassifica boa parte dos casos, e os testes moleculares ajudam a evitar cirurgias desnecessárias; a lobectomia diagnóstica entra quando a indefinição persiste ou há fatores clínicos e ultrassonográficos de risco.',
     x: { A: 'A cirurgia radical é desproporcional a um risco de malignidade baixo e ainda indefinido.', C: 'O radioiodo não tem papel no diagnóstico de nódulo com citologia indeterminada.', D: 'A categoria indeterminada tem risco superior ao da benigna e exige definição.' },
@@ -69,7 +69,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Bethesda',
     e: 'Mulher de 50 anos tem nódulo de 3 cm cuja citologia é Bethesda IV (neoplasia folicular). A razão pela qual a punção aspirativa não permite distinguir o adenoma do carcinoma folicular e a conduta decorrente são:',
-    o: ['A punção não alcança o centro do nódulo; repetir com agulha grossa', 'O diagnóstico de carcinoma folicular depende de invasão capsular ou vascular, vista apenas na histologia; indicar lobectomia diagnóstica', 'As células do carcinoma folicular são idênticas às do papilífero; indicar tireoidectomia total sempre', 'A distinção depende da tireoglobulina sérica; dosá-la antes de decidir'],
+    o: ['A punção não alcança o centro do nódulo; repetir com agulha grossa guiada', 'Carcinoma folicular exige invasão vista só na histologia; indicar lobectomia diagnóstica', 'As células do carcinoma folicular são idênticas às do papilífero; tireoidectomia total sempre', 'A distinção depende da tireoglobulina sérica; dosá-la antes de decidir a conduta'],
     g: 'B',
     c: 'Adenoma e carcinoma folicular têm citologia semelhante, com microfolículos e pouco coloide. O que define a malignidade é a arquitetura: invasão da cápsula do tumor ou de vasos, que só pode ser avaliada no exame histológico da peça inteira. Por isso a conduta clássica é a cirurgia diagnóstica, em geral lobectomia.',
     x: { A: 'O problema não é de amostragem, e sim da impossibilidade de avaliar a cápsula na citologia.', C: 'O carcinoma papilífero tem alterações nucleares próprias, reconhecíveis na citologia.', D: 'A tireoglobulina não diferencia lesões benignas de malignas no pré-operatório.' },
@@ -77,7 +77,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Bethesda',
     e: 'Homem de 41 anos tem nódulo de 2,5 cm no lobo direito, com citologia Bethesda VI (maligno), compatível com carcinoma papilífero, e linfonodos cervicais suspeitos à ultrassonografia. A conduta é:',
-    o: ['Seguimento ultrassonográfico semestral', 'Tratamento cirúrgico, com tireoidectomia e abordagem dos linfonodos acometidos', 'Iodo radioativo como tratamento isolado', 'Quimioterapia sistêmica neoadjuvante'],
+    o: ['Seguimento ultrassonográfico semestral, sem intervenção', 'Cirurgia com tireoidectomia e abordagem dos linfonodos acometidos', 'Iodo radioativo como tratamento isolado, sem cirurgia', 'Quimioterapia sistêmica neoadjuvante antes da cirurgia'],
     g: 'B',
     c: 'A categoria VI tem valor preditivo de malignidade muito alto, e o tratamento do carcinoma diferenciado é cirúrgico. A extensão da cirurgia depende do tamanho do tumor, da invasão e do acometimento linfonodal; havendo metástase linfonodal, indica-se tireoidectomia total com esvaziamento dos compartimentos acometidos.',
     x: { A: 'A vigilância ativa só é discutida em microcarcinomas de muito baixo risco, sem linfonodos.', C: 'O radioiodo é adjuvante e só é eficaz após a retirada da tireoide.', D: 'O carcinoma papilífero não é tratado inicialmente com quimioterapia.' },
@@ -85,7 +85,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma papilífero',
     e: 'Em relação ao carcinoma papilífero da tireoide, assinale a alternativa correta:',
-    o: ['É o tipo menos frequente e o de pior prognóstico', 'É o tipo mais comum, dissemina-se preferencialmente por via linfática e tem alterações nucleares típicas, como núcleos claros com fendas e pseudoinclusões', 'Origina-se das células C parafoliculares', 'Dissemina-se principalmente por via hematogênica para ossos'],
+    o: ['É o tipo menos frequente e o de pior prognóstico entre os diferenciados', 'É o mais comum, linfático, com núcleos claros, fendas e pseudoinclusões', 'Origina-se das células C parafoliculares produtoras de calcitonina', 'Dissemina-se principalmente por via hematogênica para ossos'],
     g: 'B',
     c: 'O carcinoma papilífero responde pela grande maioria dos cânceres de tireoide e tem excelente prognóstico. O diagnóstico é citológico e se baseia no núcleo: aspecto claro em vidro fosco (olho da órfã Annie), fendas e pseudoinclusões, além dos corpos psamomatosos. A metástase para linfonodos cervicais é comum e pode ser a primeira manifestação.',
     x: { A: 'É o tipo mais frequente e o de melhor prognóstico entre os carcinomas tireoidianos.', C: 'O tumor que se origina das células C é o carcinoma medular.', D: 'A disseminação hematogênica para ossos e pulmões é característica do carcinoma folicular.' },
@@ -117,7 +117,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma medular',
     e: 'Homem de 35 anos tem carcinoma medular de tireoide confirmado por citologia e calcitonina elevada. Relata crises de cefaleia, sudorese e palpitações. Antes da tireoidectomia, é obrigatório:',
-    o: ['Realizar cintilografia de corpo inteiro com iodo radioativo', 'Excluir feocromocitoma com dosagem de metanefrinas e pesquisar mutação do RET', 'Iniciar levotiroxina em dose supressiva', 'Dosar tireoglobulina e anticorpo antitireoglobulina'],
+    o: ['Realizar cintilografia de corpo inteiro com iodo radioativo', 'Excluir feocromocitoma com metanefrinas e pesquisar mutação do RET', 'Iniciar levotiroxina em dose supressiva de TSH, de imediato', 'Dosar tireoglobulina e anticorpo antitireoglobulina no pré-operatório'],
     g: 'B',
     c: 'Cerca de um quarto dos carcinomas medulares é hereditário, por mutação germinativa do RET, no contexto da neoplasia endócrina múltipla tipo 2, em que coexiste feocromocitoma. Operar a tireoide com um feocromocitoma não diagnosticado pode desencadear crise hipertensiva fatal; se presente, a adrenalectomia vem primeiro.',
     x: { A: 'As células C não captam iodo, e a cintilografia com radioiodo é inútil.', C: 'O carcinoma medular não depende de TSH, e a supressão não tem benefício.', D: 'A tireoglobulina é marcador de tumores de células foliculares, não do medular.' },
@@ -141,7 +141,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma medular',
     e: 'Sobre o tratamento do carcinoma medular da tireoide, assinale a alternativa correta:',
-    o: ['Após a cirurgia, indica-se iodo radioativo para ablação de remanescentes', 'O tratamento é a tireoidectomia total com esvaziamento cervical, e a levotiroxina é usada apenas em dose de reposição', 'A levotiroxina deve manter o TSH suprimido para reduzir recidivas', 'A lobectomia é suficiente, pois o tumor é sempre unilateral'],
+    o: ['Após a cirurgia, indica-se iodo radioativo para ablação de remanescentes', 'Tireoidectomia total com esvaziamento cervical; levotiroxina só em reposição', 'A levotiroxina deve manter o TSH suprimido para reduzir recidivas', 'A lobectomia é suficiente, pois o tumor é sempre unilateral e pequeno'],
     g: 'B',
     c: 'As células C não captam iodo e não têm receptor de TSH; portanto, nem o radioiodo nem a supressão do TSH têm efeito sobre o tumor. A cirurgia é o único tratamento curativo e deve ser ampla, pois a doença é frequentemente multicêntrica e bilateral, sobretudo nas formas hereditárias, com metástase linfonodal precoce.',
     x: { A: 'O radioiodo é ineficaz porque as células C não concentram iodo.', C: 'A supressão do TSH só beneficia tumores derivados de células foliculares.', D: 'O tumor é com frequência bilateral e multicêntrico, exigindo tireoidectomia total.' },
@@ -157,7 +157,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Seguimento do carcinoma diferenciado',
     e: 'Mulher de 39 anos foi submetida a tireoidectomia total e iodo radioativo por carcinoma papilífero. O seguimento para detectar persistência ou recidiva da doença baseia-se em:',
-    o: ['Calcitonina e CEA séricos', 'Tireoglobulina sérica com anticorpo antitireoglobulina e ultrassonografia cervical', 'Dosagem seriada de T3 e T4 livre', 'Cintilografia óssea anual'],
+    o: ['Calcitonina e CEA séricos, como no carcinoma medular', 'Tireoglobulina com anticorpo antitireoglobulina e USG cervical', 'Dosagem seriada de T3 e T4 livre a cada 3 meses', 'Cintilografia óssea anual, para rastreio de metástases'],
     g: 'B',
     c: 'A tireoglobulina é produzida apenas por células foliculares, normais ou tumorais. Após a retirada de toda a tireoide, ela deve ficar indetectável, e sua elevação indica tecido tumoral remanescente. O anticorpo antitireoglobulina precisa ser dosado junto, pois interfere no ensaio e pode produzir resultado falsamente baixo.',
     x: { A: 'Calcitonina e CEA são os marcadores do carcinoma medular.', C: 'T3 e T4 refletem a reposição hormonal, não a presença de tumor.', D: 'A cintilografia óssea não é exame de rotina no seguimento do carcinoma papilífero.' },
@@ -165,7 +165,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Iodo radioativo',
     e: 'Para que a terapia com iodo radioativo seja eficaz após a tireoidectomia total por carcinoma diferenciado, o preparo do paciente exige:',
-    o: ['TSH suprimido com levotiroxina em dose alta e dieta rica em iodo', 'TSH elevado, obtido pela suspensão da levotiroxina ou por TSH recombinante, e dieta pobre em iodo', 'Uso de metimazol por 4 semanas antes da dose', 'Realização prévia de tomografia com contraste iodado para estadiamento'],
+    o: ['TSH suprimido com levotiroxina em dose alta e dieta rica em iodo', 'TSH elevado (suspensão da levotiroxina ou TSH recombinante) e dieta pobre em iodo', 'Uso de metimazol por 4 semanas antes da dose terapêutica', 'Realização prévia de tomografia com contraste iodado para estadiamento'],
     g: 'B',
     c: 'A captação de iodo pelas células foliculares depende do transportador de sódio e iodo, cuja expressão é estimulada pelo TSH. Elevar o TSH aumenta a avidez do tecido remanescente e das metástases pelo radioiodo, e a restrição dietética de iodo reduz a competição do iodo estável pelo transportador.',
     x: { A: 'O TSH suprimido e o excesso de iodo reduzem a captação do radioiodo.', C: 'O metimazol não tem papel em paciente sem tireoide e sem hipertireoidismo.', D: 'O contraste iodado satura o organismo de iodo e prejudica a captação por semanas.' },
@@ -173,7 +173,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Complicações da tireoidectomia',
     e: 'Mulher de 47 anos, no segundo dia após tireoidectomia total, queixa-se de formigamento ao redor da boca e nas mãos e de cãibras. A percussão à frente do pavilhão auricular provoca contração da musculatura da face. A causa mais provável e o tratamento são:',
-    o: ['Lesão do nervo laríngeo recorrente; fonoterapia', 'Hipoparatireoidismo com hipocalcemia; reposição de cálcio e calcitriol', 'Alcalose respiratória por ansiedade; benzodiazepínico', 'Hipotireoidismo agudo; aumentar a levotiroxina'],
+    o: ['Lesão do nervo laríngeo recorrente; fonoterapia precoce', 'Hipoparatireoidismo com hipocalcemia; reposição de cálcio e calcitriol', 'Alcalose respiratória por ansiedade; benzodiazepínico em dose baixa', 'Hipotireoidismo agudo; aumentar a levotiroxina em 50%'],
     g: 'B',
     c: 'A hipocalcemia por lesão, desvascularização ou retirada inadvertida das paratireoides é a complicação mais comum da tireoidectomia total. A queda do paratormônio reduz a reabsorção óssea e a ativação da vitamina D, e a hipocalcemia aumenta a excitabilidade neuromuscular, gerando parestesias e os sinais de Chvostek e de Trousseau. Casos graves exigem gluconato de cálcio intravenoso.',
     x: { A: 'A lesão do laríngeo recorrente causa rouquidão, não parestesias e tetania.', C: 'O contexto pós-operatório e o sinal de Chvostek apontam para hipocalcemia verdadeira.', D: 'O hipotireoidismo demora semanas para se manifestar e não causa tetania.' },
@@ -181,7 +181,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Complicações da tireoidectomia',
     e: 'Homem de 52 anos é extubado ao término de uma tireoidectomia total difícil e apresenta imediatamente estridor inspiratório, tiragem e dessaturação, sem abaulamento cervical. A laringoscopia mostra as duas pregas vocais imóveis em posição paramediana. A complicação e a conduta são:',
-    o: ['Lesão unilateral do nervo laríngeo superior; observação', 'Lesão bilateral dos nervos laríngeos recorrentes; garantir a via aérea com reintubação ou traqueostomia', 'Hematoma cervical compressivo; abertura da ferida operatória', 'Hipocalcemia aguda; gluconato de cálcio intravenoso'],
+    o: ['Lesão unilateral do nervo laríngeo superior; observação clínica e fonoterapia', 'Lesão bilateral dos nervos laríngeos recorrentes; reintubar ou fazer traqueostomia', 'Hematoma cervical compressivo; abertura da ferida operatória', 'Hipocalcemia aguda; gluconato de cálcio intravenoso e calcitriol'],
     g: 'B',
     c: 'O nervo laríngeo recorrente inerva todos os músculos intrínsecos da laringe, exceto o cricotireóideo, incluindo o único abdutor das pregas vocais. A lesão unilateral causa rouquidão; a bilateral deixa as duas pregas em posição paramediana, fechando a glote e causando obstrução respiratória logo após a extubação.',
     x: { A: 'A lesão do laríngeo superior altera o timbre da voz e não causa obstrução respiratória.', C: 'Não há abaulamento cervical, e a laringoscopia mostrou paralisia das pregas vocais.', D: 'A hipocalcemia surge horas a dias depois e não paralisa as pregas vocais dessa forma.' },
@@ -197,7 +197,7 @@ export const TIREOIDE_4: QuestaoCompacta[] = [
   {
     s: 'Complicações da tireoidectomia',
     e: 'Homem de 63 anos, 6 horas após tireoidectomia total, apresenta abaulamento cervical progressivo e tenso, dispneia intensa, estridor e agitação. A conduta imediata é:',
-    o: ['Solicitar tomografia cervical de urgência', 'Abrir a ferida operatória à beira do leito para descomprimir o hematoma', 'Administrar gluconato de cálcio intravenoso', 'Aplicar compressa fria e reavaliar em 1 hora'],
+    o: ['Solicitar tomografia cervical de urgência antes de intervir', 'Abrir a ferida à beira do leito para descomprimir o hematoma', 'Administrar gluconato de cálcio intravenoso em bolus lento', 'Aplicar compressa fria e reavaliar em 1 hora, sem reabordar'],
     g: 'B',
     c: 'O hematoma cervical em espaço fechado comprime a traqueia e, sobretudo, obstrui a drenagem venosa e linfática da laringe, causando edema que pode tornar a intubação impossível. A abertura imediata de todos os planos da ferida alivia a pressão e salva a vida; a revisão da hemostasia é feita depois, no centro cirúrgico.',
     x: { A: 'Exames de imagem atrasam uma medida que precisa ser tomada em minutos.', C: 'O quadro é de compressão mecânica, não de hipocalcemia.', D: 'A conduta expectante diante de obstrução de via aérea em evolução pode ser fatal.' },

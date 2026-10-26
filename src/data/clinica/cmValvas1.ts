@@ -21,7 +21,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica – história natural',
     e: 'Na história natural da estenose aórtica grave não operada, o sintoma associado à menor sobrevida média (cerca de 2 anos) é:',
-    o: ['Angina de esforço', 'Dispneia por insuficiência cardíaca', 'Síncope de esforço', 'Palpitações'],
+    o: ['Angina de esforço por isquemia subendocárdica', 'Dispneia por insuficiência cardíaca', 'Síncope de esforço por baixo débito fixo', 'Palpitações por fibrilação atrial paroxística'],
     g: 'B',
     c: 'A tríade clássica é angina, síncope e dispneia, com sobrevida média aproximada de 5, 3 e 2 anos, respectivamente, quando não se faz a troca valvar. A dispneia indica que o ventrículo já não compensa a sobrecarga de pressão, com elevação das pressões de enchimento, e por isso marca o pior prognóstico.',
     x: { A: 'A angina costuma ser o sintoma mais precoce, com sobrevida média em torno de 5 anos.', C: 'A síncope associa-se a sobrevida média em torno de 3 anos.', D: 'Palpitações não fazem parte da tríade clássica nem definem prognóstico.' },
@@ -37,7 +37,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica – manobras',
     e: 'Em relação ao comportamento do sopro da estenose aórtica valvar nas manobras à beira do leito, assinale a alternativa correta:',
-    o: ['Aumenta com a manobra de Valsalva e diminui com o agachamento', 'Diminui com a manobra de Valsalva e aumenta no batimento que segue uma pausa pós-extrassistólica', 'Aumenta com a preensão manual isométrica (handgrip)', 'Aumenta na inspiração profunda (sinal de Rivero-Carvallo)'],
+    o: ['Aumenta com a manobra de Valsalva e diminui com o agachamento', 'Diminui com Valsalva e aumenta no batimento após pausa pós-extrassistólica', 'Aumenta com a preensão manual isométrica (handgrip) mantida', 'Aumenta na inspiração profunda (sinal de Rivero-Carvallo)'],
     g: 'B',
     c: 'O sopro da estenose aórtica depende do volume ejetado através da valva: reduz quando cai o retorno venoso (Valsalva, ortostase) e aumenta quando o enchimento ventricular é maior, como após a pausa compensatória de uma extrassístole. Esse último dado ajuda a diferenciá-lo do sopro da insuficiência mitral, que não muda após a pausa.',
     x: { A: 'Esse é o comportamento do sopro da cardiomiopatia hipertrófica obstrutiva, em que a obstrução é dinâmica.', C: 'O handgrip aumenta a pós-carga e reduz o gradiente transvalvar, diminuindo o sopro; ele intensifica sopros regurgitantes.', D: 'O aumento inspiratório caracteriza os sopros originados no lado direito, como o da insuficiência tricúspide.' },
@@ -53,7 +53,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica – gravidade clínica',
     e: 'Qual achado do exame físico melhor sugere que uma estenose aórtica é grave?',
-    o: ['Sopro de intensidade 4+/6+ com frêmito', 'Sopro com pico tardio (telessistólico) e segunda bulha hipofonética ou única', 'Presença de clique de ejeção nítido após a primeira bulha', 'Irradiação do sopro para a fúrcula esternal'],
+    o: ['Sopro de intensidade 4+/6+ com frêmito palpável no foco aórtico', 'Sopro com pico tardio (telessistólico) e segunda bulha hipofonética ou única', 'Presença de clique de ejeção nítido após a primeira bulha', 'Irradiação do sopro para a fúrcula esternal e as carótidas'],
     g: 'B',
     c: 'Quanto mais grave a obstrução, mais tempo o ventrículo leva para ejetar, deslocando o pico do sopro para o fim da sístole; a valva calcificada e imóvel deixa de produzir o componente aórtico da segunda bulha. A intensidade do sopro é má indicadora de gravidade, pois pode diminuir quando o débito cai na fase avançada.',
     x: { A: 'A intensidade depende do fluxo e pode cair quando o ventrículo entra em falência, apesar de estenose crítica.', C: 'O clique de ejeção indica folhetos ainda móveis, como na valva bicúspide não calcificada, e desaparece na doença grave.', D: 'A irradiação para a fúrcula e carótidas ocorre em qualquer grau de estenose.' },
@@ -69,7 +69,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica – baixo fluxo e baixo gradiente',
     e: 'Homem de 70 anos, com dispneia aos esforços, tem ecocardiograma com área valvar aórtica de 0,8 cm², gradiente médio de 24 mmHg e fração de ejeção de 30%. Qual exame é o mais indicado para definir se a estenose é verdadeiramente grave?',
-    o: ['Teste ergométrico convencional', 'Ecocardiograma sob estresse com dobutamina em baixa dose', 'Holter de 24 horas', 'Cintilografia miocárdica com dipiridamol'],
+    o: ['Teste ergométrico convencional em esteira', 'Ecocardiograma sob estresse com dobutamina em baixa dose', 'Holter de 24 horas com análise do segmento ST', 'Cintilografia miocárdica com dipiridamol'],
     g: 'B',
     c: 'Na estenose de baixo fluxo e baixo gradiente com fração de ejeção reduzida, a área pequena pode decorrer apenas da abertura incompleta por falta de força do ventrículo (pseudoestenose). Com dobutamina, se o fluxo aumenta e o gradiente médio chega a 40 mmHg mantendo área menor que 1,0 cm², a estenose é verdadeiramente grave; se a área aumenta, é pseudoestenose. O exame ainda avalia a reserva contrátil.',
     x: { A: 'O teste ergométrico é contraindicado na estenose aórtica sintomática e não resolve a discordância entre área e gradiente.', C: 'O Holter avalia arritmias e não a gravidade da valvopatia.', D: 'A cintilografia pesquisa isquemia e o dipiridamol pode causar hipotensão; não diferencia estenose verdadeira de pseudoestenose.' },
@@ -101,7 +101,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica – TAVI',
     e: 'Mulher de 86 anos, frágil, com doença pulmonar obstrutiva crônica e alto risco cirúrgico estimado, apresenta estenose aórtica grave sintomática. A tomografia mostra acesso femoral adequado. A melhor estratégia terapêutica é:',
-    o: ['Troca valvar cirúrgica com prótese mecânica', 'Implante transcateter de valva aórtica (TAVI) por via transfemoral', 'Tratamento clínico exclusivo com diuréticos', 'Valvoplastia por balão isolada como terapia definitiva'],
+    o: ['Troca valvar cirúrgica com prótese mecânica e anticoagulação', 'Implante transcateter de valva aórtica (TAVI) por via transfemoral', 'Tratamento clínico exclusivo com diuréticos e vasodilatadores', 'Valvoplastia por balão isolada como terapia definitiva'],
     g: 'B',
     c: 'O implante transcateter é a opção preferencial em idosos com idade avançada, fragilidade ou risco cirúrgico alto, desde que a anatomia permita o acesso transfemoral, com resultados iguais ou superiores aos da cirurgia nesse grupo. A decisão deve ser tomada por um time multidisciplinar (Heart Team). As diretrizes divergem quanto ao limite exato de idade, mas concordam nos extremos.',
     x: { A: 'A cirurgia aberta tem risco elevado nessa paciente e a prótese mecânica não se justifica nessa idade.', C: 'O tratamento clínico não muda a história natural da estenose grave sintomática.', D: 'A valvoplastia isolada tem reestenose em meses e serve apenas como ponte.' },
@@ -109,7 +109,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica – cirurgia',
     e: 'Homem de 54 anos, sem comorbidades, com valva aórtica bicúspide e estenose grave sintomática, além de aorta ascendente de 52 mm. A abordagem mais adequada é:',
-    o: ['TAVI por via transfemoral', 'Cirurgia de troca valvar aórtica com correção da aorta ascendente', 'Valvoplastia por balão', 'Betabloqueador e reavaliação anual da aorta'],
+    o: ['TAVI por via transfemoral com prótese autoexpansível', 'Cirurgia de troca valvar aórtica com correção da aorta ascendente', 'Valvoplastia por balão como ponte para a cirurgia', 'Betabloqueador e reavaliação anual da aorta por imagem'],
     g: 'B',
     c: 'Em pacientes jovens e de baixo risco cirúrgico, a troca valvar cirúrgica é a escolha, pela durabilidade conhecida e pela possibilidade de tratar lesões associadas. Na valva bicúspide com aorta ascendente dilatada, a cirurgia permite corrigir a aorta no mesmo tempo, o que o implante transcateter não faz.',
     x: { A: 'O implante transcateter é preferido em idosos ou alto risco e não trata a dilatação da aorta ascendente.', C: 'A valvoplastia por balão não é tratamento definitivo no adulto.', D: 'A estenose grave sintomática e a aorta dilatada têm indicação de correção, não de seguimento.' },
@@ -117,7 +117,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica – fisiopatologia',
     e: 'Idoso com estenose aórtica grave recebe nitrato sublingual por dor torácica e evolui com hipotensão importante e síncope. O mecanismo que explica essa resposta é:',
-    o: ['Reação vagal ao medicamento, sem relação com a valvopatia', 'Débito cardíaco limitado pela obstrução fixa e dependente da pré-carga, incapaz de compensar a queda do retorno venoso e da resistência vascular', 'Aumento da regurgitação mitral funcional', 'Espasmo coronariano paradoxal induzido pelo nitrato'],
+    o: ['Reação vagal ao medicamento, sem relação com a valvopatia', 'Débito fixo, dependente da pré-carga, que cai com a vasodilatação', 'Aumento da regurgitação mitral funcional pela vasodilatação', 'Espasmo coronariano paradoxal induzido pelo nitrato sublingual'],
     g: 'B',
     c: 'Na estenose aórtica grave, o ventrículo hipertrófico e pouco complacente precisa de pré-carga alta para manter o volume sistólico, e a obstrução fixa impede o aumento do débito quando a resistência vascular cai. Por isso venodilatadores e vasodilatadores potentes devem ser usados com muita cautela, pelo risco de hipotensão e de redução da perfusão coronariana.',
     x: { A: 'A hipotensão decorre da hemodinâmica da obstrução fixa, não de um reflexo vagal casual.', C: 'A vasodilatação reduz, e não aumenta, a regurgitação mitral funcional.', D: 'Nitratos dilatam as coronárias; o espasmo paradoxal não explica o quadro.' },
@@ -125,7 +125,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica – associações',
     e: 'Mulher de 81 anos, com estenose aórtica grave, apresenta anemia ferropriva e episódios repetidos de melena. A colonoscopia mostra angiodisplasias no cólon direito. A alteração hematológica associada a esse quadro é:',
-    o: ['Deficiência de fator VIII por inibidor adquirido', 'Deficiência adquirida do fator de von Willebrand por perda dos multímeros de alto peso molecular', 'Trombocitopenia imune', 'Deficiência de vitamina K'],
+    o: ['Deficiência de fator VIII por inibidor adquirido (hemofilia A adquirida)', 'Deficiência adquirida do fator de von Willebrand (perda de multímeros grandes)', 'Trombocitopenia imune com anticorpos antiplaquetários', 'Deficiência de vitamina K por desnutrição e idade'],
     g: 'B',
     c: 'Na síndrome de Heyde, o alto estresse de cisalhamento através da valva estenótica desdobra os grandes multímeros do fator de von Willebrand, que são clivados pela ADAMTS13, gerando uma doença de von Willebrand adquirida tipo 2A. Isso favorece o sangramento de angiodisplasias intestinais, e a troca valvar costuma corrigir o defeito.',
     x: { A: 'A hemofilia adquirida cursa com hematomas extensos e TTPa prolongado, sem relação com a valvopatia.', C: 'A contagem de plaquetas é normal na síndrome de Heyde.', D: 'A deficiência de vitamina K prolonga o tempo de protrombina e não tem relação com a estenose aórtica.' },
@@ -149,7 +149,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Insuficiência aórtica – ausculta',
     e: 'Paciente com insuficiência aórtica grave apresenta, além do sopro diastólico aspirativo, um ruflar mesodiastólico no ápice. A primeira bulha é normal e não há estalido de abertura. Esse ruflar é explicado por:',
-    o: ['Estenose mitral reumática associada', 'Jato regurgitante aórtico que restringe a abertura do folheto anterior da mitral (sopro de Austin Flint)', 'Hiperfluxo pela valva tricúspide', 'Mixoma de átrio esquerdo'],
+    o: ['Estenose mitral reumática associada, de origem orgânica e anatômica', 'Jato regurgitante que restringe a mitral anterior (Austin Flint)', 'Hiperfluxo pela valva tricúspide durante a inspiração profunda', 'Mixoma de átrio esquerdo obstruindo a valva mitral na diástole'],
     g: 'B',
     c: 'No sopro de Austin Flint, o jato da regurgitação aórtica atinge o folheto anterior da mitral e o mantém parcialmente fechado na diástole, criando uma estenose mitral funcional. A ausência de primeira bulha hiperfonética e de estalido de abertura diferencia esse achado da estenose mitral orgânica, e sua presença sugere regurgitação importante.',
     x: { A: 'A estenose mitral orgânica teria primeira bulha hiperfonética e estalido de abertura.', C: 'O hiperfluxo tricúspide gera ruflar na borda esternal baixa, que aumenta na inspiração.', D: 'O mixoma pode simular estenose mitral, mas varia com a posição e não se relaciona com o refluxo aórtico.' },
@@ -157,7 +157,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Insuficiência aórtica aguda',
     e: 'Homem de 34 anos, usuário de drogas injetáveis, com febre há 10 dias, evolui com edema agudo de pulmão e hipotensão. Há sopro diastólico curto e suave na borda esternal esquerda, primeira bulha hipofonética e pressão arterial de 90 x 60 mmHg, sem sinais periféricos de pulso amplo. Por que a pressão de pulso não está alargada nesse quadro?',
-    o: ['Porque a regurgitação é leve', 'Porque o ventrículo esquerdo, de tamanho normal e pouco complacente, não acomoda o volume regurgitado, o que eleva muito a pressão diastólica final e limita o volume ejetado', 'Porque há estenose aórtica associada', 'Porque a vasoconstrição periférica normaliza a pressão diastólica na aorta'],
+    o: ['Porque a regurgitação é leve, com pequeno volume regurgitante e boa tolerância', 'Porque o VE normal, pouco complacente, não acomoda o volume e a pressão diastólica final sobe', 'Porque há estenose aórtica associada, que limita a regurgitação', 'Porque a vasoconstrição periférica normaliza a pressão diastólica na aorta'],
     g: 'B',
     c: 'Na insuficiência aórtica aguda não houve tempo para dilatação ventricular. O volume regurgitado eleva abruptamente a pressão diastólica do ventrículo, que se iguala rapidamente à da aorta: o sopro fica curto, a mitral fecha precocemente (primeira bulha hipofonética) e surge congestão pulmonar. O volume sistólico efetivo é baixo, por isso faltam os sinais periféricos típicos da forma crônica.',
     x: { A: 'A regurgitação é grave; o sopro é discreto porque o gradiente diastólico se dissipa rapidamente.', C: 'Não há dados de obstrução à ejeção; o quadro é de regurgitação aguda por endocardite.', D: 'A vasoconstrição existe, mas o determinante é a falta de dilatação e de complacência do ventrículo.' },
@@ -181,7 +181,7 @@ export const VALVAS_1: QuestaoCompacta[] = [
   {
     s: 'Insuficiência aórtica – tratamento clínico',
     e: 'Mulher de 60 anos, com insuficiência aórtica crônica moderada a grave, assintomática, função ventricular normal e pressão arterial de 170 x 60 mmHg. A classe de anti-hipertensivos mais adequada é:',
-    o: ['Betabloqueador em dose alta', 'Vasodilatador, como inibidor da enzima conversora de angiotensina ou bloqueador de canal de cálcio di-hidropiridínico', 'Verapamil', 'Clonidina'],
+    o: ['Betabloqueador em dose alta, para reduzir a frequência cardíaca', 'Vasodilatador, como IECA ou nifedipino de ação prolongada', 'Verapamil, para controle da frequência cardíaca', 'Clonidina, para redução da atividade simpática'],
     g: 'B',
     c: 'A hipertensão sistólica aumenta a pós-carga e o volume regurgitado; os vasodilatadores reduzem a resistência periférica e favorecem o fluxo anterógrado. Fármacos que reduzem a frequência cardíaca são tradicionalmente evitados, pois prolongam a diástole, período em que ocorre o refluxo, e aumentam ainda mais a pressão de pulso.',
     x: { A: 'Ao prolongar a diástole, o betabloqueador tende a aumentar o volume regurgitado e a pressão sistólica.', C: 'O verapamil é bradicardizante e inotrópico negativo, com o mesmo inconveniente do betabloqueador.', D: 'A clonidina não é primeira escolha e também reduz a frequência cardíaca.' },

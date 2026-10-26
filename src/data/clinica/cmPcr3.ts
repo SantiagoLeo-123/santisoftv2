@@ -5,7 +5,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Protocolo da linha reta',
     e: 'Idosa de 80 anos em parada cardiorrespiratória. Ao instalar o monitor, observa-se uma linha isoelétrica. Antes de assumir o diagnóstico de assistolia, sem interromper a RCP, a equipe deve:',
-    o: ['Aplicar um choque, pois pode ser fibrilação fina', 'Checar cabos e conexões, aumentar o ganho e trocar a derivação', 'Administrar atropina 1 mg', 'Instalar marca-passo transcutâneo'],
+    o: ['Aplicar um choque imediato, pois pode ser fibrilação fina', 'Checar cabos e conexões, aumentar o ganho e trocar a derivação', 'Administrar atropina 1 mg e repetir em 3 minutos', 'Instalar marca-passo transcutâneo com captura elétrica'],
     g: 'B',
     c: 'A linha reta pode ser artefato (cabo solto, ganho baixo) ou uma fibrilação ventricular fina cujo vetor é perpendicular à derivação observada. O protocolo da linha reta confirma a assistolia verificando cabos, ganho e uma segunda derivação, o que evita deixar de chocar um ritmo chocável.',
     x: { A: 'O choque só se justifica se a fibrilação for confirmada.', C: 'A atropina não faz parte do tratamento da parada.', D: 'O marca-passo não tem benefício na assistolia.' },
@@ -13,7 +13,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Assistolia',
     e: 'Homem de 75 anos em parada cardiorrespiratória não presenciada. Assistolia confirmada em duas derivações, com cabos e ganho verificados. A conduta é:',
-    o: ['Desfibrilação com 200 J bifásico', 'RCP de alta qualidade, adrenalina e busca de causas reversíveis', 'Amiodarona 300 mg em bolus', 'Cardioversão sincronizada com 100 J'],
+    o: ['Desfibrilação com 200 J bifásico, o mais rápido possível', 'RCP de alta qualidade, adrenalina e busca de causas reversíveis', 'Amiodarona 300 mg em bolus, antes da adrenalina', 'Cardioversão sincronizada com 100 J, após sedação'],
     g: 'B',
     c: 'Na assistolia não há atividade elétrica a ser reorganizada, de modo que o choque não tem alvo e ainda pode causar lesão miocárdica e atordoamento parassimpático. O tratamento é RCP, adrenalina o mais cedo possível e correção das causas reversíveis.',
     x: { A: 'Assistolia não é ritmo chocável.', C: 'Antiarrítmicos são para ritmos chocáveis refratários.', D: 'Não há complexo QRS para sincronizar nem pulso.' },
@@ -29,7 +29,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Erros comuns',
     e: 'Em uma parada por assistolia, um plantonista solicita atropina 1 mg, alegando ser rotina. Sobre essa conduta, é correto afirmar:',
-    o: ['Está correta, pois a atropina é droga de primeira linha na assistolia', 'Está incorreta: a atropina foi retirada do algoritmo de parada por falta de benefício', 'Está correta, desde que a dose total seja de 3 mg', 'Está incorreta, pois a dose adequada seria de 0,5 mg'],
+    o: ['Está correta, pois a atropina é droga de primeira linha na assistolia', 'Incorreta: a atropina saiu do algoritmo de parada por falta de benefício', 'Está correta, desde que a dose total seja de 3 mg em 10 minutos', 'Está incorreta, pois a dose adequada seria de 0,5 mg a cada 5 minutos'],
     g: 'B',
     c: 'A atropina bloqueia o tônus vagal, mas a assistolia e a atividade elétrica sem pulso raramente decorrem de excesso vagal, e os estudos não mostraram benefício. Ela foi retirada do algoritmo de parada em 2010 e permanece indicada na bradicardia sintomática com pulso.',
     x: { A: 'A droga do algoritmo é a adrenalina.', C: 'A dose vagolítica total não muda a falta de benefício.', D: 'O problema é a indicação, não a dose.' },
@@ -53,7 +53,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Hipovolemia',
     e: 'Homem de 48 anos, cirrótico, apresenta hematêmese volumosa e evolui com parada cardiorrespiratória. O monitor mostra taquicardia de QRS estreito a 130 bpm, sem pulso. Além da RCP e da adrenalina, a medida específica mais importante é:',
-    o: ['Trombólise com alteplase', 'Reposição volêmica rápida com cristaloide e hemoderivados', 'Desfibrilação imediata', 'Pericardiocentese'],
+    o: ['Trombólise com alteplase em dose de embolia pulmonar', 'Reposição volêmica rápida com cristaloide e hemoderivados', 'Desfibrilação imediata com 200 J, antes de qualquer outra medida', 'Pericardiocentese guiada por ultrassom à beira do leito'],
     g: 'B',
     c: 'A hipovolemia é a causa mais comum de atividade elétrica sem pulso: sem volume para encher o ventrículo, a compressão torácica não gera débito. O traçado típico é de taquicardia com QRS estreito. O tratamento é repor volume e sangue e controlar o foco de sangramento.',
     x: { A: 'Trombolítico em hemorragia ativa é contraindicado.', C: 'O ritmo é organizado, portanto não chocável.', D: 'Não há indício de tamponamento cardíaco.' },
@@ -61,7 +61,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Hipóxia',
     e: 'Jovem de 22 anos, asmática, chega em franca insuficiência respiratória, cianótica e sonolenta, e evolui com bradicardia progressiva e atividade elétrica sem pulso. A causa reversível mais provável e a intervenção prioritária são:',
-    o: ['Trombose coronariana; angioplastia', 'Hipóxia; ventilação eficaz com oxigênio a 100% e via aérea avançada', 'Hipercalemia; gluconato de cálcio', 'Tamponamento cardíaco; pericardiocentese'],
+    o: ['Trombose coronariana; angioplastia primária de emergência', 'Hipóxia; ventilação eficaz com O2 a 100% e via aérea avançada', 'Hipercalemia; gluconato de cálcio e insulina com glicose', 'Tamponamento cardíaco; pericardiocentese de emergência'],
     g: 'B',
     c: 'A parada que sucede insuficiência respiratória, precedida de bradicardia, é tipicamente hipóxica: a falta de oxigênio deprime o nó sinusal e a contratilidade. Sem corrigir a oxigenação, compressões e adrenalina são pouco eficazes.',
     x: { A: 'Improvável em jovem com quadro respiratório evidente.', C: 'Não há contexto de doença renal ou drogas que retenham potássio.', D: 'Não há achados sugestivos de derrame pericárdico.' },
@@ -69,7 +69,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Acidose',
     e: 'Homem de 26 anos, diabético tipo 1, admitido com cetoacidose grave (pH 6,85 e bicarbonato de 4 mEq/L), evolui com atividade elétrica sem pulso. Entre as causas reversíveis, a que mais provavelmente contribuiu e a medida associada são:',
-    o: ['Hipotermia; reaquecimento ativo', 'Acidose (H+); ventilação adequada e considerar bicarbonato de sódio', 'Tóxicos; carvão ativado', 'Pneumotórax hipertensivo; punção torácica'],
+    o: ['Hipotermia; reaquecimento ativo com cobertores e soro aquecido', 'Acidose (H+); ventilação adequada e considerar bicarbonato de sódio', 'Tóxicos; carvão ativado por sonda e lavagem gástrica', 'Pneumotórax hipertensivo; punção torácica de alívio imediata'],
     g: 'B',
     c: 'A acidemia grave deprime a contratilidade, causa vasodilatação e reduz a resposta às catecolaminas, incluindo a adrenalina. Na parada com acidose metabólica grave preexistente, o bicarbonato pode ser considerado, sempre com ventilação adequada para eliminar o CO2 gerado.',
     x: { A: 'Não há exposição ao frio nem temperatura baixa relatada.', C: 'Não há história de intoxicação exógena.', D: 'Não há achados torácicos de pneumotórax.' },
@@ -93,7 +93,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Pneumotórax hipertensivo',
     e: 'Homem de 67 anos, com DPOC, em ventilação mecânica, apresenta aumento súbito da pressão de pico, hipotensão e parada em atividade elétrica sem pulso. Há turgência jugular, desvio da traqueia para a esquerda e murmúrio vesicular abolido à direita, com hipertimpanismo. A conduta imediata é:',
-    o: ['Solicitar radiografia de tórax para confirmação', 'Descompressão torácica imediata à direita, seguida de drenagem', 'Pericardiocentese às cegas', 'Trombólise sistêmica'],
+    o: ['Solicitar radiografia de tórax para confirmação do diagnóstico', 'Descompressão torácica imediata à direita, seguida de drenagem', 'Pericardiocentese às cegas por via subxifoide imediata', 'Trombólise sistêmica com alteplase em dose plena'],
     g: 'B',
     c: 'No pneumotórax hipertensivo o ar aprisionado eleva a pressão pleural, desvia o mediastino e comprime as veias cavas, impedindo o retorno venoso. É uma causa obstrutiva de parada, de diagnóstico clínico, e a RCP só será eficaz após a descompressão.',
     x: { A: 'O diagnóstico é clínico e o exame atrasa uma medida salvadora.', C: 'A abolição unilateral do murmúrio e o desvio de traqueia apontam para o pulmão.', D: 'Não há quadro sugestivo de embolia pulmonar.' },
@@ -109,7 +109,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Tromboembolismo pulmonar',
     e: 'Homem de 63 anos, no quinto dia de pós-operatório de artroplastia de quadril, apresenta dispneia súbita e síncope, evoluindo para atividade elétrica sem pulso. O ultrassom mostra ventrículo direito muito dilatado e trombo em veia femoral. Além da RCP, a terapia específica a considerar é:',
-    o: ['Heparina subcutânea profilática', 'Trombólise sistêmica durante a reanimação', 'Pericardiocentese', 'Cálcio intravenoso'],
+    o: ['Heparina subcutânea profilática durante a reanimação', 'Trombólise sistêmica durante a reanimação', 'Pericardiocentese guiada por ultrassom', 'Cálcio intravenoso em bolus durante a RCP'],
     g: 'B',
     c: 'Na embolia maciça, o trombo obstrui a circulação pulmonar, o ventrículo direito falha e o esquerdo fica sem pré-carga. Quando a embolia é a causa conhecida ou fortemente suspeita da parada, indica-se trombólise (ou embolectomia), mesmo com contraindicações relativas como cirurgia recente, mantendo-se a RCP por tempo prolongado após a droga.',
     x: { A: 'Dose profilática não desobstrui a circulação pulmonar.', C: 'Não há derrame pericárdico; o achado é de sobrecarga direita.', D: 'Não há hipercalemia nem intoxicação que justifique cálcio.' },
@@ -117,7 +117,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Trombose coronariana',
     e: 'Homem de 57 anos, tabagista, chega com dor torácica opressiva há 40 minutos e supradesnivelamento de ST em parede anterior. Sofre parada cardiorrespiratória, revertida após dois choques. Entre os 5T, a causa da parada e a medida definitiva são:',
-    o: ['Tamponamento cardíaco; drenagem pericárdica', 'Trombose coronariana; reperfusão por angioplastia primária', 'Toxinas; antídoto específico', 'Tensão no tórax; drenagem torácica'],
+    o: ['Tamponamento cardíaco; drenagem pericárdica imediata', 'Trombose coronariana; reperfusão por angioplastia primária', 'Toxinas; antídoto específico para o tóxico ingerido', 'Tensão no tórax; drenagem torácica em selo d\'água'],
     g: 'B',
     c: 'A oclusão coronariana aguda gera isquemia e instabilidade elétrica, sendo a principal causa de fibrilação ventricular no adulto. Recuperado o pulso, a reperfusão da artéria culpada trata a causa e previne a recorrência da arritmia.',
     x: { A: 'Não há sinais de derrame pericárdico no caso.', C: 'Não há história de intoxicação.', D: 'Não há achados de pneumotórax.' },
@@ -125,7 +125,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Não iniciar RCP',
     e: 'Uma equipe de atendimento pré-hospitalar encontra um idoso em domicílio com rigidez cadavérica generalizada e livores de hipóstase fixos. A conduta adequada é:',
-    o: ['Iniciar RCP e manter por 30 minutos', 'Não iniciar a reanimação, por sinais evidentes de morte', 'Aplicar um choque com o DEA antes de decidir', 'Administrar adrenalina e reavaliar'],
+    o: ['Iniciar RCP e manter por 30 minutos antes de decidir', 'Não iniciar a reanimação, por sinais evidentes de morte', 'Aplicar um choque com o DEA antes de decidir sobre a RCP', 'Administrar adrenalina e reavaliar o ritmo após 2 min'],
     g: 'B',
     c: 'Rigor mortis, livores fixos, decomposição e lesões incompatíveis com a vida indicam morte estabelecida há horas, sem possibilidade de reversão. Nessas situações, assim como diante de diretiva válida de não reanimar ou de risco à equipe, a RCP não deve ser iniciada.',
     x: { A: 'Reanimar é fútil diante de sinais de morte evidente.', C: 'Não há ritmo viável a ser tratado.', D: 'Drogas não têm efeito em morte estabelecida.' },
@@ -133,7 +133,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Término dos esforços',
     e: 'Paciente de 79 anos, intubado, em assistolia há 22 minutos de RCP de alta qualidade, sem causa reversível identificada. A capnografia mostra ETCO2 de 6 mmHg desde o início. Esse dado:',
-    o: ['Indica retorno iminente da circulação', 'Associa-se a baixíssima chance de retorno da circulação e pode apoiar, junto com outros fatores, a decisão de interromper', 'Obriga a manter a reanimação por mais 60 minutos', 'Indica necessidade de desfibrilação'],
+    o: ['Indica retorno iminente da circulação, devendo-se manter a RCP', 'Indica chance muito baixa de retorno e pode apoiar a decisão de interromper', 'Obriga a manter a reanimação por mais 60 minutos, sem exceção', 'Indica necessidade de desfibrilação imediata, apesar da assistolia'],
     g: 'B',
     c: 'ETCO2 abaixo de 10 mmHg após 20 minutos de RCP em paciente intubado reflete débito mínimo e se associa a probabilidade muito baixa de retorno da circulação. O valor não deve ser usado isoladamente: a decisão considera também tempo de parada, ritmo, comorbidades e causas reversíveis.',
     x: { A: 'O retorno da circulação eleva o ETCO2 de forma abrupta.', C: 'Não existe tempo mínimo obrigatório nesse cenário.', D: 'A assistolia não é ritmo chocável.' },
@@ -141,7 +141,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Término dos esforços',
     e: 'A regra de término da reanimação para equipes de suporte básico no ambiente pré-hospitalar permite considerar a interrupção quando estão presentes os três critérios seguintes:',
-    o: ['Idade acima de 70 anos, diabetes e parada noturna', 'Parada não presenciada pela equipe, ausência de retorno da circulação e nenhum choque aplicado', 'Parada presenciada por leigo, ritmo chocável e RCP com mais de 5 minutos', 'Pupilas midriáticas, cianose e hipotermia'],
+    o: ['Idade acima de 70 anos, diabetes e parada noturna em domicílio', 'Parada não presenciada pela equipe, sem retorno da circulação e sem choque', 'Parada presenciada por leigo, ritmo chocável e RCP com mais de 5 minutos', 'Pupilas midriáticas, cianose e hipotermia ao exame físico'],
     g: 'B',
     c: 'A regra identifica paradas com chance mínima de sobrevida: sem testemunho da equipe, sem ritmo chocável em nenhum momento e sem retorno da circulação no local. Ela reduz transportes fúteis e arriscados. Midríase não é critério, pois pode decorrer da própria adrenalina.',
     x: { A: 'Idade e comorbidades não compõem a regra.', C: 'Ritmo chocável é fator de bom prognóstico e exclui a regra.', D: 'Midríase e cianose não são critérios; hipotermia exige reanimação prolongada.' },
@@ -149,7 +149,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Ultrassom na PCR',
     e: 'Sobre o uso do ultrassom à beira do leito durante a reanimação de uma atividade elétrica sem pulso, é correto afirmar:',
-    o: ['Deve ser feito com pausas de 30 a 60 segundos para boas imagens', 'Pode ajudar a identificar causas reversíveis, desde que não prolongue as interrupções das compressões', 'Substitui a checagem de ritmo no monitor', 'É contraindicado durante a RCP'],
+    o: ['Deve ser feito com pausas de 30 a 60 segundos para boas imagens', 'Pode identificar causas reversíveis, desde que não prolongue as pausas', 'Substitui a checagem de ritmo no monitor e a do pulso', 'É contraindicado durante a RCP, por atrapalhar as compressões'],
     g: 'B',
     c: 'O ultrassom pode revelar tamponamento, ventrículo direito dilatado, pneumotórax e hipovolemia. A imagem deve ser obtida por operador experiente dentro da pausa programada da checagem de ritmo, de até 10 segundos, pois pausas prolongadas pioram o desfecho.',
     x: { A: 'Pausas longas reduzem a perfusão coronariana e cerebral.', C: 'O ultrassom não identifica o ritmo elétrico.', D: 'Não há contraindicação; o limite é não atrasar as compressões.' },
@@ -157,7 +157,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'AESP',
     e: 'Na investigação da causa de uma atividade elétrica sem pulso, a largura do QRS pode orientar o raciocínio. A associação mais adequada é:',
-    o: ['QRS estreito sugere hipercalemia; QRS largo sugere hipovolemia', 'QRS estreito sugere causa mecânica (hipovolemia, tamponamento, pneumotórax, embolia); QRS largo sugere causa metabólica ou tóxica', 'A largura do QRS define se o ritmo é chocável', 'QRS largo indica sempre trombose coronariana'],
+    o: ['QRS estreito sugere hipercalemia; QRS largo sugere hipovolemia', 'QRS estreito sugere causa mecânica; QRS largo, causa metabólica ou tóxica', 'A largura do QRS define se o ritmo é chocável ou não chocável', 'QRS largo indica sempre trombose coronariana aguda no paciente'],
     g: 'B',
     c: 'Nas causas mecânicas o sistema de condução está íntegro e o problema é de enchimento ou ejeção, com QRS estreito e geralmente rápido. Hipercalemia, acidose grave e bloqueadores de canal de sódio alentecem a condução intraventricular, alargando o QRS. É uma orientação inicial, não uma regra absoluta.',
     x: { A: 'A associação está invertida.', C: 'A atividade elétrica sem pulso nunca é chocável, com QRS largo ou estreito.', D: 'O QRS largo tem várias causas, sobretudo metabólicas e tóxicas.' },
@@ -173,7 +173,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Erros comuns',
     e: 'Em relação ao manejo da assistolia e da atividade elétrica sem pulso, todas as condutas abaixo estão corretas, EXCETO:',
-    o: ['Iniciar adrenalina 1 mg o mais cedo possível', 'Checar o ritmo a cada 2 minutos de RCP', 'Administrar amiodarona 300 mg após a terceira checagem sem resposta', 'Investigar e tratar os 5H e 5T'],
+    o: ['Iniciar adrenalina 1 mg o mais cedo possível, a cada 3 a 5 min', 'Checar o ritmo a cada 2 minutos de RCP, mantendo as compressões', 'Dar amiodarona 300 mg após a terceira checagem sem resposta', 'Investigar e tratar as causas reversíveis, os 5H e os 5T'],
     g: 'C',
     c: 'A amiodarona e a lidocaína são indicadas apenas na fibrilação ventricular e na taquicardia ventricular sem pulso refratárias ao choque. Nos ritmos não chocáveis não há arritmia a suprimir, e seus efeitos vasodilatador e cronotrópico negativo podem prejudicar.',
     x: { A: 'Conduta correta: adrenalina precoce nos ritmos não chocáveis.', B: 'Conduta correta: a reavaliação é feita a cada ciclo de 2 minutos.', D: 'Conduta correta: tratar a causa é o ponto central.' },
@@ -181,7 +181,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Epidemiologia e prognóstico',
     e: 'Quanto ao prognóstico dos ritmos de parada cardiorrespiratória, é correto afirmar que:',
-    o: ['A assistolia tem o melhor prognóstico entre os ritmos de parada', 'Os ritmos chocáveis têm melhor prognóstico que a assistolia e a atividade elétrica sem pulso', 'O prognóstico independe do ritmo inicial', 'A atividade elétrica sem pulso tem prognóstico melhor que a fibrilação ventricular'],
+    o: ['A assistolia tem o melhor prognóstico entre os ritmos de parada', 'Os chocáveis têm melhor prognóstico que assistolia e atividade sem pulso', 'O prognóstico independe do ritmo inicial da parada cardíaca', 'A atividade elétrica sem pulso tem prognóstico melhor que a FV'],
     g: 'B',
     c: 'A fibrilação ventricular tem tratamento específico e eficaz, o choque, e costuma refletir um evento agudo recente em miocárdio ainda viável. A assistolia geralmente representa o estágio final de uma parada prolongada ou de doença grave, com sobrevida muito menor.',
     x: { A: 'A assistolia tem o pior prognóstico.', C: 'O ritmo inicial é um dos principais determinantes de sobrevida.', D: 'A fibrilação ventricular tem maior sobrevida.' },
@@ -189,7 +189,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Hiperinsuflação dinâmica',
     e: 'Homem de 70 anos, com DPOC grave, intubado por broncoespasmo e ventilado manualmente com frequência alta, evolui com hipotensão e atividade elétrica sem pulso. Não há desvio de traqueia e o murmúrio está reduzido bilateralmente, de forma simétrica, com tórax hiperinsuflado. Uma medida simples a tentar de imediato é:',
-    o: ['Aumentar a frequência das ventilações', 'Desconectar brevemente o tubo da bolsa para permitir a exalação e depois ventilar com frequência baixa', 'Pericardiocentese', 'Trombólise'],
+    o: ['Aumentar a frequência das ventilações para eliminar o CO2', 'Desconectar brevemente a bolsa para exalar e ventilar mais devagar', 'Pericardiocentese guiada por ultrassom à beira do leito', 'Trombólise sistêmica com alteplase em dose plena'],
     g: 'B',
     c: 'No broncoespasmo grave, ventilações rápidas não deixam tempo para expirar: o ar se acumula (auto-PEEP), a pressão intratorácica sobe e o retorno venoso cai, como em um pneumotórax hipertensivo bilateral. A desconexão breve permite esvaziar os pulmões; se não houver melhora, investiga-se pneumotórax.',
     x: { A: 'Ventilar mais rápido agrava o aprisionamento de ar.', C: 'Não há achado de derrame pericárdico.', D: 'O contexto é de aprisionamento aéreo, não de embolia.' },
@@ -197,7 +197,7 @@ export const PCR_3: QuestaoCompacta[] = [
   {
     s: 'Adrenalina',
     e: 'Em uma assistolia prolongada, um médico propõe usar 5 mg de adrenalina por dose, em vez de 1 mg, para aumentar a chance de retorno da circulação. Sobre a adrenalina em altas doses, é correto afirmar:',
-    o: ['Melhora a sobrevida com bom desfecho neurológico', 'Não melhora a sobrevida nem o desfecho neurológico e não é recomendada de rotina', 'É a dose padrão na assistolia', 'Deve ser usada apenas por via endotraqueal'],
+    o: ['Melhora a sobrevida com bom desfecho neurológico em assistolia', 'Não melhora sobrevida nem desfecho neurológico; não é recomendada', 'É a dose padrão na assistolia prolongada, a cada 5 minutos', 'Deve ser usada apenas por via endotraqueal, em dose dobrada'],
     g: 'B',
     c: 'Doses altas podem aumentar a taxa de retorno do pulso, mas sem ganho de sobrevida à alta. O efeito beta-adrenérgico eleva o consumo de oxigênio do miocárdio e favorece arritmias e disfunção miocárdica após a parada. A dose padrão é de 1 mg a cada 3 a 5 minutos.',
     x: { A: 'Os estudos não mostraram benefício em desfechos relevantes.', C: 'A dose padrão é de 1 mg em qualquer ritmo de parada.', D: 'A via endotraqueal é o último recurso e não justifica essa conduta.' },

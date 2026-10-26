@@ -21,7 +21,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite aguda – atrito pericárdico',
     e: 'Sobre o atrito pericárdico, é correto afirmar:',
-    o: ['É um som grave, mais audível no ápice com a campânula, em decúbito lateral esquerdo', 'É um som rude, de alta frequência, mais audível na borda esternal esquerda com o paciente inclinado para a frente, e pode ter até três componentes', 'Desaparece obrigatoriamente quando surge derrame pericárdico', 'É constante ao longo dos dias, de modo que sua ausência exclui pericardite'],
+    o: ['É um som grave, mais audível no ápice com a campânula, em decúbito lateral esquerdo', 'É rude, de alta frequência, audível na borda esternal esquerda, com até três componentes', 'Desaparece obrigatoriamente quando surge derrame pericárdico volumoso', 'É constante ao longo dos dias, de modo que sua ausência exclui pericardite'],
     g: 'B',
     c: 'O atrito resulta do roçar dos folhetos pericárdicos inflamados e é praticamente patognomônico. É áspero, de alta frequência, mais audível com o diafragma do estetoscópio na borda esternal esquerda, e pode ter três componentes (sístole atrial, sístole ventricular e enchimento diastólico rápido). É fugaz e intermitente, exigindo ausculta repetida.',
     x: { A: 'Essa descrição corresponde ao ruflar da estenose mitral.', C: 'O atrito pode persistir mesmo com derrame volumoso.', D: 'O atrito é transitório e varia de um exame para outro; sua ausência não exclui o diagnóstico.' },
@@ -29,7 +29,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite aguda – eletrocardiograma',
     e: 'Qual é o achado eletrocardiográfico mais característico da fase inicial da pericardite aguda?',
-    o: ['Supradesnivelamento convexo de ST em derivações contíguas, com imagem em espelho', 'Supradesnivelamento difuso de ST com concavidade superior e infradesnivelamento do segmento PR', 'Ondas T apiculadas e simétricas com QT curto', 'Infradesnivelamento difuso de ST com supradesnivelamento isolado em aVR'],
+    o: ['Supradesnivelamento convexo de ST em derivações contíguas, com imagem em espelho', 'Supradesnivelamento difuso de ST com concavidade superior e infradesnivelamento de PR', 'Ondas T apiculadas e simétricas com QT curto e QRS estreito', 'Infradesnivelamento difuso de ST com supradesnivelamento isolado em aVR'],
     g: 'B',
     c: 'A inflamação atinge o epicárdio de forma difusa, gerando corrente de lesão em quase todas as derivações, sem respeitar território coronariano: supradesnivelamento côncavo de ST disseminado, poupando aVR e V1. O acometimento do epicárdio atrial produz o infradesnivelamento de PR, achado muito específico, com supradesnivelamento de PR em aVR.',
     x: { A: 'Esse é o padrão do infarto com supradesnivelamento, restrito a um território e com alterações recíprocas.', C: 'Ondas T apiculadas sugerem hipercalemia ou fase hiperaguda do infarto.', D: 'Esse padrão sugere isquemia difusa por lesão de tronco ou doença multiarterial.' },
@@ -45,7 +45,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite aguda x infarto',
     e: 'Homem de 44 anos, com dor torácica e supradesnivelamento de ST. Qual achado favorece o diagnóstico de infarto agudo do miocárdio em vez de pericardite aguda?',
-    o: ['Supradesnivelamento com concavidade para cima em quase todas as derivações', 'Infradesnivelamento recíproco de ST nas derivações opostas à parede acometida', 'Infradesnivelamento do segmento PR em DII', 'Ausência de ondas Q'],
+    o: ['Supradesnivelamento com concavidade para cima em quase todas as derivações', 'Infradesnivelamento recíproco de ST nas derivações opostas à parede acometida', 'Infradesnivelamento do segmento PR em DII e nas derivações inferiores', 'Ausência de ondas Q e de alterações recíprocas do ST'],
     g: 'B',
     c: 'No infarto, a lesão transmural é localizada no território de uma coronária, e as derivações opostas registram alterações recíprocas (imagem em espelho). Na pericardite, a inflamação é difusa e o supradesnivelamento aparece em quase todas as derivações, com infradesnivelamento de ST apenas em aVR e, às vezes, em V1.',
     x: { A: 'O supradesnivelamento difuso e côncavo é típico da pericardite.', C: 'O infradesnivelamento de PR indica lesão atrial e é marcador de pericardite.', D: 'A ausência de ondas Q é esperada na pericardite; no infarto elas tendem a aparecer.' },
@@ -61,7 +61,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite aguda – tratamento',
     e: 'Mulher de 30 anos, com pericardite aguda idiopática, sem sinais de gravidade e com função renal normal. O tratamento inicial recomendado é:',
-    o: ['Prednisona 1 mg/kg ao dia por quatro semanas', 'Anti-inflamatório não esteroide (ibuprofeno ou ácido acetilsalicílico) em dose plena, associado a colchicina por três meses', 'Paracetamol e repouso, sem outra medicação', 'Antibiótico empírico e pericardiocentese diagnóstica'],
+    o: ['Prednisona 1 mg/kg ao dia por quatro semanas e redução lenta', 'AINE em dose plena (ibuprofeno ou AAS) com colchicina por três meses', 'Paracetamol e repouso, sem outra medicação anti-inflamatória', 'Antibiótico empírico e pericardiocentese diagnóstica'],
     g: 'B',
     c: 'O anti-inflamatório em dose plena controla a dor e a inflamação, com redução gradual guiada pelos sintomas e pela proteína C reativa. A colchicina, que inibe a função dos neutrófilos e o inflamassoma, é associada por três meses porque reduz pela metade a taxa de recorrência. Recomenda-se ainda evitar exercício físico até a resolução do quadro e proteção gástrica.',
     x: { A: 'O corticoide não é primeira linha, pois se associa a maior taxa de recorrência.', C: 'O paracetamol alivia a dor, mas não trata a inflamação nem previne recorrência.', D: 'Não há indicação de antibiótico ou de punção em pericardite idiopática não complicada.' },
@@ -69,7 +69,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite aguda – corticoide',
     e: 'Por que os corticoides devem ser evitados como primeira linha no tratamento da pericardite aguda idiopática?',
-    o: ['Porque não aliviam a dor pericárdica', 'Porque, apesar da resposta rápida, aumentam o risco de recorrência e de cronificação', 'Porque causam tamponamento cardíaco', 'Porque são contraindicados em todas as formas de pericardite'],
+    o: ['Porque não aliviam a dor pericárdica nem reduzem a febre', 'Porque, apesar da resposta rápida, favorecem recorrência e cronificação', 'Porque causam tamponamento cardíaco por sangramento pericárdico', 'Porque são contraindicados em todas as formas de pericardite'],
     g: 'B',
     c: 'Os corticoides produzem melhora rápida, mas favorecem recidivas, possivelmente por prejudicarem a eliminação viral, e criam dependência na retirada. Ficam reservados a doenças autoimunes, gestação, pericardite pós-pericardiotomia refratária e contraindicação ou falha de anti-inflamatórios e colchicina, sempre em dose baixa a moderada e com retirada lenta.',
     x: { A: 'O alívio dos sintomas com corticoide é rápido; o problema está na recorrência.', C: 'Não há relação entre corticoide e tamponamento.', D: 'Há indicações específicas, como etiologia autoimune e contraindicação a anti-inflamatórios.' },
@@ -77,7 +77,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite pós-infarto',
     e: 'Homem de 61 anos, três semanas após infarto agudo do miocárdio, apresenta febre, dor torácica pleurítica, atrito pericárdico e pequeno derrame pleural esquerdo. O diagnóstico e o tratamento de escolha são:',
-    o: ['Reinfarto; nova coronariografia de emergência', 'Síndrome de Dressler; ácido acetilsalicílico em dose anti-inflamatória, associado a colchicina', 'Pericardite epistenocárdica; prednisona em dose alta', 'Embolia pulmonar; anticoagulação plena'],
+    o: ['Reinfarto; nova coronariografia de emergência e dupla antiagregação', 'Síndrome de Dressler; AAS anti-inflamatório associado a colchicina', 'Pericardite epistenocárdica; prednisona em dose alta', 'Embolia pulmonar; anticoagulação plena e angiotomografia'],
     g: 'B',
     c: 'A síndrome de Dressler é uma pericardite tardia, que surge semanas após o infarto por mecanismo autoimune contra antígenos miocárdicos expostos, com febre, pleurite e elevação de provas inflamatórias. Usa-se ácido acetilsalicílico em dose alta, com colchicina; outros anti-inflamatórios e corticoides são evitados após infarto por prejudicarem a cicatrização e aumentarem o risco de ruptura.',
     x: { A: 'A dor pleurítica com atrito e febre não é de natureza isquêmica.', C: 'A forma epistenocárdica é precoce, nos primeiros dias do infarto, e corticoide prejudica a cicatrização.', D: 'A embolia não explica o atrito pericárdico; anticoagulação plena aumentaria o risco de hemopericárdio.' },
@@ -85,7 +85,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite aguda – critérios de internação',
     e: 'Em um paciente com pericardite aguda, qual dos achados abaixo é preditor de mau prognóstico e indica internação hospitalar para investigação etiológica?',
-    o: ['Dor que melhora ao inclinar o tronco para a frente', 'Febre acima de 38 graus com derrame pericárdico maior que 20 mm', 'Atrito pericárdico audível', 'Infradesnivelamento do segmento PR'],
+    o: ['Dor que melhora ao inclinar o tronco para a frente', 'Febre acima de 38 graus com derrame pericárdico maior que 20 mm', 'Atrito pericárdico audível na borda esternal esquerda', 'Infradesnivelamento do segmento PR no eletrocardiograma'],
     g: 'B',
     c: 'Os preditores maiores de mau prognóstico são febre acima de 38 graus, início subagudo, derrame volumoso (espaço livre de eco diastólico maior que 20 mm), tamponamento e ausência de resposta a anti-inflamatório após sete dias. Eles sugerem causa específica, não viral (tuberculose, neoplasia, infecção bacteriana, doença sistêmica), e maior risco de complicações.',
     x: { A: 'O alívio postural é característica habitual da dor pericárdica, sem valor prognóstico.', C: 'O atrito é critério diagnóstico e não indica gravidade.', D: 'A alteração de PR é achado diagnóstico típico, sem significado prognóstico.' },
@@ -93,7 +93,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite urêmica',
     e: 'Homem de 58 anos, com doença renal crônica ainda sem terapia de substituição, ureia de 280 mg/dL, apresenta dor torácica pleurítica e atrito pericárdico. O eletrocardiograma não mostra supradesnivelamento de ST. A conduta principal é:',
-    o: ['Ibuprofeno em dose plena por duas semanas', 'Iniciar diálise, evitando anticoagulação com heparina', 'Pericardiectomia', 'Prednisona em dose alta'],
+    o: ['Ibuprofeno em dose plena por duas semanas e colchicina', 'Iniciar diálise, evitando anticoagulação com heparina', 'Pericardiectomia como primeira medida terapêutica', 'Prednisona em dose alta por quatro semanas'],
     g: 'B',
     c: 'A pericardite urêmica decorre do acúmulo de toxinas e é indicação de início de diálise, que costuma resolver o quadro. O eletrocardiograma frequentemente não mostra as alterações clássicas, pois a inflamação não atinge o miocárdio subepicárdico. Como o derrame tende a ser hemorrágico, evita-se heparina durante as sessões, pelo risco de tamponamento.',
     x: { A: 'Anti-inflamatórios são pouco eficazes nessa etiologia e nefrotóxicos.', C: 'A pericardiectomia é reservada à constrição ou a casos refratários recorrentes.', D: 'O corticoide não trata a causa, que é a uremia.' },
@@ -101,7 +101,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite recorrente',
     e: 'Mulher de 35 anos, tratada há três meses por pericardite aguda apenas com ibuprofeno, com resolução completa, volta com dor pleurítica, atrito e proteína C reativa elevada. A conduta mais adequada é:',
-    o: ['Pericardiectomia', 'Anti-inflamatório não esteroide em dose plena associado a colchicina por pelo menos seis meses', 'Prednisona 1 mg/kg ao dia como primeira escolha', 'Azatioprina em monoterapia'],
+    o: ['Pericardiectomia, pela recorrência após três meses', 'AINE em dose plena com colchicina por pelo menos seis meses', 'Prednisona 1 mg/kg ao dia como primeira escolha', 'Azatioprina em monoterapia, como imunossupressor'],
     g: 'B',
     c: 'A pericardite recorrente é definida por novo episódio após intervalo livre de sintomas de pelo menos quatro a seis semanas e ocorre em até 30% dos pacientes que não receberam colchicina. O tratamento repete o anti-inflamatório e prolonga a colchicina por seis meses ou mais. Nos casos refratários ou dependentes de corticoide, usam-se bloqueadores da interleucina-1, como anakinra e rilonacept.',
     x: { A: 'A pericardiectomia é a última opção, para recorrências refratárias a todas as terapias.', C: 'O corticoide favorece novas recorrências e fica para falha ou contraindicação das outras opções.', D: 'Imunossupressores são poupadores de corticoide em casos refratários, não primeira escolha.' },
@@ -133,7 +133,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pulso paradoxal – outras situações',
     e: 'O pulso paradoxal pode ser observado em todas as condições abaixo, EXCETO:',
-    o: ['Crise grave de asma', 'Tamponamento cardíaco', 'Insuficiência aórtica importante isolada', 'Tromboembolismo pulmonar maciço'],
+    o: ['Crise grave de asma com hiperinsuflação', 'Tamponamento cardíaco por derrame volumoso', 'Insuficiência aórtica importante isolada', 'Tromboembolismo pulmonar maciço com choque'],
     g: 'C',
     c: 'Na insuficiência aórtica importante, o ventrículo esquerdo se enche também pelo refluxo da aorta durante a diástole, independentemente do retorno venoso pulmonar, o que anula a queda inspiratória do volume sistólico; ela pode inclusive mascarar o pulso paradoxal de um tamponamento, assim como a comunicação interatrial. Nas doenças obstrutivas, as grandes oscilações de pressão intratorácica produzem o sinal.',
     x: { A: 'Na asma grave, a pressão intratorácica muito negativa na inspiração gera pulso paradoxal, marcador de gravidade.', B: 'O tamponamento é a causa clássica do pulso paradoxal.', D: 'A embolia maciça sobrecarrega o ventrículo direito, desloca o septo e pode causar o sinal.' },
@@ -141,7 +141,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Tamponamento cardíaco – ecocardiograma',
     e: 'Em um paciente com derrame pericárdico, o achado ecocardiográfico que indica repercussão hemodinâmica (tamponamento) é:',
-    o: ['Espessamento do pericárdio com calcificação', 'Colapso diastólico do átrio e do ventrículo direitos, com veia cava inferior dilatada e sem colapso inspiratório', 'Hipocinesia segmentar da parede inferior', 'Movimento anterior sistólico da valva mitral'],
+    o: ['Espessamento do pericárdio com calcificação difusa', 'Colapso diastólico de AD e VD, com cava dilatada sem colapso inspiratório', 'Hipocinesia segmentar da parede inferior do ventrículo', 'Movimento anterior sistólico da valva mitral e gradiente'],
     g: 'B',
     c: 'Quando a pressão intrapericárdica supera a pressão das câmaras direitas, que são as de menor pressão e parede mais fina, elas colapsam na diástole: primeiro o átrio direito, depois o ventrículo direito. A veia cava inferior pletórica reflete a pressão venosa elevada, e há variação respiratória exagerada dos fluxos mitral e tricúspide. O tamponamento, porém, é diagnóstico clínico, apoiado pelo eco.',
     x: { A: 'Esse achado sugere pericardite constritiva.', C: 'A alteração segmentar indica isquemia miocárdica.', D: 'Esse é achado da cardiomiopatia hipertrófica obstrutiva.' },
@@ -149,7 +149,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Tamponamento cardíaco – conduta',
     e: 'Mulher de 49 anos, com derrame pericárdico volumoso de causa neoplásica, apresenta pressão arterial de 80 x 50 mmHg, taquicardia, turgência jugular e pulso paradoxal de 22 mmHg. A conduta imediata é:',
-    o: ['Furosemida intravenosa para reduzir a congestão venosa', 'Pericardiocentese de urgência guiada por ecocardiograma, com expansão volêmica enquanto se prepara o procedimento', 'Intubação orotraqueal e ventilação com pressão positiva', 'Nitroglicerina intravenosa'],
+    o: ['Furosemida intravenosa para reduzir a congestão venosa sistêmica', 'Pericardiocentese de urgência guiada por eco, com volume enquanto se prepara', 'Intubação orotraqueal e ventilação com pressão positiva', 'Nitroglicerina intravenosa para reduzir a pré-carga'],
     g: 'B',
     c: 'O tratamento do tamponamento é a drenagem do líquido, e a retirada de pequeno volume já reduz muito a pressão intrapericárdica. Enquanto isso, a infusão de volume ajuda a manter o enchimento das câmaras. Medidas que reduzem a pré-carga (diuréticos, vasodilatadores) ou o retorno venoso (ventilação com pressão positiva) podem precipitar colapso circulatório.',
     x: { A: 'O diurético reduz a pré-carga, da qual o débito depende, e agrava o choque.', C: 'A pressão positiva diminui o retorno venoso e pode causar parada cardíaca nesse contexto.', D: 'O venodilatador reduz o enchimento ventricular e piora a hipotensão.' },
@@ -165,7 +165,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pulso venoso jugular – tamponamento x constrição',
     e: 'Na análise do pulso venoso jugular, qual achado diferencia o tamponamento cardíaco da pericardite constritiva?',
-    o: ['No tamponamento o descenso y é proeminente e na constrição está ausente', 'No tamponamento o descenso y está atenuado ou ausente e na constrição é rápido e profundo', 'Em ambos há onda a em canhão', 'Em ambos a pressão venosa é normal'],
+    o: ['No tamponamento o descenso y é proeminente e na constrição está ausente', 'No tamponamento o descenso y é ausente; na constrição, rápido e profundo', 'Em ambos há onda a em canhão e descenso x ausente', 'Em ambos a pressão venosa jugular é normal na inspiração'],
     g: 'B',
     c: 'O descenso y representa o esvaziamento do átrio direito no início da diástole. No tamponamento, o líquido comprime o coração durante toda a diástole e impede esse esvaziamento rápido, apagando o descenso y. Na constrição, o enchimento inicial é livre e muito rápido, até o ventrículo encontrar o pericárdio rígido, o que gera descenso y profundo (sinal de Friedreich).',
     x: { A: 'A afirmação inverte o comportamento do descenso y nas duas condições.', C: 'A onda a em canhão ocorre na dissociação atrioventricular.', D: 'A pressão venosa está elevada nas duas condições.' },
@@ -181,7 +181,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite constritiva – knock pericárdico',
     e: 'Em um paciente com pericardite constritiva, ausculta-se um som protodiastólico, de alta frequência, que ocorre logo após a segunda bulha. Esse achado e seu mecanismo são:',
-    o: ['Estalido de abertura mitral; abertura de folhetos espessados', 'Knock pericárdico; interrupção abrupta do enchimento ventricular rápido pelo pericárdio rígido', 'Quarta bulha; contração atrial contra ventrículo pouco complacente', 'Clique mesossistólico; prolapso de folheto mitral'],
+    o: ['Estalido de abertura mitral; abertura de folhetos espessados', 'Knock pericárdico; interrupção abrupta do enchimento pelo pericárdio rígido', 'Quarta bulha; contração atrial contra ventrículo pouco complacente', 'Clique mesossistólico; prolapso de folheto mitral posterior'],
     g: 'B',
     c: 'Na constrição, o enchimento ventricular inicial é muito rápido e cessa bruscamente quando o ventrículo alcança o limite imposto pelo pericárdio inelástico, produzindo um som seco no início da diástole. É mais precoce e mais agudo que a terceira bulha e corresponde, na curva de pressão ventricular, ao sinal da raiz quadrada (queda seguida de platô).',
     x: { A: 'O estalido ocorre na estenose mitral e acompanha-se de ruflar diastólico e primeira bulha hiperfonética.', C: 'A quarta bulha é pré-sistólica, de baixa frequência, e ocorre no fim da diástole.', D: 'O clique do prolapso é sistólico, não diastólico.' },
@@ -189,7 +189,7 @@ export const VALVAS_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite constritiva x cardiomiopatia restritiva',
     e: 'Paciente com insuficiência cardíaca direita, ventrículos de tamanho normal e fração de ejeção preservada. Qual achado favorece pericardite constritiva em vez de cardiomiopatia restritiva?',
-    o: ['Peptídeo natriurético tipo B muito elevado', 'Variação respiratória acentuada dos fluxos mitral e tricúspide, com desvio do septo na inspiração e velocidade do anel mitral preservada ao Doppler tecidual', 'Espessamento das paredes ventriculares com aspecto granuloso', 'Velocidade do anel mitral muito reduzida ao Doppler tecidual'],
+    o: ['Peptídeo natriurético tipo B muito elevado e troponina alta', 'Variação respiratória acentuada dos fluxos, desvio septal e anel mitral preservado', 'Espessamento das paredes ventriculares com aspecto granuloso', 'Velocidade do anel mitral muito reduzida ao Doppler tecidual'],
     g: 'B',
     c: 'Na constrição o miocárdio é normal: o relaxamento está preservado (velocidade do anel mitral normal ou alta) e o peptídeo natriurético é pouco elevado. Como o volume cardíaco total é fixo, o enchimento de um ventrículo ocorre às custas do outro, gerando grande variação respiratória dos fluxos e movimento septal anômalo. Na restrição o músculo é doente, com relaxamento lento e peptídeo natriurético alto.',
     x: { A: 'O peptídeo natriurético muito elevado indica doença miocárdica e favorece a restrição.', C: 'Esse aspecto sugere infiltração miocárdica, como na amiloidose.', D: 'A velocidade anular reduzida traduz relaxamento miocárdico alterado, típico da restrição.' },

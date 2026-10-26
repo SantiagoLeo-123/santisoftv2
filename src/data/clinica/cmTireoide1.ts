@@ -5,7 +5,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Fisiologia do eixo',
     e: 'Na investigação inicial de um adulto ambulatorial com suspeita de disfunção tireoidiana primária, o TSH é o exame isolado mais sensível porque:',
-    o: ['É o hormônio biologicamente ativo nos tecidos periféricos', 'Guarda relação logarítmica inversa com o T4 livre, de modo que pequenas variações do T4 livre provocam grandes variações do TSH', 'Não sofre influência de doenças hipofisárias ou hipotalâmicas', 'Tem meia-vida de 7 dias e por isso não oscila ao longo do tempo'],
+    o: ['É o hormônio biologicamente ativo nos tecidos periféricos e na hipófise', 'Relação logarítmica inversa com o T4 livre: pequena variação do T4L, grande do TSH', 'Não sofre influência de doenças hipofisárias ou hipotalâmicas de base', 'Tem meia-vida de 7 dias e por isso não oscila ao longo do tempo'],
     g: 'B',
     c: 'A hipófise é muito sensível ao hormônio tireoidiano circulante: uma queda discreta do T4 livre, ainda dentro da faixa de referência, já eleva o TSH várias vezes (relação log-linear inversa). Por isso o TSH se altera antes do T4 livre nas disfunções primárias, o que define as formas subclínicas. A limitação é a doença hipotálamo-hipofisária, em que o TSH deixa de ser confiável.',
     x: { A: 'O hormônio ativo nos tecidos é o T3; o TSH é apenas o regulador hipofisário da glândula.', C: 'Nas doenças hipofisárias e hipotalâmicas o TSH é justamente inadequado e não serve para rastreio nem seguimento.', D: 'Meia-vida de cerca de 7 dias é a do T4; a do TSH é de aproximadamente 1 hora.' },
@@ -21,7 +21,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Interpretação de exames',
     e: 'Mulher de 26 anos, assintomática, em uso de anticoncepcional oral combinado, faz exames de rotina: TSH 1,8 mUI/L (normal), T4 total elevado e T4 livre normal. A explicação para esse perfil é:',
-    o: ['Hipertireoidismo subclínico', 'Aumento da globulina ligadora de tiroxina (TBG) induzido pelo estrogênio', 'Adenoma hipofisário produtor de TSH', 'Tireoidite silenciosa em fase tireotóxica'],
+    o: ['Hipertireoidismo subclínico, com TSH suprimido', 'Aumento da TBG (globulina ligadora de tiroxina) pelo estrogênio', 'Adenoma hipofisário produtor de TSH com T4 total alto', 'Tireoidite silenciosa em fase tireotóxica transitória'],
     g: 'B',
     c: 'O estrogênio aumenta a sialilação da TBG e reduz sua depuração hepática, elevando a concentração da proteína carreadora. Com mais hormônio ligado, o T4 e o T3 totais sobem, mas a fração livre, que é a que age e regula a hipófise, permanece normal, assim como o TSH. O mesmo ocorre na gestação e explica por que se prefere dosar T4 livre.',
     x: { A: 'No hipertireoidismo subclínico o TSH está suprimido, o que não ocorre aqui.', C: 'No tumor produtor de TSH o T4 livre está elevado, com TSH normal ou alto, e há sintomas de tireotoxicose.', D: 'Na tireoidite em fase tireotóxica o T4 livre sobe e o TSH fica suprimido.' },
@@ -29,7 +29,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Interpretação de exames',
     e: 'Homem de 41 anos tem palpitações, tremor, perda de peso e bócio difuso. Exames repetidos em dois laboratórios: T4 livre e T3 elevados com TSH 4,9 mUI/L (não suprimido). Refere cefaleia e a ressonância mostra macroadenoma hipofisário. O diagnóstico mais provável é:',
-    o: ['Doença de Graves', 'Adenoma hipofisário secretor de TSH (hipertireoidismo central)', 'Tireotoxicose factícia', 'Hipotireoidismo primário em tratamento irregular'],
+    o: ['Doença de Graves com anticorpos antirreceptor de TSH', 'Adenoma hipofisário secretor de TSH (hipertireoidismo central)', 'Tireotoxicose factícia por ingestão de levotiroxina', 'Hipotireoidismo primário em tratamento irregular'],
     g: 'B',
     c: 'Em qualquer tireotoxicose de origem tireoidiana ou exógena o TSH deve estar suprimido pelo feedback negativo. T4 livre alto com TSH normal ou elevado é uma secreção inapropriada de TSH, cujas causas são o adenoma hipofisário produtor de TSH e a síndrome de resistência ao hormônio tireoidiano. Clínica de tireotoxicose, cefaleia e macroadenoma apontam para o tumor.',
     x: { A: 'Na doença de Graves o excesso hormonal suprime o TSH para valores indetectáveis.', C: 'A ingestão de hormônio exógeno também suprime o TSH e não causa bócio.', D: 'No hipotireoidismo primário mal tratado o TSH sobe, mas o T4 livre não fica elevado junto com T3 alto e clínica de tireotoxicose.' },
@@ -53,7 +53,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Quadro clínico e laboratório',
     e: 'Mulher de 29 anos apresenta galactorreia, irregularidade menstrual, ganho de peso e pele seca. Prolactina 58 ng/mL (elevada), TSH 86 mUI/L e T4 livre baixo. A ressonância mostra aumento difuso e simétrico da hipófise. A conduta inicial é:',
-    o: ['Iniciar cabergolina', 'Iniciar levotiroxina e repetir prolactina e imagem após normalizar o TSH', 'Encaminhar para cirurgia transesfenoidal', 'Solicitar cateterismo de seios petrosos'],
+    o: ['Iniciar cabergolina em dose crescente e reavaliar em 3 meses', 'Iniciar levotiroxina; repetir prolactina e imagem com o TSH normal', 'Encaminhar para cirurgia transesfenoidal imediata do adenoma', 'Solicitar cateterismo de seios petrosos inferiores'],
     g: 'B',
     c: 'No hipotireoidismo primário grave, a falta de feedback aumenta o TRH hipotalâmico, que estimula tanto os tireotrofos quanto os lactotrofos. O resultado é hiperprolactinemia leve e hiperplasia hipofisária, que pode simular adenoma. Tudo regride com a reposição de levotiroxina, por isso o TSH deve ser dosado em toda hiperprolactinemia.',
     x: { A: 'O agonista dopaminérgico trata prolactinoma; aqui a hiperprolactinemia é secundária e desaparece com levotiroxina.', C: 'A cirurgia seria um erro, pois o aumento hipofisário é hiperplasia reversível e não tumor.', D: 'O cateterismo de seios petrosos é exame da investigação da síndrome de Cushing dependente de ACTH.' },
@@ -61,7 +61,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Fármacos',
     e: 'Homem de 44 anos com transtorno bipolar, bem controlado com carbonato de lítio há 3 anos, apresenta bócio difuso, fadiga e TSH 19 mUI/L com T4 livre baixo. O mecanismo principal da disfunção e a conduta adequada são:',
-    o: ['Destruição folicular por citotoxicidade direta; suspender o lítio imediatamente', 'Inibição da liberação dos hormônios tireoidianos pela glândula; manter o lítio e associar levotiroxina', 'Bloqueio da conversão periférica de T4 em T3; associar liotironina', 'Inibição da secreção hipofisária de TSH; solicitar ressonância de sela'],
+    o: ['Destruição folicular por citotoxicidade direta; suspender o lítio imediatamente', 'Inibe a liberação hormonal da glândula; manter o lítio e associar levotiroxina', 'Bloqueio da conversão periférica de T4 em T3; associar liotironina', 'Inibição da secreção hipofisária de TSH; solicitar ressonância de sela'],
     g: 'B',
     c: 'O lítio concentra-se na tireoide e inibe a liberação de T4 e T3 já formados, além de interferir na síntese, o que eleva o TSH e leva a bócio e hipotireoidismo, sobretudo em quem tem autoimunidade prévia. Como o benefício psiquiátrico costuma ser grande, não é necessário suspender o fármaco: trata-se o hipotireoidismo com levotiroxina.',
     x: { A: 'O lítio não age por necrose folicular e a suspensão não é obrigatória, pois pode descompensar o transtorno bipolar.', C: 'Bloqueio da conversão periférica é efeito de amiodarona, propranolol em dose alta e corticoide, não do lítio.', D: 'O TSH está elevado, o que mostra hipófise respondendo normalmente; o problema é tireoidiano.' },
@@ -85,7 +85,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Causas',
     e: 'Mulher de 34 anos recebeu iodo radioativo para doença de Graves há 5 meses. Está com ganho de peso, edema palpebral, cãibras e bradicardia. O achado laboratorial esperado e a conduta são:',
-    o: ['TSH suprimido e T4 livre alto; nova dose de iodo', 'TSH elevado e T4 livre baixo; iniciar levotiroxina por tempo indeterminado', 'TSH baixo e T4 livre baixo; investigar hipófise', 'TSH normal e T3 baixo; apenas observar'],
+    o: ['TSH suprimido e T4 livre alto; nova dose de iodo radioativo', 'TSH elevado e T4 livre baixo; levotiroxina por tempo indeterminado', 'TSH baixo e T4 livre baixo; investigar hipófise com ressonância', 'TSH normal e T3 baixo; apenas observar e repetir em 1 ano'],
     g: 'B',
     c: 'O iodo radioativo emite radiação beta que destrói os tireócitos de forma progressiva. O hipotireoidismo é o desfecho esperado, e de certo modo desejado, do tratamento da doença de Graves, surgindo em geral entre 2 e 6 meses. Por isso a função tireoidiana é monitorada a cada 4 a 6 semanas após a dose e a levotiroxina é iniciada assim que o hipotireoidismo se instala.',
     x: { A: 'O quadro clínico é de hipotireoidismo, não de persistência do hipertireoidismo.', C: 'O padrão central não é esperado; a lesão é da própria glândula e a hipófise responde elevando o TSH.', D: 'Esse é o perfil do eutireoidiano doente, que ocorre em doença sistêmica grave, e não explica os sintomas.' },
@@ -93,7 +93,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Levotiroxina',
     e: 'Mulher de 30 anos, 62 kg, sem comorbidades, tem hipotireoidismo primário franco por Hashimoto (TSH 54 mUI/L, T4 livre baixo). A forma adequada de iniciar o tratamento é:',
-    o: ['Levotiroxina 12,5 mcg ao dia, com aumento a cada 3 meses', 'Levotiroxina em dose plena, cerca de 1,6 mcg/kg ao dia (aproximadamente 100 mcg)', 'Associação de levotiroxina e liotironina desde o início', 'Extrato de tireoide dessecada'],
+    o: ['Levotiroxina 12,5 mcg ao dia, com aumento a cada 3 meses', 'Levotiroxina em dose plena, ~1,6 mcg/kg/dia (cerca de 100 mcg)', 'Associação de levotiroxina e liotironina desde o início', 'Extrato de tireoide dessecada de origem animal'],
     g: 'B',
     c: 'Em adultos jovens sem cardiopatia, a reposição pode começar na dose plena estimada pelo peso, em torno de 1,6 mcg/kg ao dia, pois não há risco relevante de isquemia miocárdica com o aumento do consumo de oxigênio. A levotiroxina isolada é o padrão: tem meia-vida de 7 dias, permite dose única diária e é convertida em T3 conforme a necessidade de cada tecido.',
     x: { A: 'O início com dose mínima e progressão lenta é reservado a idosos e coronariopatas; aqui apenas prolongaria os sintomas.', C: 'A associação com T3 não demonstrou benefício consistente e não é tratamento inicial recomendado.', D: 'O extrato dessecado tem conteúdo hormonal variável e excesso relativo de T3; não é recomendado pelas diretrizes.' },
@@ -101,7 +101,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Levotiroxina',
     e: 'Mulher de 47 anos usa levotiroxina 100 mcg com boa adesão e TSH sempre no alvo. Há 3 meses iniciou sulfato ferroso e carbonato de cálcio, que toma junto com a levotiroxina no café da manhã. O TSH atual é 14 mUI/L. A orientação mais adequada é:',
-    o: ['Aumentar a levotiroxina para 150 mcg', 'Tomar a levotiroxina em jejum, com água, 30 a 60 minutos antes do café, e afastar ferro e cálcio em cerca de 4 horas', 'Trocar a levotiroxina por liotironina', 'Passar a tomar a levotiroxina junto com o almoço'],
+    o: ['Aumentar a levotiroxina para 150 mcg, mantendo o horário', 'Levotiroxina em jejum, 30-60 min antes do café, longe de ferro e cálcio', 'Trocar a levotiroxina por liotironina em duas tomadas', 'Passar a tomar a levotiroxina junto com o almoço'],
     g: 'B',
     c: 'A levotiroxina é absorvida no jejuno e íleo e sua absorção cai com alimentos, café, fibras e sobretudo com cátions como ferro, cálcio e alumínio, que formam complexos insolúveis com o hormônio. Fármacos que reduzem a acidez gástrica, como inibidores de bomba, também atrapalham. Antes de aumentar a dose, corrige-se a forma de tomada e repete-se o TSH em 6 a 8 semanas.',
     x: { A: 'Aumentar a dose sem corrigir a interação mantém o problema e gera risco de excesso se os suplementos forem suspensos.', C: 'A liotironina tem meia-vida curta, causa picos de T3 e não resolve a interação.', D: 'A ingestão com refeição reduz ainda mais a absorção.' },
@@ -125,7 +125,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Levotiroxina',
     e: 'Mulher de 70 anos, com osteoporose, usa levotiroxina 125 mcg há anos por hipotireoidismo pós-Hashimoto. Queixa-se de palpitações e o eletrocardiograma mostra fibrilação atrial. TSH 0,02 mUI/L e T4 livre no limite superior. A conduta em relação à tireoide é:',
-    o: ['Manter a dose, pois o T4 livre está normal', 'Reduzir a dose de levotiroxina, pois há tireotoxicose iatrogênica', 'Associar metimazol', 'Solicitar cintilografia de tireoide'],
+    o: ['Manter a dose, pois o T4 livre está normal, apesar do TSH', 'Reduzir a dose de levotiroxina, pois há tireotoxicose iatrogênica', 'Associar metimazol à levotiroxina em dose baixa', 'Solicitar cintilografia de tireoide com iodo radioativo'],
     g: 'B',
     c: 'TSH suprimido em quem repõe levotiroxina indica dose excessiva, mesmo com T4 livre normal. O excesso de hormônio aumenta o automatismo atrial, com risco de fibrilação atrial, e acelera a reabsorção óssea, com perda de massa óssea, especialmente em mulheres após a menopausa. A correção é reduzir a dose e repetir o TSH em 6 a 8 semanas.',
     x: { A: 'O TSH suprimido já define excesso de reposição e é o parâmetro associado a arritmia e perda óssea.', C: 'Não faz sentido bloquear a tireoide de quem tem hipotireoidismo; basta reduzir o hormônio exógeno.', D: 'A causa é evidente (dose excessiva); a cintilografia nada acrescentaria.' },
@@ -133,7 +133,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Mulher de 31 anos, com hipotireoidismo por Hashimoto bem controlado com levotiroxina 100 mcg, descobre gestação de 5 semanas. A conduta imediata recomendada é:',
-    o: ['Manter a dose e dosar TSH apenas no terceiro trimestre', 'Aumentar a dose em cerca de 25 a 30% assim que a gestação é confirmada e dosar TSH a cada 4 semanas na primeira metade', 'Suspender a levotiroxina no primeiro trimestre pelo risco teratogênico', 'Substituir a levotiroxina por liotironina, que atravessa melhor a placenta'],
+    o: ['Manter a dose e dosar TSH apenas no terceiro trimestre', 'Aumentar a dose em 25 a 30% ao confirmar a gestação e dosar TSH a cada 4 semanas', 'Suspender a levotiroxina no primeiro trimestre pelo risco teratogênico', 'Substituir a levotiroxina por liotironina, que atravessa melhor a placenta'],
     g: 'B',
     c: 'Na gestação a necessidade de T4 aumenta por elevação da TBG, maior volume de distribuição e degradação pela desiodase placentária, e a tireoide doente não consegue compensar. O feto depende do T4 materno no primeiro trimestre para o desenvolvimento neurológico. Por isso a dose é aumentada já na confirmação (na prática, dois comprimidos extras por semana), com TSH a cada 4 semanas e retorno à dose anterior após o parto.',
     x: { A: 'Aguardar expõe o feto a hipotiroxinemia materna justamente na fase crítica do neurodesenvolvimento.', C: 'A levotiroxina é segura e indispensável na gestação; suspender é que traz risco.', D: 'O T3 atravessa pouco a placenta; o cérebro fetal depende do T4 materno.' },
@@ -141,7 +141,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo subclínico',
     e: 'Mulher de 45 anos, assintomática, tem TSH 7,2 mUI/L e T4 livre normal em exame de rotina. Não usa medicamentos e não esteve doente recentemente. O próximo passo mais adequado é:',
-    o: ['Iniciar levotiroxina em dose plena', 'Repetir TSH e T4 livre em 2 a 3 meses, com dosagem de anti-TPO', 'Solicitar cintilografia de tireoide', 'Solicitar ressonância de hipófise'],
+    o: ['Iniciar levotiroxina em dose plena imediatamente', 'Repetir TSH e T4 livre em 2 a 3 meses, com dosagem de anti-TPO', 'Solicitar cintilografia de tireoide com tecnécio', 'Solicitar ressonância de hipófise com contraste'],
     g: 'B',
     c: 'Hipotireoidismo subclínico é TSH elevado com T4 livre normal. Parte expressiva das elevações leves é transitória (recuperação de doença, tireoidite, variação biológica) e se normaliza espontaneamente, por isso o diagnóstico exige confirmação em 2 a 3 meses antes de qualquer decisão. O anti-TPO positivo indica maior risco de progressão para hipotireoidismo franco.',
     x: { A: 'Tratar com base em uma única dosagem levemente alterada leva a tratamento desnecessário por toda a vida.', C: 'A cintilografia não tem papel na avaliação de TSH elevado.', D: 'TSH elevado com T4 livre normal indica hipófise funcionante respondendo à tireoide, não doença hipofisária.' },
@@ -157,7 +157,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo central',
     e: 'Homem de 50 anos, operado de macroadenoma hipofisário não funcionante há 1 ano, queixa-se de fadiga, intolerância ao frio e constipação. TSH 1,1 mUI/L (normal) e T4 livre baixo. Sobre o diagnóstico e o seguimento, é correto afirmar:',
-    o: ['Função tireoidiana normal, pois o TSH está na faixa de referência', 'Hipotireoidismo central; a dose de levotiroxina deve ser ajustada pelo T4 livre, e não pelo TSH', 'Hipotireoidismo subclínico; repetir o TSH em 3 meses', 'Hipotireoidismo primário; ajustar a levotiroxina até normalizar o TSH'],
+    o: ['Função tireoidiana normal, pois o TSH está na faixa de referência', 'Hipotireoidismo central; ajustar a levotiroxina pelo T4 livre, não pelo TSH', 'Hipotireoidismo subclínico; repetir o TSH em 3 meses e observar', 'Hipotireoidismo primário; ajustar a levotiroxina até normalizar o TSH'],
     g: 'B',
     c: 'No hipotireoidismo central a hipófise ou o hipotálamo não produzem TSH adequado: o T4 livre está baixo e o TSH fica baixo, normal ou até levemente alto, porém biologicamente pouco ativo, ou seja, inapropriado para o T4 baixo. Como o TSH não reflete o estado tireoidiano, o tratamento é guiado pelo T4 livre, mantido na metade superior da faixa de referência.',
     x: { A: 'TSH normal diante de T4 livre baixo é resposta inadequada e define doença central.', C: 'No subclínico o TSH está elevado e o T4 livre é normal, o oposto do caso.', D: 'No primário o TSH estaria claramente elevado; aqui o TSH não serve de alvo terapêutico.' },
@@ -181,7 +181,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Coma mixedematoso',
     e: 'Diante de forte suspeita clínica de coma mixedematoso em paciente na sala de emergência, a conduta correta é:',
-    o: ['Aguardar o resultado do TSH e do T4 livre para iniciar o tratamento', 'Colher TSH, T4 livre e cortisol e iniciar de imediato hidrocortisona e levotiroxina intravenosas, com suporte ventilatório e aquecimento passivo', 'Iniciar levotiroxina oral 25 mcg e aquecimento ativo com manta térmica', 'Administrar apenas hidrocortisona e solução salina hipertônica'],
+    o: ['Aguardar o resultado do TSH e do T4 livre para iniciar o tratamento do quadro', 'Colher TSH, T4L e cortisol; iniciar hidrocortisona e levotiroxina IV e dar suporte', 'Iniciar levotiroxina oral 25 mcg e aquecimento ativo com manta térmica', 'Administrar apenas hidrocortisona e solução salina hipertônica rápida'],
     g: 'B',
     c: 'A mortalidade é alta e o tratamento é empírico, sem esperar exames. Dá-se hidrocortisona antes ou junto do hormônio tireoidiano porque pode haver insuficiência adrenal associada e a reposição tireoidiana aumenta a depuração do cortisol. A levotiroxina é feita por via intravenosa em dose de ataque, pois a absorção intestinal está comprometida pelo edema de alça. O aquecimento deve ser passivo: o ativo causa vasodilatação periférica e colapso circulatório.',
     x: { A: 'Atrasar o tratamento à espera de exames aumenta a mortalidade de uma emergência endócrina.', C: 'Dose baixa oral é insuficiente e mal absorvida; o aquecimento ativo pode precipitar choque.', D: 'Sem hormônio tireoidiano a causa não é tratada; a hiponatremia costuma corrigir com restrição hídrica e reposição hormonal.' },
@@ -189,7 +189,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Eutireoidiano doente',
     e: 'Homem de 63 anos está há 9 dias na UTI por choque séptico de foco abdominal, sem história de doença tireoidiana. Exames: TSH 0,6 mUI/L (limite inferior), T4 livre no limite inferior e T3 muito baixo. A interpretação e a conduta corretas são:',
-    o: ['Hipotireoidismo central; iniciar levotiroxina', 'Síndrome do eutireoidiano doente; não repor hormônio e reavaliar após a recuperação', 'Hipertireoidismo subclínico; iniciar metimazol', 'Tireoidite destrutiva; iniciar prednisona'],
+    o: ['Hipotireoidismo central; iniciar levotiroxina e hidrocortisona', 'Síndrome do eutireoidiano doente; não repor e reavaliar após a recuperação', 'Hipertireoidismo subclínico; iniciar metimazol em dose baixa', 'Tireoidite destrutiva; iniciar prednisona em dose imunossupressora'],
     g: 'B',
     c: 'Na doença grave, citocinas e cortisol inibem a desiodase tipo 1 e ativam a tipo 3: cai a conversão de T4 em T3 e aumenta o T3 reverso, sendo o T3 baixo a alteração mais precoce e frequente. Nos casos mais graves também caem T4 e TSH, e na recuperação o TSH pode subir transitoriamente. É uma adaptação para poupar energia, a reposição não mostrou benefício e, por isso, não se deve dosar função tireoidiana em paciente crítico sem suspeita clínica.',
     x: { A: 'O padrão simula doença central, mas no contexto de doença crítica aguda e sem lesão hipofisária a reposição não é indicada.', C: 'Não há excesso hormonal; o T3 está baixo e o TSH não está suprimido.', D: 'Na tireoidite destrutiva haveria T4 livre elevado com TSH suprimido na fase inicial.' },
@@ -197,7 +197,7 @@ export const TIREOIDE_1: QuestaoCompacta[] = [
   {
     s: 'Quadro clínico e laboratório',
     e: 'São manifestações cardiovasculares esperadas no hipotireoidismo franco, EXCETO:',
-    o: ['Bradicardia sinusal', 'Derrame pericárdico', 'Hipertensão sistólica isolada com pressão de pulso alargada', 'Hipertensão diastólica por aumento da resistência vascular periférica'],
+    o: ['Bradicardia sinusal com redução do débito cardíaco', 'Derrame pericárdico de instalação lenta, sem tamponamento', 'Hipertensão sistólica isolada com pressão de pulso alargada', 'Hipertensão diastólica por aumento da resistência periférica'],
     g: 'C',
     c: 'A falta de hormônio tireoidiano reduz a frequência e a contratilidade cardíacas e aumenta a resistência vascular periférica, o que eleva a pressão diastólica e estreita a pressão de pulso. O acúmulo de glicosaminoglicanos e o aumento da permeabilidade capilar explicam o derrame pericárdico, em geral sem tamponamento. Pressão de pulso alargada com hipertensão sistólica é o padrão do hipertireoidismo, estado de alto débito e baixa resistência.',
     x: { A: 'A bradicardia é esperada pela menor ação do hormônio sobre o nó sinusal.', B: 'O derrame pericárdico é achado clássico, rico em proteínas e de instalação lenta.', D: 'A hipertensão diastólica é típica do hipotireoidismo, por aumento da resistência periférica.' },

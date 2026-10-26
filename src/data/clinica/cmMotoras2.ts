@@ -29,7 +29,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Guillain-Barré: pleocitose',
     e: 'Paciente com quadro clínico de polirradiculoneuropatia aguda apresenta líquor com proteína elevada e pleocitose linfocítica importante, acima de 50 células por milímetro cúbico. Esse achado deve levar à investigação de:',
-    o: ['Deficiência de vitamina B12', 'Infecção pelo HIV ou outras causas infecciosas e infiltrativas', 'Miastenia gravis soronegativa', 'Paralisia periódica tireotóxica'],
+    o: ['Deficiência de vitamina B12 em dieta restrita', 'Infecção pelo HIV ou outras causas infecciosas e infiltrativas', 'Miastenia gravis soronegativa de início tardio', 'Paralisia periódica tireotóxica com hipocalemia'],
     g: 'B',
     c: 'Na síndrome de Guillain-Barré típica a celularidade é normal ou minimamente aumentada. Pleocitose importante sugere polirradiculite associada ao HIV (sobretudo na soroconversão), doença de Lyme, citomegalovírus, sarcoidose ou infiltração neoplásica das meninges.',
     x: { A: 'A deficiência de B12 tem evolução subaguda ou crônica e não altera a celularidade do líquor.', C: 'A miastenia não altera o líquor nem causa arreflexia.', D: 'A paralisia tireotóxica é um distúrbio de canal iônico com líquor normal.' },
@@ -53,7 +53,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Guillain-Barré: monitorização respiratória',
     e: 'Paciente com síndrome de Guillain-Barré internado em enfermaria evolui com fraqueza cervical, voz fraca e dificuldade para contar até vinte em uma única expiração. A saturação de oxigênio em ar ambiente é de 96%. A conduta mais adequada é:',
-    o: ['Manter em enfermaria, pois a saturação normal afasta insuficiência respiratória', 'Transferir para terapia intensiva, medir capacidade vital de forma seriada e considerar intubação eletiva', 'Iniciar ventilação não invasiva domiciliar e dar alta', 'Aguardar hipercapnia na gasometria para indicar suporte ventilatório'],
+    o: ['Manter em enfermaria, pois a saturação normal afasta insuficiência respiratória', 'Transferir para UTI, medir capacidade vital seriada, considerar intubação', 'Iniciar ventilação não invasiva domiciliar e dar alta hospitalar', 'Aguardar hipercapnia na gasometria para indicar suporte ventilatório'],
     g: 'B',
     c: 'A falência ventilatória neuromuscular é uma falência de bomba: a hipoxemia e a hipercapnia aparecem tardiamente, quando a exaustão já é iminente. Fraqueza cervical e bulbar e queda progressiva da capacidade vital (classicamente abaixo de cerca de 20 mL/kg) indicam terapia intensiva e intubação eletiva.',
     x: { A: 'A oximetria se mantém normal até fases tardias da fraqueza respiratória neuromuscular.', C: 'Com disfunção bulbar há risco de aspiração, e o paciente em progressão não pode ter alta.', D: 'Esperar a hipercapnia significa intubar em situação de emergência, com maior risco.' },
@@ -61,7 +61,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Guillain-Barré: disautonomia',
     e: 'Durante a internação por síndrome de Guillain-Barré, um paciente apresenta oscilações amplas da pressão arterial, taquicardia sinusal alternada com bradicardia e íleo adinâmico. Essas manifestações devem-se a:',
-    o: ['Efeito adverso da imunoglobulina intravenosa', 'Disautonomia por acometimento das fibras autonômicas', 'Sepse de foco abdominal', 'Lesão associada do tronco encefálico'],
+    o: ['Efeito adverso da imunoglobulina intravenosa em infusão', 'Disautonomia por acometimento das fibras autonômicas', 'Sepse de foco abdominal com disfunção cardiovascular', 'Lesão associada do tronco encefálico por isquemia'],
     g: 'B',
     c: 'O processo inflamatório atinge também fibras autonômicas simpáticas e parassimpáticas, gerando instabilidade pressórica, arritmias, retenção urinária e íleo. A disautonomia é causa importante de morte e exige monitorização cardíaca contínua e cautela com fármacos vasoativos, pois a resposta é exagerada.',
     x: { A: 'A imunoglobulina pode causar cefaleia, trombose e lesão renal, mas não esse conjunto de alterações.', C: 'Não há febre nem foco infeccioso, e a labilidade nos dois sentidos é típica de disautonomia.', D: 'A síndrome de Guillain-Barré é doença do sistema nervoso periférico, sem lesão de tronco.' },
@@ -77,7 +77,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Guillain-Barré: eletroneuromiografia',
     e: 'Na forma clássica da síndrome de Guillain-Barré (polirradiculoneuropatia desmielinizante inflamatória aguda), a eletroneuromiografia mostra tipicamente:',
-    o: ['Decremento do potencial de ação muscular à estimulação repetitiva de baixa frequência', 'Redução da velocidade de condução, aumento das latências distais, bloqueio de condução e alteração das ondas F', 'Potenciais de unidade motora de baixa amplitude e curta duração, com condução normal', 'Exame inteiramente normal em todas as fases'],
+    o: ['Decremento do potencial de ação muscular à estimulação repetitiva de baixa frequência', 'Lentificação da condução, bloqueio de condução e alteração das ondas F', 'Potenciais de unidade motora de baixa amplitude e curta duração, com condução normal', 'Exame inteiramente normal em todas as fases da doença, sem exceção'],
     g: 'B',
     c: 'A perda de mielina torna a condução lenta e dessincronizada e pode interrompê-la em alguns pontos, gerando bloqueio de condução e dispersão temporal. Como a agressão começa pelas raízes, as respostas tardias (onda F e reflexo H) são as primeiras a se alterar.',
     x: { A: 'O decremento à estimulação repetitiva é achado de doença da junção neuromuscular pós-sináptica.', C: 'Potenciais pequenos e curtos com condução normal caracterizam o padrão miopático.', D: 'O exame pode ser pouco alterado no início, mas não permanece normal ao longo da evolução.' },
@@ -85,7 +85,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Polineuropatia desmielinizante crônica',
     e: 'Mulher de 50 anos apresenta fraqueza proximal e distal simétrica e parestesias nos quatro membros, progredindo há 4 meses, com arreflexia global. O líquor mostra proteína elevada com celularidade normal, e a eletroneuromiografia evidencia desmielinização. O diagnóstico e uma opção terapêutica adequada são:',
-    o: ['Síndrome de Guillain-Barré; apenas observação', 'Polineuropatia desmielinizante inflamatória crônica; corticoide', 'Esclerose lateral amiotrófica; riluzol', 'Polimiosite; metotrexato'],
+    o: ['Síndrome de Guillain-Barré; apenas observação clínica', 'Polineuropatia desmielinizante inflamatória crônica; corticoide', 'Esclerose lateral amiotrófica; riluzol e suporte', 'Polimiosite; metotrexato e prednisona em dose alta'],
     g: 'B',
     c: 'A polineuropatia desmielinizante inflamatória crônica tem os mesmos achados liquóricos e neurofisiológicos da síndrome de Guillain-Barré, mas progride por mais de 8 semanas ou evolui em recaídas. Diferentemente da forma aguda, responde ao corticoide, além da imunoglobulina e da plasmaférese.',
     x: { A: 'A síndrome de Guillain-Barré atinge o nadir em até 4 semanas, e não progride por meses.', C: 'A esclerose lateral amiotrófica não causa parestesias, arreflexia global nem desmielinização.', D: 'A polimiosite preserva reflexos e sensibilidade e não altera o líquor.' },
@@ -101,7 +101,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Neuropatia diabética: dor',
     e: 'Para o tratamento da dor neuropática da polineuropatia diabética, são considerados medicamentos de primeira linha:',
-    o: ['Anti-inflamatórios não esteroidais e dipirona', 'Antidepressivos tricíclicos, duloxetina, gabapentina ou pregabalina', 'Opioides fortes em uso contínuo', 'Corticoide oral em dose imunossupressora'],
+    o: ['Anti-inflamatórios não esteroidais e dipirona em dose plena', 'Tricíclicos, duloxetina, gabapentina ou pregabalina', 'Opioides fortes em uso contínuo desde o início', 'Corticoide oral em dose imunossupressora prolongada'],
     g: 'B',
     c: 'A dor neuropática decorre de hiperexcitabilidade das vias nociceptivas e responde a fármacos que modulam essa transmissão: tricíclicos e duloxetina reforçam as vias inibitórias descendentes, e os gabapentinoides reduzem a liberação de neurotransmissores excitatórios. O controle glicêmico previne a progressão, mas não alivia a dor instalada.',
     x: { A: 'Analgésicos comuns e anti-inflamatórios têm pouca eficácia na dor neuropática.', C: 'Opioides fortes não são primeira linha, pelo risco de dependência e efeitos adversos.', D: 'O corticoide não tem indicação e ainda piora o controle glicêmico.' },
@@ -109,7 +109,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Neuropatia diabética: mononeuropatia craniana',
     e: 'Mulher diabética de 65 anos apresenta dor periorbitária seguida de ptose palpebral à direita, com o olho desviado para fora e para baixo. As pupilas são isocóricas e fotorreagentes. A principal hipótese é:',
-    o: ['Aneurisma de artéria comunicante posterior comprimindo o III nervo', 'Paralisia isquêmica do nervo oculomotor (mononeuropatia diabética)', 'Miastenia gravis ocular', 'Síndrome de Horner'],
+    o: ['Aneurisma de artéria comunicante posterior comprimindo o III nervo', 'Paralisia isquêmica do nervo oculomotor (mononeuropatia diabética)', 'Miastenia gravis ocular com flutuação ao longo do dia', 'Síndrome de Horner por lesão da via simpática'],
     g: 'B',
     c: 'Na mononeuropatia diabética do III nervo, a isquemia dos vasa nervorum lesa as fibras centrais do nervo e poupa as fibras pupilomotoras parassimpáticas, que são periféricas. Por isso há ptose e oftalmoparesia com pupila preservada, ao contrário das lesões compressivas, que comprometem a pupila precocemente.',
     x: { A: 'A compressão aneurismática atinge as fibras periféricas e causa midríase, ausente no caso.', C: 'A miastenia não causa dor e a fraqueza ocular é flutuante e fatigável.', D: 'Na síndrome de Horner a ptose é discreta, há miose e a motricidade ocular é normal.' },
@@ -117,7 +117,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Polineuropatia alcoólica',
     e: 'Homem de 52 anos, etilista de longa data e com alimentação precária, apresenta dor em queimação e hipoestesia nos pés, arreflexia aquileia e atrofia distal das pernas. Sobre esse quadro, é correto afirmar que se trata de:',
-    o: ['Neuropatia desmielinizante aguda que exige imunoglobulina', 'Polineuropatia axonal sensitivo-motora, ligada à toxicidade do álcool e à carência de tiamina', 'Mielopatia com sinais piramidais por carência de cobre', 'Miopatia alcoólica aguda com rabdomiólise'],
+    o: ['Neuropatia desmielinizante aguda que exige imunoglobulina intravenosa', 'Polineuropatia axonal sensitivo-motora por álcool e carência de tiamina', 'Mielopatia com sinais piramidais por carência de cobre e zinco', 'Miopatia alcoólica aguda com rabdomiólise e mioglobinúria'],
     g: 'B',
     c: 'A neuropatia do etilista é uma axonopatia distal, simétrica e de predomínio sensitivo, frequentemente dolorosa, resultante do efeito tóxico direto do etanol somado a carências nutricionais, em especial de tiamina. O tratamento baseia-se em abstinência e reposição vitamínica.',
     x: { A: 'A evolução é crônica e o padrão é axonal, sem indicação de imunoterapia.', C: 'Não há sinais piramidais, e o quadro é de nervo periférico com arreflexia.', D: 'A miopatia aguda causa dor e fraqueza proximal, sem alteração sensitiva distal.' },
@@ -157,7 +157,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Nervo ulnar',
     e: 'A lesão do nervo ulnar no cotovelo produz tipicamente:',
-    o: ['Mão em bênção ao tentar fechar o punho, com perda sensitiva no polegar', 'Garra do quarto e quinto dedos, atrofia dos interósseos e hipoestesia na borda medial da mão', 'Mão caída com perda da extensão do punho', 'Fraqueza da flexão do cotovelo com hipoestesia na face lateral do antebraço'],
+    o: ['Mão em bênção ao tentar fechar o punho, com perda sensitiva no polegar', 'Garra do 4º e 5º dedos, atrofia dos interósseos, hipoestesia na borda medial', 'Mão caída com perda da extensão do punho e dos dedos', 'Fraqueza da flexão do cotovelo com hipoestesia na face lateral do antebraço'],
     g: 'B',
     c: 'O ulnar inerva a maior parte da musculatura intrínseca da mão, incluindo interósseos e os lumbricais mediais. Sua lesão desequilibra flexores e extensores, gerando garra ulnar, atrofia do primeiro espaço interósseo e sinal de Froment, com perda sensitiva no quinto dedo e na metade medial do quarto.',
     x: { A: 'A mão em bênção e a perda sensitiva no polegar decorrem de lesão alta do mediano.', C: 'Mão caída é o achado da lesão do nervo radial.', D: 'Fraqueza de flexão do cotovelo indica lesão do nervo musculocutâneo.' },
@@ -165,7 +165,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Nervo fibular',
     e: 'Mulher de 26 anos, após emagrecimento acentuado e hábito de sentar com as pernas cruzadas, percebe que o pé esquerdo arrasta no chão. Ao exame: fraqueza da dorsiflexão e da eversão do pé, com inversão e flexão plantar normais, e hipoestesia no dorso do pé. O reflexo aquileu está presente. A lesão é do:',
-    o: ['Nervo tibial na fossa poplítea', 'Nervo fibular comum na cabeça da fíbula', 'Nervo femoral na região inguinal', 'Raiz de S1'],
+    o: ['Nervo tibial na fossa poplítea, por compressão externa', 'Nervo fibular comum na cabeça da fíbula', 'Nervo femoral na região inguinal, sob o ligamento', 'Raiz de S1, por hérnia de disco lombossacra'],
     g: 'B',
     c: 'O fibular comum é superficial ao contornar o colo da fíbula e fica vulnerável à compressão, sobretudo após perda do coxim adiposo. Sua lesão causa pé caído com marcha escarvante. A preservação da inversão, que depende do tibial posterior inervado pelo nervo tibial, diferencia o quadro da radiculopatia de L5.',
     x: { A: 'O nervo tibial comanda a flexão plantar e a inversão, que estão normais.', C: 'O femoral responde pela extensão do joelho e pelo reflexo patelar.', D: 'A lesão de S1 enfraquece a flexão plantar e abole o reflexo aquileu.' },
@@ -173,7 +173,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Mononeuropatia múltipla',
     e: 'Homem de 55 anos apresenta, em poucas semanas e de forma sucessiva, mão caída à direita, pé caído à esquerda e dor intensa nos territórios acometidos, além de febre, emagrecimento e livedo reticular. A principal hipótese etiológica é:',
-    o: ['Polineuropatia por deficiência de vitamina B12', 'Vasculite sistêmica com isquemia de nervos (vasa nervorum)', 'Síndrome de Guillain-Barré', 'Doença do neurônio motor'],
+    o: ['Polineuropatia simétrica por deficiência de vitamina B12', 'Vasculite sistêmica com isquemia de nervos (vasa nervorum)', 'Síndrome de Guillain-Barré, de padrão ascendente', 'Doença do neurônio motor de progressão lenta'],
     g: 'B',
     c: 'O acometimento agudo, doloroso, assimétrico e escalonado de nervos individuais define a mononeuropatia múltipla, cuja causa mais importante é a vasculite, com infarto do nervo por oclusão dos vasa nervorum. A poliarterite nodosa é o exemplo clássico; no Brasil, a hanseníase também deve ser lembrada.',
     x: { A: 'A deficiência de B12 produz quadro simétrico, insidioso e com mielopatia associada.', C: 'Guillain-Barré é simétrico e ascendente, e não um somatório de nervos isolados.', D: 'A doença do neurônio motor não causa dor nem alteração sensitiva.' },
@@ -181,7 +181,7 @@ export const MOTORAS_2: QuestaoCompacta[] = [
   {
     s: 'Paralisia de Bell',
     e: 'Mulher de 34 anos acorda com desvio da comissura labial para a esquerda, incapacidade de fechar o olho direito e de enrugar a fronte à direita, além de dor retroauricular e hiperacusia. Não há outros déficits. O diagnóstico e o tratamento indicado são:',
-    o: ['Acidente vascular cerebral; trombólise intravenosa', 'Paralisia facial periférica idiopática; prednisona precoce e proteção ocular', 'Paralisia facial central; antiagregação plaquetária', 'Neuralgia do trigêmeo; carbamazepina'],
+    o: ['Acidente vascular cerebral; trombólise intravenosa imediata', 'Paralisia facial periférica; prednisona precoce e proteção ocular', 'Paralisia facial central; antiagregação plaquetária e estatina', 'Neuralgia do trigêmeo; carbamazepina em dose crescente'],
     g: 'B',
     c: 'O acometimento de toda a hemiface, incluindo a fronte, indica lesão do nervo facial ou de seu núcleo. Na lesão central a fronte é poupada porque a porção superior do núcleo recebe inervação cortical bilateral. O corticoide iniciado nos primeiros dias aumenta a chance de recuperação completa, e a córnea deve ser protegida com lubrificante e oclusão noturna.',
     x: { A: 'O envolvimento da fronte e a ausência de outros déficits tornam improvável lesão vascular central.', C: 'Na paralisia central o paciente enruga a fronte e fecha o olho normalmente.', D: 'A neuralgia do trigêmeo causa dor paroxística facial, sem paralisia da mímica.' },
