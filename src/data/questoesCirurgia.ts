@@ -14,6 +14,7 @@ import { CICATRIZACAO_1 } from './cirurgia/cicatrizacao1';
 import { CICATRIZACAO_2 } from './cirurgia/cicatrizacao2';
 import { CICATRIZACAO_3 } from './cirurgia/cicatrizacao3';
 import { CICATRIZACAO_4 } from './cirurgia/cicatrizacao4';
+import { DIF_CICATRIZACAO } from './cirurgia/difCicatrizacao';
 import { BARIATRICA_1 } from './cirurgia/bariatrica1';
 import { BARIATRICA_2 } from './cirurgia/bariatrica2';
 import { BARIATRICA_3 } from './cirurgia/bariatrica3';
@@ -96,7 +97,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...ANESTESIOLOGIA_1, ...ANESTESIOLOGIA_2, ...ANESTESIOLOGIA_3, ...ANESTESIOLOGIA_4, ...DIF_ANESTESIOLOGIA,
   ]),
   ...montarQuestoes('cir-cicatrizacao', 'Cirurgia', 'Cicatrização', [
-    ...CICATRIZACAO_1, ...CICATRIZACAO_2, ...CICATRIZACAO_3, ...CICATRIZACAO_4,
+    ...CICATRIZACAO_1, ...CICATRIZACAO_2, ...CICATRIZACAO_3, ...CICATRIZACAO_4, ...DIF_CICATRIZACAO,
   ]),
   ...montarQuestoes('cir-bariatrica', 'Cirurgia', 'Cirurgia Bariátrica', [
     ...BARIATRICA_1, ...BARIATRICA_2, ...BARIATRICA_3, ...BARIATRICA_4,
