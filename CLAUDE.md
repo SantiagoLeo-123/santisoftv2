@@ -93,7 +93,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Complicações Cirúrgicas
 - [x] Delgado e Cólon: Pólipos e Câncer Colorretal
 - [x] Doença Inflamatória Intestinal
-- [ ] Doenças do Esôfago
+- [x] Doenças do Esôfago
 - [ ] Doenças do Estômago
 - [ ] Fígado e Vias Biliares
 - [ ] Fios de Sutura

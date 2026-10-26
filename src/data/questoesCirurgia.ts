@@ -48,6 +48,7 @@ import { ESOFAGO_1 } from './cirurgia/esofago1';
 import { ESOFAGO_2 } from './cirurgia/esofago2';
 import { ESOFAGO_3 } from './cirurgia/esofago3';
 import { ESOFAGO_4 } from './cirurgia/esofago4';
+import { DIF_ESOFAGO } from './cirurgia/difEsofago';
 import { ESTOMAGO_1 } from './cirurgia/estomago1';
 import { ESTOMAGO_2 } from './cirurgia/estomago2';
 import { ESTOMAGO_3 } from './cirurgia/estomago3';
@@ -123,7 +124,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...DII_1, ...DII_2, ...DII_3, ...DII_4, ...DIF_DII,
   ]),
   ...montarQuestoes('cir-esofago', 'Cirurgia', 'Doenças do Esôfago', [
-    ...ESOFAGO_1, ...ESOFAGO_2, ...ESOFAGO_3, ...ESOFAGO_4,
+    ...ESOFAGO_1, ...ESOFAGO_2, ...ESOFAGO_3, ...ESOFAGO_4, ...DIF_ESOFAGO,
   ]),
   ...montarQuestoes('cir-estomago', 'Cirurgia', 'Doenças do Estômago', [
     ...ESTOMAGO_1, ...ESTOMAGO_2, ...ESTOMAGO_3, ...ESTOMAGO_4,
