@@ -13,7 +13,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Trigêmino-autonômicas: fisiopatologia',
     e: 'Os sinais autonômicos (lacrimejamento, hiperemia conjuntival, rinorreia) que acompanham a dor nas cefaleias trigêmino-autonômicas são explicados por:',
-    o: ['Infecção viral do gânglio de Gasser', 'Ativação do reflexo trigêmino-autonômico, com descarga parassimpática craniana pelo núcleo salivatório superior e gânglio esfenopalatino', 'Compressão do nervo facial no canal de Falópio', 'Hiperatividade simpática generalizada com liberação de catecolaminas'],
+    o: ['Infecção viral do gânglio de Gasser, com dor em queimação contínua e vesículas', 'Reflexo trigêmino-autonômico, com descarga parassimpática (núcleo salivatório superior)', 'Compressão do nervo facial no canal de Falópio, com paralisia facial periférica', 'Hiperatividade simpática generalizada, com liberação sistêmica de catecolaminas'],
     g: 'B',
     c: 'A ativação nociceptiva do trigêmeo dispara, no tronco cerebral, um reflexo cuja via eferente é parassimpática: núcleo salivatório superior, nervo facial e gânglio esfenopalatino, produzindo lacrimejamento, congestão nasal e hiperemia conjuntival. A miose e a ptose resultam de disfunção simpática local. O hipotálamo posterior atua como gerador, o que explica a ritmicidade circadiana da cefaleia em salvas.',
     x: { A: 'Não há processo infeccioso envolvido na gênese dessas cefaleias.', C: 'A lesão do facial causaria paralisia facial, não esse conjunto de sinais.', D: 'Os sinais são parassimpáticos e localizados, não de hiperatividade simpática sistêmica.' },
@@ -29,7 +29,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Salvas: critérios temporais',
     e: 'Pela ICHD-3, as crises de cefaleia em salvas não tratadas têm duração e frequência de:',
-    o: ['1 a 600 segundos, dezenas a centenas de vezes ao dia', '15 a 180 minutos, de uma crise a cada dois dias até oito crises por dia', '4 a 72 horas, com intervalos de semanas', '2 a 30 minutos, mais de cinco vezes ao dia'],
+    o: ['1 a 600 segundos, dezenas a centenas de vezes ao dia', '15 a 180 minutos; de 1 crise a cada 2 dias até 8 por dia', '4 a 72 horas, com intervalos de semanas entre as crises', '2 a 30 minutos, mais de cinco vezes ao dia, sem periodicidade'],
     g: 'B',
     c: 'A crise de cefaleia em salvas dura de 15 a 180 minutos e ocorre de uma vez a cada dois dias até oito vezes por dia. A duração é o principal elemento para distinguir as cefaleias trigêmino-autonômicas entre si: quanto mais curta a crise, maior tende a ser a frequência diária.',
     x: { A: 'Segundos a poucos minutos, com muitas crises ao dia, caracterizam SUNCT e SUNA.', C: 'De 4 a 72 horas é a duração da crise de enxaqueca.', D: 'De 2 a 30 minutos, mais de cinco vezes ao dia, é a hemicrania paroxística.' },
@@ -37,7 +37,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Salvas x enxaqueca',
     e: 'Um dado comportamental durante a crise ajuda a distinguir a cefaleia em salvas da enxaqueca. Na crise de cefaleia em salvas, o paciente tipicamente:',
-    o: ['Permanece deitado, imóvel, em ambiente escuro e silencioso', 'Fica inquieto ou agitado, andando, balançando o corpo ou pressionando a região dolorosa', 'Apresenta rigidez de nuca e evita fletir o pescoço', 'Dorme profundamente até a dor cessar'],
+    o: ['Permanece deitado, imóvel, em ambiente escuro e silencioso, evitando se mexer', 'Fica inquieto, andando, balançando o corpo ou comprimindo o local', 'Apresenta rigidez de nuca e evita fletir o pescoço durante a dor', 'Dorme profundamente até a dor cessar, sem qualquer agitação'],
     g: 'B',
     c: 'A inquietude ou agitação é critério diagnóstico da cefaleia em salvas: a dor é tão intensa que o paciente não consegue ficar parado. Na enxaqueca ocorre o oposto, pois o movimento agrava a dor e o paciente busca repouso em ambiente escuro e silencioso.',
     x: { A: 'Esse é o comportamento característico do paciente com enxaqueca.', C: 'Rigidez de nuca sugere irritação meníngea, não cefaleia em salvas.', D: 'A dor da salvas desperta o paciente; ele não consegue dormir durante a crise.' },
@@ -45,7 +45,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Salvas: oxigênio',
     e: 'Homem de 42 anos chega ao pronto-socorro no início de uma crise típica de cefaleia em salvas. O tratamento abortivo de primeira linha, sem efeitos adversos relevantes, é:',
-    o: ['Dipirona endovenosa', 'Oxigênio a 100% por máscara com reservatório, em alto fluxo, por cerca de 15 minutos', 'Oxigênio por cateter nasal a 2 litros por minuto', 'Amitriptilina por via oral'],
+    o: ['Dipirona endovenosa, em dose habitual, por 3 dias', 'Oxigênio a 100% com máscara de reservatório, em alto fluxo, por ~15 min', 'Oxigênio por cateter nasal a 2 L/min, por 15 minutos', 'Amitriptilina por via oral, em dose habitual, por 3 dias'],
     g: 'B',
     c: 'A inalação de oxigênio a 100% em alto fluxo (12 a 15 litros por minuto), por máscara não reinalante, com o paciente sentado, aborta a crise na maioria dos casos em cerca de 15 minutos. É segura, pode ser repetida e não tem as contraindicações cardiovasculares dos triptanos.',
     x: { A: 'Analgésicos comuns são ineficazes: a crise é curta e muito intensa.', C: 'Baixo fluxo por cateter nasal não atinge a fração inspirada necessária.', D: 'A amitriptilina não tem efeito abortivo nem papel na cefaleia em salvas.' },
@@ -69,7 +69,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Salvas: tratamento de transição',
     e: 'Ao iniciar verapamil em um paciente com cefaleia em salvas, sabe-se que o efeito pleno demora dias a semanas. Para controle rápido das crises nesse intervalo, pode-se utilizar como tratamento de transição:',
-    o: ['Opioide de liberação prolongada', 'Corticoide por curto período ou bloqueio anestésico do nervo occipital maior ipsilateral', 'Toxina botulínica em pontos pericranianos', 'Antibiótico de amplo espectro'],
+    o: ['Opioide de liberação prolongada, por via oral, em dose fixa', 'Corticoide por curto período ou bloqueio do nervo occipital maior', 'Toxina botulínica em pontos pericranianos, repetida a cada três meses', 'Antibiótico de amplo espectro, por via oral, por sete dias'],
     g: 'B',
     c: 'O tratamento de transição (ponte) suprime rapidamente as crises enquanto o profilático de manutenção é titulado. Usa-se prednisona em curso curto com redução gradual ou bloqueio do nervo occipital maior com anestésico e corticoide. O uso prolongado de corticoide é evitado pelos efeitos adversos.',
     x: { A: 'Opioides são ineficazes na salvas e trazem risco de dependência.', C: 'A toxina botulínica tem evidência na enxaqueca crônica, não como ponte na salvas.', D: 'Não há componente infeccioso na cefaleia em salvas.' },
@@ -85,7 +85,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Hemicrania contínua',
     e: 'Mulher de 47 anos queixa-se de dor contínua, há cinco meses, sempre na metade direita da cabeça, de intensidade moderada, sem um dia livre, com exacerbações em que surgem lacrimejamento e hiperemia conjuntival à direita e sensação de areia no olho. Exames de imagem normais. A conduta que confirma o diagnóstico é:',
-    o: ['Teste terapêutico com sumatriptano subcutâneo', 'Teste terapêutico com indometacina, com remissão completa da dor', 'Punção lombar com medida da pressão de abertura', 'Biópsia de artéria temporal'],
+    o: ['Teste terapêutico com sumatriptano subcutâneo, em dose habitual', 'Teste com indometacina, com remissão completa da dor', 'Punção lombar com medida da pressão de abertura do líquor', 'Biópsia de artéria temporal, para pesquisa de arterite'],
     g: 'B',
     c: 'A hemicrania contínua é uma cefaleia estritamente unilateral, sem mudança de lado, contínua por mais de três meses, com exacerbações acompanhadas de sinais autonômicos ipsilaterais ou inquietude. A resposta absoluta à indometacina faz parte dos critérios diagnósticos, e sua ausência obriga a rever o diagnóstico.',
     x: { A: 'Triptanos não têm resposta consistente e não definem o diagnóstico.', C: 'Não há sinais de alteração da pressão liquórica que justifiquem punção.', D: 'A idade, a duração e os sinais autonômicos não sugerem arterite temporal.' },
@@ -109,7 +109,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'SUNCT x neuralgia do trigêmeo',
     e: 'Na diferenciação entre SUNCT e neuralgia do trigêmeo, o conjunto de achados que favorece SUNCT é:',
-    o: ['Dor em território de V2 e V3, sem sinais autonômicos e com período refratário após cada paroxismo', 'Dor em território de V1, com hiperemia conjuntival e lacrimejamento proeminentes e ausência de período refratário', 'Dor bilateral em aperto com fotofobia', 'Dor contínua responsiva à indometacina'],
+    o: ['Dor em V2-V3, sem sinais autonômicos e com período refratário', 'Dor em V1, com hiperemia conjuntival e lacrimejamento, sem período refratário', 'Dor bilateral em aperto, com fotofobia e fonofobia associadas', 'Dor contínua que responde à indometacina em dose habitual'],
     g: 'B',
     c: 'A SUNCT predomina na primeira divisão do trigêmeo (região orbitária e temporal), tem sinais autonômicos intensos e pode ser desencadeada repetidamente, sem período refratário. A neuralgia do trigêmeo clássica acomete sobretudo a segunda e a terceira divisões, tem pouca ou nenhuma manifestação autonômica e apresenta período refratário após o paroxismo.',
     x: { A: 'Esse é o perfil da neuralgia do trigêmeo clássica.', C: 'Dor bilateral em aperto sugere cefaleia do tipo tensional.', D: 'Dor contínua responsiva à indometacina define a hemicrania contínua.' },
@@ -125,7 +125,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Neuralgia do trigêmeo: etiologia',
     e: 'O mecanismo mais aceito para a neuralgia do trigêmeo clássica é:',
-    o: ['Reativação do vírus varicela-zóster no gânglio trigeminal', 'Compressão neurovascular da raiz do trigêmeo junto à ponte, geralmente pela artéria cerebelar superior, com desmielinização focal', 'Inflamação granulomatosa das artérias temporais', 'Lesão isquêmica do núcleo motor do trigêmeo'],
+    o: ['Reativação do vírus varicela-zóster no gânglio trigeminal, com vesículas', 'Compressão neurovascular da raiz do trigêmeo na ponte, com desmielinização', 'Inflamação granulomatosa das artérias temporais, com células gigantes e VHS alta', 'Lesão isquêmica do núcleo motor do trigêmeo, na ponte, com paresia mastigatória'],
     g: 'B',
     c: 'Na forma clássica, uma alça vascular, mais frequentemente da artéria cerebelar superior, comprime a raiz do nervo na zona de entrada na ponte, região de transição entre mielina central e periférica. A desmielinização focal permite transmissão efática: impulsos de fibras táteis ativam fibras nociceptivas, o que explica a dor desencadeada por toque leve.',
     x: { A: 'O zóster causa neuralgia pós-herpética, com dor contínua em queimação, sobretudo em V1.', C: 'Essa é a patologia da arterite de células gigantes.', D: 'O núcleo motor inerva a mastigação; sua lesão não causa dor paroxística.' },
@@ -149,7 +149,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Neuralgia do trigêmeo secundária',
     e: 'Mulher de 28 anos apresenta dor facial paroxística em choque, ora à direita, ora à esquerda, e o exame mostra hipoestesia em território de V2 à direita. Diante desse quadro, a conduta mais adequada é:',
-    o: ['Iniciar carbamazepina e dispensar exames, pois o diagnóstico é clínico', 'Solicitar ressonância magnética de encéfalo para pesquisar causa secundária, como esclerose múltipla ou tumor do ângulo pontocerebelar', 'Indicar descompressão microvascular de imediato', 'Solicitar radiografia panorâmica de mandíbula apenas'],
+    o: ['Iniciar carbamazepina e dispensar exames complementares, pois o diagnóstico é clínico', 'Solicitar RM de encéfalo para causa secundária (esclerose múltipla ou tumor)', 'Indicar descompressão microvascular de imediato, sem nenhum exame de imagem', 'Solicitar apenas radiografia panorâmica de mandíbula, sem imagem cerebral'],
     g: 'B',
     c: 'Idade jovem, acometimento bilateral e déficit sensitivo no território do trigêmeo são sinais de neuralgia secundária. Placas desmielinizantes na zona de entrada da raiz, na esclerose múltipla, e tumores do ângulo pontocerebelar são as causas principais, e a ressonância é o exame indicado.',
     x: { A: 'Sinais atípicos impedem assumir forma clássica sem investigação por imagem.', C: 'Cirurgia sem imagem prévia e sem tentativa de tratamento clínico é inadequada.', D: 'A radiografia não avalia tronco cerebral nem ângulo pontocerebelar.' },
@@ -157,7 +157,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Neuralgia do trigêmeo: cirurgia',
     e: 'Homem de 52 anos, hígido, tem neuralgia do trigêmeo clássica refratária a carbamazepina e oxcarbazepina em doses máximas toleradas. A ressonância mostra alça da artéria cerebelar superior em contato com a raiz do nervo, com deformação. O procedimento com maior taxa de alívio duradouro é:',
-    o: ['Bloqueio do nervo occipital maior', 'Descompressão microvascular por craniotomia de fossa posterior', 'Simpatectomia cervical', 'Exodontia dos dentes do lado acometido'],
+    o: ['Bloqueio do nervo occipital maior, com anestésico local', 'Descompressão microvascular por craniotomia de fossa posterior', 'Simpatectomia cervical, com ressecção da cadeia simpática', 'Exodontia dos dentes do lado acometido, por precaução'],
     g: 'B',
     c: 'A descompressão microvascular afasta o vaso da raiz do nervo e interpõe material entre eles, tratando a causa da neuralgia clássica sem destruir fibras, com as maiores taxas de alívio prolongado e preservação da sensibilidade facial. Procedimentos ablativos percutâneos (balão, radiofrequência, glicerol) e radiocirurgia são opções para pacientes com maior risco cirúrgico.',
     x: { A: 'O nervo occipital maior não participa da dor no território do trigêmeo.', C: 'A simpatectomia não tem papel na neuralgia do trigêmeo.', D: 'Extrações dentárias são um erro comum e não aliviam a neuralgia.' },
@@ -165,7 +165,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Uso excessivo de medicamentos: critérios',
     e: 'Para o diagnóstico de cefaleia por uso excessivo de medicamentos, a ICHD-3 exige cefaleia em 15 ou mais dias por mês, em paciente com cefaleia preexistente, e uso regular por mais de três meses de:',
-    o: ['Qualquer analgésico em pelo menos 2 dias por mês', 'Triptanos, ergotamínicos, opioides ou analgésicos combinados em 10 ou mais dias por mês, ou analgésicos simples em 15 ou mais dias por mês', 'Apenas opioides, em qualquer frequência', 'Medicação profilática em dose acima da recomendada'],
+    o: ['Qualquer analgésico em pelo menos 2 dias por mês, de forma regular', 'Triptanos, ergotamínicos, opioides ou combinados ≥ 10 dias/mês; simples ≥ 15', 'Apenas opioides, em qualquer frequência de uso mensal, mesmo ocasional', 'Medicação profilática em dose acima da recomendada, por tempo prolongado'],
     g: 'B',
     c: 'O limiar depende da classe: 10 ou mais dias por mês para triptanos, ergotamínicos, opioides e combinações analgésicas, e 15 ou mais dias por mês para analgésicos simples e anti-inflamatórios. O que conta é o número de dias de uso, e não a quantidade de comprimidos; a enxaqueca e a cefaleia tensional são as cefaleias de base mais comuns.',
     x: { A: 'Dois dias por mês estão muito abaixo do limiar de uso excessivo.', C: 'Todas as classes de sintomáticos podem causar o quadro, não apenas opioides.', D: 'Profiláticos não causam cefaleia por uso excessivo de medicamentos.' },
@@ -173,7 +173,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Uso excessivo de medicamentos: conduta',
     e: 'Mulher de 38 anos, com enxaqueca desde a juventude, tem há um ano cefaleia quase diária. Toma comprimidos com associação de analgésico, cafeína e ergotamina em 20 dias por mês, com alívio parcial e fugaz. Exame normal. A conduta mais adequada é:',
-    o: ['Trocar a associação por opioide, mais potente', 'Orientar sobre o diagnóstico, suspender a medicação em uso excessivo e iniciar tratamento profilático', 'Aumentar a frequência do analgésico para controle contínuo da dor', 'Solicitar punção lombar e manter a medicação atual'],
+    o: ['Trocar a associação por opioide, que é mais potente', 'Orientar o diagnóstico, suspender o uso excessivo e iniciar profilaxia', 'Aumentar a frequência do analgésico, para controle contínuo da dor', 'Pedir punção lombar e manter a medicação atual em uso diário'],
     g: 'B',
     c: 'O uso frequente de sintomáticos perpetua a dor por sensibilização central e torna a cefaleia de base refratária. O tratamento baseia-se em educação, retirada da medicação em excesso e profilaxia da cefaleia primária, com limite claro de dias de uso de sintomáticos. A paciente deve ser avisada de que pode haver piora transitória nas primeiras semanas após a retirada.',
     x: { A: 'Opioides são dos fármacos que mais induzem cefaleia por uso excessivo.', C: 'Aumentar o consumo agrava o mecanismo que mantém a cefaleia.', D: 'Não há sinais de alarme, e manter a medicação perpetua o quadro.' },
@@ -189,7 +189,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Cefaleia primária do esforço',
     e: 'Homem de 27 anos apresenta, pela primeira vez, cefaleia pulsátil bilateral intensa durante treino de musculação, que durou algumas horas. Exame neurológico normal. Sobre a cefaleia primária do exercício, é correto afirmar:',
-    o: ['O diagnóstico pode ser firmado no primeiro episódio, sem investigação', 'No primeiro episódio é obrigatório excluir hemorragia subaracnoide e dissecção arterial; confirmada a forma primária, pode-se usar indometacina antes do exercício ou betabloqueador', 'O tratamento de escolha é o repouso absoluto definitivo', 'A dor é sempre unilateral e acompanhada de sinais autonômicos'],
+    o: ['O diagnóstico pode ser firmado no primeiro episódio, sem qualquer investigação', 'No 1º episódio excluir HSA e dissecção; depois, indometacina ou betabloqueador', 'O tratamento de escolha é o repouso absoluto e definitivo do paciente', 'A dor é sempre unilateral e acompanhada de sinais autonômicos ipsilaterais'],
     g: 'B',
     c: 'A cefaleia primária do exercício é pulsátil, ocorre apenas durante ou após esforço físico vigoroso e dura até 48 horas. Na primeira ocorrência, deve-se afastar hemorragia subaracnoide, dissecção arterial e vasoconstrição cerebral reversível e, em pacientes com fatores de risco vascular, lembrar da isquemia miocárdica, que pode se manifestar como cefaleia ao esforço.',
     x: { A: 'O diagnóstico de forma primária exige exclusão de causas secundárias.', C: 'Não se indica abandono do exercício; há prevenção medicamentosa eficaz.', D: 'A dor costuma ser bilateral e pulsátil, sem sinais autonômicos.' },
@@ -197,7 +197,7 @@ export const CEFALEIA_3: QuestaoCompacta[] = [
   {
     s: 'Cefaleia em trovoada primária',
     e: 'Mulher de 43 anos teve cefaleia explosiva, com intensidade máxima em menos de um minuto. Tomografia de crânio, punção lombar e angiotomografia arterial e venosa foram normais. Sobre a cefaleia em trovoada primária, é correto afirmar:',
-    o: ['É a causa mais comum de cefaleia em trovoada e dispensa exames', 'É diagnóstico de exclusão, feito apenas após investigação completa que afaste hemorragia subaracnoide, vasoconstrição cerebral reversível, dissecção e trombose venosa', 'É confirmada pela resposta ao oxigênio a 100%', 'Caracteriza-se por dor que progride ao longo de vários dias'],
+    o: ['É a causa mais comum de cefaleia em trovoada e dispensa exames complementares', 'Diagnóstico de exclusão após afastar HSA, vasoconstrição reversível, dissecção, trombose', 'É confirmada pela resposta ao oxigênio a 100% em alto fluxo', 'Caracteriza-se por dor que progride gradualmente ao longo de vários dias'],
     g: 'B',
     c: 'A cefaleia em trovoada primária é rara, e esse padrão de dor está frequentemente associado a doenças vasculares graves. Por isso a ICHD-3 exige que a busca por causa subjacente seja completa e normal, incluindo imagem do parênquima, dos vasos e, quando indicado, estudo do líquor. A síndrome de vasoconstrição cerebral reversível deve ser especialmente lembrada quando os episódios se repetem em dias.',
     x: { A: 'É rara e nunca pode ser assumida sem investigação completa.', C: 'A resposta ao oxigênio é característica da cefaleia em salvas.', D: 'Por definição, a dor atinge o pico em menos de um minuto.' },

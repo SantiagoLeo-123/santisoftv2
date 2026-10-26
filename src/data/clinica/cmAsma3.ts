@@ -29,7 +29,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Sinais de gravidade',
     e: 'Jovem em crise de asma há 12 horas apresentava sibilos intensos na admissão. Após 40 minutos, está mais sonolento, com esforço respiratório débil, e a ausculta revela murmúrio vesicular muito reduzido e ausência de sibilos. Esse achado significa:',
-    o: ['Resolução do broncoespasmo', 'Obstrução tão acentuada que o fluxo aéreo é insuficiente para gerar sibilos', 'Derrame pleural bilateral', 'Efeito esperado do salbutamol'],
+    o: ['Resolução do broncoespasmo, com melhora da obstrução', 'Obstrução tão acentuada que o fluxo é insuficiente para gerar sibilos', 'Derrame pleural bilateral, com abolição dos sons respiratórios', 'Efeito esperado do salbutamol, com melhora clínica'],
     g: 'B',
     c: 'O tórax silencioso é sinal de extrema gravidade: a obstrução e a fadiga muscular reduzem tanto o fluxo que não há turbulência suficiente para produzir sibilos. Associado à piora do nível de consciência, indica falência respiratória iminente.',
     x: { A: 'A melhora real se acompanha de melhor entrada de ar e melhora clínica, não de sonolência.', C: 'Derrame bilateral não explica a evolução aguda dentro de uma crise de asma.', D: 'A resposta ao salbutamol aumenta o murmúrio vesicular; não o abole.' },
@@ -37,7 +37,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Broncodilatador na crise',
     e: 'Adulto em crise de asma leve a moderada na unidade de pronto atendimento. O esquema inicial recomendado de beta-2 agonista de curta ação é:',
-    o: ['Salbutamol oral 4 mg a cada 8 horas', 'Salbutamol spray com espaçador, 4 a 10 jatos a cada 20 minutos na primeira hora', 'Salbutamol intravenoso contínuo como primeira escolha', 'Dois jatos de salbutamol em dose única, com reavaliação em 6 horas'],
+    o: ['Salbutamol oral 4 mg a cada 8 horas, em dose habitual', 'Salbutamol spray com espaçador, 4-10 jatos a cada 20 min na 1ª hora', 'Salbutamol intravenoso contínuo, como primeira escolha', 'Dois jatos de salbutamol em dose única, com reavaliação em 6 horas'],
     g: 'B',
     c: 'O beta-2 de curta ação inalatório em doses repetidas é a base do tratamento da crise: 4 a 10 jatos com espaçador a cada 20 minutos na primeira hora, com reavaliação. A via inalatória tem início mais rápido e menos efeitos adversos que a oral ou a intravenosa.',
     x: { A: 'A via oral tem início lento e mais efeitos adversos; não é usada na crise.', C: 'O beta-2 intravenoso não é superior ao inalatório e causa mais efeitos adversos.', D: 'Dose única baixa é insuficiente; a crise exige doses repetidas e reavaliação precoce.' },
@@ -45,7 +45,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Broncodilatador na crise',
     e: 'Na crise de asma leve a moderada, ao comparar a administração de salbutamol por inalador pressurizado com espaçador e por nebulização, as evidências mostram que:',
-    o: ['A nebulização é muito superior e deve sempre ser preferida', 'O spray com espaçador tem eficácia equivalente à nebulização, sendo mais rápido e de menor custo', 'O spray com espaçador é contraindicado na emergência', 'A nebulização dispensa o uso de corticoide'],
+    o: ['A nebulização é muito superior e deve ser sempre preferida', 'O spray com espaçador tem eficácia equivalente, é mais rápido e mais barato', 'O spray com espaçador é contraindicado na emergência', 'A nebulização dispensa o uso de corticoide sistêmico'],
     g: 'B',
     c: 'Em crises leves a moderadas, o inalador pressurizado com espaçador produz melhora da função pulmonar semelhante à da nebulização, com menor tempo de permanência e menos taquicardia. A nebulização fica como alternativa, sobretudo em crises graves ou quando o paciente não consegue usar o espaçador.',
     x: { A: 'Não há superioridade da nebulização nas crises leves a moderadas.', C: 'O espaçador é a forma preferencial de administração nesses casos.', D: 'A via de administração do broncodilatador não altera a indicação de corticoide.' },
@@ -53,7 +53,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Ipratrópio',
     e: 'Mulher de 40 anos em crise grave de asma recebe salbutamol inalatório. A associação de brometo de ipratrópio nessa situação:',
-    o: ['Não tem benefício em nenhum cenário', 'Está indicada nas crises moderadas a graves, pois melhora a função pulmonar e reduz hospitalizações em relação ao beta-2 isolado', 'Deve substituir o beta-2 agonista', 'É indicada apenas após a alta, como manutenção'],
+    o: ['Não tem benefício em nenhum cenário, mesmo nas crises moderadas a graves', 'Indicada em crises moderadas a graves: melhora a função e reduz internações', 'Deve substituir o beta-2 agonista, que passa a ser dispensável na crise', 'É indicada apenas após a alta, como tratamento de manutenção diária'],
     g: 'B',
     c: 'O ipratrópio bloqueia receptores muscarínicos e reduz o tônus vagal brônquico, com efeito aditivo ao do beta-2 agonista. Na emergência, a associação em crises moderadas a graves diminui internações; não há benefício demonstrado em mantê-lo após a hospitalização.',
     x: { A: 'Há benefício comprovado nas crises moderadas a graves atendidas na emergência.', C: 'É terapia adicional; o beta-2 de curta ação continua sendo o broncodilatador principal.', D: 'O ipratrópio não tem papel na manutenção da asma.' },
@@ -69,7 +69,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Corticoide sistêmico',
     e: 'Na alta de um adulto após crise de asma, a prescrição adequada de prednisona é:',
-    o: ['5 mg ao dia por 30 dias', '40 a 50 mg ao dia por 5 a 7 dias, sem necessidade de redução gradual', '100 mg ao dia por 21 dias com redução lenta', 'Dose única de 10 mg'],
+    o: ['5 mg ao dia por 30 dias, com redução gradual', '40-50 mg ao dia por 5-7 dias, sem redução gradual', '100 mg ao dia por 21 dias, com redução lenta', 'Dose única de 10 mg, no dia da alta'],
     g: 'B',
     c: 'Em adultos, cursos de 5 a 7 dias de prednisona ou prednisolona na dose de 40 a 50 mg ao dia são tão eficazes quanto cursos mais longos. Como a duração é curta, não há supressão adrenal relevante e a retirada gradual é desnecessária.',
     x: { A: 'A dose é insuficiente e a duração, desnecessariamente longa.', C: 'Dose e duração excessivas aumentam os efeitos adversos sem benefício adicional.', D: 'Dose única baixa não previne a recaída após a alta.' },
@@ -77,7 +77,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Sulfato de magnésio',
     e: 'Mulher de 36 anos em crise grave de asma mantém pico de fluxo de 30% do previsto e SpO2 de 90% com oxigênio após 1 hora de salbutamol com ipratrópio em doses repetidas e corticoide sistêmico. Está alerta. A próxima medida é:',
-    o: ['Aminofilina intravenosa em dose de ataque', 'Sulfato de magnésio intravenoso, 2 g em 20 minutos', 'Furosemida intravenosa', 'Alta com corticoide oral'],
+    o: ['Aminofilina IV em dose de ataque, como primeira opção', 'Sulfato de magnésio IV, 2 g em 20 minutos', 'Furosemida intravenosa, para reduzir o edema pulmonar', 'Alta com corticoide oral, mantendo o salbutamol'],
     g: 'B',
     c: 'O magnésio relaxa o músculo liso brônquico por bloquear a entrada de cálcio na célula. Em dose única intravenosa, reduz internações em adultos com crise grave que não respondem ao tratamento inicial ou com hipoxemia persistente. Não é indicado de rotina em crises leves.',
     x: { A: 'A aminofilina não acrescenta benefício e aumenta efeitos adversos.', C: 'Não há congestão; diurético não trata broncoespasmo.', D: 'Com pico de fluxo de 30% não há critério de alta.' },
@@ -93,7 +93,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Gasometria',
     e: 'Homem de 23 anos em crise de asma há 18 horas, com frequência respiratória de 36 irpm e uso de musculatura acessória. Gasometria arterial em ar ambiente: pH 7,38, PaCO2 de 42 mmHg e PaO2 de 61 mmHg. A interpretação correta é:',
-    o: ['Gasometria tranquilizadora, pois pH e PaCO2 estão normais', 'Sinal de gravidade: em um paciente taquipneico esperava-se hipocapnia, e a PaCO2 normal indica fadiga muscular e hipoventilação alveolar iminente', 'Alcalose metabólica por uso de broncodilatador', 'Erro de coleta, que deve ser ignorado'],
+    o: ['Gasometria tranquilizadora, pois o pH e a PaCO2 estão dentro da normalidade', 'Sinal de gravidade: no taquipneico esperava-se hipocapnia; PaCO2 normal indica fadiga', 'Alcalose metabólica por uso de broncodilatador, sem significado clínico', 'Erro de coleta, que deve ser ignorado e depois repetido em 24 horas'],
     g: 'B',
     c: 'No início da crise, a hiperventilação produz hipocapnia e alcalose respiratória. Quando a obstrução se agrava e a musculatura fadiga, a ventilação alveolar cai e a PaCO2 sobe, passando pela faixa normal antes de chegar à hipercapnia. A normocapnia em paciente com grande esforço respiratório é, portanto, alerta de falência iminente.',
     x: { A: 'A normalidade é apenas aparente; diante de taquipneia intensa ela é sinal de alarme.', C: 'pH e bicarbonato não indicam alcalose metabólica.', D: 'O resultado é coerente com a clínica e não deve ser desprezado.' },
@@ -117,7 +117,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Ventilação mecânica',
     e: 'Paciente intubado por crise de asma grave. A estratégia ventilatória mais adequada é:',
-    o: ['Frequência respiratória alta e tempo expiratório curto para normalizar rapidamente a PaCO2', 'Frequência respiratória baixa, volume corrente reduzido e tempo expiratório prolongado, tolerando hipercapnia', 'Volume corrente de 12 mL/kg para vencer a resistência das vias aéreas', 'PEEP elevada, acima de 15 cmH2O, para recrutar alvéolos'],
+    o: ['Frequência alta e tempo expiratório curto, para normalizar rápido a PaCO2', 'Frequência baixa, volume corrente reduzido e expiração longa, tolerando hipercapnia', 'Volume corrente de 12 mL/kg, para vencer a resistência', 'PEEP elevada, acima de 15 cmH2O, para recrutar alvéolos'],
     g: 'B',
     c: 'Na asma grave o problema é o esvaziamento pulmonar incompleto, que gera hiperinsuflação dinâmica e auto-PEEP, com risco de barotrauma e hipotensão. Reduzir a frequência e o volume corrente e alongar a expiração permite o esvaziamento; a hipercapnia resultante é tolerada (hipercapnia permissiva).',
     x: { A: 'Frequência alta encurta a expiração e agrava o aprisionamento aéreo.', C: 'Volume corrente alto aumenta a hiperinsuflação e o risco de barotrauma.', D: 'PEEP elevada soma-se à hiperinsuflação já existente e piora a hemodinâmica.' },
@@ -125,7 +125,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Ventilação mecânica',
     e: 'Homem de 30 anos, intubado há 15 minutos por asma grave e ventilado manualmente com frequência elevada, apresenta hipotensão súbita (pressão arterial de 60 x 30 mmHg). O murmúrio vesicular está reduzido, mas simétrico, e a traqueia é centrada. A medida imediata, diagnóstica e terapêutica, é:',
-    o: ['Aumentar a frequência da ventilação', 'Desconectar o paciente do ventilador por alguns segundos, permitindo a expiração completa', 'Administrar furosemida', 'Elevar a PEEP'],
+    o: ['Aumentar a frequência da ventilação, para eliminar o CO2 retido', 'Desconectar o paciente do ventilador por alguns segundos, para expirar por completo', 'Administrar furosemida por via venosa, para reduzir o edema pulmonar', 'Elevar a PEEP para recrutar os alvéolos colapsados e melhorar a oxigenação'],
     g: 'B',
     c: 'A hipotensão logo após a intubação do asmático decorre com frequência de hiperinsuflação dinâmica: o ar aprisionado eleva a pressão intratorácica e reduz o retorno venoso. A desconexão breve permite a exalação e restaura a pressão arterial. Se não houver melhora ou houver assimetria, pensa-se em pneumotórax hipertensivo.',
     x: { A: 'Ventilar mais rápido agrava o aprisionamento aéreo e a hipotensão.', C: 'Diurético reduz ainda mais o retorno venoso.', D: 'Elevar a PEEP aumenta a pressão intratorácica e piora o quadro.' },
@@ -141,7 +141,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento da crise',
     e: 'Sobre o uso de aminofilina intravenosa na crise de asma, é correto afirmar que:',
-    o: ['É a primeira escolha, antes do beta-2 inalatório', 'Não é recomendada, pois não acrescenta benefício ao tratamento padrão e aumenta efeitos adversos como vômitos e arritmias', 'É mais segura que o sulfato de magnésio', 'Substitui o corticoide sistêmico'],
+    o: ['É a primeira escolha, antes do beta-2 inalatório', 'Não recomendada: sem benefício adicional e aumenta vômitos e arritmias', 'É mais segura que o sulfato de magnésio, na crise grave', 'Substitui o corticoide sistêmico, na crise de asma'],
     g: 'B',
     c: 'As metilxantinas têm efeito broncodilatador modesto e janela terapêutica estreita. Em pacientes já tratados com beta-2 inalatório em doses repetidas e corticoide, a aminofilina não melhora desfechos e aumenta a toxicidade; por isso a GINA não a recomenda nas exacerbações.',
     x: { A: 'A base do tratamento é o beta-2 de curta ação inalatório em doses repetidas.', C: 'O magnésio tem perfil de segurança melhor e evidência de benefício na crise grave.', D: 'A aminofilina não tem efeito anti-inflamatório comparável ao do corticoide.' },
@@ -149,7 +149,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento da crise',
     e: 'Mulher de 22 anos em crise de asma desencadeada por resfriado comum, com coriza e tosse com escarro amarelado há 2 dias. Está afebril, e a ausculta mostra apenas sibilos difusos. Quanto ao uso de antibiótico:',
-    o: ['Está indicado em toda crise de asma', 'Não está indicado de rotina; reserva-se a casos com evidência de infecção bacteriana, como pneumonia', 'Deve-se usar macrolídeo por 14 dias', 'Está indicado porque o escarro é amarelado'],
+    o: ['Está indicado em toda crise de asma, de rotina', 'Não é de rotina; só se houver infecção bacteriana, como pneumonia', 'Deve-se usar macrolídeo por 14 dias, em todas as crises', 'Está indicado porque o escarro é amarelado'],
     g: 'B',
     c: 'A maioria das crises é desencadeada por vírus, sobretudo rinovírus, ou por alérgenos. O escarro amarelado na asma costuma refletir eosinófilos e não infecção bacteriana. Antibióticos só são usados se houver febre com escarro purulento e consolidação ou outra evidência de infecção bacteriana.',
     x: { A: 'O uso rotineiro não traz benefício e aumenta efeitos adversos e resistência.', C: 'Não há indicação de antibiótico sem evidência de infecção bacteriana.', D: 'A cor do escarro pode decorrer de eosinófilos e não indica bactéria por si só.' },
@@ -157,7 +157,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Exames na crise',
     e: 'Homem de 27 anos em crise grave de asma queixa-se de dor torácica súbita à esquerda e piora abrupta da dispneia. Há redução do murmúrio vesicular e enfisema subcutâneo cervical à esquerda. Sobre a radiografia de tórax na crise de asma:',
-    o: ['Deve ser feita em toda crise, mesmo leve', 'Não é rotineira, mas está indicada na suspeita de complicações, como pneumotórax e pneumomediastino, ou de outro diagnóstico', 'Nunca está indicada', 'Só deve ser feita após a alta'],
+    o: ['Deve ser feita em toda crise de asma, mesmo nas crises leves', 'Não é rotina; indicada se suspeita de pneumotórax, pneumomediastino ou outro diagnóstico', 'Nunca está indicada, em nenhuma crise de asma, por ser pouco útil', 'Só deve ser feita após a alta hospitalar, em controle ambulatorial'],
     g: 'B',
     c: 'A radiografia não muda a conduta na maioria das crises. É indicada quando há suspeita de pneumotórax, pneumomediastino, pneumonia ou atelectasia, na ausência de resposta ao tratamento e em pacientes que necessitam de internação ou ventilação mecânica. Neste caso, a suspeita de barotrauma a torna obrigatória.',
     x: { A: 'Em crises não complicadas a radiografia não acrescenta informação útil.', C: 'Há indicações precisas, como a suspeita de pneumotórax deste caso.', D: 'A suspeita de complicação exige o exame imediatamente.' },
@@ -165,7 +165,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Critérios de alta',
     e: 'Após 3 horas de tratamento na emergência, uma paciente em crise de asma está sem dispneia, com ausculta quase limpa. Entre os achados abaixo, qual permite considerar a alta hospitalar com segurança?',
-    o: ['Pico de fluxo de 35% do previsto e SpO2 de 90% em ar ambiente', 'Pico de fluxo acima de 60% a 80% do previsto, SpO2 acima de 94% em ar ambiente e melhora mantida dos sintomas', 'Necessidade de salbutamol a cada 30 minutos', 'Frequência cardíaca de 135 bpm e fala entrecortada'],
+    o: ['PFE de 35% do previsto e SpO2 de 90% em ar ambiente', 'PFE > 60-80% do previsto, SpO2 > 94% em ar ambiente e melhora mantida', 'Necessidade de salbutamol a cada 30 minutos, mantida', 'FC de 135 bpm e fala entrecortada, persistentes'],
     g: 'B',
     c: 'A decisão de alta baseia-se na melhora clínica sustentada e na função pulmonar após o tratamento: pico de fluxo ou VEF1 acima de 60% a 80% do previsto ou do melhor valor pessoal e saturação adequada em ar ambiente. Valores abaixo de 40% após tratamento indicam internação; entre 40% e 60%, pesa-se o risco individual.',
     x: { A: 'Pico de fluxo abaixo de 40% e hipoxemia indicam internação.', C: 'A necessidade de broncodilatador tão frequente mostra resposta insuficiente.', D: 'Taquicardia acentuada e fala entrecortada são sinais de crise grave.' },
@@ -181,7 +181,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Risco de morte por asma',
     e: 'Na avaliação de um asmático em crise, qual dado da história identifica maior risco de morte relacionada à asma e exige vigilância mais rigorosa?',
-    o: ['Rinite alérgica associada', 'Intubação e ventilação mecânica por asma em crise prévia', 'Asma iniciada na infância', 'Uso regular de corticoide inalatório'],
+    o: ['Rinite alérgica associada, comum nos asmáticos', 'Intubação e ventilação mecânica por crise de asma prévia', 'Asma iniciada na infância, com bom controle', 'Uso regular de corticoide inalatório, com boa adesão'],
     g: 'B',
     c: 'São fatores de risco para morte por asma: história de asma quase fatal com intubação, hospitalização ou ida à emergência no último ano, uso atual ou recente de corticoide oral, ausência de corticoide inalatório, uso excessivo de beta-2 de curta ação, má adesão, doença psiquiátrica ou problemas psicossociais e alergia alimentar.',
     x: { A: 'A rinite é comorbidade comum e piora o controle, mas não é marcador de asma quase fatal.', C: 'A idade de início não é fator de risco de morte.', D: 'O uso regular de corticoide inalatório é fator protetor.' },
@@ -197,7 +197,7 @@ export const ASMA_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento da crise',
     e: 'Homem de 37 anos em crise grave de asma está muito agitado e ansioso, com SpO2 de 89% em ar ambiente. Um familiar pede que se administre um calmante. A conduta correta é:',
-    o: ['Administrar diazepam intravenoso para reduzir o consumo de oxigênio', 'Evitar sedativos e tratar a causa da agitação, que é a hipoxemia e o broncoespasmo', 'Administrar morfina para aliviar a dispneia', 'Prescrever haloperidol e conter o paciente no leito'],
+    o: ['Diazepam IV em bolus, para reduzir o consumo de oxigênio e a ansiedade', 'Evitar sedativos e tratar a causa da agitação: hipoxemia e broncoespasmo', 'Morfina para aliviar a dispneia, que deprime o drive respiratório', 'Haloperidol e contenção no leito, sem tratar a causa'],
     g: 'B',
     c: 'Na crise de asma a agitação é sinal de hipoxemia e de gravidade. Sedativos e opioides deprimem o centro respiratório e associam-se a mortes por asma; por isso são contraindicados fora do contexto de intubação. O tratamento é oxigênio, broncodilatador e corticoide.',
     x: { A: 'Benzodiazepínicos deprimem a ventilação e podem precipitar parada respiratória.', C: 'A morfina deprime a respiração e libera histamina.', D: 'A agitação é por hipoxemia; sedar e conter mascara a deterioração.' },

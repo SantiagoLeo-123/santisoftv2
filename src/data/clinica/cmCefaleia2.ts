@@ -5,7 +5,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia',
     e: 'A dor da enxaqueca é atualmente explicada principalmente por:',
-    o: ['Vasoconstrição seguida de vasodilatação das artérias extracranianas, sem participação neural', 'Ativação do sistema trigeminovascular, com liberação de neuropeptídeos como o CGRP e inflamação neurogênica meníngea', 'Contração sustentada da musculatura pericraniana', 'Aumento primário da pressão intracraniana por hiperprodução de líquor'],
+    o: ['Vasoconstrição seguida de vasodilatação das artérias extracranianas, sem participação neural', 'Ativação do sistema trigeminovascular, com liberação de CGRP e inflamação neurogênica', 'Contração sustentada da musculatura pericraniana, sem participação vascular', 'Aumento primário da pressão intracraniana por hiperprodução de líquor'],
     g: 'B',
     c: 'A enxaqueca é um distúrbio neurovascular: aferentes trigeminais que inervam vasos meníngeos são ativados e liberam CGRP, substância P e neurocinina A, causando vasodilatação e inflamação neurogênica estéril. O estímulo segue ao núcleo caudal do trigêmeo, ao tálamo e ao córtex, com sensibilização periférica e central. Esse mecanismo fundamenta o uso dos triptanos e dos fármacos anti-CGRP.',
     x: { A: 'A teoria puramente vascular foi abandonada; a vasodilatação é fenômeno secundário.', C: 'Mecanismos miofasciais são propostos para a cefaleia do tipo tensional.', D: 'A pressão intracraniana é normal na enxaqueca.' },
@@ -13,7 +13,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia da aura',
     e: 'O fenômeno neurofisiológico que explica a aura da enxaqueca é:',
-    o: ['Isquemia focal por embolia arterial transitória', 'Depressão alastrante cortical, uma onda de despolarização neuronal e glial que se propaga lentamente pelo córtex', 'Descarga epiléptica focal do lobo occipital', 'Desmielinização transitória das vias ópticas'],
+    o: ['Isquemia focal por embolia arterial transitória', 'Depressão alastrante cortical: onda de despolarização neuronal e glial', 'Descarga epiléptica focal do lobo occipital, de início súbito', 'Desmielinização transitória das vias ópticas, por inflamação'],
     g: 'B',
     c: 'A depressão alastrante cortical é uma onda de despolarização seguida de supressão da atividade neuronal, que avança pelo córtex a poucos milímetros por minuto. Essa velocidade explica a progressão gradual dos sintomas da aura e a sucessão de sintomas positivos (cintilações) seguidos de negativos (escotoma).',
     x: { A: 'A isquemia embólica causa déficit súbito e negativo, sem a marcha gradual da aura.', C: 'Crises occipitais duram segundos a poucos minutos e têm outro mecanismo.', D: 'A desmielinização causa sintomas que duram dias, não minutos.' },
@@ -37,7 +37,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Aura típica',
     e: 'Sobre a aura típica da enxaqueca, assinale a alternativa correta:',
-    o: ['Os sintomas instalam-se de forma súbita e duram menos de um minuto', 'Os sintomas desenvolvem-se gradualmente em 5 minutos ou mais, cada um durando de 5 a 60 minutos, sendo a aura visual a mais comum', 'A aura motora é a forma mais frequente e define a aura típica', 'A aura só pode ser diagnosticada se for seguida de cefaleia'],
+    o: ['Os sintomas instalam-se de forma súbita e duram menos de um minuto', 'Sintomas graduais em ≥ 5 min, cada um de 5 a 60 min; a visual é a mais comum', 'A aura motora é a mais frequente e define a aura típica', 'A aura só pode ser diagnosticada se for seguida de cefaleia'],
     g: 'B',
     c: 'A aura típica compreende sintomas visuais, sensitivos e/ou de linguagem totalmente reversíveis, com instalação gradual, duração de 5 a 60 minutos cada e, em geral, seguidos de cefaleia em até 60 minutos. A aura visual, com espectro de fortificação e escotoma cintilante, ocorre na grande maioria dos pacientes com aura.',
     x: { A: 'Instalação súbita sugere evento vascular ou crise epiléptica, não aura.', C: 'Fraqueza motora define a enxaqueca hemiplégica, que não é aura típica.', D: 'Existe aura típica sem cefaleia, mais comum em pessoas mais velhas.' },
@@ -53,7 +53,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Aura do tronco cerebral',
     e: 'Adolescente de 17 anos apresenta episódios recorrentes de visão dupla, vertigem, zumbido, fala arrastada e incoordenação da marcha por cerca de 30 minutos, sem fraqueza, seguidos de cefaleia occipital pulsátil com náuseas. Entre os episódios é assintomática, e a ressonância é normal. O diagnóstico mais provável é:',
-    o: ['Enxaqueca hemiplégica familiar', 'Enxaqueca com aura do tronco cerebral', 'Enxaqueca retiniana', 'Cefaleia em salvas'],
+    o: ['Enxaqueca hemiplégica familiar, com fraqueza motora na aura', 'Enxaqueca com aura do tronco cerebral', 'Enxaqueca retiniana, com escotoma monocular', 'Cefaleia em salvas, com sinais autonômicos ipsilaterais'],
     g: 'B',
     c: 'A enxaqueca com aura do tronco cerebral (antes chamada basilar) exige pelo menos dois sintomas reversíveis de tronco: disartria, vertigem, zumbido, hipoacusia, diplopia, ataxia ou redução do nível de consciência, sem sintomas motores ou retinianos. É diagnóstico de exclusão, feito após afastar doença vascular vertebrobasilar.',
     x: { A: 'A forma hemiplégica exige fraqueza motora reversível, ausente no caso.', C: 'A enxaqueca retiniana causa sintomas visuais estritamente monoculares.', D: 'A salvas não tem aura de tronco e cursa com dor orbitária e sinais autonômicos.' },
@@ -61,7 +61,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Enxaqueca hemiplégica',
     e: 'Homem de 22 anos, com mãe e irmã portadoras de quadro semelhante, tem crises de escotomas cintilantes seguidos de parestesia e fraqueza no hemicorpo esquerdo por duas horas, com recuperação completa, e depois cefaleia pulsátil. Investigação vascular normal. Sobre essa condição, é correto afirmar:',
-    o: ['Trata-se de aura típica, pois a fraqueza motora faz parte de sua definição', 'É enxaqueca hemiplégica familiar, canalopatia de herança autossômica dominante em que a aura inclui fraqueza motora reversível', 'O sumatriptano é o tratamento de primeira escolha das crises', 'O diagnóstico dispensa a exclusão de causas vasculares'],
+    o: ['Aura típica, pois a fraqueza motora faz parte da definição de aura típica', 'Enxaqueca hemiplégica familiar, canalopatia autossômica dominante, fraqueza reversível', 'O sumatriptano é o tratamento de primeira escolha das crises hemiplégicas', 'O diagnóstico dispensa a exclusão de causas vasculares e estruturais'],
     g: 'B',
     c: 'A enxaqueca hemiplégica é definida por aura com fraqueza motora totalmente reversível, associada a sintomas visuais, sensitivos ou de linguagem. A forma familiar tem herança autossômica dominante e decorre de mutações em genes de canais iônicos (CACNA1A, ATP1A2, SCN1A), que facilitam a depressão alastrante cortical.',
     x: { A: 'A aura típica inclui sintomas visuais, sensitivos e de linguagem, mas não motores.', C: 'Triptanos e ergotamínicos são tradicionalmente evitados nessa forma de enxaqueca.', D: 'Déficit motor transitório obriga a excluir causas vasculares e estruturais.' },
@@ -69,7 +69,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Crise leve',
     e: 'Paciente de 25 anos com enxaqueca sem aura tem crises de intensidade leve a moderada, que não a impedem de trabalhar, uma vez por mês. O tratamento inicial mais adequado das crises é:',
-    o: ['Opioide por via oral no início da dor', 'Analgésico simples ou anti-inflamatório não esteroide, tomado precocemente, associado a antiemético se houver náuseas', 'Topiramato diariamente', 'Corticoide oral por cinco dias a cada crise'],
+    o: ['Opioide por via oral, de uso precoce, no início da dor da crise', 'Analgésico simples ou AINE precoce; antiemético se houver náuseas', 'Topiramato diário, em dose de manutenção, como tratamento da crise', 'Corticoide oral por cinco dias, repetido a cada nova crise'],
     g: 'B',
     c: 'Crises leves a moderadas respondem a analgésicos simples (dipirona, paracetamol) e a anti-inflamatórios (ibuprofeno, naproxeno), que devem ser tomados no início da dor, antes da sensibilização central. O antiemético trata as náuseas e melhora a absorção, prejudicada pela gastroparesia da crise.',
     x: { A: 'Opioides devem ser evitados: pouca eficácia e alto risco de cronificação.', C: 'Uma crise leve por mês não indica tratamento profilático.', D: 'Corticoide é reservado ao estado migranoso e à prevenção de recorrência.' },
@@ -93,7 +93,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Antieméticos',
     e: 'Jovem de 19 anos recebe metoclopramida endovenosa em bolo para uma crise de enxaqueca com vômitos. Vinte minutos depois apresenta desvio forçado do pescoço para a direita, protrusão da língua e desvio do olhar para cima, mantendo a consciência. A conduta indicada é:',
-    o: ['Realizar tomografia de crânio de urgência por suspeita de hemorragia', 'Administrar anticolinérgico, como biperideno, ou anti-histamínico, como difenidramina ou prometazina', 'Administrar fenitoína endovenosa por crise epiléptica focal', 'Repetir a dose de metoclopramida'],
+    o: ['Realizar tomografia de crânio de urgência, por suspeita de hemorragia', 'Dar anticolinérgico (biperideno) ou anti-histamínico (difenidramina ou prometazina)', 'Dar fenitoína endovenosa, por suspeita de crise epiléptica focal', 'Repetir a dose de metoclopramida, por via endovenosa'],
     g: 'B',
     c: 'Trata-se de distonia aguda, efeito extrapiramidal do bloqueio dos receptores dopaminérgicos D2 nos núcleos da base, mais comum em jovens e após infusão rápida. O bloqueio dopaminérgico gera predomínio colinérgico relativo no estriado, o que explica a resposta imediata aos anticolinérgicos e aos anti-histamínicos com ação anticolinérgica.',
     x: { A: 'O quadro é reação medicamentosa típica, com consciência preservada, não hemorragia.', C: 'Não é crise epiléptica: a consciência está preservada e há relação com o fármaco.', D: 'Repetir o antagonista dopaminérgico agravaria a distonia.' },
@@ -101,7 +101,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Estado migranoso',
     e: 'Mulher de 36 anos, com enxaqueca conhecida, chega ao pronto-socorro com crise típica e incapacitante que persiste há quatro dias, apesar de anti-inflamatórios e triptano em casa, com vômitos repetidos. Exame neurológico normal. O diagnóstico e a conduta adequada são:',
-    o: ['Enxaqueca crônica; iniciar toxina botulínica na emergência', 'Estado migranoso; hidratação venosa, antiemético e analgésico ou anti-inflamatório parenterais, podendo associar dexametasona', 'Cefaleia por uso excessivo de medicamentos; alta com orientação de suspender analgésicos', 'Estado migranoso; morfina endovenosa como primeira escolha'],
+    o: ['Enxaqueca crônica; iniciar toxina botulínica na emergência', 'Estado migranoso: hidratação, antiemético, analgésico ou AINE parenterais, ± dexametasona', 'Cefaleia por uso excessivo de medicamentos; alta com orientação de suspender analgésicos', 'Estado migranoso; morfina endovenosa como primeira escolha'],
     g: 'B',
     c: 'Estado migranoso é a crise de enxaqueca debilitante que dura mais de 72 horas. O tratamento é parenteral: hidratação (há vômitos e baixa ingesta), antagonista dopaminérgico como metoclopramida ou clorpromazina, dipirona ou anti-inflamatório endovenoso, e dexametasona, que reduz a recorrência da cefaleia após a alta.',
     x: { A: 'Enxaqueca crônica é definida pela frequência mensal, não por uma crise prolongada.', C: 'A crise atual é típica e prolongada; exige tratamento parenteral, não apenas orientação.', D: 'Opioides são evitados: menor eficácia, mais recorrência e risco de cronificação.' },
@@ -109,7 +109,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Indicações de profilaxia',
     e: 'Entre as situações abaixo, a que representa indicação de tratamento profilático da enxaqueca é:',
-    o: ['Uma crise leve a cada três meses, com boa resposta a analgésico simples', 'Crises frequentes ou incapacitantes, com prejuízo funcional apesar do tratamento agudo adequado, ou uso frequente de medicação sintomática', 'Presença de fotofobia durante as crises', 'História familiar de enxaqueca em parente de primeiro grau'],
+    o: ['Uma crise leve a cada três meses, com boa resposta a analgésico simples', 'Crises frequentes ou incapacitantes, ou uso frequente de sintomáticos', 'Presença de fotofobia durante as crises, de forma isolada', 'História familiar de enxaqueca em parente de primeiro grau'],
     g: 'B',
     c: 'A profilaxia é indicada quando as crises são frequentes (em geral três ou mais por mês), prolongadas ou incapacitantes, quando o tratamento agudo falha, é contraindicado ou mal tolerado, quando há uso excessivo de sintomáticos e em subtipos especiais, como a enxaqueca hemiplégica. O objetivo é reduzir frequência, intensidade e duração das crises e melhorar a resposta ao tratamento agudo.',
     x: { A: 'Crises raras, leves e responsivas ao sintomático não justificam profilaxia.', C: 'Fotofobia é critério diagnóstico e não define necessidade de profilaxia.', D: 'A história familiar é comum e não constitui indicação de profilaxia.' },
@@ -133,7 +133,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Topiramato: efeitos adversos',
     e: 'Paciente em uso de topiramato para profilaxia de enxaqueca deve ser orientada sobre os efeitos adversos mais característicos do fármaco, que são:',
-    o: ['Ganho de peso, sonolência e parkinsonismo', 'Parestesias de extremidades, perda de peso, lentificação cognitiva com dificuldade para encontrar palavras e nefrolitíase', 'Bradicardia, broncoespasmo e fadiga', 'Boca seca, constipação e retenção urinária'],
+    o: ['Ganho de peso, sonolência e parkinsonismo, como na flunarizina', 'Parestesias, perda de peso, lentificação cognitiva e nefrolitíase', 'Bradicardia, broncoespasmo e fadiga, como nos betabloqueadores', 'Boca seca, constipação e retenção urinária, como nos tricíclicos'],
     g: 'B',
     c: 'O topiramato inibe a anidrase carbônica, o que explica as parestesias, a acidose metabólica leve e a formação de cálculos renais de fosfato de cálcio. Também causa anorexia com perda de peso, prejuízo cognitivo e de linguagem e, raramente, glaucoma agudo de ângulo fechado. É teratogênico, exigindo contracepção eficaz.',
     x: { A: 'Esse é o perfil de efeitos adversos da flunarizina.', C: 'Esses são efeitos adversos dos betabloqueadores.', D: 'Efeitos anticolinérgicos são típicos dos antidepressivos tricíclicos.' },
@@ -141,7 +141,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Profilaxia: tricíclico',
     e: 'Mulher de 45 anos tem enxaqueca frequente associada a insônia e a cefaleia do tipo tensional nos intervalos. Opta-se por amitriptilina em dose baixa à noite. Os efeitos adversos mais esperados são:',
-    o: ['Perda de peso e parestesias', 'Sonolência, boca seca, constipação e ganho de peso', 'Tosse seca e hipercalemia', 'Broncoespasmo e bradicardia'],
+    o: ['Perda de peso e parestesias, como no topiramato', 'Sonolência, boca seca, constipação e ganho de peso', 'Tosse seca e hipercalemia, como nos inibidores da ECA', 'Broncoespasmo e bradicardia, como nos betabloqueadores'],
     g: 'B',
     c: 'A amitriptilina é útil quando há insônia, cefaleia tensional ou dor crônica associadas. Seus efeitos adversos decorrem do bloqueio de receptores muscarínicos (boca seca, constipação, retenção urinária, visão turva), histamínicos H1 (sedação, ganho de peso) e alfa-adrenérgicos (hipotensão postural), além de prolongamento do intervalo QT, o que pede cautela em idosos e cardiopatas.',
     x: { A: 'Perda de peso e parestesias são efeitos característicos do topiramato.', C: 'Esses são efeitos dos inibidores da enzima conversora de angiotensina.', D: 'Esses são efeitos adversos dos betabloqueadores.' },
@@ -165,7 +165,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Anti-CGRP',
     e: 'Erenumabe, fremanezumabe e galcanezumabe são medicamentos indicados na profilaxia da enxaqueca. Seu mecanismo de ação é:',
-    o: ['Agonismo dos receptores de serotonina 5-HT1B e 5-HT1D', 'Anticorpos monoclonais que bloqueiam o peptídeo relacionado ao gene da calcitonina (CGRP) ou o seu receptor', 'Inibição da recaptação de serotonina e noradrenalina', 'Bloqueio de canais de sódio dependentes de voltagem'],
+    o: ['Agonismo dos receptores de serotonina 5-HT1B e 5-HT1D, como os triptanos', 'Anticorpos monoclonais que bloqueiam o CGRP ou o seu receptor', 'Inibição da recaptação de serotonina e noradrenalina, como a venlafaxina', 'Bloqueio de canais de sódio dependentes de voltagem, como o topiramato'],
     g: 'B',
     c: 'O CGRP é o principal neuropeptídeo liberado pelas terminações trigeminais na crise, causando vasodilatação e facilitando a transmissão nociceptiva. O erenumabe bloqueia o receptor, enquanto fremanezumabe e galcanezumabe se ligam ao próprio peptídeo. São aplicados por via subcutânea, em geral mensalmente, com boa tolerabilidade, sendo reações no local da aplicação e constipação os efeitos mais relatados.',
     x: { A: 'Esse é o mecanismo dos triptanos, usados no tratamento da crise.', C: 'Esse é o mecanismo dos tricíclicos e dos inibidores duais de recaptação.', D: 'Bloqueio de canais de sódio é o mecanismo de carbamazepina e lamotrigina.' },
@@ -181,7 +181,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Enxaqueca menstrual',
     e: 'Mulher de 29 anos, com ciclos regulares, tem crises de enxaqueca sem aura que ocorrem quase exclusivamente entre dois dias antes e três dias depois do início da menstruação, mais longas e resistentes que o habitual. O mecanismo desencadeante e uma estratégia terapêutica adequada são:',
-    o: ['Pico de progesterona; uso contínuo de opioide no período menstrual', 'Queda dos níveis de estrogênio; profilaxia de curta duração perimenstrual com anti-inflamatório ou triptano de meia-vida longa', 'Pico de hormônio luteinizante; uso de ergotamina diária durante todo o mês', 'Anemia pela perda menstrual; reposição de ferro'],
+    o: ['Pico de progesterona; opioide de uso contínuo durante o período menstrual', 'Queda do estrogênio; profilaxia perimenstrual com AINE ou triptano longo', 'Pico de hormônio luteinizante; ergotamina diária durante todo o mês', 'Anemia pela perda menstrual; reposição de ferro por via oral'],
     g: 'B',
     c: 'A enxaqueca menstrual é desencadeada pela queda do estradiol no fim da fase lútea. Como o período de risco é previsível em quem tem ciclos regulares, pode-se usar profilaxia curta (miniprofilaxia), iniciada cerca de dois dias antes da menstruação e mantida por poucos dias, com naproxeno ou triptanos de meia-vida longa, como naratriptano e frovatriptano.',
     x: { A: 'O gatilho é a queda do estrogênio, e opioides não são indicados em enxaqueca.', C: 'Ergotamina diária causaria cefaleia por uso excessivo e ergotismo.', D: 'A anemia não é o mecanismo da enxaqueca menstrual.' },
@@ -197,7 +197,7 @@ export const CEFALEIA_2: QuestaoCompacta[] = [
   {
     s: 'Aura e anticoncepcional',
     e: 'Mulher de 27 anos, tabagista, com enxaqueca com aura visual, solicita prescrição de anticoncepcional oral combinado. A orientação correta é:',
-    o: ['Prescrever o combinado, pois o risco vascular só existe após os 50 anos', 'Contraindicar métodos com estrogênio pelo aumento do risco de acidente vascular cerebral isquêmico e oferecer método só com progestagênio ou não hormonal', 'Prescrever combinado com dose alta de estrogênio para controlar a enxaqueca', 'Contraindicar qualquer método contraceptivo, hormonal ou não'],
+    o: ['Prescrever o combinado, pois o risco vascular só existe após os 50 anos', 'Contraindicar estrogênio (risco de AVE isquêmico); oferecer só progestagênio ou não hormonal', 'Prescrever combinado com dose alta de estrogênio, para controlar a enxaqueca', 'Contraindicar qualquer método contraceptivo, hormonal ou não hormonal'],
     g: 'B',
     c: 'A enxaqueca com aura é fator de risco independente para acidente vascular cerebral isquêmico, e esse risco é multiplicado pelo estrogênio e pelo tabagismo. Pelos critérios de elegibilidade da Organização Mundial da Saúde, a enxaqueca com aura é categoria 4 (contraindicação) para contraceptivos combinados em qualquer idade; progestagênio isolado, dispositivo intrauterino e métodos de barreira são alternativas.',
     x: { A: 'A contraindicação na enxaqueca com aura vale para qualquer idade.', C: 'Doses maiores de estrogênio elevam ainda mais o risco trombótico.', D: 'Métodos sem estrogênio são seguros e devem ser oferecidos à paciente.' },

@@ -45,7 +45,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Pressão arterial na hemorragia intraparenquimatosa',
     e: 'Homem de 62 anos é admitido com hemorragia intraparenquimatosa putaminal de volume moderado, iniciada há 2 horas, com Glasgow de 14. Pressão arterial de 198 por 108 mmHg. A conduta pressórica recomendada é:',
-    o: ['Manter hipertensão permissiva até 220 por 120 mmHg, como no AVE isquêmico', 'Reduzir a pressão sistólica de forma cuidadosa para cerca de 140 mmHg, evitando valores abaixo de 130 mmHg', 'Reduzir rapidamente a sistólica para menos de 100 mmHg', 'Não tratar, pois a pressão mantém a perfusão ao redor do hematoma'],
+    o: ['Manter hipertensão permissiva até 220 x 120 mmHg, como no AVE isquêmico', 'Reduzir a sistólica com cuidado para ~140 mmHg, evitando < 130 mmHg', 'Reduzir rapidamente a sistólica para menos de 100 mmHg', 'Não tratar, pois a pressão mantém a perfusão ao redor do hematoma'],
     g: 'B',
     c: 'A pressão elevada favorece a expansão do hematoma, principal determinante de piora nas primeiras horas. Diferentemente da isquemia, não há penumbra significativa ao redor do hematoma. Em pacientes com sistólica entre 150 e 220 mmHg, a redução para cerca de 140 mmHg é segura e pode melhorar o desfecho funcional; reduções abaixo de 130 mmHg associam-se a lesão renal.',
     x: { A: 'A hipertensão permissiva aplica-se à isquemia sem reperfusão, não à hemorragia.', C: 'Queda excessiva e brusca causa hipoperfusão cerebral e renal.', D: 'Deixar a pressão elevada favorece o crescimento do hematoma.' },
@@ -53,7 +53,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Expansão do hematoma',
     e: 'Em paciente com hemorragia intraparenquimatosa aguda, a angiotomografia mostra um ponto de realce de contraste no interior do hematoma (spot sign). Esse achado significa:',
-    o: ['Presença de aneurisma sacular roto', 'Extravasamento ativo de contraste, preditor de expansão do hematoma', 'Trombose venosa associada', 'Tumor subjacente em todos os casos'],
+    o: ['Presença de aneurisma sacular roto, causa de hemorragia subaracnoide', 'Extravasamento ativo de contraste (spot sign), preditor de expansão do hematoma', 'Trombose venosa associada, com sinal do delta vazio', 'Tumor subjacente, presente em todos os casos de hemorragia'],
     g: 'B',
     c: 'O spot sign representa extravasamento ativo de contraste para dentro do hematoma, indicando sangramento em curso. É preditor independente de expansão do hematoma, que ocorre em boa parte dos pacientes nas primeiras horas e se associa a deterioração neurológica e maior mortalidade.',
     x: { A: 'O aneurisma aparece como dilatação em vaso do polígono, não como ponto dentro do hematoma.', C: 'A trombose venosa é identificada por falha de enchimento em seios ou veias.', D: 'O achado indica sangramento ativo, e não neoplasia.' },
@@ -61,7 +61,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Reversão da varfarina',
     e: 'Homem de 77 anos, em uso de varfarina por fibrilação atrial, é admitido com hemorragia intraparenquimatosa lobar e INR de 3,8. A medida mais eficaz para a reversão imediata da anticoagulação é:',
-    o: ['Vitamina K oral isolada', 'Concentrado de complexo protrombínico associado a vitamina K intravenosa', 'Transfusão de plaquetas', 'Ácido tranexâmico isolado'],
+    o: ['Vitamina K oral isolada, em dose habitual', 'Complexo protrombínico associado a vitamina K IV', 'Transfusão de plaquetas, em dose habitual', 'Ácido tranexâmico isolado, por via venosa'],
     g: 'B',
     c: 'A varfarina reduz os fatores II, VII, IX e X. O concentrado de complexo protrombínico repõe esses fatores em minutos e com pequeno volume, sendo superior ao plasma fresco, que demora mais e sobrecarrega o volume. A vitamina K intravenosa deve ser associada porque a meia-vida dos fatores infundidos é curta e ela restabelece a síntese hepática em algumas horas.',
     x: { A: 'A vitamina K isolada leva horas para agir, tempo em que o hematoma se expande.', C: 'As plaquetas não corrigem a deficiência de fatores de coagulação.', D: 'O antifibrinolítico não reverte o efeito da varfarina.' },
@@ -85,7 +85,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Cirurgia na hemorragia supratentorial',
     e: 'Sobre o tratamento cirúrgico da hemorragia intraparenquimatosa supratentorial espontânea, é correto afirmar que:',
-    o: ['A craniotomia precoce de rotina melhora o desfecho em todos os pacientes', 'A evacuação de rotina não mostrou benefício consistente; a cirurgia é considerada em casos selecionados, como hematoma lobar superficial com deterioração', 'A cirurgia é contraindicada em qualquer hematoma supratentorial', 'Todo hematoma profundo de núcleos da base deve ser drenado por craniotomia aberta'],
+    o: ['A craniotomia precoce de rotina melhora o desfecho em todos os pacientes', 'Evacuação de rotina sem benefício; cirurgia em selecionados (lobar superficial com deterioração)', 'Cirurgia contraindicada em qualquer hematoma supratentorial, sem exceção', 'Todo hematoma profundo de núcleos da base deve ser drenado por craniotomia'],
     g: 'B',
     c: 'Os ensaios STICH não demonstraram benefício da craniotomia precoce de rotina sobre o tratamento clínico inicial. A cirurgia é reservada a casos selecionados, como hematomas lobares próximos à superfície em pacientes que deterioram, ou como medida para salvar a vida. Técnicas minimamente invasivas têm resultados promissores em hematomas lobares.',
     x: { A: 'A craniotomia de rotina não foi superior ao tratamento conservador inicial.', C: 'Há indicações em casos selecionados, especialmente com deterioração.', D: 'Hematomas profundos têm pior resultado com craniotomia, pela lesão de tecido íntegro no acesso.' },
@@ -93,7 +93,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Hemorragia subaracnoide — quadro',
     e: 'Mulher de 46 anos, tabagista, apresenta cefaleia de início súbito, que atingiu intensidade máxima em segundos, descrita como a pior da vida, seguida de vômitos e breve perda de consciência. Ao exame há rigidez de nuca, sem déficit focal. O primeiro exame a ser solicitado é:',
-    o: ['Punção lombar', 'Tomografia de crânio sem contraste', 'Ressonância magnética com contraste', 'Eletroencefalograma'],
+    o: ['Punção lombar, como primeiro exame, antes da tomografia', 'TC de crânio sem contraste, como primeiro exame', 'Ressonância magnética com contraste, como primeiro exame', 'Eletroencefalograma, como primeiro exame na cefaleia súbita'],
     g: 'B',
     c: 'A cefaleia em trovoada, que atinge o pico em menos de um minuto, é a apresentação clássica da hemorragia subaracnoide. A tomografia sem contraste é o exame inicial, com sensibilidade próxima de 100% nas primeiras 6 horas, mostrando sangue hiperdenso nas cisternas da base e nos sulcos. A sensibilidade cai com o passar dos dias, à medida que o sangue é reabsorvido.',
     x: { A: 'A punção lombar vem depois, se a tomografia for normal e a suspeita persistir.', C: 'A ressonância é mais demorada e não é o exame inicial na emergência.', D: 'O eletroencefalograma não diagnostica hemorragia subaracnoide.' },
@@ -117,7 +117,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Aneurisma — localização e clínica',
     e: 'Mulher de 52 anos apresenta cefaleia intensa de início recente, ptose palpebral à direita, olho direito desviado para fora e pupila direita midriática e não reativa. Não é diabética. A hipótese que exige investigação imediata é:',
-    o: ['Neuropatia oculomotora isquêmica', 'Aneurisma da artéria comunicante posterior comprimindo o nervo oculomotor', 'Miastenia gravis ocular', 'Síndrome de Horner'],
+    o: ['Neuropatia oculomotora isquêmica, com pupila preservada', 'Aneurisma da comunicante posterior comprimindo o oculomotor', 'Miastenia gravis ocular, com ptose flutuante', 'Síndrome de Horner, com ptose leve e miose'],
     g: 'B',
     c: 'As fibras parassimpáticas pupilares correm na periferia do nervo oculomotor e são as primeiras lesadas por compressão externa, como a de um aneurisma da comunicante posterior. Na neuropatia isquêmica do diabético a lesão é central no nervo e a pupila costuma ser poupada. Paralisia do terceiro nervo com midríase e dor é aneurisma em expansão até prova em contrário.',
     x: { A: 'A neuropatia isquêmica tipicamente poupa a pupila e ocorre em diabéticos.', C: 'A miastenia nunca acomete a pupila e não causa dor.', D: 'A síndrome de Horner causa miose e ptose discreta, não midríase.' },
@@ -133,7 +133,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Escala de Fisher',
     e: 'A escala tomográfica de Fisher, utilizada na hemorragia subaracnoide, tem como principal finalidade:',
-    o: ['Graduar o nível de consciência na admissão', 'Estimar o risco de vasoespasmo conforme a quantidade e a distribuição do sangue', 'Indicar a localização do aneurisma roto', 'Definir a indicação de trombólise'],
+    o: ['Graduar o nível de consciência na admissão, como a escala de Hunt-Hess', 'Estimar o risco de vasoespasmo pela quantidade e distribuição do sangue', 'Indicar a localização do aneurisma roto na angiografia', 'Definir a indicação de trombólise no AVE isquêmico'],
     g: 'B',
     c: 'A escala de Fisher classifica a quantidade de sangue na tomografia e correlaciona-se com o risco de vasoespasmo e isquemia cerebral tardia. Coágulos espessos nas cisternas são os de maior risco, pois os produtos de degradação da hemoglobina em contato com as artérias induzem a vasoconstrição. A versão modificada inclui o sangue intraventricular.',
     x: { A: 'A avaliação clínica é feita por Hunt-Hess ou pela escala da federação de neurocirurgia.', C: 'A localização do aneurisma é definida por angiografia.', D: 'A trombólise não tem relação com a hemorragia subaracnoide.' },
@@ -141,7 +141,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Ressangramento',
     e: 'Mulher de 48 anos está internada com hemorragia subaracnoide aneurismática, alerta. Com 14 horas de evolução, antes do tratamento do aneurisma, apresenta piora súbita da cefaleia, vômitos e coma. A complicação mais provável e a medida mais eficaz para preveni-la são:',
-    o: ['Vasoespasmo; nimodipino oral', 'Ressangramento; tratamento precoce do aneurisma por clipagem ou embolização', 'Hiponatremia; restrição hídrica', 'Crise epiléptica; fenitoína profilática prolongada'],
+    o: ['Vasoespasmo; nimodipino por via oral, em dose habitual', 'Ressangramento; tratamento precoce do aneurisma (clipagem ou embolização)', 'Hiponatremia; restrição hídrica rigorosa e soro hipotônico', 'Crise epiléptica; fenitoína profilática prolongada, por meses'],
     g: 'B',
     c: 'O ressangramento é a complicação mais letal e ocorre com maior frequência nas primeiras 24 horas, com piora abrupta. A única prevenção definitiva é excluir o aneurisma da circulação o mais cedo possível, por embolização endovascular ou clipagem cirúrgica. Até lá controla-se a pressão arterial, e o antifibrinolítico por curto período pode ser considerado.',
     x: { A: 'O vasoespasmo ocorre mais tarde, do terceiro ao décimo quarto dia, com piora gradual.', C: 'A hiponatremia causa piora gradual, não deterioração súbita com cefaleia.', D: 'A crise não explica o quadro e a profilaxia prolongada não é recomendada.' },
@@ -149,7 +149,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Vasoespasmo',
     e: 'Homem de 55 anos, no sétimo dia de hemorragia subaracnoide com aneurisma já embolizado, desenvolve confusão mental e hemiparesia direita de instalação gradual. A tomografia não mostra novo sangramento nem hidrocefalia, e o sódio sérico é normal. O Doppler transcraniano mostra aumento das velocidades de fluxo. O diagnóstico é:',
-    o: ['Ressangramento do aneurisma', 'Vasoespasmo com isquemia cerebral tardia', 'Hidrocefalia comunicante', 'Meningite bacteriana'],
+    o: ['Ressangramento do aneurisma, mais comum nas primeiras 24 horas', 'Vasoespasmo com isquemia cerebral tardia', 'Hidrocefalia comunicante, com alargamento ventricular', 'Meningite bacteriana, com febre e rigidez de nuca'],
     g: 'B',
     c: 'O vasoespasmo ocorre tipicamente entre o terceiro e o décimo quarto dia, com pico por volta do sétimo. A oxi-hemoglobina e outros produtos do sangue nas cisternas induzem vasoconstrição prolongada das artérias da base, e o estreitamento da luz eleva a velocidade de fluxo ao Doppler. O tratamento inclui manter euvolemia e induzir hipertensão, com terapia endovascular nos refratários.',
     x: { A: 'O ressangramento é súbito e mostraria sangue novo na tomografia.', C: 'A tomografia não mostra dilatação ventricular.', D: 'Não há febre ou procedimento que sugira infecção, e o Doppler aponta vasoespasmo.' },
@@ -157,7 +157,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Nimodipino',
     e: 'Em relação ao uso do nimodipino na hemorragia subaracnoide aneurismática, é correto afirmar que:',
-    o: ['Deve ser usado apenas se houver vasoespasmo confirmado por angiografia', 'Deve ser administrado por via oral a todos os pacientes, por 21 dias, pois melhora o desfecho neurológico', 'Seu benefício decorre da reversão angiográfica completa do vasoespasmo', 'Deve ser administrado por via intravenosa em bolus'],
+    o: ['Só se houver vasoespasmo confirmado por angiografia', 'VO a todos por 21 dias; melhora o desfecho neurológico', 'O benefício decorre da reversão angiográfica completa do vasoespasmo', 'Deve ser administrado por via intravenosa em bolus'],
     g: 'B',
     c: 'O nimodipino, 60 mg a cada 4 horas por via oral ou por sonda durante 21 dias, é indicado para todos os pacientes, pois reduz a isquemia cerebral tardia e melhora o desfecho funcional. Curiosamente, não reduz de forma significativa o vasoespasmo angiográfico; seu efeito parece ser de neuroproteção e ação na microcirculação. O principal efeito adverso é hipotensão.',
     x: { A: 'O uso é profilático e universal, não condicionado à confirmação do vasoespasmo.', C: 'O fármaco melhora o desfecho sem reverter o vasoespasmo angiográfico.', D: 'O bolus intravenoso causa hipotensão grave e não é a forma recomendada.' },
@@ -189,7 +189,7 @@ export const AVE_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão intracraniana — clínica',
     e: 'Paciente com hematoma intraparenquimatoso extenso evolui com hipertensão arterial, bradicardia e respiração irregular. Essa tríade indica:',
-    o: ['Choque neurogênico por lesão medular', 'Hipertensão intracraniana grave com risco de herniação (tríade de Cushing)', 'Síndrome de secreção inapropriada de hormônio antidiurético', 'Hiperatividade simpática paroxística benigna'],
+    o: ['Choque neurogênico por lesão medular, com hipotensão', 'HIC grave com risco de herniação (tríade de Cushing)', 'SIADH, com hiponatremia e euvolemia', 'Hiperatividade simpática paroxística benigna, sem herniação'],
     g: 'B',
     c: 'Quando a pressão intracraniana se aproxima da pressão arterial, a perfusão do tronco cai e ocorre descarga simpática reflexa que eleva a pressão arterial para manter o fluxo cerebral. Os barorreceptores respondem com bradicardia vagal, e a compressão do bulbo altera o ritmo respiratório. É sinal tardio e de herniação iminente.',
     x: { A: 'O choque neurogênico cursa com hipotensão, não com hipertensão.', C: 'Essa síndrome causa hiponatremia, sem a tríade descrita.', D: 'A tríade indica compressão de tronco, situação grave e não benigna.' },

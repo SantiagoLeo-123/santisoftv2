@@ -29,7 +29,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Cardioversão - regra das 48 horas',
     e: 'Mulher de 66 anos, hipertensa, apresenta fibrilação atrial com palpitações há cerca de 10 dias. Está estável, com frequência de 96 bpm em uso de betabloqueador, e opta-se por cardioversão elétrica eletiva sem realização de ecocardiograma transesofágico. A estratégia correta de anticoagulação é:',
-    o: ['Heparina em dose plena apenas no dia do procedimento', 'Anticoagulação oral eficaz por pelo menos 3 semanas antes e por pelo menos 4 semanas depois da cardioversão', 'Anticoagulação oral apenas por 4 semanas depois da cardioversão', 'Ácido acetilsalicílico por 3 semanas antes e 4 semanas depois da cardioversão'],
+    o: ['Heparina em dose plena apenas no dia do procedimento, sem anticoagulação oral', 'Anticoagulação oral eficaz por 3 semanas antes e 4 semanas depois', 'Anticoagulação oral apenas por 4 semanas depois da cardioversão, sem fase prévia', 'Ácido acetilsalicílico por 3 semanas antes e 4 semanas depois da cardioversão'],
     g: 'B',
     c: 'Com fibrilação atrial de duração superior a 48 horas ou desconhecida, pode haver trombo no apêndice atrial esquerdo, que seria embolizado ao retorno da contração atrial. Por isso se anticoagula por 3 semanas antes e 4 semanas depois, ou se exclui trombo com ecocardiograma transesofágico. A diretriz europeia de 2024 passou a usar o corte de 24 horas, mas a regra das 48 horas segue sendo a cobrada em provas.',
     x: { A: 'Heparina no dia não trata um trombo já formado nem cobre o período de atordoamento atrial.', C: 'Sem as 3 semanas prévias ou um ecocardiograma transesofágico, não se afasta trombo preexistente.', D: 'Antiagregante plaquetário não previne o tromboembolismo da fibrilação atrial.' },
@@ -37,7 +37,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Cardioversão - ecocardiograma transesofágico',
     e: 'Homem de 70 anos, com fibrilação atrial há 2 semanas e muito sintomático apesar de frequência controlada, realiza ecocardiograma transesofágico para cardioversão precoce. O exame mostra trombo no apêndice atrial esquerdo. Ele está hemodinamicamente estável. A conduta é:',
-    o: ['Cardioversão elétrica imediata sob heparina em dose plena', 'Suspender a cardioversão, anticoagular por pelo menos 3 semanas e repetir o exame antes de nova tentativa', 'Cardioversão química com amiodarona, que não tem risco embólico', 'Trombólise sistêmica seguida de cardioversão elétrica'],
+    o: ['Cardioversão elétrica imediata sob heparina em dose plena, sem outros exames', 'Suspender a cardioversão, anticoagular por 3 semanas e repetir o exame', 'Cardioversão química com amiodarona, que não tem risco embólico algum', 'Trombólise sistêmica seguida de cardioversão elétrica, no mesmo dia'],
     g: 'B',
     c: 'O trombo atrial contraindica a cardioversão eletiva, seja elétrica ou química, pois o retorno da contração atrial pode deslocá-lo e causar acidente vascular cerebral. Mantém-se o controle da frequência, anticoagula-se por no mínimo 3 semanas e repete-se o ecocardiograma transesofágico para confirmar a resolução antes de cardioverter.',
     x: { A: 'A heparina não dissolve o trombo de imediato; o choque poderia embolizá-lo.', C: 'A cardioversão química restaura a contração atrial e tem o mesmo risco embólico da elétrica.', D: 'Trombólise não é tratamento de trombo atrial e acrescenta risco hemorrágico.' },
@@ -45,7 +45,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Cardioversão - anticoagulação posterior',
     e: 'Homem de 45 anos, sem comorbidades (CHA2DS2-VASc igual a zero), teve fibrilação atrial de 3 semanas de duração revertida com sucesso por cardioversão elétrica, após ecocardiograma transesofágico sem trombos. Em relação à anticoagulação depois do procedimento, é correto afirmar:',
-    o: ['É dispensável, pois o escore de risco é zero e não havia trombo', 'Deve ser mantida por pelo menos 4 semanas, pois a função mecânica do átrio demora a se recuperar', 'Deve ser mantida por toda a vida, pois houve cardioversão', 'Pode ser substituída por ácido acetilsalicílico por 4 semanas'],
+    o: ['É dispensável, pois o escore de risco é zero e não havia trombo atrial', 'Mantida por 4 semanas, pois a função mecânica do átrio demora a recuperar', 'Mantida por toda a vida, pois houve cardioversão elétrica da fibrilação', 'Pode ser trocada por ácido acetilsalicílico por 4 semanas após a cardioversão'],
     g: 'B',
     c: 'Depois da cardioversão ocorre o atordoamento atrial: o ritmo elétrico volta ao normal, mas a contração do átrio e do apêndice fica deprimida por dias a semanas, permitindo a formação de novos trombos. Por isso as 4 semanas de anticoagulação valem para todos, e só depois desse período a decisão passa a depender do CHA2DS2-VASc.',
     x: { A: 'O ecocardiograma afasta trombo prévio, mas não protege contra o trombo que se forma no átrio atordoado.', C: 'A manutenção a longo prazo depende do escore de risco, que neste caso é zero.', D: 'O ácido acetilsalicílico não oferece proteção adequada nesse período.' },
@@ -69,7 +69,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação - HAS-BLED',
     e: 'Homem de 78 anos, com fibrilação atrial permanente e CHA2DS2-VASc de 4 pontos, tem HAS-BLED de 3 pontos por idade, hipertensão mal controlada e uso crônico de anti-inflamatório. A interpretação correta desse escore de sangramento é:',
-    o: ['Contraindica a anticoagulação oral, devendo-se usar apenas antiagregante', 'Indica risco aumentado de sangramento, exigindo correção dos fatores modificáveis e seguimento mais próximo, sem contraindicar a anticoagulação', 'Obriga à troca do anticoagulante por oclusão do apêndice atrial esquerdo', 'Indica redução empírica da dose do anticoagulante pela metade'],
+    o: ['Contraindica a anticoagulação oral, devendo-se usar apenas antiagregante plaquetário', 'Indica maior risco de sangramento: corrigir fatores modificáveis, sem contraindicar a anticoagulação', 'Obriga à troca do anticoagulante pela oclusão do apêndice atrial esquerdo', 'Indica redução empírica da dose do anticoagulante pela metade, por segurança'],
     g: 'B',
     c: 'O HAS-BLED serve para identificar e corrigir fatores de risco modificáveis de sangramento (pressão arterial, anti-inflamatórios, álcool, INR lábil) e para programar reavaliações mais frequentes. Escore igual ou superior a 3 não é motivo, por si só, para negar anticoagulação, pois o benefício em reduzir acidente vascular cerebral costuma superar o risco hemorrágico.',
     x: { A: 'Escore elevado isolado não contraindica o anticoagulante, e o antiagregante não protege de forma adequada.', C: 'A oclusão do apêndice é reservada a contraindicações reais à anticoagulação prolongada.', D: 'Reduzir a dose fora dos critérios de bula diminui a proteção contra embolia sem benefício comprovado.' },
@@ -109,7 +109,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Controle de frequência - insuficiência cardíaca',
     e: 'Homem de 67 anos, com miocardiopatia dilatada e fração de ejeção de 25%, é admitido com dispneia, estertores bibasais e edema de membros inferiores. A pressão arterial é de 100 x 60 mmHg e o ECG mostra fibrilação atrial com resposta ventricular de 150 bpm. Para o controle agudo da frequência, a melhor opção é:',
-    o: ['Diltiazem intravenoso', 'Digitálico intravenoso (deslanosídeo) ou amiodarona intravenosa', 'Verapamil intravenoso', 'Propafenona por via oral'],
+    o: ['Diltiazem intravenoso, que é contraindicado na disfunção sistólica grave', 'Digitálico (deslanosídeo) ou amiodarona intravenosa', 'Verapamil intravenoso, que é contraindicado na disfunção sistólica grave', 'Propafenona por via oral, que é contraindicada na cardiopatia estrutural'],
     g: 'B',
     c: 'Na insuficiência cardíaca descompensada com fração de ejeção reduzida, verapamil e diltiazem são contraindicados pelo efeito inotrópico negativo, e o betabloqueador venoso deve ser evitado na congestão franca. Digitálico (que reduz a condução nodal por ação vagal e é inotrópico positivo) e amiodarona controlam a frequência sem deprimir a contratilidade.',
     x: { A: 'O diltiazem deprime a contratilidade e pode precipitar choque na fração de ejeção reduzida.', C: 'O verapamil é o bloqueador de canal de cálcio de maior efeito inotrópico negativo.', D: 'A propafenona é contraindicada na cardiopatia estrutural e na disfunção ventricular.' },
@@ -125,7 +125,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Controle do ritmo - coração normal',
     e: 'Homem de 44 anos, sem cardiopatia estrutural e com ecocardiograma e teste ergométrico normais, tem episódios esporádicos de fibrilação atrial paroxística muito sintomáticos, cerca de três vezes ao ano. Deseja evitar medicação diária. Uma estratégia adequada é:',
-    o: ['Amiodarona 200 mg ao dia de forma contínua', 'Propafenona em dose única oral no início da crise, associada a um bloqueador do nó AV (estratégia da pílula no bolso)', 'Digoxina por via oral no início da crise', 'Verapamil por via oral no início da crise para reverter a arritmia'],
+    o: ['Amiodarona 200 mg ao dia, de forma contínua, como estratégia da crise', 'Propafenona oral em dose única na crise, com bloqueador do nó AV (pílula no bolso)', 'Digoxina por via oral no início da crise, para reverter a arritmia', 'Verapamil por via oral no início da crise, para reverter a arritmia'],
     g: 'B',
     c: 'Em corações estruturalmente normais, os antiarrítmicos da classe IC (propafenona, flecainida) revertem a fibrilação atrial de início recente e podem ser autoadministrados na crise, depois de testada a segurança em ambiente hospitalar. Associa-se betabloqueador ou bloqueador de canal de cálcio porque a classe IC pode organizar a arritmia em flutter com condução 1:1.',
     x: { A: 'A amiodarona contínua expõe um jovem com crises raras a toxicidade tireoidiana, pulmonar e hepática desnecessária.', C: 'A digoxina não reverte fibrilação atrial; apenas reduz a frequência em repouso.', D: 'O verapamil controla a frequência, mas não restaura o ritmo sinusal.' },
@@ -141,7 +141,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Flutter atrial - diagnóstico',
     e: 'Homem de 68 anos, com doença pulmonar obstrutiva crônica, procura a emergência com palpitações. A frequência cardíaca é de 150 bpm, fixa e regular. O ECG mostra QRS estreito e, nas derivações II, III e aVF, ondas atriais negativas e contínuas, em dente de serra, sem linha isoelétrica entre elas, na frequência de 300 por minuto. O diagnóstico é:',
-    o: ['Taquicardia por reentrada nodal', 'Flutter atrial típico com condução atrioventricular 2:1', 'Fibrilação atrial de alta resposta ventricular', 'Taquicardia sinusal'],
+    o: ['Taquicardia por reentrada nodal, com início e término súbitos e QRS estreito', 'Flutter atrial típico com condução AV 2:1', 'Fibrilação atrial de alta resposta ventricular, com RR irregularmente irregular', 'Taquicardia sinusal, com onda P precedendo cada QRS e frequência variável'],
     g: 'B',
     c: 'No flutter típico, o átrio é ativado a cerca de 300 por minuto e o nó AV, por sua refratariedade, conduz um a cada dois estímulos, resultando em frequência ventricular regular próxima de 150 bpm. Toda taquicardia regular de QRS estreito com frequência fixa de 150 bpm deve levantar a suspeita de flutter 2:1, com busca ativa das ondas F nas derivações inferiores e em V1.',
     x: { A: 'Na reentrada nodal não há ondas em dente de serra; a onda P fica escondida ou logo após o QRS.', C: 'A fibrilação atrial tem RR irregular e não mostra atividade atrial organizada.', D: 'Na taquicardia sinusal há onda P positiva em II antes de cada QRS, com linha de base isoelétrica e frequência variável.' },
@@ -149,7 +149,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Flutter atrial - mecanismo e ablação',
     e: 'Homem de 59 anos apresenta flutter atrial típico recorrente, apesar de antiarrítmico. Sobre o mecanismo da arritmia e o tratamento definitivo, é correto afirmar:',
-    o: ['Trata-se de foco automático nas veias pulmonares, tratado com isolamento dessas veias', 'Trata-se de macrorreentrada no átrio direito dependente do istmo cavotricuspídeo, cuja ablação tem alta taxa de sucesso', 'Trata-se de reentrada no nó AV, tratada com ablação da via lenta', 'Trata-se de reentrada por via acessória, tratada com ablação da via anômala'],
+    o: ['Foco automático nas veias pulmonares, tratado com isolamento dessas veias por cateter', 'Macrorreentrada no átrio direito pelo istmo cavotricuspídeo; ablação com alta taxa de sucesso', 'Reentrada no nó AV, tratada com ablação por cateter da via lenta nodal', 'Reentrada por via acessória, tratada com ablação por cateter da via anômala'],
     g: 'B',
     c: 'O flutter típico é um circuito de macrorreentrada que gira em torno do anel tricúspide, geralmente em sentido anti-horário, passando obrigatoriamente pelo istmo entre a veia cava inferior e a valva tricúspide. A ablação linear desse istmo interrompe o circuito, com sucesso superior a 90% e baixo risco, sendo a terapia de escolha no flutter recorrente.',
     x: { A: 'Focos nas veias pulmonares são o gatilho da fibrilação atrial, não do flutter típico.', C: 'A dupla via nodal é o substrato da taquicardia por reentrada nodal.', D: 'A via acessória é o substrato da taquicardia por reentrada atrioventricular.' },
@@ -173,7 +173,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Ablação da fibrilação atrial',
     e: 'Homem de 55 anos, com fibrilação atrial paroxística muito sintomática, mantém crises frequentes apesar do uso correto de propafenona. O ecocardiograma mostra átrio esquerdo de tamanho normal. O próximo passo mais adequado para o controle do ritmo e a técnica fundamental desse procedimento são:',
-    o: ['Ablação do nó AV com implante de marca-passo definitivo', 'Ablação por cateter com isolamento elétrico das veias pulmonares', 'Ablação do istmo cavotricuspídeo', 'Implante de cardiodesfibrilador'],
+    o: ['Ablação do nó AV com implante de marca-passo definitivo, como primeira escolha', 'Ablação por cateter com isolamento das veias pulmonares', 'Ablação do istmo cavotricuspídeo, indicada para o flutter atrial típico', 'Implante de cardiodesfibrilador, indicado para prevenção de morte súbita'],
     g: 'B',
     c: 'A maioria dos episódios de fibrilação atrial paroxística é deflagrada por focos ectópicos nas bainhas musculares das veias pulmonares. O isolamento elétrico dessas veias é a base da ablação, indicada sobretudo nos pacientes sintomáticos com falha ou intolerância a antiarrítmico. A ablação não dispensa a anticoagulação, que continua guiada pelo CHA2DS2-VASc.',
     x: { A: 'A ablação do nó AV com marca-passo é medida de exceção para controle de frequência, e torna o paciente dependente do dispositivo.', C: 'O istmo cavotricuspídeo é o alvo do flutter atrial típico.', D: 'O cardiodesfibrilador trata arritmias ventriculares e não tem papel na fibrilação atrial.' },
@@ -197,7 +197,7 @@ export const ARRITMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Cardioversão elétrica - sincronização',
     e: 'Durante a cardioversão elétrica de uma fibrilação atrial, o aparelho deve estar no modo sincronizado. O objetivo da sincronização é:',
-    o: ['Aumentar a energia efetivamente entregue ao miocárdio atrial', 'Liberar o choque sobre o complexo QRS, evitando que ele caia no período vulnerável da repolarização e induza fibrilação ventricular', 'Liberar o choque sobre a onda T, momento em que os ventrículos estão mais excitáveis', 'Reduzir o risco de embolização de trombos atriais'],
+    o: ['Aumentar a energia efetivamente entregue ao miocárdio atrial durante o choque', 'Liberar o choque sobre o QRS, evitando o período vulnerável e a fibrilação ventricular', 'Liberar o choque sobre a onda T, momento em que os ventrículos estão mais excitáveis', 'Reduzir o risco de embolização de trombos atriais durante o procedimento'],
     g: 'B',
     c: 'No modo sincronizado, o aparelho reconhece a onda R e dispara o choque junto com o QRS, quando os ventrículos estão em período refratário absoluto. Um choque sobre a onda T atinge o período vulnerável, em que parte das fibras já se repolarizou, e pode desencadear fibrilação ventricular (fenômeno R sobre T). A desfibrilação, sem sincronização, é reservada à fibrilação ventricular e à taquicardia ventricular sem pulso.',
     x: { A: 'A sincronização não altera a energia entregue, apenas o momento da descarga.', C: 'O choque sobre a onda T é justamente o que se quer evitar, pelo risco de fibrilação ventricular.', D: 'O risco embólico depende da presença de trombo e da anticoagulação, não da sincronização.' },

@@ -21,7 +21,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Cefaleia sentinela',
     e: 'Homem de 46 anos relata que, dez dias antes de ser internado por hemorragia subaracnoide, teve cefaleia súbita e intensa que melhorou em um dia e foi tratada como enxaqueca. Esse episódio prévio é chamado de:',
-    o: ['Aura prolongada', 'Cefaleia sentinela, atribuída a pequeno sangramento de alerta ou expansão do aneurisma', 'Cefaleia de rebote', 'Estado migranoso'],
+    o: ['Aura prolongada, com sintomas visuais duradouros antes da dor', 'Cefaleia sentinela, por pequeno sangramento de alerta ou expansão do aneurisma', 'Cefaleia de rebote, por uso excessivo de analgésicos nos dias anteriores', 'Estado migranoso, com crise de mais de 72 horas de duração'],
     g: 'B',
     c: 'A cefaleia sentinela é uma cefaleia súbita e incomum que precede em dias a semanas a ruptura maior do aneurisma, sendo atribuída a pequeno vazamento de sangue ou a expansão aguda da parede aneurismática. Reconhecê-la é uma oportunidade de diagnosticar e tratar o aneurisma antes de um sangramento catastrófico.',
     x: { A: 'Aura é fenômeno neurológico focal transitório, não cefaleia súbita.', C: 'Cefaleia de rebote relaciona-se ao uso excessivo de medicamentos.', D: 'Estado migranoso é crise de enxaqueca com mais de 72 horas.' },
@@ -29,7 +29,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Hemorragia subaracnoide: complicações',
     e: 'Paciente com hemorragia subaracnoide aneurismática, com aneurisma já tratado, evolui no sétimo dia com sonolência e hemiparesia nova. A tomografia não mostra ressangramento nem hidrocefalia. A complicação mais provável e o fármaco usado para reduzir seu impacto são:',
-    o: ['Ressangramento; ácido tranexâmico', 'Vasoespasmo com isquemia cerebral tardia; nimodipino', 'Meningite bacteriana; ceftriaxona', 'Trombose venosa cerebral; heparina'],
+    o: ['Ressangramento; ácido tranexâmico por via venosa', 'Vasoespasmo com isquemia cerebral tardia; nimodipino', 'Meningite bacteriana; ceftriaxona por via venosa', 'Trombose venosa cerebral; heparina em dose plena'],
     g: 'B',
     c: 'O vasoespasmo ocorre tipicamente entre o quarto e o décimo quarto dia, pela ação de produtos de degradação do sangue sobre as artérias no espaço subaracnoide, e causa isquemia cerebral tardia. O nimodipino por via oral, iniciado precocemente e mantido por 21 dias, melhora o desfecho neurológico. O ressangramento é mais frequente nas primeiras 24 horas, com o aneurisma ainda não tratado.',
     x: { A: 'A tomografia afastou ressangramento, que é mais precoce e com aneurisma não tratado.', C: 'Não há febre nem dados que sugiram infecção.', D: 'O período e o déficit focal apontam para vasoespasmo arterial.' },
@@ -53,7 +53,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: biópsia',
     e: 'Sobre a biópsia de artéria temporal na arterite de células gigantes, é correto afirmar:',
-    o: ['Deve ser feita antes do início do corticoide, pois o tratamento negativa o exame em 24 horas', 'O acometimento é segmentar, de modo que um fragmento longo é necessário e um resultado negativo não exclui a doença', 'Mostra tipicamente necrose fibrinoide com depósito de imunocomplexos', 'Está contraindicada em maiores de 70 anos'],
+    o: ['Antes do início do corticoide, pois o tratamento negativa o exame em 24 horas', 'Acometimento segmentar: fragmento longo; resultado negativo não exclui a doença', 'Mostra necrose fibrinoide com depósito de imunocomplexos', 'Está contraindicada em maiores de 70 anos de idade'],
     g: 'B',
     c: 'A arterite de células gigantes é uma vasculite granulomatosa de grandes e médios vasos, com infiltrado mononuclear, células gigantes multinucleadas e fragmentação da lâmina elástica interna. As lesões são salteadas, o que exige fragmento de bom tamanho e explica os falso-negativos. As alterações histológicas persistem por pelo menos uma a duas semanas após o início do corticoide.',
     x: { A: 'A histologia permanece alterada por dias a semanas após iniciar o corticoide.', C: 'Necrose fibrinoide é típica da poliarterite nodosa, não da arterite de células gigantes.', D: 'A doença ocorre justamente em idosos, e a biópsia é procedimento de baixo risco.' },
@@ -69,7 +69,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão intracraniana idiopática: perfil',
     e: 'Mulher de 26 anos, com obesidade e ganho recente de 12 kg, queixa-se há dois meses de cefaleia diária, zumbido pulsátil sincrônico com o pulso e escurecimentos visuais de segundos ao se levantar. O exame mostra papiledema bilateral e paresia do abducente à esquerda. A ressonância com venografia é normal. O diagnóstico mais provável é:',
-    o: ['Enxaqueca crônica', 'Hipertensão intracraniana idiopática', 'Hipotensão liquórica espontânea', 'Neurite óptica bilateral'],
+    o: ['Enxaqueca crônica, com cefaleia em mais de 15 dias por mês', 'Hipertensão intracraniana idiopática', 'Hipotensão liquórica espontânea, com cefaleia ortostática', 'Neurite óptica bilateral, com dor à movimentação ocular'],
     g: 'B',
     c: 'A hipertensão intracraniana idiopática (pseudotumor cerebral) acomete tipicamente mulheres jovens com obesidade. Cefaleia, obscurecimentos visuais transitórios, zumbido pulsátil, papiledema e paralisia do sexto nervo (falso sinal localizatório, por estiramento do nervo de longo trajeto) com imagem sem lesão expansiva ou trombose venosa compõem o quadro.',
     x: { A: 'Enxaqueca não causa papiledema nem paralisia de nervo abducente.', C: 'Na hipotensão liquórica a dor é ortostática e não há papiledema.', D: 'A neurite óptica causa dor à movimentação ocular e baixa de visão central.' },
@@ -77,7 +77,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão intracraniana idiopática: diagnóstico',
     e: 'Em paciente com papiledema bilateral e suspeita de hipertensão intracraniana idiopática, a confirmação diagnóstica requer:',
-    o: ['Tomografia normal, sem necessidade de punção lombar', 'Neuroimagem sem lesão expansiva, hidrocefalia ou trombose venosa, e punção lombar com pressão de abertura elevada e líquor de composição normal', 'Líquor com pleocitose linfocítica e proteína elevada', 'Eletroencefalograma com atividade epileptiforme'],
+    o: ['Tomografia normal, sem necessidade de punção lombar nem de outros exames', 'Neuroimagem sem lesão expansiva ou trombose; LCR com pressão alta e composição normal', 'Líquor com pleocitose linfocítica, proteína elevada e glicose reduzida', 'Eletroencefalograma com atividade epileptiforme e lentificação difusa'],
     g: 'B',
     c: 'O diagnóstico é de exclusão: é preciso demonstrar pressão liquórica elevada, medida em decúbito lateral, com líquor de composição normal, na ausência de causa estrutural ou de trombose venosa cerebral, que deve ser afastada por estudo venoso. A punção lombar é também terapêutica, com alívio transitório da cefaleia.',
     x: { A: 'Sem punção lombar não se comprova a pressão elevada nem a composição normal.', C: 'Líquor inflamatório indica meningite, não a forma idiopática.', D: 'O eletroencefalograma não tem papel nesse diagnóstico.' },
@@ -101,7 +101,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Cefaleia pós-punção dural',
     e: 'Puérpera de 24 anos, dois dias após cesariana com raquianestesia, queixa-se de cefaleia occipitofrontal intensa que surge minutos após sentar-se ou levantar-se e desaparece ao deitar, com náuseas e rigidez cervical leve. Está afebril, com exame neurológico normal. O diagnóstico e a conduta inicial são:',
-    o: ['Meningite bacteriana; antibiótico empírico', 'Cefaleia pós-punção dural; repouso relativo, hidratação, analgésicos e cafeína, com tampão sanguíneo epidural se não houver melhora', 'Trombose venosa cerebral; anticoagulação plena', 'Pré-eclâmpsia; sulfato de magnésio'],
+    o: ['Meningite bacteriana; antibiótico empírico por via venosa, em dose plena', 'Cefaleia pós-punção dural: repouso, hidratação, cafeína; tampão peridural se persistir', 'Trombose venosa cerebral; anticoagulação plena com heparina, de imediato', 'Pré-eclâmpsia pós-parto; sulfato de magnésio por via venosa, em dose de ataque'],
     g: 'B',
     c: 'O orifício deixado na dura-máter permite fuga de líquor e queda da pressão liquórica; na posição ortostática, o encéfalo desce e traciona estruturas sensíveis à dor, o que explica o caráter postural. A maioria dos casos resolve-se em dias com medidas conservadoras; nos persistentes ou intensos, o tampão sanguíneo epidural (blood patch) sela o orifício e é o tratamento mais eficaz.',
     x: { A: 'Ausência de febre e caráter estritamente postural afastam meningite.', C: 'A cefaleia da trombose venosa não desaparece com o decúbito.', D: 'Não há hipertensão arterial, e a dor postural não é típica de pré-eclâmpsia.' },
@@ -109,7 +109,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Hipotensão liquórica espontânea',
     e: 'Homem de 41 anos, sem punção ou trauma prévios, apresenta há três semanas cefaleia que surge ao ficar em pé e alivia em minutos ao deitar, com hipoacusia e zumbido. O achado esperado na ressonância magnética de crânio com contraste é:',
-    o: ['Lesão expansiva com realce anelar', 'Realce paquimeníngeo difuso, com possível descida das tonsilas cerebelares e coleções subdurais', 'Hiperintensidades periventriculares perpendiculares ao corpo caloso', 'Sela vazia e achatamento posterior do globo ocular'],
+    o: ['Lesão expansiva com realce anelar, sugestiva de abscesso cerebral', 'Realce paquimeníngeo difuso, ± descida das tonsilas e coleções subdurais', 'Hiperintensidades periventriculares perpendiculares ao corpo caloso, como na EM', 'Sela vazia e achatamento posterior do globo ocular, como na HIC idiopática'],
     g: 'B',
     c: 'A hipotensão liquórica espontânea decorre de fístula liquórica espinal. Com a redução do volume de líquor, ocorre ingurgitamento venoso compensatório das meninges, visto como realce paquimeníngeo difuso, além de descida do encéfalo, coleções subdurais e ingurgitamento dos seios venosos e da hipófise.',
     x: { A: 'Realce anelar sugere abscesso, metástase ou tumor glial de alto grau.', C: 'Esse é o padrão das lesões desmielinizantes da esclerose múltipla.', D: 'Esses são sinais de hipertensão intracraniana, não de hipotensão.' },
@@ -117,7 +117,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Meningite bacteriana',
     e: 'Estudante de 20 anos apresenta há 12 horas cefaleia intensa, febre de 39,5 graus, vômitos e fotofobia. Está confuso, com rigidez de nuca e petéquias nos membros inferiores. A conduta prioritária é:',
-    o: ['Aguardar o resultado da tomografia e da cultura do líquor para iniciar antibiótico', 'Colher hemoculturas e iniciar imediatamente antibioticoterapia empírica, sem atrasar o tratamento pela realização de exames', 'Prescrever sumatriptano e observar a resposta', 'Realizar ressonância magnética com venografia antes de qualquer medida'],
+    o: ['Aguardar a TC e a cultura do líquor para iniciar o antibiótico', 'Colher hemoculturas e iniciar antibiótico empírico sem atrasos por exames', 'Prescrever sumatriptano e observar a resposta clínica', 'Fazer ressonância com venografia antes de qualquer medida'],
     g: 'B',
     c: 'Na suspeita de meningite bacteriana, o atraso no antibiótico aumenta a mortalidade e as sequelas. Se a punção lombar precisar ser adiada, por exemplo pela necessidade de tomografia em paciente com rebaixamento de consciência, colhem-se hemoculturas e inicia-se o antibiótico empírico de imediato; as petéquias sugerem doença meningocócica.',
     x: { A: 'Esperar exames para tratar eleva a mortalidade da meningite bacteriana.', C: 'Febre, confusão e petéquias excluem cefaleia primária.', D: 'A ressonância atrasaria o tratamento de uma emergência infecciosa.' },
@@ -125,7 +125,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Trombose venosa cerebral',
     e: 'Mulher de 30 anos, usuária de anticoncepcional combinado, tem cefaleia progressiva há seis dias, vômitos e uma crise tônico-clônica. Apresenta papiledema, e a tomografia mostra pequena área de infarto hemorrágico parietal que não respeita território arterial. A venografia confirma trombose do seio sagital superior. O tratamento indicado é:',
-    o: ['Apenas anticonvulsivante, pois a hemorragia contraindica anticoagulação', 'Anticoagulação com heparina em dose plena, mesmo na presença de infarto venoso hemorrágico', 'Trombólise endovenosa sistêmica com alteplase como primeira medida', 'Ácido acetilsalicílico e observação clínica'],
+    o: ['Apenas anticonvulsivante, pois a hemorragia contraindica a anticoagulação', 'Heparina em dose plena, mesmo com infarto venoso hemorrágico', 'Trombólise endovenosa sistêmica com alteplase como primeira medida', 'AAS e observação clínica, sem anticoagulação plena'],
     g: 'B',
     c: 'Na trombose venosa cerebral, a hemorragia é consequência da hipertensão venosa causada pela obstrução. A anticoagulação impede a propagação do trombo e favorece a recanalização, reduzindo a pressão venosa, e por isso é indicada mesmo havendo transformação hemorrágica. O anticoncepcional deve ser suspenso e as causas de trombofilia, investigadas.',
     x: { A: 'O infarto venoso hemorrágico não contraindica a anticoagulação.', C: 'A trombólise sistêmica não é tratamento de primeira linha nessa condição.', D: 'Antiagregante não trata trombose venosa cerebral.' },
@@ -133,7 +133,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Dissecção de carótida',
     e: 'Homem de 39 anos apresenta, após acidente automobilístico com movimento brusco do pescoço, dor cervical anterolateral e cefaleia frontotemporal à esquerda. O exame mostra ptose discreta e miose à esquerda, com sudorese facial preservada. O diagnóstico mais provável e o exame indicado são:',
-    o: ['Cefaleia em salvas; nenhum exame', 'Dissecção da artéria carótida interna; angiotomografia ou angiorressonância de vasos cervicais', 'Enxaqueca sem aura; nenhum exame', 'Lesão do terceiro nervo craniano; eletroneuromiografia'],
+    o: ['Cefaleia em salvas; nenhum exame de imagem é necessário', 'Dissecção da carótida interna; angio-TC ou angio-RM de vasos cervicais', 'Enxaqueca sem aura; nenhum exame de imagem é necessário', 'Lesão do terceiro nervo craniano; eletroneuromiografia da face'],
     g: 'B',
     c: 'Dor cervical ou cefaleia unilateral com síndrome de Horner parcial ipsilateral após trauma ou manipulação cervical é dissecção de carótida até prova em contrário. O hematoma na parede do vaso comprime as fibras simpáticas pericarotídeas; como as fibras sudomotoras da face seguem pela carótida externa, a sudorese é preservada. O principal risco é o acidente vascular isquêmico por embolia.',
     x: { A: 'Primeiro episódio após trauma cervical não pode ser atribuído a salvas.', C: 'Enxaqueca não causa ptose e miose persistentes.', D: 'Lesão do terceiro nervo causa midríase e ptose acentuada, não miose.' },
@@ -141,7 +141,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Dissecção de artéria vertebral',
     e: 'Mulher de 35 anos apresenta, dois dias após sessão de manipulação cervical, dor occipitocervical à direita, vertigem, rouquidão, disfagia, hipoestesia térmica e dolorosa na hemiface direita e no hemicorpo esquerdo. A causa mais provável é:',
-    o: ['Enxaqueca vestibular', 'Dissecção da artéria vertebral com infarto bulbar lateral', 'Neurite vestibular', 'Esclerose múltipla em surto'],
+    o: ['Enxaqueca vestibular, com vertigem recorrente', 'Dissecção da artéria vertebral com infarto bulbar lateral', 'Neurite vestibular, com vertigem e nistagmo horizontal', 'Esclerose múltipla em surto, com déficit focal'],
     g: 'B',
     c: 'A dissecção da artéria vertebral causa dor occipital e cervical posterior e pode ocluir a artéria cerebelar posteroinferior, produzindo a síndrome bulbar lateral (Wallenberg): vertigem, disfagia e disfonia, síndrome de Horner, ataxia e hipoestesia termoalgésica cruzada, na face do mesmo lado e no corpo do lado oposto. É causa importante de acidente vascular em adultos jovens.',
     x: { A: 'A enxaqueca vestibular não causa déficit sensitivo cruzado nem disfagia.', C: 'A neurite vestibular causa vertigem isolada, sem sinais de tronco.', D: 'Instalação aguda após manipulação cervical aponta para causa vascular.' },
@@ -149,7 +149,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Tumor cerebral',
     e: 'Sobre a cefaleia associada a tumores intracranianos, é correto afirmar:',
-    o: ['A cefaleia isolada, com exame neurológico normal, é a forma de apresentação da maioria dos tumores', 'Costuma ser inespecífica e progressiva, e a suspeita aumenta quando há piora matinal ou com Valsalva, vômitos, crises epilépticas, alteração de comportamento ou déficit focal', 'É tipicamente em trovoada, com pico em menos de um minuto', 'Cursa com sinais autonômicos ipsilaterais e duração de minutos'],
+    o: ['A cefaleia isolada, com exame neurológico normal, é a apresentação da maioria dos tumores', 'Inespecífica e progressiva; piora matinal ou com Valsalva, vômitos, crises, déficit', 'É tipicamente em trovoada, com pico de intensidade em menos de um minuto', 'Cursa com sinais autonômicos ipsilaterais e duração de poucos minutos'],
     g: 'B',
     c: 'A cefaleia do tumor cerebral resulta da tração de estruturas sensíveis e da hipertensão intracraniana, sendo geralmente inespecífica, semelhante à tensional. Raramente é manifestação isolada: o que levanta a suspeita é a progressão e a associação com outros sinais, como piora ao deitar ou pela manhã, vômitos, papiledema, crises epilépticas e déficits focais.',
     x: { A: 'Cefaleia isolada como única manifestação de tumor é incomum.', C: 'Início em trovoada sugere causa vascular, como hemorragia subaracnoide.', D: 'Esse padrão caracteriza as cefaleias trigêmino-autonômicas.' },
@@ -157,7 +157,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Glaucoma agudo',
     e: 'Mulher de 67 anos, hipermetrope, apresenta ao entardecer dor intensa no olho direito e na região frontal, náuseas, vômitos, visão turva e halos coloridos ao redor das luzes. O olho está vermelho, com córnea opaca e pupila em média midríase, pouco reagente. O diagnóstico e a conduta são:',
-    o: ['Cefaleia em salvas; oxigênio a 100%', 'Glaucoma agudo de ângulo fechado; encaminhamento oftalmológico de urgência para redução da pressão intraocular', 'Enxaqueca com aura; sumatriptano', 'Conjuntivite viral; colírio lubrificante'],
+    o: ['Cefaleia em salvas; oxigênio a 100% por máscara com reservatório', 'Glaucoma agudo de ângulo fechado; oftalmologia urgente para reduzir a PIO', 'Enxaqueca com aura visual; sumatriptano subcutâneo em dose habitual', 'Conjuntivite viral; colírio lubrificante e compressas frias, em casa'],
     g: 'B',
     c: 'No fechamento angular agudo, a íris bloqueia a drenagem do humor aquoso pelo trabeculado, e a pressão intraocular sobe rapidamente, causando edema de córnea (halos e turvação), dor intensa e sintomas vagais. A meia-luz, ao dilatar a pupila, precipita a crise em olhos predispostos, como os hipermetropes. É urgência, com risco de lesão irreversível do nervo óptico.',
     x: { A: 'Na salvas há miose e ptose, a visão é preservada e a córnea é transparente.', C: 'A aura não causa olho vermelho, córnea opaca nem pupila fixa.', D: 'A conjuntivite não causa baixa visual, midríase nem dor intensa com vômitos.' },
@@ -165,7 +165,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Sinusite',
     e: 'Mulher de 33 anos refere crises recorrentes de dor frontal e maxilar bilateral, latejante, com náuseas, fotofobia e congestão nasal, que duram um dia e que ela chama de sinusite. Já usou vários antibióticos sem benefício. Nunca teve febre nem secreção nasal purulenta, e a tomografia de seios da face é normal. A interpretação correta é:',
-    o: ['Rinossinusite crônica bacteriana; prolongar o antibiótico', 'Enxaqueca, frequentemente confundida com sinusite por causar dor facial e sintomas autonômicos nasais', 'Neuralgia do trigêmeo; carbamazepina', 'Cefaleia por arterite de células gigantes; corticoide'],
+    o: ['Rinossinusite crônica bacteriana; prolongar o antibiótico', 'Enxaqueca, frequentemente confundida com sinusite', 'Neuralgia do trigêmeo; carbamazepina em dose habitual', 'Arterite de células gigantes; corticoide em dose alta'],
     g: 'B',
     c: 'A maioria dos pacientes com queixa de cefaleia recorrente atribuída a sinusite preenche, na verdade, critérios de enxaqueca. A ativação do reflexo trigêmino-autonômico na crise pode causar congestão nasal, rinorreia e lacrimejamento, e a dor pode ser frontal ou facial. A rinossinusite aguda verdadeira cursa com secreção purulenta, obstrução e, muitas vezes, febre.',
     x: { A: 'Sem secreção purulenta e com imagem normal não há sinusite bacteriana.', C: 'A neuralgia causa choques de segundos, não crises de um dia com náuseas.', D: 'A idade e o padrão recorrente de longa data não são compatíveis com arterite.' },
@@ -173,7 +173,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia',
     e: 'Gestante de 34 semanas, previamente normotensa, queixa-se de cefaleia frontal intensa e persistente, escotomas cintilantes e dor epigástrica. Pressão arterial 170 x 110 mmHg, reflexos exaltados e proteinúria. A conduta imediata inclui:',
-    o: ['Paracetamol e alta com orientação de repouso', 'Sulfato de magnésio para prevenção de eclâmpsia, anti-hipertensivo para controle pressórico e avaliação obstétrica para resolução da gestação', 'Sumatriptano por se tratar de enxaqueca com aura', 'Diurético de alça e restrição hídrica'],
+    o: ['Paracetamol e alta hospitalar, com orientação de repouso domiciliar', 'Sulfato de magnésio, anti-hipertensivo e avaliação obstétrica para resolução', 'Sumatriptano por se tratar de enxaqueca com aura, em dose habitual', 'Diurético de alça e restrição hídrica, como tratamento principal da cefaleia'],
     g: 'B',
     c: 'Cefaleia nova após 20 semanas de gestação com hipertensão é pré-eclâmpsia até prova em contrário, e cefaleia, alterações visuais e epigastralgia são sinais de iminência de eclâmpsia. O sulfato de magnésio é o fármaco de escolha para prevenir e tratar as convulsões, associado a anti-hipertensivo (hidralazina ou nifedipino) e ao planejamento do parto, que é o tratamento definitivo.',
     x: { A: 'Dar alta com sinais de iminência de eclâmpsia é conduta de alto risco.', C: 'Triptano é vasoconstritor e o quadro não é enxaqueca.', D: 'Diuréticos reduzem ainda mais o volume plasmático, já contraído na pré-eclâmpsia.' },
@@ -181,7 +181,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Crise hipertensiva',
     e: 'Homem de 54 anos, hipertenso sem tratamento, apresenta há dois dias cefaleia holocraniana progressiva, náuseas, visão turva e confusão. Pressão arterial 240 x 140 mmHg; fundoscopia com papiledema, hemorragias e exsudatos. A tomografia não mostra sangramento. O diagnóstico e a conduta são:',
-    o: ['Cefaleia do tipo tensional com hipertensão reativa; analgésico e alta', 'Encefalopatia hipertensiva; redução gradual e controlada da pressão com anti-hipertensivo endovenoso em ambiente de terapia intensiva', 'Enxaqueca; sumatriptano subcutâneo', 'Encefalopatia hipertensiva; normalização da pressão em poucos minutos com nifedipino sublingual'],
+    o: ['Cefaleia tensional com hipertensão reativa; analgésico e alta', 'Encefalopatia hipertensiva: redução gradual da PA com anti-hipertensivo IV em UTI', 'Enxaqueca; sumatriptano subcutâneo em dose habitual', 'Encefalopatia hipertensiva; PA normal em minutos com nifedipino sublingual'],
     g: 'B',
     c: 'Quando a pressão ultrapassa o limite superior da autorregulação cerebral, ocorre hiperperfusão, quebra da barreira hematoencefálica e edema vasogênico, com cefaleia, alteração de consciência e distúrbios visuais. É emergência hipertensiva, tratada com anti-hipertensivo endovenoso titulável, como nitroprussiato, e redução gradual (cerca de um quarto da pressão arterial média na primeira hora), pois a queda brusca causa isquemia.',
     x: { A: 'Confusão e papiledema indicam lesão de órgão-alvo, não cefaleia primária.', C: 'O triptano é contraindicado em hipertensão grave e o quadro não é enxaqueca.', D: 'A queda abrupta e imprevisível da pressão pode causar isquemia cerebral.' },
@@ -189,7 +189,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Apoplexia hipofisária',
     e: 'Homem de 57 anos, com macroadenoma hipofisário conhecido, apresenta cefaleia retro-orbitária súbita e intensa, vômitos, visão dupla com ptose à direita e redução do campo visual temporal bilateral. Pressão arterial 80 x 50 mmHg e sódio de 126 mEq/L. Além da neuroimagem, a medida imediata mais importante é:',
-    o: ['Punção lombar de alívio', 'Reposição endovenosa de glicocorticoide (hidrocortisona) e de volume', 'Início de levotiroxina em dose plena antes de qualquer outra medida', 'Sumatriptano subcutâneo'],
+    o: ['Punção lombar de alívio, para reduzir a pressão intracraniana', 'Reposição IV de hidrocortisona e de volume', 'Início de levotiroxina em dose plena antes de qualquer medida', 'Sumatriptano subcutâneo, para controle da dor'],
     g: 'B',
     c: 'A apoplexia hipofisária é a hemorragia ou o infarto agudo de um adenoma, com expansão súbita que comprime o quiasma (hemianopsia bitemporal) e os nervos oculomotores no seio cavernoso. A destruição da glândula causa insuficiência adrenal secundária aguda, responsável por hipotensão e hiponatremia, e a hidrocortisona endovenosa é a medida que salva a vida; a descompressão cirúrgica é avaliada conforme o déficit visual.',
     x: { A: 'A punção lombar não trata a lesão selar nem a insuficiência adrenal.', C: 'Repor hormônio tireoidiano antes do corticoide pode precipitar crise adrenal.', D: 'Triptano é inadequado em cefaleia secundária com choque.' },
@@ -197,7 +197,7 @@ export const CEFALEIA_4: QuestaoCompacta[] = [
   {
     s: 'Monóxido de carbono',
     e: 'Em uma noite fria, um casal e o filho, que dormiam em quarto fechado com aquecedor a gás, acordam com cefaleia holocraniana, tontura, náuseas e fraqueza. A oximetria de pulso de todos marca 98%. O diagnóstico mais provável, o exame confirmatório e o tratamento são:',
-    o: ['Meningite viral; punção lombar e sintomáticos', 'Intoxicação por monóxido de carbono; dosagem de carboxiemoglobina e oxigênio a 100%', 'Intoxicação alimentar; hidratação oral', 'Enxaqueca familiar; triptano para todos'],
+    o: ['Meningite viral; punção lombar e sintomáticos', 'Intoxicação por monóxido de carbono: carboxiemoglobina e O2 a 100%', 'Intoxicação alimentar; hidratação oral e sintomáticos', 'Enxaqueca familiar; triptano para todos os membros da família'],
     g: 'B',
     c: 'Cefaleia é o sintoma mais comum e precoce da intoxicação por monóxido de carbono, e o acometimento simultâneo de pessoas no mesmo ambiente é a pista. O gás liga-se à hemoglobina com afinidade muito superior à do oxigênio e desvia a curva de dissociação para a esquerda, causando hipóxia tecidual; o oxímetro comum não distingue carboxiemoglobina de oxiemoglobina e mostra valor falsamente normal. O oxigênio a 100% acelera a eliminação do gás, e a câmara hiperbárica é considerada nos casos graves.',
     x: { A: 'Não há febre nem sinais meníngeos, e o contexto ambiental é típico.', C: 'Predominam cefaleia e tontura, sem diarreia, com fonte de combustão no local.', D: 'Início simultâneo em três pessoas no mesmo ambiente não é enxaqueca.' },

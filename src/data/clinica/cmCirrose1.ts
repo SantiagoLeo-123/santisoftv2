@@ -13,7 +13,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B crônica: fases',
     e: 'Homem de 19 anos, filho de mãe portadora de hepatite B, assintomático, apresenta HBsAg reagente, HBeAg reagente, carga viral do vírus B muito elevada e ALT persistentemente normal. A elastografia hepática é normal. Esse perfil corresponde à fase de:',
-    o: ['Hepatite crônica HBeAg negativo', 'Infecção crônica HBeAg reagente (antiga fase imunotolerante)', 'Infecção crônica HBeAg negativo (portador inativo)', 'Infecção oculta pelo vírus B'],
+    o: ['Hepatite crônica HBeAg negativo, com ALT persistentemente elevada', 'Infecção crônica HBeAg reagente (antiga fase imunotolerante)', 'Infecção crônica HBeAg negativo (portador inativo), com carga viral baixa', 'Infecção oculta pelo vírus B, com HBsAg não reagente e DNA detectável'],
     g: 'B',
     c: 'Na infecção adquirida por transmissão vertical, o sistema imune tolera o vírus por anos: há replicação intensa (HBeAg reagente e carga viral muito alta), mas sem agressão imunomediada aos hepatócitos, de modo que a ALT permanece normal e a histologia mostra lesão mínima. O dano hepático na hepatite B decorre da resposta imune, e não de efeito citopático direto do vírus.',
     x: { A: 'Na hepatite crônica HBeAg negativo há ALT elevada e HBeAg não reagente.', C: 'No portador inativo o HBeAg é negativo e a carga viral é baixa.', D: 'Na infecção oculta o HBsAg é não reagente, com DNA viral detectável.' },
@@ -21,7 +21,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B crônica: fases',
     e: 'Mulher de 42 anos, assintomática, tem HBsAg reagente há 10 anos, HBeAg não reagente, anti-HBe reagente, carga viral do vírus B persistentemente inferior a 2.000 UI/mL, ALT normal em medidas seriadas e elastografia sem fibrose. Não tem história familiar de carcinoma hepatocelular nem usa imunossupressores. A conduta adequada é:',
-    o: ['Iniciar tenofovir por tempo indeterminado', 'Não tratar e manter seguimento periódico com ALT e carga viral', 'Iniciar alfapeginterferona por 48 semanas', 'Dar alta, pois se trata de infecção resolvida'],
+    o: ['Iniciar tenofovir por tempo indeterminado, em dose plena', 'Não tratar; manter seguimento periódico com ALT e carga viral', 'Iniciar alfapeginterferona por 48 semanas, em dose plena', 'Dar alta, pois se trata de infecção resolvida pelo vírus B'],
     g: 'B',
     c: 'O quadro é de infecção crônica HBeAg negativo (portador inativo): baixa replicação, ALT normal e ausência de fibrose, com risco baixo de progressão. Não há indicação de antiviral, mas o seguimento é obrigatório, porque pode haver reativação com evolução para hepatite crônica HBeAg negativo.',
     x: { A: 'Sem replicação relevante, ALT elevada ou fibrose não há indicação de antiviral.', C: 'A alfapeginterferona não está indicada em quem não tem critérios de tratamento.', D: 'O HBsAg persiste reagente, portanto a infecção não está resolvida.' },
@@ -29,7 +29,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B crônica: HBeAg negativo',
     e: 'Paciente com hepatite B crônica apresenta HBeAg não reagente e anti-HBe reagente, porém mantém carga viral elevada e ALT flutuante acima do normal. A explicação virológica para esse perfil é:',
-    o: ['Coinfecção obrigatória pelo vírus Delta', 'Mutação na região pré-core ou no promotor basal do core, que impede a expressão do HBeAg sem bloquear a replicação', 'Integração completa do vírus ao genoma com cessação da replicação', 'Resposta vacinal incompleta com produção de anti-HBe'],
+    o: ['Coinfecção obrigatória pelo vírus Delta, com replicação viral ativa', 'Mutação pré-core ou do promotor basal do core: não expressa HBeAg, mas replica', 'Integração completa do vírus ao genoma, com cessação total da replicação', 'Resposta vacinal incompleta, com produção de anti-HBe e anti-HBs'],
     g: 'B',
     c: 'Mutações na região pré-core ou no promotor basal do core reduzem ou abolem a síntese do HBeAg, mas o vírus continua replicando. O resultado é a hepatite crônica HBeAg negativo, com carga viral e ALT flutuantes, maior risco de progressão para cirrose e indicação de tratamento.',
     x: { A: 'O vírus Delta pode suprimir o vírus B, mas não é a causa habitual desse perfil.', C: 'Se a replicação tivesse cessado, a carga viral não estaria elevada.', D: 'A vacina contém apenas HBsAg e induz somente anti-HBs.' },
@@ -37,7 +37,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: interpretação sorológica',
     e: 'Homem de 35 anos, candidato a doação de sangue, apresenta HBsAg não reagente, anti-HBc total reagente e anti-HBs reagente. A interpretação correta é:',
-    o: ['Imunidade por vacinação prévia', 'Infecção prévia resolvida, com imunidade natural', 'Hepatite B crônica em fase inativa', 'Hepatite B aguda em janela imunológica'],
+    o: ['Imunidade por vacinação prévia, com anti-HBs isolado reagente', 'Infecção prévia resolvida, com imunidade natural (anti-HBc e anti-HBs)', 'Hepatite B crônica em fase inativa, com HBsAg reagente', 'Hepatite B aguda em janela imunológica, com anti-HBc IgM isolado'],
     g: 'B',
     c: 'O anti-HBc total indica contato com o vírus selvagem, pois a vacina contém apenas o antígeno de superfície. A ausência de HBsAg com presença de anti-HBs mostra que a infecção foi controlada e houve soroconversão. Mesmo assim o DNA circular covalentemente fechado persiste no hepatócito, o que explica o risco de reativação sob imunossupressão intensa.',
     x: { A: 'Na imunidade vacinal o anti-HBs é reagente de forma isolada, com anti-HBc negativo.', C: 'Na infecção crônica o HBsAg permanece reagente.', D: 'Na janela imunológica o anti-HBc IgM é reagente e o anti-HBs ainda está ausente.' },
@@ -53,7 +53,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: indicações de tratamento',
     e: 'Em portadores de hepatite B crônica, todas as situações abaixo constituem indicação de tratamento antiviral, EXCETO:',
-    o: ['Cirrose hepática com carga viral detectável, mesmo com ALT normal', 'Manifestação extra-hepática atribuída ao vírus B, como poliarterite nodosa', 'Coinfecção pelo HIV', 'Jovem de 22 anos com HBeAg reagente, ALT persistentemente normal, sem fibrose e sem história familiar de carcinoma hepatocelular'],
+    o: ['Cirrose com carga viral detectável, mesmo com ALT normal, que é indicação de tratamento', 'Manifestação extra-hepática atribuída ao vírus B, como poliarterite nodosa, que é indicação de tratamento', 'Coinfecção pelo HIV, que é indicação de tratamento', 'Jovem de 22 anos com HBeAg +, ALT normal, sem fibrose e sem história familiar de CHC'],
     g: 'D',
     c: 'Na infecção crônica HBeAg reagente do jovem, com ALT normal e sem fibrose, o dano hepático é mínimo e a resposta ao tratamento é pior, de modo que a conduta habitual é o seguimento. Já cirrose, manifestações extra-hepáticas e coinfecção pelo HIV indicam tratamento independentemente da ALT.',
     x: { A: 'Na cirrose qualquer viremia detectável indica tratamento, pelo risco de descompensação.', B: 'Manifestações extra-hepáticas são indicação de tratamento independentemente da ALT.', C: 'Na coinfecção pelo HIV usa-se esquema antirretroviral com ação contra o vírus B.' },
@@ -61,7 +61,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: tenofovir',
     e: 'Paciente em uso de fumarato de tenofovir desoproxila para hepatite B crônica há 4 anos evolui com hipofosfatemia, glicosúria com glicemia normal e elevação da creatinina. O mecanismo desse efeito adverso é:',
-    o: ['Nefrite intersticial alérgica mediada por eosinófilos', 'Toxicidade mitocondrial no túbulo proximal, com disfunção tubular tipo Fanconi', 'Glomerulonefrite membranosa por imunocomplexos', 'Obstrução tubular por cristais do fármaco'],
+    o: ['Nefrite intersticial alérgica mediada por eosinófilos, com febre e rash', 'Toxicidade mitocondrial no túbulo proximal, com disfunção tubular tipo Fanconi', 'Glomerulonefrite membranosa por imunocomplexos, com síndrome nefrótica', 'Obstrução tubular por cristais do fármaco, com lesão renal aguda'],
     g: 'B',
     c: 'O tenofovir desoproxila se acumula nas células do túbulo proximal e causa lesão mitocondrial, levando a perda urinária de fosfato, glicose, aminoácidos e bicarbonato, além de queda da filtração glomerular. A fosfatúria crônica contribui para a redução da densidade mineral óssea. Nesses casos troca-se por entecavir ou tenofovir alafenamida.',
     x: { A: 'O quadro é de tubulopatia proximal, não de reação de hipersensibilidade.', C: 'A glomerulonefrite membranosa é manifestação do vírus B, não do fármaco.', D: 'Cristalúria com obstrução é típica de aciclovir e indinavir.' },
@@ -77,7 +77,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: resistência antiviral',
     e: 'Paciente com hepatite B crônica usou lamivudina por 5 anos e apresentou elevação da carga viral, compatível com resistência. Ao escolher o novo esquema, deve-se considerar que:',
-    o: ['O entecavir é a melhor opção, pois não há resistência cruzada', 'O tenofovir é preferível, pois mutações de resistência à lamivudina reduzem a barreira genética do entecavir', 'A lamivudina deve ser mantida em dose dobrada', 'A alfapeginterferona é obrigatória nesses casos'],
+    o: ['O entecavir é a melhor opção, pois não há resistência cruzada com a lamivudina', 'Tenofovir preferível: mutações de resistência à lamivudina reduzem a barreira do entecavir', 'A lamivudina deve ser mantida em dose dobrada, para superar a resistência', 'A alfapeginterferona é obrigatória nesses casos de resistência à lamivudina'],
     g: 'B',
     c: 'As mutações selecionadas pela lamivudina (como a M204V/I) são o primeiro passo para a resistência ao entecavir, que nesses pacientes passa a falhar com frequência muito maior. O tenofovir não compartilha esse perfil de resistência e mantém alta eficácia, sendo a escolha em expostos previamente à lamivudina.',
     x: { A: 'Há resistência cruzada parcial entre lamivudina e entecavir.', C: 'Aumentar a dose não supera a resistência e seleciona novas mutações.', D: 'A interferona não é obrigatória e tem mais efeitos adversos e contraindicações.' },
@@ -85,7 +85,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: objetivos do tratamento',
     e: 'Sobre os desfechos do tratamento da hepatite B crônica com análogos de nucleos(t)ídeos, é correto afirmar:',
-    o: ['A erradicação viral é obtida na maioria dos pacientes após 1 ano', 'A supressão da carga viral é o objetivo habitual, e a perda do HBsAg (cura funcional) é o desfecho ideal, porém infrequente', 'O tratamento elimina o DNA circular covalentemente fechado do núcleo do hepatócito', 'A soroconversão do HBeAg permite sempre suspender o antiviral imediatamente'],
+    o: ['A erradicação viral é obtida na maioria dos pacientes após 1 ano de tratamento', 'Supressão da carga viral é o objetivo habitual; perda do HBsAg é o ideal, mas infrequente', 'O tratamento elimina o DNA circular covalentemente fechado do núcleo do hepatócito', 'A soroconversão do HBeAg permite sempre suspender o antiviral imediatamente'],
     g: 'B',
     c: 'Os análogos inibem a polimerase viral e suprimem a replicação, o que reduz a inflamação, a progressão da fibrose e o risco de carcinoma hepatocelular. Eles não eliminam o DNA circular covalentemente fechado, que funciona como reservatório nuclear, e por isso a perda do HBsAg é rara e o tratamento costuma ser prolongado.',
     x: { A: 'A erradicação viral não é alcançada com os tratamentos disponíveis.', C: 'O reservatório nuclear persiste, o que explica recidivas após a suspensão.', D: 'Após a soroconversão é necessário um período de consolidação antes de considerar a suspensão.' },
@@ -93,7 +93,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: imunossupressão',
     e: 'Homem de 58 anos com linfoma difuso de grandes células B iniciará quimioterapia com rituximabe. Exames: HBsAg não reagente, anti-HBc total reagente, anti-HBs não reagente. A conduta mais adequada é:',
-    o: ['Nenhuma medida, pois o HBsAg é não reagente', 'Iniciar profilaxia antiviral com análogo de alta barreira genética e mantê-la após o término da imunossupressão', 'Aplicar apenas uma dose de vacina e iniciar o rituximabe', 'Contraindicar o rituximabe de forma definitiva'],
+    o: ['Nenhuma medida, pois o HBsAg é não reagente, e não há risco de reativação', 'Profilaxia antiviral com análogo de alta barreira genética, mantida após a imunossupressão', 'Aplicar apenas uma dose de vacina e iniciar o rituximabe em seguida', 'Contraindicar o rituximabe de forma definitiva, por risco de reativação'],
     g: 'B',
     c: 'O anti-HBc reagente indica infecção prévia, com persistência do DNA viral no núcleo dos hepatócitos. Os anticorpos anti-CD20 depletam linfócitos B e comprometem o controle imune, com alto risco de reativação mesmo em HBsAg negativos, podendo causar hepatite fulminante. A profilaxia com entecavir ou tenofovir deve ser mantida por meses após o fim do tratamento.',
     x: { A: 'O risco de reativação com anti-CD20 é alto mesmo com HBsAg não reagente.', C: 'A vacina não previne a reativação de um vírus já presente no hepatócito.', D: 'O rituximabe pode ser usado com segurança sob profilaxia antiviral.' },
@@ -101,7 +101,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: transmissão vertical',
     e: 'Gestante de 27 anos, com 26 semanas, tem HBsAg e HBeAg reagentes, carga viral do vírus B muito elevada e ALT normal. Para reduzir a transmissão vertical, a conduta recomendada é:',
-    o: ['Cesariana eletiva e contraindicação ao aleitamento', 'Tenofovir para a gestante no final da gestação, e vacina mais imunoglobulina específica para o recém-nascido nas primeiras horas de vida', 'Apenas vacina para o recém-nascido, com 2 meses de vida', 'Entecavir para a gestante desde o diagnóstico'],
+    o: ['Cesariana eletiva e contraindicação ao aleitamento, em todos os casos de hepatite B', 'Tenofovir à gestante no fim da gestação; vacina e imunoglobulina ao RN logo ao nascer', 'Apenas vacina para o recém-nascido, aplicada somente aos 2 meses de vida', 'Entecavir à gestante desde o diagnóstico, mantido até o parto e o aleitamento'],
     g: 'B',
     c: 'A imunoprofilaxia do recém-nascido (vacina e imunoglobulina anti-hepatite B, idealmente nas primeiras 12 horas) previne a maioria das transmissões, mas falha com mais frequência quando a carga viral materna é muito alta. Nessa situação, o tenofovir no terceiro trimestre reduz a viremia e o risco de transmissão. A via de parto é obstétrica e o aleitamento é permitido.',
     x: { A: 'A cesariana não é indicada pela hepatite B e o aleitamento não é contraindicado.', C: 'A primeira dose da vacina deve ser aplicada ao nascer, com a imunoglobulina.', D: 'O entecavir não é recomendado na gestação; o tenofovir é o fármaco de escolha.' },
@@ -109,7 +109,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: carcinoma hepatocelular',
     e: 'Em relação ao carcinoma hepatocelular na hepatite B crônica, assinale a alternativa correta:',
-    o: ['Ocorre apenas em pacientes com cirrose estabelecida', 'Pode surgir em pacientes sem cirrose, pois o vírus integra seu DNA ao genoma do hepatócito e tem efeito oncogênico direto', 'O rastreamento é feito com tomografia anual', 'O tratamento antiviral elimina o risco e dispensa rastreamento'],
+    o: ['Ocorre apenas em pacientes com cirrose estabelecida, e nunca sem cirrose', 'Pode surgir sem cirrose: o vírus integra seu DNA ao genoma e tem efeito oncogênico direto', 'O rastreamento é feito com tomografia anual, em todos os portadores', 'O tratamento antiviral elimina o risco e dispensa o rastreamento'],
     g: 'B',
     c: 'O vírus B é um vírus de DNA que se integra ao genoma do hospedeiro e expressa proteínas, como a proteína X, com ação oncogênica direta. Por isso o carcinoma hepatocelular pode ocorrer sem cirrose. O rastreamento é feito com ultrassonografia a cada 6 meses, com ou sem alfafetoproteína, nos cirróticos e em não cirróticos de maior risco.',
     x: { A: 'Na hepatite B o tumor pode surgir em fígado não cirrótico.', C: 'O método de rastreamento é a ultrassonografia semestral.', D: 'O antiviral reduz, mas não elimina o risco; o rastreamento deve ser mantido.' },
@@ -117,7 +117,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite Delta',
     e: 'Homem de 34 anos, procedente do Acre, portador conhecido de hepatite B crônica, apresenta quadro de hepatite aguda grave. Exames: HBsAg reagente, anti-HBc IgM não reagente, anti-HDV reagente. Sobre esse quadro, é correto afirmar:',
-    o: ['Trata-se de coinfecção, que cronifica na maioria dos casos', 'Trata-se de superinfecção pelo vírus Delta, que evolui para a cronicidade na maioria dos casos e acelera a progressão para cirrose', 'O vírus Delta pode infectar indivíduos sem o vírus B', 'A vacinação contra hepatite B não protege contra a hepatite Delta'],
+    o: ['Coinfecção, que cronifica na maioria dos casos de hepatite B aguda', 'Superinfecção pelo vírus Delta: cronifica na maioria e acelera a progressão para cirrose', 'O vírus Delta pode infectar indivíduos que não têm o vírus B', 'A vacinação contra hepatite B não protege contra a hepatite Delta'],
     g: 'B',
     c: 'O vírus Delta é um vírus defectivo que depende do HBsAg para montar seu envelope. Na superinfecção, o portador crônico do vírus B já oferece HBsAg em abundância, de modo que o Delta se estabelece e cronifica na grande maioria dos casos, com doença mais agressiva. O anti-HBc IgM não reagente diferencia da coinfecção aguda simultânea. No Brasil, a doença concentra-se na Amazônia ocidental.',
     x: { A: 'Na coinfecção o anti-HBc IgM é reagente e a cronificação é incomum.', C: 'O vírus Delta só se replica na presença do vírus B.', D: 'Prevenir a hepatite B com a vacina previne também a hepatite Delta.' },
@@ -133,7 +133,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: diagnóstico',
     e: 'Mulher de 55 anos, que recebeu transfusão de sangue em 1988, realiza teste rápido anti-HCV com resultado reagente. O próximo passo para confirmar infecção ativa é:',
-    o: ['Repetir o anti-HCV em 6 meses', 'Solicitar o RNA do vírus C por biologia molecular (carga viral)', 'Realizar biópsia hepática', 'Solicitar genotipagem e iniciar o tratamento sem outros exames'],
+    o: ['Repetir o anti-HCV em 6 meses, antes de qualquer outro exame', 'Solicitar o RNA do vírus C por biologia molecular (carga viral)', 'Realizar biópsia hepática, antes de qualquer exame molecular', 'Solicitar genotipagem e iniciar o tratamento sem outros exames'],
     g: 'B',
     c: 'O anti-HCV indica apenas contato com o vírus e permanece reagente após a cura espontânea ou terapêutica. A infecção ativa é confirmada pela detecção do RNA viral. A transfusão antes de 1993, quando começou a triagem nos bancos de sangue, é fator de risco clássico.',
     x: { A: 'Repetir a sorologia não distingue infecção ativa de infecção resolvida.', C: 'A biópsia não é necessária para o diagnóstico nem para indicar tratamento.', D: 'Sem RNA detectável não há infecção ativa a tratar.' },
@@ -141,7 +141,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: interpretação',
     e: 'Paciente apresenta anti-HCV reagente e RNA do vírus C indetectável em duas ocasiões. Nunca foi tratado. A interpretação e a orientação corretas são:',
-    o: ['Infecção crônica com baixa replicação; iniciar tratamento', 'Infecção resolvida espontaneamente; não há imunidade protetora e ele pode se reinfectar', 'Imunidade permanente contra todos os genótipos', 'Falso-positivo obrigatório; nenhuma orientação é necessária'],
+    o: ['Infecção crônica com baixa replicação; iniciar tratamento antiviral de imediato', 'Infecção resolvida espontaneamente; não há imunidade protetora e pode haver reinfecção', 'Imunidade permanente contra todos os genótipos do vírus C', 'Falso-positivo obrigatório; nenhuma orientação é necessária ao paciente'],
     g: 'B',
     c: 'Uma parcela dos infectados elimina o vírus espontaneamente, mantendo o anti-HCV reagente como cicatriz sorológica. Esse anticorpo não é neutralizante, em razão da grande variabilidade genética do vírus, de modo que não confere proteção contra nova infecção. Pelo mesmo motivo não existe vacina contra a hepatite C.',
     x: { A: 'Com RNA indetectável não há infecção ativa nem indicação de tratamento.', C: 'O anti-HCV não confere imunidade protetora.', D: 'Pode ser falso-positivo, mas a cura espontânea é explicação frequente e as orientações de prevenção são necessárias.' },
@@ -149,7 +149,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: história natural',
     e: 'Sobre a história natural da infecção pelo vírus da hepatite C, é correto afirmar:',
-    o: ['A fase aguda é habitualmente ictérica e a cronificação é rara', 'A fase aguda costuma ser assintomática e a maioria dos infectados evolui para infecção crônica', 'A evolução para cirrose ocorre em poucos meses na maioria dos casos', 'A hepatite fulminante é a forma de apresentação mais comum'],
+    o: ['Fase aguda habitualmente ictérica e cronificação rara', 'Fase aguda costuma ser assintomática; a maioria evolui para infecção crônica', 'Evolução para cirrose em poucos meses na maioria dos casos', 'Hepatite fulminante é a forma de apresentação mais comum da infecção'],
     g: 'B',
     c: 'A hepatite C aguda é assintomática na grande maioria dos casos, e o vírus escapa da resposta imune graças à alta taxa de mutação, cronificando na maior parte dos infectados. A progressão da fibrose é lenta, ao longo de décadas, e é acelerada por álcool, coinfecção pelo HIV ou pelo vírus B, esteatose e sexo masculino.',
     x: { A: 'A icterícia é incomum e a cronificação é a regra, não a exceção.', C: 'A progressão para cirrose leva habitualmente décadas.', D: 'A hepatite fulminante pelo vírus C é excepcional.' },
@@ -157,7 +157,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: indicação de tratamento',
     e: 'Homem de 38 anos, assintomático, tem diagnóstico confirmado de hepatite C crônica. A elastografia hepática é compatível com ausência de fibrose (F0). Segundo as diretrizes brasileiras atuais, a conduta é:',
-    o: ['Aguardar fibrose F2 ou maior para indicar tratamento', 'Indicar tratamento com antivirais de ação direta, independentemente do grau de fibrose', 'Tratar apenas se houver manifestação extra-hepática', 'Indicar alfapeginterferona com ribavirina por 48 semanas'],
+    o: ['Aguardar fibrose F2 ou maior para indicar tratamento antiviral', 'Tratar com antivirais de ação direta, independentemente do grau de fibrose', 'Tratar apenas se houver manifestação extra-hepática da infecção', 'Alfapeginterferona com ribavirina por 48 semanas, como esquema atual'],
     g: 'B',
     c: 'Com os antivirais de ação direta, que têm taxas de cura acima de 95%, poucos efeitos adversos e curta duração, o tratamento está indicado para todos os pacientes com infecção ativa, independentemente da fibrose. A avaliação da fibrose continua necessária para definir o esquema, a duração e a necessidade de seguimento após a cura.',
     x: { A: 'A restrição do tratamento por grau de fibrose foi abandonada.', C: 'Manifestações extra-hepáticas reforçam a indicação, mas não são exigidas.', D: 'Esquemas com interferona foram substituídos pelos antivirais de ação direta.' },
@@ -165,7 +165,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: resposta virológica sustentada',
     e: 'A resposta virológica sustentada, que define a cura da hepatite C, corresponde a:',
-    o: ['RNA viral indetectável ao final do tratamento', 'RNA viral indetectável 12 ou 24 semanas após o término do tratamento', 'Negativação do anti-HCV após o tratamento', 'Normalização da ALT na quarta semana de tratamento'],
+    o: ['RNA viral indetectável ao final do tratamento antiviral', 'RNA viral indetectável 12 ou 24 semanas após o fim do tratamento', 'Negativação do anti-HCV após o tratamento antiviral', 'Normalização da ALT na quarta semana de tratamento antiviral'],
     g: 'B',
     c: 'O vírus C é um vírus de RNA que não se integra ao genoma nem forma reservatório nuclear, de modo que sua eliminação é definitiva. A ausência de RNA detectável 12 a 24 semanas após o fim do tratamento indica que não houve recidiva e equivale à cura virológica, com redução de mortalidade hepática e geral.',
     x: { A: 'A resposta ao final do tratamento não exclui recidiva nas semanas seguintes.', C: 'O anti-HCV permanece reagente indefinidamente após a cura.', D: 'A ALT é marcador indireto e não define a cura virológica.' },
@@ -173,7 +173,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: seguimento após a cura',
     e: 'Homem de 61 anos, com cirrose compensada por hepatite C, obteve resposta virológica sustentada após antivirais de ação direta. Sobre o seguimento, é correto afirmar:',
-    o: ['Pode receber alta, pois a cirrose regride sempre após a cura', 'Deve manter ultrassonografia semestral para rastreamento de carcinoma hepatocelular', 'Está imune a novas infecções pelo vírus C', 'Deve repetir o anti-HCV anualmente para detectar recidiva'],
+    o: ['Pode receber alta, pois a cirrose regride sempre após a cura viral', 'Manter ultrassonografia semestral para rastreamento de carcinoma hepatocelular', 'Está imune a novas infecções pelo vírus C, após a cura viral', 'Repetir o anti-HCV anualmente, para detectar recidiva da infecção'],
     g: 'B',
     c: 'A cura virológica reduz, mas não elimina o risco de carcinoma hepatocelular em quem já tem fibrose avançada ou cirrose, pois as alterações arquiteturais e genéticas do fígado persistem. Por isso o rastreamento semestral deve ser mantido por tempo indeterminado nesses pacientes.',
     x: { A: 'A fibrose pode melhorar, mas a regressão da cirrose não é garantida.', C: 'Não há imunidade protetora; a reinfecção é possível se houver nova exposição.', D: 'O anti-HCV permanece reagente; a reinfecção é pesquisada pelo RNA viral.' },
@@ -181,7 +181,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: crioglobulinemia',
     e: 'Mulher de 52 anos apresenta púrpura palpável em membros inferiores, artralgias, parestesias em pés e fraqueza. Exames: hematúria com proteinúria, C4 muito reduzido, fator reumatoide reagente e ALT discretamente elevada. A investigação etiológica prioritária e o diagnóstico mais provável são:',
-    o: ['FAN e anti-DNA; lúpus eritematoso sistêmico', 'Sorologia e RNA do vírus C; vasculite crioglobulinêmica mista', 'ANCA; granulomatose com poliangiite', 'IgA sérica; vasculite por IgA'],
+    o: ['FAN e anti-DNA; lúpus eritematoso sistêmico, com vasculite cutânea', 'Sorologia e RNA do vírus C; vasculite crioglobulinêmica mista', 'ANCA; granulomatose com poliangiite, com acometimento renal', 'IgA sérica; vasculite por IgA, com púrpura e dor abdominal'],
     g: 'B',
     c: 'A crioglobulinemia mista é a principal manifestação extra-hepática da hepatite C. O estímulo crônico de linfócitos B gera IgM monoclonal com atividade de fator reumatoide, que forma imunocomplexos com IgG e ativa a via clássica do complemento, consumindo sobretudo C4. Os complexos depositam-se em pequenos vasos, causando púrpura, artralgia, neuropatia e glomerulonefrite membranoproliferativa.',
     x: { A: 'No lúpus costuma haver consumo de C3 e C4 e o fator reumatoide não é o achado marcante.', C: 'Nas vasculites associadas ao ANCA o complemento é normal.', D: 'A vasculite por IgA cursa com complemento normal e predomina em crianças.' },
@@ -189,7 +189,7 @@ export const CIRROSE_1: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: manifestações extra-hepáticas',
     e: 'São manifestações extra-hepáticas reconhecidamente associadas à infecção crônica pelo vírus da hepatite C, EXCETO:',
-    o: ['Porfiria cutânea tarda', 'Líquen plano', 'Linfoma não Hodgkin de células B', 'Colangite esclerosante primária'],
+    o: ['Porfiria cutânea tarda, associada à infecção pelo vírus C', 'Líquen plano, associado à infecção pelo vírus C', 'Linfoma não Hodgkin de células B, associado à infecção pelo vírus C', 'Colangite esclerosante primária'],
     g: 'D',
     c: 'A colangite esclerosante primária associa-se à doença inflamatória intestinal, sobretudo à retocolite ulcerativa, e não ao vírus C. Já a hepatite C associa-se à crioglobulinemia mista, à glomerulonefrite membranoproliferativa, à porfiria cutânea tarda, ao líquen plano, ao linfoma B e a maior risco de diabetes.',
     x: { A: 'A porfiria cutânea tarda tem associação bem estabelecida com o vírus C.', B: 'O líquen plano, sobretudo oral, é mais frequente em portadores do vírus C.', C: 'A estimulação crônica de linfócitos B pelo vírus aumenta o risco de linfoma B.' },

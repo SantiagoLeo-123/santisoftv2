@@ -13,7 +13,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Epidemiologia',
     e: 'Sobre a epidemiologia das cefaleias primárias, assinale a alternativa correta:',
-    o: ['A cefaleia em salvas é a cefaleia primária mais prevalente na população geral', 'A cefaleia do tipo tensional é a mais prevalente na população, mas a enxaqueca é a que mais leva o paciente a procurar atendimento', 'A enxaqueca é mais prevalente em homens do que em mulheres na idade adulta', 'A cefaleia do tipo tensional é a principal causa de incapacidade entre as cefaleias'],
+    o: ['A cefaleia em salvas é a cefaleia primária mais prevalente na população geral', 'A tensional é a mais prevalente, mas a enxaqueca mais leva à procura de atendimento', 'A enxaqueca é mais prevalente em homens do que em mulheres adultas', 'A cefaleia tensional é a principal causa de incapacidade entre as cefaleias'],
     g: 'B',
     c: 'A cefaleia do tipo tensional é a cefaleia primária mais comum na população geral, mas, por ser leve a moderada e pouco incapacitante, raramente motiva consulta. A enxaqueca, embora menos prevalente, é mais intensa e incapacitante e por isso predomina em ambulatórios e serviços de emergência.',
     x: { A: 'A cefaleia em salvas é rara, acometendo bem menos de 1% da população.', C: 'Na idade adulta a enxaqueca é cerca de duas a três vezes mais comum em mulheres.', D: 'A enxaqueca é a cefaleia que mais causa incapacidade, e não a tensional.' },
@@ -29,7 +29,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Sinais de alarme',
     e: 'O mnemônico SNOOP é usado para lembrar os sinais de alarme na avaliação da cefaleia. A primeira letra S refere-se a:',
-    o: ['Sintomas sensitivos unilaterais que precedem a dor', 'Sintomas ou doenças sistêmicas, como febre, perda de peso, neoplasia e imunossupressão', 'Sexo feminino em idade fértil', 'Sono não reparador e insônia associados'],
+    o: ['Sintomas sensitivos unilaterais que precedem a dor, como parestesias', 'Sintomas sistêmicos: febre, perda de peso, neoplasia, imunossupressão', 'Sexo feminino em idade fértil, com uso de anticoncepcional', 'Sono não reparador e insônia associados à cefaleia'],
     g: 'B',
     c: 'No SNOOP, S indica sinais e sintomas sistêmicos (febre, emagrecimento) ou doenças sistêmicas de risco (câncer, HIV, imunossupressão); N, sinais ou sintomas neurológicos; O, início súbito (onset) e idade de início acima de 50 anos (older); P, mudança de padrão, progressão, piora postural ou com Valsalva, papiledema e gestação. A presença de qualquer um deles aumenta a chance de cefaleia secundária e indica investigação.',
     x: { A: 'Sintomas sensitivos transitórios podem ser aura; déficits neurológicos entram na letra N.', C: 'O sexo feminino não é sinal de alarme para cefaleia secundária.', D: 'Distúrbios do sono são comorbidades comuns, não sinais de alarme do mnemônico.' },
@@ -37,7 +37,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Sinais de alarme',
     e: 'Todas as características abaixo são consideradas sinais de alarme na avaliação de um paciente com cefaleia, EXCETO:',
-    o: ['Cefaleia que atinge intensidade máxima em menos de um minuto', 'Primeira cefaleia da vida iniciada após os 50 anos', 'Cefaleia nova em paciente com neoplasia conhecida', 'Cefaleia recorrente há anos, com o mesmo padrão, desencadeada por jejum e estresse'],
+    o: ['Cefaleia que atinge intensidade máxima em menos de um minuto', 'Primeira cefaleia da vida iniciada após os 50 anos', 'Cefaleia nova em paciente com neoplasia conhecida', 'Cefaleia recorrente há anos, de mesmo padrão, por jejum e estresse'],
     g: 'D',
     c: 'Cefaleia recorrente de longa data, com padrão estável e desencadeantes típicos, é característica de cefaleia primária e não constitui sinal de alarme. Os sinais de alarme apontam para mudança recente: início súbito, início tardio, doença sistêmica associada, déficit neurológico, progressão ou alteração do padrão habitual.',
     x: { A: 'Início em trovoada é sinal de alarme e obriga a excluir hemorragia subaracnoide.', B: 'Início após os 50 anos sugere causa secundária, como arterite de células gigantes ou tumor.', C: 'Neoplasia conhecida levanta a suspeita de metástase ou carcinomatose meníngea.' },
@@ -69,7 +69,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Imunossupressão',
     e: 'Homem de 34 anos, com infecção pelo HIV e contagem de CD4 de 60 células, sem tratamento, apresenta cefaleia holocraniana progressiva há duas semanas, com febre baixa. Exame neurológico sem déficits focais. A conduta mais adequada é:',
-    o: ['Tratar como cefaleia do tipo tensional e orientar retorno se houver piora', 'Realizar neuroimagem e, na ausência de contraindicação, punção lombar com pesquisa de criptococo', 'Iniciar profilaxia para enxaqueca com propranolol', 'Solicitar apenas sorologia para toxoplasmose e aguardar o resultado em ambulatório'],
+    o: ['Tratar como cefaleia tensional e orientar retorno se piorar', 'Fazer neuroimagem e, se possível, punção lombar com pesquisa de criptococo', 'Iniciar profilaxia para enxaqueca com propranolol, em dose habitual', 'Pedir só sorologia para toxoplasmose e aguardar em ambulatório'],
     g: 'B',
     c: 'Cefaleia nova em imunossuprimido grave é sinal de alarme, mesmo com exame normal, pela possibilidade de neurotoxoplasmose, linfoma primário e meningite criptocócica. A imagem identifica lesões expansivas, e o líquor, com medida da pressão de abertura e pesquisa do antígeno criptocócico, é essencial porque a meningite criptocócica pode cursar apenas com cefaleia e febre.',
     x: { A: 'Atribuir a cefaleia primária sem investigação é erro grave em imunossuprimido.', C: 'Não se trata de enxaqueca: a cefaleia é nova, progressiva e com febre.', D: 'A sorologia isolada não exclui infecção oportunista do sistema nervoso central.' },
@@ -101,7 +101,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Cefaleia desencadeada por Valsalva',
     e: 'Mulher de 31 anos refere, há quatro meses, cefaleia occipital de curta duração desencadeada exclusivamente por tosse, espirro e esforço evacuatório. O exame mais indicado é:',
-    o: ['Nenhum, pois se trata de cefaleia primária da tosse', 'Ressonância magnética de crânio, com avaliação da fossa posterior e da transição craniocervical', 'Radiografia de seios da face', 'Eletroneuromiografia de membros superiores'],
+    o: ['Nenhum, pois se trata de cefaleia primária da tosse, benigna', 'RM de crânio, com avaliação da fossa posterior e da transição craniocervical', 'Radiografia de seios da face, para pesquisa de sinusite', 'Eletroneuromiografia de membros superiores, para radiculopatia'],
     g: 'B',
     c: 'Cefaleia provocada por manobra de Valsalva é sinal de alarme, pois parte importante dos casos é secundária, principalmente à malformação de Chiari tipo I e a lesões de fossa posterior. A Valsalva eleva de forma abrupta a pressão intracraniana, e a obstrução ao fluxo liquórico no forame magno gera dor; a ressonância é o exame que melhor avalia essa região.',
     x: { A: 'A forma primária é diagnóstico de exclusão, feito somente após imagem normal.', C: 'Seios da face não explicam cefaleia desencadeada apenas por Valsalva.', D: 'A eletroneuromiografia avalia nervos periféricos e não tem papel aqui.' },
@@ -117,7 +117,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Neoplasia conhecida',
     e: 'Mulher de 58 anos, em tratamento de carcinoma de mama, passa a apresentar cefaleia diária há três semanas, pior pela manhã, com náuseas. Exame neurológico normal. O exame de escolha é:',
-    o: ['Tomografia de crânio sem contraste, apenas', 'Ressonância magnética de crânio com contraste', 'Radiografia de coluna cervical', 'Cintilografia óssea'],
+    o: ['Tomografia de crânio sem contraste, apenas, sem outros exames', 'RM de crânio com contraste, para pesquisa de metástases', 'Radiografia de coluna cervical, para pesquisa de metástases', 'Cintilografia óssea, para pesquisa de metástases ósseas'],
     g: 'B',
     c: 'Cefaleia nova em paciente oncológico exige pesquisa de metástases parenquimatosas e de acometimento meníngeo. A ressonância com gadolínio é mais sensível que a tomografia para pequenas lesões, lesões de fossa posterior e realce leptomeníngeo, pois o contraste evidencia a quebra da barreira hematoencefálica.',
     x: { A: 'A tomografia sem contraste pode não mostrar metástases pequenas ou meníngeas.', C: 'A coluna cervical não explica cefaleia matinal com náuseas nesse contexto.', D: 'A cintilografia avalia o esqueleto, não o parênquima cerebral ou as meninges.' },
@@ -133,7 +133,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Diário de cefaleia',
     e: 'O diário de cefaleia é recomendado no acompanhamento ambulatorial dos pacientes com cefaleia recorrente. Sua principal utilidade é:',
-    o: ['Substituir o exame neurológico nas consultas de retorno', 'Registrar frequência, duração, desencadeantes e consumo de medicação sintomática, orientando diagnóstico e resposta ao tratamento', 'Dispensar a investigação quando existem sinais de alarme', 'Definir a necessidade de neuroimagem conforme a intensidade da dor'],
+    o: ['Substituir o exame neurológico completo nas consultas de retorno do paciente', 'Registrar frequência, duração, gatilhos e uso de analgésicos', 'Dispensar a investigação adicional quando existem sinais de alarme clínicos', 'Definir a necessidade de neuroimagem conforme a intensidade da dor referida'],
     g: 'B',
     c: 'O diário quantifica os dias de dor e os dias de uso de medicação sintomática, informações que o paciente costuma subestimar na consulta. Ele permite reconhecer cefaleia crônica e uso excessivo de medicamentos, identificar desencadeantes e medir objetivamente a resposta à profilaxia.',
     x: { A: 'O diário complementa a avaliação clínica, mas não substitui o exame neurológico.', C: 'Sinais de alarme indicam investigação independentemente do diário.', D: 'A indicação de imagem depende de sinais de alarme, não da intensidade da dor.' },
@@ -141,7 +141,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Tensional: critérios',
     e: 'Segundo a ICHD-3, a cefaleia do tipo tensional caracteriza-se tipicamente por dor:',
-    o: ['Unilateral, pulsátil, intensa, agravada pela atividade física', 'Bilateral, em pressão ou aperto, leve a moderada, não agravada pela atividade física rotineira', 'Unilateral, orbitária, excruciante, com lacrimejamento ipsilateral', 'Em choque, com segundos de duração, desencadeada pelo toque na face'],
+    o: ['Unilateral, pulsátil, intensa, agravada pela atividade física', 'Bilateral, em pressão ou aperto, leve a moderada, sem piora com a atividade rotineira', 'Unilateral, orbitária, excruciante, com lacrimejamento ipsilateral', 'Em choque, com segundos de duração, desencadeada pelo toque na face'],
     g: 'B',
     c: 'A cefaleia do tipo tensional exige pelo menos duas de quatro características: localização bilateral, caráter em pressão ou aperto (não pulsátil), intensidade leve a moderada e ausência de piora com atividade física rotineira. Dura de 30 minutos a 7 dias, sem náuseas ou vômitos.',
     x: { A: 'Essas são as características da dor da enxaqueca.', C: 'Essa descrição corresponde à cefaleia em salvas.', D: 'Dor em choque com zona-gatilho é típica da neuralgia do trigêmeo.' },
@@ -149,7 +149,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Tensional: diagnóstico',
     e: 'Homem de 35 anos, analista de sistemas, tem cerca de quatro episódios por mês de dor em faixa na cabeça, em aperto, de intensidade moderada, que surge no fim do dia e dura algumas horas. Consegue continuar trabalhando, nega náuseas e fotofobia. Exame normal. O diagnóstico é:',
-    o: ['Enxaqueca sem aura', 'Cefaleia do tipo tensional episódica frequente', 'Cefaleia em salvas episódica', 'Hemicrania contínua'],
+    o: ['Enxaqueca sem aura, com crises pulsáteis e fotofobia', 'Cefaleia tensional episódica frequente', 'Cefaleia em salvas episódica, com sinais autonômicos', 'Hemicrania contínua, com dor unilateral diária'],
     g: 'B',
     c: 'Dor bilateral em aperto, moderada, que não impede as atividades e não se acompanha de náuseas nem de fotofobia define a cefaleia do tipo tensional. A ocorrência em 1 a 14 dias por mês classifica a forma como episódica frequente.',
     x: { A: 'Faltam o caráter pulsátil, a piora com atividade e os sintomas associados da enxaqueca.', C: 'A cefaleia em salvas é unilateral, orbitária, excruciante e com sinais autonômicos.', D: 'A hemicrania contínua é estritamente unilateral e contínua, sem intervalos livres.' },
@@ -173,7 +173,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Tensional: exame físico',
     e: 'No exame físico de um paciente com cefaleia do tipo tensional, o achado mais característico é:',
-    o: ['Rigidez de nuca com sinal de Kernig', 'Aumento da sensibilidade dolorosa à palpação da musculatura pericraniana', 'Síndrome de Horner ipsilateral à dor', 'Papiledema bilateral'],
+    o: ['Rigidez de nuca com sinal de Kernig, sugestiva de meningite', 'Aumento da sensibilidade à palpação da musculatura pericraniana', 'Síndrome de Horner ipsilateral à dor, sugestiva de salvas', 'Papiledema bilateral, sugestivo de hipertensão intracraniana'],
     g: 'B',
     c: 'A hipersensibilidade pericraniana à palpação manual (músculos frontal, temporal, masseter, esternocleidomastóideo e trapézio) é o achado mais significativo e aumenta com a frequência e a intensidade da cefaleia. Ela reflete mecanismos miofasciais periféricos, predominantes na forma episódica, aos quais se soma sensibilização central na forma crônica.',
     x: { A: 'Sinais meníngeos indicam meningite ou hemorragia subaracnoide.', C: 'Síndrome de Horner sugere cefaleia em salvas ou dissecção de carótida.', D: 'Papiledema indica hipertensão intracraniana e exige investigação.' },
@@ -181,7 +181,7 @@ export const CEFALEIA_1: QuestaoCompacta[] = [
   {
     s: 'Tensional: tratamento agudo',
     e: 'Mulher de 28 anos tem cefaleia do tipo tensional episódica, com dois episódios por mês. O tratamento mais adequado das crises é:',
-    o: ['Sumatriptano subcutâneo', 'Analgésico simples ou anti-inflamatório não esteroide, como paracetamol, dipirona ou ibuprofeno', 'Oxigênio a 100% por máscara', 'Codeína associada a relaxante muscular de uso diário'],
+    o: ['Sumatriptano subcutâneo, em dose habitual de 6 mg, no início da dor', 'Analgésico simples ou AINE (paracetamol, dipirona, ibuprofeno)', 'Oxigênio a 100% por máscara, em alto fluxo, por quinze minutos', 'Codeína associada a relaxante muscular, de uso diário e contínuo'],
     g: 'B',
     c: 'As crises de cefaleia do tipo tensional respondem a analgésicos simples e anti-inflamatórios não esteroides, que são a primeira escolha. O uso deve ser limitado a poucos dias por semana para evitar cefaleia por uso excessivo de medicamentos, e com baixa frequência de crises não há indicação de profilaxia.',
     x: { A: 'Triptanos não são eficazes na cefaleia do tipo tensional pura.', C: 'O oxigênio é tratamento da crise de cefaleia em salvas.', D: 'Opioides devem ser evitados pelo risco de dependência e de cronificação da dor.' },

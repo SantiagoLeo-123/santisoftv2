@@ -5,7 +5,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Antiagregação de longo prazo',
     e: 'Homem de 68 anos teve AVE isquêmico por aterosclerose de grandes artérias, sem fibrilação atrial. Para a prevenção secundária de longo prazo, o antitrombótico indicado é:',
-    o: ['Varfarina com INR entre 2 e 3', 'Antiagregante plaquetário em monoterapia, como ácido acetilsalicílico ou clopidogrel', 'Associação de ácido acetilsalicílico e clopidogrel por tempo indeterminado', 'Rivaroxabana em dose plena'],
+    o: ['Varfarina com INR entre 2 e 3, de uso contínuo', 'Antiagregante em monoterapia (AAS ou clopidogrel)', 'AAS associado a clopidogrel por tempo indeterminado', 'Rivaroxabana em dose plena, de uso contínuo'],
     g: 'B',
     c: 'No AVE não cardioembólico, o trombo forma-se sobre placa rota, em ambiente de alto fluxo e rico em plaquetas, e por isso a antiagregação é a base da prevenção. A longo prazo usa-se um único agente. A anticoagulação não é superior e sangra mais, e a dupla antiagregação prolongada aumenta hemorragias sem benefício adicional.',
     x: { A: 'A varfarina não é superior ao antiagregante no AVE não cardioembólico e aumenta o sangramento.', C: 'A dupla antiagregação prolongada aumenta hemorragias graves sem reduzir eventos.', D: 'Os anticoagulantes diretos não têm indicação sem fonte cardioembólica.' },
@@ -13,7 +13,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Dupla antiagregação curta',
     e: 'Mulher de 63 anos apresenta AVE isquêmico menor, com NIHSS de 2, iniciado há 10 horas, não cardioembólico e sem indicação de trombólise. A estratégia antitrombótica recomendada é:',
-    o: ['Ácido acetilsalicílico isolado desde o início', 'Ácido acetilsalicílico associado a clopidogrel por 21 dias, seguido de monoterapia', 'Dupla antiagregação por 12 meses', 'Anticoagulação com enoxaparina em dose plena por 7 dias'],
+    o: ['AAS isolado desde o início, sem segundo antiagregante', 'AAS com clopidogrel por 21 dias; depois monoterapia', 'Dupla antiagregação por 12 meses, de forma contínua', 'Anticoagulação com enoxaparina em dose plena por 7 dias'],
     g: 'B',
     c: 'No AVE menor (NIHSS até 3) e no AIT de alto risco, o risco de recorrência concentra-se nas primeiras semanas. Os estudos CHANCE e POINT mostraram que a dupla antiagregação iniciada nas primeiras 24 horas e mantida por 21 dias reduz novos AVE. Depois desse período o benefício desaparece e o risco de sangramento prevalece, por isso retorna-se à monoterapia.',
     x: { A: 'A monoterapia inicial é menos eficaz que a dupla curta nesse perfil de paciente.', C: 'Prolongar a dupla antiagregação aumenta o sangramento sem ganho adicional.', D: 'A anticoagulação plena aguda não previne recorrência no AVE não cardioembólico.' },
@@ -21,7 +21,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Fibrilação atrial — anticoagulação',
     e: 'Homem de 74 anos, com função renal normal, teve AVE isquêmico e foi diagnosticado com fibrilação atrial não valvar. Para a prevenção secundária, a melhor opção é:',
-    o: ['Ácido acetilsalicílico 100 mg ao dia', 'Anticoagulante oral direto, como apixabana, dabigatrana, rivaroxabana ou edoxabana', 'Ácido acetilsalicílico associado a clopidogrel', 'Apenas controle de frequência cardíaca'],
+    o: ['AAS 100 mg ao dia, como prevenção secundária', 'ACOD (apixabana, dabigatrana, rivaroxabana ou edoxabana)', 'AAS associado a clopidogrel, como prevenção secundária', 'Apenas controle da frequência cardíaca, sem antitrombótico'],
     g: 'B',
     c: 'O AVE prévio coloca o paciente em alto risco embólico, com indicação clara de anticoagulação. Os anticoagulantes diretos são preferidos à varfarina na fibrilação atrial não valvar porque têm eficácia semelhante ou superior e causam cerca de metade das hemorragias intracranianas. Os antiagregantes são muito menos eficazes contra trombos de estase.',
     x: { A: 'O ácido acetilsalicílico protege muito pouco contra embolia de origem atrial.', C: 'A dupla antiagregação é inferior à anticoagulação e sangra de forma semelhante.', D: 'O controle de frequência não reduz o risco de embolia.' },
@@ -29,7 +29,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Fibrilação atrial valvar',
     e: 'Mulher de 55 anos, com estenose mitral reumática moderada e fibrilação atrial, sofreu AVE isquêmico cardioembólico. O anticoagulante de escolha para prevenção secundária é:',
-    o: ['Rivaroxabana', 'Varfarina com alvo de INR entre 2 e 3', 'Dabigatrana', 'Ácido acetilsalicílico em dose alta'],
+    o: ['Rivaroxabana, em dose plena, por via oral', 'Varfarina, com alvo de INR de 2 a 3', 'Dabigatrana, em dose plena, por via oral', 'AAS em dose alta, como único antitrombótico'],
     g: 'B',
     c: 'Na fibrilação atrial associada a estenose mitral moderada a grave ou a prótese valvar mecânica, os anticoagulantes diretos não devem ser usados. Ensaios mostraram mais eventos com dabigatrana em próteses mecânicas e com rivaroxabana na estenose mitral reumática. A varfarina permanece o tratamento padrão nesses casos.',
     x: { A: 'A rivaroxabana foi inferior à varfarina na fibrilação atrial com doença mitral reumática.', C: 'A dabigatrana causou mais tromboses e sangramentos em portadores de prótese mecânica.', D: 'O antiagregante não protege adequadamente na fibrilação atrial valvar.' },
@@ -37,7 +37,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Momento de início da anticoagulação',
     e: 'Paciente com fibrilação atrial apresenta AVE isquêmico extenso, com NIHSS de 19 e infarto de grande volume na tomografia. Sobre o momento de iniciar a anticoagulação oral, é correto afirmar que:',
-    o: ['Deve ser iniciada nas primeiras 6 horas com heparina plena', 'Deve ser adiada por vários dias, mais tempo quanto maior o infarto, pelo risco de transformação hemorrágica', 'Nunca deve ser iniciada após um AVE extenso', 'Deve começar junto com a trombólise intravenosa'],
+    o: ['Iniciar nas primeiras 6 horas, com heparina plena, em todos os casos', 'Adiar por dias, mais quanto maior o infarto, pelo risco hemorrágico', 'Nunca deve ser iniciada após um AVE extenso, em nenhuma situação', 'Começar junto com a trombólise intravenosa, no mesmo dia do AVE'],
     g: 'B',
     c: 'O tecido infartado tem barreira hematoencefálica rompida e vasos frágeis, de modo que a anticoagulação precoce em infartos grandes favorece a transformação hemorrágica. Por isso o início é escalonado conforme o tamanho: muito cedo no AIT e nos infartos pequenos, e mais tarde, em geral após cerca de uma a duas semanas, nos extensos. Até lá mantém-se o antiagregante.',
     x: { A: 'A heparina plena precoce aumenta a hemorragia sem reduzir a recorrência de forma líquida.', C: 'A anticoagulação é necessária, pois o risco embólico de longo prazo é alto.', D: 'Antitrombóticos são proibidos nas primeiras 24 horas após o trombolítico.' },
@@ -45,7 +45,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Estatina',
     e: 'Na prevenção secundária do AVE isquêmico de origem aterosclerótica, a conduta correta quanto aos lipídios é:',
-    o: ['Indicar estatina apenas se o LDL estiver acima de 190 mg/dL', 'Iniciar estatina de alta potência, com meta de LDL inferior a 70 mg/dL ou mais baixa', 'Preferir fibratos, pois o triglicerídeo é o principal determinante', 'Evitar estatina pelo risco de hemorragia cerebral'],
+    o: ['Estatina só se o LDL estiver acima de 190 mg/dL', 'Estatina de alta potência, com LDL < 70 mg/dL ou menos', 'Preferir fibratos, pois o triglicerídeo é o principal determinante', 'Evitar estatina, pelo risco de hemorragia cerebral'],
     g: 'B',
     c: 'O estudo SPARCL mostrou que atorvastatina 80 mg reduz a recorrência de AVE e eventos coronarianos, e estudos posteriores indicaram benefício de metas de LDL abaixo de 70 mg/dL; a diretriz brasileira de dislipidemias classifica esse paciente como de risco muito alto, com meta ainda mais baixa. Além de reduzir o LDL, as estatinas estabilizam a placa aterosclerótica.',
     x: { A: 'A estatina é indicada independentemente do LDL basal nesse cenário.', C: 'Os fibratos não reduzem a recorrência de AVE aterosclerótico.', D: 'O pequeno aumento de hemorragia é superado pelo benefício no AVE isquêmico aterosclerótico.' },
@@ -61,7 +61,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Endarterectomia de carótida',
     e: 'Homem de 67 anos teve AIT com paresia do braço direito há 5 dias. A angiotomografia mostra estenose de 80% da carótida interna esquerda e de 40% da direita. Além do tratamento clínico otimizado, indica-se:',
-    o: ['Seguimento com Doppler anual, sem intervenção', 'Endarterectomia da carótida esquerda, idealmente nas primeiras 2 semanas', 'Endarterectomia bilateral no mesmo ato', 'Anticoagulação oral por 6 meses e reavaliação'],
+    o: ['Seguimento com Doppler anual, sem intervenção cirúrgica ou endovascular', 'Endarterectomia da carótida esquerda, idealmente em até 2 semanas', 'Endarterectomia bilateral das carótidas, no mesmo ato cirúrgico', 'Anticoagulação oral por 6 meses, com reavaliação ultrassonográfica'],
     g: 'B',
     c: 'Na estenose carotídea sintomática de 70 a 99%, a endarterectomia reduz de forma expressiva o risco de AVE ipsilateral, como demonstrado nos estudos NASCET e ECST. O benefício é maior quando realizada até 2 semanas do evento, pois o risco de recorrência é mais alto nesse período. Entre 50 e 69% o benefício é menor, e abaixo de 50% não há indicação.',
     x: { A: 'O seguimento isolado deixa o paciente exposto no período de maior risco.', C: 'A carótida direita é assintomática e tem estenose leve, sem indicação cirúrgica.', D: 'A anticoagulação não trata a estenose aterosclerótica carotídea.' },
@@ -85,7 +85,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Estenose carotídea assintomática',
     e: 'Homem de 66 anos, assintomático do ponto de vista neurológico, realiza Doppler de carótidas por sopro cervical e encontra estenose de 40% da carótida interna direita. A conduta é:',
-    o: ['Endarterectomia eletiva', 'Tratamento clínico com controle de fatores de risco, estatina e antiagregante', 'Angioplastia com stent', 'Anticoagulação oral'],
+    o: ['Endarterectomia eletiva, em todos os casos de estenose', 'Tratamento clínico: fatores de risco, estatina e antiagregante', 'Angioplastia com stent, em todos os casos de estenose', 'Anticoagulação oral plena, de uso contínuo'],
     g: 'B',
     c: 'Estenoses assintomáticas abaixo de 60% têm risco anual de AVE muito baixo, menor que o risco do procedimento. O tratamento é clínico intensivo. A revascularização em assintomáticos só é considerada em estenoses graves, em pacientes selecionados com baixo risco cirúrgico e boa expectativa de vida.',
     x: { A: 'O risco cirúrgico supera o benefício em estenose leve e assintomática.', C: 'O stent também não é indicado em estenose leve assintomática.', D: 'A anticoagulação não tem papel na aterosclerose carotídea.' },
@@ -101,7 +101,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Dissecção arterial cervical',
     e: 'Homem de 36 anos apresenta dor cervical e cefaleia à direita após acidente com movimento brusco do pescoço. Dois dias depois surgem ptose e miose à direita, sem anidrose facial, e a seguir hemiparesia esquerda. O diagnóstico mais provável e o exame para confirmá-lo são:',
-    o: ['Enxaqueca com aura; nenhum exame', 'Dissecção da carótida interna direita; angiotomografia ou angiorressonância cervical', 'Trombose venosa cerebral; venografia', 'Arterite temporal; biópsia de artéria temporal'],
+    o: ['Enxaqueca com aura; nenhum exame necessário, só analgesia', 'Dissecção da carótida interna direita; angio-TC ou angio-RM cervical', 'Trombose venosa cerebral; venografia por ressonância magnética', 'Arterite temporal de células gigantes; biópsia da artéria temporal'],
     g: 'B',
     c: 'A dissecção carotídea é causa importante de AVE em jovens. O hematoma na parede distende as fibras simpáticas que acompanham a carótida interna, causando síndrome de Horner parcial e dolorosa, sem anidrose, pois as fibras sudomotoras da face seguem a carótida externa. A luz estreitada gera trombo e embolia distal.',
     x: { A: 'A aura da enxaqueca não causa síndrome de Horner nem déficit persistente.', C: 'A trombose venosa não explica Horner ipsilateral com dor cervical.', D: 'A arterite temporal ocorre após os 50 anos e não causa esse quadro.' },
@@ -125,7 +125,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'AVE criptogênico',
     e: 'Homem de 70 anos teve AVE isquêmico cortical de padrão embólico. Angiotomografia de vasos, ecocardiograma e Holter de 24 horas foram normais. O próximo passo mais útil na investigação é:',
-    o: ['Encerrar a investigação e iniciar anticoagulação empírica', 'Monitorização cardíaca prolongada para pesquisa de fibrilação atrial paroxística', 'Biópsia cerebral', 'Angiografia coronariana'],
+    o: ['Encerrar a investigação e iniciar anticoagulação empírica', 'Monitorização cardíaca prolongada para pesquisa de FA paroxística', 'Biópsia cerebral, para pesquisa de vasculite primária', 'Angiografia coronariana, para pesquisa de fonte embólica'],
     g: 'B',
     c: 'A fibrilação atrial paroxística é frequentemente assintomática e escapa ao Holter de 24 horas. A monitorização prolongada, com dispositivos externos por semanas ou monitor implantável, aumenta bastante a detecção. O achado muda a conduta de antiagregação para anticoagulação. A anticoagulação empírica no AVE embólico de fonte indeterminada não mostrou benefício.',
     x: { A: 'A anticoagulação empírica não foi superior ao antiagregante e sangrou mais.', C: 'A biópsia cerebral não tem papel sem suspeita de vasculite ou neoplasia.', D: 'A coronariografia não esclarece a causa do AVE.' },
@@ -133,7 +133,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'AVE no jovem',
     e: 'Mulher de 29 anos, com três abortos espontâneos prévios e livedo reticular, apresenta AVE isquêmico. O coagulograma mostra tempo de tromboplastina parcial ativada prolongado, que não corrige com a mistura com plasma normal. A hipótese diagnóstica é:',
-    o: ['Hemofilia A adquirida', 'Síndrome do anticorpo antifosfolípide', 'Deficiência de fator XII', 'Doença de von Willebrand'],
+    o: ['Hemofilia A adquirida, com TTPa prolongado e sangramento', 'Síndrome do anticorpo antifosfolípide', 'Deficiência de fator XII, com TTPa prolongado e sem trombose', 'Doença de von Willebrand, com sangramento mucocutâneo'],
     g: 'B',
     c: 'A síndrome antifosfolípide causa tromboses arteriais e venosas e perdas gestacionais. O anticoagulante lúpico prolonga o tempo de tromboplastina parcial in vitro por interferir com os fosfolípides do reagente, sem correção na mistura, mas in vivo o efeito é pró-trombótico. O diagnóstico exige anticorpos positivos em duas dosagens com intervalo de 12 semanas, e o tratamento do evento arterial é com varfarina.',
     x: { A: 'A hemofilia adquirida causa sangramento, não trombose nem abortos.', C: 'A deficiência de fator XII corrige na mistura e não causa esse quadro clínico.', D: 'A doença de von Willebrand é distúrbio hemorrágico.' },
@@ -141,7 +141,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'AVE no jovem — causas',
     e: 'Em adultos com menos de 45 anos, as causas de AVE isquêmico diferem das dos idosos. Assinale a alternativa que reúne causas características dessa faixa etária:',
-    o: ['Angiopatia amiloide e aterosclerose carotídea avançada', 'Dissecção arterial cervical, forame oval patente, trombofilias e uso de drogas ilícitas', 'Doença de pequenos vasos por hipertensão de longa data, exclusivamente', 'Fibrilação atrial degenerativa e calcificação do anel mitral'],
+    o: ['Angiopatia amiloide e aterosclerose carotídea avançada', 'Dissecção cervical, forame oval patente, trombofilias e drogas ilícitas', 'Doença de pequenos vasos por hipertensão de longa data, exclusivamente', 'FA degenerativa e calcificação do anel mitral'],
     g: 'B',
     c: 'No jovem predominam causas não ateroscleróticas: dissecção arterial (a mais comum causa identificável em muitas séries), embolia paradoxal por forame oval patente, estados de hipercoagulabilidade como a síndrome antifosfolípide, cardiopatias, vasculites, anemia falciforme e drogas como cocaína e anfetaminas, que causam vasoespasmo e picos hipertensivos.',
     x: { A: 'A angiopatia amiloide e a aterosclerose avançada são doenças do idoso.', C: 'A doença de pequenos vasos ocorre em jovens, mas não é a causa exclusiva nem a mais típica.', D: 'A fibrilação atrial degenerativa e a calcificação mitral são próprias da idade avançada.' },
@@ -149,7 +149,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Anemia falciforme',
     e: 'Criança de 7 anos com anemia falciforme (hemoglobina SS) apresenta velocidade de fluxo muito elevada na artéria cerebral média ao Doppler transcraniano de rastreamento, confirmada em novo exame. A medida indicada para prevenção primária de AVE é:',
-    o: ['Ácido acetilsalicílico em dose baixa', 'Programa de transfusões crônicas para reduzir a hemoglobina S', 'Anticoagulação com varfarina', 'Apenas repetir o Doppler em 1 ano'],
+    o: ['AAS em dose baixa, como prevenção primária de AVE', 'Transfusões crônicas, para reduzir a hemoglobina S', 'Anticoagulação com varfarina, como prevenção primária', 'Apenas repetir o Doppler em 1 ano, sem intervenção'],
     g: 'B',
     c: 'Na anemia falciforme, a vasculopatia estenosante das grandes artérias intracranianas eleva a velocidade de fluxo ao Doppler transcraniano, e valores muito altos indicam risco elevado de AVE. O estudo STOP mostrou que transfusões regulares, mantendo a hemoglobina S abaixo de 30%, reduzem esse risco em cerca de 90%.',
     x: { A: 'O antiagregante não previne o AVE na vasculopatia falciforme.', C: 'A anticoagulação não atua no mecanismo da vasculopatia falciforme.', D: 'Repetir o exame sem intervir mantém a criança sob alto risco.' },
@@ -157,7 +157,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Trombose venosa cerebral — quadro',
     e: 'Mulher de 27 anos, no décimo dia de puerpério, apresenta cefaleia progressiva há 5 dias, que piora ao deitar, seguida de crise convulsiva e paresia no membro inferior esquerdo. Ao fundo de olho há papiledema bilateral. A tomografia sem contraste mostra pequena hemorragia parassagital direita. A hipótese principal e o exame confirmatório são:',
-    o: ['Eclâmpsia tardia; dosagem de proteinúria', 'Trombose venosa cerebral; venografia por ressonância ou tomografia', 'Hemorragia subaracnoide aneurismática; punção lombar', 'Enxaqueca complicada; nenhum exame adicional'],
+    o: ['Eclâmpsia tardia; dosagem de proteinúria', 'Trombose venosa cerebral; venografia por RM ou TC', 'Hemorragia subaracnoide aneurismática; punção lombar', 'Enxaqueca complicada; nenhum exame adicional'],
     g: 'B',
     c: 'A trombose venosa cerebral ocorre sobretudo em mulheres jovens em estados pró-trombóticos, como puerpério, gestação e uso de anticoncepcional. A obstrução venosa eleva a pressão intracraniana (cefaleia, papiledema) e causa infartos venosos, frequentemente hemorrágicos e fora de territórios arteriais, com crises convulsivas. O diagnóstico é feito por venografia.',
     x: { A: 'A eclâmpsia não explica papiledema com hemorragia parassagital e déficit focal progressivo.', C: 'A hemorragia aneurismática tem cefaleia súbita e sangue nas cisternas da base.', D: 'Enxaqueca não causa papiledema, convulsão e hemorragia.' },
@@ -181,7 +181,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Profilaxia de trombose venosa',
     e: 'Mulher de 78 anos está internada com AVE isquêmico e hemiplegia esquerda, restrita ao leito, sem ter recebido trombolítico. Para a profilaxia de tromboembolismo venoso, a medida com benefício demonstrado é:',
-    o: ['Meias elásticas de compressão graduada', 'Compressão pneumática intermitente, podendo-se associar heparina em dose profilática', 'Filtro de veia cava profilático', 'Repouso absoluto com elevação dos membros'],
+    o: ['Meias elásticas de compressão graduada, em ambos os membros', 'Compressão pneumática intermitente ± heparina profilática', 'Filtro de veia cava profilático, de rotina em todos', 'Repouso absoluto com elevação dos membros inferiores'],
     g: 'B',
     c: 'O membro plégico tem estase venosa acentuada, com alto risco de trombose. A compressão pneumática intermitente reduziu trombose venosa e mortalidade no estudo CLOTS 3. A heparina profilática também reduz eventos, com discreto aumento de sangramento. As meias elásticas não mostraram benefício e causaram lesões de pele.',
     x: { A: 'As meias elásticas não reduziram trombose e provocaram lesões cutâneas.', C: 'O filtro de cava não é medida de profilaxia primária.', D: 'A imobilidade é justamente o fator que causa a trombose.' },
@@ -189,7 +189,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Reabilitação',
     e: 'Em relação à reabilitação após o AVE, é correto afirmar que:',
-    o: ['Deve começar apenas após 3 meses, quando o quadro se estabiliza', 'Deve começar precocemente, ainda na internação, pois a maior parte da recuperação ocorre nos primeiros meses', 'Não há recuperação possível após o primeiro mês', 'A mobilização muito intensa nas primeiras 24 horas é a estratégia de melhor resultado'],
+    o: ['Deve começar só após 3 meses, quando o quadro se estabiliza', 'Começar cedo, na internação: a maior parte da recuperação é nos primeiros meses', 'Não há recuperação possível após o primeiro mês de evolução do AVE', 'Mobilização muito intensa nas primeiras 24 horas dá o melhor resultado'],
     g: 'B',
     c: 'A neuroplasticidade é mais intensa nas primeiras semanas a meses, período em que ocorre a maior parte do ganho funcional. A reabilitação multiprofissional deve iniciar assim que o paciente estiver estável. O estudo AVERT mostrou, porém, que mobilização muito precoce e de alta intensidade nas primeiras 24 horas piorou o desfecho.',
     x: { A: 'Atrasar a reabilitação desperdiça o período de maior plasticidade.', C: 'A recuperação continua por meses, embora em ritmo decrescente.', D: 'A mobilização muito intensa nas primeiras 24 horas teve pior desfecho.' },
@@ -197,7 +197,7 @@ export const AVE_3: QuestaoCompacta[] = [
   {
     s: 'Depressão pós-AVE',
     e: 'Homem de 66 anos, 2 meses após AVE isquêmico, mostra-se desanimado, com insônia, choro fácil e recusa em participar da fisioterapia. Sobre essa situação, é correto afirmar que:',
-    o: ['É reação esperada, sem necessidade de avaliação ou tratamento', 'A depressão pós-AVE é frequente, prejudica a recuperação funcional e deve ser rastreada e tratada', 'Antidepressivos são contraindicados após o AVE', 'O quadro indica necessariamente novo evento isquêmico'],
+    o: ['É reação esperada, sem necessidade de avaliação ou tratamento', 'Depressão pós-AVE é frequente, atrapalha a recuperação; rastrear e tratar', 'Antidepressivos são contraindicados após o AVE isquêmico', 'O quadro indica, necessariamente, novo evento isquêmico'],
     g: 'B',
     c: 'A depressão acomete cerca de um terço dos sobreviventes de AVE e associa-se a pior adesão à reabilitação, pior recuperação funcional e maior mortalidade. Resulta tanto da lesão de circuitos frontossubcorticais quanto da reação à incapacidade. O rastreamento é recomendado, e os inibidores seletivos da recaptação de serotonina são eficazes.',
     x: { A: 'O quadro tem impacto prognóstico e tratamento eficaz, não deve ser ignorado.', C: 'Os inibidores de recaptação de serotonina são usados com segurança.', D: 'Sintomas depressivos sem novo déficit focal não indicam novo AVE.' },

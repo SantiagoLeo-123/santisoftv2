@@ -13,7 +13,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Nódulo pulmonar solitário',
     e: 'Mulher de 52 anos, não fumante, tem nódulo de 9 mm no lobo inferior esquerdo, achado em tomografia feita antes de uma cirurgia. Antes de solicitar qualquer novo exame, a primeira medida na avaliação desse nódulo é:',
-    o: ['Solicitar PET-CT', 'Procurar e comparar com exames de imagem do tórax anteriores', 'Indicar punção transtorácica guiada por tomografia', 'Solicitar broncoscopia flexível'],
+    o: ['Solicitar PET-CT, de imediato, antes de qualquer comparação', 'Buscar e comparar com exames de imagem do tórax anteriores', 'Indicar punção transtorácica guiada por tomografia, de imediato', 'Solicitar broncoscopia flexível, de imediato, para biópsia'],
     g: 'B',
     c: 'A comparação com exames antigos é o passo inicial, barato e muitas vezes decisivo: um nódulo sólido que permanece estável por pelo menos 2 anos é considerado benigno e dispensa investigação, enquanto um nódulo novo ou em crescimento exige conduta ativa. Essa informação define a velocidade de crescimento sem expor o paciente a risco.',
     x: { A: 'O PET-CT pode ser dispensado se houver prova de estabilidade em exames antigos.', C: 'A punção é invasiva e só se justifica depois de estimada a probabilidade de malignidade.', D: 'A broncoscopia tem baixo rendimento em nódulo periférico pequeno e não é a primeira medida.' },
@@ -45,7 +45,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Nódulo pulmonar solitário',
     e: 'Um nódulo pulmonar sólido aumentou de 10 mm para 13 mm de diâmetro entre duas tomografias feitas com 4 meses de intervalo. Sobre esse crescimento, é correto afirmar:',
-    o: ['É irrelevante, pois o diâmetro aumentou apenas 30%', 'Corresponde a cerca de uma duplicação do volume em 4 meses, velocidade compatível com malignidade', 'É rápido demais para neoplasia e indica processo infeccioso', 'É lento demais para neoplasia e indica granuloma'],
+    o: ['É irrelevante, pois o diâmetro aumentou apenas 30% em 4 meses', 'Equivale a ~duplicação do volume em 4 meses: compatível com malignidade', 'É rápido demais para neoplasia e indica processo infeccioso agudo', 'É lento demais para neoplasia e indica granuloma estável'],
     g: 'B',
     c: 'O volume de uma esfera varia com o cubo do raio, de modo que um aumento de apenas 26% no diâmetro já representa a duplicação do volume. Passar de 10 para 13 mm em 4 meses significa um tempo de duplicação em torno de 120 dias, dentro da faixa de 20 a 400 dias típica dos tumores malignos sólidos.',
     x: { A: 'Pequenas variações de diâmetro representam grandes variações de volume e têm significado clínico.', C: 'Processos infecciosos e inflamatórios costumam dobrar de volume em menos de 20 dias.', D: 'Lesões benignas estáveis têm tempo de duplicação acima de 400 dias ou não crescem.' },
@@ -69,7 +69,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Nódulo pulmonar solitário',
     e: 'Em um nódulo pulmonar sólido de 1,5 cm, não calcificado, a tomografia dinâmica com contraste mostra aumento de densidade de apenas 8 unidades Hounsfield após a injeção. Esse resultado:',
-    o: ['Confirma malignidade, pois tumores são hipovasculares', 'Sugere fortemente benignidade, pois nódulos malignos costumam realçar mais de 15 unidades Hounsfield', 'Não tem qualquer valor, pois o realce não se relaciona com a natureza do nódulo', 'Indica hamartoma, pois a gordura não capta contraste'],
+    o: ['Confirma malignidade, pois os tumores são hipovasculares e não realçam', 'Realce < 15 UH sugere benignidade; malignos costumam realçar mais de 15 UH', 'Não tem qualquer valor, pois o realce não se relaciona com a natureza', 'Indica hamartoma, pois a gordura não capta contraste iodado'],
     g: 'B',
     c: 'Os tumores malignos dependem de neoangiogênese e por isso captam o contraste de forma mais intensa. Realce inferior a 15 unidades Hounsfield tem alto valor preditivo negativo para malignidade. O inverso não é verdadeiro: realce elevado é pouco específico, pois lesões inflamatórias ativas também são vascularizadas.',
     x: { A: 'Os tumores malignos são, ao contrário, mais vascularizados e realçam mais.', C: 'O grau de realce reflete a vascularização e tem bom valor para excluir malignidade.', D: 'O hamartoma é reconhecido pela densidade negativa de gordura sem contraste, não pelo estudo de realce.' },
@@ -85,7 +85,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Conduta no nódulo',
     e: 'Homem de 57 anos, tabagista de 30 maços-ano, assintomático, tem nódulo sólido único de 7 mm no lobo superior esquerdo, não calcificado, sem exames anteriores para comparação. Segundo a Sociedade Fleischner, a conduta é:',
-    o: ['Nenhum seguimento', 'Tomografia de tórax de controle em 6 a 12 meses', 'Lobectomia com esvaziamento linfonodal', 'Mediastinoscopia'],
+    o: ['Nenhum seguimento, pois o nódulo é pequeno', 'TC de tórax de controle em 6 a 12 meses', 'Lobectomia com esvaziamento linfonodal, de imediato', 'Mediastinoscopia, de imediato, para estadiamento'],
     g: 'B',
     c: 'Nódulos sólidos de 6 a 8 mm têm risco baixo, mas não desprezível, de malignidade e são pequenos demais para PET-CT ou biópsia confiáveis. A conduta é verificar o crescimento com tomografia em 6 a 12 meses e, se estável, considerar novo controle em 18 a 24 meses. O crescimento documentado é o que dispara a investigação invasiva.',
     x: { A: 'Dispensar seguimento só é aceitável para nódulos menores que 6 mm em baixo risco.', C: 'Cirurgia sem evidência de crescimento ou de malignidade é desproporcional para um nódulo de 7 mm.', D: 'A mediastinoscopia é método de estadiamento linfonodal, não de avaliação de nódulo parenquimatoso.' },
@@ -101,7 +101,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Conduta no nódulo',
     e: 'Homem de 68 anos, tabagista de 50 maços-ano, tem nódulo de 2,4 cm no lobo superior direito, espiculado, que não existia em tomografia de 1 ano antes. O PET-CT mostra captação intensa apenas no nódulo. A função pulmonar e a avaliação cardiológica são normais. A melhor conduta é:',
-    o: ['Tomografia de controle em 3 meses', 'Ressecção cirúrgica por videotoracoscopia, com exame de congelação', 'Curso de antibiótico e nova tomografia em 6 semanas', 'Quimioterapia baseada em platina'],
+    o: ['Tomografia de controle em 3 meses, sem outra conduta', 'Ressecção por videotoracoscopia, com congelação', 'Curso de antibiótico e nova tomografia em 6 semanas', 'Quimioterapia baseada em platina, antes de qualquer biópsia'],
     g: 'B',
     c: 'Quando a probabilidade de malignidade é alta (acima de 65%) e o paciente é bom candidato cirúrgico, a ressecção é ao mesmo tempo diagnóstica e terapêutica. Faz-se a ressecção em cunha com exame de congelação e, confirmado o câncer, completa-se a lobectomia com linfadenectomia no mesmo ato. Uma biópsia negativa nesse cenário não seria confiável para excluir tumor.',
     x: { A: 'Observar uma lesão nova, espiculada e hipermetabólica permite a progressão de um tumor curável.', C: 'Não há quadro infeccioso, e o antibiótico apenas atrasaria o tratamento.', D: 'Quimioterapia não se inicia sem diagnóstico histológico e não é o tratamento de doença localizada ressecável.' },
@@ -109,7 +109,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'PET-CT',
     e: 'Qual das situações abaixo é causa reconhecida de resultado falso-negativo do PET-CT com fluordesoxiglicose na avaliação de um nódulo pulmonar?',
-    o: ['Tuberculose em atividade', 'Adenocarcinoma de padrão lepídico em vidro fosco', 'Sarcoidose', 'Histoplasmose'],
+    o: ['Tuberculose em atividade, que costuma ser hipermetabólica', 'Adenocarcinoma de padrão lepídico em vidro fosco', 'Sarcoidose, que costuma ser hipermetabólica', 'Histoplasmose, que costuma ser hipermetabólica'],
     g: 'B',
     c: 'O PET mede o consumo de glicose, que depende da celularidade e da taxa de proliferação. Tumores de baixa atividade metabólica, como o adenocarcinoma lepídico e o carcinoide típico, e nódulos menores que 8 a 10 mm (abaixo da resolução do aparelho) podem não captar. Hiperglicemia no momento do exame também reduz a captação.',
     x: { A: 'A tuberculose ativa capta o traçador e é causa de falso-positivo.', C: 'A sarcoidose, doença granulomatosa ativa, causa falso-positivo.', D: 'As micoses, como a histoplasmose, captam o traçador e causam falso-positivo.' },
@@ -117,7 +117,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'PET-CT',
     e: 'Homem de 55 anos, morador de área endêmica de tuberculose, tem nódulo de 1,8 cm no lobo superior direito e linfonodo mediastinal de 1,2 cm, ambos com captação aumentada no PET-CT. Sobre a interpretação desse exame, é correto afirmar:',
-    o: ['A captação nodal confirma metástase e contraindica a cirurgia', 'A captação pode ocorrer em doenças granulomatosas e infecciosas, de modo que o achado mediastinal exige confirmação histológica', 'O PET-CT positivo dispensa a biópsia do nódulo antes de iniciar quimioterapia', 'O PET-CT tem especificidade próxima de 100% em regiões de alta prevalência de tuberculose'],
+    o: ['A captação nodal confirma metástase e contraindica a cirurgia', 'Captação também em doenças granulomatosas; exigir confirmação histológica', 'O PET-CT positivo dispensa a biópsia do nódulo antes de quimioterapia', 'O PET-CT tem especificidade de ~100% em regiões de alta prevalência de TB'],
     g: 'B',
     c: 'Macrófagos e neutrófilos ativados consomem muita glicose, e por isso tuberculose, micoses, sarcoidose e pneumonias geram falso-positivos. A especificidade do PET cai em áreas endêmicas de doenças granulomatosas, como o Brasil. Um linfonodo mediastinal positivo precisa de comprovação por amostra de tecido antes de se negar ao paciente uma cirurgia curativa.',
     x: { A: 'A captação não é sinônimo de metástase e não pode, isoladamente, contraindicar a ressecção.', C: 'Nenhum tratamento oncológico sistêmico deve ser iniciado sem diagnóstico histológico.', D: 'A especificidade do PET é menor justamente onde há alta prevalência de doença granulomatosa.' },
@@ -125,7 +125,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Nódulo subsólido',
     e: 'Mulher de 56 anos, não fumante, tem nódulo em vidro fosco puro de 10 mm no lobo superior direito, que persiste inalterado em tomografia repetida após 6 meses. Em relação aos nódulos sólidos, o seguimento dos nódulos subsólidos persistentes deve ser:',
-    o: ['Encerrado após 2 anos de estabilidade', 'Mais prolongado, com tomografias por pelo menos 5 anos', 'Feito com PET-CT semestral', 'Substituído por broncoscopia anual'],
+    o: ['Encerrado após 2 anos de estabilidade, como nos nódulos sólidos', 'Mais prolongado, com tomografias por pelo menos 5 anos', 'Feito com PET-CT semestral, por tempo indeterminado', 'Substituído por broncoscopia anual, com biópsia'],
     g: 'B',
     c: 'Os nódulos em vidro fosco persistentes correspondem com frequência a lesões do espectro do adenocarcinoma (hiperplasia adenomatosa atípica, adenocarcinoma in situ ou minimamente invasivo), que crescem muito devagar, com tempo de duplicação que pode superar 2 a 3 anos. Por isso a regra dos 2 anos não se aplica, e a Sociedade Fleischner recomenda controle por 5 anos.',
     x: { A: 'Dois anos de estabilidade só valem como critério de benignidade para nódulos sólidos.', C: 'Lesões em vidro fosco têm baixa captação e o PET-CT não é útil para acompanhá-las.', D: 'A broncoscopia não avalia lesão periférica em vidro fosco e não é método de seguimento.' },
@@ -165,7 +165,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Métodos diagnósticos',
     e: 'A citologia oncótica de escarro tem maior sensibilidade para o diagnóstico de câncer de pulmão quando o tumor é:',
-    o: ['Periférico, menor que 2 cm, do tipo adenocarcinoma', 'Central, com componente endobrônquico, do tipo epidermoide', 'Metastático para o pulmão, de origem renal', 'Um nódulo em vidro fosco puro'],
+    o: ['Periférico, menor que 2 cm, do tipo adenocarcinoma', 'Central, com componente endobrônquico, do tipo epidermoide', 'Metastático para o pulmão, de origem renal', 'Um nódulo em vidro fosco puro, de baixa celularidade'],
     g: 'B',
     c: 'Para que células neoplásicas apareçam no escarro, o tumor precisa comunicar-se com a luz de um brônquio de maior calibre e descamar. Isso ocorre nos tumores centrais, sobretudo no epidermoide, que cresce para dentro da via aérea. Nos tumores periféricos pequenos a sensibilidade é baixa, e um exame negativo nunca exclui o diagnóstico.',
     x: { A: 'Tumores periféricos pequenos raramente eliminam células para o escarro.', C: 'Metástases hematogênicas são intersticiais e periféricas, sem comunicação brônquica.', D: 'Lesões em vidro fosco são periféricas, pouco celulares e não descamam para a via aérea.' },
@@ -173,7 +173,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Estadiamento invasivo do mediastino',
     e: 'Homem de 62 anos tem adenocarcinoma de 3,5 cm no lobo superior direito. O PET-CT mostra captação em linfonodo paratraqueal direito de 1,6 cm, sem lesões a distância. Para confirmar o acometimento mediastinal com o método menos invasivo, indica-se inicialmente:',
-    o: ['Toracotomia com amostragem linfonodal', 'Ultrassonografia endobrônquica com punção aspirativa por agulha (EBUS-TBNA)', 'Nova tomografia em 3 meses', 'Punção transtorácica do tumor primário'],
+    o: ['Toracotomia com amostragem linfonodal, como primeiro passo', 'EBUS-TBNA (US endobrônquica com punção aspirativa)', 'Nova tomografia em 3 meses, sem procedimento invasivo', 'Punção transtorácica do tumor primário, sem avaliar o mediastino'],
     g: 'B',
     c: 'O EBUS usa um transdutor na ponta do broncoscópio para visualizar e puncionar em tempo real linfonodos adjacentes à traqueia e aos brônquios (paratraqueais, subcarinais e hilares), sob sedação e sem incisão. As diretrizes atuais o recomendam como primeiro método de estadiamento invasivo do mediastino; se o resultado for negativo e a suspeita permanecer alta, faz-se a mediastinoscopia.',
     x: { A: 'A toracotomia é muito mais invasiva e não se justifica como primeiro método de estadiamento.', C: 'Aguardar sem definir o estadiamento atrasa o tratamento de um câncer já diagnosticado.', D: 'O tumor primário já tem diagnóstico; a dúvida a resolver é o linfonodo.' },
@@ -181,7 +181,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Estadiamento invasivo do mediastino',
     e: 'Paciente com carcinoma no lobo superior esquerdo tem linfonodo aumentado e hipermetabólico apenas na janela aortopulmonar (estação 5). Essa estação NÃO é alcançada pela mediastinoscopia cervical convencional nem pelo EBUS. O acesso adequado para a biópsia é:',
-    o: ['Broncoscopia flexível com escovado', 'Mediastinotomia anterior esquerda (procedimento de Chamberlain) ou videotoracoscopia', 'Toracocentese diagnóstica', 'Punção por agulha fina da tireoide'],
+    o: ['Broncoscopia flexível com escovado, sem acesso ao linfonodo', 'Mediastinotomia anterior esquerda (Chamberlain) ou VATS', 'Toracocentese diagnóstica, para análise do líquido pleural', 'Punção por agulha fina da tireoide, para análise citológica'],
     g: 'B',
     c: 'A mediastinoscopia cervical percorre o plano pré-traqueal e alcança as estações paratraqueais e a subcarinal anterior, mas o arco aórtico impede o acesso às estações subaórtica (5) e para-aórtica (6). Esses linfonodos, que drenam o lobo superior esquerdo, são abordados por mediastinotomia anterior pelo segundo espaço intercostal esquerdo ou por videotoracoscopia.',
     x: { A: 'O escovado brônquico colhe material da mucosa brônquica, não de linfonodo extrabrônquico.', C: 'A toracocentese analisa líquido pleural e não fornece amostra linfonodal.', D: 'A tireoide não tem relação com a drenagem linfática do lobo superior esquerdo.' },
@@ -189,7 +189,7 @@ export const CA_PULMAO_2: QuestaoCompacta[] = [
   {
     s: 'Estadiamento invasivo do mediastino',
     e: 'Em paciente com câncer de pulmão não pequenas células sem metástases a distância, o estadiamento invasivo do mediastino pode ser dispensado, seguindo-se diretamente para a cirurgia, na seguinte situação:',
-    o: ['Tumor central de 4 cm com linfonodos mediastinais normais à tomografia', 'Tumor periférico de até 3 cm, sem linfonodos aumentados na tomografia e sem captação hilar ou mediastinal no PET-CT', 'Tumor periférico de 2 cm com linfonodo hilar ipsilateral captante no PET-CT', 'Tumor de 2 cm com linfonodo subcarinal de 1,8 cm sem captação no PET-CT'],
+    o: ['Tumor central de 4 cm com linfonodos mediastinais normais à TC', 'Tumor periférico ≤ 3 cm, sem linfonodos na TC e sem captação no PET-CT', 'Tumor periférico de 2 cm com linfonodo hilar ipsilateral captante no PET-CT', 'Tumor de 2 cm com linfonodo subcarinal de 1,8 cm sem captação no PET-CT'],
     g: 'B',
     c: 'O tumor periférico pequeno (T1) com mediastino e hilo negativos na tomografia e no PET-CT tem probabilidade muito baixa de metástase mediastinal oculta, e pode ir direto à ressecção. Tumores centrais, maiores que 3 cm, com suspeita de N1 ou com linfonodos aumentados têm taxa relevante de falso-negativo da imagem e exigem amostragem (EBUS ou mediastinoscopia).',
     x: { A: 'Tumores centrais têm risco elevado de doença N2 oculta mesmo com imagem normal.', C: 'A suspeita de N1 aumenta a chance de N2 oculto e indica estadiamento invasivo.', D: 'Linfonodo aumentado deve ser amostrado mesmo sem captação, pois o PET pode ser falso-negativo.' },

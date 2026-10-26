@@ -5,7 +5,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma na gestação',
     e: 'Sobre a evolução da asma durante a gestação, a descrição clássica é:',
-    o: ['A asma sempre piora, sobretudo no primeiro trimestre', 'Cerca de um terço das gestantes piora, um terço melhora e um terço permanece inalterado', 'A asma sempre melhora, por efeito da progesterona', 'A gestação não exerce nenhuma influência sobre a asma'],
+    o: ['A asma sempre piora, sobretudo no primeiro trimestre', 'Cerca de 1/3 piora, 1/3 melhora e 1/3 permanece inalterado', 'A asma sempre melhora, por efeito da progesterona', 'A gestação não exerce nenhuma influência sobre a asma'],
     g: 'B',
     c: 'A chamada regra dos terços descreve o comportamento variável da asma na gravidez. As exacerbações são mais frequentes no segundo trimestre e muitas vezes decorrem da suspensão indevida do tratamento por receio de efeitos sobre o feto.',
     x: { A: 'A piora ocorre em apenas parte das gestantes e é mais comum no segundo trimestre.', C: 'A melhora também ocorre em apenas cerca de um terço das gestantes.', D: 'Na maioria das gestantes há mudança do controle, para melhor ou para pior.' },
@@ -13,7 +13,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma na gestação',
     e: 'Mulher de 28 anos, asmática bem controlada com budesonida e formoterol, descobre gestação de 7 semanas e pergunta se deve parar o tratamento. A orientação correta é:',
-    o: ['Suspender tudo até o fim do primeiro trimestre', 'Manter o tratamento, pois o risco da asma não controlada para mãe e feto supera o risco dos medicamentos habituais', 'Trocar o corticoide inalatório por prednisona oral contínua', 'Usar apenas salbutamol quando tiver sintomas'],
+    o: ['Suspender tudo até o fim do primeiro trimestre, por segurança', 'Manter: o risco da asma não controlada supera o dos medicamentos habituais', 'Trocar o corticoide inalatório por prednisona oral contínua', 'Usar apenas salbutamol quando houver sintomas'],
     g: 'B',
     c: 'A asma mal controlada na gravidez associa-se a pré-eclâmpsia, prematuridade, baixo peso ao nascer e maior mortalidade perinatal, pela hipoxemia materna. Corticoides inalatórios (a budesonida é o mais estudado), beta-2 agonistas e montelucaste são considerados seguros, e o tratamento não deve ser reduzido durante a gestação.',
     x: { A: 'A suspensão é a principal causa de exacerbação na gestação.', C: 'O corticoide oral contínuo tem mais efeitos adversos maternos e fetais que o inalatório.', D: 'O beta-2 de curta ação isolado não controla a inflamação e aumenta o risco de crise.' },
@@ -21,7 +21,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma na gestação',
     e: 'Gestante de 30 semanas chega ao pronto-socorro em crise moderada de asma, com SpO2 de 92% em ar ambiente. A conduta correta é:',
-    o: ['Evitar corticoide sistêmico pelo risco fetal', 'Tratar de forma tão vigorosa quanto na não gestante, com beta-2 de curta ação, corticoide sistêmico e oxigênio para manter a SpO2 em 95% ou mais', 'Usar apenas nebulização com soro fisiológico', 'Indicar cesariana imediata'],
+    o: ['Evitar corticoide sistêmico, pelo risco fetal de malformações', 'Tratar como na não gestante: beta-2, corticoide sistêmico e O2 para SpO2 ≥ 95%', 'Usar apenas nebulização com soro fisiológico, sem nenhum fármaco', 'Indicar cesariana imediata, por causa da crise de asma da gestante'],
     g: 'B',
     c: 'A hipoxemia materna é o maior risco para o feto, cuja oxigenação depende da curva de dissociação materna. Por isso a crise na gestante é tratada sem restrições, com alvo de saturação mais alto (95% ou mais) e monitoramento fetal. O subtratamento por medo dos fármacos é o erro mais comum.',
     x: { A: 'O corticoide sistêmico está indicado; o risco da crise é maior que o do fármaco.', C: 'Soro fisiológico não tem efeito broncodilatador nem anti-inflamatório.', D: 'A crise de asma não é indicação de interrupção da gestação.' },
@@ -37,7 +37,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Broncoespasmo induzido por exercício',
     e: 'Homem de 20 anos, com asma bem controlada com corticoide inalatório, tem sintomas apenas ao jogar futebol. Qual medida previne o broncoespasmo induzido por exercício?',
-    o: ['Abandonar a prática esportiva', 'Aquecimento prévio e uso de beta-2 de curta ação ou de corticoide inalatório com formoterol antes do exercício', 'Anti-histamínico oral 1 hora antes', 'Corticoide oral antes de cada jogo'],
+    o: ['Abandonar a prática esportiva, por risco de broncoespasmo recorrente', 'Aquecer e usar SABA, ou CI-formoterol, antes do exercício', 'Anti-histamínico oral 1 hora antes do exercício, em dose habitual', 'Corticoide oral antes de cada jogo, em dose baixa e por via oral'],
     g: 'B',
     c: 'O aquecimento induz um período refratário, e o broncodilatador de início rápido tomado antes do exercício previne o broncoespasmo. Quando os sintomas ao esforço são frequentes, isso indica asma mal controlada e a medida mais eficaz passa a ser otimizar o tratamento regular com corticoide inalatório.',
     x: { A: 'O asmático deve ser estimulado a praticar atividade física, com prevenção adequada.', C: 'Anti-histamínicos não previnem o broncoespasmo induzido por exercício.', D: 'O corticoide oral não tem efeito imediato e traz efeitos adversos desnecessários.' },
@@ -45,7 +45,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Doença respiratória exacerbada por AINE',
     e: 'Mulher de 38 anos tem asma de início na vida adulta, rinossinusite crônica com pólipos nasais recidivantes após duas cirurgias e anosmia. Há 1 mês, teve crise grave de broncoespasmo com congestão nasal intensa 1 hora após tomar ibuprofeno. O diagnóstico é:',
-    o: ['Aspergilose broncopulmonar alérgica', 'Doença respiratória exacerbada por anti-inflamatórios (tríade de Samter)', 'Granulomatose eosinofílica com poliangiite', 'Fibrose cística de apresentação tardia'],
+    o: ['Aspergilose broncopulmonar alérgica, com IgE elevada', 'Doença respiratória exacerbada por AINEs (tríade de Samter)', 'Granulomatose eosinofílica com poliangiite, com vasculite', 'Fibrose cística de apresentação tardia, com bronquiectasias'],
     g: 'B',
     c: 'A tríade de Samter (ou de Widal) reúne asma, rinossinusite crônica com polipose nasal e reações respiratórias a aspirina e outros inibidores da COX-1, que ocorrem de 30 minutos a 3 horas após a ingestão. É uma asma eosinofílica, de início adulto e frequentemente grave.',
     x: { A: 'A aspergilose cursa com IgE muito elevada e bronquiectasias, sem relação com anti-inflamatórios.', C: 'A vasculite teria manifestações sistêmicas, como neuropatia e púrpura.', D: 'A fibrose cística cursa com infecções de repetição e bronquiectasias, não com reação a anti-inflamatórios.' },
@@ -53,7 +53,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Doença respiratória exacerbada por AINE',
     e: 'O mecanismo pelo qual a aspirina desencadeia broncoespasmo nos pacientes com doença respiratória exacerbada por anti-inflamatórios é:',
-    o: ['Reação mediada por IgE específica contra a aspirina', 'Inibição da COX-1, com queda da prostaglandina E2 e desvio do metabolismo do ácido araquidônico para a produção de leucotrienos cisteínicos', 'Bloqueio de receptores beta-2 no músculo liso brônquico', 'Depósito de imunocomplexos nos vasos pulmonares'],
+    o: ['Reação mediada por IgE específica contra a aspirina, tipo alérgico clássico', 'Inibição da COX-1: cai a PGE2 e se produzem mais leucotrienos cisteínicos', 'Bloqueio de receptores beta-2 no músculo liso dos brônquios do paciente', 'Depósito de imunocomplexos nos vasos pulmonares, com ativação do complemento'],
     g: 'B',
     c: 'A inibição da COX-1 reduz a prostaglandina E2, que normalmente freia a 5-lipoxigenase e a ativação de mastócitos. Com isso há produção excessiva de leucotrienos cisteínicos, potentes broncoconstritores. Trata-se de reação farmacológica (pseudoalérgica), não mediada por IgE, e por isso cruzada entre todos os inibidores da COX-1.',
     x: { A: 'Não há IgE envolvida; por isso a reação ocorre com anti-inflamatórios de estruturas diferentes.', C: 'Esse é o mecanismo do broncoespasmo por betabloqueadores.', D: 'Imunocomplexos caracterizam hipersensibilidade tipo III, que não é o mecanismo.' },
@@ -61,7 +61,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Doença respiratória exacerbada por AINE',
     e: 'Homem de 44 anos com doença respiratória exacerbada por anti-inflamatórios precisa de analgesia para lombalgia. Entre as opções abaixo, a mais segura é:',
-    o: ['Diclofenaco', 'Paracetamol em dose baixa ou inibidor seletivo da COX-2', 'Cetoprofeno', 'Dipirona associada a naproxeno'],
+    o: ['Diclofenaco, que inibe a COX-1 e desencadeia a crise', 'Paracetamol em dose baixa ou inibidor seletivo da COX-2', 'Cetoprofeno, que inibe a COX-1 e desencadeia a crise', 'Dipirona associada a naproxeno, que desencadeia a crise'],
     g: 'B',
     c: 'A reação depende da inibição da COX-1. Inibidores seletivos da COX-2 (como o celecoxibe) e o paracetamol em doses baixas são geralmente tolerados; doses altas de paracetamol podem causar reação leve em uma minoria. Em casos selecionados faz-se dessensibilização à aspirina, e o montelucaste é útil nesse fenótipo.',
     x: { A: 'O diclofenaco é inibidor potente da COX-1 e provoca reação cruzada.', C: 'O cetoprofeno também inibe a COX-1 e deve ser evitado.', D: 'O naproxeno inibe a COX-1, e a dipirona também pode desencadear reação nesses pacientes.' },
@@ -69,7 +69,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma ocupacional',
     e: 'Homem de 36 anos, pintor de automóveis há 4 anos, iniciou há 8 meses tosse e chiado que pioram ao longo da semana de trabalho e melhoram nos fins de semana e nas férias. O exame mais útil para estabelecer a relação com o trabalho é:',
-    o: ['Tomografia de tórax de alta resolução', 'Medida seriada do pico de fluxo expiratório em períodos de trabalho e de afastamento', 'Dosagem de IgE total', 'Broncoscopia com biópsia'],
+    o: ['Tomografia de tórax de alta resolução, como primeiro exame', 'PFE seriado em períodos de trabalho e de afastamento', 'Dosagem de IgE total, como exame confirmatório', 'Broncoscopia com biópsia, como exame inicial'],
     g: 'B',
     c: 'A asma ocupacional com período de latência resulta de sensibilização a agentes do trabalho; os isocianatos das tintas automotivas são causa clássica. A piora nos dias de trabalho e a melhora no afastamento, documentadas pelo pico de fluxo medido várias vezes ao dia por algumas semanas, sustentam o nexo causal.',
     x: { A: 'A tomografia não demonstra a relação temporal entre sintomas e trabalho.', C: 'A IgE total é inespecífica, e os isocianatos nem sempre agem por mecanismo dependente de IgE.', D: 'A broncoscopia é invasiva e não estabelece nexo ocupacional.' },
@@ -77,7 +77,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma ocupacional',
     e: 'Padeiro de 32 anos tem asma ocupacional por sensibilização à farinha de trigo confirmada. A medida de maior impacto sobre o prognóstico é:',
-    o: ['Manter a função e apenas aumentar a dose do corticoide inalatório', 'Afastar o trabalhador da exposição ao agente o mais precocemente possível', 'Usar anti-histamínico antes do expediente', 'Usar máscara cirúrgica simples durante o trabalho'],
+    o: ['Manter a função e apenas aumentar a dose do corticoide inalatório', 'Afastar o trabalhador da exposição ao agente, o mais cedo possível', 'Usar anti-histamínico antes do expediente, como proteção', 'Usar máscara cirúrgica simples durante o trabalho'],
     g: 'B',
     c: 'Na asma ocupacional por sensibilizante, a continuidade da exposição, mesmo em níveis baixos, perpetua a inflamação e leva a perda funcional e asma persistente. O afastamento precoce e completo é o principal determinante de melhora; quanto mais longa a exposição após o início dos sintomas, pior o prognóstico.',
     x: { A: 'Tratar sem cessar a exposição não impede a progressão da doença.', C: 'Anti-histamínicos não controlam a asma nem bloqueiam a sensibilização.', D: 'A máscara simples não impede a inalação do alérgeno em quem já está sensibilizado.' },
@@ -85,7 +85,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma ocupacional',
     e: 'Auxiliar de limpeza de 41 anos, previamente hígida e sem atopia, inala grande quantidade de gás após misturar água sanitária com produto ácido em ambiente fechado. Em poucas horas surgem tosse, chiado e dispneia, que persistem por meses, com broncoprovocação positiva. O diagnóstico é:',
-    o: ['Asma ocupacional por sensibilizante de alto peso molecular', 'Síndrome de disfunção reativa das vias aéreas (asma induzida por irritante)', 'Pneumonite de hipersensibilidade', 'Bissinose'],
+    o: ['Asma ocupacional por sensibilizante de alto peso molecular', 'Síndrome de disfunção reativa das vias aéreas (asma por irritante)', 'Pneumonite de hipersensibilidade, com padrão restritivo', 'Bissinose, por exposição à fibra de algodão'],
     g: 'B',
     c: 'A asma induzida por irritante surge sem período de latência, em até 24 horas após exposição única e intensa a gás, fumaça ou vapor irritante, como o cloro. Decorre de lesão direta do epitélio, sem sensibilização imunológica, e a hiper-responsividade pode persistir por meses ou anos.',
     x: { A: 'A asma por sensibilizante exige período de latência de meses a anos de exposição.', C: 'A pneumonite de hipersensibilidade acomete o interstício e cursa com febre e infiltrados.', D: 'A bissinose é doença dos trabalhadores expostos à poeira de algodão.' },
@@ -93,7 +93,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma na criança',
     e: 'Menino de 3 anos teve cinco episódios de sibilância no último ano, alguns sem resfriado associado, com tosse noturna entre os episódios. Tem dermatite atópica e a mãe é asmática. Sobre o diagnóstico de asma nessa faixa etária, é correto afirmar que:',
-    o: ['Só pode ser feito após espirometria com prova broncodilatadora', 'É essencialmente clínico, apoiado no padrão de sintomas, nos fatores de risco e na resposta ao tratamento de prova', 'Exige obrigatoriamente dosagem de IgE e tomografia de tórax', 'Deve ser descartado, pois não existe asma antes dos 6 anos'],
+    o: ['Só pode ser feito após espirometria com prova broncodilatadora, em qualquer idade', 'Essencialmente clínico: padrão de sintomas, fatores de risco e resposta ao tratamento', 'Exige dosagem de IgE total e tomografia de tórax, obrigatoriamente', 'Deve ser descartado, pois não existe asma antes dos 6 anos de idade'],
     g: 'B',
     c: 'Abaixo de 5 anos a espirometria é inviável, e o diagnóstico se baseia em sibilância recorrente, sintomas entre as infecções, desencadeantes típicos, história pessoal ou familiar de atopia e melhora com corticoide inalatório por 2 a 3 meses. Dermatite atópica e asma nos pais são critérios maiores do índice preditivo de asma.',
     x: { A: 'A criança dessa idade não colabora com as manobras da espirometria.', C: 'Esses exames não são necessários para o diagnóstico.', D: 'A asma frequentemente começa nos primeiros anos de vida.' },
@@ -101,7 +101,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma na criança',
     e: 'Para administrar corticoide inalatório e broncodilatador a uma criança de 2 anos com asma, o dispositivo mais adequado é:',
-    o: ['Inalador de pó seco', 'Inalador pressurizado dosimetrado acoplado a espaçador com máscara facial', 'Inalador pressurizado diretamente na boca, sem espaçador', 'Comprimidos de salbutamol'],
+    o: ['Inalador de pó seco, que exige inspiração forte', 'Inalador pressurizado com espaçador e máscara facial', 'Inalador pressurizado direto na boca, sem espaçador', 'Comprimidos de salbutamol, por via oral'],
     g: 'B',
     c: 'A criança pequena não coordena o disparo com a inspiração nem gera fluxo inspiratório suficiente para os inaladores de pó. O espaçador com máscara bem ajustada à face permite a inalação em respiração corrente; a partir de cerca de 4 anos pode-se usar o espaçador com bocal.',
     x: { A: 'O inalador de pó exige fluxo inspiratório alto, em geral possível só após os 5 ou 6 anos.', C: 'Sem espaçador a criança não coordena a manobra e quase nada chega ao pulmão.', D: 'A via oral é menos eficaz e causa mais efeitos adversos.' },
@@ -109,7 +109,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma na criança',
     e: 'Lactente de 5 meses, previamente hígido, apresenta o primeiro episódio de sibilância após 3 dias de coriza e febre baixa, durante o inverno. Há taquipneia, tiragem subcostal e estertores finos com sibilos difusos. O diagnóstico mais provável é:',
-    o: ['Asma', 'Bronquiolite viral aguda', 'Aspiração de corpo estranho', 'Fibrose cística'],
+    o: ['Asma, com episódios recorrentes de sibilância', 'Bronquiolite viral aguda', 'Aspiração de corpo estranho, de início súbito', 'Fibrose cística, com infecções respiratórias de repetição'],
     g: 'B',
     c: 'O primeiro episódio de sibilância em menor de 2 anos, precedido de pródromo de via aérea superior e em período sazonal, caracteriza bronquiolite viral aguda, causada sobretudo pelo vírus sincicial respiratório. O tratamento é de suporte; broncodilatadores e corticoides não são recomendados de rotina.',
     x: { A: 'Um primeiro episódio isolado em lactente não permite o diagnóstico de asma.', C: 'O corpo estranho tem início súbito, com engasgo, e achados assimétricos.', D: 'A fibrose cística cursa com quadros recorrentes, déficit de crescimento e esteatorreia.' },
@@ -117,7 +117,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma grave',
     e: 'Segundo a GINA, o termo asma grave deve ser reservado para a asma que:',
-    o: ['Apresenta qualquer exacerbação que exija ida à emergência', 'Permanece não controlada apesar de adesão a tratamento otimizado com dose alta de corticoide inalatório e beta-2 de longa ação e do manejo dos fatores contribuintes, ou que piora quando essa dose é reduzida', 'Não é controlada porque o paciente usa o inalador com técnica incorreta', 'Tem VEF1 abaixo de 80% do previsto no momento do diagnóstico'],
+    o: ['Apresenta qualquer exacerbação que exija ida à emergência, mesmo uma única vez', 'Segue não controlada apesar de tratamento otimizado e manejo dos fatores associados', 'Não é controlada porque o paciente usa o inalador com técnica incorreta', 'Tem VEF1 inferior a 80% do previsto no momento do diagnóstico inicial'],
     g: 'B',
     c: 'A asma de difícil controle é a que permanece não controlada nas etapas 4 e 5, muitas vezes por fatores modificáveis (técnica, adesão, tabagismo, comorbidades, diagnóstico incorreto). A asma grave é o subgrupo em que, corrigidos esses fatores, o descontrole persiste; corresponde a uma pequena parcela dos asmáticos.',
     x: { A: 'Uma exacerbação isolada pode ocorrer mesmo na asma leve.', C: 'Técnica incorreta caracteriza asma de difícil controle por fator modificável, não asma grave.', D: 'A gravidade não é definida pelo VEF1 inicial, e sim pelo tratamento necessário.' },
@@ -125,7 +125,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Asma grave',
     e: 'Na avaliação fenotípica de um paciente com asma grave em uso de dose alta de corticoide inalatório, qual achado indica inflamação tipo 2 e sustenta a indicação de imunobiológico direcionado a essa via?',
-    o: ['Neutrófilos acima de 60% no escarro', 'Eosinófilos no sangue de 150 por microlitro ou mais', 'Proteína C reativa elevada', 'Fração exalada de óxido nítrico abaixo de 10 ppb'],
+    o: ['Neutrófilos > 60% no escarro, sugestivos de fenótipo não tipo 2', 'Eosinófilos no sangue ≥ 150/µL', 'Proteína C reativa elevada, sugestiva de infecção', 'FeNO abaixo de 10 ppb, sugestiva de fenótipo não tipo 2'],
     g: 'B',
     c: 'A GINA considera inflamação tipo 2 refratária quando, em uso de dose alta de corticoide inalatório, há eosinófilos no sangue de 150 por microlitro ou mais, óxido nítrico exalado de 20 ppb ou mais, eosinófilos no escarro de 2% ou mais ou asma clinicamente desencadeada por alérgenos. Os exames podem ser repetidos até três vezes.',
     x: { A: 'O predomínio neutrofílico indica asma não tipo 2.', C: 'A proteína C reativa é inespecífica e não define o fenótipo.', D: 'Óxido nítrico exalado baixo fala contra inflamação tipo 2.' },
@@ -133,7 +133,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Aspergilose broncopulmonar alérgica',
     e: 'Homem de 34 anos, asmático de longa data, tem piora do controle, febre baixa e expectoração de tampões mucosos acastanhados. Exames: eosinófilos de 1.400 por microlitro, IgE total de 3.200 UI/mL e infiltrados pulmonares migratórios. A tomografia mostra bronquiectasias centrais com impactação mucoide. O exame que confirma a principal hipótese é:',
-    o: ['Pesquisa de anticorpo anticitoplasma de neutrófilos', 'Teste cutâneo ou IgE específica para Aspergillus fumigatus', 'Teste do suor', 'Dosagem de alfa-1 antitripsina'],
+    o: ['Anticorpo anticitoplasma de neutrófilos, para pesquisa de vasculite', 'Teste cutâneo ou IgE específica para Aspergillus fumigatus', 'Teste do suor, para pesquisa de fibrose cística', 'Dosagem de alfa-1 antitripsina, para pesquisa de enfisema'],
     g: 'B',
     c: 'A aspergilose broncopulmonar alérgica é uma reação de hipersensibilidade à colonização brônquica por Aspergillus em asmáticos ou portadores de fibrose cística. Exige sensibilização ao fungo e IgE total muito elevada, somadas a eosinofilia, precipitinas ou IgG específica e bronquiectasias centrais. O corte clássico de IgE total é 1.000 UI/mL; critérios mais recentes aceitam 500 UI/mL.',
     x: { A: 'O ANCA investiga vasculite, que não explica bronquiectasias centrais com IgE tão elevada.', C: 'O teste do suor investiga fibrose cística; aqui o quadro é de asmático adulto com hipersensibilidade.', D: 'A deficiência de alfa-1 antitripsina causa enfisema, não esse quadro.' },
@@ -173,7 +173,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Comorbidades',
     e: 'Mulher de 43 anos, com índice de massa corporal de 39 kg/m2, tem asma de difícil controle, com sintomas intensos, eosinófilos normais e pouca resposta ao aumento do corticoide inalatório. Sobre a relação entre obesidade e asma, é correto afirmar que:',
-    o: ['A obesidade não interfere no controle da asma', 'A perda de peso melhora o controle da asma, a função pulmonar e a qualidade de vida', 'A obesidade aumenta a resposta ao corticoide inalatório', 'A dispneia do obeso é sempre causada por asma'],
+    o: ['A obesidade não interfere no controle da asma, nem na resposta ao tratamento', 'A perda de peso melhora o controle, a função pulmonar e a qualidade de vida', 'A obesidade aumenta a resposta ao corticoide inalatório, melhorando o controle', 'A dispneia do paciente obeso é sempre causada pela asma, e nunca pelo peso'],
     g: 'B',
     c: 'Na obesidade a asma é mais difícil de controlar, por redução dos volumes pulmonares, inflamação sistêmica de perfil não eosinofílico e comorbidades como refluxo e apneia do sono, além de menor resposta ao corticoide. A redução de 5% a 10% do peso já melhora o controle, e a cirurgia bariátrica tem efeito ainda maior.',
     x: { A: 'A obesidade é fator de risco reconhecido para asma mais sintomática.', C: 'A resposta ao corticoide inalatório é menor no obeso.', D: 'O obeso tem dispneia por descondicionamento e restrição; a asma deve ser confirmada objetivamente.' },
@@ -181,7 +181,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Comorbidades',
     e: 'Homem de 50 anos com asma não controlada não tem pirose, regurgitação nem outros sintomas digestivos. Sobre o uso de inibidor de bomba de prótons para melhorar o controle da asma nesse caso:',
-    o: ['Está indicado empiricamente em todo asmático não controlado', 'Não está indicado, pois o tratamento do refluxo só é recomendado na asma quando há sintomas de refluxo', 'Deve ser usado em dose dobrada por 1 ano', 'Substitui o corticoide inalatório'],
+    o: ['Indicado empiricamente em todo asmático não controlado', 'Não indicado: só se houver sintomas de refluxo', 'Deve ser usado em dose dobrada por 1 ano', 'Substitui o corticoide inalatório no controle da asma'],
     g: 'B',
     c: 'O refluxo é mais frequente em asmáticos e pode desencadear tosse e broncoespasmo por microaspiração e reflexo vagal. Entretanto, ensaios clínicos mostraram que tratar refluxo assintomático com inibidor de bomba não melhora o controle da asma; o tratamento é indicado quando há sintomas de refluxo.',
     x: { A: 'O tratamento empírico de refluxo assintomático não mostrou benefício.', C: 'Não há indicação, e o uso prolongado em dose alta acrescenta riscos.', D: 'O inibidor de bomba não tem ação anti-inflamatória brônquica.' },
@@ -189,7 +189,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Tabagismo e asma',
     e: 'Homem de 39 anos, asmático e tabagista de 20 cigarros ao dia, mantém sintomas apesar de corticoide inalatório em dose média com boa técnica. Qual é o efeito do tabagismo ativo sobre o tratamento da asma?',
-    o: ['Potencializa o efeito do corticoide inalatório', 'Reduz a resposta ao corticoide inalatório e acelera a perda de função pulmonar', 'Não altera a resposta ao tratamento', 'Protege contra exacerbações por reduzir eosinófilos'],
+    o: ['Potencializa o efeito do corticoide inalatório', 'Reduz a resposta ao CI e acelera a perda de função pulmonar', 'Não altera a resposta ao tratamento da asma', 'Protege contra exacerbações, por reduzir os eosinófilos'],
     g: 'B',
     c: 'O tabagismo desvia a inflamação para um perfil neutrofílico e reduz a atividade da histona desacetilase 2, enzima necessária à ação anti-inflamatória do corticoide, gerando resistência relativa. Também aumenta exacerbações e o declínio do VEF1. A cessação do tabagismo é parte essencial do tratamento.',
     x: { A: 'Ocorre o oposto: o cigarro induz resistência relativa ao corticoide.', C: 'O tabagismo piora o controle e a resposta ao tratamento.', D: 'O tabagismo aumenta, e não reduz, as exacerbações.' },
@@ -197,7 +197,7 @@ export const ASMA_4: QuestaoCompacta[] = [
   {
     s: 'Imunoterapia com alérgenos',
     e: 'Homem de 25 anos tem asma e rinite alérgicas por sensibilização a ácaros da poeira e considera fazer imunoterapia com alérgenos. Qual condição contraindica o início ou a aplicação da imunoterapia?',
-    o: ['Sensibilização comprovada ao ácaro', 'Asma não controlada ou VEF1 abaixo de 70% do previsto', 'Rinite alérgica associada', 'Idade adulta'],
+    o: ['Sensibilização comprovada ao ácaro, com IgE específica', 'Asma não controlada ou VEF1 < 70% do previsto', 'Rinite alérgica associada, com sintomas persistentes', 'Idade adulta, de forma isolada'],
     g: 'B',
     c: 'A imunoterapia induz tolerância ao alérgeno e pode ser considerada na asma alérgica com rinite e sensibilização a ácaros. O principal risco é o broncoespasmo grave e a anafilaxia, mais prováveis na asma instável; por isso exige asma controlada e VEF1 acima de 70% do previsto.',
     x: { A: 'A sensibilização clinicamente relevante é o pré-requisito para indicar a imunoterapia.', C: 'A rinite alérgica associada é justamente o cenário de maior benefício.', D: 'A imunoterapia pode ser feita em adultos.' },

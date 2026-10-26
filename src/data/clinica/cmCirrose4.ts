@@ -5,7 +5,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Cirrose: fisiopatologia',
     e: 'A célula central na fibrogênese hepática, que ao ser ativada se transforma em miofibroblasto produtor de colágeno, é:',
-    o: ['A célula de Kupffer', 'A célula estrelada hepática (célula de Ito), localizada no espaço de Disse', 'O hepatócito periportal', 'O colangiócito'],
+    o: ['A célula de Kupffer, macrófago residente do sinusoide', 'A célula estrelada hepática (célula de Ito), no espaço de Disse', 'O hepatócito periportal, que é a principal célula do parênquima', 'O colangiócito, que reveste os ductos biliares'],
     g: 'B',
     c: 'Em repouso, a célula estrelada armazena vitamina A no espaço de Disse. Diante de lesão crônica, citocinas como o TGF-beta, liberadas por células de Kupffer e hepatócitos lesados, ativam-na: ela perde a vitamina A, torna-se contrátil e deposita colágeno. O colágeno no espaço de Disse faz o sinusoide perder as fenestras (capilarização), prejudicando as trocas e elevando a resistência ao fluxo portal.',
     x: { A: 'A célula de Kupffer é o macrófago residente e ativa a célula estrelada, mas não produz o colágeno.', C: 'O hepatócito é o alvo da lesão, não o principal produtor de matriz.', D: 'O colangiócito reveste os ductos biliares e não é a célula fibrogênica central.' },
@@ -13,7 +13,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Cirrose: etiologia',
     e: 'Mulher de 66 anos, obesa, diabética e hipertensa há 20 anos, que nunca consumiu álcool, recebe diagnóstico de cirrose. Sorologias virais, autoanticorpos, perfil de ferro e ceruloplasmina são normais, e a biópsia mostra cirrose sem esteatose significativa. A causa mais provável dessa cirrose rotulada como criptogênica é:',
-    o: ['Hepatite autoimune soronegativa', 'Doença hepática esteatótica associada à disfunção metabólica em fase avançada', 'Deficiência de alfa-1-antitripsina', 'Hepatite E crônica'],
+    o: ['Hepatite autoimune soronegativa, de apresentação tardia', 'DHE associada à disfunção metabólica em fase avançada', 'Deficiência de alfa-1-antitripsina, de apresentação tardia', 'Hepatite E crônica, em imunocompetente'],
     g: 'B',
     c: 'A maior parte das cirroses ditas criptogênicas ocorre em pacientes com síndrome metabólica de longa data e corresponde à esteato-hepatite metabólica em fase final. Com a progressão da fibrose, a gordura hepática tende a desaparecer, fenômeno conhecido como esteato-hepatite exaurida, o que dificulta o reconhecimento histológico da causa.',
     x: { A: 'É possível, mas bem menos frequente do que a causa metabólica nesse perfil.', C: 'É causa rara e não se relaciona ao perfil metabólico descrito.', D: 'A hepatite E crônica ocorre essencialmente em imunossuprimidos.' },
@@ -21,7 +21,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Cirrose: estigmas clínicos',
     e: 'Em homens com cirrose, aranhas vasculares, eritema palmar, ginecomastia e atrofia testicular têm como mecanismo comum:',
-    o: ['Hipoalbuminemia', 'Hiperestrogenismo relativo, por menor depuração hepática de andrógenos e maior conversão periférica em estrogênios', 'Hipertensão portal com hiperesplenismo', 'Deficiência de vitamina K'],
+    o: ['Hipoalbuminemia, com edema e ascite associados à síntese hepática reduzida', 'Hiperestrogenismo relativo: menor depuração de andrógenos e maior conversão em estrogênios', 'Hipertensão portal com hiperesplenismo e plaquetopenia associados', 'Deficiência de vitamina K, com coagulopatia e sangramento associados'],
     g: 'B',
     c: 'O fígado doente depura menos a androstenediona, que é aromatizada em estrona nos tecidos periféricos, e aumenta a globulina ligadora de hormônios sexuais, reduzindo a testosterona livre. O excesso relativo de estrogênio causa vasodilatação cutânea (aranhas vasculares e eritema palmar) e os sinais de feminização.',
     x: { A: 'A hipoalbuminemia contribui para edema e ascite, não para esses sinais.', C: 'A hipertensão portal explica esplenomegalia e circulação colateral.', D: 'A deficiência de vitamina K causa coagulopatia, não feminização.' },
@@ -45,7 +45,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Cirrose: função sintética',
     e: 'Paciente com cirrose avançada tem INR de 2,1. Após três doses de vitamina K parenteral, o INR permanece inalterado. Essa ausência de resposta indica:',
-    o: ['Má absorção de vitaminas lipossolúveis por colestase', 'Insuficiência da síntese hepática de fatores de coagulação', 'Uso oculto de heparina', 'Deficiência isolada de fator VIII'],
+    o: ['Má absorção de vitaminas lipossolúveis por colestase prolongada', 'Insuficiência da síntese hepática dos fatores de coagulação', 'Uso oculto de heparina, com prolongamento do TTPa', 'Deficiência isolada de fator VIII, com TTPa prolongado'],
     g: 'B',
     c: 'O tempo de protrombina e a albumina são os marcadores da função de síntese do fígado. Quando o alargamento decorre de carência de vitamina K, como na colestase, a reposição parenteral corrige o INR em 24 a 48 horas. A falta de correção mostra que o problema é o próprio hepatócito, incapaz de produzir os fatores. Vale lembrar que o INR do cirrótico não prediz bem o risco de sangramento, pois os anticoagulantes naturais também estão reduzidos.',
     x: { A: 'Se a causa fosse carência de vitamina K, a via parenteral corrigiria o INR.', C: 'A heparina prolonga principalmente o tempo de tromboplastina parcial ativada.', D: 'O fator VIII é produzido pelo endotélio e costuma estar elevado na cirrose.' },
@@ -69,7 +69,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'MELD: componentes',
     e: 'O escore MELD é calculado a partir de:',
-    o: ['Albumina, bilirrubina e ascite', 'Bilirrubina, INR e creatinina, com o sódio sérico incorporado na versão MELD-Na', 'AST, ALT e plaquetas', 'Bilirrubina, tempo de protrombina e encefalopatia'],
+    o: ['Albumina, bilirrubina e ascite, como no Child-Pugh', 'Bilirrubina, INR e creatinina; sódio na versão MELD-Na', 'AST, ALT e plaquetas, como no índice APRI', 'Bilirrubina, tempo de protrombina e encefalopatia'],
     g: 'B',
     c: 'O MELD usa apenas variáveis laboratoriais objetivas: bilirrubina, INR e creatinina. A inclusão do sódio melhora a predição, pois a hiponatremia dilucional reflete a intensidade da disfunção circulatória e da hipertensão portal. Por não depender de avaliação subjetiva de ascite e encefalopatia, é mais reprodutível do que o Child-Pugh.',
     x: { A: 'Albumina e ascite são componentes do Child-Pugh, não do MELD.', C: 'Esses parâmetros, com a idade, compõem escores de fibrose como o FIB-4.', D: 'A encefalopatia é variável do Child-Pugh.' },
@@ -77,7 +77,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'MELD: aplicação',
     e: 'A principal aplicação do escore MELD na prática clínica é:',
-    o: ['Diagnosticar cirrose sem necessidade de biópsia', 'Estimar a mortalidade em 3 meses e ordenar a prioridade na lista de transplante hepático', 'Definir a etiologia da hepatopatia', 'Indicar rastreamento de carcinoma hepatocelular'],
+    o: ['Diagnosticar cirrose sem necessidade de biópsia', 'Estimar a mortalidade em 3 meses e ordenar a lista de transplante', 'Definir a etiologia da hepatopatia, em casos duvidosos', 'Indicar o rastreamento de carcinoma hepatocelular'],
     g: 'B',
     c: 'O MELD prediz a mortalidade em curto prazo do paciente com cirrose e, por isso, é o critério de alocação de órgãos: quem tem maior risco de morrer recebe prioridade. Em geral considera-se a inclusão em lista a partir de MELD de 15, ponto em que o benefício do transplante supera seu risco. Situações como o carcinoma hepatocelular dentro dos critérios de Milão recebem pontuação adicional.',
     x: { A: 'O MELD avalia gravidade, não estabelece o diagnóstico de cirrose.', C: 'O escore não traz informação sobre a causa da doença.', D: 'O rastreamento de carcinoma hepatocelular é indicado pela presença de cirrose, não pelo MELD.' },
@@ -85,7 +85,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Elastografia hepática: limitações',
     e: 'A elastografia hepática transitória mede a rigidez do fígado para estimar a fibrose. Uma situação que pode elevar falsamente o resultado, superestimando a fibrose, é:',
-    o: ['Jejum prolongado antes do exame', 'Hepatite aguda com aminotransferases muito elevadas', 'Uso de estatinas', 'Idade inferior a 30 anos'],
+    o: ['Jejum prolongado antes do exame, que não altera a medida da rigidez', 'Hepatite aguda com aminotransferases muito elevadas, que superestima a rigidez', 'Uso de estatinas em dose habitual, que não altera a medida da rigidez', 'Idade inferior a 30 anos, que não altera a medida da rigidez'],
     g: 'B',
     c: 'A rigidez hepática não depende apenas do colágeno: inflamação intensa, congestão venosa por insuficiência cardíaca, colestase obstrutiva e o período pós-prandial aumentam a rigidez sem que haja fibrose. Por isso o exame deve ser feito em jejum e interpretado com cautela quando as aminotransferases estão muito elevadas. A obesidade e a ascite dificultam a técnica.',
     x: { A: 'O jejum é a condição recomendada; a alimentação recente é que eleva a rigidez.', C: 'As estatinas não interferem na medida da rigidez hepática.', D: 'A idade jovem não eleva falsamente a rigidez.' },
@@ -93,7 +93,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Cirrose: histologia',
     e: 'Do ponto de vista histológico, a cirrose é definida por:',
-    o: ['Esteatose em mais de dois terços dos hepatócitos', 'Fibrose difusa com septos que circundam nódulos de regeneração, com distorção da arquitetura lobular e vascular', 'Necrose hepatocelular maciça sem fibrose', 'Infiltrado inflamatório portal sem alteração da arquitetura'],
+    o: ['Esteatose em mais de dois terços dos hepatócitos, de forma difusa', 'Fibrose difusa com septos circundando nódulos de regeneração e distorção arquitetural', 'Necrose hepatocelular maciça sem fibrose, de início agudo e extenso', 'Infiltrado inflamatório portal sem alteração da arquitetura lobular normal'],
     g: 'B',
     c: 'A cirrose é um processo difuso em que septos fibrosos unem espaços porta e veias centrais e delimitam nódulos de hepatócitos em regeneração, correspondendo ao estágio F4 da classificação METAVIR. A distorção vascular cria shunts intra-hepáticos e eleva a resistência ao fluxo portal. A biópsia é o padrão-ouro, mas é dispensável quando clínica, laboratório, imagem e elastografia são concordantes.',
     x: { A: 'Isso descreve esteatose acentuada, que pode existir sem fibrose.', C: 'Isso descreve hepatite fulminante, não cirrose.', D: 'Inflamação portal sem distorção arquitetural corresponde à hepatite crônica sem cirrose.' },
@@ -101,7 +101,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Cirrose: compensada e descompensada',
     e: 'A transição da cirrose compensada para a descompensada, que reduz de forma marcante a sobrevida mediana, é definida pelo surgimento de:',
-    o: ['Plaquetopenia e esplenomegalia', 'Ascite, hemorragia varicosa, encefalopatia hepática ou icterícia', 'Elevação de aminotransferases acima de três vezes o normal', 'Aranhas vasculares e eritema palmar'],
+    o: ['Plaquetopenia e esplenomegalia, que ocorrem na fase compensada', 'Ascite, hemorragia varicosa, encefalopatia hepática ou icterícia', 'Elevação de aminotransferases acima de três vezes o normal', 'Aranhas vasculares e eritema palmar, que ocorrem na fase compensada'],
     g: 'B',
     c: 'Na fase compensada o paciente pode ser assintomático por muitos anos, com sobrevida mediana superior a uma década. O aparecimento de ascite (a descompensação mais comum), sangramento por varizes, encefalopatia ou icterícia marca a fase descompensada, em que a sobrevida mediana cai para cerca de dois anos e a avaliação para transplante deve ser considerada.',
     x: { A: 'São sinais de hipertensão portal, mas não definem descompensação.', C: 'As aminotransferases refletem atividade da lesão, não descompensação.', D: 'Os estigmas periféricos podem existir na cirrose compensada.' },
@@ -109,7 +109,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma hepatocelular: rastreamento',
     e: 'Homem de 60 anos tem cirrose compensada por álcool, em abstinência há 5 anos. O rastreamento de carcinoma hepatocelular recomendado é:',
-    o: ['Tomografia computadorizada anual', 'Ultrassonografia de abdome a cada 6 meses, com ou sem alfafetoproteína', 'Alfafetoproteína isolada a cada 12 meses', 'Ressonância magnética a cada 3 meses'],
+    o: ['Tomografia computadorizada anual, com contraste', 'US de abdome a cada 6 meses, com ou sem alfafetoproteína', 'Alfafetoproteína isolada a cada 12 meses, sem imagem', 'Ressonância magnética a cada 3 meses, com contraste'],
     g: 'B',
     c: 'A cirrose de qualquer etiologia é o principal fator de risco para carcinoma hepatocelular. O intervalo de 6 meses baseia-se no tempo de duplicação do tumor e permite detectar lesões pequenas, passíveis de tratamento curativo. A alfafetoproteína isolada tem sensibilidade insuficiente, pois muitos tumores pequenos não a produzem.',
     x: { A: 'A tomografia não é método de rastreamento, pela radiação, custo e intervalo inadequado.', C: 'A alfafetoproteína isolada tem baixa sensibilidade para tumores iniciais.', D: 'A ressonância é exame de confirmação, não de rastreamento de rotina.' },
@@ -117,7 +117,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma hepatocelular: diagnóstico por imagem',
     e: 'Mulher de 63 anos, com cirrose por hepatite C, apresenta nódulo hepático de 2,5 cm na ultrassonografia de rastreamento. A tomografia trifásica mostra hiper-realce do nódulo na fase arterial, com lavagem do contraste (washout) nas fases portal e tardia. A alfafetoproteína é normal. A conduta correta é:',
-    o: ['Realizar biópsia percutânea para confirmar o diagnóstico', 'Firmar o diagnóstico de carcinoma hepatocelular e proceder ao estadiamento, sem biópsia', 'Repetir a ultrassonografia em 3 meses', 'Afastar carcinoma hepatocelular, pois a alfafetoproteína é normal'],
+    o: ['Realizar biópsia percutânea para confirmar o diagnóstico', 'Firmar o diagnóstico de CHC e estadiar, sem biópsia', 'Repetir a ultrassonografia em 3 meses, sem outro exame', 'Afastar CHC, pois a alfafetoproteína é normal'],
     g: 'B',
     c: 'O carcinoma hepatocelular é nutrido quase exclusivamente por ramos da artéria hepática, enquanto o parênquima recebe a maior parte do sangue pela veia porta. Por isso o tumor realça intensamente na fase arterial e fica menos denso que o fígado nas fases seguintes. Em fígado cirrótico, esse padrão em nódulo de 1 cm ou mais é diagnóstico, dispensando a biópsia, que traz risco de sangramento e de implante tumoral no trajeto.',
     x: { A: 'A biópsia é reservada a lesões com padrão atípico ou a fígado não cirrótico.', C: 'O seguimento por ultrassom é a conduta para nódulos menores que 1 cm.', D: 'A alfafetoproteína normal não exclui o tumor.' },
@@ -133,7 +133,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Critérios de Milão',
     e: 'Os critérios de Milão, utilizados para indicar transplante hepático no carcinoma hepatocelular, correspondem a:',
-    o: ['Qualquer número de nódulos, desde que a soma dos diâmetros seja inferior a 10 cm', 'Nódulo único de até 5 cm, ou até três nódulos de até 3 cm cada, sem invasão vascular nem doença extra-hepática', 'Nódulo único de até 8 cm, independentemente de invasão vascular', 'Até cinco nódulos de até 5 cm cada'],
+    o: ['Qualquer número de nódulos, desde que a soma dos diâmetros seja inferior a 10 cm', 'Nódulo único até 5 cm, ou até 3 nódulos de até 3 cm, sem invasão vascular', 'Nódulo único de até 8 cm, independentemente da presença de invasão vascular', 'Até cinco nódulos de até 5 cm cada, mesmo com invasão vascular'],
     g: 'B',
     c: 'Dentro desses limites, a sobrevida após o transplante é semelhante à dos transplantados sem tumor, com baixa taxa de recorrência. O transplante trata ao mesmo tempo o tumor e a cirrose subjacente, que é o terreno para novos tumores. A invasão vascular macroscópica e a doença extra-hepática contraindicam o procedimento.',
     x: { A: 'Os critérios limitam o número e o tamanho de cada nódulo, não a soma livre.', C: 'O limite para nódulo único é de 5 cm, e a invasão vascular é contraindicação.', D: 'O limite é de até três nódulos, cada um com no máximo 3 cm.' },
@@ -141,7 +141,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma hepatocelular: estágio muito precoce',
     e: 'Homem de 52 anos, com cirrose por hepatite B em tratamento, Child-Pugh A, bilirrubina normal, plaquetas de 180.000/mm³ e sem varizes de esôfago, apresenta nódulo único de 2 cm no segmento VI, com padrão típico de carcinoma hepatocelular. Tem bom estado geral. O tratamento mais adequado é:',
-    o: ['Quimioembolização transarterial', 'Ressecção cirúrgica (ou ablação por radiofrequência)', 'Terapia sistêmica com sorafenibe', 'Cuidados paliativos exclusivos'],
+    o: ['Quimioembolização transarterial, em doença avançada', 'Ressecção cirúrgica (ou ablação por radiofrequência)', 'Terapia sistêmica com sorafenibe, em doença avançada', 'Cuidados paliativos exclusivos, em doença terminal'],
     g: 'B',
     c: 'Trata-se de estágio muito precoce na classificação de Barcelona: tumor único pequeno, função hepática preservada e bom estado funcional. Nesses casos indicam-se tratamentos curativos. A ressecção é ideal quando não há hipertensão portal clinicamente significativa, o que é sugerido aqui por plaquetas normais e ausência de varizes, pois o risco de descompensação pós-operatória é baixo.',
     x: { A: 'A quimioembolização é paliativa e destina-se ao estágio intermediário.', C: 'A terapia sistêmica é reservada ao estágio avançado.', D: 'O suporte exclusivo é para o estágio terminal, com função hepática muito comprometida.' },
@@ -149,7 +149,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma hepatocelular: estágio intermediário',
     e: 'Mulher de 65 anos, com cirrose Child-Pugh A e bom estado geral, apresenta carcinoma hepatocelular multinodular, com quatro nódulos em ambos os lobos, o maior de 6 cm, sem invasão vascular e sem metástases. Pela classificação de Barcelona (BCLC), o estágio e o tratamento padrão são:',
-    o: ['Estágio A; ressecção cirúrgica', 'Estágio B (intermediário); quimioembolização transarterial', 'Estágio C; terapia sistêmica', 'Estágio D; suporte clínico'],
+    o: ['Estágio A; ressecção cirúrgica, em doença inicial', 'Estágio B (intermediário); quimioembolização transarterial', 'Estágio C; terapia sistêmica, em doença avançada', 'Estágio D; suporte clínico, em doença terminal'],
     g: 'B',
     c: 'A doença multinodular além dos critérios de tratamento curativo, sem invasão vascular ou disseminação e com função hepática e estado funcional preservados, define o estágio intermediário. A quimioembolização aproveita a irrigação arterial do tumor: o quimioterápico e o agente embolizante são injetados no ramo arterial nutridor, causando necrose tumoral e poupando o parênquima, irrigado principalmente pela veia porta.',
     x: { A: 'O número e o tamanho dos nódulos ultrapassam os limites do estágio precoce.', C: 'O estágio C exige invasão vascular, metástases ou sintomas relacionados ao tumor.', D: 'O estágio D corresponde à disfunção hepática terminal ou estado geral muito comprometido.' },
@@ -157,7 +157,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma hepatocelular: estágio avançado',
     e: 'Homem de 61 anos, com cirrose Child-Pugh A, apresenta carcinoma hepatocelular de 7 cm com trombose tumoral do ramo direito da veia porta. Mantém atividades habituais com leve limitação. A modalidade terapêutica indicada é:',
-    o: ['Transplante hepático', 'Terapia sistêmica, como atezolizumabe com bevacizumabe ou inibidor de tirosina-quinase', 'Ablação por radiofrequência', 'Ressecção hepática ampliada'],
+    o: ['Transplante hepático, em doença dentro dos critérios de Milão e sem invasão', 'Terapia sistêmica: atezolizumabe + bevacizumabe ou inibidor de tirosina-quinase', 'Ablação por radiofrequência, indicada em nódulo único pequeno e localizado', 'Ressecção hepática ampliada, indicada em doença localizada e ressecável'],
     g: 'B',
     c: 'A invasão vascular macroscópica caracteriza o estágio avançado da classificação de Barcelona, no qual os tratamentos locais não trazem benefício de sobrevida e o transplante é contraindicado pelo alto risco de recorrência. Indica-se terapia sistêmica: a combinação de imunoterapia com antiangiogênico é a primeira linha quando disponível, e sorafenibe ou lenvatinibe são alternativas.',
     x: { A: 'A invasão vascular contraindica o transplante por recorrência quase certa.', C: 'A ablação é tratamento de tumores pequenos, sem invasão vascular.', D: 'A ressecção não é indicada na presença de trombose tumoral portal extensa.' },
@@ -165,7 +165,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome hepatopulmonar: diagnóstico',
     e: 'Mulher de 54 anos, com cirrose, queixa-se de dispneia que piora ao ficar em pé e melhora ao deitar. Apresenta cianose labial, baqueteamento digital e muitas aranhas vasculares. A saturação de oxigênio cai de 94% em decúbito para 87% em ortostase. A radiografia de tórax é normal. O exame que confirma a principal hipótese é:',
-    o: ['Angiotomografia de artérias pulmonares', 'Ecocardiograma com contraste de microbolhas, mostrando seu aparecimento tardio nas câmaras esquerdas', 'Cateterismo cardíaco direito com medida da pressão da artéria pulmonar', 'Espirometria com prova broncodilatadora'],
+    o: ['Angiotomografia de artérias pulmonares, para pesquisa de TEP', 'Ecocardiograma com microbolhas: aparecimento tardio nas câmaras esquerdas', 'Cateterismo direito, com medida da pressão da artéria pulmonar', 'Espirometria com prova broncodilatadora, para pesquisa de asma'],
     g: 'B',
     c: 'A síndrome hepatopulmonar é a tríade de hepatopatia, hipoxemia e dilatações vasculares intrapulmonares. Os capilares dilatados, predominantes nas bases, deixam o sangue passar sem oxigenação adequada; em pé, a gravidade aumenta o fluxo para as bases e piora a hipoxemia, explicando a platipneia e a ortodeoxia. No ecocardiograma, as microbolhas, que normalmente ficam retidas nos capilares, chegam ao átrio esquerdo após três a seis batimentos.',
     x: { A: 'O quadro postural e crônico não sugere tromboembolia pulmonar.', C: 'O cateterismo confirma hipertensão portopulmonar, não a síndrome hepatopulmonar.', D: 'A espirometria é normal ou pouco alterada e não confirma o diagnóstico.' },
@@ -181,7 +181,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão portopulmonar',
     e: 'Homem de 50 anos, com cirrose e hipertensão portal, é avaliado para transplante. O ecocardiograma sugere pressão pulmonar elevada, e o cateterismo direito mostra pressão média de artéria pulmonar aumentada, resistência vascular pulmonar elevada e pressão de oclusão da artéria pulmonar normal. Sobre essa condição, é correto afirmar:',
-    o: ['Decorre de dilatações vasculares intrapulmonares e melhora sempre com o transplante', 'Trata-se de hipertensão arterial pulmonar associada à hipertensão portal; quando grave e não controlada, contraindica o transplante pelo alto risco perioperatório', 'É causada por sobrecarga de volume, e o tratamento é apenas diurético', 'O diagnóstico é confirmado pelo ecocardiograma com microbolhas'],
+    o: ['Decorre de dilatações vasculares intrapulmonares e melhora sempre com o transplante', 'Hipertensão arterial pulmonar da hipertensão portal; se grave, contraindica o transplante', 'É causada por sobrecarga de volume, e o tratamento é apenas diurético', 'O diagnóstico é confirmado pelo ecocardiograma com microbolhas'],
     g: 'B',
     c: 'Na hipertensão portopulmonar há vasoconstrição e remodelamento das arteríolas pulmonares, o oposto da vasodilatação da síndrome hepatopulmonar. A pressão de oclusão normal com resistência elevada demonstra o componente pré-capilar. Pressões pulmonares muito altas levam à falência do ventrículo direito na reperfusão do enxerto; por isso se tenta reduzi-las com vasodilatadores pulmonares antes de liberar o transplante. Os betabloqueadores devem ser evitados.',
     x: { A: 'Dilatações vasculares caracterizam a síndrome hepatopulmonar, que é outra entidade.', C: 'A sobrecarga de volume cursaria com pressão de oclusão elevada.', D: 'A confirmação exige cateterismo direito; as microbolhas servem à síndrome hepatopulmonar.' },
@@ -189,7 +189,7 @@ export const CIRROSE_4: QuestaoCompacta[] = [
   {
     s: 'Transplante hepático: indicação',
     e: 'Mulher de 51 anos, com cirrose por hepatite autoimune, teve o primeiro episódio de ascite e apresenta MELD de 18. Não tem comorbidades relevantes. Em relação ao transplante hepático, a conduta correta é:',
-    o: ['Aguardar MELD superior a 30 para encaminhar', 'Encaminhar para avaliação em centro transplantador, pois há descompensação e MELD igual ou superior a 15', 'Contraindicar, pois a doença autoimune recidiva sempre no enxerto', 'Indicar apenas se surgir carcinoma hepatocelular'],
+    o: ['Aguardar MELD superior a 30 para encaminhar o paciente', 'Encaminhar a centro transplantador: há descompensação e MELD ≥ 15', 'Contraindicar, pois a doença autoimune recidiva sempre no enxerto', 'Indicar apenas se surgir carcinoma hepatocelular'],
     g: 'B',
     c: 'A descompensação da cirrose e o MELD a partir de 15 marcam o ponto em que a mortalidade esperada sem transplante supera o risco do procedimento. O encaminhamento precoce permite completar a avaliação e tratar comorbidades antes que a paciente fique grave demais. A recidiva da doença autoimune no enxerto pode ocorrer, mas não contraindica o transplante.',
     x: { A: 'Esperar MELD tão alto expõe a paciente a alta mortalidade na fila.', C: 'A recidiva é possível, porém controlável, e não é contraindicação.', D: 'O carcinoma hepatocelular é apenas uma das indicações de transplante.' },

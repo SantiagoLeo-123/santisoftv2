@@ -13,7 +13,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite autoimune: tipo 2',
     e: 'A hepatite autoimune tipo 2 caracteriza-se por:',
-    o: ['FAN e antimúsculo liso, com predomínio em mulheres adultas', 'Anti-LKM1 e anticitosol hepático tipo 1, com predomínio em crianças e adolescentes e curso mais agressivo', 'Antimitocôndria e IgM elevada', 'p-ANCA e associação com retocolite ulcerativa'],
+    o: ['FAN e antimúsculo liso, com predomínio em mulheres adultas e curso indolente', 'Anti-LKM1 e anti-citosol hepático tipo 1; crianças e adolescentes, curso agressivo', 'Antimitocôndria e IgM elevada, com predomínio em mulheres de meia-idade', 'p-ANCA e associação com retocolite ulcerativa, com colestase'],
     g: 'B',
     c: 'O tipo 2 é definido pelos anticorpos antimicrossomal de fígado e rim tipo 1 (anti-LKM1, dirigido contra o citocromo CYP2D6) e anticitosol hepático tipo 1. Acomete principalmente crianças, costuma ter apresentação mais grave, inclusive fulminante, e maior taxa de recidiva após a suspensão do tratamento.',
     x: { A: 'Esse é o perfil da hepatite autoimune tipo 1.', C: 'Esse é o perfil da colangite biliar primária.', D: 'Esse perfil é característico da colangite esclerosante primária.' },
@@ -21,7 +21,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite autoimune: histologia',
     e: 'O achado histológico mais característico da hepatite autoimune é:',
-    o: ['Esteatose macrovesicular com corpúsculos de Mallory-Denk', 'Hepatite de interface com infiltrado linfoplasmocitário rico em plasmócitos e formação de rosetas', 'Ductopenia com granulomas periductais', 'Congestão sinusoidal centrolobular'],
+    o: ['Esteatose macrovesicular com corpúsculos de Mallory-Denk e neutrófilos', 'Hepatite de interface com infiltrado linfoplasmocitário rico em plasmócitos e rosetas', 'Ductopenia com granulomas periductais, de pequenos ductos', 'Congestão sinusoidal centrolobular, com atrofia de hepatócitos'],
     g: 'B',
     c: 'Na hepatite autoimune o infiltrado portal ultrapassa a placa limitante e agride os hepatócitos periportais, o que se denomina hepatite de interface. A riqueza em plasmócitos reflete a ativação de linfócitos B, coerente com a hipergamaglobulinemia. Rosetas hepatocitárias e emperipolese reforçam o diagnóstico.',
     x: { A: 'Esses achados são típicos da hepatite alcoólica.', C: 'Ductopenia e granulomas sugerem colangite biliar primária.', D: 'A congestão centrolobular é típica da hepatopatia congestiva.' },
@@ -37,7 +37,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite autoimune: azatioprina',
     e: 'Paciente com hepatite autoimune, três semanas após iniciar azatioprina, apresenta leucopenia e plaquetopenia graves. O mecanismo mais provável é:',
-    o: ['Hiperesplenismo de instalação aguda', 'Baixa atividade da tiopurina metiltransferase, com acúmulo de metabólitos mielotóxicos', 'Deficiência de vitamina B12 induzida pelo fármaco', 'Reação de hipersensibilidade mediada por IgE'],
+    o: ['Hiperesplenismo de instalação aguda, com plaquetopenia associada', 'Baixa atividade da tiopurina metiltransferase, com acúmulo de metabólitos mielotóxicos', 'Deficiência de vitamina B12 induzida pelo fármaco, com anemia macrocítica', 'Reação de hipersensibilidade mediada por IgE, com rash e febre'],
     g: 'B',
     c: 'A azatioprina é convertida em 6-mercaptopurina, e a tiopurina metiltransferase é uma das enzimas que a inativam. Indivíduos com baixa atividade dessa enzima desviam o metabolismo para os nucleotídeos de 6-tioguanina, que são mielotóxicos, com mielossupressão grave. Por isso recomenda-se hemograma seriado no início do tratamento e, quando disponível, avaliação da enzima.',
     x: { A: 'O hiperesplenismo é crônico e não surge de forma aguda após um fármaco.', C: 'A azatioprina não causa deficiência de vitamina B12.', D: 'A mielotoxicidade é dose e metabolismo dependente, não alérgica.' },
@@ -45,7 +45,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite autoimune: budesonida',
     e: 'A budesonida pode substituir a prednisona na indução da remissão da hepatite autoimune em alguns pacientes, com menos efeitos sistêmicos. Ela NÃO deve ser usada em pacientes com cirrose porque:',
-    o: ['Causa hepatotoxicidade direta', 'Os shunts portossistêmicos reduzem o metabolismo de primeira passagem hepática, anulando a vantagem e aumentando os efeitos sistêmicos', 'Não é absorvida no intestino do cirrótico', 'Aumenta o risco de carcinoma hepatocelular'],
+    o: ['Causa hepatotoxicidade direta nos pacientes com cirrose', 'Shunts portossistêmicos reduzem o efeito de primeira passagem, anulando a vantagem', 'Não é absorvida no intestino do cirrótico, perdendo a eficácia', 'Aumenta o risco de carcinoma hepatocelular nos pacientes cirróticos'],
     g: 'B',
     c: 'A vantagem da budesonida é sua extensa metabolização na primeira passagem pelo fígado, o que resulta em pouca exposição sistêmica. Na cirrose com hipertensão portal o sangue portal desvia-se do fígado por colaterais, o fármaco alcança a circulação sistêmica e ainda há relatos de trombose portal. Também não é indicada nas apresentações agudas graves.',
     x: { A: 'A budesonida não é hepatotóxica por mecanismo direto.', C: 'A absorção intestinal é preservada; o problema é a perda da primeira passagem.', D: 'Não há relação entre budesonida e carcinoma hepatocelular.' },
@@ -53,7 +53,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite autoimune: seguimento',
     e: 'Paciente com hepatite autoimune está em remissão bioquímica completa há 3 anos, com aminotransferases e IgG normais, e deseja suspender a medicação. Deve-se informar que:',
-    o: ['A suspensão é segura, pois a doença não recidiva após 2 anos', 'A recidiva após a suspensão é frequente e exige monitorização próxima e por tempo indeterminado', 'A suspensão é proibida em qualquer circunstância', 'A recidiva só ocorre na hepatite autoimune tipo 1'],
+    o: ['A suspensão é segura, pois a doença não recidiva após 2 anos de remissão', 'Recidiva frequente após a suspensão; monitorização próxima por tempo indeterminado', 'A suspensão é proibida em qualquer circunstância clínica, mesmo em remissão', 'A recidiva só ocorre na hepatite autoimune tipo 1, e não na tipo 2'],
     g: 'B',
     c: 'A remissão é definida pela normalização de aminotransferases e IgG, idealmente com resolução histológica. Mesmo após remissão prolongada, grande parte dos pacientes recidiva quando a imunossupressão é retirada, pois a predisposição autoimune persiste. A tentativa de suspensão é possível, mas exige controle laboratorial periódico e retomada do tratamento se houver recidiva.',
     x: { A: 'A recidiva é comum mesmo após anos de remissão sustentada.', C: 'A suspensão pode ser tentada em pacientes selecionados com remissão prolongada.', D: 'A recidiva é ainda mais frequente no tipo 2.' },
@@ -69,7 +69,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite biliar primária: diagnóstico',
     e: 'Mulher de 52 anos queixa-se de prurido generalizado, pior à noite, e fadiga há 1 ano. Tem xantelasmas e síndrome sicca. Exames: fosfatase alcalina quatro vezes o limite superior, gama-GT elevada, aminotransferases quase normais, bilirrubinas normais e colesterol elevado. A ultrassonografia mostra vias biliares de calibre normal. O exame que confirma a principal hipótese é:',
-    o: ['Antimúsculo liso', 'Anticorpo antimitocôndria', 'p-ANCA', 'Anti-LKM1'],
+    o: ['Antimúsculo liso, típico da hepatite autoimune tipo 1', 'Anticorpo antimitocôndria, típico da colangite biliar primária', 'p-ANCA, comum na colangite esclerosante primária', 'Anti-LKM1, típico da hepatite autoimune tipo 2'],
     g: 'B',
     c: 'A colangite biliar primária é uma doença autoimune que destrói os pequenos ductos biliares intra-hepáticos, tipicamente em mulheres de meia-idade. A colestase crônica explica o prurido, a hipercolesterolemia e os xantelasmas. O antimitocôndria (fração M2) está presente em cerca de 95% dos casos e é altamente específico.',
     x: { A: 'O antimúsculo liso é marcador da hepatite autoimune tipo 1.', C: 'O p-ANCA associa-se à colangite esclerosante primária.', D: 'O anti-LKM1 é marcador da hepatite autoimune tipo 2.' },
@@ -77,7 +77,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite biliar primária: critérios',
     e: 'Em paciente com fosfatase alcalina persistentemente elevada, sem obstrução biliar à imagem, e anticorpo antimitocôndria reagente em título significativo, a necessidade de biópsia hepática para o diagnóstico de colangite biliar primária é:',
-    o: ['Obrigatória em todos os casos', 'Dispensável, pois dois dos três critérios diagnósticos já estão presentes', 'Obrigatória apenas em homens', 'Substituída por colangiografia endoscópica'],
+    o: ['Obrigatória em todos os casos de colestase intra-hepática', 'Dispensável: dois dos três critérios diagnósticos já estão presentes', 'Obrigatória apenas em homens, com colestase persistente', 'Substituída por colangiografia endoscópica, em todos os casos'],
     g: 'B',
     c: 'O diagnóstico exige dois de três critérios: colestase bioquímica (fosfatase alcalina elevada), antimitocôndria ou anticorpos antinucleares específicos reagentes, e histologia compatível. Com os dois primeiros presentes, a biópsia só é necessária na suspeita de sobreposição com hepatite autoimune ou de outra doença associada, ou nos casos com antimitocôndria negativo.',
     x: { A: 'A biópsia é reservada aos casos duvidosos ou com suspeita de sobreposição.', C: 'O sexo do paciente não modifica os critérios diagnósticos.', D: 'A colangiografia avalia grandes ductos, poupados nessa doença.' },
@@ -85,7 +85,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite biliar primária: tratamento',
     e: 'O tratamento de primeira linha da colangite biliar primária, capaz de retardar a progressão histológica e melhorar a sobrevida livre de transplante, é:',
-    o: ['Prednisona associada à azatioprina', 'Ácido ursodesoxicólico em dose de 13 a 15 mg/kg/dia', 'Colestiramina', 'Metotrexato'],
+    o: ['Prednisona associada à azatioprina, por via oral', 'Ácido ursodesoxicólico, 13-15 mg/kg/dia', 'Colestiramina, em dose habitual, para o prurido', 'Metotrexato, em dose semanal, por via oral'],
     g: 'B',
     c: 'O ácido ursodesoxicólico é um ácido biliar hidrofílico que substitui os ácidos biliares hidrofóbicos e tóxicos do pool, estimula a secreção biliar e tem efeito citoprotetor sobre os colangiócitos. Deve ser mantido indefinidamente, com avaliação da resposta bioquímica após cerca de um ano de uso.',
     x: { A: 'A imunossupressão não é eficaz na colangite biliar primária isolada.', C: 'A colestiramina alivia o prurido, mas não modifica a evolução da doença.', D: 'O metotrexato não demonstrou benefício consistente.' },
@@ -93,7 +93,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite biliar primária: segunda linha',
     e: 'Mulher de 49 anos com colangite biliar primária usa ácido ursodesoxicólico em dose adequada há 12 meses, com boa adesão, mas mantém fosfatase alcalina bastante elevada. A conduta mais apropriada é:',
-    o: ['Suspender o ácido ursodesoxicólico e observar', 'Manter o ácido ursodesoxicólico e associar terapia de segunda linha, como fibrato (bezafibrato) ou ácido obeticólico', 'Trocar por prednisona em dose alta', 'Indicar transplante hepático imediato'],
+    o: ['Suspender o ácido ursodesoxicólico e observar a evolução clínica', 'Manter o AUDC e associar segunda linha: bezafibrato ou ácido obeticólico', 'Trocar por prednisona em dose alta, por via oral', 'Indicar transplante hepático imediato, pela resposta inadequada'],
     g: 'B',
     c: 'A resposta bioquímica inadequada após um ano identifica pacientes com maior risco de progressão para cirrose. Nesses casos associa-se uma segunda droga: os fibratos, agonistas de PPAR, reduzem a síntese de ácidos biliares e melhoram a colestase e o prurido; o ácido obeticólico, agonista do receptor farnesoide X, é alternativa, mas pode piorar o prurido e é contraindicado na cirrose descompensada.',
     x: { A: 'O ácido ursodesoxicólico deve ser mantido como base do tratamento.', C: 'O corticoide não é eficaz e agrava a osteoporose já frequente na doença.', D: 'O transplante é reservado à doença avançada ou ao prurido intratável.' },
@@ -109,7 +109,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite biliar primária: associações',
     e: 'São achados ou condições habitualmente associados à colangite biliar primária, EXCETO:',
-    o: ['Osteoporose', 'Síndrome de Sjögren', 'Elevação de IgM', 'Retocolite ulcerativa com p-ANCA reagente'],
+    o: ['Osteoporose, associada à colangite biliar primária', 'Síndrome de Sjögren, associada à colangite biliar primária', 'Elevação de IgM, associada à colangite biliar primária', 'Retocolite ulcerativa com p-ANCA reagente e colestase crônica'],
     g: 'D',
     c: 'A associação com retocolite ulcerativa e p-ANCA é característica da colangite esclerosante primária. A colangite biliar primária associa-se a outras doenças autoimunes, como síndrome de Sjögren, tireoidite e esclerose sistêmica limitada, cursa com IgM elevada e, pela colestase crônica, com osteoporose, hipercolesterolemia e má absorção de vitaminas lipossolúveis.',
     x: { A: 'A osteoporose é complicação frequente e deve ser rastreada por densitometria.', B: 'A síndrome de Sjögren é uma das associações autoimunes mais comuns.', C: 'A elevação de IgM é achado laboratorial típico da doença.' },
@@ -117,7 +117,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite biliar primária: histologia',
     e: 'A lesão histológica característica da colangite biliar primária é:',
-    o: ['Fibrose periductal concêntrica em grandes ductos', 'Colangite destrutiva não supurativa dos pequenos ductos interlobulares, com lesão ductal florida e granulomas', 'Necrose hepatocelular centrolobular', 'Depósito de ferro nos hepatócitos periportais'],
+    o: ['Fibrose periductal concêntrica de grandes ductos, em casca de cebola', 'Colangite destrutiva não supurativa de pequenos ductos, com granulomas', 'Necrose hepatocelular centrolobular, com hemorragia sinusoidal associada', 'Depósito de ferro nos hepatócitos periportais, com fibrose em ponte'],
     g: 'B',
     c: 'A agressão linfocitária dirige-se ao epitélio dos pequenos ductos biliares interlobulares, formando a lesão ductal florida, por vezes com granulomas epitelioides. A destruição progressiva leva à ductopenia, colestase crônica, fibrose portal e, por fim, cirrose biliar.',
     x: { A: 'A fibrose concêntrica periductal é típica da colangite esclerosante primária.', C: 'A necrose centrolobular ocorre em lesões isquêmicas, congestivas ou tóxicas.', D: 'O depósito periportal de ferro é característico da hemocromatose.' },
@@ -133,7 +133,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite esclerosante primária: imagem',
     e: 'O achado colangiográfico típico da colangite esclerosante primária é:',
-    o: ['Dilatação uniforme de toda a via biliar com cálculo distal', 'Estenoses multifocais intercaladas com segmentos normais ou dilatados, com aspecto em contas de rosário', 'Dilatação cística do colédoco', 'Via biliar normal com vesícula em porcelana'],
+    o: ['Dilatação uniforme de toda a via biliar, com cálculo no colédoco distal', 'Estenoses multifocais alternadas com segmentos normais ou dilatados (rosário)', 'Dilatação cística do colédoco, com via biliar intra-hepática normal', 'Via biliar normal, com vesícula em porcelana e litíase associada'],
     g: 'B',
     c: 'A inflamação e a fibrose obliterante acometem de forma segmentar os ductos biliares de médio e grande calibre. As estenoses curtas alternadas com áreas normais ou dilatadas produzem a imagem em contas de rosário, e a rarefação dos ramos periféricos dá o aspecto de árvore podada.',
     x: { A: 'A dilatação uniforme com cálculo indica coledocolitíase obstrutiva.', C: 'A dilatação cística caracteriza os cistos de colédoco.', D: 'A vesícula em porcelana é calcificação da parede vesicular, sem relação com a doença.' },
@@ -141,7 +141,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite esclerosante primária: histologia',
     e: 'Na colangite esclerosante primária, o achado histológico clássico, embora pouco frequente nas biópsias, é:',
-    o: ['Lesão ductal florida com granulomas', 'Fibrose periductal concêntrica em casca de cebola', 'Hepatite de interface com plasmócitos', 'Corpúsculos de Mallory-Denk'],
+    o: ['Lesão ductal florida com granulomas, típica da colangite biliar primária', 'Fibrose periductal concêntrica em casca de cebola', 'Hepatite de interface com plasmócitos, típica da hepatite autoimune', 'Corpúsculos de Mallory-Denk, típicos da hepatite alcoólica'],
     g: 'B',
     c: 'As camadas concêntricas de tecido fibroso ao redor dos ductos biliares, que acabam por obliterá-los, formam o aspecto em casca de cebola. Como o acometimento é segmentar, a biópsia pode não amostrar a lesão, e o diagnóstico habitualmente se apoia na colangiografia.',
     x: { A: 'A lesão ductal florida é típica da colangite biliar primária.', C: 'A hepatite de interface com plasmócitos é típica da hepatite autoimune.', D: 'Os corpúsculos de Mallory-Denk são típicos da hepatite alcoólica.' },
@@ -165,7 +165,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Colangite esclerosante primária: tratamento',
     e: 'Sobre o tratamento da colangite esclerosante primária, é correto afirmar:',
-    o: ['O ácido ursodesoxicólico em altas doses aumenta comprovadamente a sobrevida', 'Não há tratamento clínico que modifique a história natural; o transplante hepático é a única terapia que altera a sobrevida na doença avançada', 'Corticoide e azatioprina induzem remissão na maioria dos casos', 'A colectomia cura a doença biliar nos pacientes com retocolite'],
+    o: ['O AUDC em altas doses aumenta comprovadamente a sobrevida dos pacientes', 'Nenhum tratamento clínico modifica a história natural; só o transplante altera a sobrevida', 'Corticoide e azatioprina induzem remissão na maioria dos pacientes', 'A colectomia cura a doença biliar nos pacientes com retocolite ulcerativa'],
     g: 'B',
     c: 'Nenhum fármaco mostrou reduzir mortalidade ou necessidade de transplante. O manejo consiste em tratar prurido e colangites bacterianas, dilatar estenoses dominantes por via endoscópica e rastrear neoplasias. O transplante é indicado na cirrose descompensada, em colangites de repetição ou prurido intratável, e a doença pode recorrer no enxerto.',
     x: { A: 'Doses altas de ácido ursodesoxicólico associaram-se a piores desfechos.', C: 'A imunossupressão não é eficaz, exceto se houver sobreposição com hepatite autoimune.', D: 'A evolução da doença biliar é independente da colectomia.' },
@@ -181,7 +181,7 @@ export const CIRROSE_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de sobreposição',
     e: 'Mulher de 45 anos tem prurido e fosfatase alcalina elevada, com anticorpo antimitocôndria reagente. Chama atenção ALT oito vezes acima do normal, IgG bastante elevada e antimúsculo liso reagente. A biópsia mostra lesão ductal florida e hepatite de interface moderada a intensa. O diagnóstico e o tratamento adequados são:',
-    o: ['Colangite biliar primária isolada; ácido ursodesoxicólico', 'Sobreposição de colangite biliar primária e hepatite autoimune; ácido ursodesoxicólico associado a imunossupressão', 'Hepatite autoimune isolada; prednisona e azatioprina', 'Colangite esclerosante primária; colangiografia endoscópica com dilatação'],
+    o: ['Colangite biliar primária isolada; ácido ursodesoxicólico em dose habitual', 'Sobreposição de CBP e hepatite autoimune: AUDC mais imunossupressão', 'Hepatite autoimune isolada; prednisona e azatioprina em dose habitual', 'Colangite esclerosante primária; colangiografia endoscópica com dilatação'],
     g: 'B',
     c: 'Na colangite biliar primária as aminotransferases e a IgG costumam estar pouco alteradas. Aminotransferases acima de cinco vezes o normal, IgG elevada ou antimúsculo liso e hepatite de interface significativa, somados aos critérios de doença biliar, indicam sobreposição (critérios de Paris). O componente de hepatite autoimune acelera a fibrose e exige imunossupressão junto ao ácido ursodesoxicólico.',
     x: { A: 'A intensidade da hepatite e a IgG elevada ultrapassam o esperado para a doença biliar isolada.', C: 'Há antimitocôndria e lesão ductal florida, que indicam o componente biliar.', D: 'Não há estenoses de grandes ductos nem doença inflamatória intestinal.' },

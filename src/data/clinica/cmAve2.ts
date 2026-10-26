@@ -29,7 +29,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'ASPECTS',
     e: 'Sobre o escore ASPECTS, aplicado à tomografia sem contraste no AVE isquêmico, é correto afirmar que:',
-    o: ['Avalia a circulação posterior e varia de 0 a 42', 'Avalia 10 regiões do território da cerebral média; subtrai-se 1 ponto por região com sinal isquêmico precoce', 'Quanto menor a pontuação, menor a extensão da isquemia', 'É um escore clínico de gravidade aplicado à beira do leito'],
+    o: ['Avalia a circulação posterior e varia de 0 a 42 pontos, na TC', 'Avalia 10 regiões da cerebral média; tira 1 ponto por região com sinal precoce', 'Quanto menor a pontuação, menor a extensão da isquemia, e pior o prognóstico', 'É um escore clínico de gravidade do déficit, aplicado à beira do leito'],
     g: 'B',
     c: 'O ASPECTS divide o território da artéria cerebral média em 10 regiões (núcleos da base, cápsula interna, ínsula e seis áreas corticais). Parte-se de 10 e subtrai-se 1 ponto para cada região com hipodensidade ou perda da diferenciação. Pontuação 10 é normal e valores baixos indicam infarto extenso, com maior risco de transformação hemorrágica e pior prognóstico.',
     x: { A: 'O escore é da circulação anterior e varia de 0 a 10; 42 é o máximo da NIHSS.', C: 'É o contrário: pontuação menor significa maior extensão de isquemia.', D: 'Trata-se de escore radiológico, não de escala clínica.' },
@@ -45,7 +45,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Trombólise — dose da alteplase',
     e: 'A forma correta de administrar a alteplase no AVE isquêmico agudo é:',
-    o: ['0,9 mg/kg em bolus único, sem dose máxima', '0,9 mg/kg, máximo de 90 mg, sendo 10% em bolus e o restante em infusão de 60 minutos', '100 mg em infusão de 2 horas, como na embolia pulmonar', '1,5 milhão de unidades em 60 minutos'],
+    o: ['0,9 mg/kg em bolus único, sem dose máxima', '0,9 mg/kg (máx. 90 mg): 10% em bolus e o restante em 60 min', '100 mg em infusão de 2 horas, como na embolia pulmonar', '1,5 milhão de unidades em 60 minutos, como a estreptoquinase'],
     g: 'B',
     c: 'A dose no AVE isquêmico é de 0,9 mg/kg, limitada a 90 mg, com 10% em bolus em 1 minuto e os 90% restantes em 60 minutos. É dose menor que a usada no infarto do miocárdio e na embolia pulmonar, porque o tecido cerebral isquêmico é muito suscetível a sangramento.',
     x: { A: 'Há dose máxima de 90 mg e apenas 10% é feito em bolus.', C: 'O esquema de 100 mg em 2 horas é o da embolia pulmonar, com risco excessivo no AVE.', D: 'Essa é dose de estreptoquinase, que não é indicada no AVE isquêmico.' },
@@ -53,7 +53,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Tenecteplase',
     e: 'Em relação ao uso da tenecteplase no AVE isquêmico agudo, é correto afirmar que:',
-    o: ['É contraindicada, pois só a alteplase tem eficácia demonstrada', 'É alternativa à alteplase, administrada em bolus único de 0,25 mg/kg, com dose máxima de 25 mg', 'Deve ser administrada em infusão contínua por 60 minutos', 'A dose é a mesma usada no infarto do miocárdio, de 0,5 mg/kg'],
+    o: ['É contraindicada, pois só a alteplase tem eficácia demonstrada', 'Alternativa à alteplase: bolus único de 0,25 mg/kg (máx. 25 mg)', 'Deve ser administrada em infusão contínua por 60 minutos', 'Usa a mesma dose do infarto do miocárdio, de 0,5 mg/kg'],
     g: 'B',
     c: 'A tenecteplase é uma variante da alteplase com meia-vida mais longa e maior especificidade pela fibrina, o que permite bolus único. Ensaios clínicos mostraram não inferioridade em relação à alteplase na janela de 4,5 horas, e as diretrizes atuais a aceitam como alternativa, na dose de 0,25 mg/kg (máximo 25 mg). A praticidade facilita a transferência para trombectomia.',
     x: { A: 'Há evidência de não inferioridade e as diretrizes recentes a aceitam como alternativa.', C: 'A vantagem do fármaco é justamente a aplicação em bolus único.', D: 'A dose de 0,5 mg/kg é a do infarto e aumenta o risco de hemorragia no AVE.' },
@@ -69,7 +69,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'AVE ao despertar',
     e: 'Homem de 58 anos foi dormir bem às 23 horas e acordou às 6 horas com hemiparesia esquerda. Chega ao hospital às 7 horas. Em centro com ressonância disponível, o achado que permite indicar trombólise intravenosa é:',
-    o: ['Lesão hiperintensa tanto na difusão quanto no FLAIR', 'Lesão com restrição à difusão sem hiperintensidade correspondente no FLAIR', 'Ressonância completamente normal', 'Micro-hemorragias lobares múltiplas no gradiente-eco'],
+    o: ['Lesão hiperintensa tanto na difusão quanto no FLAIR', 'Lesão com restrição à difusão, sem hiperintensidade no FLAIR', 'Ressonância completamente normal, sem restrição à difusão', 'Micro-hemorragias lobares múltiplas no gradiente-eco'],
     g: 'B',
     c: 'A difusão se altera em minutos após a isquemia, enquanto o FLAIR leva algumas horas para mostrar hipersinal. A discordância entre difusão positiva e FLAIR negativo sugere que o infarto tem menos de cerca de 4,5 horas, o que permite trombólise no AVE de horário desconhecido, como demonstrado em ensaio clínico. É a seleção por relógio tecidual.',
     x: { A: 'FLAIR já positivo indica lesão mais antiga, fora da janela provável.', C: 'Sem lesão na difusão não há confirmação de isquemia aguda a tratar.', D: 'Micro-hemorragias não datam o infarto e, se numerosas, aumentam o risco de sangramento.' },
@@ -93,7 +93,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Pressão arterial antes da trombólise',
     e: 'Paciente candidato à trombólise intravenosa apresenta pressão arterial de 200 por 115 mmHg em duas medidas. A conduta correta é:',
-    o: ['Contraindicar a trombólise de forma definitiva', 'Reduzir a pressão com anti-hipertensivo intravenoso para menos de 185 por 110 mmHg e então trombolisar', 'Trombolisar imediatamente, pois a hipertensão é reflexa e protetora', 'Administrar nifedipino sublingual e iniciar o trombolítico'],
+    o: ['Contraindicar a trombólise de forma definitiva, por hipertensão', 'Reduzir a PA com anti-hipertensivo IV para < 185 x 110 mmHg e trombolisar', 'Trombolisar imediatamente, pois a hipertensão é reflexa e protetora', 'Dar nifedipino sublingual e iniciar o trombolítico em seguida'],
     g: 'B',
     c: 'A pressão acima de 185 por 110 mmHg aumenta o risco de hemorragia intracraniana após o trombolítico, mas é contraindicação corrigível. Usam-se agentes intravenosos tituláveis, como labetalol, nicardipino ou nitroprussiato de sódio (este o mais disponível no Brasil). Se a meta for atingida, o tratamento prossegue; após a trombólise mantém-se abaixo de 180 por 105 mmHg por 24 horas.',
     x: { A: 'A contraindicação só existe se a pressão não puder ser controlada.', C: 'Trombolisar com pressão acima do limite eleva o risco de sangramento cerebral.', D: 'O nifedipino sublingual causa queda brusca e imprevisível e não deve ser usado.' },
@@ -101,7 +101,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Pressão arterial sem trombólise',
     e: 'Homem de 73 anos é admitido com AVE isquêmico iniciado há 9 horas, sem indicação de trombólise ou trombectomia. Pressão arterial de 196 por 104 mmHg, sem dor torácica, dispneia ou sinais de dissecção de aorta. A conduta quanto à pressão é:',
-    o: ['Reduzir rapidamente para menos de 140 por 90 mmHg', 'Não tratar agora; reduzir apenas se acima de 220 por 120 mmHg ou houver outra emergência hipertensiva', 'Iniciar nitroprussiato para manter abaixo de 160 por 90 mmHg', 'Administrar captopril sublingual a cada 30 minutos'],
+    o: ['Reduzir rapidamente para menos de 140 x 90 mmHg, de imediato', 'Não tratar agora; reduzir só se PA > 220 x 120 ou outra emergência hipertensiva', 'Iniciar nitroprussiato, para manter a PA abaixo de 160 x 90 mmHg', 'Administrar captopril sublingual a cada 30 minutos, até reduzir a PA'],
     g: 'B',
     c: 'Na isquemia aguda a autorregulação cerebral está perdida na área de penumbra, cuja perfusão passa a depender diretamente da pressão sistêmica. Reduzir a pressão pode converter penumbra em infarto, por isso se tolera hipertensão permissiva até 220 por 120 mmHg em quem não será reperfundido. Acima disso, reduz-se com cautela, em torno de 15% nas primeiras 24 horas.',
     x: { A: 'A redução rápida para níveis normais pode ampliar a área de infarto.', C: 'A meta abaixo de 160 por 90 mmHg não se aplica ao AVE isquêmico sem reperfusão.', D: 'A redução sublingual repetida é imprevisível e não tem indicação.' },
@@ -117,7 +117,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Complicação — hemorragia pós-trombólise',
     e: 'Durante a infusão de alteplase, paciente com AVE isquêmico apresenta cefaleia intensa, vômitos, elevação da pressão arterial e piora do nível de consciência. A primeira medida é:',
-    o: ['Reduzir a velocidade de infusão e administrar analgésico', 'Interromper a infusão do trombolítico e solicitar tomografia de crânio urgente', 'Terminar a infusão e depois realizar tomografia', 'Administrar manitol e manter a infusão'],
+    o: ['Reduzir a velocidade de infusão e dar analgésico', 'Interromper o trombolítico e pedir TC de crânio urgente', 'Terminar a infusão e só depois realizar a tomografia', 'Administrar manitol e manter a infusão do trombolítico'],
     g: 'B',
     c: 'Cefaleia, vômitos, hipertensão aguda ou piora neurológica durante ou após o trombolítico devem ser considerados hemorragia intracraniana até prova em contrário. A infusão deve ser suspensa de imediato e a tomografia realizada com urgência. Confirmado o sangramento, repõe-se fibrinogênio com crioprecipitado e pode-se usar antifibrinolítico, além de avaliação neurocirúrgica.',
     x: { A: 'Manter o trombolítico, mesmo em velocidade menor, agrava um possível sangramento.', C: 'Concluir a infusão diante de suspeita de hemorragia é conduta perigosa.', D: 'O manitol não trata a causa e manter a infusão amplia o hematoma.' },
@@ -125,7 +125,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Complicação — angioedema',
     e: 'Mulher de 70 anos, em uso crônico de enalapril, recebe alteplase para AVE isquêmico. Ao final da infusão apresenta edema assimétrico de língua e lábios, sem urticária e sem hipotensão. Sobre essa complicação, é correto afirmar que:',
-    o: ['É reação rara, sem relação com medicações de uso prévio', 'É o angioedema orolingual, mais frequente em usuários de inibidores da enzima conversora de angiotensina', 'Indica hemorragia de tronco encefálico', 'Deve ser tratada apenas com observação, mesmo se progredir'],
+    o: ['Reação rara, sem relação com as medicações de uso prévio', 'Angioedema orolingual, mais comum em usuários de IECA', 'Indica hemorragia de tronco encefálico, com rebaixamento', 'Deve ser tratada apenas com observação, mesmo se progredir'],
     g: 'B',
     c: 'A alteplase aumenta a formação de bradicinina por ativação da plasmina, e os inibidores da enzima conversora reduzem sua degradação, o que explica a associação. O edema costuma ser assimétrico e contralateral à lesão cerebral. A conduta inclui suspender a infusão e o inibidor, proteger a via aérea e administrar corticoide e anti-histamínico, com adrenalina se houver progressão.',
     x: { A: 'O uso prévio de inibidor da enzima conversora é o principal fator predisponente.', C: 'Edema de língua e lábios é complicação periférica, não sinal de lesão de tronco.', D: 'A progressão ameaça a via aérea e exige tratamento ativo e eventual intubação.' },
@@ -141,7 +141,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Trombectomia mecânica — janela estendida',
     e: 'Mulher de 69 anos foi vista bem pela última vez há 14 horas e apresenta hemiplegia direita e afasia, NIHSS de 17. A angiotomografia mostra oclusão da carótida interna terminal esquerda e a perfusão evidencia núcleo isquêmico pequeno com grande área de penumbra. A conduta indicada é:',
-    o: ['Tratamento conservador, pois está fora da janela de 6 horas', 'Trombectomia mecânica, indicada até 24 horas em pacientes selecionados por imagem', 'Trombólise intravenosa com alteplase', 'Craniectomia descompressiva profilática'],
+    o: ['Tratamento conservador, pois está fora da janela de 6 horas', 'Trombectomia mecânica, até 24 horas em selecionados por imagem', 'Trombólise intravenosa com alteplase, mesmo fora da janela', 'Craniectomia descompressiva profilática, de rotina'],
     g: 'B',
     c: 'Os estudos DAWN e DEFUSE 3 demonstraram benefício da trombectomia entre 6 e 24 horas em pacientes com oclusão de grande vaso da circulação anterior e discordância entre déficit clínico ou penumbra extensa e núcleo de infarto pequeno. Nesses casos, a boa circulação colateral mantém tecido viável por mais tempo, e o que orienta a decisão é o tecido, não o relógio.',
     x: { A: 'A janela pode chegar a 24 horas quando a imagem mostra tecido salvável.', C: 'A trombólise venosa convencional não é indicada com 14 horas de evolução.', D: 'A craniectomia trata o edema maligno estabelecido, não é medida profilática.' },
@@ -149,7 +149,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Glicemia no AVE agudo',
     e: 'No manejo do AVE isquêmico agudo, a conduta correta em relação à glicemia é:',
-    o: ['Manter controle intensivo com glicemia entre 80 e 110 mg/dL', 'Tratar a hiperglicemia para manter entre 140 e 180 mg/dL e corrigir prontamente a hipoglicemia', 'Não tratar a hiperglicemia, pois ela protege a penumbra', 'Infundir soro glicosado a 5% como hidratação de manutenção'],
+    o: ['Controle intensivo, com glicemia entre 80 e 110 mg/dL', 'Manter glicemia entre 140 e 180 mg/dL e corrigir logo a hipoglicemia', 'Não tratar a hiperglicemia, pois ela protege a penumbra', 'Infundir soro glicosado a 5% como hidratação de manutenção'],
     g: 'B',
     c: 'A hiperglicemia persistente nas primeiras 24 horas associa-se a pior desfecho, pois aumenta a acidose lática no tecido isquêmico e o risco de transformação hemorrágica. Recomenda-se manter entre 140 e 180 mg/dL. O controle intensivo não trouxe benefício e aumentou a hipoglicemia, que deve ser corrigida quando abaixo de 60 mg/dL.',
     x: { A: 'O controle intensivo aumenta hipoglicemias sem melhorar o desfecho funcional.', C: 'A hiperglicemia agrava a lesão isquêmica, não a protege.', D: 'Soluções glicosadas e hipotônicas pioram a hiperglicemia e o edema cerebral.' },
@@ -157,7 +157,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Temperatura e medidas gerais',
     e: 'Paciente no segundo dia de AVE isquêmico apresenta temperatura axilar de 38,4 graus. A conduta adequada é:',
-    o: ['Induzir hipotermia terapêutica de rotina', 'Tratar a febre com antitérmico e pesquisar foco infeccioso, como pneumonia aspirativa', 'Não tratar, pois a febre é resposta esperada e benéfica', 'Iniciar antibiótico profilático em todos os pacientes com AVE'],
+    o: ['Induzir hipotermia terapêutica, de rotina, em todos os casos', 'Tratar a febre e pesquisar foco infeccioso, como pneumonia aspirativa', 'Não tratar, pois a febre é resposta esperada e benéfica', 'Iniciar antibiótico profilático em todos os pacientes com AVE'],
     g: 'B',
     c: 'A hipertermia aumenta a demanda metabólica cerebral e a liberação de neurotransmissores excitatórios, ampliando a área de infarto e piorando o prognóstico. Deve-se tratar temperatura acima de 38 graus e buscar a causa, sendo as mais comuns a pneumonia aspirativa e a infecção urinária. A hipotermia induzida não tem benefício comprovado.',
     x: { A: 'A hipotermia induzida não demonstrou benefício no AVE isquêmico.', C: 'A febre piora o desfecho neurológico e deve ser tratada.', D: 'A antibioticoprofilaxia de rotina não melhora o desfecho.' },
@@ -165,7 +165,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Oxigênio e posicionamento',
     e: 'Em paciente com AVE isquêmico agudo, respirando espontaneamente e com saturação de oxigênio de 97% em ar ambiente, a suplementação de oxigênio:',
-    o: ['Deve ser feita em todos os casos, com máscara de alto fluxo', 'Não é indicada; o oxigênio é reservado para manter saturação acima de 94%', 'Deve ser feita apenas em câmara hiperbárica', 'É indicada para reduzir o edema cerebral'],
+    o: ['Deve ser feita em todos os casos, com máscara de alto fluxo', 'Não indicada: O2 só se SatO2 < 94%', 'Deve ser feita apenas em câmara hiperbárica, em todos os casos', 'É indicada para reduzir o edema cerebral, em todos os casos'],
     g: 'B',
     c: 'O oxigênio suplementar só é recomendado para pacientes hipoxêmicos, com meta de saturação acima de 94%. Em pacientes não hipoxêmicos não houve benefício em ensaios clínicos, e a hiperóxia pode causar vasoconstrição cerebral e formação de radicais livres.',
     x: { A: 'O uso rotineiro em pacientes sem hipoxemia não melhora o desfecho.', C: 'O oxigênio hiperbárico só é indicado na embolia gasosa cerebral.', D: 'O oxigênio não tem efeito redutor sobre o edema cerebral.' },
@@ -181,7 +181,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Infarto maligno da cerebral média',
     e: 'Homem de 52 anos, no segundo dia de AVE isquêmico extenso da cerebral média direita, evolui com sonolência progressiva e anisocoria. A tomografia mostra hipodensidade em mais de dois terços do território, com desvio da linha média de 9 mm. A intervenção que reduz a mortalidade nesse cenário é:',
-    o: ['Corticoide em dose alta', 'Craniectomia descompressiva (hemicraniectomia) precoce', 'Trombólise intravenosa tardia', 'Hiperventilação prolongada como tratamento definitivo'],
+    o: ['Corticoide em dose alta, para reduzir o edema cerebral', 'Craniectomia descompressiva (hemicraniectomia) precoce', 'Trombólise intravenosa tardia, no segundo dia de evolução', 'Hiperventilação prolongada, como tratamento definitivo'],
     g: 'B',
     c: 'O infarto maligno da cerebral média cursa com edema citotóxico maciço, com pico entre o segundo e o quinto dia, e herniação transtentorial. A hemicraniectomia com duroplastia, realizada nas primeiras 48 horas em pacientes de até 60 anos, reduz de forma expressiva a mortalidade e aumenta a chance de desfecho funcional aceitável. Em idosos reduz a mortalidade, mas com maior incapacidade residual.',
     x: { A: 'O corticoide não age sobre o edema citotóxico do infarto e aumenta infecções.', C: 'A trombólise tardia em infarto extenso estabelecido causa hemorragia.', D: 'A hiperventilação tem efeito transitório e serve apenas como ponte.' },
@@ -189,7 +189,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Infarto cerebelar com efeito de massa',
     e: 'Mulher de 60 anos, internada por infarto extenso do hemisfério cerebelar esquerdo, torna-se sonolenta no terceiro dia, com paresia do olhar e respiração irregular. A tomografia mostra apagamento do quarto ventrículo e dilatação dos ventrículos laterais. A conduta é:',
-    o: ['Punção lombar de alívio', 'Craniectomia descompressiva da fossa posterior, com ou sem derivação ventricular', 'Apenas manitol e observação em enfermaria', 'Anticoagulação plena para evitar progressão do infarto'],
+    o: ['Punção lombar de alívio, para reduzir a pressão intracraniana', 'Craniectomia descompressiva da fossa posterior ± derivação ventricular', 'Apenas manitol e observação em enfermaria, sem cirurgia', 'Anticoagulação plena, para evitar a progressão do infarto'],
     g: 'B',
     c: 'A fossa posterior é um compartimento pequeno e inextensível. O edema do infarto cerebelar comprime o tronco e o quarto ventrículo, causando hidrocefalia obstrutiva e deterioração rápida. A craniectomia suboccipital descompressiva é a medida que salva a vida; a derivação ventricular isolada pode provocar herniação ascendente.',
     x: { A: 'A punção lombar com massa em fossa posterior pode precipitar herniação.', C: 'As medidas clínicas são temporárias e insuficientes diante de compressão do tronco.', D: 'A anticoagulação aumenta o risco de transformação hemorrágica do infarto extenso.' },
@@ -197,7 +197,7 @@ export const AVE_2: QuestaoCompacta[] = [
   {
     s: 'Unidade de AVE',
     e: 'Entre as medidas abaixo, aquela que beneficia praticamente todos os pacientes com AVE, independentemente do tipo, da gravidade e do tempo de evolução, é:',
-    o: ['Trombólise intravenosa', 'Internação em unidade de AVE com equipe multiprofissional', 'Trombectomia mecânica', 'Craniectomia descompressiva'],
+    o: ['Trombólise intravenosa, restrita a quem chega na janela', 'Internação em unidade de AVE com equipe multiprofissional', 'Trombectomia mecânica, restrita a oclusão de grande vaso', 'Craniectomia descompressiva, restrita a infartos malignos'],
     g: 'B',
     c: 'O cuidado organizado em unidade de AVE reduz mortalidade e dependência porque previne e trata precocemente as complicações: aspiração, trombose venosa, infecções, lesões por pressão, além de iniciar a reabilitação cedo. Ao contrário das terapias de reperfusão, não há restrição de janela ou de tipo de AVE.',
     x: { A: 'A trombólise beneficia apenas a minoria que chega dentro da janela e sem contraindicações.', C: 'A trombectomia é restrita a oclusões de grande vaso em pacientes selecionados.', D: 'A craniectomia se aplica somente ao infarto com efeito de massa grave.' },

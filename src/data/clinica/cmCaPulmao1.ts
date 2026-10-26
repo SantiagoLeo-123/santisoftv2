@@ -45,7 +45,7 @@ export const CA_PULMAO_1: QuestaoCompacta[] = [
   {
     s: 'Fatores de risco',
     e: 'Homem de 58 anos, que fumou 35 maços-ano e parou há 8 anos, pergunta se seu risco de câncer de pulmão já é igual ao de quem nunca fumou. A resposta correta é:',
-    o: ['Sim, o risco se iguala ao do nunca fumante após 5 anos de abstinência', 'Não, o risco cai progressivamente com a abstinência, mas permanece acima do risco de quem nunca fumou', 'Não, o risco não se altera após a cessação, pois o dano ao DNA é irreversível', 'Sim, desde que tenha parado antes dos 60 anos de idade'],
+    o: ['Sim, o risco se iguala ao de quem nunca fumou após 5 anos de abstinência', 'Não, o risco cai com a abstinência, mas fica acima do de nunca fumantes', 'Não, o risco não se altera após a cessação, pois o dano ao DNA é irreversível', 'Sim, desde que tenha parado antes dos 60 anos de idade do paciente'],
     g: 'B',
     c: 'Após a cessação, o risco de câncer de pulmão diminui de forma gradual ao longo dos anos, porque cessa o acúmulo de novas mutações. Entretanto, as alterações genéticas já instaladas persistem, e o risco não retorna ao nível de quem nunca fumou, mesmo após décadas. Por isso ex-fumantes continuam sendo incluídos nos critérios de rastreamento.',
     x: { A: 'Em 5 anos o risco cardiovascular cai bastante, mas o risco de câncer de pulmão ainda é claramente elevado.', C: 'Há redução real e progressiva do risco, o que justifica estimular a cessação em qualquer idade.', D: 'Parar mais cedo reduz mais o risco, mas não o iguala ao do nunca fumante.' },
@@ -117,7 +117,7 @@ export const CA_PULMAO_1: QuestaoCompacta[] = [
   {
     s: 'Tipos histológicos',
     e: 'Mulher de 59 anos, não fumante, tem tosse há 4 meses com expectoração clara, aquosa e muito abundante. A tomografia mostra consolidação com broncograma aéreo no lobo inferior direito, que não se modificou após dois cursos de antibiótico. A biópsia mostra células neoplásicas revestindo os septos alveolares, sem invadir o estroma. Trata-se de:',
-    o: ['Carcinoma epidermoide', 'Adenocarcinoma com padrão de crescimento lepídico', 'Carcinoma de pequenas células', 'Tumor carcinoide atípico'],
+    o: ['Carcinoma epidermoide, de localização central e cavitado', 'Adenocarcinoma com padrão de crescimento lepídico', 'Carcinoma de pequenas células, de localização central', 'Tumor carcinoide atípico, de localização central'],
     g: 'B',
     c: 'No padrão lepídico (antigo carcinoma bronquioloalveolar), as células crescem atapetando os alvéolos e preservam a arquitetura pulmonar, sem destruir o estroma. Por isso a imagem imita pneumonia (consolidação com broncograma aéreo ou vidro fosco) que não resolve com antibiótico, e as formas mucinosas podem causar broncorreia.',
     x: { A: 'O epidermoide forma massa central sólida, muitas vezes cavitada, e não respeita a arquitetura alveolar.', C: 'O pequenas células é massa central com adenomegalias em fumante pesado.', D: 'O carcinoide é lesão endobrônquica bem delimitada, não uma consolidação alveolar.' },
@@ -197,7 +197,7 @@ export const CA_PULMAO_1: QuestaoCompacta[] = [
   {
     s: 'Rastreamento',
     e: 'Ao orientar um paciente sobre os riscos do rastreamento de câncer de pulmão com tomografia de baixa dose, o principal dano a ser discutido, pela sua frequência, é:',
-    o: ['Nefropatia induzida pelo contraste iodado', 'Alta taxa de resultados falso-positivos, que geram exames adicionais e procedimentos invasivos', 'Neoplasia induzida por radiação em cerca de 10% dos rastreados', 'Baixa sensibilidade, com a maioria dos tumores passando despercebida'],
+    o: ['Nefropatia induzida pelo contraste iodado, que é o principal dano', 'Muitos falso-positivos, gerando mais exames e procedimentos invasivos', 'Neoplasia induzida por radiação em cerca de 10% dos rastreados', 'Baixa sensibilidade, com a maioria dos tumores passando despercebida'],
     g: 'B',
     c: 'A tomografia é muito sensível e encontra nódulos em grande parte dos fumantes, mas a ampla maioria é benigna (granulomas, linfonodos intrapulmonares). No NLST, mais de 95% dos achados positivos eram falso-positivos, o que gera ansiedade, novos exames, biópsias e, às vezes, cirurgias desnecessárias. Há ainda o sobrediagnóstico de tumores indolentes.',
     x: { A: 'A tomografia de rastreamento é feita sem contraste, de modo que não há risco de nefropatia.', C: 'O risco de câncer induzido pela baixa dose existe, mas é pequeno, muito inferior a 10%.', D: 'O problema do método é a baixa especificidade, e não a baixa sensibilidade.' },

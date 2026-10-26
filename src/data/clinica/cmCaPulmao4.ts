@@ -13,7 +13,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Estadiamento TNM',
     e: 'Mulher de 58 anos tem adenocarcinoma de 3 cm no lobo inferior direito. O EBUS confirma metástase em linfonodo paratraqueal esquerdo. Não há metástases a distância. O descritor N e a implicação terapêutica são:',
-    o: ['N1; ressecção cirúrgica seguida de quimioterapia', 'N3; doença irressecável, com tratamento por quimiorradioterapia', 'N2; lobectomia isolada é suficiente', 'M1a; tratamento sistêmico paliativo'],
+    o: ['N1; ressecção cirúrgica seguida de quimioterapia adjuvante', 'N3; doença irressecável, tratada com quimiorradioterapia', 'N2; lobectomia isolada é suficiente, sem outro tratamento', 'M1a; tratamento sistêmico paliativo, sem intenção curativa'],
     g: 'B',
     c: 'A classificação linfonodal é anatômica: N1 são os linfonodos hilares e intrapulmonares do mesmo lado; N2, os mediastinais ipsilaterais e os subcarinais; N3, os mediastinais ou hilares contralaterais e os supraclaviculares ou escalenos de qualquer lado. A doença N3 está fora do campo de uma ressecção e define estádio III irressecável, tratado com quimiorradioterapia.',
     x: { A: 'N1 corresponde a linfonodos hilares ou intrapulmonares ipsilaterais.', C: 'N2 seria linfonodo mediastinal do mesmo lado do tumor ou subcarinal, e mesmo assim não se trata só com lobectomia.', D: 'Linfonodo regional contralateral é descritor N, não metástase a distância.' },
@@ -29,7 +29,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Estadiamento',
     e: 'Homem de 63 anos tem adenocarcinoma de 4,5 cm no lobo inferior esquerdo com linfonodo hilar ipsilateral acometido (estádio clínico II). O PET-CT não mostra outras lesões e ele não tem sintomas neurológicos. Antes de indicar a cirurgia, o exame que ainda deve ser solicitado para completar o estadiamento é:',
-    o: ['Cintilografia óssea', 'Ressonância magnética de crânio com contraste', 'Ultrassonografia de abdome', 'Dosagem de antígeno carcinoembrionário'],
+    o: ['Cintilografia óssea, para pesquisa de metástases', 'RM de crânio com contraste', 'Ultrassonografia de abdome, para pesquisa de metástases', 'Dosagem de antígeno carcinoembrionário, no sangue'],
     g: 'B',
     c: 'O cérebro consome glicose de forma intensa, e essa captação fisiológica mascara as metástases no PET-CT. Como as metástases cerebrais são frequentes e podem ser assintomáticas, recomenda-se ressonância de crânio com contraste a partir do estádio II, e sempre no carcinoma de pequenas células. O achado de metástase muda completamente a conduta.',
     x: { A: 'O PET-CT já avalia o esqueleto com sensibilidade superior à da cintilografia.', C: 'O PET-CT já avaliou fígado e adrenais; a ultrassonografia nada acrescenta.', D: 'Marcadores séricos não fazem parte do estadiamento nem alteram a conduta.' },
@@ -37,7 +37,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Tratamento do não pequenas células',
     e: 'Mulher de 61 anos, ex-tabagista, com boa função pulmonar, tem adenocarcinoma de 2,5 cm no lobo superior direito, sem linfonodos acometidos no estadiamento (estádio I). O tratamento padrão com intenção curativa é:',
-    o: ['Quimioterapia baseada em platina', 'Lobectomia com dissecção linfonodal mediastinal', 'Radioterapia torácica convencional', 'Pneumonectomia direita'],
+    o: ['Quimioterapia baseada em platina, de forma exclusiva', 'Lobectomia com dissecção linfonodal mediastinal', 'Radioterapia torácica convencional, de forma exclusiva', 'Pneumonectomia direita, com ressecção do pulmão inteiro'],
     g: 'B',
     c: 'Nos estádios iniciais do carcinoma não pequenas células, a ressecção cirúrgica anatômica é o tratamento com melhores taxas de cura. A lobectomia remove o tumor junto com a drenagem linfática do lobo, e a avaliação dos linfonodos hilares e mediastinais completa o estadiamento. Para tumores periféricos de até 2 cm, estudos recentes mostraram que ressecções sublobares são alternativa aceitável.',
     x: { A: 'A quimioterapia isolada não cura doença localizada e não substitui a ressecção.', C: 'A radioterapia fica reservada a quem não pode ou não quer ser operado.', D: 'A pneumonectomia tem morbimortalidade muito maior e só se justifica quando a lobectomia não remove todo o tumor.' },
@@ -69,7 +69,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Avaliação pré-operatória',
     e: 'Paciente candidato a lobectomia realiza ergoespirometria, que mostra consumo máximo de oxigênio de 8 mL/kg/min. Esse resultado indica:',
-    o: ['Baixo risco cirúrgico, podendo-se realizar até pneumonectomia', 'Alto risco de complicações e morte perioperatória, devendo-se preferir tratamento não cirúrgico', 'Risco intermediário, sem influência na escolha do tratamento', 'Exame inválido, que deve ser repetido após reabilitação de 1 semana'],
+    o: ['Baixo risco cirúrgico, podendo-se realizar até pneumonectomia', 'Alto risco de complicações e morte; preferir tratamento não cirúrgico', 'Risco intermediário, sem influência na escolha do tratamento', 'Exame inválido, que deve ser repetido após 1 semana de reabilitação'],
     g: 'B',
     c: 'O consumo máximo de oxigênio mede a capacidade de aumentar a oferta de oxigênio aos tecidos sob estresse, semelhante à demanda do pós-operatório. Valores acima de 20 mL/kg/min indicam baixo risco; entre 10 e 20, risco intermediário; abaixo de 10 mL/kg/min (ou de 35% do previsto), risco alto, orientando ressecção menor ou tratamento não cirúrgico, como a radioterapia estereotáxica.',
     x: { A: 'Baixo risco corresponde a consumo acima de 20 mL/kg/min.', C: 'A faixa intermediária vai de 10 a 20 mL/kg/min, e o resultado influencia diretamente a decisão.', D: 'O resultado é válido e tem valor prognóstico; reabilitação curta não o torna inválido.' },
@@ -85,7 +85,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Tratamento do não pequenas células',
     e: 'Mulher de 62 anos, com bom estado geral, tem carcinoma epidermoide de 5 cm no lobo superior direito, com metástases confirmadas em linfonodos paratraqueais bilaterais e sem doença a distância (estádio IIIB, irressecável). O tratamento padrão é:',
-    o: ['Lobectomia seguida de radioterapia', 'Quimiorradioterapia concomitante seguida de imunoterapia de consolidação com durvalumabe', 'Quimioterapia paliativa isolada', 'Radioterapia exclusiva em dose paliativa'],
+    o: ['Lobectomia seguida de radioterapia, em doença irressecável', 'QT-RT concomitante, com durvalumabe de consolidação', 'Quimioterapia paliativa isolada, em doença irressecável', 'Radioterapia exclusiva em dose paliativa, em doença irressecável'],
     g: 'B',
     c: 'No estádio III irressecável, a doença ainda está restrita ao tórax e pode ser curada com tratamento combinado. A quimioterapia com platina dada junto com a radioterapia torácica atua como radiossensibilizante e trata micrometástases, sendo superior ao esquema sequencial. Nos pacientes sem progressão, um ano de durvalumabe (anti-PD-L1) aumentou a sobrevida global.',
     x: { A: 'O acometimento mediastinal bilateral (N3) torna a doença irressecável.', C: 'Quimioterapia isolada abre mão da chance de cura que a radioterapia oferece nesse estádio.', D: 'A radioterapia isolada é inferior ao tratamento combinado em quem tem bom estado geral.' },
@@ -93,7 +93,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Terapia-alvo',
     e: 'Mulher de 54 anos, de ascendência japonesa, nunca fumante, tem adenocarcinoma de pulmão com metástases ósseas e hepáticas. O teste molecular mostra deleção no éxon 19 do gene EGFR. O tratamento de primeira linha é:',
-    o: ['Quimioterapia com carboplatina e paclitaxel', 'Inibidor de tirosina quinase do EGFR, como o osimertinibe', 'Pembrolizumabe em monoterapia', 'Alectinibe'],
+    o: ['Quimioterapia com carboplatina e paclitaxel, como primeira linha', 'Inibidor de tirosina quinase do EGFR (osimertinibe)', 'Pembrolizumabe em monoterapia, como primeira linha', 'Alectinibe, inibidor de ALK, como primeira linha'],
     g: 'B',
     c: 'As mutações ativadoras do EGFR (deleção do éxon 19 e L858R no éxon 21) mantêm o receptor permanentemente ligado, e o tumor passa a depender dessa via para sobreviver. Bloqueá-la com inibidor de tirosina quinase produz taxa de resposta e sobrevida livre de progressão superiores às da quimioterapia. Essas mutações predominam em mulheres, asiáticos, não fumantes e adenocarcinoma.',
     x: { A: 'A quimioterapia é inferior à terapia-alvo quando há mutação sensibilizante de EGFR.', C: 'Tumores com mutação de EGFR respondem mal à imunoterapia isolada.', D: 'O alectinibe é inibidor de ALK, sem ação sobre o EGFR mutado.' },
@@ -101,7 +101,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Terapia-alvo',
     e: 'Homem de 38 anos, nunca fumante, tem adenocarcinoma de pulmão com células em anel de sinete e metástases cerebrais assintomáticas. A pesquisa de mutação de EGFR é negativa, e o exame molecular identifica a fusão EML4-ALK. O tratamento de primeira linha é:',
-    o: ['Erlotinibe', 'Inibidor de ALK, como o alectinibe', 'Cisplatina com pemetrexede', 'Bevacizumabe isolado'],
+    o: ['Erlotinibe, inibidor de tirosina quinase do EGFR', 'Inibidor de ALK (alectinibe)', 'Cisplatina com pemetrexede, como primeira linha', 'Bevacizumabe isolado, como primeira linha'],
     g: 'B',
     c: 'O rearranjo do gene ALK gera uma proteína de fusão com atividade de quinase constante, que funciona como o motor do tumor. Ocorre em cerca de 5% dos adenocarcinomas, tipicamente em jovens que fumaram pouco ou nunca fumaram. Os inibidores de ALK de nova geração, como o alectinibe, superam a quimioterapia e o crizotinibe e têm boa penetração no sistema nervoso central.',
     x: { A: 'O erlotinibe é inibidor de EGFR e não age em tumores com rearranjo de ALK.', C: 'A quimioterapia é inferior à terapia-alvo na presença de alteração acionável.', D: 'O bevacizumabe é antiangiogênico usado em combinação, não terapia dirigida ao ALK.' },
@@ -117,7 +117,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Quimioterapia',
     e: 'Ao escolher a quimioterapia para um carcinoma de pulmão não pequenas células avançado, é preciso conhecer o subtipo histológico porque o pemetrexede:',
-    o: ['Só é eficaz no carcinoma epidermoide', 'É eficaz nos tumores não escamosos e não deve ser usado no carcinoma epidermoide', 'É contraindicado no adenocarcinoma por risco de hemoptise fatal', 'Só é indicado no carcinoma de pequenas células'],
+    o: ['Só é eficaz no carcinoma epidermoide, e não nos demais', 'Eficaz nos não escamosos; não usar no epidermoide', 'É contraindicado no adenocarcinoma, por risco de hemoptise fatal', 'Só é indicado no carcinoma de pequenas células, e em nenhum outro'],
     g: 'B',
     c: 'O pemetrexede é um antifolato que inibe a timidilato sintase. O carcinoma epidermoide expressa níveis mais altos dessa enzima, o que o torna menos sensível à droga, e os estudos mostraram resultados inferiores nesse subtipo e superiores nos não escamosos. Por isso, no epidermoide, a platina é combinada com gencitabina ou taxano.',
     x: { A: 'É o oposto: o epidermoide é o subtipo em que a droga tem pior resultado.', C: 'O risco de hemoptise grave é do bevacizumabe no carcinoma epidermoide, não do pemetrexede no adenocarcinoma.', D: 'No pequenas células, o esquema padrão é platina com etoposídeo.' },
@@ -125,7 +125,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma de pequenas células',
     e: 'Homem de 61 anos tem carcinoma de pequenas células com massa hilar direita e linfonodos mediastinais ipsilaterais e supraclavicular direito. A ressonância de crânio e o PET-CT não mostram doença fora do hemitórax direito, e toda a doença cabe em um campo de radioterapia. O tratamento padrão é:',
-    o: ['Lobectomia com esvaziamento mediastinal', 'Quimioterapia com cisplatina e etoposídeo associada a radioterapia torácica concomitante', 'Quimioterapia isolada com carboplatina e etoposídeo', 'Radioterapia torácica exclusiva'],
+    o: ['Lobectomia com esvaziamento mediastinal, como tratamento inicial', 'Quimioterapia com cisplatina e etoposídeo + radioterapia torácica', 'Quimioterapia isolada com carboplatina e etoposídeo, sem radioterapia', 'Radioterapia torácica exclusiva, sem quimioterapia associada'],
     g: 'B',
     c: 'Doença limitada é a que se restringe a um hemitórax e aos linfonodos regionais, podendo ser englobada em um único campo de radioterapia tolerável. Como o tumor é quase sempre sistêmico desde o início e muito sensível a quimioterapia e radiação, o tratamento é a combinação concomitante das duas, com radioterapia iniciada precocemente, que oferece chance de cura em uma parte dos pacientes.',
     x: { A: 'A cirurgia não tem papel na doença com linfonodos mediastinais e supraclaviculares acometidos.', C: 'Omitir a radioterapia torácica na doença limitada reduz o controle local e a sobrevida.', D: 'A radioterapia isolada não trata as micrometástases, quase sempre presentes.' },
@@ -133,7 +133,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma de pequenas células',
     e: 'Mulher de 64 anos, tabagista, tem carcinoma de pequenas células com massa hilar esquerda, múltiplas metástases hepáticas e ósseas e bom estado geral. O tratamento de primeira linha é:',
-    o: ['Quimiorradioterapia torácica concomitante com intenção curativa', 'Quimioterapia com platina e etoposídeo associada a imunoterapia (atezolizumabe ou durvalumabe)', 'Osimertinibe', 'Ressecção das metástases hepáticas seguida de lobectomia'],
+    o: ['QT-RT torácica concomitante com intenção curativa, em doença extensa', 'Platina e etoposídeo mais imunoterapia (atezolizumabe ou durvalumabe)', 'Osimertinibe, inibidor do EGFR, em monoterapia', 'Ressecção das metástases hepáticas, seguida de lobectomia'],
     g: 'B',
     c: 'Na doença extensa (além de um hemitórax), o tratamento é sistêmico e paliativo. O tumor responde à platina com etoposídeo em mais de 60% dos casos, mas recidiva em poucos meses. Acrescentar um inibidor de PD-L1 à quimioterapia e mantê-lo depois aumentou a sobrevida global, tornando-se o padrão atual de primeira linha.',
     x: { A: 'A radioterapia torácica com intenção curativa é reservada à doença limitada.', C: 'O pequenas células não apresenta mutações acionáveis de EGFR como alvo terapêutico.', D: 'Não há papel para cirurgia em doença disseminada de pequenas células.' },
@@ -149,7 +149,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Carcinoma de pequenas células',
     e: 'O tratamento do carcinoma de pequenas células de pulmão é essencialmente não cirúrgico. A ressecção pode ser considerada, seguida de quimioterapia adjuvante, apenas na seguinte situação:',
-    o: ['Massa central de 6 cm com linfonodos mediastinais ipsilaterais', 'Nódulo periférico pequeno (T1 ou T2), sem acometimento linfonodal após estadiamento invasivo do mediastino', 'Doença extensa com resposta completa à quimioterapia', 'Metástase cerebral única, já tratada com radiocirurgia'],
+    o: ['Massa central de 6 cm com linfonodos mediastinais ipsilaterais volumosos', 'Nódulo periférico T1-T2 sem linfonodos após estadiamento mediastinal', 'Doença extensa com resposta completa à quimioterapia de primeira linha', 'Metástase cerebral única, já tratada com radiocirurgia estereotáxica'],
     g: 'B',
     c: 'Cerca de 5% dos casos apresentam-se como nódulo periférico em estádio I verdadeiro (T1-2 N0 M0). Nessa minoria, confirmada a ausência de doença mediastinal por estadiamento invasivo, a lobectomia seguida de quimioterapia adjuvante proporciona sobrevida prolongada. Em todas as outras situações, a disseminação precoce torna a cirurgia inútil.',
     x: { A: 'Doença com linfonodos mediastinais é tratada com quimiorradioterapia, não com cirurgia.', C: 'Na doença extensa, a resposta à quimioterapia não muda a natureza sistêmica da doença.', D: 'Metástase cerebral define doença extensa, de tratamento sistêmico.' },
@@ -173,7 +173,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Massas do mediastino',
     e: 'Homem de 26 anos faz radiografia de tórax admissional, que mostra alargamento do mediastino. A tomografia localiza a massa no compartimento anterior (pré-vascular). Entre as hipóteses abaixo, a que NÃO faz parte do diagnóstico diferencial clássico das massas desse compartimento é:',
-    o: ['Timoma', 'Teratoma', 'Schwannoma', 'Linfoma'],
+    o: ['Timoma, localizado no mediastino anterior', 'Teratoma, localizado no mediastino anterior', 'Schwannoma, no mediastino posterior', 'Linfoma, localizado no mediastino anterior'],
     g: 'C',
     c: 'As massas do mediastino anterior são lembradas pelos quatro T: timoma, teratoma (e demais tumores de células germinativas), tireoide (bócio mergulhante) e o terrível linfoma. Os tumores neurogênicos, como o schwannoma, nascem das raízes nervosas e da cadeia simpática junto à coluna e são as lesões características do mediastino posterior.',
     x: { A: 'O timoma é o tumor primário mais comum do mediastino anterior no adulto.', B: 'O teratoma e os outros tumores germinativos surgem no mediastino anterior, sobretudo em jovens.', D: 'O linfoma é causa frequente de massa mediastinal anterior em adultos jovens.' },
@@ -189,7 +189,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Massas do mediastino',
     e: 'Homem de 35 anos, assintomático, tem massa arredondada, homogênea e bem delimitada no sulco paravertebral esquerdo, na altura de T5, achada em radiografia de rotina. A ressonância mostra alargamento do forame intervertebral adjacente, com a lesão em forma de halteres. O diagnóstico mais provável é:',
-    o: ['Timoma', 'Tumor neurogênico (schwannoma)', 'Bócio mergulhante', 'Cisto pericárdico'],
+    o: ['Timoma, no mediastino anterior, associado à miastenia gravis', 'Tumor neurogênico (schwannoma)', 'Bócio mergulhante, com continuidade com a tireoide', 'Cisto pericárdico, junto ao ângulo cardiofrênico'],
     g: 'B',
     c: 'No mediastino posterior (paravertebral), os tumores neurogênicos são as massas mais comuns: no adulto predominam os da bainha nervosa, como schwannoma e neurofibroma, e na criança os do gânglio simpático, como o neuroblastoma. O crescimento ao longo da raiz nervosa, atravessando o forame para dentro do canal vertebral, produz o aspecto em halteres e exige ressonância antes da cirurgia.',
     x: { A: 'O timoma localiza-se no mediastino anterior.', C: 'O bócio mergulhante ocupa o mediastino anterossuperior, em continuidade com a tireoide.', D: 'O cisto pericárdico fica no mediastino médio, tipicamente no ângulo cardiofrênico direito.' },
@@ -197,7 +197,7 @@ export const CA_PULMAO_4: QuestaoCompacta[] = [
   {
     s: 'Massas do mediastino',
     e: 'Mulher de 40 anos, assintomática, tem lesão arredondada de 5 cm junto à carina. A tomografia mostra conteúdo homogêneo com densidade de líquido, parede fina e ausência de realce pelo contraste. Considerando o compartimento acometido e o aspecto, o diagnóstico mais provável é:',
-    o: ['Timoma', 'Cisto broncogênico', 'Neurofibroma', 'Seminoma mediastinal'],
+    o: ['Timoma, localizado no mediastino anterior', 'Cisto broncogênico, junto à carina', 'Neurofibroma, no mediastino posterior', 'Seminoma mediastinal, em homem jovem'],
     g: 'B',
     c: 'O mediastino médio (visceral) contém coração, traqueia, brônquios principais, esôfago e linfonodos, e suas massas mais típicas são as adenomegalias e os cistos de duplicação do intestino primitivo. O cisto broncogênico resulta de um brotamento anômalo da árvore traqueobrônquica e localiza-se caracteristicamente junto à carina ou à traqueia, com conteúdo líquido e parede fina.',
     x: { A: 'O timoma é massa sólida do mediastino anterior.', C: 'O neurofibroma é tumor sólido do mediastino posterior, paravertebral.', D: 'O seminoma é massa sólida do mediastino anterior em homens jovens.' },

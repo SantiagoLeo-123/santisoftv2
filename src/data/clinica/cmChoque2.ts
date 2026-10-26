@@ -5,7 +5,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Definição de sepse',
     e: 'De acordo com o consenso Sepsis-3, sepse é definida como:',
-    o: ['Infecção associada a dois ou mais critérios de resposta inflamatória sistêmica', 'Disfunção orgânica ameaçadora à vida causada por resposta desregulada do hospedeiro à infecção, identificada por aumento agudo de 2 ou mais pontos no SOFA', 'Presença de bactérias viáveis na corrente sanguínea', 'Infecção com hipotensão refratária a volume'],
+    o: ['Infecção associada a dois ou mais critérios de resposta inflamatória sistêmica', 'Disfunção orgânica ameaçadora à vida por resposta desregulada à infecção (SOFA ≥ 2 pontos)', 'Presença de bactérias viáveis na corrente sanguínea, confirmada por hemocultura', 'Infecção com hipotensão refratária a volume e lactato elevado'],
     g: 'B',
     c: 'O Sepsis-3 (2016) abandonou os critérios de resposta inflamatória e o termo sepse grave. Sepse passou a exigir disfunção orgânica, operacionalizada por variação de 2 ou mais pontos no SOFA. No Brasil, o ILAS mantém a triagem com critérios de resposta inflamatória pela maior sensibilidade, mas a definição cobrada em prova é a do Sepsis-3.',
     x: { A: 'Essa era a definição dos consensos de 1991 e 2001, hoje considerada pouco específica.', C: 'Isso é bacteriemia; a hemocultura é negativa em boa parte dos casos de sepse.', D: 'Hipotensão refratária a volume caracteriza choque séptico, um subgrupo da sepse.' },
@@ -13,7 +13,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Definição de choque séptico',
     e: 'Homem de 66 anos, com peritonite, recebeu 30 mL/kg de cristaloide. Mantém necessidade de noradrenalina para PAM de 65 mmHg. Para o diagnóstico de choque séptico pelo Sepsis-3 é necessário, além disso:',
-    o: ['Hemocultura positiva', 'Lactato sérico acima de 2 mmol/L (18 mg/dL) apesar da reposição volêmica', 'Saturação venosa central abaixo de 70%', 'Procalcitonina acima de 10 ng/mL'],
+    o: ['Hemocultura positiva, com crescimento de bactéria', 'Lactato > 2 mmol/L apesar da reposição volêmica', 'Saturação venosa central abaixo de 70% após a reposição', 'Procalcitonina acima de 10 ng/mL no sangue'],
     g: 'B',
     c: 'Choque séptico é sepse com necessidade de vasopressor para manter PAM de 65 mmHg ou mais e lactato acima de 2 mmol/L, ambos persistindo após ressuscitação volêmica adequada. A combinação identifica alterações circulatórias e celulares associadas a mortalidade hospitalar superior a 40%.',
     x: { A: 'A identificação do agente não faz parte da definição.', C: 'A saturação venosa central não entra nos critérios do Sepsis-3.', D: 'A procalcitonina não é critério diagnóstico de sepse nem de choque.' },
@@ -21,7 +21,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'qSOFA',
     e: 'Os três componentes do escore qSOFA são:',
-    o: ['Temperatura acima de 38 graus, frequência cardíaca acima de 90 bpm e leucocitose', 'Frequência respiratória de 22 irpm ou mais, pressão sistólica de 100 mmHg ou menos e alteração do nível de consciência', 'Lactato acima de 2 mmol/L, creatinina acima de 2 mg/dL e plaquetas abaixo de 100 mil', 'Pressão arterial média abaixo de 65 mmHg, oligúria e bilirrubina acima de 2 mg/dL'],
+    o: ['Temperatura > 38 °C, FC > 90 bpm e leucocitose', 'FR ≥ 22 irpm, PAS ≤ 100 mmHg e alteração do nível de consciência', 'Lactato > 2 mmol/L, creatinina > 2 mg/dL e plaquetas < 100 mil', 'PAM < 65 mmHg, oligúria e bilirrubina > 2 mg/dL'],
     g: 'B',
     c: 'O qSOFA usa apenas dados de beira de leito, sem exames. Dois ou mais pontos identificam pacientes com infecção e maior risco de morte ou internação prolongada em terapia intensiva. Ele é marcador de gravidade, e não critério diagnóstico de sepse.',
     x: { A: 'Esses são critérios de síndrome da resposta inflamatória sistêmica.', C: 'São variáveis laboratoriais; o qSOFA é exclusivamente clínico.', D: 'São itens relacionados ao SOFA completo, não ao qSOFA.' },
@@ -29,7 +29,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Triagem de sepse',
     e: 'Sobre o uso do qSOFA na triagem de sepse, a Surviving Sepsis Campaign 2021 recomenda:',
-    o: ['Usar o qSOFA como única ferramenta de triagem, por ser a mais sensível', 'Não usar o qSOFA como ferramenta única de triagem, em comparação com SIRS, NEWS ou MEWS', 'Abandonar qualquer ferramenta de triagem', 'Usar o qSOFA apenas em terapia intensiva'],
+    o: ['Usar o qSOFA como única ferramenta de triagem, por ser a mais sensível', 'Não usar o qSOFA como ferramenta única de triagem (vs SIRS, NEWS, MEWS)', 'Abandonar qualquer ferramenta de triagem para a sepse', 'Usar o qSOFA apenas em terapia intensiva, nunca fora dela'],
     g: 'B',
     c: 'O qSOFA é específico, mas pouco sensível: muitos pacientes com sepse têm qSOFA menor que 2 na apresentação, e esperar o escore positivo atrasa o tratamento. Por isso a diretriz recomenda contra seu uso isolado para triagem, preferindo ferramentas mais sensíveis.',
     x: { A: 'O qSOFA tem baixa sensibilidade, e essa é justamente sua limitação.', C: 'A diretriz recomenda programas de triagem e melhoria de desempenho em sepse.', D: 'O qSOFA foi derivado para pacientes fora da terapia intensiva.' },
@@ -45,7 +45,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Pacote da primeira hora',
     e: 'Mulher de 72 anos chega com febre, disúria, PA de 82 x 46 mmHg e confusão. O pacote da primeira hora da sepse inclui:',
-    o: ['Dosar lactato, colher hemoculturas, iniciar antibiótico de amplo espectro, infundir 30 mL/kg de cristaloide e iniciar vasopressor se a hipotensão persistir', 'Aguardar o resultado das culturas para escolher o antibiótico', 'Iniciar hidrocortisona e bicarbonato antes da reposição volêmica', 'Instalar cateter de artéria pulmonar antes de qualquer medida terapêutica'],
+    o: ['Lactato, hemoculturas, antibiótico de amplo espectro, 30 mL/kg de cristaloide e vasopressor se persistir', 'Aguardar o resultado das culturas para escolher o antibiótico mais adequado ao caso', 'Iniciar hidrocortisona e bicarbonato antes mesmo da reposição volêmica inicial', 'Instalar cateter de artéria pulmonar antes de qualquer medida terapêutica inicial'],
     g: 'A',
     c: 'O pacote reúne cinco ações a serem iniciadas imediatamente: lactato (repetir se acima de 2 mmol/L), hemoculturas antes do antibiótico, antibiótico de amplo espectro, cristaloide 30 mL/kg se hipotensão ou lactato de 4 mmol/L ou mais, e vasopressor para PAM de 65 mmHg ou mais durante ou após o volume.',
     x: { B: 'A terapia inicial é empírica; o atraso do antibiótico aumenta a mortalidade.', C: 'Corticoide é reservado ao choque dependente de vasopressor, e bicarbonato não faz parte do pacote.', D: 'Monitorização avançada não deve atrasar as medidas iniciais.' },
@@ -53,7 +53,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Antibioticoterapia',
     e: 'Paciente com pneumonia e choque séptico. O tempo recomendado para a primeira dose do antimicrobiano é:',
-    o: ['Até 6 horas do reconhecimento', 'Imediatamente, idealmente em até 1 hora do reconhecimento', 'Após o resultado da procalcitonina', 'Após a estabilização hemodinâmica completa'],
+    o: ['Até 6 horas do reconhecimento do choque séptico', 'Imediatamente, idealmente em até 1 hora do reconhecimento', 'Após o resultado da procalcitonina, para guiar a escolha', 'Após a estabilização hemodinâmica completa do paciente'],
     g: 'B',
     c: 'No choque séptico, cada hora de atraso do antibiótico associa-se a aumento da mortalidade. A diretriz de 2021 recomenda antimicrobiano em até 1 hora quando há choque ou alta probabilidade de sepse; nos casos de sepse apenas possível e sem choque, admite investigação rápida e administração em até 3 horas se a suspeita persistir.',
     x: { A: 'Seis horas é atraso inaceitável na presença de choque.', C: 'Biomarcadores não devem retardar o início do tratamento.', D: 'O antibiótico é parte da ressuscitação, não uma etapa posterior a ela.' },
@@ -61,7 +61,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Culturas',
     e: 'Paciente com suspeita de sepse de foco abdominal. Sobre a coleta de culturas, é correto afirmar:',
-    o: ['Devem ser colhidas apenas se houver febre no momento', 'Devem ser colhidos pelo menos dois pares de hemoculturas antes do antibiótico, desde que isso não atrase de forma significativa a primeira dose', 'O antibiótico deve ser adiado até que todas as culturas de todos os sítios sejam obtidas', 'Um único frasco aeróbio é suficiente'],
+    o: ['Devem ser colhidas apenas se houver febre no momento da coleta', 'Colher ≥ 2 pares de hemoculturas antes do antibiótico, sem atrasá-lo', 'Adiar o antibiótico até obter as culturas de todos os sítios', 'Um único frasco aeróbio é suficiente para o diagnóstico'],
     g: 'B',
     c: 'Colher antes do antibiótico aumenta a positividade e permite descalonar depois. Recomendam-se dois pares (aeróbio e anaeróbio) de sítios diferentes, o que aumenta a sensibilidade e ajuda a distinguir contaminação. Se a coleta não for possível rapidamente, o antibiótico não deve esperar.',
     x: { A: 'A bacteriemia pode ocorrer sem febre, sobretudo em idosos e imunossuprimidos.', C: 'A coleta não pode atrasar o antimicrobiano em tempo relevante.', D: 'Frasco único tem baixa sensibilidade e não permite identificar contaminação.' },
@@ -69,7 +69,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Reposição volêmica',
     e: 'Homem de 70 kg, com sepse de foco urinário, PA de 80 x 40 mmHg e lactato de 4,6 mmol/L. O volume inicial de cristaloide recomendado e o prazo para infusão são:',
-    o: ['500 mL em 6 horas', '2.100 mL nas primeiras 3 horas', '7.000 mL na primeira hora', '1.000 mL em 24 horas'],
+    o: ['500 mL em 6 horas, em infusão lenta', '2.100 mL nas primeiras 3 horas', '7.000 mL na primeira hora, em bolus', '1.000 mL em 24 horas, em infusão contínua'],
     g: 'B',
     c: 'Na hipoperfusão induzida por sepse (hipotensão ou lactato de 4 mmol/L ou mais) sugere-se ao menos 30 mL/kg de cristaloide nas primeiras 3 horas: 30 x 70 = 2.100 mL. Depois desse volume inicial, novos fluidos devem ser guiados por reavaliação frequente e parâmetros dinâmicos, para evitar sobrecarga.',
     x: { A: 'Volume e velocidade insuficientes para restaurar a pré-carga na hipoperfusão.', C: 'Corresponde a 100 mL/kg, volume excessivo e sem respaldo.', D: 'Trata-se de hidratação de manutenção, não de ressuscitação.' },
@@ -141,7 +141,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Via de administração do vasopressor',
     e: 'Paciente em choque séptico, com PAM de 48 mmHg após volume, dispõe apenas de acesso venoso periférico calibroso em fossa antecubital. A melhor conduta é:',
-    o: ['Aguardar a punção de acesso central para iniciar o vasopressor', 'Iniciar noradrenalina pelo acesso periférico, enquanto se providencia o acesso central', 'Infundir mais 3 litros de cristaloide antes de considerar vasopressor', 'Administrar adrenalina intramuscular'],
+    o: ['Aguardar a punção de acesso central para iniciar o vasopressor', 'Iniciar noradrenalina por acesso periférico enquanto se obtém o central', 'Infundir mais 3 litros de cristaloide antes de considerar vasopressor', 'Administrar adrenalina intramuscular, em dose única'],
     g: 'B',
     c: 'A duração e a profundidade da hipotensão se associam a mortalidade. A diretriz sugere iniciar o vasopressor por veia periférica para restaurar a PAM sem atraso, por curto período e em veia proximal calibrosa, vigiando extravasamento, até a obtenção do acesso central.',
     x: { A: 'Atrasar a correção da hipotensão piora o prognóstico.', C: 'Fluido em excesso não substitui o vasopressor na vasoplegia.', D: 'A via intramuscular é usada na anafilaxia, não no choque séptico.' },
@@ -149,7 +149,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Lactato na ressuscitação',
     e: 'Paciente com sepse tem lactato inicial de 5,0 mmol/L. Após a reposição volêmica, a conduta em relação a esse marcador é:',
-    o: ['Não repetir, pois o valor inicial já definiu o prognóstico', 'Repetir a dosagem em 2 a 4 horas e guiar a ressuscitação pela sua redução', 'Repetir apenas na alta da terapia intensiva', 'Tratar com bicarbonato até normalizar o lactato'],
+    o: ['Não repetir, pois o valor inicial já definiu o prognóstico', 'Repetir em 2-4 h e guiar a ressuscitação pela sua redução', 'Repetir apenas na alta da terapia intensiva', 'Tratar com bicarbonato até normalizar o lactato'],
     g: 'B',
     c: 'Lactato inicial acima de 2 mmol/L deve ser remensurado em 2 a 4 horas. A sugestão é guiar a ressuscitação para reduzir o lactato, pois sua queda se associa a menor mortalidade. A interpretação deve considerar o contexto, já que nem toda elevação decorre de hipoperfusão.',
     x: { A: 'A tendência do lactato tem mais valor que a medida isolada.', C: 'A reavaliação precisa ocorrer nas primeiras horas, quando orienta a conduta.', D: 'O bicarbonato não corrige a causa da hiperlactatemia.' },
@@ -165,7 +165,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Transfusão',
     e: 'Paciente com choque séptico estabilizado, sem sangramento, sem isquemia miocárdica e sem hipoxemia grave, tem hemoglobina de 8,2 g/dL. A conduta quanto à transfusão de hemácias é:',
-    o: ['Transfundir para manter hemoglobina acima de 10 g/dL', 'Não transfundir; a estratégia restritiva indica transfusão com hemoglobina abaixo de 7 g/dL', 'Transfundir para manter hematócrito acima de 36%', 'Administrar eritropoetina de rotina'],
+    o: ['Transfundir para manter hemoglobina acima de 10 g/dL', 'Não transfundir: a estratégia restritiva indica transfusão com Hb < 7 g/dL', 'Transfundir para manter hematócrito acima de 36%', 'Administrar eritropoetina de rotina, para elevar a hemoglobina'],
     g: 'B',
     c: 'O estudo TRISS mostrou que, no choque séptico, o limiar de 7 g/dL teve a mesma mortalidade que o de 9 g/dL, com metade das transfusões. A diretriz recomenda estratégia restritiva, salvo situações como isquemia miocárdica, hipoxemia grave ou hemorragia aguda.',
     x: { A: 'O limiar liberal não reduz mortalidade e expõe aos riscos transfusionais.', C: 'Metas de hematócrito elevadas faziam parte de protocolos antigos, sem benefício.', D: 'A eritropoetina não é recomendada para anemia associada à sepse.' },
@@ -173,7 +173,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Bicarbonato',
     e: 'Paciente com choque séptico e acidose lática, pH de 7,26 e bicarbonato de 14 mEq/L, em uso de noradrenalina, sem lesão renal aguda. Sobre o bicarbonato de sódio com o objetivo de melhorar a hemodinâmica, é correto afirmar:',
-    o: ['Deve ser infundido até pH de 7,40', 'Não é recomendado, pois não melhora a hemodinâmica nem reduz a necessidade de vasopressor nessa faixa de pH', 'É a primeira medida do pacote da primeira hora', 'Deve substituir a noradrenalina'],
+    o: ['Deve ser infundido até pH de 7,40, em todos os casos de acidose lática', 'Não recomendado: não melhora a hemodinâmica nem reduz o vasopressor nessa faixa de pH', 'É a primeira medida do pacote da primeira hora, em todos os casos de sepse', 'Deve substituir a noradrenalina, para corrigir a acidose e a hipotensão'],
     g: 'B',
     c: 'Na acidose lática por hipoperfusão com pH de 7,2 ou mais, o bicarbonato não mostrou benefício hemodinâmico e traz riscos: sobrecarga de sódio e volume, hipocalcemia e aumento de CO2 intracelular. A diretriz de 2021 sugere seu uso apenas em acidemia grave (pH de 7,2 ou menos) associada a lesão renal aguda moderada a grave.',
     x: { A: 'Normalizar o pH com bicarbonato não trata a causa e traz efeitos adversos.', C: 'O bicarbonato não integra o pacote da primeira hora.', D: 'Não tem efeito vasopressor que permita substituir a noradrenalina.' },
@@ -181,7 +181,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Controle glicêmico',
     e: 'Paciente com choque séptico apresenta duas glicemias consecutivas de 210 e 226 mg/dL. A conduta recomendada é:',
-    o: ['Iniciar insulina com alvo de 80 a 110 mg/dL', 'Iniciar insulina quando a glicemia for de 180 mg/dL ou mais, com alvo de 144 a 180 mg/dL', 'Tolerar glicemias de até 300 mg/dL na fase aguda', 'Usar apenas hipoglicemiantes orais'],
+    o: ['Iniciar insulina com alvo de glicemia de 80 a 110 mg/dL', 'Iniciar insulina com glicemia ≥ 180 mg/dL, alvo 144-180 mg/dL', 'Tolerar glicemias de até 300 mg/dL na fase aguda', 'Usar apenas hipoglicemiantes orais, na fase aguda'],
     g: 'B',
     c: 'O controle intensivo (80 a 110 mg/dL) aumentou hipoglicemia grave e mortalidade no estudo NICE-SUGAR. A recomendação é iniciar insulina a partir de 180 mg/dL, mantendo a faixa de 144 a 180 mg/dL, com monitorização frequente.',
     x: { A: 'O controle estrito aumenta hipoglicemia e mortalidade.', C: 'Hiperglicemia acentuada piora desfechos infecciosos e provoca diurese osmótica.', D: 'Fármacos orais são imprevisíveis no paciente crítico; usa-se insulina venosa.' },
@@ -189,7 +189,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Procalcitonina',
     e: 'Sobre o papel da procalcitonina no manejo da sepse, segundo a Surviving Sepsis Campaign 2021:',
-    o: ['Deve ser usada, junto com a avaliação clínica, para decidir quando iniciar o antibiótico', 'Pode ser usada, associada à avaliação clínica, para apoiar a suspensão do antibiótico quando o foco está controlado e a duração ideal é incerta', 'Valor normal exclui sepse e dispensa antibiótico', 'Deve ser dosada a cada 6 horas em todos os pacientes'],
+    o: ['Deve ser usada, junto com a clínica, para decidir quando iniciar o antibiótico', 'Pode apoiar a suspensão do antibiótico, se o foco está controlado e a duração é incerta', 'Valor normal exclui sepse e dispensa por completo o uso do antibiótico', 'Deve ser dosada a cada 6 horas em todos os pacientes internados com sepse'],
     g: 'B',
     c: 'A diretriz sugere contra usar procalcitonina para decidir o início do antibiótico, pois não acrescenta à avaliação clínica e pode atrasar o tratamento. Por outro lado, sugere seu uso com a avaliação clínica para decidir a descontinuação, o que reduz o tempo de exposição sem aumentar a mortalidade.',
     x: { A: 'Para iniciar o antimicrobiano, a diretriz sugere usar apenas a avaliação clínica.', C: 'Um valor normal não exclui infecção bacteriana grave, sobretudo no início.', D: 'Não há recomendação de dosagem seriada tão frequente.' },
@@ -197,7 +197,7 @@ export const CHOQUE_2: QuestaoCompacta[] = [
   {
     s: 'Terapia guiada por metas',
     e: 'Os estudos ProCESS, ARISE e ProMISe compararam a terapia precoce guiada por metas (com cateter central, pressão venosa central e saturação venosa central protocolizadas) ao cuidado usual no choque séptico. O resultado foi:',
-    o: ['Redução de mortalidade de cerca de 16% com o protocolo', 'Ausência de redução de mortalidade com o protocolo em relação ao cuidado usual', 'Aumento de mortalidade com o cuidado usual', 'Interrupção por dano grave causado pelos fluidos'],
+    o: ['Redução de mortalidade de cerca de 16% com o protocolo', 'Sem redução de mortalidade com o protocolo vs cuidado usual', 'Aumento de mortalidade com o cuidado usual, em relação ao protocolo', 'Interrupção por dano grave causado pelos fluidos'],
     g: 'B',
     c: 'O estudo original de Rivers (2001) mostrou grande benefício, mas os três ensaios multicêntricos posteriores não o confirmaram, provavelmente porque reconhecimento precoce, antibiótico e fluidos já haviam sido incorporados ao cuidado usual. Por isso as diretrizes deixaram de exigir metas fixas de pressão venosa central e saturação venosa central.',
     x: { A: 'Esse foi o resultado do estudo unicêntrico de Rivers, não replicado.', C: 'A mortalidade foi semelhante entre os grupos.', D: 'Não houve interrupção por dano; os estudos foram concluídos sem diferença.' },

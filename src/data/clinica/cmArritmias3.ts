@@ -29,7 +29,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Taquicardia ventricular monomórfica estável',
     e: 'Mulher de 70 anos, com miocardiopatia chagásica, apresenta taquicardia regular de QRS largo, monomórfica, a 160 bpm. Está lúcida, sem dor torácica ou congestão, com pressão arterial de 125 x 80 mmHg. Segundo o ACLS, a conduta inicial é:',
-    o: ['Verapamil 5 mg por via intravenosa', 'Amiodarona 150 mg por via intravenosa em 10 minutos, seguida de infusão de manutenção', 'Desfibrilação imediata com 200 J', 'Sulfato de magnésio 2 g por via intravenosa'],
+    o: ['Verapamil 5 mg por via intravenosa, que é contraindicado na TV', 'Amiodarona 150 mg IV em 10 min, seguida de infusão de manutenção', 'Desfibrilação imediata com 200 J, em paciente estável', 'Sulfato de magnésio 2 g por via intravenosa, indicado no torsades'],
     g: 'B',
     c: 'Na taquicardia ventricular monomórfica com pulso e sem instabilidade, usa-se antiarrítmico intravenoso: amiodarona 150 mg em 10 minutos (com manutenção de 1 mg/min por 6 horas), procainamida ou sotalol. Na cardiopatia estrutural e na disfunção ventricular, a amiodarona é a mais usada no Brasil. A cardioversão elétrica sincronizada eletiva é alternativa e passa a ser obrigatória se houver instabilidade.',
     x: { A: 'O verapamil causa vasodilatação e depressão miocárdica e pode levar ao colapso na taquicardia ventricular.', C: 'A desfibrilação não sincronizada é indicada apenas na ausência de pulso ou no ritmo polimórfico.', D: 'O magnésio é o tratamento da torsades de pointes, sem efeito na taquicardia monomórfica.' },
@@ -45,7 +45,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Fibrilação ventricular - desfibrilação',
     e: 'Homem de 57 anos perde a consciência na sala de espera. Não respira e não tem pulso. A reanimação é iniciada e o monitor mostra traçado caótico, de ondas irregulares em amplitude e frequência, sem QRS identificáveis. A conduta prioritária é:',
-    o: ['Cardioversão sincronizada com 100 J', 'Desfibrilação imediata (choque não sincronizado), retomando as compressões logo em seguida', 'Adrenalina 1 mg por via intravenosa antes de qualquer choque', 'Intubação orotraqueal antes do primeiro choque'],
+    o: ['Cardioversão sincronizada com 100 J, em paciente sem pulso', 'Desfibrilação imediata (não sincronizada), retomando as compressões em seguida', 'Adrenalina 1 mg por via intravenosa antes de qualquer choque', 'Intubação orotraqueal antes do primeiro choque elétrico'],
     g: 'B',
     c: 'Na fibrilação ventricular e na taquicardia ventricular sem pulso, a desfibrilação precoce é a intervenção que mais muda a sobrevida, pois despolariza o miocárdio de uma só vez e permite que um marca-passo natural reassuma. Não há onda R para sincronizar, de modo que o modo sincronizado poderia nem disparar. Usam-se 120 a 200 J no aparelho bifásico (ou 360 J no monofásico), com retorno imediato às compressões por 2 minutos.',
     x: { A: 'No modo sincronizado o aparelho procura uma onda R inexistente e pode não liberar o choque.', C: 'A adrenalina entra após o segundo choque; ela não deve atrasar a desfibrilação.', D: 'A via aérea avançada não tem prioridade sobre o choque e as compressões.' },
@@ -53,7 +53,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Fibrilação ventricular refratária',
     e: 'Durante a reanimação de uma parada cardíaca em fibrilação ventricular, o ritmo persiste após o terceiro choque, com compressões de boa qualidade e adrenalina já administrada. O antiarrítmico indicado e sua dose inicial são:',
-    o: ['Amiodarona 150 mg em 10 minutos', 'Amiodarona 300 mg em bolo intravenoso ou intraósseo', 'Sulfato de magnésio 2 g em bolo', 'Procainamida 20 mg/min até 17 mg/kg'],
+    o: ['Amiodarona 150 mg em 10 minutos, como dose de manutenção', 'Amiodarona 300 mg em bolo intravenoso ou intraósseo', 'Sulfato de magnésio 2 g em bolo, indicado apenas no torsades', 'Procainamida 20 mg/min até 17 mg/kg, como segunda linha'],
     g: 'B',
     c: 'Na fibrilação ventricular ou taquicardia ventricular sem pulso refratária ao choque, o ACLS indica amiodarona 300 mg em bolo, com segunda dose de 150 mg, ou lidocaína 1 a 1,5 mg/kg como alternativa. A infusão de 150 mg em 10 minutos é o esquema do paciente com pulso. O magnésio só é usado se o ritmo for torsades de pointes.',
     x: { A: 'A dose de 150 mg em 10 minutos é a da taquicardia ventricular com pulso.', C: 'O magnésio é reservado à torsades de pointes associada a QT longo.', D: 'A procainamida é droga de infusão lenta, usada em taquicardia estável, e não na parada cardíaca.' },
@@ -61,7 +61,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Torsades de pointes - tratamento',
     e: 'Mulher de 68 anos, internada por pneumonia em uso de azitromicina e com diarreia há 3 dias, apresenta síncope. O monitor registra salvas de taquicardia de QRS largo em que a amplitude e a polaridade dos complexos variam de forma cíclica, como se girassem em torno da linha de base, com reversão espontânea. O ECG basal mostra QT corrigido de 560 ms. Potássio de 3,0 mEq/L. O tratamento de primeira linha é:',
-    o: ['Amiodarona 150 mg por via intravenosa', 'Sulfato de magnésio 2 g por via intravenosa, com reposição de potássio e suspensão da droga que prolonga o QT', 'Procainamida intravenosa', 'Sotalol intravenoso'],
+    o: ['Amiodarona 150 mg por via intravenosa, que prolonga ainda mais o intervalo QT', 'Magnésio 2 g IV, repor potássio e suspender o fármaco que prolonga o QT', 'Procainamida por via intravenosa, que prolonga ainda mais o intervalo QT', 'Sotalol por via intravenosa, que prolonga ainda mais o intervalo QT'],
     g: 'B',
     c: 'A torsades de pointes é uma taquicardia ventricular polimórfica que surge sobre QT longo, deflagrada por pós-despolarizações precoces. O magnésio suprime essas pós-despolarizações, mesmo com magnesemia normal, e é a primeira escolha. Devem-se corrigir potássio (alvo próximo de 4,5 a 5 mEq/L) e retirar os fármacos causadores. Se houver instabilidade sustentada, faz-se desfibrilação.',
     x: { A: 'A amiodarona prolonga o QT e pode perpetuar a arritmia.', C: 'A procainamida, da classe IA, prolonga o QT e é contraindicada.', D: 'O sotalol é um dos antiarrítmicos que mais causam torsades de pointes.' },
@@ -69,7 +69,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Torsades de pointes recorrente',
     e: 'Homem de 72 anos, com QT longo adquirido por haloperidol e frequência sinusal de 46 bpm, mantém episódios repetidos de torsades de pointes, sempre precedidos de pausas, apesar de magnésio intravenoso e correção de eletrólitos. A medida seguinte mais eficaz é:',
-    o: ['Betabloqueador intravenoso para reduzir a frequência cardíaca', 'Aumentar a frequência cardíaca com marca-passo provisório ou isoproterenol', 'Amiodarona em infusão contínua', 'Digoxina intravenosa'],
+    o: ['Betabloqueador intravenoso para reduzir a frequência cardíaca, que é bradicardizante', 'Aumentar a frequência cardíaca com marca-passo provisório ou isoproterenol', 'Amiodarona em infusão contínua, que prolonga ainda mais o intervalo QT', 'Digoxina intravenosa, que não corrige o mecanismo da arritmia'],
     g: 'B',
     c: 'No QT longo adquirido, a torsades é dependente de pausa: a bradicardia e os ciclos longos prolongam ainda mais a repolarização e favorecem as pós-despolarizações precoces. Elevar a frequência para cerca de 90 a 110 bpm, com estimulação cardíaca temporária ou isoproterenol, encurta o QT e suprime as recorrências. O isoproterenol não deve ser usado no QT longo congênito.',
     x: { A: 'Reduzir a frequência alonga o QT e agrava a torsades dependente de pausa.', C: 'A amiodarona prolonga a repolarização e não é indicada nessa arritmia.', D: 'A digoxina reduz a frequência e não tem papel no tratamento.' },
@@ -85,7 +85,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome do QT longo congênito',
     e: 'Menina de 13 anos teve dois episódios de síncope enquanto nadava. Um primo morreu subitamente aos 16 anos. O ECG mostra ritmo sinusal, QT corrigido de 510 ms e onda T de base larga. Não usa medicamentos e os eletrólitos são normais. O tratamento de primeira linha é:',
-    o: ['Amiodarona por via oral', 'Betabloqueador (propranolol ou nadolol) e orientação para evitar fármacos que prolongam o QT', 'Propafenona por via oral', 'Apenas afastamento da natação, sem medicação'],
+    o: ['Amiodarona por via oral, que prolonga ainda mais o intervalo QT', 'Betabloqueador (propranolol ou nadolol) e evitar fármacos que prolongam o QT', 'Propafenona por via oral, que não é indicada na síndrome do QT longo', 'Apenas afastamento da natação, sem medicação de proteção'],
     g: 'B',
     c: 'Na síndrome do QT longo congênito, sobretudo no tipo 1 (defeito do canal de potássio IKs), os eventos são deflagrados por descarga adrenérgica, classicamente na natação e no esforço. Os betabloqueadores não seletivos reduzem muito a incidência de síncope e morte súbita. O cardiodesfibrilador é reservado a sobreviventes de parada cardíaca ou a quem tem síncope apesar do betabloqueador.',
     x: { A: 'A amiodarona prolonga o QT e é contraindicada.', C: 'A propafenona não protege e os antiarrítmicos da classe I não são o tratamento dessa canalopatia.', D: 'Restringir a atividade sem betabloqueador mantém a paciente sob risco elevado de morte súbita.' },
@@ -93,7 +93,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Taquicardia ventricular polimórfica com QT normal',
     e: 'Homem de 59 anos, com dor torácica em aperto há 1 hora, apresenta episódios repetidos de taquicardia ventricular polimórfica. O ECG entre as crises mostra QT corrigido de 420 ms e infradesnivelamento de ST de V2 a V5. Eletrólitos normais. A causa mais provável da arritmia e a conduta prioritária são:',
-    o: ['QT longo adquirido; sulfato de magnésio e isoproterenol', 'Isquemia miocárdica aguda; betabloqueador, amiodarona e revascularização de urgência', 'Síndrome de Brugada; quinidina', 'Intoxicação digitálica; anticorpo antidigoxina'],
+    o: ['QT longo adquirido; sulfato de magnésio e isoproterenol', 'Isquemia aguda: betabloqueador, amiodarona e revascularização de urgência', 'Síndrome de Brugada; quinidina em dose habitual', 'Intoxicação digitálica; anticorpo antidigoxina em dose habitual'],
     g: 'B',
     c: 'O termo torsades de pointes é reservado à taquicardia polimórfica que ocorre com QT longo. Quando o QT é normal, a causa mais frequente é a isquemia miocárdica aguda, e o tratamento é o da isquemia: betabloqueador, amiodarona ou lidocaína e cinecoronariografia de urgência. Episódios sustentados ou com instabilidade exigem desfibrilação.',
     x: { A: 'O QT está normal, e o isoproterenol agravaria a isquemia.', C: 'Não há supradesnivelamento de ST de V1 a V3 com padrão de Brugada, e sim sinais de isquemia.', D: 'Não há uso de digital nem as arritmias típicas dessa intoxicação.' },
@@ -117,7 +117,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Extrassístoles ventriculares - coração normal',
     e: 'Mulher de 30 anos, assintomática, tem extrassístoles ventriculares isoladas no ECG pré-operatório. O Holter mostra 900 extrassístoles monomórficas em 24 horas (cerca de 1% dos batimentos), sem taquicardia ventricular. O ecocardiograma é normal e as extrassístoles desaparecem no teste ergométrico. A conduta é:',
-    o: ['Amiodarona por via oral', 'Tranquilizar a paciente, sem tratamento antiarrítmico', 'Estudo eletrofisiológico e ablação', 'Propafenona por via oral de uso contínuo'],
+    o: ['Amiodarona por via oral, em dose de manutenção, de uso contínuo', 'Tranquilizar a paciente, sem antiarrítmico', 'Estudo eletrofisiológico e ablação, como primeira conduta', 'Propafenona por via oral de uso contínuo, em dose habitual'],
     g: 'B',
     c: 'Extrassístoles ventriculares de baixa densidade, monomórficas, que somem com o esforço, em coração estruturalmente normal, têm prognóstico benigno. Em assintomáticos não há benefício em tratar, e os antiarrítmicos trazem risco pró-arrítmico. Se houver sintomas incômodos, o betabloqueador é a primeira opção.',
     x: { A: 'A toxicidade da amiodarona não se justifica em arritmia benigna e assintomática.', C: 'Não há indicação de procedimento invasivo com baixa densidade e coração normal.', D: 'A propafenona expõe a paciente a risco pró-arrítmico sem nenhum benefício.' },
@@ -133,7 +133,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Ritmo idioventricular acelerado',
     e: 'Homem de 61 anos, com infarto com supradesnivelamento de ST em parede inferior, recebe trombolítico. Quarenta minutos depois, a dor e o supradesnivelamento regridem e o monitor passa a mostrar ritmo regular de QRS largo a 85 bpm, sem onda P precedendo os complexos, que dura 2 minutos e cede espontaneamente. Pressão arterial estável. A conduta é:',
-    o: ['Amiodarona 150 mg por via intravenosa', 'Observação, pois se trata de arritmia benigna de reperfusão', 'Cardioversão elétrica sincronizada', 'Lidocaína profilática em infusão contínua'],
+    o: ['Amiodarona 150 mg por via intravenosa, em 10 minutos', 'Observação: arritmia benigna de reperfusão', 'Cardioversão elétrica sincronizada, com 100 J', 'Lidocaína profilática em infusão contínua, por 24 horas'],
     g: 'B',
     c: 'O ritmo idioventricular acelerado é um ritmo ventricular automático, com frequência entre 50 e 110 a 120 bpm, comum nas primeiras horas após a reperfusão coronariana. É autolimitado, bem tolerado e não aumenta a mortalidade. Suprimi-lo com antiarrítmicos pode causar assistolia ou bradicardia grave, pois ele pode estar funcionando como ritmo de escape.',
     x: { A: 'Não há indicação de antiarrítmico em ritmo benigno e autolimitado.', C: 'A frequência é inferior a 120 bpm e o paciente está estável; não é taquicardia ventricular.', D: 'A lidocaína profilática no infarto não reduz a mortalidade e pode suprimir um ritmo de escape.' },
@@ -197,7 +197,7 @@ export const ARRITMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Síncope de origem cardíaca',
     e: 'Homem de 19 anos, jogador de futebol, perde a consciência subitamente durante uma partida, sem pródromos, com recuperação completa em 1 minuto. O pai morreu subitamente aos 38 anos. Ao exame, há sopro sistólico ejetivo em borda esternal esquerda que se intensifica com a manobra de Valsalva. O ECG mostra sinais de hipertrofia ventricular esquerda e ondas Q profundas e estreitas em parede lateral. A conduta é:',
-    o: ['Diagnosticar síncope vasovagal e liberar para o esporte', 'Afastar das atividades competitivas e solicitar ecocardiograma, pela suspeita de cardiomiopatia hipertrófica', 'Solicitar teste de inclinação (tilt test) como primeiro exame', 'Solicitar eletroencefalograma e iniciar anticonvulsivante'],
+    o: ['Diagnosticar síncope vasovagal e liberar o atleta para o esporte', 'Afastar das atividades competitivas e pedir ecocardiograma (suspeita de CMH)', 'Solicitar teste de inclinação (tilt test) como primeiro exame', 'Solicitar eletroencefalograma e iniciar anticonvulsivante de imediato'],
     g: 'B',
     c: 'Síncope durante o esforço, sem pródromos, com história familiar de morte súbita e ECG alterado é sinal de alarme para causa cardíaca. O sopro que aumenta com a Valsalva (redução da pré-carga acentua a obstrução da via de saída) sugere cardiomiopatia hipertrófica, principal causa de morte súbita em atletas jovens. O ecocardiograma confirma o diagnóstico, e a síncope inexplicada é um dos marcadores para indicar cardiodesfibrilador.',
     x: { A: 'A síncope vasovagal tem pródromos e gatilhos típicos e não ocorre no pico do esforço.', C: 'O teste de inclinação investiga síncope reflexa, improvável diante dos sinais de alarme.', D: 'Perda de consciência breve, com recuperação imediata e sem confusão, não sugere epilepsia.' },

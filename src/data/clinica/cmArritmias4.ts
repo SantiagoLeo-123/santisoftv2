@@ -45,7 +45,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bloqueio AV total - ritmo de escape',
     e: 'Em dois pacientes com bloqueio AV total, o primeiro tem escape com QRS estreito a 52 bpm, que acelera com atropina; o segundo tem escape com QRS largo a 30 bpm, sem resposta à atropina. A interpretação correta é:',
-    o: ['Nos dois o bloqueio é no nó AV, mudando apenas a idade do paciente', 'No primeiro o bloqueio é nodal, com escape juncional; no segundo é infra-hissiano, com escape ventricular, mais lento e instável', 'No primeiro o bloqueio é infra-hissiano; no segundo é nodal', 'A largura do QRS do escape não tem relação com o local do bloqueio'],
+    o: ['Nos dois casos o bloqueio é no nó AV, mudando apenas a idade dos pacientes', 'Primeiro: nodal, escape juncional; segundo: infra-hissiano, escape ventricular lento e instável', 'No primeiro o bloqueio é infra-hissiano e no segundo é nodal, ao contrário', 'A largura do QRS do escape não tem relação nenhuma com o local do bloqueio'],
     g: 'B',
     c: 'Quando o bloqueio é no nó AV, o marca-passo subsidiário é a junção, logo acima da bifurcação do feixe de His: QRS estreito, 40 a 60 bpm, sensível ao sistema autonômico. Quando o bloqueio é abaixo do His, o escape nasce no miocárdio ventricular: QRS largo, 20 a 40 bpm, pouco confiável e sujeito a pausas. Essa diferença explica a pior evolução dos bloqueios infranodais.',
     x: { A: 'Os dois padrões de escape indicam locais de bloqueio diferentes.', C: 'A relação está invertida: QRS estreito indica escape juncional, e largo indica escape ventricular.', D: 'A largura do QRS do escape é justamente a principal pista do nível do bloqueio.' },
@@ -53,7 +53,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bradicardia instável - atropina',
     e: 'Homem de 64 anos é admitido com tontura e sudorese fria. Frequência de 36 bpm, pressão arterial de 76 x 40 mmHg, sonolento. O monitor mostra bradicardia sinusal. Via aérea pérvia, oxigênio e acesso venoso já instalados. Segundo o ACLS, a primeira medida farmacológica é:',
-    o: ['Atropina 0,25 mg por via intravenosa, dose única', 'Atropina 1 mg por via intravenosa em bolo, repetida a cada 3 a 5 minutos até o máximo de 3 mg', 'Adrenalina 1 mg por via intravenosa em bolo', 'Amiodarona 150 mg por via intravenosa'],
+    o: ['Atropina 0,25 mg por via intravenosa, dose única', 'Atropina 1 mg IV em bolo, repetida a cada 3-5 min até 3 mg', 'Adrenalina 1 mg por via intravenosa em bolo, de imediato', 'Amiodarona 150 mg por via intravenosa, em 10 minutos'],
     g: 'B',
     c: 'Na bradicardia com sinais de instabilidade, a atropina é a primeira droga: bloqueia os receptores muscarínicos e remove o freio vagal sobre o nó sinusal e o nó AV. Desde 2020, o ACLS recomenda 1 mg por dose, até 3 mg no total. Doses inferiores a 0,5 mg podem causar bradicardia paradoxal. Se não houver resposta, passa-se a marca-passo transcutâneo ou infusão de dopamina ou adrenalina.',
     x: { A: 'Dose muito baixa pode provocar bradicardia paradoxal.', C: 'A adrenalina em bolo de 1 mg é dose de parada cardíaca; na bradicardia usa-se infusão de 2 a 10 mcg/min.', D: 'A amiodarona reduz a frequência cardíaca e agravaria o quadro.' },
@@ -61,7 +61,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bradicardia instável - falha da atropina',
     e: 'Mulher de 80 anos, com bloqueio AV total e escape de QRS largo a 28 bpm, permanece hipotensa e confusa após 3 mg de atropina. O marca-passo transvenoso só estará disponível em 40 minutos. A conduta imediata é:',
-    o: ['Repetir atropina até completar 6 mg', 'Instalar marca-passo transcutâneo, com analgesia e sedação, ou iniciar infusão de dopamina ou adrenalina', 'Aguardar o marca-passo transvenoso sem outras medidas', 'Administrar adenosina 6 mg para resetar o nó AV'],
+    o: ['Repetir atropina até completar 6 mg, antes de qualquer outra medida de suporte', 'Marca-passo transcutâneo com sedação, ou infusão de dopamina ou adrenalina', 'Aguardar o marca-passo transvenoso, sem outras medidas de suporte até lá', 'Administrar adenosina 6 mg em bolo rápido, para resetar o nó AV'],
     g: 'B',
     c: 'A atropina tem pouca ação sobre bloqueios infranodais e escapes ventriculares. Na falha, as opções equivalentes são o marca-passo transcutâneo e a infusão de cronotrópico (dopamina 5 a 20 mcg/kg/min ou adrenalina 2 a 10 mcg/min), usados como ponte até o marca-passo transvenoso. No transcutâneo deve-se confirmar a captura mecânica pelo pulso, e não só pela espícula no monitor.',
     x: { A: 'A dose máxima é de 3 mg, e doses maiores não acrescentam efeito.', C: 'A paciente está em choque e precisa de suporte de frequência imediato.', D: 'A adenosina bloqueia o nó AV e deprime o nó sinusal, podendo causar assistolia.' },
@@ -69,7 +69,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bradicardia no coração transplantado',
     e: 'Homem de 52 anos, transplantado cardíaco há 2 anos, apresenta bradicardia sintomática de 38 bpm com hipotensão. Sobre o uso de atropina nesse paciente, é correto afirmar:',
-    o: ['É a droga de escolha, em dose dobrada', 'Tende a ser ineficaz, pois o coração transplantado é desnervado; preferem-se marca-passo ou cronotrópicos de ação direta', 'Deve ser usada por via intramuscular, para efeito mais prolongado', 'É contraindicada por causar taquicardia ventricular no enxerto'],
+    o: ['É a droga de escolha, em dose dobrada, nesse paciente transplantado', 'Tende a ser ineficaz (coração desnervado); usar marca-passo ou cronotrópicos diretos', 'Deve ser usada por via intramuscular, para efeito mais prolongado e estável', 'É contraindicada por causar taquicardia ventricular no enxerto cardíaco'],
     g: 'B',
     c: 'A atropina age bloqueando a ação do nervo vago sobre o coração. No coração transplantado não há inervação vagal, de modo que a droga não tem o que bloquear e ainda há relatos de bloqueio AV paradoxal. O tratamento é feito com marca-passo ou com agentes de ação direta sobre os receptores beta, como isoproterenol, dopamina ou adrenalina.',
     x: { A: 'Aumentar a dose não contorna a ausência de inervação vagal.', C: 'A via de administração não muda o fato de o enxerto ser desnervado.', D: 'O problema é a ineficácia e o risco de bloqueio paradoxal, e não a indução de taquicardia ventricular.' },
@@ -77,7 +77,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bloqueio AV no infarto',
     e: 'Homem de 60 anos, com infarto com supradesnivelamento de ST em parede anterior extensa, evolui em 12 horas com bloqueio de ramo direito novo, desvio do eixo para a esquerda e, em seguida, bloqueio AV de segundo grau Mobitz II. Pressão arterial de 100 x 60 mmHg. Sobre esse distúrbio de condução, é correto afirmar:',
-    o: ['É de origem vagal, transitório e responde bem à atropina', 'Resulta de necrose do septo e do sistema His-Purkinje, tem prognóstico reservado e indica marca-passo provisório, com alta chance de necessidade de marca-passo definitivo', 'É causado por oclusão da artéria do nó AV, ramo da coronária direita, e regride em poucos dias', 'Não tem implicação prognóstica e dispensa qualquer conduta'],
+    o: ['De origem vagal, transitório, com boa resposta à atropina e sem sequelas', 'Necrose do septo e do His-Purkinje; mau prognóstico e marca-passo provisório', 'Causado por oclusão da artéria do nó AV, com regressão em poucos dias', 'Sem implicação prognóstica nenhuma, dispensando qualquer conduta específica'],
     g: 'B',
     c: 'No infarto anterior, o bloqueio AV decorre de necrose extensa do septo interventricular, irrigado pelos ramos septais da descendente anterior, onde correm os ramos do feixe de His. É infranodal, surge de forma abrupta, tem escape ventricular instável e mortalidade elevada. No infarto inferior, ao contrário, o bloqueio é nodal, por isquemia do nó AV e reflexo vagal, geralmente transitório e com escape juncional.',
     x: { A: 'O padrão vagal e responsivo à atropina é típico do infarto inferior.', C: 'A artéria do nó AV origina-se da coronária direita na maioria das pessoas, mecanismo do infarto inferior.', D: 'É marcador de infarto extenso e de alta mortalidade, e exige estimulação cardíaca.' },
@@ -85,7 +85,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Doença do nó sinusal - síndrome bradi-taqui',
     e: 'Mulher de 77 anos tem palpitações e episódios de pré-síncope. O Holter mostra períodos de fibrilação atrial a 150 bpm que terminam com pausas sinusais de até 5 segundos, coincidentes com os sintomas, além de bradicardia sinusal de 38 bpm em vigília. Não usa fármacos cronotrópicos negativos e TSH é normal. A conduta é:',
-    o: ['Iniciar betabloqueador para controlar a fibrilação atrial, sem outras medidas', 'Implantar marca-passo definitivo e, em seguida, tratar as taquiarritmias com fármacos e avaliar anticoagulação', 'Iniciar teofilina por via oral como tratamento definitivo', 'Realizar ablação do nó AV sem implante de marca-passo'],
+    o: ['Iniciar betabloqueador para controlar a fibrilação atrial, sem outras medidas associadas', 'Marca-passo definitivo; depois tratar as taquiarritmias e avaliar anticoagulação', 'Iniciar teofilina por via oral como tratamento definitivo da bradicardia', 'Realizar ablação do nó AV, sem implante de marca-passo definitivo'],
     g: 'B',
     c: 'A doença do nó sinusal resulta de degeneração e fibrose do nó sinusal e do átrio, o que explica a coexistência de bradicardia e pausas com taquiarritmias atriais (síndrome bradi-taqui). As pausas ocorrem porque a taquicardia suprime o nó sinusal doente, que demora a reassumir. Os fármacos necessários para controlar a taquicardia agravam a bradicardia; por isso o marca-passo vem primeiro, e a anticoagulação segue o CHA2DS2-VASc.',
     x: { A: 'O betabloqueador isolado agravaria as pausas e a bradicardia.', C: 'A teofilina tem efeito modesto e inconsistente, e não é tratamento definitivo.', D: 'A ablação do nó AV sem marca-passo deixaria a paciente com bloqueio AV total sem suporte.' },
@@ -93,7 +93,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bradicardia do atleta',
     e: 'Homem de 26 anos, maratonista, assintomático, faz avaliação pré-participação. O ECG mostra bradicardia sinusal de 42 bpm e PR de 220 ms. No teste ergométrico, a frequência sobe normalmente até 185 bpm e o PR se normaliza. O ecocardiograma é normal. A conduta é:',
-    o: ['Implante de marca-passo definitivo profilático', 'Nenhuma intervenção; trata-se de adaptação fisiológica por aumento do tônus vagal', 'Suspensão definitiva da atividade esportiva', 'Estudo eletrofisiológico invasivo'],
+    o: ['Implante de marca-passo definitivo profilático, em atleta assintomático', 'Nenhuma intervenção: adaptação fisiológica por aumento do tônus vagal', 'Suspensão definitiva da atividade esportiva, por risco de morte súbita', 'Estudo eletrofisiológico invasivo, de rotina, em todo atleta'],
     g: 'B',
     c: 'O treinamento de resistência aumenta o tônus vagal e reduz a frequência intrínseca do nó sinusal, produzindo bradicardia sinusal, bloqueio AV de primeiro grau e Mobitz I em repouso. A resposta cronotrópica normal ao esforço e o desaparecimento do bloqueio confirmam a natureza funcional. Marca-passo na disfunção sinusal só é indicado quando há sintomas claramente relacionados à bradicardia.',
     x: { A: 'Não há indicação de marca-passo em bradicardia assintomática e fisiológica.', C: 'Achados fisiológicos do atleta não restringem a prática esportiva.', D: 'Exame invasivo é desnecessário diante de resposta normal ao esforço e coração normal.' },
@@ -109,7 +109,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bloqueio de ramo esquerdo - critérios',
     e: 'Qual conjunto de achados define o bloqueio completo de ramo esquerdo no ECG?',
-    o: ['QRS igual ou superior a 120 ms, padrão trifásico em V1 com segunda onda R e onda S alargada em DI e V6', 'QRS igual ou superior a 120 ms, onda R larga e entalhada em DI, aVL, V5 e V6, sem onda q nessas derivações, e complexo predominantemente negativo em V1', 'QRS inferior a 120 ms, eixo além de 45 graus negativos e padrão rS em DII, DIII e aVF', 'QRS inferior a 120 ms, PR curto e empastamento inicial do QRS'],
+    o: ['QRS ≥ 120 ms, trifásico em V1 com segunda onda R e S alargada em DI e V6', 'QRS ≥ 120 ms, R larga e entalhada em DI, aVL, V5-V6 sem q, e V1 negativo', 'QRS < 120 ms, eixo além de -45° e padrão rS em DII, DIII e aVF', 'QRS < 120 ms, PR curto e empastamento inicial do QRS'],
     g: 'B',
     c: 'No bloqueio de ramo esquerdo, o septo passa a ser ativado da direita para a esquerda, o que elimina a onda q septal em DI, aVL, V5 e V6. O ventrículo esquerdo é ativado tardiamente e de fibra a fibra, gerando R largo e entalhado nas derivações esquerdas e QS ou rS em V1. A repolarização fica oposta ao QRS, com ST e T discordantes.',
     x: { A: 'Essa é a descrição do bloqueio completo de ramo direito.', C: 'Essa é a descrição do bloqueio divisional anterossuperior esquerdo.', D: 'Essa é a descrição da pré-excitação ventricular.' },
@@ -117,7 +117,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bloqueio de ramo direito - significado clínico',
     e: 'Homem de 45 anos, assintomático e com exame físico normal, tem ECG com QRS de 130 ms, padrão trifásico em V1 com segunda onda R ampla e onda S alargada e empastada em DI, V5 e V6. O ecocardiograma é normal. O diagnóstico e o significado do achado são:',
-    o: ['Bloqueio de ramo esquerdo; marcador de cardiopatia estrutural, com indicação de cateterismo', 'Bloqueio de ramo direito; pode ocorrer em indivíduos sem cardiopatia, sem necessidade de tratamento quando isolado', 'Bloqueio de ramo direito; indicação de marca-passo definitivo', 'Síndrome de Brugada; indicação de cardiodesfibrilador'],
+    o: ['BRE; marcador de cardiopatia estrutural, com indicação de cateterismo', 'BRD; pode ocorrer sem cardiopatia, sem tratamento quando isolado', 'BRD; indicação de marca-passo definitivo, mesmo assintomático', 'Síndrome de Brugada; indicação de cardiodesfibrilador implantável'],
     g: 'B',
     c: 'No bloqueio de ramo direito, o ventrículo direito é o último a se despolarizar, o que produz a segunda onda R em V1 e a onda S larga nas derivações esquerdas. O ramo direito é fino e longo, e seu bloqueio isolado é achado relativamente comum em pessoas sem cardiopatia. Merece investigação quando é novo em contexto agudo, como na embolia pulmonar, ou quando associado a outros distúrbios de condução.',
     x: { A: 'O padrão descrito é de ramo direito; o bloqueio de ramo esquerdo é que se associa com frequência a cardiopatia.', C: 'Bloqueio de ramo isolado e assintomático não indica marca-passo.', D: 'Não há supradesnivelamento de ST em corcova de V1 a V3, necessário para o padrão de Brugada.' },
@@ -125,7 +125,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bloqueio de ramo esquerdo e infarto',
     e: 'Mulher de 67 anos, com bloqueio de ramo esquerdo conhecido, chega com dor torácica opressiva há 2 horas e sudorese. O ECG mostra o bloqueio de ramo esquerdo e supradesnivelamento de ST de 2 mm em V5 e V6, derivações em que o QRS é predominantemente positivo. A interpretação e a conduta são:',
-    o: ['Alteração secundária esperada do bloqueio de ramo; aguardar troponina seriada', 'Supradesnivelamento concordante com o QRS (critério de Sgarbossa); tratar como infarto com supradesnivelamento de ST e indicar reperfusão imediata', 'ECG não interpretável; solicitar ecocardiograma eletivo', 'Pericardite aguda; iniciar anti-inflamatório'],
+    o: ['Alteração secundária esperada do bloqueio de ramo; aguardar troponina seriada', 'Supra concordante com o QRS (Sgarbossa): tratar como IAMCSST e reperfundir', 'ECG não interpretável; solicitar ecocardiograma eletivo', 'Pericardite aguda; iniciar anti-inflamatório'],
     g: 'B',
     c: 'No bloqueio de ramo esquerdo, a repolarização é normalmente discordante: ST e T se opõem à polaridade do QRS. Um supradesnivelamento de 1 mm ou mais na mesma direção do QRS foge a essa regra e é o critério de Sgarbossa de maior peso, muito específico para oclusão coronariana aguda. Os outros critérios são o infradesnivelamento concordante em V1 a V3 e o supradesnivelamento discordante excessivo.',
     x: { A: 'A alteração secundária esperada é discordante; a concordância indica lesão aguda, e esperar a troponina atrasa a reperfusão.', C: 'O ECG é interpretável pelos critérios de Sgarbossa, e a situação é de emergência.', D: 'A pericardite dá supradesnivelamento difuso, e não restrito a uma parede com clínica isquêmica.' },
@@ -133,7 +133,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Bloqueio bifascicular',
     e: 'Homem de 72 anos, com dois episódios de síncope sem pródromos, tem ECG em ritmo sinusal, PR de 180 ms, QRS de 140 ms com padrão trifásico em V1 e onda S larga em DI e V6, e eixo elétrico em 60 graus negativos, com padrão rS em DII, DIII e aVF e qR em aVL. O distúrbio de condução presente é:',
-    o: ['Bloqueio de ramo esquerdo isolado', 'Bloqueio de ramo direito associado a bloqueio divisional anterossuperior esquerdo (bloqueio bifascicular)', 'Bloqueio de ramo direito associado a bloqueio divisional posteroinferior esquerdo', 'Bloqueio trifascicular completo'],
+    o: ['Bloqueio de ramo esquerdo isolado, sem outras alterações', 'BRD associado a bloqueio divisional anterossuperior esquerdo (bifascicular)', 'BRD associado a bloqueio divisional posteroinferior esquerdo', 'Bloqueio trifascicular completo, com BAV de 3º grau'],
     g: 'B',
     c: 'O sistema de condução intraventricular tem três fascículos: o ramo direito e as divisões anterossuperior e posteroinferior do ramo esquerdo. O bloqueio divisional anterossuperior desvia o eixo para a esquerda, além de 45 graus negativos, com rS nas derivações inferiores e qR em aVL. Associado ao bloqueio de ramo direito, resta só um fascículo conduzindo; com síncope, deve-se suspeitar de bloqueio AV total intermitente e avaliar marca-passo.',
     x: { A: 'O padrão trifásico em V1 com S larga em DI e V6 é de bloqueio de ramo direito.', C: 'O bloqueio posteroinferior desviaria o eixo para a direita, além de 90 graus positivos.', D: 'Bloqueio dos três fascículos corresponde a bloqueio AV total, e aqui todas as ondas P conduzem.' },
@@ -149,7 +149,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Intoxicação digitálica - quadro clínico',
     e: 'Mulher de 79 anos, em uso de digoxina e furosemida para insuficiência cardíaca, apresenta há 4 dias náuseas, vômitos, anorexia, confusão e visão com halos amarelados. Creatinina de 2,3 mg/dL (era 1,1) e potássio de 2,9 mEq/L. O ECG mostra bradicardia com extrassístoles ventriculares em bigeminismo. O diagnóstico e os fatores precipitantes são:',
-    o: ['Uremia; a digoxina não tem relação com o quadro', 'Intoxicação digitálica, favorecida por piora da função renal e hipocalemia', 'Intoxicação por furosemida, com ototoxicidade', 'Acidente vascular cerebral de território posterior'],
+    o: ['Uremia como causa do quadro; a digoxina não tem relação com os sintomas', 'Intoxicação digitálica, favorecida por piora renal e hipocalemia', 'Intoxicação por furosemida, com ototoxicidade e zumbido associados', 'AVC de território posterior, com déficit focal e vertigem associados'],
     g: 'B',
     c: 'A digoxina tem janela terapêutica estreita e eliminação renal, de modo que a queda da filtração eleva seu nível sérico. A hipocalemia agrava a toxicidade porque o potássio compete com o digital pelo mesmo sítio da bomba de sódio e potássio; com menos potássio, mais droga se liga. O quadro reúne sintomas digestivos, neurológicos, visuais (xantopsia) e arritmias, das quais as extrassístoles ventriculares são as mais frequentes.',
     x: { A: 'A piora renal explica o acúmulo da droga, mas a xantopsia e o bigeminismo apontam para o digital.', C: 'A furosemida não causa xantopsia nem bigeminismo; ela contribuiu por provocar hipocalemia.', D: 'Não há déficit focal, e o conjunto digestivo, visual e arrítmico é típico de digital.' },
@@ -173,7 +173,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Efeito digitálico x intoxicação',
     e: 'Mulher de 68 anos, assintomática, em uso regular de digoxina com nível sérico de 0,8 ng/mL, tem ECG com infradesnivelamento do segmento ST de concavidade superior, em formato de colher, nas derivações laterais, com intervalo QT curto. Não há arritmias. Esse achado significa:',
-    o: ['Intoxicação digitálica; suspender o fármaco e administrar antídoto', 'Efeito digitálico (impregnação), esperado em quem usa a droga, sem indicar toxicidade', 'Isquemia subendocárdica; indicar cateterismo de urgência', 'Hipocalemia grave; repor potássio por via intravenosa'],
+    o: ['Intoxicação digitálica; suspender o fármaco e dar o antídoto', 'Efeito digitálico (impregnação) esperado, sem indicar toxicidade', 'Isquemia subendocárdica; indicar cateterismo de urgência', 'Hipocalemia grave; repor potássio por via intravenosa'],
     g: 'B',
     c: 'O digital encurta o potencial de ação ventricular, o que se traduz em infradesnivelamento de ST em colher de pedreiro, achatamento da onda T e encurtamento do QT. Essas alterações apenas mostram que o paciente usa a droga em dose terapêutica e não se correlacionam com toxicidade. A intoxicação é diagnosticada por sintomas e arritmias, e não por esse padrão de repolarização.',
     x: { A: 'O padrão de repolarização isolado, sem sintomas nem arritmias e com nível terapêutico, não é intoxicação.', C: 'A paciente é assintomática e o aspecto em colher com QT curto é típico do digital.', D: 'A hipocalemia cursa com onda U proeminente e QT aparentemente longo, e não com QT curto.' },
@@ -197,7 +197,7 @@ export const ARRITMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Distúrbios do cálcio - ECG',
     e: 'Mulher de 39 anos, no segundo dia após tireoidectomia total, refere parestesias periorais e apresenta espasmo carpal ao se insuflar o manguito do esfigmomanômetro. Qual alteração eletrocardiográfica é esperada?',
-    o: ['Encurtamento do intervalo QT por encurtamento do segmento ST', 'Prolongamento do intervalo QT às custas do segmento ST, com onda T de duração normal', 'Ondas T pontiagudas com alargamento do QRS', 'Onda J de Osborn no final do QRS'],
+    o: ['Encurtamento do QT por encurtamento do segmento ST, como na hipercalcemia', 'Prolongamento do QT pelo segmento ST, com onda T de duração normal', 'Ondas T pontiagudas com alargamento do QRS, como na hipercalemia', 'Onda J de Osborn no final do QRS, como na hipotermia'],
     g: 'B',
     c: 'O quadro é de hipocalcemia por hipoparatireoidismo pós-cirúrgico (sinal de Trousseau). O cálcio determina a duração da fase 2, o platô do potencial de ação, que corresponde ao segmento ST. Com cálcio baixo, o platô se alonga e o QT aumenta à custa do ST, sem alterar a onda T; na hipercalcemia ocorre o oposto, com ST e QT curtos.',
     x: { A: 'QT curto por encurtamento do ST é o achado da hipercalcemia.', C: 'T pontiaguda com QRS largo é o padrão da hipercalemia.', D: 'A onda de Osborn é típica da hipotermia.' },

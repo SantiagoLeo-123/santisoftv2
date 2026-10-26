@@ -5,7 +5,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença esteatótica metabólica: definição',
     e: 'Pela nomenclatura atual, o diagnóstico de doença hepática esteatótica associada à disfunção metabólica (antiga doença hepática gordurosa não alcoólica) exige esteatose hepática associada a:',
-    o: ['Elevação de aminotransferases acima de duas vezes o normal', 'Pelo menos um fator de risco cardiometabólico, na ausência de consumo significativo de álcool e de outras causas de esteatose', 'Biópsia hepática com fibrose', 'Índice de massa corporal acima de 30 kg/m², obrigatoriamente'],
+    o: ['Aminotransferases acima de duas vezes o limite superior do normal, de forma isolada', 'Esteatose + ao menos um fator de risco cardiometabólico, sem álcool significativo', 'Biópsia hepática com fibrose, obrigatoriamente, para firmar o diagnóstico', 'IMC acima de 30 kg/m², obrigatoriamente, para firmar o diagnóstico'],
     g: 'B',
     c: 'A nova definição é afirmativa: esteatose (por imagem ou histologia) mais ao menos um critério cardiometabólico, como excesso de peso ou adiposidade abdominal, disglicemia ou diabetes, hipertensão, triglicerídeos elevados ou HDL baixo. A resistência à insulina é o eixo fisiopatológico, pois aumenta a lipólise periférica e a lipogênese hepática.',
     x: { A: 'As aminotransferases podem ser normais mesmo com doença avançada.', C: 'A biópsia não é exigida para o diagnóstico da doença.', D: 'A doença pode ocorrer em indivíduos não obesos com outros fatores metabólicos.' },
@@ -29,7 +29,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença esteatótica metabólica: elastografia',
     e: 'Mulher de 58 anos, com síndrome metabólica e esteatose hepática, apresenta FIB-4 em faixa indeterminada. A conduta seguinte mais apropriada é:',
-    o: ['Dar alta e repetir exames em 5 anos', 'Realizar elastografia hepática para medir a rigidez do fígado', 'Indicar transplante hepático', 'Iniciar corticoide empiricamente'],
+    o: ['Dar alta e repetir os exames em 5 anos, sem outra avaliação', 'Realizar elastografia hepática para medir a rigidez do fígado', 'Indicar transplante hepático, pela presença de fibrose', 'Iniciar corticoide empiricamente, para reduzir a inflamação'],
     g: 'B',
     c: 'A estratégia é sequencial: quando o FIB-4 não é baixo, um segundo teste não invasivo, em geral a elastografia transitória, refina o risco. Rigidez hepática baixa afasta fibrose avançada; rigidez elevada indica encaminhamento ao especialista, eventual biópsia e rastreamento das complicações da cirrose.',
     x: { A: 'Um resultado indeterminado não exclui fibrose avançada e exige investigação.', C: 'Não há qualquer evidência de insuficiência hepática que justifique transplante.', D: 'Corticoide não tem papel na doença esteatótica e piora o perfil metabólico.' },
@@ -37,7 +37,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Esteato-hepatite: histologia',
     e: 'Os achados histológicos que caracterizam a esteato-hepatite, diferenciando-a da esteatose simples, são:',
-    o: ['Hepatite de interface com infiltrado plasmocitário', 'Esteatose associada a balonização hepatocelular e inflamação lobular', 'Lesão ductal florida com granulomas', 'Fibrose periductal concêntrica em casca de cebola'],
+    o: ['Hepatite de interface com infiltrado plasmocitário, como na hepatite autoimune', 'Esteatose com balonização hepatocelular e inflamação lobular', 'Lesão ductal florida com granulomas, como na colangite biliar primária', 'Fibrose periductal concêntrica em casca de cebola, como na CEP'],
     g: 'B',
     c: 'A esteato-hepatite é definida pela tríade esteatose, balonização dos hepatócitos (sinal de lesão celular) e inflamação lobular, com ou sem fibrose, que tipicamente começa de forma perissinusoidal na zona 3. É essa forma inflamatória que progride para cirrose. O diagnóstico de esteato-hepatite ainda depende da biópsia.',
     x: { A: 'Hepatite de interface com plasmócitos é típica da hepatite autoimune.', C: 'A lesão ductal florida é característica da colangite biliar primária.', D: 'A fibrose em casca de cebola é típica da colangite esclerosante primária.' },
@@ -45,7 +45,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença esteatótica metabólica: tratamento',
     e: 'Homem de 46 anos, com obesidade grau I e esteato-hepatite com fibrose leve, pergunta qual medida tem maior impacto comprovado sobre a doença hepática. A resposta correta é:',
-    o: ['Suplementação de ômega-3', 'Perda sustentada de peso, da ordem de 7% a 10% do peso corporal, com dieta e atividade física', 'Uso de ácido ursodesoxicólico', 'Uso de silimarina'],
+    o: ['Suplementação de ômega-3, em dose habitual, de uso contínuo', 'Perda sustentada de 7-10% do peso corporal, com dieta e atividade física', 'Uso de ácido ursodesoxicólico, em dose habitual, de uso contínuo', 'Uso de silimarina, em dose habitual, de uso contínuo'],
     g: 'B',
     c: 'A perda de peso reduz o aporte de ácidos graxos ao fígado e a resistência à insulina. Há relação dose-resposta: perdas menores já reduzem a esteatose, enquanto perdas em torno de 7% a 10% se associam à resolução da esteato-hepatite e à melhora da fibrose. Agonistas de GLP-1 e cirurgia bariátrica atuam em grande parte por esse mecanismo.',
     x: { A: 'O ômega-3 reduz triglicerídeos, mas não melhora a histologia hepática.', C: 'O ácido ursodesoxicólico não mostrou benefício na esteato-hepatite.', D: 'Não há evidência consistente de benefício histológico com silimarina.' },
@@ -61,7 +61,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença esteatótica metabólica: estatinas',
     e: 'Mulher de 60 anos, diabética, com doença arterial coronariana e esteatose hepática, apresenta ALT de uma vez e meia o limite superior do normal. Está em uso de atorvastatina. A conduta correta quanto à estatina é:',
-    o: ['Suspender, pois estatinas são contraindicadas em hepatopatias', 'Manter, pois é segura nessa situação e reduz o risco cardiovascular', 'Substituir por fibrato isolado', 'Suspender e realizar biópsia hepática'],
+    o: ['Suspender, pois estatinas são contraindicadas em hepatopatias', 'Manter: é segura nessa situação e reduz o risco cardiovascular', 'Substituir por fibrato isolado, por risco hepático da estatina', 'Suspender e realizar biópsia hepática antes de reintroduzir'],
     g: 'B',
     c: 'As estatinas são seguras na doença esteatótica e na cirrose compensada, e a hepatotoxicidade grave é rara. Como a principal causa de morte desses pacientes é cardiovascular, deixar de prescrevê-las por elevações leves de aminotransferases traz prejuízo. A contraindicação restringe-se à cirrose descompensada e à insuficiência hepática aguda.',
     x: { A: 'A esteatose com elevação leve de enzimas não contraindica estatina.', C: 'O fibrato isolado não oferece a mesma proteção cardiovascular.', D: 'Não há indicação de biópsia por elevação leve e estável da ALT.' },
@@ -77,7 +77,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença hepática alcoólica: laboratório',
     e: 'Homem de 49 anos, que ingere destilados diariamente há 20 anos, apresenta hepatomegalia. Exames: AST 142 U/L, ALT 58 U/L, gama-GT muito elevada e volume corpuscular médio de 104 fL. Esse padrão sugere doença hepática alcoólica principalmente por:',
-    o: ['ALT maior que AST, com fosfatase alcalina muito elevada', 'Relação AST/ALT maior que 2, com aminotransferases abaixo de 300 a 400 U/L, gama-GT elevada e macrocitose', 'Aminotransferases acima de 1.000 U/L', 'Hipergamaglobulinemia policlonal à custa de IgG'],
+    o: ['ALT maior que AST, com fosfatase alcalina muito elevada', 'AST/ALT > 2, aminotransferases < 300-400 U/L, GGT alta e macrocitose', 'Aminotransferases acima de 1.000 U/L, com ALT predominante', 'Hipergamaglobulinemia policlonal à custa de IgG e FAN positivo'],
     g: 'B',
     c: 'Na lesão alcoólica a AST predomina sobre a ALT, tipicamente em razão maior que 2, e raramente ultrapassa 300 a 400 U/L. A gama-GT sobe por indução enzimática microssomal e a macrocitose decorre de efeito tóxico direto do etanol sobre a medula e de deficiência de folato.',
     x: { A: 'O predomínio de ALT sugere hepatite viral ou doença esteatótica metabólica.', C: 'Valores acima de 1.000 U/L sugerem lesão viral aguda, isquêmica ou tóxica.', D: 'Na doença alcoólica a imunoglobulina que tipicamente se eleva é a IgA.' },
@@ -85,7 +85,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença hepática alcoólica: fisiopatologia',
     e: 'A relação AST/ALT maior que 2, característica da doença hepática alcoólica, é explicada por:',
-    o: ['Maior meia-vida plasmática da ALT', 'Deficiência de piridoxal-fosfato, que reduz a síntese de ALT, associada à lesão mitocondrial com liberação de AST', 'Produção de AST pelo músculo esquelético em resposta ao etanol', 'Colestase intra-hepática, que eleva seletivamente a AST'],
+    o: ['Maior meia-vida plasmática da ALT, em relação à AST', 'Deficiência de piridoxal-fosfato reduz a ALT; lesão mitocondrial libera AST', 'Produção de AST pelo músculo esquelético em resposta ao etanol', 'Colestase intra-hepática, que eleva seletivamente a AST sérica'],
     g: 'B',
     c: 'A ALT depende mais do piridoxal-fosfato (vitamina B6) como cofator, frequentemente deficiente no etilista, o que reduz sua atividade. Além disso, o etanol lesa as mitocôndrias, onde se concentra grande parte da AST, liberando a fração mitocondrial dessa enzima.',
     x: { A: 'A meia-vida da ALT é de fato maior, mas isso não explica o predomínio da AST.', C: 'A origem muscular não é o mecanismo do padrão alcoólico típico.', D: 'A colestase eleva fosfatase alcalina e gama-GT, não a AST seletivamente.' },
@@ -93,7 +93,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite alcoólica: histologia',
     e: 'A biópsia hepática de um paciente com hepatite alcoólica mostra tipicamente:',
-    o: ['Infiltrado linfoplasmocitário portal com hepatite de interface', 'Esteatose, balonização de hepatócitos, corpúsculos de Mallory-Denk e infiltrado neutrofílico', 'Hepatócitos em vidro fosco', 'Glóbulos PAS positivos resistentes à diastase'],
+    o: ['Infiltrado linfoplasmocitário portal com hepatite de interface', 'Esteatose, balonização, corpúsculos de Mallory-Denk e infiltrado neutrofílico', 'Hepatócitos em vidro fosco, característicos da hepatite B crônica', 'Glóbulos PAS positivos resistentes à diastase, da deficiência de alfa-1-antitripsina'],
     g: 'B',
     c: 'A hepatite alcoólica caracteriza-se por esteatose, hepatócitos balonizados contendo corpúsculos de Mallory-Denk (agregados de filamentos intermediários de citoqueratina) e infiltrado de neutrófilos, com fibrose perivenular e perissinusoidal. O infiltrado neutrofílico explica a leucocitose e a febre do quadro clínico, mesmo sem infecção.',
     x: { A: 'Hepatite de interface com plasmócitos sugere hepatite autoimune.', C: 'Hepatócitos em vidro fosco são vistos na hepatite B crônica.', D: 'Esses glóbulos caracterizam a deficiência de alfa-1-antitripsina.' },
@@ -101,7 +101,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite alcoólica grave',
     e: 'Homem de 44 anos, etilista pesado, é internado com icterícia de início recente, febre baixa, hepatomegalia dolorosa e leucocitose. AST 180 U/L, ALT 70 U/L, bilirrubina total 14 mg/dL e tempo de protrombina prolongado. A função discriminante de Maddrey é de 48. Culturas e radiografia de tórax afastam infecção e não há sangramento digestivo. Além de abstinência e suporte nutricional, está indicado:',
-    o: ['Antiviral de ação direta', 'Prednisolona, com reavaliação da resposta pelo escore de Lille no sétimo dia', 'Transplante hepático de urgência como primeira medida', 'Azatioprina'],
+    o: ['Antiviral de ação direta, por via oral, por 12 semanas', 'Prednisolona; resposta avaliada pelo escore de Lille no 7º dia', 'Transplante hepático de urgência como primeira medida', 'Azatioprina, em dose habitual, por via oral'],
     g: 'B',
     c: 'A função discriminante de Maddrey, calculada com o tempo de protrombina e a bilirrubina, identifica a hepatite alcoólica grave quando igual ou superior a 32, situação de alta mortalidade em curto prazo. O corticoide reduz a resposta inflamatória e melhora a sobrevida em 28 dias, desde que afastadas infecção ativa e hemorragia digestiva. O escore de Lille no sétimo dia identifica os não respondedores, nos quais o corticoide deve ser suspenso.',
     x: { A: 'Não há infecção viral em questão no quadro apresentado.', C: 'O transplante precoce é considerado em casos selecionados não respondedores, não como primeira medida.', D: 'A azatioprina não tem papel no tratamento da hepatite alcoólica.' },
@@ -117,7 +117,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Hemocromatose: genética e fisiopatologia',
     e: 'A forma mais comum de hemocromatose hereditária está associada a:',
-    o: ['Mutação no gene ATP7B, com herança autossômica recessiva', 'Homozigose para a mutação C282Y do gene HFE, com deficiência de hepcidina e absorção intestinal excessiva de ferro', 'Mutação no gene da ferroportina, com herança ligada ao X', 'Mutação H63D em heterozigose simples, com hemólise crônica'],
+    o: ['Mutação do gene ATP7B, de herança autossômica recessiva, com acúmulo de cobre', 'Homozigose C282Y do gene HFE, com deficiência de hepcidina e hiperabsorção de ferro', 'Mutação do gene da ferroportina, de herança ligada ao X, com acúmulo de ferro', 'Mutação H63D em heterozigose simples, com hemólise crônica associada'],
     g: 'B',
     c: 'A hemocromatose tipo 1 é autossômica recessiva e decorre, na maioria dos casos, da homozigose C282Y do gene HFE. A proteína HFE defeituosa reduz a produção hepática de hepcidina; sem esse freio, a ferroportina permanece ativa, exportando ferro do enterócito e do macrófago para o plasma, com sobrecarga progressiva nos órgãos parenquimatosos.',
     x: { A: 'O gene ATP7B está mutado na doença de Wilson.', C: 'A doença da ferroportina é rara e autossômica dominante.', D: 'A heterozigose H63D isolada não causa sobrecarga significativa de ferro.' },
@@ -141,7 +141,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Hemocromatose: tratamento',
     e: 'Homem de 45 anos tem hemocromatose hereditária confirmada, com ferritina muito elevada e sem anemia. O tratamento de escolha é:',
-    o: ['Desferroxamina subcutânea contínua', 'Flebotomias periódicas até atingir ferritina em torno de 50 a 100 ng/mL, seguidas de manutenção', 'Dieta isenta de ferro como medida única', 'D-penicilamina'],
+    o: ['Desferroxamina subcutânea contínua, como tratamento de escolha', 'Flebotomias periódicas até ferritina de ~50-100 ng/mL; depois manutenção', 'Dieta isenta de ferro como medida única, sem flebotomia', 'D-penicilamina, como tratamento de escolha'],
     g: 'B',
     c: 'Cada flebotomia remove ferro contido na hemoglobina e obriga a medula a mobilizar os estoques teciduais para refazer as hemácias. Faz-se a fase de indução, em geral semanal, até a depleção dos estoques, e depois manutenção com intervalos maiores. O tratamento iniciado antes da cirrose normaliza a expectativa de vida.',
     x: { A: 'Quelantes são reservados a quem não tolera flebotomia, como nos casos com anemia.', C: 'A restrição dietética isolada é insuficiente para remover o ferro acumulado.', D: 'A D-penicilamina é quelante de cobre, usado na doença de Wilson.' },
@@ -165,7 +165,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Wilson: fisiopatologia',
     e: 'O defeito básico da doença de Wilson é:',
-    o: ['Aumento da absorção intestinal de cobre por deficiência de hepcidina', 'Mutação do gene ATP7B, com falha na excreção biliar de cobre e na sua incorporação à ceruloplasmina', 'Deficiência primária de ceruloplasmina por mutação em seu gene', 'Produção de autoanticorpos contra transportadores de cobre'],
+    o: ['Aumento da absorção intestinal de cobre por deficiência de hepcidina', 'Mutação do ATP7B: falha na excreção biliar de cobre e na incorporação à ceruloplasmina', 'Deficiência primária de ceruloplasmina por mutação em seu próprio gene', 'Produção de autoanticorpos contra transportadores de cobre'],
     g: 'B',
     c: 'A ATP7B é uma ATPase do hepatócito que transporta cobre para a bile e para o aparelho de Golgi, onde ele é incorporado à apoceruloplasmina. Sem ela, o cobre acumula-se no fígado e depois extravasa para o sangue, depositando-se no cérebro, na córnea e nos rins. A ceruloplasmina sem cobre é instável e rapidamente degradada, o que explica seu nível sérico baixo. A herança é autossômica recessiva.',
     x: { A: 'A hepcidina regula o ferro, e a absorção de cobre não é o defeito primário.', C: 'A ceruloplasmina baixa é consequência, não causa da doença.', D: 'A doença de Wilson é genética, não autoimune.' },
@@ -173,7 +173,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Wilson: diagnóstico',
     e: 'Homem de 21 anos apresenta tremor, disartria, sialorreia e mudança de comportamento há 8 meses. Ao exame há hepatoesplenomegalia e as aminotransferases estão elevadas. O conjunto de achados que sustenta a principal hipótese diagnóstica é:',
-    o: ['Ceruloplasmina elevada e cobre urinário reduzido', 'Ceruloplasmina reduzida, cobre urinário de 24 horas elevado e anéis de Kayser-Fleischer à lâmpada de fenda', 'Saturação de transferrina elevada e ferritina alta', 'FAN reagente e hipergamaglobulinemia'],
+    o: ['Ceruloplasmina elevada e cobre urinário reduzido, com anel corneano ausente', 'Ceruloplasmina baixa, cobre urinário de 24 h alto e anéis de Kayser-Fleischer', 'Saturação de transferrina alta e ferritina elevada, com anel corneano ausente', 'FAN reagente e hipergamaglobulinemia, com anel corneano ausente'],
     g: 'B',
     c: 'Hepatopatia associada a manifestações neuropsiquiátricas em jovem deve levar à pesquisa de doença de Wilson. O cobre não excretado na bile acumula-se e passa a ser eliminado na urina, e a ceruloplasmina está baixa. Os anéis de Kayser-Fleischer estão presentes em quase todos os pacientes com forma neurológica, embora possam faltar na forma hepática isolada.',
     x: { A: 'O padrão da doença é o inverso: ceruloplasmina baixa e cobre urinário alto.', C: 'Esse perfil sugere hemocromatose, que não causa quadro extrapiramidal em jovem.', D: 'Esses achados sugerem hepatite autoimune, sem sinais neurológicos.' },
@@ -189,7 +189,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Doença de Wilson: tratamento',
     e: 'No tratamento da doença de Wilson, o mecanismo de ação dos sais de zinco é:',
-    o: ['Quelação do cobre plasmático com aumento da excreção urinária', 'Indução de metalotioneína no enterócito, que retém o cobre e impede sua absorção', 'Aumento da síntese hepática de ceruloplasmina', 'Correção da função da ATP7B'],
+    o: ['Quelação do cobre plasmático, com aumento da excreção urinária', 'Induz metalotioneína no enterócito, que retém o cobre e impede sua absorção', 'Aumento da síntese hepática de ceruloplasmina, pelo hepatócito', 'Correção da função da ATP7B, restabelecendo a excreção biliar'],
     g: 'B',
     c: 'O zinco induz a metalotioneína nas células intestinais; essa proteína liga o cobre com alta afinidade, e ele é eliminado nas fezes com a descamação do enterócito. É usado na manutenção e em pré-sintomáticos. Os quelantes D-penicilamina e trientina promovem excreção urinária de cobre e são usados na fase inicial dos sintomáticos; a penicilamina pode piorar o quadro neurológico no início e exige reposição de piridoxina.',
     x: { A: 'A quelação com cuprúria é o mecanismo da D-penicilamina e da trientina.', C: 'O zinco não aumenta a síntese de ceruloplasmina.', D: 'Nenhum fármaco corrige o defeito da ATP7B; apenas o transplante o faz.' },
@@ -197,7 +197,7 @@ export const CIRROSE_2: QuestaoCompacta[] = [
   {
     s: 'Deficiência de alfa-1-antitripsina',
     e: 'Homem de 39 anos, que nunca fumou, tem dispneia progressiva e enfisema panacinar predominante nas bases pulmonares. Apresenta também aminotransferases elevadas, e a biópsia hepática mostra glóbulos intracitoplasmáticos PAS positivos e resistentes à diastase nos hepatócitos periportais. Sobre essa doença, é correto afirmar:',
-    o: ['A lesão hepática decorre da falta de inibição de proteases no fígado', 'A lesão hepática decorre do acúmulo da proteína mutante mal dobrada no retículo endoplasmático do hepatócito, tipicamente no fenótipo PiZZ', 'A reposição intravenosa de alfa-1-antitripsina trata a doença hepática', 'A herança é ligada ao X e acomete apenas homens'],
+    o: ['A lesão hepática decorre da falta de inibição de proteases no próprio fígado', 'A lesão hepática vem do acúmulo da proteína mutante (PiZZ) no retículo do hepatócito', 'A reposição IV de alfa-1-antitripsina trata a doença hepática do paciente', 'A herança é ligada ao X e acomete apenas os homens da família'],
     g: 'B',
     c: 'A doença tem dois mecanismos distintos. No pulmão há perda de função: sem o inibidor, a elastase neutrofílica destrói o parênquima, causando enfisema panacinar basal. No fígado há ganho de função tóxica: a proteína Z polimeriza e fica retida no retículo endoplasmático, formando os glóbulos PAS positivos. Por isso a reposição da proteína ajuda apenas o pulmão, e a hepatopatia avançada é tratada com transplante.',
     x: { A: 'Esse é o mecanismo do enfisema, não da lesão hepática.', C: 'A reposição não remove a proteína retida no hepatócito e não trata o fígado.', D: 'A herança é autossômica codominante e acomete ambos os sexos.' },

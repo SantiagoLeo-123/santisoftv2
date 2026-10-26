@@ -13,7 +13,7 @@ export const CA_PULMAO_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Horner',
     e: 'Mulher de 62 anos, com massa no ápice do pulmão esquerdo, apresenta queda discreta da pálpebra superior esquerda, pupila esquerda menor que a direita e ausência de sudorese na hemiface esquerda. A estrutura invadida pelo tumor é:',
-    o: ['O nervo oculomotor', 'A cadeia simpática cervical, na altura do gânglio estrelado', 'O nervo facial', 'O núcleo do nervo vago'],
+    o: ['O nervo oculomotor, com ptose e midríase', 'A cadeia simpática cervical, no gânglio estrelado', 'O nervo facial, com paralisia da hemiface', 'O núcleo do nervo vago, com paralisia de prega vocal'],
     g: 'B',
     c: 'A síndrome de Horner (ptose parcial, miose e anidrose ipsilaterais) resulta da interrupção da via simpática para o olho e a face. O gânglio estrelado (cervicotorácico) fica junto ao colo da primeira costela, em contato com o ápice pulmonar, e é invadido pelo tumor do sulco superior. A ptose é discreta porque se perde apenas o músculo tarsal de Müller.',
     x: { A: 'A lesão do oculomotor causa ptose completa com midríase e desvio do olho para fora e para baixo.', C: 'A lesão do facial causa paralisia da mímica e dificuldade de fechar o olho, não ptose com miose.', D: 'O núcleo do vago é bulbar e não se relaciona com o ápice pulmonar nem com a inervação pupilar.' },
@@ -21,7 +21,7 @@ export const CA_PULMAO_3: QuestaoCompacta[] = [
   {
     s: 'Tumor de Pancoast',
     e: 'Homem de 57 anos tem carcinoma não pequenas células do sulco superior direito, com invasão da primeira e da segunda costelas, sem linfonodos mediastinais acometidos e sem metástases a distância. Tem boa função pulmonar e bom estado geral. O tratamento padrão é:',
-    o: ['Ressecção cirúrgica imediata, sem tratamento complementar', 'Quimiorradioterapia neoadjuvante seguida de ressecção cirúrgica', 'Radioterapia paliativa exclusiva', 'Quimioterapia paliativa exclusiva'],
+    o: ['Ressecção cirúrgica imediata, sem tratamento complementar', 'QT-RT neoadjuvante seguida de ressecção cirúrgica', 'Radioterapia paliativa exclusiva, sem tratamento sistêmico', 'Quimioterapia paliativa exclusiva, sem radioterapia'],
     g: 'B',
     c: 'No tumor de Pancoast, a proximidade de plexo braquial, vasos subclávios e coluna torna difícil obter margens livres com cirurgia isolada. A quimiorradioterapia concomitante de indução reduz o tumor e esteriliza as margens, aumentando a taxa de ressecção completa e a sobrevida. Depois se faz lobectomia com ressecção em bloco da parede torácica.',
     x: { A: 'A cirurgia inicial tem alta taxa de ressecção incompleta e recidiva local.', C: 'Radioterapia isolada é opção paliativa para quem não pode ser operado, não o padrão em doença ressecável.', D: 'Trata-se de doença localizada, potencialmente curável, e não de indicação paliativa.' },
@@ -45,7 +45,7 @@ export const CA_PULMAO_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome da veia cava superior',
     e: 'Mulher de 58 anos, tabagista, tem edema de face e de membros superiores há 1 mês, sem estridor, sem rebaixamento do nível de consciência e com saturação de 95% em ar ambiente. A tomografia mostra massa mediastinal comprimindo a veia cava superior. Ainda não há diagnóstico histológico. A conduta mais adequada é:',
-    o: ['Radioterapia mediastinal de urgência, antes de qualquer biópsia', 'Obter o diagnóstico histológico antes de iniciar o tratamento específico', 'Trombólise sistêmica imediata', 'Derivação cirúrgica de urgência da veia cava'],
+    o: ['Radioterapia mediastinal de urgência, antes de qualquer biópsia', 'Obter o diagnóstico histológico antes do tratamento específico', 'Trombólise sistêmica imediata, por suspeita de trombose de veia cava', 'Derivação cirúrgica de urgência da veia cava superior'],
     g: 'B',
     c: 'Na ausência de edema de laringe, edema cerebral ou instabilidade, a síndrome da veia cava superior não é emergência, pois a circulação colateral se desenvolve ao longo de semanas. O tratamento depende da histologia: pequenas células e linfoma respondem bem à quimioterapia. Irradiar antes da biópsia pode impedir o diagnóstico em até metade dos casos.',
     x: { A: 'A radioterapia empírica altera a histologia e só se justifica em situações com risco iminente de morte.', C: 'Trombólise só tem papel quando a causa é trombose aguda, não compressão tumoral.', D: 'A cirurgia de derivação é excepcional e não é conduta inicial.' },
@@ -77,7 +77,7 @@ export const CA_PULMAO_3: QuestaoCompacta[] = [
   {
     s: 'Síndromes paraneoplásicas',
     e: 'Homem de 58 anos, tabagista, apresenta em 6 semanas fraqueza muscular proximal intensa, edema, hipertensão de difícil controle, hiperglicemia e escurecimento da pele. Não tem estrias violáceas nem obesidade central. Exames: potássio 2,4 mEq/L, bicarbonato 36 mEq/L, cortisol e ACTH muito elevados, sem supressão com dexametasona em dose alta. A tomografia mostra massa hilar. O diagnóstico é:',
-    o: ['Doença de Cushing por adenoma hipofisário', 'Secreção ectópica de ACTH por carcinoma de pequenas células', 'Hiperaldosteronismo primário por adenoma adrenal', 'Insuficiência adrenal primária'],
+    o: ['Doença de Cushing, por adenoma hipofisário', 'ACTH ectópico por carcinoma de pequenas células', 'Hiperaldosteronismo primário, por adenoma adrenal', 'Insuficiência adrenal primária, por adrenalite'],
     g: 'B',
     c: 'Na secreção ectópica de ACTH por tumor agressivo, os níveis de cortisol são tão altos que saturam a enzima renal que o inativa, e o cortisol passa a agir no receptor mineralocorticoide: hipertensão, hipocalemia e alcalose metabólica. A instalação rápida não dá tempo para o fenótipo cushingoide clássico, e o ACTH muito elevado causa hiperpigmentação. A falta de supressão com dexametasona em dose alta aponta para fonte ectópica.',
     x: { A: 'Na doença hipofisária, a evolução é lenta, com fenótipo clássico, e costuma haver supressão com dexametasona em dose alta.', C: 'No hiperaldosteronismo primário, o cortisol e o ACTH são normais.', D: 'A insuficiência adrenal cursa com cortisol baixo, hipotensão e hipercalemia.' },
@@ -85,7 +85,7 @@ export const CA_PULMAO_3: QuestaoCompacta[] = [
   {
     s: 'Síndromes paraneoplásicas',
     e: 'Homem de 62 anos, tabagista, queixa-se de dificuldade para subir escadas e levantar da cadeira, boca seca e disfunção erétil. Ao exame, há fraqueza proximal dos membros inferiores e reflexos patelares abolidos, que reaparecem após 10 segundos de contração voluntária máxima. A eletroneuromiografia mostra incremento do potencial com estimulação repetitiva de alta frequência. O mecanismo e o tumor associado são:',
-    o: ['Anticorpos contra o receptor pós-sináptico de acetilcolina; timoma', 'Anticorpos contra canais de cálcio dependentes de voltagem pré-sinápticos; carcinoma de pequenas células', 'Anticorpos anti-Jo-1 contra a fibra muscular; adenocarcinoma', 'Anticorpos contra canais de potássio do nervo periférico; carcinoma epidermoide'],
+    o: ['Anticorpos anti-receptor de acetilcolina pós-sináptico; timoma', 'Anticorpos contra canais de cálcio pré-sinápticos; carcinoma de pequenas células', 'Anticorpos anti-Jo-1 contra a fibra muscular; adenocarcinoma', 'Anticorpos contra canais de potássio do nervo periférico; carcinoma epidermoide'],
     g: 'B',
     c: 'Na síndrome miastênica de Eaton-Lambert, anticorpos bloqueiam os canais de cálcio do terminal pré-sináptico e reduzem a liberação de acetilcolina. O esforço repetido acumula cálcio no terminal e aumenta transitoriamente a liberação do neurotransmissor, o que explica a facilitação da força, dos reflexos e do potencial. A disautonomia colinérgica é comum, e a maioria dos casos associa-se ao carcinoma de pequenas células.',
     x: { A: 'Esse é o mecanismo da miastenia gravis, que causa fadiga com o esforço, acomete musculatura ocular e mostra decremento.', C: 'O anti-Jo-1 pertence à síndrome antissintetase, miopatia inflamatória sem facilitação com o esforço.', D: 'Anticorpos contra canais de potássio causam neuromiotonia, com cãibras e fasciculações.' },
@@ -109,7 +109,7 @@ export const CA_PULMAO_3: QuestaoCompacta[] = [
   {
     s: 'Síndromes paraneoplásicas',
     e: 'Mulher de 67 anos, com carcinoma epidermoide de pulmão, é internada desidratada e sonolenta, com cálcio sérico de 15,6 mg/dL e creatinina de 1,6 mg/dL. A primeira medida terapêutica é:',
-    o: ['Furosemida intravenosa em dose alta', 'Hidratação vigorosa com solução salina a 0,9%', 'Hemodiálise de urgência', 'Hidroclorotiazida por via oral'],
+    o: ['Furosemida intravenosa em dose alta, como primeira medida', 'Hidratação vigorosa com solução salina a 0,9%', 'Hemodiálise de urgência, como primeira medida', 'Hidroclorotiazida por via oral, em dose habitual'],
     g: 'B',
     c: 'A hipercalcemia causa poliúria por diabetes insípido nefrogênico e vômitos, e a desidratação resultante reduz a filtração e aumenta a reabsorção tubular de cálcio, fechando um círculo vicioso. A expansão com salina restaura o volume e promove calciurese, sendo sempre o primeiro passo. Em seguida associa-se bisfosfonato intravenoso (ácido zoledrônico), cujo efeito aparece em 2 a 4 dias, e calcitonina se for preciso ação mais rápida.',
     x: { A: 'O diurético de alça antes da reposição volêmica agrava a desidratação; hoje só é usado se houver sobrecarga de volume.', C: 'A diálise fica reservada a casos refratários ou com insuficiência renal grave.', D: 'Os tiazídicos reduzem a excreção renal de cálcio e pioram a hipercalcemia.' },
@@ -141,7 +141,7 @@ export const CA_PULMAO_3: QuestaoCompacta[] = [
   {
     s: 'Derrame pleural neoplásico',
     e: 'Mulher de 64 anos, ex-tabagista, tem derrame pleural esquerdo exsudativo e linfocítico. Duas citologias oncóticas e a cultura para micobactérias foram negativas, e a adenosina deaminase é baixa. A tomografia mostra espessamento pleural nodular, sem lesão no parênquima. O próximo passo é:',
-    o: ['Terceira toracocentese com nova citologia', 'Pleuroscopia (videotoracoscopia) com biópsia pleural dirigida', 'Tratamento empírico para tuberculose pleural', 'Observação e nova radiografia em 3 meses'],
+    o: ['Terceira toracocentese com nova citologia, como próximo passo', 'Pleuroscopia (VATS) com biópsia pleural dirigida', 'Tratamento empírico para tuberculose pleural, sem biópsia', 'Observação e nova radiografia em 3 meses, sem procedimento'],
     g: 'B',
     c: 'Quando a citologia é repetidamente negativa e a suspeita de neoplasia persiste, o exame seguinte é a biópsia pleural sob visão direta, que tem sensibilidade acima de 90%. O acometimento pleural tumoral é irregular e em placas, por isso a visão direta supera a biópsia às cegas. O procedimento ainda permite realizar pleurodese no mesmo ato.',
     x: { A: 'O ganho diagnóstico de uma terceira citologia é desprezível.', C: 'Adenosina deaminase baixa e espessamento nodular tornam a tuberculose improvável; o tratamento empírico atrasaria o diagnóstico.', D: 'Adiar a investigação de um provável derrame maligno não é aceitável.' },
@@ -165,7 +165,7 @@ export const CA_PULMAO_3: QuestaoCompacta[] = [
   {
     s: 'Derrame pleural neoplásico',
     e: 'Homem de 63 anos tem adenocarcinoma de 2,5 cm no lobo inferior direito, sem linfonodos acometidos, e pequeno derrame pleural ipsilateral cuja citologia mostra células neoplásicas. Esse achado significa que a doença:',
-    o: ['É classificada como T2 e continua sendo tratada com lobectomia', 'É classificada como metastática (M1a, estádio IV) e não tem indicação de ressecção curativa', 'É classificada como N3 e deve receber radioterapia exclusiva', 'Não tem o estadiamento alterado, pois o derrame é pequeno'],
+    o: ['É classificada como T2 e continua sendo tratada com lobectomia', 'Classificada como M1a (estádio IV); sem ressecção curativa', 'É classificada como N3 e deve receber radioterapia exclusiva', 'Não tem o estadiamento alterado, pois o derrame é pequeno'],
     g: 'B',
     c: 'A presença de células neoplásicas no líquido pleural ou de nódulos pleurais indica disseminação pela cavidade, que não pode ser removida por ressecção. O estadiamento TNM classifica o derrame pleural ou pericárdico maligno como M1a, estádio IV, com tratamento sistêmico. Por essa razão todo derrame em paciente com tumor aparentemente ressecável deve ser puncionado antes da cirurgia.',
     x: { A: 'A invasão direta da pleura visceral é que define T2; células malignas no líquido significam doença metastática.', C: 'O descritor N refere-se a linfonodos, não à pleura.', D: 'O que muda o estadiamento é a citologia positiva, independentemente do volume do derrame.' },

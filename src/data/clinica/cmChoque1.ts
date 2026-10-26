@@ -5,7 +5,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Conceito de choque',
     e: 'Mulher de 58 anos, com pneumonia, apresenta PA de 108 x 64 mmHg, FC de 118 bpm, confusão mental, diurese de 15 mL/h, pele rendilhada nos joelhos e lactato de 5,2 mmol/L. Sobre o estado hemodinâmico dessa paciente, é correto afirmar:',
-    o: ['Não há choque, pois a pressão arterial sistólica está acima de 90 mmHg', 'Há choque, pois existe hipoperfusão tecidual com desequilíbrio entre oferta e consumo de oxigênio, mesmo sem hipotensão', 'Só se pode falar em choque após falha de resposta a vasopressor', 'O lactato elevado com pressão normal indica apenas erro de coleta'],
+    o: ['Não há choque, pois a PA sistólica está acima de 90 mmHg e não há hipotensão', 'Há choque: hipoperfusão tecidual com desequilíbrio oferta-consumo de O2, mesmo sem hipotensão', 'Só se fala em choque após a falha de resposta ao vasopressor', 'O lactato elevado com pressão normal indica apenas erro de coleta'],
     g: 'B',
     c: 'Choque é definido como insuficiência circulatória aguda com oferta de oxigênio inadequada para a demanda dos tecidos, e não por um valor de pressão arterial. A vasoconstrição compensatória pode manter a pressão enquanto pele, rim e cérebro já mostram hipoperfusão e o lactato sobe (choque oculto ou críptico).',
     x: { A: 'Hipotensão é frequente, mas não é obrigatória para o diagnóstico de choque.', C: 'A resposta ao vasopressor define refratariedade, não a presença de choque.', D: 'O lactato é coerente com os sinais clínicos de hipoperfusão presentes.' },
@@ -37,7 +37,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Perfil hemodinâmico',
     e: 'Paciente com infarto anterior extenso evolui com hipotensão, extremidades frias e estertores até ápices. O cateter de artéria pulmonar deve mostrar:',
-    o: ['Índice cardíaco elevado, pressão de oclusão baixa e resistência vascular baixa', 'Índice cardíaco baixo, pressão de oclusão da artéria pulmonar elevada e resistência vascular sistêmica elevada', 'Índice cardíaco baixo, pressão de oclusão baixa e resistência vascular elevada', 'Índice cardíaco normal, pressão de oclusão normal e resistência vascular baixa'],
+    o: ['IC elevado, pressão de oclusão baixa e resistência vascular baixa', 'IC baixo, pressão de oclusão pulmonar alta e RVS elevada', 'IC baixo, pressão de oclusão baixa e resistência vascular elevada', 'IC normal, pressão de oclusão normal e resistência vascular baixa'],
     g: 'B',
     c: 'No choque cardiogênico por falência do ventrículo esquerdo a bomba falha: o débito cai e o sangue represa a montante, elevando a pressão de oclusão (acima de 15 a 18 mmHg) e causando congestão pulmonar. A vasoconstrição reflexa aumenta a resistência vascular, o que piora ainda mais a pós-carga.',
     x: { A: 'Esse é o perfil hiperdinâmico do choque distributivo.', C: 'Pressão de oclusão baixa com débito baixo indica hipovolemia.', D: 'Débito e enchimento normais com resistência baixa não explicam congestão pulmonar e pele fria.' },
@@ -45,7 +45,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Perfil hemodinâmico',
     e: 'Homem de 70 anos, com infecção urinária, apresenta PA de 76 x 38 mmHg, extremidades quentes, pulsos amplos e enchimento capilar rápido. O mecanismo predominante da hipotensão é:',
-    o: ['Queda primária da contratilidade miocárdica', 'Queda da resistência vascular sistêmica por vasodilatação, com débito cardíaco normal ou aumentado', 'Obstrução ao enchimento das câmaras direitas', 'Perda de volume intravascular para o exterior'],
+    o: ['Queda primária da contratilidade miocárdica, com baixo débito', 'Queda da RVS por vasodilatação, com débito cardíaco normal ou alto', 'Obstrução ao enchimento das câmaras direitas, com baixo débito', 'Perda de volume intravascular para o exterior, com baixo débito'],
     g: 'B',
     c: 'O choque distributivo (séptico, anafilático, neurogênico) decorre de vasodilatação com má distribuição do fluxo. A pressão diastólica muito baixa e a pressão de pulso ampla refletem a baixa resistência; o débito costuma estar normal ou alto após reposição volêmica.',
     x: { A: 'Falência de bomba cursa com extremidades frias e pressão de pulso estreita.', C: 'Obstrução cursa com turgência jugular e baixo débito.', D: 'A hipovolemia verdadeira gera pele fria e pulsos finos.' },
@@ -61,7 +61,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Lactato',
     e: 'Em paciente com choque, a elevação do lactato arterial por hipoperfusão (hiperlactatemia tipo A) decorre principalmente de:',
-    o: ['Redução da depuração renal do lactato', 'Metabolismo anaeróbio, com desvio do piruvato para lactato quando a oferta de oxigênio é insuficiente', 'Aumento da oxidação de ácidos graxos no fígado', 'Excesso de bicarbonato administrado'],
+    o: ['Redução da depuração renal do lactato, por oligúria e lesão renal aguda', 'Metabolismo anaeróbio: o piruvato vira lactato se a oferta de O2 é insuficiente', 'Aumento da oxidação de ácidos graxos no fígado, com cetose associada', 'Excesso de bicarbonato administrado, com alcalose metabólica secundária'],
     g: 'B',
     c: 'Sem oxigênio suficiente, o piruvato não entra no ciclo de Krebs e é convertido em lactato pela lactato desidrogenase. Por isso o lactato é marcador de gravidade, e sua queda seriada indica resposta à ressuscitação; valores acima de 2 mmol/L já se associam a maior mortalidade.',
     x: { A: 'O lactato é depurado principalmente pelo fígado; o rim tem papel menor.', C: 'A oxidação de ácidos graxos gera corpos cetônicos, não lactato.', D: 'O bicarbonato não é fonte de lactato.' },
@@ -77,7 +77,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Saturação venosa central',
     e: 'Paciente em choque apresenta saturação venosa central de oxigênio de 48%, com saturação arterial de 96% e hemoglobina de 11 g/dL. Esse achado indica:',
-    o: ['Shunt arteriovenoso periférico com baixa extração', 'Oferta de oxigênio insuficiente para a demanda, com aumento da taxa de extração tecidual', 'Hiperóxia tecidual', 'Erro de medida, pois o valor normal é de cerca de 40%'],
+    o: ['Shunt arteriovenoso periférico, com baixa extração de oxigênio', 'Oferta de O2 insuficiente para a demanda, com maior extração tecidual', 'Hiperóxia tecidual, com baixa extração de oxigênio', 'Erro de medida, pois o valor normal é de cerca de 40%'],
     g: 'B',
     c: 'A saturação venosa central normal fica em torno de 70%. Quando a oferta cai (baixo débito, anemia, hipoxemia) ou o consumo sobe, os tecidos extraem mais oxigênio e o sangue venoso retorna mais dessaturado. Com hemoglobina e saturação arterial adequadas, o valor baixo aponta para débito cardíaco insuficiente.',
     x: { A: 'Shunt e baixa extração produzem saturação venosa alta, não baixa.', C: 'Hiperóxia tecidual elevaria a saturação venosa.', D: 'O valor de referência é próximo de 70%, não de 40%.' },
@@ -85,7 +85,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Saturação venosa central',
     e: 'Paciente com choque séptico, após reposição volêmica, mantém lactato de 6 mmol/L e saturação venosa central de 84%. A melhor interpretação é:',
-    o: ['Perfusão tecidual normalizada, sem necessidade de novas medidas', 'Incapacidade de extração de oxigênio por shunt microcirculatório e disfunção mitocondrial', 'Débito cardíaco muito baixo', 'Anemia grave não diagnosticada'],
+    o: ['Perfusão tecidual já normalizada, sem necessidade de novas medidas', 'Incapacidade de extrair O2 por shunt microcirculatório e disfunção mitocondrial', 'Débito cardíaco muito baixo, com hipoperfusão global e hipotensão persistente', 'Anemia grave não diagnosticada, com extração aumentada de oxigênio'],
     g: 'B',
     c: 'Na sepse, a heterogeneidade da microcirculação e a disfunção mitocondrial (hipóxia citopática) impedem o uso do oxigênio ofertado. O sangue venoso volta rico em oxigênio enquanto o tecido permanece em sofrimento, por isso saturação venosa normal ou alta não exclui hipoperfusão.',
     x: { A: 'O lactato persistentemente elevado mostra que a hipoperfusão não foi resolvida.', C: 'Baixo débito reduz a saturação venosa por aumento da extração.', D: 'Anemia reduz a oferta e diminui a saturação venosa.' },
@@ -93,7 +93,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Gap de CO2',
     e: 'Paciente em choque, com saturação venosa central de 72%, apresenta diferença venoarterial de CO2 de 9 mmHg. Esse achado sugere:',
-    o: ['Hiperventilação alveolar excessiva', 'Fluxo sanguíneo insuficiente para remover o CO2 produzido, ou seja, débito cardíaco inadequado', 'Perfusão adequada, pois o valor normal é acima de 10 mmHg', 'Alcalose metabólica associada'],
+    o: ['Hiperventilação alveolar excessiva, com redução do CO2', 'Fluxo insuficiente para remover o CO2 produzido (débito cardíaco inadequado)', 'Perfusão adequada, pois o valor normal é acima de 10 mmHg', 'Alcalose metabólica associada, com bicarbonato elevado'],
     g: 'B',
     c: 'A diferença venoarterial de CO2 normal é de até 6 mmHg. Quando o fluxo é lento, o CO2 se acumula no sangue venoso (fenômeno de estagnação), alargando o gap. O achado é útil justamente quando a saturação venosa está normal, pois aponta que ainda há espaço para aumentar o débito.',
     x: { A: 'A ventilação altera PaCO2 e PvCO2 em paralelo, sem alargar a diferença dessa forma.', C: 'Valores acima de 6 mmHg já são considerados alargados.', D: 'O gap de CO2 não é marcador de distúrbio metabólico do bicarbonato.' },
@@ -101,7 +101,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Tempo de enchimento capilar',
     e: 'Na avaliação da perfusão periférica de um adulto em choque séptico, o tempo de enchimento capilar é considerado alterado quando:',
-    o: ['Ultrapassa 1 segundo após compressão do leito ungueal por 2 segundos', 'Ultrapassa 3 segundos após compressão da polpa digital por cerca de 10 segundos', 'Ultrapassa 10 segundos, independentemente da técnica', 'É inferior a 2 segundos'],
+    o: ['Ultrapassa 1 segundo após compressão do leito ungueal por 2 segundos', 'Ultrapassa 3 s após compressão da polpa digital por ~10 s', 'Ultrapassa 10 segundos, independentemente da técnica usada', 'É inferior a 2 segundos, com a técnica habitual'],
     g: 'B',
     c: 'No estudo ANDROMEDA-SHOCK a medida foi padronizada com compressão da polpa digital por 10 segundos, sendo anormal acima de 3 segundos. A ressuscitação guiada pelo enchimento capilar não foi inferior à guiada por lactato, e a Surviving Sepsis Campaign 2021 sugere usá-lo como complemento. Alguns textos adotam o corte de 2 segundos.',
     x: { A: 'Um segundo é valor normal; o corte usado em adultos é de 2 a 3 segundos.', C: 'Dez segundos é o tempo de compressão, não o limite de normalidade.', D: 'Enchimento abaixo de 2 segundos é normal.' },
@@ -125,7 +125,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Responsividade a volume',
     e: 'Paciente sedado, em ventilação mecânica controlada com volume corrente de 8 mL/kg, ritmo sinusal, apresenta variação da pressão de pulso de 18%. Isso significa que:',
-    o: ['Há sobrecarga de volume e deve-se iniciar diurético', 'O paciente provavelmente aumentará o volume sistólico se receber fluidos', 'Há disfunção sistólica grave do ventrículo esquerdo', 'O paciente não responderá a volume'],
+    o: ['Há sobrecarga de volume, e deve-se iniciar diurético', 'O paciente provavelmente aumentará o volume sistólico com fluidos', 'Há disfunção sistólica grave do ventrículo esquerdo', 'O paciente não responderá a volume, mesmo com fluidos'],
     g: 'B',
     c: 'A pressão positiva reduz ciclicamente o retorno venoso. Se o coração opera na parte ascendente da curva de Frank-Starling, essa oscilação de pré-carga gera grande variação do volume sistólico. Valores acima de 12 a 13% predizem resposta a fluidos. Ser responsivo não obriga a dar volume: é preciso haver hipoperfusão.',
     x: { A: 'Variação alta indica dependência de pré-carga, o oposto de sobrecarga.', C: 'A medida não avalia contratilidade do ventrículo esquerdo.', D: 'Não respondedores têm variação baixa, em geral inferior a 9%.' },
@@ -133,7 +133,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Responsividade a volume',
     e: 'A variação da pressão de pulso perde a validade para predizer resposta a fluidos em todas as situações abaixo, EXCETO:',
-    o: ['Fibrilação atrial', 'Esforço respiratório espontâneo', 'Volume corrente de 5 mL/kg', 'Ritmo sinusal em ventilação controlada com volume corrente de 8 mL/kg'],
+    o: ['Fibrilação atrial, com RR irregular', 'Esforço respiratório espontâneo, com pressão intratorácica variável', 'Volume corrente de 5 mL/kg, que reduz a variação de pressão', 'Ritmo sinusal em ventilação controlada com VC de 8 mL/kg'],
     g: 'D',
     c: 'O método exige que a única fonte de variação do volume sistólico seja o ciclo ventilatório regular: ventilação controlada sem esforço, volume corrente de pelo menos 8 mL/kg, ritmo regular e tórax fechado. Arritmia, respiração espontânea, volume corrente baixo, baixa complacência e tórax aberto invalidam a medida.',
     x: { A: 'Na fibrilação atrial o volume sistólico varia a cada batimento pelo próprio ritmo.', B: 'O esforço espontâneo gera variações irregulares de pressão intratorácica.', C: 'Volume corrente baixo produz oscilação insuficiente de pré-carga e gera falsos negativos.' },
@@ -141,7 +141,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Elevação passiva das pernas',
     e: 'Paciente em choque, em ventilação espontânea e com fibrilação atrial. Para avaliar se ele se beneficiaria de mais fluidos, sem administrá-los, o melhor teste é:',
-    o: ['Variação da pressão de pulso', 'Elevação passiva das pernas com medida do débito cardíaco em tempo real', 'Valor isolado da pressão venosa central', 'Radiografia de tórax'],
+    o: ['Variação da pressão de pulso, que perde validade na FA', 'Elevação passiva das pernas, medindo o débito em tempo real', 'Valor isolado da pressão venosa central, medido no átrio', 'Radiografia de tórax, em duas incidências'],
     g: 'B',
     c: 'A manobra desloca cerca de 300 mL de sangue das pernas e do território esplâncnico para o tórax, funcionando como prova de volume reversível. Aumento de 10% ou mais no débito cardíaco ou no volume sistólico indica responsividade. Vale em respiração espontânea e em arritmias; o efeito deve ser lido em 60 a 90 segundos.',
     x: { A: 'Não é válida em respiração espontânea nem em fibrilação atrial.', C: 'Medidas estáticas de pré-carga não predizem resposta a fluidos.', D: 'A radiografia não avalia dependência de pré-carga.' },
@@ -149,7 +149,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Responsividade a volume',
     e: 'Define-se como responsivo a volume o paciente que, após uma prova de fluidos, apresenta:',
-    o: ['Elevação da pressão venosa central em 5 mmHg', 'Aumento do volume sistólico ou do débito cardíaco de 10 a 15%', 'Queda da frequência cardíaca em 5 bpm', 'Aumento da diurese nas 24 horas seguintes'],
+    o: ['Elevação da PVC em 5 mmHg, após a prova de volume', 'Aumento do volume sistólico ou do débito de 10-15%', 'Queda da frequência cardíaca em 5 bpm, após a prova de volume', 'Aumento da diurese nas 24 horas seguintes à prova de volume'],
     g: 'B',
     c: 'O objetivo de dar fluido é aumentar o débito cardíaco. Isso só ocorre se os dois ventrículos estiverem na porção ascendente da curva de Frank-Starling; na porção plana, o volume apenas eleva pressões de enchimento e gera edema. Cerca de metade dos pacientes críticos não é responsiva.',
     x: { A: 'Aumento de pressão de enchimento sem aumento de fluxo é justamente o efeito indesejado.', C: 'A frequência cardíaca é marcador pouco sensível e inespecífico.', D: 'A diurese é desfecho tardio e sofre influência de muitos outros fatores.' },
@@ -157,7 +157,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Pressão venosa central',
     e: 'Paciente em choque séptico tem pressão venosa central de 6 mmHg. Sobre o uso desse dado para decidir nova expansão volêmica, é correto afirmar:',
-    o: ['Valor abaixo de 8 mmHg garante que haverá aumento do débito com fluidos', 'O valor isolado da pressão venosa central tem baixa capacidade de predizer resposta a fluidos', 'A pressão venosa central é o melhor preditor de responsividade disponível', 'Valor de 6 mmHg contraindica fluidos'],
+    o: ['Valor < 8 mmHg garante que o débito aumentará com fluidos', 'O valor isolado da PVC tem baixa capacidade de predizer resposta a fluidos', 'A PVC é o melhor preditor de responsividade disponível', 'Valor de 6 mmHg contraindica fluidos, por risco de sobrecarga'],
     g: 'B',
     c: 'A pressão venosa central é uma medida estática que depende de volemia, complacência ventricular, pressão intratorácica e tônus venoso. Estudos mostram desempenho próximo ao acaso para predizer resposta a fluidos, e por isso as diretrizes atuais preferem parâmetros dinâmicos. Valores extremos e a tendência ainda ajudam como limite de segurança.',
     x: { A: 'Não existe valor de corte que garanta resposta a volume.', C: 'Os testes dinâmicos têm desempenho muito superior.', D: 'Valor baixo não contraindica fluidos; apenas não prediz o benefício.' },
@@ -165,7 +165,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Ultrassom à beira do leito',
     e: 'Paciente hipotenso, em respiração espontânea. O ultrassom mostra veia cava inferior com 1,1 cm de diâmetro e colapso inspiratório superior a 50%. Esse achado sugere:',
-    o: ['Pressão de átrio direito elevada, compatível com tamponamento', 'Pressão de átrio direito baixa, compatível com hipovolemia', 'Hipertensão pulmonar grave', 'Insuficiência tricúspide importante'],
+    o: ['PAD elevada, compatível com tamponamento cardíaco', 'PAD baixa, compatível com hipovolemia', 'Hipertensão pulmonar grave, com dilatação do VD', 'Insuficiência tricúspide importante, com refluxo para a veia cava'],
     g: 'B',
     c: 'Em respiração espontânea, a inspiração reduz a pressão intratorácica e aspira sangue da veia cava. Vaso fino (menor que 2,1 cm) que colaba mais de 50% indica pressão de átrio direito baixa (0 a 5 mmHg). Veia cava dilatada e fixa indica pressão elevada, como em tamponamento, embolia pulmonar ou falência de ventrículo direito.',
     x: { A: 'No tamponamento a veia cava fica dilatada e sem variação respiratória (pletórica).', C: 'A hipertensão pulmonar com falência direita dilata a veia cava.', D: 'A regurgitação tricúspide eleva a pressão atrial e dilata a veia cava.' },
@@ -189,7 +189,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Mecanismos compensatórios',
     e: 'Jovem com fratura de fêmur e de bacia apresenta FC de 112 bpm e PA de 118 x 96 mmHg. A redução da pressão de pulso nessa fase do choque hemorrágico é explicada por:',
-    o: ['Vasodilatação periférica mediada por óxido nítrico', 'Queda do volume sistólico associada a vasoconstrição simpática, que eleva a pressão diastólica', 'Aumento do volume sistólico por taquicardia', 'Insuficiência aórtica aguda'],
+    o: ['Vasodilatação periférica mediada por óxido nítrico, como na sepse', 'Queda do volume sistólico com vasoconstrição simpática, elevando a diastólica', 'Aumento do volume sistólico por taquicardia, elevando a pressão de pulso', 'Insuficiência aórtica aguda, com queda da pressão diastólica'],
     g: 'B',
     c: 'A pressão de pulso é proporcional ao volume sistólico. Com a hemorragia o volume sistólico cai, e a descarga de catecolaminas aumenta a resistência vascular, elevando a diastólica. O pinçamento da pressão é sinal precoce de choque hemorrágico, anterior à hipotensão.',
     x: { A: 'Vasodilatação alarga a pressão de pulso, como na sepse.', C: 'O volume sistólico está reduzido pela queda do retorno venoso.', D: 'A insuficiência aórtica produz pressão de pulso ampla.' },
@@ -197,7 +197,7 @@ export const CHOQUE_1: QuestaoCompacta[] = [
   {
     s: 'Dependência de oferta',
     e: 'Em condições normais, uma queda moderada da oferta de oxigênio não reduz o consumo. Isso ocorre porque:',
-    o: ['O consumo de oxigênio é sempre proporcional à oferta', 'Os tecidos aumentam a taxa de extração de oxigênio até um ponto crítico, abaixo do qual o consumo passa a depender da oferta', 'A hemoglobina aumenta sua afinidade pelo oxigênio', 'O metabolismo anaeróbio supre toda a demanda energética'],
+    o: ['O consumo de O2 é sempre proporcional à oferta, em qualquer faixa', 'Os tecidos aumentam a extração de O2 até um ponto crítico; depois o consumo depende da oferta', 'A hemoglobina aumenta sua afinidade pelo oxigênio, ao se reduzir a oferta', 'O metabolismo anaeróbio supre toda a demanda energética, sem lactato'],
     g: 'B',
     c: 'A taxa de extração normal é de cerca de 25% e pode subir até 60 a 70%, mantendo o consumo estável. Abaixo da oferta crítica a extração não consegue mais compensar: o consumo cai, instala-se metabolismo anaeróbio e o lactato sobe. Esse é o ponto que define fisiologicamente o choque.',
     x: { A: 'A proporcionalidade só existe abaixo da oferta crítica.', C: 'Na hipóxia tecidual a afinidade diminui (desvio à direita), facilitando a liberação.', D: 'O metabolismo anaeróbio gera muito menos ATP e não sustenta a demanda.' },

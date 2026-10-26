@@ -13,7 +13,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Fatores de risco',
     e: 'O principal fator de risco modificável para o acidente vascular encefálico, tanto isquêmico quanto hemorrágico, é:',
-    o: ['Diabetes mellitus', 'Hipertensão arterial sistêmica', 'Dislipidemia', 'Sedentarismo'],
+    o: ['Diabetes mellitus, de controle inadequado e prolongado', 'Hipertensão arterial sistêmica, o principal fator modificável', 'Dislipidemia, com LDL elevado e HDL baixo', 'Sedentarismo, associado a obesidade e síndrome metabólica'],
     g: 'B',
     c: 'A hipertensão arterial é o fator de risco modificável mais importante para todos os tipos de AVE. Ela acelera a aterosclerose de grandes artérias, causa lipo-hialinose das pequenas artérias perfurantes (infartos lacunares e hemorragia profunda) e favorece a fibrilação atrial. O controle pressórico é a medida isolada de maior impacto na prevenção.',
     x: { A: 'O diabetes aumenta o risco de AVE isquêmico, mas com impacto populacional menor que a hipertensão.', C: 'A dislipidemia tem associação mais forte com doença coronariana do que com AVE.', D: 'O sedentarismo é fator de risco, porém com peso inferior ao da hipertensão.' },
@@ -37,7 +37,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Artéria cerebral média — hemisfério não dominante',
     e: 'Mulher de 72 anos, destra, apresenta subitamente hemiparesia esquerda de predomínio braquiofacial. Ao exame, ignora estímulos vindos do lado esquerdo, não reconhece o próprio déficit e nega que o braço esquerdo esteja fraco. Esses achados corticais indicam lesão em:',
-    o: ['Lobo occipital direito', 'Lobo parietal direito, no território da artéria cerebral média', 'Cápsula interna esquerda', 'Lobo frontal medial direito, no território da cerebral anterior'],
+    o: ['Lobo occipital direito, no território da cerebral posterior', 'Lobo parietal direito, território da cerebral média', 'Cápsula interna esquerda, no território das lenticuloestriadas', 'Lobo frontal medial direito, no território da cerebral anterior'],
     g: 'B',
     c: 'Heminegligência e anosognosia são sinais clássicos de lesão do lobo parietal do hemisfério não dominante, geralmente o direito, irrigado pela artéria cerebral média. Esse hemisfério é responsável pela atenção espacial para os dois lados, de modo que sua lesão deixa o hemiespaço esquerdo sem representação.',
     x: { A: 'A lesão occipital causa hemianopsia, sem hemiparesia braquiofacial nem anosognosia.', C: 'A cápsula interna esquerda causaria déficit à direita e sem sinais corticais.', D: 'O território da cerebral anterior causa paresia de predomínio no membro inferior.' },
@@ -53,7 +53,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Artéria cerebral posterior',
     e: 'Homem de 66 anos, hipertenso, percebe subitamente que esbarra em objetos à sua direita. O exame mostra hemianopsia homônima direita com preservação da visão macular, sem déficit motor. A lesão isquêmica está localizada em:',
-    o: ['Quiasma óptico', 'Lobo occipital esquerdo, território da cerebral posterior', 'Nervo óptico direito', 'Lobo parietal direito'],
+    o: ['Quiasma óptico, por compressão tumoral selar', 'Lobo occipital esquerdo, território da cerebral posterior', 'Nervo óptico direito, por neurite óptica isquêmica', 'Lobo parietal direito, território da cerebral média'],
     g: 'B',
     c: 'A artéria cerebral posterior irriga o córtex visual primário no lobo occipital, e sua oclusão causa hemianopsia homônima contralateral. A mácula costuma ser poupada porque o polo occipital recebe irrigação colateral da artéria cerebral média.',
     x: { A: 'Lesão do quiasma causa hemianopsia bitemporal, e não homônima.', C: 'Lesão do nervo óptico causa perda visual monocular ipsilateral.', D: 'Lesão parietal direita causaria defeito de campo à esquerda e negligência.' },
@@ -69,7 +69,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Wallenberg',
     e: 'Homem de 58 anos apresenta vertigem intensa, vômitos, disfagia e rouquidão de início súbito. Ao exame: síndrome de Horner à direita, hipoestesia térmica e dolorosa na hemiface direita e no hemicorpo esquerdo, ataxia à direita, sem déficit de força. O diagnóstico topográfico é:',
-    o: ['Infarto bulbar medial', 'Infarto bulbar lateral (síndrome de Wallenberg)', 'Infarto pontino ventral bilateral', 'Infarto mesencefálico ventral'],
+    o: ['Infarto bulbar medial, por oclusão da artéria espinhal anterior', 'Infarto bulbar lateral (síndrome de Wallenberg)', 'Infarto pontino ventral bilateral, com síndrome de encarceramento', 'Infarto mesencefálico ventral, com síndrome de Weber'],
     g: 'B',
     c: 'A síndrome de Wallenberg resulta do infarto da porção dorsolateral do bulbo, geralmente por oclusão da artéria vertebral ou da cerebelar posteroinferior. Há lesão do núcleo espinal do trigêmeo (face ipsilateral), do trato espinotalâmico (corpo contralateral), do núcleo ambíguo (disfagia e disfonia), das vias simpáticas (Horner) e dos núcleos vestibulares. A força é preservada porque a pirâmide bulbar é medial.',
     x: { A: 'O infarto bulbar medial causa hemiparesia contralateral e paralisia ipsilateral da língua.', C: 'O infarto pontino ventral bilateral causa tetraplegia, a síndrome do cativeiro.', D: 'O infarto mesencefálico ventral causa paralisia do terceiro nervo e hemiparesia cruzada.' },
@@ -85,7 +85,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome do cativeiro',
     e: 'Paciente de 60 anos é encontrado tetraplégico e anártrico após quadro súbito. Está com os olhos abertos, obedece a comandos apenas com piscamento e movimentos verticais dos olhos, e os movimentos oculares horizontais estão abolidos. A lesão responsável é:',
-    o: ['Infarto talâmico bilateral', 'Infarto da base da ponte por oclusão da artéria basilar', 'Infarto extenso bilateral das cerebrais anteriores', 'Lesão difusa do córtex por hipóxia'],
+    o: ['Infarto talâmico bilateral, com coma e alteração do sono', 'Infarto da base da ponte por oclusão da artéria basilar', 'Infarto extenso bilateral das artérias cerebrais anteriores', 'Lesão difusa do córtex por hipóxia, após parada cardíaca'],
     g: 'B',
     c: 'A síndrome do cativeiro (locked-in) resulta de lesão bilateral da base da ponte, que interrompe os tratos corticoespinais e corticobulbares, geralmente por trombose da basilar. A consciência é preservada porque o tegmento e a formação reticular ascendente são poupados, e os movimentos verticais e o piscamento persistem por serem controlados no mesencéfalo.',
     x: { A: 'O infarto talâmico bilateral causa rebaixamento da consciência e alteração de memória.', C: 'O infarto bilateral das cerebrais anteriores causa mutismo acinético e paraparesia.', D: 'A lesão cortical difusa compromete a consciência, que aqui está preservada.' },
@@ -117,7 +117,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia lacunar',
     e: 'O mecanismo fisiopatológico clássico do infarto lacunar é:',
-    o: ['Embolia a partir de trombo no átrio esquerdo', 'Lipo-hialinose e microateromatose de artérias perfurantes por hipertensão e diabetes', 'Embolia artério-arterial de placa carotídea', 'Hipoperfusão em zonas de fronteira entre territórios arteriais'],
+    o: ['Embolia a partir de trombo no átrio esquerdo, com fibrilação atrial', 'Lipo-hialinose e microateromatose de artérias perfurantes (HAS e diabetes)', 'Embolia artério-arterial a partir de placa carotídea ulcerada', 'Hipoperfusão em zonas de fronteira entre territórios arteriais'],
     g: 'B',
     c: 'Os infartos lacunares são pequenos, subcorticais, e resultam da oclusão de uma única artéria perfurante profunda. A hipertensão e o diabetes causam degeneração da parede desses vasos (lipo-hialinose) e microateromas em sua origem. Acometem núcleos da base, cápsula interna, tálamo e ponte.',
     x: { A: 'A cardioembolia costuma causar infartos corticais, maiores e em múltiplos territórios.', C: 'A embolia artério-arterial produz infartos corticais no território da artéria doente.', D: 'A hipoperfusão causa infartos de zona de fronteira, e não lacunas.' },
@@ -125,7 +125,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Classificação TOAST',
     e: 'A classificação TOAST divide o AVE isquêmico conforme o mecanismo etiológico. São categorias dessa classificação, EXCETO:',
-    o: ['Aterosclerose de grandes artérias', 'Cardioembolismo', 'Oclusão de pequenos vasos', 'Infarto de circulação anterior total'],
+    o: ['Aterosclerose de grandes artérias, com estenose acima de 50%', 'Cardioembolismo, com fonte cardíaca de alto risco embólico', 'Oclusão de pequenos vasos, com infarto lacunar e HAS', 'Infarto de circulação anterior total (Oxford)'],
     g: 'D',
     c: 'A classificação TOAST tem cinco categorias: aterosclerose de grandes artérias, cardioembolismo, oclusão de pequenos vasos (lacunar), outras etiologias determinadas e etiologia indeterminada. Infarto de circulação anterior total é uma categoria da classificação de Oxfordshire (Bamford), que é clínica e topográfica, não etiológica.',
     x: { A: 'Aterosclerose de grandes artérias é uma das cinco categorias etiológicas do TOAST.', B: 'Cardioembolismo é categoria do TOAST, com a fibrilação atrial como principal causa.', C: 'Oclusão de pequenos vasos é a categoria que corresponde ao infarto lacunar.' },
@@ -141,7 +141,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Ataque isquêmico transitório — definição',
     e: 'A definição atual de ataque isquêmico transitório (AIT), baseada em tecido, é:',
-    o: ['Déficit neurológico focal que dura menos de 24 horas, independentemente da imagem', 'Episódio transitório de disfunção neurológica por isquemia focal, sem infarto agudo na neuroimagem', 'Déficit neurológico que regride em até 7 dias', 'Qualquer perda transitória da consciência de origem vascular'],
+    o: ['Déficit focal com duração < 24 horas, independentemente da imagem', 'Disfunção neurológica transitória por isquemia focal, sem infarto agudo na imagem', 'Déficit neurológico que regride em até 7 dias, com sequela mínima', 'Qualquer perda transitória da consciência de origem vascular'],
     g: 'B',
     c: 'A definição atual do AIT deixou de se basear apenas no tempo e passou a exigir ausência de infarto agudo. Isso ocorre porque parte dos pacientes com sintomas transitórios apresenta lesão na ressonância com difusão, o que caracteriza AVE isquêmico. A maioria dos AIT dura menos de uma hora.',
     x: { A: 'O critério puramente temporal de 24 horas é a definição antiga, hoje superada.', C: 'Não existe critério de 7 dias para definição de ataque isquêmico transitório.', D: 'Perda de consciência isolada é síncope e raramente decorre de isquemia focal.' },
@@ -149,7 +149,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Amaurose fugaz',
     e: 'Homem de 65 anos, tabagista, refere episódio de perda visual indolor no olho esquerdo, descrita como uma cortina descendo, com duração de 5 minutos e recuperação completa. O exame neurológico é normal. O exame prioritário na investigação é:',
-    o: ['Eletroencefalograma', 'Avaliação das carótidas, por ultrassom Doppler ou angiotomografia', 'Punção lombar', 'Potencial evocado visual'],
+    o: ['Eletroencefalograma, para pesquisa de atividade epileptiforme', 'Avaliação das carótidas por Doppler ou angiotomografia', 'Punção lombar, para análise do líquor', 'Potencial evocado visual, para avaliar a via óptica'],
     g: 'B',
     c: 'A amaurose fugaz é um AIT retiniano, causado por êmbolo que oclui transitoriamente a artéria oftálmica ou a central da retina, ramos da carótida interna ipsilateral. A principal fonte é a placa aterosclerótica na bifurcação carotídea, e a identificação de estenose significativa muda a conduta por indicar revascularização.',
     x: { A: 'O eletroencefalograma não avalia a causa vascular de perda visual monocular.', C: 'A punção lombar não tem papel na investigação de amaurose fugaz.', D: 'O potencial evocado avalia desmielinização, não fonte embólica.' },
@@ -165,7 +165,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'ABCD2 — aplicação',
     e: 'Homem de 70 anos, diabético, procura atendimento após episódio de fraqueza no braço e na perna direitos que durou 75 minutos e regrediu por completo. Pressão arterial de 160 por 95 mmHg. Tomografia de crânio normal. O escore ABCD2 e a conduta adequada são:',
-    o: ['Escore 3, baixo risco, alta com retorno ambulatorial em 30 dias', 'Escore 7, alto risco, investigação etiológica imediata e início de antiagregação', 'Escore 5, risco moderado, apenas observação por 6 horas', 'Escore 7, alto risco, trombólise venosa imediata'],
+    o: ['Escore 3, baixo risco: alta com retorno ambulatorial em 30 dias', 'Escore 7, alto risco: investigação imediata e antiagregação', 'Escore 5, risco moderado: apenas observação por 6 horas', 'Escore 7, alto risco: trombólise venosa imediata, após o AIT'],
     g: 'B',
     c: 'O paciente soma idade (1), pressão arterial (1), fraqueza unilateral (2), duração igual ou superior a 60 minutos (2) e diabetes (1), totalizando 7. O risco de AVE é maior nos primeiros dias após o AIT, por isso a investigação (vasos, coração, ritmo) e a prevenção secundária devem começar de imediato; no AIT de alto risco indica-se dupla antiagregação por curto período.',
     x: { A: 'A soma correta é 7, e o AIT nunca deve ser investigado apenas em 30 dias.', C: 'A soma é 7, e a observação isolada não reduz o risco de AVE precoce.', D: 'Não há indicação de trombólise quando o déficit já regrediu completamente.' },
@@ -181,7 +181,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Escala NIHSS',
     e: 'Sobre a escala de AVE do National Institutes of Health (NIHSS), é correto afirmar que:',
-    o: ['Varia de 3 a 15 e avalia apenas o nível de consciência', 'Varia de 0 a 42, quantifica o déficit neurológico e pontuações maiores indicam maior gravidade', 'É usada para classificar a etiologia do AVE isquêmico', 'Pontuação zero exclui o diagnóstico de AVE'],
+    o: ['Varia de 3 a 15 e avalia apenas o nível de consciência do paciente', 'Varia de 0 a 42; mede o déficit e maior pontuação indica maior gravidade', 'É usada para classificar a etiologia do AVE isquêmico, como a TOAST', 'Pontuação zero exclui o diagnóstico de AVE em qualquer caso, inclusive AIT'],
     g: 'B',
     c: 'A NIHSS tem 11 itens (consciência, olhar, campo visual, paralisia facial, força de membros, ataxia, sensibilidade, linguagem, disartria e negligência) e soma de 0 a 42. É usada para quantificar a gravidade, acompanhar a evolução e apoiar decisões de reperfusão. Valoriza mais a circulação anterior e o hemisfério dominante.',
     x: { A: 'A faixa de 3 a 15 pertence à escala de coma de Glasgow.', C: 'A etiologia é classificada pelo TOAST, e não pela NIHSS.', D: 'AVE de circulação posterior pode ocorrer com pontuação zero ou muito baixa.' },
@@ -189,7 +189,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Infarto de zona de fronteira',
     e: 'Homem de 74 anos, com estenose carotídea bilateral grave, sofre parada cardiorrespiratória revertida após 8 minutos. Recupera a consciência com fraqueza proximal dos dois membros superiores, preservando mãos, face e membros inferiores. O mecanismo da lesão é:',
-    o: ['Embolia cardíaca múltipla', 'Hipoperfusão global com infarto de zonas de fronteira entre territórios arteriais', 'Trombose de seio sagital superior', 'Oclusão bilateral das artérias cerebrais posteriores'],
+    o: ['Embolia cardíaca múltipla, com fonte cardioembólica de alto risco', 'Hipoperfusão global com infarto de zonas de fronteira entre territórios', 'Trombose de seio sagital superior, com infarto venoso hemorrágico', 'Oclusão bilateral das artérias cerebrais posteriores, com cegueira cortical'],
     g: 'B',
     c: 'As zonas de fronteira entre as artérias cerebrais anterior e média são as regiões mais distais da circulação e as primeiras a sofrer quando a pressão de perfusão cai. Nessa área está a representação do ombro e do braço proximal, o que gera o quadro de homem no barril. A estenose carotídea prévia aumenta a vulnerabilidade.',
     x: { A: 'A embolia cardíaca causa déficits corticais focais variados, não paresia proximal simétrica.', C: 'A trombose do seio sagital causa cefaleia, crises e déficit crural, em outro contexto.', D: 'A oclusão das cerebrais posteriores causa cegueira cortical, sem paresia braquial.' },
@@ -197,7 +197,7 @@ export const AVE_1: QuestaoCompacta[] = [
   {
     s: 'Infarto cerebelar',
     e: 'Paciente de 62 anos apresenta vertigem súbita, vômitos e incapacidade de ficar em pé. O exame mostra nistagmo que muda de direção conforme o olhar, teste do impulso cefálico normal e desvio vertical dos olhos ao teste de oclusão alternada. A interpretação correta é:',
-    o: ['Neurite vestibular, tratar com sintomáticos e dar alta', 'Vertigem de origem central, provável AVE de circulação posterior, exigindo neuroimagem', 'Vertigem posicional paroxística benigna, realizar manobra de reposição', 'Doença de Ménière, iniciar diurético'],
+    o: ['Neurite vestibular: tratar com sintomáticos e dar alta', 'Vertigem central, provável AVE de circulação posterior: neuroimagem', 'VPPB: manobra de reposição de otólitos', 'Doença de Ménière: iniciar diurético e dieta hipossódica'],
     g: 'B',
     c: 'No protocolo HINTS, três achados indicam origem central: impulso cefálico normal em paciente com vertigem aguda contínua, nistagmo que muda de direção com o olhar e desvio vertical (skew). Na lesão periférica o reflexo vestíbulo-ocular está comprometido e o impulso cefálico é alterado. O infarto cerebelar pode evoluir com edema e compressão do tronco.',
     x: { A: 'Na neurite vestibular o impulso cefálico é alterado e o nistagmo é unidirecional.', C: 'A vertigem posicional é breve, desencadeada por movimento, sem nistagmo espontâneo.', D: 'A doença de Ménière cursa com hipoacusia flutuante e zumbido em crises recorrentes.' },

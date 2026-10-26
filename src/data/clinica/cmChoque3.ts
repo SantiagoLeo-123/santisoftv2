@@ -5,7 +5,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Choque cardiogênico no infarto',
     e: 'Homem de 61 anos, com dor torácica há 3 horas, supradesnivelamento de ST de V1 a V6, PA de 76 x 50 mmHg, extremidades frias e estertores bilaterais. A medida com maior impacto na sobrevida é:',
-    o: ['Balão intra-aórtico de rotina', 'Revascularização precoce da artéria culpada, preferencialmente por angioplastia primária', 'Betabloqueador intravenoso', 'Dobutamina isolada, mantendo tratamento clínico'],
+    o: ['Balão intra-aórtico de rotina, como primeira medida de suporte circulatório', 'Revascularização precoce da artéria culpada, por angioplastia primária', 'Betabloqueador intravenoso, em dose plena, para reduzir o consumo de oxigênio', 'Dobutamina isolada, mantendo tratamento clínico, sem reperfusão coronariana'],
     g: 'B',
     c: 'O choque cardiogênico no infarto decorre de perda extensa de massa contrátil. O estudo SHOCK mostrou que a revascularização precoce reduz a mortalidade em comparação à estabilização clínica inicial. No choque, a angioplastia está indicada independentemente do tempo de evolução; o estudo CULPRIT-SHOCK favoreceu tratar apenas a lesão culpada no primeiro momento.',
     x: { A: 'O balão de rotina não reduziu a mortalidade no estudo IABP-SHOCK II.', C: 'Betabloqueador é contraindicado no choque e em sinais de baixo débito.', D: 'O inotrópico é ponte de suporte; não restaura o fluxo coronariano.' },
@@ -13,7 +13,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Infarto de ventrículo direito',
     e: 'Homem de 58 anos, com supradesnivelamento de ST em DII, DIII e aVF, apresenta hipotensão, turgência jugular e ausculta pulmonar limpa. Após nitrato sublingual a pressão caiu ainda mais. A conduta hemodinâmica inicial é:',
-    o: ['Furosemida intravenosa', 'Expansão com cristaloide, evitando nitratos, diuréticos e morfina', 'Nitroglicerina em infusão contínua', 'Betabloqueador intravenoso'],
+    o: ['Furosemida intravenosa, em dose alta, para reduzir a pré-carga do ventrículo', 'Expansão com cristaloide; evitar nitratos, diuréticos e morfina', 'Nitroglicerina em infusão contínua, em dose alta, para reduzir a pré-carga', 'Betabloqueador intravenoso, em dose plena, para reduzir o consumo de oxigênio'],
     g: 'B',
     c: 'A tríade hipotensão, turgência jugular e pulmões limpos em infarto inferior indica infarto de ventrículo direito. O ventrículo direito isquêmico depende de pré-carga para enviar sangue ao esquerdo; venodilatadores e diuréticos derrubam o débito. Faz-se prova de volume e, se não houver resposta, inotrópico, além da reperfusão.',
     x: { A: 'O diurético reduz a pré-carga da qual o ventrículo direito depende.', C: 'O nitrato causa venodilatação e agrava a hipotensão.', D: 'O betabloqueador piora o débito e pode agravar bloqueios do infarto inferior.' },
@@ -21,7 +21,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Infarto de ventrículo direito',
     e: 'Diante de infarto com supradesnivelamento de ST em parede inferior, o achado eletrocardiográfico mais útil para confirmar acometimento do ventrículo direito é:',
-    o: ['Infradesnivelamento de ST em V1 e V2', 'Supradesnivelamento de ST de 1 mm ou mais em V4R', 'Onda Q em DI e aVL', 'Bloqueio de ramo esquerdo novo'],
+    o: ['Infradesnivelamento de ST em V1 e V2, sugestivo de IAM posterior', 'Supradesnivelamento de ST ≥ 1 mm em V4R', 'Onda Q em DI e aVL, sugestiva de infarto lateral alto', 'BRE novo, sugestivo de infarto anterior extenso'],
     g: 'B',
     c: 'As derivações precordiais direitas (V3R e V4R) devem ser registradas em todo infarto inferior. O supradesnivelamento em V4R é o sinal mais sensível e específico de infarto de ventrículo direito, geralmente por oclusão proximal da coronária direita, e desaparece em poucas horas.',
     x: { A: 'Esse achado sugere infarto de parede posterior (imagem em espelho).', C: 'Ondas Q em DI e aVL indicam acometimento da parede lateral alta.', D: 'Bloqueio de ramo esquerdo não localiza infarto de ventrículo direito.' },
@@ -29,7 +29,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Critérios hemodinâmicos',
     e: 'Os critérios hemodinâmicos clássicos de choque cardiogênico incluem pressão sistólica abaixo de 90 mmHg por mais de 30 minutos (ou necessidade de suporte para mantê-la) associada a:',
-    o: ['Índice cardíaco acima de 4,0 L/min/m2 e pressão de oclusão abaixo de 8 mmHg', 'Índice cardíaco de 2,2 L/min/m2 ou menos e pressão de oclusão da artéria pulmonar de 15 mmHg ou mais', 'Índice cardíaco normal e resistência vascular sistêmica baixa', 'Pressão venosa central abaixo de 5 mmHg e índice cardíaco baixo'],
+    o: ['IC > 4,0 L/min/m² e pressão de oclusão < 8 mmHg', 'IC ≤ 2,2 L/min/m² e pressão de oclusão pulmonar ≥ 15 mmHg', 'IC normal e resistência vascular sistêmica baixa', 'PVC < 5 mmHg e índice cardíaco baixo'],
     g: 'B',
     c: 'A definição dos estudos SHOCK e IABP-SHOCK II combina hipotensão sustentada, baixo índice cardíaco e pressão de enchimento elevada, o que distingue a falência de bomba da hipovolemia. Na prática o diagnóstico é clínico, com hipoperfusão e congestão, apoiado pelo ecocardiograma.',
     x: { A: 'Débito alto com enchimento baixo corresponde a estado hiperdinâmico.', C: 'Esse é o perfil do choque distributivo.', D: 'Pressões de enchimento baixas apontam para hipovolemia.' },
@@ -37,7 +37,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Dobutamina',
     e: 'Paciente com insuficiência cardíaca de fração de ejeção reduzida, PA de 88 x 60 mmHg, extremidades frias, congestão pulmonar e piora da função renal. O inotrópico de escolha e seu mecanismo são:',
-    o: ['Noradrenalina; agonista alfa-1 predominante', 'Dobutamina; agonista beta-1 predominante, que aumenta a contratilidade', 'Vasopressina; agonista V1', 'Fenilefrina; agonista alfa-1 puro'],
+    o: ['Noradrenalina, agonista alfa-1 predominante, que aumenta a resistência periférica', 'Dobutamina, agonista beta-1 predominante, que aumenta a contratilidade', 'Vasopressina, agonista V1, que aumenta a resistência periférica', 'Fenilefrina, agonista alfa-1 puro, que aumenta a resistência periférica'],
     g: 'B',
     c: 'No perfil frio e úmido com pressão limítrofe, o problema é baixo débito. A dobutamina estimula receptores beta-1, elevando o AMP cíclico e a contratilidade, com leve vasodilatação beta-2 que reduz a pós-carga. A dose habitual é de 2 a 20 mcg/kg/min, e os principais efeitos adversos são taquiarritmias e aumento do consumo miocárdico de oxigênio.',
     x: { A: 'A noradrenalina é vasopressor; fica reservada à hipotensão importante.', C: 'A vasopressina aumenta a pós-carga sem efeito inotrópico.', D: 'A fenilefrina eleva a pós-carga e pode reduzir o débito.' },
@@ -45,7 +45,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Milrinona',
     e: 'Paciente com insuficiência cardíaca avançada, em uso crônico de carvedilol, interna com baixo débito e resposta insatisfatória à dobutamina. Opta-se por milrinona. Sobre esse fármaco, é correto afirmar:',
-    o: ['É agonista beta-1 e perde efeito com betabloqueador', 'Inibe a fosfodiesterase 3, com ação inotrópica e vasodilatadora independente do receptor beta; pode causar hipotensão e exige ajuste na disfunção renal', 'É vasoconstritor potente, indicado em hipotensão grave', 'Não tem efeito sobre a circulação pulmonar'],
+    o: ['Agonista beta-1 que perde o efeito em uso crônico de betabloqueador', 'Inibe a PDE3: inotrópico e vasodilatador independente de beta; hipotensão e ajuste renal', 'Vasoconstritor potente, indicado na hipotensão grave de qualquer causa', 'Não tem nenhum efeito sobre a circulação pulmonar nem sobre a pós-carga'],
     g: 'B',
     c: 'A milrinona impede a degradação do AMP cíclico, aumentando contratilidade e relaxamento e promovendo vasodilatação sistêmica e pulmonar (inodilatador). Como não depende do receptor beta, mantém o efeito em usuários de betabloqueador. Tem meia-vida longa, excreção renal e risco de hipotensão e arritmias.',
     x: { A: 'Esse é o mecanismo da dobutamina, cuja ação é atenuada pelo betabloqueador.', C: 'A milrinona é vasodilatadora e pode agravar a hipotensão.', D: 'Ela reduz a resistência vascular pulmonar, o que é útil na falência direita.' },
@@ -61,7 +61,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Balão intra-aórtico',
     e: 'O balão intra-aórtico de contrapulsação funciona:',
-    o: ['Insuflando na sístole e desinsuflando na diástole, para aumentar a pós-carga', 'Insuflando na diástole, o que aumenta a perfusão coronariana, e desinsuflando antes da sístole, o que reduz a pós-carga', 'Bombeando sangue do ventrículo esquerdo para a aorta de forma contínua', 'Oxigenando o sangue por membrana extracorpórea'],
+    o: ['Insufla na sístole e desinsufla na diástole, aumentando a pós-carga do VE', 'Insufla na diástole, elevando a perfusão coronariana, e desinsufla antes da sístole', 'Bombeia o sangue do ventrículo esquerdo para a aorta de forma contínua', 'Oxigena o sangue por membrana extracorpórea, fora do corpo do paciente'],
     g: 'B',
     c: 'Posicionado na aorta descendente, logo abaixo da subclávia esquerda, o balão infla no início da diástole (após a incisura dicrótica) e eleva a pressão diastólica, quando ocorre o fluxo coronariano. Ao desinflar imediatamente antes da sístole cria um efeito de sucção que reduz a pós-carga e o consumo de oxigênio. O ganho de débito é modesto, cerca de 0,5 L/min.',
     x: { A: 'Insuflar na sístole obstruiria a ejeção ventricular.', C: 'Essa é a descrição de bomba de fluxo axial transvalvar, como o Impella.', D: 'Essa é a descrição da oxigenação por membrana extracorpórea.' },
@@ -77,7 +77,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Suporte mecânico',
     e: 'Sobre o uso rotineiro do balão intra-aórtico no choque cardiogênico por infarto tratado com revascularização precoce, o estudo IABP-SHOCK II mostrou:',
-    o: ['Redução de 50% na mortalidade em 30 dias', 'Ausência de redução da mortalidade; hoje seu uso é reservado principalmente às complicações mecânicas do infarto', 'Aumento importante de acidente vascular cerebral, que proibiu o dispositivo', 'Superioridade em relação à angioplastia primária'],
+    o: ['Redução de 50% na mortalidade em 30 dias, em todos os pacientes', 'Sem redução de mortalidade; uso reservado a complicações mecânicas do infarto', 'Aumento importante de AVE, que levou à proibição do dispositivo', 'Superioridade em relação à angioplastia primária, em todos os desfechos'],
     g: 'B',
     c: 'O estudo não mostrou diferença de mortalidade em 30 dias, 12 meses ou 6 anos. Por isso as diretrizes não recomendam o uso rotineiro, mantendo indicação nas complicações mecânicas (insuficiência mitral aguda e comunicação interventricular) como ponte para a cirurgia.',
     x: { A: 'Não houve qualquer redução de mortalidade.', C: 'As taxas de complicações foram semelhantes entre os grupos.', D: 'O balão é suporte adjunto; não foi comparado à revascularização.' },
@@ -85,7 +85,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Complicações mecânicas do infarto',
     e: 'Mulher de 69 anos, no quarto dia de infarto de parede inferior, apresenta dispneia súbita, edema agudo de pulmão e hipotensão. Há sopro sistólico suave em foco mitral, sem frêmito. O ecocardiograma mostra ventrículo esquerdo hiperdinâmico. O diagnóstico mais provável é:',
-    o: ['Ruptura de parede livre com tamponamento', 'Ruptura de músculo papilar com insuficiência mitral aguda', 'Reinfarto com disfunção sistólica global', 'Aneurisma de ventrículo esquerdo'],
+    o: ['Ruptura de parede livre, com tamponamento cardíaco', 'Ruptura de músculo papilar, com IM aguda', 'Reinfarto, com disfunção sistólica global', 'Aneurisma de ventrículo esquerdo, com trombo mural'],
     g: 'B',
     c: 'O músculo papilar posteromedial tem irrigação única (descendente posterior) e é o que mais rompe, tipicamente em infarto inferior entre 2 e 7 dias. O átrio esquerdo não complacente recebe o refluxo abruptamente, gerando edema pulmonar súbito; o sopro pode ser discreto pela rápida equalização de pressões. O tratamento é cirúrgico, com redução de pós-carga como ponte.',
     x: { A: 'Causaria tamponamento, com pulmões limpos e atividade elétrica sem pulso.', C: 'Haveria hipocinesia, e não ventrículo hiperdinâmico.', D: 'O aneurisma é complicação tardia, sem edema pulmonar súbito.' },
@@ -93,7 +93,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Complicações mecânicas do infarto',
     e: 'Homem de 72 anos, no quinto dia de infarto anterior, evolui com choque e sopro holossistólico rude em borda esternal esquerda, com frêmito. O cateter de artéria pulmonar mostra saturação de 62% no átrio direito e de 84% na artéria pulmonar. O diagnóstico é:',
-    o: ['Insuficiência mitral aguda', 'Comunicação interventricular pós-infarto', 'Tromboembolismo pulmonar', 'Infarto de ventrículo direito'],
+    o: ['IM aguda, com sopro sistólico apical', 'CIV pós-infarto, com sopro holossistólico e salto oximétrico', 'TEP, com sobrecarga aguda do ventrículo direito', 'Infarto de VD, com turgência jugular e pulmões limpos'],
     g: 'B',
     c: 'A ruptura do septo cria shunt da esquerda para a direita: sangue oxigenado do ventrículo esquerdo passa ao direito, elevando a saturação entre o átrio direito e a artéria pulmonar (salto oximétrico). Sopro rude com frêmito é típico. Na insuficiência mitral aguda não há salto oximétrico, e sim onda v gigante na pressão de oclusão.',
     x: { A: 'Não produz salto oximétrico e raramente tem frêmito.', C: 'Não causa sopro holossistólico com frêmito nem aumento de saturação na artéria pulmonar.', D: 'Não gera shunt nem elevação da saturação na artéria pulmonar.' },
@@ -109,7 +109,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Tamponamento cardíaco',
     e: 'O pulso paradoxal, encontrado no tamponamento cardíaco, é definido como:',
-    o: ['Aumento da pressão sistólica durante a inspiração', 'Queda da pressão arterial sistólica maior que 10 mmHg durante a inspiração', 'Aumento da turgência jugular na inspiração', 'Alternância de batimentos fortes e fracos em ritmo regular'],
+    o: ['Aumento da PAS durante a inspiração, maior que 10 mmHg', 'Queda da PAS > 10 mmHg durante a inspiração', 'Aumento da turgência jugular na inspiração (Kussmaul)', 'Alternância de batimentos fortes e fracos em ritmo regular'],
     g: 'B',
     c: 'Na inspiração o retorno venoso ao ventrículo direito aumenta. Com o volume cardíaco total limitado pelo derrame, o septo se desloca para a esquerda (interdependência ventricular) e reduz o enchimento e o volume sistólico do ventrículo esquerdo. Também ocorre em asma grave e embolia pulmonar.',
     x: { A: 'O fenômeno é uma queda, e não um aumento, da pressão sistólica.', C: 'Essa é a descrição do sinal de Kussmaul, típico da pericardite constritiva.', D: 'Essa é a descrição do pulso alternante, da disfunção ventricular grave.' },
@@ -133,7 +133,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Tromboembolismo pulmonar de alto risco',
     e: 'Mulher de 46 anos, usuária de anticoncepcional combinado, apresenta dispneia súbita dois dias após viagem aérea de 12 horas. PA de 72 x 44 mmHg mantida por 30 minutos, FC de 128 bpm. A angiotomografia confirma trombos em ambas as artérias pulmonares principais. Não há contraindicação a fibrinolítico. A terapia de reperfusão de primeira linha é:',
-    o: ['Apenas heparina de baixo peso molecular', 'Trombólise sistêmica, com anticoagulação com heparina não fracionada', 'Filtro de veia cava inferior isolado', 'Anticoagulante oral direto e alta precoce'],
+    o: ['Apenas HBPM em dose plena, por via subcutânea, sem outras medidas', 'Trombólise sistêmica, com anticoagulação com heparina não fracionada', 'Filtro de veia cava inferior isolado, sem anticoagulação nem trombólise', 'ACOD e alta precoce, mesmo diante do quadro de choque obstrutivo'],
     g: 'B',
     c: 'Embolia pulmonar com instabilidade hemodinâmica (alto risco) tem mortalidade elevada por falência aguda do ventrículo direito. A trombólise sistêmica (por exemplo, alteplase 100 mg em 2 horas) é a terapia de reperfusão de primeira linha, pois reduz rapidamente a pós-carga do ventrículo direito. Havendo contraindicação absoluta ou falha, indica-se embolectomia cirúrgica ou por cateter.',
     x: { A: 'Anticoagulação isolada é insuficiente quando há choque.', C: 'O filtro não desobstrui a circulação pulmonar.', D: 'Conduta reservada à embolia de baixo risco.' },
@@ -141,7 +141,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Tromboembolismo pulmonar de alto risco',
     e: 'Homem de 67 anos, com câncer de pâncreas, apresenta síncope, PA de 68 x 40 mmHg e saturação de 84%. Está instável demais para transporte à tomografia. O exame à beira do leito mais útil para sustentar a decisão terapêutica imediata é:',
-    o: ['Dosagem de D-dímero', 'Ecocardiograma transtorácico em busca de sobrecarga aguda do ventrículo direito', 'Cintilografia de ventilação e perfusão', 'Radiografia de tórax'],
+    o: ['Dosagem de D-dímero, que não define a conduta no instável', 'Ecocardiograma transtorácico: sobrecarga aguda do VD', 'Cintilografia V/Q, que é demorada no instável', 'Radiografia de tórax, que é pouco específica no TEP'],
     g: 'B',
     c: 'Na suspeita de embolia de alto risco sem condição de tomografia, o algoritmo da diretriz europeia indica ecocardiograma à beira do leito. Ventrículo direito dilatado e hipocinético, com septo retificado, em paciente chocado e com alta probabilidade clínica autoriza a reperfusão. Ventrículo direito normal praticamente exclui embolia como causa do choque.',
     x: { A: 'O D-dímero é inespecífico em oncológicos e não se aplica à alta probabilidade.', C: 'Exige transporte e tempo incompatíveis com a instabilidade.', D: 'A radiografia é inespecífica e não confirma o diagnóstico.' },
@@ -149,7 +149,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Suporte circulatório extracorpóreo',
     e: 'Paciente de 38 anos, com miocardite fulminante, mantém choque cardiogênico refratário a doses altas de inotrópico e vasopressor, com hipoxemia grave por edema pulmonar. O dispositivo capaz de oferecer suporte circulatório e respiratório completo como ponte para recuperação ou transplante é:',
-    o: ['Oxigenação por membrana extracorpórea venovenosa', 'Oxigenação por membrana extracorpórea venoarterial', 'Marca-passo transvenoso', 'Ventilação não invasiva'],
+    o: ['ECMO venovenosa, que não dá suporte circulatório', 'ECMO venoarterial, que dá suporte circulatório e respiratório', 'Marca-passo transvenoso, que não trata a falência de bomba', 'Ventilação não invasiva, que não trata a falência de bomba'],
     g: 'B',
     c: 'Na configuração venoarterial o sangue é drenado do sistema venoso, oxigenado e devolvido ao sistema arterial, substituindo coração e pulmão. É a opção no choque cardiogênico refratário. Seu inconveniente é aumentar a pós-carga do ventrículo esquerdo, que pode precisar de descompressão.',
     x: { A: 'A configuração venovenosa oferece apenas suporte respiratório, sem suporte circulatório.', C: 'O marca-passo trata bradiarritmias e não substitui a função de bomba.', D: 'Não oferece suporte circulatório e é inadequada no choque refratário.' },
@@ -157,7 +157,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Pneumotórax hipertensivo',
     e: 'Homem de 31 anos, vítima de colisão de motocicleta, chega com dispneia intensa, PA de 70 x 40 mmHg, turgência jugular, desvio da traqueia para a esquerda, murmúrio abolido e hipertimpanismo à direita. A conduta imediata é:',
-    o: ['Radiografia de tórax para confirmação', 'Descompressão torácica imediata, seguida de drenagem em selo de água', 'Tomografia de tórax', 'Pericardiocentese'],
+    o: ['Radiografia de tórax para confirmação, antes de agir', 'Descompressão torácica imediata e drenagem em selo de água', 'Tomografia de tórax, antes de qualquer medida', 'Pericardiocentese, para tamponamento cardíaco'],
     g: 'B',
     c: 'O diagnóstico de pneumotórax hipertensivo é clínico e o tratamento não deve aguardar imagem. O ar aprisionado sob pressão desvia o mediastino e angula as veias cavas, reduzindo o retorno venoso. Para a descompressão no adulto, o ATLS 10 passou a sugerir o quinto espaço intercostal entre as linhas axilar anterior e média; a referência tradicional é o segundo espaço na linha hemiclavicular.',
     x: { A: 'Aguardar radiografia atrasa um tratamento que salva a vida.', C: 'O paciente instável não deve ser levado à tomografia.', D: 'A ausculta assimétrica e o hipertimpanismo apontam para o pulmão, não para o pericárdio.' },
@@ -165,7 +165,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Anafilaxia',
     e: 'Mulher de 24 anos, dez minutos após receber ceftriaxona, apresenta urticária generalizada, edema de lábios, sibilos e PA de 78 x 42 mmHg. A primeira medicação a ser administrada é:',
-    o: ['Difenidramina ou prometazina intramuscular', 'Adrenalina intramuscular na face anterolateral da coxa, 0,3 a 0,5 mg da solução 1 mg/mL', 'Hidrocortisona intravenosa', 'Adrenalina subcutânea no braço'],
+    o: ['Difenidramina ou prometazina intramuscular, como primeira escolha', 'Adrenalina IM na coxa anterolateral, 0,3-0,5 mg (1 mg/mL)', 'Hidrocortisona intravenosa, como primeira escolha', 'Adrenalina subcutânea no braço, como primeira escolha'],
     g: 'B',
     c: 'A adrenalina é o único fármaco que reverte todos os mecanismos da anafilaxia: efeito alfa-1 (vasoconstrição e redução do edema), beta-1 (inotropismo), beta-2 (broncodilatação) e estabilização de mastócitos. A via intramuscular no vasto lateral atinge pico plasmático mais rápido que a subcutânea. A dose é de 0,01 mg/kg, repetida a cada 5 a 15 minutos se necessário.',
     x: { A: 'Anti-histamínico alivia sintomas cutâneos, mas não trata choque nem broncoespasmo.', C: 'O corticoide tem início de ação em horas e é apenas adjuvante.', D: 'A absorção subcutânea é lenta e errática, sobretudo em hipotensão.' },
@@ -181,7 +181,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Anafilaxia',
     e: 'Criança de 9 anos teve anafilaxia por amendoim, com hipotensão, e melhorou completamente após duas doses de adrenalina. A família pede alta imediata. A orientação correta é:',
-    o: ['Alta imediata, pois houve resolução completa', 'Manter em observação por algumas horas, pelo risco de reação bifásica, e dar alta com plano de ação e prescrição de adrenalina autoinjetável', 'Internar por 7 dias com corticoide intravenoso', 'Alta apenas com anti-histamínico, sem outras orientações'],
+    o: ['Alta imediata, pois houve resolução completa dos sintomas e dos sinais', 'Observar por horas (reação bifásica); alta com plano de ação e adrenalina autoinjetável', 'Internar por 7 dias com corticoide intravenoso, para evitar recidiva', 'Alta apenas com anti-histamínico, sem outras orientações ou prescrições'],
     g: 'B',
     c: 'A reação bifásica é a recorrência dos sintomas sem nova exposição, em geral nas primeiras 8 a 12 horas, mas possível até 72 horas. É mais provável em quadros graves ou que exigiram mais de uma dose de adrenalina. Recomenda-se observação de pelo menos 4 a 6 horas, prolongada nos casos graves; o corticoide não previne de forma comprovada.',
     x: { A: 'A melhora inicial não exclui recorrência nas horas seguintes.', C: 'Internação prolongada não é necessária e o corticoide não previne com segurança.', D: 'Falta a orientação sobre adrenalina, único tratamento eficaz de uma recorrência.' },
@@ -189,7 +189,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Choque neurogênico',
     e: 'Homem de 25 anos, após mergulho em água rasa, apresenta tetraplegia, PA de 76 x 40 mmHg, FC de 48 bpm, pele quente e seca e ausência de sinais de sangramento. O mecanismo do choque é:',
-    o: ['Perda de volume intravascular', 'Perda do tônus simpático por lesão medular acima de T6, com vasodilatação e predomínio vagal', 'Depressão miocárdica por contusão cardíaca', 'Liberação maciça de histamina'],
+    o: ['Perda de volume intravascular, por hemorragia oculta torácica ou abdominal', 'Perda do tônus simpático (lesão acima de T6), com vasodilatação e predomínio vagal', 'Depressão miocárdica por contusão cardíaca, com baixo débito cardíaco', 'Liberação maciça de histamina por mastócitos, com vasodilatação sistêmica'],
     g: 'B',
     c: 'A lesão cervical ou torácica alta interrompe as vias simpáticas descendentes. Perde-se o tônus vasomotor (vasodilatação com pele quente) e a inervação simpática cardíaca de T1 a T4, restando o vago sem oposição. Por isso é o choque em que a hipotensão vem com bradicardia.',
     x: { A: 'A hemorragia causa taquicardia e pele fria.', C: 'A contusão cardíaca não explica bradicardia com vasodilatação e tetraplegia.', D: 'A anafilaxia cursa com taquicardia, urticária e broncoespasmo.' },
@@ -197,7 +197,7 @@ export const CHOQUE_3: QuestaoCompacta[] = [
   {
     s: 'Choque neurogênico',
     e: 'Mulher de 33 anos, com fratura-luxação de C6 após capotamento, está com PA de 78 x 42 mmHg e FC de 52 bpm. FAST, radiografia de tórax e de pelve são normais. Recebeu 1 litro de cristaloide sem melhora. A conduta é:',
-    o: ['Infundir mais 4 litros de cristaloide em bolus', 'Iniciar vasopressor, como a noradrenalina, e usar atropina se houver bradicardia com repercussão', 'Laparotomia exploradora imediata', 'Metilprednisolona em dose alta como tratamento do choque'],
+    o: ['Infundir mais 4 litros de cristaloide em bolus, para corrigir a hipotensão', 'Vasopressor (noradrenalina) e atropina se houver bradicardia com repercussão', 'Laparotomia exploradora imediata, por suspeita de hemorragia abdominal', 'Metilprednisolona em dose alta como tratamento do choque neurogênico'],
     g: 'B',
     c: 'No trauma, hipotensão é hemorragia até prova em contrário; excluída essa causa, o choque neurogênico é tratado com reposição volêmica criteriosa e vasopressor, pois o defeito é a vasodilatação. Volume em excesso causa edema pulmonar e piora o edema medular. A noradrenalina oferece efeito alfa e beta; a atropina trata a bradicardia sintomática.',
     x: { A: 'O problema é perda de tônus vascular; o excesso de fluido só gera sobrecarga.', C: 'Não há evidência de sangramento abdominal para indicar cirurgia.', D: 'O corticoide não trata o choque e não é recomendado de rotina no trauma raquimedular.' },
