@@ -5,7 +5,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome hepatorrenal',
     e: 'A síndrome hepatorrenal é mais bem caracterizada como:',
-    o: ['Necrose tubular aguda induzida por sais biliares', 'Insuficiência renal funcional por vasoconstrição renal intensa, em rim estruturalmente normal', 'Glomerulonefrite por imunocomplexos associada a vírus hepatotrópicos', 'Nefropatia obstrutiva por compressão dos ureteres pela ascite tensa'],
+    o: ['Necrose tubular aguda induzida por sais biliares, com lesão estrutural', 'Insuficiência renal funcional por vasoconstrição renal intensa, em rim estruturalmente normal', 'Glomerulonefrite por imunocomplexos, associada aos vírus hepatotrópicos', 'Nefropatia obstrutiva por compressão dos ureteres pela ascite tensa'],
     g: 'B',
     c: 'A vasodilatação esplâncnica extrema reduz o volume arterial efetivo e ativa ao máximo os sistemas vasoconstritores, que contraem as artérias renais e derrubam a filtração glomerular. O rim é histologicamente normal, tanto que recupera a função após o transplante hepático. A inflamação sistêmica também participa da fisiopatologia.',
     x: { A: 'Não há lesão tubular estrutural, e o sedimento urinário é inocente.', C: 'Glomerulonefrite teria proteinúria e hematúria, que excluem a síndrome hepatorrenal.', D: 'A ultrassonografia é normal, sem hidronefrose, na síndrome hepatorrenal.' },
@@ -13,7 +13,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Lesão renal aguda no cirrótico',
     e: 'Pelos critérios do International Club of Ascites, a lesão renal aguda no paciente com cirrose é definida por:',
-    o: ['Creatinina sérica acima de 1,5 mg/dL em qualquer momento', 'Aumento da creatinina de 0,3 mg/dL ou mais em 48 horas, ou de 50% ou mais em relação ao basal em 7 dias', 'Débito urinário menor que 400 mL em 24 horas, independentemente da creatinina', 'Queda da taxa de filtração estimada para menos de 60 mL/min por 3 meses'],
+    o: ['Creatinina sérica acima de 1,5 mg/dL em qualquer momento', 'Aumento da creatinina ≥ 0,3 mg/dL em 48 h, ou ≥ 50% em relação ao basal em 7 dias', 'Débito urinário < 400 mL em 24 horas, independentemente da creatinina', 'Queda da TFG estimada para menos de 60 mL/min por 3 meses'],
     g: 'B',
     c: 'O valor fixo de 1,5 mg/dL foi abandonado porque o cirrótico tem pouca massa muscular e produz pouca creatinina, de modo que valores aparentemente normais já podem representar grande perda de função. A definição atual é dinâmica, baseada na variação da creatinina, o que permite diagnóstico e tratamento mais precoces.',
     x: { A: 'O ponto de corte fixo subestima a disfunção renal no cirrótico sarcopênico.', C: 'O débito urinário isolado é pouco confiável no cirrótico com ascite, que costuma ser oligúrico.', D: 'Esse critério define doença renal crônica, e não lesão renal aguda.' },
@@ -21,7 +21,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Lesão renal aguda no cirrótico',
     e: 'Homem de 62 anos, cirrótico com ascite, em uso de furosemida, espironolactona e propranolol, é internado com creatinina de 2,1 mg/dL (basal de 0,9 mg/dL). PA de 92 x 58 mmHg. Não há sangramento. A abordagem inicial correta é:',
-    o: ['Iniciar terlipressina imediatamente', 'Suspender diuréticos e drogas nefrotóxicas, rever o betabloqueador, rastrear infecção e expandir a volemia com albumina', 'Indicar hemodiálise de urgência', 'Manter os diuréticos e associar anti-inflamatório para a dor'],
+    o: ['Iniciar terlipressina imediatamente, antes de qualquer outra medida de suporte', 'Suspender diuréticos e nefrotóxicos, rever o betabloqueador, rastrear infecção e dar albumina', 'Indicar hemodiálise de urgência, antes de qualquer outra medida de suporte', 'Manter os diuréticos e associar anti-inflamatório para controle da dor abdominal'],
     g: 'B',
     c: 'A maioria das lesões renais agudas no cirrótico é pré-renal por hipovolemia ou é desencadeada por infecção. O primeiro passo é remover fatores precipitantes, fazer paracentese diagnóstica e culturas, e expandir com albumina 1 g/kg ao dia. Só a ausência de resposta a essas medidas, com exclusão de outras causas, caracteriza a síndrome hepatorrenal.',
     x: { A: 'O vasoconstritor é reservado para quando a síndrome hepatorrenal estiver caracterizada.', C: 'A diálise não é medida inicial e só serve de ponte em casos selecionados.', D: 'Manter diurético e usar anti-inflamatório agravam a hipoperfusão renal.' },
@@ -45,7 +45,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome hepatorrenal',
     e: 'Qual achado laboratorial é esperado na síndrome hepatorrenal e ajuda a diferenciá-la da necrose tubular aguda?',
-    o: ['Cilindros granulosos pigmentados no sedimento urinário', 'Sódio urinário muito baixo, com fração de excreção de sódio reduzida', 'Osmolaridade urinária igual à plasmática', 'Fração de excreção de sódio acima de 2%'],
+    o: ['Cilindros granulosos pigmentados no sedimento urinário', 'Sódio urinário muito baixo, com FENa reduzida', 'Osmolaridade urinária igual à plasmática', 'FENa acima de 2%'],
     g: 'B',
     c: 'Como os túbulos estão íntegros e o rim está intensamente estimulado pela aldosterona, a reabsorção de sódio é máxima e a urina sai concentrada e quase sem sódio. Na necrose tubular a função de reabsorção se perde, com sódio urinário alto, urina isosmótica e cilindros granulosos.',
     x: { A: 'Cilindros granulosos indicam lesão tubular, típica da necrose tubular aguda.', C: 'A urina isosmótica reflete perda da capacidade de concentração, vista na necrose tubular.', D: 'Fração de excreção alta indica dano tubular, o oposto do esperado na síndrome hepatorrenal.' },
@@ -53,7 +53,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome hepatorrenal',
     e: 'O principal fator precipitante da síndrome hepatorrenal, cuja prevenção inclui o uso de albumina, é:',
-    o: ['Uso de lactulose', 'Peritonite bacteriana espontânea', 'Hepatocarcinoma pequeno', 'Uso de rifaximina'],
+    o: ['Uso de lactulose, que é terapia da encefalopatia', 'Peritonite bacteriana espontânea', 'Hepatocarcinoma pequeno, que raramente precipita a SHR', 'Uso de rifaximina, que é terapia da encefalopatia'],
     g: 'B',
     c: 'A infecção bacteriana, principalmente a peritonite bacteriana espontânea, é o gatilho mais comum, pois a resposta inflamatória agrava a vasodilatação e a disfunção circulatória. Outros precipitantes são a paracentese volumosa sem albumina, a hemorragia digestiva e a hepatite alcoólica.',
     x: { A: 'A lactulose só prejudica o rim se causar diarreia intensa com desidratação.', C: 'Um tumor pequeno, por si, não altera a hemodinâmica renal.', D: 'A rifaximina não é nefrotóxica e não precipita a síndrome.' },
@@ -61,7 +61,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Terlipressina',
     e: 'Em relação ao uso da terlipressina na síndrome hepatorrenal, assinale a alternativa correta.',
-    o: ['Dispensa a associação com albumina', 'Pode causar eventos isquêmicos e sobrecarga volêmica com insuficiência respiratória, exigindo cautela em cardiopatas e em pacientes hipoxêmicos', 'É contraindicada quando a pressão arterial média está baixa', 'Deve ser mantida por tempo indeterminado mesmo sem resposta'],
+    o: ['Dispensa a associação com albumina, que é opcional na síndrome hepatorrenal', 'Pode causar eventos isquêmicos e sobrecarga volêmica; cautela em cardiopatas e hipoxêmicos', 'É contraindicada quando a pressão arterial média está baixa, em qualquer situação', 'Deve ser mantida por tempo indeterminado, mesmo sem resposta ao tratamento'],
     g: 'B',
     c: 'A terlipressina é análogo da vasopressina com ação em receptores V1, e a vasoconstrição pode provocar isquemia miocárdica, mesentérica ou de extremidades. A associação com albumina e o aumento da pós-carga favorecem congestão pulmonar e insuficiência respiratória, o que exige vigilância da oxigenação e suspensão na ausência de resposta.',
     x: { A: 'A albumina é parte do esquema e aumenta a taxa de reversão da síndrome.', C: 'A pressão baixa é justamente o contexto em que o vasoconstritor traz benefício.', D: 'Sem resposta após alguns dias de dose otimizada, a droga deve ser suspensa.' },
@@ -77,7 +77,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Encefalopatia hepática',
     e: 'A manifestação mais precoce da encefalopatia hepática clinicamente aparente (grau I de West Haven) costuma ser:',
-    o: ['Flapping exuberante', 'Inversão do ciclo sono-vigília e redução da atenção', 'Desorientação quanto a pessoas', 'Postura de descerebração'],
+    o: ['Flapping exuberante, que é da fase avançada', 'Inversão do ciclo sono-vigília e redução da atenção', 'Desorientação quanto a pessoas, que é da fase avançada', 'Postura de descerebração, que é da fase terminal'],
     g: 'B',
     c: 'As primeiras alterações são sutis: sonolência diurna com insônia noturna, euforia ou ansiedade e menor capacidade de atenção e de cálculo. A orientação está preservada. Antes disso existe a forma mínima, detectável apenas por testes psicométricos, que já prejudica a condução de veículos e a qualidade de vida.',
     x: { A: 'O flapping torna-se evidente tipicamente a partir do grau II.', C: 'Desorientação grosseira é característica do grau III.', D: 'Posturas patológicas aparecem no coma, grau IV.' },
@@ -85,7 +85,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Encefalopatia hepática',
     e: 'A encefalopatia hepática é classificada em tipos A, B e C conforme a doença de base. O tipo B corresponde a:',
-    o: ['Insuficiência hepática aguda', 'Derivação portossistêmica sem doença hepatocelular intrínseca', 'Cirrose com hipertensão portal', 'Encefalopatia induzida por benzodiazepínicos'],
+    o: ['Insuficiência hepática aguda (tipo A), sem cirrose prévia', 'Derivação portossistêmica sem doença hepatocelular intrínseca (tipo B)', 'Cirrose com hipertensão portal (tipo C), com disfunção hepatocelular', 'Encefalopatia induzida por benzodiazepínicos, que é de causa tóxica'],
     g: 'B',
     c: 'O tipo A ocorre na insuficiência hepática aguda e associa-se a edema cerebral; o tipo B decorre de shunt portossistêmico com fígado normal, de bypass; o tipo C é o da cirrose. Em todos, substâncias neurotóxicas de origem intestinal, sobretudo a amônia, escapam da depuração hepática e alcançam o sistema nervoso central.',
     x: { A: 'A insuficiência hepática aguda corresponde ao tipo A.', C: 'A cirrose com hipertensão portal corresponde ao tipo C.', D: 'Sedativos são fatores precipitantes, e não um tipo da classificação.' },
@@ -101,7 +101,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Precipitantes da encefalopatia',
     e: 'Paciente cirrótico em uso de furosemida em dose alta desenvolve encefalopatia hepática. Potássio de 2,9 mEq/L e bicarbonato de 33 mEq/L. O mecanismo que explica a relação entre o distúrbio eletrolítico e a encefalopatia é:',
-    o: ['A hipocalemia reduz a absorção intestinal de lactulose', 'A hipocalemia aumenta a produção renal de amônia, e a alcalose favorece sua passagem para o sistema nervoso central', 'A hipocalemia inibe diretamente o ciclo da ureia nos hepatócitos remanescentes', 'A alcalose reduz a produção de amônia pelas bactérias colônicas'],
+    o: ['A hipocalemia reduz a absorção intestinal de lactulose', 'Hipocalemia ↑ produção renal de amônia; a alcalose favorece sua passagem ao SNC', 'A hipocalemia inibe diretamente o ciclo da ureia nos hepatócitos', 'A alcalose reduz a produção de amônia pelas bactérias colônicas'],
     g: 'B',
     c: 'Na hipocalemia o potássio sai das células tubulares em troca de hidrogênio, e a acidose intracelular estimula a amoniogênese renal. A alcalose metabólica associada desloca o equilíbrio para a amônia não ionizada, lipossolúvel, que cruza a barreira hematoencefálica. A correção do potássio e a suspensão do diurético fazem parte do tratamento.',
     x: { A: 'A lactulose não é absorvida, e sua ação não depende do potássio.', C: 'O efeito principal da hipocalemia é renal, pelo aumento da amoniogênese.', D: 'A alcalose não reduz a produção bacteriana e ainda facilita a difusão da amônia.' },
@@ -109,7 +109,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico da encefalopatia',
     e: 'Sobre o diagnóstico da encefalopatia hepática no cirrótico, é correto afirmar:',
-    o: ['Exige dosagem de amônia arterial elevada para confirmação', 'É clínico e de exclusão, e a dosagem de amônia não é necessária, embora um valor normal torne o diagnóstico improvável', 'Depende de eletroencefalograma com ondas trifásicas', 'É confirmado por tomografia de crânio com edema cerebral difuso'],
+    o: ['Exige dosagem de amônia arterial elevada para a confirmação diagnóstica', 'Clínico e de exclusão; amônia dispensável (valor normal torna o diagnóstico improvável)', 'Depende de eletroencefalograma com ondas trifásicas para a confirmação', 'É confirmado por tomografia de crânio com edema cerebral difuso'],
     g: 'B',
     c: 'O diagnóstico baseia-se no quadro neuropsiquiátrico compatível em paciente com insuficiência hepática ou shunt, afastadas outras causas. A amônia não se correlaciona bem com o grau da encefalopatia e não orienta o tratamento, mas tem bom valor preditivo negativo. Exames de imagem servem para excluir diagnósticos alternativos.',
     x: { A: 'A amônia elevada é inespecífica e não é exigida para o diagnóstico.', C: 'As ondas trifásicas são inespecíficas, e o eletroencefalograma não é necessário.', D: 'A tomografia é usada para excluir outras causas, como hematoma subdural.' },
@@ -117,7 +117,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Tratamento da encefalopatia',
     e: 'Mulher de 63 anos, cirrótica com ascite, é internada com encefalopatia hepática grau III, sem causa aparente à anamnese. Além de proteger a via aérea e iniciar lactulose, qual medida é indispensável?',
-    o: ['Dieta zero de proteínas por 7 dias', 'Busca ativa de fatores precipitantes, incluindo paracentese diagnóstica', 'Flumazenil de rotina', 'Hemodiálise para remoção de amônia'],
+    o: ['Dieta zero de proteínas por 7 dias, durante a internação', 'Busca ativa de fatores precipitantes, inclusive paracentese diagnóstica', 'Flumazenil de rotina, em todos os pacientes, por via venosa', 'Hemodiálise para remoção de amônia, de rotina, em todos os casos'],
     g: 'B',
     c: 'A grande maioria dos episódios tem um precipitante identificável, e sua correção é a parte mais importante do tratamento. A investigação inclui toque retal e pesquisa de sangramento, eletrólitos, função renal, revisão de medicamentos e rastreio de infecção com culturas e paracentese, pois a peritonite pode se manifestar apenas com encefalopatia.',
     x: { A: 'A restrição proteica agrava a sarcopenia, e o músculo é importante na depuração de amônia.', C: 'O flumazenil só tem papel quando houve uso de benzodiazepínico.', D: 'A diálise não é tratamento da encefalopatia hepática da cirrose.' },
@@ -125,7 +125,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Lactulose',
     e: 'A lactulose reduz a amônia sérica principalmente porque:',
-    o: ['É absorvida no delgado e estimula o ciclo da ureia', 'É fermentada no cólon, acidifica a luz intestinal, converte amônia em amônio não absorvível e tem efeito catártico', 'Elimina diretamente as bactérias produtoras de urease', 'Liga-se à amônia no plasma e promove sua excreção renal'],
+    o: ['É absorvida no intestino delgado e estimula o ciclo da ureia no fígado', 'É fermentada no cólon: acidifica a luz, converte amônia em amônio, efeito catártico', 'Elimina diretamente as bactérias produtoras de urease do cólon do paciente', 'Liga-se à amônia no plasma e promove a sua excreção renal em grande volume'],
     g: 'B',
     c: 'A lactulose é um dissacarídeo não absorvível, metabolizado pelas bactérias colônicas em ácidos orgânicos. O pH baixo converte a amônia em íon amônio, que fica retido na luz, e o efeito osmótico acelera o trânsito. A dose é ajustada para duas a três evacuações pastosas por dia; diarreia excessiva causa desidratação e piora o quadro.',
     x: { A: 'A lactulose não é absorvida e não atua no metabolismo hepático.', C: 'A redução de bactérias é o mecanismo dos antibióticos, como a rifaximina.', D: 'A droga age na luz intestinal, e não no plasma ou no rim.' },
@@ -141,7 +141,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Nutrição na encefalopatia',
     e: 'A orientação nutricional correta para o paciente cirrótico com encefalopatia hepática é:',
-    o: ['Restrição proteica rigorosa por tempo indeterminado', 'Aporte proteico de 1,2 a 1,5 g/kg/dia, com refeições fracionadas e lanche noturno', 'Jejum prolongado para reduzir a produção de amônia', 'Dieta exclusivamente com proteínas de origem animal'],
+    o: ['Restrição proteica rigorosa por tempo indeterminado', 'Proteína 1,2 a 1,5 g/kg/dia, refeições fracionadas e lanche noturno', 'Jejum prolongado para reduzir a produção de amônia', 'Dieta exclusivamente com proteínas de origem animal'],
     g: 'B',
     c: 'O músculo esquelético depura amônia pela síntese de glutamina, e a sarcopenia piora a encefalopatia e a sobrevida. O cirrótico entra rapidamente em catabolismo durante o jejum, por ter pouco glicogênio; por isso recomenda-se aporte proteico normal a alto, refeições frequentes e lanche noturno. Proteínas vegetais e lácteas costumam ser mais bem toleradas.',
     x: { A: 'A restrição proteica crônica leva à desnutrição e não é mais recomendada.', C: 'O jejum induz catabolismo muscular e aumenta a produção de amônia.', D: 'Proteínas vegetais e lácteas são as mais bem toleradas, não as animais exclusivas.' },
@@ -149,7 +149,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia dilucional',
     e: 'Homem de 59 anos, cirrótico com ascite volumosa e edema, em uso de diuréticos, apresenta sódio sérico de 121 mEq/L, sem sintomas neurológicos. A conduta mais adequada é:',
-    o: ['Solução salina hipertônica a 3% para correção em 12 horas', 'Suspender os diuréticos, instituir restrição hídrica e evitar correção rápida do sódio', 'Aumentar a ingestão de sal na dieta', 'Aumentar a dose de furosemida para eliminar água livre'],
+    o: ['Salina hipertônica a 3% para correção em 12 horas, de rotina', 'Suspender os diuréticos, restringir água e evitar a correção rápida do sódio', 'Aumentar a ingestão de sal na dieta, para corrigir a hiponatremia', 'Aumentar a dose de furosemida para eliminar a água livre retida'],
     g: 'B',
     c: 'A hiponatremia do cirrótico é hipervolêmica: o sódio corporal total está aumentado, mas a secreção não osmótica de hormônio antidiurético retém água em excesso. Trata-se com restrição hídrica e suspensão de diuréticos, podendo-se usar albumina. A correção rápida arrisca desmielinização osmótica, e a salina hipertônica fica para casos sintomáticos graves.',
     x: { A: 'A correção rápida no paciente assintomático pode causar mielinólise e piora a ascite.', C: 'Há excesso de sódio corporal, e mais sal agrava ascite e edema.', D: 'Diuréticos pioram a hiponatremia nesse nível de sódio e devem ser suspensos.' },
@@ -173,7 +173,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'TIPS',
     e: 'Do ponto de vista hemodinâmico, o TIPS equivale a qual tipo de derivação cirúrgica?',
-    o: ['Derivação seletiva, como a esplenorrenal distal', 'Derivação não seletiva latero-lateral, que descomprime a porta e os sinusoides', 'Desconexão ázigo-portal', 'Derivação portocava término-lateral, que não alivia os sinusoides'],
+    o: ['Derivação seletiva, como a esplenorrenal distal', 'Derivação não seletiva latero-lateral: descomprime a porta e os sinusoides', 'Desconexão ázigo-portal, sem derivação do fluxo', 'Derivação portocava término-lateral, que não alivia os sinusoides'],
     g: 'B',
     c: 'O TIPS conecta um ramo da veia porta a uma veia hepática através do parênquima, com prótese recoberta. Funciona como derivação latero-lateral: reduz a pressão portal e também a sinusoidal, tratando tanto o sangramento varicoso quanto a ascite refratária, sem cirurgia e sem dificultar o transplante.',
     x: { A: 'O TIPS desvia o fluxo portal como um todo, sem seletividade de território.', C: 'A desconexão não cria derivação nem reduz a pressão portal.', D: 'A derivação término-lateral não descomprime o sinusoide e não trata a ascite.' },
@@ -189,7 +189,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'TIPS',
     e: 'Homem de 57 anos, cirrótico, foi submetido a TIPS por ascite refratária há 3 semanas. A família relata sonolência diurna, confusão e lentificação progressivas. Não há febre, sangramento ou distúrbio eletrolítico. A complicação mais provável é:',
-    o: ['Trombose aguda da prótese', 'Encefalopatia hepática pelo desvio do sangue portal', 'Síndrome hepatopulmonar', 'Peritonite bacteriana espontânea'],
+    o: ['Trombose aguda da prótese, em semanas', 'Encefalopatia hepática pelo desvio do sangue portal', 'Síndrome hepatopulmonar, com hipoxemia', 'Peritonite bacteriana espontânea, com ascite infectada'],
     g: 'B',
     c: 'A encefalopatia é a complicação mais frequente do TIPS, pois o sangue portal rico em amônia passa a contornar os hepatócitos. Costuma surgir nas primeiras semanas e responde, na maioria dos casos, a lactulose e rifaximina; nos casos refratários pode-se reduzir o calibre da prótese ou ocluí-la.',
     x: { A: 'A disfunção da prótese manifesta-se por retorno da ascite ou do sangramento.', C: 'A síndrome hepatopulmonar causa hipoxemia postural, não confusão mental.', D: 'Não há febre nem dor, e o início após o TIPS aponta para o efeito do shunt.' },
@@ -197,7 +197,7 @@ export const HIP_PORTAL_4: QuestaoCompacta[] = [
   {
     s: 'Cuidados com betabloqueador',
     e: 'Paciente cirrótico com ascite refratária usa propranolol para profilaxia de sangramento varicoso. Em consulta, apresenta PA sistólica de 84 mmHg, sódio de 123 mEq/L e creatinina em elevação. A conduta em relação ao betabloqueador é:',
-    o: ['Manter a dose, pois a suspensão aumenta o risco de sangramento', 'Reduzir a dose ou suspender temporariamente, reintroduzindo após a recuperação hemodinâmica', 'Trocar por atenolol, que não causa hipotensão', 'Aumentar a dose para atingir frequência cardíaca de 55 bpm'],
+    o: ['Manter a dose, pois a suspensão aumenta o risco de sangramento', 'Reduzir a dose ou suspender temporariamente; reintroduzir após recuperação hemodinâmica', 'Trocar por atenolol, que não causa hipotensão arterial no cirrótico', 'Aumentar a dose para atingir a frequência cardíaca de 55 bpm'],
     g: 'B',
     c: 'Na cirrose avançada o débito cardíaco é o que sustenta a perfusão renal diante da vasodilatação intensa. O betabloqueador limita essa reserva e pode precipitar lesão renal. Baveno VII recomenda reduzir ou suspender se a pressão sistólica ficar abaixo de 90 mmHg, se houver hiponatremia importante ou lesão renal aguda; se não puder ser reintroduzido, faz-se ligadura elástica.',
     x: { A: 'Manter a droga com hipotensão e piora renal aumenta a mortalidade.', C: 'O atenolol é cardiosseletivo e não reduz a pressão portal de forma adequada.', D: 'Aumentar a dose agravaria a hipotensão e a hipoperfusão renal.' },

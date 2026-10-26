@@ -165,7 +165,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Diálise de urgência',
     e: 'É indicação de diálise de urgência na lesão renal aguda:',
-    o: ['Hipercalemia refratária, acidose grave, hipervolemia refratária, pericardite ou encefalopatia', 'Creatinina de 2 mg/dL, de forma isolada, sem complicações metabólicas associadas', 'Ureia de 80 mg/dL, de forma isolada, sem complicações metabólicas associadas', 'Diurese preservada, sem complicações metabólicas ou volêmicas, e com bom estado geral'],
+    o: ['Hipercalemia refratária, acidose grave, hipervolemia refratária, pericardite, encefalopatia', 'Creatinina de 2 mg/dL, de forma isolada, sem complicações metabólicas associadas', 'Ureia de 80 mg/dL, de forma isolada, sem complicações metabólicas associadas', 'Diurese preservada, sem complicações metabólicas ou volêmicas, com bom estado geral'],
     g: 'A',
     c: 'Mnemônico AEIOU: acidose, eletrólitos, intoxicações, overload, uremia. Referência: Kidney Disease: Improving Global Outcomes (KDIGO). Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138.',
     x: { B: 'Não isoladamente.', C: 'Não isoladamente.', D: 'Sem indicação.' },

@@ -5,7 +5,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Medida da pressão arterial',
     e: 'Homem de 48 anos, obeso, com circunferência do braço de 40 cm, tem a pressão aferida com manguito de adulto padrão: 158 x 98 mmHg. Sobre a influência do manguito nessa medida, é correto afirmar:',
-    o: ['Manguito pequeno para o braço subestima a pressão arterial', 'Manguito pequeno para o braço superestima a pressão arterial; a bolsa deve ter largura de cerca de 40% e comprimento de cerca de 80% da circunferência do braço', 'O tamanho do manguito só interfere nos aparelhos oscilométricos', 'A bolsa inflável deve cobrir no máximo 40% da circunferência do braço em comprimento'],
+    o: ['Manguito pequeno para o braço subestima a pressão arterial do paciente', 'Manguito pequeno superestima a PA; a bolsa deve ter ~40% da largura e ~80% do comprimento do braço', 'O tamanho do manguito só interfere nos aparelhos oscilométricos digitais', 'A bolsa inflável deve cobrir no máximo 40% da circunferência do braço'],
     g: 'B',
     c: 'Quando a bolsa é estreita ou curta para o braço, é necessária pressão maior para ocluir a artéria braquial, o que superestima a medida e pode gerar falso diagnóstico de hipertensão em obesos. A bolsa adequada tem largura próxima de 40% e comprimento de 80% a 100% da circunferência do braço.',
     x: { A: 'É o inverso: quem subestima a pressão é o manguito grande demais para o braço.', C: 'O erro ocorre tanto na técnica auscultatória quanto na oscilométrica.', D: 'O comprimento da bolsa deve envolver pelo menos 80% do braço; 40% refere-se à largura.' },
@@ -21,7 +21,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico',
     e: 'Mulher de 42 anos, assintomática, sem comorbidades, apresenta pressão de 148 x 94 mmHg (média de três medidas) em consulta de rotina. Exame físico normal. Qual a conduta mais adequada para definir o diagnóstico?',
-    o: ['Diagnosticar hipertensão e iniciar dois anti-hipertensivos imediatamente', 'Confirmar com medidas em nova consulta ou, preferencialmente, com medidas fora do consultório (MAPA ou MRPA)', 'Solicitar ecocardiograma e só diagnosticar se houver hipertrofia ventricular', 'Tranquilizar a paciente e reavaliar apenas em 2 anos'],
+    o: ['Diagnosticar hipertensão e iniciar dois anti-hipertensivos imediatamente', 'Confirmar em nova consulta ou, de preferência, fora do consultório (MAPA ou MRPA)', 'Pedir ecocardiograma e só diagnosticar se houver hipertrofia ventricular', 'Tranquilizar a paciente e reavaliar a pressão apenas em 2 anos'],
     g: 'B',
     c: 'Em pacientes com pressão em estágio 1 ou 2 e sem alto risco cardiovascular, uma única consulta não basta, pois a pressão tem grande variabilidade e sofre efeito do avental branco. O diagnóstico exige confirmação em pelo menos duas ocasiões ou por MAPA/MRPA, que também identifica hipertensão do avental branco.',
     x: { A: 'Sem confirmação diagnóstica e sem alto risco, não se inicia terapia combinada de imediato.', C: 'A lesão de órgão-alvo estratifica o risco, mas não é exigida para o diagnóstico.', D: 'Pressão em faixa de hipertensão exige confirmação em curto prazo, não em 2 anos.' },
@@ -29,7 +29,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico',
     e: 'Homem de 61 anos, diabético, procura atendimento ambulatorial por cefaleia leve. Pressão de 188 x 114 mmHg em três medidas, nos dois braços. O eletrocardiograma mostra sobrecarga ventricular esquerda. Sobre o diagnóstico de hipertensão arterial nesse caso:',
-    o: ['Só pode ser firmado após MAPA de 24 horas', 'Pode ser firmado já na primeira consulta, pois a pressão está em estágio 3 e há alto risco cardiovascular', 'Exige três consultas com intervalo de um mês', 'Depende da presença de retinopatia ao fundo de olho'],
+    o: ['Só pode ser firmado após MAPA de 24 horas, em todos os casos', 'Pode ser firmado na 1ª consulta: estágio 3 e alto risco cardiovascular', 'Exige três consultas com intervalo de um mês entre elas', 'Depende da presença de retinopatia ao exame de fundo de olho'],
     g: 'B',
     c: 'Valores iguais ou superiores a 180 x 110 mmHg, ou pressão elevada em paciente com alto risco, lesão de órgão-alvo ou doença cardiovascular, permitem o diagnóstico em uma única consulta. Postergar o tratamento para repetir medidas exporia o paciente a risco desnecessário.',
     x: { A: 'A MAPA é útil, mas dispensável quando a pressão está em estágio 3 com lesão de órgão-alvo.', C: 'A repetição em várias consultas vale para elevações leves a moderadas em baixo risco.', D: 'O fundo de olho ajuda na estratificação, mas não condiciona o diagnóstico.' },
@@ -37,7 +37,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Hipertensão do avental branco',
     e: 'Mulher de 35 anos, sem fatores de risco, tem pressão de consultório persistentemente em torno de 150 x 95 mmHg. A MAPA mostra média de 24 horas de 118 x 74 mmHg, vigília de 122 x 78 mmHg e sono de 106 x 62 mmHg. Exames complementares normais. Diagnóstico e conduta:',
-    o: ['Hipertensão mascarada; iniciar anti-hipertensivo', 'Hipertensão do avental branco; medidas não farmacológicas e seguimento periódico com medidas fora do consultório', 'Hipertensão sustentada; iniciar terapia combinada', 'Normotensão verdadeira; alta sem seguimento'],
+    o: ['Hipertensão mascarada; iniciar anti-hipertensivo de imediato, em dose plena', 'Avental branco: medidas não farmacológicas e seguimento fora do consultório', 'Hipertensão sustentada; iniciar terapia combinada de imediato, em dose plena', 'Normotensão verdadeira; alta sem qualquer seguimento posterior ou nova medida'],
     g: 'B',
     c: 'Pressão elevada no consultório com valores normais fora dele caracteriza hipertensão do avental branco, atribuída à reação de alerta diante do profissional. O risco cardiovascular é intermediário entre normotensos e hipertensos e há maior chance de evolução para hipertensão sustentada, por isso se orienta mudança de estilo de vida e reavaliação periódica.',
     x: { A: 'Na hipertensão mascarada ocorre o inverso: consultório normal e MAPA alterada.', C: 'A hipertensão sustentada exige valores elevados dentro e fora do consultório.', D: 'Há risco de progressão para hipertensão sustentada, o que exige acompanhamento.' },
@@ -69,7 +69,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'MAPA',
     e: 'Homem de 63 anos, diabético e com doença renal crônica, realiza MAPA: média de vigília de 138 x 86 mmHg e de sono de 136 x 84 mmHg. Como se classifica o comportamento da pressão durante o sono e qual o seu significado?',
-    o: ['Descenso presente; padrão fisiológico', 'Descenso ausente (queda menor que 10%); associa-se a maior risco cardiovascular e a causas como apneia do sono, diabetes e doença renal', 'Descenso acentuado; indica risco de isquemia cerebral noturna', 'Achado sem valor prognóstico, pois só a média de 24 horas importa'],
+    o: ['Descenso presente; padrão fisiológico, sem risco aumentado', 'Descenso ausente (queda < 10%): maior risco CV (apneia, diabetes, doença renal)', 'Descenso acentuado; indica risco de isquemia cerebral noturna', 'Achado sem valor prognóstico, pois só a média de 24 horas importa'],
     g: 'B',
     c: 'O descenso fisiológico da pressão durante o sono é de 10% a 20%, por redução do tônus simpático. Queda inferior a 10% caracteriza descenso atenuado ou ausente, relacionado a disautonomia, sobrecarga de volume e apneia do sono, e é preditor independente de eventos cardiovasculares.',
     x: { A: 'A queda foi de cerca de 1%, muito abaixo dos 10% considerados fisiológicos.', C: 'Descenso acentuado corresponde a queda superior a 20%, o que não ocorreu.', D: 'A pressão do sono é o componente da MAPA com maior valor prognóstico.' },
@@ -77,7 +77,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Classificação',
     e: 'Homem de 52 anos tem pressão de consultório confirmada em 164 x 96 mmHg. Pela classificação brasileira, trata-se de hipertensão:',
-    o: ['Estágio 1, pois a diastólica está entre 90 e 99 mmHg', 'Estágio 2, pois se classifica pelo componente mais elevado (sistólica entre 160 e 179 mmHg)', 'Estágio 3, pois a sistólica é superior a 160 mmHg', 'Sistólica isolada'],
+    o: ['Estágio 1, pois a diastólica está entre 90 e 99 mmHg, e é o parâmetro usado', 'Estágio 2: classifica-se pelo componente mais elevado (sistólica 160-179)', 'Estágio 3, pois a sistólica é superior a 160 mmHg, em qualquer caso', 'Hipertensão sistólica isolada, pois a diastólica é menor que 100 mmHg'],
     g: 'B',
     c: 'Estágio 1 corresponde a 140 a 159 x 90 a 99, estágio 2 a 160 a 179 x 100 a 109 e estágio 3 a valores a partir de 180 x 110 mmHg. Quando sistólica e diastólica caem em categorias diferentes, usa-se a mais alta, porque o risco acompanha o componente mais elevado.',
     x: { A: 'A classificação segue o componente mais alto, que aqui é a sistólica.', C: 'O estágio 3 exige sistólica a partir de 180 ou diastólica a partir de 110 mmHg.', D: 'Para ser sistólica isolada a diastólica deveria ser inferior a 90 mmHg.' },
@@ -85,7 +85,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Hipertensão sistólica isolada',
     e: 'Mulher de 76 anos apresenta pressão de 172 x 68 mmHg em várias consultas. Qual o principal mecanismo desse padrão de hipertensão?',
-    o: ['Aumento do débito cardíaco por hiperatividade simpática', 'Redução da complacência das grandes artérias, com aumento da velocidade da onda de pulso e retorno precoce da onda refletida', 'Aumento da resistência vascular periférica por vasoconstrição arteriolar isolada', 'Hipervolemia por retenção renal de sódio'],
+    o: ['Aumento do débito cardíaco por hiperatividade simpática do idoso', 'Menor complacência das grandes artérias: onda de pulso mais rápida e onda refletida precoce', 'Aumento da resistência periférica por vasoconstrição arteriolar isolada', 'Hipervolemia por retenção renal de sódio, com aumento da pré-carga'],
     g: 'B',
     c: 'Com o envelhecimento há perda de elastina e enrijecimento da aorta. A onda de pulso viaja mais rápido e a onda refletida retorna ainda na sístole, elevando a sistólica e reduzindo a diastólica, o que alarga a pressão de pulso. É a forma mais comum de hipertensão no idoso e deve ser tratada.',
     x: { A: 'Esse mecanismo é típico da hipertensão sistólica do jovem, hipercinética.', C: 'O aumento isolado da resistência eleva principalmente a pressão diastólica.', D: 'A hipervolemia elevaria sistólica e diastólica, sem alargar a pressão de pulso.' },
@@ -93,7 +93,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Pseudo-hipertensão',
     e: 'Homem de 84 anos tem pressão de 190 x 100 mmHg no consultório, sem lesões de órgão-alvo, e apresenta tontura e hipotensão com doses baixas de anti-hipertensivos. A artéria radial permanece palpável e endurecida após a insuflação do manguito acima da pressão sistólica. Esse achado corresponde a:',
-    o: ['Hiato auscultatório', 'Manobra de Osler positiva, sugerindo pseudo-hipertensão por rigidez e calcificação arterial', 'Sinal de Kussmaul', 'Pulso paradoxal'],
+    o: ['Hiato auscultatório, com desaparecimento transitório dos sons de Korotkoff', 'Osler positivo: pseudo-hipertensão por rigidez e calcificação arterial', 'Sinal de Kussmaul, com aumento da pressão venosa na inspiração', 'Pulso paradoxal, com queda da pressão sistólica na inspiração'],
     g: 'B',
     c: 'Artérias muito calcificadas resistem à compressão pelo manguito, que precisa de pressão maior para ocluí-las, gerando valores falsamente elevados. A suspeita surge quando há pressão alta sem lesão de órgão-alvo e sintomas de hipotensão com o tratamento; a confirmação é feita por medida intra-arterial.',
     x: { A: 'O hiato auscultatório é o desaparecimento transitório dos sons de Korotkoff.', C: 'O sinal de Kussmaul é o aumento da turgência jugular na inspiração.', D: 'Pulso paradoxal é a queda inspiratória da sistólica superior a 10 mmHg.' },
@@ -101,7 +101,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Hipotensão ortostática',
     e: 'Homem de 78 anos, diabético, em uso de três anti-hipertensivos, queixa-se de tontura ao levantar. Pressão sentado de 142 x 84 mmHg; após 3 minutos em pé, 118 x 76 mmHg. Como interpretar?',
-    o: ['Resposta fisiológica, pois a queda da diastólica foi inferior a 10 mmHg', 'Hipotensão ortostática, definida por queda de pelo menos 20 mmHg na sistólica ou 10 mmHg na diastólica em até 3 minutos de ortostase', 'Hipertensão mascarada', 'Síncope vasovagal'],
+    o: ['Resposta fisiológica, pois a queda da diastólica foi inferior a 10 mmHg', 'Hipotensão ortostática: queda ≥ 20 mmHg na sistólica ou ≥ 10 na diastólica em até 3 min', 'Hipertensão mascarada, com pressão elevada fora do consultório', 'Síncope vasovagal, com pródromo e fatores desencadeantes típicos'],
     g: 'B',
     c: 'A queda de 24 mmHg na sistólica preenche o critério, que exige redução de 20 mmHg na sistólica ou de 10 mmHg na diastólica. É frequente em idosos, diabéticos com disautonomia e usuários de vasodilatadores e diuréticos, e deve ser pesquisada antes de intensificar o tratamento, pelo risco de quedas.',
     x: { A: 'Basta um dos critérios; a queda sistólica de 24 mmHg já define o quadro.', C: 'Hipertensão mascarada é pressão normal no consultório e elevada fora dele.', D: 'A síncope vasovagal é episódica e reflexa, com bradicardia, não uma queda postural sustentada.' },
@@ -109,7 +109,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Medida da pressão arterial',
     e: 'Na medida auscultatória de um idoso, os sons de Korotkoff surgem em 190 mmHg, desaparecem entre 170 e 150 mmHg e reaparecem até 90 mmHg. Para evitar que esse fenômeno leve a subestimar a pressão sistólica, deve-se:',
-    o: ['Insuflar o manguito sempre até 300 mmHg', 'Estimar antes a sistólica pela palpação do pulso radial e insuflar 20 a 30 mmHg acima desse nível', 'Desinsuflar o manguito mais rapidamente', 'Usar a campânula do estetoscópio sobre a fossa cubital com forte compressão'],
+    o: ['Insuflar o manguito sempre até 300 mmHg, em todos os pacientes', 'Estimar antes a sistólica pelo pulso radial e insuflar 20-30 mmHg acima dela', 'Desinsuflar o manguito mais rapidamente, para reduzir o desconforto', 'Usar a campânula do estetoscópio com forte compressão sobre a fossa cubital'],
     g: 'B',
     c: 'O hiato auscultatório é o silêncio entre as fases I e II de Korotkoff, comum em idosos com rigidez arterial. Se o manguito for insuflado apenas até o intervalo silencioso, a sistólica é subestimada; a estimativa palpatória prévia garante insuflação acima da sistólica verdadeira.',
     x: { A: 'Insuflação excessiva causa dor e eleva a pressão, sem ser necessária.', C: 'A desinsuflação rápida piora a precisão; o correto é cerca de 2 mmHg por segundo.', D: 'A compressão excessiva distorce os sons e pode reduzir falsamente a diastólica.' },
@@ -117,7 +117,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Medida da pressão arterial',
     e: 'Homem de 67 anos, tabagista, em primeira consulta, apresenta pressão de 162 x 94 mmHg no braço direito e 138 x 88 mmHg no esquerdo, de forma reprodutível. Qual a interpretação e a conduta corretas?',
-    o: ['Diferença normal; usar a média dos dois braços', 'Diferença superior a 15 mmHg sugere doença arterial obstrutiva (como estenose de subclávia); usar o braço de maior valor para o seguimento', 'Usar sempre o braço esquerdo, por estar mais próximo do coração', 'Indica erro de técnica e não tem significado clínico'],
+    o: ['Diferença normal de medidas; usar a média dos dois braços para o seguimento', 'Diferença > 15 mmHg sugere doença arterial obstrutiva; usar o braço de maior valor', 'Usar sempre o braço esquerdo, por estar mais próximo do coração do paciente', 'Indica erro de técnica de medida e não tem significado clínico algum'],
     g: 'B',
     c: 'Na primeira consulta a pressão deve ser medida nos dois braços e o de maior valor passa a ser a referência. Diferença sistólica persistente acima de 15 mmHg associa-se a doença aterosclerótica, como estenose de artéria subclávia, e a maior risco cardiovascular, merecendo investigação.',
     x: { A: 'Diferença de 24 mmHg é anormal e não se usa a média dos braços.', C: 'A referência é o braço com a pressão mais alta, seja qual for o lado.', D: 'Sendo reprodutível, a diferença reflete doença arterial e não erro de medida.' },
@@ -133,7 +133,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Lesão de órgão-alvo',
     e: 'O eletrocardiograma de um hipertenso de 58 anos mostra soma da onda S em V1 com a onda R em V5 igual a 42 mm, com infradesnivelamento assimétrico de ST e onda T negativa em V5 e V6. O critério preenchido e seu significado são:',
-    o: ['Critério de Romhilt-Estes; bloqueio de ramo esquerdo', 'Critério de Sokolow-Lyon (S de V1 + R de V5 ou V6 maior que 35 mm); hipertrofia ventricular esquerda com padrão de sobrecarga', 'Critério de Cornell; sobrecarga ventricular direita', 'Critério de Brugada; taquicardia ventricular'],
+    o: ['Critério de Romhilt-Estes; bloqueio de ramo esquerdo completo, com QRS largo', 'Sokolow-Lyon (S de V1 + R de V5/V6 > 35 mm): HVE com sobrecarga', 'Critério de Cornell; sobrecarga ventricular direita com desvio do eixo', 'Critério de Brugada; taquicardia ventricular com QRS largo e supra de V1'],
     g: 'B',
     c: 'O índice de Sokolow-Lyon acima de 35 mm indica hipertrofia ventricular esquerda, e a alteração secundária da repolarização (padrão strain) reflete sobrecarga pressórica. A hipertrofia é lesão de órgão-alvo que eleva o risco de insuficiência cardíaca, arritmias e morte súbita.',
     x: { A: 'Romhilt-Estes é um escore de pontos para hipertrofia e não diagnostica bloqueio de ramo.', C: 'O critério de Cornell usa R de aVL somada a S de V3 e avalia o ventrículo esquerdo.', D: 'Os critérios de Brugada diferenciam taquicardias de complexo QRS largo.' },
@@ -149,7 +149,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Lesão de órgão-alvo',
     e: 'Homem de 49 anos, hipertenso há 6 anos, tem creatinina de 0,9 mg/dL e relação albumina/creatinina em amostra isolada de urina de 120 mg/g, confirmada em nova coleta. O significado desse achado é:',
-    o: ['Achado normal, sem implicação prognóstica', 'Albuminúria moderadamente aumentada (30 a 300 mg/g), marcador precoce de lesão renal e de disfunção endotelial, que eleva o risco cardiovascular', 'Síndrome nefrótica', 'Infecção urinária, devendo-se solicitar urocultura'],
+    o: ['Achado normal, sem implicação prognóstica ou necessidade de seguimento clínico', 'Albuminúria moderada (30-300 mg/g): marcador precoce de lesão renal que eleva o risco CV', 'Síndrome nefrótica, com proteinúria acima de 3,5 g por dia e edema', 'Infecção urinária, devendo-se solicitar urocultura de rotina e tratar'],
     g: 'B',
     c: 'A albuminúria entre 30 e 300 mg/g precede a queda da filtração glomerular e reflete aumento da pressão intraglomerular e dano endotelial generalizado. É lesão de órgão-alvo que reclassifica o paciente como de alto risco e favorece o uso de bloqueadores do sistema renina-angiotensina.',
     x: { A: 'O valor normal é inferior a 30 mg/g; acima disso há aumento de risco renal e cardiovascular.', C: 'A síndrome nefrótica exige proteinúria superior a 3,5 g por dia.', D: 'Não há sintomas urinários, e o achado foi confirmado em duas amostras.' },
@@ -157,7 +157,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Estratificação de risco',
     e: 'Mulher de 54 anos, com diabetes tipo 2 há 8 anos, tem pressão confirmada de 146 x 92 mmHg. Não tem outras comorbidades conhecidas. Qual o seu risco cardiovascular na estratificação do hipertenso?',
-    o: ['Baixo, pois a hipertensão é estágio 1', 'Alto, pois a presença de diabetes classifica o hipertenso como de alto risco em qualquer estágio', 'Moderado, pois há apenas um fator de risco', 'Indeterminado até a realização de ecocardiograma'],
+    o: ['Baixo, pois a hipertensão é estágio 1, de baixa gravidade', 'Alto: o diabetes classifica o hipertenso como alto risco em qualquer estágio', 'Moderado, pois há apenas um fator de risco associado', 'Indeterminado até a realização de ecocardiograma e MAPA'],
     g: 'B',
     c: 'Diabetes, lesão de órgão-alvo, doença renal crônica a partir do estágio 3 e doença cardiovascular estabelecida colocam o hipertenso na categoria de alto risco, qualquer que seja o nível pressórico. Isso determina início imediato de fármacos junto às medidas não farmacológicas e metas mais rigorosas.',
     x: { A: 'O estágio da pressão não é o único determinante; o diabetes eleva o risco.', C: 'O diabetes não é contado como fator de risco simples, mas como condição de alto risco.', D: 'A estratificação clínica já é possível e não depende do ecocardiograma.' },
@@ -165,7 +165,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Estratificação de risco',
     e: 'Homem de 38 anos, não tabagista, sem dislipidemia, diabetes ou história familiar, sem lesão de órgão-alvo, tem pressão confirmada de 184 x 112 mmHg. Na estratificação de risco cardiovascular do hipertenso, ele é classificado como:',
-    o: ['Baixo risco, pois não tem fatores de risco adicionais', 'Alto risco, pois a hipertensão estágio 3 confere alto risco mesmo sem outros fatores', 'Risco moderado, pela idade inferior a 40 anos', 'Sem risco adicional'],
+    o: ['Baixo risco, pois não tem fatores de risco adicionais associados', 'Alto risco: a hipertensão estágio 3 confere alto risco mesmo sem outros fatores', 'Risco moderado, pela idade inferior a 40 anos do paciente', 'Sem risco adicional, pela ausência de lesão de órgão-alvo'],
     g: 'B',
     c: 'A estratificação combina o estágio da hipertensão com fatores de risco, lesões de órgão-alvo e doenças associadas. O estágio 3 isolado já configura alto risco, pois a relação entre pressão e eventos cardiovasculares é contínua e exponencial.',
     x: { A: 'Baixo risco só se aplica ao estágio 1 sem fatores de risco adicionais.', C: 'Risco moderado corresponde a estágio 2 sem fatores ou estágio 1 com um ou dois fatores.', D: 'Não existe hipertensão estágio 3 sem risco adicional.' },
@@ -173,7 +173,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Lesão de órgão-alvo',
     e: 'Homem de 66 anos, hipertenso e tabagista, refere dor em panturrilhas após caminhar dois quarteirões, que alivia com repouso. O índice tornozelo-braquial é de 0,72. Como interpretar?',
-    o: ['Valor normal; a dor é de origem neurológica', 'Doença arterial periférica (índice inferior a 0,9), considerada lesão de órgão-alvo e marcador de aterosclerose sistêmica', 'Artérias incompressíveis por calcificação da camada média', 'Insuficiência venosa crônica'],
+    o: ['Valor normal; a dor tem origem neurológica e não vascular', 'Doença arterial periférica (ITB < 0,9): lesão de órgão-alvo e marcador de aterosclerose', 'Artérias incompressíveis por calcificação da camada média, com ITB falsamente alto', 'Insuficiência venosa crônica, com edema e hiperpigmentação'],
     g: 'B',
     c: 'O índice tornozelo-braquial é a razão entre a sistólica do tornozelo e a do braço; valores abaixo de 0,9 indicam obstrução arterial dos membros inferiores. Além de explicar a claudicação, o achado sinaliza aterosclerose difusa e classifica o hipertenso como de alto risco.',
     x: { A: 'O valor normal situa-se entre 0,9 e 1,4; 0,72 é reduzido.', C: 'Artérias incompressíveis produzem índice elevado, acima de 1,4.', D: 'A insuficiência venosa não reduz o índice e causa edema e dor que melhora com elevação.' },
@@ -181,7 +181,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Hipertensão na infância',
     e: 'Menino de 8 anos, assintomático, tem a pressão aferida em consulta de puericultura com manguito adequado. Como se define hipertensão arterial nessa faixa etária?',
-    o: ['Pressão a partir de 140 x 90 mmHg, como no adulto', 'Pressão sistólica ou diastólica a partir do percentil 95 para idade, sexo e altura, em três ocasiões diferentes', 'Pressão acima do percentil 50 para a idade', 'Qualquer valor superior a 120 x 80 mmHg em uma única medida'],
+    o: ['Pressão a partir de 140 x 90 mmHg, como no adulto, em uma única medida', 'PAS ou PAD ≥ percentil 95 para idade, sexo e altura, em três ocasiões diferentes', 'Pressão acima do percentil 50 para a idade, em uma única medida', 'Qualquer valor superior a 120 x 80 mmHg em uma única medida de consultório'],
     g: 'B',
     c: 'Como a pressão normal aumenta com o crescimento, em crianças usam-se tabelas de percentis por idade, sexo e altura; valores a partir do percentil 95, confirmados em três ocasiões, definem hipertensão. Quanto mais jovem a criança e mais alta a pressão, maior a chance de causa secundária, sobretudo renal.',
     x: { A: 'Pontos de corte fixos de adulto subdiagnosticam hipertensão em crianças pequenas.', C: 'O percentil 50 é a mediana normal da população.', D: 'É necessária confirmação em três ocasiões e uso de percentis.' },
@@ -189,7 +189,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Medida da pressão arterial',
     e: 'Mulher de 72 anos com fibrilação atrial permanente tem medidas muito discrepantes em aparelho oscilométrico automático. Qual a melhor forma de aferir a pressão nessa paciente?',
-    o: ['Considerar apenas a primeira medida do aparelho automático', 'Preferir o método auscultatório e fazer a média de várias medidas, pois a variação batimento a batimento reduz a precisão dos aparelhos oscilométricos', 'Medir apenas no punho', 'Não é possível medir a pressão de forma não invasiva na fibrilação atrial'],
+    o: ['Considerar apenas a primeira medida do aparelho automático, na fibrilação atrial', 'Preferir o método auscultatório e tirar a média de várias medidas (FA)', 'Medir apenas no punho, com aparelho oscilométrico, na fibrilação atrial', 'Não é possível medir a pressão de forma não invasiva na fibrilação atrial'],
     g: 'B',
     c: 'Na fibrilação atrial o enchimento ventricular varia a cada ciclo, o que faz o volume sistólico e a pressão oscilarem batimento a batimento. Os aparelhos oscilométricos podem errar nessa situação, por isso se recomenda o método auscultatório com pelo menos três medidas e uso da média.',
     x: { A: 'Uma medida isolada é pouco representativa diante da grande variabilidade.', C: 'Aparelhos de punho são menos precisos e não resolvem a variabilidade do ritmo.', D: 'A medida não invasiva é possível, desde que repetida e com técnica adequada.' },
@@ -197,7 +197,7 @@ export const HAS_1: QuestaoCompacta[] = [
   {
     s: 'Avaliação complementar',
     e: 'Homem de 57 anos, hipertenso há 10 anos com controle irregular, queixa-se de dispneia aos esforços. Apresenta ictus desviado para a esquerda, quarta bulha e eletrocardiograma com sinais de sobrecarga ventricular esquerda. Qual exame está indicado para avaliar o acometimento cardíaco?',
-    o: ['Cintilografia miocárdica de repouso', 'Ecocardiograma transtorácico, para quantificar a massa ventricular e avaliar as funções sistólica e diastólica', 'Holter de 24 horas', 'Tomografia de coronárias com escore de cálcio'],
+    o: ['Cintilografia miocárdica de repouso, para avaliar a perfusão', 'Ecocardiograma transtorácico: massa ventricular e funções sistólica e diastólica', 'Holter de 24 horas, para avaliar arritmias e variabilidade', 'Tomografia de coronárias com escore de cálcio, para estratificar risco'],
     g: 'B',
     c: 'O ecocardiograma é mais sensível que o eletrocardiograma para hipertrofia ventricular e está indicado quando há alteração eletrocardiográfica ou suspeita de insuficiência cardíaca. A quarta bulha traduz ventrículo pouco complacente, e a dispneia pode decorrer de disfunção diastólica, típica da cardiopatia hipertensiva.',
     x: { A: 'A cintilografia pesquisa isquemia e não quantifica massa nem função diastólica.', C: 'O Holter avalia arritmias, que não são a queixa principal do paciente.', D: 'O escore de cálcio estima aterosclerose coronariana, não a cardiopatia hipertensiva.' },

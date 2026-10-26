@@ -13,7 +13,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia de baixo fluxo',
     e: 'A FiO2 efetivamente oferecida por cateter nasal ou máscara facial simples é imprevisível porque:',
-    o: ['Esses dispositivos fornecem oxigênio com concentração inferior a 100% na fonte', 'O fluxo ofertado é menor que o pico de fluxo inspiratório do paciente, que completa a inspiração com ar ambiente em proporção variável', 'O oxigênio é absorvido pela mucosa nasal antes de chegar aos alvéolos', 'A umidificação dilui o oxigênio de forma imprevisível'],
+    o: ['Esses dispositivos fornecem oxigênio com concentração inferior a 100% na fonte', 'Fluxo menor que o pico inspiratório; o restante vem do ar ambiente', 'O oxigênio é absorvido pela mucosa nasal antes de chegar aos alvéolos', 'A umidificação dilui o oxigênio de forma imprevisível no circuito'],
     g: 'B',
     c: 'Sistemas de baixo fluxo não suprem toda a demanda inspiratória. Um paciente taquipneico pode gerar pico de fluxo de 30 a 60 L/min ou mais, e a diferença é preenchida por ar ambiente; quanto maior o volume minuto, maior a diluição e menor a FiO2 real para o mesmo fluxo de oxigênio.',
     x: { A: 'A fonte fornece oxigênio a 100%; a diluição ocorre na via aérea do paciente.', C: 'Não há absorção relevante de oxigênio pela mucosa nasal.', D: 'A umidificação acrescenta vapor de água, sem efeito significativo sobre a FiO2.' },
@@ -29,7 +29,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Máscara com reservatório',
     e: 'Mulher de 27 anos, vítima de colisão automobilística, chega com contusão pulmonar bilateral, FR de 34 irpm e SpO2 de 80% em ar ambiente, consciente e protegendo a via aérea. Enquanto se prossegue a avaliação, o dispositivo de baixo fluxo capaz de oferecer a maior FiO2 é:',
-    o: ['Cateter nasal a 6 L/min', 'Máscara não reinalante com reservatório a 10 a 15 L/min', 'Máscara de Venturi a 24%', 'Máscara facial simples a 5 L/min'],
+    o: ['Cateter nasal a 6 L/min, com umidificação', 'Máscara não reinalante com reservatório a 10 a 15 L/min', 'Máscara de Venturi a 24%, com fluxo fixo', 'Máscara facial simples a 5 L/min, sem reservatório'],
     g: 'B',
     c: 'A máscara não reinalante tem bolsa reservatório que se enche de oxigênio puro e válvulas unidirecionais que impedem a entrada de ar ambiente e o retorno do ar expirado para a bolsa. Com fluxo de 10 a 15 L/min, suficiente para manter a bolsa inflada, atinge FiO2 de 60 a 90%.',
     x: { A: 'O cateter nasal a 6 L/min fornece no máximo cerca de 44%.', C: 'A Venturi a 24% oferece FiO2 precisa, porém baixa para hipoxemia grave.', D: 'A máscara simples fornece cerca de 40 a 60%, e a 5 L/min está no limite inferior.' },
@@ -37,7 +37,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia de baixo fluxo',
     e: 'Ao instalar máscara facial simples em um paciente, o fluxo de oxigênio deve ser de no mínimo 5 L/min porque:',
-    o: ['Fluxos menores causam ressecamento da mucosa nasal', 'Fluxos menores não lavam o ar expirado acumulado na máscara, causando reinalação de CO2', 'Abaixo desse fluxo a FiO2 torna-se superior a 60%', 'O fluxômetro não é confiável abaixo desse valor'],
+    o: ['Fluxos menores causam ressecamento da mucosa nasal e desconforto', 'Fluxos menores não lavam o ar expirado, causando reinalação de CO2', 'Abaixo desse fluxo a FiO2 torna-se superior a 60% na máscara', 'O fluxômetro não é confiável abaixo desse valor de fluxo'],
     g: 'B',
     c: 'O corpo da máscara funciona como pequeno reservatório de 100 a 200 mL onde o ar expirado se acumula. É necessário fluxo de pelo menos 5 L/min para lavar esse espaço a cada ciclo; com fluxos menores o paciente reinala CO2. Quando se deseja fluxo baixo, o dispositivo adequado é o cateter nasal.',
     x: { A: 'O ressecamento de mucosa relaciona-se a fluxos altos por cateter nasal, não a fluxos baixos na máscara.', C: 'Fluxos menores reduzem a FiO2, em vez de aumentá-la.', D: 'A limitação é a lavagem do espaço da máscara, não a precisão do fluxômetro.' },
@@ -53,7 +53,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Cânula nasal de alto fluxo',
     e: 'Homem de 44 anos, com pneumonia comunitária bilateral, mantém SpO2 de 86% e FR de 30 irpm com máscara com reservatório. Está alerta, hemodinamicamente estável, sem hipercapnia (PaCO2 de 34 mmHg) e sem uso importante de musculatura acessória. A melhor estratégia de suporte neste momento é:',
-    o: ['Manter a máscara com reservatório e reavaliar em 12 horas', 'Cânula nasal de alto fluxo, com reavaliação clínica frequente', 'Cateter nasal a 5 L/min, para maior conforto', 'Traqueostomia de urgência'],
+    o: ['Manter a máscara com reservatório e reavaliar em 12 horas', 'Cânula nasal de alto fluxo, com reavaliação clínica frequente', 'Cateter nasal a 5 L/min, para maior conforto do paciente', 'Traqueostomia de urgência, por piora da oxigenação'],
     g: 'B',
     c: 'Na insuficiência respiratória hipoxêmica aguda sem hipercapnia, a cânula nasal de alto fluxo é a opção preferida de suporte não invasivo: oferece FiO2 alta e estável, reduz o trabalho respiratório e é bem tolerada. Exige reavaliação seriada, pois o atraso da intubação em quem está falhando aumenta a mortalidade.',
     x: { A: 'O paciente segue hipoxêmico e taquipneico; manter a conduta sem escalonar é inadequado.', C: 'O cateter nasal oferece FiO2 menor que a do dispositivo que já está falhando.', D: 'Não há obstrução de via aérea alta nem indicação de via aérea cirúrgica.' },
@@ -77,7 +77,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Alvos de saturação',
     e: 'Homem de 58 anos chega com dor torácica típica e supradesnivelamento de ST em parede inferior. Está eupneico, sem congestão pulmonar, com SpO2 de 97% em ar ambiente. Em relação ao oxigênio suplementar, a conduta correta é:',
-    o: ['Cateter nasal a 3 L/min de rotina, para reduzir a área de infarto', 'Não ofertar oxigênio, reservando-o para saturação abaixo de 90% ou desconforto respiratório', 'Máscara com reservatório até a angioplastia', 'Ventilação não invasiva profilática'],
+    o: ['Cateter nasal a 3 L/min de rotina, para reduzir a área de infarto', 'Não ofertar O2; reservar se SatO2 < 90% ou desconforto respiratório', 'Máscara com reservatório até a realização da angioplastia', 'Ventilação não invasiva profilática durante a transferência'],
     g: 'B',
     c: 'O oxigênio de rotina no infarto sem hipoxemia não reduz mortalidade nem tamanho do infarto, e a hiperóxia causa vasoconstrição coronariana e sistêmica. As diretrizes indicam oxigênio apenas quando a SpO2 está abaixo de 90% ou há desconforto respiratório. Para pacientes agudos em geral, os alvos variam entre diretrizes (92 a 96% ou 94 a 98%), mas todas condenam a hiperóxia.',
     x: { A: 'O uso rotineiro não reduz a área de infarto e pode ser deletério.', C: 'FiO2 alta sem hipoxemia produz hiperóxia e vasoconstrição coronariana.', D: 'Não há insuficiência respiratória nem edema pulmonar que justifiquem pressão positiva.' },
@@ -85,7 +85,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Hipercapnia induzida por oxigênio',
     e: 'Mulher de 76 anos, com DPOC, recebeu oxigênio por máscara com reservatório na ambulância. Chega sonolente, porém despertável, com SpO2 de 100%, pH 7,24 e PaCO2 de 78 mmHg. A conduta imediata mais adequada em relação ao oxigênio é:',
-    o: ['Suspender completamente o oxigênio até a paciente despertar', 'Reduzir a oferta de forma titulada para SpO2 de 88 a 92% e iniciar ventilação não invasiva', 'Manter a máscara com reservatório, pois a saturação está ótima', 'Administrar naloxona e manter o oxigênio'],
+    o: ['Suspender completamente o oxigênio até a paciente despertar', 'Reduzir O2 de forma titulada (SpO2 88-92%) e iniciar VNI', 'Manter a máscara com reservatório, pois a saturação está ótima', 'Administrar naloxona e manter o oxigênio em alto fluxo'],
     g: 'B',
     c: 'A hiperóxia agravou a hipercapnia, mas retirar o oxigênio de forma abrupta é perigoso: a PaO2 cai em minutos, enquanto o CO2 acumulado demora a ser eliminado e continua ocupando o alvéolo, o que gera hipoxemia de rebote mais grave que a inicial. O correto é titular para 88 a 92% e tratar a acidose respiratória com ventilação não invasiva.',
     x: { A: 'A retirada abrupta provoca hipoxemia de rebote, pois o CO2 alveolar elevado persiste.', C: 'A saturação de 100% é justamente o sinal de oferta excessiva que piorou a hipercapnia.', D: 'Não há história de uso de opioide; a narcose decorre do CO2.' },
@@ -101,7 +101,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva',
     e: 'Mulher de 66 anos, com DPOC, procura a emergência por piora da dispneia e do escarro. Está alerta, FR de 22 irpm, sem uso de musculatura acessória. Gasometria com cateter nasal a 2 L/min: pH 7,37; PaCO2 50 mmHg; PaO2 64 mmHg; HCO3 28 mEq/L. Em relação ao suporte ventilatório, a conduta correta é:',
-    o: ['Ventilação não invasiva imediata, pela PaCO2 elevada', 'Tratamento clínico com broncodilatadores, corticoide e oxigênio titulado, sem necessidade de ventilação não invasiva no momento', 'Intubação eletiva para prevenir fadiga', 'Cânula nasal de alto fluxo a 60 L/min e FiO2 de 100%'],
+    o: ['Ventilação não invasiva imediata, pela PaCO2 elevada isolada', 'Broncodilatadores, corticoide e O2 titulado, sem VNI no momento', 'Intubação eletiva para prevenir fadiga respiratória', 'Cânula nasal de alto fluxo a 60 L/min e FiO2 de 100%'],
     g: 'B',
     c: 'A indicação de ventilação não invasiva na exacerbação de DPOC é a acidose respiratória ou o desconforto importante com sinais de fadiga, e não a hipercapnia isolada. Com pH normal, a PaCO2 de 50 mmHg reflete retenção crônica compensada pelo rim, e o suporte ventilatório não traz benefício nesse cenário.',
     x: { A: 'Hipercapnia com pH normal indica retenção crônica compensada, não falência aguda.', C: 'Não há qualquer critério de intubação em paciente alerta e sem acidose.', D: 'FiO2 de 100% no retentor de CO2 pode precipitar acidose respiratória.' },
@@ -109,7 +109,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva',
     e: 'Homem de 73 anos, hipertenso, acorda com dispneia súbita. Na admissão: PA de 210 x 120 mmHg, FR de 36 irpm, SpO2 de 84%, estertores até os ápices e B3. Além de nitrato e diurético intravenosos, a medida de suporte respiratório indicada é:',
-    o: ['Cateter nasal a 2 L/min em decúbito dorsal horizontal', 'Ventilação não invasiva com pressão positiva (CPAP ou dois níveis)', 'Intubação orotraqueal imediata em todos os casos', 'Máscara de Venturi a 24%'],
+    o: ['Cateter nasal a 2 L/min, com paciente em decúbito dorsal', 'Ventilação não invasiva com pressão positiva (CPAP ou bilevel)', 'Intubação orotraqueal imediata em todos os casos de EAP', 'Máscara de Venturi a 24%, com fluxo fixo e baixa FiO2'],
     g: 'B',
     c: 'No edema agudo de pulmão cardiogênico, a pressão positiva não invasiva melhora rapidamente a oxigenação e o desconforto e reduz a necessidade de intubação. CPAP e dois níveis de pressão têm eficácia semelhante nesse cenário; os dois níveis são preferidos quando há hipercapnia ou fadiga.',
     x: { A: 'Oferta insuficiente de oxigênio, e o decúbito horizontal piora a congestão.', C: 'A maioria dos pacientes responde à ventilação não invasiva e ao tratamento clínico, evitando a intubação.', D: 'FiO2 de 24% é insuficiente para hipoxemia grave por edema alveolar.' },
@@ -117,7 +117,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva',
     e: 'No edema agudo de pulmão cardiogênico, o benefício hemodinâmico da pressão positiva nas vias aéreas decorre de:',
-    o: ['Aumento do retorno venoso e da pré-carga do ventrículo direito', 'Redução do retorno venoso e da pressão transmural do ventrículo esquerdo, diminuindo pré-carga e pós-carga', 'Vasoconstrição arterial sistêmica com aumento da pressão arterial', 'Aumento da frequência cardíaca por estímulo simpático'],
+    o: ['Aumento do retorno venoso e da pré-carga do ventrículo direito', 'Menor retorno venoso e menor pressão transmural do VE: reduz pré e pós-carga', 'Vasoconstrição arterial sistêmica com aumento da pressão arterial', 'Aumento da frequência cardíaca por estímulo simpático reflexo'],
     g: 'B',
     c: 'A pressão intratorácica positiva reduz o retorno venoso, diminuindo a pré-carga, e reduz a pressão transmural do ventrículo esquerdo, que passa a ejetar contra menor resistência efetiva (menor pós-carga). Soma-se o recrutamento de alvéolos inundados, com melhora da complacência e do shunt.',
     x: { A: 'A pressão positiva diminui o retorno venoso, o que é desejável no pulmão congesto.', C: 'Não há vasoconstrição; a pós-carga do ventrículo esquerdo cai.', D: 'O alívio da hipoxemia e do esforço reduz o tônus simpático e a frequência cardíaca.' },
@@ -125,7 +125,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva',
     e: 'A principal diferença entre o CPAP e a ventilação com dois níveis de pressão (BiPAP), que explica a preferência pela segunda na insuficiência respiratória hipercápnica, é que:',
-    o: ['O CPAP não permite oferta de oxigênio suplementar', 'O BiPAP acrescenta pressão inspiratória acima da expiratória, o que aumenta o volume corrente e a ventilação alveolar', 'O CPAP só pode ser aplicado em pacientes intubados', 'O BiPAP dispensa interface com vedação'],
+    o: ['O CPAP não permite oferta de oxigênio suplementar ao paciente', 'O BiPAP acrescenta pressão inspiratória, aumentando o volume corrente', 'O CPAP só pode ser aplicado em pacientes já intubados', 'O BiPAP dispensa interface com vedação adequada na face'],
     g: 'B',
     c: 'O CPAP mantém pressão única e contínua, que recruta alvéolos e melhora a oxigenação, mas não auxilia ativamente a inspiração. No BiPAP, a diferença entre a pressão inspiratória (IPAP) e a expiratória (EPAP) funciona como pressão de suporte: aumenta o volume corrente, alivia a musculatura e reduz a PaCO2.',
     x: { A: 'O oxigênio pode ser enriquecido tanto no CPAP quanto no BiPAP.', C: 'O CPAP é aplicado por máscara em pacientes em respiração espontânea.', D: 'Ambos exigem máscara bem ajustada; vazamentos comprometem a eficácia.' },
@@ -133,7 +133,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva',
     e: 'Homem de 70 anos, com exacerbação de DPOC, está em ventilação não invasiva com IPAP de 12 cmH2O, EPAP de 5 cmH2O e FiO2 de 30% há 1 hora. Está alerta, com SpO2 de 91%, porém a PaCO2 passou de 72 para 70 mmHg e o volume corrente é baixo. O ajuste mais adequado é:',
-    o: ['Aumentar a FiO2 para 60%', 'Aumentar a IPAP, ampliando a diferença entre as pressões inspiratória e expiratória', 'Aumentar a EPAP para 10 cmH2O, mantendo a IPAP em 12 cmH2O', 'Reduzir a IPAP para melhorar o conforto'],
+    o: ['Aumentar a FiO2 para 60%, mantendo as pressões inalteradas', 'Aumentar a IPAP, ampliando a diferença entre IPAP e EPAP', 'Aumentar a EPAP para 10 cmH2O, mantendo a IPAP em 12 cmH2O', 'Reduzir a IPAP para melhorar o conforto da paciente'],
     g: 'B',
     c: 'A eliminação de CO2 depende do volume corrente, que é determinado pela pressão de suporte, ou seja, pela diferença entre IPAP e EPAP. Para tratar hipercapnia persistente eleva-se a IPAP; já para corrigir hipoxemia ajustam-se a EPAP e a FiO2.',
     x: { A: 'A oxigenação está no alvo; elevar a FiO2 pode piorar a hipercapnia.', C: 'Elevar apenas a EPAP reduz a pressão de suporte para 2 cmH2O e piora a ventilação.', D: 'Reduzir a IPAP diminui o volume corrente e agrava a retenção de CO2.' },
@@ -141,7 +141,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva',
     e: 'Todas as situações abaixo são contraindicações à ventilação não invasiva, EXCETO:',
-    o: ['Parada respiratória ou respiração agônica', 'Vômitos incoercíveis ou hemorragia digestiva alta ativa', 'Acidose respiratória com pH de 7,30 em paciente com DPOC, alerta e colaborativo', 'Trauma ou deformidade facial que impeça o ajuste da máscara'],
+    o: ['Parada respiratória ou respiração agônica instalada', 'Vômitos incoercíveis ou hemorragia digestiva alta ativa e volumosa', 'Acidose respiratória (pH 7,30) em DPOC alerta e colaborativo', 'Trauma ou deformidade facial que impeça o ajuste da máscara'],
     g: 'C',
     c: 'A ventilação não invasiva exige paciente capaz de proteger a via aérea, colaborar e adaptar-se à interface, sem instabilidade grave. Parada respiratória, vômitos, sangramento digestivo alto, trauma facial, instabilidade hemodinâmica grave e incapacidade de eliminar secreções a contraindicam. Já a acidose respiratória do DPOC é sua indicação clássica.',
     x: { A: 'Sem respiração espontânea eficaz é necessária via aérea definitiva.', B: 'Há alto risco de broncoaspiração sob máscara com pressão positiva.', D: 'Sem vedação adequada não se consegue pressurizar o sistema, e o trauma pode ser agravado.' },
@@ -165,7 +165,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva',
     e: 'A complicação mais frequente da ventilação não invasiva com máscara oronasal, que pode ser prevenida com ajuste adequado da fixação, proteção cutânea e rodízio de interfaces, é:',
-    o: ['Pneumotórax', 'Lesão de pele por pressão, principalmente na ponte nasal', 'Broncoaspiração maciça', 'Embolia gasosa'],
+    o: ['Pneumotórax por barotrauma, relacionado às pressões', 'Lesão de pele por pressão, principalmente na ponte nasal', 'Broncoaspiração maciça de conteúdo gástrico', 'Embolia gasosa por entrada de ar no sistema venoso'],
     g: 'B',
     c: 'A pressão contínua da máscara sobre áreas de pele fina e pouca cobertura, sobretudo a ponte do nariz, causa eritema e úlceras, que são a complicação mais comum e motivo frequente de intolerância. Distensão gástrica e ressecamento ocular por vazamento também são comuns; barotrauma e aspiração são raros.',
     x: { A: 'O barotrauma é raro com as pressões habitualmente empregadas.', C: 'A aspiração é incomum quando as contraindicações são respeitadas.', D: 'A embolia gasosa não é complicação descrita da ventilação não invasiva.' },
@@ -173,7 +173,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Toxicidade do oxigênio',
     e: 'Paciente em ventilação com FiO2 de 100% por várias horas desenvolve colapso de bases pulmonares e piora da oxigenação, sem obstrução brônquica. O mecanismo desse efeito adverso do oxigênio é:',
-    o: ['Broncoconstrição reflexa induzida pela hiperóxia', 'Atelectasia de absorção, pela substituição do nitrogênio alveolar por oxigênio, que é rapidamente absorvido', 'Edema pulmonar por aumento da pressão hidrostática capilar', 'Inibição direta do centro respiratório bulbar'],
+    o: ['Broncoconstrição reflexa induzida pela hiperóxia sustentada', 'Atelectasia de absorção, pela troca do nitrogênio alveolar por O2 absorvido', 'Edema pulmonar por aumento da pressão hidrostática capilar', 'Inibição direta do centro respiratório bulbar pela hiperóxia'],
     g: 'B',
     c: 'O nitrogênio é pouco absorvido e funciona como um arcabouço que mantém o alvéolo aberto. Com FiO2 muito alta ele é lavado e substituído por oxigênio; em unidades com baixa relação ventilação-perfusão, o sangue absorve o oxigênio mais rápido do que ele é reposto, e o alvéolo colapsa, criando shunt.',
     x: { A: 'A hiperóxia não provoca broncoconstrição reflexa.', C: 'O oxigênio não eleva a pressão hidrostática capilar pulmonar.', D: 'A depressão ventilatória não explica o colapso alveolar em paciente ventilado mecanicamente.' },
@@ -181,7 +181,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Toxicidade do oxigênio',
     e: 'Em relação à lesão pulmonar induzida por hiperóxia em adultos sob ventilação prolongada, é correto afirmar que:',
-    o: ['Ocorre apenas com oxigênio hiperbárico, nunca em pressão ambiente', 'Decorre da formação de espécies reativas de oxigênio, e por isso se recomenda reduzir a FiO2 para a menor capaz de manter a saturação alvo, idealmente abaixo de 60%', 'É prevenida mantendo a SpO2 sempre em 100%', 'Manifesta-se exclusivamente por convulsões'],
+    o: ['Ocorre apenas com oxigênio hiperbárico, nunca em pressão ambiente', 'Decorre de espécies reativas de oxigênio; usar a menor FiO2 para a SpO2 alvo', 'É prevenida mantendo a SpO2 sempre em 100% durante a ventilação', 'Manifesta-se exclusivamente por convulsões, sem repercussão pulmonar'],
     g: 'B',
     c: 'A exposição prolongada a FiO2 elevada gera radicais livres que superam as defesas antioxidantes e lesam o epitélio alveolar e o endotélio, produzindo traqueobronquite e dano alveolar difuso. O risco cresce com a concentração e o tempo de exposição, e por isso a FiO2 deve ser reduzida assim que possível, usando PEEP para manter a oxigenação.',
     x: { A: 'A toxicidade pulmonar ocorre em pressão ambiente com FiO2 alta por tempo prolongado.', C: 'Buscar SpO2 de 100% leva à hiperóxia, que é exatamente a causa da lesão.', D: 'Convulsões são a toxicidade neurológica do oxigênio hiperbárico, não a forma pulmonar.' },
@@ -189,7 +189,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Toxicidade do oxigênio',
     e: 'Homem de 32 anos, tratado há 8 meses com bleomicina por tumor de células germinativas, será submetido a cirurgia eletiva. Em relação ao oxigênio no perioperatório, a recomendação é:',
-    o: ['Usar FiO2 de 100% durante todo o procedimento, para proteger o pulmão', 'Usar a menor FiO2 capaz de manter saturação adequada, pois a hiperóxia pode precipitar toxicidade pulmonar grave', 'Contraindicar qualquer oxigênio suplementar, mesmo com hipoxemia', 'Não há relação entre bleomicina e oxigênio suplementar'],
+    o: ['Usar FiO2 de 100% durante todo o procedimento, para proteger o pulmão', 'Menor FiO2 capaz de manter saturação adequada, pelo risco de toxicidade', 'Contraindicar qualquer oxigênio suplementar, mesmo com hipoxemia', 'Não há relação entre bleomicina e oxigênio suplementar no pulmão'],
     g: 'B',
     c: 'A bleomicina lesa o pulmão por formação de radicais livres, e a exposição a FiO2 elevada potencializa esse mecanismo, podendo desencadear pneumonite e síndrome do desconforto respiratório mesmo meses ou anos após o tratamento. Por isso se usa a menor FiO2 necessária para manter a saturação.',
     x: { A: 'A FiO2 de 100% é justamente o fator que precipita a lesão pulmonar nesses pacientes.', C: 'A hipoxemia deve ser tratada; o que se evita é o excesso de oxigênio.', D: 'A interação é clássica e deve ser informada à equipe anestésica.' },
@@ -197,7 +197,7 @@ export const IRPA_2: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia em intoxicações',
     e: 'Gestante de 29 anos, vítima de inalação de fumaça em incêndio, tem cefaleia, confusão mental e carboxi-hemoglobina de 28%. A base do tratamento e seu fundamento são:',
-    o: ['Oxigênio por cateter nasal a 2 L/min, para evitar hiperóxia fetal', 'Oxigênio a 100%, que compete com o monóxido de carbono pela hemoglobina e encurta a meia-vida da carboxi-hemoglobina', 'Azul de metileno intravenoso, que reduz o ferro do heme', 'Ar ambiente e observação, pois a SpO2 está normal'],
+    o: ['Oxigênio por cateter nasal a 2 L/min, para evitar hiperóxia fetal', 'O2 a 100%, que compete com o CO e encurta a meia-vida da COHb', 'Azul de metileno intravenoso, que reduz o ferro do heme oxidado', 'Ar ambiente e observação, pois a SpO2 está normal ao oxímetro'],
     g: 'B',
     c: 'A ligação do monóxido de carbono à hemoglobina é competitiva: em ar ambiente a meia-vida da carboxi-hemoglobina é de 4 a 5 horas, caindo para cerca de 60 a 90 minutos com oxigênio a 100%. O oxigênio hiperbárico reduz ainda mais esse tempo e é considerado em casos graves, como sintomas neurológicos, gestação ou níveis muito elevados.',
     x: { A: 'O baixo fluxo é insuficiente para deslocar o monóxido de carbono; a gestação reforça a indicação de oxigênio a 100%.', C: 'O azul de metileno trata a meta-hemoglobinemia, não a intoxicação por monóxido de carbono.', D: 'A oximetria de pulso é falsamente normal, pois lê a carboxi-hemoglobina como oxi-hemoglobina.' },

@@ -5,7 +5,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia',
     e: 'Na insuficiência cardíaca com fração de ejeção reduzida, a ativação sustentada do sistema renina-angiotensina-aldosterona e do sistema nervoso simpático tem como principal consequência a longo prazo:',
-    o: ['Normalização definitiva do débito cardíaco, sem prejuízo ao miocárdio', 'Remodelamento ventricular progressivo, com fibrose, apoptose de miócitos e piora da função', 'Redução da pós-carga por vasodilatação arterial sistêmica', 'Aumento da excreção renal de sódio e água'],
+    o: ['Normalização definitiva do débito cardíaco, sem prejuízo algum ao miocárdio', 'Remodelamento ventricular progressivo, com fibrose, apoptose e piora da função', 'Redução da pós-carga por vasodilatação arterial sistêmica, com benefício', 'Aumento da excreção renal de sódio e de água pelo rim, com benefício'],
     g: 'B',
     c: 'A ativação neuro-hormonal é compensatória no início (mantém pressão e débito), mas, quando crônica, a angiotensina II, a aldosterona e as catecolaminas causam vasoconstrição, retenção de sódio, hipertrofia, fibrose e morte de miócitos. Esse remodelamento adverso é o que faz a doença progredir, e por isso os fármacos que bloqueiam esses sistemas reduzem a mortalidade.',
     x: { A: 'A compensação é transitória; cronicamente os mesmos mecanismos lesam o miocárdio.', C: 'Angiotensina II e noradrenalina causam vasoconstrição e aumentam a pós-carga.', D: 'Aldosterona e angiotensina II promovem retenção de sódio e água, não excreção.' },
@@ -37,7 +37,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Doença de Chagas',
     e: 'Para confirmar a etiologia chagásica em um paciente com cardiomiopatia dilatada na fase crônica da doença, o método recomendado é:',
-    o: ['Pesquisa direta do parasita em sangue periférico (exame a fresco)', 'Dois testes sorológicos de princípios diferentes para detecção de IgG', 'Hemocultura em meio aeróbio comum', 'Biópsia endomiocárdica em todos os casos'],
+    o: ['Pesquisa direta do parasita em sangue periférico (exame a fresco), na fase crônica', 'Dois testes sorológicos de princípios diferentes, para IgG', 'Hemocultura em meio aeróbio comum, na fase crônica', 'Biópsia endomiocárdica em todos os casos de cardiomiopatia'],
     g: 'B',
     c: 'Na fase crônica a parasitemia é baixa e intermitente, de modo que os métodos parasitológicos diretos têm baixa sensibilidade. O diagnóstico é sorológico e exige dois testes de princípios distintos (por exemplo, ELISA e imunofluorescência indireta ou hemaglutinação) reagentes para IgG contra Trypanosoma cruzi.',
     x: { A: 'O exame direto é útil na fase aguda, quando a parasitemia é alta.', C: 'A hemocultura comum não isola o Trypanosoma cruzi; métodos parasitológicos têm baixa sensibilidade na fase crônica.', D: 'A biópsia é invasiva e desnecessária para o diagnóstico etiológico de rotina.' },
@@ -61,7 +61,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Estágios A-D',
     e: 'Homem de 62 anos teve infarto anterior há dois anos. Nunca apresentou dispneia, edema ou fadiga. O ecocardiograma mostra fração de ejeção de 38%. O estágio da insuficiência cardíaca e a conduta com impacto prognóstico são:',
-    o: ['Estágio A; apenas controle de fatores de risco', 'Estágio B; inibidor da enzima conversora de angiotensina e betabloqueador', 'Estágio C; furosemida em dose plena', 'Estágio D; avaliação para transplante cardíaco'],
+    o: ['Estágio A; apenas controle dos fatores de risco', 'Estágio B; IECA e betabloqueador', 'Estágio C; furosemida em dose plena, com sintomas', 'Estágio D; avaliação para transplante cardíaco, na doença refratária'],
     g: 'B',
     c: 'Doença estrutural sem sintomas define o estágio B. Na disfunção sistólica assintomática, sobretudo após infarto, o inibidor da enzima conversora e o betabloqueador retardam o remodelamento, previnem o aparecimento de sintomas e reduzem a mortalidade. Diuréticos só entram quando há congestão.',
     x: { A: 'Há alteração estrutural (infarto e fração de ejeção reduzida), o que ultrapassa o estágio A.', C: 'Não há sintomas nem congestão; o diurético não tem papel aqui.', D: 'O estágio D é a doença refratária, com sintomas graves apesar de tratamento otimizado.' },
@@ -69,7 +69,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Classificação pela fração de ejeção',
     e: 'Paciente com sinais e sintomas de insuficiência cardíaca tem fração de ejeção do ventrículo esquerdo de 45% ao ecocardiograma. Pela definição universal adotada nas diretrizes atuais, trata-se de insuficiência cardíaca com fração de ejeção:',
-    o: ['Reduzida', 'Levemente reduzida', 'Preservada', 'Melhorada'],
+    o: ['IC com fração de ejeção reduzida (FEVE ≤ 40%)', 'IC com fração levemente reduzida (FEVE 41-49%)', 'IC com fração preservada (FEVE ≥ 50%)', 'IC com fração melhorada (FEVE prévia ≤ 40%, agora > 40%)'],
     g: 'B',
     c: 'A classificação atual divide: reduzida, fração de ejeção até 40%; levemente reduzida, de 41 a 49%; preservada, 50% ou mais. A categoria melhorada (ou recuperada) aplica-se a quem tinha fração de ejeção até 40% e subiu pelo menos 10 pontos, ultrapassando 40%. A distinção importa porque a maior parte das evidências de redução de mortalidade vem do grupo com fração reduzida.',
     x: { A: 'Fração de ejeção reduzida é a de 40% ou menos.', C: 'Fração de ejeção preservada é a de 50% ou mais.', D: 'A categoria melhorada exige valor prévio de 40% ou menos, o que não foi informado.' },
@@ -85,7 +85,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Critérios de Framingham',
     e: 'Mulher de 70 anos refere dispneia aos esforços e tosse noturna. Ao exame: frequência cardíaca de 96 bpm, estertores crepitantes em bases e edema de tornozelos. Não há turgência jugular nem terceira bulha. Pelos critérios de Framingham:',
-    o: ['Não há critérios suficientes, pois só existem critérios menores', 'Há diagnóstico clínico de insuficiência cardíaca: um critério maior e pelo menos dois menores', 'O diagnóstico só é possível com dois critérios maiores', 'O diagnóstico exige necessariamente dosagem de peptídeo natriurético'],
+    o: ['Não há critérios suficientes, pois só existem critérios menores', 'Diagnóstico clínico de IC: 1 critério maior e ao menos 2 menores', 'O diagnóstico só é possível com dois critérios maiores', 'Exige necessariamente a dosagem de peptídeo natriurético'],
     g: 'B',
     c: 'O diagnóstico por Framingham requer dois critérios maiores ou um maior e dois menores. Os estertores pulmonares são critério maior; dispneia aos esforços, tosse noturna e edema de tornozelos são menores. A taquicardia só conta como critério menor quando acima de 120 bpm.',
     x: { A: 'Os estertores crepitantes são critério maior.', C: 'A combinação de um maior com dois menores também fecha o diagnóstico.', D: 'Os critérios de Framingham são puramente clínico-radiológicos; os peptídeos são complementares.' },
@@ -93,7 +93,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Semiologia',
     e: 'Homem de 58 anos com cardiomiopatia dilatada apresenta, na ausculta do foco mitral em decúbito lateral esquerdo, um som grave logo após a segunda bulha, mais bem ouvido com a campânula. Esse achado corresponde a:',
-    o: ['Quarta bulha, pela contração atrial contra um ventrículo rígido', 'Terceira bulha, pela desaceleração brusca do sangue na fase de enchimento rápido de um ventrículo dilatado e com pressões elevadas', 'Estalido de abertura mitral', 'Desdobramento fixo da segunda bulha'],
+    o: ['Quarta bulha, pela contração atrial contra um ventrículo rígido e hipertrofiado', 'Terceira bulha: desaceleração brusca do sangue no enchimento rápido de ventrículo dilatado', 'Estalido de abertura mitral, que é achado da estenose mitral', 'Desdobramento fixo da segunda bulha, que é achado da CIA'],
     g: 'B',
     c: 'A terceira bulha ocorre no início da diástole (protodiástole), na fase de enchimento ventricular rápido. No adulto com cardiopatia indica sobrecarga de volume e disfunção sistólica, sendo um dos sinais mais específicos de insuficiência cardíaca. É grave, por isso é mais audível com a campânula.',
     x: { A: 'A quarta bulha é pré-sistólica, ocorre imediatamente antes da primeira bulha.', C: 'O estalido de abertura é agudo, ouvido com o diafragma, e típico da estenose mitral.', D: 'O desdobramento fixo de B2 é ouvido no foco pulmonar e sugere comunicação interatrial.' },
@@ -117,7 +117,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Peptídeos natriuréticos',
     e: 'Mulher de 64 anos, tabagista, chega ao pronto-socorro com dispneia de início há dois dias. O exame é inconclusivo entre insuficiência cardíaca e exacerbação de doença pulmonar. O NT-proBNP é de 110 pg/mL. A interpretação correta é:',
-    o: ['Confirma insuficiência cardíaca aguda', 'Torna insuficiência cardíaca aguda muito improvável, pelo alto valor preditivo negativo', 'Não tem utilidade, pois o exame só serve para prognóstico', 'Indica cateterismo cardíaco direito para definir o diagnóstico'],
+    o: ['Confirma insuficiência cardíaca aguda, com BNP normal', 'Torna a IC aguda muito improvável, pelo alto valor preditivo negativo', 'Não tem utilidade, pois o exame só serve para prognóstico', 'Indica cateterismo cardíaco direito para definir o diagnóstico'],
     g: 'B',
     c: 'A maior utilidade dos peptídeos natriuréticos na emergência é excluir insuficiência cardíaca: NT-proBNP abaixo de 300 pg/mL ou BNP abaixo de 100 pg/mL tornam o diagnóstico muito improvável. Eles são liberados pelos ventrículos em resposta ao estiramento da parede, de modo que valores normais indicam ausência de sobrecarga relevante.',
     x: { A: 'Valor baixo afasta, e não confirma, o diagnóstico.', C: 'Os peptídeos têm valor diagnóstico (exclusão) além do prognóstico.', D: 'Não há indicação de exame invasivo diante de peptídeo natriurético baixo.' },
@@ -149,7 +149,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Radiografia de tórax',
     e: 'Na radiografia de tórax de um paciente com insuficiência cardíaca descompensada veem-se linhas horizontais finas, de 1 a 2 cm, na periferia das bases pulmonares, perpendiculares à pleura. Elas representam:',
-    o: ['Atelectasias laminares por hipoventilação', 'Espessamento dos septos interlobulares por edema intersticial', 'Calcificações pleurais', 'Preenchimento alveolar em asa de borboleta'],
+    o: ['Atelectasias laminares por hipoventilação, sem sinais de congestão', 'Espessamento dos septos interlobulares por edema intersticial (linhas B de Kerley)', 'Calcificações pleurais, de pleuropatia crônica ocupacional', 'Preenchimento alveolar em asa de borboleta, que é do edema alveolar'],
     g: 'B',
     c: 'As linhas B de Kerley correspondem a septos interlobulares espessados por líquido e linfáticos dilatados, marcando a fase de edema intersticial. A sequência radiológica clássica da congestão é: redistribuição do fluxo para os ápices (cefalização), edema intersticial com linhas de Kerley e borramento peri-hilar, e por fim edema alveolar.',
     x: { A: 'As atelectasias laminares são mais espessas e não têm essa distribuição septal periférica.', C: 'Calcificações pleurais são densas e irregulares, relacionadas a asbesto ou sequela de empiema.', D: 'O padrão em asa de borboleta é o edema alveolar, fase posterior à intersticial.' },
@@ -157,7 +157,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Derrame pleural',
     e: 'Paciente com insuficiência cardíaca tem derrame pleural. Qual característica faz suspeitar de OUTRA causa e indica toracocentese diagnóstica?',
-    o: ['Derrame bilateral, maior à direita', 'Derrame unilateral à esquerda, com febre e dor pleurítica', 'Melhora do derrame após diureticoterapia', 'Cardiomegalia associada na radiografia'],
+    o: ['Derrame bilateral, maior à direita, comum na insuficiência cardíaca', 'Derrame unilateral esquerdo, com febre e dor pleurítica', 'Melhora do derrame após diureticoterapia, comum na insuficiência cardíaca', 'Cardiomegalia associada na radiografia, comum na insuficiência cardíaca'],
     g: 'B',
     c: 'O derrame da insuficiência cardíaca é um transudato por aumento da pressão hidrostática, tipicamente bilateral e, quando assimétrico ou unilateral, predominante à direita. Derrame isolado à esquerda, febre, dor pleurítica ou ausência de resposta ao diurético sugerem outra etiologia (infecção, embolia, neoplasia) e pedem análise do líquido.',
     x: { A: 'É a apresentação típica do derrame por insuficiência cardíaca.', C: 'A resposta ao diurético reforça a origem cardíaca.', D: 'A cardiomegalia é coerente com a etiologia cardíaca do derrame.' },
@@ -173,7 +173,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Taquicardiomiopatia',
     e: 'Mulher de 50 anos, previamente hígida, tem palpitações há quatro meses e dispneia progressiva. Eletrocardiograma: fibrilação atrial com frequência ventricular de 150 bpm. Ecocardiograma: ventrículo esquerdo dilatado, fração de ejeção de 30%, sem alteração segmentar. Coronárias normais. A hipótese principal e sua característica são:',
-    o: ['Cardiomiopatia dilatada idiopática, irreversível', 'Cardiomiopatia induzida por taquicardia, potencialmente reversível com controle do ritmo ou da frequência', 'Miocardite fulminante, com indicação de imunossupressão', 'Cardiomiopatia de estresse, restrita ao ápice'],
+    o: ['Cardiomiopatia dilatada idiopática, de evolução sempre irreversível', 'Cardiomiopatia por taquicardia, reversível com controle do ritmo ou da frequência', 'Miocardite fulminante, com indicação de imunossupressão em dose alta', 'Cardiomiopatia de estresse, restrita ao ápice, com coronárias normais'],
     g: 'B',
     c: 'Taquiarritmias persistentes com frequência elevada por semanas a meses esgotam as reservas energéticas do miócito e alteram o manejo do cálcio, causando disfunção sistólica global. A marca da taquicardiomiopatia é a recuperação parcial ou total da fração de ejeção após o controle da arritmia, o que deve sempre ser tentado antes de rotular a cardiomiopatia como idiopática.',
     x: { A: 'Só se chama idiopática após excluir causas reversíveis, como a taquicardia sustentada.', C: 'Não há quadro agudo febril nem instabilidade que sugira miocardite fulminante.', D: 'A cardiomiopatia de estresse é aguda, com balonamento apical após estresse, e não disfunção global por meses.' },
@@ -181,7 +181,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia periparto',
     e: 'Puérpera de 34 anos, no segundo mês após parto gemelar, sem cardiopatia prévia, apresenta dispneia, ortopneia e edema. O ecocardiograma mostra fração de ejeção de 35%. Sobre essa condição, é correto afirmar:',
-    o: ['Só pode ser diagnosticada se surgir antes do parto', 'Manifesta-se do final da gestação aos primeiros meses após o parto, é diagnóstico de exclusão e há risco de recorrência em nova gestação', 'A função ventricular nunca se recupera', 'Inibidores da enzima conversora são seguros durante a gestação'],
+    o: ['Só pode ser diagnosticada se surgir antes do parto, na gestação', 'Do fim da gestação aos primeiros meses pós-parto; exclusão; risco de recorrência', 'A função ventricular nunca se recupera, em nenhum caso de miocardiopatia periparto', 'IECA são seguros durante a gestação, em qualquer trimestre da gravidez'],
     g: 'B',
     c: 'A cardiomiopatia periparto é a disfunção sistólica (fração de ejeção abaixo de 45%) que surge no final da gestação ou nos meses seguintes ao parto, classicamente até o quinto mês, sem outra causa identificável. Fatores de risco incluem idade materna avançada, multiparidade, gemelaridade e pré-eclâmpsia. Parte das pacientes recupera a função, mas há risco de recidiva em gestações futuras, sobretudo se a fração de ejeção não normalizar.',
     x: { A: 'A maioria dos casos aparece após o parto.', C: 'Cerca de metade das pacientes recupera a função ventricular.', D: 'Inibidores da enzima conversora e bloqueadores da angiotensina são teratogênicos e contraindicados na gestação.' },
@@ -189,7 +189,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Semiologia',
     e: 'O mecanismo que melhor explica a ortopneia na insuficiência cardíaca esquerda é:',
-    o: ['Broncoespasmo reflexo desencadeado pelo decúbito', 'Redistribuição de sangue dos membros inferiores e do território esplâncnico para o tórax, elevando a pressão capilar pulmonar', 'Queda da pressão arterial sistêmica ao deitar', 'Fraqueza do diafragma por hipoperfusão'],
+    o: ['Broncoespasmo reflexo desencadeado pelo decúbito, com sibilância', 'Sangue das pernas e do território esplâncnico vai ao tórax, ↑ pressão capilar pulmonar', 'Queda da pressão arterial sistêmica ao deitar, com hipoperfusão', 'Fraqueza do diafragma por hipoperfusão, com hipoventilação'],
     g: 'B',
     c: 'Ao deitar, o retorno venoso aumenta e o ventrículo esquerdo insuficiente não consegue acomodar o volume adicional; a pressão no átrio esquerdo e nos capilares pulmonares sobe em minutos, causando dispneia que alivia ao sentar. A dispneia paroxística noturna tem base semelhante, mas é mais tardia (horas), pela reabsorção lenta do edema e pela depressão do centro respiratório durante o sono.',
     x: { A: 'Pode haver sibilância (asma cardíaca), mas ela é consequência do edema, não o mecanismo primário.', C: 'A pressão arterial não cai com o decúbito; o problema é congestão pulmonar.', D: 'A fraqueza diafragmática causa ortopneia em doenças neuromusculares, não na insuficiência cardíaca.' },
@@ -197,7 +197,7 @@ export const IC_1: QuestaoCompacta[] = [
   {
     s: 'Semiologia',
     e: 'Em paciente com cardiomiopatia dilatada, a palpação do pulso radial em ritmo regular revela batimentos alternadamente fortes e fracos. Esse achado é chamado de pulso:',
-    o: ['Paradoxal, típico do tamponamento cardíaco', 'Alternante, sinal de disfunção sistólica grave do ventrículo esquerdo', 'Em martelo de água, típico da insuficiência aórtica', 'Parvus et tardus, típico da estenose aórtica'],
+    o: ['Paradoxal, típico do tamponamento cardíaco', 'Alternante, sinal de disfunção sistólica grave do VE', 'Em martelo de água, típico da insuficiência aórtica', 'Parvus et tardus, típico da estenose aórtica'],
     g: 'B',
     c: 'O pulso alternante é a variação da amplitude batimento a batimento com ritmo regular. Reflete a alternância da força de contração de um miocárdio gravemente comprometido, ligada a oscilações do cálcio intracelular e do enchimento ventricular, e indica mau prognóstico.',
     x: { A: 'O pulso paradoxal é a queda exagerada da pressão sistólica na inspiração.', C: 'O pulso em martelo de água tem ascensão e colapso rápidos, com amplitude ampla e constante.', D: 'O pulso parvus et tardus tem amplitude pequena e ascensão lenta em todos os batimentos.' },

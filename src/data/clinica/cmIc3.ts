@@ -13,7 +13,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Fração de ejeção preservada',
     e: 'O mecanismo fisiopatológico central da insuficiência cardíaca com fração de ejeção preservada é:',
-    o: ['Perda de massa contrátil com dilatação da cavidade', 'Relaxamento prejudicado e aumento da rigidez ventricular, exigindo pressões de enchimento elevadas para manter o volume diastólico', 'Obstrução dinâmica da via de saída do ventrículo esquerdo', 'Aumento primário do débito cardíaco por queda da resistência periférica'],
+    o: ['Perda de massa contrátil com dilatação da cavidade ventricular', 'Relaxamento prejudicado e rigidez ventricular, com pressões de enchimento altas', 'Obstrução dinâmica da via de saída do ventrículo esquerdo', 'Aumento primário do débito cardíaco por queda da resistência periférica'],
     g: 'B',
     c: 'Na disfunção diastólica o ventrículo, hipertrofiado e fibrótico, relaxa mal e é pouco complacente; a curva de pressão e volume diastólica desloca-se para cima, de modo que pequenos aumentos de volume elevam muito a pressão. Essa pressão transmite-se ao átrio esquerdo e aos capilares pulmonares, sobretudo no esforço e na taquicardia, quando o tempo de diástole encurta.',
     x: { A: 'Esse é o mecanismo da fração de ejeção reduzida.', C: 'A obstrução dinâmica é própria da cardiomiopatia hipertrófica obstrutiva.', D: 'Esse é o mecanismo da insuficiência cardíaca de alto débito.' },
@@ -45,7 +45,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Cardiodesfibrilador implantável',
     e: 'Homem de 60 anos com cardiomiopatia isquêmica crônica e fração de ejeção de 30% é reanimado de parada cardíaca em fibrilação ventricular em casa. Não há isquemia aguda, distúrbio eletrolítico nem outra causa reversível. A medida mais eficaz para prevenir morte súbita é:',
-    o: ['Amiodarona isolada', 'Implante de cardiodesfibrilador para prevenção secundária', 'Marca-passo de câmara única', 'Aumento da dose de digoxina'],
+    o: ['Amiodarona isolada, sem dispositivo', 'CDI para prevenção secundária', 'Marca-passo de câmara única, sem desfibrilação', 'Aumento da dose de digoxina, sem dispositivo'],
     g: 'B',
     c: 'Sobreviventes de fibrilação ventricular ou de taquicardia ventricular sustentada com instabilidade, sem causa reversível, têm alto risco de recorrência. O cardiodesfibrilador reconhece e interrompe a arritmia por choque ou estimulação rápida e é superior aos antiarrítmicos em reduzir a mortalidade (prevenção secundária, indicação de classe I).',
     x: { A: 'A amiodarona reduz recorrências, mas é inferior ao desfibrilador em sobrevida.', C: 'O marca-passo trata bradiarritmias, não taquiarritmias ventriculares.', D: 'A digoxina não previne morte súbita e pode ser pró-arrítmica.' },
@@ -53,7 +53,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Cardiodesfibrilador implantável',
     e: 'Qual paciente tem indicação de cardiodesfibrilador implantável para prevenção PRIMÁRIA de morte súbita?',
-    o: ['Fração de ejeção de 45%, classe funcional II, sem arritmias', 'Cardiomiopatia isquêmica, infarto há um ano, fração de ejeção de 28%, classe funcional II após três meses de terapia otimizada e boa expectativa de vida', 'Fração de ejeção de 25%, classe funcional IV refratária, sem perspectiva de transplante ou assistência ventricular', 'Fração de ejeção de 30% diagnosticada há uma semana, sem tratamento'],
+    o: ['FE de 45%, classe funcional II, sem arritmias documentadas', 'CMP isquêmica, FE 28%, CF II após 3 meses de terapia otimizada e boa expectativa de vida', 'FE de 25%, CF IV refratária, sem perspectiva de transplante ou assistência', 'FE de 30% diagnosticada há uma semana, sem terapia otimizada'],
     g: 'B',
     c: 'A prevenção primária é indicada para fração de ejeção de 35% ou menos, classe funcional II ou III, após pelo menos três meses de terapia otimizada (e pelo menos 40 dias após infarto), com expectativa de vida superior a um ano. O benefício é mais robusto na etiologia isquêmica (estudos MADIT-II e SCD-HeFT); na não isquêmica a recomendação é mais fraca após o estudo DANISH.',
     x: { A: 'Fração de ejeção acima de 35% não preenche o critério.', C: 'Na classe IV refratária sem outra perspectiva, a morte ocorre por falência de bomba e o dispositivo não traz benefício.', D: 'É preciso antes otimizar o tratamento por três meses, pois a fração de ejeção pode melhorar.' },
@@ -61,7 +61,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Cardiodesfibrilador implantável',
     e: 'Homem de 58 anos teve infarto anterior extenso há 10 dias, tratado com angioplastia. Ecocardiograma: fração de ejeção de 30%. Está estável, sem arritmias ventriculares sustentadas. Quanto ao cardiodesfibrilador:',
-    o: ['Implantar antes da alta hospitalar', 'Otimizar o tratamento clínico e reavaliar a fração de ejeção após pelo menos 40 dias do infarto', 'Não há indicação em nenhum momento, pois a causa é isquêmica', 'Implantar apenas se houver bloqueio de ramo esquerdo'],
+    o: ['Implantar o CDI antes da alta hospitalar, por segurança', 'Otimizar o tratamento clínico e reavaliar a FE após pelo menos 40 dias do infarto', 'Não há indicação em nenhum momento de CDI, pois a causa é isquêmica', 'Implantar o CDI apenas se houver bloqueio de ramo esquerdo'],
     g: 'B',
     c: 'Logo após o infarto parte da disfunção se deve a miocárdio atordoado, que pode se recuperar com a reperfusão e o tratamento clínico. Os estudos DINAMIT e IRIS mostraram que o implante precoce não reduz a mortalidade total. Por isso se aguardam pelo menos 40 dias (ou 90 dias após revascularização) e se reavalia a fração de ejeção antes de indicar o dispositivo.',
     x: { A: 'O implante precoce após infarto não reduziu a mortalidade total nos ensaios clínicos.', C: 'A etiologia isquêmica é justamente a de maior benefício, respeitado o intervalo.', D: 'O bloqueio de ramo esquerdo é critério para ressincronização, não para desfibrilador.' },
@@ -85,7 +85,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Insuficiência cardíaca avançada',
     e: 'Homem de 52 anos com cardiomiopatia dilatada, fração de ejeção de 18%, teve três internações em seis meses, uma delas com dobutamina. Está em classe funcional IV, com pressão de 86/58 mmHg, o que obrigou a reduzir as doses de sacubitril-valsartana e carvedilol; a creatinina vem subindo e a dose de furosemida é crescente. A conduta mais adequada é:',
-    o: ['Aumentar o betabloqueador até a dose-alvo', 'Encaminhar a centro especializado para avaliar transplante cardíaco ou suporte circulatório mecânico', 'Associar verapamil para melhorar o relaxamento', 'Implantar apenas cardiodesfibrilador e manter seguimento habitual'],
+    o: ['Aumentar o betabloqueador até a dose-alvo, mesmo com baixo débito', 'Encaminhar a centro especializado: avaliar transplante ou suporte circulatório mecânico', 'Associar verapamil para melhorar o relaxamento ventricular', 'Implantar apenas cardiodesfibrilador e manter o seguimento habitual'],
     g: 'B',
     c: 'Internações repetidas, necessidade de inotrópico, hipotensão com intolerância aos fármacos modificadores da doença, piora renal e doses crescentes de diurético caracterizam a insuficiência cardíaca avançada (estágio D). Nessa fase o tratamento clínico já não basta, e o encaminhamento precoce a centro de transplante e assistência ventricular é o que muda o prognóstico.',
     x: { A: 'O paciente já não tolera a dose atual por hipotensão.', C: 'O verapamil é inotrópico negativo e contraindicado na fração de ejeção reduzida.', D: 'O desfibrilador não trata a falência de bomba, que é a principal ameaça nesse paciente.' },
@@ -93,7 +93,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Transplante cardíaco',
     e: 'Na avaliação de um candidato a transplante cardíaco, qual achado constitui contraindicação clássica ao transplante cardíaco isolado?',
-    o: ['Etiologia chagásica', 'Hipertensão pulmonar fixa, com resistência vascular pulmonar elevada e sem resposta a vasodilatadores', 'Idade de 55 anos', 'Uso prévio de cardiodesfibrilador'],
+    o: ['Etiologia chagásica, que não contraindica o transplante cardíaco', 'Hipertensão pulmonar fixa: RVP alta e sem resposta a vasodilatadores', 'Idade de 55 anos, que não contraindica o transplante cardíaco', 'Uso prévio de cardiodesfibrilador, que não contraindica o transplante'],
     g: 'B',
     c: 'O ventrículo direito do coração doado é normal e não está adaptado a vencer resistência pulmonar elevada; se a hipertensão pulmonar for fixa (classicamente resistência acima de 5 unidades Wood ou gradiente transpulmonar acima de 15 mmHg sem resposta a vasodilatadores), ocorre falência aguda do ventrículo direito do enxerto. Outras contraindicações incluem neoplasia ativa, infecção ativa não controlada e má adesão.',
     x: { A: 'A doença de Chagas não contraindica o transplante, embora exija vigilância de reativação.', C: 'Essa idade está dentro da faixa habitual de indicação.', D: 'O dispositivo prévio não interfere na indicação de transplante.' },
@@ -109,7 +109,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Assistência circulatória mecânica',
     e: 'Homem de 56 anos, listado para transplante cardíaco, evolui com dependência de inotrópico e disfunção renal e hepática progressivas por baixo débito, sem doador disponível. A melhor estratégia é:',
-    o: ['Manter apenas o inotrópico e aguardar, mesmo com piora de órgãos', 'Implantar dispositivo de assistência ventricular esquerda como ponte para o transplante', 'Retirar o paciente da lista de transplante', 'Indicar terapia de ressincronização de urgência'],
+    o: ['Manter apenas o inotrópico e aguardar, mesmo com piora de múltiplos órgãos', 'Implantar dispositivo de assistência ventricular esquerda como ponte para o transplante', 'Retirar o paciente da lista de transplante cardíaco', 'Indicar terapia de ressincronização de urgência, de forma isolada'],
     g: 'B',
     c: 'Os dispositivos de assistência ventricular esquerda de fluxo contínuo retiram sangue do ventrículo e o bombeiam para a aorta, restaurando o débito e revertendo a disfunção de órgãos. Podem ser usados como ponte para transplante, ponte para candidatura ou terapia de destino em quem não é candidato. Exigem ventrículo direito competente e anticoagulação; as principais complicações são sangramento, infecção do cabo, trombose da bomba e acidente vascular cerebral.',
     x: { A: 'Aguardar com piora de órgãos-alvo compromete o resultado do transplante.', C: 'A disfunção de órgãos por baixo débito é potencialmente reversível com suporte mecânico.', D: 'A ressincronização não resolve choque com dependência de inotrópico.' },
@@ -125,7 +125,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Fibrilação atrial',
     e: 'Homem de 68 anos, hipertenso, com insuficiência cardíaca de fração de ejeção reduzida, apresenta fibrilação atrial persistente não valvar. Função renal normal, sem sangramentos prévios. Para prevenção de tromboembolismo:',
-    o: ['Ácido acetilsalicílico é suficiente', 'Anticoagulação oral, de preferência com anticoagulante oral direto', 'Não há indicação, pois o risco é baixo', 'Dupla antiagregação plaquetária'],
+    o: ['AAS é suficiente para prevenção de eventos embólicos', 'Anticoagulação oral, de preferência com anticoagulante oral direto', 'Não há indicação de anticoagulação, pois o risco é baixo', 'Dupla antiagregação plaquetária, para prevenção de eventos embólicos'],
     g: 'B',
     c: 'No escore CHA2DS2-VASc o paciente soma pelo menos três pontos (insuficiência cardíaca, hipertensão e idade entre 65 e 74 anos), o que indica anticoagulação. Os anticoagulantes diretos são preferidos à varfarina por menor risco de hemorragia intracraniana, exceto na estenose mitral moderada a grave e em portadores de prótese valvar mecânica. A aspirina não protege adequadamente contra embolia na fibrilação atrial.',
     x: { A: 'A aspirina tem eficácia muito inferior e risco de sangramento semelhante.', C: 'O risco tromboembólico é elevado, com três pontos no escore.', D: 'A dupla antiagregação é inferior à anticoagulação e aumenta sangramento.' },
@@ -141,7 +141,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Deficiência de ferro',
     e: 'Homem de 65 anos com fração de ejeção de 32%, em terapia otimizada, mantém fadiga em classe funcional III. Hemoglobina de 12,8 g/dL, ferritina de 70 ng/mL e saturação de transferrina de 15%. A conduta que melhora sintomas e reduz hospitalizações é:',
-    o: ['Sulfato ferroso oral por seis meses', 'Ferro intravenoso, como a carboximaltose férrica', 'Darbepoetina alfa', 'Nenhuma, pois não há anemia'],
+    o: ['Sulfato ferroso oral por seis meses', 'Ferro intravenoso, como a carboximaltose férrica', 'Darbepoetina alfa, para elevar a hemoglobina', 'Nenhuma, pois não há anemia'],
     g: 'B',
     c: 'A deficiência de ferro na insuficiência cardíaca é definida por ferritina abaixo de 100 ng/mL, ou entre 100 e 299 ng/mL com saturação de transferrina abaixo de 20%, e deve ser tratada mesmo sem anemia, pois o ferro é essencial ao metabolismo oxidativo do músculo. O ferro intravenoso melhorou capacidade funcional e reduziu hospitalizações (FAIR-HF, CONFIRM-HF, AFFIRM-AHF). O ferro oral é mal absorvido, pela hepcidina elevada e pelo edema de alça, e não mostrou benefício (IRONOUT-HF).',
     x: { A: 'O ferro oral não melhorou a capacidade funcional nesses pacientes.', C: 'Os estimuladores da eritropoiese não trazem benefício e aumentam eventos trombóticos.', D: 'A deficiência de ferro deve ser tratada independentemente da hemoglobina.' },
@@ -149,7 +149,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Anemia',
     e: 'Paciente com insuficiência cardíaca de fração de ejeção reduzida tem hemoglobina de 10,5 g/dL, sem deficiência de ferro, sangramento ou doença renal avançada. Sobre o uso de darbepoetina para corrigir a anemia nesse cenário:',
-    o: ['Reduz a mortalidade e deve ser usada rotineiramente', 'Não é recomendado: não melhora desfechos e aumenta eventos tromboembólicos', 'É indicado sempre que a hemoglobina for menor que 12 g/dL', 'Substitui a terapia com betabloqueador'],
+    o: ['Reduz a mortalidade e deve ser usada rotineiramente nos anêmicos', 'Não recomendado: não melhora desfechos e aumenta eventos tromboembólicos', 'Indicado sempre que a hemoglobina for menor que 12 g/dL', 'Substitui a terapia com betabloqueador, por melhora da anemia'],
     g: 'B',
     c: 'No estudo RED-HF a darbepoetina elevou a hemoglobina, mas não reduziu morte nem hospitalização e aumentou eventos tromboembólicos, inclusive acidente vascular cerebral. Por isso os agentes estimuladores da eritropoiese não devem ser usados para tratar anemia na insuficiência cardíaca, salvo se houver outra indicação, como doença renal crônica avançada.',
     x: { A: 'Não houve benefício em mortalidade no estudo RED-HF.', C: 'A simples presença de anemia não indica o uso desses agentes.', D: 'Não tem qualquer papel substitutivo da terapia modificadora da doença.' },
@@ -165,7 +165,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Fármacos a evitar',
     e: 'Mulher de 69 anos com insuficiência cardíaca compensada passa a usar diclofenaco por dor no joelho e, em dez dias, ganha 4 kg, com piora da dispneia e do edema. O mecanismo da descompensação é:',
-    o: ['Efeito inotrópico negativo direto do anti-inflamatório', 'Inibição das prostaglandinas renais, com retenção de sódio e água, vasoconstrição da arteríola aferente e redução do efeito dos diuréticos', 'Bloqueio dos receptores beta-adrenérgicos', 'Aumento da excreção de potássio'],
+    o: ['Efeito inotrópico negativo direto do anti-inflamatório sobre o miocárdio do paciente', 'Inibição das prostaglandinas renais: retenção de Na+/água e menor efeito dos diuréticos', 'Bloqueio dos receptores beta-adrenérgicos pelo anti-inflamatório, com bradicardia', 'Aumento da excreção de potássio pelo anti-inflamatório, com hipocalemia'],
     g: 'B',
     c: 'Na insuficiência cardíaca a perfusão renal depende das prostaglandinas vasodilatadoras, que contrabalançam a angiotensina II e a noradrenalina. Os anti-inflamatórios não esteroides, inclusive os seletivos para COX-2, bloqueiam essa defesa: reduzem a filtração, retêm sódio e água, elevam a pressão e antagonizam diuréticos e inibidores da enzima conversora. Devem ser evitados nesses pacientes.',
     x: { A: 'O efeito é renal e vascular, não uma depressão direta da contratilidade.', C: 'Anti-inflamatórios não atuam em receptores beta.', D: 'A tendência é reter potássio, com risco de hipercalemia.' },
@@ -197,7 +197,7 @@ export const IC_3: QuestaoCompacta[] = [
   {
     s: 'Medidas não farmacológicas',
     e: 'Mulher de 58 anos com insuficiência cardíaca de fração de ejeção reduzida, estável em classe funcional II com terapia otimizada, pergunta se pode fazer exercício físico. A orientação correta é:',
-    o: ['Repouso, pois o esforço acelera o remodelamento', 'Exercício aeróbico regular e supervisionado é recomendado: melhora capacidade funcional e qualidade de vida e reduz hospitalizações', 'Exercício só após implante de cardiodesfibrilador', 'Apenas exercícios isométricos intensos'],
+    o: ['Repouso, pois o esforço acelera o remodelamento ventricular da paciente', 'Exercício aeróbico supervisionado: melhora capacidade e qualidade de vida, reduz internações', 'Exercício só após o implante de cardiodesfibrilador, em qualquer caso', 'Apenas exercícios isométricos intensos, por curtos períodos, uma vez por semana'],
     g: 'B',
     c: 'Parte da intolerância ao esforço vem de alterações periféricas (músculo esquelético, endotélio e hiperativação simpática), que o treinamento reverte. A reabilitação cardiovascular é recomendada para pacientes estáveis, com melhora de capacidade funcional e qualidade de vida e redução de hospitalizações (estudo HF-ACTION). O repouso fica restrito às fases de descompensação. Vacinação contra influenza e pneumococo também faz parte do cuidado.',
     x: { A: 'O sedentarismo piora o descondicionamento; o repouso vale apenas na descompensação.', C: 'Não há essa exigência para iniciar reabilitação em paciente estável.', D: 'Isometria intensa eleva abruptamente a pós-carga; o recomendado é aeróbico, com resistido leve a moderado.' },

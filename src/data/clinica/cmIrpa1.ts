@@ -5,7 +5,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Classificação',
     e: 'Mulher de 34 anos, com pneumonia lobar, apresenta frequência respiratória de 32 irpm. Gasometria arterial em ar ambiente: pH 7,47; PaO2 52 mmHg; PaCO2 30 mmHg; HCO3 22 mEq/L. A insuficiência respiratória dessa paciente é classificada como:',
-    o: ['Tipo II (hipercápnica), por falência da bomba ventilatória', 'Tipo I (hipoxêmica), com PaO2 abaixo de 60 mmHg e PaCO2 normal ou baixa', 'Mista, pois há hipoxemia associada a alcalose', 'Ventilatória crônica compensada'],
+    o: ['Tipo II (hipercápnica), por falência da bomba ventilatória', 'Tipo I (hipoxêmica): PaO2 < 60 mmHg com PaCO2 normal ou baixa', 'Mista, pois há hipoxemia associada a alcalose metabólica grave', 'Ventilatória crônica compensada, com PaCO2 elevada e pH normal'],
     g: 'B',
     c: 'A insuficiência respiratória tipo I é definida por PaO2 abaixo de 60 mmHg com PaCO2 normal ou reduzida, pois o problema está na troca gasosa do parênquima e não na bomba ventilatória. A hipoxemia estimula a ventilação, e como o CO2 se difunde com muita facilidade, a hiperventilação das áreas preservadas derruba a PaCO2.',
     x: { A: 'A tipo II exige PaCO2 elevada (acima de 45 a 50 mmHg), e aqui a PaCO2 está baixa.', C: 'O termo mista refere-se a hipoxemia com hipercapnia; a alcalose respiratória é apenas consequência da hiperventilação.', D: 'O quadro é agudo, com bicarbonato normal e sem retenção de CO2.' },
@@ -21,7 +21,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Mecanismos de hipoxemia',
     e: 'Homem de 58 anos, em ventilação mecânica por atelectasia completa do pulmão esquerdo causada por rolha de secreção, mantém PaO2 de 58 mmHg mesmo com FiO2 de 100%. O mecanismo que explica a ausência de resposta ao oxigênio é:',
-    o: ['Hipoventilação alveolar', 'Shunt, com perfusão de alvéolos não ventilados', 'Aumento do espaço morto alveolar', 'Redução da pressão inspirada de oxigênio'],
+    o: ['Hipoventilação alveolar por depressão do centro respiratório', 'Shunt, com perfusão de alvéolos não ventilados', 'Aumento do espaço morto alveolar por hipoperfusão pulmonar', 'Redução da pressão inspirada de oxigênio pelo circuito do ventilador'],
     g: 'B',
     c: 'No shunt, o sangue atravessa alvéolos colapsados ou preenchidos sem ter contato com o gás inspirado e se mistura ao sangue arterial. O sangue das áreas normais já sai quase totalmente saturado, de modo que aumentar a FiO2 pouco acrescenta ao conteúdo de oxigênio; o tratamento é reabrir os alvéolos (PEEP, remoção da rolha).',
     x: { A: 'A hipoventilação corrige-se facilmente com oxigênio suplementar e cursa com hipercapnia.', C: 'Espaço morto é ventilação sem perfusão; prejudica a eliminação de CO2, não explica hipoxemia refratária.', D: 'O paciente recebe FiO2 de 100%, portanto a pressão inspirada de oxigênio está elevada.' },
@@ -53,7 +53,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Mecanismos de hipoxemia',
     e: 'Turista de 28 anos, previamente hígido, chega a uma cidade a 3.600 metros de altitude e apresenta cefaleia e SpO2 de 86%. A gasometria mostra PaO2 e PaCO2 reduzidas, com gradiente alvéolo-arterial normal. A hipoxemia é explicada por:',
-    o: ['Redução da fração de oxigênio no ar, que cai abaixo de 21% na altitude', 'Redução da pressão barométrica, que diminui a pressão inspirada de oxigênio', 'Shunt intrapulmonar por vasoconstrição hipóxica', 'Hipoventilação alveolar induzida pelo frio'],
+    o: ['Redução da fração de oxigênio no ar, que cai abaixo de 21% na altitude', 'Queda da pressão barométrica, com menor pressão inspirada de O2', 'Shunt intrapulmonar por vasoconstrição hipóxica generalizada', 'Hipoventilação alveolar induzida pelo frio e pela desidratação'],
     g: 'B',
     c: 'Na altitude a fração de oxigênio do ar permanece em 21%, mas a pressão barométrica cai e, com ela, a pressão inspirada e alveolar de oxigênio. Como o pulmão é normal, o gradiente alvéolo-arterial não se altera, e a hiperventilação compensatória reduz a PaCO2.',
     x: { A: 'A composição do ar não muda com a altitude; o que cai é a pressão total.', C: 'O shunt aumentaria o gradiente alvéolo-arterial.', D: 'Há hiperventilação, demonstrada pela PaCO2 baixa.' },
@@ -61,7 +61,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Mecanismos de hipoxemia',
     e: 'Homem de 67 anos, com fibrose pulmonar idiopática, tem SpO2 de 94% em repouso, que cai para 82% ao caminhar 50 metros. O mecanismo que melhor explica a dessaturação desencadeada pelo esforço é:',
-    o: ['Hipoventilação alveolar por fadiga do diafragma', 'Limitação da difusão, agravada pelo menor tempo de trânsito do sangue no capilar pulmonar', 'Desvio da curva de dissociação da hemoglobina para a esquerda', 'Queda da pressão inspirada de oxigênio durante o exercício'],
+    o: ['Hipoventilação alveolar por fadiga do diafragma no esforço', 'Limitação da difusão, agravada pelo menor tempo de trânsito capilar', 'Desvio da curva de dissociação da hemoglobina para a esquerda', 'Queda da pressão inspirada de oxigênio durante o exercício físico'],
     g: 'B',
     c: 'Em repouso a hemácia permanece cerca de 0,75 segundo no capilar e se equilibra com o alvéolo no primeiro terço desse tempo, o que dá reserva mesmo com membrana espessada. No exercício o débito cardíaco sobe e o tempo de trânsito encurta, e a barreira espessada não permite o equilíbrio, surgindo a hipoxemia de esforço.',
     x: { A: 'Na fibrose a ventilação aumenta no esforço e a PaCO2 tende a ser normal ou baixa.', C: 'No exercício a curva desvia para a direita (acidose, calor), e isso não causa queda da PaO2.', D: 'A pressão inspirada de oxigênio não se altera com o exercício.' },
@@ -85,7 +85,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Curva de dissociação da hemoglobina',
     e: 'A PaO2 de 60 mmHg é usada como limite para definir insuficiência respiratória hipoxêmica e como alvo mínimo da oxigenoterapia porque:',
-    o: ['Abaixo desse valor o oxigênio dissolvido no plasma se esgota', 'Corresponde a saturação próxima de 90%, ponto a partir do qual a curva se torna íngreme e pequenas quedas da PaO2 reduzem muito a saturação', 'É a pressão em que metade da hemoglobina está saturada (P50)', 'Acima desse valor a saturação aumenta de forma linear com a PaO2'],
+    o: ['Abaixo desse valor o oxigênio dissolvido no plasma se esgota', 'Corresponde a saturação de ~90%, onde a curva passa a ser íngreme', 'É a pressão em que metade da hemoglobina está saturada (P50)', 'Acima desse valor a saturação aumenta de forma linear com a PaO2'],
     g: 'B',
     c: 'A curva da oxi-hemoglobina é sigmoide: acima de 60 mmHg está o platô, em que a saturação muda pouco; abaixo, na porção íngreme, cada queda adicional da PaO2 causa grande perda de saturação e de conteúdo arterial de oxigênio. Por isso 60 mmHg, que equivale a cerca de 90% de saturação, é o limite de segurança.',
     x: { A: 'O oxigênio dissolvido é fração mínima do conteúdo arterial e não define esse limite.', C: 'A P50 normal é de aproximadamente 27 mmHg, não 60 mmHg.', D: 'Acima de 60 mmHg a curva é achatada, e não linear.' },
@@ -133,7 +133,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Gasometria arterial',
     e: 'Estudante de 21 anos, durante crise de ansiedade, queixa-se de formigamento perioral e nas mãos, com espasmo carpopedal. Gasometria: pH 7,54; PaCO2 25 mmHg; HCO3 21 mEq/L. O mecanismo das parestesias e do espasmo é:',
-    o: ['Hipoxemia cerebral por vasoconstrição', 'Queda do cálcio ionizado, por maior ligação do cálcio à albumina na alcalemia', 'Hipocalemia grave por perda renal de potássio', 'Hipomagnesemia aguda por hiperventilação'],
+    o: ['Hipoxemia cerebral por vasoconstrição, com isquemia transitória', 'Queda do cálcio ionizado, por maior ligação à albumina na alcalemia', 'Hipocalemia grave por perda renal de potássio na hiperventilação', 'Hipomagnesemia aguda por hiperventilação e perda urinária'],
     g: 'B',
     c: 'Trata-se de alcalose respiratória aguda (queda de 2 mEq/L de bicarbonato para cada 10 mmHg de redução da PaCO2: 24 - 3 = 21). Com a alcalemia, a albumina libera íons hidrogênio e passa a ligar mais cálcio, reduzindo a fração ionizada sem alterar o cálcio total; isso aumenta a excitabilidade neuromuscular e provoca parestesias e tetania.',
     x: { A: 'A hipocapnia causa vasoconstrição cerebral e tontura, mas não explica a tetania.', C: 'A queda do potássio na alcalose aguda é discreta e por desvio celular, sem causar tetania.', D: 'A hiperventilação não produz hipomagnesemia aguda.' },
@@ -149,7 +149,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Gasometria arterial',
     e: 'Homem de 26 anos, diabético tipo 1, em cetoacidose há 24 horas, torna-se sonolento e com respiração cada vez mais superficial. Gasometria: pH 7,11; PaCO2 32 mmHg; HCO3 10 mEq/L. A interpretação correta e seu significado são:',
-    o: ['Acidose metabólica compensada; manter apenas hidratação e insulina', 'Acidose metabólica com acidose respiratória associada, sinalizando falência ventilatória iminente', 'Acidose metabólica com alcalose respiratória associada, por hiperventilação excessiva', 'Acidose respiratória aguda isolada'],
+    o: ['Acidose metabólica compensada; manter apenas hidratação e insulina', 'Acidose metabólica com acidose respiratória: falência ventilatória iminente', 'Acidose metabólica com alcalose respiratória, por hiperventilação excessiva', 'Acidose respiratória aguda isolada, sem componente metabólico associado'],
     g: 'B',
     c: 'A PaCO2 esperada pela fórmula de Winter é 1,5 x 10 + 8 = 23 (mais ou menos 2) mmHg. Embora 32 mmHg pareça um valor baixo, está acima do previsto, o que configura acidose respiratória associada: o paciente já não sustenta a hiperventilação compensatória, por fadiga ou rebaixamento, e precisa de suporte ventilatório.',
     x: { A: 'A compensação adequada exigiria PaCO2 entre 21 e 25 mmHg.', C: 'Haveria alcalose respiratória associada apenas se a PaCO2 estivesse abaixo de 21 mmHg.', D: 'O bicarbonato de 10 mEq/L demonstra componente metabólico evidente.' },
@@ -173,7 +173,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Hipercapnia induzida por oxigênio',
     e: 'Homem de 74 anos, com DPOC e hipercapnia crônica, recebe oxigênio por máscara com reservatório a 15 L/min no transporte e chega torporoso, com PaCO2 que subiu de 58 para 92 mmHg. O principal mecanismo atualmente aceito para essa piora é:',
-    o: ['Aumento da produção de CO2 pelo metabolismo do oxigênio em excesso', 'Piora do desequilíbrio ventilação-perfusão por perda da vasoconstrição hipóxica, somada ao efeito Haldane', 'Broncoespasmo difuso desencadeado pelo oxigênio seco', 'Desvio da curva da hemoglobina para a direita, com retenção de CO2 nos tecidos'],
+    o: ['Aumento da produção de CO2 pelo metabolismo do oxigênio em excesso', 'Piora da relação V/Q por perda da vasoconstrição hipóxica, mais efeito Haldane', 'Broncoespasmo difuso desencadeado pelo oxigênio seco administrado', 'Desvio da curva da hemoglobina para a direita, com retenção de CO2 nos tecidos'],
     g: 'B',
     c: 'O oxigênio em excesso desfaz a vasoconstrição hipóxica e devolve fluxo sanguíneo a unidades mal ventiladas, aumentando o espaço morto fisiológico; além disso, a hemoglobina oxigenada carrega menos CO2 (efeito Haldane). A redução do estímulo hipóxico à ventilação, explicação tradicional ainda citada em provas, tem contribuição menor e transitória.',
     x: { A: 'A oferta de oxigênio não aumenta a produção metabólica de CO2.', C: 'O oxigênio não causa broncoespasmo; a piora ocorre sem alteração da ausculta.', D: 'O desvio da curva não retém CO2 nos tecidos nem explica a hipercapnia.' },
@@ -181,7 +181,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Transporte de oxigênio',
     e: 'Mulher de 30 anos, com sangramento uterino intenso, tem hemoglobina de 5 g/dL, SpO2 de 99% e PaO2 de 95 mmHg em ar ambiente, com dispneia e lactato elevado. Em relação à oferta de oxigênio aos tecidos, é correto afirmar que:',
-    o: ['Está preservada, pois a PaO2 e a saturação são normais', 'Está reduzida, pois o conteúdo arterial de oxigênio depende principalmente da hemoglobina e de sua saturação', 'Será normalizada com oxigênio a 100%, que eleva muito o oxigênio dissolvido', 'Depende apenas do débito cardíaco, sem relação com a hemoglobina'],
+    o: ['Está preservada, pois a PaO2 e a saturação estão normais', 'Está reduzida: o conteúdo arterial de O2 depende da hemoglobina e da saturação', 'Será normalizada com oxigênio a 100%, que eleva o oxigênio dissolvido', 'Depende apenas do débito cardíaco, sem relação com a hemoglobina'],
     g: 'B',
     c: 'Conteúdo arterial de oxigênio = 1,34 x hemoglobina x saturação + 0,003 x PaO2. O oxigênio dissolvido é desprezível, de modo que, com hemoglobina de 5 g/dL, o conteúdo cai para cerca de um terço do normal mesmo com saturação de 99%. PaO2 e saturação avaliam a troca pulmonar, não a quantidade de oxigênio transportada.',
     x: { A: 'PaO2 e saturação normais não garantem conteúdo adequado quando falta hemoglobina.', C: 'O oxigênio dissolvido contribui com apenas 0,003 mL/dL por mmHg, ganho insuficiente.', D: 'A oferta é o produto do débito cardíaco pelo conteúdo arterial, que depende da hemoglobina.' },
@@ -189,7 +189,7 @@ export const IRPA_1: QuestaoCompacta[] = [
   {
     s: 'Avaliação clínica',
     e: 'Homem de 35 anos, em crise grave de asma há 12 horas, é reavaliado. Entre os achados abaixo, aquele que indica fadiga da musculatura respiratória e parada respiratória iminente é:',
-    o: ['Sibilos expiratórios difusos e intensos', 'Movimento paradoxal do abdome, que se retrai durante a inspiração', 'Frequência respiratória de 26 irpm', 'Tosse seca persistente'],
+    o: ['Sibilos expiratórios difusos e intensos, audíveis à distância', 'Movimento paradoxal do abdome na inspiração', 'Frequência respiratória de 26 irpm, com uso de musculatura acessória', 'Tosse seca persistente, com fala em frases curtas'],
     g: 'B',
     c: 'Normalmente o diafragma desce na inspiração e empurra o abdome para fora. Quando ele entra em fadiga, deixa de contrair e é aspirado para o tórax pela pressão negativa gerada pela musculatura acessória, fazendo o abdome se retrair na inspiração. Esse sinal, como o tórax silencioso e o rebaixamento de consciência, antecede a parada respiratória.',
     x: { A: 'Sibilos intensos indicam que ainda há fluxo aéreo; o sinal de gravidade extrema é o tórax silencioso.', C: 'Taquipneia moderada é esperada na crise e não indica fadiga por si só.', D: 'A tosse é sintoma da crise, sem valor para identificar falência muscular.' },

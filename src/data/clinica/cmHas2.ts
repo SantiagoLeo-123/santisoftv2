@@ -5,7 +5,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento não farmacológico',
     e: 'Mulher de 44 anos, com pressão de 136 x 86 mmHg e sobrepeso, pergunta qual padrão alimentar tem a melhor evidência para reduzir a pressão arterial. A resposta correta é:',
-    o: ['Dieta cetogênica, rica em gorduras saturadas', 'Dieta DASH, rica em frutas, hortaliças, grãos integrais e laticínios com baixo teor de gordura, com pouca gordura saturada e pouco sódio', 'Dieta hiperproteica com restrição de frutas', 'Dieta com restrição hídrica e suplementação de cálcio'],
+    o: ['Dieta cetogênica, rica em gorduras saturadas e pobre em carboidratos e frutas', 'Dieta DASH: frutas, hortaliças, integrais, laticínios magros, pouca gordura saturada e sódio', 'Dieta hiperproteica com restrição de frutas e hortaliças, rica em carne vermelha', 'Dieta com restrição hídrica e suplementação de cálcio em dose alta, por via oral'],
     g: 'B',
     c: 'A dieta DASH fornece mais potássio, cálcio, magnésio e fibras e menos gordura saturada, o que favorece natriurese e vasodilatação. Associada à restrição de sódio e à perda de peso, tem efeito aditivo, com reduções de pressão comparáveis às de um fármaco em monoterapia.',
     x: { A: 'O excesso de gordura saturada não reduz a pressão e piora o perfil lipídico.', C: 'Restringir frutas reduz a oferta de potássio, que tem efeito anti-hipertensivo.', D: 'A restrição hídrica não trata hipertensão, e o cálcio suplementar tem efeito mínimo.' },
@@ -21,7 +21,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento não farmacológico',
     e: 'Homem de 46 anos, hipertenso, ingere diariamente quatro garrafas de cerveja. Sobre a relação entre álcool e pressão arterial, a orientação correta é:',
-    o: ['O álcool não interfere na pressão arterial', 'O consumo excessivo eleva a pressão e é causa de resistência ao tratamento; quem bebe deve limitar-se a cerca de 30 g de etanol por dia, e as mulheres à metade', 'O consumo deve ser estimulado, pois protege contra eventos cardiovasculares', 'Somente os destilados elevam a pressão arterial'],
+    o: ['O álcool não interfere na pressão arterial, em nenhuma quantidade consumida', 'Excesso eleva a PA e causa resistência; limite ~30 g de etanol/dia (mulheres, metade)', 'O consumo deve ser estimulado, pois protege contra eventos cardiovasculares', 'Somente os destilados elevam a pressão arterial, e não a cerveja nem o vinho'],
     g: 'B',
     c: 'O álcool eleva a pressão de forma dose-dependente, por ativação simpática e do sistema renina-angiotensina, e reduz a adesão ao tratamento. Trinta gramas de etanol equivalem a cerca de uma garrafa de cerveja, duas taças de vinho ou uma dose de destilado; para mulheres e pessoas de baixo peso, metade.',
     x: { A: 'Há relação direta e dose-dependente entre etanol e níveis pressóricos.', C: 'Não se recomenda iniciar o consumo de álcool com finalidade de proteção cardiovascular.', D: 'O efeito depende da quantidade de etanol, não do tipo de bebida.' },
@@ -29,7 +29,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento não farmacológico',
     e: 'Mulher de 52 anos, hipertensa estágio 1 e sedentária, deseja iniciar atividade física. Qual a prescrição recomendada?',
-    o: ['Apenas exercícios isométricos intensos, uma vez por semana', 'Pelo menos 150 minutos semanais de exercício aeróbico de intensidade moderada, complementado por exercício resistido', 'Repouso relativo até a normalização da pressão arterial', 'Exercício de alta intensidade diário, sem necessidade de avaliação prévia'],
+    o: ['Apenas exercícios isométricos intensos, uma vez por semana', 'Pelo menos 150 min/semana de aeróbico moderado, mais exercício resistido', 'Repouso relativo até a normalização da pressão arterial', 'Exercício de alta intensidade diário, sem avaliação prévia'],
     g: 'B',
     c: 'O treinamento aeróbico regular reduz a resistência vascular periférica por melhora da função endotelial e redução do tônus simpático, com queda média de 5 a 8 mmHg na sistólica. O exercício resistido é complementar. Adia-se o exercício apenas se a pressão estiver muito elevada, acima de 160 x 105 mmHg.',
     x: { A: 'O exercício isométrico intenso isolado não é a base da prescrição e eleva a pressão durante o esforço.', C: 'O sedentarismo piora o controle pressórico e o risco cardiovascular.', D: 'A alta intensidade diária não é a recomendação inicial para um hipertenso sedentário.' },
@@ -37,7 +37,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Início do tratamento',
     e: 'Homem de 36 anos, sem fatores de risco e sem lesão de órgão-alvo, tem hipertensão confirmada com média de 144 x 92 mmHg. Qual a conduta inicial tradicionalmente recomendada?',
-    o: ['Combinação de três fármacos em comprimido único', 'Medidas não farmacológicas por cerca de 3 meses; se a pressão não for controlada, iniciar monoterapia', 'Apenas observação anual, sem intervenção', 'Betabloqueador em dose plena como primeira escolha'],
+    o: ['Combinação de três fármacos em comprimido único, desde o início', 'Medidas não farmacológicas por ~3 meses; se não controlar, monoterapia', 'Apenas observação anual, sem qualquer intervenção terapêutica', 'Betabloqueador em dose plena como primeira escolha, em monoterapia'],
     g: 'B',
     c: 'No estágio 1 de baixo risco, a mudança de estilo de vida pode normalizar a pressão e o benefício absoluto imediato do fármaco é pequeno, por isso se aguardam cerca de 3 meses antes da monoterapia. Há divergência: diretrizes mais recentes admitem iniciar o fármaco junto com as medidas não farmacológicas, mas a resposta clássica de prova é a tentativa inicial sem medicamento.',
     x: { A: 'Terapia tripla não é esquema inicial, muito menos em baixo risco.', C: 'Hipertensão confirmada exige intervenção e reavaliação em curto prazo.', D: 'Betabloqueador não é primeira escolha na ausência de indicação específica.' },
@@ -45,7 +45,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Início do tratamento',
     e: 'Mulher de 58 anos, dislipidêmica e tabagista, tem hipertensão confirmada com média de 168 x 104 mmHg. Qual a estratégia farmacológica inicial preferencial?',
-    o: ['Monoterapia com hidroclorotiazida em dose baixa', 'Combinação de dois fármacos de classes diferentes, como bloqueador do sistema renina-angiotensina com bloqueador de canal de cálcio ou diurético tiazídico, de preferência em comprimido único', 'Associação de inibidor da enzima conversora com bloqueador do receptor de angiotensina', 'Hidralazina em monoterapia'],
+    o: ['Monoterapia com hidroclorotiazida em dose baixa, como primeira escolha no risco alto', 'Dois fármacos de classes diferentes (IECA/BRA + BCC ou tiazídico), em comprimido único', 'IECA associado a BRA, por duplo bloqueio do sistema renina-angiotensina', 'Hidralazina em monoterapia, em dose habitual de manutenção, por via oral'],
     g: 'B',
     c: 'No estágio 2 ou 3 e nos pacientes de alto risco, a monoterapia raramente atinge a meta. A combinação de fármacos com mecanismos complementares em doses baixas é mais eficaz e tem menos efeitos adversos do que a dose máxima de um só, e o comprimido único melhora a adesão.',
     x: { A: 'A monoterapia fica reservada ao estágio 1 de baixo risco e a idosos frágeis.', C: 'Essa associação não acrescenta benefício e aumenta hipercalemia e lesão renal.', D: 'Vasodilatador direto não é fármaco de primeira linha e causa taquicardia reflexa.' },
@@ -53,7 +53,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Combinações',
     e: 'Homem de 62 anos, diabético com albuminúria, usa enalapril em dose plena e mantém pressão de 150 x 90 mmHg. O médico cogita associar losartana para aumentar a proteção renal. Essa conduta é:',
-    o: ['Adequada, pois o duplo bloqueio reduz a mortalidade cardiovascular', 'Inadequada, pois a associação de inibidor da enzima conversora com bloqueador do receptor de angiotensina aumenta hipercalemia, hipotensão e lesão renal aguda, sem benefício em desfechos', 'Adequada, desde que se suspenda o diurético', 'Inadequada apenas se a filtração glomerular for inferior a 15 mL/min'],
+    o: ['Adequada, pois o duplo bloqueio reduz a mortalidade cardiovascular e renal', 'Inadequada: IECA + BRA ↑ hipercalemia, hipotensão e lesão renal, sem benefício', 'Adequada, desde que se suspenda o diurético em uso pelo paciente', 'Inadequada apenas se a filtração glomerular for inferior a 15 mL/min'],
     g: 'B',
     c: 'Os ensaios ONTARGET e VA NEPHRON-D mostraram que o duplo bloqueio do sistema renina-angiotensina não reduz eventos cardiovasculares nem renais e aumenta efeitos adversos. O passo correto é associar bloqueador de canal de cálcio ou diurético.',
     x: { A: 'Os estudos não demonstraram redução de mortalidade com o duplo bloqueio.', C: 'A associação é desaconselhada independentemente do uso de diurético.', D: 'A contraindicação vale para qualquer nível de função renal.' },
@@ -61,7 +61,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Mulher de 55 anos iniciou captopril há 4 semanas e apresenta tosse seca persistente, sem febre e com radiografia de tórax normal. Qual o mecanismo e a conduta?',
-    o: ['Broncoespasmo por bloqueio beta-2; associar broncodilatador', 'Acúmulo de bradicinina por inibição da enzima conversora; substituir por bloqueador do receptor de angiotensina', 'Congestão pulmonar por retenção hídrica; associar furosemida', 'Reação alérgica mediada por IgE; associar anti-histamínico e manter o fármaco'],
+    o: ['Broncoespasmo por bloqueio beta-2; associar broncodilatador', 'Acúmulo de bradicinina pela inibição da ECA; trocar por BRA', 'Congestão pulmonar por retenção hídrica; associar furosemida', 'Reação alérgica mediada por IgE; associar anti-histamínico e manter o fármaco'],
     g: 'B',
     c: 'A enzima conversora também degrada a bradicinina; sua inibição acumula bradicinina e substância P nas vias aéreas, provocando tosse seca em 5% a 20% dos usuários. Os bloqueadores do receptor de angiotensina não interferem nessa via e mantêm os benefícios cardiovasculares e renais.',
     x: { A: 'O captopril não bloqueia receptores beta e não causa broncoespasmo.', C: 'Não há sinais de congestão, e o inibidor da enzima conversora não causa retenção hídrica.', D: 'O efeito não é mediado por IgE e não melhora com anti-histamínico.' },
@@ -69,7 +69,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Homem de 64 anos, diabético, com creatinina de 1,2 mg/dL, inicia losartana. Após 2 semanas a creatinina é de 1,45 mg/dL e o potássio de 4,8 mEq/L. Qual a conduta?',
-    o: ['Suspender definitivamente a losartana por nefrotoxicidade', 'Manter o fármaco e monitorar, pois elevação de até 30% da creatinina é esperada e reflete a redução da pressão intraglomerular', 'Trocar por inibidor da enzima conversora', 'Indicar arteriografia renal de urgência'],
+    o: ['Suspender definitivamente a losartana por nefrotoxicidade, e trocar o fármaco', 'Manter e monitorar: ↑ de creatinina até 30% é esperado (menor pressão intraglomerular)', 'Trocar por IECA, que tem o mesmo mecanismo de ação e o mesmo efeito', 'Indicar arteriografia renal de urgência, por suspeita de estenose bilateral'],
     g: 'B',
     c: 'O bloqueio da angiotensina II dilata a arteríola eferente e reduz a pressão de filtração, o que eleva discretamente a creatinina, mas é justamente o mecanismo de proteção renal a longo prazo. Aumento de até 30% é aceitável; elevação maior ou progressiva exige suspender e investigar hipovolemia ou estenose de artéria renal.',
     x: { A: 'O aumento foi de cerca de 20%, dentro do esperado e sem indicação de suspensão.', C: 'O inibidor da enzima conversora tem o mesmo efeito hemodinâmico glomerular.', D: 'Só se investiga doença renovascular com elevação superior a 30% ou outros indícios.' },
@@ -77,7 +77,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Mulher de 70 anos, com doença renal crônica (filtração de 38 mL/min), usa enalapril e passa a receber espironolactona. Dez dias depois apresenta fraqueza muscular, e o eletrocardiograma mostra ondas T apiculadas. O distúrbio mais provável é:',
-    o: ['Hipocalemia por perda renal de potássio', 'Hipercalemia, por redução da ação da aldosterona no néfron distal somada à menor excreção renal de potássio', 'Hipocalcemia por perda urinária de cálcio', 'Hipermagnesemia induzida pelo inibidor da enzima conversora'],
+    o: ['Hipocalemia por perda renal de potássio, pela diurese aumentada', 'Hipercalemia: menor ação da aldosterona no néfron distal e menor excreção renal de K+', 'Hipocalcemia por perda urinária de cálcio, pelo efeito do IECA', 'Hipermagnesemia induzida pelo inibidor da enzima conversora'],
     g: 'B',
     c: 'A aldosterona promove a secreção de potássio no túbulo coletor. O inibidor da enzima conversora reduz sua produção e a espironolactona bloqueia seu receptor; na doença renal crônica a excreção de potássio já é limitada, de modo que a associação exige monitorização precoce do potássio.',
     x: { A: 'Esses fármacos poupam potássio; hipocalemia ocorre com tiazídicos e diuréticos de alça.', C: 'Hipocalcemia alarga o intervalo QT e não produz onda T apiculada.', D: 'O inibidor da enzima conversora não causa hipermagnesemia.' },
@@ -85,7 +85,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Diuréticos',
     e: 'Homem de 59 anos, hipertenso, com três crises de gota no último ano e ácido úrico de 9,2 mg/dL, precisa iniciar anti-hipertensivo. Qual classe deve ser evitada e por quê?',
-    o: ['Bloqueadores de canal de cálcio, por causarem hiperuricemia', 'Diuréticos tiazídicos, pois reduzem a excreção renal de ácido úrico e podem precipitar crises', 'Bloqueadores do receptor de angiotensina, por elevarem o ácido úrico', 'Inibidores da enzima conversora, por causarem artrite'],
+    o: ['BCC, por causarem hiperuricemia e precipitarem crises de gota', 'Tiazídicos: reduzem a excreção renal de ácido úrico e podem precipitar crises', 'BRA, por elevarem o ácido úrico e precipitarem crises de gota', 'IECA, por causarem artrite e precipitarem crises de gota'],
     g: 'B',
     c: 'Os tiazídicos provocam contração de volume e competem com o urato pela secreção tubular, elevando a uricemia. Outros efeitos metabólicos da classe são hipocalemia, hiponatremia, hipomagnesemia, hiperglicemia, dislipidemia e hipercalcemia. A losartana, ao contrário, tem efeito uricosúrico.',
     x: { A: 'Os bloqueadores de canal de cálcio são metabolicamente neutros.', C: 'A losartana é uricosúrica e é boa opção no paciente com gota.', D: 'Os inibidores da enzima conversora não causam artrite nem hiperuricemia.' },
@@ -93,7 +93,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Diuréticos',
     e: 'Mulher de 66 anos, hipertensa, tem osteoporose e dois episódios de nefrolitíase por cálculos de oxalato de cálcio com hipercalciúria. Qual anti-hipertensivo traz benefício adicional nessa situação?',
-    o: ['Furosemida', 'Diurético tiazídico, que aumenta a reabsorção tubular de cálcio e reduz a calciúria', 'Anlodipino', 'Atenolol'],
+    o: ['Furosemida, que aumenta a calciúria e favorece a litíase', 'Tiazídico: aumenta a reabsorção tubular de cálcio e reduz a calciúria', 'Anlodipino, que não altera a excreção urinária de cálcio', 'Atenolol, que não altera a excreção urinária de cálcio'],
     g: 'B',
     c: 'Os tiazídicos bloqueiam o cotransportador de sódio e cloreto no túbulo distal e, pela contração de volume e pelo aumento da troca sódio-cálcio, elevam a reabsorção de cálcio. Com isso reduzem a calciúria, previnem recorrência de cálculos e favorecem a massa óssea.',
     x: { A: 'O diurético de alça aumenta a excreção urinária de cálcio e piora a hipercalciúria.', C: 'O anlodipino não altera a excreção renal de cálcio.', D: 'O betabloqueador não tem efeito sobre a calciúria nem sobre a massa óssea.' },
@@ -101,7 +101,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Bloqueadores de canal de cálcio',
     e: 'Mulher de 61 anos, em uso de anlodipino 10 mg, queixa-se de edema bilateral de tornozelos, vespertino, sem dispneia. Creatinina, albumina e ecocardiograma normais. Qual o mecanismo do edema e a melhor conduta?',
-    o: ['Retenção de sódio e água; associar furosemida', 'Vasodilatação arteriolar pré-capilar com aumento da pressão hidrostática capilar; reduzir a dose ou associar bloqueador do sistema renina-angiotensina', 'Insuficiência cardíaca induzida pelo fármaco; associar digoxina', 'Trombose venosa profunda bilateral; anticoagular'],
+    o: ['Retenção de sódio e água pelo rim; associar furosemida em dose habitual', 'Vasodilatação arteriolar e pressão capilar maior; reduzir a dose ou associar IECA/BRA', 'Insuficiência cardíaca induzida pelo fármaco; associar digoxina em dose habitual', 'Trombose venosa profunda bilateral; iniciar anticoagulação plena, de imediato'],
     g: 'B',
     c: 'Os di-hidropiridínicos dilatam a arteríola sem dilatar a vênula, elevando a pressão capilar e a transudação de líquido. Como não há retenção de volume, o diurético é pouco eficaz; os inibidores da enzima conversora e os bloqueadores do receptor de angiotensina causam venodilatação e reduzem o edema.',
     x: { A: 'O edema não decorre de hipervolemia e responde mal ao diurético.', C: 'O anlodipino não deprime a contratilidade de forma relevante, e o ecocardiograma é normal.', D: 'Edema bilateral, simétrico e relacionado à dose não sugere trombose venosa.' },
@@ -109,7 +109,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Bloqueadores de canal de cálcio',
     e: 'Homem de 68 anos, hipertenso e com angina estável, usa atenolol. Por controle inadequado, recebe verapamil. Uma semana depois apresenta tontura e frequência cardíaca de 38 bpm, com bloqueio atrioventricular de segundo grau. A explicação é:',
-    o: ['Interação farmacocinética com aumento do nível sérico de atenolol', 'Efeito aditivo de betabloqueador e bloqueador de canal de cálcio não di-hidropiridínico sobre o nó sinusal e o nó atrioventricular', 'Hipocalemia induzida pelo verapamil', 'Taquicardia reflexa seguida de exaustão do nó sinusal'],
+    o: ['Interação farmacocinética com aumento do nível sérico de atenolol no sangue', 'Efeito aditivo nos nós sinusal e AV (betabloqueador + BCC não di-hidropiridínico)', 'Hipocalemia induzida pelo verapamil, com arritmia ventricular associada', 'Taquicardia reflexa seguida de exaustão do nó sinusal, com bradicardia'],
     g: 'B',
     c: 'Verapamil e diltiazem reduzem o automatismo sinusal e a condução atrioventricular, além de serem inotrópicos negativos; somados ao betabloqueador podem causar bradicardia grave, bloqueio e insuficiência cardíaca. Quando é preciso associar um bloqueador de canal de cálcio ao betabloqueador, escolhe-se um di-hidropiridínico.',
     x: { A: 'A interação é farmacodinâmica, por soma de efeitos sobre o sistema de condução.', C: 'O verapamil não causa hipocalemia.', D: 'O verapamil não causa taquicardia reflexa; esse efeito é dos di-hidropiridínicos.' },
@@ -117,7 +117,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Betabloqueadores',
     e: 'Homem de 57 anos, hipertenso, recebe alta após infarto agudo do miocárdio com fração de ejeção de 38%. Qual esquema anti-hipertensivo tem benefício comprovado em mortalidade nesse contexto?',
-    o: ['Nifedipino de ação curta com hidralazina', 'Betabloqueador associado a inibidor da enzima conversora da angiotensina', 'Clonidina com hidroclorotiazida', 'Doxazosina em monoterapia'],
+    o: ['Nifedipino de ação curta com hidralazina, no pós-infarto', 'Betabloqueador associado a IECA', 'Clonidina com hidroclorotiazida, no pós-infarto', 'Doxazosina em monoterapia, no pós-infarto'],
     g: 'B',
     c: 'Os betabloqueadores não são primeira escolha na hipertensão não complicada, mas têm indicação específica em doença coronariana, insuficiência cardíaca com fração de ejeção reduzida e controle de frequência. Após infarto com disfunção ventricular, betabloqueador e inibidor da enzima conversora reduzem remodelamento, reinfarto e morte.',
     x: { A: 'O nifedipino de ação curta causa taquicardia reflexa e aumenta eventos coronarianos.', C: 'Essa associação não tem benefício demonstrado em mortalidade após infarto.', D: 'Os alfabloqueadores aumentaram a incidência de insuficiência cardíaca no estudo ALLHAT.' },
@@ -125,7 +125,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Betabloqueadores',
     e: 'Mulher de 34 anos, asmática com crises frequentes, hipertensa, recebe propranolol por enxaqueca e evolui com sibilância intensa. Qual o mecanismo?',
-    o: ['Liberação de histamina pelos mastócitos', 'Bloqueio dos receptores beta-2 da musculatura brônquica, com perda do tônus broncodilatador', 'Acúmulo de bradicinina nas vias aéreas', 'Edema pulmonar por inotropismo negativo'],
+    o: ['Liberação de histamina pelos mastócitos brônquicos, com broncoconstrição', 'Bloqueio de receptores beta-2 brônquicos, com perda do tônus broncodilatador', 'Acúmulo de bradicinina nas vias aéreas, com tosse e broncoespasmo', 'Edema pulmonar por inotropismo negativo, com congestão pulmonar'],
     g: 'B',
     c: 'O propranolol é não seletivo e bloqueia os receptores beta-2 brônquicos, deixando o tônus colinérgico sem oposição e causando broncoespasmo. A asma é contraindicação aos betabloqueadores não seletivos; outras contraindicações da classe são bloqueio atrioventricular de segundo e terceiro graus e bradicardia acentuada.',
     x: { A: 'Os betabloqueadores não provocam degranulação de mastócitos.', C: 'O acúmulo de bradicinina é o mecanismo da tosse dos inibidores da enzima conversora.', D: 'A sibilância em asmática sem cardiopatia decorre de broncoespasmo, não de congestão.' },
@@ -133,7 +133,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Populações especiais',
     e: 'Homem de 53 anos, com diabetes tipo 2, pressão de 152 x 94 mmHg, relação albumina/creatinina de 420 mg/g e filtração glomerular de 68 mL/min. Qual classe deve obrigatoriamente compor o esquema anti-hipertensivo?',
-    o: ['Betabloqueador', 'Inibidor da enzima conversora ou bloqueador do receptor de angiotensina', 'Alfabloqueador', 'Vasodilatador direto'],
+    o: ['Betabloqueador, que não protege o rim no diabético', 'IECA ou BRA, que reduzem a albuminúria e protegem o rim', 'Alfabloqueador, que não protege o rim no diabético', 'Vasodilatador direto, que não protege o rim no diabético'],
     g: 'B',
     c: 'A angiotensina II contrai preferencialmente a arteríola eferente; seu bloqueio reduz a pressão intraglomerular e a proteinúria, retardando a progressão da nefropatia diabética além do efeito da queda pressórica. Por isso essas classes são prioritárias no diabético com albuminúria, sem serem associadas entre si.',
     x: { A: 'Os betabloqueadores não têm efeito antiproteinúrico específico e mascaram a hipoglicemia.', C: 'Os alfabloqueadores não oferecem proteção renal e não são primeira linha.', D: 'A hidralazina não reduz a proteinúria e causa retenção hídrica.' },
@@ -141,7 +141,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Populações especiais',
     e: 'Homem de 67 anos, com doença renal crônica e filtração glomerular de 22 mL/min, mantém pressão de 164 x 96 mmHg e edema de membros inferiores, apesar de losartana, anlodipino e hidroclorotiazida. Qual ajuste é o mais adequado?',
-    o: ['Dobrar a dose da hidroclorotiazida', 'Substituir a hidroclorotiazida por diurético de alça, pois os tiazídicos perdem eficácia com filtração inferior a 30 mL/min', 'Associar espironolactona em dose alta', 'Suspender todos os diuréticos pelo risco de nefrotoxicidade'],
+    o: ['Dobrar a dose da hidroclorotiazida, que perde eficácia com TFG baixa', 'Trocar a hidroclorotiazida por diurético de alça: tiazídicos perdem eficácia com TFG < 30', 'Associar espironolactona em dose alta, com risco de hipercalemia', 'Suspender todos os diuréticos pelo risco de nefrotoxicidade'],
     g: 'B',
     c: 'Com filtração muito reduzida, pouco tiazídico chega ao túbulo distal e a natriurese é insuficiente; a hipertensão da doença renal crônica é predominantemente volume-dependente. Os diuréticos de alça mantêm a eficácia e controlam a hipervolemia. A clortalidona conserva algum efeito na doença renal avançada, mas a resposta clássica é o diurético de alça.',
     x: { A: 'Aumentar a dose do tiazídico amplia os efeitos metabólicos sem ganho de natriurese.', C: 'Há alto risco de hipercalemia com filtração de 22 mL/min em uso de losartana.', D: 'A hipervolemia é o principal mecanismo e exige diurético eficaz.' },
@@ -149,7 +149,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Populações especiais',
     e: 'Homem negro de 48 anos, sem diabetes, doença renal ou cardíaca, com hipertensão estágio 1 e falha das medidas não farmacológicas. Qual a melhor opção para monoterapia inicial e por quê?',
-    o: ['Inibidor da enzima conversora, por maior eficácia nessa população', 'Bloqueador de canal de cálcio ou diurético tiazídico, pois a hipertensão em negros tende a cursar com renina baixa e maior sensibilidade ao sal', 'Betabloqueador, por maior atividade simpática', 'Alisquireno, por ação direta sobre a renina'],
+    o: ['IECA, por maior eficácia nessa população, em monoterapia inicial', 'BCC ou tiazídico: na HAS de negros há renina baixa e sensibilidade ao sal', 'Betabloqueador, por maior atividade simpática nessa população, em monoterapia', 'Alisquireno, por ação direta sobre a renina nessa população, em monoterapia'],
     g: 'B',
     c: 'Em indivíduos negros predominam o perfil de renina baixa e a expansão de volume, o que reduz a resposta em monoterapia aos bloqueadores do sistema renina-angiotensina e aos betabloqueadores. Há também maior incidência de angioedema com inibidores da enzima conversora. Em terapia combinada ou na presença de doença renal proteinúrica, os bloqueadores do sistema continuam indicados.',
     x: { A: 'A resposta em monoterapia é menor e o risco de angioedema é maior nesse grupo.', C: 'Os betabloqueadores são menos eficazes e não são primeira linha sem indicação específica.', D: 'Um inibidor direto da renina é pouco eficaz em quem já tem renina baixa.' },
@@ -157,7 +157,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Populações especiais',
     e: 'Mulher de 86 anos, frágil, com quedas recentes, tem pressão de 172 x 78 mmHg sentada e 160 x 74 mmHg em pé. Qual a melhor estratégia terapêutica?',
-    o: ['Não tratar, pois não há benefício após os 80 anos', 'Iniciar monoterapia em dose baixa, titular lentamente, pesquisar hipotensão ortostática a cada ajuste e aceitar meta menos rigorosa', 'Iniciar terapia tripla em dose plena para atingir 120 x 70 mmHg em 2 semanas', 'Prescrever alfabloqueador como primeira opção'],
+    o: ['Não tratar, pois não há benefício após os 80 anos de idade, em nenhum caso', 'Monoterapia em dose baixa, titulação lenta, checar hipotensão ortostática; meta menos rigorosa', 'Terapia tripla em dose plena para atingir 120 x 70 mmHg em apenas 2 semanas', 'Alfabloqueador como primeira opção, em dose plena, para uso contínuo e prolongado'],
     g: 'B',
     c: 'O tratamento reduz acidente vascular cerebral e insuficiência cardíaca mesmo em octogenários, mas idosos frágeis têm barorreflexo diminuído e maior risco de hipotensão e quedas. Por isso se começa com um fármaco em dose baixa e progressão gradual. As metas divergem: a diretriz brasileira de 2020 aceita sistólica de 140 a 149 mmHg no idoso frágil, enquanto textos mais recentes propõem alvos mais baixos se tolerados.',
     x: { A: 'O estudo HYVET demonstrou benefício do tratamento em maiores de 80 anos.', C: 'Redução rápida e intensa no idoso frágil causa hipotensão, quedas e hipoperfusão.', D: 'Os alfabloqueadores causam hipotensão postural e são má escolha em quem cai.' },
@@ -165,7 +165,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Metas',
     e: 'Homem de 60 anos, hipertenso, com angioplastia coronariana prévia, está em tratamento e tem pressão de 138 x 84 mmHg. Qual a meta pressórica recomendada para esse paciente de alto risco?',
-    o: ['Inferior a 150 x 90 mmHg', 'Inferior a 130 x 80 mmHg, evitando reduzir a diastólica abaixo de 70 mmHg', 'Inferior a 100 x 60 mmHg', 'Inferior a 140 x 90 mmHg, sem necessidade de intensificar'],
+    o: ['Inferior a 150 x 90 mmHg, como meta geral no coronariopata', 'Inferior a 130 x 80 mmHg, evitando diastólica abaixo de 70 mmHg', 'Inferior a 100 x 60 mmHg, como meta mais intensiva', 'Inferior a 140 x 90 mmHg, sem necessidade de intensificar o tratamento'],
     g: 'B',
     c: 'Para hipertensos de alto risco, incluindo coronariopatas, a meta é inferior a 130 x 80 mmHg, pois o controle mais intenso reduz eventos. Na doença coronariana evita-se diastólica muito baixa, porque a perfusão do miocárdio ocorre na diástole e a queda excessiva pode provocar isquemia (curva em J).',
     x: { A: 'Meta tão permissiva não é adotada para pacientes de alto risco.', C: 'Valores tão baixos comprometem a perfusão coronariana e aumentam eventos.', D: 'Essa é a meta tradicional do baixo e moderado risco, insuficiente no alto risco.' },
@@ -181,7 +181,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Gestante de 12 semanas, 37 anos, hipertensa crônica, com antecedente de pré-eclâmpsia grave antes de 34 semanas na gestação anterior. Qual medida reduz o risco de nova pré-eclâmpsia?',
-    o: ['Repouso absoluto no leito e dieta sem sal', 'Ácido acetilsalicílico em dose baixa, iniciado antes de 16 semanas, associado a suplementação de cálcio se a ingestão for baixa', 'Sulfato de magnésio oral diário', 'Heparina em dose plena até o parto'],
+    o: ['Repouso absoluto no leito e dieta sem sal, durante toda a gestação', 'AAS em dose baixa antes de 16 semanas, com cálcio se a ingestão for baixa', 'Sulfato de magnésio oral diário, desde o início da gestação', 'Heparina em dose plena até o parto, desde o início da gestação'],
     g: 'B',
     c: 'Na pré-eclâmpsia há placentação deficiente com desequilíbrio entre tromboxano e prostaciclina. A aspirina em dose baixa, iniciada entre 12 e 16 semanas, reduz o risco em gestantes de alto risco, e o cálcio beneficia populações com baixa ingestão, como a brasileira.',
     x: { A: 'Repouso e restrição de sal não previnem pré-eclâmpsia.', C: 'O sulfato de magnésio é venoso ou intramuscular e previne convulsão, não a doença.', D: 'A heparina não é indicada para prevenir pré-eclâmpsia.' },
@@ -189,7 +189,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Alfabloqueadores',
     e: 'Homem de 74 anos, com hiperplasia prostática benigna, inicia doxazosina à noite. Na manhã seguinte, ao levantar-se, apresenta escurecimento visual e síncope. O mecanismo do evento é:',
-    o: ['Bradicardia por bloqueio do nó sinusal', 'Hipotensão postural de primeira dose, por bloqueio alfa-1 que impede a vasoconstrição reflexa ao ortostatismo', 'Hipoglicemia induzida pelo fármaco', 'Bloqueio atrioventricular total'],
+    o: ['Bradicardia por bloqueio do nó sinusal, com síncope e baixo débito', 'Hipotensão postural de 1ª dose: o bloqueio alfa-1 impede a vasoconstrição reflexa', 'Hipoglicemia induzida pelo fármaco, com sudorese e tremor associados', 'Bloqueio atrioventricular total, com síncope e necessidade de marca-passo'],
     g: 'B',
     c: 'O bloqueio alfa-1 causa vasodilatação arterial e venosa e abole a vasoconstrição mediada pelo barorreflexo ao ficar em pé. O efeito é mais intenso na primeira dose e em idosos, por isso se inicia com dose baixa ao deitar. A classe não é primeira linha na hipertensão, pois se associou a mais insuficiência cardíaca no estudo ALLHAT.',
     x: { A: 'Os alfabloqueadores não deprimem o nó sinusal; tendem a causar taquicardia reflexa.', C: 'A doxazosina não causa hipoglicemia.', D: 'A classe não altera a condução atrioventricular.' },
@@ -197,7 +197,7 @@ export const HAS_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos',
     e: 'Homem de 63 anos, em uso de espironolactona 50 mg ao dia há 6 meses, queixa-se de aumento doloroso das mamas e redução da libido. Qual o mecanismo e a alternativa terapêutica?',
-    o: ['Hiperprolactinemia; associar cabergolina', 'Efeito antiandrogênico por ligação a receptores de andrógenos e progesterona; substituir por eplerenona ou amilorida', 'Hipotireoidismo induzido; repor levotiroxina', 'Aumento da testosterona; reduzir a dose do fármaco'],
+    o: ['Hiperprolactinemia secundária ao fármaco; associar cabergolina', 'Efeito antiandrogênico (andrógenos e progesterona); trocar por eplerenona ou amilorida', 'Hipotireoidismo induzido pelo fármaco; repor levotiroxina em dose plena', 'Aumento da testosterona sérica; reduzir a dose do fármaco pela metade'],
     g: 'B',
     c: 'A espironolactona não é seletiva para o receptor mineralocorticoide: antagoniza receptores androgênicos e reduz a síntese de testosterona, causando ginecomastia, mastalgia e disfunção sexual de forma dose-dependente. A eplerenona é seletiva e não tem esses efeitos; a amilorida é outra opção poupadora de potássio.',
     x: { A: 'A espironolactona não eleva a prolactina a ponto de causar o quadro.', C: 'O fármaco não interfere na função tireoidiana.', D: 'Há redução, e não aumento, da ação androgênica.' },

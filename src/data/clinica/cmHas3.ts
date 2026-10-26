@@ -5,7 +5,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão secundária',
     e: 'Todos os achados abaixo devem levantar a suspeita de hipertensão arterial secundária, EXCETO:',
-    o: ['Início antes dos 30 anos ou após os 55 anos, com elevação súbita', 'Hipocalemia espontânea ou induzida por dose baixa de diurético', 'Hipertensão estágio 1 de início aos 45 anos em paciente obeso, com história familiar positiva e bom controle em monoterapia', 'Hipertensão resistente a três fármacos em doses otimizadas'],
+    o: ['Início antes dos 30 ou após os 55 anos, com elevação súbita da pressão', 'Hipocalemia espontânea ou induzida por dose baixa de diurético', 'HAS estágio 1 aos 45 anos, em obeso com história familiar e bom controle com monoterapia', 'Hipertensão resistente a três fármacos em doses otimizadas'],
     g: 'C',
     c: 'A hipertensão primária costuma surgir entre a quarta e a sexta décadas, de forma gradual, com história familiar e boa resposta ao tratamento. Indícios de causa secundária são extremos de idade, início abrupto, piora de um controle antes estável, resistência, hipocalemia, sopro abdominal e lesão de órgão-alvo desproporcional.',
     x: { A: 'Extremos de idade e início súbito são indícios clássicos de causa secundária.', B: 'Hipocalemia sugere excesso de mineralocorticoide, como hiperaldosteronismo primário.', D: 'A hipertensão resistente exige investigação de causas secundárias.' },
@@ -21,7 +21,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário',
     e: 'Mulher de 46 anos, com hipertensão há 5 anos em uso de três fármacos, apresenta câimbras, fraqueza muscular e potássio de 3,0 mEq/L sem uso de diurético. Qual o exame de rastreamento indicado?',
-    o: ['Metanefrinas urinárias de 24 horas', 'Relação entre aldosterona plasmática e atividade plasmática de renina', 'Cortisol sérico após 1 mg de dexametasona', 'Doppler de artérias renais'],
+    o: ['Metanefrinas urinárias de 24 horas, para feocromocitoma', 'Relação aldosterona/atividade de renina plasmática', 'Cortisol sérico após 1 mg de dexametasona, para Cushing', 'Doppler de artérias renais, para estenose renovascular'],
     g: 'B',
     c: 'No hiperaldosteronismo primário a aldosterona é produzida de forma autônoma, retendo sódio, expandindo o volume e suprimindo a renina, além de causar perda renal de potássio e hidrogênio. Relação aldosterona/renina a partir de 30, com aldosterona a partir de 15 ng/dL, é rastreamento positivo. Vale lembrar que a maioria dos casos cursa com potássio normal.',
     x: { A: 'As metanefrinas rastreiam feocromocitoma, que não causa hipocalemia.', C: 'Esse teste rastreia síndrome de Cushing, e não há estigmas de hipercortisolismo.', D: 'Na doença renovascular a renina é alta; o primeiro passo diante de hipocalemia é a relação aldosterona/renina.' },
@@ -29,7 +29,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário',
     e: 'Homem de 50 anos, com hipertensão resistente, tem aldosterona de 24 ng/dL e renina suprimida, com relação aldosterona/renina de 60. O próximo passo para confirmar o diagnóstico é:',
-    o: ['Adrenalectomia bilateral', 'Teste confirmatório de supressão, como a infusão de solução salina, demonstrando ausência de supressão da aldosterona', 'Cintilografia com metaiodobenzilguanidina', 'Teste terapêutico com hidroclorotiazida'],
+    o: ['Adrenalectomia bilateral, como primeira conduta, sem testes confirmatórios', 'Teste confirmatório de supressão (infusão salina), com aldosterona não suprimida', 'Cintilografia com MIBG, indicada para investigar feocromocitoma', 'Teste terapêutico com hidroclorotiazida por via oral, sem exames confirmatórios'],
     g: 'B',
     c: 'A relação elevada é apenas rastreamento. A confirmação exige mostrar que a aldosterona não é suprimida pela expansão de volume, como na infusão de 2 litros de salina em 4 horas, na sobrecarga oral de sódio, no teste da fludrocortisona ou no do captopril. Em quadros floridos, com hipocalemia espontânea, renina indetectável e aldosterona acima de 20 ng/dL, a confirmação pode ser dispensada.',
     x: { A: 'Cirurgia sem confirmação nem definição de lateralidade é inadequada.', C: 'Esse exame localiza feocromocitoma e paraganglioma.', D: 'O tiazídico agravaria a hipocalemia e não confirma o diagnóstico.' },
@@ -37,7 +37,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário',
     e: 'Mulher de 52 anos com hiperaldosteronismo primário confirmado. A tomografia mostra adrenais discretamente espessadas, sem nódulos, e o cateterismo de veias adrenais não demonstra lateralização da secreção de aldosterona. Qual o tratamento?',
-    o: ['Adrenalectomia unilateral laparoscópica', 'Antagonista do receptor mineralocorticoide, como a espironolactona', 'Adrenalectomia bilateral com reposição de corticoide', 'Betabloqueador em dose alta'],
+    o: ['Adrenalectomia unilateral laparoscópica, para doença bilateral', 'Antagonista mineralocorticoide, como a espironolactona', 'Adrenalectomia bilateral com reposição de corticoide', 'Betabloqueador em dose alta, como tratamento específico'],
     g: 'B',
     c: 'A ausência de lateralização indica hiperplasia adrenal bilateral idiopática, a forma mais frequente, cujo tratamento é clínico com antagonista mineralocorticoide. O adenoma produtor de aldosterona, com secreção unilateral, é tratado com adrenalectomia laparoscópica, que cura a hipocalemia e melhora ou cura a hipertensão.',
     x: { A: 'A cirurgia unilateral é indicada apenas quando há lateralização, como no adenoma.', C: 'A adrenalectomia bilateral causa insuficiência adrenal e não é indicada.', D: 'O betabloqueador não antagoniza a aldosterona e reduz pouco a pressão nesses casos.' },
@@ -45,7 +45,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo',
     e: 'Homem de 66 anos, tabagista, com hipertensão de piora recente, apresenta potássio de 3,1 mEq/L, alcalose metabólica, aldosterona elevada e atividade de renina também elevada. Esse perfil hormonal sugere:',
-    o: ['Hiperaldosteronismo primário por adenoma', 'Hiperaldosteronismo secundário, como o da hipertensão renovascular', 'Síndrome de Liddle', 'Uso crônico de alcaçuz'],
+    o: ['Hiperaldosteronismo primário por adenoma, com renina suprimida', 'Hiperaldosteronismo secundário, como na hipertensão renovascular', 'Síndrome de Liddle, com renina e aldosterona baixas', 'Uso crônico de alcaçuz, com renina e aldosterona baixas'],
     g: 'B',
     c: 'Renina e aldosterona elevadas indicam que a aldosterona está aumentada em resposta à ativação do sistema renina-angiotensina, como ocorre na isquemia renal da estenose de artéria renal, no tumor secretor de renina e no uso de diuréticos. No hiperaldosteronismo primário a renina está suprimida.',
     x: { A: 'No adenoma a aldosterona é alta, mas a renina está suprimida.', C: 'Na síndrome de Liddle renina e aldosterona estão ambas baixas.', D: 'O alcaçuz simula excesso mineralocorticoide com renina e aldosterona baixas.' },
@@ -53,7 +53,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão renovascular',
     e: 'Homem de 71 anos, tabagista, com doença arterial periférica, hipertenso controlado há 15 anos, passa a ter pressão de 190 x 100 mmHg e é internado duas vezes por edema agudo de pulmão de instalação súbita, com fração de ejeção preservada. Há sopro sistodiastólico em flanco esquerdo. A principal hipótese é:',
-    o: ['Feocromocitoma', 'Estenose aterosclerótica de artéria renal', 'Hiperaldosteronismo primário', 'Coarctação de aorta'],
+    o: ['Feocromocitoma, com catecolaminas elevadas', 'Estenose aterosclerótica de artéria renal', 'Hiperaldosteronismo primário, com renina suprimida', 'Coarctação de aorta, com diferença de pulsos'],
     g: 'B',
     c: 'A estenose aterosclerótica acomete idosos com aterosclerose em outros territórios, geralmente no óstio e terço proximal da artéria renal. A hipoperfusão renal ativa o sistema renina-angiotensina-aldosterona, com vasoconstrição e retenção de sódio; na doença bilateral a sobrecarga de volume leva a edema pulmonar súbito de repetição.',
     x: { A: 'O feocromocitoma não explica o sopro abdominal nem a aterosclerose difusa.', C: 'O hiperaldosteronismo primário não causa sopro abdominal.', D: 'A coarctação manifesta-se em jovens, com pulsos femorais diminuídos.' },
@@ -61,7 +61,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão renovascular',
     e: 'Mulher de 27 anos, sem fatores de risco, com hipertensão de início recente e sopro abdominal. A arteriografia mostra estenoses e dilatações alternadas, em aspecto de colar de contas, nos dois terços distais da artéria renal direita. Diagnóstico e tratamento de escolha:',
-    o: ['Aterosclerose; angioplastia com implante de stent', 'Displasia fibromuscular; angioplastia por balão, em geral sem stent', 'Arterite de Takayasu; pulsoterapia com corticoide', 'Poliarterite nodosa; ciclofosfamida'],
+    o: ['Aterosclerose; angioplastia com implante de stent', 'Displasia fibromuscular: angioplastia por balão, em geral sem stent', 'Arterite de Takayasu; pulsoterapia com corticoide', 'Poliarterite nodosa; ciclofosfamida em dose alta'],
     g: 'B',
     c: 'A displasia fibromuscular da camada média é a principal causa de hipertensão renovascular em mulheres jovens e acomete as porções média e distal da artéria renal. A angioplastia com balão tem alta taxa de sucesso técnico e pode curar a hipertensão; o stent fica reservado a complicações como dissecção.',
     x: { A: 'A aterosclerose acomete o óstio e o terço proximal em idosos com fatores de risco.', C: 'A arterite de Takayasu causa estenoses longas de aorta e ramos, com sintomas sistêmicos.', D: 'A poliarterite nodosa causa microaneurismas intrarrenais e manifestações sistêmicas.' },
@@ -77,7 +77,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão renovascular',
     e: 'Homem de 69 anos, com estenose aterosclerótica de 70% da artéria renal direita, tem pressão controlada com três fármacos, creatinina estável de 1,3 mg/dL e nunca teve edema pulmonar. Qual a conduta com melhor evidência?',
-    o: ['Angioplastia com stent para todos os pacientes com estenose superior a 60%', 'Tratamento clínico otimizado com anti-hipertensivos, estatina e antiagregante, reservando a revascularização para casos selecionados', 'Nefrectomia direita', 'Suspender todos os anti-hipertensivos para preservar a perfusão renal'],
+    o: ['Angioplastia com stent para todos os pacientes com estenose superior a 60%', 'Tratamento clínico otimizado; revascularização apenas em casos selecionados', 'Nefrectomia direita, como primeira conduta terapêutica', 'Suspender todos os anti-hipertensivos para preservar a perfusão renal'],
     g: 'B',
     c: 'Os ensaios ASTRAL e CORAL não mostraram benefício da angioplastia com stent sobre o tratamento clínico na estenose aterosclerótica estável. A revascularização é considerada em hipertensão refratária, perda progressiva de função renal, edema pulmonar súbito recorrente ou intolerância ao bloqueio do sistema renina-angiotensina.',
     x: { A: 'Não houve redução de eventos renais ou cardiovasculares com stent de rotina.', C: 'A nefrectomia é excepcional, restrita a rim excluso com hipertensão incontrolável.', D: 'O controle pressórico é essencial e reduz o risco cardiovascular.' },
@@ -85,7 +85,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão renovascular',
     e: 'Mulher de 73 anos, com aterosclerose difusa, inicia enalapril e, em 10 dias, a creatinina sobe de 1,1 para 2,4 mg/dL. A ultrassonografia com Doppler mostra estenose bilateral de artérias renais. O mecanismo da piora renal é:',
-    o: ['Nefrite intersticial alérgica', 'Dilatação da arteríola eferente por queda da angiotensina II, reduzindo a pressão de filtração em rins dependentes desse mecanismo', 'Vasoconstrição da arteríola aferente', 'Necrose tubular aguda por toxicidade direta'],
+    o: ['Nefrite intersticial alérgica, com febre, rash e eosinofilia associados', 'Dilatação da arteríola eferente (↓ angiotensina II) reduz a pressão de filtração', 'Vasoconstrição da arteríola aferente, pelo efeito direto do fármaco', 'Necrose tubular aguda por toxicidade direta do fármaco nos túbulos'],
     g: 'B',
     c: 'Quando a perfusão renal está reduzida, a filtração é mantida pela constrição da arteríola eferente mediada pela angiotensina II. O bloqueio dessa via derruba a pressão intraglomerular e a filtração, de forma reversível. Isso ocorre na estenose bilateral ou em rim único, pois não há rim contralateral normal para compensar.',
     x: { A: 'Não há febre, exantema ou eosinofilia, e o mecanismo é hemodinâmico.', C: 'A constrição aferente é o mecanismo dos anti-inflamatórios, não dos inibidores da enzima conversora.', D: 'O enalapril não é tóxico para o túbulo; a queda da filtração é funcional.' },
@@ -93,7 +93,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma',
     e: 'Mulher de 38 anos apresenta crises de cefaleia intensa, sudorese profusa e palpitações, com pressão de 220 x 120 mmHg durante os episódios e hipotensão postural entre eles. Qual o exame inicial mais adequado?',
-    o: ['Tomografia de abdome antes de qualquer dosagem hormonal', 'Dosagem de metanefrinas plasmáticas livres ou de metanefrinas fracionadas em urina de 24 horas', 'Dosagem de ácido vanilmandélico isolado, por ser o exame mais sensível', 'Relação aldosterona/renina'],
+    o: ['Tomografia de abdome antes de qualquer dosagem hormonal', 'Metanefrinas plasmáticas livres ou fracionadas em urina de 24 horas', 'Ácido vanilmandélico isolado, que seria o exame mais sensível', 'Relação aldosterona/renina, para hiperaldosteronismo primário'],
     g: 'B',
     c: 'A tríade de cefaleia, sudorese e palpitações em hipertenso sugere feocromocitoma. As catecolaminas são liberadas de modo intermitente, mas metabolizadas continuamente a metanefrinas dentro do tumor, o que torna essas dosagens mais sensíveis. Primeiro se confirma o diagnóstico bioquímico e só depois se localiza o tumor com tomografia ou ressonância.',
     x: { A: 'A imagem antes da confirmação hormonal leva ao achado de incidentalomas sem significado.', C: 'O ácido vanilmandélico tem baixa sensibilidade.', D: 'Esse exame rastreia hiperaldosteronismo, que não causa paroxismos adrenérgicos.' },
@@ -101,7 +101,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma',
     e: 'Homem de 41 anos com feocromocitoma adrenal direito de 4 cm tem cirurgia programada. Qual a sequência correta do preparo pré-operatório?',
-    o: ['Betabloqueador por 2 semanas e, depois, alfabloqueador', 'Alfabloqueador por 10 a 14 dias com dieta rica em sal e hidratação; betabloqueador apenas depois, se houver taquicardia', 'Diurético de alça em dose alta para reduzir a volemia', 'Apenas inibidor da enzima conversora até a véspera da cirurgia'],
+    o: ['Betabloqueador por 2 semanas e, depois, alfabloqueador, antes da cirurgia', 'Alfabloqueador por 10-14 dias com sal e hidratação; betabloqueador só depois, se taquicardia', 'Diurético de alça em dose alta para reduzir a volemia, antes da cirurgia', 'Apenas IECA até a véspera da cirurgia, sem alfabloqueio prévio'],
     g: 'B',
     c: 'O alfabloqueio prévio, com fenoxibenzamina, doxazosina ou prazosina, controla a pressão e permite reexpandir a volemia, que está contraída pela vasoconstrição crônica. Iniciar betabloqueador antes deixa os receptores alfa sem oposição do efeito vasodilatador beta-2 e pode desencadear crise hipertensiva grave.',
     x: { A: 'O betabloqueio isolado inicial pode precipitar crise por estímulo alfa sem oposição.', C: 'O paciente já tem volemia contraída; o diurético agrava a hipotensão após a retirada do tumor.', D: 'O inibidor da enzima conversora não bloqueia o efeito das catecolaminas.' },
@@ -109,7 +109,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma',
     e: 'Mulher de 29 anos com feocromocitoma bilateral apresenta nódulo tireoidiano com calcitonina muito elevada e hipercalcemia com paratormônio aumentado. Há casos semelhantes na família. A síndrome e o gene envolvido são:',
-    o: ['Neoplasia endócrina múltipla tipo 1; gene MEN1', 'Neoplasia endócrina múltipla tipo 2A; proto-oncogene RET', 'Doença de von Hippel-Lindau; gene VHL', 'Neurofibromatose tipo 1; gene NF1'],
+    o: ['NEM 1; gene MEN1', 'NEM 2A; proto-oncogene RET', 'Doença de von Hippel-Lindau; gene VHL', 'Neurofibromatose tipo 1; gene NF1'],
     g: 'B',
     c: 'A neoplasia endócrina múltipla tipo 2A reúne carcinoma medular de tireoide, feocromocitoma, frequentemente bilateral, e hiperparatireoidismo primário, por mutação ativadora do RET. O feocromocitoma deve ser operado antes da tireoide, para evitar crise adrenérgica durante a anestesia.',
     x: { A: 'O tipo 1 reúne paratireoide, hipófise e pâncreas, sem feocromocitoma.', C: 'A doença de von Hippel-Lindau cursa com hemangioblastomas e carcinoma renal de células claras.', D: 'A neurofibromatose apresenta manchas café com leite e neurofibromas, sem carcinoma medular.' },
@@ -117,7 +117,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Cushing',
     e: 'Mulher de 36 anos, com hipertensão e diabetes recentes, apresenta ganho de peso central, face arredondada, estrias violáceas largas no abdome, equimoses fáceis e fraqueza muscular proximal. Nega uso de corticoides. Qual exame é adequado para o rastreamento?',
-    o: ['Cortisol sérico basal das 8 horas', 'Cortisol salivar à meia-noite, cortisol livre urinário de 24 horas ou cortisol após 1 mg de dexametasona à noite', 'ACTH plasmático isolado', 'Tomografia de adrenais como primeiro exame'],
+    o: ['Cortisol sérico basal das 8 horas, como teste de rastreio inicial', 'Cortisol salivar à meia-noite, cortisol urinário de 24 h ou supressão com 1 mg', 'ACTH plasmático isolado, como teste de rastreio inicial', 'Tomografia de adrenais como primeiro exame, antes dos testes hormonais'],
     g: 'B',
     c: 'Na síndrome de Cushing perdem-se o ritmo circadiano e a supressão do eixo pela dexametasona, e aumenta a excreção de cortisol livre. O cortisol em excesso ativa receptores mineralocorticoides e aumenta a reatividade vascular, causando hipertensão. Após confirmar o hipercortisolismo, o ACTH define se a causa é dependente ou independente dele.',
     x: { A: 'O cortisol matinal isolado se sobrepõe ao de pessoas normais e não serve para rastrear.', C: 'O ACTH é usado para definir a etiologia, depois de confirmado o hipercortisolismo.', D: 'A imagem só deve ser pedida após a confirmação bioquímica e a dosagem de ACTH.' },
@@ -125,7 +125,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Apneia obstrutiva do sono',
     e: 'Homem de 54 anos, obeso, com circunferência cervical de 45 cm, tem hipertensão resistente. A esposa relata roncos altos e pausas respiratórias; ele refere sonolência diurna. A MAPA mostra ausência de descenso noturno. Qual o exame diagnóstico e o tratamento de escolha?',
-    o: ['Espirometria; broncodilatador de longa ação', 'Polissonografia; pressão positiva contínua nas vias aéreas (CPAP)', 'Tomografia de crânio; acetazolamida', 'Ecocardiograma; oxigenoterapia noturna isolada'],
+    o: ['Espirometria; broncodilatador de longa ação', 'Polissonografia; CPAP', 'Tomografia de crânio; acetazolamida', 'Ecocardiograma; oxigenoterapia noturna isolada'],
     g: 'B',
     c: 'A apneia obstrutiva do sono é uma das causas mais frequentes de hipertensão resistente. A hipóxia intermitente e os despertares ativam o simpático e o sistema renina-angiotensina-aldosterona, abolindo o descenso noturno. A polissonografia confirma o diagnóstico pelo índice de apneia e hipopneia, e o CPAP, associado à perda de peso, reduz modestamente a pressão.',
     x: { A: 'A espirometria avalia doenças obstrutivas das vias aéreas inferiores, não a apneia do sono.', C: 'Não há indicação de imagem do crânio, e a acetazolamida não é o tratamento.', D: 'Oxigênio isolado não corrige o colapso da via aérea superior.' },
@@ -149,7 +149,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Causas endócrinas',
     e: 'Mulher de 58 anos refere ganho de peso, intolerância ao frio, constipação e pele seca. Frequência cardíaca de 54 bpm e pressão de 136 x 100 mmHg. Qual a causa provável da hipertensão e o seu mecanismo?',
-    o: ['Hipertireoidismo; aumento do débito cardíaco', 'Hipotireoidismo; aumento da resistência vascular periférica, com hipertensão predominantemente diastólica', 'Feocromocitoma; liberação de catecolaminas', 'Acromegalia; retenção de sódio'],
+    o: ['Hipertireoidismo; aumento do débito cardíaco e da pressão sistólica', 'Hipotireoidismo: aumento da resistência periférica, com hipertensão diastólica', 'Feocromocitoma; liberação de catecolaminas e hipertensão paroxística', 'Acromegalia; retenção de sódio e hipertensão associada'],
     g: 'B',
     c: 'A falta de hormônio tireoidiano reduz o relaxamento da musculatura lisa vascular e aumenta a resistência periférica, enquanto o débito cardíaco cai, o que eleva a diastólica e estreita a pressão de pulso. No hipertireoidismo ocorre o oposto: hipertensão sistólica com pressão de pulso alargada. A dosagem de TSH esclarece o diagnóstico.',
     x: { A: 'O hipertireoidismo causa taquicardia, perda de peso e hipertensão sistólica.', C: 'Não há paroxismos de cefaleia, sudorese e palpitações.', D: 'Não há crescimento de extremidades nem alterações faciais sugestivas.' },
@@ -157,7 +157,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Pseudo-hiperaldosteronismo',
     e: 'Homem de 40 anos, consumidor diário de grande quantidade de balas de alcaçuz, apresenta hipertensão, potássio de 2,9 mEq/L e alcalose metabólica. Renina e aldosterona plasmáticas estão ambas baixas. Qual o mecanismo?',
-    o: ['Tumor adrenal produtor de aldosterona', 'Inibição da 11-beta-hidroxiesteroide desidrogenase tipo 2, permitindo que o cortisol ative o receptor mineralocorticoide', 'Mutação ativadora do canal epitelial de sódio', 'Estenose bilateral de artérias renais'],
+    o: ['Tumor adrenal produtor de aldosterona, com renina suprimida', 'Inibição da 11-beta-HSD2: o cortisol ativa o receptor mineralocorticoide', 'Mutação ativadora do canal epitelial de sódio (Liddle)', 'Estenose bilateral de artérias renais, com renina elevada'],
     g: 'B',
     c: 'A enzima 11-beta-hidroxiesteroide desidrogenase tipo 2 converte cortisol em cortisona no néfron distal, protegendo o receptor mineralocorticoide. O ácido glicirrízico do alcaçuz inibe essa enzima, e o cortisol passa a agir como mineralocorticoide, com retenção de sódio, hipocalemia e supressão de renina e aldosterona.',
     x: { A: 'No adenoma a aldosterona está elevada, e não baixa.', C: 'Esse é o mecanismo da síndrome de Liddle, doença hereditária de início precoce.', D: 'Na estenose de artéria renal renina e aldosterona estão elevadas.' },
@@ -165,7 +165,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão induzida por fármacos',
     e: 'Mulher de 33 anos, tabagista, previamente normotensa, apresenta pressão de 152 x 98 mmHg em duas consultas. Usa anticoncepcional oral combinado há 8 meses. Exames normais. Qual a conduta inicial mais adequada?',
-    o: ['Manter o anticoncepcional e iniciar losartana', 'Suspender o anticoncepcional combinado, oferecer método sem estrogênio e reavaliar a pressão em algumas semanas', 'Solicitar arteriografia renal', 'Trocar por anticoncepcional com dose maior de estrogênio'],
+    o: ['Manter o anticoncepcional e iniciar losartana, para controlar a pressão', 'Suspender o ACO combinado, oferecer método sem estrogênio e reavaliar a pressão', 'Solicitar arteriografia renal, como primeiro exame, para investigar a causa', 'Trocar por anticoncepcional com dose maior de estrogênio, por via oral'],
     g: 'B',
     c: 'O estrogênio aumenta a síntese hepática de angiotensinogênio, ativando o sistema renina-angiotensina-aldosterona. A pressão costuma normalizar em semanas a poucos meses após a suspensão. Em hipertensas, sobretudo tabagistas, o método combinado é contraindicado pelo risco de eventos trombóticos; preferem-se métodos só de progestagênio ou dispositivo intrauterino.',
     x: { A: 'Deve-se primeiro remover a causa; manter o estrogênio eleva o risco cardiovascular.', C: 'Há causa evidente e reversível, sem indícios de doença renovascular.', D: 'Mais estrogênio agravaria a hipertensão e o risco trombótico.' },
@@ -173,7 +173,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão induzida por fármacos',
     e: 'Homem de 67 anos, hipertenso bem controlado com enalapril e hidroclorotiazida, passa a usar diclofenaco diariamente por osteoartrite. Em 3 semanas a pressão sobe para 166 x 98 mmHg e surge edema. Qual o mecanismo?',
-    o: ['Indução do metabolismo hepático do enalapril', 'Inibição das prostaglandinas renais vasodilatadoras e natriuréticas, com retenção de sódio e água e antagonismo do efeito dos anti-hipertensivos', 'Estímulo direto dos receptores alfa-1 vasculares', 'Aumento da secreção de catecolaminas pela adrenal'],
+    o: ['Indução do metabolismo hepático do enalapril, reduzindo o nível do fármaco', 'Inibição das prostaglandinas renais: retenção de sódio e água e menor efeito anti-hipertensivo', 'Estímulo direto dos receptores alfa-1 vasculares, com vasoconstrição', 'Aumento da secreção de catecolaminas pela adrenal, com hipertensão'],
     g: 'B',
     c: 'As prostaglandinas E2 e I2 mantêm o fluxo renal e a natriurese; os anti-inflamatórios bloqueiam sua síntese, causando retenção de sódio, vasoconstrição da arteríola aferente e redução do efeito de diuréticos e de bloqueadores do sistema renina-angiotensina. A associação dos três fármacos também favorece lesão renal aguda.',
     x: { A: 'Não há interação relevante no metabolismo hepático do enalapril.', C: 'Esse é o mecanismo dos descongestionantes simpaticomiméticos.', D: 'Os anti-inflamatórios não aumentam a liberação de catecolaminas.' },
@@ -181,7 +181,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão resistente',
     e: 'Qual das situações abaixo corresponde à definição de hipertensão arterial resistente?',
-    o: ['Pressão acima da meta com dois fármacos em doses baixas', 'Pressão de consultório acima da meta apesar de três anti-hipertensivos de classes diferentes em doses otimizadas, incluindo um diurético, ou controlada somente com quatro ou mais fármacos', 'Pressão elevada no consultório e normal na MAPA', 'Pressão acima de 180 x 110 mmHg em paciente sem tratamento'],
+    o: ['Pressão acima da meta com dois fármacos em doses baixas, sem otimização', 'PA acima da meta com 3 fármacos otimizados (com diurético), ou controlada só com 4 ou mais', 'Pressão elevada no consultório e normal na MAPA, de forma persistente', 'Pressão acima de 180 x 110 mmHg em paciente sem tratamento prévio'],
     g: 'B',
     c: 'A definição exige esquema tríplice sinérgico em doses máximas toleradas, habitualmente bloqueador do sistema renina-angiotensina, bloqueador de canal de cálcio e diurético tiazídico. Quando a pressão não é controlada com cinco ou mais fármacos, incluindo espironolactona e diurético de ação prolongada, fala-se em hipertensão refratária.',
     x: { A: 'Dois fármacos em dose baixa configuram tratamento insuficiente, não resistência.', C: 'Essa situação é o efeito do avental branco, uma forma de pseudorresistência.', D: 'Sem tratamento não é possível falar em resistência.' },
@@ -189,7 +189,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão resistente',
     e: 'Homem de 56 anos tem pressão de consultório de 164 x 100 mmHg em uso de losartana, anlodipino e clortalidona em doses plenas. Antes de rotulá-lo como hipertenso resistente verdadeiro e associar novo fármaco, o passo mais importante é:',
-    o: ['Indicar denervação simpática renal', 'Excluir pseudorresistência: verificar adesão e técnica de medida e confirmar os valores com MAPA ou MRPA', 'Solicitar tomografia de adrenais para todos os pacientes', 'Trocar a clortalidona por furosemida'],
+    o: ['Indicar denervação simpática renal, como primeira conduta terapêutica', 'Excluir pseudorresistência: adesão, técnica de medida e confirmar com MAPA/MRPA', 'Solicitar tomografia de adrenais para todos os pacientes, como rotina', 'Trocar a clortalidona por furosemida, em dose habitual, como primeira conduta'],
     g: 'B',
     c: 'Grande parte dos casos de aparente resistência decorre de má adesão, esquema ou doses inadequados, erro de medida e efeito do avental branco. A MAPA ou a MRPA confirmam a resistência verdadeira; em seguida revisam-se sal, álcool e fármacos que elevam a pressão e investigam-se causas secundárias, como apneia do sono e hiperaldosteronismo.',
     x: { A: 'A denervação renal é opção de exceção, após esgotar o tratamento clínico.', C: 'A imagem de adrenal só cabe após confirmação bioquímica de doença adrenal.', D: 'Com função renal normal, a clortalidona é mais eficaz que o diurético de alça.' },
@@ -197,7 +197,7 @@ export const HAS_3: QuestaoCompacta[] = [
   {
     s: 'Hipertensão resistente',
     e: 'Mulher de 60 anos tem hipertensão resistente confirmada por MAPA, com boa adesão, em uso de valsartana, anlodipino e clortalidona em doses plenas. Potássio de 4,1 mEq/L e filtração de 72 mL/min. Qual o quarto fármaco preferencial?',
-    o: ['Atenolol', 'Espironolactona', 'Doxazosina', 'Hidralazina'],
+    o: ['Atenolol, que é betabloqueador de ação periférica', 'Espironolactona, que é a 4ª droga preferida na resistente', 'Doxazosina, que é alfabloqueador de ação periférica', 'Hidralazina, que é vasodilatador direto de ação periférica'],
     g: 'B',
     c: 'A hipertensão resistente é em grande parte dependente de retenção de sódio e de excesso relativo de aldosterona, mesmo sem hiperaldosteronismo primário. O estudo PATHWAY-2 mostrou que a espironolactona, 25 a 50 mg, foi superior a bisoprolol e doxazosina como quarto fármaco. Exige monitorar potássio e função renal.',
     x: { A: 'O betabloqueador foi inferior à espironolactona e fica para etapas seguintes ou intolerância.', C: 'O alfabloqueador também foi inferior no PATHWAY-2.', D: 'Os vasodilatadores diretos são opções tardias, por retenção hídrica e taquicardia reflexa.' },

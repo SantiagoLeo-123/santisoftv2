@@ -5,7 +5,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Paracentese diagnóstica',
     e: 'A paracentese diagnóstica está indicada em qual das situações abaixo?',
-    o: ['Apenas quando houver febre ou dor abdominal', 'Em toda ascite de início recente e em todo cirrótico com ascite que é internado ou apresenta piora clínica', 'Somente após tomografia de abdome confirmar líquido livre', 'Apenas se o INR for menor que 1,5'],
+    o: ['Apenas quando houver febre ou dor abdominal associadas à ascite', 'Em toda ascite de início recente e em cirrótico com ascite internado ou que piora', 'Somente após a tomografia de abdome confirmar a presença de líquido livre', 'Apenas se o INR for menor que 1,5 e as plaquetas forem normais'],
     g: 'B',
     c: 'A análise do líquido é indispensável para definir a causa da ascite e para detectar infecção, que pode ser oligossintomática no cirrótico. Por isso punciona-se toda ascite nova e todo paciente com ascite que interna ou piora, por exemplo com encefalopatia, piora renal ou sangramento.',
     x: { A: 'A peritonite bacteriana espontânea pode ser assintomática, e esperar febre atrasa o diagnóstico.', C: 'O exame físico ou a ultrassonografia bastam, e a tomografia não é pré-requisito.', D: 'A coagulopatia do cirrótico não contraindica o procedimento.' },
@@ -13,7 +13,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Paracentese diagnóstica',
     e: 'O local preferencial para a punção na paracentese abdominal é:',
-    o: ['Linha média supraumbilical', 'Quadrante inferior esquerdo, cerca de dois dedos acima e medial à espinha ilíaca anterossuperior', 'Hipocôndrio direito, na linha axilar anterior', 'Borda lateral do músculo reto abdominal, na altura do umbigo'],
+    o: ['Linha média supraumbilical, onde há maior risco de lesão da bexiga', 'Quadrante inferior esquerdo, ~2 dedos acima e medial à espinha ilíaca anterossuperior', 'Hipocôndrio direito, na linha axilar anterior, sobre a área hepática', 'Borda lateral do reto abdominal, na altura da cicatriz umbilical'],
     g: 'B',
     c: 'No quadrante inferior esquerdo a parede é mais fina e a coluna de líquido é maior, e a punção lateral ao músculo reto evita os vasos epigástricos inferiores. Evitam-se também cicatrizes cirúrgicas, pelo risco de alças aderidas, e colaterais venosas visíveis.',
     x: { A: 'Acima do umbigo há risco de lesar colaterais e o fígado ou o baço aumentados.', C: 'No hipocôndrio direito há risco de lesão hepática.', D: 'Nessa topografia passam os vasos epigástricos, com risco de hematoma de parede.' },
@@ -53,7 +53,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia da ascite',
     e: 'Segundo a teoria da vasodilatação arterial periférica, o evento que desencadeia a retenção renal de sódio e a formação de ascite na cirrose é:',
-    o: ['Hipoalbuminemia com queda da pressão oncótica', 'Vasodilatação arterial esplâncnica com redução do volume arterial efetivo', 'Lesão tubular renal primária', 'Obstrução linfática do ducto torácico'],
+    o: ['Hipoalbuminemia, com queda da pressão oncótica', 'Vasodilatação arterial esplâncnica com menor volume arterial efetivo', 'Lesão tubular renal primária, com perda de sódio', 'Obstrução linfática do ducto torácico, com ascite quilosa'],
     g: 'B',
     c: 'A hipertensão portal aumenta vasodilatadores, sobretudo o óxido nítrico, no leito esplâncnico. O sangue fica represado nesse território, o volume arterial efetivo cai e são ativados o sistema renina-angiotensina-aldosterona, o simpático e o hormônio antidiurético, que retêm sódio e água. O excesso de volume extravasa pelo sinusoide hipertenso.',
     x: { A: 'A hipoalbuminemia contribui, mas isoladamente não explica a ascite, que exige hipertensão sinusoidal.', C: 'O rim do cirrótico é estruturalmente normal e apenas responde aos estímulos neuro-hormonais.', D: 'A obstrução linfática causa ascite quilosa, mecanismo distinto do da cirrose.' },
@@ -77,7 +77,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento da ascite',
     e: 'Homem de 59 anos, cirrótico, em uso de espironolactona e furosemida, tem ascite sem edema de membros inferiores. Qual é a perda ponderal diária máxima recomendada, e por quê?',
-    o: ['2 kg/dia, pois a ascite é rapidamente mobilizável', '0,5 kg/dia, pois a reabsorção do líquido peritoneal é limitada e perdas maiores depletam o intravascular', '1,5 kg/dia, desde que o potássio esteja normal', 'Não há limite, desde que a diurese seja medida'],
+    o: ['2 kg/dia, pois a ascite é rapidamente mobilizável pelo peritônio, sem risco', '0,5 kg/dia, pois a reabsorção é limitada e perdas maiores depletam o intravascular', '1,5 kg/dia, desde que o potássio sérico esteja dentro da normalidade', 'Não há limite de perda diária, desde que a diurese seja medida a cada hora'],
     g: 'B',
     c: 'O peritônio reabsorve um volume limitado de ascite por dia. Se a diurese exceder essa capacidade, o líquido eliminado sai do plasma, causando hipovolemia e lesão renal. Sem edema o limite é de 0,5 kg ao dia; com edema periférico, que é mobilizado com facilidade, aceita-se até 1 kg ao dia.',
     x: { A: 'Perda de 2 kg ao dia excede em muito a reabsorção peritoneal e leva à lesão renal.', C: 'O potássio normal não protege contra a depleção de volume por diurese excessiva.', D: 'Existe limite de segurança, que depende da presença ou não de edema.' },
@@ -109,7 +109,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Ascite refratária',
     e: 'Define-se ascite refratária como aquela que:',
-    o: ['Reaparece após qualquer paracentese de alívio', 'Não responde a dieta hipossódica e dose máxima de diuréticos, ou em que os diuréticos não podem ser usados por complicações', 'Tem volume maior que 10 litros', 'Apresenta gradiente de albumina soro-ascite menor que 1,1 g/dL'],
+    o: ['Reaparece após qualquer paracentese de alívio, mesmo em uso de diuréticos', 'Não responde a dieta hipossódica e dose máxima de diuréticos, ou os impede por complicações', 'Tem volume maior que 10 litros, já na primeira paracentese de alívio', 'Apresenta gradiente de albumina soro-ascite menor que 1,1 g/dL, em qualquer caso'],
     g: 'B',
     c: 'A ascite refratária inclui a forma resistente a diuréticos, sem resposta a espironolactona 400 mg e furosemida 160 mg ao dia com restrição de sódio, e a forma intratável, em que complicações como lesão renal, hiponatremia, distúrbio de potássio ou encefalopatia impedem doses eficazes. Indica doença avançada e é motivo para avaliar transplante.',
     x: { A: 'A recidiva após paracentese sem diurético adequado não caracteriza refratariedade.', C: 'O volume da ascite não entra na definição de refratariedade.', D: 'O gradiente baixo indica causa não relacionada à hipertensão portal, e não refratariedade.' },
@@ -125,7 +125,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Hidrotórax hepático',
     e: 'Mulher de 60 anos, cirrótica, apresenta dispneia e derrame pleural volumoso à direita, transudativo, sem doença cardíaca ou pulmonar. A ascite é discreta. Sobre essa condição, é correto afirmar:',
-    o: ['Deve ser tratada com drenagem torácica fechada em selo de água', 'Decorre da passagem de ascite por defeitos diafragmáticos, e a drenagem torácica contínua deve ser evitada', 'É excluída quando a ascite é pequena ou ausente', 'Ocorre com mais frequência à esquerda'],
+    o: ['Deve ser tratada com drenagem torácica fechada em selo de água', 'Ascite que passa por defeitos diafragmáticos; evitar drenagem torácica contínua', 'É excluída quando a ascite é pequena ou ausente ao exame', 'Ocorre com mais frequência à esquerda, por anatomia diafragmática'],
     g: 'B',
     c: 'A pressão intratorácica negativa aspira o líquido peritoneal através de pequenos defeitos no diafragma, mais comuns à direita, de modo que o derrame pode existir mesmo com pouca ascite. O dreno torácico leva a perdas maciças de volume, proteínas e eletrólitos, além de infecção. O tratamento é o da ascite, com toracocentese de alívio, TIPS e transplante nos casos refratários.',
     x: { A: 'O dreno de tórax causa espoliação grave e tem alta mortalidade nesses pacientes.', C: 'O hidrotórax pode ocorrer sem ascite evidente, pois o líquido é aspirado para o tórax.', D: 'O lado direito é o acometido na grande maioria dos casos.' },
@@ -149,7 +149,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Peritonite bacteriana espontânea',
     e: 'Em relação à etiologia e à patogênese da peritonite bacteriana espontânea, assinale a alternativa correta.',
-    o: ['É polimicrobiana e decorre de microperfurações intestinais', 'É monobacteriana, geralmente por enterobactérias como Escherichia coli, e decorre de translocação bacteriana', 'É causada principalmente por anaeróbios da flora colônica', 'Ocorre sobretudo em ascites com proteína total elevada'],
+    o: ['É polimicrobiana e decorre de microperfurações intestinais', 'É monobacteriana (enterobactérias, E. coli) por translocação bacteriana', 'É causada principalmente por anaeróbios da flora colônica', 'Ocorre sobretudo em ascites com proteína total elevada'],
     g: 'B',
     c: 'Na cirrose há supercrescimento bacteriano, aumento da permeabilidade intestinal e deficiência imune, o que permite a translocação de bactérias para linfonodos mesentéricos e daí para o sangue e a ascite. A infecção é por germe único, mais frequentemente Escherichia coli e Klebsiella, e é favorecida por líquido com pouca proteína, pobre em opsoninas.',
     x: { A: 'Flora polimicrobiana sugere peritonite secundária por perfuração de víscera.', C: 'Anaeróbios são raros, pois o líquido ascítico tem alta tensão de oxigênio.', D: 'O risco é maior quando a proteína do líquido é baixa, menor que 1,5 g/dL.' },
@@ -157,7 +157,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Variantes da peritonite bacteriana espontânea',
     e: 'Paciente cirrótico assintomático, internado para investigação, tem líquido ascítico com 120 polimorfonucleares/mm3 e cultura positiva para Escherichia coli. Esse quadro denomina-se e deve ser conduzido como:',
-    o: ['Ascite neutrocítica; tratar com antibiótico por 5 dias', 'Bacterascite não neutrocítica; repetir a paracentese e tratar se houver sintomas ou polimorfonucleares de 250/mm3 ou mais', 'Peritonite bacteriana secundária; indicar laparotomia', 'Contaminação; desprezar o resultado sem reavaliar'],
+    o: ['Ascite neutrocítica; tratar com antibiótico por 5 dias de forma rotineira', 'Bacterascite não neutrocítica: repetir a paracentese; tratar se sintomas ou PMN ≥ 250/mm³', 'Peritonite bacteriana secundária; indicar laparotomia exploradora de urgência', 'Contaminação da amostra; desprezar o resultado, sem reavaliar o paciente'],
     g: 'B',
     c: 'A bacterascite é a colonização do líquido sem resposta inflamatória, com polimorfonucleares abaixo de 250/mm3 e cultura positiva. Pode resolver espontaneamente ou evoluir para peritonite. No assintomático repete-se a paracentese; se houver sinais de infecção ou a contagem subir, trata-se como peritonite bacteriana espontânea.',
     x: { A: 'Na ascite neutrocítica os polimorfonucleares estão elevados e a cultura é negativa.', C: 'Germe único com poucas células não sugere peritonite secundária.', D: 'O resultado não pode ser ignorado, pois parte dos casos evolui para peritonite.' },
@@ -165,7 +165,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Variantes da peritonite bacteriana espontânea',
     e: 'A ascite neutrocítica com cultura negativa caracteriza-se por polimorfonucleares de 250/mm3 ou mais e cultura sem crescimento bacteriano. Sua conduta é:',
-    o: ['Apenas observação, pois não há bactéria identificada', 'Tratamento idêntico ao da peritonite bacteriana espontânea', 'Antifúngico empírico', 'Paracentese de alívio isolada'],
+    o: ['Apenas observação, pois não há bactéria identificada', 'Tratamento idêntico ao da peritonite bacteriana espontânea', 'Antifúngico empírico, por via venosa', 'Paracentese de alívio isolada, sem antibiótico'],
     g: 'B',
     c: 'A cultura do líquido ascítico é negativa em parcela expressiva dos casos de infecção, mesmo com inoculação em frascos de hemocultura à beira do leito. A evolução clínica e a mortalidade são semelhantes às da forma com cultura positiva, de modo que o tratamento é o mesmo, incluindo antibiótico e albumina quando indicada.',
     x: { A: 'A cultura negativa não afasta infecção, e a ausência de tratamento aumenta a mortalidade.', C: 'Infecção fúngica é rara e não é a hipótese inicial nesse contexto.', D: 'Retirar o líquido não trata a infecção peritoneal.' },
@@ -173,7 +173,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento da peritonite bacteriana espontânea',
     e: 'Homem de 58 anos, cirrótico, tem peritonite bacteriana espontânea comunitária, com creatinina de 1,4 mg/dL e bilirrubina total de 5,2 mg/dL. Além da cefalosporina de terceira geração, qual medida reduz o risco de síndrome hepatorrenal e a mortalidade?',
-    o: ['Paracentese de grande volume no primeiro dia', 'Albumina intravenosa, 1,5 g/kg no primeiro dia e 1 g/kg no terceiro dia', 'Furosemida em dose alta para manter a diurese', 'Dopamina em dose baixa'],
+    o: ['Paracentese de grande volume no primeiro dia', 'Albumina IV: 1,5 g/kg no 1º dia e 1 g/kg no 3º dia', 'Furosemida em dose alta para manter a diurese', 'Dopamina em dose baixa, para proteção renal'],
     g: 'B',
     c: 'A infecção libera citocinas e óxido nítrico, intensificando a vasodilatação e reduzindo o volume arterial efetivo, o que precipita a síndrome hepatorrenal. A albumina expande o intravascular e tem efeito anti-inflamatório, reduzindo lesão renal e mortalidade, com maior benefício em quem tem creatinina acima de 1 mg/dL, ureia elevada ou bilirrubina acima de 4 mg/dL.',
     x: { A: 'A paracentese volumosa durante a infecção piora a disfunção circulatória.', C: 'O diurético agrava a hipovolemia efetiva e deve ser suspenso na infecção com piora renal.', D: 'A dopamina em dose baixa não protege o rim e não é recomendada.' },
@@ -181,7 +181,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Profilaxia da peritonite bacteriana espontânea',
     e: 'Após o tratamento de um episódio de peritonite bacteriana espontânea, a conduta em relação à profilaxia é:',
-    o: ['Não há indicação de profilaxia após o primeiro episódio', 'Antibiótico profilático contínuo, como norfloxacino, por tempo indeterminado', 'Antibiótico profilático por 7 dias após a alta', 'Paracentese diagnóstica mensal sem antibiótico'],
+    o: ['Não há indicação de profilaxia após o primeiro episódio de PBE', 'Antibiótico profilático contínuo (norfloxacino) por tempo indeterminado', 'Antibiótico profilático por 7 dias após a alta hospitalar', 'Paracentese diagnóstica mensal, sem antibiótico profilático'],
     g: 'B',
     c: 'A recorrência em um ano após o primeiro episódio é muito alta, e a descontaminação intestinal seletiva com quinolona reduz a carga de gram-negativos entéricos e a recidiva. A profilaxia secundária é mantida enquanto houver ascite ou até o transplante, e todo paciente que teve o episódio deve ser avaliado para transplante.',
     x: { A: 'Todo paciente com episódio prévio tem indicação de profilaxia secundária.', C: 'Sete dias é a duração da profilaxia na hemorragia digestiva, não da secundária.', D: 'A vigilância com punções não previne a recorrência da infecção.' },
@@ -189,7 +189,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Profilaxia da peritonite bacteriana espontânea',
     e: 'Todas as situações abaixo são indicações aceitas de antibioticoprofilaxia para peritonite bacteriana espontânea no cirrótico, EXCETO:',
-    o: ['Hemorragia digestiva alta aguda', 'Episódio prévio de peritonite bacteriana espontânea', 'Proteína do líquido ascítico menor que 1,5 g/dL associada a disfunção renal ou hepática avançada', 'Ascite de pequeno volume com proteína de 3 g/dL no líquido, sem outros fatores de risco'],
+    o: ['Hemorragia digestiva alta aguda, indicação aceita de profilaxia', 'Episódio prévio de PBE, indicação aceita de profilaxia', 'Proteína do líquido < 1,5 g/dL com disfunção renal ou hepática avançada, indicação aceita', 'Ascite de pequeno volume com proteína de 3 g/dL no líquido, sem outros fatores de risco'],
     g: 'D',
     c: 'A profilaxia é reservada a situações de alto risco, pois o uso indiscriminado seleciona germes resistentes. Líquido com proteína alta é rico em opsoninas e tem baixo risco de infecção, não justificando antibiótico. A profilaxia primária cabe quando a proteína é menor que 1,5 g/dL com disfunção renal, hiponatremia ou Child-Pugh avançado com bilirrubina elevada.',
     x: { A: 'Indicação aceita: o sangramento aumenta a translocação, e usa-se antibiótico por até 7 dias.', B: 'Indicação aceita: é a profilaxia secundária, mantida de forma contínua.', C: 'Indicação aceita: corresponde à profilaxia primária em pacientes de alto risco.' },
@@ -197,7 +197,7 @@ export const HIP_PORTAL_3: QuestaoCompacta[] = [
   {
     s: 'Peritonite bacteriana secundária',
     e: 'Mulher de 64 anos, cirrótica, tem dor abdominal intensa e febre. O líquido ascítico mostra 6.800 polimorfonucleares/mm3, proteína total de 2,1 g/dL, glicose de 28 mg/dL, desidrogenase lática muito acima do valor sérico e cultura com Escherichia coli, enterococo e Bacteroides. A hipótese e a conduta são:',
-    o: ['Peritonite bacteriana espontânea; ceftriaxona por 5 dias', 'Peritonite bacteriana secundária; tomografia de abdome, ampliar cobertura para anaeróbios e avaliação cirúrgica', 'Bacterascite polimicrobiana; repetir a paracentese em 48 horas', 'Tuberculose peritoneal; iniciar esquema básico'],
+    o: ['PBE; ceftriaxona por 5 dias, sem outros exames de imagem', 'PBS: tomografia de abdome, cobertura para anaeróbios e avaliação cirúrgica', 'Bacterascite polimicrobiana; repetir a paracentese em 48 horas', 'Tuberculose peritoneal; iniciar o esquema básico de tratamento'],
     g: 'B',
     c: 'Flora polimicrobiana e pelo menos dois dos critérios de Runyon (proteína acima de 1 g/dL, glicose abaixo de 50 mg/dL e desidrogenase lática acima do limite sérico) indicam peritonite secundária a perfuração ou abscesso. É obrigatório buscar o foco com imagem e tratá-lo cirurgicamente, pois o antibiótico isolado tem mortalidade muito alta.',
     x: { A: 'A forma espontânea é monobacteriana e não cursa com glicose tão baixa e proteína elevada.', C: 'A bacterascite polimicrobiana ocorre por punção inadvertida de alça e tem poucos polimorfonucleares.', D: 'A tuberculose tem predomínio linfocítico e evolução arrastada, não quadro agudo com flora mista.' },

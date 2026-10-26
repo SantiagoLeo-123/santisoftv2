@@ -5,7 +5,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Rastreamento de varizes',
     e: 'Segundo os critérios de Baveno, em paciente com cirrose compensada pode-se dispensar a endoscopia digestiva alta de rastreamento de varizes quando houver:',
-    o: ['Child-Pugh A e ausência de ascite', 'Elastografia hepática menor que 20 kPa e plaquetas acima de 150 mil/mm3', 'Ultrassonografia sem esplenomegalia', 'Albumina sérica acima de 3,5 g/dL e INR normal'],
+    o: ['Child-Pugh A e ausência de ascite, de forma isolada', 'Elastografia < 20 kPa e plaquetas > 150 mil/mm³', 'Ultrassonografia sem esplenomegalia, de forma isolada', 'Albumina > 3,5 g/dL e INR normal, de forma isolada'],
     g: 'B',
     c: 'Pacientes com rigidez hepática menor que 20 kPa e plaquetas acima de 150 mil têm probabilidade muito baixa de varizes de alto risco, o que permite evitar a endoscopia e repetir os exames não invasivos anualmente. Fora desse perfil, e em todo cirrótico descompensado, a endoscopia de rastreamento está indicada.',
     x: { A: 'O Child A não exclui varizes de alto risco, que podem existir na cirrose compensada.', C: 'A ausência de esplenomegalia tem baixa acurácia para afastar varizes.', D: 'Síntese hepática preservada não afasta hipertensão portal clinicamente significativa.' },
@@ -13,7 +13,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Risco de sangramento',
     e: 'Os principais preditores de primeiro sangramento por varizes esofágicas são:',
-    o: ['Idade avançada, etiologia alcoólica e sexo masculino', 'Calibre das varizes, presença de sinais vermelhos e gravidade da disfunção hepática', 'Contagem de plaquetas, INR e nível de fibrinogênio', 'Uso de anti-inflamatórios, tabagismo e refluxo gastroesofágico'],
+    o: ['Idade avançada, etiologia alcoólica e sexo masculino', 'Calibre das varizes, sinais vermelhos e gravidade da disfunção hepática', 'Contagem de plaquetas, INR e nível de fibrinogênio', 'Uso de anti-inflamatórios, tabagismo e refluxo gastroesofágico'],
     g: 'B',
     c: 'A tensão na parede da variz depende do seu raio e da pressão transmural. Varizes de médio e grosso calibre, com manchas vermelhas ou vergões, que indicam parede fina, em paciente Child-Pugh B ou C têm o maior risco de ruptura. Esses são os critérios que definem varizes de alto risco.',
     x: { A: 'Idade, sexo e etiologia não são os determinantes principais do risco de ruptura.', C: 'Os testes de coagulação convencionais não predizem sangramento varicoso na cirrose.', D: 'O sangramento varicoso é um evento de pressão, não de lesão péptica ou por refluxo.' },
@@ -37,7 +37,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Betabloqueador não seletivo',
     e: 'O mecanismo pelo qual o propranolol reduz a pressão portal é:',
-    o: ['Dilatação dos sinusoides hepáticos por aumento do óxido nítrico', 'Redução do débito cardíaco (bloqueio beta-1) e vasoconstrição esplâncnica (bloqueio beta-2)', 'Bloqueio alfa-1 com queda da resistência intra-hepática', 'Inibição da secreção de glucagon e de peptídeos vasodilatadores'],
+    o: ['Dilatação dos sinusoides por aumento do óxido nítrico', 'Menor débito cardíaco (beta-1) e vasoconstrição esplâncnica (beta-2)', 'Bloqueio alfa-1 com queda da resistência intra-hepática', 'Inibição da secreção de glucagon e de peptídeos vasodilatadores'],
     g: 'B',
     c: 'O bloqueio beta-1 diminui o débito cardíaco, e o bloqueio beta-2 deixa sem oposição o tônus alfa-adrenérgico nos vasos esplâncnicos, que se contraem. Os dois efeitos reduzem o fluxo que chega à porta. Por isso betabloqueadores cardiosseletivos, como atenolol, não servem para esse fim.',
     x: { A: 'O propranolol age sobre o fluxo portal, não dilata sinusoides.', C: 'O bloqueio alfa-1 é efeito adicional do carvedilol, não do propranolol.', D: 'Inibir glucagon é o mecanismo de somatostatina e octreotide, não de betabloqueadores.' },
@@ -45,7 +45,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Betabloqueador não seletivo',
     e: 'Ao se iniciar propranolol para profilaxia de sangramento varicoso, a dose deve ser titulada até:',
-    o: ['Pressão arterial sistólica abaixo de 90 mmHg', 'Frequência cardíaca de repouso entre 55 e 60 bpm, mantendo pressão sistólica de pelo menos 90 mmHg', 'Queda de 50% na contagem de plaquetas', 'Desaparecimento das varizes na endoscopia de controle'],
+    o: ['PAS abaixo de 90 mmHg, que contraindica o aumento', 'FC de repouso entre 55 e 60 bpm, com PAS ≥ 90 mmHg', 'Queda de 50% na contagem de plaquetas', 'Desaparecimento das varizes na endoscopia de controle'],
     g: 'B',
     c: 'Na prática, sem medida do gradiente de pressão, a dose do propranolol é aumentada até a máxima tolerada, tendo como alvo frequência de repouso de 55 a 60 bpm, sem deixar a pressão sistólica cair abaixo de 90 mmHg. Uma vez iniciado o betabloqueador, não é necessário repetir endoscopia de controle.',
     x: { A: 'Hipotensão é limite de segurança para reduzir a dose, e não meta terapêutica.', C: 'O betabloqueador não tem efeito sobre plaquetas, que não servem de parâmetro.', D: 'O betabloqueador não erradica varizes, apenas reduz a pressão no seu interior.' },
@@ -61,7 +61,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Profilaxia primária',
     e: 'Todas as medidas abaixo são aceitas para profilaxia primária de sangramento em varizes esofágicas de alto risco, EXCETO:',
-    o: ['Propranolol', 'Carvedilol', 'Ligadura elástica endoscópica', 'Escleroterapia endoscópica'],
+    o: ['Propranolol, aceito na profilaxia primária', 'Carvedilol, aceito na profilaxia primária', 'Ligadura elástica endoscópica, aceita na profilaxia primária', 'Escleroterapia endoscópica'],
     g: 'D',
     c: 'A escleroterapia não é recomendada na profilaxia primária porque causa mais complicações, como úlceras, estenose e perfuração esofágicas, sem vantagem sobre as demais opções. A profilaxia primária é feita com betabloqueador não seletivo, tradicional ou carvedilol, ou com ligadura elástica.',
     x: { A: 'O propranolol é betabloqueador não seletivo clássico e opção válida de profilaxia primária.', B: 'O carvedilol é opção válida e a preferida pelo consenso de Baveno VII.', C: 'A ligadura elástica é opção válida, sobretudo quando há contraindicação ao betabloqueador.' },
@@ -109,7 +109,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Coagulopatia no sangramento',
     e: 'Paciente cirrótico com sangramento varicoso ativo tem INR de 2,1 e plaquetas de 62 mil/mm3. Em relação à correção desses parâmetros, a recomendação de Baveno VII é:',
-    o: ['Transfundir plasma fresco congelado até INR menor que 1,5 antes da endoscopia', 'Não transfundir plasma fresco congelado, pois não corrige a hemostasia e aumenta a pressão portal', 'Administrar fator VII ativado recombinante de rotina', 'Adiar a endoscopia até a normalização do INR'],
+    o: ['Transfundir plasma fresco até INR < 1,5 antes da endoscopia, de rotina', 'Não transfundir plasma: não corrige a hemostasia e eleva a pressão portal', 'Administrar fator VII ativado recombinante, de rotina, em todos os casos', 'Adiar a endoscopia digestiva até a normalização completa do INR'],
     g: 'B',
     c: 'Na cirrose há redução simultânea de fatores pró e anticoagulantes, de modo que o INR não reflete o risco de sangramento. O sangramento varicoso depende da pressão portal, e o plasma, além de não corrigir a hemostasia, expande o volume e eleva essa pressão, podendo piorar o sangramento.',
     x: { A: 'Corrigir o INR com plasma não reduz sangramento e sobrecarrega o volume.', C: 'O fator VII ativado não mostrou benefício e não é recomendado.', D: 'A endoscopia não deve ser atrasada por causa do INR, devendo ocorrer em até 12 horas.' },
@@ -117,7 +117,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Tamponamento por balão',
     e: 'Paciente com sangramento maciço por varizes esofágicas persiste instável apesar de terlipressina e de tentativa de ligadura elástica. Optou-se pelo balão de Sengstaken-Blakemore. Sobre esse recurso, é correto afirmar:',
-    o: ['É tratamento definitivo e pode permanecer insuflado por até 5 dias', 'É medida temporária, por no máximo 24 horas, como ponte para terapia definitiva, com via aérea protegida', 'Deve ser a primeira medida em todo sangramento varicoso', 'Dispensa intubação orotraqueal, pois não aumenta o risco de aspiração'],
+    o: ['É tratamento definitivo e pode permanecer insuflado por até 5 dias', 'Medida temporária (até 24 h), ponte para terapia definitiva, com via aérea protegida', 'Deve ser a primeira medida em todo sangramento varicoso', 'Dispensa intubação orotraqueal, pois não aumenta o risco de aspiração'],
     g: 'B',
     c: 'O balão controla o sangramento por compressão direta na maioria dos casos, mas o ressangramento ao desinsuflar é frequente e as complicações são graves, como necrose e ruptura esofágica e broncoaspiração. Por isso é ponte de até 24 horas para TIPS ou nova endoscopia, com intubação prévia. A prótese esofágica metálica autoexpansível é alternativa mais segura.',
     x: { A: 'O uso prolongado causa necrose por pressão, e o balão não é tratamento definitivo.', C: 'O balão é reservado ao sangramento refratário às medidas farmacológica e endoscópica.', D: 'O risco de aspiração é alto, e a via aérea deve ser protegida antes da passagem.' },
@@ -133,7 +133,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'TIPS preemptivo',
     e: 'Homem de 49 anos, cirrótico Child-Pugh C com 11 pontos, teve sangramento por varizes esofágicas controlado com terlipressina e ligadura elástica. Está estável, sem encefalopatia. Qual medida adicional reduz a mortalidade nesse perfil de paciente?',
-    o: ['Segunda sessão de ligadura em 24 horas', 'TIPS preemptivo nas primeiras 72 horas, idealmente em 24 horas', 'Derivação esplenorrenal distal eletiva em 30 dias', 'Manutenção de octreotide por 14 dias'],
+    o: ['Segunda sessão de ligadura em 24 horas, sem outras medidas', 'TIPS preemptivo nas primeiras 72 horas, idealmente em 24 horas', 'Derivação esplenorrenal distal eletiva em 30 dias', 'Manutenção de octreotide por 14 dias, sem outras medidas'],
     g: 'B',
     c: 'Pacientes de alto risco de falha, definidos como Child-Pugh C de 10 a 13 pontos ou Child-Pugh B acima de 7 pontos com sangramento ativo na endoscopia, beneficiam-se do TIPS preemptivo com prótese recoberta em até 72 horas. Nesse grupo a medida reduz ressangramento e mortalidade em comparação ao tratamento padrão.',
     x: { A: 'Repetir ligadura tão cedo não reduz o risco e pode provocar sangramento por queda das bandas.', C: 'A cirurgia eletiva tardia não cobre o período de maior risco e tem alta mortalidade no Child C.', D: 'Prolongar o vasoconstritor além de 5 dias não melhora a sobrevida.' },
@@ -141,7 +141,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Profilaxia secundária',
     e: 'Paciente cirrótico Child-Pugh B recebe alta após primeiro episódio de sangramento por varizes esofágicas, tratado com ligadura. A profilaxia secundária de escolha é:',
-    o: ['Ligadura elástica isolada até a erradicação', 'Betabloqueador não seletivo associado a ligadura elástica seriada', 'Betabloqueador não seletivo isolado', 'Inibidor de bomba de prótons associado a nitrato'],
+    o: ['Ligadura elástica isolada até a erradicação das varizes', 'Betabloqueador não seletivo associado a ligadura elástica seriada', 'Betabloqueador não seletivo isolado, sem ligadura', 'IBP associado a nitrato, sem betabloqueador nem ligadura'],
     g: 'B',
     c: 'Sem profilaxia, a maioria dos pacientes ressangra em um a dois anos. A combinação de betabloqueador não seletivo, que reduz a pressão portal, com ligadura seriada, que oblitera as varizes, é superior a cada medida isolada. Se houver falha, indica-se TIPS.',
     x: { A: 'A ligadura isolada não atua na pressão portal e tem mais ressangramento que a terapia combinada.', C: 'O betabloqueador isolado é inferior à combinação na prevenção de novo sangramento.', D: 'Inibidor de bomba e nitrato não previnem ressangramento varicoso.' },
@@ -149,7 +149,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Varizes gástricas',
     e: 'Na classificação de Sarin, as varizes gastroesofágicas tipo 1 (GOV1) são aquelas que:',
-    o: ['Localizam-se isoladamente no fundo gástrico', 'Prolongam-se das varizes esofágicas pela pequena curvatura e são tratadas como varizes esofágicas', 'Prolongam-se das varizes esofágicas pela grande curvatura em direção ao fundo', 'Localizam-se isoladamente no antro ou no duodeno'],
+    o: ['Localizam-se isoladamente no fundo gástrico, sem continuidade com o esôfago', 'Prolongam-se das esofágicas pela pequena curvatura; tratadas como esofágicas', 'Prolongam-se das esofágicas pela grande curvatura, em direção ao fundo', 'Localizam-se isoladamente no antro ou no duodeno, sem varizes esofágicas'],
     g: 'B',
     c: 'As GOV1 são a forma mais comum de varizes gástricas, continuação das esofágicas ao longo da pequena curvatura, e compartilham a mesma drenagem, respondendo ao mesmo tratamento, inclusive à ligadura. As GOV2 seguem pela grande curvatura até o fundo, as IGV1 são isoladas no fundo e as IGV2 ficam em outros locais do estômago.',
     x: { A: 'Varizes isoladas de fundo gástrico correspondem ao tipo IGV1.', C: 'A extensão pela grande curvatura em direção ao fundo define o tipo GOV2.', D: 'Varizes isoladas fora do fundo, como no antro, correspondem ao tipo IGV2.' },
@@ -173,7 +173,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Ectasia vascular antral',
     e: 'A ectasia vascular antral gástrica (estômago em melancia) diferencia-se da gastropatia hipertensiva portal porque:',
-    o: ['Localiza-se no fundo gástrico e responde bem ao betabloqueador', 'Localiza-se no antro, não responde à redução da pressão portal e é tratada com métodos endoscópicos ablativos', 'Ocorre exclusivamente em pacientes com cirrose', 'Tem padrão em mosaico e melhora após TIPS'],
+    o: ['Localiza-se no fundo gástrico e responde ao uso de betabloqueador', 'Localiza-se no antro, sem resposta à redução da pressão portal; tratamento ablativo', 'Ocorre exclusivamente em pacientes com cirrose avançada e hipertensão portal', 'Tem padrão em mosaico e melhora após a realização de TIPS'],
     g: 'B',
     c: 'A ectasia vascular antral forma estrias vermelhas longitudinais que convergem para o piloro. Não depende da pressão portal, podendo ocorrer em doenças autoimunes e na doença renal crônica, e por isso não responde a betabloqueador nem a TIPS. O tratamento é ablativo, com plasma de argônio ou ligadura.',
     x: { A: 'A lesão é antral, e o betabloqueador não é eficaz nessa condição.', C: 'Ela também ocorre fora da cirrose, como na esclerose sistêmica.', D: 'O padrão em mosaico e a resposta ao TIPS são da gastropatia hipertensiva portal.' },
@@ -181,7 +181,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Cirurgia na esquistossomose',
     e: 'Homem de 36 anos, com esquistossomose hepatoesplênica e dois episódios de sangramento por varizes esofágicas, mantém função hepática normal. A cirurgia classicamente indicada no Brasil para esse paciente é:',
-    o: ['Derivação portocava término-lateral', 'Esplenectomia com desconexão ázigo-portal', 'Transplante hepático', 'Derivação mesocava com prótese'],
+    o: ['Derivação portocava término-lateral, que desvia todo o fluxo portal', 'Esplenectomia com desconexão ázigo-portal', 'Transplante hepático, que não é indicado na esquistossomose', 'Derivação mesocava com prótese, que desvia o fluxo portal'],
     g: 'B',
     c: 'Na esquistossomose o fígado depende do fluxo portal e a função hepática é preservada. A desconexão ázigo-portal com esplenectomia interrompe as colaterais que alimentam as varizes sem desviar o sangue portal do fígado, evitando a encefalopatia das derivações. No pós-operatório costuma-se complementar com tratamento endoscópico das varizes residuais.',
     x: { A: 'A derivação portocava priva o fígado do fluxo portal e causa encefalopatia com frequência.', C: 'O transplante não se justifica em paciente com função hepática normal.', D: 'A derivação mesocava também desvia o fluxo portal, com risco de encefalopatia.' },
@@ -189,7 +189,7 @@ export const HIP_PORTAL_2: QuestaoCompacta[] = [
   {
     s: 'Cirurgias de derivação',
     e: 'A derivação esplenorrenal distal (cirurgia de Warren) é classificada como seletiva porque:',
-    o: ['Desvia todo o fluxo portal para a veia cava inferior', 'Descomprime as varizes esofagogástricas pelo território esplênico e preserva o fluxo mesentérico-portal para o fígado', 'Inclui obrigatoriamente a esplenectomia', 'É a melhor opção para pacientes com ascite refratária'],
+    o: ['Desvia todo o fluxo portal para a veia cava inferior, de forma total', 'Descomprime as varizes pelo território esplênico e preserva o fluxo portal ao fígado', 'Inclui obrigatoriamente a esplenectomia, em todos os casos', 'É a melhor opção para pacientes com ascite refratária e cirrose avançada'],
     g: 'B',
     c: 'Na cirurgia de Warren a veia esplênica é desconectada da porta e anastomosada à veia renal esquerda, com ligadura da gástrica esquerda, mantendo o baço. O compartimento gastroesplênico é drenado, enquanto o sangue mesentérico continua indo ao fígado, o que resulta em menos encefalopatia. Como a pressão sinusoidal permanece alta, a ascite pode piorar.',
     x: { A: 'Desviar todo o fluxo portal é característica das derivações não seletivas, como a portocava.', C: 'O baço é preservado, pois é por ele que as varizes são drenadas para a veia renal.', D: 'A ascite é contraindicação relativa, pois a cirurgia não reduz a pressão sinusoidal.' },

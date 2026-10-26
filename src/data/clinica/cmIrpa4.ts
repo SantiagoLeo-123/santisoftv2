@@ -13,7 +13,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Sequência rápida de intubação',
     e: 'A sequência rápida de intubação caracteriza-se por:',
-    o: ['Sedação leve e titulada, mantendo a ventilação espontânea durante a laringoscopia', 'Administração quase simultânea de hipnótico e bloqueador neuromuscular de ação rápida, após pré-oxigenação, evitando ventilar com pressão positiva antes da intubação', 'Intubação sem qualquer medicação, com o paciente acordado', 'Ventilação com bolsa-válvula-máscara por 5 minutos após o bloqueador neuromuscular'],
+    o: ['Sedação leve e titulada, mantendo a ventilação espontânea durante a laringoscopia', 'Hipnótico e bloqueador de ação rápida quase juntos, após pré-oxigenação', 'Intubação sem qualquer medicação, com o paciente acordado e colaborativo', 'Ventilação com bolsa-válvula-máscara por 5 minutos após o bloqueador'],
     g: 'B',
     c: 'A técnica foi concebida para o paciente considerado de estômago cheio. Hipnótico e bloqueador neuromuscular de início rápido são dados em sequência imediata, produzindo inconsciência e relaxamento em cerca de 1 minuto. Como a ventilação com máscara insufla o estômago e favorece a regurgitação, ela é evitada, e a pré-oxigenação fornece a reserva para o período de apneia.',
     x: { A: 'Manter a ventilação espontânea descreve a intubação com paciente acordado ou sedado.', C: 'Intubar sem drogas é reservado ao paciente em parada cardiorrespiratória.', D: 'Ventilar por tempo prolongado com máscara aumenta o risco de aspiração.' },
@@ -21,7 +21,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Pré-oxigenação',
     e: 'O objetivo fisiológico da pré-oxigenação com oxigênio a 100% por cerca de 3 minutos antes da intubação é:',
-    o: ['Reduzir a PaCO2 para evitar acidose durante a apneia', 'Substituir o nitrogênio da capacidade residual funcional por oxigênio, prolongando o tempo de apneia sem dessaturação', 'Aumentar o débito cardíaco antes da indução', 'Provocar vasoconstrição pulmonar e reduzir o shunt'],
+    o: ['Reduzir a PaCO2 para evitar acidose durante a apneia prolongada da indução', 'Substituir o nitrogênio da CRF por O2, prolongando a apneia sem dessaturação', 'Aumentar o débito cardíaco antes da indução anestésica', 'Provocar vasoconstrição pulmonar e reduzir o shunt pulmonar'],
     g: 'B',
     c: 'A capacidade residual funcional é o reservatório de oxigênio do organismo durante a apneia. Ao respirar oxigênio puro, o nitrogênio é lavado e esse volume passa a conter quase só oxigênio, multiplicando a reserva. O tempo de apneia segura é menor em obesos, gestantes e pacientes críticos, que têm capacidade residual funcional reduzida ou maior consumo de oxigênio.',
     x: { A: 'A pré-oxigenação não pretende reduzir a PaCO2, que sobe durante a apneia.', C: 'Não há efeito relevante da pré-oxigenação sobre o débito cardíaco.', D: 'O oxigênio alveolar alto vasodilata o leito pulmonar e não é esse o objetivo.' },
@@ -53,7 +53,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Bloqueadores neuromusculares',
     e: 'Homem de 31 anos, paraplégico por trauma raquimedular há 5 semanas, é internado com pneumonia e insuficiência respiratória e será intubado em sequência rápida. O bloqueador neuromuscular indicado e a razão da escolha são:',
-    o: ['Succinilcolina, pelo início de ação mais rápido', 'Rocurônio, pois a succinilcolina pode causar hipercalemia grave em pacientes com desnervação', 'Succinilcolina, pois o rocurônio é contraindicado na lesão medular', 'Nenhum, pois bloqueadores são contraindicados na pneumonia'],
+    o: ['Succinilcolina, pelo início de ação mais rápido que o do rocurônio', 'Rocurônio: succinilcolina pode causar hipercalemia grave na desnervação', 'Succinilcolina, pois o rocurônio é contraindicado na lesão medular', 'Nenhum, pois bloqueadores são contraindicados na pneumonia'],
     g: 'B',
     c: 'Após desnervação, imobilização prolongada ou grandes queimaduras, ocorre proliferação de receptores de acetilcolina por toda a membrana muscular. A succinilcolina, ao despolarizar esses receptores, provoca saída maciça de potássio e pode causar arritmia fatal. O risco surge alguns dias após a lesão. O rocurônio, não despolarizante, é a alternativa segura.',
     x: { A: 'O início rápido não compensa o risco de hipercalemia fatal nesse paciente.', C: 'O rocurônio é exatamente a alternativa recomendada na lesão medular subaguda.', D: 'A pneumonia não contraindica o uso de bloqueador neuromuscular.' },
@@ -69,7 +69,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Complicações da intubação',
     e: 'Mulher de 58 anos é intubada na emergência. Logo após, nota-se expansão apenas do hemitórax direito, murmúrio vesicular abolido à esquerda e pressão de pico elevada. O tubo está fixado na marca de 27 cm na arcada dentária, a capnografia é normal e a PA é de 120 x 70 mmHg. A conduta imediata é:',
-    o: ['Punção de alívio do hemitórax esquerdo', 'Tracionar o tubo alguns centímetros e reavaliar a ausculta', 'Trocar o tubo por outro de maior calibre', 'Iniciar broncodilatador e corticoide'],
+    o: ['Punção de alívio do hemitórax esquerdo com agulha calibrosa', 'Tracionar o tubo alguns centímetros e reavaliar a ausculta', 'Trocar o tubo por outro de maior calibre e reintubar', 'Iniciar broncodilatador e corticoide intravenoso'],
     g: 'B',
     c: 'O brônquio principal direito é mais curto, calibroso e alinhado com a traqueia, de modo que um tubo introduzido em excesso tende a ventilar apenas o pulmão direito. O esquerdo não ventila e pode sofrer atelectasia, enquanto o direito é hiperdistendido. A profundidade habitual fica em torno de 21 a 23 cm na arcada dentária, e a correção é tracionar o tubo.',
     x: { A: 'O quadro é de intubação seletiva com paciente estável, não de pneumotórax hipertensivo.', C: 'O problema é a profundidade de inserção, não o calibre do tubo.', D: 'O broncoespasmo causaria alteração bilateral, e não ausência unilateral de murmúrio.' },
@@ -85,7 +85,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Modos ventilatórios',
     e: 'Ao comparar os modos assistido-controlados a volume (VCV) e a pressão (PCV), é correto afirmar que:',
-    o: ['No VCV a pressão é fixa e o volume corrente varia com a mecânica do paciente', 'No VCV o volume corrente é garantido e a pressão varia; no PCV a pressão é fixa e o volume corrente varia com a complacência e a resistência', 'No PCV o fluxo inspiratório é constante e definido pelo operador', 'Nos dois modos o paciente não consegue disparar o ventilador'],
+    o: ['No VCV a pressão é fixa e o volume corrente varia com a mecânica do paciente', 'No VCV o volume é garantido e a pressão varia; no PCV, a pressão é fixa', 'No PCV o fluxo inspiratório é constante e definido pelo operador', 'Nos dois modos o paciente não consegue disparar o ventilador'],
     g: 'B',
     c: 'No modo a volume, ajustam-se volume corrente e fluxo, e a pressão resultante depende da resistência e da complacência; por isso é preciso vigiar as pressões. No modo a pressão, fixa-se a pressão inspiratória e o tempo, com fluxo desacelerado e livre; se a complacência cai ou a resistência sobe, o volume corrente diminui, e é ele que deve ser monitorizado.',
     x: { A: 'A descrição corresponde ao modo a pressão, e não ao modo a volume.', C: 'No modo a pressão o fluxo é livre e desacelerado, não fixado pelo operador.', D: 'Em ambos o paciente pode disparar ciclos assistidos além dos programados.' },
@@ -93,7 +93,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Modos ventilatórios',
     e: 'No modo pressão de suporte (PSV), utilizado com frequência no desmame, é correto afirmar que:',
-    o: ['A frequência respiratória e o tempo inspiratório são fixados pelo operador', 'Todos os ciclos são disparados pelo paciente e a ciclagem ocorre por queda do fluxo inspiratório', 'O volume corrente é garantido independentemente do esforço', 'Pode ser usado com segurança em pacientes sob bloqueio neuromuscular'],
+    o: ['A frequência respiratória e o tempo inspiratório são fixados pelo operador', 'Ciclos disparados pelo paciente e ciclagem por queda do fluxo inspiratório', 'O volume corrente é garantido independentemente do esforço do paciente', 'Pode ser usado com segurança em pacientes sob bloqueio neuromuscular'],
     g: 'B',
     c: 'A pressão de suporte é um modo espontâneo: o paciente inicia cada ciclo, o ventilador aplica uma pressão constante e a inspiração termina quando o fluxo cai a uma fração do pico. Frequência, tempo inspiratório e volume corrente dependem do esforço e da mecânica do paciente, por isso o modo exige drive respiratório preservado e alarme de apneia ativo.',
     x: { A: 'Não há frequência nem tempo inspiratório fixos nesse modo.', C: 'O volume corrente varia com o esforço, a complacência e a resistência.', D: 'Sem drive respiratório o paciente ficaria em apneia nesse modo.' },
@@ -101,7 +101,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Monitorização da mecânica',
     e: 'Paciente em ventilação a volume controlado apresenta aumento súbito da pressão de pico de 28 para 48 cmH2O, enquanto a pressão de platô permanece em 20 cmH2O. A causa mais provável é:',
-    o: ['Pneumotórax hipertensivo', 'Aumento da resistência das vias aéreas, como broncoespasmo, rolha de secreção ou tubo dobrado', 'Edema agudo de pulmão', 'Distensão abdominal importante'],
+    o: ['Pneumotórax hipertensivo, com aumento da pressão de platô', 'Aumento da resistência de vias aéreas: broncoespasmo, rolha ou tubo dobrado', 'Edema agudo de pulmão, com aumento da pressão de platô', 'Distensão abdominal importante, com aumento da pressão de platô'],
     g: 'B',
     c: 'A pressão de pico soma o componente resistivo, dependente do fluxo e das vias aéreas, ao componente elástico. A pressão de platô, medida sem fluxo, reflete apenas o componente elástico. Se o pico sobe e o platô não muda, a diferença entre eles aumentou, indicando maior resistência: broncoespasmo, secreção, mordedura ou acotovelamento do tubo.',
     x: { A: 'O pneumotórax reduz a complacência e elevaria também a pressão de platô.', C: 'O edema pulmonar reduz a complacência, com aumento do platô.', D: 'A distensão abdominal diminui a complacência do sistema e eleva o platô.' },
@@ -109,7 +109,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Monitorização da mecânica',
     e: 'Homem de 66 anos em ventilação mecânica por pneumonia apresenta piora súbita, com pressão de pico de 50 cmH2O e pressão de platô de 44 cmH2O, hipotensão, turgência jugular e murmúrio vesicular abolido à direita, com hipertimpanismo. O tubo está na posição correta. O diagnóstico e a conduta são:',
-    o: ['Broncoespasmo; nebulização com beta-2-agonista', 'Pneumotórax hipertensivo; descompressão imediata do hemitórax direito', 'Rolha de secreção; aspiração traqueal', 'Auto-PEEP; aumento da frequência respiratória'],
+    o: ['Broncoespasmo; nebulização com beta-2-agonista e corticoide', 'Pneumotórax hipertensivo; descompressão imediata do hemitórax direito', 'Rolha de secreção; aspiração traqueal e fisioterapia', 'Auto-PEEP; aumento da frequência respiratória do ventilador'],
     g: 'B',
     c: 'A elevação conjunta das pressões de pico e de platô indica queda da complacência. Associada a hipotensão, turgência jugular, hipertimpanismo e ausência de murmúrio unilateral, caracteriza pneumotórax hipertensivo, complicação da pressão positiva. O diagnóstico é clínico e o tratamento é a descompressão imediata, seguida de drenagem torácica, sem aguardar radiografia.',
     x: { A: 'No broncoespasmo o platô permanece baixo e a alteração é bilateral.', C: 'A rolha eleva o pico, mas não explica hipertimpanismo com choque obstrutivo.', D: 'Aumentar a frequência agravaria o aprisionamento aéreo e não trata o pneumotórax.' },
@@ -117,7 +117,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Auto-PEEP',
     e: 'Homem de 24 anos é intubado por crise asmática grave e ventilado com frequência de 24 irpm. Poucos minutos depois apresenta hipotensão grave, com pressões de via aérea progressivamente mais altas e curva de fluxo expiratório que não retorna a zero antes do ciclo seguinte. Ausculta simétrica, com sibilos difusos. A conduta imediata é:',
-    o: ['Aumentar a frequência respiratória para eliminar o CO2', 'Desconectar brevemente o paciente do ventilador para permitir a exalação completa', 'Aumentar a PEEP para 15 cmH2O', 'Administrar furosemida intravenosa'],
+    o: ['Aumentar a frequência respiratória para eliminar mais CO2 por minuto', 'Desconectar brevemente o paciente do ventilador para exalação completa', 'Aumentar a PEEP para 15 cmH2O, para abrir as vias aéreas', 'Administrar furosemida intravenosa para reduzir o edema'],
     g: 'B',
     c: 'Na obstrução grave o tempo expiratório não basta para esvaziar o pulmão, e cada novo ciclo empilha ar, gerando hiperinsuflação dinâmica e auto-PEEP. A pressão intratorácica crescente reduz o retorno venoso e causa hipotensão, podendo levar à parada. Desconectar o ventilador por alguns segundos permite a exalação e restaura a pressão arterial.',
     x: { A: 'Frequência maior encurta ainda mais a expiração e piora o aprisionamento aéreo.', C: 'PEEP elevada soma-se à hiperinsuflação e agrava a hipotensão.', D: 'O diurético reduz a pré-carga e piora o choque causado por baixo retorno venoso.' },
@@ -125,7 +125,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Auto-PEEP',
     e: 'Em um paciente com DPOC sob ventilação mecânica controlada, a forma de quantificar a auto-PEEP e os ajustes que a reduzem são:',
-    o: ['Pausa inspiratória; aumento do volume corrente e da frequência respiratória', 'Pausa expiratória; redução da frequência respiratória e do volume corrente, com aumento do tempo expiratório', 'Pausa inspiratória; aumento do tempo inspiratório', 'Pressão de pico; redução do fluxo inspiratório'],
+    o: ['Pausa inspiratória; aumento do volume corrente e da frequência respiratória', 'Pausa expiratória; reduzir frequência e volume e aumentar tempo expiratório', 'Pausa inspiratória; aumento do tempo inspiratório e do fluxo', 'Pressão de pico; redução do fluxo inspiratório e do volume'],
     g: 'B',
     c: 'A oclusão da válvula expiratória ao final da expiração, sem esforço do paciente, permite o equilíbrio das pressões e revela a PEEP total; a diferença em relação à PEEP ajustada é a auto-PEEP. Reduz-se o problema diminuindo o volume minuto e prolongando a expiração: menor frequência, menor volume corrente e maior fluxo inspiratório, além de tratar o broncoespasmo.',
     x: { A: 'A pausa inspiratória mede o platô, e esses ajustes aumentariam o aprisionamento.', C: 'Tempo inspiratório maior encurta a expiração e agrava a hiperinsuflação.', D: 'Reduzir o fluxo inspiratório prolonga a inspiração e reduz o tempo para exalar.' },
@@ -165,7 +165,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Estridor pós-extubação',
     e: 'Mulher de 54 anos, intubada por 9 dias após intubação traumática, apresenta 30 minutos após a extubação estridor inspiratório, tiragem supraesternal e FR de 30 irpm, com SpO2 de 93%. O diagnóstico mais provável e a conduta inicial são:',
-    o: ['Broncoespasmo; salbutamol inalatório isolado', 'Edema de laringe; adrenalina por nebulização e corticoide intravenoso, com vigilância para reintubação', 'Edema agudo de pulmão; furosemida e nitrato', 'Embolia pulmonar; anticoagulação plena'],
+    o: ['Broncoespasmo; salbutamol inalatório isolado, sem corticoide', 'Edema de laringe; adrenalina inalatória, corticoide e vigilância', 'Edema agudo de pulmão; furosemida e nitrato endovenoso', 'Embolia pulmonar; anticoagulação plena imediata'],
     g: 'B',
     c: 'O estridor inspiratório logo após a extubação indica obstrução da via aérea superior por edema de laringe, favorecido por intubação prolongada ou traumática, tubo calibroso e sexo feminino. A adrenalina nebulizada causa vasoconstrição da mucosa e reduz o edema rapidamente, e o corticoide atua sobre a inflamação. Se não houver melhora, reintuba-se sem demora.',
     x: { A: 'O broncoespasmo causa sibilos expiratórios, e não estridor inspiratório com tiragem alta.', C: 'O edema pulmonar cursa com estertores e não com estridor.', D: 'A embolia pulmonar não produz ruído de obstrução de via aérea superior.' },
@@ -189,7 +189,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Pneumonia associada à ventilação',
     e: 'Homem de 65 anos, no 10º dia de ventilação mecânica, que recebeu antibiótico intravenoso há 3 semanas, evolui com febre, secreção traqueal purulenta, piora da oxigenação, novo infiltrado em base direita e necessidade de noradrenalina. A unidade tem alta prevalência de Staphylococcus aureus resistente à meticilina. Após colher cultura de secreção respiratória, o esquema empírico deve cobrir:',
-    o: ['Apenas pneumococo e Haemophilus influenzae', 'Pseudomonas aeruginosa e outros gram-negativos, além de Staphylococcus aureus resistente à meticilina', 'Apenas germes atípicos, com macrolídeo em monoterapia', 'Apenas anaeróbios, com metronidazol'],
+    o: ['Apenas pneumococo e Haemophilus influenzae, com ceftriaxona', 'Pseudomonas e outros gram-negativos, além de MRSA', 'Apenas germes atípicos, com macrolídeo em monoterapia', 'Apenas anaeróbios, com metronidazol em monoterapia'],
     g: 'B',
     c: 'Pneumonia de início tardio, uso recente de antibiótico intravenoso e choque séptico são fatores de risco para germes multirresistentes. O esquema inicial deve incluir cobertura para Pseudomonas e outros bacilos gram-negativos e, conforme a epidemiologia local, para estafilococo resistente. Com o resultado da cultura, o tratamento é ajustado e o espectro reduzido.',
     x: { A: 'Esses agentes predominam na pneumonia precoce sem fatores de risco para resistência.', C: 'Germes atípicos não são os agentes habituais dessa pneumonia hospitalar tardia.', D: 'Anaeróbios isolados não explicam o quadro, e metronidazol não cobre os principais agentes.' },
@@ -197,7 +197,7 @@ export const IRPA_4: QuestaoCompacta[] = [
   {
     s: 'Traqueostomia',
     e: 'Em relação à traqueostomia no paciente com previsão de ventilação mecânica prolongada, é correto afirmar que:',
-    o: ['Deve ser realizada em todos os pacientes nas primeiras 48 horas de intubação, pois reduz a mortalidade', 'Aumenta o conforto, reduz a necessidade de sedação e facilita a higiene e o desmame, sem benefício consistente de mortalidade com a realização muito precoce', 'Aumenta o espaço morto e o trabalho respiratório em relação ao tubo orotraqueal', 'Impede definitivamente a fonação e a alimentação por via oral'],
+    o: ['Deve ser realizada em todos os pacientes nas primeiras 48 horas, pois reduz a mortalidade', 'Aumenta o conforto e reduz a sedação, sem benefício consistente na mortalidade', 'Aumenta o espaço morto e o trabalho respiratório em relação ao tubo orotraqueal', 'Impede definitivamente a fonação e a alimentação por via oral, em todos'],
     g: 'B',
     c: 'A cânula de traqueostomia é mais curta e mais confortável que o tubo orotraqueal, reduz o espaço morto e a resistência, facilita a aspiração e a higiene oral e permite menos sedação e mobilização mais precoce. Costuma ser considerada quando se prevê ventilação prolongada, em geral após a segunda semana. Os estudos não mostraram redução consistente de mortalidade com a traqueostomia muito precoce.',
     x: { A: 'A realização muito precoce de rotina não reduz a mortalidade e expõe a procedimento desnecessário.', C: 'A traqueostomia reduz o espaço morto e o trabalho respiratório.', D: 'Com desinsuflação do balonete e válvula de fala, é possível falar e se alimentar.' },

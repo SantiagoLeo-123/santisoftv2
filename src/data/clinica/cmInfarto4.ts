@@ -5,7 +5,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'MINOCA: definição',
     e: 'O diagnóstico de infarto do miocárdio com artérias coronárias não obstrutivas (MINOCA) exige:',
-    o: ['Coronárias completamente lisas e troponina normal', 'Critérios de infarto agudo, ausência de estenose coronariana de 50% ou mais à angiografia e ausência de outro diagnóstico específico que explique o quadro', 'Estenose coronariana de 70% ou mais em pelo menos um vaso', 'Apenas dor torácica com eletrocardiograma normal'],
+    o: ['Coronárias completamente lisas e troponina normal, sem sintomas', 'Critérios de infarto, sem estenose ≥ 50% à angiografia e sem outra causa', 'Estenose coronariana de 70% ou mais em pelo menos um vaso', 'Apenas dor torácica com eletrocardiograma normal e troponina negativa'],
     g: 'B',
     c: 'MINOCA é um diagnóstico de trabalho: o paciente preenche a definição universal de infarto, a angiografia não mostra obstrução de 50% ou mais em vaso epicárdico e não há causa alternativa evidente, como miocardite, embolia pulmonar ou sepse. A partir daí deve-se buscar o mecanismo, pois o tratamento depende da causa.',
     x: { A: 'É preciso haver infarto, portanto troponina com curva; e irregularidades inferiores a 50% são aceitas.', C: 'Estenose de 70% caracteriza doença obstrutiva, o oposto de MINOCA.', D: 'Sem injúria miocárdica aguda não há infarto, logo não há MINOCA.' },
@@ -13,7 +13,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'MINOCA: investigação',
     e: 'Mulher de 47 anos, tabagista, apresenta dor precordial em repouso, infradesnivelamento de ST em parede lateral e curva típica de troponina. A coronariografia mostra apenas irregularidades parietais, sem estenoses significativas. A ventriculografia é normal. Qual exame é o mais útil para esclarecer a causa do quadro?',
-    o: ['Teste ergométrico', 'Ressonância magnética cardíaca', 'Holter de 24 horas', 'Radiografia de tórax'],
+    o: ['Teste ergométrico em esteira', 'Ressonância magnética cardíaca', 'Holter de 24 horas de monitoração', 'Radiografia de tórax em PA e perfil'],
     g: 'B',
     c: 'A ressonância cardíaca é o exame-chave no MINOCA: o realce tardio e o mapeamento de edema distinguem infarto verdadeiro (padrão subendocárdico ou transmural em território coronariano) de miocardite (padrão subepicárdico ou mesocárdico) e de síndrome de Takotsubo (edema sem realce tardio significativo). Deve ser feita precocemente, de preferência nas primeiras semanas.',
     x: { A: 'O teste ergométrico não define a causa e é inadequado na fase aguda.', C: 'O Holter não esclarece o mecanismo da lesão miocárdica.', D: 'A radiografia de tórax não tem acurácia para caracterizar o miocárdio.' },
@@ -29,7 +29,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'MINOCA: epidemiologia',
     e: 'Em comparação com os pacientes com infarto e doença coronariana obstrutiva, os pacientes com MINOCA:',
-    o: ['São quase exclusivamente homens idosos', 'São mais frequentemente mulheres e mais jovens, correspondendo a uma minoria dos infartos (cerca de 6% a 8%)', 'Representam mais da metade dos infartos', 'Apresentam sempre supradesnivelamento de ST'],
+    o: ['São quase exclusivamente homens idosos, com múltiplos fatores de risco', 'Mais mulheres e mais jovens; minoria dos infartos (6% a 8%)', 'Representam mais da metade de todos os infartos do miocárdio', 'Apresentam sempre supradesnivelamento de ST ao eletrocardiograma'],
     g: 'B',
     c: 'A definição universal cita que cerca de 6% a 8% dos infartos ocorrem sem doença coronariana obstrutiva, proporção maior em mulheres, em pacientes mais jovens e nos infartos sem supradesnivelamento de ST. O prognóstico não é benigno, o que justifica a investigação da causa.',
     x: { A: 'A proporção de mulheres é maior no MINOCA do que no infarto obstrutivo.', C: 'É uma minoria dos casos de infarto.', D: 'O MINOCA é mais comum entre os infartos sem supradesnivelamento de ST.' },
@@ -37,7 +37,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Ressonância: padrão isquêmico',
     e: 'Na ressonância magnética cardíaca, o padrão de realce tardio com gadolínio característico de infarto do miocárdio é:',
-    o: ['Realce subepicárdico na parede lateral, poupando o subendocárdio', 'Realce subendocárdico ou transmural, em território de distribuição de uma artéria coronária', 'Realce mesocárdico linear no septo', 'Ausência de realce, com edema difuso'],
+    o: ['Realce subepicárdico na parede lateral, poupando o subendocárdio', 'Realce subendocárdico ou transmural, no território de uma coronária', 'Realce mesocárdico linear no septo, sem relação com coronárias', 'Ausência de realce, com edema difuso do miocárdio ventricular'],
     g: 'B',
     c: 'A necrose isquêmica progride do subendocárdio, a região mais vulnerável à hipoperfusão, em direção ao epicárdio (fenômeno da frente de onda). Por isso o realce tardio isquêmico sempre envolve o subendocárdio e respeita um território coronariano; padrões que poupam o subendocárdio sugerem etiologia não isquêmica.',
     x: { A: 'O realce subepicárdico lateral é típico de miocardite.', C: 'O realce mesocárdico septal é típico de cardiomiopatia dilatada não isquêmica.', D: 'Edema sem realce tardio sugere Takotsubo ou lesão reversível.' },
@@ -61,7 +61,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Takotsubo: biomarcadores',
     e: 'Em relação aos biomarcadores na síndrome de Takotsubo, o padrão característico é:',
-    o: ['Troponina muito elevada, proporcional à grande área de disfunção, com peptídeo natriurético normal', 'Elevação modesta de troponina, desproporcional à extensão da disfunção ventricular, com peptídeo natriurético bastante elevado', 'Troponina sempre normal', 'CK-MB elevada com troponina normal'],
+    o: ['Troponina muito elevada, proporcional à disfunção, com peptídeo natriurético normal', 'Troponina pouco elevada, desproporcional à disfunção, com BNP bastante alto', 'Troponina sempre normal, independentemente da extensão da disfunção', 'CK-MB elevada com troponina normal, ao longo de toda a evolução'],
     g: 'B',
     c: 'No Takotsubo predomina o atordoamento miocárdico, e não a necrose: a troponina sobe pouco em relação à extensa área acinética, enquanto o peptídeo natriurético se eleva muito pelo estiramento da parede. Essa discrepância entre biomarcador de necrose e disfunção ventricular é uma pista diagnóstica.',
     x: { A: 'A troponina é desproporcionalmente baixa, e o peptídeo natriurético costuma estar alto.', C: 'A troponina eleva-se em mais de 95% dos casos, ainda que de forma modesta.', D: 'Não existe esse padrão dissociado; a troponina é mais sensível que a CK-MB.' },
@@ -69,7 +69,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Takotsubo: evolução eletrocardiográfica',
     e: 'Mulher de 72 anos, internada há 36 horas por síndrome de Takotsubo, encontra-se assintomática. O eletrocardiograma de controle mostra inversão profunda e difusa de ondas T, com intervalo QT corrigido de 540 ms. O principal risco associado a esse achado é:',
-    o: ['Bloqueio atrioventricular total por isquemia do nó atrioventricular', 'Taquicardia ventricular polimórfica do tipo torsades de pointes', 'Pericardite constritiva', 'Novo infarto por trombose coronariana'],
+    o: ['Bloqueio atrioventricular total por isquemia do nó atrioventricular', 'Taquicardia ventricular polimórfica do tipo torsades de pointes', 'Pericardite constritiva por fibrose precoce do pericárdio', 'Novo infarto por trombose coronariana aguda de artéria epicárdica'],
     g: 'B',
     c: 'Na evolução do Takotsubo é comum, após 12 a 24 horas, surgirem ondas T profundamente invertidas com prolongamento do QT, o que predispõe a torsades de pointes quando o QT corrigido ultrapassa 500 ms. Deve-se manter monitorização, corrigir potássio e magnésio e evitar fármacos que prolongam o QT.',
     x: { A: 'O Takotsubo não cursa com isquemia do nó atrioventricular como evolução típica.', C: 'A pericardite constritiva é complicação crônica sem relação com o achado.', D: 'Não há doença coronariana obstrutiva nem trombose na síndrome.' },
@@ -85,7 +85,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Takotsubo: evolução da função ventricular',
     e: 'Mulher de 66 anos recebeu diagnóstico de síndrome de Takotsubo, com fração de ejeção de 30% na fase aguda. Quanto à evolução esperada da função ventricular, é correto orientar que:',
-    o: ['A disfunção é permanente na maioria dos casos', 'A função ventricular costuma recuperar-se em dias a poucas semanas, o que deve ser confirmado por exame de imagem de controle', 'A recuperação só ocorre com revascularização', 'A paciente necessitará de cardiodesfibrilador implantável de rotina'],
+    o: ['A disfunção é permanente na maioria dos casos, com remodelamento', 'Recupera-se em dias a poucas semanas; confirmar com imagem de controle', 'A recuperação só ocorre com revascularização coronariana percutânea', 'Necessitará de cardiodesfibrilador implantável de rotina após a alta'],
     g: 'B',
     c: 'A reversibilidade é característica central da síndrome: a contratilidade normaliza-se geralmente em 2 a 4 semanas, e documentar essa recuperação ajuda a confirmar o diagnóstico. Ainda assim, a fase aguda não é benigna, com risco de choque, arritmias e trombo apical, e há possibilidade de recorrência.',
     x: { A: 'O atordoamento é transitório; a persistência da disfunção deve fazer rever o diagnóstico.', C: 'Não há obstrução coronariana a ser revascularizada.', D: 'Como a disfunção é reversível, não há indicação rotineira de cardiodesfibrilador.' },
@@ -93,7 +93,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Takotsubo x infarto anterior',
     e: 'Qual achado de imagem mais ajuda a diferenciar a síndrome de Takotsubo de um infarto anterior por oclusão da descendente anterior?',
-    o: ['Presença de qualquer hipocinesia apical', 'Alteração da contratilidade que ultrapassa o território de irrigação de uma única artéria coronária', 'Fração de ejeção inferior a 40%', 'Presença de insuficiência mitral leve'],
+    o: ['Presença de qualquer hipocinesia apical, mesmo restrita a um segmento', 'Alteração da contratilidade além do território de uma única coronária', 'Fração de ejeção inferior a 40% à ecocardiografia na fase aguda', 'Presença de insuficiência mitral leve ao ecocardiograma de repouso'],
     g: 'B',
     c: 'No Takotsubo, a alteração segmentar é circunferencial e se estende além do território de um único vaso epicárdico (por exemplo, todos os segmentos médios e apicais), ao contrário do infarto, que respeita a distribuição da artéria ocluída. Mesmo assim, a coronariografia costuma ser necessária para excluir oclusão aguda.',
     x: { A: 'A hipocinesia apical ocorre nas duas condições.', C: 'A queda da fração de ejeção é comum a ambas.', D: 'A insuficiência mitral leve é inespecífica e pode ocorrer nas duas situações.' },
@@ -101,7 +101,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Injúria miocárdica após cirurgia não cardíaca',
     e: 'Homem de 74 anos, hipertenso e diabético, no 2º dia de pós-operatório de correção de fratura de fêmur, está assintomático. A troponina de alta sensibilidade, colhida por protocolo, está elevada, com aumento em relação ao valor pré-operatório normal. Eletrocardiograma sem alterações novas; não há sepse, embolia pulmonar ou outra causa evidente. A classificação e o significado são:',
-    o: ['Infarto perioperatório tipo 1; indicar fibrinólise', 'Injúria miocárdica após cirurgia não cardíaca; associa-se a maior mortalidade e merece avaliação e seguimento', 'Achado fisiológico do pós-operatório, sem importância', 'Infarto tipo 5'],
+    o: ['Infarto perioperatório tipo 1; indicar fibrinólise imediata', 'Injúria miocárdica pós-operatória, ligada a maior mortalidade', 'Achado fisiológico do pós-operatório, sem importância clínica', 'Infarto tipo 5, relacionado à cirurgia de revascularização'],
     g: 'B',
     c: 'A elevação pós-operatória de troponina sem evidência de isquemia caracteriza injúria miocárdica perioperatória, e não infarto. Mesmo assintomática, ela se associa de forma independente a maior mortalidade e a complicações cardiovasculares, justificando avaliação cardiológica e otimização da prevenção.',
     x: { A: 'Não há evidência de isquemia, e a fibrinólise é contraindicada em pós-operatório recente.', C: 'A elevação não é fisiológica e tem implicação prognóstica.', D: 'O tipo 5 é exclusivo da cirurgia de revascularização miocárdica.' },
@@ -109,7 +109,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Infarto perioperatório: apresentação',
     e: 'Sobre o infarto do miocárdio no perioperatório de cirurgias não cardíacas, é correto afirmar que:',
-    o: ['Quase sempre se manifesta com dor precordial típica', 'A maioria dos casos ocorre sem sintomas isquêmicos típicos, o que justifica a dosagem de troponina antes e 48 a 72 horas após cirurgias de grande porte em pacientes de alto risco', 'Só ocorre após o 7º dia de pós-operatório', 'A troponina não deve ser dosada no pós-operatório por ser sempre elevada'],
+    o: ['Quase sempre se manifesta com dor precordial típica e sudorese', 'Maioria sem sintomas típicos; dosar troponina antes e 48-72 h após cirurgias', 'Só ocorre após o 7º dia de pós-operatório, na fase tardia', 'A troponina não deve ser dosada no pós-operatório por ser sempre elevada'],
     g: 'B',
     c: 'Analgesia, sedação e sintomas da própria cirurgia mascaram a dor isquêmica; a maior parte dos infartos perioperatórios é silenciosa e ocorre nas primeiras 48 a 72 horas. Por isso a definição universal recomenda vigilância com troponina, com valor basal pré-operatório, em pacientes de alto risco.',
     x: { A: 'A maioria é oligossintomática ou assintomática.', C: 'A maior incidência é nos primeiros 2 a 3 dias após a cirurgia.', D: 'A troponina não está sempre elevada, e sua variação tem valor diagnóstico e prognóstico.' },
@@ -117,7 +117,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Infarto perioperatório: classificação',
     e: 'Mulher de 78 anos, com doença coronariana estável, é submetida a colectomia por neoplasia. No intraoperatório há sangramento, com hipotensão sustentada e taquicardia. Na recuperação apresenta infradesnivelamento novo de ST em V4 a V6 e, em seguida, curva de elevação de troponina. O diagnóstico mais provável é:',
-    o: ['Injúria miocárdica crônica', 'Infarto tipo 2 perioperatório', 'Infarto tipo 4a', 'Síndrome de Takotsubo'],
+    o: ['Injúria miocárdica crônica de causa estrutural', 'Infarto tipo 2 perioperatório', 'Infarto tipo 4a relacionado à angioplastia', 'Síndrome de Takotsubo pós-estresse cirúrgico'],
     g: 'B',
     c: 'Há injúria aguda com evidência de isquemia (alteração nova de ST), em um contexto de queda da oferta (hipotensão, anemia) e aumento da demanda (taquicardia) sobre doença coronariana fixa: infarto tipo 2. A conduta é restaurar a perfusão e a hemoglobina; antitrombóticos devem ser ponderados contra o risco de sangramento cirúrgico.',
     x: { A: 'Há curva de troponina e alteração isquêmica nova no eletrocardiograma.', C: 'Não houve intervenção coronariana percutânea.', D: 'O contexto hemodinâmico e a doença coronariana prévia explicam melhor o quadro.' },
@@ -125,7 +125,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Ecocardiograma',
     e: 'Homem de 59 anos, com dor torácica há 5 horas, tem eletrocardiograma inconclusivo por bloqueio de ramo esquerdo antigo e troponina em elevação. Qual achado do ecocardiograma serve como evidência de isquemia miocárdica aguda para o diagnóstico de infarto?',
-    o: ['Hipertrofia concêntrica do ventrículo esquerdo', 'Nova alteração segmentar da contratilidade, em padrão compatível com etiologia isquêmica', 'Aumento do átrio esquerdo', 'Disfunção diastólica grau I'],
+    o: ['Hipertrofia concêntrica do ventrículo esquerdo, de longa data', 'Nova alteração segmentar da contratilidade, compatível com isquemia', 'Aumento do átrio esquerdo com função sistólica preservada', 'Disfunção diastólica grau I, achado comum no idoso hipertenso'],
     g: 'B',
     c: 'A definição universal aceita como evidência de isquemia a demonstração por imagem de perda nova de miocárdio viável ou de nova alteração segmentar da contratilidade com padrão isquêmico. O ecocardiograma é especialmente útil quando o eletrocardiograma não é interpretável e também avalia função ventricular e diagnósticos alternativos.',
     x: { A: 'A hipertrofia é achado crônico e não indica isquemia aguda.', C: 'O aumento atrial reflete sobrecarga crônica, sem relação com isquemia aguda.', D: 'A disfunção diastólica leve é inespecífica e comum em idosos e hipertensos.' },
@@ -133,7 +133,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Complicação mecânica',
     e: 'Mulher de 73 anos, no 4º dia após infarto inferior sem reperfusão, apresenta dispneia súbita, hipotensão e edema agudo de pulmão. Ausculta-se sopro holossistólico novo em foco mitral. Qual é o exame de escolha imediato e a principal hipótese?',
-    o: ['Ressonância cardíaca; miocardite', 'Ecocardiograma; insuficiência mitral aguda por ruptura de músculo papilar', 'Nova dosagem de troponina; reinfarto', 'Tomografia de tórax; embolia pulmonar'],
+    o: ['Ressonância cardíaca; miocardite aguda associada ao infarto', 'Ecocardiograma; insuficiência mitral aguda por ruptura de músculo papilar', 'Nova dosagem de troponina; reinfarto da parede inferior', 'Tomografia de tórax; embolia pulmonar secundária ao repouso'],
     g: 'B',
     c: 'Sopro novo com deterioração hemodinâmica súbita, dias após um infarto, obriga a pesquisar complicação mecânica. No infarto inferior, o músculo papilar posteromedial, de irrigação única, é o mais vulnerável à ruptura. O ecocardiograma à beira do leito confirma o diagnóstico e diferencia de comunicação interventricular, e o tratamento é cirúrgico.',
     x: { A: 'A ressonância é demorada e inadequada para paciente instável; o quadro não sugere miocardite.', C: 'A troponina não explica o sopro novo nem define a conduta nesse momento.', D: 'A embolia pulmonar não causa sopro holossistólico mitral nem edema agudo de pulmão.' },
@@ -141,7 +141,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Ressonância: lesão aguda x crônica',
     e: 'Na ressonância cardíaca de um paciente com área de realce tardio subendocárdico, qual achado indica que a lesão é aguda ou recente, e não uma cicatriz antiga?',
-    o: ['Afilamento da parede no segmento acometido', 'Edema miocárdico na mesma região, em sequências ponderadas em T2 ou no mapa T2', 'Presença de realce tardio, por si só', 'Calcificação da parede'],
+    o: ['Afilamento da parede no segmento acometido, com fibrose', 'Edema miocárdico na mesma região, em sequências T2 ou mapa T2', 'Presença de realce tardio, por si só, em qualquer segmento', 'Calcificação da parede miocárdica no segmento acometido'],
     g: 'B',
     c: 'O realce tardio aparece tanto na necrose aguda quanto na fibrose crônica, pois reflete o aumento do espaço extracelular. O edema, com sinal elevado em T2, está presente apenas na lesão aguda ou recente, permitindo datar o evento; já o afilamento parietal indica cicatriz antiga.',
     x: { A: 'O afilamento parietal é sinal de infarto antigo, com remodelamento.', C: 'O realce tardio não distingue necrose aguda de fibrose crônica.', D: 'A calcificação indica cronicidade.' },
@@ -149,7 +149,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Armadilha: pericardite',
     e: 'Homem de 33 anos refere dor precordial que piora ao deitar e melhora ao inclinar o tronco para a frente. Ausculta-se atrito pericárdico. O eletrocardiograma mostra supradesnivelamento de ST com concavidade superior em quase todas as derivações, infradesnivelamento do segmento PR e ausência de imagem recíproca, exceto em aVR. A conduta adequada é:',
-    o: ['Fibrinólise imediata', 'Tratar como pericardite aguda, com anti-inflamatório e colchicina, sem terapia de reperfusão', 'Angioplastia primária em até 90 minutos', 'Heparina em dose plena e dupla antiagregação'],
+    o: ['Fibrinólise imediata, pois há supradesnivelamento de ST', 'Pericardite aguda: anti-inflamatório e colchicina, sem reperfusão', 'Angioplastia primária em até 90 minutos do primeiro contato', 'Heparina em dose plena e dupla antiagregação plaquetária'],
     g: 'B',
     c: 'Supradesnivelamento difuso, não restrito a um território coronariano, côncavo, com infradesnivelamento de PR e sem alterações recíprocas, em paciente com dor posicional e atrito, caracteriza pericardite aguda. A fibrinólise e a anticoagulação plena aumentam o risco de hemopericárdio e tamponamento.',
     x: { A: 'O fibrinolítico na pericardite pode provocar hemopericárdio.', C: 'Não há padrão de oclusão coronariana que indique angioplastia primária.', D: 'A anticoagulação plena aumenta o risco de derrame pericárdico hemorrágico.' },
@@ -157,7 +157,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Armadilha: dissecção de aorta',
     e: 'Homem de 61 anos, hipertenso mal controlado, apresenta dor torácica súbita, lancinante, irradiada para o dorso. Pressão arterial de 180 x 100 mmHg no braço direito e 130 x 80 mmHg no esquerdo; sopro diastólico em foco aórtico. O eletrocardiograma mostra supradesnivelamento de ST em II, III e aVF. O serviço não dispõe de hemodinâmica. A conduta correta é:',
-    o: ['Administrar fibrinolítico imediatamente', 'Não fibrinolisar; controlar pressão e frequência e realizar angiotomografia de aorta de urgência', 'Administrar heparina plena e dupla antiagregação e observar', 'Aguardar a troponina seriada antes de qualquer conduta'],
+    o: ['Administrar fibrinolítico imediatamente, pelo supra de ST', 'Não fibrinolisar; controlar PA e FC e fazer angiotomografia de aorta', 'Heparina plena e dupla antiagregação, com observação', 'Aguardar a troponina seriada antes de qualquer conduta'],
     g: 'B',
     c: 'Dor lancinante com irradiação dorsal, assimetria de pressão entre os membros e sopro de insuficiência aórtica indicam dissecção de aorta ascendente, que pode envolver o óstio da coronária direita e causar supradesnivelamento inferior. Fibrinolítico e antitrombóticos podem ser fatais nesse cenário; o tratamento é cirúrgico.',
     x: { A: 'A fibrinólise na dissecção de aorta causa hemorragia potencialmente fatal.', C: 'Anticoagulação e antiagregação agravam o sangramento e atrasam a cirurgia.', D: 'A dissecção é emergência tempo-dependente; não se deve aguardar marcadores.' },
@@ -165,7 +165,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Armadilha: aneurisma ventricular',
     e: 'Mulher de 70 anos, assintomática, teve infarto anterior extenso há 4 meses, sem reperfusão. O eletrocardiograma de rotina mostra ondas Q em V1 a V5 com supradesnivelamento de ST persistente de 2 mm nas mesmas derivações, idêntico ao traçado da alta hospitalar. Troponina normal. A interpretação mais provável é:',
-    o: ['Reinfarto anterior', 'Aneurisma de ventrículo esquerdo', 'Pericardite aguda', 'Infarto recorrente silencioso'],
+    o: ['Reinfarto anterior com nova oclusão coronariana', 'Aneurisma de ventrículo esquerdo', 'Pericardite aguda pós-infarto tardia', 'Infarto recorrente silencioso, em outro território'],
     g: 'B',
     c: 'O supradesnivelamento de ST que persiste por semanas a meses após um infarto com ondas Q, sem sintomas nem elevação de troponina, sugere discinesia ou aneurisma ventricular. O ecocardiograma confirma o diagnóstico e pesquisa trombo mural.',
     x: { A: 'Reinfarto é o evento nos primeiros 28 dias e exigiria nova curva de troponina.', C: 'Não há dor nem atrito, e o supradesnivelamento é localizado e acompanhado de ondas Q.', D: 'Sem nova elevação de troponina e com traçado inalterado, não há novo infarto.' },
@@ -173,7 +173,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Conduta: reperfusão sem aguardar marcadores',
     e: 'Homem de 55 anos chega com dor precordial típica há 40 minutos e eletrocardiograma com supradesnivelamento de ST de 3 mm em V1 a V4. O laboratório informa que o resultado da troponina sairá em 1 hora. A conduta correta é:',
-    o: ['Aguardar a troponina para confirmar o infarto antes de reperfundir', 'Indicar terapia de reperfusão imediata, sem aguardar o resultado da troponina', 'Repetir o eletrocardiograma em 6 horas', 'Solicitar ecocardiograma antes de decidir a reperfusão'],
+    o: ['Aguardar a troponina para confirmar o infarto antes de reperfundir', 'Reperfusão imediata, sem aguardar o resultado da troponina', 'Repetir o eletrocardiograma em 6 horas antes de decidir', 'Solicitar ecocardiograma antes de decidir sobre a reperfusão'],
     g: 'B',
     c: 'No infarto com supradesnivelamento de ST, o diagnóstico operacional é clínico e eletrocardiográfico, e o benefício da reperfusão depende do tempo. A troponina, que pode inclusive estar normal na primeira hora, serve para confirmar o diagnóstico depois, mas não deve atrasar a angioplastia primária ou a fibrinólise.',
     x: { A: 'Aguardar o marcador atrasa a reperfusão e aumenta a área de necrose.', C: 'O eletrocardiograma já é diagnóstico; adiar a conduta é prejudicial.', D: 'O ecocardiograma não deve retardar a reperfusão quando o quadro é claro.' },
@@ -181,7 +181,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Conduta: angina vasoespástica',
     e: 'Mulher de 51 anos, tabagista, apresenta episódios de dor precordial em repouso na madrugada, um deles com supradesnivelamento transitório de ST e elevação de troponina. A coronariografia não mostra obstruções, e o teste provocativo desencadeia espasmo focal da coronária direita. Qual é o tratamento de manutenção mais adequado?',
-    o: ['Propranolol', 'Bloqueador dos canais de cálcio, associado ou não a nitrato de ação prolongada, e cessação do tabagismo', 'Angioplastia com stent de rotina', 'Anticoagulação oral por tempo indeterminado'],
+    o: ['Propranolol, que reduz o espasmo coronariano nesse quadro', 'Bloqueador de canal de cálcio ± nitrato e cessação do tabagismo', 'Angioplastia com stent de rotina em todos os casos', 'Anticoagulação oral por tempo indeterminado, de rotina'],
     g: 'B',
     c: 'No infarto por espasmo coronariano, os bloqueadores dos canais de cálcio e os nitratos relaxam a musculatura lisa vascular e previnem novos episódios, e o tabagismo é o principal fator de risco modificável. Betabloqueadores não seletivos podem piorar o espasmo, por deixarem sem oposição o tônus alfa-adrenérgico.',
     x: { A: 'O betabloqueador não seletivo pode agravar o vasoespasmo.', C: 'Não há lesão obstrutiva fixa que justifique stent de rotina.', D: 'O mecanismo é o espasmo, e não a trombose ou a embolia.' },
@@ -189,7 +189,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Imagem intracoronária no MINOCA',
     e: 'Homem de 53 anos, dislipidêmico, apresenta infarto sem supradesnivelamento de ST. A coronariografia mostra apenas lesão de 30% na descendente anterior, com aspecto discretamente irregular. Durante o próprio cateterismo, qual método pode demonstrar ruptura ou erosão de placa como causa do infarto?',
-    o: ['Ventriculografia esquerda', 'Imagem intracoronária por tomografia de coerência óptica ou ultrassom intravascular', 'Cintilografia miocárdica', 'Aortografia'],
+    o: ['Ventriculografia esquerda para avaliar a motilidade segmentar', 'Imagem intracoronária: OCT ou ultrassom intravascular', 'Cintilografia miocárdica de perfusão com estresse', 'Aortografia para avaliar a raiz da aorta e as válvulas'],
     g: 'B',
     c: 'A angiografia mostra apenas o contorno da luz e subestima a doença da parede arterial. A tomografia de coerência óptica e o ultrassom intravascular visualizam a placa e podem identificar ruptura, erosão, trombo ou dissecção em lesões não obstrutivas, confirmando um mecanismo aterotrombótico e orientando a terapia antitrombótica e com estatina.',
     x: { A: 'A ventriculografia avalia a contratilidade, não a parede coronariana.', C: 'A cintilografia não é feita durante o cateterismo nem mostra a morfologia da placa.', D: 'A aortografia avalia a aorta e a valva aórtica, não a placa coronariana.' },
@@ -197,7 +197,7 @@ export const INFARTO_4: QuestaoCompacta[] = [
   {
     s: 'Miocardite: orientação após a alta',
     e: 'Homem de 22 anos, jogador de futebol amador, recebe alta após miocardite aguda confirmada por ressonância cardíaca, com função ventricular preservada. Qual orientação é a mais importante quanto à atividade física?',
-    o: ['Retornar aos treinos intensos em 1 semana, se estiver sem dor', 'Abster-se de exercícios competitivos e intensos por alguns meses (em geral 3 a 6), com reavaliação antes do retorno', 'Não há qualquer restrição, pois a função ventricular está preservada', 'Suspender definitivamente qualquer atividade física'],
+    o: ['Retornar aos treinos intensos em 1 semana, se estiver sem dor', 'Evitar exercício intenso por 3 a 6 meses, com reavaliação antes do retorno', 'Não há qualquer restrição, pois a função ventricular está preservada', 'Suspender definitivamente qualquer atividade física, inclusive leve'],
     g: 'B',
     c: 'O exercício intenso durante a fase inflamatória da miocardite pode aumentar a replicação viral e a lesão miocárdica e desencadear arritmias ventriculares e morte súbita, mesmo com função preservada. Recomenda-se afastamento de esportes competitivos por 3 a 6 meses, com reavaliação clínica, de biomarcadores, de função e de arritmias antes do retorno.',
     x: { A: 'O retorno precoce expõe a arritmias e a progressão da lesão.', C: 'O risco arrítmico existe mesmo com fração de ejeção normal.', D: 'A restrição é temporária; após reavaliação favorável o retorno é possível.' },

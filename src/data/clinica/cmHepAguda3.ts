@@ -5,7 +5,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite C — história natural',
     e: 'A característica mais marcante da história natural da infecção pelo vírus da hepatite C é:',
-    o: ['Alta frequência de hepatite fulminante na fase aguda', 'Fase aguda geralmente assintomática, com evolução para cronicidade na maioria dos infectados', 'Cura espontânea em mais de 95% dos adultos', 'Transmissão predominantemente fecal-oral'],
+    o: ['Alta frequência de hepatite fulminante na fase aguda', 'Fase aguda geralmente assintomática; cronificação na maioria dos infectados', 'Cura espontânea em mais de 95% dos adultos infectados', 'Transmissão predominantemente fecal-oral, por água contaminada'],
     g: 'B',
     c: 'A infecção aguda pelo vírus C é assintomática ou oligossintomática na grande maioria dos casos, o que dificulta o diagnóstico precoce. A alta taxa de mutação do vírus permite o escape da resposta imune, e cerca de 60% a 85% dos infectados evoluem para infecção crônica, com risco de cirrose e carcinoma hepatocelular ao longo de décadas.',
     x: { A: 'A hepatite fulminante pelo vírus C é excepcional.', C: 'Esse percentual de cura espontânea é o da hepatite B no adulto, não o da hepatite C.', D: 'A transmissão do vírus C é essencialmente parenteral.' },
@@ -29,7 +29,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite C — acidente ocupacional',
     e: 'Em relação à exposição ocupacional ao vírus da hepatite C, é correto afirmar que:',
-    o: ['Indica-se imunoglobulina específica nas primeiras 72 horas', 'Não há vacina nem profilaxia pós-exposição; recomenda-se seguimento para diagnóstico e tratamento precoces', 'Indica-se sofosbuvir profilático por 28 dias', 'Indica-se uma dose de vacina contra hepatite C'],
+    o: ['Imunoglobulina específica nas primeiras 72 horas, em dose única', 'Sem vacina nem profilaxia pós-exposição; seguimento para diagnóstico e tratamento precoces', 'Sofosbuvir profilático por 28 dias, a partir da exposição ocupacional', 'Uma dose da vacina contra hepatite C, logo após a exposição ocupacional'],
     g: 'B',
     c: 'Não existe vacina nem imunoglobulina eficaz contra o vírus C, e o uso profilático de antivirais não é recomendado. A conduta é o acompanhamento com anti-HCV, HCV-RNA e ALT, tratando a infecção caso se confirme, já que os antivirais de ação direta têm taxas de cura muito elevadas.',
     x: { A: 'Não há imunoglobulina com eficácia comprovada contra o vírus C.', C: 'Antivirais de ação direta não são recomendados como profilaxia pós-exposição.', D: 'Não há vacina disponível contra hepatite C, pela grande variabilidade do vírus.' },
@@ -37,7 +37,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite C — manifestações extra-hepáticas',
     e: 'Mulher de 52 anos apresenta púrpura palpável em membros inferiores, artralgias, fraqueza e parestesias em pés. Exames: C4 muito reduzido, fator reumatoide em título alto, hematúria e proteinúria. O exame que mais provavelmente identificará a causa de base é:',
-    o: ['HBsAg', 'Anti-HCV e HCV-RNA', 'Anti-HAV IgM', 'Anti-HDV'],
+    o: ['HBsAg, para pesquisa do vírus B', 'Anti-HCV e HCV-RNA', 'Anti-HAV IgM, para pesquisa do vírus A', 'Anti-HDV, para pesquisa do vírus delta'],
     g: 'B',
     c: 'O quadro é de vasculite crioglobulinêmica mista (tríade de Meltzer: púrpura, artralgia e fraqueza), com consumo de C4, fator reumatoide positivo, neuropatia periférica e glomerulonefrite membranoproliferativa. A grande maioria dos casos de crioglobulinemia mista está associada à infecção crônica pelo vírus C, cujo tratamento é a base do manejo.',
     x: { A: 'O vírus B associa-se classicamente à poliarterite nodosa e à nefropatia membranosa.', C: 'A hepatite A é aguda e não causa vasculite crioglobulinêmica crônica.', D: 'O vírus delta não é causa clássica de crioglobulinemia mista.' },
@@ -53,7 +53,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite C — transmissão',
     e: 'Mulher de 60 anos, assintomática, descobre anti-HCV reagente e HCV-RNA detectável. Nega uso de drogas e tatuagens. Refere cirurgia cardíaca com transfusão de sangue em 1988. A provável forma de aquisição do vírus foi:',
-    o: ['Transmissão sexual em relacionamento monogâmico', 'Transfusão de sangue antes da triagem sorológica em bancos de sangue', 'Ingestão de água contaminada', 'Transmissão por aleitamento materno na infância'],
+    o: ['Transmissão sexual em relacionamento monogâmico, que é pouco comum', 'Transfusão de sangue antes da triagem sorológica nos bancos de sangue', 'Ingestão de água contaminada, por via fecal-oral, que não é a via do vírus C', 'Aleitamento materno na infância, por via vertical, que é pouco comum'],
     g: 'B',
     c: 'O vírus C é transmitido principalmente por via parenteral. Antes da introdução da triagem do anti-HCV em doadores, no início da década de 1990, as transfusões eram importante fonte de infecção, razão pela qual se recomenda testar quem recebeu sangue ou hemoderivados antes de 1993. Hoje predomina o compartilhamento de material para uso de drogas.',
     x: { A: 'A transmissão sexual é pouco eficiente em casais monogâmicos heterossexuais.', C: 'O vírus C não tem transmissão fecal-oral.', D: 'O aleitamento materno não é via relevante de transmissão do vírus C.' },
@@ -61,7 +61,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite C — gestação',
     e: 'Sobre a hepatite C na gestação e no período neonatal, assinale a alternativa correta:',
-    o: ['A cesariana eletiva é indicada para todas as gestantes com HCV-RNA detectável', 'A amamentação é permitida, devendo ser suspensa temporariamente se houver fissuras mamilares com sangramento', 'O recém-nascido deve receber imunoglobulina específica ao nascer', 'O diagnóstico no lactente é feito pelo anti-HCV no primeiro mês de vida'],
+    o: ['Cesariana eletiva indicada a todas as gestantes com HCV-RNA detectável', 'Amamentação permitida; suspender temporariamente se houver fissuras sangrantes', 'O RN deve receber imunoglobulina específica ao nascer', 'O diagnóstico no lactente é feito pelo anti-HCV no 1º mês'],
     g: 'B',
     c: 'A transmissão vertical do vírus C ocorre em pequena proporção dos casos e aumenta na coinfecção com HIV e com carga viral alta. Não há profilaxia específica, a via de parto é obstétrica e o aleitamento é permitido, exceto diante de fissuras sangrantes. Os anticorpos maternos atravessam a placenta e podem persistir até cerca de 18 meses.',
     x: { A: 'A via de parto não altera de modo comprovado a transmissão do vírus C.', C: 'Não existe imunoglobulina nem vacina contra hepatite C.', D: 'O anti-HCV do lactente reflete anticorpos maternos transferidos passivamente.' },
@@ -69,7 +69,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite D — vírus',
     e: 'O vírus da hepatite D (delta) é considerado um vírus defectivo porque:',
-    o: ['Não possui material genético próprio', 'Necessita do HBsAg do vírus B como envelope para montagem e infecção de novos hepatócitos', 'Só se replica em células coinfectadas pelo vírus C', 'Depende da transcriptase reversa do HIV'],
+    o: ['Não possui material genético próprio, e usa o do hospedeiro', 'Precisa do HBsAg do vírus B como envelope para infectar novos hepatócitos', 'Só se replica em células coinfectadas pelo vírus C', 'Depende da transcriptase reversa do HIV para se replicar'],
     g: 'B',
     c: 'O vírus delta é um pequeno vírus de RNA que utiliza o antígeno de superfície do vírus B como envoltório, de modo que só infecta indivíduos HBsAg reagentes. Por isso a vacinação contra hepatite B previne também a hepatite D. No Brasil, concentra-se na Amazônia ocidental.',
     x: { A: 'O vírus delta tem genoma próprio de RNA circular.', C: 'Não há dependência do vírus C para a replicação do vírus delta.', D: 'O vírus delta não utiliza enzimas do HIV em seu ciclo.' },
@@ -85,7 +85,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite D — superinfecção',
     e: 'Ribeirinho de 38 anos do Amazonas, sabidamente HBsAg reagente há 10 anos e assintomático, apresenta icterícia intensa, febre, vômitos e rápida deterioração com INR de 3,0. Anti-HBc IgM não reagente, anti-HDV reagente. Sobre esse quadro, é correto afirmar:',
-    o: ['Trata-se de coinfecção, com baixa chance de cronificação do vírus delta', 'Trata-se de superinfecção, com maior risco de hepatite fulminante e de cronificação da infecção delta', 'A vacina contra hepatite B aplicada agora evitaria a progressão', 'O anti-HBc IgM negativo afasta a participação do vírus B'],
+    o: ['Coinfecção, com baixa chance de cronificação do vírus delta no hospedeiro', 'Superinfecção: maior risco de hepatite fulminante e de cronificação da infecção delta', 'A vacina contra hepatite B aplicada agora evitaria a progressão da doença', 'O anti-HBc IgM negativo afasta a participação do vírus B na doença'],
     g: 'B',
     c: 'A superinfecção ocorre quando um portador crônico do vírus B adquire o vírus delta. Como o HBsAg já está abundantemente disponível, a replicação do vírus delta é intensa, com risco elevado de hepatite fulminante, cronificação na grande maioria dos casos e progressão acelerada para cirrose. Na Amazônia descreve-se a forma fulminante com esteatose microvesicular e células em mórula (febre de Lábrea).',
     x: { A: 'O anti-HBc IgM negativo em portador crônico caracteriza superinfecção, não coinfecção.', C: 'A vacina não tem efeito em quem já é portador do vírus B.', D: 'O IgM negativo apenas indica que a infecção pelo vírus B não é recente.' },
@@ -101,7 +101,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite alcoólica — laboratório',
     e: 'O padrão de aminotransferases mais característico da hepatite alcoólica é:',
-    o: ['ALT maior que AST, ambas acima de 1.000 U/L', 'AST maior que ALT, com relação igual ou superior a 2 e valores geralmente abaixo de 300 a 400 U/L', 'AST e ALT normais com fosfatase alcalina muito elevada', 'ALT isoladamente elevada acima de 500 U/L'],
+    o: ['ALT maior que AST, ambas acima de 1.000 U/L', 'AST > ALT (razão ≥ 2), com valores em geral < 300-400 U/L', 'AST e ALT normais, com fosfatase alcalina muito elevada', 'ALT isoladamente elevada, acima de 500 U/L'],
     g: 'B',
     c: 'No etilista há deficiência de piridoxal-fosfato (vitamina B6), cofator necessário sobretudo à síntese de ALT, e o álcool lesa as mitocôndrias, liberando AST mitocondrial. Por isso a relação AST/ALT é igual ou superior a 2, com valores modestos. Aminotransferases acima de 500 U/L devem levar à busca de outra causa, como paracetamol, isquemia ou vírus.',
     x: { A: 'Predomínio de ALT com valores acima de 1.000 U/L é típico de hepatite viral aguda.', C: 'Esse é um padrão colestático, que não caracteriza hepatite alcoólica.', D: 'A elevação isolada e acentuada de ALT não é esperada na lesão alcoólica.' },
@@ -117,7 +117,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite alcoólica — histologia',
     e: 'O achado histológico característico da hepatite alcoólica, embora não patognomônico, é:',
-    o: ['Hepatite de interface com infiltrado plasmocitário', 'Corpúsculos de Mallory-Denk, balonização de hepatócitos e infiltrado neutrofílico, com predomínio centrolobular', 'Corpúsculos de Councilman com necrose mediozonal', 'Granulomas não caseosos portais com destruição ductal'],
+    o: ['Hepatite de interface com infiltrado plasmocitário rico, como na hepatite autoimune', 'Corpúsculos de Mallory-Denk, balonização e neutrófilos, com predomínio centrolobular', 'Corpúsculos de Councilman com necrose mediozonal, como na febre amarela', 'Granulomas não caseosos portais com destruição ductal, como na CBP'],
     g: 'B',
     c: 'A hepatite alcoólica caracteriza-se por esteatose, balonização hepatocitária, infiltrado de neutrófilos e corpúsculos de Mallory-Denk (agregados eosinofílicos de filamentos de citoqueratina), além de fibrose perivenular e pericelular. A lesão predomina na zona 3 (centrolobular), onde o metabolismo do etanol e a hipóxia relativa são maiores.',
     x: { A: 'Hepatite de interface com plasmócitos é o padrão da hepatite autoimune.', C: 'Necrose mediozonal com corpúsculos de Councilman é descrita na febre amarela.', D: 'Granulomas com lesão ductal sugerem colangite biliar primária.' },
@@ -125,7 +125,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite alcoólica — Maddrey',
     e: 'As variáveis que compõem a função discriminante de Maddrey, utilizada para avaliar a gravidade da hepatite alcoólica, são:',
-    o: ['Creatinina, INR e bilirrubina', 'Tempo de protrombina e bilirrubina total', 'AST, ALT e albumina', 'Idade, leucócitos e ureia'],
+    o: ['Creatinina, INR e bilirrubina, que compõem o MELD', 'Tempo de protrombina e bilirrubina total', 'AST, ALT e albumina, que não compõem o escore', 'Idade, leucócitos e ureia, que não compõem o escore'],
     g: 'B',
     c: 'A função discriminante de Maddrey é calculada como 4,6 vezes a diferença entre o tempo de protrombina do paciente e o do controle (em segundos), somada à bilirrubina total (em mg/dL). Valor igual ou superior a 32 define hepatite alcoólica grave, com alta mortalidade em curto prazo e indicação de considerar corticoide.',
     x: { A: 'Creatinina, INR e bilirrubina são as variáveis do escore MELD.', C: 'As aminotransferases não entram em escores prognósticos de hepatite alcoólica.', D: 'Idade, leucócitos e ureia fazem parte do escore de Glasgow, não do de Maddrey.' },
@@ -133,7 +133,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Hepatite alcoólica — tratamento',
     e: 'Homem de 50 anos com hepatite alcoólica tem função discriminante de Maddrey de 58 e MELD de 26. Culturas negativas, radiografia de tórax normal, sem ascite, sem sangramento digestivo, creatinina 0,9 mg/dL. Além de abstinência e suporte nutricional, a terapia indicada é:',
-    o: ['Pentoxifilina isolada', 'Prednisolona 40 mg ao dia por 28 dias', 'Propiltiouracil', 'Colchicina'],
+    o: ['Pentoxifilina isolada, que não é padrão', 'Prednisolona 40 mg ao dia por 28 dias', 'Propiltiouracil, que foi abandonado', 'Colchicina, que não tem eficácia comprovada'],
     g: 'B',
     c: 'Na hepatite alcoólica grave (Maddrey igual ou superior a 32 ou MELD acima de 20), após exclusão de infecção ativa não controlada e sangramento digestivo, o corticoide reduz a mortalidade em curto prazo ao atenuar a resposta inflamatória. Usa-se preferencialmente prednisolona, que não depende de ativação hepática. A pentoxifilina não demonstrou benefício consistente em sobrevida.',
     x: { A: 'A pentoxifilina não mostrou redução de mortalidade em estudos de grande porte.', C: 'O propiltiouracil não tem benefício comprovado e é hepatotóxico.', D: 'A colchicina não reduz a mortalidade na hepatite alcoólica.' },
@@ -165,7 +165,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Leptospirose',
     e: 'Homem de 41 anos, catador de recicláveis, apresenta há 6 dias febre, mialgia intensa em panturrilhas e sufusão conjuntival, evoluindo com icterícia alaranjada e oligúria. Exames: bilirrubina total 22 mg/dL (direta 18), AST 110 U/L, ALT 95 U/L, CPK elevada, creatinina 4,8 mg/dL, potássio 3,1 mEq/L, plaquetas 60.000/mm³. O diagnóstico mais provável é:',
-    o: ['Hepatite viral aguda grave', 'Leptospirose (síndrome de Weil)', 'Colangite aguda', 'Dengue grave'],
+    o: ['Hepatite viral aguda grave, com transaminases muito elevadas', 'Leptospirose (síndrome de Weil)', 'Colangite aguda, com tríade de Charcot', 'Dengue grave, com extravasamento plasmático'],
     g: 'B',
     c: 'Na leptospirose ictérica há dissociação entre bilirrubina muito elevada (predomínio direto, por colestase sem necrose hepatocelular importante) e aminotransferases pouco alteradas, geralmente abaixo de 200 U/L. Somam-se mialgia de panturrilhas com CPK alta, sufusão conjuntival, lesão renal aguda com potássio normal ou baixo e plaquetopenia. O tratamento inclui penicilina ou ceftriaxona.',
     x: { A: 'Na hepatite viral grave as aminotransferases são muito elevadas.', C: 'Colangite não explica mialgia com CPK alta nem hipocalemia com lesão renal.', D: 'Na dengue a icterícia intensa é incomum e as aminotransferases sobem mais.' },
@@ -173,7 +173,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Dengue',
     e: 'Em relação ao acometimento hepático na dengue, é correto afirmar que:',
-    o: ['A icterícia intensa é a regra nos casos com sinais de alarme', 'A elevação das aminotransferases é frequente, com predomínio de AST, e valores acima de 1.000 U/L classificam o caso como dengue grave', 'O padrão laboratorial é colestático, com fosfatase alcalina muito elevada', 'O paracetamol é contraindicado em qualquer paciente com dengue'],
+    o: ['Icterícia intensa é a regra nos casos com sinais de alarme', 'Aminotransferases elevadas (AST > ALT); > 1.000 U/L classifica como dengue grave', 'Padrão colestático, com fosfatase alcalina muito elevada', 'Paracetamol contraindicado em qualquer paciente com dengue'],
     g: 'B',
     c: 'A dengue frequentemente eleva as aminotransferases, com AST maior que ALT em razão da lesão muscular associada. Hepatomegalia dolorosa é sinal de alarme, e aminotransferases iguais ou superiores a 1.000 U/L caracterizam comprometimento grave de órgão. A icterícia é incomum.',
     x: { A: 'A icterícia é pouco frequente na dengue, mesmo nas formas graves.', C: 'O padrão é hepatocelular, e não colestático.', D: 'O paracetamol é o analgésico recomendado, respeitada a dose máxima diária.' },
@@ -181,7 +181,7 @@ export const HEP_AGUDA_3: QuestaoCompacta[] = [
   {
     s: 'Mononucleose infecciosa',
     e: 'Adolescente de 17 anos apresenta há 10 dias febre, odinofagia com exsudato amigdaliano, linfonodomegalia cervical posterior e esplenomegalia. Hemograma com linfocitose e 25% de linfócitos atípicos. ALT 240 U/L, AST 190 U/L, bilirrubina total 1,8 mg/dL. Sorologias para hepatites A, B e C negativas. O diagnóstico e a conduta são:',
-    o: ['Hepatite autoimune; iniciar prednisona', 'Mononucleose infecciosa pelo vírus Epstein-Barr; suporte e evitar esportes de contato', 'Faringite estreptocócica; amoxicilina', 'Leucemia linfoide aguda; mielograma imediato'],
+    o: ['Hepatite autoimune; iniciar prednisona em dose imunossupressora', 'Mononucleose infecciosa (EBV): suporte e evitar esportes de contato', 'Faringite estreptocócica; amoxicilina por via oral por 10 dias', 'Leucemia linfoide aguda; mielograma imediato e internação'],
     g: 'B',
     c: 'A tríade de febre, faringite e linfonodomegalia com esplenomegalia e linfócitos atípicos caracteriza a mononucleose infecciosa. A elevação leve a moderada das aminotransferases é muito comum e autolimitada. O tratamento é de suporte, com orientação de evitar esportes de contato pelo risco de ruptura esplênica.',
     x: { A: 'O quadro infeccioso com atipia linfocitária não sugere hepatite autoimune.', C: 'A amoxicilina na mononucleose provoca exantema e não trata a doença.', D: 'Linfócitos atípicos reativos não são blastos, e não há citopenias sugestivas.' },

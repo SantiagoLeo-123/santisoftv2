@@ -5,7 +5,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Perfis hemodinâmicos',
     e: 'Homem de 64 anos com insuficiência cardíaca chega à emergência com dispneia e ortopneia. Pressão de 138/86 mmHg, extremidades quentes, enchimento capilar normal, consciente, turgência jugular, estertores bibasais e edema de membros inferiores. O perfil hemodinâmico e o tratamento inicial são:',
-    o: ['Perfil L (frio e seco); reposição volêmica', 'Perfil B (quente e úmido); diurético intravenoso, com vasodilatador se a pressão permitir', 'Perfil C (frio e úmido); dobutamina', 'Perfil A (quente e seco); apenas ajuste ambulatorial'],
+    o: ['Perfil L (frio e seco); reposição volêmica cautelosa', 'Perfil B (quente e úmido): diurético IV, com vasodilatador se a pressão permitir', 'Perfil C (frio e úmido); dobutamina, associada a diurético', 'Perfil A (quente e seco); apenas ajuste ambulatorial da medicação'],
     g: 'B',
     c: 'A classificação clínico-hemodinâmica cruza perfusão (quente ou frio) e congestão (seco ou úmido). O perfil B, bem perfundido e congesto, é o mais frequente nas descompensações. O alvo é reduzir as pressões de enchimento com diurético de alça intravenoso e, quando a pressão sistólica permite, vasodilatador; inotrópico não tem indicação se a perfusão está preservada.',
     x: { A: 'O paciente está congesto; volume agravaria o quadro.', C: 'Não há sinais de hipoperfusão que justifiquem inotrópico.', D: 'O perfil A é o do paciente compensado, sem congestão.' },
@@ -13,7 +13,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Perfis hemodinâmicos',
     e: 'Mulher de 59 anos com cardiomiopatia dilatada apresenta sonolência, extremidades frias e pegajosas, pressão de 82/60 mmHg, diurese de 15 mL/h, lactato elevado, turgência jugular, estertores difusos e ascite. A conduta farmacológica inicial é:',
-    o: ['Nitroprussiato de sódio em dose plena', 'Inotrópico intravenoso, como a dobutamina, associado a diurético', 'Expansão com dois litros de cristaloide', 'Aumento da dose do betabloqueador oral'],
+    o: ['Nitroprussiato de sódio em dose plena', 'Inotrópico IV (dobutamina) associado a diurético', 'Expansão com dois litros de cristaloide', 'Aumento da dose do betabloqueador oral'],
     g: 'B',
     c: 'Trata-se do perfil C (frio e úmido): baixo débito com congestão, o de pior prognóstico. É preciso primeiro restaurar a perfusão com inotrópico (e vasopressor, se a hipotensão persistir), o que também melhora a resposta ao diurético. Vasodilatadores só são considerados quando a pressão sistólica está acima de 90 mmHg.',
     x: { A: 'Com pressão sistólica de 82 mmHg, o vasodilatador agravaria a hipoperfusão.', C: 'A paciente está hipervolêmica; volume pioraria a congestão pulmonar.', D: 'O betabloqueador deve ser reduzido ou suspenso na vigência de baixo débito.' },
@@ -21,7 +21,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Perfis hemodinâmicos',
     e: 'Idoso de 80 anos com insuficiência cardíaca, em uso de furosemida em dose alta, teve vômitos e diarreia por quatro dias. Apresenta tontura, extremidades frias, pressão de 84/52 mmHg, mucosas secas, jugulares colabadas, pulmões limpos e ausência de edema. Creatinina elevada. A conduta é:',
-    o: ['Dobutamina imediata', 'Suspender o diurético e fazer prova de volume cautelosa com cristaloide', 'Furosemida intravenosa em bolus', 'Nitroglicerina intravenosa'],
+    o: ['Dobutamina imediata, para elevar o débito cardíaco', 'Suspender o diurético e fazer prova de volume cautelosa com cristaloide', 'Furosemida intravenosa em bolus, para reduzir a congestão', 'Nitroglicerina intravenosa, para reduzir a pré-carga'],
     g: 'B',
     c: 'O perfil L (frio e seco) corresponde a baixo débito sem congestão, na maioria das vezes por hipovolemia relativa causada por diurético em excesso ou perdas. O ventrículo está operando em pré-carga insuficiente; por isso a primeira medida é repor volume em alíquotas pequenas, reavaliando sinais de congestão. Inotrópico fica para quem não responde ao volume.',
     x: { A: 'Antes de inotrópico deve-se corrigir a hipovolemia.', C: 'Mais diurético agravaria a hipovolemia e a lesão renal.', D: 'O vasodilatador reduziria ainda mais a pré-carga e a pressão.' },
@@ -29,7 +29,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Perfis hemodinâmicos',
     e: 'Na avaliação à beira do leito de um paciente com insuficiência cardíaca descompensada, qual achado indica HIPOPERFUSÃO (perfil frio), e não congestão?',
-    o: ['Ortopneia', 'Pressão de pulso estreita, com extremidades frias e sonolência', 'Refluxo hepatojugular', 'Estertores crepitantes'],
+    o: ['Ortopneia, que indica congestão e não baixo débito', 'Pressão de pulso estreita, extremidades frias e sonolência', 'Refluxo hepatojugular, que indica congestão e não baixo débito', 'Estertores crepitantes, que indicam congestão e não baixo débito'],
     g: 'B',
     c: 'São sinais de baixo débito: extremidades frias, enchimento capilar lento, pressão de pulso proporcional reduzida (diferença entre sistólica e diastólica menor que 25% da sistólica), sonolência ou confusão, oligúria, hipotensão sintomática e piora renal. Ortopneia, turgência jugular, refluxo hepatojugular, estertores, edema e ascite são sinais de congestão, isto é, de pressões de enchimento elevadas.',
     x: { A: 'A ortopneia traduz pressão capilar pulmonar elevada, portanto congestão.', C: 'O refluxo hepatojugular indica congestão venosa sistêmica.', D: 'Os estertores refletem congestão pulmonar.' },
@@ -37,7 +37,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Edema agudo de pulmão',
     e: 'Mulher de 72 anos, hipertensa, chega com dispneia súbita, sudorese, uso de musculatura acessória e expectoração rósea. Pressão de 220/120 mmHg, frequência de 118 bpm, saturação de 84% em ar ambiente, estertores até os ápices. Além de oxigênio e ventilação não invasiva, o tratamento farmacológico prioritário é:',
-    o: ['Dobutamina', 'Vasodilatador intravenoso (nitroglicerina ou nitroprussiato) associado a furosemida intravenosa', 'Expansão volêmica com cristaloide', 'Metoprolol intravenoso'],
+    o: ['Dobutamina, que é inotrópico e não trata o edema pulmonar hipertensivo', 'Vasodilatador IV (nitroglicerina ou nitroprussiato) com furosemida IV', 'Expansão volêmica com cristaloide, que piora o edema pulmonar', 'Metoprolol intravenoso, que reduz o inotropismo e piora o quadro'],
     g: 'B',
     c: 'No edema agudo de pulmão hipertensivo o problema central é o aumento súbito da pós-carga, com redistribuição de volume para os pulmões, muitas vezes sem hipervolemia total importante. O vasodilatador intravenoso reduz pré e pós-carga em minutos e é a medida mais eficaz; o diurético complementa. A ventilação não invasiva melhora a oxigenação e reduz a necessidade de intubação.',
     x: { A: 'Não há baixo débito; o inotrópico aumentaria consumo de oxigênio e arritmias.', C: 'Volume agravaria o edema pulmonar.', D: 'Betabloqueador intravenoso na congestão aguda pode precipitar baixo débito.' },
@@ -45,7 +45,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva',
     e: 'Homem de 70 anos com edema agudo de pulmão cardiogênico está em uso de ventilação não invasiva. Em qual situação ela deve ser abandonada em favor da intubação orotraqueal?',
-    o: ['Frequência respiratória de 30 irpm no início do suporte', 'Rebaixamento do nível de consciência com incapacidade de proteger a via aérea e vômitos', 'Saturação de 91% com fração inspirada de oxigênio de 40%', 'Pressão arterial de 170/100 mmHg'],
+    o: ['FR de 30 irpm no início do suporte, que não contraindica a VNI', 'Rebaixamento da consciência, sem proteção de via aérea, e vômitos', 'Saturação de 91% com FiO2 de 40%, que não contraindica a VNI', 'PA de 170/100 mmHg, que não contraindica o uso da VNI'],
     g: 'B',
     c: 'A pressão positiva reduz o retorno venoso (pré-carga) e a pressão transmural do ventrículo esquerdo (pós-carga), recruta alvéolos e diminui o trabalho respiratório, reduzindo a taxa de intubação. Exige, porém, paciente colaborativo e com via aérea protegida. São contraindicações: rebaixamento de consciência, vômitos, secreção abundante, instabilidade hemodinâmica grave, parada respiratória iminente e trauma de face.',
     x: { A: 'Taquipneia é justamente indicação de suporte não invasivo.', C: 'Essa oxigenação é aceitável e indica boa resposta.', D: 'A hipertensão é favorável ao uso e deve ser tratada com vasodilatador.' },
@@ -53,7 +53,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Edema agudo de pulmão',
     e: 'Sobre o uso de morfina no edema agudo de pulmão cardiogênico, as diretrizes atuais orientam:',
-    o: ['Uso rotineiro em todos os casos, por reduzir a mortalidade', 'Não usar de rotina; reservar para dor ou ansiedade intensas e refratárias, com cautela', 'Uso obrigatório antes da ventilação não invasiva', 'Associação sistemática com benzodiazepínico'],
+    o: ['Uso rotineiro em todos os casos de edema agudo, por reduzir a mortalidade', 'Não usar de rotina; reservar para dor ou ansiedade intensas refratárias, com cautela', 'Uso obrigatório antes da ventilação não invasiva, em todos os casos', 'Associação sistemática com benzodiazepínico, em todos os casos de edema agudo'],
     g: 'B',
     c: 'A morfina reduz a ansiedade e tem discreto efeito venodilatador, mas deprime o centro respiratório, causa náuseas e hipotensão; em registros e metanálises associou-se a mais ventilação mecânica e maior mortalidade. Por isso deixou de ser recomendada de rotina e fica para casos selecionados. Os pilares são vasodilatador, diurético e pressão positiva.',
     x: { A: 'Não há benefício em mortalidade; há sinal de dano em estudos observacionais.', C: 'A morfina não é pré-requisito e pode prejudicar a colaboração e a ventilação.', D: 'A associação de sedativos aumenta o risco de depressão respiratória.' },
@@ -61,7 +61,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Diurético intravenoso',
     e: 'Homem de 66 anos usa furosemida 80 mg por dia por via oral e interna com congestão sistêmica e pulmonar, pressão de 124/78 mmHg e boa perfusão. A prescrição inicial de diurético mais adequada é:',
-    o: ['Furosemida 20 mg intravenosa uma vez ao dia', 'Furosemida intravenosa em dose diária pelo menos igual à dose oral habitual (uma a duas vezes e meia essa dose)', 'Manter a furosemida oral na mesma dose', 'Hidroclorotiazida oral isolada'],
+    o: ['Furosemida 20 mg IV uma vez ao dia, independentemente da dose oral', 'Furosemida IV em dose diária ≥ à dose oral habitual (1 a 2,5 vezes)', 'Manter a furosemida oral na mesma dose, por via oral', 'Hidroclorotiazida oral isolada, em dose habitual'],
     g: 'B',
     c: 'Na congestão, o edema da parede intestinal reduz e atrasa a absorção da furosemida oral, e o usuário crônico tem o limiar de resposta mais alto. Por isso se usa a via intravenosa, com dose total diária de uma a duas vezes e meia a dose oral domiciliar, como no estudo DOSE; em quem nunca usou diurético, começa-se com 20 a 40 mg. Bolus intermitente e infusão contínua tiveram resultados semelhantes.',
     x: { A: 'Dose inferior à habitual não vence o limiar de resposta de um usuário crônico.', C: 'A absorção oral é errática com edema de alça intestinal.', D: 'O tiazídico isolado é insuficiente; ele entra como associação na resistência.' },
@@ -69,7 +69,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Diurético intravenoso',
     e: 'Paciente internado com insuficiência cardíaca congestiva recebeu furosemida 40 mg intravenosa. Após seis horas, a diurese foi de 300 mL e o sódio urinário colhido duas horas após a dose foi de 35 mEq/L. Mantém congestão e pressão adequada. A conduta é:',
-    o: ['Manter a mesma dose e reavaliar em 48 horas', 'Dobrar a dose do diurético de alça e reavaliar precocemente', 'Suspender o diurético por risco de lesão renal', 'Iniciar dobutamina'],
+    o: ['Manter a mesma dose e reavaliar em 48 horas', 'Dobrar a dose do diurético de alça e reavaliar precocemente', 'Suspender o diurético por risco de lesão renal aguda', 'Iniciar dobutamina, para aumentar a diurese'],
     g: 'B',
     c: 'A resposta ao diurético deve ser checada nas primeiras horas: sódio urinário em amostra isolada abaixo de 50 a 70 mEq/L após duas horas, ou diurese abaixo de 100 a 150 mL por hora nas primeiras seis horas, indicam resposta insuficiente. A conduta é dobrar a dose do diurético de alça até a dose máxima e, se persistir, associar outro diurético (tiazídico ou acetazolamida).',
     x: { A: 'Esperar 48 horas prolonga a congestão e a internação.', C: 'A congestão persistente é a principal causa de piora renal nesses pacientes.', D: 'Não há hipoperfusão que indique inotrópico.' },
@@ -85,7 +85,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Inotrópicos',
     e: 'Sobre a dobutamina no tratamento do baixo débito cardíaco, é correto afirmar:',
-    o: ['É vasoconstritor alfa-1 puro, indicado para elevar a pressão', 'É agonista predominantemente beta-1, aumenta contratilidade e débito, e tem como principais efeitos adversos taquiarritmias e aumento do consumo de oxigênio', 'Reduz a mortalidade em longo prazo quando usada de forma intermitente', 'Seu efeito é potencializado pelo uso prévio de betabloqueador'],
+    o: ['Vasoconstritor alfa-1 puro, indicado para elevar a pressão arterial do paciente', 'Agonista beta-1: ↑ contratilidade e débito; efeitos adversos: taquiarritmias e ↑ consumo de O2', 'Reduz a mortalidade em longo prazo quando usada de forma intermitente', 'Seu efeito é potencializado pelo uso prévio de betabloqueador no paciente'],
     g: 'B',
     c: 'A dobutamina estimula o receptor beta-1, elevando o AMP cíclico e o cálcio intracelular, com aumento do inotropismo e discreta vasodilatação por ação beta-2. Melhora a perfusão no curto prazo, mas aumenta o consumo de oxigênio, provoca arritmias e não reduz a mortalidade. Em quem usa betabloqueador a resposta é atenuada, e preferem-se inotrópicos que não dependem do receptor beta, como milrinona ou levosimendana.',
     x: { A: 'O agonista alfa-1 puro é a fenilefrina; a dobutamina é inotrópico.', C: 'Os inotrópicos não reduzem a mortalidade e podem aumentá-la.', D: 'O betabloqueador compete pelo mesmo receptor e reduz o efeito da dobutamina.' },
@@ -93,7 +93,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Inotrópicos',
     e: 'Paciente com insuficiência cardíaca avançada, em uso de betabloqueador, tem baixo débito e resistência vascular pulmonar elevada. Opta-se por milrinona. Seu mecanismo de ação e principal limitação são:',
-    o: ['Agonista beta-1; taquifilaxia em 24 horas', 'Inibição da fosfodiesterase 3, com efeito inotrópico e vasodilatador; hipotensão e acúmulo na disfunção renal', 'Sensibilização da troponina C ao cálcio; hipertensão arterial', 'Agonista alfa-1; isquemia de extremidades'],
+    o: ['Agonista beta-1, que perde o efeito em uso de betabloqueador', 'Inibição da fosfodiesterase 3: inotrópico e vasodilatador, com hipotensão e acúmulo na DRC', 'Sensibilização da troponina C ao cálcio, com risco de hipertensão arterial', 'Agonista alfa-1, que é vasoconstritor, com risco de isquemia de extremidades'],
     g: 'B',
     c: 'A milrinona inibe a fosfodiesterase 3, que degrada o AMP cíclico: no miocárdio aumenta a contratilidade e, no músculo liso vascular, causa vasodilatação sistêmica e pulmonar (inodilatador). Como age depois do receptor beta, mantém o efeito em usuários de betabloqueador. As limitações são hipotensão, arritmias e eliminação renal, exigindo ajuste de dose na disfunção renal.',
     x: { A: 'Esse é o perfil da dobutamina.', C: 'O sensibilizador de cálcio é a levosimendana, que causa hipotensão, não hipertensão.', D: 'A milrinona é vasodilatadora e não atua em receptor alfa.' },
@@ -101,7 +101,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Inotrópicos',
     e: 'A levosimendana, usada no baixo débito da insuficiência cardíaca aguda, caracteriza-se por:',
-    o: ['Aumentar o cálcio intracelular por estímulo beta-adrenérgico', 'Sensibilizar a troponina C ao cálcio e abrir canais de potássio dependentes de ATP no músculo liso vascular, com efeito inotrópico e vasodilatador', 'Inibir a bomba de sódio e potássio', 'Bloquear receptores de angiotensina II'],
+    o: ['Aumentar o cálcio intracelular por estímulo beta-adrenérgico, como a dobutamina', 'Sensibilizar a troponina C ao cálcio e abrir canais de K+ ATP vasculares', 'Inibir a bomba de sódio e potássio, como a digoxina', 'Bloquear receptores de angiotensina II, como os BRA'],
     g: 'B',
     c: 'A levosimendana aumenta a força de contração sem elevar o cálcio intracelular, pois torna os miofilamentos mais sensíveis a ele, e produz vasodilatação pela abertura de canais de potássio. Não depende do receptor beta, sendo útil em usuários de betabloqueador, e seu metabólito ativo prolonga o efeito por dias. O principal efeito adverso é hipotensão; não demonstrou redução de mortalidade.',
     x: { A: 'Esse é o mecanismo da dobutamina.', C: 'Esse é o mecanismo da digoxina.', D: 'Esse é o mecanismo de losartana e valsartana.' },
@@ -117,7 +117,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Choque cardiogênico',
     e: 'Mulher de 62 anos com infarto com supradesnivelamento de ST em parede anterior, iniciado há quatro horas, evolui com pressão de 78/50 mmHg, extremidades frias, confusão e congestão pulmonar. A intervenção que mais reduz a mortalidade é:',
-    o: ['Balão intra-aórtico de rotina', 'Coronariografia imediata com revascularização da artéria culpada', 'Trombolítico e observação na unidade coronariana', 'Dobutamina em dose alta, sem estudo coronariano'],
+    o: ['Balão intra-aórtico de rotina, como primeira medida', 'Coronariografia imediata e revascularização da artéria culpada', 'Trombolítico e observação na unidade coronariana', 'Dobutamina em dose alta, sem realizar estudo coronariano'],
     g: 'B',
     c: 'No choque cardiogênico por infarto, a causa é a perda aguda de massa contrátil; restaurar o fluxo é a única medida que comprovadamente reduz a mortalidade (estudo SHOCK). A coronariografia deve ser imediata, tratando-se a lesão culpada; a revascularização de todas as lesões no mesmo procedimento piorou o desfecho no estudo CULPRIT-SHOCK.',
     x: { A: 'O balão intra-aórtico não reduziu a mortalidade no estudo IABP-SHOCK II.', C: 'A fibrinólise é menos eficaz no choque; fica para quando não há acesso à angioplastia em tempo hábil.', D: 'O inotrópico é apenas suporte e não trata a oclusão coronariana.' },
@@ -133,7 +133,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Balão intra-aórtico',
     e: 'Em relação ao balão de contrapulsação intra-aórtico, assinale a alternativa correta.',
-    o: ['Insufla na sístole, aumentando a pós-carga', 'Insufla na diástole, aumentando a perfusão coronariana, e desinsufla antes da sístole, reduzindo a pós-carga; é contraindicado na insuficiência aórtica importante', 'É indicado na dissecção de aorta com choque', 'Reduz a mortalidade quando usado de rotina no choque por infarto'],
+    o: ['Insufla na sístole, aumentando a pós-carga do ventrículo esquerdo', 'Insufla na diástole e desinsufla antes da sístole; contraindicado na IAo importante', 'É indicado na dissecção de aorta com choque, como suporte', 'Reduz a mortalidade quando usado de rotina no choque por infarto'],
     g: 'B',
     c: 'Posicionado na aorta descendente, o balão insufla na diástole, elevando a pressão diastólica e o fluxo coronariano, e esvazia-se imediatamente antes da sístole, criando queda de pressão que facilita a ejeção. Na insuficiência aórtica importante a insuflação diastólica aumentaria a regurgitação. Mantém papel nas complicações mecânicas do infarto, como ponte para a cirurgia.',
     x: { A: 'A insuflação ocorre na diástole; na sístole o balão está vazio.', C: 'A dissecção de aorta é contraindicação ao dispositivo.', D: 'O estudo IABP-SHOCK II não mostrou redução de mortalidade com o uso rotineiro.' },
@@ -141,7 +141,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Fatores precipitantes',
     e: 'Homem de 58 anos com insuficiência cardíaca interna pela terceira vez no ano por congestão. Nos registros brasileiros de insuficiência cardíaca aguda, o fator precipitante de descompensação mais frequente é:',
-    o: ['Embolia pulmonar', 'Má adesão ao tratamento medicamentoso e às restrições de sal e líquidos', 'Endocardite infecciosa', 'Tireotoxicose'],
+    o: ['Embolia pulmonar, como fator descompensador', 'Má adesão ao tratamento e às restrições de sal e líquidos', 'Endocardite infecciosa, como fator descompensador', 'Tireotoxicose, como fator descompensador'],
     g: 'B',
     c: 'No registro BREATHE, a má adesão à medicação foi a principal causa de descompensação, seguida de infecções e do controle inadequado da ingestão de sal e água. Identificar o fator precipitante faz parte do atendimento, pois muitos são evitáveis com educação, consulta precoce após a alta e programas multidisciplinares. Outros precipitantes são arritmias, isquemia, hipertensão não controlada e uso de anti-inflamatórios.',
     x: { A: 'A embolia pulmonar deve ser lembrada, mas é causa menos frequente.', C: 'A endocardite é precipitante raro.', D: 'A disfunção tireoidiana é causa incomum de descompensação.' },
@@ -173,7 +173,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Insuficiência ventricular direita aguda',
     e: 'Homem de 59 anos com infarto de parede inferior apresenta hipotensão, turgência jugular que aumenta na inspiração e pulmões limpos. As derivações direitas mostram supradesnivelamento de ST em V4R. A conduta hemodinâmica inicial é:',
-    o: ['Nitroglicerina e furosemida intravenosas', 'Reposição volêmica cautelosa, evitando nitratos, diuréticos e morfina', 'Betabloqueador intravenoso', 'Restrição hídrica rigorosa'],
+    o: ['Nitroglicerina e furosemida intravenosas, para reduzir a pré-carga', 'Reposição volêmica cautelosa, evitando nitratos, diuréticos e morfina', 'Betabloqueador intravenoso, para reduzir o consumo de oxigênio', 'Restrição hídrica rigorosa, para evitar sobrecarga do VD'],
     g: 'B',
     c: 'A tríade de hipotensão, turgência jugular e pulmões limpos após infarto inferior indica infarto de ventrículo direito. O ventrículo direito isquêmico depende da pré-carga para manter o débito e encher o ventrículo esquerdo; fármacos que reduzem o retorno venoso provocam hipotensão grave. Faz-se volume em alíquotas e, se não houver resposta, inotrópico, além da reperfusão coronariana imediata.',
     x: { A: 'Venodilatador e diurético reduzem a pré-carga e precipitam choque.', C: 'O betabloqueador agrava a hipotensão e as bradiarritmias, comuns no infarto inferior.', D: 'A restrição hídrica reduz a pré-carga da qual o ventrículo direito depende.' },
@@ -189,7 +189,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Critérios de alta',
     e: 'Homem de 65 anos internado por insuficiência cardíaca descompensada está no sexto dia. Qual situação indica que ele AINDA NÃO está pronto para a alta hospitalar?',
-    o: ['Diurético por via oral há 24 horas, com peso estável', 'Persistência de turgência jugular, edema e ortopneia, em uso de diurético intravenoso', 'Função renal e eletrólitos estáveis', 'Terapia modificadora da doença iniciada e consulta marcada em até 14 dias'],
+    o: ['Diurético por via oral há 24 horas, com peso estável', 'Persistência de turgência jugular, edema e ortopneia, mesmo com diurético IV', 'Função renal e eletrólitos estáveis, em exames seriados', 'Terapia modificadora iniciada e consulta ambulatorial em até 14 dias'],
     g: 'B',
     c: 'A congestão residual na alta é o principal preditor de reinternação e de morte precoce. Para a alta espera-se: paciente sem congestão, estabilidade com esquema oral por pelo menos 24 horas, função renal e eletrólitos estáveis, ausência de inotrópico ou vasodilatador intravenoso, fator precipitante tratado, terapia modificadora iniciada, orientação sobre peso, sal e sinais de alarme, e retorno precoce em 7 a 14 dias.',
     x: { A: 'É um dos critérios para a alta.', C: 'A estabilidade laboratorial é critério para a alta.', D: 'Iniciar a terapia antes da alta e garantir retorno precoce reduzem reinternações.' },
@@ -197,7 +197,7 @@ export const IC_4: QuestaoCompacta[] = [
   {
     s: 'Ultrassonografia pulmonar',
     e: 'Mulher de 75 anos, com doença pulmonar obstrutiva crônica e hipertensão, chega com dispneia aguda. A ultrassonografia pulmonar à beira do leito mostra três ou mais linhas B por campo, em vários campos de ambos os hemitórax, com deslizamento pleural presente. O achado indica:',
-    o: ['Pneumotórax bilateral', 'Síndrome intersticial difusa, compatível com congestão pulmonar cardiogênica', 'Exacerbação de doença pulmonar obstrutiva, com pulmão aerado normal', 'Derrame pleural volumoso isolado'],
+    o: ['Pneumotórax bilateral, com ausência de trama vascular', 'Síndrome intersticial difusa, compatível com congestão pulmonar cardiogênica', 'Exacerbação de DPOC, com pulmão aerado e hiperinsuflado', 'Derrame pleural volumoso isolado, sem infiltrado intersticial'],
     g: 'B',
     c: 'As linhas B são artefatos verticais hiperecoicos que partem da pleura, apagam as linhas A e se movem com a respiração; surgem quando os septos interlobulares estão espessados por líquido. Três ou mais por campo, em dois ou mais campos de cada lado, definem síndrome intersticial difusa, que no contexto de dispneia aguda tem sensibilidade superior à do exame físico e da radiografia para congestão cardiogênica.',
     x: { A: 'No pneumotórax o deslizamento pleural e as linhas B estão ausentes.', C: 'Na exacerbação obstrutiva predomina o padrão de linhas A, com pulmão seco.', D: 'O derrame aparece como coleção anecoica nas bases, não como linhas B difusas.' },

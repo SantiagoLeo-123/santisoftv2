@@ -13,7 +13,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Supra de ST em V2-V3: homem jovem',
     e: 'Homem de 31 anos, atleta, com dor torácica ventilatório-dependente, tem eletrocardiograma com supradesnivelamento do ponto J de 2 mm em V2 e V3, com concavidade superior, sem alterações em outras derivações. Considerando os critérios da definição universal para a idade e o sexo, esse achado:',
-    o: ['Preenche critério de supradesnivelamento isquêmico, pois o corte é de 1 mm', 'Não preenche o critério, pois em homens com menos de 40 anos o corte em V2 e V3 é de 2,5 mm', 'Preenche o critério, pois o corte é de 1,5 mm em qualquer adulto', 'Não pode ser avaliado sem as derivações V7 a V9'],
+    o: ['Preenche critério de supradesnivelamento isquêmico, pois o corte é de 1 mm', 'Não preenche: em homens < 40 anos o corte em V2-V3 é de 2,5 mm', 'Preenche o critério, pois o corte é de 1,5 mm em qualquer adulto', 'Não pode ser avaliado sem as derivações V7 a V9 posteriores'],
     g: 'B',
     c: 'Homens jovens têm supradesnivelamento fisiológico mais acentuado em V2 e V3 (repolarização precoce, padrão masculino), razão pela qual o corte sobe para 2,5 mm em quem tem menos de 40 anos. O eletrocardiograma deve sempre ser interpretado com a clínica e, se houver dúvida, repetido de forma seriada.',
     x: { A: 'O corte de 1 mm não se aplica a V2 e V3.', C: 'O corte de 1,5 mm em V2 e V3 é o das mulheres.', D: 'As derivações posteriores não são necessárias para aplicar o critério em V2 e V3.' },
@@ -37,7 +37,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Infra de ST e onda T',
     e: 'Segundo a definição universal, na ausência de hipertrofia ventricular esquerda e de bloqueio de ramo, as alterações de ST e T sem supradesnivelamento sugestivas de isquemia miocárdica aguda são:',
-    o: ['Infradesnivelamento ascendente de ST de qualquer magnitude em uma derivação', 'Infradesnivelamento novo de ST horizontal ou descendente de pelo menos 0,5 mm em duas derivações contíguas e/ou inversão de T maior que 1 mm em duas derivações contíguas com R proeminente', 'Inversão de onda T isolada em aVR', 'Infradesnivelamento de ST de pelo menos 3 mm em todas as derivações'],
+    o: ['Infradesnivelamento ascendente de ST de qualquer magnitude em uma derivação', 'Infra de ST horizontal ou descendente ≥ 0,5 mm em duas derivações contíguas', 'Inversão de onda T isolada em aVR, sem outras alterações', 'Infradesnivelamento de ST de pelo menos 3 mm em todas as derivações'],
     g: 'B',
     c: 'O infradesnivelamento isquêmico é horizontal ou descendente, de 0,5 mm ou mais, em duas derivações contíguas; a inversão de T deve ser maior que 1 mm, em duas derivações contíguas com onda R proeminente ou relação R/S maior que 1. O infradesnivelamento ascendente é pouco específico, comum na taquicardia.',
     x: { A: 'O padrão ascendente é inespecífico, e exigem-se duas derivações contíguas.', C: 'A onda T é normalmente negativa em aVR.', D: 'O corte é de 0,5 mm em duas derivações contíguas, não de 3 mm em todas.' },
@@ -53,7 +53,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Infarto de ventrículo direito: diagnóstico',
     e: 'Mulher de 69 anos com dor precordial, pressão arterial de 82 x 54 mmHg, turgência jugular e ausculta pulmonar limpa. Eletrocardiograma com supradesnivelamento de ST em II, III e aVF, maior em III do que em II. Qual registro adicional é indicado e qual achado confirma a suspeita?',
-    o: ['V7 a V9; infradesnivelamento de ST', 'V3R e V4R; supradesnivelamento de ST de pelo menos 0,5 mm', 'Derivação de Lewis; ondas P invertidas', 'aVR isolada; onda Q profunda'],
+    o: ['V7 a V9; infradesnivelamento de ST de pelo menos 0,5 mm', 'V3R e V4R; supradesnivelamento de ST ≥ 0,5 mm', 'Derivação de Lewis; ondas P invertidas e alargadas', 'aVR isolada; onda Q profunda e alargada'],
     g: 'B',
     c: 'Hipotensão, turgência jugular e pulmões limpos em um infarto inferior sugerem acometimento do ventrículo direito, por oclusão proximal da coronária direita. As derivações direitas V3R e V4R confirmam com supradesnivelamento de 0,5 mm ou mais (1 mm ou mais em homens com menos de 30 anos); o achado é transitório e deve ser procurado precocemente.',
     x: { A: 'V7 a V9 avaliam a parede posterior, e o achado esperado seria supradesnivelamento.', C: 'A derivação de Lewis serve para evidenciar atividade atrial em arritmias.', D: 'A derivação aVR não diagnostica infarto de ventrículo direito.' },
@@ -61,7 +61,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Infarto de ventrículo direito: conduta',
     e: 'Homem de 63 anos com infarto inferior e supradesnivelamento de ST em V4R apresenta pressão arterial de 78 x 50 mmHg, turgência jugular e pulmões limpos, enquanto aguarda a angioplastia primária. A medida inicial mais adequada para a hipotensão é:',
-    o: ['Nitroglicerina endovenosa', 'Expansão volêmica com cristaloide e suspensão de nitratos e diuréticos', 'Furosemida endovenosa', 'Morfina em doses repetidas'],
+    o: ['Nitroglicerina endovenosa em dose crescente para aliviar a dor', 'Expansão volêmica com cristaloide; suspender nitratos e diuréticos', 'Furosemida endovenosa para reduzir a pré-carga ventricular', 'Morfina em doses repetidas para controle da dor e da ansiedade'],
     g: 'B',
     c: 'O ventrículo direito infartado depende da pré-carga para manter o débito e o enchimento do ventrículo esquerdo. Nitratos, diuréticos e morfina reduzem o retorno venoso e podem precipitar choque; a conduta inicial é volume, seguida de inotrópico se não houver resposta, sem atrasar a reperfusão.',
     x: { A: 'O nitrato reduz a pré-carga e agrava a hipotensão no infarto de ventrículo direito.', C: 'O diurético reduz a pré-carga, e não há congestão pulmonar.', D: 'A morfina causa venodilatação e pode piorar a hipotensão.' },
@@ -69,7 +69,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Onda Q patológica em V2-V3',
     e: 'Na ausência de bloqueio de ramo esquerdo e de hipertrofia ventricular, qual achado em V2 e V3 é considerado alteração associada a infarto prévio pela definição universal?',
-    o: ['Onda Q com duração de 0,01 s', 'Qualquer onda Q com duração superior a 0,02 s ou complexo QS', 'Apenas onda Q com profundidade superior a 5 mm', 'Onda R com amplitude menor que 10 mm'],
+    o: ['Onda Q com duração de 0,01 s em duas derivações', 'Onda Q com duração > 0,02 s ou complexo QS', 'Apenas onda Q com profundidade superior a 5 mm em V1', 'Onda R com amplitude menor que 10 mm em V1 a V3'],
     g: 'B',
     c: 'Em V2 e V3 normalmente não há onda Q, pois a ativação septal gera uma pequena onda R. Por isso, qualquer onda Q com mais de 0,02 s, ou um complexo QS, nessas derivações é considerada patológica e sugere necrose anterosseptal prévia.',
     x: { A: 'A duração deve ser superior a 0,02 s.', C: 'O critério em V2 e V3 é de duração, e não exige essa profundidade.', D: 'A baixa amplitude de R, isolada, não é critério de infarto prévio.' },
@@ -77,7 +77,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Onda Q patológica nas demais derivações',
     e: 'Homem de 70 anos, em avaliação pré-operatória, tem eletrocardiograma com ondas Q de 0,04 s de duração e 2 mm de profundidade em II, III e aVF. Para as derivações I, II, aVL, aVF e V4 a V6, a onda Q é considerada patológica quando:',
-    o: ['Tem qualquer duração, desde que presente em uma derivação', 'Tem duração de pelo menos 0,03 s e profundidade de pelo menos 1 mm, ou é um complexo QS, em duas derivações de um mesmo grupo contíguo', 'Tem profundidade superior a 10 mm em uma derivação', 'Aparece apenas durante a inspiração profunda'],
+    o: ['Tem qualquer duração, desde que presente em uma derivação isolada', 'Duração ≥ 0,03 s e profundidade ≥ 1 mm, ou QS, em duas derivações contíguas', 'Tem profundidade superior a 10 mm em uma única derivação', 'Aparece apenas durante a inspiração profunda, sendo posicional'],
     g: 'B',
     c: 'Fora de V2 e V3, exige-se onda Q com 0,03 s ou mais de duração e 1 mm ou mais de profundidade, ou complexo QS, em duas derivações contíguas de um mesmo grupo (I e aVL; V1 a V6; II, III e aVF). O paciente preenche o critério na parede inferior, sugerindo infarto prévio.',
     x: { A: 'Pequenas ondas Q septais são normais; exigem-se duração e profundidade mínimas.', C: 'Não há exigência de 10 mm, e são necessárias duas derivações contíguas.', D: 'Ondas Q que variam com a respiração, como em III, tendem a ser posicionais e benignas.' },
@@ -85,7 +85,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Infarto posterior prévio',
     e: 'Além das ondas Q, a definição universal reconhece como sinal eletrocardiográfico de infarto prévio, na ausência de distúrbio de condução:',
-    o: ['Onda S profunda em V5 e V6', 'Onda R com mais de 0,04 s em V1 e V2 e relação R/S maior que 1, com onda T positiva concordante', 'Onda P bifásica em V1', 'Intervalo PR menor que 0,12 s'],
+    o: ['Onda S profunda em V5 e V6, com amplitude maior que 10 mm', 'Onda R > 0,04 s em V1-V2, R/S > 1 e T positiva concordante', 'Onda P bifásica em V1 com componente terminal negativo largo', 'Intervalo PR menor que 0,12 s, com onda delta associada'],
     g: 'B',
     c: 'As derivações V1 e V2 enxergam a parede posterior em espelho: a onda R larga e alta corresponde à onda Q da necrose posterior, e a T positiva corresponde à T invertida. Deve-se excluir bloqueio de ramo direito, hipertrofia de ventrículo direito e pré-excitação, que também aumentam a R em V1.',
     x: { A: 'Onda S profunda em V5 e V6 sugere sobrecarga direita ou bloqueio fascicular, não infarto prévio.', C: 'Onda P bifásica em V1 relaciona-se a sobrecarga atrial esquerda.', D: 'Intervalo PR curto sugere pré-excitação, não necrose.' },
@@ -93,7 +93,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Bloqueio de ramo esquerdo',
     e: 'Mulher de 72 anos, com bloqueio de ramo esquerdo sem eletrocardiograma prévio disponível, chega com dor torácica atípica há 6 horas, estável. Sobre o diagnóstico de infarto na presença de bloqueio de ramo esquerdo, é correto afirmar que:',
-    o: ['O bloqueio de ramo esquerdo presumivelmente novo é, por si só, diagnóstico de infarto', 'O supradesnivelamento de ST de pelo menos 1 mm concordante com o QRS é o achado mais específico de infarto agudo', 'O eletrocardiograma não tem qualquer utilidade nesses pacientes', 'O supradesnivelamento discordante de 2 mm em V1 a V3 confirma infarto'],
+    o: ['O BRE presumivelmente novo é, por si só, diagnóstico de infarto', 'Supradesnivelamento de ST ≥ 1 mm concordante com o QRS é o mais específico', 'O eletrocardiograma não tem utilidade alguma nesses pacientes', 'O supradesnivelamento discordante de 2 mm em V1 a V3 confirma infarto'],
     g: 'B',
     c: 'No bloqueio de ramo esquerdo, o ST e a T são normalmente discordantes do QRS; por isso, o supradesnivelamento concordante de 1 mm ou mais é o indicador mais específico de infarto agudo. A quarta definição ressalta que o bloqueio de ramo, isoladamente, não deve ser considerado diagnóstico; é preciso integrar a clínica, o eletrocardiograma e a troponina.',
     x: { A: 'O bloqueio isolado, mesmo presumivelmente novo, não é diagnóstico de infarto.', C: 'Os critérios de Sgarbossa permitem identificar infarto mesmo com o bloqueio.', D: 'Supradesnivelamento discordante de pequena magnitude em V1 a V3 é esperado no bloqueio de ramo esquerdo.' },
@@ -101,7 +101,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Critérios de Sgarbossa: pontuação',
     e: 'Homem de 68 anos, com bloqueio de ramo esquerdo conhecido, apresenta dor precordial em aperto há 2 horas. O eletrocardiograma mostra infradesnivelamento de ST de 1,5 mm em V2 e V3, derivações em que o QRS é predominantemente negativo, sem outras alterações. Pelos critérios originais de Sgarbossa:',
-    o: ['Soma 2 pontos e o resultado é negativo', 'Soma 3 pontos (infradesnivelamento concordante em V1 a V3), o que é sugestivo de infarto agudo', 'Soma 5 pontos pelo supradesnivelamento concordante', 'Não pontua, pois o infradesnivelamento em V1 a V3 é esperado no bloqueio de ramo esquerdo'],
+    o: ['Soma 2 pontos e o resultado é negativo para infarto agudo', 'Soma 3 pontos (infra concordante em V1-V3): sugestivo de infarto agudo', 'Soma 5 pontos pelo supradesnivelamento concordante em V5-V6', 'Não pontua, pois o infra de ST em V1 a V3 é esperado no BRE'],
     g: 'B',
     c: 'Os critérios de Sgarbossa atribuem 5 pontos ao supradesnivelamento concordante de 1 mm ou mais, 3 pontos ao infradesnivelamento de 1 mm ou mais em V1, V2 ou V3 e 2 pontos ao supradesnivelamento discordante de 5 mm ou mais. Pontuação de 3 ou mais tem alta especificidade para infarto; em V1 a V3 o esperado no bloqueio seria supradesnivelamento discordante, e não infradesnivelamento.',
     x: { A: 'O infradesnivelamento concordante em V1 a V3 vale 3 pontos, e não 2.', C: 'Não há supradesnivelamento concordante descrito no traçado.', D: 'No bloqueio de ramo esquerdo espera-se supradesnivelamento discordante em V1 a V3.' },
@@ -109,7 +109,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Sgarbossa modificado',
     e: 'Os critérios de Sgarbossa modificados por Smith substituem o terceiro critério original (supradesnivelamento discordante de 5 mm ou mais) por:',
-    o: ['Duração do QRS maior que 160 ms', 'Relação entre o supradesnivelamento de ST e a amplitude da onda S igual ou mais negativa que -0,25 (discordância excessiva proporcional)', 'Presença de onda Q em V6', 'Frequência cardíaca maior que 100 bpm'],
+    o: ['Duração do QRS maior que 160 ms, indicando bloqueio completo', 'ST/S ≤ -0,25 (discordância excessiva proporcional)', 'Presença de onda Q em V6 com duração maior que 0,04 s', 'Frequência cardíaca maior que 100 bpm em repouso, na admissão'],
     g: 'B',
     c: 'O critério absoluto de 5 mm é pouco sensível, porque o desvio discordante de ST é proporcional à voltagem do QRS. A regra modificada considera excessiva a discordância quando o ST corresponde a 25% ou mais da onda S (ou R) precedente, o que aumenta a sensibilidade mantendo boa especificidade.',
     x: { A: 'A duração do QRS não faz parte dos critérios de Sgarbossa.', C: 'A onda Q em V6 não integra a regra modificada.', D: 'A frequência cardíaca não faz parte dos critérios.' },
@@ -117,7 +117,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Marca-passo ventricular',
     e: 'Homem de 77 anos, portador de marca-passo com estimulação ventricular direita, chega com dor precordial típica há 1 hora, sudorese e hipotensão leve. O eletrocardiograma mostra ritmo de marca-passo, com supradesnivelamento de ST de 2 mm concordante com o QRS em II, III e aVF. A conduta correta é:',
-    o: ['Aguardar a curva de troponina, pois o eletrocardiograma não é interpretável com marca-passo', 'Encaminhar para coronariografia de emergência, pois o supradesnivelamento concordante sugere oclusão coronariana aguda', 'Desligar o marca-passo para avaliar o ritmo de base antes de qualquer decisão', 'Dar alta se a primeira troponina for normal'],
+    o: ['Aguardar a curva de troponina, pois o ECG não é interpretável com marca-passo', 'Coronariografia de emergência: supra concordante sugere oclusão aguda', 'Desligar o marca-passo para avaliar o ritmo de base antes da decisão', 'Dar alta se a primeira troponina for normal, com retorno em 24 horas'],
     g: 'B',
     c: 'A estimulação ventricular direita gera padrão semelhante ao bloqueio de ramo esquerdo, e os critérios de Sgarbossa podem ser aplicados, embora com menor especificidade. Diante de clínica típica e supradesnivelamento concordante, deve-se tratar como infarto com supradesnivelamento, sem aguardar marcadores.',
     x: { A: 'A reperfusão não deve esperar a troponina quando há forte suspeita de oclusão aguda.', C: 'Inibir o marca-passo em paciente possivelmente dependente é arriscado e atrasa o tratamento.', D: 'Uma troponina precoce normal não exclui infarto, e o quadro é de alto risco.' },
@@ -125,7 +125,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Memória cardíaca',
     e: 'Mulher de 74 anos, com marca-passo ventricular de estimulação intermitente, assintomática, faz eletrocardiograma durante ritmo próprio, que mostra inversão profunda de onda T em derivações precordiais e inferiores, sem alteração de ST. Troponinas seriadas normais. A explicação mais provável é:',
-    o: ['Infarto sem supradesnivelamento de ST', 'Memória cardíaca: alteração de repolarização persistente após período de ativação ventricular anormal', 'Síndrome de Wellens', 'Hipercalemia grave'],
+    o: ['Infarto sem supradesnivelamento de ST em evolução subaguda', 'Memória cardíaca: repolarização alterada após ativação ventricular anormal', 'Síndrome de Wellens por estenose crítica da descendente anterior', 'Hipercalemia grave com onda T apiculada e QRS alargado'],
     g: 'B',
     c: 'Após períodos de ativação ventricular anormal (estimulação por marca-passo, bloqueio de ramo intermitente, taquiarritmia), a repolarização permanece alterada por algum tempo depois que a condução se normaliza, com ondas T invertidas na direção do QRS anormal anterior. A definição universal cita esse fenômeno como causa de confusão com isquemia.',
     x: { A: 'Não há sintomas nem elevação de troponina.', C: 'A síndrome de Wellens ocorre em paciente com angina recente e alterações em V2 e V3.', D: 'A hipercalemia causa ondas T apiculadas, e não invertidas.' },
@@ -133,7 +133,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Bloqueio de ramo direito',
     e: 'Em paciente com bloqueio de ramo direito e dor torácica, qual achado eletrocardiográfico deve levantar a suspeita de isquemia miocárdica aguda?',
-    o: ['Inversão de onda T em V1 a V3', 'Supradesnivelamento novo de ST ou surgimento de ondas Q', 'Padrão rSR em V1', 'Onda S alargada em I e V6'],
+    o: ['Inversão de onda T em V1 a V3 já presente em registros prévios', 'Supradesnivelamento novo de ST ou surgimento de ondas Q', 'Padrão rSR\' em V1, característico do próprio bloqueio de ramo', 'Onda S alargada em I e V6, característica do bloqueio de ramo'],
     g: 'B',
     c: 'No bloqueio de ramo direito, alterações secundárias de ST e T em V1 a V3 (infradesnivelamento discreto e T invertida) são esperadas e dificultam a avaliação nessas derivações. Já o supradesnivelamento de ST e as ondas Q não fazem parte do bloqueio e devem ser valorizados como sinais de isquemia ou infarto.',
     x: { A: 'É alteração secundária de repolarização esperada no bloqueio de ramo direito.', C: 'É o próprio padrão morfológico que define o bloqueio.', D: 'A onda S alargada em I e V6 também faz parte da morfologia do bloqueio.' },
@@ -141,7 +141,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Supra em aVR com infra difuso',
     e: 'Homem de 71 anos com dor precordial em repouso e sudorese. O eletrocardiograma mostra infradesnivelamento de ST maior que 1 mm em oito derivações (I, II, aVL, aVF, V3 a V6), associado a supradesnivelamento de ST em aVR e V1. Esse padrão sugere:',
-    o: ['Pericardite aguda', 'Isquemia por lesão de tronco da coronária esquerda ou doença multiarterial grave', 'Infarto isolado de ventrículo direito', 'Repolarização precoce benigna'],
+    o: ['Pericardite aguda com supradesnivelamento difuso de ST', 'Isquemia por lesão de tronco da coronária esquerda ou doença multiarterial', 'Infarto isolado de ventrículo direito com supra em V3R-V4R', 'Repolarização precoce benigna em paciente jovem sem sintomas'],
     g: 'B',
     c: 'Infradesnivelamento de ST de 1 mm ou mais em seis ou mais derivações, acompanhado de supradesnivelamento em aVR e/ou V1, sugere isquemia subendocárdica difusa por obstrução de tronco da coronária esquerda ou doença multiarterial, sobretudo com instabilidade hemodinâmica. É um padrão de alto risco, que pede estratégia invasiva urgente.',
     x: { A: 'Na pericardite há supradesnivelamento difuso, com infradesnivelamento apenas em aVR e V1.', C: 'O infarto de ventrículo direito cursa com supradesnivelamento em derivações direitas e inferiores.', D: 'A repolarização precoce cursa com supradesnivelamento, não com infradesnivelamento difuso.' },
@@ -149,7 +149,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Ondas T hiperagudas e eletrocardiograma seriado',
     e: 'Homem de 49 anos chega 25 minutos após o início de dor precordial intensa. O eletrocardiograma mostra ondas T amplas, simétricas e de base larga em V2 a V4, sem supradesnivelamento de ST. A dor persiste. A conduta mais adequada é:',
-    o: ['Alta, pois não há supradesnivelamento de ST', 'Repetir o eletrocardiograma em intervalos de 15 a 30 minutos, pois ondas T hiperagudas podem preceder o supradesnivelamento', 'Solicitar teste ergométrico imediato', 'Aguardar 12 horas para um novo eletrocardiograma'],
+    o: ['Alta, pois não há supradesnivelamento de ST no primeiro traçado', 'Repetir o ECG a cada 15-30 min: T hiperaguda pode preceder o supra', 'Solicitar teste ergométrico imediato para estratificar o risco', 'Aguardar 12 horas para um novo eletrocardiograma de controle'],
     g: 'B',
     c: 'As ondas T hiperagudas são a manifestação eletrocardiográfica mais precoce da oclusão coronariana, antecedendo o supradesnivelamento de ST. A definição universal recomenda eletrocardiogramas seriados a cada 15 a 30 minutos nas primeiras 1 a 2 horas em pacientes com sintomas persistentes e traçado inicial não diagnóstico.',
     x: { A: 'A dor persiste e o traçado sugere fase hiperaguda de oclusão coronariana.', C: 'O teste ergométrico é contraindicado na suspeita de síndrome coronariana aguda em curso.', D: 'A evolução pode ocorrer em minutos; esperar 12 horas faria perder a janela de reperfusão.' },
@@ -157,7 +157,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Infarto prévio silencioso',
     e: 'Mulher de 64 anos, diabética há 20 anos, assintomática, realiza eletrocardiograma de rotina que mostra ondas Q patológicas em V1 a V4, ausentes em traçado de 3 anos atrás. O ecocardiograma mostra acinesia e afilamento da parede anterosseptal. Nega qualquer episódio de dor torácica. O diagnóstico é:',
-    o: ['Infarto agudo do miocárdio tipo 1', 'Infarto do miocárdio prévio silencioso (não reconhecido)', 'Variante da normalidade', 'Infarto tipo 3'],
+    o: ['Infarto agudo do miocárdio tipo 1 em evolução na fase aguda', 'Infarto do miocárdio prévio silencioso (não reconhecido)', 'Variante da normalidade, sem significado clínico algum', 'Infarto tipo 3, com morte súbita antes da coleta de marcadores'],
     g: 'B',
     c: 'A definição universal aceita como infarto prévio ou silencioso a presença de ondas Q patológicas, com ou sem sintomas, na ausência de causas não isquêmicas, ou a evidência de imagem de perda de miocárdio viável em padrão isquêmico. É mais comum em diabéticos, idosos e mulheres, e tem prognóstico semelhante ao do infarto reconhecido.',
     x: { A: 'Não há quadro agudo nem curva de troponina.', C: 'Ondas Q novas com acinesia e afilamento de parede não são variantes do normal.', D: 'O tipo 3 corresponde à morte cardíaca súbita.' },
@@ -181,7 +181,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico laboratorial do reinfarto',
     e: 'Homem de 66 anos, no 3º dia de infarto, com troponina ainda elevada, mas em queda, apresenta novo episódio de dor precordial com novas alterações de ST. Como confirmar laboratorialmente o reinfarto?',
-    o: ['Não é possível, pois a troponina já está elevada', 'Dosar a troponina imediatamente e repetir em 3 a 6 horas: aumento de 20% ou mais na segunda amostra confirma', 'Dosar apenas mioglobina', 'Aguardar a troponina normalizar e só então dosar novamente'],
+    o: ['Não é possível, pois a troponina já está elevada no 3º dia', 'Dosar troponina agora e em 3-6 h: aumento ≥ 20% na segunda confirma', 'Dosar apenas mioglobina, que se eleva e normaliza mais rápido', 'Aguardar a troponina normalizar e só então dosar novamente'],
     g: 'B',
     c: 'Na suspeita de reinfarto, colhe-se troponina imediatamente e outra amostra 3 a 6 horas depois. Se o valor inicial estiver elevado, porém estável ou em queda, um aumento de 20% ou mais na segunda amostra, acima do percentil 99, sustenta o diagnóstico. A CK-MB, que normaliza mais rápido, era o marcador clássico para esse fim, mas a troponina seriada é suficiente.',
     x: { A: 'A análise da variação entre duas amostras permite o diagnóstico mesmo com valor basal elevado.', C: 'A mioglobina é inespecífica e não é o método recomendado.', D: 'Esperar a normalização levaria dias e atrasaria o diagnóstico e o tratamento.' },
@@ -189,7 +189,7 @@ export const INFARTO_3: QuestaoCompacta[] = [
   {
     s: 'Derivações contíguas',
     e: 'Homem de 57 anos, com dor precordial há 1 hora, apresenta supradesnivelamento de ST de 1,5 mm apenas em I e aVL, com infradesnivelamento em III e aVF. Sobre esse achado, é correto afirmar:',
-    o: ['Não preenche critério, pois I e aVL não são derivações contíguas', 'Preenche critério de supradesnivelamento em duas derivações contíguas, compatível com infarto de parede lateral alta', 'Indica infarto de ventrículo direito', 'Indica obrigatoriamente pericardite, por haver infradesnivelamento associado'],
+    o: ['Não preenche critério, pois I e aVL não são derivações contíguas', 'Supra em duas derivações contíguas: infarto de parede lateral alta', 'Indica infarto de ventrículo direito, com supra em V3R e V4R', 'Indica obrigatoriamente pericardite, por haver infra associado'],
     g: 'B',
     c: 'As derivações são agrupadas por contiguidade anatômica: I e aVL (lateral alta), V1 a V6 (anterior), II, III e aVF (inferior). O supradesnivelamento em I e aVL com alteração recíproca inferior caracteriza infarto lateral alto, classicamente por oclusão de ramo diagonal ou da circunflexa.',
     x: { A: 'As derivações I e aVL formam o grupo contíguo lateral alto.', C: 'O ventrículo direito é avaliado por V3R e V4R, no contexto de infarto inferior.', D: 'Alteração recíproca fala a favor de infarto; a pericardite não tem imagem em espelho, exceto em aVR.' },

@@ -13,7 +13,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Inibidores da enzima conversora',
     e: 'Homem de 57 anos, assintomático, descobre fração de ejeção de 35% em ecocardiograma de rotina após infarto antigo. Pressão arterial de 128/80 mmHg, creatinina e potássio normais. Em relação ao inibidor da enzima conversora de angiotensina:',
-    o: ['Só deve ser iniciado quando surgirem sintomas', 'Está indicado, pois reduz remodelamento, progressão para sintomas e mortalidade mesmo na disfunção assintomática', 'Está indicado apenas se houver hipertensão arterial', 'Deve ser iniciado já na dose-alvo, sem titulação'],
+    o: ['Só deve ser iniciado quando surgirem sintomas de insuficiência cardíaca', 'Indicado: reduz remodelamento, progressão e mortalidade, mesmo na disfunção assintomática', 'Indicado apenas se houver hipertensão arterial associada à disfunção', 'Deve ser iniciado já na dose-alvo, sem qualquer titulação da dose'],
     g: 'B',
     c: 'O bloqueio da angiotensina II reduz pré e pós-carga e atenua a fibrose e o remodelamento ventricular. Por isso o inibidor da enzima conversora beneficia todos os pacientes com fração de ejeção reduzida, sintomáticos ou não (estudo SOLVD), devendo ser iniciado em dose baixa e titulado até a dose-alvo ou a máxima tolerada.',
     x: { A: 'O benefício existe também na fase assintomática, retardando o aparecimento de sintomas.', C: 'A indicação independe da presença de hipertensão.', D: 'Inicia-se com dose baixa, com aumento gradual e controle de pressão, creatinina e potássio.' },
@@ -21,7 +21,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Inibidores da enzima conversora',
     e: 'Mulher de 61 anos com insuficiência cardíaca de fração de ejeção reduzida iniciou enalapril há três semanas e desenvolveu tosse seca persistente, sem congestão ao exame e com radiografia normal. A conduta mais adequada é:',
-    o: ['Manter o enalapril e associar antitussígeno', 'Trocar o enalapril por um bloqueador do receptor de angiotensina', 'Suspender o bloqueio do sistema renina-angiotensina definitivamente', 'Trocar por captopril'],
+    o: ['Manter o enalapril e associar antitussígeno', 'Trocar o enalapril por um bloqueador do receptor de angiotensina (BRA)', 'Suspender o bloqueio do sistema renina-angiotensina definitivamente', 'Trocar por captopril, que tem o mesmo efeito'],
     g: 'B',
     c: 'A enzima conversora também degrada a bradicinina; sua inibição faz a bradicinina se acumular nas vias aéreas, o que causa tosse seca em parte dos pacientes. Os bloqueadores do receptor de angiotensina não interferem nessa via, não provocam tosse e mantêm o benefício prognóstico, sendo a alternativa indicada.',
     x: { A: 'A tosse é efeito de classe e não responde bem a antitussígenos.', C: 'Perder o bloqueio do sistema renina-angiotensina retira um pilar que reduz mortalidade.', D: 'A tosse é efeito de classe e reaparece com qualquer inibidor da enzima conversora.' },
@@ -45,7 +45,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Sacubitril-valsartana',
     e: 'O benefício do sacubitril, quando associado à valsartana, decorre de:',
-    o: ['Bloqueio direto da renina plasmática', 'Inibição da neprilisina, com aumento dos peptídeos natriuréticos, que promovem vasodilatação e natriurese', 'Bloqueio dos receptores beta-1 adrenérgicos', 'Inibição do cotransportador de sódio e glicose no túbulo proximal'],
+    o: ['Bloqueio direto da renina plasmática, reduzindo a angiotensina I', 'Inibição da neprilisina: aumento dos peptídeos natriuréticos, vasodilatação e natriurese', 'Bloqueio dos receptores beta-1 adrenérgicos, reduzindo a frequência cardíaca', 'Inibição do cotransportador sódio-glicose no túbulo proximal do rim'],
     g: 'B',
     c: 'A neprilisina degrada peptídeos vasoativos, entre eles os natriuréticos. Sua inibição potencializa vasodilatação, natriurese e efeito antifibrótico. Como a neprilisina também degrada a angiotensina II, o sacubitril precisa ser associado a um bloqueador do receptor de angiotensina. No estudo PARADIGM-HF a combinação foi superior ao enalapril em reduzir morte cardiovascular e hospitalização.',
     x: { A: 'O inibidor direto da renina é o alisquireno, sem benefício na insuficiência cardíaca.', C: 'Esse é o mecanismo dos betabloqueadores.', D: 'Esse é o mecanismo dos inibidores de SGLT2.' },
@@ -61,7 +61,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Betabloqueadores',
     e: 'Homem de 63 anos recebe diagnóstico recente de insuficiência cardíaca com fração de ejeção de 28%. Está com estertores até o terço médio, turgência jugular e edema importante, pressão de 110/70 mmHg e frequência de 98 bpm. Já iniciou furosemida e enalapril. Quanto ao betabloqueador:',
-    o: ['Iniciar imediatamente em dose-alvo para controlar a frequência', 'Iniciar em dose baixa após a compensação da congestão, com aumento gradual a cada duas semanas', 'Está contraindicado enquanto a fração de ejeção for menor que 30%', 'Deve ser reservado para quem tem fibrilação atrial'],
+    o: ['Iniciar já em dose-alvo, para controlar a frequência cardíaca', 'Iniciar em dose baixa, após compensar a congestão, e aumentar a cada 2 semanas', 'Contraindicado enquanto a fração de ejeção for menor que 30%', 'Reservado apenas para quem tem fibrilação atrial associada'],
     g: 'B',
     c: 'O betabloqueador tem efeito inotrópico negativo imediato e pode piorar a congestão se iniciado com o paciente hipervolêmico. Seu benefício é tardio, por bloquear a toxicidade das catecolaminas, reduzir arritmias e reverter o remodelamento. Por isso se começa com o paciente estável e sem congestão importante, em dose baixa, dobrando progressivamente até a dose-alvo.',
     x: { A: 'Dose alta inicial em paciente congesto pode precipitar baixo débito.', C: 'Quanto menor a fração de ejeção, maior o benefício absoluto do betabloqueador.', D: 'A indicação vale para todos com fração de ejeção reduzida, em ritmo sinusal ou não.' },
@@ -69,7 +69,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Antagonista mineralocorticoide',
     e: 'Paciente com fração de ejeção de 30%, classe funcional III, em uso de enalapril e carvedilol em doses otimizadas. Em qual situação a espironolactona NÃO deve ser iniciada?',
-    o: ['Pressão arterial de 105/65 mmHg', 'Potássio de 5,6 mEq/L e taxa de filtração glomerular de 24 mL/min', 'Diabetes mellitus tipo 2', 'Frequência cardíaca de 58 bpm'],
+    o: ['Pressão arterial de 105/65 mmHg, que permite o uso', 'Potássio de 5,6 mEq/L e TFG de 24 mL/min', 'Diabetes mellitus tipo 2, que não contraindica o uso', 'Frequência cardíaca de 58 bpm, que não contraindica o uso'],
     g: 'B',
     c: 'A espironolactona bloqueia o receptor da aldosterona no túbulo coletor, retendo potássio; somada ao bloqueio do sistema renina-angiotensina e à disfunção renal, pode causar hipercalemia grave. Não se deve iniciá-la com potássio acima de 5,0 mEq/L nem com disfunção renal avançada (filtração abaixo de 30 mL/min ou creatinina acima de 2,5 mg/dL). Potássio e creatinina devem ser dosados uma semana e um mês após o início.',
     x: { A: 'O efeito anti-hipertensivo é discreto; essa pressão não impede o uso.', C: 'O diabetes não contraindica, embora exija maior vigilância do potássio.', D: 'A espironolactona não tem efeito cronotrópico negativo.' },
@@ -85,7 +85,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia',
     e: 'Mulher de 70 anos com insuficiência cardíaca usa enalapril, espironolactona, carvedilol e furosemida. Após uma semana de diarreia e uso de anti-inflamatório por conta própria, exames mostram creatinina de 2,4 mg/dL (prévia de 1,1) e potássio de 6,3 mEq/L, com ondas T apiculadas no eletrocardiograma. Além das medidas imediatas para hipercalemia, deve-se:',
-    o: ['Manter todos os fármacos, pois reduzem mortalidade', 'Suspender temporariamente a espironolactona e o enalapril, interromper o anti-inflamatório e reavaliar após recuperação', 'Suspender apenas o carvedilol', 'Trocar a furosemida por amilorida'],
+    o: ['Manter todos os fármacos, pois reduzem a mortalidade na insuficiência cardíaca', 'Suspender temporariamente espironolactona e enalapril, parar o AINE e reavaliar', 'Suspender apenas o carvedilol, mantendo os demais fármacos em uso', 'Trocar a furosemida por amilorida, mantendo os demais fármacos em uso'],
     g: 'B',
     c: 'Hipovolemia e anti-inflamatório reduzem a perfusão glomerular (o anti-inflamatório bloqueia a vasodilatação da arteríola aferente mediada por prostaglandinas), enquanto inibidor da enzima conversora e espironolactona impedem a excreção de potássio. Com potássio acima de 6,0 mEq/L, esses dois fármacos devem ser suspensos e reintroduzidos com cautela depois de corrigida a causa.',
     x: { A: 'Hipercalemia grave com alteração eletrocardiográfica exige suspensão dos fármacos causadores.', C: 'O carvedilol não é o responsável principal pela hipercalemia.', D: 'A amilorida é poupadora de potássio e agravaria o quadro.' },
@@ -101,7 +101,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Inibidores de SGLT2',
     e: 'Mulher de 58 anos, diabética tipo 2, com insuficiência cardíaca, iniciou empagliflozina há dois meses. Qual efeito adverso é o mais característico dessa classe?',
-    o: ['Hipercalemia', 'Infecção genital fúngica', 'Tosse seca', 'Bradicardia sinusal'],
+    o: ['Hipercalemia, que não é efeito dos iSGLT2', 'Infecção genital fúngica', 'Tosse seca, que é efeito dos IECA', 'Bradicardia sinusal, que é efeito dos betabloqueadores'],
     g: 'B',
     c: 'Ao bloquear a reabsorção de glicose no túbulo proximal, os inibidores de SGLT2 provocam glicosúria, que favorece candidíase vulvovaginal e balanopostite. Outro efeito clássico, mais raro, é a cetoacidose diabética euglicêmica, o que motiva a suspensão do fármaco alguns dias antes de cirurgias e em jejum prolongado ou doença aguda grave.',
     x: { A: 'A classe não eleva o potássio; tende até a reduzir o risco de hipercalemia.', C: 'A tosse é efeito dos inibidores da enzima conversora.', D: 'Bradicardia é efeito de betabloqueador, ivabradina e digoxina.' },
@@ -109,7 +109,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Hidralazina e nitrato',
     e: 'Homem de 68 anos com fração de ejeção de 30% tem doença renal crônica com creatinina de 3,4 mg/dL e potássio de 5,8 mEq/L, que subiram em duas tentativas de uso de enalapril e losartana. Qual esquema vasodilatador com benefício em mortalidade deve substituir o bloqueio do sistema renina-angiotensina?',
-    o: ['Anlodipino isolado', 'Hidralazina associada a dinitrato de isossorbida', 'Sacubitril-valsartana', 'Verapamil'],
+    o: ['Anlodipino isolado, sem benefício na IC', 'Hidralazina associada a dinitrato de isossorbida', 'Sacubitril-valsartana, contraindicado com TFG muito baixa', 'Verapamil, contraindicado na IC com FE reduzida'],
     g: 'B',
     c: 'A hidralazina é vasodilatador arterial (reduz a pós-carga) e o nitrato é venodilatador (reduz a pré-carga); juntos reduziram a mortalidade no estudo V-HeFT I. A associação é indicada quando há contraindicação a inibidor da enzima conversora e a bloqueador do receptor por hipercalemia ou disfunção renal, e também como terapia adicional em autodeclarados negros que permanecem sintomáticos (estudo A-HeFT).',
     x: { A: 'O anlodipino é seguro, mas não reduz mortalidade.', C: 'O sacubitril-valsartana tem as mesmas limitações de função renal e potássio.', D: 'O verapamil é inotrópico negativo e piora a insuficiência cardíaca de fração reduzida.' },
@@ -125,7 +125,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Digoxina',
     e: 'Sobre a digoxina na insuficiência cardíaca com fração de ejeção reduzida em ritmo sinusal, assinale a correta.',
-    o: ['Reduz a mortalidade total em cerca de 30%', 'Não altera a mortalidade, mas reduz hospitalizações em pacientes que permanecem sintomáticos', 'Deve ser iniciada antes do betabloqueador', 'Quanto maior o nível sérico, maior o benefício'],
+    o: ['Reduz a mortalidade total em cerca de 30%, nos grandes estudos', 'Não altera a mortalidade, mas reduz hospitalizações nos pacientes ainda sintomáticos', 'Deve ser iniciada antes do betabloqueador, como primeira linha', 'Quanto maior o nível sérico, maior o benefício clínico do fármaco'],
     g: 'B',
     c: 'A digoxina inibe a bomba de sódio e potássio, aumentando o cálcio intracelular (inotropismo positivo) e o tônus vagal. No estudo DIG teve efeito neutro sobre a mortalidade e reduziu hospitalizações. É opção para quem segue sintomático apesar da terapia otimizada, mantendo nível sérico baixo (0,5 a 0,9 ng/mL), pois níveis mais altos se associaram a maior mortalidade.',
     x: { A: 'Não houve redução de mortalidade no estudo DIG.', C: 'É fármaco de terceira linha, após os que reduzem mortalidade.', D: 'Níveis acima de 1,0 a 1,2 ng/mL associam-se a pior desfecho.' },
@@ -133,7 +133,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Intoxicação digitálica',
     e: 'Idosa de 78 anos em uso de digoxina e furosemida, com piora recente da função renal, apresenta náuseas, vômitos, visão amarelada e confusão. Potássio de 3,0 mEq/L. O eletrocardiograma mostra extrassístoles ventriculares bigeminadas e taquicardia atrial com bloqueio atrioventricular variável. Qual medida está CONTRAINDICADA?',
-    o: ['Suspensão da digoxina', 'Administração de cálcio intravenoso e cardioversão elétrica eletiva', 'Correção cautelosa da hipocalemia', 'Anticorpo antidigoxina (fragmento Fab) se houver arritmia grave'],
+    o: ['Suspensão da digoxina, na intoxicação digitálica', 'Cálcio intravenoso e cardioversão elétrica eletiva', 'Correção cautelosa da hipocalemia, na intoxicação digitálica', 'Anticorpo antidigoxina (Fab) se houver arritmia grave'],
     g: 'B',
     c: 'A hipocalemia facilita a ligação do digital à bomba de sódio e potássio, e a disfunção renal reduz sua eliminação. A intoxicação combina aumento do automatismo e bloqueio atrioventricular, além de sintomas digestivos e visuais (xantopsia). A cardioversão elétrica pode deflagrar fibrilação ventricular no miocárdio intoxicado e o cálcio intravenoso é classicamente evitado, pois o cálcio intracelular já está elevado.',
     x: { A: 'Suspender o fármaco é a primeira medida.', C: 'Corrigir o potássio reduz a toxicidade, desde que não haja bloqueio avançado com hipercalemia.', D: 'O fragmento Fab é o antídoto específico nas arritmias graves e na hipercalemia da intoxicação aguda.' },
@@ -149,7 +149,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Diuréticos',
     e: 'Homem de 60 anos com insuficiência cardíaca, em uso de furosemida em dose alta, apresenta artrite aguda da primeira articulação metatarsofalângica. Qual conjunto de alterações laboratoriais é esperado com o diurético de alça?',
-    o: ['Hipercalemia, acidose metabólica e hipouricemia', 'Hipocalemia, hipomagnesemia, alcalose metabólica e hiperuricemia', 'Hipercalcemia, hipercalemia e acidose metabólica', 'Hipernatremia, hipercalemia e hipouricemia'],
+    o: ['Hipercalemia, acidose metabólica e hipouricemia, por perda renal', 'Hipocalemia, hipomagnesemia, alcalose metabólica e hiperuricemia', 'Hipercalcemia, hipercalemia e acidose metabólica, por perda renal', 'Hipernatremia, hipercalemia e hipouricemia, por perda renal'],
     g: 'B',
     c: 'A furosemida bloqueia o cotransportador de sódio, potássio e cloro na alça de Henle. A maior oferta de sódio ao néfron distal e o hiperaldosteronismo secundário à contração de volume aumentam a perda de potássio e de hidrogênio (alcalose de contração); perde-se também magnésio e cálcio. A contração de volume aumenta a reabsorção proximal de urato, precipitando gota.',
     x: { A: 'Esse é o padrão dos poupadores de potássio, e o ácido úrico sobe, não cai.', C: 'O diurético de alça aumenta a excreção de cálcio; quem retém cálcio é o tiazídico.', D: 'Não há retenção de potássio nem queda do ácido úrico com furosemida.' },
@@ -173,7 +173,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Betabloqueadores',
     e: 'Homem de 67 anos, ex-tabagista com doença pulmonar obstrutiva crônica moderada e estável, recebe diagnóstico de insuficiência cardíaca com fração de ejeção de 30%. Em relação ao betabloqueador:',
-    o: ['Está contraindicado em qualquer doença pulmonar obstrutiva', 'Está indicado, preferindo-se um agente cardiosseletivo, como bisoprolol ou succinato de metoprolol', 'Deve ser substituído por verapamil', 'Só pode ser usado o propranolol, por ser mais antigo'],
+    o: ['Contraindicado em qualquer doença pulmonar obstrutiva, sem exceção', 'Indicado, de preferência cardiosseletivo (bisoprolol ou succinato de metoprolol)', 'Deve ser substituído por verapamil, que tem benefício comprovado', 'Só pode ser usado o propranolol, por ser o mais antigo e estudado'],
     g: 'B',
     c: 'A doença pulmonar obstrutiva crônica não contraindica o betabloqueador, e esses pacientes também têm redução de mortalidade com o tratamento. Preferem-se os seletivos para o receptor beta-1, que interferem pouco no receptor beta-2 brônquico. A contraindicação relativa é a asma, principalmente grave; outras contraindicações são bloqueio atrioventricular avançado sem marca-passo e bradicardia sintomática.',
     x: { A: 'A contraindicação clássica é asma grave, não a doença pulmonar obstrutiva crônica.', C: 'O verapamil piora a insuficiência cardíaca de fração reduzida.', D: 'O propranolol é não seletivo e não tem benefício comprovado na insuficiência cardíaca.' },
@@ -181,7 +181,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Vericiguat',
     e: 'O vericiguat, opção para pacientes com fração de ejeção reduzida que tiveram piora recente apesar da terapia otimizada, atua por:',
-    o: ['Inibição da fosfodiesterase 3', 'Estimulação da guanilato ciclase solúvel, aumentando o GMP cíclico', 'Bloqueio do receptor de vasopressina V2', 'Ativação direta da miosina cardíaca'],
+    o: ['Inibição da fosfodiesterase 3, com aumento do AMP cíclico', 'Estimulação da guanilato ciclase solúvel, com aumento do GMP cíclico', 'Bloqueio do receptor de vasopressina V2, com aquaurese', 'Ativação direta da miosina cardíaca, com aumento da contratilidade'],
     g: 'B',
     c: 'Na insuficiência cardíaca há menor biodisponibilidade de óxido nítrico e, portanto, menor produção de GMP cíclico, o que favorece vasoconstrição e fibrose. O vericiguat estimula a guanilato ciclase solúvel independentemente do óxido nítrico. No estudo VICTORIA reduziu o desfecho combinado de morte cardiovascular e hospitalização em pacientes com descompensação recente; não deve ser associado a nitratos de uso contínuo nem a inibidores da fosfodiesterase 5, pelo risco de hipotensão.',
     x: { A: 'Esse é o mecanismo da milrinona.', C: 'Esse é o mecanismo do tolvaptano.', D: 'Esse é o mecanismo do omecamtiv mecarbil.' },
@@ -189,7 +189,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Otimização terapêutica',
     e: 'Mulher de 55 anos com fração de ejeção de 30% sente-se bem, em classe funcional I, usando enalapril 5 mg duas vezes ao dia e carvedilol 6,25 mg duas vezes ao dia. Pressão de 124/78 mmHg, frequência de 76 bpm, exames normais. A conduta correta é:',
-    o: ['Manter as doses, já que está assintomática', 'Aumentar progressivamente as doses até as doses-alvo dos ensaios clínicos ou as máximas toleradas', 'Suspender o carvedilol, pois a frequência está normal', 'Substituir os dois fármacos por furosemida'],
+    o: ['Manter as doses atuais, já que a paciente está assintomática', 'Aumentar aos poucos até as doses-alvo dos ensaios ou as máximas toleradas', 'Suspender o carvedilol, pois a frequência cardíaca está normal', 'Substituir os dois fármacos por furosemida, que alivia os sintomas'],
     g: 'B',
     c: 'O benefício em mortalidade foi demonstrado com as doses-alvo usadas nos estudos (por exemplo, enalapril 10 a 20 mg e carvedilol 25 mg, ambos duas vezes ao dia), e há relação entre dose e efeito. A titulação é guiada por tolerância (pressão, frequência, função renal e potássio), e não pela melhora dos sintomas; manter doses baixas por inércia é erro frequente.',
     x: { A: 'Ausência de sintomas não indica que a dose seja suficiente para proteção prognóstica.', C: 'O betabloqueador reduz mortalidade independentemente da frequência basal.', D: 'A furosemida não modifica o prognóstico e a paciente não está congesta.' },
@@ -197,7 +197,7 @@ export const IC_2: QuestaoCompacta[] = [
   {
     s: 'Fração de ejeção melhorada',
     e: 'Homem de 48 anos com cardiomiopatia dilatada tinha fração de ejeção de 28% há dois anos. Com terapia otimizada, está assintomático e a fração de ejeção é de 55%. Ele pergunta se pode parar os remédios. A orientação é:',
-    o: ['Suspender todos os fármacos, pois houve cura', 'Manter o tratamento, pois a suspensão leva à recaída em grande parte dos casos', 'Manter apenas o diurético de alça', 'Suspender o betabloqueador e manter apenas o inibidor de SGLT2'],
+    o: ['Suspender todos os fármacos, pois houve cura da cardiomiopatia', 'Manter o tratamento: a suspensão leva à recaída em muitos casos', 'Manter apenas o diurético de alça, suspendendo os demais fármacos', 'Suspender o betabloqueador e manter apenas o inibidor de SGLT2'],
     g: 'B',
     c: 'A recuperação da fração de ejeção representa remissão sustentada pelo tratamento, e não cura: as alterações moleculares e estruturais persistem. No estudo TRED-HF, cerca de 40% dos pacientes com cardiomiopatia dilatada recuperada recaíram em seis meses após a retirada dos fármacos. Por isso a terapia modificadora deve ser mantida indefinidamente.',
     x: { A: 'A normalização da fração de ejeção depende da manutenção do tratamento.', C: 'O diurético é o único que pode ser reduzido ou retirado se não houver congestão.', D: 'A retirada parcial dos fármacos que reduzem mortalidade também se associa a recaída.' },

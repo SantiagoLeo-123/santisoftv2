@@ -5,7 +5,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Conceitos',
     e: 'O que diferencia a emergência hipertensiva da urgência hipertensiva?',
-    o: ['O valor absoluto da pressão, sempre superior a 220 x 130 mmHg na emergência', 'A presença de lesão aguda e progressiva de órgão-alvo com risco iminente de morte, e não o valor da pressão', 'A presença de cefaleia ou epistaxe', 'A ausência de diagnóstico prévio de hipertensão'],
+    o: ['O valor absoluto da pressão, sempre acima de 220 x 130 mmHg na emergência', 'Lesão aguda e progressiva de órgão-alvo com risco de morte, não o valor da pressão', 'A presença de cefaleia ou epistaxe, no momento da avaliação clínica', 'A ausência de diagnóstico prévio de hipertensão arterial no prontuário'],
     g: 'B',
     c: 'As duas situações cursam com elevação acentuada da pressão, em geral a partir de 180 x 120 mmHg. Na emergência há lesão aguda de órgão-alvo, como encefalopatia, acidente vascular cerebral, edema agudo de pulmão, síndrome coronariana, dissecção de aorta ou eclâmpsia, o que exige redução imediata com fármaco parenteral em terapia intensiva.',
     x: { A: 'Não há valor que defina emergência; a eclâmpsia pode ocorrer com pressões menores.', C: 'Cefaleia e epistaxe isoladas não configuram lesão aguda de órgão-alvo.', D: 'A crise pode ocorrer em hipertensos conhecidos ou não; isso não diferencia os quadros.' },
@@ -13,7 +13,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Pseudocrise',
     e: 'Mulher de 49 anos, hipertensa em uso regular de medicação, chega ao pronto-socorro com lombalgia intensa após esforço. Pressão de 186 x 108 mmHg. Exame neurológico, cardiovascular e fundo de olho normais. Qual a conduta?',
-    o: ['Nitroprussiato de sódio em bomba de infusão', 'Analgesia e ambiente calmo, com nova medida da pressão após o controle da dor', 'Captopril sublingual repetido a cada 15 minutos até normalizar a pressão', 'Internação em terapia intensiva'],
+    o: ['Nitroprussiato de sódio em bomba de infusão contínua', 'Analgesia e ambiente calmo, com nova medida da pressão após o controle da dor', 'Captopril sublingual repetido a cada 15 min até normalizar a pressão', 'Internação em terapia intensiva, por emergência hipertensiva'],
     g: 'B',
     c: 'Trata-se de pseudocrise hipertensiva: elevação transitória da pressão por dor, ansiedade ou desconforto, sem lesão aguda de órgão-alvo. O estímulo simpático cessa quando a causa é tratada; reduzir agudamente a pressão com anti-hipertensivos é desnecessário e pode causar hipoperfusão.',
     x: { A: 'Fármaco parenteral é reservado às emergências, com lesão aguda de órgão-alvo.', C: 'Reduzir rapidamente a pressão sem lesão de órgão-alvo traz risco e nenhum benefício.', D: 'Não há critério de gravidade que justifique terapia intensiva.' },
@@ -21,7 +21,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Urgência hipertensiva',
     e: 'Homem de 58 anos, que abandonou o tratamento há 2 meses, tem pressão de 196 x 124 mmHg em repetidas medidas após repouso. Assintomático, com exame físico, eletrocardiograma, creatinina e fundo de olho sem alterações agudas. Qual a conduta?',
-    o: ['Redução da pressão em minutos com fármaco venoso', 'Anti-hipertensivo por via oral, com redução gradual da pressão em 24 a 48 horas e retorno ambulatorial precoce', 'Furosemida venosa em dose alta', 'Alta sem prescrição, pois não há sintomas'],
+    o: ['Redução da pressão em minutos, com fármaco venoso, em ambiente de terapia intensiva', 'Anti-hipertensivo oral, redução gradual em 24-48 h e retorno ambulatorial precoce', 'Furosemida venosa em dose alta, para reduzir a pressão arterial rapidamente', 'Alta sem prescrição, pois não há sintomas de lesão de órgão-alvo'],
     g: 'B',
     c: 'Na urgência hipertensiva não há lesão aguda de órgão-alvo, e a pressão deve cair gradualmente, com fármacos orais como captopril ou clonidina e reinício do tratamento de manutenção. Como a autorregulação do fluxo está deslocada para níveis mais altos no hipertenso crônico, a queda abrupta pode causar isquemia cerebral, miocárdica ou renal.',
     x: { A: 'A redução em minutos é reservada às emergências hipertensivas.', C: 'Não há hipervolemia, e a queda brusca por diurético é indesejável.', D: 'O paciente precisa reiniciar o tratamento e ser reavaliado em poucos dias.' },
@@ -29,7 +29,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Fármacos',
     e: 'Em uma unidade de pronto atendimento, propõe-se nifedipino de liberação imediata por via sublingual para um paciente assintomático com pressão de 200 x 120 mmHg. Essa prática é:',
-    o: ['Recomendada, por ter início de ação rápido e previsível', 'Contraindicada, pois provoca queda rápida e imprevisível da pressão, com taquicardia reflexa e risco de isquemia cerebral e miocárdica', 'Recomendada apenas para idosos', 'Contraindicada apenas em gestantes'],
+    o: ['Recomendada, por ter início de ação rápido e previsível, em urgências', 'Contraindicada: queda rápida e imprevisível da PA, taquicardia reflexa e isquemia', 'Recomendada apenas para idosos, em dose baixa, por via sublingual', 'Contraindicada apenas em gestantes, e liberada nos demais pacientes'],
     g: 'B',
     c: 'O nifedipino de ação curta é um vasodilatador arterial potente, cuja queda de pressão não é titulável. A hipotensão abrupta, somada à ativação simpática reflexa, já causou infarto, acidente vascular cerebral e morte, razão pela qual o uso sublingual foi abandonado.',
     x: { A: 'O efeito é rápido, mas imprevisível e não controlável.', C: 'Os idosos são justamente os mais suscetíveis à hipoperfusão por queda brusca.', D: 'A contraindicação vale para o uso sublingual em qualquer paciente.' },
@@ -37,7 +37,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Emergência hipertensiva',
     e: 'Na maioria das emergências hipertensivas, excetuando situações como dissecção de aorta e acidente vascular cerebral, a velocidade recomendada de redução da pressão é:',
-    o: ['Normalizar a pressão para 120 x 80 mmHg na primeira hora', 'Reduzir a pressão arterial média em no máximo 25% na primeira hora, atingir cerca de 160 x 100 a 110 mmHg em 2 a 6 horas e normalizar em 24 a 48 horas', 'Reduzir 50% da pressão arterial média em 30 minutos', 'Não reduzir a pressão nas primeiras 24 horas'],
+    o: ['Normalizar a pressão para 120 x 80 mmHg na primeira hora de tratamento', 'Reduzir a PAM ≤ 25% na 1ª hora, ~160 x 100-110 em 2-6 h e normalizar em 24-48 h', 'Reduzir 50% da pressão arterial média em 30 minutos, com nitroprussiato', 'Não reduzir a pressão nas primeiras 24 horas de tratamento, em nenhum caso'],
     g: 'B',
     c: 'No hipertenso crônico a curva de autorregulação do fluxo sanguíneo cerebral, coronariano e renal está deslocada para a direita. Reduções superiores a 25% na primeira hora podem ultrapassar o limite inferior da autorregulação e causar isquemia, daí a redução escalonada com fármaco venoso titulável.',
     x: { A: 'A normalização imediata causa hipoperfusão de órgãos adaptados a pressões elevadas.', C: 'Queda de 50% em minutos está associada a isquemia cerebral e renal.', D: 'A emergência exige redução imediata, embora controlada.' },
@@ -45,7 +45,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Encefalopatia hipertensiva',
     e: 'Homem de 52 anos, hipertenso sem tratamento, apresenta há 2 dias cefaleia progressiva, náuseas, borramento visual e sonolência, sem déficit focal. Pressão de 240 x 140 mmHg e papiledema bilateral. Tomografia de crânio sem hemorragia. Qual o mecanismo fisiopatológico do quadro?',
-    o: ['Vasoespasmo difuso com infartos lacunares múltiplos', 'Falência da autorregulação cerebral, com hiperperfusão, quebra da barreira hematoencefálica e edema vasogênico', 'Trombose de seio venoso', 'Hemorragia subaracnoide por ruptura de aneurisma'],
+    o: ['Vasoespasmo difuso com infartos lacunares múltiplos, na substância branca', 'Falência da autorregulação cerebral: hiperperfusão, quebra de barreira e edema vasogênico', 'Trombose de seio venoso cerebral, com infarto venoso hemorrágico', 'Hemorragia subaracnoide por ruptura de aneurisma cerebral, de início súbito'],
     g: 'B',
     c: 'Quando a pressão ultrapassa o limite superior da autorregulação, as arteríolas cerebrais deixam de se contrair, ocorre hiperfluxo e extravasamento de plasma, com edema cerebral difuso. O quadro é insidioso, sem sinais focais, e melhora com a redução controlada da pressão, o que confirma o diagnóstico.',
     x: { A: 'Infartos lacunares produzem déficits focais, não um quadro global e progressivo.', C: 'A trombose venosa ocorre em estados de hipercoagulabilidade e não explica a pressão extrema.', D: 'A hemorragia subaracnoide causa cefaleia súbita e aparece na tomografia.' },
@@ -53,7 +53,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Encefalopatia hipertensiva',
     e: 'Mulher de 34 anos, transplantada renal em uso de ciclosporina, apresenta cefaleia, crise convulsiva e perda visual bilateral, com pressão de 210 x 130 mmHg. Qual o achado típico na ressonância de crânio?',
-    o: ['Restrição à difusão em território da artéria cerebral média', 'Hipersinal em T2 e FLAIR na substância branca parieto-occipital bilateral, compatível com edema vasogênico', 'Realce leptomeníngeo difuso', 'Hematoma em núcleos da base'],
+    o: ['Restrição à difusão em território da artéria cerebral média, típica de AVC', 'Hipersinal em T2/FLAIR na substância branca parieto-occipital bilateral (edema vasogênico)', 'Realce leptomeníngeo difuso, após o contraste, típico de meningite', 'Hematoma em núcleos da base, hiperdenso na tomografia, típico de AVC hemorrágico'],
     g: 'B',
     c: 'A síndrome de encefalopatia posterior reversível decorre de falha da autorregulação e de disfunção endotelial, e predomina na circulação posterior, que tem menor inervação simpática protetora. Associa-se a hipertensão grave, eclâmpsia e imunossupressores como ciclosporina e tacrolimo, e costuma regredir com o controle da pressão.',
     x: { A: 'Esse achado corresponde a infarto isquêmico, com edema citotóxico unilateral.', C: 'O realce leptomeníngeo sugere meningite ou carcinomatose.', D: 'Hematoma em núcleos da base é hemorragia hipertensiva, com déficit focal súbito.' },
@@ -61,7 +61,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Dissecção de aorta',
     e: 'Homem de 61 anos, hipertenso, apresenta dor torácica súbita, lancinante, com irradiação para o dorso. Pressão de 198 x 110 mmHg no braço direito e 160 x 96 mmHg no esquerdo, frequência de 108 bpm. A angiotomografia confirma dissecção de aorta. Qual a meta hemodinâmica e o fármaco inicial?',
-    o: ['Pressão sistólica de 140 a 160 mmHg; hidralazina venosa', 'Frequência cardíaca abaixo de 60 bpm e pressão sistólica entre 100 e 120 mmHg; betabloqueador venoso, associando vasodilatador se necessário', 'Redução de 25% da pressão média em 24 horas; captopril oral', 'Pressão sistólica abaixo de 180 mmHg; nitroglicerina isolada'],
+    o: ['PAS de 140 a 160 mmHg; hidralazina venosa, em bolus', 'FC < 60 bpm e PAS 100-120 mmHg: betabolqueador IV, ± vasodilatador', 'Redução de 25% da PAM em 24 horas; captopril oral, em dose habitual', 'PAS abaixo de 180 mmHg; nitroglicerina isolada, sem betabloqueador'],
     g: 'B',
     c: 'Na dissecção de aorta a redução deve ser rápida e intensa, em minutos, pois a propagação da falsa luz depende da pressão e da força de cisalhamento. O betabloqueador venoso, como esmolol ou metoprolol, reduz a frequência e a velocidade de ejeção; se a pressão permanecer alta, acrescenta-se nitroprussiato.',
     x: { A: 'A meta é mais baixa, e a hidralazina causa taquicardia reflexa.', C: 'A redução gradual vale para outras emergências; aqui o controle é imediato.', D: 'O alvo é bem mais baixo, e vasodilatador isolado é inadequado.' },
@@ -69,7 +69,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Dissecção de aorta',
     e: 'Na dissecção aguda de aorta, por que o nitroprussiato de sódio não deve ser iniciado antes do betabloqueador?',
-    o: ['Porque o nitroprussiato não reduz a pressão na dissecção', 'Porque a vasodilatação isolada provoca taquicardia e aumento reflexo da contratilidade, elevando a velocidade de ejeção ventricular e a força de cisalhamento na parede aórtica', 'Porque o nitroprussiato causa bradicardia grave', 'Porque o betabloqueador impede a intoxicação por cianeto'],
+    o: ['O nitroprussiato não reduz a pressão na dissecção aórtica, de forma eficaz', 'A vasodilatação isolada causa taquicardia reflexa e maior cisalhamento aórtico', 'O nitroprussiato causa bradicardia grave na dissecção aguda de aorta', 'O betabloqueador impede a intoxicação por cianeto causada pelo nitroprussiato'],
     g: 'B',
     c: 'A progressão da dissecção depende da taxa de elevação da pressão na aorta a cada batimento, que aumenta com a frequência e a contratilidade. A queda de pressão por vasodilatador ativa o barorreflexo e o simpático, piorando esse estresse; o betabloqueio prévio neutraliza a resposta.',
     x: { A: 'O nitroprussiato reduz a pressão de forma potente; o problema é a resposta reflexa.', C: 'O nitroprussiato causa taquicardia reflexa, e não bradicardia.', D: 'O betabloqueador não tem efeito sobre o metabolismo do cianeto.' },
@@ -85,7 +85,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Edema agudo de pulmão',
     e: 'Homem de 70 anos, hipertenso, chega com dispneia súbita, ortopneia, estertores até os ápices e saturação de 84%. Pressão de 220 x 126 mmHg. O eletrocardiograma mostra sobrecarga ventricular esquerda, sem alterações isquêmicas agudas. Qual o tratamento inicial?',
-    o: ['Metoprolol venoso e hidratação com solução salina', 'Vasodilatador venoso (nitroglicerina ou nitroprussiato), furosemida venosa e ventilação não invasiva', 'Hidralazina venosa em monoterapia', 'Dobutamina e reposição volêmica'],
+    o: ['Metoprolol venoso e hidratação com solução salina, em grande volume', 'Vasodilatador venoso (nitroglicerina ou nitroprussiato), furosemida venosa e VNI', 'Hidralazina venosa em monoterapia, em dose habitual, sem diurético', 'Dobutamina e reposição volêmica, por via venosa, em grande volume'],
     g: 'B',
     c: 'No edema agudo de pulmão hipertensivo o aumento súbito da pós-carga sobre um ventrículo rígido eleva as pressões de enchimento. O vasodilatador reduz pré e pós-carga, sendo a principal medida; o diurético de alça e a ventilação não invasiva completam o tratamento. O betabloqueador venoso é evitado na fase de descompensação aguda.',
     x: { A: 'Betabloqueador e volume pioram a congestão na fase aguda.', C: 'A hidralazina aumenta o trabalho cardíaco por taquicardia reflexa e não reduz a pré-carga.', D: 'O paciente está hipertenso e congesto, sem choque que justifique inotrópico ou volume.' },
@@ -93,7 +93,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome coronariana aguda',
     e: 'Homem de 59 anos apresenta dor precordial em aperto há 40 minutos, pressão de 204 x 118 mmHg e infradesnivelamento de ST de V3 a V6. Qual o anti-hipertensivo parenteral de escolha?',
-    o: ['Hidralazina', 'Nitroglicerina, associada a betabloqueador se não houver contraindicação', 'Nitroprussiato de sódio como primeira opção', 'Nifedipino de ação curta'],
+    o: ['Hidralazina, que causa taquicardia reflexa e piora a isquemia', 'Nitroglicerina, associada a betabloqueador se não houver contraindicação', 'Nitroprussiato de sódio como primeira opção, por roubo coronariano', 'Nifedipino de ação curta, que piora a isquemia miocárdica'],
     g: 'B',
     c: 'A nitroglicerina é venodilatadora e dilata as coronárias epicárdicas, reduzindo pré-carga e consumo de oxigênio; o betabloqueador reduz frequência e contratilidade. O nitroprussiato pode provocar roubo de fluxo coronariano, ao dilatar vasos de resistência em áreas não isquêmicas.',
     x: { A: 'A hidralazina causa taquicardia reflexa e aumenta o consumo miocárdico de oxigênio.', C: 'O nitroprussiato pode desviar fluxo da área isquêmica e piorar a isquemia.', D: 'O nifedipino de ação curta causa hipotensão brusca e ativação simpática reflexa.' },
@@ -101,7 +101,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Acidente vascular cerebral',
     e: 'Mulher de 74 anos apresenta hemiparesia direita e afasia há 9 horas. A tomografia não mostra sangramento, e ela não é candidata a trombólise ou trombectomia. Pressão de 194 x 104 mmHg, sem outras lesões agudas de órgão-alvo. Qual a conduta em relação à pressão?',
-    o: ['Reduzir imediatamente para menos de 140 x 90 mmHg', 'Não tratar agudamente; anti-hipertensivo apenas se a pressão ultrapassar 220 x 120 mmHg, com redução de cerca de 15% nas primeiras 24 horas', 'Nitroprussiato para manter a sistólica entre 100 e 120 mmHg', 'Nifedipino sublingual'],
+    o: ['Reduzir de imediato para menos de 140 x 90 mmHg, com anti-hipertensivo venoso', 'Não tratar agudamente; só se PA > 220 x 120, reduzindo ~15% em 24 h', 'Nitroprussiato para manter a sistólica entre 100 e 120 mmHg, em UTI', 'Nifedipino sublingual, de ação rápida, para reduzir a pressão em minutos'],
     g: 'B',
     c: 'Na área de penumbra a autorregulação está perdida e o fluxo depende diretamente da pressão sistêmica; a hipertensão é, em parte, uma resposta compensatória. Reduzir a pressão pode ampliar o infarto, por isso se tolera hipertensão permissiva até 220 x 120 mmHg em quem não receberá reperfusão.',
     x: { A: 'A redução agressiva diminui o fluxo na penumbra e amplia a área de infarto.', C: 'Essa é a meta da dissecção de aorta, não do acidente vascular isquêmico.', D: 'A queda imprevisível da pressão é especialmente deletéria no evento isquêmico cerebral.' },
@@ -109,7 +109,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Acidente vascular cerebral',
     e: 'Homem de 66 anos, com hemiplegia esquerda há 2 horas e tomografia sem hemorragia, é candidato a trombólise venosa com alteplase. Pressão de 198 x 112 mmHg. Quais são os limites pressóricos exigidos?',
-    o: ['Não é necessário controlar a pressão antes da trombólise', 'Reduzir para menos de 185 x 110 mmHg antes de iniciar o trombolítico e manter abaixo de 180 x 105 mmHg nas 24 horas seguintes', 'Reduzir para menos de 120 x 80 mmHg antes da trombólise', 'A trombólise está definitivamente contraindicada por esse valor de pressão'],
+    o: ['Não é necessário controlar a pressão antes da trombólise', 'Reduzir para < 185 x 110 antes do trombolítico e manter < 180 x 105 nas 24 h', 'Reduzir para menos de 120 x 80 mmHg antes da trombólise', 'A trombólise está definitivamente contraindicada por esse valor'],
     g: 'B',
     c: 'Pressão muito elevada durante e após a trombólise aumenta o risco de transformação hemorrágica do infarto. Usam-se fármacos venosos tituláveis, como labetalol, nicardipino ou, na sua falta, nitroprussiato; se a pressão não puder ser controlada, o trombolítico não é administrado.',
     x: { A: 'Pressão a partir de 185 x 110 mmHg contraindica a trombólise até ser controlada.', C: 'Redução tão intensa compromete a perfusão da penumbra isquêmica.', D: 'A contraindicação é relativa; controlada a pressão, pode-se trombolisar.' },
@@ -117,7 +117,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Acidente vascular cerebral',
     e: 'Homem de 63 anos apresenta cefaleia súbita, vômitos e hemiparesia direita. A tomografia mostra hematoma em putâmen esquerdo. Pressão de 204 x 110 mmHg. Qual a conduta em relação à pressão arterial?',
-    o: ['Manter hipertensão permissiva até 220 x 120 mmHg', 'Reduzir a pressão sistólica de forma precoce e controlada para cerca de 140 mmHg, com fármaco venoso titulável', 'Reduzir a sistólica para menos de 100 mmHg em 15 minutos', 'Usar apenas manitol, sem anti-hipertensivo'],
+    o: ['Manter hipertensão permissiva até 220 x 120 mmHg, como no AVC isquêmico', 'Reduzir a PAS de forma precoce e controlada para ~140 mmHg, com fármaco venoso', 'Reduzir a sistólica para menos de 100 mmHg em 15 minutos, com nitroprussiato', 'Usar apenas manitol, sem anti-hipertensivo, para reduzir a pressão intracraniana'],
     g: 'B',
     c: 'Na hemorragia intraparenquimatosa a pressão elevada favorece a expansão do hematoma nas primeiras horas. Com sistólica entre 150 e 220 mmHg, a redução para cerca de 140 mmHg é segura e pode melhorar o desfecho funcional. Há divergência nos alvos exatos: os estudos INTERACT2 e ATACH-2 sustentam faixa de 130 a 150 mmHg, evitando valores abaixo de 130.',
     x: { A: 'A hipertensão permissiva é conduta do acidente vascular isquêmico sem reperfusão.', C: 'Queda brusca e excessiva associa-se a lesão renal e hipoperfusão cerebral.', D: 'O manitol trata hipertensão intracraniana e não substitui o controle pressórico.' },
@@ -133,7 +133,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Pré-eclâmpsia grave',
     e: 'Gestante de 33 semanas, com pré-eclâmpsia, apresenta pressão de 172 x 116 mmHg mantida por 20 minutos e cefaleia. Já recebe sulfato de magnésio. Qual o anti-hipertensivo indicado para o controle agudo?',
-    o: ['Captopril oral', 'Hidralazina venosa ou nifedipino oral de liberação imediata', 'Nitroprussiato de sódio como primeira escolha', 'Furosemida venosa'],
+    o: ['Captopril oral, que é contraindicado na gestação', 'Hidralazina venosa ou nifedipino oral de liberação imediata', 'Nitroprussiato de sódio como primeira escolha, na gestação', 'Furosemida venosa, que reduz o volume placentário'],
     g: 'B',
     c: 'Pressão a partir de 160 x 110 mmHg na gestação exige tratamento em até 30 a 60 minutos para prevenir hemorragia cerebral materna, mantendo a diastólica entre 90 e 100 mmHg para não reduzir o fluxo uteroplacentário. Hidralazina, nifedipino oral e labetalol são as opções; o nitroprussiato é exceção, pelo risco de toxicidade fetal por cianeto.',
     x: { A: 'Os inibidores da enzima conversora são contraindicados na gestação por fetotoxicidade.', C: 'O nitroprussiato só se usa em casos refratários e por curto período.', D: 'O volume intravascular está contraído; o diurético reduz a perfusão placentária.' },
@@ -141,7 +141,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Sulfato de magnésio',
     e: 'Puérpera em uso de sulfato de magnésio por eclâmpsia, com diurese de 15 mL por hora, evolui com abolição do reflexo patelar, sonolência e frequência respiratória de 9 irpm. Qual a conduta imediata?',
-    o: ['Aumentar a velocidade de infusão do sulfato de magnésio', 'Suspender a infusão e administrar gluconato de cálcio venoso', 'Administrar flumazenil', 'Administrar naloxona'],
+    o: ['Aumentar a velocidade de infusão do sulfato de magnésio', 'Suspender a infusão e dar gluconato de cálcio venoso', 'Administrar flumazenil, que é antídoto dos benzodiazepínicos', 'Administrar naloxona, que é antídoto dos opioides'],
     g: 'B',
     c: 'O magnésio é excretado pelos rins e se acumula na oligúria. A toxicidade é progressiva: perda do reflexo patelar, depressão respiratória e, por fim, parada cardíaca. O cálcio antagoniza o magnésio na junção neuromuscular; por isso reflexo patelar, frequência respiratória e diurese devem ser monitorados durante a infusão.',
     x: { A: 'O quadro é de intoxicação pelo magnésio; aumentar a dose seria fatal.', C: 'O flumazenil é antagonista de benzodiazepínicos.', D: 'A naloxona é antagonista de opioides e não reverte a ação do magnésio.' },
@@ -149,7 +149,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Fármacos parenterais',
     e: 'Homem de 64 anos, com doença renal crônica, recebe nitroprussiato de sódio em dose alta há 4 dias por emergência hipertensiva. Evolui com confusão mental, acidose metabólica com lactato elevado e saturação venosa de oxigênio aumentada. A complicação é:',
-    o: ['Metemoglobinemia por nitroglicerina', 'Intoxicação por cianeto e tiocianato, metabólitos do nitroprussiato', 'Acidose tubular renal', 'Cetoacidose alcoólica'],
+    o: ['Metemoglobinemia por nitroglicerina, com cianose e saturação baixa', 'Intoxicação por cianeto e tiocianato, metabólitos do nitroprussiato', 'Acidose tubular renal, por lesão tubular distal e proximal', 'Cetoacidose alcoólica, por jejum prolongado e etilismo associado'],
     g: 'B',
     c: 'O nitroprussiato libera cianeto, que bloqueia a citocromo oxidase mitocondrial e impede o uso celular de oxigênio, gerando acidose lática com saturação venosa alta. O cianeto é convertido no fígado em tiocianato, excretado pelos rins; doses altas, uso prolongado e disfunção renal ou hepática aumentam o risco. Trata-se com suspensão do fármaco, hidroxocobalamina e tiossulfato.',
     x: { A: 'O paciente não usa nitroglicerina, e a metemoglobinemia causa cianose com saturação baixa.', C: 'A acidose tubular cursa com ânion gap normal, sem lactato elevado.', D: 'Não há história de etilismo nem cetose que sustentem essa hipótese.' },
@@ -165,7 +165,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Crise adrenérgica',
     e: 'Homem de 26 anos é trazido após uso de cocaína, com agitação, dor torácica, midríase, frequência de 128 bpm e pressão de 210 x 124 mmHg. Qual a abordagem inicial e qual fármaco deve ser evitado?',
-    o: ['Propranolol venoso; evitar benzodiazepínicos', 'Benzodiazepínico venoso, associando nitroglicerina ou fentolamina se necessário; evitar betabloqueador isolado', 'Haloperidol e contenção mecânica; evitar nitratos', 'Hidralazina; evitar fentolamina'],
+    o: ['Propranolol venoso; evitar benzodiazepínicos na intoxicação por cocaína', 'Benzodiazepínico venoso, ± nitroglicerina ou fentolamina; evitar betabloqueador isolado', 'Haloperidol e contenção mecânica; evitar nitratos na intoxicação por cocaína', 'Hidralazina venosa; evitar fentolamina na intoxicação por cocaína'],
     g: 'B',
     c: 'A cocaína bloqueia a recaptação de catecolaminas, com estímulo alfa e beta. Os benzodiazepínicos reduzem a descarga simpática central e controlam pressão, frequência e agitação. O betabloqueador isolado deixa o estímulo alfa sem oposição e pode agravar a vasoconstrição coronariana e a hipertensão.',
     x: { A: 'O betabloqueio não seletivo isolado pode piorar a hipertensão e o vasoespasmo coronariano.', C: 'O haloperidol reduz o limiar convulsivo e piora a hipertermia; nitratos podem ser usados.', D: 'A hidralazina agrava a taquicardia, e a fentolamina é opção adequada.' },
@@ -173,7 +173,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Crise adrenérgica',
     e: 'Mulher de 62 anos, que usava clonidina em dose alta e interrompeu o fármaco abruptamente há 2 dias por falta de medicação, apresenta cefaleia, tremores, sudorese, taquicardia e pressão de 214 x 122 mmHg. Qual o mecanismo e o tratamento mais específico?',
-    o: ['Hipervolemia; furosemida venosa', 'Hiperatividade simpática de rebote por perda do estímulo alfa-2 central; reintroduzir a clonidina', 'Tireotoxicose; propiltiouracil', 'Excesso de aldosterona; espironolactona'],
+    o: ['Hipervolemia por retenção de sódio e água; furosemida venosa em dose alta', 'Hiperatividade simpática de rebote (perda do estímulo alfa-2 central); reintroduzir clonidina', 'Tireotoxicose associada à retirada do fármaco; propiltiouracil em dose alta oral', 'Excesso de aldosterona associado à retirada do fármaco; espironolactona em dose alta'],
     g: 'B',
     c: 'A clonidina estimula receptores alfa-2 centrais e reduz o tônus simpático. A suspensão súbita, sobretudo de doses altas, provoca descarga adrenérgica com hipertensão de rebote em 24 a 72 horas. O tratamento é a reintrodução do fármaco, com retirada gradual posterior; o uso concomitante de betabloqueador agrava o rebote.',
     x: { A: 'O quadro é de descarga simpática, não de sobrecarga de volume.', C: 'A relação temporal com a suspensão da clonidina explica o quadro adrenérgico.', D: 'A aldosterona não produz taquicardia, tremor e sudorese de início agudo.' },
@@ -181,7 +181,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão maligna',
     e: 'Homem de 39 anos apresenta cefaleia, turvação visual e perda de peso. Pressão de 230 x 140 mmHg. O fundo de olho mostra hemorragias em chama de vela, exsudatos algodonosos e papiledema. Creatinina de 3,4 mg/dL, hematúria, proteinúria, anemia com esquizócitos e plaquetopenia. O diagnóstico é:',
-    o: ['Urgência hipertensiva', 'Hipertensão maligna (acelerada), com nefroesclerose maligna e microangiopatia trombótica', 'Púrpura trombocitopênica trombótica primária, sem relação com a pressão', 'Síndrome nefrótica por lesão mínima'],
+    o: ['Urgência hipertensiva, sem lesão aguda de órgão-alvo, e com bom prognóstico', 'Hipertensão maligna (acelerada): nefroesclerose maligna e microangiopatia trombótica', 'PTT primária, sem relação com a pressão arterial elevada do paciente', 'Síndrome nefrótica por lesão mínima, sem hipertensão grave associada'],
     g: 'B',
     c: 'A hipertensão maligna é uma emergência definida por pressão muito elevada com retinopatia grau III ou IV, em geral com lesão renal e cerebral. A lesão endotelial leva a necrose fibrinoide de arteríolas e proliferação miointimal em casca de cebola, com hemólise microangiopática e isquemia renal, que ativa a renina e perpetua o processo.',
     x: { A: 'Há lesão aguda de órgãos-alvo, o que caracteriza emergência, e não urgência.', C: 'A microangiopatia é secundária à hipertensão grave e melhora com o controle pressórico.', D: 'A lesão mínima cursa com proteinúria nefrótica pura, sem hipertensão grave ou hemólise.' },
@@ -189,7 +189,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Complicações do tratamento',
     e: 'Mulher de 71 anos, hipertensa crônica, é atendida com pressão de 230 x 130 mmHg e recebe doses repetidas de anti-hipertensivos. Em 40 minutos a pressão cai para 110 x 60 mmHg, e ela evolui com hemiparesia e oligúria. A explicação é:',
-    o: ['Reação alérgica aos fármacos administrados', 'Hipoperfusão cerebral e renal, pois a redução ultrapassou o limite inferior da autorregulação, que está deslocado para pressões mais altas no hipertenso crônico', 'Hemorragia intracraniana causada pela vasodilatação', 'Intoxicação por cianeto'],
+    o: ['Reação alérgica grave aos fármacos administrados, com anafilaxia e broncoespasmo', 'Hipoperfusão cerebral e renal: queda abaixo do limite da autorregulação (deslocado na HAS crônica)', 'Hemorragia intracraniana causada pela vasodilatação excessiva e rápida', 'Intoxicação por cianeto, pelo uso prolongado do nitroprussiato em dose alta'],
     g: 'B',
     c: 'O fluxo sanguíneo de cérebro, rim e coração é mantido constante dentro de uma faixa de pressão. Na hipertensão crônica o remodelamento arteriolar desloca essa faixa para a direita, de modo que pressões consideradas normais ficam abaixo do limite inferior e provocam isquemia, sobretudo em idosos com aterosclerose.',
     x: { A: 'Não há urticária, broncoespasmo ou outros sinais de anafilaxia.', C: 'A queda de pressão não favorece sangramento; o mecanismo é isquêmico.', D: 'Não houve uso prolongado de nitroprussiato, e o quadro é hemodinâmico.' },
@@ -197,7 +197,7 @@ export const HAS_4: QuestaoCompacta[] = [
   {
     s: 'Fármacos parenterais',
     e: 'Qual característica farmacológica torna o esmolol especialmente útil em emergências como a dissecção de aorta e no período perioperatório?',
-    o: ['É um vasodilatador arterial direto de longa duração', 'É um betabloqueador beta-1 seletivo de ação ultracurta, metabolizado por esterases eritrocitárias, o que permite titulação rápida e reversão em minutos', 'É um bloqueador alfa e beta de eliminação renal', 'É um agonista alfa-2 central de uso venoso'],
+    o: ['Vasodilatador arterial direto de longa duração, de eliminação hepática lenta', 'Betabloqueador beta-1 de ação ultracurta (esterases eritrocitárias): titulação e reversão em minutos', 'Bloqueador alfa e beta de eliminação renal, de ação prolongada, por via venosa', 'Agonista alfa-2 central de uso venoso, de ação prolongada, por via venosa'],
     g: 'B',
     c: 'A meia-vida de cerca de 9 minutos do esmolol permite ajustar a dose conforme a resposta e interromper o efeito rapidamente se houver bradicardia, broncoespasmo ou hipotensão. O metabolismo independe das funções renal e hepática. Reduz frequência e contratilidade, sem efeito vasodilatador direto.',
     x: { A: 'Essa descrição se aproxima da hidralazina, e não de um betabloqueador.', C: 'Bloqueio alfa e beta combinado é propriedade do labetalol, de metabolismo hepático.', D: 'Agonista alfa-2 central é a clonidina, sem apresentação venosa de uso corrente no Brasil.' },

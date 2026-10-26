@@ -21,7 +21,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Colaterais portossistêmicas',
     e: 'As varizes esofágicas da hipertensão portal resultam principalmente da inversão do fluxo em qual veia, que passa a drenar para o sistema ázigos?',
-    o: ['Veia gastro-omental direita', 'Veia gástrica esquerda (coronária)', 'Veia retal superior', 'Veia paraumbilical'],
+    o: ['Veia gastro-omental direita, que drena o estômago', 'Veia gástrica esquerda (coronária)', 'Veia retal superior, que drena o reto', 'Veia paraumbilical, que drena a parede abdominal'],
     g: 'B',
     c: 'A veia gástrica esquerda, também chamada de coronária, é tributária da porta e se comunica com as veias esofágicas, que drenam para o sistema ázigos. Com a hipertensão portal o fluxo torna-se hepatofugal por esse trajeto, dilatando o plexo submucoso do esôfago distal e formando as varizes.',
     x: { A: 'A gastro-omental direita drena a grande curvatura para a mesentérica superior, sem relação direta com as varizes esofágicas.', C: 'A retal superior origina as varizes anorretais ao se comunicar com as retais média e inferior.', D: 'As veias paraumbilicais originam a circulação colateral periumbilical, não as varizes esofágicas.' },
@@ -29,7 +29,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Colaterais portossistêmicas',
     e: 'Homem de 52 anos, etilista, apresenta ascite e veias dilatadas e tortuosas irradiando-se a partir da cicatriz umbilical. Esse achado decorre da comunicação entre o ramo esquerdo da veia porta e as veias epigástricas por meio de qual estrutura?',
-    o: ['Veias de Retzius', 'Veias paraumbilicais (recanalização da veia umbilical)', 'Veias gástricas curtas', 'Veia ázigos'],
+    o: ['Veias de Retzius, que são retroperitoneais', 'Veias paraumbilicais (recanalização da veia umbilical)', 'Veias gástricas curtas, que drenam o fundo gástrico', 'Veia ázigos, que drena a parede torácica'],
     g: 'B',
     c: 'A circulação colateral em cabeça de medusa surge quando a veia umbilical, no ligamento redondo, se recanaliza ou as veias paraumbilicais se dilatam, ligando o ramo esquerdo da porta às veias epigástricas da parede abdominal. Quando há sopro venoso audível sobre essas colaterais, fala-se em síndrome de Cruveilhier-Baumgarten.',
     x: { A: 'As veias de Retzius são colaterais retroperitoneais entre veias cólicas e lombares, sem expressão na parede abdominal.', C: 'As gástricas curtas ligam o baço ao fundo gástrico e se relacionam com varizes de fundo.', D: 'A veia ázigos recebe o fluxo das varizes esofágicas, não das colaterais periumbilicais.' },
@@ -37,7 +37,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Colaterais portossistêmicas',
     e: 'As varizes anorretais da hipertensão portal formam-se pela anastomose entre:',
-    o: ['Veia retal inferior e veia ilíaca externa', 'Veia retal superior (sistema porta) e veias retais média e inferior (sistema cava)', 'Veia mesentérica superior e veia pudenda interna', 'Veia retal média e veia gonadal esquerda'],
+    o: ['Veia retal inferior e veia ilíaca externa, ambas do sistema cava', 'Veia retal superior (porta) com as veias retais média e inferior (cava)', 'Veia mesentérica superior e veia pudenda interna, em anastomose', 'Veia retal média e veia gonadal esquerda, em anastomose'],
     g: 'B',
     c: 'A veia retal superior é tributária da mesentérica inferior e, portanto, do sistema porta, enquanto as retais média e inferior drenam para as ilíacas internas, do sistema cava. A hipertensão portal dilata essa anastomose, formando varizes anorretais, que são entidade distinta da doença hemorroidária.',
     x: { A: 'A retal inferior drena para a pudenda interna e a ilíaca interna, e ambas são do sistema cava.', C: 'A mesentérica superior não drena o reto, cuja drenagem portal se faz pela mesentérica inferior.', D: 'Retal média e gonadal são ambas sistêmicas, de modo que não constituem anastomose portossistêmica.' },
@@ -45,7 +45,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia',
     e: 'Na cirrose, a hipertensão portal é explicada pela combinação de dois mecanismos principais. Assinale a alternativa que os descreve corretamente.',
-    o: ['Redução da resistência intra-hepática e redução do fluxo esplâncnico', 'Aumento da resistência intra-hepática e aumento do fluxo portal por vasodilatação esplâncnica', 'Aumento da resistência intra-hepática e vasoconstrição esplâncnica', 'Obstrução da veia cava inferior e aumento do débito cardíaco'],
+    o: ['Redução da resistência intra-hepática e do fluxo esplâncnico', 'Aumento da resistência intra-hepática e do fluxo portal por vasodilatação esplâncnica', 'Aumento da resistência intra-hepática com vasoconstrição esplâncnica', 'Obstrução da veia cava inferior com aumento do débito cardíaco'],
     g: 'B',
     c: 'A pressão é o produto de resistência por fluxo. Na cirrose a resistência intra-hepática sobe por um componente estrutural (fibrose e nódulos) e um dinâmico (contração das células estreladas por falta de óxido nítrico intra-hepático), e o fluxo portal aumenta porque há vasodilatação arterial esplâncnica, mediada por excesso de óxido nítrico nesse território, o que perpetua a hipertensão.',
     x: { A: 'Tanto a resistência quanto o fluxo estão aumentados na cirrose, e não reduzidos.', C: 'O leito esplâncnico está vasodilatado, o que aumenta o afluxo de sangue para a porta.', D: 'A obstrução da cava é causa pós-hepática e não o mecanismo da hipertensão portal cirrótica.' },
@@ -77,7 +77,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Avaliação não invasiva',
     e: 'Segundo o consenso de Baveno VII, em paciente com doença hepática crônica avançada compensada, qual combinação de achados não invasivos permite excluir hipertensão portal clinicamente significativa?',
-    o: ['Elastografia hepática de 25 kPa ou mais, independentemente das plaquetas', 'Elastografia hepática de até 15 kPa associada a plaquetas de 150 mil/mm3 ou mais', 'Albumina sérica normal associada a INR normal', 'Ausência de esplenomegalia ao exame físico'],
+    o: ['Elastografia hepática ≥ 25 kPa, independentemente das plaquetas', 'Elastografia ≤ 15 kPa com plaquetas ≥ 150 mil/mm³', 'Albumina sérica normal com INR normal, de forma isolada', 'Ausência de esplenomegalia ao exame físico do paciente'],
     g: 'B',
     c: 'Baveno VII valoriza a elastografia transitória combinada à contagem de plaquetas: rigidez de até 15 kPa com plaquetas de 150 mil ou mais torna improvável a hipertensão portal clinicamente significativa. No outro extremo, rigidez de 25 kPa ou mais é suficiente para confirmá-la na maioria das etiologias.',
     x: { A: 'Rigidez de 25 kPa ou mais confirma, e não exclui, hipertensão portal clinicamente significativa.', C: 'Função de síntese preservada não afasta hipertensão portal, que pode existir na fase compensada.', D: 'O exame físico tem baixa sensibilidade e não serve como critério de exclusão.' },
@@ -85,7 +85,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Classificação',
     e: 'Quanto ao local de aumento da resistência ao fluxo portal, a cirrose hepática é classificada como causa de hipertensão portal:',
-    o: ['Pré-hepática', 'Intra-hepática sinusoidal', 'Intra-hepática pré-sinusoidal', 'Pós-hepática'],
+    o: ['Pré-hepática, como na trombose da veia porta', 'Intra-hepática sinusoidal', 'Intra-hepática pré-sinusoidal, como na esquistossomose', 'Pós-hepática, como na síndrome de Budd-Chiari'],
     g: 'B',
     c: 'Na cirrose a fibrose no espaço de Disse, a capilarização dos sinusoides e a compressão pelos nódulos de regeneração elevam a resistência no nível sinusoidal. Por isso o gradiente de pressão venosa hepática está elevado e a ascite é frequente, já que o sinusoide hipertenso extravasa linfa pela cápsula hepática.',
     x: { A: 'Causas pré-hepáticas são as que obstruem a porta ou a esplênica antes do fígado, como a trombose de veia porta.', C: 'O exemplo clássico de causa pré-sinusoidal é a esquistossomose hepatoesplênica.', D: 'Causas pós-hepáticas situam-se nas veias hepáticas maiores, na cava ou no coração.' },
@@ -93,7 +93,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Classificação',
     e: 'Paciente submetido a transplante de células-tronco hematopoéticas evolui, três semanas após o condicionamento, com hepatomegalia dolorosa, ganho de peso, ascite e icterícia. A principal hipótese e sua classificação quanto à hipertensão portal são:',
-    o: ['Trombose de veia porta, pré-hepática', 'Síndrome de obstrução sinusoidal (doença veno-oclusiva), intra-hepática pós-sinusoidal', 'Fibrose hepática congênita, intra-hepática pré-sinusoidal', 'Pericardite constritiva, pós-hepática'],
+    o: ['Trombose de veia porta, de localização pré-hepática', 'Síndrome de obstrução sinusoidal (doença veno-oclusiva), pós-sinusoidal', 'Fibrose hepática congênita, de localização pré-sinusoidal', 'Pericardite constritiva, de localização pós-hepática'],
     g: 'B',
     c: 'A quimioterapia de condicionamento lesa o endotélio dos sinusoides e das vênulas hepáticas terminais, que se obstruem. O bloqueio fica depois do sinusoide, ainda dentro do fígado, gerando congestão hepática dolorosa, retenção hídrica e icterícia, tríade típica da síndrome de obstrução sinusoidal.',
     x: { A: 'A trombose de porta não causa hepatomegalia dolorosa e raramente produz ascite importante.', C: 'A fibrose hepática congênita é doença da infância, sem relação com o condicionamento do transplante.', D: 'Não há achados de constrição pericárdica, e o contexto do transplante aponta para lesão sinusoidal.' },
@@ -133,7 +133,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Trombose de veia porta',
     e: 'A expressão transformação cavernomatosa da veia porta refere-se a:',
-    o: ['Dilatação aneurismática do tronco portal por hiperfluxo', 'Rede de colaterais venosas periportais que se forma após trombose crônica da veia porta', 'Invasão tumoral da veia porta por carcinoma hepatocelular', 'Recanalização da veia umbilical no ligamento redondo'],
+    o: ['Dilatação aneurismática do tronco portal por hiperfluxo', 'Rede de colaterais periportais formada após trombose crônica da veia porta', 'Invasão tumoral da veia porta por carcinoma hepatocelular', 'Recanalização da veia umbilical no ligamento redondo do fígado'],
     g: 'B',
     c: 'Quando a veia porta trombosada não se recanaliza, desenvolvem-se em semanas a meses múltiplos vasos colaterais tortuosos ao redor do hilo hepático, que tentam levar o sangue esplâncnico ao fígado. Esse cavernoma indica trombose crônica e pode comprimir a via biliar, causando a chamada biliopatia portal.',
     x: { A: 'O cavernoma é uma rede de colaterais, e não a dilatação do próprio tronco portal.', C: 'A invasão tumoral produz trombo com realce arterial, entidade diferente do cavernoma.', D: 'A recanalização umbilical é colateral portossistêmica da hipertensão portal, não o cavernoma.' },
@@ -149,7 +149,7 @@ export const HIP_PORTAL_1: QuestaoCompacta[] = [
   {
     s: 'Trombose de veia porta',
     e: 'Em adulto sem cirrose e sem neoplasia abdominal que apresenta trombose de veia porta ou de veias hepáticas, a investigação etiológica deve obrigatoriamente incluir a pesquisa de:',
-    o: ['Anticorpo antimitocôndria', 'Mutação JAK2 V617F, para neoplasia mieloproliferativa', 'Alfa-1-antitripsina sérica', 'Ceruloplasmina e cobre urinário'],
+    o: ['Anticorpo antimitocôndria, para colangite biliar primária', 'Mutação JAK2 V617F, para neoplasia mieloproliferativa', 'Alfa-1-antitripsina sérica, para deficiência de AAT', 'Ceruloplasmina e cobre urinário, para doença de Wilson'],
     g: 'B',
     c: 'As neoplasias mieloproliferativas, sobretudo a policitemia vera, são a causa sistêmica mais frequente de trombose esplâncnica. O hiperesplenismo e a hemodiluição podem mascarar o hemograma, de modo que a mutação JAK2 deve ser pesquisada mesmo com contagens normais.',
     x: { A: 'O antimitocôndria é marcador de colangite biliar primária, sem relação com trombose esplâncnica.', C: 'A deficiência de alfa-1-antitripsina causa hepatopatia e enfisema, não trombose de porta.', D: 'Ceruloplasmina e cobre investigam doença de Wilson, que não é estado pró-trombótico.' },

@@ -21,7 +21,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Infarto x injúria',
     e: 'Mulher de 61 anos, diabética, chega com dor precordial em aperto há 3 horas. Eletrocardiograma com infradesnivelamento de ST de 1 mm em V4 a V6. Troponina I de alta sensibilidade: 30 ng/L na admissão e 190 ng/L após 3 horas (percentil 99: 16 ng/L). O que permite chamar esse quadro de infarto agudo do miocárdio, e não apenas de injúria miocárdica aguda?',
-    o: ['O valor absoluto da troponina ser superior a dez vezes o percentil 99', 'A presença de evidência clínica de isquemia miocárdica aguda associada à curva de troponina', 'A presença de diabetes como fator de risco', 'O fato de a troponina utilizada ser de alta sensibilidade'],
+    o: ['O valor absoluto da troponina superior a dez vezes o percentil 99, isoladamente', 'Evidência clínica de isquemia aguda associada à curva de troponina', 'A presença de diabetes como fator de risco, mesmo sem curva de troponina', 'O uso de troponina de alta sensibilidade, mesmo sem curva ou isquemia'],
     g: 'B',
     c: 'Infarto do miocárdio é injúria miocárdica aguda (troponina com elevação e/ou queda e ao menos um valor acima do percentil 99) em um contexto de isquemia aguda: sintomas isquêmicos, alterações isquêmicas novas no eletrocardiograma, novas ondas Q patológicas, evidência de imagem de perda de miocárdio viável ou trombo coronariano. Sem evidência de isquemia, o diagnóstico é apenas de injúria.',
     x: { A: 'Não existe valor absoluto de troponina que, isoladamente, defina infarto espontâneo.', C: 'Fatores de risco aumentam a probabilidade, mas não são critério diagnóstico.', D: 'O tipo de ensaio não muda o conceito; o que define infarto é a isquemia associada.' },
@@ -29,7 +29,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Percentil 99',
     e: 'O ponto de corte da troponina cardíaca utilizado na definição universal, o percentil 99 do limite superior de referência, é obtido a partir de:',
-    o: ['Uma amostra de pacientes com infarto confirmado por autópsia', 'Uma população de referência de indivíduos saudáveis, sendo específico para cada ensaio', 'Um valor único e universal, igual para todos os fabricantes', 'A média dos valores de pacientes com angina estável'],
+    o: ['Uma amostra de pacientes com infarto confirmado por autópsia em série', 'População de referência saudável, específico para cada ensaio', 'Um valor único e universal, igual para todos os fabricantes de ensaios', 'A média dos valores de pacientes com angina estável em seguimento'],
     g: 'B',
     c: 'O percentil 99 é o valor abaixo do qual estão 99% dos indivíduos de uma população de referência saudável e precisa ser determinado para cada ensaio, pois os métodos não são padronizados entre si. Por isso os valores de um fabricante não podem ser comparados diretamente com os de outro.',
     x: { A: 'O corte deriva de indivíduos saudáveis, não de doentes.', C: 'Cada ensaio tem o seu próprio percentil 99; não há valor universal.', D: 'Pacientes com doença coronariana não compõem a população de referência.' },
@@ -37,7 +37,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Alta sensibilidade',
     e: 'Para que um ensaio de troponina seja classificado como de alta sensibilidade, ele deve:',
-    o: ['Ficar positivo apenas após 6 horas do início dos sintomas', 'Ter imprecisão (coeficiente de variação) de até 10% no percentil 99 e detectar troponina em pelo menos 50% dos indivíduos saudáveis', 'Dosar simultaneamente troponina, CK-MB e mioglobina', 'Apresentar especificidade de 100% para infarto do miocárdio'],
+    o: ['Ficar positivo apenas após 6 horas do início dos sintomas isquêmicos', 'CV ≤ 10% no percentil 99 e detecção em ≥ 50% dos indivíduos saudáveis', 'Dosar simultaneamente troponina, CK-MB e mioglobina no mesmo ensaio', 'Apresentar especificidade de 100% para infarto do miocárdio agudo'],
     g: 'B',
     c: 'Os ensaios de alta sensibilidade medem com precisão concentrações muito baixas: coeficiente de variação igual ou inferior a 10% no percentil 99 e valores mensuráveis, acima do limite de detecção, em ao menos metade dos indivíduos saudáveis. Isso antecipa o diagnóstico, mas aumenta a detecção de injúrias não isquêmicas, reduzindo a especificidade clínica para infarto.',
     x: { A: 'É o contrário: a alta sensibilidade permite detecção mais precoce.', C: 'A definição refere-se ao desempenho analítico da troponina, não a um painel de marcadores.', D: 'A maior sensibilidade vem acompanhada de menor especificidade para infarto.' },
@@ -45,7 +45,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Percentil 99 por sexo',
     e: 'Em relação ao uso de pontos de corte de troponina de alta sensibilidade específicos por sexo, é correto afirmar que:',
-    o: ['Os valores do percentil 99 são mais altos nas mulheres', 'Os valores do percentil 99 são mais baixos nas mulheres, e a definição universal recomenda cortes específicos por sexo nos ensaios de alta sensibilidade', 'Não há diferença entre os sexos em nenhum ensaio', 'Cortes por sexo só se aplicam à CK-MB e nunca à troponina'],
+    o: ['Os valores do percentil 99 são mais altos nas mulheres que nos homens', 'Percentil 99 mais baixo nas mulheres; cortes específicos por sexo', 'Não há diferença entre os sexos em nenhum dos ensaios disponíveis', 'Cortes por sexo só se aplicam à CK-MB e nunca à troponina cardíaca'],
     g: 'B',
     c: 'Com os ensaios de alta sensibilidade, o percentil 99 das mulheres é mais baixo que o dos homens, em parte pela menor massa miocárdica. A Quarta Definição Universal recomenda cortes específicos por sexo para esses ensaios, o que pode reduzir o subdiagnóstico de infarto em mulheres.',
     x: { A: 'Os valores de referência são mais altos nos homens.', C: 'A diferença entre os sexos é bem documentada nos ensaios de alta sensibilidade.', D: 'A CK-MB também tem cortes por sexo, mas a recomendação vale para a troponina de alta sensibilidade.' },
@@ -53,7 +53,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Cinética dos marcadores',
     e: 'Homem de 59 anos refere episódio de dor precordial intensa, com duração de 2 horas, ocorrido há 6 dias, e procura atendimento agora por cansaço. Eletrocardiograma com ondas Q em parede inferior. Qual marcador tem maior chance de ainda estar elevado e confirmar a necrose recente?',
-    o: ['Mioglobina', 'Troponina cardíaca', 'CK-MB', 'CK total'],
+    o: ['Mioglobina sérica', 'Troponina cardíaca', 'CK-MB de massa', 'CK total sérica'],
     g: 'B',
     c: 'A troponina permanece elevada por vários dias após o infarto (em geral 7 a 14 dias), pela liberação prolongada a partir do aparelho contrátil em degradação. A CK-MB volta ao normal em cerca de 48 a 72 horas e a mioglobina em menos de 24 horas, não servindo para diagnóstico tardio.',
     x: { A: 'A mioglobina normaliza em menos de 24 horas e é inespecífica.', C: 'A CK-MB retorna ao normal em 2 a 3 dias.', D: 'A CK total é inespecífica e também normaliza em poucos dias.' },
@@ -61,7 +61,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Dosagem seriada',
     e: 'Homem de 52 anos, tabagista, chega ao pronto-socorro 50 minutos após o início de dor retroesternal em aperto. Eletrocardiograma normal. A primeira troponina de alta sensibilidade está abaixo do percentil 99. A conduta correta é:',
-    o: ['Alta hospitalar, pois troponina de alta sensibilidade normal exclui infarto', 'Manter em observação com eletrocardiogramas e nova dosagem de troponina seriados', 'Indicar fibrinólise imediata', 'Solicitar apenas dosagem de mioglobina, mais precoce que a troponina'],
+    o: ['Alta hospitalar, pois troponina de alta sensibilidade normal exclui infarto', 'Observação com ECG e nova troponina seriados', 'Indicar fibrinólise imediata, pois a dor é típica de infarto', 'Solicitar apenas mioglobina, que é mais precoce que a troponina'],
     g: 'B',
     c: 'Nos pacientes que chegam muito precocemente, a troponina pode ainda não ter se elevado; por isso uma única dosagem normal não exclui infarto. A definição universal exige dosagens seriadas para demonstrar elevação e/ou queda, e os algoritmos rápidos só permitem exclusão com amostra única quando a dor começou há mais de 3 horas.',
     x: { A: 'Com menos de 3 horas de dor, uma única dosagem não exclui infarto.', C: 'Fibrinólise exige supradesnivelamento de ST, ausente no caso.', D: 'A mioglobina é inespecífica e foi suplantada pela troponina de alta sensibilidade.' },
@@ -69,7 +69,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Algoritmo 0/1h',
     e: 'Sobre o algoritmo de 0 e 1 hora com troponina de alta sensibilidade para pacientes com suspeita de infarto sem supradesnivelamento de ST, assinale a correta:',
-    o: ['Utiliza um único ponto de corte, o percentil 99, igual para todos os ensaios', 'Baseia-se no valor inicial e na variação absoluta em 1 hora, com cortes específicos de cada ensaio, separando os pacientes em exclusão, observação e confirmação', 'Dispensa a avaliação clínica e o eletrocardiograma', 'Só pode ser aplicado com troponina convencional'],
+    o: ['Utiliza um único ponto de corte, o percentil 99, igual para todos os ensaios', 'Valor inicial e variação absoluta em 1 h, com cortes por ensaio', 'Dispensa a avaliação clínica e o eletrocardiograma na decisão', 'Só pode ser aplicado com troponina convencional, não ultrassensível'],
     g: 'B',
     c: 'O algoritmo 0/1h explora o fato de a troponina de alta sensibilidade ser uma variável contínua: valores muito baixos na chegada ou baixos sem variação em 1 hora excluem infarto; valores altos ou com variação absoluta relevante o confirmam; os demais ficam em zona de observação. Os cortes são específicos de cada ensaio e sempre interpretados junto com a clínica e o eletrocardiograma.',
     x: { A: 'Os cortes do algoritmo são específicos por ensaio e diferentes do percentil 99.', C: 'O algoritmo complementa, e não substitui, a clínica e o eletrocardiograma.', D: 'O algoritmo foi validado apenas para ensaios de alta sensibilidade.' },
@@ -77,7 +77,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Zona de observação',
     e: 'Mulher de 70 anos, hipertensa, com dor torácica atípica há 5 horas. Eletrocardiograma sem alterações isquêmicas. As troponinas de alta sensibilidade de 0 e 1 hora não preenchem critérios de exclusão nem de confirmação de infarto (zona de observação). O próximo passo mais adequado é:',
-    o: ['Alta imediata com retorno ambulatorial', 'Repetir a troponina em 3 horas e complementar a avaliação, por exemplo com ecocardiograma', 'Cineangiocoronariografia de emergência em até 2 horas', 'Iniciar fibrinolítico'],
+    o: ['Alta imediata com retorno ambulatorial em uma semana', 'Repetir a troponina em 3 horas e complementar com ecocardiograma', 'Cineangiocoronariografia de emergência em até 2 horas do contato', 'Iniciar fibrinolítico imediatamente, antes de nova troponina'],
     g: 'B',
     c: 'Os pacientes da zona de observação formam um grupo heterogêneo, com mortalidade não desprezível, e precisam de uma terceira dosagem de troponina (em 3 horas) e de investigação adicional, como ecocardiograma, para definir se há infarto ou outra causa de injúria. A decisão por exames invasivos ou não invasivos depende dessa reavaliação.',
     x: { A: 'A zona de observação não permite exclusão segura de infarto.', C: 'Estratégia invasiva imediata é reservada a pacientes de muito alto risco, como instabilidade hemodinâmica ou dor refratária.', D: 'Fibrinólise só tem indicação no infarto com supradesnivelamento de ST.' },
@@ -93,7 +93,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Doença renal crônica',
     e: 'A respeito da troponina no paciente com doença renal crônica, assinale a alternativa correta:',
-    o: ['A elevação deve ser desconsiderada, pois decorre apenas da menor depuração renal', 'A elevação crônica é mais frequente com a troponina T do que com a troponina I, e o diagnóstico de infarto exige demonstração de variação nas dosagens seriadas', 'A troponina não pode ser usada para diagnosticar infarto nesses pacientes', 'O marcador de escolha passa a ser a CK-MB'],
+    o: ['A elevação deve ser desconsiderada, pois decorre só da menor depuração renal', 'Elevação crônica mais comum com a troponina T; infarto exige variação seriada', 'A troponina não pode ser usada para diagnosticar infarto nesses pacientes renais', 'O marcador de escolha passa a ser a CK-MB, e não mais a troponina cardíaca'],
     g: 'B',
     c: 'Na doença renal crônica a troponina está frequentemente elevada, sobretudo a T de alta sensibilidade, e isso reflete principalmente injúria miocárdica real (hipertrofia, doença coronariana, toxicidade urêmica), não só redução da depuração. O infarto é diagnosticado da mesma forma: curva de elevação e/ou queda associada a evidência de isquemia.',
     x: { A: 'A elevação reflete lesão miocárdica real e tem valor prognóstico.', C: 'A troponina continua sendo o marcador de escolha, desde que interpretada de forma seriada.', D: 'A CK-MB não é superior e também pode estar elevada no renal crônico.' },
@@ -101,7 +101,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Sepse',
     e: 'Mulher de 74 anos, internada em terapia intensiva por choque séptico de foco urinário, em uso de noradrenalina, sem dor torácica. Troponina I de alta sensibilidade: 60 ng/L e 140 ng/L após 6 horas (percentil 99: 16 ng/L). Eletrocardiograma com taquicardia sinusal, sem alterações de ST ou onda T; ecocardiograma com hipocinesia difusa leve, sem alteração segmentar. A classificação mais adequada é:',
-    o: ['Infarto do miocárdio tipo 1', 'Injúria miocárdica aguda não isquêmica', 'Infarto do miocárdio tipo 3', 'Injúria miocárdica crônica'],
+    o: ['Infarto do miocárdio tipo 1 por ruptura de placa', 'Injúria miocárdica aguda não isquêmica', 'Infarto do miocárdio tipo 3 com morte súbita', 'Injúria miocárdica crônica de causa estrutural'],
     g: 'B',
     c: 'Há curva de troponina (injúria aguda), mas nenhuma evidência de isquemia: sem sintomas, sem alteração isquêmica no eletrocardiograma e sem alteração segmentar nova. Na sepse, a lesão decorre de citocinas, catecolaminas e disfunção microvascular e mitocondrial; o tratamento é o da doença de base, e a elevação marca pior prognóstico.',
     x: { A: 'Não há evidência de isquemia nem de evento aterotrombótico.', C: 'O tipo 3 refere-se a morte cardíaca súbita antes da dosagem ou elevação dos marcadores.', D: 'Houve variação superior a 20% entre as dosagens, o que caracteriza processo agudo.' },
@@ -117,7 +117,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Insuficiência cardíaca',
     e: 'Homem de 66 anos, com miocardiopatia dilatada e fração de ejeção de 25%, interna por edema agudo de pulmão após abandonar os diuréticos. Não tem dor torácica, e o eletrocardiograma é semelhante aos anteriores. Troponina T de alta sensibilidade: 40 ng/L e 62 ng/L após 3 horas (percentil 99: 14 ng/L). Coronariografia de 6 meses atrás sem lesões. A interpretação correta é:',
-    o: ['Infarto sem supradesnivelamento de ST, com indicação de dupla antiagregação', 'Injúria miocárdica aguda relacionada à descompensação da insuficiência cardíaca', 'Infarto do miocárdio tipo 4a', 'Troponina sem qualquer significado nesse cenário'],
+    o: ['Infarto sem supradesnivelamento de ST, com indicação de dupla antiagregação', 'Injúria miocárdica aguda por descompensação da insuficiência cardíaca', 'Infarto do miocárdio tipo 4a, relacionado a procedimento coronariano', 'Troponina sem qualquer significado nesse cenário clínico de miocardiopatia'],
     g: 'B',
     c: 'Na insuficiência cardíaca descompensada, o estresse parietal elevado, a ativação neuro-hormonal e a hipoperfusão subendocárdica provocam liberação de troponina sem oclusão coronariana. Sem evidência de isquemia aguda, trata-se de injúria miocárdica, que se associa a pior prognóstico e é tratada com o manejo da congestão.',
     x: { A: 'Faltam evidências de isquemia aguda, e as coronárias eram normais recentemente.', C: 'O tipo 4a é relacionado a intervenção coronariana percutânea, que não ocorreu.', D: 'A troponina elevada na insuficiência cardíaca tem importante valor prognóstico.' },
@@ -125,7 +125,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Causas de troponina elevada',
     e: 'Todas as condições abaixo são causas reconhecidas de elevação de troponina cardíaca por injúria miocárdica, EXCETO:',
-    o: ['Quimioterapia com antraciclinas', 'Miocardite viral', 'Doença do refluxo gastroesofágico não complicada', 'Cardioversão elétrica com múltiplos choques'],
+    o: ['Quimioterapia com antraciclinas, por cardiotoxicidade direta', 'Miocardite viral com inflamação do miocárdio', 'Refluxo gastroesofágico não complicado', 'Cardioversão elétrica com múltiplos choques'],
     g: 'C',
     c: 'A injúria miocárdica pode ser causada por agentes cardiotóxicos, inflamação do miocárdio e descargas elétricas, entre muitas outras condições cardíacas e sistêmicas. O refluxo gastroesofágico é um diagnóstico diferencial de dor torácica justamente por cursar com troponina normal.',
     x: { A: 'As antraciclinas causam cardiotoxicidade direta, com elevação de troponina.', B: 'A miocardite causa necrose inflamatória dos miócitos e eleva a troponina.', D: 'Choques elétricos repetidos podem causar lesão miocárdica com liberação de troponina.' },
@@ -133,7 +133,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Injúria neurogênica',
     e: 'Mulher de 49 anos é admitida com cefaleia súbita e rebaixamento do nível de consciência; a tomografia mostra hemorragia subaracnóidea. O eletrocardiograma revela inversão profunda e difusa de onda T com QT prolongado, e a troponina está moderadamente elevada. Ecocardiograma com hipocinesia difusa transitória. A explicação mais provável para os achados cardíacos é:',
-    o: ['Oclusão aguda da artéria descendente anterior', 'Injúria miocárdica mediada por descarga catecolaminérgica de origem neurológica', 'Embolia coronariana a partir do aneurisma cerebral', 'Pericardite aguda'],
+    o: ['Oclusão aguda da artéria descendente anterior por placa instável', 'Injúria miocárdica por descarga catecolaminérgica de origem neurológica', 'Embolia coronariana a partir do aneurisma cerebral roto', 'Pericardite aguda associada a derrame pericárdico volumoso'],
     g: 'B',
     c: 'Lesões neurológicas agudas graves, como a hemorragia subaracnóidea, provocam descarga simpática maciça, com toxicidade catecolaminérgica sobre o miocárdio, alterações de repolarização e disfunção ventricular transitória. A prioridade é o tratamento neurológico; anticoagulação e fibrinólise seriam desastrosas.',
     x: { A: 'O quadro é explicado pela lesão neurológica, e as alterações são difusas, não de um território.', C: 'Aneurisma cerebral não é fonte de êmbolos para as coronárias.', D: 'Pericardite cursa com supradesnivelamento difuso de ST e infra de PR, não com esse padrão.' },
@@ -157,7 +157,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Exercício extenuante',
     e: 'Homem de 38 anos, previamente hígido, realiza exames logo após completar uma maratona, como parte de um estudo. Está assintomático, com eletrocardiograma normal, e a troponina de alta sensibilidade está discretamente acima do percentil 99, normalizando no dia seguinte. A interpretação mais adequada é:',
-    o: ['Infarto do miocárdio tipo 1 silencioso', 'Elevação transitória relacionada ao exercício extenuante, sem evidência de isquemia', 'Miocardite fulminante', 'Infarto do miocárdio tipo 3'],
+    o: ['Infarto do miocárdio tipo 1 silencioso, com placa rota', 'Elevação transitória por exercício extenuante, sem isquemia', 'Miocardite fulminante com necessidade de suporte circulatório', 'Infarto do miocárdio tipo 3 com evolução para morte súbita'],
     g: 'B',
     c: 'O exercício extenuante e prolongado é causa reconhecida de elevação discreta e transitória de troponina, que se normaliza em 24 a 48 horas. Sem sintomas, sem alterações eletrocardiográficas e sem evidência de imagem, não há critério para infarto.',
     x: { A: 'Não há sintomas, alteração de eletrocardiograma ou imagem que indiquem isquemia.', C: 'O paciente está assintomático e a troponina normalizou rapidamente.', D: 'O tipo 3 exige morte cardíaca, o que evidentemente não ocorreu.' },
@@ -173,7 +173,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Interferência analítica',
     e: 'Mulher de 44 anos, assintomática e sem cardiopatia, tem troponina I persistentemente elevada em valores semelhantes em várias dosagens ao longo de semanas. Eletrocardiograma, ecocardiograma e ressonância cardíaca são normais, e a função renal é normal. A hipótese que deve ser levantada e a conduta são:',
-    o: ['Infarto recorrente; indicar cateterismo', 'Interferência analítica (anticorpos heterófilos ou macrotroponina); repetir a dosagem com outro ensaio', 'Miocardite crônica; iniciar corticoide', 'Injúria miocárdica aguda; internar em unidade coronariana'],
+    o: ['Infarto recorrente; indicar cateterismo cardíaco imediato', 'Interferência analítica; repetir a dosagem com outro ensaio', 'Miocardite crônica; iniciar corticoide em dose imunossupressora', 'Injúria miocárdica aguda; internar em unidade coronariana'],
     g: 'B',
     c: 'Um valor elevado, sem curva e sem qualquer correlação clínica ou de imagem, deve levantar a suspeita de falso-positivo analítico, por anticorpos heterófilos, autoanticorpos ou complexos de troponina com imunoglobulina. A repetição em outra plataforma ou com outro ensaio costuma esclarecer a situação.',
     x: { A: 'Não há sintomas, curva de troponina ou qualquer evidência de isquemia.', C: 'A ressonância cardíaca normal torna a miocardite improvável e não há indicação de corticoide.', D: 'Os valores são estáveis ao longo de semanas, sem padrão agudo.' },
@@ -197,7 +197,7 @@ export const INFARTO_1: QuestaoCompacta[] = [
   {
     s: 'Bioquímica da troponina',
     e: 'Por que as troponinas I e T são usadas como marcadores de lesão miocárdica, enquanto a troponina C não é?',
-    o: ['Porque a troponina C não existe no músculo cardíaco', 'Porque as troponinas I e T têm isoformas cardíacas próprias, enquanto a troponina C é idêntica no miocárdio e no músculo esquelético', 'Porque a troponina C é liberada apenas em infartos transmurais', 'Porque a troponina C é eliminada exclusivamente pelos rins'],
+    o: ['A troponina C não existe no músculo cardíaco, só no esquelético', 'Troponinas I e T têm isoformas cardíacas próprias; a C é idêntica no esquelético', 'A troponina C é liberada apenas em infartos transmurais extensos', 'A troponina C é eliminada exclusivamente pelos rins, sendo inútil'],
     g: 'B',
     c: 'O complexo troponina regula a contração do músculo estriado. As subunidades I e T possuem isoformas codificadas por genes específicos do miocárdio, o que permite ensaios cardioespecíficos; já a troponina C do coração é a mesma do músculo esquelético de contração lenta, sem especificidade.',
     x: { A: 'A troponina C faz parte do complexo troponina também no miocárdio.', C: 'A extensão do infarto não é o motivo; o problema é a falta de especificidade.', D: 'A via de eliminação não é a razão da escolha dos marcadores.' },

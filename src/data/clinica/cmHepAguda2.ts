@@ -45,7 +45,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — interpretação sorológica',
     e: 'Mulher de 45 anos, assintomática, tem os seguintes exames: HBsAg não reagente, anti-HBc total reagente, anti-HBc IgM não reagente, anti-HBs reagente. A interpretação correta é:',
-    o: ['Resposta vacinal', 'Infecção pregressa com cura funcional (cicatriz sorológica)', 'Hepatite B aguda', 'Hepatite B crônica HBeAg negativo'],
+    o: ['Resposta vacinal, com anti-HBs isolado reagente', 'Infecção pregressa com cura funcional (cicatriz sorológica)', 'Hepatite B aguda, com anti-HBc IgM reagente', 'Hepatite B crônica HBeAg negativo, com HBsAg reagente'],
     g: 'B',
     c: 'A presença de anti-HBc total indica contato prévio com o vírus, e a soroconversão para anti-HBs com perda do HBsAg indica resolução da infecção e imunidade. O cccDNA pode persistir no fígado, razão pela qual esses pacientes podem reativar a infecção sob imunossupressão intensa, como no uso de rituximabe.',
     x: { A: 'A vacinação gera anti-HBs isolado, sem anti-HBc.', C: 'Na fase aguda o anti-HBc IgM seria reagente.', D: 'A hepatite crônica exige HBsAg reagente por mais de 6 meses.' },
@@ -61,7 +61,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — HBeAg',
     e: 'Em um portador do vírus da hepatite B selvagem, a presença do HBeAg no soro indica:',
-    o: ['Imunidade contra reinfecção', 'Replicação viral ativa e alta infectividade', 'Cura da infecção', 'Infecção pelo vírus delta associada'],
+    o: ['Imunidade contra reinfecção pelo vírus da hepatite B', 'Replicação viral ativa e alta infectividade', 'Cura da infecção pelo vírus da hepatite B', 'Infecção pelo vírus delta associada à hepatite B'],
     g: 'B',
     c: 'O HBeAg é uma proteína secretada derivada da região pré-core/core e é marcador de replicação viral intensa, correlacionando-se com carga viral elevada e maior transmissibilidade, inclusive vertical. A soroconversão para anti-HBe geralmente marca a transição para fase de baixa replicação.',
     x: { A: 'O marcador de imunidade é o anti-HBs, e não o HBeAg.', C: 'A cura funcional é definida pela perda do HBsAg.', D: 'A infecção delta é investigada com anti-HDV e HDV-RNA.' },
@@ -69,7 +69,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — mutante pré-core',
     e: 'Homem de 50 anos, HBsAg reagente há anos, apresenta HBeAg não reagente, anti-HBe reagente, ALT persistentemente elevada (três vezes o limite superior) e HBV-DNA de 800.000 UI/mL. A explicação mais provável é:',
-    o: ['Portador inativo do vírus B', 'Infecção por mutante pré-core, com hepatite crônica HBeAg negativo', 'Fase imunotolerante', 'Infecção curada com falso-positivo de HBsAg'],
+    o: ['Portador inativo do vírus B, com ALT normal e DNA baixo', 'Mutante pré-core: hepatite crônica HBeAg negativo', 'Fase imunotolerante, com HBeAg reagente e DNA alto', 'Infecção curada, com HBsAg falso-positivo no exame'],
     g: 'B',
     c: 'A mutação na região pré-core impede a síntese do HBeAg sem interromper a replicação viral. O resultado é um paciente com anti-HBe reagente, mas com carga viral elevada e atividade inflamatória (ALT alta), configurando hepatite crônica HBeAg negativo, com risco de progressão para cirrose e indicação de tratamento.',
     x: { A: 'No portador inativo a ALT é normal e a carga viral é baixa.', C: 'Na fase imunotolerante o HBeAg é reagente e a ALT é normal.', D: 'Carga viral elevada comprova infecção ativa, afastando falso-positivo.' },
@@ -85,7 +85,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — fases',
     e: 'Jovem de 19 anos, filho de mãe portadora do vírus B, assintomático, apresenta HBsAg reagente, HBeAg reagente, HBV-DNA acima de 100 milhões UI/mL e ALT repetidamente normal. Essa fase da infecção crônica é denominada:',
-    o: ['Portador inativo', 'Imunotolerante (infecção crônica HBeAg positivo)', 'Hepatite crônica HBeAg negativo', 'Janela imunológica'],
+    o: ['Portador inativo, com ALT normal e HBeAg negativo', 'Imunotolerante (infecção crônica HBeAg positivo)', 'Hepatite crônica HBeAg negativo, com ALT elevada', 'Janela imunológica, com HBsAg e anti-HBs negativos'],
     g: 'B',
     c: 'Na fase imunotolerante, típica da infecção adquirida por via vertical, há replicação viral muito intensa, HBeAg reagente e ausência de resposta imune contra os hepatócitos infectados, de modo que a ALT é normal e a histologia mostra mínima inflamação. O paciente é altamente infectante.',
     x: { A: 'No portador inativo o HBeAg é negativo e a carga viral é baixa.', C: 'Na hepatite HBeAg negativo o HBeAg não é reagente e a ALT é elevada.', D: 'A janela imunológica ocorre na infecção aguda e cursa com HBsAg negativo.' },
@@ -93,7 +93,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — manifestações extra-hepáticas',
     e: 'Homem de 44 anos, HBsAg reagente, apresenta febre, emagrecimento, hipertensão arterial de início recente, mononeurite múltipla, dor testicular e livedo reticular. Arteriografia mostra microaneurismas em artérias renais e mesentéricas. ANCA negativo. O diagnóstico é:',
-    o: ['Crioglobulinemia mista', 'Poliarterite nodosa associada ao vírus B', 'Granulomatose com poliangiite', 'Púrpura de Henoch-Schönlein'],
+    o: ['Crioglobulinemia mista, associada ao vírus C', 'Poliarterite nodosa associada ao vírus B', 'Granulomatose com poliangiite, associada ao c-ANCA', 'Púrpura de Henoch-Schönlein, associada à IgA'],
     g: 'B',
     c: 'A poliarterite nodosa é uma vasculite necrosante de artérias de médio calibre, ANCA negativa, que poupa os pulmões e os glomérulos e é classicamente associada à infecção pelo vírus da hepatite B, por deposição de imunocomplexos. Microaneurismas viscerais, mononeurite múltipla, hipertensão renovascular e orquite são achados característicos.',
     x: { A: 'A crioglobulinemia mista associa-se principalmente ao vírus C e acomete pequenos vasos.', C: 'A granulomatose com poliangiite é ANCA positiva e acomete vias aéreas e glomérulos.', D: 'A púrpura de Henoch-Schönlein é vasculite por IgA de pequenos vasos, típica de crianças.' },
@@ -109,7 +109,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — pródromo',
     e: 'Mulher de 26 anos apresenta há uma semana febre baixa, exantema urticariforme e poliartrite simétrica de pequenas articulações. Dias depois os sintomas regridem e surgem colúria e icterícia. O agente mais provavelmente envolvido e o mecanismo do quadro inicial são:',
-    o: ['Vírus da hepatite A; invasão viral direta da sinóvia', 'Vírus da hepatite B; deposição de imunocomplexos (síndrome semelhante à doença do soro)', 'Vírus da hepatite E; reação autoimune por mimetismo molecular', 'Vírus da hepatite C; crioglobulinemia'],
+    o: ['Vírus A; invasão viral direta da sinóvia, com artrite aguda', 'Vírus B; imunocomplexos (síndrome semelhante à doença do soro)', 'Vírus E; reação autoimune por mimetismo molecular, com artrite', 'Vírus C; crioglobulinemia, com vasculite e artralgia crônica'],
     g: 'B',
     c: 'Na fase prodrômica da hepatite B aguda, uma parcela dos pacientes desenvolve quadro semelhante à doença do soro, com febre, urticária e artrite, causado por imunocomplexos de HBsAg e anti-HBs com consumo de complemento. Os sintomas desaparecem com o surgimento da icterícia.',
     x: { A: 'A hepatite A raramente causa artrite e exantema no pródromo.', C: 'A hepatite E não tem essa apresentação como característica.', D: 'A crioglobulinemia ocorre na infecção crônica pelo vírus C, não no pródromo agudo.' },
@@ -117,7 +117,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B aguda — tratamento',
     e: 'Homem de 35 anos com hepatite B aguda evolui com icterícia progressiva, INR de 2,1 e sonolência leve. A conduta que deve ser acrescentada ao suporte é:',
-    o: ['Interferon peguilado', 'Antiviral análogo de nucleos(t)ídeo, como tenofovir ou entecavir, e avaliação em centro transplantador', 'Corticoide em dose imunossupressora', 'Imunoglobulina humana anti-hepatite B'],
+    o: ['Interferon peguilado, que é contraindicado na hepatite fulminante pelo risco de piora', 'Análogo de nucleos(t)ídeo (tenofovir ou entecavir) e avaliar centro transplantador', 'Corticoide em dose imunossupressora, que piora a replicação viral e a evolução', 'Imunoglobulina anti-hepatite B, que não trata a fase aguda da doença'],
     g: 'B',
     c: 'A maioria das hepatites B agudas resolve-se espontaneamente e requer apenas suporte. Nas formas graves, com coagulopatia, ou prolongadas, indica-se antiviral oral de alta barreira genética, que é seguro e pode reduzir a replicação, inclusive preparando o paciente para um eventual transplante. A presença de encefalopatia com INR alargado caracteriza insuficiência hepática aguda.',
     x: { A: 'O interferon é contraindicado na hepatite aguda grave por risco de piorar a necrose.', C: 'Corticoide aumenta a replicação viral e não tem benefício nesse cenário.', D: 'A imunoglobulina serve à profilaxia pós-exposição, sem efeito na doença instalada.' },
@@ -125,7 +125,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — vacina',
     e: 'No calendário nacional de vacinação, o esquema de imunização contra hepatite B na criança inclui:',
-    o: ['Primeira dose aos 2 meses, com a vacina pentavalente', 'Dose da vacina monovalente ao nascer, preferencialmente nas primeiras 24 horas, seguida das doses da pentavalente aos 2, 4 e 6 meses', 'Dose única ao nascer', 'Três doses a partir dos 12 meses de idade'],
+    o: ['1ª dose aos 2 meses, com a vacina pentavalente, sem dose ao nascer', 'Monovalente ao nascer (nas primeiras 24 h) e pentavalente aos 2, 4 e 6 meses', 'Dose única ao nascer, sem reforços nem doses posteriores', 'Três doses a partir dos 12 meses de idade, em esquema 0-1-6'],
     g: 'B',
     c: 'A dose ao nascer, idealmente nas primeiras 12 a 24 horas de vida, visa prevenir a transmissão vertical e perinatal, principal responsável pela cronificação. O esquema continua com a vacina pentavalente (DTP, Haemophilus influenzae tipo b e hepatite B) aos 2, 4 e 6 meses.',
     x: { A: 'A omissão da dose ao nascer deixa o recém-nascido desprotegido contra transmissão perinatal.', C: 'Uma dose isolada não garante soroproteção duradoura.', D: 'Iniciar aos 12 meses perderia o período de maior risco de cronificação.' },
@@ -141,7 +141,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — resposta vacinal',
     e: 'Técnica de enfermagem recebeu três doses da vacina contra hepatite B e, dois meses após a última dose, apresenta anti-HBs de 4 mUI/mL. A conduta recomendada é:',
-    o: ['Considerá-la imunizada, pois completou o esquema', 'Repetir o esquema completo de três doses e dosar novamente o anti-HBs', 'Administrar imunoglobulina mensalmente', 'Aplicar uma dose de vacina a cada ano indefinidamente'],
+    o: ['Considerá-la imunizada, pois completou o esquema', 'Repetir o esquema completo de 3 doses e dosar novamente o anti-HBs', 'Administrar imunoglobulina mensalmente, de forma contínua', 'Aplicar uma dose de vacina a cada ano, indefinidamente'],
     g: 'B',
     c: 'Anti-HBs abaixo de 10 mUI/mL após o esquema completo indica ausência de resposta, devendo-se repetir as três doses e reavaliar o título um a dois meses depois. Quem permanecer sem resposta após dois esquemas completos é considerado não respondedor e, em caso de exposição, deverá receber imunoglobulina específica.',
     x: { A: 'O título inferior a 10 mUI/mL não confere proteção comprovada.', C: 'A imunoglobulina é indicada após exposição em não respondedores, não de rotina.', D: 'Não há recomendação de reforços anuais indefinidos para adultos hígidos.' },
@@ -149,7 +149,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — transmissão vertical',
     e: 'Gestante HBsAg reagente dá à luz recém-nascido a termo, em boas condições. A conduta para o recém-nascido é:',
-    o: ['Vacina contra hepatite B apenas aos 2 meses', 'Vacina contra hepatite B e imunoglobulina humana anti-hepatite B nas primeiras 12 horas de vida, em sítios diferentes', 'Imunoglobulina isolada e suspensão do aleitamento materno', 'Dosar HBsAg do recém-nascido e vacinar apenas se negativo'],
+    o: ['Vacina contra hepatite B apenas aos 2 meses de vida, sem imunoglobulina', 'Vacina e imunoglobulina anti-HB nas primeiras 12 horas, em locais diferentes', 'Imunoglobulina isolada e suspensão do aleitamento materno por 6 meses', 'Dosar o HBsAg do RN e vacinar apenas se o resultado for negativo'],
     g: 'B',
     c: 'A imunoprofilaxia combinada, ativa (vacina) e passiva (imunoglobulina específica), administrada preferencialmente nas primeiras 12 horas de vida, reduz drasticamente a transmissão perinatal. As aplicações devem ser feitas em grupos musculares distintos. O esquema vacinal prossegue normalmente depois.',
     x: { A: 'Adiar a vacina deixa o recém-nascido exposto no período de maior risco.', C: 'A vacina é indispensável e a amamentação não é contraindicada.', D: 'A profilaxia não deve aguardar exames, pois sua eficácia depende da precocidade.' },
@@ -157,7 +157,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — aleitamento e parto',
     e: 'Em relação ao parto e ao aleitamento de filhos de mães portadoras do vírus da hepatite B, é correto afirmar que:',
-    o: ['A cesariana eletiva é obrigatória e a amamentação é contraindicada', 'A via de parto segue indicação obstétrica e a amamentação é permitida, desde que o recém-nascido receba a imunoprofilaxia', 'A amamentação só é permitida após a terceira dose da vacina', 'O parto vaginal é contraindicado se o HBeAg for reagente'],
+    o: ['Cesariana eletiva obrigatória e amamentação contraindicada, em todos os casos', 'Via de parto por indicação obstétrica; amamentar com imunoprofilaxia do RN', 'Amamentação só permitida após a terceira dose da vacina no lactente', 'Parto vaginal contraindicado se o HBeAg da mãe for reagente'],
     g: 'B',
     c: 'Não há evidência de que a cesariana reduza a transmissão vertical do vírus B quando a imunoprofilaxia é realizada, de modo que a via de parto é definida por critérios obstétricos. O aleitamento materno não aumenta o risco de transmissão em recém-nascidos que receberam vacina e imunoglobulina.',
     x: { A: 'Nenhuma das duas medidas é recomendada para prevenir a transmissão do vírus B.', C: 'A amamentação pode ser iniciada desde o nascimento, após a imunoprofilaxia.', D: 'O HBeAg reagente indica profilaxia antiviral na gestação, não muda a via de parto.' },
@@ -173,7 +173,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — acidente ocupacional',
     e: 'Médico residente sofre acidente perfurocortante com agulha utilizada em paciente HBsAg reagente. O residente nunca foi vacinado contra hepatite B. A conduta é:',
-    o: ['Apenas iniciar o esquema vacinal', 'Imunoglobulina humana anti-hepatite B e início do esquema vacinal, o mais precocemente possível', 'Tenofovir por 28 dias', 'Observação com sorologias seriadas, sem intervenção'],
+    o: ['Apenas iniciar o esquema vacinal, sem imunoglobulina', 'Imunoglobulina anti-HB e início do esquema vacinal, o mais cedo possível', 'Tenofovir por 28 dias, em dose habitual de manutenção', 'Observação com sorologias seriadas, sem intervenção imediata'],
     g: 'B',
     c: 'No exposto não vacinado a fonte sabidamente HBsAg reagente, indica-se imunização passiva com imunoglobulina específica, de preferência nas primeiras 24 a 48 horas, associada ao início da vacinação em sítio diferente. A imunoglobulina oferece proteção imediata enquanto a vacina induz imunidade duradoura.',
     x: { A: 'A vacina isolada não protege de imediato diante de fonte comprovadamente positiva.', C: 'Antivirais não fazem parte da profilaxia pós-exposição da hepatite B.', D: 'A conduta expectante desperdiça a janela de eficácia da profilaxia.' },
@@ -197,7 +197,7 @@ export const HEP_AGUDA_2: QuestaoCompacta[] = [
   {
     s: 'Hepatite B — rastreamento',
     e: 'Segundo as recomendações brasileiras, o rastreamento da hepatite B no pré-natal deve ser feito com:',
-    o: ['Anti-HBs no terceiro trimestre', 'HBsAg (ou teste rápido) na primeira consulta, idealmente no primeiro trimestre', 'HBV-DNA em todas as gestantes', 'Anti-HBc IgM apenas se houver icterícia'],
+    o: ['Anti-HBs no terceiro trimestre, para avaliar a imunidade da gestante', 'HBsAg (ou teste rápido) na 1ª consulta, de preferência no 1º trimestre', 'HBV-DNA em todas as gestantes, de rotina, desde a 1ª consulta', 'Anti-HBc IgM apenas se houver icterícia ou aumento de transaminases'],
     g: 'B',
     c: 'A testagem com HBsAg ou teste rápido deve ser oferecida a todas as gestantes na primeira consulta de pré-natal, permitindo identificar as portadoras, avaliar a necessidade de profilaxia antiviral no terceiro trimestre e programar a imunoprofilaxia do recém-nascido. Gestantes suscetíveis devem ser vacinadas.',
     x: { A: 'O anti-HBs avalia imunidade e não identifica gestantes infectadas.', C: 'A carga viral é reservada às gestantes com HBsAg reagente.', D: 'A maioria das portadoras é assintomática, tornando inadequado testar só ictéricas.' },

@@ -5,7 +5,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Paracetamol — mecanismo',
     e: 'A hepatotoxicidade do paracetamol em doses elevadas é causada por:',
-    o: ['Reação de hipersensibilidade imunoalérgica ao fármaco', 'Acúmulo do metabólito NAPQI, formado pelo citocromo P450, após esgotamento dos estoques de glutationa', 'Inibição direta da beta-oxidação mitocondrial de ácidos graxos', 'Obstrução dos canalículos biliares por cristais do fármaco'],
+    o: ['Hipersensibilidade imunoalérgica ao fármaco', 'Acúmulo de NAPQI (via CYP450) após esgotar a glutationa', 'Inibição direta da beta-oxidação mitocondrial de ácidos graxos', 'Obstrução dos canalículos biliares por cristais do fármaco'],
     g: 'B',
     c: 'Em doses terapêuticas, o paracetamol é conjugado por glicuronidação e sulfatação, e a pequena fração oxidada pelo CYP2E1 a NAPQI é neutralizada pela glutationa. Na superdosagem, as vias de conjugação saturam, a glutationa se esgota e o NAPQI liga-se a proteínas do hepatócito, causando necrose centrolobular (zona 3). É uma toxicidade intrínseca e dose-dependente.',
     x: { A: 'A lesão é previsível e dose-dependente, e não imunoalérgica.', C: 'A inibição da beta-oxidação é o mecanismo do valproato e da síndrome de Reye.', D: 'Não há obstrução canalicular por cristais na intoxicação por paracetamol.' },
@@ -13,7 +13,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Paracetamol — antídoto',
     e: 'Mulher de 22 anos é trazida ao pronto-socorro 10 horas após ingerir intencionalmente 20 g de paracetamol. Está assintomática, com exames iniciais normais. A conduta correta é:',
-    o: ['Observar e repetir as aminotransferases em 24 horas antes de tratar', 'Iniciar N-acetilcisteína imediatamente, sem aguardar a elevação das enzimas hepáticas', 'Administrar carvão ativado e dar alta', 'Indicar hemodiálise de urgência'],
+    o: ['Observar e repetir as aminotransferases em 24 horas antes de tratar', 'Iniciar N-acetilcisteína de imediato, sem aguardar a elevação das enzimas', 'Dar carvão ativado e liberar a paciente para casa', 'Indicar hemodiálise de urgência, por intoxicação grave'],
     g: 'B',
     c: 'A N-acetilcisteína repõe os estoques de glutationa e neutraliza o NAPQI, sendo mais eficaz quando iniciada nas primeiras 8 a 10 horas após a ingestão. A fase inicial da intoxicação é oligossintomática e as aminotransferases só se elevam após 24 a 48 horas, de modo que aguardar alterações laboratoriais significa perder a janela ideal. Havendo dosagem sérica disponível, utiliza-se o nomograma de Rumack-Matthew a partir de 4 horas.',
     x: { A: 'Esperar a lesão hepática aparecer reduz a eficácia do antídoto.', C: 'O carvão ativado só é útil nas primeiras horas e não substitui o antídoto.', D: 'A hemodiálise não é o tratamento padrão da intoxicação por paracetamol.' },
@@ -21,7 +21,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Paracetamol — fatores de risco',
     e: 'Homem de 48 anos, etilista crônico e desnutrido, usou paracetamol 4 g ao dia por 5 dias para dor lombar. Chega com náuseas, AST 8.700 U/L, ALT 6.900 U/L e INR 2,3. A maior suscetibilidade desse paciente à hepatotoxicidade em doses próximas das terapêuticas explica-se por:',
-    o: ['Menor absorção intestinal do fármaco', 'Indução do CYP2E1 pelo álcool e depleção de glutationa pela desnutrição', 'Aumento da glicuronidação hepática', 'Deficiência adquirida de alfa-1 antitripsina'],
+    o: ['Menor absorção intestinal do fármaco, pela desnutrição', 'Indução do CYP2E1 pelo álcool e depleção de glutationa pela desnutrição', 'Aumento da glicuronidação hepática, pelo etilismo', 'Deficiência adquirida de alfa-1 antitripsina, pelo etilismo'],
     g: 'B',
     c: 'O consumo crônico de álcool induz o CYP2E1, aumentando a fração de paracetamol convertida em NAPQI, enquanto o jejum e a desnutrição reduzem os estoques de glutationa. Assim, mesmo doses habituais podem causar necrose hepática, com aminotransferases em milhares, bem acima do esperado para hepatite alcoólica.',
     x: { A: 'A absorção do paracetamol não está reduzida de forma relevante no etilista.', C: 'Maior glicuronidação protegeria, e não predisporia, à toxicidade.', D: 'A deficiência de alfa-1 antitripsina é genética e não participa desse mecanismo.' },
@@ -29,7 +29,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Lesão hepática por drogas — classificação',
     e: 'A lesão hepática induzida por drogas do tipo idiossincrásico caracteriza-se por:',
-    o: ['Ser previsível, dose-dependente e reprodutível em animais', 'Ser imprevisível, não claramente dose-dependente e com período de latência variável', 'Ocorrer exclusivamente nas primeiras 24 horas de uso', 'Cursar sempre com padrão colestático puro'],
+    o: ['Ser previsível, dose-dependente e reprodutível em animais', 'Ser imprevisível, sem clara relação com a dose, e com latência variável', 'Ocorrer apenas nas primeiras 24 horas de uso do fármaco', 'Cursar sempre com padrão colestático puro de lesão'],
     g: 'B',
     c: 'As reações idiossincrásicas dependem de suscetibilidade individual, metabólica ou imunológica, ocorrem em pequena parcela dos expostos e surgem após latência de dias a meses. O diagnóstico é de exclusão e baseia-se na relação temporal e na melhora após a suspensão. A toxicidade intrínseca, como a do paracetamol, é previsível e dose-dependente.',
     x: { A: 'Essas são características da toxicidade intrínseca, como a do paracetamol.', C: 'A latência das reações idiossincrásicas costuma ser de semanas a meses.', D: 'O padrão pode ser hepatocelular, colestático ou misto, conforme o fármaco.' },
@@ -37,7 +37,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Isoniazida',
     e: 'Homem de 58 anos iniciou há 6 semanas o esquema básico para tuberculose pulmonar. Apresenta náuseas, vômitos e icterícia. ALT 620 U/L (limite superior 40), bilirrubina total 4,5 mg/dL. A conduta é:',
-    o: ['Manter o esquema e associar silimarina', 'Suspender os fármacos e reintroduzi-los um a um após a melhora clínica e laboratorial', 'Manter o esquema e reduzir as doses pela metade', 'Trocar definitivamente por esquema de segunda linha sem tentar reintrodução'],
+    o: ['Manter o esquema e associar silimarina, para proteger o fígado do paciente', 'Suspender os fármacos e reintroduzi-los um a um após melhora clínica e laboratorial', 'Manter o esquema, reduzindo as doses pela metade, até melhorar a hepatite', 'Trocar para esquema de segunda linha, sem tentar reintrodução dos fármacos'],
     g: 'B',
     c: 'A hepatotoxicidade do esquema antituberculose exige suspensão quando há icterícia, aminotransferases acima de 3 vezes o limite com sintomas ou acima de 5 vezes mesmo sem sintomas. Após a normalização, os fármacos são reintroduzidos sequencialmente para identificar o responsável. Isoniazida, pirazinamida e rifampicina são os envolvidos, e idade avançada e etilismo aumentam o risco.',
     x: { A: 'Manter fármacos hepatotóxicos diante de icterícia pode levar à insuficiência hepática.', C: 'Reduzir doses não é seguro e favorece resistência bacteriana.', D: 'A reintrodução gradual permite manter os fármacos mais eficazes na maioria dos casos.' },
@@ -45,7 +45,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Amoxicilina-clavulanato',
     e: 'Homem de 67 anos tratou sinusite com amoxicilina-clavulanato por 10 dias. Três semanas após o término, apresenta icterícia e prurido. Bilirrubina total 9 mg/dL, fosfatase alcalina 5 vezes o limite superior, ALT 110 U/L. Ultrassonografia sem dilatação de vias biliares. O diagnóstico mais provável é:',
-    o: ['Colangiocarcinoma hilar', 'Lesão hepática colestática induzida pelo antibiótico', 'Hepatite A aguda', 'Colangite esclerosante primária'],
+    o: ['Colangiocarcinoma hilar, com icterícia progressiva', 'Lesão hepática colestática induzida pelo antibiótico', 'Hepatite A aguda, com transaminases muito elevadas', 'Colangite esclerosante primária, com estenoses biliares'],
     g: 'B',
     c: 'A associação amoxicilina-clavulanato é uma das causas mais frequentes de lesão hepática idiossincrásica por medicamentos, tipicamente com padrão colestático ou misto, atribuído ao clavulanato. É mais comum em homens idosos e pode surgir semanas após o fim do tratamento. A evolução costuma ser benigna, com resolução lenta após a exposição.',
     x: { A: 'Tumor hilar causaria dilatação das vias biliares intra-hepáticas à ultrassonografia.', C: 'Na hepatite A o padrão é hepatocelular, com ALT muito elevada.', D: 'A colangite esclerosante tem curso crônico e associa-se à retocolite ulcerativa.' },
@@ -53,7 +53,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Lei de Hy',
     e: 'A lei de Hy (Hy Zimmerman), utilizada para prever gravidade na lesão hepática induzida por drogas, estabelece que há risco elevado de evolução fatal ou para transplante quando ocorre:',
-    o: ['Elevação isolada de fosfatase alcalina acima de 2 vezes o limite', 'Lesão hepatocelular (ALT acima de 3 vezes o limite) associada a icterícia (bilirrubina acima de 2 vezes o limite), sem colestase ou outra causa', 'Eosinofilia periférica com exantema', 'Elevação de GGT acima de 10 vezes o limite'],
+    o: ['Elevação isolada de fosfatase alcalina acima de 2 vezes o limite superior', 'Lesão hepatocelular (ALT > 3x) com icterícia (BT > 2x), sem colestase ou outra causa', 'Eosinofilia periférica com exantema, sem lesão hepática associada', 'Elevação de GGT acima de 10 vezes o limite, de forma isolada'],
     g: 'B',
     c: 'A icterícia em uma lesão puramente hepatocelular indica perda expressiva de massa hepática funcionante, pois o fígado tem grande reserva para excretar bilirrubina. Nessa situação a mortalidade ou necessidade de transplante gira em torno de 10% ou mais, e o fármaco deve ser suspenso imediatamente, com monitorização do INR.',
     x: { A: 'O padrão colestático isolado tem prognóstico em geral melhor a curto prazo.', C: 'Eosinofilia e exantema indicam mecanismo imunoalérgico, não gravidade.', D: 'A GGT isolada reflete indução enzimática ou colestase, sem valor prognóstico.' },
@@ -69,7 +69,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Hepatite isquêmica',
     e: 'Homem de 72 anos com insuficiência cardíaca é internado em choque cardiogênico. No dia seguinte: AST 7.400 U/L, ALT 5.100 U/L, LDH 9.000 U/L, bilirrubina total 2,1 mg/dL, INR 1,9. Após estabilização hemodinâmica, as aminotransferases caem mais de 50% em 72 horas. O diagnóstico é:',
-    o: ['Hepatite viral aguda', 'Hepatite isquêmica (fígado de choque)', 'Colangite aguda', 'Hepatite autoimune'],
+    o: ['Hepatite viral aguda, com sorologia positiva', 'Hepatite isquêmica (fígado de choque)', 'Colangite aguda, com tríade de Charcot', 'Hepatite autoimune, com autoanticorpos positivos'],
     g: 'B',
     c: 'A hepatite isquêmica resulta de hipoperfusão hepática, geralmente somada à congestão venosa, causando necrose centrolobular. Caracteriza-se por elevação abrupta e maciça das aminotransferases e da LDH, com bilirrubina pouco aumentada, e queda rápida após a correção do distúrbio hemodinâmico. O tratamento é o da causa de base.',
     x: { A: 'Na hepatite viral as enzimas caem lentamente, ao longo de semanas.', C: 'Na colangite predominam enzimas canaliculares, febre e dor em hipocôndrio direito.', D: 'A hepatite autoimune não tem relação temporal com choque nem resolução tão rápida.' },
@@ -85,7 +85,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática aguda — definição',
     e: 'A insuficiência hepática aguda é definida pela presença de:',
-    o: ['Icterícia e aminotransferases acima de 1.000 U/L em qualquer paciente', 'Coagulopatia (INR igual ou superior a 1,5) e encefalopatia hepática em paciente sem hepatopatia crônica prévia, com doença de até 26 semanas', 'Ascite e varizes esofágicas de instalação em menos de 6 meses', 'Bilirrubina acima de 20 mg/dL com função renal alterada'],
+    o: ['Icterícia e aminotransferases > 1.000 U/L em qualquer paciente, sem outros achados', 'INR ≥ 1,5 e encefalopatia sem hepatopatia prévia, em até 26 semanas', 'Ascite e varizes esofágicas de instalação em menos de 6 meses de doença', 'Bilirrubina > 20 mg/dL, com função renal alterada, em hepatopatia crônica'],
     g: 'B',
     c: 'A definição exige evidência de falência de síntese (INR alargado) e de disfunção cerebral (encefalopatia de qualquer grau) em indivíduo sem cirrose conhecida, com duração da doença inferior a 26 semanas. A presença de encefalopatia é o que distingue a insuficiência hepática aguda da hepatite aguda grave.',
     x: { A: 'Aminotransferases elevadas indicam lesão, mas não falência do órgão.', C: 'Ascite e varizes refletem hipertensão portal de doença crônica.', D: 'O nível de bilirrubina isolado não define insuficiência hepática aguda.' },
@@ -93,7 +93,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática aguda — etiologia',
     e: 'Em relação às causas de insuficiência hepática aguda, é correto afirmar que:',
-    o: ['A hepatite C é a principal causa viral no Brasil', 'O paracetamol é a principal causa nos Estados Unidos e no Reino Unido, e tem prognóstico melhor que as reações idiossincrásicas a drogas', 'A hepatite A é responsável pela maioria dos casos em adultos', 'As causas indeterminadas são raras, representando menos de 1% dos casos'],
+    o: ['A hepatite C é a principal causa viral no Brasil, e a mais frequente no mundo todo', 'Paracetamol é a principal causa nos EUA e Reino Unido; prognóstico melhor que o das idiossincrásicas', 'A hepatite A é responsável pela maioria dos casos em adultos no Brasil', 'As causas indeterminadas são raras, com menos de 1% dos casos de insuficiência hepática'],
     g: 'B',
     c: 'Em países anglo-saxões o paracetamol responde por cerca de metade dos casos, tem evolução hiperaguda e, apesar da gravidade inicial, apresenta maior taxa de recuperação espontânea. As causas com evolução subaguda, como reações idiossincrásicas, doença de Wilson e casos indeterminados, têm pior prognóstico sem transplante.',
     x: { A: 'O vírus C praticamente não causa insuficiência hepática aguda.', C: 'A hepatite A causa falência hepática em fração muito pequena dos infectados.', D: 'Uma parcela considerável dos casos permanece sem etiologia definida.' },
@@ -101,7 +101,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática aguda — edema cerebral',
     e: 'Mulher de 25 anos com insuficiência hepática aguda por paracetamol evolui para coma, com hipertensão arterial, bradicardia, pupilas lentamente reativas e postura de descerebração. Amônia arterial muito elevada. A principal causa de morte nessa situação é:',
-    o: ['Hemorragia digestiva por varizes esofágicas', 'Edema cerebral com hipertensão intracraniana e herniação', 'Peritonite bacteriana espontânea', 'Síndrome hepatopulmonar'],
+    o: ['Hemorragia digestiva por varizes esofágicas', 'Edema cerebral com hipertensão intracraniana e herniação', 'Peritonite bacteriana espontânea, com ascite infectada', 'Síndrome hepatopulmonar, com hipoxemia crônica'],
     g: 'B',
     c: 'Na insuficiência hepática aguda, a amônia é convertida em glutamina nos astrócitos, que se tornam osmoticamente edemaciados. O edema cerebral é frequente nas encefalopatias graus III e IV das formas hiperagudas e leva à hipertensão intracraniana, cuja expressão é a tríade de Cushing. O manejo inclui cabeceira elevada, intubação, manitol ou salina hipertônica e priorização para transplante.',
     x: { A: 'Varizes esofágicas resultam de hipertensão portal crônica, ausente no quadro agudo.', C: 'A peritonite bacteriana espontânea é complicação da cirrose com ascite.', D: 'A síndrome hepatopulmonar é complicação da doença hepática crônica.' },
@@ -109,7 +109,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática aguda — hipoglicemia e infecção',
     e: 'No manejo de suporte do paciente com insuficiência hepática aguda, é correto afirmar que:',
-    o: ['Deve-se transfundir plasma fresco rotineiramente para corrigir o INR', 'Deve-se monitorar a glicemia e vigiar ativamente infecções, pois há hipoglicemia por falha da gliconeogênese e alta suscetibilidade a sepse', 'A restrição proteica rigorosa é obrigatória em todos os casos', 'A lactulose previne de forma comprovada o edema cerebral'],
+    o: ['Transfundir plasma fresco de rotina para corrigir o INR, mesmo sem sangramento', 'Monitorar a glicemia e vigiar infecções (hipoglicemia e suscetibilidade a sepse)', 'Restrição proteica rigorosa, obrigatória em todos os casos de insuficiência hepática', 'Lactulose previne, de forma comprovada, o edema cerebral e a herniação'],
     g: 'B',
     c: 'A necrose hepática maciça compromete a gliconeogênese e os estoques de glicogênio, causando hipoglicemia, que pode ser confundida com piora da encefalopatia. A disfunção imune torna a infecção bacteriana e fúngica muito frequente e uma das principais causas de morte. O plasma só deve ser usado diante de sangramento ou procedimento invasivo, pois mascara o INR como marcador prognóstico.',
     x: { A: 'Corrigir o INR sem sangramento impede seu uso como marcador de evolução.', C: 'O estado é hipercatabólico e a restrição proteica intensa não é recomendada.', D: 'A lactulose não demonstrou prevenir edema cerebral nesse contexto.' },
@@ -117,7 +117,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Critérios do King\'s College — paracetamol',
     e: 'Segundo os critérios do King\'s College, na insuficiência hepática aguda por paracetamol indica-se transplante hepático quando houver:',
-    o: ['ALT acima de 10.000 U/L', 'pH arterial inferior a 7,30 após ressuscitação volêmica, ou a combinação de INR acima de 6,5, creatinina acima de 3,4 mg/dL e encefalopatia grau III ou IV', 'Bilirrubina acima de 5 mg/dL e idade superior a 40 anos', 'Qualquer grau de encefalopatia com amônia elevada'],
+    o: ['ALT acima de 10.000 U/L, que não é critério de transplante', 'pH < 7,30 após volume, ou INR > 6,5 + Cr > 3,4 + encefalopatia III-IV', 'Bilirrubina acima de 5 mg/dL e idade acima de 40 anos, na hepatite aguda', 'Qualquer grau de encefalopatia com amônia elevada, na hepatite aguda'],
     g: 'B',
     c: 'Nos casos por paracetamol, a acidose persistente após reposição volêmica é o marcador isolado de pior prognóstico; na ausência dela, exige-se a tríade de coagulopatia grave, insuficiência renal e encefalopatia avançada. O lactato arterial elevado foi posteriormente incorporado como critério adicional. O valor das aminotransferases não tem significado prognóstico.',
     x: { A: 'O nível de ALT não se correlaciona com o prognóstico nem integra os critérios.', C: 'Bilirrubina e idade pertencem aos critérios para causas não relacionadas ao paracetamol.', D: 'Encefalopatia leve isolada não preenche os critérios de transplante.' },
@@ -133,7 +133,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática aguda — N-acetilcisteína',
     e: 'Em relação ao uso de N-acetilcisteína na insuficiência hepática aguda, é correto afirmar que:',
-    o: ['Está indicada apenas quando a ingestão de paracetamol ocorreu há menos de 4 horas', 'Deve ser administrada na suspeita de paracetamol mesmo tardiamente, e pode beneficiar casos de outras etiologias com encefalopatia leve', 'É contraindicada quando o INR está acima de 2', 'Só deve ser iniciada após a confirmação do nível sérico de paracetamol'],
+    o: ['Indicada apenas se a ingestão de paracetamol ocorreu há menos de 4 horas do atendimento', 'Dar na suspeita de paracetamol, mesmo tardia; pode ajudar em outras etiologias com encefalopatia leve', 'É contraindicada quando o INR está acima de 2, pelo risco de sangramento', 'Só iniciar após a confirmação do nível sérico de paracetamol no sangue do paciente'],
     g: 'B',
     c: 'A N-acetilcisteína tem eficácia máxima quando iniciada precocemente, mas ainda traz benefício em apresentações tardias de intoxicação por paracetamol, inclusive com falência hepática instalada. Em insuficiência hepática aguda de outras causas, estudos mostraram melhora da sobrevida livre de transplante em pacientes com encefalopatia graus I e II, sendo um fármaco seguro.',
     x: { A: 'O antídoto é útil mesmo muitas horas ou dias após a ingestão.', C: 'A coagulopatia não contraindica o uso da N-acetilcisteína.', D: 'Na suspeita clínica o tratamento não deve aguardar a dosagem sérica.' },
@@ -141,7 +141,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Hepatite autoimune aguda',
     e: 'Mulher de 28 anos, com tireoidite de Hashimoto, apresenta icterícia há 3 semanas. ALT 1.450 U/L, AST 1.300 U/L, gamaglobulina muito elevada às custas de IgG, FAN 1:640 e antimúsculo liso reagente. Sorologias virais negativas, sem uso de medicamentos ou álcool. A biópsia mostra hepatite de interface com infiltrado linfoplasmocitário. O tratamento indicado é:',
-    o: ['Ácido ursodesoxicólico isolado', 'Prednisona, associada ou não a azatioprina', 'Tenofovir', 'Apenas observação, pois o quadro é autolimitado'],
+    o: ['Ácido ursodesoxicólico isolado, que não trata a hepatite autoimune', 'Prednisona, associada ou não a azatioprina', 'Tenofovir, que é antiviral e não trata a hepatite autoimune', 'Apenas observação, pois o quadro é autolimitado'],
     g: 'B',
     c: 'A hepatite autoimune pode apresentar-se de forma aguda, simulando hepatite viral. Sexo feminino, outra doença autoimune, hipergamaglobulinemia por IgG, autoanticorpos (FAN e antimúsculo liso no tipo 1) e hepatite de interface com plasmócitos sustentam o diagnóstico. A imunossupressão com corticoide, com azatioprina como poupador, induz remissão e previne a progressão para cirrose.',
     x: { A: 'O ácido ursodesoxicólico é o tratamento da colangite biliar primária.', C: 'Não há infecção pelo vírus B que justifique antiviral.', D: 'Sem tratamento a hepatite autoimune progride para cirrose e falência hepática.' },
@@ -149,7 +149,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Hepatite autoimune — tipo 2',
     e: 'O autoanticorpo característico da hepatite autoimune tipo 2, forma que predomina em crianças e adolescentes e costuma ter apresentação mais grave, é o:',
-    o: ['Antimitocôndria', 'Anti-LKM1 (antimicrossoma de fígado e rim tipo 1)', 'Anti-músculo liso', 'p-ANCA'],
+    o: ['Antimitocôndria, típico da colangite biliar primária', 'Anti-LKM1 (antimicrossoma de fígado e rim tipo 1)', 'Anti-músculo liso, típico da hepatite autoimune tipo 1', 'p-ANCA, típico da colangite esclerosante primária'],
     g: 'B',
     c: 'A hepatite autoimune tipo 2 é definida pela presença de anti-LKM1 ou anticitosol hepático tipo 1, acomete principalmente meninas, apresenta-se com frequência de forma aguda ou fulminante e tem menor chance de suspensão do tratamento. O tipo 1, mais comum, associa-se a FAN e antimúsculo liso.',
     x: { A: 'O antimitocôndria é marcador da colangite biliar primária.', C: 'O antimúsculo liso é marcador da hepatite autoimune tipo 1.', D: 'O p-ANCA associa-se à colangite esclerosante primária e à retocolite.' },
@@ -157,7 +157,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Doença de Wilson fulminante',
     e: 'Adolescente de 16 anos apresenta insuficiência hepática aguda com icterícia intensa, anemia hemolítica com teste de Coombs negativo, fosfatase alcalina desproporcionalmente baixa, AST maior que ALT com valores moderados e lesão renal aguda. A hipótese diagnóstica e a conduta definitiva são:',
-    o: ['Hepatite A fulminante; suporte clínico', 'Doença de Wilson fulminante; transplante hepático de urgência', 'Hepatite autoimune; pulsoterapia com corticoide', 'Hemocromatose juvenil; flebotomias'],
+    o: ['Hepatite A fulminante; suporte clínico e observação em enfermaria', 'Doença de Wilson fulminante; transplante hepático de urgência', 'Hepatite autoimune; pulsoterapia com corticoide em dose alta', 'Hemocromatose juvenil; flebotomias seriadas e quelantes de ferro'],
     g: 'B',
     c: 'Na doença de Wilson fulminante, a necrose hepática libera cobre na circulação, causando hemólise intravascular Coombs-negativa e lesão tubular renal. São pistas a fosfatase alcalina muito baixa (relação fosfatase alcalina/bilirrubina total inferior a 4) e a relação AST/ALT acima de 2,2, com aminotransferases relativamente modestas. A forma fulminante é uniformemente fatal sem transplante, pois os quelantes não agem a tempo.',
     x: { A: 'A hepatite A não explica hemólise Coombs-negativa nem fosfatase alcalina baixa.', C: 'Hepatite autoimune não cursa tipicamente com hemólise não imune.', D: 'A hemocromatose não se apresenta como insuficiência hepática aguda com hemólise.' },
@@ -165,7 +165,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Doença de Wilson — diagnóstico',
     e: 'O conjunto de achados que sustenta o diagnóstico de doença de Wilson em um jovem com hepatopatia é:',
-    o: ['Ferritina e saturação de transferrina elevadas', 'Ceruloplasmina sérica baixa, cobre urinário de 24 horas elevado e anéis de Kayser-Fleischer', 'Alfa-1 antitripsina sérica reduzida com fenótipo PiZZ', 'IgG4 sérica elevada com estenoses biliares'],
+    o: ['Ferritina e saturação de transferrina elevadas, da hemocromatose', 'Ceruloplasmina baixa, cobre urinário de 24 h elevado e anéis de Kayser-Fleischer', 'Alfa-1 antitripsina reduzida com fenótipo PiZZ, da deficiência de AAT', 'IgG4 elevada com estenoses biliares, da colangite por IgG4'],
     g: 'B',
     c: 'A doença de Wilson decorre de mutação no gene ATP7B, que prejudica a incorporação do cobre à ceruloplasmina e sua excreção biliar. Há acúmulo de cobre no fígado, no cérebro e na córnea (membrana de Descemet). Na forma aguda a ceruloplasmina pode estar falsamente normal, por ser proteína de fase aguda, e os anéis podem faltar.',
     x: { A: 'Esses achados indicam sobrecarga de ferro, como na hemocromatose.', C: 'Esse perfil corresponde à deficiência de alfa-1 antitripsina.', D: 'IgG4 elevada sugere colangite esclerosante associada a IgG4.' },
@@ -173,7 +173,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Esteatose hepática aguda da gestação',
     e: 'Primigesta de 35 semanas, com gestação gemelar, apresenta há 5 dias náuseas, vômitos, dor epigástrica e icterícia. Exames: glicemia 48 mg/dL, AST 320 U/L, ALT 290 U/L, bilirrubina 8 mg/dL, INR 2,4, fibrinogênio baixo, creatinina 2,2 mg/dL, amônia elevada, plaquetas 135.000/mm³. O diagnóstico e a conduta são:',
-    o: ['Colestase intra-hepática da gestação; ácido ursodesoxicólico', 'Esteatose hepática aguda da gestação; estabilização materna e interrupção imediata da gestação', 'Hiperêmese gravídica; hidratação e antieméticos', 'Hepatite viral aguda; conduta expectante até o termo'],
+    o: ['Colestase intra-hepática da gestação; ácido ursodesoxicólico e vigilância fetal', 'Esteatose hepática aguda da gestação: estabilização e interrupção imediata da gestação', 'Hiperêmese gravídica; hidratação, antieméticos e vigilância fetal', 'Hepatite viral aguda; conduta expectante até o termo da gestação'],
     g: 'B',
     c: 'A esteatose hepática aguda da gestação ocorre no terceiro trimestre e relaciona-se a defeito fetal na beta-oxidação mitocondrial de ácidos graxos (deficiência de LCHAD), com acúmulo de metabólitos tóxicos e esteatose microvesicular materna. Predominam sinais de falência hepática: hipoglicemia, coagulopatia, hiperamonemia e lesão renal, com aminotransferases moderadas. O tratamento é o parto imediato após estabilização.',
     x: { A: 'A colestase gestacional cursa com prurido e sem insuficiência hepática.', C: 'A hiperêmese ocorre no primeiro trimestre e não causa coagulopatia.', D: 'A conduta expectante na esteatose aguda leva à morte materna e fetal.' },
@@ -189,7 +189,7 @@ export const HEP_AGUDA_4: QuestaoCompacta[] = [
   {
     s: 'Colestase intra-hepática da gestação',
     e: 'Gestante de 31 semanas queixa-se de prurido intenso, pior à noite e predominante em palmas e plantas, sem lesões cutâneas primárias. Exames: ácidos biliares séricos elevados, ALT 150 U/L, bilirrubina total 1,6 mg/dL. Sobre esse quadro, é correto afirmar:',
-    o: ['O principal risco é a insuficiência hepática materna', 'O tratamento é feito com ácido ursodesoxicólico e o principal risco é fetal, incluindo prematuridade e óbito intrauterino', 'A interrupção imediata da gestação é obrigatória no momento do diagnóstico', 'A doença não recorre em gestações futuras'],
+    o: ['O principal risco é a insuficiência hepática materna, com encefalopatia', 'Tratamento com AUDC; risco principal fetal (prematuridade e óbito intrauterino)', 'Interrupção imediata da gestação, obrigatória no momento do diagnóstico', 'A doença não recorre em gestações futuras, em nenhuma paciente'],
     g: 'B',
     c: 'A colestase intra-hepática da gestação surge no segundo ou terceiro trimestre, com prurido palmoplantar e elevação dos ácidos biliares, que é o marcador mais sensível. O prognóstico materno é bom, com resolução após o parto, mas os ácidos biliares elevados associam-se a prematuridade, líquido meconial e morte fetal súbita. O ácido ursodesoxicólico alivia o prurido, e o parto costuma ser antecipado conforme a gravidade.',
     x: { A: 'O prognóstico materno é favorável, sem evolução para falência hepática.', C: 'A antecipação do parto é programada conforme o nível de ácidos biliares e a idade gestacional.', D: 'A recorrência em gestações subsequentes é frequente.' },

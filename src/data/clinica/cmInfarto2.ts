@@ -53,7 +53,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Injúria relacionada a angioplastia',
     e: 'Homem de 62 anos, com troponina basal normal, realiza angioplastia eletiva da coronária direita, sem intercorrências e com fluxo final normal. Permanece assintomático, com eletrocardiograma inalterado. A troponina colhida 6 horas depois é de sete vezes o percentil 99. A classificação correta é:',
-    o: ['Infarto tipo 4a', 'Injúria miocárdica relacionada ao procedimento', 'Infarto tipo 1', 'Infarto tipo 4b'],
+    o: ['Infarto tipo 4a, com critérios de isquemia presentes', 'Injúria miocárdica relacionada ao procedimento', 'Infarto tipo 1 por ruptura espontânea de placa', 'Infarto tipo 4b por trombose do stent implantado'],
     g: 'B',
     c: 'A elevação isolada de troponina após a angioplastia, mesmo acima de cinco vezes o percentil 99, não basta para o diagnóstico de infarto tipo 4a. Sem alteração isquêmica nova no eletrocardiograma, onda Q nova, evidência de imagem ou complicação angiográfica limitante de fluxo, trata-se de injúria miocárdica relacionada ao procedimento.',
     x: { A: 'Falta a evidência nova de isquemia exigida para o tipo 4a.', C: 'Não houve evento aterotrombótico espontâneo.', D: 'Não há trombose de stent documentada.' },
@@ -69,7 +69,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Trombose de stent: classificação temporal',
     e: 'Mulher de 65 anos apresenta infarto com supradesnivelamento de ST por trombose de stent confirmada à angiografia, 18 meses após o implante. Quanto ao tempo decorrido desde o implante, essa trombose de stent é classificada como:',
-    o: ['Aguda', 'Muito tardia', 'Subaguda', 'Tardia'],
+    o: ['Aguda (primeiras 24 horas)', 'Muito tardia (mais de 1 ano)', 'Subaguda (24 horas a 30 dias)', 'Tardia (30 dias a 1 ano)'],
     g: 'B',
     c: 'A trombose de stent é classificada em aguda (até 24 horas), subaguda (de 24 horas a 30 dias), tardia (de 30 dias a 1 ano) e muito tardia (após 1 ano do implante). As formas precoces relacionam-se mais a fatores do procedimento e da antiagregação; as muito tardias, a neoaterosclerose e endotelização incompleta.',
     x: { A: 'Aguda é a que ocorre nas primeiras 24 horas.', C: 'Subaguda é a que ocorre entre 24 horas e 30 dias.', D: 'Tardia é a que ocorre entre 30 dias e 1 ano.' },
@@ -101,7 +101,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Tipo 5: evidências aceitas',
     e: 'Paciente no pós-operatório imediato de cirurgia de revascularização miocárdica tem troponina acima de dez vezes o percentil 99. Todos os achados abaixo, se associados, permitem o diagnóstico de infarto tipo 5, EXCETO:',
-    o: ['Novas ondas Q patológicas', 'Oclusão nova de enxerto documentada à angiografia', 'Atrito pericárdico com supradesnivelamento difuso de ST e infradesnivelamento de PR', 'Nova alteração segmentar da contratilidade em padrão compatível com isquemia'],
+    o: ['Novas ondas Q patológicas em derivações contíguas', 'Oclusão nova de enxerto documentada à angiografia coronariana', 'Atrito pericárdico com supra difuso de ST e infra de PR', 'Nova alteração segmentar da contratilidade em padrão isquêmico'],
     g: 'C',
     c: 'Os critérios do tipo 5 são ondas Q novas, oclusão nova de enxerto ou de coronária nativa e evidência de imagem de perda de miocárdio viável ou nova alteração segmentar. Atrito com supra difuso e infra de PR indicam pericardite pós-pericardiotomia, comum após cirurgia cardíaca; por isso as alterações de ST e T isoladas são pouco confiáveis nesse cenário.',
     x: { A: 'Ondas Q patológicas novas são o critério eletrocardiográfico do tipo 5.', B: 'A oclusão nova de enxerto à angiografia é critério aceito.', D: 'A nova alteração segmentar de padrão isquêmico é critério de imagem aceito.' },
@@ -109,7 +109,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Tipo 4a com troponina basal elevada',
     e: 'Homem de 70 anos, internado por infarto sem supradesnivelamento de ST há 4 dias, tem troponina ainda elevada, porém estável nas duas últimas dosagens. Será submetido a angioplastia. Para se diagnosticar infarto tipo 4a nessa situação, a troponina pós-procedimento deve:',
-    o: ['Apenas permanecer acima do percentil 99', 'Aumentar mais de 20% em relação ao valor pré-procedimento, com valor absoluto ainda superior a cinco vezes o percentil 99, além de evidência nova de isquemia', 'Dobrar de valor, sem necessidade de outros critérios', 'Não é possível diagnosticar infarto tipo 4a quando a troponina basal está elevada'],
+    o: ['Apenas permanecer acima do percentil 99, sem outros critérios', 'Aumento > 20% com valor > 5× o percentil 99, além de nova evidência de isquemia', 'Dobrar de valor, sem necessidade de outros critérios adicionais', 'Não é possível diagnosticar o tipo 4a quando a troponina basal está elevada'],
     g: 'B',
     c: 'Quando a troponina pré-procedimento está elevada, mas estável (variação de até 20%) ou em queda, exige-se aumento superior a 20% após a angioplastia, mantendo valor absoluto acima de cinco vezes o percentil 99, somado à evidência nova de isquemia. Se o valor basal ainda está subindo, não é possível separar o evento do procedimento do infarto inicial.',
     x: { A: 'O valor já estava acima do percentil 99 antes do procedimento; isso não discrimina nada.', C: 'O critério é aumento superior a 20%, com corte absoluto e evidência de isquemia.', D: 'O diagnóstico é possível, desde que o valor basal esteja estável ou em queda.' },
@@ -141,7 +141,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Tipo 1 x tipo 2',
     e: 'O elemento fisiopatológico que diferencia fundamentalmente o infarto tipo 1 do infarto tipo 2 é:',
-    o: ['A presença de supradesnivelamento de ST', 'A ocorrência de evento aterotrombótico coronariano agudo (ruptura ou erosão de placa) no tipo 1', 'O valor de pico da troponina', 'A presença de doença coronariana obstrutiva, exclusiva do tipo 1'],
+    o: ['Presença de supradesnivelamento de ST no tipo 1, e não no tipo 2', 'Evento aterotrombótico agudo (ruptura/erosão de placa) no tipo 1', 'Valor de pico da troponina, maior no tipo 1 que no tipo 2', 'Presença de doença coronariana obstrutiva, exclusiva do tipo 1'],
     g: 'B',
     c: 'No tipo 1, a isquemia resulta de instabilidade aguda de placa com trombose. No tipo 2, a isquemia decorre de desbalanço entre oferta e demanda de oxigênio por outro mecanismo, com ou sem doença coronariana fixa associada. A distinção orienta o tratamento: antitrombóticos e estratégia invasiva no tipo 1, correção do fator desencadeante no tipo 2.',
     x: { A: 'Ambos os tipos podem cursar com ou sem supradesnivelamento de ST.', C: 'Não há valor de troponina que separe os dois tipos.', D: 'Doença coronariana fixa é frequente no tipo 2 e facilita o desbalanço.' },
@@ -149,7 +149,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Tipo 2 por bradiarritmia',
     e: 'Mulher de 82 anos é trazida por síncope e desconforto precordial. Eletrocardiograma: bloqueio atrioventricular total com escape ventricular de 28 bpm e infradesnivelamento de ST em V4 a V6. Pressão arterial de 80 x 40 mmHg. Troponina com curva de elevação. Após implante de marca-passo provisório, os sintomas e as alterações de ST desaparecem. O quadro corresponde a:',
-    o: ['Infarto tipo 1', 'Infarto tipo 2 por bradiarritmia grave', 'Infarto tipo 3', 'Injúria miocárdica crônica'],
+    o: ['Infarto tipo 1 por ruptura de placa aterosclerótica', 'Infarto tipo 2 por bradiarritmia grave', 'Infarto tipo 3 com morte antes da coleta de marcadores', 'Injúria miocárdica crônica de origem estrutural'],
     g: 'B',
     c: 'A bradiarritmia grave reduz o débito cardíaco e a pressão de perfusão coronariana, diminuindo a oferta de oxigênio ao miocárdio. Com curva de troponina e evidência de isquemia, que se resolvem com a correção da frequência, o diagnóstico é de infarto tipo 2.',
     x: { A: 'O desencadeante claro é a bradicardia com hipotensão, sem sinais de aterotrombose.', C: 'A paciente sobreviveu e teve troponina dosada.', D: 'Há curva de troponina e sintomas agudos.' },
@@ -165,7 +165,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Conduta no tipo 2',
     e: 'Mulher de 55 anos, sem doença coronariana conhecida, é admitida com crise tireotóxica, taquicardia sinusal de 156 bpm, dor precordial e infradesnivelamento difuso de ST. A troponina apresenta curva de elevação discreta. Está hemodinamicamente estável. A prioridade terapêutica é:',
-    o: ['Fibrinólise imediata', 'Tratar a causa do desbalanço entre oferta e demanda, controlando a tireotoxicose e a frequência cardíaca', 'Cateterismo de emergência em menos de 2 horas para todos os casos', 'Alta com antiagregante plaquetário e retorno ambulatorial'],
+    o: ['Fibrinólise imediata, pois há dor e elevação de troponina', 'Tratar a causa do desbalanço, controlando a tireotoxicose e a FC', 'Cateterismo de emergência em menos de 2 horas para todos os casos', 'Alta com antiagregante plaquetário e retorno ambulatorial'],
     g: 'B',
     c: 'No infarto tipo 2, o tratamento central é corrigir o fator que gerou o desbalanço (aqui, a taquicardia e o estado hiperdinâmico da tireotoxicose). A investigação coronariana e o uso de antitrombóticos são individualizados conforme a probabilidade de doença coronariana associada, e não aplicados de rotina como no tipo 1.',
     x: { A: 'Não há supradesnivelamento de ST nem trombose coronariana a ser lisada.', C: 'A estratégia invasiva imediata não é rotina no tipo 2 em paciente estável.', D: 'Trata-se de emergência endócrina com isquemia miocárdica; exige internação.' },
@@ -181,7 +181,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Tipos x apresentação eletrocardiográfica',
     e: 'Sobre a relação entre a classificação em infarto com ou sem supradesnivelamento de ST e a classificação em tipos 1 a 5, é correto afirmar:',
-    o: ['Todo infarto com supradesnivelamento de ST é tipo 1 e todo infarto sem supra é tipo 2', 'São classificações independentes: a primeira é eletrocardiográfica e orienta a reperfusão imediata; a segunda é etiológica', 'A classificação em tipos substituiu a classificação eletrocardiográfica', 'O infarto tipo 2 nunca apresenta alterações no eletrocardiograma'],
+    o: ['Todo infarto com supra de ST é tipo 1 e todo infarto sem supra é tipo 2', 'Independentes: uma é eletrocardiográfica (reperfusão), a outra é etiológica', 'A classificação em tipos substituiu a classificação eletrocardiográfica', 'O infarto tipo 2 nunca apresenta alterações no eletrocardiograma'],
     g: 'B',
     c: 'A divisão conforme o segmento ST existe para decidir a reperfusão imediata, enquanto os tipos 1 a 5 descrevem o mecanismo do infarto. Um infarto tipo 1 pode ou não ter supradesnivelamento de ST, e um tipo 2 (por exemplo, por vasoespasmo ou embolia) pode cursar com supra.',
     x: { A: 'Não há correspondência fixa entre o segmento ST e o tipo de infarto.', C: 'As duas classificações coexistem e têm finalidades diferentes.', D: 'O tipo 2 frequentemente cursa com infradesnivelamento e, às vezes, com supradesnivelamento de ST.' },
@@ -189,7 +189,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Outros procedimentos cardíacos',
     e: 'Mulher de 81 anos, com estenose aórtica grave e coronárias sem lesões, é submetida a implante transcateter de valva aórtica sem intercorrências. No dia seguinte está assintomática, com eletrocardiograma e ecocardiograma sem alterações novas, e a troponina está elevada em relação ao valor basal normal. A classificação mais adequada é:',
-    o: ['Infarto tipo 4a', 'Injúria miocárdica relacionada ao procedimento cardíaco', 'Infarto tipo 5', 'Infarto tipo 4c'],
+    o: ['Infarto tipo 4a relacionado à intervenção coronariana', 'Injúria miocárdica relacionada ao procedimento cardíaco', 'Infarto tipo 5 relacionado à cirurgia de revascularização', 'Infarto tipo 4c por reestenose intra-stent tardia'],
     g: 'B',
     c: 'Procedimentos cardíacos não coronarianos, como implante transcateter de valva aórtica, ablação e cirurgia valvar, causam injúria miocárdica por trauma direto, compressão ou microembolização. Sem evidência de isquemia aguda, descreve-se como injúria relacionada ao procedimento; os tipos 4 e 5 são reservados à revascularização percutânea e cirúrgica.',
     x: { A: 'O tipo 4a é restrito à intervenção coronariana percutânea.', C: 'O tipo 5 é restrito à cirurgia de revascularização miocárdica.', D: 'O tipo 4c exige reestenose após angioplastia.' },
@@ -197,7 +197,7 @@ export const INFARTO_2: QuestaoCompacta[] = [
   {
     s: 'Epidemiologia do tipo 2',
     e: 'Em comparação com os pacientes com infarto tipo 1, os pacientes com infarto tipo 2, na maioria dos estudos:',
-    o: ['São mais jovens e têm menos comorbidades', 'São mais idosos, mais frequentemente mulheres, têm mais comorbidades e apresentam mortalidade igual ou maior', 'Têm prognóstico excelente, sem necessidade de seguimento', 'Sempre têm coronárias angiograficamente normais'],
+    o: ['São mais jovens e têm menos comorbidades que o tipo 1', 'Mais idosos, mais mulheres, mais comorbidades e mortalidade igual ou maior', 'Têm prognóstico excelente, sem necessidade de seguimento', 'Sempre têm coronárias angiograficamente normais ao cateterismo'],
     g: 'B',
     c: 'O tipo 2 ocorre tipicamente em pacientes mais idosos e com mais comorbidades, com maior proporção de mulheres, e a mortalidade em curto e longo prazo costuma ser semelhante ou superior à do tipo 1, em grande parte por causas não cardiovasculares e pela gravidade da doença desencadeante. Por isso o diagnóstico não deve ser banalizado.',
     x: { A: 'O perfil habitual é de pacientes mais idosos e com mais doenças associadas.', C: 'O prognóstico é ruim na maioria das séries.', D: 'Muitos têm doença coronariana fixa, que facilita o desbalanço entre oferta e demanda.' },
