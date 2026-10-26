@@ -63,6 +63,7 @@ import { FIOS_1 } from './cirurgia/fios1';
 import { FIOS_2 } from './cirurgia/fios2';
 import { FIOS_3 } from './cirurgia/fios3';
 import { FIOS_4 } from './cirurgia/fios4';
+import { DIF_FIOS } from './cirurgia/difFios';
 import { HERNIAS_1 } from './cirurgia/hernias1';
 import { HERNIAS_2 } from './cirurgia/hernias2';
 import { HERNIAS_3 } from './cirurgia/hernias3';
@@ -135,7 +136,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...FIGADO_1, ...FIGADO_2, ...FIGADO_3, ...FIGADO_4, ...DIF_FIGADO,
   ]),
   ...montarQuestoes('cir-fios', 'Cirurgia', 'Fios de Sutura', [
-    ...FIOS_1, ...FIOS_2, ...FIOS_3, ...FIOS_4,
+    ...FIOS_1, ...FIOS_2, ...FIOS_3, ...FIOS_4, ...DIF_FIOS,
   ]),
   ...montarQuestoes('cir-hernias', 'Cirurgia', 'Hérnias da Parede Abdominal', [
     ...HERNIAS_1, ...HERNIAS_2, ...HERNIAS_3, ...HERNIAS_4,
