@@ -122,7 +122,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] SUS: Atenção Básica
 - [x] SUS: Financiamento do SUS
 - [x] Saúde do Trabalhador
-- [ ] Acidente de Trabalho
+- [x] Acidente de Trabalho
 - [ ] Ética Médica
 - [ ] Acidente por Animais Peçonhentos
 - [ ] Intoxicações
