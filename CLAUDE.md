@@ -123,7 +123,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] SUS: Financiamento do SUS
 - [x] Saúde do Trabalhador
 - [x] Acidente de Trabalho
-- [ ] Ética Médica
+- [x] Ética Médica
 - [ ] Acidente por Animais Peçonhentos
 - [ ] Intoxicações
 - [ ] Psiquiatria: Transtornos Psicóticos e Transtornos de Humor

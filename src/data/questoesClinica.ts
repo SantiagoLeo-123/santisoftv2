@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_PREV_ETICA } from './clinica/difPrevEtica';
 import { DIF_PREV_ACIDENTE } from './clinica/difPrevAcidente';
 import { DIF_PREV_TRABALHADOR } from './clinica/difPrevTrabalhador';
 import { DIF_PREV_FINANCIAMENTO } from './clinica/difPrevFinanciamento';
@@ -349,6 +350,8 @@ import { CM2_EXTRA_CORON } from './clinica/cm2ExtraCoron'
 import { DIF_CORON_1 } from './clinica/difCoron1'
 import { DIF_CORON_2 } from './clinica/difCoron2'
 import { CM2_EXTRA_INF } from './clinica/cm2ExtraInf'
+import { DIF_INF_1 } from './clinica/difInf1'
+import { DIF_INF_2 } from './clinica/difInf2'
 import { CM2_EXTRA_IC } from './clinica/cm2ExtraIc'
 import { CM2_EXTRA_ARR } from './clinica/cm2ExtraArr'
 import { CM2_EXTRA_VAL } from './clinica/cm2ExtraVal'
@@ -638,6 +641,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm2-extra-coron', 'Clínica Médica', 'Cardiologia: Doença Coronariana', CM2_EXTRA_CORON),
   ...montarQuestoes('dif-coron', 'Clínica Médica', 'Cardiologia: Doença Coronariana', [...DIF_CORON_1, ...DIF_CORON_2]),
   ...montarQuestoes('cm2-extra-inf', 'Clínica Médica', 'Cardiologia: Definição Universal do Infarto do Miocárdio', CM2_EXTRA_INF),
+  ...montarQuestoes('dif-inf', 'Clínica Médica', 'Cardiologia: Definição Universal do Infarto do Miocárdio', [...DIF_INF_1, ...DIF_INF_2]),
   ...montarQuestoes('cm2-extra-ic', 'Clínica Médica', 'Cardiologia: Insuficiência Cardíaca', CM2_EXTRA_IC),
   ...montarQuestoes('cm2-extra-arr', 'Clínica Médica', 'Cardiologia: Arritmias Cardíacas', CM2_EXTRA_ARR),
   ...montarQuestoes('cm2-extra-val', 'Clínica Médica', 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda', CM2_EXTRA_VAL),
@@ -673,4 +677,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-prev-financiamento', 'Preventiva', 'SUS: Financiamento do SUS', DIF_PREV_FINANCIAMENTO),
   ...montarQuestoes('dif-prev-trabalhador', 'Preventiva', 'Saúde do Trabalhador', DIF_PREV_TRABALHADOR),
   ...montarQuestoes('dif-prev-acidente', 'Preventiva', 'Acidente de Trabalho', DIF_PREV_ACIDENTE),
+  ...montarQuestoes('dif-prev-etica', 'Preventiva', 'Ética Médica', DIF_PREV_ETICA),
 ];
