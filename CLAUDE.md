@@ -109,7 +109,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 
 ### Preventiva
 
-- [ ] Epidemiologia: Processo Epidêmico e Prevenção de Doenças
+- [x] Epidemiologia: Processo Epidêmico e Prevenção de Doenças
 - [ ] Epidemiologia: Índices, Transição Demográfica e Epidemiológica
 - [ ] Epidemiologia: Coeficientes
 - [ ] Epidemiologia: Doenças Crônicas Não Transmissíveis e Declaração de Óbito

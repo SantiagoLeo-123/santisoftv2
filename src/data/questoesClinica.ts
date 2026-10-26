@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_PREV_PROCESSO } from './clinica/difPrevProcesso';
 import { HAS_1 } from './clinica/cmHas1';
 import { HAS_2 } from './clinica/cmHas2';
 import { HAS_3 } from './clinica/cmHas3';
@@ -605,4 +606,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-hip-portal', 'Clínica Médica', 'Hepatologia: Síndrome da Hipertensão Portal', [
     ...DIF_HIP_PORTAL_1, ...DIF_HIP_PORTAL_2,
   ]),
+  ...montarQuestoes('dif-prev-processo', 'Preventiva', 'Epidemiologia: Processo Epidêmico e Prevenção de Doenças', DIF_PREV_PROCESSO),
 ];
