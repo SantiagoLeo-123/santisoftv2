@@ -295,6 +295,7 @@ import { PED_EXTRA_CRESC } from './clinica/pedExtraCresc';
 import { PED_EXTRA_ALEIT } from './clinica/pedExtraAleit';
 import { DIF_PED_EXANT } from './clinica/difPedExant';
 import { DIF_PED_NEO1 } from './clinica/difPedNeo1';
+import { DIF_PED_NEO2 } from './clinica/difPedNeo2';
 import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
 import { CM_EXTRA_GLOM } from './clinica/cmExtraGlom';
 import { CM_EXTRA_TUB } from './clinica/cmExtraTub';
@@ -567,6 +568,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('ped-extra-aleit', 'Pediatria', 'Aleitamento Materno', PED_EXTRA_ALEIT),
   ...montarQuestoes('dif-ped-exant', 'Pediatria', 'Doenças Exantemáticas', DIF_PED_EXANT),
   ...montarQuestoes('dif-ped-neo1', 'Pediatria', 'Neonatologia I (Icterícia e Reanimação)', DIF_PED_NEO1),
+  ...montarQuestoes('dif-ped-neo2', 'Pediatria', 'Neonatologia II (Infecções Congênitas e Distúrbios Respiratórios)', DIF_PED_NEO2),
   ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
   ...montarQuestoes('cm-extra-glom', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', CM_EXTRA_GLOM),
   ...montarQuestoes('cm-extra-tub', 'Clínica Médica', 'Nefrologia: Síndromes Tubulares e Vasculares', CM_EXTRA_TUB),
