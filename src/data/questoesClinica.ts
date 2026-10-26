@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_PREV_TRABALHADOR } from './clinica/difPrevTrabalhador';
 import { DIF_PREV_FINANCIAMENTO } from './clinica/difPrevFinanciamento';
 import { DIF_PREV_ATENCAO_BASICA } from './clinica/difPrevAtencaoBasica';
 import { DIF_PREV_VIGILANCIA } from './clinica/difPrevVigilancia';
@@ -662,4 +663,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-prev-vigilancia', 'Preventiva', 'Vigilância: Raiva, Tétano e Vigilância da Saúde', DIF_PREV_VIGILANCIA),
   ...montarQuestoes('dif-prev-atencao-basica', 'Preventiva', 'SUS: Atenção Básica', DIF_PREV_ATENCAO_BASICA),
   ...montarQuestoes('dif-prev-financiamento', 'Preventiva', 'SUS: Financiamento do SUS', DIF_PREV_FINANCIAMENTO),
+  ...montarQuestoes('dif-prev-trabalhador', 'Preventiva', 'Saúde do Trabalhador', DIF_PREV_TRABALHADOR),
 ];

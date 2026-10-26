@@ -121,7 +121,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Vigilância: Raiva, Tétano e Vigilância da Saúde
 - [x] SUS: Atenção Básica
 - [x] SUS: Financiamento do SUS
-- [ ] Saúde do Trabalhador
+- [x] Saúde do Trabalhador
 - [ ] Acidente de Trabalho
 - [ ] Ética Médica
 - [ ] Acidente por Animais Peçonhentos
