@@ -5,7 +5,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Conceito de demência',
     e: 'O elemento que diferencia o transtorno neurocognitivo maior (demência) do comprometimento cognitivo leve, segundo o DSM-5, é:',
-    o: ['A presença de queixa de memória confirmada por informante', 'A interferência do declínio cognitivo na independência para as atividades de vida diária', 'A presença de atrofia hipocampal na ressonância magnética', 'A idade de início dos sintomas acima de 65 anos'],
+    o: ['A presença de queixa de memória, confirmada por um informante', 'A interferência do declínio cognitivo na independência para as AVDs', 'A presença de atrofia hipocampal na ressonância magnética de crânio', 'A idade de início dos sintomas acima de 65 anos'],
     g: 'B',
     c: 'Nas duas condições há declínio cognitivo em relação ao nível prévio, documentado por queixa e por testes objetivos. O que define o transtorno neurocognitivo maior é a perda de independência nas atividades cotidianas, a começar pelas instrumentais (finanças, medicações, transporte). No comprometimento cognitivo leve a pessoa mantém a autonomia, ainda que com mais esforço ou estratégias compensatórias.',
     x: { A: 'A queixa confirmada por informante existe tanto no comprometimento cognitivo leve quanto na demência.', C: 'Neuroimagem apoia a etiologia, mas não entra na definição sindrômica de demência.', D: 'A idade não é critério diagnóstico; há demências de início pré-senil.' },
@@ -21,7 +21,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Comprometimento cognitivo leve',
     e: 'Homem de 70 anos, 11 anos de escolaridade, refere esquecimento de recados e compromissos há um ano, confirmado pela esposa. Continua dirigindo, pagando contas e trabalhando em seu comércio sem erros. Na avaliação neuropsicológica, o desempenho em memória episódica está abaixo do esperado para idade e escolaridade, com demais domínios normais. O diagnóstico sindrômico e a conduta são:',
-    o: ['Demência leve; iniciar donepezila', 'Comprometimento cognitivo leve amnéstico; investigar causas tratáveis, controlar fatores de risco e reavaliar periodicamente', 'Declínio cognitivo subjetivo; alta sem necessidade de seguimento', 'Comprometimento cognitivo leve não amnéstico; iniciar memantina'],
+    o: ['Demência leve; iniciar donepezila em dose habitual de manutenção', 'CCL amnéstico: investigar causas tratáveis e reavaliar', 'Declínio cognitivo subjetivo; alta sem necessidade de qualquer seguimento', 'CCL não amnéstico; iniciar memantina em dose habitual de manutenção'],
     g: 'B',
     c: 'Há queixa confirmada, déficit objetivo em um domínio (memória) e independência funcional preservada, o que define comprometimento cognitivo leve amnéstico de domínio único. Esse subtipo é o que mais progride para doença de Alzheimer, por isso exige seguimento. Não há medicação que comprovadamente retarde a conversão; o manejo inclui pesquisar causas reversíveis, rever fármacos, tratar fatores vasculares e estimular atividade física e cognitiva.',
     x: { A: 'A funcionalidade está preservada, o que afasta demência, e anticolinesterásico não é indicado.', C: 'No declínio subjetivo os testes são normais; aqui há déficit objetivo que exige seguimento.', D: 'O domínio afetado é a memória (subtipo amnéstico), e a memantina não tem indicação nessa fase.' },
@@ -29,7 +29,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Comprometimento cognitivo leve',
     e: 'Sobre o comprometimento cognitivo leve, assinale a alternativa correta:',
-    o: ['Todos os pacientes evoluem para demência em até cinco anos', 'A taxa de progressão para demência é maior que a da população idosa geral, mas parte dos pacientes permanece estável ou retorna à cognição normal', 'Os anticolinesterásicos reduzem de forma sustentada a conversão para demência', 'O diagnóstico exige comprometimento de pelo menos dois domínios cognitivos'],
+    o: ['Todos os pacientes evoluem para demência em até cinco anos', 'Progressão maior que a da população idosa, mas parte permanece estável ou volta ao normal', 'Os anticolinesterásicos reduzem de forma sustentada a conversão para demência', 'O diagnóstico exige comprometimento de pelo menos dois domínios cognitivos'],
     g: 'B',
     c: 'O comprometimento cognitivo leve é um estado de risco, com taxa anual de conversão para demência bem superior à de idosos cognitivamente normais. Contudo, é heterogêneo: há casos que se mantêm estáveis e outros que revertem, sobretudo quando a causa é depressão, fármacos, distúrbio do sono ou doença clínica. Por isso o seguimento longitudinal é essencial.',
     x: { A: 'A evolução não é inevitável; uma parcela estabiliza ou melhora ao longo do tempo.', C: 'Ensaios com anticolinesterásicos não mostraram redução sustentada da conversão para demência.', D: 'Pode haver acometimento de um único domínio (por exemplo, amnéstico de domínio único).' },
@@ -37,7 +37,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Domínios cognitivos',
     e: 'O DSM-5 lista os domínios cognitivos que podem estar comprometidos nos transtornos neurocognitivos. São domínios previstos, EXCETO:',
-    o: ['Atenção complexa e função executiva', 'Aprendizagem e memória', 'Cognição social e linguagem', 'Nível de consciência e ciclo sono-vigília'],
+    o: ['Atenção complexa e função executiva, que são domínios do DSM-5', 'Aprendizagem e memória, que são domínios do DSM-5', 'Cognição social e linguagem, que são domínios do DSM-5', 'Nível de consciência e ciclo sono-vigília'],
     g: 'D',
     c: 'Os seis domínios do DSM-5 são atenção complexa, função executiva, aprendizagem e memória, linguagem, função perceptomotora e cognição social. O nível de consciência não é um domínio cognitivo: sua alteração aguda aponta para delirium, que precisa ser excluído antes de se diagnosticar demência.',
     x: { A: 'Atenção complexa e função executiva são domínios previstos no DSM-5.', B: 'Aprendizagem e memória constituem um dos seis domínios do DSM-5.', C: 'Cognição social e linguagem são domínios formalmente listados no DSM-5.' },
@@ -45,7 +45,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Critério de memória',
     e: 'Em relação aos critérios atuais de demência (DSM-5 e recomendações da Academia Brasileira de Neurologia), é correto afirmar que:',
-    o: ['O comprometimento da memória é obrigatório para o diagnóstico', 'O diagnóstico pode ser feito sem déficit de memória, desde que haja declínio em domínios cognitivos ou no comportamento com prejuízo funcional', 'A demência só pode ser diagnosticada após exame de neuroimagem alterado', 'A presença de sintomas psicóticos exclui o diagnóstico'],
+    o: ['O comprometimento da memória é obrigatório para o diagnóstico de demência', 'Pode ser feito sem déficit de memória, se há declínio e prejuízo funcional', 'O diagnóstico só pode ser firmado após um exame de neuroimagem alterado', 'A presença de sintomas psicóticos exclui o diagnóstico de demência'],
     g: 'B',
     c: 'Os critérios antigos exigiam déficit de memória, o que excluía quadros como a demência frontotemporal e as afasias progressivas, em que a memória é poupada no início. Os critérios atuais aceitam declínio em qualquer domínio cognitivo ou no comportamento, desde que represente piora em relação ao nível prévio, interfira na funcionalidade e não seja explicado por delirium ou transtorno psiquiátrico maior.',
     x: { A: 'A memória deixou de ser critério obrigatório nas classificações atuais.', C: 'O diagnóstico sindrômico é clínico; a neuroimagem auxilia na etiologia e exclui causas estruturais.', D: 'Sintomas psicóticos são frequentes nas demências e não excluem o diagnóstico.' },
@@ -53,7 +53,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Anamnese com informante',
     e: 'Na avaliação de um idoso com suspeita de demência, a entrevista com um informante próximo é considerada indispensável principalmente porque:',
-    o: ['O paciente com demência não consegue responder a nenhuma pergunta da anamnese', 'A anosognosia é frequente, e o informante descreve o declínio em relação ao nível prévio e o impacto funcional', 'O informante é quem deve assinar o termo de consentimento para os exames', 'Os testes cognitivos de rastreio só podem ser aplicados ao acompanhante'],
+    o: ['O paciente com demência não consegue responder a nenhuma pergunta da anamnese', 'A anosognosia é frequente; o informante descreve o declínio e o impacto funcional', 'O informante é quem deve assinar o termo de consentimento para os exames', 'Os testes cognitivos de rastreio só podem ser aplicados ao acompanhante'],
     g: 'B',
     c: 'Muitos pacientes com demência, em especial na doença de Alzheimer e na demência frontotemporal, não percebem ou minimizam seus déficits (anosognosia). O informante permite caracterizar o início, a progressão, as mudanças de comportamento e a perda de autonomia, que são a base do diagnóstico. Um padrão sugestivo é o paciente sem queixas levado à consulta pela família preocupada.',
     x: { A: 'Nas fases iniciais o paciente responde à entrevista, mas tende a subestimar suas dificuldades.', C: 'A finalidade é diagnóstica, e não burocrática; consentimento depende da capacidade do paciente.', D: 'Os testes de rastreio são aplicados ao próprio paciente; ao informante aplicam-se questionários funcionais.' },
@@ -61,7 +61,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Mini-Exame do Estado Mental',
     e: 'Em relação ao Mini-Exame do Estado Mental (MEEM), assinale a alternativa correta:',
-    o: ['Tem pontuação máxima de 30 e um único ponto de corte válido para qualquer população', 'É fortemente influenciado pela escolaridade, razão pela qual se usam pontos de corte ajustados aos anos de estudo', 'Avalia com boa sensibilidade as funções executivas', 'Um resultado normal exclui comprometimento cognitivo leve'],
+    o: ['Pontuação máxima de 30 e um único ponto de corte válido para qualquer população', 'É muito influenciado pela escolaridade; usam-se pontos de corte ajustados', 'Avalia com boa sensibilidade as funções executivas do paciente', 'Um resultado normal exclui o comprometimento cognitivo leve'],
     g: 'B',
     c: 'O MEEM soma 30 pontos e avalia orientação, registro, atenção e cálculo, evocação, linguagem e praxia construtiva. Itens como cálculo, leitura, escrita e cópia dependem de instrução formal, de modo que analfabetos pontuam menos sem ter demência. Por isso, no Brasil, usam-se cortes estratificados por escolaridade (mais baixos para analfabetos e progressivamente mais altos com mais anos de estudo).',
     x: { A: 'A pontuação máxima é 30, mas o corte único gera falso-positivos em baixa escolaridade.', C: 'O MEEM é pobre em itens executivos, sendo pouco sensível a disfunção frontal.', D: 'Há efeito teto: pessoas com alta escolaridade e comprometimento leve podem ter MEEM normal.' },
@@ -69,7 +69,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Escolaridade e rastreio',
     e: 'Homem de 72 anos, analfabeto, lavrador aposentado, é avaliado em unidade básica por queixa de esquecimento trazida pelo próprio paciente. Segue independente para todas as atividades, segundo a esposa. Obtém 21 pontos no Mini-Exame do Estado Mental, perdendo pontos em cálculo, leitura, escrita e cópia do desenho. A interpretação mais adequada é:',
-    o: ['Demência moderada, pois a pontuação está abaixo de 24', 'Desempenho dentro do esperado para analfabetos, sem evidência de demência no momento', 'Delirium, pela desatenção demonstrada no item de cálculo', 'Demência leve, com indicação imediata de anticolinesterásico'],
+    o: ['Demência moderada, pois a pontuação está abaixo de 24 pontos', 'Desempenho esperado para analfabetos, sem evidência de demência no momento', 'Delirium, pela desatenção demonstrada no item de cálculo', 'Demência leve, com indicação imediata de anticolinesterásico'],
     g: 'B',
     c: 'O ponto de corte de 24 foi estabelecido em populações escolarizadas. Para analfabetos, os estudos brasileiros adotam cortes em torno de 18 a 20, e os itens perdidos pelo paciente são justamente os dependentes de escolarização. Somado à funcionalidade preservada, o resultado não sustenta demência; cabe seguimento e, se necessário, testes menos dependentes de escolaridade, como fluência verbal e memória de figuras.',
     x: { A: 'O corte de 24 não se aplica a analfabetos e geraria um falso-positivo.', C: 'Não há início agudo nem flutuação; os erros de cálculo decorrem da falta de escolarização.', D: 'Sem perda funcional e com escore adequado à escolaridade não há diagnóstico de demência.' },
@@ -77,7 +77,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'MoCA',
     e: 'Em comparação com o Mini-Exame do Estado Mental, a Avaliação Cognitiva de Montreal (MoCA) caracteriza-se por:',
-    o: ['Ser mais rápida e não sofrer influência da escolaridade', 'Maior sensibilidade para comprometimento cognitivo leve, por incluir tarefas executivas e visuoespaciais mais exigentes', 'Ser indicada apenas para pacientes com demência avançada', 'Dispensar a evocação tardia de palavras'],
+    o: ['Ser mais rápida e não sofrer nenhuma influência da escolaridade do paciente', 'Maior sensibilidade para CCL, por incluir tarefas executivas e visuoespaciais', 'Ser indicada apenas para pacientes com demência avançada ou muito grave', 'Dispensar a evocação tardia de palavras, para abreviar a duração do teste'],
     g: 'B',
     c: 'A MoCA inclui trilhas alternadas, cópia do cubo, desenho do relógio, abstração, fluência fonêmica e evocação tardia de cinco palavras, o que a torna mais difícil e mais sensível a déficits leves e a disfunção executiva. Em contrapartida, sofre grande influência da escolaridade, com muitos falso-positivos em pessoas com poucos anos de estudo.',
     x: { A: 'A MoCA também depende da escolaridade e leva tempo semelhante ou maior que o MEEM.', C: 'Em demência avançada há efeito chão; sua utilidade maior é nos quadros leves.', D: 'A evocação tardia de cinco palavras é um dos itens centrais da MoCA.' },
@@ -85,7 +85,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Teste do relógio',
     e: 'O teste do desenho do relógio, em que se pede ao paciente que desenhe um mostrador com todos os números e marque um horário determinado, avalia principalmente:',
-    o: ['Memória episódica verbal e memória semântica', 'Funções executivas (planejamento) e habilidades visuoespaciais e construtivas', 'Linguagem expressiva e nomeação', 'Orientação temporal e espacial'],
+    o: ['Memória episódica verbal e memória semântica do paciente avaliado', 'Funções executivas e habilidades visuoespaciais e construtivas', 'Linguagem expressiva e nomeação de objetos comuns do dia a dia', 'Orientação temporal e espacial do paciente no momento do exame'],
     g: 'B',
     c: 'Desenhar o relógio exige planejar a distribuição dos números, organizar o espaço, compreender o comando e abstrair a posição dos ponteiros. Por isso o teste é sensível a disfunção frontal e parietal, complementando o Mini-Exame do Estado Mental, que é pobre em itens executivos. Erros típicos são números amontoados em um lado, omissão de números e ponteiros apontando para o número literal do comando.',
     x: { A: 'A memória episódica é avaliada por listas de palavras ou figuras com evocação tardia.', C: 'A linguagem é avaliada por nomeação, fluência, repetição e compreensão.', D: 'A orientação é avaliada por perguntas diretas sobre data e local.' },
@@ -93,7 +93,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Fluência verbal',
     e: 'No teste de fluência verbal semântica, pede-se ao paciente que diga o maior número de animais em um minuto. Sobre esse teste, é correto afirmar:',
-    o: ['Não sofre nenhuma influência da escolaridade', 'Avalia memória semântica, linguagem e função executiva, com pontos de corte que variam conforme a escolaridade', 'Um desempenho baixo é específico de doença de Alzheimer', 'Avalia exclusivamente a memória episódica recente'],
+    o: ['Não sofre nenhuma influência da escolaridade do paciente avaliado', 'Avalia memória semântica, linguagem e função executiva; corte varia com a escolaridade', 'Um desempenho baixo é específico de doença de Alzheimer em qualquer idade', 'Avalia exclusivamente a memória episódica recente do paciente avaliado'],
     g: 'B',
     c: 'Gerar palavras de uma categoria requer acesso ao estoque semântico (temporal) e estratégias de busca e mudança de subcategoria (frontal). É um teste rápido, útil em populações de baixa escolaridade, mas os cortes são ajustados aos anos de estudo. Na doença de Alzheimer a fluência semântica costuma ser mais afetada que a fonêmica, o inverso do que ocorre em lesões frontais.',
     x: { A: 'A escolaridade influencia o desempenho, embora menos que em outros testes.', C: 'O desempenho baixo ocorre em várias demências, depressão e lesões frontais ou temporais.', D: 'A tarefa depende de memória semântica e função executiva, não de memória episódica.' },
@@ -101,7 +101,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Avaliação funcional',
     e: 'Na história natural da maioria das demências, a primeira esfera funcional a ser comprometida e o instrumento adequado para avaliá-la são, respectivamente:',
-    o: ['Atividades básicas de vida diária; índice de Katz', 'Atividades instrumentais de vida diária; questionário de Pfeffer ou escala de Lawton', 'Mobilidade; escala de Berg', 'Continência esfincteriana; índice de Barthel'],
+    o: ['Atividades básicas de vida diária, avaliadas pelo índice de Katz', 'Atividades instrumentais de vida diária (Pfeffer ou Lawton)', 'Mobilidade, avaliada pela escala de Berg', 'Continência esfincteriana, avaliada pelo índice de Barthel'],
     g: 'B',
     c: 'As atividades instrumentais (controlar finanças, tomar medicações, fazer compras, usar transporte, cozinhar) exigem planejamento e memória e são perdidas primeiro. As atividades básicas, como banho, vestir-se e alimentar-se, são comprometidas em fases moderadas a avançadas. O questionário de atividades funcionais de Pfeffer, respondido pelo informante, é muito usado no Brasil e complementa os testes cognitivos.',
     x: { A: 'As atividades básicas, medidas pelo índice de Katz, são perdidas mais tardiamente.', C: 'A mobilidade costuma ser afetada tardiamente na maioria das demências degenerativas.', D: 'A incontinência é em geral tardia, exceto na hidrocefalia de pressão normal.' },
@@ -125,7 +125,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Neuroimagem',
     e: 'Sobre o papel da neuroimagem estrutural (tomografia ou ressonância de crânio) na avaliação inicial de uma síndrome demencial, é correto afirmar:',
-    o: ['Só deve ser solicitada quando houver sinais neurológicos focais', 'É recomendada na investigação inicial para excluir causas estruturais, como hematoma subdural, tumor e hidrocefalia, e para avaliar lesões vasculares e padrões de atrofia', 'Um exame normal exclui doença de Alzheimer', 'Deve ser substituída pela tomografia por emissão de pósitrons em todos os casos'],
+    o: ['Só deve ser solicitada quando houver sinais neurológicos focais ao exame', 'Na investigação inicial: exclui causas estruturais e avalia lesão vascular e atrofia', 'Um exame normal exclui por completo a doença de Alzheimer no paciente', 'Deve ser substituída pelo PET cerebral em todos os casos de demência'],
     g: 'B',
     c: 'Recomenda-se ao menos um exame de imagem estrutural na avaliação de todo paciente com demência. Ele identifica causas potencialmente tratáveis, quantifica a carga vascular e mostra padrões de atrofia que apoiam o diagnóstico etiológico. A ressonância é preferível por detalhar melhor hipocampos e substância branca; a tomografia é alternativa aceitável quando a ressonância não está disponível.',
     x: { A: 'Lesões estruturais tratáveis podem existir sem sinais focais ao exame.', C: 'Na fase inicial da doença de Alzheimer a imagem estrutural pode ser normal.', D: 'A imagem funcional ou molecular fica reservada a casos de dúvida diagnóstica.' },
@@ -149,7 +149,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Fármacos e cognição',
     e: 'Mulher de 81 anos passa a apresentar esquecimentos, sonolência diurna e duas quedas nas últimas seis semanas. Há dois meses foram prescritos amitriptilina para dor neuropática, oxibutinina para urgência urinária e clonazepam para insônia. Exames laboratoriais e tomografia de crânio sem alterações relevantes. A conduta inicial mais apropriada é:',
-    o: ['Iniciar donepezila pela provável doença de Alzheimer', 'Rever a prescrição, reduzindo e suspendendo gradualmente os fármacos anticolinérgicos e o benzodiazepínico, e reavaliar a cognição', 'Associar quetiapina para regularizar o sono', 'Solicitar tomografia por emissão de pósitrons com marcador de amiloide'],
+    o: ['Iniciar donepezila pela provável doença de Alzheimer, sem revisar fármacos', 'Rever a prescrição: suspender aos poucos anticolinérgicos e benzodiazepínico', 'Associar quetiapina para regularizar o sono da paciente, em dose baixa', 'Solicitar PET com marcador de amiloide, antes de qualquer revisão de fármacos'],
     g: 'B',
     c: 'A relação temporal com a introdução de três fármacos potencialmente inapropriados para idosos torna a causa medicamentosa a mais provável. Antidepressivos tricíclicos e antimuscarínicos vesicais bloqueiam receptores muscarínicos centrais, prejudicando memória e atenção, e os benzodiazepínicos causam sedação, amnésia anterógrada e quedas. A desprescrição gradual é a primeira medida, antes de rotular o quadro como demência.',
     x: { A: 'Prescrever anticolinesterásico junto de anticolinérgicos é incoerente e ignora a causa provável.', C: 'Acrescentar um sedativo agravaria a sonolência, a confusão e o risco de quedas.', D: 'Exame de alto custo não se justifica antes de corrigir uma causa reversível evidente.' },
@@ -157,7 +157,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Delirium versus demência',
     e: 'A característica clínica que melhor distingue o delirium de uma demência degenerativa em fase inicial é:',
-    o: ['Presença de desorientação temporal', 'Início agudo, curso flutuante e prejuízo acentuado da atenção', 'Presença de alucinações visuais', 'Comprometimento da memória recente'],
+    o: ['Presença de desorientação temporal, que ocorre nas duas condições', 'Início agudo, curso flutuante e prejuízo acentuado da atenção', 'Presença de alucinações visuais, que ocorrem nas duas condições', 'Comprometimento da memória recente, que ocorre nas duas condições'],
     g: 'B',
     c: 'O delirium instala-se em horas a dias, oscila ao longo do dia e tem como marca central o distúrbio da atenção e do nível de consciência, em geral secundário a uma causa orgânica aguda. Nas demências degenerativas o início é insidioso, a evolução leva meses a anos e a atenção e a vigília ficam preservadas até fases avançadas.',
     x: { A: 'A desorientação temporal ocorre em ambas as condições e não as diferencia.', C: 'Alucinações visuais ocorrem no delirium e também em demências, como a de corpos de Lewy.', D: 'O prejuízo de memória recente é comum a ambas e não serve para a distinção.' },
@@ -165,7 +165,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Delirium sobreposto',
     e: 'Homem de 84 anos, com doença de Alzheimer leve e independente para o autocuidado, é levado ao pronto-socorro porque há dois dias está sonolento, fala coisas desconexas e não reconhece a filha em alguns períodos, com momentos de lucidez. Não mantém a atenção para contar os meses de trás para frente. Temperatura de 37,9 graus e disúria. A hipótese e a conduta mais adequadas são:',
-    o: ['Progressão natural da demência; ajustar a dose do anticolinesterásico', 'Delirium sobreposto à demência; investigar e tratar o fator precipitante, como infecção urinária', 'Depressão com sintomas psicóticos; iniciar antidepressivo', 'Acidente vascular cerebral estratégico; iniciar trombólise'],
+    o: ['Progressão natural da demência; ajustar a dose do anticolinesterásico', 'Delirium sobreposto à demência: tratar o fator precipitante, como ITU', 'Depressão com sintomas psicóticos; iniciar antidepressivo em dose habitual', 'AVC estratégico; iniciar trombólise intravenosa em dose habitual'],
     g: 'B',
     c: 'A piora abrupta, flutuante, com desatenção e alteração do nível de consciência em paciente com demência prévia caracteriza delirium, do qual a demência é o principal fator predisponente. Trata-se de urgência médica, pois sinaliza doença aguda subjacente, aqui provavelmente infecciosa. O manejo consiste em identificar e tratar a causa, rever fármacos e instituir medidas não farmacológicas.',
     x: { A: 'A doença de Alzheimer não piora de forma abrupta em dois dias com flutuação da consciência.', C: 'O quadro é agudo, com desatenção e febre, o que não corresponde a depressão.', D: 'Não há déficit focal súbito, e o quadro flutuante com febre aponta para delirium.' },
@@ -173,7 +173,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Pseudodemência depressiva',
     e: 'Na diferenciação entre o prejuízo cognitivo associado à depressão (pseudodemência) e a demência degenerativa, favorece o diagnóstico de depressão:',
-    o: ['Paciente que minimiza os déficits e se esforça nos testes, com respostas erradas', 'Paciente que enfatiza as próprias falhas, responde com frequência que não sabe e melhora com pistas na evocação', 'Início insidioso, de data imprecisa, com progressão lenta ao longo de anos', 'Presença de afasia, apraxia e agnosia'],
+    o: ['Paciente que minimiza os déficits e se esforça nos testes, com respostas erradas', 'Enfatiza as falhas, responde que não sabe e melhora com pistas na evocação', 'Início insidioso, de data imprecisa, com progressão lenta ao longo de anos', 'Presença de afasia, apraxia e agnosia desde o início'],
     g: 'B',
     c: 'Na depressão, a queixa cognitiva é enfática e desproporcional ao desempenho, o esforço nos testes é pequeno e predominam lentificação, desatenção e falha de evocação que melhora com pistas, pois o registro está preservado. O início costuma ser datável e associado a humor deprimido, anedonia e alterações de sono e apetite. Na doença de Alzheimer o paciente tende a negar o problema e não se beneficia de pistas.',
     x: { A: 'Minimizar déficits e errar apesar do esforço sugere demência com anosognosia.', C: 'Início insidioso e progressão lenta por anos são típicos de demência degenerativa.', D: 'Sinais corticais como afasia, apraxia e agnosia indicam doença degenerativa cortical.' },
@@ -181,7 +181,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Depressão no idoso',
     e: 'Mulher de 69 anos, viúva há cinco meses, é levada pela filha por esquecimentos, desinteresse e descuido com a casa há três meses. Refere tristeza, insônia terminal, perda de 5 kg e diz que sua memória acabou. Nos testes responde quase sempre que não sabe; na lista de palavras evoca poucas, mas reconhece quase todas quando recebe pistas. TSH, vitamina B12 e ressonância de crânio normais. A conduta mais adequada é:',
-    o: ['Iniciar anticolinesterásico e memantina', 'Tratar o episódio depressivo com antidepressivo e psicoterapia e reavaliar a cognição após a remissão', 'Solicitar pesquisa de biomarcadores de amiloide no líquor', 'Prescrever benzodiazepínico para a insônia e reavaliar em um ano'],
+    o: ['Iniciar anticolinesterásico e memantina, em dose habitual de manutenção', 'Tratar a depressão (antidepressivo e psicoterapia) e reavaliar a cognição', 'Pedir biomarcadores de amiloide no líquor, de imediato, na primeira consulta', 'Prescrever benzodiazepínico para a insônia e reavaliar somente em um ano'],
     g: 'B',
     c: 'O quadro reúne critérios de episódio depressivo maior e um perfil cognitivo de falha de evocação com reconhecimento preservado, típico de depressão. A conduta é tratar a depressão, preferindo inibidores seletivos da recaptação de serotonina, e reaplicar os testes depois. O seguimento é importante porque a depressão de início tardio com sintomas cognitivos aumenta o risco de demência futura e pode ser seu pródromo.',
     x: { A: 'Não há diagnóstico de doença de Alzheimer que justifique antidemenciais neste momento.', C: 'Biomarcadores não são o primeiro passo diante de uma causa tratável evidente.', D: 'Benzodiazepínicos pioram a cognição e não tratam o episódio depressivo.' },
@@ -189,7 +189,7 @@ export const DEMENCIA_1: QuestaoCompacta[] = [
   {
     s: 'Rastreio populacional',
     e: 'Quanto ao rastreamento de demência em idosos assintomáticos na atenção primária, é correto afirmar:',
-    o: ['Deve ser feito anualmente em toda pessoa acima de 60 anos com ressonância de crânio', 'Não há evidência suficiente para o rastreio universal de assintomáticos; a avaliação cognitiva está indicada diante de queixa do paciente ou de familiares ou de suspeita clínica', 'Deve ser realizado com genotipagem da APOE em filhos de pacientes com doença de Alzheimer', 'É contraindicado aplicar testes cognitivos na atenção primária'],
+    o: ['Deve ser feito anualmente em toda pessoa acima de 60 anos, com ressonância de crânio', 'Sem evidência para rastreio universal; avaliar se queixa do paciente ou familiar ou suspeita clínica', 'Deve ser feito com genotipagem da APOE em filhos de pacientes com Alzheimer', 'É contraindicado aplicar testes cognitivos na atenção primária'],
     g: 'B',
     c: 'Não há demonstração de que o rastreio sistemático de pessoas sem queixas melhore desfechos, e ele gera falso-positivos e ansiedade. A estratégia recomendada é a busca de casos: avaliar a cognição quando houver queixa do paciente ou de informante, dificuldades funcionais novas ou observação do profissional. Os testes breves são adequados à atenção primária.',
     x: { A: 'Neuroimagem não é método de rastreio populacional de demência.', C: 'A genotipagem da APOE não é recomendada para predição individual de risco.', D: 'Testes breves são apropriados e recomendados na atenção primária quando há suspeita.' },

@@ -21,7 +21,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia do enfisema',
     e: 'Na deficiência de alfa-1-antitripsina, o enfisema pulmonar resulta principalmente de:',
-    o: ['Acúmulo de imunocomplexos nos septos alveolares', 'Ação não inibida da elastase neutrofílica sobre as fibras elásticas do parênquima', 'Hiperplasia de células caliciformes com obstrução por muco', 'Fibrose peribrônquica por deposição de colágeno tipo I'],
+    o: ['Acúmulo de imunocomplexos nos septos alveolares, com ativação do complemento', 'Ação não inibida da elastase neutrofílica sobre as fibras elásticas do parênquima', 'Hiperplasia de células caliciformes com obstrução das vias aéreas por muco', 'Fibrose peribrônquica por deposição de colágeno tipo I nas vias aéreas'],
     g: 'B',
     c: 'A alfa-1-antitripsina é a principal antiprotease do pulmão e inibe a elastase liberada pelos neutrófilos. Na sua deficiência, o desequilíbrio protease-antiprotease permite a degradação da elastina dos septos alveolares, com destruição do parênquima. O cigarro agrava o processo por recrutar neutrófilos e oxidar a antiprotease restante.',
     x: { A: 'Imunocomplexos não participam da patogênese do enfisema; caracterizam hipersensibilidade tipo III.', C: 'A hiperplasia de células caliciformes é a base da bronquite crônica, não da destruição alveolar.', D: 'A fibrose peribrônquica contribui para a obstrução de pequenas vias aéreas, mas não explica a destruição enfisematosa por falta de antiprotease.' },
@@ -37,7 +37,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Bronquite crônica',
     e: 'A definição clássica de bronquite crônica é:',
-    o: ['Obstrução ao fluxo aéreo com VEF1 abaixo de 50% do previsto', 'Tosse produtiva na maioria dos dias por pelo menos 3 meses ao ano, em 2 anos consecutivos, excluídas outras causas', 'Alargamento permanente dos espaços aéreos distais ao bronquíolo terminal', 'Dilatação irreversível dos brônquios com infecções de repetição'],
+    o: ['Obstrução ao fluxo aéreo com VEF1 abaixo de 50% do previsto, após broncodilatador', 'Tosse produtiva na maioria dos dias por ≥ 3 meses/ano, em 2 anos seguidos, sem outra causa', 'Alargamento permanente dos espaços aéreos distais ao bronquíolo terminal', 'Dilatação irreversível dos brônquios, com infecções de repetição'],
     g: 'B',
     c: 'A bronquite crônica tem definição clínica e epidemiológica: tosse com expectoração por pelo menos 3 meses ao ano em 2 anos consecutivos, sem outra causa que a explique. Pode existir com ou sem obstrução ao fluxo aéreo, e por isso não é sinônimo de DPOC.',
     x: { A: 'A bronquite crônica é definida por sintomas, não por valor de VEF1.', C: 'Essa é a definição anatômica de enfisema.', D: 'Essa é a definição de bronquiectasia.' },
@@ -45,7 +45,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Bronquite crônica',
     e: 'O achado histopatológico característico da bronquite crônica nas vias aéreas centrais é:',
-    o: ['Granulomas não caseosos na submucosa', 'Hipertrofia das glândulas mucosas submucosas com aumento do índice de Reid e hiperplasia de células caliciformes', 'Espessamento acentuado da membrana basal com infiltrado eosinofílico', 'Necrose da cartilagem brônquica com dilatação sacular'],
+    o: ['Granulomas não caseosos na submucosa brônquica, com células gigantes', 'Hipertrofia das glândulas mucosas (índice de Reid) e hiperplasia de células caliciformes', 'Espessamento acentuado da membrana basal com infiltrado eosinofílico', 'Necrose da cartilagem brônquica com dilatação sacular dos brônquios'],
     g: 'B',
     c: 'A irritação crônica pela fumaça leva à hipertrofia das glândulas submucosas e à hiperplasia de células caliciformes, com hipersecreção de muco. O índice de Reid, razão entre a espessura das glândulas e a da parede brônquica, fica aumentado (acima de 0,4 a 0,5).',
     x: { A: 'Granulomas não caseosos sugerem sarcoidose.', C: 'Espessamento da membrana basal com eosinófilos é típico da asma.', D: 'Destruição da cartilagem com dilatação brônquica caracteriza bronquiectasias.' },
@@ -61,7 +61,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Hiperinsuflação',
     e: 'Homem de 66 anos com DPOC refere que a falta de ar piora muito ao subir escadas, quando sente que não consegue encher o peito. O mecanismo que melhor explica a dispneia de esforço nesse paciente é:',
-    o: ['Redução da capacidade pulmonar total por rigidez do parênquima', 'Hiperinsuflação dinâmica, com aprisionamento aéreo e queda da capacidade inspiratória', 'Edema alveolar por aumento da pressão capilar pulmonar', 'Broncoespasmo induzido por exercício mediado por mastócitos'],
+    o: ['Redução da capacidade pulmonar total por rigidez do parênquima pulmonar', 'Hiperinsuflação dinâmica: aprisionamento aéreo e queda da capacidade inspiratória', 'Edema alveolar por aumento da pressão capilar pulmonar durante o esforço', 'Broncoespasmo induzido por exercício, mediado por mastócitos'],
     g: 'B',
     c: 'Com o aumento da frequência respiratória no esforço, o tempo expiratório encurta e o ar não sai completamente pelas vias obstruídas. O volume pulmonar ao final da expiração sobe, a capacidade inspiratória cai e o paciente respira em uma faixa de menor complacência, com maior trabalho respiratório. Por isso os broncodilatadores de longa ação melhoram a dispneia mesmo com pouca mudança do VEF1.',
     x: { A: 'No DPOC a capacidade pulmonar total está normal ou aumentada, e a complacência do parênquima enfisematoso é alta.', C: 'Edema alveolar é mecanismo da insuficiência cardíaca, não descrito no caso.', D: 'O broncoespasmo por exercício mediado por mastócitos é característico da asma.' },
@@ -77,7 +77,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico',
     e: 'Homem de 61 anos, tabagista de 45 maços-ano, queixa-se de tosse matinal com expectoração clara e dispneia ao caminhar apressado há 3 anos. Para confirmar o diagnóstico de DPOC é necessário:',
-    o: ['Radiografia de tórax com sinais de hiperinsuflação', 'Espirometria com relação VEF1/CVF abaixo de 0,70 após broncodilatador', 'Tomografia de tórax com áreas de enfisema', 'Gasometria arterial com hipoxemia e hipercapnia'],
+    o: ['Radiografia de tórax com sinais de hiperinsuflação, que confirma a doença', 'Espirometria com VEF1/CVF < 0,70 após broncodilatador', 'Tomografia de tórax com áreas de enfisema, que confirma a doença', 'Gasometria arterial com hipoxemia e hipercapnia, que confirma a doença'],
     g: 'B',
     c: 'O diagnóstico de DPOC exige a demonstração de obstrução persistente ao fluxo aéreo em paciente com sintomas e exposição de risco. O critério é a relação VEF1/CVF menor que 0,70 medida após broncodilatador, o que afasta obstrução totalmente reversível.',
     x: { A: 'A radiografia pode ser normal no DPOC e serve principalmente para excluir outros diagnósticos.', C: 'A tomografia identifica enfisema, mas não é critério diagnóstico de DPOC.', D: 'A gasometria avalia gravidade e indicação de oxigênio, não confirma o diagnóstico.' },
@@ -117,7 +117,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Questionário CAT',
     e: 'Sobre o questionário CAT (COPD Assessment Test) usado na avaliação do DPOC, é correto afirmar que:',
-    o: ['Avalia apenas a dispneia e varia de 0 a 4', 'Tem 8 itens, pontua de 0 a 40, e valores iguais ou acima de 10 indicam maior impacto dos sintomas', 'Substitui a espirometria no diagnóstico da doença', 'Valores iguais ou acima de 10 definem o grupo E'],
+    o: ['Avalia apenas a dispneia e varia de 0 a 4, como a escala mMRC', 'Tem 8 itens, pontua de 0 a 40; ≥ 10 indica maior impacto dos sintomas', 'Substitui a espirometria no diagnóstico da doença, em casos selecionados', 'Valores iguais ou acima de 10 definem o grupo E da classificação GOLD'],
     g: 'B',
     c: 'O CAT avalia de forma ampla o impacto da doença (tosse, catarro, aperto no peito, dispneia, atividades, confiança, sono e energia) em 8 itens de 0 a 5. O ponto de corte de 10 separa pacientes pouco e muito sintomáticos, equivalendo ao mMRC igual ou acima de 2 na definição dos grupos.',
     x: { A: 'Essa descrição é da escala mMRC, que mede só dispneia em graus de 0 a 4.', C: 'Nenhum questionário substitui a espirometria, obrigatória para o diagnóstico.', D: 'O grupo E é definido por exacerbações, não por pontuação de sintomas.' },
@@ -125,7 +125,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Radiografia de tórax',
     e: 'São achados radiográficos esperados no paciente com DPOC e hiperinsuflação pulmonar, EXCETO:',
-    o: ['Retificação das cúpulas diafragmáticas', 'Aumento do espaço aéreo retroesternal na incidência em perfil', 'Coração alongado e verticalizado (em gota)', 'Cardiomegalia com cefalização da trama vascular e linhas B de Kerley'],
+    o: ['Retificação das cúpulas diafragmáticas, achado esperado na hiperinsuflação', 'Aumento do espaço aéreo retroesternal na incidência em perfil', 'Coração alongado e verticalizado (em gota), achado esperado na hiperinsuflação', 'Cardiomegalia com cefalização da trama vascular e linhas B de Kerley'],
     g: 'D',
     c: 'A hiperinsuflação retifica o diafragma, aumenta o espaço retroesternal e o diâmetro anteroposterior, horizontaliza as costelas e verticaliza a silhueta cardíaca, com hipertransparência e redução da trama vascular periférica. Cardiomegalia, cefalização da trama e linhas B indicam congestão venosa pulmonar por insuficiência cardíaca esquerda.',
     x: { A: 'A retificação do diafragma é sinal clássico de hiperinsuflação.', B: 'O aumento do espaço retroesternal reflete o aprisionamento aéreo.', C: 'O coração em gota decorre do rebaixamento do diafragma pela hiperinsuflação.' },
@@ -133,7 +133,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Tomografia de tórax',
     e: 'Sobre o papel da tomografia computadorizada de tórax no DPOC, assinale a alternativa correta:',
-    o: ['É obrigatória para confirmar o diagnóstico em todos os pacientes', 'Não é necessária para o diagnóstico, mas é útil na suspeita de bronquiectasias, na avaliação para redução de volume pulmonar e no rastreamento de câncer de pulmão', 'Deve ser repetida a cada 6 meses para acompanhar a queda do VEF1', 'É menos sensível que a radiografia para detectar enfisema'],
+    o: ['É obrigatória para confirmar o diagnóstico em todos os pacientes com DPOC, de rotina', 'Dispensável ao diagnóstico; útil em bronquiectasias, redução de volume e rastreio', 'Deve ser repetida a cada 6 meses para acompanhar a queda anual do VEF1', 'É menos sensível que a radiografia simples para detectar enfisema pulmonar'],
     g: 'B',
     c: 'O diagnóstico de DPOC é funcional. A tomografia fica reservada para situações específicas: exacerbações frequentes com suspeita de bronquiectasias, sintomas desproporcionais à espirometria, planejamento de cirurgia ou válvulas endobrônquicas, e rastreamento de câncer de pulmão com baixa dose nos pacientes elegíveis.',
     x: { A: 'O diagnóstico é confirmado pela espirometria, não pela tomografia.', C: 'O acompanhamento funcional é feito com espirometria; não há indicação de tomografia seriada semestral.', D: 'A tomografia é muito mais sensível que a radiografia para detectar e quantificar enfisema.' },
@@ -141,7 +141,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Função pulmonar',
     e: 'Dois tabagistas têm obstrução de mesma gravidade na espirometria. O primeiro tem tomografia com extenso enfisema; o segundo tem predominantemente doença de vias aéreas, sem enfisema. O exame funcional que mais provavelmente estará reduzido apenas no primeiro é:',
-    o: ['Pico de fluxo expiratório', 'Capacidade de difusão do monóxido de carbono (DLCO)', 'Capacidade vital forçada', 'Ventilação voluntária máxima'],
+    o: ['Pico de fluxo expiratório, que não distingue enfisema de bronquite', 'DLCO (capacidade de difusão do monóxido de carbono)', 'Capacidade vital forçada, que não distingue enfisema de bronquite', 'Ventilação voluntária máxima, que não distingue enfisema de bronquite'],
     g: 'B',
     c: 'O enfisema destrói septos alveolares e o leito capilar, reduzindo a superfície de troca e, portanto, a DLCO. Na doença predominante de vias aéreas, o parênquima está preservado e a difusão costuma ser normal. A DLCO correlaciona-se com a extensão do enfisema e com a dessaturação ao esforço.',
     x: { A: 'O pico de fluxo cai em qualquer obstrução e não distingue enfisema de doença de vias aéreas.', C: 'A capacidade vital forçada pode cair em ambos por aprisionamento aéreo.', D: 'A ventilação voluntária máxima acompanha o VEF1 e estaria reduzida nos dois.' },
@@ -157,7 +157,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Exame físico',
     e: 'Homem de 72 anos com DPOC grave apresenta, à inspeção, movimento paradoxal de retração das últimas costelas para dentro durante a inspiração. Esse achado (sinal de Hoover) decorre de:',
-    o: ['Paralisia bilateral do nervo frênico', 'Retificação do diafragma pela hiperinsuflação, que passa a tracionar as costelas inferiores medialmente', 'Fratura de múltiplos arcos costais com tórax instável', 'Derrame pleural bilateral volumoso'],
+    o: ['Paralisia bilateral do nervo frênico, com movimento paradoxal do tórax', 'Diafragma retificado pela hiperinsuflação, tracionando as costelas inferiores para dentro', 'Fratura de múltiplos arcos costais com tórax instável e movimento paradoxal', 'Derrame pleural bilateral volumoso, com restrição à expansão torácica'],
     g: 'B',
     c: 'Com a hiperinsuflação, o diafragma perde a forma em cúpula e fica horizontalizado. Ao contrair, em vez de elevar e abrir a caixa torácica inferior, suas fibras puxam as margens costais para dentro. O sinal indica hiperinsuflação importante e desvantagem mecânica do diafragma.',
     x: { A: 'Na paralisia frênica o achado é o movimento paradoxal do abdome para dentro na inspiração, não o das costelas inferiores.', C: 'O tórax instável traumático causa movimento paradoxal de um segmento da parede, em contexto de trauma.', D: 'O derrame pleural causa macicez e redução do murmúrio, não esse movimento costal.' },
@@ -173,7 +173,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Espirometria',
     e: 'Homem de 60 anos, tabagista de 40 maços-ano, sem história de atopia ou sintomas na infância, com dispneia progressiva. Espirometria: VEF1/CVF de 0,56 antes e 0,58 após broncodilatador; o VEF1 aumentou 250 mL e 14% após o broncodilatador. A interpretação correta é:',
-    o: ['Asma, pois a resposta ao broncodilatador foi positiva e exclui DPOC', 'DPOC, pois a obstrução persiste após broncodilatador; a resposta positiva não exclui o diagnóstico', 'Exame normal, pois houve melhora com a medicação', 'Distúrbio restritivo, pois o VEF1 está reduzido'],
+    o: ['Asma, pois a resposta ao broncodilatador foi positiva e exclui o diagnóstico de DPOC', 'DPOC: a obstrução persiste pós-broncodilatador; a resposta positiva não a exclui', 'Exame normal, pois houve melhora com a medicação broncodilatadora', 'Distúrbio restritivo, pois o VEF1 está reduzido, com CVF proporcionalmente reduzida'],
     g: 'B',
     c: 'Muitos pacientes com DPOC apresentam variação significativa do VEF1 após broncodilatador. O que define o diagnóstico é a persistência da relação VEF1/CVF abaixo de 0,70 depois da medicação, em contexto clínico compatível. A resposta broncodilatadora isolada não distingue asma de DPOC; na asma espera-se, em geral, normalização ou grande variabilidade associada a história típica.',
     x: { A: 'A resposta positiva ao broncodilatador é comum no DPOC e não o exclui; o caso não tem história sugestiva de asma.', C: 'A relação VEF1/CVF permanece abaixo de 0,70, portanto há obstrução.', D: 'O distúrbio restritivo tem relação VEF1/CVF normal ou aumentada e exige medida de volumes para confirmação.' },
@@ -181,7 +181,7 @@ export const DPOC_1: QuestaoCompacta[] = [
   {
     s: 'Espirometria',
     e: 'O uso do ponto de corte fixo de 0,70 para a relação VEF1/CVF, em vez do limite inferior da normalidade, tem como principal limitação:',
-    o: ['Subdiagnosticar a obstrução em idosos', 'Superdiagnosticar obstrução em idosos e subdiagnosticar em adultos jovens', 'Não poder ser aplicado após broncodilatador', 'Depender da medida dos volumes pulmonares estáticos'],
+    o: ['Subdiagnosticar a obstrução em idosos, por valores fixos mais baixos', 'Superdiagnosticar obstrução em idosos e subdiagnosticar em jovens', 'Não poder ser aplicado após o uso de broncodilatador', 'Depender da medida dos volumes pulmonares estáticos'],
     g: 'B',
     c: 'A relação VEF1/CVF cai fisiologicamente com a idade. Assim, o valor fixo de 0,70 pode rotular como obstruídos idosos saudáveis e deixar de identificar obstrução em menores de 45 anos. O GOLD mantém a razão fixa pela simplicidade; a SBPT e as sociedades de função pulmonar valorizam o limite inferior da normalidade. Em provas, o critério tradicional é abaixo de 0,70 pós-broncodilatador.',
     x: { A: 'Em idosos o erro é o oposto: tendência a superdiagnóstico.', C: 'O critério é justamente aplicado na espirometria pós-broncodilatador.', D: 'A relação VEF1/CVF vem da espirometria simples, sem necessidade de pletismografia.' },

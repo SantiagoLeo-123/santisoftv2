@@ -5,7 +5,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Tipos de insulina',
     e: 'Entre as insulinas abaixo, aquelas classificadas como análogos de ação ultrarrápida, que podem ser aplicadas imediatamente antes da refeição, são:',
-    o: ['Regular e NPH', 'Lispro, asparte e glulisina', 'Glargina, detemir e degludeca', 'NPH e detemir'],
+    o: ['Regular e NPH, que são insulinas humanas', 'Lispro, asparte e glulisina', 'Glargina, detemir e degludeca, que são análogos de ação prolongada', 'NPH e detemir, que são insulinas de ação intermediária e prolongada'],
     g: 'B',
     c: 'Lispro, asparte e glulisina são análogos com modificações na cadeia de aminoácidos que reduzem a formação de hexâmeros no subcutâneo, acelerando a absorção. Por isso começam a agir em poucos minutos, têm pico precoce e duração curta, reproduzindo melhor a secreção prandial fisiológica e permitindo aplicação junto à refeição.',
     x: { A: 'A regular é de ação rápida (não ultrarrápida) e a NPH é de ação intermediária.', C: 'Glargina, detemir e degludeca são análogos de ação longa, usados como insulina basal.', D: 'NPH é intermediária e detemir é análogo de ação longa, ambas com função basal.' },
@@ -13,7 +13,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Tipos de insulina',
     e: 'A insulina humana regular, quando usada por via subcutânea como insulina prandial, deve ser aplicada cerca de 30 minutos antes da refeição porque:',
-    o: ['É inativada pelo alimento se aplicada junto com a refeição', 'Forma hexâmeros no subcutâneo, que precisam se dissociar antes da absorção, atrasando o início de ação', 'Tem pico de ação apenas 8 horas após a aplicação', 'Só é absorvida quando a glicemia começa a subir'],
+    o: ['É inativada pelo alimento se aplicada junto com a refeição, perdendo o efeito', 'Forma hexâmeros no subcutâneo, que precisam se dissociar antes da absorção', 'Tem pico de ação apenas 8 horas após a aplicação, com duração de 24 horas', 'Só é absorvida quando a glicemia começa a subir, por mecanismo de feedback'],
     g: 'B',
     c: 'A insulina regular se organiza em hexâmeros no tecido subcutâneo, que precisam se dissociar em dímeros e monômeros para atravessar o capilar. Isso atrasa o início de ação para cerca de 30 a 60 minutos, com pico em 2 a 3 horas; aplicá-la com antecedência sincroniza o pico da insulina com o pico glicêmico pós-prandial.',
     x: { A: 'O alimento não inativa a insulina aplicada no tecido subcutâneo.', C: 'O pico da regular ocorre em 2 a 3 horas; pico tardio é característica da NPH.', D: 'A absorção subcutânea da insulina não depende do valor da glicemia.' },
@@ -21,7 +21,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Tipos de insulina',
     e: 'Homem de 58 anos, diabético tipo 2, usa NPH ao deitar e tem apresentado hipoglicemias na madrugada, apesar de glicemia de jejum ainda acima da meta. A troca da NPH por um análogo de ação longa (glargina ou degludeca) se justifica principalmente porque esses análogos:',
-    o: ['São mais potentes e reduzem mais a hemoglobina glicada', 'Têm perfil de ação mais plano, sem pico pronunciado, com menor risco de hipoglicemia noturna', 'Dispensam o ajuste de dose pela glicemia de jejum', 'Agem também sobre a glicemia pós-prandial, dispensando insulina rápida'],
+    o: ['São mais potentes e reduzem mais a hemoglobina glicada', 'Perfil mais plano, sem pico pronunciado, com menos hipoglicemia noturna', 'Dispensam o ajuste de dose pela glicemia de jejum', 'Agem também sobre a glicemia pós-prandial, dispensando insulina rápida'],
     g: 'B',
     c: 'A NPH tem pico de ação entre 4 e 10 horas, que, aplicada à noite, coincide com a madrugada, período de menor necessidade de insulina. Os análogos de ação longa liberam insulina de forma quase constante, sem pico relevante, o que reduz a hipoglicemia noturna com eficácia glicêmica semelhante.',
     x: { A: 'A redução de hemoglobina glicada é semelhante; a vantagem é a menor taxa de hipoglicemia.', C: 'A dose da insulina basal continua sendo titulada pela glicemia de jejum.', D: 'Análogos longos cobrem a necessidade basal e não controlam a excursão pós-prandial.' },
@@ -37,7 +37,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Esquema basal-bolus',
     e: 'Adolescente de 15 anos, 60 kg, recebe alta após o diagnóstico de diabetes tipo 1 e iniciará insulinoterapia intensiva com 0,5 U/kg/dia. A forma mais adequada de distribuir a dose total diária é:',
-    o: ['Toda a dose como insulina basal em aplicação única ao deitar', 'Cerca de metade como insulina basal e metade como insulina rápida ou ultrarrápida dividida entre as refeições', 'Toda a dose como insulina regular, dividida em três aplicações', 'Dois terços como ultrarrápida ao deitar e um terço como basal pela manhã'],
+    o: ['Toda a dose como insulina basal em aplicação única ao deitar', 'Cerca de metade como basal e metade como rápida/ultrarrápida, dividida nas refeições', 'Toda a dose como insulina regular, dividida em três aplicações', 'Dois terços como ultrarrápida ao deitar e um terço como basal pela manhã'],
     g: 'B',
     c: 'O esquema basal-bolus procura imitar a secreção pancreática normal: uma secreção basal contínua, que suprime a produção hepática de glicose e a lipólise, e picos prandiais. Em geral 40% a 50% da dose total é dada como basal e o restante como bolus antes das refeições, ajustado pela glicemia e pela ingestão de carboidratos.',
     x: { A: 'Apenas insulina basal não cobre as refeições no diabetes tipo 1, que tem deficiência absoluta.', C: 'Apenas insulina regular deixa o paciente sem cobertura basal, com risco de cetose.', D: 'Ultrarrápida ao deitar, sem refeição, causaria hipoglicemia noturna grave.' },
@@ -53,7 +53,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Fenômeno do alvorecer',
     e: 'Homem de 22 anos, diabético tipo 1, usa NPH antes do café e antes do jantar, além de insulina regular nas refeições. Mantém glicemia de jejum em torno de 220 mg/dL. Para investigar, mediu a glicemia ao deitar (132 mg/dL) e às 3 horas da manhã (148 mg/dL) em três noites. O diagnóstico e a conduta são:',
-    o: ['Efeito Somogyi; reduzir a NPH do jantar', 'Fenômeno do alvorecer; transferir a NPH do jantar para a hora de deitar ou aumentar a insulina basal noturna', 'Efeito Somogyi; fazer lanche extra ao deitar', 'Fenômeno do alvorecer; suspender a insulina regular do jantar'],
+    o: ['Efeito Somogyi; reduzir a dose da NPH do jantar para evitar a hipoglicemia', 'Fenômeno do alvorecer; passar a NPH do jantar para a hora de deitar', 'Efeito Somogyi; fazer lanche extra ao deitar para evitar a hipoglicemia noturna', 'Fenômeno do alvorecer; suspender a insulina regular do jantar por completo'],
     g: 'B',
     c: 'No fenômeno do alvorecer, a glicemia sobe no fim da madrugada pelo pico fisiológico de hormônios contrarreguladores, sobretudo GH e cortisol, sem hipoglicemia prévia. A NPH aplicada no jantar já está perdendo efeito nesse horário; aplicá-la ao deitar desloca o pico para o amanhecer e corrige a hiperglicemia de jejum.',
     x: { A: 'No efeito Somogyi a glicemia das 3 horas estaria baixa, o que não ocorreu.', C: 'Não houve hipoglicemia na madrugada, e o lanche extra pioraria a hiperglicemia matinal.', D: 'A regular do jantar atua até o deitar, e essa glicemia está adequada.' },
@@ -69,7 +69,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Técnica de aplicação',
     e: 'Homem de 31 anos, diabético tipo 1, tem glicemias muito variáveis, com hiperglicemias inexplicadas alternadas com hipoglicemias. Aplica toda a insulina sempre no mesmo ponto do abdome, onde há nodulações amolecidas e indolores. A explicação e a orientação corretas são:',
-    o: ['Lipoatrofia imunomediada; trocar para insulina de origem animal', 'Lipo-hipertrofia, com absorção errática da insulina; fazer rodízio dos locais e evitar aplicar nas áreas afetadas', 'Abscessos frios; iniciar antibiótico e manter o local de aplicação', 'Alergia local à insulina; associar anti-histamínico'],
+    o: ['Lipoatrofia imunomediada; trocar para insulina de origem animal, de ação mais lenta', 'Lipo-hipertrofia, com absorção errática; rodiziar os locais e evitar as áreas afetadas', 'Abscessos frios; iniciar antibiótico e manter o mesmo local de aplicação', 'Alergia local à insulina; associar anti-histamínico e manter o mesmo local'],
     g: 'B',
     c: 'A aplicação repetida no mesmo ponto estimula o efeito lipogênico local da insulina, formando áreas de lipo-hipertrofia. Nesses locais a absorção é lenta e imprevisível, gerando grande variabilidade glicêmica. O rodízio sistemático resolve o problema, e ao voltar a aplicar em tecido sadio pode ser necessário reduzir a dose.',
     x: { A: 'A lipoatrofia causa depressão do subcutâneo e é rara com insulinas humanas e análogos.', C: 'Não há sinais flogísticos, e manter o local perpetuaria a alteração.', D: 'A alergia local causa prurido, eritema e pápulas logo após a aplicação, não nódulos crônicos.' },
@@ -77,7 +77,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia',
     e: 'Na classificação atual da hipoglicemia no paciente com diabetes, o que define a hipoglicemia de nível 3 (grave) é:',
-    o: ['Glicemia abaixo de 70 mg/dL com sintomas adrenérgicos', 'Comprometimento cognitivo ou físico que exige ajuda de outra pessoa para a recuperação, independentemente do valor da glicemia', 'Glicemia abaixo de 54 mg/dL, mesmo que assintomática', 'Qualquer hipoglicemia ocorrida durante o sono'],
+    o: ['Glicemia abaixo de 70 mg/dL, com sintomas adrenérgicos como tremor e sudorese', 'Comprometimento cognitivo/físico que exige ajuda de terceiros, qualquer que seja a glicemia', 'Glicemia abaixo de 54 mg/dL, mesmo que o paciente esteja assintomático', 'Qualquer hipoglicemia ocorrida durante o sono, independentemente do valor'],
     g: 'B',
     c: 'O nível 1 corresponde a glicemia abaixo de 70 e igual ou acima de 54 mg/dL, e o nível 2 a glicemia abaixo de 54 mg/dL, a partir da qual surgem sintomas neuroglicopênicos. O nível 3 é definido clinicamente: o paciente não consegue se tratar sozinho e depende de terceiros, o que marca maior risco de convulsão, coma e morte.',
     x: { A: 'Glicemia abaixo de 70 mg/dL define o nível 1, um valor de alerta.', C: 'Glicemia abaixo de 54 mg/dL define o nível 2, clinicamente significativo.', D: 'O horário do episódio não participa da classificação de gravidade.' },
@@ -85,7 +85,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia',
     e: 'Mulher de 34 anos, diabética tipo 1, apresenta tremor, sudorese e fome durante uma reunião. Está consciente e a glicemia capilar é de 58 mg/dL. A conduta inicial correta é:',
-    o: ['Comer um sanduíche com queijo e aguardar 1 hora', 'Ingerir cerca de 15 g de carboidrato de absorção rápida e repetir a glicemia em 15 minutos', 'Aplicar glucagon intramuscular imediatamente', 'Apenas observar, pois a glicemia está acima de 54 mg/dL'],
+    o: ['Comer um sanduíche com queijo e aguardar uma hora para reavaliar a glicemia', 'Ingerir ~15 g de carboidrato de absorção rápida e repetir a glicemia em 15 minutos', 'Aplicar glucagon intramuscular imediatamente, mesmo com o paciente consciente', 'Apenas observar, pois a glicemia está acima de 54 mg/dL e o paciente está bem'],
     g: 'B',
     c: 'No paciente consciente e capaz de deglutir, a hipoglicemia é tratada por via oral com 15 a 20 g de carboidrato simples (glicose, açúcar, suco ou refrigerante comum). A glicemia deve ser repetida em 15 minutos e o tratamento reaplicado se persistir baixa; depois da correção, faz-se uma refeição ou lanche para evitar recorrência.',
     x: { A: 'Gordura e proteína retardam o esvaziamento gástrico e atrasam a correção da glicemia.', C: 'O glucagon é reservado ao paciente inconsciente ou incapaz de ingerir alimentos.', D: 'Hipoglicemia sintomática abaixo de 70 mg/dL deve ser tratada prontamente.' },
@@ -93,7 +93,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia',
     e: 'Homem de 40 anos, diabético tipo 1, é encontrado em casa pela esposa, inconsciente e sudoreico, com glicemia capilar de 32 mg/dL. Não há acesso venoso disponível. A melhor conduta a ser tomada pela esposa é:',
-    o: ['Colocar suco de laranja na boca do paciente', 'Aplicar glucagon por via intramuscular ou subcutânea e colocá-lo em decúbito lateral', 'Aplicar a dose habitual de insulina basal para evitar cetose', 'Aguardar a recuperação espontânea pela contrarregulação'],
+    o: ['Colocar suco de laranja na boca do paciente inconsciente', 'Aplicar glucagon IM ou SC e posicionar em decúbito lateral', 'Aplicar a dose habitual de insulina basal para evitar cetose', 'Aguardar a recuperação espontânea pela contrarregulação'],
     g: 'B',
     c: 'No paciente inconsciente, a via oral é contraindicada pelo risco de aspiração. O glucagon estimula a glicogenólise hepática e eleva a glicemia em poucos minutos; como pode causar vômitos, o paciente deve ficar em decúbito lateral. No hospital, com acesso venoso, a opção é a glicose hipertônica intravenosa.',
     x: { A: 'Líquidos por via oral em paciente inconsciente trazem risco de broncoaspiração.', C: 'Insulina durante a hipoglicemia agravaria o quadro e pode ser fatal.', D: 'A neuroglicopenia prolongada pode causar lesão cerebral irreversível.' },
@@ -101,7 +101,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia',
     e: 'Mulher de 45 anos, diabética tipo 1 há 28 anos, com hemoglobina glicada de 6,1%, deixou de perceber os sintomas de hipoglicemia e já foi encontrada confusa com glicemia de 35 mg/dL, sem ter tido tremor ou sudorese. A medida capaz de restaurar a percepção dos sintomas é:',
-    o: ['Iniciar betabloqueador para reduzir a descarga adrenérgica', 'Evitar rigorosamente qualquer hipoglicemia por algumas semanas, relaxando temporariamente as metas glicêmicas', 'Intensificar o controle glicêmico para reduzir a variabilidade', 'Substituir toda a insulina por sulfonilureia'],
+    o: ['Iniciar betabloqueador para reduzir a descarga adrenérgica e proteger o coração', 'Evitar rigorosamente qualquer hipoglicemia por semanas, com metas temporariamente relaxadas', 'Intensificar o controle glicêmico para reduzir a variabilidade das glicemias', 'Substituir toda a insulina por sulfonilureia, em dose habitual de manutenção'],
     g: 'B',
     c: 'Hipoglicemias repetidas reduzem o limiar glicêmico de ativação da resposta simpatoadrenal, de modo que os sintomas de alarme só apareceriam em glicemias já neuroglicopênicas (falência autonômica associada à hipoglicemia). O fenômeno é reversível: algumas semanas sem hipoglicemias restauram o limiar e a percepção.',
     x: { A: 'Betabloqueadores podem mascarar ainda mais os sintomas adrenérgicos de alarme.', C: 'Intensificar o controle aumentaria as hipoglicemias e perpetuaria o problema.', D: 'No diabetes tipo 1 a insulina é insubstituível, e sulfonilureias não têm efeito.' },
@@ -109,7 +109,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose diabética: fisiopatologia',
     e: 'A cetoacidose diabética cursa com cetose intensa, enquanto o estado hiperosmolar hiperglicêmico cursa com cetose ausente ou mínima. A explicação mais aceita para essa diferença é:',
-    o: ['No estado hiperosmolar não há elevação dos hormônios contrarreguladores', 'No estado hiperosmolar persiste insulina residual suficiente para inibir a lipólise e a cetogênese, mas não para controlar a glicemia', 'Na cetoacidose a hiperglicemia é mais acentuada, o que estimula a cetogênese', 'No estado hiperosmolar os rins excretam todos os corpos cetônicos produzidos'],
+    o: ['No EHH não há elevação dos hormônios contrarreguladores', 'No EHH, a insulina residual inibe a lipólise e a cetogênese, mas não controla a glicemia', 'Na cetoacidose a hiperglicemia é mais acentuada, o que estimula a cetogênese', 'No EHH os rins excretam todos os corpos cetônicos produzidos'],
     g: 'B',
     c: 'A lipólise no tecido adiposo é inibida por concentrações de insulina muito menores que as necessárias para estimular a captação de glicose. No diabetes tipo 2 descompensado, a insulina portal residual basta para bloquear a liberação de ácidos graxos e a cetogênese hepática, mas a hiperglicemia progride; na deficiência absoluta, os ácidos graxos livres chegam ao fígado e são convertidos em cetoácidos.',
     x: { A: 'Os hormônios contrarreguladores também estão elevados no estado hiperosmolar.', C: 'A glicemia costuma ser mais alta no estado hiperosmolar do que na cetoacidose.', D: 'No estado hiperosmolar a função renal está reduzida pela desidratação, não aumentada.' },
@@ -125,7 +125,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose diabética: tratamento',
     e: 'Homem de 24 anos chega à emergência em cetoacidose diabética, hipotenso, taquicárdico e com mucosas secas. Ainda não há resultado de eletrólitos. A primeira medida terapêutica é:',
-    o: ['Insulina regular intravenosa em bolus', 'Expansão volêmica com solução cristaloide isotônica', 'Bicarbonato de sódio intravenoso', 'Insulina NPH subcutânea'],
+    o: ['Insulina regular intravenosa em bolus, como primeira medida', 'Expansão volêmica com cristaloide isotônico', 'Bicarbonato de sódio intravenoso, como primeira medida', 'Insulina NPH subcutânea, como primeira medida'],
     g: 'B',
     c: 'A diurese osmótica causa depleção importante de volume, e a hidratação é a primeira medida: restaura a perfusão, reduz os hormônios contrarreguladores e, sozinha, já diminui a glicemia pela melhora da filtração glomerular. A insulina só deve ser iniciada após conhecer o potássio, pois ela o desloca para dentro das células.',
     x: { A: 'A insulina antes do resultado do potássio pode precipitar hipocalemia grave e arritmia.', C: 'O bicarbonato não é rotina e se reserva a acidemia extrema.', D: 'A absorção subcutânea é errática no paciente desidratado, e a NPH não trata a cetoacidose.' },
@@ -133,7 +133,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose diabética: potássio',
     e: 'Mulher de 28 anos em cetoacidose diabética recebeu a primeira hora de hidratação. Exames: glicemia 520 mg/dL, pH 7,10, potássio 2,9 mEq/L, creatinina 1,1 mg/dL e diurese presente. A conduta correta neste momento é:',
-    o: ['Iniciar insulina regular intravenosa e repor potássio em seguida', 'Adiar a insulina, repor potássio intravenoso e iniciar a insulina apenas quando o potássio estiver acima de 3,3 mEq/L', 'Iniciar insulina e bicarbonato de sódio simultaneamente', 'Iniciar insulina subcutânea, que não altera o potássio'],
+    o: ['Iniciar insulina regular IV e repor potássio em seguida', 'Adiar a insulina, repor K+ IV e iniciar a insulina só com K+ > 3,3 mEq/L', 'Iniciar insulina e bicarbonato de sódio simultaneamente', 'Iniciar insulina subcutânea, que não altera o potássio'],
     g: 'B',
     c: 'Na cetoacidose há déficit corporal total de potássio, mesmo quando o nível sérico é normal ou alto, por perdas urinárias e vômitos. A insulina ativa a bomba de sódio e potássio e desloca o íon para o intracelular; se o potássio já está abaixo de 3,3 mEq/L, isso pode causar arritmia fatal e fraqueza respiratória, de modo que a reposição vem antes.',
     x: { A: 'Iniciar insulina com potássio de 2,9 mEq/L pode provocar hipocalemia grave e parada cardíaca.', C: 'O bicarbonato também desloca potássio para a célula e agravaria a hipocalemia.', D: 'A insulina reduz o potássio por qualquer via de administração.' },
@@ -157,7 +157,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose diabética: tratamento',
     e: 'Mulher de 22 anos em tratamento de cetoacidose diabética com insulina regular intravenosa contínua tem, após 5 horas, glicemia de 198 mg/dL, pH 7,21, bicarbonato 12 mEq/L e ânion gap ainda elevado. A conduta correta é:',
-    o: ['Suspender a infusão de insulina, pois a glicemia foi controlada', 'Manter a insulina intravenosa, em dose reduzida se necessário, e acrescentar glicose à hidratação', 'Trocar imediatamente para insulina subcutânea', 'Aumentar a infusão de insulina e manter soro fisiológico sem glicose'],
+    o: ['Suspender a infusão de insulina, pois a glicemia foi controlada com a infusão', 'Manter a insulina IV (reduzindo a dose, se preciso) e acrescentar glicose à hidratação', 'Trocar imediatamente para insulina subcutânea, sem período de sobreposição com a venosa', 'Aumentar a infusão de insulina e manter SF sem glicose, para corrigir a acidose'],
     g: 'B',
     c: 'A glicemia se normaliza antes da cetoacidose. O objetivo da insulina é bloquear a cetogênese, e ela precisa ser mantida até a resolução da acidose; para isso, quando a glicemia chega a cerca de 200 a 250 mg/dL, adiciona-se glicose ao soro, evitando hipoglicemia enquanto a infusão continua.',
     x: { A: 'Suspender a insulina com acidose persistente leva à recorrência da cetose.', C: 'A transição para a via subcutânea só é feita após resolver a acidose e com o paciente se alimentando.', D: 'Sem glicose, a manutenção da insulina causaria hipoglicemia.' },
@@ -165,7 +165,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose diabética: tratamento',
     e: 'Paciente com cetoacidose diabética resolvida (pH e bicarbonato normalizados, ânion gap fechado) já aceita dieta e será transferido da insulina intravenosa para o esquema subcutâneo. A forma correta de fazer a transição é:',
-    o: ['Desligar a bomba de insulina e aplicar a insulina subcutânea 4 horas depois', 'Aplicar a insulina subcutânea e manter a infusão intravenosa por mais 1 a 2 horas antes de desligá-la', 'Desligar a bomba e aplicar a insulina subcutânea apenas se a glicemia subir', 'Manter a infusão intravenosa por 48 horas após a resolução'],
+    o: ['Desligar a bomba de insulina e aplicar a insulina SC 4 horas depois', 'Aplicar a insulina SC e manter a infusão IV por mais 1-2 h antes de desligar', 'Desligar a bomba e aplicar insulina SC só se a glicemia subir', 'Manter a infusão intravenosa por 48 horas após a resolução'],
     g: 'B',
     c: 'A insulina regular intravenosa tem meia-vida de poucos minutos, enquanto a insulina subcutânea demora a atingir níveis eficazes. Sem a sobreposição, o paciente fica um período sem insulina circulante, com retorno da lipólise e da cetogênese e recorrência da cetoacidose.',
     x: { A: 'Um intervalo sem insulina favorece a recidiva da cetose em poucas horas.', C: 'Esperar a glicemia subir significa deixar o paciente em deficiência de insulina.', D: 'Não há necessidade de prolongar a via intravenosa se o paciente se alimenta e a acidose se resolveu.' },
@@ -173,7 +173,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose diabética: complicações',
     e: 'Menino de 8 anos é tratado por cetoacidose diabética como primeira manifestação do diabetes. Seis horas após o início do tratamento, com melhora laboratorial, passa a ter cefaleia intensa, vômitos, bradicardia, hipertensão e sonolência progressiva. A hipótese e a conduta imediata são:',
-    o: ['Hipoglicemia; glicose hipertônica em bolus', 'Edema cerebral; terapia hiperosmolar com manitol ou salina hipertônica e redução da velocidade de hidratação', 'Hipocalemia; reposição rápida de potássio', 'Meningite bacteriana; punção lombar imediata'],
+    o: ['Hipoglicemia por excesso de insulina; glicose hipertônica em bolus intravenoso', 'Edema cerebral: manitol ou salina hipertônica e reduzir a velocidade de hidratação', 'Hipocalemia grave; reposição rápida de potássio por via intravenosa central', 'Meningite bacteriana; punção lombar imediata para análise do líquor'],
     g: 'B',
     c: 'O edema cerebral é a complicação mais temida da cetoacidose em crianças e surge tipicamente nas primeiras horas de tratamento, quando o laboratório já melhora. Cefaleia, rebaixamento de consciência e a tríade de Cushing indicam hipertensão intracraniana; o tratamento é clínico e imediato, sem aguardar exame de imagem.',
     x: { A: 'A hipoglicemia não explica bradicardia com hipertensão, sinais de hipertensão intracraniana.', C: 'A hipocalemia causa fraqueza e arritmias, não a tríade de Cushing.', D: 'A punção lombar é contraindicada diante de sinais de hipertensão intracraniana.' },
@@ -181,7 +181,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Estado hiperosmolar hiperglicêmico',
     e: 'Mulher de 78 anos, diabética tipo 2, acamada por sequela de acidente vascular cerebral, é trazida com sonolência progressiva há 5 dias após infecção urinária. Está muito desidratada. Exames: glicemia 940 mg/dL, sódio 148 mEq/L, pH 7,36, bicarbonato 22 mEq/L, cetonúria negativa e osmolalidade efetiva de 348 mOsm/kg. O diagnóstico e a base do tratamento são:',
-    o: ['Cetoacidose diabética; insulina em bolus antes da hidratação', 'Estado hiperosmolar hiperglicêmico; hidratação venosa vigorosa, seguida de insulina e correção de potássio', 'Acidose lática; bicarbonato de sódio', 'Hipernatremia isolada; água livre por sonda sem insulina'],
+    o: ['Cetoacidose diabética; insulina em bolus antes de qualquer hidratação venosa', 'EHH: hidratação venosa vigorosa, depois insulina e correção do potássio', 'Acidose lática; bicarbonato de sódio intravenoso e suspensão da metformina', 'Hipernatremia isolada; água livre por sonda enteral, sem uso de insulina'],
     g: 'B',
     c: 'Hiperglicemia extrema, hiperosmolalidade, ausência de acidose e de cetose significativa em idoso com acesso limitado à água definem o estado hiperosmolar hiperglicêmico. O déficit de água é maior que na cetoacidose, e a reposição volêmica é a medida mais importante; a insulina vem depois, pois reduzir a glicemia sem volume adequado agrava o colapso circulatório.',
     x: { A: 'Não há acidose nem cetose, e a insulina antes do volume pode piorar a hipotensão.', C: 'O pH e o bicarbonato estão normais, afastando acidose metabólica.', D: 'A hiperosmolalidade decorre principalmente da hiperglicemia, que exige volume e insulina.' },
@@ -189,7 +189,7 @@ export const DM_3: QuestaoCompacta[] = [
   {
     s: 'Sódio na hiperglicemia',
     e: 'Paciente em crise hiperglicêmica tem glicemia de 700 mg/dL e sódio sérico medido de 130 mEq/L. A interpretação correta do sódio é:',
-    o: ['Há déficit real de sódio, que deve ser corrigido com salina hipertônica', 'O sódio está reduzido por diluição, pois a glicose atrai água para o extracelular; o sódio corrigido é mais alto que o medido', 'Trata-se de pseudo-hiponatremia por erro laboratorial, sem relação com a osmolalidade', 'O sódio corrigido é mais baixo que o medido, indicando excesso de água livre'],
+    o: ['Há déficit real de sódio, que deve ser corrigido com salina hipertônica', 'Sódio reduzido por diluição (glicose atrai água); o corrigido é mais alto que o medido', 'Pseudo-hiponatremia por erro laboratorial, sem relação com a osmolalidade', 'O sódio corrigido é mais baixo que o medido, indicando excesso de água livre'],
     g: 'B',
     c: 'A glicose é um osmol efetivo na ausência de insulina e desloca água do intracelular para o extracelular, diluindo o sódio (hiponatremia hipertônica). Estima-se que o sódio caia cerca de 1,6 mEq/L para cada 100 mg/dL de glicose acima de 100; aqui o valor corrigido fica próximo de 140 mEq/L, e é ele que orienta a escolha do soro.',
     x: { A: 'A salina hipertônica é inadequada, pois a osmolalidade plasmática já está elevada.', C: 'Pseudo-hiponatremia ocorre com hiperlipidemia ou hiperproteinemia e tem osmolalidade normal.', D: 'A correção pela glicemia sempre eleva o valor do sódio, nunca o reduz.' },

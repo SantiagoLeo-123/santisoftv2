@@ -13,7 +13,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Genética: APOE',
     e: 'Em relação ao gene da apolipoproteína E (APOE) na doença de Alzheimer de início tardio, é correto afirmar:',
-    o: ['O alelo épsilon 2 é o principal fator de risco genético', 'O alelo épsilon 4 aumenta o risco e antecipa a idade de início de forma dose-dependente, mas não é necessário nem suficiente para a doença', 'A presença de dois alelos épsilon 4 confirma o diagnóstico', 'A genotipagem deve ser oferecida de rotina a familiares assintomáticos'],
+    o: ['O alelo épsilon 2 é o principal fator de risco genético para a doença', 'O alelo épsilon 4 aumenta o risco e antecipa o início, sem ser necessário nem suficiente', 'A presença de dois alelos épsilon 4 confirma o diagnóstico de Alzheimer', 'A genotipagem deve ser oferecida de rotina a familiares assintomáticos'],
     g: 'B',
     c: 'A APOE participa do transporte de lipídios e da depuração do peptídeo beta-amiloide; a isoforma épsilon 4 é menos eficiente nessa depuração e favorece a deposição. Heterozigotos têm risco aumentado e homozigotos, risco bem maior e início mais precoce. Ainda assim, há portadores que nunca adoecem e doentes sem o alelo, de modo que se trata de um gene de suscetibilidade, e não determinante.',
     x: { A: 'O alelo épsilon 2 tem efeito protetor em relação à doença de Alzheimer.', C: 'A homozigose eleva o risco, mas não confirma o diagnóstico em um indivíduo.', D: 'A genotipagem não é recomendada de rotina por seu baixo valor preditivo individual.' },
@@ -21,7 +21,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Formas familiares',
     e: 'Homem de 44 anos apresenta declínio progressivo de memória há dois anos. O pai, a tia paterna e a avó paterna tiveram demência com início antes dos 50 anos. Os genes cujas mutações estão classicamente associadas a essa forma autossômica dominante de doença de Alzheimer são:',
-    o: ['APOE, TREM2 e SORL1', 'Proteína precursora do amiloide (APP), presenilina 1 (PSEN1) e presenilina 2 (PSEN2)', 'MAPT, progranulina (GRN) e C9orf72', 'HTT, SNCA e LRRK2'],
+    o: ['APOE, TREM2 e SORL1, que são genes de risco da forma esporádica', 'APP, PSEN1 e PSEN2, que causam a forma familiar de início precoce', 'MAPT, GRN e C9orf72, que causam a demência frontotemporal', 'HTT, SNCA e LRRK2, que causam doenças do movimento'],
     g: 'B',
     c: 'A doença de Alzheimer familiar de início precoce é rara e decorre de mutações de alta penetrância em APP (cromossomo 21), PSEN1 (cromossomo 14, a mais comum) e PSEN2 (cromossomo 1). As presenilinas compõem a gama-secretase, e as mutações aumentam a produção ou a proporção do peptídeo beta-amiloide de 42 aminoácidos, mais propenso à agregação.',
     x: { A: 'APOE, TREM2 e SORL1 são genes de suscetibilidade, não causas autossômicas dominantes clássicas.', C: 'MAPT, GRN e C9orf72 relacionam-se à demência frontotemporal familiar.', D: 'HTT relaciona-se à doença de Huntington, e SNCA e LRRK2 à doença de Parkinson.' },
@@ -29,7 +29,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Down',
     e: 'Pessoas com síndrome de Down desenvolvem neuropatologia de doença de Alzheimer precocemente, muitas vezes com demência a partir da quinta década de vida. A explicação para essa associação é:',
-    o: ['Deficiência congênita de acetilcolinesterase', 'Trissomia do cromossomo 21, onde se localiza o gene da proteína precursora do amiloide, com superprodução de beta-amiloide', 'Maior frequência do alelo épsilon 4 da APOE nessa população', 'Mutação associada no gene da proteína tau'],
+    o: ['Deficiência congênita de acetilcolinesterase nessa população', 'Trissomia do 21 (gene da APP): superprodução de beta-amiloide', 'Maior frequência do alelo épsilon 4 da APOE nessa população', 'Mutação associada no gene da proteína tau nessa população'],
     g: 'B',
     c: 'O gene da proteína precursora do amiloide está no cromossomo 21. A cópia extra leva à produção aumentada de beta-amiloide durante toda a vida, com deposição de placas já na idade adulta jovem e, posteriormente, emaranhados neurofibrilares e demência. Esse fato é um dos principais argumentos a favor da hipótese da cascata amiloide.',
     x: { A: 'Não existe deficiência congênita de acetilcolinesterase na síndrome de Down.', C: 'A frequência do alelo épsilon 4 não explica a associação com a trissomia.', D: 'O gene da proteína tau fica no cromossomo 17 e não está envolvido nesse mecanismo.' },
@@ -45,7 +45,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Patologia',
     e: 'Os dois achados histopatológicos que definem a doença de Alzheimer são:',
-    o: ['Corpos de Lewy corticais e perda neuronal na substância negra', 'Placas neuríticas extracelulares de beta-amiloide e emaranhados neurofibrilares intracelulares de proteína tau hiperfosforilada', 'Corpos de Pick e gliose frontotemporal', 'Alteração espongiforme e deposição de proteína priônica'],
+    o: ['Corpos de Lewy corticais e perda neuronal na substância negra', 'Placas de beta-amiloide e emaranhados neurofibrilares de tau', 'Corpos de Pick e gliose frontotemporal, com perda neuronal', 'Alteração espongiforme e deposição de proteína priônica no córtex'],
     g: 'B',
     c: 'O peptídeo beta-amiloide resulta da clivagem da proteína precursora do amiloide pelas beta e gama-secretases e se agrega no espaço extracelular formando placas. A proteína tau, que normalmente estabiliza microtúbulos, torna-se hiperfosforilada e forma filamentos helicoidais pareados dentro dos neurônios. Seguem-se perda sináptica e neuronal, com atrofia cortical.',
     x: { A: 'Corpos de Lewy, compostos de alfa-sinucleína, definem a demência com corpos de Lewy e a doença de Parkinson.', C: 'Corpos de Pick são inclusões de tau de um subtipo de degeneração lobar frontotemporal.', D: 'Alteração espongiforme com proteína priônica caracteriza as doenças por príons.' },
@@ -53,7 +53,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Correlação clinicopatológica',
     e: 'Na doença de Alzheimer, o achado neuropatológico que melhor se correlaciona com a gravidade do declínio cognitivo e que segue uma progressão topográfica previsível, do córtex entorrinal e hipocampo para o neocórtex associativo, é:',
-    o: ['A quantidade de placas amiloides difusas', 'A densidade e a distribuição dos emaranhados neurofibrilares de tau, junto com a perda sináptica', 'A angiopatia amiloide cerebral', 'A intensidade da gliose na substância branca'],
+    o: ['A quantidade de placas amiloides difusas no córtex cerebral', 'A densidade dos emaranhados de tau e a perda sináptica', 'A angiopatia amiloide cerebral, com hemorragias lobares associadas', 'A intensidade da gliose na substância branca subcortical'],
     g: 'B',
     c: 'Os emaranhados neurofibrilares surgem na região transentorrinal, avançam para o hipocampo e sistema límbico e depois para o neocórtex (estágios de Braak), acompanhando a sequência clínica de perda de memória seguida de déficits de linguagem, visuoespaciais e executivos. As placas amiloides aparecem anos antes dos sintomas e distribuem-se de forma difusa, com correlação fraca com a clínica.',
     x: { A: 'A carga amiloide tem correlação fraca com a gravidade clínica e pode existir em idosos normais.', C: 'A angiopatia amiloide é frequente, mas relaciona-se a hemorragias lobares, não ao grau de demência.', D: 'A gliose de substância branca não é o marcador da progressão da doença de Alzheimer.' },
@@ -61,7 +61,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Déficit colinérgico',
     e: 'O uso de inibidores da acetilcolinesterase na doença de Alzheimer fundamenta-se em qual alteração neuroquímica?',
-    o: ['Excesso de dopamina na via mesolímbica', 'Degeneração dos neurônios colinérgicos do núcleo basal de Meynert, com redução da acetilcolina cortical e hipocampal', 'Perda de neurônios serotoninérgicos dos núcleos da rafe como evento inicial exclusivo', 'Degeneração dos neurônios gabaérgicos do estriado'],
+    o: ['Excesso de dopamina na via mesolímbica, com psicose associada à doença', 'Degeneração dos neurônios colinérgicos do núcleo basal, com menos acetilcolina', 'Perda de neurônios serotoninérgicos dos núcleos da rafe como evento inicial', 'Degeneração dos neurônios gabaérgicos do estriado, com perda de GABA'],
     g: 'B',
     c: 'O núcleo basal de Meynert, no prosencéfalo basal, é a principal fonte de inervação colinérgica do córtex e do hipocampo e degenera precocemente na doença de Alzheimer. A queda da acetilcolina prejudica atenção e memória. Os anticolinesterásicos inibem a degradação da acetilcolina na fenda sináptica, compensando parcialmente o déficit, com efeito sintomático.',
     x: { A: 'A hiperatividade dopaminérgica mesolímbica relaciona-se a psicose, não à doença de Alzheimer.', C: 'Há perdas em outros sistemas, mas a hipótese terapêutica central é a colinérgica.', D: 'A degeneração gabaérgica do estriado é característica da doença de Huntington.' },
@@ -77,7 +77,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Perfil de memória',
     e: 'Na avaliação neuropsicológica, o padrão de comprometimento de memória característico da doença de Alzheimer típica é:',
-    o: ['Falha de evocação livre que se normaliza com pistas semânticas', 'Déficit de consolidação, com evocação tardia muito pobre, pouco benefício com pistas e reconhecimento prejudicado', 'Perda isolada do significado das palavras, com memória do dia a dia preservada', 'Amnésia retrógrada pura, sem amnésia anterógrada'],
+    o: ['Falha de evocação livre que se normaliza com pistas semânticas', 'Déficit de consolidação: evocação tardia pobre, sem ganho com pistas', 'Perda isolada do significado das palavras, com memória cotidiana preservada', 'Amnésia retrógrada pura, sem amnésia anterógrada, com consolidação preservada'],
     g: 'B',
     c: 'O hipocampo é necessário para armazenar novas informações. Como ele é lesado precocemente, a informação não é consolidada: o paciente esquece rapidamente, não melhora com pistas e comete intrusões. Esse perfil hipocampal difere do padrão frontal-subcortical, visto na depressão e na doença vascular, em que o registro ocorre e as pistas ajudam a recuperar o conteúdo.',
     x: { A: 'Evocação que normaliza com pistas indica padrão frontal-subcortical, não hipocampal.', C: 'A perda isolada do significado das palavras caracteriza a variante semântica da afasia progressiva.', D: 'Na doença de Alzheimer predomina a amnésia anterógrada, com memória remota poupada no início.' },
@@ -85,7 +85,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Evolução clínica',
     e: 'Sobre a evolução natural da doença de Alzheimer típica, assinale a alternativa correta:',
-    o: ['Sinais motores, como parkinsonismo e quedas, costumam ser a manifestação inicial', 'Após a fase amnéstica inicial surgem afasia, apraxia e agnosia; nas fases avançadas há dependência total, incontinência, disfagia e imobilidade', 'A evolução se dá em degraus, com períodos de estabilidade e pioras súbitas', 'A sobrevida média após o diagnóstico é inferior a um ano'],
+    o: ['Sinais motores, como parkinsonismo e quedas, costumam ser a manifestação inicial', 'Após a fase amnéstica: afasia, apraxia e agnosia; depois, dependência total e imobilidade', 'A evolução se dá em degraus, com períodos de estabilidade e pioras súbitas', 'A sobrevida média após o diagnóstico é inferior a um ano'],
     g: 'B',
     c: 'A doença progride de forma lenta e contínua, acompanhando a disseminação da patologia do lobo temporal medial para os córtices associativos. Aos déficits de memória somam-se alterações de linguagem (anomia), praxia, reconhecimento e função executiva, além de sintomas neuropsiquiátricos. Nas fases finais o paciente fica acamado, e a morte costuma decorrer de complicações como pneumonia aspirativa, após vários anos de evolução.',
     x: { A: 'Sinais motores precoces sugerem outras etiologias, como corpos de Lewy ou causa vascular.', C: 'A evolução em degraus é característica da demência vascular por múltiplos infartos.', D: 'A sobrevida é de vários anos; evolução em menos de um ano sugere demência rapidamente progressiva.' },
@@ -101,7 +101,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Neuroimagem estrutural',
     e: 'O achado de ressonância magnética de crânio que mais apoia o diagnóstico de doença de Alzheimer típica é:',
-    o: ['Atrofia assimétrica dos lobos frontais e temporais anteriores', 'Atrofia das estruturas temporais mediais, com redução dos hipocampos e do córtex entorrinal', 'Hipersinal no córtex e nos núcleos da base na sequência de difusão', 'Dilatação ventricular desproporcional à atrofia dos sulcos'],
+    o: ['Atrofia assimétrica dos lobos frontais e temporais anteriores', 'Atrofia temporal medial: hipocampos e córtex entorrinal reduzidos', 'Hipersinal cortical e nos núcleos da base na sequência de difusão', 'Dilatação ventricular desproporcional à atrofia dos sulcos corticais'],
     g: 'B',
     c: 'A atrofia do lobo temporal medial reflete a perda neuronal nas regiões primeiro acometidas pelos emaranhados neurofibrilares e pode ser graduada visualmente em cortes coronais. Com a progressão, a atrofia estende-se aos córtices parietal e temporal lateral. O achado apoia, mas não confirma o diagnóstico, e deve ser interpretado junto com a clínica.',
     x: { A: 'Atrofia frontotemporal anterior assimétrica sugere degeneração lobar frontotemporal.', C: 'Restrição à difusão cortical e em núcleos da base sugere doença de Creutzfeldt-Jakob.', D: 'Ventriculomegalia desproporcional aos sulcos sugere hidrocefalia de pressão normal.' },
@@ -109,7 +109,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Neuroimagem funcional',
     e: 'Na tomografia por emissão de pósitrons com fluordesoxiglicose (FDG-PET), o padrão de hipometabolismo típico da doença de Alzheimer é:',
-    o: ['Frontal e temporal anterior', 'Temporoparietal bilateral e no cíngulo posterior e pré-cúneo', 'Occipital, com preservação do cíngulo posterior', 'Restrito ao cerebelo e ao tronco encefálico'],
+    o: ['Padrão frontal e temporal anterior, típico da demência frontotemporal', 'Temporoparietal bilateral, com cíngulo posterior e pré-cúneo', 'Padrão occipital, com preservação do cíngulo posterior', 'Padrão restrito ao cerebelo e ao tronco encefálico'],
     g: 'B',
     c: 'O hipometabolismo de glicose marca disfunção sináptica e neurodegeneração. Na doença de Alzheimer ele predomina nos córtices associativos temporoparietais, no cíngulo posterior e no pré-cúneo, com preservação relativa dos córtices sensitivo-motor e visual primário. O exame é útil sobretudo no diferencial com a demência frontotemporal.',
     x: { A: 'Hipometabolismo frontal e temporal anterior é o padrão da demência frontotemporal.', C: 'Hipometabolismo occipital com cíngulo posterior poupado sugere demência com corpos de Lewy.', D: 'Cerebelo e tronco encefálico não são as regiões tipicamente afetadas na doença de Alzheimer.' },
@@ -125,7 +125,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Classificação de biomarcadores',
     e: 'No sistema de classificação de biomarcadores conhecido como A/T/N, usado em pesquisa na doença de Alzheimer, as letras correspondem a:',
-    o: ['Atrofia, trombose e neuroinflamação', 'Deposição de amiloide, patologia tau e neurodegeneração', 'Acetilcolina, tirosina e noradrenalina', 'Apolipoproteína, TDP-43 e neurofilamento'],
+    o: ['Atrofia, trombose e neuroinflamação, nos três eixos', 'Deposição de amiloide (A), patologia tau (T) e neurodegeneração (N)', 'Acetilcolina, tirosina e noradrenalina, nos três eixos', 'Apolipoproteína, TDP-43 e neurofilamento, nos três eixos'],
     g: 'B',
     c: 'O componente A é avaliado pelo beta-amiloide no líquor ou por PET com marcador de amiloide; o T, pela tau fosforilada ou PET de tau; e o N, por tau total, atrofia na ressonância ou hipometabolismo no FDG-PET. O modelo descreve a doença como um contínuo biológico, em que a amiloidose precede em muitos anos a patologia tau, a neurodegeneração e os sintomas.',
     x: { A: 'Atrofia integra o componente N, mas trombose e neuroinflamação não compõem a sigla.', C: 'Neurotransmissores não fazem parte do sistema de classificação de biomarcadores.', D: 'TDP-43 relaciona-se a outras proteinopatias e não integra a sigla.' },
@@ -133,7 +133,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'PET amiloide',
     e: 'Quanto à tomografia por emissão de pósitrons com marcador de amiloide, é correto afirmar:',
-    o: ['Um exame positivo confirma, isoladamente, que a demência do paciente é causada por doença de Alzheimer', 'Um exame negativo torna a doença de Alzheimer improvável, mas um exame positivo pode ocorrer em idosos cognitivamente normais', 'Deve ser solicitada para todo idoso com queixa de memória', 'Mede diretamente a carga de emaranhados neurofibrilares'],
+    o: ['Um exame positivo confirma, isoladamente, que a demência é causada por Alzheimer', 'Exame negativo torna Alzheimer improvável; o positivo pode ocorrer em idosos normais', 'Deve ser solicitada para todo idoso com queixa de memória', 'Mede diretamente a carga de emaranhados neurofibrilares'],
     g: 'B',
     c: 'O exame tem alto valor preditivo negativo: sem amiloide, o diagnóstico de doença de Alzheimer fica muito improvável. Como a deposição amiloide aumenta com a idade e precede os sintomas em muitos anos, a positividade em idosos sem demência é comum, o que limita a especificidade. Seu uso é reservado a casos selecionados, como início precoce ou apresentação atípica.',
     x: { A: 'A positividade pode coexistir com outra doença que seja a causa real dos sintomas.', C: 'Não há indicação de uso universal; o exame é restrito a situações específicas.', D: 'Os emaranhados são avaliados por PET de tau, não pelo marcador de amiloide.' },
@@ -141,7 +141,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento: fase leve',
     e: 'Homem de 73 anos recebe diagnóstico de doença de Alzheimer em fase leve (Mini-Exame do Estado Mental de 22 pontos, 8 anos de escolaridade). Eletrocardiograma com ritmo sinusal e frequência de 72 bpm. O tratamento farmacológico de primeira linha e a orientação correta à família são:',
-    o: ['Memantina em monoterapia, com expectativa de reverter a perda de memória', 'Inibidor da acetilcolinesterase (donepezila, rivastigmina ou galantamina), com benefício sintomático modesto e sem interromper a progressão', 'Risperidona em dose baixa para prevenir alterações de comportamento', 'Associação de vitamina E e ginkgo biloba, com efeito modificador da doença'],
+    o: ['Memantina em monoterapia, com expectativa de reverter a perda de memória', 'Inibidor de acetilcolinesterase: benefício sintomático modesto, sem interromper a progressão', 'Risperidona em dose baixa para prevenir alterações de comportamento', 'Vitamina E com ginkgo biloba, com efeito modificador da doença'],
     g: 'B',
     c: 'Os anticolinesterásicos são indicados nas fases leve a moderada e aumentam a disponibilidade de acetilcolina, com melhora ou estabilização discreta e temporária da cognição, da funcionalidade e do comportamento. Não alteram a neurodegeneração subjacente, o que deve ser esclarecido à família para alinhar expectativas. Associam-se medidas não farmacológicas e apoio ao cuidador.',
     x: { A: 'A memantina é indicada nas fases moderada a grave e não reverte a perda de memória.', C: 'Antipsicóticos não têm papel preventivo e aumentam a mortalidade em idosos com demência.', D: 'Vitamina E e ginkgo biloba não têm efeito modificador comprovado.' },
@@ -149,7 +149,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos colinérgicos',
     e: 'Mulher de 80 anos iniciou donepezila há três semanas. A filha relata náuseas, diarreia e perda de apetite e, ontem, um episódio de síncope. O eletrocardiograma mostra bradicardia sinusal de 42 bpm. O mecanismo desses efeitos é:',
-    o: ['Bloqueio de receptores muscarínicos periféricos', 'Aumento do tônus colinérgico, com estimulação vagal sobre o coração e o trato gastrointestinal', 'Bloqueio de receptores dopaminérgicos D2', 'Antagonismo de receptores NMDA'],
+    o: ['Bloqueio de receptores muscarínicos periféricos, com constipação e boca seca', 'Aumento do tônus colinérgico: estimulação vagal do coração e do TGI', 'Bloqueio de receptores dopaminérgicos D2, com parkinsonismo associado', 'Antagonismo de receptores NMDA, com sedação e confusão associadas'],
     g: 'B',
     c: 'Ao inibir a acetilcolinesterase, o fármaco eleva a acetilcolina também na periferia. No trato digestivo isso causa náuseas, vômitos, diarreia, anorexia e perda de peso; no coração, o efeito vagotônico produz bradicardia, bloqueios de condução e síncope. Por isso se avaliam frequência cardíaca e eletrocardiograma antes do início, e a bradicardia sintomática exige redução ou suspensão do fármaco.',
     x: { A: 'O bloqueio muscarínico causaria taquicardia, boca seca e constipação, o oposto do quadro.', C: 'O bloqueio dopaminérgico causa parkinsonismo e é próprio dos antipsicóticos.', D: 'O antagonismo NMDA é o mecanismo da memantina, com outro perfil de efeitos adversos.' },
@@ -165,7 +165,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Rivastigmina transdérmica',
     e: 'Mulher de 78 anos com doença de Alzheimer leve não tolerou rivastigmina em cápsulas por náuseas e vômitos intensos, mesmo com titulação lenta. A alternativa mais adequada para manter o tratamento é:',
-    o: ['Suspender definitivamente qualquer anticolinesterásico', 'Trocar para rivastigmina em adesivo transdérmico ou para outro anticolinesterásico', 'Associar metoclopramida de uso contínuo à rivastigmina oral', 'Substituir por um antidepressivo tricíclico'],
+    o: ['Suspender definitivamente qualquer anticolinesterásico, por intolerância', 'Trocar para rivastigmina transdérmica ou outro anticolinesterásico', 'Associar metoclopramida de uso contínuo à rivastigmina oral', 'Substituir por um antidepressivo tricíclico, em dose habitual'],
     g: 'B',
     c: 'O adesivo libera o fármaco de forma contínua, evitando os picos plasmáticos da via oral, que são os responsáveis pelos efeitos gastrointestinais, e por isso é mais bem tolerado. A troca por outro inibidor também é válida, pois a intolerância a um não prediz intolerância a todos. Deve-se orientar o rodízio dos locais de aplicação para evitar irritação cutânea.',
     x: { A: 'A intolerância a uma apresentação não justifica abandonar toda a classe.', C: 'A metoclopramida bloqueia dopamina e pode causar parkinsonismo e sedação em idosos.', D: 'Tricíclicos são anticolinérgicos e pioram a cognição na doença de Alzheimer.' },
@@ -173,7 +173,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Memantina',
     e: 'A memantina, utilizada na doença de Alzheimer, tem como mecanismo de ação e indicação principal:',
-    o: ['Inibição reversível da acetilcolinesterase; fases leves', 'Antagonismo não competitivo de receptores NMDA de glutamato; fases moderada a grave, isolada ou associada a anticolinesterásico', 'Agonismo de receptores dopaminérgicos; sintomas motores', 'Anticorpo monoclonal contra beta-amiloide; fase pré-clínica'],
+    o: ['Inibição reversível da acetilcolinesterase; indicada nas fases leves', 'Antagonismo não competitivo de NMDA; fases moderada a grave', 'Agonismo de receptores dopaminérgicos; indicada para sintomas motores', 'Anticorpo monoclonal anti-beta-amiloide; indicada na fase pré-clínica'],
     g: 'B',
     c: 'A estimulação excessiva e contínua dos receptores NMDA pelo glutamato leva a influxo de cálcio e lesão neuronal (excitotoxicidade). A memantina, antagonista de baixa afinidade, reduz essa ativação tônica patológica sem bloquear a transmissão fisiológica necessária ao aprendizado. Tem benefício modesto em cognição, funcionalidade e comportamento nas fases moderada a grave, e é em geral bem tolerada, com tontura, cefaleia e confusão como efeitos possíveis.',
     x: { A: 'Inibir a acetilcolinesterase é o mecanismo de donepezila, rivastigmina e galantamina.', C: 'A memantina não é agonista dopaminérgico nem trata sintomas motores.', D: 'A memantina é uma molécula pequena de ação glutamatérgica, não um anticorpo.' },
@@ -189,7 +189,7 @@ export const DEMENCIA_2: QuestaoCompacta[] = [
   {
     s: 'Anticorpos antiamiloide',
     e: 'Os anticorpos monoclonais dirigidos contra o beta-amiloide representam uma nova classe terapêutica na doença de Alzheimer. Sobre eles, é correto afirmar:',
-    o: ['São indicados principalmente na demência avançada, para recuperar funções perdidas', 'São destinados a fases iniciais (comprometimento cognitivo leve ou demência leve) com patologia amiloide confirmada, e exigem monitoramento por ressonância pelo risco de edema e micro-hemorragias', 'Dispensam a confirmação da presença de amiloide por biomarcadores', 'O risco de efeitos adversos é menor em homozigotos para o alelo épsilon 4 da APOE'],
+    o: ['Indicados principalmente na demência avançada, para recuperar funções perdidas', 'Para fases iniciais com amiloide confirmado; exigem RM seriada (edema, micro-hemorragias)', 'Dispensam a confirmação da presença de amiloide por biomarcadores', 'O risco de efeitos adversos é menor em homozigotos para o alelo épsilon 4'],
     g: 'B',
     c: 'Esses anticorpos removem placas amiloides e, em ensaios clínicos, reduziram de forma modesta a velocidade de declínio em pacientes em fases iniciais com amiloide comprovado. O principal efeito adverso são as anormalidades de imagem relacionadas ao amiloide, com edema vasogênico e micro-hemorragias, em geral assintomáticas, mas ocasionalmente graves. O risco é maior em portadores do alelo épsilon 4, sobretudo homozigotos, e em usuários de anticoagulantes.',
     x: { A: 'Não há benefício demonstrado em fases avançadas, e funções perdidas não são recuperadas.', C: 'A confirmação de amiloide por líquor ou PET é pré-requisito para a indicação.', D: 'Homozigotos para o alelo épsilon 4 têm risco maior, e não menor, de edema e hemorragia.' },

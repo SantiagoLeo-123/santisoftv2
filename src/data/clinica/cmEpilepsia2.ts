@@ -5,7 +5,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Definição operacional',
     e: 'Do ponto de vista operacional, o estado de mal epiléptico convulsivo (tônico-clônico) deve ser diagnosticado e tratado quando há:',
-    o: ['Crise com duração de pelo menos 30 minutos', 'Crise contínua por 5 minutos ou mais, ou duas ou mais crises sem recuperação da consciência entre elas', 'Três crises em 24 horas com recuperação completa entre elas', 'Qualquer crise que ocorra durante o sono'],
+    o: ['Crise com duração de pelo menos 30 minutos, na definição operacional atual', 'Crise contínua por 5 min ou mais, ou 2 crises sem recuperação da consciência entre elas', 'Três crises em 24 horas, com recuperação completa da consciência entre elas', 'Qualquer crise que ocorra durante o sono, mesmo que seja muito breve'],
     g: 'B',
     c: 'A maioria das crises tônico-clônicas termina sozinha em 1 a 2 minutos; quando ultrapassa 5 minutos, os mecanismos de término falharam e é improvável a cessação espontânea. Por isso 5 minutos é o tempo (t1) para iniciar o tratamento. O marco de 30 minutos (t2) corresponde ao tempo a partir do qual há risco de lesão neuronal e sequelas.',
     x: { A: 'Trinta minutos é o tempo de risco de dano neuronal, e esperar tanto atrasa o tratamento.', C: 'Crises repetidas com recuperação completa entre elas são crises em salvas, não estado de mal.', D: 'A ocorrência no sono não define estado de mal epiléptico.' },
@@ -13,7 +13,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Tempos t1 e t2',
     e: 'Na definição de estado de mal epiléptico da ILAE (2015), os tempos t1 e t2 para o estado de mal tônico-clônico significam, respectivamente:',
-    o: ['Tempo para iniciar a segunda linha (20 min) e para intubar (40 min)', 'Tempo a partir do qual a crise deve ser considerada anormalmente prolongada e tratada (5 min) e tempo a partir do qual há risco de consequências a longo prazo (30 min)', 'Tempo para colher exames (5 min) e para realizar tomografia (30 min)', 'Tempo de duração da fase tônica (5 min) e da fase clônica (30 min)'],
+    o: ['Tempo para iniciar a segunda linha (20 min) e tempo para intubar o paciente (40 min)', 't1 = 5 min (tratar a crise prolongada); t2 = 30 min (risco de consequências a longo prazo)', 'Tempo para colher os exames laboratoriais (5 min) e para fazer a tomografia (30 min)', 'Duração da fase tônica da crise (5 min) e duração da fase clônica da crise (30 min)'],
     g: 'B',
     c: 'A ILAE define o estado de mal por dois tempos. O t1 marca a falha dos mecanismos de término da crise e indica o início do tratamento; o t2 marca o início do risco de morte neuronal, alteração de redes e sequelas. Para o estado de mal tônico-clônico, t1 é 5 minutos e t2 é 30 minutos; para o focal disperceptivo, 10 e mais de 60 minutos.',
     x: { A: 'Os tempos conceituais da ILAE não se referem às etapas do protocolo terapêutico.', C: 'Exames e imagem não podem atrasar o tratamento e não definem t1 e t2.', D: 'As fases tônica e clônica duram segundos a poucos minutos, e não é isso que t1 e t2 medem.' },
@@ -21,7 +21,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia da refratariedade',
     e: 'Quanto mais tempo dura o estado de mal epiléptico, menor é a resposta aos benzodiazepínicos. O mecanismo que explica esse fenômeno é:',
-    o: ['Indução das enzimas hepáticas pelos benzodiazepínicos em minutos', 'Internalização dos receptores GABA-A sinápticos e aumento da expressão de receptores NMDA na membrana', 'Bloqueio dos canais de sódio pela acidose', 'Redução do fluxo sanguíneo cerebral desde o primeiro minuto'],
+    o: ['Indução das enzimas hepáticas pelos benzodiazepínicos em poucos minutos', 'Internalização dos receptores GABA-A sinápticos e aumento de receptores NMDA na membrana', 'Bloqueio dos canais de sódio pela acidose láctica que se instala', 'Redução do fluxo sanguíneo cerebral desde o primeiro minuto de crise'],
     g: 'B',
     c: 'Com a persistência da crise, os receptores GABA-A, alvo dos benzodiazepínicos, são internalizados por endocitose, reduzindo a inibição, enquanto receptores de glutamato do tipo NMDA são levados à membrana, aumentando a excitação. O resultado é farmacorresistência progressiva dependente do tempo, o que justifica tratar cedo e com dose plena.',
     x: { A: 'A indução enzimática leva dias a semanas e não explica a resistência em minutos.', C: 'A acidose tem efeito anticonvulsivante discreto e não é a causa da resistência.', D: 'Na fase inicial o fluxo sanguíneo cerebral aumenta para suprir a demanda metabólica.' },
@@ -29,7 +29,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Causas no adulto',
     e: 'Homem de 34 anos, com epilepsia conhecida em uso de carbamazepina, é trazido em estado de mal epiléptico convulsivo. A família conta que ele parou a medicação há 5 dias. Em adultos com epilepsia prévia, a causa mais frequente de estado de mal é:',
-    o: ['Tumor cerebral primário', 'Má adesão ou suspensão do fármaco anticrise, com nível sérico baixo', 'Encefalite autoimune', 'Hiponatremia'],
+    o: ['Tumor cerebral primário, de crescimento lento e insidioso', 'Má adesão ou suspensão do fármaco anticrise, com nível sérico baixo', 'Encefalite autoimune, com alterações psiquiátricas prévias', 'Hiponatremia, com sintomas de intoxicação hídrica'],
     g: 'B',
     c: 'Em pessoas com epilepsia, a interrupção ou o uso irregular do fármaco é o desencadeante mais comum de estado de mal, e costuma ter melhor prognóstico. Em adultos sem epilepsia prévia predominam as causas agudas, como acidente vascular cerebral, infecção do sistema nervoso central, trauma, distúrbios metabólicos, intoxicações e abstinência alcoólica.',
     x: { A: 'Tumores causam estado de mal, mas com frequência bem menor que a má adesão.', C: 'A encefalite autoimune é causa importante de estado de mal refratário de início recente, porém rara.', D: 'A hiponatremia é causa metabólica possível, mas não a mais frequente nesse grupo.' },
@@ -37,7 +37,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Medidas iniciais',
     e: 'Homem de 40 anos chega à sala de emergência em crise tônico-clônica há 7 minutos, segundo o serviço de resgate. Nos primeiros minutos do atendimento, a sequência adequada é:',
-    o: ['Realizar tomografia de crânio antes de qualquer medicação', 'Proteger via aérea e ofertar oxigênio, monitorizar, obter acesso venoso, medir glicemia capilar e administrar benzodiazepínico', 'Introduzir cânula orofaríngea entre os dentes e aguardar o término espontâneo', 'Intubar imediatamente com bloqueador neuromuscular de longa duração e solicitar eletroencefalograma no dia seguinte'],
+    o: ['Realizar tomografia de crânio antes de qualquer medicação anticrise', 'Proteger a via aérea, dar O2, monitorizar, acesso venoso, glicemia capilar e benzodiazepínico', 'Introduzir cânula orofaríngea entre os dentes e aguardar o término espontâneo', 'Intubar de imediato com bloqueador de longa duração e pedir EEG no dia seguinte'],
     g: 'B',
     c: 'A fase de estabilização (0 a 5 minutos) inclui posicionamento, via aérea, oxigênio, monitorização, acesso venoso e glicemia capilar, pois a hipoglicemia é causa reversível imediata. Como a crise já ultrapassou 5 minutos, o benzodiazepínico deve ser dado sem demora. A investigação etiológica ocorre em paralelo, sem atrasar o controle da crise.',
     x: { A: 'A imagem só deve ser feita após o controle da crise e a estabilização do paciente.', C: 'Não se força objeto entre os dentes, e crise acima de 5 minutos não deve ser apenas observada.', D: 'O bloqueio neuromuscular prolongado mascara as crises sem interrompê-las no cérebro.' },
@@ -69,7 +69,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Diazepam',
     e: 'Sobre o uso do diazepam no estado de mal epiléptico, é correto afirmar:',
-    o: ['É o fármaco ideal para manutenção, pois seu efeito anticonvulsivante dura mais de 24 horas', 'Tem início de ação rápido, mas redistribui-se rapidamente para o tecido adiposo, com efeito anticonvulsivante curto', 'Deve ser administrado por via intramuscular quando não há acesso venoso', 'Não causa depressão respiratória, mesmo em doses repetidas'],
+    o: ['É o fármaco ideal para manutenção, pois dura mais de 24 horas', 'Início rápido, mas redistribui-se para o tecido adiposo: efeito anticonvulsivante curto', 'Deve ser administrado por via intramuscular quando não há acesso venoso', 'Não causa depressão respiratória, mesmo em doses repetidas'],
     g: 'B',
     c: 'O diazepam é muito lipossolúvel: atravessa rápido a barreira hematoencefálica e controla a crise em 1 a 3 minutos, mas em seguida se redistribui para a gordura, e o efeito anticonvulsivante dura apenas 15 a 30 minutos, apesar da meia-vida de eliminação longa. Por isso, após o benzodiazepínico, costuma-se associar um fármaco de ação prolongada para evitar a recorrência.',
     x: { A: 'O efeito cerebral é curto pela redistribuição, apesar da meia-vida de eliminação longa.', C: 'A absorção intramuscular do diazepam é lenta e irregular; usa-se a via retal.', D: 'Depressão respiratória e hipotensão são os principais riscos, sobretudo com doses repetidas.' },
@@ -77,7 +77,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Segunda linha',
     e: 'Mulher de 48 anos mantém crise tônico-clônica após duas doses adequadas de diazepam endovenoso, 15 minutos após o início do atendimento. A próxima etapa é:',
-    o: ['Terceira e quarta doses de diazepam', 'Dose de ataque endovenosa de fármaco anticrise de segunda linha, como fenitoína, valproato ou levetiracetam', 'Carbamazepina por sonda nasogástrica', 'Observação por mais 30 minutos antes de escalonar'],
+    o: ['Terceira e quarta doses de diazepam, por via endovenosa', 'Dose de ataque IV de fármaco de 2ª linha: fenitoína, valproato ou levetiracetam', 'Carbamazepina por sonda nasogástrica, em dose de ataque', 'Observação por mais 30 minutos antes de escalonar o tratamento'],
     g: 'B',
     c: 'A persistência da crise após duas doses de benzodiazepínico define o estado de mal estabelecido e indica a segunda linha: fenitoína (ou fosfenitoína), valproato ou levetiracetam em dose de ataque endovenosa, com fenobarbital como alternativa. O estudo ESETT mostrou eficácia semelhante entre fosfenitoína, valproato e levetiracetam, de modo que a escolha depende do perfil do paciente.',
     x: { A: 'Doses adicionais de benzodiazepínico somam depressão respiratória com pouca chance de resposta.', C: 'A carbamazepina não tem apresentação endovenosa nem papel no estado de mal.', D: 'Esperar aumenta a farmacorresistência e o risco de lesão neuronal.' },
@@ -85,7 +85,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Cuidados com fenitoína',
     e: 'Ao administrar a dose de ataque de fenitoína endovenosa, o cuidado correto é:',
-    o: ['Diluir em soro glicosado a 5% e infundir em bolus rápido', 'Diluir em soro fisiológico, infundir lentamente (no máximo 50 mg/min no adulto) com monitorização cardíaca e de pressão arterial', 'Administrar por via intramuscular quando o acesso for periférico', 'Dispensar monitorização, pois o fármaco não tem efeito cardiovascular'],
+    o: ['Diluir em soro glicosado a 5% e infundir em bolus rápido, em poucos minutos', 'Diluir em SF e infundir devagar (máx. 50 mg/min), com monitorização cardíaca e pressórica', 'Administrar por via intramuscular, quando o acesso venoso for apenas periférico', 'Dispensar monitorização, pois o fármaco não tem nenhum efeito cardiovascular'],
     g: 'B',
     c: 'A fenitoína precipita em soluções glicosadas, devendo ser diluída em soro fisiológico. A infusão rápida causa hipotensão e arritmias (bradicardia, bloqueios), em parte pelo diluente propilenoglicol, o que limita a velocidade a 50 mg/min no adulto e exige monitorização. O extravasamento pode provocar necrose tecidual (síndrome da luva púrpura).',
     x: { A: 'A fenitoína precipita em soro glicosado e não pode ser feita em bolus rápido.', C: 'A via intramuscular causa precipitação e necrose muscular, com absorção errática.', D: 'Hipotensão e arritmias são efeitos clássicos da infusão, exigindo monitorização.' },
@@ -101,7 +101,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Valproato: contraindicações',
     e: 'O valproato endovenoso é opção de segunda linha no estado de mal epiléptico, mas deve ser evitado na seguinte situação:',
-    o: ['Epilepsia generalizada idiopática', 'Hepatopatia grave ou suspeita de doença mitocondrial', 'Instabilidade hemodinâmica', 'Epilepsia mioclônica juvenil'],
+    o: ['Epilepsia generalizada idiopática, em que o valproato é indicado', 'Hepatopatia grave ou suspeita de doença mitocondrial', 'Instabilidade hemodinâmica, em que o valproato é bem tolerado', 'Epilepsia mioclônica juvenil, em que o valproato é indicado'],
     g: 'B',
     c: 'O valproato pode causar hepatotoxicidade grave, sobretudo em crianças pequenas, em hepatopatas e em portadores de doenças mitocondriais (como mutações do gene POLG), além de hiperamonemia, pancreatite e plaquetopenia. É também evitado em gestantes pela teratogenicidade. Sua vantagem é a boa tolerância hemodinâmica e o amplo espectro.',
     x: { A: 'Nas epilepsias generalizadas idiopáticas o valproato é justamente o fármaco mais eficaz.', C: 'O valproato causa pouca hipotensão e é opção em pacientes hemodinamicamente instáveis.', D: 'Na epilepsia mioclônica juvenil o valproato é fármaco de escolha, inclusive no estado de mal.' },
@@ -109,7 +109,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Estado de mal refratário',
     e: 'Homem de 30 anos persiste com crises tônico-clônicas após doses adequadas de midazolam e dose de ataque de fenitoína, 40 minutos após a admissão. O diagnóstico e a conduta são:',
-    o: ['Estado de mal estabelecido; repetir benzodiazepínico e observar', 'Estado de mal refratário; intubação orotraqueal, infusão contínua de anestésico (midazolam, propofol ou tiopental) em terapia intensiva e eletroencefalograma contínuo', 'Estado de mal super-refratário; indicar cirurgia de epilepsia de urgência', 'Crise não epiléptica psicogênica; suspender as medicações'],
+    o: ['Estado de mal estabelecido; repetir o benzodiazepínico e observar', 'Estado de mal refratário: intubar, anestésico contínuo em UTI e EEG contínuo', 'Estado de mal super-refratário; indicar cirurgia de epilepsia de urgência', 'Crise não epiléptica psicogênica; suspender as medicações anticrise'],
     g: 'B',
     c: 'O estado de mal refratário é o que persiste após um benzodiazepínico e um fármaco de segunda linha em doses adequadas. O tratamento é a anestesia geral com infusão contínua de midazolam, propofol ou barbitúrico, com via aérea protegida, suporte hemodinâmico e eletroencefalograma contínuo para titular a dose até a supressão das crises eletrográficas, mantida em geral por 24 a 48 horas.',
     x: { A: 'A falha de primeira e segunda linhas já define refratariedade e exige escalonamento.', C: 'Super-refratário é o que persiste ou recorre após 24 horas de anestesia.', D: 'O contexto é de estado de mal convulsivo verdadeiro, e suspender o tratamento seria danoso.' },
@@ -117,7 +117,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Eletroencefalograma contínuo',
     e: 'Paciente em estado de mal refratário é intubado e recebe infusão contínua de midazolam, cessando os movimentos. O eletroencefalograma contínuo é indicado nessa fase principalmente porque:',
-    o: ['Permite calcular a dose de fenitoína de manutenção', 'As crises podem persistir apenas no traçado, sem manifestação motora, e a infusão deve ser titulada pela supressão da atividade ictal', 'Substitui a necessidade de neuroimagem', 'É necessário para o diagnóstico de morte encefálica em todos os casos'],
+    o: ['Permite calcular a dose de fenitoína de manutenção, a partir do nível sérico', 'As crises podem persistir só no traçado; titular a infusão pela supressão ictal', 'Substitui a necessidade de neuroimagem, nesses casos de estado de mal refratário', 'É necessário para o diagnóstico de morte encefálica em todos os casos'],
     g: 'B',
     c: 'Após o controle das convulsões visíveis, parcela importante dos pacientes mantém crises eletrográficas (estado de mal não convulsivo ou sutil), por dissociação eletromecânica, e a sedação e o bloqueio neuromuscular impedem a avaliação clínica. O eletroencefalograma contínuo detecta essas crises e orienta a titulação do anestésico até a supressão das crises ou o padrão de surto-supressão.',
     x: { A: 'A dose de fenitoína é ajustada por peso e nível sérico, não pelo eletroencefalograma.', C: 'O eletroencefalograma avalia função e não substitui a imagem na busca da etiologia.', D: 'O exame aqui serve para monitorar crises, e o paciente sedado não é avaliado para morte encefálica.' },
@@ -133,7 +133,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Complicações sistêmicas',
     e: 'Homem de 28 anos é admitido após 50 minutos de estado de mal convulsivo. Exames: pH 7,08, lactato elevado, CPK de 28.000 U/L, potássio de 5,9 mEq/L e urina escura com fita positiva para sangue e sem hemácias no sedimento. A complicação e a medida prioritária são:',
-    o: ['Glomerulonefrite aguda; corticoide em pulsoterapia', 'Rabdomiólise; hidratação venosa vigorosa com controle do débito urinário e dos eletrólitos', 'Hemólise intravascular; transfusão de hemácias', 'Infecção urinária; antibioticoterapia empírica'],
+    o: ['Glomerulonefrite aguda; corticoide em pulsoterapia, em dose alta', 'Rabdomiólise: hidratação vigorosa e controle do débito urinário e dos eletrólitos', 'Hemólise intravascular; transfusão de concentrado de hemácias, de imediato', 'Infecção urinária; antibioticoterapia empírica, por via endovenosa, de imediato'],
     g: 'B',
     c: 'A contração muscular intensa e prolongada causa necrose de fibras musculares, liberando mioglobina, potássio e CPK. A mioglobina dá reação positiva para heme na fita sem hemácias no sedimento e é tóxica aos túbulos renais, levando à necrose tubular aguda. O tratamento central é a expansão volêmica precoce e vigorosa, além do controle da hiperpotassemia.',
     x: { A: 'Não há hematúria verdadeira nem quadro nefrítico; o pigmento é a mioglobina.', C: 'A CPK muito elevada indica lesão muscular, e não hemólise.', D: 'Urina escura sem leucocitúria nem bacteriúria não sugere infecção urinária.' },
@@ -141,7 +141,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Acidose no estado de mal',
     e: 'Gasometria colhida durante estado de mal convulsivo mostra pH 7,10, bicarbonato de 12 mEq/L e lactato elevado. Sobre essa acidose, é correto afirmar:',
-    o: ['Exige bicarbonato de sódio endovenoso imediato em todos os casos', 'É predominantemente láctica, pela atividade muscular e hipóxia, e tende a se resolver espontaneamente com o controle da crise', 'Indica sepse e obriga antibioticoterapia', 'É causada pela dose de ataque do benzodiazepínico'],
+    o: ['Exige bicarbonato de sódio endovenoso imediato em todos os casos de acidose', 'Acidose láctica (atividade muscular, hipóxia), que tende a resolver ao controlar a crise', 'Indica sepse e obriga antibioticoterapia imediata, em todos os casos de acidose', 'É causada pela dose de ataque do benzodiazepínico utilizado no tratamento'],
     g: 'B',
     c: 'A atividade muscular intensa em anaerobiose e a hipoventilação geram acidose láctica (com componente respiratório), que costuma se corrigir em cerca de uma hora após o término da crise, pela metabolização do lactato. Por isso a prioridade é interromper a crise e garantir ventilação, reservando o bicarbonato a situações extremas. Leucocitose e pleocitose leve no líquor também podem ocorrer sem infecção.',
     x: { A: 'O bicarbonato não é rotina, pois a acidose se resolve com o controle da crise.', C: 'Lactato elevado após convulsão não significa sepse por si só.', D: 'Benzodiazepínicos podem causar acidose respiratória por hipoventilação, não acidose láctica.' },
@@ -149,7 +149,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Hipertermia',
     e: 'Paciente em estado de mal convulsivo há 40 minutos apresenta temperatura axilar de 40,2 graus Celsius. Sobre esse achado, é correto afirmar:',
-    o: ['Indica obrigatoriamente meningite, dispensando outras hipóteses', 'Pode decorrer da própria atividade muscular sustentada, agrava a lesão neuronal e deve ser tratada com resfriamento ativo, sem deixar de investigar infecção', 'É benéfica, pois reduz a excitabilidade neuronal', 'Deve ser tratada apenas com antitérmico oral após a alta'],
+    o: ['Indica obrigatoriamente meningite, dispensando outras hipóteses diagnósticas', 'Pode vir da atividade muscular e agrava a lesão neuronal; resfriar e investigar infecção', 'É benéfica, pois reduz a excitabilidade neuronal e protege o cérebro', 'Deve ser tratada apenas com antitérmico oral após a alta hospitalar do paciente'],
     g: 'B',
     c: 'A contração muscular contínua e a descarga adrenérgica produzem calor e podem elevar muito a temperatura, mesmo sem infecção. A hipertermia aumenta o consumo metabólico cerebral e potencializa a lesão neuronal excitotóxica, sendo fator de pior prognóstico, e por isso deve ser controlada ativamente. Ainda assim, infecção do sistema nervoso central precisa ser considerada entre as causas.',
     x: { A: 'A febre pode ser consequência da crise, embora a infecção deva ser pesquisada.', C: 'A hipertermia piora a lesão neuronal, ao contrário do que diz a alternativa.', D: 'Hipertermia grave exige medidas físicas imediatas, e não tratamento ambulatorial.' },
@@ -165,7 +165,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Estado de mal não convulsivo',
     e: 'Sobre o estado de mal epiléptico não convulsivo, assinale a alternativa correta:',
-    o: ['É sempre benigno e não requer tratamento', 'Deve ser suspeitado em paciente que não recupera a consciência após o controle de uma crise convulsiva ou em coma sem causa definida', 'É diagnosticado pela tomografia de crânio', 'Ocorre exclusivamente em crianças com epilepsia de ausência'],
+    o: ['É sempre benigno e não requer tratamento específico em nenhuma situação', 'Suspeitar se não recupera a consciência após crise ou em coma de causa indefinida', 'É diagnosticado pela tomografia de crânio, de forma definitiva, na urgência', 'Ocorre exclusivamente em crianças com epilepsia de ausência da infância'],
     g: 'B',
     c: 'O estado de mal não convulsivo é atividade epiléptica prolongada sem fenômenos motores proeminentes, manifestada por rebaixamento ou alteração do comportamento. É frequente em pacientes críticos e após o aparente controle de um estado de mal convulsivo, quando a descarga elétrica continua sem movimento. O diagnóstico depende do eletroencefalograma.',
     x: { A: 'Em pacientes críticos associa-se a pior prognóstico e deve ser tratado.', C: 'A tomografia pode mostrar a causa, mas o diagnóstico é eletroencefalográfico.', D: 'O estado de ausência é apenas uma das formas; em adultos graves predominam outras etiologias.' },
@@ -181,7 +181,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Intoxicação por magnésio',
     e: 'Puérpera em uso de sulfato de magnésio por eclâmpsia apresenta abolição do reflexo patelar, frequência respiratória de 9 irpm e diurese de 15 mL/h. A conduta imediata é:',
-    o: ['Aumentar a velocidade de infusão do sulfato de magnésio', 'Suspender o sulfato de magnésio e administrar gluconato de cálcio endovenoso', 'Administrar furosemida e manter a infusão', 'Associar diazepam endovenoso'],
+    o: ['Aumentar a velocidade de infusão do sulfato de magnésio', 'Suspender o sulfato de magnésio e dar gluconato de cálcio endovenoso', 'Administrar furosemida e manter a infusão do sulfato de magnésio', 'Associar diazepam endovenoso, mantendo o sulfato de magnésio'],
     g: 'B',
     c: 'O magnésio é excretado pelos rins, e a oligúria leva ao acúmulo. A toxicidade segue ordem previsível: perda do reflexo patelar, depois depressão respiratória e, por fim, parada cardíaca, pelo bloqueio da transmissão neuromuscular e da condução cardíaca. O gluconato de cálcio antagoniza esses efeitos, e a infusão deve ser interrompida.',
     x: { A: 'Aumentar a infusão agravaria a intoxicação e poderia levar à parada respiratória.', C: 'Manter a infusão em paciente oligúrica com sinais de toxicidade é perigoso.', D: 'O diazepam somaria depressão respiratória a um quadro já de hipoventilação.' },
@@ -189,7 +189,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Abstinência alcoólica',
     e: 'Homem de 49 anos, etilista, internado há 36 horas por fratura de fêmur, apresenta duas crises tônico-clônicas generalizadas, tremores, sudorese e taquicardia. Tomografia de crânio e eletrólitos normais. O tratamento indicado é:',
-    o: ['Fenitoína endovenosa em dose de ataque e manutenção por tempo indeterminado', 'Benzodiazepínico, tiamina e correção de distúrbios hidroeletrolíticos', 'Haloperidol endovenoso isolado', 'Carbamazepina oral contínua por 2 anos'],
+    o: ['Fenitoína endovenosa em ataque e manutenção por tempo indeterminado', 'Benzodiazepínico, tiamina e correção de distúrbios hidroeletrolíticos', 'Haloperidol endovenoso isolado, sem outras medidas', 'Carbamazepina oral contínua por 2 anos, após a crise'],
     g: 'B',
     c: 'As crises de abstinência alcoólica decorrem da perda súbita do efeito gabaérgico do álcool em um cérebro com receptores GABA-A hiporregulados e NMDA hiper-regulados. Os benzodiazepínicos repõem o tônus gabaérgico, tratam as crises e previnem o delirium tremens. A fenitoína não é eficaz nesse contexto, e não há indicação de fármaco anticrise de manutenção.',
     x: { A: 'A fenitoína não previne crises de abstinência alcoólica nem é indicada como manutenção.', C: 'O haloperidol isolado reduz o limiar convulsivo e não trata a abstinência.', D: 'Crise provocada por abstinência não requer fármaco anticrise de uso prolongado.' },
@@ -197,7 +197,7 @@ export const EPILEPSIA_2: QuestaoCompacta[] = [
   {
     s: 'Erros no manejo',
     e: 'Todas as condutas abaixo são adequadas no manejo do estado de mal epiléptico convulsivo, EXCETO:',
-    o: ['Medir a glicemia capilar logo na chegada', 'Administrar benzodiazepínico em dose plena quando a crise ultrapassa 5 minutos', 'Iniciar fármaco de segunda linha se a crise persistir após o benzodiazepínico', 'Usar bloqueador neuromuscular contínuo como tratamento da crise, dispensando eletroencefalograma'],
+    o: ['Medir a glicemia capilar logo na chegada, que é conduta adequada', 'Dar benzodiazepínico em dose plena se a crise passar de 5 min, conduta adequada', 'Iniciar fármaco de 2ª linha se persistir após o benzodiazepínico, conduta adequada', 'Usar bloqueador neuromuscular contínuo como tratamento, dispensando EEG'],
     g: 'D',
     c: 'O bloqueador neuromuscular apenas abole a contração muscular, sem interromper a descarga epiléptica cerebral, que continua lesando neurônios enquanto o paciente parece controlado. Quando necessário para intubação, prefere-se agente de curta duração, e o eletroencefalograma passa a ser indispensável para monitorar as crises. As demais condutas compõem o protocolo por tempos.',
     x: { A: 'A hipoglicemia é causa rapidamente reversível e deve ser pesquisada de imediato.', B: 'A subdose de benzodiazepínico é erro frequente; a dose deve ser plena e precoce.', C: 'A segunda linha é o passo previsto quando a crise persiste após o benzodiazepínico.' },

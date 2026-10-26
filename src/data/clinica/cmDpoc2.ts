@@ -21,7 +21,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Vacinação',
     e: 'Homem de 66 anos com DPOC GOLD 3 pergunta sobre vacinas. A orientação mais adequada é:',
-    o: ['Apenas vacina contra influenza, pois as demais não têm benefício em pneumopatas', 'Influenza anual, pneumocócica, COVID-19 e dTpa, além de considerar as vacinas contra vírus sincicial respiratório e herpes-zóster', 'Evitar vacinas enquanto estiver em uso de corticoide inalatório', 'Vacina pneumocócica apenas se já tiver tido pneumonia'],
+    o: ['Apenas vacina contra influenza, pois as demais não têm benefício em pneumopatas', 'Influenza anual, pneumocócica, COVID-19, dTpa; considerar VSR e herpes-zóster', 'Evitar vacinas enquanto estiver em uso de corticoide inalatório', 'Vacina pneumocócica apenas se já tiver tido pneumonia anteriormente'],
     g: 'B',
     c: 'A vacinação reduz infecções respiratórias, exacerbações e hospitalizações. O GOLD recomenda influenza anual, vacina pneumocócica, COVID-19, dTpa (proteção contra coqueluche) e, conforme idade e disponibilidade, vírus sincicial respiratório e herpes-zóster. Os esquemas pneumocócicos variam entre países e sociedades (conjugada de maior valência isolada ou conjugada seguida de polissacarídica 23-valente).',
     x: { A: 'A vacina pneumocócica e as demais têm benefício demonstrado ou recomendação formal no DPOC.', C: 'O corticoide inalatório não contraindica vacinas; essas são, em sua maioria, inativadas.', D: 'A vacina pneumocócica é indicada a todos os pacientes com DPOC, sem exigir pneumonia prévia.' },
@@ -61,7 +61,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento inicial',
     e: 'Mulher de 60 anos, ex-tabagista, com DPOC sem tratamento de manutenção, foi internada há 3 meses por exacerbação. Hemograma em fase estável: eosinófilos de 420 células/mm3. Não tem história de pneumonia. Segundo o GOLD, o tratamento inicial a considerar é:',
-    o: ['LAMA em monoterapia', 'Terapia tripla com LABA, LAMA e corticoide inalatório', 'Corticoide inalatório em monoterapia', 'LABA em monoterapia'],
+    o: ['LAMA em monoterapia, em dose habitual de manutenção', 'Terapia tripla: LABA, LAMA e corticoide inalatório', 'Corticoide inalatório em monoterapia, em dose habitual de manutenção', 'LABA em monoterapia, em dose habitual de manutenção'],
     g: 'B',
     c: 'No grupo E, eosinófilos iguais ou acima de 300 células/mm3 identificam pacientes com maior resposta ao corticoide inalatório na prevenção de exacerbações, e o GOLD orienta considerar a terapia tripla já de início. A contagem de eosinófilos funciona como biomarcador da inflamação tipo 2 presente em parte dos pacientes com DPOC.',
     x: { A: 'A monoterapia com LAMA é insuficiente para paciente com hospitalização recente e eosinofilia.', C: 'O corticoide inalatório nunca deve ser usado isoladamente no DPOC.', D: 'O LABA isolado é menos eficaz que as associações na prevenção de exacerbações.' },
@@ -69,7 +69,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Corticoide inalatório',
     e: 'Homem de 71 anos com DPOC usa formoterol com budesonida há 5 anos. Não teve exacerbações nos últimos 3 anos, mas foi tratado por pneumonia duas vezes nesse período. Eosinófilos: 80 células/mm3. Mantém dispneia aos esforços moderados. A melhor conduta é:',
-    o: ['Dobrar a dose do corticoide inalatório', 'Trocar para LABA com LAMA, suspendendo o corticoide inalatório', 'Manter o esquema e associar azitromicina', 'Associar prednisona 5 mg ao dia'],
+    o: ['Dobrar a dose do corticoide inalatório, para reduzir as exacerbações', 'Trocar para LABA + LAMA, suspendendo o corticoide inalatório', 'Manter o esquema e associar azitromicina de uso contínuo', 'Associar prednisona 5 mg ao dia, de uso contínuo'],
     g: 'B',
     c: 'Sem exacerbações, com eosinófilos abaixo de 100 células/mm3 e pneumonias de repetição, o corticoide inalatório traz mais risco que benefício. A troca para dupla broncodilatação melhora a dispneia e retira o fator de risco para pneumonia. A retirada deve ser evitada quando os eosinófilos são iguais ou acima de 300.',
     x: { A: 'Aumentar a dose eleva ainda mais o risco de pneumonia, sem benefício esperado com eosinófilos baixos.', C: 'A azitromicina é indicada para exacerbadores frequentes, o que não é o caso.', D: 'O corticoide sistêmico crônico não tem lugar no DPOC estável.' },
@@ -77,7 +77,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Corticoide inalatório',
     e: 'O efeito adverso mais relevante associado ao uso de corticoide inalatório em pacientes com DPOC, demonstrado em grandes ensaios clínicos, é:',
-    o: ['Insuficiência adrenal aguda', 'Aumento da incidência de pneumonia', 'Fibrose pulmonar', 'Hipocalemia grave'],
+    o: ['Insuficiência adrenal aguda, por supressão do eixo hipotálamo-hipófise-adrenal', 'Aumento da incidência de pneumonia', 'Fibrose pulmonar, por uso prolongado do corticoide inalatório', 'Hipocalemia grave, por uso prolongado do corticoide inalatório'],
     g: 'B',
     c: 'O corticoide inalatório reduz a imunidade local das vias aéreas e aumenta o risco de pneumonia no DPOC, sobretudo em idosos, pacientes com VEF1 muito baixo, baixo índice de massa corporal, pneumonia prévia e eosinófilos baixos. Outros efeitos são candidíase oral, disfonia e equimoses.',
     x: { A: 'Supressão adrenal clinicamente relevante é rara nas doses inalatórias habituais.', C: 'O corticoide inalatório não causa fibrose pulmonar.', D: 'A hipocalemia relaciona-se aos agonistas beta-2 em doses altas, não ao corticoide inalatório.' },
@@ -93,7 +93,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Seguimento',
     e: 'Mulher de 69 anos com DPOC grupo B iniciou LABA com LAMA em inalador de pó seco há 3 meses e retorna sem nenhuma melhora da dispneia. Não teve exacerbações. Antes de modificar o esquema, a primeira medida é:',
-    o: ['Associar corticoide inalatório', 'Verificar a adesão e a técnica de uso do dispositivo inalatório', 'Solicitar tomografia de tórax de alta resolução', 'Iniciar oxigenoterapia domiciliar'],
+    o: ['Associar corticoide inalatório, sem avaliar adesão ou técnica', 'Checar a adesão e a técnica de uso do dispositivo inalatório', 'Solicitar tomografia de tórax de alta resolução, antes de revisar o uso', 'Iniciar oxigenoterapia domiciliar, antes de revisar a técnica inalatória'],
     g: 'B',
     c: 'Erros de técnica inalatória e má adesão são as causas mais frequentes de falha terapêutica e devem ser checados em toda consulta, antes de qualquer escalonamento. Se estiverem adequados, considera-se trocar o dispositivo ou as moléculas, investigar outras causas de dispneia e encaminhar para reabilitação.',
     x: { A: 'O corticoide inalatório não trata dispneia persistente em paciente sem exacerbações.', C: 'A investigação de outras causas vem depois de confirmar o uso correto da medicação.', D: 'A oxigenoterapia depende de hipoxemia documentada em gasometria.' },
@@ -101,7 +101,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Seguimento',
     e: 'Homem de 64 anos, ex-tabagista, em uso correto de LABA com LAMA, teve 2 exacerbações moderadas nos últimos 12 meses. Eosinófilos: 260 células/mm3. Sem história de pneumonia. O passo seguinte é:',
-    o: ['Suspender o LAMA e manter apenas o LABA', 'Escalonar para terapia tripla, acrescentando corticoide inalatório', 'Iniciar teofilina', 'Manter o esquema, pois eosinófilos abaixo de 300 contraindicam corticoide inalatório'],
+    o: ['Suspender o LAMA e manter apenas o LABA, para reduzir exacerbações', 'Escalonar para terapia tripla, acrescentando corticoide inalatório', 'Iniciar teofilina de liberação prolongada, em dose habitual', 'Manter o esquema, pois eosinófilos < 300 contraindicam corticoide inalatório'],
     g: 'B',
     c: 'Em quem continua exacerbando com dupla broncodilatação, eosinófilos iguais ou acima de 100 células/mm3 indicam provável benefício do corticoide inalatório, e a recomendação é escalonar para terapia tripla. Abaixo de 100, a resposta é improvável e preferem-se roflumilaste ou azitromicina.',
     x: { A: 'Reduzir a broncodilatação pioraria o controle e o risco de exacerbações.', C: 'A teofilina tem eficácia limitada e toxicidade relevante.', D: 'O limiar para acrescentar corticoide em quem exacerba com LABA e LAMA é 100, não 300; apenas valores abaixo de 100 desaconselham.' },
@@ -117,7 +117,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Roflumilaste',
     e: 'Paciente com DPOC iniciou roflumilaste há 2 meses. Os efeitos adversos mais esperados com essa medicação são:',
-    o: ['Tremor de extremidades e taquicardia', 'Diarreia, náuseas, perda de peso e sintomas psiquiátricos como insônia e depressão', 'Boca seca e retenção urinária', 'Candidíase oral e disfonia'],
+    o: ['Tremor de extremidades e taquicardia, como nos beta-2-agonistas', 'Diarreia, náuseas, perda de peso e sintomas psiquiátricos (insônia, depressão)', 'Boca seca e retenção urinária, como nos antimuscarínicos', 'Candidíase oral e disfonia, como nos corticoides inalatórios'],
     g: 'B',
     c: 'A inibição da fosfodiesterase 4 causa efeitos gastrointestinais (diarreia, náuseas), redução do apetite com emagrecimento, cefaleia e alterações do sono e do humor. Por isso deve ser evitado em pacientes desnutridos e usado com cautela em quem tem depressão.',
     x: { A: 'Tremor e taquicardia são efeitos dos agonistas beta-2.', C: 'Boca seca e retenção urinária são efeitos anticolinérgicos dos antimuscarínicos.', D: 'Candidíase oral e disfonia são efeitos locais do corticoide inalatório.' },
@@ -141,7 +141,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Antimuscarínicos',
     e: 'Homem de 74 anos com DPOC e hiperplasia prostática com sintomas obstrutivos importantes iniciou tiotrópio. Dez dias depois, procura o pronto-socorro com dor suprapúbica e incapacidade de urinar. O mecanismo desse efeito adverso é:',
-    o: ['Estímulo de receptores beta-2 do colo vesical', 'Bloqueio de receptores muscarínicos M3 do músculo detrusor', 'Bloqueio de receptores alfa-1 da uretra prostática', 'Inibição da fosfodiesterase 5'],
+    o: ['Estímulo de receptores beta-2 do colo vesical, com relaxamento do detrusor', 'Bloqueio de receptores muscarínicos M3 do músculo detrusor', 'Bloqueio de receptores alfa-1 da uretra prostática, com retenção urinária', 'Inibição da fosfodiesterase 5, com relaxamento da musculatura vesical'],
     g: 'B',
     c: 'Os antimuscarínicos de longa ação promovem broncodilatação ao bloquear receptores M3 do músculo liso brônquico. A pequena fração absorvida pode bloquear os mesmos receptores no detrusor, reduzindo a contração vesical e precipitando retenção urinária em homens com obstrução prostática. Boca seca é o efeito adverso mais comum.',
     x: { A: 'O tiotrópio não atua em receptores beta-2; esse é o alvo dos LABA.', C: 'O bloqueio alfa-1 relaxa a uretra prostática e facilitaria a micção.', D: 'A inibição da fosfodiesterase 5 não é mecanismo do tiotrópio e não causa retenção urinária.' },
@@ -173,7 +173,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Corticoide sistêmico',
     e: 'Homem de 73 anos com DPOC muito grave pede para usar prednisona todos os dias, pois se sente melhor quando a toma nas crises. A orientação correta é:',
-    o: ['Manter prednisona 20 mg ao dia, pois reduz a mortalidade', 'Não usar corticoide oral de forma contínua, pois não há benefício sustentado e os efeitos adversos são importantes', 'Usar prednisona em dias alternados para preservar o eixo adrenal', 'Substituir por dexametasona semanal'],
+    o: ['Manter prednisona 20 mg ao dia, pois reduz a mortalidade na DPOC muito grave', 'Não usar corticoide oral contínuo: sem benefício sustentado e com efeitos adversos', 'Usar prednisona em dias alternados, para preservar o eixo adrenal do paciente', 'Substituir por dexametasona semanal, em dose baixa de manutenção prolongada'],
     g: 'B',
     c: 'O corticoide sistêmico tem papel apenas nas exacerbações, por curto período. No uso crônico não melhora desfechos e causa miopatia esteroide, que piora a fraqueza muscular respiratória e periférica, além de osteoporose, diabetes, catarata e infecções.',
     x: { A: 'Não há redução de mortalidade; há indícios de aumento com o uso crônico.', C: 'O esquema em dias alternados não tem evidência de benefício no DPOC estável.', D: 'A dexametasona semanal mantém os riscos do corticoide sistêmico sem indicação.' },
@@ -181,7 +181,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Metilxantinas',
     e: 'Homem de 69 anos com DPOC usa teofilina de liberação prolongada há anos. Há 4 dias iniciou ciprofloxacino para infecção urinária e agora apresenta náuseas, vômitos, tremores, taquicardia de 138 bpm e uma crise convulsiva. A explicação mais provável é:',
-    o: ['Reação anafilática ao ciprofloxacino', 'Intoxicação por teofilina, pela inibição do seu metabolismo hepático pelo ciprofloxacino', 'Hipoglicemia induzida pela quinolona', 'Síndrome serotoninérgica'],
+    o: ['Reação anafilática ao ciprofloxacino, com broncoespasmo e hipotensão', 'Intoxicação por teofilina: o ciprofloxacino inibe o seu metabolismo hepático', 'Hipoglicemia induzida pela quinolona, com tremor e sudorese', 'Síndrome serotoninérgica, por associação de teofilina e quinolona'],
     g: 'B',
     c: 'A teofilina tem janela terapêutica estreita e é metabolizada pelo citocromo P450 (CYP1A2). Ciprofloxacino, macrolídeos e cimetidina inibem essa via e elevam o nível sérico, causando náuseas, taquiarritmias e convulsões. Esse perfil de risco, somado ao benefício modesto, explica por que a teofilina só é usada quando não há outros broncodilatadores disponíveis.',
     x: { A: 'A anafilaxia cursa com urticária, broncoespasmo e hipotensão, em geral logo após a dose.', C: 'A hipoglicemia por quinolona não explica taquiarritmia e vômitos nesse contexto de interação clássica.', D: 'Não há uso de fármacos serotoninérgicos, e o quadro é típico de toxicidade por xantina.' },
@@ -197,7 +197,7 @@ export const DPOC_2: QuestaoCompacta[] = [
   {
     s: 'Prognóstico',
     e: 'O índice BODE, utilizado para estimar o prognóstico de pacientes com DPOC, é composto por:',
-    o: ['Idade, gasometria arterial, número de exacerbações e VEF1', 'Índice de massa corporal, VEF1, dispneia pela escala mMRC e distância no teste de caminhada de 6 minutos', 'Eosinófilos, DLCO, pontuação do CAT e extensão do enfisema na tomografia', 'Carga tabágica, saturação de oxigênio, frequência cardíaca e hematócrito'],
+    o: ['Idade, gasometria arterial, número de exacerbações e VEF1', 'IMC, VEF1, dispneia (mMRC) e distância no teste de caminhada de 6 minutos', 'Eosinófilos, DLCO, pontuação do CAT e extensão do enfisema na tomografia', 'Carga tabágica, saturação de oxigênio, frequência cardíaca e hematócrito'],
     g: 'B',
     c: 'O BODE reúne Body mass index, Obstruction (VEF1), Dyspnea (mMRC) e Exercise (teste de caminhada de 6 minutos). Por integrar o comprometimento sistêmico da doença, prediz a mortalidade melhor que o VEF1 isolado e é usado na indicação de transplante pulmonar. O baixo índice de massa corporal é marcador de pior prognóstico.',
     x: { A: 'Idade, gasometria e exacerbações não entram no cálculo do BODE.', C: 'Eosinófilos, DLCO e tomografia não compõem o índice.', D: 'Nenhum desses itens faz parte do BODE.' },

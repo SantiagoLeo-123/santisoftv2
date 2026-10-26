@@ -21,7 +21,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Retinopatia: edema macular',
     e: 'Homem de 61 anos, diabético tipo 2 há 15 anos, queixa-se de embaçamento visual central progressivo. A tomografia de coerência óptica mostra espessamento da mácula com envolvimento do centro da fóvea. Sobre esse quadro, é correto afirmar:',
-    o: ['Só ocorre na fase proliferativa da retinopatia', 'É a principal causa de perda visual no diabético, e o tratamento de primeira linha é o anti-VEGF intravítreo', 'É irreversível e não tem tratamento específico', 'Deve ser tratado com panfotocoagulação da retina periférica'],
+    o: ['Só ocorre na fase proliferativa da retinopatia, com neovasos na retina', 'Principal causa de perda visual no diabético; primeira linha é anti-VEGF intravítreo', 'É irreversível e não tem tratamento específico, apenas controle glicêmico', 'Deve ser tratado com panfotocoagulação da retina periférica, como primeira linha'],
     g: 'B',
     c: 'O edema macular diabético resulta da quebra da barreira hematorretiniana, com extravasamento de líquido e lipídios na mácula, e pode ocorrer em qualquer estágio da retinopatia. Como compromete a visão central, é a principal causa de baixa visual; os anti-VEGF reduzem a permeabilidade vascular e melhoram a acuidade.',
     x: { A: 'O edema macular pode surgir em qualquer estágio, inclusive na forma não proliferativa.', C: 'Há tratamento eficaz, com recuperação visual em boa parte dos casos.', D: 'A panfotocoagulação trata a neovascularização e pode até piorar o edema macular.' },
@@ -29,7 +29,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Doença renal do diabetes: rastreamento',
     e: 'O rastreamento da doença renal do diabetes deve ser feito anualmente com:',
-    o: ['Urina de 24 horas para proteinúria e ultrassonografia renal', 'Relação albumina/creatinina em amostra isolada de urina e taxa de filtração glomerular estimada', 'Exame de urina tipo 1 com fita reagente e ureia sérica', 'Creatinina sérica isolada'],
+    o: ['Urina de 24 horas para proteinúria e ultrassonografia renal', 'Relação albumina/creatinina em amostra isolada e TFG estimada', 'Exame de urina tipo 1 com fita reagente e ureia sérica', 'Creatinina sérica isolada, sem exame de urina'],
     g: 'B',
     c: 'A doença renal do diabetes pode se manifestar por albuminúria, por queda da filtração glomerular ou por ambas, e por isso os dois parâmetros são necessários. A relação albumina/creatinina em amostra isolada é prática e corrige a concentração urinária; um resultado alterado deve ser confirmado em novas amostras ao longo de alguns meses, pela grande variabilidade.',
     x: { A: 'A coleta de 24 horas é trabalhosa e sujeita a erros, e a ultrassonografia não rastreia a doença.', C: 'A fita reagente só detecta proteinúria em níveis mais altos, perdendo a fase inicial.', D: 'A creatinina isolada não detecta albuminúria e é pouco sensível para perdas iniciais de função.' },
@@ -45,7 +45,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Doença renal do diabetes: tratamento',
     e: 'Mulher de 57 anos, diabética tipo 2 e hipertensa, com relação albumina/creatinina de 480 mg/g, iniciou enalapril. Após 2 semanas, a creatinina passou de 1,0 para 1,2 mg/dL e o potássio é de 4,8 mEq/L. A conduta correta é:',
-    o: ['Suspender o enalapril por nefrotoxicidade', 'Manter o enalapril, pois elevação de creatinina de até 30% é esperada e tolerável', 'Associar losartana para potencializar a nefroproteção', 'Trocar o enalapril por anlodipino'],
+    o: ['Suspender o enalapril por nefrotoxicidade, trocando por outro anti-hipertensivo', 'Manter o enalapril: elevação de creatinina até 30% é esperada e tolerável', 'Associar losartana para potencializar a nefroproteção, com controle em 1 semana', 'Trocar o enalapril por anlodipino, que tem maior efeito nefroprotetor'],
     g: 'B',
     c: 'Os inibidores da ECA e os bloqueadores do receptor de angiotensina dilatam a arteríola eferente, reduzindo a pressão intraglomerular e a albuminúria. Essa queda hemodinâmica da filtração produz pequena elevação da creatinina no início, que é funcional e reflete justamente o mecanismo protetor; só aumentos maiores ou hipercalemia importante exigem reavaliação.',
     x: { A: 'A elevação de 20% é hemodinâmica e esperada, não sinal de lesão renal.', C: 'A associação de inibidor da ECA com bloqueador de angiotensina aumenta hipercalemia e lesão renal sem benefício.', D: 'O anlodipino não reduz a pressão intraglomerular nem a albuminúria da mesma forma.' },
@@ -85,7 +85,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Neuropatia periférica: rastreamento',
     e: 'No rastreamento anual do pé em risco de ulceração no paciente diabético, o instrumento recomendado para avaliar a perda da sensibilidade protetora é:',
-    o: ['Eletroneuromiografia dos quatro membros', 'Monofilamento de 10 g, associado a pelo menos mais um teste, como o diapasão de 128 Hz', 'Ultrassonografia com Doppler arterial', 'Radiografia dos pés em carga'],
+    o: ['Eletroneuromiografia dos quatro membros, de rotina', 'Monofilamento de 10 g mais outro teste, como diapasão de 128 Hz', 'Ultrassonografia com Doppler arterial, de rotina', 'Radiografia dos pés em carga, de rotina'],
     g: 'B',
     c: 'A incapacidade de perceber o monofilamento de 10 g indica perda da sensibilidade protetora plantar e identifica o pé em risco de úlcera. Associá-lo a outro teste (vibração, dor, temperatura ou reflexo aquileu) aumenta a sensibilidade. No diabetes tipo 2 o rastreamento começa ao diagnóstico, e no tipo 1 após 5 anos de doença.',
     x: { A: 'A eletroneuromiografia não é exame de rastreamento e fica reservada a casos atípicos.', C: 'O Doppler avalia a circulação arterial, não a sensibilidade protetora.', D: 'A radiografia avalia deformidades e osso, sem informar sobre a sensibilidade.' },
@@ -93,7 +93,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Neuropatia periférica: tratamento',
     e: 'São opções de primeira linha para o tratamento da dor neuropática da polineuropatia diabética, EXCETO:',
-    o: ['Pregabalina ou gabapentina', 'Duloxetina', 'Amitriptilina', 'Anti-inflamatórios não esteroidais'],
+    o: ['Pregabalina ou gabapentina, que são de primeira linha', 'Duloxetina, que é de primeira linha', 'Amitriptilina, que é de primeira linha', 'Anti-inflamatórios não esteroidais'],
     g: 'D',
     c: 'A dor neuropática resulta de disfunção das fibras nervosas e da sensibilização central, sem componente inflamatório relevante, e por isso responde mal a anti-inflamatórios, que ainda trazem risco renal e cardiovascular no diabético. O tratamento se baseia em moduladores da transmissão da dor: gabapentinoides, inibidores da recaptação de serotonina e noradrenalina e tricíclicos.',
     x: { A: 'Os gabapentinoides são tratamento de primeira linha da dor neuropática diabética.', B: 'A duloxetina é opção de primeira linha, com ação nas vias descendentes inibitórias da dor.', C: 'Os tricíclicos são de primeira linha, com cautela em idosos e cardiopatas.' },
@@ -101,7 +101,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Neuropatia autonômica',
     e: 'Homem de 59 anos, diabético há 22 anos, com retinopatia e polineuropatia, tem frequência cardíaca de repouso de 108 bpm que não varia com a respiração, e a pressão arterial cai de 138x84 para 102x66 mmHg ao ficar em pé, sem aumento da frequência cardíaca. Sobre esse quadro, é correto afirmar:',
-    o: ['Indica hipertireoidismo, devendo-se dosar o TSH antes de qualquer conclusão', 'Trata-se de neuropatia autonômica cardiovascular, que aumenta o risco de isquemia miocárdica silenciosa e de morte súbita', 'É efeito adverso esperado da metformina', 'Decorre de desidratação e se resolve com hidratação oral'],
+    o: ['Indica hipertireoidismo, devendo-se dosar o TSH antes de qualquer outra conclusão', 'Neuropatia autonômica cardiovascular: risco de isquemia silenciosa e morte súbita', 'É efeito adverso esperado da metformina, que não exige nenhuma investigação', 'Decorre de desidratação, e se resolve com hidratação oral nas próximas horas'],
     g: 'B',
     c: 'A neuropatia autonômica cardiovascular acomete primeiro as fibras vagais, mais longas, gerando taquicardia de repouso e perda da variabilidade da frequência cardíaca; depois a lesão simpática causa hipotensão ortostática sem taquicardia compensatória. A denervação cardíaca prejudica a percepção da dor anginosa e se associa a maior mortalidade.',
     x: { A: 'A hipotensão ortostática sem resposta cronotrópica aponta para disautonomia, não tireotoxicose.', C: 'A metformina não causa taquicardia fixa nem hipotensão ortostática.', D: 'Na desidratação a frequência cardíaca aumenta ao ortostatismo, o que não ocorreu.' },
@@ -117,7 +117,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Mononeuropatias',
     e: 'Homem de 66 anos, diabético e hipertenso, apresenta de forma súbita dor retro-orbitária à direita, ptose palpebral e olho desviado para fora e para baixo, com diplopia. As pupilas são isocóricas e fotorreagentes. A principal hipótese é:',
-    o: ['Aneurisma da artéria comunicante posterior comprimindo o nervo oculomotor', 'Mononeuropatia diabética do nervo oculomotor (III par), com pupila poupada', 'Síndrome de Horner', 'Miastenia gravis ocular'],
+    o: ['Aneurisma da comunicante posterior comprimindo o III par', 'Mononeuropatia diabética do III par, com pupila poupada', 'Síndrome de Horner, com miose e ptose leve', 'Miastenia gravis ocular, com ptose flutuante'],
     g: 'B',
     c: 'A mononeuropatia do III par no diabético é isquêmica, por oclusão dos vasos que nutrem o centro do nervo. As fibras pupilomotoras parassimpáticas correm na periferia do nervo e recebem suprimento de vasos piais, sendo poupadas; já a compressão externa por aneurisma atinge primeiro essas fibras superficiais e causa midríase. A evolução costuma ser de recuperação espontânea em semanas a meses.',
     x: { A: 'A compressão por aneurisma acomete as fibras periféricas e causa midríase, ausente aqui.', C: 'A síndrome de Horner causa ptose discreta com miose, sem oftalmoplegia.', D: 'A miastenia é indolor, flutuante e piora ao longo do dia, sem instalação súbita.' },
@@ -125,7 +125,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Pé diabético: Charcot',
     e: 'Homem de 55 anos, diabético há 18 anos, com polineuropatia grave, apresenta há 3 semanas pé esquerdo edemaciado, quente e eritematoso, com pouca dor e sem úlcera nem porta de entrada. Está afebril, com leucograma normal e pulsos amplos. A radiografia mostra subluxação e fragmentação óssea no mediopé. A hipótese e a conduta são:',
-    o: ['Celulite; antibiótico oral e manter a deambulação', 'Neuroartropatia de Charcot em fase aguda; retirada da carga e imobilização com gesso de contato total', 'Trombose venosa profunda; anticoagulação plena', 'Crise de gota; colchicina e alopurinol'],
+    o: ['Celulite; antibiótico oral e manter a deambulação normal com o pé acometido', 'Neuroartropatia de Charcot aguda: retirar a carga e imobilizar com gesso de contato', 'Trombose venosa profunda; anticoagulação plena e meias de compressão', 'Crise de gota; colchicina e alopurinol em dose habitual de manutenção'],
     g: 'B',
     c: 'Na neuroartropatia de Charcot, a perda da sensibilidade protetora permite microtraumas repetidos, e a disautonomia aumenta o fluxo sanguíneo e a reabsorção óssea, levando a fraturas e luxações. A fase aguda simula infecção, mas sem úlcera e sem sinais sistêmicos; a descarga do peso é essencial para evitar o colapso do arco e a deformidade em mata-borrão.',
     x: { A: 'Não há porta de entrada nem sinais sistêmicos, e manter a carga agrava a destruição articular.', C: 'A trombose venosa não explica a fragmentação óssea vista na radiografia.', D: 'A gota é muito dolorosa e não produz subluxação e fragmentação do mediopé.' },
@@ -133,7 +133,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Pé diabético: úlceras',
     e: 'Mulher de 62 anos, diabética, tem úlcera indolor na região plantar, sob a cabeça do primeiro metatarso, com bordas calosas e fundo granuloso. O pé é quente, com pele seca, e os pulsos pedioso e tibial posterior são palpáveis. O tipo de úlcera e a medida essencial do tratamento são:',
-    o: ['Úlcera isquêmica; revascularização do membro', 'Úlcera neuropática; desbridamento do calo e alívio da pressão no local (descarga)', 'Úlcera venosa; terapia compressiva elástica', 'Úlcera de pressão por decúbito; mudança de decúbito a cada 2 horas'],
+    o: ['Úlcera isquêmica; revascularização do membro', 'Úlcera neuropática: desbridar o calo e aliviar a pressão (descarga)', 'Úlcera venosa; terapia compressiva elástica', 'Úlcera de pressão por decúbito; mudança de decúbito a cada 2 horas'],
     g: 'B',
     c: 'A úlcera neuropática surge em pontos de pressão plantar, é indolor pela perda da sensibilidade e tem halo de hiperqueratose; a pele seca reflete a disautonomia. Sem retirar a carga do local, o trauma repetido impede a cicatrização, de modo que a descarga é a medida mais importante, ao lado do desbridamento.',
     x: { A: 'A úlcera isquêmica é dolorosa, ocorre em extremidades e bordas do pé, com pé frio e sem pulsos.', C: 'A úlcera venosa localiza-se na região maleolar, com dermatite ocre e edema.', D: 'A localização plantar em área de apoio durante a marcha não corresponde a lesão por decúbito.' },
@@ -141,7 +141,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Pé diabético: osteomielite',
     e: 'Homem de 68 anos, diabético, tem úlcera plantar há 3 meses, com secreção e exposição profunda. Ao introduzir um estilete estéril, toca-se uma superfície dura e áspera. A radiografia simples é normal. A interpretação e o próximo exame mais adequado são:',
-    o: ['O teste afasta osteomielite; nenhum exame adicional é necessário', 'O teste de sondagem óssea positivo sugere fortemente osteomielite; a ressonância magnética é o melhor exame de imagem', 'A radiografia normal exclui osteomielite; tratar apenas como infecção superficial', 'Deve-se colher swab superficial da úlcera para definir o agente e a duração do antibiótico'],
+    o: ['O teste afasta osteomielite; nenhum exame adicional é necessário', 'Sondagem óssea positiva sugere osteomielite; a RM é o melhor exame de imagem', 'A radiografia normal exclui osteomielite; tratar como infecção superficial', 'Colher swab superficial da úlcera para definir o agente e a duração do antibiótico'],
     g: 'B',
     c: 'Tocar o osso com o estilete (probe-to-bone) indica que a úlcera alcança o plano ósseo e tem alto valor preditivo para osteomielite em úlceras infectadas. A radiografia só mostra alterações após semanas de doença; a ressonância detecta edema medular precoce. O diagnóstico definitivo e o agente são obtidos por biópsia e cultura de osso.',
     x: { A: 'O teste positivo aumenta, e não reduz, a probabilidade de osteomielite.', C: 'A radiografia tem baixa sensibilidade na fase inicial da osteomielite.', D: 'O swab superficial reflete colonização e não se correlaciona com o agente do osso.' },
@@ -149,7 +149,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Doença arterial periférica',
     e: 'Homem de 70 anos, diabético há 25 anos e com doença renal crônica, tem úlcera no hálux que não cicatriza e pulsos distais não palpáveis. O índice tornozelo-braquial é de 1,45. A interpretação correta é:',
-    o: ['O índice normal afasta doença arterial periférica', 'O índice está falsamente elevado por calcificação da camada média arterial; deve-se usar o índice hálux-braquial ou outro método', 'O índice elevado indica hiperfluxo por neuropatia, sem isquemia', 'O índice confirma insuficiência venosa crônica'],
+    o: ['O índice normal afasta doença arterial periférica, mesmo em diabéticos renais', 'Índice falsamente elevado por calcificação da média arterial; usar índice hálux-braquial', 'O índice elevado indica hiperfluxo por neuropatia, sem isquemia associada', 'O índice confirma insuficiência venosa crônica, e não doença arterial'],
     g: 'B',
     c: 'No diabetes de longa data e na doença renal crônica, a calcificação da camada média (esclerose de Monckeberg) torna as artérias da perna incompressíveis, elevando artificialmente a pressão medida no tornozelo. Valores acima de 1,3 a 1,4 não são confiáveis; as artérias digitais costumam ser poupadas, e por isso a pressão do hálux é mais fidedigna.',
     x: { A: 'O valor acima de 1,4 não é normal e não permite excluir doença arterial.', C: 'A clínica de úlcera que não cicatriza sem pulsos sugere isquemia, não hiperfluxo.', D: 'O índice tornozelo-braquial avalia a circulação arterial, não a venosa.' },
@@ -197,7 +197,7 @@ export const DM_4: QuestaoCompacta[] = [
   {
     s: 'Diabetes gestacional: pós-parto',
     e: 'Mulher de 33 anos teve diabetes gestacional tratado com insulina, suspensa após o parto. Em relação ao seguimento, a orientação correta é:',
-    o: ['Nenhuma reavaliação é necessária, pois o diabetes gestacional se resolve com o parto', 'Realizar teste oral de tolerância com 75 g de glicose cerca de 6 semanas após o parto, com critérios de não gestante, e manter rastreamento periódico', 'Dosar hemoglobina glicada na primeira semana de puerpério', 'Manter a insulina por 1 ano e só então reavaliar'],
+    o: ['Nenhuma reavaliação é necessária, pois o diabetes gestacional se resolve com o parto', 'TOTG 75 g cerca de 6 semanas pós-parto (critérios de não gestante) e rastreio periódico', 'Dosar a hemoglobina glicada na primeira semana de puerpério, e nada mais', 'Manter a insulina por 1 ano e só então reavaliar o metabolismo da glicose'],
     g: 'B',
     c: 'A maioria das mulheres normaliza a glicemia após a saída da placenta, que produz os hormônios responsáveis pela resistência à insulina. Contudo, o diabetes gestacional revela uma reserva de células beta limitada e é forte preditor de diabetes tipo 2 futuro, justificando a reclassificação no puerpério e o rastreamento ao longo da vida.',
     x: { A: 'O risco de diabetes tipo 2 no futuro é elevado e exige reavaliação e seguimento.', C: 'A hemoglobina glicada no puerpério imediato é pouco confiável pela perda sanguínea e pelas alterações da gestação.', D: 'A insulina costuma ser suspensa logo após o parto, pois a resistência insulínica cai rapidamente.' },

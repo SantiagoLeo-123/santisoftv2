@@ -5,7 +5,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia',
     e: 'Homem de 62 anos, hipertenso e tabagista, refere há 8 meses dor retroesternal em aperto ao subir ladeiras, que cede em 3 minutos com o repouso, sempre com a mesma intensidade de esforço. O mecanismo fisiopatológico que melhor explica esse quadro é:',
-    o: ['Ruptura de placa aterosclerótica com trombo oclusivo', 'Placa aterosclerótica obstrutiva fixa que limita o aumento do fluxo coronariano quando a demanda de oxigênio se eleva', 'Espasmo focal de artéria coronária epicárdica sem relação com esforço', 'Inflamação do pericárdio visceral com irritação de fibras nociceptivas'],
+    o: ['Ruptura de placa aterosclerótica com trombo oclusivo agudo', 'Placa obstrutiva fixa que limita o aumento do fluxo quando a demanda de O2 sobe', 'Espasmo focal de coronária epicárdica, sem relação com esforço', 'Inflamação do pericárdio visceral com irritação de fibras nociceptivas'],
     g: 'B',
     c: 'Na angina estável, uma placa fixa (em geral com estenose acima de 70% do diâmetro) esgota a reserva de fluxo coronariano: em repouso a oferta basta, mas no esforço o aumento de frequência cardíaca, contratilidade e tensão parietal eleva o consumo e surge isquemia. Por isso a dor é previsível, reprodutível e alivia com repouso ou nitrato.',
     x: { A: 'Trombo oclusivo sobre placa rota é o mecanismo do infarto com supra de ST, com dor prolongada em repouso.', C: 'O vasoespasmo causa dor em repouso, geralmente de madrugada, sem relação fixa com o esforço.', D: 'A pericardite causa dor pleurítica e posicional, não dor desencadeada por esforço.' },
@@ -13,7 +13,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Classificação da dor torácica',
     e: 'Mulher de 58 anos, diabética, queixa-se de desconforto retroesternal em queimação que surge ao caminhar rápido e melhora em poucos minutos quando ela para. Segundo a classificação clínica clássica da dor torácica, trata-se de:',
-    o: ['Angina atípica, pois a dor é em queimação', 'Angina típica, pois reúne as três características: desconforto retroesternal, desencadeado por esforço ou estresse e aliviado por repouso ou nitrato', 'Dor torácica não anginosa, pois não há irradiação para o braço', 'Angina instável, pois a paciente é diabética'],
+    o: ['Angina atípica, pois a dor é em queimação, e não em aperto ou pressão', 'Angina típica: dor retroesternal, por esforço, aliviada por repouso ou nitrato', 'Dor torácica não anginosa, pois não há irradiação para o braço esquerdo', 'Angina instável, pois a paciente é diabética e tem risco elevado'],
     g: 'B',
     c: 'A classificação clássica usa três critérios: desconforto retroesternal de qualidade e duração características, provocado por esforço ou estresse emocional e aliviado em minutos por repouso ou nitrato. Três critérios definem angina típica, dois angina atípica e um ou nenhum dor não anginosa. A descrição em queimação ou peso não exclui angina.',
     x: { A: 'Queimação é uma qualidade aceita de desconforto anginoso; a paciente preenche os três critérios.', C: 'Irradiação não faz parte dos três critérios da classificação.', D: 'Instabilidade é definida pelo padrão da dor (repouso, início recente ou progressão), não pela presença de diabetes.' },
@@ -21,7 +21,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Classificação funcional da angina',
     e: 'Homem de 66 anos com doença coronariana conhecida relata dor precordial ao caminhar um quarteirão no plano ou ao subir um lance de escadas em ritmo normal. Não tem dor em repouso. Pela classificação da Canadian Cardiovascular Society (CCS), a angina é classe:',
-    o: ['I', 'III', 'II', 'IV'],
+    o: ['Classe I da CCS, sem limitação', 'Classe III da CCS, com limitação acentuada', 'Classe II da CCS, com limitação leve', 'Classe IV da CCS, com dor em repouso'],
     g: 'B',
     c: 'Na CCS, classe I é angina apenas com esforço extenuante ou prolongado; classe II, limitação leve (andar mais de dois quarteirões, subir mais de um lance de escadas); classe III, limitação acentuada, com dor ao andar um a dois quarteirões no plano ou subir um lance; classe IV, incapacidade de qualquer atividade sem dor, podendo ocorrer em repouso.',
     x: { A: 'Na classe I as atividades habituais não provocam dor, só o esforço intenso.', C: 'Na classe II a limitação é leve: a dor aparece ao andar mais de dois quarteirões ou subir mais de um lance.', D: 'A classe IV implica dor aos mínimos esforços ou em repouso.' },
@@ -45,7 +45,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Teste ergométrico',
     e: 'Mulher de 64 anos, hipertensa, com angina atípica e probabilidade pré-teste intermediária, apresenta bloqueio completo de ramo esquerdo no eletrocardiograma de repouso. O método mais adequado para pesquisar isquemia é:',
-    o: ['Teste ergométrico convencional', 'Cintilografia de perfusão miocárdica com estresse farmacológico por vasodilatador (dipiridamol ou adenosina)', 'Cintilografia de perfusão miocárdica com esforço em esteira', 'Eletrocardiograma de alta resolução'],
+    o: ['Teste ergométrico convencional, em esteira, sem imagem', 'Cintilografia de perfusão com estresse farmacológico por vasodilatador', 'Cintilografia de perfusão com esforço em esteira, sem vasodilatador', 'ECG de alta resolução, sem estresse nem imagem'],
     g: 'B',
     c: 'O bloqueio de ramo esquerdo torna o segmento ST não interpretável, de modo que é preciso um método de imagem. Além disso, o aumento da frequência cardíaca (exercício ou dobutamina) acentua a assincronia septal e produz falsos defeitos de perfusão no septo; por isso prefere-se o estresse com vasodilatador.',
     x: { A: 'O bloqueio de ramo esquerdo impede a análise do segmento ST no teste ergométrico.', C: 'O esforço no bloqueio de ramo esquerdo gera falso defeito de perfusão septal.', D: 'Esse exame pesquisa potenciais tardios e não diagnostica isquemia.' },
@@ -61,7 +61,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Teste ergométrico',
     e: 'O critério eletrocardiográfico clássico de positividade do teste ergométrico para isquemia miocárdica é:',
-    o: ['Infradesnivelamento do ponto J com segmento ST rapidamente ascendente', 'Infradesnivelamento do segmento ST horizontal ou descendente de pelo menos 1 mm, medido 60 a 80 ms após o ponto J', 'Inversão isolada da onda T em derivações inferiores', 'Aparecimento de extrassístoles ventriculares isoladas no pico do esforço'],
+    o: ['Infra do ponto J com ST rapidamente ascendente, que é resposta normal', 'Infra de ST horizontal ou descendente ≥ 1 mm, 60-80 ms após o ponto J', 'Inversão isolada da onda T em derivações inferiores, sem infra de ST', 'Extrassístoles ventriculares isoladas no pico do esforço'],
     g: 'B',
     c: 'O infradesnivelamento horizontal ou descendente de 1 mm ou mais, 60 a 80 ms após o ponto J, é o marcador eletrocardiográfico de isquemia subendocárdica induzida pelo esforço. O padrão ascendente rápido é resposta fisiológica à taquicardia e tem baixo valor diagnóstico.',
     x: { A: 'O infradesnivelamento ascendente rápido do ponto J é resposta normal ao exercício.', C: 'Alterações isoladas da onda T são inespecíficas no esforço.', D: 'Extrassístoles isoladas não são critério de isquemia.' },
@@ -69,7 +69,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Cintilografia miocárdica',
     e: 'Homem de 59 anos realiza cintilografia de perfusão miocárdica. As imagens mostram hipocaptação na parede anterior durante o estresse, com captação normal nas imagens de repouso. Esse achado corresponde a:',
-    o: ['Fibrose por infarto antigo', 'Isquemia miocárdica induzida por estresse (defeito reversível)', 'Artefato de atenuação mamária', 'Miocárdio hibernante sem viabilidade'],
+    o: ['Fibrose por infarto antigo, com defeito fixo', 'Isquemia induzida por estresse (defeito reversível)', 'Artefato de atenuação mamária, com defeito fixo', 'Miocárdio hibernante sem viabilidade, com defeito fixo'],
     g: 'B',
     c: 'O defeito presente no estresse e ausente no repouso (reversível) indica território com fluxo adequado em repouso, mas incapaz de aumentar a perfusão sob estresse, ou seja, isquemia. O defeito fixo, presente nas duas fases, sugere fibrose por infarto prévio.',
     x: { A: 'A fibrose produz defeito fixo, presente no estresse e no repouso.', C: 'Artefatos de atenuação costumam aparecer nas duas fases, como defeitos fixos.', D: 'Miocárdio hibernante é viável por definição e não se caracteriza por defeito reversível com perfusão de repouso normal.' },
@@ -85,7 +85,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Angiotomografia de coronárias',
     e: 'Mulher de 48 anos, sem comorbidades, com dor torácica atípica e probabilidade pré-teste baixa a intermediária de doença coronariana. A principal vantagem da angiotomografia de coronárias nesse contexto é:',
-    o: ['Quantificar com precisão a repercussão funcional de cada estenose', 'Seu alto valor preditivo negativo, que permite excluir doença coronariana obstrutiva', 'Dispensar o uso de contraste iodado', 'Ter melhor desempenho em pacientes com calcificação coronariana extensa'],
+    o: ['Quantificar com precisão a repercussão funcional de cada estenose', 'Alto valor preditivo negativo, que permite excluir doença coronariana obstrutiva', 'Dispensar o uso de contraste iodado, em todos os pacientes', 'Ter melhor desempenho em pacientes com calcificação coronariana extensa'],
     g: 'B',
     c: 'A angiotomografia é um método anatômico com sensibilidade muito alta; um exame normal praticamente exclui doença obstrutiva em pacientes de probabilidade baixa a intermediária. Seu desempenho cai com calcificação intensa, frequência cardíaca alta ou irregular, e ela não informa por si só a repercussão funcional da lesão.',
     x: { A: 'A avaliação funcional exige teste de isquemia ou reserva de fluxo fracionada.', C: 'O exame utiliza contraste iodado venoso.', D: 'Calcificação extensa gera artefato e superestima estenoses.' },
@@ -93,7 +93,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Escore de cálcio',
     e: 'Homem de 52 anos, assintomático, classificado como de risco cardiovascular intermediário pelos escores clínicos, está em dúvida sobre iniciar estatina. O exame que melhor reclassifica o risco nessa situação é:',
-    o: ['Teste ergométrico', 'Escore de cálcio coronariano por tomografia sem contraste', 'Cineangiocoronariografia', 'Ecocardiograma transtorácico de repouso'],
+    o: ['Teste ergométrico, em paciente assintomático de risco intermediário', 'Escore de cálcio coronariano por tomografia sem contraste', 'Cineangiocoronariografia, em paciente assintomático de risco intermediário', 'Ecocardiograma de repouso, em paciente assintomático de risco intermediário'],
     g: 'B',
     c: 'O escore de cálcio mede a carga de aterosclerose calcificada e é o melhor reclassificador em assintomáticos de risco intermediário: escore zero indica risco baixo em curto e médio prazo, e escores elevados (acima de 100 ou do percentil 75) favorecem tratamento mais intensivo. Não é exame para sintomáticos nem avalia grau de estenose.',
     x: { A: 'O teste ergométrico em assintomáticos tem baixo valor preditivo e reclassifica pouco.', C: 'Exame invasivo não tem papel em rastreamento de assintomáticos.', D: 'O ecocardiograma de repouso não quantifica aterosclerose coronariana.' },
@@ -109,7 +109,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Tratamento antianginoso',
     e: 'Homem de 61 anos com angina estável classe II, frequência cardíaca de 88 bpm e pressão de 146 x 90 mmHg, já em uso de ácido acetilsalicílico e estatina. O antianginoso de primeira linha e seu principal mecanismo são:',
-    o: ['Nitrato de ação prolongada, por vasodilatação arterial coronariana seletiva', 'Betabloqueador, por reduzir frequência cardíaca e contratilidade, diminuindo o consumo de oxigênio e prolongando a diástole', 'Ivabradina, por reduzir a pós-carga', 'Nifedipina de ação curta, por reduzir a frequência cardíaca'],
+    o: ['Nitrato de ação prolongada, por vasodilatação coronariana seletiva, sem efeito na FC', 'Betabloqueador: reduz FC e contratilidade, o consumo de O2 e prolonga a diástole', 'Ivabradina, por reduzir a pós-carga e a pressão arterial, sem efeito na FC', 'Nifedipina de ação curta, por reduzir a frequência cardíaca de repouso'],
     g: 'B',
     c: 'Os betabloqueadores são tradicionalmente a primeira linha antianginosa: reduzem frequência, contratilidade e pressão arterial (menor consumo) e, ao prolongar a diástole, aumentam o tempo de perfusão coronariana. A meta é frequência de repouso em torno de 55 a 60 bpm. Bloqueadores de canal de cálcio são alternativa equivalente para sintomas.',
     x: { A: 'O principal efeito dos nitratos é venodilatação com queda da pré-carga, e são fármacos de segunda linha.', C: 'A ivabradina reduz a frequência sinusal e não altera a pós-carga.', D: 'A nifedipina de ação curta causa taquicardia reflexa e pode piorar a isquemia.' },
@@ -117,7 +117,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Nitratos',
     e: 'Homem de 70 anos usa mononitrato de isossorbida de 8 em 8 horas, em horários fixos ao longo das 24 horas. Após boa resposta inicial, a angina voltou com a mesma frequência. A melhor explicação e a conduta são:',
-    o: ['Progressão da doença; dobrar a dose mantendo os horários', 'Tolerância ao nitrato; reorganizar os horários para garantir intervalo livre da droga de 8 a 12 horas por dia', 'Efeito rebote; suspender o nitrato definitivamente', 'Interação com estatina; trocar a estatina'],
+    o: ['Progressão da doença; dobrar a dose mantendo os horários', 'Tolerância ao nitrato; garantir intervalo livre de 8-12 h por dia', 'Efeito rebote; suspender o nitrato definitivamente', 'Interação com estatina; trocar a estatina por outra'],
     g: 'B',
     c: 'A exposição contínua ao nitrato leva à tolerância, com perda do efeito vasodilatador por depleção de grupos sulfidrila e ativação neuro-hormonal. A prevenção é a posologia assimétrica, deixando um período livre de 8 a 12 horas, em geral à noite.',
     x: { A: 'Aumentar a dose sem intervalo livre mantém a tolerância.', C: 'Não se trata de rebote; o fármaco pode ser mantido com ajuste de horários.', D: 'Não há interação relevante entre estatina e nitrato que explique o quadro.' },
@@ -125,7 +125,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Nitratos',
     e: 'Homem de 58 anos, coronariopata, chega ao pronto-socorro com dor precordial em aperto há 30 minutos. Pressão arterial de 138 x 84 mmHg. Informa ter usado tadalafila há 20 horas. Em relação ao alívio da dor, é correto:',
-    o: ['Administrar dinitrato de isossorbida sublingual imediatamente', 'Não administrar nitrato, pelo risco de hipotensão grave, pois a tadalafila contraindica seu uso por 48 horas', 'Administrar nitroglicerina venosa em dose plena', 'Administrar nitrato apenas se a dor durar mais de 1 hora'],
+    o: ['Dinitrato de isossorbida sublingual imediatamente, para aliviar a dor torácica', 'Não dar nitrato: risco de hipotensão grave; tadalafila contraindica por 48 horas', 'Nitroglicerina venosa em dose plena, para aliviar a dor torácica do paciente', 'Dar nitrato apenas se a dor durar mais de 1 hora de evolução'],
     g: 'B',
     c: 'Os inibidores da fosfodiesterase 5 impedem a degradação do GMP cíclico, o mesmo mediador da vasodilatação pelo nitrato; a associação causa hipotensão profunda e refratária. O nitrato é contraindicado por 24 horas após sildenafila ou vardenafila e por 48 horas após tadalafila, que tem meia-vida mais longa.',
     x: { A: 'O nitrato sublingual também interage e pode causar hipotensão grave.', C: 'A via venosa não elimina a interação e o risco é o mesmo.', D: 'A duração da dor não modifica a contraindicação.' },
@@ -141,7 +141,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Ivabradina',
     e: 'Sobre a ivabradina no tratamento da angina estável, é correto afirmar que:',
-    o: ['É eficaz em pacientes com fibrilação atrial permanente', 'Inibe a corrente If do nó sinusal, reduzindo a frequência cardíaca sem alterar contratilidade ou pressão arterial, e só atua em ritmo sinusal', 'Atua bloqueando receptores beta-1 adrenérgicos', 'É a droga de escolha por reduzir a mortalidade na angina estável'],
+    o: ['É eficaz em pacientes com fibrilação atrial permanente, assim como no ritmo sinusal', 'Inibe a corrente If do nó sinusal: reduz a FC sem alterar contratilidade ou PA; só em ritmo sinusal', 'Atua bloqueando os receptores beta-1 adrenérgicos do nó sinusal, como os betabloqueadores', 'É a droga de escolha por reduzir a mortalidade na angina estável'],
     g: 'B',
     c: 'A ivabradina bloqueia seletivamente a corrente If das células marca-passo do nó sinusal, diminuindo a frequência sem efeito inotrópico negativo nem hipotensor. Exige ritmo sinusal e é opção de segunda linha quando a frequência permanece em 70 bpm ou mais apesar do betabloqueador ou quando ele é contraindicado. Não reduziu mortalidade na doença coronariana sem insuficiência cardíaca.',
     x: { A: 'Na fibrilação atrial o nó sinusal não comanda o ritmo e a droga não funciona.', C: 'Esse é o mecanismo dos betabloqueadores.', D: 'Não há redução de mortalidade na angina estável; é fármaco sintomático de segunda linha.' },
@@ -157,7 +157,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Revascularização',
     e: 'Mulher de 60 anos, diabética em uso de insulina, com angina classe III apesar de tratamento otimizado. Coronariografia: lesões de 80% a 90% em descendente anterior proximal, circunflexa e coronária direita. Fração de ejeção de 45% e baixo risco cirúrgico. A melhor estratégia de revascularização é:',
-    o: ['Angioplastia com stents farmacológicos nas três artérias', 'Cirurgia de revascularização miocárdica com enxerto de artéria torácica interna para a descendente anterior', 'Angioplastia com balão sem stent', 'Fibrinolítico venoso'],
+    o: ['Angioplastia com stents farmacológicos nas três artérias acometidas', 'Revascularização cirúrgica com artéria torácica interna para a descendente anterior', 'Angioplastia com balão sem stent, nas três artérias acometidas', 'Fibrinolítico venoso, em dose plena, para as lesões coronarianas'],
     g: 'B',
     c: 'Em diabéticos com doença multiarterial, a cirurgia reduz morte e infarto em comparação com a angioplastia (estudo FREEDOM), provavelmente porque os enxertos protegem contra a progressão difusa da aterosclerose nos segmentos proximais. O envolvimento da descendente anterior proximal e a disfunção ventricular reforçam a indicação cirúrgica.',
     x: { A: 'No diabético multiarterial a angioplastia tem mais eventos e nova revascularização que a cirurgia.', C: 'Angioplastia apenas com balão tem alta taxa de reestenose e não é opção atual.', D: 'Fibrinolítico é tratamento do infarto com supra de ST, não da doença crônica.' },
@@ -165,7 +165,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Revascularização',
     e: 'Homem de 57 anos com angina classe I, bem controlada com betabloqueador. Cintilografia com isquemia leve em parede inferior. Coronariografia: lesão única de 70% no terço médio da coronária direita, fração de ejeção normal. A conduta mais adequada é:',
-    o: ['Cirurgia de revascularização miocárdica', 'Manter tratamento clínico otimizado e controle dos fatores de risco, reservando revascularização para sintomas refratários', 'Angioplastia imediata, pois reduz mortalidade nesse cenário', 'Implante de cardiodesfibrilador'],
+    o: ['Cirurgia de revascularização miocárdica, para reduzir mortalidade', 'Manter tratamento clínico otimizado; revascularizar se sintomas refratários', 'Angioplastia imediata, pois reduz mortalidade nesse cenário', 'Implante de cardiodesfibrilador, para prevenção de morte súbita'],
     g: 'B',
     c: 'Na doença coronariana crônica sem lesão de tronco nem disfunção ventricular grave, a revascularização de rotina não reduz morte ou infarto em relação ao tratamento clínico otimizado, como mostraram os estudos COURAGE e ISCHEMIA. Seu papel principal nesse cenário é aliviar a angina refratária à medicação.',
     x: { A: 'Não há benefício de sobrevida com cirurgia em lesão única de coronária direita com função normal.', C: 'A angioplastia na doença estável melhora sintomas, mas não reduz mortalidade.', D: 'Não há indicação de desfibrilador com fração de ejeção normal e sem arritmia.' },
@@ -173,7 +173,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Cirurgia de revascularização',
     e: 'Na cirurgia de revascularização miocárdica, o enxerto com maior patência em longo prazo e associado a aumento de sobrevida é:',
-    o: ['Veia safena magna para a coronária direita', 'Artéria torácica interna esquerda para a descendente anterior', 'Artéria radial para a circunflexa', 'Veia safena magna para a descendente anterior'],
+    o: ['Veia safena magna para a coronária direita', 'Artéria torácica interna esquerda para a descendente anterior', 'Artéria radial para a circunflexa, sem uso de safena', 'Veia safena magna para a descendente anterior'],
     g: 'B',
     c: 'A artéria torácica interna (mamária) esquerda anastomosada à descendente anterior tem patência superior a 90% em 10 anos, pois é pouco suscetível à aterosclerose e produz óxido nítrico. Os enxertos de safena sofrem hiperplasia intimal e aterosclerose acelerada, com oclusão de cerca de metade em 10 anos.',
     x: { A: 'Os enxertos venosos têm patência bem inferior em longo prazo.', C: 'A radial é boa opção arterial, mas não supera a torácica interna para a descendente anterior.', D: 'Usar safena na descendente anterior desperdiça o benefício de sobrevida do enxerto arterial.' },
@@ -181,7 +181,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Antiagregação após angioplastia',
     e: 'Homem de 63 anos com angina estável refratária foi submetido a angioplastia eletiva com stent farmacológico na descendente anterior, sem complicações. Não tem alto risco de sangramento. O esquema antiplaquetário habitualmente recomendado é:',
-    o: ['Ácido acetilsalicílico isolado desde o primeiro dia', 'Ácido acetilsalicílico associado a clopidogrel por 6 meses, seguido de monoterapia antiplaquetária', 'Varfarina isolada por 12 meses', 'Clopidogrel por 7 dias apenas'],
+    o: ['AAS isolado desde o primeiro dia após o stent', 'AAS + clopidogrel por 6 meses; depois monoterapia antiplaquetária', 'Varfarina isolada por 12 meses após o implante do stent', 'Clopidogrel por apenas 7 dias após o stent'],
     g: 'B',
     c: 'Após stent farmacológico na doença coronariana crônica, a dupla antiagregação com ácido acetilsalicílico e clopidogrel por 6 meses é o padrão, cobrindo o período de endotelização das hastes e prevenindo trombose do stent. O tempo pode ser encurtado para 1 a 3 meses em alto risco de sangramento. Nas síndromes coronarianas agudas o padrão é 12 meses.',
     x: { A: 'A monoterapia precoce aumenta o risco de trombose do stent.', C: 'Anticoagulante oral não previne trombose de stent, que é mediada por plaquetas.', D: 'Sete dias são insuficientes para a endotelização do stent.' },
@@ -189,7 +189,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Angina microvascular',
     e: 'Mulher de 54 anos, hipertensa, com dor precordial típica aos esforços há 1 ano. Teste ergométrico com infradesnivelamento de ST de 2 mm e dor. A cineangiocoronariografia mostra coronárias epicárdicas sem lesões obstrutivas. A hipótese mais provável é:',
-    o: ['Resultado falso-positivo que dispensa tratamento', 'Angina microvascular por disfunção da microcirculação coronariana', 'Dissecção espontânea de coronária', 'Pericardite constritiva'],
+    o: ['Resultado falso-positivo que dispensa tratamento', 'Angina microvascular: disfunção da microcirculação coronariana', 'Dissecção espontânea de coronária, com coronárias normais', 'Pericardite constritiva, com dor torácica ao esforço'],
     g: 'B',
     c: 'Angina típica com isquemia documentada e coronárias epicárdicas sem obstrução caracteriza isquemia sem doença obstrutiva, cuja causa mais comum é a disfunção microvascular, mais frequente em mulheres. Há redução da reserva de fluxo coronariano por disfunção endotelial e de arteríolas. O tratamento inclui controle de fatores de risco, estatina e antianginosos.',
     x: { A: 'O quadro tem implicação prognóstica e sintomática e deve ser tratado.', C: 'A dissecção espontânea causa síndrome coronariana aguda e é visível na angiografia.', D: 'A pericardite constritiva causa insuficiência cardíaca direita, não angina de esforço.' },
@@ -197,7 +197,7 @@ export const CORONARIA_1: QuestaoCompacta[] = [
   {
     s: 'Ecocardiograma de estresse',
     e: 'No ecocardiograma de estresse com dobutamina, o achado que indica isquemia miocárdica é:',
-    o: ['Aumento global da contratilidade com redução da cavidade ventricular', 'Surgimento de nova alteração da contratilidade segmentar ou piora de alteração preexistente durante o estresse', 'Aumento da fração de ejeção acima de 70%', 'Elevação da frequência cardíaca acima de 85% da máxima prevista'],
+    o: ['Aumento global da contratilidade, com redução da cavidade ventricular ao estresse', 'Nova alteração segmentar da contratilidade, ou piora prévia, durante o estresse', 'Aumento da fração de ejeção acima de 70% durante o estresse com dobutamina', 'Elevação da frequência cardíaca acima de 85% da máxima prevista para a idade'],
     g: 'B',
     c: 'Na cascata isquêmica, a disfunção contrátil regional precede as alterações do eletrocardiograma e a dor. Por isso, hipocinesia ou acinesia nova em um segmento durante o estresse indica isquemia no território da artéria correspondente. A resposta normal é hipercontratilidade global.',
     x: { A: 'Hipercontratilidade global com redução da cavidade é a resposta normal ao estresse.', C: 'O aumento da fração de ejeção é resposta fisiológica.', D: 'Atingir a frequência submáxima apenas indica que o teste foi eficaz.' },

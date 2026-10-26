@@ -21,7 +21,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia domiciliar',
     e: 'Para que a oxigenoterapia domiciliar prolongada produza benefício de sobrevida no DPOC com hipoxemia grave, o tempo mínimo de uso diário recomendado é de:',
-    o: ['4 horas, durante as atividades', '15 horas, incluindo o período do sono', '8 horas, apenas à noite', '2 horas, após as refeições'],
+    o: ['4 horas por dia, apenas durante as atividades', '15 horas por dia, incluindo o período do sono', '8 horas por dia, apenas durante a noite', '2 horas por dia, apenas após as refeições'],
     g: 'B',
     c: 'Os estudos clássicos mostraram que o ganho de sobrevida aparece com pelo menos 15 horas diárias de oxigênio e é maior quanto mais próximo do uso contínuo. O fluxo é titulado para manter saturação em torno de 90% ou mais, e o período do sono deve ser incluído porque nele a hipoxemia se acentua.',
     x: { A: 'Uso de poucas horas ao dia não reproduz o benefício de sobrevida demonstrado.', C: 'O uso apenas noturno foi inferior ao uso prolongado nos estudos clássicos.', D: 'Períodos curtos de oxigênio não modificam a evolução da doença.' },
@@ -37,7 +37,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia domiciliar',
     e: 'Homem de 70 anos com DPOC estável tem SpO2 de 92% em repouso, que cai para 86% durante a caminhada, sem sinais de cor pulmonale e com hematócrito normal. Pergunta se deve usar oxigênio em casa. A orientação correta é:',
-    o: ['Indicar oxigenoterapia contínua por 24 horas, pois reduz a mortalidade', 'Não indicar oxigenoterapia prolongada de rotina, pois não há benefício em mortalidade ou internações nesse grupo', 'Indicar oxigênio noturno, pois evita a evolução para hipertensão pulmonar', 'Indicar oxigênio em alto fluxo com máscara com reservatório'],
+    o: ['Oxigenoterapia contínua por 24 horas, pois reduz a mortalidade nesse grupo', 'Sem O2 prolongado de rotina: nenhum benefício em mortalidade ou internações nesse grupo', 'Oxigênio noturno, pois evita a evolução para hipertensão pulmonar', 'Oxigênio em alto fluxo com máscara com reservatório, de uso contínuo'],
     g: 'B',
     c: 'Em pacientes com hipoxemia apenas moderada em repouso ou dessaturação isolada ao esforço, um grande ensaio clínico não mostrou redução de mortalidade nem de internações com oxigênio prolongado. Nesses casos a prioridade é otimizar broncodilatadores e reabilitação, podendo-se avaliar individualmente o oxigênio no esforço para alívio de sintomas.',
     x: { A: 'O benefício em mortalidade restringe-se à hipoxemia grave de repouso.', C: 'Não há evidência de que o oxigênio noturno isolado previna hipertensão pulmonar nesse grupo.', D: 'Máscara com reservatório não é dispositivo de uso domiciliar nem tem indicação aqui.' },
@@ -45,7 +45,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia domiciliar',
     e: 'Mulher de 63 anos com DPOC teve alta há 5 dias após exacerbação, ainda com PaO2 de 54 mmHg em ar ambiente. Antes de se definir a indicação de oxigenoterapia domiciliar prolongada, é necessário:',
-    o: ['Realizar polissonografia', 'Reavaliar a gasometria em fase estável, após algumas semanas', 'Confirmar DLCO abaixo de 40% do previsto', 'Documentar hipertensão pulmonar por cateterismo direito'],
+    o: ['Realizar polissonografia, antes da alta, para definir o uso de oxigênio', 'Reavaliar a gasometria em fase estável, após algumas semanas', 'Confirmar DLCO abaixo de 40% do previsto, antes de prescrever oxigênio', 'Documentar hipertensão pulmonar por cateterismo direito, antes de prescrever oxigênio'],
     g: 'B',
     c: 'A hipoxemia logo após uma exacerbação é frequentemente transitória e melhora com a recuperação. Por isso a indicação definitiva exige gasometria em fase estável, com tratamento otimizado, confirmada em nova medida depois de algumas semanas. Quem recebe oxigênio na alta deve ser reavaliado em 60 a 90 dias para verificar se a necessidade persiste.',
     x: { A: 'A polissonografia não é requisito para indicar oxigenoterapia prolongada.', C: 'A difusão não faz parte dos critérios de indicação do oxigênio domiciliar.', D: 'O cateterismo não é necessário; a indicação é gasométrica e clínica.' },
@@ -53,7 +53,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva domiciliar',
     e: 'Homem de 69 anos com DPOC muito grave teve duas internações por insuficiência respiratória hipercápnica no último ano. Quatro semanas após a última alta, estável e em uso de oxigênio domiciliar, mantém PaCO2 de 60 mmHg em vigília. A medida que pode reduzir novas internações e a mortalidade é:',
-    o: ['Aumentar o fluxo de oxigênio para manter SpO2 de 98%', 'Ventilação não invasiva domiciliar noturna associada ao oxigênio', 'Acetazolamida para estimular a ventilação', 'Traqueostomia eletiva'],
+    o: ['Aumentar o fluxo de oxigênio para manter SpO2 de 98%, o que piora a hipercapnia', 'VNI domiciliar noturna associada ao oxigênio', 'Acetazolamida para estimular a ventilação, em dose habitual', 'Traqueostomia eletiva, como tratamento da hipercapnia crônica'],
     g: 'B',
     c: 'Na hipercapnia diurna persistente e acentuada após internação por insuficiência respiratória, a ventilação não invasiva domiciliar noturna, com pressões suficientes para reduzir a PaCO2, prolonga o tempo até nova internação ou morte. Ela descansa a musculatura respiratória durante o sono e melhora a sensibilidade do centro respiratório ao CO2.',
     x: { A: 'Hiperóxia agrava a retenção de CO2 e não traz benefício adicional.', C: 'A acetazolamida causa acidose metabólica e não é tratamento da hipoventilação do DPOC.', D: 'A traqueostomia eletiva não tem indicação nesse cenário de paciente estável.' },
@@ -61,7 +61,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Cor pulmonale',
     e: 'O termo cor pulmonale designa:',
-    o: ['Insuficiência ventricular esquerda causada por hipoxemia crônica', 'Hipertrofia e/ou dilatação do ventrículo direito secundária a doença do parênquima, da vasculatura pulmonar ou da ventilação', 'Insuficiência ventricular direita secundária a estenose mitral', 'Qualquer cardiopatia em paciente com doença pulmonar'],
+    o: ['Insuficiência ventricular esquerda causada por hipoxemia crônica do paciente', 'Hipertrofia ou dilatação do VD, secundária a doença pulmonar, vascular ou da ventilação', 'Insuficiência ventricular direita secundária a estenose mitral ou a outra valvopatia', 'Qualquer cardiopatia em paciente com doença pulmonar crônica associada'],
     g: 'B',
     c: 'Cor pulmonale é a alteração da estrutura e da função do ventrículo direito provocada por hipertensão pulmonar de origem respiratória. Por definição, excluem-se as causas de hipertensão pulmonar por doença do coração esquerdo e as cardiopatias congênitas. O DPOC é a causa mais comum de cor pulmonale crônico.',
     x: { A: 'O conceito refere-se ao ventrículo direito, e não ao esquerdo.', C: 'Disfunção direita por doença do coração esquerdo é excluída da definição.', D: 'A simples coexistência de cardiopatia e pneumopatia não caracteriza cor pulmonale.' },
@@ -69,7 +69,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão pulmonar',
     e: 'O principal mecanismo da hipertensão pulmonar no DPOC e o grupo em que ela se enquadra na classificação clínica são:',
-    o: ['Obstrução tromboembólica crônica, grupo 4', 'Vasoconstrição pulmonar hipóxica com remodelamento vascular, grupo 3', 'Aumento da pressão do átrio esquerdo, grupo 2', 'Arteriopatia plexiforme idiopática, grupo 1'],
+    o: ['Obstrução tromboembólica crônica, que corresponde ao grupo 4', 'Vasoconstrição pulmonar hipóxica com remodelamento vascular (grupo 3)', 'Aumento da pressão do átrio esquerdo, que corresponde ao grupo 2', 'Arteriopatia plexiforme idiopática, que corresponde ao grupo 1'],
     g: 'B',
     c: 'A hipóxia alveolar crônica causa vasoconstrição das arteríolas pulmonares e, com o tempo, remodelamento com hipertrofia da camada média e espessamento da íntima. Somam-se a perda do leito capilar pelo enfisema e a policitemia, que aumenta a viscosidade. É a hipertensão pulmonar do grupo 3, em geral leve a moderada.',
     x: { A: 'O grupo 4 corresponde à doença tromboembólica crônica, outro mecanismo.', C: 'O grupo 2 decorre de doença do coração esquerdo, com pressão capilar elevada.', D: 'O grupo 1 é a hipertensão arterial pulmonar, com lesões vasculares próprias.' },
@@ -85,7 +85,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Hipertensão pulmonar',
     e: 'Mulher de 67 anos com DPOC grave tem ecocardiograma com pressão sistólica da artéria pulmonar estimada em 50 mmHg e PaO2 de 53 mmHg em ar ambiente. O tratamento mais adequado para a hipertensão pulmonar é:',
-    o: ['Sildenafila em dose plena', 'Oxigenoterapia domiciliar prolongada e otimização do tratamento do DPOC', 'Bosentana associada a anticoagulação oral', 'Bloqueador de canal de cálcio em dose alta'],
+    o: ['Sildenafila em dose plena, como vasodilatador pulmonar', 'Oxigenoterapia prolongada e otimização do tratamento do DPOC', 'Bosentana associada a anticoagulação oral, em dose habitual', 'Bloqueador de canal de cálcio em dose alta, como vasodilatador pulmonar'],
     g: 'B',
     c: 'Na hipertensão pulmonar do grupo 3 o tratamento é o da doença de base e a correção da hipoxemia, que atenua a vasoconstrição hipóxica. Os vasodilatadores pulmonares específicos não são recomendados de rotina, porque dilatam vasos de áreas mal ventiladas, pioram a relação ventilação-perfusão e podem agravar a hipoxemia.',
     x: { A: 'A sildenafila pode piorar a troca gasosa e não tem benefício estabelecido no DPOC.', C: 'Antagonistas da endotelina não são indicados na hipertensão pulmonar do grupo 3.', D: 'Bloqueadores de cálcio são reservados a respondedores da hipertensão arterial pulmonar idiopática.' },
@@ -93,7 +93,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Cirurgia redutora de volume',
     e: 'Homem de 62 anos, ex-tabagista há 2 anos, com DPOC grave e dispneia limitante apesar de tratamento otimizado e reabilitação pulmonar completa. O perfil que identifica o candidato com maior benefício da cirurgia redutora de volume pulmonar é:',
-    o: ['Enfisema homogêneo com DLCO muito reduzida', 'Enfisema predominante em lobos superiores com baixa capacidade de exercício após reabilitação', 'Enfisema predominante em lobos inferiores com alta capacidade de exercício', 'Bronquite crônica com bronquiectasias difusas'],
+    o: ['Enfisema homogêneo com DLCO muito reduzida, que contraindica a cirurgia', 'Enfisema predominante em lobos superiores, com baixa capacidade de exercício pós-reabilitação', 'Enfisema predominante em lobos inferiores, com alta capacidade de exercício', 'Bronquite crônica com bronquiectasias difusas, que contraindica a cirurgia'],
     g: 'B',
     c: 'A ressecção das áreas mais destruídas reduz a hiperinsuflação, melhora a retração elástica e recoloca o diafragma em posição mecânica mais favorável. O maior estudo sobre o tema mostrou ganho de sobrevida e de capacidade funcional no subgrupo com enfisema predominante nos lobos superiores e baixa capacidade de exercício mesmo após reabilitação.',
     x: { A: 'Enfisema homogêneo com difusão muito baixa caracteriza alto risco cirúrgico.', C: 'Esse perfil não teve benefício e apresentou maior mortalidade com a cirurgia.', D: 'A cirurgia redutora é destinada ao enfisema, não à doença brônquica supurativa.' },
@@ -101,7 +101,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Cirurgia redutora de volume',
     e: 'Na avaliação para cirurgia redutora de volume pulmonar, o achado que indica alto risco de morte com o procedimento e contraindica a cirurgia é:',
-    o: ['Capacidade pulmonar total aumentada', 'VEF1 igual ou inferior a 20% do previsto associado a DLCO igual ou inferior a 20% ou a enfisema homogêneo', 'Volume residual acima de 150% do previsto', 'Cessação do tabagismo há mais de 6 meses'],
+    o: ['Capacidade pulmonar total aumentada, que é achado esperado e favorável', 'VEF1 ≤ 20% do previsto com DLCO ≤ 20% ou enfisema homogêneo', 'Volume residual acima de 150% do previsto, que é achado favorável', 'Cessação do tabagismo há mais de 6 meses, que é achado favorável'],
     g: 'B',
     c: 'Pacientes com VEF1 muito reduzido combinado a difusão muito baixa ou a enfisema de distribuição homogênea tiveram mortalidade elevada após a cirurgia, sem ganho funcional. Nesses casos não há áreas-alvo bem definidas para ressecar e a reserva pulmonar restante é mínima; a alternativa a ser considerada é o transplante.',
     x: { A: 'A hiperinsuflação é justamente o que a cirurgia pretende corrigir.', C: 'Volume residual elevado indica aprisionamento aéreo e favorece a indicação.', D: 'A abstinência do tabaco é pré-requisito para o procedimento.' },
@@ -109,7 +109,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Redução endoscópica de volume',
     e: 'Em relação à redução endoscópica de volume pulmonar com válvulas endobrônquicas unidirecionais no enfisema avançado, é correto afirmar que:',
-    o: ['É indicada apenas no enfisema por deficiência de alfa-1-antitripsina', 'Exige ausência de ventilação colateral entre os lobos e tem o pneumotórax como complicação mais característica', 'Dispensa otimização clínica e reabilitação prévias', 'Substitui a oxigenoterapia domiciliar nos pacientes hipoxêmicos'],
+    o: ['É indicada apenas no enfisema por deficiência de alfa-1-antitripsina', 'Exige ausência de ventilação colateral; a complicação típica é o pneumotórax', 'Dispensa otimização clínica e reabilitação prévias, por ser minimamente invasiva', 'Substitui a oxigenoterapia domiciliar nos pacientes hipoxêmicos'],
     g: 'B',
     c: 'A válvula deixa o ar sair e impede sua entrada, levando o lobo tratado à atelectasia e reduzindo a hiperinsuflação. Isso só ocorre se a fissura estiver íntegra, sem ventilação colateral que mantenha o lobo aerado. A redução súbita de volume traciona o pulmão adjacente e explica o pneumotórax, complicação mais típica do procedimento.',
     x: { A: 'O procedimento é indicado pelo padrão de enfisema e hiperinsuflação, não pela etiologia.', C: 'Os candidatos devem estar com tratamento otimizado e reabilitação realizada.', D: 'A redução de volume não corrige a hipoxemia crônica nem substitui o oxigênio.' },
@@ -125,7 +125,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Transplante pulmonar',
     e: 'Entre os pacientes com DPOC abaixo, aquele que deve ser encaminhado para avaliação de transplante pulmonar é:',
-    o: ['Homem de 78 anos, tabagista ativo, com VEF1 de 45% do previsto', 'Mulher de 58 anos, ex-tabagista, índice BODE de 8, VEF1 de 18% do previsto e internações por insuficiência respiratória hipercápnica', 'Homem de 60 anos, com VEF1 de 65% do previsto e uma exacerbação leve ao ano', 'Mulher de 55 anos, com neoplasia de mama metastática e VEF1 de 25% do previsto'],
+    o: ['Homem de 78 anos, tabagista ativo, com VEF1 de 45% do previsto', 'Mulher de 58 anos, ex-tabagista, BODE 8, VEF1 18% e internações por IR hipercápnica', 'Homem de 60 anos, com VEF1 de 65% e uma exacerbação leve ao ano', 'Mulher de 55 anos, com neoplasia de mama metastática e VEF1 de 25%'],
     g: 'B',
     c: 'O transplante é considerado na doença progressiva apesar de tratamento máximo, em pacientes sem contraindicações, com índice BODE elevado, VEF1 muito reduzido, exacerbações com hipercapnia ou hipertensão pulmonar importante. No DPOC o principal ganho é em qualidade de vida e capacidade funcional.',
     x: { A: 'Tabagismo ativo e idade avançada são contraindicações ao transplante.', C: 'A doença é moderada e controlada, sem indicação de transplante.', D: 'Neoplasia maligna ativa é contraindicação ao transplante pulmonar.' },
@@ -133,7 +133,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Deficiência de alfa-1-antitripsina',
     e: 'Segundo a recomendação da Organização Mundial da Saúde, endossada pelo GOLD, a dosagem sérica de alfa-1-antitripsina deve ser realizada:',
-    o: ['Apenas em pacientes com menos de 30 anos', 'Pelo menos uma vez em todos os pacientes com diagnóstico de DPOC', 'Somente quando houver cirrose hepática associada', 'Apenas em não tabagistas com enfisema'],
+    o: ['Apenas em pacientes com menos de 30 anos de idade', 'Pelo menos uma vez em todos os pacientes com diagnóstico de DPOC', 'Somente quando houver cirrose hepática associada ao quadro', 'Apenas em não tabagistas com enfisema pulmonar'],
     g: 'B',
     c: 'A deficiência de alfa-1-antitripsina é subdiagnosticada, e restringir a pesquisa aos casos típicos (jovens, enfisema basal, pouca carga tabágica) deixa de identificar muitos pacientes. Por isso recomenda-se dosar ao menos uma vez em todos os portadores de DPOC, o que permite aconselhamento familiar, reforço da cessação do tabagismo e avaliação de terapia específica.',
     x: { A: 'O limite de idade muito baixo deixaria de fora a maioria dos casos da deficiência.', C: 'A hepatopatia é manifestação possível, mas não condição para o rastreamento.', D: 'Tabagistas também podem ter a deficiência, que acelera muito o enfisema.' },
@@ -141,7 +141,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Deficiência de alfa-1-antitripsina',
     e: 'Mulher de 42 anos, que nunca fumou, tem enfisema panlobular basal, VEF1 de 48% do previsto, nível sérico muito baixo de alfa-1-antitripsina e genótipo PiZZ. Além do tratamento habitual do DPOC, a terapia específica a ser considerada é:',
-    o: ['Corticoide oral em dose baixa contínua', 'Reposição intravenosa periódica de alfa-1-antitripsina purificada', 'Flebotomias mensais', 'N-acetilcisteína em dose alta por via inalatória'],
+    o: ['Corticoide oral em dose baixa e contínua, para reduzir o enfisema', 'Reposição intravenosa periódica de alfa-1-antitripsina purificada', 'Flebotomias mensais, para reduzir a sobrecarga de ferro', 'N-acetilcisteína em dose alta por via inalatória, para o enfisema'],
     g: 'B',
     c: 'Na deficiência grave com enfisema estabelecido, a reposição intravenosa da proteína eleva os níveis séricos e pulmonares da antiprotease, restaurando a proteção contra a elastase neutrofílica. O objetivo é retardar a perda de densidade pulmonar; o benefício é maior em não tabagistas ou ex-tabagistas com obstrução moderada.',
     x: { A: 'O corticoide oral não repõe a antiprotease nem retarda o enfisema.', C: 'Flebotomia é tratamento de hemocromatose, sem papel nessa deficiência.', D: 'A N-acetilcisteína não corrige o desequilíbrio entre protease e antiprotease.' },
@@ -157,7 +157,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Comorbidades',
     e: 'Homem de 66 anos com DPOC GOLD 2 sofre infarto agudo do miocárdio e evolui com fração de ejeção de 35%. O cardiologista hesita em prescrever betabloqueador por causa da doença pulmonar. A conduta correta é:',
-    o: ['Contraindicar qualquer betabloqueador, pelo risco de broncoespasmo', 'Prescrever betabloqueador cardiosseletivo, pois o benefício se mantém e ele é seguro no DPOC', 'Prescrever propranolol, por ser o mais estudado', 'Substituir o betabloqueador por teofilina'],
+    o: ['Contraindicar qualquer betabloqueador, pelo risco de broncoespasmo', 'Betabloqueador cardiosseletivo: benefício mantido e seguro no DPOC', 'Prescrever propranolol, por ser o mais estudado no pós-infarto', 'Substituir o betabloqueador por teofilina, para evitar broncoespasmo'],
     g: 'B',
     c: 'Os betabloqueadores seletivos para o receptor beta-1, como bisoprolol, metoprolol e nebivolol, reduzem a mortalidade no pós-infarto e na insuficiência cardíaca com fração de ejeção reduzida, e esse benefício se mantém no paciente com DPOC. Em doses usuais têm pouco efeito sobre os receptores beta-2 brônquicos e não devem ser negados nem suspensos.',
     x: { A: 'Negar o betabloqueador priva o paciente de um tratamento que reduz mortalidade.', C: 'O propranolol é não seletivo e pode causar broncoconstrição; deve ser evitado.', D: 'A teofilina não tem benefício cardiovascular e pode provocar arritmias.' },
@@ -165,7 +165,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Comorbidades',
     e: 'Sobre as comorbidades do DPOC, assinale a alternativa INCORRETA:',
-    o: ['As doenças cardiovasculares estão entre as principais causas de morte, sobretudo na doença leve a moderada', 'Osteoporose, ansiedade e depressão são frequentes e subdiagnosticadas', 'O refluxo gastroesofágico associa-se a maior risco de exacerbações', 'A presença de comorbidades deve modificar o tratamento do DPOC, com suspensão dos broncodilatadores de longa ação'],
+    o: ['As doenças cardiovasculares estão entre as principais causas de morte, sobretudo na doença leve a moderada', 'Osteoporose, ansiedade e depressão são frequentes e subdiagnosticadas', 'O refluxo gastroesofágico associa-se a maior risco de exacerbações', 'Comorbidades devem modificar o tratamento, com suspensão dos broncodilatadores de longa ação'],
     g: 'D',
     c: 'A regra é que as comorbidades não devem alterar o tratamento do DPOC e devem ser tratadas segundo suas próprias diretrizes, independentemente da doença pulmonar. Os broncodilatadores de longa ação são seguros nos cardiopatas. As demais afirmativas são verdadeiras: a inflamação sistêmica, o tabagismo, o sedentarismo e os corticoides explicam a alta frequência dessas condições.',
     x: { A: 'Afirmativa verdadeira: na doença leve a moderada predominam as mortes cardiovasculares e por câncer.', B: 'Afirmativa verdadeira: são comorbidades comuns que pioram a qualidade de vida e o prognóstico.', C: 'Afirmativa verdadeira: o refluxo é fator de risco independente para exacerbações.' },
@@ -181,7 +181,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Sobreposição asma e DPOC',
     e: 'Homem de 58 anos, tabagista de 35 maços-ano, teve asma na infância e tem rinite alérgica. Apresenta dispneia persistente com crises de sibilância. Espirometria: VEF1/CVF de 0,60 após broncodilatador, com aumento do VEF1 de 480 mL e 22%. Eosinófilos de 520 células/mm3. O tratamento de manutenção deve obrigatoriamente incluir:',
-    o: ['Apenas broncodilatador beta-2-agonista de longa ação em monoterapia', 'Corticoide inalatório associado a broncodilatador de longa ação', 'Apenas antimuscarínico de longa ação', 'Roflumilaste em monoterapia'],
+    o: ['Apenas LABA em monoterapia, em paciente com história de asma', 'CI associado a broncodilatador de longa ação', 'Apenas antimuscarínico de longa ação, em paciente com história de asma', 'Roflumilaste em monoterapia, em paciente com história de asma'],
     g: 'B',
     c: 'O paciente reúne obstrução persistente após broncodilatador, própria do DPOC, com características de asma: história desde a infância, atopia, grande reversibilidade e eosinofilia. Quando asma e DPOC coexistem, o tratamento segue a regra da asma e deve conter corticoide inalatório, pois o beta-2-agonista de longa ação isolado aumenta o risco de crises graves em asmáticos.',
     x: { A: 'O beta-2-agonista de longa ação sem corticoide inalatório é contraindicado quando há asma.', C: 'O antimuscarínico pode ser associado, mas não dispensa o corticoide inalatório.', D: 'O roflumilaste é terapia adicional do exacerbador com bronquite crônica, nunca monoterapia.' },
@@ -189,7 +189,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Bronquiectasias',
     e: 'Mulher de 68 anos com DPOC apresenta expectoração purulenta diária e volumosa, quatro exacerbações infecciosas no último ano e cultura de escarro com Pseudomonas aeruginosa. Ausculta com estertores grossos em bases. O exame indicado para esclarecer o quadro é:',
-    o: ['Broncoscopia com biópsia transbrônquica', 'Tomografia de tórax de alta resolução, para pesquisa de bronquiectasias', 'Cintilografia pulmonar de ventilação e perfusão', 'Dosagem de imunoglobulina E total'],
+    o: ['Broncoscopia com biópsia transbrônquica, de rotina', 'TC de tórax de alta resolução, para pesquisa de bronquiectasias', 'Cintilografia pulmonar de ventilação e perfusão, de rotina', 'Dosagem de IgE total, para pesquisa de aspergilose'],
     g: 'B',
     c: 'Expectoração purulenta abundante, exacerbações infecciosas repetidas e isolamento de Pseudomonas em paciente com DPOC sugerem bronquiectasias associadas, confirmadas pela tomografia de alta resolução, que mostra brônquio mais calibroso que a artéria adjacente e ausência de afilamento periférico. A associação implica mais exacerbações, pior prognóstico e manejo específico, com higiene brônquica.',
     x: { A: 'A broncoscopia não é o exame de escolha para diagnosticar bronquiectasias.', C: 'A cintilografia investiga embolia pulmonar, que não explica o quadro supurativo crônico.', D: 'A imunoglobulina E não diagnostica bronquiectasias, apenas investiga uma de suas causas.' },
@@ -197,7 +197,7 @@ export const DPOC_4: QuestaoCompacta[] = [
   {
     s: 'Sobreposição com apneia do sono',
     e: 'Homem de 60 anos, obeso, com DPOC e VEF1 de 58% do previsto, queixa-se de roncos, sonolência diurna e cefaleia matinal. Tem edema de membros inferiores, policitemia e PaCO2 de 50 mmHg em vigília, alterações desproporcionais ao grau de obstrução. O exame indicado e o tratamento provável são:',
-    o: ['Tomografia de tórax e cirurgia redutora de volume', 'Polissonografia e pressão positiva nas vias aéreas durante o sono', 'Ecocardiograma e vasodilatador pulmonar', 'Espirometria seriada e corticoide oral'],
+    o: ['Tomografia de tórax e cirurgia redutora de volume, de imediato', 'Polissonografia e CPAP/PAP durante o sono', 'Ecocardiograma e vasodilatador pulmonar, de imediato', 'Espirometria seriada e corticoide oral, de imediato'],
     g: 'B',
     c: 'A coexistência de DPOC e apneia obstrutiva do sono produz dessaturação noturna mais profunda e prolongada do que cada doença isolada, com maior risco de hipercapnia, hipertensão pulmonar, cor pulmonale e arritmias. Deve-se suspeitar quando essas complicações são desproporcionais à obstrução. A polissonografia confirma e o tratamento com pressão positiva noturna melhora a sobrevida.',
     x: { A: 'O quadro não é explicado por enfisema avançado e a obstrução é apenas moderada.', C: 'O vasodilatador pulmonar não trata a causa, que é o distúrbio respiratório do sono.', D: 'O corticoide oral agravaria a obesidade e não trata a hipoventilação noturna.' },

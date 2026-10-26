@@ -5,7 +5,7 @@ export const DPOC_3: QuestaoCompacta[] = [
   {
     s: 'Definição de exacerbação',
     e: 'A exacerbação do DPOC é definida como:',
-    o: ['Queda do VEF1 superior a 20% em relação ao basal, documentada por espirometria', 'Piora aguda da dispneia e/ou da tosse e da expectoração, em até 14 dias, além da variação diária habitual', 'Qualquer infecção respiratória com febre em paciente com DPOC', 'Necessidade de internação hospitalar por insuficiência respiratória'],
+    o: ['Queda do VEF1 superior a 20% do basal, documentada por espirometria', 'Piora aguda de dispneia, tosse ou expectoração em até 14 dias, além da variação habitual', 'Qualquer infecção respiratória com febre em paciente com DPOC', 'Necessidade de internação hospitalar por insuficiência respiratória'],
     g: 'B',
     c: 'A exacerbação é um evento clínico: piora aguda dos sintomas respiratórios (dispneia, tosse, volume ou purulência do escarro) que se instala em poucos dias, até 14, e ultrapassa a variação do dia a dia, podendo vir com taquipneia e taquicardia. O diagnóstico não depende de espirometria nem de internação, e costuma estar ligado a aumento da inflamação das vias aéreas por infecção ou poluição.',
     x: { A: 'O diagnóstico é clínico; a espirometria não é necessária nem recomendada durante a exacerbação.', C: 'Febre não é obrigatória e muitas exacerbações não têm causa infecciosa identificada.', D: 'A maioria das exacerbações é leve ou moderada e tratada fora do hospital.' },
@@ -45,7 +45,7 @@ export const DPOC_3: QuestaoCompacta[] = [
   {
     s: 'Broncodilatador',
     e: 'A base do tratamento broncodilatador inicial da exacerbação do DPOC é:',
-    o: ['Aminofilina intravenosa em infusão contínua', 'Beta-2-agonista de curta ação inalatório, associado ou não a anticolinérgico de curta ação', 'Broncodilatador de longa ação em dose dobrada', 'Sulfato de magnésio intravenoso em todos os casos'],
+    o: ['Aminofilina intravenosa em infusão contínua, como primeira escolha', 'Beta-2-agonista de curta ação inalatório, ± anticolinérgico de curta ação', 'Broncodilatador de longa ação em dose dobrada, como primeira escolha', 'Sulfato de magnésio intravenoso em todos os casos de exacerbação'],
     g: 'B',
     c: 'Os broncodilatadores inalatórios de curta ação são a primeira medida, com salbutamol ou fenoterol, associados ou não ao ipratrópio, repetidos conforme a resposta. Eles reduzem a resistência das vias aéreas e a hiperinsuflação dinâmica, aliviando a dispneia. Tanto o inalador dosimetrado com espaçador quanto a nebulização são eficazes.',
     x: { A: 'As metilxantinas intravenosas não são recomendadas pelo pouco benefício e pela toxicidade.', C: 'Os broncodilatadores de longa ação são mantidos ou iniciados antes da alta, mas não tratam a crise.', D: 'O magnésio não faz parte do tratamento de rotina da exacerbação do DPOC.' },
@@ -85,7 +85,7 @@ export const DPOC_3: QuestaoCompacta[] = [
   {
     s: 'Antibiótico',
     e: 'Quando o antibiótico está indicado na exacerbação do DPOC sem complicações, a duração recomendada do tratamento é de:',
-    o: ['Dose única', 'Cerca de 5 dias', '14 dias', '21 dias'],
+    o: ['Dose única, em qualquer exacerbação com indicação de antibiótico', 'Cerca de 5 dias, em exacerbação sem complicação', '14 dias, em qualquer exacerbação com indicação de antibiótico', '21 dias, em qualquer exacerbação com indicação de antibiótico'],
     g: 'B',
     c: 'Cursos curtos, em torno de 5 dias, têm a mesma taxa de cura clínica que esquemas prolongados, com menos efeitos adversos e menor pressão seletiva para resistência bacteriana. A escolha do fármaco segue o padrão local de resistência, em geral amoxicilina com clavulanato, macrolídeo ou doxiciclina.',
     x: { A: 'Dose única não é esquema validado para exacerbação bacteriana do DPOC.', C: 'Duas semanas de antibiótico não acrescentam benefício em casos não complicados.', D: 'Três semanas é duração excessiva, sem respaldo para a exacerbação habitual.' },
@@ -93,7 +93,7 @@ export const DPOC_3: QuestaoCompacta[] = [
   {
     s: 'Nebulização',
     e: 'Homem de 75 anos com DPOC e hipercapnia crônica está internado por exacerbação e receberá salbutamol com ipratrópio por nebulizador a jato. Em relação ao gás propulsor da nebulização, o mais adequado é:',
-    o: ['Oxigênio a 8 L/min, para aproveitar e corrigir a hipoxemia', 'Ar comprimido, mantendo oxigênio titulado por cateter nasal se necessário', 'Oxigênio a 15 L/min com máscara com reservatório', 'Mistura de hélio e oxigênio em todos os casos'],
+    o: ['Oxigênio a 8 L/min, para aproveitar e corrigir a hipoxemia', 'Ar comprimido para a nebulização; O2 titulado por cateter nasal, se necessário', 'Oxigênio a 15 L/min com máscara com reservatório, para corrigir a hipoxemia', 'Mistura de hélio e oxigênio em todos os casos de exacerbação'],
     g: 'B',
     c: 'A nebulização impulsionada por oxigênio em alto fluxo oferece FiO2 elevada e não controlada, o que pode agravar a hipercapnia no retentor crônico por piorar a relação ventilação-perfusão e pelo efeito Haldane. O ideal é nebulizar com ar comprimido e fornecer oxigênio suplementar titulado em paralelo, mantendo a saturação entre 88% e 92%.',
     x: { A: 'O oxigênio em fluxo alto na nebulização pode precipitar narcose por CO2 nesses pacientes.', C: 'A máscara com reservatório fornece FiO2 muito alta e é inadequada para o retentor de CO2.', D: 'O heliox não tem benefício comprovado nem indicação de rotina na exacerbação.' },
@@ -149,7 +149,7 @@ export const DPOC_3: QuestaoCompacta[] = [
   {
     s: 'Indicações de internação',
     e: 'São critérios que indicam internação hospitalar na exacerbação do DPOC, EXCETO:',
-    o: ['Dispneia em repouso de início recente, com queda da saturação e confusão mental', 'Falha de resposta ao tratamento ambulatorial inicial', 'Surgimento de cianose ou de edema periférico', 'Aumento do volume do escarro em paciente com saturação habitual e sem piora funcional'],
+    o: ['Dispneia em repouso de início recente, com queda da saturação e confusão mental', 'Falha de resposta ao tratamento ambulatorial inicial, na exacerbação', 'Surgimento de cianose ou de edema periférico, na exacerbação', 'Aumento do volume do escarro, com saturação habitual e sem piora funcional'],
     g: 'D',
     c: 'A internação é indicada por sintomas graves (dispneia em repouso, taquipneia, queda da saturação, sonolência ou confusão), insuficiência respiratória aguda, sinais novos como cianose e edema, falha do tratamento inicial, comorbidades graves ou suporte domiciliar insuficiente. O aumento isolado do escarro, sem repercussão clínica ou gasométrica, pode ser tratado em casa.',
     x: { A: 'Dispneia em repouso com hipoxemia e alteração mental indica internação.', B: 'A falha do tratamento inicial é critério clássico de hospitalização.', C: 'Cianose e edema novos sugerem insuficiência respiratória ou cor pulmonale descompensado.' },
@@ -165,7 +165,7 @@ export const DPOC_3: QuestaoCompacta[] = [
   {
     s: 'Alta hospitalar',
     e: 'Homem de 70 anos está pronto para alta após 6 dias de internação por exacerbação do DPOC. Usava apenas salbutamol quando necessário. Entre as medidas abaixo, a que deve fazer parte do plano de alta é:',
-    o: ['Manter prednisona em dose baixa por 3 meses para evitar recaída', 'Iniciar broncodilatador de longa ação, revisar a técnica inalatória e agendar retorno precoce', 'Suspender todos os inaladores até a espirometria de controle', 'Prescrever antibiótico profilático contínuo para todos os pacientes'],
+    o: ['Manter prednisona em dose baixa por 3 meses, para evitar recaída da exacerbação', 'Iniciar broncodilatador de longa ação, rever a técnica inalatória e retorno precoce', 'Suspender todos os inaladores até a espirometria de controle, após a alta', 'Prescrever antibiótico profilático contínuo para todos os pacientes, após a alta'],
     g: 'B',
     c: 'Antes da alta deve-se iniciar ou otimizar a terapia de manutenção com broncodilatadores de longa ação, conferir a técnica inalatória, abordar o tabagismo, atualizar vacinas e reavaliar a necessidade de oxigênio. O retorno precoce, nas primeiras semanas, é importante porque o período após a internação concentra alto risco de readmissão e de morte.',
     x: { A: 'O corticoide oral prolongado não previne recaídas e causa efeitos adversos importantes.', C: 'A manutenção com broncodilatador de longa ação deve começar antes da alta.', D: 'A profilaxia com antibiótico é reservada a casos selecionados de exacerbadores frequentes.' },
@@ -173,7 +173,7 @@ export const DPOC_3: QuestaoCompacta[] = [
   {
     s: 'Reabilitação após exacerbação',
     e: 'Em relação à reabilitação pulmonar no paciente que acabou de ter alta por exacerbação do DPOC, a evidência mostra que:',
-    o: ['Deve ser adiada por pelo menos 6 meses pelo risco de nova exacerbação', 'Iniciada nas primeiras semanas após a alta, reduz reinternações e melhora a capacidade de exercício', 'Só tem benefício em pacientes com obstrução leve', 'Está contraindicada em quem usou ventilação não invasiva'],
+    o: ['Deve ser adiada por ao menos 6 meses, pelo risco de nova exacerbação', 'Iniciada nas primeiras semanas pós-alta: reduz reinternações e melhora o exercício', 'Só tem benefício em pacientes com obstrução leve, e não nos graves', 'Está contraindicada em quem usou ventilação não invasiva na internação'],
     g: 'B',
     c: 'A exacerbação provoca descondicionamento e perda de massa muscular, agravados pelo repouso e pelo corticoide. A reabilitação iniciada precocemente após a alta, em torno das primeiras 4 semanas, reverte essa perda, melhora a tolerância ao exercício e a qualidade de vida e reduz novas internações.',
     x: { A: 'Adiar a reabilitação prolonga o descondicionamento e aumenta o risco de reinternação.', C: 'O benefício ocorre em todos os graus de obstrução, sobretudo nos mais sintomáticos.', D: 'O uso prévio de ventilação não invasiva não contraindica a reabilitação.' },
@@ -189,7 +189,7 @@ export const DPOC_3: QuestaoCompacta[] = [
   {
     s: 'Cuidados na internação',
     e: 'Mulher de 74 anos, obesa, está internada em enfermaria por exacerbação do DPOC, restrita ao leito pela dispneia, sem sangramentos e com função renal normal. Além do tratamento da exacerbação, a medida que deve ser prescrita é:',
-    o: ['Anticoagulação plena com heparina não fracionada', 'Profilaxia farmacológica de tromboembolismo venoso com heparina em dose profilática', 'Ácido acetilsalicílico em dose alta', 'Filtro de veia cava inferior'],
+    o: ['Anticoagulação plena com heparina não fracionada, em dose terapêutica', 'Profilaxia de TEV com heparina em dose profilática', 'AAS em dose alta, como profilaxia de TEV, durante a internação', 'Filtro de veia cava inferior, como profilaxia de TEV de rotina'],
     g: 'B',
     c: 'O paciente internado por exacerbação do DPOC tem risco aumentado de trombose venosa profunda e embolia pulmonar por imobilidade, inflamação sistêmica, idade e, muitas vezes, policitemia. Por isso está indicada a profilaxia com heparina em dose profilática, salvo contraindicação, como sangramento ativo.',
     x: { A: 'Não há trombose diagnosticada que justifique anticoagulação em dose terapêutica.', C: 'O ácido acetilsalicílico não é profilaxia adequada de tromboembolismo venoso clínico.', D: 'O filtro de cava é reservado a casos de trombose com contraindicação à anticoagulação.' },

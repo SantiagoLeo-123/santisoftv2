@@ -5,7 +5,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Mudança de estilo de vida',
     e: 'Mulher de 44 anos, IMC 31 kg/m2, com diabetes tipo 2 recém-diagnosticado e hemoglobina glicada de 6,9%, pergunta sobre atividade física. A recomendação correta é:',
-    o: ['Apenas caminhadas leves, pois exercício resistido é contraindicado no diabetes', 'Ao menos 150 minutos semanais de exercício aeróbico moderado, distribuídos em pelo menos 3 dias, sem mais de 2 dias consecutivos sem atividade, associados a exercício resistido 2 a 3 vezes por semana', 'Exercício intenso uma vez por semana, com duração de 150 minutos', 'Atividade física somente após a glicada ficar abaixo de 6,5%'],
+    o: ['Apenas caminhadas leves, pois exercício resistido é contraindicado no diabetes', 'Ao menos 150 min/semana de aeróbico moderado em 3+ dias, com resistido 2-3 vezes/semana', 'Exercício intenso uma vez por semana, com duração de 150 minutos', 'Atividade física somente após a glicada ficar abaixo de 6,5%'],
     g: 'B',
     c: 'A contração muscular aumenta a captação de glicose por translocação de GLUT4 independente de insulina, e a melhora da sensibilidade à insulina dura cerca de 24 a 48 horas, o que explica a recomendação de não ficar mais de 2 dias seguidos sem exercício. A combinação de treino aeróbico e resistido reduz a glicada mais do que cada um isolado.',
     x: { A: 'O exercício resistido é recomendado, pois o ganho de massa muscular amplia a captação de glicose.', C: 'Concentrar tudo em um dia perde o efeito sustentado sobre a sensibilidade à insulina.', D: 'A atividade física faz parte do tratamento desde o diagnóstico e não depende de meta prévia.' },
@@ -21,7 +21,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Metformina',
     e: 'Homem de 72 anos, diabético tipo 2 em uso de metformina 2 g/dia, apresenta em dois exames com intervalo de 4 meses taxa de filtração glomerular estimada de 26 mL/min/1,73 m2. A conduta em relação à metformina é:',
-    o: ['Manter a dose, pois a metformina é segura em qualquer taxa de filtração', 'Suspender, pois o uso é contraindicado com taxa de filtração abaixo de 30 mL/min/1,73 m2', 'Reduzir a dose para 1 g/dia e manter', 'Trocar por glibenclamida, que não depende da função renal'],
+    o: ['Manter a dose, pois a metformina é segura em qualquer taxa de filtração', 'Suspender: contraindicada com TFG < 30 mL/min/1,73 m²', 'Reduzir a dose para 1 g/dia e manter, mesmo com TFG baixa', 'Trocar por glibenclamida, que não depende da função renal'],
     g: 'B',
     c: 'A metformina é eliminada inalterada pelos rins; com filtração abaixo de 30 mL/min/1,73 m2 ela se acumula e aumenta o risco de acidose láctica, sendo contraindicada. Entre 30 e 44 a dose máxima é reduzida para cerca de 1 g/dia e não se deve iniciar o fármaco; acima de 45 não há restrição.',
     x: { A: 'O acúmulo em insuficiência renal avançada é o principal fator de risco para acidose láctica associada à metformina.', C: 'A redução para 1 g/dia aplica-se à faixa de 30 a 44 mL/min/1,73 m2, não abaixo de 30.', D: 'A glibenclamida tem metabólitos ativos de excreção renal e causa hipoglicemia prolongada na doença renal.' },
@@ -37,7 +37,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Metformina',
     e: 'Homem de 50 anos iniciou metformina de liberação imediata 850 mg três vezes ao dia há 1 semana e apresenta diarreia, náuseas e desconforto abdominal. Função renal normal. A melhor conduta é:',
-    o: ['Suspender definitivamente e registrar alergia ao medicamento', 'Reduzir a dose, tomar junto às refeições, aumentar gradualmente e considerar a formulação de liberação prolongada', 'Manter a dose e associar loperamida de uso contínuo', 'Trocar imediatamente por insulina NPH'],
+    o: ['Suspender definitivamente a metformina e registrar alergia ao medicamento no prontuário', 'Reduzir a dose, tomar com as refeições, aumentar aos poucos e usar a forma prolongada', 'Manter a dose e associar loperamida de uso contínuo para controlar a diarreia', 'Trocar imediatamente por insulina NPH, em dose habitual, por via subcutânea'],
     g: 'B',
     c: 'Os efeitos gastrointestinais da metformina são dose-dependentes e tendem a ser transitórios. Começar com dose baixa (500 mg uma ou duas vezes ao dia), junto às refeições, com aumento a cada 1 a 2 semanas, e usar a formulação de liberação prolongada melhoram muito a tolerância e evitam abandonar um fármaco eficaz e barato.',
     x: { A: 'Trata-se de intolerância dose-dependente previsível, não de reação alérgica.', C: 'Tratar o sintoma mantendo a dose inadequada não corrige o erro de titulação.', D: 'Não há indicação de insulina por intolerância inicial que pode ser contornada.' },
@@ -53,7 +53,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Sulfonilureias',
     e: 'As sulfonilureias reduzem a glicemia porque:',
-    o: ['Ativam o receptor nuclear PPAR-gama no adipócito', 'Fecham os canais de potássio sensíveis ao ATP da célula beta, despolarizando a membrana e liberando insulina independentemente da glicemia', 'Inibem a enzima que degrada o GLP-1 endógeno', 'Reduzem a gliconeogênese hepática por ativação da AMPK'],
+    o: ['Ativam o receptor nuclear PPAR-gama no adipócito, aumentando a sensibilidade à insulina', 'Fecham canais de K+ ATP da célula beta e liberam insulina independentemente da glicemia', 'Inibem a enzima que degrada o GLP-1 endógeno, aumentando a incretina circulante', 'Reduzem a gliconeogênese hepática por ativação da AMPK nos hepatócitos'],
     g: 'B',
     c: 'As sulfonilureias ligam-se à subunidade SUR1 do canal de potássio dependente de ATP; o fechamento do canal despolariza a célula beta, abre canais de cálcio e promove a exocitose de insulina. Como a secreção não depende da glicemia, os efeitos adversos característicos são hipoglicemia e ganho de peso.',
     x: { A: 'Esse é o mecanismo da pioglitazona.', C: 'Esse é o mecanismo dos inibidores da DPP-4.', D: 'Esse é o mecanismo da metformina.' },
@@ -61,7 +61,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Sulfonilureias',
     e: 'Homem de 79 anos, com taxa de filtração glomerular de 38 mL/min/1,73 m2, em uso de metformina e glibenclamida, é trazido confuso após pular o almoço, com glicemia capilar de 38 mg/dL. Recebe glicose intravenosa e melhora, mas volta a ter hipoglicemia 3 horas depois. A conduta mais adequada é:',
-    o: ['Dar alta após a primeira correção, com orientação de alimentar-se', 'Manter em observação com infusão de glicose e monitorização por pelo menos 24 horas, e suspender a glibenclamida', 'Aplicar glucagon e liberar em seguida', 'Trocar a glibenclamida por clorpropamida'],
+    o: ['Dar alta após a primeira correção da glicemia, com orientação de alimentar-se bem', 'Observar com glicose e monitorização por ≥ 24 h e suspender a glibenclamida', 'Aplicar glucagon e liberar em seguida, sem monitorização prolongada em hospital', 'Trocar a glibenclamida por clorpropamida, em dose habitual de manutenção diária'],
     g: 'B',
     c: 'A glibenclamida tem meia-vida longa e metabólitos ativos de excreção renal; em idosos e na doença renal ela se acumula e produz hipoglicemia prolongada e recorrente, que exige observação e infusão de glicose por 24 horas ou mais. É a sulfonilureia a ser evitada nesse perfil; quando a classe for necessária, prefere-se a gliclazida de liberação modificada.',
     x: { A: 'A recorrência é a regra com sulfonilureia de ação longa; alta precoce é perigosa.', C: 'O glucagon tem efeito fugaz e ainda estimula a secreção de insulina, sem evitar a recorrência.', D: 'A clorpropamida tem meia-vida ainda mais longa e maior risco de hipoglicemia prolongada.' },
@@ -77,7 +77,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Pioglitazona',
     e: 'Sobre a pioglitazona, assinale a alternativa correta:',
-    o: ['Atua na célula beta e causa hipoglicemia frequente em monoterapia', 'É um agonista do PPAR-gama que aumenta a sensibilidade à insulina no tecido adiposo e no músculo, com ganho de peso como efeito adverso', 'Promove perda de peso por aumento da saciedade', 'Tem início de ação imediato, com efeito máximo em 48 horas'],
+    o: ['Atua na célula beta e causa hipoglicemia frequente em monoterapia, como as sulfonilureias', 'Agonista PPAR-gama: aumenta a sensibilidade à insulina; efeito adverso é ganho de peso', 'Promove perda de peso importante por aumento da saciedade e do gasto energético', 'Tem início de ação imediato, com efeito máximo em 48 horas de uso'],
     g: 'B',
     c: 'A ativação do receptor nuclear PPAR-gama promove diferenciação de adipócitos e redistribui gordura do compartimento visceral e hepático para o subcutâneo, reduzindo ácidos graxos livres e a resistência à insulina. Por depender de transcrição gênica, o efeito pleno leva semanas. O ganho de peso decorre da adipogênese e da retenção de líquido.',
     x: { A: 'É um sensibilizador de insulina, não um secretagogo, e não causa hipoglicemia isoladamente.', C: 'Causa ganho de peso; quem promove perda de peso são os agonistas de GLP-1 e os inibidores de SGLT2.', D: 'O efeito máximo é lento, levando de 6 a 12 semanas.' },
@@ -109,7 +109,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Agonistas de GLP-1',
     e: 'Mulher de 47 anos, diabética tipo 2 e obesa, tem indicação de semaglutida. Qual antecedente contraindica o uso do medicamento?',
-    o: ['Doença renal crônica estágio 3', 'História familiar de carcinoma medular de tireoide', 'Infarto agudo do miocárdio prévio', 'Esteatose hepática'],
+    o: ['Doença renal crônica estágio 3, que não contraindica a semaglutida', 'História familiar de carcinoma medular de tireoide', 'Infarto agudo do miocárdio prévio, que é indicação da semaglutida', 'Esteatose hepática, que não contraindica a semaglutida'],
     g: 'B',
     c: 'Em roedores, os agonistas de GLP-1 causaram hiperplasia e tumores de células C da tireoide. Embora a relação em humanos não esteja comprovada, a classe é contraindicada em pessoas com história pessoal ou familiar de carcinoma medular de tireoide ou de neoplasia endócrina múltipla tipo 2.',
     x: { A: 'A classe pode ser usada na doença renal crônica e tem benefício renal demonstrado.', C: 'Doença aterosclerótica é uma das principais indicações da classe.', D: 'A esteatose hepática melhora com a perda de peso induzida pelo fármaco.' },
@@ -125,7 +125,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Inibidores de SGLT2',
     e: 'Os inibidores do cotransportador sódio-glicose tipo 2 reduzem a glicemia por:',
-    o: ['Bloqueio da reabsorção de glicose na alça de Henle', 'Bloqueio da reabsorção de glicose no túbulo contorcido proximal, causando glicosúria e natriurese independentes de insulina', 'Aumento da sensibilidade muscular à insulina', 'Inibição da absorção intestinal de glicose'],
+    o: ['Bloqueio da reabsorção de glicose na alça de Henle, com glicosúria e natriurese', 'Bloqueio da reabsorção de glicose no túbulo proximal, com glicosúria independente de insulina', 'Aumento da sensibilidade muscular à insulina, no músculo esquelético e no fígado', 'Inibição da absorção intestinal de glicose, no intestino delgado proximal'],
     g: 'B',
     c: 'O SGLT2, no segmento inicial do túbulo proximal, reabsorve cerca de 90% da glicose filtrada. Sua inibição produz glicosúria, com perda calórica e de peso, e natriurese, que reduz a pressão arterial e, pelo feedback tubuloglomerular, contrai a arteríola aferente e diminui a hiperfiltração. O efeito glicêmico cai com a redução da filtração glomerular.',
     x: { A: 'O transportador está no túbulo proximal, não na alça de Henle.', C: 'O mecanismo independe da ação da insulina.', D: 'A absorção intestinal é mediada principalmente pelo SGLT1, pouco afetado pela maioria dos fármacos da classe.' },
@@ -133,7 +133,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Inibidores de SGLT2',
     e: 'Mulher de 52 anos, diabética tipo 2 em uso de metformina, empagliflozina e insulina basal, reduziu a insulina por conta própria e está em dieta com restrição intensa de carboidratos. Apresenta náuseas, vômitos, dor abdominal e taquipneia. Glicemia de 168 mg/dL, pH 7,18, bicarbonato de 10 mEq/L, ânion-gap de 24. O diagnóstico mais provável é:',
-    o: ['Acidose láctica por metformina', 'Cetoacidose diabética euglicêmica associada ao inibidor de SGLT2', 'Gastroenterite aguda com acidose hiperclorêmica', 'Estado hiperglicêmico hiperosmolar'],
+    o: ['Acidose láctica por metformina, com lactato elevado', 'Cetoacidose diabética euglicêmica associada ao iSGLT2', 'Gastroenterite aguda com acidose hiperclorêmica', 'Estado hiperglicêmico hiperosmolar, com glicemia muito elevada'],
     g: 'B',
     c: 'A glicosúria induzida pelo inibidor de SGLT2 mantém a glicemia baixa, o que reduz a insulina e eleva o glucagon, favorecendo lipólise e cetogênese. Redução da insulina, jejum, dieta cetogênica, cirurgia, álcool e desidratação são gatilhos. A glicemia abaixo de 250 mg/dL atrasa o diagnóstico: é preciso dosar cetonas. O tratamento é o da cetoacidose, com glicose desde o início e suspensão do fármaco.',
     x: { A: 'É diagnóstico diferencial, mas o contexto de redução da insulina e dieta restritiva com SGLT2 aponta para cetoacidose; o lactato esclarece.', C: 'A acidose hiperclorêmica tem ânion-gap normal, e aqui ele está elevado.', D: 'O estado hiperosmolar exige glicemia muito alta e não cursa com acidose importante.' },
@@ -141,7 +141,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Inibidores de SGLT2',
     e: 'Homem de 59 anos, não circuncidado, iniciou dapagliflozina há 6 semanas e apresenta prurido, eritema e placas esbranquiçadas na glande e no prepúcio. Sobre esse efeito adverso, é correto afirmar:',
-    o: ['É raro e obriga a suspensão definitiva da classe', 'É o efeito adverso mais comum da classe, decorre da glicosúria e geralmente responde a antifúngico e higiene, sem necessidade de suspender o fármaco', 'Trata-se de gangrena de Fournier, que exige desbridamento imediato', 'É causado por imunossupressão sistêmica induzida pelo medicamento'],
+    o: ['É raro e obriga a suspensão definitiva da classe, em todos os casos', 'Efeito mais comum da classe (glicosúria); tratar com antifúngico e higiene, sem suspender', 'Trata-se de gangrena de Fournier, que exige desbridamento cirúrgico imediato', 'É causado por imunossupressão sistêmica induzida pelo medicamento em uso'],
     g: 'B',
     c: 'A glicosúria cria ambiente favorável à proliferação de Candida, tornando as infecções genitais micóticas (balanopostite e vulvovaginite) o efeito adverso mais frequente dos inibidores de SGLT2. Em geral são leves, tratadas com antifúngico tópico ou oral e orientação de higiene. A fasciíte necrosante de períneo é complicação rara, com dor, edema e toxemia.',
     x: { A: 'É frequente e na maioria dos casos não exige suspensão.', C: 'Não há dor intensa, necrose, crepitação nem sinais sistêmicos que sugiram fasciíte necrosante.', D: 'O mecanismo é local, pela glicose na urina, e não imunossupressão.' },
@@ -165,7 +165,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Escolha por comorbidade',
     e: 'Homem de 67 anos, diabético tipo 2, com acidente vascular cerebral isquêmico há 2 anos e doença carotídea, usa metformina 2 g/dia. IMC de 33 kg/m2, hemoglobina glicada de 7,8%, função renal normal, sem insuficiência cardíaca. Qual é a melhor opção para associar?',
-    o: ['Glibenclamida', 'Agonista do receptor de GLP-1 com benefício cardiovascular comprovado, como semaglutida ou liraglutida', 'Sitagliptina', 'Acarbose'],
+    o: ['Glibenclamida, que não tem benefício cardiovascular comprovado', 'Agonista de GLP-1 com benefício CV comprovado (semaglutida ou liraglutida)', 'Sitagliptina, que não reduz eventos cardiovasculares', 'Acarbose, que não reduz eventos cardiovasculares'],
     g: 'B',
     c: 'Em diabéticos com doença aterosclerótica estabelecida, devem ser usados fármacos com redução comprovada de eventos cardiovasculares maiores: agonistas de GLP-1 (liraglutida, semaglutida, dulaglutida) ou inibidores de SGLT2. Entre as alternativas, apenas o agonista de GLP-1 tem esse benefício, com redução particularmente consistente de acidente vascular cerebral e ainda perda de peso.',
     x: { A: 'Sulfonilureias não reduzem eventos cardiovasculares e causam ganho de peso e hipoglicemia.', C: 'Os inibidores da DPP-4 são neutros do ponto de vista cardiovascular.', D: 'A acarbose tem baixa potência e não mostrou redução de eventos cardiovasculares.' },
@@ -173,7 +173,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Escolha por comorbidade',
     e: 'Mulher de 39 anos, diabética tipo 2, IMC de 41 kg/m2, em uso de metformina em dose máxima, com hemoglobina glicada de 8,2%. Não tem doença cardiovascular nem renal. O objetivo principal, além do controle glicêmico, é a perda de peso. A classe com maior efeito sobre o peso é:',
-    o: ['Inibidores da DPP-4', 'Agonistas do receptor de GLP-1 ou coagonistas GIP/GLP-1', 'Sulfonilureias', 'Tiazolidinedionas'],
+    o: ['Inibidores da DPP-4, que têm efeito neutro no peso', 'Agonistas do GLP-1 ou coagonistas GIP/GLP-1', 'Sulfonilureias, que causam ganho de peso', 'Tiazolidinedionas, que causam ganho de peso'],
     g: 'B',
     c: 'A semaglutida em dose alta e a tirzepatida, coagonista de GIP e GLP-1, produzem as maiores perdas de peso entre os antidiabéticos, por ação central na saciedade e retardo do esvaziamento gástrico, além de grande redução da glicada. Os inibidores de SGLT2 promovem perda modesta, de 2 a 3 kg.',
     x: { A: 'Os inibidores da DPP-4 são neutros em relação ao peso.', C: 'As sulfonilureias causam ganho de peso por aumento da insulinemia.', D: 'A pioglitazona causa ganho de peso por adipogênese e retenção hídrica.' },
@@ -181,7 +181,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Início da insulina',
     e: 'Homem de 48 anos, sem diagnóstico prévio, apresenta há 2 meses poliúria, polidipsia, visão turva e perda de 9 kg. Glicemia de jejum de 342 mg/dL, hemoglobina glicada de 12,1%, cetonúria negativa, gasometria normal. O tratamento inicial mais adequado é:',
-    o: ['Apenas mudança de estilo de vida por 3 meses', 'Insulinoterapia associada à metformina, com reavaliação posterior para eventual retirada da insulina', 'Metformina em monoterapia em dose baixa', 'Sitagliptina em monoterapia'],
+    o: ['Apenas mudança do estilo de vida por 3 meses, sem tratamento medicamentoso', 'Insulina com metformina, e depois reavaliar a possível retirada da insulina', 'Metformina em monoterapia, em dose baixa, com reavaliação em alguns meses', 'Sitagliptina em monoterapia, em dose habitual, com reavaliação em alguns meses'],
     g: 'B',
     c: 'Sintomas de catabolismo (perda de peso, poliúria e polidipsia) ou hiperglicemia muito acentuada, com glicemia de 300 mg/dL ou mais ou glicada acima de 10% (a diretriz brasileira usa acima de 9% com sintomas), indicam insulina já no diagnóstico. A insulina reverte a glicotoxicidade, que inibe a secreção e a ação da insulina; após a compensação, muitas vezes é possível simplificar para agentes não insulínicos.',
     x: { A: 'Hiperglicemia sintomática com catabolismo exige tratamento farmacológico imediato.', C: 'A metformina isolada reduz a glicada em 1 a 2 pontos e não reverte o catabolismo com rapidez.', D: 'Os inibidores da DPP-4 têm potência baixa e são insuficientes nesse cenário.' },
@@ -189,7 +189,7 @@ export const DM_2: QuestaoCompacta[] = [
   {
     s: 'Início da insulina',
     e: 'Mulher de 62 anos, 80 kg, diabética tipo 2 há 14 anos, usa metformina 2 g/dia, gliclazida em dose máxima e sitagliptina, com hemoglobina glicada de 9,0% e glicemias de jejum em torno de 210 mg/dL. Opta-se por iniciar insulina basal. O esquema inicial recomendado é:',
-    o: ['Insulina regular 10 U antes de cada refeição, suspendendo todos os orais', 'Insulina NPH ao deitar ou análogo de ação longa, 10 U ou 0,1 a 0,2 U/kg/dia, mantendo a metformina e ajustando a dose pela glicemia de jejum', 'Insulina NPH 1 U/kg/dia dividida em três doses', 'Insulina pré-misturada 70/30 em dose de 40 U duas vezes ao dia'],
+    o: ['Insulina regular 10 U antes de cada refeição, suspendendo todos os antidiabéticos orais', 'NPH ao deitar ou análogo longo, 10 U ou 0,1-0,2 U/kg, mantendo a metformina', 'Insulina NPH 1 U/kg/dia, dividida em três doses, suspendendo a metformina', 'Insulina pré-misturada 70/30, 40 U duas vezes ao dia, suspendendo a metformina'],
     g: 'B',
     c: 'A insulinização do tipo 2 começa pela basal, que suprime a produção hepática noturna de glicose e corrige a glicemia de jejum: 10 U ou 0,1 a 0,2 U/kg ao deitar, com aumento de 2 U a cada 3 dias até a meta de jejum. A metformina é mantida por reduzir a dose de insulina e o ganho de peso. A diretriz americana sugere tentar agonista de GLP-1 antes da insulina quando não há catabolismo, o que não invalida o esquema de início.',
     x: { A: 'Começar pela insulina prandial e retirar a metformina não corrige a hiperglicemia de jejum e aumenta hipoglicemia.', C: 'Dose de 1 U/kg/dia como início é excessiva e traz alto risco de hipoglicemia.', D: 'Oitenta unidades diárias de pré-mistura como dose inicial é desproporcional e perigosa.' },

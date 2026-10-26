@@ -5,7 +5,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Demência vascular: quadro',
     e: 'Homem de 71 anos, hipertenso, diabético e tabagista, com dois acidentes vasculares cerebrais isquêmicos prévios. A esposa relata que, após cada evento, ele ficou nitidamente pior da cognição, permanecendo estável nos intervalos. Hoje está lento, desorganizado e incapaz de administrar o dinheiro. Ao exame: hemiparesia direita leve, hiper-reflexia e sinal de Babinski à direita. A tomografia mostra infartos corticais antigos em territórios diferentes. O diagnóstico mais provável é:',
-    o: ['Doença de Alzheimer', 'Demência vascular por múltiplos infartos', 'Demência com corpos de Lewy', 'Hidrocefalia de pressão normal'],
+    o: ['Doença de Alzheimer, de evolução lenta e progressiva', 'Demência vascular por múltiplos infartos', 'Demência com corpos de Lewy, com flutuação cognitiva', 'Hidrocefalia de pressão normal, com marcha e incontinência'],
     g: 'B',
     c: 'A relação temporal entre os eventos vasculares e as pioras cognitivas, com evolução em degraus, os fatores de risco, os sinais neurológicos focais e a neuroimagem com infartos múltiplos sustentam o diagnóstico de demência vascular. Cada infarto remove de modo abrupto uma porção de tecido ou de conexões, o que explica as pioras súbitas seguidas de platôs.',
     x: { A: 'A doença de Alzheimer tem curso insidioso e contínuo, sem sinais focais no início.', C: 'Não há flutuações, alucinações visuais ou parkinsonismo espontâneo descritos.', D: 'Faltam apraxia de marcha, incontinência e ventriculomegalia desproporcional.' },
@@ -13,7 +13,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Demência vascular: formas',
     e: 'A forma mais comum de comprometimento cognitivo vascular em idosos, de evolução geralmente insidiosa e associada a hipertensão arterial de longa data, é:',
-    o: ['Demência por infarto estratégico único', 'Doença de pequenos vasos, com infartos lacunares e lesão difusa da substância branca', 'Demência por múltiplos infartos corticais embólicos', 'Demência por hemorragia subaracnóidea'],
+    o: ['Demência por infarto estratégico único, em área crítica para a cognição', 'Doença de pequenos vasos: lacunas e lesão difusa da substância branca', 'Demência por múltiplos infartos corticais embólicos, de origem cardíaca', 'Demência por hemorragia subaracnóidea prévia, com sequela cognitiva'],
     g: 'B',
     c: 'A doença de pequenos vasos decorre de arteriolosclerose das artérias perfurantes, levando a lacunas nos núcleos da base e tálamo e a rarefação confluente da substância branca periventricular. A interrupção dos circuitos frontossubcorticais produz um quadro gradual, e não em degraus, de lentificação, disfunção executiva, apatia, alteração de marcha e urgência urinária.',
     x: { A: 'O infarto estratégico é forma menos comum e de instalação súbita.', C: 'Os múltiplos infartos corticais existem, mas são menos frequentes que a doença de pequenos vasos.', D: 'A hemorragia subaracnóidea não é causa habitual de demência vascular em idosos.' },
@@ -21,7 +21,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Perfil cognitivo vascular',
     e: 'Em comparação com a doença de Alzheimer, o perfil cognitivo e comportamental típico da demência vascular subcortical caracteriza-se por:',
-    o: ['Amnésia grave e precoce, sem benefício com pistas, e função executiva preservada', 'Lentificação psicomotora e disfunção executiva precoces, com memória menos afetada e que melhora com pistas, além de apatia e labilidade emocional', 'Perda precoce do significado das palavras e prosopagnosia', 'Alucinações visuais estruturadas e flutuação da vigília'],
+    o: ['Amnésia grave e precoce, sem benefício com pistas, e função executiva preservada', 'Lentificação e disfunção executiva precoces; memória menos afetada; apatia', 'Perda precoce do significado das palavras e prosopagnosia progressiva', 'Alucinações visuais estruturadas e flutuação da vigília e da cognição'],
     g: 'B',
     c: 'A lesão das vias que conectam o córtex pré-frontal aos núcleos da base e ao tálamo compromete a velocidade de processamento, o planejamento e a flexibilidade mental. A memória é prejudicada na evocação, mas o registro é relativamente preservado, de modo que pistas e reconhecimento ajudam. Apatia, depressão, afeto pseudobulbar e alterações precoces de marcha completam o quadro.',
     x: { A: 'Amnésia hipocampal precoce com função executiva preservada é o perfil da doença de Alzheimer.', C: 'Perda do significado das palavras é própria da variante semântica da afasia progressiva.', D: 'Alucinações visuais e flutuação apontam para demência com corpos de Lewy.' },
@@ -29,7 +29,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Infarto estratégico',
     e: 'Mulher de 66 anos, com fibrilação atrial sem anticoagulação, apresenta de forma súbita sonolência excessiva, apatia intensa e amnésia importante, sem déficit motor significativo. A ressonância mostra infarto agudo talâmico paramediano bilateral. Esse quadro exemplifica:',
-    o: ['Demência por doença de pequenos vasos de evolução insidiosa', 'Demência por infarto estratégico, em que uma lesão única em área crítica para a cognição produz síndrome demencial', 'Doença de Alzheimer de início abrupto', 'Encefalopatia de Wernicke'],
+    o: ['Demência por doença de pequenos vasos de evolução insidiosa e lenta', 'Demência por infarto estratégico: lesão única em área crítica', 'Doença de Alzheimer de início abrupto, sem lesão vascular associada', 'Encefalopatia de Wernicke, com ataxia, oftalmoplegia e confusão mental'],
     g: 'B',
     c: 'Algumas regiões concentram conexões essenciais à memória e ao comportamento, como o tálamo medial, o giro angular esquerdo, o joelho da cápsula interna, o núcleo caudado e o hipocampo. Um único infarto nesses locais pode causar demência de instalação aguda. O infarto talâmico paramediano bilateral, por oclusão de uma artéria perfurante comum, cursa classicamente com hipersonia, amnésia e apatia.',
     x: { A: 'A doença de pequenos vasos evolui de forma gradual, e não em instalação súbita.', C: 'A doença de Alzheimer não tem início abrupto nem se associa a infarto agudo.', D: 'Não há contexto carencial nem a tríade com oftalmoparesia e ataxia, e a lesão é isquêmica.' },
@@ -37,7 +37,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Demência vascular: tratamento',
     e: 'A medida com maior impacto para evitar a progressão do comprometimento cognitivo vascular é:',
-    o: ['Uso de vasodilatadores cerebrais e nootrópicos', 'Controle rigoroso dos fatores de risco vascular e prevenção secundária de acidente vascular cerebral conforme o mecanismo', 'Anticoagulação plena para todos os pacientes', 'Uso de antipsicótico atípico em dose baixa'],
+    o: ['Uso de vasodilatadores cerebrais e nootrópicos, de uso contínuo', 'Controle rigoroso dos fatores de risco vascular e prevenção secundária do AVC', 'Anticoagulação plena para todos os pacientes, de forma contínua', 'Uso de antipsicótico atípico em dose baixa, de forma contínua'],
     g: 'B',
     c: 'Como a lesão cerebral decorre de eventos vasculares repetidos, a principal intervenção é impedir novos eventos: tratar hipertensão, diabetes e dislipidemia, cessar o tabagismo, estimular atividade física e instituir antiagregação ou, quando há fonte cardioembólica como a fibrilação atrial, anticoagulação. Os anticolinesterásicos e a memantina têm benefício pequeno e são mais úteis quando há doença de Alzheimer associada.',
     x: { A: 'Vasodilatadores cerebrais e nootrópicos não têm eficácia comprovada.', C: 'A anticoagulação é reservada a mecanismos específicos, como o cardioembólico.', D: 'Antipsicóticos não previnem progressão e aumentam eventos cerebrovasculares em idosos com demência.' },
@@ -69,7 +69,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Sensibilidade a neurolépticos',
     e: 'Mulher de 77 anos, com demência associada a alucinações visuais e marcha lenta, recebeu haloperidol intramuscular no pronto-socorro por agitação noturna. No dia seguinte está com rigidez intensa, quase sem se mover, sonolenta e com piora importante da confusão. A explicação mais provável é:',
-    o: ['Efeito anticolinérgico central do haloperidol', 'Sensibilidade grave a neurolépticos, característica da demência com corpos de Lewy, pelo bloqueio D2 sobre um sistema dopaminérgico já deficiente', 'Síndrome serotoninérgica', 'Progressão natural esperada da doença de Alzheimer'],
+    o: ['Efeito anticolinérgico central do haloperidol, com delirium associado', 'Sensibilidade grave a neurolépticos (DCL): bloqueio D2 sobre sistema já deficiente', 'Síndrome serotoninérgica, por associação de fármacos serotoninérgicos', 'Progressão natural esperada da doença de Alzheimer, sem relação com o fármaco'],
     g: 'B',
     c: 'Na demência com corpos de Lewy há perda de neurônios dopaminérgicos nigroestriatais, de modo que o bloqueio de receptores D2 pode desencadear piora abrupta do parkinsonismo, sedação, confusão e até quadro semelhante à síndrome neuroléptica maligna, com aumento de mortalidade. Antipsicóticos típicos devem ser evitados; se um antipsicótico for indispensável, usa-se quetiapina em dose baixa, com cautela.',
     x: { A: 'O haloperidol tem pouca ação anticolinérgica, e esse efeito não explicaria a rigidez.', C: 'O haloperidol não é serotoninérgico, e não há clônus, hiper-reflexia ou diarreia.', D: 'A doença de Alzheimer não piora em um dia com rigidez grave após uma injeção.' },
@@ -77,7 +77,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Corpos de Lewy: tratamento',
     e: 'Em um paciente com demência com corpos de Lewy e alucinações visuais que causam sofrimento, a opção farmacológica inicial mais adequada é:',
-    o: ['Haloperidol em dose baixa', 'Inibidor da acetilcolinesterase, como rivastigmina ou donepezila', 'Biperideno', 'Amitriptilina ao deitar'],
+    o: ['Haloperidol em dose baixa, que é perigoso na DCL', 'Inibidor de acetilcolinesterase (rivastigmina ou donepezila)', 'Biperideno, que é anticolinérgico e piora a cognição', 'Amitriptilina ao deitar, que é anticolinérgica'],
     g: 'B',
     c: 'O déficit colinérgico cortical na demência com corpos de Lewy é ainda mais intenso que na doença de Alzheimer, e os anticolinesterásicos melhoram cognição, flutuações e alucinações, com boa resposta. Antes disso, convém reduzir ou retirar fármacos que agravam o quadro, como anticolinérgicos e agonistas dopaminérgicos. Antipsicóticos ficam reservados a casos refratários e graves.',
     x: { A: 'Antipsicóticos típicos são contraindicados pelo risco de reação grave de sensibilidade.', C: 'O biperideno é anticolinérgico e piora a confusão e as alucinações.', D: 'A amitriptilina tem forte ação anticolinérgica e agrava cognição e alucinações.' },
@@ -85,7 +85,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Transtorno do sono REM',
     e: 'Homem de 66 anos, sem queixas cognitivas ou motoras, é levado pela esposa porque há três anos, na segunda metade da noite, grita, chuta e dá socos como se estivesse lutando, tendo caído da cama duas vezes. Quando acordado, relata sonhos em que é perseguido. A polissonografia mostra perda da atonia muscular no sono REM. Esse diagnóstico tem importância prognóstica porque:',
-    o: ['É precursor habitual de epilepsia do lobo temporal', 'Pode preceder em anos o surgimento de uma sinucleinopatia, como doença de Parkinson, demência com corpos de Lewy ou atrofia de múltiplos sistemas', 'Associa-se principalmente à demência frontotemporal', 'Indica doença de Alzheimer em fase pré-clínica'],
+    o: ['É precursor habitual de epilepsia do lobo temporal em idosos', 'Pode preceder em anos uma sinucleinopatia (Parkinson, DCL, atrofia de múltiplos sistemas)', 'Associa-se principalmente à demência frontotemporal, variante comportamental', 'Indica doença de Alzheimer em fase pré-clínica, com amiloide positivo'],
     g: 'B',
     c: 'Normalmente, núcleos pontinos inibem os neurônios motores durante o sono REM, produzindo atonia. A deposição de alfa-sinucleína nessas estruturas do tronco ocorre cedo e libera a atividade motora, fazendo o paciente atuar o conteúdo dos sonhos. Grande parte dos pacientes com a forma idiopática desenvolve uma sinucleinopatia ao longo dos anos. O manejo inclui segurança do ambiente e melatonina ou clonazepam.',
     x: { A: 'Não se trata de fenômeno epiléptico nem de precursor de epilepsia.', C: 'A associação é com sinucleinopatias, e não com as taupatias ou a degeneração frontotemporal.', D: 'O transtorno não é marcador de doença de Alzheimer.' },
@@ -93,7 +93,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Corpos de Lewy: exames',
     e: 'Entre os exames complementares, aquele que constitui biomarcador indicativo de demência com corpos de Lewy e ajuda a diferenciá-la da doença de Alzheimer é:',
-    o: ['Atrofia hipocampal acentuada na ressonância magnética', 'Redução da captação do transportador de dopamina nos núcleos da base em cintilografia (SPECT) ou PET', 'Proteína 14-3-3 positiva no líquor', 'Hipometabolismo frontal e temporal anterior no FDG-PET'],
+    o: ['Atrofia hipocampal acentuada na ressonância magnética de crânio', 'Captação reduzida do transportador de dopamina nos núcleos da base', 'Proteína 14-3-3 positiva no líquor, indicativa de doença priônica', 'Hipometabolismo frontal e temporal anterior no FDG-PET cerebral'],
     g: 'B',
     c: 'A degeneração nigroestriatal reduz os terminais dopaminérgicos pré-sinápticos no estriado, o que é demonstrado pela baixa captação do transportador de dopamina; na doença de Alzheimer esse exame é normal. Outros biomarcadores indicativos são a redução da captação cardíaca de metaiodobenzilguanidina, por denervação simpática, e a confirmação de sono REM sem atonia na polissonografia.',
     x: { A: 'Na demência com corpos de Lewy os hipocampos são relativamente preservados.', C: 'A proteína 14-3-3 é marcador de lesão neuronal rápida, usada na suspeita de doença priônica.', D: 'O padrão frontal e temporal anterior é típico da demência frontotemporal.' },
@@ -101,7 +101,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Lewy versus Parkinson',
     e: 'A distinção clínica entre demência com corpos de Lewy e demência da doença de Parkinson baseia-se:',
-    o: ['Na presença de alucinações visuais, que só ocorrem na demência com corpos de Lewy', 'Na relação temporal: demência antes ou em até um ano do início do parkinsonismo indica corpos de Lewy; demência após parkinsonismo bem estabelecido há mais de um ano indica demência da doença de Parkinson', 'No tipo de proteína depositada, que é diferente nas duas doenças', 'Na resposta à levodopa, ausente na doença de Parkinson'],
+    o: ['Presença de alucinações visuais, que só ocorrem na demência com corpos de Lewy', 'Relação temporal: demência antes ou até 1 ano do parkinsonismo é DCL', 'Tipo de proteína depositada, que é diferente nas duas doenças', 'Resposta à levodopa, que está ausente na doença de Parkinson'],
     g: 'B',
     c: 'As duas condições são sinucleinopatias com patologia e clínica muito semelhantes, consideradas extremos de um mesmo espectro. A separação é convencional e baseia-se na regra de um ano: quando a demência surge antes ou junto do parkinsonismo, diagnostica-se demência com corpos de Lewy; quando surge em paciente com doença de Parkinson já estabelecida, demência da doença de Parkinson.',
     x: { A: 'Alucinações visuais ocorrem nas duas condições, sobretudo com fármacos dopaminérgicos.', C: 'Ambas são causadas por agregados de alfa-sinucleína (corpos de Lewy).', D: 'A doença de Parkinson responde bem à levodopa; a resposta costuma ser menor nos corpos de Lewy.' },
@@ -109,7 +109,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Demência da doença de Parkinson',
     e: 'Homem de 76 anos tem doença de Parkinson há 12 anos, em uso de levodopa, pramipexol e biperideno. No último ano surgiram lentificação do pensamento, dificuldade de planejamento, desatenção e alucinações visuais, com perda da autonomia para as medicações e as finanças. A conduta mais adequada é:',
-    o: ['Associar haloperidol para controlar as alucinações', 'Retirar gradualmente o biperideno e depois o agonista dopaminérgico, mantendo a levodopa, e iniciar rivastigmina', 'Suspender abruptamente a levodopa', 'Aumentar a dose de pramipexol para melhorar a cognição'],
+    o: ['Associar haloperidol para controlar as alucinações visuais do paciente', 'Retirar biperideno e agonista aos poucos, manter levodopa e iniciar rivastigmina', 'Suspender abruptamente a levodopa, para reduzir as alucinações visuais', 'Aumentar a dose de pramipexol, para melhorar a cognição do paciente'],
     g: 'B',
     c: 'Trata-se de demência da doença de Parkinson, de perfil disexecutivo e visuoespacial. Os fármacos antiparkinsonianos com maior potencial de causar confusão e psicose devem ser retirados primeiro: anticolinérgicos, seguidos de amantadina, inibidores da MAO-B e agonistas dopaminérgicos, preservando a levodopa, que tem a melhor relação entre efeito motor e efeito psiquiátrico. A rivastigmina tem evidência de benefício nessa demência.',
     x: { A: 'O haloperidol piora gravemente o parkinsonismo e é contraindicado nesse contexto.', C: 'A retirada abrupta da levodopa pode causar piora motora grave e síndrome semelhante à neuroléptica maligna.', D: 'Aumentar o agonista dopaminérgico agravaria as alucinações e a confusão.' },
@@ -117,7 +117,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'DFT: variante comportamental',
     e: 'Homem de 56 anos, gerente de banco, é levado pela esposa por mudança de personalidade há dois anos. Passou a fazer comentários obscenos a desconhecidos, gastar dinheiro sem critério e comer doces de forma compulsiva. Mostra-se indiferente ao sofrimento dos familiares, descuidou-se da higiene e não reconhece qualquer problema. Mini-Exame do Estado Mental de 27 pontos, com memória e orientação preservadas. O diagnóstico mais provável é:',
-    o: ['Doença de Alzheimer de início precoce', 'Demência frontotemporal, variante comportamental', 'Transtorno bipolar de início tardio', 'Demência com corpos de Lewy'],
+    o: ['Doença de Alzheimer de início precoce, com amnésia inicial', 'Demência frontotemporal, variante comportamental', 'Transtorno bipolar de início tardio, com mania', 'Demência com corpos de Lewy, com alucinações visuais'],
     g: 'B',
     c: 'Os critérios da variante comportamental incluem desinibição, apatia, perda de empatia, comportamentos perseverativos ou compulsivos, hiperoralidade com preferência por doces e perfil disexecutivo com memória e habilidades visuoespaciais relativamente poupadas. O início costuma ser antes dos 65 anos, e os testes de rastreio podem ser normais, o que atrasa o diagnóstico. A base é a degeneração dos córtices pré-frontal e temporal anterior.',
     x: { A: 'Na doença de Alzheimer a memória episódica é o domínio mais afetado desde o início.', C: 'O curso é progressivo e sem episódios, com perda de empatia e hiperoralidade, o que não é típico de mania.', D: 'Não há flutuações, alucinações visuais nem parkinsonismo no quadro.' },
@@ -125,7 +125,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'DFT: neuroimagem',
     e: 'O padrão de neuroimagem esperado na variante comportamental da demência frontotemporal é:',
-    o: ['Atrofia hipocampal bilateral com hipometabolismo temporoparietal', 'Atrofia frontal e temporal anterior, muitas vezes assimétrica, com hipometabolismo ou hipoperfusão nessas regiões', 'Atrofia parieto-occipital com hipometabolismo occipital', 'Hipersinal em fita no córtex na sequência de difusão'],
+    o: ['Atrofia hipocampal bilateral, com hipometabolismo temporoparietal', 'Atrofia frontal e temporal anterior, assimétrica, com hipometabolismo', 'Atrofia parieto-occipital, com hipometabolismo occipital associado', 'Hipersinal cortical em fita, na sequência de difusão da ressonância'],
     g: 'B',
     c: 'A degeneração seletiva dos lobos frontais (em especial as regiões orbitofrontal e medial) e temporais anteriores explica as alterações de comportamento, do controle inibitório e da cognição social. A ressonância mostra atrofia nessas áreas, e os exames funcionais revelam redução do metabolismo ou da perfusão anterior, com regiões posteriores preservadas, ao contrário da doença de Alzheimer.',
     x: { A: 'Atrofia hipocampal com hipometabolismo temporoparietal é o padrão da doença de Alzheimer.', C: 'O acometimento posterior sugere atrofia cortical posterior ou demência com corpos de Lewy.', D: 'Hipersinal cortical em fita na difusão sugere doença de Creutzfeldt-Jakob.' },
@@ -133,7 +133,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'DFT: genética e patologia',
     e: 'Em relação à genética e à neuropatologia da degeneração lobar frontotemporal, é correto afirmar:',
-    o: ['Quase todos os casos são esporádicos, sem história familiar', 'Uma proporção considerável dos casos é familiar, com mutações em MAPT, GRN e C9orf72, e as inclusões são principalmente de tau ou de TDP-43', 'A proteína depositada é o beta-amiloide em placas neuríticas', 'O principal gene envolvido é o da presenilina 1'],
+    o: ['Quase todos os casos são esporádicos, sem história familiar associada', 'Parte é familiar (MAPT, GRN, C9orf72); inclusões de tau ou TDP-43', 'A proteína depositada é o beta-amiloide, em placas neuríticas difusas', 'O principal gene envolvido é o da presenilina 1, no cromossomo 14'],
     g: 'B',
     c: 'A demência frontotemporal tem forte componente hereditário, com história familiar em parte expressiva dos casos. Mutações em MAPT causam taupatia; mutações em progranulina e a expansão em C9orf72 causam proteinopatia TDP-43, sendo esta última também a principal causa genética de esclerose lateral amiotrófica. Por isso alguns pacientes desenvolvem doença do neurônio motor associada.',
     x: { A: 'A história familiar é muito mais frequente que na doença de Alzheimer de início tardio.', C: 'Placas de beta-amiloide definem a doença de Alzheimer, não a degeneração frontotemporal.', D: 'A presenilina 1 está ligada à doença de Alzheimer familiar de início precoce.' },
@@ -141,7 +141,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'DFT: tratamento',
     e: 'Mulher de 60 anos com diagnóstico de variante comportamental da demência frontotemporal apresenta desinibição, compulsão alimentar e comportamentos repetitivos. Quanto ao tratamento, é correto afirmar:',
-    o: ['Os anticolinesterásicos são a primeira linha e devem ser iniciados em todos os casos', 'Não há tratamento modificador; os anticolinesterásicos não trazem benefício e podem piorar o comportamento, e inibidores seletivos da recaptação de serotonina ou trazodona podem aliviar sintomas comportamentais', 'A memantina reverte as alterações de personalidade', 'A levodopa é indicada para a apatia'],
+    o: ['Anticolinesterásicos são a primeira linha e devem ser iniciados em todos os casos', 'Sem tratamento modificador; anticolinesterásico não ajuda; ISRS ou trazodona aliviam', 'A memantina reverte as alterações de personalidade e o comportamento', 'A levodopa é indicada para a apatia, em dose habitual de manutenção'],
     g: 'B',
     c: 'Na demência frontotemporal não há déficit colinérgico relevante, e os anticolinesterásicos não melhoram a cognição, podendo aumentar a agitação e a desinibição. Existe, porém, déficit serotoninérgico, o que justifica o uso de inibidores seletivos da recaptação de serotonina ou trazodona para compulsões, desinibição e hiperoralidade. O pilar do manejo é não farmacológico, com orientação familiar, supervisão e adaptação do ambiente.',
     x: { A: 'Não há benefício dos anticolinesterásicos, que podem agravar o comportamento.', C: 'A memantina não mostrou eficácia nos ensaios em demência frontotemporal.', D: 'A levodopa não trata a apatia frontotemporal e pode piorar sintomas comportamentais.' },
@@ -149,7 +149,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'APP: conceito',
     e: 'Afasia progressiva primária é a síndrome em que:',
-    o: ['A afasia se instala de forma súbita e melhora ao longo de meses', 'O distúrbio de linguagem, de início insidioso e progressivo, é a manifestação mais proeminente e a principal causa de limitação nas fases iniciais, por doença neurodegenerativa', 'A afasia surge apenas nas fases avançadas de uma demência amnéstica', 'Há perda de linguagem por lesão tumoral do hemisfério dominante'],
+    o: ['A afasia se instala de forma súbita e melhora ao longo de vários meses', 'Distúrbio de linguagem insidioso e progressivo, principal manifestação inicial', 'A afasia surge apenas nas fases avançadas de uma demência amnéstica', 'Perda de linguagem por lesão tumoral do hemisfério cerebral dominante'],
     g: 'B',
     c: 'O diagnóstico exige que a linguagem seja o domínio predominantemente afetado nos primeiros anos, com memória episódica, habilidades visuoespaciais e comportamento relativamente preservados, e que a causa seja neurodegenerativa. Reconhecem-se três variantes (não fluente ou agramática, semântica e logopênica), cada uma com perfil clínico, topografia de atrofia e patologia mais provável distintos.',
     x: { A: 'Início súbito com melhora posterior é próprio da afasia por acidente vascular cerebral.', C: 'Na afasia progressiva primária a linguagem é afetada desde o início, de forma isolada.', D: 'Lesões tumorais ou vasculares excluem o diagnóstico de afasia progressiva primária.' },
@@ -173,7 +173,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'APP: variante logopênica',
     e: 'A variante logopênica da afasia progressiva primária caracteriza-se por:',
-    o: ['Agramatismo e apraxia de fala, com patologia tau', 'Pausas frequentes para encontrar palavras e dificuldade para repetir frases longas, com gramática e significado das palavras preservados, e patologia de doença de Alzheimer na maioria dos casos', 'Perda do significado das palavras com repetição normal, com patologia TDP-43', 'Mutismo de instalação aguda com hemiplegia direita'],
+    o: ['Agramatismo e apraxia de fala, com patologia tau na maioria', 'Pausas para achar palavras e falha na repetição de frases; patologia de Alzheimer', 'Perda do significado das palavras, com repetição normal e patologia TDP-43', 'Mutismo de instalação aguda com hemiplegia direita, de origem vascular'],
     g: 'B',
     c: 'O defeito central é da memória fonológica de curto prazo, dependente da junção temporoparietal esquerda. Isso explica a fala hesitante por anomia, as parafasias fonêmicas e, sobretudo, a incapacidade de repetir sentenças longas, enquanto a articulação, a gramática e a compreensão de palavras isoladas são mantidas. É considerada uma apresentação atípica, de linguagem, da doença de Alzheimer.',
     x: { A: 'Agramatismo e apraxia de fala definem a variante não fluente.', C: 'Perda do significado com repetição normal define a variante semântica.', D: 'Instalação aguda com hemiplegia indica lesão vascular, não doença degenerativa.' },
@@ -181,7 +181,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'DFT e doença do neurônio motor',
     e: 'Homem de 59 anos apresenta apatia e desinibição progressivas há um ano. Nos últimos meses surgiram disartria, engasgos, fraqueza e atrofia das mãos. Ao exame: fasciculações em língua e membros, com hiper-reflexia e sinal de Babinski bilateral. O irmão faleceu por esclerose lateral amiotrófica. A alteração genética mais provavelmente envolvida é:',
-    o: ['Mutação no gene da presenilina 1', 'Expansão de repetição de hexanucleotídeo no gene C9orf72', 'Expansão de trinucleotídeo CAG no gene HTT', 'Mutação no gene NOTCH3'],
+    o: ['Mutação no gene da presenilina 1, de herança autossômica dominante', 'Expansão de repetição de hexanucleotídeo no C9orf72, de herança dominante', 'Expansão de trinucleotídeo CAG no gene HTT, da doença de Huntington', 'Mutação no gene NOTCH3, da arteriopatia CADASIL de herança dominante'],
     g: 'B',
     c: 'A associação de demência frontotemporal com sinais de neurônio motor superior e inferior configura o espectro demência frontotemporal e esclerose lateral amiotrófica, ligado a inclusões de TDP-43. A expansão em C9orf72 é a causa genética mais frequente das duas doenças e explica famílias em que alguns membros têm demência, outros doença do neurônio motor e outros ambas. O prognóstico é pior quando há acometimento motor.',
     x: { A: 'A presenilina 1 causa doença de Alzheimer familiar, sem doença do neurônio motor.', C: 'A expansão CAG em HTT causa doença de Huntington, com coreia e sem fasciculações.', D: 'O NOTCH3 causa CADASIL, com infartos subcorticais e enxaqueca.' },
@@ -189,7 +189,7 @@ export const DEMENCIA_3: QuestaoCompacta[] = [
   {
     s: 'Demência mista',
     e: 'Mulher de 85 anos, hipertensa e diabética, apresenta há quatro anos perda progressiva de memória recente, de início insidioso. Há um ano surgiram lentificação e marcha em pequenos passos. A ressonância mostra atrofia hipocampal bilateral, vários infartos lacunares e hipersinal confluente da substância branca. O diagnóstico mais adequado e a abordagem são:',
-    o: ['Doença de Alzheimer pura; as lesões vasculares são irrelevantes', 'Demência mista (doença de Alzheimer com doença cerebrovascular); anticolinesterásico associado ao controle rigoroso dos fatores de risco vascular', 'Demência vascular pura; os anticolinesterásicos são contraindicados', 'Hidrocefalia de pressão normal; derivação ventriculoperitoneal'],
+    o: ['Doença de Alzheimer pura; as lesões vasculares são irrelevantes ao quadro', 'Demência mista (Alzheimer + vascular): anticolinesterásico e controle vascular', 'Demência vascular pura; os anticolinesterásicos são contraindicados', 'Hidrocefalia de pressão normal; derivação ventriculoperitoneal imediata'],
     g: 'B',
     c: 'Em idosos muito longevos, a coexistência de patologia de Alzheimer e lesões vasculares é a regra, e não a exceção, e os dois processos somam seus efeitos, fazendo com que a demência se manifeste com menor carga de cada um. O quadro clínico combina amnésia hipocampal com sinais subcorticais. O tratamento reúne as duas estratégias: fármacos sintomáticos para doença de Alzheimer e prevenção vascular.',
     x: { A: 'As lesões vasculares contribuem para a clínica e exigem controle dos fatores de risco.', C: 'O início amnéstico insidioso com atrofia hipocampal indica componente de Alzheimer, e não há contraindicação.', D: 'Não há ventriculomegalia desproporcional nem a tríade clássica completa.' },

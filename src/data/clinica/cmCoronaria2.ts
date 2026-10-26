@@ -5,7 +5,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia',
     e: 'O substrato fisiopatológico mais comum da síndrome coronariana aguda sem supradesnivelamento do segmento ST é:',
-    o: ['Trombo oclusivo total, rico em fibrina, sobre placa rota', 'Ruptura ou erosão de placa com formação de trombo suboclusivo, rico em plaquetas', 'Crescimento lento e progressivo de placa fibrocalcificada estável', 'Embolia coronariana a partir de trombo atrial'],
+    o: ['Trombo oclusivo total, rico em fibrina, sobre placa rota', 'Ruptura ou erosão de placa com trombo suboclusivo, rico em plaquetas', 'Crescimento lento e progressivo de placa fibrocalcificada estável', 'Embolia coronariana a partir de trombo atrial'],
     g: 'B',
     c: 'Na síndrome sem supra, a instabilização da placa expõe material trombogênico e forma um trombo predominantemente plaquetário (branco) que não oclui totalmente a luz, causando isquemia subendocárdica. Por isso o tratamento se baseia em antiplaquetários e anticoagulantes, e não em fibrinolíticos.',
     x: { A: 'O trombo oclusivo rico em fibrina (vermelho) é o substrato do infarto com supra de ST.', C: 'A placa estável de crescimento lento explica a angina estável.', D: 'A embolia coronariana é causa rara de infarto.' },
@@ -13,7 +13,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico',
     e: 'Homem de 59 anos chega com dor precordial em repouso há 40 minutos. Eletrocardiograma com infradesnivelamento de ST de 1 mm em V4 a V6. O dado que diferencia angina instável de infarto agudo do miocárdio sem supra de ST é:',
-    o: ['A duração da dor acima de 20 minutos', 'A elevação de troponina acima do percentil 99 com curva de ascensão ou queda', 'A presença de infradesnivelamento do segmento ST', 'A resposta da dor ao nitrato sublingual'],
+    o: ['A duração da dor acima de 20 minutos, de forma isolada', 'Troponina > percentil 99 com curva de ascensão ou queda', 'A presença de infra de ST, de forma isolada', 'A resposta da dor ao nitrato sublingual'],
     g: 'B',
     c: 'As duas entidades compartilham clínica e eletrocardiograma; o que define o infarto é a evidência de necrose, ou seja, troponina acima do percentil 99 com variação seriada em contexto de isquemia. Na angina instável há isquemia sem necrose detectável. Com a troponina ultrassensível, o diagnóstico de angina instável tornou-se menos frequente.',
     x: { A: 'Dor prolongada em repouso ocorre tanto na angina instável quanto no infarto.', C: 'Alterações de ST podem ocorrer em ambas e podem até faltar.', D: 'A resposta ao nitrato não discrimina as duas condições nem exclui síndrome coronariana.' },
@@ -21,7 +21,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Angina instável',
     e: 'Mulher de 63 anos, com angina aos grandes esforços há 2 anos, relata que nas últimas 2 semanas a dor passou a surgir ao caminhar dentro de casa, com episódios mais longos e mais frequentes. No momento está sem dor, com eletrocardiograma e troponinas seriadas normais. O diagnóstico é:',
-    o: ['Angina estável classe II', 'Angina instável, na forma de angina em crescendo', 'Infarto agudo do miocárdio sem supra de ST', 'Angina vasoespástica'],
+    o: ['Angina estável classe II, com padrão previsível', 'Angina instável, na forma de angina em crescendo', 'IAM sem supra de ST, com troponina elevada', 'Angina vasoespástica, com dor em repouso noturna'],
     g: 'B',
     c: 'A angina instável tem três apresentações clássicas: angina de repouso prolongada (em geral mais de 20 minutos), angina de início recente com limitação acentuada (pelo menos classe III) e angina em crescendo, que se torna mais frequente, mais longa ou com limiar menor. A mudança de padrão reflete instabilização da placa, mesmo com marcadores normais.',
     x: { A: 'A piora recente do limiar e da frequência descaracteriza a estabilidade.', C: 'O infarto exige elevação de troponina, ausente no caso.', D: 'A angina vasoespástica ocorre em repouso, tipicamente de madrugada, com supra transitório.' },
@@ -29,7 +29,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Troponina',
     e: 'Homem de 52 anos, tabagista, procura o pronto-socorro 1 hora após o início de dor retroesternal em aperto. Eletrocardiograma sem alterações isquêmicas e troponina ultrassensível abaixo do percentil 99. A conduta correta é:',
-    o: ['Dar alta, pois a troponina ultrassensível normal exclui infarto', 'Manter em observação com eletrocardiogramas seriados e repetir a troponina em 1 a 3 horas', 'Administrar fibrinolítico', 'Solicitar teste ergométrico imediato'],
+    o: ['Dar alta, pois a troponina ultrassensível normal exclui infarto', 'Manter em observação com ECGs seriados; repetir a troponina em 1-3 h', 'Administrar fibrinolítico, por suspeita de infarto', 'Solicitar teste ergométrico imediato, em paciente com dor recente'],
     g: 'B',
     c: 'A troponina começa a se elevar algumas horas após o início da necrose; uma dosagem única muito precoce pode ser normal. Os algoritmos com troponina ultrassensível exigem segunda dosagem em 1 a 3 horas (ou 3 a 6 horas com ensaios convencionais) para avaliar a variação, sobretudo em quem chega com menos de 3 horas de dor.',
     x: { A: 'Dosagem única com menos de 3 horas de sintomas não exclui infarto.', C: 'Não há supra de ST, portanto fibrinolítico não está indicado.', D: 'Teste de esforço só após exclusão de infarto com marcadores seriados.' },
@@ -61,7 +61,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Escore GRACE',
     e: 'Sobre o escore GRACE na síndrome coronariana aguda, é correto afirmar que:',
-    o: ['Utiliza apenas variáveis da história clínica, dispensando exames', 'Inclui idade, frequência cardíaca, pressão sistólica, creatinina, classe de Killip, parada cardíaca na admissão, desvio de ST e marcadores de necrose', 'Serve para estimar o risco de sangramento com antitrombóticos', 'Só pode ser aplicado no infarto com supra de ST'],
+    o: ['Utiliza apenas variáveis da história clínica, dispensando exames laboratoriais', 'Inclui idade, FC, PAS, creatinina, Killip, PCR, desvio de ST e marcadores de necrose', 'Serve para estimar o risco de sangramento com o uso dos antitrombóticos', 'Só pode ser aplicado no infarto com supra de ST, e não na SCA sem supra'],
     g: 'B',
     c: 'O GRACE estima mortalidade hospitalar e em 6 meses com oito variáveis clínicas, eletrocardiográficas e laboratoriais, e tem melhor poder discriminatório que o TIMI. Valores acima de 140 definem alto risco. O risco de sangramento é estimado por outros escores, como o CRUSADE.',
     x: { A: 'O escore usa creatinina, marcadores e eletrocardiograma além da clínica.', C: 'O risco hemorrágico é avaliado por escores como o CRUSADE.', D: 'O GRACE aplica-se a todo o espectro das síndromes coronarianas agudas.' },
@@ -77,7 +77,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Reperfusão',
     e: 'Mulher de 66 anos com dor precordial há 3 horas, infradesnivelamento de ST de 2 mm de V3 a V6 e troponina elevada, atendida em hospital sem serviço de hemodinâmica. Em relação ao fibrinolítico, a conduta correta é:',
-    o: ['Administrar tenecteplase em bolo, pois o infarto está confirmado', 'Não administrar fibrinolítico, pois não há benefício e há aumento de risco na síndrome sem supra de ST', 'Administrar estreptoquinase se a dor persistir por mais de 6 horas', 'Administrar alteplase em meia dose'],
+    o: ['Tenecteplase em bolo, pois o infarto está confirmado pelo ECG', 'Não dar fibrinolítico: sem benefício e com mais risco na SCA sem supra', 'Estreptoquinase se a dor persistir por mais de 6 horas de evolução', 'Alteplase em meia dose, por via venosa, em infusão de 90 minutos'],
     g: 'B',
     c: 'Na síndrome sem supra o trombo é suboclusivo e rico em plaquetas; os fibrinolíticos não trazem benefício e aumentam sangramento e eventos, possivelmente por expor trombina e ativar plaquetas. O tratamento é antiplaquetário, anticoagulante e estratificação invasiva conforme o risco, com transferência se necessário.',
     x: { A: 'Troponina elevada sem supra de ST não é indicação de fibrinolítico.', C: 'A duração da dor não cria indicação de fibrinólise na ausência de supra.', D: 'Nenhuma dose de fibrinolítico é indicada nesse cenário.' },
@@ -101,7 +101,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Antiplaquetários',
     e: 'O ácido acetilsalicílico deve ser administrado a todo paciente com síndrome coronariana aguda sem contraindicação. Seu mecanismo de ação é:',
-    o: ['Bloqueio reversível do receptor P2Y12 do ADP', 'Inibição irreversível da ciclo-oxigenase 1 plaquetária, reduzindo a síntese de tromboxano A2', 'Inibição do receptor da glicoproteína IIb/IIIa', 'Potencialização da antitrombina III'],
+    o: ['Bloqueio reversível do receptor P2Y12 do ADP, como o ticagrelor', 'Inibição irreversível da COX-1 plaquetária, reduzindo o tromboxano A2', 'Inibição do receptor da glicoproteína IIb/IIIa, como o tirofibana', 'Potencialização da antitrombina III, como faz a heparina não fracionada'],
     g: 'B',
     c: 'O ácido acetilsalicílico acetila de forma irreversível a ciclo-oxigenase 1; como a plaqueta não tem núcleo, o efeito dura toda a sua vida (7 a 10 dias). A queda do tromboxano A2 reduz agregação e vasoconstrição. A dose de ataque (150 a 300 mg) deve ser mastigada para absorção rápida.',
     x: { A: 'O bloqueio reversível do P2Y12 é o mecanismo do ticagrelor.', C: 'Esse é o mecanismo de tirofibana e abciximabe.', D: 'Esse é o mecanismo das heparinas.' },
@@ -125,7 +125,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Inibidores do P2Y12',
     e: 'Em relação ao momento de administração do prasugrel na síndrome coronariana aguda sem supra de ST, a recomendação é:',
-    o: ['Administrar na chegada ao pronto-socorro, antes de qualquer exame', 'Administrar apenas após a coronariografia, quando a anatomia é conhecida e a angioplastia está indicada', 'Administrar somente 30 dias após o implante do stent', 'Substituir o ácido acetilsalicílico por prasugrel em todos os casos'],
+    o: ['Dar já na chegada ao pronto-socorro, antes de qualquer exame ou definição anatômica', 'Dar só após a coronariografia, com anatomia conhecida e angioplastia indicada', 'Dar somente 30 dias após o implante do stent, em todos os casos', 'Substituir o AAS por prasugrel em todos os casos de SCA'],
     g: 'B',
     c: 'No estudo ACCOAST, o pré-tratamento com prasugrel antes da coronariografia não reduziu eventos isquêmicos e aumentou sangramentos, inclusive em quem acabou indo para cirurgia. Por isso ele só deve ser dado na sala de hemodinâmica, com anatomia definida. Diretrizes atuais também desaconselham o pré-tratamento rotineiro com qualquer inibidor do P2Y12 quando a coronariografia será precoce.',
     x: { A: 'O pré-tratamento com prasugrel aumenta sangramento sem benefício.', C: 'O inibidor do P2Y12 é necessário desde o momento da angioplastia.', D: 'O prasugrel é associado ao ácido acetilsalicílico, não o substitui.' },
@@ -141,7 +141,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação',
     e: 'Sobre o fondaparinux na síndrome coronariana aguda sem supra de ST, é correto afirmar que:',
-    o: ['É inibidor direto da trombina e dispensa ajuste renal', 'Causa menos sangramento que a enoxaparina, mas exige heparina não fracionada adicional durante a angioplastia pelo risco de trombose de cateter', 'É o anticoagulante de escolha quando a coronariografia será imediata', 'Deve ser associado a fibrinolítico'],
+    o: ['Inibidor direto da trombina, que dispensa o ajuste da dose pela função renal', 'Menos sangramento que a enoxaparina; exige HNF extra na angioplastia (trombose do cateter)', 'É o anticoagulante de escolha quando a coronariografia será imediata', 'Deve ser associado a fibrinolítico, em todos os casos de SCA sem supra'],
     g: 'B',
     c: 'O fondaparinux é um inibidor indireto e seletivo do fator Xa, usado em dose fixa de 2,5 mg ao dia. No estudo OASIS-5 teve eficácia semelhante à enoxaparina com menos sangramento e menor mortalidade, mas houve mais trombose de cateter na angioplastia, o que obriga a um bolo de heparina não fracionada no procedimento. É contraindicado com depuração abaixo de 20 mL/min.',
     x: { A: 'É inibidor indireto do fator Xa, via antitrombina, e tem eliminação renal.', C: 'Na estratégia invasiva imediata prefere-se heparina não fracionada ou enoxaparina.', D: 'Fibrinolítico não é usado na síndrome sem supra de ST.' },
@@ -149,7 +149,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Betabloqueador',
     e: 'Homem de 71 anos com infarto sem supra de ST apresenta pressão arterial de 92 x 60 mmHg, frequência cardíaca de 118 bpm, estertores crepitantes até o terço médio de ambos os pulmões e terceira bulha. Em relação ao betabloqueador, a conduta correta é:',
-    o: ['Metoprolol venoso imediato para controlar a taquicardia', 'Não iniciar betabloqueador neste momento, pelo risco de precipitar choque cardiogênico', 'Propranolol oral em dose plena', 'Associar betabloqueador a verapamil'],
+    o: ['Metoprolol venoso imediato, para controlar a taquicardia', 'Não iniciar betabloqueador agora: risco de precipitar choque cardiogênico', 'Propranolol oral em dose plena, para controlar a taquicardia', 'Associar betabloqueador a verapamil, para melhor controle'],
     g: 'B',
     c: 'A taquicardia nesse paciente é compensatória para manter o débito diante de disfunção ventricular. O betabloqueador precoce em pacientes com sinais de insuficiência cardíaca, hipotensão ou outros fatores de risco para choque aumenta o choque cardiogênico, como mostrou o estudo COMMIT. Ele deve ser iniciado por via oral após a estabilização.',
     x: { A: 'Betabloqueador venoso com congestão e hipotensão pode precipitar choque.', C: 'A via oral em dose plena tem o mesmo risco na fase de instabilidade.', D: 'A associação soma efeitos inotrópicos negativos e agravaria o baixo débito.' },
@@ -157,7 +157,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia',
     e: 'Mulher de 55 anos com infarto sem supra de ST, sem dispneia, com saturação de oxigênio de 97% em ar ambiente e ausculta pulmonar normal. Em relação ao oxigênio suplementar, é correto:',
-    o: ['Oferecer oxigênio por máscara a todos os pacientes nas primeiras 6 horas', 'Não oferecer oxigênio de rotina; indicá-lo se a saturação for inferior a 90% ou houver desconforto respiratório', 'Oferecer oxigênio apenas se a troponina estiver elevada', 'Manter cateter nasal até a coronariografia'],
+    o: ['Oferecer oxigênio por máscara a todos nas primeiras 6 horas', 'Sem O2 de rotina; indicar se saturação < 90% ou desconforto respiratório', 'Oferecer oxigênio apenas se a troponina estiver elevada', 'Manter cateter nasal de O2 até a coronariografia'],
     g: 'B',
     c: 'O oxigênio em pacientes sem hipoxemia não reduz mortalidade nem tamanho do infarto (estudo DETO2X) e a hiperóxia pode causar vasoconstrição coronariana e lesão por radicais livres. A indicação é saturação abaixo de 90% ou sinais de insuficiência respiratória.',
     x: { A: 'O uso rotineiro não traz benefício e pode ser deletério.', C: 'A troponina não é critério para oxigenoterapia.', D: 'Sem hipoxemia não há indicação de manter oxigênio.' },
@@ -165,7 +165,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Analgesia',
     e: 'Sobre o uso de morfina na síndrome coronariana aguda, é correto afirmar que:',
-    o: ['Deve ser administrada a todos os pacientes, pois reduz a mortalidade', 'Fica reservada à dor refratária às medidas anti-isquêmicas e pode retardar a absorção e o efeito dos antiplaquetários orais', 'É contraindicada em qualquer paciente com infarto', 'É a medida de escolha no infarto de ventrículo direito com hipotensão'],
+    o: ['Deve ser dada a todos os pacientes, pois reduz a mortalidade no infarto', 'Reservada à dor refratária; pode retardar a absorção dos antiplaquetários orais', 'É contraindicada em qualquer paciente com infarto agudo do miocárdio', 'É a medida de escolha no infarto de VD com hipotensão arterial'],
     g: 'B',
     c: 'A morfina alivia a dor e a descarga adrenérgica, mas não reduz mortalidade. Ao retardar o esvaziamento gástrico e a absorção intestinal, diminui e atrasa a ação dos inibidores do P2Y12 orais. Por isso é usada apenas quando a dor persiste apesar de nitrato e betabloqueador, com cuidado em hipotensos.',
     x: { A: 'Não há redução de mortalidade e o uso rotineiro não é recomendado.', C: 'Ela pode ser usada na dor refratária, com cautela.', D: 'No infarto de ventrículo direito, a venodilatação da morfina reduz a pré-carga e agrava a hipotensão.' },
@@ -173,7 +173,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Cocaína',
     e: 'Homem de 29 anos chega com dor precordial em aperto 1 hora após uso de cocaína. Está agitado, com pressão de 180 x 110 mmHg e frequência de 122 bpm. Eletrocardiograma com infradesnivelamento de ST em parede lateral. Além de ácido acetilsalicílico, a abordagem inicial mais adequada é:',
-    o: ['Propranolol venoso', 'Benzodiazepínico e nitrato, evitando betabloqueador na fase aguda', 'Fibrinolítico imediato', 'Adrenalina subcutânea'],
+    o: ['Propranolol venoso, para controlar a taquicardia', 'Benzodiazepínico e nitrato; evitar betabloqueador na fase aguda', 'Fibrinolítico imediato, por suspeita de infarto', 'Adrenalina subcutânea, para o vasoespasmo coronariano'],
     g: 'B',
     c: 'A cocaína bloqueia a recaptação de catecolaminas, causando vasoespasmo coronariano, hipertensão e taquicardia. Benzodiazepínicos reduzem a descarga simpática central e nitratos revertem o espasmo. O ensino tradicional evita betabloqueadores na intoxicação aguda, pois o bloqueio beta deixaria o estímulo alfa sem oposição, piorando o espasmo. Há divergência: estudos observacionais recentes questionam esse risco, mas diretrizes e provas mantêm a recomendação.',
     x: { A: 'O betabloqueador não seletivo pode agravar o vasoespasmo por estímulo alfa sem oposição.', C: 'Não há supra de ST; fibrinolítico não está indicado.', D: 'A adrenalina agravaria a descarga adrenérgica e a isquemia.' },
@@ -181,7 +181,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Eletrocardiograma',
     e: 'Homem de 56 anos teve dor precordial em repouso por 30 minutos, que cedeu espontaneamente. Na admissão está sem dor, e o eletrocardiograma mostra ondas T bifásicas em V2 e V3, sem supra de ST e sem ondas Q. Troponina discretamente elevada. A interpretação e a conduta corretas são:',
-    o: ['Alteração inespecífica; realizar teste ergométrico antes da alta', 'Síndrome de Wellens, que indica lesão crítica da descendente anterior proximal; indicar coronariografia e não realizar teste de esforço', 'Pericardite aguda; prescrever anti-inflamatório', 'Repolarização precoce benigna; dar alta'],
+    o: ['Alteração inespecífica; fazer teste ergométrico antes da alta hospitalar', 'Síndrome de Wellens: lesão crítica da DA proximal; coronariografia, sem teste de esforço', 'Pericardite aguda; prescrever anti-inflamatório e dar alta hospitalar', 'Repolarização precoce benigna; dar alta hospitalar com orientações'],
     g: 'B',
     c: 'O padrão de Wellens (ondas T bifásicas ou profundamente invertidas e simétricas em V2 e V3, no período sem dor, com ondas R preservadas) representa reperfusão espontânea de uma estenose crítica da descendente anterior proximal. Há alto risco de infarto anterior extenso em dias a semanas, e o teste de esforço pode precipitar a oclusão.',
     x: { A: 'O teste ergométrico é contraindicado e pode desencadear infarto anterior extenso.', C: 'A pericardite cursa com supra difuso e infradesnivelamento de PR, não com esse padrão.', D: 'A repolarização precoce mostra supra côncavo com entalhe do ponto J, sem T bifásica.' },
@@ -189,7 +189,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Eletrocardiograma',
     e: 'Homem de 69 anos com dor precordial intensa em repouso e sudorese. Eletrocardiograma: infradesnivelamento de ST de 2 a 3 mm em oito derivações (DI, DII, aVL e V3 a V6) associado a supradesnivelamento de ST em aVR. Esse padrão sugere:',
-    o: ['Infarto isolado de ventrículo direito', 'Isquemia subendocárdica difusa por lesão de tronco da coronária esquerda ou doença multiarterial grave', 'Pericardite aguda', 'Embolia pulmonar'],
+    o: ['Infarto isolado de ventrículo direito, com supra de ST em V4R e hipotensão', 'Isquemia subendocárdica difusa: lesão de tronco ou doença multiarterial grave', 'Pericardite aguda, com supra difuso de ST e infra de PR associado', 'Embolia pulmonar, com sobrecarga direita, taquicardia e hipoxemia associada'],
     g: 'B',
     c: 'O infradesnivelamento difuso de ST (seis ou mais derivações) com supra em aVR reflete isquemia subendocárdica circunferencial, classicamente associada a lesão de tronco, descendente anterior proximal ou doença triarterial. É achado de muito alto risco e indica coronariografia urgente.',
     x: { A: 'O infarto de ventrículo direito cursa com supra em derivações direitas e parede inferior.', C: 'Na pericardite há supra difuso com infradesnivelamento de ST apenas em aVR e V1.', D: 'A embolia pulmonar costuma mostrar taquicardia sinusal e sobrecarga direita.' },
@@ -197,7 +197,7 @@ export const CORONARIA_2: QuestaoCompacta[] = [
   {
     s: 'Estatina',
     e: 'Mulher de 61 anos internada por infarto sem supra de ST. Colesterol LDL da admissão: 92 mg/dL. Em relação à estatina, a conduta recomendada é:',
-    o: ['Não prescrever, pois o LDL está abaixo de 100 mg/dL', 'Iniciar estatina de alta potência ainda na internação, independentemente do LDL basal', 'Iniciar sinvastatina 10 mg após 3 meses do evento', 'Prescrever apenas fibrato'],
+    o: ['Não prescrever, pois o LDL está abaixo de 100 mg/dL na admissão', 'Iniciar estatina de alta potência na internação, qualquer que seja o LDL basal', 'Iniciar sinvastatina 10 mg somente 3 meses após o evento coronariano', 'Prescrever apenas fibrato, sem estatina, por via oral, em dose habitual'],
     g: 'B',
     c: 'Após síndrome coronariana aguda o paciente é de muito alto risco, e a estatina de alta potência (atorvastatina 40 a 80 mg ou rosuvastatina 20 a 40 mg) deve ser iniciada precocemente, pois reduz eventos recorrentes por diminuir o LDL e estabilizar a placa (efeitos pleiotrópicos). As metas atuais são bem inferiores a 92 mg/dL, com redução de pelo menos 50%.',
     x: { A: 'O LDL de 92 mg/dL está acima da meta para muito alto risco, e a indicação independe do valor basal.', C: 'Estatina de baixa potência e início tardio perdem o benefício precoce.', D: 'Fibratos não reduzem eventos nesse contexto e não substituem a estatina.' },

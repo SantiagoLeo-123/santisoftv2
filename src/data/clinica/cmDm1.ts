@@ -5,7 +5,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia do tipo 1',
     e: 'Adolescente de 13 anos, magro, apresenta poliúria, polidipsia e perda de 6 kg em 3 semanas, com glicemia de 380 mg/dL e cetonúria. O mecanismo fisiopatológico central dessa doença é:',
-    o: ['Resistência periférica à insulina associada a hiperinsulinemia compensatória', 'Destruição autoimune das células beta pancreáticas mediada por linfócitos T, com deficiência absoluta de insulina', 'Mutação em gene único que altera o sensor de glicose da célula beta', 'Destruição do pâncreas exócrino com perda secundária das ilhotas'],
+    o: ['Resistência periférica à insulina com hiperinsulinemia compensatória', 'Destruição autoimune das células beta por linfócitos T, com deficiência absoluta de insulina', 'Mutação em gene único que altera o sensor de glicose da célula beta', 'Destruição do pâncreas exócrino com perda secundária das ilhotas'],
     g: 'B',
     c: 'O diabetes tipo 1 resulta de insulite autoimune, com linfócitos T destruindo seletivamente as células beta em indivíduos geneticamente predispostos (HLA DR3 e DR4). A deficiência absoluta de insulina libera a lipólise e a cetogênese, o que explica o emagrecimento rápido e a tendência à cetoacidose. Os autoanticorpos (anti-GAD, anti-IA2, anti-insulina, anti-ZnT8) são marcadores do processo.',
     x: { A: 'Resistência à insulina com hiperinsulinemia é a base do diabetes tipo 2, que raramente abre com cetose em criança magra.', C: 'Defeito monogênico do sensor de glicose (glicoquinase) caracteriza o MODY, de hiperglicemia leve e sem cetose.', D: 'Perda de ilhotas por doença do pâncreas exócrino é o diabetes pancreatogênico (tipo 3c), ligado a pancreatite crônica ou pancreatectomia.' },
@@ -13,7 +13,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia do tipo 2',
     e: 'Sobre a fisiopatologia do diabetes mellitus tipo 2, assinale a alternativa correta:',
-    o: ['A hiperglicemia surge logo que se instala a resistência à insulina, antes de qualquer alteração da célula beta', 'Há resistência à insulina em músculo, fígado e tecido adiposo associada a falência progressiva da secreção de insulina pela célula beta', 'A produção hepática de glicose está reduzida, e a hiperglicemia é exclusivamente pós-prandial', 'A secreção de glucagon está suprimida, o que reduz a glicemia de jejum'],
+    o: ['A hiperglicemia surge logo que se instala a resistência à insulina, antes de qualquer alteração da célula beta', 'Resistência à insulina em músculo, fígado e tecido adiposo, com falência progressiva da célula beta', 'A produção hepática de glicose está reduzida, e a hiperglicemia é exclusivamente pós-prandial', 'A secreção de glucagon está suprimida, o que reduz a glicemia de jejum'],
     g: 'B',
     c: 'No tipo 2, a resistência à insulina é inicialmente compensada por hiperinsulinemia; a hiperglicemia só aparece quando a célula beta deixa de compensar, e essa falência é progressiva. Somam-se aumento da produção hepática de glicose, hiperglucagonemia, redução do efeito incretínico, maior reabsorção renal de glicose e lipólise aumentada.',
     x: { A: 'Enquanto a célula beta compensa com hiperinsulinemia, a glicemia permanece normal; a hiperglicemia exige disfunção beta associada.', C: 'A produção hepática de glicose está aumentada e é a principal responsável pela hiperglicemia de jejum.', D: 'No tipo 2 há hiperglucagonemia inapropriada, que estimula a gliconeogênese hepática.' },
@@ -21,7 +21,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'LADA',
     e: 'Mulher de 41 anos, IMC 22 kg/m2, sem história familiar de diabetes, recebeu diagnóstico de diabetes tipo 2 há 14 meses. Teve boa resposta inicial a metformina e gliclazida, mas agora apresenta perda de peso e hemoglobina glicada de 10,2%. Tem tireoidite de Hashimoto. O exame mais útil para esclarecer o diagnóstico é:',
-    o: ['Teste genético para mutação do gene HNF1A', 'Dosagem de anticorpo antidescarboxilase do ácido glutâmico (anti-GAD)', 'Tomografia de abdome para avaliar o pâncreas', 'Dosagem de insulina de jejum para cálculo do índice HOMA-IR'],
+    o: ['Teste genético para mutação do gene HNF1A, de rotina', 'Dosagem de anticorpo anti-GAD', 'Tomografia de abdome para avaliar o pâncreas, de rotina', 'Insulina de jejum para cálculo do índice HOMA-IR, de rotina'],
     g: 'B',
     c: 'Adulto magro, com outra doença autoimune, sem necessidade de insulina nos primeiros meses e com falência rápida dos antidiabéticos orais sugere diabetes autoimune latente do adulto (LADA). O diagnóstico é apoiado por autoanticorpo positivo, sendo o anti-GAD o mais sensível nessa faixa etária, e por peptídeo C baixo ou em queda. A conduta é insulinização precoce.',
     x: { A: 'MODY por HNF1A cursa com forte história familiar em gerações sucessivas e não com autoimunidade associada.', C: 'Não há dor abdominal, etilismo ou esteatorreia que sugiram doença pancreática exócrina.', D: 'O HOMA-IR estima resistência à insulina, improvável em paciente magra, e não identifica autoimunidade.' },
@@ -37,7 +37,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'MODY',
     e: 'Gestante de 27 anos, magra, tem glicemia de jejum persistentemente entre 105 e 125 mg/dL desde a adolescência, com hemoglobina glicada de 6,2% e elevação discreta da glicemia após sobrecarga de glicose. A mãe tem quadro idêntico, sem complicações após 30 anos de evolução. O defeito genético mais provável e sua consequência são:',
-    o: ['Mutação do HNF1A, com falência progressiva da célula beta e boa resposta a sulfonilureia', 'Mutação da glicoquinase (GCK), com elevação do limiar glicêmico para secreção de insulina e hiperglicemia leve e estável', 'Mutação do HNF1B, com cistos renais e atrofia pancreática', 'Mutação do DNA mitocondrial, com diabetes e surdez de herança materna'],
+    o: ['Mutação do HNF1A, com falência progressiva da célula beta e boa resposta a sulfonilureia', 'Mutação da glicoquinase (GCK): limiar glicêmico elevado, hiperglicemia leve e estável', 'Mutação do HNF1B, com cistos renais e atrofia pancreática', 'Mutação do DNA mitocondrial, com diabetes e surdez de herança materna'],
     g: 'B',
     c: 'A glicoquinase é o sensor de glicose da célula beta; sua mutação heterozigótica inativadora desloca para cima o limiar de secreção de insulina. O resultado é hiperglicemia de jejum leve, estável ao longo da vida, com baixo risco de complicações crônicas e que em geral dispensa tratamento farmacológico fora da gestação.',
     x: { A: 'O MODY por HNF1A é progressivo, com hiperglicemia mais acentuada e complicações microvasculares, embora muito sensível a sulfonilureias.', C: 'O MODY por HNF1B associa diabetes a cistos renais e malformações urogenitais, ausentes no caso.', D: 'O diabetes mitocondrial cursa com surdez neurossensorial e é progressivo, o que não foi descrito.' },
@@ -45,7 +45,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Diabetes secundário',
     e: 'Homem de 58 anos, etilista, com dor epigástrica recorrente, esteatorreia e calcificações pancreáticas à tomografia, desenvolve diabetes. Em relação a esse tipo de diabetes, é correto afirmar:',
-    o: ['Os autoanticorpos contra a célula beta são habitualmente positivos', 'Há deficiência de insulina e também de glucagon, o que aumenta o risco de hipoglicemia grave durante a insulinoterapia', 'A cetoacidose é a forma de apresentação mais frequente', 'O tratamento de escolha é o agonista do receptor de GLP-1'],
+    o: ['Os autoanticorpos contra a célula beta são habitualmente positivos', 'Deficiência de insulina e de glucagon: maior risco de hipoglicemia grave com insulina', 'A cetoacidose é a forma de apresentação mais frequente nesse tipo de diabetes', 'O tratamento de escolha é o agonista do receptor de GLP-1, que protege o pâncreas'],
     g: 'B',
     c: 'No diabetes pancreatogênico (tipo 3c) a destruição das ilhotas atinge células beta e alfa. A falta de glucagon prejudica a contrarregulação, e a má absorção e o etilismo tornam a ingestão irregular, favorecendo hipoglicemias graves e controle lábil. A insulina costuma ser necessária, e a reposição de enzimas pancreáticas faz parte do tratamento.',
     x: { A: 'O mecanismo é destruição estrutural da glândula, não autoimune; os autoanticorpos são negativos.', C: 'A cetoacidose é incomum, pois persiste alguma secreção de insulina e o glucagon está reduzido.', D: 'Agonistas de GLP-1 são evitados na pancreatite crônica e não corrigem a deficiência de insulina.' },
@@ -53,7 +53,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Diabetes secundário',
     e: 'Mulher de 49 anos, sem diabetes prévio, inicia prednisona 40 mg pela manhã para arterite. Qual é o padrão glicêmico esperado da hiperglicemia induzida por esse esquema?',
-    o: ['Hiperglicemia predominante em jejum, com glicemias normais ao longo do dia', 'Glicemia de jejum normal ou pouco elevada, com hiperglicemia pós-prandial acentuada à tarde e no início da noite', 'Hipoglicemia vespertina seguida de hiperglicemia de rebote na madrugada', 'Hiperglicemia uniforme nas 24 horas, sem relação com as refeições'],
+    o: ['Hiperglicemia predominante em jejum, com glicemias normais ao longo do dia', 'Jejum normal ou pouco elevado, com hiperglicemia pós-prandial acentuada à tarde e à noite', 'Hipoglicemia vespertina seguida de hiperglicemia de rebote na madrugada', 'Hiperglicemia uniforme nas 24 horas, sem relação com as refeições'],
     g: 'B',
     c: 'Glicocorticoides de ação intermediária dados pela manhã aumentam a resistência à insulina e a gliconeogênese com pico de efeito 4 a 8 horas depois, de modo que a hiperglicemia é sobretudo pós-prandial, à tarde e à noite, e a glicemia de jejum pode ser normal. Por isso a glicemia de jejum isolada subestima o problema, e a insulina NPH matinal acompanha bem esse perfil.',
     x: { A: 'O efeito da dose matinal se dissipa durante a madrugada, de modo que o jejum é o período menos afetado.', C: 'O glicocorticoide não causa hipoglicemia; ele eleva a glicemia no período de ação.', D: 'O perfil acompanha a farmacocinética do corticoide e se acentua após as refeições da tarde.' },
@@ -61,7 +61,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Critérios diagnósticos',
     e: 'Homem de 52 anos, assintomático, obeso, realiza exames de rotina: glicemia de jejum de 134 mg/dL. Não tem exames anteriores. A conduta diagnóstica correta é:',
-    o: ['Firmar o diagnóstico de diabetes e iniciar tratamento, pois um valor acima de 126 mg/dL é suficiente', 'Confirmar com novo exame alterado (repetição da glicemia de jejum ou hemoglobina glicada), pois não há sintomas de hiperglicemia', 'Classificar como pré-diabetes e orientar apenas mudança de estilo de vida', 'Solicitar peptídeo C e anti-GAD antes de qualquer conclusão'],
+    o: ['Firmar o diagnóstico de diabetes e iniciar tratamento, pois um valor acima de 126 mg/dL basta', 'Confirmar com novo exame alterado, pois não há sintomas de hiperglicemia', 'Classificar como pré-diabetes e orientar apenas mudança de estilo de vida', 'Pedir peptídeo C e anti-GAD antes de qualquer conclusão diagnóstica'],
     g: 'B',
     c: 'Na ausência de sintomas inequívocos de hiperglicemia, o diagnóstico exige dois exames alterados: o mesmo teste repetido em outra amostra ou dois testes diferentes (jejum igual ou acima de 126 mg/dL, glicada igual ou acima de 6,5%, teste oral de tolerância de 2 horas igual ou acima de 200 mg/dL). A exigência reduz o erro por variabilidade biológica e laboratorial.',
     x: { A: 'Um único exame alterado só basta quando há sintomas clássicos ou crise hiperglicêmica.', C: 'Glicemia de jejum de 126 mg/dL ou mais já está na faixa de diabetes; pré-diabetes vai de 100 a 125 mg/dL.', D: 'Peptídeo C e autoanticorpos servem para classificar o tipo de diabetes, não para diagnosticá-lo.' },
@@ -69,7 +69,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Critérios diagnósticos',
     e: 'Mulher de 36 anos procura a unidade básica com poliúria, polidipsia e perda de 5 kg em 1 mês. Glicemia capilar confirmada em sangue venoso, colhida às 15 horas sem jejum: 286 mg/dL. Sobre o diagnóstico de diabetes, é correto afirmar:',
-    o: ['É necessário repetir a glicemia em jejum de 8 horas para confirmar', 'O diagnóstico está estabelecido, pois glicemia ao acaso igual ou superior a 200 mg/dL com sintomas clássicos dispensa confirmação', 'É obrigatório o teste oral de tolerância à glicose com 75 g', 'O diagnóstico só pode ser firmado se a hemoglobina glicada for igual ou superior a 6,5%'],
+    o: ['É necessário repetir a glicemia em jejum de 8 horas para confirmar o diagnóstico de diabetes', 'Glicemia ao acaso ≥ 200 mg/dL com sintomas clássicos dispensa confirmação', 'É obrigatório o teste oral de tolerância à glicose com 75 g de glicose anidra', 'O diagnóstico só pode ser firmado se a hemoglobina glicada for ≥ 6,5% no mesmo dia'],
     g: 'B',
     c: 'Glicemia plasmática ao acaso de 200 mg/dL ou mais em paciente com sintomas inequívocos de hiperglicemia (poliúria, polidipsia, perda de peso) é critério diagnóstico isolado e não precisa ser repetida. O passo seguinte é avaliar cetose e iniciar o tratamento, não adiar a conduta com novos testes.',
     x: { A: 'A repetição só é exigida no paciente assintomático.', C: 'O teste de sobrecarga é desnecessário e inadequado diante de hiperglicemia franca sintomática.', D: 'A glicada é um dos critérios possíveis, mas não é obrigatória quando outro critério já foi preenchido.' },
@@ -85,7 +85,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Critérios diagnósticos',
     e: 'Mulher de 55 anos, assintomática, apresenta glicemia de jejum de 116 mg/dL e hemoglobina glicada de 6,8%, colhidas no mesmo dia. Hemograma normal. A conduta mais adequada é:',
-    o: ['Considerar diabetes confirmado, pois basta um teste alterado', 'Repetir o teste que veio acima do ponto de corte (hemoglobina glicada); se permanecer igual ou superior a 6,5%, o diagnóstico de diabetes está confirmado', 'Desconsiderar a hemoglobina glicada, pois a glicemia de jejum sempre prevalece', 'Classificar como normal, pois os exames são discordantes'],
+    o: ['Considerar diabetes confirmado, pois basta um teste alterado, qualquer que seja', 'Repetir o teste acima do corte (HbA1c); se mantiver ≥ 6,5%, o diagnóstico está confirmado', 'Desconsiderar a hemoglobina glicada, pois a glicemia de jejum sempre prevalece', 'Classificar como normal, pois os exames são discordantes entre si'],
     g: 'B',
     c: 'Quando dois testes são discordantes, repete-se aquele que está na faixa de diabetes; se o valor se confirmar, o diagnóstico é feito com base nesse teste. A discordância é esperada porque glicemia de jejum, glicada e teste de sobrecarga medem aspectos diferentes do metabolismo e não identificam exatamente as mesmas pessoas.',
     x: { A: 'No assintomático são necessários dois resultados alterados; aqui só um está na faixa de diabetes.', C: 'Nenhum teste tem precedência; o exame alterado é que deve ser repetido.', D: 'A glicemia de jejum de 116 mg/dL já é anormal (pré-diabetes) e a glicada está em faixa de diabetes.' },
@@ -93,7 +93,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Pré-diabetes',
     e: 'Homem de 47 anos, IMC 29 kg/m2, realiza teste oral de tolerância com 75 g de glicose: jejum de 112 mg/dL e 2 horas de 168 mg/dL. Hemoglobina glicada de 6,0%. A classificação correta é:',
-    o: ['Tolerância normal à glicose', 'Pré-diabetes, com glicemia de jejum alterada e tolerância diminuída à glicose', 'Diabetes mellitus tipo 2', 'Pré-diabetes apenas pela hemoglobina glicada, pois o teste de sobrecarga foi normal'],
+    o: ['Tolerância normal à glicose, sem alteração de jejum nem de sobrecarga', 'Pré-diabetes, com glicemia de jejum alterada e tolerância diminuída à glicose', 'Diabetes mellitus tipo 2, pelo valor da glicemia após a sobrecarga', 'Pré-diabetes apenas pela hemoglobina glicada, pois a sobrecarga foi normal'],
     g: 'B',
     c: 'Pré-diabetes é definido por glicemia de jejum de 100 a 125 mg/dL, glicemia de 2 horas no teste oral de 140 a 199 mg/dL ou glicada de 5,7 a 6,4%. O paciente preenche os três critérios. A diretriz brasileira de 2023 passou a aceitar também a glicemia de 1 hora no teste oral (155 a 208 mg/dL para pré-diabetes e 209 mg/dL ou mais para diabetes), mas os pontos de corte tradicionais continuam sendo os mais cobrados.',
     x: { A: 'Normal seria jejum abaixo de 100 mg/dL, 2 horas abaixo de 140 mg/dL e glicada abaixo de 5,7%.', C: 'Diabetes exige jejum de 126 mg/dL ou mais, 2 horas de 200 mg/dL ou mais ou glicada de 6,5% ou mais.', D: 'O valor de 2 horas de 168 mg/dL está alterado, na faixa de tolerância diminuída à glicose.' },
@@ -101,7 +101,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Pré-diabetes',
     e: 'No Diabetes Prevention Program, estudo que acompanhou adultos com tolerância diminuída à glicose, a intervenção que mais reduziu a progressão para diabetes tipo 2 foi:',
-    o: ['Metformina 850 mg duas vezes ao dia', 'Mudança intensiva do estilo de vida, com perda de cerca de 7% do peso e 150 minutos semanais de atividade física', 'Pioglitazona em dose baixa', 'Dieta hipocalórica sem atividade física associada'],
+    o: ['Metformina 850 mg duas vezes ao dia, que reduziu a incidência em ~31%', 'Mudança intensiva do estilo de vida: perda de ~7% do peso e 150 min semanais de exercício', 'Pioglitazona em dose baixa, que reduziu a incidência em ~20%', 'Dieta hipocalórica sem atividade física associada, que foi o braço controle'],
     g: 'B',
     c: 'A intervenção intensiva no estilo de vida reduziu a incidência de diabetes em 58% em 3 anos, contra 31% com metformina. A perda de peso melhora a sensibilidade à insulina e alivia a sobrecarga da célula beta. A metformina fica como adjuvante, com maior benefício em pessoas com menos de 60 anos, IMC de 35 kg/m2 ou mais e mulheres com diabetes gestacional prévio.',
     x: { A: 'A metformina foi eficaz, mas com redução de risco menor (31%) que a da mudança de estilo de vida.', C: 'A pioglitazona não foi um dos braços comparados nesse estudo.', D: 'A intervenção estudada combinava dieta e atividade física regular, e não dieta isolada.' },
@@ -109,7 +109,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Rastreamento',
     e: 'Mulher de 31 anos, assintomática, IMC 32 kg/m2, com síndrome dos ovários policísticos e mãe diabética, pergunta se precisa investigar diabetes. A orientação correta é:',
-    o: ['O rastreamento só deve começar aos 45 anos', 'Rastrear agora, pois adultos com sobrepeso ou obesidade e ao menos um fator de risco adicional devem ser testados em qualquer idade', 'Não rastrear, pois não há sintomas de hiperglicemia', 'Rastrear apenas se engravidar'],
+    o: ['O rastreamento só deve começar aos 45 anos, em todos os casos de sobrepeso', 'Rastrear agora: sobrepeso/obesidade e um fator de risco adicional, em qualquer idade', 'Não rastrear, pois não há sintomas de hiperglicemia no momento da consulta', 'Rastrear apenas se engravidar, durante a realização do pré-natal de rotina'],
     g: 'B',
     c: 'O rastreamento de diabetes tipo 2 em assintomáticos é indicado em qualquer idade quando há excesso de peso associado a fator de risco, como parente de primeiro grau com diabetes, ovários policísticos, hipertensão, dislipidemia, diabetes gestacional prévio ou sedentarismo. Na população sem fatores de risco, a diretriz brasileira indica começar aos 45 anos e a americana aos 35 anos.',
     x: { A: 'A idade de corte vale para quem não tem fatores de risco; com fatores de risco o rastreio é antecipado.', C: 'O objetivo do rastreamento é justamente detectar a doença na longa fase assintomática.', D: 'Ela já tem indicação pelo excesso de peso e pelos fatores de risco, independentemente de gestação.' },
@@ -125,7 +125,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Hemoglobina glicada',
     e: 'Mulher de 29 anos com esferocitose hereditária e diabetes tipo 1 tem glicemias capilares médias em torno de 220 mg/dL, mas hemoglobina glicada de 5,6%. A explicação para a discrepância é:',
-    o: ['Interferência da hiperbilirrubinemia no método de dosagem, elevando a glicada', 'Redução da sobrevida das hemácias, que diminui o tempo de exposição da hemoglobina à glicose e reduz falsamente a glicada', 'Erro do glicosímetro, pois a glicada é sempre mais confiável', 'Aumento da glicação por deficiência de ferro associada'],
+    o: ['Interferência da hiperbilirrubinemia no método de dosagem, elevando a glicada', 'Sobrevida das hemácias reduzida: menos tempo de glicação, glicada falsamente baixa', 'Erro do glicosímetro, pois a glicada é sempre mais confiável que a glicemia', 'Aumento da glicação por deficiência de ferro associada'],
     g: 'B',
     c: 'A glicação da hemoglobina é um processo não enzimático proporcional à glicemia e ao tempo de vida da hemácia. Situações com hemácias mais jovens (hemólise, sangramento, uso de eritropoetina, reposição recente de ferro ou vitamina B12, gestação) reduzem falsamente a glicada. Nesses casos o controle deve ser avaliado por glicemias capilares, monitorização contínua ou frutosamina.',
     x: { A: 'O achado é glicada baixa, não alta, e o mecanismo é o encurtamento da vida da hemácia.', C: 'Diante de condição que altera a sobrevida eritrocitária, é a glicada que perde confiabilidade.', D: 'A deficiência de ferro prolonga a vida das hemácias e eleva falsamente a glicada, o oposto do observado.' },
@@ -157,7 +157,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Metas de controle',
     e: 'Mulher de 84 anos, diabética há 25 anos, com demência moderada, doença renal crônica estágio 4, dependente para atividades básicas e com dois episódios de hipoglicemia grave no último ano, usa insulina NPH e regular. Hemoglobina glicada de 7,1%. A melhor conduta quanto à meta glicêmica é:',
-    o: ['Intensificar a insulina para atingir glicada abaixo de 6,5%', 'Flexibilizar a meta (glicada abaixo de 8,0%), simplificando o esquema para evitar hipoglicemia', 'Manter o esquema atual, pois a glicada está na meta ideal', 'Suspender todo o tratamento, pois não há benefício em tratar a hiperglicemia'],
+    o: ['Intensificar a insulina para atingir glicada abaixo de 6,5%', 'Flexibilizar a meta (glicada < 8,0%) e simplificar o esquema, evitando hipoglicemia', 'Manter o esquema atual, pois a glicada está na meta ideal', 'Suspender todo o tratamento, pois não há benefício em tratar a hiperglicemia'],
     g: 'B',
     c: 'O benefício microvascular do controle estrito leva anos para aparecer, enquanto o dano da hipoglicemia (quedas, arritmias, piora cognitiva, morte) é imediato. Em idosos frágeis, com comorbidades graves e expectativa de vida limitada, a meta é menos rígida, em torno de 8%, e o esquema deve ser simplificado. Nos muito comprometidos, o objetivo passa a ser apenas evitar hipoglicemia e hiperglicemia sintomática.',
     x: { A: 'Intensificar o tratamento aumentaria as hipoglicemias graves sem benefício no horizonte de vida da paciente.', C: 'A glicada de 7,1% foi obtida à custa de hipoglicemias graves e representa excesso de tratamento.', D: 'A hiperglicemia sintomática causa desidratação, infecções e crises hiperglicêmicas e deve ser evitada.' },
@@ -173,7 +173,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Metas de controle',
     e: 'Homem de 61 anos, diabético tipo 2, teve infarto agudo do miocárdio há 1 ano. Pela diretriz brasileira, a estratégia lipídica indicada é:',
-    o: ['Estatina de moderada potência, com meta de LDL abaixo de 100 mg/dL', 'Estatina de alta potência, com meta de LDL abaixo de 50 mg/dL, associando ezetimiba se a meta não for atingida', 'Fibrato como primeira escolha, com meta de triglicerídeos abaixo de 150 mg/dL', 'Estatina apenas se o LDL estiver acima de 130 mg/dL'],
+    o: ['Estatina de moderada potência, com meta de LDL abaixo de 100 mg/dL', 'Estatina de alta potência, meta de LDL < 50 mg/dL; associar ezetimiba se não atingir', 'Fibrato como primeira escolha, com meta de triglicerídeos < 150 mg/dL', 'Estatina apenas se o LDL estiver acima de 130 mg/dL'],
     g: 'B',
     c: 'Diabetes com doença aterosclerótica estabelecida é condição de muito alto risco cardiovascular: indica-se estatina de alta potência independentemente do LDL basal, com meta abaixo de 50 mg/dL pela diretriz brasileira (a americana usa abaixo de 55 mg/dL), acrescentando ezetimiba e depois inibidor de PCSK9 se necessário. O benefício é proporcional à redução absoluta do LDL.',
     x: { A: 'Meta de 100 mg/dL e potência moderada são insuficientes na prevenção secundária.', C: 'O alvo primário é o LDL; fibrato fica para hipertrigliceridemia grave, pelo risco de pancreatite.', D: 'Na prevenção secundária a estatina é indicada qualquer que seja o LDL inicial.' },
@@ -197,7 +197,7 @@ export const DM_1: QuestaoCompacta[] = [
   {
     s: 'Diabetes tipo 1',
     e: 'Menino de 10 anos teve diagnóstico de diabetes tipo 1 em cetoacidose há 6 semanas. Desde então a necessidade de insulina caiu progressivamente e hoje ele mantém glicemias normais com 0,2 U/kg/dia, com hipoglicemias frequentes. A explicação e a conduta corretas são:',
-    o: ['Erro diagnóstico; trata-se de diabetes tipo 2 e a insulina deve ser trocada por metformina', 'Fase de remissão parcial (lua de mel), por recuperação transitória da secreção das células beta residuais; reduzir a dose sem suspender a insulina', 'Cura do diabetes; a insulina deve ser suspensa', 'Insuficiência adrenal associada; iniciar hidrocortisona empiricamente'],
+    o: ['Erro diagnóstico: é DM2 e a insulina deve ser trocada por metformina', 'Fase de remissão parcial (lua de mel): reduzir a dose, sem suspender a insulina', 'Cura do diabetes; a insulina deve ser suspensa de imediato', 'Insuficiência adrenal associada; iniciar hidrocortisona empiricamente'],
     g: 'B',
     c: 'Após a correção da glicotoxicidade, as células beta remanescentes recuperam parte da função e a necessidade de insulina cai, em geral para menos de 0,5 U/kg/dia. A fase dura semanas a meses e termina com a progressão da destruição autoimune. A dose deve ser reduzida para evitar hipoglicemia, mas a insulina é mantida.',
     x: { A: 'Abertura em cetoacidose em criança, com queda transitória da dose, é típica do tipo 1.', C: 'A remissão é parcial e temporária; a destruição autoimune continua.', D: 'Doença de Addison reduz a necessidade de insulina, mas o contexto de diagnóstico recente aponta para lua de mel.' },

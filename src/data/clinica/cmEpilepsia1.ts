@@ -5,7 +5,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Conceito de crise epiléptica',
     e: 'A crise epiléptica é definida, segundo a ILAE, como:',
-    o: ['Perda transitória da consciência por hipoperfusão cerebral global', 'Ocorrência transitória de sinais e/ou sintomas decorrentes de atividade neuronal anormal, excessiva ou síncrona no cérebro', 'Doença cerebral caracterizada por predisposição persistente a gerar crises', 'Qualquer movimento involuntário acompanhado de alteração da consciência'],
+    o: ['Perda transitória da consciência por hipoperfusão cerebral global', 'Sinais ou sintomas transitórios por atividade neuronal anormal, excessiva ou síncrona no cérebro', 'Doença cerebral com predisposição persistente a gerar crises epilépticas', 'Qualquer movimento involuntário acompanhado de alteração da consciência'],
     g: 'B',
     c: 'A crise epiléptica é um evento: a manifestação clínica transitória de uma descarga neuronal anormal, excessiva ou hipersíncrona. Ela é diferente de epilepsia, que é a doença, definida pela predisposição duradoura do cérebro a gerar crises. Uma pessoa pode ter uma crise sem ter epilepsia.',
     x: { A: 'Hipoperfusão cerebral global transitória é a definição de síncope, não de crise epiléptica.', C: 'Predisposição persistente a gerar crises é a definição de epilepsia, a doença, e não do evento.', D: 'Crises podem ser sensitivas, autonômicas ou de ausência, sem movimento involuntário algum.' },
@@ -21,7 +21,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Crise única com alto risco de recorrência',
     e: 'Homem de 58 anos, com sequela de acidente vascular cerebral isquêmico em território de artéria cerebral média há 8 meses, apresenta a primeira crise focal motora com evolução para tônico-clônica bilateral. Exames laboratoriais normais; tomografia mostra apenas a área de encefalomalácia antiga. Sobre o diagnóstico e a conduta, é correto afirmar:',
-    o: ['Não se pode falar em epilepsia, pois houve apenas uma crise, e não se deve tratar', 'Trata-se de epilepsia, pois o risco de recorrência é alto pela lesão estrutural remota, e está indicado iniciar fármaco anticrise', 'Trata-se de crise sintomática aguda, devendo-se tratar apenas por uma semana', 'Deve-se aguardar a terceira crise para iniciar o tratamento'],
+    o: ['Não é epilepsia, pois houve apenas uma crise, e não se deve tratar', 'Epilepsia, pois o risco de recorrência é alto pela lesão remota; iniciar fármaco anticrise', 'Crise sintomática aguda, devendo-se tratar apenas por uma semana', 'Aguardar a terceira crise para iniciar o tratamento medicamentoso'],
     g: 'B',
     c: 'Uma crise não provocada em paciente com lesão estrutural remota, como acidente vascular cerebral antigo, tem risco de recorrência superior a 60% em 10 anos, o que já satisfaz a definição operacional de epilepsia. Por isso o tratamento pode ser iniciado após a primeira crise. A lesão cicatricial funciona como foco epileptogênico permanente.',
     x: { A: 'A definição atual permite o diagnóstico com crise única se o risco de recorrência for de 60% ou mais.', C: 'Crise sintomática aguda ocorre em até cerca de 7 dias do insulto, e não 8 meses depois.', D: 'Não há necessidade de aguardar novas crises quando o risco de recorrência já é elevado.' },
@@ -37,7 +37,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Classificação ILAE 2017',
     e: 'Na classificação das crises epilépticas da ILAE de 2017, o primeiro critério utilizado para classificar uma crise é:',
-    o: ['A etiologia da crise', 'O tipo de início: focal, generalizado ou desconhecido', 'A duração da crise', 'A presença de fenômenos motores'],
+    o: ['A etiologia da crise, que é definida após a investigação', 'O tipo de início: focal, generalizado ou desconhecido', 'A duração da crise, medida em minutos pelo observador', 'A presença de fenômenos motores, observada durante a crise'],
     g: 'B',
     c: 'A classificação de 2017 parte do início da crise: focal (origem em redes limitadas a um hemisfério), generalizado (envolvimento rápido de redes bilaterais) ou desconhecido. Nas crises focais, o passo seguinte é definir a percepção (perceptiva ou disperceptiva) e, depois, se o início é motor ou não motor.',
     x: { A: 'A etiologia é um eixo paralelo da classificação das epilepsias, e não das crises.', C: 'A duração não é critério de classificação do tipo de crise na proposta da ILAE.', D: 'A divisão em motor ou não motor é um nível posterior ao tipo de início.' },
@@ -53,7 +53,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Nomenclatura atual',
     e: 'O termo antigo "crise parcial com generalização secundária" corresponde, na nomenclatura da ILAE de 2017, a:',
-    o: ['Crise generalizada tônico-clônica', 'Crise focal evoluindo para tônico-clônica bilateral', 'Crise focal perceptiva', 'Crise de início desconhecido'],
+    o: ['Crise generalizada tônico-clônica, de início bilateral', 'Crise focal evoluindo para tônico-clônica bilateral', 'Crise focal perceptiva, sem comprometimento da consciência', 'Crise de início desconhecido, sem classificação definida'],
     g: 'B',
     c: 'A classificação de 2017 reserva o termo generalizada para crises que já começam em redes bilaterais. Quando a crise começa em um foco e se propaga para os dois hemisférios, a denominação é focal evoluindo para tônico-clônica bilateral. A distinção importa porque o início focal direciona a investigação de lesão estrutural e a escolha do fármaco.',
     x: { A: 'Crise generalizada tônico-clônica é aquela com início bilateral desde o primeiro momento.', C: 'Crise focal perceptiva equivale à antiga crise parcial simples, sem propagação bilateral.', D: 'Início desconhecido é usado quando não há dados para definir se o início foi focal ou generalizado.' },
@@ -61,7 +61,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Crise focal perceptiva',
     e: 'Homem de 40 anos refere episódios de abalos clônicos que começam no polegar direito, progridem para a mão, o antebraço e a hemiface direita em cerca de 40 segundos, durante os quais permanece consciente e conversa normalmente. O fenômeno descrito e a localização mais provável do foco são:',
-    o: ['Crise de ausência atípica; córtex frontal bilateral', 'Crise focal perceptiva motora com marcha jacksoniana; córtex motor primário esquerdo', 'Crise focal disperceptiva; lobo temporal mesial direito', 'Crise mioclônica; tálamo'],
+    o: ['Crise de ausência atípica; córtex frontal bilateral, com perda da consciência', 'Crise focal perceptiva motora, marcha jacksoniana; córtex motor primário esquerdo', 'Crise focal disperceptiva; lobo temporal mesial direito, com automatismos', 'Crise mioclônica generalizada; tálamo e córtex bilaterais, com abalos bilaterais'],
     g: 'B',
     c: 'A progressão ordenada dos abalos por segmentos corporais contíguos é a marcha jacksoniana, que reflete a propagação da descarga ao longo do homúnculo motor no giro pré-central contralateral. Como a percepção está preservada, a crise é focal perceptiva motora. O achado obriga a investigação de lesão estrutural na região rolândica esquerda.',
     x: { A: 'Ausência atípica cursa com comprometimento da consciência e não com abalos em marcha.', C: 'O paciente está consciente e os sintomas são à direita, o que indica hemisfério esquerdo.', D: 'Mioclonias são abalos isolados e muito breves, sem progressão somatotópica.' },
@@ -85,7 +85,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Crise mioclônica',
     e: 'Abalos musculares súbitos, muito breves, semelhantes a choques, bilaterais, predominando em membros superiores, sem perda da consciência e que fazem o paciente derrubar objetos pela manhã caracterizam a crise:',
-    o: ['Atônica', 'Mioclônica', 'Tônica', 'Clônica'],
+    o: ['Atônica, com perda súbita do tônus muscular e queda', 'Mioclônica, com abalos súbitos e muito breves, tipo choque', 'Tônica, com rigidez sustentada e duração de segundos', 'Clônica, com abalos rítmicos e repetitivos mais prolongados'],
     g: 'B',
     c: 'A crise mioclônica é uma contração muscular súbita e brevíssima (menos de 100 milissegundos), em geral sem comprometimento da consciência. A predominância matinal em membros superiores é típica da epilepsia mioclônica juvenil. No eletroencefalograma corresponde a descargas de poliponta-onda generalizadas.',
     x: { A: 'A crise atônica é a perda súbita do tônus, que provoca queda, e não um abalo.', C: 'A crise tônica é uma contração sustentada por segundos, não um choque breve.', D: 'A crise clônica consiste em abalos rítmicos e repetidos por período mais longo.' },
@@ -101,7 +101,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Crise tônico-clônica',
     e: 'Sobre a crise tônico-clônica generalizada, assinale a alternativa correta quanto à sequência habitual de eventos:',
-    o: ['Fase clônica, seguida de fase tônica e recuperação imediata da consciência', 'Fase tônica com rigidez e apneia, seguida de fase clônica e de período pós-ictal com sonolência e confusão', 'Fase atônica prolongada, seguida de automatismos e de amnésia', 'Fase de ausência, seguida de mioclonias e recuperação imediata'],
+    o: ['Fase clônica, seguida de fase tônica e recuperação imediata da consciência', 'Fase tônica com rigidez e apneia, fase clônica e pós-ictal com sonolência e confusão', 'Fase atônica prolongada, seguida de automatismos e de amnésia do evento', 'Fase de ausência, seguida de mioclonias e recuperação imediata da consciência'],
     g: 'B',
     c: 'A crise começa com perda da consciência e contração tônica generalizada (podendo haver grito, apneia e cianose), que dura 10 a 20 segundos, seguida de abalos clônicos rítmicos que vão se espaçando. Depois vem o período pós-ictal, com respiração ruidosa, sonolência, confusão, cefaleia e dor muscular. Mordedura lateral da língua e liberação esfincteriana são frequentes.',
     x: { A: 'A fase tônica precede a clônica, e a recuperação não é imediata.', C: 'Não há fase atônica prolongada nem automatismos na crise tônico-clônica típica.', D: 'A crise tônico-clônica não começa com ausência nem tem recuperação imediata.' },
@@ -125,7 +125,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Síncope x crise epiléptica',
     e: 'Adolescente de 16 anos, durante coleta de sangue em pé, refere escurecimento visual, náusea e sudorese, fica pálida e cai ao solo, apresentando alguns abalos breves dos membros por 5 segundos. Recupera a consciência em menos de 1 minuto, orientada, sem mordedura de língua. O diagnóstico mais provável é:',
-    o: ['Crise tônico-clônica generalizada', 'Síncope vasovagal com abalos mioclônicos (síncope convulsiva)', 'Crise focal disperceptiva', 'Epilepsia mioclônica juvenil'],
+    o: ['Crise tônico-clônica generalizada, com perda de consciência prolongada', 'Síncope vasovagal com abalos mioclônicos (síncope convulsiva)', 'Crise focal disperceptiva, com automatismos orais e amnésia', 'Epilepsia mioclônica juvenil, com abalos ao despertar'],
     g: 'B',
     c: 'O desencadeante típico (punção venosa, ortostase), os pródromos autonômicos, a palidez e a recuperação rápida e lúcida indicam síncope vasovagal. Abalos breves e assíncronos podem acompanhar a síncope pela hipóxia cerebral transitória e não significam epilepsia. O dado que melhor separa os dois é o estado após o evento: na crise há confusão pós-ictal prolongada.',
     x: { A: 'Faltam fase tônica, cianose, mordedura lateral de língua e confusão pós-ictal.', C: 'Não há automatismos nem período de confusão, e existe desencadeante postural claro.', D: 'Mioclonias da epilepsia mioclônica juvenil são matinais, sem perda de consciência nem pródromo.' },
@@ -133,7 +133,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Síncope x crise epiléptica',
     e: 'Entre os achados abaixo, o que mais fortemente sugere crise epiléptica, e não síncope, como causa de uma perda transitória da consciência é:',
-    o: ['Palidez e sudorese antes do evento', 'Mordedura da borda lateral da língua e confusão prolongada após o evento', 'Ocorrência após longo período em pé em ambiente quente', 'Duração da inconsciência inferior a 20 segundos'],
+    o: ['Palidez e sudorese antes do evento, com sensação de desmaio', 'Mordedura da borda lateral da língua e confusão prolongada após o evento', 'Ocorrência após longo período em pé em ambiente quente', 'Duração da inconsciência inferior a 20 segundos, com recuperação imediata'],
     g: 'B',
     c: 'A mordedura lateral da língua tem alta especificidade para crise tônico-clônica, e a confusão pós-ictal prolongada reflete a disfunção cortical que segue a descarga epiléptica. Na síncope a perfusão cerebral se restabelece ao cair, e a recuperação é rápida e completa. Incontinência urinária pode ocorrer nas duas situações e discrimina mal.',
     x: { A: 'Palidez e sudorese são pródromos autonômicos típicos da síncope reflexa.', C: 'Ortostase prolongada e calor são desencadeantes clássicos de síncope vasovagal.', D: 'Inconsciência muito breve com recuperação imediata favorece síncope.' },
@@ -141,7 +141,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Crise não epiléptica psicogênica',
     e: 'Mulher de 26 anos é internada por episódios diários de movimentos assíncronos dos quatro membros, com balanço lateral da cabeça, movimentos pélvicos, olhos fortemente fechados com resistência à abertura e duração de 15 a 20 minutos, com intensidade flutuante. Já usou três fármacos anticrise sem melhora. O exame que confirma o diagnóstico mais provável é:',
-    o: ['Ressonância magnética de encéfalo com protocolo para epilepsia', 'Videoeletroencefalograma com registro do evento habitual sem correlato eletrográfico', 'Dosagem de prolactina sérica 6 horas após o evento', 'Punção lombar com pesquisa de bandas oligoclonais'],
+    o: ['RM de encéfalo com protocolo para epilepsia, de rotina', 'Videoeletroencefalograma com o evento habitual sem correlato eletrográfico', 'Prolactina sérica 6 horas após o evento, de rotina', 'Punção lombar com pesquisa de bandas oligoclonais, de rotina'],
     g: 'B',
     c: 'O quadro sugere crise não epiléptica psicogênica (crise funcional ou dissociativa): olhos fechados, movimentos assíncronos e flutuantes, impulsão pélvica, duração longa e refratariedade. O padrão-ouro é o videoeletroencefalograma, que registra o evento típico sem atividade epileptiforme ictal. O diagnóstico correto evita iatrogenia com fármacos e intubações desnecessárias.',
     x: { A: 'A ressonância normal não exclui epilepsia nem confirma evento psicogênico.', C: 'A prolactina só tem valor se colhida 10 a 20 minutos após o evento, e não é confirmatória.', D: 'A punção lombar não tem papel no diagnóstico de crises funcionais.' },
@@ -157,7 +157,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Investigação da primeira crise',
     e: 'Mulher de 23 anos, previamente hígida, é atendida após a primeira crise tônico-clônica generalizada, não provocada, com recuperação completa. Exame neurológico normal. Além de glicemia, eletrólitos e eletrocardiograma, a investigação recomendada inclui:',
-    o: ['Apenas observação clínica, pois crise única não requer investigação', 'Eletroencefalograma e neuroimagem, preferencialmente ressonância magnética de encéfalo', 'Punção lombar em todos os casos', 'Videoeletroencefalograma prolongado e PET cerebral'],
+    o: ['Apenas observação clínica, pois crise única não requer investigação', 'EEG e neuroimagem, de preferência ressonância magnética de encéfalo', 'Punção lombar em todos os casos, após a primeira crise', 'Videoeletroencefalograma prolongado e PET cerebral, de rotina'],
     g: 'B',
     c: 'Toda primeira crise não provocada em adulto deve ser investigada com eletroencefalograma, que ajuda a classificar a crise e estimar o risco de recorrência, e com neuroimagem, sendo a ressonância magnética mais sensível para lesões epileptogênicas. O eletrocardiograma afasta causas cardíacas de perda de consciência, como QT longo, e em mulheres em idade fértil cabe teste de gravidez.',
     x: { A: 'A primeira crise exige investigação para identificar causa e estimar recorrência.', C: 'A punção lombar é reservada à suspeita de infecção, hemorragia ou imunossupressão.', D: 'Videoeletroencefalograma e PET são exames de avaliação de epilepsia refratária.' },
@@ -165,7 +165,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Eletroencefalograma',
     e: 'Sobre o papel do eletroencefalograma (EEG) de rotina no diagnóstico de epilepsia, é correto afirmar:',
-    o: ['Um EEG interictal normal exclui o diagnóstico de epilepsia', 'O EEG interictal pode ser normal em parcela relevante dos pacientes com epilepsia, e o diagnóstico é essencialmente clínico', 'Descargas epileptiformes no EEG, mesmo sem crises, confirmam epilepsia e indicam tratamento', 'O EEG só tem utilidade se realizado durante a crise'],
+    o: ['Um EEG interictal normal exclui o diagnóstico de epilepsia', 'O EEG interictal pode ser normal em muitos pacientes; o diagnóstico é essencialmente clínico', 'Descargas epileptiformes no EEG, mesmo sem crises, confirmam epilepsia e indicam tratamento', 'O EEG só tem utilidade se realizado durante a crise epiléptica'],
     g: 'B',
     c: 'O primeiro EEG de rotina mostra atividade epileptiforme em menos da metade dos pacientes com epilepsia; a sensibilidade aumenta com exames repetidos, privação de sono e registro em sono. Por isso o exame normal não afasta o diagnóstico, que se apoia na história. Por outro lado, uma pequena parcela de pessoas sem epilepsia tem alterações epileptiformes, e não se trata o exame.',
     x: { A: 'A sensibilidade do EEG interictal é limitada, e o exame normal não exclui epilepsia.', C: 'Não se trata alteração de EEG isolada em pessoa que nunca teve crises.', D: 'O EEG interictal é útil para classificar a síndrome e estimar o risco de recorrência.' },
@@ -181,7 +181,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Início do tratamento',
     e: 'Homem de 25 anos teve a primeira crise tônico-clônica generalizada, não provocada, após noite de sono normal. Exame neurológico, ressonância magnética e eletroencefalograma normais. Sobre o início de fármaco anticrise, a conduta mais adequada é:',
-    o: ['Iniciar obrigatoriamente, pois toda primeira crise deve ser tratada', 'Em geral não iniciar, orientando sobre o risco de recorrência e os cuidados, e reavaliar se houver nova crise', 'Iniciar dois fármacos em associação pelo risco de estado de mal', 'Iniciar fenobarbital por 3 meses e suspender'],
+    o: ['Iniciar obrigatoriamente, pois toda primeira crise deve ser tratada', 'Em geral não iniciar; orientar sobre recorrência e cuidados e reavaliar se houver nova crise', 'Iniciar dois fármacos em associação, pelo risco de estado de mal epiléptico', 'Iniciar fenobarbital por 3 meses e depois suspender o tratamento'],
     g: 'B',
     c: 'Após uma primeira crise não provocada com exame, imagem e eletroencefalograma normais, o risco de recorrência é mais baixo, e o tratamento imediato reduz recorrências a curto prazo, mas não muda o prognóstico de remissão a longo prazo. Por isso em geral se opta por observar. O tratamento é considerado desde a primeira crise quando há lesão na imagem, eletroencefalograma epileptiforme, exame neurológico anormal ou crise durante o sono.',
     x: { A: 'Tratar toda primeira crise expõe a efeitos adversos sem benefício no prognóstico de longo prazo.', C: 'O tratamento, quando indicado, começa em monoterapia e em dose baixa.', D: 'Curso curto de fenobarbital não tem fundamento na primeira crise não provocada.' },
@@ -189,7 +189,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Fatores de risco de recorrência',
     e: 'Após uma primeira crise não provocada, são fatores que aumentam o risco de recorrência e favorecem o início de tratamento, EXCETO:',
-    o: ['Eletroencefalograma com atividade epileptiforme', 'Lesão estrutural na neuroimagem', 'Crise ocorrida durante o sono', 'Crise ocorrida após privação de sono associada a ingestão alcoólica'],
+    o: ['EEG com atividade epileptiforme, que aumenta o risco de recorrência', 'Lesão estrutural na neuroimagem, que aumenta o risco de recorrência', 'Crise ocorrida durante o sono, que aumenta o risco de recorrência', 'Crise após privação de sono e ingestão alcoólica'],
     g: 'D',
     c: 'Os principais preditores de recorrência são eletroencefalograma epileptiforme, lesão cerebral prévia ou alteração na imagem, exame neurológico anormal e crise noturna. Quando há um desencadeante identificável e evitável, como privação de sono e álcool, a crise tende a ser considerada provocada ou facilitada, e a conduta prioriza a correção do fator.',
     x: { A: 'O eletroencefalograma epileptiforme praticamente dobra o risco de recorrência.', B: 'Lesão estrutural indica etiologia remota sintomática, com alto risco de novas crises.', C: 'A crise durante o sono é fator reconhecido de maior recorrência.' },
@@ -197,7 +197,7 @@ export const EPILEPSIA_1: QuestaoCompacta[] = [
   {
     s: 'Princípios do tratamento',
     e: 'Paciente com epilepsia recém-diagnosticada vai iniciar tratamento medicamentoso. O princípio correto é:',
-    o: ['Iniciar com politerapia para obter controle mais rápido', 'Iniciar em monoterapia, com fármaco escolhido pelo tipo de crise e perfil do paciente, em dose baixa e com aumento gradual', 'Dosar nível sérico semanalmente para ajustar a dose em todos os pacientes', 'Trocar de fármaco se o eletroencefalograma de controle ainda mostrar descargas'],
+    o: ['Iniciar com politerapia para obter controle mais rápido das crises', 'Monoterapia escolhida pelo tipo de crise e perfil do paciente, dose baixa e aumento gradual', 'Dosar o nível sérico semanalmente para ajustar a dose em todos os pacientes', 'Trocar de fármaco se o EEG de controle ainda mostrar descargas epileptiformes'],
     g: 'B',
     c: 'A monoterapia controla as crises em cerca de metade dos pacientes com o primeiro fármaco, com menos efeitos adversos e interações e melhor adesão. A escolha depende do tipo de crise ou síndrome, idade, sexo, comorbidades e outros medicamentos. O alvo do tratamento é a ausência de crises com tolerabilidade, e não a normalização do eletroencefalograma ou um nível sérico específico.',
     x: { A: 'A politerapia é reservada à falha de monoterapias adequadas, por somar efeitos adversos.', C: 'O nível sérico é útil em situações específicas, como suspeita de má adesão, toxicidade ou gestação.', D: 'O tratamento é guiado pela resposta clínica, e não pelo eletroencefalograma.' },

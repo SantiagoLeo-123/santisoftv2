@@ -5,7 +5,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia',
     e: 'O infarto agudo do miocárdio com supradesnivelamento do segmento ST resulta, na maioria dos casos, de:',
-    o: ['Trombo suboclusivo rico em plaquetas com isquemia apenas subendocárdica', 'Ruptura de placa vulnerável com trombo oclusivo rico em fibrina, causando isquemia transmural', 'Estenose fixa de 70% com aumento da demanda', 'Vasculite coronariana'],
+    o: ['Trombo suboclusivo rico em plaquetas, com isquemia subendocárdica', 'Ruptura de placa vulnerável, trombo oclusivo rico em fibrina e isquemia transmural', 'Estenose fixa de 70% com aumento da demanda de oxigênio', 'Vasculite coronariana, com inflamação da parede arterial'],
     g: 'B',
     c: 'A oclusão total e persistente de uma coronária epicárdica por trombo rico em fibrina (vermelho) produz isquemia transmural, traduzida pelo supra de ST. A necrose progride do subendocárdio para o subepicárdio em horas, o que fundamenta a urgência da reperfusão e o uso de fibrinolíticos, que dissolvem a fibrina.',
     x: { A: 'O trombo suboclusivo plaquetário é o substrato da síndrome sem supra de ST.', C: 'A estenose fixa com aumento de demanda explica a angina estável.', D: 'A vasculite é causa rara de infarto.' },
@@ -29,7 +29,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Artéria culpada',
     e: 'Mulher de 58 anos com dor precordial há 90 minutos. Eletrocardiograma: supradesnivelamento de ST de V1 a V6, DI e aVL. A parede acometida e a artéria culpada mais provável são:',
-    o: ['Inferior; coronária direita', 'Anterior extensa; descendente anterior proximal', 'Posterior; circunflexa distal', 'Lateral alta isolada; ramo marginal'],
+    o: ['Inferior, com oclusão da coronária direita proximal', 'Anterior extensa, por oclusão da descendente anterior proximal', 'Posterior, com oclusão da circunflexa distal', 'Lateral alta isolada, com oclusão de um ramo marginal'],
     g: 'B',
     c: 'Supra em todas as precordiais associado a DI e aVL define infarto anterior extenso. O acometimento de V1 (septo) e de DI e aVL (lateral alta, território da primeira diagonal) indica oclusão proximal da descendente anterior, antes da primeira septal e da primeira diagonal, com grande massa miocárdica em risco.',
     x: { A: 'O infarto inferior tem supra em DII, DIII e aVF.', C: 'O infarto posterior mostra infradesnivelamento de ST com R alta em V1 a V3.', D: 'O infarto lateral alto isolado poupa as derivações precordiais direitas e médias.' },
@@ -37,7 +37,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Artéria culpada',
     e: 'Homem de 64 anos com dor torácica há 3 horas. Eletrocardiograma: supradesnivelamento de ST apenas em DI e aVL, com infradesnivelamento em DIII e aVF. A parede acometida e os vasos habitualmente envolvidos são:',
-    o: ['Parede inferior; descendente posterior', 'Parede lateral alta; artéria circunflexa ou ramo diagonal', 'Septo; ramos septais da coronária direita', 'Ventrículo direito; ramo marginal agudo'],
+    o: ['Parede inferior; descendente posterior', 'Parede lateral alta; circunflexa ou ramo diagonal', 'Septo; ramos septais da coronária direita', 'Ventrículo direito; ramo marginal agudo'],
     g: 'B',
     c: 'DI e aVL exploram a parede lateral alta do ventrículo esquerdo, irrigada por ramos marginais da circunflexa ou pelo primeiro ramo diagonal da descendente anterior. O infradesnivelamento em DIII e aVF é imagem em espelho, pois essas derivações são opostas a aVL.',
     x: { A: 'A parede inferior manifesta supra em DII, DIII e aVF.', C: 'O septo é explorado por V1 e V2 e irrigado por ramos septais da descendente anterior.', D: 'O ventrículo direito é explorado por V3R e V4R.' },
@@ -45,7 +45,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Infarto posterior',
     e: 'Mulher de 66 anos com dor precordial típica há 2 horas. Eletrocardiograma: infradesnivelamento horizontal de ST de 3 mm em V1 a V3, com ondas R altas e ondas T positivas nessas derivações, sem supra nas 12 derivações. A conduta imediata mais adequada é:',
-    o: ['Tratar como infarto sem supra e aguardar a troponina', 'Registrar as derivações V7, V8 e V9 para pesquisar infarto de parede posterior', 'Solicitar ecocardiograma de estresse', 'Administrar anti-inflamatório por suspeita de pericardite'],
+    o: ['Tratar como infarto sem supra e aguardar a troponina', 'Registrar V7, V8 e V9 para pesquisar infarto de parede posterior', 'Solicitar ecocardiograma de estresse, antes da conduta', 'Dar anti-inflamatório, por suspeita de pericardite'],
     g: 'B',
     c: 'A parede posterior (lateral basal) não é vista diretamente no eletrocardiograma padrão; V1 a V3 mostram a imagem em espelho da lesão: infradesnivelamento de ST, R alta (equivalente à onda Q) e T positiva. Supra de 0,5 mm ou mais em V7 a V9 confirma o infarto com supra, em geral por oclusão da circunflexa, com indicação de reperfusão imediata.',
     x: { A: 'Trata-se de equivalente de infarto com supra; aguardar troponina atrasa a reperfusão.', C: 'Exame de estresse é contraindicado em síndrome coronariana aguda em curso.', D: 'A pericardite cursa com supra difuso côncavo, não com esse padrão.' },
@@ -53,7 +53,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Infarto de ventrículo direito',
     e: 'Homem de 63 anos com infarto de parede inferior apresenta pressão arterial de 84 x 50 mmHg, turgência jugular que aumenta na inspiração e ausculta pulmonar limpa. O exame que deve ser feito à beira do leito para confirmar a principal hipótese é:',
-    o: ['Tomografia de tórax', 'Eletrocardiograma com derivações precordiais direitas (V3R e V4R)', 'Dosagem de dímero-D', 'Radiografia de tórax em perfil'],
+    o: ['Tomografia de tórax, para pesquisar dissecção', 'ECG com derivações precordiais direitas (V3R e V4R)', 'Dosagem de dímero-D, para pesquisar TEP', 'Radiografia de tórax em perfil, para pesquisar edema'],
     g: 'B',
     c: 'A tríade hipotensão, turgência jugular e pulmões limpos em infarto inferior sugere infarto de ventrículo direito, que ocorre por oclusão proximal da coronária direita. O supra de ST de 1 mm ou mais em V4R é o sinal eletrocardiográfico mais sensível e específico, e pode desaparecer em poucas horas, por isso deve ser registrado logo na admissão de todo infarto inferior.',
     x: { A: 'A tomografia não confirma o diagnóstico e atrasa a reperfusão.', C: 'O dímero-D é inespecífico e não avalia o ventrículo direito isquêmico.', D: 'A radiografia não diagnostica infarto de ventrículo direito.' },
@@ -61,7 +61,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Infarto de ventrículo direito',
     e: 'Mulher de 70 anos com infarto inferior e supra de ST em V4R recebeu nitrato sublingual e evoluiu com pressão arterial de 70 x 40 mmHg, sem congestão pulmonar. Enquanto se providencia a reperfusão, a medida inicial mais adequada é:',
-    o: ['Furosemida venosa', 'Expansão volêmica com solução cristaloide e suspensão de vasodilatadores', 'Nitroglicerina venosa em infusão contínua', 'Morfina venosa em doses repetidas'],
+    o: ['Furosemida venosa, para reduzir a pré-carga do ventrículo direito', 'Expansão com cristaloide e suspensão dos vasodilatadores', 'Nitroglicerina venosa em infusão contínua, para aliviar a dor isquêmica', 'Morfina venosa em doses repetidas, para aliviar a dor isquêmica'],
     g: 'B',
     c: 'O ventrículo direito isquêmico perde contratilidade e passa a depender da pré-carga para manter o enchimento do ventrículo esquerdo. Nitratos, diuréticos e morfina reduzem o retorno venoso e precipitam hipotensão. A conduta é reposição de volume cautelosa; se não houver resposta, inotrópico, além de manter o sincronismo atrioventricular e reperfundir precocemente.',
     x: { A: 'O diurético reduz ainda mais a pré-carga e agrava o choque.', C: 'O nitrato foi o causador da hipotensão e é contraindicado.', D: 'A morfina é venodilatadora e piora a hipotensão.' },
@@ -69,7 +69,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Bloqueio de ramo esquerdo',
     e: 'No paciente com dor torácica e bloqueio de ramo esquerdo, os critérios de Sgarbossa auxiliam no diagnóstico de infarto agudo. O critério de maior peso é:',
-    o: ['Infradesnivelamento de ST discordante do QRS em V5 e V6', 'Supradesnivelamento de ST de 1 mm ou mais concordante com o QRS', 'Duração do QRS superior a 160 ms', 'Onda T negativa em DI e aVL'],
+    o: ['Infra de ST discordante do QRS em V5 e V6', 'Supra de ST ≥ 1 mm concordante com o QRS', 'Duração do QRS superior a 160 ms', 'Onda T negativa em DI e aVL'],
     g: 'B',
     c: 'No bloqueio de ramo esquerdo, o segmento ST normalmente se desvia em direção oposta ao QRS (discordância). A perda dessa regra indica lesão aguda: supra concordante de 1 mm ou mais (5 pontos), infradesnivelamento de 1 mm ou mais em V1 a V3 (3 pontos) e supra discordante de 5 mm ou mais (2 pontos). Três pontos ou mais têm alta especificidade para infarto.',
     x: { A: 'A discordância do ST em relação ao QRS é o padrão esperado no bloqueio de ramo esquerdo.', C: 'A duração do QRS não faz parte dos critérios.', D: 'Onda T negativa em DI e aVL é alteração secundária habitual do bloqueio.' },
@@ -77,7 +77,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Reperfusão',
     e: 'Homem de 54 anos procura hospital do interior com dor precordial há 2 horas. Eletrocardiograma: supra de ST de V1 a V4. Não há contraindicações a fibrinolítico. O centro com hemodinâmica mais próximo fica a 4 horas de viagem. A melhor estratégia de reperfusão é:',
-    o: ['Transferir para angioplastia primária, pois é sempre superior ao fibrinolítico', 'Administrar fibrinolítico imediatamente e, em seguida, transferir para centro com hemodinâmica', 'Aguardar a troponina e decidir conforme o resultado', 'Manter apenas anticoagulação e antiagregação até o dia seguinte'],
+    o: ['Transferir para angioplastia primária, que é sempre superior ao fibrinolítico', 'Fibrinolítico imediato e, depois, transferir para centro com hemodinâmica', 'Aguardar a troponina e decidir conforme o resultado', 'Manter apenas anticoagulação e antiagregação até o dia seguinte'],
     g: 'B',
     c: 'A angioplastia primária só é preferível quando pode ser feita em até 120 minutos do diagnóstico. Se o atraso previsto for maior, o benefício se perde e indica-se fibrinólise imediata, cuja eficácia é máxima nas primeiras 3 horas, quando o trombo é recente. Depois o paciente é transferido para coronariografia (estratégia fármaco-invasiva).',
     x: { A: 'Com 4 horas de atraso a angioplastia primária perde a superioridade sobre o fibrinolítico.', C: 'A reperfusão não deve aguardar marcadores de necrose.', D: 'Sem reperfusão há perda progressiva de miocárdio e maior mortalidade.' },
@@ -109,7 +109,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Fibrinolítico',
     e: 'Homem de 67 anos atendido em hospital sem hemodinâmica com supra de ST em parede anterior e 3 horas de dor. Teve acidente vascular cerebral isquêmico há 6 semanas. A transferência para angioplastia levaria 3 horas. A conduta mais adequada é:',
-    o: ['Administrar tenecteplase em dose plena', 'Transferir para angioplastia primária, apesar do atraso, pois há contraindicação absoluta ao fibrinolítico', 'Administrar estreptoquinase, que tem menor risco de sangramento cerebral e por isso está liberada', 'Manter tratamento conservador sem reperfusão'],
+    o: ['Tenecteplase em dose plena, apesar da contraindicação absoluta documentada', 'Transferir para angioplastia primária, mesmo com atraso: o fibrinolítico é contraindicado', 'Estreptoquinase, que tem menor risco de sangramento cerebral e por isso está liberada', 'Manter tratamento conservador, sem nenhuma estratégia de reperfusão'],
     g: 'B',
     c: 'Acidente vascular isquêmico nos últimos 3 meses é contraindicação absoluta ao fibrinolítico, pelo risco de transformação hemorrágica. Nessa situação a angioplastia primária passa a ser a única opção de reperfusão e está indicada mesmo com tempo de transferência superior a 120 minutos.',
     x: { A: 'O fibrinolítico é contraindicado pelo acidente vascular recente.', C: 'Nenhum fibrinolítico é seguro com acidente vascular isquêmico recente.', D: 'O paciente está dentro da janela e tem miocárdio a salvar com angioplastia.' },
@@ -117,7 +117,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Critérios de reperfusão',
     e: 'Após fibrinólise, o critério mais utilizado à beira do leito para indicar que houve reperfusão coronariana é:',
-    o: ['Normalização da troponina em 2 horas', 'Redução de pelo menos 50% do supradesnivelamento de ST na derivação de maior supra em 60 a 90 minutos', 'Desaparecimento das ondas Q', 'Surgimento de bloqueio de ramo direito'],
+    o: ['Normalização da troponina em 2 horas, após a infusão do fibrinolítico', 'Queda ≥ 50% do supra de ST, na derivação de maior supra, em 60-90 min', 'Desaparecimento das ondas Q em 2 horas, após a infusão do fibrinolítico', 'Surgimento de bloqueio de ramo direito em 60 minutos, após a infusão'],
     g: 'B',
     c: 'A resolução de 50% ou mais do supra em 60 a 90 minutos é o melhor marcador não invasivo de recanalização. Somam-se o alívio da dor, as arritmias de reperfusão (sobretudo ritmo idioventricular acelerado) e o pico precoce dos marcadores de necrose, que são lavados do tecido quando o fluxo retorna.',
     x: { A: 'Na reperfusão a troponina sobe mais rápido, com pico precoce, e não se normaliza.', C: 'As ondas Q indicam necrose estabelecida e não regridem em horas.', D: 'Bloqueio de ramo novo indica dano ao sistema de condução, não reperfusão.' },
@@ -133,7 +133,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Estratégia fármaco-invasiva',
     e: 'Mulher de 62 anos recebeu fibrinolítico por infarto inferior em hospital sem hemodinâmica, com alívio completo da dor e resolução de 80% do supra de ST. Está estável. O passo seguinte recomendado é:',
-    o: ['Alta em 48 horas, sem estratificação', 'Transferência para coronariografia de rotina entre 2 e 24 horas após a fibrinólise', 'Coronariografia apenas se houver nova dor', 'Teste ergométrico no terceiro dia para decidir sobre o cateterismo'],
+    o: ['Alta em 48 horas, sem estratificação', 'Coronariografia de rotina entre 2 e 24 horas após a fibrinólise', 'Coronariografia apenas se houver nova dor', 'Teste ergométrico no terceiro dia para decidir sobre o cateterismo'],
     g: 'B',
     c: 'Mesmo com critérios de reperfusão, permanece uma placa instável com estenose residual e risco de reoclusão. A estratégia fármaco-invasiva, com coronariografia e angioplastia da artéria culpada entre 2 e 24 horas após o fibrinolítico, reduz reinfarto e isquemia recorrente. Evita-se o procedimento nas primeiras 2 horas, salvo falha, pelo estado pró-trombótico e risco de sangramento.',
     x: { A: 'Dar alta sem definir a anatomia mantém o risco de reoclusão.', C: 'A conduta guiada por sintomas tem piores resultados que a coronariografia rotineira precoce.', D: 'Após fibrinólise a recomendação atual é coronariografia de rotina, não estratificação não invasiva.' },
@@ -141,7 +141,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Fibrinolítico',
     e: 'Homem de 65 anos com infarto com supra de ST recebe estreptoquinase em infusão. Aos 15 minutos apresenta pressão arterial de 80 x 50 mmHg, sem sangramento, sem urticária e sem broncoespasmo. A explicação e a conduta mais adequadas são:',
-    o: ['Choque hemorrágico; transfundir concentrado de hemácias', 'Hipotensão relacionada à infusão da estreptoquinase; reduzir a velocidade ou interromper temporariamente, elevar membros e infundir volume', 'Ruptura de parede livre; pericardiocentese', 'Reação anafilática; suspender definitivamente e não reperfundir'],
+    o: ['Choque hemorrágico; transfundir concentrado de hemácias e parar a infusão', 'Hipotensão da estreptoquinase: reduzir a velocidade, elevar os membros e dar volume', 'Ruptura de parede livre; pericardiocentese imediata, com cirurgia de urgência', 'Reação anafilática; suspender definitivamente e não reperfundir o paciente'],
     g: 'B',
     c: 'A estreptoquinase é uma proteína bacteriana não fibrino-específica que libera bradicinina; a hipotensão durante a infusão é frequente e dose e velocidade dependente. Em geral responde à redução da velocidade, posição de Trendelenburg e volume, permitindo concluir a dose. Por ser antigênica, não deve ser reutilizada em nova ocasião.',
     x: { A: 'Não há sangramento evidente e o quadro surgiu durante a infusão.', C: 'A ruptura de parede livre costuma ocorrer dias após o infarto, com tamponamento.', D: 'Não há sinais de anafilaxia; a hipotensão isolada não obriga a abandonar a reperfusão.' },
@@ -157,7 +157,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Terapia adjuvante',
     e: 'Homem de 52 anos, sem comorbidades, com infarto anterior com supra de ST, será submetido a angioplastia primária. O esquema antiplaquetário preferencial é:',
-    o: ['Ácido acetilsalicílico isolado', 'Ácido acetilsalicílico associado a prasugrel ou ticagrelor', 'Clopidogrel isolado', 'Ácido acetilsalicílico associado a dipiridamol'],
+    o: ['AAS isolado, sem inibidor de P2Y12', 'AAS associado a prasugrel ou ticagrelor', 'Clopidogrel isolado, sem AAS', 'AAS associado a dipiridamol'],
     g: 'B',
     c: 'Na angioplastia primária indica-se dupla antiagregação com ácido acetilsalicílico e um inibidor potente do P2Y12. Prasugrel e ticagrelor têm início de ação mais rápido e inibição plaquetária mais intensa e previsível que o clopidogrel, com menos trombose de stent e eventos isquêmicos. O clopidogrel fica para quando os outros não estão disponíveis ou são contraindicados.',
     x: { A: 'A monoterapia não protege contra a trombose do stent.', C: 'O clopidogrel isolado é insuficiente e menos potente.', D: 'O dipiridamol não tem papel na síndrome coronariana aguda.' },
@@ -165,7 +165,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Doença multiarterial',
     e: 'Mulher de 64 anos com infarto inferior com supra de ST foi submetida a angioplastia primária da coronária direita com sucesso. A coronariografia mostrou ainda lesão de 85% na descendente anterior. Está estável, sem choque. A melhor conduta quanto à lesão não culpada é:',
-    o: ['Tratamento clínico apenas, pois não é a artéria culpada', 'Revascularização completa, tratando a lesão não culpada no mesmo procedimento ou de forma estadiada', 'Fibrinolítico para a lesão residual', 'Nova coronariografia somente após 1 ano'],
+    o: ['Tratamento clínico apenas, pois a lesão residual não é a artéria culpada', 'Revascularização completa: lesão não culpada tratada no mesmo ato ou em etapa', 'Fibrinolítico para a lesão residual, por via venosa, em dose plena', 'Nova coronariografia somente após 1 ano do evento, sem tratar a lesão'],
     g: 'B',
     c: 'Em pacientes estáveis com infarto com supra e doença multiarterial, a revascularização completa das lesões significativas não culpadas reduz morte cardiovascular e reinfarto em comparação com tratar apenas a culpada (estudo COMPLETE). Pode ser feita na internação ou estadiada em semanas. No choque cardiogênico, ao contrário, trata-se inicialmente só a artéria culpada.',
     x: { A: 'Deixar lesão grave sem tratamento aumenta reinfarto e nova revascularização.', C: 'Fibrinolítico não trata estenose aterosclerótica sem trombo oclusivo.', D: 'Adiar por 1 ano perde o benefício demonstrado da revascularização completa.' },
@@ -173,7 +173,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Eletrocardiograma',
     e: 'Homem de 47 anos com dor precordial intensa há 40 minutos. Eletrocardiograma: infradesnivelamento de ST ascendente de 2 mm no ponto J de V1 a V6, seguido de ondas T altas, simétricas e apiculadas, com discreto supra em aVR. A conduta é:',
-    o: ['Tratar como hipercalemia com gluconato de cálcio', 'Reconhecer o padrão de De Winter, equivalente de infarto com supra por oclusão da descendente anterior proximal, e indicar reperfusão imediata', 'Conduzir como infarto sem supra de baixo risco', 'Solicitar teste ergométrico'],
+    o: ['Tratar como hipercalemia, com gluconato de cálcio, sem reperfusão', 'Padrão de De Winter: equivalente de supra, oclusão da DA proximal; reperfusão imediata', 'Conduzir como infarto sem supra de baixo risco, em observação clínica', 'Solicitar teste ergométrico em ambulatório, para estratificar o risco'],
     g: 'B',
     c: 'O padrão de De Winter ocorre em cerca de 2% das oclusões agudas da descendente anterior proximal e não apresenta o supra clássico. É considerado equivalente de infarto com supra de ST e exige coronariografia de emergência, pois a artéria está ocluída e a massa miocárdica em risco é grande.',
     x: { A: 'Na hipercalemia a T é apiculada de base estreita, sem infradesnivelamento ascendente de ST e sem dor isquêmica.', C: 'Trata-se de oclusão coronariana aguda, de muito alto risco.', D: 'Teste de esforço é contraindicado em síndrome coronariana aguda.' },
@@ -197,7 +197,7 @@ export const CORONARIA_3: QuestaoCompacta[] = [
   {
     s: 'Angioplastia primária',
     e: 'Em relação aos aspectos técnicos da angioplastia primária no infarto com supra de ST, é correto afirmar que:',
-    o: ['A aspiração manual de trombo deve ser feita de rotina em todos os casos', 'O acesso radial é preferível ao femoral e o stent farmacológico é preferível ao convencional', 'O acesso femoral é preferível por reduzir sangramento', 'A angioplastia apenas com balão, sem stent, é o padrão atual'],
+    o: ['Aspiração manual de trombo de rotina em todos os casos de angioplastia primária', 'Acesso radial preferível ao femoral; stent farmacológico preferível ao convencional', 'Acesso femoral preferível ao radial, por reduzir o risco de sangramento', 'Angioplastia só com balão, sem stent, é o padrão atual na angioplastia primária'],
     g: 'B',
     c: 'O acesso radial reduz sangramento e complicações vasculares e, em estudos como o MATRIX, associou-se a menor mortalidade. Os stents farmacológicos de nova geração reduzem reestenose e trombose em relação aos convencionais. A aspiração rotineira de trombo não reduziu mortalidade e aumentou acidente vascular cerebral (estudo TOTAL).',
     x: { A: 'A aspiração de rotina não traz benefício e aumenta o risco de acidente vascular cerebral.', C: 'O acesso femoral tem mais sangramento e complicações vasculares.', D: 'O implante de stent é superior ao balão isolado por reduzir reoclusão e reestenose.' },

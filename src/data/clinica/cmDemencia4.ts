@@ -13,7 +13,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'HPN: tap test',
     e: 'Na investigação da hidrocefalia de pressão normal idiopática, a punção lombar com retirada de 30 a 50 mL de líquor (tap test) tem como objetivo:',
-    o: ['Confirmar a etiologia infecciosa da hidrocefalia', 'Avaliar a resposta clínica, sobretudo da marcha, para predizer benefício da derivação liquórica', 'Medir a pressão de abertura, que deve estar muito elevada', 'Substituir a neuroimagem no diagnóstico'],
+    o: ['Confirmar a etiologia infecciosa da hidrocefalia, pelo exame do líquor', 'Avaliar a resposta clínica, sobretudo da marcha, para predizer benefício da derivação', 'Medir a pressão de abertura, que deve estar muito elevada no exame', 'Substituir a neuroimagem no diagnóstico da hidrocefalia de pressão normal'],
     g: 'B',
     c: 'O teste simula temporariamente o efeito de uma derivação. Avaliam-se a velocidade e o padrão da marcha e a cognição antes e após a retirada do líquor; a melhora tem bom valor preditivo positivo para resposta cirúrgica. Um teste negativo, porém, não exclui benefício, e pode-se recorrer à drenagem lombar externa prolongada. A pressão de abertura é normal ou no limite superior.',
     x: { A: 'O teste é funcional e prognóstico, não uma pesquisa de infecção.', C: 'A pressão de abertura é normal na hidrocefalia de pressão normal, por definição.', D: 'A neuroimagem com ventriculomegalia continua sendo indispensável ao diagnóstico.' },
@@ -21,7 +21,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'HPN: tratamento',
     e: 'Sobre o tratamento e o prognóstico da hidrocefalia de pressão normal idiopática, é correto afirmar:',
-    o: ['O tratamento de escolha é acetazolamida por tempo indeterminado', 'O tratamento é a derivação ventriculoperitoneal; a marcha é o sintoma que mais melhora, e a resposta é pior quando a demência é grave e de longa duração', 'A demência é o sintoma que melhor responde à derivação', 'A cirurgia só é indicada quando a pressão de abertura está elevada'],
+    o: ['O tratamento de escolha é a acetazolamida, por tempo indeterminado', 'Derivação ventriculoperitoneal: melhora a marcha; pior se demência grave', 'A demência é o sintoma que melhor responde à derivação ventricular', 'A cirurgia só é indicada quando a pressão de abertura está elevada'],
     g: 'B',
     c: 'A derivação com válvula desvia o líquor e reduz a distensão das fibras periventriculares. Os melhores resultados ocorrem quando a alteração de marcha predomina e precede os demais sintomas, com curta duração de doença e boa resposta ao tap test. A incontinência melhora de forma intermediária, e a cognição é a que menos se recupera, especialmente se houver doença de Alzheimer ou vascular associada.',
     x: { A: 'A acetazolamida não é tratamento eficaz estabelecido para essa condição.', C: 'A cognição é o componente da tríade que menos responde à derivação.', D: 'A pressão é normal por definição, e a indicação baseia-se em clínica, imagem e testes de drenagem.' },
@@ -29,7 +29,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Deficiência de B12',
     e: 'Mulher de 70 anos, em uso de metformina e omeprazol há dez anos, apresenta esquecimento e irritabilidade há oito meses, além de formigamento nos pés e desequilíbrio no escuro. Ao exame: palidez, língua lisa, redução da sensibilidade vibratória e da propriocepção nos membros inferiores e sinal de Romberg positivo. Hemograma com volume corpuscular médio de 114 fL. A hipótese diagnóstica e a base anatômica do quadro neurológico são:',
-    o: ['Hipotireoidismo; mixedema dos nervos periféricos', 'Deficiência de vitamina B12; desmielinização dos cordões posteriores e laterais da medula e da substância branca cerebral', 'Neurossífilis; lesão das raízes dorsais', 'Deficiência de tiamina; lesão dos corpos mamilares'],
+    o: ['Hipotireoidismo; mixedema dos nervos periféricos e do sistema nervoso', 'Deficiência de B12: desmielinização de cordões medulares e da substância branca', 'Neurossífilis; lesão das raízes dorsais da medula espinhal', 'Deficiência de tiamina; lesão dos corpos mamilares e do tálamo'],
     g: 'B',
     c: 'A cobalamina é cofator da metionina sintase e da metilmalonil-CoA mutase, e sua falta prejudica a síntese e a manutenção da mielina. O resultado é a degeneração combinada subaguda, com perda de propriocepção e sensibilidade vibratória, sinais piramidais, neuropatia periférica e alterações cognitivas e psiquiátricas, que podem ocorrer mesmo sem anemia. Metformina e inibidores da bomba de prótons reduzem a absorção da vitamina.',
     x: { A: 'O hipotireoidismo não causa síndrome cordonal posterior com macrocitose acentuada e glossite.', C: 'A tabes dorsalis não explica a macrocitose nem a glossite, e há fatores de risco para carência de B12.', D: 'A carência de tiamina causa oftalmoparesia, ataxia e confusão, sem macrocitose.' },
@@ -37,7 +37,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'B12: valores limítrofes',
     e: 'Em um idoso com declínio cognitivo e dosagem de vitamina B12 em faixa limítrofe, os exames que ajudam a confirmar a deficiência funcional da vitamina são:',
-    o: ['Ferritina e saturação de transferrina', 'Ácido metilmalônico e homocisteína séricos, que se elevam na deficiência', 'Ácido fólico eritrocitário e reticulócitos', 'Anticorpo antitireoperoxidase e T4 livre'],
+    o: ['Ferritina e saturação de transferrina, que avaliam o ferro', 'Ácido metilmalônico e homocisteína séricos, elevados na deficiência', 'Ácido fólico eritrocitário e reticulócitos, que avaliam o folato', 'Anti-TPO e T4 livre, que avaliam a tireoide'],
     g: 'B',
     c: 'A vitamina B12 é necessária para converter metilmalonil-CoA em succinil-CoA e homocisteína em metionina. Na deficiência, os dois substratos se acumulam. A elevação do ácido metilmalônico é o marcador mais específico, pois na deficiência isolada de folato apenas a homocisteína sobe. Esses exames são úteis porque o nível sérico de B12 pode ser normal ou limítrofe em pacientes com deficiência tecidual.',
     x: { A: 'Ferritina e transferrina avaliam o metabolismo do ferro, não a vitamina B12.', C: 'Folato e reticulócitos não confirmam a deficiência funcional de cobalamina.', D: 'Exames tireoidianos investigam outra causa reversível, sem relação com a B12.' },
@@ -45,7 +45,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo',
     e: 'Mulher de 72 anos apresenta, há seis meses, lentificação do pensamento, esquecimentos, apatia e sonolência. Refere intolerância ao frio, constipação e ganho de peso. Ao exame: pele seca, edema periorbitário, bradicardia e fase de relaxamento lenta do reflexo aquileu. O exame que deve confirmar a hipótese e a conduta são:',
-    o: ['Ressonância de crânio; iniciar donepezila', 'TSH e T4 livre; reposição de levotiroxina com dose inicial baixa e aumento gradual, reavaliando a cognição', 'Cortisol sérico; iniciar prednisona', 'Vitamina B12; reposição intramuscular'],
+    o: ['Ressonância de crânio; iniciar donepezila em dose habitual', 'TSH e T4 livre; levotiroxina em dose baixa e aumento gradual', 'Cortisol sérico; iniciar prednisona em dose habitual de manutenção', 'Vitamina B12; reposição intramuscular em dose habitual de manutenção'],
     g: 'B',
     c: 'O hipotireoidismo reduz o metabolismo cerebral e causa lentificação psicomotora, desatenção, prejuízo de memória e sintomas depressivos, podendo simular demência. O diagnóstico é feito com TSH elevado e T4 livre baixo. Em idosos, a levotiroxina deve ser iniciada em dose baixa e titulada lentamente, pelo risco de isquemia miocárdica e arritmias. A cognição costuma melhorar, embora nem sempre de forma completa.',
     x: { A: 'O quadro sistêmico aponta para causa endócrina, e não há indicação de anticolinesterásico.', C: 'Não há sinais de insuficiência adrenal, e o corticoide não trata o quadro.', D: 'Não há macrocitose nem sinais cordonais que sugiram deficiência de B12.' },
@@ -53,7 +53,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Neurossífilis',
     e: 'Homem de 55 anos apresenta, há um ano, declínio de memória, perda do senso crítico, ideias de grandeza e disartria. Ao exame: pupilas pequenas e irregulares, que não reagem à luz, mas contraem na acomodação, e tremor de língua e lábios. Teste treponêmico e VDRL séricos reagentes. A conduta diagnóstica e terapêutica adequada é:',
-    o: ['Repetir o VDRL sérico em seis meses', 'Punção lombar para análise do líquor e tratamento com penicilina cristalina endovenosa por 10 a 14 dias', 'Penicilina benzatina em dose única', 'Doxiciclina oral por sete dias'],
+    o: ['Repetir o VDRL sérico em seis meses, sem outro exame ou tratamento', 'Punção lombar e penicilina cristalina IV por 10-14 dias', 'Penicilina benzatina em dose única, por via intramuscular profunda', 'Doxiciclina oral por sete dias, em dose habitual de manutenção'],
     g: 'B',
     c: 'O quadro corresponde à paralisia geral, forma parenquimatosa tardia da neurossífilis, com demência frontal, sintomas psiquiátricos e pupilas de Argyll Robertson. O líquor mostra pleocitose linfocítica, aumento de proteínas e VDRL reagente, este muito específico, mas pouco sensível. A penicilina benzatina não atinge níveis treponemicidas no líquor, por isso se usa penicilina cristalina endovenosa em altas doses.',
     x: { A: 'Adiar a investigação permite a progressão de lesão neurológica irreversível.', C: 'A penicilina benzatina não alcança concentração adequada no sistema nervoso central.', D: 'Doxiciclina por sete dias não é esquema adequado para neurossífilis.' },
@@ -69,7 +69,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Hematoma subdural crônico',
     e: 'Homem de 81 anos, etilista e em uso de varfarina por fibrilação atrial, apresenta há cinco semanas sonolência, cefaleia leve, confusão progressiva e discreta fraqueza no braço esquerdo. A família lembra de uma queda da própria altura há dois meses, sem perda de consciência. O exame inicial e o achado esperado são:',
-    o: ['Punção lombar; pleocitose linfocítica', 'Tomografia de crânio sem contraste; coleção extra-axial em crescente, hipodensa ou isodensa, com possível desvio da linha média', 'Eletroencefalograma; complexos periódicos de ondas agudas', 'Dosagem de vitamina B12; nível reduzido'],
+    o: ['Punção lombar; pleocitose linfocítica e proteína elevada no líquor', 'TC sem contraste: coleção extra-axial em crescente, com desvio da linha média', 'EEG; complexos periódicos de ondas agudas, típicos de doença priônica', 'Dosagem de vitamina B12; nível reduzido, com anemia macrocítica associada'],
     g: 'B',
     c: 'A atrofia cerebral do idoso e do etilista estira as veias ponte, que se rompem com traumas leves, e a anticoagulação favorece o sangramento. O sangue acumula-se lentamente no espaço subdural, e os sintomas surgem semanas depois, com confusão, cefaleia e sinais focais discretos, simulando demência. Na tomografia, o sangue antigo aparece hipodenso ou isodenso, em forma de crescente. O tratamento do hematoma sintomático é a drenagem cirúrgica, após correção da coagulação.',
     x: { A: 'A punção lombar não é o exame indicado e pode ser arriscada se houver efeito de massa.', C: 'Complexos periódicos são achado da doença de Creutzfeldt-Jakob, não do hematoma.', D: 'A B12 não explica cefaleia, déficit focal e piora subaguda após queda em anticoagulado.' },
@@ -77,7 +77,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Demência rapidamente progressiva',
     e: 'Diante de uma demência rapidamente progressiva, com instalação em semanas a poucos meses, a prioridade na investigação é:',
-    o: ['Confirmar doença priônica e encaminhar para cuidados paliativos', 'Buscar ativamente causas tratáveis, como encefalites autoimunes e infecciosas, distúrbios metabólicos e carenciais, causas tóxicas, vasculares e neoplásicas', 'Iniciar anticolinesterásico e reavaliar em seis meses', 'Solicitar apenas genotipagem da APOE'],
+    o: ['Confirmar doença priônica e encaminhar para cuidados paliativos exclusivos', 'Buscar causas tratáveis: encefalites, metabólicas, tóxicas, vasculares e neoplásicas', 'Iniciar anticolinesterásico e reavaliar a resposta clínica em seis meses', 'Solicitar apenas a genotipagem da APOE, para firmar o diagnóstico'],
     g: 'B',
     c: 'Embora a doença de Creutzfeldt-Jakob seja o protótipo, uma parte importante das demências rapidamente progressivas tem causa tratável, e o atraso compromete o prognóstico. A investigação ampla inclui exames metabólicos e sorologias, ressonância com difusão, eletroencefalograma, líquor e pesquisa de anticorpos antineuronais e de neoplasia oculta. O diagnóstico de doença priônica só deve ser firmado depois de excluir as alternativas reversíveis.',
     x: { A: 'Assumir doença priônica sem investigar pode deixar de tratar causas reversíveis.', C: 'Evolução rápida exige investigação imediata, e não tratamento sintomático com espera.', D: 'A genotipagem da APOE não esclarece a causa de uma demência de evolução rápida.' },
@@ -101,7 +101,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Creutzfeldt-Jakob: conduta',
     e: 'Confirmada a hipótese de doença de Creutzfeldt-Jakob esporádica, a conduta correta inclui:',
-    o: ['Aciclovir endovenoso por 21 dias', 'Tratamento de suporte e sintomático, com notificação do caso e cuidados específicos com instrumentais neurocirúrgicos, pois os príons resistem à esterilização convencional', 'Isolamento respiratório e de contato do paciente', 'Pulsoterapia com corticoide, que reverte o quadro'],
+    o: ['Aciclovir endovenoso por 21 dias, em dose habitual de manutenção', 'Suporte, notificação e cuidados com instrumentais neurocirúrgicos (príons)', 'Isolamento respiratório e de contato do paciente, em quarto privativo', 'Pulsoterapia com corticoide, que reverte o quadro clínico em semanas'],
     g: 'B',
     c: 'Não existe tratamento que modifique a evolução; o manejo é paliativo, com controle das mioclonias, por exemplo com clonazepam ou valproato, e apoio à família. As doenças priônicas são de notificação compulsória no Brasil. A transmissão não ocorre pelo contato habitual, mas o agente resiste aos métodos usuais de esterilização, exigindo protocolos próprios para materiais que tocaram tecido nervoso.',
     x: { A: 'O aciclovir trata encefalite herpética e não tem ação sobre príons.', C: 'Não há transmissão por contato ou via respiratória; bastam as precauções padrão.', D: 'Corticoide não reverte doença priônica; resposta a ele sugere encefalite autoimune.' },
@@ -117,7 +117,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Korsakoff',
     e: 'A síndrome de Korsakoff, sequela crônica da deficiência de tiamina, caracteriza-se por:',
-    o: ['Demência global com afasia, apraxia e agnosia desde o início', 'Amnésia anterógrada grave, com amnésia retrógrada variável e confabulação, estando atenção e demais funções relativamente preservadas, por lesão dos corpos mamilares e do tálamo medial', 'Alteração flutuante do nível de consciência com alucinações visuais', 'Recuperação completa em todos os casos após reposição de tiamina'],
+    o: ['Demência global com afasia, apraxia e agnosia desde o início do quadro', 'Amnésia anterógrada grave e confabulação, atenção preservada; lesão de corpos mamilares', 'Alteração flutuante do nível de consciência com alucinações visuais', 'Recuperação completa em todos os casos após a reposição de tiamina'],
     g: 'B',
     c: 'Os corpos mamilares e os núcleos talâmicos mediais integram o circuito de Papez, essencial à consolidação da memória. Sua lesão produz incapacidade de formar novas memórias, desproporcional aos demais déficits. O paciente preenche as lacunas com relatos fabricados sem intenção de enganar (confabulação) e tem pouca crítica. A recuperação é parcial em parte dos casos, o que reforça a importância de tratar precocemente a encefalopatia de Wernicke.',
     x: { A: 'O déficit é desproporcionalmente de memória, sem demência cortical global inicial.', C: 'Alteração flutuante da consciência corresponde à fase aguda ou a delirium.', D: 'Muitos pacientes ficam com déficit de memória permanente apesar da reposição.' },
@@ -125,7 +125,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Encefalite autoimune',
     e: 'Mulher de 24 anos, sem antecedentes, apresenta em três semanas insônia, delírios persecutórios e agitação, seguidos de crises epilépticas, movimentos involuntários orofaciais, mutismo e instabilidade autonômica. O líquor mostra pleocitose linfocítica leve. O diagnóstico mais provável e a investigação associada indispensável são:',
-    o: ['Esquizofrenia; nenhuma investigação adicional', 'Encefalite por anticorpos contra o receptor NMDA; pesquisa de teratoma de ovário', 'Encefalite herpética; pesquisa de timoma', 'Doença de Creutzfeldt-Jakob; biópsia cerebral'],
+    o: ['Esquizofrenia; nenhuma investigação adicional', 'Encefalite anti-NMDA; pesquisa de teratoma de ovário', 'Encefalite herpética; pesquisa de timoma', 'Doença de Creutzfeldt-Jakob; biópsia cerebral'],
     g: 'B',
     c: 'Anticorpos contra a subunidade do receptor NMDA causam internalização desses receptores e disfunção sináptica. O quadro típico, em mulheres jovens, começa com sintomas psiquiátricos e evolui com crises, discinesias orofaciais, catatonia, redução da consciência, disautonomia e hipoventilação. Parte dos casos é paraneoplásica, associada ao teratoma de ovário, cuja remoção, junto com a imunoterapia, melhora o prognóstico.',
     x: { A: 'Crises, discinesias, disautonomia e líquor inflamatório não são explicados por esquizofrenia.', C: 'A encefalite herpética cursa com febre e lesão temporal, e o timoma associa-se a outras síndromes.', D: 'A idade, a pleocitose e o perfil clínico não correspondem a doença priônica.' },
@@ -133,7 +133,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Encefalite límbica',
     e: 'Homem de 67 anos apresenta, há dois meses, perda de memória recente e confusão. A esposa descreve dezenas de episódios diários, de poucos segundos, com contração simultânea da face e do braço do mesmo lado. O sódio sérico é de 126 mEq/L, e a ressonância mostra hipersinal em T2 nos lobos temporais mediais. O anticorpo mais provavelmente envolvido e o tratamento são:',
-    o: ['Anti-Hu; apenas anticonvulsivante', 'Anti-LGI1; imunoterapia com corticoide e imunoglobulina ou plasmaférese', 'Anti-aquaporina 4; interferon beta', 'Antitransglutaminase; dieta sem glúten'],
+    o: ['Anti-Hu; apenas anticonvulsivante, sem imunoterapia específica', 'Anti-LGI1; imunoterapia com corticoide, imunoglobulina ou plasmaférese', 'Anti-aquaporina 4; interferon beta, em dose habitual de manutenção', 'Antitransglutaminase; dieta sem glúten, sem imunoterapia específica'],
     g: 'B',
     c: 'A encefalite por anticorpos anti-LGI1 acomete idosos e cursa com encefalite límbica, hiponatremia e as crises distônicas faciobraquiais, breves e muito frequentes, que são praticamente patognomônicas e podem preceder o declínio cognitivo. Essas crises respondem mal aos anticonvulsivantes e bem à imunoterapia, cujo início precoce pode evitar o comprometimento cognitivo permanente. É um exemplo de demência rapidamente progressiva tratável.',
     x: { A: 'O anti-Hu é paraneoplásico, sem crises faciobraquiais, e só anticonvulsivante é insuficiente.', C: 'A anti-aquaporina 4 relaciona-se à neuromielite óptica, e o interferon não é o tratamento.', D: 'A antitransglutaminase relaciona-se à doença celíaca e não explica o quadro.' },
@@ -141,7 +141,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'SCPD: abordagem inicial',
     e: 'Mulher de 83 anos, com doença de Alzheimer moderada, passou há uma semana a ficar agitada e a gritar no fim da tarde, resistindo ao banho. Não agrediu ninguém. Faz uso de donepezila. A primeira etapa do manejo deve ser:',
-    o: ['Iniciar risperidona em dose baixa', 'Procurar e tratar causas precipitantes, como dor, infecção, constipação, retenção urinária e efeito de fármacos, e instituir medidas não farmacológicas', 'Prescrever diazepam ao entardecer', 'Indicar contenção mecânica no leito no período da tarde'],
+    o: ['Iniciar risperidona em dose baixa, de uso contínuo e prolongado, ao entardecer', 'Tratar causas precipitantes (dor, infecção, constipação, retenção urinária) e agir sem fármacos', 'Prescrever diazepam ao entardecer, em dose baixa, de uso contínuo e prolongado', 'Indicar contenção mecânica no leito no período da tarde, de rotina, como medida'],
     g: 'B',
     c: 'Os sintomas comportamentais da demência são frequentemente a expressão de uma necessidade que o paciente não consegue comunicar. Uma mudança recente exige descartar dor, infecção, impactação fecal, delirium e fármacos novos. As intervenções não farmacológicas são a primeira linha: rotina previsível, ambiente calmo e iluminado no fim do dia, abordagem tranquila, adaptação do banho e orientação do cuidador. Fármacos são reservados a sintomas graves ou com risco.',
     x: { A: 'Antipsicóticos não são primeira linha e trazem riscos; só para sintomas graves e refratários.', C: 'Benzodiazepínicos pioram confusão, causam quedas e podem gerar agitação paradoxal.', D: 'A contenção mecânica aumenta a agitação, as lesões e o risco de delirium.' },
@@ -149,7 +149,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Antipsicóticos em idosos',
     e: 'Quanto ao uso de antipsicóticos para sintomas comportamentais em idosos com demência, é correto afirmar:',
-    o: ['Os atípicos são isentos de risco cardiovascular e podem ser usados por tempo indeterminado', 'Tanto típicos quanto atípicos associam-se a aumento de mortalidade e de eventos cerebrovasculares; devem ser reservados a agitação ou psicose graves, com risco ou sofrimento intenso, na menor dose e pelo menor tempo, com reavaliação periódica', 'São a primeira escolha para insônia e perambulação', 'O haloperidol é o fármaco de escolha na demência com corpos de Lewy'],
+    o: ['Os atípicos são isentos de risco cardiovascular e podem ser usados sem prazo', 'Aumentam a mortalidade e os eventos cerebrovasculares; usar na menor dose e pelo menor tempo', 'São a primeira escolha para insônia e perambulação, em todos os idosos', 'O haloperidol é o fármaco de escolha na demência com corpos de Lewy'],
     g: 'B',
     c: 'Estudos mostraram maior mortalidade, principalmente por causas cardiovasculares e infecciosas, e mais acidentes vasculares cerebrais em idosos com demência tratados com antipsicóticos, além de sedação, quedas, parkinsonismo, prolongamento do intervalo QT e efeitos metabólicos. O benefício é modesto. Por isso o uso exige indicação precisa, discussão com a família e tentativa regular de redução e retirada.',
     x: { A: 'Os atípicos também elevam mortalidade e eventos cerebrovasculares nessa população.', C: 'Insônia e perambulação não respondem a antipsicóticos e pedem medidas não farmacológicas.', D: 'Na demência com corpos de Lewy o haloperidol é contraindicado pela sensibilidade a neurolépticos.' },
@@ -157,7 +157,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Delirium: fatores e diagnóstico',
     e: 'Mulher de 86 anos, com déficit auditivo e visual, é internada por fratura de fêmur. No segundo dia de pós-operatório está apática, sonolenta, responde pouco e não consegue manter a atenção em uma conversa, com piora no período noturno. A equipe considera que ela está apenas deprimida. A interpretação correta é:',
-    o: ['Depressão maior reativa à internação', 'Delirium hipoativo, forma frequentemente não reconhecida e associada a pior prognóstico', 'Evolução esperada do pós-operatório no idoso, sem necessidade de avaliação', 'Demência de início recente'],
+    o: ['Depressão maior reativa à internação, com choro e anedonia', 'Delirium hipoativo, muitas vezes não reconhecido e de pior prognóstico', 'Evolução esperada do pós-operatório no idoso, sem necessidade de avaliação', 'Demência de início recente, sem relação com a internação hospitalar'],
     g: 'B',
     c: 'O delirium hipoativo manifesta-se por letargia, lentificação e redução da interação, sem agitação, e por isso passa despercebido ou é confundido com depressão. O início agudo, a flutuação e a desatenção definem o diagnóstico, que pode ser sistematizado pelo Confusion Assessment Method. Idade avançada, déficits sensoriais, cirurgia, dor, opioides e imobilidade são fatores de risco presentes. O quadro associa-se a maior mortalidade e tempo de internação.',
     x: { A: 'A depressão não se instala em dois dias com sonolência e desatenção flutuante.', C: 'O delirium não é normal e exige busca imediata de fatores precipitantes.', D: 'A demência não surge em dias; a instalação aguda indica delirium.' },
@@ -173,7 +173,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Delirium: tratamento',
     e: 'Homem de 79 anos, internado por pneumonia, desenvolve delirium hiperativo, com agitação intensa, arrancando o acesso venoso e tentando sair do leito, apesar das medidas não farmacológicas e do tratamento da infecção. Não tem parkinsonismo nem história de etilismo. O eletrocardiograma mostra intervalo QT normal. A conduta farmacológica mais adequada é:',
-    o: ['Diazepam endovenoso em doses repetidas', 'Antipsicótico em dose baixa e por curto período, como haloperidol, com monitorização do intervalo QT', 'Midazolam em infusão contínua', 'Biperideno intramuscular'],
+    o: ['Diazepam endovenoso em doses repetidas, até a sedação do paciente', 'Antipsicótico em dose baixa e curto período (haloperidol), monitorizando o QT', 'Midazolam em infusão contínua, até a sedação do paciente', 'Biperideno intramuscular em dose habitual, até a melhora da agitação'],
     g: 'B',
     c: 'O tratamento do delirium é o da causa, associado a medidas não farmacológicas. Fármacos não encurtam o quadro e são reservados à agitação grave que coloca em risco o paciente ou impede o tratamento. Nessa situação usa-se antipsicótico na menor dose eficaz e pelo menor tempo, com atenção a sintomas extrapiramidais e ao intervalo QT. Benzodiazepínicos pioram o delirium, exceto na abstinência alcoólica ou de sedativos.',
     x: { A: 'Benzodiazepínicos agravam e prolongam o delirium fora do contexto de abstinência.', C: 'A sedação contínua piora o delirium e traz risco de depressão respiratória.', D: 'O biperideno é anticolinérgico e pode precipitar ou agravar o delirium.' },
@@ -181,7 +181,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Direção veicular',
     e: 'Homem de 75 anos, com doença de Alzheimer em fase leve a moderada, continua dirigindo. A família relata que ele se perdeu em trajetos conhecidos, avançou um sinal vermelho e sofreu duas pequenas colisões nos últimos meses. O paciente afirma dirigir bem. A conduta mais adequada do médico é:',
-    o: ['Respeitar integralmente a opinião do paciente, pois ele é quem decide sobre a própria vida', 'Orientar a interrupção da direção, explicando o risco ao paciente e à família, registrar em prontuário e ajudar a planejar alternativas de transporte', 'Recomendar que dirija apenas à noite, quando há menos trânsito', 'Aumentar a dose do anticolinesterásico e reavaliar a direção em um ano'],
+    o: ['Respeitar integralmente a opinião do paciente, pois ele decide sobre a própria vida', 'Orientar a interrupção da direção, registrar em prontuário e planejar alternativas', 'Recomendar que dirija apenas à noite, quando há menos trânsito nas ruas', 'Aumentar a dose do anticolinesterásico e reavaliar a direção em um ano'],
     g: 'B',
     c: 'Dirigir exige atenção dividida, julgamento, orientação espacial e tempo de reação, funções comprometidas na demência, e a anosognosia impede o paciente de perceber o risco. Sinais como desorientação em trajetos habituais, infrações e colisões indicam que a direção já é insegura para ele e para terceiros. Na demência moderada a grave a direção deve cessar; na fase leve, exige avaliação individual e reavaliações frequentes. Envolver a família e oferecer alternativas preserva a autonomia possível.',
     x: { A: 'A autonomia não prevalece quando há risco concreto a terceiros e crítica prejudicada.', C: 'Dirigir à noite exige mais das funções visuoespaciais e aumenta o risco.', D: 'Os fármacos não restauram a capacidade de dirigir, e adiar mantém o risco de acidentes.' },
@@ -189,7 +189,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Capacidade decisória',
     e: 'Sobre a avaliação da capacidade de tomada de decisão em pessoas com demência, é correto afirmar:',
-    o: ['O diagnóstico de demência, por si só, torna a pessoa incapaz de qualquer decisão', 'A capacidade é específica para cada decisão e avaliada pela habilidade de compreender a informação, apreciar sua situação, raciocinar sobre as opções e expressar uma escolha', 'Uma pontuação baixa no Mini-Exame do Estado Mental é suficiente para definir incapacidade', 'A capacidade só pode ser avaliada por um juiz'],
+    o: ['O diagnóstico de demência, por si só, torna a pessoa incapaz de qualquer decisão', 'A capacidade é específica para cada decisão: compreender, apreciar, raciocinar e escolher', 'Uma pontuação baixa no MEEM é suficiente para definir incapacidade civil', 'A capacidade só pode ser avaliada por um juiz, em processo judicial'],
     g: 'B',
     c: 'A capacidade não é um atributo global nem permanente: uma pessoa pode ser incapaz de gerir investimentos complexos e ainda capaz de escolher onde morar ou aceitar um tratamento simples, e pode oscilar com o tempo. A avaliação clínica verifica os quatro componentes para a decisão em questão, com exigência proporcional ao risco envolvido. Nas fases iniciais deve-se estimular o registro de diretivas antecipadas de vontade e a indicação de um representante.',
     x: { A: 'Muitos pacientes em fase leve mantêm capacidade para diversas decisões.', C: 'O escore de um teste de rastreio não equivale a uma avaliação de capacidade.', D: 'A capacidade clínica é avaliada pelo médico; ao juiz cabem medidas legais como a curatela.' },
@@ -197,7 +197,7 @@ export const DEMENCIA_4: QuestaoCompacta[] = [
   {
     s: 'Cuidados paliativos',
     e: 'Mulher de 89 anos, com doença de Alzheimer há 12 anos, está acamada, não fala, depende de terceiros para tudo e teve duas pneumonias aspirativas nos últimos quatro meses, com perda de peso. A família pergunta se deve ser colocada gastrostomia para alimentação. A orientação mais adequada, baseada em evidências, é:',
-    o: ['Indicar gastrostomia, pois ela previne pneumonia aspirativa e prolonga a sobrevida', 'Explicar que a alimentação por sonda na demência avançada não reduz aspiração, não melhora o estado nutricional nem prolonga a vida, e propor alimentação oral de conforto assistida, com plano de cuidados paliativos', 'Indicar nutrição parenteral total domiciliar', 'Suspender toda oferta oral e manter apenas hidratação venosa'],
+    o: ['Indicar gastrostomia, pois previne pneumonia aspirativa e prolonga a sobrevida', 'Sonda não reduz aspiração nem prolonga a vida; alimentação oral de conforto e paliativos', 'Indicar nutrição parenteral total domiciliar, de uso prolongado', 'Suspender toda oferta oral e manter apenas hidratação venosa contínua'],
     g: 'B',
     c: 'A disfagia e a perda de peso fazem parte da fase terminal da demência. Estudos não demonstram que sondas de alimentação reduzam pneumonia aspirativa, já que a aspiração de saliva e o refluxo persistem, nem que melhorem sobrevida, úlceras por pressão ou conforto; além disso, aumentam o uso de contenções e as complicações. Recomenda-se a alimentação oral cuidadosa, voltada ao prazer e ao conforto, com decisão compartilhada e foco no controle de sintomas.',
     x: { A: 'A gastrostomia não previne aspiração nem prolonga a sobrevida na demência avançada.', C: 'A nutrição parenteral é desproporcional, invasiva e sem benefício nesse contexto.', D: 'A oferta oral de conforto deve ser mantida conforme tolerância e desejo da paciente.' },

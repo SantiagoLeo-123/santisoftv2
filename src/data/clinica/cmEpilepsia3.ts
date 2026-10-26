@@ -5,7 +5,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Definição',
     e: 'A crise febril é definida como crise epiléptica que ocorre:',
-    o: ['Em qualquer idade, na presença de febre, incluindo os casos de meningite', 'Em criança de 6 meses a 5 anos (60 meses), com febre, sem infecção do sistema nervoso central, sem distúrbio metabólico agudo e sem crise afebril prévia', 'Apenas em recém-nascidos com temperatura acima de 39 graus Celsius', 'Em criança com epilepsia conhecida que descompensa durante infecção'],
+    o: ['Em qualquer idade, na presença de febre, incluindo os casos de meningite', 'Em criança de 6 meses a 5 anos, com febre, sem infecção do SNC nem crise afebril prévia', 'Apenas em recém-nascidos com temperatura acima de 39 °C', 'Em criança com epilepsia conhecida que descompensa durante infecção'],
     g: 'B',
     c: 'A crise febril é uma crise provocada pela febre em um cérebro imaturo e geneticamente predisposto, na faixa de 6 a 60 meses, com pico entre 12 e 18 meses. O diagnóstico exige a exclusão de infecção do sistema nervoso central, de causa metabólica ou tóxica e de história de crises afebris. É o evento convulsivo mais comum da infância, acometendo 2 a 5% das crianças.',
     x: { A: 'Crise na vigência de meningite é sintomática aguda, e a faixa etária é restrita.', C: 'Crises no período neonatal nunca são crises febris e exigem investigação ampla.', D: 'Crise com febre em criança que já tinha crises afebris é epilepsia descompensada.' },
@@ -29,7 +29,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Classificação',
     e: 'Lactente de 14 meses, com febre há 6 horas por infecção de vias aéreas superiores, apresenta crise tônico-clônica generalizada de 2 minutos às 8 horas e outra, semelhante, às 15 horas do mesmo dia. Exame neurológico normal entre as crises. A classificação correta é:',
-    o: ['Crise febril simples, pois ambas foram breves e generalizadas', 'Crise febril complexa, pela recorrência em menos de 24 horas', 'Estado de mal febril', 'Epilepsia, pois houve duas crises'],
+    o: ['Crise febril simples, pois ambas foram breves e generalizadas', 'Crise febril complexa, pela recorrência em menos de 24 horas', 'Estado de mal febril, pela sequência de crises', 'Epilepsia, pois houve duas crises no mesmo episódio'],
     g: 'B',
     c: 'A repetição da crise dentro de 24 horas (ou no mesmo episódio febril) é um dos três critérios de crise febril complexa, mesmo que cada crise seja breve e generalizada. Não se trata de epilepsia, porque as duas crises foram provocadas pela febre.',
     x: { A: 'A crise simples, por definição, não se repete nas primeiras 24 horas.', C: 'Estado de mal exige crise prolongada ou crises sem recuperação da consciência entre elas.', D: 'Epilepsia requer crises não provocadas; as duas ocorreram com febre.' },
@@ -37,7 +37,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Fisiopatologia e genética',
     e: 'Sobre a etiologia e a epidemiologia da crise febril, é correto afirmar:',
-    o: ['Decorre de lesão cerebral perinatal na maioria dos casos', 'Há forte componente genético, com história familiar frequente, e as infecções virais são os desencadeantes mais comuns', 'É causada por bacteremia oculta na maior parte das vezes', 'Ocorre apenas quando a temperatura sobe lentamente ao longo de dias'],
+    o: ['Decorre de lesão cerebral perinatal na maioria dos casos de crise febril', 'Forte componente genético, história familiar frequente; infecções virais desencadeiam', 'É causada por bacteremia oculta na maior parte das vezes, nas crianças pequenas', 'Ocorre apenas quando a temperatura sobe lentamente ao longo de vários dias'],
     g: 'B',
     c: 'A crise febril resulta da interação entre predisposição genética (história familiar positiva em parcela importante dos casos), cérebro em desenvolvimento com baixo limiar convulsivo e febre, com participação de citocinas como a interleucina-1 beta. Infecções virais, como o exantema súbito (herpes-vírus humano 6) e a influenza, são os principais desencadeantes, e a crise é comum no primeiro dia de febre.',
     x: { A: 'As crianças com crise febril típica têm desenvolvimento e cérebro normais.', C: 'A maioria dos episódios é desencadeada por infecções virais benignas.', D: 'A crise costuma ocorrer cedo, muitas vezes sendo a primeira manifestação da doença febril.' },
@@ -45,7 +45,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Conduta na crise febril simples',
     e: 'Menina de 2 anos, com vacinação em dia, é atendida após crise tônico-clônica generalizada de 2 minutos com febre de 38,9 graus Celsius. Está alerta, brincando, com hiperemia de orofaringe e exame neurológico normal. A conduta adequada é:',
-    o: ['Solicitar eletroencefalograma, tomografia de crânio e punção lombar', 'Identificar e tratar o foco da febre, orientar os pais e dar alta após observação, sem exames complementares de rotina', 'Internar por 72 horas para monitorização', 'Iniciar fenobarbital profilático contínuo'],
+    o: ['Solicitar EEG, tomografia de crânio e punção lombar, de rotina', 'Tratar o foco da febre, orientar os pais e dar alta após observação, sem exames', 'Internar por 72 horas para monitorização contínua', 'Iniciar fenobarbital profilático contínuo, por tempo prolongado'],
     g: 'B',
     c: 'Na crise febril simples com criança em bom estado e exame normal, o diagnóstico é clínico, e a avaliação se concentra na causa da febre. Eletroencefalograma, neuroimagem e exames laboratoriais de rotina não mudam a conduta nem predizem recorrência ou epilepsia. O ponto central é tranquilizar e orientar a família.',
     x: { A: 'Esses exames não têm indicação de rotina na crise febril simples.', C: 'A internação não é necessária se a criança está bem e a família é orientada.', D: 'A profilaxia contínua não é recomendada, pois os riscos superam os benefícios.' },
@@ -53,7 +53,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Punção lombar',
     e: 'Lactente de 9 meses apresenta crise convulsiva com febre. Segundo as recomendações da Academia Americana de Pediatria, adotadas pela Sociedade Brasileira de Pediatria, a punção lombar deve ser realizada obrigatoriamente quando há:',
-    o: ['Qualquer primeira crise febril, independentemente da idade', 'Sinais meníngeos ou outros achados clínicos sugestivos de meningite ou infecção intracraniana', 'História familiar de crise febril', 'Temperatura acima de 39 graus Celsius'],
+    o: ['Qualquer primeira crise febril, independentemente da idade da criança', 'Sinais meníngeos ou outro achado que sugira meningite ou infecção intracraniana', 'História familiar de crise febril em parente de primeiro grau da criança', 'Temperatura acima de 39 °C no momento da crise convulsiva da criança'],
     g: 'B',
     c: 'A punção lombar é indicada quando há sinais e sintomas de meningite, como rigidez de nuca, fontanela abaulada, petéquias, irritabilidade ou letargia persistente. Deve ser considerada em lactentes de 6 a 12 meses sem vacinação completa (ou com situação vacinal desconhecida) para Haemophilus influenzae tipo b e pneumococo, e em crianças em uso prévio de antibiótico, que pode mascarar o quadro meníngeo.',
     x: { A: 'A punção de rotina em toda primeira crise febril não é mais recomendada.', C: 'A história familiar não aumenta a probabilidade de meningite.', D: 'O grau da febre isoladamente não indica coleta de líquor.' },
@@ -61,7 +61,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Punção lombar',
     e: 'Lactente de 8 meses, que recebeu apenas as vacinas do nascimento, é trazido após crise tônico-clônica de 4 minutos com febre de 39 graus Celsius. Está em uso de amoxicilina há 3 dias por otite. No exame, está sonolento, mas desperta ao estímulo, sem rigidez de nuca. A conduta mais adequada quanto ao líquor é:',
-    o: ['Não colher, pois não há sinais meníngeos', 'Realizar punção lombar, pois a vacinação incompleta e o uso prévio de antibiótico tornam o exame clínico pouco confiável', 'Substituir a punção por eletroencefalograma', 'Colher apenas se houver nova crise em 24 horas'],
+    o: ['Não colher, pois não há sinais meníngeos ao exame físico do lactente', 'Fazer punção lombar: vacinação incompleta e antibiótico prévio tornam o exame pouco confiável', 'Substituir a punção lombar por eletroencefalograma, que é mais seguro', 'Colher o líquor apenas se houver nova crise nas próximas 24 horas'],
     g: 'B',
     c: 'Em lactentes, os sinais meníngeos são pouco sensíveis, e o antibiótico prévio pode atenuar o quadro clínico de meningite (meningite parcialmente tratada). Somam-se a isso a ausência de imunização contra Haemophilus influenzae tipo b e pneumococo e a sonolência. Nessa combinação, a punção lombar é fortemente indicada.',
     x: { A: 'A ausência de rigidez de nuca não exclui meningite em lactente pequeno em uso de antibiótico.', C: 'O eletroencefalograma não avalia infecção do sistema nervoso central.', D: 'Aguardar nova crise atrasa o diagnóstico de uma infecção potencialmente grave.' },
@@ -69,7 +69,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Eletroencefalograma',
     e: 'Os pais de um menino de 20 meses, que teve crise febril simples há 3 dias, pedem um eletroencefalograma "para saber se ele vai ter epilepsia". A orientação correta é:',
-    o: ['Solicitar o exame, pois ele prediz com segurança o risco de epilepsia', 'Não solicitar, pois o eletroencefalograma não prediz recorrência de crise febril nem epilepsia futura na crise febril simples', 'Solicitar o exame com privação de sono em até 24 horas', 'Solicitar apenas se a temperatura da crise foi inferior a 38,5 graus Celsius'],
+    o: ['Solicitar o exame, pois ele prediz com segurança o risco de epilepsia futura', 'Não pedir: o EEG não prediz recorrência nem epilepsia na crise febril simples', 'Solicitar o exame com privação de sono, em até 24 horas da crise febril', 'Solicitar apenas se a temperatura da crise foi inferior a 38,5 °C'],
     g: 'B',
     c: 'Na crise febril simples em criança neurologicamente normal, o eletroencefalograma não tem valor prognóstico: alterações inespecíficas são comuns nos dias seguintes e não predizem novas crises febris nem epilepsia. O exame gera ansiedade e tratamentos desnecessários. Ele pode ser considerado em crises complexas, especialmente focais ou prolongadas, ou quando há alteração do desenvolvimento.',
     x: { A: 'O exame não tem valor preditivo na crise febril simples.', C: 'Não há indicação do exame, com ou sem privação de sono.', D: 'A temperatura no momento da crise não é critério de indicação do exame.' },
@@ -77,7 +77,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Neuroimagem',
     e: 'A neuroimagem (preferencialmente ressonância magnética) deve ser considerada na criança com crise febril na seguinte situação:',
-    o: ['Em toda primeira crise febril simples', 'Crise focal com déficit neurológico persistente, macrocefalia ou alteração do exame neurológico', 'Quando há história familiar de crise febril', 'Quando a crise ocorre no primeiro dia de febre'],
+    o: ['Em toda primeira crise febril simples, de forma rotineira', 'Crise focal com déficit persistente, macrocefalia ou exame neurológico alterado', 'Quando há história familiar de crise febril em parentes de primeiro grau', 'Quando a crise ocorre no primeiro dia de febre, em lactentes'],
     g: 'B',
     c: 'A imagem não é indicada na crise febril simples. Ela é reservada a casos com achados que sugerem lesão estrutural: crise focal com déficit pós-ictal prolongado, exame neurológico anormal, perímetro cefálico alterado, sinais de hipertensão intracraniana ou atraso do desenvolvimento. Evita-se assim radiação e sedação desnecessárias.',
     x: { A: 'Na crise febril simples a imagem não acrescenta informação e expõe a riscos.', C: 'A história familiar reforça o caráter benigno e genético do quadro.', D: 'A crise precoce na febre é habitual e não sugere lesão estrutural.' },
@@ -85,7 +85,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Fatores de recorrência',
     e: 'Lactente de 11 meses teve a primeira crise febril simples 40 minutos após o início de febre de 38,1 graus Celsius. O irmão mais velho também teve crises febris. Sobre o risco de recorrência de crise febril neste paciente, é correto afirmar:',
-    o: ['É baixo, pois a crise foi simples', 'É alto, pois ele reúne idade inferior a 18 meses, história familiar, febre de curta duração e temperatura baixa no momento da crise', 'É nulo se os pais usarem antitérmico de horário', 'Só pode ser estimado com eletroencefalograma'],
+    o: ['É baixo, pois a crise foi simples e breve, e a criança tem menos de 1 ano', 'Alto: idade < 18 meses, história familiar, febre curta e temperatura baixa na crise', 'É nulo se os pais usarem antitérmico de horário após a primeira crise febril', 'Só pode ser estimado com eletroencefalograma, realizado logo após a crise febril'],
     g: 'B',
     c: 'O risco global de recorrência é de cerca de 30 a 35%. Os principais preditores são idade precoce na primeira crise (abaixo de 12 a 18 meses), história familiar de crise febril em parente de primeiro grau, curta duração da febre antes da crise e temperatura relativamente baixa. Os dois últimos indicam limiar convulsivo baixo: o cérebro convulsiona com pouco estímulo febril.',
     x: { A: 'A crise simples não protege contra recorrência; os fatores de risco são outros.', C: 'O antitérmico não reduz o risco de recorrência de crise febril.', D: 'O eletroencefalograma não prediz recorrência; a estimativa é clínica.' },
@@ -101,7 +101,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Risco de epilepsia',
     e: 'Em relação ao risco de epilepsia futura em crianças com crise febril, assinale a alternativa correta:',
-    o: ['Após crise febril simples, o risco é de cerca de 30%', 'Após crise febril simples, o risco é apenas discretamente superior ao da população geral (cerca de 1 a 2%)', 'O tratamento profilático com fenobarbital reduz o risco de epilepsia', 'Toda criança com duas crises febris desenvolverá epilepsia'],
+    o: ['Após crise febril simples, o risco é de cerca de 30%', 'Após crise febril simples, o risco é discretamente superior ao da população (1-2%)', 'O tratamento profilático com fenobarbital reduz o risco de epilepsia', 'Toda criança com duas crises febris desenvolverá epilepsia'],
     g: 'B',
     c: 'A crise febril simples tem prognóstico benigno: o risco de epilepsia fica em torno de 1 a 2%, pouco acima do da população geral, e não há prejuízo cognitivo, motor ou aumento de mortalidade. O risco sobe quando há crise complexa, anormalidade neurológica ou do desenvolvimento prévia e história familiar de epilepsia. Nenhuma profilaxia muda o risco de epilepsia futura.',
     x: { A: 'Esse valor é a taxa aproximada de recorrência de crise febril, não de epilepsia.', C: 'A profilaxia pode reduzir crises febris, mas não previne epilepsia.', D: 'A maioria das crianças com crises febris recorrentes não desenvolve epilepsia.' },
@@ -117,7 +117,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Antitérmico',
     e: 'Mãe de um menino de 2 anos com duas crises febris prévias pergunta se deve dar antitérmico de 6 em 6 horas sempre que ele tiver febre, para impedir novas crises. A orientação correta é:',
-    o: ['Sim, o uso programado de antitérmico reduz o risco de recorrência pela metade', 'Os antitérmicos podem ser usados para o conforto da criança, mas não previnem a recorrência de crise febril', 'Sim, desde que associado a banhos frios e compressas com álcool', 'Não usar antitérmico, pois ele aumenta o risco de crise'],
+    o: ['O antitérmico programado reduz o risco de recorrência pela metade', 'Antitérmicos servem para conforto, mas não previnem a recorrência da crise febril', 'Sim, se associado a banhos frios e compressas com álcool', 'Não usar antitérmico, pois ele aumenta o risco de crise'],
     g: 'B',
     c: 'Ensaios clínicos mostram que o uso de antitérmicos, mesmo de forma regular e precoce, não reduz a recorrência de crise febril. Isso ocorre porque a crise costuma surgir no início do quadro, muitas vezes antes de a febre ser percebida, e depende do limiar individual. O antitérmico é indicado para aliviar o desconforto, e essa informação evita culpa nos cuidadores.',
     x: { A: 'Não há evidência de que o antitérmico programado reduza recorrências.', C: 'Compressas com álcool são contraindicadas pelo risco de intoxicação e não previnem crises.', D: 'O antitérmico não aumenta o risco de crise e pode ser usado para conforto.' },
@@ -125,7 +125,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Orientação aos pais',
     e: 'Ao orientar os pais de uma criança sobre o que fazer em casa diante de uma nova crise febril, a recomendação correta é:',
-    o: ['Segurar a língua da criança com um pano e oferecer líquidos', 'Colocar a criança de lado em superfície segura, não introduzir nada na boca, marcar o tempo e procurar o serviço de emergência se a crise durar mais de 5 minutos', 'Dar banho frio imediatamente durante a crise', 'Conter os movimentos com firmeza e administrar antitérmico oral durante a crise'],
+    o: ['Segurar a língua da criança com um pano e oferecer líquidos durante a crise', 'Deitar de lado, nada na boca, cronometrar; emergência se a crise passar de 5 minutos', 'Dar banho frio imediatamente durante a crise, para baixar a temperatura', 'Conter os movimentos com firmeza e dar antitérmico oral durante a crise'],
     g: 'B',
     c: 'As medidas visam proteger a via aérea e evitar trauma: posição lateral, afastar objetos, não conter e não introduzir nada na boca, pois a língua não é engolida e há risco de lesão e aspiração. Marcar o tempo é essencial, porque crise acima de 5 minutos exige tratamento. Deve-se reforçar que a crise febril não causa lesão cerebral nem morte.',
     x: { A: 'Não se manipula a boca nem se oferecem líquidos, pelo risco de aspiração e lesão.', C: 'O banho durante a crise traz risco de afogamento e trauma e não interrompe a crise.', D: 'Conter os movimentos pode causar fraturas, e medicação oral na crise causa aspiração.' },
@@ -133,7 +133,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Tratamento da crise',
     e: 'Criança de 3 anos chega ao pronto-socorro em crise tônico-clônica generalizada com febre, que segundo a mãe já dura 8 minutos. Após posicionamento, oxigênio e glicemia capilar normal, a conduta imediata é:',
-    o: ['Administrar dipirona endovenosa e aguardar o término da crise', 'Administrar benzodiazepínico (diazepam endovenoso ou retal, ou midazolam intramuscular, intranasal ou bucal)', 'Administrar fenobarbital oral', 'Realizar punção lombar durante a crise'],
+    o: ['Administrar dipirona endovenosa e aguardar o término da crise', 'Benzodiazepínico (diazepam IV ou retal; midazolam IM, intranasal ou bucal)', 'Administrar fenobarbital por via oral, em dose de ataque', 'Realizar punção lombar durante a crise, para análise do líquor'],
     g: 'B',
     c: 'A crise febril que ultrapassa 5 minutos é tratada como qualquer crise prolongada, com benzodiazepínico, pois a chance de término espontâneo cai e cresce o risco de evolução para estado de mal. Quando não há acesso venoso, as vias retal (diazepam) e intramuscular, intranasal ou bucal (midazolam) são eficazes. O antitérmico é adjuvante e não interrompe a crise.',
     x: { A: 'O antitérmico não interrompe a crise, e aguardar aumenta o risco de estado de mal.', C: 'A via oral é inviável e perigosa em criança em crise.', D: 'A punção lombar só é cogitada após o controle da crise e a estabilização.' },
@@ -141,7 +141,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Profilaxia',
     e: 'Sobre a profilaxia medicamentosa da crise febril, é correto afirmar:',
-    o: ['A profilaxia contínua com fenobarbital ou valproato é recomendada após a primeira crise febril simples', 'A profilaxia contínua não é recomendada, e a intermitente com benzodiazepínico durante a febre é reservada a casos selecionados', 'A carbamazepina e a fenitoína são eficazes na prevenção de crises febris', 'A profilaxia intermitente previne o desenvolvimento de epilepsia'],
+    o: ['Profilaxia contínua com fenobarbital ou valproato é recomendada após a primeira crise febril simples', 'Profilaxia contínua não é recomendada; a intermitente com benzodiazepínico é para casos selecionados', 'Carbamazepina e fenitoína são eficazes na prevenção de crises febris', 'A profilaxia intermitente previne o desenvolvimento de epilepsia'],
     g: 'B',
     c: 'Fenobarbital e valproato reduzem recorrências, mas os efeitos adversos (alterações cognitivas e de comportamento, hepatotoxicidade) superam o benefício em uma condição benigna. A profilaxia intermitente com benzodiazepínico (diazepam ou clobazam) nos episódios febris pode ser considerada em casos selecionados, como crises muito frequentes ou prolongadas, ansiedade familiar intensa ou difícil acesso a serviço de saúde, sabendo-se que causa sonolência e ataxia e pode mascarar infecção grave.',
     x: { A: 'O risco de efeitos adversos da profilaxia contínua supera o benefício.', C: 'Carbamazepina e fenitoína não são eficazes na prevenção de crises febris.', D: 'Nenhuma profilaxia reduz o risco de epilepsia futura.' },
@@ -149,7 +149,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Estado de mal febril',
     e: 'Menino de 16 meses chega à emergência em crise clônica do hemicorpo direito com febre há 35 minutos, sem resposta à primeira dose de benzodiazepínico. Sobre o estado de mal epiléptico febril, é correto afirmar:',
-    o: ['É tratado apenas com antitérmico e resfriamento', 'Segue o mesmo protocolo de qualquer estado de mal, com nova dose de benzodiazepínico e fármaco de segunda linha, e exige investigação de infecção do sistema nervoso central', 'Dispensa punção lombar, pois a febre já explica a crise', 'Nunca se associa a lesão do hipocampo'],
+    o: ['É tratado apenas com antitérmico e resfriamento', 'Mesmo protocolo de qualquer estado de mal; investigar infecção do SNC', 'Dispensa punção lombar, pois a febre já explica a crise', 'Nunca se associa a lesão do hipocampo, nem a epilepsia futura'],
     g: 'B',
     c: 'O estado de mal febril é a crise febril com 30 minutos ou mais (com tratamento a partir de 5 minutos) e é a causa mais comum de estado de mal na infância. O manejo é o padrão do estado de mal. Por ser crise prolongada e focal, a meningite e a encefalite devem ser ativamente consideradas, com punção lombar após a estabilização. Há associação com lesão hipocampal aguda e esclerose mesial temporal posterior (estudo FEBSTAT).',
     x: { A: 'Antitérmico e resfriamento não interrompem a crise prolongada.', C: 'Crise prolongada e focal com febre obriga considerar infecção do sistema nervoso central.', D: 'O estado de mal febril pode causar lesão hipocampal aguda vista na ressonância.' },
@@ -157,7 +157,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Diferencial com meningite',
     e: 'Lactente de 7 meses apresenta febre há 2 dias, recusa alimentar e crise tônico-clônica de 6 minutos. Uma hora após a crise permanece hipoativo, gemente, com fontanela anterior abaulada e tensa. A principal hipótese e a conduta são:',
-    o: ['Crise febril simples; alta com antitérmico', 'Meningite bacteriana; hemocultura, punção lombar (se não houver contraindicação) e antibioticoterapia empírica imediata', 'Crise febril complexa; eletroencefalograma ambulatorial', 'Síndrome de West; iniciar vigabatrina'],
+    o: ['Crise febril simples; alta com antitérmico e orientações aos pais', 'Meningite bacteriana: hemocultura, punção lombar (se possível) e antibiótico imediato', 'Crise febril complexa; eletroencefalograma ambulatorial e retorno em 1 mês', 'Síndrome de West; iniciar vigabatrina e pedir ressonância de crânio'],
     g: 'B',
     c: 'A recuperação incompleta da consciência após a crise, o gemido, a recusa alimentar e a fontanela abaulada são sinais de infecção do sistema nervoso central, que exclui o diagnóstico de crise febril. Em lactentes, a rigidez de nuca costuma faltar. O antibiótico não deve ser atrasado pela realização de exames.',
     x: { A: 'Na crise febril simples a criança retorna ao estado normal, o que não ocorreu.', C: 'A crise febril é diagnóstico de exclusão, e há sinais claros de meningite.', D: 'A síndrome de West cursa com espasmos em salvas, sem febre nem fontanela abaulada.' },
@@ -165,7 +165,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Crise febril x epilepsia',
     e: 'Menina de 7 anos, com duas crises tônico-clônicas afebris no último ano, apresenta nova crise durante um quadro de amigdalite com febre de 38,5 graus Celsius. O diagnóstico correto é:',
-    o: ['Crise febril simples', 'Epilepsia, com crise facilitada pela febre', 'Crise febril complexa', 'Estado de mal febril'],
+    o: ['Crise febril simples, de curta duração e sem recorrência', 'Epilepsia, com crise facilitada pela febre', 'Crise febril complexa, com duração prolongada', 'Estado de mal febril, com duração superior a 30 minutos'],
     g: 'B',
     c: 'A definição de crise febril exclui crianças com crises afebris prévias e, em geral, as maiores de 5 anos. Nesta paciente, a febre atuou como fator facilitador em uma pessoa que já tem epilepsia, pois a febre e a infecção reduzem o limiar convulsivo. A conduta é a da epilepsia, com investigação e tratamento apropriados.',
     x: { A: 'A idade e as crises afebris prévias excluem o diagnóstico de crise febril.', C: 'Não se classifica como crise febril, simples ou complexa, quem já tem crises afebris.', D: 'Não houve crise prolongada, e o quadro de base é epilepsia.' },
@@ -181,7 +181,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Dravet: tratamento',
     e: 'Em uma criança com síndrome de Dravet, o grupo de fármacos que deve ser evitado por agravar as crises é:',
-    o: ['Valproato e clobazam', 'Bloqueadores de canal de sódio, como carbamazepina, fenitoína e lamotrigina', 'Estiripentol e canabidiol', 'Benzodiazepínicos de resgate'],
+    o: ['Valproato e clobazam, que são indicados na síndrome de Dravet', 'Bloqueadores de canal de sódio (carbamazepina, fenitoína, lamotrigina), que pioram a Dravet', 'Estiripentol e canabidiol, que são indicados na síndrome de Dravet', 'Benzodiazepínicos de resgate, que são indicados na síndrome de Dravet'],
     g: 'B',
     c: 'Na síndrome de Dravet, a perda de função do canal de sódio Nav1.1 reduz a atividade dos interneurônios gabaérgicos inibitórios. Fármacos que bloqueiam ainda mais os canais de sódio acentuam essa falha de inibição e pioram as crises. O tratamento se baseia em valproato e clobazam, com estiripentol, canabidiol e fenfluramina como adjuvantes.',
     x: { A: 'Valproato e clobazam são a base do tratamento da síndrome de Dravet.', C: 'Estiripentol e canabidiol são terapias adjuvantes com eficácia demonstrada.', D: 'Os benzodiazepínicos de resgate são essenciais pelas crises prolongadas frequentes.' },
@@ -197,7 +197,7 @@ export const EPILEPSIA_3: QuestaoCompacta[] = [
   {
     s: 'Prognóstico',
     e: 'Sobre o prognóstico da crise febril simples, a informação correta a ser dada à família é:',
-    o: ['Há risco elevado de deficiência intelectual após a segunda crise', 'Não há aumento de mortalidade nem prejuízo do desenvolvimento cognitivo, e a maioria das crianças não terá novas crises', 'A criança deve evitar vacinas pelo risco de novas crises', 'Há indicação de restrição de atividades físicas e escolares'],
+    o: ['Há risco elevado de deficiência intelectual após a segunda crise', 'Sem aumento de mortalidade nem prejuízo cognitivo; a maioria não terá novas crises', 'A criança deve evitar vacinas pelo risco de novas crises', 'Há indicação de restrição de atividades físicas e escolares'],
     g: 'B',
     c: 'Estudos populacionais mostram que a crise febril simples não aumenta a mortalidade nem compromete inteligência, comportamento ou desempenho escolar. Cerca de dois terços das crianças não têm recorrência. O calendário vacinal deve ser mantido, pois o benefício supera amplamente o pequeno risco de crise febril pós-vacinal, e não há necessidade de restrições.',
     x: { A: 'Crises febris simples, mesmo recorrentes, não causam deficiência intelectual.', C: 'A vacinação deve ser mantida normalmente em crianças com crise febril.', D: 'Não há motivo para restringir atividades de uma criança com crise febril.' },

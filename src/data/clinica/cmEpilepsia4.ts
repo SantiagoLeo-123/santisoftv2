@@ -21,7 +21,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome de West: etiologia e prognóstico',
     e: 'Sobre a síndrome dos espasmos epilépticos infantis (West), é correto afirmar:',
-    o: ['O prognóstico é uniformemente bom, com resolução espontânea sem sequelas', 'A maioria dos casos tem etiologia identificável (estrutural, genética ou metabólica), e o atraso no tratamento piora o prognóstico do desenvolvimento', 'O tratamento de escolha é o fenobarbital em dose baixa', 'Os espasmos são mais frequentes durante o sono profundo'],
+    o: ['O prognóstico é uniformemente bom, com resolução espontânea sem sequelas neurológicas', 'A maioria tem causa identificável; o atraso no tratamento piora o desenvolvimento', 'O tratamento de escolha é o fenobarbital em dose baixa, por via oral', 'Os espasmos são mais frequentes durante o sono profundo, na fase de sono REM'],
     g: 'B',
     c: 'A maior parte dos casos tem causa definida, como encefalopatia hipóxico-isquêmica, malformações corticais, esclerose tuberosa, síndrome de Down e erros inatos do metabolismo. O prognóstico cognitivo depende da etiologia e do tempo até o controle dos espasmos e da hipsarritmia, e muitos pacientes evoluem para outras epilepsias, como a síndrome de Lennox-Gastaut. A primeira linha é ACTH ou corticoide oral em dose alta, ou vigabatrina.',
     x: { A: 'A maioria evolui com deficiência intelectual e outras epilepsias.', C: 'O fenobarbital não é eficaz nos espasmos epilépticos.', D: 'Os espasmos ocorrem em salvas principalmente ao despertar ou ao adormecer.' },
@@ -37,7 +37,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Lennox-Gastaut: tratamento',
     e: 'No tratamento da síndrome de Lennox-Gastaut, é correto afirmar:',
-    o: ['A carbamazepina em monoterapia controla as crises na maioria dos pacientes', 'O valproato é habitualmente a primeira opção, com associação de lamotrigina, clobazam ou rufinamida, e a refratariedade é a regra', 'A etossuximida é o fármaco de escolha para as crises tônicas', 'O tratamento medicamentoso deve ser evitado, pois as crises remitem na adolescência'],
+    o: ['A carbamazepina em monoterapia controla as crises na maioria dos pacientes', 'Valproato é a 1ª opção, com lamotrigina, clobazam ou rufinamida; refratariedade é a regra', 'A etossuximida é o fármaco de escolha para as crises tônicas', 'O tratamento deve ser evitado, pois as crises remitem na adolescência'],
     g: 'B',
     c: 'Por haver vários tipos de crise generalizada, usa-se fármaco de amplo espectro, sendo o valproato a base, com lamotrigina, clobazam, rufinamida, topiramato ou canabidiol em associação. O controle completo é raro. Dieta cetogênica, estimulação do nervo vago e calosotomia (para as crises de queda) são opções não farmacológicas.',
     x: { A: 'A carbamazepina pode agravar ausências atípicas e crises de queda.', C: 'A etossuximida só atua em ausências, não em crises tônicas.', D: 'A síndrome não remite e tem prognóstico reservado sem tratamento.' },
@@ -53,7 +53,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Fármacos que pioram crises generalizadas',
     e: 'Menina de 8 anos com epilepsia de ausência da infância recebeu carbamazepina em outro serviço e, desde então, a frequência das crises triplicou. A explicação é:',
-    o: ['A dose de carbamazepina está insuficiente e deve ser aumentada', 'A carbamazepina pode agravar crises de ausência e mioclônicas, devendo ser substituída por etossuximida ou valproato', 'Trata-se de evolução natural para síndrome de Lennox-Gastaut', 'A piora indica crise não epiléptica psicogênica'],
+    o: ['A dose de carbamazepina está insuficiente e deve ser aumentada gradualmente', 'A carbamazepina agrava ausências e mioclonias; trocar por etossuximida ou valproato', 'Trata-se de evolução natural para a síndrome de Lennox-Gastaut, de pior prognóstico', 'A piora indica crise não epiléptica psicogênica, sem correlato eletroencefalográfico'],
     g: 'B',
     c: 'Bloqueadores de canal de sódio de espectro estreito, como carbamazepina, oxcarbazepina e fenitoína, e fármacos gabaérgicos como vigabatrina e gabapentina podem agravar ausências e mioclonias das epilepsias generalizadas, por facilitarem a hipersincronia tálamo-cortical. Por isso classificar corretamente o tipo de crise é o passo decisivo antes de escolher o fármaco.',
     x: { A: 'Aumentar a dose tende a piorar ainda mais as crises de ausência.', C: 'Não há outros tipos de crise nem deterioração cognitiva que sugiram essa evolução.', D: 'A piora tem explicação farmacológica clara e relação temporal com o fármaco.' },
@@ -69,7 +69,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Epilepsia mioclônica juvenil: prognóstico',
     e: 'Paciente de 22 anos com epilepsia mioclônica juvenil está há 3 anos sem crises com valproato e pergunta se pode suspender a medicação. A resposta mais adequada é:',
-    o: ['Sim, pois essa síndrome remite espontaneamente na idade adulta', 'A resposta ao tratamento é excelente, mas o risco de recorrência após a suspensão é alto, e o tratamento costuma ser mantido por tempo prolongado', 'Sim, desde que o eletroencefalograma esteja normal', 'Deve-se trocar para carbamazepina antes de suspender'],
+    o: ['Sim, pois essa síndrome remite espontaneamente na idade adulta, em todos os casos', 'Excelente resposta, mas recorrência alta ao suspender; tratamento prolongado', 'Sim, desde que o eletroencefalograma esteja normal no momento da suspensão', 'Deve-se trocar para carbamazepina antes de suspender o tratamento atual'],
     g: 'B',
     c: 'A epilepsia mioclônica juvenil responde bem ao tratamento na grande maioria dos pacientes, mas é considerada farmacodependente: a taxa de recorrência após a retirada é alta, mesmo após anos sem crises. Por isso o tratamento em geral é mantido a longo prazo, ao lado de medidas como sono regular e evitar álcool.',
     x: { A: 'Diferentemente das epilepsias autolimitadas da infância, esta tende a persistir.', C: 'O eletroencefalograma normal não garante segurança para a retirada nessa síndrome.', D: 'A carbamazepina é contraindicada por agravar mioclonias.' },
@@ -77,7 +77,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Epilepsia rolândica',
     e: 'Menino de 8 anos, com desenvolvimento normal, acorda os pais à noite com ruídos guturais; é encontrado consciente, com desvio da boca para a direita, salivação intensa, abalos da hemiface e incapacidade de falar por 1 minuto. Teve três episódios semelhantes em um ano. O eletroencefalograma mostra pontas centrotemporais que aumentam no sono. Sobre o quadro, é correto afirmar:',
-    o: ['Exige ressonância magnética urgente e cirurgia', 'Trata-se de epilepsia autolimitada com pontas centrotemporais (rolândica), com remissão na adolescência, e o tratamento pode ser dispensado se as crises forem raras', 'Trata-se de síndrome de Landau-Kleffner, com indicação de corticoide', 'Indica tratamento contínuo com valproato por toda a vida'],
+    o: ['Exige ressonância magnética urgente e cirurgia de epilepsia, de imediato', 'Epilepsia autolimitada com pontas centrotemporais: remite na adolescência; tratar se frequente', 'Síndrome de Landau-Kleffner, com indicação de corticoide em dose alta', 'Indica tratamento contínuo com valproato por toda a vida do paciente'],
     g: 'B',
     c: 'A epilepsia rolândica é a epilepsia focal mais comum da infância, com início entre 3 e 13 anos. As crises ocorrem no sono e envolvem a região perissilviana inferior: parestesias e abalos de face e orofaringe, sialorreia e disartria com consciência preservada, podendo evoluir para tônico-clônica bilateral. Remite até os 15 ou 16 anos, e crises infrequentes e noturnas muitas vezes não exigem medicação.',
     x: { A: 'É uma síndrome autolimitada, sem lesão estrutural e sem indicação cirúrgica.', C: 'Na síndrome de Landau-Kleffner há afasia adquirida progressiva, ausente no caso.', D: 'A remissão espontânea na adolescência torna desnecessário o tratamento vitalício.' },
@@ -85,7 +85,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Epilepsia do lobo temporal mesial',
     e: 'Mulher de 30 anos, com história de crise febril prolongada aos 2 anos, apresenta desde os 12 anos crises com sensação epigástrica ascendente e medo, seguidas de olhar fixo, automatismos oromastigatórios e confusão pós-ictal. Mantém crises mensais apesar de carbamazepina e lamotrigina em doses plenas. O achado esperado na ressonância magnética é:',
-    o: ['Túberes corticais múltiplos', 'Atrofia do hipocampo com hipersinal em T2/FLAIR (esclerose hipocampal)', 'Lesão expansiva com realce anelar', 'Hipersinal simétrico de núcleos da base'],
+    o: ['Túberes corticais múltiplos, típicos da esclerose tuberosa', 'Atrofia do hipocampo com hipersinal em T2/FLAIR (esclerose hipocampal)', 'Lesão expansiva com realce anelar, típica de abscesso', 'Hipersinal simétrico de núcleos da base, típico de doenças metabólicas'],
     g: 'B',
     c: 'A epilepsia do lobo temporal mesial com esclerose hipocampal é a epilepsia focal mais comum do adulto e a causa mais frequente de refratariedade. O hipocampo mostra perda neuronal e gliose, vistas como atrofia e hipersinal em T2/FLAIR. A história típica inclui insulto precoce, como crise febril prolongada, seguido de período latente e do surgimento de crises focais disperceptivas com aura epigástrica.',
     x: { A: 'Túberes corticais são achado do complexo da esclerose tuberosa.', C: 'Realce anelar sugere abscesso, neurocisticercose em degeneração ou tumor.', D: 'Lesão simétrica de núcleos da base sugere doença metabólica ou tóxica.' },
@@ -93,7 +93,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Epilepsia refratária e cirurgia',
     e: 'Homem de 28 anos com epilepsia do lobo temporal mesial e esclerose hipocampal unilateral mantém crises focais disperceptivas mensais após uso adequado de três fármacos anticrise. A conduta mais apropriada é:',
-    o: ['Tentar sucessivamente mais cinco fármacos antes de qualquer outra medida', 'Encaminhar a centro especializado para avaliação pré-cirúrgica com videoeletroencefalograma, pois a lobectomia temporal oferece alta chance de controle', 'Indicar apenas psicoterapia', 'Suspender todos os fármacos para observar a evolução natural'],
+    o: ['Tentar sucessivamente mais cinco fármacos antes de qualquer outra medida', 'Avaliação pré-cirúrgica com vídeo-EEG: a lobectomia temporal controla bem as crises', 'Indicar apenas psicoterapia, sem nenhuma outra medida terapêutica específica', 'Suspender todos os fármacos para observar a evolução natural da doença'],
     g: 'B',
     c: 'Epilepsia farmacorresistente é a falha de dois fármacos anticrise apropriados, bem tolerados e em doses adequadas, em monoterapia ou combinação. A partir daí, a chance de controle com novo fármaco é pequena, e o paciente deve ser avaliado para cirurgia. Na esclerose hipocampal unilateral, a lobectomia temporal anterior deixa cerca de 60 a 70% dos pacientes livres de crises, resultado superior ao do tratamento clínico em ensaio randomizado.',
     x: { A: 'Após a falha de dois fármacos, a chance de controle com outros é baixa.', C: 'A psicoterapia não trata epilepsia estrutural refratária.', D: 'A suspensão abrupta expõe a estado de mal e a morte súbita.' },
@@ -101,7 +101,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Escolha do fármaco',
     e: 'Homem de 35 anos é diagnosticado com epilepsia focal estrutural, com crises focais disperceptivas. Entre as opções abaixo, constitui fármaco de primeira linha adequado para iniciar monoterapia:',
-    o: ['Etossuximida', 'Lamotrigina, levetiracetam ou carbamazepina', 'Vigabatrina', 'Clonazepam em uso contínuo isolado'],
+    o: ['Etossuximida, indicada nas crises de ausência', 'Lamotrigina, levetiracetam ou carbamazepina', 'Vigabatrina, indicada nos espasmos infantis', 'Clonazepam em uso contínuo isolado, em dose habitual'],
     g: 'B',
     c: 'Nas crises focais, as opções de primeira linha são carbamazepina, oxcarbazepina, lamotrigina e levetiracetam, com eficácia semelhante entre si; lamotrigina e levetiracetam têm melhor tolerabilidade e menos interações. Nas epilepsias generalizadas, o valproato é o mais eficaz, com lamotrigina e levetiracetam como alternativas. Quando o tipo de crise é incerto, prefere-se fármaco de amplo espectro.',
     x: { A: 'A etossuximida tem espectro restrito às crises de ausência.', C: 'A vigabatrina é reservada a espasmos infantis, pelo risco de perda de campo visual.', D: 'Benzodiazepínicos contínuos geram tolerância e não são monoterapia de primeira linha.' },
@@ -109,7 +109,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Fenitoína: efeitos adversos',
     e: 'Mulher de 40 anos em uso crônico de fenitoína apresenta hiperplasia gengival, hirsutismo e aspecto facial grosseiro. Após aumento recente da dose, passou a ter nistagmo, ataxia de marcha e diplopia. Sobre o fármaco, é correto afirmar:',
-    o: ['Tem cinética linear, e pequenos aumentos de dose produzem pequenos aumentos do nível sérico', 'Tem cinética de saturação (ordem zero), de modo que pequenos aumentos de dose podem elevar muito o nível sérico e causar toxicidade', 'Não interage com outros medicamentos', 'A hiperplasia gengival é sinal de intoxicação aguda'],
+    o: ['Cinética linear: pequenos aumentos de dose causam pequenos aumentos do nível sérico', 'Cinética de saturação (ordem zero): pequena alta de dose pode elevar muito o nível', 'Não interage com outros medicamentos, em nenhuma dose, pela cinética linear', 'A hiperplasia gengival é sinal de intoxicação aguda pelo fármaco, e exige suspensão'],
     g: 'B',
     c: 'A fenitoína é metabolizada por enzimas hepáticas saturáveis dentro da faixa terapêutica; ultrapassada a capacidade, a eliminação passa a ser constante e o nível sérico sobe de forma desproporcional. A intoxicação manifesta-se por sinais cerebelares e vestibulares: nistagmo, ataxia, diplopia e disartria. Os efeitos crônicos incluem hiperplasia gengival, hirsutismo, osteomalácia, anemia megaloblástica e neuropatia.',
     x: { A: 'A cinética é não linear, com saturação na faixa terapêutica.', C: 'É potente indutor enzimático e tem alta ligação proteica, com muitas interações.', D: 'A hiperplasia gengival é efeito crônico, não relacionado à intoxicação aguda.' },
@@ -125,7 +125,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Carbamazepina e HLA',
     e: 'Homem de 30 anos, filho de imigrantes chineses, iniciou carbamazepina há 2 semanas e apresenta febre, erosões dolorosas em mucosa oral e conjuntival e lesões cutâneas purpúricas com descolamento da epiderme. O alelo associado a essa reação e a conduta imediata são:',
-    o: ['HLA-B27; reduzir a dose pela metade', 'HLA-B*15:02; suspender definitivamente o fármaco e internar para suporte', 'HLA-DQ2; associar anti-histamínico e manter o fármaco', 'HLA-B*57:01; trocar por oxcarbazepina'],
+    o: ['HLA-B27; reduzir a dose pela metade e manter a carbamazepina em uso', 'HLA-B*15:02; suspender definitivamente o fármaco e internar para suporte clínico', 'HLA-DQ2; associar anti-histamínico e manter o fármaco em uso, sob observação', 'HLA-B*57:01; trocar por oxcarbazepina, que não tem reação cruzada alguma'],
     g: 'B',
     c: 'O alelo HLA-B*15:02, frequente em populações do leste e sudeste asiático, aumenta muito o risco de síndrome de Stevens-Johnson e necrólise epidérmica tóxica com carbamazepina, por apresentar o fármaco a linfócitos T citotóxicos. Recomenda-se a genotipagem antes do início em pessoas dessa ascendência. Diante da reação, o fármaco é suspenso de imediato, evitando-se outros anticrise aromáticos (fenitoína, oxcarbazepina, fenobarbital, lamotrigina) pela reatividade cruzada.',
     x: { A: 'O HLA-B27 associa-se a espondiloartrites, e reduzir a dose não trata a reação.', C: 'O HLA-DQ2 associa-se à doença celíaca; manter o fármaco pode ser fatal.', D: 'O HLA-B*57:01 relaciona-se ao abacavir, e a oxcarbazepina tem reação cruzada.' },
@@ -133,7 +133,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Lamotrigina e rash',
     e: 'Paciente em uso de valproato tem lamotrigina associada ao esquema e, na terceira semana, desenvolve exantema maculopapular difuso. Sobre o rash pela lamotrigina, é correto afirmar:',
-    o: ['É independente da velocidade de titulação', 'O risco aumenta com titulação rápida e com o uso concomitante de valproato, que inibe o metabolismo da lamotrigina', 'O valproato reduz o nível sérico de lamotrigina, protegendo contra o rash', 'A conduta é manter a lamotrigina e associar corticoide tópico'],
+    o: ['É independente da velocidade de titulação da lamotrigina e do uso de valproato', 'Risco maior com titulação rápida e com valproato, que inibe o metabolismo da lamotrigina', 'O valproato reduz o nível sérico de lamotrigina, protegendo contra o rash cutâneo', 'A conduta é manter a lamotrigina e associar corticoide tópico nas lesões'],
     g: 'B',
     c: 'A lamotrigina é metabolizada por glicuronidação, via inibida pelo valproato, que praticamente dobra sua meia-vida. Por isso, em associação, a dose inicial deve ser menor e o aumento mais lento. O rash pode evoluir para síndrome de Stevens-Johnson, e diante de exantema o fármaco deve ser suspenso, a menos que haja outra causa evidente.',
     x: { A: 'A titulação lenta é a principal medida de prevenção do rash.', C: 'O valproato aumenta, e não reduz, o nível sérico da lamotrigina.', D: 'Manter o fármaco expõe ao risco de reação cutânea grave.' },
@@ -149,7 +149,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Topiramato',
     e: 'Mulher de 34 anos em uso de topiramato para epilepsia e profilaxia de enxaqueca queixa-se de dificuldade para encontrar palavras, formigamento nas mãos, perda de 6 kg e teve um episódio de cólica renal. Esses efeitos se explicam principalmente porque o topiramato:',
-    o: ['Induz fortemente o citocromo P450, reduzindo hormônios tireoidianos', 'Inibe a anidrase carbônica, causando acidose metabólica leve, parestesias e predisposição à nefrolitíase, além de efeitos cognitivos e anorexia', 'Bloqueia receptores dopaminérgicos, causando parkinsonismo', 'Aumenta a secreção de hormônio antidiurético, causando hiponatremia'],
+    o: ['Induz fortemente o citocromo P450, reduzindo os hormônios tireoidianos', 'Inibe a anidrase carbônica: acidose leve, parestesias, nefrolitíase, efeitos cognitivos, anorexia', 'Bloqueia receptores dopaminérgicos D2, causando parkinsonismo e distonia', 'Aumenta a secreção de hormônio antidiurético, causando hiponatremia dilucional'],
     g: 'B',
     c: 'O topiramato tem vários mecanismos, entre eles a inibição da anidrase carbônica, que gera acidose metabólica hiperclorêmica, hipocitratúria e urina alcalina, favorecendo cálculos de fosfato de cálcio, além de parestesias. Causa ainda lentificação cognitiva e dificuldade de nomeação, perda de peso, oligoidrose em crianças e, raramente, glaucoma agudo de ângulo fechado.',
     x: { A: 'O topiramato é indutor fraco, e esse mecanismo não explica o quadro.', C: 'Não há bloqueio dopaminérgico nem parkinsonismo com o topiramato.', D: 'Hiponatremia por esse mecanismo é própria de carbamazepina e oxcarbazepina.' },
@@ -157,7 +157,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Mulher em idade fértil',
     e: 'Mulher de 19 anos recebe o diagnóstico de epilepsia mioclônica juvenil. Tem vida sexual ativa e não usa método contraceptivo. Na escolha do tratamento, a conduta mais adequada é:',
-    o: ['Iniciar valproato, que é o mais eficaz, sem necessidade de outras orientações', 'Evitar o valproato como primeira opção, preferindo levetiracetam ou lamotrigina, orientar contracepção eficaz e prescrever ácido fólico', 'Iniciar carbamazepina, por ser a mais segura na gestação', 'Não tratar até que ela deseje engravidar'],
+    o: ['Iniciar valproato, que é o mais eficaz, sem necessidade de outras orientações', 'Evitar valproato de início; levetiracetam ou lamotrigina, contracepção eficaz e ácido fólico', 'Iniciar carbamazepina, por ser a mais segura na gestação e na epilepsia mioclônica', 'Não tratar até que ela deseje engravidar, para evitar a exposição fetal'],
     g: 'B',
     c: 'O valproato é o fármaco anticrise mais teratogênico, com risco de malformações maiores em torno de 10%, incluindo defeitos do tubo neural, e de prejuízo cognitivo e transtorno do espectro autista na criança exposta, de forma dose-dependente. Por isso deve ser evitado em mulheres com potencial de engravidar, salvo falha das alternativas. Levetiracetam e lamotrigina têm os menores riscos. O ácido fólico deve ser iniciado antes da concepção.',
     x: { A: 'O valproato só deve ser usado nessa população se não houver alternativa eficaz.', C: 'A carbamazepina agrava mioclonias e não é opção nessa síndrome.', D: 'Deixar de tratar expõe a crises tônico-clônicas, com risco de trauma e morte.' },
@@ -165,7 +165,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Gestante de 9 semanas, com epilepsia focal bem controlada com lamotrigina em monoterapia há 3 anos, pergunta se deve parar a medicação. A orientação correta é:',
-    o: ['Suspender imediatamente, pois todo fármaco anticrise é contraindicado na gestação', 'Manter a lamotrigina em monoterapia na menor dose eficaz, com ácido fólico, monitorando o nível sérico, que tende a cair ao longo da gestação', 'Trocar para valproato, que é mais seguro para o feto', 'Trocar para fenobarbital e associar fenitoína'],
+    o: ['Suspender imediatamente, pois todo fármaco anticrise é contraindicado na gestação', 'Manter lamotrigina em monoterapia, menor dose eficaz, com ácido fólico e nível sérico', 'Trocar para valproato, que é mais seguro para o feto, na gestação', 'Trocar para fenobarbital e associar fenitoína, que são mais seguros na gestação'],
     g: 'B',
     c: 'As crises tônico-clônicas na gestação trazem risco de hipóxia fetal, trauma, aborto e morte materna, de modo que o tratamento não deve ser interrompido. Mantém-se monoterapia na menor dose eficaz, de preferência lamotrigina ou levetiracetam. Na gravidez, o aumento da glicuronidação e do volume de distribuição reduz muito o nível de lamotrigina, exigindo ajuste de dose e retorno à dose anterior após o parto.',
     x: { A: 'O risco das crises não controladas supera o do fármaco bem escolhido.', C: 'O valproato é o mais teratogênico e não deve ser introduzido na gestação.', D: 'Politerapia e fenobarbital aumentam o risco de malformações.' },
@@ -173,7 +173,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Interação com anticoncepcionais',
     e: 'Mulher de 24 anos com epilepsia focal em uso de carbamazepina deseja usar anticoncepcional oral combinado. Sobre a interação, é correto afirmar:',
-    o: ['Não há interação, e qualquer método hormonal pode ser usado', 'A carbamazepina é indutora enzimática e reduz a eficácia dos contraceptivos hormonais orais, devendo-se preferir dispositivo intrauterino ou medroxiprogesterona de depósito', 'A carbamazepina aumenta o nível do estrogênio, elevando o risco de trombose', 'O anticoncepcional combinado aumenta o nível sérico de carbamazepina'],
+    o: ['Não há interação, e qualquer método hormonal pode ser usado', 'A carbamazepina é indutora enzimática e reduz a eficácia dos hormonais orais: DIU ou DMPA', 'A carbamazepina aumenta o nível do estrogênio, elevando o risco de trombose', 'O anticoncepcional combinado aumenta o nível sérico de carbamazepina'],
     g: 'B',
     c: 'Indutores do citocromo P450 3A4, como carbamazepina, fenitoína, fenobarbital, primidona, oxcarbazepina e topiramato em dose alta, aceleram o metabolismo de estrogênios e progestagênios, reduzindo a eficácia de pílulas, adesivo, anel e implante. Os métodos preferidos são os dispositivos intrauterinos e a medroxiprogesterona injetável. No sentido inverso, o estrogênio reduz o nível da lamotrigina, podendo causar crises.',
     x: { A: 'Há interação clinicamente relevante, com falha contraceptiva documentada.', C: 'A indução enzimática reduz, e não aumenta, o nível do estrogênio.', D: 'A interação inversa relevante ocorre com a lamotrigina, não com a carbamazepina.' },
@@ -181,7 +181,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Retirada da medicação',
     e: 'Adolescente de 14 anos com epilepsia focal sem lesão na ressonância está há 3 anos sem crises com monoterapia e tem eletroencefalograma normal. A família pergunta sobre a suspensão do fármaco. A conduta adequada é:',
-    o: ['Nunca suspender, pois a epilepsia não tem remissão', 'Considerar a retirada gradual, ao longo de meses, após pelo menos 2 anos sem crises, discutindo o risco de recorrência com o paciente e a família', 'Suspender abruptamente, pois o risco é o mesmo', 'Suspender apenas após 10 anos sem crises'],
+    o: ['Nunca suspender, pois a epilepsia não tem remissão em nenhuma situação', 'Retirada gradual, em meses, após ≥ 2 anos sem crises, discutindo o risco de recorrência', 'Suspender abruptamente, pois o risco de recorrência é o mesmo que o da retirada gradual', 'Suspender apenas após 10 anos sem crises, e nunca antes disso'],
     g: 'B',
     c: 'Após 2 anos ou mais sem crises, pode-se propor a retirada lenta do fármaco; a recorrência ocorre em cerca de um terço dos casos, sobretudo no primeiro ano. Favorecem o sucesso: exame neurológico e eletroencefalograma normais, monoterapia, ausência de lesão estrutural e síndrome de bom prognóstico. A retirada abrupta, principalmente de barbitúricos e benzodiazepínicos, pode precipitar crises e estado de mal.',
     x: { A: 'Muitas epilepsias remitem, e a retirada é possível em casos selecionados.', C: 'A retirada abrupta aumenta o risco de crises de rebote e estado de mal.', D: 'Não há exigência de 10 anos para tentar a retirada da medicação.' },
@@ -189,7 +189,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'Direção veicular',
     e: 'Homem de 32 anos com epilepsia, em uso regular de medicação e sem crises há 14 meses, deseja obter a Carteira Nacional de Habilitação. De acordo com as normas brasileiras (resolução do CONTRAN baseada em recomendação das sociedades médicas), é correto afirmar:',
-    o: ['Pessoas com epilepsia são definitivamente inaptas para dirigir', 'Pode ser considerado apto para a categoria B se estiver há pelo menos 1 ano sem crises em uso de medicação, com parecer favorável do médico assistente e adesão ao tratamento', 'Pode dirigir veículos de transporte coletivo e de carga sem restrições', 'Basta estar há 1 mês sem crises para obter a habilitação'],
+    o: ['Pessoas com epilepsia são definitivamente inaptas para dirigir', 'Apto à categoria B se ≥ 1 ano sem crises sob medicação, com parecer médico e adesão', 'Pode dirigir veículos de transporte coletivo e de carga sem restrições', 'Basta estar há 1 mês sem crises para obter a habilitação'],
     g: 'B',
     c: 'A norma brasileira permite a habilitação na categoria B para a pessoa em tratamento que esteja há 1 ano sem crises, com relatório favorável do médico assistente e boa adesão. Para quem está em retirada de medicação, exige-se período mínimo sem crises antes e após a suspensão. Em geral não se permite a condução profissional de veículos pesados e de transporte coletivo. Cabe ao médico orientar e registrar a orientação.',
     x: { A: 'A epilepsia controlada não impede a habilitação para veículos de passeio.', C: 'As categorias profissionais têm restrição para pessoas com epilepsia.', D: 'O período mínimo exigido em tratamento é de 1 ano sem crises.' },
@@ -197,7 +197,7 @@ export const EPILEPSIA_4: QuestaoCompacta[] = [
   {
     s: 'SUDEP',
     e: 'A morte súbita inesperada na epilepsia (SUDEP) tem como principal fator de risco:',
-    o: ['Crises de ausência frequentes', 'Crises tônico-clônicas generalizadas frequentes e não controladas, especialmente noturnas', 'Uso de lamotrigina em monoterapia', 'Epilepsia rolândica da infância'],
+    o: ['Crises de ausência frequentes, mesmo se controladas pelo tratamento', 'Crises tônico-clônicas generalizadas frequentes e não controladas, sobretudo noturnas', 'Uso de lamotrigina em monoterapia, em dose habitual de manutenção', 'Epilepsia rolândica da infância, de curso benigno e autolimitado'],
     g: 'B',
     c: 'A SUDEP é a morte súbita, não traumática e sem causa identificada na necropsia, de pessoa com epilepsia, e é a principal causa de morte diretamente relacionada à doença nos casos refratários. O risco cresce com a frequência de crises tônico-clônicas, com crises noturnas não supervisionadas e com má adesão. O mecanismo provável é depressão cardiorrespiratória e do despertar no pós-ictal. A melhor prevenção é o controle das crises.',
     x: { A: 'Crises de ausência não se associam a morte súbita.', C: 'Nenhum fármaco isolado é fator de risco estabelecido; o risco é o descontrole das crises.', D: 'A epilepsia rolândica é autolimitada e tem crises pouco frequentes.' },

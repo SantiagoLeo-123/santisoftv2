@@ -13,7 +13,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Choque cardiogênico',
     e: 'Mulher de 66 anos com infarto anterior extenso há 8 horas evolui com pressão arterial de 76 x 48 mmHg, extremidades frias, oligúria, confusão mental e lactato elevado, sem resposta a volume. A medida com maior impacto na sobrevida é:',
-    o: ['Balão intra-aórtico de rotina', 'Revascularização de emergência da artéria culpada', 'Dopamina em dose alta como tratamento definitivo', 'Betabloqueador venoso'],
+    o: ['Balão intra-aórtico de rotina, como primeira medida', 'Revascularização de emergência da artéria culpada', 'Dopamina em dose alta como tratamento definitivo', 'Betabloqueador venoso, para reduzir a frequência cardíaca'],
     g: 'B',
     c: 'O choque cardiogênico decorre da perda de grande massa contrátil do ventrículo esquerdo. A única medida que reduziu mortalidade foi a revascularização precoce (estudo SHOCK), indicada independentemente do tempo de evolução do infarto. No choque, trata-se inicialmente apenas a lesão culpada, pois a abordagem multiarterial imediata aumentou morte e insuficiência renal (CULPRIT-SHOCK).',
     x: { A: 'O balão intra-aórtico de rotina não reduziu a mortalidade no estudo IABP-SHOCK II.', C: 'Vasopressores são suporte temporário; a noradrenalina é preferida à dopamina, que causa mais arritmias.', D: 'Betabloqueador é contraindicado no choque por seu efeito inotrópico negativo.' },
@@ -29,7 +29,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Complicações mecânicas',
     e: 'Homem de 67 anos, no quarto dia de infarto inferior, apresenta dispneia súbita e edema agudo de pulmão. Ausculta: sopro sistólico novo em foco mitral, irradiado para a axila, sem frêmito. A complicação mais provável e seu mecanismo são:',
-    o: ['Comunicação interventricular por necrose septal', 'Insuficiência mitral aguda por ruptura do músculo papilar posteromedial, que tem irrigação única', 'Aneurisma de ventrículo esquerdo', 'Pericardite epistenocárdica'],
+    o: ['CIV por necrose septal, com sopro holossistólico', 'IM aguda por ruptura do músculo papilar posteromedial (irrigação única)', 'Aneurisma de ventrículo esquerdo, com supra persistente', 'Pericardite epistenocárdica, com atrito pericárdico'],
     g: 'B',
     c: 'O músculo papilar posteromedial recebe sangue apenas da descendente posterior, enquanto o anterolateral tem irrigação dupla (descendente anterior e circunflexa). Por isso ele se rompe mais, tipicamente em infartos inferiores, entre o segundo e o sétimo dia. A regurgitação aguda em átrio pequeno e não complacente gera edema pulmonar súbito; o tratamento é cirúrgico de urgência, com vasodilatador e balão intra-aórtico como ponte.',
     x: { A: 'A comunicação interventricular gera sopro rude com frêmito na borda esternal, com predomínio de falência direita.', C: 'O aneurisma é complicação tardia e não causa sopro novo com edema súbito.', D: 'A pericardite causa dor pleurítica e atrito, não edema agudo de pulmão.' },
@@ -37,7 +37,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Complicações mecânicas',
     e: 'Mulher de 72 anos, no quinto dia de infarto anterior, desenvolve hipotensão e sopro holossistólico rude com frêmito na borda esternal esquerda baixa. O achado que confirma o diagnóstico mais provável durante a passagem de cateter de artéria pulmonar é:',
-    o: ['Ondas v gigantes no traçado de pressão capilar pulmonar, sem salto oximétrico', 'Salto oximétrico, com aumento da saturação de oxigênio do átrio direito para a artéria pulmonar', 'Equalização das pressões diastólicas das quatro câmaras', 'Pressão capilar pulmonar baixa com débito cardíaco elevado'],
+    o: ['Ondas v gigantes na pressão capilar pulmonar, sem salto oximétrico', 'Salto oximétrico: aumento da saturação de O2 do AD para a artéria pulmonar', 'Equalização das pressões diastólicas das quatro câmaras', 'Pressão capilar pulmonar baixa, com débito cardíaco elevado'],
     g: 'B',
     c: 'Na ruptura do septo interventricular o sangue oxigenado passa do ventrículo esquerdo para o direito, elevando a saturação a partir do ventrículo direito: é o salto oximétrico. O sopro com frêmito é característico. O ecocardiograma com Doppler confirma o defeito, e o tratamento é a correção cirúrgica, com suporte hemodinâmico até lá.',
     x: { A: 'Ondas v gigantes sem salto oximétrico indicam insuficiência mitral aguda.', C: 'A equalização das pressões diastólicas sugere tamponamento cardíaco.', D: 'Esse perfil é de choque distributivo, não de complicação mecânica.' },
@@ -45,7 +45,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Complicações mecânicas',
     e: 'Mulher de 78 anos, hipertensa, no terceiro dia do primeiro infarto, anterior e sem reperfusão, apresenta dor torácica súbita seguida de perda de consciência. Monitor com ritmo sinusal organizado, sem pulso palpável, e turgência jugular acentuada. A causa mais provável é:',
-    o: ['Fibrilação ventricular primária', 'Ruptura da parede livre do ventrículo esquerdo com tamponamento cardíaco', 'Reinfarto por trombose de stent', 'Bloqueio atrioventricular total'],
+    o: ['Fibrilação ventricular primária, com parada súbita', 'Ruptura da parede livre do VE com tamponamento cardíaco', 'Reinfarto por trombose de stent, com nova elevação de ST', 'Bloqueio atrioventricular total, com escape lento'],
     g: 'B',
     c: 'A ruptura de parede livre causa hemopericárdio e tamponamento, manifestando-se como atividade elétrica sem pulso, e é quase sempre fatal. Fatores de risco: idade avançada, sexo feminino, hipertensão, primeiro infarto (sem circulação colateral), ausência de reperfusão ou fibrinólise tardia e uso de corticoide ou anti-inflamatório.',
     x: { A: 'Na fibrilação ventricular o monitor mostra ritmo caótico, não ritmo sinusal organizado.', C: 'A paciente não foi reperfundida nem recebeu stent.', D: 'No bloqueio total o monitor mostraria dissociação atrioventricular com frequência baixa.' },
@@ -53,7 +53,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Aneurisma ventricular',
     e: 'Homem de 62 anos, 8 semanas após infarto anterior extenso não reperfundido, tem dispneia aos esforços. Não sente dor. O eletrocardiograma mostra ondas Q de V1 a V5 com supradesnivelamento de ST persistente nessas derivações, igual ao da alta. Troponina normal. O diagnóstico mais provável é:',
-    o: ['Reinfarto', 'Aneurisma de ventrículo esquerdo', 'Pericardite aguda', 'Síndrome de Dressler'],
+    o: ['Reinfarto, com nova elevação de troponina', 'Aneurisma de ventrículo esquerdo, com supra persistente', 'Pericardite aguda, com supra difuso e infra de PR', 'Síndrome de Dressler, com febre e dor pleurítica'],
     g: 'B',
     c: 'O supra de ST que persiste por mais de 4 a 6 semanas após infarto, com ondas Q e sem dor ou elevação de marcadores, sugere aneurisma verdadeiro: área de cicatriz fina e discinética, em geral anteroapical. Causa insuficiência cardíaca, arritmias ventriculares e trombo mural com risco de embolia. O ecocardiograma confirma.',
     x: { A: 'Reinfarto teria dor e nova elevação de troponina.', C: 'A pericardite causa supra difuso com dor pleurítica, não restrito à área das ondas Q.', D: 'A síndrome de Dressler cursa com febre, dor pleurítica e derrame.' },
@@ -61,7 +61,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Trombo ventricular',
     e: 'Mulher de 59 anos, 5 dias após infarto anterior extenso, realiza ecocardiograma que mostra acinesia apical e trombo mural no ápice do ventrículo esquerdo. Está em uso de dupla antiagregação após stent. A conduta em relação ao trombo é:',
-    o: ['Manter apenas a dupla antiagregação', 'Associar anticoagulação oral por 3 a 6 meses, com reavaliação por imagem', 'Fibrinolítico sistêmico', 'Trombectomia cirúrgica imediata'],
+    o: ['Manter apenas a dupla antiagregação, sem anticoagulante', 'Associar anticoagulação oral por 3-6 meses, reavaliando por imagem', 'Fibrinolítico sistêmico, em dose plena', 'Trombectomia cirúrgica imediata, para retirar o trombo'],
     g: 'B',
     c: 'A estase em segmento acinético, a lesão endocárdica e o estado inflamatório favorecem trombo no infarto anterior extenso. A anticoagulação oral por 3 a 6 meses reduz embolia sistêmica, sobretudo cerebral. Como haverá terapia tripla, deve-se encurtar ao máximo sua duração e preferir clopidogrel como inibidor do P2Y12, pelo risco de sangramento.',
     x: { A: 'Antiplaquetários não tratam trombo intracavitário, rico em fibrina.', C: 'O fibrinolítico pode fragmentar o trombo e causar embolia e sangramento.', D: 'A cirurgia não é o tratamento inicial do trombo mural.' },
@@ -69,7 +69,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Pericardite pós-infarto',
     e: 'Homem de 57 anos, no terceiro dia de infarto anterior transmural, queixa-se de dor torácica que piora com a inspiração profunda e melhora ao sentar-se inclinado para a frente, irradiada para o trapézio. Há atrito pericárdico. O tratamento mais adequado é:',
-    o: ['Ibuprofeno em dose plena', 'Ácido acetilsalicílico em dose anti-inflamatória', 'Prednisona 1 mg/kg', 'Nova dose de fibrinolítico'],
+    o: ['Ibuprofeno em dose plena, por via oral', 'AAS em dose anti-inflamatória', 'Prednisona 1 mg/kg, por via oral', 'Nova dose de fibrinolítico, por via venosa'],
     g: 'B',
     c: 'A pericardite precoce (epistenocárdica) surge do segundo ao quarto dia por extensão da inflamação de um infarto transmural ao pericárdio. Trata-se com ácido acetilsalicílico em dose alta, podendo-se associar colchicina. Anti-inflamatórios não hormonais e corticoides devem ser evitados, pois prejudicam a cicatrização do miocárdio e favorecem afilamento da cicatriz e ruptura.',
     x: { A: 'Anti-inflamatórios não hormonais prejudicam a cicatrização e aumentam o risco de eventos.', C: 'Os corticoides se associam a afilamento da cicatriz e ruptura ventricular.', D: 'Não é reoclusão coronariana, e o fibrinolítico poderia causar hemopericárdio.' },
@@ -77,7 +77,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Dressler',
     e: 'Mulher de 61 anos, 4 semanas após infarto do miocárdio, apresenta febre, mal-estar, dor torácica pleurítica, atrito pericárdico e pequeno derrame pleural à esquerda. Velocidade de hemossedimentação elevada. A causa mais provável é:',
-    o: ['Pericardite epistenocárdica', 'Síndrome de Dressler, de mecanismo autoimune', 'Pneumonia bacteriana com empiema', 'Ruptura subaguda de parede livre'],
+    o: ['Pericardite epistenocárdica, nos primeiros dias', 'Síndrome de Dressler, de mecanismo autoimune', 'Pneumonia bacteriana com empiema, com febre alta', 'Ruptura subaguda de parede livre, com tamponamento'],
     g: 'B',
     c: 'A síndrome de Dressler é uma pleuropericardite tardia, que aparece de 2 a 10 semanas após o infarto, atribuída a resposta autoimune contra antígenos miocárdicos expostos pela necrose. Cursa com febre, serosite e provas inflamatórias elevadas, e tornou-se rara na era da reperfusão.',
     x: { A: 'A pericardite epistenocárdica ocorre nos primeiros dias, não após 4 semanas.', C: 'Não há tosse produtiva nem consolidação, e o atrito pericárdico aponta para serosite.', D: 'A ruptura subaguda causa hemopericárdio e instabilidade, não febre com pleurite.' },
@@ -93,7 +93,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Arritmias',
     e: 'Homem de 55 anos, 30 minutos após fibrinolítico para infarto inferior, com alívio da dor, apresenta ao monitor ritmo regular de QRS largo com frequência de 85 bpm, que dura 40 segundos e reverte espontaneamente. Pressão arterial de 124 x 78 mmHg, assintomático. A conduta é:',
-    o: ['Cardioversão elétrica sincronizada', 'Observação, pois se trata de ritmo idioventricular acelerado, arritmia benigna de reperfusão', 'Amiodarona venosa em dose de ataque', 'Implante de marca-passo provisório'],
+    o: ['Cardioversão elétrica sincronizada, de imediato, em carga baixa', 'Observação: ritmo idioventricular acelerado, arritmia benigna de reperfusão', 'Amiodarona venosa em dose de ataque, de imediato, seguida de infusão', 'Implante de marca-passo provisório, de imediato, por via transvenosa'],
     g: 'B',
     c: 'O ritmo idioventricular acelerado tem QRS largo e frequência entre 60 e 110 bpm, e resulta de automatismo aumentado de um foco ventricular após a reperfusão. É autolimitado, bem tolerado e marcador de recanalização; não exige tratamento, e suprimi-lo com antiarrítmico pode causar assistolia.',
     x: { A: 'O paciente está estável e a arritmia é autolimitada.', C: 'Antiarrítmicos são desnecessários e podem suprimir o ritmo de escape.', D: 'Não há bradicardia nem bloqueio que justifique marca-passo.' },
@@ -101,7 +101,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Bloqueios atrioventriculares',
     e: 'Homem de 70 anos com infarto anterior extenso evolui, no segundo dia, com bloqueio atrioventricular total, QRS largo e frequência ventricular de 32 bpm, com hipotensão. Sobre esse bloqueio, é correto afirmar que:',
-    o: ['É benigno, transitório e responde bem à atropina, como no infarto inferior', 'É infranodal, por necrose extensa do septo e do sistema His-Purkinje, com escape instável; indica marca-passo transvenoso', 'Decorre de hipertonia vagal pelo reflexo de Bezold-Jarisch', 'Deve ser tratado com betabloqueador'],
+    o: ['Benigno, transitório e responde bem à atropina, como no infarto inferior', 'Infranodal: necrose do septo e do His-Purkinje, escape instável; marca-passo transvenoso', 'Hipertonia vagal por reflexo de Bezold-Jarisch, de caráter transitório', 'Deve ser tratado com betabloqueador, em dose plena, por via venosa'],
     g: 'B',
     c: 'No infarto inferior o bloqueio é nodal (o nó atrioventricular é irrigado pela coronária direita), com QRS estreito, escape estável, em geral transitório e responsivo à atropina. No infarto anterior o bloqueio é infranodal, por necrose septal extensa, com QRS largo, escape lento e instável e mau prognóstico; a atropina é ineficaz e indica-se marca-passo.',
     x: { A: 'Essa descrição corresponde ao bloqueio do infarto inferior.', C: 'O reflexo vagal explica a bradicardia do infarto inferior, não o bloqueio do infarto anterior.', D: 'O betabloqueador agravaria a bradicardia e o bloqueio.' },
@@ -117,7 +117,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Prevenção secundária',
     e: 'Mulher de 64 anos, diabética e hipertensa, recebe alta após infarto anterior com fração de ejeção de 38%. Pressão arterial de 128 x 80 mmHg, creatinina e potássio normais. Sobre o inibidor da enzima conversora da angiotensina, é correto afirmar que:',
-    o: ['Deve ser evitado por causar hipotensão no pós-infarto', 'Está indicado e deve ser mantido indefinidamente, pois atenua o remodelamento ventricular e reduz a mortalidade', 'Só deve ser iniciado 6 meses após o infarto', 'Serve apenas para controle pressórico, sem efeito prognóstico'],
+    o: ['Deve ser evitado por causar hipotensão no pós-infarto, em diabéticos', 'Indicado e mantido indefinidamente: atenua o remodelamento e reduz a mortalidade', 'Só deve ser iniciado 6 meses após o infarto, para evitar hipotensão', 'Serve apenas para controle pressórico, sem efeito prognóstico após o infarto'],
     g: 'B',
     c: 'Após o infarto, a ativação do sistema renina-angiotensina promove dilatação e fibrose do ventrículo (remodelamento). Os inibidores da enzima conversora, iniciados nas primeiras 24 horas em pacientes estáveis, reduzem insuficiência cardíaca e morte, com benefício máximo em fração de ejeção de 40% ou menos, infarto anterior, diabetes e hipertensão. Bloqueador do receptor de angiotensina é a alternativa em caso de intolerância.',
     x: { A: 'Com pressão adequada não há contraindicação, e o benefício é grande.', C: 'O início deve ser precoce, nas primeiras 24 horas em pacientes estáveis.', D: 'Há redução comprovada de mortalidade, além do efeito anti-hipertensivo.' },
@@ -125,7 +125,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Prevenção secundária',
     e: 'Homem de 66 anos, diabético, no quinto dia de infarto, com fração de ejeção de 34% e sinais de insuficiência cardíaca, já em uso de inibidor da enzima conversora e betabloqueador. Creatinina de 1,1 mg/dL e potássio de 4,3 mEq/L. O fármaco que deve ser acrescentado por reduzir a mortalidade é:',
-    o: ['Furosemida', 'Antagonista do receptor mineralocorticoide (espironolactona ou eplerenona)', 'Digoxina', 'Anlodipino'],
+    o: ['Furosemida, para o controle da congestão pulmonar e do edema', 'Antagonista mineralocorticoide (espironolactona ou eplerenona)', 'Digoxina, em dose habitual de manutenção, por via oral', 'Anlodipino, em dose habitual de manutenção, por via oral'],
     g: 'B',
     c: 'A aldosterona promove fibrose miocárdica, retenção de sódio e perda de potássio. No estudo EPHESUS, o bloqueio mineralocorticoide iniciado precocemente após infarto com fração de ejeção de 40% ou menos, associado a insuficiência cardíaca ou diabetes, reduziu mortalidade total e morte súbita. Exige função renal e potássio adequados (potássio até 5 mEq/L).',
     x: { A: 'A furosemida alivia a congestão, mas não reduz a mortalidade.', C: 'A digoxina não reduz a mortalidade e é pró-arrítmica no pós-infarto.', D: 'O anlodipino não tem benefício prognóstico nesse contexto.' },
@@ -141,7 +141,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Prevenção secundária',
     e: 'Mulher de 62 anos teve infarto anterior há 10 dias e apresenta fração de ejeção de 35%, sem congestão, pressão arterial de 118 x 74 mmHg e frequência cardíaca de 84 bpm. Em relação ao betabloqueador na alta, é correto:',
-    o: ['Não prescrever, pois a fração de ejeção está reduzida', 'Prescrever carvedilol, bisoprolol ou succinato de metoprolol, que reduzem mortalidade e morte súbita na disfunção ventricular', 'Prescrever atenolol apenas se houver hipertensão', 'Prescrever propranolol somente por 30 dias'],
+    o: ['Não prescrever betabloqueador, pois a fração de ejeção está reduzida', 'Carvedilol, bisoprolol ou succinato de metoprolol: reduzem mortalidade e morte súbita', 'Atenolol apenas se houver hipertensão associada, em dose habitual', 'Propranolol somente por 30 dias após o infarto, em dose habitual'],
     g: 'B',
     c: 'Na disfunção sistólica pós-infarto, os betabloqueadores com evidência (carvedilol, bisoprolol e succinato de metoprolol) bloqueiam a toxicidade das catecolaminas, reduzem o remodelamento e as arritmias e diminuem a mortalidade; devem ser mantidos indefinidamente. Em pacientes com fração de ejeção preservada, estudos recentes questionam o benefício do uso prolongado, mas a recomendação na disfunção é consensual.',
     x: { A: 'A fração de ejeção reduzida é justamente a indicação mais forte, desde que o paciente esteja compensado.', C: 'O atenolol não tem evidência de redução de mortalidade na disfunção ventricular.', D: 'O benefício exige uso contínuo, e o propranolol não é o fármaco de escolha.' },
@@ -157,7 +157,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Angina de Prinzmetal',
     e: 'Homem de 45 anos com diagnóstico de angina vasoespástica confirmada. No tratamento de manutenção, é correto:',
-    o: ['Usar propranolol como primeira escolha', 'Usar bloqueador dos canais de cálcio, associado ou não a nitrato de ação prolongada, e cessar o tabagismo', 'Indicar cirurgia de revascularização miocárdica', 'Usar ergotamina para prevenir as crises'],
+    o: ['Propranolol como primeira escolha, em dose habitual', 'BCC, ± nitrato de ação prolongada, e cessar o tabagismo', 'Cirurgia de revascularização miocárdica, como primeira escolha', 'Ergotamina para prevenir as crises, em dose habitual'],
     g: 'B',
     c: 'Os bloqueadores dos canais de cálcio relaxam a musculatura lisa coronariana e são a base do tratamento, preferencialmente em tomada noturna; os nitratos são coadjuvantes. Betabloqueadores não seletivos podem agravar o espasmo, por deixarem o tônus alfa-adrenérgico sem oposição. Parar de fumar é essencial.',
     x: { A: 'O propranolol pode piorar o vasoespasmo.', C: 'Não há lesão obstrutiva fixa a ser revascularizada.', D: 'Derivados do ergot são vasoconstritores e desencadeiam espasmo coronariano.' },
@@ -165,7 +165,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Dor torácica no pronto-socorro',
     e: 'Homem de 57 anos, diabético, chega ao pronto-socorro com dor retroesternal em aperto há 40 minutos, associada a sudorese. Está hemodinamicamente estável. A primeira medida diagnóstica e o prazo recomendado são:',
-    o: ['Dosagem de troponina, com resultado em até 3 horas', 'Eletrocardiograma de 12 derivações, realizado e interpretado em até 10 minutos da chegada', 'Radiografia de tórax em até 1 hora', 'Ecocardiograma transtorácico em até 6 horas'],
+    o: ['Troponina, com resultado em até 3 horas', 'ECG de 12 derivações em até 10 minutos da chegada', 'Radiografia de tórax em até 1 hora da chegada', 'Ecocardiograma transtorácico em até 6 horas'],
     g: 'B',
     c: 'O eletrocardiograma em até 10 minutos é o exame que define a conduta imediata, pois identifica o supra de ST e seus equivalentes, que exigem reperfusão sem esperar marcadores. Se o primeiro traçado for normal e a suspeita persistir, deve ser repetido de forma seriada e complementado com derivações adicionais.',
     x: { A: 'A troponina é importante, mas não deve atrasar o eletrocardiograma nem a reperfusão.', C: 'A radiografia auxilia nos diagnósticos diferenciais, mas não é a primeira medida.', D: 'O ecocardiograma é complementar e não define a conduta inicial.' },
@@ -173,7 +173,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico diferencial',
     e: 'Homem de 63 anos, hipertenso mal controlado, com dor torácica súbita, lancinante, de intensidade máxima desde o início, irradiada para o dorso. Pressão de 190 x 110 mmHg no braço direito e 150 x 90 mmHg no esquerdo. Sopro diastólico em foco aórtico. Eletrocardiograma com sobrecarga ventricular esquerda. A conduta correta é:',
-    o: ['Dupla antiagregação e heparina plena, seguidas de cateterismo', 'Controle de frequência e pressão com betabloqueador venoso e angiotomografia de aorta, sem antitrombóticos', 'Fibrinolítico', 'Alta com analgésico e retorno ambulatorial'],
+    o: ['Dupla antiagregação e heparina plena, seguidas de cateterismo imediato', 'Controle de FC e PA com betabloqueador IV e angiotomografia de aorta, sem antitrombóticos', 'Fibrinolítico venoso imediato, por suspeita de infarto com supra de ST', 'Alta com analgésico e retorno ambulatorial, após controle da dor'],
     g: 'B',
     c: 'Dor súbita e lancinante com irradiação dorsal, assimetria de pressão entre os membros e insuficiência aórtica aguda indicam dissecção de aorta ascendente. O betabloqueador venoso reduz a força de cisalhamento sobre a parede (meta de frequência em torno de 60 bpm e sistólica de 100 a 120 mmHg). Antitrombóticos e fibrinolíticos podem ser fatais. O tipo A é de tratamento cirúrgico.',
     x: { A: 'Antiagregantes e anticoagulantes agravam o sangramento na dissecção.', C: 'O fibrinolítico na dissecção de aorta pode causar hemorragia fatal.', D: 'Trata-se de emergência com alta mortalidade nas primeiras horas.' },
@@ -197,7 +197,7 @@ export const CORONARIA_4: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico diferencial',
     e: 'Mulher de 68 anos apresenta dor precordial intensa logo após receber a notícia da morte do filho. Eletrocardiograma com supra de ST de V2 a V5 e troponina discretamente elevada. Coronariografia sem lesões obstrutivas; ventriculografia com acinesia e balonamento apical e hipercontratilidade dos segmentos basais. O diagnóstico é:',
-    o: ['Infarto anterior por trombo com recanalização espontânea', 'Síndrome de takotsubo (cardiomiopatia induzida por estresse)', 'Miocardiopatia hipertrófica apical', 'Angina microvascular'],
+    o: ['Infarto anterior por trombo com recanalização espontânea', 'Síndrome de takotsubo (cardiomiopatia por estresse)', 'Miocardiopatia hipertrófica apical, com ondas T gigantes', 'Angina microvascular, com coronárias normais'],
     g: 'B',
     c: 'A síndrome de takotsubo acomete principalmente mulheres após a menopausa, depois de estresse emocional ou físico intenso. A descarga de catecolaminas causa atordoamento miocárdico em uma distribuição que ultrapassa o território de uma única coronária, com elevação de troponina pequena em relação à extensão da disfunção. A função ventricular costuma se recuperar em semanas.',
     x: { A: 'A alteração contrátil ultrapassa um território coronariano e não há lesão culpada.', C: 'A forma apical da miocardiopatia hipertrófica mostra ápice espessado, não balonamento agudo.', D: 'A angina microvascular não produz balonamento apical agudo com supra de ST.' },
