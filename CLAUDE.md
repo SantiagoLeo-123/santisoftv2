@@ -113,7 +113,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Epidemiologia: Índices, Transição Demográfica e Epidemiológica
 - [x] Epidemiologia: Coeficientes
 - [x] Epidemiologia: Doenças Crônicas Não Transmissíveis e Declaração de Óbito
-- [ ] Epidemiologia: Classificação dos Estudos Epidemiológicos
+- [x] Epidemiologia: Classificação dos Estudos Epidemiológicos
 - [ ] Epidemiologia: Análise I - Medidas de Frequência e Associação
 - [ ] Epidemiologia: Análise II - Estatística
 - [ ] Epidemiologia: Extras e Validação de Teste Diagnóstico
