@@ -58,6 +58,7 @@ import { FIGADO_1 } from './cirurgia/figado1';
 import { FIGADO_2 } from './cirurgia/figado2';
 import { FIGADO_3 } from './cirurgia/figado3';
 import { FIGADO_4 } from './cirurgia/figado4';
+import { DIF_FIGADO } from './cirurgia/difFigado';
 import { FIOS_1 } from './cirurgia/fios1';
 import { FIOS_2 } from './cirurgia/fios2';
 import { FIOS_3 } from './cirurgia/fios3';
@@ -131,7 +132,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...ESTOMAGO_1, ...ESTOMAGO_2, ...ESTOMAGO_3, ...ESTOMAGO_4, ...DIF_ESTOMAGO,
   ]),
   ...montarQuestoes('cir-figado', 'Cirurgia', 'Fígado e Vias Biliares', [
-    ...FIGADO_1, ...FIGADO_2, ...FIGADO_3, ...FIGADO_4,
+    ...FIGADO_1, ...FIGADO_2, ...FIGADO_3, ...FIGADO_4, ...DIF_FIGADO,
   ]),
   ...montarQuestoes('cir-fios', 'Cirurgia', 'Fios de Sutura', [
     ...FIOS_1, ...FIOS_2, ...FIOS_3, ...FIOS_4,

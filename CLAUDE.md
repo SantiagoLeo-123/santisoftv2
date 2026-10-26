@@ -95,7 +95,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Doença Inflamatória Intestinal
 - [x] Doenças do Esôfago
 - [x] Doenças do Estômago
-- [ ] Fígado e Vias Biliares
+- [x] Fígado e Vias Biliares
 - [ ] Fios de Sutura
 - [ ] Pâncreas
 - [ ] Proctologia
