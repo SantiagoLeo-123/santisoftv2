@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_PREV_ANALISE1 } from './clinica/difPrevAnalise1';
 import { DIF_PREV_ESTUDOS } from './clinica/difPrevEstudos';
 import { DIF_PREV_DCNT } from './clinica/difPrevDcnt';
 import { DIF_PREV_COEFICIENTES } from './clinica/difPrevCoeficientes';
@@ -631,4 +632,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-prev-coeficientes', 'Preventiva', 'Epidemiologia: Coeficientes', DIF_PREV_COEFICIENTES),
   ...montarQuestoes('dif-prev-dcnt', 'Preventiva', 'Epidemiologia: Doenças Crônicas Não Transmissíveis e Declaração de Óbito', DIF_PREV_DCNT),
   ...montarQuestoes('dif-prev-estudos', 'Preventiva', 'Epidemiologia: Classificação dos Estudos Epidemiológicos', DIF_PREV_ESTUDOS),
+  ...montarQuestoes('dif-prev-analise1', 'Preventiva', 'Epidemiologia: Análise I - Medidas de Frequência e Associação', DIF_PREV_ANALISE1),
 ];
