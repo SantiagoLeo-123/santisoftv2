@@ -5,7 +5,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Doença renal crônica: definição',
     e: 'Doença renal crônica é definida por:',
-    o: ['Alteração estrutural ou funcional renal, como TFG abaixo de 60 mL/min/1,73 m² ou albuminúria, por mais de 3 meses', 'Creatinina elevada em uma única dosagem', 'Qualquer infecção urinária', 'Hematúria isolada de 1 dia'],
+    o: ['Alteração estrutural/funcional renal (TFG < 60 ou albuminúria) por mais de 3 meses', 'Creatinina elevada em uma única dosagem, sem repetição posterior', 'Qualquer infecção urinária, mesmo sem alteração funcional renal', 'Hematúria isolada de 1 dia, sem alteração funcional renal'],
     g: 'A',
     c: 'A classificação considera TFG (G1 a G5) e albuminúria (A1 a A3). Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Pode ser aguda.', C: 'Sem relação.', D: 'Não define.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: progressão',
     e: 'Medida comprovada para reduzir a progressão da doença renal crônica com albuminúria é:',
-    o: ['IECA ou BRA e inibidores de SGLT2', 'Restrição hídrica intensa', 'Anti-inflamatórios', 'Suplemento de proteína'],
+    o: ['IECA ou BRA e inibidores de SGLT2', 'Restrição hídrica intensa, que não retarda a progressão', 'Anti-inflamatórios, que aceleram a progressão', 'Suplemento de proteína, que aumenta a hiperfiltração'],
     g: 'A',
     c: 'Controle pressórico e glicêmico também são essenciais. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Sem benefício.', C: 'Nefrotóxicos.', D: 'Pode acelerar.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: anemia',
     e: 'A principal causa da anemia na doença renal crônica é:',
-    o: ['Deficiência relativa de eritropoetina', 'Hemólise', 'Deficiência de vitamina B12', 'Sangramento digestivo sempre'],
+    o: ['Deficiência relativa de eritropoetina', 'Hemólise, por toxinas urêmicas', 'Deficiência de vitamina B12, por dieta pobre', 'Sangramento digestivo, sempre, em todos os casos'],
     g: 'A',
     c: 'A deficiência de ferro frequentemente coexiste. Referência: KDIGO Clinical Practice Guideline for Anemia in Chronic Kidney Disease. Kidney Int Suppl. 2012;2(4):279-335.',
     x: { B: 'Não é a principal.', C: 'Não é a principal.', D: 'Pode contribuir.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: anemia',
     e: 'Antes de iniciar eritropoetina na anemia da DRC, deve-se:',
-    o: ['Avaliar e corrigir a deficiência de ferro (ferritina e saturação de transferrina)', 'Transfundir sempre', 'Iniciar corticoide', 'Dar vitamina C em dose alta'],
+    o: ['Avaliar e corrigir a deficiência de ferro (ferritina e saturação de transferrina)', 'Transfundir sempre, antes de iniciar a eritropoetina, em todos os casos', 'Iniciar corticoide, antes de iniciar a eritropoetina, em todos os casos', 'Dar vitamina C em dose alta, antes de iniciar a eritropoetina'],
     g: 'A',
     c: 'A meta de hemoglobina geralmente não ultrapassa 11,5 g/dL, pelo risco cardiovascular. Referência: KDIGO Clinical Practice Guideline for Anemia in Chronic Kidney Disease. Kidney Int Suppl. 2012;2(4):279-335.',
     x: { B: 'Sem indicação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Distúrbio mineral e ósseo',
     e: 'Na doença renal crônica avançada, o padrão laboratorial típico é:',
-    o: ['Fósforo elevado, cálcio baixo ou normal, PTH elevado e calcitriol baixo', 'Fósforo baixo e PTH baixo', 'Cálcio muito alto e PTH baixo sempre', 'Todos normais'],
+    o: ['Fósforo alto, cálcio baixo/normal, PTH alto e calcitriol baixo', 'Fósforo baixo e PTH baixo, na doença avançada', 'Cálcio muito alto e PTH baixo, sempre, em todos os casos', 'Todos normais, na doença renal avançada'],
     g: 'A',
     c: 'A redução da excreção de fosfato e da ativação da vitamina D estimula as paratireoides. Referência: KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease-Mineral and Bone Disorder (CKD-MBD). Kidney Int Suppl. 2017;7(1):1-59.',
     x: { B: 'O oposto.', C: 'Não é o padrão.', D: 'Alterado.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Hiperfosfatemia',
     e: 'O tratamento da hiperfosfatemia na doença renal crônica inclui:',
-    o: ['Restrição de fósforo na dieta e quelantes de fósforo junto às refeições', 'Suplemento de fósforo', 'Diurético', 'Antibiótico'],
+    o: ['Restrição de fósforo na dieta e quelantes junto às refeições', 'Suplemento de fósforo, que piora a hiperfosfatemia', 'Diurético, que não reduz o fósforo sérico', 'Antibiótico, que não reduz o fósforo sérico'],
     g: 'A',
     c: 'Quelantes: carbonato de cálcio, sevelâmer. Referência: KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease-Mineral and Bone Disorder (CKD-MBD). Kidney Int Suppl. 2017;7(1):1-59.',
     x: { B: 'Pioraria.', C: 'Sem efeito.', D: 'Sem relação.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo secundário',
     e: 'No hiperparatireoidismo secundário refratário da DRC, uma opção medicamentosa é:',
-    o: ['Calcimimético (cinacalcete) ou análogos de vitamina D', 'Suplemento de cálcio em dose muito alta', 'Diurético tiazídico', 'Lítio'],
+    o: ['Calcimimético (cinacalcete) ou análogos de vitamina D', 'Suplemento de cálcio em dose muito alta, que causa hipercalcemia', 'Diurético tiazídico, que reduz a calciúria', 'Lítio, que aumenta o PTH'],
     g: 'A',
     c: 'Paratireoidectomia em casos refratários. Referência: KDIGO 2017 Clinical Practice Guideline Update for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease-Mineral and Bone Disorder (CKD-MBD). Kidney Int Suppl. 2017;7(1):1-59.',
     x: { B: 'Risco de calcificação.', C: 'Sem relação.', D: 'Pioraria.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo terciário',
     e: 'Paciente após transplante renal persiste com PTH elevado e hipercalcemia. O diagnóstico é:',
-    o: ['Hiperparatireoidismo terciário (autonomia das paratireoides)', 'Hiperparatireoidismo secundário típico', 'Hipoparatireoidismo', 'Normal'],
+    o: ['Hiperparatireoidismo terciário (autonomia das paratireoides)', 'Hiperparatireoidismo secundário típico, com cálcio baixo', 'Hipoparatireoidismo, com PTH baixo', 'Normalidade do metabolismo mineral, com PTH normal'],
     g: 'A',
     c: 'Geralmente exige paratireoidectomia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Cálcio baixo ou normal.', C: 'PTH baixo.', D: 'Alterado.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: acidose',
     e: 'Paciente com DRC e bicarbonato sérico de 18 mEq/L. A conduta é:',
-    o: ['Suplementar bicarbonato de sódio oral', 'Nenhuma', 'Diurético', 'Restrição de bicarbonato'],
+    o: ['Suplementar bicarbonato de sódio por via oral', 'Nenhuma conduta, pois a acidose é bem tolerada', 'Diurético de alça, para eliminar o ácido', 'Restrição de bicarbonato na dieta e nos medicamentos'],
     g: 'A',
     c: 'A acidose acelera perda óssea, muscular e progressão renal. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Deve tratar.', C: 'Sem relação.', D: 'Sem sentido.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia',
     e: 'Paciente com DRC e potássio de 7,2 mEq/L com alterações no ECG. A primeira medida é:',
-    o: ['Gluconato de cálcio intravenoso para estabilizar a membrana', 'Resina de troca isolada', 'Diurético isolado', 'Observação'],
+    o: ['Gluconato de cálcio IV para estabilizar a membrana', 'Resina de troca isolada, que tem ação lenta', 'Diurético isolado, que tem ação lenta', 'Observação clínica, sem tratamento imediato'],
     g: 'A',
     c: 'Depois, insulina com glicose e beta-agonista; remover potássio com diurético, resinas ou diálise. Referência: Lindner G et al. Acute hyperkalemia in the emergency department: a summary from a Kidney Disease: Improving Global Outcomes conference. Eur J Emerg Med. 2020;27(5):329-37.',
     x: { B: 'Efeito lento.', C: 'Insuficiente.', D: 'Risco de arritmia.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Pericardite urêmica',
     e: 'Paciente com DRC avançada, dor torácica e atrito pericárdico. A conduta é:',
-    o: ['Iniciar ou intensificar diálise', 'Anti-inflamatório isolado', 'Antibiótico', 'Observação'],
+    o: ['Iniciar ou intensificar a diálise', 'Anti-inflamatório isolado, sem diálise', 'Antibiótico, sem diálise', 'Observação clínica, sem diálise'],
     g: 'A',
     c: 'É indicação de diálise. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Insuficiente e nefrotóxico.', C: 'Sem infecção.', D: 'Risco de tamponamento.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Diálise: indicações',
     e: 'Indicação de início de diálise na DRC é:',
-    o: ['Sintomas urêmicos, hipervolemia ou hipercalemia refratárias, acidose grave ou desnutrição progressiva', 'TFG de 40 mL/min sem sintomas', 'Creatinina de 2', 'Proteinúria isolada'],
+    o: ['Sintomas urêmicos, hipervolemia ou hipercalemia refratárias, acidose grave, desnutrição', 'TFG de 40 mL/min, sem sintomas urêmicos, hipervolemia ou hipercalemia', 'Creatinina de 2 mg/dL, sem sintomas urêmicos, hipervolemia ou hipercalemia', 'Proteinúria isolada, sem sintomas urêmicos, hipervolemia ou hipercalemia'],
     g: 'A',
     c: 'Não se recomenda início apenas por valor de TFG. Referência: Cooper BA et al. A randomized, controlled trial of early versus late initiation of dialysis (IDEAL). N Engl J Med. 2010;363(7):609-19.',
     x: { B: 'Precoce.', C: 'Precoce.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Diálise peritoneal: complicação',
     e: 'Paciente em diálise peritoneal com dor abdominal e líquido turvo com mais de 100 leucócitos por mm³. O diagnóstico e o tratamento são:',
-    o: ['Peritonite associada à diálise; antibiótico intraperitoneal', 'Apendicite; cirurgia', 'Normal', 'Pancreatite'],
+    o: ['Peritonite associada à diálise: antibiótico intraperitoneal', 'Apendicite aguda, com tratamento cirúrgico de urgência', 'Líquido normal da diálise peritoneal, sem tratamento', 'Pancreatite aguda, com jejum e analgesia, sem antibiótico'],
     g: 'A',
     c: 'Agentes comuns: estafilococos de pele. Referência: Li PKT et al. ISPD peritonitis guideline recommendations: 2022 update on prevention and treatment. Perit Dial Int. 2022;42(2):110-53.',
     x: { B: 'Menos provável.', C: 'É anormal.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Metformina',
     e: 'Paciente diabético com TFG de 25 mL/min/1,73 m². Sobre a metformina:',
-    o: ['Deve ser suspensa, pelo risco de acidose lática', 'Pode manter dose máxima', 'Deve dobrar a dose', 'Não há relação com a função renal'],
+    o: ['Deve ser suspensa, pelo risco de acidose lática', 'Pode manter a dose máxima, sem ajuste', 'Deve dobrar a dose, para compensar a perda', 'Não há relação com a função renal'],
     g: 'A',
     c: 'Entre 30 e 45, reduzir a dose. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Risco.', C: 'Risco.', D: 'Há relação.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: hipertensão',
     e: 'A meta pressórica na doença renal crônica, segundo o KDIGO 2021, é:',
-    o: ['PA sistólica abaixo de 120 mmHg, se tolerada, com medida padronizada', 'Abaixo de 160 mmHg', 'Abaixo de 140/90 apenas em diabéticos', 'Não há meta'],
+    o: ['PAS < 120 mmHg, se tolerada, com medida padronizada', 'Abaixo de 160 mmHg, em todos os pacientes', 'Abaixo de 140/90, apenas em diabéticos', 'Não há meta pressórica definida'],
     g: 'A',
     c: 'Outras diretrizes aceitam metas de 130/80. Referência: KDIGO 2021 Clinical Practice Guideline for the Management of Blood Pressure in Chronic Kidney Disease. Kidney Int. 2021;99(3S):S1-87.',
     x: { B: 'Alta.', C: 'Não é a recomendação.', D: 'Há meta.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Calcifilaxia',
     e: 'Paciente em diálise com lesões cutâneas dolorosas necróticas em coxas e abdome, com fósforo elevado. A hipótese é:',
-    o: ['Calcifilaxia (arteriolopatia urêmica calcificante)', 'Celulite', 'Vasculite ANCA', 'Dermatite'],
+    o: ['Calcifilaxia (arteriolopatia urêmica calcificante)', 'Celulite bacteriana, com febre e leucocitose', 'Vasculite ANCA, com acometimento renal', 'Dermatite de contato, com prurido e vesículas'],
     g: 'A',
     c: 'Alta mortalidade; tiossulfato de sódio é uma opção. Referência: Nigwekar SU et al. Calciphylaxis. N Engl J Med. 2018;378(18):1704-14.',
     x: { B: 'Sem necrose desse padrão.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: prurido',
     e: 'O prurido urêmico relaciona-se, entre outros, a:',
-    o: ['Hiperfosfatemia, hiperparatireoidismo e diálise inadequada', 'Anemia ferropriva apenas', 'Uso de IECA', 'Hipocalemia'],
+    o: ['Hiperfosfatemia, hiperparatireoidismo e diálise inadequada', 'Anemia ferropriva apenas, sem outras causas', 'Uso de IECA, que não causa prurido urêmico', 'Hipocalemia, que não causa prurido urêmico'],
     g: 'A',
     c: 'Otimizar diálise e controle de fósforo ajuda. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: vacinação',
     e: 'Pacientes com DRC que vão para diálise devem receber:',
-    o: ['Vacina contra hepatite B em esquema de dose dobrada, com dosagem de anti-HBs', 'Nenhuma vacina', 'Apenas BCG', 'Vacinas vivas obrigatórias'],
+    o: ['Vacina contra hepatite B em dose dobrada, com dosagem de anti-HBs', 'Nenhuma vacina, pois a resposta imunológica é sempre ruim', 'Apenas BCG, em dose única, como prevenção de infecções', 'Vacinas vivas obrigatórias, em dose única, antes da diálise'],
     g: 'A',
     c: 'Também influenza e pneumocócicas. Referência: Brasil. Ministério da Saúde. Manual dos CRIE. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Deve vacinar.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: rastreio',
     e: 'O rastreio de doença renal crônica em hipertensos e diabéticos é feito com:',
-    o: ['Creatinina sérica (TFG estimada) e relação albumina/creatinina urinária', 'Ultrassom renal anual', 'Biópsia renal', 'Cintilografia'],
+    o: ['Creatinina sérica (TFG estimada) e relação albumina/creatinina urinária', 'Ultrassom renal anual, de rotina, em todos os pacientes', 'Biópsia renal, de rotina, em todos os pacientes', 'Cintilografia renal, de rotina, em todos os pacientes'],
     g: 'A',
     c: 'Rastrear anualmente. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Não é rastreio.', C: 'Invasiva.', D: 'Sem indicação.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: dieta',
     e: 'Paciente com DRC estágio 4, não dialítico. A recomendação de proteína é:',
-    o: ['Restrição moderada (cerca de 0,6 a 0,8 g/kg/dia) com acompanhamento nutricional', 'Dieta hiperproteica', 'Zero proteína', 'Sem orientação'],
+    o: ['Restrição moderada (0,6-0,8 g/kg/dia) com acompanhamento nutricional', 'Dieta hiperproteica, que aumenta a hiperfiltração glomerular', 'Zero proteína na dieta, que causa desnutrição proteico-calórica', 'Sem nenhuma orientação nutricional, pois não há recomendação'],
     g: 'A',
     c: 'Em diálise, a necessidade proteica aumenta. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Acelera progressão.', C: 'Desnutrição.', D: 'Exige orientação.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: medicamentos a evitar',
     e: 'Em paciente com DRC, devem ser evitados:',
-    o: ['Anti-inflamatórios não esteroides', 'Paracetamol em dose habitual', 'IECA com monitorização', 'Estatinas'],
+    o: ['Anti-inflamatórios não esteroides', 'Paracetamol em dose habitual, que é seguro', 'IECA com monitorização, que é indicado', 'Estatinas, que são indicadas'],
     g: 'A',
     c: 'AINEs reduzem a filtração e podem causar hipercalemia. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Seguro.', C: 'Benéfico.', D: 'Benéfica.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Hemodiálise: síndrome do desequilíbrio',
     e: 'Paciente com uremia grave na primeira sessão de hemodiálise apresenta cefaleia, náuseas e convulsão. A complicação é:',
-    o: ['Síndrome do desequilíbrio da diálise, por edema cerebral', 'Hipoglicemia', 'Embolia gasosa', 'AVC hemorrágico obrigatório'],
+    o: ['Síndrome do desequilíbrio da diálise, por edema cerebral', 'Hipoglicemia, por perda de glicose', 'Embolia gasosa, por entrada de ar no circuito', 'AVC hemorrágico, obrigatoriamente, em todos os casos'],
     g: 'A',
     c: 'Prevenção: primeiras sessões curtas e com menor fluxo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Possível, mas não típica.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Hemodiálise: hipotensão',
     e: 'A complicação aguda mais comum durante a hemodiálise é:',
-    o: ['Hipotensão intradialítica', 'Hipertensão grave', 'Hemólise', 'Embolia'],
+    o: ['Hipotensão intradialítica', 'Hipertensão grave, que é menos comum', 'Hemólise, que é rara', 'Embolia gasosa, que é rara'],
     g: 'A',
     c: 'Relaciona-se a ultrafiltração excessiva. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos comum.', C: 'Rara.', D: 'Rara.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Transplante: imunossupressão',
     e: 'Paciente transplantado renal em tacrolimo inicia claritromicina e apresenta piora renal e tremor. O mecanismo é:',
-    o: ['Aumento do nível de tacrolimo por inibição do CYP3A4', 'Rejeição aguda obrigatória', 'Infecção', 'Desidratação'],
+    o: ['Aumento do nível de tacrolimo por inibição do CYP3A4', 'Rejeição aguda, obrigatoriamente, em todos os casos', 'Infecção por citomegalovírus, em todos os casos', 'Desidratação, em todos os casos'],
     g: 'A',
     c: 'Monitorar níveis ao introduzir interações. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Possível, mas a interação explica.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Transplante: rejeição',
     e: 'Rejeição aguda do transplante renal manifesta-se principalmente por:',
-    o: ['Elevação da creatinina, muitas vezes assintomática, confirmada por biópsia', 'Hipoglicemia', 'Hipertermia isolada', 'Hipotensão'],
+    o: ['Elevação da creatinina, muitas vezes assintomática, confirmada por biópsia', 'Hipoglicemia, que não é manifestação habitual da rejeição aguda', 'Hipertermia isolada, sem alteração da creatinina sérica', 'Hipotensão arterial, que não é manifestação habitual da rejeição'],
     g: 'A',
     c: 'O tratamento inclui pulsoterapia com corticoide. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Pouco específico.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC e doença cardiovascular',
     e: 'A principal causa de morte em pacientes com DRC é:',
-    o: ['Doença cardiovascular', 'Infecção urinária', 'Câncer renal', 'Uremia isolada'],
+    o: ['Doença cardiovascular', 'Infecção urinária, que é causa menos comum', 'Câncer renal, que é causa menos comum', 'Uremia isolada, que é causa menos comum'],
     g: 'A',
     c: 'A DRC é fator de risco cardiovascular importante. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Não é a principal.', C: 'Não é a principal.', D: 'Menos comum hoje.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: estatina',
     e: 'Em pacientes com DRC não dialítica acima de 50 anos, a estatina é indicada para:',
-    o: ['Reduzir eventos cardiovasculares', 'Melhorar a TFG', 'Tratar anemia', 'Reduzir fósforo'],
+    o: ['Reduzir eventos cardiovasculares', 'Melhorar a TFG, o que não ocorre', 'Tratar a anemia, o que não ocorre', 'Reduzir o fósforo, o que não ocorre'],
     g: 'A',
     c: 'Em diálise, não se recomenda iniciar de rotina. Referência: KDIGO Clinical Practice Guideline for Lipid Management in CKD. Kidney Int Suppl. 2013;3(3):259-305.',
     x: { B: 'Sem efeito direto.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Eritropoetina: efeitos',
     e: 'Efeito adverso da eritropoetina em doses altas, com hemoglobina alvo elevada, é:',
-    o: ['Aumento de eventos cardiovasculares e trombose', 'Hipotensão', 'Leucopenia', 'Hepatite'],
+    o: ['Aumento de eventos cardiovasculares e trombose', 'Hipotensão arterial, em doses altas', 'Leucopenia, em doses altas', 'Hepatite medicamentosa, em doses altas'],
     g: 'A',
     c: 'Por isso a meta não é normalizar a hemoglobina. Referência: Singh AK et al. Correction of anemia with epoetin alfa in chronic kidney disease (CHOIR). N Engl J Med. 2006;355(20):2085-98.',
     x: { B: 'Pode causar hipertensão.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Osteodistrofia renal',
     e: 'A osteíte fibrosa cística na DRC decorre de:',
-    o: ['Hiperparatireoidismo secundário com alto remanejamento ósseo', 'Excesso de vitamina D', 'Hipoparatireoidismo', 'Excesso de cálcio'],
+    o: ['Hiperparatireoidismo secundário, com alto remanejamento ósseo', 'Excesso de vitamina D, com hipercalcemia', 'Hipoparatireoidismo, com baixo remanejamento ósseo', 'Excesso de cálcio, com baixo remanejamento ósseo'],
     g: 'A',
     c: 'A doença óssea adinâmica é de baixo remanejamento. Referência: KDIGO 2017 Clinical Practice Guideline Update for CKD-MBD. Kidney Int Suppl. 2017;7(1):1-59.',
     x: { B: 'Sem relação.', C: 'Baixo remanejamento.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia: prevenção crônica',
     e: 'Paciente com DRC e hipercalemia recorrente em uso de IECA. Uma opção para manter o IECA é:',
-    o: ['Quelantes de potássio (patirômero ou ciclossilicato de zircônio) e dieta orientada', 'Suspender todos os medicamentos', 'Suplemento de potássio', 'Espironolactona em dose alta'],
+    o: ['Quelantes de potássio (patirômero, ciclossilicato de zircônio) e dieta orientada', 'Suspender todos os medicamentos, inclusive o IECA, de forma definitiva', 'Suplementar potássio por via oral, para corrigir a hipercalemia', 'Espironolactona em dose alta, que eleva ainda mais o potássio'],
     g: 'A',
     c: 'Também se pode usar diurético de alça. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Perde benefício.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Diálise: hepatite C',
     e: 'Na hemodiálise, a prevenção de transmissão de hepatites inclui:',
-    o: ['Medidas de controle de infecção, vacinação contra hepatite B e testagem periódica', 'Antibiótico profilático', 'Isolamento de todos', 'Nenhuma'],
+    o: ['Controle de infecção, vacina contra hepatite B e testagem periódica', 'Antibiótico profilático, em dose habitual, de uso contínuo', 'Isolamento de todos os pacientes em hemodiálise, de forma rotineira', 'Nenhuma medida específica é necessária nas unidades de diálise'],
     g: 'A',
     c: 'Pacientes com HBsAg positivo dialisam em máquinas exclusivas. Referência: Brasil. Agência Nacional de Vigilância Sanitária. RDC nº 11, de 13 de março de 2014 (serviços de diálise).',
     x: { B: 'Sem relação.', C: 'Excessivo.', D: 'Exige medidas.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Uremia: sintomas',
     e: 'São sintomas da síndrome urêmica:',
-    o: ['Náuseas, vômitos, anorexia, fadiga, prurido, soluços e alteração do estado mental', 'Febre alta e exantema', 'Diarreia sanguinolenta', 'Poliúria isolada'],
+    o: ['Náuseas, vômitos, anorexia, fadiga, prurido, soluços e alteração mental', 'Febre alta e exantema, que são de doença infecciosa aguda', 'Diarreia sanguinolenta, que é de doença inflamatória do cólon', 'Poliúria isolada, que não faz parte da síndrome urêmica'],
     g: 'A',
     c: 'Indicam necessidade de terapia renal substitutiva. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Não é típico.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: gestação',
     e: 'Mulher com DRC avançada que deseja engravidar deve saber que:',
-    o: ['Há maior risco de pré-eclâmpsia, perda da função renal e prematuridade', 'Não há riscos', 'A gestação melhora a função renal', 'A diálise impede gestação sempre'],
+    o: ['Há maior risco de pré-eclâmpsia, perda de função renal e prematuridade', 'Não há riscos, pois a função renal é compensada na gestação', 'A gestação melhora a função renal, em todos os casos de DRC', 'A diálise impede a gestação, sempre, em todos os casos'],
     g: 'A',
     c: 'Planejamento com nefrologista e obstetra. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Há riscos.', C: 'Afirmativa falsa.', D: 'Não impede sempre.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: idoso',
     e: 'Idoso com creatinina de 1,2 mg/dL e baixa massa muscular. Sobre a função renal:',
-    o: ['A TFG pode estar mais reduzida do que a creatinina sugere', 'A função é certamente normal', 'A creatinina superestima a doença', 'Não precisa estimar a TFG'],
+    o: ['A TFG pode estar mais reduzida do que a creatinina sugere', 'A função renal é certamente normal, com creatinina de 1,2', 'A creatinina superestima a doença, em idosos', 'Não precisa estimar a TFG, em idosos'],
     g: 'A',
     c: 'A creatinina depende da massa muscular. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Pode haver redução.', C: 'O oposto.', D: 'Deve estimar.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Inibidores de SGLT2',
     e: 'Os inibidores de SGLT2 na doença renal crônica:',
-    o: ['Reduzem progressão renal e eventos cardiovasculares, inclusive em não diabéticos', 'Só servem para controlar a glicemia', 'São contraindicados na DRC', 'Aumentam a proteinúria'],
+    o: ['Reduzem a progressão renal e os eventos CV, inclusive em não diabéticos', 'Só servem para controlar a glicemia, e não protegem o rim', 'São contraindicados na doença renal crônica, em qualquer estágio', 'Aumentam a proteinúria, e por isso são evitados na DRC'],
     g: 'A',
     c: 'Estudos DAPA-CKD e EMPA-KIDNEY. Referência: Heerspink HJL et al. Dapagliflozin in Patients with Chronic Kidney Disease. N Engl J Med. 2020;383(15):1436-46.',
     x: { B: 'Têm benefício renal.', C: 'São indicados.', D: 'Reduzem.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: hipervolemia',
     e: 'Paciente com DRC estágio 4 com edema e hipertensão. O diurético mais eficaz nessa fase é:',
-    o: ['Diurético de alça (furosemida)', 'Tiazídico isolado', 'Espironolactona isolada', 'Acetazolamida'],
+    o: ['Diurético de alça (furosemida)', 'Tiazídico isolado, que perde eficácia com TFG baixa', 'Espironolactona isolada, que causa hipercalemia', 'Acetazolamida, que causa acidose metabólica'],
     g: 'A',
     c: 'Tiazídicos perdem eficácia com TFG muito baixa, embora possam ser associados. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Menos eficaz isolado.', C: 'Risco de hipercalemia.', D: 'Sem indicação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Diálise peritoneal: vantagem',
     e: 'Uma vantagem da diálise peritoneal em relação à hemodiálise é:',
-    o: ['Preservação mais prolongada da função renal residual e maior autonomia do paciente', 'Menor necessidade de treinamento', 'Não exige cuidados de higiene', 'Indicação em cirurgias abdominais extensas'],
+    o: ['Preserva por mais tempo a função renal residual e dá mais autonomia', 'Menor necessidade de treinamento do paciente e dos familiares', 'Não exige cuidados de higiene com o cateter peritoneal', 'Indicada em cirurgias abdominais extensas, sem restrições'],
     g: 'A',
     c: 'Exige treinamento e cuidados com o cateter. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Exige treinamento.', C: 'Exige higiene.', D: 'Contraindicação relativa.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Uremia: neuropatia',
     e: 'A neuropatia urêmica é tipicamente:',
-    o: ['Polineuropatia sensitivo-motora distal e simétrica', 'Mononeurite isolada', 'Paralisia facial', 'Neuropatia óptica'],
+    o: ['Polineuropatia sensitivo-motora distal e simétrica', 'Mononeurite isolada, de um único nervo', 'Paralisia facial periférica, de um lado', 'Neuropatia óptica, com perda visual'],
     g: 'A',
     c: 'Síndrome das pernas inquietas também é comum. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: vitamina D',
     e: 'Na DRC, a deficiência de calcitriol ocorre porque:',
-    o: ['O rim é responsável pela 1-alfa-hidroxilação da vitamina D', 'O fígado não produz vitamina D', 'A dieta é pobre', 'A pele não sintetiza'],
+    o: ['O rim faz a 1-alfa-hidroxilação da vitamina D', 'O fígado não produz a vitamina D, na doença renal', 'A dieta é pobre em vitamina D, na doença renal', 'A pele não sintetiza a vitamina D, na doença renal'],
     g: 'A',
     c: 'O FGF-23 elevado também reduz a ativação. Referência: KDIGO 2017 Clinical Practice Guideline Update for CKD-MBD. Kidney Int Suppl. 2017;7(1):1-59.',
     x: { B: 'Sem relação.', C: 'Contribui pouco.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'Encaminhamento ao nefrologista',
     e: 'É critério de encaminhamento ao nefrologista:',
-    o: ['TFG abaixo de 30, albuminúria elevada persistente, queda rápida da TFG ou hematúria glomerular', 'TFG de 90 sem alterações', 'Cistite isolada', 'Cálculo único resolvido'],
+    o: ['TFG < 30, albuminúria persistente, queda rápida da TFG ou hematúria glomerular', 'TFG de 90 mL/min, sem alterações urinárias ou funcionais', 'Cistite isolada, sem alteração da função renal ou urinária', 'Cálculo único já resolvido, sem alteração da função renal'],
     g: 'A',
     c: 'O encaminhamento precoce melhora desfechos. Referência: KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-314.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_UREM: QuestaoCompacta[] = [
   {
     s: 'DRC: contraste',
     e: 'Paciente com TFG de 25 que precisa de tomografia com contraste. A conduta é:',
-    o: ['Avaliar risco e benefício, hidratar e usar a menor dose possível de contraste', 'Contraindicar sempre', 'Fazer diálise antes obrigatória', 'Usar contraste em dose dupla'],
+    o: ['Avaliar risco/benefício, hidratar e usar a menor dose de contraste', 'Contraindicar o contraste sempre, em qualquer situação clínica', 'Fazer diálise antes do exame, obrigatoriamente, em todos os casos', 'Usar contraste em dose dupla, para melhorar a qualidade da imagem'],
     g: 'A',
     c: 'O risco real de nefropatia por contraste moderno é menor que se pensava. Referência: American College of Radiology; National Kidney Foundation. Radiology. 2020;294(3):660-8.',
     x: { B: 'Não é absoluto.', C: 'Desnecessário.', D: 'Pioraria.' },

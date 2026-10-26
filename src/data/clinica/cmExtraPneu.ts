@@ -13,7 +13,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: gravidade',
     e: 'O escore CURB-65 avalia:',
-    o: ['Confusão, ureia acima de 50 mg/dL, frequência respiratória de 30 ou mais, PA sistólica abaixo de 90 ou diastólica de 60 ou menos, e idade de 65 ou mais', 'Febre, tosse e dispneia', 'Leucócitos e PCR', 'Saturação apenas'],
+    o: ['Confusão, ureia > 50, FR ≥ 30, PA baixa e idade ≥ 65 anos', 'Febre, tosse e dispneia, que são apenas sintomas da pneumonia', 'Leucócitos e PCR, que não fazem parte do escore de gravidade', 'Saturação de oxigênio apenas, que não compõe o escore isoladamente'],
     g: 'A',
     c: '0 a 1: ambulatorial; 2: considerar internação; 3 ou mais: internação, avaliar UTI. Referência: Corrêa RA et al. Recomendações para o manejo da pneumonia adquirida na comunidade 2018. J Bras Pneumol. 2018;44(5):405-23.',
     x: { B: 'Não são os critérios.', C: 'Não são.', D: 'Insuficiente.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: tratamento ambulatorial',
     e: 'Adulto de 40 anos sem comorbidades com PAC e CURB-65 de 0. O tratamento é:',
-    o: ['Amoxicilina ou macrolídeo (azitromicina) por via oral', 'Ceftriaxona intravenosa', 'Levofloxacino para todos', 'Vancomicina'],
+    o: ['Amoxicilina ou macrolídeo (azitromicina) por via oral', 'Ceftriaxona intravenosa, em internação, para todos os casos leves', 'Levofloxacino para todos, mesmo sem comorbidades', 'Vancomicina intravenosa, em internação, para todos os casos leves'],
     g: 'A',
     c: 'Quinolonas respiratórias são reservadas a comorbidades ou alergia. Referência: Corrêa RA et al. Recomendações para o manejo da pneumonia adquirida na comunidade 2018. J Bras Pneumol. 2018;44(5):405-23.',
     x: { B: 'Desnecessário.', C: 'Não é primeira escolha.', D: 'Sem indicação.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: comorbidades',
     e: 'Paciente com DPOC e diabetes, PAC tratada em ambulatório. Uma opção é:',
-    o: ['Amoxicilina-clavulanato associada a macrolídeo, ou quinolona respiratória', 'Amoxicilina isolada em dose baixa', 'Antiviral', 'Antifúngico'],
+    o: ['Amoxicilina-clavulanato com macrolídeo, ou quinolona respiratória', 'Amoxicilina isolada em dose baixa, que é insuficiente em comórbidos', 'Antiviral, como oseltamivir, sem antibiótico', 'Antifúngico, como fluconazol, sem antibiótico'],
     g: 'A',
     c: 'Comorbidades aumentam o risco de germes resistentes. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Insuficiente.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: internação',
     e: 'Paciente internado em enfermaria com PAC sem fatores de risco para germes resistentes. O tratamento é:',
-    o: ['Betalactâmico (como ceftriaxona) associado a macrolídeo, ou quinolona respiratória isolada', 'Amoxicilina oral isolada', 'Vancomicina e meropeném', 'Oseltamivir isolado'],
+    o: ['Betalactâmico (ceftriaxona) com macrolídeo, ou quinolona respiratória isolada', 'Amoxicilina oral isolada, que é insuficiente para internação', 'Vancomicina e meropeném, que são para germes resistentes', 'Oseltamivir isolado, sem antibiótico, em pneumonia bacteriana'],
     g: 'A',
     c: 'Duração habitual de 5 a 7 dias com estabilidade clínica. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Insuficiente.', C: 'Amplo demais.', D: 'Insuficiente.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC grave',
     e: 'Critérios maiores de PAC grave (ATS/IDSA) incluem:',
-    o: ['Choque séptico com vasopressor e insuficiência respiratória com ventilação mecânica', 'Febre de 38 °C', 'Tosse produtiva', 'Idade de 50 anos'],
+    o: ['Choque séptico com vasopressor e insuficiência respiratória com ventilação', 'Febre de 38 °C, que é achado comum de pneumonia leve ambulatorial', 'Tosse produtiva, que é achado comum de pneumonia leve ambulatorial', 'Idade de 50 anos, que não é critério maior de gravidade da pneumonia'],
     g: 'A',
     c: 'Exigem UTI. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Não é critério.', C: 'Não é critério.', D: 'Não é critério.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia atípica',
     e: 'Jovem com tosse seca, cefaleia, mialgia, febre baixa e radiografia com infiltrado intersticial desproporcional ao exame. O agente provável é:',
-    o: ['Mycoplasma pneumoniae', 'Pneumococo', 'Klebsiella', 'Pseudomonas'],
+    o: ['Mycoplasma pneumoniae', 'Pneumococo, que causa consolidação lobar', 'Klebsiella, que causa consolidação do lobo superior', 'Pseudomonas, que ocorre em bronquiectasias'],
     g: 'A',
     c: 'Tratamento com macrolídeo ou doxiciclina. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Quadro lobar agudo.', C: 'Lobar em alcoolista.', D: 'Hospitalar.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Legionella',
     e: 'Paciente com pneumonia grave, diarreia, hiponatremia, confusão e exposição a ar-condicionado central. O agente e o exame são:',
-    o: ['Legionella pneumophila; antígeno urinário', 'Pneumococo; hemocultura apenas', 'Mycoplasma; PPD', 'Influenza; sorologia'],
+    o: ['Legionella pneumophila; antígeno urinário', 'Pneumococo; apenas hemocultura, sem antígeno urinário', 'Mycoplasma; PPD, sem antígeno urinário', 'Influenza; sorologia, sem antígeno urinário'],
     g: 'A',
     c: 'Tratamento com quinolona ou macrolídeo. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Sem esses achados.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Klebsiella',
     e: 'Alcoolista com pneumonia de lobo superior, escarro gelatinoso cor de geleia de groselha e abaulamento de cisura. O agente é:',
-    o: ['Klebsiella pneumoniae', 'Mycoplasma', 'Legionella', 'Haemophilus'],
+    o: ['Klebsiella pneumoniae', 'Mycoplasma pneumoniae, que causa pneumonia atípica', 'Legionella pneumophila, que causa pneumonia atípica', 'Haemophilus influenzae, que é comum em DPOC'],
     g: 'A',
     c: 'Tende a formar abscesso. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Atípico.', C: 'Sem esse padrão.', D: 'Sem esse padrão.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia por S. aureus',
     e: 'Paciente após influenza com pneumonia grave, necrotizante e cavitações. O agente provável é:',
-    o: ['Staphylococcus aureus', 'Mycoplasma', 'Chlamydia', 'Vírus apenas'],
+    o: ['Staphylococcus aureus', 'Mycoplasma pneumoniae, que raramente necrosa', 'Chlamydia pneumoniae, que raramente necrosa', 'Vírus apenas, sem coinfecção bacteriana'],
     g: 'A',
     c: 'Considerar MRSA comunitário e associar vancomicina ou linezolida. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Leve.', C: 'Leve.', D: 'Coinfecção bacteriana.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia aspirativa',
     e: 'Paciente com AVC e disfagia, com pneumonia em lobo inferior direito. O fator anatômico que explica a localização é:',
-    o: ['O brônquio principal direito ser mais vertical e calibroso', 'O pulmão esquerdo ser maior', 'A gravidade não ter influência', 'O lobo superior ser mais baixo'],
+    o: ['Brônquio principal direito mais vertical e calibroso', 'Pulmão esquerdo maior, com brônquio mais vertical', 'A gravidade não tem influência na localização', 'Lobo superior mais baixo, e por isso mais atingido'],
     g: 'A',
     c: 'Em decúbito, segmentos posteriores dos lobos superiores e superiores dos inferiores também são acometidos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Afirmativa falsa.', C: 'Tem influência.', D: 'Sem sentido.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Abscesso pulmonar',
     e: 'Paciente etilista com má higiene dental, febre há 3 semanas, escarro pútrido e cavidade com nível hidroaéreo. O tratamento é:',
-    o: ['Antibiótico com cobertura de anaeróbios por tempo prolongado (como amoxicilina-clavulanato ou clindamicina)', 'Drenagem cirúrgica imediata em todos', 'Antifúngico', 'Corticoide'],
+    o: ['Antibiótico com cobertura de anaeróbios por tempo prolongado', 'Drenagem cirúrgica imediata em todos os casos de abscesso pulmonar', 'Antifúngico por via venosa em todos os casos de abscesso pulmonar', 'Corticoide em dose alta em todos os casos de abscesso pulmonar'],
     g: 'A',
     c: 'A maioria responde a antibiótico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Raramente necessária.', C: 'Sem indicação.', D: 'Contraindicado.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Derrame parapneumônico',
     e: 'Paciente com pneumonia e derrame pleural com pH de 7,0, glicose de 30 e LDH alta. A conduta é:',
-    o: ['Drenagem torácica (derrame complicado ou empiema)', 'Apenas antibiótico', 'Toracocentese de alívio apenas', 'Corticoide'],
+    o: ['Drenagem torácica (derrame complicado ou empiema)', 'Apenas antibiótico, sem drenagem do derrame', 'Toracocentese de alívio apenas, sem drenagem', 'Corticoide, em dose alta, sem drenagem'],
     g: 'A',
     c: 'Critérios de Light diferenciam exsudato de transudato. Referência: Light RW. Clinical practice. Pleural effusion. N Engl J Med. 2002;346(25):1971-7.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Critérios de Light',
     e: 'Derrame pleural é exsudato quando:',
-    o: ['Proteína pleural/sérica acima de 0,5, LDH pleural/sérica acima de 0,6, ou LDH pleural acima de 2/3 do limite superior sérico', 'Proteína pleural de 1 g/dL', 'Glicose normal', 'Aspecto claro'],
+    o: ['Proteína pleural/sérica > 0,5, LDH pleural/sérica > 0,6 ou LDH pleural > 2/3', 'Proteína pleural de 1 g/dL, que é valor típico de transudato', 'Glicose normal no líquido pleural, que não define exsudato', 'Aspecto claro do líquido pleural, que não define exsudato'],
     g: 'A',
     c: 'Basta um critério. Referência: Light RW. N Engl J Med. 2002;346(25):1971-7.',
     x: { B: 'Transudato.', C: 'Não define.', D: 'Não define.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: corticoide',
     e: 'Corticoide na PAC grave:',
-    o: ['Pode reduzir mortalidade em pneumonia grave selecionada, como mostrado com hidrocortisona', 'É contraindicado sempre', 'É indicado em toda pneumonia leve', 'Substitui o antibiótico'],
+    o: ['Pode reduzir mortalidade em PAC grave selecionada (hidrocortisona)', 'É contraindicado sempre, em qualquer pneumonia, de qualquer gravidade', 'É indicado em toda pneumonia leve, de rotina, em ambulatório', 'Substitui o antibiótico, na pneumonia grave, em unidade de terapia intensiva'],
     g: 'A',
     c: 'Não é rotina em casos leves ou na influenza. Referência: Dequin PF et al. Hydrocortisone in Severe Community-Acquired Pneumonia (CAPE COD). N Engl J Med. 2023;388(21):1931-41.',
     x: { B: 'Há evidência de benefício em grave.', C: 'Sem indicação.', D: 'Não substitui.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: radiografia',
     e: 'O exame de imagem inicial para confirmar pneumonia é:',
-    o: ['Radiografia de tórax em PA e perfil', 'Tomografia em todos', 'Ressonância', 'Ultrassom abdominal'],
+    o: ['Radiografia de tórax em PA e perfil', 'Tomografia de tórax em todos os pacientes, de rotina', 'Ressonância de tórax, de rotina', 'Ultrassom abdominal, de rotina'],
     g: 'A',
     c: 'Ultrassom pulmonar é alternativa à beira do leito. Referência: Corrêa RA et al. Recomendações para o manejo da pneumonia adquirida na comunidade 2018. J Bras Pneumol. 2018;44(5):405-23.',
     x: { B: 'Não é rotina.', C: 'Sem indicação.', D: 'Sem relação.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: seguimento',
     e: 'Após tratamento de PAC em fumante de 55 anos, recomenda-se:',
-    o: ['Radiografia de controle após 6 a 8 semanas para afastar lesão subjacente', 'Nenhum controle', 'Tomografia mensal', 'Broncoscopia em todos'],
+    o: ['Radiografia de controle em 6-8 semanas, para afastar lesão subjacente', 'Nenhum controle posterior, mesmo em fumante de 55 anos', 'Tomografia mensal, por vários meses seguidos, após o tratamento', 'Broncoscopia em todos os casos, logo após o fim do tratamento'],
     g: 'A',
     c: 'Lesões persistentes exigem investigação de neoplasia. Referência: Corrêa RA et al. Recomendações para o manejo da pneumonia adquirida na comunidade 2018. J Bras Pneumol. 2018;44(5):405-23.',
     x: { B: 'Risco de câncer.', C: 'Excessivo.', D: 'Excessivo.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Influenza',
     e: 'Paciente com síndrome gripal e fator de risco, como gestação ou idade acima de 60 anos. A conduta é:',
-    o: ['Oseltamivir, idealmente nas primeiras 48 horas, sem esperar exame', 'Aguardar exame para tratar', 'Antibiótico isolado', 'Nada'],
+    o: ['Oseltamivir, idealmente em 48 horas, sem esperar exame', 'Aguardar o exame confirmatório para iniciar o tratamento', 'Antibiótico isolado, sem antiviral', 'Nenhum tratamento, apenas sintomáticos'],
     g: 'A',
     c: 'Na síndrome respiratória aguda grave, trata-se independentemente do tempo. Referência: Brasil. Ministério da Saúde. Guia de Manejo e Tratamento de Influenza 2023. Brasília: MS, 2023.',
     x: { B: 'Atrasa o benefício.', C: 'Sem efeito antiviral.', D: 'Indicado.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Covid-19',
     e: 'Paciente com covid-19 grave com hipoxemia que precisa de oxigênio. O tratamento com redução de mortalidade é:',
-    o: ['Dexametasona 6 mg por dia por até 10 dias', 'Hidroxicloroquina', 'Ivermectina', 'Azitromicina isolada'],
+    o: ['Dexametasona 6 mg/dia por até 10 dias', 'Hidroxicloroquina, sem benefício comprovado', 'Ivermectina, sem benefício comprovado', 'Azitromicina isolada, sem benefício comprovado'],
     g: 'A',
     c: 'Anticoagulação profilática também é indicada. Referência: RECOVERY Collaborative Group. Dexamethasone in Hospitalized Patients with Covid-19. N Engl J Med. 2021;384(8):693-704.',
     x: { B: 'Sem benefício.', C: 'Sem benefício.', D: 'Sem benefício.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: hemoculturas',
     e: 'Em PAC grave internada, recomenda-se colher:',
-    o: ['Hemoculturas e escarro antes do antibiótico, e antígenos urinários de pneumococo e Legionella', 'Nenhum exame', 'Apenas PCR', 'Apenas hemograma'],
+    o: ['Hemoculturas e escarro antes do antibiótico; antígenos urinários de pneumococo e Legionella', 'Nenhum exame microbiológico, pois o tratamento é sempre empírico e padronizado', 'Apenas PCR sérica, sem culturas nem antígenos urinários, na internação', 'Apenas hemograma completo, sem culturas nem antígenos urinários, na internação'],
     g: 'A',
     c: 'Em casos leves ambulatoriais, não é necessário. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: procalcitonina',
     e: 'Sobre a procalcitonina na PAC, é correto afirmar:',
-    o: ['Pode ajudar a decidir a suspensão do antibiótico, mas não deve atrasar seu início', 'Exclui pneumonia bacteriana com certeza', 'Substitui a radiografia', 'Deve ser o único critério para iniciar'],
+    o: ['Pode ajudar a suspender o antibiótico, mas não deve atrasar o seu início', 'Exclui pneumonia bacteriana com certeza, quando o valor é baixo', 'Substitui a radiografia de tórax no diagnóstico da pneumonia', 'Deve ser o único critério para decidir iniciar o antibiótico'],
     g: 'A',
     c: 'Não deve ser usada isoladamente para não tratar. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Não exclui.', C: 'Não substitui.', D: 'Não deve.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: alcoolista',
     e: 'Paciente etilista com PAC tem maior risco de:',
-    o: ['Klebsiella, anaeróbios por aspiração e pneumococo', 'Mycoplasma exclusivamente', 'Legionella exclusivamente', 'Vírus exclusivamente'],
+    o: ['Klebsiella, anaeróbios por aspiração e pneumococo', 'Mycoplasma, exclusivamente, entre os agentes', 'Legionella, exclusivamente, entre os agentes', 'Vírus, exclusivamente, entre os agentes'],
     g: 'A',
     c: 'A cobertura empírica deve considerar esses agentes. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não exclusivamente.', C: 'Não exclusivamente.', D: 'Não exclusivamente.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: Pseudomonas',
     e: 'Fator de risco para pneumonia por Pseudomonas é:',
-    o: ['Bronquiectasias, fibrose cística, uso recente de antibiótico intravenoso e corticoide', 'Idade de 30 anos', 'Gestação', 'Asma leve'],
+    o: ['Bronquiectasias, fibrose cística, antibiótico IV recente e corticoide', 'Idade de 30 anos, em paciente sem comorbidades associadas', 'Gestação, em paciente sem outras comorbidades associadas', 'Asma leve, sem uso de corticoide sistêmico e sem internações'],
     g: 'A',
     c: 'Exige antibiótico antipseudomonas. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Não é fator.', C: 'Não é fator.', D: 'Não é fator.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: exame físico',
     e: 'Achado do exame físico sugestivo de consolidação pulmonar é:',
-    o: ['Frêmito toracovocal aumentado, macicez e estertores crepitantes com sopro tubário', 'Hipertimpanismo e frêmito abolido', 'Murmúrio normal', 'Sibilos difusos isolados'],
+    o: ['Frêmito aumentado, macicez e estertores crepitantes com sopro tubário', 'Hipertimpanismo e frêmito abolido, que sugerem pneumotórax', 'Murmúrio vesicular normal, sem ruídos adventícios', 'Sibilos difusos isolados, que sugerem broncoespasmo'],
     g: 'A',
     c: 'No derrame pleural, o frêmito está abolido. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sugere pneumotórax.', C: 'Normal.', D: 'Sugere broncoespasmo.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: duração',
     e: 'A duração recomendada de antibiótico na PAC não complicada com boa resposta é de:',
-    o: ['5 a 7 dias', '21 dias', '1 dia', '6 semanas'],
+    o: ['5 a 7 dias', '21 dias, que é longo demais para PAC não complicada', '1 dia, que é curto demais para PAC', '6 semanas, que é longo demais para PAC não complicada'],
     g: 'A',
     c: 'O paciente deve estar afebril e estável por 48 a 72 horas. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Excessivo.', C: 'Insuficiente.', D: 'Excessivo.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: transição oral',
     e: 'Paciente internado com PAC, afebril há 48 horas, estável e aceitando dieta. A conduta é:',
-    o: ['Transicionar para antibiótico oral e considerar alta', 'Manter intravenoso por 14 dias', 'Suspender sem completar', 'Trocar para antifúngico'],
+    o: ['Trocar para antibiótico oral e considerar alta', 'Manter intravenoso por 14 dias, sem necessidade', 'Suspender sem completar o tratamento', 'Trocar para antifúngico, sem necessidade'],
     g: 'A',
     c: 'A transição precoce é segura. Referência: Corrêa RA et al. Recomendações para o manejo da pneumonia adquirida na comunidade 2018. J Bras Pneumol. 2018;44(5):405-23.',
     x: { B: 'Desnecessário.', C: 'Inadequado.', D: 'Sem indicação.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: falha terapêutica',
     e: 'Paciente com PAC sem melhora após 72 horas de antibiótico adequado. Deve-se investigar:',
-    o: ['Derrame complicado, abscesso, germe resistente, diagnóstico alternativo (TB, embolia, neoplasia)', 'Nada, manter igual', 'Apenas trocar o antitérmico', 'Alta'],
+    o: ['Derrame complicado, abscesso, germe resistente ou outro diagnóstico (TB, embolia, câncer)', 'Nada, manter o tratamento igual por mais uma semana de observação clínica', 'Apenas trocar o antitérmico, sem reavaliar a causa da falha terapêutica', 'Dar alta hospitalar, apesar da ausência de melhora clínica após 72 horas'],
     g: 'A',
     c: 'Tomografia e broncoscopia podem ser necessárias. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Inadequado.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Tuberculose pulmonar',
     e: 'Paciente com tosse há mais de 3 semanas, febre vespertina, sudorese noturna e emagrecimento. O primeiro exame é:',
-    o: ['Teste rápido molecular para tuberculose (TRM-TB) ou baciloscopia no escarro', 'Hemocultura', 'Antígeno urinário de pneumococo', 'Espirometria'],
+    o: ['TRM-TB ou baciloscopia no escarro', 'Hemocultura, que não diagnostica tuberculose', 'Antígeno urinário de pneumococo, que não diagnostica tuberculose', 'Espirometria, que não diagnostica tuberculose'],
     g: 'A',
     c: 'O TRM-TB também detecta resistência à rifampicina. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Tuberculose: tratamento',
     e: 'O esquema básico para tuberculose em adultos é:',
-    o: ['2 meses de rifampicina, isoniazida, pirazinamida e etambutol, seguidos de 4 meses de rifampicina e isoniazida', '6 meses de isoniazida isolada', '1 mês de rifampicina', 'Estreptomicina por 1 ano'],
+    o: ['2 meses de RHZE seguidos de 4 meses de RH', '6 meses de isoniazida isolada, em dose diária', '1 mês de rifampicina, em dose diária', 'Estreptomicina por 1 ano, por via intramuscular'],
     g: 'A',
     c: 'A adesão é essencial; o tratamento diretamente observado é recomendado. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'ILTB.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Tuberculose: efeitos adversos',
     e: 'Paciente em tratamento para tuberculose desenvolve icterícia e transaminases 5 vezes o normal. A conduta é:',
-    o: ['Suspender o esquema e reintroduzir as drogas sequencialmente após melhora', 'Manter as drogas', 'Aumentar as doses', 'Trocar por antifúngico'],
+    o: ['Suspender o esquema e reintroduzir as drogas sequencialmente após melhora', 'Manter todas as drogas, mesmo com icterícia e transaminases elevadas', 'Aumentar as doses das drogas, para controlar melhor a infecção', 'Trocar o esquema por antifúngico, por suspeita de micose pulmonar'],
     g: 'A',
     c: 'Isoniazida, rifampicina e pirazinamida são hepatotóxicas. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Isoniazida',
     e: 'Para prevenir neuropatia periférica pela isoniazida em pacientes de risco, usa-se:',
-    o: ['Piridoxina (vitamina B6)', 'Vitamina B12', 'Ácido fólico', 'Vitamina D'],
+    o: ['Piridoxina (vitamina B6)', 'Vitamina B12, que não previne a neuropatia da isoniazida', 'Ácido fólico, que não previne a neuropatia da isoniazida', 'Vitamina D, que não previne a neuropatia da isoniazida'],
     g: 'A',
     c: 'Grupos de risco: diabéticos, etilistas, gestantes e desnutridos. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Etambutol',
     e: 'Efeito adverso característico do etambutol é:',
-    o: ['Neurite óptica com alteração da visão de cores', 'Hepatite', 'Hiperuricemia', 'Coloração alaranjada da urina'],
+    o: ['Neurite óptica, com alteração da visão de cores', 'Hepatite medicamentosa, que é da isoniazida e rifampicina', 'Hiperuricemia, que é da pirazinamida', 'Urina alaranjada, que é da rifampicina'],
     g: 'A',
     c: 'Pirazinamida causa hiperuricemia; rifampicina, urina alaranjada. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Isoniazida e outros.', C: 'Pirazinamida.', D: 'Rifampicina.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Tuberculose: contatos',
     e: 'Contato domiciliar assintomático de paciente bacilífero, com prova tuberculínica de 10 mm e radiografia normal. A conduta é:',
-    o: ['Tratar a infecção latente', 'Esquema completo RIPE', 'Nada', 'Repetir BCG'],
+    o: ['Tratar a infecção latente', 'Esquema completo RIPE, que é para doença ativa', 'Nada, pois o contato está assintomático', 'Repetir BCG, em dose única, como prevenção'],
     g: 'A',
     c: 'Opções: isoniazida, rifapentina com isoniazida ou rifampicina. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem doença ativa.', C: 'Risco de adoecer.', D: 'Sem indicação.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia por fungo',
     e: 'Paciente imunocompetente de área rural com lesões pulmonares, lesões ulceradas em mucosa oral e linfadenopatia. A hipótese é:',
-    o: ['Paracoccidioidomicose', 'Tuberculose sempre', 'Pneumocistose', 'Aspergilose'],
+    o: ['Paracoccidioidomicose', 'Tuberculose, em todos os casos de lesão pulmonar', 'Pneumocistose, que ocorre em imunossuprimidos', 'Aspergilose, que ocorre em imunossuprimidos'],
     g: 'A',
     c: 'Tratamento com itraconazol ou sulfametoxazol-trimetoprima. Referência: Shikanai-Yasuda MA et al. II Consenso Brasileiro em Paracoccidioidomicose 2017. Epidemiol Serv Saúde. 2018;27(spe):e0500001.',
     x: { B: 'Possível, mas a mucosa oral sugere PCM.', C: 'Imunodeprimidos.', D: 'Imunodeprimidos ou cavidade prévia.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Hemoptise maciça',
     e: 'Paciente com hemoptise maciça. A primeira medida é:',
-    o: ['Proteger a via aérea e posicionar o lado sangrante para baixo', 'Broncoscopia antes de qualquer outra medida', 'Antitussígeno', 'Alta'],
+    o: ['Proteger a via aérea e posicionar o lado sangrante para baixo', 'Broncoscopia antes de qualquer outra medida, sem proteger a via aérea', 'Antitussígeno, para suprimir a tosse e o sangramento', 'Alta hospitalar, com retorno se persistir o sangramento'],
     g: 'A',
     c: 'Depois, broncoscopia ou arteriografia com embolização. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Primeiro proteger a via aérea.', C: 'Insuficiente.', D: 'Inadequado.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: vacinas',
     e: 'Vacinas recomendadas para adultos acima de 60 anos para prevenir pneumonia incluem:',
-    o: ['Influenza anual e pneumocócicas', 'BCG', 'Febre amarela', 'HPV'],
+    o: ['Influenza anual e pneumocócicas', 'BCG, que não previne pneumonia no idoso', 'Febre amarela, que não previne pneumonia no idoso', 'HPV, que não previne pneumonia no idoso'],
     g: 'A',
     c: 'Vacinas contra VSR e covid-19 também são recomendadas em grupos específicos. Referência: Corrêa RA et al. Recomendações para o manejo da pneumonia adquirida na comunidade 2018. J Bras Pneumol. 2018;44(5):405-23.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'PAC: macrolídeo',
     e: 'A associação de macrolídeo ao betalactâmico em PAC internada visa:',
-    o: ['Cobrir germes atípicos e possivelmente efeito imunomodulador', 'Cobrir Pseudomonas', 'Cobrir fungos', 'Cobrir vírus'],
+    o: ['Cobrir germes atípicos e, possivelmente, efeito imunomodulador', 'Cobrir Pseudomonas, que exige outro fármaco com ação antipseudomonas', 'Cobrir fungos, que exige outro fármaco com ação antifúngica', 'Cobrir vírus respiratórios, que exige fármaco com ação antiviral'],
     g: 'A',
     c: 'Alternativamente, usa-se quinolona respiratória. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Sem cobertura.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: idoso',
     e: 'Idoso com pneumonia pode apresentar:',
-    o: ['Confusão, queda e piora funcional sem febre ou tosse importantes', 'Sempre febre alta', 'Sempre tosse produtiva', 'Nunca alteração mental'],
+    o: ['Confusão, queda e piora funcional, sem febre ou tosse importantes', 'Sempre febre alta, em todos os casos de pneumonia no idoso', 'Sempre tosse produtiva, em todos os casos de pneumonia no idoso', 'Nunca alteração mental, em nenhum caso de pneumonia no idoso'],
     g: 'A',
     c: 'O alto índice de suspeita é necessário. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Nem sempre.', C: 'Nem sempre.', D: 'Pode ocorrer.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia viral',
     e: 'Paciente com PAC com teste positivo para influenza e procalcitonina baixa, sem consolidação lobar. Sobre antibiótico:',
-    o: ['Pode ser dispensado se não houver sinais de coinfecção bacteriana, com reavaliação', 'É obrigatório sempre', 'Deve ser vancomicina', 'Deve ser por 21 dias'],
+    o: ['Pode ser dispensado sem sinais de coinfecção bacteriana; reavaliar', 'É obrigatório sempre, em todos os casos de gripe', 'Deve ser vancomicina, em todos os casos de gripe', 'Deve ser mantido por 21 dias, em todos os casos de gripe'],
     g: 'A',
     c: 'A coinfecção bacteriana deve ser suspeitada se piora. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Não é obrigatório.', C: 'Sem indicação.', D: 'Excessivo.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Síndrome respiratória aguda grave',
     e: 'Caso de síndrome gripal com dispneia, saturação abaixo de 95% ou desconforto respiratório é classificado como:',
-    o: ['Síndrome respiratória aguda grave (SRAG), de notificação compulsória', 'Resfriado comum', 'Rinite', 'Faringite'],
+    o: ['SRAG, de notificação compulsória', 'Resfriado comum, sem dispneia nem hipoxemia', 'Rinite alérgica, sem dispneia nem hipoxemia', 'Faringite viral, sem dispneia nem hipoxemia'],
     g: 'A',
     c: 'Exige internação e oseltamivir. Referência: Brasil. Ministério da Saúde. Guia de Manejo e Tratamento de Influenza 2023. Brasília: MS, 2023.',
     x: { B: 'Mais grave.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: pneumococo',
     e: 'Exame rápido que ajuda a identificar pneumococo na PAC é:',
-    o: ['Antígeno urinário pneumocócico', 'Teste do suor', 'PPD', 'Sorologia para HIV'],
+    o: ['Antígeno urinário pneumocócico', 'Teste do suor, que investiga fibrose cística', 'PPD, que investiga tuberculose', 'Sorologia para HIV, que investiga imunodeficiência'],
     g: 'A',
     c: 'Útil em pacientes graves. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: cavitação',
     e: 'Cavitação em pneumonia sugere:',
-    o: ['Germes necrotizantes, como S. aureus, Klebsiella, anaeróbios ou tuberculose', 'Mycoplasma', 'Vírus', 'Pneumococo sempre'],
+    o: ['Germes necrotizantes: S. aureus, Klebsiella, anaeróbios ou tuberculose', 'Mycoplasma, que raramente cursa com cavitação pulmonar', 'Vírus respiratórios, que raramente cursam com cavitação pulmonar', 'Pneumococo, sempre, em todos os casos de cavitação pulmonar'],
     g: 'A',
     c: 'Exige investigação adicional. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Raro.', C: 'Raro.', D: 'Raro.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Empiema: agente',
     e: 'Paciente com empiema após pneumonia aspirativa. Os agentes mais prováveis são:',
-    o: ['Anaeróbios e estreptococos do grupo milleri', 'Vírus', 'Mycoplasma', 'Legionella'],
+    o: ['Anaeróbios e estreptococos do grupo milleri', 'Vírus respiratórios, que raramente causam empiema', 'Mycoplasma, que raramente causa empiema', 'Legionella, que raramente causa empiema'],
     g: 'A',
     c: 'O antibiótico deve cobrir anaeróbios. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Raro.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: legionelose tratamento',
     e: 'O tratamento de escolha da pneumonia por Legionella é:',
-    o: ['Levofloxacino ou azitromicina', 'Amoxicilina', 'Ceftriaxona isolada', 'Vancomicina'],
+    o: ['Levofloxacino ou azitromicina', 'Amoxicilina, que não age contra Legionella', 'Ceftriaxona isolada, que não age contra Legionella', 'Vancomicina, que não age contra Legionella'],
     g: 'A',
     c: 'Betalactâmicos não atingem bactérias intracelulares. Referência: Metlay JP et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia: An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-67.',
     x: { B: 'Ineficaz.', C: 'Ineficaz.', D: 'Ineficaz.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_PNEU: QuestaoCompacta[] = [
   {
     s: 'Pneumonia: tuberculose e quinolona',
     e: 'Antes de usar quinolona para PAC em área endêmica, deve-se considerar que:',
-    o: ['Ela pode mascarar e atrasar o diagnóstico de tuberculose', 'Ela cura tuberculose sempre', 'Ela é ineficaz contra pneumococo', 'Ela é contraindicada em todos'],
+    o: ['Pode mascarar e atrasar o diagnóstico de tuberculose', 'Cura a tuberculose, sempre, em todos os casos', 'É ineficaz contra pneumococo, em todos os casos', 'É contraindicada em todos os pacientes com pneumonia'],
     g: 'A',
     c: 'Investigar TB quando houver suspeita. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Afirmativa falsa.', C: 'É eficaz.', D: 'Não é.' },

@@ -5,7 +5,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite bacteriana: clínica',
     e: 'A tríade clássica da meningite bacteriana no adulto é:',
-    o: ['Febre, rigidez de nuca e alteração do estado mental', 'Febre, tosse e dispneia', 'Cefaleia, vômitos e diarreia', 'Exantema, artralgia e febre'],
+    o: ['Febre, rigidez de nuca e alteração do estado mental', 'Febre, tosse e dispneia, que é tríade das pneumonias', 'Cefaleia, vômitos e diarreia, que é tríade das gastroenterites', 'Exantema, artralgia e febre, que é tríade das arboviroses'],
     g: 'A',
     c: 'Cefaleia é muito frequente; a tríade completa ocorre em menos da metade. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Pneumonia.', C: 'Gastroenterite.', D: 'Arboviroses.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: idosos',
     e: 'Em adulto acima de 50 anos ou imunossuprimido com meningite bacteriana, o esquema empírico deve cobrir também:',
-    o: ['Listeria monocytogenes, com associação de ampicilina', 'Fungos sempre', 'Vírus', 'Mycoplasma'],
+    o: ['Listeria monocytogenes: associar ampicilina', 'Fungos, sempre, em todos os casos, nessa faixa etária', 'Vírus, sempre, em todos os casos, nessa faixa etária', 'Mycoplasma, sempre, em todos os casos, nessa faixa etária'],
     g: 'A',
     c: 'Esquema: ceftriaxona, vancomicina e ampicilina. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Não é rotina.', C: 'Sem cobertura antibiótica.', D: 'Sem relação.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: tomografia',
     e: 'Antes da punção lombar, a tomografia de crânio é indicada quando há:',
-    o: ['Déficit neurológico focal, papiledema, rebaixamento de consciência, convulsão recente ou imunossupressão', 'Febre isolada', 'Cefaleia leve', 'Rigidez de nuca isolada'],
+    o: ['Déficit focal, papiledema, rebaixamento, convulsão recente ou imunossupressão', 'Febre isolada, sem outros sinais neurológicos ou de imunossupressão', 'Cefaleia leve, sem outros sinais neurológicos ou de imunossupressão', 'Rigidez de nuca isolada, sem outros sinais neurológicos'],
     g: 'A',
     c: 'Nesses casos, o antibiótico deve ser iniciado antes da tomografia, após hemoculturas. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Não indica.', C: 'Não indica.', D: 'Não indica.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: antibiótico',
     e: 'Na suspeita de meningite bacteriana, se a punção lombar for atrasada, a conduta correta é:',
-    o: ['Colher hemoculturas e iniciar antibiótico e dexametasona imediatamente', 'Aguardar a punção para iniciar', 'Aguardar tomografia e laudo', 'Iniciar só antitérmico'],
+    o: ['Colher hemoculturas e iniciar antibiótico e dexametasona de imediato', 'Aguardar a punção lombar para iniciar o antibiótico', 'Aguardar a tomografia e o laudo para iniciar o antibiótico', 'Iniciar apenas antitérmico e observar a evolução clínica'],
     g: 'A',
     c: 'O atraso no antibiótico aumenta a mortalidade. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Atraso perigoso.', C: 'Atraso perigoso.', D: 'Insuficiente.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Líquor: bacteriana',
     e: 'Líquor com pleocitose neutrofílica, glicose abaixo de 40% da glicemia e proteínas elevadas sugere:',
-    o: ['Meningite bacteriana', 'Meningite viral', 'Meningite tuberculosa', 'Normal'],
+    o: ['Meningite bacteriana', 'Meningite viral, com pleocitose linfocítica e glicose normal', 'Meningite tuberculosa, com pleocitose linfocítica e glicose baixa', 'Líquor normal, sem pleocitose nem alteração bioquímica'],
     g: 'A',
     c: 'O Gram e a cultura identificam o agente. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Linfócitos e glicose normal.', C: 'Linfócitos e evolução subaguda.', D: 'Alterado.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite criptocócica',
     e: 'Paciente com aids e cefaleia subaguda, com pressão de abertura do líquor de 35 cmH2O e antígeno criptocócico positivo. Além da anfotericina, é essencial:',
-    o: ['Punções lombares de alívio para reduzir a pressão intracraniana', 'Acetazolamida', 'Corticoide', 'Manitol de rotina'],
+    o: ['Punções lombares de alívio para reduzir a pressão intracraniana', 'Acetazolamida, que não é eficaz na hipertensão da criptococose', 'Corticoide, que piora o prognóstico na criptococose', 'Manitol de rotina, que não é eficaz na hipertensão da criptococose'],
     g: 'A',
     c: 'A hipertensão intracraniana é causa importante de morte. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem benefício.', C: 'Pioraria.', D: 'Sem benefício.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningococcemia',
     e: 'Paciente com febre, petéquias e púrpura de evolução rápida e hipotensão. O agente provável e a conduta são:',
-    o: ['Neisseria meningitidis; ceftriaxona imediata e suporte para choque', 'Vírus; observação', 'Pneumococo; amoxicilina oral', 'Listeria; nada'],
+    o: ['Neisseria meningitidis: ceftriaxona imediata e suporte ao choque', 'Vírus; observação clínica e sintomáticos, sem antibiótico', 'Pneumococo; amoxicilina oral, em dose habitual', 'Listeria; nenhum tratamento específico, apenas observação'],
     g: 'A',
     c: 'Síndrome de Waterhouse-Friderichsen: hemorragia adrenal. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Sem relação.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningococo: profilaxia',
     e: 'Contatos íntimos de paciente com doença meningocócica devem receber:',
-    o: ['Quimioprofilaxia com rifampicina (ou ciprofloxacino ou ceftriaxona), idealmente nas primeiras 24 a 48 horas', 'Nada', 'Vacina BCG', 'Corticoide'],
+    o: ['Rifampicina (ou ciprofloxacino ou ceftriaxona) nas primeiras 24-48 horas', 'Nada, pois não há risco de transmissão aos contatos íntimos', 'Vacina BCG, em dose única, aplicada nos contatos íntimos', 'Corticoide oral, em dose habitual, administrado aos contatos íntimos'],
     g: 'A',
     c: 'Profissionais de saúde só recebem se tiveram exposição a secreções sem proteção. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Risco alto.', C: 'Sem relação.', D: 'Sem indicação.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: isolamento',
     e: 'Paciente com suspeita de meningite meningocócica deve ficar em:',
-    o: ['Isolamento respiratório para gotículas nas primeiras 24 horas de antibiótico', 'Isolamento de contato apenas', 'Nenhum isolamento', 'Isolamento por aerossóis por 30 dias'],
+    o: ['Isolamento respiratório para gotículas nas primeiras 24 h de antibiótico', 'Isolamento de contato apenas, com avental e luvas', 'Nenhum isolamento, pois não há transmissão hospitalar', 'Isolamento por aerossóis por 30 dias, em quarto com pressão negativa'],
     g: 'A',
     c: 'Após 24 horas de antibiótico eficaz, não há mais transmissão significativa. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Insuficiente.', C: 'Risco de transmissão.', D: 'Excessivo.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Encefalite herpética',
     e: 'Paciente com febre, confusão, alteração de comportamento, convulsões e lesão no lobo temporal na ressonância. A conduta é:',
-    o: ['Aciclovir intravenoso imediatamente', 'Aguardar PCR do líquor', 'Ceftriaxona isolada', 'Corticoide isolado'],
+    o: ['Aciclovir intravenoso imediatamente', 'Aguardar a PCR do líquor para iniciar o tratamento', 'Ceftriaxona isolada, sem cobertura antiviral', 'Corticoide isolado, sem cobertura antiviral'],
     g: 'A',
     c: 'O PCR para HSV no líquor confirma. A mortalidade sem tratamento é alta. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Atraso perigoso.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: complicações',
     e: 'Complicações da meningite bacteriana incluem:',
-    o: ['Surdez, hidrocefalia, convulsões, edema cerebral e déficits focais', 'Hepatite', 'Pancreatite', 'Hipertireoidismo'],
+    o: ['Surdez, hidrocefalia, convulsões, edema cerebral e déficits focais', 'Hepatite aguda, que não é complicação da meningite', 'Pancreatite aguda, que não é complicação da meningite', 'Hipertireoidismo, que não é complicação da meningite'],
     g: 'A',
     c: 'A avaliação auditiva é recomendada após a alta. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: Listeria',
     e: 'Gestante com febre, cefaleia e rigidez de nuca. O agente a ser obrigatoriamente coberto é:',
-    o: ['Listeria monocytogenes, com ampicilina', 'Somente pneumococo', 'Somente meningococo', 'Somente vírus'],
+    o: ['Listeria monocytogenes, com ampicilina', 'Somente pneumococo, sem cobertura para Listeria', 'Somente meningococo, sem cobertura para Listeria', 'Somente vírus, sem cobertura para Listeria'],
     g: 'A',
     c: 'Associada a laticínios não pasteurizados. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite pós-neurocirurgia',
     e: 'Paciente com derivação ventricular apresenta febre e sinais meníngeos. O esquema empírico deve cobrir:',
-    o: ['Estafilococos e gram-negativos, incluindo Pseudomonas (vancomicina com cefepima ou meropeném)', 'Somente pneumococo', 'Somente Listeria', 'Vírus'],
+    o: ['Estafilococos e gram-negativos, inclusive Pseudomonas (vancomicina + cefepima/meropeném)', 'Somente pneumococo, que é pouco provável nessa situação de derivação', 'Somente Listeria, que é pouco provável nessa situação de derivação', 'Vírus, que é pouco provável nessa situação de derivação'],
     g: 'A',
     c: 'Frequentemente a derivação precisa ser removida. Referência: Tunkel AR et al. 2017 IDSA Clinical Practice Guidelines for Healthcare-Associated Ventriculitis and Meningitis. Clin Infect Dis. 2017;64(6):e34-65.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Sinais meníngeos',
     e: 'A flexão involuntária dos joelhos ao fletir o pescoço do paciente é o sinal de:',
-    o: ['Brudzinski', 'Kernig', 'Lasègue', 'Babinski'],
+    o: ['Sinal de Brudzinski', 'Sinal de Kernig, com resistência à extensão do joelho', 'Sinal de Lasègue, na radiculopatia lombar', 'Sinal de Babinski, na lesão do trato piramidal'],
     g: 'A',
     c: 'Sinais meníngeos têm baixa sensibilidade. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Resistência à extensão do joelho com quadril fletido.', C: 'Radiculopatia.', D: 'Lesão piramidal.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite asséptica',
     e: 'Meningite linfocítica recorrente benigna está associada a:',
-    o: ['Herpes simples tipo 2 (meningite de Mollaret)', 'Pneumococo', 'Tuberculose sempre', 'Sífilis primária'],
+    o: ['Herpes simples tipo 2 (meningite de Mollaret)', 'Pneumococo, que causa meningite aguda grave', 'Tuberculose, sempre, em todos os casos recorrentes', 'Sífilis primária, em todos os casos recorrentes'],
     g: 'A',
     c: 'Episódios autolimitados de meningite asséptica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Bacteriana.', C: 'Não é recorrente benigna.', D: 'Sem relação.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: neurossífilis',
     e: 'Paciente com HIV e meningite linfocítica com VDRL reagente no líquor. O diagnóstico e o tratamento são:',
-    o: ['Neurossífilis; penicilina cristalina intravenosa por 14 dias', 'Meningite viral; observação', 'Tuberculose; RIPE', 'Criptococose; anfotericina'],
+    o: ['Neurossífilis: penicilina cristalina IV por 14 dias', 'Meningite viral; observação clínica e sintomáticos', 'Tuberculose; esquema RIPE por 12 meses', 'Criptococose; anfotericina B por 14 dias'],
     g: 'A',
     c: 'O VDRL no líquor é específico, porém pouco sensível. Referência: Brasil. Ministério da Saúde. PCDT para Atenção Integral às Pessoas com IST. Brasília: MS, 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: vacina',
     e: 'Vacinas que reduziram a incidência de meningite bacteriana incluem:',
-    o: ['Hib, pneumocócica conjugada e meningocócicas', 'BCG', 'Febre amarela', 'Hepatite A'],
+    o: ['Hib, pneumocócica conjugada e meningocócicas', 'BCG, que protege contra formas graves de tuberculose', 'Febre amarela, que protege contra arbovirose', 'Hepatite A, que protege contra hepatite viral'],
     g: 'A',
     c: 'Fazem parte do calendário infantil. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Protege formas graves de TB.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: notificação',
     e: 'A meningite é doença:',
-    o: ['De notificação compulsória imediata', 'Notificada apenas se fatal', 'Sem notificação', 'Notificada apenas em crianças'],
+    o: ['Notificação compulsória imediata', 'Notificada apenas se for fatal, em óbitos', 'Sem notificação, por ser doença comum', 'Notificada apenas em crianças, e não em adultos'],
     g: 'A',
     c: 'A notificação permite investigar contatos e bloqueio. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Todos os casos.', C: 'É notificável.', D: 'Todos os casos.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Pneumococo resistente',
     e: 'Na meningite pneumocócica, a vancomicina é associada à ceftriaxona porque:',
-    o: ['Existem cepas de pneumococo resistentes às cefalosporinas', 'A ceftriaxona não atravessa a barreira', 'A vancomicina é melhor isolada', 'Para cobrir Listeria'],
+    o: ['Existem cepas de pneumococo resistentes às cefalosporinas', 'A ceftriaxona não atravessa a barreira hematoencefálica', 'A vancomicina é melhor quando usada isolada', 'Para cobrir Listeria, que é resistente à ceftriaxona'],
     g: 'A',
     c: 'Ajusta-se conforme o antibiograma. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Atravessa com inflamação.', C: 'Não isolada.', D: 'Ampicilina cobre Listeria.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Punção lombar: contraindicações',
     e: 'É contraindicação à punção lombar:',
-    o: ['Sinais de hipertensão intracraniana com efeito de massa, coagulopatia grave e infecção no local da punção', 'Febre', 'Cefaleia', 'Idade acima de 60 anos'],
+    o: ['HIC com efeito de massa, coagulopatia grave ou infecção no local', 'Febre, que não contraindica a punção lombar diagnóstica nem terapêutica', 'Cefaleia, que não contraindica a punção lombar diagnóstica nem terapêutica', 'Idade acima de 60 anos, que não contraindica a punção lombar diagnóstica'],
     g: 'A',
     c: 'Nesses casos, o antibiótico não deve ser adiado. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: duração do tratamento',
     e: 'A duração usual do antibiótico na meningite pneumocócica é de:',
-    o: ['10 a 14 dias', '3 dias', '6 meses', '1 dia'],
+    o: ['10 a 14 dias', '3 dias, que seria curto demais para a meningite', '6 meses, que seria longo demais para a meningite', '1 dia, que seria curto demais para a meningite'],
     g: 'A',
     c: 'Para meningococo, 7 dias; para Listeria, pelo menos 21 dias. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Insuficiente.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: Gram',
     e: 'No Gram do líquor, diplococos gram-positivos sugerem:',
-    o: ['Streptococcus pneumoniae', 'Neisseria meningitidis', 'Listeria', 'Haemophilus'],
+    o: ['Streptococcus pneumoniae', 'Neisseria meningitidis, que é diplococo gram-negativo', 'Listeria, que é bacilo gram-positivo', 'Haemophilus, que é cocobacilo gram-negativo'],
     g: 'A',
     c: 'Diplococos gram-negativos sugerem meningococo; bastonetes gram-positivos, Listeria. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Gram-negativos.', C: 'Bastonetes.', D: 'Cocobacilos gram-negativos.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: asplenia',
     e: 'Paciente esplenectomizado tem maior risco de meningite e sepse por:',
-    o: ['Germes encapsulados (pneumococo, meningococo e Haemophilus)', 'Vírus', 'Fungos', 'Parasitas'],
+    o: ['Germes encapsulados (pneumococo, meningococo e Haemophilus)', 'Vírus respiratórios, sem relação com a asplenia', 'Fungos oportunistas, sem relação com a asplenia', 'Parasitas intestinais, sem relação com a asplenia'],
     g: 'A',
     c: 'Vacinação é essencial. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: deficiência de complemento',
     e: 'Paciente com episódios recorrentes de meningite meningocócica deve ser investigado para:',
-    o: ['Deficiência dos componentes terminais do complemento', 'Diabetes', 'Hipotireoidismo', 'Asma'],
+    o: ['Deficiência dos componentes terminais do complemento', 'Diabetes mellitus, sem relação com a meningite recorrente', 'Hipotireoidismo, sem relação com a meningite recorrente', 'Asma brônquica, sem relação com a meningite recorrente'],
     g: 'A',
     c: 'O CH50 é o exame de triagem. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite viral: tratamento',
     e: 'O tratamento da meningite viral por enterovírus é:',
-    o: ['Suporte com analgesia e hidratação', 'Aciclovir para todos', 'Ceftriaxona prolongada', 'Corticoide'],
+    o: ['Suporte: analgesia e hidratação', 'Aciclovir para todos, por via venosa, por 14 dias', 'Ceftriaxona prolongada, por via venosa, por 14 dias', 'Corticoide em dose alta, por via oral, por 14 dias'],
     g: 'A',
     c: 'Aciclovir é reservado para suspeita de herpes. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é rotina.', C: 'Sem infecção bacteriana.', D: 'Sem indicação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Encefalite: arbovírus',
     e: 'Paciente com febre, convulsões e alteração de consciência durante epidemia de arbovírus. Além do herpes, considerar:',
-    o: ['Encefalites por arbovírus, como Oropouche, dengue, zika ou febre do Nilo Ocidental', 'Apenas meningite bacteriana', 'Apenas tumor', 'Apenas hipoglicemia'],
+    o: ['Encefalites por arbovírus (Oropouche, dengue, zika, Nilo Ocidental)', 'Apenas meningite bacteriana, sem causas virais no diagnóstico diferencial', 'Apenas tumor cerebral, sem causas infecciosas no diagnóstico diferencial', 'Apenas hipoglicemia, sem causas infecciosas no diagnóstico diferencial'],
     g: 'A',
     c: 'O aciclovir empírico deve ser mantido até excluir herpes. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não só.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningoencefalite eosinofílica',
     e: 'Paciente com meningite com eosinófilos no líquor após ingerir caramujos crus. O agente é:',
-    o: ['Angiostrongylus cantonensis', 'Toxoplasma', 'Criptococo', 'Pneumococo'],
+    o: ['Angiostrongylus cantonensis', 'Toxoplasma gondii, que causa lesões com efeito de massa', 'Cryptococcus neoformans, que causa meningite linfocítica', 'Pneumococo, que causa meningite neutrofílica'],
     g: 'A',
     c: 'O tratamento é de suporte, com corticoide em casos selecionados. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem eosinofilia liquórica.', C: 'Sem eosinofilia.', D: 'Neutrófilos.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite carcinomatosa',
     e: 'Paciente com câncer de mama e cefaleia, paralisias de nervos cranianos múltiplas e líquor com células atípicas. A hipótese é:',
-    o: ['Meningite carcinomatosa', 'Meningite viral', 'Enxaqueca', 'Meningite bacteriana'],
+    o: ['Meningite carcinomatosa', 'Meningite viral, com febre e pleocitose linfocítica', 'Enxaqueca, com cefaleia pulsátil e fotofobia', 'Meningite bacteriana, com pleocitose neutrofílica'],
     g: 'A',
     c: 'Diagnóstico por citologia do líquor e ressonância. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem células atípicas.', C: 'Sem relação.', D: 'Sem neutrofilia.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: hiponatremia',
     e: 'Hiponatremia na meningite tuberculosa decorre principalmente de:',
-    o: ['Secreção inapropriada de ADH ou cerebral perdedora de sal', 'Excesso de sal na dieta', 'Insuficiência cardíaca', 'Desidratação simples'],
+    o: ['SIADH ou síndrome cerebral perdedora de sal', 'Excesso de sal na dieta, que causaria hipernatremia', 'Insuficiência cardíaca, sem relação com a meningite', 'Desidratação simples, que causaria hipernatremia'],
     g: 'A',
     c: 'Deve ser monitorada e corrigida com cautela. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Não é o mecanismo principal.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: vacina pneumocócica',
     e: 'Adulto com fístula liquórica ou implante coclear deve receber:',
-    o: ['Vacinas pneumocócicas conjugada e polissacarídica', 'Nenhuma vacina', 'Apenas febre amarela', 'Apenas BCG'],
+    o: ['Vacinas pneumocócicas conjugada e polissacarídica', 'Nenhuma vacina, pois não há risco aumentado de meningite', 'Apenas febre amarela, em dose única, como proteção', 'Apenas BCG, em dose única, como proteção'],
     g: 'A',
     c: 'O risco de meningite pneumocócica é alto. Referência: Brasil. Ministério da Saúde. Manual dos CRIE. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Exige.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Lactato no líquor',
     e: 'Lactato elevado no líquor:',
-    o: ['Ajuda a diferenciar meningite bacteriana de viral, especialmente pós-operatória', 'Confirma vírus', 'É normal sempre', 'Indica tuberculose'],
+    o: ['Ajuda a distinguir meningite bacteriana de viral, sobretudo pós-operatória', 'Confirma meningite viral, quando elevado no líquor do paciente', 'É sempre normal em meningite, de qualquer etiologia ou gravidade', 'Indica tuberculose, quando elevado no líquor do paciente'],
     g: 'A',
     c: 'Valores acima de cerca de 4 mmol/L sugerem bacteriana. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Sem sentido.', D: 'Não é específico.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: imunodeprimidos',
     e: 'Em pacientes transplantados com meningite, os agentes a considerar incluem:',
-    o: ['Listeria, Cryptococcus e Nocardia, além dos habituais', 'Apenas pneumococo', 'Apenas vírus', 'Nenhum'],
+    o: ['Listeria, Cryptococcus e Nocardia, além dos habituais', 'Apenas pneumococo, como nos imunocompetentes', 'Apenas vírus, como nos imunocompetentes', 'Nenhum agente específico, como nos imunocompetentes'],
     g: 'A',
     c: 'A investigação deve ser ampla. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Sem sentido.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: cefaleia pós-punção',
     e: 'Paciente com cefaleia que piora em pé e melhora deitado após punção lombar. O diagnóstico e o tratamento são:',
-    o: ['Cefaleia pós-punção; repouso, hidratação, analgésicos e, se persistente, tampão sanguíneo peridural', 'Meningite; antibiótico', 'Hemorragia subaracnóidea; cirurgia', 'Enxaqueca; triptano'],
+    o: ['Cefaleia pós-punção: repouso, hidratação, analgésico; tampão peridural se persistir', 'Meningite bacteriana; antibiótico intravenoso por 14 dias, em dose plena', 'Hemorragia subaracnóidea; cirurgia de urgência com clipagem do aneurisma', 'Enxaqueca; triptano subcutâneo em dose habitual, no início da dor'],
     g: 'A',
     c: 'Agulhas atraumáticas reduzem o risco. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem febre.', C: 'Sem relação postural.', D: 'Padrão diferente.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: H. influenzae',
     e: 'Paciente com meningite por Haemophilus influenzae tipo b. Os contatos domiciliares com crianças pequenas não vacinadas devem receber:',
-    o: ['Rifampicina profilática', 'Nada', 'Penicilina', 'Corticoide'],
+    o: ['Rifampicina profilática', 'Nada, pois não há indicação de profilaxia', 'Penicilina benzatina, em dose única', 'Corticoide oral, em dose habitual'],
     g: 'A',
     c: 'A vacinação reduziu muito esse agente. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Risco em crianças.', C: 'Inadequada.', D: 'Sem indicação.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: diagnóstico rápido',
     e: 'Exame que pode identificar rapidamente o agente da meningite, mesmo após antibiótico, é:',
-    o: ['PCR multiplex no líquor', 'Cultura de urina', 'Hemograma', 'Radiografia'],
+    o: ['PCR multiplex no líquor', 'Cultura de urina, que não identifica o agente', 'Hemograma, que não identifica o agente', 'Radiografia de tórax, que não identifica o agente'],
     g: 'A',
     c: 'A cultura pode negativar após antibiótico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Inespecífico.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: idoso',
     e: 'Idoso com meningite pode apresentar:',
-    o: ['Quadro atípico, com confusão e pouca rigidez de nuca', 'Sempre a tríade completa', 'Febre muito alta obrigatória', 'Nunca alteração mental'],
+    o: ['Quadro atípico: confusão e pouca rigidez de nuca', 'Sempre a tríade completa, em todos os casos', 'Febre muito alta, obrigatoriamente, em todos os casos', 'Nunca alteração mental, em nenhum caso'],
     g: 'A',
     c: 'O alto índice de suspeita é essencial. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Nem sempre.', C: 'Pode faltar.', D: 'Comum.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: EPI',
     e: 'Profissional que realiza intubação de paciente com doença meningocócica sem máscara deve:',
-    o: ['Receber quimioprofilaxia', 'Ignorar', 'Fazer vacina BCG', 'Fazer apenas raio X'],
+    o: ['Receber quimioprofilaxia', 'Ignorar a exposição, pois não há risco', 'Fazer vacina BCG, após a exposição', 'Fazer apenas radiografia de tórax, após a exposição'],
     g: 'A',
     c: 'Exposição direta a secreções sem proteção indica profilaxia. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Risco real.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: proteína',
     e: 'Proteína muito elevada no líquor (acima de 200 mg/dL) com glicose baixa e linfócitos sugere:',
-    o: ['Meningite tuberculosa ou fúngica', 'Meningite viral', 'Líquor normal', 'Enxaqueca'],
+    o: ['Meningite tuberculosa ou fúngica', 'Meningite viral, que cursa com glicose normal', 'Líquor normal, sem alteração de proteína', 'Enxaqueca, que cursa com líquor normal'],
     g: 'A',
     c: 'Pode haver bloqueio do fluxo liquórico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Proteína menor e glicose normal.', C: 'Alterado.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: síndrome de Waterhouse-Friderichsen',
     e: 'A síndrome de Waterhouse-Friderichsen consiste em:',
-    o: ['Choque com hemorragia adrenal bilateral na meningococcemia fulminante', 'Hidrocefalia', 'Surdez isolada', 'Encefalite'],
+    o: ['Choque com hemorragia adrenal bilateral na meningococcemia fulminante', 'Hidrocefalia comunicante, como sequela da meningite bacteriana', 'Surdez neurossensorial isolada, como sequela da meningite bacteriana', 'Encefalite, por infecção viral do encéfalo, sem choque'],
     g: 'A',
     c: 'Pode exigir corticoide. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023 (capítulo Meningites).',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: coma',
     e: 'Paciente com meningite bacteriana e Glasgow de 8. A conduta inclui:',
-    o: ['Proteção de via aérea, antibiótico, dexametasona e cuidados intensivos', 'Alta', 'Somente antitérmico', 'Punção lombar antes de tudo'],
+    o: ['Proteger a via aérea; antibiótico, dexametasona e cuidados intensivos', 'Alta hospitalar, com retorno em caso de piora clínica', 'Somente antitérmico, sem antibiótico nem dexametasona', 'Punção lombar antes de qualquer outra medida de suporte'],
     g: 'A',
     c: 'Hipertensão intracraniana deve ser manejada. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Pode ser perigoso.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: zoonoses',
     e: 'Meningite associada a leptospirose ocorre geralmente:',
-    o: ['Na fase imune, com líquor linfocítico', 'Sempre com neutrófilos', 'Nunca', 'Somente em crianças'],
+    o: ['Na fase imune, com líquor linfocítico', 'Sempre com neutrófilos no líquor, em todos os casos', 'Nunca ocorre na leptospirose, em nenhuma fase', 'Somente em crianças, e nunca em adultos'],
     g: 'A',
     c: 'Pode ser assintomática. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é o padrão.', C: 'Pode ocorrer.', D: 'Em adultos também.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_MENING: QuestaoCompacta[] = [
   {
     s: 'Meningite: prognóstico',
     e: 'Fatores de mau prognóstico na meningite bacteriana incluem:',
-    o: ['Rebaixamento de consciência, convulsões, choque e atraso no antibiótico', 'Febre baixa', 'Cefaleia isolada', 'Idade de 25 anos'],
+    o: ['Rebaixamento de consciência, convulsões, choque e atraso no antibiótico', 'Febre baixa, que não é fator de mau prognóstico nessa doença', 'Cefaleia isolada, que não é fator de mau prognóstico nessa doença', 'Idade de 25 anos, que não é fator de mau prognóstico nessa doença'],
     g: 'A',
     c: 'O tratamento precoce é o fator modificável mais importante. Referência: Tunkel AR et al. Practice guidelines for the management of bacterial meningitis. Clin Infect Dis. 2004;39(9):1267-84.',
     x: { B: 'Não é fator.', C: 'Não é fator.', D: 'Não é fator.' },

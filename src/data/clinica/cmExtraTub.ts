@@ -13,7 +13,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Acidose tubular renal proximal',
     e: 'A acidose tubular renal tipo 2 (proximal) associa-se frequentemente a:',
-    o: ['Síndrome de Fanconi, com glicosúria, aminoacidúria e fosfatúria', 'Hipercalemia', 'Nefrocalcinose importante', 'Urina sempre alcalina'],
+    o: ['Síndrome de Fanconi (glicosúria, aminoacidúria e fosfatúria)', 'Hipercalemia, que é típica da ATR tipo 4', 'Nefrocalcinose importante, que é típica da ATR tipo 1', 'Urina sempre alcalina, que é típica da ATR tipo 1'],
     g: 'A',
     c: 'Causas: mieloma, tenofovir, ifosfamida e acetazolamida. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Típico do tipo 4.', C: 'Típico do tipo 1.', D: 'A urina acidifica quando o bicarbonato sérico cai.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Acidose tubular renal tipo 4',
     e: 'Diabético com doença renal moderada apresenta acidose hiperclorêmica e potássio de 6,2 mEq/L. O diagnóstico é:',
-    o: ['Acidose tubular renal tipo 4 (hipoaldosteronismo hiporreninêmico)', 'Tipo 1', 'Tipo 2', 'Bartter'],
+    o: ['ATR tipo 4 (hipoaldosteronismo hiporreninêmico)', 'ATR tipo 1 (distal), com hipocalemia e nefrocalcinose', 'ATR tipo 2 (proximal), com síndrome de Fanconi', 'Síndrome de Bartter, com hipocalemia e alcalose metabólica'],
     g: 'A',
     c: 'IECA, BRA, espironolactona e heparina podem contribuir. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Hipocalemia.', C: 'Hipocalemia.', D: 'Alcalose e hipocalemia.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Bartter',
     e: 'Jovem com alcalose metabólica hipocalêmica, pressão normal e hipercalciúria. O defeito lembra o efeito de qual diurético?',
-    o: ['Furosemida (alça de Henle)', 'Tiazídico', 'Espironolactona', 'Acetazolamida'],
+    o: ['Furosemida (alça de Henle)', 'Tiazídico, que reduz a calciúria e causa hipocalcemia', 'Espironolactona, que causa hipercalemia e acidose', 'Acetazolamida, que causa acidose metabólica'],
     g: 'A',
     c: 'Gitelman lembra tiazídico, com hipocalciúria e hipomagnesemia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Lembra Gitelman.', C: 'Causa hipercalemia.', D: 'Causa acidose.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Liddle',
     e: 'Jovem com hipertensão grave, hipocalemia, alcalose e renina e aldosterona baixas. O diagnóstico e o tratamento são:',
-    o: ['Síndrome de Liddle; amilorida ou triantereno', 'Hiperaldosteronismo primário; espironolactona', 'Gitelman; magnésio', 'Bartter; indometacina'],
+    o: ['Síndrome de Liddle: amilorida ou triantereno', 'Hiperaldosteronismo primário, com aldosterona elevada; espironolactona', 'Síndrome de Gitelman, com hipomagnesemia; suplementar magnésio', 'Síndrome de Bartter, com hipercalciúria; indometacina'],
     g: 'A',
     c: 'Há hiperatividade do canal de sódio epitelial (ENaC). Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Aldosterona alta.', C: 'Sem hipertensão.', D: 'Sem hipertensão.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Diabetes insipidus nefrogênico',
     e: 'Paciente em uso crônico de lítio com poliúria, urina diluída e sem resposta à desmopressina. O diagnóstico é:',
-    o: ['Diabetes insipidus nefrogênico', 'Diabetes insipidus central', 'Polidipsia primária', 'Diabetes mellitus'],
+    o: ['Diabetes insipidus nefrogênico', 'Diabetes insipidus central, que responde à desmopressina', 'Polidipsia primária, com urina diluída e boa resposta', 'Diabetes mellitus, com glicosúria e poliúria osmótica'],
     g: 'A',
     c: 'Tiazídicos e amilorida podem reduzir a poliúria. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Responderia à desmopressina.', C: 'Responderia à restrição hídrica.', D: 'Glicosúria.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Lesão renal aguda: pré-renal',
     e: 'Idoso desidratado com creatinina elevada, ureia desproporcionalmente alta, FENa abaixo de 1% e urina concentrada. O diagnóstico e a conduta são:',
-    o: ['Lesão renal pré-renal; reposição volêmica', 'NTA; diálise', 'Glomerulonefrite; corticoide', 'Nefrite intersticial; suspender droga'],
+    o: ['Lesão renal pré-renal: reposição volêmica', 'Necrose tubular aguda: diálise de rotina, sem reposição', 'Glomerulonefrite: corticoide em dose alta, sem reposição', 'Nefrite intersticial: suspender a droga, sem reposição'],
     g: 'A',
     c: 'Diuréticos alteram a FENa; usar FE de ureia. Referência: Kidney Disease: Improving Global Outcomes (KDIGO). Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138.',
     x: { B: 'FENa alta.', C: 'Sem sedimento nefrítico.', D: 'Sem eosinofilúria.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Lesão renal aguda: classificação',
     e: 'Pelo KDIGO, lesão renal aguda é definida por:',
-    o: ['Aumento de creatinina de 0,3 mg/dL ou mais em 48 horas, ou de 1,5 vez em 7 dias, ou diurese abaixo de 0,5 mL/kg/h por 6 horas', 'Creatinina acima de 3 em qualquer momento', 'Ureia acima de 100 isolada', 'Proteinúria'],
+    o: ['Creatinina ↑ ≥ 0,3 mg/dL em 48 h, ou 1,5x em 7 dias, ou diurese < 0,5 mL/kg/h por 6 h', 'Creatinina acima de 3 mg/dL em qualquer momento da internação', 'Ureia acima de 100 mg/dL, de forma isolada, em qualquer momento', 'Proteinúria de qualquer grau, de forma isolada, em qualquer momento'],
     g: 'A',
     c: 'Graduada em estádios 1 a 3. Referência: Kidney Disease: Improving Global Outcomes (KDIGO). Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138.',
     x: { B: 'Não é a definição.', C: 'Não é a definição.', D: 'Não é a definição.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por contraste',
     e: 'A medida com melhor evidência para reduzir lesão renal por contraste em pacientes de risco é:',
-    o: ['Hidratação venosa com cristaloide isotônico', 'N-acetilcisteína obrigatória', 'Furosemida', 'Manitol'],
+    o: ['Hidratação venosa com cristaloide isotônico', 'N-acetilcisteína obrigatória, que não tem benefício comprovado', 'Furosemida venosa, que não tem benefício comprovado', 'Manitol venoso, que não tem benefício comprovado'],
     g: 'A',
     c: 'Usar menor volume de contraste iso ou hiposmolar. Referência: American College of Radiology; National Kidney Foundation. Use of Intravenous Iodinated Contrast Media in Patients With Kidney Disease: Consensus Statements. Radiology. 2020;294(3):660-8.',
     x: { B: 'Evidência inconsistente.', C: 'Pode piorar.', D: 'Sem benefício.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Nefrite intersticial aguda',
     e: 'Paciente com febre, exantema, eosinofilia e insuficiência renal após iniciar antibiótico betalactâmico. O diagnóstico e a conduta são:',
-    o: ['Nefrite intersticial aguda; suspender o medicamento e considerar corticoide', 'NTA; diálise', 'Glomerulonefrite; ciclofosfamida', 'Pielonefrite; antibiótico'],
+    o: ['Nefrite intersticial aguda: suspender o fármaco e considerar corticoide', 'NTA, tratada com diálise de rotina e sem suspender o fármaco', 'Glomerulonefrite, tratada com ciclofosfamida e corticoide', 'Pielonefrite, tratada com antibiótico venoso e sem suspender o fármaco'],
     g: 'A',
     c: 'Outras causas: AINEs e inibidores de bomba de prótons. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem tríade alérgica.', C: 'Sem sedimento nefrítico.', D: 'Sem infecção.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Necrose de papila',
     e: 'Diabético com pielonefrite grave apresenta hematúria e cólica, com eliminação de fragmentos de tecido na urina. A hipótese é:',
-    o: ['Necrose de papila renal', 'Litíase simples', 'Câncer renal', 'Glomerulonefrite'],
+    o: ['Necrose de papila renal', 'Litíase simples, sem pielonefrite grave associada', 'Câncer renal, com massa tumoral à imagem', 'Glomerulonefrite, com hematúria glomerular dismórfica'],
     g: 'A',
     c: 'Fatores: diabetes, analgésicos, anemia falciforme, obstrução e infecção. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem fragmentos teciduais.', C: 'Sem esse quadro.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Rim policístico autossômico dominante',
     e: 'Adulto com rins aumentados com múltiplos cistos, hipertensão, hematúria e pai em diálise. A complicação extrarrenal mais temida é:',
-    o: ['Aneurisma cerebral com hemorragia subaracnóidea', 'Cirrose', 'Câncer de cólon', 'Diabetes'],
+    o: ['Aneurisma cerebral com hemorragia subaracnóidea', 'Cirrose hepática, com hipertensão portal', 'Câncer de cólon, com polipose associada', 'Diabetes mellitus, com nefropatia diabética'],
     g: 'A',
     c: 'Cistos hepáticos são frequentes. Tolvaptana pode retardar a progressão. Referência: Chapman AB et al. Autosomal-dominant polycystic kidney disease (ADPKD): KDIGO Controversies Conference. Kidney Int. 2015;88(1):17-27.',
     x: { B: 'Raramente evolui assim.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Estenose de artéria renal',
     e: 'Mulher de 28 anos com hipertensão grave de início recente e sopro abdominal. A causa mais provável de hipertensão renovascular é:',
-    o: ['Displasia fibromuscular', 'Aterosclerose', 'Feocromocitoma', 'Hiperaldosteronismo'],
+    o: ['Displasia fibromuscular', 'Aterosclerose, que é mais comum em idosos', 'Feocromocitoma, com catecolaminas elevadas', 'Hiperaldosteronismo, com hipocalemia associada'],
     g: 'A',
     c: 'Em idosos, a aterosclerose é a causa mais comum. A angioplastia tem bom resultado na displasia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Mais comum em idosos.', C: 'Sem sopro.', D: 'Hipocalemia.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Estenose de artéria renal',
     e: 'Idoso hipertenso inicia IECA e apresenta elevação da creatinina acima de 30%. Deve-se suspeitar de:',
-    o: ['Estenose bilateral de artéria renal', 'Glomerulonefrite', 'Pielonefrite', 'Litíase'],
+    o: ['Estenose bilateral de artéria renal', 'Glomerulonefrite, com hematúria dismórfica', 'Pielonefrite, com febre e leucocitúria', 'Litíase, com dor em cólica e hematúria'],
     g: 'A',
     c: 'Edema pulmonar súbito recorrente (flash) também sugere. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Microangiopatia trombótica',
     e: 'Paciente com anemia hemolítica microangiopática (esquizócitos), plaquetopenia e insuficiência renal. As principais hipóteses são:',
-    o: ['Síndrome hemolítico-urêmica e púrpura trombocitopênica trombótica', 'Anemia ferropriva', 'PTI', 'Leucemia'],
+    o: ['Síndrome hemolítico-urêmica e púrpura trombocitopênica trombótica', 'Anemia ferropriva, que é microcítica e sem esquizócitos no esfregaço', 'PTI, que cursa com plaquetopenia isolada e sem anemia hemolítica', 'Leucemia aguda, que cursa com blastos e citopenias no esfregaço'],
     g: 'A',
     c: 'Na PTT, a atividade da ADAMTS13 está muito reduzida e o tratamento é plasmaférese. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem hemólise.', C: 'Sem hemólise e insuficiência renal.', D: 'Sem esse padrão.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Lesão renal pós-renal',
     e: 'Idoso com dificuldade miccional, globo vesical e creatinina elevada. A conduta inicial é:',
-    o: ['Sondagem vesical e ultrassom para avaliar hidronefrose', 'Diálise', 'Corticoide', 'Diurético'],
+    o: ['Sondagem vesical e ultrassom para avaliar hidronefrose', 'Diálise de urgência, antes de qualquer avaliação', 'Corticoide em dose alta, antes de qualquer avaliação', 'Diurético de alça venoso, antes de qualquer avaliação'],
     g: 'A',
     c: 'A obstrução prostática é causa comum. Referência: Kidney Disease: Improving Global Outcomes (KDIGO). Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138.',
     x: { B: 'Não é inicial.', C: 'Sem indicação.', D: 'Pioraria.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Diálise de urgência',
     e: 'É indicação de diálise de urgência na lesão renal aguda:',
-    o: ['Hipercalemia refratária, acidose grave, hipervolemia refratária, uremia com pericardite ou encefalopatia', 'Creatinina de 2 mg/dL isolada', 'Ureia de 80 isolada', 'Diurese preservada sem complicações'],
+    o: ['Hipercalemia refratária, acidose grave, hipervolemia refratária, pericardite ou encefalopatia', 'Creatinina de 2 mg/dL, de forma isolada, sem complicações metabólicas associadas', 'Ureia de 80 mg/dL, de forma isolada, sem complicações metabólicas associadas', 'Diurese preservada, sem complicações metabólicas ou volêmicas, e com bom estado geral'],
     g: 'A',
     c: 'Mnemônico AEIOU: acidose, eletrólitos, intoxicações, overload, uremia. Referência: Kidney Disease: Improving Global Outcomes (KDIGO). Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138.',
     x: { B: 'Não isoladamente.', C: 'Não isoladamente.', D: 'Sem indicação.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Nefroesclerose hipertensiva',
     e: 'A doença renal crônica por hipertensão de longa data cursa tipicamente com:',
-    o: ['Proteinúria discreta, sedimento pouco ativo e rins de tamanho reduzido', 'Hematúria macroscópica', 'Síndrome nefrótica grave', 'Rins aumentados'],
+    o: ['Proteinúria discreta, sedimento pouco ativo e rins reduzidos', 'Hematúria macroscópica, que é típica de glomerulonefrite', 'Síndrome nefrótica grave, que não é típica dessa causa', 'Rins aumentados, que são típicos do rim policístico'],
     g: 'A',
     c: 'Controlar a PA e usar IECA ou BRA. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Rara.', D: 'Rins pequenos.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Nefrolitíase',
     e: 'O tipo mais comum de cálculo urinário é:',
-    o: ['Oxalato de cálcio', 'Ácido úrico', 'Estruvita', 'Cistina'],
+    o: ['Oxalato de cálcio', 'Ácido úrico, que é menos comum', 'Estruvita, que se associa a infecção por urease', 'Cistina, que é raro e hereditário'],
     g: 'A',
     c: 'Estruvita associa-se a Proteus; cistina, a doença genética. Referência: Pearle MS et al. Medical management of kidney stones: AUA guideline. J Urol. 2014;192(2):316-24.',
     x: { B: 'Menos comum.', C: 'Associado a infecção.', D: 'Raro.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Nefrolitíase: cólica',
     e: 'Paciente com cólica renal e cálculo de 4 mm no ureter distal, sem infecção. A conduta é:',
-    o: ['Analgesia (AINE se função renal normal) e terapia expulsiva com alfabloqueador', 'Cirurgia imediata', 'Antibiótico', 'Restrição hídrica'],
+    o: ['Analgesia (AINE) e terapia expulsiva com alfabloqueador', 'Cirurgia imediata, para cálculos pequenos e sem infecção', 'Antibiótico de amplo espectro, mesmo sem infecção', 'Restrição hídrica, que dificulta a eliminação do cálculo'],
     g: 'A',
     c: 'Cálculo obstrutivo com infecção é urgência para desobstrução. Referência: Assimos D et al. Surgical Management of Stones: AUA/Endourology Society Guideline. J Urol. 2016;196(4):1153-60.',
     x: { B: 'Sem indicação.', C: 'Sem infecção.', D: 'Sem benefício.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Nefrolitíase: prevenção',
     e: 'Medida geral mais importante para prevenir recorrência de cálculos é:',
-    o: ['Aumentar a ingestão de água para diurese acima de 2 a 2,5 litros por dia', 'Restringir cálcio da dieta', 'Aumentar o sal', 'Aumentar proteína animal'],
+    o: ['Aumentar a ingestão de água: diurese > 2-2,5 L/dia', 'Restringir o cálcio da dieta, que aumenta a litíase', 'Aumentar o sal da dieta, que aumenta a calciúria', 'Aumentar a proteína animal, que aumenta a calciúria'],
     g: 'A',
     c: 'A restrição de cálcio aumenta a absorção de oxalato. Referência: Pearle MS et al. J Urol. 2014;192(2):316-24.',
     x: { B: 'Aumenta o risco.', C: 'Aumenta o risco.', D: 'Aumenta o risco.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Fanconi',
     e: 'Paciente com mieloma múltiplo apresenta glicosúria com glicemia normal, hipofosfatemia, aminoacidúria e acidose. O diagnóstico é:',
-    o: ['Síndrome de Fanconi', 'Diabetes mellitus', 'ATR tipo 4', 'Bartter'],
+    o: ['Síndrome de Fanconi', 'Diabetes mellitus, com glicemia elevada', 'ATR tipo 4, com hipercalemia', 'Síndrome de Bartter, com hipocalemia'],
     g: 'A',
     c: 'Disfunção tubular proximal generalizada. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Glicemia normal.', C: 'Hipercalemia.', D: 'Alcalose.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Tenofovir',
     e: 'Paciente com HIV em uso de tenofovir (TDF) com fosfatúria, glicosúria e queda da função renal. A conduta é:',
-    o: ['Considerar troca do antirretroviral pela toxicidade tubular proximal', 'Manter', 'Aumentar a dose', 'Suspender toda a TARV'],
+    o: ['Considerar trocar o antirretroviral, pela toxicidade tubular proximal', 'Manter o tenofovir, pois a alteração tubular é esperada e benigna', 'Aumentar a dose do tenofovir, para controlar melhor o vírus', 'Suspender toda a TARV, por tempo indeterminado, até a recuperação'],
     g: 'A',
     c: 'O tenofovir alafenamida tem menor toxicidade renal. Referência: Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília: MS, 2024.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Inadequado.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Anfotericina B',
     e: 'A anfotericina B pode causar:',
-    o: ['Acidose tubular distal, hipocalemia e hipomagnesemia, além de lesão renal', 'Hipercalemia isolada', 'Alcalose metabólica', 'Hipernatremia por excesso de sódio'],
+    o: ['ATR distal, hipocalemia, hipomagnesemia e lesão renal', 'Hipercalemia isolada, sem outras alterações eletrolíticas', 'Alcalose metabólica, sem outras alterações eletrolíticas', 'Hipernatremia por excesso de sódio, sem outras alterações'],
     g: 'A',
     c: 'Formulações lipídicas e hidratação reduzem a toxicidade. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é o padrão.', C: 'Não é o padrão.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Aminoglicosídeos',
     e: 'A nefrotoxicidade dos aminoglicosídeos manifesta-se tipicamente como:',
-    o: ['NTA não oligúrica após 5 a 7 dias de uso', 'Glomerulonefrite aguda', 'Síndrome nefrótica', 'Obstrução'],
+    o: ['NTA não oligúrica após 5 a 7 dias de uso', 'Glomerulonefrite aguda, com hematúria dismórfica', 'Síndrome nefrótica, com proteinúria maciça', 'Obstrução do trato urinário, com hidronefrose'],
     g: 'A',
     c: 'Dose única diária e monitorar níveis reduzem o risco. Referência: Kidney Disease: Improving Global Outcomes (KDIGO). Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Lesão renal: AINEs',
     e: 'Os AINEs causam lesão renal aguda principalmente por:',
-    o: ['Vasoconstrição da arteríola aferente por inibição de prostaglandinas', 'Dilatação da aferente', 'Obstrução', 'Glomerulonefrite'],
+    o: ['Vasoconstrição da arteríola aferente por inibição de prostaglandinas', 'Dilatação da arteríola aferente, com aumento da filtração', 'Obstrução do trato urinário, por cristais', 'Glomerulonefrite, por depósito de imunocomplexos'],
     g: 'A',
     c: 'Risco maior com hipovolemia, IECA, BRA e diurético (o triplo golpe). Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Lesão renal: IECA',
     e: 'O IECA reduz a filtração glomerular por:',
-    o: ['Vasodilatação da arteríola eferente', 'Vasoconstrição da aferente', 'Obstrução tubular', 'Necrose papilar'],
+    o: ['Vasodilatação da arteríola eferente', 'Vasoconstrição da arteríola aferente, que é do AINE', 'Obstrução tubular, por cristais', 'Necrose papilar, por isquemia'],
     g: 'A',
     c: 'Elevação de creatinina até 30% é aceitável. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Efeito dos AINEs.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Hiperuricemia e lesão renal',
     e: 'Paciente com linfoma em quimioterapia apresenta hiperuricemia, hiperfosfatemia, hipercalemia e lesão renal aguda. O diagnóstico e a prevenção são:',
-    o: ['Síndrome de lise tumoral; hidratação e alopurinol ou rasburicase', 'NTA por contraste; acetilcisteína', 'Glomerulonefrite; corticoide', 'Pré-renal; restrição'],
+    o: ['Síndrome de lise tumoral: hidratação e alopurinol ou rasburicase', 'NTA por contraste; acetilcisteína, sem hidratação associada', 'Glomerulonefrite; corticoide em dose alta, sem hidratação associada', 'Lesão pré-renal; restrição de fluidos, sem hidratação associada'],
     g: 'A',
     c: 'A rasburicase é usada em alto risco. Referência: Cairo MS, Bishop M. Tumour lysis syndrome: new therapeutic strategies and classification. Br J Haematol. 2004;127(1):3-11.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Rim do mieloma',
     e: 'No mieloma múltiplo, a principal causa de lesão renal é:',
-    o: ['Nefropatia por cilindros de cadeias leves (rim do mieloma)', 'Glomerulonefrite pós-infecciosa', 'Litíase', 'Pielonefrite'],
+    o: ['Nefropatia por cilindros de cadeias leves (rim do mieloma)', 'Glomerulonefrite pós-infecciosa, com hematúria dismórfica', 'Litíase renal, com cólica e hematúria', 'Pielonefrite, com febre e leucocitúria'],
     g: 'A',
     c: 'Hipercalcemia e desidratação contribuem. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Síndrome cardiorrenal',
     e: 'Paciente com insuficiência cardíaca descompensada e piora da creatinina com congestão. A conduta inclui:',
-    o: ['Otimizar a descongestão com diuréticos, monitorando a função renal', 'Restringir diurético por medo da creatinina', 'Expansão volêmica', 'Suspender todos os medicamentos'],
+    o: ['Otimizar a descongestão com diuréticos, monitorando a função renal', 'Restringir o diurético por medo da elevação da creatinina', 'Expansão volêmica com cristaloide, por suspeita de pré-renal', 'Suspender todos os medicamentos, inclusive os diuréticos'],
     g: 'A',
     c: 'A congestão venosa renal contribui para a piora. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Pode piorar a congestão.', C: 'Pioraria.', D: 'Inadequado.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Síndrome hepatorrenal',
     e: 'Cirrótico com ascite apresenta piora progressiva da creatinina, urina com sódio baixo, sem resposta à expansão com albumina e sem outras causas. O diagnóstico e o tratamento são:',
-    o: ['Síndrome hepatorrenal; terlipressina com albumina', 'NTA; diálise imediata', 'Glomerulonefrite; corticoide', 'Obstrução; sonda'],
+    o: ['Síndrome hepatorrenal: terlipressina com albumina', 'NTA: diálise imediata, sem outros tratamentos', 'Glomerulonefrite: corticoide em dose alta', 'Obstrução urinária: sondagem vesical e alívio'],
     g: 'A',
     c: 'O transplante hepático é o tratamento definitivo. Referência: European Association for the Study of the Liver. EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis. J Hepatol. 2018;69(2):406-60.',
     x: { B: 'Sem resposta tubular.', C: 'Sem sedimento.', D: 'Sem obstrução.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Doença renal: uropatia obstrutiva',
     e: 'Na obstrução urinária bilateral, após a desobstrução, pode ocorrer:',
-    o: ['Poliúria pós-obstrutiva com perda de água e eletrólitos', 'Anúria permanente sempre', 'Hipercalemia sempre', 'Nenhuma alteração'],
+    o: ['Poliúria pós-obstrutiva, com perda de água e eletrólitos', 'Anúria permanente, sempre, em todos os casos', 'Hipercalemia, sempre, em todos os casos', 'Nenhuma alteração da diurese ou dos eletrólitos'],
     g: 'A',
     c: 'Exige reposição e monitorização. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é a regra.', C: 'Não é a regra.', D: 'Pode ocorrer.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Infarto renal',
     e: 'Paciente com fibrilação atrial apresenta dor lombar súbita, hematúria e LDH muito elevado. A hipótese é:',
-    o: ['Infarto renal por embolia', 'Cólica renal por cálculo', 'Pielonefrite', 'Glomerulonefrite'],
+    o: ['Infarto renal por embolia', 'Cólica renal por cálculo, sem hipertensão nem FA', 'Pielonefrite, com febre e leucocitúria', 'Glomerulonefrite, com hematúria dismórfica'],
     g: 'A',
     c: 'A tomografia com contraste confirma. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'LDH não tão elevado.', C: 'Sem febre.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'NTA: fases',
     e: 'Na fase de recuperação da necrose tubular aguda, é comum:',
-    o: ['Poliúria com perda de eletrólitos', 'Anúria', 'Hipercalemia crescente', 'Retenção hídrica'],
+    o: ['Poliúria com perda de eletrólitos', 'Anúria persistente, que é da fase oligúrica', 'Hipercalemia crescente, que é da fase oligúrica', 'Retenção hídrica, que é da fase oligúrica'],
     g: 'A',
     c: 'O túbulo recupera a filtração antes da capacidade de reabsorção. Referência: Kidney Disease: Improving Global Outcomes (KDIGO). Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138.',
     x: { B: 'Típico da fase inicial.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Hipertensão: emergência e rim',
     e: 'Paciente com PA de 230 x 140 mmHg, encefalopatia e lesão renal aguda. A conduta é:',
-    o: ['Redução gradual da PA com anti-hipertensivo intravenoso, cerca de 25% na primeira hora', 'Normalizar a PA em minutos', 'Nenhum tratamento', 'Diurético isolado'],
+    o: ['Redução gradual da PA por via venosa, cerca de 25% na 1ª hora', 'Normalizar a PA em minutos, com nitroprussiato', 'Nenhum tratamento, pois a lesão renal é reversível', 'Diurético isolado, sem anti-hipertensivo venoso'],
     g: 'A',
     c: 'Queda brusca causa isquemia. Referência: Whelton PK et al. 2017 ACC/AHA Guideline for High Blood Pressure in Adults. Hypertension. 2018;71(6):e13-115.',
     x: { B: 'Risco de isquemia.', C: 'É emergência.', D: 'Insuficiente.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Doença tubulointersticial crônica',
     e: 'A nefropatia crônica por uso abusivo de analgésicos associa-se a:',
-    o: ['Necrose de papila e nefrite intersticial crônica', 'Glomerulonefrite membranosa obrigatória', 'Síndrome de Alport', 'Rim policístico'],
+    o: ['Necrose de papila e nefrite intersticial crônica', 'Glomerulonefrite membranosa, obrigatoriamente', 'Síndrome de Alport, com surdez e hematúria', 'Rim policístico, de herança dominante'],
     g: 'A',
     c: 'Também aumenta o risco de carcinoma urotelial. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Hereditária.', D: 'Hereditária.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Cálculos de ácido úrico',
     e: 'Cálculo radiotransparente na radiografia simples, em paciente com gota. O tipo provável e a prevenção são:',
-    o: ['Ácido úrico; alcalinização da urina com citrato de potássio', 'Oxalato de cálcio; restrição de cálcio', 'Estruvita; antibiótico isolado', 'Cistina; vitamina C'],
+    o: ['Ácido úrico: alcalinizar a urina com citrato de potássio', 'Oxalato de cálcio; restrição de cálcio na dieta', 'Estruvita; antibiótico isolado, sem remoção do cálculo', 'Cistina; vitamina C em dose alta'],
     g: 'A',
     c: 'Tomografia sem contraste detecta todos os tipos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Radiopaco.', C: 'Radiopaco.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Hipertensão renovascular: tratamento',
     e: 'Na estenose aterosclerótica de artéria renal, o tratamento inicial recomendado é:',
-    o: ['Tratamento clínico otimizado (anti-hipertensivos, estatina, antiagregante)', 'Angioplastia com stent para todos', 'Nefrectomia', 'Nenhum'],
+    o: ['Tratamento clínico otimizado (anti-hipertensivos, estatina, antiagregante)', 'Angioplastia com stent para todos os pacientes, de imediato', 'Nefrectomia do rim acometido, como primeira conduta terapêutica', 'Nenhum tratamento, apenas observação clínica periódica'],
     g: 'A',
     c: 'Estudos como o CORAL não mostraram benefício rotineiro do stent. Referência: Cooper CJ et al. Stenting and medical therapy for atherosclerotic renal-artery stenosis (CORAL). N Engl J Med. 2014;370(1):13-22.',
     x: { B: 'Sem benefício rotineiro.', C: 'Medida extrema.', D: 'Exige tratamento.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Nefrotoxicidade: inibidores de calcineurina',
     e: 'Ciclosporina e tacrolimo podem causar:',
-    o: ['Vasoconstrição renal, hipertensão, hipercalemia e nefrotoxicidade crônica', 'Hipocalemia isolada', 'Glomerulonefrite rapidamente progressiva', 'Rim policístico'],
+    o: ['Vasoconstrição renal, hipertensão, hipercalemia e nefrotoxicidade crônica', 'Hipocalemia isolada, sem outras alterações renais ou pressóricas', 'Glomerulonefrite rapidamente progressiva, com crescentes e hematúria', 'Rim policístico, de herança dominante, com cistos bilaterais'],
     g: 'A',
     c: 'Monitorar níveis séricos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é o padrão.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Pielonefrite',
     e: 'Mulher com febre, dor lombar, Giordano positivo e urocultura com E. coli. O tratamento ambulatorial pode ser com:',
-    o: ['Quinolona ou cefalosporina, conforme resistência local, por 7 a 14 dias', 'Nitrofurantoína', 'Fosfomicina dose única', 'Nenhum'],
+    o: ['Quinolona ou cefalosporina (conforme resistência local) por 7 a 14 dias', 'Nitrofurantoína, que não atinge nível tecidual renal adequado', 'Fosfomicina em dose única, que é indicada para cistite simples', 'Nenhum antibiótico, pois a pielonefrite é autolimitada'],
     g: 'A',
     c: 'Nitrofurantoína e fosfomicina não atingem o parênquima renal. Referência: Gupta K et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women. Clin Infect Dis. 2011;52(5):e103-20.',
     x: { B: 'Inadequada.', C: 'Inadequada.', D: 'Exige tratamento.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Pielonefrite enfisematosa',
     e: 'Diabético com pielonefrite grave e gás no parênquima renal à tomografia. A conduta é:',
-    o: ['Antibiótico intravenoso e drenagem percutânea ou nefrectomia conforme a gravidade', 'Antibiótico oral', 'Observação', 'Diurético'],
+    o: ['Antibiótico IV e drenagem percutânea ou nefrectomia, conforme a gravidade', 'Antibiótico oral, em dose habitual, em tratamento ambulatorial', 'Observação clínica, sem antibiótico nem drenagem do parênquima', 'Diurético de alça, para forçar a eliminação do gás renal'],
     g: 'A',
     c: 'Alta mortalidade. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Inadequado.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_TUB: QuestaoCompacta[] = [
   {
     s: 'Lesão renal: sonda vesical',
     e: 'Paciente com lesão renal aguda e anúria súbita total. A primeira causa a excluir é:',
-    o: ['Obstrução do trato urinário (incluindo sonda obstruída)', 'Glomerulonefrite', 'Pré-renal', 'NTA'],
+    o: ['Obstrução do trato urinário (inclusive sonda obstruída)', 'Glomerulonefrite, que raramente causa anúria total', 'Causa pré-renal, que raramente causa anúria total', 'NTA, que raramente causa anúria total'],
     g: 'A',
     c: 'A anúria total é rara em NTA e pré-renal. Referência: Kidney Disease: Improving Global Outcomes (KDIGO). Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1-138.',
     x: { B: 'Causa menos comum de anúria total.', C: 'Raramente anúria total.', D: 'Raramente anúria total.' },

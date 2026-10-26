@@ -5,7 +5,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: crise',
     e: 'Homem de 50 anos com dor intensa, edema e eritema da primeira metatarsofalângica, de início noturno, após churrasco e cerveja. O diagnóstico é:',
-    o: ['Crise aguda de gota (podagra)', 'Artrite séptica sempre', 'Celulite', 'Osteoartrite'],
+    o: ['Crise aguda de gota (podagra)', 'Artrite séptica, em todos os casos de monoartrite', 'Celulite, com eritema difuso e febre', 'Osteoartrite, com dor mecânica e rigidez curta'],
     g: 'A',
     c: 'O diagnóstico definitivo é a identificação de cristais de urato no líquido sinovial. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Deve ser excluída, mas o quadro é típico de gota.', C: 'Sem cristais.', D: 'Sem inflamação aguda.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: cristais',
     e: 'No líquido sinovial, os cristais de urato monossódico são:',
-    o: ['Em forma de agulha, com birrefringência negativa forte', 'Romboides com birrefringência positiva fraca', 'Cúbicos', 'Ausentes na crise'],
+    o: ['Em agulha, com birrefringência negativa forte', 'Romboides, com birrefringência positiva fraca (pirofosfato)', 'Cúbicos, sem birrefringência', 'Ausentes na crise de gota, em todos os casos'],
     g: 'A',
     c: 'Cristais romboides de birrefringência positiva fraca são de pirofosfato de cálcio. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Pseudogota.', C: 'Sem relação.', D: 'Presentes.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: tratamento da crise',
     e: 'O tratamento da crise aguda de gota pode ser feito com:',
-    o: ['Colchicina em dose baixa, AINE ou corticoide, iniciados precocemente', 'Alopurinol isolado iniciado na crise sem anti-inflamatório', 'Antibiótico', 'Febuxostate isolado'],
+    o: ['Colchicina em dose baixa, AINE ou corticoide, precoces', 'Alopurinol isolado, iniciado na crise sem anti-inflamatório', 'Antibiótico, por via oral, por 14 dias', 'Febuxostate isolado, iniciado durante a crise'],
     g: 'A',
     c: 'Se o paciente já usa alopurinol, não suspender durante a crise. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Pode piorar a crise.', C: 'Sem infecção.', D: 'Não trata a crise.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: hipouricemiante',
     e: 'É indicação de terapia hipouricemiante (como alopurinol):',
-    o: ['Tofos, duas ou mais crises por ano, artropatia gotosa erosiva ou litíase úrica', 'Uma única crise leve sem fatores', 'Hiperuricemia assintomática em todos', 'Nunca'],
+    o: ['Tofos, ≥ 2 crises/ano, artropatia erosiva ou litíase úrica', 'Uma única crise leve, sem outros fatores', 'Hiperuricemia assintomática, em todos os pacientes', 'Nunca há indicação de terapia hipouricemiante'],
     g: 'A',
     c: 'A meta é ácido úrico abaixo de 6 mg/dL (abaixo de 5 com tofos). Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Geralmente não indicada.', C: 'Não indicada em geral.', D: 'Há indicações.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: profilaxia',
     e: 'Ao iniciar alopurinol, recomenda-se associar por 3 a 6 meses:',
-    o: ['Colchicina em dose baixa (ou AINE) para prevenir crises', 'Diurético tiazídico', 'AAS em dose baixa', 'Nada'],
+    o: ['Colchicina em dose baixa (ou AINE) para prevenir crises', 'Diurético tiazídico, que eleva o ácido úrico', 'AAS em dose baixa, que eleva o ácido úrico', 'Nada, pois não há risco de crises'],
     g: 'A',
     c: 'A mobilização de urato pode desencadear crises. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Eleva ácido úrico.', C: 'Eleva ácido úrico.', D: 'Risco de crises.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Alopurinol',
     e: 'Antes de iniciar alopurinol em pacientes de ascendência asiática, considerar teste para:',
-    o: ['HLA-B*58:01, pelo risco de reação grave (síndrome DRESS ou Stevens-Johnson)', 'HLA-B27', 'HLA-DR4', 'HLA-B51'],
+    o: ['HLA-B*58:01: risco de reação grave (DRESS, Stevens-Johnson)', 'HLA-B27, que se associa a espondiloartrites', 'HLA-DR4, que se associa à artrite reumatoide', 'HLA-B51, que se associa à doença de Behçet'],
     g: 'A',
     c: 'Iniciar com dose baixa e titular, especialmente na doença renal. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Espondiloartrites.', C: 'AR.', D: 'Behçet.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: interações',
     e: 'Paciente em uso de azatioprina que inicia alopurinol corre risco de:',
-    o: ['Mielotoxicidade grave, por inibição do metabolismo da azatioprina', 'Hipoglicemia', 'Hipertensão', 'Nenhum'],
+    o: ['Mielotoxicidade grave, por inibição do metabolismo da azatioprina', 'Hipoglicemia grave, por potencialização do efeito da insulina', 'Hipertensão grave, por retenção de sódio e de água', 'Nenhum risco, pois não há interação entre os dois fármacos'],
     g: 'A',
     c: 'A dose de azatioprina deve ser reduzida drasticamente ou trocado o fármaco. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Há risco.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: fatores de risco',
     e: 'São fatores que aumentam o ácido úrico:',
-    o: ['Diuréticos tiazídicos e de alça, álcool (especialmente cerveja), frutose e doença renal', 'Losartana', 'Vitamina C', 'Exercício leve'],
+    o: ['Diuréticos tiazídicos e de alça, álcool (cerveja), frutose e doença renal', 'Losartana, que tem efeito uricosúrico e reduz o ácido úrico', 'Vitamina C, que tem efeito uricosúrico e reduz o ácido úrico', 'Exercício leve, que não eleva o ácido úrico sérico'],
     g: 'A',
     c: 'A losartana tem efeito uricosúrico. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Reduz.', C: 'Reduz.', D: 'Sem relação.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Pseudogota',
     e: 'Idoso com artrite aguda de joelho e condrocalcinose na radiografia, com cristais romboides de birrefringência positiva fraca. O diagnóstico é:',
-    o: ['Doença por depósito de pirofosfato de cálcio (pseudogota)', 'Gota', 'Artrite séptica', 'AR'],
+    o: ['Doença por depósito de pirofosfato de cálcio (pseudogota)', 'Gota, com cristais de urato monossódico em forma de agulha', 'Artrite séptica, com cultura positiva do líquido sinovial', 'Artrite reumatoide, com poliartrite simétrica e FR positivo'],
     g: 'A',
     c: 'Associa-se a hiperparatireoidismo, hemocromatose e hipomagnesemia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Cristais em agulha.', C: 'Sem cristais.', D: 'Sem cristais.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Artrite séptica',
     e: 'Paciente com monoartrite aguda de joelho, febre e líquido sinovial com 80.000 leucócitos e Gram com cocos gram-positivos em cachos. A conduta é:',
-    o: ['Drenagem articular e antibiótico intravenoso com cobertura para Staphylococcus aureus', 'AINE e alta', 'Colchicina', 'Corticoide intra-articular'],
+    o: ['Drenagem articular e antibiótico IV com cobertura para S. aureus', 'AINE e alta hospitalar, com retorno se houver piora clínica', 'Colchicina em dose baixa, por via oral, por 7 dias', 'Corticoide intra-articular em dose habitual, com alta'],
     g: 'A',
     c: 'É emergência pelo risco de destruição articular. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Inadequado.', C: 'Gota.', D: 'Contraindicado.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: critérios',
     e: 'Pelos critérios de Jones, são critérios maiores:',
-    o: ['Cardite, poliartrite migratória, coreia de Sydenham, eritema marginado e nódulos subcutâneos', 'Febre e artralgia', 'VHS e PCR elevadas', 'Intervalo PR prolongado'],
+    o: ['Cardite, poliartrite migratória, coreia, eritema marginado e nódulos subcutâneos', 'Febre e artralgia, que são apenas critérios menores de Jones', 'VHS e PCR elevadas, que são apenas critérios menores de Jones', 'Intervalo PR prolongado, que é apenas critério menor de Jones'],
     g: 'A',
     c: 'Exige evidência de infecção estreptocócica prévia. Referência: Gewitz MH et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography. Circulation. 2015;131(20):1806-18.',
     x: { B: 'Menores.', C: 'Menores.', D: 'Menor.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: artrite',
     e: 'A artrite da febre reumática é tipicamente:',
-    o: ['Migratória, de grandes articulações, com excelente resposta a AAS ou AINE e sem sequelas', 'Erosiva e deformante', 'Simétrica de pequenas articulações', 'Crônica e progressiva'],
+    o: ['Migratória, de grandes articulações, boa resposta a AAS/AINE e sem sequelas', 'Erosiva e deformante, como ocorre na artrite reumatoide', 'Simétrica de pequenas articulações, como ocorre na artrite reumatoide', 'Crônica e progressiva, como ocorre na artrite reumatoide'],
     g: 'A',
     c: 'Em populações de alto risco, monoartrite e poliartralgia contam. Referência: Gewitz MH et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography. Circulation. 2015;131(20):1806-18.',
     x: { B: 'Não deixa sequela.', C: 'Típica de AR.', D: 'Não é crônica.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: coreia',
     e: 'Adolescente com movimentos involuntários, labilidade emocional e escrita alterada, meses após faringite. O diagnóstico é:',
-    o: ['Coreia de Sydenham (febre reumática)', 'Tique', 'Epilepsia', 'Doença de Huntington'],
+    o: ['Coreia de Sydenham (febre reumática)', 'Tique, que é estereotipado e suprimível', 'Epilepsia, com crises convulsivas', 'Doença de Huntington, que é de início na vida adulta'],
     g: 'A',
     c: 'Pode ocorrer isolada, sem outros critérios. Referência: Gewitz MH et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography. Circulation. 2015;131(20):1806-18.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Idade e evolução.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: profilaxia',
     e: 'A profilaxia secundária da febre reumática é feita com:',
-    o: ['Penicilina benzatina a cada 21 dias (ou 28 dias, conforme protocolo)', 'Amoxicilina diária por 1 semana', 'AAS contínuo', 'Corticoide'],
+    o: ['Penicilina benzatina a cada 21 dias (ou 28, conforme o protocolo)', 'Amoxicilina diária por 1 semana, em dose habitual, por via oral', 'AAS contínuo, em dose anti-inflamatória, por via oral', 'Corticoide oral contínuo, em dose baixa, por via oral'],
     g: 'A',
     c: 'A duração depende da presença e gravidade de cardite. Referência: Sociedade Brasileira de Cardiologia. Diretrizes Brasileiras para o Diagnóstico, Tratamento e Prevenção da Febre Reumática. Arq Bras Cardiol. 2009;93(3 Suppl 4):1-18.',
     x: { B: 'Insuficiente.', C: 'Não previne.', D: 'Não previne.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia',
     e: 'Mulher com dor difusa crônica há mais de 3 meses, fadiga, sono não reparador, alteração cognitiva e exames normais. O diagnóstico é:',
-    o: ['Fibromialgia', 'Polimiosite', 'AR', 'Lúpus'],
+    o: ['Fibromialgia', 'Polimiosite, com fraqueza e CK elevada', 'Artrite reumatoide, com sinovite e FR positivo', 'Lúpus, com FAN positivo e outras manifestações'],
     g: 'A',
     c: 'O diagnóstico é clínico, com índice de dor generalizada e escala de gravidade dos sintomas. Referência: Wolfe F et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. Semin Arthritis Rheum. 2016;46(3):319-29.',
     x: { B: 'CK seria alta.', C: 'Haveria sinovite.', D: 'Haveria alterações laboratoriais.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: tratamento',
     e: 'O tratamento com melhor evidência na fibromialgia é:',
-    o: ['Exercício aeróbico regular, educação e, se necessário, amitriptilina, duloxetina ou pregabalina', 'Corticoide', 'Opioides fortes', 'Antibiótico'],
+    o: ['Exercício aeróbico regular, educação e, se preciso, amitriptilina, duloxetina ou pregabalina', 'Corticoide oral em dose alta, que não tem eficácia comprovada na fibromialgia', 'Opioides fortes, que não têm eficácia comprovada e causam dependência química', 'Antibiótico de amplo espectro por via venosa, sem eficácia na fibromialgia'],
     g: 'A',
     c: 'Terapia cognitivo-comportamental também ajuda. Referência: Macfarlane GJ et al. EULAR revised recommendations for the management of fibromyalgia. Ann Rheum Dis. 2017;76(2):318-28.',
     x: { B: 'Sem benefício.', C: 'Sem benefício e com riscos.', D: 'Sem infecção.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Osteoporose: diagnóstico',
     e: 'Pela densitometria, osteoporose em mulher pós-menopausa é definida por T-score:',
-    o: ['Igual ou menor que -2,5', 'Entre -1 e -2,5', 'Maior que -1', 'Igual a 0'],
+    o: ['T-score ≤ -2,5', 'T-score entre -1 e -2,5, que define osteopenia', 'T-score maior que -1, que é normal', 'T-score igual a 0, que é a média do adulto jovem'],
     g: 'A',
     c: 'Fratura por fragilidade também define osteoporose. Referência: Camacho PM et al. AACE/ACE Clinical Practice Guidelines for the Diagnosis and Treatment of Postmenopausal Osteoporosis 2020 Update. Endocr Pract. 2020;26(Suppl 1):1-46.',
     x: { B: 'Osteopenia.', C: 'Normal.', D: 'Normal.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Osteoporose: tratamento',
     e: 'Primeira linha de tratamento farmacológico da osteoporose pós-menopausa é:',
-    o: ['Bisfosfonato (como alendronato), com cálcio e vitamina D adequados', 'Calcitonina isolada', 'Corticoide', 'Diurético de alça'],
+    o: ['Bisfosfonato (alendronato), com cálcio e vitamina D adequados', 'Calcitonina isolada, que tem eficácia limitada', 'Corticoide oral, que causa osteoporose', 'Diurético de alça, que aumenta a perda de cálcio'],
     g: 'A',
     c: 'Em alto risco, considerar anabólicos como teriparatida ou romosozumabe. Referência: Camacho PM et al. Endocr Pract. 2020;26(Suppl 1):1-46.',
     x: { B: 'Pouco eficaz.', C: 'Piora.', D: 'Piora.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Bisfosfonatos',
     e: 'Orientação para uso de alendronato oral é:',
-    o: ['Tomar em jejum com água, permanecer em pé por 30 minutos', 'Tomar com leite', 'Tomar deitado', 'Tomar com café da manhã'],
+    o: ['Tomar em jejum com água e ficar em pé por 30 minutos', 'Tomar com leite, que reduz a absorção', 'Tomar deitado, o que aumenta o risco de esofagite', 'Tomar com o café da manhã, que reduz a absorção'],
     g: 'A',
     c: 'Efeitos raros: osteonecrose de mandíbula e fratura atípica de fêmur. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Reduz absorção.', C: 'Risco de esofagite.', D: 'Reduz absorção.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Doença de Paget',
     e: 'Idoso com dor óssea, aumento do crânio e fosfatase alcalina muito elevada com cálcio normal. O diagnóstico é:',
-    o: ['Doença de Paget óssea', 'Mieloma', 'Hiperparatireoidismo', 'Metástase'],
+    o: ['Doença de Paget óssea', 'Mieloma múltiplo, com lesões líticas', 'Hiperparatireoidismo, com cálcio elevado', 'Metástase óssea, com tumor primário conhecido'],
     g: 'A',
     c: 'Tratamento com bisfosfonato (zoledronato). Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Lesões líticas e proteína M.', C: 'Cálcio alto.', D: 'Investigar, mas o padrão sugere Paget.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Osteomalácia',
     e: 'Paciente com dor óssea difusa, fraqueza proximal, cálcio e fósforo baixos, fosfatase alcalina elevada e pseudofraturas. O diagnóstico é:',
-    o: ['Osteomalácia por deficiência de vitamina D', 'Osteoporose', 'Doença de Paget', 'Mieloma'],
+    o: ['Osteomalácia por deficiência de vitamina D', 'Osteoporose, com cálcio e fósforo normais', 'Doença de Paget, com fosfatase alcalina muito elevada', 'Mieloma múltiplo, com cálcio elevado'],
     g: 'A',
     c: 'Na osteoporose, os exames laboratoriais são normais. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Laboratório normal.', C: 'Cálcio normal.', D: 'Proteína M.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Lombalgia: sinais de alarme',
     e: 'Sinal de alarme na lombalgia que exige investigação urgente é:',
-    o: ['Perda de controle esfincteriano, anestesia em sela ou déficit motor progressivo', 'Dor que piora com esforço', 'Dor que melhora com repouso', 'Dor há 5 dias após levantar peso'],
+    o: ['Perda do controle esfincteriano, anestesia em sela ou déficit motor progressivo', 'Dor que piora com esforço, que é uma característica da lombalgia mecânica', 'Dor que melhora com repouso, que é uma característica da lombalgia mecânica', 'Dor há 5 dias após levantar peso, característica da lombalgia mecânica'],
     g: 'A',
     c: 'Sugere síndrome da cauda equina. Referência: Qaseem A et al. Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: ACP Guideline. Ann Intern Med. 2017;166(7):514-30.',
     x: { B: 'Mecânica.', C: 'Mecânica.', D: 'Mecânica.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Lombalgia mecânica',
     e: 'Paciente com lombalgia aguda sem sinais de alarme. A conduta inicial é:',
-    o: ['Manter-se ativo, calor local e AINE ou analgésico, sem exames de imagem de rotina', 'Ressonância imediata', 'Repouso absoluto por 2 semanas', 'Opioide forte de rotina'],
+    o: ['Manter-se ativo, calor local e AINE ou analgésico, sem imagem de rotina', 'Ressonância magnética imediata, em todos os casos de lombalgia aguda', 'Repouso absoluto por 2 semanas, em todos os casos de lombalgia aguda', 'Opioide forte de rotina, em todos os casos de lombalgia aguda'],
     g: 'A',
     c: 'A maioria melhora em semanas. Referência: Qaseem A et al. Ann Intern Med. 2017;166(7):514-30.',
     x: { B: 'Sem indicação.', C: 'Piora.', D: 'Sem indicação.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: tofos',
     e: 'Tofos gotosos são:',
-    o: ['Depósitos de urato em tecidos moles, como orelhas, cotovelos e dedos, em gota crônica', 'Nódulos reumatoides', 'Calcificações de cartilagem', 'Cistos sinoviais'],
+    o: ['Depósitos de urato em partes moles (orelhas, cotovelos, dedos) na gota crônica', 'Nódulos reumatoides, que são da artrite reumatoide soropositiva', 'Calcificações de cartilagem, que são da condrocalcinose articular', 'Cistos sinoviais, que são de origem articular e líquida'],
     g: 'A',
     c: 'Indicam necessidade de terapia hipouricemiante. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Típicos da AR.', C: 'Pseudogota.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: radiografia',
     e: 'Achado radiográfico da gota crônica é:',
-    o: ['Erosões em saca-bocado com bordas pendentes', 'Osteopenia periarticular difusa', 'Sindesmófitos', 'Condrocalcinose'],
+    o: ['Erosões em saca-bocado, com bordas pendentes', 'Osteopenia periarticular difusa, da artrite reumatoide', 'Sindesmófitos, da espondilite anquilosante', 'Condrocalcinose, da doença por pirofosfato'],
     g: 'A',
     c: 'Diferem das erosões marginais da AR. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'AR.', C: 'Espondilite.', D: 'Pseudogota.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Gota: ácido úrico na crise',
     e: 'Durante a crise de gota, o ácido úrico sérico:',
-    o: ['Pode estar normal, não excluindo o diagnóstico', 'Está sempre muito alto', 'Confirma o diagnóstico', 'Não deve ser dosado nunca'],
+    o: ['Pode estar normal, sem excluir o diagnóstico', 'Está sempre muito alto, em todos os casos de crise', 'Confirma o diagnóstico, quando elevado', 'Não deve ser dosado, em nenhum caso'],
     g: 'A',
     c: 'Deve ser reavaliado após a crise. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Nem sempre.', C: 'Não confirma.', D: 'Pode ser dosado.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Hiperuricemia assintomática',
     e: 'Paciente com ácido úrico de 8,5 mg/dL, sem crises nem cálculos. A conduta é:',
-    o: ['Orientar estilo de vida, sem hipouricemiante de rotina', 'Iniciar alopurinol', 'Iniciar colchicina', 'Iniciar corticoide'],
+    o: ['Orientar estilo de vida, sem hipouricemiante de rotina', 'Iniciar alopurinol, mesmo sem crises nem cálculos', 'Iniciar colchicina, mesmo sem crises nem cálculos', 'Iniciar corticoide, mesmo sem crises nem cálculos'],
     g: 'A',
     c: 'Exceções podem ser avaliadas individualmente. Referência: FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-60.',
     x: { B: 'Não recomendado de rotina.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Febuxostate',
     e: 'O febuxostate é:',
-    o: ['Inibidor da xantina oxidase, alternativa ao alopurinol', 'Uricosúrico', 'Anti-inflamatório', 'Colchicina'],
+    o: ['Inibidor da xantina oxidase, alternativa ao alopurinol', 'Uricosúrico, que aumenta a excreção renal de urato', 'Anti-inflamatório, usado na crise aguda', 'Colchicina, usada na crise aguda e na profilaxia'],
     g: 'A',
     c: 'Houve preocupação com eventos cardiovasculares em pacientes com doença cardiovascular. Referência: White WB et al. Cardiovascular Safety of Febuxostat or Allopurinol in Patients with Gout (CARES). N Engl J Med. 2018;378(13):1200-10.',
     x: { B: 'Probenecida.', C: 'Não.', D: 'Não.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Artrite séptica: prótese',
     e: 'Paciente com prótese de joelho e artrite séptica tardia por Staphylococcus epidermidis. O tratamento costuma exigir:',
-    o: ['Cirurgia (desbridamento ou troca da prótese) e antibiótico prolongado', 'Apenas antibiótico oral por 7 dias', 'Apenas AINE', 'Nada'],
+    o: ['Cirurgia (desbridamento ou troca da prótese) e antibiótico prolongado', 'Apenas antibiótico oral por 7 dias, sem qualquer abordagem cirúrgica', 'Apenas AINE por via oral, sem antibiótico e sem abordagem cirúrgica', 'Nada, pois a infecção é autolimitada e resolve espontaneamente'],
     g: 'A',
     c: 'O biofilme dificulta a erradicação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem efeito.', D: 'Exige.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: diagnóstico',
     e: 'Para diagnóstico do primeiro surto de febre reumática, são necessários:',
-    o: ['Evidência de infecção estreptocócica e dois critérios maiores, ou um maior e dois menores', 'Apenas um critério menor', 'Apenas ASLO elevada', 'Apenas febre'],
+    o: ['Infecção estreptocócica prévia + 2 critérios maiores, ou 1 maior e 2 menores', 'Apenas um critério menor, sem evidência de infecção estreptocócica prévia', 'Apenas ASLO elevada, sem nenhum critério clínico associado', 'Apenas febre, sem nenhum outro critério clínico associado'],
     g: 'A',
     c: 'A ASLO elevada comprova infecção recente. Referência: Gewitz MH et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography. Circulation. 2015;131(20):1806-18.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: tratamento',
     e: 'Na febre reumática aguda com cardite moderada a grave, o tratamento anti-inflamatório é:',
-    o: ['Corticoide (prednisona)', 'Apenas penicilina', 'Colchicina', 'Metotrexato'],
+    o: ['Corticoide (prednisona)', 'Apenas penicilina, sem anti-inflamatório', 'Colchicina, que não trata a cardite', 'Metotrexato, que não trata a cardite'],
     g: 'A',
     c: 'Na artrite isolada, usa-se AAS ou naproxeno. Referência: Gewitz MH et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography. Circulation. 2015;131(20):1806-18.',
     x: { B: 'Insuficiente.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: eritema marginado',
     e: 'O eritema marginado da febre reumática é:',
-    o: ['Lesão eritematosa com bordas serpiginosas e centro claro, no tronco, não pruriginosa e evanescente', 'Eritema em asa de borboleta', 'Nódulos dolorosos em pernas', 'Púrpura palpável'],
+    o: ['Lesão eritematosa de bordas serpiginosas e centro claro, não pruriginosa, no tronco', 'Eritema em asa de borboleta sobre as regiões malares, que é do lúpus', 'Nódulos dolorosos nas pernas, que são manifestação do eritema nodoso', 'Púrpura palpável nos membros inferiores, que é manifestação das vasculites'],
     g: 'A',
     c: 'É critério maior, porém raro. Referência: Gewitz MH et al. Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography. Circulation. 2015;131(20):1806-18.',
     x: { B: 'Lúpus.', C: 'Eritema nodoso.', D: 'Vasculite.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: comorbidades',
     e: 'A fibromialgia frequentemente coexiste com:',
-    o: ['Depressão, ansiedade, síndrome do intestino irritável e cefaleia crônica', 'Diabetes tipo 1 obrigatório', 'Câncer', 'Tuberculose'],
+    o: ['Depressão, ansiedade, síndrome do intestino irritável e cefaleia crônica', 'Diabetes tipo 1, obrigatoriamente, em todos os casos da doença', 'Câncer, obrigatoriamente, em todos os casos da doença', 'Tuberculose, obrigatoriamente, em todos os casos da doença'],
     g: 'A',
     c: 'Não é diagnóstico de exclusão, mas deve-se avaliar outras causas. Referência: Wolfe F et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. Semin Arthritis Rheum. 2016;46(3):319-29.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: exames',
     e: 'Na fibromialgia, os exames laboratoriais:',
-    o: ['São normais, e servem para excluir outras condições como hipotireoidismo', 'Mostram CK elevada', 'Mostram FAN em títulos altos', 'Mostram VHS muito alta'],
+    o: ['São normais; servem para excluir outras condições, como hipotireoidismo', 'Mostram CK elevada, em todos os casos de fibromialgia', 'Mostram FAN em títulos altos, em todos os casos de fibromialgia', 'Mostram VHS muito alta, em todos os casos de fibromialgia'],
     g: 'A',
     c: 'TSH, hemograma, VHS e PCR são úteis na avaliação. Referência: Wolfe F et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. Semin Arthritis Rheum. 2016;46(3):319-29.',
     x: { B: 'Miosite.', C: 'Colagenose.', D: 'Inflamação.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Tendinite: ombro',
     e: 'Paciente com dor no ombro ao elevar o braço entre 60 e 120 graus (arco doloroso). A hipótese é:',
-    o: ['Síndrome do impacto do manguito rotador', 'Capsulite adesiva', 'Luxação', 'Artrite séptica'],
+    o: ['Síndrome do impacto do manguito rotador', 'Capsulite adesiva, com limitação global da mobilidade', 'Luxação do ombro, com deformidade evidente', 'Artrite séptica, com febre e dor intensa'],
     g: 'A',
     c: 'A capsulite adesiva limita todos os movimentos, inclusive passivos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Limita movimento passivo.', C: 'Trauma.', D: 'Febre e derrame.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Túnel do carpo',
     e: 'Paciente com parestesias noturnas no polegar, indicador e médio, com sinais de Tinel e Phalen positivos. O diagnóstico é:',
-    o: ['Síndrome do túnel do carpo (nervo mediano)', 'Lesão do nervo ulnar', 'Radiculopatia C8', 'Tenossinovite de De Quervain'],
+    o: ['Síndrome do túnel do carpo (nervo mediano)', 'Lesão do nervo ulnar, no quarto e quinto dedos', 'Radiculopatia C8, com déficit no antebraço', 'Tenossinovite de De Quervain, com dor radial no punho'],
     g: 'A',
     c: 'Associa-se a hipotireoidismo, gestação, diabetes e AR. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Quarto e quinto dedos.', C: 'Território diferente.', D: 'Dor no punho radial.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'De Quervain',
     e: 'Mulher com dor no punho radial ao desviar o punho para o lado ulnar com o polegar fechado (teste de Finkelstein positivo). O diagnóstico é:',
-    o: ['Tenossinovite de De Quervain', 'Túnel do carpo', 'Artrite de punho', 'Gota'],
+    o: ['Tenossinovite de De Quervain', 'Síndrome do túnel do carpo, com parestesias noturnas', 'Artrite de punho, com derrame articular', 'Gota, com crises agudas e uricemia'],
     g: 'A',
     c: 'Comum no puerpério e em atividades repetitivas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Parestesias.', C: 'Sem esse teste.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Epicondilite lateral',
     e: 'Paciente com dor no epicôndilo lateral que piora ao estender o punho contra resistência. O diagnóstico é:',
-    o: ['Epicondilite lateral (cotovelo de tenista)', 'Epicondilite medial', 'Bursite olecraniana', 'Gota'],
+    o: ['Epicondilite lateral (cotovelo de tenista)', 'Epicondilite medial (cotovelo de golfista)', 'Bursite olecraniana, com abaulamento posterior', 'Gota, com crises agudas e uricemia'],
     g: 'A',
     c: 'Tratamento conservador na maioria dos casos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Dor medial.', C: 'Edema posterior.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Bursite',
     e: 'Paciente com dor na face lateral do quadril que piora ao deitar sobre o lado afetado. A hipótese é:',
-    o: ['Síndrome dolorosa do grande trocânter (bursite trocantérica)', 'Artrose de quadril', 'Fratura de colo de fêmur', 'Hérnia lombar'],
+    o: ['Síndrome dolorosa do grande trocânter (bursite trocantérica)', 'Artrose de quadril, com dor inguinal e limitação à rotação', 'Fratura de colo de fêmur, após trauma ou queda', 'Hérnia lombar, com dor irradiada para o membro inferior'],
     g: 'A',
     c: 'A artrose de quadril dói na região inguinal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Dor inguinal.', C: 'Trauma e incapacidade.', D: 'Dor radicular.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Hipermobilidade',
     e: 'Adolescente com articulações muito flexíveis, artralgias e pele elástica. A hipótese é:',
-    o: ['Síndrome de Ehlers-Danlos tipo hipermóvel', 'AR', 'Lúpus', 'Gota'],
+    o: ['Síndrome de Ehlers-Danlos tipo hipermóvel', 'Artrite reumatoide, com sinovite persistente', 'Lúpus, com FAN positivo', 'Gota, com crises agudas e uricemia'],
     g: 'A',
     c: 'O escore de Beighton avalia a hipermobilidade. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem sinovite.', C: 'Sem outros achados.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Osteoartropatia hipertrófica',
     e: 'Paciente tabagista com baqueteamento digital e dor em ossos longos com periostite. Deve-se investigar:',
-    o: ['Câncer de pulmão', 'Gota', 'Osteoporose', 'Fibromialgia'],
+    o: ['Câncer de pulmão (osteoartropatia hipertrófica)', 'Gota, com crises agudas e uricemia', 'Osteoporose, com fraturas por fragilidade', 'Fibromialgia, com dor difusa e pontos dolorosos'],
     g: 'A',
     c: 'Também ocorre em doenças pulmonares crônicas e cardiopatias cianóticas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Sarcoidose: artrite',
     e: 'Artrite de tornozelos bilateral com eritema nodoso e adenopatia hilar sugere:',
-    o: ['Sarcoidose (síndrome de Löfgren)', 'Gota', 'AR', 'Artrite séptica'],
+    o: ['Sarcoidose (síndrome de Löfgren)', 'Gota, com crises agudas e uricemia', 'Artrite reumatoide, com poliartrite simétrica', 'Artrite séptica, com febre e monoartrite'],
     g: 'A',
     c: 'Tem bom prognóstico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem esse quadro.', D: 'Sem febre e monoartrite.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Doença de Lyme: artrite',
     e: 'Sobre a artrite da doença de Lyme, é correto afirmar:',
-    o: ['Costuma ser oligoartrite de grandes articulações, especialmente joelho, meses após a picada de carrapato', 'É sempre poliartrite de mãos', 'Ocorre no primeiro dia', 'Não ocorre'],
+    o: ['Oligoartrite de grandes articulações (joelho), meses após a picada do carrapato', 'Sempre poliartrite simétrica de mãos, como ocorre na artrite reumatoide', 'Ocorre no primeiro dia após a picada do carrapato, com febre alta', 'Não ocorre na doença de Lyme, em nenhuma fase, em nenhum paciente'],
     g: 'A',
     c: 'No Brasil, há a síndrome de Baggio-Yoshinari. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é o padrão.', C: 'Tardia.', D: 'Ocorre.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Artrite e hepatite',
     e: 'Poliartrite simétrica aguda com icterícia e transaminases elevadas sugere:',
-    o: ['Artrite associada à hepatite B (fase prodrômica)', 'Gota', 'Osteoartrite', 'Fibromialgia'],
+    o: ['Artrite associada à hepatite B (fase prodrômica)', 'Gota, com crises agudas monoarticulares e uricemia elevada', 'Osteoartrite, com dor mecânica e rigidez matinal curta', 'Fibromialgia, com dor difusa crônica e fadiga associada'],
     g: 'A',
     c: 'É mediada por imunocomplexos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Osteonecrose',
     e: 'Paciente em uso crônico de corticoide em dose alta com dor inguinal progressiva e radiografia normal. A hipótese e o exame são:',
-    o: ['Osteonecrose da cabeça femoral; ressonância magnética', 'Bursite; ultrassom', 'Artrose; nenhum exame', 'Hérnia; tomografia de coluna'],
+    o: ['Osteonecrose da cabeça femoral; ressonância magnética', 'Bursite trocantérica; ultrassom da região do quadril', 'Artrose de quadril; nenhum exame de imagem é necessário', 'Hérnia inguinal; tomografia computadorizada de coluna'],
     g: 'A',
     c: 'Álcool, anemia falciforme e lúpus também são fatores. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Dor lateral.', C: 'Investigar.', D: 'Dor inguinal não radicular.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_RMISC: QuestaoCompacta[] = [
   {
     s: 'Corticoide e osso',
     e: 'Paciente que usará prednisona 7,5 mg/dia ou mais por mais de 3 meses deve receber:',
-    o: ['Cálcio, vitamina D e avaliação de risco de fratura, com bisfosfonato se indicado', 'Nenhuma medida', 'Suspensão abrupta', 'Apenas calcitonina'],
+    o: ['Cálcio, vitamina D e avaliação de risco de fratura; bisfosfonato se indicado', 'Nenhuma medida preventiva, pois não há risco de osteoporose', 'Suspensão abrupta do corticoide, em todos os casos de uso prolongado', 'Apenas calcitonina em dose habitual, sem cálcio nem vitamina D'],
     g: 'A',
     c: 'A osteoporose induzida por glicocorticoide é a forma secundária mais comum. Referência: Humphrey MB et al. 2022 ACR Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis. Arthritis Rheumatol. 2023;75(12):2088-102.',
     x: { B: 'Risco alto.', C: 'Risco de insuficiência adrenal.', D: 'Insuficiente.' },

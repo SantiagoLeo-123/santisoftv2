@@ -5,7 +5,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes',
     e: 'Idoso de 75 anos com cefaleia temporal nova, claudicação da mandíbula, artéria temporal espessada e VHS de 90 mm. A conduta imediata é:',
-    o: ['Iniciar prednisona em dose alta imediatamente e programar biópsia ou ultrassom da artéria temporal', 'Aguardar a biópsia para tratar', 'Prescrever analgésico e reavaliar em 1 mês', 'Antibiótico'],
+    o: ['Prednisona em dose alta de imediato; programar biópsia ou ultrassom da temporal', 'Aguardar o resultado da biópsia para iniciar o tratamento corticoide', 'Prescrever analgésico e reavaliar em 1 mês, sem iniciar corticoide', 'Iniciar antibiótico venoso de amplo espectro, por suspeita de infecção'],
     g: 'A',
     c: 'O risco principal é a cegueira irreversível. Referência: Hellmich B et al. 2018 Update of the EULAR recommendations for the management of large vessel vasculitis. Ann Rheum Dis. 2020;79(1):19-30.',
     x: { B: 'Atraso perigoso.', C: 'Risco de cegueira.', D: 'Sem infecção.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: perda visual',
     e: 'Paciente com arterite de células gigantes e perda visual súbita. O tratamento é:',
-    o: ['Metilprednisolona intravenosa em pulso', 'Prednisona em dose baixa', 'Observação', 'AAS isolado'],
+    o: ['Metilprednisolona intravenosa em pulso', 'Prednisona em dose baixa, por via oral, em ambulatório', 'Observação clínica, sem corticoide, até nova avaliação', 'AAS isolado, em dose baixa, por via oral'],
     g: 'A',
     c: 'O tocilizumabe reduz recidivas e uso de corticoide. Referência: Hellmich B et al. 2018 Update of the EULAR recommendations for the management of large vessel vasculitis. Ann Rheum Dis. 2020;79(1):19-30.',
     x: { B: 'Insuficiente.', C: 'Inadequado.', D: 'Insuficiente.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Polimialgia reumática',
     e: 'Idosa com dor e rigidez em cinturas escapular e pélvica, rigidez matinal prolongada, VHS elevada e CK normal. O diagnóstico e o tratamento são:',
-    o: ['Polimialgia reumática; prednisona em dose baixa (12,5 a 25 mg/dia)', 'Polimiosite; corticoide em dose alta', 'Fibromialgia; antidepressivo', 'AR; metotrexato obrigatório'],
+    o: ['Polimialgia reumática; prednisona em dose baixa (12,5-25 mg/dia)', 'Polimiosite; corticoide em dose alta, com CK elevada', 'Fibromialgia; antidepressivo, com exames normais', 'AR; metotrexato obrigatório, com sinovite periférica'],
     g: 'A',
     c: 'Resposta rápida ao corticoide é característica. Associa-se à arterite de células gigantes. Referência: Dejaco C et al. 2015 Recommendations for the management of polymyalgia rheumatica. Ann Rheum Dis. 2015;74(10):1799-807.',
     x: { B: 'CK seria alta e fraqueza.', C: 'VHS normal.', D: 'Poliartrite periférica.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Granulomatose com poliangiite',
     e: 'Paciente com sinusite crônica, perfuração de septo nasal, nódulos pulmonares cavitados, glomerulonefrite e c-ANCA (anti-PR3) positivo. O diagnóstico é:',
-    o: ['Granulomatose com poliangiite (Wegener)', 'Poliangiite microscópica', 'Síndrome de Goodpasture', 'Sarcoidose'],
+    o: ['Granulomatose com poliangiite (Wegener)', 'Poliangiite microscópica, sem granulomas nem sinusite', 'Síndrome de Goodpasture, sem sinusite nem perfuração de septo', 'Sarcoidose, com granulomas não necrosantes'],
     g: 'A',
     c: 'A indução usa corticoide com rituximabe ou ciclofosfamida. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Sem granulomas e vias aéreas.', C: 'Anti-MBG, sem vias aéreas.', D: 'Sem ANCA e vasculite.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Granulomatose eosinofílica',
     e: 'Paciente com asma de início tardio, eosinofilia, infiltrados pulmonares migratórios, sinusite e mononeurite múltipla. O diagnóstico é:',
-    o: ['Granulomatose eosinofílica com poliangiite (Churg-Strauss)', 'Asma simples', 'Aspergilose broncopulmonar alérgica isolada', 'Sarcoidose'],
+    o: ['Granulomatose eosinofílica com poliangiite (Churg-Strauss)', 'Asma simples, sem vasculite sistêmica associada', 'Aspergilose broncopulmonar alérgica, sem vasculite', 'Sarcoidose, com granulomas e adenopatia hilar'],
     g: 'A',
     c: 'O mepolizumabe é uma opção terapêutica. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Sem vasculite.', C: 'Sem mononeurite.', D: 'Sem eosinofilia.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Síndrome pulmão-rim',
     e: 'Paciente com hemoptise e glomerulonefrite rapidamente progressiva. Causas incluem:',
-    o: ['Vasculites ANCA, doença antimembrana basal glomerular (Goodpasture) e lúpus', 'Asma', 'Pneumonia viral simples', 'Diabetes'],
+    o: ['Vasculites ANCA, anti-MBG (Goodpasture) e lúpus', 'Asma brônquica, sem glomerulonefrite associada', 'Pneumonia viral simples, sem glomerulonefrite associada', 'Diabetes mellitus, sem hemoptise nem glomerulonefrite'],
     g: 'A',
     c: 'É emergência: imunossupressão e plasmaférese em casos selecionados. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculite por IgA',
     e: 'Criança de 6 anos com púrpura palpável em nádegas e membros inferiores, artralgia, dor abdominal e hematúria, após infecção de vias aéreas. O diagnóstico é:',
-    o: ['Vasculite por IgA (púrpura de Henoch-Schönlein)', 'Púrpura trombocitopênica imune', 'Meningococcemia', 'Leucemia'],
+    o: ['Vasculite por IgA (púrpura de Henoch-Schönlein)', 'Púrpura trombocitopênica imune, com plaquetopenia isolada', 'Meningococcemia, com febre alta e toxemia', 'Leucemia aguda, com citopenias e blastos'],
     g: 'A',
     c: 'As plaquetas são normais. O prognóstico depende do rim. Referência: Jennette JC et al. 2012 revised International Chapel Hill Consensus Conference Nomenclature of Vasculitides. Arthritis Rheum. 2013;65(1):1-11.',
     x: { B: 'Plaquetas baixas e púrpura não palpável.', C: 'Febre e toxemia.', D: 'Sem esse quadro.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Doença de Behçet',
     e: 'Paciente com aftas orais e genitais recorrentes, uveíte e teste de patergia positivo. O diagnóstico é:',
-    o: ['Doença de Behçet', 'Lúpus', 'Herpes', 'Sífilis'],
+    o: ['Doença de Behçet', 'Lúpus eritematoso sistêmico, com FAN positivo', 'Herpes simples recorrente, sem uveíte associada', 'Sífilis secundária, com lesões mucocutâneas'],
     g: 'A',
     c: 'Associa-se ao HLA-B51 e pode causar tromboses. Referência: Hatemi G et al. 2018 update of the EULAR recommendations for the management of Behçet syndrome. Ann Rheum Dis. 2018;77(6):808-18.',
     x: { B: 'Sem patergia.', C: 'Sem uveíte.', D: 'Úlcera indolor.' },
@@ -93,7 +93,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Crioglobulinemia',
     e: 'Paciente com hepatite C, púrpura, artralgia, fraqueza, glomerulonefrite e complemento C4 baixo. O diagnóstico é:',
-    o: ['Vasculite crioglobulinêmica', 'Vasculite por IgA', 'Poliangiite microscópica', 'Lúpus'],
+    o: ['Vasculite crioglobulinêmica', 'Vasculite por IgA, sem crioglobulinas nem hepatite C', 'Poliangiite microscópica, com ANCA positivo', 'Lúpus, com FAN e anti-DNA positivos'],
     g: 'A',
     c: 'O tratamento da hepatite C é fundamental. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem hepatite C.', C: 'ANCA positivo.', D: 'Sem hepatite C típica.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Tromboangeíte obliterante',
     e: 'Homem jovem tabagista com claudicação de mãos e pés, úlceras isquêmicas digitais e tromboflebite migratória. O diagnóstico e o tratamento principal são:',
-    o: ['Tromboangeíte obliterante (Buerger); cessação absoluta do tabagismo', 'Aterosclerose; estatina isolada', 'Vasculite ANCA; ciclofosfamida', 'Raynaud primário; nifedipina'],
+    o: ['Tromboangeíte obliterante (Buerger): cessação absoluta do tabagismo', 'Aterosclerose; estatina isolada, sem parar de fumar', 'Vasculite ANCA; ciclofosfamida, sem parar de fumar', 'Raynaud primário; nifedipina, sem parar de fumar'],
     g: 'A',
     c: 'Sem parar de fumar, há alto risco de amputação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Idade e padrão.', C: 'Sem relação.', D: 'Sem úlceras isquêmicas.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculites: classificação',
     e: 'Pela classificação de Chapel Hill, são vasculites de grandes vasos:',
-    o: ['Arterite de células gigantes e arterite de Takayasu', 'Poliarterite nodosa e Kawasaki', 'Vasculite ANCA', 'Vasculite por IgA'],
+    o: ['Arterite de células gigantes e arterite de Takayasu', 'Poliarterite nodosa e Kawasaki, que são de médios vasos', 'Vasculites ANCA, que são de pequenos vasos', 'Vasculite por IgA, que é de pequenos vasos'],
     g: 'A',
     c: 'Médios vasos: poliarterite nodosa e Kawasaki. Referência: Jennette JC et al. 2012 revised International Chapel Hill Consensus Conference Nomenclature of Vasculitides. Arthritis Rheum. 2013;65(1):1-11.',
     x: { B: 'Médios vasos.', C: 'Pequenos vasos.', D: 'Pequenos vasos.' },
@@ -117,7 +117,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'ANCA',
     e: 'O padrão c-ANCA com especificidade anti-PR3 associa-se principalmente a:',
-    o: ['Granulomatose com poliangiite', 'Poliangiite microscópica', 'Poliarterite nodosa', 'Vasculite por IgA'],
+    o: ['Granulomatose com poliangiite', 'Poliangiite microscópica, que se associa ao p-ANCA anti-MPO', 'Poliarterite nodosa, que costuma ser ANCA negativa', 'Vasculite por IgA, que costuma ser ANCA negativa'],
     g: 'A',
     c: 'O p-ANCA anti-MPO associa-se a poliangiite microscópica e EGPA. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Geralmente MPO.', C: 'ANCA negativo.', D: 'ANCA negativo.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculite leucocitoclástica',
     e: 'Paciente com púrpura palpável em membros inferiores após iniciar antibiótico, sem envolvimento sistêmico. O diagnóstico e a conduta são:',
-    o: ['Vasculite cutânea leucocitoclástica por droga; suspender o medicamento', 'Lúpus; ciclofosfamida', 'Meningococcemia; antibiótico', 'PTI; corticoide'],
+    o: ['Vasculite leucocitoclástica por droga: suspender o medicamento', 'Lúpus eritematoso sistêmico; ciclofosfamida em dose alta, de imediato', 'Meningococcemia; antibiótico venoso em dose alta, de imediato', 'PTI; corticoide em dose alta e imunoglobulina, de imediato'],
     g: 'A',
     c: 'A biópsia mostra vasculite leucocitoclástica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem toxemia.', D: 'Plaquetas normais.' },
@@ -133,7 +133,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculites: púrpura palpável',
     e: 'A púrpura palpável indica:',
-    o: ['Vasculite de pequenos vasos', 'Plaquetopenia', 'Trauma', 'Escorbuto'],
+    o: ['Vasculite de pequenos vasos', 'Plaquetopenia, que cursa com petéquias não palpáveis', 'Trauma local, que cursa com equimose', 'Escorbuto, que cursa com petéquias perifoliculares'],
     g: 'A',
     c: 'A púrpura por plaquetopenia não é palpável. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não palpável.', C: 'Não palpável.', D: 'Perifolicular.' },
@@ -141,7 +141,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Takayasu: tratamento',
     e: 'O tratamento inicial da arterite de Takayasu ativa é:',
-    o: ['Corticoide associado a imunossupressor (como metotrexato ou tocilizumabe)', 'Apenas cirurgia', 'Antibiótico', 'AAS isolado'],
+    o: ['Corticoide associado a imunossupressor (metotrexato ou tocilizumabe)', 'Apenas cirurgia vascular, sem nenhum tratamento clínico associado', 'Antibiótico venoso de amplo espectro, por via empírica', 'AAS isolado, em dose baixa, sem corticoide nem imunossupressão'],
     g: 'A',
     c: 'A revascularização é feita em fase inativa. Referência: Hellmich B et al. 2018 Update of the EULAR recommendations for the management of large vessel vasculitis. Ann Rheum Dis. 2020;79(1):19-30.',
     x: { B: 'Não é inicial.', C: 'Sem infecção.', D: 'Insuficiente.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculites ANCA: indução',
     e: 'O tratamento de indução da granulomatose com poliangiite grave com acometimento renal é:',
-    o: ['Corticoide em dose alta com rituximabe ou ciclofosfamida', 'Apenas AINE', 'Hidroxicloroquina', 'Observação'],
+    o: ['Corticoide em dose alta com rituximabe ou ciclofosfamida', 'Apenas AINE, sem corticoide nem imunossupressor', 'Hidroxicloroquina, sem corticoide nem imunossupressor', 'Observação clínica, sem corticoide nem imunossupressor'],
     g: 'A',
     c: 'O avacopan pode reduzir a exposição ao corticoide. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Insuficiente.', C: 'Ineficaz.', D: 'Risco de óbito.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Kawasaki no adulto',
     e: 'Sobre a doença de Kawasaki, é correto afirmar:',
-    o: ['É vasculite de médios vasos, quase exclusiva de crianças, que acomete coronárias', 'É comum em idosos', 'Acomete apenas grandes vasos', 'Não acomete o coração'],
+    o: ['Vasculite de médios vasos, quase só de crianças, que acomete coronárias', 'É comum em idosos, e acomete predominantemente os grandes vasos', 'Acomete apenas grandes vasos, como a aorta e seus ramos principais', 'Não acomete o coração, apenas a pele e as mucosas do paciente'],
     g: 'A',
     c: 'Tratamento com imunoglobulina e AAS. Referência: Jennette JC et al. 2012 revised International Chapel Hill Consensus Conference Nomenclature of Vasculitides. Arthritis Rheum. 2013;65(1):1-11.',
     x: { B: 'Raro em adultos.', C: 'Médios vasos.', D: 'Acomete coronárias.' },
@@ -173,7 +173,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Poliarterite nodosa: tratamento',
     e: 'Poliarterite nodosa associada à hepatite B é tratada com:',
-    o: ['Antiviral, corticoide por curto período e plasmaférese em casos graves', 'Ciclofosfamida isolada prolongada', 'Rituximabe isolado', 'Nada'],
+    o: ['Antiviral, corticoide por curto período e plasmaférese se grave', 'Ciclofosfamida isolada prolongada, sem antiviral', 'Rituximabe isolado, sem antiviral nem corticoide', 'Nenhum tratamento específico, apenas observação'],
     g: 'A',
     c: 'A imunossupressão isolada pode piorar a hepatite. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco de piorar hepatite.', C: 'Não é padrão.', D: 'Exige.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculite por IgA no adulto',
     e: 'Vasculite por IgA no adulto, comparada à criança:',
-    o: ['Tem maior risco de doença renal grave', 'É sempre benigna', 'Nunca acomete o rim', 'É mais comum'],
+    o: ['Maior risco de doença renal grave', 'É sempre benigna, em todos os casos de adultos', 'Nunca acomete o rim, nem em adultos', 'É mais comum que na criança, em frequência'],
     g: 'A',
     c: 'Exige seguimento renal mais próximo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é benigna.', C: 'Acomete.', D: 'Menos comum.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: diagnóstico',
     e: 'Exame de imagem útil e rápido na suspeita de arterite de células gigantes é:',
-    o: ['Ultrassom das artérias temporais (sinal do halo)', 'Radiografia de crânio', 'Tomografia de abdome', 'Eletroencefalograma'],
+    o: ['Ultrassom das artérias temporais (sinal do halo)', 'Radiografia de crânio, que não avalia a artéria temporal', 'Tomografia de abdome, que não avalia a artéria temporal', 'Eletroencefalograma, que não avalia a artéria temporal'],
     g: 'A',
     c: 'Pode substituir a biópsia em centros experientes. Referência: Hellmich B et al. 2018 Update of the EULAR recommendations for the management of large vessel vasculitis. Ann Rheum Dis. 2020;79(1):19-30.',
     x: { B: 'Sem utilidade.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Behçet: tratamento',
     e: 'O tratamento das úlceras orais no Behçet inclui:',
-    o: ['Colchicina e corticoide tópico; apremilast nas refratárias', 'Antibiótico', 'Antifúngico', 'Nada'],
+    o: ['Colchicina e corticoide tópico; apremilast nas refratárias', 'Antibiótico oral, por 14 dias, em dose habitual', 'Antifúngico oral, por 14 dias, em dose habitual', 'Nenhum tratamento, pois as aftas são autolimitadas'],
     g: 'A',
     c: 'Uveíte e acometimento grave exigem imunossupressão. Referência: Hatemi G et al. Ann Rheum Dis. 2018;77(6):808-18.',
     x: { B: 'Sem infecção.', C: 'Sem fungo.', D: 'Há tratamento.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculites: suspeita',
     e: 'Deve-se suspeitar de vasculite sistêmica em paciente com:',
-    o: ['Sintomas constitucionais associados a acometimento de múltiplos órgãos, como púrpura, mononeurite, glomerulonefrite e hemorragia alveolar', 'Cefaleia tensional isolada', 'Lombalgia mecânica', 'Resfriado'],
+    o: ['Sintomas constitucionais e vários órgãos (púrpura, mononeurite, GN, hemorragia alveolar)', 'Cefaleia tensional isolada, sem outros sintomas sistêmicos nem constitucionais', 'Lombalgia mecânica, sem outros sintomas sistêmicos nem constitucionais', 'Resfriado comum, sem outros sintomas sistêmicos nem constitucionais'],
     g: 'A',
     c: 'O diagnóstico frequentemente exige biópsia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Mononeurite múltipla',
     e: 'Paciente com pé caído súbito e, semanas depois, perda de força na mão esquerda. O padrão neurológico sugere:',
-    o: ['Mononeurite múltipla, comum em vasculites sistêmicas', 'Polineuropatia diabética simétrica', 'AVC', 'Hérnia de disco'],
+    o: ['Mononeurite múltipla, comum nas vasculites sistêmicas', 'Polineuropatia diabética simétrica, de evolução lenta', 'AVC isquêmico, com déficit focal central', 'Hérnia de disco, com radiculopatia lombar'],
     g: 'A',
     c: 'A eletroneuromiografia e a biópsia de nervo ajudam. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Simétrica.', C: 'Central.', D: 'Radicular.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Goodpasture',
     e: 'Paciente com hemoptise, glomerulonefrite rapidamente progressiva e anticorpo antimembrana basal glomerular positivo. O tratamento é:',
-    o: ['Plasmaférese, corticoide e ciclofosfamida', 'Apenas antibiótico', 'Apenas diurético', 'Observação'],
+    o: ['Plasmaférese, corticoide e ciclofosfamida', 'Apenas antibiótico, por via venosa, sem imunossupressão', 'Apenas diurético, por via venosa, sem imunossupressão', 'Observação clínica, sem plasmaférese nem imunossupressão'],
     g: 'A',
     c: 'A imunofluorescência renal mostra depósito linear de IgG. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem infecção.', C: 'Insuficiente.', D: 'Risco de morte.' },
@@ -229,7 +229,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Granulomatose com poliangiite: vias aéreas',
     e: 'Deformidade nasal em sela na granulomatose com poliangiite resulta de:',
-    o: ['Destruição da cartilagem do septo nasal', 'Trauma', 'Policondrite sempre', 'Infecção bacteriana simples'],
+    o: ['Destruição da cartilagem do septo nasal', 'Trauma nasal prévio, sem relação com a vasculite', 'Policondrite recidivante, sempre, em todos os casos', 'Infecção bacteriana simples, sem relação com a vasculite'],
     g: 'A',
     c: 'Estenose subglótica também pode ocorrer. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Sem trauma.', C: 'Possível, mas não típica aqui.', D: 'Sem relação.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Policondrite recidivante',
     e: 'Paciente com inflamação recorrente das cartilagens das orelhas (poupando os lóbulos) e do nariz. O diagnóstico é:',
-    o: ['Policondrite recidivante', 'Erisipela', 'Gota', 'Lúpus'],
+    o: ['Policondrite recidivante', 'Erisipela, com eritema difuso e febre', 'Gota, com tofos no pavilhão auricular', 'Lúpus, com lesões discoides no pavilhão auricular'],
     g: 'A',
     c: 'Pode acometer a traqueia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Acomete o lóbulo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculites: biópsia renal',
     e: 'Na glomerulonefrite das vasculites ANCA, a imunofluorescência mostra:',
-    o: ['Padrão pauci-imune (pouco ou nenhum depósito)', 'Depósito linear de IgG', 'Depósitos granulares de IgA', 'Depósitos em full house'],
+    o: ['Padrão pauci-imune (pouco ou nenhum depósito)', 'Depósito linear de IgG, que é da doença anti-MBG', 'Depósitos granulares de IgA, que são da nefropatia por IgA', 'Depósitos em full house, que são do lúpus'],
     g: 'A',
     c: 'O linear é típico de anti-MBG; IgA, de nefropatia por IgA; full house, de lúpus. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Anti-MBG.', C: 'Nefropatia IgA.', D: 'Lúpus.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Takayasu: epidemiologia',
     e: 'A arterite de Takayasu acomete principalmente:',
-    o: ['Mulheres jovens, especialmente asiáticas', 'Homens idosos', 'Crianças menores de 2 anos', 'Igualmente todas as idades'],
+    o: ['Mulheres jovens, sobretudo asiáticas', 'Homens idosos, acima dos 70 anos', 'Crianças menores de 2 anos, quase exclusivamente', 'Igualmente todas as idades, sem predomínio'],
     g: 'A',
     c: 'É também chamada de doença sem pulso. Referência: Hellmich B et al. 2018 Update of the EULAR recommendations for the management of large vessel vasculitis. Ann Rheum Dis. 2020;79(1):19-30.',
     x: { B: 'Arterite de células gigantes.', C: 'Raro.', D: 'Não é a regra.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Arterite de células gigantes: aorta',
     e: 'Complicação tardia da arterite de células gigantes é:',
-    o: ['Aneurisma de aorta torácica', 'Insuficiência renal obrigatória', 'Diabetes', 'Asma'],
+    o: ['Aneurisma de aorta torácica', 'Insuficiência renal, obrigatoriamente, em todos os casos', 'Diabetes mellitus, obrigatoriamente, em todos os casos', 'Asma brônquica, obrigatoriamente, em todos os casos'],
     g: 'A',
     c: 'Recomenda-se seguimento com imagem. Referência: Hellmich B et al. 2018 Update of the EULAR recommendations for the management of large vessel vasculitis. Ann Rheum Dis. 2020;79(1):19-30.',
     x: { B: 'Não é típico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculite: eritema nodoso',
     e: 'Eritema nodoso é:',
-    o: ['Paniculite com nódulos dolorosos em região pré-tibial, associada a infecções, sarcoidose, doença inflamatória intestinal e drogas', 'Vasculite de grandes vasos', 'Lesão maligna', 'Úlcera arterial'],
+    o: ['Paniculite com nódulos dolorosos pré-tibiais (infecções, sarcoidose, DII, drogas)', 'Vasculite de grandes vasos, com claudicação e pulsos assimétricos', 'Lesão maligna da pele, de crescimento lento e bordas irregulares', 'Úlcera arterial, em extremidades isquêmicas, com pulsos diminuídos'],
     g: 'A',
     c: 'Não é uma vasculite verdadeira. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é.', C: 'Benigna.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Sarcoidose',
     e: 'Paciente com linfadenopatia hilar bilateral, eritema nodoso e artrite de tornozelos. A síndrome é:',
-    o: ['Síndrome de Löfgren (sarcoidose aguda)', 'Tuberculose', 'Linfoma', 'Vasculite ANCA'],
+    o: ['Síndrome de Löfgren (sarcoidose aguda)', 'Tuberculose, com cavitação e febre vespertina', 'Linfoma, com sintomas B e esplenomegalia', 'Vasculite ANCA, com glomerulonefrite associada'],
     g: 'A',
     c: 'Tem bom prognóstico e costuma regredir espontaneamente. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Possível diferencial.', C: 'Diferencial.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculite por IgA: tratamento',
     e: 'Na vasculite por IgA da criança com púrpura e artralgia, sem nefrite grave, o tratamento é:',
-    o: ['Suporte com analgesia e hidratação; corticoide em dor abdominal intensa', 'Ciclofosfamida para todos', 'Plasmaférese', 'Antibiótico'],
+    o: ['Suporte: analgesia e hidratação; corticoide se dor abdominal intensa', 'Ciclofosfamida para todos os pacientes, de rotina, desde o diagnóstico', 'Plasmaférese em sessões seriadas, de rotina, desde o diagnóstico', 'Antibiótico venoso por 14 dias, de rotina, desde o diagnóstico'],
     g: 'A',
     c: 'O acompanhamento da urina e da PA é necessário por meses. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Sem infecção.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Doença de Kawasaki: vaso',
     e: 'O vaso tipicamente acometido na doença de Kawasaki é:',
-    o: ['Artérias coronárias (médio calibre)', 'Aorta', 'Capilares glomerulares', 'Veias'],
+    o: ['Artérias coronárias (médio calibre)', 'Aorta, que é acometida na arterite de Takayasu', 'Capilares glomerulares, que são acometidos nas GN', 'Veias, que são acometidas nas tromboflebites'],
     g: 'A',
     c: 'Por isso o ecocardiograma é essencial. Referência: Jennette JC et al. 2012 revised International Chapel Hill Consensus Conference Nomenclature of Vasculitides. Arthritis Rheum. 2013;65(1):1-11.',
     x: { B: 'Grandes vasos.', C: 'Pequenos vasos.', D: 'Arterites.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculite: livedo',
     e: 'Livedo reticular e úlceras de pele com nódulos dolorosos em membros inferiores sugerem:',
-    o: ['Poliarterite nodosa cutânea ou sistêmica', 'Varizes', 'Erisipela', 'Psoríase'],
+    o: ['Poliarterite nodosa cutânea ou sistêmica', 'Varizes de membros inferiores, com refluxo venoso', 'Erisipela, com eritema difuso, febre e dor', 'Psoríase, com placas descamativas nos joelhos'],
     g: 'A',
     c: 'A biópsia profunda é necessária. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculites: infecção',
     e: 'Diante de suspeita de vasculite, deve-se excluir antes de imunossuprimir:',
-    o: ['Endocardite infecciosa e outras infecções', 'Asma', 'Gota', 'Osteoartrite'],
+    o: ['Endocardite infecciosa e outras infecções', 'Asma brônquica, que não simula vasculite', 'Gota, que não simula vasculite sistêmica', 'Osteoartrite, que não simula vasculite sistêmica'],
     g: 'A',
     c: 'Endocardite pode simular vasculite. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Takayasu: hipertensão',
     e: 'A hipertensão na arterite de Takayasu pode decorrer de:',
-    o: ['Estenose de artéria renal ou coarctação aórtica', 'Hipertireoidismo', 'Excesso de sal apenas', 'Feocromocitoma sempre'],
+    o: ['Estenose de artéria renal ou coarctação aórtica', 'Hipertireoidismo, que causa hipertensão sistólica', 'Excesso de sal apenas, sem causa vascular', 'Feocromocitoma, sempre, em todos os casos'],
     g: 'A',
     c: 'A PA deve ser medida no membro sem estenose. Referência: Hellmich B et al. 2018 Update of the EULAR recommendations for the management of large vessel vasculitis. Ann Rheum Dis. 2020;79(1):19-30.',
     x: { B: 'Sem relação.', C: 'Não é a causa.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'EGPA: coração',
     e: 'Uma causa importante de morte na granulomatose eosinofílica com poliangiite é:',
-    o: ['Acometimento cardíaco (miocardite e cardiomiopatia)', 'Asma leve', 'Rinite', 'Lesões de pele'],
+    o: ['Acometimento cardíaco (miocardite e cardiomiopatia)', 'Asma leve, que raramente é causa de morte', 'Rinite alérgica, que raramente é causa de morte', 'Lesões de pele, que raramente são causa de morte'],
     g: 'A',
     c: 'Exige avaliação cardíaca no diagnóstico. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Raramente fatal.', C: 'Não é fatal.', D: 'Não é fatal.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Crioglobulinemia: tratamento',
     e: 'Crioglobulinemia grave associada à hepatite C é tratada com:',
-    o: ['Antiviral para hepatite C e, se grave, rituximabe e plasmaférese', 'Interferon isolado como padrão atual', 'Antibiótico', 'Nada'],
+    o: ['Antiviral para a hepatite C e, se grave, rituximabe e plasmaférese', 'Interferon isolado, como padrão atual de tratamento', 'Antibiótico de amplo espectro, por via venosa', 'Nenhum tratamento específico, apenas observação'],
     g: 'A',
     c: 'Antivirais de ação direta revolucionaram o tratamento. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Substituído.', C: 'Sem infecção bacteriana.', D: 'Exige.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculite: corticoide prolongado',
     e: 'Paciente em uso prolongado de corticoide para vasculite deve receber:',
-    o: ['Prevenção de osteoporose (cálcio, vitamina D e bisfosfonato se indicado) e profilaxia de pneumocistose em imunossupressão intensa', 'Nenhum cuidado', 'Antibiótico mensal', 'Suspensão abrupta'],
+    o: ['Prevenção da osteoporose (cálcio, vitamina D, bisfosfonato) e profilaxia de pneumocistose', 'Nenhum cuidado preventivo, pois o corticoide em uso prolongado é seguro', 'Antibiótico mensal, em dose habitual, de forma contínua e indefinida', 'Suspensão abrupta do corticoide, em todos os casos de uso prolongado'],
     g: 'A',
     c: 'Também monitorar glicemia e PA. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Exige cuidados.', C: 'Sem indicação.', D: 'Risco de insuficiência adrenal.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Hemorragia alveolar',
     e: 'Paciente com dispneia, hipoxemia, queda da hemoglobina e infiltrado alveolar difuso, com hemoptise discreta. A hipótese é:',
-    o: ['Hemorragia alveolar difusa, como nas vasculites ANCA ou lúpus', 'Pneumonia lobar', 'Asma', 'DPOC'],
+    o: ['Hemorragia alveolar difusa, como nas vasculites ANCA ou no lúpus', 'Pneumonia lobar, com consolidação e febre', 'Asma brônquica, com sibilância e resposta ao broncodilatador', 'DPOC exacerbada, com hiperinsuflação e tabagismo'],
     g: 'A',
     c: 'O lavado broncoalveolar progressivamente hemorrágico confirma. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem queda de Hb.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Granulomatose com poliangiite: rim',
     e: 'Na granulomatose com poliangiite, o acometimento renal típico é:',
-    o: ['Glomerulonefrite necrosante crescêntica pauci-imune', 'Nefropatia diabética', 'Necrose tubular aguda isolada', 'Litíase'],
+    o: ['Glomerulonefrite necrosante crescêntica pauci-imune', 'Nefropatia diabética, com glomeruloesclerose nodular', 'Necrose tubular aguda isolada, sem glomerulonefrite', 'Litíase renal, com cólica e hematúria não glomerular'],
     g: 'A',
     c: 'Pode evoluir rapidamente para insuficiência renal. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Sem relação.', C: 'Não é a lesão.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Vasculite: ANCA por drogas',
     e: 'Vasculite ANCA positiva pode ser induzida por:',
-    o: ['Propiltiouracil, hidralazina e cocaína adulterada com levamisol', 'Paracetamol', 'Amoxicilina', 'Vitamina D'],
+    o: ['Propiltiouracil, hidralazina e cocaína adulterada com levamisol', 'Paracetamol, que raramente induz vasculite ANCA positiva', 'Amoxicilina, que raramente induz vasculite ANCA positiva', 'Vitamina D, que não induz vasculite ANCA positiva'],
     g: 'A',
     c: 'A suspensão da droga é essencial. Referência: Hellmich B et al. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update. Ann Rheum Dis. 2024;83(1):30-47.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM_EXTRA_VASC: QuestaoCompacta[] = [
   {
     s: 'Kawasaki: tratamento',
     e: 'A principal medida para prevenir aneurismas coronarianos na doença de Kawasaki é:',
-    o: ['Imunoglobulina intravenosa nos primeiros 10 dias', 'Antibiótico', 'Corticoide tópico', 'Cirurgia'],
+    o: ['Imunoglobulina intravenosa nos primeiros 10 dias', 'Antibiótico venoso, que não previne aneurismas', 'Corticoide tópico, que não previne aneurismas', 'Cirurgia cardíaca, que não previne aneurismas'],
     g: 'A',
     c: 'Associada a ácido acetilsalicílico. Referência: McCrindle BW et al. Circulation. 2017;135(17):e927-99.',
     x: { B: 'Sem infecção.', C: 'Sem efeito.', D: 'Sem indicação.' },

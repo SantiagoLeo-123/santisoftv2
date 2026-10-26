@@ -5,7 +5,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Hemostasia: avaliação',
     e: 'Sangramento cutaneomucoso (petéquias, epistaxe, gengivorragia, menorragia) sugere defeito de:',
-    o: ['Hemostasia primária (plaquetas ou fator de von Willebrand)', 'Hemostasia secundária (fatores da coagulação)', 'Fibrinólise apenas', 'Vasos sanguíneos de grande calibre'],
+    o: ['Hemostasia primária (plaquetas ou fator de von Willebrand)', 'Hemostasia secundária (fatores da coagulação)', 'Fibrinólise apenas, sem alteração plaquetária', 'Vasos sanguíneos de grande calibre, sem alteração plaquetária'],
     g: 'A',
     c: 'Hemartroses e hematomas profundos sugerem defeito de fatores, como hemofilia. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Causa hemartroses.', C: 'Menos comum.', D: 'Sem relação.' },
@@ -13,7 +13,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'PTI',
     e: 'Adulta com petéquias, plaquetas de 15.000, hemograma sem outras alterações, esfregaço normal e sem esplenomegalia. O diagnóstico mais provável é:',
-    o: ['Púrpura trombocitopênica imune', 'Leucemia aguda', 'PTT', 'CIVD'],
+    o: ['Púrpura trombocitopênica imune', 'Leucemia aguda, com blastos no sangue periférico', 'PTT, com esquizócitos e anemia hemolítica', 'CIVD, com TP e TTPa prolongados'],
     g: 'A',
     c: 'É diagnóstico de exclusão; testar HIV, hepatite C e H. pylori. Referência: Neunert C et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3(23):3829-66.',
     x: { B: 'Haveria outras citopenias e blastos.', C: 'Haveria esquizócitos.', D: 'Haveria alterações da coagulação.' },
@@ -21,7 +21,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'PTI: tratamento',
     e: 'Adulto com PTI, plaquetas de 10.000 e sangramento leve. O tratamento inicial é:',
-    o: ['Corticoide (prednisona ou dexametasona), com imunoglobulina IV se sangramento importante', 'Transfusão de plaquetas de rotina', 'Esplenectomia imediata', 'Anticoagulante'],
+    o: ['Corticoide; imunoglobulina IV se sangramento importante', 'Transfusão de plaquetas de rotina, em todos os casos', 'Esplenectomia imediata, como primeira conduta', 'Anticoagulante, para prevenir trombose'],
     g: 'A',
     c: 'Segunda linha: agonistas do receptor de trombopoetina, rituximabe e esplenectomia. Referência: Neunert C et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3(23):3829-66.',
     x: { B: 'Sem benefício duradouro.', C: 'Não é inicial.', D: 'Contraindicado.' },
@@ -29,7 +29,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'PTI na criança',
     e: 'Criança de 4 anos com petéquias 2 semanas após infecção viral, plaquetas de 12.000, sem sangramento mucoso importante. A conduta é:',
-    o: ['Observação, pois a maioria remite espontaneamente', 'Esplenectomia', 'Quimioterapia', 'Transfusão de plaquetas obrigatória'],
+    o: ['Observação, pois a maioria remite espontaneamente', 'Esplenectomia, como primeira conduta na infância', 'Quimioterapia, como primeira conduta na infância', 'Transfusão de plaquetas, obrigatória, em todos os casos'],
     g: 'A',
     c: 'Tratar se sangramento relevante. Referência: Neunert C et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3(23):3829-66.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -37,7 +37,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Pseudotrombocitopenia',
     e: 'Paciente assintomático com plaquetas de 40.000 e agregados plaquetários no esfregaço colhido com EDTA. A conduta é:',
-    o: ['Repetir a contagem em tubo com citrato', 'Iniciar corticoide', 'Transfundir plaquetas', 'Mielograma'],
+    o: ['Repetir a contagem em tubo com citrato', 'Iniciar corticoide, em dose alta, por via oral', 'Transfundir plaquetas, por via venosa', 'Pedir mielograma, de imediato'],
     g: 'A',
     c: 'O EDTA pode causar aglutinação in vitro. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Desnecessário.' },
@@ -45,7 +45,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Trombocitopenia induzida por heparina',
     e: 'Paciente em uso de heparina há 7 dias apresenta queda de 50% das plaquetas e trombose venosa nova. A conduta é:',
-    o: ['Suspender toda heparina e iniciar anticoagulante não heparínico (como argatrobana ou fondaparinux)', 'Transfundir plaquetas', 'Manter heparina', 'Trocar por heparina de baixo peso molecular'],
+    o: ['Suspender toda heparina; iniciar não heparínico (argatrobana, fondaparinux)', 'Transfundir plaquetas, que piora a trombose e o quadro clínico', 'Manter a heparina, pois a queda das plaquetas é esperada', 'Trocar por heparina de baixo peso molecular, que tem reação cruzada'],
     g: 'A',
     c: 'O escore 4T estima a probabilidade. Referência: Cuker A et al. American Society of Hematology 2018 guidelines for management of VTE: heparin-induced thrombocytopenia. Blood Adv. 2018;2(22):3360-92.',
     x: { B: 'Pode piorar a trombose.', C: 'Pioraria.', D: 'Reação cruzada.' },
@@ -53,7 +53,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'CIVD',
     e: 'Paciente com sepse apresenta sangramento em locais de punção, plaquetopenia, TP e TTPa prolongados, fibrinogênio baixo e D-dímero muito elevado. O diagnóstico é:',
-    o: ['Coagulação intravascular disseminada', 'PTI', 'Hemofilia', 'Deficiência de vitamina K isolada'],
+    o: ['Coagulação intravascular disseminada', 'PTI, sem prolongamento de TP e TTPa', 'Hemofilia, sem plaquetopenia', 'Deficiência de vitamina K isolada, sem plaquetopenia'],
     g: 'A',
     c: 'Tratar a causa; repor hemocomponentes se sangramento. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Coagulograma normal.', C: 'Plaquetas normais.', D: 'Plaquetas e fibrinogênio normais.' },
@@ -61,7 +61,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Hemofilia',
     e: 'Menino com hemartroses recorrentes, TTPa prolongado, TP normal e plaquetas normais. O diagnóstico mais provável é:',
-    o: ['Hemofilia A (deficiência de fator VIII)', 'Doença de von Willebrand leve', 'Deficiência de vitamina K', 'PTI'],
+    o: ['Hemofilia A (deficiência de fator VIII)', 'Doença de von Willebrand leve, com sangramento mucocutâneo', 'Deficiência de vitamina K, com TP prolongado', 'PTI, com plaquetopenia e TTPa normal'],
     g: 'A',
     c: 'Herança ligada ao X. Tratamento com fator VIII ou emicizumabe. Referência: Srivastava A et al. WFH Guidelines for the Management of Hemophilia, 3rd edition. Haemophilia. 2020;26(Suppl 6):1-158.',
     x: { B: 'Sangramento mucoso.', C: 'TP prolongado.', D: 'Plaquetas baixas.' },
@@ -69,7 +69,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Doença de von Willebrand',
     e: 'Mulher com menorragia desde a menarca, epistaxes e sangramento após extração dentária, plaquetas normais. A coagulopatia hereditária mais comum é:',
-    o: ['Doença de von Willebrand', 'Hemofilia A', 'Hemofilia B', 'Deficiência de fator VII'],
+    o: ['Doença de von Willebrand', 'Hemofilia A, que é ligada ao X e acomete homens', 'Hemofilia B, que é ligada ao X e acomete homens', 'Deficiência de fator VII, que prolonga o TP'],
     g: 'A',
     c: 'Desmopressina é útil no tipo 1. Referência: James PD et al. ASH ISTH NHF WFH 2021 guidelines on the diagnosis of von Willebrand disease. Blood Adv. 2021;5(1):280-300.',
     x: { B: 'Rara em mulheres.', C: 'Rara.', D: 'Rara.' },
@@ -77,7 +77,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Coagulograma',
     e: 'TP prolongado isoladamente, com TTPa normal, sugere deficiência de:',
-    o: ['Fator VII (via extrínseca), como no início do uso de varfarina ou na deficiência de vitamina K', 'Fator VIII', 'Fator IX', 'Fator XII'],
+    o: ['Fator VII (via extrínseca): início da varfarina ou falta de vitamina K', 'Fator VIII, cuja deficiência prolonga o TTPa e não o TP', 'Fator IX, cuja deficiência prolonga o TTPa e não o TP', 'Fator XII, cuja deficiência prolonga o TTPa e não o TP'],
     g: 'A',
     c: 'O fator VII tem meia-vida curta. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'TTPa.', C: 'TTPa.', D: 'TTPa sem sangramento.' },
@@ -85,7 +85,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Deficiência de fator XII',
     e: 'Paciente com TTPa muito prolongado e sem história de sangramento. A causa possível é:',
-    o: ['Deficiência de fator XII ou anticoagulante lúpico', 'Hemofilia A grave', 'Doença de von Willebrand', 'Deficiência de vitamina K'],
+    o: ['Deficiência de fator XII ou anticoagulante lúpico', 'Hemofilia A grave, que cursa com sangramento', 'Doença de von Willebrand, que cursa com sangramento', 'Deficiência de vitamina K, que prolonga o TP'],
     g: 'A',
     c: 'O anticoagulante lúpico associa-se a trombose, não sangramento. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sangramento grave.', C: 'Sangramento.', D: 'TP prolongado.' },
@@ -101,7 +101,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Reversão da varfarina',
     e: 'Paciente em uso de varfarina com INR de 8 e hemorragia intracraniana. A conduta é:',
-    o: ['Complexo protrombínico (ou plasma) e vitamina K intravenosa', 'Apenas suspender a varfarina', 'Vitamina K oral isolada', 'Protamina'],
+    o: ['Complexo protrombínico (ou plasma) e vitamina K intravenosa', 'Apenas suspender a varfarina, sem reverter o efeito', 'Vitamina K oral isolada, que tem ação lenta', 'Protamina, que é antídoto da heparina'],
     g: 'A',
     c: 'Protamina reverte heparina. Referência: Tomaselli GF et al. 2020 ACC Expert Consensus Decision Pathway on Management of Bleeding in Patients on Oral Anticoagulants. J Am Coll Cardiol. 2020;76(5):594-622.',
     x: { B: 'Insuficiente.', C: 'Lento.', D: 'Sem efeito.' },
@@ -109,7 +109,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Reversão da heparina',
     e: 'O antídoto da heparina não fracionada é:',
-    o: ['Sulfato de protamina', 'Vitamina K', 'Idarucizumabe', 'Andexanet'],
+    o: ['Sulfato de protamina', 'Vitamina K, que é antídoto da varfarina', 'Idarucizumabe, que é antídoto da dabigatrana', 'Andexanet, que é antídoto dos inibidores do fator Xa'],
     g: 'A',
     c: 'Reverte parcialmente a heparina de baixo peso. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Varfarina.', C: 'Dabigatrana.', D: 'Inibidores do fator Xa.' },
@@ -125,7 +125,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Trombose venosa: tratamento',
     e: 'Paciente com trombose venosa profunda proximal sem câncer, com função renal normal. O tratamento preferido é:',
-    o: ['Anticoagulante oral direto (como rivaroxabana ou apixabana) por pelo menos 3 meses', 'AAS isolado', 'Filtro de veia cava para todos', 'Repouso sem anticoagulação'],
+    o: ['ACOD (rivaroxabana ou apixabana) por pelo menos 3 meses', 'AAS isolado, que é insuficiente para a TVP', 'Filtro de veia cava para todos, de rotina', 'Repouso sem anticoagulação, que é inadequado'],
     g: 'A',
     c: 'Varfarina é alternativa. Referência: Stevens SM et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline. Chest. 2021;160(6):e545-608.',
     x: { B: 'Insuficiente.', C: 'Reservado a contraindicação.', D: 'Inadequado.' },
@@ -149,7 +149,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Síndrome antifosfolípide',
     e: 'Mulher com trombose venosa e abortamentos de repetição, com anticoagulante lúpico positivo em duas dosagens com 12 semanas. O tratamento de longo prazo é:',
-    o: ['Varfarina (anticoagulantes diretos devem ser evitados, especialmente na forma triplo-positiva)', 'AAS isolado', 'Rivaroxabana como preferência', 'Nenhum'],
+    o: ['Varfarina; evitar ACOD, sobretudo na SAF triplo-positiva', 'AAS isolado, que é insuficiente na SAF com trombose', 'Rivaroxabana como preferência, que é inferior na SAF', 'Nenhum tratamento, pois a trombose é transitória'],
     g: 'A',
     c: 'Referência: Tektonidou MG et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. Ann Rheum Dis. 2019;78(10):1296-304.',
     x: { B: 'Insuficiente.', C: 'Menos eficaz e mais trombose.', D: 'Risco alto.' },
@@ -157,7 +157,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Embolia pulmonar: diagnóstico',
     e: 'Paciente com baixa probabilidade clínica de embolia pulmonar. O exame inicial é:',
-    o: ['D-dímero; se negativo, exclui embolia', 'Angiotomografia para todos', 'Cintilografia obrigatória', 'Arteriografia'],
+    o: ['D-dímero; se negativo, exclui a embolia', 'Angiotomografia para todos, de rotina', 'Cintilografia obrigatória, em todos os casos', 'Arteriografia pulmonar, como primeiro exame'],
     g: 'A',
     c: 'Em alta probabilidade, angiotomografia direto. Referência: Konstantinides SV et al. 2019 ESC Guidelines for acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Desnecessário.', C: 'Não é inicial.', D: 'Invasivo.' },
@@ -165,7 +165,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Embolia pulmonar maciça',
     e: 'Paciente com embolia pulmonar e choque (hipotensão sustentada). O tratamento é:',
-    o: ['Trombólise sistêmica, salvo contraindicação', 'Apenas heparina', 'Observação', 'Filtro de veia cava isolado'],
+    o: ['Trombólise sistêmica, salvo contraindicação', 'Apenas heparina, que é insuficiente no choque', 'Observação clínica, sem tratamento específico', 'Filtro de veia cava isolado, sem anticoagulação'],
     g: 'A',
     c: 'Embolectomia é alternativa. Referência: Konstantinides SV et al. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Insuficiente.', C: 'Risco de morte.', D: 'Insuficiente.' },
@@ -181,7 +181,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Hepatopatia e coagulação',
     e: 'Na cirrose avançada, o coagulograma mostra:',
-    o: ['TP prolongado por deficiência de síntese de fatores, sem correção com vitamina K', 'TP normal sempre', 'Apenas plaquetas altas', 'Fibrinogênio sempre alto'],
+    o: ['TP prolongado por falta de síntese de fatores, sem correção com vitamina K', 'TP normal, sempre, em todos os casos de cirrose avançada', 'Apenas plaquetas altas, sem alteração do TP na cirrose', 'Fibrinogênio sempre alto, em todos os casos de cirrose avançada'],
     g: 'A',
     c: 'Há também plaquetopenia por hiperesplenismo. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Alterado.', C: 'Plaquetas baixas.', D: 'Pode estar baixo.' },
@@ -189,7 +189,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Transfusão de plaquetas',
     e: 'Paciente com leucemia em quimioterapia, sem sangramento, com plaquetas de 8.000. A conduta é:',
-    o: ['Transfusão profilática de plaquetas (limiar de 10.000)', 'Nenhuma', 'Corticoide', 'Vitamina K'],
+    o: ['Transfusão profilática de plaquetas (limiar de 10.000)', 'Nenhuma transfusão, mesmo com plaquetas muito baixas', 'Corticoide, em dose alta, por via oral', 'Vitamina K, por via venosa, em dose habitual'],
     g: 'A',
     c: 'Para procedimentos, limiares maiores. Referência: Kaufman RM et al. Platelet transfusion: a clinical practice guideline from the AABB. Ann Intern Med. 2015;162(3):205-13.',
     x: { B: 'Risco de sangramento.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -197,7 +197,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Uremia e plaquetas',
     e: 'Paciente urêmico com tempo de sangramento prolongado e plaquetas normais. O defeito é:',
-    o: ['Disfunção plaquetária urêmica', 'Trombocitopenia', 'Hemofilia', 'Deficiência de vitamina K'],
+    o: ['Disfunção plaquetária urêmica', 'Trombocitopenia, que não ocorre com plaquetas normais', 'Hemofilia, que cursa com TTPa prolongado', 'Deficiência de vitamina K, que cursa com TP prolongado'],
     g: 'A',
     c: 'Desmopressina, diálise e correção da anemia ajudam. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Plaquetas normais.', C: 'Sem defeito de fator.', D: 'TP normal.' },
@@ -205,7 +205,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Plaquetopenia: causas',
     e: 'Causas de plaquetopenia por aumento de destruição incluem:',
-    o: ['PTI, PTT, CIVD e plaquetopenia induzida por heparina', 'Aplasia medular', 'Leucemia com infiltração medular', 'Deficiência de B12 apenas'],
+    o: ['PTI, PTT, CIVD e plaquetopenia induzida por heparina', 'Aplasia medular, que é por produção diminuída', 'Leucemia com infiltração medular, que é por produção diminuída', 'Deficiência de B12, que é por produção diminuída'],
     g: 'A',
     c: 'Causas centrais: aplasia, infiltração e deficiências nutricionais. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Produção.', C: 'Produção.', D: 'Produção.' },
@@ -213,7 +213,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Hiperesplenismo',
     e: 'Paciente cirrótico com esplenomegalia e plaquetas de 60.000. O mecanismo é:',
-    o: ['Sequestro esplênico (hiperesplenismo) e redução de trombopoetina', 'PTI', 'Leucemia', 'PTT'],
+    o: ['Sequestro esplênico (hiperesplenismo) e menos trombopoetina', 'PTI, que não explica a esplenomegalia da cirrose', 'Leucemia, que não explica o quadro da cirrose', 'PTT, que cursa com anemia hemolítica e esquizócitos'],
     g: 'A',
     c: 'Raramente causa sangramento grave isoladamente. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem esquizócitos.' },
@@ -221,7 +221,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Plaquetopenia na gestação',
     e: 'Gestante de termo com plaquetas de 110.000, assintomática, sem hipertensão. A hipótese mais provável é:',
-    o: ['Trombocitopenia gestacional', 'PTI grave', 'HELLP', 'PTT'],
+    o: ['Trombocitopenia gestacional', 'PTI grave, com plaquetas muito baixas', 'Síndrome HELLP, com hemólise e transaminases elevadas', 'PTT, com anemia hemolítica e esquizócitos'],
     g: 'A',
     c: 'Não exige tratamento. Referência: Neunert C et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3(23):3829-66.',
     x: { B: 'Plaquetas mais baixas.', C: 'Haveria hipertensão e hemólise.', D: 'Haveria esquizócitos.' },
@@ -237,7 +237,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Fármacos e plaquetas',
     e: 'O ácido acetilsalicílico inibe a função plaquetária por:',
-    o: ['Inibição irreversível da ciclo-oxigenase, reduzindo tromboxano A2', 'Inibição do receptor P2Y12', 'Inibição do fator Xa', 'Inibição da trombina'],
+    o: ['Inibição irreversível da COX-1, reduzindo o tromboxano A2', 'Inibição do receptor P2Y12, como o clopidogrel', 'Inibição do fator Xa, como a rivaroxabana', 'Inibição da trombina, como a dabigatrana'],
     g: 'A',
     c: 'O efeito dura a vida da plaqueta (7 a 10 dias). Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Clopidogrel.', C: 'Rivaroxabana.', D: 'Dabigatrana.' },
@@ -245,7 +245,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Clopidogrel',
     e: 'O clopidogrel atua por:',
-    o: ['Bloqueio irreversível do receptor P2Y12 de ADP', 'Inibição da COX-1', 'Inibição da vitamina K', 'Inibição do fator Xa'],
+    o: ['Bloqueio irreversível do receptor P2Y12 do ADP', 'Inibição da COX-1, como o AAS', 'Inibição da vitamina K, como a varfarina', 'Inibição do fator Xa, como a rivaroxabana'],
     g: 'A',
     c: 'Suspender 5 dias antes de cirurgias eletivas de alto risco de sangramento. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'AAS.', C: 'Varfarina.', D: 'Inibidores diretos.' },
@@ -253,7 +253,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Varfarina: interações',
     e: 'Paciente em uso de varfarina inicia sulfametoxazol-trimetoprima. Espera-se:',
-    o: ['Aumento do INR e do risco de sangramento', 'Redução do INR', 'Nenhuma interação', 'Trombose'],
+    o: ['Aumento do INR e do risco de sangramento', 'Redução do INR, por indução enzimática', 'Nenhuma interação entre os dois fármacos', 'Trombose, por redução do efeito anticoagulante'],
     g: 'A',
     c: 'Monitorar o INR com novos fármacos. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Efeito oposto.', C: 'Há interação.', D: 'Efeito oposto.' },
@@ -261,7 +261,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Varfarina: necrose',
     e: 'Paciente com deficiência de proteína C inicia varfarina sem heparina e desenvolve necrose cutânea. O mecanismo é:',
-    o: ['Queda inicial rápida da proteína C, gerando estado pró-trombótico transitório', 'Alergia', 'Sangramento', 'Infecção'],
+    o: ['Queda rápida da proteína C: estado pró-trombótico (necrose cutânea)', 'Alergia grave à varfarina, com anafilaxia, logo na primeira dose', 'Sangramento maciço, logo na primeira dose da varfarina, por ação rápida', 'Infecção, por imunossupressão causada pelo fármaco anticoagulante'],
     g: 'A',
     c: 'Por isso a varfarina é iniciada com ponte de heparina na trombose. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sem relação.', C: 'Não é o mecanismo.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação e fibrilação atrial',
     e: 'Anticoagulantes diretos não são indicados em fibrilação atrial associada a:',
-    o: ['Estenose mitral moderada a grave e prótese valvar mecânica', 'Hipertensão', 'Diabetes', 'Idade acima de 65 anos'],
+    o: ['Estenose mitral moderada a grave e prótese valvar mecânica', 'Hipertensão arterial, que não contraindica ACOD', 'Diabetes mellitus, que não contraindica ACOD', 'Idade acima de 65 anos, que não contraindica ACOD'],
     g: 'A',
     c: 'Nesses casos usa-se varfarina. Referência: Joglar JA et al. 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. Circulation. 2024;149(1):e1-156.',
     x: { B: 'Podem ser usados.', C: 'Podem ser usados.', D: 'Podem ser usados.' },
@@ -277,7 +277,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'TEV e câncer',
     e: 'Paciente com câncer ativo e trombose venosa. Opções de tratamento incluem:',
-    o: ['Heparina de baixo peso molecular ou anticoagulantes diretos selecionados (apixabana, edoxabana, rivaroxabana)', 'AAS isolado', 'Varfarina como primeira escolha', 'Nenhum'],
+    o: ['HBPM ou ACOD selecionados (apixabana, edoxabana, rivaroxabana)', 'AAS isolado, que é insuficiente na TVP do câncer', 'Varfarina como primeira escolha, que é inferior', 'Nenhum tratamento, pois a trombose é transitória'],
     g: 'A',
     c: 'Atenção a tumores gastrointestinais pelo risco de sangramento com alguns diretos. Referência: Stevens SM et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline. Chest. 2021;160(6):e545-608.',
     x: { B: 'Insuficiente.', C: 'Menos eficaz.', D: 'Risco alto.' },
@@ -285,7 +285,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Profilaxia de TEV',
     e: 'Paciente internado clínico, imobilizado, com escore de Pádua alto e baixo risco de sangramento. A conduta é:',
-    o: ['Profilaxia farmacológica com heparina de baixo peso ou não fracionada', 'Nenhuma', 'Anticoagulação plena', 'AAS'],
+    o: ['Profilaxia farmacológica com heparina de baixo peso ou não fracionada', 'Nenhuma profilaxia, mesmo com escore de Pádua alto', 'Anticoagulação plena, em dose terapêutica, em todos os casos', 'AAS, que não é indicado como profilaxia de tromboembolismo'],
     g: 'A',
     c: 'Métodos mecânicos se contraindicação. Referência: Schünemann HJ et al. ASH 2018 guidelines for management of VTE: prophylaxis for hospitalized and nonhospitalized medical patients. Blood Adv. 2018;2(22):3198-225.',
     x: { B: 'Risco de TEV.', C: 'Excessivo.', D: 'Inferior.' },
@@ -293,7 +293,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Trombose: localização atípica',
     e: 'Trombose em veias esplâncnicas ou cerebrais em paciente jovem deve levantar suspeita de:',
-    o: ['Neoplasia mieloproliferativa (JAK2), HPN e trombofilias', 'Apenas imobilização', 'Desidratação apenas', 'Nenhuma investigação'],
+    o: ['Neoplasia mieloproliferativa (JAK2), HPN e trombofilias', 'Apenas imobilização, sem outra causa de trombose', 'Apenas desidratação, sem outra causa de trombose', 'Nenhuma investigação, pois é evento isolado'],
     g: 'A',
     c: 'Investigação ampla é necessária. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Exige investigação.' },
@@ -301,7 +301,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Hemofilia B',
     e: 'Deficiência de fator IX caracteriza:',
-    o: ['Hemofilia B (doença de Christmas)', 'Hemofilia A', 'Von Willebrand', 'Deficiência de fator VII'],
+    o: ['Hemofilia B (doença de Christmas)', 'Hemofilia A, que é deficiência de fator VIII', 'Doença de von Willebrand, que é deficiência do fator vW', 'Deficiência de fator VII, que prolonga o TP'],
     g: 'A',
     c: 'Também ligada ao X. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Fator VIII.', C: 'Fator de von Willebrand.', D: 'Fator VII.' },
@@ -309,7 +309,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Hemofilia: inibidores',
     e: 'Paciente com hemofilia A que deixa de responder ao fator VIII. A hipótese é:',
-    o: ['Desenvolvimento de inibidores (anticorpos anti-fator VIII)', 'Hemofilia B', 'Plaquetopenia', 'Deficiência de vitamina K'],
+    o: ['Inibidores (anticorpos anti-fator VIII)', 'Hemofilia B, que é deficiência de fator IX', 'Plaquetopenia, que não explica a falta de resposta', 'Deficiência de vitamina K, que prolonga o TP'],
     g: 'A',
     c: 'Tratamento com agentes de bypass ou emicizumabe. Referência: Srivastava A et al. WFH Guidelines. Haemophilia. 2020;26(Suppl 6):1-158.',
     x: { B: 'Sem relação.', C: 'Plaquetas normais.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Hemofilia adquirida',
     e: 'Idosa sem história prévia com hematomas extensos e TTPa prolongado que não corrige no teste de mistura. A hipótese é:',
-    o: ['Hemofilia A adquirida (autoanticorpo anti-fator VIII)', 'Hemofilia congênita', 'Deficiência de vitamina K', 'PTI'],
+    o: ['Hemofilia A adquirida (autoanticorpo anti-fator VIII)', 'Hemofilia congênita, que se manifesta desde a infância', 'Deficiência de vitamina K, que prolonga o TP', 'PTI, com plaquetopenia isolada'],
     g: 'A',
     c: 'Associa-se a autoimunidade, neoplasias e pós-parto. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Sem história.', C: 'TP prolongado.', D: 'Plaquetas normais.' },
@@ -325,7 +325,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Fibrinogênio',
     e: 'Na hemorragia maciça, o fibrinogênio abaixo de 150 mg/dL deve ser reposto com:',
-    o: ['Crioprecipitado ou concentrado de fibrinogênio', 'Plaquetas', 'Concentrado de hemácias apenas', 'Vitamina K'],
+    o: ['Crioprecipitado ou concentrado de fibrinogênio', 'Plaquetas, que não repõem o fibrinogênio', 'Concentrado de hemácias apenas, sem fibrinogênio', 'Vitamina K, que não repõe o fibrinogênio'],
     g: 'A',
     c: 'Hipofibrinogenemia agrava o sangramento. Referência: Brasil. Ministério da Saúde. Guia para uso de hemocomponentes. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Sem fibrinogênio.', C: 'Sem fibrinogênio.', D: 'Sem efeito.' },
@@ -333,7 +333,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Plasma fresco',
     e: 'O plasma fresco congelado está indicado em:',
-    o: ['Sangramento com deficiência de múltiplos fatores, como CIVD e coagulopatia de hemorragia maciça', 'Expansão de volume', 'Hipoalbuminemia', 'PTI'],
+    o: ['Sangramento com deficiência de vários fatores (CIVD, hemorragia maciça)', 'Expansão de volume, que deve ser feita com cristaloides', 'Hipoalbuminemia, que deve ser tratada com albumina', 'PTI, que deve ser tratada com corticoide ou imunoglobulina'],
     g: 'A',
     c: 'Não deve ser usado como expansor. Referência: Brasil. Ministério da Saúde. Guia para uso de hemocomponentes. 2ª ed. Brasília: MS, 2015.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -341,7 +341,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Púrpura senil',
     e: 'Idoso com manchas roxas em dorso das mãos e antebraços, plaquetas e coagulograma normais. A hipótese é:',
-    o: ['Púrpura senil (fragilidade vascular)', 'PTI', 'Hemofilia', 'CIVD'],
+    o: ['Púrpura senil (fragilidade vascular)', 'PTI, com plaquetopenia isolada', 'Hemofilia, com TTPa prolongado', 'CIVD, com TP e TTPa prolongados'],
     g: 'A',
     c: 'Benigna. Referência: Hoffman R et al. Hematology: Basic Principles and Practice. 8ª ed. Philadelphia: Elsevier, 2023.',
     x: { B: 'Plaquetas baixas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Escorbuto',
     e: 'Paciente desnutrido com sangramento gengival, petéquias perifoliculares e cabelos em saca-rolhas. O diagnóstico é:',
-    o: ['Escorbuto (deficiência de vitamina C)', 'PTI', 'Hemofilia', 'Leucemia'],
+    o: ['Escorbuto (deficiência de vitamina C)', 'PTI, com plaquetopenia isolada', 'Hemofilia, com TTPa prolongado', 'Leucemia, com citopenias associadas'],
     g: 'A',
     c: 'Coagulograma e plaquetas normais. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Púrpura de Henoch-Schönlein no adulto',
     e: 'Adulto com púrpura palpável em membros inferiores, plaquetas normais, artralgia e hematúria. O diagnóstico é:',
-    o: ['Vasculite por IgA', 'PTI', 'PTT', 'Hemofilia'],
+    o: ['Vasculite por IgA', 'PTI, que cursa com plaquetopenia', 'PTT, que cursa com anemia hemolítica', 'Hemofilia, que cursa com hemartroses'],
     g: 'A',
     c: 'Púrpura palpável indica vasculite. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Plaquetas baixas.', C: 'Esquizócitos.', D: 'Hemartroses.' },
@@ -365,7 +365,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Doença de von Willebrand: tratamento',
     e: 'Paciente com von Willebrand tipo 1 que fará extração dentária. Uma opção é:',
-    o: ['Desmopressina e antifibrinolítico (ácido tranexâmico)', 'Plaquetas', 'Vitamina K', 'Heparina'],
+    o: ['Desmopressina e antifibrinolítico (ácido tranexâmico)', 'Plaquetas, que não repõem o fator de von Willebrand', 'Vitamina K, que não repõe o fator de von Willebrand', 'Heparina, que piora o sangramento'],
     g: 'A',
     c: 'Tipos 2B e 3 podem exigir concentrado de fator. Referência: Connell NT et al. ASH ISTH NHF WFH 2021 guidelines on the management of von Willebrand disease. Blood Adv. 2021;5(1):301-25.',
     x: { B: 'Sem indicação.', C: 'Sem efeito.', D: 'Contraindicado.' },
@@ -373,7 +373,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'TEV: anticoagulante e insuficiência renal',
     e: 'Paciente com trombose e TFG de 20 mL/min. O anticoagulante mais apropriado é:',
-    o: ['Heparina não fracionada ou varfarina, evitando acúmulo de drogas de eliminação renal', 'Dabigatrana em dose plena', 'Enoxaparina em dose plena sem ajuste', 'Fondaparinux sem ajuste'],
+    o: ['HNF ou varfarina, evitando acúmulo de fármacos de eliminação renal', 'Dabigatrana em dose plena, que tem eliminação renal', 'Enoxaparina em dose plena, sem ajuste renal', 'Fondaparinux sem ajuste, que tem eliminação renal'],
     g: 'A',
     c: 'Dabigatrana tem eliminação predominantemente renal. Referência: Stevens SM et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline. Chest. 2021;160(6):e545-608.',
     x: { B: 'Acumula.', C: 'Exige ajuste.', D: 'Contraindicado.' },
@@ -381,7 +381,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'Trombose e anticoncepcional',
     e: 'Mulher em uso de anticoncepcional combinado com trombose venosa profunda. A conduta inclui:',
-    o: ['Anticoagulação e suspensão do estrogênio, oferecendo método sem estrogênio', 'Manter o anticoncepcional', 'Apenas meia elástica', 'Nenhuma'],
+    o: ['Anticoagular e suspender o estrogênio, oferecendo método sem estrogênio', 'Manter o anticoncepcional combinado, apesar da trombose venosa profunda', 'Apenas meia elástica, sem anticoagulação, para a trombose venosa', 'Nenhuma conduta, pois a trombose venosa é transitória'],
     g: 'A',
     c: 'O estrogênio aumenta o risco de recorrência. Referência: Stevens SM et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline. Chest. 2021;160(6):e545-608.',
     x: { B: 'Risco de recorrência.', C: 'Insuficiente.', D: 'Exige tratamento.' },
@@ -389,7 +389,7 @@ export const CM_EXTRA_PLAQ: QuestaoCompacta[] = [
   {
     s: 'D-dímero',
     e: 'Sobre o D-dímero, é correto afirmar:',
-    o: ['Tem alto valor preditivo negativo, mas é pouco específico', 'É específico para trombose', 'Positivo confirma embolia', 'Não se altera na gestação'],
+    o: ['Alto valor preditivo negativo, mas pouco específico', 'É específico para trombose, e confirma o diagnóstico', 'Positivo confirma embolia pulmonar', 'Não se altera na gestação, em nenhum trimestre'],
     g: 'A',
     c: 'Eleva-se em inflamação, câncer, gestação e idade avançada. Referência: Konstantinides SV et al. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Pouco específico.', C: 'Não confirma.', D: 'Eleva-se.' },
