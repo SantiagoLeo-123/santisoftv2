@@ -43,6 +43,7 @@ import { DII_1 } from './cirurgia/dii1';
 import { DII_2 } from './cirurgia/dii2';
 import { DII_3 } from './cirurgia/dii3';
 import { DII_4 } from './cirurgia/dii4';
+import { DIF_DII } from './cirurgia/difDii';
 import { ESOFAGO_1 } from './cirurgia/esofago1';
 import { ESOFAGO_2 } from './cirurgia/esofago2';
 import { ESOFAGO_3 } from './cirurgia/esofago3';
@@ -119,7 +120,7 @@ export const QUESTOES_CIRURGIA: Question[] = [
     ...COLORRETAL_1, ...COLORRETAL_2, ...COLORRETAL_3, ...COLORRETAL_4, ...DIF_COLORRETAL,
   ]),
   ...montarQuestoes('cir-dii', 'Cirurgia', 'Doença Inflamatória Intestinal', [
-    ...DII_1, ...DII_2, ...DII_3, ...DII_4,
+    ...DII_1, ...DII_2, ...DII_3, ...DII_4, ...DIF_DII,
   ]),
   ...montarQuestoes('cir-esofago', 'Cirurgia', 'Doenças do Esôfago', [
     ...ESOFAGO_1, ...ESOFAGO_2, ...ESOFAGO_3, ...ESOFAGO_4,
