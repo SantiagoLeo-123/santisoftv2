@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_PREV_ATENCAO_BASICA } from './clinica/difPrevAtencaoBasica';
 import { DIF_PREV_VIGILANCIA } from './clinica/difPrevVigilancia';
 import { DIF_PREV_EPICLINICA } from './clinica/difPrevEpiClinica';
 import { DIF_PREV_TESTES } from './clinica/difPrevTestes';
@@ -651,4 +652,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-prev-testes', 'Preventiva', 'Epidemiologia: Extras e Validação de Teste Diagnóstico', DIF_PREV_TESTES),
   ...montarQuestoes('dif-prev-epiclinica', 'Preventiva', 'Epidemiologia Clínica', DIF_PREV_EPICLINICA),
   ...montarQuestoes('dif-prev-vigilancia', 'Preventiva', 'Vigilância: Raiva, Tétano e Vigilância da Saúde', DIF_PREV_VIGILANCIA),
+  ...montarQuestoes('dif-prev-atencao-basica', 'Preventiva', 'SUS: Atenção Básica', DIF_PREV_ATENCAO_BASICA),
 ];

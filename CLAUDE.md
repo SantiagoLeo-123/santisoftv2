@@ -119,7 +119,7 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Epidemiologia: Extras e Validação de Teste Diagnóstico
 - [x] Epidemiologia Clínica
 - [x] Vigilância: Raiva, Tétano e Vigilância da Saúde
-- [ ] SUS: Atenção Básica
+- [x] SUS: Atenção Básica
 - [ ] SUS: Financiamento do SUS
 - [ ] Saúde do Trabalhador
 - [ ] Acidente de Trabalho
