@@ -5,7 +5,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Leishmaniose visceral: agente e vetor',
     e: 'Sobre a cadeia de transmissão da leishmaniose visceral no Brasil, assinale a correta:',
-    o: ['Agente Leishmania braziliensis, vetor Anopheles e reservatório o gato', 'Agente Leishmania infantum (chagasi), vetor o flebotomíneo Lutzomyia longipalpis e principal reservatório urbano o cão', 'Agente Trypanosoma cruzi, vetor triatomíneo e reservatório o tatu', 'Agente Leishmania infantum, com transmissão direta do cão ao homem por mordedura'],
+    o: ['L. braziliensis, vetor Anopheles, reservatório o gato', 'L. infantum, vetor Lutzomyia longipalpis, reservatório urbano o cão', 'T. cruzi, vetor triatomíneo, reservatório o tatu', 'L. infantum, com transmissão direta do cão ao homem'],
     g: 'B',
     c: 'O calazar é causado pela Leishmania infantum, transmitida pela picada da fêmea do flebotomíneo Lutzomyia longipalpis, conhecido como mosquito-palha ou birigui. No ambiente urbano o cão doméstico é o principal reservatório, o que explica a expansão da doença para as cidades. O parasita multiplica-se nos macrófagos do sistema fagocítico mononuclear.',
     x: { A: 'A Leishmania braziliensis causa a forma tegumentar, e o Anopheles transmite malária.', C: 'Essa cadeia corresponde à doença de Chagas.', D: 'O cão é reservatório; a transmissão ao homem depende da picada do vetor.' },
@@ -21,7 +21,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Leishmaniose visceral: diagnóstico',
     e: 'Para a confirmação diagnóstica da leishmaniose visceral, assinale a alternativa correta:',
-    o: ['A intradermorreação de Montenegro é positiva na doença ativa e confirma o diagnóstico', 'O exame parasitológico de aspirado de medula óssea é o método mais usado para demonstrar as formas amastigotas, e o teste rápido com antígeno rK39 é o exame sorológico de triagem', 'A hemocultura convencional isola o parasita na maioria dos casos', 'A biópsia hepática é o primeiro exame a ser solicitado'],
+    o: ['Montenegro positiva na doença ativa e confirma o diagnóstico', 'Aspirado de medula (amastigotas) e teste rápido rK39 como triagem', 'Hemocultura convencional isola o parasita na maioria', 'Biópsia hepática é o primeiro exame a pedir'],
     g: 'B',
     c: 'O diagnóstico parasitológico é feito pela visualização de amastigotas no aspirado de medula óssea, procedimento seguro e de boa sensibilidade. A punção esplênica é mais sensível, porém tem risco de sangramento. O teste imunocromatográfico rK39 é rápido e muito útil na prática. A reação de Montenegro é negativa no calazar ativo, pela anergia celular específica.',
     x: { A: 'No calazar ativo há anergia celular, e a reação de Montenegro é negativa.', C: 'A leishmania não cresce em hemocultura convencional.', D: 'A biópsia hepática é mais invasiva e não é o exame inicial.' },
@@ -37,7 +37,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Antimonial pentavalente: toxicidade',
     e: 'Durante o tratamento da leishmaniose visceral com antimoniato de meglumina, o efeito adverso que exige monitorização específica e pode levar à suspensão da droga é:',
-    o: ['Ototoxicidade irreversível', 'Cardiotoxicidade, com prolongamento do intervalo QT e arritmias, além de pancreatite e toxicidade hepática e renal', 'Neurite óptica', 'Fibrose pulmonar'],
+    o: ['Ototoxicidade irreversível, com perda auditiva', 'Cardiotoxicidade (QT longo, arritmias) e pancreatite', 'Neurite óptica, com perda da visão de cores', 'Fibrose pulmonar, de instalação progressiva'],
     g: 'B',
     c: 'Os antimoniais pentavalentes alteram a repolarização ventricular, podendo prolongar o intervalo QT e desencadear arritmias graves, o que torna obrigatório o eletrocardiograma seriado. Também causam elevação de amilase e lipase, de transaminases e de creatinina. Por esse perfil são contraindicados em gestantes e em cardiopatas, nefropatas e hepatopatas.',
     x: { A: 'Ototoxicidade é efeito clássico dos aminoglicosídeos.', C: 'Neurite óptica é efeito adverso associado ao etambutol.', D: 'Fibrose pulmonar relaciona-se a drogas como amiodarona e bleomicina.' },
@@ -53,7 +53,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Febre tifoide: complicações',
     e: 'Paciente na terceira semana de febre tifoide sem tratamento apresenta dor abdominal súbita e intensa, distensão, abdome em tábua e taquicardia. A complicação mais provável e o local típico são:',
-    o: ['Apendicite aguda, no ceco', 'Perfuração intestinal, no íleo terminal, por necrose das placas de Peyer', 'Colecistite aguda alitiásica', 'Abscesso esplênico roto'],
+    o: ['Apendicite aguda, no ceco, por obstrução', 'Perfuração do íleo terminal, por necrose de placas de Peyer', 'Colecistite aguda alitiásica, com Murphy positivo', 'Abscesso esplênico roto, com hemoperitônio'],
     g: 'B',
     c: 'A salmonela multiplica-se no tecido linfoide intestinal, especialmente nas placas de Peyer do íleo terminal, que sofrem hiperplasia, necrose e ulceração. Na terceira semana essas úlceras podem sangrar (enterorragia, a complicação mais frequente) ou perfurar, causando peritonite. O aparecimento de taquicardia em um paciente antes bradicárdico é sinal de alerta.',
     x: { A: 'O quadro e o momento da doença apontam para perfuração ileal, não apendicite.', C: 'A colecistite pode ocorrer, mas não explica abdome em tábua de início súbito.', D: 'Abscesso esplênico é raro e não é a complicação clássica da terceira semana.' },
@@ -61,7 +61,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Febre tifoide: portador crônico',
     e: 'O estado de portador crônico de Salmonella Typhi, importante para a manutenção da transmissão, está classicamente associado a:',
-    o: ['Colonização persistente da orofaringe', 'Persistência da bactéria na vesícula biliar, sobretudo em pessoas com colelitíase, com eliminação fecal por mais de um ano', 'Infecção latente em linfonodos mediastinais', 'Persistência no trato urinário de crianças'],
+    o: ['Colonização persistente da orofaringe, em portadores', 'Persistência na vesícula biliar, com colelitíase', 'Infecção latente em linfonodos mediastinais, crônica', 'Persistência no trato urinário, em crianças'],
     g: 'B',
     c: 'A bactéria pode permanecer na vesícula biliar, formando biofilme sobre os cálculos, e ser eliminada de forma intermitente nas fezes por mais de 12 meses. Esses portadores, em geral assintomáticos, são fonte de infecção, com destaque para manipuladores de alimentos. O tratamento envolve antibiótico prolongado e, quando há litíase, pode exigir colecistectomia.',
     x: { A: 'A orofaringe não é o sítio de persistência da Salmonella Typhi.', C: 'Não há latência mediastinal na febre tifoide.', D: 'O portador crônico típico é o adulto com doença da vesícula biliar.' },
@@ -69,7 +69,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Febre tifoide: transmissão e prevenção',
     e: 'A febre tifoide é transmitida por:',
-    o: ['Picada de mosquitos do gênero Culex', 'Via fecal-oral, pela ingestão de água e alimentos contaminados por fezes ou urina de doentes e portadores humanos', 'Contato com urina de roedores', 'Via respiratória, por aerossóis'],
+    o: ['Picada de mosquitos do gênero Culex, à noite', 'Via fecal-oral: água e alimentos contaminados', 'Contato com urina de roedores, em enchentes', 'Via respiratória, por aerossóis de pessoas infectadas'],
     g: 'B',
     c: 'O ser humano é o único reservatório da Salmonella Typhi, e a transmissão ocorre por água e alimentos contaminados. Por isso a doença está ligada à falta de saneamento e de higiene na manipulação de alimentos. O controle depende de água tratada, esgotamento sanitário e identificação de portadores.',
     x: { A: 'Não há vetor na transmissão da febre tifoide.', C: 'O contato com urina de roedores transmite leptospirose.', D: 'A doença não é transmitida por via respiratória.' },
@@ -77,7 +77,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'FOI: definição clássica',
     e: 'A definição clássica de febre de origem indeterminada, proposta por Petersdorf e Beeson, exige:',
-    o: ['Febre acima de 37,5 °C por mais de 7 dias sem foco aparente', 'Temperatura acima de 38,3 °C em várias ocasiões, duração superior a 3 semanas e ausência de diagnóstico após investigação adequada', 'Febre por mais de 6 meses com hemoculturas negativas', 'Qualquer febre em paciente internado há mais de 48 horas'],
+    o: ['Febre > 37,5 °C por mais de 7 dias, sem foco', 'Febre > 38,3 °C, > 3 semanas e sem diagnóstico', 'Febre por mais de 6 meses, com hemoculturas negativas', 'Qualquer febre em internado há mais de 48 horas'],
     g: 'B',
     c: 'O critério original incluía febre acima de 38,3 °C em mais de uma medida, por mais de três semanas, sem diagnóstico após uma semana de investigação hospitalar. As revisões posteriores aceitam a investigação ambulatorial dirigida, com três consultas ou três dias de internação. O limite de três semanas exclui a maioria das viroses autolimitadas.',
     x: { A: 'Os cortes de temperatura e de duração estão abaixo dos critérios clássicos.', C: 'A duração exigida é de três semanas, e não de seis meses.', D: 'Febre no paciente internado corresponde a outra categoria, a nosocomial.' },
@@ -93,7 +93,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'FOI: etiologias',
     e: 'Entre as causas de febre de origem indeterminada clássica no adulto, o grupo mais frequente em séries de países em desenvolvimento é o das:',
-    o: ['Neoplasias, com destaque para o câncer de pulmão', 'Infecções, com destaque para tuberculose extrapulmonar, abscessos intra-abdominais e endocardite', 'Febres factícias', 'Doenças endócrinas, como o hipertireoidismo'],
+    o: ['Neoplasias, sobretudo o câncer de pulmão, em idosos', 'Infecções: TB extrapulmonar, abscessos e endocardite', 'Febres factícias, ligadas a transtornos mentais', 'Doenças endócrinas, como o hipertireoidismo grave'],
     g: 'B',
     c: 'As três grandes categorias etiológicas são infecções, neoplasias e doenças inflamatórias não infecciosas. Em países como o Brasil, as infecções lideram, principalmente a tuberculose extrapulmonar ou miliar, os abscessos ocultos e a endocardite com culturas negativas. Entre as neoplasias, os linfomas são os mais lembrados e, entre as doenças inflamatórias, a doença de Still do adulto e a arterite de células gigantes no idoso.',
     x: { A: 'Entre as neoplasias, linfomas e carcinoma renal são mais típicos que o câncer de pulmão.', C: 'A febre factícia é causa rara e diagnóstico de exclusão.', D: 'Causas endócrinas são incomuns nas séries de febre de origem indeterminada.' },
@@ -101,7 +101,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'FOI: abordagem',
     e: 'Mulher de 38 anos, previamente hígida, tem febre diária há 5 semanas, sem diagnóstico após anamnese, exame físico, hemograma, hemoculturas, urina e radiografia de tórax. Está estável, sem sinais de gravidade. A melhor conduta é:',
-    o: ['Iniciar antibiótico de amplo espectro e corticoide empiricamente', 'Prosseguir a investigação de forma dirigida por pistas clínicas, com reavaliação seriada, suspensão de medicamentos não essenciais e exames de imagem, evitando terapia empírica', 'Encerrar a investigação e orientar apenas antitérmicos', 'Indicar laparotomia exploradora imediata'],
+    o: ['Antibiótico de amplo espectro e corticoide empíricos', 'Investigação dirigida por pistas; sem terapia empírica', 'Encerrar a investigação e orientar apenas antitérmicos', 'Laparotomia exploradora imediata, sem exame de imagem'],
     g: 'B',
     c: 'No paciente estável, o tratamento empírico mascara o quadro e atrasa o diagnóstico: o antibiótico pode negativar culturas, e o corticoide suprime a febre de linfomas e de doenças inflamatórias. A investigação segue as pistas diagnósticas, repete anamnese e exame físico, afasta febre por drogas e avança para tomografia, ecocardiograma e biópsias dirigidas. A terapia empírica fica para situações de risco, como neutropenia, instabilidade ou suspeita de arterite temporal.',
     x: { A: 'A terapia empírica em paciente estável mascara o diagnóstico e deve ser evitada.', C: 'Há causas tratáveis e potencialmente graves; a investigação deve continuar.', D: 'A exploração cirúrgica às cegas não tem lugar na abordagem atual.' },
@@ -117,7 +117,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Esquistossomose aguda',
     e: 'Jovem de 19 anos tomou banho em uma lagoa no interior de Minas Gerais há 5 semanas. Apresenta febre, tosse seca, diarreia, urticária e hepatoesplenomegalia dolorosa. O hemograma mostra leucocitose com 38% de eosinófilos. A hipótese diagnóstica é:',
-    o: ['Febre tifoide', 'Forma aguda da esquistossomose (febre de Katayama)', 'Leishmaniose visceral', 'Hepatite A'],
+    o: ['Febre tifoide, com roséolas e bradicardia', 'Esquistossomose aguda (febre de Katayama)', 'Leishmaniose visceral, com pancitopenia', 'Hepatite A, com icterícia e colúria'],
     g: 'B',
     c: 'A febre de Katayama é uma reação de hipersensibilidade sistêmica que ocorre semanas após o primeiro contato com águas com cercárias, coincidindo com a maturação dos vermes e o início da oviposição. Acomete principalmente pessoas não imunes de fora da área endêmica. A eosinofilia intensa é a pista laboratorial; o exame de fezes pode ser negativo no início. O tratamento é com praziquantel, associado a corticoide nos casos mais sintomáticos.',
     x: { A: 'A febre tifoide cursa com leucopenia e eosinopenia, não com eosinofilia.', C: 'O calazar causa pancitopenia e tem evolução mais arrastada.', D: 'A hepatite A não cursa com eosinofilia acentuada nem urticária típica.' },
@@ -125,7 +125,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Chagas aguda: sinal de Romaña',
     e: 'Criança de 7 anos, moradora de casa de pau a pique, apresenta febre há 10 dias, edema bipalpebral unilateral, indolor, com conjuntivite e linfonodo pré-auricular aumentado do mesmo lado. O achado ocular e o exame diagnóstico de escolha são, respectivamente:',
-    o: ['Chagoma de inoculação; sorologia IgG isolada', 'Sinal de Romaña; pesquisa direta de tripomastigotas no sangue periférico', 'Celulite orbitária; hemocultura', 'Sinal de Faget; gota espessa para plasmódio'],
+    o: ['Chagoma de inoculação; sorologia IgG isolada', 'Sinal de Romaña; tripomastigotas no sangue periférico', 'Celulite orbitária; hemocultura', 'Sinal de Faget; gota espessa para plasmódio'],
     g: 'B',
     c: 'O sinal de Romaña é o edema bipalpebral unilateral resultante da penetração do Trypanosoma cruzi pela conjuntiva, após contato com as fezes do triatomíneo. Na fase aguda a parasitemia é alta, e o diagnóstico é parasitológico direto, pelo exame a fresco, gota espessa ou métodos de concentração. A sorologia IgG é o método da fase crônica.',
     x: { A: 'O chagoma é a porta de entrada cutânea, e a IgG isolada não confirma fase aguda.', C: 'A celulite orbitária é dolorosa, com sinais flogísticos intensos e outro contexto.', D: 'O sinal de Faget é a dissociação pulso-temperatura, sem relação com o achado ocular.' },
@@ -133,7 +133,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Chagas aguda: transmissão oral',
     e: 'Em Belém, cinco membros de uma mesma família adoecem ao mesmo tempo com febre prolongada, edema de face e de membros inferiores, dor abdominal e dispneia; dois têm derrame pericárdico. Todos consumiram açaí preparado artesanalmente há 2 semanas. A hipótese mais provável é:',
-    o: ['Intoxicação alimentar estafilocócica', 'Doença de Chagas aguda por transmissão oral', 'Febre tifoide', 'Hepatite A'],
+    o: ['Intoxicação alimentar estafilocócica, de curta duração', 'Doença de Chagas aguda, por transmissão oral', 'Febre tifoide, com febre em degraus', 'Hepatite A, com icterícia e colúria'],
     g: 'B',
     c: 'A transmissão oral é hoje a principal forma de doença de Chagas aguda no Brasil, ocorrendo em surtos familiares na região amazônica pela ingestão de alimentos contaminados com triatomíneos ou suas fezes, como açaí e caldo de cana. Como o inóculo é grande, o quadro costuma ser mais grave, com miocardite e derrame pericárdico, e não há sinal de porta de entrada.',
     x: { A: 'A intoxicação estafilocócica causa vômitos em poucas horas, sem febre prolongada.', C: 'A febre tifoide não explica edema de face e derrame pericárdico em surto.', D: 'A hepatite A causa icterícia, não miopericardite.' },
@@ -141,7 +141,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Chagas aguda: tratamento',
     e: 'Confirmada a doença de Chagas em fase aguda, a conduta terapêutica é:',
-    o: ['Apenas observação, pois a fase aguda é autolimitada e o tratamento não traz benefício', 'Tratamento antiparasitário com benznidazol, indicado em todos os casos agudos', 'Antimoniato de meglumina por 20 dias', 'Praziquantel em dose única'],
+    o: ['Observar: a fase aguda é autolimitada e o tratamento não ajuda', 'Benznidazol, indicado em todos os casos agudos', 'Antimoniato de meglumina por 20 dias', 'Praziquantel em dose única, por via oral'],
     g: 'B',
     c: 'O tratamento etiológico é indicado em todos os casos de fase aguda, na infecção congênita e na reativação, situações em que a taxa de cura parasitológica é mais alta. O benznidazol é a droga de primeira escolha, usado por cerca de 60 dias, com o nifurtimox como alternativa. Os efeitos adversos mais comuns são dermatite, neuropatia periférica e alterações hematológicas.',
     x: { A: 'O tratamento na fase aguda reduz a parasitemia e a evolução para a forma crônica.', C: 'O antimonial trata leishmaniose, não a infecção por Trypanosoma cruzi.', D: 'O praziquantel é usado na esquistossomose e em outras helmintíases.' },
@@ -157,7 +157,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Mononucleose infecciosa',
     e: 'Adolescente de 16 anos apresenta febre há 10 dias, odinofagia com exsudato amigdaliano, linfonodomegalia cervical posterior e esplenomegalia. Recebeu amoxicilina e desenvolveu exantema maculopapular difuso. O hemograma mostra linfocitose com mais de 10% de linfócitos atípicos. A orientação correta inclui:',
-    o: ['Trocar o antibiótico por uma cefalosporina e rotular como alérgico à penicilina', 'Suspender o antibiótico, tratar com sintomáticos e evitar esportes de contato pelo risco de ruptura esplênica', 'Iniciar aciclovir endovenoso', 'Indicar amigdalectomia de urgência'],
+    o: ['Trocar por cefalosporina e rotular como alérgico', 'Suspender o antibiótico; evitar esporte de contato', 'Aciclovir endovenoso, em dose habitual, por 7 dias', 'Amigdalectomia de urgência, por faringite aguda'],
     g: 'B',
     c: 'A tríade de febre, faringite e linfonodomegalia com linfocitose atípica caracteriza a mononucleose pelo vírus Epstein-Barr. O exantema após aminopenicilinas é uma reação típica da doença e não significa alergia verdadeira ao antibiótico. O tratamento é de suporte, e o baço aumentado e friável impõe afastamento de atividades com risco de trauma por algumas semanas.',
     x: { A: 'O exantema é próprio da interação com o vírus e não define alergia à penicilina.', C: 'Antivirais não mudam a evolução da mononucleose não complicada.', D: 'Não há indicação cirúrgica; o quadro é viral e autolimitado.' },
@@ -165,7 +165,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Sepse: definição',
     e: 'Na avaliação de um paciente com febre e foco infeccioso suspeito, o conceito atual de sepse (Sepsis-3) corresponde a:',
-    o: ['Presença de dois ou mais critérios de síndrome da resposta inflamatória sistêmica com infecção', 'Disfunção orgânica ameaçadora à vida causada por resposta desregulada do hospedeiro à infecção, identificada por aumento de 2 ou mais pontos no escore SOFA', 'Bacteremia confirmada por hemocultura positiva', 'Infecção associada a febre acima de 39 °C'],
+    o: ['Dois ou mais critérios de SIRS com infecção', 'Disfunção orgânica por resposta desregulada, SOFA ↑ ≥ 2', 'Bacteremia confirmada por hemocultura positiva', 'Infecção associada a febre acima de 39 °C'],
     g: 'B',
     c: 'O Sepsis-3 abandonou os critérios de resposta inflamatória sistêmica, por serem pouco específicos, e eliminou o termo sepse grave. O conceito central passou a ser a disfunção de órgãos, quantificada por variação aguda de 2 ou mais pontos no SOFA, que avalia respiração, coagulação, fígado, sistema cardiovascular, nível de consciência e rim.',
     x: { A: 'Essa era a definição antiga, substituída por não refletir disfunção orgânica.', C: 'Muitos pacientes com sepse têm hemoculturas negativas; bacteremia não define sepse.', D: 'A febre isolada não define sepse, que pode até cursar com hipotermia.' },
@@ -173,7 +173,7 @@ export const FEBRIS_4: QuestaoCompacta[] = [
   {
     s: 'Sepse: qSOFA',
     e: 'O escore qSOFA, usado à beira do leito para identificar pacientes com infecção e maior risco de desfecho desfavorável, é composto por:',
-    o: ['Temperatura, frequência cardíaca e leucócitos', 'Frequência respiratória igual ou maior que 22 irpm, pressão arterial sistólica igual ou menor que 100 mmHg e alteração do nível de consciência', 'Lactato, creatinina e bilirrubina', 'Saturação de oxigênio, diurese e glicemia'],
+    o: ['Temperatura, frequência cardíaca e leucócitos, no leito', 'FR ≥ 22 irpm, PAS ≤ 100 mmHg e alteração da consciência', 'Lactato, creatinina e bilirrubina, no laboratório', 'Saturação de oxigênio, diurese e glicemia, no leito'],
     g: 'B',
     c: 'O qSOFA usa três variáveis clínicas, sem necessidade de exames, e é considerado positivo com dois ou mais pontos. Ele tem boa especificidade para predizer mortalidade, mas baixa sensibilidade. Por isso as diretrizes atuais recomendam que não seja usado como única ferramenta de triagem, e sim em conjunto com outros critérios.',
     x: { A: 'Esses são componentes dos critérios de resposta inflamatória sistêmica.', C: 'Esses são parâmetros laboratoriais do SOFA completo e da avaliação de perfusão.', D: 'Nenhuma dessas variáveis integra o qSOFA.' },

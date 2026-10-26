@@ -5,7 +5,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: patogenia',
     e: 'A fisiopatologia da esclerose sistêmica é mais bem resumida pela seguinte tríade:',
-    o: ['Depósito de imunocomplexos, consumo de complemento e vasculite necrosante', 'Vasculopatia de pequenos vasos, ativação imune com autoanticorpos e fibrose por excesso de colágeno', 'Infiltração granulomatosa, necrose caseosa e calcificação', 'Destruição de glândulas exócrinas, hipergamaglobulinemia e linfoma'],
+    o: ['Imunocomplexos, consumo de complemento e vasculite necrosante', 'Vasculopatia de pequenos vasos, autoanticorpos e fibrose por colágeno', 'Granulomas, necrose caseosa e calcificação', 'Destruição de glândulas exócrinas, hipergamaglobulinemia e linfoma'],
     g: 'B',
     c: 'A lesão inicial da esclerose sistêmica é endotelial, com vasculopatia obliterativa de pequenas artérias e capilares, não inflamatória. Seguem-se ativação imune, com autoanticorpos específicos, e ativação de fibroblastos por mediadores como o TGF-beta, com deposição excessiva de colágeno na pele e nos órgãos internos. Isso explica Raynaud, úlceras, hipertensão pulmonar e fibrose.',
     x: { A: 'Imunocomplexos com consumo de complemento são o mecanismo central do lúpus.', C: 'Granulomas com necrose caseosa remetem à tuberculose, não à esclerose sistêmica.', D: 'Essa descrição corresponde à síndrome de Sjögren.' },
@@ -37,7 +37,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: formas clínicas',
     e: 'O critério que distingue a forma cutânea limitada da forma cutânea difusa da esclerose sistêmica é:',
-    o: ['Presença ou ausência de fenômeno de Raynaud', 'Extensão do espessamento cutâneo: distal a cotovelos e joelhos (e face) na limitada; proximal a eles ou no tronco na difusa', 'Presença de acometimento visceral apenas na forma difusa', 'Idade de início antes ou depois dos 40 anos'],
+    o: ['Presença ou ausência de fenômeno de Raynaud no início', 'Extensão do espessamento: distal ou proximal/tronco', 'Acometimento visceral, presente apenas na forma difusa', 'Idade de início, antes ou depois dos 40 anos'],
     g: 'B',
     c: 'A classificação baseia-se na extensão da pele espessada. Na forma limitada o acometimento restringe-se às extremidades distais e à face, o Raynaud precede a doença por anos e a complicação tardia mais temida é a hipertensão arterial pulmonar. Na difusa a pele do tronco e das porções proximais dos membros é acometida, com evolução rápida e envolvimento visceral precoce.',
     x: { A: 'O Raynaud ocorre em quase todos os pacientes das duas formas.', C: 'Ambas as formas têm acometimento visceral, com perfis diferentes.', D: 'A idade de início não é o critério de classificação.' },
@@ -53,7 +53,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: anti-Scl-70',
     e: 'Homem de 45 anos apresenta, em oito meses, espessamento cutâneo rapidamente progressivo de mãos, antebraços, braços e tronco, Raynaud de início recente, dispneia aos esforços e estertores em velcro nas bases. O autoanticorpo mais provável e a complicação a ele associada são:',
-    o: ['Anticentrômero; hipertensão arterial pulmonar isolada', 'Anti-Scl-70 (antitopoisomerase I); doença intersticial pulmonar', 'Anti-Jo-1; miosite com mãos de mecânico', 'Anti-Ro; bloqueio cardíaco congênito'],
+    o: ['Anticentrômero; hipertensão pulmonar isolada, sem fibrose', 'Anti-Scl-70; doença pulmonar intersticial, forma difusa', 'Anti-Jo-1; miosite com mãos de mecânico e artrite', 'Anti-Ro; bloqueio cardíaco congênito no recém-nascido'],
     g: 'B',
     c: 'A forma cutânea difusa tem curto intervalo entre o Raynaud e o espessamento cutâneo, que atinge tronco e porções proximais dos membros. O anti-Scl-70, dirigido contra a topoisomerase I, é seu marcador e prediz doença intersticial pulmonar, que junto com a hipertensão pulmonar é a principal causa de morte na esclerose sistêmica atualmente.',
     x: { A: 'O anticentrômero é da forma limitada, de evolução lenta e Raynaud de longa data.', C: 'O anti-Jo-1 marca a síndrome antissintetase, sem esclerose cutânea difusa.', D: 'O anti-Ro associa-se a Sjögren, lúpus cutâneo subagudo e lúpus neonatal.' },
@@ -61,7 +61,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: pele',
     e: 'Na evolução do acometimento cutâneo da esclerose sistêmica, a sequência habitual de fases é:',
-    o: ['Atrófica, edematosa e indurativa', 'Edematosa (dedos em salsicha), indurativa (pele espessada e aderida) e atrófica', 'Indurativa, vesicobolhosa e ulcerada', 'Eritematosa, descamativa e liquenificada'],
+    o: ['Atrófica, edematosa e indurativa, nessa ordem', 'Edematosa, indurativa e atrófica', 'Indurativa, vesicobolhosa e ulcerada, nessa ordem', 'Eritematosa, descamativa e liquenificada, nessa ordem'],
     g: 'B',
     c: 'A pele passa inicialmente por fase edematosa, com dedos inchados, evolui para a fase indurativa, em que o colágeno em excesso a torna espessa, brilhante e aderida aos planos profundos, e por fim para a fase atrófica. Resultam esclerodactilia com contraturas em flexão, fácies com microstomia, sulcos periorais e nariz afilado, além da discromia em sal e pimenta.',
     x: { A: 'A atrofia é a fase final, e não a inicial.', C: 'Bolhas não fazem parte da evolução típica da pele esclerodérmica.', D: 'Essa sequência descreve eczema crônico, não esclerose sistêmica.' },
@@ -69,7 +69,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Úlceras digitais',
     e: 'Mulher de 48 anos com esclerose sistêmica apresenta crises frequentes de Raynaud e úlceras dolorosas recorrentes em polpas digitais, apesar de proteção contra o frio. O tratamento de primeira linha para o Raynaud e as opções para as úlceras refratárias são:',
-    o: ['Propranolol; ergotamina nas crises', 'Bloqueador de canal de cálcio di-hidropiridínico; inibidor de fosfodiesterase-5, iloprosta venosa e bosentana para prevenir novas úlceras', 'Prednisona em dose alta; ciclofosfamida mensal', 'Clonidina; amputação precoce dos dedos acometidos'],
+    o: ['Propranolol; ergotamina nas crises de vasoespasmo digital', 'BCC di-hidropiridínico; sildenafila, iloprosta e bosentana nas úlceras', 'Prednisona em dose alta; ciclofosfamida mensal por 6 meses', 'Clonidina; amputação precoce dos dedos acometidos pela isquemia'],
     g: 'B',
     c: 'As medidas gerais incluem aquecer as extremidades e o corpo, cessar o tabagismo e evitar vasoconstritores. O fármaco inicial é um bloqueador de canal de cálcio di-hidropiridínico, como nifedipino ou anlodipino. Nas formas graves com úlceras usam-se inibidores de fosfodiesterase-5 e prostanoide venoso, e a bosentana, antagonista de endotelina, reduz o surgimento de novas úlceras.',
     x: { A: 'Betabloqueadores não seletivos e ergotamínicos causam vasoconstrição e pioram o Raynaud.', C: 'O problema é vasculopatia, não inflamação; o corticoide não trata e aumenta o risco de crise renal.', D: 'A amputação é medida de exceção, para gangrena ou infecção sem controle.' },
@@ -77,7 +77,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: esôfago',
     e: 'O órgão interno mais frequentemente acometido na esclerose sistêmica e o achado manométrico característico são:',
-    o: ['Coração; não há achado manométrico', 'Esôfago; hipotonia do esfíncter inferior com redução da peristalse nos dois terços distais', 'Esôfago; ausência de relaxamento do esfíncter inferior com hipertonia, como na acalasia', 'Estômago; hipermotilidade antral com esvaziamento acelerado'],
+    o: ['Coração; sem achado manométrico, apenas ECG alterado', 'Esôfago; hipotonia do EEI e menor peristalse nos 2/3 distais', 'Esôfago; EEI sem relaxamento e hipertônico, como na acalasia', 'Estômago; hipermotilidade antral e esvaziamento acelerado'],
     g: 'B',
     c: 'O trato gastrointestinal é o sistema interno mais acometido, e o esôfago é o segmento principal. A atrofia e a fibrose da musculatura lisa comprometem os dois terços distais, com peristalse fraca ou ausente e esfíncter inferior hipotônico, o que gera refluxo grave, esofagite, estenose péptica e esôfago de Barrett. O terço proximal, de músculo estriado, é poupado.',
     x: { A: 'O acometimento cardíaco existe, mas é menos frequente que o gastrointestinal.', C: 'Na acalasia o esfíncter é hipertônico e não relaxa, o oposto do observado aqui.', D: 'O que ocorre é hipomotilidade, com gastroparesia e, no estômago, ectasia vascular antral.' },
@@ -85,7 +85,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: intestino',
     e: 'Paciente com esclerose sistêmica de longa data apresenta distensão abdominal, diarreia com esteatorreia, perda de peso e deficiência de vitamina B12. O mecanismo mais provável e o tratamento inicial são:',
-    o: ['Doença celíaca associada; dieta sem glúten', 'Supercrescimento bacteriano do intestino delgado por hipomotilidade; ciclos de antibiótico', 'Insuficiência pancreática por fibrose; enzimas pancreáticas', 'Colite isquêmica por vasculite; corticoide venoso'],
+    o: ['Doença celíaca associada; dieta sem glúten', 'Supercrescimento bacteriano por hipomotilidade; ciclos de antibiótico', 'Insuficiência pancreática por fibrose; enzimas pancreáticas', 'Colite isquêmica por vasculite; corticoide venoso'],
     g: 'B',
     c: 'A fibrose da musculatura lisa do delgado causa hipomotilidade e estase, permitindo a proliferação bacteriana. As bactérias desconjugam sais biliares, prejudicando a absorção de gorduras, e consomem vitamina B12, o que explica esteatorreia e a deficiência vitamínica. O tratamento é feito com ciclos de antibióticos, associados a procinéticos e suporte nutricional.',
     x: { A: 'A associação com doença celíaca não é o mecanismo habitual da má absorção nessa doença.', C: 'A fibrose pancreática não é a causa típica de esteatorreia na esclerose sistêmica.', D: 'A doença é uma vasculopatia não inflamatória, e o quadro não é de colite isquêmica.' },
@@ -93,7 +93,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Doença intersticial pulmonar',
     e: 'Na doença intersticial pulmonar associada à esclerose sistêmica, o padrão mais frequente à tomografia de alta resolução e o achado funcional esperado são:',
-    o: ['Pneumonia intersticial usual com faveolamento em ápices; distúrbio obstrutivo', 'Pneumonia intersticial não específica, com vidro fosco e reticulado em bases; distúrbio restritivo com redução da difusão', 'Nódulos cavitados difusos; função pulmonar normal', 'Enfisema centrolobular; aumento da capacidade pulmonar total'],
+    o: ['PIU com faveolamento em ápices; distúrbio obstrutivo', 'PINE: vidro fosco e reticulado basal; restritivo, com menor difusão', 'Nódulos cavitados difusos; função pulmonar normal', 'Enfisema centrolobular; capacidade pulmonar total aumentada'],
     g: 'B',
     c: 'O padrão mais comum é a pneumonia intersticial não específica, com opacidades em vidro fosco e reticulado de predomínio basal e periférico, frequentemente poupando a faixa subpleural. A espirometria mostra restrição, com queda da capacidade vital forçada e da difusão de monóxido de carbono. Todos os pacientes devem ser rastreados com tomografia e prova de função pulmonar ao diagnóstico.',
     x: { A: 'O padrão usual é menos frequente e predomina nas bases, com distúrbio restritivo.', C: 'Nódulos cavitados sugerem granulomatose com poliangiite ou infecção.', D: 'O enfisema relaciona-se ao tabagismo e cursa com hiperinsuflação.' },
@@ -101,7 +101,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Doença intersticial pulmonar: tratamento',
     e: 'Mulher de 44 anos com esclerose sistêmica difusa e anti-Scl-70 positivo tem doença intersticial pulmonar extensa, com queda progressiva da capacidade vital forçada. O tratamento de primeira linha é:',
-    o: ['D-penicilamina em dose alta', 'Micofenolato de mofetila, com ciclofosfamida como alternativa', 'Prednisona em dose alta isolada por tempo prolongado', 'Sildenafila em monoterapia'],
+    o: ['D-penicilamina em dose alta, a longo prazo', 'Micofenolato de mofetila; ciclofosfamida como alternativa', 'Prednisona em dose alta isolada, por tempo prolongado', 'Sildenafila em monoterapia, por tempo prolongado'],
     g: 'B',
     c: 'O micofenolato é atualmente o imunossupressor preferido para a doença intersticial da esclerose sistêmica, com eficácia semelhante à da ciclofosfamida e melhor tolerabilidade. Rituximabe e tocilizumabe são alternativas, e o antifibrótico nintedanibe reduz a velocidade de queda da função pulmonar. Em casos graves e selecionados considera-se transplante autólogo de células-tronco.',
     x: { A: 'A D-penicilamina não demonstrou benefício consistente e caiu em desuso.', C: 'Corticoide isolado em dose alta é ineficaz e eleva o risco de crise renal esclerodérmica.', D: 'A sildenafila trata a hipertensão arterial pulmonar e o Raynaud, não a fibrose.' },
@@ -117,7 +117,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Crise renal esclerodérmica',
     e: 'Homem de 50 anos com esclerose sistêmica difusa de início há dois anos, em uso de prednisona 30 mg/dia, apresenta cefaleia, turvação visual e pressão arterial de 210 x 120 mmHg. Exames: creatinina de 3,4 mg/dL (era 0,9 há um mês), proteinúria discreta, plaquetas de 90.000/mm3 e esquizócitos. O tratamento de escolha é:',
-    o: ['Pulsoterapia com metilprednisolona e ciclofosfamida', 'Inibidor da enzima conversora de angiotensina, como captopril, em doses progressivas', 'Betabloqueador não seletivo em dose alta', 'Plasmaférese isolada, sem anti-hipertensivo'],
+    o: ['Pulso de metilprednisolona e ciclofosfamida, por via venosa', 'IECA, como captopril, em doses progressivas', 'Betabloqueador não seletivo em dose alta, por via oral', 'Plasmaférese isolada, sem anti-hipertensivo associado'],
     g: 'B',
     c: 'A crise renal esclerodérmica decorre de vasculopatia obliterativa das artérias renais, com isquemia cortical e ativação intensa do sistema renina-angiotensina, produzindo hipertensão acelerada, insuficiência renal rapidamente progressiva e anemia microangiopática. Os inibidores da ECA mudaram radicalmente o prognóstico e devem ser iniciados de imediato. São fatores de risco a forma difusa precoce, o anti-RNA polimerase III e o uso de corticoide.',
     x: { A: 'Não é glomerulonefrite imunomediada; o corticoide é fator precipitante da crise.', C: 'Betabloqueadores não atuam no mecanismo e pioram o fenômeno de Raynaud.', D: 'A plasmaférese não substitui o bloqueio do sistema renina-angiotensina.' },
@@ -125,7 +125,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Crise renal esclerodérmica: prevenção',
     e: 'Em relação à crise renal esclerodérmica, assinale a alternativa correta:',
-    o: ['É mais comum na forma limitada de longa evolução com anticentrômero', 'O uso de corticoide em doses moderadas a altas é fator de risco, e a pressão arterial deve ser monitorada com frequência na forma difusa precoce', 'O uso profilático de inibidor da ECA em todos os pacientes comprovadamente previne a crise', 'O sedimento urinário mostra cilindros hemáticos e proteinúria nefrótica'],
+    o: ['Mais comum na forma limitada de longa evolução, com anticentrômero', 'Corticoide moderado/alto é risco; vigiar a PA na forma difusa precoce', 'IECA profilático em todos comprovadamente previne a crise', 'Sedimento com cilindros hemáticos e proteinúria nefrótica'],
     g: 'B',
     c: 'A crise ocorre sobretudo nos primeiros anos da forma cutânea difusa, em especial com anti-RNA polimerase III, e doses de prednisona acima de cerca de 15 mg/dia aumentam o risco. Por isso recomenda-se usar a menor dose possível de corticoide e orientar a medida frequente da pressão arterial. Os inibidores da ECA são o tratamento, mas seu uso profilático não mostrou benefício.',
     x: { A: 'A crise é típica da forma difusa precoce; o anticentrômero é fator de proteção relativa.', C: 'Não há comprovação de benefício da profilaxia, e alguns dados sugerem pior evolução.', D: 'O sedimento é pobre, com proteinúria leve, pois a lesão é vascular e não glomerular inflamatória.' },
@@ -133,7 +133,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: critérios',
     e: 'Segundo os critérios de classificação ACR/EULAR de 2013 para esclerose sistêmica, o achado que isoladamente é suficiente para classificar o paciente é:',
-    o: ['Fenômeno de Raynaud com FAN positivo', 'Espessamento cutâneo dos dedos de ambas as mãos estendendo-se proximalmente às articulações metacarpofalângicas', 'Telangiectasias na face', 'Refluxo gastroesofágico com esofagite'],
+    o: ['Raynaud com FAN positivo, sem outros achados', 'Espessamento cutâneo dos dedos de ambas as mãos além das MCF', 'Telangiectasias na face, de forma isolada', 'Refluxo gastroesofágico com esofagite, de forma isolada'],
     g: 'B',
     c: 'O espessamento da pele dos dedos que ultrapassa proximalmente as metacarpofalângicas, bilateral, vale sozinho os 9 pontos necessários. Na sua ausência, somam-se outros itens: esclerodactilia ou dedos edemaciados, úlceras ou cicatrizes de polpa, telangiectasias, capilaroscopia alterada, hipertensão pulmonar ou doença intersticial, Raynaud e autoanticorpos específicos.',
     x: { A: 'O Raynaud pontua pouco e o FAN inespecífico não entra; contam os anticorpos específicos.', C: 'As telangiectasias pontuam, mas isoladamente não bastam para classificar.', D: 'O acometimento esofágico não é item pontuado nos critérios de 2013.' },
@@ -141,7 +141,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: sem esclerodermia',
     e: 'Mulher de 52 anos tem fenômeno de Raynaud, disfagia com hipomotilidade esofágica, hipertensão arterial pulmonar confirmada, anticentrômero positivo e capilaroscopia com padrão SD, mas a pele é normal em todo o exame. A interpretação correta é:',
-    o: ['O diagnóstico de esclerose sistêmica está excluído pela ausência de espessamento cutâneo', 'Trata-se de esclerose sistêmica sine escleroderma, com acometimento visceral e vascular sem lesão de pele', 'O quadro corresponde a esclerodermia localizada do tipo morfeia', 'Trata-se de Raynaud primário com refluxo coincidente'],
+    o: ['Esclerose sistêmica excluída pela ausência de espessamento cutâneo', 'Esclerose sistêmica sine escleroderma: visceral e vascular, sem pele', 'Esclerodermia localizada do tipo morfeia', 'Raynaud primário com refluxo coincidente'],
     g: 'B',
     c: 'Uma pequena parcela dos pacientes apresenta as manifestações vasculares, viscerais e sorológicas da esclerose sistêmica sem acometimento cutâneo detectável, forma chamada sine escleroderma. Seu comportamento e prognóstico assemelham-se aos da forma limitada, e o rastreamento de complicações pulmonares deve ser o mesmo.',
     x: { A: 'A pele normal não exclui a doença quando há vasculopatia, anticorpo específico e lesão visceral.', C: 'A morfeia é doença restrita à pele, sem Raynaud, autoanticorpos específicos ou lesão visceral.', D: 'No Raynaud primário a capilaroscopia é normal e não há autoanticorpos nem hipertensão pulmonar.' },
@@ -149,7 +149,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerodermia localizada',
     e: 'Adolescente de 14 anos apresenta placa endurecida, de centro marfínico e halo violáceo, no tronco, sem fenômeno de Raynaud, sem esclerodactilia e sem sintomas sistêmicos. Sobre essa condição, é correto afirmar:',
-    o: ['É a fase inicial obrigatória da esclerose sistêmica difusa', 'É esclerodermia localizada (morfeia), restrita à pele e ao subcutâneo, sem acometimento visceral', 'Exige rastreamento anual de hipertensão pulmonar com ecocardiograma', 'Associa-se ao anticorpo anti-Scl-70 em quase todos os casos'],
+    o: ['Fase inicial obrigatória da esclerose sistêmica difusa', 'Esclerodermia localizada (morfeia): pele e subcutâneo, sem vísceras', 'Exige rastreio anual de hipertensão pulmonar', 'Associa-se ao anti-Scl-70 em quase todos os casos'],
     g: 'B',
     c: 'A esclerodermia localizada, nas formas em placas (morfeia) e linear, acomete apenas pele e tecidos subjacentes e predomina em crianças e jovens. Não há Raynaud, esclerodactilia, vasculopatia nem acometimento de órgãos internos, e ela não evolui para esclerose sistêmica. A forma linear pode causar deformidades e alterações de crescimento do membro.',
     x: { A: 'A morfeia é entidade distinta e não progride para a forma sistêmica.', C: 'Sem doença sistêmica não há indicação de rastrear complicações cardiopulmonares.', D: 'Os autoanticorpos específicos da esclerose sistêmica não são característicos da morfeia.' },
@@ -173,7 +173,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Doença indiferenciada do tecido conjuntivo',
     e: 'Mulher de 30 anos tem artralgia inflamatória, fenômeno de Raynaud leve e FAN 1:320 há três anos, sem preencher critérios de nenhuma doença reumática definida e com anticorpos específicos negativos. A melhor denominação e a evolução mais provável são:',
-    o: ['Doença mista do tecido conjuntivo; evolução para hipertensão pulmonar', 'Doença indiferenciada do tecido conjuntivo; a maioria permanece indiferenciada, com curso brando', 'Síndrome de sobreposição; evolução invariável para lúpus e esclerose sistêmica', 'Fibromialgia; resolução completa com antidepressivo'],
+    o: ['Doença mista do tecido conjuntivo; evolução para hipertensão pulmonar', 'Doença indiferenciada; a maioria permanece indiferenciada, de curso brando', 'Síndrome de sobreposição; evolução invariável para lúpus e esclerose', 'Fibromialgia; resolução completa com antidepressivo'],
     g: 'B',
     c: 'A doença indiferenciada caracteriza-se por sinais e sintomas sugestivos de colagenose, com FAN positivo, sem preencher critérios de uma doença definida. A maior parte dos pacientes mantém quadro leve e estável, e uma minoria evolui para doença definida, em geral nos primeiros anos, o que exige seguimento clínico e laboratorial. Costuma ser tratada com hidroxicloroquina e sintomáticos.',
     x: { A: 'A doença mista exige anti-U1-RNP em altos títulos, aqui negativo.', C: 'Sobreposição pressupõe critérios completos de duas ou mais doenças ao mesmo tempo.', D: 'Artralgia inflamatória, Raynaud e FAN em título alto não se explicam por fibromialgia.' },
@@ -181,7 +181,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Síndromes de sobreposição',
     e: 'O conceito de síndrome de sobreposição (overlap) em reumatologia corresponde a:',
-    o: ['Quadro com sintomas inespecíficos e FAN positivo que não preenche critérios de nenhuma doença', 'Paciente que preenche simultaneamente critérios de classificação de duas ou mais doenças autoimunes sistêmicas definidas', 'Qualquer doença autoimune com mais de um autoanticorpo positivo', 'Lúpus induzido por medicamentos com anti-histona positivo'],
+    o: ['Sintomas inespecíficos e FAN positivo, sem critérios de doença', 'Preenche critérios de duas ou mais doenças autoimunes sistêmicas', 'Qualquer doença autoimune com mais de um autoanticorpo', 'Lúpus induzido por medicamentos com anti-histona positivo'],
     g: 'B',
     c: 'Fala-se em sobreposição quando o paciente satisfaz os critérios de duas ou mais doenças definidas, como esclerose sistêmica com polimiosite, associada aos anticorpos anti-PM/Scl ou anti-Ku, ou artrite reumatoide com lúpus, chamada rhupus. A doença mista é uma entidade à parte, definida pelo anti-U1-RNP, e a doença indiferenciada é a que não preenche critério algum.',
     x: { A: 'Essa é a definição de doença indiferenciada do tecido conjuntivo.', C: 'Múltiplos autoanticorpos são comuns em uma única doença e não definem sobreposição.', D: 'O lúpus induzido por drogas é entidade distinta, sem relação com o conceito.' },
@@ -189,7 +189,7 @@ export const COLAGENOSES_3: QuestaoCompacta[] = [
   {
     s: 'Esclerose sistêmica: autoanticorpos',
     e: 'Quanto aos autoanticorpos na esclerose sistêmica, a associação correta entre o anticorpo e sua principal correlação clínica é:',
-    o: ['Anticentrômero: forma difusa com fibrose pulmonar precoce', 'Anti-RNA polimerase III: forma difusa rapidamente progressiva, crise renal e associação com neoplasia', 'Anti-Scl-70: forma limitada com calcinose e telangiectasias', 'Anti-U1-RNP: crise renal esclerodérmica'],
+    o: ['Anticentrômero: forma difusa com fibrose pulmonar precoce', 'Anti-RNA polimerase III: difusa rápida, crise renal e neoplasia', 'Anti-Scl-70: forma limitada com calcinose e telangiectasias', 'Anti-U1-RNP: crise renal esclerodérmica'],
     g: 'B',
     c: 'Os três anticorpos específicos são, em geral, mutuamente excludentes e definem fenótipos. O anticentrômero liga-se à forma limitada e à hipertensão arterial pulmonar; o anti-Scl-70, à forma difusa e à doença intersticial; e o anti-RNA polimerase III, à progressão cutânea rápida, à crise renal e à maior frequência de câncer próximo ao início da doença.',
     x: { A: 'O anticentrômero associa-se à forma limitada e a menor risco de fibrose pulmonar grave.', C: 'O anti-Scl-70 é da forma difusa; calcinose e telangiectasias lembram a forma limitada.', D: 'O anti-U1-RNP caracteriza a doença mista e sobreposições, não a crise renal.' },

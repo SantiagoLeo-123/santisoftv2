@@ -5,7 +5,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Sjögren: quadro clínico',
     e: 'Mulher de 52 anos queixa-se há dois anos de sensação de areia nos olhos, necessidade de beber água para engolir alimentos secos e cáries frequentes. Não usa medicamentos. A fisiopatologia da doença mais provável é:',
-    o: ['Fibrose das glândulas exócrinas por excesso de colágeno e vasculopatia', 'Infiltração linfocitária das glândulas lacrimais e salivares, com destruição do epitélio glandular', 'Depósito de proteína amiloide nas glândulas salivares', 'Bloqueio colinérgico por anticorpos contra a junção neuromuscular'],
+    o: ['Fibrose de glândulas exócrinas por excesso de colágeno', 'Infiltração linfocitária de glândulas lacrimais e salivares', 'Depósito de proteína amiloide nas glândulas salivares', 'Bloqueio colinérgico por anticorpos da junção neuromuscular'],
     g: 'B',
     c: 'A síndrome de Sjögren é uma exocrinopatia autoimune em que linfócitos, principalmente T CD4, infiltram as glândulas lacrimais e salivares em focos periductais, reduzindo a secreção. O resultado é a síndrome seca, com xeroftalmia e xerostomia, esta última responsável por cáries, candidíase oral e dificuldade para deglutir alimentos secos. Predomina em mulheres de meia-idade.',
     x: { A: 'Fibrose com vasculopatia é o mecanismo da esclerose sistêmica.', C: 'A amiloidose pode causar boca seca, mas não é o mecanismo da síndrome de Sjögren.', D: 'Anticorpos contra a junção neuromuscular causam miastenia gravis, com fraqueza flutuante.' },
@@ -13,7 +13,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Sjögren: teste de Schirmer',
     e: 'O teste de Schirmer, utilizado na avaliação da síndrome de Sjögren, consiste em:',
-    o: ['Medir o fluxo salivar não estimulado em 15 minutos', 'Medir o umedecimento de uma fita de papel de filtro colocada no fórnice conjuntival inferior por 5 minutos', 'Corar a córnea com fluoresceína para medir a pressão intraocular', 'Avaliar a captação de radiotraçador pelas glândulas parótidas'],
+    o: ['Medir o fluxo salivar não estimulado em 15 minutos', 'Medir o umedecimento da fita de papel no fórnice inferior em 5 min', 'Corar a córnea com fluoresceína para medir a pressão intraocular', 'Avaliar a captação de radiotraçador pelas parótidas'],
     g: 'B',
     c: 'O teste de Schirmer quantifica a produção lacrimal: a fita de papel é posicionada na pálpebra inferior e, após 5 minutos, mede-se a extensão umedecida, sendo 5 mm ou menos considerado alterado. A lesão da superfície ocular é avaliada por corantes como fluoresceína e lissamina verde, e a função salivar pela sialometria.',
     x: { A: 'Essa é a sialometria, que avalia a secreção salivar e não a lacrimal.', C: 'Os corantes avaliam o dano epitelial da superfície ocular, não a pressão intraocular.', D: 'Essa é a cintilografia de glândulas salivares, exame diferente.' },
@@ -21,7 +21,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Sjögren: autoanticorpos',
     e: 'Em relação aos autoanticorpos na síndrome de Sjögren, é correto afirmar:',
-    o: ['O anti-La é mais sensível que o anti-Ro e entra isoladamente nos critérios de 2016', 'O anti-Ro (SSA) é o mais frequente e é o anticorpo incluído nos critérios classificatórios ACR/EULAR de 2016', 'O fator reumatoide positivo exclui o diagnóstico e indica artrite reumatoide', 'O anti-Sm está presente na maioria dos casos'],
+    o: ['O anti-La é mais sensível e entra isoladamente nos critérios de 2016', 'O anti-Ro (SSA) é o mais frequente e consta nos critérios ACR/EULAR 2016', 'O FR positivo exclui o diagnóstico e indica AR', 'O anti-Sm está presente na maioria dos casos'],
     g: 'B',
     c: 'O anti-Ro é encontrado na maioria dos pacientes e é o único autoanticorpo que pontua nos critérios de 2016; o anti-La é menos frequente e quase sempre acompanha o anti-Ro. Fator reumatoide e FAN são positivos em grande parte dos casos, e a hipergamaglobulinemia policlonal é habitual, refletindo a hiperatividade de linfócitos B.',
     x: { A: 'O anti-La é menos sensível e, isolado, não pontua nos critérios de 2016.', C: 'O fator reumatoide é frequentemente positivo no Sjögren, sem indicar artrite reumatoide.', D: 'O anti-Sm é específico do lúpus eritematoso sistêmico.' },
@@ -29,7 +29,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Sjögren: biópsia',
     e: 'Mulher de 48 anos tem olhos e boca secos, teste de Schirmer de 3 mm em 5 minutos e fluxo salivar reduzido, mas anti-Ro e anti-La são negativos. O exame que pode confirmar o diagnóstico de síndrome de Sjögren é:',
-    o: ['Biópsia de parótida com pesquisa de granulomas', 'Biópsia de glândula salivar menor (lábio inferior) com sialoadenite linfocítica focal e escore de focos igual ou superior a 1', 'Ultrassonografia de tireoide', 'Dosagem de imunoglobulina E sérica'],
+    o: ['Biópsia de parótida com pesquisa de granulomas não caseosos', 'Biópsia de glândula salivar menor: sialoadenite focal, escore ≥ 1', 'Ultrassonografia de tireoide, com Doppler e punção', 'Dosagem sérica de IgE, em jejum, e eosinófilos'],
     g: 'B',
     c: 'Nos critérios ACR/EULAR de 2016, a biópsia de glândula salivar menor com sialoadenite linfocítica focal e escore de pelo menos um foco por 4 mm2 e o anti-Ro positivo são os itens de maior peso, e o paciente precisa ter ao menos um deles para atingir a pontuação. Em soronegativos, portanto, a biópsia labial é indispensável. Ela é simples e feita na mucosa do lábio inferior.',
     x: { A: 'A biópsia de parótida é mais invasiva, e granulomas sugeririam sarcoidose.', C: 'A ultrassonografia de tireoide não avalia a doença glandular exócrina.', D: 'A IgE não tem papel no diagnóstico da síndrome de Sjögren.' },
@@ -45,7 +45,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Sjögren: manifestações extraglandulares',
     e: 'Mulher de 45 anos com síndrome de Sjögren apresenta fraqueza muscular e exames com potássio de 2,6 mEq/L, bicarbonato de 14 mEq/L, cloro elevado, ânion-gap normal e pH urinário de 6,8. A manifestação renal responsável é:',
-    o: ['Glomerulonefrite proliferativa difusa por imunocomplexos', 'Nefrite tubulointersticial com acidose tubular renal distal (tipo 1)', 'Necrose tubular aguda isquêmica', 'Crise renal com hipertensão maligna'],
+    o: ['Glomerulonefrite proliferativa difusa por imunocomplexos', 'Nefrite tubulointersticial com ATR distal (tipo 1)', 'Necrose tubular aguda isquêmica, de início súbito', 'Crise renal com hipertensão maligna, como na esclerose'],
     g: 'B',
     c: 'O infiltrado linfocitário do Sjögren também atinge o interstício renal, comprometendo a secreção de hidrogênio no túbulo distal. Surge acidose metabólica hiperclorêmica com ânion-gap normal, incapacidade de acidificar a urina e hipocalemia, que pode causar paralisia, além de nefrolitíase e nefrocalcinose. É a manifestação renal mais característica da doença.',
     x: { A: 'A glomerulonefrite é incomum no Sjögren e não explica a acidose hiperclorêmica com urina alcalina.', C: 'A necrose tubular aguda cursa com elevação de creatinina e contexto de hipoperfusão.', D: 'A crise renal com hipertensão maligna pertence à esclerose sistêmica.' },
@@ -53,7 +53,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Sjögren: tratamento',
     e: 'O tratamento da síndrome seca na síndrome de Sjögren inclui, além de lágrimas artificiais e higiene oral rigorosa:',
-    o: ['Anticolinérgicos, como a amitriptilina, para reduzir a ardência ocular', 'Agonistas muscarínicos, como pilocarpina ou cevimelina, para estimular a secreção glandular residual', 'Anti-histamínicos de primeira geração em uso contínuo', 'Diuréticos tiazídicos para reduzir o edema de parótidas'],
+    o: ['Anticolinérgicos, como amitriptilina, para a ardência ocular', 'Agonistas muscarínicos (pilocarpina, cevimelina) para a secreção residual', 'Anti-histamínicos de primeira geração em uso contínuo', 'Diuréticos tiazídicos para reduzir o edema de parótidas'],
     g: 'B',
     c: 'Os secretagogos muscarínicos estimulam os receptores M3 das glândulas ainda funcionantes, aumentando saliva e lágrima; seus efeitos adversos são sudorese e outros sintomas colinérgicos. Devem-se evitar fármacos com ação anticolinérgica. As manifestações sistêmicas são tratadas conforme a gravidade, com hidroxicloroquina para sintomas articulares e imunossupressores ou rituximabe em acometimento grave.',
     x: { A: 'Anticolinérgicos reduzem ainda mais a secreção e pioram a secura.', C: 'Anti-histamínicos de primeira geração têm efeito anticolinérgico e agravam os sintomas.', D: 'Diuréticos pioram a xerostomia e não têm indicação nesse quadro.' },
@@ -77,7 +77,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Dermatomiosite e neoplasia',
     e: 'Homem de 64 anos recebe diagnóstico de dermatomiosite. Em relação à associação dessa doença com neoplasias, a conduta correta é:',
-    o: ['Não investigar, pois a associação só existe na miosite por corpos de inclusão', 'Rastrear neoplasia oculta, pois o risco é aumentado, sobretudo nos primeiros anos após o diagnóstico e em pacientes mais velhos', 'Rastrear apenas se houver perda de peso superior a 10 kg', 'Adiar o tratamento da miosite até completar toda a investigação oncológica'],
+    o: ['Não investigar: a associação só existe na miosite por corpos de inclusão', 'Rastrear neoplasia oculta: risco maior nos primeiros anos e em idosos', 'Rastrear só se houver perda de peso superior a 10 kg', 'Adiar a miosite até completar a investigação oncológica'],
     g: 'B',
     c: 'A dermatomiosite do adulto pode ser síndrome paraneoplásica, com risco maior de câncer nos anos próximos ao diagnóstico, sobretudo em idosos e em portadores de anti-TIF1-gama ou anti-NXP2. Os tumores mais associados incluem ovário, pulmão, mama, trato gastrointestinal e, em asiáticos, nasofaringe. Indica-se rastreamento conforme idade e sexo, ampliado nos casos de alto risco. Na polimiosite o risco também existe, porém é menor.',
     x: { A: 'A miosite por corpos de inclusão não tem associação relevante com neoplasia.', C: 'O rastreamento é indicado independentemente de sintomas constitucionais.', D: 'O tratamento da miosite não deve ser postergado; a investigação corre em paralelo.' },
@@ -85,7 +85,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Miopatias: quadro clínico',
     e: 'O padrão de fraqueza muscular característico da polimiosite e da dermatomiosite é:',
-    o: ['Distal e assimétrica, com atrofia precoce e fasciculações', 'Proximal e simétrica, de instalação subaguda, poupando a musculatura ocular', 'Flutuante, com fatigabilidade, ptose e diplopia', 'Ascendente e aguda, com arreflexia'],
+    o: ['Distal e assimétrica, com atrofia precoce e fasciculações', 'Proximal e simétrica, subaguda, poupando a musculatura ocular', 'Flutuante, com fatigabilidade, ptose e diplopia', 'Ascendente e aguda, com arreflexia generalizada'],
     g: 'B',
     c: 'A inflamação acomete principalmente as cinturas escapular e pélvica, de forma simétrica, ao longo de semanas a meses, gerando dificuldade para levantar-se da cadeira, subir escadas e elevar os braços. Flexores do pescoço e musculatura faríngea podem ser atingidos, com disfagia alta. A sensibilidade e os reflexos são preservados e os músculos oculares são poupados.',
     x: { A: 'Fraqueza distal assimétrica com fasciculações sugere doença do neurônio motor.', C: 'Fatigabilidade com ptose e diplopia caracteriza a miastenia gravis.', D: 'Paralisia ascendente com arreflexia é o quadro da síndrome de Guillain-Barré.' },
@@ -93,7 +93,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Miopatias: investigação',
     e: 'Na investigação de um paciente com suspeita de miopatia inflamatória, os achados laboratoriais e eletroneuromiográficos esperados são:',
-    o: ['CPK normal e redução da velocidade de condução nervosa', 'Elevação de CPK e aldolase, com padrão miopático: potenciais de curta duração e baixa amplitude, fibrilações e ondas positivas', 'CPK normal com decremento à estimulação repetitiva', 'Elevação isolada de fosfatase alcalina com potenciais gigantes'],
+    o: ['CPK normal e queda da velocidade de condução nervosa', 'CPK e aldolase altas; potenciais curtos e baixos, fibrilações', 'CPK normal, com decremento à estimulação repetitiva', 'Fosfatase alcalina isolada alta, com potenciais gigantes'],
     g: 'B',
     c: 'A necrose de fibras libera enzimas musculares, sendo a CPK a mais sensível, além de aldolase, DHL e transaminases, o que pode simular hepatopatia. A eletroneuromiografia mostra padrão miopático com atividade espontânea, que indica membrana muscular irritável e doença ativa. A ressonância magnética evidencia edema muscular e ajuda a escolher o local da biópsia, que confirma o diagnóstico.',
     x: { A: 'Redução da velocidade de condução indica neuropatia desmielinizante, com CPK normal.', C: 'Decremento à estimulação repetitiva é achado de doença da junção neuromuscular.', D: 'Potenciais gigantes indicam desnervação crônica com reinervação, padrão neurogênico.' },
@@ -101,7 +101,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Miopatias: biópsia',
     e: 'A biópsia muscular permite distinguir os mecanismos da dermatomiosite e da polimiosite. A correlação correta é:',
-    o: ['Dermatomiosite: infiltrado endomisial de linfócitos T CD8; polimiosite: atrofia perifascicular', 'Dermatomiosite: infiltrado perivascular e perimisial com atrofia perifascicular; polimiosite: infiltrado endomisial de linfócitos T CD8 invadindo fibras', 'Ambas: vacúolos marginados com depósito amiloide', 'Ambas: fibras vermelhas rasgadas por alteração mitocondrial'],
+    o: ['DM: infiltrado endomisial de CD8; PM: atrofia perifascicular', 'DM: infiltrado perivascular e atrofia perifascicular; PM: CD8 endomisial', 'Ambas: vacúolos marginados com depósito de amiloide', 'Ambas: fibras vermelhas rasgadas, por alteração mitocondrial'],
     g: 'B',
     c: 'A dermatomiosite é uma microangiopatia mediada por complemento e imunidade humoral: o infiltrado de linfócitos B e T CD4 é perivascular e perimisial, e a isquemia resultante causa atrofia das fibras na periferia do fascículo. Na polimiosite a agressão é celular, com linfócitos T CD8 citotóxicos no endomísio invadindo fibras que expressam MHC classe I.',
     x: { A: 'As correlações estão invertidas entre as duas doenças.', C: 'Vacúolos marginados caracterizam a miosite por corpos de inclusão.', D: 'Fibras vermelhas rasgadas são achado de miopatias mitocondriais.' },
@@ -133,7 +133,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Miopatias: tratamento',
     e: 'O tratamento inicial da dermatomiosite e da polimiosite com fraqueza significativa é:',
-    o: ['Anti-inflamatório não esteroide e repouso absoluto prolongado', 'Corticoide em dose alta, com introdução precoce de poupador como metotrexato ou azatioprina', 'Hidroxicloroquina isolada', 'Colchicina associada a fisioterapia'],
+    o: ['AINE e repouso absoluto prolongado, por várias semanas', 'Corticoide em dose alta e poupador precoce (MTX ou azatioprina)', 'Hidroxicloroquina isolada, em dose habitual, por meses', 'Colchicina associada a fisioterapia motora, por meses'],
     g: 'B',
     c: 'A prednisona em dose alta, em torno de 1 mg/kg/dia, é a base do tratamento, com redução gradual guiada pela recuperação da força, e um imunossupressor é associado cedo para poupar corticoide. Casos graves ou refratários recebem pulsoterapia, imunoglobulina venosa ou rituximabe. A reabilitação com exercício supervisionado é segura e recomendada.',
     x: { A: 'Anti-inflamatórios não tratam a miosite, e o repouso prolongado agrava a atrofia.', C: 'A hidroxicloroquina ajuda apenas nas lesões cutâneas da dermatomiosite.', D: 'A colchicina não tem ação na miopatia inflamatória.' },
@@ -149,7 +149,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Dermatomiosite juvenil',
     e: 'Em relação à dermatomiosite juvenil, comparada à forma do adulto, é correto afirmar:',
-    o: ['A associação com neoplasia é ainda mais frequente', 'Calcinose e vasculopatia são mais frequentes, e a associação com neoplasia é rara', 'Não há lesões cutâneas, apenas fraqueza muscular', 'A CPK está sempre normal e a biópsia mostra corpos de inclusão'],
+    o: ['A associação com neoplasia é ainda mais frequente', 'Mais calcinose e vasculopatia; neoplasia rara', 'Sem lesões cutâneas, apenas fraqueza muscular', 'CPK sempre normal; biópsia com corpos de inclusão'],
     g: 'B',
     c: 'A dermatomiosite é a miopatia inflamatória mais comum da infância. Nela predomina a vasculopatia, com calcinose de partes moles, úlceras cutâneas e acometimento gastrointestinal, além de lipodistrofia tardia, enquanto a relação com câncer praticamente não existe. O tratamento precoce e agressivo reduz o risco de calcinose.',
     x: { A: 'A associação paraneoplásica é própria da forma do adulto.', C: 'Heliótropo e pápulas de Gottron estão presentes também na criança.', D: 'Corpos de inclusão caracterizam outra doença, típica do idoso.' },
@@ -157,7 +157,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: diagnóstico',
     e: 'Mulher de 41 anos queixa-se há mais de um ano de dor difusa pelo corpo, fadiga, sono não reparador e dificuldade de concentração. O exame articular não mostra sinovite, a força muscular é normal, e hemograma, VHS, proteína C reativa, TSH e CPK são normais. O diagnóstico e a forma de estabelecê-lo são:',
-    o: ['Polimiosite; biópsia muscular', 'Fibromialgia; diagnóstico clínico, baseado em dor generalizada por mais de três meses com fadiga, distúrbio do sono e sintomas cognitivos', 'Lúpus eritematoso sistêmico; solicitar FAN e tratar se positivo', 'Polimialgia reumática; prova terapêutica com corticoide'],
+    o: ['Polimiosite; biópsia muscular, para confirmação', 'Fibromialgia: diagnóstico clínico (dor difusa > 3 meses, fadiga, sono)', 'Lúpus eritematoso sistêmico; FAN e tratar se positivo', 'Polimialgia reumática; prova terapêutica com corticoide'],
     g: 'B',
     c: 'A fibromialgia é uma síndrome de dor crônica generalizada por sensibilização central, com amplificação do processamento da dor, sem inflamação ou lesão tecidual. O diagnóstico é clínico e, nos critérios atuais do ACR, apoia-se no índice de dor generalizada e na escala de gravidade dos sintomas, sem exigir a contagem de pontos dolorosos. Os exames servem apenas para afastar diferenciais.',
     x: { A: 'Força e CPK normais afastam miopatia inflamatória.', C: 'Não há manifestações de lúpus, e FAN em baixo título é comum em pessoas saudáveis.', D: 'A polimialgia ocorre após os 50 anos, com rigidez de cinturas e provas inflamatórias elevadas.' },
@@ -165,7 +165,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: tratamento',
     e: 'A intervenção com melhor evidência de benefício no tratamento da fibromialgia, considerada a base da abordagem, é:',
-    o: ['Repouso e afastamento prolongado das atividades', 'Exercício físico aeróbico regular e progressivo, associado a educação do paciente e higiene do sono', 'Anti-inflamatório não esteroide em uso contínuo', 'Infiltração de corticoide nos pontos dolorosos'],
+    o: ['Repouso e afastamento prolongado das atividades', 'Exercício aeróbico regular e progressivo, educação e sono', 'AINE em uso contínuo, por tempo prolongado', 'Infiltração de corticoide nos pontos dolorosos'],
     g: 'B',
     c: 'O exercício aeróbico de intensidade gradual é a medida com evidência mais sólida, pois melhora dor, sono, fadiga e funcionalidade, provavelmente por modular as vias descendentes inibitórias da dor. Educação sobre a natureza benigna da doença, higiene do sono e terapia cognitivo-comportamental completam a abordagem não farmacológica, que deve preceder ou acompanhar os fármacos.',
     x: { A: 'O repouso leva a descondicionamento e piora da dor e da incapacidade.', C: 'Não há inflamação periférica, e os anti-inflamatórios não têm eficácia demonstrada.', D: 'Corticoides, sistêmicos ou locais, não têm indicação na fibromialgia.' },
@@ -173,7 +173,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'Fibromialgia: fármacos',
     e: 'Entre os medicamentos abaixo, os que têm eficácia demonstrada no tratamento da fibromialgia são:',
-    o: ['Prednisona e diclofenaco', 'Amitriptilina, ciclobenzaprina, duloxetina e pregabalina', 'Morfina e oxicodona', 'Hidroxicloroquina e metotrexato'],
+    o: ['Prednisona e diclofenaco, em uso contínuo', 'Amitriptilina, ciclobenzaprina, duloxetina e pregabalina', 'Morfina e oxicodona, em uso contínuo', 'Hidroxicloroquina e metotrexato, em uso contínuo'],
     g: 'B',
     c: 'Os fármacos úteis atuam no sistema nervoso central, modulando a dor: tricíclicos em dose baixa à noite, como a amitriptilina, e o relaxante muscular ciclobenzaprina, de estrutura semelhante; inibidores da recaptação de serotonina e noradrenalina, como a duloxetina; e gabapentinoides, como a pregabalina. A escolha é guiada pelo sintoma predominante, e o tramadol é opção em casos selecionados.',
     x: { A: 'Corticoides e anti-inflamatórios não agem no mecanismo central da dor.', C: 'Opioides fortes não são recomendados, pelo risco de dependência e de hiperalgesia.', D: 'Imunomoduladores não têm papel, pois não se trata de doença autoimune inflamatória.' },
@@ -181,7 +181,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'FAN: interpretação',
     e: 'Mulher de 35 anos, assintomática, realizou exames de rotina que mostraram FAN 1:80 em padrão nuclear pontilhado fino denso. O exame físico é normal e hemograma, urina e provas inflamatórias não têm alterações. A conduta mais adequada é:',
-    o: ['Iniciar hidroxicloroquina, pois se trata de lúpus em fase pré-clínica', 'Tranquilizar a paciente e não tratar, pois esse padrão em baixo título é comum em pessoas saudáveis', 'Solicitar biópsia renal para afastar nefrite silenciosa', 'Repetir o FAN mensalmente para acompanhar o título'],
+    o: ['Iniciar hidroxicloroquina, pois é lúpus pré-clínico', 'Tranquilizar e não tratar: padrão comum em baixo título em sadios', 'Biópsia renal para afastar nefrite silenciosa', 'Repetir o FAN mensalmente para acompanhar o título'],
     g: 'B',
     c: 'O FAN é positivo em parcela considerável de pessoas saudáveis, sobretudo em títulos baixos, e seu valor depende da probabilidade pré-teste. O padrão pontilhado fino denso, relacionado ao anticorpo anti-DFS70, é o mais encontrado em indivíduos hígidos e, isoladamente, fala contra doença autoimune sistêmica. O FAN só deve ser solicitado quando há suspeita clínica.',
     x: { A: 'Sem manifestações clínicas não há diagnóstico nem indicação de tratamento.', C: 'Urina e função renal normais dispensam qualquer investigação invasiva.', D: 'O título do FAN não tem utilidade para seguimento.' },
@@ -189,7 +189,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'FAN: padrões',
     e: 'A associação correta entre o padrão do FAN na imunofluorescência em células HEp-2 e o autoanticorpo ou a doença correspondente é:',
-    o: ['Nuclear homogêneo: anti-Ro e síndrome de Sjögren', 'Nuclear pontilhado grosso: anti-Sm e anti-RNP, em lúpus e doença mista do tecido conjuntivo', 'Centromérico: anti-Scl-70 e esclerose sistêmica difusa', 'Nuclear pontilhado fino: anti-DNA nativo e nefrite lúpica'],
+    o: ['Nuclear homogêneo: anti-Ro e síndrome de Sjögren', 'Pontilhado grosso: anti-Sm e anti-RNP (lúpus e DMTC)', 'Centromérico: anti-Scl-70 e esclerose sistêmica difusa', 'Pontilhado fino: anti-DNA nativo e nefrite lúpica'],
     g: 'B',
     c: 'O padrão nuclear pontilhado grosso corresponde a anticorpos contra ribonucleoproteínas, o anti-Sm e o anti-RNP. O padrão homogêneo relaciona-se a anti-DNA nativo, anti-histona e antinucleossomo; o pontilhado fino, a anti-Ro e anti-La; o centromérico, ao anticentrômero da esclerose sistêmica limitada; e o nucleolar sugere esclerose sistêmica.',
     x: { A: 'O homogêneo liga-se a anti-DNA e anti-histona; o anti-Ro dá padrão pontilhado fino.', C: 'O padrão centromérico corresponde ao anticentrômero, da forma limitada.', D: 'O anti-DNA nativo gera padrão homogêneo, e não pontilhado fino.' },
@@ -197,7 +197,7 @@ export const COLAGENOSES_4: QuestaoCompacta[] = [
   {
     s: 'FAN: padrão citoplasmático',
     e: 'Paciente com fraqueza muscular proximal e doença intersticial pulmonar tem FAN com núcleo não reagente e fluorescência citoplasmática pontilhada fina. O laudo traz a observação de que o FAN nuclear é negativo. A interpretação correta é:',
-    o: ['O resultado afasta doença autoimune, pois o núcleo não reagiu', 'O padrão citoplasmático pode corresponder a anticorpos antissintetase, como o anti-Jo-1, e deve ser valorizado', 'Trata-se de artefato técnico sem significado clínico', 'O achado é específico de lúpus com anti-P ribossomal negativo'],
+    o: ['O resultado afasta doença autoimune, pois o núcleo não reagiu', 'Citoplasmático: pode ser antissintetase (anti-Jo-1); valorizar', 'Artefato técnico, sem significado clínico', 'Achado específico de lúpus, com anti-P ribossomal negativo'],
     g: 'B',
     c: 'A pesquisa em células HEp-2 detecta também anticorpos contra antígenos citoplasmáticos, e o laudo deve descrevê-los. As aminoacil-RNAt sintetases ficam no citoplasma, de modo que o anti-Jo-1 produz padrão citoplasmático pontilhado fino com núcleo negativo. Assim, na suspeita de síndrome antissintetase, um FAN nuclear negativo não exclui a doença, e os anticorpos específicos devem ser pesquisados.',
     x: { A: 'Vários autoanticorpos relevantes têm alvo citoplasmático e não coram o núcleo.', C: 'O padrão é real e clinicamente relevante, sobretudo com quadro compatível.', D: 'O padrão citoplasmático não é específico de lúpus; o anti-P dá padrão pontilhado fino denso citoplasmático.' },

@@ -13,7 +13,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Osmolaridade efetiva',
     e: 'Na doença renal com ureia de 240 mg/dL, a osmolaridade plasmática total se eleva, mas não ocorre desidratação celular. A explicação para esse fato é:',
-    o: ['A ureia é rapidamente metabolizada pelos neurônios', 'A ureia atravessa livremente as membranas celulares e por isso não é um osmol efetivo', 'A ureia se liga à albumina e não exerce efeito osmótico', 'A ureia é compensada por queda proporcional da glicemia'],
+    o: ['A ureia é rapidamente metabolizada pelos neurônios', 'A ureia atravessa as membranas livremente: não é osmol efetivo', 'A ureia se liga à albumina e não exerce efeito osmótico', 'A ureia é compensada por queda proporcional da glicemia'],
     g: 'B',
     c: 'A tonicidade (osmolaridade efetiva) depende apenas dos solutos que não cruzam livremente a membrana celular, como sódio e glicose na ausência de insulina. A ureia se equilibra entre os compartimentos intra e extracelular, de modo que não gera gradiente osmótico nem desloca água para fora das células.',
     x: { A: 'Os neurônios não metabolizam ureia; ela apenas se difunde pelas membranas.', C: 'A ureia circula livre no plasma e contribui para a osmolaridade medida.', D: 'Não existe redução compensatória da glicemia diante da elevação da ureia.' },
@@ -29,7 +29,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Pseudo-hiponatremia',
     e: 'Mulher de 45 anos com pancreatite aguda e soro lipêmico (triglicerídeos de 4.800 mg/dL) apresenta sódio de 124 mEq/L, sem sintomas neurológicos. A osmolaridade plasmática medida é de 288 mOsm/L. A conduta em relação ao sódio é:',
-    o: ['Infundir cloreto de sódio a 3% em bolus', 'Não corrigir o sódio, pois se trata de pseudo-hiponatremia', 'Iniciar restrição hídrica de 800 mL por dia', 'Prescrever tolvaptana por via oral'],
+    o: ['Infundir cloreto de sódio a 3% em bolus, em acesso central', 'Não corrigir o sódio: é pseudo-hiponatremia', 'Iniciar restrição hídrica de 800 mL por dia, e reavaliar', 'Prescrever tolvaptana por via oral, em dose baixa'],
     g: 'B',
     c: 'Na hipertrigliceridemia ou na hiperproteinemia acentuada, a fase aquosa do plasma diminui e os métodos com diluição da amostra subestimam o sódio, embora sua concentração na água plasmática esteja normal. A osmolaridade medida normal confirma o artefato, e nenhum tratamento dirigido ao sódio é necessário.',
     x: { A: 'A salina hipertônica causaria hipernatremia real, pois o sódio verdadeiro é normal.', C: 'Restrição hídrica é desnecessária e prejudicial na pancreatite, que exige hidratação.', D: 'Antagonistas da vasopressina não têm papel em um artefato laboratorial.' },
@@ -37,7 +37,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Abordagem inicial',
     e: 'Diante de uma hiponatremia confirmada, o primeiro passo da investigação diagnóstica, antes de avaliar a volemia, é:',
-    o: ['Dosar o sódio urinário', 'Determinar a osmolaridade plasmática', 'Solicitar cortisol e TSH', 'Realizar tomografia de crânio'],
+    o: ['Dosar o sódio urinário, em amostra isolada', 'Determinar a osmolaridade plasmática, medida', 'Solicitar cortisol sérico e TSH, para investigar', 'Realizar tomografia de crânio, sem contraste'],
     g: 'B',
     c: 'A osmolaridade plasmática separa as hiponatremias hipotônicas (verdadeiras) das isotônicas (pseudo-hiponatremia) e das hipertônicas (hiperglicemia, manitol). Somente na forma hipotônica faz sentido prosseguir com osmolaridade urinária, avaliação da volemia e sódio urinário.',
     x: { A: 'O sódio urinário é útil depois, para diferenciar as causas da forma hipotônica.', C: 'Cortisol e TSH são pedidos na hiponatremia euvolêmica, em etapa posterior.', D: 'A neuroimagem é reservada para suspeita de lesão estrutural, não é etapa inicial da investigação.' },
@@ -45,7 +45,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia hipovolêmica',
     e: 'Homem de 34 anos com diarreia aquosa há 5 dias, ingerindo apenas água, apresenta hipotensão postural, mucosas secas, sódio de 126 mEq/L, osmolaridade plasmática de 262 mOsm/L e sódio urinário de 8 mEq/L. O mecanismo da hiponatremia e o tratamento são:',
-    o: ['Secreção inapropriada de ADH, tratada com restrição hídrica', 'Secreção de ADH estimulada pela hipovolemia com reposição apenas de água, tratada com solução salina isotônica', 'Perda renal de sal, tratada com fludrocortisona', 'Diluição por excesso de volume extracelular, tratada com furosemida'],
+    o: ['SIADH, tratada com restrição hídrica', 'ADH por hipovolemia e só água: tratar com salina isotônica', 'Perda renal de sal, tratada com fludrocortisona', 'Diluição por excesso de volume, tratada com furosemida'],
     g: 'B',
     c: 'A hipovolemia é estímulo não osmótico potente para a liberação de ADH, que retém a água livre ingerida. O sódio urinário abaixo de 20 mEq/L indica rim ávido por sódio, apontando para perda extrarrenal. A reposição com salina a 0,9% restaura a volemia, suprime o ADH e permite a excreção do excesso de água.',
     x: { A: 'Na SIADH o paciente é euvolêmico e o sódio urinário costuma ser maior que 40 mEq/L.', C: 'Na perda renal de sal o sódio urinário estaria elevado, e não em 8 mEq/L.', D: 'O paciente está depletado de volume, e o diurético agravaria a hipovolemia.' },
@@ -53,7 +53,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Tiazídicos',
     e: 'Mulher de 76 anos, 48 kg, iniciou hidroclorotiazida há 2 semanas e é trazida por náuseas e confusão. Sódio de 117 mEq/L e potássio de 3,0 mEq/L. Os tiazídicos causam hiponatremia com mais frequência que os diuréticos de alça porque:',
-    o: ['Promovem natriurese mais intensa que a furosemida', 'Prejudicam a diluição urinária no túbulo distal sem desfazer a hipertonicidade medular, mantendo a ação do ADH', 'Bloqueiam os receptores V2 no ducto coletor', 'Inibem a sede por ação hipotalâmica direta'],
+    o: ['Promovem natriurese mais intensa que a furosemida', 'Prejudicam a diluição distal e mantêm a medula hipertônica', 'Bloqueiam os receptores V2 no ducto coletor', 'Inibem a sede por ação hipotalâmica direta'],
     g: 'B',
     c: 'O tiazídico inibe o cotransportador sódio-cloreto no túbulo contorcido distal, segmento diluidor, sem interferir no gradiente medular gerado pela alça de Henle. Assim, o ADH continua capaz de promover reabsorção máxima de água. Os diuréticos de alça dissipam a hipertonicidade medular e limitam a concentração urinária, protegendo contra hiponatremia.',
     x: { A: 'A natriurese dos diuréticos de alça é mais potente que a dos tiazídicos.', C: 'Bloqueio de V2 é o mecanismo dos vaptanos e provocaria eliminação de água livre.', D: 'Tiazídicos podem até aumentar a sede; não a inibem.' },
@@ -61,7 +61,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'SIADH: critérios',
     e: 'Homem de 62 anos, euvolêmico, sem diuréticos, apresenta sódio de 122 mEq/L e osmolaridade plasmática de 255 mOsm/L. Para o diagnóstico de síndrome de antidiurese inapropriada espera-se encontrar:',
-    o: ['Osmolaridade urinária menor que 100 mOsm/kg e sódio urinário menor que 20 mEq/L', 'Osmolaridade urinária maior que 100 mOsm/kg e sódio urinário maior que 40 mEq/L, com funções tireoidiana e adrenal normais', 'Osmolaridade urinária maior que 100 mOsm/kg, sódio urinário menor que 20 mEq/L e edema', 'Osmolaridade urinária menor que 100 mOsm/kg, ácido úrico elevado e hipotensão postural'],
+    o: ['Osm urinária < 100 mOsm/kg e Na urinário < 20 mEq/L', 'Osm urinária > 100 e Na urinário > 40, com tireoide e adrenal normais', 'Osm urinária > 100, Na urinário < 20 mEq/L e edema', 'Osm urinária < 100, ácido úrico alto e hipotensão postural'],
     g: 'B',
     c: 'Na SIADH o ADH age apesar da hipotonicidade, mantendo a urina inapropriadamente concentrada (acima de 100 mOsm/kg). A discreta expansão de volume suprime a aldosterona e eleva os peptídeos natriuréticos, gerando natriurese com sódio urinário acima de 40 mEq/L. É diagnóstico de exclusão, exigindo afastar hipotireoidismo, insuficiência adrenal e uso de diuréticos.',
     x: { A: 'Urina maximamente diluída indica ADH suprimido, como na polidipsia primária.', C: 'Sódio urinário baixo com edema caracteriza estados hipervolêmicos como insuficiência cardíaca.', D: 'Na SIADH o ácido úrico é baixo e não há sinais de hipovolemia.' },
@@ -77,7 +77,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'SIADH: fármacos',
     e: 'Diversos medicamentos podem causar síndrome de antidiurese inapropriada. Todos os fármacos abaixo estão classicamente implicados, EXCETO:',
-    o: ['Carbamazepina', 'Sertralina', 'Ciclofosfamida', 'Carbonato de lítio'],
+    o: ['Carbamazepina, em uso crônico', 'Sertralina, em uso crônico', 'Ciclofosfamida, em dose alta', 'Carbonato de lítio, em uso crônico'],
     g: 'D',
     c: 'O lítio se acumula nas células principais do ducto coletor e reduz a expressão de aquaporina-2, causando resistência ao ADH e diabetes insipidus nefrogênico, com tendência à hipernatremia. Os demais aumentam a liberação ou a ação renal do ADH.',
     x: { A: 'A carbamazepina e a oxcarbazepina potencializam a ação do ADH e causam SIADH.', B: 'Os inibidores da recaptação de serotonina são causa frequente de SIADH, sobretudo em idosos.', C: 'A ciclofosfamida venosa aumenta o efeito renal do ADH e pode causar hiponatremia grave.' },
@@ -101,7 +101,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Salina isotônica na SIADH',
     e: 'Paciente com SIADH por pneumonia, sódio de 121 mEq/L e osmolaridade urinária fixa de 620 mOsm/kg recebe 1 litro de solução salina a 0,9%. No dia seguinte o sódio é de 118 mEq/L. A explicação para a piora é:',
-    o: ['A salina isotônica contém sódio insuficiente para qualquer paciente hiponatrêmico', 'Os solutos infundidos são excretados em volume menor de urina concentrada, com retenção de água livre', 'O cloreto infundido estimula diretamente a secreção de ADH', 'A infusão provocou hiperglicemia e translocação de água'],
+    o: ['A salina isotônica tem sódio insuficiente para qualquer hiponatrêmico', 'Os solutos são excretados em pouca urina concentrada: retém água livre', 'O cloreto infundido estimula diretamente a secreção de ADH', 'A infusão causou hiperglicemia e translocação de água'],
     g: 'B',
     c: 'A salina a 0,9% tem 308 mOsm/L. Com urina fixa em 620 mOsm/kg, esses 308 mOsm são eliminados em cerca de 500 mL de urina, e os outros 500 mL permanecem como água livre retida, diluindo ainda mais o sódio. Por isso, na SIADH só elevam o sódio as soluções com osmolaridade superior à urinária.',
     x: { A: 'Na hiponatremia hipovolêmica a salina isotônica corrige o sódio ao suprimir o ADH.', C: 'O cloreto não é estímulo para a liberação de ADH.', D: 'A salina não contém glicose e não causa hiperglicemia.' },
@@ -109,7 +109,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Síndrome cerebral perdedora de sal',
     e: 'Homem de 49 anos, no 6º dia de hemorragia subaracnóidea, evolui com poliúria, balanço hídrico negativo, hipotensão postural, taquicardia e hematócrito em elevação. Sódio de 126 mEq/L, osmolaridade urinária de 510 mOsm/kg e sódio urinário de 95 mEq/L. O diagnóstico e a conduta são:',
-    o: ['SIADH, com restrição hídrica rigorosa', 'Síndrome cerebral perdedora de sal, com reposição de volume e de sódio', 'Diabetes insipidus central, com desmopressina', 'Polidipsia primária, com restrição de água'],
+    o: ['SIADH, com restrição hídrica rigorosa', 'Síndrome cerebral perdedora de sal: repor volume e sódio', 'Diabetes insipidus central, com desmopressina', 'Polidipsia primária, com restrição de água'],
     g: 'B',
     c: 'Os exames urinários são iguais aos da SIADH, mas a síndrome perdedora de sal cursa com natriurese primária e hipovolemia verdadeira (poliúria, balanço negativo, hemoconcentração). O tratamento é repor volume e sódio com salina isotônica ou hipertônica, podendo-se associar fludrocortisona. A restrição hídrica na hemorragia subaracnóidea agrava o vasoespasmo e a isquemia cerebral.',
     x: { A: 'A SIADH é euvolêmica, e restringir água aqui pioraria a hipovolemia e o vasoespasmo.', C: 'No diabetes insipidus a urina é diluída e o sódio plasmático tende a subir.', D: 'Na polidipsia primária a osmolaridade urinária fica abaixo de 100 mOsm/kg.' },
@@ -125,7 +125,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Baixa ingestão de solutos',
     e: 'Homem de 52 anos, etilista, alimenta-se quase exclusivamente de cerveja, cerca de 5 litros por dia. Apresenta sódio de 120 mEq/L, euvolemia e osmolaridade urinária de 70 mOsm/kg. O mecanismo da hiponatremia é:',
-    o: ['Secreção inapropriada de ADH induzida pelo álcool', 'Carga de solutos insuficiente para excretar o volume de água ingerido', 'Perda renal de sódio por tubulopatia alcoólica', 'Deslocamento de água por hipertonicidade do etanol'],
+    o: ['Secreção inapropriada de ADH induzida pelo álcool', 'Carga de solutos insuficiente para excretar a água ingerida', 'Perda renal de sódio por tubulopatia alcoólica', 'Deslocamento de água por hipertonicidade do etanol'],
     g: 'B',
     c: 'A excreção de água depende da carga diária de solutos (sal e ureia derivada das proteínas). Com ingestão de apenas 200 a 250 mOsm por dia e diluição máxima de 50 a 60 mOsm/kg, o rim elimina no máximo 4 a 5 litros; o excedente é retido. É a potomania do bebedor de cerveja, semelhante à dieta de chá com torradas.',
     x: { A: 'O álcool inibe a secreção de ADH, e a urina diluída mostra hormônio suprimido.', C: 'Não há perda renal de sal; o problema é a falta de solutos para excretar.', D: 'O etanol atravessa as membranas e não é osmol efetivo capaz de deslocar água.' },
@@ -141,7 +141,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Insuficiência adrenal',
     e: 'Mulher de 38 anos com astenia, emagrecimento, hiperpigmentação de pregas palmares e hipotensão apresenta sódio de 124 mEq/L, potássio de 6,1 mEq/L, glicemia de 62 mg/dL e sódio urinário de 70 mEq/L. A causa da hiponatremia é:',
-    o: ['Síndrome de antidiurese inapropriada idiopática', 'Insuficiência adrenal primária, com perda renal de sódio por falta de aldosterona e aumento de ADH por falta de cortisol', 'Hiperaldosteronismo primário', 'Síndrome nefrótica com hipoalbuminemia'],
+    o: ['Síndrome de antidiurese inapropriada idiopática', 'Insuficiência adrenal primária: falta aldosterona e cortisol', 'Hiperaldosteronismo primário, com hipertensão e hipocalemia', 'Síndrome nefrótica com hipoalbuminemia e edema'],
     g: 'B',
     c: 'Na doença de Addison a deficiência de aldosterona provoca perda renal de sódio, hipovolemia e retenção de potássio e de hidrogênio. A falta de cortisol remove a inibição sobre o ADH e o CRH, aumentando a retenção de água. A hiperpigmentação reflete o excesso de ACTH e indica origem primária.',
     x: { A: 'A SIADH não explica hipercalemia, hipotensão nem hiperpigmentação.', C: 'O excesso de aldosterona causa hipertensão e hipocalemia, o oposto do quadro.', D: 'A síndrome nefrótica cursa com edema e sódio urinário baixo.' },
@@ -149,7 +149,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia hipervolêmica',
     e: 'Homem de 68 anos com insuficiência cardíaca de fração de ejeção reduzida apresenta edema de membros inferiores, turgência jugular, sódio de 126 mEq/L e sódio urinário de 10 mEq/L. A hiponatremia nesse contexto decorre de:',
-    o: ['Excesso de sódio corporal total com supressão de ADH', 'Redução do volume arterial efetivo, com liberação não osmótica de ADH e retenção de água superior à de sódio', 'Perda renal de sódio induzida por peptídeos natriuréticos', 'Pseudo-hiponatremia por hiperproteinemia'],
+    o: ['Excesso de sódio corporal total com supressão de ADH', 'Menor volume arterial efetivo: ADH não osmótico e retenção de água', 'Perda renal de sódio por peptídeos natriuréticos', 'Pseudo-hiponatremia por hiperproteinemia grave'],
     g: 'B',
     c: 'Na insuficiência cardíaca, na cirrose e na síndrome nefrótica o sódio corporal total está aumentado, mas a água está ainda mais. Os barorreceptores percebem baixo enchimento arterial e ativam o sistema renina-angiotensina-aldosterona, o simpático e o ADH. A hiponatremia marca gravidade e pior prognóstico, e o tratamento é restrição hídrica com diurético de alça.',
     x: { A: 'O ADH está elevado, e não suprimido, apesar do excesso de volume total.', C: 'O sódio urinário baixo mostra retenção renal de sódio, não perda.', D: 'A osmolaridade plasmática está reduzida, o que afasta artefato laboratorial.' },
@@ -157,7 +157,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia sintomática grave',
     e: 'Mulher de 54 anos, no 2º dia de pós-operatório de histerectomia e recebendo soro glicosado a 5%, apresenta cefaleia, vômitos e crise convulsiva tônico-clônica. Sódio de 112 mEq/L. A conduta imediata é:',
-    o: ['Restrição hídrica e furosemida venosa', 'Bolus de 100 a 150 mL de cloreto de sódio a 3%, podendo repetir, com meta inicial de elevar o sódio em 4 a 6 mEq/L', 'Solução salina a 0,9%, 1 litro em 1 hora', 'Tolvaptana por sonda e fenitoína venosa'],
+    o: ['Restrição hídrica e furosemida venosa, de imediato', 'Bolus de 100-150 mL de NaCl 3%; subir o Na 4-6 mEq/L', 'Salina 0,9%, 1 litro em 1 hora, por via venosa', 'Tolvaptana por sonda e fenitoína venosa, de imediato'],
     g: 'B',
     c: 'Sintomas graves como convulsão, coma ou sinais de herniação indicam edema cerebral e exigem salina hipertônica em bolus. Uma elevação de 4 a 6 mEq/L nas primeiras horas é suficiente para reduzir a pressão intracraniana e reverter os sintomas. Depois disso a correção é freada para respeitar o limite diário.',
     x: { A: 'Restrição hídrica tem efeito lento e é inadequada diante de edema cerebral.', C: 'A salina isotônica eleva pouco o sódio e não trata o edema cerebral com rapidez.', D: 'Vaptanos têm início lento e resposta imprevisível, sem papel na emergência.' },
@@ -165,7 +165,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Velocidade de correção',
     e: 'Na correção da hiponatremia crônica, com mais de 48 horas ou de duração desconhecida, a elevação máxima do sódio sérico recomendada nas primeiras 24 horas é de:',
-    o: ['4 mEq/L, independentemente dos sintomas', '8 a 10 mEq/L, sendo mais conservador nos pacientes de alto risco', '15 a 18 mEq/L', '20 a 25 mEq/L, desde que em infusão contínua'],
+    o: ['4 mEq/L, independentemente dos sintomas', '8 a 10 mEq/L, com cautela maior nos de alto risco', '15 a 18 mEq/L, por dia de tratamento', '20 a 25 mEq/L, desde que em infusão contínua'],
     g: 'B',
     c: 'Na hiponatremia crônica os neurônios eliminaram osmóis orgânicos para se adaptar, e a elevação rápida da tonicidade provoca desidratação celular e desmielinização. O limite aceito é de 8 a 10 mEq/L em 24 horas e 18 mEq/L em 48 horas, preferindo-se 6 a 8 mEq/L quando há fatores de risco.',
     x: { A: 'Não há limite fixo de 4 mEq/L; esse valor é a meta inicial nos casos graves.', C: 'Elevações de 15 a 18 mEq/L em um dia ultrapassam o limite de segurança.', D: 'Subir mais de 20 mEq/L em 24 horas traz alto risco de desmielinização.' },
@@ -181,7 +181,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Fatores de risco para desmielinização',
     e: 'Todos os fatores abaixo aumentam o risco de síndrome de desmielinização osmótica durante a correção da hiponatremia, EXCETO:',
-    o: ['Alcoolismo', 'Desnutrição', 'Hipocalemia associada', 'Hiponatremia aguda instalada em menos de 24 horas'],
+    o: ['Alcoolismo crônico, como fator de risco', 'Desnutrição, como fator de risco', 'Hipocalemia associada, como fator de risco', 'Hiponatremia aguda instalada em menos de 24 horas'],
     g: 'D',
     c: 'Na hiponatremia aguda o cérebro ainda não perdeu seus osmóis orgânicos, de modo que o risco predominante é o edema cerebral, e a correção rápida é bem tolerada. Os fatores de risco para desmielinização são sódio inicial muito baixo (igual ou menor que 105 mEq/L), cronicidade, alcoolismo, desnutrição, hipocalemia e hepatopatia.',
     x: { A: 'O alcoolismo é um dos fatores de risco mais importantes para desmielinização.', B: 'A desnutrição dificulta a recuperação dos osmóis orgânicos cerebrais.', C: 'A hipocalemia eleva o risco, e repor potássio também aumenta o sódio sérico.' },
@@ -189,7 +189,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia aguda',
     e: 'Jovem de 22 anos é trazida de uma festa após usar ecstasy e ingerir grande quantidade de água. Apresenta vômitos, agitação e rebaixamento do nível de consciência. Sódio de 118 mEq/L. Sobre esse quadro, é correto afirmar:',
-    o: ['Por ser de instalação rápida, o risco principal é a desmielinização osmótica', 'O MDMA estimula a secreção de ADH e a sede, e a hiponatremia aguda deve ser tratada com salina hipertônica', 'A correção não deve ultrapassar 4 mEq/L em 48 horas', 'O mecanismo é a perda renal de sódio por lesão tubular direta'],
+    o: ['Por ser rápida, o risco principal é a desmielinização osmótica', 'MDMA estimula ADH e sede; tratar a aguda com salina hipertônica', 'A correção não deve passar de 4 mEq/L em 48 horas', 'O mecanismo é perda renal de sódio por lesão tubular'],
     g: 'B',
     c: 'O ecstasy provoca liberação de ADH e sede intensa, e a ingestão abundante de água leva a hiponatremia hipotônica aguda. Sem tempo para adaptação cerebral, há edema e risco de herniação, sobretudo em mulheres jovens. O tratamento é o bolus de cloreto de sódio a 3%.',
     x: { A: 'Na forma aguda o perigo é o edema cerebral, e não a desmielinização.', C: 'Limite tão restrito atrasaria o tratamento de um edema cerebral potencialmente fatal.', D: 'O mecanismo é retenção de água mediada por ADH, não perda renal de sal.' },
@@ -197,7 +197,7 @@ export const ELETROLITOS_1: QuestaoCompacta[] = [
   {
     s: 'Hipercorreção',
     e: 'Homem de 59 anos, etilista, com hiponatremia hipovolêmica crônica (sódio de 108 mEq/L), recebeu salina isotônica e passou a urinar 400 mL por hora de urina diluída. Em 10 horas o sódio subiu para 121 mEq/L. A conduta mais adequada é:',
-    o: ['Manter a salina isotônica e reavaliar em 24 horas', 'Suspender a salina e administrar desmopressina com solução glicosada a 5% para frear ou reverter a correção', 'Iniciar cloreto de sódio a 3% para atingir 135 mEq/L', 'Administrar furosemida para aumentar a diurese'],
+    o: ['Manter a salina isotônica e reavaliar em 24 horas', 'Suspender a salina; desmopressina e glicose 5% para frear a correção', 'NaCl 3% para atingir 135 mEq/L, de forma rápida', 'Furosemida para aumentar a diurese, mantendo a salina'],
     g: 'B',
     c: 'A reposição de volume suprimiu o ADH e desencadeou diurese aquosa, elevando o sódio em 13 mEq/L em 10 horas, acima do limite diário em paciente de alto risco. A desmopressina interrompe a perda de água livre, e a solução glicosada reduz novamente o sódio, estratégia que diminui o risco de desmielinização.',
     x: { A: 'Manter a conduta permitiria que a hipercorreção progredisse ainda mais.', C: 'Mais sódio hipertônico aumentaria o risco de desmielinização osmótica.', D: 'A furosemida elevaria a perda de água livre e aceleraria a subida do sódio.' },

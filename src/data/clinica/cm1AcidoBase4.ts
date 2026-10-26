@@ -5,7 +5,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Acidose respiratória aguda',
     e: 'Homem de 30 anos é trazido com miose bilateral, frequência respiratória de 6 irpm e rebaixamento da consciência. Gasometria: pH 7,23; pCO2 64 mmHg; bicarbonato 26 mEq/L. O distúrbio e a conduta são:',
-    o: ['Acidose respiratória crônica; oxigênio em baixo fluxo', 'Acidose respiratória aguda por depressão do centro respiratório; suporte ventilatório e naloxona', 'Acidose metabólica; bicarbonato de sódio', 'Acidose mista; hemodiálise'],
+    o: ['Acidose respiratória crônica; oxigênio em baixo fluxo', 'Acidose respiratória aguda; suporte ventilatório e naloxona', 'Acidose metabólica; bicarbonato de sódio por via venosa', 'Acidose mista; hemodiálise de urgência com bicarbonato'],
     g: 'B',
     c: 'A tríade miose, bradipneia e coma indica intoxicação por opioide, com hipoventilação central. O bicarbonato esperado na forma aguda é 24 + 2,4 = cerca de 26 mEq/L, compatível com distúrbio simples. O tratamento é restabelecer a ventilação alveolar e reverter a causa; bicarbonato não está indicado.',
     x: { A: 'Na forma crônica o bicarbonato estaria em torno de 33 mEq/L, com pH menos ácido.', C: 'O bicarbonato não está reduzido, e administrá-lo geraria mais CO2 em paciente que não ventila.', D: 'Não há componente metabólico: o bicarbonato está no valor esperado.' },
@@ -13,7 +13,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'DPOC compensado',
     e: 'Paciente com DPOC grave, em consulta de rotina e clinicamente estável, apresenta: pH 7,35; pCO2 56 mmHg; bicarbonato 30 mEq/L. A interpretação é:',
-    o: ['Acidose respiratória aguda', 'Acidose respiratória crônica compensada', 'Alcalose metabólica primária', 'Gasometria normal'],
+    o: ['Acidose respiratória aguda', 'Acidose respiratória crônica compensada', 'Alcalose metabólica primária', 'Gasometria normal, sem distúrbio'],
     g: 'B',
     c: 'Na hipercapnia crônica o rim retém bicarbonato, cerca de 3,5 a 4 mEq/L para cada 10 mmHg de pCO2: para 56 mmHg espera-se 29,6 a 30,4 mEq/L. O pH no limite inferior da normalidade com esses valores caracteriza o retentor crônico compensado.',
     x: { A: 'Na forma aguda o bicarbonato seria de cerca de 25,6 e o pH estaria em torno de 7,28.', C: 'Na alcalose metabólica primária o pH estaria acima de 7,40.', D: 'A pCO2 e o bicarbonato estão claramente elevados, apesar do pH limítrofe.' },
@@ -21,7 +21,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'DPOC exacerbado',
     e: 'Paciente com DPOC, cuja gasometria basal mostra pCO2 de 55 mmHg, chega com exacerbação infecciosa, uso de musculatura acessória e: pH 7,24; pCO2 78 mmHg; bicarbonato 32 mEq/L. A conduta ventilatória inicial indicada é:',
-    o: ['Oxigênio a 100% por máscara com reservatório', 'Ventilação não invasiva com pressão positiva em dois níveis', 'Apenas broncodilatador e observação', 'Bicarbonato de sódio venoso'],
+    o: ['Oxigênio a 100% por máscara com reservatório', 'Ventilação não invasiva com pressão em dois níveis', 'Apenas broncodilatador inalatório e observação clínica', 'Bicarbonato de sódio venoso e reavaliação em 6 horas'],
     g: 'B',
     c: 'Trata-se de acidose respiratória crônica agudizada: o bicarbonato de 32 está acima do previsto para a forma aguda (28) e abaixo do previsto para a crônica (37 a 39). Na exacerbação do DPOC com pH abaixo de 7,35 e hipercapnia, a ventilação não invasiva reduz o trabalho respiratório, a necessidade de intubação e a mortalidade.',
     x: { A: 'Oxigênio em alta concentração pode agravar a hipercapnia no retentor crônico.', C: 'Há acidemia respiratória e fadiga, o que exige suporte ventilatório além do tratamento clínico.', D: 'O bicarbonato não trata a hipoventilação e ainda aumenta a produção de CO2.' },
@@ -29,7 +29,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Oxigênio no retentor crônico',
     e: 'O principal mecanismo pelo qual a oferta de oxigênio em alta concentração piora a hipercapnia no paciente com DPOC retentor crônico é:',
-    o: ['Broncoespasmo induzido pelo oxigênio', 'Piora da relação ventilação/perfusão por perda da vasoconstrição hipóxica, somada ao efeito Haldane', 'Aumento da produção metabólica de CO2', 'Lesão direta do centro respiratório'],
+    o: ['Broncoespasmo induzido pelo oxigênio em alta concentração', 'Piora da relação V/Q (perda da vasoconstrição hipóxica) e Haldane', 'Aumento da produção metabólica de CO2 pelos tecidos', 'Lesão direta do centro respiratório pelo oxigênio'],
     g: 'B',
     c: 'O oxigênio desfaz a vasoconstrição hipóxica, redirecionando sangue para alvéolos mal ventilados e aumentando o espaço morto fisiológico. Além disso, a hemoglobina oxigenada transporta menos CO2 (efeito Haldane), e há alguma redução do estímulo hipóxico à ventilação. Por isso o alvo de saturação é de 88% a 92%.',
     x: { A: 'O oxigênio não provoca broncoespasmo nesses pacientes.', C: 'A produção de CO2 pelos tecidos não aumenta com a oferta de oxigênio.', D: 'Não há lesão do centro respiratório; a queda do estímulo hipóxico é funcional e secundária.' },
@@ -37,7 +37,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Narcose por CO2',
     e: 'Paciente com DPOC foi mantido com oxigênio a 10 L/min por máscara e, após 2 horas, está sonolento, com saturação de 99%. Gasometria: pH 7,19; pCO2 92 mmHg; bicarbonato 34 mEq/L. A conduta mais adequada é:',
-    o: ['Suspender completamente o oxigênio', 'Reduzir o oxigênio para manter saturação de 88% a 92% e iniciar suporte ventilatório', 'Manter a oferta de oxigênio e administrar sedativo', 'Aumentar o fluxo de oxigênio'],
+    o: ['Suspender completamente o oxigênio e observar o paciente', 'Reduzir o O2 (SatO2 88-92%) e iniciar suporte ventilatório', 'Manter a oferta de oxigênio e administrar sedativo', 'Aumentar o fluxo de oxigênio, para elevar a saturação'],
     g: 'B',
     c: 'A hiperóxia agravou a hipercapnia e causou narcose. Deve-se titular o oxigênio para o alvo de 88% a 92% e oferecer suporte ventilatório (ventilação não invasiva ou intubação se houver rebaixamento importante). A retirada abrupta do oxigênio é perigosa, pois a pCO2 alveolar elevada faz a pO2 despencar.',
     x: { A: 'Retirar todo o oxigênio de forma brusca causa hipoxemia grave.', C: 'Sedativos deprimem ainda mais a ventilação de um paciente já hipercápnico.', D: 'Mais oxigênio agravaria a retenção de CO2.' },
@@ -45,7 +45,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Doença neuromuscular',
     e: 'Paciente com síndrome de Guillain-Barré evolui com fala entrecortada e tosse fraca. Gasometria em ar ambiente: pH 7,30; pCO2 52 mmHg; bicarbonato 25 mEq/L; gradiente alvéolo-arterial de oxigênio normal. A interpretação e a conduta são:',
-    o: ['Distúrbio de difusão; corticoide em pulsoterapia', 'Hipoventilação por falência da bomba ventilatória; intubação e ventilação mecânica', 'Alcalose respiratória; observação clínica', 'Shunt pulmonar; oxigênio em alto fluxo'],
+    o: ['Distúrbio de difusão; corticoide em pulsoterapia', 'Hipoventilação por falência da bomba; intubar e ventilar', 'Alcalose respiratória; observação clínica e sedativo', 'Shunt pulmonar; oxigênio em alto fluxo por máscara'],
     g: 'B',
     c: 'Nas doenças neuromusculares o parênquima pulmonar é normal, de modo que a hipoxemia decorre apenas da hipoventilação e o gradiente alvéolo-arterial é normal. A hipercapnia é um sinal tardio de fadiga; junto com a queda da capacidade vital abaixo de 15 a 20 mL/kg, indica via aérea definitiva.',
     x: { A: 'Distúrbio de difusão alargaria o gradiente alvéolo-arterial, e o corticoide não trata a síndrome.', C: 'A pCO2 está elevada com pH ácido, o que define acidose, e não alcalose respiratória.', D: 'Shunt aumentaria o gradiente, e o oxigênio isolado não corrige a hipoventilação.' },
@@ -61,7 +61,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Obesidade-hipoventilação',
     e: 'Mulher de 48 anos, índice de massa corporal de 46 kg/m2, com sonolência diurna, sem doença pulmonar ou neuromuscular, apresenta em vigília pCO2 de 54 mmHg e bicarbonato de 31 mEq/L. O diagnóstico e o tratamento de base são:',
-    o: ['Asma grave; corticoide inalatório', 'Síndrome de obesidade-hipoventilação; pressão positiva nas vias aéreas e perda de peso', 'Alcalose metabólica primária; acetazolamida isolada', 'DPOC; broncodilatador de longa ação'],
+    o: ['Asma grave; corticoide inalatório e broncodilatador', 'Obesidade-hipoventilação; pressão positiva e perda de peso', 'Alcalose metabólica primária; acetazolamida isolada', 'DPOC; broncodilatador de longa ação e oxigenoterapia'],
     g: 'B',
     c: 'A síndrome é definida por obesidade (índice de massa corporal igual ou maior que 30), hipercapnia diurna (pCO2 acima de 45 mmHg) e exclusão de outras causas de hipoventilação. O bicarbonato sérico igual ou maior que 27 mEq/L é um bom rastreio. O tratamento é pressão positiva (CPAP ou dois níveis) e redução de peso.',
     x: { A: 'Não há sibilância nem obstrução variável, e a asma estável não causa hipercapnia crônica.', C: 'O bicarbonato alto é compensação renal da hipercapnia, e não distúrbio primário.', D: 'Não há tabagismo nem doença pulmonar obstrutiva nessa paciente.' },
@@ -69,7 +69,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Manifestações da hipercapnia',
     e: 'Paciente com hipercapnia aguda apresenta cefaleia, confusão, asterixis e papiledema. Esses achados neurológicos devem-se principalmente a:',
-    o: ['Vasoconstrição cerebral com isquemia', 'Vasodilatação cerebral com aumento do fluxo e da pressão intracraniana', 'Hipocalcemia ionizada', 'Hiponatremia dilucional'],
+    o: ['Vasoconstrição cerebral com isquemia e menor pressão', 'Vasodilatação cerebral: maior fluxo e pressão intracraniana', 'Hipocalcemia ionizada, com tetania e parestesias', 'Hiponatremia dilucional, com edema cerebral secundário'],
     g: 'B',
     c: 'O CO2 atravessa livremente a barreira hematoencefálica, acidifica o líquor e é um potente vasodilatador cerebral. O aumento do fluxo sanguíneo e da pressão intracraniana explica cefaleia e papiledema, e a acidose do sistema nervoso central causa sonolência e narcose.',
     x: { A: 'A vasoconstrição cerebral é efeito da hipocapnia, e não da hipercapnia.', C: 'A queda do cálcio ionizado ocorre na alcalemia, causando parestesias e tetania.', D: 'A hipercapnia não causa hiponatremia como mecanismo dos sintomas.' },
@@ -85,7 +85,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Tetania na alcalose',
     e: 'As parestesias e a tetania observadas na alcalose respiratória aguda, com cálcio total normal, explicam-se por:',
-    o: ['Perda urinária aguda de cálcio', 'Aumento da ligação do cálcio à albumina, com queda da fração ionizada', 'Deslocamento de cálcio para o interior dos ossos', 'Hipermagnesemia associada'],
+    o: ['Perda urinária aguda de cálcio, pela alcalemia', 'Mais cálcio ligado à albumina; cai a fração ionizada', 'Deslocamento de cálcio para os ossos, pela alcalemia', 'Hipermagnesemia associada, com depressão neuromuscular'],
     g: 'B',
     c: 'Com a alcalemia, a albumina libera íons hidrogênio e expõe cargas negativas que passam a ligar cálcio. A fração ionizada, que é a fisiologicamente ativa, diminui e aumenta a excitabilidade neuromuscular, embora o cálcio total permaneça normal.',
     x: { A: 'Não há calciúria aguda relevante; o cálcio total não se altera.', C: 'A alcalemia aguda não provoca deposição óssea imediata de cálcio.', D: 'A hipermagnesemia deprime a excitabilidade neuromuscular, o oposto da tetania.' },
@@ -93,7 +93,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Tromboembolia pulmonar',
     e: 'Paciente em pós-operatório de artroplastia de quadril apresenta dispneia súbita e taquicardia. Gasometria em ar ambiente: pH 7,50; pCO2 29 mmHg; bicarbonato 22 mEq/L; pO2 62 mmHg. O padrão gasométrico é:',
-    o: ['Acidose respiratória aguda com hipoxemia', 'Alcalose respiratória aguda com hipoxemia e gradiente alvéolo-arterial aumentado', 'Alcalose metabólica com hipoventilação', 'Gasometria normal, que afasta embolia pulmonar'],
+    o: ['Acidose respiratória aguda com hipoxemia importante', 'Alcalose respiratória aguda, hipoxemia e gradiente A-a alto', 'Alcalose metabólica com hipoventilação compensatória', 'Gasometria normal, que afasta embolia pulmonar'],
     g: 'B',
     c: 'Na tromboembolia pulmonar, a hipoxemia e o estímulo de receptores pulmonares provocam hiperventilação, gerando hipocapnia e alcalose respiratória. A hipoxemia apesar da pCO2 baixa mostra gradiente alvéolo-arterial alargado, por desequilíbrio entre ventilação e perfusão. Hipercapnia só aparece em embolia maciça.',
     x: { A: 'A pCO2 está baixa e o pH alcalino, o oposto de acidose respiratória.', C: 'O bicarbonato não está elevado e a pCO2 está reduzida.', D: 'A gasometria está alterada, e mesmo gasometria normal não exclui embolia pulmonar.' },
@@ -109,7 +109,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Gravidez',
     e: 'Gestante de 30 semanas, assintomática, realiza gasometria arterial: pH 7,45; pCO2 30 mmHg; bicarbonato 20 mEq/L. A interpretação correta é:',
-    o: ['Acidose metabólica compensada, a investigar', 'Alcalose respiratória crônica compensada, fisiológica da gestação', 'Alcalose respiratória aguda por ansiedade', 'Erro de coleta'],
+    o: ['Acidose metabólica compensada, a investigar melhor', 'Alcalose respiratória crônica compensada, fisiológica', 'Alcalose respiratória aguda por ansiedade da gestante', 'Erro de coleta da amostra arterial, a repetir'],
     g: 'B',
     c: 'A progesterona estimula o centro respiratório e aumenta o volume corrente, reduzindo a pCO2 para cerca de 30 mmHg. O rim compensa excretando bicarbonato, que fica em 18 a 21 mEq/L, com pH discretamente alcalino. Por isso uma pCO2 de 40 mmHg em gestante com asma já indica retenção.',
     x: { A: 'Na acidose metabólica o pH estaria abaixo de 7,40.', C: 'Na forma aguda o bicarbonato seria de 22 e o pH próximo de 7,50.', D: 'Os valores são os esperados para o terceiro trimestre de gestação.' },
@@ -125,7 +125,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Altitude',
     e: 'A acetazolamida é usada na profilaxia do mal agudo da montanha. Seu benefício decorre de:',
-    o: ['Vasodilatação pulmonar direta', 'Indução de acidose metabólica por bicarbonatúria, que estimula a ventilação e acelera a aclimatação', 'Redução do consumo de oxigênio pelos tecidos', 'Aumento da afinidade da hemoglobina pelo oxigênio'],
+    o: ['Vasodilatação pulmonar direta, que reduz a hipertensão', 'Acidose por bicarbonatúria: estimula a ventilação e aclimata', 'Redução do consumo de oxigênio pelos tecidos', 'Maior afinidade da hemoglobina pelo oxigênio'],
     g: 'B',
     c: 'Na altitude, a hipoxemia provoca hiperventilação, mas a alcalose respiratória resultante freia o centro respiratório. A acetazolamida inibe a anidrase carbônica renal e causa bicarbonatúria, reproduzindo de forma rápida a compensação renal; a acidose metabólica leve libera a ventilação e melhora a oxigenação.',
     x: { A: 'A acetazolamida não é vasodilatador pulmonar; esse é o efeito do nifedipino e do sildenafil.', C: 'O fármaco não reduz o consumo tecidual de oxigênio.', D: 'A acidose desloca a curva para a direita, reduzindo a afinidade pelo oxigênio.' },
@@ -133,7 +133,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Salicilato',
     e: 'Jovem com zumbido, vômitos e taquipneia após ingestão de grande quantidade de ácido acetilsalicílico apresenta: pH 7,42; pCO2 16 mmHg; bicarbonato 10 mEq/L; sódio 140 mEq/L; cloro 104 mEq/L. O distúrbio é:',
-    o: ['Acidose metabólica simples com compensação adequada', 'Acidose metabólica com ânion gap aumentado associada a alcalose respiratória', 'Alcalose respiratória crônica compensada', 'Acidose metabólica hiperclorêmica associada a acidose respiratória'],
+    o: ['Acidose metabólica simples com compensação adequada', 'Acidose metabólica com AG aumentado e alcalose respiratória', 'Alcalose respiratória crônica compensada', 'Acidose hiperclorêmica e acidose respiratória'],
     g: 'B',
     c: 'O ânion gap é 140 - (104 + 10) = 26 mEq/L, aumentado. Para bicarbonato de 10, a pCO2 esperada seria 23 (21 a 25) mmHg; o valor de 16 indica alcalose respiratória associada. O salicilato estimula diretamente o centro respiratório e desacopla a fosforilação oxidativa, gerando acúmulo de lactato e cetoácidos.',
     x: { A: 'A pCO2 está abaixo do previsto pela fórmula de Winter, e o pH não ficaria normal em distúrbio simples.', C: 'Na alcalose respiratória crônica o ânion gap seria normal e o bicarbonato não cairia a 10.', D: 'O ânion gap está aumentado e a pCO2 está baixa, e não alta.' },
@@ -141,7 +141,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Sepse com falência ventilatória',
     e: 'Paciente com pneumonia grave e choque séptico, muito taquipneico e com uso de musculatura acessória, apresenta: pH 7,13; pCO2 40 mmHg; bicarbonato 13 mEq/L; lactato 7 mmol/L. A interpretação correta da pCO2 é:',
-    o: ['Normal, indicando boa reserva ventilatória', 'Inadequadamente alta para o grau de acidose metabólica, indicando acidose respiratória associada e fadiga iminente', 'Baixa, indicando alcalose respiratória associada', 'Compatível com a compensação prevista pela fórmula de Winter'],
+    o: ['Normal, indicando boa reserva ventilatória do paciente', 'Inadequadamente alta: acidose respiratória e fadiga iminente', 'Baixa, indicando alcalose respiratória associada', 'Compatível com a compensação prevista pela fórmula de Winter'],
     g: 'B',
     c: 'Para bicarbonato de 13, a pCO2 esperada é 1,5 x 13 + 8 = 27,5 (25,5 a 29,5) mmHg. Uma pCO2 de 40 significa que o paciente não consegue mais hiperventilar o suficiente: há acidose respiratória associada, sinal de falência ventilatória que indica suporte ventilatório.',
     x: { A: 'pCO2 normal em acidose metabólica grave é sinal de alarme, e não de boa reserva.', C: 'A pCO2 está acima, e não abaixo, do valor esperado.', D: 'A fórmula de Winter prevê cerca de 27,5 mmHg, bem abaixo de 40.' },
@@ -149,7 +149,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Parada cardiorrespiratória',
     e: 'Gasometria arterial colhida logo após o retorno da circulação espontânea em parada cardiorrespiratória: pH 6,94; pCO2 68 mmHg; bicarbonato 14 mEq/L; lactato 12 mmol/L. O distúrbio é:',
-    o: ['Acidose metabólica simples', 'Acidose mista, respiratória e metabólica (lática)', 'Acidose respiratória aguda simples', 'Acidose metabólica com alcalose respiratória'],
+    o: ['Acidose metabólica simples, com compensação respiratória', 'Acidose mista: respiratória e metabólica (lática)', 'Acidose respiratória aguda simples, sem componente lático', 'Acidose metabólica com alcalose respiratória associada'],
     g: 'B',
     c: 'Na parada cardiorrespiratória coexistem a ausência de ventilação, que retém CO2, e a hipoperfusão global, que gera acidose lática. A pCO2 alta com bicarbonato baixo mostra os dois parâmetros desviados para o lado ácido, o que explica a acidemia extrema. O tratamento é restabelecer ventilação e perfusão.',
     x: { A: 'Na acidose metabólica simples a pCO2 estaria reduzida para cerca de 29 mmHg.', C: 'Na acidose respiratória aguda simples o bicarbonato estaria em torno de 27, e não em 14.', D: 'A pCO2 está muito elevada, o que exclui alcalose respiratória.' },
@@ -165,7 +165,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Vômitos em cetoacidose',
     e: 'Diabético tipo 1 com vômitos incoercíveis há 2 dias apresenta glicemia 520 mg/dL, cetonemia fortemente positiva e: pH 7,39; pCO2 38 mmHg; bicarbonato 22 mEq/L; sódio 136 mEq/L; cloro 88 mEq/L. A conclusão correta é:',
-    o: ['Não há distúrbio ácido-básico, pois a gasometria é normal', 'Há acidose metabólica com ânion gap aumentado associada a alcalose metabólica', 'Há acidose hiperclorêmica associada a alcalose respiratória', 'Há alcalose metabólica isolada'],
+    o: ['Sem distúrbio ácido-básico, pois a gasometria é normal', 'Acidose com AG aumentado associada a alcalose metabólica', 'Acidose hiperclorêmica associada a alcalose respiratória', 'Alcalose metabólica isolada, por perda de ácido gástrico'],
     g: 'B',
     c: 'O ânion gap é 136 - (88 + 22) = 26 mEq/L, cerca de 14 a 16 acima do normal, enquanto o bicarbonato caiu apenas 2. A relação delta/delta muito acima de 2 mostra que os vômitos geraram alcalose metabólica que mascara a cetoacidose. Por isso o ânion gap deve ser calculado mesmo com pH normal.',
     x: { A: 'O ânion gap de 26 revela acidose oculta, apesar de pH e bicarbonato normais.', C: 'O cloro está baixo e o ânion gap alto, o oposto de acidose hiperclorêmica.', D: 'Na alcalose metabólica isolada o bicarbonato estaria alto e o ânion gap normal.' },
@@ -173,7 +173,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Gasometria venosa x arterial',
     e: 'Em comparação com a gasometria arterial, a gasometria venosa em paciente hemodinamicamente estável apresenta:',
-    o: ['pH mais alto e pCO2 mais baixa', 'pH cerca de 0,03 a 0,05 menor, pCO2 cerca de 4 a 6 mmHg maior e bicarbonato semelhante', 'Valores idênticos de pO2, podendo avaliar a oxigenação', 'Bicarbonato 10 mEq/L mais baixo'],
+    o: ['pH mais alto e pCO2 mais baixa que a arterial', 'pH 0,03-0,05 menor, pCO2 4-6 mmHg maior, HCO3 igual', 'pO2 idêntica, podendo avaliar a oxigenação do paciente', 'Bicarbonato 10 mEq/L mais baixo que o arterial'],
     g: 'B',
     c: 'O sangue venoso carrega o CO2 produzido nos tecidos, por isso tem pCO2 um pouco maior e pH um pouco menor, com bicarbonato 1 a 2 mEq/L maior. Ela é adequada para acompanhar pH e bicarbonato, como na cetoacidose diabética, mas não avalia a oxigenação, e a diferença aumenta no choque.',
     x: { A: 'É o inverso: o sangue venoso é mais ácido e tem mais CO2.', C: 'A pO2 venosa é muito menor (cerca de 40 mmHg) e não reflete a oxigenação arterial.', D: 'O bicarbonato venoso é praticamente igual, ou discretamente maior, que o arterial.' },
@@ -181,7 +181,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'pH e potássio',
     e: 'Paciente com cetoacidose diabética grave apresenta potássio sérico de 5,6 mEq/L na admissão. Sobre o potássio nesse contexto, é correto afirmar:',
-    o: ['Há excesso de potássio corporal total, e ele não deve ser reposto durante o tratamento', 'Há déficit de potássio corporal total; o valor sérico reflete saída do potássio das células e cairá com insulina e correção da acidemia', 'A acidemia desloca potássio para dentro das células', 'A insulina eleva o potássio sérico'],
+    o: ['Há excesso de K+ corporal; não repor durante o tratamento', 'Há déficit de K+ corporal; cairá com insulina e correção', 'A acidemia desloca potássio para dentro das células', 'A insulina eleva o potássio sérico durante o tratamento'],
     g: 'B',
     c: 'A deficiência de insulina, a hiperosmolaridade e a acidemia deslocam potássio para o extracelular, enquanto a diurese osmótica causa grande perda urinária. Com a insulina e a correção do pH, o potássio volta às células e o nível sérico cai rapidamente; por isso a reposição começa quando o potássio está abaixo de 5,0 a 5,3 mEq/L com diurese presente.',
     x: { A: 'O potássio corporal total está depletado pela diurese osmótica, apesar do nível sérico alto.', C: 'A acidemia desloca potássio para fora das células; é a alcalemia que o desloca para dentro.', D: 'A insulina ativa a bomba sódio-potássio e reduz o potássio sérico.' },
@@ -189,7 +189,7 @@ export const ACIDO_BASE_4: QuestaoCompacta[] = [
   {
     s: 'Curva de dissociação da hemoglobina',
     e: 'A acidemia altera a curva de dissociação da oxi-hemoglobina da seguinte forma:',
-    o: ['Desvio para a esquerda, com maior afinidade pelo oxigênio', 'Desvio para a direita, com menor afinidade e maior liberação de oxigênio aos tecidos', 'Não altera a curva, apenas o conteúdo de oxigênio dissolvido', 'Desvio para a esquerda, com aumento da P50'],
+    o: ['Desvio para a esquerda, com maior afinidade pelo oxigênio', 'Desvio para a direita: menor afinidade, mais O2 aos tecidos', 'Não altera a curva, apenas o oxigênio dissolvido', 'Desvio para a esquerda, com aumento da P50 da hemoglobina'],
     g: 'B',
     c: 'Pelo efeito Bohr, o aumento de íons hidrogênio e de CO2 estabiliza a forma desoxigenada da hemoglobina, deslocando a curva para a direita e elevando a P50. Isso facilita a liberação de oxigênio nos tecidos; febre e aumento do 2,3-difosfoglicerato agem no mesmo sentido, enquanto a alcalemia faz o oposto.',
     x: { A: 'O desvio para a esquerda ocorre na alcalemia, na hipotermia e com monóxido de carbono.', C: 'O pH é um dos principais moduladores da afinidade da hemoglobina.', D: 'Desvio para a esquerda reduz a P50; a combinação citada é contraditória.' },

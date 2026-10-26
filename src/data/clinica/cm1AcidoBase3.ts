@@ -5,7 +5,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Geração e manutenção',
     e: 'O rim normal excreta rapidamente qualquer excesso de bicarbonato. Para que uma alcalose metabólica persista, é necessário um fator de manutenção, como:',
-    o: ['Aumento da filtração glomerular', 'Depleção de volume e de cloreto, hipocalemia ou excesso de mineralocorticoide', 'Hipercalemia e expansão do volume extracelular', 'Aumento da ventilação alveolar'],
+    o: ['Aumento da filtração glomerular, com mais bicarbonato filtrado', 'Depleção de volume e cloreto, hipocalemia ou mineralocorticoide', 'Hipercalemia e expansão do volume extracelular, por tempo', 'Aumento da ventilação alveolar, com queda da pCO2 arterial'],
     g: 'B',
     c: 'A alcalose metabólica tem uma fase de geração (perda de ácido ou ganho de base) e uma de manutenção, em que o rim fica impedido de eliminar o bicarbonato. A depleção de volume e de cloreto, a hipocalemia e o hiperaldosteronismo aumentam a reabsorção de bicarbonato e a secreção distal de hidrogênio.',
     x: { A: 'Maior filtração aumentaria a carga filtrada e a excreção de bicarbonato, corrigindo a alcalose.', C: 'Hipercalemia e expansão de volume favorecem a bicarbonatúria, e não a manutenção.', D: 'A ventilação determina a pCO2, e não a retenção renal de bicarbonato.' },
@@ -13,7 +13,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Vômitos',
     e: 'Homem com estenose péptica do piloro e vômitos repetidos apresenta: pH 7,48; pCO2 53 mmHg; bicarbonato 38 mEq/L; potássio 2,8 mEq/L; cloro sérico 84 mEq/L; cloro urinário 8 mEq/L. O tratamento que corrige o distúrbio é:',
-    o: ['Espironolactona por via oral', 'Soro fisiológico a 0,9% com cloreto de potássio', 'Acetazolamida por via venosa', 'Restrição hídrica e furosemida'],
+    o: ['Espironolactona por via oral, em dose habitual', 'Soro fisiológico 0,9% com cloreto de potássio', 'Acetazolamida por via venosa, em dose habitual', 'Restrição hídrica e furosemida por via venosa'],
     g: 'B',
     c: 'Trata-se de alcalose metabólica cloro-responsiva (cloro urinário abaixo de 20 mEq/L), com compensação adequada (pCO2 esperada de 53 mmHg). A reposição de volume e de cloreto desliga o estímulo à reabsorção de sódio com bicarbonato e permite a bicarbonatúria; o potássio corrige o outro fator de manutenção.',
     x: { A: 'A espironolactona é usada nas formas por excesso de mineralocorticoide, com cloro urinário alto.', C: 'A acetazolamida é reservada a pacientes hipervolêmicos e agravaria a hipocalemia e a hipovolemia.', D: 'Restrição hídrica e diurético piorariam a depleção de volume que mantém a alcalose.' },
@@ -29,7 +29,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Acidúria paradoxal',
     e: 'Em um paciente com alcalose metabólica por vômitos prolongados, o encontro de urina ácida (acidúria paradoxal) explica-se por:',
-    o: ['Lesão tubular distal com incapacidade de excretar bicarbonato', 'Reabsorção ávida de sódio com bicarbonato e secreção distal de hidrogênio, estimuladas pela hipovolemia, aldosterona e hipocalemia', 'Aumento da filtração glomerular de ácidos orgânicos', 'Perda urinária de amônia pela alcalemia'],
+    o: ['Lesão tubular distal, com incapacidade de excretar HCO3', 'Reabsorção de Na com HCO3 e secreção de H+, por hipovolemia', 'Aumento da filtração glomerular de ácidos orgânicos fixos', 'Perda urinária de amônia, causada pela própria alcalemia'],
     g: 'B',
     c: 'A depleção de volume ativa o sistema renina-angiotensina-aldosterona. O túbulo proximal reabsorve sódio junto com bicarbonato, pois falta cloreto, e no néfron distal a aldosterona e a hipocalemia estimulam a secreção de hidrogênio. A prioridade renal passa a ser conservar volume, à custa de manter a alcalose.',
     x: { A: 'Não há lesão tubular; o túbulo funciona, mas responde ao estímulo de conservar sódio.', C: 'Não há aumento da filtração nem acúmulo de ácidos orgânicos nesse quadro.', D: 'A hipocalemia aumenta a amoniogênese, e a urina ácida decorre da secreção de hidrogênio.' },
@@ -37,7 +37,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Hipocalemia nos vômitos',
     e: 'A hipocalemia que acompanha a alcalose metabólica dos vômitos prolongados deve-se principalmente a:',
-    o: ['Perda de potássio no suco gástrico', 'Perda urinária de potássio por hiperaldosteronismo secundário e bicarbonatúria', 'Redução da ingestão alimentar de potássio', 'Diluição pelo aumento da água corporal total'],
+    o: ['Perda de potássio no suco gástrico, em grande volume', 'Perda urinária de K+ por hiperaldosteronismo e bicarbonatúria', 'Menor ingestão alimentar de potássio durante o internamento', 'Diluição pelo aumento da água corporal total do paciente'],
     g: 'B',
     c: 'O suco gástrico contém pouco potássio (cerca de 10 mEq/L). A perda relevante é renal: a hipovolemia eleva a aldosterona, e o bicarbonato que chega ao néfron distal, como ânion não reabsorvível, aumenta a secreção de potássio. A alcalemia também desloca potássio para dentro das células.',
     x: { A: 'O conteúdo de potássio do suco gástrico é baixo e não explica o déficit observado.', C: 'A baixa ingestão contribui pouco, pois o rim normal conserva potássio com eficiência.', D: 'Nesses pacientes há depleção, e não expansão, da água corporal.' },
@@ -45,7 +45,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Sonda nasogástrica',
     e: 'Paciente com obstrução intestinal, em uso de sonda nasogástrica em sifonagem há 4 dias, apresenta: pH 7,46; pCO2 49 mmHg; bicarbonato 34 mEq/L; cloro 88 mEq/L; potássio 3,1 mEq/L. O mecanismo de geração da alcalose é:',
-    o: ['Ganho de bicarbonato exógeno pela dieta', 'Perda de ácido clorídrico, com retorno ao sangue do bicarbonato gerado na célula parietal', 'Desvio de hidrogênio para o intracelular pela hipercalemia', 'Hiperventilação alveolar pela dor'],
+    o: ['Ganho de bicarbonato exógeno pela dieta e pelas soluções', 'Perda de HCl: o HCO3 da célula parietal volta ao sangue', 'Desvio de H+ para o intracelular pela hipercalemia', 'Hiperventilação alveolar causada por dor e ansiedade'],
     g: 'B',
     c: 'Para cada hidrogênio secretado no lúmen gástrico, a célula parietal devolve um bicarbonato ao sangue. Normalmente esse bicarbonato é neutralizado pela secreção pancreática estimulada pelo ácido no duodeno; com a drenagem gástrica, o bicarbonato se acumula e o cloreto é perdido.',
     x: { A: 'Não há fonte exógena de álcali nesse paciente em jejum.', C: 'O paciente tem hipocalemia, e não hipercalemia.', D: 'A hiperventilação reduziria a pCO2, que aqui está elevada por compensação.' },
@@ -53,7 +53,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Diuréticos',
     e: 'Sobre a alcalose metabólica induzida por diuréticos de alça e tiazídicos, é correto afirmar:',
-    o: ['O cloro urinário é sempre baixo, mesmo durante a ação da droga', 'O cloro urinário é alto durante a ação do diurético e baixo após cessado o efeito', 'É classificada como alcalose com hipertensão e renina suprimida', 'Decorre de redução da oferta distal de sódio'],
+    o: ['O cloro urinário é sempre baixo, mesmo sob a droga', 'Cloro urinário alto durante o diurético e baixo depois', 'Alcalose com hipertensão e renina suprimida', 'Decorre de redução da oferta distal de sódio'],
     g: 'B',
     c: 'Esses diuréticos aumentam a oferta de sódio e cloreto ao néfron distal e causam contração de volume com hiperaldosteronismo secundário, elevando a secreção de potássio e hidrogênio. Enquanto a droga age, o cloro urinário é alto; depois, o rim passa a conservar cloreto e o valor fica baixo, comportando-se como forma cloro-responsiva.',
     x: { A: 'Durante o efeito do diurético há cloriurese, e o cloro urinário se eleva.', C: 'Na alcalose por diurético a renina está elevada pela hipovolemia, sem hipertensão obrigatória.', D: 'O mecanismo é o aumento, e não a redução, da oferta distal de sódio.' },
@@ -61,7 +61,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Alcalose de contração',
     e: 'Paciente com insuficiência cardíaca perde 8 litros de edema em poucos dias com furosemida venosa e passa a apresentar bicarbonato mais elevado. O conceito de alcalose de contração refere-se a:',
-    o: ['Produção hepática aumentada de bicarbonato', 'Perda de líquido pobre em bicarbonato, concentrando o bicarbonato restante em um volume extracelular menor', 'Aumento da reabsorção intestinal de álcali', 'Hipoventilação pela congestão pulmonar'],
+    o: ['Produção hepática aumentada de bicarbonato pela diurese', 'Perda de líquido pobre em HCO3, que concentra o restante', 'Maior reabsorção intestinal de álcali, com a diurese', 'Hipoventilação por congestão pulmonar, com retenção de CO2'],
     g: 'B',
     c: 'Quando se perde líquido contendo cloreto de sódio, mas quase sem bicarbonato, a mesma quantidade de bicarbonato fica distribuída em um volume extracelular reduzido, elevando sua concentração. A hipovolemia relativa e o hiperaldosteronismo secundário mantêm o distúrbio.',
     x: { A: 'O fígado não produz bicarbonato em excesso nessa situação.', C: 'Não há aumento da absorção intestinal de base com o uso de diurético.', D: 'A hipoventilação eleva a pCO2 e causa acidose respiratória, não alcalose metabólica.' },
@@ -69,7 +69,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário',
     e: 'Mulher de 42 anos, hipertensa de difícil controle e sem uso de diuréticos, apresenta: pH 7,45; pCO2 46 mmHg; bicarbonato 31 mEq/L; potássio 2,9 mEq/L; cloro urinário 45 mEq/L. O exame inicial mais adequado é:',
-    o: ['Dosagem de cloro no suor', 'Relação aldosterona/atividade de renina plasmática', 'Dosagem de magnésio urinário', 'Endoscopia digestiva alta'],
+    o: ['Dosagem de cloro no suor, para fibrose cística', 'Relação aldosterona/atividade de renina plasmática', 'Dosagem de magnésio urinário de 24 horas', 'Endoscopia digestiva alta, para avaliar vômitos'],
     g: 'B',
     c: 'Hipertensão com alcalose metabólica hipocalêmica e cloro urinário alto indica excesso de mineralocorticoide. No hiperaldosteronismo primário a aldosterona está elevada com renina suprimida, e a relação aldosterona/renina alta é o teste de rastreamento. A aldosterona aumenta a reabsorção de sódio e a secreção de potássio e hidrogênio no ducto coletor.',
     x: { A: 'O cloro no suor investiga fibrose cística, que não explica hipertensão com cloro urinário alto.', C: 'O magnésio é útil na suspeita de Gitelman, que cursa com pressão normal ou baixa.', D: 'Não há história de vômitos, e o cloro urinário alto afasta perda gástrica.' },
@@ -77,7 +77,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Alcalose cloro-resistente',
     e: 'Em paciente com alcalose metabólica por hiperaldosteronismo primário, a infusão de soro fisiológico não corrige o distúrbio porque:',
-    o: ['O paciente está hipovolêmico e precisa de coloide', 'A alcalose é mantida pelo excesso de mineralocorticoide e pela hipocalemia, com volume extracelular expandido', 'O cloreto infundido é totalmente retido no túbulo proximal', 'A salina reduz a filtração glomerular'],
+    o: ['Hipovolêmico, precisando de coloide ou de albumina', 'Alcalose mantida por mineralocorticoide e hipocalemia', 'O cloreto infundido é retido no túbulo proximal', 'A salina reduz a filtração glomerular e a diurese'],
     g: 'B',
     c: 'Nas formas cloro-resistentes não há depleção de volume nem de cloreto: o paciente está expandido e o cloro urinário é alto. A manutenção se deve à ação direta da aldosterona e à hipocalemia; o tratamento é a reposição de potássio, o bloqueio mineralocorticoide com espironolactona e a correção da causa.',
     x: { A: 'O volume extracelular está expandido, e não reduzido, nesse paciente.', C: 'O cloreto infundido é excretado, o que explica o cloro urinário elevado.', D: 'A salina tende a aumentar, e não a reduzir, a filtração glomerular.' },
@@ -85,7 +85,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Bartter',
     e: 'Criança com poliúria, déficit de crescimento, pressão arterial normal, alcalose metabólica hipocalêmica, cloro urinário elevado e hipercalciúria com nefrocalcinose. O defeito está localizado:',
-    o: ['No cotransportador sódio-cloro do túbulo contorcido distal', 'No transporte de sódio, potássio e cloro do ramo ascendente espesso da alça de Henle', 'No canal epitelial de sódio do ducto coletor, com ganho de função', 'Na anidrase carbônica do túbulo proximal'],
+    o: ['No cotransportador Na-Cl do túbulo distal', 'No transporte Na-K-2Cl do ramo ascendente espesso', 'No canal epitelial de sódio do coletor, com ganho de função', 'Na anidrase carbônica do túbulo proximal'],
     g: 'B',
     c: 'A síndrome de Bartter resulta de defeito na reabsorção de sódio, potássio e cloro na alça de Henle, simulando o uso crônico de furosemida. A perda de sal causa hiperaldosteronismo secundário com pressão normal, e a perda do gradiente elétrico que promove a reabsorção de cálcio explica a hipercalciúria.',
     x: { A: 'Esse é o defeito da síndrome de Gitelman, que cursa com hipocalciúria e hipomagnesemia.', C: 'Esse é o defeito da síndrome de Liddle, que cursa com hipertensão.', D: 'Defeito da anidrase carbônica causaria acidose tubular proximal, e não alcalose.' },
@@ -109,7 +109,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Cushing',
     e: 'Homem tabagista de 62 anos, com massa pulmonar, apresenta hipertensão, fraqueza proximal, hiperpigmentação cutânea e: pH 7,48; pCO2 52 mmHg; bicarbonato 37 mEq/L; potássio 2,3 mEq/L. O mecanismo da alcalose é:',
-    o: ['Perda gástrica de ácido clorídrico', 'Excesso de cortisol por secreção ectópica de ACTH, que satura a 11-beta-hidroxiesteroide desidrogenase tipo 2 e ativa o receptor mineralocorticoide', 'Mutação inativadora do cotransportador sódio-cloro', 'Hipoaldosteronismo hiporreninêmico'],
+    o: ['Perda gástrica de ácido clorídrico por vômitos ocultos', 'Excesso de cortisol (ACTH ectópico) satura a 11-beta-HSD2', 'Mutação inativadora do cotransportador Na-Cl distal', 'Hipoaldosteronismo hiporreninêmico, com acidose tubular'],
     g: 'B',
     c: 'Na secreção ectópica de ACTH, como no carcinoma de pequenas células, o cortisol atinge níveis muito altos e ultrapassa a capacidade da enzima renal que o inativa em cortisona. O cortisol livre passa a ativar o receptor mineralocorticoide, gerando hipertensão, hipocalemia intensa e alcalose metabólica cloro-resistente.',
     x: { A: 'Não há relato de vômitos, e a perda gástrica não explica hipertensão e hiperpigmentação.', C: 'Esse defeito causa síndrome de Gitelman, com pressão normal ou baixa.', D: 'O hipoaldosteronismo causa acidose hipercalêmica, o oposto do quadro.' },
@@ -125,7 +125,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Alcalose pós-hipercapnia',
     e: 'Paciente com DPOC e hipercapnia crônica é intubado e ventilado. Horas depois: pH 7,58; pCO2 42 mmHg; bicarbonato 38 mEq/L. A explicação para a alcalemia é:',
-    o: ['Alcalose respiratória por hiperventilação em relação ao normal', 'Alcalose metabólica pós-hipercapnia: a pCO2 foi normalizada rapidamente, mas o bicarbonato retido pelo rim persiste', 'Alcalose metabólica por perda gástrica', 'Erro de coleta com amostra venosa'],
+    o: ['Alcalose respiratória por hiperventilação mecânica excessiva', 'Alcalose pós-hipercapnia: o bicarbonato retido persiste', 'Alcalose metabólica por perda gástrica de ácido', 'Erro de coleta, com amostra de sangue venoso'],
     g: 'B',
     c: 'Na hipercapnia crônica o rim retém bicarbonato como compensação. Se a ventilação mecânica reduz a pCO2 em minutos, o bicarbonato elevado permanece, pois sua excreção exige dias e depende de cloreto e volume adequados. O resultado é alcalemia, com risco de arritmias e convulsões; deve-se reduzir a pCO2 gradualmente e repor cloreto.',
     x: { A: 'A pCO2 de 42 está normal; o que mantém o pH alto é o bicarbonato de 38.', C: 'Não há perda gástrica; o bicarbonato alto vem da compensação renal prévia.', D: 'Amostra venosa teria pH mais baixo e pCO2 mais alta, e não alcalemia.' },
@@ -157,7 +157,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Estenose hipertrófica do piloro',
     e: 'Lactente de 5 semanas com vômitos não biliosos em jato após as mamadas e oliva palpável no epigástrio apresenta: pH 7,46; pCO2 48 mmHg; bicarbonato 33 mEq/L; cloro 86 mEq/L; potássio 3,0 mEq/L. A conduta correta é:',
-    o: ['Piloromiotomia imediata, antes de qualquer correção', 'Corrigir a desidratação e a alcalose hipoclorêmica com salina e potássio antes da piloromiotomia', 'Infundir bicarbonato de sódio para corrigir a hipocalemia', 'Iniciar inibidor de bomba de prótons e alta'],
+    o: ['Piloromiotomia imediata, antes de qualquer correção', 'Corrigir alcalose e desidratação com salina e potássio', 'Infundir bicarbonato para corrigir a hipocalemia', 'Iniciar inibidor de bomba de prótons e dar alta'],
     g: 'B',
     c: 'A estenose hipertrófica do piloro causa a clássica alcalose metabólica hipoclorêmica e hipocalêmica. Não é emergência cirúrgica: a alcalose aumenta o risco de apneia e hipoventilação no pós-anestésico, de modo que volume, cloreto e potássio devem ser corrigidos antes da operação.',
     x: { A: 'Operar com alcalose não corrigida aumenta o risco de apneia após a anestesia.', C: 'O bicarbonato agravaria a alcalose e a hipocalemia.', D: 'O tratamento definitivo é cirúrgico; a obstrução é mecânica.' },
@@ -165,7 +165,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Perdas intestinais com alcalose',
     e: 'A maioria das diarreias causa acidose metabólica. Uma causa de diarreia que cursa com alcalose metabólica é:',
-    o: ['Cólera', 'Adenoma viloso do reto ou cloridorreia congênita', 'Diarreia por rotavírus', 'Síndrome do intestino curto com acidose por D-lactato'],
+    o: ['Cólera, com diarreia aquosa intensa', 'Adenoma viloso do reto ou cloridorreia congênita', 'Diarreia por rotavírus, em lactentes', 'Intestino curto com acidose por D-lactato'],
     g: 'B',
     c: 'Na cloridorreia congênita há defeito do trocador cloro/bicarbonato intestinal, com perda fecal de cloreto e retenção de bicarbonato. No adenoma viloso há secreção de muco rico em potássio e cloreto, com depleção de volume; em ambos ocorre alcalose hipocalêmica cloro-responsiva. O abuso de laxativos também pode causá-la.',
     x: { A: 'A cólera causa perda maciça de bicarbonato nas fezes, com acidose hiperclorêmica.', C: 'O rotavírus causa diarreia com perda de bicarbonato e acidose metabólica.', D: 'A acidose por D-lactato é uma acidose com ânion gap aumentado.' },
@@ -189,7 +189,7 @@ export const ACIDO_BASE_3: QuestaoCompacta[] = [
   {
     s: 'Efeitos da alcalemia',
     e: 'São consequências da alcalemia grave todas as abaixo, EXCETO:',
-    o: ['Redução do cálcio ionizado, com parestesias e tetania', 'Hipocalemia e arritmias cardíacas', 'Vasoconstrição cerebral e redução do limiar convulsivo', 'Desvio da curva de dissociação da hemoglobina para a direita, facilitando a liberação de oxigênio'],
+    o: ['Redução do cálcio ionizado, com parestesias e tetania', 'Hipocalemia e arritmias cardíacas', 'Vasoconstrição cerebral e menor limiar convulsivo', 'Desvio da curva da Hb para a direita (mais O2 aos tecidos)'],
     g: 'D',
     c: 'A alcalemia desvia a curva de dissociação da hemoglobina para a esquerda (efeito Bohr), aumentando a afinidade pelo oxigênio e dificultando sua liberação aos tecidos. Soma-se a hipoventilação compensatória, o que pode agravar a hipóxia tecidual.',
     x: { A: 'Verdadeiro: a alcalemia aumenta a ligação do cálcio à albumina, reduzindo a fração ionizada.', B: 'Verdadeiro: o potássio entra nas células e é perdido na urina, predispondo a arritmias.', C: 'Verdadeiro: a alcalemia causa vasoconstrição cerebral e excitabilidade neuronal.' },

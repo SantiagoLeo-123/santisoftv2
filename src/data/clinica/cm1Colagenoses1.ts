@@ -13,7 +13,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'LES: patogenia',
     e: 'O principal mecanismo de lesão tecidual no lúpus eritematoso sistêmico, responsável pela glomerulonefrite e pelo consumo de complemento, é:',
-    o: ['Hipersensibilidade tipo I, mediada por IgE e mastócitos', 'Hipersensibilidade tipo III, com depósito de imunocomplexos e ativação do complemento', 'Hipersensibilidade tipo IV, mediada exclusivamente por linfócitos T citotóxicos', 'Infiltração tecidual por granulomas não caseosos'],
+    o: ['Hipersensibilidade tipo I, mediada por IgE e mastócitos', 'Hipersensibilidade tipo III: imunocomplexos e complemento', 'Hipersensibilidade tipo IV, só por linfócitos T citotóxicos', 'Infiltração tecidual por granulomas não caseosos, sem anticorpos'],
     g: 'B',
     c: 'No lúpus há perda da tolerância a antígenos nucleares, com depuração deficiente de restos apoptóticos, ativação de linfócitos B e produção de autoanticorpos. Os imunocomplexos formados depositam-se em tecidos como o glomérulo e ativam a via clássica do complemento, gerando inflamação e queda de C3 e C4. As citopenias decorrem de mecanismo tipo II, com anticorpos contra células.',
     x: { A: 'Reações mediadas por IgE explicam atopia e anafilaxia, não a lesão lúpica.', C: 'A imunidade celular participa, mas a lesão característica é mediada por imunocomplexos e complemento.', D: 'Granulomas não caseosos são marca da sarcoidose, não do lúpus eritematoso sistêmico.' },
@@ -37,7 +37,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'LES: lúpus discoide',
     e: 'Homem de 40 anos tem placas eritematosas bem delimitadas no couro cabeludo e nos pavilhões auriculares, com escamas aderentes, rolhas foliculares, atrofia central, discromia e alopecia definitiva. Não tem queixas sistêmicas e o FAN é negativo. Sobre essa forma de lúpus cutâneo, é correto afirmar:',
-    o: ['É forma aguda que regride sem sequelas em poucos dias', 'É forma crônica cicatricial, e a maioria dos pacientes com doença isolada não evolui para lúpus sistêmico', 'Associa-se ao anti-Ro e nunca deixa cicatriz', 'Indica nefrite lúpica em praticamente todos os casos'],
+    o: ['Forma aguda, que regride sem sequelas em poucos dias', 'Forma crônica cicatricial; a maioria não evolui para LES', 'Associa-se ao anti-Ro e nunca deixa cicatriz residual', 'Indica nefrite lúpica em praticamente todos os casos'],
     g: 'B',
     c: 'O lúpus discoide é a forma mais comum de lúpus cutâneo crônico. A inflamação atinge o folículo e a derme, levando a atrofia, discromia e alopecia cicatricial irreversível. Quando ocorre isoladamente, apenas uma minoria evolui para doença sistêmica, e o FAN costuma ser negativo ou em baixos títulos.',
     x: { A: 'A lesão que regride sem sequelas é o lúpus cutâneo agudo, como o rash malar.', C: 'Lesão não cicatricial associada ao anti-Ro descreve o lúpus cutâneo subagudo.', D: 'O lúpus discoide isolado raramente cursa com acometimento renal.' },
@@ -85,7 +85,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'LES: alterações hematológicas',
     e: 'Paciente com lúpus em atividade tem hemograma com leucócitos de 3.100/mm3, linfócitos de 700/mm3 e plaquetas de 82.000/mm3, sem uso de imunossupressores. A interpretação correta é:',
-    o: ['As citopenias excluem lúpus e exigem mielograma para investigar leucemia', 'Leucopenia, linfopenia e plaquetopenia são manifestações imunomediadas do lúpus e acompanham a atividade', 'A linfopenia indica obrigatoriamente infecção pelo HIV', 'A plaquetopenia decorre sempre de hiperesplenismo por hipertensão portal'],
+    o: ['As citopenias excluem lúpus e exigem mielograma para leucemia', 'Leucopenia, linfopenia e plaquetopenia são imunomediadas e seguem a atividade', 'A linfopenia indica obrigatoriamente infecção pelo HIV', 'A plaquetopenia decorre sempre de hiperesplenismo portal'],
     g: 'B',
     c: 'Autoanticorpos contra leucócitos, linfócitos e plaquetas causam destruição periférica dessas células, de modo que leucopenia, linfopenia e trombocitopenia fazem parte dos critérios de classificação. A linfopenia é muito frequente e costuma acompanhar a atividade da doença. A associação de plaquetopenia imune com anemia hemolítica autoimune é chamada síndrome de Evans.',
     x: { A: 'Citopenias são típicas do lúpus e, nesse contexto, não indicam leucemia de início.', C: 'A linfopenia é comum no lúpus ativo e não é sinônimo de infecção pelo HIV.', D: 'A plaquetopenia lúpica é predominantemente imune, por destruição periférica.' },
@@ -93,7 +93,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'LES: neuropsiquiátrico',
     e: 'Mulher de 24 anos com lúpus, sem uso de corticoide, apresenta há uma semana delírios persecutórios e alucinações auditivas. Tomografia de crânio e líquor são normais e não há infecção ou distúrbio metabólico. O autoanticorpo classicamente associado a essa manifestação é:',
-    o: ['Anti-histona', 'Anti-P ribossomal', 'Anti-La (SSB)', 'Anti-RNP'],
+    o: ['Anti-histona, do lúpus induzido por droga', 'Anti-P ribossomal, ligado à psicose lúpica', 'Anti-La (SSB), ligado à síndrome de Sjögren', 'Anti-RNP, ligado à doença mista do tecido conjuntivo'],
     g: 'B',
     c: 'O anti-P ribossomal é bastante específico de lúpus e associa-se à psicose lúpica e à depressão grave. Antes de atribuir o quadro à doença é preciso afastar infecção, distúrbios metabólicos e psicose induzida por corticoide, que em geral surge nas primeiras semanas de doses altas.',
     x: { A: 'O anti-histona relaciona-se ao lúpus induzido por drogas, que raramente acomete o sistema nervoso.', C: 'O anti-La associa-se à síndrome de Sjögren e ao lúpus neonatal.', D: 'O anti-RNP em altos títulos é marcador da doença mista do tecido conjuntivo.' },
@@ -117,7 +117,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'Anti-DNA nativo',
     e: 'Mulher de 27 anos com lúpus apresenta edema de membros inferiores, urina espumosa e hipertensão arterial. Os exames que mais provavelmente estarão alterados, refletindo a atividade renal, são:',
-    o: ['Anti-Sm em queda e complemento elevado', 'Anti-DNA de dupla hélice em altos títulos e C3 e C4 reduzidos', 'Anti-histona positivo e complemento normal', 'Anti-Ro negativo e fator reumatoide elevado'],
+    o: ['Anti-Sm em queda e complemento elevado, sem atividade', 'Anti-DNA dupla hélice alto e C3 e C4 reduzidos', 'Anti-histona positivo e complemento normal, sem atividade', 'Anti-Ro negativo e fator reumatoide elevado, sem atividade'],
     g: 'B',
     c: 'O anti-DNA de dupla hélice (nativo) é específico de lúpus e seus títulos flutuam com a atividade, em especial a renal, pois os imunocomplexos de DNA e anti-DNA depositam-se no glomérulo. A ativação da via clássica consome C3 e C4, de modo que anti-DNA em elevação com complemento em queda sugere nefrite em atividade.',
     x: { A: 'O anti-Sm não varia com a atividade, e o complemento cai em vez de subir.', C: 'Esse perfil sugere lúpus induzido por drogas, que tipicamente poupa o rim.', D: 'Anti-Ro e fator reumatoide não são marcadores de atividade renal.' },
@@ -133,7 +133,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'Lúpus neonatal',
     e: 'Gestante de 30 anos com lúpus e anti-Ro positivo está na 22ª semana. Na consulta de pré-natal, a ausculta fetal revela frequência cardíaca de 58 bpm, persistente. A explicação para o achado é:',
-    o: ['Passagem transplacentária de hidroxicloroquina, com toxicidade cardíaca fetal', 'Passagem transplacentária de IgG anti-Ro, com lesão inflamatória e fibrose do nó atrioventricular fetal', 'Insuficiência placentária por trombose associada a anticardiolipina', 'Produção de autoanticorpos pelo próprio feto, por herança genética do lúpus'],
+    o: ['Passagem de hidroxicloroquina, com toxicidade cardíaca fetal', 'Passagem de IgG anti-Ro, com lesão inflamatória do nó AV', 'Insuficiência placentária por trombose da anticardiolipina', 'Autoanticorpos produzidos pelo próprio feto, por herança'],
     g: 'B',
     c: 'Os anticorpos anti-Ro e anti-La maternos da classe IgG atravessam a placenta e ligam-se ao tecido de condução fetal, causando inflamação e fibrose do nó atrioventricular. O resultado é o bloqueio cardíaco congênito, geralmente detectado entre a 18ª e a 24ª semanas e irreversível quando completo, frequentemente exigindo marca-passo. O risco ocorre mesmo em mães assintomáticas.',
     x: { A: 'A hidroxicloroquina é segura na gestação e parece reduzir o risco de bloqueio cardíaco congênito.', C: 'A síndrome antifosfolípide causa perdas e restrição de crescimento, não bradicardia por bloqueio.', D: 'O lúpus neonatal é doença passiva, por anticorpos maternos, e não produção fetal.' },
@@ -149,7 +149,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'Anti-histona',
     e: 'Em relação ao anticorpo anti-histona, assinale a alternativa correta:',
-    o: ['É exclusivo do lúpus induzido por drogas e não ocorre no lúpus idiopático', 'Está presente na grande maioria dos casos de lúpus induzido por drogas, mas também pode ocorrer no lúpus idiopático', 'É o principal marcador de nefrite lúpica proliferativa', 'Associa-se ao bloqueio cardíaco congênito no recém-nascido'],
+    o: ['Exclusivo do lúpus induzido por drogas; ausente no idiopático', 'Presente na grande maioria do lúpus por drogas; pode ocorrer no idiopático', 'Principal marcador de nefrite lúpica proliferativa', 'Associa-se ao bloqueio cardíaco congênito do recém-nascido'],
     g: 'B',
     c: 'O anti-histona é muito sensível para o lúpus induzido por drogas, mas não é específico, pois aparece também em parcela considerável dos pacientes com lúpus idiopático. O que sugere a forma induzida é o conjunto: exposição ao fármaco, FAN positivo, anti-histona positivo, anti-DNA nativo negativo e complemento normal.',
     x: { A: 'O anticorpo é sensível, mas não exclusivo da forma induzida por drogas.', C: 'O marcador de nefrite é o anti-DNA de dupla hélice.', D: 'O bloqueio cardíaco congênito relaciona-se aos anticorpos anti-Ro e anti-La.' },
@@ -173,7 +173,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'Critérios SLICC 2012',
     e: 'Mulher de 25 anos tem biópsia renal compatível com nefrite lúpica, FAN 1:640 e anti-DNA de dupla hélice positivo, sem qualquer outra manifestação. De acordo com os critérios SLICC de 2012, essa paciente:',
-    o: ['Não pode ser classificada, pois faltam quatro critérios clínicos', 'Pode ser classificada como lúpus, pois nefrite comprovada por biópsia com FAN ou anti-DNA positivo é suficiente', 'Só será classificada se tiver rash malar ou fotossensibilidade', 'Deve ser classificada como doença indiferenciada do tecido conjuntivo'],
+    o: ['Não pode ser classificada; faltam quatro critérios clínicos', 'Classificável como lúpus: nefrite por biópsia com FAN ou anti-DNA basta', 'Só será classificada se tiver rash malar ou fotossensibilidade', 'Deve ser classificada como doença indiferenciada do tecido conjuntivo'],
     g: 'B',
     c: 'Os critérios SLICC admitem duas formas de classificação: quatro ou mais critérios, com ao menos um clínico e um imunológico, ou nefrite lúpica comprovada por biópsia na presença de FAN ou anti-DNA nativo. Essa segunda regra reconhece que a histologia renal típica, com respaldo sorológico, basta para definir a doença.',
     x: { A: 'A regra da biópsia renal dispensa a soma de quatro critérios.', C: 'Manifestações cutâneas não são obrigatórias em nenhum conjunto de critérios.', D: 'Há elementos suficientes para classificar como lúpus, e não como doença indiferenciada.' },
@@ -181,7 +181,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'LES: úlceras orais e alopecia',
     e: 'Mulher de 23 anos refere queda difusa de cabelos, sem áreas de cicatriz, e apresenta ao exame úlcera indolor no palato duro, além de poliartrite de mãos. A interpretação mais adequada desses achados mucocutâneos é:',
-    o: ['Sugerem doença de Behçet, cujas úlceras são tipicamente indolores', 'São manifestações de lúpus em atividade: alopecia não cicatricial e úlcera oral geralmente indolor', 'A alopecia descrita é do tipo discoide, irreversível', 'São achados inespecíficos que não constam em critérios de classificação'],
+    o: ['Sugerem Behçet, cujas úlceras são tipicamente indolores', 'Lúpus ativo: alopecia não cicatricial e úlcera oral indolor', 'A alopecia é do tipo discoide, irreversível', 'Achados inespecíficos que não constam em critérios'],
     g: 'B',
     c: 'As úlceras orais do lúpus localizam-se com frequência no palato duro e costumam ser indolores, razão pela qual devem ser procuradas ativamente no exame. A alopecia não cicatricial difusa acompanha a atividade da doença e é reversível com o controle da inflamação. Ambas integram os critérios classificatórios.',
     x: { A: 'As aftas da doença de Behçet são dolorosas e recorrentes, com úlceras genitais associadas.', C: 'A alopecia discoide é cicatricial e em placas, diferente da queda difusa descrita.', D: 'Úlceras orais e alopecia não cicatricial fazem parte do domínio mucocutâneo dos critérios.' },
@@ -189,7 +189,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'LES: febre',
     e: 'Paciente com lúpus em uso de prednisona e azatioprina procura o pronto-socorro com febre de 38,8 °C, calafrios e tosse produtiva. Exames: leucócitos de 14.500/mm3 com desvio à esquerda, proteína C reativa muito elevada, C3 e C4 normais e anti-DNA estável. A conduta mais adequada é:',
-    o: ['Atribuir a febre à atividade do lúpus e aumentar o corticoide', 'Considerar infecção como principal hipótese, colher culturas e iniciar antibiótico', 'Suspender todos os medicamentos e observar por 72 horas', 'Indicar pulsoterapia com metilprednisolona imediatamente'],
+    o: ['Atribuir a febre à atividade do lúpus e aumentar o corticoide', 'Pensar em infecção, colher culturas e iniciar antibiótico', 'Suspender todos os medicamentos e observar por 72 horas', 'Pulsoterapia com metilprednisolona imediata, por atividade'],
     g: 'B',
     c: 'A infecção é causa importante de morte no lúpus e deve ser sempre a primeira hipótese diante de febre em paciente imunossuprimido. Leucocitose com desvio, calafrios, proteína C reativa muito alta e complemento e anti-DNA sem alteração apontam para infecção; na atividade lúpica o esperado é leucopenia, complemento baixo e proteína C reativa pouco elevada, exceto em serosite.',
     x: { A: 'O perfil laboratorial não sugere atividade, e aumentar o corticoide agravaria a infecção.', C: 'A suspensão abrupta do corticoide crônico pode causar insuficiência adrenal.', D: 'Pulsoterapia diante de infecção não tratada pode ser desastrosa.' },
@@ -197,7 +197,7 @@ export const COLAGENOSES_1: QuestaoCompacta[] = [
   {
     s: 'LES: manifestações gerais',
     e: 'Todas as alternativas abaixo descrevem manifestações esperadas no lúpus eritematoso sistêmico, EXCETO:',
-    o: ['Poliartrite simétrica não erosiva de pequenas articulações', 'Pleurite com derrame pleural exsudativo', 'Fotossensibilidade com eritema malar que poupa o sulco nasolabial', 'Artrite erosiva deformante com nódulos subcutâneos e anti-CCP em altos títulos'],
+    o: ['Poliartrite simétrica não erosiva de pequenas articulações', 'Pleurite com derrame pleural exsudativo', 'Fotossensibilidade com eritema malar que poupa o sulco', 'Artrite erosiva e deformante, com nódulos e anti-CCP alto'],
     g: 'D',
     c: 'Artrite erosiva, nódulos subcutâneos e anti-CCP em altos títulos caracterizam a artrite reumatoide. A artrite do lúpus é tipicamente não erosiva, e as deformidades, quando existem, são redutíveis (Jaccoud), pois decorrem de frouxidão de partes moles e não de destruição articular.',
     x: { A: 'A poliartrite simétrica não erosiva é a forma habitual de acometimento articular do lúpus.', B: 'A pleurite com derrame exsudativo é manifestação frequente de serosite lúpica.', C: 'O rash malar fotossensível que poupa o sulco nasolabial é lesão cutânea aguda clássica.' },

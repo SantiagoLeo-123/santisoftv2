@@ -5,7 +5,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Princípios do tratamento',
     e: 'O tratamento da endocardite infecciosa exige antibióticos bactericidas, por via parenteral, em doses altas e por tempo prolongado. A principal razão para isso é:',
-    o: ['A elevada taxa de resistência dos germes da comunidade aos antibióticos orais', 'A vegetação ser avascular, com alta densidade de bactérias em baixa atividade metabólica e protegidas dos fagócitos', 'A necessidade de atingir níveis terapêuticos no líquido cefalorraquidiano', 'A rápida eliminação renal dos antibióticos em pacientes febris'],
+    o: ['Alta taxa de resistência dos germes da comunidade aos orais', 'Vegetação avascular, com muitas bactérias quiescentes protegidas de fagócitos', 'Necessidade de atingir níveis terapêuticos no liquor', 'Rápida eliminação renal dos antibióticos em pacientes febris'],
     g: 'B',
     c: 'Dentro da vegetação, as bactérias atingem densidades muito altas, ficam envoltas por fibrina e plaquetas, sem acesso de leucócitos, e multiplicam-se lentamente. Como a defesa do hospedeiro não ajuda, a cura depende de o antibiótico matar o germe, o que requer droga bactericida em concentração sérica alta e sustentada por semanas.',
     x: { A: 'Os estreptococos orais costumam ser sensíveis; o problema é a penetração na vegetação.', C: 'A penetração liquórica só importa quando há meningite associada.', D: 'A febre não altera a eliminação renal a ponto de justificar o esquema.' },
@@ -13,7 +13,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Empírico em valva nativa',
     e: 'Homem de 42 anos, sem prótese e sem contato recente com serviços de saúde, apresenta quadro agudo e grave de endocardite de valva nativa, com instabilidade hemodinâmica. Após a coleta de três hemoculturas, o esquema empírico mais adequado, entre os listados, é:',
-    o: ['Ceftriaxona em monoterapia', 'Oxacilina associada a ampicilina e gentamicina', 'Ciprofloxacino associado a metronidazol', 'Fluconazol associado a meropenem'],
+    o: ['Ceftriaxona em monoterapia, por via venosa', 'Oxacilina associada a ampicilina e gentamicina', 'Ciprofloxacino associado a metronidazol, por via oral', 'Fluconazol associado a meropenem, por via venosa'],
     g: 'B',
     c: 'Na endocardite aguda de valva nativa adquirida na comunidade, o esquema empírico deve cobrir estafilococo sensível à oxacilina, estreptococos e enterococo. A associação de oxacilina, ampicilina e gentamicina cumpre esse papel, sendo ajustada assim que a hemocultura identificar o agente.',
     x: { A: 'A ceftriaxona isolada não cobre adequadamente estafilococo nem enterococo.', C: 'Quinolona com metronidazol não cobre bem os cocos gram-positivos envolvidos.', D: 'Não há indicação de antifúngico empírico nem de carbapenêmico nesse cenário comunitário.' },
@@ -29,7 +29,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'S. aureus sensível à oxacilina',
     e: 'Homem de 50 anos com endocardite de valva mitral nativa e hemoculturas positivas para Staphylococcus aureus sensível à oxacilina. O tratamento de escolha é:',
-    o: ['Vancomicina por 2 semanas', 'Oxacilina endovenosa por 4 a 6 semanas, sem necessidade de associar gentamicina', 'Oxacilina associada a rifampicina e gentamicina por 6 semanas', 'Ceftriaxona por 4 semanas'],
+    o: ['Vancomicina por 2 semanas, em dose plena', 'Oxacilina EV por 4 a 6 semanas, sem gentamicina', 'Oxacilina com rifampicina e gentamicina por 6 semanas', 'Ceftriaxona por 4 semanas, em dose plena'],
     g: 'B',
     c: 'Para o estafilococo sensível à oxacilina em valva nativa, o betalactâmico antiestafilocócico (oxacilina, ou cefazolina como alternativa) por 4 a 6 semanas é a melhor opção. A adição de gentamicina não é mais recomendada, pois não traz benefício clínico e aumenta a nefrotoxicidade.',
     x: { A: 'A vancomicina é inferior aos betalactâmicos contra cepa sensível, e 2 semanas é insuficiente.', C: 'Rifampicina e gentamicina são reservadas à endocardite estafilocócica de prótese.', D: 'A ceftriaxona não é droga de escolha para endocardite estafilocócica.' },
@@ -37,7 +37,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'S. aureus resistente à oxacilina',
     e: 'Paciente em hemodiálise apresenta endocardite de valva aórtica nativa por Staphylococcus aureus resistente à oxacilina. O antimicrobiano indicado é:',
-    o: ['Oxacilina em dose dobrada', 'Vancomicina, tendo a daptomicina como alternativa', 'Ceftriaxona associada a gentamicina', 'Piperacilina com tazobactam'],
+    o: ['Oxacilina em dose dobrada, por via venosa', 'Vancomicina, com daptomicina como alternativa', 'Ceftriaxona associada a gentamicina, por 2 semanas', 'Piperacilina com tazobactam, por via venosa'],
     g: 'B',
     c: 'A resistência à oxacilina decorre de uma proteína ligadora de penicilina alterada (PBP2a, gene mecA), que confere resistência a praticamente todos os betalactâmicos tradicionais. O tratamento é feito com vancomicina, com ajuste pelo nível sérico, ou com daptomicina em dose alta.',
     x: { A: 'Aumentar a dose não supera a resistência mediada pela PBP2a.', C: 'A ceftriaxona é betalactâmico e também é ineficaz contra esse germe.', D: 'A piperacilina com tazobactam não tem atividade contra S. aureus resistente à oxacilina.' },
@@ -53,7 +53,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Estreptococo viridans',
     e: 'Homem de 45 anos com endocardite de valva mitral nativa por estreptococo viridans altamente sensível à penicilina, sem complicações. O tratamento padrão é:',
-    o: ['Oxacilina por 6 semanas', 'Penicilina G cristalina ou ceftriaxona por 4 semanas', 'Vancomicina associada a rifampicina por 6 semanas', 'Amoxicilina oral por 10 dias'],
+    o: ['Oxacilina por 6 semanas, em dose plena', 'Penicilina G cristalina ou ceftriaxona por 4 semanas', 'Vancomicina com rifampicina por 6 semanas', 'Amoxicilina oral por 10 dias, em dose plena'],
     g: 'B',
     c: 'Os estreptococos orais plenamente sensíveis são tratados com penicilina G cristalina ou ceftriaxona por 4 semanas em valva nativa. A ceftriaxona, em dose única diária, facilita o tratamento ambulatorial parenteral em pacientes estáveis.',
     x: { A: 'A oxacilina é droga antiestafilocócica e não é a escolha para estreptococo.', C: 'A vancomicina fica para alérgicos graves, e a rifampicina não tem papel aqui.', D: 'Dez dias de tratamento oral são insuficientes para esterilizar a vegetação.' },
@@ -61,7 +61,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Esquema curto',
     e: 'Em quais condições é aceitável tratar endocardite por estreptococo viridans com esquema de apenas 2 semanas, associando penicilina ou ceftriaxona a gentamicina?',
-    o: ['Em qualquer endocardite estreptocócica, inclusive de prótese valvar', 'Em valva nativa, com germe altamente sensível à penicilina, sem complicações e com função renal normal', 'Em pacientes com abscesso perivalvar já drenado cirurgicamente', 'Em pacientes com doença renal crônica, para reduzir o tempo de internação'],
+    o: ['Em qualquer endocardite estreptocócica, mesmo de prótese', 'Em valva nativa, germe sensível, sem complicação e rim normal', 'Em abscesso perivalvar já drenado cirurgicamente', 'Em DRC, para reduzir o tempo de internação'],
     g: 'B',
     c: 'A associação com aminoglicosídeo produz efeito sinérgico e permite encurtar o tratamento para 2 semanas, mas apenas em valva nativa, com estreptococo plenamente sensível, sem complicações cardíacas ou extracardíacas e sem risco aumentado de toxicidade renal ou auditiva.',
     x: { A: 'Em prótese valvar o tratamento deve durar pelo menos 6 semanas.', C: 'Abscesso é complicação que exclui o esquema curto.', D: 'A doença renal contraindica o aminoglicosídeo, base do esquema curto.' },
@@ -77,7 +77,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Sinergismo no enterococo',
     e: 'Na endocardite por enterococo, não se utiliza ampicilina em monoterapia, ao contrário do que ocorre com os estreptococos orais. A justificativa é que:',
-    o: ['O enterococo produz betalactamase em praticamente todas as cepas', 'A ampicilina isolada é apenas bacteriostática contra o enterococo, sendo necessário um segundo agente para obter efeito bactericida', 'A ampicilina não atinge concentração adequada no sangue por via endovenosa', 'O enterococo é um germe intracelular obrigatório'],
+    o: ['O enterococo produz betalactamase em quase todas as cepas', 'A ampicilina sozinha é bacteriostática no enterococo; precisa de 2º agente', 'A ampicilina não atinge concentração adequada no sangue', 'O enterococo é um germe intracelular obrigatório'],
     g: 'B',
     c: 'O enterococo é tolerante aos betalactâmicos: eles inibem seu crescimento, mas não o matam de forma confiável. A associação com aminoglicosídeo, cuja entrada na célula é facilitada pela lesão da parede, ou com ceftriaxona, que bloqueia outras proteínas ligadoras de penicilina, produz a atividade bactericida exigida na endocardite.',
     x: { A: 'A produção de betalactamase por enterococo é rara; o problema é a tolerância.', C: 'A ampicilina endovenosa atinge níveis séricos elevados sem dificuldade.', D: 'O enterococo é extracelular e cresce facilmente em hemoculturas.' },
@@ -85,7 +85,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Prótese por estafilococo',
     e: 'Mulher de 60 anos, com prótese mitral mecânica há 3 anos, tem endocardite por Staphylococcus aureus sensível à oxacilina, sem indicação cirúrgica imediata. O esquema recomendado é:',
-    o: ['Oxacilina isolada por 4 semanas', 'Oxacilina e rifampicina por pelo menos 6 semanas, com gentamicina nas 2 primeiras semanas', 'Vancomicina isolada por 2 semanas', 'Ceftriaxona e gentamicina por 4 semanas'],
+    o: ['Oxacilina isolada por 4 semanas, em dose plena venosa', 'Oxacilina e rifampicina por 6+ semanas; gentamicina nas 2 primeiras', 'Vancomicina isolada por 2 semanas, em dose plena venosa', 'Ceftriaxona e gentamicina por 4 semanas, em dose plena'],
     g: 'B',
     c: 'Na endocardite estafilocócica de prótese, a infecção envolve biofilme sobre material estranho, o que exige esquema tríplice: betalactâmico antiestafilocócico (ou vancomicina, se resistente) e rifampicina por no mínimo 6 semanas, com gentamicina nas duas primeiras semanas.',
     x: { A: 'Monoterapia por 4 semanas é o esquema de valva nativa, insuficiente para prótese.', C: 'A vancomicina é inferior para cepa sensível, e 2 semanas é tempo inadequado.', D: 'A ceftriaxona não é droga de escolha para estafilococo.' },
@@ -93,7 +93,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Rifampicina',
     e: 'Sobre o uso da rifampicina na endocardite estafilocócica de prótese valvar, é correto afirmar:',
-    o: ['Deve ser usada em monoterapia, pela excelente penetração tecidual', 'É associada por sua ação sobre bactérias no biofilme, mas nunca isoladamente, pelo rápido surgimento de resistência', 'É indicada também em toda endocardite estafilocócica de valva nativa', 'Deve ser evitada por antagonizar os betalactâmicos em qualquer situação'],
+    o: ['Usar em monoterapia, pela excelente penetração', 'Associada pela ação no biofilme, nunca isolada (resistência)', 'Indicada em toda endocardite estafilocócica de valva nativa', 'Evitada por antagonizar betalactâmicos em qualquer situação'],
     g: 'B',
     c: 'A rifampicina penetra no biofilme e atua sobre bactérias aderidas ao material protético, em fase de crescimento lento. Como a resistência surge por mutação em um único passo, ela deve ser sempre combinada a outro antiestafilocócico eficaz; em valva nativa não há benefício e há mais toxicidade hepática e interações.',
     x: { A: 'Em monoterapia, a resistência à rifampicina surge em poucos dias.', C: 'Em valva nativa a rifampicina não melhora o desfecho e aumenta efeitos adversos.', D: 'A associação é recomendada em prótese, apesar das interações medicamentosas.' },
@@ -109,7 +109,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Contagem da duração',
     e: 'Paciente com endocardite por Staphylococcus aureus iniciou oxacilina no dia 1. As hemoculturas de controle foram positivas nos dias 3 e 5 e negativas a partir do dia 7. A duração planejada do tratamento deve ser contada a partir:',
-    o: ['Do dia do início dos sintomas', 'Do primeiro dia de hemocultura negativa (dia 7)', 'Do dia em que a febre desapareceu', 'Do dia do diagnóstico ecocardiográfico'],
+    o: ['Do dia do início dos sintomas, na admissão', 'Do primeiro dia de hemocultura negativa', 'Do dia em que a febre desapareceu, na enfermaria', 'Do dia do diagnóstico ecocardiográfico, no ETE'],
     g: 'B',
     c: 'A duração do tratamento é contada a partir do primeiro dia de antibiótico eficaz, o que na prática corresponde à primeira hemocultura negativa quando as iniciais eram positivas. Isso garante que todas as semanas previstas ocorram com a bacteremia já controlada.',
     x: { A: 'O início dos sintomas não tem relação com o tempo de antibiótico eficaz.', C: 'A febre pode cessar antes ou depois da negativação das culturas.', D: 'A data do ecocardiograma não reflete o controle da bacteremia.' },
@@ -117,7 +117,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Hemoculturas de controle',
     e: 'Após o início do tratamento antimicrobiano da endocardite infecciosa, o controle microbiológico deve ser feito com:',
-    o: ['Uma hemocultura única ao final do tratamento', 'Hemoculturas repetidas a cada 24 a 48 horas até a documentação da negativação', 'Dosagem seriada de procalcitonina, sem necessidade de novas culturas', 'Cultura da ponta do cateter venoso periférico'],
+    o: ['Uma hemocultura única, ao final do tratamento', 'Hemoculturas a cada 24-48 h até negativar', 'Procalcitonina seriada, sem novas culturas', 'Cultura da ponta do cateter venoso periférico'],
     g: 'B',
     c: 'A negativação das hemoculturas é o principal marcador de resposta ao tratamento. Culturas ainda positivas após alguns dias de antibiótico adequado indicam infecção não controlada, obrigando a procurar abscesso perivalvar ou foco metastático, e constituem fator de pior prognóstico e argumento para cirurgia.',
     x: { A: 'Culturas só ao final não detectam falha precoce do tratamento.', C: 'Biomarcadores não substituem a demonstração de esterilização do sangue.', D: 'A cultura de cateter periférico não avalia a resposta da endocardite.' },
@@ -125,7 +125,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Endocardite direita não complicada',
     e: 'Homem de 26 anos, usuário de drogas injetáveis, tem endocardite isolada de valva tricúspide por Staphylococcus aureus sensível à oxacilina, com vegetação de 9 mm, função renal normal, sem prótese e sem empiema ou focos metastáticos extrapulmonares. Sobre a duração do tratamento, é correto afirmar:',
-    o: ['São obrigatórias 8 semanas de oxacilina com rifampicina', 'Pode-se considerar esquema curto de 2 semanas com oxacilina, dadas as condições favoráveis', 'O tratamento deve ser feito com vancomicina por 6 semanas', 'Bastam 5 dias de antibiótico oral após a defervescência'],
+    o: ['Obrigatórias 8 semanas de oxacilina com rifampicina', 'Pode-se considerar esquema curto de 2 semanas com oxacilina', 'Tratar com vancomicina por 6 semanas, em todos', 'Bastam 5 dias de antibiótico oral após a defervescência'],
     g: 'B',
     c: 'A endocardite direita não complicada por estafilococo sensível responde bem ao tratamento, pois as vegetações têm menor densidade bacteriana e estão em ambiente de menor pressão. Com vegetação menor que 20 mm, boa resposta clínica e ausência de complicações, aceita-se curso de 2 semanas com oxacilina.',
     x: { A: 'Rifampicina e 8 semanas não se aplicam a valva nativa direita sem complicações.', C: 'A vancomicina é menos eficaz contra cepa sensível e não permite esquema curto.', D: 'Cinco dias por via oral são insuficientes para qualquer endocardite estafilocócica.' },
@@ -133,7 +133,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Febre persistente',
     e: 'Homem de 57 anos, com endocardite de valva aórtica por Staphylococcus aureus, mantém febre diária no décimo dia de oxacilina em dose adequada, com hemoculturas ainda positivas. A hipótese mais importante a ser investigada e o exame indicado são:',
-    o: ['Febre por droga; suspender a oxacilina e observar', 'Extensão perivalvar da infecção com abscesso; ecocardiograma transesofágico', 'Infecção viral intercorrente; sorologias', 'Resistência adquirida à oxacilina; trocar por ceftriaxona'],
+    o: ['Febre por droga; suspender oxacilina e observar', 'Abscesso perivalvar; ecocardiograma transesofágico', 'Infecção viral intercorrente; sorologias', 'Resistência adquirida à oxacilina; ceftriaxona'],
     g: 'B',
     c: 'Febre e bacteremia que persistem após 7 a 10 dias de antibiótico adequado caracterizam infecção não controlada. A causa mais temida é a extensão perivalvar, com abscesso, mais comum na valva aórtica e com o S. aureus, que deve ser pesquisada por ecocardiograma transesofágico, além da busca de focos metastáticos.',
     x: { A: 'A febre por droga não explica hemoculturas persistentemente positivas.', C: 'Infecção viral não justifica bacteremia mantida por S. aureus.', D: 'A ceftriaxona é inferior à oxacilina e não resolve um abscesso.' },
@@ -141,7 +141,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Cirurgia por insuficiência cardíaca',
     e: 'Mulher de 49 anos, no quinto dia de tratamento de endocardite aórtica por Staphylococcus aureus, evolui com edema agudo de pulmão e hipotensão refratários a diuréticos, vasodilatadores e ventilação não invasiva. O ecocardiograma mostra perfuração de cúspide com regurgitação aórtica grave. A conduta indicada é:',
-    o: ['Completar 6 semanas de antibiótico antes de considerar cirurgia', 'Cirurgia valvar de emergência, independentemente do tempo de antibiótico já realizado', 'Implante de balão intra-aórtico e manutenção do tratamento clínico', 'Associar rifampicina e reavaliar em uma semana'],
+    o: ['Completar 6 semanas de antibiótico antes de operar', 'Cirurgia valvar de emergência, qualquer que seja o tempo de antibiótico', 'Balão intra-aórtico e manutenção do tratamento clínico exclusivo', 'Associar rifampicina e reavaliar em uma semana'],
     g: 'B',
     c: 'A insuficiência cardíaca por disfunção valvar aguda é a principal indicação de cirurgia na endocardite. Diante de edema pulmonar ou choque refratários, a operação é de emergência, pois o problema é mecânico e o antibiótico não o corrige; adiar para esterilizar a valva aumenta a mortalidade.',
     x: { A: 'Aguardar o fim do antibiótico na falência hemodinâmica refratária eleva a mortalidade.', C: 'O balão intra-aórtico é contraindicado na regurgitação aórtica grave, pois a agrava.', D: 'A rifampicina não tem papel em valva nativa nem corrige perfuração valvar.' },
@@ -149,7 +149,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Cirurgia por infecção não controlada',
     e: 'Homem de 64 anos com endocardite de prótese aórtica biológica apresenta, no oitavo dia de tratamento, bloqueio atrioventricular total novo. O ecocardiograma transesofágico mostra cavidade ecolucente perivalvar compatível com abscesso do anel. A melhor conduta é:',
-    o: ['Implantar marca-passo definitivo e manter antibiótico por 6 semanas', 'Indicar cirurgia para desbridamento e troca valvar, por infecção localmente não controlada', 'Trocar o esquema antibiótico e repetir o ecocardiograma em 2 semanas', 'Iniciar anticoagulação plena para evitar embolia'],
+    o: ['Marca-passo definitivo e antibiótico por 6 semanas', 'Cirurgia: desbridar e trocar a valva (infecção sem controle local)', 'Trocar o esquema e repetir o ecocardiograma em 2 semanas', 'Anticoagulação plena para evitar nova embolia'],
     g: 'B',
     c: 'Abscesso, pseudoaneurisma, fístula e bloqueio atrioventricular novo indicam extensão perivalvar, situação em que o antibiótico não penetra de forma eficaz e a destruição progride. Trata-se de infecção localmente não controlada, com indicação de cirurgia para desbridamento amplo e reconstrução.',
     x: { A: 'O marca-passo trata o bloqueio, mas não elimina o abscesso que o causa.', C: 'Abscesso perivalvar raramente se resolve apenas com troca de antibiótico.', D: 'A anticoagulação não previne embolia séptica e aumenta o risco de sangramento.' },
@@ -157,7 +157,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Endocardite fúngica',
     e: 'Homem de 53 anos, com prótese mitral, tem hemoculturas repetidamente positivas para Candida parapsilosis e vegetação de 18 mm. Além da terapia antifúngica, a conduta recomendada é:',
-    o: ['Manter apenas antifúngico por 2 semanas e reavaliar', 'Cirurgia valvar, pois a infecção fúngica dificilmente é erradicada apenas com tratamento clínico', 'Associar vancomicina e gentamicina ao antifúngico', 'Suspender o antifúngico se o paciente ficar afebril em 72 horas'],
+    o: ['Apenas antifúngico por 2 semanas, com reavaliação', 'Cirurgia valvar: fungo raramente se erradica só com clínica', 'Associar vancomicina e gentamicina ao antifúngico', 'Suspender o antifúngico se afebril em 72 horas'],
     g: 'B',
     c: 'Os antifúngicos penetram mal nas vegetações volumosas e no biofilme, de modo que a endocardite fúngica tem alta taxa de falha e de recidiva com tratamento clínico isolado. Por isso, fungos e germes multirresistentes são indicação de cirurgia, seguida de antifúngico prolongado e, muitas vezes, terapia supressiva.',
     x: { A: 'Duas semanas de antifúngico isolado não erradicam endocardite fúngica.', C: 'Antibacterianos não têm ação sobre a Candida.', D: 'A interrupção precoce leva a recidiva, mesmo com melhora da febre.' },
@@ -165,7 +165,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Cirurgia para prevenção de embolia',
     e: 'Mulher de 41 anos, em tratamento adequado de endocardite mitral por estreptococo viridans há 6 dias, apresenta infarto esplênico e, dois dias depois, isquemia de território de artéria cerebral posterior, sem hemorragia. O ecocardiograma mostra vegetação móvel de 16 mm no folheto anterior. A conduta indicada é:',
-    o: ['Iniciar heparina em dose plena', 'Indicar cirurgia valvar, por vegetação persistente maior que 10 mm com episódios embólicos apesar de antibiótico adequado', 'Associar ácido acetilsalicílico e clopidogrel', 'Manter apenas o antibiótico, pois o risco embólico já passou'],
+    o: ['Iniciar heparina em dose plena, de imediato', 'Cirurgia: vegetação > 10 mm com embolias apesar do antibiótico', 'Associar AAS e clopidogrel, por via oral', 'Manter só o antibiótico: o risco embólico já passou'],
     g: 'B',
     c: 'A persistência de vegetação igual ou maior que 10 mm após um ou mais episódios embólicos, apesar de antibioticoterapia adequada, é indicação de cirurgia para prevenir novas embolias. O risco é maior com vegetações grandes e móveis, na valva mitral e nas primeiras semanas de tratamento.',
     x: { A: 'A heparina não reduz embolia de vegetação e aumenta o risco de transformação hemorrágica.', C: 'Antiagregantes não previnem embolia na endocardite e aumentam sangramento.', D: 'Embolias recorrentes com vegetação grande mostram que o risco persiste.' },
@@ -181,7 +181,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Momento da cirurgia',
     e: 'Em relação ao momento da cirurgia valvar na endocardite infecciosa em atividade, é correto afirmar:',
-    o: ['Deve-se sempre completar o curso de antibiótico antes de operar, para evitar infecção da nova prótese', 'Havendo indicação formal, a cirurgia não deve ser adiada para completar o antibiótico; o tratamento prossegue no pós-operatório', 'A cirurgia só é permitida após hemoculturas negativas por 14 dias', 'A cirurgia precoce é contraindicada pela alta taxa de reinfecção da prótese'],
+    o: ['Completar sempre o antibiótico antes de operar, p/ evitar infecção da prótese', 'Com indicação formal, não adiar a cirurgia; tratar no pós', 'Cirurgia só após hemoculturas negativas por 14 dias', 'Cirurgia precoce contraindicada pela reinfecção da prótese'],
     g: 'B',
     c: 'Quando há insuficiência cardíaca, infecção não controlada ou alto risco embólico, o benefício da cirurgia precoce supera o risco de operar em tecido infectado, e a taxa de reinfecção da nova prótese é baixa. O antibiótico é mantido após a operação, e a cultura do material valvar orienta a duração adicional.',
     x: { A: 'Esperar o fim do antibiótico expõe o paciente a morte por complicação mecânica ou embólica.', C: 'Não se exige período fixo de culturas negativas antes de operar.', D: 'A reinfecção da prótese é pouco frequente e não contraindica a cirurgia precoce.' },
@@ -189,7 +189,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Cirurgia após evento neurológico',
     e: 'Homem de 59 anos com endocardite mitral e insuficiência cardíaca refratária por regurgitação grave sofre acidente vascular encefálico. A tomografia de crânio mostra hematoma intraparenquimatoso extenso. Em relação à cirurgia cardíaca com circulação extracorpórea, a orientação é:',
-    o: ['Operar imediatamente, pois o evento neurológico não altera o risco cirúrgico', 'Adiar a cirurgia, em geral por cerca de 4 semanas, pelo risco de expansão da hemorragia com a heparinização', 'Contraindicar definitivamente a cirurgia valvar', 'Operar em 48 horas, desde que se use protamina no final'],
+    o: ['Operar de imediato: o evento neurológico não altera o risco', 'Adiar cerca de 4 semanas, pelo risco de expansão da hemorragia', 'Contraindicar definitivamente a cirurgia valvar', 'Operar em 48 horas, usando protamina ao final'],
     g: 'B',
     c: 'A circulação extracorpórea exige anticoagulação plena, que pode ampliar uma hemorragia intracraniana; por isso, recomenda-se adiar a cirurgia por cerca de um mês sempre que possível. Já após acidente isquêmico sem hemorragia e sem dano neurológico grave, a cirurgia indicada não deve ser postergada.',
     x: { A: 'A hemorragia intracraniana aumenta muito o risco neurológico da heparinização.', C: 'A contraindicação é temporária; a cirurgia pode ser feita após o intervalo de segurança.', D: 'A protamina ao final não evita o sangramento durante a circulação extracorpórea.' },
@@ -197,7 +197,7 @@ export const ENDOCARDITE_3: QuestaoCompacta[] = [
   {
     s: 'Indicações cirúrgicas',
     e: 'Todas as situações abaixo são indicações reconhecidas de cirurgia na endocardite infecciosa de valvas esquerdas, EXCETO:',
-    o: ['Insuficiência cardíaca por regurgitação valvar grave', 'Abscesso perivalvar ou fístula intracardíaca', 'Infecção por fungos ou por germes multirresistentes', 'Vegetação de 5 mm em valva mitral nativa, por estreptococo viridans, com boa resposta ao antibiótico'],
+    o: ['Insuficiência cardíaca por regurgitação valvar grave', 'Abscesso perivalvar ou fístula intracardíaca', 'Infecção por fungos ou por germes multirresistentes', 'Vegetação de 5 mm em valva nativa, com boa resposta'],
     g: 'D',
     c: 'As indicações cirúrgicas agrupam-se em três eixos: insuficiência cardíaca, infecção não controlada (abscesso, fístula, bacteremia persistente, fungos e germes resistentes) e prevenção de embolia em vegetações grandes. Vegetação pequena, por germe sensível e com boa evolução clínica, é tratada apenas com antibiótico.',
     x: { A: 'A insuficiência cardíaca por disfunção valvar é a indicação cirúrgica mais frequente.', B: 'Abscesso e fístula representam infecção localmente não controlada.', C: 'Fungos e germes multirresistentes raramente são erradicados só com tratamento clínico.' },

@@ -13,7 +13,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — fisiopatologia',
     e: 'Os fatores abaixo favorecem a polimerização da hemoglobina S e o afoiçamento das hemácias, EXCETO:',
-    o: ['Hipóxia', 'Acidose', 'Desidratação celular', 'Aumento da concentração de hemoglobina fetal'],
+    o: ['Hipóxia tecidual, que favorece a polimerização', 'Acidose metabólica, que favorece a polimerização', 'Desidratação celular, que favorece a polimerização', 'Aumento da concentração de hemoglobina fetal'],
     g: 'D',
     c: 'A hemoglobina fetal não participa do polímero de HbS e dilui sua concentração dentro da hemácia, inibindo o afoiçamento; por isso lactentes são assintomáticos nos primeiros meses e a hidroxiureia, que eleva a HbF, é benéfica. Hipóxia, acidose, desidratação, febre e frio aumentam a fração desoxigenada ou a concentração intracelular de HbS e favorecem a polimerização.',
     x: { A: 'A desoxigenação é o gatilho básico da polimerização da hemoglobina S.', B: 'A acidose reduz a afinidade pelo oxigênio e aumenta a desoxi-hemoglobina.', C: 'A desidratação eleva a concentração intracelular de HbS, acelerando a polimerização.' },
@@ -21,7 +21,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Traço falciforme',
     e: 'Homem de 25 anos, assintomático, com hemograma normal, descobre em exame admissional eletroforese de hemoglobina com HbA 58% e HbS 40%. Qual orientação é correta?',
-    o: ['Iniciar hidroxiureia e ácido fólico', 'Trata-se de traço falciforme, condição benigna que não é doença; deve receber aconselhamento genético', 'Indicar profilaxia com penicilina e vacinação especial', 'Realizar doppler transcraniano anual'],
+    o: ['Iniciar hidroxiureia e ácido fólico', 'Traço falciforme, condição benigna; aconselhamento genético', 'Indicar profilaxia com penicilina e vacinação especial', 'Realizar doppler transcraniano anual, como na HbSS'],
     g: 'B',
     c: 'O heterozigoto AS tem mais HbA do que HbS, o que impede a polimerização em condições fisiológicas; não há anemia, hemólise nem crises, e a expectativa de vida é normal. As raras manifestações incluem hematúria por necrose de papila, hipostenúria e complicações em situações extremas de esforço, desidratação ou altitude. O ponto central é o aconselhamento genético.',
     x: { A: 'Hidroxiureia e folato são usados na doença falciforme, não no traço.', C: 'Não há hipoesplenismo no traço, logo não há indicação dessas medidas.', D: 'O rastreio de vasculopatia cerebral é restrito a crianças com doença falciforme.' },
@@ -29,7 +29,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — diagnóstico',
     e: 'O teste do pezinho de um recém-nascido mostra padrão FS na triagem de hemoglobinas. A interpretação e a conduta são:',
-    o: ['Traço falciforme; orientar a família e dar alta do seguimento', 'Provável doença falciforme; confirmar com novo exame e encaminhar para acompanhamento, iniciando profilaxia com penicilina nos primeiros meses', 'Resultado normal para a idade, pois predomina a hemoglobina fetal', 'Beta-talassemia maior; iniciar transfusões'],
+    o: ['Traço falciforme; orientar a família e dar alta', 'Provável doença falciforme; confirmar e iniciar penicilina profilática', 'Resultado normal para a idade, pois predomina a HbF', 'Beta-talassemia maior; iniciar transfusões regulares'],
     g: 'B',
     c: 'No recém-nascido predomina a HbF; o padrão normal é FA, o do traço é FAS e o da anemia falciforme é FS, sem hemoglobina A. A triagem neonatal permite iniciar penicilina profilática por volta dos 2 a 3 meses, vacinação ampliada e educação dos pais para reconhecer febre e aumento do baço, medidas que reduziram muito a mortalidade infantil. A confirmação é feita por eletroforese ou cromatografia.',
     x: { A: 'O traço falciforme apresenta hemoglobina A, com padrão FAS.', C: 'O padrão normal é FA; a ausência de HbA com presença de S é anormal.', D: 'Na beta-talassemia maior não há hemoglobina S na triagem.' },
@@ -45,7 +45,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — síndrome torácica aguda',
     e: 'Mulher de 24 anos com anemia falciforme, internada há 2 dias por crise álgica, evolui com febre, dor torácica, tosse e saturação de oxigênio de 89%. A radiografia de tórax mostra novo infiltrado em lobo inferior direito. O diagnóstico e o manejo são:',
-    o: ['Pneumonia comunitária — antibiótico oral e alta', 'Síndrome torácica aguda — oxigênio, antibióticos de amplo espectro com cobertura para atípicos, analgesia, espirometria de incentivo e transfusão', 'Tromboembolia pulmonar — trombólise sistêmica', 'Insuficiência cardíaca — diurético e restrição hídrica'],
+    o: ['Pneumonia comunitária — antibiótico oral e alta hospitalar', 'Síndrome torácica aguda — O2, antibióticos, analgesia e transfusão', 'Tromboembolia pulmonar — trombólise sistêmica imediata', 'Insuficiência cardíaca — diurético e restrição hídrica'],
     g: 'B',
     c: 'A síndrome torácica aguda é definida por novo infiltrado pulmonar associado a febre ou sintomas respiratórios e é a principal causa de morte no adulto com doença falciforme. Pode decorrer de infecção, embolia gordurosa por infarto ósseo ou vaso-oclusão pulmonar, e a hipoventilação por dor a precipita. Exige antibióticos (cefalosporina e macrolídeo), oxigênio, analgesia e transfusão simples, ou exsanguineotransfusão nos casos graves.',
     x: { A: 'O quadro é potencialmente fatal e exige internação com suporte intensivo.', C: 'Não há indicação de trombólise empírica; a abordagem é a da síndrome torácica.', D: 'O quadro febril com infiltrado focal não corresponde a congestão cardíaca.' },
@@ -53,7 +53,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — sequestro esplênico',
     e: 'Menina de 2 anos com anemia falciforme é trazida com palidez súbita, letargia e taquicardia. O baço, antes palpável a 1 cm, está a 6 cm do rebordo costal. Hemoglobina 4,1 g/dL (basal 8,5 g/dL), reticulócitos 18% e plaquetas 70.000/mm³. O diagnóstico e a conduta imediata são:',
-    o: ['Crise aplásica — imunoglobulina intravenosa', 'Sequestro esplênico agudo — expansão volêmica e transfusão cautelosa de hemácias', 'Crise hemolítica — corticoide', 'Sepse pneumocócica — apenas antibiótico e observação'],
+    o: ['Crise aplásica — imunoglobulina intravenosa em dose alta', 'Sequestro esplênico agudo — volume e transfusão cautelosa', 'Crise hemolítica — corticoide em dose alta, por via venosa', 'Sepse pneumocócica — antibiótico oral e observação'],
     g: 'B',
     c: 'No sequestro esplênico, hemácias afoiçadas ficam retidas nos sinusoides do baço, que aumenta abruptamente, com queda da hemoglobina, choque hipovolêmico, reticulocitose e plaquetopenia. Ocorre em crianças pequenas, antes da autoesplenectomia. A transfusão deve ser cautelosa, pois as hemácias sequestradas retornam à circulação e podem elevar demais a viscosidade. Pela alta recorrência, considera-se esplenectomia após o episódio.',
     x: { A: 'Na crise aplásica os reticulócitos estão muito baixos e o baço não aumenta.', C: 'Corticoide não tem papel; o problema é o aprisionamento de sangue no baço.', D: 'O aumento agudo do baço com queda da hemoglobina exige reposição volêmica e transfusão.' },
@@ -61,7 +61,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — AVE e doppler transcraniano',
     e: 'Menino de 6 anos com anemia falciforme, assintomático, tem doppler transcraniano com velocidade de fluxo na artéria cerebral média de 215 cm/s, confirmada em novo exame. A conduta indicada é:',
-    o: ['Ácido acetilsalicílico em dose antiagregante', 'Programa de transfusão crônica para prevenção primária de acidente vascular encefálico', 'Repetir o doppler em 2 anos', 'Anticoagulação com varfarina'],
+    o: ['Ácido acetilsalicílico em dose antiagregante', 'Transfusão crônica para prevenção primária de AVE', 'Repetir o doppler em 2 anos, sem outra medida', 'Anticoagulação com varfarina, a longo prazo'],
     g: 'B',
     c: 'Velocidades iguais ou superiores a 200 cm/s indicam estenose de grandes artérias intracranianas e alto risco de acidente vascular encefálico isquêmico. O rastreio anual com doppler transcraniano é recomendado dos 2 aos 16 anos, e o programa de transfusões regulares, mantendo a HbS abaixo de 30%, reduz acentuadamente esse risco. Em casos selecionados, pode-se migrar depois para hidroxiureia.',
     x: { A: 'O antiagregante não demonstrou eficácia na prevenção primária nessa situação.', C: 'O exame alterado exige intervenção imediata, e não espera prolongada.', D: 'A vasculopatia falciforme não é tratada com anticoagulação.' },
@@ -69,7 +69,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — AVE agudo',
     e: 'Criança de 9 anos com anemia falciforme apresenta hemiparesia direita e afasia de início há 3 horas. A tomografia de crânio não mostra sangramento. O tratamento específico de escolha é:',
-    o: ['Trombólise com alteplase, como no adulto sem hemoglobinopatia', 'Exsanguineotransfusão para reduzir a hemoglobina S abaixo de 30%', 'Hidroxiureia em dose de ataque', 'Corticoide em pulsoterapia'],
+    o: ['Trombólise com alteplase, como no adulto sem hemoglobinopatia', 'Exsanguineotransfusão para reduzir a HbS abaixo de 30%', 'Hidroxiureia em dose de ataque, por via oral', 'Corticoide em pulsoterapia, por via venosa'],
     g: 'B',
     c: 'No acidente vascular isquêmico da criança falciforme, a causa é a vasculopatia com oclusão por hemácias afoiçadas, e o tratamento é a troca de hemácias, que reduz rapidamente a proporção de HbS sem elevar a viscosidade. Se houver demora, faz-se transfusão simples enquanto se organiza a troca. Depois, mantém-se transfusão crônica como prevenção secundária, pois a recorrência é alta.',
     x: { A: 'A trombólise não é o tratamento padrão na criança com doença falciforme.', C: 'A hidroxiureia tem efeito lento e não serve para o evento agudo.', D: 'Corticoide não tem indicação e pode precipitar crises vaso-oclusivas.' },
@@ -77,7 +77,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — priapismo',
     e: 'Adolescente de 16 anos com anemia falciforme apresenta ereção dolorosa há 5 horas, sem resposta a hidratação oral e analgesia em casa. Qual é a conduta adequada?',
-    o: ['Observação ambulatorial por 24 horas', 'Hidratação e analgesia intravenosas com avaliação urológica urgente para aspiração dos corpos cavernosos e injeção de agonista alfa-adrenérgico', 'Exsanguineotransfusão imediata como primeira medida', 'Compressas quentes e sildenafila'],
+    o: ['Observação ambulatorial por 24 horas, com analgesia oral', 'Hidratação e analgesia IV; urologia: aspirar e alfa-agonista', 'Exsanguineotransfusão imediata como primeira medida', 'Compressas quentes e sildenafila, em domicílio'],
     g: 'B',
     c: 'O priapismo falciforme é do tipo isquêmico, de baixo fluxo, por estase de hemácias afoiçadas nos corpos cavernosos. Episódios com mais de 4 horas são emergência urológica, pelo risco de fibrose e disfunção erétil. Além de hidratação e analgesia, indica-se aspiração do sangue com irrigação e injeção intracavernosa de fenilefrina; a transfusão não é primeira linha.',
     x: { A: 'A demora aumenta o risco de necrose e de disfunção erétil permanente.', C: 'A transfusão de troca não tem benefício comprovado como medida inicial.', D: 'Essas medidas não tratam o priapismo isquêmico estabelecido.' },
@@ -85,7 +85,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — asplenia funcional',
     e: 'O esfregaço de sangue periférico de um adulto com anemia falciforme mostra, além de drepanócitos, hemácias com inclusões nucleares basofílicas arredondadas (corpúsculos de Howell-Jolly). Esse achado indica:',
-    o: ['Deficiência de vitamina B12 associada', 'Hipoesplenismo por autoesplenectomia, com maior risco de infecção por germes encapsulados', 'Intoxicação por chumbo', 'Infecção recente por parvovírus B19'],
+    o: ['Deficiência de vitamina B12 associada à anemia crônica', 'Hipoesplenismo por autoesplenectomia; risco de encapsulados', 'Intoxicação por chumbo, com pontilhado basofílico', 'Infecção recente por parvovírus B19, com aplasia medular'],
     g: 'B',
     c: 'Infartos esplênicos repetidos levam à atrofia fibrosa do baço (autoesplenectomia), geralmente já na infância. Sem a função de filtro esplênico, restos nucleares permanecem nas hemácias como corpúsculos de Howell-Jolly, e a perda da depuração de bactérias opsonizadas predispõe a sepse por pneumococo, Haemophilus influenzae tipo b e meningococo.',
     x: { A: 'A deficiência de B12 produz macro-ovalócitos e neutrófilos hipersegmentados.', C: 'O chumbo causa pontilhado basofílico, que é RNA ribossomal precipitado.', D: 'O parvovírus causa reticulocitopenia, sem relação com essas inclusões.' },
@@ -93,7 +93,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — profilaxia de infecções',
     e: 'Lactente de 3 meses com diagnóstico de anemia falciforme pela triagem neonatal comparece à primeira consulta. Qual medida reduz comprovadamente a mortalidade por infecção nessa faixa etária?',
-    o: ['Amoxicilina apenas nos episódios de febre, em domicílio', 'Penicilina profilática diária até pelo menos os 5 anos, associada à vacinação contra pneumococo, Haemophilus e meningococo', 'Imunoglobulina intravenosa mensal', 'Esplenectomia eletiva no primeiro ano de vida'],
+    o: ['Amoxicilina só nos episódios de febre, em domicílio', 'Penicilina diária até os 5 anos, mais vacinas especiais', 'Imunoglobulina intravenosa mensal, mantida por toda a vida', 'Esplenectomia eletiva no primeiro ano de vida'],
     g: 'B',
     c: 'A disfunção esplênica começa nos primeiros meses de vida, e a sepse pneumocócica era a principal causa de morte na infância. A penicilina oral profilática, iniciada por volta dos 2 a 3 meses e mantida até os 5 anos, reduz drasticamente a incidência de infecção invasiva. Complementa-se com vacinas pneumocócicas conjugada e polissacarídica, meningocócica, Haemophilus e influenza.',
     x: { A: 'Febre nesses pacientes é urgência e exige avaliação hospitalar e antibiótico parenteral.', C: 'Imunoglobulina não é medida de profilaxia rotineira na doença falciforme.', D: 'A esplenectomia não previne infecção; ao contrário, agrava o risco.' },
@@ -101,7 +101,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — febre',
     e: 'Menino de 3 anos com anemia falciforme chega ao pronto-socorro com febre de 39,2 °C há 6 horas, em bom estado geral e sem foco aparente. A conduta correta é:',
-    o: ['Antitérmico e reavaliação em 48 horas', 'Coleta de hemograma e hemocultura e administração imediata de antibiótico parenteral, como ceftriaxona', 'Solicitar radiografia de tórax e, se normal, dar alta sem antibiótico', 'Aguardar o resultado da hemocultura para decidir sobre antibiótico'],
+    o: ['Antitérmico e reavaliação em 48 horas, sem coletar exames', 'Hemograma, hemocultura e antibiótico parenteral imediato', 'Radiografia de tórax e, se normal, alta sem antibiótico', 'Aguardar a hemocultura para decidir sobre antibiótico'],
     g: 'B',
     c: 'A criança falciforme é funcionalmente asplênica, e a febre pode ser a primeira manifestação de bacteremia por pneumococo, que evolui para sepse fulminante em horas. Por isso toda febre deve ser tratada como emergência, com culturas e antibiótico parenteral de amplo espectro sem demora, mesmo com bom estado geral.',
     x: { A: 'Adiar a avaliação pode permitir evolução para sepse fulminante.', C: 'A radiografia normal não exclui bacteremia oculta nesse paciente.', D: 'Esperar a cultura atrasa o tratamento de uma infecção potencialmente letal.' },
@@ -109,7 +109,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — hidroxiureia',
     e: 'Mulher de 22 anos com anemia falciforme teve quatro internações por crise álgica e um episódio de síndrome torácica aguda no último ano. Qual medicamento modifica a história natural da doença e qual o seu principal mecanismo?',
-    o: ['Ácido fólico — aumenta a produção de hemácias normais', 'Hidroxiureia — aumenta a síntese de hemoglobina fetal, inibindo a polimerização da hemoglobina S', 'Deferasirox — reduz a sobrecarga de ferro', 'Eritropoetina — eleva a hemoglobina total'],
+    o: ['Ácido fólico — aumenta a produção de hemácias normais', 'Hidroxiureia — aumenta a HbF e inibe a polimerização da HbS', 'Deferasirox — reduz a sobrecarga de ferro', 'Eritropoetina — eleva a hemoglobina total'],
     g: 'B',
     c: 'A hidroxiureia eleva a HbF, que dilui a HbS e não participa do polímero, e ainda reduz leucócitos e a adesão celular ao endotélio e aumenta a disponibilidade de óxido nítrico. Com isso diminui crises álgicas, síndrome torácica aguda, transfusões e mortalidade. O VCM aumenta com o uso, e o principal efeito adverso é a mielossupressão, o que exige controle com hemogramas.',
     x: { A: 'O folato apenas repõe o consumo da eritropoese acelerada, sem modificar a doença.', C: 'O quelante trata a sobrecarga de ferro transfusional, não previne crises.', D: 'A eritropoetina não é tratamento padrão e pode aumentar a viscosidade.' },
@@ -117,7 +117,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Falciforme — transfusão',
     e: 'Em pacientes com anemia falciforme, a transfusão de hemácias tem indicações específicas. Constitui indicação de transfusão ou de exsanguineotransfusão, EXCETO:',
-    o: ['Acidente vascular encefálico isquêmico agudo', 'Síndrome torácica aguda com hipoxemia', 'Sequestro esplênico agudo com instabilidade', 'Crise álgica não complicada com hemoglobina no valor basal'],
+    o: ['AVE isquêmico agudo, com déficit neurológico', 'Síndrome torácica aguda com hipoxemia', 'Sequestro esplênico agudo com instabilidade', 'Crise álgica sem queda da hemoglobina basal'],
     g: 'D',
     c: 'A anemia crônica é bem tolerada na doença falciforme, e transfundir na crise álgica simples não abrevia a dor, além de expor a aloimunização, sobrecarga de ferro e hiperviscosidade. A hemoglobina pós-transfusional não deve ultrapassar cerca de 10 g/dL. As indicações são complicações graves: acidente vascular encefálico, síndrome torácica aguda, sequestro esplênico, crise aplásica e preparo para cirurgias de maior porte.',
     x: { A: 'No AVE a troca de hemácias é o tratamento de escolha para reduzir a HbS.', B: 'A transfusão melhora a oxigenação e interrompe o ciclo de afoiçamento pulmonar.', C: 'A transfusão restaura o volume circulante e a capacidade de transporte de oxigênio.' },
@@ -141,7 +141,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Anemia aplásica — diagnóstico',
     e: 'Homem de 26 anos apresenta fadiga, gengivorragia e febre. Hemoglobina 6,8 g/dL, VCM 98 fL, reticulócitos muito baixos, leucócitos 1.400/mm³ com 300 neutrófilos/mm³ e plaquetas 9.000/mm³. Não há linfonodomegalia nem esplenomegalia, e não há blastos no sangue periférico. A biópsia de medula óssea deve mostrar:',
-    o: ['Medula hipercelular com mais de 20% de blastos', 'Medula acentuadamente hipocelular, com substituição por gordura e sem infiltração ou fibrose', 'Medula hipercelular com megaloblastos', 'Fibrose reticulínica intensa com dacriócitos no sangue'],
+    o: ['Medula hipercelular, com mais de 20% de blastos', 'Medula muito hipocelular, substituída por gordura', 'Medula hipercelular, com megaloblastos e displasia', 'Fibrose reticulínica intensa, com dacriócitos no sangue'],
     g: 'B',
     c: 'A anemia aplásica é uma falência medular com pancitopenia e medula hipocelular, sem células anormais nem fibrose. Na maioria dos casos é idiopática e imunomediada, com linfócitos T citotóxicos destruindo células-tronco hematopoéticas. A ausência de esplenomegalia é típica; sua presença sugere outro diagnóstico. A biópsia é indispensável, pois o aspirado isolado não avalia bem a celularidade.',
     x: { A: 'Medula com excesso de blastos define leucemia aguda.', C: 'Megaloblastose cursa com medula hipercelular e macrocitose mais acentuada.', D: 'Fibrose com dacriócitos e esplenomegalia caracteriza a mielofibrose.' },
@@ -173,7 +173,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Anemia da doença renal crônica',
     e: 'Homem de 60 anos com doença renal crônica estágio 4 por nefropatia diabética apresenta hemoglobina 8,9 g/dL, VCM 88 fL, reticulócitos baixos, ferritina 60 ng/mL e saturação de transferrina 12%. Qual é o principal mecanismo dessa anemia e o primeiro passo no tratamento?',
-    o: ['Hemólise urêmica — transfusão de hemácias', 'Produção insuficiente de eritropoetina pelos rins — corrigir a deficiência de ferro antes de iniciar agente estimulador da eritropoese', 'Deficiência de vitamina B12 — reposição intramuscular', 'Supressão medular por toxinas urêmicas — iniciar diálise imediatamente'],
+    o: ['Hemólise urêmica — transfusão de hemácias imediata', 'Pouca eritropoetina renal — corrigir ferro antes do estimulante', 'Deficiência de B12 — reposição intramuscular de B12', 'Supressão por toxinas urêmicas — diálise imediata'],
     g: 'B',
     c: 'A eritropoetina é produzida por células intersticiais peritubulares do córtex renal, e sua falta é a principal causa da anemia normocítica hipoproliferativa da doença renal crônica. Antes de usar eritropoetina ou darbepoetina é obrigatório repor ferro, pois a ferropenia é a principal causa de resistência ao tratamento. O alvo de hemoglobina é em torno de 10 a 11,5 g/dL; valores mais altos aumentam eventos cardiovasculares e trombóticos.',
     x: { A: 'A redução da sobrevida das hemácias é fator menor, e a transfusão deve ser evitada.', C: 'O VCM normal e o contexto não sugerem carência de cobalamina.', D: 'A anemia isolada não é indicação de iniciar terapia dialítica.' },
@@ -181,7 +181,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Transfusão de hemácias — indicação',
     e: 'Homem de 45 anos, sem cardiopatia, internado por pneumonia, hemodinamicamente estável, sem sangramento ativo e assintomático do ponto de vista da anemia, tem hemoglobina de 7,8 g/dL. Segundo a estratégia transfusional restritiva, a conduta é:',
-    o: ['Transfundir dois concentrados de hemácias para atingir hemoglobina de 10 g/dL', 'Não transfundir; o limiar habitual nesse perfil é hemoglobina abaixo de 7 g/dL', 'Transfundir um concentrado de hemácias e plasma fresco', 'Transfundir sangue total'],
+    o: ['Transfundir dois concentrados para atingir Hb de 10 g/dL', 'Não transfundir; limiar habitual: Hb abaixo de 7 g/dL', 'Transfundir um concentrado de hemácias e plasma', 'Transfundir sangue total, por segurança'],
     g: 'B',
     c: 'Ensaios clínicos mostraram que a estratégia restritiva, com limiar de 7 g/dL em pacientes estáveis, é tão segura quanto a liberal e reduz a exposição a hemocomponentes. Para pacientes com doença cardiovascular ou em cirurgia cardíaca ou ortopédica, aceita-se limiar em torno de 8 g/dL. A decisão considera também sintomas e instabilidade, e cada concentrado eleva a hemoglobina em cerca de 1 g/dL.',
     x: { A: 'A estratégia liberal não traz benefício e aumenta riscos transfusionais.', C: 'Não há coagulopatia que justifique plasma, nem indicação de hemácias.', D: 'O sangue total praticamente não é usado na prática clínica atual.' },
@@ -189,7 +189,7 @@ export const ANEMIAS_4: QuestaoCompacta[] = [
   {
     s: 'Reação hemolítica aguda',
     e: 'Dez minutos após o início da transfusão de concentrado de hemácias, uma paciente apresenta febre, calafrios, dor lombar, hipotensão, sangramento no local da punção e urina avermelhada. A causa mais provável e a primeira medida são:',
-    o: ['Reação febril não hemolítica — antitérmico e manter a transfusão', 'Reação hemolítica aguda por incompatibilidade ABO — interromper a transfusão imediatamente, manter acesso com solução salina e hidratar vigorosamente', 'Reação alérgica — anti-histamínico e reduzir a velocidade de infusão', 'Sobrecarga circulatória — diurético de alça'],
+    o: ['Reação febril não hemolítica — antitérmico e manter', 'Reação hemolítica aguda ABO — parar, salina e hidratar', 'Reação alérgica — anti-histamínico e reduzir a velocidade', 'Sobrecarga circulatória — diurético de alça'],
     g: 'B',
     c: 'A incompatibilidade ABO, quase sempre por erro de identificação, faz com que anticorpos IgM naturais do receptor fixem complemento e causem hemólise intravascular maciça, com hemoglobinúria, choque, coagulação intravascular disseminada e lesão renal aguda. A transfusão deve ser interrompida de imediato, com hidratação para manter a diurese, conferência da identificação e envio de amostras e da bolsa ao banco de sangue.',
     x: { A: 'Dor lombar, hipotensão e hemoglobinúria não ocorrem na reação febril simples.', C: 'A reação alérgica cursa com urticária e prurido, sem hemólise.', D: 'Não há congestão pulmonar nem hipertensão, e sim choque com hemólise.' },

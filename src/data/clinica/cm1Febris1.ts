@@ -13,7 +13,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: imunidade',
     e: 'Paciente que teve dengue por DENV-1 há 5 anos pergunta se pode ter a doença novamente. A orientação correta é:',
-    o: ['Não, pois a infecção por um sorotipo confere imunidade permanente contra todos os demais', 'Sim, pois a imunidade duradoura é apenas contra o sorotipo já adquirido, e a segunda infecção por outro sorotipo tem maior risco de forma grave', 'Sim, inclusive pelo mesmo sorotipo, já que a doença não gera imunidade', 'Não, desde que tenha apresentado a forma com sinais de alarme na primeira infecção'],
+    o: ['Não: um sorotipo confere imunidade permanente contra todos os demais', 'Sim: imunidade só ao sorotipo adquirido; a 2ª infecção pode ser mais grave', 'Sim, inclusive pelo mesmo sorotipo, pois não há imunidade', 'Não, se teve a forma com sinais de alarme na primeira vez'],
     g: 'B',
     c: 'A imunidade homóloga (contra o mesmo sorotipo) é permanente, enquanto a imunidade heteróloga (cruzada) é apenas temporária, durando poucos meses. Na infecção secundária por outro sorotipo, anticorpos não neutralizantes facilitam a entrada do vírus em macrófagos (amplificação dependente de anticorpos), aumentando a viremia e o risco de extravasamento plasmático.',
     x: { A: 'A proteção cruzada entre sorotipos é apenas transitória, não permanente.', C: 'A imunidade contra o sorotipo infectante é duradoura; não há reinfecção pelo mesmo sorotipo.', D: 'A gravidade do primeiro episódio não confere proteção contra outros sorotipos.' },
@@ -21,7 +21,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: fases clínicas',
     e: 'Na evolução da dengue, o período de maior risco para extravasamento plasmático e choque corresponde a:',
-    o: ['Os dois primeiros dias de febre alta, quando a viremia é máxima', 'A fase crítica, que coincide com a defervescência, em geral entre o 3º e o 7º dia de doença', 'A fase de recuperação, quando ocorre a reabsorção do líquido extravasado', 'O período de incubação, antes do início dos sintomas'],
+    o: ['Os dois primeiros dias de febre alta, com viremia máxima', 'A fase crítica, na defervescência, entre o 3º e o 7º dia', 'A fase de recuperação, com reabsorção do líquido extravasado', 'O período de incubação, antes do início dos sintomas'],
     g: 'B',
     c: 'A fase crítica começa com o declínio da febre, habitualmente entre o 3º e o 7º dia. É nesse momento que aumenta a permeabilidade capilar, surgem os sinais de alarme e pode haver choque. Por isso, a queda da febre não significa melhora e exige reavaliação clínica.',
     x: { A: 'Na fase febril inicial predominam febre, mialgia e cefaleia, sem extravasamento importante.', C: 'Na recuperação o risco é de hipervolemia pela reabsorção, não de choque por extravasamento.', D: 'Na incubação o paciente está assintomático e não há extravasamento plasmático.' },
@@ -29,7 +29,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: caso suspeito',
     e: 'Homem de 28 anos, morador de área com transmissão de dengue, apresenta febre há 3 dias, cefaleia, dor retro-orbitária, mialgia intensa e exantema. Não tem sangramentos nem comorbidades. Prova do laço negativa e ausência de sinais de alarme. A classificação e a conduta corretas são:',
-    o: ['Grupo B; colher hemograma e aguardar o resultado em observação', 'Grupo A; hidratação oral domiciliar, sintomáticos e orientação sobre sinais de alarme com retorno programado', 'Grupo C; internação com hidratação venosa imediata', 'Grupo A; prescrever ibuprofeno e liberar sem necessidade de retorno'],
+    o: ['Grupo B; hemograma e observação até o resultado do exame', 'Grupo A; hidratação oral em casa, alertas e retorno', 'Grupo C; internação com hidratação venosa imediata', 'Grupo A; prescrever ibuprofeno e liberar sem retorno marcado'],
     g: 'B',
     c: 'O grupo A reúne os casos suspeitos sem sinais de alarme, sem sangramento espontâneo ou induzido (prova do laço negativa) e sem comorbidades, condições especiais ou risco social. O tratamento é ambulatorial, com hidratação oral vigorosa, dipirona ou paracetamol, e retorno no dia da melhora da febre ou imediatamente se surgirem sinais de alarme.',
     x: { A: 'Não há sangramento, prova do laço positiva nem condição especial que o coloque no grupo B.', C: 'A ausência de sinais de alarme afasta o grupo C e a necessidade de internação.', D: 'Anti-inflamatórios são contraindicados e o retorno para reavaliação é obrigatório.' },
@@ -37,7 +37,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: prova do laço',
     e: 'Sobre a técnica e a interpretação da prova do laço na dengue, assinale a correta:',
-    o: ['Insufla-se o manguito na pressão sistólica por 10 minutos; é positiva com 5 ou mais petéquias', 'Insufla-se o manguito no valor médio entre as pressões sistólica e diastólica por 5 minutos no adulto; é positiva com 20 ou mais petéquias em um quadrado de 2,5 cm de lado', 'Insufla-se o manguito na pressão diastólica por 1 minuto; é positiva com qualquer petéquia', 'Quando positiva, confirma o diagnóstico de dengue e classifica o paciente como grupo C'],
+    o: ['Manguito na pressão sistólica por 10 min; positiva com ≥ 5 petéquias', 'Manguito no valor médio (PAS+PAD)/2 por 5 min; positiva com ≥ 20 petéquias', 'Manguito na pressão diastólica por 1 min; positiva com qualquer petéquia', 'Se positiva, confirma dengue e classifica como grupo C'],
     g: 'B',
     c: 'O manguito é mantido na média entre a pressão sistólica e a diastólica por 5 minutos em adultos e 3 minutos em crianças. Em seguida contam-se as petéquias em um quadrado de 2,5 cm de lado no antebraço: 20 ou mais em adultos e 10 ou mais em crianças definem prova positiva. Ela indica fragilidade capilar e classifica o paciente no grupo B.',
     x: { A: 'A pressão usada é a média, o tempo é de 5 minutos e o corte no adulto é de 20 petéquias.', C: 'Nem a pressão diastólica nem 1 minuto fazem parte da técnica padronizada.', D: 'A prova não é específica de dengue e, isoladamente, classifica como grupo B.' },
@@ -45,7 +45,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: grupo B',
     e: 'Mulher de 67 anos, hipertensa e diabética, tem febre há 2 dias, mialgia e cefaleia em período de epidemia de dengue. Está hidratada, sem sangramentos e sem sinais de alarme. A conduta inicial adequada é:',
-    o: ['Liberar para casa com hidratação oral, sem necessidade de exames', 'Classificar como grupo B, colher hemograma e manter em observação com hidratação oral até o resultado', 'Classificar como grupo C e iniciar soro fisiológico 20 mL/kg em 20 minutos', 'Solicitar apenas sorologia IgM e reavaliar em 7 dias'],
+    o: ['Liberar para casa com hidratação oral, sem fazer exames', 'Grupo B: hemograma e observação com hidratação oral', 'Grupo C: soro fisiológico 20 mL/kg em 20 minutos, repetido', 'Apenas sorologia IgM e reavaliação em 7 dias, em casa'],
     g: 'B',
     c: 'Idosos acima de 65 anos, gestantes, lactentes menores de 2 anos e portadores de comorbidades (hipertensão, diabetes, doença renal, entre outras) pertencem ao grupo B mesmo sem sangramento. Nesse grupo o hemograma é obrigatório e o paciente fica em observação, hidratando por via oral, até a avaliação do hematócrito. Se houver hemoconcentração ou sinal de alarme, passa a ser conduzido como grupo C.',
     x: { A: 'Idade e comorbidades tornam o hemograma obrigatório antes da liberação.', C: 'Não há sinais de alarme nem choque que justifiquem expansão venosa rápida.', D: 'No segundo dia a sorologia IgM ainda é negativa e não orienta a conduta imediata.' },
@@ -53,7 +53,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: sinais de alarme',
     e: 'Todas as alternativas abaixo são sinais de alarme na dengue, EXCETO:',
-    o: ['Dor abdominal intensa e contínua', 'Vômitos persistentes', 'Hipotensão postural ou lipotimia', 'Plaquetopenia isolada abaixo de 100.000/mm³'],
+    o: ['Dor abdominal intensa e contínua, como sinal de alarme', 'Vômitos persistentes, como sinal de alarme', 'Hipotensão postural ou lipotimia, como sinal de alarme', 'Plaquetopenia isolada abaixo de 100.000/mm³'],
     g: 'D',
     c: 'Os sinais de alarme são dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos (ascite, derrame pleural ou pericárdico), hipotensão postural ou lipotimia, hepatomegalia maior que 2 cm, sangramento de mucosas, letargia ou irritabilidade e aumento progressivo do hematócrito. A queda de plaquetas, isoladamente, não é sinal de alarme nem define gravidade.',
     x: { A: 'A dor abdominal intensa e contínua é um dos sinais de alarme mais frequentes.', B: 'Vômitos persistentes são sinal de alarme e impedem a hidratação oral adequada.', C: 'Hipotensão postural e lipotimia traduzem depleção de volume e são sinais de alarme.' },
@@ -61,7 +61,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: grupo C',
     e: 'Adolescente de 15 anos, no 4º dia de dengue, teve melhora da febre e passou a apresentar dor abdominal intensa e contínua e três episódios de vômito em poucas horas. Está com pressão arterial normal, pulsos cheios e enchimento capilar de 2 segundos. A conduta correta é:',
-    o: ['Hidratação oral domiciliar e retorno em 48 horas', 'Internação com hidratação venosa com cristaloide 10 mL/kg na primeira hora, hemograma e reavaliação clínica e do hematócrito', 'Expansão com 20 mL/kg em 20 minutos e encaminhamento imediato à terapia intensiva', 'Transfusão profilática de plaquetas e alta após o procedimento'],
+    o: ['Hidratação oral domiciliar e retorno em 48 horas, sem exames', 'Internar; cristaloide 10 mL/kg na 1ª hora; reavaliar', 'Expansão com 20 mL/kg em 20 min e UTI imediata', 'Transfusão profilática de plaquetas e alta no mesmo dia'],
     g: 'B',
     c: 'A presença de sinais de alarme sem choque define o grupo C. A conduta é iniciar imediatamente reposição venosa com soro fisiológico ou Ringer a 10 mL/kg na primeira hora, em qualquer nível de atenção, e manter o paciente internado por pelo menos 48 horas, com reavaliação clínica horária e do hematócrito após as etapas de expansão.',
     x: { A: 'Sinais de alarme contraindicam o manejo domiciliar com hidratação oral.', C: 'Esse volume em 20 minutos é reservado ao grupo D, com choque ou dengue grave.', D: 'Transfusão profilática de plaquetas não é indicada na dengue.' },
@@ -69,7 +69,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: grupo D',
     e: 'Homem de 40 anos, no 5º dia de dengue, chega com extremidades frias, pulso fino, enchimento capilar de 5 segundos e pressão arterial de 90 x 75 mmHg. A conduta imediata é:',
-    o: ['Cristaloide 10 mL/kg em 2 horas e observação em enfermaria', 'Cristaloide 20 mL/kg em até 20 minutos, podendo repetir até três vezes, com reavaliação a cada 15 a 30 minutos e leito de terapia intensiva', 'Albumina como primeira opção e furosemida para proteger o rim', 'Noradrenalina como primeira medida, antes de qualquer expansão volêmica'],
+    o: ['Cristaloide 10 mL/kg em 2 horas e vaga em enfermaria', 'Cristaloide 20 mL/kg em 20 min (até 3 vezes) e UTI', 'Albumina como primeira opção e furosemida para o rim', 'Noradrenalina antes de qualquer expansão volêmica prévia'],
     g: 'B',
     c: 'Pressão convergente (diferença menor ou igual a 20 mmHg), pulso fino e má perfusão caracterizam choque por extravasamento plasmático, ou seja, grupo D. A conduta é expansão rápida com cristaloide isotônico 20 mL/kg em até 20 minutos, repetida até três vezes conforme a resposta, com monitorização em terapia intensiva. Coloides ficam para o choque refratário com hematócrito em elevação.',
     x: { A: 'No choque a expansão deve ser rápida, e o paciente precisa de leito de terapia intensiva.', C: 'A albumina é reservada a casos refratários, e diurético piora a hipovolemia.', D: 'O choque da dengue é hipovolêmico; a reposição de volume vem antes de vasopressor.' },
@@ -77,7 +77,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: pressão convergente',
     e: 'Na dengue com choque, o achado hemodinâmico precoce característico, que precede a hipotensão franca, é:',
-    o: ['Pressão arterial divergente, com diastólica muito baixa', 'Estreitamento da pressão de pulso, com diferença entre sistólica e diastólica menor ou igual a 20 mmHg', 'Bradicardia com pulsos amplos', 'Hipertensão sistólica isolada'],
+    o: ['Pressão arterial divergente, com diastólica muito baixa', 'Pressão de pulso estreita (PAS−PAD ≤ 20 mmHg)', 'Bradicardia com pulsos amplos e bem palpáveis', 'Hipertensão sistólica isolada, com pulsos amplos'],
     g: 'B',
     c: 'A perda de plasma para o terceiro espaço reduz o volume sistólico, enquanto a vasoconstrição compensatória mantém ou eleva a pressão diastólica. O resultado é a pressão convergente, sinal de choque compensado. A hipotensão é achado tardio e indica descompensação.',
     x: { A: 'Pressão divergente ocorre em estados hiperdinâmicos, não no choque hipovolêmico da dengue.', C: 'No choque há taquicardia e pulsos finos, não bradicardia com pulsos amplos.', D: 'Hipertensão sistólica não faz parte do quadro de extravasamento plasmático.' },
@@ -85,7 +85,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue grave',
     e: 'Segundo a classificação atual, caracteriza dengue grave:',
-    o: ['Prova do laço positiva associada a petéquias', 'Choque ou desconforto respiratório por extravasamento plasmático, sangramento grave ou comprometimento grave de órgãos', 'Plaquetas abaixo de 50.000/mm³ sem outras alterações', 'Febre por mais de 7 dias com exantema'],
+    o: ['Prova do laço positiva associada a petéquias na pele', 'Choque ou desconforto respiratório, sangramento grave ou disfunção', 'Plaquetas abaixo de 50.000/mm³, sem outras alterações', 'Febre por mais de 7 dias com exantema difuso e prurido'],
     g: 'B',
     c: 'A dengue grave é definida por três situações: extravasamento plasmático grave (levando a choque ou acúmulo de líquidos com insuficiência respiratória), sangramento grave (como hematêmese, melena ou sangramento do sistema nervoso central) e disfunção grave de órgãos, como hepatite com transaminases acima de 1.000, miocardite ou encefalite.',
     x: { A: 'Prova do laço positiva e petéquias classificam apenas como grupo B.', C: 'Plaquetopenia isolada não define dengue grave nem indica transfusão.', D: 'A duração da febre não é critério de gravidade na classificação da dengue.' },
@@ -93,7 +93,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: hematócrito',
     e: 'No acompanhamento laboratorial do paciente com dengue, o parâmetro que melhor reflete o extravasamento plasmático e orienta a reposição de volume é:',
-    o: ['A contagem de plaquetas', 'O hematócrito, cuja elevação progressiva indica hemoconcentração', 'A contagem de leucócitos', 'A velocidade de hemossedimentação'],
+    o: ['A contagem de plaquetas, que cai na fase crítica', 'O hematócrito: elevação progressiva indica hemoconcentração', 'A contagem de leucócitos, que cai na fase crítica', 'A velocidade de hemossedimentação, que sobe'],
     g: 'B',
     c: 'Quando o plasma sai do vaso, a massa de hemácias permanece e o hematócrito sobe. A elevação progressiva do hematócrito é sinal de alarme e, junto com os parâmetros clínicos, guia a intensidade da hidratação. Já a queda do hematócrito com instabilidade sugere hemorragia.',
     x: { A: 'A plaquetopenia é frequente, mas não se correlaciona bem com extravasamento nem guia a hidratação.', C: 'A leucopenia é comum na dengue, porém não mede perda de plasma.', D: 'A velocidade de hemossedimentação costuma ser normal ou baixa e não orienta conduta.' },
@@ -101,7 +101,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: NS1',
     e: 'Paciente procura atendimento no 2º dia de febre com suspeita de dengue. O exame específico mais adequado para confirmação nesse momento é:',
-    o: ['Sorologia IgM por ELISA', 'Pesquisa do antígeno NS1 ou métodos de detecção viral, como RT-PCR', 'Sorologia IgG isolada', 'Prova do laço'],
+    o: ['Sorologia IgM por ELISA, pareada', 'Pesquisa de NS1 ou detecção viral por RT-PCR', 'Sorologia IgG isolada, em amostra única', 'Prova do laço, realizada à beira do leito'],
     g: 'B',
     c: 'Nos primeiros cinco dias de doença há viremia, e o diagnóstico é feito por detecção do vírus ou de seus componentes: antígeno NS1, RT-PCR ou isolamento viral. Os anticorpos IgM só se tornam detectáveis de forma confiável a partir do 6º dia. Um NS1 negativo não afasta a doença.',
     x: { A: 'A IgM ainda não é detectável no 2º dia; deve ser colhida a partir do 6º dia.', C: 'IgG isolada indica infecção passada e não confirma o quadro agudo.', D: 'A prova do laço avalia fragilidade capilar e não é exame confirmatório.' },
@@ -117,7 +117,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: medicamentos a evitar',
     e: 'Na suspeita de dengue, devem ser evitados os salicilatos e os anti-inflamatórios não esteroides porque:',
-    o: ['Aumentam a replicação viral nos macrófagos', 'Interferem na função plaquetária e lesam a mucosa gástrica, aumentando o risco de sangramento', 'Causam extravasamento plasmático direto', 'Reduzem a eficácia da hidratação oral'],
+    o: ['Aumentam a replicação viral nos macrófagos infectados', 'Alteram a função plaquetária e lesam o estômago: sangramento', 'Causam extravasamento plasmático direto nos capilares', 'Reduzem a eficácia da hidratação oral no domicílio'],
     g: 'B',
     c: 'O ácido acetilsalicílico e os anti-inflamatórios inibem a ciclo-oxigenase, reduzindo a agregação plaquetária e a proteção da mucosa gástrica. Em uma doença que já cursa com plaquetopenia e fragilidade capilar, isso eleva o risco de hemorragia, sobretudo digestiva. Os analgésicos e antitérmicos recomendados são dipirona e paracetamol.',
     x: { A: 'Esses fármacos não têm efeito conhecido sobre a replicação do vírus.', C: 'O extravasamento decorre da resposta imune do hospedeiro, não desses medicamentos.', D: 'Não há interferência na absorção ou na eficácia da hidratação oral.' },
@@ -125,7 +125,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: hidratação oral',
     e: 'Para o adulto com dengue do grupo A, a orientação de hidratação oral recomendada pelo Ministério da Saúde é:',
-    o: ['Ingerir líquidos apenas quando sentir sede', 'Cerca de 60 mL/kg/dia, sendo um terço em solução de reidratação oral e o restante em líquidos caseiros', 'Restringir líquidos a 1 litro por dia para evitar edema', 'Apenas solução de reidratação oral, 200 mL/kg/dia'],
+    o: ['Beber líquidos apenas quando sentir muita sede', 'Cerca de 60 mL/kg/dia: 1/3 em SRO, o resto líquidos caseiros', 'Restringir líquidos a 1 litro por dia, para evitar edema', 'Apenas SRO, em volume de 200 mL/kg/dia, por via oral'],
     g: 'B',
     c: 'A hidratação oral precoce e vigorosa reduz a evolução para formas graves. Recomenda-se em torno de 60 mL/kg/dia, com um terço do volume em sais de reidratação oral e dois terços em água, sucos, chás ou água de coco, oferecendo volume maior no início. A hidratação deve ser mantida até 24 a 48 horas após o fim da febre.',
     x: { A: 'Beber apenas por sede resulta em ingestão insuficiente para a fase crítica.', C: 'A restrição hídrica aumenta o risco de hipovolemia e choque.', D: 'O volume citado é excessivo, e parte da hidratação deve ser com líquidos caseiros.' },
@@ -133,7 +133,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: plaquetas',
     e: 'Paciente internado por dengue com sinais de alarme tem plaquetas de 18.000/mm³, sem qualquer sangramento, hemodinamicamente estável após hidratação. Em relação à transfusão de plaquetas, a conduta é:',
-    o: ['Transfundir plaquetas profilaticamente por estar abaixo de 20.000/mm³', 'Não transfundir, pois a transfusão profilática não é indicada; manter hidratação e vigilância de sangramentos', 'Transfundir plaquetas e plasma fresco de rotina', 'Iniciar corticoide em dose alta para elevar as plaquetas'],
+    o: ['Transfundir plaquetas profilaticamente, por estar abaixo de 20.000', 'Não transfundir: sem indicação profilática; hidratar e vigiar sangramentos', 'Transfundir plaquetas e plasma fresco de rotina', 'Corticoide em dose alta para elevar as plaquetas'],
     g: 'B',
     c: 'A plaquetopenia da dengue resulta de supressão medular transitória e destruição periférica imunomediada, de modo que as plaquetas transfundidas são rapidamente consumidas. A transfusão profilática não reduz sangramento e expõe a risco de sobrecarga de volume. Ela fica reservada a sangramentos graves e persistentes.',
     x: { A: 'O número de plaquetas isolado não indica transfusão na dengue.', C: 'Hemocomponentes de rotina não têm benefício e aumentam o risco de hipervolemia.', D: 'Corticoides não têm eficácia demonstrada para a plaquetopenia da dengue.' },
@@ -149,7 +149,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: fase de recuperação',
     e: 'Paciente tratado para dengue grave com grandes volumes de cristaloide evolui, na fase de recuperação, com dispneia, estertores bibasais e queda do hematócrito, mantendo boa perfusão e pressão arterial normal. A conduta adequada é:',
-    o: ['Nova expansão com 20 mL/kg de cristaloide', 'Reduzir ou suspender a hidratação venosa, pois há reabsorção do líquido extravasado com hipervolemia', 'Transfundir concentrado de hemácias pela queda do hematócrito', 'Iniciar antibiótico para pneumonia hospitalar'],
+    o: ['Nova expansão com 20 mL/kg de cristaloide, de imediato', 'Reduzir ou suspender a hidratação IV: reabsorção do extravasado', 'Transfundir concentrado de hemácias pela queda do hematócrito', 'Iniciar antibiótico para pneumonia hospitalar de imediato'],
     g: 'B',
     c: 'Na fase de recuperação o líquido que extravasou retorna ao espaço intravascular, o hematócrito cai por hemodiluição e a perfusão está boa. Manter infusão venosa nesse momento causa congestão pulmonar. A conduta é reduzir ou suspender os fluidos e, se necessário, usar diurético.',
     x: { A: 'Mais volume agravaria a congestão pulmonar em um paciente já bem perfundido.', C: 'A queda do hematócrito com estabilidade reflete hemodiluição, não hemorragia.', D: 'O quadro é explicado por sobrecarga hídrica, sem evidência de infecção bacteriana.' },
@@ -157,7 +157,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: gestante',
     e: 'Gestante de 20 semanas, previamente hígida, apresenta febre há 2 dias, mialgia e cefaleia, sem sangramentos e sem sinais de alarme, em município com epidemia de dengue. Assinale a conduta correta:',
-    o: ['Grupo A; hidratação oral em casa sem exames', 'Grupo B; hemograma obrigatório, observação até o resultado e acompanhamento diário', 'Grupo D; internação em terapia intensiva', 'Prescrever ácido acetilsalicílico para a febre e reavaliar em uma semana'],
+    o: ['Grupo A; hidratação oral em casa, sem fazer exames', 'Grupo B; hemograma, observação e acompanhamento diário', 'Grupo D; internação em terapia intensiva, de imediato', 'Prescrever AAS para a febre e reavaliar em uma semana'],
     g: 'B',
     c: 'A gestação é condição clínica especial que classifica a paciente no grupo B, independentemente de sangramento. Gestantes têm maior risco de formas graves, de hemorragia obstétrica e de desfechos fetais adversos, exigindo hemograma, reavaliação diária e baixo limiar para internação.',
     x: { A: 'A gestação por si só impede a classificação no grupo A.', C: 'Não há choque nem disfunção orgânica que caracterize o grupo D.', D: 'Salicilatos são contraindicados na dengue pelo risco de sangramento.' },
@@ -165,7 +165,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: leucograma',
     e: 'O hemograma típico da dengue na fase febril mostra:',
-    o: ['Leucocitose com neutrofilia e desvio à esquerda', 'Leucopenia, podendo haver linfócitos atípicos, com plaquetopenia', 'Eosinofilia acentuada', 'Anemia hemolítica com reticulocitose'],
+    o: ['Leucocitose com neutrofilia e desvio à esquerda', 'Leucopenia, com possíveis linfócitos atípicos, e plaquetopenia', 'Eosinofilia acentuada, com plaquetas normais', 'Anemia hemolítica com reticulocitose, com Coombs'],
     g: 'B',
     c: 'A dengue, como outras viroses sistêmicas, cursa com leucopenia por supressão medular transitória, linfocitose relativa com atipia e queda progressiva das plaquetas. Leucocitose com desvio à esquerda deve levantar a suspeita de infecção bacteriana ou de leptospirose.',
     x: { A: 'Leucocitose com desvio sugere leptospirose ou sepse bacteriana, não dengue.', C: 'Eosinofilia remete a helmintíases, como a esquistossomose aguda.', D: 'Hemólise com reticulocitose sugere malária ou outras causas, não dengue.' },
@@ -173,7 +173,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: vacina',
     e: 'Sobre a vacina contra dengue incorporada ao Sistema Único de Saúde (TAK-003), assinale a correta:',
-    o: ['É vacina inativada, podendo ser aplicada em gestantes e imunossuprimidos', 'É vacina de vírus vivo atenuado tetravalente, em duas doses com intervalo de três meses, contraindicada em gestantes e imunodeprimidos', 'Só pode ser aplicada em quem tem sorologia comprovando dengue prévia', 'Protege apenas contra o sorotipo 2 e é aplicada em dose única'],
+    o: ['Vacina inativada, aplicável em gestantes e imunossuprimidos', 'Vírus vivo atenuado, 2 doses; contraindicada em gestantes e imunodeprimidos', 'Só em quem tem sorologia comprovando dengue prévia', 'Protege só contra o sorotipo 2, em dose única, para todos'],
     g: 'B',
     c: 'A TAK-003 é uma vacina atenuada tetravalente construída sobre o arcabouço do DENV-2. O esquema é de duas doses com intervalo de três meses e pode ser aplicada independentemente de infecção prévia. Por conter vírus vivo, é contraindicada em gestantes, lactantes e pessoas com imunodeficiência.',
     x: { A: 'Trata-se de vacina de vírus vivo atenuado, por isso contraindicada nesses grupos.', C: 'A exigência de infecção prévia vale para a vacina CYD-TDV, não para a TAK-003.', D: 'A vacina é tetravalente e o esquema é de duas doses.' },
@@ -181,7 +181,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Dengue: notificação',
     e: 'Quanto à vigilância epidemiológica da dengue, é correto afirmar:',
-    o: ['A notificação só deve ser feita após confirmação laboratorial', 'Todo caso suspeito é de notificação compulsória, e os óbitos devem ser notificados de forma imediata, em até 24 horas', 'Apenas os casos de dengue grave são notificados', 'A dengue não é doença de notificação compulsória'],
+    o: ['Notificação só após a confirmação laboratorial do caso', 'Todo caso suspeito é notificado; óbitos em até 24 h', 'Notificam-se apenas os casos de dengue grave confirmados', 'A dengue não é doença de notificação compulsória'],
     g: 'B',
     c: 'A notificação é feita na suspeita, pois é ela que desencadeia as ações de controle vetorial e a organização da rede de atendimento. Os casos em geral são de notificação semanal, enquanto os óbitos suspeitos exigem notificação imediata e investigação.',
     x: { A: 'Aguardar a confirmação atrasaria as medidas de controle; notifica-se o caso suspeito.', C: 'Todos os casos suspeitos são notificados, independentemente da gravidade.', D: 'A dengue consta na lista nacional de notificação compulsória.' },
@@ -189,7 +189,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Diferencial: leptospirose',
     e: 'Homem de 35 anos, após limpar um quintal alagado, apresenta febre alta, mialgia intensa em panturrilhas e olhos vermelhos sem secreção. O hemograma mostra leucocitose com desvio à esquerda e plaquetas de 110.000/mm³. Em relação ao diagnóstico diferencial com dengue, a hipótese mais provável é:',
-    o: ['Dengue, pois a plaquetopenia é patognomônica', 'Leptospirose, sugerida pela exposição a água de enchente, sufusão conjuntival, dor em panturrilhas e leucocitose', 'Chikungunya, pela presença de mialgia', 'Zika, pelo acometimento ocular'],
+    o: ['Dengue, pois a plaquetopenia é patognomônica da doença', 'Leptospirose: enchente, sufusão conjuntival e dor em panturrilhas', 'Chikungunya, pela presença de mialgia e artralgia intensa', 'Zika, pelo acometimento ocular e pelo exantema'],
     g: 'B',
     c: 'A exposição a água ou lama contaminada com urina de roedores, a mialgia de predomínio em panturrilhas e a sufusão conjuntival apontam para leptospirose. O leucograma ajuda muito na diferenciação: leucocitose com neutrofilia e desvio à esquerda é esperada na leptospirose, enquanto a dengue cursa com leucopenia.',
     x: { A: 'Plaquetopenia ocorre em várias síndromes febris e não é patognomônica de dengue.', C: 'A chikungunya causa poliartralgia intensa e não cursa com leucocitose com desvio.', D: 'A Zika causa conjuntivite com febre baixa e exantema pruriginoso, sem esse leucograma.' },
@@ -197,7 +197,7 @@ export const FEBRIS_1: QuestaoCompacta[] = [
   {
     s: 'Diferencial: meningococcemia',
     e: 'Criança de 6 anos é levada ao pronto-socorro com febre há 12 horas, prostração intensa e lesões petequiais e purpúricas que se espalham rapidamente por tronco e membros. Há má perfusão periférica. Em uma região com epidemia de dengue, a conduta prioritária é:',
-    o: ['Classificar como dengue grupo B e aguardar o hemograma em observação', 'Considerar doença meningocócica, iniciar antibiótico imediatamente com suporte hemodinâmico e colher culturas', 'Realizar prova do laço e liberar com hidratação oral', 'Aguardar o 6º dia de doença para colher sorologia'],
+    o: ['Dengue grupo B; hemograma em observação, com hidratação', 'Meningococemia: antibiótico imediato, suporte e culturas', 'Prova do laço e liberar com hidratação oral, em casa', 'Aguardar o 6º dia de doença para colher a sorologia'],
     g: 'B',
     c: 'Febre com petéquias e púrpura de progressão rápida nas primeiras 24 horas, com toxemia e má perfusão, deve ser tratada como meningococcemia até prova em contrário. Na dengue, as manifestações hemorrágicas e o choque costumam surgir após o 3º dia, na defervescência. O atraso no antibiótico eleva muito a letalidade da doença meningocócica.',
     x: { A: 'A evolução fulminante com púrpura nas primeiras horas não é típica de dengue.', C: 'Há sinais de choque; liberar a criança seria conduta de alto risco.', D: 'Aguardar exames tardios retardaria um tratamento que precisa ser imediato.' },

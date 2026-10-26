@@ -29,7 +29,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Esferocitose hereditária — diagnóstico',
     e: 'Menino de 8 anos apresenta icterícia intermitente, esplenomegalia e anemia leve. O pai foi submetido a colecistectomia aos 25 anos. Hemoglobina 10,5 g/dL, reticulócitos 9%, CHCM elevada, Coombs direto negativo e esfregaço com hemácias pequenas sem palidez central. O diagnóstico mais provável e o defeito subjacente são:',
-    o: ['Anemia hemolítica autoimune — IgG contra antígenos eritrocitários', 'Esferocitose hereditária — defeito de proteínas do citoesqueleto como anquirina e espectrina', 'Deficiência de G6PD — falha na proteção contra estresse oxidativo', 'Talassemia intermédia — redução da síntese de globina'],
+    o: ['Anemia hemolítica autoimune: IgG contra antígenos eritrocitários', 'Esferocitose hereditária: defeito de anquirina e espectrina', 'Deficiência de G6PD: falha na proteção contra estresse oxidativo', 'Talassemia intermédia: redução da síntese de globina'],
     g: 'B',
     c: 'A esferocitose hereditária, em geral autossômica dominante, decorre de defeitos em proteínas que ancoram a bicamada lipídica ao citoesqueleto (anquirina, espectrina, banda 3, proteína 4.2). A hemácia perde fragmentos de membrana, torna-se esférica e pouco deformável e é retida e destruída no baço. A CHCM elevada e o Coombs negativo, com história familiar, são as pistas principais.',
     x: { A: 'O Coombs direto negativo e a história familiar afastam a etiologia autoimune.', C: 'Na deficiência de G6PD a hemólise é episódica e o esfregaço mostra células mordidas.', D: 'A talassemia cursa com microcitose, hipocromia e hemácias em alvo, com CHCM baixa.' },
@@ -37,7 +37,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Esferocitose — exames confirmatórios',
     e: 'Qual exame é atualmente considerado o de maior acurácia para confirmar a esferocitose hereditária, tendo o teste de fragilidade osmótica como alternativa clássica?',
-    o: ['Eletroforese de hemoglobina', 'Citometria de fluxo com eosina-5-maleimida (teste de ligação da EMA)', 'Teste de Ham', 'Dosagem de glicose-6-fosfato desidrogenase'],
+    o: ['Eletroforese de hemoglobina, em pH alcalino', 'Citometria de fluxo com eosina-5-maleimida (EMA)', 'Teste de Ham, com soro acidificado', 'Dosagem de glicose-6-fosfato desidrogenase eritrocitária'],
     g: 'B',
     c: 'O teste da EMA mede por citometria a fluorescência de um corante que se liga à banda 3 e a proteínas associadas; nos esferócitos hereditários a ligação está reduzida. Tem sensibilidade e especificidade superiores às do teste de fragilidade osmótica, no qual os esferócitos, por terem pouca reserva de membrana, rompem-se em soluções menos hipotônicas que as hemácias normais.',
     x: { A: 'A eletroforese avalia hemoglobinopatias e é normal na esferocitose.', C: 'O teste de Ham era usado para hemoglobinúria paroxística noturna.', D: 'A dosagem enzimática investiga a deficiência de G6PD, outra doença.' },
@@ -45,7 +45,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Esferocitose — esplenectomia',
     e: 'Menina de 7 anos com esferocitose hereditária grave, dependente de transfusões, tem indicação de esplenectomia. Sobre esse procedimento, é correto afirmar:',
-    o: ['Corrige o defeito de membrana e faz desaparecerem os esferócitos do sangue', 'Elimina o principal local de destruição das hemácias; deve ser precedido de vacinação contra germes encapsulados', 'Deve ser realizado preferencialmente no primeiro ano de vida', 'Dispensa a avaliação da vesícula biliar, pois a hemólise cessa'],
+    o: ['Corrige o defeito de membrana; os esferócitos desaparecem', 'Elimina o principal local de destruição; vacinar antes (encapsulados)', 'Deve ser feita, preferencialmente, no primeiro ano de vida', 'Dispensa avaliar a vesícula biliar, pois a hemólise cessa'],
     g: 'B',
     c: 'A esplenectomia não corrige o defeito de membrana, e os esferócitos persistem, mas remove o órgão onde são destruídos, resolvendo a anemia na maioria dos casos. Costuma ser adiada para depois dos 5 ou 6 anos pelo risco de sepse fulminante por pneumococo, meningococo e Haemophilus, exigindo vacinação prévia e, muitas vezes, profilaxia antibiótica. Se houver cálculos, faz-se colecistectomia no mesmo ato.',
     x: { A: 'O defeito é intrínseco da hemácia e os esferócitos continuam presentes após a cirurgia.', C: 'Na criança pequena o risco de sepse pós-esplenectomia é muito alto.', D: 'A ultrassonografia de vesícula é recomendada, pois cálculos pigmentares são frequentes.' },
@@ -61,7 +61,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Deficiência de G6PD — fisiopatologia',
     e: 'A glicose-6-fosfato desidrogenase é a enzima limitante da via das pentoses. Sua deficiência causa hemólise porque:',
-    o: ['Reduz a produção de ATP, impedindo o funcionamento da bomba de sódio e potássio', 'Reduz a geração de NADPH, necessário para manter a glutationa reduzida e proteger a hemácia do estresse oxidativo', 'Impede a síntese de 2,3-difosfoglicerato, aumentando a afinidade da hemoglobina pelo oxigênio', 'Altera a estrutura da espectrina, tornando a membrana instável'],
+    o: ['Reduz o ATP, impedindo a bomba de sódio e potássio', 'Reduz o NADPH, necessário para manter a glutationa reduzida', 'Impede a síntese de 2,3-DPG, aumentando a afinidade da Hb por O2', 'Altera a estrutura da espectrina, tornando a membrana instável'],
     g: 'B',
     c: 'A G6PD gera NADPH, que regenera a glutationa reduzida, principal defesa da hemácia contra peróxidos. Sem ela, agentes oxidantes desnaturam a hemoglobina, que precipita como corpúsculos de Heinz e lesa a membrana, levando a hemólise intravascular e extravascular. A herança é recessiva ligada ao X, com predomínio em homens.',
     x: { A: 'A falta de ATP é o mecanismo da deficiência de piruvato quinase, da via glicolítica.', C: 'O 2,3-DPG é produzido em desvio da glicólise, não pela via das pentoses.', D: 'Defeito de espectrina é próprio da esferocitose e da eliptocitose hereditárias.' },
@@ -69,7 +69,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Deficiência de G6PD — quadro clínico',
     e: 'Homem negro de 22 anos é tratado para malária por Plasmodium vivax com cloroquina e primaquina. No terceiro dia apresenta icterícia, urina escura, dor lombar e queda da hemoglobina de 13,5 para 8,1 g/dL. O esfregaço mostra hemácias mordidas (bite cells). O diagnóstico mais provável é:',
-    o: ['Anemia hemolítica autoimune induzida por droga', 'Hemólise oxidativa por deficiência de G6PD desencadeada pela primaquina', 'Febre hemoglobinúrica por Plasmodium falciparum', 'Hemoglobinúria paroxística noturna'],
+    o: ['Anemia hemolítica autoimune induzida por droga', 'Hemólise oxidativa por G6PD, desencadeada pela primaquina', 'Febre hemoglobinúrica por Plasmodium falciparum', 'Hemoglobinúria paroxística noturna, por clone PIG-A'],
     g: 'B',
     c: 'A primaquina é um potente oxidante e desencadeia hemólise aguda em deficientes de G6PD, tipicamente dois a quatro dias após a exposição. As células mordidas resultam da remoção dos corpúsculos de Heinz pelos macrófagos esplênicos. Por isso recomenda-se testar a atividade da G6PD antes do uso de primaquina ou tafenoquina.',
     x: { A: 'O mecanismo aqui é oxidativo, com Coombs negativo e células mordidas, não imune.', C: 'A espécie identificada é P. vivax, e a hemólise coincidiu com o início da primaquina.', D: 'A HPN é crônica, sem relação temporal com fármacos oxidantes nem células mordidas.' },
@@ -77,7 +77,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Deficiência de G6PD — desencadeantes',
     e: 'Todos os itens a seguir são desencadeantes reconhecidos de hemólise em pessoas com deficiência de G6PD, EXCETO:',
-    o: ['Infecções', 'Ingestão de fava', 'Dapsona, rasburicase e naftalina', 'Paracetamol em dose terapêutica'],
+    o: ['Infecções, como desencadeantes de crise hemolítica', 'Ingestão de fava, como desencadeante de crise', 'Dapsona, rasburicase e naftalina, como desencadeantes', 'Paracetamol em dose terapêutica, que não desencadeia'],
     g: 'D',
     c: 'O paracetamol em doses habituais é considerado seguro na deficiência de G6PD. A causa mais frequente de crise hemolítica é a infecção, pelo estresse oxidativo gerado pelos leucócitos; seguem-se a fava (favismo) e drogas oxidantes como primaquina, dapsona, sulfonamidas, nitrofurantoína e rasburicase, além da exposição à naftalina e ao azul de metileno.',
     x: { A: 'Infecções são o desencadeante mais comum das crises hemolíticas.', B: 'A fava contém compostos oxidantes e causa o favismo, sobretudo na variante mediterrânea.', C: 'São agentes fortemente oxidantes e contraindicados nesses pacientes.' },
@@ -85,7 +85,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Deficiência de G6PD — diagnóstico',
     e: 'Paciente com forte suspeita de deficiência de G6PD tem a atividade enzimática dosada durante a crise hemolítica aguda, com resultado normal. A interpretação correta é:',
-    o: ['O diagnóstico está excluído e outra causa deve ser buscada', 'O resultado pode ser falso-negativo, pois as hemácias mais velhas e deficientes foram destruídas e os reticulócitos têm maior atividade enzimática; deve-se repetir o exame após algumas semanas', 'O exame deve ser substituído pelo teste de Coombs indireto', 'O resultado normal confirma que a hemólise é imunomediada'],
+    o: ['O diagnóstico está excluído; buscar outra causa', 'Pode ser falso-negativo (reticulócitos); repetir após semanas', 'Substituir o exame pelo teste de Coombs indireto', 'O resultado normal confirma hemólise imunomediada'],
     g: 'B',
     c: 'Na variante africana, a enzima é instável e sua atividade decai com o envelhecimento da hemácia. Durante a crise, as células mais velhas são destruídas e sobram hemácias jovens e reticulócitos, com atividade próxima do normal, o que pode mascarar a deficiência. O teste deve ser repetido cerca de dois a três meses após o episódio.',
     x: { A: 'Um resultado normal na fase aguda não exclui a doença.', C: 'O Coombs indireto pesquisa anticorpos no soro e não avalia enzimopatias.', D: 'O resultado não permite concluir pelo mecanismo imune.' },
@@ -101,7 +101,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'AHAI por anticorpos quentes — tratamento',
     e: 'Homem de 50 anos com anemia hemolítica autoimune por anticorpos quentes idiopática, hemoglobina 7,5 g/dL e sintomático. O tratamento de primeira linha é:',
-    o: ['Esplenectomia imediata', 'Glicocorticoide, como prednisona 1 mg/kg/dia', 'Plasmaférese', 'Manter aquecido e evitar exposição ao frio'],
+    o: ['Esplenectomia imediata, por via laparoscópica', 'Glicocorticoide, como prednisona 1 mg/kg/dia', 'Plasmaférese terapêutica, de urgência', 'Manter aquecido e evitar a exposição ao frio'],
     g: 'B',
     c: 'O corticoide é a primeira linha, pois reduz a produção de autoanticorpos e a fagocitose das hemácias opsonizadas pelos macrófagos esplênicos; a maioria responde em uma a três semanas. Nos refratários ou dependentes de corticoide, a segunda linha é o rituximabe, ficando a esplenectomia como alternativa. Suplementa-se ácido fólico, e a transfusão não deve ser negada em anemia grave, mesmo com provas cruzadas incompatíveis.',
     x: { A: 'A esplenectomia é reservada para falha do corticoide e, hoje, costuma vir após o rituximabe.', C: 'A plasmaférese é pouco eficaz para IgG, que se distribui também fora do plasma.', D: 'Essa medida é a base do manejo da doença por anticorpos frios.' },
@@ -109,7 +109,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Doença por anticorpos frios',
     e: 'Homem de 24 anos, em recuperação de pneumonia por Mycoplasma pneumoniae, apresenta acrocianose em dedos ao frio, icterícia leve e anemia com reticulocitose. O hemograma automatizado mostra VCM falsamente elevado e aglutinação das hemácias no esfregaço. Espera-se encontrar:',
-    o: ['Coombs direto positivo para IgG e negativo para C3', 'Coombs direto positivo para C3 e negativo para IgG, por anticorpo da classe IgM', 'Coombs direto negativo', 'Deficiência de CD55 e CD59 na citometria de fluxo'],
+    o: ['Coombs direto positivo para IgG e negativo para C3', 'Coombs direto positivo só para C3 (IgM), negativo para IgG', 'Coombs direto negativo, com crioaglutininas ausentes', 'Deficiência de CD55 e CD59 à citometria de fluxo'],
     g: 'B',
     c: 'As crioaglutininas são IgM que se ligam às hemácias em temperaturas baixas, nas extremidades, fixam complemento e se desprendem ao reaquecer, deixando apenas C3 na membrana. Por isso o Coombs é positivo para C3 e negativo para IgG. A hemólise é mediada por complemento, intravascular e hepática. As causas são infecções (Mycoplasma, com anti-I; mononucleose, com anti-i) e doenças linfoproliferativas.',
     x: { A: 'Esse é o padrão da anemia hemolítica autoimune por anticorpos quentes.', C: 'O Coombs é positivo, pois o complemento permanece fixado às hemácias.', D: 'Essa alteração define a hemoglobinúria paroxística noturna.' },
@@ -117,7 +117,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Doença da crioaglutinina — tratamento',
     e: 'Mulher de 70 anos com doença da crioaglutinina crônica idiopática, anemia sintomática e necessidade de transfusões. Além de evitar o frio, qual é a conduta adequada?',
-    o: ['Prednisona em dose alta como primeira escolha', 'Rituximabe, isolado ou em combinação', 'Esplenectomia', 'Hidroxiureia'],
+    o: ['Prednisona em dose alta como primeira escolha', 'Rituximabe, isolado ou em combinação', 'Esplenectomia, como primeira escolha', 'Hidroxiureia, como primeira escolha'],
     g: 'B',
     c: 'Na doença por anticorpos frios, corticoide e esplenectomia são pouco eficazes, porque a hemólise depende do complemento e as hemácias opsonizadas por C3b são removidas principalmente no fígado. O tratamento visa ao clone de linfócitos B produtor da IgM, com rituximabe, e inibidores do complemento são opção em casos selecionados. Transfusões devem ser feitas com sangue aquecido.',
     x: { A: 'O corticoide tem baixa taxa de resposta na doença por crioaglutinina.', C: 'A destruição ocorre sobretudo no fígado, tornando a esplenectomia ineficaz.', D: 'A hidroxiureia não tem papel no tratamento dessa doença.' },
@@ -133,7 +133,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'HPN — fisiopatologia',
     e: 'A hemoglobinúria paroxística noturna (HPN) é uma doença clonal adquirida da célula-tronco hematopoética. O defeito molecular e sua consequência são:',
-    o: ['Mutação germinativa da espectrina, com fragilidade da membrana', 'Mutação somática do gene PIG-A, com falta da âncora GPI e ausência de CD55 e CD59, tornando as hemácias sensíveis à lise pelo complemento', 'Deficiência de ADAMTS13, com acúmulo de multímeros grandes do fator de von Willebrand', 'Autoanticorpo IgM que fixa complemento em baixas temperaturas'],
+    o: ['Mutação germinativa da espectrina, com fragilidade da membrana', 'Mutação somática de PIG-A: sem âncora GPI, CD55 e CD59; lise pelo complemento', 'Deficiência de ADAMTS13, com multímeros grandes de vWF', 'Autoanticorpo IgM que fixa complemento em baixas temperaturas'],
     g: 'B',
     c: 'A mutação adquirida do PIG-A impede a síntese do glicosilfosfatidilinositol, que ancora diversas proteínas à membrana, entre elas os reguladores do complemento CD55 (DAF) e CD59 (MIRL). Sem eles, o complexo de ataque à membrana se forma livremente e causa hemólise intravascular crônica, com hemoglobinúria. A doença cursa também com trombose e com falência medular.',
     x: { A: 'A HPN é adquirida, e o defeito de espectrina pertence à esferocitose hereditária.', C: 'A deficiência de ADAMTS13 é o mecanismo da púrpura trombocitopênica trombótica.', D: 'Esse é o mecanismo da doença por crioaglutininas, com Coombs positivo para C3.' },
@@ -141,7 +141,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'HPN — quadro clínico e diagnóstico',
     e: 'Homem de 32 anos apresenta episódios de urina escura pela manhã, fadiga e dor abdominal. Foi diagnosticada trombose de veias supra-hepáticas. Hemoglobina 8,6 g/dL, leucócitos 2.900/mm³, plaquetas 95.000/mm³, LDH muito elevada, Coombs direto negativo e ferritina baixa. O exame que confirma o diagnóstico é:',
-    o: ['Teste de fragilidade osmótica', 'Citometria de fluxo com pesquisa de proteínas ancoradas por GPI (CD55, CD59 ou FLAER)', 'Atividade de ADAMTS13', 'Eletroforese de hemoglobina'],
+    o: ['Teste de fragilidade osmótica, em sangue total fresco', 'Citometria de fluxo para proteínas ancoradas por GPI (CD55, CD59)', 'Atividade de ADAMTS13, em plasma citratado', 'Eletroforese de hemoglobina, em pH alcalino ou ácido'],
     g: 'B',
     c: 'Hemólise intravascular com Coombs negativo, citopenias e trombose em sítio incomum (veias hepáticas, porta, mesentéricas, cerebrais) é a apresentação clássica da HPN. A citometria de fluxo demonstra a ausência de proteínas ancoradas por GPI em hemácias e, com mais sensibilidade, em granulócitos e monócitos. A ferropenia decorre da perda urinária crônica de ferro como hemoglobina e hemossiderina.',
     x: { A: 'A fragilidade osmótica investiga esferocitose, que não cursa com trombose nem pancitopenia.', C: 'Não há esquizócitos nem quadro neurológico que sugiram PTT.', D: 'Hemoglobinopatias não explicam hemoglobinúria com trombose venosa abdominal.' },
@@ -149,7 +149,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'HPN — tratamento',
     e: 'Paciente com hemoglobinúria paroxística noturna clássica, hemólise intensa e antecedente de trombose iniciará eculizumabe. Sobre esse fármaco, é correto afirmar:',
-    o: ['É um anticorpo anti-CD20 que elimina o clone anormal', 'É um anticorpo monoclonal contra a fração C5 do complemento, e exige vacinação prévia contra meningococo', 'Cura a doença ao restaurar a expressão da âncora GPI', 'Atua bloqueando a hemólise extravascular esplênica mediada por IgG'],
+    o: ['Anticorpo anti-CD20 que elimina o clone anormal', 'Anticorpo anti-C5 do complemento; vacinar antes contra meningococo', 'Cura a doença ao restaurar a expressão da âncora GPI', 'Bloqueia a hemólise extravascular esplênica mediada por IgG'],
     g: 'B',
     c: 'O eculizumabe (assim como o ravulizumabe) bloqueia a clivagem de C5 e impede a formação do complexo de ataque à membrana, reduzindo a hemólise intravascular, a necessidade de transfusão e o risco de trombose. Como a defesa contra Neisseria depende da via terminal do complemento, a vacinação antimeningocócica é obrigatória. O único tratamento curativo é o transplante alogênico de células-tronco.',
     x: { A: 'O anti-CD20 é o rituximabe, usado em doenças mediadas por linfócitos B.', C: 'O fármaco controla a hemólise, mas não corrige o defeito clonal nem cura a doença.', D: 'A hemólise da HPN é intravascular, mediada pelo complemento, e não por IgG.' },
@@ -165,7 +165,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Síndrome hemolítico-urêmica',
     e: 'Criança de 4 anos apresenta, uma semana após diarreia sanguinolenta, palidez, oligúria e edema. Hemoglobina 6,9 g/dL, plaquetas 52.000/mm³, creatinina 3,8 mg/dL, esquizócitos no esfregaço e Coombs negativo. O agente mais associado e a conduta são:',
-    o: ['Salmonella typhi — ciprofloxacino', 'Escherichia coli produtora de toxina Shiga — suporte clínico, com diálise se necessário', 'Clostridioides difficile — vancomicina oral', 'Parvovírus B19 — imunoglobulina'],
+    o: ['Salmonella typhi — ciprofloxacino por via oral', 'E. coli produtora de Shiga — suporte, com diálise se preciso', 'Clostridioides difficile — vancomicina por via oral', 'Parvovírus B19 — imunoglobulina intravenosa em dose alta'],
     g: 'B',
     c: 'A síndrome hemolítico-urêmica típica segue-se à infecção por E. coli êntero-hemorrágica, como a O157:H7. A toxina Shiga lesa o endotélio glomerular, gerando microtrombos, hemólise microangiopática, plaquetopenia e lesão renal aguda, que domina o quadro. O tratamento é de suporte; antibióticos e antiperistálticos são evitados, pois podem aumentar a liberação da toxina.',
     x: { A: 'A febre tifoide não é causa clássica de microangiopatia com falência renal na criança.', C: 'A colite por C. difficile não se associa a esse quadro.', D: 'O parvovírus causa crise aplásica, sem esquizócitos nem insuficiência renal.' },
@@ -181,7 +181,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Hemólise por prótese valvar',
     e: 'Homem de 58 anos, com prótese mecânica mitral há 4 anos, apresenta fadiga progressiva. Hemoglobina 8,9 g/dL, VCM 76 fL, reticulócitos elevados, LDH muito alta, haptoglobina indetectável, ferritina 9 ng/mL, hemossiderina urinária positiva e esquizócitos no esfregaço. Ausculta-se novo sopro sistólico. A interpretação correta é:',
-    o: ['Endocardite com anemia de doença crônica', 'Hemólise intravascular mecânica por disfunção da prótese, com deficiência de ferro por perda urinária', 'Anemia hemolítica autoimune induzida por anticoagulante', 'Hemoglobinúria paroxística noturna'],
+    o: ['Endocardite com anemia de doença crônica associada', 'Hemólise mecânica por disfunção da prótese; perda urinária de ferro', 'Anemia hemolítica autoimune induzida por anticoagulante', 'Hemoglobinúria paroxística noturna, por clone PIG-A'],
     g: 'B',
     c: 'Próteses mecânicas, sobretudo quando há vazamento paravalvar, geram jatos turbulentos que fragmentam as hemácias. A hemólise intravascular crônica leva à perda de ferro pela urina, na forma de hemoglobina e hemossiderina, causando ferropenia e microcitose. O surgimento de novo sopro exige ecocardiograma; o tratamento inclui repor ferro e folato e corrigir a disfunção protética quando a hemólise é grave.',
     x: { A: 'Na anemia de doença crônica a ferritina estaria alta e não haveria esquizócitos.', C: 'Não há relação com anticoagulantes, e o achado é de fragmentação mecânica.', D: 'A presença da prótese com novo sopro explica o quadro sem necessidade dessa hipótese.' },
@@ -197,7 +197,7 @@ export const ANEMIAS_3: QuestaoCompacta[] = [
   {
     s: 'Malária grave — hemoglobinúria',
     e: 'Paciente com malária por Plasmodium falciparum e alta parasitemia evolui com urina muito escura, queda abrupta da hemoglobina e lesão renal aguda. Por que essa espécie causa hemólise mais intensa que o Plasmodium vivax?',
-    o: ['Porque invade apenas reticulócitos, que são mais frágeis', 'Porque invade hemácias de todas as idades, atingindo parasitemias elevadas, e promove citoaderência na microcirculação', 'Porque forma hipnozoítos hepáticos que liberam toxinas hemolíticas', 'Porque induz a produção de crioaglutininas da classe IgM'],
+    o: ['Invade apenas reticulócitos, que são mais frágeis', 'Invade hemácias de todas as idades e promove citoaderência', 'Forma hipnozoítos hepáticos que liberam toxinas hemolíticas', 'Induz a produção de crioaglutininas da classe IgM'],
     g: 'B',
     c: 'O P. falciparum parasita hemácias jovens e maduras, o que permite parasitemias muito altas, enquanto o P. vivax se restringe aos reticulócitos. Além disso, as hemácias parasitadas expressam proteínas que aderem ao endotélio, causando obstrução microvascular. A hemólise intravascular maciça com hemoglobinúria e insuficiência renal é a chamada febre hemoglobinúrica.',
     x: { A: 'A restrição aos reticulócitos é característica do P. vivax e limita a parasitemia.', C: 'Hipnozoítos ocorrem em P. vivax e P. ovale e causam recaídas, não hemólise.', D: 'Crioaglutininas associam-se a Mycoplasma e mononucleose, não à malária.' },

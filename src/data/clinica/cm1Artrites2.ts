@@ -5,7 +5,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento - princípios',
     e: 'Mulher de 40 anos recebe o diagnóstico de artrite reumatoide com 3 meses de sintomas, anti-CCP positivo e atividade moderada. A estratégia terapêutica correta é:',
-    o: ['Usar apenas anti-inflamatório e reservar drogas modificadoras para quando surgirem erosões', 'Iniciar imediatamente droga modificadora do curso da doença, com metas definidas e reavaliações periódicas', 'Iniciar diretamente um biológico anti-TNF em monoterapia', 'Manter corticoide em dose alta por tempo indeterminado'],
+    o: ['Só anti-inflamatório; reservar DMARD para quando surgirem erosões', 'Iniciar DMARD de imediato, com metas e reavaliações periódicas', 'Iniciar direto um biológico anti-TNF em monoterapia', 'Manter corticoide em dose alta por tempo indeterminado'],
     g: 'B',
     c: 'O dano estrutural ocorre precocemente, havendo uma janela de oportunidade nos primeiros meses. Por isso o tratamento com droga modificadora deve começar assim que o diagnóstico é feito, seguindo a estratégia de tratamento por alvo: buscar remissão ou baixa atividade, com reavaliações frequentes e ajuste do esquema.',
     x: { A: 'Anti-inflamatórios aliviam sintomas, mas não impedem a progressão das erosões.', C: 'Biológicos são indicados após falha dos sintéticos convencionais, não como início.', D: 'Corticoide prolongado em dose alta causa toxicidade e não é estratégia de manutenção.' },
@@ -21,7 +21,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Metotrexato',
     e: 'Paciente com artrite reumatoide inicia metotrexato. Em relação à prescrição, a orientação correta é:',
-    o: ['Tomar o metotrexato diariamente, em jejum', 'Tomar o metotrexato uma vez por semana e associar ácido fólico para reduzir efeitos adversos', 'Associar sulfametoxazol-trimetoprima para prevenir infecções', 'Suspender o ácido fólico, pois ele anula o efeito terapêutico'],
+    o: ['Tomar o metotrexato diariamente, em jejum, pela manhã', 'Metotrexato uma vez por semana, com ácido fólico', 'Associar sulfametoxazol-trimetoprima para prevenir infecções', 'Suspender o ácido fólico, pois anula o efeito terapêutico'],
     g: 'B',
     c: 'O metotrexato é usado em dose única semanal; o uso diário por engano causa mielotoxicidade grave. A suplementação de ácido fólico reduz efeitos adversos como mucosite, intolerância gastrointestinal, citopenias e elevação de transaminases, sem comprometer a eficácia.',
     x: { A: 'A tomada diária é erro de prescrição clássico e pode causar pancitopenia fatal.', C: 'O sulfametoxazol-trimetoprima também é antifolato e potencializa a mielotoxicidade.', D: 'O ácido fólico em dose de suplementação não reduz a eficácia do tratamento.' },
@@ -37,7 +37,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Metotrexato',
     e: 'Homem de 59 anos com artrite reumatoide, em uso de metotrexato há 3 meses, apresenta tosse seca, dispneia progressiva e febre baixa há 2 semanas. A tomografia mostra opacidades em vidro fosco bilaterais, e a investigação infecciosa é negativa. A conduta mais adequada é:',
-    o: ['Aumentar a dose do metotrexato por atividade pulmonar da doença', 'Suspender o metotrexato pela suspeita de pneumonite de hipersensibilidade induzida pela droga', 'Manter o metotrexato e dobrar a dose de ácido fólico', 'Trocar o metotrexato por via subcutânea'],
+    o: ['Aumentar a dose do metotrexato por atividade pulmonar da doença', 'Suspender o metotrexato: pneumonite de hipersensibilidade', 'Manter o metotrexato e dobrar a dose de ácido fólico', 'Trocar o metotrexato por via subcutânea, mantendo a dose'],
     g: 'B',
     c: 'A pneumonite por metotrexato é uma reação idiossincrásica de hipersensibilidade, geralmente no primeiro ano de uso, com tosse seca, dispneia, febre e infiltrado intersticial. O tratamento exige suspensão definitiva da droga, exclusão de infecção e, nos casos importantes, corticoide.',
     x: { A: 'Aumentar a dose agravaria uma reação de hipersensibilidade potencialmente fatal.', C: 'O ácido fólico não previne nem trata a pneumonite, que não depende do folato.', D: 'A via de administração não altera o risco, pois a reação é idiossincrásica.' },
@@ -45,7 +45,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Leflunomida',
     e: 'Sobre a leflunomida, utilizada no tratamento da artrite reumatoide, é correto afirmar:',
-    o: ['É segura na gestação e pode substituir o metotrexato em mulheres que desejam engravidar', 'Inibe a síntese de pirimidinas, é teratogênica e tem meia-vida longa, exigindo eliminação com colestiramina antes de uma gestação', 'Age bloqueando o receptor da interleucina 6', 'Seu principal efeito adverso é a toxicidade retiniana'],
+    o: ['Segura na gestação; pode substituir o metotrexato em gestantes', 'Inibe pirimidinas, é teratogênica e exige colestiramina antes da gestação', 'Age bloqueando o receptor da interleucina 6', 'Seu principal efeito adverso é a toxicidade retiniana'],
     g: 'B',
     c: 'A leflunomida inibe a di-hidro-orotato desidrogenase, bloqueando a síntese de pirimidinas e a proliferação de linfócitos. Seu metabólito ativo sofre circulação êntero-hepática e persiste por longo período, de modo que a mulher que deseja engravidar precisa fazer o procedimento de eliminação com colestiramina. Diarreia, hepatotoxicidade e hipertensão são efeitos adversos comuns.',
     x: { A: 'A leflunomida é teratogênica e contraindicada na gestação, assim como o metotrexato.', C: 'O bloqueio do receptor da interleucina 6 é o mecanismo do tocilizumabe.', D: 'A toxicidade retiniana é característica dos antimaláricos.' },
@@ -53,7 +53,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Hidroxicloroquina',
     e: 'Paciente com artrite reumatoide leve inicia hidroxicloroquina. O cuidado de monitoramento específico dessa droga é:',
-    o: ['Hemograma semanal pelo risco de agranulocitose', 'Avaliação oftalmológica periódica pelo risco de toxicidade retiniana', 'Densitometria óssea semestral', 'Dosagem mensal de creatinofosfoquinase'],
+    o: ['Hemograma semanal, pelo risco de agranulocitose', 'Avaliação oftalmológica periódica (toxicidade retiniana)', 'Densitometria óssea semestral, pelo risco de osteoporose', 'Dosagem mensal de creatinofosfoquinase, pelo risco de miopatia'],
     g: 'B',
     c: 'A hidroxicloroquina pode depositar-se no epitélio pigmentar da retina e causar maculopatia irreversível, relacionada à dose diária por peso e ao tempo de uso. Recomenda-se exame oftalmológico de base e acompanhamento periódico. Fora isso, é a droga modificadora mais segura, podendo ser mantida na gestação.',
     x: { A: 'Agranulocitose não é efeito esperado da hidroxicloroquina.', C: 'A hidroxicloroquina não causa perda óssea; esse é um risco do corticoide.', D: 'Miopatia é rara e não justifica dosagem mensal de enzimas musculares.' },
@@ -61,7 +61,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Sulfassalazina',
     e: 'Em relação à sulfassalazina no tratamento da artrite reumatoide, assinale a alternativa correta:',
-    o: ['É contraindicada na gestação por ser teratogênica', 'Pode ser usada em associação com metotrexato e hidroxicloroquina (terapia tríplice) e é compatível com a gestação', 'É um anticorpo monoclonal de uso subcutâneo', 'Não exige monitoramento laboratorial'],
+    o: ['É contraindicada na gestação por ser teratogênica', 'Associa-se a MTX e HCQ (terapia tríplice); compatível com a gestação', 'É um anticorpo monoclonal de uso subcutâneo semanal', 'Não exige monitoramento laboratorial periódico algum'],
     g: 'B',
     c: 'A sulfassalazina é uma droga sintética convencional que pode compor a terapia tríplice com metotrexato e hidroxicloroquina, opção eficaz antes dos biológicos. É considerada compatível com a gestação, com suplementação de ácido fólico. Exige controle de hemograma e enzimas hepáticas, e pode causar oligospermia reversível.',
     x: { A: 'A sulfassalazina é uma das drogas permitidas durante a gravidez.', C: 'É um fármaco sintético de uso oral, não um agente biológico.', D: 'Hemograma e transaminases devem ser monitorados pelo risco de citopenias e hepatite.' },
@@ -69,7 +69,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Corticoide',
     e: 'Ao iniciar metotrexato em paciente com artrite reumatoide muito ativa, associa-se prednisona em dose baixa. O papel do corticoide nesse cenário é:',
-    o: ['Substituir a droga modificadora a longo prazo', 'Servir de ponte, controlando os sintomas enquanto a droga modificadora começa a agir, com retirada gradual assim que possível', 'Prevenir a hepatotoxicidade do metotrexato', 'Tratar as erosões já estabelecidas'],
+    o: ['Substituir a droga modificadora a longo prazo', 'Servir de ponte até o DMARD agir, com retirada gradual', 'Prevenir a hepatotoxicidade do metotrexato', 'Tratar as erosões já estabelecidas nas mãos'],
     g: 'B',
     c: 'As drogas modificadoras convencionais levam semanas a meses para atingir efeito pleno. O corticoide em dose baixa age rapidamente e é usado como ponte, na menor dose e pelo menor tempo possível, devido aos riscos de osteoporose, diabetes, catarata e infecção. Com uso prolongado, deve-se prevenir a perda óssea.',
     x: { A: 'O uso crônico como monoterapia traz toxicidade cumulativa e não é recomendado.', C: 'Quem reduz efeitos adversos do metotrexato é o ácido fólico, não o corticoide.', D: 'Erosões estabelecidas são irreversíveis; o objetivo é impedir novas lesões.' },
@@ -85,7 +85,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Biológicos anti-TNF',
     e: 'Mulher de 47 anos com artrite reumatoide mantém atividade alta após 6 meses de metotrexato em dose otimizada associado a leflunomida. Está indicado iniciar um anti-TNF. Antes da primeira dose, é obrigatório:',
-    o: ['Realizar biópsia sinovial para confirmar o diagnóstico', 'Rastrear tuberculose latente com prova tuberculínica ou IGRA e radiografia de tórax, além de sorologias para hepatites B e C e HIV', 'Suspender o metotrexato por pelo menos 3 meses', 'Aplicar a vacina contra febre amarela no mesmo dia da primeira dose'],
+    o: ['Biópsia sinovial, para confirmar o diagnóstico', 'Rastrear TB latente (PPD/IGRA e RX) e hepatites B, C e HIV', 'Suspender o metotrexato por pelo menos 3 meses', 'Aplicar vacina contra febre amarela no mesmo dia da 1ª dose'],
     g: 'B',
     c: 'O TNF-alfa é essencial para a formação e a manutenção do granuloma que contém o Mycobacterium tuberculosis. Seu bloqueio pode reativar tuberculose latente, muitas vezes de forma extrapulmonar ou disseminada. Por isso se faz o rastreio e, se positivo, trata-se a infecção latente antes de iniciar o biológico. Também se pesquisa hepatite B pelo risco de reativação.',
     x: { A: 'A biópsia sinovial não é necessária para o diagnóstico nem para indicar biológico.', C: 'O metotrexato deve ser mantido, pois melhora a eficácia do anti-TNF.', D: 'Vacinas de vírus vivos são contraindicadas em pacientes sob imunobiológicos.' },
@@ -93,7 +93,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Biológicos anti-TNF',
     e: 'Paciente candidato a adalimumabe tem prova tuberculínica de 8 mm, radiografia de tórax normal e nenhum sintoma respiratório. A conduta correta é:',
-    o: ['Iniciar o biológico imediatamente, pois a radiografia é normal', 'Tratar a infecção latente por tuberculose e iniciar o biológico após cerca de um mês de tratamento', 'Iniciar esquema completo para tuberculose ativa por 6 meses antes do biológico', 'Contraindicar definitivamente qualquer imunobiológico'],
+    o: ['Iniciar o biológico de imediato, pois a radiografia é normal', 'Tratar TB latente e iniciar o biológico após cerca de 1 mês', 'Esquema completo de TB ativa por 6 meses, antes do biológico', 'Contraindicar definitivamente qualquer imunobiológico'],
     g: 'B',
     c: 'Em candidatos a anti-TNF e em outros imunossuprimidos, prova tuberculínica igual ou superior a 5 mm ou IGRA positivo, afastada doença ativa, definem infecção latente com indicação de tratamento. Recomenda-se iniciar o biológico após pelo menos um mês do tratamento da infecção latente, reduzindo o risco de reativação.',
     x: { A: 'Radiografia normal afasta doença ativa, mas não a infecção latente, que deve ser tratada.', C: 'Sem sinais de doença ativa não se usa o esquema de tratamento de tuberculose doença.', D: 'A infecção latente tratada não impede o uso posterior do imunobiológico.' },
@@ -101,7 +101,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Biológicos anti-TNF',
     e: 'Além das infecções, constitui contraindicação ou situação de cautela importante ao uso de anti-TNF:',
-    o: ['Hipotireoidismo compensado', 'Insuficiência cardíaca moderada a grave e doença desmielinizante', 'Osteoporose', 'Uso concomitante de metotrexato'],
+    o: ['Hipotireoidismo compensado, em uso de reposição hormonal', 'Insuficiência cardíaca moderada a grave e doença desmielinizante', 'Osteoporose, com fraturas por fragilidade já ocorridas', 'Uso concomitante de metotrexato semanal, em baixa dose'],
     g: 'B',
     c: 'Os anti-TNF podem piorar a insuficiência cardíaca nas classes funcionais mais avançadas e estão associados ao desencadeamento ou agravamento de doenças desmielinizantes, como a esclerose múltipla. Também exigem cautela em infecções ativas e hepatite B não tratada.',
     x: { A: 'Doença tireoidiana controlada não interfere na indicação do anti-TNF.', C: 'A osteoporose não contraindica o biológico; o controle da inflamação até protege o osso.', D: 'A associação com metotrexato é recomendada e reduz a formação de anticorpos contra a droga.' },
@@ -117,7 +117,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Inibidores de JAK',
     e: 'Sobre os inibidores de Janus quinase (JAK), como tofacitinibe, baricitinibe e upadacitinibe, é correto afirmar:',
-    o: ['São anticorpos monoclonais de uso endovenoso mensal', 'São drogas sintéticas alvo-específicas de uso oral, associadas a maior risco de herpes-zóster e a alertas para eventos tromboembólicos e cardiovasculares em pacientes de risco', 'Dispensam rastreio de tuberculose latente', 'Podem ser combinados com anti-TNF para aumentar a eficácia'],
+    o: ['Anticorpos monoclonais endovenosos, de uso mensal, em infusão', 'Drogas orais alvo-específicas; mais zóster e alertas cardiovasculares', 'Dispensam rastreio de tuberculose latente antes do início', 'Podem ser combinados com anti-TNF para aumentar a eficácia'],
     g: 'B',
     c: 'Os inibidores de JAK são pequenas moléculas orais que bloqueiam a sinalização intracelular de várias citocinas. Têm eficácia comparável à dos biológicos, mas aumentam o risco de herpes-zóster e trazem alertas para tromboembolismo venoso, eventos cardiovasculares maiores e neoplasias em idosos, tabagistas e pessoas com fatores de risco. Exigem o mesmo rastreio infeccioso dos biológicos.',
     x: { A: 'São moléculas pequenas administradas por via oral, não anticorpos.', C: 'O rastreio de tuberculose latente e de hepatites é exigido antes do início.', D: 'Combinar drogas alvo-específicas eleva o risco de infecção e não é recomendado.' },
@@ -125,7 +125,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'DAS28',
     e: 'O DAS28, índice utilizado para medir a atividade da artrite reumatoide, é calculado a partir de:',
-    o: ['Número de erosões na radiografia de mãos e pés', 'Contagem de articulações dolorosas e edemaciadas em 28 articulações, hemossedimentação ou proteína C reativa e avaliação global do paciente', 'Títulos de fator reumatoide e anti-CCP', 'Tempo de rigidez matinal e força de preensão'],
+    o: ['Número de erosões na radiografia de mãos e pés', '28 articulações dolorosas e edemaciadas, VHS/PCR e avaliação global', 'Títulos de fator reumatoide e anti-CCP no sangue', 'Tempo de rigidez matinal e força de preensão palmar'],
     g: 'B',
     c: 'O DAS28 combina o número de articulações dolorosas e o de edemaciadas entre 28 articulações (ombros, cotovelos, punhos, metacarpofalangianas, interfalangianas proximais e joelhos), uma prova de fase aguda e a avaliação global de saúde pelo paciente. Os pés não entram na contagem, o que é uma limitação.',
     x: { A: 'Erosões medem dano estrutural acumulado, e não atividade inflamatória atual.', C: 'Os autoanticorpos têm valor diagnóstico e prognóstico, mas não medem atividade.', D: 'Essas variáveis não compõem o índice composto de atividade.' },
@@ -141,7 +141,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Mulher de 29 anos com artrite reumatoide bem controlada com metotrexato manifesta desejo de engravidar. A orientação correta é:',
-    o: ['Manter o metotrexato e dobrar a dose de ácido fólico', 'Suspender o metotrexato antes da concepção e trocar por drogas compatíveis, como hidroxicloroquina ou sulfassalazina', 'Trocar o metotrexato por leflunomida', 'Suspender todas as medicações, pois a doença sempre entra em remissão na gestação'],
+    o: ['Manter o metotrexato e dobrar a dose de ácido fólico', 'Suspender o metotrexato antes da concepção; usar HCQ ou sulfassalazina', 'Trocar o metotrexato por leflunomida, que é compatível', 'Suspender tudo, pois a doença sempre remite na gestação'],
     g: 'B',
     c: 'O metotrexato é teratogênico e abortivo, devendo ser suspenso alguns meses antes da concepção. Hidroxicloroquina, sulfassalazina e corticoide em dose baixa são compatíveis com a gestação, assim como alguns anti-TNF em situações selecionadas. A doença costuma melhorar na gravidez, mas não em todas as pacientes, e há risco de reativação no puerpério.',
     x: { A: 'O ácido fólico não anula o efeito teratogênico do metotrexato.', C: 'A leflunomida também é teratogênica e exige eliminação com colestiramina.', D: 'A melhora na gestação é frequente, mas não universal, e o puerpério traz risco de recaída.' },
@@ -149,7 +149,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Subluxação atlantoaxial',
     e: 'Mulher de 64 anos com artrite reumatoide erosiva há 25 anos será submetida a colecistectomia eletiva sob anestesia geral. Refere dor cervical alta irradiada para o occipício. Na avaliação pré-operatória, é fundamental solicitar:',
-    o: ['Eletroneuromiografia de membros superiores', 'Radiografia de coluna cervical em perfil com flexão e extensão', 'Densitometria óssea', 'Ultrassonografia de carótidas'],
+    o: ['Eletroneuromiografia de membros superiores', 'Radiografia cervical em perfil, com flexão e extensão', 'Densitometria óssea de coluna e fêmur', 'Ultrassonografia de carótidas, com Doppler'],
     g: 'B',
     c: 'A sinovite destrói o ligamento transverso do atlas e erode o odontoide, permitindo o deslizamento anterior de C1 sobre C2. A hiperextensão e a flexão do pescoço durante a intubação podem comprimir a medula e o bulbo. A radiografia dinâmica identifica a instabilidade, definida por aumento do intervalo atlanto-odontoide, e orienta cuidados como intubação com fibroscopia.',
     x: { A: 'A eletroneuromiografia avalia nervos periféricos e não detecta instabilidade cervical.', C: 'A densitometria avalia massa óssea e não altera o planejamento da via aérea.', D: 'O Doppler de carótidas não tem relação com o risco específico dessa paciente.' },
@@ -165,7 +165,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Artrite idiopática juvenil',
     e: 'Menina de 3 anos apresenta artrite de joelho direito e tornozelo esquerdo há 3 meses, sem febre, em bom estado geral. O fator antinuclear é positivo e o fator reumatoide é negativo. A complicação que deve ser ativamente rastreada, mesmo sem sintomas, é:',
-    o: ['Glomerulonefrite membranosa', 'Uveíte anterior crônica, por meio de exame com lâmpada de fenda periódico', 'Pericardite constritiva', 'Amiloidose hepática'],
+    o: ['Glomerulonefrite membranosa, com proteinúria', 'Uveíte anterior crônica, com lâmpada de fenda periódica', 'Pericardite constritiva, com ecocardiograma', 'Amiloidose hepática, com biópsia de fígado'],
     g: 'B',
     c: 'A forma oligoarticular é a mais comum, predomina em meninas pequenas e associa-se a fator antinuclear positivo. Sua principal complicação é a iridociclite crônica, que é assintomática, com olho calmo, e pode levar a sinéquias, catarata, glaucoma e cegueira. Por isso o rastreio oftalmológico periódico é obrigatório.',
     x: { A: 'Acometimento renal não é característico da forma oligoarticular.', C: 'Serosite é manifestação da forma sistêmica, não da oligoarticular.', D: 'A amiloidose é complicação rara e tardia de doença sistêmica não controlada.' },
@@ -173,7 +173,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Artrite idiopática juvenil sistêmica',
     e: 'Menino de 5 anos apresenta há 3 semanas febre diária de 39,5 °C em um ou dois picos, com retorno à temperatura normal entre eles, exantema róseo evanescente no tronco que surge com a febre, hepatoesplenomegalia, linfonodomegalia e artrite de punhos e joelhos. Há leucocitose com neutrofilia e plaquetose. Fator antinuclear e fator reumatoide são negativos. O diagnóstico mais provável é:',
-    o: ['Febre reumática aguda', 'Artrite idiopática juvenil sistêmica (doença de Still)', 'Lúpus eritematoso sistêmico juvenil', 'Artrite idiopática juvenil oligoarticular'],
+    o: ['Febre reumática aguda, pós-estreptocócica', 'Artrite idiopática juvenil sistêmica (doença de Still)', 'Lúpus eritematoso sistêmico juvenil, com FAN', 'Artrite idiopática juvenil oligoarticular, com uveíte'],
     g: 'B',
     c: 'A forma sistêmica caracteriza-se por febre alta em picos diários por pelo menos 2 semanas, exantema cor de salmão evanescente, artrite, serosite, linfonodomegalia e hepatoesplenomegalia, com intensa resposta inflamatória e autoanticorpos negativos. Acomete igualmente meninos e meninas e é mediada por IL-1 e IL-6, comportando-se como doença autoinflamatória.',
     x: { A: 'A febre reumática cursa com poliartrite migratória e não com febre em picos e esplenomegalia.', C: 'No lúpus são esperados leucopenia e fator antinuclear positivo.', D: 'A forma oligoarticular não tem febre nem manifestações sistêmicas.' },
@@ -197,7 +197,7 @@ export const ARTRITES_2: QuestaoCompacta[] = [
   {
     s: 'Vacinação e imunossupressão',
     e: 'Paciente com artrite reumatoide em uso de metotrexato e adalimumabe pergunta sobre vacinas. A orientação correta é:',
-    o: ['Todas as vacinas são contraindicadas durante o tratamento', 'Vacinas inativadas, como influenza e pneumocócica, são recomendadas; vacinas de vírus vivos atenuados, como febre amarela, devem ser evitadas', 'Apenas vacinas de vírus vivos são permitidas, pois geram melhor resposta', 'A vacina contra influenza deve ser evitada por risco de reativar a doença'],
+    o: ['Todas as vacinas são contraindicadas durante o tratamento', 'Inativadas (influenza, pneumococo) sim; vivas, como febre amarela, evitar', 'Só vacinas vivas atenuadas são permitidas, por melhor resposta', 'Evitar a vacina de influenza, por risco de reativar a doença'],
     g: 'B',
     c: 'Pacientes imunossuprimidos têm maior risco de infecções e devem receber vacinas inativadas, idealmente antes de iniciar o imunobiológico para melhor resposta. As vacinas de agentes vivos atenuados podem causar doença pelo agente vacinal em quem está sob imunossupressão importante e, por isso, são contraindicadas nesse período.',
     x: { A: 'As vacinas inativadas são seguras e fazem parte do cuidado desses pacientes.', C: 'Vacinas vivas oferecem risco de infecção pelo próprio agente vacinal.', D: 'A vacina contra influenza é inativada, segura e não reativa a artrite reumatoide.' },

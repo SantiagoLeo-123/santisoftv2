@@ -13,7 +13,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Abscesso do anel aórtico',
     e: 'Homem de 55 anos, em tratamento de endocardite de valva aórtica por Staphylococcus aureus, tinha intervalo PR de 160 ms na admissão. No sétimo dia, mantém febre e o eletrocardiograma mostra intervalo PR de 280 ms. A interpretação e a conduta corretas são:',
-    o: ['Efeito adverso da oxacilina; trocar o antibiótico', 'Provável abscesso do anel aórtico com extensão ao sistema de condução; realizar ecocardiograma transesofágico e avaliar cirurgia', 'Miocardite viral associada; iniciar corticoide', 'Achado sem significado; repetir o eletrocardiograma na alta'],
+    o: ['Efeito adverso da oxacilina; trocar o antibiótico', 'Provável abscesso do anel aórtico: ETE e avaliar cirurgia', 'Miocardite viral associada; iniciar corticoide', 'Achado sem significado; repetir o ECG na alta'],
     g: 'B',
     c: 'O anel aórtico fica junto ao septo membranoso, por onde passam o nó atrioventricular e o feixe de His. A extensão perivalvar da infecção nessa região prolonga progressivamente o intervalo PR e pode evoluir para bloqueio total; por isso recomenda-se eletrocardiograma seriado na endocardite aórtica.',
     x: { A: 'A oxacilina não causa distúrbio de condução atrioventricular.', C: 'O contexto é de infecção bacteriana valvar, e o corticoide seria prejudicial.', D: 'O prolongamento novo do PR é sinal de alarme de complicação perivalvar.' },
@@ -21,7 +21,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Embolia cerebral',
     e: 'Mulher de 37 anos, com febre há 2 semanas e sopro de regurgitação mitral, apresenta subitamente afasia e hemiparesia direita. A tomografia de crânio inicial não mostra sangramento. Sobre essa complicação, é correto afirmar:',
-    o: ['Trata-se de complicação rara, vista quase só na endocardite de valva tricúspide', 'É a manifestação neurológica mais comum, por embolia da vegetação, geralmente para o território da artéria cerebral média', 'Decorre de vasculite por imunocomplexos e deve ser tratada com corticoide', 'Indica anticoagulação plena imediata para evitar novos eventos'],
+    o: ['Complicação rara, quase só na endocardite tricúspide', 'Manifestação neurológica mais comum: embolia, em geral para a ACM', 'Vasculite por imunocomplexos; tratar com corticoide', 'Indica anticoagulação plena imediata, para evitar novos eventos'],
     g: 'B',
     c: 'O acidente vascular isquêmico embólico é a complicação neurológica mais frequente e pode ser a manifestação inicial da doença. Os fragmentos da vegetação seguem o fluxo preferencial para a artéria cerebral média, e o risco é maior com vegetações mitrais grandes e com S. aureus.',
     x: { A: 'A embolia cerebral é frequente e ocorre em endocardite de valvas esquerdas.', C: 'O mecanismo é embólico, e corticoide não tem indicação.', D: 'A anticoagulação aumenta o risco de transformação hemorrágica do infarto séptico.' },
@@ -29,7 +29,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Risco de embolia',
     e: 'Sobre o risco de embolização sistêmica na endocardite infecciosa, é correto afirmar que ele:',
-    o: ['Aumenta progressivamente ao longo das semanas de tratamento antibiótico', 'É maior nos primeiros dias e cai acentuadamente após as duas primeiras semanas de antibiótico eficaz', 'Independe do tamanho e da mobilidade da vegetação', 'É maior nas vegetações da valva aórtica do que nas da valva mitral'],
+    o: ['Aumenta ao longo das semanas de tratamento antibiótico', 'Maior nos primeiros dias; cai muito após 2 semanas eficazes', 'Independe do tamanho e da mobilidade da vegetação', 'É maior na valva aórtica que na valva mitral'],
     g: 'B',
     c: 'A maior parte das embolias ocorre antes do diagnóstico ou nos primeiros dias de tratamento, e a incidência diminui muito após duas semanas de antibiótico eficaz. Vegetações maiores que 10 mm, muito móveis, localizadas na valva mitral e causadas por S. aureus ou fungos embolizam mais.',
     x: { A: 'O risco diminui, e não aumenta, com o passar do tratamento eficaz.', C: 'Tamanho e mobilidade da vegetação são os principais preditores de embolia.', D: 'As vegetações mitrais, sobretudo do folheto anterior, embolizam mais que as aórticas.' },
@@ -45,7 +45,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Complicações esplênicas',
     e: 'Mulher de 46 anos, no décimo segundo dia de tratamento adequado de endocardite aórtica, mantém febre e passa a ter dor em hipocôndrio esquerdo irradiada para o ombro. As hemoculturas voltaram a ficar positivas. A tomografia mostra coleção hipodensa no baço com realce periférico. O diagnóstico e a conduta são:',
-    o: ['Infarto esplênico simples; apenas analgesia', 'Abscesso esplênico; drenagem percutânea ou esplenectomia, além do antibiótico', 'Hematoma subcapsular; repouso e observação', 'Cisto esplênico; acompanhamento ambulatorial'],
+    o: ['Infarto esplênico simples; apenas analgesia e repouso', 'Abscesso esplênico; drenagem ou esplenectomia, mais antibiótico', 'Hematoma subcapsular; repouso e observação clínica', 'Cisto esplênico; acompanhamento ambulatorial anual'],
     g: 'B',
     c: 'A embolia para o baço é comum e na maioria das vezes produz apenas infarto, que é tratado de forma conservadora. Febre e bacteremia persistentes ou recorrentes com coleção de realce periférico indicam abscesso, que responde mal ao antibiótico isolado e exige drenagem ou esplenectomia, idealmente antes da cirurgia valvar.',
     x: { A: 'O infarto simples aparece como área em cunha, sem coleção com realce periférico.', C: 'Hematoma não explica febre e bacteremia recorrente.', D: 'Cisto não tem realce periférico nem causa quadro séptico.' },
@@ -53,7 +53,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Glomerulonefrite',
     e: 'Homem de 48 anos, com endocardite subaguda há 2 meses, apresenta creatinina em ascensão, hematúria com dismorfismo eritrocitário, cilindros hemáticos, proteinúria e níveis séricos de C3 e C4 reduzidos. O mecanismo da lesão renal e a conduta principal são:',
-    o: ['Necrose tubular aguda por sepse; hemodiálise precoce', 'Glomerulonefrite por deposição de imunocomplexos; tratar a infecção com antibiótico adequado', 'Nefropatia por IgA; iniciar inibidor da enzima conversora', 'Embolia renal maciça; anticoagulação plena'],
+    o: ['Necrose tubular aguda por sepse; hemodiálise precoce', 'Glomerulonefrite por imunocomplexos; antibiótico adequado', 'Nefropatia por IgA; iniciar IECA', 'Embolia renal maciça; anticoagulação plena'],
     g: 'B',
     c: 'A antigenemia prolongada gera imunocomplexos que se depositam nos glomérulos e ativam o complemento, com consumo de C3 e C4 e sedimento nefrítico. É um fenômeno imunológico (critério menor de Duke) que costuma regredir com a erradicação da infecção, sem necessidade de imunossupressão.',
     x: { A: 'Cilindros hemáticos e complemento baixo indicam lesão glomerular, não tubular.', C: 'A nefropatia por IgA cursa com complemento normal.', D: 'O infarto renal causa dor em flanco e hematúria, sem consumo de complemento.' },
@@ -77,7 +77,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação',
     e: 'Sobre o uso de anticoagulantes na endocardite infecciosa de valva nativa, é correto afirmar:',
-    o: ['Devem ser iniciados em todo paciente com vegetação maior que 10 mm', 'Não previnem a embolia da vegetação e não devem ser iniciados por causa da endocardite, pois aumentam o risco de hemorragia intracraniana', 'Substituem a cirurgia na prevenção de embolias recorrentes', 'São obrigatórios nas duas primeiras semanas, período de maior risco embólico'],
+    o: ['Iniciar em todo paciente com vegetação > 10 mm', 'Não previnem embolia e aumentam o risco de hemorragia intracraniana', 'Substituem a cirurgia na prevenção de embolias', 'Obrigatórios nas 2 primeiras semanas, de maior risco embólico'],
     g: 'B',
     c: 'O êmbolo da endocardite é um fragmento de vegetação infectada, e não um trombo de fibrina sensível à heparina. Os infartos sépticos têm grande tendência à transformação hemorrágica e pode haver aneurisma micótico, de modo que a anticoagulação acrescenta risco sem reduzir embolias.',
     x: { A: 'O tamanho da vegetação não é indicação de anticoagulação.', C: 'Na embolia recorrente com vegetação grande, a medida eficaz é a cirurgia.', D: 'O que reduz o risco embólico nas primeiras semanas é o antibiótico eficaz.' },
@@ -85,7 +85,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Prótese mecânica e hemorragia',
     e: 'Mulher de 63 anos, com prótese mitral mecânica em uso de varfarina, é internada com endocardite por Staphylococcus aureus e apresenta rebaixamento de consciência. A tomografia mostra hemorragia intraparenquimatosa. Em relação à anticoagulação, a conduta é:',
-    o: ['Manter a varfarina com alvo de INR mais alto', 'Suspender a anticoagulação e reverter seu efeito, reintroduzindo-a com heparina quando houver segurança, após avaliação multidisciplinar', 'Trocar a varfarina por anticoagulante oral direto', 'Associar ácido acetilsalicílico à varfarina'],
+    o: ['Manter a varfarina com alvo de INR mais alto, por segurança', 'Suspender e reverter a anticoagulação; heparina depois, se seguro', 'Trocar a varfarina por anticoagulante oral direto, em dose plena', 'Associar AAS à varfarina, para proteção adicional'],
     g: 'B',
     c: 'Na hemorragia intracraniana, toda anticoagulação deve ser interrompida, apesar do risco de trombose da prótese. A reintrodução é feita com heparina, de meia-vida curta e fácil reversão, assim que a equipe julgar seguro; na endocardite estafilocócica de prótese, o risco de sangramento cerebral é particularmente alto.',
     x: { A: 'Manter ou intensificar a anticoagulação expandiria o hematoma.', C: 'Os anticoagulantes diretos são contraindicados em prótese mecânica.', D: 'Somar antiagregante aumentaria ainda mais o sangramento.' },
@@ -93,7 +93,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Trombólise e antiagregantes',
     e: 'Homem de 44 anos chega 2 horas após início de hemiplegia esquerda. Tem febre há 3 semanas, sopro mitral e hemorragias subungueais. A tomografia de crânio não mostra sangramento, e há oclusão proximal de artéria cerebral média. Diante da forte suspeita de endocardite infecciosa, é correto afirmar:',
-    o: ['A trombólise endovenosa com alteplase está indicada, pois há menos de 4,5 horas', 'A trombólise endovenosa deve ser evitada pelo alto risco de hemorragia; a trombectomia mecânica pode ser considerada', 'Deve-se iniciar dupla antiagregação plaquetária para reduzir novas embolias', 'A conduta é idêntica à do acidente vascular isquêmico aterotrombótico'],
+    o: ['Trombólise EV com alteplase, pois há menos de 4,5 h', 'Evitar trombólise (hemorragia); considerar trombectomia mecânica', 'Dupla antiagregação para reduzir novas embolias', 'Conduta idêntica à do AVE aterotrombótico'],
     g: 'B',
     c: 'O acidente vascular por êmbolo séptico tem risco elevado de transformação hemorrágica, por arterite e aneurismas micóticos, e a trombólise sistêmica é contraindicada. A trombectomia mecânica remove o êmbolo sem expor o paciente ao fibrinolítico. Os antiagregantes não reduzem embolias na endocardite e não devem ser iniciados.',
     x: { A: 'A endocardite infecciosa é contraindicação à alteplase, mesmo dentro da janela.', C: 'A antiagregação não diminui embolias e aumenta o risco de sangramento.', D: 'O mecanismo séptico modifica as indicações de reperfusão e de antitrombóticos.' },
@@ -101,7 +101,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Prótese valvar tardia',
     e: 'Homem de 62 anos, com prótese aórtica biológica implantada há 7 anos, apresenta febre há 4 semanas após tratamento periodontal. Em relação à microbiologia esperada nesse caso de endocardite tardia de prótese, é correto afirmar que:',
-    o: ['Predominam os estafilococos coagulase-negativos resistentes, por contaminação cirúrgica', 'O perfil se assemelha ao da endocardite de valva nativa, com estreptococos, S. aureus e enterococos', 'Os fungos são os agentes mais frequentes', 'Os bacilos gram-negativos entéricos respondem pela maioria dos casos'],
+    o: ['Predominam estafilococos coagulase-negativos, por contaminação cirúrgica', 'Perfil semelhante ao de valva nativa: viridans, S. aureus, enterococo', 'Os fungos são os agentes mais frequentes nessa fase', 'Gram-negativos entéricos respondem pela maioria dos casos'],
     g: 'B',
     c: 'Passado o primeiro ano, a prótese já está endotelizada e a infecção resulta de bacteremias comunitárias, como na valva nativa. Por isso, estreptococos orais, S. aureus e enterococos predominam, enquanto na forma precoce prevalecem os germes hospitalares adquiridos no período perioperatório.',
     x: { A: 'Esse é o perfil da endocardite precoce de prótese, não da tardia.', C: 'Fungos são causa pouco frequente em qualquer fase.', D: 'Bacilos gram-negativos entéricos são agentes incomuns de endocardite.' },
@@ -109,7 +109,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Prótese precoce: prognóstico',
     e: 'Em comparação com a endocardite de valva nativa, a endocardite de prótese valvar caracteriza-se por:',
-    o: ['Infecção restrita aos folhetos, com boa resposta ao antibiótico isolado', 'Infecção do anel de sutura com abscesso e deiscência frequentes, maior mortalidade e maior necessidade de cirurgia', 'Menor duração do tratamento antimicrobiano', 'Diagnóstico mais fácil pelo ecocardiograma transtorácico'],
+    o: ['Infecção só dos folhetos, com boa resposta ao antibiótico', 'Infecção do anel de sutura: abscesso, deiscência, cirurgia e mortalidade', 'Menor duração do tratamento antimicrobiano', 'Diagnóstico mais fácil pelo ecocardiograma transtorácico'],
     g: 'B',
     c: 'Nas próteses, sobretudo mecânicas, a infecção se instala na junção entre o anel de sutura e o tecido do hospedeiro, favorecendo abscesso, pseudoaneurisma, fístula e deiscência. Somando-se o biofilme e os germes mais resistentes, a mortalidade é maior, o tratamento dura pelo menos 6 semanas e a cirurgia é frequentemente necessária.',
     x: { A: 'A extensão ao anel é a regra, e a resposta ao antibiótico isolado é pior.', C: 'O tratamento é mais longo, de no mínimo 6 semanas.', D: 'A sombra acústica da prótese dificulta o exame transtorácico.' },
@@ -117,7 +117,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Dispositivos cardíacos',
     e: 'Homem de 74 anos, portador de marca-passo de dupla câmara há 4 anos, apresenta febre recorrente há 1 mês e hemoculturas positivas para Staphylococcus epidermidis. O ecocardiograma transesofágico mostra massa móvel aderida ao eletrodo ventricular. O tratamento adequado é:',
-    o: ['Antibiótico endovenoso por 6 semanas, mantendo o sistema', 'Remoção completa do sistema (gerador e eletrodos) associada a antibioticoterapia prolongada', 'Troca apenas do gerador, mantendo os eletrodos', 'Antibiótico oral supressivo por tempo indeterminado como primeira opção'],
+    o: ['Antibiótico EV por 6 semanas, mantendo o sistema', 'Remoção completa do sistema, mais antibiótico prolongado', 'Troca só do gerador, mantendo os eletrodos', 'Antibiótico oral supressivo por tempo indeterminado'],
     g: 'B',
     c: 'A infecção de dispositivo cardíaco implantável envolve biofilme sobre material estranho, que o antibiótico não esteriliza. A cura exige retirada de todo o sistema, preferencialmente por extração percutânea, seguida de antibiótico, com reimplante em outro sítio apenas após controle da infecção e reavaliação da necessidade.',
     x: { A: 'Manter o sistema leva a recidiva na grande maioria dos casos.', C: 'Os eletrodos são a sede da vegetação e precisam ser removidos.', D: 'A supressão crônica é reservada a quem não pode ter o sistema removido.' },
@@ -157,7 +157,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Profilaxia: quem não precisa',
     e: 'Homem de 66 anos, com hipertensão, revascularização miocárdica cirúrgica há 5 anos e stent coronariano há 1 ano, fará extração de dois molares. Não tem valvopatia. Pergunta se precisa tomar antibiótico para prevenir endocardite. A orientação correta é:',
-    o: ['Amoxicilina 2 g uma hora antes do procedimento', 'Não há indicação de profilaxia para endocardite; deve-se reforçar a higiene bucal', 'Amoxicilina por 7 dias após a extração', 'Vancomicina endovenosa antes do procedimento'],
+    o: ['Amoxicilina 2 g uma hora antes do procedimento', 'Sem profilaxia para endocardite; reforçar a higiene bucal', 'Amoxicilina por 7 dias após a extração', 'Vancomicina endovenosa antes do procedimento'],
     g: 'B',
     c: 'Doença coronariana, enxertos e stents não predispõem à endocardite, pois não criam jato turbulento sobre o endocárdio valvar nem deixam material protético intracardíaco em área de alto fluxo. A profilaxia é reservada às cardiopatias de alto risco, e para os demais vale manter boa saúde bucal.',
     x: { A: 'O esquema está correto para alto risco, mas o paciente não pertence a esse grupo.', C: 'Antibiótico prolongado após extração não é medida de profilaxia de endocardite.', D: 'Não há indicação de profilaxia, muito menos por via endovenosa.' },
@@ -181,7 +181,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Profilaxia no alérgico',
     e: 'Homem de 49 anos, portador de prótese aórtica mecânica, com história de anafilaxia à penicilina, será submetido a cirurgia periodontal. Entre as opções abaixo, a adequada para profilaxia de endocardite é:',
-    o: ['Amoxicilina com clavulanato em dose única', 'Azitromicina ou claritromicina por via oral, em dose única antes do procedimento', 'Cefalexina por via oral em dose única', 'Dispensar a profilaxia por causa da alergia'],
+    o: ['Amoxicilina com clavulanato em dose única, 1 h antes', 'Azitromicina ou claritromicina VO em dose única antes', 'Cefalexina por via oral em dose única, 1 h antes', 'Dispensar a profilaxia por causa da alergia'],
     g: 'B',
     c: 'Em alérgicos à penicilina, as opções orais são os macrolídeos (azitromicina ou claritromicina) e a doxiciclina, em dose única antes do procedimento. As cefalosporinas só podem ser usadas quando a reação prévia não foi anafilaxia, angioedema ou urticária, pelo risco de reação cruzada.',
     x: { A: 'A amoxicilina com clavulanato é uma penicilina e está contraindicada na anafilaxia.', C: 'A cefalexina deve ser evitada em quem teve anafilaxia à penicilina.', D: 'O paciente é de alto risco e deve receber profilaxia com droga alternativa.' },
@@ -189,7 +189,7 @@ export const ENDOCARDITE_4: QuestaoCompacta[] = [
   {
     s: 'Procedimentos não dentários',
     e: 'Mulher de 58 anos, portadora de prótese mitral biológica, fará colonoscopia de rastreamento e, na semana seguinte, cistoscopia diagnóstica. Não há infecção ativa no trato digestivo ou urinário. Em relação à profilaxia de endocardite, as diretrizes AHA e ESC orientam:',
-    o: ['Ampicilina com gentamicina endovenosas antes de ambos os procedimentos', 'Não realizar profilaxia de rotina para procedimentos gastrointestinais e geniturinários', 'Amoxicilina 2 g antes da colonoscopia e ciprofloxacino antes da cistoscopia', 'Vancomicina antes da cistoscopia apenas'],
+    o: ['Ampicilina com gentamicina EV antes dos dois procedimentos', 'Sem profilaxia de rotina em procedimentos GI e geniturinários', 'Amoxicilina 2 g antes da colonoscopia e ciprofloxacino antes da cistoscopia', 'Vancomicina antes da cistoscopia apenas'],
     g: 'B',
     c: 'Não há evidência de que a profilaxia previna endocardite em procedimentos dos tratos gastrointestinal e geniturinário, e a bacteremia por enterococo nesses exames é pouco frequente e de baixa magnitude. A recomendação de profilaxia de rotina foi retirada; se houver infecção estabelecida no local, o tratamento deve incluir cobertura para enterococo.',
     x: { A: 'O esquema endovenoso de rotina foi abandonado pelas diretrizes atuais.', C: 'A profilaxia de rotina não é recomendada para esses procedimentos, mesmo em alto risco.', D: 'Não há indicação de vancomicina profilática para cistoscopia sem infecção.' },

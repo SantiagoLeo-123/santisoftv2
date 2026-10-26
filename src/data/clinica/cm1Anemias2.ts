@@ -21,7 +21,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Talassemias — fisiopatologia',
     e: 'O mecanismo central da anemia na beta-talassemia maior é:',
-    o: ['Polimerização da hemoglobina desoxigenada com afoiçamento das hemácias', 'Excesso de cadeias alfa livres que precipitam nos eritroblastos, causando eritropoese ineficaz e hemólise', 'Deficiência de espectrina com perda de membrana eritrocitária', 'Autoanticorpos IgG contra antígenos do sistema Rh'],
+    o: ['Polimerização da hemoglobina desoxigenada, com afoiçamento', 'Excesso de cadeias alfa livres: eritropoese ineficaz e hemólise', 'Deficiência de espectrina, com perda de membrana', 'Autoanticorpos IgG contra antígenos do sistema Rh'],
     g: 'B',
     c: 'A ausência ou redução acentuada de cadeias beta deixa cadeias alfa sem par, que são insolúveis e precipitam, lesando a membrana dos precursores eritroides. O resultado é destruição intramedular (eritropoese ineficaz) e hemólise periférica. A anemia grave estimula a eritropoetina, expandindo a medula e gerando deformidades ósseas e hematopoese extramedular.',
     x: { A: 'A polimerização da hemoglobina é o mecanismo da doença falciforme.', C: 'Defeito de proteínas de membrana caracteriza a esferocitose hereditária.', D: 'Autoanticorpos IgG definem a anemia hemolítica autoimune por anticorpos quentes.' },
@@ -29,7 +29,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Beta-talassemia maior — clínica',
     e: 'Lactente de 9 meses, filho de pais com traço talassêmico, apresenta palidez intensa, icterícia, hepatoesplenomegalia e atraso de crescimento. Hemoglobina 5,8 g/dL, VCM 60 fL, eritroblastos circulantes e hemácias em alvo. A eletroforese de hemoglobina mostra ausência de HbA e predomínio de HbF. Por que a doença se manifesta apenas após os primeiros meses de vida?',
-    o: ['Porque os anticorpos maternos protegem o lactente da hemólise', 'Porque a hemoglobina fetal não contém cadeias beta e a troca para a hemoglobina A ocorre ao longo dos primeiros meses', 'Porque o ferro estocado ao nascimento compensa o defeito de globina', 'Porque o baço só se torna funcionante após os 6 meses'],
+    o: ['Anticorpos maternos protegem o lactente da hemólise', 'A HbF não tem cadeias beta; a troca para HbA leva meses', 'O ferro estocado ao nascimento compensa o defeito de globina', 'O baço só se torna funcionante após os 6 meses'],
     g: 'B',
     c: 'A hemoglobina fetal é formada por duas cadeias alfa e duas gama, sem cadeias beta, de modo que o recém-nascido com beta-talassemia é assintomático. Com a troca fisiológica de gama para beta nos primeiros meses, a incapacidade de produzir cadeias beta se revela, geralmente a partir dos 6 meses. Já as alfa-talassemias graves se manifestam intraútero, pois a cadeia alfa integra também a HbF.',
     x: { A: 'A doença não é imunomediada e anticorpos maternos não têm papel.', C: 'O defeito é de síntese de globina e não depende das reservas de ferro.', D: 'O baço é funcionante desde o nascimento; esse não é o motivo da latência.' },
@@ -45,7 +45,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Alfa-talassemia',
     e: 'A alfa-talassemia decorre mais frequentemente de deleções dos quatro genes da alfa-globina. Assinale a correlação correta entre o número de genes deletados e o quadro clínico:',
-    o: ['Um gene deletado: doença da hemoglobina H', 'Três genes deletados: doença da hemoglobina H, com anemia hemolítica microcítica moderada', 'Dois genes deletados: hidropisia fetal', 'Quatro genes deletados: portador silencioso'],
+    o: ['Um gene deletado: doença da hemoglobina H, grave', 'Três genes deletados: Hb H, anemia hemolítica microcítica', 'Dois genes deletados: hidropisia fetal, incompatível com a vida', 'Quatro genes deletados: portador silencioso, assintomático'],
     g: 'B',
     c: 'Uma deleção gera o portador silencioso; duas, o traço alfa-talassêmico, com microcitose e anemia leve ou ausente; três, a doença da hemoglobina H, em que o excesso de cadeias beta forma tetrâmeros instáveis (beta 4) que precipitam e causam hemólise; e quatro, a hidropisia fetal com hemoglobina de Bart (gama 4), incompatível com a vida sem intervenção.',
     x: { A: 'Uma deleção causa apenas o estado de portador silencioso, sem alterações clínicas.', C: 'Duas deleções causam o traço alfa-talassêmico, com microcitose leve.', D: 'Quatro deleções causam hidropisia fetal com hemoglobina de Bart.' },
@@ -61,7 +61,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Talassemia — conduta no traço',
     e: 'Uma jovem com beta-talassemia menor recebeu prescrição de sulfato ferroso por anemia microcítica leve. Sua ferritina é 120 ng/mL. A conduta correta é:',
-    o: ['Manter o ferro oral por 6 meses e reavaliar o VCM', 'Suspender o ferro, pois não há ferropenia, e oferecer aconselhamento genético', 'Trocar para ferro intravenoso por provável má absorção', 'Iniciar programa de transfusões regulares'],
+    o: ['Manter o ferro oral por 6 meses e reavaliar o VCM', 'Suspender o ferro, pois não há ferropenia; aconselhamento genético', 'Trocar para ferro intravenoso por má absorção provável', 'Iniciar programa de transfusões regulares, de imediato'],
     g: 'B',
     c: 'O traço talassêmico é uma condição benigna, que não requer tratamento. O ferro só deve ser prescrito se houver ferropenia comprovada, pois a reposição indevida não corrige a microcitose e pode levar a acúmulo de ferro. O ponto mais importante é o aconselhamento genético, com avaliação do parceiro, pelo risco de filhos com talassemia maior.',
     x: { A: 'A microcitose decorre do defeito de globina e não responde ao ferro.', C: 'Não há deficiência de ferro a ser corrigida por nenhuma via.', D: 'Transfusões regulares são indicadas na talassemia maior, não no traço.' },
@@ -77,7 +77,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Intoxicação por chumbo',
     e: 'Trabalhador de uma fábrica de reciclagem de baterias apresenta dor abdominal em cólica, constipação, fraqueza para extensão do punho e anemia microcítica. O esfregaço de sangue periférico mostra um achado característico dessa intoxicação, que é:',
-    o: ['Corpúsculos de Howell-Jolly', 'Pontilhado basofílico grosseiro', 'Corpúsculos de Heinz', 'Hemácias em foice'],
+    o: ['Corpúsculos de Howell-Jolly, no sangue periférico', 'Pontilhado basofílico grosseiro, no sangue periférico', 'Corpúsculos de Heinz, em coloração supravital', 'Hemácias em foice, no sangue periférico'],
     g: 'B',
     c: 'O chumbo inibe enzimas da síntese do heme (ALA-desidratase e ferroquelatase), gerando anemia microcítica com sideroblastos, e inibe a pirimidina 5-nucleotidase, impedindo a degradação do RNA ribossomal, que precipita como pontilhado basofílico grosseiro. O quadro clínico inclui cólica saturnina, neuropatia motora radial com punho caído e linha gengival de Burton.',
     x: { A: 'Howell-Jolly são restos nucleares vistos na asplenia ou no hipoesplenismo.', C: 'Corpúsculos de Heinz são hemoglobina oxidada, típicos da deficiência de G6PD.', D: 'Hemácias em foice são próprias da doença falciforme.' },
@@ -85,7 +85,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Megaloblástica — fisiopatologia',
     e: 'A alteração fundamental que explica a morfologia das anemias megaloblásticas é:',
-    o: ['Defeito na síntese do heme com acúmulo de ferro mitocondrial', 'Defeito na síntese de DNA com síntese de RNA e proteínas preservada, gerando assincronia núcleo-citoplasma', 'Defeito na síntese de cadeias de globina', 'Destruição imune dos precursores eritroides na medula'],
+    o: ['Defeito na síntese do heme, com acúmulo de ferro mitocondrial', 'Defeito na síntese de DNA, com RNA e proteínas preservados', 'Defeito na síntese das cadeias de globina', 'Destruição imune dos precursores eritroides na medula'],
     g: 'B',
     c: 'Vitamina B12 e folato são necessários para a síntese de timidina e, portanto, de DNA. Na sua falta, o núcleo amadurece lentamente enquanto o citoplasma, que depende de RNA, segue seu ritmo, resultando em células grandes com núcleo imaturo. Muitos precursores morrem na medula (eritropoese ineficaz), o que explica LDH e bilirrubina indireta elevadas e a possível pancitopenia.',
     x: { A: 'Defeito do heme com ferro mitocondrial define a anemia sideroblástica.', C: 'Defeito de globina caracteriza as talassemias, que são microcíticas.', D: 'Destruição imune de precursores ocorre na aplasia pura de série vermelha.' },
@@ -93,7 +93,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Megaloblástica — esfregaço',
     e: 'Homem de 68 anos com fadiga tem hemoglobina 7,9 g/dL, VCM 122 fL, leucócitos 3.100/mm³ e plaquetas 98.000/mm³. Qual achado do esfregaço de sangue periférico é mais característico da causa provável?',
-    o: ['Esquizócitos e plaquetopenia', 'Neutrófilos hipersegmentados e macro-ovalócitos', 'Blastos com bastonetes de Auer', 'Hemácias em alvo e microcitose'],
+    o: ['Esquizócitos e plaquetopenia, no sangue periférico', 'Neutrófilos hipersegmentados e macro-ovalócitos', 'Blastos com bastonetes de Auer, no sangue periférico', 'Hemácias em alvo e microcitose, no sangue periférico'],
     g: 'B',
     c: 'Macrocitose acentuada (VCM acima de 115 a 120 fL) com citopenias sugere fortemente anemia megaloblástica. A hipersegmentação nuclear dos neutrófilos (núcleos com cinco ou mais lobos) é um dos sinais mais precoces e específicos, e os macro-ovalócitos refletem o defeito de maturação nuclear; ambos decorrem da síntese prejudicada de DNA.',
     x: { A: 'Esquizócitos indicam hemólise microangiopática, sem relação com macrocitose.', C: 'Bastonetes de Auer são achado de leucemia mieloide aguda.', D: 'Hemácias em alvo com microcitose sugerem talassemia ou hemoglobinopatia.' },
@@ -101,7 +101,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Absorção da vitamina B12',
     e: 'Sobre a fisiologia da vitamina B12 (cobalamina), assinale a alternativa correta:',
-    o: ['É absorvida no duodeno, ligada à transferrina', 'Liga-se ao fator intrínseco, produzido pelas células parietais gástricas, e o complexo é absorvido no íleo terminal', 'Os estoques corporais duram apenas alguns meses, como os de folato', 'Sua principal fonte alimentar são os vegetais de folhas verdes'],
+    o: ['É absorvida no duodeno, ligada à transferrina plasmática', 'Liga-se ao fator intrínseco e é absorvida no íleo terminal', 'Os estoques duram apenas meses, como os de folato', 'Sua principal fonte são os vegetais de folhas verdes escuras'],
     g: 'B',
     c: 'A cobalamina dos alimentos de origem animal é liberada pela acidez gástrica, liga-se inicialmente à haptocorrina e, no duodeno, após ação das proteases pancreáticas, ao fator intrínseco secretado pelas células parietais. O complexo é absorvido por receptores no íleo terminal. Os estoques hepáticos são grandes, de modo que a deficiência demora anos para surgir.',
     x: { A: 'O duodeno é o local de absorção do ferro; a transferrina transporta ferro, não cobalamina.', C: 'Os estoques de B12 duram anos, ao contrário dos de folato, que duram meses.', D: 'Vegetais verdes são fonte de folato; a B12 vem de alimentos de origem animal.' },
@@ -117,7 +117,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Deficiência de B12 — quadro neurológico',
     e: 'Homem de 58 anos, gastrectomizado há 8 anos, apresenta dificuldade para andar no escuro, parestesias em membros inferiores, perda da sensibilidade vibratória e proprioceptiva, sinal de Romberg positivo, hiper-reflexia patelar e sinal de Babinski bilateral. A síndrome neurológica e as estruturas acometidas são:',
-    o: ['Polineuropatia desmielinizante aguda — raízes e nervos periféricos', 'Degeneração combinada subaguda da medula — colunas posteriores e tratos corticoespinhais laterais', 'Esclerose lateral amiotrófica — corno anterior e trato corticoespinhal', 'Tabes dorsalis — raízes dorsais e colunas posteriores apenas'],
+    o: ['Polineuropatia desmielinizante aguda de raízes e nervos periféricos', 'Degeneração combinada subaguda: colunas posteriores e laterais', 'Esclerose lateral amiotrófica, do corno anterior e trato corticoespinhal', 'Tabes dorsalis, restrita a raízes dorsais e colunas posteriores'],
     g: 'B',
     c: 'A falta de B12 prejudica a conversão de metilmalonil-CoA em succinil-CoA e a síntese de metionina, comprometendo a formação da mielina. O resultado é a degeneração combinada subaguda, com lesão das colunas posteriores (ataxia sensitiva, perda de vibração e propriocepção) e dos tratos corticoespinhais (espasticidade, Babinski), além de neuropatia periférica e alterações cognitivas. O quadro pode ocorrer mesmo sem anemia.',
     x: { A: 'Essa polineuropatia cursa com arreflexia e fraqueza ascendente aguda, sem sinais piramidais.', C: 'Na esclerose lateral amiotrófica não há comprometimento sensitivo.', D: 'A tabes dorsalis poupa o trato corticoespinhal e decorre de sífilis terciária.' },
@@ -141,7 +141,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Deficiência de folato — causas',
     e: 'Homem de 50 anos, etilista pesado, com alimentação precária há meses, apresenta hemoglobina 8,8 g/dL, VCM 112 fL e neutrófilos hipersegmentados. O exame neurológico é normal e o ácido metilmalônico está normal, com homocisteína elevada. A causa mais provável da anemia é:',
-    o: ['Deficiência de vitamina B12 por gastrite atrófica', 'Deficiência de folato por baixa ingestão e efeito do álcool', 'Mielodisplasia', 'Hipotireoidismo'],
+    o: ['Deficiência de vitamina B12 por gastrite atrófica', 'Deficiência de folato: baixa ingestão e efeito do álcool', 'Mielodisplasia, com displasia nas três linhagens', 'Hipotireoidismo, com macrocitose e anemia leve'],
     g: 'B',
     c: 'Os estoques de folato duram apenas poucos meses, de modo que dieta pobre em vegetais frescos leva rapidamente à deficiência; o álcool ainda reduz a absorção e o armazenamento hepático. Megaloblastose com ácido metilmalônico normal, homocisteína alta e ausência de sintomas neurológicos aponta para folato. Outras causas são aumento da demanda (gestação, hemólise crônica), má absorção jejunal e fármacos como metotrexato, trimetoprima e fenitoína.',
     x: { A: 'Na deficiência de B12 o ácido metilmalônico estaria elevado.', C: 'A história nutricional e os marcadores metabólicos explicam o quadro sem recorrer a essa hipótese.', D: 'O hipotireoidismo causa macrocitose leve, sem hipersegmentação de neutrófilos.' },
@@ -149,7 +149,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Megaloblástica — tratar só com folato',
     e: 'Idoso com anemia macrocítica recebe ácido fólico empiricamente, sem dosagem de vitamina B12. Após dois meses a hemoglobina melhorou, mas surgiram parestesias e instabilidade de marcha. A explicação é:',
-    o: ['Toxicidade neurológica direta do ácido fólico', 'Deficiência de B12 não diagnosticada: o folato corrige a anemia, mas não impede a progressão da lesão neurológica', 'Hipocalemia induzida pela recuperação medular', 'Deficiência de tiamina associada'],
+    o: ['Toxicidade neurológica direta do ácido fólico em dose alta', 'B12 não diagnosticada: o folato corrige a anemia, não a lesão neural', 'Hipocalemia induzida pela recuperação medular rápida', 'Deficiência de tiamina associada, com neuropatia periférica'],
     g: 'B',
     c: 'Doses farmacológicas de folato contornam o bloqueio da síntese de DNA e melhoram a anemia mesmo na deficiência de B12, mas não restauram a reação da metilmalonil-CoA mutase nem a mielinização. A anemia fica mascarada enquanto a lesão neurológica progride e pode se tornar irreversível. Por isso nunca se trata anemia megaloblástica apenas com folato sem excluir ou tratar a deficiência de B12.',
     x: { A: 'O ácido fólico não é neurotóxico nas doses usadas; o dano vem da falta de B12.', C: 'A hipocalemia causa fraqueza e arritmias, não ataxia sensitiva com parestesias.', D: 'A deficiência de tiamina não explica a anemia macrocítica que respondeu ao folato.' },
@@ -157,7 +157,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Megaloblástica — hipocalemia no tratamento',
     e: 'Mulher de 70 anos com anemia perniciosa grave (hemoglobina 5,2 g/dL) inicia vitamina B12 intramuscular. No terceiro dia apresenta fraqueza muscular e extrassístoles. Qual distúrbio deve ser pesquisado e qual o seu mecanismo?',
-    o: ['Hipercalemia por lise de megaloblastos', 'Hipocalemia por captação de potássio pelas células em rápida proliferação', 'Hipocalcemia por consumo na formação de hemácias', 'Hiponatremia por secreção inapropriada de ADH'],
+    o: ['Hipercalemia por lise dos megaloblastos na medula', 'Hipocalemia por captação de K+ por células em proliferação', 'Hipocalcemia por consumo na formação das hemácias', 'Hiponatremia por secreção inapropriada de ADH'],
     g: 'B',
     c: 'Com a reposição de B12 a eritropoese efetiva é retomada de forma explosiva, e as novas células incorporam grande quantidade de potássio, que é o principal cátion intracelular. Em anemias graves isso pode causar hipocalemia nos primeiros dias, com risco de arritmias, razão pela qual o potássio deve ser monitorado e reposto.',
     x: { A: 'O tratamento reduz a destruição intramedular; o potássio tende a cair, não a subir.', C: 'O cálcio não é consumido de forma relevante na eritropoese.', D: 'Hiponatremia não é complicação esperada da reposição de cobalamina.' },
@@ -165,7 +165,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Megaloblástica — laboratório',
     e: 'Paciente com deficiência grave de vitamina B12 apresenta LDH muito elevada, bilirrubina indireta aumentada, haptoglobina baixa e reticulócitos baixos. Esse conjunto se explica por:',
-    o: ['Hemólise autoimune associada', 'Eritropoese ineficaz, com destruição intramedular dos precursores eritroides', 'Hemólise microangiopática por deficiência de ADAMTS13', 'Hiperesplenismo secundário'],
+    o: ['Hemólise autoimune associada, com Coombs positivo', 'Eritropoese ineficaz, com destruição intramedular dos precursores', 'Hemólise microangiopática por deficiência de ADAMTS13', 'Hiperesplenismo secundário, com esplenomegalia'],
     g: 'B',
     c: 'Na megaloblastose os precursores defeituosos sofrem apoptose dentro da medula, liberando LDH e hemoglobina, o que produz perfil bioquímico de hemólise. A diferença em relação à hemólise periférica é que os reticulócitos estão baixos, pois a medula, embora hipercelular, não consegue liberar células maduras.',
     x: { A: 'Na hemólise autoimune haveria reticulocitose e Coombs direto positivo.', C: 'A microangiopatia cursa com esquizócitos e plaquetopenia de consumo.', D: 'O hiperesplenismo não explica LDH muito elevada com reticulócitos baixos.' },
@@ -173,7 +173,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Deficiência de B12 — tratamento',
     e: 'Homem de 64 anos com anemia perniciosa confirmada e parestesias em membros inferiores. Sobre o tratamento, é correto afirmar:',
-    o: ['A reposição pode ser suspensa após a normalização do hemograma', 'A reposição de vitamina B12 deve ser mantida por toda a vida, preferencialmente por via parenteral no início, dada a presença de sintomas neurológicos', 'O tratamento de escolha é ácido fólico em dose alta', 'A reposição oral é ineficaz em qualquer dose, mesmo para manutenção'],
+    o: ['A reposição pode ser suspensa após normalizar o hemograma', 'Reposição de B12 por toda a vida, parenteral no início', 'O tratamento de escolha é ácido fólico em dose alta', 'A reposição oral é ineficaz em qualquer dose'],
     g: 'B',
     c: 'Na anemia perniciosa a causa (falta de fator intrínseco) é irreversível, de modo que a reposição é vitalícia. Na presença de sintomas neurológicos ou anemia grave prefere-se a via intramuscular, com doses frequentes no início e depois mensais. Doses orais altas podem ser usadas na manutenção, pois cerca de 1% é absorvido por difusão passiva, independentemente do fator intrínseco.',
     x: { A: 'Suspender leva à recidiva, pois a gastrite atrófica autoimune persiste.', C: 'O folato isolado pode agravar o quadro neurológico na deficiência de B12.', D: 'Doses orais altas são absorvidas por difusão passiva e servem para manutenção.' },
@@ -189,7 +189,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Macrocitose — álcool',
     e: 'Homem de 47 anos, que ingere destilados diariamente há 20 anos, tem hemoglobina 13,4 g/dL e VCM 104 fL. Vitamina B12, folato, TSH e função hepática estão normais. O esfregaço mostra macrócitos redondos, sem neutrófilos hipersegmentados. Qual é a explicação mais provável e a evolução esperada?',
-    o: ['Mielodisplasia; progressão para leucemia aguda', 'Efeito tóxico direto do álcool sobre a eritropoese; o VCM normaliza alguns meses após a abstinência', 'Anemia perniciosa inicial; evolução para sintomas neurológicos', 'Hemólise crônica com reticulocitose; necessidade de esplenectomia'],
+    o: ['Mielodisplasia; progressão para leucemia aguda', 'Toxicidade direta do álcool; o VCM normaliza com a abstinência', 'Anemia perniciosa inicial; evolução para sintomas neurológicos', 'Hemólise crônica com reticulocitose; indicação de esplenectomia'],
     g: 'B',
     c: 'O etilismo é a causa mais comum de macrocitose em adultos, mesmo sem anemia nem carência vitamínica, por efeito tóxico direto do etanol e de seus metabólitos sobre os precursores eritroides e sobre a membrana. Como a vida da hemácia é de cerca de 120 dias, o VCM volta ao normal em dois a quatro meses de abstinência.',
     x: { A: 'Não há citopenias nem displasia que sustentem essa hipótese em paciente com causa evidente.', C: 'A B12 normal e a ausência de hipersegmentação afastam megaloblastose.', D: 'Não há anemia, icterícia nem outros indícios de hemólise.' },
@@ -197,7 +197,7 @@ export const ANEMIAS_2: QuestaoCompacta[] = [
   {
     s: 'Síndrome mielodisplásica',
     e: 'Mulher de 76 anos apresenta anemia macrocítica (VCM 108 fL), neutropenia e plaquetopenia leves, persistentes há um ano. Vitamina B12, folato, TSH e função hepática são normais e ela não usa álcool nem medicamentos. O esfregaço mostra neutrófilos hipogranulares com núcleo bilobado (pseudo-Pelger-Huët). O próximo passo é:',
-    o: ['Prova terapêutica com vitamina B12 intramuscular', 'Mielograma com biópsia de medula óssea e estudo citogenético', 'Eletroforese de hemoglobina', 'Teste de Coombs direto'],
+    o: ['Prova terapêutica com vitamina B12 intramuscular', 'Mielograma, biópsia de medula óssea e citogenética', 'Eletroforese de hemoglobina, em pH alcalino', 'Teste de Coombs direto, em sangue periférico'],
     g: 'B',
     c: 'Em idosos, macrocitose com citopenias sem causa carencial, tóxica ou endócrina sugere síndrome mielodisplásica, doença clonal com hematopoese ineficaz e displasia morfológica, como a anomalia pseudo-Pelger-Huët. O diagnóstico exige avaliação da medula, que costuma ser hipercelular com displasia, e a citogenética é fundamental para a estratificação de risco e para a escolha do tratamento.',
     x: { A: 'A B12 está normal; prova terapêutica apenas atrasaria o diagnóstico.', C: 'Hemoglobinopatias não causam macrocitose com neutropenia e displasia granulocítica.', D: 'Não há sinais de hemólise que justifiquem pesquisar autoanticorpos.' },

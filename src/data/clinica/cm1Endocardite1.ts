@@ -69,7 +69,7 @@ export const ENDOCARDITE_1: QuestaoCompacta[] = [
   {
     s: 'Streptococcus gallolyticus',
     e: 'Qual dos agentes de endocardite infecciosa tem associação bem estabelecida com neoplasias e pólipos do cólon, exigindo investigação do trato digestivo após o diagnóstico?',
-    o: ['Streptococcus mutans', 'Streptococcus gallolyticus (antigo S. bovis biotipo I)', 'Aggregatibacter actinomycetemcomitans', 'Staphylococcus lugdunensis'],
+    o: ['Streptococcus mutans, da flora oral', 'Streptococcus gallolyticus (antigo S. bovis I)', 'Aggregatibacter actinomycetemcomitans, do grupo HACEK', 'Staphylococcus lugdunensis, estafilococo agressivo'],
     g: 'B',
     c: 'O Streptococcus gallolyticus coloniza o intestino e atinge a corrente sanguínea através de lesões da mucosa colônica, como adenomas e carcinomas. Por isso, a bacteremia ou a endocardite por esse germe obriga a pesquisa de neoplasia colorretal, mesmo em pacientes sem sintomas digestivos.',
     x: { A: 'O S. mutans é da flora oral e relaciona-se a cárie e manipulação dentária.', C: 'O Aggregatibacter é do grupo HACEK e vem da orofaringe, sem relação com cólon.', D: 'O S. lugdunensis é estafilococo coagulase-negativo da pele, sem associação com neoplasia.' },
@@ -93,7 +93,7 @@ export const ENDOCARDITE_1: QuestaoCompacta[] = [
   {
     s: 'Características do HACEK',
     e: 'Sobre a endocardite causada por bactérias do grupo HACEK, é correto afirmar que:',
-    o: ['São cocos gram-positivos da pele que causam doença hiperaguda', 'São bacilos gram-negativos da orofaringe, de crescimento lento, que causam quadro subagudo com vegetações frequentemente grandes', 'Não crescem em hemoculturas e só são identificados por sorologia', 'Acometem quase exclusivamente a valva tricúspide de usuários de drogas'],
+    o: ['Cocos gram-positivos da pele, com doença hiperaguda', 'Bacilos gram-negativos orofaríngeos, de crescimento lento, subagudos', 'Não crescem em hemocultura; só identificados por sorologia', 'Acometem quase só a tricúspide de usuários de drogas'],
     g: 'B',
     c: 'Os germes HACEK são bacilos gram-negativos fastidiosos da flora oral e das vias aéreas superiores. Causam endocardite subaguda de valva nativa, com vegetações volumosas e tendência a embolia; com os sistemas automatizados atuais, crescem em hemocultura em poucos dias, e são um critério microbiológico típico.',
     x: { A: 'São bacilos gram-negativos, e a evolução é subaguda, não hiperaguda.', C: 'Crescem nos sistemas automatizados atuais de hemocultura, em geral em até 5 dias.', D: 'Acometem principalmente valvas esquerdas, sem predileção pela tricúspide.' },
@@ -165,7 +165,7 @@ export const ENDOCARDITE_1: QuestaoCompacta[] = [
   {
     s: 'Bacteremia transitória',
     e: 'Sobre a origem das bacteremias que levam à endocardite por estreptococos orais, o conceito atual é que:',
-    o: ['Quase todos os casos decorrem de extrações dentárias realizadas nas duas semanas anteriores', 'A maioria resulta de bacteremias repetidas de atividades diárias, como escovar os dentes e mastigar, sobretudo com saúde bucal ruim', 'A bacteremia só ocorre quando há abscesso dentário com drenagem cirúrgica', 'A flora oral não causa bacteremia em pessoas com dentição completa'],
+    o: ['Quase todos os casos vêm de extrações dentárias nas duas semanas anteriores', 'A maioria vem de bacteremias do dia a dia (escovar, mastigar)', 'A bacteremia só ocorre com abscesso dentário drenado', 'A flora oral não causa bacteremia com dentição completa'],
     g: 'B',
     c: 'Escovação, uso de fio dental e mastigação causam bacteremias transitórias frequentes, cuja exposição acumulada ao longo do ano supera em muito a de um procedimento dentário isolado. Por isso, as diretrizes restringiram a profilaxia antibiótica aos pacientes de mais alto risco e enfatizam a boa higiene bucal.',
     x: { A: 'Apenas uma minoria dos casos tem relação temporal com procedimento dentário.', C: 'Bacteremias ocorrem em atividades banais, sem necessidade de abscesso ou cirurgia.', D: 'A flora oral causa bacteremia transitória em qualquer pessoa, mais intensa com gengivite.' },
@@ -181,7 +181,7 @@ export const ENDOCARDITE_1: QuestaoCompacta[] = [
   {
     s: 'Virulência do S. aureus',
     e: 'Diferentemente dos estreptococos orais, o Staphylococcus aureus é capaz de causar endocardite em valvas previamente normais. Isso se explica principalmente por:',
-    o: ['Produção de cápsula polissacarídica que impede a opsonização', 'Presença de adesinas de superfície que se ligam a fibrinogênio e fibronectina e permitem aderir e invadir o endotélio', 'Capacidade de sobreviver apenas em ambiente de baixa tensão de oxigênio', 'Resistência intrínseca a todos os antibióticos betalactâmicos'],
+    o: ['Cápsula polissacarídica que impede a opsonização do germe', 'Adesinas que ligam fibrinogênio e fibronectina e invadem o endotélio', 'Sobrevive apenas em ambiente de baixa tensão de oxigênio', 'Resistência intrínseca a todos os betalactâmicos conhecidos'],
     g: 'B',
     c: 'O S. aureus expressa proteínas de superfície que reconhecem moléculas da matriz, como as proteínas ligadoras de fibronectina e o fator de agregação (clumping factor). Elas permitem a adesão ao endotélio minimamente lesado ou inflamado, a internalização pelas células endoteliais e a rápida destruição tecidual, com quadro agudo.',
     x: { A: 'A cápsula contribui para virulência, mas não explica a adesão à valva normal.', C: 'O S. aureus é anaeróbio facultativo e cresce bem em sangue arterial oxigenado.', D: 'Muitas cepas são sensíveis à oxacilina; resistência não é o mecanismo de adesão.' },
@@ -189,7 +189,7 @@ export const ENDOCARDITE_1: QuestaoCompacta[] = [
   {
     s: 'Cultura negativa',
     e: 'A causa mais frequente de endocardite infecciosa com hemoculturas negativas é:',
-    o: ['Infecção por fungos filamentosos', 'Uso de antibióticos antes da coleta das hemoculturas', 'Infecção por Coxiella burnetii', 'Coleta de volume excessivo de sangue por frasco'],
+    o: ['Infecção por fungos filamentosos, em valva protética', 'Uso de antibióticos antes da coleta das hemoculturas', 'Infecção por Coxiella burnetii, de crescimento lento', 'Coleta de volume excessivo de sangue por frasco'],
     g: 'B',
     c: 'O uso prévio de antimicrobianos reduz a carga bacteriana circulante e é responsável pela maior parte dos casos de cultura negativa, podendo manter as hemoculturas estéreis por dias a semanas. Somente depois de afastada essa causa é que ganham peso os germes fastidiosos e intracelulares e as causas não infecciosas.',
     x: { A: 'Fungos filamentosos são causa rara, embora de fato cresçam mal em hemocultura.', C: 'A Coxiella é importante, mas menos frequente que o uso prévio de antibiótico.', D: 'O erro que reduz a positividade é o volume insuficiente de sangue, não o excessivo.' },

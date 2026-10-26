@@ -21,7 +21,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Manchas de Janeway',
     e: 'Homem de 30 anos com endocardite aguda por Staphylococcus aureus apresenta máculas eritematosas e hemorrágicas, planas e indolores, nas palmas das mãos e nas plantas dos pés. Sobre essas lesões, é correto afirmar:',
-    o: ['São nódulos de Osler e decorrem de depósito de imunocomplexos', 'São manchas de Janeway e decorrem de microêmbolos sépticos, contando como fenômeno vascular', 'São petéquias por plaquetopenia e não têm valor diagnóstico', 'São eritema marginado e indicam febre reumática associada'],
+    o: ['Nódulos de Osler, por imunocomplexos', 'Manchas de Janeway: microêmbolos sépticos (fenômeno vascular)', 'Petéquias por plaquetopenia, sem valor diagnóstico', 'Eritema marginado, de febre reumática associada'],
     g: 'B',
     c: 'As manchas de Janeway são máculas indolores palmoplantares causadas por microêmbolos sépticos para os vasos da derme, com microabscessos. Entram nos critérios de Duke como fenômeno vascular, junto com embolia arterial, infartos pulmonares sépticos, aneurisma micótico, hemorragia intracraniana e hemorragia conjuntival.',
     x: { A: 'Os nódulos de Osler são dolorosos e ficam nas polpas digitais.', C: 'A distribuição palmoplantar em endocardite aguda tem valor diagnóstico como critério menor.', D: 'O eritema marginado é serpiginoso, em tronco, e ligado à febre reumática aguda.' },
@@ -29,7 +29,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Manchas de Roth',
     e: 'No exame de fundo de olho de um paciente com endocardite subaguda, observam-se hemorragias retinianas ovais com centro esbranquiçado. Esse achado:',
-    o: ['É patognomônico de endocardite e classificado como critério maior', 'Corresponde às manchas de Roth, fenômeno imunológico que também pode ocorrer em leucemia, anemia grave e colagenoses', 'Indica embolia séptica da artéria central da retina', 'Corresponde a exsudatos algodonosos de retinopatia hipertensiva'],
+    o: ['Patognomônico de endocardite e critério maior', 'Manchas de Roth: imunológico; também em leucemia e anemia grave', 'Embolia séptica da artéria central da retina', 'Exsudatos algodonosos da retinopatia hipertensiva'],
     g: 'B',
     c: 'As manchas de Roth são hemorragias retinianas com centro pálido, formado por agregado de fibrina e plaquetas, e são consideradas fenômeno imunológico nos critérios de Duke (critério menor). Não são específicas, podendo aparecer em leucemias, anemia grave, lúpus e diabetes.',
     x: { A: 'Não são patognomônicas e contam apenas como critério menor.', C: 'A oclusão da artéria central causa palidez difusa da retina com mácula em cereja.', D: 'Exsudatos algodonosos são infartos da camada de fibras nervosas, sem hemorragia com centro pálido.' },
@@ -37,7 +37,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Petéquias',
     e: 'Entre as manifestações periféricas da endocardite infecciosa, a mais comumente encontrada ao exame físico é:',
-    o: ['Nódulos de Osler nas polpas digitais', 'Petéquias em conjuntivas, mucosa oral e extremidades', 'Manchas de Roth na retina', 'Baqueteamento digital'],
+    o: ['Nódulos de Osler nas polpas digitais, dolorosos', 'Petéquias em conjuntivas, mucosa oral e extremidades', 'Manchas de Roth na retina, com centro pálido', 'Baqueteamento digital, de instalação lenta'],
     g: 'B',
     c: 'As petéquias são a manifestação periférica mais frequente, encontradas nas conjuntivas, no palato, na mucosa oral e nas extremidades. Resultam de vasculite local ou de microembolia e são inespecíficas, mas reforçam a suspeita quando associadas a febre e sopro.',
     x: { A: 'Os nódulos de Osler são pouco frequentes na prática atual.', C: 'As manchas de Roth são raras, vistas em pequena porcentagem dos casos.', D: 'O baqueteamento só aparece em doença muito prolongada, hoje excepcional.' },
@@ -45,7 +45,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Forma subaguda',
     e: 'Homem de 58 anos, com insuficiência mitral reumática, procura atendimento por febre baixa há 2 meses, sudorese noturna, artralgias, perda de 7 kg e palidez. Exame: baço palpável, baqueteamento digital discreto e petéquias conjuntivais. Hemoglobina 9,4 g/dL normocítica e VHS muito elevada. O quadro é mais compatível com:',
-    o: ['Endocardite aguda por Staphylococcus aureus', 'Endocardite subaguda por estreptococo do grupo viridans', 'Febre reumática aguda com cardite', 'Linfoma com infiltração cardíaca'],
+    o: ['Endocardite aguda por Staphylococcus aureus, com sepse', 'Endocardite subaguda por estreptococo viridans', 'Febre reumática aguda com cardite, pós-estreptocócica', 'Linfoma com infiltração cardíaca, sem vegetações'],
     g: 'B',
     c: 'A forma subaguda evolui em semanas a meses, com sintomas constitucionais, anemia de doença crônica, esplenomegalia e fenômenos imunológicos, pois germes de baixa virulência causam infecção arrastada com estimulação antigênica prolongada. Os estreptococos viridans em valva previamente lesada são o exemplo clássico.',
     x: { A: 'A forma aguda evolui em dias, com toxemia, e não em dois meses.', C: 'A febre reumática aguda é rara nessa idade e não explica esplenomegalia e baqueteamento.', D: 'O linfoma não justifica petéquias conjuntivais em paciente com valvopatia e febre.' },
@@ -53,7 +53,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Forma aguda',
     e: 'Mulher de 44 anos, previamente hígida, com furunculose de repetição, apresenta há 3 dias febre de 40 graus, calafrios e prostração. Evolui com dispneia intensa, estertores bilaterais, pressão arterial de 130 x 40 mmHg e sopro diastólico aspirativo em foco aórtico. A apresentação descrita é característica de:',
-    o: ['Endocardite subaguda por enterococo', 'Endocardite aguda por Staphylococcus aureus com destruição valvar rápida', 'Endocardite por Coxiella burnetii', 'Endocardite trombótica não bacteriana'],
+    o: ['Endocardite subaguda por enterococo, em idoso', 'Endocardite aguda por S. aureus, com destruição valvar rápida', 'Endocardite por Coxiella burnetii, crônica', 'Endocardite trombótica não bacteriana, marântica'],
     g: 'B',
     c: 'A endocardite aguda instala-se em dias, com febre alta e toxemia, e o S. aureus, a partir de foco cutâneo, é o agente típico. Sua capacidade de destruir rapidamente os folhetos causa regurgitação aórtica aguda, com pressão diastólica baixa e edema pulmonar, pois o ventrículo não teve tempo de se adaptar à sobrecarga de volume.',
     x: { A: 'O enterococo causa quadro subagudo, em semanas, sem essa toxemia.', C: 'A Coxiella causa doença crônica, arrastada por meses, em valva previamente doente.', D: 'A endocardite trombótica não bacteriana não cursa com febre alta nem destruição valvar.' },
@@ -61,7 +61,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Êmbolos sépticos pulmonares',
     e: 'Homem de 25 anos, usuário de heroína injetável, apresenta febre, tosse com escarro hemoptoico e dor pleurítica bilateral. A tomografia de tórax mostra múltiplos nódulos periféricos bilaterais, alguns cavitados, de tamanhos variados. A principal hipótese e o exame a ser solicitado são:',
-    o: ['Tuberculose pulmonar; baciloscopia de escarro', 'Embolia séptica pulmonar por endocardite de valva tricúspide; hemoculturas e ecocardiograma', 'Granulomatose com poliangiite; ANCA', 'Metástases pulmonares cavitadas; biópsia transtorácica'],
+    o: ['TB pulmonar; baciloscopia de escarro em 2 amostras', 'Embolia séptica por endocardite tricúspide; hemoculturas e eco', 'Granulomatose com poliangiite; dosagem sérica de ANCA', 'Metástases cavitadas; biópsia transtorácica guiada por TC'],
     g: 'B',
     c: 'Na endocardite de câmaras direitas, fragmentos da vegetação tricúspide embolizam para a circulação pulmonar, produzindo múltiplos nódulos periféricos que cavitam, por vezes com derrame pleural e empiema. Em usuário de drogas injetáveis com febre, esse padrão radiológico exige hemoculturas e ecocardiograma.',
     x: { A: 'A tuberculose tende a cavitar nos ápices e não gera nódulos periféricos múltiplos agudos.', C: 'A granulomatose com poliangiite é possível, mas o contexto de droga injetável e febre aguda aponta para embolia séptica.', D: 'Metástases cavitadas não explicam quadro febril agudo em jovem usuário de drogas.' },
@@ -69,7 +69,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Endocardite de câmaras direitas',
     e: 'Em comparação com a endocardite de valvas esquerdas, a endocardite isolada de valva tricúspide caracteriza-se por:',
-    o: ['Maior frequência de nódulos de Osler, manchas de Janeway e acidente vascular encefálico', 'Predomínio de manifestações pulmonares, sopro discreto ou ausente e raridade de fenômenos periféricos sistêmicos', 'Maior mortalidade e indicação cirúrgica mais frequente', 'Insuficiência cardíaca esquerda aguda como principal complicação'],
+    o: ['Mais nódulos de Osler, manchas de Janeway e AVE', 'Predomínio pulmonar, sopro discreto e poucos fenômenos periféricos', 'Maior mortalidade e indicação cirúrgica mais frequente', 'Insuficiência cardíaca esquerda aguda como principal complicação'],
     g: 'B',
     c: 'Como os êmbolos da tricúspide ficam retidos no leito pulmonar, predominam tosse, dor pleurítica e infiltrados, e os estigmas periféricos sistêmicos são raros. O sopro de regurgitação tricúspide costuma ser discreto pela baixa pressão do lado direito, e o prognóstico é melhor, com resposta ao tratamento clínico na maioria dos casos.',
     x: { A: 'Fenômenos periféricos e embolia cerebral exigem êmbolos na circulação sistêmica.', C: 'A mortalidade é menor e a cirurgia é necessária em minoria dos casos.', D: 'A sobrecarga é do lado direito; edema pulmonar por falência esquerda não é típico.' },
@@ -77,7 +77,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Coleta de hemoculturas',
     e: 'Paciente estável, com suspeita de endocardite subaguda, ainda sem antibiótico. A forma correta de colher as hemoculturas é:',
-    o: ['Uma única amostra de grande volume, colhida durante o pico febril', 'Três amostras de punções venosas diferentes, com intervalo entre elas, antes de iniciar o antibiótico e sem necessidade de aguardar a febre', 'Duas amostras colhidas através do cateter venoso central, com 5 minutos de intervalo', 'Amostras diárias por uma semana antes de considerar o início do tratamento'],
+    o: ['Uma amostra única de grande volume, no pico febril', 'Três amostras de punções diferentes, antes do antibiótico', 'Duas amostras pelo cateter central, com 5 minutos de intervalo', 'Amostras diárias por uma semana antes de tratar'],
     g: 'B',
     c: 'Recomendam-se pelo menos três amostras, cada uma com frascos aeróbio e anaeróbio e volume adequado, de punções periféricas distintas e antes do antibiótico. Como a bacteremia da endocardite é contínua, não é preciso esperar o pico febril; as punções separadas ajudam a demonstrar a persistência e a distinguir contaminação.',
     x: { A: 'Uma amostra isolada não demonstra bacteremia persistente nem afasta contaminação.', C: 'A coleta por cateter aumenta o risco de contaminação e deve ser evitada.', D: 'Adiar o tratamento por uma semana é desnecessário e perigoso.' },
@@ -85,7 +85,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Bacteremia contínua',
     e: 'Na endocardite infecciosa, é habitual que todas ou quase todas as amostras de hemocultura sejam positivas, mesmo quando colhidas em horários diferentes e fora da febre. Isso ocorre porque:',
-    o: ['Os germes se multiplicam livremente no plasma em altas concentrações', 'A vegetação é um foco intravascular que libera microrganismos de forma constante na corrente sanguínea', 'O baço deixa de filtrar bactérias circulantes na endocardite', 'Os frascos de hemocultura são contaminados pela flora da pele'],
+    o: ['Os germes se multiplicam livremente no plasma em altas concentrações', 'A vegetação é foco intravascular que libera germes de forma constante', 'O baço deixa de filtrar bactérias circulantes na endocardite', 'Os frascos de hemocultura são contaminados pela pele'],
     g: 'B',
     c: 'Por estar dentro do próprio sistema circulatório, a vegetação libera germes continuamente, produzindo bacteremia persistente e de baixa magnitude. Esse comportamento é a base do critério maior microbiológico de Duke, que valoriza hemoculturas persistentemente positivas.',
     x: { A: 'A bacteremia é de baixa magnitude; a multiplicação ocorre na vegetação, não no plasma.', C: 'O baço continua ativo e costuma aumentar por hiperplasia reativa.', D: 'Contaminação costuma positivar frascos isolados, e não todas as amostras.' },
@@ -109,7 +109,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Ecocardiograma negativo',
     e: 'Homem de 63 anos, portador de prótese aórtica mecânica, tem febre há 10 dias e três hemoculturas positivas para Staphylococcus aureus. O ecocardiograma transesofágico inicial não mostra vegetação nem abscesso. A conduta mais adequada é:',
-    o: ['Excluir endocardite e tratar como bacteremia não complicada', 'Manter o tratamento para endocardite e repetir o ecocardiograma transesofágico em 5 a 7 dias', 'Suspender os antibióticos e observar a evolução da febre', 'Indicar troca valvar imediata para confirmar o diagnóstico'],
+    o: ['Excluir endocardite e tratar como bacteremia simples', 'Manter o tratamento e repetir o ETE em 5 a 7 dias', 'Suspender os antibióticos e observar a febre', 'Indicar troca valvar imediata para confirmar o diagnóstico'],
     g: 'B',
     c: 'Um exame transesofágico inicial negativo não afasta endocardite quando a suspeita é alta, pois vegetações pequenas e abscessos incipientes podem não ser visíveis, sobretudo em próteses. Recomenda-se repetir o exame em 5 a 7 dias e considerar outros métodos de imagem, como tomografia cardíaca e PET-CT.',
     x: { A: 'Bacteremia por S. aureus em portador de prótese tem alta probabilidade de endocardite.', C: 'Suspender antibiótico em bacteremia por S. aureus com prótese é inaceitável.', D: 'A cirurgia não é método diagnóstico e não há indicação cirúrgica definida.' },
@@ -117,7 +117,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Critérios maiores de Duke',
     e: 'Segundo os critérios de Duke modificados, constitui critério MAIOR para o diagnóstico de endocardite infecciosa:',
-    o: ['Febre igual ou superior a 38 graus', 'Duas hemoculturas separadas positivas para microrganismo típico, como estreptococo viridans', 'Fator reumatoide positivo', 'Uso de drogas injetáveis'],
+    o: ['Febre igual ou superior a 38 graus, sustentada por dias', 'Duas hemoculturas separadas positivas para germe típico', 'Fator reumatoide positivo, em título elevado no soro', 'Uso de drogas injetáveis, como fator predisponente'],
     g: 'B',
     c: 'Os critérios maiores são dois: o microbiológico (germe típico em duas hemoculturas separadas, bacteremia persistente, ou evidência de Coxiella burnetii) e a evidência de envolvimento endocárdico em exame de imagem (vegetação, abscesso, nova deiscência de prótese ou nova regurgitação valvar). Os demais itens listados são critérios menores.',
     x: { A: 'A febre igual ou superior a 38 graus é critério menor.', C: 'O fator reumatoide é fenômeno imunológico, portanto critério menor.', D: 'O uso de drogas injetáveis é condição predisponente, portanto critério menor.' },
@@ -157,7 +157,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Fator reumatoide',
     e: 'Homem de 51 anos com endocardite subaguda por estreptococo viridans há 2 meses apresenta artralgias e fator reumatoide positivo em título alto, sem história de artrite prévia. A interpretação correta é:',
-    o: ['Artrite reumatoide associada, com indicação de iniciar metotrexato', 'Fenômeno imunológico da endocardite, por estimulação antigênica prolongada, que tende a desaparecer com o tratamento', 'Resultado falso-positivo causado pelo uso de penicilina', 'Sinal de artrite séptica por embolia para as articulações'],
+    o: ['Artrite reumatoide associada; iniciar metotrexato', 'Fenômeno imunológico da endocardite; some com o tratamento', 'Falso-positivo causado pelo uso de penicilina', 'Sinal de artrite séptica por embolia articular'],
     g: 'B',
     c: 'A bacteremia prolongada estimula a produção policlonal de anticorpos e de imunocomplexos circulantes, e o fator reumatoide fica positivo em parcela importante dos casos subagudos. Ele é um dos fenômenos imunológicos dos critérios menores de Duke e negativa após a cura da infecção.',
     x: { A: 'Sem sinovite crônica prévia, o achado se explica pela própria endocardite.', C: 'A penicilina não é causa de fator reumatoide positivo.', D: 'A artrite séptica causa monoartrite com derrame purulento, não positividade do fator reumatoide.' },
@@ -165,7 +165,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Bacteremia por S. aureus',
     e: 'Homem de 66 anos, diabético, internado por celulite de perna, tem duas hemoculturas positivas para Staphylococcus aureus. Está afebril após 48 horas de oxacilina e não tem sopro. Em relação à investigação de endocardite, a conduta correta é:',
-    o: ['Dispensar o ecocardiograma, pois não há sopro e a febre cedeu', 'Realizar ecocardiograma, pois a bacteremia por S. aureus se associa com frequência a endocardite, mesmo sem sinais clínicos', 'Solicitar ecocardiograma apenas se as hemoculturas persistirem positivas por 10 dias', 'Realizar apenas radiografia de tórax e eletrocardiograma'],
+    o: ['Dispensar o ecocardiograma: sem sopro e a febre cedeu', 'Fazer ecocardiograma: bacteremia por S. aureus se associa a endocardite', 'Ecocardiograma só se as hemoculturas persistirem positivas 10 dias', 'Apenas radiografia de tórax e eletrocardiograma'],
     g: 'B',
     c: 'Uma parcela relevante dos pacientes com bacteremia por S. aureus tem endocardite, muitas vezes sem sopro ou estigmas periféricos. Por isso, recomenda-se ecocardiograma em todos os casos e hemoculturas de controle, o que define a duração do tratamento e a busca por focos metastáticos.',
     x: { A: 'Ausência de sopro e defervescência não excluem endocardite estafilocócica.', C: 'Esperar 10 dias atrasa o diagnóstico de uma doença com destruição valvar rápida.', D: 'Radiografia e eletrocardiograma não detectam vegetações valvares.' },
@@ -173,7 +173,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Investigação de cultura negativa',
     e: 'Mulher de 39 anos, veterinária, com valva aórtica bicúspide, tem endocardite definida por vegetação e fenômenos embólicos, mas seis hemoculturas colhidas sem antibiótico prévio permanecem negativas após incubação adequada. O próximo passo na investigação etiológica é:',
-    o: ['Repetir hemoculturas diariamente até que alguma se torne positiva', 'Solicitar sorologias para Coxiella burnetii, Bartonella e Brucella e considerar PCR no sangue ou no tecido valvar', 'Realizar mielograma com cultura para micobactérias', 'Solicitar apenas pesquisa de anticorpo antinuclear e encerrar a investigação'],
+    o: ['Repetir hemoculturas diariamente até alguma positivar', 'Sorologia para Coxiella, Bartonella e Brucella; PCR em sangue ou valva', 'Mielograma com cultura para micobactérias, por via óssea', 'Apenas pesquisa de FAN, encerrando a investigação'],
     g: 'B',
     c: 'Afastado o uso prévio de antibiótico, a endocardite de cultura negativa deve ser investigada com sorologias para agentes intracelulares e fastidiosos, escolhidas conforme a exposição epidemiológica, e com métodos moleculares. Se houver cirurgia, a PCR e a histologia do tecido valvar têm o maior rendimento.',
     x: { A: 'Repetir culturas convencionais não identifica germes que não crescem nesses meios.', C: 'Micobactérias são causa excepcional e o mielograma não é exame de rotina.', D: 'Autoanticorpos ajudam no diferencial, mas não substituem a pesquisa de agentes infecciosos.' },
@@ -189,7 +189,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Esplenomegalia',
     e: 'A esplenomegalia encontrada em parte dos pacientes com endocardite infecciosa é mais frequente na forma subaguda e explica-se principalmente por:',
-    o: ['Trombose da veia esplênica por êmbolos sépticos', 'Hiperplasia do sistema reticuloendotelial por estimulação antigênica prolongada', 'Hipertensão portal secundária a insuficiência cardíaca direita', 'Infiltração do baço por vegetações metastáticas'],
+    o: ['Trombose da veia esplênica por êmbolos sépticos', 'Hiperplasia do sistema reticuloendotelial, por estímulo antigênico', 'Hipertensão portal por insuficiência cardíaca direita', 'Infiltração do baço por vegetações metastáticas'],
     g: 'B',
     c: 'A bacteremia mantida por semanas provoca hiperplasia reativa do tecido linfoide e dos macrófagos esplênicos, daí a associação com quadros de longa duração. Quando o aumento do baço vem acompanhado de dor ou de febre persistente, é preciso pensar em infarto ou abscesso esplênico.',
     x: { A: 'Os êmbolos são arteriais e causam infarto, não trombose da veia esplênica.', C: 'A congestão por falência direita não é o mecanismo habitual na endocardite.', D: 'Vegetações não crescem no baço; o que ocorre são infartos e abscessos por êmbolos.' },
@@ -197,7 +197,7 @@ export const ENDOCARDITE_2: QuestaoCompacta[] = [
   {
     s: 'Sopro cardíaco',
     e: 'Em relação ao sopro cardíaco na endocardite infecciosa e ao seu valor nos critérios de Duke modificados, é correto afirmar:',
-    o: ['A piora de um sopro preexistente é suficiente para preencher critério maior', 'Uma nova regurgitação valvar conta como critério maior de envolvimento endocárdico; a simples mudança de sopro antigo não é suficiente', 'O sopro é sempre de estenose, por obstrução do orifício pela vegetação', 'A ausência de sopro exclui o diagnóstico de endocardite'],
+    o: ['Piora de sopro preexistente basta para critério maior', 'Nova regurgitação valvar é critério maior; mudar sopro antigo não basta', 'O sopro é sempre de estenose, por obstrução do orifício', 'A ausência de sopro exclui o diagnóstico de endocardite'],
     g: 'B',
     c: 'A vegetação destrói ou perfura os folhetos e rompe cordoalhas, gerando sopros de regurgitação. Os critérios modificados aceitam nova regurgitação valvar como evidência de envolvimento endocárdico, mas o aumento ou a mudança de um sopro já existente não basta. O sopro pode faltar na fase inicial e na endocardite de câmaras direitas.',
     x: { A: 'A piora ou mudança de sopro preexistente não é aceita como critério maior.', C: 'O sopro típico é de regurgitação; obstrução por vegetação é rara.', D: 'O sopro pode estar ausente, sobretudo no início e no acometimento tricúspide.' },

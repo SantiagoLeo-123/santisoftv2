@@ -13,7 +13,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Hipernatremia no idoso',
     e: 'Mulher de 84 anos com demência avançada, acamada e dependente para se alimentar, é trazida com febre há 4 dias, mucosas secas e sonolência. Sódio de 164 mEq/L e osmolaridade urinária de 780 mOsm/kg. O mecanismo da hipernatremia é:',
-    o: ['Diabetes insipidus central por atrofia cerebral', 'Perdas insensíveis de água sem reposição por incapacidade de acesso à água', 'Ingestão excessiva de sal', 'Hiperaldosteronismo primário'],
+    o: ['Diabetes insipidus central por atrofia cerebral', 'Perdas insensíveis sem reposição de água, por falta de acesso', 'Ingestão excessiva de sal, em dieta hipersódica', 'Hiperaldosteronismo primário, com hipertensão e hipocalemia'],
     g: 'B',
     c: 'A febre aumenta as perdas insensíveis de água pela pele e pela respiração, e a paciente não consegue expressar sede nem buscar água. A urina concentrada mostra que o ADH e a resposta renal estão preservados, afastando diabetes insipidus e indicando perda extrarrenal de água.',
     x: { A: 'No diabetes insipidus a urina seria diluída, e não com 780 mOsm/kg.', C: 'O ganho de sódio causaria hipervolemia, e não sinais de desidratação.', D: 'O hiperaldosteronismo produz no máximo elevação discreta do sódio, com hipertensão.' },
@@ -37,7 +37,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Adaptação cerebral',
     e: 'A adaptação cerebral à hipernatremia sustentada, que protege contra a desidratação neuronal mas torna perigosa a correção rápida, consiste em:',
-    o: ['Aumento da permeabilidade da barreira hematoencefálica ao sódio', 'Acúmulo intracelular de osmóis orgânicos, como taurina, mioinositol e glutamina', 'Redução da produção de liquor', 'Perda de potássio pelos neurônios'],
+    o: ['Maior permeabilidade da barreira hematoencefálica ao sódio', 'Acúmulo intracelular de osmóis orgânicos (taurina, mioinositol, glutamina)', 'Redução da produção de liquor, com menor volume', 'Perda de potássio pelos neurônios, por hiperosmolaridade'],
     g: 'B',
     c: 'Em horas as células cerebrais captam eletrólitos e, em 2 a 3 dias, sintetizam osmóis orgânicos (osmóis idiogênicos) que restauram o volume celular. Esses solutos são eliminados lentamente, de modo que a queda brusca da osmolaridade plasmática gera gradiente para a entrada de água e edema.',
     x: { A: 'A barreira hematoencefálica permanece pouco permeável ao sódio.', C: 'A produção de liquor não é o mecanismo de adaptação osmótica neuronal.', D: 'Os neurônios ganham solutos; a perda de potássio agravaria a retração celular.' },
@@ -45,7 +45,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Hipernatremia hipovolêmica',
     e: 'Homem de 72 anos com diarreia e vômitos há 6 dias chega com pressão arterial de 76 x 40 mmHg, frequência cardíaca de 128 bpm, extremidades frias e sódio de 158 mEq/L. A solução inicial indicada é:',
-    o: ['Solução glicosada a 5%', 'Solução salina a 0,9% até a estabilização hemodinâmica, seguida de solução hipotônica', 'Solução salina a 0,45% em infusão lenta', 'Água por sonda nasogástrica'],
+    o: ['Solução glicosada a 5%, em grande volume', 'Salina 0,9% até estabilizar, depois solução hipotônica', 'Salina 0,45% em infusão lenta, desde o início', 'Água por sonda nasogástrica, em grande volume'],
     g: 'B',
     c: 'A prioridade no choque é restaurar a perfusão, e apenas soluções isotônicas permanecem no extracelular em quantidade suficiente. A salina a 0,9% (154 mEq/L) ainda é hipotônica em relação ao plasma do paciente e não agrava a hipernatremia. Estabilizado o paciente, corrige-se o déficit de água com soluções hipotônicas.',
     x: { A: 'A solução glicosada se distribui por toda a água corporal e expande pouco o intravascular.', C: 'A salina a 0,45% é opção para a segunda fase, após reverter o choque.', D: 'A via enteral é inadequada em paciente chocado e com vômitos.' },
@@ -53,7 +53,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Hipernatremia hipervolêmica',
     e: 'Paciente em parada cardiorrespiratória prolongada recebeu 10 ampolas de bicarbonato de sódio a 8,4%. Horas depois apresenta sódio de 159 mEq/L, edema pulmonar e turgência jugular. O tratamento da hipernatremia nesse cenário é:',
-    o: ['Solução salina a 0,45% em grande volume', 'Diurético de alça associado à reposição de água livre', 'Desmopressina intranasal', 'Restrição hídrica isolada'],
+    o: ['Salina 0,45% em grande volume, por via venosa', 'Diurético de alça com reposição de água livre', 'Desmopressina intranasal, em dose habitual', 'Restrição hídrica isolada, sem outras medidas'],
     g: 'B',
     c: 'Trata-se de hipernatremia por ganho de sódio, com expansão do volume extracelular. É preciso eliminar o sódio com diurético de alça e repor a água perdida com solução glicosada a 5% ou água enteral. Se houver insuficiência renal, a diálise é a alternativa.',
     x: { A: 'A salina a 0,45% acrescenta sódio e volume a um paciente já hipervolêmico.', C: 'Não há deficiência de ADH; a desmopressina não remove o sódio em excesso.', D: 'Restringir água agravaria a hipertonicidade plasmática.' },
@@ -61,7 +61,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Hipernatremia aguda grave',
     e: 'Na hipernatremia aguda e grave, a complicação neurológica decorrente da retração do volume cerebral é:',
-    o: ['Hidrocefalia obstrutiva', 'Hemorragia intracraniana por ruptura de veias-ponte', 'Mielinólise pontina', 'Hipertensão intracraniana por edema citotóxico'],
+    o: ['Hidrocefalia obstrutiva, por edema cerebral', 'Hemorragia intracraniana por ruptura de veias-ponte', 'Mielinólise pontina, por correção lenta demais', 'Hipertensão intracraniana por edema citotóxico'],
     g: 'B',
     c: 'A hipertonicidade aguda retira água dos neurônios e o encéfalo encolhe, tracionando as veias que o ligam à dura-máter. A ruptura dessas veias causa hemorragia subdural, subaracnóidea ou intraparenquimatosa, especialmente em lactentes e idosos.',
     x: { A: 'Não há obstrução ao fluxo liquórico na hipernatremia aguda.', C: 'A mielinólise é típica da correção rápida da hiponatremia crônica.', D: 'O edema cerebral aparece na correção rápida, não na instalação do distúrbio.' },
@@ -85,7 +85,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Diabetes insipidus central',
     e: 'Mulher de 44 anos, no 1º dia após ressecção transesfenoidal de macroadenoma hipofisário, apresenta diurese de 450 mL por hora, sede intensa, sódio de 149 mEq/L e osmolaridade urinária de 110 mOsm/kg. O diagnóstico e o tratamento são:',
-    o: ['SIADH; restrição hídrica', 'Diabetes insipidus central; desmopressina e reposição de água livre', 'Diurese osmótica por manitol; observação', 'Síndrome cerebral perdedora de sal; salina hipertônica'],
+    o: ['SIADH; restrição hídrica, em 24 horas', 'DI central; desmopressina e reposição de água livre', 'Diurese osmótica por manitol; observação clínica', 'Síndrome cerebral perdedora de sal; salina hipertônica'],
     g: 'B',
     c: 'A lesão da haste ou da neuro-hipófise interrompe a liberação de ADH, e o rim elimina grande volume de urina diluída enquanto o sódio plasmático sobe. A desmopressina, análogo seletivo do receptor V2, repõe o hormônio; a água livre é ofertada por via oral ou venosa conforme a sede e o sódio.',
     x: { A: 'A SIADH causa hiponatremia com urina concentrada e baixo débito urinário.', C: 'Na diurese osmótica a osmolaridade urinária estaria acima de 300 mOsm/kg.', D: 'A perdedora de sal cursa com hiponatremia e sódio urinário elevado.' },
@@ -93,7 +93,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Teste de restrição hídrica',
     e: 'Paciente com poliúria de 8 litros por dia é submetido ao teste de restrição hídrica. Ao final, o sódio é de 147 mEq/L e a osmolaridade urinária de 160 mOsm/kg. Após desmopressina, a osmolaridade urinária sobe para 520 mOsm/kg. A interpretação é:',
-    o: ['Polidipsia primária', 'Diabetes insipidus central completo', 'Diabetes insipidus nefrogênico completo', 'Diurese osmótica'],
+    o: ['Polidipsia primária, com osmolaridade urinária baixa', 'DI central completo, com resposta à desmopressina', 'DI nefrogênico completo, sem resposta à desmopressina', 'Diurese osmótica, com osmolaridade urinária alta'],
     g: 'B',
     c: 'A incapacidade de concentrar a urina apesar da hipertonicidade plasmática confirma diabetes insipidus. O aumento superior a 50% da osmolaridade urinária após desmopressina mostra que o rim responde ao hormônio e que o defeito está na produção, ou seja, forma central completa.',
     x: { A: 'Na polidipsia primária a urina concentra com a restrição, antes da desmopressina.', C: 'Na forma nefrogênica completa não há resposta significativa à desmopressina.', D: 'A diurese osmótica cursa com urina de osmolaridade elevada desde o início.' },
@@ -101,7 +101,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Diabetes insipidus nefrogênico',
     e: 'Homem de 39 anos com transtorno bipolar, em uso de lítio há 8 anos, queixa-se de poliúria e noctúria. Após restrição hídrica a osmolaridade urinária é de 190 mOsm/kg e sobe para 205 mOsm/kg com desmopressina. O mecanismo envolvido é:',
-    o: ['Destruição dos núcleos supraóptico e paraventricular', 'Redução da expressão de aquaporina-2 nas células principais do ducto coletor', 'Inibição da sede no hipotálamo', 'Aumento da degradação do ADH por vasopressinase'],
+    o: ['Destruição dos núcleos supraóptico e paraventricular', 'Menor expressão de aquaporina-2 nas células principais', 'Inibição da sede no hipotálamo, por lesão central', 'Maior degradação do ADH por vasopressinase'],
     g: 'B',
     c: 'O lítio entra nas células principais pelo canal epitelial de sódio e interfere na via do AMP cíclico, reduzindo a inserção de aquaporina-2 na membrana apical. O resultado é resistência ao ADH, demonstrada pela ausência de resposta à desmopressina. A amilorida bloqueia a entrada do lítio e pode atenuar o quadro.',
     x: { A: 'Lesão hipotalâmica causaria a forma central, que responde à desmopressina.', C: 'A sede está preservada e é o que evita a hipernatremia nesses pacientes.', D: 'A vasopressinase é o mecanismo do diabetes insipidus gestacional.' },
@@ -117,7 +117,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento do DI nefrogênico',
     e: 'No tratamento do diabetes insipidus nefrogênico, a medida que reduz o volume urinário de forma aparentemente paradoxal é:',
-    o: ['Desmopressina em dose habitual', 'Diurético tiazídico associado à dieta hipossódica', 'Furosemida em altas doses', 'Aumento da ingestão de proteínas'],
+    o: ['Desmopressina em dose habitual, por via nasal', 'Tiazídico com dieta hipossódica, para reduzir a diurese', 'Furosemida em altas doses, por via venosa', 'Aumento da ingestão de proteínas e de sal'],
     g: 'B',
     c: 'O tiazídico com restrição de sal provoca leve contração de volume, o que aumenta a reabsorção proximal de sódio e água e reduz o aporte de fluido aos segmentos distais dependentes de ADH. Anti-inflamatórios como a indometacina também ajudam, pois as prostaglandinas antagonizam o ADH. A dieta pobre em solutos diminui a carga a ser excretada.',
     x: { A: 'O rim é resistente ao ADH, de modo que a dose habitual de desmopressina é ineficaz.', C: 'A furosemida dissipa o gradiente medular e piora a concentração urinária.', D: 'Mais proteína aumenta a carga de ureia e o volume urinário obrigatório.' },
@@ -125,7 +125,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Polidipsia primária x DI',
     e: 'Na investigação de poliúria com urina diluída, o achado basal que mais sugere polidipsia primária em vez de diabetes insipidus é:',
-    o: ['Sódio plasmático de 146 mEq/L', 'Sódio plasmático no limite inferior ou abaixo do normal, como 134 mEq/L', 'Noctúria intensa com preferência por água gelada', 'Início abrupto dos sintomas'],
+    o: ['Sódio plasmático de 146 mEq/L, no limite superior', 'Sódio plasmático baixo ou limítrofe, como 134 mEq/L', 'Noctúria intensa com preferência por água gelada', 'Início abrupto dos sintomas, com poliúria diária'],
     g: 'B',
     c: 'Na polidipsia primária o evento inicial é o excesso de água, que dilui o plasma e suprime o ADH; o sódio fica baixo-normal. No diabetes insipidus o evento inicial é a perda de água, e o sódio fica alto-normal, pois a sede é quem compensa. No teste de restrição, o polidípsico concentra a urina.',
     x: { A: 'Sódio alto-normal indica perda primária de água, própria do diabetes insipidus.', C: 'Noctúria e avidez por água gelada são típicas do diabetes insipidus central.', D: 'Início súbito é característico da forma central do diabetes insipidus.' },
@@ -133,7 +133,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'DI gestacional',
     e: 'Gestante de 32 semanas, com gestação gemelar, desenvolve poliúria de 7 litros por dia e sódio de 147 mEq/L, com urina diluída. O mecanismo desse distúrbio e o tratamento são:',
-    o: ['Resistência renal ao ADH; tiazídico', 'Degradação do ADH por vasopressinase placentária; desmopressina', 'Lesão isquêmica da hipófise; reposição de corticoide', 'Hiperglicemia gestacional; insulina'],
+    o: ['Resistência renal ao ADH; tiazídico, por via oral', 'Vasopressinase placentária degrada o ADH; desmopressina', 'Lesão isquêmica da hipófise; corticoide, em reposição', 'Hiperglicemia gestacional; insulina, em dose habitual'],
     g: 'B',
     c: 'A placenta produz vasopressinase, enzima que degrada o ADH endógeno; a atividade é maior em gestações múltiplas e quando há disfunção hepática, que reduz sua depuração. A desmopressina é resistente à enzima e é o tratamento de escolha. O quadro regride semanas após o parto.',
     x: { A: 'O rim responde normalmente ao hormônio; o defeito é sua degradação acelerada.', C: 'A síndrome de Sheehan ocorre no puerpério após hemorragia, não na gestação.', D: 'A glicosúria causaria diurese osmótica, com urina de osmolaridade elevada.' },
@@ -157,7 +157,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Composição do Ringer lactato',
     e: 'Sobre o Ringer lactato, é correto afirmar:',
-    o: ['Não contém potássio, sendo a solução de escolha na hipercalemia grave', 'Contém sódio 130, cloro 109, potássio 4, cálcio 3 e lactato 28 mEq/L, sendo discretamente hipotônico', 'Tem osmolaridade de 308 mOsm/L e 154 mEq/L de cloro', 'O lactato da solução causa acidose láctica em pacientes com função hepática normal'],
+    o: ['Sem potássio: solução de escolha na hipercalemia grave', 'Na 130, Cl 109, K 4, Ca 3 e lactato 28 mEq/L; discretamente hipotônica', 'Osmolaridade de 308 mOsm/L e 154 mEq/L de cloro', 'O lactato causa acidose láctica com fígado normal'],
     g: 'B',
     c: 'O Ringer lactato é uma solução balanceada, com osmolaridade em torno de 273 mOsm/L e menor teor de cloro que a salina. O lactato é metabolizado no fígado gerando bicarbonato, de modo que a solução tem efeito alcalinizante. Por ser levemente hipotônico, é evitado em pacientes com hipertensão intracraniana.',
     x: { A: 'O Ringer lactato contém 4 mEq/L de potássio em sua composição.', C: 'Esses são os valores da solução salina a 0,9%.', D: 'O lactato de sódio é convertido em bicarbonato e não provoca acidose.' },
@@ -165,7 +165,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Acidose hiperclorêmica',
     e: 'Mulher de 36 anos com sepse abdominal recebe 6 litros de solução salina a 0,9% em 12 horas. A gasometria mostra pH 7,28, bicarbonato 17 mEq/L, sódio 142 mEq/L, cloro 115 mEq/L e lactato normal. O distúrbio é:',
-    o: ['Acidose metabólica com ânion gap elevado por hipoperfusão', 'Acidose metabólica hiperclorêmica com ânion gap normal induzida pela salina', 'Alcalose metabólica de contração', 'Acidose respiratória aguda'],
+    o: ['Acidose com ânion gap elevado por hipoperfusão', 'Acidose hiperclorêmica com ânion gap normal, pela salina', 'Alcalose metabólica de contração por perda de volume', 'Acidose respiratória aguda, por hipoventilação'],
     g: 'B',
     c: 'O ânion gap é 142 - (115 + 17) = 10, portanto normal. A infusão de grande volume de solução sem bicarbonato e rica em cloro dilui o bicarbonato plasmático e eleva o cloro. A hipercloremia ainda causa vasoconstrição da arteríola aferente, e por isso as soluções balanceadas são preferidas em grandes reposições.',
     x: { A: 'O ânion gap calculado é 10 e o lactato é normal, o que afasta acidose láctica.', C: 'O bicarbonato e o pH estão baixos, o contrário de uma alcalose.', D: 'O distúrbio primário é a queda do bicarbonato, não a retenção de gás carbônico.' },
@@ -181,7 +181,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Avaliação da hipovolemia',
     e: 'Homem de 63 anos com vômitos há 4 dias apresenta hipotensão postural e creatinina de 1,9 mg/dL (basal de 0,9). O conjunto de achados que confirma lesão renal pré-renal por depleção de volume é:',
-    o: ['Sódio urinário de 60 mEq/L e fração de excreção de sódio de 3%', 'Sódio urinário menor que 20 mEq/L, fração de excreção de sódio menor que 1% e relação ureia/creatinina maior que 40', 'Osmolaridade urinária de 290 mOsm/kg e cilindros granulosos', 'Densidade urinária de 1.010 e fração de excreção de ureia de 60%'],
+    o: ['Na urinário 60 mEq/L e FENa de 3%, com cilindros granulosos', 'Na urinário < 20, FENa < 1% e ureia/creatinina > 40', 'Osm urinária de 290 mOsm/kg e cilindros granulosos', 'Densidade de 1.010 e fração de excreção de ureia de 60%'],
     g: 'B',
     c: 'Na hipovolemia o rim íntegro responde com ativação do sistema renina-angiotensina-aldosterona e do ADH, retendo sódio e água: urina concentrada, pobre em sódio. A reabsorção proximal aumentada de ureia eleva a relação ureia/creatinina. Atenção: nos vômitos com bicarbonatúria o cloro urinário baixo é marcador mais fiel.',
     x: { A: 'Sódio urinário alto e fração de excreção acima de 2% indicam necrose tubular.', C: 'Isostenúria com cilindros granulosos sugere lesão tubular estabelecida.', D: 'Fração de excreção de ureia acima de 50% fala contra causa pré-renal.' },
@@ -189,7 +189,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Cristaloides x coloides',
     e: 'Na ressuscitação volêmica de pacientes com sepse, a respeito da escolha do fluido, a afirmação correta é:',
-    o: ['Os amidos (hidroxietilamido) são preferidos por reduzirem a mortalidade', 'Os cristaloides são a primeira escolha, e os amidos devem ser evitados por aumentarem lesão renal e mortalidade', 'A albumina é obrigatória como fluido inicial em todos os pacientes', 'A solução glicosada a 5% é a opção mais eficaz para expansão'],
+    o: ['Amidos (hidroxietilamido), preferidos por reduzir a mortalidade', 'Cristaloides primeiro; amidos evitados (lesão renal, mortalidade)', 'Albumina obrigatória como fluido inicial em todos', 'Glicosada 5%, a opção mais eficaz para expansão'],
     g: 'B',
     c: 'Os cristaloides, de preferência balanceados, são a primeira linha por terem eficácia semelhante à dos coloides, com menor custo. Ensaios clínicos mostraram que o hidroxietilamido aumenta a necessidade de terapia renal substitutiva e a mortalidade na sepse. A albumina pode ser considerada quando são necessários grandes volumes de cristaloide.',
     x: { A: 'Os amidos se associam a mais lesão renal e maior mortalidade na sepse.', C: 'A albumina é opção adicional em casos selecionados, não fluido inicial obrigatório.', D: 'A solução glicosada praticamente não expande o compartimento intravascular.' },
@@ -197,7 +197,7 @@ export const ELETROLITOS_2: QuestaoCompacta[] = [
   {
     s: 'Reposição do déficit de água',
     e: 'Mulher de 60 kg, hemodinamicamente estável, com sódio de 154 mEq/L há vários dias por baixa ingestão de água. Usando água corporal de 50% do peso e meta de 140 mEq/L, o déficit de água livre e a forma de reposição adequada são:',
-    o: ['1 litro, em bolus de solução salina a 0,9%', '3 litros, repostos gradualmente em 48 horas ou mais com água enteral ou solução glicosada a 5%', '6 litros, repostos em 6 horas com solução glicosada', '3 litros, repostos em 2 horas com solução salina a 0,45%'],
+    o: ['1 litro, em bolus de solução salina a 0,9%', '3 litros, em 48 h ou mais, com água enteral ou glicosada 5%', '6 litros, em 6 horas, com solução glicosada', '3 litros, em 2 horas, com solução salina a 0,45%'],
     g: 'B',
     c: 'A água corporal é 0,5 x 60 = 30 litros, e o déficit é 30 x (154/140 - 1) = 30 x 0,1 = 3 litros. Como a hipernatremia é crônica, a correção deve respeitar a queda máxima de 10 a 12 mEq/L por dia, somando-se as perdas em curso. A via enteral é a preferida quando disponível.',
     x: { A: 'O déficit calculado é de 3 litros, e a salina isotônica não fornece água livre suficiente.', C: 'O valor de 6 litros está errado, e 6 horas é tempo curto demais.', D: 'Repor 3 litros em 2 horas causaria queda brusca do sódio e edema cerebral.' },

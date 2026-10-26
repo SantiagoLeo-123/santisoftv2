@@ -5,7 +5,7 @@ export const ACIDO_BASE_1: QuestaoCompacta[] = [
   {
     s: 'Sistemas tampão',
     e: 'O principal sistema tampão do líquido extracelular, responsável pela defesa imediata contra variações do pH e avaliado na gasometria arterial, é:',
-    o: ['Fosfato monobásico/dibásico', 'Bicarbonato/ácido carbônico (CO2)', 'Amônia/amônio', 'Hemoglobina/oxi-hemoglobina'],
+    o: ['Fosfato monobásico/dibásico', 'Bicarbonato/ácido carbônico (CO2)', 'Amônia/amônio, no túbulo', 'Hemoglobina/oxi-hemoglobina'],
     g: 'B',
     c: 'O sistema bicarbonato/CO2 é o tampão extracelular mais importante porque está em alta concentração e é um sistema aberto: o CO2 é regulado pelos pulmões e o bicarbonato pelos rins. Por isso seus dois componentes podem ser ajustados de forma independente, o que multiplica sua capacidade de tamponamento.',
     x: { A: 'O fosfato é tampão relevante no intracelular e na urina, mas tem baixa concentração no plasma.', C: 'O sistema amônia/amônio atua na excreção renal de ácido, não como tampão plasmático.', D: 'A hemoglobina é o principal tampão não bicarbonato do sangue, dentro da hemácia, e não do extracelular.' },
@@ -21,7 +21,7 @@ export const ACIDO_BASE_1: QuestaoCompacta[] = [
   {
     s: 'Tempo das compensações',
     e: 'Sobre a velocidade das respostas compensatórias aos distúrbios ácido-básicos, assinale a alternativa correta:',
-    o: ['A compensação renal é imediata, e a respiratória leva dias', 'A compensação respiratória começa em minutos, e a renal se completa em 3 a 5 dias', 'Ambas as compensações se completam em poucos minutos', 'A compensação renal só ocorre nos distúrbios metabólicos'],
+    o: ['A compensação renal é imediata; a respiratória leva dias', 'A respiratória começa em minutos; a renal leva 3 a 5 dias', 'Ambas as compensações se completam em poucos minutos', 'A compensação renal só ocorre nos distúrbios metabólicos'],
     g: 'B',
     c: 'Os quimiorreceptores respondem rapidamente à variação do pH, de modo que a ventilação se ajusta em minutos a horas diante de um distúrbio metabólico. Já o rim precisa aumentar ou reduzir a excreção de ácido e a reabsorção de bicarbonato, processo que leva de 3 a 5 dias; por isso os distúrbios respiratórios são divididos em agudos e crônicos.',
     x: { A: 'É o inverso: o pulmão responde rápido, e o rim é o mecanismo lento.', C: 'A adaptação renal exige dias para atingir seu efeito máximo.', D: 'O rim compensa justamente os distúrbios respiratórios; os metabólicos são compensados pelo pulmão.' },
@@ -53,7 +53,7 @@ export const ACIDO_BASE_1: QuestaoCompacta[] = [
   {
     s: 'Passo a passo',
     e: 'Na interpretação sistematizada de uma gasometria arterial, o primeiro passo após confirmar a coerência da amostra é:',
-    o: ['Calcular o ânion gap', 'Avaliar o pH para definir se há acidemia ou alcalemia', 'Calcular a resposta compensatória esperada', 'Calcular a relação delta/delta'],
+    o: ['Calcular o ânion gap sérico', 'Avaliar o pH: acidemia ou alcalemia', 'Calcular a compensação esperada', 'Calcular a relação delta/delta'],
     g: 'B',
     c: 'A sequência clássica é: olhar o pH (acidemia ou alcalemia), identificar o distúrbio primário comparando pCO2 e bicarbonato, verificar se a compensação é a esperada e, havendo acidose metabólica, calcular o ânion gap e o delta/delta. O pH indica qual distúrbio predomina, pois a compensação não o normaliza por completo.',
     x: { A: 'O ânion gap é calculado depois de identificada a acidose metabólica (ou em toda gasometria, mas não como primeiro passo).', C: 'A compensação só pode ser calculada depois de definido o distúrbio primário.', D: 'O delta/delta só se aplica às acidoses com ânion gap aumentado.' },
@@ -77,7 +77,7 @@ export const ACIDO_BASE_1: QuestaoCompacta[] = [
   {
     s: 'pH normal e distúrbio misto',
     e: 'Paciente apresenta gasometria arterial com pH 7,40; pCO2 20 mmHg; bicarbonato 12 mEq/L. A melhor interpretação é:',
-    o: ['Gasometria normal, já que o pH está em 7,40', 'Distúrbio misto: acidose metabólica com alcalose respiratória', 'Acidose metabólica totalmente compensada', 'Alcalose respiratória aguda simples'],
+    o: ['Gasometria normal, já que o pH está em 7,40 mmHg', 'Distúrbio misto: acidose metabólica e alcalose respiratória', 'Acidose metabólica totalmente compensada pelo pulmão', 'Alcalose respiratória aguda simples, sem outro distúrbio'],
     g: 'B',
     c: 'pH normal com pCO2 e bicarbonato claramente alterados indica dois distúrbios primários que se anulam, pois a compensação fisiológica não traz o pH a 7,40. Para bicarbonato de 12, a pCO2 esperada seria 26 (24 a 28) mmHg; o valor de 20 revela alcalose respiratória associada.',
     x: { A: 'pH normal não exclui distúrbio: pCO2 e bicarbonato estão muito alterados.', C: 'A compensação respiratória não normaliza o pH; a pCO2 esperada seria 26 mmHg.', D: 'Na alcalose respiratória aguda com pCO2 de 20 o bicarbonato esperado seria cerca de 20, não 12.' },
@@ -173,7 +173,7 @@ export const ACIDO_BASE_1: QuestaoCompacta[] = [
   {
     s: 'Excesso de base',
     e: 'Sobre o excesso de base (base excess) fornecido pela gasometria, é correto afirmar:',
-    o: ['Valores negativos indicam alcalose metabólica', 'Valores abaixo de -3 mEq/L indicam déficit de base, compatível com acidose metabólica', 'Seu valor normal varia de -10 a +10 mEq/L', 'Avalia exclusivamente o componente respiratório'],
+    o: ['Valores negativos indicam alcalose metabólica', 'Abaixo de -3 mEq/L é déficit de base: acidose metabólica', 'Seu valor normal varia de -10 a +10 mEq/L', 'Avalia exclusivamente o componente respiratório'],
     g: 'B',
     c: 'O excesso de base estima a quantidade de ácido ou base necessária para levar o sangue a pH 7,40 com pCO2 de 40 mmHg, refletindo o componente metabólico. O normal é de -3 a +3 mEq/L; valores mais negativos indicam acidose metabólica (ou compensação de alcalose respiratória crônica) e valores positivos, acúmulo de base.',
     x: { A: 'Valores negativos representam déficit de base, e não excesso.', C: 'A faixa normal é estreita, em torno de -3 a +3 mEq/L.', D: 'Por ser calculado com pCO2 fixa em 40, o excesso de base reflete o componente metabólico.' },
@@ -181,7 +181,7 @@ export const ACIDO_BASE_1: QuestaoCompacta[] = [
   {
     s: 'Acidemia x acidose',
     e: 'A distinção correta entre os termos acidemia e acidose é:',
-    o: ['São sinônimos e podem ser usados indistintamente', 'Acidemia é pH sanguíneo abaixo de 7,35; acidose é o processo que tende a reduzir o pH', 'Acidemia é o processo fisiopatológico; acidose é o pH baixo', 'Acidose só existe quando o pH está abaixo de 7,35'],
+    o: ['São sinônimos e podem ser usados indistintamente', 'Acidemia: pH < 7,35; acidose: processo que tende a reduzi-lo', 'Acidemia é o processo; acidose é o pH baixo', 'Acidose só existe quando o pH está abaixo de 7,35'],
     g: 'B',
     c: 'Acidemia e alcalemia descrevem o pH efetivamente medido no sangue. Acidose e alcalose são os processos que tendem a baixar ou elevar o pH, e podem coexistir; por isso um paciente pode ter acidose metabólica e alcalose respiratória com pH normal.',
     x: { A: 'Os termos têm significados diferentes, o que é essencial para entender os distúrbios mistos.', C: 'As definições estão trocadas nessa alternativa.', D: 'Pode haver acidose com pH normal ou alto se houver uma alcalose associada.' },

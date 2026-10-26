@@ -53,7 +53,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Metabolismo do ferro',
     e: 'A absorção do ferro da dieta ocorre predominantemente em qual segmento do trato digestivo?',
-    o: ['Íleo terminal', 'Duodeno e jejuno proximal', 'Estômago', 'Cólon ascendente'],
+    o: ['Íleo terminal e cólon ascendente', 'Duodeno e jejuno proximal', 'Estômago e piloro, na região antral', 'Cólon ascendente e ceco, na porção inicial'],
     g: 'B',
     c: 'O ferro é absorvido no duodeno e no jejuno proximal, onde o ferro não heme é reduzido à forma ferrosa e captado pelo transportador DMT1, sendo exportado para o plasma pela ferroportina. Por isso doenças como a doença celíaca e cirurgias que excluem o duodeno, como o bypass gástrico, causam ferropenia.',
     x: { A: 'O íleo terminal é o local de absorção da vitamina B12 e dos sais biliares.', C: 'O estômago contribui com o ácido que solubiliza o ferro, mas não é o local de absorção.', D: 'O cólon não tem papel relevante na absorção de ferro.' },
@@ -61,7 +61,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Hepcidina',
     e: 'A hepcidina é o principal hormônio regulador da homeostase do ferro. Seu mecanismo de ação é:',
-    o: ['Aumentar a expressão de DMT1 no enterócito, elevando a absorção de ferro', 'Ligar-se à ferroportina e promover sua degradação, reduzindo a saída de ferro de enterócitos e macrófagos', 'Estimular a síntese de transferrina pelo fígado', 'Bloquear o receptor de transferrina nos eritroblastos'],
+    o: ['Aumentar a expressão de DMT1, elevando a absorção de ferro', 'Ligar-se à ferroportina e promover sua degradação', 'Estimular a síntese de transferrina pelo fígado', 'Bloquear o receptor de transferrina nos eritroblastos'],
     g: 'B',
     c: 'A hepcidina, produzida pelo fígado, liga-se à ferroportina, único exportador celular de ferro, e induz sua internalização e degradação. Com isso o ferro fica retido nos enterócitos (menos absorção) e nos macrófagos (menos reciclagem), reduzindo o ferro sérico. Sua síntese aumenta com sobrecarga de ferro e inflamação (IL-6) e diminui na ferropenia, na hipóxia e na eritropoese acelerada.',
     x: { A: 'A hepcidina reduz, e não aumenta, a absorção intestinal de ferro.', C: 'A transferrina aumenta na ferropenia por mecanismo independente da hepcidina.', D: 'A hepcidina não atua sobre o receptor de transferrina, e sim sobre a ferroportina.' },
@@ -77,7 +77,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Ferropriva — causas por faixa etária',
     e: 'Lactente de 14 meses, nascido a termo, recebeu aleitamento materno até os 4 meses e desde então ingere cerca de 1 litro de leite de vaca integral por dia, com pouca aceitação de outros alimentos. Está pálido e irritado. Hemoglobina 8,2 g/dL, VCM 62 fL, RDW 19%. O principal mecanismo da anemia é:',
-    o: ['Hemólise induzida pelas proteínas do leite de vaca', 'Baixa oferta e baixa biodisponibilidade de ferro, associadas a micro-hemorragias intestinais', 'Deficiência de vitamina B12 por dieta láctea exclusiva', 'Defeito hereditário na síntese de cadeias de globina'],
+    o: ['Hemólise induzida pelas proteínas do leite de vaca', 'Pouco ferro, baixa biodisponibilidade e micro-hemorragias', 'Deficiência de vitamina B12 por dieta láctea exclusiva', 'Defeito hereditário na síntese das cadeias de globina'],
     g: 'B',
     c: 'O leite de vaca tem pouco ferro e de baixa biodisponibilidade, desloca alimentos ricos em ferro e pode causar perda oculta de sangue por enteropatia em lactentes. Somado ao crescimento acelerado, que eleva a demanda, isso faz do consumo excessivo de leite de vaca a causa clássica de ferropenia entre 6 e 24 meses.',
     x: { A: 'O leite de vaca não provoca hemólise; a perda, quando ocorre, é por sangramento intestinal.', C: 'O leite contém vitamina B12 e o quadro é microcítico, não macrocítico.', D: 'RDW elevado e história alimentar típica apontam para ferropenia, não para talassemia.' },
@@ -109,7 +109,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Ferritina',
     e: 'Sobre a ferritina sérica na avaliação das anemias, assinale a afirmativa correta:',
-    o: ['Valor normal exclui deficiência de ferro em qualquer contexto clínico', 'Valor baixo é altamente específico de deficiência de ferro, mas valor normal ou alto não a exclui na presença de inflamação', 'Ela reflete o ferro circulante ligado à transferrina', 'Ela diminui nas doenças inflamatórias, hepáticas e neoplásicas'],
+    o: ['Valor normal exclui deficiência de ferro em qualquer contexto', 'Baixa é específica de ferropenia; normal ou alta não exclui, na inflamação', 'Ela reflete o ferro circulante ligado à transferrina', 'Ela diminui nas doenças inflamatórias, hepáticas e neoplásicas'],
     g: 'B',
     c: 'A ferritina reflete os estoques de ferro e, quando baixa, praticamente confirma ferropenia. Entretanto é uma proteína de fase aguda e se eleva em inflamação, infecção, hepatopatia e câncer, podendo mascarar a deficiência. Nesses contextos, usam-se pontos de corte mais altos e a saturação de transferrina para identificar ferropenia associada.',
     x: { A: 'Em estados inflamatórios a ferritina pode estar normal mesmo com estoques vazios.', C: 'O ferro circulante é avaliado pelo ferro sérico e pela saturação de transferrina.', D: 'Nessas condições a ferritina aumenta, pois é reagente de fase aguda.' },
@@ -133,7 +133,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Ferropriva — resposta ao tratamento',
     e: 'Após o início da reposição adequada de ferro em paciente com anemia ferropriva, o primeiro parâmetro laboratorial a demonstrar resposta é:',
-    o: ['Normalização da ferritina em 1 semana', 'Aumento dos reticulócitos, com pico entre 5 e 10 dias', 'Normalização do VCM em 3 dias', 'Aumento da hemoglobina em 48 horas'],
+    o: ['Normalização da ferritina em 1 semana de ferro', 'Aumento dos reticulócitos, com pico em 5 a 10 dias', 'Normalização do VCM em 3 dias de ferro', 'Aumento da hemoglobina em 48 horas de ferro'],
     g: 'B',
     c: 'Com a oferta de ferro, a medula retoma a eritropoese e os reticulócitos sobem em poucos dias, atingindo o pico entre o quinto e o décimo dia. A hemoglobina começa a subir depois, em torno de 2 semanas, e a ferritina é a última a se normalizar, o que justifica prolongar o tratamento.',
     x: { A: 'A ferritina é o último parâmetro a se recuperar, levando meses.', C: 'O VCM normaliza lentamente, à medida que as hemácias microcíticas são substituídas.', D: 'A hemoglobina leva cerca de duas semanas para mostrar elevação perceptível.' },
@@ -157,7 +157,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Anemia de doença crônica — fisiopatologia',
     e: 'O principal mecanismo fisiopatológico da anemia de doença crônica (anemia da inflamação) é:',
-    o: ['Perda crônica de sangue pelo trato digestivo induzida por citocinas', 'Aumento da hepcidina induzido por IL-6, com retenção de ferro nos macrófagos e menor absorção intestinal', 'Destruição autoimune dos precursores eritroides', 'Deficiência absoluta de ferro por baixa ingestão durante a doença'],
+    o: ['Perda crônica de sangue pelo trato digestivo, por citocinas', 'Hepcidina elevada por IL-6: ferro retido nos macrófagos', 'Destruição autoimune dos precursores eritroides', 'Deficiência absoluta de ferro por baixa ingestão'],
     g: 'B',
     c: 'A inflamação eleva a IL-6, que estimula o fígado a produzir hepcidina. Esta degrada a ferroportina e aprisiona o ferro no sistema reticuloendotelial, criando deficiência funcional: há ferro no organismo, mas ele não chega ao eritroblasto. Somam-se a isso a produção relativamente baixa de eritropoetina, a menor resposta medular a ela e uma discreta redução da sobrevida das hemácias.',
     x: { A: 'Não há perda sanguínea como mecanismo; os estoques de ferro estão preservados ou aumentados.', C: 'Destruição imune de precursores caracteriza a aplasia pura de série vermelha.', D: 'A deficiência é funcional, por sequestro, e não absoluta por falta de ingestão.' },
@@ -173,7 +173,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Doença crônica x ferropriva',
     e: 'Qual parâmetro é mais útil para diferenciar a anemia ferropriva da anemia de doença crônica?',
-    o: ['Ferro sérico, baixo apenas na ferropriva', 'Ferritina e TIBC: ferritina baixa e TIBC alto na ferropriva; ferritina normal ou alta e TIBC baixo na doença crônica', 'Hemoglobina, sempre abaixo de 7 g/dL na doença crônica', 'Contagem de reticulócitos, elevada na doença crônica'],
+    o: ['Ferro sérico, baixo apenas na ferropriva, e normal na doença crônica', 'Ferritina baixa e TIBC alto na ferropriva; o inverso na doença crônica', 'Hemoglobina, sempre abaixo de 7 g/dL na doença crônica', 'Reticulócitos, elevados na doença crônica e normais na ferropriva'],
     g: 'B',
     c: 'As duas anemias têm ferro sérico baixo, de modo que ele não as distingue. A diferença está nos estoques e na transferrina: na ferropriva os estoques estão vazios (ferritina baixa) e a transferrina sobe (TIBC alto); na doença crônica o ferro está retido (ferritina normal ou alta) e a transferrina cai (TIBC baixo). O receptor solúvel de transferrina, elevado apenas na ferropenia, ajuda nos casos duvidosos.',
     x: { A: 'O ferro sérico está baixo nas duas condições e por isso não as diferencia.', C: 'A anemia de doença crônica costuma ser leve a moderada, raramente abaixo de 8 g/dL.', D: 'Ambas são hipoproliferativas, com reticulócitos baixos.' },
@@ -189,7 +189,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Ferropriva — síndrome de Plummer-Vinson',
     e: 'Mulher de 55 anos com anemia ferropriva de longa data queixa-se de disfagia alta para sólidos. O esofagograma mostra membrana fina no esôfago cervical. Sobre essa condição, é correto afirmar:',
-    o: ['Trata-se de acalasia secundária à ferropenia', 'Trata-se da síndrome de Plummer-Vinson, associada a maior risco de carcinoma espinocelular de esôfago e hipofaringe', 'A disfagia decorre de compressão extrínseca por bócio', 'A reposição de ferro é contraindicada até a dilatação endoscópica'],
+    o: ['Acalasia secundária à ferropenia, com dilatação esofágica', 'Plummer-Vinson: risco de carcinoma espinocelular de esôfago', 'Compressão extrínseca por bócio, sem relação com o ferro', 'Reposição de ferro contraindicada até a dilatação'],
     g: 'B',
     c: 'A tríade de anemia ferropriva, disfagia e membrana esofágica cervical constitui a síndrome de Plummer-Vinson (ou Paterson-Kelly), mais comum em mulheres de meia-idade. A ferropenia crônica leva à atrofia da mucosa, e a condição aumenta o risco de carcinoma espinocelular do esôfago superior e da hipofaringe. O tratamento é a reposição de ferro, com dilatação endoscópica se a disfagia persistir.',
     x: { A: 'A acalasia é distúrbio motor do esôfago distal, sem relação com a ferropenia.', C: 'O exame mostrou membrana intraluminal, e não compressão extrínseca.', D: 'A reposição de ferro é o tratamento inicial e pode melhorar a disfagia.' },
@@ -197,7 +197,7 @@ export const ANEMIAS_1: QuestaoCompacta[] = [
   {
     s: 'Ferropriva — bariátrica',
     e: 'Mulher de 36 anos, submetida a bypass gástrico em Y de Roux há 3 anos, apresenta fadiga, hemoglobina 9,4 g/dL, VCM 70 fL e ferritina 5 ng/mL. Vinha em uso irregular de polivitamínico. Qual mecanismo explica melhor a deficiência de ferro nessa paciente?',
-    o: ['Aumento da hepcidina induzido pela perda de peso', 'Exclusão do duodeno do trânsito alimentar e redução da acidez gástrica', 'Ressecção do íleo terminal', 'Hemólise por deficiência de vitamina E'],
+    o: ['Aumento da hepcidina induzido pela perda de peso', 'Exclusão do duodeno do trânsito e menor acidez gástrica', 'Ressecção do íleo terminal, com déficit de B12', 'Hemólise por deficiência de vitamina E'],
     g: 'B',
     c: 'No bypass gástrico o alimento deixa de passar pelo duodeno e jejuno proximal, principais locais de absorção do ferro, e o pequeno reservatório gástrico produz pouco ácido, necessário para manter o ferro não heme solúvel e reduzi-lo à forma ferrosa. Em mulheres que menstruam, as perdas agravam o quadro, e muitas vezes é necessário ferro intravenoso.',
     x: { A: 'A perda de peso tende a reduzir a inflamação e a hepcidina, não a aumentá-la.', C: 'O íleo terminal não é ressecado no bypass e está relacionado à absorção de B12.', D: 'A ferritina muito baixa indica ferropenia, e não há sinais de hemólise.' },

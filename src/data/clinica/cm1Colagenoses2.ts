@@ -37,7 +37,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Nefrite lúpica: indução',
     e: 'Mulher de 26 anos tem biópsia renal com nefrite lúpica classe IV, creatinina de 1,6 mg/dL e proteinúria de 4 g em 24 horas. O esquema de indução mais adequado é:',
-    o: ['Hidroxicloroquina isolada, com reavaliação em três meses', 'Corticoide (com pulso de metilprednisolona) associado a micofenolato de mofetila ou a ciclofosfamida venosa', 'Azatioprina em monoterapia, sem corticoide', 'Metotrexato semanal associado a anti-inflamatório não esteroide'],
+    o: ['Hidroxicloroquina isolada, com reavaliação em três meses', 'Corticoide (pulso) associado a micofenolato ou ciclofosfamida IV', 'Azatioprina em monoterapia, sem corticoide, por 3 meses', 'Metotrexato semanal associado a AINE, por 3 meses'],
     g: 'B',
     c: 'As nefrites proliferativas (classes III e IV) exigem indução com corticoide, geralmente iniciado com pulsoterapia de metilprednisolona, associado a micofenolato ou ciclofosfamida venosa, que têm eficácia semelhante. O micofenolato poupa a fertilidade, vantagem importante em mulheres jovens. A manutenção é feita com micofenolato ou azatioprina por vários anos.',
     x: { A: 'A hidroxicloroquina deve ser mantida em todos, mas é insuficiente como indução.', C: 'A azatioprina é opção de manutenção, não de indução na nefrite proliferativa.', D: 'O metotrexato tem excreção renal e os anti-inflamatórios pioram a função renal.' },
@@ -45,7 +45,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Nefrite lúpica: medidas adjuvantes',
     e: 'Além da imunossupressão, a medida adjuvante indicada em paciente com nefrite lúpica, proteinúria e hipertensão arterial, por reduzir a pressão intraglomerular e retardar a progressão da lesão renal, é:',
-    o: ['Dieta hiperproteica para repor a albumina perdida', 'Inibidor da enzima conversora de angiotensina ou bloqueador do receptor de angiotensina', 'Anti-inflamatório não esteroide para reduzir a filtração glomerular', 'Suspensão da hidroxicloroquina para proteger o rim'],
+    o: ['Dieta hiperproteica para repor a albumina perdida', 'IECA ou bloqueador do receptor de angiotensina', 'AINE para reduzir a filtração glomerular', 'Suspensão da hidroxicloroquina para proteger o rim'],
     g: 'B',
     c: 'Os bloqueadores do sistema renina-angiotensina dilatam a arteríola eferente, diminuem a pressão intraglomerular e reduzem a proteinúria, com efeito nefroprotetor. Também fazem parte do cuidado o controle pressórico, o tratamento da dislipidemia e a manutenção da hidroxicloroquina, que reduz recidivas renais.',
     x: { A: 'A dieta hiperproteica aumenta a hiperfiltração e piora a proteinúria.', C: 'Anti-inflamatórios causam vasoconstrição aferente e são nefrotóxicos nesse contexto.', D: 'A hidroxicloroquina deve ser mantida, pois reduz surtos e melhora o prognóstico renal.' },
@@ -61,7 +61,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Hidroxicloroquina: toxicidade',
     e: 'Em relação ao principal efeito adverso de longo prazo da hidroxicloroquina e ao seu rastreamento, é correto afirmar:',
-    o: ['Causa catarata subcapsular posterior, rastreada por tonometria anual', 'Causa maculopatia por depósito no epitélio pigmentar da retina, exigindo avaliação oftalmológica basal e periódica', 'Causa neurite óptica reversível, rastreada por teste de cores mensal', 'Causa glaucoma de ângulo fechado, que contraindica o uso acima de dois anos'],
+    o: ['Catarata subcapsular posterior, rastreada por tonometria anual', 'Maculopatia no epitélio pigmentar; oftalmologia basal e periódica', 'Neurite óptica reversível, rastreada por teste de cores mensal', 'Glaucoma de ângulo fechado, que contraindica o uso > 2 anos'],
     g: 'B',
     c: 'A hidroxicloroquina acumula-se no epitélio pigmentar da retina e pode causar maculopatia em olho de boi, irreversível, relacionada à dose diária por peso e ao tempo de uso. Recomenda-se exame oftalmológico no início do tratamento e, depois, periodicamente, com rastreamento anual após cerca de cinco anos de uso ou antes se houver fatores de risco como doença renal. A dose não deve ultrapassar 5 mg/kg de peso real por dia.',
     x: { A: 'Catarata subcapsular posterior e aumento da pressão ocular são efeitos do corticoide.', C: 'A neurite óptica é efeito clássico do etambutol, não da hidroxicloroquina.', D: 'O fármaco não causa glaucoma e pode ser usado por muitos anos com monitorização.' },
@@ -69,7 +69,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento: corticoide',
     e: 'Paciente com lúpus em uso de prednisona 20 mg/dia há oito meses por artrite e lesões cutâneas persistentes não consegue reduzir a dose sem recidiva. A estratégia mais adequada é:',
-    o: ['Manter a dose indefinidamente, pois o controle da doença é o único objetivo', 'Associar um imunossupressor poupador de corticoide, como metotrexato ou azatioprina, e reduzir a prednisona progressivamente', 'Suspender a prednisona de forma abrupta e trocar por anti-inflamatório', 'Substituir a hidroxicloroquina por dexametasona'],
+    o: ['Manter a dose indefinidamente; só o controle da doença importa', 'Associar poupador de corticoide e reduzir a prednisona aos poucos', 'Suspender a prednisona de forma abrupta e trocar por AINE', 'Substituir a hidroxicloroquina por dexametasona em dose baixa'],
     g: 'B',
     c: 'O uso crônico de corticoide é a principal causa de dano acumulado no lúpus, com osteoporose, osteonecrose, catarata, diabetes e infecções. As recomendações atuais orientam reduzir a prednisona para dose baixa de manutenção, idealmente até 5 mg/dia, ou suspendê-la, usando imunossupressores como poupadores. O metotrexato é útil sobretudo nas formas articular e cutânea.',
     x: { A: 'Manter 20 mg/dia por tempo indeterminado traz toxicidade cumulativa inaceitável.', C: 'A retirada abrupta após uso prolongado pode causar insuficiência adrenal e recidiva.', D: 'A hidroxicloroquina deve ser mantida, e a dexametasona tem ainda mais efeitos adversos.' },
@@ -77,7 +77,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento: belimumabe',
     e: 'O belimumabe, anticorpo monoclonal aprovado como terapia adicional no lúpus com atividade persistente apesar do tratamento padrão e também na nefrite lúpica, tem como mecanismo de ação:',
-    o: ['Bloqueio do receptor de interleucina-6', 'Inibição do BLyS (BAFF), fator de sobrevivência de linfócitos B', 'Depleção de linfócitos B pela ligação ao CD20', 'Inibição do fator de necrose tumoral alfa'],
+    o: ['Bloqueio do receptor de interleucina-6, no hepatócito', 'Inibição do BLyS (BAFF), fator de sobrevivência de linfócitos B', 'Depleção de linfócitos B pela ligação ao CD20', 'Inibição do fator de necrose tumoral alfa'],
     g: 'B',
     c: 'O belimumabe neutraliza o estimulador de linfócitos B solúvel (BLyS ou BAFF), reduzindo a sobrevivência de células B autorreativas e a produção de autoanticorpos. É usado como terapia adicional para diminuir surtos e poupar corticoide. O anifrolumabe, outro biológico aprovado, bloqueia o receptor de interferon tipo I.',
     x: { A: 'O bloqueio do receptor de interleucina-6 é o mecanismo do tocilizumabe.', C: 'A ligação ao CD20 é o mecanismo do rituximabe.', D: 'Os anti-TNF não são usados no lúpus e podem induzir autoanticorpos e quadro lúpus-símile.' },
@@ -85,7 +85,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento: medidas gerais',
     e: 'Entre as medidas não farmacológicas e preventivas no acompanhamento do paciente com lúpus em uso de imunossupressores, a orientação correta é:',
-    o: ['Liberar a exposição solar para corrigir a deficiência de vitamina D', 'Usar protetor solar de amplo espectro diariamente, cessar o tabagismo e evitar vacinas de vírus vivos atenuados', 'Contraindicar todas as vacinas, inclusive influenza e pneumocócica', 'Suspender a atividade física pelo risco de artrite'],
+    o: ['Liberar a exposição solar para corrigir a vitamina D', 'Protetor solar diário, cessar tabagismo e evitar vacinas vivas', 'Contraindicar todas as vacinas, inclusive influenza e pneumococo', 'Suspender a atividade física pelo risco de artrite'],
     g: 'B',
     c: 'A fotoproteção rigorosa previne lesões cutâneas e surtos sistêmicos, e a vitamina D deve ser reposta por via oral. O tabagismo piora o lúpus cutâneo e reduz a resposta aos antimaláricos, além de somar risco cardiovascular. Vacinas inativadas são recomendadas, enquanto as de vírus vivos devem ser evitadas em imunossuprimidos.',
     x: { A: 'O sol desencadeia atividade; a vitamina D deve ser suplementada, não obtida por exposição.', C: 'Vacinas inativadas, como influenza e pneumocócica, são seguras e indicadas.', D: 'Exercício regular é recomendado e reduz fadiga e risco cardiovascular.' },
@@ -93,7 +93,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento: manifestações graves',
     e: 'Mulher de 30 anos com lúpus é internada com dispneia súbita, hemoptise, queda de 4 g/dL na hemoglobina em 24 horas e infiltrado alveolar bilateral difuso. A hipótese principal e a conduta imediata são:',
-    o: ['Pneumonite por metotrexato; suspender o fármaco e observar', 'Hemorragia alveolar difusa; pulsoterapia com metilprednisolona e imunossupressão, com suporte ventilatório', 'Pleurite lúpica; anti-inflamatório não esteroide', 'Embolia pulmonar; trombólise sistêmica imediata'],
+    o: ['Pneumonite por metotrexato; suspender o fármaco e observar', 'Hemorragia alveolar difusa; pulso de corticoide e imunossupressão', 'Pleurite lúpica; anti-inflamatório não esteroide, por 7 dias', 'Embolia pulmonar; trombólise sistêmica imediata, com alteplase'],
     g: 'B',
     c: 'A hemorragia alveolar difusa é manifestação rara e muito grave do lúpus, causada por capilarite pulmonar, e caracteriza-se por dispneia, infiltrados alveolares e queda rápida da hemoglobina, nem sempre com hemoptise. O tratamento é pulsoterapia com metilprednisolona associada a imunossupressor, como ciclofosfamida, podendo-se recorrer a plasmaférese ou imunoglobulina, além de afastar infecção.',
     x: { A: 'A queda abrupta da hemoglobina com infiltrado alveolar difuso aponta para sangramento alveolar.', C: 'A pleurite causa dor ventilatório-dependente e derrame, sem anemia aguda.', D: 'A embolia não explica infiltrado alveolar difuso com anemização; a trombólise agravaria o sangramento.' },
@@ -117,7 +117,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Lúpus e gestação: anti-Ro',
     e: 'Gestante com lúpus em remissão tem anti-Ro e anti-La positivos. A conduta recomendada no pré-natal, voltada ao risco fetal específico desses anticorpos, é:',
-    o: ['Anticoagulação plena com heparina durante toda a gestação', 'Manter hidroxicloroquina e realizar ecocardiograma fetal seriado a partir do segundo trimestre', 'Interromper a gestação pelo risco de malformações maiores', 'Iniciar ciclofosfamida para reduzir os títulos dos anticorpos'],
+    o: ['Anticoagulação plena com heparina durante toda a gestação', 'Manter hidroxicloroquina e fazer ecocardiograma fetal seriado', 'Interromper a gestação pelo risco de malformações', 'Iniciar ciclofosfamida para reduzir os títulos de anticorpos'],
     g: 'B',
     c: 'Os anticorpos anti-Ro e anti-La atravessam a placenta e podem lesar o sistema de condução fetal, causando bloqueio cardíaco congênito, mais frequentemente entre a 18ª e a 24ª semanas. Por isso se indica vigilância com ecocardiograma fetal seriado nesse período, e a hidroxicloroquina materna está associada a menor risco, sobretudo de recorrência em gestações seguintes.',
     x: { A: 'A anticoagulação é indicada na síndrome antifosfolípide, não pela presença de anti-Ro.', C: 'O risco de bloqueio é baixo em termos absolutos e não justifica interrupção.', D: 'A ciclofosfamida é teratogênica e contraindicada na gestação.' },
@@ -141,7 +141,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'Lúpus induzido por drogas',
     e: 'Todas as características abaixo são típicas do lúpus induzido por drogas na sua forma clássica, EXCETO:',
-    o: ['Acometimento semelhante de homens e mulheres, em faixa etária mais avançada', 'Predomínio de artralgia, febre e serosite', 'Regressão do quadro após a suspensão do fármaco', 'Nefrite proliferativa e acometimento neuropsiquiátrico frequentes, com anti-DNA nativo positivo'],
+    o: ['Acometimento semelhante em homens e mulheres, em idades avançadas', 'Predomínio de artralgia, febre e serosite', 'Regressão do quadro após a suspensão do fármaco', 'Nefrite proliferativa e neuropsiquiátrico frequentes, com anti-DNA'],
     g: 'D',
     c: 'O lúpus induzido por drogas poupa tipicamente o rim e o sistema nervoso central, e o anti-DNA de dupla hélice costuma ser negativo, com complemento normal. A distribuição entre os sexos é mais equilibrada e a idade é maior, refletindo a população que usa os fármacos implicados. A exceção sorológica são os anti-TNF, que podem induzir anti-DNA.',
     x: { A: 'A distribuição por sexo e idade acompanha a de quem usa os fármacos, sem predomínio feminino marcante.', B: 'Sintomas constitucionais, articulares e serosite são o quadro habitual da forma induzida.', C: 'A reversibilidade com a retirada da droga é característica definidora dessa forma.' },
@@ -149,7 +149,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'SAF: critérios',
     e: 'Mulher de 29 anos teve trombose venosa profunda sem fator desencadeante. O anticoagulante lúpico foi positivo na investigação. Para confirmar o diagnóstico de síndrome do anticorpo antifosfolípide, é necessário:',
-    o: ['Demonstrar FAN positivo em altos títulos', 'Repetir o anticorpo após pelo menos 12 semanas e confirmar sua persistência', 'Realizar biópsia do vaso acometido', 'Documentar um segundo evento trombótico'],
+    o: ['Demonstrar FAN positivo em altos títulos, uma única vez', 'Repetir o anticorpo após 12 semanas e confirmar persistência', 'Realizar biópsia do vaso acometido, para confirmação', 'Documentar um segundo evento trombótico, no seguimento'],
     g: 'B',
     c: 'O diagnóstico da síndrome exige ao menos um critério clínico, trombose ou morbidade gestacional, e um laboratorial: anticoagulante lúpico, anticardiolipina ou anti-beta-2-glicoproteína I, positivo em duas ocasiões separadas por no mínimo 12 semanas. A confirmação é necessária porque infecções e fármacos podem causar positividade transitória, sem risco trombótico.',
     x: { A: 'A síndrome pode ser primária, sem lúpus e sem FAN positivo.', C: 'O diagnóstico é clínico e sorológico; biópsia vascular não é exigida.', D: 'Um único evento trombótico já satisfaz o critério clínico.' },
@@ -165,7 +165,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'SAF: manifestações',
     e: 'Mulher de 34 anos com antecedente de acidente vascular cerebral isquêmico aos 31 anos e três abortos consecutivos antes da 10ª semana apresenta manchas violáceas reticuladas nos membros inferiores e plaquetas de 95.000/mm3. O achado cutâneo descrito e a principal hipótese são:',
-    o: ['Eritema nodoso; sarcoidose', 'Livedo reticular; síndrome do anticorpo antifosfolípide', 'Púrpura palpável; vasculite por IgA', 'Eritema marginado; febre reumática'],
+    o: ['Eritema nodoso; sarcoidose, com adenopatia hilar', 'Livedo reticular; síndrome do anticorpo antifosfolípide', 'Púrpura palpável; vasculite por IgA, com artrite', 'Eritema marginado; febre reumática, com cardite'],
     g: 'B',
     c: 'A síndrome antifosfolípide causa tromboses arteriais e venosas e morbidade gestacional, como três ou mais abortos precoces consecutivos, perda fetal a partir da 10ª semana ou parto prematuro por pré-eclâmpsia grave ou insuficiência placentária. Livedo reticular, plaquetopenia e lesão valvar são manifestações associadas frequentes. No território arterial, o evento mais comum é o acidente vascular cerebral; no venoso, a trombose profunda de membros inferiores.',
     x: { A: 'O eritema nodoso são nódulos dolorosos pré-tibiais, e a sarcoidose não explica tromboses e abortos.', C: 'A vasculite por IgA causa púrpura palpável com plaquetas normais, sem eventos trombóticos.', D: 'O eritema marginado é evanescente, no tronco, e pertence aos critérios de febre reumática.' },
@@ -181,7 +181,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'SAF obstétrica',
     e: 'Mulher de 31 anos, com três abortos consecutivos antes da 10ª semana, sem trombose prévia, tem anticardiolipina IgG em título alto confirmada após 12 semanas. Está grávida de 6 semanas. A conduta indicada é:',
-    o: ['Varfarina com INR entre 2 e 3 durante toda a gestação', 'Ácido acetilsalicílico em dose baixa associado a heparina em dose profilática', 'Apenas progesterona vaginal até a 12ª semana', 'Prednisona em dose alta para reduzir os títulos dos anticorpos'],
+    o: ['Varfarina com INR entre 2 e 3 durante toda a gestação', 'AAS em dose baixa mais heparina em dose profilática', 'Apenas progesterona vaginal até a 12ª semana', 'Prednisona em dose alta para reduzir os títulos'],
     g: 'B',
     c: 'Na síndrome antifosfolípide obstétrica sem trombose prévia, o tratamento é AAS em dose baixa, idealmente iniciado antes da concepção, associado a heparina em dose profilática desde a confirmação da gravidez, o que aumenta a taxa de nascidos vivos. Se houver trombose prévia, a heparina deve ser usada em dose terapêutica. A anticoagulação costuma ser mantida no puerpério.',
     x: { A: 'A varfarina atravessa a placenta e é teratogênica, sobretudo no primeiro trimestre.', C: 'A progesterona não trata o mecanismo trombótico e inflamatório placentário da síndrome.', D: 'O corticoide não melhora o desfecho gestacional e aumenta as complicações maternas.' },
@@ -189,7 +189,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'SAF catastrófica',
     e: 'Mulher de 36 anos com síndrome antifosfolípide suspendeu a varfarina para um procedimento e desenvolveu infecção urinária. Em cinco dias evolui com insuficiência renal aguda, desconforto respiratório, confusão mental e necrose de extremidades, com plaquetopenia e esquizócitos. O tratamento recomendado é:',
-    o: ['Antibiótico isolado e reintrodução da varfarina oral', 'Anticoagulação com heparina, corticoide em dose alta e plasmaférese ou imunoglobulina venosa', 'Transfusão de plaquetas e suspensão de toda anticoagulação', 'Ácido acetilsalicílico e observação em enfermaria'],
+    o: ['Antibiótico isolado e reintrodução da varfarina oral', 'Heparina, corticoide em dose alta e plasmaférese ou imunoglobulina', 'Transfusão de plaquetas e suspensão de toda anticoagulação', 'AAS e observação em enfermaria, sem anticoagulante'],
     g: 'B',
     c: 'A forma catastrófica caracteriza-se por tromboses em três ou mais órgãos em menos de uma semana, com predomínio de oclusão microvascular, geralmente desencadeada por infecção, cirurgia ou suspensão da anticoagulação. A mortalidade é elevada, e o tratamento combina heparina plena, corticoide em altas doses e plasmaférese ou imunoglobulina, além de tratar o fator precipitante.',
     x: { A: 'A infecção deve ser tratada, mas isso não basta diante de trombose multissistêmica.', C: 'Suspender a anticoagulação e transfundir plaquetas pode agravar a trombose microvascular.', D: 'Antiagregação e observação são insuficientes em quadro de mortalidade tão alta.' },
@@ -197,7 +197,7 @@ export const COLAGENOSES_2: QuestaoCompacta[] = [
   {
     s: 'SAF: profilaxia primária',
     e: 'Mulher de 28 anos com lúpus, sem trombose ou perda gestacional prévias, tem anticoagulante lúpico, anticardiolipina e anti-beta-2-glicoproteína I persistentemente positivos em títulos altos. A conduta mais adequada é:',
-    o: ['Anticoagulação plena com varfarina por tempo indeterminado', 'Manter hidroxicloroquina, considerar AAS em dose baixa, controlar fatores de risco e evitar anticoncepcional com estrogênio', 'Nenhuma medida, pois anticorpos sem evento não têm significado', 'Iniciar anticoagulante oral direto em dose profilática'],
+    o: ['Anticoagulação plena com varfarina por tempo indeterminado', 'Manter HCQ, considerar AAS, controlar riscos; evitar estrogênio', 'Nenhuma medida, pois anticorpos sem evento não têm significado', 'Anticoagulante oral direto em dose profilática'],
     g: 'B',
     c: 'O portador assintomático de anticorpos antifosfolípides não tem a síndrome, mas o perfil triplo-positivo confere alto risco trombótico. Não se indica anticoagulação, e sim profilaxia primária com AAS em dose baixa, especialmente em lúpicos, além de hidroxicloroquina, controle de fatores de risco cardiovascular e profilaxia com heparina em situações de risco. Estrogênios são contraindicados.',
     x: { A: 'A anticoagulação plena é reservada a quem já teve evento trombótico.', C: 'O perfil de alto risco justifica medidas preventivas mesmo sem evento.', D: 'Anticoagulantes diretos não têm papel na profilaxia primária desses pacientes.' },

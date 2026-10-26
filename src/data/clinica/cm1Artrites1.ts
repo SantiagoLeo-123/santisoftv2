@@ -5,7 +5,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Abordagem das artrites',
     e: 'Na avaliação inicial de um paciente com queixa articular, a característica que mais sugere dor de natureza inflamatória, e não mecânica, é:',
-    o: ['Dor que piora ao final do dia e alivia com o repouso', 'Rigidez matinal prolongada, superior a uma hora, que melhora com o movimento', 'Crepitação grosseira à mobilização sem derrame articular', 'Rigidez após repouso que dura menos de 15 minutos'],
+    o: ['Dor que piora ao final do dia e alivia com o repouso', 'Rigidez matinal > 1 hora, que melhora com o movimento', 'Crepitação grosseira à mobilização, sem derrame articular', 'Rigidez após repouso que dura menos de 15 minutos'],
     g: 'B',
     c: 'A dor inflamatória piora com o repouso e melhora com a atividade, acompanhando-se de rigidez matinal prolongada, em geral maior que uma hora. Isso ocorre porque o edema e os mediadores inflamatórios se acumulam na sinóvia durante a imobilidade e são redistribuídos com o movimento. Na dor mecânica, o padrão é o inverso.',
     x: { A: 'Piora com o uso e alívio com o repouso definem o ritmo mecânico da dor articular.', C: 'Crepitação grosseira sem sinovite é achado típico de degeneração da cartilagem.', D: 'Rigidez breve após repouso é o fenômeno protocinético da osteoartrite.' },
@@ -37,7 +37,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Líquido sinovial',
     e: 'Na análise do líquido sinovial, o achado que mais fortemente sugere artrite séptica bacteriana é:',
-    o: ['Contagem de 1.500 leucócitos/mm³ com predomínio de mononucleares', 'Contagem superior a 50.000 leucócitos/mm³ com mais de 90% de polimorfonucleares', 'Viscosidade elevada com teste do filamento longo', 'Glicose semelhante à do plasma'],
+    o: ['Cerca de 1.500 leucócitos/mm³, com predomínio de mononucleares', 'Mais de 50.000 leucócitos/mm³, com > 90% de polimorfonucleares', 'Viscosidade elevada, com teste do filamento longo', 'Glicose semelhante à do plasma, com celularidade baixa'],
     g: 'B',
     c: 'O líquido séptico costuma ter aspecto purulento, celularidade acima de 50.000 leucócitos/mm³ (frequentemente acima de 100.000) e predomínio intenso de polimorfonucleares, com glicose baixa pelo consumo bacteriano e leucocitário. O diagnóstico é confirmado pelo Gram e pela cultura.',
     x: { A: 'Celularidade baixa com mononucleares é o padrão do líquido não inflamatório.', C: 'Viscosidade preservada indica ácido hialurônico íntegro, típico de líquido não inflamatório.', D: 'Na artrite séptica a glicose do líquido cai bastante em relação à plasmática.' },
@@ -53,7 +53,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - patogenia',
     e: 'A predisposição genética à artrite reumatoide está relacionada principalmente a:',
-    o: ['HLA-B27', 'Alelos HLA-DRB1 que codificam o epítopo compartilhado, como o HLA-DR4', 'HLA-B51', 'Mutação do gene MEFV'],
+    o: ['HLA-B27, associado às espondiloartrites', 'Alelos HLA-DRB1 do epítopo compartilhado (HLA-DR4)', 'HLA-B51, associado à doença de Behçet', 'Mutação do gene MEFV, da febre familiar do Mediterrâneo'],
     g: 'B',
     c: 'Alelos do HLA-DRB1, especialmente do grupo DR4, codificam uma sequência de aminoácidos chamada epítopo compartilhado, que apresenta com maior afinidade peptídeos citrulinados aos linfócitos T. Isso explica a associação com anti-CCP positivo e com doença mais erosiva.',
     x: { A: 'O HLA-B27 é o marcador genético das espondiloartrites axiais.', C: 'O HLA-B51 está associado à doença de Behçet, não à artrite reumatoide.', D: 'O gene MEFV está mutado na febre familiar do Mediterrâneo.' },
@@ -61,7 +61,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - patogenia',
     e: 'A lesão anatomopatológica que explica a destruição articular na artrite reumatoide é:',
-    o: ['Depósito de cristais na cartilagem hialina', 'Pannus, tecido sinovial hipertrofiado e invasivo que erode cartilagem e osso', 'Inflamação primária das ênteses com neoformação óssea', 'Degeneração primária da cartilagem com formação de osteófitos'],
+    o: ['Depósito de cristais na cartilagem hialina', 'Pannus: sinóvia hipertrófica e invasiva que erode cartilagem e osso', 'Inflamação primária das ênteses, com neoformação óssea', 'Degeneração primária da cartilagem, com osteófitos'],
     g: 'B',
     c: 'A artrite reumatoide é uma sinovite crônica. A membrana sinovial prolifera e forma o pannus, tecido de granulação rico em fibroblastos, macrófagos e osteoclastos ativados por citocinas como TNF-alfa e IL-6, que invade a cartilagem e o osso subcondral a partir das margens articulares, produzindo as erosões.',
     x: { A: 'Depósito de cristais é o mecanismo da gota e da doença por pirofosfato de cálcio.', C: 'A entesite com neoformação óssea é a lesão básica das espondiloartrites.', D: 'Degeneração da cartilagem com osteófitos caracteriza a osteoartrite.' },
@@ -69,7 +69,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - quadro articular',
     e: 'Mulher de 42 anos refere dor e edema em punhos, metacarpofalangianas e interfalangianas proximais de ambas as mãos há 4 meses, com rigidez matinal de duas horas. O padrão articular descrito é típico de artrite reumatoide. Nessa doença, as articulações caracteristicamente poupadas são:',
-    o: ['Metatarsofalangianas', 'Interfalangianas distais', 'Punhos', 'Joelhos'],
+    o: ['Metatarsofalangianas, nos pés', 'Interfalangianas distais, nas mãos', 'Punhos, de forma simétrica', 'Joelhos, de forma simétrica'],
     g: 'B',
     c: 'A artrite reumatoide é uma poliartrite simétrica aditiva de pequenas articulações das mãos e dos pés, com envolvimento precoce de punhos, metacarpofalangianas, interfalangianas proximais e metatarsofalangianas. As interfalangianas distais e a coluna toracolombar são classicamente poupadas; o acometimento das distais deve lembrar osteoartrite ou artrite psoriásica.',
     x: { A: 'As metatarsofalangianas são acometidas precocemente e de forma frequente.', C: 'Os punhos estão entre as articulações mais caracteristicamente envolvidas.', D: 'Os joelhos são grandes articulações comumente acometidas na evolução.' },
@@ -77,7 +77,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - coluna',
     e: 'O segmento da coluna vertebral caracteristicamente acometido pela artrite reumatoide é:',
-    o: ['Coluna lombar e articulações sacroilíacas', 'Coluna cervical alta, especialmente a articulação atlantoaxial', 'Coluna torácica média', 'Transição toracolombar'],
+    o: ['Coluna lombar e articulações sacroilíacas, bilateralmente', 'Coluna cervical alta, sobretudo a articulação atlantoaxial', 'Coluna torácica média, entre T5 e T8, de preferência', 'Transição toracolombar, entre T12 e L1, de preferência'],
     g: 'B',
     c: 'A coluna cervical alta possui articulações sinoviais, como a que existe entre o processo odontoide e o ligamento transverso do atlas, que podem ser erodidas pelo pannus. O resultado é a subluxação atlantoaxial, com risco de compressão medular. Os segmentos torácico e lombar e as sacroilíacas são poupados.',
     x: { A: 'Sacroiliíte e acometimento lombar são marcas das espondiloartrites.', C: 'A coluna torácica não é alvo da sinovite reumatoide.', D: 'A transição toracolombar é sede inicial de sindesmófitos na espondilite anquilosante.' },
@@ -93,7 +93,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - deformidades',
     e: 'Paciente com artrite reumatoide há 12 anos apresenta parestesias noturnas nos três primeiros dedos da mão direita, com sinais de Tinel e Phalen positivos. A complicação descrita e seu mecanismo são:',
-    o: ['Mononeurite múltipla por vasculite reumatoide', 'Síndrome do túnel do carpo por compressão do nervo mediano pela sinovite do punho', 'Compressão do nervo ulnar no canal de Guyon por nódulo reumatoide', 'Mielopatia cervical por subluxação atlantoaxial'],
+    o: ['Mononeurite múltipla por vasculite reumatoide', 'Túnel do carpo: nervo mediano comprimido pela sinovite do punho', 'Compressão do ulnar no canal de Guyon por nódulo', 'Mielopatia cervical por subluxação atlantoaxial'],
     g: 'B',
     c: 'A sinovite dos punhos e a tenossinovite dos flexores reduzem o espaço do túnel do carpo e comprimem o nervo mediano, produzindo parestesias no território do polegar ao lado radial do quarto dedo. É a neuropatia compressiva mais comum na artrite reumatoide e pode ser manifestação inicial.',
     x: { A: 'A mononeurite múltipla causa déficits assimétricos em nervos distintos, com sinais de vasculite.', C: 'O nervo ulnar inerva o quinto dedo e a metade ulnar do quarto, território diferente.', D: 'A mielopatia cervical produz sinais piramidais e não se restringe ao território do mediano.' },
@@ -101,7 +101,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - cisto de Baker',
     e: 'Mulher de 55 anos com artrite reumatoide e derrame crônico no joelho esquerdo apresenta subitamente dor e edema intenso na panturrilha esquerda, com empastamento. O ultrassom com Doppler não mostra trombose venosa. O diagnóstico mais provável é:',
-    o: ['Celulite de membro inferior', 'Ruptura de cisto de Baker (pseudotromboflebite)', 'Síndrome compartimental crônica', 'Vasculite reumatoide de panturrilha'],
+    o: ['Celulite de membro inferior, com febre', 'Ruptura de cisto de Baker (pseudotromboflebite)', 'Síndrome compartimental crônica da panturrilha', 'Vasculite reumatoide de panturrilha, com úlcera'],
     g: 'B',
     c: 'O cisto de Baker é uma herniação posterior da cápsula sinovial do joelho, alimentada por derrame crônico. Sua ruptura libera líquido inflamatório para a panturrilha e simula trombose venosa profunda, quadro chamado de pseudotromboflebite. O ultrassom afasta trombose e demonstra o cisto ou a coleção.',
     x: { A: 'Não há porta de entrada nem eritema bem delimitado que sugiram celulite.', C: 'A síndrome compartimental crônica relaciona-se ao exercício e não a derrame articular.', D: 'A vasculite reumatoide costuma causar úlceras, púrpura e neuropatia, não edema súbito de panturrilha.' },
@@ -109,7 +109,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - extra-articular',
     e: 'Os nódulos reumatoides subcutâneos, manifestação extra-articular mais comum da artrite reumatoide, caracterizam-se por:',
-    o: ['Ocorrerem apenas em pacientes soronegativos e com doença leve', 'Surgirem em superfícies extensoras e áreas de pressão, quase sempre em pacientes com fator reumatoide positivo', 'Serem dolorosos, eritematosos e localizados na face anterior das pernas', 'Conterem cristais de urato monossódico à punção'],
+    o: ['Ocorrem só em soronegativos e com doença leve', 'Surgem em superfícies extensoras e de pressão, em FR positivo', 'São dolorosos, eritematosos e na face anterior das pernas', 'Contêm cristais de urato monossódico à punção'],
     g: 'B',
     c: 'Os nódulos reumatoides aparecem em cerca de um quinto a um terço dos pacientes, principalmente na face extensora do antebraço e em pontos de pressão. Histologicamente têm necrose fibrinoide central circundada por histiócitos em paliçada. Associam-se a fator reumatoide positivo em títulos altos e a doença mais grave.',
     x: { A: 'Os nódulos são marcadores de doença soropositiva e de pior prognóstico.', C: 'Nódulos dolorosos pré-tibiais descrevem o eritema nodoso, uma paniculite.', D: 'Material com cristais de urato define o tofo gotoso, não o nódulo reumatoide.' },
@@ -117,7 +117,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - extra-articular',
     e: 'Mulher de 60 anos com artrite reumatoide soropositiva queixa-se de sensação de areia nos olhos e boca seca há meses. A manifestação ocular mais comum da artrite reumatoide, compatível com esse quadro, é:',
-    o: ['Uveíte anterior aguda', 'Ceratoconjuntivite seca por síndrome de Sjögren secundária', 'Escleromalácia perfurante', 'Neurite óptica'],
+    o: ['Uveíte anterior aguda, unilateral e dolorosa', 'Ceratoconjuntivite seca: síndrome de Sjögren secundária', 'Escleromalácia perfurante, com adelgaçamento escleral', 'Neurite óptica, com perda visual súbita e dor'],
     g: 'B',
     c: 'A síndrome de Sjögren secundária é a manifestação ocular mais frequente da artrite reumatoide, causando xeroftalmia e xerostomia por infiltração linfocitária das glândulas lacrimais e salivares. Episclerite e esclerite são menos comuns, e a escleromalácia perfurante é rara e grave.',
     x: { A: 'A uveíte anterior aguda é típica das espondiloartrites, não da artrite reumatoide.', C: 'A escleromalácia perfurante é rara e não explica olho e boca secos.', D: 'A neurite óptica não é manifestação habitual da artrite reumatoide.' },
@@ -125,7 +125,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - pulmão',
     e: 'Homem de 63 anos, tabagista, com artrite reumatoide soropositiva, apresenta derrame pleural unilateral. A toracocentese mostra exsudato. O achado bioquímico do líquido pleural mais característico do derrame reumatoide é:',
-    o: ['Adenosina deaminase baixa com predomínio de eosinófilos', 'Glicose muito baixa, com pH reduzido e desidrogenase lática elevada', 'Triglicerídeos acima de 110 mg/dL', 'Amilase elevada de origem pancreática'],
+    o: ['ADA baixa, com predomínio de eosinófilos', 'Glicose muito baixa, pH reduzido e DHL elevada', 'Triglicerídeos acima de 110 mg/dL, com aspecto leitoso', 'Amilase elevada, de origem pancreática'],
     g: 'B',
     c: 'O derrame pleural reumatoide é um exsudato com glicose caracteristicamente muito baixa, pH baixo e desidrogenase lática alta, por bloqueio do transporte de glicose pela pleura inflamada e consumo local. É mais comum em homens com doença soropositiva e nódulos, e exige diferenciação de empiema e tuberculose.',
     x: { A: 'Esse perfil não é o esperado; o marco do derrame reumatoide é a glicose muito baixa.', C: 'Triglicerídeos elevados definem quilotórax, por lesão do ducto torácico.', D: 'Amilase pancreática elevada sugere pancreatite ou pseudocisto com fístula pleural.' },
@@ -133,7 +133,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - síndrome de Caplan',
     e: 'A síndrome de Caplan corresponde à associação de artrite reumatoide com:',
-    o: ['Esplenomegalia e neutropenia', 'Pneumoconiose e nódulos pulmonares múltiplos', 'Amiloidose renal e síndrome nefrótica', 'Uveíte e aortite'],
+    o: ['Esplenomegalia e neutropenia (síndrome de Felty)', 'Pneumoconiose e nódulos pulmonares múltiplos (Caplan)', 'Amiloidose renal e síndrome nefrótica', 'Uveíte e aortite, com insuficiência valvar'],
     g: 'B',
     c: 'A síndrome de Caplan é descrita em pacientes com artrite reumatoide expostos a poeiras minerais, como carvão e sílica, que desenvolvem nódulos pulmonares múltiplos, periféricos e bem delimitados, sobrepostos à pneumoconiose. Os nódulos podem cavitar e precisam ser diferenciados de neoplasia e tuberculose.',
     x: { A: 'Esplenomegalia com neutropenia caracteriza a síndrome de Felty.', C: 'A amiloidose secundária é complicação da inflamação crônica, sem esse epônimo.', D: 'Uveíte e aortite são manifestações das espondiloartrites.' },
@@ -157,7 +157,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - laboratório',
     e: 'O fator reumatoide, utilizado na investigação da artrite reumatoide, é:',
-    o: ['Um anticorpo contra o DNA de dupla hélice, específico da doença', 'Um autoanticorpo, geralmente IgM, dirigido contra a porção Fc da IgG, com sensibilidade em torno de 70 a 80% e especificidade limitada', 'Um anticorpo contra peptídeos citrulinados, com especificidade acima de 95%', 'Uma proteína de fase aguda produzida pelo fígado'],
+    o: ['Anticorpo contra DNA de dupla hélice, específico da doença', 'Autoanticorpo (IgM) contra o Fc da IgG: sensibilidade 70-80%', 'Anticorpo contra peptídeos citrulinados, com especificidade > 95%', 'Proteína de fase aguda produzida pelo fígado'],
     g: 'B',
     c: 'O fator reumatoide é um autoanticorpo, classicamente da classe IgM, contra a fração Fc da IgG. É positivo em cerca de 70 a 80% dos pacientes, mas também aparece em idosos saudáveis, em outras colagenoses, na hepatite C e em infecções crônicas. Títulos altos indicam pior prognóstico e mais manifestações extra-articulares.',
     x: { A: 'O anti-DNA de dupla hélice é marcador do lúpus eritematoso sistêmico.', C: 'Essa é a descrição do anti-CCP, que é o anticorpo mais específico.', D: 'Proteínas de fase aguda são a proteína C reativa e o fibrinogênio, não o fator reumatoide.' },
@@ -165,7 +165,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - laboratório',
     e: 'Mulher de 38 anos com poliartrite simétrica de mãos há 3 meses tem fator reumatoide negativo. O exame mais específico para confirmar a suspeita de artrite reumatoide e que tem valor prognóstico é:',
-    o: ['Fator antinuclear', 'Anticorpo antipeptídeo citrulinado cíclico (anti-CCP)', 'Velocidade de hemossedimentação', 'Antiestreptolisina O'],
+    o: ['Fator antinuclear (FAN), em padrão homogêneo', 'Anticorpo antipeptídeo citrulinado cíclico (anti-CCP)', 'Velocidade de hemossedimentação, em 1ª hora', 'Antiestreptolisina O (ASLO), em título elevado'],
     g: 'B',
     c: 'O anti-CCP tem sensibilidade semelhante à do fator reumatoide, porém especificidade superior a 95%. Pode estar presente anos antes dos sintomas, auxilia nos casos com fator reumatoide negativo e associa-se a doença erosiva e mais agressiva.',
     x: { A: 'O fator antinuclear é inespecífico e não confirma artrite reumatoide.', C: 'A hemossedimentação mede inflamação, sem especificidade diagnóstica.', D: 'A antiestreptolisina O documenta infecção estreptocócica prévia.' },
@@ -197,7 +197,7 @@ export const ARTRITES_1: QuestaoCompacta[] = [
   {
     s: 'Artrite reumatoide - prognóstico',
     e: 'Todos os fatores abaixo indicam pior prognóstico na artrite reumatoide, EXCETO:',
-    o: ['Fator reumatoide e anti-CCP em títulos altos', 'Erosões radiográficas precoces', 'Tabagismo e grande número de articulações acometidas', 'Início em idade avançada com fator reumatoide negativo e poucas articulações acometidas'],
+    o: ['FR e anti-CCP em títulos altos, como mau prognóstico', 'Erosões radiográficas precoces, como mau prognóstico', 'Tabagismo e muitas articulações acometidas, como mau prognóstico', 'Início tardio, FR negativo e poucas articulações'],
     g: 'D',
     c: 'São marcadores de mau prognóstico a sorologia positiva em títulos altos, erosões precoces, muitas articulações acometidas, provas inflamatórias persistentemente elevadas, manifestações extra-articulares e tabagismo. Doença soronegativa e com poucas articulações tende a ter curso mais brando.',
     x: { A: 'Autoanticorpos em títulos altos associam-se a doença erosiva e extra-articular.', B: 'Erosões precoces indicam doença agressiva e progressão estrutural rápida.', C: 'Tabagismo e alta contagem articular predizem pior resposta e mais dano.' },

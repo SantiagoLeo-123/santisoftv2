@@ -5,7 +5,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Redistribuição do potássio',
     e: 'Todos os fatores abaixo promovem a entrada de potássio nas células e podem causar hipocalemia por redistribuição, EXCETO:',
-    o: ['Insulina', 'Estímulo beta-2 adrenérgico', 'Alcalose metabólica', 'Hiperosmolaridade plasmática'],
+    o: ['Insulina em excesso, que desloca K+ para dentro', 'Estímulo beta-2 adrenérgico, que desloca K+ para dentro', 'Alcalose metabólica, que desloca K+ para dentro', 'Hiperosmolaridade plasmática, que desloca K+ para fora'],
     g: 'D',
     c: 'A hiperosmolaridade, como na hiperglicemia grave, retira água das células e arrasta potássio consigo (arraste pelo solvente), além de elevar sua concentração intracelular, o que favorece a saída. Insulina e catecolaminas beta-2 ativam a bomba sódio-potássio ATPase, e na alcalose o hidrogênio sai da célula em troca de potássio.',
     x: { A: 'A insulina estimula a bomba sódio-potássio e desloca potássio para o intracelular.', B: 'Os agonistas beta-2 ativam a bomba sódio-potássio via AMP cíclico.', C: 'Na alcalose o hidrogênio deixa a célula e o potássio entra em troca.' },
@@ -13,7 +13,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Beta-2 agonista',
     e: 'Homem de 26 anos em crise asmática grave recebe nebulizações sucessivas com salbutamol. Evolui com tremores, palpitações e fraqueza muscular. Potássio de 2,9 mEq/L (era 4,1 na admissão). O mecanismo da hipocalemia é:',
-    o: ['Perda renal por efeito diurético do salbutamol', 'Desvio do potássio para o intracelular por estímulo da bomba sódio-potássio ATPase', 'Perda digestiva por vômitos', 'Alcalose metabólica por retenção de bicarbonato'],
+    o: ['Perda renal por efeito diurético do salbutamol', 'Desvio de K+ para o intracelular (Na-K-ATPase)', 'Perda digestiva por vômitos, em grande volume', 'Alcalose metabólica por retenção de bicarbonato'],
     g: 'B',
     c: 'O estímulo dos receptores beta-2 aumenta o AMP cíclico e ativa a bomba sódio-potássio ATPase no músculo esquelético, deslocando potássio para dentro das células. O potássio corporal total não muda, e o efeito é transitório. Esse mesmo mecanismo é aproveitado no tratamento da hipercalemia.',
     x: { A: 'O salbutamol não tem efeito caliurético relevante; o potássio corporal é mantido.', C: 'Não há relato de vômitos, e a queda ocorreu em poucas horas.', D: 'Na crise asmática o distúrbio esperado é respiratório, sem retenção de bicarbonato.' },
@@ -21,7 +21,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Vômitos',
     e: 'Mulher de 29 anos com vômitos repetidos há 1 semana apresenta potássio de 2,7 mEq/L, bicarbonato de 36 mEq/L e cloro urinário de 8 mEq/L. A principal via de perda de potássio nessa situação é:',
-    o: ['O suco gástrico, que é muito rico em potássio', 'A urina, por hiperaldosteronismo secundário e bicarbonatúria', 'O suor, por ativação simpática', 'As fezes, por aumento da secreção colônica'],
+    o: ['O suco gástrico, que é muito rico em potássio', 'A urina, por hiperaldosteronismo e bicarbonatúria', 'O suor, por ativação simpática intensa', 'As fezes, por aumento da secreção colônica'],
     g: 'B',
     c: 'O suco gástrico tem pouco potássio (5 a 10 mEq/L). A perda de ácido gera alcalose, e a hipovolemia ativa a aldosterona. O bicarbonato filtrado em excesso chega ao néfron distal como ânion não reabsorvível e, junto com a aldosterona, aumenta a secreção de potássio. O cloro urinário baixo indica alcalose responsiva a cloreto, corrigida com salina e cloreto de potássio.',
     x: { A: 'O conteúdo de potássio do suco gástrico é baixo e não explica a depleção.', C: 'A perda pelo suor é desprezível fora de sudorese extrema e prolongada.', D: 'A perda fecal relevante ocorre na diarreia, que cursa com acidose.' },
@@ -45,7 +45,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Paralisia periódica',
     e: 'Homem de 28 anos, de ascendência asiática, acorda sem conseguir mover as pernas após jantar rico em carboidratos. Refere emagrecimento, tremores e palpitações há 2 meses. Potássio de 2,1 mEq/L. O diagnóstico e o cuidado na reposição são:',
-    o: ['Síndrome de Guillain-Barré; imunoglobulina', 'Paralisia periódica hipocalêmica tireotóxica; repor potássio com cautela pelo risco de hipercalemia de rebote', 'Hiperaldosteronismo primário; espironolactona', 'Miastenia gravis; piridostigmina'],
+    o: ['Síndrome de Guillain-Barré; imunoglobulina venosa', 'Paralisia periódica tireotóxica; repor K+ com cautela (rebote)', 'Hiperaldosteronismo primário; espironolactona', 'Miastenia gravis; piridostigmina, por via oral'],
     g: 'B',
     c: 'O excesso de hormônio tireoidiano aumenta a atividade da bomba sódio-potássio ATPase, e a insulina liberada após carboidratos desencadeia entrada maciça de potássio nas células. Como o potássio corporal total é normal, a reposição deve ser em doses pequenas, pois o potássio retorna ao plasma com a resolução da crise. O propranolol e o controle do hipertireoidismo previnem novos episódios.',
     x: { A: 'O Guillain-Barré tem evolução em dias, arreflexia e potássio normal.', C: 'O hiperaldosteronismo causa hipocalemia crônica com hipertensão, não paralisia súbita.', D: 'A miastenia causa fraqueza flutuante ocular e bulbar, com potássio normal.' },
@@ -53,7 +53,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'ECG na hipocalemia',
     e: 'O eletrocardiograma de um paciente com potássio de 2,4 mEq/L mostra tipicamente:',
-    o: ['Onda T apiculada e encurtamento do QT', 'Achatamento da onda T, infradesnivelamento do ST e onda U proeminente', 'Onda J de Osborn e bradicardia', 'Supradesnivelamento difuso do ST com infradesnivelamento do PR'],
+    o: ['Onda T apiculada e encurtamento do QT', 'Achatamento de T, infra de ST e onda U proeminente', 'Onda J de Osborn e bradicardia sinusal', 'Supra difuso de ST com infra de PR'],
     g: 'B',
     c: 'A hipocalemia retarda a repolarização ventricular: a onda T se achata, o ST se deprime e surge a onda U, mais visível em V2 e V3, que pode se fundir à T simulando QT longo. Há maior risco de extrassístoles, taquiarritmias ventriculares e toxicidade pela digoxina.',
     x: { A: 'Onda T apiculada é o achado inicial da hipercalemia, não da hipocalemia.', C: 'A onda J de Osborn é característica da hipotermia.', D: 'Esse padrão de ST e PR é o da pericardite aguda.' },
@@ -61,7 +61,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Reposição oral',
     e: 'Mulher de 58 anos em uso de clortalidona, assintomática, com potássio de 3,1 mEq/L e eletrocardiograma normal. A melhor conduta é:',
-    o: ['Cloreto de potássio venoso em acesso central', 'Cloreto de potássio por via oral, podendo-se associar diurético poupador de potássio', 'Bicarbonato de potássio venoso', 'Apenas orientar aumento do consumo de banana'],
+    o: ['KCl venoso em acesso central, em infusão rápida', 'KCl por via oral; poupador de potássio, se necessário', 'Bicarbonato de potássio venoso, em infusão lenta', 'Apenas orientar mais banana na dieta'],
     g: 'B',
     c: 'A via oral é a preferida na hipocalemia leve a moderada sem sintomas graves nem alterações eletrocardiográficas, por ser segura e eficaz. O cloreto de potássio é o sal de escolha porque a hipocalemia por diurético vem acompanhada de alcalose e depleção de cloro. Associar espironolactona ou amilorida reduz a perda renal.',
     x: { A: 'A via venosa central é reservada a casos graves ou sem via oral disponível.', C: 'O bicarbonato agravaria a alcalose associada ao uso de diurético.', D: 'O potássio dos alimentos é insuficiente e vem acompanhado de fosfato e citrato, não de cloro.' },
@@ -77,7 +77,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Diluente da reposição',
     e: 'Paciente com potássio de 2,5 mEq/L e fraqueza muscular recebe cloreto de potássio diluído em solução glicosada a 5%. Após 4 horas o potássio é de 2,3 mEq/L. A explicação para a queda é:',
-    o: ['O cloreto de potássio é inativado pela glicose', 'A glicose estimula a secreção de insulina, que desloca potássio para o intracelular', 'A solução glicosada aumenta a excreção renal de potássio', 'Houve hemodiluição pelo volume infundido'],
+    o: ['O cloreto de potássio é inativado pela glicose', 'A glicose estimula a insulina e leva K+ para as células', 'A glicosada aumenta a excreção renal de potássio', 'Houve hemodiluição pelo volume infundido na veia'],
     g: 'B',
     c: 'A glicose infundida provoca liberação de insulina, que ativa a bomba sódio-potássio ATPase e desloca potássio para as células, podendo reduzir ainda mais o nível sérico no início. Por isso a reposição venosa deve ser diluída em solução salina, de preferência a 0,45% ou a 0,9%.',
     x: { A: 'Não existe inativação química do potássio pela glicose.', C: 'A solução glicosada não tem efeito caliurético direto relevante.', D: 'O volume usado na diluição não reduz o potássio de forma significativa.' },
@@ -109,7 +109,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Pseudo-hipercalemia',
     e: 'Mulher de 61 anos com trombocitemia essencial (plaquetas de 1.350.000/mm3), assintomática, apresenta potássio sérico de 6,4 mEq/L. Função renal e eletrocardiograma normais. A conduta é:',
-    o: ['Gluconato de cálcio e insulina com glicose imediatamente', 'Repetir a dosagem em plasma heparinizado, pois se trata provavelmente de pseudo-hipercalemia', 'Hemodiálise de urgência', 'Poliestirenossulfonato de cálcio por 7 dias'],
+    o: ['Gluconato de cálcio e insulina com glicose imediatamente', 'Repetir em plasma heparinizado: provável pseudo-hipercalemia', 'Hemodiálise de urgência, por hipercalemia grave', 'Poliestirenossulfonato de cálcio por 7 dias'],
     g: 'B',
     c: 'Na trombocitose acentuada as plaquetas liberam potássio durante a formação do coágulo no tubo, elevando o valor medido no soro sem refletir o nível in vivo. O mesmo ocorre com hemólise da amostra, garroteamento prolongado e leucocitose extrema. A dosagem em plasma e o eletrocardiograma normal confirmam o artefato.',
     x: { A: 'Tratar um artefato poderia provocar hipocalemia e hipoglicemia reais.', C: 'Não há indicação de diálise com função renal e eletrocardiograma normais.', D: 'Resinas são desnecessárias quando o potássio verdadeiro é normal.' },
@@ -125,7 +125,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Hipoaldosteronismo hiporreninêmico',
     e: 'Homem de 64 anos, diabético há 20 anos, com creatinina de 1,6 mg/dL, apresenta potássio de 5,9 mEq/L, cloro de 112 mEq/L, bicarbonato de 18 mEq/L e ânion gap normal. Não usa medicamentos que elevem o potássio. O diagnóstico mais provável é:',
-    o: ['Acidose tubular renal tipo 1', 'Acidose tubular renal tipo 4 por hipoaldosteronismo hiporreninêmico', 'Acidose tubular renal tipo 2', 'Uremia avançada com retenção de ânions'],
+    o: ['ATR tipo 1, com defeito distal de acidificação', 'ATR tipo 4, por hipoaldosteronismo hiporreninêmico', 'ATR tipo 2, com defeito proximal de bicarbonato', 'Uremia avançada com retenção de ânions'],
     g: 'B',
     c: 'Na nefropatia diabética a lesão do aparelho justaglomerular reduz a renina e, por consequência, a aldosterona. Sem aldosterona caem a secreção de potássio e de hidrogênio, e a própria hipercalemia inibe a produção de amônia, gerando acidose hiperclorêmica. A hipercalemia é desproporcional ao grau de disfunção renal.',
     x: { A: 'A acidose tubular tipo 1 cursa com hipocalemia e urina persistentemente alcalina.', C: 'A acidose tubular tipo 2 também cursa com hipocalemia, por bicarbonatúria.', D: 'A uremia causa ânion gap elevado e só com filtração muito mais baixa.' },
@@ -133,7 +133,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Rabdomiólise',
     e: 'Homem de 33 anos é resgatado após 10 horas sob escombros, com esmagamento dos membros inferiores. Urina escura, CPK de 68.000 U/L, potássio de 7,1 mEq/L, fósforo elevado e cálcio baixo. A hipercalemia decorre de:',
-    o: ['Hipoaldosteronismo induzido pelo trauma', 'Liberação do potássio intracelular pela necrose muscular, agravada por lesão renal aguda', 'Acidose respiratória por hipoventilação', 'Pseudo-hipercalemia por hemólise da amostra'],
+    o: ['Hipoaldosteronismo induzido pelo trauma', 'Liberação de K+ pela necrose muscular, agravada por LRA', 'Acidose respiratória por hipoventilação', 'Pseudo-hipercalemia por hemólise da amostra'],
     g: 'B',
     c: 'O músculo esquelético contém a maior parte do potássio corporal. A necrose libera potássio, fosfato, mioglobina e CPK; o cálcio cai por se depositar no músculo lesado. A mioglobina causa lesão tubular aguda, reduzindo a excreção de potássio. O manejo inclui hidratação vigorosa precoce e tratamento agressivo da hipercalemia.',
     x: { A: 'O trauma ativa o eixo adrenal; não há deficiência de aldosterona.', C: 'A acidose respiratória tem efeito pequeno sobre o potássio sérico.', D: 'O contexto clínico e a CPK muito elevada mostram hipercalemia verdadeira.' },
@@ -141,7 +141,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Acidose e potássio',
     e: 'Em relação ao efeito dos distúrbios ácido-base sobre o potássio sérico, o que mais eleva o potássio por saída do íon das células é:',
-    o: ['Acidose láctica', 'Acidose metabólica por ácidos minerais (hiperclorêmica)', 'Alcalose respiratória', 'Cetoacidose, pelo efeito direto dos cetoácidos'],
+    o: ['Acidose láctica, por hipoperfusão tecidual', 'Acidose metabólica por ácidos minerais (hiperclorêmica)', 'Alcalose respiratória, por hiperventilação', 'Cetoacidose, pelo efeito direto dos cetoácidos'],
     g: 'B',
     c: 'Nas acidoses por ácidos minerais o cloro não entra na célula junto com o hidrogênio, e a eletroneutralidade é mantida pela saída de potássio. Nas acidoses orgânicas o ânion (lactato, cetoácidos) acompanha o hidrogênio para o intracelular, com pouco deslocamento de potássio. Na cetoacidose a hipercalemia se deve à falta de insulina e à hiperosmolaridade.',
     x: { A: 'O lactato entra na célula com o hidrogênio e pouco desloca o potássio.', C: 'A alcalose desloca potássio para dentro das células, reduzindo o nível sérico.', D: 'Na cetoacidose o potássio sobe por falta de insulina e hipertonicidade, não pelos cetoácidos.' },
@@ -149,7 +149,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'ECG na hipercalemia',
     e: 'A sequência habitual das alterações eletrocardiográficas com o agravamento progressivo da hipercalemia é:',
-    o: ['Alargamento do QRS, onda T apiculada, onda U, fibrilação atrial', 'Onda T apiculada, achatamento da onda P e aumento do PR, alargamento do QRS, padrão sinusoidal', 'Onda U, infradesnivelamento do ST, QT longo, torsades de pointes', 'Encurtamento do QT, onda J, bloqueio atrioventricular total'],
+    o: ['Alargamento do QRS, T apiculada, onda U e fibrilação atrial', 'T apiculada, P achatada, PR longo, QRS largo, padrão sinusoidal', 'Onda U, infra de ST, QT longo e torsades de pointes', 'QT curto, onda J e bloqueio atrioventricular total'],
     g: 'B',
     c: 'A hipercalemia acelera inicialmente a repolarização, gerando T alta, simétrica e de base estreita. Depois, a despolarização parcial da membrana inativa canais de sódio e lentifica a condução: a onda P se achata e desaparece, o PR aumenta e o QRS se alarga até fundir-se à T no padrão sinusoidal, que precede fibrilação ventricular ou assistolia.',
     x: { A: 'O alargamento do QRS é tardio, e a onda U pertence à hipocalemia.', C: 'Essa sequência descreve a evolução da hipocalemia, não da hipercalemia.', D: 'QT curto é da hipercalcemia e a onda J é da hipotermia.' },
@@ -157,7 +157,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Gluconato de cálcio',
     e: 'Homem de 70 anos com doença renal crônica, em uso de losartana e espironolactona, chega com fraqueza. Potássio de 7,4 mEq/L e eletrocardiograma com ondas T apiculadas, ausência de onda P e QRS de 160 ms. A primeira medida é:',
-    o: ['Poliestirenossulfonato de cálcio por via oral', 'Gluconato de cálcio a 10% por via venosa em 2 a 5 minutos', 'Furosemida venosa', 'Bicarbonato de sódio a 8,4% em infusão de 4 horas'],
+    o: ['Poliestirenossulfonato de cálcio por via oral, em dose única', 'Gluconato de cálcio a 10% IV em 2-5 minutos', 'Furosemida venosa, em dose alta, e reposição de volume', 'Bicarbonato de sódio 8,4% em infusão de 4 horas'],
     g: 'B',
     c: 'Diante de alterações eletrocardiográficas, a prioridade é estabilizar a membrana do miócito. O cálcio eleva o limiar de excitação e restaura a diferença entre o potencial de repouso e o limiar, antagonizando o efeito do potássio em 1 a 3 minutos. Ele não reduz o potássio sérico e seu efeito dura 30 a 60 minutos, devendo ser seguido das medidas de translocação e de remoção.',
     x: { A: 'As resinas agem em horas e não protegem contra arritmia iminente.', C: 'O diurético demora a agir e tem resposta limitada na doença renal avançada.', D: 'O bicarbonato tem início lento e eficácia modesta, não sendo a medida inicial.' },
@@ -165,7 +165,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Insulina com glicose',
     e: 'No tratamento da hipercalemia, a solução polarizante mais utilizada, seu início de ação e seu mecanismo são:',
-    o: ['Insulina NPH 20 U subcutânea; ação em 4 horas; aumento da excreção renal', 'Insulina regular 10 U venosa com 25 a 50 g de glicose; ação em 15 a 30 minutos; entrada de potássio nas células', 'Insulina regular 50 U venosa sem glicose; ação imediata; estabilização de membrana', 'Glicose a 50% isolada; ação em 5 minutos; troca intestinal de potássio'],
+    o: ['NPH 20 U SC; ação em 4 horas; maior excreção renal', 'Regular 10 U IV com glicose 25-50 g; 15-30 min; K+ para a célula', 'Regular 50 U IV sem glicose; ação imediata; estabiliza a membrana', 'Glicose 50% isolada; ação em 5 minutos; troca intestinal'],
     g: 'B',
     c: 'A insulina regular venosa ativa a bomba sódio-potássio ATPase e reduz o potássio em 0,5 a 1,2 mEq/L, com pico em 30 a 60 minutos e duração de 4 a 6 horas. A glicose é associada para evitar hipoglicemia, e a glicemia deve ser monitorizada, sobretudo em renais crônicos. O potássio corporal total não muda.',
     x: { A: 'A insulina NPH subcutânea tem início lento e não é usada na emergência.', C: 'Essa dose sem glicose causaria hipoglicemia grave, e insulina não estabiliza a membrana.', D: 'A glicose isolada depende da insulina endógena e pode elevar o potássio em diabéticos.' },
@@ -173,7 +173,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Beta-2 na hipercalemia',
     e: 'Sobre o uso de salbutamol inalatório no tratamento da hipercalemia, é correto afirmar:',
-    o: ['A dose é a mesma usada na crise de asma, de 2,5 mg', 'A dose é de 10 a 20 mg por nebulização, com efeito aditivo ao da insulina, mas parte dos pacientes não responde', 'Deve substituir a insulina por ser mais eficaz e seguro', 'Remove potássio do organismo por aumentar a excreção renal'],
+    o: ['Dose igual à da crise de asma, de 2,5 mg', '10 a 20 mg por nebulização, aditivo à insulina; alguns não respondem', 'Substitui a insulina por ser mais eficaz e seguro', 'Remove potássio do organismo, aumentando a excreção renal'],
     g: 'B',
     c: 'O salbutamol desloca potássio para o intracelular e reduz o nível sérico em 0,5 a 1 mEq/L em cerca de 30 minutos, com efeito somado ao da insulina. São necessárias doses quatro a oito vezes maiores que as usadas no broncoespasmo. Como uma parcela dos pacientes, especialmente dialíticos e usuários de betabloqueador, não responde, não deve ser usado isoladamente.',
     x: { A: 'A dose de 2,5 mg é insuficiente para reduzir o potássio de modo confiável.', C: 'A resposta é imprevisível, e por isso ele é adjuvante e não substituto da insulina.', D: 'O mecanismo é a translocação celular, sem eliminação de potássio do corpo.' },
@@ -189,7 +189,7 @@ export const ELETROLITOS_3: QuestaoCompacta[] = [
   {
     s: 'Remoção de potássio',
     e: 'Entre as medidas usadas no tratamento da hipercalemia, as que efetivamente removem potássio do organismo são:',
-    o: ['Gluconato de cálcio e insulina com glicose', 'Diurético de alça, resinas de troca ou quelantes intestinais e diálise', 'Salbutamol e bicarbonato de sódio', 'Insulina com glicose e salbutamol'],
+    o: ['Gluconato de cálcio e insulina com glicose, em bolus', 'Diurético de alça, resina, quelante intestinal e diálise', 'Salbutamol inalatório e bicarbonato de sódio, em bolus', 'Insulina com glicose e salbutamol nebulizado'],
     g: 'B',
     c: 'O tratamento tem três etapas: estabilizar a membrana (cálcio), deslocar o potássio para o intracelular (insulina, beta-2, bicarbonato) e eliminá-lo. A eliminação se faz pelo rim com diurético de alça, pelo intestino com poliestirenossulfonato, patiromer ou ciclossilicato de zircônio sódico, e pela diálise. As duas primeiras etapas são temporárias.',
     x: { A: 'O cálcio protege o miocárdio e a insulina apenas redistribui o potássio.', C: 'Salbutamol e bicarbonato atuam principalmente por translocação celular.', D: 'Ambos deslocam potássio para as células, sem reduzir o conteúdo corporal.' },

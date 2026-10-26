@@ -37,7 +37,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Acidose lática tipo B',
     e: 'Qual das situações abaixo é causa de acidose lática tipo B, isto é, sem hipóxia tecidual evidente?',
-    o: ['Choque hemorrágico', 'Uso de metformina em paciente com insuficiência renal', 'Parada cardiorrespiratória', 'Isquemia mesentérica'],
+    o: ['Choque hemorrágico, com hipoperfusão', 'Metformina em paciente com insuficiência renal', 'Parada cardiorrespiratória, com hipoperfusão', 'Isquemia mesentérica, com hipoperfusão'],
     g: 'B',
     c: 'A acidose lática tipo B ocorre sem hipoperfusão sistêmica, por prejuízo do metabolismo do lactato ou disfunção mitocondrial. Metformina acumulada na insuficiência renal, antirretrovirais, linezolida, neoplasias hematológicas, insuficiência hepática e deficiência de tiamina são exemplos.',
     x: { A: 'O choque hemorrágico causa hipoperfusão global, mecanismo típico do tipo A.', C: 'Na parada cardiorrespiratória há hipóxia tecidual grave, portanto tipo A.', D: 'A isquemia mesentérica gera lactato por hipóxia regional, classificada como tipo A.' },
@@ -53,7 +53,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose alcoólica',
     e: 'Etilista crônico, após libação alcoólica seguida de 2 dias de vômitos e jejum, apresenta glicemia 90 mg/dL; pH 7,32; pCO2 30 mmHg; bicarbonato 15 mEq/L; sódio 137 mEq/L; cloro 96 mEq/L; cetonúria positiva. A conduta inicial indicada é:',
-    o: ['Insulina regular em infusão contínua', 'Soro fisiológico, glicose e tiamina por via venosa', 'Bicarbonato de sódio em bolus', 'Hemodiálise de urgência'],
+    o: ['Insulina regular em infusão contínua, com glicemia normal', 'Soro fisiológico, glicose e tiamina por via venosa', 'Bicarbonato de sódio em bolus, por via venosa central', 'Hemodiálise de urgência, sem reposição de volume'],
     g: 'B',
     c: 'Trata-se de cetoacidose alcoólica: ânion gap de 26 mEq/L com glicemia normal ou baixa. O jejum e a depleção de volume reduzem a insulina e elevam os hormônios contrarreguladores; a glicose restaura a secreção de insulina e interrompe a cetogênese, o volume corrige a hipovolemia e a tiamina previne a encefalopatia de Wernicke.',
     x: { A: 'A insulina não é necessária e pode causar hipoglicemia, já que a glicemia está normal.', C: 'A acidose é leve e se resolve com glicose e volume, sem necessidade de bicarbonato.', D: 'Não há indicação de diálise; não se trata de intoxicação por álcool tóxico nem de uremia.' },
@@ -101,7 +101,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Tratamento do salicilismo',
     e: 'No tratamento da intoxicação moderada por salicilato, a medida que aumenta a eliminação renal da droga é:',
-    o: ['Acidificação urinária com cloreto de amônio', 'Alcalinização urinária com bicarbonato de sódio', 'Diurese forçada com furosemida', 'Restrição hídrica'],
+    o: ['Acidificação urinária com cloreto de amônio', 'Alcalinização urinária com bicarbonato de sódio', 'Diurese forçada com furosemida', 'Restrição hídrica, com jejum'],
     g: 'B',
     c: 'O salicilato é um ácido fraco. Em urina alcalina ele fica ionizado e não é reabsorvido pelo túbulo (aprisionamento iônico), o que aumenta sua excreção; a alcalinização do plasma também reduz a entrada da droga no sistema nervoso central. Casos graves exigem hemodiálise.',
     x: { A: 'Urina ácida mantém o salicilato na forma não ionizada, aumentando sua reabsorção.', C: 'A furosemida não aumenta a depuração do salicilato e agrava a depleção de volume.', D: 'Os pacientes estão desidratados e precisam de reposição de volume, não de restrição.' },
@@ -109,7 +109,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Delta/delta',
     e: 'Paciente com cetoacidose diabética em tratamento com grande volume de soro fisiológico apresenta: pH 7,25; pCO2 21 mmHg; bicarbonato 9 mEq/L; sódio 138 mEq/L; cloro 111 mEq/L. Considerando ânion gap normal de 10 e bicarbonato normal de 24 mEq/L, conclui-se que há:',
-    o: ['Acidose com ânion gap aumentado isolada', 'Acidose com ânion gap aumentado associada a acidose hiperclorêmica', 'Acidose com ânion gap aumentado associada a alcalose metabólica', 'Acidose hiperclorêmica isolada'],
+    o: ['Acidose com ânion gap aumentado isolada', 'Acidose com AG aumentado e acidose hiperclorêmica', 'Acidose com AG aumentado e alcalose metabólica', 'Acidose hiperclorêmica isolada, sem AG aumentado'],
     g: 'B',
     c: 'O ânion gap é 138 - (111 + 9) = 18 mEq/L, uma variação de 8, enquanto o bicarbonato caiu 15. A relação delta/delta é 8/15, cerca de 0,5: o bicarbonato caiu mais do que os ânions acumulados explicam, indicando acidose hiperclorêmica associada, comum quando os cetoânions são excretados na urina e se infunde muito cloreto.',
     x: { A: 'Na forma isolada a relação delta/delta ficaria entre 1 e 2.', C: 'Alcalose metabólica associada daria relação acima de 2, com bicarbonato maior que o previsto.', D: 'O ânion gap de 18 mostra que ainda há ânions não medidos acumulados.' },
@@ -133,7 +133,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Ânion gap urinário',
     e: 'Paciente com acidose metabólica hiperclorêmica tem, na urina, sódio 30 mEq/L, potássio 20 mEq/L e cloro 75 mEq/L. O ânion gap urinário e sua interpretação são:',
-    o: ['+25 mEq/L; sugere acidose tubular renal distal', '-25 mEq/L; excreção de amônio preservada, sugere perda extrarrenal de bicarbonato', '-25 mEq/L; sugere acidose tubular renal tipo 4', '+125 mEq/L; sugere uso de diurético'],
+    o: ['+25 mEq/L; sugere ATR distal, com defeito de acidificação', '-25 mEq/L; amônio preservado, perda extrarrenal de HCO3', '-25 mEq/L; sugere ATR tipo 4, por hipoaldosteronismo', '+125 mEq/L; sugere uso de diurético, com perda de cloro'],
     g: 'B',
     c: 'O ânion gap urinário é sódio + potássio - cloro: 30 + 20 - 75 = -25 mEq/L. O amônio é excretado junto com cloro, de modo que um valor negativo indica amônio urinário elevado, resposta renal apropriada à acidose, como na diarreia. Valor positivo indica falha na excreção de amônio, como nas acidoses tubulares distais.',
     x: { A: 'O cálculo resulta em valor negativo; valor positivo é que sugere acidose tubular distal.', C: 'Na acidose tubular tipo 4 a amoniogênese está reduzida e o ânion gap urinário é positivo.', D: 'A fórmula subtrai o cloro, não soma, e o resultado correto é -25.' },
@@ -149,7 +149,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Acidose tubular renal tipo 2',
     e: 'Homem com mieloma múltiplo apresenta acidose hiperclorêmica com bicarbonato de 17 mEq/L, hipocalemia, glicosúria com glicemia normal, hipofosfatemia e hipouricemia. O defeito tubular responsável é:',
-    o: ['Falha na secreção distal de hidrogênio', 'Redução da reabsorção proximal de bicarbonato, no contexto de síndrome de Fanconi', 'Hipoaldosteronismo hiporreninêmico', 'Bloqueio do cotransportador sódio-cloro no túbulo distal'],
+    o: ['Falha na secreção distal de hidrogênio pelo néfron', 'Menor reabsorção proximal de HCO3 (síndrome de Fanconi)', 'Hipoaldosteronismo hiporreninêmico, com hipercalemia', 'Bloqueio do cotransportador Na-Cl no túbulo distal'],
     g: 'B',
     c: 'Na acidose tubular proximal o limiar de reabsorção de bicarbonato está reduzido, havendo bicarbonatúria até que o bicarbonato sérico caia para 15 a 18 mEq/L, quando a acidose se estabiliza. A associação com glicosúria, fosfatúria, uricosúria e aminoacidúria caracteriza a síndrome de Fanconi, causada por cadeias leves no mieloma.',
     x: { A: 'Falha da secreção distal define o tipo 1, que não explica glicosúria nem fosfatúria.', C: 'O hipoaldosteronismo causa o tipo 4, com hipercalemia e sem disfunção proximal.', D: 'Esse é o mecanismo dos tiazídicos e da síndrome de Gitelman, que causam alcalose.' },
@@ -157,7 +157,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Acidose tubular renal tipo 4',
     e: 'Diabético de longa data, com creatinina de 1,8 mg/dL, apresenta: pH 7,33; pCO2 33 mmHg; bicarbonato 17 mEq/L; sódio 137 mEq/L; cloro 110 mEq/L; potássio 6,0 mEq/L. A causa mais provável é:',
-    o: ['Acidose tubular renal distal clássica (tipo 1)', 'Acidose tubular renal tipo 4 por hipoaldosteronismo hiporreninêmico', 'Acidose urêmica com retenção de sulfato e fosfato', 'Cetoacidose diabética'],
+    o: ['ATR distal clássica (tipo 1)', 'ATR tipo 4, por hipoaldosteronismo hiporreninêmico', 'Acidose urêmica, com retenção de sulfato e fosfato', 'Cetoacidose diabética, com ânion gap aumentado'],
     g: 'B',
     c: 'O ânion gap é 137 - (110 + 17) = 10 mEq/L, normal, e há hipercalemia desproporcional à função renal. Na nefropatia diabética é comum o hipoaldosteronismo hiporreninêmico: a falta de aldosterona reduz a secreção distal de potássio e hidrogênio, e a própria hipercalemia inibe a amoniogênese.',
     x: { A: 'O tipo 1 clássico cursa com hipocalemia, e não com hipercalemia.', C: 'A acidose urêmica com ânion gap elevado surge com filtração glomerular muito mais baixa.', D: 'Na cetoacidose o ânion gap estaria aumentado.' },
@@ -165,7 +165,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Soro fisiológico em excesso',
     e: 'Paciente em pós-operatório recebeu 6 litros de soro fisiológico a 0,9% em 24 horas. Gasometria: pH 7,33; pCO2 35 mmHg; bicarbonato 18 mEq/L; sódio 141 mEq/L; cloro 115 mEq/L; lactato normal. O distúrbio é:',
-    o: ['Acidose lática por hipoperfusão oculta', 'Acidose metabólica hiperclorêmica pela infusão de solução rica em cloreto', 'Alcalose de contração', 'Acidose respiratória aguda por dor'],
+    o: ['Acidose lática por hipoperfusão oculta e hipovolemia', 'Acidose hiperclorêmica pela infusão de solução rica em cloreto', 'Alcalose de contração, por perda de volume extracelular', 'Acidose respiratória aguda por dor e hipoventilação'],
     g: 'B',
     c: 'O ânion gap é 141 - (115 + 18) = 8 mEq/L, normal. O soro fisiológico contém 154 mEq/L de cloro, muito acima do plasma, e nenhum tampão; sua infusão em grande volume dilui o bicarbonato e eleva o cloro. Soluções balanceadas, como o Ringer lactato, reduzem esse efeito.',
     x: { A: 'O lactato e o ânion gap normais afastam acidose lática.', C: 'A alcalose de contração eleva o bicarbonato e ocorre com perda, não ganho, de volume.', D: 'A pCO2 está baixa, compatível com compensação, e não elevada.' },
@@ -173,7 +173,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Ureterossigmoidostomia',
     e: 'Paciente submetido a cistectomia com derivação urinária para o cólon sigmoide desenvolve acidose metabólica hiperclorêmica com hipocalemia. O mecanismo é:',
-    o: ['Perda urinária de bicarbonato por defeito tubular proximal', 'Reabsorção de cloreto e amônio da urina pela mucosa colônica, em troca de bicarbonato', 'Produção de D-lactato por supercrescimento bacteriano', 'Redução da aldosterona por lesão adrenal'],
+    o: ['Perda urinária de bicarbonato por defeito tubular proximal', 'Reabsorção colônica de cloreto e amônio, em troca de bicarbonato', 'Produção de D-lactato por supercrescimento bacteriano', 'Redução da aldosterona por lesão adrenal'],
     g: 'B',
     c: 'A mucosa do cólon possui um trocador cloro/bicarbonato: em contato com a urina, absorve cloro e secreta bicarbonato, além de absorver amônio urinário, que representa carga ácida. O cólon também secreta potássio, explicando a hipocalemia.',
     x: { A: 'A função tubular proximal está preservada; a perda de base ocorre no intestino.', C: 'A acidose por D-lactato ocorre no intestino curto e tem ânion gap aumentado.', D: 'O hipoaldosteronismo causaria hipercalemia, e não hipocalemia.' },
@@ -181,7 +181,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Uso de bicarbonato',
     e: 'Adulto com cetoacidose diabética, hemodinamicamente estável, apresenta pH 7,19; pCO2 19 mmHg; bicarbonato 7 mEq/L; potássio 4,6 mEq/L. Em relação ao bicarbonato de sódio venoso, a conduta correta é:',
-    o: ['Administrar em bolus, pois o bicarbonato está abaixo de 10 mEq/L', 'Não administrar; tratar com hidratação, insulina e reposição de potássio', 'Administrar em infusão contínua até pH de 7,40', 'Administrar antes de iniciar a insulina'],
+    o: ['Dar em bolus, pois o bicarbonato está abaixo de 10 mEq/L', 'Não dar; hidratar, insulina e repor potássio', 'Dar em infusão contínua até pH de 7,40', 'Dar antes de iniciar a insulina, na admissão'],
     g: 'B',
     c: 'Na cetoacidose, a insulina interrompe a cetogênese e os cetoânions são metabolizados, regenerando bicarbonato. O bicarbonato exógeno só é considerado com pH abaixo de 6,9, pois pode causar hipocalemia, sobrecarga de sódio, acidose paradoxal do sistema nervoso central e atraso na depuração das cetonas.',
     x: { A: 'O critério é o pH (abaixo de 6,9), não o valor isolado do bicarbonato.', C: 'Corrigir até pH normal causaria alcalose de rebote quando os cetoânions fossem metabolizados.', D: 'A sequência do tratamento é volume, potássio e insulina, sem papel rotineiro para o bicarbonato.' },
@@ -189,7 +189,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Ânion gap reduzido',
     e: 'Um ânion gap sérico reduzido ou negativo deve levar à suspeita de:',
-    o: ['Intoxicação por salicilato', 'Hipoalbuminemia ou mieloma múltiplo com paraproteína catiônica', 'Cetoacidose alcoólica', 'Insuficiência renal avançada'],
+    o: ['Intoxicação por salicilato, com AG aumentado', 'Hipoalbuminemia ou mieloma com paraproteína catiônica', 'Cetoacidose alcoólica, com AG aumentado', 'Insuficiência renal avançada, com AG aumentado'],
     g: 'B',
     c: 'O ânion gap cai quando diminuem os ânions não medidos, principalmente a albumina, ou quando aumentam os cátions não medidos, como as imunoglobulinas G catiônicas do mieloma, o lítio, o cálcio e o magnésio. Intoxicação por brometo também pode gerar valor falsamente negativo.',
     x: { A: 'O salicilato é ânion não medido e eleva o ânion gap.', C: 'Os cetoânions da cetoacidose alcoólica aumentam o ânion gap.', D: 'Na insuficiência renal avançada há retenção de sulfato e fosfato, com ânion gap aumentado.' },
@@ -197,7 +197,7 @@ export const ACIDO_BASE_2: QuestaoCompacta[] = [
   {
     s: 'Causas de ânion gap aumentado',
     e: 'Todas as condições abaixo são causas de acidose metabólica com ânion gap aumentado, EXCETO:',
-    o: ['Cetoacidose diabética', 'Intoxicação por etilenoglicol', 'Acidose lática', 'Fístula pancreática de alto débito'],
+    o: ['Cetoacidose diabética, com AG aumentado', 'Intoxicação por etilenoglicol, com AG aumentado', 'Acidose lática, com AG aumentado', 'Fístula pancreática de alto débito'],
     g: 'D',
     c: 'A secreção pancreática é rica em bicarbonato; sua perda por fístula causa acidose hiperclorêmica, com ânion gap normal, assim como a diarreia. As demais opções acumulam ânions não medidos: cetoânions, glicolato e lactato.',
     x: { A: 'A cetoacidose acumula beta-hidroxibutirato e acetoacetato, elevando o ânion gap.', B: 'O etilenoglicol gera glicolato e oxalato, ânions não medidos.', C: 'O lactato é o ânion não medido mais comum nas acidoses do paciente grave.' },
