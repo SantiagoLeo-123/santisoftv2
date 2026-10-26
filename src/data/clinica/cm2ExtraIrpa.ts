@@ -5,7 +5,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Classificação',
     e: 'Insuficiência respiratória tipo 1 (hipoxêmica) caracteriza-se por:',
-    o: ['PaO2 abaixo de 60 mmHg com PaCO2 normal ou baixa', 'PaCO2 acima de 50 com pH baixo', 'PaO2 normal', 'Alcalose metabólica'],
+    o: ['PaO2 < 60 mmHg com PaCO2 normal ou baixa', 'PaCO2 > 50 mmHg com pH baixo (acidose respiratória)', 'PaO2 normal, com saturação adequada em ar ambiente', 'Alcalose metabólica, com bicarbonato elevado'],
     g: 'A',
     c: 'O tipo 2 (hipercápnico) tem PaCO2 acima de 45 a 50 com acidose. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Tipo 2.', C: 'Normal.', D: 'Sem relação.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Mecanismos de hipoxemia',
     e: 'A causa mais comum de hipoxemia é:',
-    o: ['Distúrbio da relação ventilação-perfusão', 'Hipoventilação', 'Baixa FiO2 ambiental', 'Distúrbio de difusão isolado'],
+    o: ['Distúrbio da relação ventilação-perfusão', 'Hipoventilação, com retenção de CO2', 'Baixa FiO2 ambiental, em grandes altitudes', 'Distúrbio de difusão isolado, sem alteração V/Q'],
     g: 'A',
     c: 'O shunt verdadeiro não corrige com oxigênio. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos comum.', C: 'Rara ao nível do mar.', D: 'Menos comum.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Gradiente alvéolo-arterial',
     e: 'Hipoxemia com gradiente alvéolo-arterial normal sugere:',
-    o: ['Hipoventilação (como intoxicação por opioides) ou baixa FiO2', 'Pneumonia', 'TEP', 'SDRA'],
+    o: ['Hipoventilação (opioides) ou baixa FiO2', 'Pneumonia, que aumenta o gradiente alvéolo-arterial', 'TEP, que aumenta o gradiente alvéolo-arterial', 'SDRA, que aumenta o gradiente alvéolo-arterial'],
     g: 'A',
     c: 'Gradiente aumentado indica doença pulmonar. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Gradiente aumentado.', C: 'Gradiente aumentado.', D: 'Gradiente aumentado.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Shunt',
     e: 'Hipoxemia que não melhora com oxigênio a 100% sugere:',
-    o: ['Shunt (como em SDRA grave, atelectasia ou malformação arteriovenosa)', 'Hipoventilação', 'Distúrbio V/Q leve', 'Anemia'],
+    o: ['Shunt (SDRA grave, atelectasia, malformação AV)', 'Hipoventilação alveolar, que melhora com oxigênio suplementar', 'Distúrbio V/Q leve, que melhora com oxigênio suplementar', 'Anemia, que não causa hipoxemia arterial propriamente dita'],
     g: 'A',
     c: 'Exige recrutamento e PEEP. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Corrige com O2.', C: 'Corrige com O2.', D: 'Sem relação.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'SDRA: definição',
     e: 'Pela definição de Berlim, a SDRA exige:',
-    o: ['Início em até 1 semana, opacidades bilaterais não explicadas por derrame, colapso ou nódulos, edema não explicado por IC e relação PaO2/FiO2 de 300 ou menos com PEEP de 5', 'Opacidade unilateral', 'Início após 1 mês', 'Relação PaO2/FiO2 acima de 400'],
+    o: ['Início em até 1 semana, infiltrado bilateral, sem causa cardíaca, P/F ≤ 300', 'Opacidade unilateral, restrita a um lobo pulmonar, sem edema associado', 'Início após 1 mês de evolução, de forma insidiosa e arrastada', 'Relação PaO2/FiO2 acima de 400, mesmo com PEEP elevada no ventilador'],
     g: 'A',
     c: 'Leve: 200 a 300; moderada: 100 a 200; grave: abaixo de 100. Referência: ARDS Definition Task Force. Acute respiratory distress syndrome: the Berlin Definition. JAMA. 2012;307(23):2526-33.',
     x: { B: 'Bilateral.', C: 'Agudo.', D: 'Valor normal.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'SDRA: causas',
     e: 'Causas comuns de SDRA incluem:',
-    o: ['Pneumonia, sepse, aspiração, pancreatite, trauma e transfusões', 'Asma leve', 'Rinite', 'Gastrite'],
+    o: ['Pneumonia, sepse, aspiração, pancreatite, trauma e transfusões', 'Asma leve, controlada com broncodilatador', 'Rinite alérgica, com obstrução nasal e espirros', 'Gastrite aguda, com dor epigástrica e náuseas'],
     g: 'A',
     c: 'Pulmonares (diretas) e extrapulmonares (indiretas). Referência: ARDS Definition Task Force. Acute respiratory distress syndrome: the Berlin Definition. JAMA. 2012;307(23):2526-33.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Ventilação protetora',
     e: 'Na SDRA, a ventilação protetora inclui:',
-    o: ['Volume corrente de 6 mL/kg do peso predito e pressão de platô abaixo de 30 cmH2O', 'Volume corrente de 12 mL/kg', 'Pressão de platô acima de 40', 'PEEP zero'],
+    o: ['Volume corrente 6 mL/kg (peso predito) e platô < 30 cmH2O', 'Volume corrente de 12 mL/kg do peso real', 'Pressão de platô acima de 40 cmH2O, se necessário', 'PEEP zero, para evitar barotrauma pulmonar'],
     g: 'A',
     c: 'Reduziu mortalidade (estudo ARMA). Referência: ARDS Network. Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury. N Engl J Med. 2000;342(18):1301-8.',
     x: { B: 'Lesivo.', C: 'Lesivo.', D: 'Prejudicial.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Posição prona',
     e: 'Na SDRA moderada a grave (PaO2/FiO2 abaixo de 150), a posição prona:',
-    o: ['Reduz mortalidade se aplicada por pelo menos 16 horas por dia', 'É contraindicada', 'Não tem benefício', 'Deve ser usada por 1 hora'],
+    o: ['Reduz mortalidade se aplicada por ≥ 16 h/dia', 'É contraindicada na SDRA moderada a grave', 'Não traz nenhum benefício clínico comprovado', 'Deve ser usada por apenas 1 hora ao dia'],
     g: 'A',
     c: 'Estudo PROSEVA. Referência: Guérin C et al. Prone positioning in severe acute respiratory distress syndrome. N Engl J Med. 2013;368(23):2159-68.',
     x: { B: 'Indicada.', C: 'Tem benefício.', D: 'Insuficiente.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Bloqueio neuromuscular',
     e: 'Na SDRA grave, o bloqueio neuromuscular:',
-    o: ['Pode ser considerado nas primeiras 48 horas em casos de assincronia ou hipoxemia grave, sem uso rotineiro', 'É obrigatório em todos', 'É contraindicado', 'Melhora sempre a sobrevida'],
+    o: ['Considerar nas primeiras 48 h se assincronia ou hipoxemia grave', 'É obrigatório em todos os pacientes com SDRA, desde o início', 'É contraindicado na SDRA, em qualquer fase da doença', 'Melhora sempre a sobrevida, em todos os casos em que é usado'],
     g: 'A',
     c: 'Estudos divergentes (ACURASYS e ROSE). Referência: Grasselli G et al. ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies. Intensive Care Med. 2023;49(7):727-59.',
     x: { B: 'Não rotina.', C: 'Pode ser usado.', D: 'Não sempre.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Fluidos na SDRA',
     e: 'Na SDRA sem choque, a estratégia de fluidos recomendada é:',
-    o: ['Conservadora, evitando balanço hídrico positivo', 'Liberal', 'Ignorar', 'Diurese máxima com hipotensão'],
+    o: ['Conservadora, evitando balanço hídrico positivo', 'Liberal, com grandes volumes de cristaloide', 'Ignorar o balanço hídrico, na SDRA sem choque', 'Diurese máxima, mesmo com hipotensão associada'],
     g: 'A',
     c: 'Melhora oxigenação e dias sem ventilação. Referência: National Heart, Lung, and Blood Institute ARDS Clinical Trials Network. Comparison of two fluid-management strategies in acute lung injury (FACTT). N Engl J Med. 2006;354(24):2564-75.',
     x: { B: 'Prejudicial.', C: 'Importa.', D: 'Risco.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'VNI: indicações',
     e: 'A ventilação não invasiva tem maior benefício em:',
-    o: ['Exacerbação de DPOC hipercápnica e edema agudo de pulmão cardiogênico', 'SDRA grave', 'Rebaixamento de consciência', 'Vômitos e sangramento digestivo'],
+    o: ['DPOC exacerbada com hipercapnia e EAP cardiogênico', 'SDRA grave, com hipoxemia refratária', 'Rebaixamento do nível de consciência importante', 'Vômitos incoercíveis e sangramento digestivo ativo'],
     g: 'A',
     c: 'Também em imunossuprimidos selecionados. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco de falha.', C: 'Contraindicação.', D: 'Contraindicação.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'VNI: contraindicações',
     e: 'É contraindicação à ventilação não invasiva:',
-    o: ['Parada respiratória, rebaixamento de consciência, instabilidade hemodinâmica e incapacidade de proteger a via aérea', 'DPOC exacerbada', 'Edema pulmonar', 'Hipercapnia leve'],
+    o: ['Parada respiratória, rebaixamento, instabilidade e via aérea desprotegida', 'DPOC exacerbada, com hipercapnia e acidose leve, em paciente colaborativo', 'Edema pulmonar cardiogênico, com paciente colaborativo e estável', 'Hipercapnia leve, com paciente alerta, estável e capaz de cooperar'],
     g: 'A',
     c: 'Nesses casos, intubação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Indicação.', C: 'Indicação.', D: 'Indicação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Cânula nasal de alto fluxo',
     e: 'Paciente com insuficiência respiratória hipoxêmica sem hipercapnia. Uma alternativa à VNI com bom desempenho é:',
-    o: ['Cânula nasal de alto fluxo', 'Máscara simples', 'Cateter nasal de baixo fluxo', 'Nada'],
+    o: ['Cânula nasal de alto fluxo', 'Máscara simples, com fluxo baixo de oxigênio', 'Cateter nasal de baixo fluxo, com 1-2 L/min', 'Nenhuma suplementação de oxigênio é necessária'],
     g: 'A',
     c: 'Estudo FLORALI. Referência: Frat JP et al. High-flow oxygen through nasal cannula in acute hypoxemic respiratory failure (FLORALI). N Engl J Med. 2015;372(23):2185-96.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Risco.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Intubação: sequência rápida',
     e: 'A intubação em sequência rápida inclui:',
-    o: ['Pré-oxigenação, sedativo-hipnótico e bloqueador neuromuscular administrados em sequência, sem ventilação com bolsa se possível', 'Intubar sem medicação', 'Apenas sedação leve', 'Ventilar vigorosamente antes'],
+    o: ['Pré-oxigenar, dar hipnótico e bloqueador em sequência, sem ventilar com bolsa', 'Intubar sem nenhuma medicação, para ganhar tempo e evitar a aspiração', 'Apenas sedação leve, sem bloqueio neuromuscular, para manter respiração', 'Ventilar vigorosamente com bolsa antes da intubação, para pré-oxigenar'],
     g: 'A',
     c: 'Reduz aspiração. Referência: Brown CA, Sakles JC, Mick NW. The Walls Manual of Emergency Airway Management. 6ª ed. Philadelphia: Wolters Kluwer, 2022.',
     x: { B: 'Inadequado.', C: 'Insuficiente.', D: 'Risco de aspiração.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Succinilcolina',
     e: 'A succinilcolina é contraindicada em:',
-    o: ['Hipercalemia, grandes queimados e lesões neuromusculares após 48 horas, e história de hipertermia maligna', 'Jejum', 'Pacientes jovens', 'Asma'],
+    o: ['Hipercalemia, grandes queimados, lesão neuromuscular e hipertermia maligna', 'Jejum prolongado antes do procedimento, em paciente eletivo', 'Pacientes jovens, sem comorbidades e sem história familiar relevante', 'Asma brônquica, mesmo em crise grave, por broncoespasmo associado'],
     g: 'A',
     c: 'Rocurônio é alternativa. Referência: Brown CA, Sakles JC, Mick NW. The Walls Manual of Emergency Airway Management. 6ª ed. 2022.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Confirmação da intubação',
     e: 'O melhor método para confirmar o posicionamento traqueal da cânula é:',
-    o: ['Capnografia com curva de CO2 persistente', 'Ausculta isolada', 'Embaçamento do tubo', 'Radiografia isolada imediata'],
+    o: ['Capnografia com curva de CO2 persistente', 'Ausculta pulmonar isolada, em dois campos', 'Embaçamento do tubo, durante a expiração', 'Radiografia de tórax isolada, imediata'],
     g: 'A',
     c: 'A radiografia confirma a altura, não a localização traqueal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Falha.', C: 'Falha.', D: 'Não confirma traqueal.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Hipoventilação',
     e: 'Paciente com overdose de opioide, frequência respiratória de 6 e PaCO2 de 70. O tratamento é:',
-    o: ['Naloxona e suporte ventilatório', 'Oxigênio em alto fluxo isolado', 'Bicarbonato', 'Diurético'],
+    o: ['Naloxona e suporte ventilatório', 'Oxigênio em alto fluxo isolado, sem antídoto', 'Bicarbonato de sódio venoso, em bolus', 'Diurético de alça venoso, em dose alta'],
     g: 'A',
     c: 'O oxigênio isolado não corrige a hipoventilação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem indicação.', D: 'Sem relação.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Desmame',
     e: 'Para avaliar prontidão para extubação, realiza-se:',
-    o: ['Teste de respiração espontânea de 30 a 120 minutos com pressão de suporte baixa ou tubo T', 'Extubação sem avaliação', 'Teste de 1 minuto', 'Gasometria isolada'],
+    o: ['Teste de respiração espontânea de 30-120 min (PS baixa ou tubo T)', 'Extubação sem nenhuma avaliação prévia, assim que o paciente acordar', 'Teste de 1 minuto, com paciente em repouso e em ventilação assistida', 'Gasometria arterial isolada, sem realizar teste de respiração espontânea'],
     g: 'A',
     c: 'Também despertar diário da sedação. Referência: Girard TD et al. Efficacy and safety of a paired sedation and ventilator weaning protocol (ABC trial). Lancet. 2008;371(9607):126-34.',
     x: { B: 'Risco.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'PAV: prevenção',
     e: 'Medidas de prevenção da pneumonia associada à ventilação incluem:',
-    o: ['Cabeceira a 30 a 45 graus, higiene oral, interrupção diária da sedação e desmame precoce', 'Posição supina a zero grau', 'Sedação profunda contínua', 'Troca diária do circuito'],
+    o: ['Cabeceira 30-45°, higiene oral, pausa diária de sedação e desmame precoce', 'Posição supina a zero grau, de forma contínua, durante a ventilação', 'Sedação profunda contínua, em todos os pacientes sob ventilação mecânica', 'Troca diária do circuito do ventilador, de forma rotineira e programada'],
     g: 'A',
     c: 'Pacote de medidas (bundle). Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Aumenta risco.', C: 'Aumenta risco.', D: 'Desnecessário.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Corticoide na SDRA',
     e: 'Sobre o corticoide na SDRA, é correto afirmar:',
-    o: ['Pode ser considerado em SDRA moderada a grave precoce, com evidência crescente, e é indicado na covid-19 grave', 'É contraindicado sempre', 'Cura a SDRA', 'Deve ser iniciado após 14 dias de rotina'],
+    o: ['Considerar na SDRA moderada a grave precoce; indicado na covid-19 grave', 'É contraindicado em qualquer caso de SDRA, por risco de infecção', 'Cura a SDRA, em todos os casos tratados, em poucos dias', 'Deve ser iniciado apenas após 14 dias de ventilação, de rotina'],
     g: 'A',
     c: 'Estudo DEXA-ARDS. Referência: Villar J et al. Dexamethasone treatment for the acute respiratory distress syndrome (DEXA-ARDS). Lancet Respir Med. 2020;8(3):267-76.',
     x: { B: 'Pode ser usado.', C: 'Não cura.', D: 'Tardio pode prejudicar.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'PEEP',
     e: 'A PEEP na ventilação mecânica serve para:',
-    o: ['Manter alvéolos abertos e melhorar a oxigenação', 'Reduzir a oxigenação', 'Aumentar o retorno venoso', 'Reduzir o volume pulmonar sempre'],
+    o: ['Manter alvéolos abertos e melhorar a oxigenação', 'Reduzir a oxigenação, evitando barotrauma', 'Aumentar o retorno venoso ao coração direito', 'Reduzir sempre o volume pulmonar total'],
     g: 'A',
     c: 'Excesso pode causar hipotensão e barotrauma. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'O oposto.', D: 'Não sempre.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Sinais de insuficiência respiratória',
     e: 'Sinais clínicos de insuficiência respiratória iminente incluem:',
-    o: ['Uso de musculatura acessória, respiração paradoxal, taquipneia acima de 30 e alteração do nível de consciência', 'Frequência respiratória de 16', 'Fala normal', 'Saturação de 98% em ar ambiente'],
+    o: ['Uso da musculatura acessória, respiração paradoxal, FR > 30, rebaixamento', 'Frequência respiratória de 16 irpm, sem esforço respiratório visível', 'Fala normal, em frases completas, sem esforço e sem fadiga', 'Saturação de 98% em ar ambiente, sem esforço e sem taquipneia'],
     g: 'A',
     c: 'Indicam suporte ventilatório. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Normal.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Oximetria',
     e: 'Situação em que a oximetria de pulso superestima a oxigenação é:',
-    o: ['Intoxicação por monóxido de carbono', 'Anemia leve', 'Hipertensão', 'Febre'],
+    o: ['Intoxicação por monóxido de carbono', 'Anemia leve, que não altera a leitura', 'Hipertensão arterial, que não altera a leitura', 'Febre alta, que não altera a leitura'],
     g: 'A',
     c: 'A carboxi-hemoglobina é lida como oxi-hemoglobina. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Metemoglobinemia',
     e: 'Paciente com cianose que não melhora com oxigênio e saturação próxima de 85% na oximetria após uso de dapsona. A hipótese é:',
-    o: ['Metemoglobinemia', 'Pneumonia', 'Asma', 'TEP'],
+    o: ['Metemoglobinemia', 'Pneumonia lobar, com hipoxemia que melhora com oxigênio', 'Asma grave, com hipoxemia que melhora com oxigênio', 'TEP, com hipoxemia que melhora com oxigênio'],
     g: 'A',
     c: 'Tratamento com azul de metileno. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Melhoraria.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Ventilação: modos',
     e: 'Na ventilação controlada a volume, o parâmetro fixado pelo médico é:',
-    o: ['O volume corrente, com a pressão variando conforme a mecânica', 'A pressão inspiratória', 'O fluxo do paciente', 'Nenhum'],
+    o: ['O volume corrente; a pressão varia com a mecânica', 'A pressão inspiratória, mantida constante', 'O fluxo gerado pelo próprio paciente', 'Nenhum parâmetro é fixado pelo médico'],
     g: 'A',
     c: 'Na ventilação a pressão, o volume varia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Modo pressão.', C: 'Espontâneo.', D: 'Sem sentido.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Pressão de platô',
     e: 'A pressão de platô reflete principalmente:',
-    o: ['A complacência do sistema respiratório (pulmão e caixa torácica)', 'A resistência das vias aéreas', 'A frequência', 'A FiO2'],
+    o: ['A complacência do sistema respiratório (pulmão e caixa torácica)', 'A resistência das vias aéreas condutoras (secreção, broncoespasmo)', 'A frequência respiratória programada no ventilador mecânico', 'A fração inspirada de oxigênio ofertada ao paciente ventilado'],
     g: 'A',
     c: 'Pico alto com platô normal sugere aumento de resistência. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Pico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Pressão de pico alta',
     e: 'Paciente ventilado com aumento súbito da pressão de pico e platô normal. A causa provável é:',
-    o: ['Aumento da resistência (secreção, broncoespasmo ou dobra do tubo)', 'Pneumotórax', 'SDRA', 'Edema pulmonar'],
+    o: ['Aumento da resistência (secreção, broncoespasmo, dobra do tubo)', 'Pneumotórax, que reduz a complacência e eleva o platô', 'SDRA, que reduz a complacência e eleva o platô', 'Edema pulmonar, que reduz a complacência e eleva o platô'],
     g: 'A',
     c: 'Aspirar e checar o tubo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Platô subiria.', C: 'Platô subiria.', D: 'Platô subiria.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Pneumotórax no ventilado',
     e: 'Paciente em ventilação mecânica com piora súbita, hipotensão, aumento das pressões de pico e platô e murmúrio abolido unilateral. A conduta é:',
-    o: ['Descompressão imediata do pneumotórax hipertensivo', 'Aumentar a PEEP', 'Sedar mais', 'Aguardar radiografia'],
+    o: ['Descompressão imediata do pneumotórax hipertensivo', 'Aumentar a PEEP, para recrutar os alvéolos', 'Aumentar a sedação, para melhorar a sincronia', 'Aguardar a radiografia de tórax, antes de agir'],
     g: 'A',
     c: 'É diagnóstico clínico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Pioraria.', C: 'Insuficiente.', D: 'Atraso.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Auto-PEEP',
     e: 'Na ventilação de paciente com asma ou DPOC, a auto-PEEP pode causar:',
-    o: ['Hipotensão e barotrauma por hiperinsuflação dinâmica', 'Melhora da oxigenação sempre', 'Hipocapnia', 'Nada'],
+    o: ['Hipotensão e barotrauma por hiperinsuflação dinâmica', 'Melhora da oxigenação, em todos os pacientes', 'Hipocapnia, por aumento da ventilação alveolar', 'Nenhum efeito clínico relevante nem hemodinâmico'],
     g: 'A',
     c: 'Reduzir frequência e prolongar a expiração. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não sempre.', C: 'Sem relação.', D: 'Tem efeito.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Hipercapnia permissiva',
     e: 'Na ventilação protetora, a hipercapnia permissiva é aceita, exceto em:',
-    o: ['Hipertensão intracraniana', 'Asma', 'SDRA', 'DPOC'],
+    o: ['Hipertensão intracraniana', 'Asma, em que a hipercapnia é bem tolerada', 'SDRA, em que a hipercapnia é bem tolerada', 'DPOC, em que a hipercapnia é bem tolerada'],
     g: 'A',
     c: 'O CO2 eleva a pressão intracraniana. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Aceita.', C: 'Aceita.', D: 'Aceita.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Sedação na UTI',
     e: 'Estratégia recomendada para sedação em ventilação mecânica é:',
-    o: ['Sedação leve, guiada por escalas (como RASS), priorizando analgesia', 'Sedação profunda contínua para todos', 'Benzodiazepínicos como primeira escolha', 'Sem analgesia'],
+    o: ['Sedação leve guiada por escala (RASS), priorizando analgesia', 'Sedação profunda contínua para todos os pacientes', 'Benzodiazepínicos como primeira escolha em todos', 'Nenhuma analgesia, apenas sedativos em infusão'],
     g: 'A',
     c: 'Reduz tempo de ventilação e delirium. Referência: Devlin JW et al. Clinical Practice Guidelines for the Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU (PADIS). Crit Care Med. 2018;46(9):e825-73.',
     x: { B: 'Prejudicial.', C: 'Mais delirium.', D: 'Inadequado.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Delirium na UTI',
     e: 'Medidas para prevenir delirium na UTI incluem:',
-    o: ['Mobilização precoce, sono adequado, orientação e evitar benzodiazepínicos', 'Contenção física rotineira', 'Sedação profunda', 'Isolamento'],
+    o: ['Mobilização precoce, sono, orientação, evitar benzodiazepínicos', 'Contenção física rotineira em todos os pacientes', 'Sedação profunda contínua, para evitar agitação', 'Isolamento do paciente, em quarto fechado'],
     g: 'A',
     c: 'O pacote ABCDEF ajuda. Referência: Devlin JW et al. Crit Care Med. 2018;46(9):e825-73.',
     x: { B: 'Piora.', C: 'Piora.', D: 'Piora.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia: metas',
     e: 'Em pacientes graves sem DPOC, a meta de saturação recomendada é de cerca de:',
-    o: ['92% a 96%', '100% sempre', '80%', '85%'],
+    o: ['92% a 96%', '100%, sempre, para qualquer paciente grave', '80%, como meta aceitável para todos', '85%, como meta aceitável para todos'],
     g: 'A',
     c: 'Hiperóxia pode ser lesiva. Referência: Chu DK et al. Mortality and morbidity in acutely ill adults treated with liberal versus conservative oxygen therapy (IOTA). Lancet. 2018;391(10131):1693-705.',
     x: { B: 'Prejudicial.', C: 'Hipoxemia.', D: 'Hipoxemia.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Máscara com reservatório',
     e: 'A máscara não reinalante com reservatório fornece FiO2 de aproximadamente:',
-    o: ['60% a 90% com fluxo de 10 a 15 L/min', '21%', '30%', '100% garantido'],
+    o: ['60-90% com fluxo de 10-15 L/min', '21%, igual ao do ar ambiente', '30%, com fluxo de apenas 2 L/min', '100% garantido, em qualquer fluxo utilizado'],
     g: 'A',
     c: 'O cateter nasal fornece no máximo cerca de 40%. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Ar ambiente.', C: 'Baixo.', D: 'Não garantido.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Edema pulmonar não cardiogênico',
     e: 'Edema pulmonar após subida rápida a grandes altitudes é:',
-    o: ['Edema pulmonar de altitude, não cardiogênico', 'IC esquerda', 'Pneumonia', 'Asma'],
+    o: ['Edema pulmonar de altitude (não cardiogênico)', 'Insuficiência cardíaca esquerda, de origem isquêmica', 'Pneumonia bacteriana, com consolidação lobar', 'Asma brônquica, descompensada pelo frio'],
     g: 'A',
     c: 'Tratamento: descer e oxigênio; nifedipina como adjuvante. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem febre.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Afogamento',
     e: 'Vítima de afogamento com hipoxemia e infiltrados bilaterais. O mecanismo é:',
-    o: ['Lesão alveolar por aspiração de água, com perda de surfactante (SDRA)', 'IC', 'Asma', 'Pneumonia lobar sempre'],
+    o: ['Lesão alveolar por aspiração, com perda de surfactante (SDRA)', 'Insuficiência cardíaca esquerda, com edema pulmonar', 'Asma brônquica, descompensada pela água fria', 'Pneumonia lobar, em todos os casos de afogamento'],
     g: 'A',
     c: 'Suporte com PEEP. Referência: ARDS Definition Task Force. Acute respiratory distress syndrome: the Berlin Definition. JAMA. 2012;307(23):2526-33.',
     x: { B: 'Não cardiogênico.', C: 'Sem relação.', D: 'Não sempre.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Doenças neuromusculares',
     e: 'Paciente com Guillain-Barré e fraqueza progressiva. Indicador para intubação é:',
-    o: ['Capacidade vital abaixo de 20 mL/kg ou queda progressiva', 'Saturação de 98%', 'Frequência de 14', 'Fala normal'],
+    o: ['CV < 20 mL/kg ou queda progressiva', 'Saturação de 98% em ar ambiente, estável', 'Frequência respiratória de 14 irpm, estável', 'Fala normal, em frases completas, sem esforço'],
     g: 'A',
     c: 'A hipoxemia é tardia. Referência: Lawn ND et al. Anticipating mechanical ventilation in Guillain-Barré syndrome. Arch Neurol. 2001;58(6):893-8.',
     x: { B: 'Tardio.', C: 'Normal.', D: 'Normal.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Traqueostomia',
     e: 'Sobre traqueostomia em pacientes ventilados, é correto afirmar:',
-    o: ['É considerada em ventilação prolongada, facilitando desmame e conforto', 'Deve ser feita no primeiro dia em todos', 'Nunca deve ser feita', 'Aumenta sempre a mortalidade'],
+    o: ['Considerada na ventilação prolongada; facilita o desmame', 'Deve ser feita no primeiro dia, em todos os pacientes', 'Nunca deve ser feita, em nenhuma circunstância', 'Aumenta sempre a mortalidade, em todos os pacientes'],
     g: 'A',
     c: 'Traqueostomia precoce não reduziu mortalidade. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não rotina.', C: 'Tem indicações.', D: 'Afirmativa falsa.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Extubação: falha',
     e: 'Após extubação de alto risco, uma medida que reduz reintubação é:',
-    o: ['VNI ou cânula de alto fluxo profilática', 'Sedação', 'Nada', 'Restrição de oxigênio'],
+    o: ['VNI ou cânula de alto fluxo profilática', 'Sedação, para reduzir o desconforto do paciente', 'Nenhuma medida específica é eficaz', 'Restrição de oxigênio, para evitar hipercapnia'],
     g: 'A',
     c: 'Em pacientes selecionados. Referência: Hernández G et al. Effect of Postextubation High-Flow Nasal Oxygen With Noninvasive Ventilation vs High-Flow Nasal Oxygen Alone on Reintubation. JAMA. 2019;322(15):1465-75.',
     x: { B: 'Pioraria.', C: 'Risco.', D: 'Pioraria.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Hipoxemia e anemia',
     e: 'Paciente com anemia grave e PaO2 normal. A oferta de oxigênio aos tecidos está:',
-    o: ['Reduzida, pois depende do conteúdo arterial de oxigênio (hemoglobina)', 'Normal sempre', 'Aumentada', 'Sem relação com hemoglobina'],
+    o: ['Reduzida: depende do conteúdo arterial de O2 (Hb)', 'Sempre normal, se a PaO2 for normal', 'Aumentada, pela maior extração tecidual', 'Sem relação com a concentração de hemoglobina'],
     g: 'A',
     c: 'A PaO2 normal não garante oferta adequada. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não sempre.', C: 'O oposto.', D: 'Depende.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'SDRA: fenótipos',
     e: 'Na SDRA, a estratégia de PEEP deve:',
-    o: ['Ser individualizada, buscando boa oxigenação sem hiperdistensão', 'Ser sempre zero', 'Ser sempre 25', 'Ignorar oxigenação'],
+    o: ['Ser individualizada: boa oxigenação sem hiperdistensão', 'Ser sempre zero, para evitar barotrauma', 'Ser sempre 25 cmH2O, em qualquer paciente', 'Ignorar a oxigenação do paciente na escolha'],
     g: 'A',
     c: 'Recrutamento agressivo aumentou mortalidade (ART). Referência: Writing Group for the ART Investigators. Effect of Lung Recruitment and Titrated PEEP vs Low PEEP on Mortality in ARDS. JAMA. 2017;318(14):1335-45.',
     x: { B: 'Prejudicial.', C: 'Prejudicial.', D: 'Inadequado.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Gasometria venosa',
     e: 'A gasometria venosa pode substituir a arterial para:',
-    o: ['Avaliar pH e bicarbonato, mas não a oxigenação', 'Avaliar a PaO2', 'Diagnosticar SDRA', 'Avaliar o shunt'],
+    o: ['Avaliar pH e bicarbonato, mas não a oxigenação', 'Avaliar a PaO2 com a mesma acurácia', 'Diagnosticar SDRA pela relação PaO2/FiO2', 'Avaliar o shunt pulmonar com precisão'],
     g: 'A',
     c: 'A PO2 venosa não reflete a arterial. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não.', C: 'Não.', D: 'Não.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Hipoxemia silenciosa',
     e: 'Pacientes com covid-19 podem ter hipoxemia sem dispneia proporcional, exigindo:',
-    o: ['Monitorização da saturação', 'Ignorar se não há dispneia', 'Alta', 'Sedação'],
+    o: ['Monitorar a saturação', 'Ignorar se o paciente não referir dispneia', 'Dar alta se não houver dispneia', 'Sedar o paciente, para facilitar o repouso'],
     g: 'A',
     c: 'Conhecida como hipoxemia silenciosa. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Inadequado.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Insuficiência respiratória: obesidade',
     e: 'Obeso com hipercapnia crônica diurna sem outra causa. O diagnóstico é:',
-    o: ['Síndrome de obesidade-hipoventilação', 'Asma', 'DPOC sempre', 'Ansiedade'],
+    o: ['Síndrome de obesidade-hipoventilação', 'Asma brônquica, com obstrução reversível', 'DPOC, em todos os obesos com hipercapnia', 'Ansiedade, com hiperventilação e hipocapnia'],
     g: 'A',
     c: 'Tratamento com CPAP ou ventilação não invasiva noturna e perda de peso. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Não sempre.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Ventilação não invasiva: monitorização',
     e: 'Paciente em VNI deve ser reavaliado em 1 a 2 horas porque:',
-    o: ['A falta de melhora indica intubação, e o atraso aumenta a mortalidade', 'Não é necessário', 'Para trocar a máscara', 'Para suspender o oxigênio'],
+    o: ['Sem melhora, indica intubação; o atraso aumenta a mortalidade', 'A reavaliação precoce não é necessária, pois a VNI costuma funcionar', 'Para trocar a máscara de VNI por outro modelo, sem outro motivo', 'Para suspender o oxigênio suplementar, caso a saturação esteja normal'],
     g: 'A',
     c: 'Monitorar gasometria e esforço. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Necessário.', C: 'Insuficiente.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_IRPA: QuestaoCompacta[] = [
   {
     s: 'Pneumotórax espontâneo',
     e: 'Jovem alto e magro com dor torácica súbita e dispneia. A radiografia mostra pneumotórax grande, estável. A conduta é:',
-    o: ['Aspiração por agulha ou drenagem torácica', 'Observação em todos os casos grandes sintomáticos', 'Intubação', 'Antibiótico'],
+    o: ['Aspiração com agulha ou drenagem torácica', 'Observação, em todos os casos grandes e sintomáticos', 'Intubação orotraqueal e ventilação mecânica', 'Antibiótico por via oral, por sete dias'],
     g: 'A',
     c: 'Pneumotórax pequeno e assintomático pode ser observado. Referência: Roberts ME et al. British Thoracic Society Guideline for pleural disease. Thorax. 2023;78(Suppl 3):s1-42.',
     x: { B: 'Pode ser insuficiente.', C: 'Desnecessária.', D: 'Sem infecção.' },

@@ -13,7 +13,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Causa de hipotireoidismo',
     e: 'A causa mais comum de hipotireoidismo em áreas com iodo suficiente é:',
-    o: ['Tireoidite de Hashimoto', 'Deficiência de iodo', 'Tumor hipofisário', 'Amiodarona'],
+    o: ['Tireoidite de Hashimoto', 'Deficiência grave de iodo na dieta', 'Tumor hipofisário, com déficit de TSH', 'Efeito colateral da amiodarona, em uso crônico'],
     g: 'A',
     c: 'Anti-TPO positivo na maioria. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'Áreas carentes.', C: 'Central e raro.', D: 'Menos comum.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Levotiroxina',
     e: 'A levotiroxina deve ser tomada:',
-    o: ['Em jejum, 30 a 60 minutos antes do café, longe de cálcio, ferro e antiácidos', 'Junto com o café da manhã', 'Com leite', 'À noite com o jantar sempre'],
+    o: ['Em jejum, 30-60 min antes do café, longe de Ca e ferro', 'Junto com o café da manhã, para melhor adesão', 'Com leite, que melhora a absorção do hormônio', 'À noite, junto com o jantar, em todos os casos'],
     g: 'A',
     c: 'A dose plena é cerca de 1,6 mcg/kg/dia; iniciar dose baixa em idosos e coronariopatas. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'Reduz absorção.', C: 'Reduz absorção.', D: 'Pode ser alternativa, mas não com refeição.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo subclínico',
     e: 'Paciente com TSH de 7 e T4 livre normal, assintomática, não gestante. A conduta usual é:',
-    o: ['Repetir o exame e acompanhar; tratar se TSH acima de 10 ou condições específicas', 'Levotiroxina sempre', 'Metimazol', 'Iodo radioativo'],
+    o: ['Repetir o exame e acompanhar; tratar se TSH > 10', 'Levotiroxina sempre, em dose plena, desde o início', 'Metimazol em dose habitual, por via oral, diário', 'Iodo radioativo em dose terapêutica, ambulatorial'],
     g: 'A',
     c: 'Em gestantes ou com desejo de gestar, trata-se com limiar menor. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'Não sempre.', C: 'Para hipertireoidismo.', D: 'Sem indicação.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Coma mixedematoso',
     e: 'Idosa com hipotireoidismo não tratado, hipotermia, bradicardia, hiponatremia e rebaixamento de consciência. O tratamento é:',
-    o: ['Levotiroxina intravenosa, hidrocortisona até excluir insuficiência adrenal e suporte', 'Levotiroxina oral em dose baixa', 'Metimazol', 'Aquecimento apenas'],
+    o: ['Levotiroxina IV, hidrocortisona e suporte intensivo', 'Levotiroxina oral em dose baixa, em ambulatório', 'Metimazol em dose alta, por via oral, diário', 'Aquecimento externo apenas, sem reposição hormonal'],
     g: 'A',
     c: 'É emergência com alta mortalidade. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'Lento.', C: 'Pioraria.', D: 'Insuficiente.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo central',
     e: 'Paciente com TSH baixo e T4 livre baixo. O diagnóstico é:',
-    o: ['Hipotireoidismo central (hipofisário ou hipotalâmico)', 'Hipertireoidismo', 'Hipotireoidismo primário', 'Normal'],
+    o: ['Hipotireoidismo central (hipofisário ou hipotalâmico)', 'Hipertireoidismo primário, por doença de Graves', 'Hipotireoidismo primário, por tireoidite de Hashimoto', 'Perfil tireoidiano normal, sem doença de base'],
     g: 'A',
     c: 'Monitorar com T4 livre, não TSH. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'T4 seria alto.', C: 'TSH seria alto.', D: 'Alterado.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Graves: tratamento',
     e: 'Opções de tratamento da doença de Graves incluem:',
-    o: ['Antitireoidianos (metimazol), iodo radioativo ou tireoidectomia', 'Levotiroxina', 'Iodo inorgânico isolado prolongado', 'Nada'],
+    o: ['Metimazol, iodo radioativo ou tireoidectomia', 'Levotiroxina, em dose supressiva, por via oral', 'Iodo inorgânico isolado, de forma prolongada', 'Nenhum tratamento, apenas acompanhamento clínico'],
     g: 'A',
     c: 'O metimazol é a droga preferencial, exceto no primeiro trimestre. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Pioraria.', C: 'Escape.', D: 'Exige.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Antitireoidianos: efeito grave',
     e: 'Paciente em uso de metimazol com febre e dor de garganta. A conduta é:',
-    o: ['Suspender e dosar neutrófilos, pela possibilidade de agranulocitose', 'Manter e dar antibiótico', 'Dobrar a dose', 'Ignorar'],
+    o: ['Suspender e dosar neutrófilos: possível agranulocitose', 'Manter o metimazol e associar antibiótico oral', 'Dobrar a dose do metimazol, para controlar a febre', 'Ignorar o sintoma, pois é inespecífico e benigno'],
     g: 'A',
     c: 'Ocorre em cerca de 0,3% dos usuários. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Risco.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Propiltiouracil',
     e: 'O propiltiouracil é preferido ao metimazol em:',
-    o: ['Primeiro trimestre da gestação e crise tireotóxica', 'Todos os casos', 'Crianças', 'Hepatopatas'],
+    o: ['1º trimestre da gestação e crise tireotóxica', 'Todos os casos, por ser o fármaco mais seguro', 'Crianças, por ser o fármaco de primeira escolha', 'Hepatopatas, por ser o fármaco mais seguro ao fígado'],
     g: 'A',
     c: 'É hepatotóxico. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Não em todos.', C: 'Evitado.', D: 'Hepatotóxico.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Crise tireotóxica',
     e: 'Paciente com Graves após infecção apresenta febre alta, taquicardia, agitação, diarreia e IC. O tratamento inclui:',
-    o: ['Propiltiouracil, iodo (após 1 hora do antitireoidiano), betabloqueador, corticoide e suporte', 'Apenas antitérmico', 'Levotiroxina', 'Iodo antes do antitireoidiano'],
+    o: ['PTU, iodo 1 h depois, betabloqueador, corticoide e suporte', 'Apenas antitérmico, sem antitireoidiano', 'Levotiroxina em dose alta, por via venosa', 'Iodo antes do antitireoidiano, para bloquear a síntese'],
     g: 'A',
     c: 'Escore de Burch-Wartofsky ajuda no diagnóstico. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Insuficiente.', C: 'Pioraria.', D: 'Pode piorar.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Tireoidite subaguda',
     e: 'Paciente com dor cervical anterior, febre, tireotoxicose, VHS elevada e captação baixa de iodo, após quadro viral. O diagnóstico e o tratamento são:',
-    o: ['Tireoidite subaguda (de De Quervain); AINE ou corticoide e betabloqueador', 'Graves; metimazol', 'Adenoma tóxico; cirurgia', 'Tireoidite de Hashimoto; levotiroxina'],
+    o: ['Tireoidite subaguda: AINE ou corticoide e betabloqueador', 'Doença de Graves, tratada com metimazol em dose plena', 'Adenoma tóxico, tratado com cirurgia ou iodo radioativo', 'Tireoidite de Hashimoto, tratada com levotiroxina plena'],
     g: 'A',
     c: 'Antitireoidianos não funcionam (não há síntese aumentada). Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Captação alta.', C: 'Captação alta.', D: 'Sem dor.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Tireotoxicose e captação',
     e: 'Tireotoxicose com captação de iodo baixa sugere:',
-    o: ['Tireoidite, ingestão de hormônio exógeno ou excesso de iodo', 'Graves', 'Bócio multinodular tóxico', 'Adenoma tóxico'],
+    o: ['Tireoidite, hormônio exógeno ou excesso de iodo', 'Doença de Graves, com captação difusamente elevada', 'Bócio multinodular tóxico, com captação nodular', 'Adenoma tóxico, com nódulo hipercaptante isolado'],
     g: 'A',
     c: 'Tireoglobulina baixa sugere hormônio exógeno. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Alta.', C: 'Alta.', D: 'Alta focal.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Amiodarona e tireoide',
     e: 'A amiodarona pode causar:',
-    o: ['Hipotireoidismo ou tireotoxicose (tipos 1 e 2)', 'Somente hipotireoidismo', 'Nenhuma alteração', 'Somente câncer'],
+    o: ['Hipotireoidismo ou tireotoxicose (tipos 1 e 2)', 'Somente hipotireoidismo, em todos os pacientes', 'Nenhuma alteração da função tireoidiana', 'Somente câncer de tireoide, em uso crônico'],
     g: 'A',
     c: 'Contém muito iodo. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Ambos.', C: 'Altera.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Nódulo de tireoide',
     e: 'Primeiro exame de imagem na avaliação de nódulo tireoidiano é:',
-    o: ['Ultrassonografia, com TSH', 'Cintilografia em todos', 'Tomografia', 'Ressonância'],
+    o: ['Ultrassonografia, junto com o TSH', 'Cintilografia em todos os nódulos, de rotina', 'Tomografia de pescoço, com contraste iodado', 'Ressonância magnética de pescoço, de rotina'],
     g: 'A',
     c: 'Cintilografia apenas se TSH baixo. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Se TSH baixo.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'PAAF',
     e: 'Nódulo de tireoide sólido hipoecoico de 1,5 cm com microcalcificações. A conduta é:',
-    o: ['Punção aspirativa por agulha fina', 'Observar', 'Iodo radioativo', 'Levotiroxina para reduzir'],
+    o: ['Punção aspirativa por agulha fina', 'Observação, com novo ultrassom em 5 anos', 'Iodo radioativo, em dose terapêutica, de imediato', 'Levotiroxina para reduzir o nódulo, de rotina'],
     g: 'A',
     c: 'Classificação TI-RADS orienta a punção. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Risco.', C: 'Sem indicação.', D: 'Não recomendado.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Câncer de tireoide',
     e: 'O tipo mais comum de câncer de tireoide é:',
-    o: ['Carcinoma papilífero', 'Folicular', 'Medular', 'Anaplásico'],
+    o: ['Carcinoma papilífero', 'Carcinoma folicular, de disseminação hematogênica', 'Carcinoma medular, derivado das células C', 'Carcinoma anaplásico, de crescimento muito rápido'],
     g: 'A',
     c: 'Tem excelente prognóstico. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Menos comum.', C: 'Raro.', D: 'Raro e agressivo.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Carcinoma medular',
     e: 'O carcinoma medular de tireoide produz:',
-    o: ['Calcitonina, e pode associar-se a NEM 2 (mutação RET)', 'Tireoglobulina', 'PTH', 'TSH'],
+    o: ['Calcitonina; associa-se à NEM 2 (mutação RET)', 'Tireoglobulina, marcador dos tumores diferenciados', 'PTH, hormônio das glândulas paratireoides', 'TSH, hormônio produzido pela hipófise'],
     g: 'A',
     c: 'Rastrear feocromocitoma antes da cirurgia em NEM 2. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Diferenciados.', C: 'Paratireoide.', D: 'Hipófise.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo e gestação',
     e: 'Gestante com hipotireoidismo em levotiroxina. Ao engravidar, a dose geralmente:',
-    o: ['Precisa aumentar em cerca de 25 a 30%', 'Deve ser suspensa', 'Deve ser reduzida', 'Não muda'],
+    o: ['Precisa aumentar cerca de 25-30%', 'Deve ser suspensa durante toda a gestação', 'Deve ser reduzida, para evitar hipertireoidismo fetal', 'Não muda, pois a necessidade é a mesma'],
     g: 'A',
     c: 'Monitorar TSH a cada 4 semanas na primeira metade. Referência: Alexander EK et al. 2017 ATA Guidelines for Thyroid Disease During Pregnancy and the Postpartum. Thyroid. 2017;27(3):315-89.',
     x: { B: 'Risco fetal.', C: 'Risco.', D: 'Muda.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Tireoidite pós-parto',
     e: 'Mulher 4 meses após o parto com tireotoxicose transitória indolor seguida de hipotireoidismo. O diagnóstico é:',
-    o: ['Tireoidite pós-parto', 'Graves', 'Tireoidite subaguda', 'Adenoma tóxico'],
+    o: ['Tireoidite pós-parto', 'Doença de Graves, com TRAb positivo', 'Tireoidite subaguda, com dor cervical intensa', 'Adenoma tóxico, com nódulo hipercaptante'],
     g: 'A',
     c: 'Associada a anti-TPO positivo. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Persistente e captação alta.', C: 'Dolorosa.', D: 'Nódulo.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Oftalmopatia de Graves',
     e: 'Paciente com Graves e oftalmopatia moderada a grave ativa. O tratamento é:',
-    o: ['Metilprednisolona intravenosa e, em casos selecionados, teprotumumabe', 'Iodo radioativo sem corticoide', 'Nada', 'Levotiroxina'],
+    o: ['Metilprednisolona IV; teprotumumabe em selecionados', 'Iodo radioativo sem corticoide, de imediato', 'Nenhum tratamento, apenas lubrificante ocular', 'Levotiroxina em dose alta, por via oral'],
     g: 'A',
     c: 'O tabagismo piora a oftalmopatia. Referência: Bartalena L et al. The 2021 EUGOGO clinical practice guidelines for the medical management of Graves orbitopathy. Eur J Endocrinol. 2021;185(4):G43-67.',
     x: { B: 'Pode piorar.', C: 'Exige.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipertireoidismo subclínico',
     e: 'Idoso com TSH abaixo de 0,1 e T4 livre normal. O risco é de:',
-    o: ['Fibrilação atrial e osteoporose, podendo-se tratar', 'Nenhum risco', 'Hipotireoidismo', 'Diabetes'],
+    o: ['Fibrilação atrial e osteoporose; pode-se tratar', 'Nenhum risco, pois o T4 livre é normal', 'Hipotireoidismo, por falência tireoidiana futura', 'Diabetes mellitus, por resistência insulínica'],
     g: 'A',
     c: 'Tratar especialmente em idosos com TSH suprimido. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Há risco.', C: 'O oposto.', D: 'Sem relação.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo: clínica',
     e: 'Sinais e sintomas de hipotireoidismo incluem:',
-    o: ['Fadiga, intolerância ao frio, ganho de peso, constipação, pele seca e bradicardia', 'Perda de peso e taquicardia', 'Diarreia e tremor', 'Exoftalmia'],
+    o: ['Fadiga, intolerância ao frio, ganho de peso, constipação, bradicardia', 'Perda de peso e taquicardia, com intolerância ao calor', 'Diarreia e tremor fino, com sudorese excessiva', 'Exoftalmia e retração palpebral, com bócio difuso'],
     g: 'A',
     c: 'O reflexo aquileu tem relaxamento lento. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'Hipertireoidismo.', C: 'Hipertireoidismo.', D: 'Graves.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo: laboratório',
     e: 'Alterações laboratoriais associadas ao hipotireoidismo incluem:',
-    o: ['Hipercolesterolemia, hiponatremia, elevação de CK e anemia', 'Hipocolesterolemia', 'Hipercalcemia', 'Policitemia'],
+    o: ['Hipercolesterolemia, hiponatremia, CK alta e anemia', 'Hipocolesterolemia, com triglicerídeos baixos e glicemia alta', 'Hipercalcemia, com PTH suprimido e fósforo elevado', 'Policitemia, com hematócrito elevado e eritropoetina alta'],
     g: 'A',
     c: 'Revertem com tratamento. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'O oposto.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Levotiroxina: ajuste',
     e: 'Após iniciar ou ajustar levotiroxina, o TSH deve ser reavaliado em:',
-    o: ['6 a 8 semanas', '1 semana', '1 ano', '2 dias'],
+    o: ['6 a 8 semanas', '1 semana, após o início do tratamento', '1 ano, após o ajuste da dose', '2 dias, após o ajuste da dose'],
     g: 'A',
     c: 'A meia-vida é de cerca de 7 dias. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'Precoce.', C: 'Tardio.', D: 'Precoce.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo em idoso cardiopata',
     e: 'Idoso com doença coronariana e hipotireoidismo. A levotiroxina deve ser iniciada:',
-    o: ['Em dose baixa (12,5 a 25 mcg) com aumento gradual', 'Em dose plena', 'Não deve ser usada', 'Junto com metimazol'],
+    o: ['Em dose baixa (12,5-25 mcg), aumentando aos poucos', 'Em dose plena, desde o primeiro dia', 'Não deve ser usada em coronariopatas', 'Junto com metimazol, para proteger o coração'],
     g: 'A',
     c: 'Evita isquemia e arritmias. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'Risco.', C: 'Indicada.', D: 'Sem sentido.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipertireoidismo: clínica',
     e: 'Sinais de hipertireoidismo incluem:',
-    o: ['Perda de peso, taquicardia, tremor, intolerância ao calor, diarreia e fraqueza proximal', 'Ganho de peso e bradicardia', 'Constipação e frio', 'Pele seca e grossa'],
+    o: ['Perda de peso, taquicardia, tremor, intolerância ao calor', 'Ganho de peso e bradicardia, com pele seca e fria', 'Constipação e intolerância ao frio, com letargia', 'Pele seca e grossa, com mixedema e voz rouca'],
     g: 'A',
     c: 'Idosos podem ter apatia (hipertireoidismo apático). Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Hipo.', C: 'Hipo.', D: 'Hipo.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Betabloqueador',
     e: 'No hipertireoidismo sintomático, o betabloqueador:',
-    o: ['Alivia sintomas adrenérgicos rapidamente enquanto se aguarda o efeito do tratamento definitivo', 'Cura a doença', 'É contraindicado', 'Reduz o bócio'],
+    o: ['Alivia os sintomas adrenérgicos enquanto o tratamento age', 'Cura a doença, por inibir a síntese hormonal', 'É contraindicado no hipertireoidismo sintomático', 'Reduz o bócio, por inibir o crescimento glandular'],
     g: 'A',
     c: 'Propranolol também reduz a conversão de T4 em T3. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Não cura.', C: 'Indicado.', D: 'Sem efeito.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Iodo radioativo: contraindicação',
     e: 'Contraindicação absoluta ao iodo radioativo é:',
-    o: ['Gestação e amamentação', 'Idade acima de 40 anos', 'Bócio pequeno', 'Hipertensão'],
+    o: ['Gestação e amamentação', 'Idade acima de 40 anos, de forma isolada', 'Bócio pequeno, com captação elevada', 'Hipertensão arterial, mesmo controlada'],
     g: 'A',
     c: 'Também evitar em oftalmopatia ativa grave. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo após iodo',
     e: 'Após iodo radioativo para Graves, o desfecho mais comum é:',
-    o: ['Hipotireoidismo, exigindo levotiroxina', 'Câncer de tireoide', 'Hipertireoidismo persistente em todos', 'Hipoparatireoidismo'],
+    o: ['Hipotireoidismo, com necessidade de levotiroxina', 'Câncer de tireoide, nos anos seguintes', 'Hipertireoidismo persistente, em todos os pacientes', 'Hipoparatireoidismo, por lesão das paratireoides'],
     g: 'A',
     c: 'Monitorar função tireoidiana. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Raro.', C: 'Não em todos.', D: 'Complicação cirúrgica.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Tireoidectomia: complicações',
     e: 'Complicações da tireoidectomia incluem:',
-    o: ['Hipoparatireoidismo (hipocalcemia) e lesão do nervo laríngeo recorrente', 'Hipertireoidismo', 'Diabetes', 'Asma'],
+    o: ['Hipoparatireoidismo e lesão do nervo laríngeo recorrente', 'Hipertireoidismo persistente, após a cirurgia total', 'Diabetes mellitus, por lesão pancreática associada', 'Asma brônquica, por irritação traqueal prolongada'],
     g: 'A',
     c: 'Rouquidão sugere lesão do laríngeo recorrente. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Bócio',
     e: 'Bócio difuso atóxico em área com deficiência de iodo é tratado com:',
-    o: ['Iodação do sal (prevenção) e reposição de iodo', 'Iodo radioativo para todos', 'Cirurgia obrigatória', 'Corticoide'],
+    o: ['Iodação do sal (prevenção) e reposição de iodo', 'Iodo radioativo para todos os pacientes', 'Cirurgia obrigatória em todos os casos', 'Corticoide em dose alta, por via oral'],
     g: 'A',
     c: 'O Brasil adota iodação do sal. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Excessivo.', C: 'Não obrigatória.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Tireoidite de Hashimoto: linfoma',
     e: 'Paciente com Hashimoto e crescimento rápido da tireoide. Deve-se investigar:',
-    o: ['Linfoma primário de tireoide', 'Graves', 'Tireoidite subaguda', 'Cisto simples'],
+    o: ['Linfoma primário de tireoide', 'Doença de Graves, com TRAb positivo', 'Tireoidite subaguda, com dor cervical intensa', 'Cisto simples, de conteúdo líquido'],
     g: 'A',
     c: 'Associação conhecida. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Sem relação.', C: 'Sem dor.', D: 'Não cresce rápido.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Carcinoma anaplásico',
     e: 'Idoso com massa cervical de crescimento muito rápido, disfagia e rouquidão. A hipótese é:',
-    o: ['Carcinoma anaplásico de tireoide', 'Papilífero', 'Adenoma', 'Cisto'],
+    o: ['Carcinoma anaplásico de tireoide', 'Carcinoma papilífero, de crescimento lento', 'Adenoma folicular, benigno e encapsulado', 'Cisto coloide, de conteúdo líquido'],
     g: 'A',
     c: 'Prognóstico muito ruim. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Crescimento lento.', C: 'Benigno.', D: 'Benigno.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'TI-RADS',
     e: 'O sistema TI-RADS classifica nódulos com base em:',
-    o: ['Composição, ecogenicidade, forma, margens e focos ecogênicos', 'Apenas tamanho', 'Apenas TSH', 'Apenas idade'],
+    o: ['Composição, ecogenicidade, forma, margens e focos ecogênicos', 'Apenas o tamanho do nódulo, medido em centímetros', 'Apenas o valor do TSH, medido em mUI/L no soro', 'Apenas a idade do paciente, contada em anos completos'],
     g: 'A',
     c: 'Orienta a indicação de punção. Referência: Tessler FN et al. ACR Thyroid Imaging, Reporting and Data System (TI-RADS). J Am Coll Radiol. 2017;14(5):587-95.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Nódulo hipercaptante',
     e: 'Nódulo de tireoide hipercaptante (quente) na cintilografia com TSH baixo. Sobre a punção:',
-    o: ['Geralmente não é necessária, pois o risco de malignidade é muito baixo', 'É obrigatória', 'Deve ser repetida mensalmente', 'Contraindica tratamento'],
+    o: ['Em geral não é necessária: risco de malignidade muito baixo', 'É obrigatória em todo nódulo hipercaptante, sem exceção', 'Deve ser repetida mensalmente, por 6 meses seguidos', 'Contraindica qualquer tipo de tratamento definitivo'],
     g: 'A',
     c: 'Tratar o hipertireoidismo se presente. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Não necessária.', C: 'Excessivo.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Síndrome do eutireóideo doente',
     e: 'Paciente grave na UTI com T3 baixo, T4 normal e TSH normal. O diagnóstico é:',
-    o: ['Síndrome do eutireóideo doente', 'Hipotireoidismo', 'Hipertireoidismo', 'Tireoidite'],
+    o: ['Síndrome do eutireóideo doente', 'Hipotireoidismo primário, por tireoidite crônica', 'Hipertireoidismo primário, por doença de Graves', 'Tireoidite subaguda, na fase de recuperação'],
     g: 'A',
     c: 'Não se trata com hormônio. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'TSH seria alto.', C: 'O oposto.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Resistência a hormônio tireoidiano',
     e: 'Paciente com T4 livre alto e TSH normal ou alto. Diagnósticos possíveis incluem:',
-    o: ['Adenoma hipofisário secretor de TSH ou resistência ao hormônio tireoidiano', 'Graves', 'Tireoidite', 'Hipotireoidismo primário'],
+    o: ['Adenoma hipofisário secretor de TSH ou resistência hormonal', 'Doença de Graves, com TSH suprimido', 'Tireoidite, na fase tireotóxica, com TSH suprimido', 'Hipotireoidismo primário, com T4 livre baixo'],
     g: 'A',
     c: 'Situações raras; excluir interferência laboratorial. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'TSH baixo.', C: 'TSH baixo.', D: 'T4 baixo.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Biotina',
     e: 'Paciente em uso de biotina em altas doses com exames de tireoide incoerentes. A causa pode ser:',
-    o: ['Interferência da biotina em imunoensaios', 'Hipertireoidismo real', 'Tumor', 'Nada'],
+    o: ['Interferência da biotina nos imunoensaios', 'Hipertireoidismo verdadeiro, por doença de Graves', 'Tumor hipofisário, secretor de TSH', 'Nenhuma alteração, pois a biotina não interfere'],
     g: 'A',
     c: 'Suspender 2 dias antes de repetir. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Pode ser falso.', C: 'Sem indicação.', D: 'Há explicação.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Graves: remissão',
     e: 'Após 12 a 18 meses de metimazol na doença de Graves, um fator que sugere maior chance de remissão é:',
-    o: ['TRAb negativo e bócio pequeno', 'TRAb muito alto', 'Bócio grande', 'Tabagismo'],
+    o: ['TRAb negativo e bócio pequeno', 'TRAb muito alto, mesmo após meses de tratamento', 'Bócio grande, mesmo após meses de tratamento', 'Tabagismo ativo, durante todo o tratamento'],
     g: 'A',
     c: 'A recidiva é comum. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Menor chance.', C: 'Menor chance.', D: 'Menor chance.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Tireotoxicose factícia',
     e: 'Paciente com tireotoxicose, captação baixa e tireoglobulina muito baixa. A hipótese é:',
-    o: ['Uso de hormônio tireoidiano exógeno', 'Tireoidite subaguda', 'Graves', 'Adenoma tóxico'],
+    o: ['Uso de hormônio tireoidiano exógeno', 'Tireoidite subaguda, com tireoglobulina elevada', 'Doença de Graves, com captação difusamente elevada', 'Adenoma tóxico, com captação nodular elevada'],
     g: 'A',
     c: 'Na tireoidite, a tireoglobulina é alta. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Tireoglobulina alta.', C: 'Captação alta.', D: 'Captação alta.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Metimazol na gestação',
     e: 'O metimazol no primeiro trimestre associa-se a:',
-    o: ['Embriopatia (aplasia cútis, atresia de coanas)', 'Nada', 'Macrossomia', 'Pós-datismo'],
+    o: ['Embriopatia (aplasia cútis, atresia de coanas)', 'Nenhum efeito sobre o feto, em qualquer dose', 'Macrossomia fetal, com hipoglicemia neonatal', 'Pós-datismo, com gestação prolongada'],
     g: 'A',
     c: 'Por isso usa-se propiltiouracil no primeiro trimestre. Referência: Ross DS et al. 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):1343-421.',
     x: { B: 'Há risco.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Nódulo e cirurgia',
     e: 'Nódulo tireoidiano Bethesda II (benigno) assintomático. A conduta é:',
-    o: ['Seguimento com ultrassom', 'Tireoidectomia total', 'Iodo radioativo', 'Quimioterapia'],
+    o: ['Seguimento com ultrassom', 'Tireoidectomia total, de imediato, por precaução', 'Iodo radioativo, em dose terapêutica', 'Quimioterapia, em esquema de primeira linha'],
     g: 'A',
     c: 'Cirurgia se sintomas compressivos ou crescimento importante. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Excessivo.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Tireoidite de Riedel',
     e: 'Paciente com tireoide endurecida, pétrea e aderida, com compressão cervical, associada a doença por IgG4. O diagnóstico é:',
-    o: ['Tireoidite de Riedel', 'Hashimoto', 'Subaguda', 'Anaplásico sempre'],
+    o: ['Tireoidite de Riedel', 'Tireoidite de Hashimoto, com tireoide elástica', 'Tireoidite subaguda, com dor cervical intensa', 'Carcinoma anaplásico, em todos os casos'],
     g: 'A',
     c: 'Rara; pode responder a corticoide e tamoxifeno. Referência: Haugen BR et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26(1):1-133.',
     x: { B: 'Não pétrea.', C: 'Dolorosa.', D: 'Excluir, mas o padrão sugere Riedel.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_TIR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo e lítio',
     e: 'Paciente em uso de lítio desenvolve hipotireoidismo. A conduta é:',
-    o: ['Repor levotiroxina, mantendo o lítio se necessário', 'Suspender o lítio sempre', 'Metimazol', 'Iodo radioativo'],
+    o: ['Repor levotiroxina, mantendo o lítio se necessário', 'Suspender o lítio sempre, por causa da tireoide', 'Metimazol em dose habitual, por via oral', 'Iodo radioativo, em dose terapêutica, de imediato'],
     g: 'A',
     c: 'O lítio inibe a liberação de hormônio. Referência: Jonklaas J et al. Guidelines for the Treatment of Hypothyroidism: ATA Task Force on Thyroid Hormone Replacement. Thyroid. 2014;24(12):1670-751.',
     x: { B: 'Não sempre.', C: 'Pioraria.', D: 'Sem indicação.' },

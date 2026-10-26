@@ -5,7 +5,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite A',
     e: 'Adulto jovem com febre, náuseas, icterícia e transaminases acima de 1.000, após viagem. A sorologia que confirma hepatite A aguda é:',
-    o: ['Anti-HAV IgM', 'Anti-HAV IgG', 'HBsAg', 'Anti-HCV'],
+    o: ['Anti-HAV IgM, que indica infecção aguda', 'Anti-HAV IgG, que indica imunidade prévia', 'HBsAg, que indica infecção pelo vírus B', 'Anti-HCV, que indica contato com o vírus C'],
     g: 'A',
     c: 'A transmissão é fecal-oral, e não há cronificação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Infecção passada ou vacina.', C: 'Hepatite B.', D: 'Hepatite C.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite B crônica',
     e: 'A hepatite B crônica é definida por:',
-    o: ['HBsAg positivo por mais de 6 meses', 'Anti-HBs positivo', 'Anti-HBc IgM positivo', 'Transaminases normais'],
+    o: ['HBsAg positivo por mais de 6 meses', 'Anti-HBs positivo, que indica imunidade', 'Anti-HBc IgM positivo, que indica infecção aguda', 'Transaminases normais, de forma isolada'],
     g: 'A',
     c: 'O risco de cronificação é maior quando a infecção ocorre ao nascer. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Imunidade.', C: 'Aguda.', D: 'Inespecífico.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite C aguda',
     e: 'Sobre a hepatite C, é correto afirmar:',
-    o: ['Cronifica na maioria dos casos e o anti-HCV positivo exige confirmação com carga viral (HCV-RNA)', 'Raramente cronifica', 'O anti-HCV confirma infecção ativa', 'Tem vacina'],
+    o: ['Cronifica na maioria; anti-HCV positivo exige HCV-RNA', 'Raramente cronifica, com cura espontânea habitual', 'O anti-HCV positivo já confirma infecção ativa', 'Tem vacina eficaz, disponível no calendário adulto'],
     g: 'A',
     c: 'O tratamento com antivirais de ação direta cura mais de 95%. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite C e Coinfecções. Brasília: MS, 2019.',
     x: { B: 'Cronifica.', C: 'Pode ser cicatriz sorológica.', D: 'Não há vacina.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Paracetamol',
     e: 'Paciente com ingestão de 15 g de paracetamol há 6 horas. O antídoto é:',
-    o: ['N-acetilcisteína', 'Naloxona', 'Flumazenil', 'Vitamina K'],
+    o: ['N-acetilcisteína, por via venosa', 'Naloxona, por via venosa, em bolus', 'Flumazenil, por via venosa, em bolus', 'Vitamina K, por via venosa, em dose única'],
     g: 'A',
     c: 'O nomograma de Rumack-Matthew orienta a indicação, e o tratamento é mais eficaz até 8 horas. Referência: Wendon J et al. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-81.',
     x: { B: 'Opioide.', C: 'Benzodiazepínico.', D: 'Varfarina.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática aguda',
     e: 'Insuficiência hepática aguda é definida por:',
-    o: ['Coagulopatia (INR de 1,5 ou mais) e encefalopatia em paciente sem hepatopatia prévia, em até 26 semanas', 'Transaminases elevadas isoladas', 'Icterícia isolada', 'Ascite em cirrótico'],
+    o: ['INR ≥ 1,5 e encefalopatia, sem hepatopatia prévia, em até 26 semanas', 'Transaminases elevadas, de forma isolada, em qualquer paciente', 'Icterícia, de forma isolada, sem coagulopatia nem encefalopatia', 'Ascite em paciente cirrótico, com descompensação da doença'],
     g: 'A',
     c: 'Exige centro com transplante. Referência: Wendon J et al. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-81.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Crônica.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática aguda: causas',
     e: 'No Brasil e no mundo, causas comuns de insuficiência hepática aguda incluem:',
-    o: ['Medicamentos (paracetamol), hepatites virais (B e A) e autoimune', 'Cálculo biliar', 'Pancreatite', 'Gastrite'],
+    o: ['Fármacos (paracetamol), hepatites B e A e autoimune', 'Cálculo biliar, com obstrução do colédoco', 'Pancreatite aguda, de origem biliar', 'Gastrite aguda, por uso de anti-inflamatórios'],
     g: 'A',
     c: 'A causa influencia o prognóstico e tratamento. Referência: Wendon J et al. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-81.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Critérios do King College',
     e: 'Os critérios do King College são usados para:',
-    o: ['Indicar transplante hepático na insuficiência hepática aguda', 'Classificar cirrose', 'Estadiar câncer', 'Avaliar pancreatite'],
+    o: ['Indicar transplante na insuficiência hepática aguda', 'Classificar a gravidade da cirrose hepática', 'Estadiar o câncer, em pacientes com neoplasia', 'Avaliar a gravidade da pancreatite aguda'],
     g: 'A',
     c: 'Diferentes para paracetamol e outras causas. Referência: Wendon J et al. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-81.',
     x: { B: 'Child-Pugh.', C: 'TNM.', D: 'Ranson.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite alcoólica: tratamento',
     e: 'Hepatite alcoólica grave (Maddrey de 32 ou mais) sem contraindicações. O tratamento é:',
-    o: ['Prednisolona por 28 dias, com avaliação de resposta pelo escore de Lille no sétimo dia', 'Antibiótico', 'Pentoxifilina como primeira escolha', 'Nada'],
+    o: ['Prednisolona por 28 dias; resposta pelo escore de Lille no 7º dia', 'Antibiótico de amplo espectro, por via venosa', 'Pentoxifilina como primeira escolha, em dose plena', 'Nenhum tratamento específico, apenas abstinência'],
     g: 'A',
     c: 'Excluir infecção antes. Referência: Crabb DW et al. Hepatology. 2020;71(1):306-33.',
     x: { B: 'Sem infecção.', C: 'Sem benefício claro.', D: 'Exige.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite autoimune',
     e: 'Mulher jovem com hepatite, hipergamaglobulinemia e FAN e antimúsculo liso positivos. O diagnóstico e tratamento são:',
-    o: ['Hepatite autoimune; corticoide com azatioprina', 'Hepatite viral; antiviral', 'Wilson; quelante', 'Esteatose; dieta'],
+    o: ['Hepatite autoimune: corticoide com azatioprina', 'Hepatite viral crônica: antiviral por via oral', 'Doença de Wilson: quelante de cobre', 'Esteatose hepática: dieta e atividade física'],
     g: 'A',
     c: 'Biópsia ajuda a confirmar. Referência: Mack CL et al. Diagnosis and Management of Autoimmune Hepatitis in Adults and Children: 2019 AASLD Practice Guidance. Hepatology. 2020;72(2):671-722.',
     x: { B: 'Sem vírus.', C: 'Sem anéis.', D: 'Sem autoimunidade.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Lesão hepática por drogas',
     e: 'Padrão colestático de lesão hepática por drogas é associado a:',
-    o: ['Amoxicilina-clavulanato', 'Paracetamol', 'Isoniazida', 'Valproato'],
+    o: ['Amoxicilina-clavulanato', 'Paracetamol, que causa lesão hepatocelular', 'Isoniazida, que causa lesão hepatocelular', 'Valproato, que causa lesão hepatocelular'],
     g: 'A',
     c: 'O paracetamol causa padrão hepatocelular. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Hepatocelular.', C: 'Hepatocelular.', D: 'Hepatocelular.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatites: transaminases',
     e: 'Transaminases acima de 1.000 U/L sugerem:',
-    o: ['Hepatite viral aguda, isquêmica ou medicamentosa', 'Esteatose simples', 'Cirrose estável', 'Colestase crônica'],
+    o: ['Hepatite viral aguda, isquêmica ou medicamentosa', 'Esteatose simples, de caráter benigno', 'Cirrose estável, sem atividade inflamatória', 'Colestase crônica, com elevação de fosfatase alcalina'],
     g: 'A',
     c: 'Hepatite isquêmica tem pico rápido e queda rápida. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Leves.', C: 'Leves.', D: 'Padrão colestático.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite isquêmica',
     e: 'Paciente com choque cardiogênico e transaminases de 5.000 que caem rapidamente em dias. O diagnóstico é:',
-    o: ['Hepatite isquêmica (fígado de choque)', 'Hepatite A', 'Hepatite autoimune', 'Esteatose'],
+    o: ['Hepatite isquêmica (fígado de choque)', 'Hepatite A aguda, com curva típica', 'Hepatite autoimune, com hipergamaglobulinemia', 'Esteatose hepática, com transaminases discretas'],
     g: 'A',
     c: 'Tratar a causa hemodinâmica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Evolução diferente.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Gilbert',
     e: 'Jovem com bilirrubina indireta discretamente elevada durante jejum ou estresse, sem hemólise e com função hepática normal. O diagnóstico é:',
-    o: ['Síndrome de Gilbert', 'Hepatite', 'Hemólise', 'Colestase'],
+    o: ['Síndrome de Gilbert', 'Hepatite viral aguda, com transaminases altas', 'Hemólise, com anemia e reticulocitose', 'Colestase, com bilirrubina direta elevada'],
     g: 'A',
     c: 'Benigna, não exige tratamento. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem lesão.', C: 'Sem hemólise.', D: 'Bilirrubina direta.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Colestase',
     e: 'Padrão colestático caracteriza-se por:',
-    o: ['Elevação predominante de fosfatase alcalina e GGT, com bilirrubina direta', 'Elevação isolada de transaminases', 'Bilirrubina indireta isolada', 'Albumina alta'],
+    o: ['Fosfatase alcalina e GGT altas, com bilirrubina direta', 'Elevação isolada de transaminases, sem colestase', 'Bilirrubina indireta isolada, sem colestase', 'Albumina elevada, com bilirrubina normal'],
     g: 'A',
     c: 'A ultrassonografia diferencia obstrução extra-hepática. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Hepatocelular.', C: 'Gilbert ou hemólise.', D: 'Sem relação.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Vacinação hepatite B',
     e: 'Profissional de saúde deve:',
-    o: ['Receber 3 doses da vacina contra hepatite B e dosar anti-HBs após o esquema', 'Receber 1 dose', 'Não precisa de vacina', 'Fazer só se tiver exposição'],
+    o: ['3 doses da vacina contra hepatite B e anti-HBs depois', 'Apenas 1 dose da vacina contra hepatite B', 'Não precisa de vacina, pela baixa exposição', 'Vacinar apenas após uma exposição ocupacional'],
     g: 'A',
     c: 'Anti-HBs de 10 mUI/mL ou mais indica resposta. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Insuficiente.', C: 'Precisa.', D: 'Atraso.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Exposição a hepatite B',
     e: 'Profissional não vacinado com acidente perfurocortante com fonte HBsAg positiva. A conduta é:',
-    o: ['Vacina e imunoglobulina anti-hepatite B, idealmente em até 48 horas', 'Nada', 'Só vacina após 30 dias', 'Antiviral'],
+    o: ['Vacina e imunoglobulina anti-hepatite B, em até 48 h', 'Nenhuma medida, apenas observação clínica', 'Apenas a vacina, após 30 dias do acidente', 'Antiviral oral, por 28 dias, após o acidente'],
     g: 'A',
     c: 'Pode ser feita até 7 dias. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Risco.', C: 'Atraso.', D: 'Não é a medida.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite A: prevenção',
     e: 'Medidas de prevenção da hepatite A incluem:',
-    o: ['Vacinação, saneamento e higiene de alimentos e mãos', 'Antibiótico profilático', 'Isolamento por 6 meses', 'Nada'],
+    o: ['Vacinação, saneamento e higiene de alimentos e mãos', 'Antibiótico profilático, para todos os contactantes', 'Isolamento do paciente por 6 meses', 'Nenhuma medida de prevenção é eficaz'],
     g: 'A',
     c: 'A vacina está no calendário infantil. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem efeito.', C: 'Excessivo.', D: 'Há medidas.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: transmissão',
     e: 'Formas de transmissão da hepatite B incluem:',
-    o: ['Sexual, vertical, parenteral e compartilhamento de objetos perfurocortantes', 'Fecal-oral apenas', 'Respiratória', 'Picada de mosquito'],
+    o: ['Sexual, vertical, parenteral e perfurocortantes', 'Fecal-oral apenas, por água e alimentos contaminados', 'Respiratória, por gotículas e aerossóis no ambiente', 'Picada de mosquito, em áreas endêmicas de arboviroses'],
     g: 'A',
     c: 'É prevenível por vacina. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Hepatite A.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática: encefalopatia e edema cerebral',
     e: 'Na insuficiência hepática aguda grave, causa importante de morte é:',
-    o: ['Edema cerebral com hipertensão intracraniana', 'Asma', 'Hipertensão arterial', 'Gota'],
+    o: ['Edema cerebral com hipertensão intracraniana', 'Crise de asma, com insuficiência respiratória', 'Crise hipertensiva, com lesão de órgão-alvo', 'Crise de gota, com artrite aguda'],
     g: 'A',
     c: 'A amônia elevada se associa. Referência: Wendon J et al. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-81.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite A: evolução',
     e: 'A hepatite A em adultos:',
-    o: ['Geralmente é autolimitada, sem cronificação, podendo raramente ser fulminante ou colestática prolongada', 'Sempre cronifica', 'É sempre assintomática em adultos', 'Causa cirrose'],
+    o: ['Autolimitada, sem cronificação; raramente fulminante', 'Sempre cronifica, com evolução para cirrose hepática', 'É sempre assintomática em adultos, sem icterícia', 'Causa cirrose hepática, após alguns anos de evolução'],
     g: 'A',
     c: 'Em crianças, frequentemente assintomática. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não cronifica.', C: 'Adultos têm mais sintomas.', D: 'Não causa.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: HBeAg',
     e: 'HBeAg positivo na hepatite B indica:',
-    o: ['Alta replicação viral e maior infectividade', 'Imunidade', 'Cura', 'Infecção passada'],
+    o: ['Alta replicação viral e maior infectividade', 'Imunidade protetora contra o vírus B', 'Cura da infecção pelo vírus B', 'Infecção passada, já resolvida'],
     g: 'A',
     c: 'Na transmissão vertical, aumenta o risco. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Não.', C: 'Não.', D: 'Não.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: tratamento',
     e: 'Os antivirais de escolha para hepatite B crônica são:',
-    o: ['Tenofovir ou entecavir', 'Ribavirina', 'Aciclovir', 'Oseltamivir'],
+    o: ['Tenofovir ou entecavir', 'Ribavirina, em dose plena, por via oral', 'Aciclovir, em dose plena, por via oral', 'Oseltamivir, em dose plena, por via oral'],
     g: 'A',
     c: 'Indicação conforme carga viral, ALT e fibrose. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Hepatite C antiga.', C: 'Herpes.', D: 'Influenza.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: reativação',
     e: 'Paciente HBsAg positivo que vai iniciar quimioterapia ou rituximabe. A conduta é:',
-    o: ['Profilaxia com antiviral (tenofovir ou entecavir) para prevenir reativação', 'Nada', 'Vacina', 'Suspender a quimioterapia'],
+    o: ['Profilaxia com tenofovir ou entecavir contra reativação', 'Nenhuma medida, apenas monitorizar as transaminases', 'Vacina contra hepatite B, em esquema habitual', 'Suspender a quimioterapia, por risco de reativação'],
     g: 'A',
     c: 'Anti-HBc isolado também exige vigilância ou profilaxia. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Risco de reativação grave.', C: 'Sem efeito.', D: 'Não é necessário.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: tratamento',
     e: 'O tratamento atual da hepatite C crônica no SUS usa:',
-    o: ['Antivirais de ação direta (como sofosbuvir com velpatasvir ou daclatasvir) por 8 a 12 semanas', 'Interferon com ribavirina por 1 ano', 'Tenofovir', 'Nada'],
+    o: ['Antivirais de ação direta (sofosbuvir/velpatasvir), 8-12 semanas', 'Interferon com ribavirina por 1 ano, como esquema atual', 'Tenofovir isolado, em dose plena, por via oral diária', 'Nenhum tratamento, apenas acompanhamento clínico periódico'],
     g: 'A',
     c: 'Taxas de cura acima de 95%. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite C e Coinfecções. Brasília: MS, 2019.',
     x: { B: 'Esquema antigo.', C: 'Para hepatite B.', D: 'Há tratamento.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite C: rastreio',
     e: 'O Ministério da Saúde recomenda testar para hepatite C:',
-    o: ['Todas as pessoas acima de 40 anos pelo menos uma vez e grupos de risco', 'Somente usuários de drogas', 'Nunca', 'Somente com sintomas'],
+    o: ['Todos > 40 anos, ao menos uma vez, e grupos de risco', 'Somente usuários de drogas injetáveis, por via venosa', 'Nunca, pois não há indicação de teste na população', 'Somente pessoas com sintomas ou alterações hepáticas'],
     g: 'A',
     c: 'Também gestantes no pré-natal. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite C e Coinfecções. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Recomendado.', D: 'Tardio.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatites: manifestações extra-hepáticas',
     e: 'Manifestação extra-hepática da hepatite C é:',
-    o: ['Crioglobulinemia mista, porfiria cutânea tarda e linfoma não Hodgkin', 'Hipertireoidismo', 'Asma', 'Psoríase'],
+    o: ['Crioglobulinemia mista, porfiria cutânea tarda, linfoma', 'Hipertireoidismo, com bócio difuso e exoftalmia', 'Asma brônquica, de início na idade adulta', 'Psoríase, com placas eritematodescamativas na pele'],
     g: 'A',
     c: 'Também diabetes e glomerulonefrite membranoproliferativa. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: poliarterite',
     e: 'A hepatite B associa-se a:',
-    o: ['Poliarterite nodosa e glomerulonefrite membranosa', 'Doença de Kawasaki', 'Sarcoidose', 'Asma'],
+    o: ['Poliarterite nodosa e GN membranosa', 'Doença de Kawasaki, com vasculite de médios vasos', 'Sarcoidose, com granulomas não caseosos', 'Asma brônquica, de início tardio'],
     g: 'A',
     c: 'Tratar o vírus é essencial. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatotoxicidade por isoniazida',
     e: 'Paciente em tratamento para tuberculose com icterícia e transaminases 8 vezes o normal. A conduta é:',
-    o: ['Suspender os tuberculostáticos e reintroduzir sequencialmente após normalização', 'Manter tudo', 'Aumentar a dose', 'Suspender apenas o etambutol'],
+    o: ['Suspender os tuberculostáticos; reintroduzir um a um', 'Manter todos os fármacos, em dose habitual', 'Aumentar a dose, para melhor controle da doença', 'Suspender apenas o etambutol, mantendo os demais'],
     g: 'A',
     c: 'Isoniazida, rifampicina e pirazinamida são hepatotóxicas. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Não é hepatotóxico principal.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Paracetamol: dose tóxica',
     e: 'Dose de paracetamol associada a risco de hepatotoxicidade em adultos é acima de:',
-    o: ['150 mg/kg ou 7,5 a 10 g em ingestão aguda', '1 g', '2 g', '500 mg'],
+    o: ['150 mg/kg ou 7,5-10 g em ingestão aguda', '1 g em dose única, por via oral', '2 g em dose única, por via oral', '500 mg em dose única, por via oral'],
     g: 'A',
     c: 'Etilistas e desnutridos têm maior risco. Referência: Wendon J et al. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-81.',
     x: { B: 'Terapêutico.', C: 'Terapêutico.', D: 'Terapêutico.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Insuficiência hepática: coagulopatia',
     e: 'Na insuficiência hepática aguda, a correção do INR com plasma:',
-    o: ['Não deve ser feita de rotina sem sangramento, pois o INR é marcador prognóstico', 'É obrigatória sempre', 'Cura a doença', 'Previne encefalopatia'],
+    o: ['Evitar de rotina sem sangramento: o INR é marcador prognóstico', 'É obrigatória em todos os pacientes, como rotina', 'Cura a doença hepática, ao normalizar o INR', 'Previne a encefalopatia hepática, ao normalizar o INR'],
     g: 'A',
     c: 'Fazer antes de procedimentos invasivos se necessário. Referência: Wendon J et al. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-81.',
     x: { B: 'Não rotina.', C: 'Não.', D: 'Não.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite fulminante: N-acetilcisteína',
     e: 'Na insuficiência hepática aguda não relacionada ao paracetamol, a N-acetilcisteína:',
-    o: ['Pode melhorar sobrevida sem transplante em estágios iniciais de encefalopatia', 'É contraindicada', 'Não tem papel', 'Cura sempre'],
+    o: ['Pode melhorar a sobrevida sem transplante, se precoce', 'É contraindicada, pelo risco de hepatotoxicidade', 'Não tem nenhum papel nas outras causas', 'Cura sempre a insuficiência hepática aguda'],
     g: 'A',
     c: 'Referência: Lee WM et al. Intravenous N-acetylcysteine improves transplant-free survival in early stage non-acetaminophen acute liver failure. Gastroenterology. 2009;137(3):856-64.',
     x: { B: 'Pode ser usada.', C: 'Tem papel.', D: 'Não cura.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Colestase da gravidez',
     e: 'Gestante com prurido intenso em palmas e plantas e ácidos biliares elevados. O diagnóstico é:',
-    o: ['Colestase intra-hepática da gestação', 'Hepatite viral', 'Esteatose aguda', 'HELLP'],
+    o: ['Colestase intra-hepática da gestação', 'Hepatite viral aguda, com transaminases altas', 'Esteatose hepática aguda da gestação', 'Síndrome HELLP, com hemólise e plaquetopenia'],
     g: 'A',
     c: 'Tratamento com ácido ursodesoxicólico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Mais grave.', D: 'Hipertensão e plaquetopenia.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Esteatose aguda da gravidez',
     e: 'Gestante no terceiro trimestre com náuseas, dor abdominal, icterícia, hipoglicemia e coagulopatia. O diagnóstico é:',
-    o: ['Esteatose hepática aguda da gestação', 'Colestase', 'Hepatite A', 'Gastroenterite'],
+    o: ['Esteatose hepática aguda da gestação', 'Colestase intra-hepática da gestação, com prurido', 'Hepatite A aguda, com transaminases elevadas', 'Gastroenterite aguda, com diarreia e vômitos'],
     g: 'A',
     c: 'Exige resolução da gestação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem hipoglicemia.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite por herpes',
     e: 'Imunossuprimido com hepatite aguda grave, febre e lesões cutâneas vesiculares. A hipótese e o tratamento são:',
-    o: ['Hepatite por herpes simples; aciclovir intravenoso', 'Hepatite A; suporte', 'Esteatose; dieta', 'Colangite; antibiótico'],
+    o: ['Hepatite por herpes simples; aciclovir IV', 'Hepatite A aguda; apenas suporte clínico', 'Esteatose hepática; dieta e atividade física', 'Colangite aguda; antibiótico de amplo espectro'],
     g: 'A',
     c: 'Pode ser fatal sem tratamento. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Inadequado.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Leptospirose e fígado',
     e: 'Paciente com icterícia rubínica, insuficiência renal e transaminases discretamente elevadas após enchente. A hipótese é:',
-    o: ['Leptospirose (síndrome de Weil)', 'Hepatite viral', 'Colestase', 'Hemólise'],
+    o: ['Leptospirose (síndrome de Weil)', 'Hepatite viral aguda, sem insuficiência renal', 'Colestase intra-hepática, com prurido intenso', 'Hemólise, com anemia e reticulocitose'],
     g: 'A',
     c: 'As transaminases raramente passam de 200. Referência: Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 6ª ed. Brasília: MS, 2023.',
     x: { B: 'Transaminases muito altas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Lesão hepática: fitoterápicos',
     e: 'Paciente com hepatite aguda após uso de chás e suplementos para emagrecer. A conduta é:',
-    o: ['Suspender o produto e investigar lesão hepática induzida', 'Manter', 'Aumentar a dose', 'Nada'],
+    o: ['Suspender o produto e investigar lesão hepática por droga', 'Manter o produto em uso, com controle em 1 mês', 'Aumentar a dose, para melhor efeito emagrecedor', 'Nenhuma conduta, pois chás são sempre inofensivos'],
     g: 'A',
     c: 'Fitoterápicos são causa crescente. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Exige.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Transplante hepático: urgência',
     e: 'Na insuficiência hepática aguda com indicação de transplante, a prioridade em lista é:',
-    o: ['Máxima (situação especial de urgência)', 'Baixa', 'Igual a cirróticos estáveis', 'Nenhuma'],
+    o: ['Máxima (situação especial de urgência)', 'Baixa, igual à de pacientes eletivos', 'Igual à dos cirróticos estáveis na fila', 'Nenhuma prioridade na fila de transplante'],
     g: 'A',
     c: 'O tempo é crítico. Referência: Wendon J et al. EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol. 2017;66(5):1047-81.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: gestação',
     e: 'Gestante HBsAg positiva com carga viral muito alta no terceiro trimestre. A conduta é:',
-    o: ['Tenofovir a partir de 28 semanas e imunoprofilaxia do recém-nascido', 'Cesárea obrigatória', 'Contraindicar amamentação', 'Nada'],
+    o: ['Tenofovir desde 28 semanas e imunoprofilaxia do recém-nascido', 'Cesárea obrigatória, em todos os casos', 'Contraindicar a amamentação, em todos os casos', 'Nenhuma conduta, apenas acompanhamento habitual'],
     g: 'A',
     c: 'Reduz transmissão vertical. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Não obrigatória.', C: 'Pode amamentar.', D: 'Há conduta.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite aguda: sintomas',
     e: 'Fase prodrômica das hepatites virais inclui:',
-    o: ['Mal-estar, anorexia, náuseas, febre baixa e aversão ao cigarro', 'Hemoptise', 'Diarreia sanguinolenta', 'Dor torácica'],
+    o: ['Mal-estar, anorexia, náuseas, febre baixa e aversão ao cigarro', 'Hemoptise, com tosse produtiva e persistente', 'Diarreia sanguinolenta, com tenesmo e febre alta', 'Dor torácica pleurítica, com dispneia de início súbito'],
     g: 'A',
     c: 'Depois surge a icterícia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Colúria e acolia',
     e: 'Colúria e acolia indicam:',
-    o: ['Hiperbilirrubinemia direta (conjugada), por colestase ou lesão hepatocelular', 'Hemólise', 'Gilbert', 'Normalidade'],
+    o: ['Hiperbilirrubinemia direta (colestase ou lesão hepatocelular)', 'Hemólise, com bilirrubina indireta predominante no sangue', 'Síndrome de Gilbert, com bilirrubina indireta aumentada', 'Normalidade, sem nenhuma alteração da bilirrubina'],
     g: 'A',
     c: 'A bilirrubina indireta não aparece na urina. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Bilirrubina indireta.', C: 'Indireta.', D: 'Alterado.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_HEPAG: QuestaoCompacta[] = [
   {
     s: 'Hepatite B: vacina e recém-nascido',
     e: 'A vacina contra hepatite B deve ser aplicada no recém-nascido:',
-    o: ['Nas primeiras 12 a 24 horas de vida', 'Aos 2 anos', 'Aos 10 anos', 'Somente se mãe positiva'],
+    o: ['Nas primeiras 12-24 horas de vida', 'Aos 2 anos de idade, junto da tríplice viral', 'Aos 10 anos de idade, na adolescência', 'Somente se a mãe for HBsAg positiva'],
     g: 'A',
     c: 'Previne transmissão vertical. Referência: Brasil. Ministério da Saúde. PCDT para Hepatite B e Coinfecções. Brasília: MS, 2023.',
     x: { B: 'Tardio.', C: 'Tardio.', D: 'Universal.' },

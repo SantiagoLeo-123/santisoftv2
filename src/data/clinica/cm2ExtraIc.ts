@@ -13,7 +13,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Pilares do tratamento',
     e: 'Os quatro pilares do tratamento da IC com fração de ejeção reduzida são:',
-    o: ['IECA, BRA ou sacubitril-valsartana; betabloqueador; antagonista mineralocorticoide; e iSGLT2', 'Diurético, digoxina, nitrato e AAS', 'Apenas diurético', 'Bloqueador de canal de cálcio, digoxina e AAS'],
+    o: ['IECA/BRA/sacubitril-valsartana, BB, ARM e iSGLT2', 'Diurético, digoxina, nitrato e AAS, em dose plena', 'Apenas diurético de alça, em dose plena e contínua', 'BCC, digoxina e AAS, em dose habitual e contínua'],
     g: 'A',
     c: 'Todos reduzem mortalidade e devem ser iniciados precocemente. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Sintomáticos.', C: 'Sintomático.', D: 'Sem benefício.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Betabloqueadores na IC',
     e: 'Betabloqueadores com benefício comprovado na IC com fração de ejeção reduzida são:',
-    o: ['Carvedilol, bisoprolol e succinato de metoprolol', 'Propranolol e atenolol', 'Sotalol', 'Labetalol'],
+    o: ['Carvedilol, bisoprolol e succinato de metoprolol', 'Propranolol e atenolol, sem benefício comprovado', 'Sotalol, que não tem benefício comprovado', 'Labetalol, que não tem benefício comprovado'],
     g: 'A',
     c: 'Iniciam-se em dose baixa, com titulação. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Sem evidência.', C: 'Antiarrítmico.', D: 'Sem evidência.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Sacubitril-valsartana',
     e: 'O sacubitril-valsartana, comparado ao enalapril, na IC com fração reduzida:',
-    o: ['Reduz mortalidade e hospitalizações', 'Aumenta mortalidade', 'Não tem benefício', 'Deve ser associado ao IECA'],
+    o: ['Reduz mortalidade e hospitalizações', 'Aumenta a mortalidade, em relação ao enalapril', 'Não tem benefício em relação ao enalapril', 'Deve ser associado ao IECA, em dose plena'],
     g: 'A',
     c: 'Deve haver intervalo de 36 horas após suspender o IECA, pelo risco de angioedema. Referência: McMurray JJV et al. Angiotensin-neprilysin inhibition versus enalapril in heart failure (PARADIGM-HF). N Engl J Med. 2014;371(11):993-1004.',
     x: { B: 'Afirmativa falsa.', C: 'Tem benefício.', D: 'Contraindicado.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'iSGLT2 na IC',
     e: 'Dapagliflozina ou empagliflozina na IC:',
-    o: ['Reduzem mortalidade cardiovascular e hospitalização, independentemente de diabetes', 'Só funcionam em diabéticos', 'São contraindicadas', 'Pioram a função renal a longo prazo'],
+    o: ['Reduzem mortalidade CV e internação, com ou sem diabetes', 'Só funcionam em pacientes diabéticos, e não nos demais', 'São contraindicadas na insuficiência cardíaca crônica', 'Pioram a função renal a longo prazo, em todos os casos'],
     g: 'A',
     c: 'Também beneficiam a IC com fração preservada. Referência: McMurray JJV et al. Dapagliflozin in Patients with Heart Failure and Reduced Ejection Fraction (DAPA-HF). N Engl J Med. 2019;381(21):1995-2008.',
     x: { B: 'Também em não diabéticos.', C: 'Indicadas.', D: 'Protegem o rim.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Diuréticos na IC',
     e: 'Sobre os diuréticos de alça na IC, é correto afirmar:',
-    o: ['Aliviam congestão, mas não reduzem mortalidade', 'Reduzem mortalidade', 'São contraindicados', 'Devem ser usados em todos em dose alta'],
+    o: ['Aliviam a congestão, mas não reduzem mortalidade', 'Reduzem a mortalidade, de forma comprovada', 'São contraindicados na insuficiência cardíaca', 'Devem ser usados em dose alta em todos'],
     g: 'A',
     c: 'Usa-se a menor dose para manter a euvolemia. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Não reduzem.', C: 'Indicados na congestão.', D: 'Menor dose.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Digoxina',
     e: 'A digoxina na IC com fração reduzida:',
-    o: ['Reduz hospitalizações, sem reduzir mortalidade', 'Reduz mortalidade', 'É primeira linha', 'Não tem uso'],
+    o: ['Reduz hospitalizações, sem reduzir mortalidade', 'Reduz a mortalidade, de forma comprovada', 'É a primeira linha do tratamento da IC', 'Não tem nenhum uso na IC com fração reduzida'],
     g: 'A',
     c: 'Útil também para controle de FC na fibrilação atrial. Referência: Digitalis Investigation Group. The effect of digoxin on mortality and morbidity in patients with heart failure. N Engl J Med. 1997;336(8):525-33.',
     x: { B: 'Não reduz.', C: 'Segunda linha.', D: 'Tem uso.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Intoxicação digitálica',
     e: 'Paciente em uso de digoxina com náuseas, visão amarelada e arritmias, com hipocalemia. O diagnóstico é:',
-    o: ['Intoxicação digitálica', 'Hipertireoidismo', 'Gastroenterite', 'Enxaqueca'],
+    o: ['Intoxicação digitálica', 'Hipertireoidismo, com taquicardia e tremor', 'Gastroenterite aguda, com vômitos e diarreia', 'Enxaqueca com aura, com cefaleia pulsátil'],
     g: 'A',
     c: 'Hipocalemia, insuficiência renal e amiodarona predispõem. Tratamento grave: anticorpo antidigoxina. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Hidralazina e nitrato',
     e: 'A associação hidralazina com nitrato na IC é indicada em:',
-    o: ['Afrodescendentes sintomáticos apesar do tratamento otimizado ou intolerantes a IECA, BRA e sacubitril', 'Todos os pacientes como primeira linha', 'IC com fração preservada', 'Hipotensos'],
+    o: ['Afrodescendentes sintomáticos ou intolerantes a IECA/BRA', 'Todos os pacientes com IC, como primeira linha', 'IC com fração preservada, sem sinais de congestão', 'Pacientes hipotensos, para elevar a pressão arterial'],
     g: 'A',
     c: 'Estudo A-HeFT. Referência: Taylor AL et al. Combination of isosorbide dinitrate and hydralazine in blacks with heart failure (A-HeFT). N Engl J Med. 2004;351(20):2049-57.',
     x: { B: 'Não é primeira linha.', C: 'Sem evidência.', D: 'Contraindicado.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'BNP',
     e: 'Paciente com dispneia e BNP de 30 pg/mL. A interpretação é:',
-    o: ['Torna improvável a IC como causa da dispneia', 'Confirma IC', 'Indica infarto', 'Indica TEP'],
+    o: ['Torna improvável a IC como causa da dispneia', 'Confirma o diagnóstico de insuficiência cardíaca', 'Indica infarto agudo do miocárdio em curso', 'Indica embolia pulmonar, com sobrecarga direita'],
     g: 'A',
     c: 'NT-proBNP abaixo de 300 na aguda também exclui. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Valor baixo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: frio e úmido',
     e: 'Paciente com IC descompensada, hipotenso, com extremidades frias e congestão. O tratamento inclui:',
-    o: ['Inotrópico (como dobutamina) e, se necessário, vasopressor, com diurético após melhora da perfusão', 'Betabloqueador em dose alta', 'Vasodilatador isolado em hipotenso', 'Volume em grande quantidade'],
+    o: ['Inotrópico (dobutamina) ± vasopressor; diurético após a perfusão', 'Betabloqueador em dose alta, por via venosa, de imediato', 'Vasodilatador isolado, mesmo no paciente já hipotenso', 'Volume em grande quantidade, por via venosa, em bolus'],
     g: 'A',
     c: 'É o perfil de pior prognóstico. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Pioraria.', C: 'Risco de hipotensão.', D: 'Pioraria a congestão.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Edema agudo de pulmão',
     e: 'Paciente com edema agudo de pulmão hipertensivo. O tratamento inicial inclui:',
-    o: ['Ventilação não invasiva, nitrato e diurético de alça', 'Betabloqueador intravenoso', 'Volume', 'Digoxina isolada'],
+    o: ['Ventilação não invasiva, nitrato e diurético de alça', 'Betabloqueador venoso, em dose alta', 'Volume de cristaloide, em grande quantidade', 'Digoxina isolada, em dose de ataque'],
     g: 'A',
     c: 'A ventilação não invasiva reduz intubação. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Pioraria agudamente.', C: 'Pioraria.', D: 'Insuficiente.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Fatores de descompensação',
     e: 'Causas comuns de descompensação da IC incluem:',
-    o: ['Má adesão, excesso de sal e líquidos, infecção, arritmias e isquemia', 'Exercício leve', 'Vacinação', 'Sono adequado'],
+    o: ['Má adesão, excesso de sal, infecção, arritmia e isquemia', 'Exercício leve, regular e supervisionado', 'Vacinação contra influenza e pneumococo', 'Sono adequado, com horas de descanso regulares'],
     g: 'A',
     c: 'Devem ser identificadas em cada internação. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Benéfico.', C: 'Previne.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC com fração preservada',
     e: 'Idosa obesa, hipertensa, com dispneia, FEVE de 60%, átrio esquerdo aumentado e BNP elevado. O diagnóstico e o tratamento com benefício são:',
-    o: ['IC com fração de ejeção preservada; iSGLT2 e diurético para congestão', 'IC com fração reduzida; sacubitril', 'Asma; corticoide', 'Ansiedade; ansiolítico'],
+    o: ['IC com FE preservada: iSGLT2 e diurético na congestão', 'IC com fração reduzida: sacubitril-valsartana', 'Asma brônquica: corticoide inalatório', 'Ansiedade: ansiolítico por via oral'],
     g: 'A',
     c: 'Também controlar comorbidades. Referência: Anker SD et al. Empagliflozin in Heart Failure with a Preserved Ejection Fraction (EMPEROR-Preserved). N Engl J Med. 2021;385(16):1451-61.',
     x: { B: 'FEVE preservada.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Ferro na IC',
     e: 'Paciente com IC com fração reduzida e ferritina de 70 ng/mL. A conduta é:',
-    o: ['Ferro intravenoso (carboximaltose), que melhora sintomas e reduz hospitalizações', 'Ferro oral', 'Transfusão', 'Nada'],
+    o: ['Ferro IV (carboximaltose): melhora sintomas e internações', 'Ferro oral, em dose plena, por 3 meses', 'Transfusão de concentrado de hemácias, de rotina', 'Nenhuma conduta, pois o ferro é adequado'],
     g: 'A',
     c: 'Deficiência de ferro: ferritina abaixo de 100, ou 100 a 299 com saturação abaixo de 20%. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Pouco eficaz na IC.', C: 'Sem indicação.', D: 'Exige.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Restrição de sódio',
     e: 'Sobre a restrição de sódio na IC crônica, é correto afirmar:',
-    o: ['Recomenda-se evitar excesso, mas restrição muito intensa não mostrou benefício claro', 'Deve ser zero', 'Não tem relevância', 'Deve-se aumentar o sal'],
+    o: ['Evitar excesso; restrição intensa sem benefício claro', 'Deve ser zero, com dieta absolutamente sem sal', 'Não tem nenhuma relevância na IC crônica', 'Deve-se aumentar o sal, para repor o sódio'],
     g: 'A',
     c: 'Estudo SODIUM-HF. Referência: Ezekowitz JA et al. Reduction of dietary sodium to less than 100 mmol in heart failure (SODIUM-HF). Lancet. 2022;399(10333):1391-400.',
     x: { B: 'Excessivo.', C: 'Tem relevância.', D: 'Prejudicial.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Vacinação na IC',
     e: 'Pacientes com IC devem receber:',
-    o: ['Vacinas contra influenza, pneumococo e covid-19', 'Nenhuma vacina', 'Apenas BCG', 'Apenas febre amarela'],
+    o: ['Influenza, pneumococo e covid-19', 'Nenhuma vacina, pelo risco de descompensação', 'Apenas BCG, aplicada na vida adulta', 'Apenas febre amarela, em áreas de risco'],
     g: 'A',
     c: 'Reduzem descompensações. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Indicadas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Ressincronização',
     e: 'Paciente com IC com FEVE de 30%, ritmo sinusal, bloqueio de ramo esquerdo com QRS de 160 ms e sintomático apesar de tratamento otimizado. A indicação é:',
-    o: ['Terapia de ressincronização cardíaca', 'Marca-passo convencional', 'Nada', 'Digoxina em dose alta'],
+    o: ['Terapia de ressincronização cardíaca', 'Marca-passo convencional, de câmara única', 'Nenhuma terapia de dispositivo é indicada', 'Digoxina em dose alta, por via oral'],
     g: 'A',
     c: 'Reduz mortalidade e melhora sintomas. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Pode piorar.', C: 'Indicada.', D: 'Sem benefício.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'CDI',
     e: 'Prevenção primária de morte súbita com CDI na IC é indicada com FEVE:',
-    o: ['De 35% ou menos, apesar de 3 meses de tratamento otimizado e expectativa de vida acima de 1 ano', 'De 50%', 'De 45%', 'Qualquer valor'],
+    o: ['≤ 35% após 3 meses de tratamento e sobrevida > 1 ano', 'FEVE de 50%, que é considerada normal', 'FEVE de 45%, que é levemente reduzida', 'Qualquer valor de FEVE, sem critério adicional'],
     g: 'A',
     c: 'O benefício é maior na etiologia isquêmica. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Preservada.', C: 'Não indicada.', D: 'Há critério.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia e IC',
     e: 'Paciente com IC em uso de espironolactona com potássio de 5,8 mEq/L. A conduta é:',
-    o: ['Reduzir ou suspender temporariamente e reavaliar; considerar quelantes de potássio para manter a terapia', 'Manter sem mudanças', 'Aumentar a dose', 'Suspender o betabloqueador'],
+    o: ['Reduzir ou suspender e reavaliar; considerar quelantes de K+', 'Manter sem mudanças, com novo controle em um mês', 'Aumentar a dose, para obter melhor efeito terapêutico', 'Suspender o betabloqueador, que é quem eleva o potássio'],
     g: 'A',
     c: 'Os quelantes novos permitem manter as drogas. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Risco.', C: 'Pioraria.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Doença de Chagas e IC',
     e: 'Paciente com cardiomiopatia chagásica e IC. Sobre o tratamento, é correto afirmar:',
-    o: ['Segue os princípios gerais da IC, com atenção a arritmias e tromboembolismo', 'Não se usa betabloqueador nunca', 'Só se usa digoxina', 'Benznidazol reverte a IC crônica'],
+    o: ['Princípios gerais da IC; atenção a arritmias e embolia', 'Não se usa betabloqueador na doença de Chagas, em nenhum caso', 'Só se usa digoxina, em dose de manutenção, e mais nada', 'O benznidazol reverte a IC crônica já instalada no paciente'],
     g: 'A',
     c: 'O benznidazol não mostrou benefício na fase crônica avançada (estudo BENEFIT). Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Pode ser usado.', C: 'Insuficiente.', D: 'Sem benefício.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: sinais clínicos',
     e: 'Sinal clínico com maior especificidade para IC é:',
-    o: ['Terceira bulha (B3) e turgência jugular', 'Edema de membros inferiores isolado', 'Tosse', 'Fadiga'],
+    o: ['Terceira bulha (B3) e turgência jugular', 'Edema de membros inferiores, de forma isolada', 'Tosse seca persistente, de forma isolada', 'Fadiga aos esforços, de forma isolada'],
     g: 'A',
     c: 'Edema tem muitas outras causas. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Inespecífico.', C: 'Inespecífico.', D: 'Inespecífico.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: critérios de Framingham',
     e: 'São critérios maiores de Framingham para IC:',
-    o: ['Dispneia paroxística noturna, turgência jugular, estertores, cardiomegalia, edema agudo de pulmão e B3', 'Tosse noturna e edema de tornozelo', 'Hepatomegalia e derrame pleural', 'Taquicardia isolada'],
+    o: ['DPN, turgência jugular, estertores, cardiomegalia, EAP e B3', 'Tosse noturna e edema de tornozelo, de forma isolada', 'Hepatomegalia e derrame pleural, como critérios menores', 'Taquicardia, de forma isolada e sem outros sinais'],
     g: 'A',
     c: 'Diagnóstico: 2 maiores, ou 1 maior e 2 menores. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Menores.', C: 'Menores.', D: 'Menor.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: etiologia',
     e: 'A principal causa de IC com fração reduzida em países desenvolvidos é:',
-    o: ['Cardiopatia isquêmica', 'Doença de Chagas', 'Valvopatia reumática', 'Álcool'],
+    o: ['Cardiopatia isquêmica', 'Doença de Chagas, comum em países endêmicos', 'Valvopatia reumática, comum em países em desenvolvimento', 'Álcool, em consumo pesado e prolongado'],
     g: 'A',
     c: 'No Brasil, hipertensão e Chagas também são importantes. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Regional.', C: 'Menos comum.', D: 'Menos comum.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia alcoólica',
     e: 'Etilista pesado com IC e fração de ejeção reduzida. Além do tratamento padrão, a medida mais importante é:',
-    o: ['Abstinência alcoólica, que pode reverter a disfunção', 'Aumentar o consumo', 'Apenas diurético', 'Transplante imediato'],
+    o: ['Abstinência alcoólica, que pode reverter a disfunção', 'Aumentar o consumo, para melhor tolerância', 'Apenas diurético de alça, sem outras medidas', 'Transplante cardíaco imediato, em todos os casos'],
     g: 'A',
     c: 'Repor tiamina se deficiente. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Pioraria.', C: 'Insuficiente.', D: 'Não é primeiro.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia periparto',
     e: 'Mulher no último mês de gestação ou até 5 meses pós-parto com IC e FEVE abaixo de 45%, sem outra causa. O diagnóstico é:',
-    o: ['Cardiomiopatia periparto', 'Pré-eclâmpsia', 'Embolia amniótica', 'Anemia'],
+    o: ['Cardiomiopatia periparto', 'Pré-eclâmpsia grave, com edema pulmonar', 'Embolia de líquido amniótico, no parto', 'Anemia grave, com dispneia aos esforços'],
     g: 'A',
     c: 'A bromocriptina pode ser considerada; contraindica-se IECA na gestação. Referência: Bauersachs J et al. Pathophysiology, diagnosis and management of peripartum cardiomyopathy. Eur J Heart Fail. 2019;21(7):827-43.',
     x: { B: 'Sem disfunção.', C: 'Agudo e no parto.', D: 'Não explica.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia hipertrófica',
     e: 'Jovem atleta com síncope ao esforço, sopro sistólico que aumenta com Valsalva e diminui ao agachar. A hipótese é:',
-    o: ['Cardiomiopatia hipertrófica obstrutiva', 'Estenose aórtica valvar', 'Sopro inocente', 'Prolapso mitral'],
+    o: ['Cardiomiopatia hipertrófica obstrutiva', 'Estenose aórtica valvar, que piora com a manobra de Valsalva', 'Sopro inocente, sem repercussão hemodinâmica', 'Prolapso mitral, com clique mesossistólico'],
     g: 'A',
     c: 'É causa importante de morte súbita em jovens. Referência: Arbelo E et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J. 2023;44(37):3503-626.',
     x: { B: 'O sopro não muda assim.', C: 'Sem síncope.', D: 'Clique e sopro tardio.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Amiloidose cardíaca',
     e: 'Idoso com IC com fração preservada, hipertrofia ventricular no eco com baixa voltagem no ECG e síndrome do túnel do carpo bilateral. A hipótese é:',
-    o: ['Amiloidose cardíaca por transtirretina', 'Cardiomiopatia hipertensiva', 'Chagas', 'Takotsubo'],
+    o: ['Amiloidose cardíaca por transtirretina', 'Cardiomiopatia hipertensiva, com HVE concêntrica', 'Cardiopatia chagásica, com bloqueios de ramo', 'Takotsubo, com disfunção apical transitória'],
     g: 'A',
     c: 'A cintilografia com pirofosfato ajuda no diagnóstico. O tafamidis reduz mortalidade. Referência: Garcia-Pavia P et al. Diagnosis and treatment of cardiac amyloidosis: a position statement of the ESC. Eur Heart J. 2021;42(16):1554-68.',
     x: { B: 'Voltagem alta.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: monitorização',
     e: 'No seguimento ambulatorial da IC, o paciente deve:',
-    o: ['Pesar-se diariamente e procurar atendimento se ganhar mais de 2 kg em 3 dias', 'Pesar-se uma vez por ano', 'Ignorar o peso', 'Restringir líquidos a 300 mL'],
+    o: ['Pesar-se todo dia; buscar ajuda se ganhar > 2 kg em 3 dias', 'Pesar-se uma vez por ano, na consulta anual', 'Ignorar o peso, pois não tem utilidade clínica', 'Restringir líquidos a 300 mL por dia, rigorosamente'],
     g: 'A',
     c: 'O ganho de peso precede a descompensação. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Insuficiente.', C: 'Risco.', D: 'Excessivo.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: AINEs',
     e: 'Paciente com IC deve evitar:',
-    o: ['Anti-inflamatórios não esteroides, que causam retenção de sódio e piora da IC', 'Paracetamol', 'Vacinas', 'Exercício leve'],
+    o: ['AINEs, que causam retenção de sódio e pioram a IC', 'Paracetamol, em dose habitual, por via oral', 'Vacinas contra influenza e pneumococo', 'Exercício leve e supervisionado, de rotina'],
     g: 'A',
     c: 'Também evitar glitazonas e verapamil/diltiazém na fração reduzida. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Seguro.', C: 'Indicadas.', D: 'Benéfico.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Exercício na IC',
     e: 'Sobre exercício físico na IC crônica estável, é correto afirmar:',
-    o: ['A reabilitação cardíaca melhora capacidade funcional e qualidade de vida', 'É contraindicado', 'Aumenta a mortalidade', 'Deve ser apenas repouso'],
+    o: ['A reabilitação melhora a capacidade funcional e a qualidade de vida', 'É contraindicado em qualquer paciente com insuficiência cardíaca', 'Aumenta a mortalidade em pacientes com IC crônica estável', 'Deve ser apenas repouso no leito, por meses seguidos'],
     g: 'A',
     c: 'Indicada em classes II e III. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Indicado.', C: 'Afirmativa falsa.', D: 'Prejudicial.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC refratária',
     e: 'Paciente com IC estágio D apesar de tratamento máximo. Opções incluem:',
-    o: ['Transplante cardíaco, dispositivo de assistência ventricular ou cuidados paliativos', 'Apenas aumentar diurético indefinidamente', 'Suspender todo tratamento', 'Nenhuma'],
+    o: ['Transplante, assistência ventricular ou cuidados paliativos', 'Apenas aumentar o diurético, indefinidamente, até a melhora', 'Suspender todo o tratamento, de imediato, sem alternativas', 'Nenhuma opção terapêutica está disponível nesse estágio'],
     g: 'A',
     c: 'O encaminhamento precoce a centro especializado é importante. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Insuficiente.', C: 'Inadequado.', D: 'Há opções.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: tratamento de comorbidades',
     e: 'Paciente com IC e apneia central do sono. A servo-ventilação adaptativa:',
-    o: ['É contraindicada na IC com fração reduzida, por aumento de mortalidade', 'É obrigatória', 'Melhora a sobrevida', 'Não tem efeito'],
+    o: ['É contraindicada na IC com FE reduzida: aumenta mortalidade', 'É obrigatória, em todos os pacientes com IC', 'Melhora a sobrevida na IC com FE reduzida', 'Não tem nenhum efeito sobre a evolução da IC'],
     g: 'A',
     c: 'Estudo SERVE-HF. Referência: Cowie MR et al. Adaptive Servo-Ventilation for Central Sleep Apnea in Systolic Heart Failure. N Engl J Med. 2015;373(12):1095-105.',
     x: { B: 'Contraindicada.', C: 'Afirmativa falsa.', D: 'Aumentou a mortalidade.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC aguda: diurético',
     e: 'Na IC aguda congesta, o diurético de alça intravenoso deve ser dosado:',
-    o: ['Em dose igual ou maior que a oral prévia (1 a 2,5 vezes), monitorando natriurese e diurese', 'Sempre em dose baixa fixa', 'Apenas por via oral', 'Apenas após 24 horas'],
+    o: ['Dose ≥ à oral prévia (1-2,5 vezes), monitorando diurese', 'Sempre em dose baixa e fixa, sem ajuste pela resposta', 'Apenas por via oral, em dose habitual, sem via venosa', 'Apenas após 24 horas de internação, em dose habitual'],
     g: 'A',
     c: 'Associar tiazídico ou acetazolamida em resistência. Referência: Mullens W et al. The use of diuretics in heart failure with congestion. Eur J Heart Fail. 2019;21(2):137-55.',
     x: { B: 'Pode ser insuficiente.', C: 'Absorção reduzida.', D: 'Atraso.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: hiponatremia',
     e: 'Hiponatremia em paciente com IC descompensada indica:',
-    o: ['Pior prognóstico, geralmente por excesso de água livre', 'Melhora clínica', 'Desidratação sempre', 'Sem relação'],
+    o: ['Pior prognóstico, geralmente por excesso de água livre', 'Melhora clínica e do prognóstico do paciente', 'Desidratação, em todos os casos, sem exceção', 'Achado sem relação com o prognóstico da IC'],
     g: 'A',
     c: 'Restrição hídrica pode ajudar. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'O oposto.', C: 'Não necessariamente.', D: 'Tem relação.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: betabloqueador na descompensação',
     e: 'Paciente com IC crônica em uso de betabloqueador internado por descompensação leve, sem choque. A conduta é:',
-    o: ['Manter o betabloqueador, reduzindo a dose se necessário', 'Suspender definitivamente', 'Dobrar a dose', 'Trocar por bloqueador de canal de cálcio'],
+    o: ['Manter o betabloqueador, reduzindo a dose se necessário', 'Suspender definitivamente o betabloqueador', 'Dobrar a dose do betabloqueador, de imediato', 'Trocar por BCC di-hidropiridínico, em dose plena'],
     g: 'A',
     c: 'Suspender aumenta a mortalidade, exceto em choque. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Aumenta mortalidade.', C: 'Pioraria.', D: 'Contraindicado.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'ECG na IC',
     e: 'Achado do ECG que sugere cardiomiopatia chagásica é:',
-    o: ['Bloqueio de ramo direito com hemibloqueio anterior esquerdo', 'Eixo normal sem bloqueios', 'Onda delta', 'QT curto'],
+    o: ['BRD com hemibloqueio anterior esquerdo', 'Eixo normal e sem bloqueios de ramo, como padrão típico', 'Onda delta, sugestiva de pré-excitação ventricular', 'QT curto, sugestivo de canalopatia genética'],
     g: 'A',
     c: 'Arritmias ventriculares também são comuns. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Normal.', C: 'Pré-excitação.', D: 'Sem relação.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: tosse com IECA',
     e: 'Paciente com IC e tosse persistente por IECA. A troca recomendada é:',
-    o: ['Sacubitril-valsartana ou BRA', 'Suspender sem substituir', 'Hidralazina isolada', 'Clonidina'],
+    o: ['Sacubitril-valsartana ou BRA', 'Suspender o IECA, sem substituir por outro fármaco', 'Hidralazina isolada, em dose plena, por via oral', 'Clonidina isolada, em dose plena, por via oral'],
     g: 'A',
     c: 'Respeitar 36 horas de intervalo antes do sacubitril. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Perde benefício.', C: 'Inferior.', D: 'Sem benefício.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'Insuficiência cardíaca direita',
     e: 'Causa comum de insuficiência cardíaca direita é:',
-    o: ['Insuficiência cardíaca esquerda (causa mais comum), DPOC e hipertensão pulmonar', 'Asma leve', 'Hipertireoidismo leve', 'Anemia leve'],
+    o: ['IC esquerda (mais comum), DPOC e hipertensão pulmonar', 'Asma leve, controlada com corticoide inalatório', 'Hipertireoidismo leve, em tratamento clínico', 'Anemia leve, assintomática e estável'],
     g: 'A',
     c: 'O cor pulmonale decorre de doença pulmonar. Referência: Rohde LEP et al. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018;111(3):436-539.',
     x: { B: 'Não é causa comum.', C: 'Raro.', D: 'Raro.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: ecocardiograma',
     e: 'O exame essencial para confirmar e classificar a IC é:',
-    o: ['Ecocardiograma transtorácico', 'Radiografia de tórax isolada', 'ECG isolado', 'Hemograma'],
+    o: ['Ecocardiograma transtorácico', 'Radiografia de tórax, de forma isolada', 'ECG de repouso, de forma isolada', 'Hemograma completo, de forma isolada'],
     g: 'A',
     c: 'Avalia FEVE, valvas, câmaras e pressões. Referência: McDonagh TA et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (com atualização focada de 2023). Eur Heart J. 2021;42(36):3599-726.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: titulação',
     e: 'Após iniciar os quatro pilares na IC com fração reduzida, as doses devem ser:',
-    o: ['Tituladas rapidamente até as doses-alvo toleradas', 'Mantidas em dose mínima', 'Reduzidas após 1 mês', 'Suspensas na melhora'],
+    o: ['Tituladas rapidamente até a dose-alvo tolerada', 'Mantidas na dose mínima, por tempo indefinido', 'Reduzidas após 1 mês, mesmo sem intolerância', 'Suspensas na melhora, mesmo sem recidiva'],
     g: 'A',
     c: 'O estudo STRONG-HF mostrou benefício da titulação rápida. Referência: Mebazaa A et al. Safety, tolerability and efficacy of up-titration of guideline-directed medical therapies (STRONG-HF). Lancet. 2022;400(10367):1938-52.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_IC: QuestaoCompacta[] = [
   {
     s: 'IC: FEVE recuperada',
     e: 'Paciente com IC com fração reduzida que melhora para FEVE de 55% com tratamento. A conduta é:',
-    o: ['Manter o tratamento, pois a suspensão associa-se a recaída', 'Suspender todas as drogas', 'Reduzir tudo à metade de rotina', 'Trocar por digoxina'],
+    o: ['Manter o tratamento: a suspensão leva a recaída', 'Suspender todas as drogas, pela normalização da FEVE', 'Reduzir tudo à metade, de rotina, após a melhora', 'Trocar por digoxina, em dose de manutenção'],
     g: 'A',
     c: 'Estudo TRED-HF. Referência: Halliday BP et al. Withdrawal of pharmacological treatment for heart failure in patients with recovered dilated cardiomyopathy (TRED-HF). Lancet. 2019;393(10166):61-73.',
     x: { B: 'Risco de recaída.', C: 'Risco.', D: 'Inferior.' },

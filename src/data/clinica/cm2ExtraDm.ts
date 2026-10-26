@@ -5,7 +5,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de diabetes',
     e: 'É critério diagnóstico de diabetes mellitus:',
-    o: ['Glicemia de jejum de 126 mg/dL ou mais, HbA1c de 6,5% ou mais, glicemia de 2 horas no TOTG de 200 ou mais, ou glicemia casual de 200 ou mais com sintomas', 'Glicemia de jejum de 100', 'HbA1c de 5,7%', 'Glicemia casual de 140'],
+    o: ['Jejum ≥ 126, HbA1c ≥ 6,5%, TOTG ≥ 200 ou casual ≥ 200 com sintomas', 'Glicemia de jejum de 100 mg/dL, de forma isolada, sem sintomas', 'HbA1c de 5,7%, de forma isolada, sem outro exame confirmatório', 'Glicemia casual de 140 mg/dL, sem sintomas clássicos de diabetes'],
     g: 'A',
     c: 'Sem sintomas, repetir para confirmar. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Pré-diabetes.', C: 'Pré-diabetes.', D: 'Normal.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Pré-diabetes',
     e: 'Glicemia de jejum entre 100 e 125 mg/dL caracteriza:',
-    o: ['Glicemia de jejum alterada (pré-diabetes)', 'Diabetes', 'Normal', 'Hipoglicemia'],
+    o: ['Glicemia de jejum alterada (pré-diabetes)', 'Diabetes mellitus, já estabelecido', 'Glicemia normal, sem alteração do metabolismo', 'Hipoglicemia, com sintomas adrenérgicos'],
     g: 'A',
     c: 'HbA1c entre 5,7 e 6,4% também. Mudança de estilo de vida reduz progressão. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Exige 126.', C: 'Alterado.', D: 'Sem relação.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Metformina',
     e: 'O tratamento farmacológico inicial do diabetes tipo 2 sem comorbidades cardiorrenais é, em geral:',
-    o: ['Metformina, associada a mudança de estilo de vida', 'Insulina para todos', 'Sulfonilureia obrigatória', 'Acarbose'],
+    o: ['Metformina, com mudança do estilo de vida', 'Insulina para todos os casos, desde o diagnóstico', 'Sulfonilureia obrigatória, como primeira escolha', 'Acarbose em dose plena, como primeira escolha'],
     g: 'A',
     c: 'Em doença cardiovascular, IC ou DRC, associar iSGLT2 ou GLP-1 independentemente da HbA1c. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Não para todos.', C: 'Não obrigatória.', D: 'Menos eficaz.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Metformina: contraindicação',
     e: 'A metformina deve ser suspensa ou evitada com taxa de filtração glomerular abaixo de:',
-    o: ['30 mL/min/1,73m²', '90', '60 em todos', '120'],
+    o: ['TFG de 30 mL/min/1,73 m²', 'TFG de 90 mL/min/1,73 m², função renal normal', 'TFG de 60 mL/min/1,73 m², em todos os pacientes', 'TFG de 120 mL/min/1,73 m², função renal normal'],
     g: 'A',
     c: 'Entre 30 e 45, reduzir dose. Risco de acidose lática. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Normal.', C: 'Pode usar com ajuste.', D: 'Normal.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'iSGLT2',
     e: 'Os inibidores de SGLT2 têm benefício comprovado em:',
-    o: ['Insuficiência cardíaca e doença renal crônica, além do controle glicêmico', 'Diabetes tipo 1 como monoterapia', 'Gestação', 'Cetoacidose'],
+    o: ['IC e DRC, além do controle glicêmico', 'Diabetes tipo 1, como monoterapia isolada', 'Gestação, por ser considerado seguro', 'Cetoacidose diabética, como tratamento da crise'],
     g: 'A',
     c: 'Efeitos: infecção genital e risco de cetoacidose euglicêmica. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Não indicado.', C: 'Não indicado.', D: 'Causa.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'GLP-1',
     e: 'Os agonistas do receptor de GLP-1 (como semaglutida):',
-    o: ['Reduzem glicemia, peso e eventos cardiovasculares', 'Causam ganho de peso', 'Causam hipoglicemia isolados com frequência', 'São contraindicados na obesidade'],
+    o: ['Reduzem glicemia, peso e eventos CV', 'Causam ganho de peso importante e contínuo', 'Causam hipoglicemia frequente quando isolados', 'São contraindicados em pacientes com obesidade'],
     g: 'A',
     c: 'Efeitos gastrointestinais são comuns. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'O oposto.', C: 'Raro isolado.', D: 'Indicados.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Sulfonilureias',
     e: 'Efeito adverso principal das sulfonilureias é:',
-    o: ['Hipoglicemia e ganho de peso', 'Perda de peso', 'Acidose lática', 'Infecção genital'],
+    o: ['Hipoglicemia e ganho de peso', 'Perda de peso importante e contínua', 'Acidose lática, em pacientes com disfunção renal', 'Infecção genital, por glicosúria persistente'],
     g: 'A',
     c: 'Cuidado em idosos e na DRC. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'O oposto.', C: 'Metformina.', D: 'iSGLT2.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Diabetes tipo 1',
     e: 'O diabetes tipo 1 é tratado com:',
-    o: ['Insulina basal-bolus (ou sistema de infusão), desde o diagnóstico', 'Metformina isolada', 'Sulfonilureia', 'Dieta isolada'],
+    o: ['Insulina basal-bolus (ou infusão), desde o diagnóstico', 'Metformina isolada, em dose plena, por via oral', 'Sulfonilureia isolada, em dose plena, por via oral', 'Dieta isolada, sem qualquer medicação associada'],
     g: 'A',
     c: 'Há deficiência absoluta de insulina. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Insuficiente.', C: 'Ineficaz.', D: 'Insuficiente.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose: diagnóstico',
     e: 'Critérios de cetoacidose diabética incluem:',
-    o: ['Glicemia acima de 250 (ou diabetes conhecido), pH abaixo de 7,3 ou bicarbonato abaixo de 18 e cetonemia ou cetonúria', 'Glicemia de 150 sem acidose', 'Alcalose', 'Hiperosmolaridade sem cetose'],
+    o: ['Glicemia > 250, pH < 7,3 ou HCO3 < 18 e cetonemia', 'Glicemia de 150 mg/dL, sem acidose metabólica', 'Alcalose metabólica, com cetonúria discreta', 'Hiperosmolaridade importante, sem cetose associada'],
     g: 'A',
     c: 'O ânion gap está aumentado. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Insuficiente.', C: 'O oposto.', D: 'Estado hiperosmolar.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose: tratamento',
     e: 'A sequência inicial do tratamento da cetoacidose é:',
-    o: ['Hidratação venosa vigorosa, verificar potássio antes da insulina e iniciar insulina regular intravenosa', 'Insulina antes da hidratação em hipocalêmico', 'Bicarbonato para todos', 'Insulina subcutânea apenas'],
+    o: ['Hidratação vigorosa, checar K+ e depois insulina regular IV', 'Insulina antes da hidratação, em paciente hipocalêmico', 'Bicarbonato de sódio venoso para todos os pacientes', 'Apenas insulina subcutânea, sem hidratação venosa'],
     g: 'A',
     c: 'Se potássio abaixo de 3,3, repor antes da insulina. Referência: Kitabchi AE et al. Hyperglycemic crises in adult patients with diabetes. Diabetes Care. 2009;32(7):1335-43.',
     x: { B: 'Risco de hipocalemia grave.', C: 'Não rotina.', D: 'Insuficiente.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose: potássio',
     e: 'Na cetoacidose, o potássio sérico inicial pode estar normal ou alto, mas o potássio corporal total está:',
-    o: ['Reduzido, e a insulina causa queda rápida do potássio sérico', 'Aumentado', 'Normal', 'Sem relação'],
+    o: ['Reduzido; a insulina causa queda rápida do K+ sérico', 'Aumentado, sem déficit corporal total de potássio', 'Normal, sem déficit corporal total de potássio', 'Sem relação com o déficit corporal de potássio'],
     g: 'A',
     c: 'Por isso repor quando abaixo de 5,2. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'O oposto.', C: 'Reduzido.', D: 'Tem relação.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Estado hiperosmolar',
     e: 'Idoso com glicemia de 900 mg/dL, osmolaridade de 340, sem acidose importante e com rebaixamento de consciência. O diagnóstico é:',
-    o: ['Estado hiperglicêmico hiperosmolar', 'Cetoacidose', 'Hipoglicemia', 'AVC isolado'],
+    o: ['Estado hiperglicêmico hiperosmolar', 'Cetoacidose diabética, com acidose importante', 'Hipoglicemia grave, com glicemia muito baixa', 'AVC isquêmico isolado, sem alteração glicêmica'],
     g: 'A',
     c: 'A desidratação é intensa; hidratação é a prioridade. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Haveria acidose.', C: 'O oposto.', D: 'Excluir, mas o quadro sugere.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia',
     e: 'Paciente diabético com glicemia de 50 mg/dL, consciente. A conduta é:',
-    o: ['Oferecer 15 a 20 g de carboidrato de absorção rápida e reavaliar em 15 minutos', 'Insulina', 'Esperar 1 hora', 'Glucagon intravenoso de rotina'],
+    o: ['15-20 g de carboidrato rápido e reavaliar em 15 minutos', 'Insulina regular subcutânea, em dose de correção', 'Esperar 1 hora, antes de qualquer intervenção', 'Glucagon intravenoso de rotina, mesmo consciente'],
     g: 'A',
     c: 'Se inconsciente: glicose intravenosa ou glucagon. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Pioraria.', C: 'Risco.', D: 'Não rotina.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Complicações microvasculares',
     e: 'São complicações microvasculares do diabetes:',
-    o: ['Retinopatia, nefropatia e neuropatia', 'Infarto', 'AVC', 'Doença arterial periférica'],
+    o: ['Retinopatia, nefropatia e neuropatia', 'Infarto agudo do miocárdio, complicação macrovascular', 'AVC isquêmico, complicação macrovascular', 'Doença arterial periférica, complicação macrovascular'],
     g: 'A',
     c: 'As macrovasculares são a principal causa de morte. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Macro.', C: 'Macro.', D: 'Macro.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Rastreio de nefropatia',
     e: 'O rastreio de doença renal no diabetes inclui:',
-    o: ['Relação albumina/creatinina urinária e TFG anualmente', 'Apenas ureia', 'Ultrassom renal anual', 'Biópsia'],
+    o: ['Relação albumina/creatinina urinária e TFG por ano', 'Apenas dosagem de ureia sérica, sem outros exames', 'Ultrassom renal, todos os anos, sem exames urinários', 'Biópsia renal, todos os anos, em todos os pacientes'],
     g: 'A',
     c: 'No tipo 2, desde o diagnóstico; no tipo 1, após 5 anos. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Insuficiente.', C: 'Não é rotina.', D: 'Não é rotina.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Retinopatia',
     e: 'O exame de fundo de olho no diabetes tipo 2 deve ser feito:',
-    o: ['Desde o diagnóstico e depois anualmente (ou a cada 2 anos se normal e bem controlado)', 'Somente após 10 anos', 'Nunca', 'Somente com perda visual'],
+    o: ['Ao diagnóstico e anual (ou a cada 2 anos se normal)', 'Somente após 10 anos de doença estabelecida', 'Nunca, pois o exame não traz benefício algum', 'Somente se houver queixa de perda visual'],
     g: 'A',
     c: 'A retinopatia pode estar presente ao diagnóstico. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Tardio.', C: 'Necessário.', D: 'Tardio.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Pé diabético',
     e: 'A avaliação do pé diabético inclui:',
-    o: ['Inspeção, pulsos e teste com monofilamento de 10 g pelo menos anualmente', 'Apenas radiografia', 'Apenas glicemia', 'Nada'],
+    o: ['Inspeção, pulsos e monofilamento de 10 g anualmente', 'Apenas radiografia dos pés, a cada ano', 'Apenas glicemia capilar, a cada consulta', 'Nenhum exame específico dos pés é necessário'],
     g: 'A',
     c: 'Perda de sensibilidade protetora indica alto risco de úlcera. Referência: Schaper NC et al. IWGDF Guidelines on the prevention and management of diabetes-related foot disease. 2023.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Exige.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Neuropatia dolorosa',
     e: 'Paciente com neuropatia diabética dolorosa. Opções de primeira linha incluem:',
-    o: ['Pregabalina, duloxetina ou amitriptilina', 'Opioide forte', 'AINE contínuo', 'Corticoide'],
+    o: ['Pregabalina, duloxetina ou amitriptilina', 'Opioide forte, em dose plena e contínua', 'AINE contínuo, em dose plena e por via oral', 'Corticoide sistêmico, em dose alta e prolongada'],
     g: 'A',
     c: 'Controle glicêmico ajuda a prevenir. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Não é primeira.', C: 'Riscos.', D: 'Sem indicação.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Estatina no diabetes',
     e: 'Diabéticos de 40 a 75 anos devem usar:',
-    o: ['Estatina, pelo menos de intensidade moderada', 'Nenhum hipolipemiante', 'Fibrato isolado', 'Ômega-3 isolado'],
+    o: ['Estatina, ao menos de intensidade moderada', 'Nenhum hipolipemiante, se o LDL for normal', 'Fibrato isolado, em dose habitual, sem estatina', 'Ômega-3 isolado, em dose habitual, sem estatina'],
     g: 'A',
     c: 'Alta intensidade com risco elevado. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Indicada.', C: 'Inferior.', D: 'Insuficiente.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Pressão arterial no diabetes',
     e: 'A meta de pressão arterial no diabético é, em geral:',
-    o: ['Abaixo de 130 x 80 mmHg', 'Abaixo de 160 x 100', 'Abaixo de 150 x 90', 'Não há meta'],
+    o: ['Abaixo de 130 x 80 mmHg', 'Abaixo de 160 x 100 mmHg, como meta geral', 'Abaixo de 150 x 90 mmHg, como meta geral', 'Não há meta de pressão arterial no diabético'],
     g: 'A',
     c: 'IECA ou BRA se albuminúria. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Alta.', C: 'Alta.', D: 'Há meta.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Diabetes e infecções',
     e: 'Diabético com otalgia intensa, otorreia e tecido de granulação no conduto. A hipótese é:',
-    o: ['Otite externa maligna por Pseudomonas', 'Otite média simples', 'Cerume', 'Herpes'],
+    o: ['Otite externa maligna por Pseudomonas', 'Otite média aguda simples, de origem viral', 'Impactação de cerume, sem infecção associada', 'Herpes zóster ótico, com vesículas no pavilhão'],
     g: 'A',
     c: 'Exige antibiótico antipseudomonas prolongado. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Sem esse padrão.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Mucormicose',
     e: 'Diabético em cetoacidose com necrose escura em palato e seios da face. O diagnóstico e tratamento são:',
-    o: ['Mucormicose; anfotericina B e desbridamento cirúrgico urgente', 'Sinusite bacteriana; amoxicilina', 'Herpes; aciclovir', 'Candidíase; fluconazol'],
+    o: ['Mucormicose: anfotericina B e desbridamento urgente', 'Sinusite bacteriana: amoxicilina oral por 7 dias', 'Herpes: aciclovir oral, em dose habitual', 'Candidíase: fluconazol oral, em dose habitual'],
     g: 'A',
     c: 'Alta mortalidade. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Inadequado.', C: 'Sem relação.', D: 'Ineficaz.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'LADA',
     e: 'Adulto magro com diabetes que parece tipo 2, mas com anticorpos anti-GAD positivos e falência rápida a orais. O diagnóstico é:',
-    o: ['Diabetes autoimune latente do adulto (LADA)', 'Diabetes tipo 2 típico', 'MODY', 'Diabetes gestacional'],
+    o: ['Diabetes autoimune latente do adulto (LADA)', 'Diabetes tipo 2 típico, sem autoimunidade', 'MODY, com herança autossômica dominante', 'Diabetes gestacional, restrito ao período da gravidez'],
     g: 'A',
     c: 'Evolui para necessidade de insulina. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Sem anticorpos.', C: 'Sem autoimunidade.', D: 'Sem gestação.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Rastreamento de diabetes',
     e: 'O rastreamento de diabetes tipo 2 em adultos assintomáticos é recomendado a partir de:',
-    o: ['35 anos, ou antes se sobrepeso com fatores de risco', '60 anos', '18 anos para todos anualmente', 'Nunca'],
+    o: ['Aos 35 anos, ou antes se sobrepeso e fatores de risco', 'Aos 60 anos, somente em indivíduos sintomáticos', 'Aos 18 anos, para todos, com exames anuais', 'Nunca, pois o rastreamento não é recomendado'],
     g: 'A',
     c: 'Repetir a cada 3 anos se normal. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Tardio.', C: 'Excessivo.', D: 'Recomendado.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Insulina basal',
     e: 'Ao iniciar insulina basal no diabetes tipo 2, a dose inicial usual é:',
-    o: ['10 unidades ou 0,1 a 0,2 U/kg à noite, titulando pela glicemia de jejum', '1 U/kg', '50 unidades fixas', '0,01 U/kg'],
+    o: ['10 U ou 0,1-0,2 U/kg à noite, titulando pelo jejum', '1 U/kg de insulina basal, em dose única diária', '50 unidades fixas de insulina, sem titulação', '0,01 U/kg de insulina basal, sem titulação'],
     g: 'A',
     c: 'Ajustes a cada 3 dias. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Insuficiente.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Efeito Somogyi e fenômeno do alvorecer',
     e: 'Paciente com hiperglicemia matinal e glicemia normal às 3 horas. A causa provável é:',
-    o: ['Fenômeno do alvorecer, ajustando a insulina basal', 'Efeito Somogyi', 'Excesso de insulina noturna', 'Hipoglicemia noturna'],
+    o: ['Fenômeno do alvorecer; ajustar a insulina basal', 'Efeito Somogyi, por hipoglicemia noturna prévia', 'Excesso de insulina noturna, com hipoglicemia', 'Hipoglicemia noturna, com hiperglicemia de rebote'],
     g: 'A',
     c: 'No Somogyi, há hipoglicemia de madrugada com rebote. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Haveria hipoglicemia.', C: 'Haveria hipoglicemia.', D: 'Haveria hipoglicemia.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'HbA1c: interferências',
     e: 'A HbA1c pode ser falsamente baixa em:',
-    o: ['Anemia hemolítica e transfusão recente', 'Anemia ferropriva', 'Insuficiência renal sempre', 'Hipotireoidismo'],
+    o: ['Anemia hemolítica e transfusão recente', 'Anemia ferropriva, que costuma elevar a HbA1c', 'Insuficiência renal, que sempre reduz a HbA1c', 'Hipotireoidismo, que costuma elevar a HbA1c'],
     g: 'A',
     c: 'A ferropenia pode elevá-la falsamente. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Eleva.', C: 'Variável.', D: 'Sem relação.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Diabetes e cirurgia',
     e: 'Paciente em uso de iSGLT2 que fará cirurgia eletiva. A recomendação é:',
-    o: ['Suspender 3 a 4 dias antes, pelo risco de cetoacidose euglicêmica', 'Manter até o dia', 'Dobrar a dose', 'Nada'],
+    o: ['Suspender 3-4 dias antes: risco de cetoacidose euglicêmica', 'Manter até o dia da cirurgia, sem alterar a dose', 'Dobrar a dose no dia anterior à cirurgia', 'Nenhuma orientação específica é necessária'],
     g: 'A',
     c: 'Retomar quando alimentação adequada. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Risco.', C: 'Risco.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Cetoacidose euglicêmica',
     e: 'Paciente em uso de dapagliflozina com acidose metabólica de ânion gap aumentado, cetonemia e glicemia de 180. O diagnóstico é:',
-    o: ['Cetoacidose diabética euglicêmica', 'Acidose lática', 'Intoxicação', 'Hipoglicemia'],
+    o: ['Cetoacidose diabética euglicêmica', 'Acidose lática, por uso de metformina', 'Intoxicação exógena, com ânion gap elevado', 'Hipoglicemia grave, sem acidose metabólica'],
     g: 'A',
     c: 'Tratamento como cetoacidose, com glicose associada. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Possível diferencial.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia: sinais',
     e: 'Sinais adrenérgicos de hipoglicemia incluem:',
-    o: ['Tremor, sudorese, palpitação e fome', 'Coma apenas', 'Bradicardia', 'Hipertensão grave'],
+    o: ['Tremor, sudorese, palpitação e fome', 'Coma, apenas, sem sintomas adrenérgicos prévios', 'Bradicardia sinusal, com pele seca e fria', 'Hipertensão grave, com cefaleia e rubor facial'],
     g: 'A',
     c: 'Os neuroglicopênicos incluem confusão e convulsão. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Neuroglicopênico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia não percebida',
     e: 'Paciente com hipoglicemias frequentes sem sintomas de alerta. A conduta é:',
-    o: ['Afrouxar metas e evitar hipoglicemias por algumas semanas para recuperar a percepção', 'Intensificar a insulina', 'Ignorar', 'Usar betabloqueador'],
+    o: ['Afrouxar a meta e evitar hipoglicemia por semanas', 'Intensificar a insulina, para melhor controle glicêmico', 'Ignorar a ausência de sintomas, sem mudar a conduta', 'Usar betabloqueador, para controlar os sintomas'],
     g: 'A',
     c: 'Sensores contínuos ajudam. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Pioraria.', C: 'Risco.', D: 'Mascara.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Diabetes gestacional',
     e: 'Sobre diabetes gestacional, é correto afirmar:',
-    o: ['Aumenta o risco futuro de diabetes tipo 2, exigindo reavaliação pós-parto', 'Não tem relação com diabetes futuro', 'Exige metformina sempre', 'Não precisa de tratamento'],
+    o: ['Aumenta o risco futuro de DM2; reavaliar no pós-parto', 'Não tem relação com diabetes mellitus futuro', 'Exige metformina em todos os casos, sem exceção', 'Não precisa de tratamento, pois é transitório'],
     g: 'A',
     c: 'TOTG entre 4 e 12 semanas pós-parto. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Há relação.', C: 'Não sempre.', D: 'Exige.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'MODY',
     e: 'Jovem não obeso com diabetes leve, sem anticorpos, com forte história familiar em três gerações. A hipótese é:',
-    o: ['MODY (diabetes monogênico)', 'Tipo 1', 'LADA', 'Tipo 2 típico'],
+    o: ['MODY (diabetes monogênico)', 'Diabetes tipo 1, com autoanticorpos positivos', 'LADA, com autoanticorpos positivos', 'Diabetes tipo 2 típico, com obesidade e resistência'],
     g: 'A',
     c: 'Alguns tipos respondem bem a sulfonilureia. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Anticorpos.', C: 'Anticorpos.', D: 'Obesidade.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Pâncreas e diabetes',
     e: 'Diabetes secundário a pancreatite crônica caracteriza-se por:',
-    o: ['Deficiência de insulina e glucagon, com maior risco de hipoglicemia', 'Resistência insulínica isolada', 'Excesso de glucagon', 'Hiperinsulinemia'],
+    o: ['Deficiência de insulina e glucagon: mais hipoglicemia', 'Resistência insulínica isolada, sem déficit de insulina', 'Excesso de glucagon, com hiperglicemia grave', 'Hiperinsulinemia, com hipoglicemia de jejum'],
     g: 'A',
     c: 'Chamado diabetes tipo 3c. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Não isolada.', C: 'Deficiência.', D: 'Deficiência.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Corticoide e glicemia',
     e: 'Paciente diabético iniciando prednisona pela manhã. O padrão de hiperglicemia esperado é:',
-    o: ['Hiperglicemia vespertina e noturna, com jejum menos afetado', 'Hiperglicemia apenas de madrugada', 'Hipoglicemia', 'Nenhuma alteração'],
+    o: ['Hiperglicemia vespertina e noturna; jejum menos afetado', 'Hiperglicemia apenas de madrugada, em jejum', 'Hipoglicemia, no período da manhã', 'Nenhuma alteração da glicemia ao longo do dia'],
     g: 'A',
     c: 'Insulina NPH pela manhã pode cobrir. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Não é o padrão.', C: 'O oposto.', D: 'Há alteração.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Doença renal diabética',
     e: 'Diabético com DRC e albuminúria em uso de IECA e iSGLT2 ainda com albuminúria. Uma opção adicional é:',
-    o: ['Finerenona (antagonista mineralocorticoide não esteroidal)', 'Espironolactona com IECA e BRA', 'Diurético de alça', 'Nada'],
+    o: ['Finerenona, antagonista mineralocorticoide não esteroidal', 'Espironolactona associada ao IECA e ao BRA em dose plena', 'Diurético de alça, em dose alta e de uso contínuo', 'Nenhum tratamento adicional é necessário nessa situação'],
     g: 'A',
     c: 'Reduz progressão renal e eventos cardiovasculares. Referência: Bakris GL et al. Effect of Finerenone on Chronic Kidney Disease Outcomes in Type 2 Diabetes (FIDELIO-DKD). N Engl J Med. 2020;383(23):2219-29.',
     x: { B: 'Risco de hipercalemia.', C: 'Sem efeito.', D: 'Há opção.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Neuropatia autonômica',
     e: 'Diabético com tontura ao levantar, gastroparesia e taquicardia de repouso. O diagnóstico é:',
-    o: ['Neuropatia autonômica diabética', 'Hipotireoidismo', 'Ansiedade', 'Desidratação simples'],
+    o: ['Neuropatia autonômica diabética', 'Hipotireoidismo primário, com bradicardia', 'Ansiedade generalizada, com taquicardia', 'Desidratação simples, após uso de diurético'],
     g: 'A',
     c: 'Aumenta o risco de morte súbita. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Não explica.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Gastroparesia',
     e: 'Tratamento da gastroparesia diabética inclui:',
-    o: ['Refeições pequenas e frequentes, controle glicêmico e procinético (como metoclopramida por curto período)', 'Dieta rica em gordura', 'Opioides', 'Nada'],
+    o: ['Refeições pequenas, controle glicêmico e procinético curto', 'Dieta rica em gordura, para aumentar a saciedade', 'Opioides, para controle da dor e dos sintomas', 'Nenhum tratamento é possível na gastroparesia'],
     g: 'A',
     c: 'A metoclopramida pode causar efeitos extrapiramidais. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Piora.', C: 'Piora.', D: 'Há tratamento.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Pé de Charcot',
     e: 'Diabético com neuropatia, pé quente, edemaciado, sem úlcera e com deformidade progressiva. O diagnóstico é:',
-    o: ['Neuroartropatia de Charcot', 'Celulite', 'Gota', 'TVP'],
+    o: ['Neuroartropatia de Charcot', 'Celulite bacteriana, com febre e leucocitose', 'Gota aguda, com monoartrite e uricemia alta', 'Trombose venosa profunda, com dor na panturrilha'],
     g: 'A',
     c: 'Exige imobilização e descarga. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Sem febre e porta.', C: 'Sem relação.', D: 'Excluir, mas a deformidade sugere Charcot.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Síndrome metabólica',
     e: 'Critérios de síndrome metabólica incluem:',
-    o: ['Obesidade abdominal, triglicerídeos elevados, HDL baixo, PA elevada e glicemia de jejum elevada', 'LDL alto isolado', 'Anemia', 'Hipotireoidismo'],
+    o: ['Obesidade abdominal, TG alto, HDL baixo, PA e glicemia altas', 'LDL elevado, de forma isolada, sem outras alterações', 'Anemia crônica, sem alterações metabólicas', 'Hipotireoidismo, sem alterações metabólicas'],
     g: 'A',
     c: 'Três ou mais critérios. Referência: Alberti KG et al. Harmonizing the metabolic syndrome. Circulation. 2009;120(16):1640-5.',
     x: { B: 'Não é critério.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Obesidade e diabetes',
     e: 'Em diabético tipo 2 com obesidade grau 2, uma opção com alta taxa de remissão é:',
-    o: ['Cirurgia bariátrica (metabólica)', 'Sulfonilureia', 'Insulina em dose alta', 'Nada'],
+    o: ['Cirurgia bariátrica (metabólica)', 'Sulfonilureia em dose máxima, por via oral', 'Insulina em dose alta, por via subcutânea', 'Nenhuma intervenção, apenas orientação dietética'],
     g: 'A',
     c: 'Considerar a partir de IMC 35 ou mais (ou 30 com descontrole, conforme diretrizes). Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Ganho de peso.', C: 'Ganho de peso.', D: 'Há opção.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Tirzepatida',
     e: 'A tirzepatida é:',
-    o: ['Agonista duplo de GIP e GLP-1, com grande redução de glicemia e peso', 'Insulina', 'Sulfonilureia', 'iSGLT2'],
+    o: ['Agonista duplo de GIP e GLP-1, com grande perda de peso', 'Insulina de ação prolongada, de uso subcutâneo', 'Sulfonilureia de segunda geração, de uso oral', 'Inibidor de SGLT2, de uso oral diário'],
     g: 'A',
     c: 'Referência: Frías JP et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes (SURPASS-2). N Engl J Med. 2021;385(6):503-15.',
     x: { B: 'Não.', C: 'Não.', D: 'Não.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Monitorização contínua',
     e: 'A monitorização contínua de glicose é especialmente útil em:',
-    o: ['Usuários de insulina intensiva e pacientes com hipoglicemias', 'Pré-diabetes leve sem tratamento', 'Ninguém', 'Apenas gestantes sem diabetes'],
+    o: ['Insulina intensiva e pacientes com hipoglicemias', 'Pré-diabetes leve, sem tratamento medicamentoso', 'Ninguém, pois não traz benefício clínico algum', 'Gestantes sem diabetes, sem fatores de risco'],
     g: 'A',
     c: 'Melhora HbA1c e reduz hipoglicemias. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Sem indicação.', C: 'Útil.', D: 'Sem indicação.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Diabetes no idoso',
     e: 'Idoso frágil com demência e diabetes. A meta de HbA1c pode ser:',
-    o: ['Abaixo de 8% a 8,5%, evitando hipoglicemia', 'Abaixo de 6%', 'Abaixo de 5,5%', 'Nenhuma meta'],
+    o: ['Abaixo de 8-8,5%, evitando hipoglicemia', 'Abaixo de 6%, com controle bastante rigoroso', 'Abaixo de 5,5%, com controle bastante rigoroso', 'Nenhuma meta, pois o controle é dispensável'],
     g: 'A',
     c: 'A hipoglicemia é mais perigosa. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Risco.', C: 'Risco.', D: 'Há meta.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Diabetes tipo 1: autoimunidade',
     e: 'Pacientes com diabetes tipo 1 devem ser rastreados para:',
-    o: ['Tireoidite autoimune e doença celíaca', 'Câncer de pulmão', 'Gota', 'Asma'],
+    o: ['Tireoidite autoimune e doença celíaca', 'Câncer de pulmão, com tomografia anual', 'Gota, com dosagem periódica de ácido úrico', 'Asma brônquica, com espirometria anual'],
     g: 'A',
     c: 'Associação autoimune. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_DM: QuestaoCompacta[] = [
   {
     s: 'Inibidores de DPP-4',
     e: 'Os inibidores de DPP-4 (gliptinas):',
-    o: ['Têm baixo risco de hipoglicemia e efeito neutro no peso', 'Causam muito ganho de peso', 'Reduzem mortalidade cardiovascular', 'São contraindicados na DRC'],
+    o: ['Baixo risco de hipoglicemia e efeito neutro no peso', 'Causam muito ganho de peso, em uso prolongado', 'Reduzem a mortalidade cardiovascular, de forma comprovada', 'São contraindicadas na doença renal crônica'],
     g: 'A',
     c: 'A saxagliptina associou-se a mais hospitalização por IC. Referência: American Diabetes Association. Standards of Care in Diabetes 2024. Diabetes Care. 2024;47(Suppl 1).',
     x: { B: 'Neutro.', C: 'Neutros.', D: 'Usados com ajuste.' },

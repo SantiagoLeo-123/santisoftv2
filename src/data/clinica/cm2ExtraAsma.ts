@@ -5,7 +5,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: diagnóstico',
     e: 'O diagnóstico de asma em adultos é confirmado por:',
-    o: ['Sintomas variáveis (sibilância, dispneia, tosse) com limitação variável do fluxo aéreo, como resposta ao broncodilatador na espirometria', 'Radiografia de tórax', 'Hemograma com eosinofilia isolada', 'Gasometria'],
+    o: ['Sintomas variáveis e limitação variável do fluxo aéreo', 'Radiografia de tórax, com infiltrado intersticial', 'Hemograma com eosinofilia isolada, sem sintomas', 'Gasometria arterial com hipoxemia crônica'],
     g: 'A',
     c: 'Aumento do VEF1 de 12% e 200 mL após broncodilatador sugere asma. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Geralmente normal.', C: 'Inespecífico.', D: 'Inespecífico.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: tratamento preferencial',
     e: 'Pela GINA, o tratamento preferencial de alívio e manutenção em adultos com asma é:',
-    o: ['Corticoide inalatório com formoterol (budesonida-formoterol) conforme necessidade ou em manutenção e resgate', 'Salbutamol isolado sob demanda', 'Antileucotrieno isolado', 'Teofilina'],
+    o: ['Corticoide inalatório com formoterol (budesonida-formoterol)', 'Salbutamol isolado sob demanda, em dose habitual', 'Antileucotrieno isolado, por via oral, diário', 'Teofilina oral, em dose de manutenção, diária'],
     g: 'A',
     c: 'O uso de beta-agonista de curta ação isolado aumenta risco de crises graves. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Não recomendado isoladamente.', C: 'Menos eficaz.', D: 'Não é primeira.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: SABA isolado',
     e: 'Por que a GINA não recomenda mais tratar asma apenas com salbutamol sob demanda?',
-    o: ['Porque aumenta o risco de exacerbações graves e morte, sem tratar a inflamação', 'Porque o salbutamol é caro', 'Porque não alivia sintomas', 'Porque é proibido'],
+    o: ['Aumenta exacerbações graves e morte, sem tratar a inflamação', 'Porque o salbutamol é caro e de difícil acesso', 'Porque não alivia sintomas da crise de asma', 'Porque é proibido por lei nos serviços de saúde'],
     g: 'A',
     c: 'Todo asmático deve receber corticoide inalatório. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Não é o motivo.', C: 'Alivia.', D: 'Não é proibido.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: controle',
     e: 'São critérios de asma não controlada:',
-    o: ['Sintomas diurnos mais de 2 vezes por semana, despertares noturnos, uso frequente de resgate e limitação de atividades', 'Uso de corticoide inalatório', 'Espirometria normal', 'Ausência de sintomas'],
+    o: ['Sintomas diurnos > 2x/semana, despertares e resgate', 'Uso regular de corticoide inalatório, por si só', 'Espirometria normal, em qualquer momento do dia', 'Ausência de sintomas, em qualquer momento do dia'],
     g: 'A',
     c: 'Avaliar adesão e técnica antes de aumentar o tratamento. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'É tratamento.', C: 'Normal.', D: 'Controlada.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: técnica inalatória',
     e: 'Paciente com asma não controlada em uso de corticoide inalatório. Antes de aumentar a dose, deve-se:',
-    o: ['Verificar técnica inalatória, adesão e fatores agravantes', 'Iniciar corticoide oral', 'Suspender o tratamento', 'Trocar por antibiótico'],
+    o: ['Verificar técnica inalatória, adesão e agravantes', 'Iniciar corticoide oral por tempo prolongado', 'Suspender o tratamento de manutenção atual', 'Trocar por antibiótico oral, por 7 dias'],
     g: 'A',
     c: 'São as causas mais comuns de falta de controle. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Precoce.', C: 'Pioraria.', D: 'Sem infecção.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Crise de asma: tratamento',
     e: 'Paciente com crise de asma moderada no pronto-socorro. O tratamento inicial inclui:',
-    o: ['Beta-agonista de curta ação inalatório repetido, corticoide sistêmico e oxigênio para SatO2 de 93 a 95%', 'Antibiótico', 'Sedativo', 'Mucolítico'],
+    o: ['SABA inalatório repetido, corticoide sistêmico e O2 (93-95%)', 'Antibiótico de amplo espectro, por via venosa', 'Sedativo benzodiazepínico, por via venosa', 'Mucolítico por nebulização, em dose habitual'],
     g: 'A',
     c: 'Ipratrópio associado nas crises graves. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem infecção.', C: 'Contraindicado.', D: 'Sem benefício.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Crise de asma: gravidade',
     e: 'É sinal de crise de asma com risco de vida:',
-    o: ['Sonolência, confusão, tórax silencioso e PaCO2 normal ou elevada', 'Fala em frases completas', 'Sibilos leves', 'SatO2 de 97%'],
+    o: ['Sonolência, confusão, tórax silencioso e PaCO2 alta', 'Fala em frases completas, com boa aeração', 'Sibilos leves, difusos, sem desconforto', 'SatO2 de 97% em ar ambiente, sem desconforto'],
     g: 'A',
     c: 'PaCO2 normal na crise indica fadiga. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Leve.', C: 'Leve.', D: 'Leve.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Crise de asma: sulfato de magnésio',
     e: 'Na crise grave de asma que não responde ao tratamento inicial, pode-se usar:',
-    o: ['Sulfato de magnésio intravenoso', 'Antibiótico', 'Mucolítico', 'Anti-histamínico'],
+    o: ['Sulfato de magnésio intravenoso', 'Antibiótico de amplo espectro, por via venosa', 'Mucolítico por nebulização, em dose habitual', 'Anti-histamínico oral, em dose habitual'],
     g: 'A',
     c: 'Reduz internações em casos graves. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem infecção.', C: 'Sem benefício.', D: 'Sem benefício.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma grave: fenotipagem',
     e: 'Paciente com asma grave não controlada apesar de doses altas de corticoide inalatório com LABA, com eosinófilos de 500. Uma opção é:',
-    o: ['Imunobiológico anti-IL-5 (como mepolizumabe) ou anti-IL-5R (benralizumabe)', 'Corticoide oral contínuo em dose alta', 'Antibiótico prolongado', 'Teofilina'],
+    o: ['Anti-IL-5 (mepolizumabe) ou anti-IL-5R (benralizumabe)', 'Corticoide oral contínuo em dose alta, por anos', 'Antibiótico prolongado, em dose baixa', 'Teofilina oral, em dose de manutenção'],
     g: 'A',
     c: 'Também anti-IgE, anti-IL-4R e anti-TSLP conforme fenótipo. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Efeitos adversos.', C: 'Sem indicação.', D: 'Pouco eficaz.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma e AAS',
     e: 'Paciente com asma, polipose nasal e broncoespasmo após uso de AAS. O diagnóstico é:',
-    o: ['Doença respiratória exacerbada por AAS (tríade de Samter)', 'Alergia alimentar', 'Asma ocupacional', 'DPOC'],
+    o: ['Doença respiratória exacerbada por AAS (tríade de Samter)', 'Alergia alimentar, com urticária e angioedema', 'Asma ocupacional, por exposição no trabalho', 'DPOC, com tabagismo e obstrução fixa'],
     g: 'A',
     c: 'Evitar AINEs que inibem COX-1. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma e gestação',
     e: 'Gestante asmática em uso de budesonida inalatória. A conduta é:',
-    o: ['Manter o tratamento, pois a asma descontrolada traz mais risco', 'Suspender', 'Trocar por teofilina', 'Usar só salbutamol'],
+    o: ['Manter o tratamento: asma descontrolada é mais arriscada', 'Suspender todo o tratamento inalatório na gestação', 'Trocar por teofilina oral, em dose habitual', 'Usar apenas salbutamol, quando houver sintomas'],
     g: 'A',
     c: 'A budesonida tem boa segurança na gestação. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Pioraria.', C: 'Inferior.', D: 'Insuficiente.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Broncoespasmo induzido por exercício',
     e: 'Jovem com tosse e sibilância após exercício. O tratamento preventivo é:',
-    o: ['Beta-agonista inalatório antes do exercício ou budesonida-formoterol, com controle da asma de base', 'Evitar exercício para sempre', 'Antibiótico', 'Corticoide oral'],
+    o: ['SABA antes do exercício ou budesonida-formoterol', 'Evitar exercício para sempre, por segurança', 'Antibiótico oral, por 7 dias, antes do exercício', 'Corticoide oral em dose alta, antes do exercício'],
     g: 'A',
     c: 'O exercício deve ser estimulado. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Não recomendado.', C: 'Sem relação.', D: 'Excessivo.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: espirometria',
     e: 'Na asma, a espirometria pode ser normal fora das crises. Nesse caso, ajuda:',
-    o: ['Teste de broncoprovocação (metacolina) ou variabilidade do pico de fluxo', 'Radiografia', 'Tomografia', 'Ecocardiograma'],
+    o: ['Broncoprovocação (metacolina) ou variabilidade do PFE', 'Radiografia de tórax, em duas incidências', 'Tomografia de tórax, de alta resolução', 'Ecocardiograma, com Doppler colorido'],
     g: 'A',
     c: 'Teste negativo torna asma improvável. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem utilidade.', C: 'Não é rotina.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'FeNO',
     e: 'A fração exalada de óxido nítrico elevada na asma sugere:',
-    o: ['Inflamação eosinofílica (tipo 2), com provável resposta ao corticoide inalatório', 'Infecção bacteriana', 'DPOC', 'Fibrose pulmonar'],
+    o: ['Inflamação eosinofílica (tipo 2), com resposta ao corticoide', 'Infecção bacteriana, com neutrofilia, pus e febre', 'DPOC, com tabagismo, obstrução fixa e enfisema', 'Fibrose pulmonar, com padrão restritivo e estertores'],
     g: 'A',
     c: 'Também ajuda a monitorar adesão. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: betabloqueador',
     e: 'Asmático com hipertensão. Deve-se evitar:',
-    o: ['Betabloqueadores não seletivos', 'IECA', 'Bloqueador de canal de cálcio', 'Tiazídico'],
+    o: ['Betabloqueadores não seletivos, como propranolol', 'IECA, que pode causar tosse seca, mas não asma', 'BCC, que não piora a asma brônquica', 'Tiazídico, que não piora a asma brônquica'],
     g: 'A',
     c: 'Os cardiosseletivos podem ser usados com cautela quando indicados. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Pode usar.', C: 'Pode usar.', D: 'Pode usar.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: alta do pronto-socorro',
     e: 'Após crise de asma tratada no pronto-socorro, o paciente deve sair com:',
-    o: ['Corticoide oral por 5 a 7 dias, corticoide inalatório de manutenção e plano de ação', 'Apenas salbutamol', 'Antibiótico', 'Nada'],
+    o: ['Corticoide oral 5-7 dias, CI de manutenção e plano', 'Apenas salbutamol, quando houver sintomas', 'Antibiótico oral, por 7 dias, para tratar a crise', 'Nada, pois a crise passa sozinha em casa'],
     g: 'A',
     c: 'Retorno ambulatorial em poucos dias. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem infecção.', D: 'Risco.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: rinite',
     e: 'Tratar a rinite alérgica em asmáticos:',
-    o: ['Melhora o controle da asma', 'Piora a asma', 'Não tem relação', 'É contraindicado'],
+    o: ['Melhora o controle da asma', 'Piora a asma de forma importante', 'Não tem relação com a asma', 'É contraindicado em todos os casos'],
     g: 'A',
     c: 'Conceito de via aérea única. Referência: Pizzichini MMM et al. Recomendações para o manejo da asma da Sociedade Brasileira de Pneumologia e Tisiologia 2020. J Bras Pneumol. 2020;46(1):e20190307.',
     x: { B: 'O oposto.', C: 'Tem relação.', D: 'Indicado.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: vacinação',
     e: 'Pacientes asmáticos devem receber:',
-    o: ['Vacinas contra influenza, covid-19 e pneumococo conforme indicação', 'Nenhuma vacina', 'Apenas BCG', 'Apenas febre amarela'],
+    o: ['Vacinas contra influenza, covid-19 e pneumococo', 'Nenhuma vacina é recomendada nos asmáticos', 'Apenas BCG, ao nascer, é recomendada aos asmáticos', 'Apenas febre amarela, em áreas de risco, é recomendada'],
     g: 'A',
     c: 'Infecções virais são principais gatilhos de crises. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Indicadas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Disfunção de cordas vocais',
     e: 'Paciente com crises de dispneia atribuídas a asma, estridor inspiratório, sem resposta a broncodilatador e espirometria com achatamento da alça inspiratória. A hipótese é:',
-    o: ['Disfunção de cordas vocais (obstrução laríngea induzível)', 'Asma grave', 'DPOC', 'TEP'],
+    o: ['Disfunção de cordas vocais (obstrução laríngea)', 'Asma grave, com resposta ao broncodilatador', 'DPOC, com tabagismo e obstrução fixa', 'TEP, com dispneia súbita e hipoxemia'],
     g: 'A',
     c: 'Diagnóstico por laringoscopia durante sintomas. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Não explica.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'ABPA',
     e: 'Asmático com piora, infiltrados migratórios, bronquiectasias centrais, eosinofilia e IgE total muito elevada. O diagnóstico é:',
-    o: ['Aspergilose broncopulmonar alérgica', 'Tuberculose', 'Pneumonia bacteriana', 'DPOC'],
+    o: ['Aspergilose broncopulmonar alérgica (ABPA)', 'Tuberculose pulmonar, com cavitação apical', 'Pneumonia bacteriana, com consolidação lobar', 'DPOC, com enfisema e obstrução fixa'],
     g: 'A',
     c: 'Tratamento com corticoide oral e antifúngico. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem eosinofilia e IgE.', C: 'Sem esse padrão.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: classificação de gravidade',
     e: 'Pela GINA, a gravidade da asma é definida:',
-    o: ['Retrospectivamente, pelo nível de tratamento necessário para manter o controle', 'Pela espirometria inicial apenas', 'Pela idade', 'Pela radiografia'],
+    o: ['Retrospectivamente, pelo tratamento necessário ao controle', 'Apenas pela espirometria inicial do paciente', 'Apenas pela idade de início dos sintomas', 'Apenas pela radiografia de tórax do paciente'],
     g: 'A',
     c: 'Asma leve é controlada com etapas 1 e 2. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Antileucotrieno',
     e: 'O montelucaste:',
-    o: ['É opção menos eficaz que o corticoide inalatório e tem alerta de efeitos neuropsiquiátricos', 'É superior ao corticoide inalatório', 'Não tem efeitos adversos', 'É usado na crise grave'],
+    o: ['Menos eficaz que o CI; alerta de efeitos neuropsiquiátricos', 'É superior ao corticoide inalatório em eficácia', 'Não tem efeitos adversos, sendo muito seguro', 'É usado na crise grave, em dose de ataque'],
     g: 'A',
     c: 'Útil em pacientes com rinite associada. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Inferior.', C: 'Tem alertas.', D: 'Não é para crise.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: tabagismo',
     e: 'Asmático fumante tem:',
-    o: ['Pior controle e menor resposta ao corticoide inalatório', 'Melhor controle', 'Nenhuma diferença', 'Cura da asma'],
+    o: ['Pior controle e menor resposta ao corticoide inalatório', 'Melhor controle e maior resposta ao tratamento', 'Nenhuma diferença quanto ao controle da asma', 'Cura da asma, após a perda de peso'],
     g: 'A',
     c: 'Cessar o tabagismo é essencial. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'O oposto.', C: 'Há diferença.', D: 'Sem fundamento.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: idoso',
     e: 'Idoso com dispneia e sibilância de início recente. Diagnósticos diferenciais incluem:',
-    o: ['DPOC, insuficiência cardíaca e asma de início tardio', 'Apenas asma', 'Apenas ansiedade', 'Apenas rinite'],
+    o: ['DPOC, insuficiência cardíaca e asma tardia', 'Apenas asma, em qualquer idade do paciente', 'Apenas ansiedade, em qualquer idade do paciente', 'Apenas rinite alérgica, em qualquer idade do paciente'],
     g: 'A',
     c: 'A investigação deve ser ampla. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Simplista.', C: 'Simplista.', D: 'Simplista.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: fisiopatologia',
     e: 'A asma caracteriza-se por:',
-    o: ['Inflamação crônica das vias aéreas com hiperresponsividade brônquica e obstrução variável e reversível', 'Destruição alveolar irreversível', 'Fibrose intersticial', 'Infecção bacteriana crônica'],
+    o: ['Inflamação crônica, hiperresponsividade e obstrução reversível', 'Destruição alveolar irreversível, por enfisema', 'Fibrose intersticial progressiva, por colágeno', 'Infecção bacteriana crônica das vias aéreas'],
     g: 'A',
     c: 'Diferente da DPOC, a obstrução é variável. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Enfisema.', C: 'Fibrose.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: gatilhos',
     e: 'Gatilhos comuns de crises de asma incluem:',
-    o: ['Infecções virais, alérgenos, fumaça, exercício, ar frio e AINEs em suscetíveis', 'Água', 'Sono adequado', 'Vacinas'],
+    o: ['Vírus, alérgenos, fumaça, exercício, ar frio e AINEs', 'Água em quantidade adequada, no dia a dia', 'Sono adequado e regular, todos os dias', 'Vacinas contra influenza, em qualquer idade'],
     g: 'A',
     c: 'Identificar e evitar gatilhos faz parte do tratamento. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Protegem.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: corticoide inalatório efeitos',
     e: 'Efeitos adversos locais do corticoide inalatório incluem:',
-    o: ['Candidíase oral e disfonia, prevenidas com espaçador e enxágue bucal', 'Hiperglicemia grave', 'Osteoporose em dose baixa sempre', 'Cushing em dose baixa'],
+    o: ['Candidíase oral e disfonia; espaçador e bochecho', 'Hiperglicemia grave, mesmo em dose baixa de CI', 'Osteoporose, em dose baixa de CI, sempre', 'Síndrome de Cushing, em dose baixa de CI, sempre'],
     g: 'A',
     c: 'Doses altas por longo prazo têm efeitos sistêmicos. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Raro em dose usual.', C: 'Não sempre.', D: 'Raro.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: LABA isolado',
     e: 'O uso de beta-agonista de longa ação sem corticoide inalatório na asma:',
-    o: ['É contraindicado, pelo risco de exacerbações graves e morte', 'É recomendado', 'É primeira linha', 'É indiferente'],
+    o: ['Contraindicado: risco de exacerbações graves e morte', 'É recomendado como tratamento isolado da asma', 'É a primeira linha de tratamento, em qualquer caso', 'É indiferente, sem influência no risco de crises'],
     g: 'A',
     c: 'LABA deve sempre ser associado ao corticoide inalatório. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Contraindicado.', C: 'Contraindicado.', D: 'Perigoso.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: tiotrópio',
     e: 'Na asma não controlada em etapa 4 ou 5, pode-se associar:',
-    o: ['Antimuscarínico de longa ação (tiotrópio)', 'Teofilina em dose alta', 'Antibiótico contínuo', 'Benzodiazepínico'],
+    o: ['Antimuscarínico de longa ação (tiotrópio)', 'Teofilina em dose alta, por via oral', 'Antibiótico contínuo, em dose baixa', 'Benzodiazepínico, à noite, por via oral'],
     g: 'A',
     c: 'Melhora a função pulmonar e reduz crises. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Toxicidade.', C: 'Sem indicação.', D: 'Contraindicado.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: crise e gasometria',
     e: 'Na crise de asma, PaCO2 de 48 mmHg indica:',
-    o: ['Fadiga respiratória e risco de insuficiência respiratória iminente', 'Crise leve', 'Hiperventilação esperada', 'Normalidade'],
+    o: ['Fadiga respiratória e insuficiência respiratória', 'Crise leve, com boa reserva ventilatória', 'Hiperventilação esperada, com PaCO2 baixa', 'Normalidade, sem risco de piora clínica'],
     g: 'A',
     c: 'Na crise, espera-se hipocapnia. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Grave.', C: 'O oposto.', D: 'Alterado.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: intubação',
     e: 'Paciente com crise de asma intubado. Cuidado ventilatório importante é:',
-    o: ['Volume corrente baixo e tempo expiratório prolongado para evitar hiperinsuflação dinâmica (auto-PEEP)', 'Frequência respiratória alta', 'Volume corrente alto', 'PEEP alta'],
+    o: ['Volume corrente baixo e expiração longa (evitar auto-PEEP)', 'Frequência respiratória alta, para ventilar mais', 'Volume corrente alto, para expandir os pulmões', 'PEEP alta, para recrutar alvéolos'],
     g: 'A',
     c: 'A hipercapnia permissiva é aceita. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Piora auto-PEEP.', C: 'Barotrauma.', D: 'Piora.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: plano de ação',
     e: 'O plano de ação escrito para asma orienta o paciente a:',
-    o: ['Reconhecer piora e ajustar medicação, procurando atendimento nos sinais de gravidade', 'Suspender medicação na piora', 'Usar antibiótico na tosse', 'Nunca procurar atendimento'],
+    o: ['Reconhecer a piora, ajustar a medicação e buscar ajuda', 'Suspender a medicação na piora dos sintomas', 'Usar antibiótico sempre que houver tosse', 'Nunca procurar atendimento, mesmo na crise'],
     g: 'A',
     c: 'Reduz hospitalizações. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Pioraria.', C: 'Sem relação.', D: 'Risco.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma na infância',
     e: 'Criança abaixo de 5 anos com sibilância recorrente. O diagnóstico de asma é:',
-    o: ['Clínico, baseado em padrão de sintomas, fatores de risco e resposta ao tratamento', 'Feito por espirometria obrigatória', 'Impossível', 'Feito por radiografia'],
+    o: ['Clínico: padrão de sintomas, fatores de risco e resposta', 'Feito por espirometria obrigatória, em toda criança', 'Impossível de ser feito antes dos 5 anos', 'Feito por radiografia de tórax, sempre'],
     g: 'A',
     c: 'O índice preditivo de asma ajuda. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Difícil nessa idade.', C: 'É possível.', D: 'Inespecífico.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: eosinófilos',
     e: 'Contagem de eosinófilos no sangue elevada em asmático indica:',
-    o: ['Fenótipo tipo 2, maior risco de crises e melhor resposta a corticoide e biológicos anti-IL-5', 'Infecção bacteriana', 'DPOC', 'Ausência de asma'],
+    o: ['Fenótipo tipo 2: mais crises; responde a CI e anti-IL-5', 'Infecção bacteriana, tratável com antibiótico', 'DPOC, associada ao tabagismo prolongado', 'Ausência de asma, mesmo com sintomas típicos'],
     g: 'A',
     c: 'Também ajuda na escolha do biológico. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: refluxo',
     e: 'Asmático com sintomas de refluxo. Tratar o refluxo:',
-    o: ['Melhora sintomas de refluxo, mas tem efeito limitado no controle da asma', 'Cura a asma', 'Piora a asma', 'É contraindicado'],
+    o: ['Melhora o refluxo, mas pouco o controle da asma', 'Cura a asma, sem outros tratamentos associados', 'Piora a asma, em todos os pacientes tratados', 'É contraindicado nos asmáticos, sem exceção'],
     g: 'A',
     c: 'Tratar se houver sintomas de refluxo. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Não cura.', C: 'Não piora.', D: 'Indicado.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: obesidade',
     e: 'Asmático obeso pode ter:',
-    o: ['Pior controle e menor resposta ao corticoide, com benefício da perda de peso', 'Melhor controle', 'Nenhuma relação', 'Cura com obesidade'],
+    o: ['Pior controle e menor resposta ao CI; emagrecer ajuda', 'Melhor controle, com maior resposta ao CI', 'Nenhuma relação com o controle da asma', 'Cura com a obesidade, sem tratamento'],
     g: 'A',
     c: 'A perda de peso melhora sintomas. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'O oposto.', C: 'Há relação.', D: 'Sem fundamento.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: idoso e DPOC',
     e: 'Paciente com características de asma e DPOC. A conduta é:',
-    o: ['Tratar com corticoide inalatório associado a broncodilatadores, não usar LABA isolado', 'Usar apenas LABA', 'Usar apenas salbutamol', 'Nada'],
+    o: ['CI com broncodilatador; nunca LABA isolado', 'Usar apenas LABA, em dose plena, por via inalatória', 'Usar apenas salbutamol, sob demanda, na crise', 'Nenhum tratamento é necessário nessa situação'],
     g: 'A',
     c: 'A sobreposição exige corticoide inalatório. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Risco.', C: 'Insuficiente.', D: 'Exige.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Pico de fluxo',
     e: 'O pico de fluxo expiratório é útil para:',
-    o: ['Monitorar a asma em casa e avaliar variabilidade', 'Diagnosticar fibrose', 'Medir a saturação', 'Medir o CO2'],
+    o: ['Monitorar em casa e avaliar a variabilidade', 'Diagnosticar fibrose, pelo pico de fluxo', 'Medir a saturação, de forma isolada, em casa', 'Medir o CO2 expirado, em casa, de forma isolada'],
     g: 'A',
     c: 'Variabilidade diária acima de 10% sugere asma em adultos. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: complicações da crise',
     e: 'Complicação grave de crise de asma é:',
-    o: ['Pneumotórax e pneumomediastino', 'Anemia', 'Hepatite', 'Hipertireoidismo'],
+    o: ['Pneumotórax e pneumomediastino', 'Anemia, por perda sanguínea oculta', 'Hepatite, por uso de medicação', 'Hipertireoidismo, por uso de beta-agonista'],
     g: 'A',
     c: 'Suspeitar diante de piora súbita. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: antibiótico',
     e: 'Na crise de asma, o antibiótico é indicado:',
-    o: ['Somente se houver evidência de infecção bacteriana, como pneumonia', 'Sempre', 'Nunca em nenhuma situação', 'Para todos com tosse'],
+    o: ['Só se houver infecção bacteriana, como pneumonia', 'Sempre, em toda crise de asma, sem exceção', 'Nunca, em nenhuma situação clínica da asma', 'Para todos os pacientes com tosse e sibilância'],
     g: 'A',
     c: 'A maioria das crises é desencadeada por vírus. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Não rotina.', C: 'Pode ser indicado.', D: 'Não rotina.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: corticoide oral',
     e: 'Uso frequente de ciclos de corticoide oral na asma:',
-    o: ['Associa-se a efeitos adversos cumulativos e deve motivar otimização do tratamento', 'É inofensivo', 'É o tratamento ideal', 'Cura a asma'],
+    o: ['Efeitos cumulativos; otimizar o tratamento', 'É inofensivo, mesmo em ciclos repetidos', 'É o tratamento ideal da asma persistente', 'Cura a asma, após alguns ciclos de uso'],
     g: 'A',
     c: 'Mesmo poucos ciclos acumulam risco. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Há riscos.', C: 'Não é ideal.', D: 'Não cura.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: dispositivo',
     e: 'Paciente idoso com dificuldade de coordenar o inalador pressurizado. Uma opção é:',
-    o: ['Usar espaçador ou inalador de pó seco se houver fluxo inspiratório adequado', 'Suspender o tratamento', 'Usar apenas nebulização com antibiótico', 'Usar comprimidos de salbutamol'],
+    o: ['Espaçador ou pó seco, se o fluxo inspiratório permitir', 'Suspender o tratamento de manutenção atual', 'Nebulização com antibiótico, por tempo prolongado', 'Comprimidos de salbutamol, em dose habitual'],
     g: 'A',
     c: 'Escolher o dispositivo adequado ao paciente. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Inadequado.', C: 'Sem relação.', D: 'Mais efeitos.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: mortalidade',
     e: 'Fator de risco para morte por asma é:',
-    o: ['História de intubação ou UTI por asma, uso excessivo de salbutamol e falta de corticoide inalatório', 'Asma bem controlada', 'Uso correto de corticoide inalatório', 'Prática de exercícios'],
+    o: ['Intubação ou UTI prévia, excesso de SABA, sem CI', 'Asma bem controlada, com CI em dia', 'Uso correto de corticoide inalatório, diário', 'Prática regular de exercícios físicos'],
     g: 'A',
     c: 'Esses pacientes exigem vigilância próxima. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Protetor.', C: 'Protetor.', D: 'Protetor.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: imunoterapia',
     e: 'A imunoterapia com alérgenos pode ser considerada em:',
-    o: ['Asma alérgica controlada com sensibilização comprovada, especialmente a ácaros', 'Asma descontrolada grave', 'Qualquer asma sem teste', 'Crise aguda'],
+    o: ['Asma alérgica controlada com sensibilização a ácaros', 'Asma descontrolada grave, sem tratamento prévio', 'Qualquer asma, sem teste de sensibilização', 'Crise aguda de asma, em atendimento de urgência'],
     g: 'A',
     c: 'Reduz sintomas e uso de medicamentos. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Contraindicada.', C: 'Exige teste.', D: 'Contraindicada.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: anti-IgE',
     e: 'O omalizumabe é indicado em:',
-    o: ['Asma alérgica grave com IgE elevada e sensibilização comprovada', 'Asma leve', 'DPOC', 'Fibrose'],
+    o: ['Asma alérgica grave, com IgE alta e sensibilização', 'Asma leve, controlada com baixa dose de CI', 'DPOC, com tabagismo e obstrução fixa', 'Fibrose pulmonar, com padrão restritivo'],
     g: 'A',
     c: 'É anticorpo anti-IgE. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: tosse variante',
     e: 'Paciente com tosse seca crônica noturna, sem sibilância, com teste de broncoprovocação positivo. O diagnóstico é:',
-    o: ['Asma variante tosse', 'Refluxo', 'Gotejamento pós-nasal', 'DPOC'],
+    o: ['Asma variante tosse, com tosse seca', 'Refluxo gastroesofágico, com pirose', 'Gotejamento pós-nasal, com rinite', 'DPOC, com tabagismo e escarro'],
     g: 'A',
     c: 'Responde ao corticoide inalatório. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Possível diferencial.', C: 'Possível diferencial.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Tosse crônica',
     e: 'As causas mais comuns de tosse crônica em não fumantes com radiografia normal são:',
-    o: ['Síndrome da tosse das vias aéreas superiores, asma e refluxo', 'Câncer de pulmão', 'Tuberculose sempre', 'Insuficiência cardíaca'],
+    o: ['Tosse das vias aéreas superiores, asma e refluxo', 'Câncer de pulmão, em todos os casos', 'Tuberculose sempre, em qualquer caso', 'Insuficiência cardíaca, em todos os casos'],
     g: 'A',
     c: 'IECA também causa tosse. Referência: Irwin RS et al. Classification of Cough as a Symptom in Adults and Management Algorithms: CHEST Guideline. Chest. 2018;153(1):196-209.',
     x: { B: 'Raro.', C: 'Não sempre.', D: 'Raro.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: oxigênio',
     e: 'Na crise de asma, a meta de saturação é:',
-    o: ['93% a 95% em adultos', '100% obrigatório', '85%', '80%'],
+    o: ['93% a 95% em adultos, como alvo', '100% obrigatório, em todos os casos', '85%, como alvo, em adultos', '80%, como alvo, em adultos'],
     g: 'A',
     c: 'Hiperóxia pode elevar a PaCO2. Referência: Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2024.',
     x: { B: 'Excessivo.', C: 'Hipoxemia.', D: 'Hipoxemia.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_ASMA: QuestaoCompacta[] = [
   {
     s: 'Asma: alergia a ácaros',
     e: 'Medida ambiental para asmático sensível a ácaros é:',
-    o: ['Capas antiácaro, lavagem de roupas de cama em água quente e redução de umidade', 'Tapetes e cortinas pesadas', 'Bichos de pelúcia', 'Umidificador sempre'],
+    o: ['Capas antiácaro, roupa de cama quente, menos umidade', 'Tapetes e cortinas pesadas, que acumulam ácaros', 'Bichos de pelúcia, que acumulam ácaros', 'Umidificador sempre ligado, mesmo no verão'],
     g: 'A',
     c: 'O impacto isolado é modesto. Referência: Pizzichini MMM et al. Recomendações para o manejo da asma da Sociedade Brasileira de Pneumologia e Tisiologia 2020. J Bras Pneumol. 2020;46(1):e20190307.',
     x: { B: 'Piora.', C: 'Piora.', D: 'Pode piorar.' },

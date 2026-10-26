@@ -5,7 +5,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque: definição',
     e: 'Choque é definido como:',
-    o: ['Insuficiência circulatória aguda com oferta de oxigênio inadequada aos tecidos', 'Apenas pressão baixa', 'Apenas taquicardia', 'Apenas febre'],
+    o: ['Insuficiência circulatória aguda com oferta de O2 inadequada', 'Apenas pressão arterial baixa, medida de forma isolada', 'Apenas taquicardia sinusal, medida de forma isolada', 'Apenas febre persistente, medida de forma isolada'],
     g: 'A',
     c: 'A hipotensão é comum, mas não obrigatória no início. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Pode não haver hipotensão.', C: 'Insuficiente.', D: 'Sem relação.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Tipos de choque',
     e: 'Choque com débito cardíaco alto, resistência vascular baixa e extremidades quentes é:',
-    o: ['Distributivo (como o séptico)', 'Cardiogênico', 'Hipovolêmico', 'Obstrutivo'],
+    o: ['Distributivo (como o séptico)', 'Cardiogênico, por falência da bomba', 'Hipovolêmico, por perda de volume', 'Obstrutivo, por barreira ao fluxo'],
     g: 'A',
     c: 'Os demais têm débito baixo e resistência alta. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Débito baixo.', C: 'Débito baixo.', D: 'Débito baixo.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque obstrutivo',
     e: 'São causas de choque obstrutivo:',
-    o: ['TEP maciço, tamponamento cardíaco e pneumotórax hipertensivo', 'Sepse', 'Hemorragia', 'Anafilaxia'],
+    o: ['TEP maciço, tamponamento e pneumotórax hipertensivo', 'Sepse, por infecção bacteriana disseminada no sangue', 'Hemorragia, por perda de volume intravascular', 'Anafilaxia, por vasodilatação e perda de tônus'],
     g: 'A',
     c: 'Exigem desobstrução específica. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Distributivo.', C: 'Hipovolêmico.', D: 'Distributivo.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Lactato',
     e: 'Lactato elevado no choque indica:',
-    o: ['Hipoperfusão tecidual e pior prognóstico', 'Melhora', 'Sem significado', 'Infecção apenas'],
+    o: ['Hipoperfusão tecidual e pior prognóstico', 'Melhora da perfusão e do prognóstico', 'Sem significado clínico algum, no choque', 'Infecção apenas, sem hipoperfusão'],
     g: 'A',
     c: 'O clareamento orienta a ressuscitação. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'O oposto.', C: 'Tem significado.', D: 'Inespecífico.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Fluidos',
     e: 'No choque séptico com hipoperfusão, a reposição inicial de cristaloide sugerida é:',
-    o: ['30 mL/kg nas primeiras 3 horas, com reavaliação frequente', '5 mL/kg', '100 mL/kg', 'Nenhum fluido'],
+    o: ['30 mL/kg nas primeiras 3 horas, reavaliando', '5 mL/kg nas primeiras 3 horas, só', '100 mL/kg nas primeiras 3 horas, de uma vez', 'Nenhum fluido, de início, no choque séptico'],
     g: 'A',
     c: 'Preferir soluções balanceadas. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Inadequado.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Fluidorresponsividade',
     e: 'Teste para avaliar resposta a fluidos à beira do leito é:',
-    o: ['Elevação passiva das pernas com medida do débito ou da variação do volume sistólico', 'PVC isolada', 'Frequência respiratória', 'Temperatura'],
+    o: ['Elevação passiva das pernas, medindo o débito ou o VS', 'PVC isolada, como preditora de resposta', 'Frequência respiratória, como preditora de resposta', 'Temperatura, como preditora de resposta'],
     g: 'A',
     c: 'A PVC estática é ruim para prever resposta. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Pouco confiável.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque hipovolêmico hemorrágico',
     e: 'Paciente politraumatizado com hipotensão e sangramento ativo. A reposição deve priorizar:',
-    o: ['Hemoderivados em proporção equilibrada (protocolo de transfusão maciça) e controle do sangramento', 'Grandes volumes de cristaloide', 'Albumina', 'Vasopressor como primeira medida'],
+    o: ['Hemoderivados equilibrados e controle do sangramento', 'Grandes volumes de cristaloide, em bolus', 'Albumina, em grandes volumes, como primeira medida', 'Vasopressor como primeira medida, sem hemoderivados'],
     g: 'A',
     c: 'A hipotensão permissiva é usada até o controle do sangramento, exceto em TCE. Referência: American College of Surgeons. Advanced Trauma Life Support (ATLS). 10ª ed. Chicago: ACS, 2018.',
     x: { B: 'Coagulopatia dilucional.', C: 'Sem indicação.', D: 'Não é primeiro.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Classificação da hemorragia',
     e: 'Paciente com perda estimada de 30 a 40% da volemia apresenta:',
-    o: ['Taquicardia, hipotensão, confusão e redução da diurese (classe III)', 'Sinais vitais normais', 'Apenas ansiedade leve', 'Bradicardia'],
+    o: ['Taquicardia, hipotensão, confusão e oligúria (classe III)', 'Sinais vitais normais, sem perda volêmica significativa', 'Apenas ansiedade leve, sem outros sinais associados', 'Bradicardia isolada, com perda volêmica grave associada'],
     g: 'A',
     c: 'A classe IV (acima de 40%) é ameaçadora à vida. Referência: American College of Surgeons. Advanced Trauma Life Support (ATLS). 10ª ed. Chicago: ACS, 2018.',
     x: { B: 'Classe I.', C: 'Classe I.', D: 'Sem relação.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Anafilaxia',
     e: 'Paciente com urticária, broncoespasmo e hipotensão após antibiótico. O tratamento imediato é:',
-    o: ['Adrenalina intramuscular 0,5 mg na coxa', 'Anti-histamínico oral', 'Corticoide isolado', 'Observação'],
+    o: ['Adrenalina IM 0,5 mg na coxa', 'Anti-histamínico oral, em dose habitual', 'Corticoide isolado, por via venosa', 'Observação clínica, sem tratamento'],
     g: 'A',
     c: 'Repetir a cada 5 a 15 minutos se necessário, com volume. Referência: Cardona V et al. World Allergy Organization Anaphylaxis Guidance 2020. World Allergy Organ J. 2020;13(10):100472.',
     x: { B: 'Adjuvante.', C: 'Adjuvante.', D: 'Risco de morte.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Dobutamina',
     e: 'A dobutamina é indicada principalmente em:',
-    o: ['Choque com baixo débito por disfunção miocárdica (cardiogênico ou séptico com disfunção)', 'Choque distributivo isolado', 'Hipertensão', 'Bradicardia sempre'],
+    o: ['Baixo débito por disfunção miocárdica (cardiogênico)', 'Choque distributivo isolado, com débito cardíaco alto', 'Hipertensão arterial grave, associada ao choque', 'Bradicardia sinusal persistente, associada ao choque'],
     g: 'A',
     c: 'É inotrópico com efeito vasodilatador. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Pode piorar a vasodilatação.', C: 'Sem relação.', D: 'Não é primeira.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Corticoide no choque séptico',
     e: 'No choque séptico com necessidade crescente de vasopressor, recomenda-se:',
-    o: ['Hidrocortisona 200 mg por dia', 'Dexametasona em dose alta', 'Prednisona oral', 'Nenhum corticoide'],
+    o: ['Hidrocortisona 200 mg por dia', 'Dexametasona em dose alta, por via venosa', 'Prednisona oral, em dose habitual', 'Nenhum corticoide é indicado no choque'],
     g: 'A',
     c: 'Reduz o tempo de choque. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Não é padrão.', C: 'Inadequado.', D: 'Indicado.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Antibiótico na sepse',
     e: 'No choque séptico, o antibiótico deve ser iniciado:',
-    o: ['Na primeira hora, após colher culturas sem atrasar', 'Após 6 horas', 'Após resultados', 'Somente se a febre persistir'],
+    o: ['Na 1ª hora, após culturas, sem atrasar', 'Após 6 horas, com as culturas em mãos', 'Após os resultados das culturas, em 48 horas', 'Só se a febre persistir, após observação'],
     g: 'A',
     c: 'Cada hora de atraso aumenta a mortalidade. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Tardio.', C: 'Atraso.', D: 'Atraso.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Acesso central',
     e: 'Vasopressores em choque podem ser iniciados:',
-    o: ['Por acesso periférico calibroso por curto período, até obter acesso central', 'Somente após acesso central', 'Por via intramuscular', 'Por via oral'],
+    o: ['Por acesso periférico calibroso, até obter o central', 'Somente após acesso central, e nunca antes', 'Por via intramuscular, em dose única', 'Por via oral, em dose única, com água'],
     g: 'A',
     c: 'Evita atraso na correção da hipotensão. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Atraso.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Enchimento capilar',
     e: 'O tempo de enchimento capilar como meta de ressuscitação no choque séptico:',
-    o: ['Pode ser usado e mostrou resultados semelhantes ou melhores que o lactato', 'Não tem utilidade', 'Deve ser acima de 5 segundos', 'É o único parâmetro'],
+    o: ['Pode ser usado; resultado similar ao do lactato', 'Não tem utilidade clínica nenhuma, no choque séptico', 'Deve ser acima de 5 segundos para indicar boa perfusão', 'É o único parâmetro de perfusão que deve ser usado'],
     g: 'A',
     c: 'Estudo ANDROMEDA-SHOCK. Referência: Hernández G et al. Effect of a Resuscitation Strategy Targeting Peripheral Perfusion Status vs Serum Lactate Levels (ANDROMEDA-SHOCK). JAMA. 2019;321(7):654-64.',
     x: { B: 'Tem utilidade.', C: 'Alterado.', D: 'Não é o único.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque cardiogênico: suporte mecânico',
     e: 'Paciente em choque cardiogênico refratário a inotrópicos e vasopressores. Opções incluem:',
-    o: ['Suporte circulatório mecânico (como ECMO ou Impella) em centros especializados', 'Volume em grande quantidade', 'Betabloqueador', 'Nada'],
+    o: ['Suporte circulatório mecânico (ECMO, Impella)', 'Volume em grande quantidade, por via venosa', 'Betabloqueador, por via venosa, em dose alta', 'Nada, pois o choque é irreversível'],
     g: 'A',
     c: 'O balão intra-aórtico não reduziu mortalidade no IAM (IABP-SHOCK II). Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Há opções.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'SOFA',
     e: 'O escore SOFA avalia disfunção de:',
-    o: ['Respiratório, coagulação, fígado, cardiovascular, neurológico e renal', 'Apenas pulmão', 'Apenas rim', 'Apenas coração'],
+    o: ['Respiratório, coagulação, fígado, CV, neurológico e renal', 'Apenas pulmão e coração, entre os componentes do SOFA', 'Apenas rim e fígado, entre os componentes do SOFA', 'Apenas cérebro e coração, entre os componentes do SOFA'],
     g: 'A',
     c: 'Aumento de 2 pontos define sepse. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque séptico: definição',
     e: 'Choque séptico é definido por sepse com:',
-    o: ['Necessidade de vasopressor para PAM de 65 mmHg ou mais e lactato acima de 2 mmol/L, apesar de volume adequado', 'Apenas febre', 'Apenas taquicardia', 'Apenas leucocitose'],
+    o: ['Vasopressor para PAM ≥ 65 e lactato > 2, apesar de volume', 'Apenas febre, sem hipotensão nem lactato alto', 'Apenas taquicardia, sem hipotensão nem lactato alto', 'Apenas leucocitose, sem hipotensão nem lactato alto'],
     g: 'A',
     c: 'A mortalidade é acima de 40%. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Albumina',
     e: 'No choque séptico que recebeu grandes volumes de cristaloide, a albumina:',
-    o: ['Pode ser considerada como fluido adicional', 'É contraindicada', 'É a primeira escolha', 'Não tem uso'],
+    o: ['Pode ser considerada como fluido adicional', 'É contraindicada no choque séptico, sempre', 'É a primeira escolha de fluido, sempre', 'Não tem nenhum uso, no choque séptico'],
     g: 'A',
     c: 'Coloides sintéticos (amido) devem ser evitados. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Pode ser usada.', C: 'Não é primeira.', D: 'Tem uso.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Amido',
     e: 'O uso de hidroxietilamido (amido) na sepse:',
-    o: ['Deve ser evitado, pelo risco de lesão renal e mortalidade', 'É recomendado', 'Melhora a sobrevida', 'É indiferente'],
+    o: ['Deve ser evitado: lesão renal e mortalidade', 'É recomendado como primeira escolha de fluido', 'Melhora a sobrevida, em estudos recentes', 'É indiferente em relação aos cristaloides'],
     g: 'A',
     c: 'Estudos mostraram aumento de diálise. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Não recomendado.', C: 'Afirmativa falsa.', D: 'Prejudicial.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque: monitorização',
     e: 'Paciente em choque deve ter monitorização com:',
-    o: ['Pressão arterial invasiva, diurese horária, lactato e avaliação de perfusão', 'Apenas temperatura', 'Apenas peso', 'Nada'],
+    o: ['PA invasiva, diurese horária, lactato e perfusão', 'Apenas temperatura, a cada 6 horas', 'Apenas peso, a cada 6 horas', 'Nada, pois o choque dispensa monitorização'],
     g: 'A',
     c: 'Ecocardiograma à beira do leito ajuda a definir o tipo. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque: sinais precoces',
     e: 'Sinal precoce de choque hipovolêmico é:',
-    o: ['Taquicardia e redução da pressão de pulso', 'Bradicardia', 'Hipertensão', 'Febre'],
+    o: ['Taquicardia e redução da pressão de pulso', 'Bradicardia, com pulso amplo', 'Hipertensão sistólica, com pulso amplo', 'Febre alta, com pulso amplo'],
     g: 'A',
     c: 'A hipotensão surge após perdas maiores. Referência: American College of Surgeons. Advanced Trauma Life Support (ATLS). 10ª ed. Chicago: ACS, 2018.',
     x: { B: 'Tardio ou neurogênico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Índice de choque',
     e: 'O índice de choque é calculado como:',
-    o: ['Frequência cardíaca dividida pela pressão sistólica, sendo acima de 0,9 a 1 sugestivo de gravidade', 'PA diastólica dividida pela FC', 'Temperatura vezes FC', 'Lactato dividido pela PA'],
+    o: ['FC dividida pela PAS; > 0,9-1 indica gravidade', 'PA diastólica dividida pela FC, no choque', 'Temperatura multiplicada pela FC, no choque', 'Lactato dividido pela PA, no choque'],
     g: 'A',
     c: 'Ajuda a reconhecer choque oculto. Referência: American College of Surgeons. Advanced Trauma Life Support (ATLS). 10ª ed. Chicago: ACS, 2018.',
     x: { B: 'Sem sentido.', C: 'Sem sentido.', D: 'Sem sentido.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Ácido tranexâmico no trauma',
     e: 'No trauma com hemorragia significativa, o ácido tranexâmico:',
-    o: ['Reduz mortalidade se dado nas primeiras 3 horas', 'É contraindicado', 'Deve ser dado após 24 horas', 'Substitui a cirurgia'],
+    o: ['Reduz a mortalidade se dado nas primeiras 3 horas', 'É contraindicado no trauma, por risco trombótico', 'Deve ser dado após 24 horas do sangramento', 'Substitui a cirurgia no controle do sangramento'],
     g: 'A',
     c: 'Estudo CRASH-2. Referência: CRASH-2 trial collaborators. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage. Lancet. 2010;376(9734):23-32.',
     x: { B: 'Indicado.', C: 'Tardio é prejudicial.', D: 'Não substitui.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque séptico: foco',
     e: 'Além de antibiótico e suporte, no choque séptico deve-se:',
-    o: ['Controlar o foco infeccioso (drenar abscessos, remover cateteres infectados)', 'Apenas observar', 'Usar antitérmico', 'Restringir fluidos'],
+    o: ['Controlar o foco (drenar abscessos, remover cateteres)', 'Apenas observar a evolução, sem intervir', 'Usar antitérmico, como medida principal', 'Restringir fluidos, como medida principal'],
     g: 'A',
     c: 'O controle do foco deve ser precoce. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Inadequado.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Vasopressina',
     e: 'A vasopressina no choque séptico é usada:',
-    o: ['Associada à noradrenalina para reduzir a dose desta', 'Como primeira escolha isolada', 'Na bradicardia', 'No choque cardiogênico como primeira escolha'],
+    o: ['Associada à noradrenalina, para poupar dose', 'Como primeira escolha isolada, no choque', 'Na bradicardia, como primeira escolha', 'No choque cardiogênico, como primeira escolha'],
     g: 'A',
     c: 'Iniciar quando a noradrenalina atinge 0,25 a 0,5 mcg/kg/min. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Não é primeira.', C: 'Sem relação.', D: 'Não é primeira.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Adrenalina no choque',
     e: 'A adrenalina no choque séptico é:',
-    o: ['Opção adicional quando a noradrenalina e a vasopressina são insuficientes', 'Primeira escolha', 'Contraindicada', 'Usada só por via oral'],
+    o: ['Adicional, se noradrenalina e vasopressina não bastam', 'Primeira escolha isolada, em todo choque séptico', 'Contraindicada em qualquer situação do choque séptico', 'Usada só por via oral, em dose única diária'],
     g: 'A',
     c: 'Pode aumentar lactato. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Não é primeira.', C: 'Pode ser usada.', D: 'Inadequado.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque cardiogênico: causas',
     e: 'A principal causa de choque cardiogênico é:',
-    o: ['Infarto agudo do miocárdio com disfunção de ventrículo esquerdo', 'Miocardite', 'Valvopatia', 'Arritmia benigna'],
+    o: ['IAM com disfunção de ventrículo esquerdo', 'Miocardite aguda, com disfunção ventricular', 'Valvopatia grave, com disfunção ventricular', 'Arritmia benigna, sem disfunção ventricular'],
     g: 'A',
     c: 'Também complicações mecânicas do infarto. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Menos comum.', C: 'Menos comum.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque obstrutivo: TEP',
     e: 'Paciente com TEP maciço e hipotensão. O tratamento de reperfusão é:',
-    o: ['Trombólise sistêmica, se não contraindicada', 'Apenas heparina', 'Diurético', 'Volume em excesso'],
+    o: ['Trombólise sistêmica, se não contraindicada', 'Apenas heparina, em dose profilática', 'Diurético de alça, em dose alta', 'Volume em excesso, em bolus repetidos'],
     g: 'A',
     c: 'Embolectomia ou terapia por cateter se contraindicada. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Insuficiente.', C: 'Pioraria.', D: 'Pode piorar o VD.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque: diurese',
     e: 'Meta de diurese na ressuscitação do choque é:',
-    o: ['0,5 mL/kg/h ou mais', '0,1 mL/kg/h', '5 mL/kg/h', 'Não importa'],
+    o: ['Pelo menos 0,5 mL/kg/h', 'Cerca de 0,1 mL/kg/h, no choque', 'Cerca de 5 mL/kg/h, no choque', 'Não importa, no choque, para a perfusão'],
     g: 'A',
     c: 'A oligúria indica hipoperfusão renal. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Importa.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Sepse: escore qSOFA',
     e: 'Um qSOFA positivo (2 ou mais) em paciente com infecção indica:',
-    o: ['Maior risco de desfecho ruim, exigindo avaliação de disfunção orgânica', 'Diagnóstico de choque', 'Ausência de sepse', 'Indicação de alta'],
+    o: ['Maior risco de desfecho ruim; avaliar disfunção', 'Diagnóstico definitivo de choque, de forma isolada', 'Ausência de sepse, de forma isolada, com alta', 'Indicação de alta hospitalar, de forma isolada'],
     g: 'A',
     c: 'Não deve ser a única ferramenta de triagem. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Não define choque.', C: 'Não exclui.', D: 'Inadequado.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Hidratação excessiva',
     e: 'Os riscos da sobrecarga hídrica no choque incluem:',
-    o: ['Edema pulmonar, hipertensão intra-abdominal e lesão renal', 'Melhora da sobrevida', 'Nenhum', 'Hipovolemia'],
+    o: ['Edema pulmonar, hipertensão abdominal e lesão renal', 'Melhora da sobrevida, em todos os casos', 'Nenhum efeito adverso, em nenhum caso', 'Hipovolemia, por excesso de fluido'],
     g: 'A',
     c: 'A ressuscitação deve ser guiada por resposta. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Prejudicial.', C: 'Há riscos.', D: 'O oposto.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Insuficiência adrenal',
     e: 'Paciente em choque refratário, em uso crônico de corticoide suspenso. A hipótese a considerar é:',
-    o: ['Insuficiência adrenal aguda, tratada com hidrocortisona', 'Choque cardiogênico', 'Hipotireoidismo', 'Anemia'],
+    o: ['Insuficiência adrenal aguda; hidrocortisona', 'Choque cardiogênico; inotrópico', 'Hipotireoidismo grave; levotiroxina', 'Anemia aguda; transfusão de hemácias'],
     g: 'A',
     c: 'Crise adrenal: hipotensão, hiponatremia e hipercalemia. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Pressão venosa central',
     e: 'A PVC isolada para guiar fluidos:',
-    o: ['Tem baixa acurácia para prever resposta a volume', 'É o melhor parâmetro', 'Deve ser mantida acima de 20', 'É obrigatória'],
+    o: ['Baixa acurácia para prever resposta a volume', 'É o melhor parâmetro de resposta a volume', 'Deve ser mantida acima de 20 mmHg', 'É obrigatória em todo choque, sempre'],
     g: 'A',
     c: 'Preferir parâmetros dinâmicos. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Não.', C: 'Excessivo.', D: 'Não obrigatória.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Saturação venosa central',
     e: 'SvcO2 baixa (abaixo de 70%) no choque sugere:',
-    o: ['Oferta de oxigênio inadequada à demanda', 'Excesso de oxigênio', 'Normalidade', 'Choque distributivo sempre'],
+    o: ['Oferta de oxigênio inadequada à demanda', 'Excesso de oxigênio no sangue arterial', 'Normalidade da perfusão tecidual', 'Choque distributivo sempre, em qualquer causa'],
     g: 'A',
     c: 'Pode indicar baixo débito ou anemia. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'O oposto.', C: 'Alterado.', D: 'Pode estar alta no séptico.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Anafilaxia: refratária',
     e: 'Paciente com anafilaxia sem resposta a 2 doses de adrenalina IM. A conduta é:',
-    o: ['Adrenalina em infusão intravenosa, volume e suporte de via aérea', 'Anti-histamínico isolado', 'Observar', 'Alta'],
+    o: ['Adrenalina IV em infusão, volume e via aérea', 'Anti-histamínico isolado, por via oral', 'Observar a evolução, sem tratar', 'Alta com orientação, sem tratar'],
     g: 'A',
     c: 'Pacientes em betabloqueador podem precisar de glucagon. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Insuficiente.', C: 'Risco.', D: 'Risco.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque hemorrágico: cristaloide',
     e: 'No choque hemorrágico, a reposição inicial com cristaloide deve ser:',
-    o: ['Limitada (cerca de 1 litro), priorizando hemoderivados precocemente', 'Ilimitada', 'Somente coloides', 'Nenhuma'],
+    o: ['Limitada (~1 L), priorizando hemoderivados', 'Ilimitada, enquanto houver hipotensão', 'Somente coloides, em grande volume', 'Nenhuma, pois o cristaloide é contraindicado'],
     g: 'A',
     c: 'Excesso de cristaloide causa coagulopatia dilucional. Referência: American College of Surgeons. Advanced Trauma Life Support (ATLS). 10ª ed. Chicago: ACS, 2018.',
     x: { B: 'Prejudicial.', C: 'Não recomendado.', D: 'Pode ser feita.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque: ultrassom',
     e: 'Protocolo de ultrassom à beira do leito para diferenciar tipos de choque avalia:',
-    o: ['Coração, veia cava, pulmões, abdome e grandes vasos (protocolo RUSH)', 'Apenas a tireoide', 'Apenas os rins', 'Apenas o fígado'],
+    o: ['Coração, veia cava, pulmões, abdome e vasos (RUSH)', 'Apenas a tireoide, no paciente chocado', 'Apenas os rins, no paciente chocado', 'Apenas o fígado, no paciente chocado'],
     g: 'A',
     c: 'Ajuda a identificar tamponamento, TEP e hipovolemia. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Sepse: antibiótico empírico',
     e: 'No choque séptico de foco abdominal comunitário, um esquema adequado é:',
-    o: ['Piperacilina-tazobactam ou ceftriaxona com metronidazol', 'Amoxicilina oral', 'Azitromicina isolada', 'Fluconazol isolado'],
+    o: ['Piperacilina-tazobactam, ou ceftriaxona e metronidazol', 'Amoxicilina oral, em dose habitual, por 7 dias', 'Azitromicina isolada, em dose única diária oral', 'Fluconazol isolado, por via venosa, em dose alta'],
     g: 'A',
     c: 'Ajustar após culturas. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Sem cobertura.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque: microcirculação',
     e: 'Mottling (manchas na pele) em paciente com sepse indica:',
-    o: ['Hipoperfusão periférica e pior prognóstico', 'Melhora', 'Alergia', 'Sem significado'],
+    o: ['Hipoperfusão periférica e pior prognóstico', 'Melhora da perfusão e do prognóstico', 'Alergia, sem significado hemodinâmico', 'Sem significado clínico, no choque'],
     g: 'A',
     c: 'O escore de mottling se associa à mortalidade. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Tem significado.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Hipotensão: causas na UTI',
     e: 'Paciente na UTI com hipotensão súbita após intubação. Causas incluem:',
-    o: ['Efeito dos sedativos, hipovolemia, pneumotórax e auto-PEEP', 'Hipertermia', 'Hiperglicemia', 'Hipernatremia'],
+    o: ['Sedativos, hipovolemia, pneumotórax e auto-PEEP', 'Hipertermia, sem relação com a ventilação', 'Hiperglicemia, sem relação com a ventilação', 'Hipernatremia, sem relação com a ventilação'],
     g: 'A',
     c: 'Avaliação rápida é necessária. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Choque: tempo',
     e: 'Na ressuscitação do choque, o conceito mais importante é:',
-    o: ['Reconhecimento e intervenção precoces, com reavaliação frequente', 'Esperar exames', 'Tratar só a febre', 'Transferir sem estabilizar'],
+    o: ['Reconhecimento e intervenção precoces, reavaliando', 'Esperar todos os exames antes de tratar', 'Tratar só a febre, e aguardar a evolução', 'Transferir sem estabilizar o paciente'],
     g: 'A',
     c: 'O tempo influencia diretamente a mortalidade. Referência: Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-143.',
     x: { B: 'Atraso.', C: 'Insuficiente.', D: 'Risco.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_CHOQ: QuestaoCompacta[] = [
   {
     s: 'Inotrópico: milrinona',
     e: 'A milrinona difere da dobutamina por:',
-    o: ['Ser inibidor da fosfodiesterase 3, útil em pacientes em uso de betabloqueador, porém mais vasodilatadora', 'Ser vasoconstritora', 'Ser betabloqueadora', 'Ser anticoagulante'],
+    o: ['Inibidor da PDE3: útil com betabloqueador, mas vasodilata', 'Ser vasoconstritora, elevando a pressão arterial média', 'Ser betabloqueadora, reduzindo a frequência cardíaca', 'Ser anticoagulante, prevenindo trombose venosa profunda'],
     g: 'A',
     c: 'Exige ajuste na insuficiência renal. Referência: Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },

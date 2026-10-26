@@ -5,7 +5,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Sintomático respiratório',
     e: 'Na busca ativa de tuberculose, considera-se sintomático respiratório na população geral a pessoa com tosse por:',
-    o: ['3 semanas ou mais', '1 dia', '1 semana', '6 meses'],
+    o: ['Tosse por 3 semanas ou mais', 'Tosse por apenas 1 dia, com febre', 'Tosse por apenas 1 semana, com febre', 'Tosse por 6 meses, sem outros sintomas'],
     g: 'A',
     c: 'Em populações vulneráveis (presos, pessoas em situação de rua, PVHIV), qualquer duração. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Excessivo.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Teste rápido molecular',
     e: 'O teste rápido molecular para tuberculose (TRM-TB) tem como vantagem:',
-    o: ['Resultado em cerca de 2 horas e detecção de resistência à rifampicina', 'Dispensar coleta de escarro', 'Ser feito no sangue', 'Diferenciar infecção latente'],
+    o: ['Resultado em ~2 h e detecta resistência à rifampicina', 'Dispensa a coleta de escarro, usando outro material', 'É feito no sangue periférico, por punção venosa', 'Diferencia infecção latente de doença ativa'],
     g: 'A',
     c: 'É o exame inicial preferencial nos locais disponíveis. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Exige escarro.', C: 'É no escarro.', D: 'Não diferencia.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Cultura',
     e: 'A cultura para micobactérias é indicada em:',
-    o: ['Casos com TRM positivo, para teste de sensibilidade, e suspeita com exames negativos, retratamento e populações vulneráveis', 'Nunca', 'Somente após cura', 'Somente em crianças'],
+    o: ['Após TRM positivo, retratamento, suspeita com exames negativos', 'Nunca é indicada, pois o TRM basta para tudo', 'Somente após a cura clínica do paciente em tratamento', 'Somente em crianças, com suspeita de tuberculose ativa'],
     g: 'A',
     c: 'É o padrão-ouro, mas demora semanas. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Tem indicações.', C: 'Tardio.', D: 'Não só.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Radiografia',
     e: 'Achado radiográfico típico de tuberculose pulmonar pós-primária é:',
-    o: ['Infiltrado e cavitação em lobos superiores (segmentos apicais e posteriores)', 'Consolidação em lobo médio', 'Derrame pericárdico', 'Linhas B'],
+    o: ['Infiltrado e cavitação em lobos superiores (apicais e posteriores)', 'Consolidação em lobo médio, com broncograma aéreo presente', 'Derrame pericárdico volumoso, com coração em moringa', 'Linhas B de Kerley em bases pulmonares, bilateralmente'],
     g: 'A',
     c: 'Na forma primária, adenopatia hilar e consolidação. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Não típico.', C: 'Sem relação.', D: 'Congestão.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Esquema básico',
     e: 'O esquema básico para tuberculose em adultos e adolescentes é:',
-    o: ['2 meses de RHZE (rifampicina, isoniazida, pirazinamida e etambutol) e 4 meses de RH', '6 meses de isoniazida', 'RH por 2 meses', 'Estreptomicina isolada'],
+    o: ['2 meses de RHZE e 4 meses de RH', '6 meses de isoniazida isolada, em dose habitual', 'Rifampicina e isoniazida por apenas 2 meses', 'Estreptomicina isolada, por via intramuscular'],
     g: 'A',
     c: 'Em comprimidos de dose fixa combinada. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'ILTB.', C: 'Insuficiente.', D: 'Inadequado.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Meningoencefalite tuberculosa',
     e: 'A tuberculose meningoencefálica é tratada com:',
-    o: ['RHZE por 2 meses e RH por 10 meses, com corticoide associado', 'Esquema de 6 meses sem corticoide', 'Somente corticoide', 'Apenas isoniazida'],
+    o: ['RHZE por 2 meses e RH por 10 meses, com corticoide', 'Esquema de 6 meses sem corticoide associado', 'Somente corticoide, em dose alta, por via oral', 'Apenas isoniazida, em dose habitual, por 6 meses'],
     g: 'A',
     c: 'Total de 12 meses. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Tratamento diretamente observado',
     e: 'O tratamento diretamente observado (TDO) na tuberculose:',
-    o: ['Melhora a adesão e reduz abandono e resistência', 'É obrigatório apenas em crianças', 'Não tem benefício', 'Substitui a medicação'],
+    o: ['Melhora a adesão e reduz abandono e resistência', 'É obrigatório apenas em crianças, e não em adultos', 'Não traz nenhum benefício clínico comprovado', 'Substitui a medicação, que passa a ser dispensável'],
     g: 'A',
     c: 'Deve ser oferecido a todos. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Para todos.', C: 'Tem benefício.', D: 'Não substitui.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Controle de tratamento',
     e: 'No acompanhamento da tuberculose pulmonar, a baciloscopia de controle é feita:',
-    o: ['Mensalmente, idealmente', 'Somente no fim', 'Nunca', 'Semanalmente por 6 meses'],
+    o: ['Mensalmente, idealmente', 'Somente ao fim do tratamento, aos 6 meses', 'Nunca, pois o exame não é necessário', 'Semanalmente, durante os 6 meses de tratamento'],
     g: 'A',
     c: 'Baciloscopia positiva no segundo mês exige cultura e sensibilidade. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Necessária.', D: 'Excessivo.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Hepatotoxicidade',
     e: 'Paciente com tuberculose em tratamento com transaminases 5 vezes o normal, sem sintomas. A conduta é:',
-    o: ['Suspender o esquema e reintroduzir sequencialmente após normalização', 'Manter', 'Dobrar a dose', 'Trocar por quinolona isolada'],
+    o: ['Suspender o esquema e reintroduzir um a um após normalizar', 'Manter o esquema, com controle apenas em 1 mês', 'Dobrar a dose do esquema, para obter melhor efeito', 'Trocar por quinolona isolada, em dose habitual diária'],
     g: 'A',
     c: 'Com sintomas, suspende-se a partir de 3 vezes o normal. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Inadequado.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Efeitos adversos menores',
     e: 'Paciente em RHZE com urina alaranjada. A conduta é:',
-    o: ['Tranquilizar, pois é efeito esperado da rifampicina', 'Suspender o tratamento', 'Investigar hematúria em todos', 'Trocar o esquema'],
+    o: ['Tranquilizar: é efeito esperado da rifampicina', 'Suspender o tratamento, por suspeita de hematúria', 'Investigar hematúria em todos, com urocultura', 'Trocar o esquema, por suspeita de intolerância'],
     g: 'A',
     c: 'Também tinge lágrima e suor. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Desnecessário.', C: 'Desnecessário.', D: 'Desnecessário.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Pirazinamida',
     e: 'Efeito adverso típico da pirazinamida é:',
-    o: ['Hiperuricemia e artralgias', 'Neurite óptica', 'Neuropatia periférica', 'Urina alaranjada'],
+    o: ['Hiperuricemia e artralgias', 'Neurite óptica, que é efeito do etambutol', 'Neuropatia periférica, que é efeito da isoniazida', 'Urina alaranjada, que é efeito da rifampicina'],
     g: 'A',
     c: 'Artralgias podem ser tratadas com AINE. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Etambutol.', C: 'Isoniazida.', D: 'Rifampicina.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Interação rifampicina',
     e: 'Mulher em tratamento com RHZE usa anticoncepcional oral. A orientação é:',
-    o: ['Trocar por método não afetado pela rifampicina, como DIU ou injetável trimestral', 'Manter a pílula', 'Dobrar a pílula', 'Suspender a contracepção'],
+    o: ['Trocar por DIU ou injetável trimestral, sem interação', 'Manter a pílula atual, pois não há interação', 'Dobrar a dose da pílula, para compensar a perda', 'Suspender toda contracepção durante o tratamento'],
     g: 'A',
     c: 'A rifampicina reduz a eficácia de hormônios. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Risco de falha.', C: 'Não recomendado.', D: 'Risco.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB e HIV',
     e: 'Toda pessoa com tuberculose deve:',
-    o: ['Fazer teste para HIV', 'Fazer apenas raio X', 'Fazer PPD', 'Nada adicional'],
+    o: ['Fazer teste para HIV', 'Fazer apenas radiografia de tórax, sem sorologias', 'Fazer apenas PPD, sem outros exames', 'Nenhum exame adicional é necessário'],
     g: 'A',
     c: 'A coinfecção muda condutas e prognóstico. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Desnecessário.', D: 'Exige.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB latente: indicação',
     e: 'Indica tratamento de infecção latente:',
-    o: ['Contato de tuberculose pulmonar com PPD de 5 mm ou mais (ou IGRA positivo), após excluir doença ativa', 'Qualquer pessoa com BCG', 'Paciente com TB ativa', 'Todos os adultos'],
+    o: ['Contato de TB pulmonar com PPD ≥ 5 mm ou IGRA +, sem doença ativa', 'Qualquer pessoa vacinada com BCG, sem outro critério', 'Paciente com TB ativa, em fase de tratamento', 'Todos os adultos, de rotina, sem outro critério'],
     g: 'A',
     c: 'Imunossuprimidos têm limiares específicos. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem indicação.', C: 'Exige esquema completo.', D: 'Sem indicação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB latente: esquemas',
     e: 'Esquemas para infecção latente incluem:',
-    o: ['Isoniazida por 6 a 9 meses, rifampicina por 4 meses ou rifapentina com isoniazida semanal por 3 meses', 'RHZE por 6 meses', 'Estreptomicina', 'Quinolona por 1 semana'],
+    o: ['Isoniazida 6-9 meses, rifampicina 4 meses ou rifapentina + INH', 'RHZE por 6 meses, como no esquema de doença ativa', 'Estreptomicina intramuscular, por 2 meses seguidos', 'Quinolona por apenas 1 semana, em dose habitual'],
     g: 'A',
     c: 'O esquema curto (3HP) melhora a adesão. Referência: Brasil. Ministério da Saúde. Protocolo de vigilância da infecção latente pelo Mycobacterium tuberculosis no Brasil. 2ª ed. Brasília: MS, 2022.',
     x: { B: 'Tratamento de doença.', C: 'Não usado.', D: 'Insuficiente.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Anti-TNF',
     e: 'Paciente que vai iniciar anti-TNF com PPD de 7 mm e radiografia normal. A conduta é:',
-    o: ['Tratar infecção latente antes ou junto ao início do biológico', 'Iniciar o biológico sem tratar', 'Contraindicar o biológico para sempre', 'Esquema completo de TB'],
+    o: ['Tratar a infecção latente antes ou junto ao biológico', 'Iniciar o biológico sem tratar a infecção latente', 'Contraindicar o biológico para sempre, nesse paciente', 'Esquema completo de TB ativa, por 6 meses'],
     g: 'A',
     c: 'Iniciar o biológico após pelo menos 1 mês de tratamento da ILTB. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Risco de reativação.', C: 'Não é necessário.', D: 'Sem doença ativa.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB resistente',
     e: 'Paciente com TRM-TB detectando resistência à rifampicina. A conduta é:',
-    o: ['Encaminhar à referência terciária para esquema de tuberculose drogarresistente', 'Usar o esquema básico', 'Usar apenas isoniazida', 'Observar'],
+    o: ['Encaminhar à referência terciária (TB drogarresistente)', 'Usar o esquema básico, ignorando a resistência', 'Usar apenas isoniazida, em dose habitual', 'Observar, sem tratamento, e repetir o exame'],
     g: 'A',
     c: 'Esquemas atuais incluem bedaquilina, pretomanida e linezolida (BPaL/M). Referência: World Health Organization. WHO consolidated guidelines on tuberculosis: Module 4: treatment. Geneva: WHO, 2022.',
     x: { B: 'Ineficaz.', C: 'Insuficiente.', D: 'Risco.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB ganglionar',
     e: 'Paciente com linfadenopatia cervical indolor que fistuliza (escrófula). A hipótese é:',
-    o: ['Tuberculose ganglionar', 'Linfoma sempre', 'Mononucleose', 'Faringite'],
+    o: ['Tuberculose ganglionar', 'Linfoma, em todos os casos de linfonodo cervical', 'Mononucleose infecciosa, com febre e faringite', 'Faringite bacteriana, com adenite satélite'],
     g: 'A',
     c: 'Diagnóstico por punção ou biópsia com cultura. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Possível diferencial.', C: 'Agudo.', D: 'Agudo.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Mal de Pott',
     e: 'Paciente com dor lombar crônica, febre baixa e gibosidade, com destruição de corpos vertebrais e disco. A hipótese é:',
-    o: ['Tuberculose vertebral (mal de Pott)', 'Osteoporose', 'Metástase sempre', 'Hérnia de disco'],
+    o: ['Tuberculose vertebral (mal de Pott)', 'Osteoporose, com fratura por fragilidade', 'Metástase óssea, em todos os casos de gibosidade', 'Hérnia de disco, com radiculopatia lombar'],
     g: 'A',
     c: 'Pode causar compressão medular. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem febre.', C: 'Possível diferencial.', D: 'Sem destruição.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB miliar',
     e: 'Radiografia com micronódulos difusos e uniformes em paciente febril e emagrecido. A hipótese é:',
-    o: ['Tuberculose miliar', 'Pneumonia lobar', 'Edema pulmonar', 'DPOC'],
+    o: ['Tuberculose miliar', 'Pneumonia lobar, com consolidação única', 'Edema pulmonar, com infiltrado peri-hilar', 'DPOC, com hiperinsuflação pulmonar'],
     g: 'A',
     c: 'Exige investigação de meninge e medula. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Padrão diferente.', C: 'Padrão diferente.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Notificação',
     e: 'A tuberculose é doença:',
-    o: ['De notificação compulsória, com investigação de contatos', 'Notificação facultativa', 'Sem notificação', 'Notificada apenas em óbito'],
+    o: ['Notificação compulsória; investigar contatos', 'Notificação facultativa, a critério do médico', 'Sem notificação, por ser doença comum', 'Notificada apenas em caso de óbito do paciente'],
     g: 'A',
     c: 'Todos os contatos devem ser avaliados. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'É compulsória.', C: 'É notificável.', D: 'Todos os casos.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Isolamento',
     e: 'Paciente com tuberculose pulmonar bacilífera internado deve ficar em:',
-    o: ['Isolamento respiratório para aerossóis, com máscara N95 para profissionais', 'Isolamento de contato', 'Nenhum isolamento', 'Isolamento por gotículas com máscara cirúrgica para profissionais'],
+    o: ['Isolamento respiratório (aerossóis); N95 para profissionais', 'Isolamento de contato, com avental e luvas', 'Nenhum isolamento, pois a transmissão é rara', 'Isolamento por gotículas, com máscara cirúrgica'],
     g: 'A',
     c: 'O paciente usa máscara cirúrgica ao sair do quarto. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Risco.', D: 'Insuficiente.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Tuberculose e diabetes',
     e: 'Diabéticos têm:',
-    o: ['Maior risco de tuberculose e pior resposta ao tratamento', 'Menor risco', 'Nenhuma relação', 'Cura espontânea'],
+    o: ['Maior risco de TB e pior resposta ao tratamento', 'Menor risco de tuberculose, que é a regra', 'Nenhuma relação com o risco de tuberculose', 'Cura espontânea da tuberculose, com mais frequência'],
     g: 'A',
     c: 'Rastrear diabetes em pacientes com TB. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'O oposto.', C: 'Há relação.', D: 'Sem fundamento.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Transmissão',
     e: 'A transmissão da tuberculose ocorre principalmente:',
-    o: ['Por aerossóis eliminados por doentes com tuberculose pulmonar ou laríngea bacilífera', 'Por contato com objetos', 'Por alimentos', 'Por picada de inseto'],
+    o: ['Por aerossóis de doentes com TB pulmonar ou laríngea bacilífera', 'Por contato com objetos contaminados do paciente', 'Por alimentos contaminados, via fecal-oral', 'Por picada de inseto vetor, em áreas endêmicas'],
     g: 'A',
     c: 'Após cerca de 15 dias de tratamento eficaz, a transmissibilidade cai muito. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem relação.', C: 'Raro (bovina).', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Infecção vs doença',
     e: 'Sobre infecção e doença tuberculosa, é correto afirmar:',
-    o: ['A maioria dos infectados não adoece; o risco é maior nos primeiros 2 anos e em imunossuprimidos', 'Todos os infectados adoecem', 'Infecção latente é transmissível', 'Não há relação'],
+    o: ['A maioria não adoece; risco maior em 2 anos e em imunossuprimidos', 'Todos os infectados adoecem, ao longo da vida inteira', 'A infecção latente é transmissível, por via aérea', 'Não há relação alguma entre infecção e doença ativa'],
     g: 'A',
     c: 'Cerca de 5 a 10% adoecem ao longo da vida. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Afirmativa falsa.', C: 'Não transmite.', D: 'Há relação.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'BCG',
     e: 'A vacina BCG protege principalmente contra:',
-    o: ['Formas graves (miliar e meníngea) em crianças', 'Tuberculose pulmonar em adultos com alta eficácia', 'Infecção latente', 'Tuberculose resistente'],
+    o: ['Formas graves (miliar e meníngea) em crianças', 'TB pulmonar em adultos, com alta eficácia', 'Infecção latente, em todas as faixas etárias', 'TB resistente, em todas as faixas etárias'],
     g: 'A',
     c: 'Aplicada ao nascer. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Proteção limitada.', C: 'Não previne infecção.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Escarro induzido',
     e: 'Paciente com suspeita de TB que não produz escarro. Uma opção é:',
-    o: ['Escarro induzido com salina hipertônica ou broncoscopia com lavado', 'Desistir da investigação', 'Tratar sem nenhum exame em todos', 'Hemocultura'],
+    o: ['Escarro induzido (salina hipertônica) ou lavado broncoalveolar', 'Desistir da investigação, por falta de escarro', 'Tratar todos sem nenhum exame, por suspeita clínica', 'Hemocultura para micobactérias, de rotina'],
     g: 'A',
     c: 'Em crianças, o lavado gástrico pode ser usado. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Risco.', C: 'Investigar primeiro.', D: 'Pouco útil.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Retratamento',
     e: 'Paciente com recidiva de tuberculose após cura. A conduta inicial é:',
-    o: ['Coletar TRM, cultura e teste de sensibilidade e iniciar esquema básico enquanto aguarda, ajustando se houver resistência', 'Repetir esquema sem exames', 'Não tratar', 'Esquema de resistência para todos'],
+    o: ['TRM, cultura e sensibilidade; esquema básico enquanto aguarda', 'Repetir o esquema sem solicitar nenhum exame', 'Não tratar, pois a recidiva não exige terapia', 'Esquema de resistência para todos, de imediato'],
     g: 'A',
     c: 'O teste de sensibilidade orienta o esquema. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Risco.', D: 'Não sem confirmar.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Abandono',
     e: 'Retorno após abandono do tratamento de TB exige:',
-    o: ['Nova avaliação com cultura e sensibilidade e reinício do tratamento com TDO', 'Continuar de onde parou sem exames', 'Nenhum tratamento', 'Esquema de 1 mês'],
+    o: ['Nova avaliação com cultura e sensibilidade; reiniciar com TDO', 'Continuar de onde parou, sem exames adicionais', 'Nenhum tratamento, pois o paciente já foi tratado', 'Esquema de apenas 1 mês, em dose habitual'],
     g: 'A',
     c: 'O abandono aumenta resistência. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Risco.', D: 'Insuficiente.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Gestação',
     e: 'Gestante com tuberculose pulmonar. O tratamento é:',
-    o: ['Esquema básico RHZE, com piridoxina', 'Contraindicado na gestação', 'Apenas isoniazida', 'Estreptomicina'],
+    o: ['Esquema básico RHZE, com piridoxina', 'Contraindicado na gestação, em qualquer trimestre', 'Apenas isoniazida, em dose habitual', 'Estreptomicina, por via intramuscular, em dose habitual'],
     g: 'A',
     c: 'A estreptomicina é ototóxica fetal. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Deve tratar.', C: 'Insuficiente.', D: 'Contraindicada.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB e hepatopatia',
     e: 'Paciente com cirrose descompensada e tuberculose. O esquema pode exigir:',
-    o: ['Esquemas com menos drogas hepatotóxicas, em centro de referência', 'Esquema básico sem cautela', 'Nenhum tratamento', 'Apenas pirazinamida'],
+    o: ['Esquemas com menos drogas hepatotóxicas, em referência', 'Esquema básico sem cautela, em dose habitual', 'Nenhum tratamento, pelo risco de hepatotoxicidade', 'Apenas pirazinamida, em dose habitual'],
     g: 'A',
     c: 'Ajusta-se conforme gravidade da hepatopatia. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Hepatotóxica.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB e insuficiência renal',
     e: 'Paciente em hemodiálise com tuberculose. Ajuste necessário inclui:',
-    o: ['Etambutol e pirazinamida 3 vezes por semana após a diálise', 'Nenhum ajuste', 'Suspender rifampicina', 'Dobrar isoniazida'],
+    o: ['Etambutol e pirazinamida 3x/semana após a diálise', 'Nenhum ajuste, em dose habitual diária', 'Suspender a rifampicina, por acúmulo renal', 'Dobrar a dose de isoniazida, após a diálise'],
     g: 'A',
     c: 'Rifampicina e isoniazida não precisam de ajuste. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Necessário.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Reação paradoxal',
     e: 'Paciente com TB em tratamento apresenta piora transitória de linfonodos após início da terapia. O fenômeno é:',
-    o: ['Reação paradoxal', 'Falência', 'Resistência', 'Alergia'],
+    o: ['Reação paradoxal', 'Falência terapêutica, por resistência', 'Resistência medicamentosa, por má adesão', 'Alergia medicamentosa, por rifampicina'],
     g: 'A',
     c: 'Mais comum em PVHIV que iniciam TARV (síndrome inflamatória). Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Não necessariamente.', C: 'Não necessariamente.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Populações vulneráveis',
     e: 'Grupos com maior risco de tuberculose no Brasil incluem:',
-    o: ['Pessoas privadas de liberdade, em situação de rua, PVHIV e indígenas', 'Atletas', 'Gestantes saudáveis', 'Crianças vacinadas sem contato'],
+    o: ['Privados de liberdade, situação de rua, PVHIV e indígenas', 'Atletas de alto rendimento, sem comorbidades', 'Gestantes saudáveis, sem contato com doentes', 'Crianças vacinadas, sem contato com doentes'],
     g: 'A',
     c: 'Exigem busca ativa. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem relação.', C: 'Risco usual.', D: 'Risco menor.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Contatos',
     e: 'Avaliação de contato assintomático de tuberculose pulmonar adulto inclui:',
-    o: ['Anamnese, exame físico, radiografia de tórax e PPD ou IGRA', 'Nada', 'Apenas hemograma', 'Esquema completo'],
+    o: ['Anamnese, exame físico, radiografia de tórax e PPD ou IGRA', 'Nenhuma avaliação, pois o contato é assintomático', 'Apenas hemograma, sem outros exames', 'Esquema completo de tratamento, de imediato'],
     g: 'A',
     c: 'Contatos com sintomas devem ser investigados para doença. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Sem doença.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Cura',
     e: 'Critério de cura em tuberculose pulmonar com baciloscopia positiva inicial é:',
-    o: ['Duas baciloscopias negativas, uma em fase de acompanhamento e outra no fim do tratamento', 'Melhora da tosse apenas', 'Radiografia normal', 'PPD negativo'],
+    o: ['Duas baciloscopias negativas: uma no seguimento, outra ao final', 'Melhora da tosse apenas, sem exame laboratorial de controle', 'Radiografia de tórax normal, realizada ao final do tratamento', 'PPD negativo, realizado ao final do tratamento completo'],
     g: 'A',
     c: 'Sem baciloscopia, cura por completar o tratamento. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Hemoptise e TB',
     e: 'Paciente com sequela de TB e hemoptise. Causa possível é:',
-    o: ['Bronquiectasias, aspergiloma ou reativação', 'Asma', 'Sinusite', 'Rinite'],
+    o: ['Bronquiectasias, aspergiloma ou reativação', 'Asma brônquica, com crises de broncoespasmo', 'Sinusite crônica, com secreção purulenta', 'Rinite alérgica, com obstrução nasal'],
     g: 'A',
     c: 'Investigar com tomografia e escarro. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Etambutol: acuidade visual',
     e: 'Durante uso de etambutol, deve-se orientar:',
-    o: ['Procurar atendimento se houver alteração da visão de cores ou acuidade', 'Usar óculos escuros', 'Nada', 'Suspender água'],
+    o: ['Procurar serviço se alterar a visão de cores ou acuidade', 'Usar óculos escuros, para evitar a fotofobia diurna', 'Nenhuma orientação específica é necessária durante o uso', 'Suspender a ingestão de água, durante todo o tratamento'],
     g: 'A',
     c: 'A neurite óptica é dose-dependente. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem relação.', C: 'Risco.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Isoniazida e lúpus',
     e: 'A isoniazida pode causar:',
-    o: ['Hepatite, neuropatia periférica e lúpus induzido', 'Urina alaranjada', 'Hiperuricemia', 'Neurite óptica'],
+    o: ['Hepatite, neuropatia periférica e lúpus induzido', 'Urina alaranjada, que é efeito da rifampicina', 'Hiperuricemia, que é efeito da pirazinamida', 'Neurite óptica, que é efeito do etambutol'],
     g: 'A',
     c: 'Piridoxina previne neuropatia. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Rifampicina.', C: 'Pirazinamida.', D: 'Etambutol.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Rifampicina: reações',
     e: 'Reação grave da rifampicina, mais em uso intermitente, é:',
-    o: ['Síndrome pseudogripal, plaquetopenia e insuficiência renal', 'Neurite óptica', 'Ototoxicidade', 'Hiperuricemia'],
+    o: ['Síndrome pseudogripal, plaquetopenia e insuficiência renal', 'Neurite óptica, que é efeito do etambutol', 'Ototoxicidade, que é efeito da estreptomicina', 'Hiperuricemia, que é efeito da pirazinamida'],
     g: 'A',
     c: 'Exige suspensão. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Etambutol.', C: 'Aminoglicosídeos.', D: 'Pirazinamida.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB intestinal',
     e: 'Paciente com dor abdominal, diarreia, perda de peso e massa em fossa ilíaca direita. Diferencial importante com doença de Crohn é:',
-    o: ['Tuberculose intestinal', 'Apendicite aguda', 'Diverticulite', 'Gastroenterite'],
+    o: ['Tuberculose intestinal', 'Apendicite aguda, com dor em fossa ilíaca direita', 'Diverticulite aguda, com febre e dor no cólon esquerdo', 'Gastroenterite aguda, autolimitada, com diarreia'],
     g: 'A',
     c: 'Biópsia com cultura diferencia. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Quadro agudo.', C: 'Lado esquerdo.', D: 'Agudo.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Prova tuberculínica',
     e: 'A leitura da prova tuberculínica é feita após:',
-    o: ['48 a 72 horas, medindo o maior diâmetro transverso da induração', '1 hora', '7 dias', '30 minutos'],
+    o: ['48-72 h; mede-se o maior diâmetro transverso da induração', '1 hora após a aplicação, medindo o eritema', '7 dias após a aplicação, medindo a bolha', '30 minutos após a aplicação, medindo o halo'],
     g: 'A',
     c: 'Mede-se a induração, não o eritema. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Precoce.', C: 'Tardio.', D: 'Precoce.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'IGRA',
     e: 'O IGRA:',
-    o: ['Não é afetado pela BCG e não diferencia infecção latente de doença ativa', 'Diagnostica TB ativa', 'É afetado pela BCG', 'É feito no escarro'],
+    o: ['Não é afetado pela BCG; não diferencia latente de doença ativa', 'Diagnostica tuberculose ativa, de forma definitiva', 'É afetado pela vacinação com BCG, como o PPD', 'É feito no escarro do paciente, e não no sangue'],
     g: 'A',
     c: 'É feito no sangue. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Não diferencia.', C: 'Não.', D: 'Sangue.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Pneumotórax e TB',
     e: 'Paciente com tuberculose cavitária e pneumotórax. O mecanismo é:',
-    o: ['Ruptura de cavidade para a pleura (fístula broncopleural)', 'Asma', 'Embolia', 'Infarto'],
+    o: ['Ruptura de cavidade para a pleura (fístula broncopleural)', 'Asma brônquica, com hiperinsuflação e barotrauma', 'Embolia pulmonar, com infarto pulmonar periférico', 'Infarto do miocárdio, com edema pulmonar associado'],
     g: 'A',
     c: 'Pode causar empiema. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'TB e tabagismo',
     e: 'O tabagismo na tuberculose:',
-    o: ['Aumenta risco de infecção, doença e pior resposta ao tratamento', 'Protege', 'Não tem relação', 'Cura'],
+    o: ['Aumenta risco de infecção, doença e pior resposta', 'Protege contra a tuberculose, em fumantes', 'Não tem relação com o risco de tuberculose', 'Cura a tuberculose, por efeito direto da nicotina'],
     g: 'A',
     c: 'Oferecer cessação. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'O oposto.', C: 'Tem relação.', D: 'Sem fundamento.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_TB: QuestaoCompacta[] = [
   {
     s: 'Corticoide e TB',
     e: 'Na tuberculose pericárdica, o corticoide:',
-    o: ['Pode reduzir constrição e é considerado em casos selecionados', 'É contraindicado', 'Substitui o esquema', 'Cura a TB'],
+    o: ['Pode reduzir constrição; considerado em casos selecionados', 'É contraindicado em todos os casos de TB', 'Substitui o esquema antituberculose, em dose alta', 'Cura a tuberculose pericárdica, de forma isolada'],
     g: 'A',
     c: 'Na meningoencefálica, é sempre indicado. Referência: Brasil. Ministério da Saúde. Manual de Recomendações para o Controle da Tuberculose no Brasil. 2ª ed. Brasília: MS, 2019.',
     x: { B: 'Pode ser usado.', C: 'Não substitui.', D: 'Não cura.' },

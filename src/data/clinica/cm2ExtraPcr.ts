@@ -5,7 +5,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Reconhecimento',
     e: 'Diante de adulto que cai na rua, não responde e não respira normalmente, a primeira ação do leigo é:',
-    o: ['Chamar ajuda (192 e pedir um DEA) e iniciar compressões torácicas', 'Checar o pulso por 1 minuto', 'Fazer ventilações antes de tudo', 'Aguardar o socorro sem tocar'],
+    o: ['Chamar ajuda (192, DEA) e iniciar compressões torácicas', 'Checar o pulso carotídeo durante 1 minuto', 'Fazer ventilações boca a boca antes de qualquer manobra', 'Aguardar o socorro chegar, sem tocar na vítima'],
     g: 'A',
     c: 'A respiração agônica (gasping) não é respiração normal. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Atraso.', C: 'Compressões primeiro.', D: 'Atraso fatal.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Compressões',
     e: 'Compressões torácicas de alta qualidade em adultos devem ter:',
-    o: ['Frequência de 100 a 120 por minuto e profundidade de 5 a 6 cm, com retorno completo do tórax', 'Frequência de 60 por minuto', 'Profundidade de 2 cm', 'Pausas longas a cada 10 compressões'],
+    o: ['100-120/min, 5-6 cm de profundidade e retorno completo do tórax', 'Frequência de 60 por minuto, com retorno incompleto', 'Profundidade de 2 cm, com retorno completo do tórax', 'Pausas longas a cada 10 compressões, para ventilar'],
     g: 'A',
     c: 'Minimizar interrupções. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Lenta.', C: 'Superficial.', D: 'Prejudicial.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Ritmos chocáveis',
     e: 'São ritmos chocáveis na PCR:',
-    o: ['Fibrilação ventricular e taquicardia ventricular sem pulso', 'Assistolia', 'Atividade elétrica sem pulso', 'Bradicardia sinusal'],
+    o: ['FV e TV sem pulso', 'Assistolia, que não responde ao choque', 'Atividade elétrica sem pulso, que não responde ao choque', 'Bradicardia sinusal, que não responde ao choque'],
     g: 'A',
     c: 'Assistolia e AESP não são chocáveis. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Não chocável.', C: 'Não chocável.', D: 'Tem pulso.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Desfibrilação',
     e: 'Na fibrilação ventricular, após o choque, a conduta imediata é:',
-    o: ['Retomar compressões por 2 minutos antes de checar ritmo', 'Checar pulso por 1 minuto', 'Dar choque novamente imediatamente', 'Aguardar'],
+    o: ['Retomar compressões por 2 minutos antes de checar o ritmo', 'Checar o pulso por 1 minuto, antes de qualquer manobra', 'Dar novo choque de imediato, sem checar o ritmo', 'Aguardar a evolução, sem retomar as compressões'],
     g: 'A',
     c: 'Checar ritmo a cada 2 minutos. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Atraso.', C: 'Sem RCP entre.', D: 'Atraso.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Adrenalina',
     e: 'Na PCR, a adrenalina é administrada na dose de:',
-    o: ['1 mg intravenoso a cada 3 a 5 minutos', '0,1 mg única', '10 mg', '1 mg a cada 30 minutos'],
+    o: ['1 mg IV a cada 3-5 minutos', '0,1 mg IV, em dose única, sem repetição', '10 mg IV, em dose única, sem repetição', '1 mg IV a cada 30 minutos, durante a RCP'],
     g: 'A',
     c: 'Em ritmos não chocáveis, o mais cedo possível. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Insuficiente.', C: 'Excessiva.', D: 'Intervalo longo.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Amiodarona na PCR',
     e: 'Em FV ou TV sem pulso refratária a choques, o antiarrítmico é:',
-    o: ['Amiodarona 300 mg, depois 150 mg (ou lidocaína)', 'Adenosina', 'Verapamil', 'Atropina'],
+    o: ['Amiodarona 300 mg e depois 150 mg (ou lidocaína)', 'Adenosina 6 mg em bolus rápido, e depois 12 mg', 'Verapamil 5 mg IV, lento, em dose única', 'Atropina 1 mg IV, em bolus, a cada 3-5 minutos'],
     g: 'A',
     c: 'Administrada após o terceiro choque. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'TSV.', C: 'TSV.', D: 'Bradicardia.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Assistolia',
     e: 'Paciente em assistolia. A conduta é:',
-    o: ['RCP de alta qualidade e adrenalina o mais cedo possível, buscando causas reversíveis', 'Choque', 'Amiodarona', 'Atropina'],
+    o: ['RCP de alta qualidade, adrenalina precoce e causas reversíveis', 'Choque elétrico de alta energia, imediato e sincronizado ao QRS', 'Amiodarona 300 mg IV, em bolus único, seguida de 150 mg', 'Atropina 1 mg IV, em bolus, repetida a cada 3 a 5 minutos'],
     g: 'A',
     c: 'Confirmar assistolia em mais de uma derivação (protocolo da linha reta). Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Não chocável.', C: 'Sem indicação.', D: 'Removida das diretrizes.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Causas reversíveis',
     e: 'Os 5 Hs e 5 Ts das causas reversíveis de PCR incluem:',
-    o: ['Hipovolemia, hipóxia, H+ (acidose), hipo/hipercalemia, hipotermia; tensão (pneumotórax), tamponamento, toxinas, trombose pulmonar e coronária', 'Hipertensão e hiperglicemia', 'Hipotireoidismo e hiponatremia leve', 'Hepatite e hemorroidas'],
+    o: ['5 Hs e 5 Ts: hipovolemia, hipóxia, acidose, K+, hipotermia; pneumotórax, tamponamento, toxinas, TEP, coronária', 'Hipertensão arterial grave e hiperglicemia grave, associadas a dor torácica e dispneia', 'Hipotireoidismo e hiponatremia leve, crônicos e bem compensados, em uso de medicação', 'Hepatite aguda e hemorroidas sangrantes, sem repercussão hemodinâmica nem sinais de choque'],
     g: 'A',
     c: 'Devem ser buscadas e tratadas. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Não fazem parte.', C: 'Não são as clássicas.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'AESP',
     e: 'Paciente em PCR com ritmo organizado no monitor e sem pulso. O diagnóstico é:',
-    o: ['Atividade elétrica sem pulso', 'Fibrilação ventricular', 'TV com pulso', 'Assistolia'],
+    o: ['Atividade elétrica sem pulso', 'Fibrilação ventricular, com ritmo caótico', 'TV com pulso, estável e sintomática', 'Assistolia, com linha isoelétrica no monitor'],
     g: 'A',
     c: 'Não é chocável; buscar causas reversíveis. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Desorganizado.', C: 'Tem pulso.', D: 'Linha reta.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Capnografia',
     e: 'Durante a RCP, a capnografia com EtCO2 abaixo de 10 mmHg sugere:',
-    o: ['RCP de baixa qualidade ou prognóstico ruim', 'Retorno da circulação', 'Intubação esofágica sempre', 'Normalidade'],
+    o: ['RCP de baixa qualidade ou prognóstico ruim', 'Retorno da circulação espontânea, com pulso', 'Intubação esofágica, em todos os casos', 'Valor normal de EtCO2, durante a RCP'],
     g: 'A',
     c: 'Aumento súbito acima de 35 a 40 sugere retorno da circulação espontânea. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'O oposto.', C: 'Nem sempre.', D: 'Alterado.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Via aérea',
     e: 'Sobre a via aérea avançada na PCR, é correto afirmar:',
-    o: ['Pode ser cânula traqueal ou dispositivo supraglótico, sem interromper muito as compressões', 'É obrigatória antes do primeiro choque', 'Deve ser feita antes das compressões', 'Não pode ser usada'],
+    o: ['Cânula traqueal ou supraglótica, sem pausar demais as compressões', 'É obrigatória antes do primeiro choque, em todos os casos de parada', 'Deve ser feita antes de iniciar as compressões torácicas, sempre', 'Não pode ser usada durante a parada cardíaca, em nenhuma situação'],
     g: 'A',
     c: 'A ventilação com bolsa-válvula-máscara é aceitável. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Não obrigatória.', C: 'Compressões primeiro.', D: 'Pode.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Pós-PCR: temperatura',
     e: 'Após retorno da circulação, em paciente comatoso, recomenda-se:',
-    o: ['Controle direcionado da temperatura, evitando febre (manter abaixo de 37,5 °C)', 'Aquecer acima de 39 °C', 'Nada', 'Hipotermia a 28 °C'],
+    o: ['Controle de temperatura, evitando febre (< 37,5 °C)', 'Aquecer o paciente acima de 39 °C, de forma ativa', 'Nenhum controle de temperatura, na fase pós-PCR', 'Hipotermia profunda a 28 °C, por 24 horas'],
     g: 'A',
     c: 'O estudo TTM2 não mostrou benefício de 33 °C sobre normotermia com prevenção de febre. Referência: Dankiewicz J et al. Hypothermia versus Normothermia after Out-of-Hospital Cardiac Arrest (TTM2). N Engl J Med. 2021;384(24):2283-94.',
     x: { B: 'Prejudicial.', C: 'Exige cuidados.', D: 'Perigoso.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Pós-PCR: cateterismo',
     e: 'Após PCR com retorno da circulação e supra de ST no ECG. A conduta é:',
-    o: ['Cateterismo de emergência', 'Apenas observação', 'Trombólise obrigatória', 'Alta'],
+    o: ['Cateterismo de emergência', 'Apenas observação clínica, na UTI', 'Trombólise obrigatória, sem cateterismo', 'Alta hospitalar, após estabilização hemodinâmica'],
     g: 'A',
     c: 'Sem supra, a decisão é individualizada. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Inadequado.', C: 'Alternativa.', D: 'Inadequado.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Pós-PCR: metas',
     e: 'Após retorno da circulação, as metas incluem:',
-    o: ['PAM de pelo menos 65 mmHg, SatO2 de 92 a 98% e normocapnia', 'Hipotensão permissiva', 'Hiperóxia', 'Hipocapnia'],
+    o: ['PAM ≥ 65 mmHg, SatO2 92-98% e normocapnia', 'Hipotensão permissiva, com PAM abaixo de 50 mmHg', 'Hiperóxia, com SatO2 sempre de 100%', 'Hipocapnia, com hiperventilação mecânica agressiva'],
     g: 'A',
     c: 'Evitar hipóxia e hiperóxia. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Prejudicial.', C: 'Prejudicial.', D: 'Prejudicial.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Gestante em PCR',
     e: 'Gestante com útero acima da cicatriz umbilical em PCR. Uma manobra importante é:',
-    o: ['Deslocamento manual do útero para a esquerda e preparar cesárea perimortem se não houver retorno em 4 minutos', 'Decúbito dorsal sem deslocamento', 'Não fazer compressões', 'Aguardar o obstetra'],
+    o: ['Deslocar o útero para a esquerda; cesárea perimortem em 4 min', 'Decúbito dorsal horizontal, sem deslocamento do útero grávido', 'Não fazer compressões torácicas, por risco ao feto em desenvolvimento', 'Aguardar o obstetra chegar, antes de iniciar a ressuscitação'],
     g: 'A',
     c: 'A cesárea pode melhorar a ressuscitação materna. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Compressão aortocava.', C: 'Inadequado.', D: 'Atraso.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia e PCR',
     e: 'Paciente em diálise com PCR e suspeita de hipercalemia. Além do protocolo, administra-se:',
-    o: ['Gluconato ou cloreto de cálcio e bicarbonato', 'Potássio', 'Atropina', 'Adenosina'],
+    o: ['Gluconato ou cloreto de cálcio e bicarbonato', 'Potássio IV, em bolus, para corrigir o ritmo', 'Atropina IV, em bolus, a cada 3-5 minutos', 'Adenosina IV, em bolus rápido, de 6 mg'],
     g: 'A',
     c: 'Também insulina com glicose. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Pioraria.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Intoxicação por opioide',
     e: 'Paciente com suspeita de overdose de opioide, sem respiração adequada mas com pulso. A conduta é:',
-    o: ['Ventilar e administrar naloxona', 'Choque', 'Adrenalina', 'Apenas observar'],
+    o: ['Ventilar e administrar naloxona', 'Choque elétrico imediato, em dose de 200 J', 'Adrenalina 1 mg IV, em bolus, sem ventilar', 'Apenas observar, até a chegada do socorro'],
     g: 'A',
     c: 'Na PCR, segue-se o protocolo padrão. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Tem pulso.', C: 'Tem pulso.', D: 'Risco.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Bicarbonato',
     e: 'O uso de bicarbonato de sódio de rotina na PCR:',
-    o: ['Não é recomendado, sendo reservado a hipercalemia, intoxicação por tricíclicos e acidose grave prévia', 'É obrigatório', 'Melhora a sobrevida em todos', 'Substitui a adrenalina'],
+    o: ['Não é de rotina; só em hipercalemia, tricíclicos ou acidose prévia', 'É obrigatório em toda parada cardíaca, a partir do primeiro ciclo', 'Melhora a sobrevida em todos os pacientes em parada cardíaca', 'Substitui a adrenalina como droga vasoativa de primeira escolha'],
     g: 'A',
     c: 'Pode causar alcalose e hipernatremia. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Não é rotina.', C: 'Sem evidência.', D: 'Não substitui.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Desfibrilador',
     e: 'O desfibrilador bifásico é usado com carga inicial de:',
-    o: ['120 a 200 J (conforme o fabricante) ou carga máxima se desconhecida', '10 J', '50 J sempre', '400 J'],
+    o: ['120-200 J (conforme o fabricante) ou carga máxima', '10 J, em dose única, para todos os pacientes', '50 J, em todos os choques, sem escalonar', '400 J, em todos os choques, desde o início'],
     g: 'A',
     c: 'O monofásico usa 360 J. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Excessivo.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'DEA',
     e: 'Sobre o desfibrilador externo automático, é correto afirmar:',
-    o: ['Pode ser usado por leigos e aumenta muito a sobrevida na FV extra-hospitalar', 'Só pode ser usado por médicos', 'Não deve ser usado em locais públicos', 'Substitui as compressões'],
+    o: ['Pode ser usado por leigos e aumenta a sobrevida na FV', 'Só pode ser usado por médicos treinados', 'Não deve ser usado em locais públicos', 'Substitui as compressões torácicas durante a parada'],
     g: 'A',
     c: 'Cada minuto sem desfibrilação reduz a sobrevida. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Pode ser usado.', C: 'O oposto.', D: 'Não substitui.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Interrupção',
     e: 'Durante a RCP, a pausa para checar ritmo e pulso deve durar:',
-    o: ['No máximo 10 segundos', '1 minuto', '30 segundos', 'Não há limite'],
+    o: ['No máximo 10 segundos', '1 minuto, para checar o pulso central', '30 segundos, para checar o ritmo no monitor', 'Não há limite de tempo para a pausa'],
     g: 'A',
     c: 'A fração de compressão deve ser acima de 60 a 80%. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Há limite.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Prognóstico',
     e: 'Avaliação neurológica para prognóstico após PCR deve ser feita:',
-    o: ['Após pelo menos 72 horas do retorno da circulação, com abordagem multimodal', 'Na primeira hora', 'Nunca', 'Apenas pelo exame pupilar no dia 1'],
+    o: ['Após ≥ 72 h do retorno da circulação, de forma multimodal', 'Na primeira hora após o retorno da circulação', 'Nunca se deve avaliar o prognóstico neurológico', 'Apenas pelo exame pupilar, no primeiro dia'],
     g: 'A',
     c: 'Evita decisões precipitadas. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Precoce.', C: 'Deve ser feita.', D: 'Insuficiente.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'PCR intra-hospitalar',
     e: 'A medida que mais reduz PCR intra-hospitalar é:',
-    o: ['Reconhecimento precoce da deterioração clínica com times de resposta rápida', 'Mais desfibriladores', 'Mais adrenalina', 'Monitor em todos'],
+    o: ['Reconhecer a deterioração e acionar o time de resposta rápida', 'Aumentar o número de desfibriladores disponíveis em todo o hospital', 'Aumentar o uso de adrenalina nas paradas cardiorrespiratórias', 'Colocar monitor cardíaco em todos os leitos de enfermaria do hospital'],
     g: 'A',
     c: 'Escores de alerta precoce ajudam. Referência: Bernoche C et al. Atualização da Diretriz de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência da SBC 2019. Arq Bras Cardiol. 2019;113(3):449-663.',
     x: { B: 'Pós-evento.', C: 'Pós-evento.', D: 'Não suficiente.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Afogamento',
     e: 'Vítima de afogamento em PCR. A sequência inicial é:',
-    o: ['Iniciar com ventilações (5 ventilações de resgate) e depois compressões', 'Apenas compressões', 'Choque imediato', 'Manobra de Heimlich'],
+    o: ['Começar com 5 ventilações de resgate e depois compressões', 'Apenas compressões torácicas, sem ventilação', 'Choque elétrico imediato, em carga máxima', 'Manobra de Heimlich, para desobstruir a via aérea'],
     g: 'A',
     c: 'A causa é hipóxia. Referência: Bernoche C et al. Atualização da Diretriz de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência da SBC 2019. Arq Bras Cardiol. 2019;113(3):449-663.',
     x: { B: 'Insuficiente.', C: 'Se chocável, após ventilar.', D: 'Contraindicada.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Cadeia de sobrevivência',
     e: 'A cadeia de sobrevivência extra-hospitalar inclui:',
-    o: ['Acionamento do serviço de emergência, RCP precoce, desfibrilação rápida, suporte avançado, cuidados pós-PCR e recuperação', 'Apenas transporte rápido', 'Apenas medicações', 'Apenas desfibrilação'],
+    o: ['Acionar emergência, RCP precoce, desfibrilar, suporte avançado, pós-PCR', 'Apenas transporte rápido ao hospital mais próximo, sem manobras', 'Apenas medicações por via venosa, aplicadas pela equipe avançada', 'Apenas desfibrilação, realizada em ambiente hospitalar, por médicos'],
     g: 'A',
     c: 'Cada elo melhora a sobrevida. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Checagem de pulso',
     e: 'Profissional de saúde deve checar o pulso central por:',
-    o: ['No máximo 10 segundos, simultaneamente à respiração', '30 segundos', '1 minuto', 'Não deve checar'],
+    o: ['No máximo 10 s, junto da checagem da respiração', '30 segundos, após as compressões', '1 minuto, antes de iniciar as manobras', 'Não deve checar o pulso, em nenhuma situação'],
     g: 'A',
     c: 'Na dúvida, iniciar compressões. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Deve.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Compressão: posição',
     e: 'A posição das mãos nas compressões torácicas em adultos é:',
-    o: ['Na metade inferior do esterno', 'No processo xifoide', 'No lado esquerdo do tórax', 'No abdome'],
+    o: ['Metade inferior do esterno', 'Processo xifoide, sobre o epigástrio', 'Lado esquerdo do tórax, sobre o ápice cardíaco', 'Abdome, sobre a região epigástrica'],
     g: 'A',
     c: 'Evita fraturas e lesões. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Risco de lesão.', C: 'Menos eficaz.', D: 'Ineficaz.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Revezamento',
     e: 'Recomenda-se trocar o socorrista que faz compressões a cada:',
-    o: ['2 minutos, para evitar fadiga', '10 minutos', 'Nunca', '30 segundos'],
+    o: ['2 minutos, para evitar fadiga', '10 minutos, ou até a exaustão do socorrista', 'Nunca, pelo mesmo socorrista, até a chegada do socorro', '30 segundos, a cada ciclo de compressões'],
     g: 'A',
     c: 'A fadiga reduz a qualidade. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Fadiga.', C: 'Fadiga.', D: 'Muito frequente.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Ventilação excessiva',
     e: 'Durante a RCP, a ventilação excessiva:',
-    o: ['Aumenta a pressão intratorácica e reduz o retorno venoso, prejudicando a perfusão', 'Melhora a sobrevida', 'É recomendada', 'Não tem efeito'],
+    o: ['Eleva a pressão intratorácica e reduz o retorno venoso e a perfusão', 'Melhora a sobrevida, ao aumentar a oxigenação do sangue arterial', 'É recomendada durante toda a ressuscitação, em alta frequência', 'Não tem nenhum efeito sobre a hemodinâmica do paciente em parada'],
     g: 'A',
     c: 'Usar volume suficiente para elevar o tórax. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Prejudica.', C: 'Não.', D: 'Tem efeito.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Adrenalina em ritmo chocável',
     e: 'Em FV, a adrenalina é administrada:',
-    o: ['Após o segundo choque, e depois a cada 3 a 5 minutos', 'Antes do primeiro choque', 'Nunca', 'Somente após 30 minutos'],
+    o: ['Após o 2º choque, e a cada 3-5 minutos', 'Antes do primeiro choque, de imediato', 'Nunca se usa adrenalina na fibrilação ventricular', 'Somente após 30 minutos de ressuscitação'],
     g: 'A',
     c: 'O choque é a prioridade. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Choque primeiro.', C: 'É indicada.', D: 'Tardio.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Hipotermia acidental',
     e: 'Vítima de hipotermia grave em PCR. A recomendação é:',
-    o: ['Manter RCP e aquecimento, pois a vítima não é considerada morta até estar aquecida', 'Interromper após 5 minutos', 'Não fazer RCP', 'Dar adrenalina a cada minuto'],
+    o: ['Manter RCP e aquecer: só está morto quando aquecido', 'Interromper a RCP após 5 minutos de tentativas', 'Não fazer RCP, pois o prognóstico é ruim', 'Dar adrenalina a cada minuto, durante o aquecimento'],
     g: 'A',
     c: 'A hipotermia protege o cérebro. Referência: Bernoche C et al. Atualização da Diretriz de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência da SBC 2019. Arq Bras Cardiol. 2019;113(3):449-663.',
     x: { B: 'Precoce.', C: 'Inadequado.', D: 'Inadequado.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'TEP e PCR',
     e: 'PCR com forte suspeita de TEP maciço. Uma medida é:',
-    o: ['Trombólise durante a RCP, mantendo a RCP por mais tempo', 'Nunca trombolisar', 'Apenas adrenalina', 'Choque em assistolia'],
+    o: ['Trombólise durante a RCP, prolongando as compressões', 'Nunca fazer trombólise na parada cardíaca', 'Apenas adrenalina, a cada 3-5 minutos', 'Choque elétrico em assistolia, com carga máxima'],
     g: 'A',
     c: 'Manter RCP por 60 a 90 minutos após trombólise. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Pode ser indicada.', C: 'Insuficiente.', D: 'Não chocável.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Pneumotórax hipertensivo',
     e: 'Paciente em PCR após trauma torácico, com desvio de traqueia e ausência de murmúrio unilateral. A medida imediata é:',
-    o: ['Descompressão torácica por punção ou toracostomia', 'Adrenalina isolada', 'Choque', 'Intubação seletiva'],
+    o: ['Descompressão torácica por punção ou toracostomia', 'Adrenalina isolada, a cada 3-5 minutos', 'Choque elétrico, com carga máxima', 'Intubação seletiva, do brônquio direito'],
     g: 'A',
     c: 'É uma das causas reversíveis (T). Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Insuficiente.', C: 'Não chocável necessariamente.', D: 'Não resolve.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Tamponamento na PCR',
     e: 'PCR em paciente com suspeita de tamponamento. A conduta é:',
-    o: ['Pericardiocentese de emergência guiada por ultrassom', 'Choque', 'Apenas compressões', 'Diurético'],
+    o: ['Pericardiocentese de emergência guiada por ultrassom', 'Choque elétrico, com carga máxima e sincronizado', 'Apenas compressões torácicas, sem outras medidas', 'Diurético de alça IV, em dose alta'],
     g: 'A',
     c: 'O ultrassom à beira do leito ajuda. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Ineficaz.', C: 'Insuficiente.', D: 'Pioraria.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Ultrassom na PCR',
     e: 'O ultrassom à beira do leito na PCR é útil para:',
-    o: ['Identificar causas reversíveis, como tamponamento e pneumotórax, sem atrasar compressões', 'Substituir o monitor', 'Medir a glicemia', 'Avaliar fraturas'],
+    o: ['Achar causas reversíveis (tamponamento, pneumotórax) sem atrasar a RCP', 'Substituir o monitor cardíaco, que não é necessário durante a parada', 'Medir a glicemia capilar à beira do leito, durante as compressões', 'Avaliar fraturas costais, após o término das compressões torácicas'],
     g: 'A',
     c: 'Deve ser feito nas pausas de checagem. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Não substitui.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Encerramento da RCP',
     e: 'A decisão de encerrar a RCP considera:',
-    o: ['Duração, ritmo, causa, comorbidades, EtCO2 baixo persistente e ausência de causas reversíveis', 'Apenas a idade', 'Apenas 5 minutos', 'Apenas o pedido de um familiar ausente'],
+    o: ['Duração, ritmo, causa, comorbidades, EtCO2 baixo e causas reversíveis', 'Apenas a idade do paciente, considerada de forma isolada e absoluta', 'Apenas 5 minutos de ressuscitação, aplicados a todos os casos', 'Apenas o pedido de um familiar ausente, comunicado por telefone'],
     g: 'A',
     c: 'É decisão da equipe. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Insuficiente.', C: 'Precoce.', D: 'Insuficiente.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Lidocaína',
     e: 'A lidocaína pode ser usada na PCR por FV refratária na dose de:',
-    o: ['1 a 1,5 mg/kg, alternativa à amiodarona', '100 mg/kg', '10 mg fixos', '0,01 mg/kg'],
+    o: ['1-1,5 mg/kg, como alternativa à amiodarona', '100 mg/kg, em bolus único, por via venosa', '10 mg fixos, independentemente do peso', '0,01 mg/kg, em bolus único, por via venosa'],
     g: 'A',
     c: 'Estudo ALPS mostrou eficácia semelhante. Referência: Kudenchuk PJ et al. Amiodarone, Lidocaine, or Placebo in Out-of-Hospital Cardiac Arrest (ALPS). N Engl J Med. 2016;374(18):1711-22.',
     x: { B: 'Tóxica.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Vasopressina',
     e: 'Sobre a vasopressina na PCR, é correto afirmar:',
-    o: ['Não oferece vantagem sobre a adrenalina e foi retirada do algoritmo da AHA', 'É a droga de primeira escolha', 'Deve substituir a adrenalina', 'É obrigatória'],
+    o: ['Sem vantagem sobre a adrenalina; saiu do algoritmo da AHA', 'É o fármaco de primeira escolha na parada cardiorrespiratória', 'Deve substituir a adrenalina em todos os casos de parada cardíaca', 'É obrigatória em toda parada cardiorrespiratória, após o primeiro choque'],
     g: 'A',
     c: 'A adrenalina é a droga padrão. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Não é.', C: 'Não substitui.', D: 'Não é obrigatória.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Ritmo após choque',
     e: 'Após desfibrilação, o monitor mostra ritmo organizado. A conduta é:',
-    o: ['Retomar compressões por 2 minutos e então checar pulso', 'Checar pulso imediatamente por 30 segundos', 'Dar outro choque', 'Parar a RCP'],
+    o: ['Retomar compressões por 2 min e então checar o pulso', 'Checar o pulso imediatamente, por 30 segundos', 'Dar outro choque, de imediato, com carga maior', 'Parar a RCP, pois o ritmo está organizado'],
     g: 'A',
     c: 'A checagem é feita no ciclo de 2 minutos. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Atraso.', C: 'Sem indicação.', D: 'Prematuro.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'TV com pulso instável',
     e: 'Paciente com TV monomórfica, pulso presente, hipotensão e confusão. A conduta é:',
-    o: ['Cardioversão elétrica sincronizada', 'Desfibrilação não sincronizada', 'Adenosina', 'Observação'],
+    o: ['Cardioversão elétrica sincronizada', 'Desfibrilação não sincronizada, em carga máxima', 'Adenosina em bolus rápido, de 6 mg', 'Observação clínica, sem nenhuma intervenção'],
     g: 'A',
     c: 'Se polimórfica e instável, desfibrilação. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Usada sem pulso.', C: 'Ineficaz.', D: 'Risco.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Hipoglicemia pós-PCR',
     e: 'Após PCR, recomenda-se controle glicêmico:',
-    o: ['Evitando hipoglicemia e hiperglicemia acentuada (alvo geral de 140 a 180 mg/dL)', 'Abaixo de 70', 'Sem controle', 'Acima de 300'],
+    o: ['Evitar hipo e hiperglicemia acentuada (alvo 140-180 mg/dL)', 'Manter a glicemia abaixo de 70 mg/dL, de rotina', 'Não fazer nenhum controle da glicemia pós-PCR', 'Manter a glicemia acima de 300 mg/dL, sem tratar'],
     g: 'A',
     c: 'Hipoglicemia piora o prognóstico neurológico. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Prejudicial.', C: 'Prejudicial.', D: 'Prejudicial.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Convulsões pós-PCR',
     e: 'Paciente comatoso pós-PCR com abalos. A conduta é:',
-    o: ['Eletroencefalograma e tratamento das crises', 'Ignorar', 'Suspender sedação sem avaliar', 'Choque'],
+    o: ['EEG e tratamento das crises', 'Ignorar os abalos, pois são benignos', 'Suspender a sedação sem avaliar, e aguardar', 'Choque elétrico imediato, em carga máxima'],
     g: 'A',
     c: 'O EEG contínuo é recomendado quando possível. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Criança vs adulto',
     e: 'Diferença na PCR pediátrica em relação ao adulto é que:',
-    o: ['A causa mais comum é respiratória, e a relação é 15:2 com dois socorristas', 'A causa é sempre cardíaca', 'Não se usa adrenalina', 'A relação é sempre 30:2'],
+    o: ['Causa mais comum é respiratória; relação 15:2 com dois socorristas', 'A causa é sempre cardíaca, como no adulto', 'Não se usa adrenalina na parada pediátrica', 'A relação é sempre 30:2, independentemente do número de socorristas'],
     g: 'A',
     c: 'A dose de adrenalina é 0,01 mg/kg. Referência: Topjian AA et al. Part 4: Pediatric Basic and Advanced Life Support: 2020 AHA Guidelines. Circulation. 2020;142(16 Suppl 2):S469-523.',
     x: { B: 'Raramente cardíaca.', C: 'Usa-se.', D: 'Com dois socorristas é 15:2.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Leigo sem treinamento',
     e: 'Leigo sem treinamento em RCP deve:',
-    o: ['Fazer apenas compressões torácicas contínuas (hands-only)', 'Fazer apenas ventilações', 'Não fazer nada', 'Esperar a ambulância'],
+    o: ['Fazer só compressões contínuas (hands-only)', 'Fazer apenas ventilações, sem compressões', 'Não fazer nada, até a chegada do socorro', 'Esperar a ambulância, sem tocar na vítima'],
     g: 'A',
     c: 'A orientação por telefone ajuda. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Ineficaz.', C: 'Reduz sobrevida.', D: 'Atraso.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Drogas na via endotraqueal',
     e: 'Se usada a via endotraqueal na PCR, a dose da adrenalina é:',
-    o: ['2 a 2,5 vezes a dose intravenosa', 'A mesma', 'Metade', '10 vezes'],
+    o: ['2-2,5 vezes a dose IV', 'A mesma dose da via intravenosa', 'Metade da dose da via intravenosa', '10 vezes a dose da via intravenosa'],
     g: 'A',
     c: 'É a via menos preferida. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Absorção menor.', C: 'Insuficiente.', D: 'Excessiva.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'Morte encefálica e PCR',
     e: 'Após PCR, em paciente que evolui para coma profundo sem reflexos, a avaliação para morte encefálica segue:',
-    o: ['Protocolo nacional, com exames clínicos e complementar, após 24 horas na anóxia', 'Decisão imediata', 'Apenas pupilas', 'Apenas EEG'],
+    o: ['Protocolo nacional: exame clínico e complementar, após 24 h na anóxia', 'Decisão imediata, logo após o retorno da circulação espontânea', 'Apenas pelo exame das pupilas, realizado no primeiro dia pós-parada', 'Apenas pelo eletroencefalograma, realizado no primeiro dia pós-parada'],
     g: 'A',
     c: 'Referência: Conselho Federal de Medicina. Resolução CFM nº 2.173, de 23 de novembro de 2017.',
     x: { B: 'Precoce.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_PCR: QuestaoCompacta[] = [
   {
     s: 'ECMO na PCR',
     e: 'Sobre a ECMO na PCR refratária, é correto afirmar:',
-    o: ['Pode ser considerada em centros selecionados e pacientes selecionados (ECPR)', 'É rotina em todos', 'É contraindicada sempre', 'Substitui a RCP inicial'],
+    o: ['Considerar em centros e pacientes selecionados (ECPR)', 'É rotina em todos os pacientes em parada', 'É sempre contraindicada na parada refratária', 'Substitui a RCP inicial de alta qualidade'],
     g: 'A',
     c: 'Exige estrutura e seleção cuidadosa. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Não é rotina.', C: 'Pode ser usada.', D: 'Não substitui.' },

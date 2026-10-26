@@ -5,7 +5,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: clínica',
     e: 'Os sintomas mais comuns de TEP são:',
-    o: ['Dispneia súbita, dor torácica pleurítica e taquicardia', 'Febre alta e tosse produtiva', 'Dor abdominal', 'Cefaleia'],
+    o: ['Dispneia súbita, dor pleurítica e taquicardia', 'Febre alta, tosse produtiva e escarro purulento', 'Dor abdominal difusa, com náuseas e vômitos', 'Cefaleia holocraniana, com fotofobia e vômitos'],
     g: 'A',
     c: 'Pode haver síncope e hemoptise. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Pneumonia.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: probabilidade',
     e: 'O escore usado para estimar probabilidade clínica de TEP é:',
-    o: ['Wells ou Genebra revisado', 'CHA2DS2-VASc', 'CURB-65', 'HEART'],
+    o: ['Wells ou Genebra revisado', 'CHA2DS2-VASc, usado para risco de AVC na FA', 'CURB-65, usado para gravidade da pneumonia', 'HEART, usado para risco na dor torácica'],
     g: 'A',
     c: 'Orienta a escolha entre D-dímero e angiotomografia. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'FA.', C: 'Pneumonia.', D: 'Dor torácica coronariana.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'D-dímero',
     e: 'Paciente com baixa probabilidade clínica de TEP e D-dímero normal. A conduta é:',
-    o: ['TEP excluído, sem necessidade de imagem', 'Angiotomografia obrigatória', 'Anticoagulação empírica', 'Cintilografia'],
+    o: ['TEP excluído, sem necessidade de imagem', 'Angiotomografia obrigatória, mesmo com D-dímero normal', 'Anticoagulação empírica, até o resultado de imagem', 'Cintilografia V/Q, mesmo com D-dímero normal'],
     g: 'A',
     c: 'Na alta probabilidade, o D-dímero não deve ser usado; faz-se imagem direto. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Desnecessária.', C: 'Sem indicação.', D: 'Desnecessária.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'D-dímero: idade',
     e: 'Para pacientes acima de 50 anos, o ponto de corte do D-dímero ajustado é:',
-    o: ['Idade multiplicada por 10 microgramas/L', '500 fixo', '1.000 fixo', 'Idade multiplicada por 100'],
+    o: ['Idade × 10 µg/L', '500 µg/L, valor fixo para qualquer idade', '1.000 µg/L, valor fixo para qualquer idade', 'Idade × 100 µg/L, em pacientes acima de 50 anos'],
     g: 'A',
     c: 'Aumenta a especificidade em idosos. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Menos específico em idosos.', C: 'Não é o ajuste.', D: 'Excessivo.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: exame de imagem',
     e: 'O exame de escolha para confirmar TEP é:',
-    o: ['Angiotomografia de artérias pulmonares', 'Radiografia de tórax', 'Ultrassom abdominal', 'Eletrocardiograma'],
+    o: ['Angiotomografia de artérias pulmonares', 'Radiografia de tórax, em duas incidências', 'Ultrassom abdominal, com Doppler de aorta', 'Eletrocardiograma de repouso, com 12 derivações'],
     g: 'A',
     c: 'A cintilografia V/Q é alternativa em alergia a contraste, insuficiência renal ou gestação. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Inespecífica.', C: 'Sem relação.', D: 'Inespecífico.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP alto risco: tratamento',
     e: 'Paciente com TEP e choque, sem contraindicação. O tratamento é:',
-    o: ['Trombólise sistêmica, além de anticoagulação', 'Apenas anticoagulante oral', 'Filtro de veia cava isolado', 'Observação'],
+    o: ['Trombólise sistêmica, além da anticoagulação', 'Apenas anticoagulante oral, sem trombólise', 'Filtro de veia cava isolado, sem anticoagulação', 'Observação clínica, sem anticoagulação nem trombólise'],
     g: 'A',
     c: 'Embolectomia cirúrgica ou por cateter se contraindicada. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Insuficiente.', C: 'Não é primeiro.', D: 'Risco de morte.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP risco intermediário',
     e: 'Paciente com TEP normotenso, com disfunção de VD e troponina elevada. A conduta é:',
-    o: ['Anticoagulação com monitorização, reservando trombólise para deterioração', 'Trombólise imediata de rotina', 'Alta', 'Filtro de cava'],
+    o: ['Anticoagular e monitorizar; trombólise só se deteriorar', 'Trombólise imediata de rotina, em todos os casos', 'Alta hospitalar precoce, sem monitorização', 'Filtro de veia cava, sem anticoagulação plena'],
     g: 'A',
     c: 'Estudo PEITHO mostrou mais sangramento com trombólise de rotina. Referência: Meyer G et al. Fibrinolysis for patients with intermediate-risk pulmonary embolism (PEITHO). N Engl J Med. 2014;370(15):1402-11.',
     x: { B: 'Mais sangramento.', C: 'Risco.', D: 'Sem indicação.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP baixo risco',
     e: 'Paciente com TEP, PESI simplificado zero, sem disfunção de VD e boas condições sociais. A conduta pode ser:',
-    o: ['Tratamento ambulatorial com anticoagulante oral direto', 'Internação em UTI obrigatória', 'Trombólise', 'Filtro de cava'],
+    o: ['Tratamento ambulatorial com anticoagulante oral direto', 'Internação em UTI obrigatória, por 7 dias', 'Trombólise sistêmica, mesmo sem instabilidade', 'Filtro de veia cava, mesmo sem contraindicação'],
     g: 'A',
     c: 'Reduz custos sem aumentar eventos. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Desnecessária.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação: escolha',
     e: 'Na maioria dos pacientes com TEP, o anticoagulante de escolha é:',
-    o: ['Anticoagulante oral direto (apixabana, rivaroxabana, dabigatrana, edoxabana)', 'AAS', 'Clopidogrel', 'Heparina por 1 ano'],
+    o: ['ACOD (apixabana, rivaroxabana, dabigatrana ou edoxabana)', 'AAS em dose habitual, por via oral, de uso contínuo', 'Clopidogrel em dose habitual, por via oral, de uso contínuo', 'Heparina por 1 ano, por via subcutânea, em dose plena'],
     g: 'A',
     c: 'Exceções: SAF triplo positivo, gestação e insuficiência renal grave. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Inadequado.', C: 'Inadequado.', D: 'Não é o padrão.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP não provocado',
     e: 'Paciente com TEP não provocado, sem alto risco de sangramento. Após 3 meses de tratamento, a conduta é:',
-    o: ['Considerar anticoagulação prolongada (indefinida), com reavaliação periódica', 'Suspender sempre', 'Trocar por AAS obrigatório', 'Filtro de cava'],
+    o: ['Considerar anticoagulação prolongada, reavaliando o risco', 'Suspender sempre, pelo risco de sangramento do paciente', 'Trocar por AAS obrigatório, em dose habitual, por via oral', 'Colocar filtro de veia cava, de forma definitiva, em todos'],
     g: 'A',
     c: 'O risco de recorrência é alto. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Risco de recorrência.', C: 'Inferior.', D: 'Sem indicação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Câncer e trombose',
     e: 'Paciente com câncer ativo e TEP. As opções de anticoagulante incluem:',
-    o: ['Heparina de baixo peso molecular ou anticoagulantes diretos (apixabana, edoxabana, rivaroxabana), conforme risco de sangramento', 'Varfarina como primeira escolha', 'AAS', 'Nada'],
+    o: ['HBPM ou ACOD (apixabana, edoxabana, rivaroxabana)', 'Varfarina como primeira escolha, em dose habitual oral', 'AAS em dose habitual, como único antitrombótico', 'Nenhuma anticoagulação, apenas tratamento do câncer'],
     g: 'A',
     c: 'Cuidado com cânceres gastrointestinais pelo risco de sangramento com alguns diretos. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Inferior.', C: 'Insuficiente.', D: 'Risco.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Gestação e TEP',
     e: 'Gestante com TEP. O anticoagulante é:',
-    o: ['Heparina de baixo peso molecular', 'Varfarina', 'Rivaroxabana', 'Dabigatrana'],
+    o: ['Heparina de baixo peso molecular', 'Varfarina, que é teratogênica no 1º trimestre', 'Rivaroxabana, que atravessa a barreira placentária', 'Dabigatrana, que atravessa a barreira placentária'],
     g: 'A',
     c: 'Varfarina é teratogênica e anticoagulantes diretos não têm segurança. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Teratogênica.', C: 'Sem segurança.', D: 'Sem segurança.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Filtro de veia cava',
     e: 'O filtro de veia cava inferior é indicado em:',
-    o: ['TEP ou TVP aguda com contraindicação absoluta à anticoagulação', 'Todo TEP', 'Prevenção primária de rotina', 'TEP pequeno'],
+    o: ['TEP ou TVP aguda com contraindicação absoluta à anticoagulação', 'Todo paciente com TEP, de forma rotineira', 'Prevenção primária de rotina, em todos os internados', 'TEP pequeno, em paciente estável e sem comorbidades'],
     g: 'A',
     c: 'Deve ser retirado quando possível. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Não é rotina.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Trombofilia: investigação',
     e: 'Sobre investigar trombofilias após TEP, é correto afirmar:',
-    o: ['Não é rotina; considera-se em casos selecionados, como jovens com eventos não provocados e história familiar', 'É obrigatória em todos', 'Muda sempre a conduta', 'Deve ser feita durante a anticoagulação aguda'],
+    o: ['Não é de rotina; só em casos selecionados', 'É obrigatória em todos os pacientes com TEP, sem exceção', 'Muda sempre a conduta terapêutica do paciente tratado', 'Deve ser feita durante a anticoagulação aguda, de rotina'],
     g: 'A',
     c: 'Os resultados podem ser alterados na fase aguda. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Não é rotina.', C: 'Raramente muda.', D: 'Interferência.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TVP: diagnóstico',
     e: 'Paciente com edema e dor em panturrilha unilateral. O exame de escolha é:',
-    o: ['Ultrassom com Doppler venoso com compressão', 'Radiografia', 'D-dímero isolado em alta probabilidade', 'Flebografia de rotina'],
+    o: ['Ultrassom com Doppler venoso com compressão', 'Radiografia simples da perna acometida', 'D-dímero isolado, mesmo em alta probabilidade', 'Flebografia de rotina, em todos os casos'],
     g: 'A',
     c: 'Na baixa probabilidade, D-dímero normal exclui. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Sem relação.', C: 'Não exclui em alta probabilidade.', D: 'Invasivo.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TVP distal',
     e: 'TVP isolada de veias da panturrilha, sem sintomas graves nem fatores de risco de extensão. Uma opção é:',
-    o: ['Ultrassom seriado em 2 semanas ou anticoagulação', 'Trombólise', 'Filtro de cava', 'Nada sem acompanhamento'],
+    o: ['Ultrassom seriado em 2 semanas ou anticoagulação', 'Trombólise sistêmica, em dose plena', 'Filtro de veia cava, de forma definitiva', 'Nenhuma conduta e nenhum acompanhamento'],
     g: 'A',
     c: 'Muitos casos não estendem. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Risco.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Profilaxia de TEV',
     e: 'Paciente clínico internado com alto risco de TEV (escore de Pádua 4 ou mais) e sem sangramento. A conduta é:',
-    o: ['Profilaxia farmacológica com heparina de baixo peso molecular ou heparina não fracionada', 'Nada', 'Anticoagulação plena', 'AAS'],
+    o: ['Profilaxia com HBPM ou heparina não fracionada', 'Nenhuma profilaxia, pelo risco de sangramento', 'Anticoagulação plena, em dose terapêutica', 'AAS em dose habitual, como profilaxia isolada'],
     g: 'A',
     c: 'Profilaxia mecânica se houver contraindicação. Referência: Schünemann HJ et al. American Society of Hematology 2018 guidelines for management of venous thromboembolism: prophylaxis for hospitalized and nonhospitalized medical patients. Blood Adv. 2018;2(22):3198-225.',
     x: { B: 'Risco.', C: 'Excessivo.', D: 'Insuficiente.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'HIT',
     e: 'Paciente em uso de heparina há 7 dias com queda de 50% das plaquetas e nova trombose. O diagnóstico e a conduta são:',
-    o: ['Trombocitopenia induzida por heparina; suspender toda heparina e iniciar anticoagulante não heparínico', 'PTI; corticoide', 'Sepse; antibiótico', 'CIVD; plasma'],
+    o: ['TIH: suspender heparina e usar anticoagulante não heparínico', 'PTI, tratada com corticoide em dose alta, por via oral', 'Sepse, tratada com antibiótico de amplo espectro, IV', 'CIVD, tratada com plasma fresco congelado, em bolus'],
     g: 'A',
     c: 'Não transfundir plaquetas e evitar varfarina inicialmente. Referência: Cuker A et al. American Society of Hematology 2018 guidelines for management of venous thromboembolism: heparin-induced thrombocytopenia. Blood Adv. 2018;2(22):3360-92.',
     x: { B: 'Contexto diferente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: fatores de risco',
     e: 'São fatores de risco para tromboembolismo venoso:',
-    o: ['Cirurgia recente, imobilização, câncer, gestação, estrogênio, trombofilia e TEV prévio', 'Exercício físico', 'Hidratação adequada', 'Juventude'],
+    o: ['Cirurgia recente, imobilização, câncer, gestação, estrogênio, TEV prévio', 'Exercício físico regular, de intensidade moderada e frequente', 'Hidratação adequada, com boa ingestão diária de líquidos', 'Juventude, em pessoas sem comorbidades nem fatores associados'],
     g: 'A',
     c: 'A tríade de Virchow: estase, lesão endotelial e hipercoagulabilidade. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Protetor.', C: 'Protetor.', D: 'Menor risco.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Hipertensão pulmonar tromboembólica',
     e: 'Paciente com dispneia progressiva meses após TEP, com hipertensão pulmonar e defeitos de perfusão persistentes. O diagnóstico é:',
-    o: ['Hipertensão pulmonar tromboembólica crônica', 'Asma', 'DPOC', 'Ansiedade'],
+    o: ['Hipertensão pulmonar tromboembólica crônica', 'Asma brônquica, com crises de broncoespasmo', 'DPOC, com obstrução fixa ao fluxo aéreo', 'Ansiedade generalizada, com hiperventilação'],
     g: 'A',
     c: 'O tratamento de escolha é a endarterectomia pulmonar quando possível. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: ecocardiograma',
     e: 'No TEP de alto risco com paciente instável que não pode ir à tomografia, o exame útil à beira do leito é:',
-    o: ['Ecocardiograma mostrando disfunção de VD', 'Radiografia', 'Gasometria isolada', 'Hemograma'],
+    o: ['Ecocardiograma à beira do leito, com disfunção de VD', 'Radiografia de tórax portátil, no leito', 'Gasometria arterial isolada, com hipoxemia', 'Hemograma completo, com contagem de plaquetas'],
     g: 'A',
     c: 'Disfunção de VD justifica trombólise em instável. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Inespecífica.', C: 'Inespecífica.', D: 'Inespecífico.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: gasometria',
     e: 'A gasometria típica no TEP mostra:',
-    o: ['Hipoxemia, hipocapnia e alcalose respiratória', 'Hipercapnia', 'Acidose metabólica sempre', 'Normal sempre'],
+    o: ['Hipoxemia, hipocapnia e alcalose respiratória', 'Hipercapnia, com acidose respiratória', 'Acidose metabólica, em todos os casos', 'Gasometria normal, em todos os casos'],
     g: 'A',
     c: 'Pode ser normal em TEP pequeno. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Pouco comum.', C: 'Não é típico.', D: 'Pode ser, mas não é a regra.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: radiografia',
     e: 'Sinais radiológicos raros, mas clássicos, de TEP são:',
-    o: ['Sinal de Westermark (oligoemia) e corcova de Hampton (infarto em cunha)', 'Broncograma aéreo', 'Linhas B de Kerley', 'Pneumatoceles'],
+    o: ['Sinal de Westermark (oligoemia) e corcova de Hampton', 'Broncograma aéreo, típico de consolidação lobar', 'Linhas B de Kerley, típicas do edema intersticial', 'Pneumatoceles, típicas da pneumonia estafilocócica'],
     g: 'A',
     c: 'A radiografia geralmente é normal ou inespecífica. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Pneumonia.', C: 'Congestão.', D: 'Estafilococo.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: troponina e BNP',
     e: 'Troponina e BNP elevados no TEP indicam:',
-    o: ['Sobrecarga e lesão de VD, com pior prognóstico', 'Infarto coronariano', 'Melhora', 'Nada'],
+    o: ['Sobrecarga e lesão de VD, com pior prognóstico', 'Infarto coronariano associado, de parede inferior', 'Melhora do prognóstico, em curto prazo', 'Nenhum significado clínico, no TEP'],
     g: 'A',
     c: 'Ajudam na estratificação. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Não necessariamente.', C: 'O oposto.', D: 'Têm valor.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'PESI',
     e: 'O escore PESI no TEP é usado para:',
-    o: ['Estimar mortalidade em 30 dias e identificar pacientes de baixo risco', 'Diagnosticar TEP', 'Decidir trombólise isoladamente', 'Estimar sangramento'],
+    o: ['Estimar mortalidade em 30 dias e achar baixo risco', 'Diagnosticar o TEP, de forma definitiva', 'Decidir a trombólise, de forma isolada', 'Estimar o risco de sangramento do paciente'],
     g: 'A',
     c: 'PESI simplificado zero indica baixo risco. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Não diagnostica.', C: 'Não isoladamente.', D: 'Não é o objetivo.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Trombólise: contraindicações',
     e: 'É contraindicação absoluta à trombólise no TEP:',
-    o: ['AVC hemorrágico prévio, neoplasia intracraniana, cirurgia ou trauma craniano recente e sangramento ativo', 'Idade de 65 anos', 'Hipertensão controlada', 'Diabetes'],
+    o: ['AVC hemorrágico prévio, tumor intracraniano ou sangramento ativo', 'Idade de 65 anos, sem outras contraindicações associadas', 'Hipertensão arterial controlada com medicação habitual', 'Diabetes mellitus, mesmo com bom controle glicêmico'],
     g: 'A',
     c: 'Considerar terapia por cateter nesses casos. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Heparina não fracionada',
     e: 'A heparina não fracionada é preferível à de baixo peso molecular em:',
-    o: ['Pacientes instáveis candidatos a trombólise, insuficiência renal grave ou alto risco de sangramento', 'Todos os pacientes estáveis', 'Gestantes estáveis', 'Tratamento ambulatorial'],
+    o: ['Instáveis candidatos à trombólise, IRC grave ou alto risco de sangramento', 'Todos os pacientes estáveis, de forma rotineira e sem exceção', 'Gestantes estáveis, em tratamento ambulatorial, com bom seguimento', 'Tratamento ambulatorial, em pacientes estáveis e sem comorbidades'],
     g: 'A',
     c: 'Pode ser revertida rapidamente com protamina. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'HBPM preferida.', C: 'HBPM preferida.', D: 'Inadequado.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Anticoagulante direto: interações',
     e: 'Paciente em rivaroxabana inicia rifampicina. O problema é:',
-    o: ['Redução do efeito anticoagulante por indução enzimática', 'Aumento do efeito', 'Nenhum', 'Hipoglicemia'],
+    o: ['Redução do efeito anticoagulante por indução enzimática', 'Aumento do efeito anticoagulante, por inibição enzimática', 'Nenhuma interação clinicamente relevante entre os fármacos', 'Hipoglicemia, por interação medicamentosa grave'],
     g: 'A',
     c: 'Também carbamazepina e fenitoína. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'O oposto.', C: 'Há interação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Síndrome pós-trombótica',
     e: 'Paciente meses após TVP com dor, edema e hiperpigmentação da perna. O diagnóstico é:',
-    o: ['Síndrome pós-trombótica', 'Celulite', 'Linfedema primário', 'Insuficiência arterial'],
+    o: ['Síndrome pós-trombótica', 'Celulite bacteriana, com febre e leucocitose', 'Linfedema primário, de início na infância', 'Insuficiência arterial crônica, com claudicação'],
     g: 'A',
     c: 'Meias de compressão podem aliviar sintomas. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Sem febre.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Phlegmasia',
     e: 'Paciente com TVP iliofemoral extensa, perna muito edemaciada, cianótica e dolorosa, com risco de gangrena. O diagnóstico é:',
-    o: ['Phlegmasia cerulea dolens', 'Celulite', 'Erisipela', 'Linfedema'],
+    o: ['Phlegmasia cerulea dolens', 'Celulite bacteriana, com febre e eritema', 'Erisipela, com placa eritematosa de bordas nítidas', 'Linfedema crônico, sem dor nem cianose'],
     g: 'A',
     c: 'Exige trombólise ou trombectomia. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Sem febre.', C: 'Sem febre.', D: 'Sem relação.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEV e viagem',
     e: 'Para viagens longas, medida de prevenção de TEV em pessoas sem fatores de risco é:',
-    o: ['Deambular, hidratar e exercitar panturrilhas', 'Anticoagulação plena', 'AAS para todos', 'Nada'],
+    o: ['Deambular, hidratar e exercitar as panturrilhas', 'Anticoagulação plena, em todos os viajantes', 'AAS em dose habitual, para todos os viajantes', 'Nenhuma medida, pois o risco é desprezível'],
     g: 'A',
     c: 'Em alto risco, considerar meias ou profilaxia. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Excessivo.', C: 'Sem indicação.', D: 'Há medidas.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação e sangramento',
     e: 'Paciente anticoagulado com sangramento grave em uso de apixabana. O antídoto específico é:',
-    o: ['Andexanet alfa (ou complexo protrombínico se indisponível)', 'Vitamina K', 'Protamina', 'Idarucizumabe'],
+    o: ['Andexanet alfa (ou complexo protrombínico se indisponível)', 'Vitamina K, que é o antídoto da varfarina', 'Protamina, que é o antídoto da heparina', 'Idarucizumabe, que é o antídoto da dabigatrana'],
     g: 'A',
     c: 'Idarucizumabe reverte a dabigatrana. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Varfarina.', C: 'Heparina.', D: 'Dabigatrana.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP e cirurgia ortopédica',
     e: 'Após artroplastia de quadril, a profilaxia de TEV deve durar:',
-    o: ['Até cerca de 35 dias', '1 dia', '1 ano', 'Somente durante a internação'],
+    o: ['Até cerca de 35 dias', '1 dia apenas, no pós-operatório imediato', '1 ano completo, após a cirurgia', 'Somente durante a internação hospitalar'],
     g: 'A',
     c: 'Opções: HBPM, anticoagulantes diretos ou AAS em selecionados. Referência: Anderson DR et al. American Society of Hematology 2019 guidelines for management of venous thromboembolism: prevention in surgical hospitalized patients. Blood Adv. 2019;3(23):3898-944.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Insuficiente.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: cintilografia',
     e: 'A cintilografia de ventilação e perfusão é preferida à angiotomografia em:',
-    o: ['Gestantes, insuficiência renal e alergia grave a contraste', 'Pacientes instáveis', 'Todos', 'Ninguém'],
+    o: ['Gestantes, IRC e alergia grave a contraste', 'Pacientes instáveis hemodinamicamente, em ventilação mecânica', 'Todos os pacientes, de forma rotineira e sem exceção', 'Nenhum paciente, pois é um exame ultrapassado e pouco útil'],
     g: 'A',
     c: 'Também tem menor radiação mamária. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Instáveis exigem eco.', C: 'Não em todos.', D: 'Tem indicações.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP na gestação',
     e: 'Gestante com suspeita de TEP e sintomas em membro inferior. O primeiro exame pode ser:',
-    o: ['Ultrassom Doppler dos membros inferiores; se positivo, anticoagular sem irradiar', 'Angiotomografia de rotina', 'D-dímero isolado para excluir', 'Nada'],
+    o: ['Doppler de MMII; se positivo, anticoagular sem irradiar', 'Angiotomografia de rotina, como primeiro exame', 'D-dímero isolado, para excluir o diagnóstico', 'Nenhum exame, pois a gestação contraindica'],
     g: 'A',
     c: 'Algoritmos como YEARS adaptado reduzem imagens. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Pode ser evitada.', C: 'O D-dímero sobe na gestação.', D: 'Risco.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: síncope',
     e: 'Síncope em paciente com TEP indica:',
-    o: ['Maior gravidade, com possível obstrução extensa', 'Bom prognóstico', 'Sem relação', 'Ansiedade'],
+    o: ['Maior gravidade, com possível obstrução extensa', 'Bom prognóstico, com baixo risco de eventos', 'Sem relação com a gravidade do TEP', 'Ansiedade, sem relação com o TEP'],
     g: 'A',
     c: 'Avaliar sinais de instabilidade. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'O oposto.', C: 'Tem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Trombose em local incomum',
     e: 'Paciente com trombose de veia porta ou hepática sem causa aparente. Deve-se investigar:',
-    o: ['Neoplasias mieloproliferativas (JAK2), HPN e trombofilias', 'Apenas hepatite', 'Nada', 'Apenas álcool'],
+    o: ['Neoplasias mieloproliferativas (JAK2), HPN e trombofilias', 'Apenas hepatite viral, como única causa', 'Nada, pois a trombose é sempre idiopática', 'Apenas álcool, como única causa de trombose'],
     g: 'A',
     c: 'São tromboses em sítios incomuns. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Insuficiente.', C: 'Exige investigação.', D: 'Insuficiente.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: incidental',
     e: 'TEP subsegmentar isolado encontrado incidentalmente em paciente assintomático sem câncer. A conduta pode ser:',
-    o: ['Vigilância com ultrassom de membros, em vez de anticoagulação, em casos selecionados', 'Trombólise', 'Filtro de cava', 'Anticoagulação por toda a vida'],
+    o: ['Vigilância com US de membros, sem anticoagular, em selecionados', 'Trombólise sistêmica, mesmo sem nenhuma repercussão clínica', 'Filtro de veia cava, mesmo sem contraindicação à anticoagulação', 'Anticoagulação por toda a vida, em todos os casos, sem reavaliar'],
     g: 'A',
     c: 'Em pacientes com câncer, geralmente se trata. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Excessivo.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Anticoagulante e insuficiência renal grave',
     e: 'Paciente com TEP e clearance de creatinina de 20 mL/min. A opção mais segura é:',
-    o: ['Heparina não fracionada ou varfarina, conforme o caso', 'Dabigatrana', 'Rivaroxabana em dose plena sem ajuste', 'Edoxabana sem ajuste'],
+    o: ['Heparina não fracionada ou varfarina, conforme o caso', 'Dabigatrana, que tem eliminação predominantemente renal', 'Rivaroxabana em dose plena, sem ajuste renal', 'Edoxabana em dose plena, sem ajuste renal'],
     g: 'A',
     c: 'Os diretos exigem ajuste ou são contraindicados. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Contraindicada.', C: 'Risco.', D: 'Risco.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: recorrência',
     e: 'Fator associado a maior risco de recorrência de TEV após suspender anticoagulação é:',
-    o: ['Evento não provocado, sexo masculino, câncer e D-dímero elevado após suspensão', 'Evento provocado por cirurgia', 'Uso de estrogênio suspenso', 'Idade jovem com causa transitória'],
+    o: ['Evento não provocado, sexo masculino, câncer e D-dímero alto', 'Evento provocado por cirurgia, com fator transitório', 'Uso de estrogênio já suspenso, com fator transitório', 'Idade jovem com causa transitória, já resolvida'],
     g: 'A',
     c: 'Escores como HERDOO2 ajudam. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Menor risco.', C: 'Menor risco.', D: 'Menor risco.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Anticoncepcional e TEV',
     e: 'Mulher com TEP em uso de anticoncepcional combinado. A conduta é:',
-    o: ['Suspender o anticoncepcional com estrogênio e oferecer método sem estrogênio', 'Manter', 'Trocar por outro combinado', 'Nada'],
+    o: ['Suspender o estrogênio; oferecer método sem estrogênio', 'Manter o anticoncepcional, associado a anticoagulante', 'Trocar por outro anticoncepcional combinado', 'Nenhuma mudança, pois o risco é desprezível'],
     g: 'A',
     c: 'O estrogênio é fator de risco. Referência: Ortel TL et al. American Society of Hematology 2020 guidelines for management of venous thromboembolism. Blood Adv. 2020;4(19):4693-738.',
     x: { B: 'Risco.', C: 'Mesmo risco.', D: 'Risco.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: volume',
     e: 'No TEP com disfunção de VD e hipotensão, a reposição de volume deve ser:',
-    o: ['Cautelosa, em pequenas alíquotas, pois o excesso piora a dilatação do VD', 'Agressiva', 'Nenhuma', 'Sempre acima de 3 litros'],
+    o: ['Cautelosa, em pequenas alíquotas; excesso dilata o VD', 'Agressiva, com grandes volumes de cristaloide, em bolus', 'Nenhuma, pois o volume é sempre contraindicado no TEP', 'Sempre acima de 3 litros, na primeira hora de tratamento'],
     g: 'A',
     c: 'Vasopressor (noradrenalina) se necessário. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Piora o VD.', C: 'Pode ser útil em pequeno volume.', D: 'Piora.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'Wells: componentes',
     e: 'Componente do escore de Wells para TEP é:',
-    o: ['Sinais clínicos de TVP e TEP como diagnóstico mais provável', 'Febre', 'Leucocitose', 'Tosse produtiva'],
+    o: ['Sinais de TVP e TEP como diagnóstico mais provável', 'Febre persistente, associada à tosse', 'Leucocitose, associada à proteína C reativa', 'Tosse produtiva, associada ao escarro purulento'],
     g: 'A',
     c: 'Também: FC acima de 100, imobilização, TEV prévio, hemoptise e câncer. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Não faz parte.', C: 'Não faz parte.', D: 'Não faz parte.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_TEP: QuestaoCompacta[] = [
   {
     s: 'TEP: alta',
     e: 'Paciente com TEP de baixo risco recebendo alta deve ser orientado sobre:',
-    o: ['Adesão ao anticoagulante, sinais de sangramento e retorno se piorar', 'Suspender o anticoagulante se melhorar', 'Evitar caminhar', 'Nada'],
+    o: ['Adesão, sinais de sangramento e retorno se piorar', 'Suspender o anticoagulante se melhorar o quadro', 'Evitar caminhar, e manter repouso no leito', 'Nenhuma orientação específica é necessária'],
     g: 'A',
     c: 'A educação reduz complicações. Referência: Konstantinides SV et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543-603.',
     x: { B: 'Risco.', C: 'Prejudicial.', D: 'Risco.' },

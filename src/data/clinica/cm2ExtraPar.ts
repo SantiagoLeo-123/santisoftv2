@@ -13,7 +13,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia: causas',
     e: 'As duas causas mais comuns de hipercalcemia são:',
-    o: ['Hiperparatireoidismo primário e neoplasias', 'Hipotireoidismo e diabetes', 'Asma e DPOC', 'Insuficiência cardíaca e cirrose'],
+    o: ['Hiperparatireoidismo primário e neoplasias', 'Hipotireoidismo e diabetes mellitus descompensado', 'Asma brônquica e DPOC em fase avançada', 'Insuficiência cardíaca e cirrose hepática'],
     g: 'A',
     c: 'Primário em ambulatoriais; malignidade em internados. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo: indicação cirúrgica',
     e: 'É indicação de paratireoidectomia no hiperparatireoidismo primário assintomático:',
-    o: ['Cálcio acima de 1 mg/dL do limite superior, osteoporose, nefrolitíase, TFG abaixo de 60 ou idade abaixo de 50 anos', 'Cálcio normal', 'Idade de 70 anos isolada', 'PTH discretamente elevado sem outras alterações'],
+    o: ['Ca > 1 mg/dL do limite, osteoporose, litíase, TFG < 60 ou idade < 50', 'Cálcio sérico normal, com PTH discretamente elevado', 'Idade de 70 anos, de forma isolada, sem outro critério', 'PTH discretamente elevado, sem outras alterações associadas'],
     g: 'A',
     c: 'Sintomáticos devem ser operados. Referência: Bilezikian JP et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res. 2022;37(11):2293-314.',
     x: { B: 'Sem indicação.', C: 'Não isolado.', D: 'Não isolado.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia: sintomas',
     e: 'Sintomas de hipercalcemia incluem:',
-    o: ['Poliúria, constipação, náuseas, confusão, nefrolitíase e dor óssea', 'Tetania', 'Convulsões por hipocalcemia', 'Sinal de Chvostek'],
+    o: ['Poliúria, constipação, náuseas, confusão, nefrolitíase e dor óssea', 'Tetania, com espasmos musculares e parestesias periorais', 'Convulsões por hipocalcemia, com QT prolongado', 'Sinal de Chvostek, com contração facial à percussão'],
     g: 'A',
     c: 'Mnemônico: ossos, pedras, gemidos e transtornos psíquicos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Hipocalcemia.', C: 'Hipocalcemia.', D: 'Hipocalcemia.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia grave: tratamento',
     e: 'Paciente com cálcio de 14,5 mg/dL e confusão. O tratamento inicial é:',
-    o: ['Hidratação vigorosa com soro fisiológico, calcitonina e bisfosfonato intravenoso', 'Tiazídico', 'Suplemento de cálcio', 'Vitamina D'],
+    o: ['Hidratação vigorosa com SF, calcitonina e bisfosfonato IV', 'Diurético tiazídico, que reduz a excreção de cálcio', 'Suplemento de cálcio por via oral, em dose alta', 'Vitamina D em dose alta, por via oral ou venosa'],
     g: 'A',
     c: 'Denosumabe se insuficiência renal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia da malignidade',
     e: 'Paciente com câncer e hipercalcemia com PTH suprimido e PTHrP elevado. O mecanismo é:',
-    o: ['Hipercalcemia humoral da malignidade', 'Hiperparatireoidismo primário', 'Metástases sempre', 'Intoxicação por vitamina D'],
+    o: ['Hipercalcemia humoral da malignidade (PTHrP)', 'Hiperparatireoidismo primário, com PTH elevado', 'Metástases ósseas líticas, em todos os casos', 'Intoxicação por vitamina D, com PTH suprimido'],
     g: 'A',
     c: 'Comum em carcinomas escamosos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'PTH alto.', C: 'Mecanismo osteolítico.', D: 'Vitamina D alta.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipocalcemia',
     e: 'Paciente após tireoidectomia com parestesias periorais, cãibras e sinais de Chvostek e Trousseau. O diagnóstico e o tratamento são:',
-    o: ['Hipocalcemia por hipoparatireoidismo; gluconato de cálcio intravenoso se sintomático', 'Hipercalcemia; hidratação', 'Hipocalemia; potássio', 'Ansiedade'],
+    o: ['Hipocalcemia por hipoparatireoidismo; Ca IV se sintomático', 'Hipercalcemia pós-operatória, tratada com hidratação venosa vigorosa', 'Hipocalemia pós-operatória, tratada com reposição de potássio', 'Ansiedade pós-operatória, sem nenhuma alteração eletrolítica associada'],
     g: 'A',
     c: 'Corrigir também o magnésio. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo secundário',
     e: 'Paciente com doença renal crônica, cálcio baixo ou normal, fósforo alto e PTH elevado. O diagnóstico é:',
-    o: ['Hiperparatireoidismo secundário', 'Primário', 'Terciário', 'Hipoparatireoidismo'],
+    o: ['Hiperparatireoidismo secundário', 'Hiperparatireoidismo primário, por adenoma', 'Hiperparatireoidismo terciário, autônomo', 'Hipoparatireoidismo, por cirurgia cervical'],
     g: 'A',
     c: 'Tratamento: controle do fósforo, vitamina D ativa e calcimiméticos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Cálcio alto.', C: 'Cálcio alto autônomo.', D: 'PTH baixo.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo terciário',
     e: 'Paciente com DRC de longa data, transplantado, com cálcio alto e PTH muito alto autônomo. O diagnóstico é:',
-    o: ['Hiperparatireoidismo terciário', 'Secundário', 'Primário esporádico', 'Hipoparatireoidismo'],
+    o: ['Hiperparatireoidismo terciário', 'Hiperparatireoidismo secundário, com cálcio baixo', 'Hiperparatireoidismo primário esporádico, por adenoma', 'Hipoparatireoidismo, com cálcio baixo e PTH baixo'],
     g: 'A',
     c: 'Geralmente exige paratireoidectomia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Cálcio baixo.', C: 'Sem DRC.', D: 'PTH baixo.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipercalciúria hipocalciúrica familiar',
     e: 'Paciente com hipercalcemia leve, PTH discretamente elevado e cálcio urinário muito baixo, com história familiar. O diagnóstico é:',
-    o: ['Hipercalcemia hipocalciúrica familiar', 'Hiperparatireoidismo primário', 'Malignidade', 'Sarcoidose'],
+    o: ['Hipercalcemia hipocalciúrica familiar', 'Hiperparatireoidismo primário, com hipercalciúria', 'Malignidade, com PTH suprimido', 'Sarcoidose, com PTH suprimido'],
     g: 'A',
     c: 'Não se opera. Relação de clearance cálcio/creatinina abaixo de 0,01. Referência: Bilezikian JP et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res. 2022;37(11):2293-314.',
     x: { B: 'Calciúria alta.', C: 'PTH baixo.', D: 'PTH baixo.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'NEM 1',
     e: 'Paciente com hiperparatireoidismo, prolactinoma e tumor pancreático neuroendócrino. O diagnóstico é:',
-    o: ['Neoplasia endócrina múltipla tipo 1', 'NEM 2A', 'NEM 2B', 'Síndrome de Cushing'],
+    o: ['Neoplasia endócrina múltipla tipo 1', 'NEM 2A, com carcinoma medular e feocromocitoma', 'NEM 2B, com neuromas mucosos e hábito marfanoide', 'Síndrome de Cushing, de origem hipofisária'],
     g: 'A',
     c: 'Mutação no gene MEN1. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Medular e feocromocitoma.', C: 'Medular e neuromas.', D: 'Sem relação.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Insuficiência adrenal primária',
     e: 'Paciente com fadiga, perda de peso, hiperpigmentação, hipotensão, hiponatremia e hipercalemia. O diagnóstico é:',
-    o: ['Insuficiência adrenal primária (doença de Addison)', 'Cushing', 'Hiperaldosteronismo', 'Hipotireoidismo'],
+    o: ['Insuficiência adrenal primária (doença de Addison)', 'Síndrome de Cushing, com estrias e hipertensão', 'Hiperaldosteronismo primário, com hipocalemia', 'Hipotireoidismo primário, com TSH elevado'],
     g: 'A',
     c: 'A causa mais comum é autoimune. No Brasil, também tuberculose e paracoccidioidomicose. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'O oposto.', C: 'O oposto.', D: 'Sem hiperpigmentação.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Addison: diagnóstico',
     e: 'O exame que confirma insuficiência adrenal é:',
-    o: ['Cortisol baixo após estímulo com ACTH sintético (cortrosina)', 'Cortisol aleatório alto', 'Aldosterona alta', 'TSH'],
+    o: ['Cortisol baixo após ACTH sintético (cortrosina)', 'Cortisol aleatório alto, medido no período da manhã', 'Aldosterona sérica alta, com renina suprimida', 'TSH elevado, associado a T4 livre baixo'],
     g: 'A',
     c: 'Cortisol matinal muito baixo também sugere. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Exclui.', C: 'O oposto.', D: 'Sem relação.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Crise adrenal',
     e: 'Paciente com Addison em vômitos, hipotensão e choque. O tratamento é:',
-    o: ['Hidrocortisona 100 mg intravenosa e soro fisiológico com glicose', 'Apenas fludrocortisona', 'Apenas soro', 'Dexametasona após exames'],
+    o: ['Hidrocortisona 100 mg IV e SF com glicose', 'Apenas fludrocortisona, por via oral, em dose habitual', 'Apenas soro fisiológico, sem corticoide', 'Dexametasona apenas após o resultado dos exames'],
     g: 'A',
     c: 'Não atrasar para exames. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Atraso.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Insuficiência adrenal secundária',
     e: 'Paciente com uso crônico de prednisona suspensa abruptamente, com hipotensão e hiponatremia, sem hipercalemia nem hiperpigmentação. O diagnóstico é:',
-    o: ['Insuficiência adrenal secundária ou terciária', 'Addison primário', 'Hiperaldosteronismo', 'Cushing'],
+    o: ['Insuficiência adrenal secundária ou terciária', 'Doença de Addison primária, por adrenalite autoimune', 'Hiperaldosteronismo primário, com hipocalemia', 'Síndrome de Cushing, por excesso de cortisol'],
     g: 'A',
     c: 'A aldosterona é preservada. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Haveria hiperpigmentação.', C: 'O oposto.', D: 'O oposto.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Dose de estresse',
     e: 'Paciente com insuficiência adrenal em reposição que vai fazer cirurgia de grande porte. A conduta é:',
-    o: ['Aumentar a dose de hidrocortisona (dose de estresse)', 'Manter a mesma dose', 'Suspender', 'Trocar por fludrocortisona'],
+    o: ['Aumentar a hidrocortisona (dose de estresse)', 'Manter a mesma dose, sem ajuste para a cirurgia', 'Suspender o corticoide, no dia da cirurgia', 'Trocar por fludrocortisona, em dose habitual'],
     g: 'A',
     c: 'Também em doenças febris. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Risco de crise.', C: 'Risco.', D: 'Insuficiente.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Cushing: rastreio',
     e: 'Testes de rastreio para síndrome de Cushing incluem:',
-    o: ['Cortisol salivar noturno, cortisol urinário de 24 horas e teste de supressão com 1 mg de dexametasona', 'ACTH isolado', 'Aldosterona', 'TSH'],
+    o: ['Cortisol salivar noturno, urinário 24 h e supressão com 1 mg', 'ACTH plasmático isolado, sem prova de supressão', 'Aldosterona plasmática, com renina em repouso', 'TSH e T4 livre, para avaliar função tireoidiana'],
     g: 'A',
     c: 'Dois testes alterados confirmam. Referência: Nieman LK et al. The Diagnosis of Cushing Syndrome: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2008;93(5):1526-40.',
     x: { B: 'Para localizar.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Cushing: localização',
     e: 'Paciente com Cushing confirmado e ACTH elevado. A causa mais comum é:',
-    o: ['Doença de Cushing (adenoma hipofisário)', 'Adenoma adrenal', 'Carcinoma adrenal', 'Uso de corticoide'],
+    o: ['Doença de Cushing (adenoma hipofisário)', 'Adenoma adrenal, com ACTH suprimido', 'Carcinoma adrenal, com ACTH suprimido', 'Uso de corticoide exógeno, com ACTH suprimido'],
     g: 'A',
     c: 'ACTH baixo indica causa adrenal. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'ACTH baixo.', C: 'ACTH baixo.', D: 'ACTH baixo.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo primário',
     e: 'Hipertenso com hipocalemia, aldosterona elevada e renina suprimida. O diagnóstico é:',
-    o: ['Hiperaldosteronismo primário', 'Estenose de artéria renal', 'Feocromocitoma', 'Cushing'],
+    o: ['Hiperaldosteronismo primário', 'Estenose de artéria renal, com renina elevada', 'Feocromocitoma, com catecolaminas elevadas', 'Síndrome de Cushing, com cortisol elevado'],
     g: 'A',
     c: 'Confirmar com teste de supressão e localizar com tomografia e cateterismo de veias adrenais. Referência: Funder JW et al. The Management of Primary Aldosteronism. J Clin Endocrinol Metab. 2016;101(5):1889-916.',
     x: { B: 'Renina alta.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo: tratamento',
     e: 'Paciente com hiperaldosteronismo por hiperplasia adrenal bilateral. O tratamento é:',
-    o: ['Antagonista mineralocorticoide (espironolactona)', 'Adrenalectomia bilateral', 'Nada', 'Corticoide'],
+    o: ['Antagonista mineralocorticoide (espironolactona)', 'Adrenalectomia bilateral, como tratamento de escolha', 'Nenhum tratamento, apenas dieta com pouco sal', 'Corticoide em dose alta, por via oral contínua'],
     g: 'A',
     c: 'Adenoma unilateral é tratado com adrenalectomia. Referência: Funder JW et al. J Clin Endocrinol Metab. 2016;101(5):1889-916.',
     x: { B: 'Excessivo.', C: 'Exige.', D: 'Sem relação.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma: preparo',
     e: 'Paciente com feocromocitoma que será operado. O preparo pré-operatório é:',
-    o: ['Alfabloqueador (como doxazosina) por 10 a 14 dias, seguido de betabloqueador se taquicardia', 'Betabloqueador isolado primeiro', 'Nada', 'Diurético'],
+    o: ['Alfabloqueador por 10-14 dias, depois betabloqueador se taquicardia', 'Betabloqueador isolado primeiro, antes do alfabloqueio', 'Nenhum preparo específico, pois a cirurgia é curativa', 'Diurético de alça, em dose alta, antes da cirurgia'],
     g: 'A',
     c: 'Betabloqueio isolado pode causar crise hipertensiva. Referência: Lenders JWM et al. Pheochromocytoma and Paraganglioma: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014;99(6):1915-42.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Pioraria.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Incidentaloma adrenal',
     e: 'Paciente com nódulo adrenal de 2 cm descoberto incidentalmente na tomografia. A avaliação inclui:',
-    o: ['Teste de supressão com dexametasona 1 mg, metanefrinas e, se hipertenso, aldosterona e renina', 'Cirurgia imediata', 'Nada', 'Biópsia percutânea'],
+    o: ['Supressão com 1 mg de dexametasona, metanefrinas e aldosterona/renina se HAS', 'Cirurgia imediata, para retirada do nódulo adrenal, sem investigação prévia', 'Nenhuma investigação funcional, pois o achado incidental é sempre benigno', 'Biópsia percutânea guiada por tomografia, de rotina, em todos os nódulos'],
     g: 'A',
     c: 'Avaliar também características de imagem. Referência: Fassnacht M et al. European Society of Endocrinology clinical practice guidelines on the management of adrenal incidentalomas. Eur J Endocrinol. 2023;189(1):G1-42.',
     x: { B: 'Excessivo.', C: 'Exige avaliação.', D: 'Contraindicada antes de excluir feocromocitoma.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hiperplasia adrenal congênita',
     e: 'Mulher com hirsutismo, irregularidade menstrual e 17-hidroxiprogesterona elevada. A hipótese é:',
-    o: ['Hiperplasia adrenal congênita não clássica (deficiência de 21-hidroxilase)', 'SOP', 'Cushing', 'Tumor ovariano'],
+    o: ['HAC não clássica (deficiência de 21-hidroxilase)', 'Síndrome dos ovários policísticos, com 17-OH-progesterona normal', 'Síndrome de Cushing, com cortisol elevado e estrias violáceas', 'Tumor ovariano secretor de androgênios, com testosterona muito alta'],
     g: 'A',
     c: 'Confirmar com teste de estímulo com ACTH. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Diferencial, mas 17-OHP alta.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia: vitamina D',
     e: 'Paciente com sarcoidose e hipercalcemia com PTH suprimido. O mecanismo é:',
-    o: ['Produção de calcitriol pelos granulomas', 'PTH elevado', 'Lise óssea', 'Excesso de cálcio na dieta'],
+    o: ['Produção de calcitriol pelos granulomas', 'PTH elevado, por adenoma de paratireoide', 'Lise óssea por metástases, com PTH suprimido', 'Excesso de cálcio na dieta, de forma isolada'],
     g: 'A',
     c: 'Responde a corticoide. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'PTH suprimido.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Pseudo-hipoparatireoidismo',
     e: 'Paciente com hipocalcemia, hiperfosfatemia, PTH elevado, baixa estatura e encurtamento do quarto metacarpo. O diagnóstico é:',
-    o: ['Pseudo-hipoparatireoidismo (resistência ao PTH)', 'Hipoparatireoidismo', 'Hiperparatireoidismo', 'Deficiência de vitamina D'],
+    o: ['Pseudo-hipoparatireoidismo (resistência ao PTH)', 'Hipoparatireoidismo, com PTH baixo', 'Hiperparatireoidismo primário, com cálcio elevado', 'Deficiência de vitamina D, com fósforo baixo'],
     g: 'A',
     c: 'Osteodistrofia hereditária de Albright. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'PTH baixo.', C: 'Cálcio alto.', D: 'Fósforo baixo.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Cálcio corrigido',
     e: 'O cálcio total deve ser corrigido pela albumina porque:',
-    o: ['Cerca de 40% do cálcio está ligado à albumina, e a hipoalbuminemia reduz o cálcio total sem alterar o iônico', 'O cálcio não se liga a proteínas', 'A albumina eleva o cálcio iônico', 'Não há relação'],
+    o: ['~40% do Ca liga-se à albumina; hipoalbuminemia reduz o total, não o iônico', 'O cálcio não se liga às proteínas plasmáticas, circulando todo livre', 'A albumina eleva o cálcio iônico, de forma direta e proporcional', 'Não existe relação entre a albumina sérica e o cálcio total'],
     g: 'A',
     c: 'Fórmula: cálcio medido + 0,8 x (4 - albumina). Preferir cálcio iônico. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Liga-se.', C: 'Não.', D: 'Há relação.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipomagnesemia',
     e: 'Paciente com hipocalcemia refratária à reposição de cálcio. Deve-se dosar:',
-    o: ['Magnésio, pois a hipomagnesemia reduz secreção e ação do PTH', 'Potássio isolado', 'Sódio', 'Ferro'],
+    o: ['Magnésio: a hipomagnesemia reduz a secreção e a ação do PTH', 'Potássio isolado, pois a hipocalemia reduz o cálcio', 'Sódio sérico, pois a hiponatremia reduz o cálcio', 'Ferro sérico, pois a anemia ferropriva reduz o cálcio'],
     g: 'A',
     c: 'Corrigir o magnésio corrige o cálcio. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos relacionado.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hiperparatireoidismo: localização',
     e: 'Antes da paratireoidectomia, exames de localização incluem:',
-    o: ['Ultrassom cervical e cintilografia com sestamibi (ou tomografia 4D)', 'Radiografia de tórax', 'Ressonância de crânio', 'Endoscopia'],
+    o: ['Ultrassom cervical e cintilografia com sestamibi', 'Radiografia de tórax, em duas incidências, e eletrocardiograma', 'Ressonância magnética de crânio, com contraste, e campimetria', 'Endoscopia digestiva alta, com biópsias, e colonoscopia'],
     g: 'A',
     c: 'Não são usados para diagnóstico, apenas localização. Referência: Bilezikian JP et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res. 2022;37(11):2293-314.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Cinacalcete',
     e: 'O cinacalcete é um:',
-    o: ['Calcimimético que reduz a secreção de PTH', 'Bisfosfonato', 'Diurético', 'Análogo da vitamina D'],
+    o: ['Calcimimético que reduz a secreção de PTH', 'Bisfosfonato, que inibe a reabsorção óssea', 'Diurético de alça, que aumenta a calciúria', 'Análogo da vitamina D, que aumenta a absorção'],
     g: 'A',
     c: 'Útil em hiperparatireoidismo secundário e casos inoperáveis. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não.', C: 'Não.', D: 'Não.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma: clínica',
     e: 'A tríade clássica do feocromocitoma é:',
-    o: ['Cefaleia, sudorese e palpitações, com hipertensão', 'Febre, tosse e dispneia', 'Dor abdominal, diarreia e vômitos', 'Poliúria, polidipsia e perda de peso'],
+    o: ['Cefaleia, sudorese e palpitações, com hipertensão', 'Febre, tosse e dispneia, com infiltrado pulmonar', 'Dor abdominal, diarreia e vômitos, com desidratação', 'Poliúria, polidipsia e perda de peso, com hiperglicemia'],
     g: 'A',
     c: 'A hipertensão pode ser paroxística ou sustentada. Referência: Lenders JWM et al. Pheochromocytoma and Paraganglioma: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014;99(6):1915-42.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma: diagnóstico',
     e: 'O exame de rastreio de feocromocitoma é:',
-    o: ['Metanefrinas plasmáticas livres ou urinárias fracionadas', 'Catecolaminas urinárias totais isoladas', 'Cortisol', 'Renina'],
+    o: ['Metanefrinas plasmáticas livres ou urinárias fracionadas', 'Catecolaminas urinárias totais, dosadas de forma isolada', 'Cortisol sérico, às 8 horas da manhã', 'Renina plasmática, com aldosterona em repouso'],
     g: 'A',
     c: 'Após confirmação bioquímica, localizar com imagem. Referência: Lenders JWM et al. Pheochromocytoma and Paraganglioma: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014;99(6):1915-42.',
     x: { B: 'Menos sensível.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma: regra dos 10',
     e: 'Sobre o feocromocitoma, é correto afirmar atualmente:',
-    o: ['Cerca de 30 a 40% têm base genética hereditária, recomendando-se teste genético', 'É sempre esporádico', 'Nunca é maligno', 'Nunca é bilateral'],
+    o: ['30-40% são hereditários; recomenda-se teste genético', 'É sempre esporádico, sem base genética', 'Nunca é maligno, em nenhuma localização', 'Nunca é bilateral, mesmo nas formas hereditárias'],
     g: 'A',
     c: 'A antiga regra dos 10% subestima a herança. Referência: Lenders JWM et al. Pheochromocytoma and Paraganglioma: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2014;99(6):1915-42.',
     x: { B: 'Não.', C: 'Pode ser.', D: 'Pode ser.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Cushing iatrogênico',
     e: 'A causa mais comum de síndrome de Cushing é:',
-    o: ['Uso de glicocorticoides exógenos', 'Adenoma hipofisário', 'Adenoma adrenal', 'ACTH ectópico'],
+    o: ['Uso de glicocorticoides exógenos', 'Adenoma hipofisário, produtor de ACTH', 'Adenoma adrenal, produtor de cortisol', 'ACTH ectópico, por tumor neuroendócrino'],
     g: 'A',
     c: 'Inclui corticoides inalatórios, tópicos e intra-articulares. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Endógena mais comum.', C: 'Menos comum.', D: 'Raro.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Cushing: sinais específicos',
     e: 'Sinais mais específicos de Cushing incluem:',
-    o: ['Estrias violáceas largas, fragilidade capilar e fraqueza muscular proximal', 'Obesidade isolada', 'Hipertensão isolada', 'Acne'],
+    o: ['Estrias violáceas largas, fragilidade capilar, fraqueza proximal', 'Obesidade, de forma isolada, sem outros sinais', 'Hipertensão arterial, de forma isolada, sem outros sinais', 'Acne, de forma isolada, sem outros sinais'],
     g: 'A',
     c: 'Sinais comuns como obesidade são inespecíficos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Inespecífico.', C: 'Inespecífico.', D: 'Inespecífico.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Nelson',
     e: 'Paciente submetido a adrenalectomia bilateral por Cushing desenvolve hiperpigmentação e tumor hipofisário crescente. O diagnóstico é:',
-    o: ['Síndrome de Nelson', 'Addison', 'Acromegalia', 'Prolactinoma'],
+    o: ['Síndrome de Nelson', 'Doença de Addison, por insuficiência adrenal primária', 'Acromegalia, por adenoma hipofisário somatotrófico', 'Prolactinoma, com hiperprolactinemia'],
     g: 'A',
     c: 'Crescimento do adenoma sem feedback do cortisol. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem tumor.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Addison: tratamento',
     e: 'O tratamento de manutenção da insuficiência adrenal primária é:',
-    o: ['Hidrocortisona e fludrocortisona', 'Apenas fludrocortisona', 'Apenas dexametasona', 'Nada'],
+    o: ['Hidrocortisona e fludrocortisona', 'Apenas fludrocortisona, em dose habitual, por via oral', 'Apenas dexametasona, em dose habitual, por via oral', 'Nenhum tratamento, apenas acompanhamento clínico'],
     g: 'A',
     c: 'A fludrocortisona repõe o mineralocorticoide. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Insuficiente.', C: 'Sem mineralocorticoide.', D: 'Exige.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Addison: causas no Brasil',
     e: 'No Brasil, causas infecciosas de insuficiência adrenal incluem:',
-    o: ['Tuberculose, paracoccidioidomicose e infecções no HIV', 'Gripe', 'Asma', 'Rinite'],
+    o: ['Tuberculose, paracoccidioidomicose e infecções no HIV', 'Gripe, com síndrome respiratória aguda e febre', 'Asma brônquica, com crises de broncoespasmo', 'Rinite alérgica, com obstrução nasal e espirros'],
     g: 'A',
     c: 'A adrenalite autoimune é a mais comum. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hemorragia adrenal',
     e: 'Paciente anticoagulado com dor abdominal, hipotensão e insuficiência adrenal aguda. A causa pode ser:',
-    o: ['Hemorragia adrenal bilateral', 'Apendicite', 'Pancreatite', 'Gastrite'],
+    o: ['Hemorragia adrenal bilateral', 'Apendicite aguda, com dor em fossa ilíaca direita', 'Pancreatite aguda, com dor epigástrica e lipase alta', 'Gastrite aguda, com dor epigástrica e náuseas'],
     g: 'A',
     c: 'Também na meningococcemia (Waterhouse-Friderichsen). Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia e tiazídicos',
     e: 'Paciente em uso de hidroclorotiazida com cálcio levemente elevado. O tiazídico:',
-    o: ['Reduz a excreção urinária de cálcio, elevando o cálcio sérico', 'Aumenta a excreção de cálcio', 'Não altera o cálcio', 'Causa hipocalcemia'],
+    o: ['Reduz a calciúria, elevando o cálcio sérico', 'Aumenta a excreção urinária de cálcio', 'Não altera o cálcio sérico, em nenhuma dose', 'Causa hipocalcemia, por perda urinária de cálcio'],
     g: 'A',
     c: 'Pode desmascarar hiperparatireoidismo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Furosemida.', C: 'Altera.', D: 'O oposto.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Furosemida na hipercalcemia',
     e: 'Na hipercalcemia, a furosemida:',
-    o: ['Só deve ser usada após hidratação adequada, se houver hipervolemia', 'É primeira medida', 'Eleva o cálcio', 'É contraindicada sempre'],
+    o: ['Só após hidratação adequada, se houver hipervolemia', 'É a primeira medida, antes de qualquer hidratação', 'Eleva o cálcio sérico, por reduzir a calciúria', 'É sempre contraindicada na hipercalcemia'],
     g: 'A',
     c: 'Não é rotina. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é.', C: 'Reduz.', D: 'Pode ser usada.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Vitamina D e hipercalcemia',
     e: 'Intoxicação por vitamina D causa:',
-    o: ['Hipercalcemia com PTH suprimido e 25-hidroxivitamina D muito elevada', 'PTH elevado', 'Hipocalcemia', 'Nada'],
+    o: ['Hipercalcemia com PTH suprimido e 25-OH-vitamina D alta', 'PTH elevado, associado a cálcio sérico elevado e fósforo baixo', 'Hipocalcemia, associada a fósforo elevado e PTH elevado', 'Nenhuma alteração do metabolismo do cálcio, mesmo em dose alta'],
     g: 'A',
     c: 'Tratamento: suspender, hidratar e corticoide. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Suprimido.', C: 'O oposto.', D: 'Altera.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Síndrome leite-álcali',
     e: 'Paciente usando grande quantidade de carbonato de cálcio para dispepsia com hipercalcemia, alcalose metabólica e lesão renal. O diagnóstico é:',
-    o: ['Síndrome leite-álcali', 'Hiperparatireoidismo', 'Mieloma', 'Sarcoidose'],
+    o: ['Síndrome leite-álcali', 'Hiperparatireoidismo primário, por adenoma', 'Mieloma múltiplo, com lesões ósseas líticas', 'Sarcoidose, com produção de calcitriol'],
     g: 'A',
     c: 'Suspender o cálcio resolve. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'PTH alto.', C: 'Sem alcalose.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Carcinoma adrenal',
     e: 'Massa adrenal de 7 cm com produção de vários hormônios (cortisol e androgênios) e virilização rápida. A hipótese é:',
-    o: ['Carcinoma adrenocortical', 'Adenoma benigno', 'Feocromocitoma', 'Mielolipoma'],
+    o: ['Carcinoma adrenocortical', 'Adenoma adrenal benigno, geralmente menor que 4 cm', 'Feocromocitoma, com hipertensão paroxística', 'Mielolipoma, com tecido adiposo e hematopoiético'],
     g: 'A',
     c: 'Tamanho acima de 4 a 6 cm aumenta suspeita de malignidade. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Pequeno.', C: 'Catecolaminas.', D: 'Gordura e benigno.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipotireoidismo e adrenal',
     e: 'Paciente com insuficiência adrenal e hipotireoidismo não tratados. A ordem de reposição é:',
-    o: ['Corticoide primeiro, depois levotiroxina', 'Levotiroxina primeiro', 'Ambos juntos em dose plena', 'Nenhum'],
+    o: ['Corticoide primeiro, depois levotiroxina', 'Levotiroxina primeiro, antes do corticoide', 'Ambos juntos, em dose plena, desde o início', 'Nenhum dos dois, até a melhora clínica espontânea'],
     g: 'A',
     c: 'Repor tireoide primeiro pode precipitar crise adrenal. Referência: Bornstein SR et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(2):364-89.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Exige.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipofosfatemia',
     e: 'Causa de hipofosfatemia importante em pacientes desnutridos é:',
-    o: ['Síndrome de realimentação', 'Insuficiência renal', 'Hipoparatireoidismo', 'Rabdomiólise'],
+    o: ['Síndrome de realimentação', 'Insuficiência renal, que causa hiperfosfatemia', 'Hipoparatireoidismo, que causa hiperfosfatemia', 'Rabdomiólise, que causa hiperfosfatemia'],
     g: 'A',
     c: 'Repor fósforo e realimentar gradualmente. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Eleva fósforo.', C: 'Eleva fósforo.', D: 'Eleva fósforo.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_PAR: QuestaoCompacta[] = [
   {
     s: 'Hipoparatireoidismo: tratamento crônico',
     e: 'O tratamento crônico do hipoparatireoidismo é:',
-    o: ['Cálcio oral e calcitriol, mantendo cálcio no limite inferior normal', 'Apenas calcitonina', 'Apenas vitamina D comum sem cálcio', 'Nada'],
+    o: ['Cálcio oral e calcitriol, com Ca no limite inferior', 'Apenas calcitonina, por via subcutânea', 'Apenas vitamina D comum, sem cálcio oral', 'Nenhum tratamento, apenas acompanhamento clínico'],
     g: 'A',
     c: 'Evitar hipercalciúria. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Insuficiente.', D: 'Exige.' },

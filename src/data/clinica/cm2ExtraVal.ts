@@ -13,7 +13,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica: tratamento',
     e: 'Paciente de 82 anos com estenose aórtica grave sintomática e alto risco cirúrgico. A opção preferida é:',
-    o: ['Implante transcateter de valva aórtica (TAVI)', 'Tratamento clínico isolado', 'Valvoplastia por balão definitiva', 'Nada'],
+    o: ['TAVI (implante transcateter de valva aórtica)', 'Tratamento clínico isolado, sem intervenção valvar', 'Valvoplastia por balão como solução definitiva', 'Nenhuma intervenção, por causa da idade avançada'],
     g: 'A',
     c: 'Em pacientes mais jovens e de baixo risco, cirurgia ou TAVI conforme equipe. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Prognóstico ruim.', C: 'Temporária.', D: 'Alta mortalidade.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica: critérios',
     e: 'Estenose aórtica grave é definida por:',
-    o: ['Área valvar menor que 1 cm², gradiente médio de 40 mmHg ou mais e velocidade máxima de 4 m/s ou mais', 'Área de 2,5 cm²', 'Gradiente de 10 mmHg', 'Velocidade de 2 m/s'],
+    o: ['Área < 1 cm², gradiente médio ≥ 40 mmHg e velocidade ≥ 4 m/s', 'Área valvar de 2,5 cm², considerada normal', 'Gradiente médio de 10 mmHg, considerado leve', 'Velocidade máxima de 2 m/s, considerada normal'],
     g: 'A',
     c: 'Atenção à estenose de baixo fluxo e baixo gradiente. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Leve.', C: 'Leve.', D: 'Leve.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Estenose mitral: tratamento',
     e: 'Paciente com estenose mitral grave sintomática e anatomia favorável (escore de Wilkins baixo). O tratamento de escolha é:',
-    o: ['Valvoplastia mitral percutânea por balão', 'Troca valvar obrigatória', 'Tratamento clínico isolado', 'Digoxina'],
+    o: ['Valvoplastia mitral percutânea por balão', 'Troca valvar cirúrgica obrigatória, em todos os casos', 'Tratamento clínico isolado, sem intervenção valvar', 'Digoxina isolada, em dose habitual de manutenção'],
     g: 'A',
     c: 'Contraindicada com trombo no átrio ou insuficiência mitral moderada a grave. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Não obrigatória.', C: 'Prognóstico ruim.', D: 'Sintomático.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Prolapso de valva mitral',
     e: 'Mulher jovem com clique mesossistólico seguido de sopro tardio. O diagnóstico é:',
-    o: ['Prolapso de valva mitral', 'Estenose aórtica', 'CIA', 'Pericardite'],
+    o: ['Prolapso de valva mitral', 'Estenose aórtica, com sopro sistólico ejetivo', 'Comunicação interatrial, com desdobramento fixo de B2', 'Pericardite aguda, com atrito pericárdico'],
     g: 'A',
     c: 'Na maioria é benigno. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Sopro ejetivo.', C: 'Desdobramento fixo.', D: 'Atrito.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Insuficiência mitral: cirurgia',
     e: 'Paciente com insuficiência mitral primária grave assintomática, FEVE de 55% e diâmetro sistólico do VE de 42 mm. A conduta é:',
-    o: ['Indicar cirurgia, preferencialmente plástica mitral', 'Observação apenas', 'Diurético isolado', 'Nada'],
+    o: ['Indicar cirurgia, de preferência plástica mitral', 'Apenas observação clínica, sem cirurgia', 'Diurético isolado, em dose habitual', 'Nenhuma conduta, pelo paciente ser assintomático'],
     g: 'A',
     c: 'Indicações: FEVE de 60% ou menos ou diâmetro sistólico de 40 mm ou mais. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Atraso prejudicial.', C: 'Insuficiente.', D: 'Exige.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Febre reumática: profilaxia',
     e: 'Paciente com valvopatia reumática deve receber:',
-    o: ['Profilaxia secundária com penicilina benzatina', 'Nenhuma profilaxia', 'Antibiótico diário vitalício para todos', 'Apenas AAS'],
+    o: ['Profilaxia secundária com penicilina benzatina', 'Nenhuma profilaxia, após o primeiro episódio', 'Antibiótico diário vitalício, para todos os pacientes', 'Apenas AAS, em dose habitual, de forma contínua'],
     g: 'A',
     c: 'A duração depende da gravidade. Referência: Sociedade Brasileira de Cardiologia. Diretrizes Brasileiras para o Diagnóstico, Tratamento e Prevenção da Febre Reumática. Arq Bras Cardiol. 2009;93(3 Suppl 4):1-18.',
     x: { B: 'Risco de recorrência.', C: 'Não é o esquema.', D: 'Sem efeito.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Prótese mecânica',
     e: 'Paciente com prótese mecânica mitral. A anticoagulação é:',
-    o: ['Varfarina com INR alvo de 2,5 a 3,5', 'Rivaroxabana', 'AAS isolado', 'Nenhuma'],
+    o: ['Varfarina, com INR alvo de 2,5-3,5', 'Rivaroxabana, que é contraindicada nas próteses mecânicas', 'AAS isolado, que é insuficiente nas próteses mecânicas', 'Nenhuma anticoagulação, após a cirurgia'],
     g: 'A',
     c: 'Anticoagulantes diretos aumentam trombose de prótese. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Contraindicada.', C: 'Insuficiente.', D: 'Risco.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Pericardite aguda',
     e: 'Paciente com dor torácica que melhora ao sentar e inclinar para frente, atrito pericárdico e supra de ST difuso com infra de PR. O diagnóstico é:',
-    o: ['Pericardite aguda', 'Infarto', 'TEP', 'Dissecção'],
+    o: ['Pericardite aguda', 'Infarto agudo do miocárdio, com dor em aperto', 'Tromboembolia pulmonar, com dor pleurítica', 'Dissecção aguda de aorta, com dor lancinante'],
     g: 'A',
     c: 'A causa mais comum é viral ou idiopática. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Supra localizado.', C: 'Sem esse padrão.', D: 'Dor lancinante.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Pericardite: tratamento',
     e: 'O tratamento da pericardite aguda idiopática é:',
-    o: ['AINE ou AAS em dose alta com colchicina por 3 meses', 'Corticoide como primeira linha', 'Antibiótico', 'Anticoagulação'],
+    o: ['AINE ou AAS em dose alta com colchicina por 3 meses', 'Corticoide como primeira linha, em dose alta', 'Antibiótico de amplo espectro, por via venosa', 'Anticoagulação plena, com heparina em infusão'],
     g: 'A',
     c: 'A colchicina reduz recorrência. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Aumenta recorrência.', C: 'Sem infecção.', D: 'Contraindicada.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Tamponamento cardíaco',
     e: 'Paciente com hipotensão, turgência jugular e abafamento de bulhas. O diagnóstico e a conduta são:',
-    o: ['Tamponamento cardíaco; pericardiocentese de urgência', 'IC; diurético', 'TEP; trombólise', 'Pneumotórax; drenagem'],
+    o: ['Tamponamento cardíaco; pericardiocentese de urgência', 'IC descompensada; diurético de alça venoso', 'TEP maciço; trombólise sistêmica', 'Pneumotórax hipertensivo; drenagem torácica'],
     g: 'A',
     c: 'A tríade de Beck e o pulso paradoxal são clássicos. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Pioraria.', C: 'Sem esse padrão.', D: 'Sem esse padrão.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Pericardite constritiva',
     e: 'Paciente com ascite, edema, turgência jugular com sinal de Kussmaul e calcificação pericárdica, após tuberculose. O diagnóstico é:',
-    o: ['Pericardite constritiva', 'Cirrose', 'IC sistólica', 'Tamponamento agudo'],
+    o: ['Pericardite constritiva', 'Cirrose hepática, com hipertensão portal', 'Insuficiência cardíaca sistólica, com FE reduzida', 'Tamponamento cardíaco agudo, com hipotensão'],
     g: 'A',
     c: 'O tratamento definitivo é a pericardiectomia. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Sem turgência jugular.', C: 'Sem calcificação.', D: 'Agudo.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia dilatada',
     e: 'Paciente com IC, dilatação de VE e FEVE de 25%, coronárias normais. As causas incluem:',
-    o: ['Genética, alcoólica, viral, periparto, taquicardiomiopatia e quimioterapia', 'Hipertensão leve sempre', 'Asma', 'Diabetes isolado sempre'],
+    o: ['Genética, álcool, vírus, periparto, taquicardia e quimioterapia', 'Hipertensão leve, em todos os casos de cardiomiopatia dilatada', 'Asma brônquica, em todos os casos de cardiomiopatia dilatada', 'Diabetes isolado, em todos os casos de cardiomiopatia dilatada'],
     g: 'A',
     c: 'Investigação inclui ressonância cardíaca. Referência: Arbelo E et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J. 2023;44(37):3503-626.',
     x: { B: 'Não sempre.', C: 'Sem relação.', D: 'Não sempre.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia hipertrófica: tratamento',
     e: 'Tratamento sintomático da cardiomiopatia hipertrófica obstrutiva inclui:',
-    o: ['Betabloqueador ou verapamil, e mavacamten em casos selecionados', 'Nitrato', 'Diurético em dose alta', 'Digoxina'],
+    o: ['Betabloqueador ou verapamil; mavacamten em selecionados', 'Nitrato oral, que piora a obstrução da via de saída', 'Diurético em dose alta, que piora a obstrução ao fluxo', 'Digoxina em dose habitual, que piora a obstrução ao fluxo'],
     g: 'A',
     c: 'Vasodilatadores pioram a obstrução. Referência: Arbelo E et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J. 2023;44(37):3503-626.',
     x: { B: 'Piora a obstrução.', C: 'Piora.', D: 'Piora.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Valvopatia e gestação',
     e: 'Gestante com estenose mitral grave e congestão. O tratamento inicial é:',
-    o: ['Betabloqueador e diurético, com valvoplastia se refratária', 'Interrupção da gestação obrigatória', 'IECA', 'Digoxina isolada'],
+    o: ['Betabloqueador e diurético; valvoplastia se refratária', 'Interrupção da gestação, obrigatória em todos os casos', 'IECA em dose habitual, contraindicado na gestação', 'Digoxina isolada, em dose habitual de manutenção'],
     g: 'A',
     c: 'A gestação aumenta FC e volemia. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Não obrigatória.', C: 'Contraindicado.', D: 'Insuficiente.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica: manobras',
     e: 'Na estenose aórtica, o sopro:',
-    o: ['Diminui com a manobra de Valsalva, diferentemente da cardiomiopatia hipertrófica', 'Aumenta com Valsalva', 'É diastólico', 'Irradia para axila'],
+    o: ['Diminui com Valsalva, ao contrário da CMH', 'Aumenta com a manobra de Valsalva, como na CMH', 'É diastólico, com irradiação para o ápice cardíaco', 'Irradia para a axila, como na insuficiência mitral'],
     g: 'A',
     c: 'Na cardiomiopatia hipertrófica, aumenta. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'CMH.', C: 'Sistólico.', D: 'Mitral.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Endocardite e prótese',
     e: 'Paciente com prótese valvar com febre persistente. A hipótese a excluir primeiro é:',
-    o: ['Endocardite infecciosa', 'Gripe', 'Sinusite', 'Ansiedade'],
+    o: ['Endocardite infecciosa', 'Gripe, com quadro respiratório agudo', 'Sinusite aguda, com dor facial e rinorreia', 'Ansiedade generalizada, com sintomas vagos'],
     g: 'A',
     c: 'Hemoculturas e ecocardiograma transesofágico. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Risco.', C: 'Menos provável.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Insuficiência tricúspide',
     e: 'Paciente com sopro holossistólico em borda esternal esquerda baixa que aumenta na inspiração (Rivero-Carvallo). O diagnóstico é:',
-    o: ['Insuficiência tricúspide', 'Insuficiência mitral', 'Estenose aórtica', 'CIV'],
+    o: ['Insuficiência tricúspide', 'Insuficiência mitral, com sopro apical irradiado para axila', 'Estenose aórtica, com sopro irradiado para o pescoço', 'Comunicação interventricular, com frêmito palpável'],
     g: 'A',
     c: 'Geralmente secundária à hipertensão pulmonar. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Não aumenta na inspiração.', C: 'Ejetivo.', D: 'Não varia.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Derrame pericárdico',
     e: 'Causas de derrame pericárdico incluem:',
-    o: ['Pericardite, hipotireoidismo, uremia, neoplasia e tuberculose', 'Asma', 'Hipertensão leve', 'Gastrite'],
+    o: ['Pericardite, hipotireoidismo, uremia, neoplasia, tuberculose', 'Asma brônquica, em crises frequentes e graves', 'Hipertensão leve, bem controlada com medicação', 'Gastrite crônica, por infecção por Helicobacter pylori'],
     g: 'A',
     c: 'O ecocardiograma confirma e avalia repercussão. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Pericardite urêmica',
     e: 'Paciente em diálise inadequada com pericardite. O tratamento é:',
-    o: ['Intensificar a diálise', 'AINE isolado', 'Corticoide', 'Cirurgia imediata'],
+    o: ['Intensificar a diálise', 'AINE isolado, em dose alta, por via oral', 'Corticoide em dose alta, por via oral', 'Cirurgia imediata, com pericardiectomia'],
     g: 'A',
     c: 'É indicação de diálise na DRC. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Insuficiente.', C: 'Sem indicação.', D: 'Não primeiro.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Estenose aórtica: etiologia',
     e: 'A causa mais comum de estenose aórtica em idosos é:',
-    o: ['Degeneração calcífica', 'Febre reumática', 'Endocardite', 'Congênita sempre'],
+    o: ['Degeneração calcífica', 'Febre reumática, mais comum em jovens', 'Endocardite infecciosa prévia, de qualquer valva', 'Valva bicúspide congênita, sempre'],
     g: 'A',
     c: 'Em pacientes mais jovens, valva bicúspide. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Menos comum em idosos.', C: 'Rara.', D: 'Bicúspide em jovens.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Valva bicúspide',
     e: 'Paciente com valva aórtica bicúspide deve ser acompanhado também por risco de:',
-    o: ['Dilatação e dissecção da aorta ascendente', 'Estenose mitral', 'Pericardite', 'Insuficiência tricúspide'],
+    o: ['Dilatação e dissecção da aorta ascendente', 'Estenose mitral, de origem reumática', 'Pericardite recorrente, com derrame', 'Insuficiência tricúspide, de origem congênita'],
     g: 'A',
     c: 'Também associa-se à coarctação. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Insuficiência aórtica: tratamento clínico',
     e: 'Na insuficiência aórtica crônica grave com hipertensão, aguardando cirurgia, podem ser usados:',
-    o: ['Vasodilatadores (IECA, BRA ou di-hidropiridínicos)', 'Betabloqueador em dose alta', 'Nitrato isolado', 'Nada'],
+    o: ['Vasodilatadores (IECA, BRA ou di-hidropiridínicos)', 'Betabloqueador em dose alta, que alonga a diástole', 'Nitrato isolado, em dose habitual', 'Nenhum tratamento, até a cirurgia'],
     g: 'A',
     c: 'Bradicardia aumenta o tempo de regurgitação. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Pode piorar.', C: 'Insuficiente.', D: 'Exige.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Escore de Wilkins',
     e: 'O escore de Wilkins avalia:',
-    o: ['Anatomia da valva mitral para valvoplastia por balão', 'Risco de endocardite', 'Gravidade da estenose aórtica', 'Função do VD'],
+    o: ['Anatomia da valva mitral para a valvoplastia', 'Risco de desenvolver endocardite infecciosa', 'Gravidade da estenose aórtica degenerativa', 'Função sistólica do ventrículo direito'],
     g: 'A',
     c: 'Escore de 8 ou menos é favorável. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Hemoptise e estenose mitral',
     e: 'Paciente com estenose mitral e hemoptise. O mecanismo é:',
-    o: ['Hipertensão venocapilar pulmonar com ruptura de veias brônquicas', 'Infarto pulmonar sempre', 'Câncer', 'Tuberculose'],
+    o: ['Hipertensão venocapilar e ruptura de veias brônquicas', 'Infarto pulmonar por embolia, em todos os casos', 'Câncer de pulmão associado, em todos os casos', 'Tuberculose pulmonar associada, em todos os casos'],
     g: 'A',
     c: 'Indica gravidade. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Nem sempre.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Rouquidão e estenose mitral',
     e: 'Paciente com estenose mitral grave e rouquidão. A causa é:',
-    o: ['Compressão do nervo laríngeo recorrente pelo átrio esquerdo aumentado (síndrome de Ortner)', 'Laringite', 'Câncer de laringe sempre', 'Refluxo'],
+    o: ['Compressão do laríngeo recorrente pelo AE (Ortner)', 'Laringite aguda, por infecção viral das vias aéreas', 'Câncer de laringe associado, em todos os casos', 'Refluxo gastroesofágico, com laringite crônica associada'],
     g: 'A',
     c: 'É sinal clássico. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Sem relação.', C: 'Nem sempre.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Prótese: biológica',
     e: 'Sobre próteses biológicas, é correto afirmar:',
-    o: ['Dispensam anticoagulação crônica após os primeiros meses, mas têm menor durabilidade', 'Exigem varfarina para sempre', 'Duram mais que as mecânicas', 'São contraindicadas em idosos'],
+    o: ['Dispensam anticoagulação crônica, mas duram menos', 'Exigem varfarina para sempre, em todos os casos', 'Duram mais que as próteses mecânicas', 'São contraindicadas em idosos, em qualquer situação'],
     g: 'A',
     c: 'Preferidas em idosos e quem não pode anticoagular. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Não para sempre.', C: 'Menor durabilidade.', D: 'Preferidas em idosos.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Miocardite: tratamento',
     e: 'Paciente com miocardite viral e IC. O tratamento é:',
-    o: ['Tratamento da IC e restrição de atividade física por 3 a 6 meses', 'Corticoide para todos', 'Antibiótico', 'Nada'],
+    o: ['Tratar a IC e restringir atividade física por 3-6 meses', 'Corticoide para todos os pacientes', 'Antibiótico de amplo espectro, por via venosa', 'Nenhum tratamento específico, apenas repouso'],
     g: 'A',
     c: 'Formas específicas (células gigantes, eosinofílica) exigem imunossupressão. Referência: Arbelo E et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J. 2023;44(37):3503-626.',
     x: { B: 'Não para todos.', C: 'Sem infecção bacteriana.', D: 'Exige.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Atleta e cardiomiopatia',
     e: 'Atleta com hipertrofia ventricular. Achados que favorecem cardiomiopatia hipertrófica em vez de coração de atleta são:',
-    o: ['Hipertrofia assimétrica acima de 15 mm, cavidade pequena e disfunção diastólica', 'Hipertrofia simétrica leve com cavidade aumentada', 'Bradicardia sinusal', 'Regressão com destreinamento'],
+    o: ['Hipertrofia assimétrica > 15 mm, cavidade pequena e disfunção diastólica', 'Hipertrofia simétrica leve, com cavidade aumentada, em atleta treinado', 'Bradicardia sinusal, comum em atletas bem treinados', 'Regressão da hipertrofia com o destreinamento do atleta'],
     g: 'A',
     c: 'O destreinamento ajuda a diferenciar. Referência: Arbelo E et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J. 2023;44(37):3503-626.',
     x: { B: 'Atleta.', C: 'Atleta.', D: 'Atleta.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia hipertrófica: morte súbita',
     e: 'Fator de risco para morte súbita na cardiomiopatia hipertrófica é:',
-    o: ['Espessura de parede de 30 mm ou mais, síncope inexplicada e história familiar de morte súbita', 'Idade acima de 60 anos', 'Hipertensão', 'Sopro suave'],
+    o: ['Parede ≥ 30 mm, síncope inexplicada ou morte súbita familiar', 'Idade acima de 60 anos, considerada de forma isolada', 'Hipertensão arterial sistêmica, bem controlada com fármacos', 'Sopro sistólico suave, sem outras alterações associadas'],
     g: 'A',
     c: 'Indicam avaliação para CDI. Referência: Arbelo E et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J. 2023;44(37):3503-626.',
     x: { B: 'Risco menor.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Displasia arritmogênica',
     e: 'Jovem com arritmia ventricular, ondas épsilon e inversão de T de V1 a V3. A hipótese é:',
-    o: ['Cardiomiopatia arritmogênica do ventrículo direito', 'Brugada', 'Infarto', 'Pericardite'],
+    o: ['Cardiomiopatia arritmogênica do ventrículo direito', 'Síndrome de Brugada, com supra de ST em V1-V2', 'Infarto agudo do miocárdio, de parede anterior', 'Pericardite aguda, com supra de ST difuso'],
     g: 'A',
     c: 'Exercício intenso acelera a doença. Referência: Arbelo E et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J. 2023;44(37):3503-626.',
     x: { B: 'Sem esse padrão.', C: 'Sem dor.', D: 'Sem atrito.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Pericardite recorrente',
     e: 'Paciente com terceiro episódio de pericardite apesar de AINE e colchicina. Uma opção é:',
-    o: ['Anti-IL-1 (como anacinra ou rilonacepte)', 'Antibiótico', 'Pericardiectomia imediata', 'Nada'],
+    o: ['Anti-IL-1 (anacinra ou rilonacepte)', 'Antibiótico de amplo espectro, por via venosa', 'Pericardiectomia imediata, no terceiro episódio', 'Nenhuma conduta adicional, apenas observação'],
     g: 'A',
     c: 'O corticoide em dose baixa é alternativa. Referência: Klein AL et al. Phase 3 Trial of Interleukin-1 Trap Rilonacept in Recurrent Pericarditis (RHAPSODY). N Engl J Med. 2021;384(1):31-41.',
     x: { B: 'Sem infecção.', C: 'Reserva.', D: 'Exige.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Pericardite tuberculosa',
     e: 'Paciente com derrame pericárdico exsudativo, linfocítico, com ADA elevada, em área endêmica. O tratamento é:',
-    o: ['Esquema para tuberculose', 'AINE isolado', 'Corticoide isolado', 'Antibiótico comum'],
+    o: ['Esquema antituberculose', 'AINE isolado, em dose alta, por via oral', 'Corticoide isolado, em dose alta, por via oral', 'Antibiótico comum, por via oral, por 7 dias'],
     g: 'A',
     c: 'Risco de constrição. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Ineficaz.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Pericardite e infarto',
     e: 'Diferenciar pericardite de infarto no ECG: favorece pericardite:',
-    o: ['Supra de ST difuso côncavo, infra de PR e ausência de imagem em espelho', 'Supra localizado com imagem em espelho', 'Ondas Q', 'Supra convexo'],
+    o: ['Supra difuso côncavo, infra de PR e sem imagem em espelho', 'Supra localizado, com imagem em espelho nas derivações opostas', 'Ondas Q patológicas em derivações contíguas, de início súbito', 'Supra de ST convexo, com inversão precoce da onda T'],
     g: 'A',
     c: 'A troponina pode subir na miopericardite. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Infarto.', C: 'Infarto.', D: 'Infarto.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Tamponamento: eco',
     e: 'Achado ecocardiográfico de tamponamento é:',
-    o: ['Colapso diastólico do átrio e do ventrículo direitos', 'Hipertrofia de VE', 'Valva bicúspide', 'Trombo apical'],
+    o: ['Colapso diastólico do átrio e do ventrículo direitos', 'Hipertrofia de ventrículo esquerdo, concêntrica', 'Valva aórtica bicúspide, com estenose', 'Trombo apical, em aneurisma de ventrículo esquerdo'],
     g: 'A',
     c: 'O diagnóstico é clínico e ecocardiográfico. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Tamponamento: ECG',
     e: 'Achado do ECG sugestivo de derrame volumoso é:',
-    o: ['Baixa voltagem e alternância elétrica', 'Ondas Q', 'QT longo', 'Bloqueio de ramo'],
+    o: ['Baixa voltagem e alternância elétrica', 'Ondas Q patológicas em derivações contíguas', 'QT longo, com risco de torsades de pointes', 'Bloqueio de ramo esquerdo, de aparecimento recente'],
     g: 'A',
     c: 'A alternância decorre do coração balançando. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Kussmaul',
     e: 'O sinal de Kussmaul (aumento da pressão venosa jugular na inspiração) é característico de:',
-    o: ['Pericardite constritiva', 'Tamponamento agudo', 'Asma', 'IC esquerda'],
+    o: ['Pericardite constritiva', 'Tamponamento cardíaco agudo, em que o sinal não ocorre', 'Asma brônquica, em crise de broncoespasmo', 'Insuficiência cardíaca esquerda, com congestão pulmonar'],
     g: 'A',
     c: 'Também na cardiomiopatia restritiva e infarto de VD. Referência: Adler Y et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921-64.',
     x: { B: 'Mais pulso paradoxal.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Valvopatias: ecocardiograma',
     e: 'Paciente assintomático com sopro diastólico. A conduta é:',
-    o: ['Ecocardiograma, pois sopros diastólicos são sempre patológicos', 'Nada', 'Antibiótico', 'Reavaliar em 10 anos'],
+    o: ['Ecocardiograma: sopros diastólicos são sempre patológicos', 'Nenhuma conduta, pois o paciente é assintomático', 'Antibiótico profilático, em dose habitual', 'Reavaliar em 10 anos, sem exame complementar'],
     g: 'A',
     c: 'Sopros sistólicos suaves podem ser funcionais. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Risco.', C: 'Sem relação.', D: 'Tardio.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Endocardite: profilaxia em valvopatia',
     e: 'Paciente com estenose aórtica moderada sem prótese nem endocardite prévia. Antes de extração dentária:',
-    o: ['Profilaxia antibiótica não é indicada de rotina', 'Profilaxia sempre', 'Anticoagular', 'Suspender AAS'],
+    o: ['Profilaxia antibiótica não é indicada de rotina', 'Profilaxia sempre, antes de qualquer procedimento', 'Anticoagulação plena, de uso contínuo', 'Suspender o AAS, antes do procedimento'],
     g: 'A',
     c: 'Indicada só em alto risco (prótese, endocardite prévia, algumas congênitas). Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Não é rotina.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Cardiomiopatia por quimioterapia',
     e: 'Paciente tratada com doxorrubicina e trastuzumabe desenvolve queda da FEVE. A conduta é:',
-    o: ['Tratamento de IC e avaliação cardio-oncológica sobre a quimioterapia', 'Ignorar', 'Aumentar a quimioterapia', 'Diurético isolado'],
+    o: ['Tratar a IC e discutir a quimioterapia com cardio-oncologia', 'Ignorar a queda da fração de ejeção, pois é esperada', 'Aumentar a dose da quimioterapia, para compensar a queda', 'Diurético isolado, sem qualquer avaliação adicional'],
     g: 'A',
     c: 'O trastuzumabe causa disfunção geralmente reversível. Referência: Lyon AR et al. 2022 ESC Guidelines on cardio-oncology. Eur Heart J. 2022;43(41):4229-361.',
     x: { B: 'Risco.', C: 'Pioraria.', D: 'Insuficiente.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Doença de Chagas: cardiopatia',
     e: 'Achados da cardiopatia chagásica crônica incluem:',
-    o: ['Arritmias, bloqueios, aneurisma apical e tromboembolismo', 'Valvopatia aórtica estenótica', 'Pericardite constritiva sempre', 'Hipertrofia septal assimétrica'],
+    o: ['Arritmias, bloqueios, aneurisma apical e tromboembolismo', 'Estenose aórtica valvar, de origem calcífica', 'Pericardite constritiva, em todos os casos', 'Hipertrofia septal assimétrica, com obstrução'],
     g: 'A',
     c: 'O ECG é o exame de rastreio. Referência: Marin-Neto JA et al. SBC Guideline on the Diagnosis and Treatment of Patients with Chagas Disease Cardiomyopathy 2023. Arq Bras Cardiol. 2023;120(6):e20230269.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Sopro funcional na gestação',
     e: 'Gestante com sopro sistólico suave em foco pulmonar, sem sintomas. A interpretação mais provável é:',
-    o: ['Sopro funcional por aumento do débito cardíaco', 'Estenose aórtica grave', 'Endocardite', 'CIV'],
+    o: ['Sopro funcional por aumento do débito cardíaco', 'Estenose aórtica grave, com sopro irradiado', 'Endocardite infecciosa, com febre e embolia', 'Comunicação interventricular, com frêmito'],
     g: 'A',
     c: 'Sopros diastólicos exigem investigação. Referência: Vahanian A et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561-632.',
     x: { B: 'Improvável.', C: 'Sem febre.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_VAL: QuestaoCompacta[] = [
   {
     s: 'Insuficiência mitral secundária',
     e: 'Paciente com IC e FEVE reduzida com insuficiência mitral grave secundária e sintomático apesar de tratamento otimizado. Uma opção é:',
-    o: ['Reparo percutâneo borda a borda (clipe mitral) em pacientes selecionados', 'Nada', 'Cirurgia aberta para todos', 'Apenas diurético'],
+    o: ['Reparo percutâneo borda a borda (clipe) em selecionados', 'Nenhuma intervenção, apenas tratamento clínico', 'Cirurgia aberta para todos os pacientes', 'Apenas diurético, em dose habitual de manutenção'],
     g: 'A',
     c: 'Estudo COAPT. Referência: Stone GW et al. Transcatheter Mitral-Valve Repair in Patients with Heart Failure (COAPT). N Engl J Med. 2018;379(24):2307-18.',
     x: { B: 'Há opções.', C: 'Alto risco.', D: 'Insuficiente.' },

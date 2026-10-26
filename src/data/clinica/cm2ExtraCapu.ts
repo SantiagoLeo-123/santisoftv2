@@ -13,7 +13,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Rastreamento',
     e: 'O rastreamento de câncer de pulmão com tomografia de baixa dose é indicado para:',
-    o: ['Adultos de 50 a 80 anos com carga tabágica de 20 maços-ano ou mais, fumantes ou que pararam há menos de 15 anos', 'Todos os adultos', 'Não fumantes de 30 anos', 'Apenas com sintomas'],
+    o: ['50-80 anos, ≥ 20 maços-ano, fumantes ou ex < 15 anos', 'Todos os adultos, a partir dos 18 anos de idade', 'Não fumantes de 30 anos de idade, assintomáticos', 'Apenas pacientes com sintomas respiratórios'],
     g: 'A',
     c: 'Reduz mortalidade (NLST e NELSON). Referência: US Preventive Services Task Force. Screening for Lung Cancer: Recommendation Statement. JAMA. 2021;325(10):962-70.',
     x: { B: 'Não para todos.', C: 'Sem indicação.', D: 'Não é rastreio.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Pequenas células',
     e: 'O carcinoma de pulmão de pequenas células caracteriza-se por:',
-    o: ['Crescimento rápido, disseminação precoce, forte relação com tabagismo e síndromes paraneoplásicas', 'Crescimento lento', 'Tratamento cirúrgico isolado em todos', 'Ausência de relação com tabagismo'],
+    o: ['Crescimento rápido, disseminação precoce, tabagismo, paraneoplasia', 'Crescimento lento, com disseminação tardia e ressecção', 'Cirurgia isolada em todos os casos, ao diagnóstico', 'Ausência de relação com o tabagismo, em geral'],
     g: 'A',
     c: 'Tratado principalmente com quimioterapia e imunoterapia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Raro.', D: 'O oposto.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Síndrome paraneoplásica: SIADH',
     e: 'Paciente tabagista com hiponatremia euvolêmica e osmolaridade urinária elevada. Um tumor associado é:',
-    o: ['Carcinoma de pequenas células', 'Adenocarcinoma', 'Carcinoide', 'Hamartoma'],
+    o: ['Carcinoma de pequenas células, central e agressivo', 'Adenocarcinoma, periférico e comum em não fumantes', 'Carcinoide, de crescimento lento e baixo grau', 'Hamartoma, benigno, com calcificação em pipoca'],
     g: 'A',
     c: 'Também causa síndrome de Cushing ectópica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos associado.', C: 'Raro.', D: 'Benigno.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Hipercalcemia paraneoplásica',
     e: 'Paciente com câncer de pulmão epidermoide e hipercalcemia com PTH suprimido. O mecanismo é:',
-    o: ['Produção de peptídeo relacionado ao PTH (PTHrP)', 'Hiperparatireoidismo primário', 'Excesso de vitamina D na dieta', 'Metástase hepática'],
+    o: ['Produção de peptídeo relacionado ao PTH (PTHrP)', 'Hiperparatireoidismo primário, com adenoma', 'Excesso de vitamina D na dieta, crônico', 'Metástase hepática, com destruição do fígado'],
     g: 'A',
     c: 'Tratamento: hidratação e bisfosfonato. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'PTH seria alto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Lambert-Eaton',
     e: 'Paciente com câncer de pequenas células e fraqueza proximal que melhora com exercício repetido. O diagnóstico é:',
-    o: ['Síndrome miastênica de Lambert-Eaton', 'Miastenia gravis', 'Polimiosite', 'AVC'],
+    o: ['Síndrome miastênica de Lambert-Eaton', 'Miastenia gravis, com anticorpo anti-receptor', 'Polimiosite, com CPK elevada e fraqueza proximal', 'AVC isquêmico, com déficit focal súbito'],
     g: 'A',
     c: 'Anticorpos contra canais de cálcio voltagem-dependentes. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Piora com repetição.', C: 'CK alta.', D: 'Sem relação.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Pancoast',
     e: 'Paciente com tumor de ápice pulmonar, dor no ombro e braço, ptose, miose e anidrose. O diagnóstico é:',
-    o: ['Tumor de Pancoast com síndrome de Horner', 'AVC', 'Hérnia cervical', 'Bursite'],
+    o: ['Tumor de Pancoast com síndrome de Horner', 'AVC do tronco, com síndrome bulbar lateral', 'Hérnia cervical, com radiculopatia C8-T1', 'Bursite do ombro, com dor à abdução'],
     g: 'A',
     c: 'Invade plexo braquial e cadeia simpática. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem Horner.', D: 'Sem relação.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Síndrome da veia cava superior',
     e: 'Paciente com câncer de pulmão, edema de face e braços e circulação colateral torácica. A causa mais comum desse quadro é:',
-    o: ['Câncer de pulmão (especialmente pequenas células) e linfomas', 'IC', 'Cirrose', 'Trombose isolada sempre'],
+    o: ['Câncer de pulmão (pequenas células) e linfomas', 'Insuficiência cardíaca, com hipervolemia e edema', 'Cirrose hepática, com hipoalbuminemia e ascite', 'Trombose isolada, sempre, sem neoplasia associada'],
     g: 'A',
     c: 'Obter diagnóstico histológico antes de tratar se estável. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Menos comum.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Nódulo pulmonar',
     e: 'Nódulo pulmonar sólido de 5 mm em paciente de baixo risco, achado incidental. Pela Fleischner, a conduta é:',
-    o: ['Não é necessário seguimento de rotina', 'Biópsia imediata', 'Cirurgia', 'PET-CT'],
+    o: ['Sem seguimento de rotina, se nódulo benigno', 'Biópsia imediata, por punção transtorácica', 'Cirurgia, com ressecção em cunha, de imediato', 'PET-CT imediato, mesmo para nódulos pequenos'],
     g: 'A',
     c: 'Nódulos de 6 a 8 mm exigem tomografia de controle. Referência: MacMahon H et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. Radiology. 2017;284(1):228-43.',
     x: { B: 'Excessivo.', C: 'Excessivo.', D: 'Excessivo.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Nódulo: características de malignidade',
     e: 'Características que aumentam a suspeita de malignidade em nódulo pulmonar são:',
-    o: ['Bordas espiculadas, tamanho acima de 8 mm, crescimento e localização em lobo superior', 'Calcificação central em pipoca', 'Estabilidade por 2 anos', 'Bordas lisas pequenas'],
+    o: ['Bordas espiculadas, > 8 mm, crescimento e lobo superior', 'Calcificação central em pipoca ou concêntrica', 'Estabilidade por 2 anos, sem crescimento', 'Bordas lisas, de pequeno tamanho, em jovem'],
     g: 'A',
     c: 'Calcificações benignas sugerem granuloma ou hamartoma. Referência: MacMahon H et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. Radiology. 2017;284(1):228-43.',
     x: { B: 'Benigno.', C: 'Benigno.', D: 'Benigno.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'PET-CT',
     e: 'O PET-CT no câncer de pulmão é útil para:',
-    o: ['Avaliar nódulos acima de 8 mm e estadiar mediastino e metástases', 'Rastreamento populacional', 'Diagnosticar asma', 'Avaliar nódulos de 3 mm'],
+    o: ['Avaliar nódulos > 8 mm; estadiar mediastino e metástases', 'Rastreamento populacional, em não fumantes', 'Diagnosticar asma, pelo padrão de captação', 'Avaliar nódulos de 3 mm, em tabagistas'],
     g: 'A',
     c: 'Falso-positivo em infecções e granulomas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Não é rastreio.', C: 'Sem relação.', D: 'Baixa sensibilidade.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Estadiamento mediastinal',
     e: 'Para confirmar comprometimento de linfonodos mediastinais no câncer de pulmão, usa-se:',
-    o: ['Ultrassom endobrônquico com punção (EBUS) ou mediastinoscopia', 'Radiografia', 'Espirometria', 'Hemograma'],
+    o: ['EBUS com punção ou mediastinoscopia', 'Radiografia de tórax, em duas incidências', 'Espirometria, com prova broncodilatadora', 'Hemograma, com contagem de leucócitos'],
     g: 'A',
     c: 'O PET positivo exige confirmação. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Tratamento estádio inicial',
     e: 'Paciente com câncer de pulmão não pequenas células estádio I e boa função pulmonar. O tratamento é:',
-    o: ['Ressecção cirúrgica (lobectomia)', 'Quimioterapia isolada', 'Observação', 'Radioterapia de corpo inteiro'],
+    o: ['Ressecção cirúrgica (lobectomia)', 'Quimioterapia isolada, por via venosa', 'Observação clínica, com TC seriada', 'Radioterapia de corpo inteiro, de início'],
     g: 'A',
     c: 'Radioterapia estereotáxica se inoperável. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Inferior.', C: 'Prognóstico ruim.', D: 'Sem indicação.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Mutações',
     e: 'No adenocarcinoma avançado de pulmão, antes do tratamento, deve-se pesquisar:',
-    o: ['Mutações e rearranjos acionáveis (EGFR, ALK, ROS1, KRAS G12C) e PD-L1', 'Apenas hemograma', 'HLA', 'Nada'],
+    o: ['EGFR, ALK, ROS1, KRAS G12C e PD-L1', 'Apenas hemograma, para avaliar anemia', 'HLA, para pesquisa de compatibilidade', 'Nenhum teste molecular é necessário'],
     g: 'A',
     c: 'Terapias-alvo melhoram a sobrevida. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Exige.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'EGFR',
     e: 'Paciente não fumante com adenocarcinoma avançado e mutação de EGFR. O tratamento de primeira linha é:',
-    o: ['Inibidor de tirosina-quinase de EGFR (como osimertinibe)', 'Quimioterapia isolada', 'Cirurgia', 'Observação'],
+    o: ['Inibidor de tirosina-quinase de EGFR (osimertinibe)', 'Quimioterapia isolada, por via venosa', 'Cirurgia, com ressecção do tumor primário', 'Observação clínica, sem tratamento algum'],
     g: 'A',
     c: 'Superior à quimioterapia. Referência: Soria JC et al. Osimertinib in Untreated EGFR-Mutated Advanced Non-Small-Cell Lung Cancer (FLAURA). N Engl J Med. 2018;378(2):113-25.',
     x: { B: 'Inferior.', C: 'Doença avançada.', D: 'Inadequado.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Imunoterapia',
     e: 'No câncer de pulmão não pequenas células avançado sem mutações acionáveis e PD-L1 de 50% ou mais, uma opção é:',
-    o: ['Imunoterapia com anti-PD-1 (como pembrolizumabe)', 'Apenas cuidados paliativos', 'Cirurgia', 'Antibiótico'],
+    o: ['Imunoterapia anti-PD-1 (pembrolizumabe)', 'Apenas cuidados paliativos, sem antineoplásico', 'Cirurgia, com ressecção do tumor primário', 'Antibiótico de amplo espectro, por via venosa'],
     g: 'A',
     c: 'Melhora a sobrevida. Referência: Reck M et al. Pembrolizumab versus Chemotherapy for PD-L1-Positive Non-Small-Cell Lung Cancer (KEYNOTE-024). N Engl J Med. 2016;375(19):1823-33.',
     x: { B: 'Há tratamento.', C: 'Doença avançada.', D: 'Sem relação.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Mesotelioma',
     e: 'Paciente exposto ao amianto com espessamento pleural difuso e derrame. A hipótese é:',
-    o: ['Mesotelioma pleural maligno', 'Tuberculose', 'Pneumonia', 'IC'],
+    o: ['Mesotelioma pleural maligno, pelo amianto', 'Tuberculose pleural, com derrame linfocítico', 'Pneumonia lobar, com broncograma aéreo', 'Insuficiência cardíaca, com derrame bilateral'],
     g: 'A',
     c: 'Latência longa após exposição. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Possível diferencial.', C: 'Sem relação.', D: 'Transudato.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Tumor carcinoide',
     e: 'Jovem com tumor endobrônquico central, hemoptise e pneumonias de repetição no mesmo lobo. A hipótese é:',
-    o: ['Tumor carcinoide brônquico', 'Adenocarcinoma', 'Mesotelioma', 'Hamartoma'],
+    o: ['Tumor carcinoide brônquico, de baixo grau', 'Adenocarcinoma, periférico e de alto grau', 'Mesotelioma, ligado à exposição ao amianto', 'Hamartoma, benigno, com calcificação em pipoca'],
     g: 'A',
     c: 'Raramente causa síndrome carcinoide. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Periférico.', C: 'Pleural.', D: 'Periférico e benigno.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Hemoptise e tabagismo',
     e: 'Fumante de 60 anos com hemoptise e radiografia normal. A conduta é:',
-    o: ['Tomografia de tórax e broncoscopia, pela possibilidade de câncer', 'Tranquilizar', 'Antibiótico', 'Nada'],
+    o: ['TC de tórax e broncoscopia: possível câncer', 'Tranquilizar e orientar sobre o tabagismo', 'Antibiótico oral por 7 dias e reavaliar', 'Nada, pois a hemoptise leve é benigna'],
     g: 'A',
     c: 'Radiografia normal não exclui câncer. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco.', C: 'Insuficiente.', D: 'Risco.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Baqueteamento digital',
     e: 'Baqueteamento digital novo em fumante sugere:',
-    o: ['Câncer de pulmão (e osteoartropatia hipertrófica)', 'Asma', 'DPOC isolada', 'Anemia'],
+    o: ['Câncer de pulmão (osteoartropatia hipertrófica)', 'Asma brônquica, sem relação com baqueteamento', 'DPOC isolada, sem relação com baqueteamento', 'Anemia ferropriva, sem relação com baqueteamento'],
     g: 'A',
     c: 'A DPOC isolada não causa baqueteamento. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Não causa.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Metástases cerebrais',
     e: 'Paciente com câncer de pulmão e cefaleia. Deve-se investigar:',
-    o: ['Metástases cerebrais com ressonância', 'Sinusite', 'Enxaqueca', 'Nada'],
+    o: ['Metástases cerebrais: RM de crânio', 'Sinusite crônica, com cefaleia frontal', 'Enxaqueca, com aura visual e fotofobia', 'Nada, pois a cefaleia é inespecífica'],
     g: 'A',
     c: 'O pulmão é a origem mais comum de metástases cerebrais. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menos provável.', C: 'Diagnóstico de exclusão.', D: 'Risco.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Cessação do tabagismo',
     e: 'Para cessação do tabagismo, os tratamentos mais eficazes incluem:',
-    o: ['Abordagem comportamental associada a vareniclina, bupropiona ou terapia de reposição de nicotina', 'Apenas força de vontade', 'Cigarro eletrônico como tratamento recomendado', 'Ansiolíticos'],
+    o: ['Apoio comportamental com vareniclina, bupropiona ou nicotina', 'Apenas força de vontade, sem apoio nem fármaco algum', 'Cigarro eletrônico, como tratamento recomendado e seguro', 'Ansiolíticos isolados, como tratamento da dependência'],
     g: 'A',
     c: 'A vareniclina é a mais eficaz isolada. Referência: Brasil. Ministério da Saúde. PCDT do Tabagismo. Brasília: MS, 2020.',
     x: { B: 'Menos eficaz.', C: 'Não recomendado.', D: 'Sem eficácia.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Prognóstico',
     e: 'O prognóstico do câncer de pulmão depende principalmente de:',
-    o: ['Estádio no diagnóstico', 'Sexo', 'Altura', 'Tipo sanguíneo'],
+    o: ['Estádio no diagnóstico, o principal', 'Sexo do paciente, como fator principal', 'Altura do paciente, como fator principal', 'Tipo sanguíneo, como fator principal'],
     g: 'A',
     c: 'A maioria é diagnosticada em estádio avançado, daí o valor do rastreamento. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Menor impacto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Rouquidão',
     e: 'Paciente com câncer de pulmão à esquerda e rouquidão. O mecanismo é:',
-    o: ['Invasão do nervo laríngeo recorrente esquerdo', 'Laringite', 'Refluxo', 'Candidíase'],
+    o: ['Invasão do nervo laríngeo recorrente esquerdo', 'Laringite aguda, por vírus respiratório', 'Refluxo laringofaríngeo, com pigarro', 'Candidíase de laringe, pelo corticoide inalatório'],
     g: 'A',
     c: 'Indica doença irressecável geralmente. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Derrame pleural maligno',
     e: 'Derrame pleural com citologia positiva no câncer de pulmão indica:',
-    o: ['Estádio IV (M1a), doença não ressecável cirurgicamente com intenção curativa', 'Estádio I', 'Doença localizada', 'Infecção'],
+    o: ['Estádio IV (M1a); não ressecável com intenção curativa', 'Estádio I, ressecável com intenção curativa', 'Doença localizada, ressecável com intenção curativa', 'Infecção, e não neoplasia, sem estadiamento'],
     g: 'A',
     c: 'Pleurodese ou cateter pleural para controle. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Avançado.', C: 'Avançado.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Carcinoma epidermoide',
     e: 'Carcinoma epidermoide de pulmão associa-se a:',
-    o: ['Tabagismo, localização central, cavitação e hipercalcemia por PTHrP', 'Não fumantes', 'Localização periférica sempre', 'SIADH principalmente'],
+    o: ['Tabagismo, central, cavitação e hipercalcemia por PTHrP', 'Não fumantes, periférico, sem cavitação', 'Localização periférica sempre, sem cavitação', 'SIADH principalmente, sem hipercalcemia'],
     g: 'A',
     c: 'A cavitação é mais comum nesse tipo. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Associa-se ao tabagismo.', C: 'Central.', D: 'Pequenas células.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Pequenas células: estadiamento',
     e: 'O carcinoma de pequenas células é classicamente estadiado como:',
-    o: ['Doença limitada (um hemitórax) ou extensa', 'TNM exclusivamente', 'Estádio único', 'Não se estadia'],
+    o: ['Doença limitada (um hemitórax) ou extensa', 'TNM exclusivamente, como nas outras formas', 'Estádio único, sem subdivisão da doença', 'Não se estadia, pois é sempre disseminado'],
     g: 'A',
     c: 'O TNM também é aplicado atualmente. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Também usado.', C: 'Há estádios.', D: 'Estadia-se.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Pequenas células: tratamento',
     e: 'Doença limitada de pequenas células é tratada com:',
-    o: ['Quimioterapia com platina e etoposídeo associada a radioterapia torácica', 'Cirurgia isolada', 'Observação', 'Hormonioterapia'],
+    o: ['Platina e etoposídeo com radioterapia torácica', 'Cirurgia isolada, em doença limitada', 'Observação clínica, até haver sintomas', 'Hormonioterapia, por via oral, prolongada'],
     g: 'A',
     c: 'Irradiação craniana profilática pode ser considerada. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Raramente indicada.', C: 'Prognóstico ruim.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Nódulo em vidro fosco',
     e: 'Nódulo em vidro fosco puro persistente de 8 mm. A conduta é:',
-    o: ['Seguimento com tomografia por até 5 anos', 'Cirurgia imediata', 'Ignorar', 'Antibiótico'],
+    o: ['Seguimento com tomografia por até 5 anos', 'Cirurgia imediata, de nova ressecção', 'Ignorar o achado, pois é benigno', 'Antibiótico oral por 14 dias e alta'],
     g: 'A',
     c: 'Pode representar adenocarcinoma de crescimento lento. Referência: MacMahon H et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. Radiology. 2017;284(1):228-43.',
     x: { B: 'Excessivo.', C: 'Risco.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Nódulo: tamanho e conduta',
     e: 'Nódulo sólido de 12 mm em fumante de 60 anos. A conduta é:',
-    o: ['Avaliação com PET-CT, biópsia ou ressecção conforme o risco', 'Ignorar', 'Controle em 5 anos', 'Antibiótico'],
+    o: ['PET-CT, biópsia ou ressecção, conforme o risco', 'Ignorar o nódulo sólido, por ser em tabagista idoso', 'Controle em 5 anos, sem qualquer exame antes disso', 'Antibiótico oral por 14 dias e reavaliar depois'],
     g: 'A',
     c: 'Nódulos acima de 8 mm em alto risco exigem investigação ativa. Referência: MacMahon H et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. Radiology. 2017;284(1):228-43.',
     x: { B: 'Risco.', C: 'Tardio.', D: 'Sem relação.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Metástases pulmonares',
     e: 'Múltiplos nódulos pulmonares arredondados de tamanhos variados (padrão em bala de canhão) sugerem:',
-    o: ['Metástases hematogênicas', 'Tuberculose miliar', 'Pneumonia', 'Sarcoidose'],
+    o: ['Metástases hematogênicas, de outro sítio', 'Tuberculose miliar, com micronódulos difusos', 'Pneumonia lobar, com consolidação única', 'Sarcoidose, com adenopatia hilar bilateral'],
     g: 'A',
     c: 'Origem comum: mama, cólon, rim e sarcomas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Micronódulos uniformes.', C: 'Consolidação.', D: 'Linfadenopatia hilar.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Câncer em não fumantes',
     e: 'Em não fumantes, o câncer de pulmão é mais frequentemente:',
-    o: ['Adenocarcinoma, com maior frequência de mutações de EGFR e ALK', 'Pequenas células', 'Epidermoide', 'Mesotelioma'],
+    o: ['Adenocarcinoma: mais EGFR e ALK', 'Pequenas células: relacionado ao tabagismo', 'Epidermoide: central e cavitado, em fumantes', 'Mesotelioma: relacionado ao amianto'],
     g: 'A',
     c: 'Mais comum em mulheres asiáticas. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Raro.', C: 'Menos comum.', D: 'Asbesto.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Radônio',
     e: 'O radônio é:',
-    o: ['Segunda principal causa de câncer de pulmão, após o tabagismo', 'Protetor', 'Sem relação', 'Causa de asma'],
+    o: ['2ª maior causa de câncer de pulmão, após o tabaco', 'Fator protetor contra o câncer de pulmão', 'Sem relação com o câncer de pulmão', 'Causa de asma, e não de câncer de pulmão'],
     g: 'A',
     c: 'Gás radioativo presente em residências. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Tem relação.', D: 'Sem relação.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Asbesto',
     e: 'A exposição ao asbesto associada ao tabagismo:',
-    o: ['Aumenta de forma multiplicativa o risco de câncer de pulmão', 'Protege', 'Não muda', 'Causa apenas asma'],
+    o: ['Aumenta o risco de câncer de forma multiplicativa', 'Protege contra o câncer de pulmão no tabagista exposto', 'Não muda o risco de câncer de pulmão do tabagista', 'Causa apenas asma ocupacional, sem câncer associado'],
     g: 'A',
     c: 'Também causa placas pleurais e mesotelioma. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Muda.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Caquexia',
     e: 'Perda de peso importante no câncer de pulmão indica:',
-    o: ['Pior prognóstico', 'Melhor resposta', 'Sem relação', 'Cura'],
+    o: ['Pior prognóstico, em geral', 'Melhor resposta ao tratamento, em geral', 'Sem relação com o prognóstico, em geral', 'Cura da doença, em geral, com o tratamento'],
     g: 'A',
     c: 'Suporte nutricional faz parte do cuidado. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'O oposto.', C: 'Tem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Cuidados paliativos',
     e: 'Paciente com câncer de pulmão metastático. Os cuidados paliativos precoces:',
-    o: ['Melhoram qualidade de vida e podem aumentar a sobrevida', 'São apenas para os últimos dias', 'Pioram a sobrevida', 'Substituem o tratamento oncológico'],
+    o: ['Melhoram a qualidade de vida e podem aumentar a sobrevida', 'São apenas para os últimos dias de vida', 'Pioram a sobrevida dos pacientes, em geral', 'Substituem o tratamento oncológico, em geral'],
     g: 'A',
     c: 'Referência: Temel JS et al. Early palliative care for patients with metastatic non-small-cell lung cancer. N Engl J Med. 2010;363(8):733-42.',
     x: { B: 'Precoces.', C: 'O oposto.', D: 'Complementam.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Dispneia no câncer',
     e: 'Paciente com câncer avançado e dispneia refratária. Medicamento que alivia a sensação de dispneia é:',
-    o: ['Opioide (como morfina) em dose baixa', 'Antibiótico', 'Diurético para todos', 'Corticoide inalatório'],
+    o: ['Opioide (morfina) em dose baixa', 'Antibiótico de amplo espectro, por via oral', 'Diurético, em dose alta, para todos', 'Corticoide inalatório, em dose alta, para todos'],
     g: 'A',
     c: 'Também ventilador e oxigênio se hipoxemia. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem infecção.', C: 'Sem congestão.', D: 'Sem relação.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Compressão medular',
     e: 'Paciente com câncer de pulmão, dor dorsal e fraqueza nas pernas. A conduta imediata é:',
-    o: ['Dexametasona e ressonância de coluna urgente, com radioterapia ou cirurgia', 'Analgésico e alta', 'Fisioterapia', 'Nada'],
+    o: ['Dexametasona e RM de coluna urgente; depois RT ou cirurgia', 'Analgésico simples e alta com retorno em 7 dias', 'Fisioterapia motora, em ambulatório, e analgesia', 'Nada, pois a dor lombar é inespecífica'],
     g: 'A',
     c: 'É emergência oncológica. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Risco.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Doença pulmonar e cirurgia',
     e: 'Antes de ressecção pulmonar, avalia-se a reserva funcional com:',
-    o: ['Espirometria com VEF1 e DLCO, e teste cardiopulmonar se necessário', 'Hemograma', 'Radiografia', 'ECG apenas'],
+    o: ['Espirometria com VEF1 e DLCO, e teste cardiopulmonar', 'Hemograma completo, com contagem de plaquetas e VHS', 'Radiografia de tórax simples, em duas incidências', 'ECG de repouso apenas, sem exames funcionais'],
     g: 'A',
     c: 'Estima a função pós-operatória. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Câncer de pulmão: incidência',
     e: 'No Brasil, o câncer de pulmão:',
-    o: ['Está entre os mais incidentes e é uma das principais causas de morte por câncer', 'É raro', 'Só ocorre em idosos acima de 90', 'Não se relaciona ao tabaco'],
+    o: ['É um dos mais incidentes e causa importante de morte', 'É raro e pouco relevante para a saúde pública', 'Só ocorre em idosos acima de 90 anos de idade', 'Não se relaciona ao tabaco, em nenhum dos casos'],
     g: 'A',
     c: 'Referência: Brasil. Instituto Nacional de Câncer. Estimativa 2023: incidência de câncer no Brasil. Rio de Janeiro: INCA, 2022.',
     x: { B: 'Afirmativa falsa.', C: 'Afirmativa falsa.', D: 'Afirmativa falsa.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'ALK',
     e: 'Paciente jovem não fumante com adenocarcinoma avançado e rearranjo ALK. O tratamento é:',
-    o: ['Inibidor de ALK (como alectinibe)', 'Quimioterapia isolada sempre', 'Cirurgia', 'Nada'],
+    o: ['Inibidor de ALK (alectinibe)', 'Quimioterapia isolada, sempre, como primeira linha', 'Cirurgia, com ressecção do tumor, em estádio IV', 'Nada, pois a mutação não é tratável'],
     g: 'A',
     c: 'Alta taxa de resposta. Referência: Peters S et al. Alectinib versus Crizotinib in Untreated ALK-Positive Non-Small-Cell Lung Cancer (ALEX). N Engl J Med. 2017;377(9):829-38.',
     x: { B: 'Inferior.', C: 'Avançado.', D: 'Há tratamento.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Hiponatremia por SIADH',
     e: 'No tratamento da SIADH paraneoplásica crônica, usa-se:',
-    o: ['Restrição hídrica e tratamento do tumor, com outras medidas se necessário', 'Soro hipotônico', 'Diurético tiazídico', 'Nada'],
+    o: ['Restrição hídrica e tratamento do tumor', 'Soro hipotônico, por via venosa, em grande volume', 'Diurético tiazídico, que piora a hiponatremia', 'Nada, pois a hiponatremia é assintomática'],
     g: 'A',
     c: 'Correção rápida causa mielinólise. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Há tratamento.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Cushing ectópico',
     e: 'Paciente com pequenas células, hipocalemia, hipertensão, hiperglicemia e fraqueza rápida. A hipótese é:',
-    o: ['Síndrome de Cushing por ACTH ectópico', 'Hiperaldosteronismo primário', 'Diabetes tipo 2 isolado', 'Hipotireoidismo'],
+    o: ['Síndrome de Cushing por ACTH ectópico', 'Hiperaldosteronismo primário, por adenoma', 'Diabetes tipo 2 isolado, sem hipocalemia', 'Hipotireoidismo, com TSH elevado'],
     g: 'A',
     c: 'O ACTH está muito elevado. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem ACTH.', C: 'Não explica.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Encefalite paraneoplásica',
     e: 'Paciente tabagista com alteração de memória e convulsões e anticorpo anti-Hu. A associação é com:',
-    o: ['Câncer de pulmão de pequenas células', 'Adenocarcinoma de próstata', 'Melanoma', 'Tireoide'],
+    o: ['Câncer de pulmão de pequenas células', 'Adenocarcinoma de próstata, sem ACTH ectópico', 'Melanoma, sem produção de ACTH ectópico', 'Carcinoma de tireoide, sem produção de ACTH'],
     g: 'A',
     c: 'Síndromes neurológicas paraneoplásicas podem preceder o tumor. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Tabagismo passivo',
     e: 'O tabagismo passivo:',
-    o: ['Aumenta o risco de câncer de pulmão e doença cardiovascular', 'Não tem risco', 'Protege', 'Só afeta crianças'],
+    o: ['Aumenta o risco de câncer de pulmão e de doença CV', 'Não tem risco para o não fumante exposto', 'Protege o não fumante exposto à fumaça', 'Só afeta crianças pequenas, em ambiente fechado'],
     g: 'A',
     c: 'Ambientes livres de fumo reduzem eventos. Referência: Loscalzo J et al. Harrison Medicina Interna. 21ª ed. Porto Alegre: AMGH, 2024.',
     x: { B: 'Há risco.', C: 'O oposto.', D: 'Afeta adultos também.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_CAPU: QuestaoCompacta[] = [
   {
     s: 'Rastreamento: riscos',
     e: 'Riscos do rastreamento com tomografia de baixa dose incluem:',
-    o: ['Falsos-positivos, procedimentos invasivos desnecessários, sobrediagnóstico e radiação', 'Nenhum', 'Cura de todos', 'Aumento da mortalidade'],
+    o: ['Falso-positivos, sobrediagnóstico, exames e radiação', 'Nenhum dano, pois o rastreamento é totalmente inofensivo', 'Cura de todos os pacientes rastreados, sem exceção alguma', 'Aumento da mortalidade por câncer de pulmão no grupo'],
     g: 'A',
     c: 'Por isso exige decisão compartilhada. Referência: US Preventive Services Task Force. JAMA. 2021;325(10):962-70.',
     x: { B: 'Há riscos.', C: 'Afirmativa falsa.', D: 'Reduz mortalidade.' },

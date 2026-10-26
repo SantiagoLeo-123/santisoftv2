@@ -5,7 +5,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: diagnóstico',
     e: 'O diagnóstico de DPOC exige:',
-    o: ['Espirometria com relação VEF1/CVF abaixo de 0,70 após broncodilatador, em paciente com sintomas e exposição', 'Radiografia com hiperinsuflação', 'Tomografia com enfisema isolada', 'Gasometria'],
+    o: ['Espirometria com VEF1/CVF < 0,70 pós-broncodilatador e clínica', 'Radiografia de tórax com sinais de hiperinsuflação pulmonar', 'Tomografia de tórax com enfisema, de forma isolada', 'Gasometria arterial alterada, com hipoxemia e hipercapnia'],
     g: 'A',
     c: 'A espirometria é obrigatória. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Inespecífica.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: gravidade espirométrica',
     e: 'Na classificação GOLD, VEF1 entre 50% e 79% do previsto corresponde a:',
-    o: ['GOLD 2 (moderada)', 'GOLD 1', 'GOLD 3', 'GOLD 4'],
+    o: ['GOLD 2 (moderada)', 'GOLD 1 (leve), com VEF1 ≥ 80% do previsto', 'GOLD 3 (grave), com VEF1 entre 30% e 49%', 'GOLD 4 (muito grave), com VEF1 < 30% do previsto'],
     g: 'A',
     c: 'GOLD 1: 80% ou mais; 3: 30 a 49%; 4: abaixo de 30%. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Leve.', C: 'Grave.', D: 'Muito grave.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: grupos',
     e: 'A classificação GOLD ABE considera:',
-    o: ['Sintomas (mMRC ou CAT) e histórico de exacerbações', 'Apenas VEF1', 'Apenas idade', 'Apenas tabagismo'],
+    o: ['Sintomas (mMRC ou CAT) e histórico de exacerbações', 'Apenas o VEF1 pós-broncodilatador, de forma isolada', 'Apenas a idade do paciente, de forma isolada', 'Apenas a carga tabágica, de forma isolada'],
     g: 'A',
     c: 'Grupo E: 2 ou mais exacerbações ou 1 com internação. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: tratamento inicial',
     e: 'Paciente com DPOC muito sintomático (grupo B), sem exacerbações. O tratamento inicial é:',
-    o: ['Associação de broncodilatadores de longa ação LAMA com LABA', 'Corticoide inalatório isolado', 'Salbutamol isolado sob demanda', 'Teofilina'],
+    o: ['LAMA associado a LABA, de longa ação', 'Corticoide inalatório isolado, em dose habitual', 'Salbutamol isolado, sob demanda, em dose habitual', 'Teofilina oral isolada, em dose de manutenção'],
     g: 'A',
     c: 'A dupla broncodilatação é superior. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Não isolado.', C: 'Insuficiente.', D: 'Não é primeira.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: corticoide inalatório',
     e: 'Na DPOC, o corticoide inalatório é indicado principalmente em:',
-    o: ['Pacientes com exacerbações frequentes e eosinófilos no sangue de 300 ou mais', 'Todos os pacientes', 'Pacientes sem exacerbações', 'Pacientes com pneumonias de repetição'],
+    o: ['Exacerbações frequentes e eosinófilos ≥ 300/µL', 'Todos os pacientes com DPOC, de rotina', 'Pacientes sem exacerbações e com eosinófilos baixos', 'Pacientes com pneumonias de repetição, de rotina'],
     g: 'A',
     c: 'Aumenta o risco de pneumonia. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Não para todos.', C: 'Sem indicação.', D: 'Contraindicado relativo.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Oxigenoterapia domiciliar',
     e: 'Paciente com DPOC estável com PaO2 de 52 mmHg em repouso. A conduta é:',
-    o: ['Oxigenoterapia domiciliar prolongada por pelo menos 15 horas por dia', 'Nada', 'Oxigênio só no exercício', 'Ventilação invasiva'],
+    o: ['Oxigenoterapia domiciliar por ao menos 15 horas ao dia', 'Nenhuma intervenção, apenas acompanhamento clínico', 'Oxigênio apenas durante o exercício físico', 'Ventilação mecânica invasiva domiciliar contínua'],
     g: 'A',
     c: 'Também indicada com PaO2 entre 56 e 59 com cor pulmonale ou policitemia. Reduz mortalidade. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Indicado.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: intervenções que reduzem mortalidade',
     e: 'Intervenções que reduzem mortalidade na DPOC incluem:',
-    o: ['Cessação do tabagismo e oxigenoterapia em hipoxêmicos', 'Apenas broncodilatadores de curta ação', 'Mucolíticos', 'Antitussígenos'],
+    o: ['Cessar o tabagismo e dar O2 a hipoxêmicos', 'Apenas broncodilatadores de curta ação, sob demanda', 'Mucolíticos de uso contínuo, em dose habitual', 'Antitussígenos de uso contínuo, em dose habitual'],
     g: 'A',
     c: 'Também reabilitação após exacerbação e ventilação não invasiva em hipercápnicos. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem efeito na mortalidade.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Exacerbação: definição',
     e: 'Exacerbação de DPOC é caracterizada por:',
-    o: ['Piora aguda de dispneia e/ou tosse e escarro, em até 14 dias', 'Sintomas estáveis', 'Melhora dos sintomas', 'Apenas febre'],
+    o: ['Piora aguda de dispneia, tosse ou escarro em até 14 dias', 'Sintomas estáveis, sem mudança nas últimas semanas', 'Melhora progressiva dos sintomas respiratórios', 'Apenas febre, sem alteração dos sintomas respiratórios'],
     g: 'A',
     c: 'Causas: infecções virais e bacterianas e poluição. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Não é exacerbação.', C: 'O oposto.', D: 'Insuficiente.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Exacerbação: tratamento',
     e: 'Tratamento da exacerbação de DPOC inclui:',
-    o: ['Broncodilatadores de curta ação, corticoide sistêmico por 5 dias e antibiótico se escarro purulento', 'Apenas sedativo', 'Apenas antitussígeno', 'Corticoide inalatório isolado'],
+    o: ['Broncodilatador, corticoide sistêmico 5 dias, antibiótico se purulento', 'Apenas sedativo, para controlar a ansiedade e a dispneia', 'Apenas antitussígeno, para controlar a tosse e o escarro', 'Corticoide inalatório isolado, em dose habitual'],
     g: 'A',
     c: 'Prednisona 40 mg por 5 dias. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Contraindicado.', C: 'Inadequado.', D: 'Insuficiente.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Exacerbação: antibiótico',
     e: 'Na exacerbação de DPOC, o antibiótico é indicado quando há:',
-    o: ['Aumento da purulência do escarro associado a aumento da dispneia ou do volume do escarro, ou ventilação', 'Qualquer exacerbação', 'Nunca', 'Febre baixa isolada'],
+    o: ['Escarro purulento com mais dispneia ou volume, ou ventilação', 'Qualquer exacerbação, mesmo sem escarro purulento', 'Nunca é indicado, em nenhuma exacerbação', 'Febre baixa isolada, sem alteração do escarro'],
     g: 'A',
     c: 'Critérios de Anthonisen. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Não toda.', C: 'Há indicações.', D: 'Insuficiente.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Oxigênio na exacerbação',
     e: 'Na exacerbação de DPOC com retenção de CO2, a meta de saturação é:',
-    o: ['88% a 92%', '100%', '95% a 100%', '80%'],
+    o: ['88% a 92%', '100%, para garantir a oxigenação máxima', '95% a 100%, como em pacientes sem retenção', '80%, como limite inferior aceitável'],
     g: 'A',
     c: 'Excesso de oxigênio piora a hipercapnia. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Piora CO2.', C: 'Piora CO2.', D: 'Hipoxemia.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Alfa-1 antitripsina',
     e: 'Paciente jovem não fumante com enfisema panlobular em bases e hepatopatia. A hipótese é:',
-    o: ['Deficiência de alfa-1 antitripsina', 'Asma', 'Bronquiectasias', 'Sarcoidose'],
+    o: ['Deficiência de alfa-1 antitripsina', 'Asma brônquica, de início na infância', 'Bronquiectasias, com infecções de repetição', 'Sarcoidose pulmonar, com adenopatia hilar'],
     g: 'A',
     c: 'A OMS recomenda dosar em todos com DPOC uma vez. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem relação.', C: 'Padrão diferente.', D: 'Sem relação.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Enfisema: localização',
     e: 'O enfisema associado ao tabagismo é principalmente:',
-    o: ['Centrolobular, predominando nos lobos superiores', 'Panlobular em bases', 'Parasseptal apenas', 'Intersticial'],
+    o: ['Centrolobular, predominando nos lobos superiores', 'Panlobular, predominando nas bases pulmonares', 'Parasseptal apenas, nos lobos superiores', 'Intersticial, com fibrose e faveolamento nas bases'],
     g: 'A',
     c: 'Panlobular em bases sugere alfa-1. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Alfa-1.', C: 'Menos comum.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Cor pulmonale',
     e: 'Paciente com DPOC grave, edema de membros inferiores, turgência jugular e hepatomegalia. O diagnóstico é:',
-    o: ['Cor pulmonale (insuficiência cardíaca direita por doença pulmonar)', 'IC esquerda', 'Cirrose', 'Síndrome nefrótica'],
+    o: ['Cor pulmonale (IC direita por doença pulmonar)', 'Insuficiência cardíaca esquerda, por cardiopatia isquêmica', 'Cirrose hepática, com ascite e hipoalbuminemia', 'Síndrome nefrótica, com proteinúria e hipoalbuminemia'],
     g: 'A',
     c: 'A oxigenoterapia é central no tratamento. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem congestão pulmonar.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Reabilitação pulmonar',
     e: 'A reabilitação pulmonar na DPOC:',
-    o: ['Melhora dispneia, capacidade de exercício e qualidade de vida', 'Não tem benefício', 'É contraindicada', 'Deve ser evitada após exacerbação'],
+    o: ['Melhora dispneia, capacidade de exercício e qualidade de vida', 'Não traz nenhum benefício clínico comprovado', 'É contraindicada em pacientes com DPOC grave', 'Deve ser evitada nos primeiros meses após exacerbação'],
     g: 'A',
     c: 'Iniciar após exacerbação reduz readmissão. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Tem benefício.', C: 'Indicada.', D: 'Recomendada.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Vacinação na DPOC',
     e: 'Pacientes com DPOC devem receber:',
-    o: ['Vacinas contra influenza, pneumococo, covid-19, VSR e coqueluche conforme recomendação', 'Nenhuma', 'Apenas BCG', 'Apenas febre amarela'],
+    o: ['Influenza, pneumococo, covid-19, VSR e coqueluche', 'Nenhuma vacina, pois pode piorar a doença', 'Apenas BCG, aplicada na vida adulta', 'Apenas febre amarela, em áreas de risco'],
     g: 'A',
     c: 'Reduzem exacerbações. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Indicadas.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Roflumilaste',
     e: 'O roflumilaste pode ser usado na DPOC com:',
-    o: ['Bronquite crônica, VEF1 abaixo de 50% e exacerbações apesar do tratamento', 'Asma leve', 'DPOC leve sem sintomas', 'Fibrose'],
+    o: ['Bronquite crônica, VEF1 < 50% e exacerbações sob tratamento', 'Asma leve, bem controlada com corticoide inalatório', 'DPOC leve, sem sintomas e sem nenhuma exacerbação', 'Fibrose pulmonar idiopática, com padrão restritivo'],
     g: 'A',
     c: 'Inibidor de fosfodiesterase 4; efeitos gastrointestinais e perda de peso. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Azitromicina na DPOC',
     e: 'Azitromicina crônica na DPOC é considerada em:',
-    o: ['Ex-fumantes com exacerbações frequentes apesar do tratamento inalatório', 'Todos os pacientes', 'Fumantes ativos preferencialmente', 'Pacientes sem exacerbações'],
+    o: ['Ex-fumantes com exacerbações frequentes sob tratamento inalatório', 'Todos os pacientes com DPOC, de rotina', 'Fumantes ativos, preferencialmente, pela maior resposta', 'Pacientes sem exacerbações e com sintomas leves'],
     g: 'A',
     c: 'Riscos: resistência, perda auditiva e QT longo. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Não todos.', C: 'Menor benefício.', D: 'Sem indicação.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Tabagismo e DPOC',
     e: 'A cessação do tabagismo na DPOC:',
-    o: ['Reduz a velocidade de perda do VEF1 e a mortalidade', 'Não tem benefício após o diagnóstico', 'Piora os sintomas', 'É indiferente'],
+    o: ['Reduz a perda de VEF1 e a mortalidade', 'Não traz benefício após o diagnóstico da DPOC', 'Piora os sintomas respiratórios nos primeiros anos', 'É indiferente para a evolução da doença'],
     g: 'A',
     c: 'É a intervenção mais importante. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Tem benefício.', C: 'Melhora.', D: 'Importante.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: biomassa',
     e: 'No Brasil, além do tabagismo, uma causa importante de DPOC em mulheres de áreas rurais é:',
-    o: ['Exposição à fumaça de fogão a lenha (biomassa)', 'Exercício', 'Água', 'Vacinação'],
+    o: ['Exposição à fumaça de fogão a lenha (biomassa)', 'Atividade física regular, em ambiente aberto', 'Ingestão de água de má qualidade, na infância', 'Vacinação, em esquema habitual do adulto'],
     g: 'A',
     c: 'Afeta milhões de pessoas no mundo. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC e IC',
     e: 'Paciente com DPOC e IC com fração reduzida. Sobre betabloqueadores:',
-    o: ['Os cardiosseletivos são seguros e indicados', 'São contraindicados', 'Pioram sempre a DPOC', 'Devem ser não seletivos'],
+    o: ['Os cardiosseletivos são seguros e indicados', 'São contraindicados em qualquer paciente com DPOC', 'Pioram sempre a DPOC, em qualquer dose', 'Devem ser sempre não seletivos, como o propranolol'],
     g: 'A',
     c: 'Os benefícios cardiovasculares superam os riscos. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Não contraindicados.', C: 'Não pioram.', D: 'Preferir seletivos.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Hipercapnia crônica',
     e: 'Paciente com DPOC e hipercapnia crônica após exacerbação. A ventilação não invasiva domiciliar:',
-    o: ['Pode reduzir readmissões e mortalidade', 'É contraindicada', 'Não tem benefício', 'Deve ser usada só na UTI'],
+    o: ['Pode reduzir readmissões e mortalidade', 'É contraindicada na DPOC com hipercapnia crônica', 'Não traz nenhum benefício clínico comprovado', 'Deve ser usada apenas durante a internação em UTI'],
     g: 'A',
     c: 'Estudo HOT-HMV. Referência: Murphy PB et al. Effect of Home Noninvasive Ventilation With Oxygen Therapy vs Oxygen Therapy Alone on Hospital Readmission (HOT-HMV). JAMA. 2017;317(21):2177-86.',
     x: { B: 'Tem indicação.', C: 'Tem benefício.', D: 'Domiciliar.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Cirurgia redutora',
     e: 'Paciente com enfisema heterogêneo de lobos superiores, hiperinsuflação grave e baixa capacidade de exercício após reabilitação. Uma opção é:',
-    o: ['Redução de volume pulmonar (cirúrgica ou com válvulas endobrônquicas)', 'Lobectomia inferior', 'Nada', 'Corticoide oral contínuo'],
+    o: ['Redução do volume pulmonar (cirurgia ou válvulas)', 'Lobectomia dos lobos inferiores, com ressecção ampla', 'Nenhuma intervenção, apenas reabilitação pulmonar', 'Corticoide oral contínuo, em dose baixa'],
     g: 'A',
     c: 'Selecionar pacientes adequados. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Errado.', C: 'Há opções.', D: 'Prejudicial.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: radiografia',
     e: 'Achados radiográficos de hiperinsuflação incluem:',
-    o: ['Retificação diafragmática, aumento dos espaços intercostais e coração em gota', 'Cardiomegalia', 'Derrame pleural', 'Consolidação'],
+    o: ['Diafragma retificado, espaços intercostais amplos, coração em gota', 'Cardiomegalia importante, com aumento global da área cardíaca', 'Derrame pleural volumoso, com velamento do seio costofrênico', 'Consolidação lobar extensa, com broncograma aéreo presente'],
     g: 'A',
     c: 'A radiografia não faz diagnóstico de DPOC. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: definição',
     e: 'A DPOC é caracterizada por:',
-    o: ['Sintomas respiratórios crônicos com obstrução persistente e geralmente progressiva ao fluxo aéreo', 'Obstrução totalmente reversível', 'Fibrose intersticial', 'Infecção aguda'],
+    o: ['Sintomas crônicos com obstrução persistente e progressiva', 'Obstrução totalmente reversível com broncodilatador', 'Fibrose intersticial, com padrão restritivo', 'Infecção aguda das vias aéreas inferiores'],
     g: 'A',
     c: 'Diferente da asma, a obstrução não é totalmente reversível. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Asma.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'CAT',
     e: 'O questionário CAT na DPOC avalia:',
-    o: ['Impacto dos sintomas na qualidade de vida (pontuação de 10 ou mais indica muito sintomático)', 'Gravidade espirométrica', 'Risco de câncer', 'Tabagismo'],
+    o: ['Impacto dos sintomas na qualidade de vida (≥ 10 é muito sintomático)', 'Gravidade espirométrica da obstrução, pelo VEF1 pós-broncodilatador', 'Risco de desenvolver câncer de pulmão nos fumantes', 'Carga tabágica acumulada, em maços-ano, do paciente'],
     g: 'A',
     c: 'Usado na classificação ABE. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Espirometria.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Exacerbação: internação',
     e: 'Indicação de internação na exacerbação de DPOC inclui:',
-    o: ['Insuficiência respiratória, sintomas graves, falha ao tratamento ambulatorial e comorbidades graves', 'Tosse leve', 'Escarro claro', 'Dispneia habitual'],
+    o: ['Insuficiência respiratória, sintomas graves, falha ambulatorial', 'Tosse leve, sem nenhuma outra alteração associada ao quadro', 'Escarro claro, sem nenhuma outra alteração associada ao quadro', 'Dispneia habitual, sem piora importante do quadro basal'],
     g: 'A',
     c: 'Avaliar gasometria. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Leve.', C: 'Leve.', D: 'Estável.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Exacerbação: diagnóstico diferencial',
     e: 'Na exacerbação de DPOC, deve-se considerar diagnósticos que a simulam, como:',
-    o: ['Pneumonia, TEP, IC descompensada e pneumotórax', 'Apenas asma', 'Rinite', 'Gastrite'],
+    o: ['Pneumonia, TEP, IC descompensada e pneumotórax', 'Apenas asma brônquica, de início tardio', 'Rinite alérgica, com obstrução nasal', 'Gastrite, com dor epigástrica e náuseas'],
     g: 'A',
     c: 'Exames conforme a suspeita. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Corticoide sistêmico',
     e: 'Na exacerbação de DPOC, o corticoide sistêmico:',
-    o: ['Reduz tempo de recuperação e falha, devendo ser curto (5 dias)', 'Deve ser mantido por 3 meses', 'É contraindicado', 'Não tem benefício'],
+    o: ['Reduz o tempo de recuperação; ciclo curto (5 dias)', 'Deve ser mantido por 3 meses, após a alta', 'É contraindicado na exacerbação de DPOC', 'Não traz nenhum benefício na exacerbação'],
     g: 'A',
     c: 'Estudo REDUCE. Referência: Leuppi JD et al. Short-term vs conventional glucocorticoid therapy in acute exacerbations of COPD (REDUCE). JAMA. 2013;309(21):2223-31.',
     x: { B: 'Excessivo.', C: 'Indicado.', D: 'Tem benefício.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Hipercapnia: mecanismo do oxigênio',
     e: 'O excesso de oxigênio na DPOC hipercápnica eleva a PaCO2 principalmente por:',
-    o: ['Piora da relação ventilação-perfusão e efeito Haldane', 'Aumento da ventilação', 'Redução do metabolismo', 'Alcalose'],
+    o: ['Pior relação V/Q e efeito Haldane', 'Aumento da ventilação, com lavagem de CO2', 'Redução do metabolismo, com menor produção de CO2', 'Alcalose metabólica, com retenção de bicarbonato'],
     g: 'A',
     c: 'Por isso a meta de 88 a 92%. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Teofilina',
     e: 'Sobre a teofilina na DPOC, é correto afirmar:',
-    o: ['Tem eficácia modesta e janela terapêutica estreita, com interações e arritmias', 'É primeira linha', 'É isenta de efeitos adversos', 'É indicada na crise'],
+    o: ['Eficácia modesta, janela estreita, interações e arritmias', 'É a primeira linha do tratamento da DPOC', 'É isenta de efeitos adversos, em qualquer dose', 'É indicada como tratamento da crise de dispneia'],
     g: 'A',
     c: 'Uso restrito. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Não é.', C: 'Tem efeitos.', D: 'Não indicada.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Broncodilatadores: efeitos',
     e: 'Efeito adverso de antimuscarínicos inalatórios é:',
-    o: ['Boca seca e retenção urinária em predispostos', 'Hipoglicemia', 'Tremor intenso', 'Hipercalemia'],
+    o: ['Boca seca e retenção urinária em predispostos', 'Hipoglicemia, com sudorese e tremores', 'Tremor intenso, por estímulo beta-adrenérgico', 'Hipercalemia, por bloqueio dos canais renais'],
     g: 'A',
     c: 'Os beta-agonistas causam tremor e taquicardia. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem relação.', C: 'Beta-agonista.', D: 'Sem relação.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: comorbidades',
     e: 'Comorbidades frequentes na DPOC incluem:',
-    o: ['Doença cardiovascular, osteoporose, depressão, ansiedade e câncer de pulmão', 'Apenas asma', 'Apenas rinite', 'Nenhuma'],
+    o: ['Doença CV, osteoporose, depressão, ansiedade, câncer de pulmão', 'Apenas asma brônquica, que seria a única comorbidade', 'Apenas rinite alérgica, que seria a única comorbidade', 'Nenhuma comorbidade costuma ser frequente na DPOC'],
     g: 'A',
     c: 'Influenciam prognóstico. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Simplista.', C: 'Simplista.', D: 'Há.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Índice BODE',
     e: 'O índice BODE, que prediz mortalidade na DPOC, inclui:',
-    o: ['IMC, obstrução (VEF1), dispneia e capacidade de exercício (teste de caminhada)', 'Apenas idade', 'Apenas tabagismo', 'Apenas gasometria'],
+    o: ['IMC, VEF1, dispneia e teste de caminhada', 'Apenas a idade do paciente, de forma isolada', 'Apenas a carga tabágica, de forma isolada', 'Apenas a gasometria arterial, de forma isolada'],
     g: 'A',
     c: 'Quanto maior, pior o prognóstico. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Policitemia',
     e: 'Paciente com DPOC e hematócrito de 58% por hipoxemia crônica. A conduta é:',
-    o: ['Oxigenoterapia domiciliar', 'Flebotomia isolada sem oxigênio', 'Nada', 'Ferro'],
+    o: ['Oxigenoterapia domiciliar', 'Flebotomia isolada, sem oxigênio domiciliar', 'Nenhuma conduta, pois o hematócrito é esperado', 'Reposição de ferro, por via oral ou venosa'],
     g: 'A',
     c: 'A policitemia é critério para oxigênio com PaO2 entre 56 e 59. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Insuficiente.', C: 'Risco.', D: 'Pioraria.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Oxigênio e tabagismo',
     e: 'Paciente com DPOC em oxigenoterapia domiciliar que continua fumando corre risco de:',
-    o: ['Queimaduras e incêndios', 'Nada', 'Melhora', 'Hipotermia'],
+    o: ['Queimaduras e incêndios', 'Nenhum risco, pois o oxigênio é inofensivo', 'Melhora da função pulmonar, com o oxigênio', 'Hipotermia, por inalação do gás frio'],
     g: 'A',
     c: 'Exige orientação e apoio à cessação. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Há risco.', C: 'Afirmativa falsa.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Espirometria: pós-broncodilatador',
     e: 'Por que a espirometria para DPOC deve ser feita após broncodilatador?',
-    o: ['Para documentar obstrução persistente e reduzir falsos-positivos', 'Porque é mais barata', 'Porque piora o resultado', 'Não é necessário'],
+    o: ['Documentar obstrução persistente e evitar falsos-positivos', 'Porque o exame com broncodilatador fica bem mais barato', 'Porque o broncodilatador sempre piora o resultado final', 'Porque o broncodilatador não é necessário para o exame'],
     g: 'A',
     c: 'Asmáticos podem normalizar. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'É necessário.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Tosse produtiva crônica',
     e: 'Bronquite crônica é definida clinicamente como:',
-    o: ['Tosse produtiva por pelo menos 3 meses ao ano, em 2 anos consecutivos', 'Tosse por 1 semana', 'Sibilância isolada', 'Febre'],
+    o: ['Tosse produtiva ≥ 3 meses/ano, por 2 anos seguidos', 'Tosse por 1 semana, com resolução espontânea', 'Sibilância isolada, sem tosse nem expectoração', 'Febre persistente, sem sintomas respiratórios'],
     g: 'A',
     c: 'Pode ocorrer sem obstrução. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Insuficiente.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: biomarcador',
     e: 'Na DPOC, eosinófilos no sangue abaixo de 100 sugerem:',
-    o: ['Baixa resposta ao corticoide inalatório', 'Alta resposta ao corticoide', 'Asma', 'Infecção parasitária'],
+    o: ['Baixa resposta ao corticoide inalatório', 'Alta resposta ao corticoide inalatório', 'Asma associada, com eosinofilia importante', 'Infecção parasitária, com eosinofilia importante'],
     g: 'A',
     c: 'Ajuda a decidir. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC e transplante',
     e: 'Indicação de encaminhamento para transplante pulmonar na DPOC inclui:',
-    o: ['Doença progressiva com BODE alto apesar de tratamento máximo', 'DPOC leve', 'Fumante ativo', 'Paciente com 90 anos'],
+    o: ['Doença progressiva, BODE alto apesar do tratamento máximo', 'DPOC leve, com VEF1 acima de 80% do previsto', 'Fumante ativo, mantendo o tabagismo', 'Paciente com 90 anos, com boa condição clínica'],
     g: 'A',
     c: 'Exige abstinência do tabaco. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem indicação.', C: 'Contraindica.', D: 'Contraindicação relativa.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Bronquiectasias e DPOC',
     e: 'Na DPOC com exacerbações frequentes, a tomografia pode mostrar bronquiectasias, o que indica:',
-    o: ['Maior risco de colonização bacteriana e exacerbações', 'Melhor prognóstico', 'Diagnóstico de asma', 'Nada'],
+    o: ['Maior risco de colonização bacteriana e exacerbações', 'Melhor prognóstico, com menos exacerbações', 'Diagnóstico de asma, e não de DPOC', 'Achado sem significado clínico algum'],
     g: 'A',
     c: 'Pode mudar o tratamento. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'O oposto.', C: 'Sem relação.', D: 'Tem significado.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: TEP',
     e: 'Em paciente com exacerbação de DPOC sem causa infecciosa clara, deve-se considerar:',
-    o: ['Embolia pulmonar', 'Apenas ansiedade', 'Rinite', 'Nada'],
+    o: ['Embolia pulmonar', 'Apenas ansiedade, sem causa orgânica', 'Rinite alérgica, sem repercussão pulmonar', 'Nenhuma causa adicional, é sempre infecção'],
     g: 'A',
     c: 'Ocorre em parcela das exacerbações sem causa. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Simplista.', C: 'Sem relação.', D: 'Risco.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Mucolíticos',
     e: 'Mucolíticos como N-acetilcisteína na DPOC:',
-    o: ['Podem reduzir exacerbações em pacientes selecionados sem corticoide inalatório', 'Curam a DPOC', 'São contraindicados', 'Reduzem mortalidade'],
+    o: ['Podem reduzir exacerbações em selecionados sem CI', 'Curam a DPOC, com uso prolongado', 'São contraindicados em qualquer paciente com DPOC', 'Reduzem a mortalidade global na DPOC'],
     g: 'A',
     c: 'Efeito modesto. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Não curam.', C: 'Podem ser usados.', D: 'Sem efeito.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Intubação na DPOC',
     e: 'Indicação de intubação na exacerbação de DPOC é:',
-    o: ['Falha ou contraindicação à ventilação não invasiva, rebaixamento de consciência e instabilidade', 'pH de 7,34', 'PaCO2 de 48', 'Tosse'],
+    o: ['Falha ou contraindicação à VNI, rebaixamento, instabilidade', 'pH de 7,34, em paciente alerta e estável', 'PaCO2 de 48 mmHg, em paciente alerta e estável', 'Tosse persistente, em paciente alerta e estável'],
     g: 'A',
     c: 'A VNI é a primeira opção. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Leve.', C: 'Leve.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC e ansiedade',
     e: 'Paciente com DPOC com crises de ansiedade e dispneia. A abordagem inclui:',
-    o: ['Tratamento da ansiedade, reabilitação e cautela com benzodiazepínicos', 'Benzodiazepínico em dose alta', 'Ignorar', 'Antibiótico'],
+    o: ['Tratar a ansiedade, reabilitar e evitar benzodiazepínicos', 'Benzodiazepínico em dose alta, de uso contínuo', 'Ignorar o sintoma, pois é inespecífico', 'Antibiótico oral por 7 dias, em dose habitual'],
     g: 'A',
     c: 'Benzodiazepínicos podem deprimir a respiração. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Risco.', C: 'Inadequado.', D: 'Sem relação.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'Teste de caminhada',
     e: 'O teste de caminhada de 6 minutos na DPOC avalia:',
-    o: ['Capacidade de exercício e dessaturação ao esforço', 'Função renal', 'Força de preensão', 'Glicemia'],
+    o: ['Capacidade de exercício e dessaturação ao esforço', 'Função renal, pela taxa de filtração glomerular', 'Força de preensão palmar, medida na mão dominante', 'Glicemia, em jejum e após a caminhada'],
     g: 'A',
     c: 'Usado no BODE e na indicação de oxigênio ao esforço. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_DPOC: QuestaoCompacta[] = [
   {
     s: 'DPOC: prevenção de exacerbações',
     e: 'Medida farmacológica com maior impacto na prevenção de exacerbações na DPOC é:',
-    o: ['Broncodilatadores de longa ação (LAMA principalmente), com tripla terapia se eosinófilos elevados', 'Antitussígenos', 'Mucolíticos para todos', 'Ansiolíticos'],
+    o: ['Broncodilatadores de longa ação; tripla se eosinófilos altos', 'Antitussígenos, de uso contínuo e em dose habitual', 'Mucolíticos para todos os pacientes, de rotina', 'Ansiolíticos, de uso contínuo e em dose habitual'],
     g: 'A',
     c: 'A tripla terapia reduz exacerbações e possivelmente mortalidade em selecionados. Referência: Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Diagnosis, Management, and Prevention of COPD: 2024 Report.',
     x: { B: 'Sem efeito.', C: 'Efeito modesto.', D: 'Sem efeito.' },

@@ -5,7 +5,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Diagnóstico de HAS',
     e: 'Pela diretriz brasileira de 2020, hipertensão arterial é diagnosticada no consultório com PA de:',
-    o: ['140 x 90 mmHg ou mais, confirmada em mais de uma ocasião', '120 x 80 mmHg', '130 x 85 mmHg em uma medida isolada', '160 x 100 mmHg obrigatoriamente'],
+    o: ['≥ 140 x 90 mmHg, confirmada em mais de uma ocasião', '120 x 80 mmHg, considerada pressão normal', '130 x 85 mmHg, em uma medida isolada e casual', '160 x 100 mmHg, obrigatoriamente, em duas medidas'],
     g: 'A',
     c: 'Recomenda-se confirmar com MAPA ou MRPA quando possível. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Normal.', C: 'Pré-hipertensão.', D: 'Estágio 2.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão mascarada',
     e: 'Paciente com PA normal no consultório e elevada na MAPA. O diagnóstico é:',
-    o: ['Hipertensão mascarada', 'Avental branco', 'Normotensão', 'Hipotensão postural'],
+    o: ['Hipertensão mascarada', 'Hipertensão do avental branco', 'Normotensão verdadeira, sem alteração à MAPA', 'Hipotensão postural, com tontura ao levantar'],
     g: 'A',
     c: 'Tem risco cardiovascular semelhante à hipertensão sustentada. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'O oposto.', C: 'Está alterada.', D: 'Sem relação.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Tratamento inicial',
     e: 'Paciente com hipertensão estágio 1 e risco cardiovascular baixo. A conduta inicial pode ser:',
-    o: ['Mudança de estilo de vida por 3 a 6 meses e, se não controlar, medicamento', 'Três drogas imediatamente', 'Nada', 'Apenas diurético de alça'],
+    o: ['Mudar o estilo de vida por 3-6 meses; depois medicar', 'Três fármacos anti-hipertensivos, de imediato', 'Nenhuma conduta, apenas controle em 5 anos', 'Apenas diurético de alça, em dose habitual'],
     g: 'A',
     c: 'Em risco alto ou estágios 2 e 3, inicia-se medicamento logo, geralmente em combinação. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Excessivo.', C: 'Exige conduta.', D: 'Não é primeira linha.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Classes de primeira linha',
     e: 'São classes de primeira linha no tratamento da hipertensão:',
-    o: ['Diuréticos tiazídicos, IECA, BRA e bloqueadores de canal de cálcio', 'Alfabloqueadores e clonidina', 'Hidralazina e minoxidil', 'Diuréticos de alça para todos'],
+    o: ['Tiazídicos, IECA, BRA e bloqueadores de canal de cálcio', 'Alfabloqueadores e clonidina, como primeira linha', 'Hidralazina e minoxidil, como primeira linha', 'Diuréticos de alça para todos, como primeira linha'],
     g: 'A',
     c: 'Betabloqueadores ficam para indicações específicas, como doença coronariana e IC. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Não são primeira linha.', C: 'Não são primeira linha.', D: 'Não são primeira linha.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Meta pressórica',
     e: 'Para a maioria dos hipertensos, a meta pressórica recomendada atualmente é:',
-    o: ['Abaixo de 130 x 80 mmHg, se tolerado', 'Abaixo de 160 x 100', 'Abaixo de 150 x 90 em todos', 'Abaixo de 110 x 60'],
+    o: ['Abaixo de 130 x 80 mmHg, se tolerado', 'Abaixo de 160 x 100 mmHg, para todos', 'Abaixo de 150 x 90 mmHg, para todos', 'Abaixo de 110 x 60 mmHg, para todos'],
     g: 'A',
     c: 'Em idosos frágeis, metas individualizadas. Referência: McEvoy JW et al. 2024 ESC Guidelines for the management of elevated blood pressure and hypertension. Eur Heart J. 2024;45(38):3912-4018.',
     x: { B: 'Alta demais.', C: 'Alta demais.', D: 'Risco de hipotensão.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'IECA: efeitos',
     e: 'Efeito adverso típico dos inibidores da ECA é:',
-    o: ['Tosse seca e, raramente, angioedema', 'Edema de membros inferiores', 'Hipocalemia', 'Ginecomastia'],
+    o: ['Tosse seca e, raramente, angioedema', 'Edema de membros inferiores, dose-dependente', 'Hipocalemia importante, com fraqueza muscular', 'Ginecomastia, por efeito antiandrogênico'],
     g: 'A',
     c: 'A tosse decorre do acúmulo de bradicinina; troca-se por BRA. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Bloqueador de canal de cálcio.', C: 'Diuréticos.', D: 'Espironolactona.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'IECA na gestação',
     e: 'Gestante hipertensa em uso de enalapril. A conduta é:',
-    o: ['Suspender e trocar por metildopa, nifedipina ou labetalol', 'Manter', 'Associar losartana', 'Suspender sem substituir'],
+    o: ['Suspender; trocar por metildopa, nifedipina ou labetalol', 'Manter o enalapril, em dose habitual', 'Associar losartana ao enalapril em uso', 'Suspender o enalapril sem substituir por outro'],
     g: 'A',
     c: 'IECA e BRA são teratogênicos. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Teratogênico.', C: 'Teratogênico.', D: 'Exige tratamento.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Bloqueador de canal de cálcio',
     e: 'Paciente em uso de anlodipino desenvolve edema maleolar. O mecanismo é:',
-    o: ['Vasodilatação arteriolar com aumento da pressão capilar', 'Retenção de sódio', 'Insuficiência cardíaca', 'Hipoalbuminemia'],
+    o: ['Vasodilatação arteriolar e aumento da pressão capilar', 'Retenção de sódio e água pelo rim, com hipervolemia', 'Insuficiência cardíaca esquerda associada ao fármaco', 'Hipoalbuminemia, por perda proteica renal importante'],
     g: 'A',
     c: 'Melhora com associação de IECA ou BRA. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Não é o mecanismo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Tiazídicos',
     e: 'Efeitos metabólicos dos diuréticos tiazídicos incluem:',
-    o: ['Hipocalemia, hiponatremia, hiperuricemia e hiperglicemia', 'Hipercalemia', 'Hipocalcemia', 'Hipouricemia'],
+    o: ['Hipocalemia, hiponatremia, hiperuricemia e hiperglicemia', 'Hipercalemia, por retenção de potássio', 'Hipocalcemia, por aumento da excreção de cálcio', 'Hipouricemia, por aumento da excreção de ácido úrico'],
     g: 'A',
     c: 'Clortalidona e indapamida são os preferidos. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Ocorre o oposto.', C: 'Elevam o cálcio.', D: 'Elevam o ácido úrico.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão resistente',
     e: 'Hipertensão resistente é definida como PA não controlada apesar de:',
-    o: ['Três anti-hipertensivos em doses adequadas, incluindo um diurético, ou controlada com quatro ou mais', 'Um anti-hipertensivo', 'Dieta', 'Dois medicamentos quaisquer'],
+    o: ['Três fármacos com diurético, ou controlada com quatro', 'Um único anti-hipertensivo, em dose habitual', 'Dieta, de forma isolada, sem medicamentos', 'Dois medicamentos quaisquer, em dose habitual'],
     g: 'A',
     c: 'Antes, excluir pseudorresistência (adesão, técnica, avental branco). Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão resistente: quarta droga',
     e: 'A quarta droga preferida na hipertensão resistente é:',
-    o: ['Espironolactona', 'Hidralazina', 'Clonidina', 'Minoxidil'],
+    o: ['Espironolactona', 'Hidralazina, por via oral, em dose habitual', 'Clonidina, por via oral, em dose habitual', 'Minoxidil, por via oral, em dose habitual'],
     g: 'A',
     c: 'O estudo PATHWAY-2 mostrou superioridade. Referência: Williams B et al. Spironolactone versus placebo, bisoprolol, and doxazosin to determine the optimal treatment for drug-resistant hypertension (PATHWAY-2). Lancet. 2015;386(10008):2059-68.',
     x: { B: 'Alternativa.', C: 'Alternativa.', D: 'Alternativa.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hiperaldosteronismo',
     e: 'Hipertenso com hipocalemia espontânea e hipertensão resistente. O rastreio de causa secundária é:',
-    o: ['Relação aldosterona/atividade de renina plasmática', 'Catecolaminas urinárias', 'Cortisol noturno', 'TSH isolado'],
+    o: ['Relação aldosterona/atividade de renina plasmática', 'Catecolaminas urinárias de 24 horas', 'Cortisol salivar noturno, para hipercortisolismo', 'TSH isolado, para investigar hipertireoidismo'],
     g: 'A',
     c: 'O hiperaldosteronismo primário é a causa endócrina mais comum de hipertensão secundária. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Feocromocitoma.', C: 'Cushing.', D: 'Insuficiente.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Estenose de artéria renal',
     e: 'Idoso com aterosclerose difusa, hipertensão de difícil controle e piora aguda da função renal após iniciar IECA. A hipótese é:',
-    o: ['Estenose de artéria renal bilateral', 'Nefrite intersticial', 'Glomerulonefrite', 'Hiperaldosteronismo'],
+    o: ['Estenose de artéria renal bilateral', 'Nefrite intersticial, com leucocitúria estéril', 'Glomerulonefrite, com hematúria dismórfica', 'Hiperaldosteronismo primário, com hipocalemia'],
     g: 'A',
     c: 'Na mulher jovem, a displasia fibromuscular é a causa principal. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Sem relação com IECA.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Feocromocitoma',
     e: 'Paciente com crises de cefaleia, palpitações, sudorese e hipertensão paroxística. O rastreio é:',
-    o: ['Metanefrinas plasmáticas livres ou urinárias fracionadas', 'Cortisol', 'TSH', 'Aldosterona'],
+    o: ['Metanefrinas plasmáticas livres ou urinárias', 'Cortisol sérico, às 8 horas da manhã', 'TSH, com dosagem de T4 livre', 'Aldosterona plasmática, com renina em repouso'],
     g: 'A',
     c: 'Antes da cirurgia, alfabloqueio seguido de betabloqueio. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Cushing.', C: 'Tireoide.', D: 'Hiperaldosteronismo.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Apneia do sono',
     e: 'Obeso com roncos, sonolência diurna e hipertensão resistente. Uma causa secundária a investigar é:',
-    o: ['Apneia obstrutiva do sono', 'Feocromocitoma', 'Coarctação', 'Cushing'],
+    o: ['Apneia obstrutiva do sono', 'Feocromocitoma, com crises paroxísticas', 'Coarctação da aorta, com diferença de pulsos', 'Síndrome de Cushing, com estrias violáceas'],
     g: 'A',
     c: 'A polissonografia confirma. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Sem paroxismos.', C: 'Sem diferença de pulsos.', D: 'Sem estigmas.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Urgência hipertensiva',
     e: 'Paciente com PA de 190 x 120 mmHg, assintomático e sem lesão aguda de órgão-alvo. A conduta é:',
-    o: ['Reduzir gradualmente a PA em 24 a 48 horas com medicação oral', 'Nitroprussiato intravenoso imediato', 'Nifedipina sublingual', 'Reduzir a PA ao normal em 1 hora'],
+    o: ['Reduzir gradualmente a PA em 24-48 h, por via oral', 'Nitroprussiato intravenoso imediato, em UTI', 'Nifedipina sublingual, de ação rápida', 'Reduzir a PA ao normal em 1 hora, por via venosa'],
     g: 'A',
     c: 'A nifedipina sublingual é proscrita pelo risco de isquemia. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Para emergência.', C: 'Proscrita.', D: 'Perigoso.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Emergência hipertensiva',
     e: 'Paciente com PA de 220 x 130 e edema agudo de pulmão. O manejo é:',
-    o: ['Internação em UTI com anti-hipertensivo intravenoso (como nitroglicerina ou nitroprussiato) e diurético de alça', 'Medicação oral e alta', 'Observação', 'Betabloqueador oral isolado'],
+    o: ['UTI: anti-hipertensivo IV (nitroglicerina ou nitroprussiato) e furosemida', 'Medicação oral e alta hospitalar após algumas horas de observação', 'Apenas observação clínica, sem anti-hipertensivo venoso', 'Betabloqueador oral isolado, em dose habitual, ambulatorial'],
     g: 'A',
     c: 'Na maioria das emergências, reduz-se a PA média em até 25% na primeira hora. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Inadequado.', C: 'Risco de morte.', D: 'Insuficiente.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Dissecção de aorta',
     e: 'Hipertenso com dor torácica lancinante irradiada para o dorso e PA elevada. A conduta inicial é:',
-    o: ['Betabloqueador intravenoso para FC abaixo de 60 e PAS de 100 a 120 em minutos, e imagem da aorta', 'Trombólise', 'Nifedipina sublingual', 'Anticoagulação plena'],
+    o: ['Betabloqueador IV (FC < 60, PAS 100-120) e imagem da aorta', 'Trombólise venosa, com alteplase em dose plena', 'Nifedipina sublingual, de ação rápida', 'Anticoagulação plena, com heparina em infusão'],
     g: 'A',
     c: 'Dissecção tipo A exige cirurgia de urgência. Referência: Isselbacher EM et al. 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease. Circulation. 2022;146(24):e334-482.',
     x: { B: 'Contraindicada.', C: 'Proscrita.', D: 'Contraindicada.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Lesão de órgão-alvo',
     e: 'São lesões de órgão-alvo da hipertensão:',
-    o: ['Hipertrofia ventricular esquerda, microalbuminúria, retinopatia e doença renal crônica', 'Asma', 'Gastrite', 'Osteoporose'],
+    o: ['HVE, microalbuminúria, retinopatia e DRC', 'Asma brônquica, de início na infância', 'Gastrite crônica, por Helicobacter pylori', 'Osteoporose, por perda de massa óssea'],
     g: 'A',
     c: 'Sua presença eleva o risco cardiovascular. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Medida da PA',
     e: 'Técnica correta de medida da PA inclui:',
-    o: ['Repouso de 5 minutos, braço apoiado na altura do coração, bexiga vazia e manguito adequado', 'Medir logo após exercício', 'Medir com braço pendente', 'Medir após café'],
+    o: ['Repouso 5 min, braço na altura do coração, bexiga vazia', 'Medir logo após exercício físico intenso', 'Medir com o braço pendente ao lado do corpo', 'Medir logo após ingerir café ou fumar'],
     g: 'A',
     c: 'Manguito pequeno superestima a PA. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Superestima.', C: 'Superestima.', D: 'Superestima.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Estilo de vida',
     e: 'Medida não farmacológica com maior redução da PA é:',
-    o: ['Dieta DASH, redução de sódio, perda de peso e atividade física', 'Uso de suplementos de cálcio', 'Aumentar café', 'Reduzir horas de sono'],
+    o: ['Dieta DASH, menos sódio, perda de peso e atividade física', 'Suplementos de cálcio, em dose alta e contínua', 'Aumento do consumo de café, ao longo do dia', 'Redução das horas de sono, ao longo da semana'],
     g: 'A',
     c: 'Cada medida reduz a PA em alguns mmHg, com efeito somado. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Pouco efeito.', C: 'Sem efeito.', D: 'Piora.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão no idoso',
     e: 'Na hipertensão sistólica isolada do idoso, uma boa opção inicial é:',
-    o: ['Diurético tiazídico ou bloqueador de canal de cálcio', 'Betabloqueador como primeira escolha', 'Clonidina', 'Minoxidil'],
+    o: ['Tiazídico ou bloqueador de canal de cálcio', 'Betabloqueador, como primeira escolha no idoso', 'Clonidina oral, como primeira escolha no idoso', 'Minoxidil oral, como primeira escolha no idoso'],
     g: 'A',
     c: 'Atenção à hipotensão postural. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Não é primeira linha.', C: 'Efeitos adversos.', D: 'Reservado.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão e coronariopatia',
     e: 'Hipertenso com angina estável e infarto prévio. Uma classe indicada é:',
-    o: ['Betabloqueador, além de IECA', 'Hidralazina isolada', 'Nifedipina de ação rápida', 'Minoxidil'],
+    o: ['Betabloqueador, além do IECA', 'Hidralazina isolada, em dose habitual', 'Nifedipina de ação rápida, em dose habitual', 'Minoxidil oral, em dose habitual'],
     g: 'A',
     c: 'O betabloqueador reduz isquemia e mortalidade pós-infarto. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Taquicardia reflexa.', C: 'Proscrita.', D: 'Taquicardia.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão e IC',
     e: 'Hipertenso com insuficiência cardíaca com fração de ejeção reduzida. Deve-se evitar:',
-    o: ['Bloqueadores de canal de cálcio não di-hidropiridínicos (verapamil e diltiazém)', 'IECA', 'Betabloqueador indicado', 'Espironolactona'],
+    o: ['BCC não di-hidropiridínicos (verapamil e diltiazém)', 'IECA, que é indicado na IC com FE reduzida', 'Betabloqueador, que é indicado na IC com FE reduzida', 'Espironolactona, que é indicada na IC com FE reduzida'],
     g: 'A',
     c: 'Têm efeito inotrópico negativo. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Indicado.', C: 'Indicado.', D: 'Indicado.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão e asma',
     e: 'Hipertenso asmático. Deve-se evitar:',
-    o: ['Betabloqueadores não seletivos (como propranolol)', 'IECA', 'Tiazídico', 'Anlodipino'],
+    o: ['Betabloqueadores não seletivos (propranolol)', 'IECA, que pode causar tosse, mas não asma', 'Tiazídico, que não costuma agravar a asma', 'Anlodipino, que não costuma agravar a asma'],
     g: 'A',
     c: 'Podem desencadear broncoespasmo. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Pode usar, atenção à tosse.', C: 'Pode usar.', D: 'Pode usar.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão e HPB',
     e: 'Hipertenso com hiperplasia prostática sintomática. Uma classe que ajuda os dois quadros é:',
-    o: ['Alfabloqueador (como doxazosina), não como monoterapia de primeira linha', 'Tiazídico', 'Betabloqueador', 'IECA'],
+    o: ['Alfabloqueador (doxazosina), mas não como 1ª linha isolada', 'Tiazídico, que não alivia os sintomas prostáticos', 'Betabloqueador, que não alivia os sintomas prostáticos', 'IECA, que não alivia os sintomas prostáticos'],
     g: 'A',
     c: 'Risco de hipotensão postural. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Sem efeito na próstata.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão secundária: suspeita',
     e: 'É indicação de investigar hipertensão secundária:',
-    o: ['Hipertensão resistente, início antes dos 30 anos, hipocalemia espontânea ou lesão de órgão-alvo desproporcional', 'Hipertensão leve em idoso controlada', 'PA de 135 x 85', 'Hipertensão com história familiar'],
+    o: ['HAS resistente, início antes dos 30 anos ou hipocalemia espontânea', 'Hipertensão leve em idoso, bem controlada com um fármaco', 'PA de 135 x 85 mmHg, em uma medida isolada de consultório', 'Hipertensão em adulto com história familiar de hipertensão'],
     g: 'A',
     c: 'A investigação é guiada pela clínica. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Sem indicação.', C: 'Normal.', D: 'Comum.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Cushing',
     e: 'Paciente com obesidade central, estrias violáceas, hipertensão e hiperglicemia. O rastreio inicial é:',
-    o: ['Cortisol salivar noturno, cortisol urinário de 24 horas ou supressão com dexametasona 1 mg', 'Aldosterona', 'Metanefrinas', 'TSH'],
+    o: ['Cortisol salivar noturno, urinário de 24 h ou supressão com dexametasona', 'Aldosterona plasmática, com dosagem da renina em repouso', 'Metanefrinas plasmáticas livres, coletadas com o paciente em repouso', 'TSH e T4 livre, para investigar doença tireoidiana associada'],
     g: 'A',
     c: 'A causa mais comum é iatrogênica por corticoide. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Hiperaldosteronismo.', C: 'Feocromocitoma.', D: 'Tireoide.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Anticoncepcional e PA',
     e: 'Mulher com hipertensão após iniciar anticoncepcional combinado. A conduta é:',
-    o: ['Suspender e trocar por método sem estrogênio', 'Manter', 'Aumentar a dose', 'Associar outro estrogênio'],
+    o: ['Suspender e trocar por método sem estrogênio', 'Manter o anticoncepcional, sem alteração', 'Aumentar a dose do estrogênio, para melhor controle', 'Associar outro estrogênio ao método em uso'],
     g: 'A',
     c: 'Contraceptivos combinados elevam a PA. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Drogas que elevam PA',
     e: 'Medicamentos que podem elevar a PA incluem:',
-    o: ['AINEs, descongestionantes, corticoides, ciclosporina e alguns antidepressivos', 'Paracetamol em dose usual', 'Omeprazol', 'Vitamina D'],
+    o: ['AINEs, descongestionantes, corticoides, ciclosporina', 'Paracetamol em dose usual, por via oral, por poucos dias', 'Omeprazol em dose usual, por via oral, por semanas', 'Vitamina D em dose usual, por via oral, por meses'],
     g: 'A',
     c: 'Devem ser investigados na hipertensão de difícil controle. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Pouco efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Risco cardiovascular',
     e: 'Na estratificação de risco do hipertenso, são marcadores de alto risco:',
-    o: ['Doença cardiovascular estabelecida, diabetes com lesão de órgão-alvo e doença renal crônica estágio 3 ou mais', 'Idade de 30 anos', 'Sexo feminino', 'PA de 130 x 80'],
+    o: ['Doença CV estabelecida, DM com lesão de órgão-alvo, DRC ≥ 3', 'Idade de 30 anos, em homem sem comorbidades', 'Sexo feminino, em paciente sem comorbidades', 'PA de 130 x 80 mmHg, em paciente sem comorbidades'],
     g: 'A',
     c: 'O alto risco indica tratamento farmacológico imediato. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Fundo de olho',
     e: 'Retinopatia hipertensiva com papiledema caracteriza:',
-    o: ['Hipertensão maligna (emergência hipertensiva)', 'Hipertensão leve', 'Avental branco', 'Hipotensão'],
+    o: ['Hipertensão maligna (emergência hipertensiva)', 'Hipertensão leve, sem lesão de órgão-alvo', 'Hipertensão do avental branco, em consultório', 'Hipotensão arterial, com tontura ao levantar'],
     g: 'A',
     c: 'Associa-se a lesão renal e encefalopatia. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Grave.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Encefalopatia hipertensiva',
     e: 'Paciente com PA de 230 x 140, cefaleia, confusão e convulsão, com ressonância mostrando edema posterior. O diagnóstico é:',
-    o: ['Encefalopatia hipertensiva (síndrome de encefalopatia posterior reversível)', 'AVC isquêmico', 'Meningite', 'Enxaqueca'],
+    o: ['Encefalopatia hipertensiva (PRES)', 'AVC isquêmico, com déficit focal súbito', 'Meningite bacteriana, com febre e rigidez de nuca', 'Enxaqueca com aura, com cefaleia pulsátil'],
     g: 'A',
     c: 'A PA deve ser reduzida de forma controlada. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Sem déficit focal.', C: 'Sem febre.', D: 'Sem relação.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'AVC e PA',
     e: 'Paciente com AVC isquêmico agudo candidato a trombólise e PA de 200 x 110. A conduta é:',
-    o: ['Reduzir a PA para abaixo de 185 x 110 antes da trombólise', 'Não tratar', 'Reduzir para 120 x 80', 'Trombólise sem controle'],
+    o: ['Reduzir a PA para < 185 x 110 antes da trombólise', 'Não tratar a PA, mantendo-a elevada', 'Reduzir para 120 x 80 mmHg, de forma rápida', 'Trombólise sem controle da PA, em qualquer nível'],
     g: 'A',
     c: 'Após, manter abaixo de 180 x 105 por 24 horas. Referência: Powers WJ et al. 2019 Update to the 2018 Guidelines for the Early Management of Acute Ischemic Stroke. Stroke. 2019;50(12):e344-418.',
     x: { B: 'Risco de sangramento.', C: 'Excessivo.', D: 'Risco de sangramento.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipotensão ortostática',
     e: 'Idoso com tontura ao levantar e queda da PA sistólica de 25 mmHg. Os anti-hipertensivos que mais causam são:',
-    o: ['Alfabloqueadores e diuréticos', 'IECA em dose baixa', 'Estatinas', 'Antiagregantes'],
+    o: ['Alfabloqueadores e diuréticos', 'IECA em dose baixa, por via oral', 'Estatinas em dose habitual, por via oral', 'Antiagregantes plaquetários em dose habitual'],
     g: 'A',
     c: 'A revisão da prescrição é a primeira medida. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Menos.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipertensão e DRC',
     e: 'Paciente com DRC e hipertensão inicia IECA. É esperado:',
-    o: ['Aumento da creatinina de até 30%, sem necessidade de suspender', 'Queda da creatinina', 'Hipocalemia', 'Nenhuma alteração'],
+    o: ['Aumento da creatinina de até 30%; não suspender', 'Queda da creatinina sérica, logo no início', 'Hipocalemia, por perda renal de potássio', 'Nenhuma alteração da creatinina ou do potássio'],
     g: 'A',
     c: 'Aumentos maiores sugerem estenose renal bilateral ou hipovolemia. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'O oposto.', C: 'Tende à hipercalemia.', D: 'Pode alterar.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia',
     e: 'Paciente com DRC em uso de IECA e espironolactona com potássio de 6,2 mEq/L. A conduta inclui:',
-    o: ['Suspender os medicamentos que elevam o potássio, ECG e tratar a hipercalemia', 'Manter as doses', 'Dar potássio', 'Nada'],
+    o: ['Suspender o que eleva o K+, ECG e tratar a hipercalemia', 'Manter as doses atuais, com controle em 1 mês', 'Dar potássio por via oral, em dose habitual', 'Nenhuma conduta, pois o potássio é aceitável'],
     g: 'A',
     c: 'Gluconato de cálcio estabiliza a membrana se houver alterações no ECG. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Risco.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Estágio 3',
     e: 'Hipertensão estágio 3 corresponde a PA de:',
-    o: ['180 x 110 mmHg ou mais', '140 x 90', '160 x 100 exatos', '130 x 80'],
+    o: ['180 x 110 mmHg ou mais', '140 x 90 mmHg, que é o limite do estágio 1', '160 x 100 mmHg exatos, que é o estágio 2', '130 x 80 mmHg, que é considerada pressão limítrofe'],
     g: 'A',
     c: 'Exige tratamento combinado imediato. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'Estágio 1.', C: 'Estágio 2.', D: 'Pré-hipertensão.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Betabloqueador',
     e: 'Efeitos adversos dos betabloqueadores incluem:',
-    o: ['Bradicardia, fadiga, broncoespasmo e mascarar hipoglicemia', 'Taquicardia', 'Tosse seca', 'Hipercalcemia'],
+    o: ['Bradicardia, fadiga, broncoespasmo e mascarar hipoglicemia', 'Taquicardia sinusal, por efeito vasodilatador', 'Tosse seca, por acúmulo de bradicinina', 'Hipercalcemia, por redução da excreção renal'],
     g: 'A',
     c: 'Não suspender abruptamente pelo risco de rebote. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'O oposto.', C: 'IECA.', D: 'Tiazídicos.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Clonidina',
     e: 'A suspensão abrupta da clonidina pode causar:',
-    o: ['Hipertensão de rebote grave', 'Hipotensão', 'Bradicardia', 'Hipoglicemia'],
+    o: ['Hipertensão de rebote grave', 'Hipotensão arterial, com tontura ao levantar', 'Bradicardia sinusal, com fadiga e síncope', 'Hipoglicemia, com sudorese e tremores'],
     g: 'A',
     c: 'Deve ser retirada gradualmente. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'O oposto.', C: 'O oposto.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_HAS: QuestaoCompacta[] = [
   {
     s: 'Hidralazina',
     e: 'A hidralazina, quando usada cronicamente, pode causar:',
-    o: ['Lúpus induzido por droga e taquicardia reflexa', 'Tosse seca', 'Hipercalemia', 'Ginecomastia'],
+    o: ['Lúpus induzido por droga e taquicardia reflexa', 'Tosse seca, por acúmulo de bradicinina', 'Hipercalemia, por retenção renal de potássio', 'Ginecomastia, por efeito antiandrogênico'],
     g: 'A',
     c: 'É usada com nitrato na IC em afrodescendentes e na gestação. Referência: Barroso WKS et al. Diretrizes Brasileiras de Hipertensão Arterial 2020. Arq Bras Cardiol. 2021;116(3):516-658.',
     x: { B: 'IECA.', C: 'IECA e espironolactona.', D: 'Espironolactona.' },

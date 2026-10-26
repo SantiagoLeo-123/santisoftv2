@@ -5,7 +5,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Angina estável',
     e: 'Dor torácica típica (angina) é definida por:',
-    o: ['Desconforto retroesternal, desencadeado por esforço ou estresse e aliviado por repouso ou nitrato', 'Dor em pontada que piora à palpação', 'Dor que piora com respiração', 'Dor contínua por dias'],
+    o: ['Desconforto retroesternal por esforço, aliviado por repouso ou nitrato', 'Dor em pontada, localizada, que piora à palpação do tórax', 'Dor torácica que piora com a respiração profunda e a tosse', 'Dor contínua e constante, que dura por vários dias seguidos'],
     g: 'A',
     c: 'Dois desses três critérios: angina atípica; um ou nenhum: dor não anginosa. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Musculoesquelética.', C: 'Pleurítica.', D: 'Sem relação.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Angina estável: tratamento',
     e: 'No paciente com síndrome coronariana crônica, medicamentos que reduzem eventos incluem:',
-    o: ['AAS e estatina de alta potência', 'Nitrato isolado', 'Ivabradina isolada', 'Digoxina'],
+    o: ['AAS e estatina de alta potência', 'Nitrato isolado, de uso contínuo, sem outros fármacos', 'Ivabradina isolada, sem antiagregante nem estatina', 'Digoxina em dose habitual, sem antiagregante nem estatina'],
     g: 'A',
     c: 'Betabloqueador e nitratos aliviam sintomas. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Apenas sintomático.', C: 'Sintomático.', D: 'Sem indicação.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Angina: antianginosos',
     e: 'Medicamento de primeira linha para alívio de angina estável é:',
-    o: ['Betabloqueador ou bloqueador de canal de cálcio', 'Digoxina', 'Diurético', 'Anticoagulante'],
+    o: ['Betabloqueador ou bloqueador de canal de cálcio', 'Digoxina em dose de manutenção, por via oral diária', 'Diurético de alça em dose habitual, por via oral', 'Anticoagulante oral em dose plena, de uso contínuo'],
     g: 'A',
     c: 'Nitrato sublingual para crises. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Sem efeito.', C: 'Sem efeito.', D: 'Sem efeito.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Teste funcional',
     e: 'Paciente com probabilidade intermediária de doença coronariana e dor torácica estável. Exames indicados incluem:',
-    o: ['Angiotomografia de coronárias ou teste funcional (como cintilografia ou ecocardiograma de estresse)', 'Cateterismo para todos', 'Nenhum exame', 'Apenas troponina'],
+    o: ['Angiotomografia de coronárias ou teste funcional de estresse', 'Cateterismo cardíaco para todos os pacientes, de rotina', 'Nenhum exame, apenas acompanhamento clínico habitual', 'Apenas dosagem de troponina, sem qualquer outro exame'],
     g: 'A',
     c: 'A angiotomografia é útil em probabilidade baixa a intermediária. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Invasivo.', C: 'Exige avaliação.', D: 'Para síndrome aguda.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Teste ergométrico',
     e: 'Contraindicação absoluta ao teste ergométrico é:',
-    o: ['Síndrome coronariana aguda nas últimas 48 horas e estenose aórtica grave sintomática', 'Hipertensão controlada', 'Idade acima de 60 anos', 'Diabetes'],
+    o: ['SCA nas últimas 48 h ou estenose aórtica grave sintomática', 'Hipertensão arterial controlada com medicação habitual', 'Idade acima de 60 anos, de forma isolada', 'Diabetes mellitus controlado, de forma isolada'],
     g: 'A',
     c: 'Também: arritmia não controlada e IC descompensada. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Revascularização',
     e: 'Na doença coronariana crônica, a revascularização melhora o prognóstico principalmente em:',
-    o: ['Lesão de tronco de coronária esquerda e doença multiarterial com disfunção ventricular', 'Lesão única leve assintomática', 'Todos os pacientes', 'Nenhum caso'],
+    o: ['Tronco de coronária esquerda e multiarterial com disfunção de VE', 'Lesão única leve em paciente assintomático e estável', 'Todos os pacientes com doença coronariana crônica', 'Nenhum caso de doença coronariana crônica'],
     g: 'A',
     c: 'O estudo ISCHEMIA mostrou benefício limitado em doença estável sem lesões de alto risco. Referência: Maron DJ et al. Initial Invasive or Conservative Strategy for Stable Coronary Disease (ISCHEMIA). N Engl J Med. 2020;382(15):1395-407.',
     x: { B: 'Sem benefício prognóstico.', C: 'Não em todos.', D: 'Há casos.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'SCA: classificação',
     e: 'Paciente com dor torácica típica em repouso há 1 hora, ECG sem supra de ST e troponina elevada. O diagnóstico é:',
-    o: ['Infarto agudo do miocárdio sem supradesnivelamento de ST', 'Angina instável', 'Angina estável', 'Pericardite'],
+    o: ['IAM sem supradesnivelamento de ST', 'Angina instável, sem elevação de troponina', 'Angina estável, sem dor em repouso', 'Pericardite aguda, com dor pleurítica'],
     g: 'A',
     c: 'Na angina instável, a troponina é normal. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Troponina normal.', C: 'Sem dor em repouso.', D: 'Supra difuso e atrito.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'SCA sem supra: tratamento',
     e: 'Tratamento inicial do IAM sem supra de ST inclui:',
-    o: ['AAS, segundo antiplaquetário (inibidor de P2Y12), anticoagulação e estatina de alta potência', 'Trombólise', 'Apenas analgesia', 'Apenas betabloqueador'],
+    o: ['AAS, inibidor de P2Y12, anticoagulação e estatina potente', 'Trombólise venosa imediata, como no IAM com supra', 'Apenas analgesia com opioide, sem antitrombóticos', 'Apenas betabloqueador oral, sem antitrombóticos'],
     g: 'A',
     c: 'A estratificação de risco orienta o tempo do cateterismo. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Contraindicada sem supra.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'SCA sem supra: cateterismo',
     e: 'Paciente com IAM sem supra e instabilidade hemodinâmica, arritmia grave ou dor refratária. O cateterismo deve ser:',
-    o: ['Imediato (em até 2 horas)', 'Em até 72 horas', 'Eletivo em 1 mês', 'Desnecessário'],
+    o: ['Imediato (em até 2 horas)', 'Em até 72 horas, após estabilização clínica', 'Eletivo, em 1 mês, com o paciente ambulatorial', 'Desnecessário, mesmo com instabilidade hemodinâmica'],
     g: 'A',
     c: 'Alto risco (troponina elevada, alterações dinâmicas): em até 24 horas. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Tardio.', C: 'Tardio.', D: 'Necessário.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Troponina',
     e: 'Sobre a troponina de alta sensibilidade, é correto afirmar:',
-    o: ['Permite protocolos rápidos de 0 e 1 hora ou 0 e 2 horas para diagnosticar ou excluir infarto', 'Fica normal no infarto', 'Não se eleva em outras doenças', 'Deve ser medida apenas após 24 horas'],
+    o: ['Permite protocolos de 0/1 h ou 0/2 h para o infarto', 'Fica sempre normal durante um infarto do miocárdio', 'Não se eleva em nenhuma outra doença além do infarto', 'Deve ser medida apenas após 24 horas do início da dor'],
     g: 'A',
     c: 'Também se eleva em miocardite, TEP, sepse e insuficiência renal. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Eleva-se.', C: 'Eleva-se em outras.', D: 'Tardio.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Escore HEART',
     e: 'Paciente com dor torácica no pronto-socorro. O escore HEART considera:',
-    o: ['História, ECG, idade, fatores de risco e troponina', 'Apenas troponina', 'Apenas idade', 'Apenas pressão arterial'],
+    o: ['História, ECG, idade, fatores de risco e troponina', 'Apenas a troponina, medida de forma isolada', 'Apenas a idade do paciente, de forma isolada', 'Apenas a pressão arterial, medida de forma isolada'],
     g: 'A',
     c: 'Orienta a alta segura de baixo risco. Referência: Six AJ et al. Chest pain in the emergency room: value of the HEART score. Neth Heart J. 2008;16(6):191-6.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Nitrato: contraindicação',
     e: 'Paciente com IAM que usou sildenafil há 12 horas. O nitrato:',
-    o: ['É contraindicado pelo risco de hipotensão grave', 'Pode ser usado em dose alta', 'É obrigatório', 'Não interage'],
+    o: ['É contraindicado pelo risco de hipotensão grave', 'Pode ser usado em dose alta, sem nenhum risco', 'É obrigatório, por causa do infarto em curso', 'Não interage com o sildenafil, em nenhuma dose'],
     g: 'A',
     c: 'Contraindicado também no infarto de ventrículo direito e hipotensão. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Interage.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Betabloqueador na SCA',
     e: 'Contraindicação ao betabloqueador na síndrome coronariana aguda é:',
-    o: ['Sinais de insuficiência cardíaca aguda, choque, bradicardia ou bloqueio AV avançado', 'Hipertensão', 'Taquicardia sinusal sem IC', 'Diabetes'],
+    o: ['Sinais de IC aguda, choque, bradicardia ou BAV avançado', 'Hipertensão arterial, mesmo com pressão elevada', 'Taquicardia sinusal, sem sinais de insuficiência cardíaca', 'Diabetes mellitus, de forma isolada e controlado'],
     g: 'A',
     c: 'Também cocaína como causa. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Indicado.', C: 'Pode ser indicado.', D: 'Não contraindica.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Estatina',
     e: 'Após síndrome coronariana aguda, a estatina recomendada é:',
-    o: ['De alta potência, como atorvastatina 40 a 80 mg ou rosuvastatina 20 a 40 mg', 'Em dose baixa', 'Nenhuma', 'Apenas fibrato'],
+    o: ['Alta potência: atorvastatina 40-80 ou rosuvastatina 20-40 mg', 'Estatina em dose baixa, para evitar efeitos adversos', 'Nenhuma estatina, apenas dieta e atividade física', 'Apenas fibrato, em dose habitual, sem estatina'],
     g: 'A',
     c: 'A meta de LDL é abaixo de 55 mg/dL em muito alto risco. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Insuficiente.', C: 'Indicada.', D: 'Insuficiente.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Dupla antiagregação',
     e: 'Após SCA tratada com angioplastia e stent, a dupla antiagregação é mantida, em geral, por:',
-    o: ['12 meses, salvo alto risco de sangramento', '1 semana', '5 anos', 'Nunca'],
+    o: ['12 meses, salvo alto risco de sangramento', 'Apenas 1 semana, com suspensão logo após a alta', '5 anos, de forma obrigatória em todos os casos', 'Nunca é mantida, usa-se apenas o AAS isolado'],
     g: 'A',
     c: 'Esquemas mais curtos em alto risco hemorrágico. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Indicada.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Angina de Prinzmetal',
     e: 'Paciente jovem com angina em repouso de madrugada, supradesnivelamento transitório de ST e coronárias sem lesões obstrutivas. O diagnóstico e o tratamento são:',
-    o: ['Angina vasoespástica; bloqueador de canal de cálcio e nitrato', 'Infarto com supra; trombólise', 'Pericardite; AINE', 'Angina estável; betabloqueador'],
+    o: ['Angina vasoespástica: bloqueador de cálcio e nitrato', 'Infarto com supra persistente, tratado com trombólise', 'Pericardite aguda, tratada com AINE em dose plena', 'Angina estável, tratada com betabloqueador de manutenção'],
     g: 'A',
     c: 'Betabloqueadores podem piorar o vasoespasmo. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Transitório e sem lesão.', C: 'Sem atrito.', D: 'Pode piorar.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Cocaína e dor torácica',
     e: 'Usuário de cocaína com dor torácica e taquicardia. A conduta inicial inclui:',
-    o: ['Benzodiazepínico, nitrato e AAS, evitando betabloqueador agudamente', 'Betabloqueador imediato', 'Trombólise sempre', 'Nada'],
+    o: ['Benzodiazepínico, nitrato e AAS; evitar betabloqueador', 'Betabloqueador imediato, por via venosa, em dose plena', 'Trombólise de rotina em todo caso de dor torácica', 'Nenhuma medida, apenas observação clínica em casa'],
     g: 'A',
     c: 'O betabloqueador pode causar estímulo alfa sem oposição. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Evitado.', C: 'Só com supra e sem angioplastia.', D: 'Exige.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'MINOCA',
     e: 'Paciente com infarto (troponina elevada) e coronárias sem obstrução significativa. O termo é:',
-    o: ['MINOCA, exigindo investigação de causas como miocardite, vasoespasmo e dissecção', 'Angina estável', 'Pericardite', 'Normal'],
+    o: ['MINOCA: investigar miocardite, vasoespasmo e dissecção', 'Angina estável, sem lesão aterosclerótica evidente', 'Pericardite aguda, com troponina discretamente elevada', 'Exame normal, sem necessidade de investigação adicional'],
     g: 'A',
     c: 'A ressonância cardíaca ajuda. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Há infarto.', C: 'Sem relação.', D: 'Há doença.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Dissecção coronariana espontânea',
     e: 'Mulher jovem no puerpério com infarto e sem fatores de risco. Uma causa a considerar é:',
-    o: ['Dissecção espontânea de artéria coronária', 'Aterosclerose avançada', 'Pericardite', 'Ansiedade'],
+    o: ['Dissecção espontânea de artéria coronária', 'Aterosclerose avançada, por fatores de risco clássicos', 'Pericardite do puerpério, com dor pleurítica', 'Ansiedade do puerpério, sem alteração de troponina'],
     g: 'A',
     c: 'Associa-se a displasia fibromuscular. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Menos provável.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Prevenção secundária',
     e: 'Após infarto, a reabilitação cardíaca:',
-    o: ['Reduz mortalidade e reinternações, sendo recomendada', 'É contraindicada', 'Não tem benefício', 'Deve esperar 1 ano'],
+    o: ['Reduz mortalidade e reinternações; é recomendada', 'É contraindicada após o infarto do miocárdio', 'Não traz nenhum benefício clínico comprovado', 'Deve esperar 1 ano após o evento, para ser iniciada'],
     g: 'A',
     c: 'Inclui exercício supervisionado e educação. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Indicada.', C: 'Tem benefício.', D: 'Precoce.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Diabetes e coronariopatia',
     e: 'Diabético com doença coronariana deve receber, além do controle glicêmico, preferencialmente:',
-    o: ['iSGLT2 ou agonista do GLP-1 com benefício cardiovascular', 'Sulfonilureia isolada', 'Insulina para todos', 'Nenhum'],
+    o: ['iSGLT2 ou agonista de GLP-1 com benefício cardiovascular', 'Sulfonilureia isolada, sem outros hipoglicemiantes', 'Insulina para todos, sem avaliar o perfil de risco', 'Nenhum fármaco adicional, apenas controle da glicemia'],
     g: 'A',
     c: 'Reduzem eventos cardiovasculares. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Sem benefício cardiovascular.', C: 'Não para todos.', D: 'Há opções.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Dor torácica: diagnóstico diferencial',
     e: 'Causas ameaçadoras de dor torácica que devem ser excluídas no pronto-socorro incluem:',
-    o: ['Síndrome coronariana aguda, dissecção de aorta, TEP, pneumotórax hipertensivo e tamponamento', 'Costocondrite', 'Refluxo', 'Ansiedade'],
+    o: ['SCA, dissecção de aorta, TEP, pneumotórax e tamponamento', 'Costocondrite, de caráter benigno e autolimitado, com dor à palpação', 'Refluxo gastroesofágico, de caráter benigno, com pirose', 'Ansiedade, de caráter benigno e autolimitado, com hiperventilação'],
     g: 'A',
     c: 'São as causas com risco imediato de vida. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Benigna.', C: 'Benigna.', D: 'Diagnóstico de exclusão.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação na SCA',
     e: 'Anticoagulante usado na SCA sem supra é:',
-    o: ['Enoxaparina ou fondaparinux', 'Varfarina', 'Rivaroxabana em dose plena', 'Nenhum'],
+    o: ['Enoxaparina ou fondaparinux', 'Varfarina em dose de manutenção, por via oral', 'Rivaroxabana em dose plena de anticoagulação', 'Nenhum anticoagulante é usado na SCA sem supra'],
     g: 'A',
     c: 'Fondaparinux tem menor sangramento. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Não na fase aguda.', C: 'Não na fase aguda.', D: 'Indicado.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Inibidores de P2Y12',
     e: 'Na SCA, o ticagrelor ou prasugrel são preferidos ao clopidogrel porque:',
-    o: ['Têm ação mais potente e reduzem eventos isquêmicos', 'Têm menos sangramento', 'São mais baratos', 'Não interagem'],
+    o: ['Ação mais potente, com menos eventos isquêmicos', 'Têm menos sangramento que o clopidogrel', 'São bem mais baratos do que o clopidogrel', 'Não interagem com nenhum outro medicamento'],
     g: 'A',
     c: 'O prasugrel é contraindicado após AVC. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Sangram mais.', C: 'Mais caros.', D: 'Interagem.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Fatores de risco',
     e: 'São fatores de risco modificáveis para doença coronariana:',
-    o: ['Tabagismo, hipertensão, diabetes, dislipidemia, obesidade e sedentarismo', 'Idade', 'Sexo masculino', 'História familiar'],
+    o: ['Tabagismo, HAS, diabetes, dislipidemia, obesidade, sedentarismo', 'Idade avançada, que é um fator de risco não modificável', 'Sexo masculino, que é um fator de risco não modificável', 'História familiar, que é um fator de risco não modificável'],
     g: 'A',
     c: 'Os não modificáveis também aumentam o risco. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Não modificável.', C: 'Não modificável.', D: 'Não modificável.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Dislipidemia: meta',
     e: 'Para pacientes de muito alto risco cardiovascular, a meta de LDL recomendada pelas diretrizes europeias é:',
-    o: ['Abaixo de 55 mg/dL e redução de 50% ou mais', 'Abaixo de 160 mg/dL', 'Abaixo de 130 mg/dL', 'Abaixo de 100 mg/dL'],
+    o: ['LDL abaixo de 55 mg/dL e redução de 50% ou mais', 'LDL abaixo de 160 mg/dL, como meta geral', 'LDL abaixo de 130 mg/dL, como meta geral', 'LDL abaixo de 100 mg/dL, como meta geral'],
     g: 'A',
     c: 'Associa-se ezetimiba ou inibidor de PCSK9 se não atingir. Referência: Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111-88.',
     x: { B: 'Alta.', C: 'Alta.', D: 'Insuficiente.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Estatina: efeitos',
     e: 'Efeito adverso da estatina que exige suspensão é:',
-    o: ['Rabdomiólise com CK muito elevada e dor muscular', 'Mialgia leve com CK normal', 'Elevação de transaminases menor que 3 vezes', 'Ganho de peso'],
+    o: ['Rabdomiólise com CK muito elevada e dor muscular', 'Mialgia leve, com CK normal e sem outros sintomas', 'Elevação de transaminases menor que 3 vezes o limite', 'Ganho de peso discreto, sem outra alteração clínica'],
     g: 'A',
     c: 'Mialgias leves podem ser manejadas com troca ou redução de dose. Referência: Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111-88.',
     x: { B: 'Pode manejar.', C: 'Pode manter.', D: 'Não é efeito típico.' },
@@ -229,7 +229,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Ezetimiba',
     e: 'A ezetimiba atua:',
-    o: ['Inibindo a absorção intestinal de colesterol', 'Inibindo a HMG-CoA redutase', 'Inibindo a PCSK9', 'Aumentando o HDL principalmente'],
+    o: ['Inibe a absorção intestinal de colesterol', 'Inibe a enzima HMG-CoA redutase no fígado', 'Inibe a PCSK9, aumentando os receptores de LDL', 'Aumenta principalmente o HDL, sem efeito no LDL'],
     g: 'A',
     c: 'Associada à estatina, reduz eventos. Referência: Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111-88.',
     x: { B: 'Estatina.', C: 'Anticorpos monoclonais.', D: 'Não é o efeito.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Hipertrigliceridemia grave',
     e: 'Paciente com triglicerídeos de 1.500 mg/dL. O risco principal é:',
-    o: ['Pancreatite aguda', 'Infarto imediato', 'Nefrolitíase', 'Gota'],
+    o: ['Pancreatite aguda', 'Infarto imediato do miocárdio, no mesmo dia', 'Nefrolitíase recorrente, com cólicas renais', 'Gota úrica, com artrite aguda e recorrente'],
     g: 'A',
     c: 'Tratamento com fibrato, dieta e controle de causas secundárias. Referência: Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111-88.',
     x: { B: 'Não é o principal agudo.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Teste ergométrico: alto risco',
     e: 'Achado de alto risco no teste ergométrico é:',
-    o: ['Infradesnivelamento de ST maior que 2 mm em baixa carga ou queda da PA ao esforço', 'Elevação normal da FC', 'Elevação normal da PA', 'Ausência de sintomas'],
+    o: ['Infra de ST > 2 mm em baixa carga ou queda da PA', 'Elevação normal da frequência cardíaca ao esforço', 'Elevação normal da pressão arterial ao esforço', 'Ausência de sintomas durante todo o exame'],
     g: 'A',
     c: 'Indica investigação invasiva. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Normal.', C: 'Normal.', D: 'Normal.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Ivabradina',
     e: 'A ivabradina reduz a frequência cardíaca por:',
-    o: ['Inibição da corrente If no nó sinusal', 'Bloqueio beta', 'Bloqueio de canal de cálcio', 'Efeito vagal'],
+    o: ['Inibição da corrente If no nó sinusal', 'Bloqueio dos receptores beta-adrenérgicos', 'Bloqueio dos canais de cálcio no nó sinusal', 'Efeito vagal direto, sobre o nó sinusal'],
     g: 'A',
     c: 'Só funciona em ritmo sinusal. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Outra classe.', C: 'Outra classe.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação e stent',
     e: 'Paciente com fibrilação atrial que faz angioplastia com stent. O esquema geralmente recomendado é:',
-    o: ['Anticoagulante oral direto com clopidogrel por até 12 meses, com AAS por curto período', 'AAS, prasugrel e varfarina por 1 ano', 'Apenas AAS', 'Nada'],
+    o: ['ACOD com clopidogrel até 12 meses; AAS por pouco tempo', 'AAS, prasugrel e varfarina por 1 ano, em dose plena', 'Apenas AAS, sem anticoagulante nem clopidogrel', 'Nenhum antitrombótico, após a angioplastia com stent'],
     g: 'A',
     c: 'Reduz sangramento mantendo proteção. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Muito sangramento.', C: 'Insuficiente.', D: 'Risco.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Infarto sem dor',
     e: 'Paciente diabético idoso com dispneia súbita e troponina elevada, sem dor. A hipótese é:',
-    o: ['Infarto com apresentação atípica', 'Asma', 'Gripe', 'Ansiedade'],
+    o: ['Infarto com apresentação atípica', 'Asma brônquica, descompensada por infecção', 'Gripe, com síndrome respiratória aguda', 'Ansiedade, com hiperventilação e dispneia'],
     g: 'A',
     c: 'Diabéticos, mulheres e idosos têm mais apresentações atípicas. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Síndrome coronariana: ECG',
     e: 'Na SCA sem supra, achados de alto risco no ECG incluem:',
-    o: ['Infradesnivelamento de ST dinâmico ou supra transitório', 'Ritmo sinusal normal', 'Bloqueio de ramo direito antigo isolado', 'Onda T apiculada isolada'],
+    o: ['Infra de ST dinâmico ou supra transitório', 'Ritmo sinusal normal, sem alterações do segmento ST', 'Bloqueio de ramo direito antigo, de forma isolada', 'Onda T apiculada, de forma isolada e sem outras alterações'],
     g: 'A',
     c: 'Indicam estratégia invasiva precoce. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Normal.', C: 'Não é alto risco.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Sinal de Wellens',
     e: 'ECG com ondas T profundamente invertidas ou bifásicas em V2 e V3, sem dor no momento, sugere:',
-    o: ['Estenose crítica proximal da artéria descendente anterior (Wellens)', 'Pericardite', 'Hipercalemia', 'Normal'],
+    o: ['Estenose crítica proximal da descendente anterior (Wellens)', 'Pericardite aguda, com supra difuso de ST e infra de PR', 'Hipercalemia importante, com ondas T apiculadas e simétricas', 'ECG normal, sem lesão coronariana associada ao quadro'],
     g: 'A',
     c: 'Exige cateterismo, e teste de esforço é contraindicado. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Sem relação.', C: 'T apiculada.', D: 'Alterado.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Infarto de parede posterior',
     e: 'Infradesnivelamento de ST em V1 a V3 com ondas R altas pode indicar:',
-    o: ['Infarto de parede posterior', 'Isquemia anterior apenas', 'Pericardite', 'Normal'],
+    o: ['Infarto de parede posterior', 'Isquemia anterior apenas, sem parede posterior', 'Pericardite aguda, com supra difuso de ST', 'ECG normal, variante da normalidade'],
     g: 'A',
     c: 'Derivações V7 a V9 confirmam. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Pode ser posterior.', C: 'Sem relação.', D: 'Alterado.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Prevenção: AAS primário',
     e: 'Sobre AAS na prevenção primária de doença cardiovascular, é correto afirmar:',
-    o: ['Não é recomendado de rotina, pelo risco de sangramento superar o benefício na maioria', 'É obrigatório para todos acima de 40 anos', 'Previne todos os infartos', 'É indicado em todos os diabéticos'],
+    o: ['Não é de rotina: o risco de sangramento supera o benefício', 'É obrigatório para todos acima de 40 anos', 'Previne todos os infartos, em qualquer paciente', 'É indicado em todos os diabéticos, sem exceção'],
     g: 'A',
     c: 'É indicado na prevenção secundária. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Não é.', C: 'Não previne todos.', D: 'Não em todos.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Doença coronariana em mulheres',
     e: 'Mulheres com isquemia e coronárias sem obstrução podem ter:',
-    o: ['Disfunção microvascular coronariana (INOCA)', 'Sempre ansiedade', 'Nunca doença cardíaca', 'Apenas refluxo'],
+    o: ['Disfunção microvascular coronariana (INOCA)', 'Sempre ansiedade, sem doença cardíaca', 'Nunca doença cardíaca, pois as coronárias são normais', 'Apenas refluxo gastroesofágico, sem isquemia'],
     g: 'A',
     c: 'Testes de reatividade coronariana ajudam. Referência: Vrints C et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415-537.',
     x: { B: 'Simplista.', C: 'Pode ter.', D: 'Simplista.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'IAM: complicação mecânica',
     e: 'Paciente com IAM há 4 dias desenvolve choque súbito e sopro holossistólico novo com frêmito. A hipótese é:',
-    o: ['Ruptura de septo interventricular', 'Pericardite', 'Insuficiência aórtica', 'Reinfarto'],
+    o: ['Ruptura de septo interventricular', 'Pericardite pós-infarto, com atrito pericárdico', 'Insuficiência aórtica aguda, com sopro diastólico', 'Reinfarto, com nova elevação de troponina'],
     g: 'A',
     c: 'Exige cirurgia urgente. Ruptura de músculo papilar causa insuficiência mitral aguda. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Sem sopro.', C: 'Sopro diastólico.', D: 'Sem sopro novo.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Síndrome de Dressler',
     e: 'Paciente 3 semanas após infarto com febre, dor pleurítica e atrito pericárdico. O diagnóstico é:',
-    o: ['Síndrome de Dressler (pericardite pós-infarto)', 'Reinfarto', 'Embolia', 'Pneumonia'],
+    o: ['Síndrome de Dressler (pericardite pós-infarto)', 'Reinfarto, com nova elevação de troponina', 'Embolia pulmonar, com dor pleurítica e hipoxemia', 'Pneumonia bacteriana, com febre e consolidação'],
     g: 'A',
     c: 'Tratamento com AAS em dose alta e colchicina. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Sem atrito.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Aneurisma ventricular',
     e: 'ECG com supra de ST persistente semanas após infarto anterior sugere:',
-    o: ['Aneurisma ventricular', 'Reinfarto agudo', 'Pericardite', 'Normal'],
+    o: ['Aneurisma ventricular', 'Reinfarto agudo, com troponina em elevação', 'Pericardite aguda, com supra difuso de ST', 'ECG normal, sem relação com o infarto prévio'],
     g: 'A',
     c: 'Associa-se a trombo e arritmias. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Sem dor nova.', C: 'Difuso.', D: 'Alterado.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Retorno ao trabalho',
     e: 'Após infarto não complicado, a atividade sexual pode ser retomada, em geral:',
-    o: ['Em cerca de 1 semana se o paciente estiver estável e sem sintomas aos esforços leves', 'Somente após 1 ano', 'Nunca', 'No dia seguinte em todos'],
+    o: ['Em cerca de 1 semana, se estável e sem sintomas', 'Somente após 1 ano do infarto do miocárdio', 'Nunca mais, após um infarto do miocárdio', 'No dia seguinte, em todos os pacientes'],
     g: 'A',
     c: 'A avaliação individual é importante. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Excessivo.', C: 'Restritivo.', D: 'Precoce em casos complicados.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Lipoproteína(a)',
     e: 'A lipoproteína(a) elevada:',
-    o: ['É fator de risco cardiovascular independente, em grande parte genético', 'É protetora', 'Não tem relação', 'Reduz com dieta facilmente'],
+    o: ['Fator de risco CV independente, em grande parte genético', 'É um fator protetor contra a doença coronariana', 'Não tem nenhuma relação com o risco cardiovascular', 'Reduz facilmente com dieta e atividade física'],
     g: 'A',
     c: 'Recomenda-se dosar ao menos uma vez na vida. Referência: Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111-88.',
     x: { B: 'O oposto.', C: 'Tem relação.', D: 'Pouco responde.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Hipercolesterolemia familiar',
     e: 'Paciente com LDL acima de 190 mg/dL e xantomas tendíneos. A hipótese é:',
-    o: ['Hipercolesterolemia familiar', 'Hipotireoidismo', 'Síndrome nefrótica', 'Normal'],
+    o: ['Hipercolesterolemia familiar', 'Hipotireoidismo, com LDL discretamente elevado', 'Síndrome nefrótica, com dislipidemia secundária', 'Perfil lipídico normal, sem doença de base'],
     g: 'A',
     c: 'O rastreamento em cascata de familiares é recomendado. Referência: Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111-88.',
     x: { B: 'Possível causa secundária, mas não explica xantomas.', C: 'Sem edema e proteinúria.', D: 'Alterado.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Inibidor de PCSK9',
     e: 'Paciente de muito alto risco com LDL acima da meta apesar de estatina máxima e ezetimiba. Uma opção é:',
-    o: ['Inibidor de PCSK9 (como evolocumabe ou alirocumabe)', 'Niacina', 'Fibrato isolado', 'Ômega-3 isolado'],
+    o: ['Inibidor de PCSK9 (evolocumabe ou alirocumabe)', 'Niacina em dose alta, por via oral diária', 'Fibrato isolado, em dose habitual, por via oral', 'Ômega-3 isolado, em dose habitual, por via oral'],
     g: 'A',
     c: 'Reduz LDL em cerca de 60%. Referência: Mach F et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111-88.',
     x: { B: 'Sem benefício.', C: 'Para triglicerídeos.', D: 'Sem efeito no LDL.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Cateterismo: complicação',
     e: 'Complicação do cateterismo por via femoral é:',
-    o: ['Hematoma, pseudoaneurisma e sangramento retroperitoneal', 'Pneumotórax', 'Pancreatite', 'Hepatite'],
+    o: ['Hematoma, pseudoaneurisma e sangramento retroperitoneal', 'Pneumotórax, por punção torácica inadvertida', 'Pancreatite aguda, por contraste intravascular', 'Hepatite aguda, por contraste intravascular'],
     g: 'A',
     c: 'A via radial reduz sangramento. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Não é típico.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_CORON: QuestaoCompacta[] = [
   {
     s: 'Nefropatia por contraste',
     e: 'Medida para prevenir lesão renal por contraste em paciente de risco é:',
-    o: ['Hidratação com soro fisiológico e menor volume de contraste', 'Furosemida', 'N-acetilcisteína como medida única', 'Suspender todas as medicações'],
+    o: ['Hidratação com SF 0,9% e menor volume de contraste', 'Furosemida venosa, para forçar a diurese', 'N-acetilcisteína como medida única de proteção', 'Suspender todas as medicações de uso contínuo'],
     g: 'A',
     c: 'A evidência para N-acetilcisteína é fraca. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Pode piorar.', C: 'Evidência fraca.', D: 'Excessivo.' },

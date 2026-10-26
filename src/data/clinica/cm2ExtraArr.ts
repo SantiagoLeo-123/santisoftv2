@@ -5,7 +5,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Fibrilação atrial: ECG',
     e: 'O ECG da fibrilação atrial mostra:',
-    o: ['Ausência de ondas P, com intervalos RR irregularmente irregulares', 'Ondas F em dente de serra regulares', 'Ondas P antes de cada QRS', 'QRS largo regular'],
+    o: ['Sem ondas P e RR irregularmente irregular', 'Ondas F em dente de serra, ritmo regular', 'Onda P antes de cada QRS, com PR fixo', 'QRS largo e regular, sem ondas P'],
     g: 'A',
     c: 'O flutter mostra ondas F em dente de serra. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Flutter.', C: 'Ritmo sinusal.', D: 'Taquicardia ventricular.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: anticoagulação',
     e: 'O escore usado para decidir anticoagulação na fibrilação atrial não valvar é:',
-    o: ['CHA2DS2-VASc (ou CHA2DS2-VA na diretriz de 2024)', 'HAS-BLED isolado', 'Wells', 'GRACE'],
+    o: ['CHA2DS2-VASc (ou CHA2DS2-VA, em 2024)', 'Escore HAS-BLED, usado isoladamente', 'Escore de Wells, para risco de TEP', 'Escore GRACE, para risco na SCA'],
     g: 'A',
     c: 'O HAS-BLED avalia risco de sangramento, sem contraindicar isoladamente. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Avalia sangramento.', C: 'TEP.', D: 'SCA.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: anticoagulante',
     e: 'Na fibrilação atrial não valvar, os anticoagulantes preferenciais são:',
-    o: ['Anticoagulantes orais diretos (apixabana, rivaroxabana, dabigatrana, edoxabana)', 'AAS', 'Clopidogrel isolado', 'Heparina subcutânea crônica'],
+    o: ['Anticoagulantes orais diretos (DOACs)', 'AAS em dose baixa, como alternativa', 'Clopidogrel isolado, como alternativa', 'Heparina subcutânea crônica, domiciliar'],
     g: 'A',
     c: 'A varfarina é obrigatória em prótese mecânica e estenose mitral moderada a grave. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Não previne adequadamente.', C: 'Insuficiente.', D: 'Não é crônico.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: varfarina',
     e: 'Paciente com fibrilação atrial e prótese valvar mecânica. O anticoagulante é:',
-    o: ['Varfarina, com INR alvo conforme a prótese', 'Dabigatrana', 'Rivaroxabana', 'AAS isolado'],
+    o: ['Varfarina, com INR alvo conforme a prótese', 'Dabigatrana, em dose plena, por via oral', 'Rivaroxabana, em dose plena, por via oral', 'AAS isolado, em dose baixa, por via oral'],
     g: 'A',
     c: 'Anticoagulantes diretos são contraindicados em prótese mecânica. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Contraindicada.', C: 'Contraindicada.', D: 'Insuficiente.' },
@@ -37,7 +37,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: instável',
     e: 'Paciente com fibrilação atrial de alta resposta, hipotensão e confusão. A conduta é:',
-    o: ['Cardioversão elétrica sincronizada imediata', 'Amiodarona oral', 'Digoxina oral', 'Observação'],
+    o: ['Cardioversão elétrica sincronizada imediata', 'Amiodarona oral, em dose de ataque', 'Digoxina oral, em dose de ataque', 'Observação clínica, sem intervenção'],
     g: 'A',
     c: 'Instabilidade hemodinâmica indica cardioversão independente do tempo. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Lento.', C: 'Lento.', D: 'Risco.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: controle de frequência',
     e: 'Paciente com fibrilação atrial estável e FEVE normal. Para controle da frequência, usa-se:',
-    o: ['Betabloqueador ou bloqueador de canal de cálcio não di-hidropiridínico', 'Amiodarona como primeira escolha', 'Adenosina', 'Atropina'],
+    o: ['Betabloqueador ou BCC não di-hidropiridínico', 'Amiodarona como primeira escolha, por via oral', 'Adenosina em bolus, por via intravenosa', 'Atropina em bolus, por via intravenosa'],
     g: 'A',
     c: 'Na FEVE reduzida, evitar verapamil e diltiazém. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Reserva.', C: 'Não controla FA.', D: 'Aumenta FC.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: cardioversão eletiva',
     e: 'Paciente com fibrilação atrial há mais de 48 horas, estável, sem anticoagulação. Antes da cardioversão eletiva:',
-    o: ['Anticoagular por 3 semanas ou excluir trombo com ecocardiograma transesofágico', 'Cardioverter imediatamente', 'Dar AAS por 1 dia', 'Nada'],
+    o: ['Anticoagular 3 semanas ou excluir trombo no ETE', 'Cardioverter imediatamente, sem anticoagular', 'Dar AAS por 1 dia antes de cardioverter', 'Nada, pois a FA terminará sozinha em horas'],
     g: 'A',
     c: 'Manter anticoagulação por pelo menos 4 semanas após. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Risco de AVC.', C: 'Insuficiente.', D: 'Risco.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Flutter atrial',
     e: 'ECG com ondas em dente de serra em DII, DIII e aVF e FC ventricular regular de 150. O diagnóstico é:',
-    o: ['Flutter atrial com condução 2:1', 'Fibrilação atrial', 'Taquicardia sinusal', 'Taquicardia ventricular'],
+    o: ['Flutter atrial com condução 2:1', 'Fibrilação atrial de alta resposta', 'Taquicardia sinusal, a 150 bpm', 'Taquicardia ventricular monomórfica'],
     g: 'A',
     c: 'A ablação do istmo cavotricuspídeo é curativa. Referência: Brugada J et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020;41(5):655-720.',
     x: { B: 'Irregular.', C: 'Ondas P normais.', D: 'QRS largo.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Taquicardia supraventricular',
     e: 'Paciente jovem com taquicardia regular de QRS estreito a 190 bpm, estável. A primeira medida é:',
-    o: ['Manobras vagais (Valsalva modificada)', 'Cardioversão elétrica', 'Amiodarona', 'Digoxina'],
+    o: ['Manobras vagais (Valsalva modificada)', 'Cardioversão elétrica sincronizada imediata', 'Amiodarona intravenosa em infusão', 'Digoxina intravenosa em bolus'],
     g: 'A',
     c: 'Se falharem, adenosina intravenosa em bolus rápido. Referência: Brugada J et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020;41(5):655-720.',
     x: { B: 'Para instáveis.', C: 'Não é primeira.', D: 'Lenta.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Adenosina',
     e: 'A adenosina é administrada:',
-    o: ['Em bolus intravenoso rápido seguido de flush de soro, 6 mg e depois 12 mg', 'Por via oral', 'Em infusão lenta de 1 hora', 'Por via intramuscular'],
+    o: ['Bolus IV rápido com flush: 6 mg e depois 12 mg', 'Por via oral, em dose única de 12 mg', 'Em infusão lenta de 1 hora, por via IV', 'Por via intramuscular, em dose única de 6 mg'],
     g: 'A',
     c: 'Contraindicada em asma grave. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Ineficaz.', C: 'Ineficaz pela meia-vida curta.', D: 'Ineficaz.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Wolff-Parkinson-White',
     e: 'ECG com PR curto, onda delta e QRS alargado. O diagnóstico é:',
-    o: ['Síndrome de pré-excitação (Wolff-Parkinson-White)', 'Bloqueio de ramo', 'Hipercalemia', 'Infarto'],
+    o: ['Síndrome de pré-excitação (Wolff-Parkinson-White)', 'Bloqueio de ramo esquerdo, com QRS largo', 'Hipercalemia, com onda T apiculada', 'Infarto antigo, com onda Q patológica'],
     g: 'A',
     c: 'O tratamento definitivo é a ablação da via acessória. Referência: Brugada J et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020;41(5):655-720.',
     x: { B: 'PR normal.', C: 'T apiculada.', D: 'Sem onda delta.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA pré-excitada',
     e: 'Paciente com WPW em fibrilação atrial com QRS largos e irregulares, estável. Deve-se evitar:',
-    o: ['Bloqueadores do nó AV (adenosina, verapamil, betabloqueador, digoxina)', 'Procainamida', 'Cardioversão elétrica', 'Ibutilida'],
+    o: ['Bloqueadores do nó AV (adenosina, verapamil, BB)', 'Procainamida, por via intravenosa lenta, em bolus', 'Cardioversão elétrica sincronizada, de imediato', 'Ibutilida, por via intravenosa lenta, em bolus'],
     g: 'A',
     c: 'Bloquear o nó favorece condução pela via acessória, com risco de fibrilação ventricular. Referência: Brugada J et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020;41(5):655-720.',
     x: { B: 'Indicada.', C: 'Indicada se instável.', D: 'Pode ser usada.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'TV estável',
     e: 'Tratamento farmacológico da TV monomórfica estável inclui:',
-    o: ['Amiodarona ou procainamida intravenosa', 'Verapamil', 'Adenosina como tratamento', 'Digoxina'],
+    o: ['Amiodarona ou procainamida intravenosa', 'Verapamil intravenoso, em bolus lento', 'Adenosina como tratamento da TV', 'Digoxina intravenosa, em dose de ataque'],
     g: 'A',
     c: 'Cardioversão sincronizada se refratária ou instável. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Pode causar colapso.', C: 'Diagnóstica em casos selecionados.', D: 'Ineficaz.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Torsades de pointes',
     e: 'Paciente com QT longo apresenta taquicardia ventricular polimórfica com torção das pontas. O tratamento é:',
-    o: ['Sulfato de magnésio intravenoso', 'Amiodarona', 'Procainamida', 'Sotalol'],
+    o: ['Sulfato de magnésio intravenoso', 'Amiodarona intravenosa, em bolus', 'Procainamida intravenosa, em bolus', 'Sotalol oral, em dose de ataque'],
     g: 'A',
     c: 'Corrigir hipocalemia e suspender drogas que prolongam o QT. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Prolonga QT.', C: 'Prolonga QT.', D: 'Prolonga QT.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'QT longo: drogas',
     e: 'Medicamentos que prolongam o QT incluem:',
-    o: ['Macrolídeos, quinolonas, antipsicóticos, ondansetrona e amiodarona', 'Paracetamol', 'Omeprazol', 'Vitamina D'],
+    o: ['Macrolídeos, quinolonas, antipsicóticos, ondansetrona', 'Paracetamol em dose habitual, por via oral, por 5 dias', 'Omeprazol em dose habitual, por via oral, por 8 semanas', 'Vitamina D em dose habitual, por via oral, por meses'],
     g: 'A',
     c: 'Cuidado com associações. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Sem efeito.', C: 'Mínimo.', D: 'Sem efeito.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Bradicardia sintomática',
     e: 'Paciente com bradicardia de 35 bpm, hipotensão e confusão. A primeira droga é:',
-    o: ['Atropina 1 mg intravenosa, repetida até 3 mg', 'Adenosina', 'Amiodarona', 'Betabloqueador'],
+    o: ['Atropina 1 mg IV, repetida até 3 mg', 'Adenosina em bolus rápido, por via venosa', 'Amiodarona em bolus, por via venosa', 'Betabloqueador intravenoso, em dose plena'],
     g: 'A',
     c: 'Se ineficaz: marca-passo transcutâneo, dopamina ou adrenalina. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Pioraria.', C: 'Pioraria.', D: 'Pioraria.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'BAV de segundo grau Mobitz I',
     e: 'ECG com prolongamento progressivo do PR até uma onda P não conduzida. O diagnóstico é:',
-    o: ['BAV de segundo grau tipo I (Wenckebach)', 'BAV tipo II', 'BAV total', 'BAV de primeiro grau'],
+    o: ['BAV de 2º grau tipo I (Wenckebach)', 'BAV de 2º grau tipo II (Mobitz II)', 'BAV total, com dissociação AV', 'BAV de 1º grau, com PR fixo > 200 ms'],
     g: 'A',
     c: 'Geralmente benigno, nodal. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'PR fixo.', C: 'Dissociação.', D: 'Sem bloqueio de P.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'BAV Mobitz II',
     e: 'ECG com PR fixo e ondas P bloqueadas subitamente. O diagnóstico e a conduta são:',
-    o: ['BAV de segundo grau tipo II; marca-passo definitivo', 'Wenckebach; observação', 'BAV de primeiro grau; nada', 'Bloqueio sinoatrial; nada'],
+    o: ['BAV de 2º grau tipo II; marca-passo definitivo', 'Wenckebach; apenas observação clínica', 'BAV de 1º grau; nenhuma conduta', 'Bloqueio sinoatrial; nenhuma conduta'],
     g: 'A',
     c: 'É infranodal, com risco de BAV total. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'PR variável.', C: 'Sem bloqueio.', D: 'Outro mecanismo.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'BAV total',
     e: 'ECG com ondas P e QRS sem relação entre si, com FC ventricular de 35. O diagnóstico é:',
-    o: ['Bloqueio atrioventricular total', 'Fibrilação atrial', 'Taquicardia sinusal', 'Flutter'],
+    o: ['Bloqueio atrioventricular total', 'Fibrilação atrial de alta resposta', 'Taquicardia sinusal a 130 bpm', 'Flutter atrial com condução variável'],
     g: 'A',
     c: 'Indica marca-passo definitivo, salvo causa reversível. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Irregular sem P.', C: 'Rápido.', D: 'Ondas F.' },
@@ -165,7 +165,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Doença do nó sinusal',
     e: 'Idoso com síncopes, alternando bradicardia sinusal e episódios de fibrilação atrial rápida. O diagnóstico é:',
-    o: ['Doença do nó sinusal (síndrome bradi-taqui)', 'Wenckebach', 'WPW', 'Brugada'],
+    o: ['Doença do nó sinusal (bradi-taqui)', 'Wenckebach, com intervalo PR crescente', 'WPW, com onda delta e PR curto', 'Brugada, com supra de ST em V1-V2'],
     g: 'A',
     c: 'O tratamento inclui marca-passo e controle da taquicardia. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Outro padrão.', C: 'Onda delta.', D: 'Padrão de V1 e V2.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Amiodarona: efeitos',
     e: 'Efeitos adversos da amiodarona em uso prolongado incluem:',
-    o: ['Disfunção tireoidiana, fibrose pulmonar, hepatotoxicidade e depósitos corneanos', 'Hipercalemia', 'Hiperglicemia', 'Ganho de massa óssea'],
+    o: ['Tireoide, fibrose pulmonar, fígado e depósito corneano', 'Hipercalemia, por bloqueio do canal de potássio', 'Hiperglicemia, por resistência à insulina', 'Ganho de massa óssea, por estímulo osteoblástico'],
     g: 'A',
     c: 'Monitorar TSH, função hepática e pulmonar. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Sem relação.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Hipercalemia: ECG',
     e: 'Achado inicial de hipercalemia no ECG é:',
-    o: ['Ondas T apiculadas', 'Ondas U', 'QT longo isolado', 'Onda delta'],
+    o: ['Ondas T apiculadas, da hipercalemia', 'Ondas U, da hipocalemia', 'QT longo isolado, da hipocalcemia', 'Onda delta, da pré-excitação'],
     g: 'A',
     c: 'Depois: alargamento de QRS, perda da onda P e ritmo sinusoidal. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Hipocalemia.', C: 'Hipocalcemia.', D: 'WPW.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Hipocalemia: ECG',
     e: 'Achados de hipocalemia no ECG incluem:',
-    o: ['Ondas U proeminentes, achatamento de T e infra de ST', 'T apiculada', 'QRS estreito sempre', 'Supra de ST difuso'],
+    o: ['Ondas U proeminentes, T achatada e infra de ST', 'Onda T apiculada, de base estreita', 'QRS estreito sempre, em qualquer caso', 'Supra de ST difuso, da pericardite'],
     g: 'A',
     c: 'Aumenta risco de arritmias e toxicidade digitálica. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Hipercalemia.', C: 'Sem relação.', D: 'Pericardite.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: causas',
     e: 'Causas reversíveis de fibrilação atrial que devem ser investigadas incluem:',
-    o: ['Hipertireoidismo, álcool, pós-operatório, infecção e apneia do sono', 'Hipotireoidismo exclusivamente', 'Asma leve', 'Anemia leve'],
+    o: ['Hipertireoidismo, álcool, pós-operatório, infecção', 'Hipotireoidismo exclusivamente, sem outras causas', 'Asma leve, estável e controlada, sem outras causas', 'Anemia leve, estável e assintomática, sem outras causas'],
     g: 'A',
     c: 'Dosar TSH em todo novo caso. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Menos comum.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: controle de ritmo',
     e: 'Paciente jovem, sintomático, com fibrilação atrial paroxística recente. A estratégia que pode reduzir eventos é:',
-    o: ['Controle precoce do ritmo, inclusive com ablação por cateter', 'Somente controle de FC sempre', 'Nada', 'Apenas AAS'],
+    o: ['Controle precoce do ritmo, inclusive ablação', 'Somente controle da FC, em todos os casos', 'Nada, pois a FA é sempre benigna', 'Apenas AAS, sem anticoagulante nem antiarrítmico'],
     g: 'A',
     c: 'Estudo EAST-AFNET 4. Referência: Kirchhof P et al. Early Rhythm-Control Therapy in Patients with Atrial Fibrillation. N Engl J Med. 2020;383(14):1305-16.',
     x: { B: 'Não sempre.', C: 'Exige conduta.', D: 'Insuficiente.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: oclusão do apêndice',
     e: 'Paciente com fibrilação atrial e alto risco de AVC com contraindicação definitiva à anticoagulação. Uma opção é:',
-    o: ['Oclusão percutânea do apêndice atrial esquerdo', 'AAS isolado como equivalente', 'Nada', 'Digoxina'],
+    o: ['Oclusão percutânea do apêndice atrial esquerdo', 'AAS isolado como equivalente da anticoagulação', 'Nada, mantendo apenas o controle da FC', 'Digoxina isolada, em dose de manutenção'],
     g: 'A',
     c: 'O apêndice atrial é a principal fonte de trombos. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Não equivale.', C: 'Risco de AVC.', D: 'Sem efeito.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Sangramento com varfarina',
     e: 'Paciente em uso de varfarina com hemorragia intracraniana e INR de 4. A reversão inclui:',
-    o: ['Complexo protrombínico (ou plasma) e vitamina K intravenosa', 'Apenas suspender', 'Apenas vitamina K oral', 'Protamina'],
+    o: ['Complexo protrombínico e vitamina K IV', 'Apenas suspender a varfarina e observar', 'Apenas vitamina K oral, em dose baixa', 'Sulfato de protamina, por via intravenosa'],
     g: 'A',
     c: 'O complexo protrombínico age mais rápido. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Lento.', C: 'Lento.', D: 'Heparina.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Extrassístoles',
     e: 'Paciente assintomático com extrassístoles ventriculares isoladas e coração estruturalmente normal. A conduta é:',
-    o: ['Tranquilizar, sem tratamento antiarrítmico', 'Amiodarona', 'Ablação imediata', 'CDI'],
+    o: ['Tranquilizar, sem tratamento antiarrítmico', 'Amiodarona oral, em dose de manutenção', 'Ablação imediata, por cateter', 'CDI, para prevenção primária'],
     g: 'A',
     c: 'Avaliar se carga for muito alta (risco de cardiomiopatia). Referência: Zeppenfeld K et al. 2022 ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126.',
     x: { B: 'Sem indicação.', C: 'Sem indicação.', D: 'Sem indicação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Taquicardia sinusal inapropriada',
     e: 'Mulher jovem com FC de repouso acima de 100, sem causa secundária, com sintomas. O diagnóstico é:',
-    o: ['Taquicardia sinusal inapropriada', 'TSV', 'Flutter', 'TV'],
+    o: ['Taquicardia sinusal inapropriada', 'TSV por reentrada nodal, com QRS estreito', 'Flutter atrial, com ondas F', 'TV monomórfica sustentada, com QRS largo'],
     g: 'A',
     c: 'Excluir hipertireoidismo, anemia e uso de substâncias. Referência: Brugada J et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020;41(5):655-720.',
     x: { B: 'Início súbito e P ausente.', C: 'Ondas F.', D: 'QRS largo.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'POTS',
     e: 'Jovem com aumento da FC de mais de 30 bpm ao ficar em pé, sem hipotensão, com tontura e intolerância ortostática. O diagnóstico é:',
-    o: ['Síndrome postural ortostática taquicardizante', 'Hipotensão ortostática', 'Arritmia ventricular', 'Epilepsia'],
+    o: ['Síndrome postural ortostática taquicardizante', 'Hipotensão ortostática, com queda da PA', 'Arritmia ventricular, com síncope', 'Epilepsia, com crise tônico-clônica'],
     g: 'A',
     c: 'Tratamento com hidratação, sal, meias e exercício. Referência: Brugada J et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020;41(5):655-720.',
     x: { B: 'Haveria queda da PA.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Síncope: avaliação',
     e: 'Sinais de alto risco em síncope incluem:',
-    o: ['Síncope ao esforço, em decúbito, com palpitações prévias, cardiopatia estrutural ou ECG anormal', 'Síncope após ficar em pé muito tempo com pródromo', 'Síncope com dor e visão de sangue', 'Síncope ao urinar'],
+    o: ['Ao esforço, deitado, com palpitações ou cardiopatia', 'Síncope após ficar em pé muito tempo, com pródromo', 'Síncope com dor e visão de sangue, vasovagal', 'Síncope ao urinar, situacional, benigna'],
     g: 'A',
     c: 'Exigem investigação cardiológica. Referência: Brignole M et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018;39(21):1883-948.',
     x: { B: 'Vasovagal.', C: 'Vasovagal.', D: 'Situacional.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Marca-passo: indicação',
     e: 'É indicação de marca-passo definitivo:',
-    o: ['BAV total ou de segundo grau tipo II, mesmo assintomático', 'BAV de primeiro grau assintomático', 'Bradicardia sinusal em atleta', 'Wenckebach noturno assintomático'],
+    o: ['BAV total ou 2º grau tipo II, mesmo assintomático', 'BAV de primeiro grau assintomático, estável', 'Bradicardia sinusal em atleta, assintomático', 'Wenckebach noturno assintomático, benigno'],
     g: 'A',
     c: 'Também bradicardia sintomática sem causa reversível. Referência: Glikson M et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. Eur Heart J. 2021;42(35):3427-520.',
     x: { B: 'Sem indicação.', C: 'Fisiológico.', D: 'Benigno.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Bradicardia: causas reversíveis',
     e: 'Antes de indicar marca-passo, deve-se excluir causas reversíveis de bradicardia, como:',
-    o: ['Hipercalemia, hipotireoidismo, betabloqueadores e infarto inferior agudo', 'Asma', 'Anemia leve', 'Hiperglicemia'],
+    o: ['Hipercalemia, hipotireoidismo, betabloqueador, infarto inferior', 'Asma brônquica, estável e controlada, sem fármacos', 'Anemia leve, estável e assintomática, sem fármacos', 'Hiperglicemia, estável e assintomática, sem fármacos'],
     g: 'A',
     c: 'A correção pode dispensar marca-passo. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Sem relação.', C: 'Taquicardia.', D: 'Sem relação.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Taquicardia: estabilidade',
     e: 'São sinais de instabilidade em taquiarritmia:',
-    o: ['Hipotensão, alteração do nível de consciência, dor torácica isquêmica e IC aguda', 'Palpitação isolada', 'Ansiedade', 'Sudorese leve'],
+    o: ['Hipotensão, torpor, dor isquêmica ou IC aguda', 'Palpitação isolada, sem outros sintomas associados', 'Ansiedade associada, sem repercussão hemodinâmica', 'Sudorese leve, sem outros sintomas associados'],
     g: 'A',
     c: 'Indicam cardioversão elétrica sincronizada. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Estável.', C: 'Estável.', D: 'Insuficiente.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Cardioversão sincronizada',
     e: 'A cardioversão sincronizada é usada em:',
-    o: ['Taquiarritmias com pulso instáveis (FA, flutter, TSV, TV monomórfica)', 'Fibrilação ventricular', 'Assistolia', 'AESP'],
+    o: ['Taquiarritmias com pulso e instabilidade (FA, flutter, TSV)', 'Fibrilação ventricular, sem pulso: desfibrilar, não cardioverter', 'Assistolia, sem pulso: não é ritmo chocável', 'AESP, sem pulso: não é ritmo chocável'],
     g: 'A',
     c: 'Na FV e TV sem pulso usa-se desfibrilação não sincronizada. Referência: Panchal AR et al. Part 3: Adult Basic and Advanced Life Support: 2020 AHA Guidelines for CPR and ECC. Circulation. 2020;142(16 Suppl 2):S366-468.',
     x: { B: 'Desfibrilação.', C: 'Não chocável.', D: 'Não chocável.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'TV polimórfica',
     e: 'TV polimórfica sem QT longo, em contexto de isquemia aguda. O tratamento envolve:',
-    o: ['Tratar a isquemia (revascularização), com amiodarona e betabloqueador', 'Apenas magnésio', 'Adenosina', 'Verapamil'],
+    o: ['Tratar a isquemia, com amiodarona e betabloqueador', 'Apenas sulfato de magnésio, sem outras medidas', 'Adenosina em bolus, por via intravenosa', 'Verapamil intravenoso, em bolus lento'],
     g: 'A',
     c: 'O magnésio é específico para torsades. Referência: Zeppenfeld K et al. 2022 ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126.',
     x: { B: 'Insuficiente.', C: 'Ineficaz.', D: 'Contraindicado.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Tempestade elétrica',
     e: 'Paciente com CDI recebendo múltiplos choques por TV recorrente. O manejo inclui:',
-    o: ['Sedação, betabloqueador, amiodarona e avaliação para ablação', 'Retirar o CDI', 'Nada', 'Adenosina'],
+    o: ['Sedação, betabloqueador, amiodarona e ablação', 'Retirar o CDI, para evitar os choques', 'Nada, pois os choques repetidos são inofensivos', 'Adenosina em bolus, por via intravenosa rápida'],
     g: 'A',
     c: 'Investigar isquemia e distúrbios eletrolíticos. Referência: Zeppenfeld K et al. 2022 ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Ineficaz.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'QT longo congênito',
     e: 'Adolescente com síncope ao susto e QTc de 500 ms. O tratamento inicial é:',
-    o: ['Betabloqueador (como nadolol ou propranolol) e evitar drogas que prolongam o QT', 'Amiodarona', 'Sotalol', 'Nada'],
+    o: ['Betabloqueador e evitar drogas que prolongam o QT', 'Amiodarona oral, em dose de manutenção', 'Sotalol oral, em dose de manutenção', 'Nada, pois é achado sem importância'],
     g: 'A',
     c: 'O CDI é considerado em alto risco. Referência: Zeppenfeld K et al. 2022 ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126.',
     x: { B: 'Prolonga QT.', C: 'Prolonga QT.', D: 'Risco.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: digoxina',
     e: 'Na fibrilação atrial com IC e hipotensão, uma opção para controle da FC é:',
-    o: ['Digoxina ou amiodarona intravenosa', 'Verapamil', 'Diltiazém', 'Betabloqueador em dose alta'],
+    o: ['Digoxina ou amiodarona intravenosa', 'Verapamil intravenoso, em bolus lento', 'Diltiazém intravenoso, em bolus lento', 'Betabloqueador em dose alta, na IC aguda'],
     g: 'A',
     c: 'Evitar inotrópicos negativos na hipotensão. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Inotrópico negativo.', C: 'Inotrópico negativo.', D: 'Risco de hipotensão.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA e hipertireoidismo',
     e: 'Paciente com fibrilação atrial e hipertireoidismo. O controle de FC é feito preferencialmente com:',
-    o: ['Betabloqueador, como propranolol', 'Digoxina isolada', 'Adenosina', 'Atropina'],
+    o: ['Betabloqueador, como propranolol', 'Digoxina isolada, em dose de manutenção', 'Adenosina em bolus, por via intravenosa', 'Atropina em bolus, por via intravenosa'],
     g: 'A',
     c: 'Tratar o hipertireoidismo restaura o ritmo frequentemente. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Menos eficaz.', C: 'Ineficaz.', D: 'Pioraria.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'FA: AVC',
     e: 'Na fibrilação atrial, o risco de AVC é maior com:',
-    o: ['Idade avançada, AVC prévio, IC, hipertensão e diabetes', 'Juventude sem comorbidades', 'Atividade física', 'Sexo masculino isolado'],
+    o: ['Idade avançada, AVC prévio, IC, hipertensão, diabetes', 'Juventude, sem comorbidades associadas', 'Atividade física regular, em qualquer nível', 'Sexo masculino, como fator isolado'],
     g: 'A',
     c: 'São componentes do escore. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Baixo risco.', C: 'Sem relação.', D: 'Isolado não.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Fibrilação atrial: sintomas',
     e: 'Paciente com fibrilação atrial de início recente, estável, menos de 24 horas e sem cardiopatia. Uma opção é:',
-    o: ['Aguardar reversão espontânea com controle de FC, ou cardioversão farmacológica ou elétrica', 'Anticoagular por 3 semanas obrigatoriamente', 'Ablação imediata', 'Nada nunca'],
+    o: ['Aguardar reversão espontânea ou cardioverter', 'Anticoagular por 3 semanas, obrigatoriamente, sempre', 'Ablação imediata, em todos os casos de início recente', 'Nada, nunca tratar a FA de início recente'],
     g: 'A',
     c: 'Muitos episódios recentes revertem sozinhos (estudo RACE 7). Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Não obrigatório em menos de 48 horas com baixo risco.', C: 'Não imediato.', D: 'Há opções.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'ECG: QRS largo',
     e: 'Critério que favorece TV em taquicardia de QRS largo é:',
-    o: ['Dissociação atrioventricular, batimentos de fusão e captura', 'Resposta à adenosina', 'Bloqueio de ramo prévio idêntico', 'Paciente jovem sem cardiopatia'],
+    o: ['Dissociação AV, batimentos de fusão e de captura', 'Resposta à adenosina, com término da taquicardia', 'Bloqueio de ramo prévio idêntico ao ECG basal', 'Paciente jovem sem cardiopatia estrutural'],
     g: 'A',
     c: 'Os critérios de Brugada e Vereckei ajudam. Referência: Zeppenfeld K et al. 2022 ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997-4126.',
     x: { B: 'Favorece TSV.', C: 'Favorece aberrância.', D: 'Favorece TSV.' },
@@ -397,7 +397,7 @@ export const CM2_EXTRA_ARR: QuestaoCompacta[] = [
   {
     s: 'Anticoagulação: HAS-BLED alto',
     e: 'Paciente com fibrilação atrial, CHA2DS2-VASc de 4 e HAS-BLED de 3. A conduta é:',
-    o: ['Anticoagular e corrigir fatores de sangramento modificáveis', 'Não anticoagular pelo HAS-BLED', 'Usar AAS', 'Nada'],
+    o: ['Anticoagular e corrigir fatores de sangramento', 'Não anticoagular, pelo escore HAS-BLED alto', 'Usar AAS no lugar da anticoagulação', 'Nada, pois o risco de AVC é baixo'],
     g: 'A',
     c: 'O HAS-BLED alto não contraindica isoladamente. Referência: Van Gelder IC et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314-414.',
     x: { B: 'Equívoco comum.', C: 'Insuficiente.', D: 'Risco de AVC.' },

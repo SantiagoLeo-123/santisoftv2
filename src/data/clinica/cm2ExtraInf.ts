@@ -5,7 +5,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Definição universal',
     e: 'Pela quarta definição universal, infarto agudo do miocárdio exige:',
-    o: ['Elevação e/ou queda de troponina com ao menos um valor acima do percentil 99, associada a evidência clínica de isquemia', 'Apenas troponina elevada', 'Apenas dor torácica', 'Apenas alteração no ECG'],
+    o: ['Troponina com subida/queda (> p99) e evidência clínica de isquemia', 'Apenas troponina elevada, sem contexto clínico de isquemia', 'Apenas dor torácica típica, sem marcador de necrose', 'Apenas alteração no ECG, sem marcador de necrose'],
     g: 'A',
     c: 'Sem evidência de isquemia, fala-se em lesão miocárdica. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'É lesão miocárdica.', C: 'Insuficiente.', D: 'Insuficiente.' },
@@ -13,7 +13,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Lesão miocárdica',
     e: 'Paciente com sepse, troponina elevada estável e sem sintomas ou alterações de isquemia. O termo correto é:',
-    o: ['Lesão miocárdica (não isquêmica ou crônica)', 'Infarto tipo 1', 'Infarto tipo 5', 'Angina instável'],
+    o: ['Lesão miocárdica (não isquêmica ou crônica)', 'Infarto tipo 1, por ruptura de placa aterosclerótica', 'Infarto tipo 5, relacionado à cirurgia de revascularização', 'Angina instável, com dor em repouso e troponina normal'],
     g: 'A',
     c: 'A troponina reflete dano, não necessariamente infarto. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Exige isquemia.', C: 'Pós-cirurgia cardíaca.', D: 'Troponina normal.' },
@@ -21,7 +21,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto tipo 1',
     e: 'O infarto tipo 1 é causado por:',
-    o: ['Evento aterotrombótico coronariano (ruptura ou erosão de placa)', 'Desequilíbrio entre oferta e demanda sem trombose', 'Morte súbita', 'Procedimento coronariano'],
+    o: ['Evento aterotrombótico coronariano (ruptura ou erosão de placa)', 'Desequilíbrio entre oferta e demanda, sem trombose coronariana', 'Morte súbita cardíaca, sem biomarcadores disponíveis', 'Complicação de um procedimento coronariano percutâneo'],
     g: 'A',
     c: 'É o infarto clássico. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Tipo 2.', C: 'Tipo 3.', D: 'Tipos 4 e 5.' },
@@ -29,7 +29,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto tipo 2',
     e: 'Paciente com anemia grave e taquicardia apresenta dor torácica, troponina em elevação e infradesnivelamento de ST, sem trombose coronariana. O tipo de infarto é:',
-    o: ['Tipo 2 (desequilíbrio entre oferta e demanda de oxigênio)', 'Tipo 1', 'Tipo 3', 'Tipo 4a'],
+    o: ['Tipo 2 (desequilíbrio oferta-demanda de O2)', 'Tipo 1, por ruptura de placa e trombose coronariana', 'Tipo 3, com morte súbita sem biomarcadores', 'Tipo 4a, relacionado à angioplastia coronariana'],
     g: 'A',
     c: 'Outras causas: hipotensão, hipoxemia, taquiarritmia e vasoespasmo. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Exige trombose.', C: 'Morte antes da troponina.', D: 'Relacionado à angioplastia.' },
@@ -45,7 +45,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto tipo 4a',
     e: 'Infarto relacionado à angioplastia (tipo 4a) é definido por:',
-    o: ['Elevação de troponina acima de 5 vezes o percentil 99 nas primeiras 48 horas, com evidência de nova isquemia', 'Qualquer elevação mínima de troponina', 'Dor torácica sem troponina', 'Trombose tardia do stent sem troponina'],
+    o: ['Troponina > 5x p99 em 48 h, com nova isquemia', 'Qualquer elevação mínima de troponina, sem isquemia', 'Dor torácica pós-procedimento, sem elevação de troponina', 'Trombose tardia do stent, sem elevação de troponina'],
     g: 'A',
     c: 'Tipo 4b: trombose de stent. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Tipo 4b exige evidência.' },
@@ -53,7 +53,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto tipo 5',
     e: 'Infarto relacionado à cirurgia de revascularização (tipo 5) exige troponina acima de:',
-    o: ['10 vezes o percentil 99, com novas ondas Q, nova oclusão ou nova perda de miocárdio viável', '2 vezes o normal', 'Percentil 99', 'Nenhum valor'],
+    o: ['10x o p99, com novas ondas Q ou nova oclusão do enxerto', '2 vezes o limite superior do normal, de forma isolada', 'O percentil 99, sem qualquer outro critério adicional', 'Nenhum valor mínimo de troponina é exigido'],
     g: 'A',
     c: 'O limiar é maior pela lesão cirúrgica esperada. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'Exige.' },
@@ -61,7 +61,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'IAM com supra: critérios',
     e: 'Supradesnivelamento de ST diagnóstico de IAM em derivações contíguas, em homem acima de 40 anos, nas derivações V2 e V3, é de:',
-    o: ['2 mm ou mais', '0,5 mm', '5 mm', 'Qualquer valor'],
+    o: ['2 mm ou mais, em derivações contíguas', '0,5 mm, em duas derivações contíguas', '5 mm, em duas derivações contíguas', 'Qualquer valor de supra, em qualquer derivação'],
     g: 'A',
     c: 'Nas demais derivações, 1 mm ou mais. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Insuficiente.', C: 'Excessivo.', D: 'Há critério.' },
@@ -69,7 +69,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'IAM com supra: reperfusão',
     e: 'Paciente com IAM com supra de ST há 2 horas, em hospital com hemodinâmica disponível. A estratégia preferida é:',
-    o: ['Angioplastia primária, com tempo porta-balão de até 90 minutos', 'Trombólise obrigatória', 'Tratamento clínico isolado', 'Cirurgia de revascularização imediata'],
+    o: ['Angioplastia primária; porta-balão ≤ 90 minutos', 'Trombólise obrigatória, mesmo com hemodinâmica disponível', 'Tratamento clínico isolado, sem reperfusão coronariana', 'Cirurgia de revascularização imediata, sem cateterismo'],
     g: 'A',
     c: 'Se a angioplastia não puder ser feita em 120 minutos do diagnóstico, trombolisar. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Segunda opção.', C: 'Insuficiente.', D: 'Não é primeira.' },
@@ -77,7 +77,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Trombólise',
     e: 'Quando indicada, a trombólise no IAM com supra deve ser feita com tempo porta-agulha de até:',
-    o: ['10 minutos após o diagnóstico no ECG (ou 30 minutos da chegada)', '6 horas', '24 horas', '2 horas'],
+    o: ['10 minutos após o ECG (ou 30 min da chegada)', '6 horas após o diagnóstico no eletrocardiograma', '24 horas após o diagnóstico no eletrocardiograma', '2 horas após o diagnóstico no eletrocardiograma'],
     g: 'A',
     c: 'O benefício é maior nas primeiras horas, até 12 horas do início. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Tardio.', C: 'Tardio.', D: 'Tardio.' },
@@ -85,7 +85,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Trombólise: contraindicação',
     e: 'É contraindicação absoluta à trombólise:',
-    o: ['AVC hemorrágico prévio em qualquer época ou isquêmico nos últimos 6 meses', 'Hipertensão controlada', 'Idade de 70 anos', 'Diabetes'],
+    o: ['AVC hemorrágico prévio ou isquêmico nos últimos 6 meses', 'Hipertensão arterial controlada, em uso de medicação', 'Idade de 70 anos, sem outras contraindicações', 'Diabetes mellitus, mesmo com bom controle glicêmico'],
     g: 'A',
     c: 'Também: neoplasia intracraniana, sangramento ativo e dissecção de aorta. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Não contraindica.', C: 'Não contraindica.', D: 'Não contraindica.' },
@@ -93,7 +93,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Critérios de reperfusão',
     e: 'Após trombólise, são critérios de reperfusão:',
-    o: ['Redução de mais de 50% do supra de ST em 60 a 90 minutos, alívio da dor e arritmias de reperfusão', 'Aumento do supra', 'Piora da dor', 'Bradicardia persistente sem melhora'],
+    o: ['Queda > 50% do supra em 60-90 min, alívio da dor, arritmias', 'Aumento do supra de ST, em 60 a 90 minutos', 'Piora da dor torácica, em 60 a 90 minutos', 'Bradicardia persistente, sem melhora da dor ou do ECG'],
     g: 'A',
     c: 'Sem reperfusão, indica-se angioplastia de resgate. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Falha.', C: 'Falha.', D: 'Não é critério.' },
@@ -101,7 +101,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Estratégia fármaco-invasiva',
     e: 'Após trombólise bem-sucedida, a conduta recomendada é:',
-    o: ['Cateterismo entre 2 e 24 horas', 'Nenhum cateterismo', 'Cateterismo após 6 meses', 'Cirurgia imediata'],
+    o: ['Cateterismo entre 2 e 24 horas', 'Nenhum cateterismo, apenas tratamento clínico', 'Cateterismo apenas após 6 meses de evolução', 'Cirurgia de revascularização imediata, sem cateterismo'],
     g: 'A',
     c: 'É a estratégia fármaco-invasiva. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Recomendado.', C: 'Tardio.', D: 'Não é rotina.' },
@@ -109,7 +109,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto de VD',
     e: 'Paciente com IAM inferior, hipotensão, turgência jugular e pulmões limpos. A hipótese e a conduta são:',
-    o: ['Infarto de ventrículo direito; volume e evitar nitrato e diurético', 'IC esquerda; diurético', 'Tamponamento; punção', 'Pneumotórax; drenagem'],
+    o: ['IAM de VD: volume; evitar nitrato e diurético', 'IC esquerda: diurético e nitrato venoso', 'Tamponamento cardíaco: punção pericárdica urgente', 'Pneumotórax hipertensivo: drenagem torácica urgente'],
     g: 'A',
     c: 'Derivações V3R e V4R confirmam. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Pulmões congestos.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -117,7 +117,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'IAM inferior',
     e: 'Supradesnivelamento de ST em DII, DIII e aVF indica infarto de parede:',
-    o: ['Inferior, geralmente pela coronária direita', 'Anterior', 'Lateral alta', 'Septal'],
+    o: ['Inferior, geralmente pela coronária direita', 'Anterior, geralmente pela descendente anterior', 'Lateral alta, geralmente pela circunflexa', 'Septal, geralmente pela descendente anterior'],
     g: 'A',
     c: 'Pode cursar com bradicardia e bloqueio AV. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'V1 a V4.', C: 'DI e aVL.', D: 'V1 e V2.' },
@@ -125,7 +125,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'IAM anterior',
     e: 'Supra de ST de V1 a V4 indica oclusão de:',
-    o: ['Artéria descendente anterior', 'Coronária direita', 'Circunflexa isolada', 'Tronco sempre'],
+    o: ['Artéria descendente anterior', 'Coronária direita, com infarto de parede inferior', 'Circunflexa isolada, com infarto de parede lateral', 'Tronco da coronária esquerda, em todos os casos'],
     g: 'A',
     c: 'É o infarto de pior prognóstico. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Inferior.', C: 'Lateral.', D: 'Não necessariamente.' },
@@ -133,7 +133,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Bloqueio de ramo esquerdo',
     e: 'Paciente com dor torácica típica e bloqueio de ramo esquerdo novo ou presumivelmente novo, instável. A conduta é:',
-    o: ['Tratar como equivalente de IAM com supra e indicar reperfusão', 'Ignorar o BRE', 'Alta', 'Apenas teste ergométrico'],
+    o: ['Tratar como equivalente de IAM com supra; reperfusão', 'Ignorar o BRE, por ser alteração inespecífica', 'Alta hospitalar, com retorno em caso de piora', 'Apenas teste ergométrico, em ambulatório'],
     g: 'A',
     c: 'Os critérios de Sgarbossa ajudam. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Risco.', C: 'Risco.', D: 'Contraindicado.' },
@@ -141,7 +141,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Oclusão coronariana sem supra',
     e: 'Paciente com dor contínua refratária, instabilidade e ECG sem supra clássico. A conduta é:',
-    o: ['Cateterismo imediato, pela suspeita de oclusão coronariana aguda', 'Aguardar 24 horas', 'Alta', 'Teste ergométrico'],
+    o: ['Cateterismo imediato, por suspeita de oclusão aguda', 'Aguardar 24 horas, com nova dosagem de troponina', 'Alta hospitalar, com acompanhamento ambulatorial', 'Teste ergométrico, em ambulatório, na semana seguinte'],
     g: 'A',
     c: 'O conceito de infarto por oclusão (OMI) amplia as indicações. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Risco.', C: 'Inadequado.', D: 'Contraindicado.' },
@@ -149,7 +149,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Choque cardiogênico',
     e: 'Paciente com IAM extenso evolui com hipotensão, hipoperfusão e congestão. A medida com maior impacto na sobrevida é:',
-    o: ['Revascularização de emergência da artéria culpada', 'Apenas diurético', 'Apenas fluidos', 'Trombólise tardia isolada'],
+    o: ['Revascularização de emergência da artéria culpada', 'Apenas diurético de alça, em dose alta', 'Apenas fluidos venosos, em grande quantidade', 'Trombólise tardia isolada, após 24 horas'],
     g: 'A',
     c: 'Suporte com inotrópico, vasopressor e, se necessário, assistência circulatória. Referência: Hochman JS et al. Early revascularization in acute myocardial infarction complicated by cardiogenic shock (SHOCK). N Engl J Med. 1999;341(9):625-34.',
     x: { B: 'Insuficiente.', C: 'Pioraria.', D: 'Menos eficaz.' },
@@ -157,7 +157,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Morfina no IAM',
     e: 'Sobre a morfina no IAM, é correto afirmar:',
-    o: ['Deve ser usada com cautela, apenas para dor refratária, pois pode atrasar a absorção de antiplaquetários orais', 'É obrigatória em todos', 'É contraindicada absolutamente', 'Substitui o nitrato'],
+    o: ['Usar com cautela, só na dor refratária; pode atrasar antiplaquetários', 'É obrigatória em todos os pacientes com IAM, desde a admissão', 'É absolutamente contraindicada no IAM, em qualquer situação clínica', 'Substitui o nitrato no controle da dor isquêmica, em todos os casos'],
     g: 'A',
     c: 'O oxigênio também não deve ser rotina se a saturação for normal. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Não é obrigatória.', C: 'Pode ser usada.', D: 'Não substitui.' },
@@ -173,7 +173,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Arritmia de reperfusão',
     e: 'Ritmo idioventricular acelerado após trombólise geralmente indica:',
-    o: ['Reperfusão, e costuma ser benigno, sem tratamento', 'Falha da trombólise', 'Necessidade de amiodarona', 'Choque'],
+    o: ['Reperfusão; costuma ser benigno, sem tratamento', 'Falha da trombólise, exigindo cateterismo imediato', 'Necessidade de amiodarona venosa, em dose de ataque', 'Choque cardiogênico iminente, com mau prognóstico'],
     g: 'A',
     c: 'É autolimitado. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Indica sucesso.', C: 'Desnecessário.', D: 'Sem relação.' },
@@ -181,7 +181,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Fibrilação ventricular no IAM',
     e: 'Fibrilação ventricular nas primeiras 48 horas do IAM. Sobre o cardiodesfibrilador implantável:',
-    o: ['Não está indicado de rotina por esse evento precoce isolado', 'É indicado sempre', 'É contraindicado sempre', 'É indicado no mesmo dia'],
+    o: ['Não indicado de rotina por esse evento precoce isolado', 'É sempre indicado, em qualquer fibrilação ventricular', 'É sempre contraindicado, em qualquer situação', 'É indicado no mesmo dia, antes da alta hospitalar'],
     g: 'A',
     c: 'A indicação depende da fração de ejeção após 40 dias. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Não sempre.', C: 'Não absoluto.', D: 'Não é rotina.' },
@@ -189,7 +189,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Ecocardiograma pós-IAM',
     e: 'Após IAM, o ecocardiograma avalia:',
-    o: ['Fração de ejeção, alterações de contratilidade, complicações mecânicas e trombos', 'Apenas o pericárdio', 'Apenas as valvas', 'Nada relevante'],
+    o: ['FE, contratilidade, complicações mecânicas e trombos', 'Apenas o pericárdio, sem avaliar o miocárdio', 'Apenas as valvas cardíacas, sem avaliar a função', 'Nada de relevante, pois o ECG basta no pós-infarto'],
     g: 'A',
     c: 'A fração de ejeção orienta o tratamento. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Insuficiente.', C: 'Insuficiente.', D: 'É relevante.' },
@@ -197,7 +197,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Supra de ST: diferenciais',
     e: 'Causas de supradesnivelamento de ST não isquêmicas incluem:',
-    o: ['Pericardite, repolarização precoce, hipertrofia ventricular esquerda, Brugada e hipercalemia', 'Apenas infarto', 'Hipocalemia', 'Hipotireoidismo'],
+    o: ['Pericardite, repolarização precoce, HVE, Brugada, hipercalemia', 'Apenas infarto agudo do miocárdio, sem outras causas', 'Hipocalemia, que causa infra de ST e onda U', 'Hipotireoidismo, que causa bradicardia e baixa voltagem'],
     g: 'A',
     c: 'O contexto clínico e a evolução ajudam. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Há outras.', C: 'Causa U.', D: 'Sem relação.' },
@@ -205,7 +205,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto prévio',
     e: 'Ondas Q patológicas novas no ECG, sem quadro agudo, indicam:',
-    o: ['Infarto prévio (silencioso ou não)', 'Isquemia aguda', 'Pericardite', 'Hipercalemia'],
+    o: ['Infarto prévio (silencioso ou não)', 'Isquemia aguda, com dor torácica em curso', 'Pericardite aguda, com supra difuso de ST', 'Hipercalemia, com ondas T apiculadas'],
     g: 'A',
     c: 'Exames de imagem podem confirmar perda de miocárdio viável. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Não aguda.', C: 'Sem relação.', D: 'Sem relação.' },
@@ -213,7 +213,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Troponina: curva',
     e: 'Para diferenciar lesão aguda de crônica, a troponina:',
-    o: ['Deve mostrar curva de elevação e/ou queda maior que 20% em dosagens seriadas', 'Precisa de uma só dosagem', 'Não varia', 'Só é útil se normal'],
+    o: ['Mostrar elevação ou queda > 20% em dosagens seriadas', 'Basta uma só dosagem, sem repetição', 'Não varia, pois é sempre estável no tempo', 'Só é útil se estiver normal, para excluir lesão'],
     g: 'A',
     c: 'Valores estáveis sugerem lesão crônica. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Insuficiente.', C: 'Varia na aguda.', D: 'Sem sentido.' },
@@ -221,7 +221,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Takotsubo',
     e: 'Mulher pós-menopausa, após forte estresse emocional, com dor torácica, supra de ST, troponina pouco elevada, coronárias normais e balonamento apical do VE. O diagnóstico é:',
-    o: ['Cardiomiopatia de Takotsubo', 'Infarto tipo 1', 'Pericardite', 'Miocardite sempre'],
+    o: ['Cardiomiopatia de Takotsubo', 'Infarto tipo 1, por oclusão trombótica de placa', 'Pericardite aguda, com dor pleurítica', 'Miocardite aguda, em todos os casos'],
     g: 'A',
     c: 'Geralmente reverte em semanas. Referência: Ghadri JR et al. International Expert Consensus Document on Takotsubo Syndrome (Part I). Eur Heart J. 2018;39(22):2032-46.',
     x: { B: 'Coronárias normais.', C: 'Sem atrito.', D: 'Padrão sugere Takotsubo.' },
@@ -237,7 +237,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto perioperatório',
     e: 'Idoso em pós-operatório de cirurgia de quadril com troponina elevada e taquicardia, sem dor. Isso pode representar:',
-    o: ['Lesão miocárdica após cirurgia não cardíaca, associada a pior prognóstico', 'Achado sem importância', 'Erro laboratorial sempre', 'Infarto tipo 5'],
+    o: ['Lesão miocárdica pós-cirurgia não cardíaca; pior prognóstico', 'Achado sem importância, sem repercussão clínica', 'Erro laboratorial, em todos os casos de elevação', 'Infarto tipo 5, relacionado à revascularização'],
     g: 'A',
     c: 'Deve-se investigar e otimizar o tratamento. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Tem importância.', C: 'Não necessariamente.', D: 'Tipo 5 é cirurgia cardíaca.' },
@@ -245,7 +245,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Troponina e insuficiência renal',
     e: 'Paciente com doença renal crônica e troponina discretamente elevada e estável. A interpretação é:',
-    o: ['Pode ser lesão crônica; o diagnóstico de infarto exige curva e quadro clínico', 'Infarto certo', 'Troponina não é útil na DRC', 'Indica diálise'],
+    o: ['Pode ser lesão crônica; infarto exige curva e clínica', 'Infarto certo, pela elevação isolada da troponina', 'Troponina não é útil na DRC, em nenhuma situação', 'Indica diálise imediata, pela elevação de troponina'],
     g: 'A',
     c: 'A curva dinâmica é essencial. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Não certo.', C: 'É útil.', D: 'Sem relação.' },
@@ -253,7 +253,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Trombose de stent',
     e: 'Paciente com stent recente que suspendeu a dupla antiagregação e tem dor e supra de ST no território. O diagnóstico é:',
-    o: ['Trombose de stent (infarto tipo 4b)', 'Infarto tipo 2', 'Pericardite', 'Infarto tipo 5'],
+    o: ['Trombose de stent (infarto tipo 4b)', 'Infarto tipo 2, por desequilíbrio oferta-demanda', 'Pericardite aguda, com supra difuso de ST', 'Infarto tipo 5, relacionado à cirurgia de revascularização'],
     g: 'A',
     c: 'Exige angioplastia imediata. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Sem desequilíbrio.', C: 'Sem atrito.', D: 'Cirurgia.' },
@@ -261,7 +261,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'IAM: tempo de isquemia',
     e: 'O principal determinante da extensão do infarto é:',
-    o: ['Tempo de isquemia até a reperfusão', 'Idade', 'Sexo', 'Altura'],
+    o: ['Tempo de isquemia até a reperfusão', 'Idade do paciente no momento do infarto', 'Sexo do paciente no momento do infarto', 'Altura do paciente no momento do infarto'],
     g: 'A',
     c: 'Tempo é músculo. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Menor impacto.', C: 'Menor impacto.', D: 'Sem relação.' },
@@ -269,7 +269,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Pré-hospitalar',
     e: 'Paciente com dor torácica típica atendido pelo SAMU. A medida que reduz o tempo até a reperfusão é:',
-    o: ['ECG pré-hospitalar com transmissão e encaminhamento direto à hemodinâmica', 'Levar ao posto mais próximo sem ECG', 'Aguardar a troponina', 'Transporte particular'],
+    o: ['ECG pré-hospitalar com envio direto à hemodinâmica', 'Levar ao posto mais próximo, sem fazer ECG', 'Aguardar o resultado da troponina, antes de agir', 'Transporte particular, sem avaliação do SAMU'],
     g: 'A',
     c: 'Redes de atendimento ao IAM reduzem mortalidade. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Atrasa.', C: 'Atrasa.', D: 'Atrasa.' },
@@ -277,7 +277,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Complicação: ruptura de parede',
     e: 'Paciente com IAM extenso há 5 dias evolui com dissociação eletromecânica súbita e tamponamento. O diagnóstico é:',
-    o: ['Ruptura de parede livre do ventrículo esquerdo', 'Reinfarto', 'Pericardite', 'Arritmia simples'],
+    o: ['Ruptura de parede livre do ventrículo esquerdo', 'Reinfarto, com nova elevação de troponina', 'Pericardite pós-infarto, com atrito pericárdico', 'Arritmia simples, sem repercussão hemodinâmica'],
     g: 'A',
     c: 'Alta mortalidade; exige cirurgia imediata. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Sem tamponamento.', C: 'Sem tamponamento.', D: 'Sem tamponamento.' },
@@ -285,7 +285,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Insuficiência mitral aguda',
     e: 'Paciente com IAM inferior apresenta edema agudo de pulmão súbito e sopro sistólico apical novo. A hipótese é:',
-    o: ['Ruptura de músculo papilar', 'Ruptura septal', 'Pericardite', 'Estenose aórtica'],
+    o: ['Ruptura de músculo papilar', 'Ruptura septal interventricular, com sopro holossistólico', 'Pericardite aguda, com atrito pericárdico', 'Estenose aórtica, com sopro sistólico ejetivo'],
     g: 'A',
     c: 'O músculo posteromedial tem irrigação única. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Sopro com frêmito paraesternal.', C: 'Sem sopro.', D: 'Sem relação.' },
@@ -293,7 +293,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Trombo ventricular',
     e: 'Paciente com IAM anterior extenso e trombo apical no ecocardiograma. A conduta é:',
-    o: ['Anticoagulação oral por cerca de 3 a 6 meses, associada à antiagregação', 'Nenhuma', 'Apenas AAS', 'Cirurgia imediata'],
+    o: ['Anticoagulação por 3-6 meses, com antiagregação', 'Nenhuma, pois o trombo não tem importância', 'Apenas AAS, em dose habitual, sem anticoagular', 'Cirurgia imediata, para retirada do trombo'],
     g: 'A',
     c: 'Reduz embolia sistêmica. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Risco de AVC.', C: 'Insuficiente.', D: 'Sem indicação.' },
@@ -301,7 +301,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Bradiarritmia no IAM',
     e: 'Paciente com IAM inferior e bloqueio AV total com QRS estreito e estável. A evolução esperada é:',
-    o: ['Geralmente transitória, podendo exigir marca-passo provisório', 'Sempre permanente', 'Fibrilação ventricular', 'Sem significado'],
+    o: ['Geralmente transitória; pode exigir marca-passo provisório', 'Sempre permanente, exigindo marca-passo definitivo', 'Equivale a fibrilação ventricular, exigindo desfibrilação', 'Sem significado clínico, dispensando monitorização'],
     g: 'A',
     c: 'No IAM anterior, o BAVT tem pior prognóstico. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Não sempre.', C: 'Sem relação.', D: 'Tem significado.' },
@@ -309,7 +309,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'IECA pós-IAM',
     e: 'Após IAM, o IECA é especialmente indicado em:',
-    o: ['Disfunção ventricular, IC, diabetes ou hipertensão', 'Nenhum paciente', 'Somente hipotensos', 'Somente na fase aguda por 1 dia'],
+    o: ['Disfunção ventricular, IC, diabetes ou hipertensão', 'Nenhum paciente, pois não há benefício comprovado', 'Somente pacientes hipotensos, para elevar a pressão', 'Somente na fase aguda, por apenas 1 dia'],
     g: 'A',
     c: 'Reduz remodelamento e mortalidade. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Indicado.', C: 'Contraindicado.', D: 'Uso crônico.' },
@@ -317,7 +317,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Antagonista mineralocorticoide',
     e: 'Após IAM com fração de ejeção de 35% e IC ou diabetes, deve-se associar:',
-    o: ['Espironolactona ou eplerenona', 'Digoxina', 'Nifedipina', 'Nada'],
+    o: ['Espironolactona ou eplerenona', 'Digoxina, em dose de manutenção, por via oral', 'Nifedipina, em dose habitual, por via oral', 'Nenhum fármaco adicional, apenas o IECA'],
     g: 'A',
     c: 'Reduz mortalidade (estudo EPHESUS). Referência: Pitt B et al. Eplerenone in patients with left ventricular dysfunction after myocardial infarction. N Engl J Med. 2003;348(14):1309-21.',
     x: { B: 'Sem benefício.', C: 'Contraindicado.', D: 'Há benefício.' },
@@ -325,7 +325,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'CDI pós-IAM',
     e: 'Paciente com fração de ejeção de 30% mais de 40 dias após IAM, com tratamento otimizado. A conduta é:',
-    o: ['Considerar cardiodesfibrilador implantável para prevenção primária de morte súbita', 'Nada', 'Repouso', 'Apenas digoxina'],
+    o: ['Considerar CDI para prevenção primária de morte súbita', 'Nenhuma conduta, apenas acompanhamento clínico', 'Repouso absoluto, por tempo indeterminado', 'Apenas digoxina, em dose habitual de manutenção'],
     g: 'A',
     c: 'Estudos MADIT-II e SCD-HeFT. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Risco alto.', C: 'Sem benefício.', D: 'Sem benefício.' },
@@ -333,7 +333,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto e cocaína',
     e: 'Usuário de cocaína com IAM com supra. A conduta é:',
-    o: ['Angioplastia primária e manejo da intoxicação com benzodiazepínicos', 'Betabloqueador intravenoso imediato', 'Apenas observação', 'Alta'],
+    o: ['Angioplastia primária e benzodiazepínico para a intoxicação', 'Betabloqueador IV imediato, em dose plena, para controlar a taquicardia', 'Apenas observação clínica, sem reperfusão coronariana, até o fim do efeito', 'Alta hospitalar, após controle da dor, com retorno se houver piora'],
     g: 'A',
     c: 'O vasoespasmo e a trombose contribuem. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Evitar.', C: 'Risco.', D: 'Risco.' },
@@ -341,7 +341,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto em diabético: glicemia',
     e: 'No IAM em paciente com hiperglicemia, recomenda-se:',
-    o: ['Controle glicêmico moderado, evitando hipoglicemia (glicemia abaixo de 180 a 200 mg/dL)', 'Controle intensivo abaixo de 80', 'Sem controle', 'Suspender insulina'],
+    o: ['Controle moderado, evitando hipoglicemia (glicemia < 180-200)', 'Controle intensivo, com glicemia abaixo de 80 mg/dL', 'Nenhum controle glicêmico, na fase aguda', 'Suspender a insulina, mesmo com hiperglicemia'],
     g: 'A',
     c: 'A hipoglicemia aumenta a mortalidade. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Risco de hipoglicemia.', C: 'Pioraria.', D: 'Inadequado.' },
@@ -349,7 +349,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'ECG no infarto: evolução',
     e: 'A sequência clássica de alterações no ECG do IAM com supra é:',
-    o: ['Onda T hiperaguda, supra de ST, ondas Q e inversão de T', 'Inversão de T, depois supra, depois T alta', 'Ondas Q primeiro', 'Nenhuma alteração'],
+    o: ['T hiperaguda, supra de ST, ondas Q e inversão de T', 'Inversão de T, depois supra de ST, depois T alta', 'Ondas Q primeiro, depois supra e depois T hiperaguda', 'Nenhuma alteração eletrocardiográfica sequencial'],
     g: 'A',
     c: 'A reperfusão precoce pode evitar ondas Q. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Ordem errada.', C: 'Tardio.', D: 'Há alterações.' },
@@ -357,7 +357,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Infarto lateral',
     e: 'Supra de ST em DI, aVL, V5 e V6 sugere infarto de parede:',
-    o: ['Lateral, geralmente pela circunflexa', 'Inferior', 'Anterior extenso', 'Posterior isolado'],
+    o: ['Lateral, geralmente pela circunflexa', 'Inferior, geralmente pela coronária direita', 'Anterior extenso, pela descendente anterior proximal', 'Posterior isolado, com infra de ST em V1-V3'],
     g: 'A',
     c: 'O infarto lateral alto pode ser sutil. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Outras derivações.', C: 'V1 a V6 e DI e aVL.', D: 'V7 a V9.' },
@@ -365,7 +365,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Síndrome de De Winter',
     e: 'Ondas T altas e simétricas com infra de ST ascendente no ponto J em derivações precordiais, sem supra. A interpretação é:',
-    o: ['Equivalente de IAM com supra por oclusão da descendente anterior', 'Normal', 'Hipercalemia sempre', 'Pericardite'],
+    o: ['Equivalente de IAM com supra: oclusão da descendente anterior', 'Padrão normal, sem significado clínico, variante da normalidade', 'Hipercalemia, em todos os casos, sem isquemia miocárdica associada', 'Pericardite aguda, com supra difuso de ST e infra de PR'],
     g: 'A',
     c: 'Exige reperfusão imediata. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Alterado.', C: 'Excluir, mas o padrão sugere oclusão.', D: 'Sem relação.' },
@@ -373,7 +373,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Cuidados pós-IAM: depressão',
     e: 'Após infarto, a depressão:',
-    o: ['É comum e associa-se a pior prognóstico, devendo ser rastreada', 'É rara', 'Não tem relação', 'Melhora com repouso absoluto'],
+    o: ['É comum, piora o prognóstico e deve ser rastreada', 'É rara, e não precisa de rastreamento', 'Não tem relação com o prognóstico do infarto', 'Melhora com repouso absoluto prolongado'],
     g: 'A',
     c: 'O tratamento é seguro com ISRS. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'É comum.', C: 'Tem relação.', D: 'Sem relação.' },
@@ -381,7 +381,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Mortalidade',
     e: 'A principal causa de morte pré-hospitalar no IAM é:',
-    o: ['Fibrilação ventricular', 'Ruptura de parede', 'Choque cardiogênico', 'AVC'],
+    o: ['Fibrilação ventricular', 'Ruptura de parede livre, na primeira semana', 'Choque cardiogênico, na fase hospitalar', 'AVC isquêmico, por embolia a partir do trombo'],
     g: 'A',
     c: 'O acesso rápido à desfibrilação salva vidas. Referência: Byrne RA et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.',
     x: { B: 'Mais tardia.', C: 'Mais tardia.', D: 'Raro.' },
@@ -389,7 +389,7 @@ export const CM2_EXTRA_INF: QuestaoCompacta[] = [
   {
     s: 'Troponina e embolia pulmonar',
     e: 'Elevação de troponina na embolia pulmonar indica:',
-    o: ['Lesão de ventrículo direito e pior prognóstico', 'Infarto tipo 1', 'Erro', 'Bom prognóstico'],
+    o: ['Lesão de ventrículo direito e pior prognóstico', 'Infarto tipo 1, por ruptura de placa coronariana', 'Erro laboratorial, sem significado clínico algum', 'Bom prognóstico, com menor risco de eventos'],
     g: 'A',
     c: 'Estratifica risco no TEP. Referência: Thygesen K et al. Fourth Universal Definition of Myocardial Infarction (2018). Circulation. 2018;138(20):e618-51.',
     x: { B: 'Não é tipo 1.', C: 'Não é erro.', D: 'O oposto.' },
