@@ -337,6 +337,8 @@ import { CM_EXTRA_COLAG } from './clinica/cmExtraColag'
 import { CM_EXTRA_VASC } from './clinica/cmExtraVasc'
 import { CM_EXTRA_RMISC } from './clinica/cmExtraRmisc'
 import { CM2_EXTRA_HAS } from './clinica/cm2ExtraHas'
+import { DIF_HAS_1 } from './clinica/difHas1'
+import { DIF_HAS_2 } from './clinica/difHas2'
 import { CM2_EXTRA_CORON } from './clinica/cm2ExtraCoron'
 import { CM2_EXTRA_INF } from './clinica/cm2ExtraInf'
 import { CM2_EXTRA_IC } from './clinica/cm2ExtraIc'
@@ -620,6 +622,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm-extra-vasc', 'Clínica Médica', 'Reumatologia: Vasculites', CM_EXTRA_VASC),
   ...montarQuestoes('cm-extra-rmisc', 'Clínica Médica', 'Reumatologia: Miscelânea', CM_EXTRA_RMISC),
   ...montarQuestoes('cm2-extra-has', 'Clínica Médica', 'Cardiologia: Hipertensão Arterial', CM2_EXTRA_HAS),
+  ...montarQuestoes('dif-has', 'Clínica Médica', 'Cardiologia: Hipertensão Arterial', [...DIF_HAS_1, ...DIF_HAS_2]),
   ...montarQuestoes('cm2-extra-coron', 'Clínica Médica', 'Cardiologia: Doença Coronariana', CM2_EXTRA_CORON),
   ...montarQuestoes('cm2-extra-inf', 'Clínica Médica', 'Cardiologia: Definição Universal do Infarto do Miocárdio', CM2_EXTRA_INF),
   ...montarQuestoes('cm2-extra-ic', 'Clínica Médica', 'Cardiologia: Insuficiência Cardíaca', CM2_EXTRA_IC),
