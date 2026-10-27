@@ -373,6 +373,8 @@ import { CM2_EXTRA_VAL } from './clinica/cm2ExtraVal'
 import { DIF_VAL_1 } from './clinica/difVal1'
 import { DIF_VAL_2 } from './clinica/difVal2'
 import { CM2_EXTRA_PCR } from './clinica/cm2ExtraPcr'
+import { DIF_PCR_1 } from './clinica/difPcr1'
+import { DIF_PCR_2 } from './clinica/difPcr2'
 import { CM2_EXTRA_CHOQ } from './clinica/cm2ExtraChoq'
 import { CM2_EXTRA_ASMA } from './clinica/cm2ExtraAsma'
 import { CM2_EXTRA_TEP } from './clinica/cm2ExtraTep'
@@ -672,6 +674,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm2-extra-val', 'Clínica Médica', 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda', CM2_EXTRA_VAL),
   ...montarQuestoes('dif-val', 'Clínica Médica', 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda', [...DIF_VAL_1, ...DIF_VAL_2]),
   ...montarQuestoes('cm2-extra-pcr', 'Clínica Médica', 'Cardiologia: Parada Cardiorrespiratória', CM2_EXTRA_PCR),
+  ...montarQuestoes('dif-pcr', 'Clínica Médica', 'Cardiologia: Parada Cardiorrespiratória', [...DIF_PCR_1, ...DIF_PCR_2]),
   ...montarQuestoes('cm2-extra-choq', 'Clínica Médica', 'Terapia Intensiva: Instabilidade Hemodinâmica', CM2_EXTRA_CHOQ),
   ...montarQuestoes('cm2-extra-asma', 'Clínica Médica', 'Pneumologia: Asma', CM2_EXTRA_ASMA),
   ...montarQuestoes('cm2-extra-tep', 'Clínica Médica', 'Pneumologia: Tromboembolia Pulmonar', CM2_EXTRA_TEP),
