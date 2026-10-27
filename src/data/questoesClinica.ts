@@ -301,6 +301,7 @@ import { GO_EXTRA_NEO } from './clinica/goExtraNeo';
 import { GO_EXTRA_SUA } from './clinica/goExtraSua';
 import { GO_EXTRA_URO } from './clinica/goExtraUro';
 import { GO_EXTRA_IST } from './clinica/goExtraIst';
+import { DIF_GO_IST } from './clinica/difGoIst';
 import { DIF_GO_URO } from './clinica/difGoUro';
 import { DIF_GO_SUA } from './clinica/difGoSua';
 import { DIF_GO_NEO } from './clinica/difGoNeo';
@@ -631,6 +632,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('go-extra-sua', 'Ginecologia e Obstetrícia', 'Sangramento Uterino Anormal e Endometriose', GO_EXTRA_SUA),
   ...montarQuestoes('go-extra-uro', 'Ginecologia e Obstetrícia', 'Uroginecologia: Incontinência e Prolapso', GO_EXTRA_URO),
   ...montarQuestoes('go-extra-ist', 'Ginecologia e Obstetrícia', 'IST: Infecções Sexualmente Transmissíveis', GO_EXTRA_IST),
+  ...montarQuestoes('dif-go-ist', 'Ginecologia e Obstetrícia', 'IST (Infecções Sexualmente Transmissíveis)', DIF_GO_IST),
   ...montarQuestoes('dif-go-uro', 'Ginecologia e Obstetrícia', 'Uroginecologia - Incontinência e Prolapso', DIF_GO_URO),
   ...montarQuestoes('dif-go-sua', 'Ginecologia e Obstetrícia', 'Sangramento Uterino Anormal e Endometriose', DIF_GO_SUA),
   ...montarQuestoes('dif-go-neo', 'Ginecologia e Obstetrícia', 'Neoplasias Ginecológicas', DIF_GO_NEO),
