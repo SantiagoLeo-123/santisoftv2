@@ -333,6 +333,8 @@ import { DIF_CM1_ELET_A } from './clinica/difCm1EletA';
 import { DIF_CM1_ELET_B } from './clinica/difCm1EletB';
 import { DIF_CM1_AB_A } from './clinica/difCm1AbA';
 import { DIF_CM1_AB_B } from './clinica/difCm1AbB';
+import { DIF_CM1_ANEM_A } from './clinica/difCm1AnemA';
+import { DIF_CM1_ANEM_B } from './clinica/difCm1AnemB';
 import { DIF_PED_INFECTO } from './clinica/difPedInfecto';
 import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
 import { CM_EXTRA_GLOM } from './clinica/cmExtraGlom';
@@ -640,6 +642,8 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-cm1-elet-b', 'Clínica Médica', 'Nefrologia: Equilíbrio Eletrolítico', DIF_CM1_ELET_B),
   ...montarQuestoes('dif-cm1-ab-a', 'Clínica Médica', 'Nefrologia: Equilíbrio Ácido-Básico', DIF_CM1_AB_A),
   ...montarQuestoes('dif-cm1-ab-b', 'Clínica Médica', 'Nefrologia: Equilíbrio Ácido-Básico', DIF_CM1_AB_B),
+  ...montarQuestoes('dif-cm1-anem-a', 'Clínica Médica', 'Hematologia: Série Vermelha (Anemias)', DIF_CM1_ANEM_A),
+  ...montarQuestoes('dif-cm1-anem-b', 'Clínica Médica', 'Hematologia: Série Vermelha (Anemias)', DIF_CM1_ANEM_B),
   ...montarQuestoes('dif-ped-infecto', 'Pediatria', 'Infectologia Pediátrica', DIF_PED_INFECTO),
   ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
   ...montarQuestoes('cm-extra-glom', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', CM_EXTRA_GLOM),
