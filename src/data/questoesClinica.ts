@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_PREV_INTOXICACOES } from './clinica/difPrevIntoxicacoes';
 import { DIF_PREV_PECONHENTOS } from './clinica/difPrevPeconhentos';
 import { DIF_PREV_ETICA } from './clinica/difPrevEtica';
 import { DIF_PREV_ACIDENTE } from './clinica/difPrevAcidente';
@@ -687,4 +688,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-prev-acidente', 'Preventiva', 'Acidente de Trabalho', DIF_PREV_ACIDENTE),
   ...montarQuestoes('dif-prev-etica', 'Preventiva', 'Ética Médica', DIF_PREV_ETICA),
   ...montarQuestoes('dif-prev-peconhentos', 'Preventiva', 'Acidente por Animais Peçonhentos', DIF_PREV_PECONHENTOS),
+  ...montarQuestoes('dif-prev-intoxicacoes', 'Preventiva', 'Intoxicações', DIF_PREV_INTOXICACOES),
 ];
