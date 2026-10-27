@@ -357,7 +357,7 @@ export const DIF_CM1_PLAQ_B: QuestaoCompacta[] = [
   {
     s: 'Plaquetopenia na gestação: HELLP tardia',
     e: 'Puérpera de 24 horas com plaquetas em queda (de 90.000 para 45.000/µL), LDH 1.100 e TGO 350. A conduta é:',
-    o: ['Magnésio, anti-hipertensivo e vigilância', 'Alta imediata para o domicílio hoje', 'Esplenectomia de urgência', 'Rituximabe em dose plena'],
+    o: ['Magnésio, anti-hipertensivo e vigiar', 'Alta imediata para o domicílio hoje', 'Esplenectomia de urgência', 'Rituximabe em dose plena'],
     g: 'A',
     c: 'A HELLP pós-parto ocorre em cerca de 30% dos casos. Mantém-se o magnésio por 24 horas, controla-se a pressão e monitoram-se plaquetas e enzimas. Persistência por mais de 72 horas ou piora sugere diagnóstico alternativo, como PTT ou SHUa. Referência: Sibai BM. Obstet Gynecol. 2004;103:981-91.',
     x: { B: 'A piora exige vigilância.', C: 'A esplenectomia não tem papel.', D: 'O rituximabe não é conduta inicial.' },
