@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_GO_R2_SOFR } from './clinica/difGoR2Sofr';
 import { DIF_GO_R2_CLIN } from './clinica/difGoR2Clin';
 import { DIF_GO_R2_HEM2 } from './clinica/difGoR2Hem2';
 import { DIF_GO_R2_HEM1 } from './clinica/difGoR2Hem1';
@@ -770,4 +771,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-go-r2-hem1', 'Ginecologia e Obstetrícia', 'Hemorragias na Primeira Metade', DIF_GO_R2_HEM1),
   ...montarQuestoes('dif-go-r2-hem2', 'Ginecologia e Obstetrícia', 'Hemorragias na Segunda Metade e DHP', DIF_GO_R2_HEM2),
   ...montarQuestoes('dif-go-r2-clin', 'Ginecologia e Obstetrícia', 'Doenças Clínicas da Gestação', DIF_GO_R2_CLIN),
+  ...montarQuestoes('dif-go-r2-sofr', 'Ginecologia e Obstetrícia', 'Sofrimento Fetal', DIF_GO_R2_SOFR),
 ];
