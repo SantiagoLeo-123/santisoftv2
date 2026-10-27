@@ -344,6 +344,8 @@ import { DIF_CM1_ANEM_A } from './clinica/difCm1AnemA';
 import { DIF_CM1_ANEM_B } from './clinica/difCm1AnemB';
 import { DIF_CM1_LINF_A } from './clinica/difCm1LinfA';
 import { DIF_CM1_LINF_B } from './clinica/difCm1LinfB';
+import { DIF_CM1_PLAQ_A } from './clinica/difCm1PlaqA';
+import { DIF_CM1_PLAQ_B } from './clinica/difCm1PlaqB';
 import { DIF_PED_INFECTO } from './clinica/difPedInfecto';
 import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
 import { CM_EXTRA_GLOM } from './clinica/cmExtraGlom';
@@ -666,6 +668,8 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-cm1-anem-b', 'Clínica Médica', 'Hematologia: Série Vermelha (Anemias)', DIF_CM1_ANEM_B),
   ...montarQuestoes('dif-cm1-linf-a', 'Clínica Médica', 'Hematologia: Série Branca (Linfoma e Mieloma)', DIF_CM1_LINF_A),
   ...montarQuestoes('dif-cm1-linf-b', 'Clínica Médica', 'Hematologia: Série Branca (Linfoma e Mieloma)', DIF_CM1_LINF_B),
+  ...montarQuestoes('dif-cm1-plaq-a', 'Clínica Médica', 'Hematologia: Série Plaquetária', DIF_CM1_PLAQ_A),
+  ...montarQuestoes('dif-cm1-plaq-b', 'Clínica Médica', 'Hematologia: Série Plaquetária', DIF_CM1_PLAQ_B),
   ...montarQuestoes('dif-ped-infecto', 'Pediatria', 'Infectologia Pediátrica', DIF_PED_INFECTO),
   ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
   ...montarQuestoes('cm-extra-glom', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', CM_EXTRA_GLOM),
