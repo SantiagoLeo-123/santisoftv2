@@ -326,6 +326,8 @@ import { DIF_CM1_TUB_A } from './clinica/difCm1TubA';
 import { DIF_CM1_TUB_B } from './clinica/difCm1TubB';
 import { DIF_CM1_UREM_A } from './clinica/difCm1UremA';
 import { DIF_CM1_UREM_B } from './clinica/difCm1UremB';
+import { DIF_CM1_ELET_A } from './clinica/difCm1EletA';
+import { DIF_CM1_ELET_B } from './clinica/difCm1EletB';
 import { DIF_PED_INFECTO } from './clinica/difPedInfecto';
 import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
 import { CM_EXTRA_GLOM } from './clinica/cmExtraGlom';
@@ -623,6 +625,8 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-cm1-tub-b', 'Clínica Médica', 'Nefrologia: Síndromes Tubulares e Vasculares', DIF_CM1_TUB_B),
   ...montarQuestoes('dif-cm1-urem-a', 'Clínica Médica', 'Nefrologia: Síndrome Urêmica', DIF_CM1_UREM_A),
   ...montarQuestoes('dif-cm1-urem-b', 'Clínica Médica', 'Nefrologia: Síndrome Urêmica', DIF_CM1_UREM_B),
+  ...montarQuestoes('dif-cm1-elet-a', 'Clínica Médica', 'Nefrologia: Equilíbrio Eletrolítico', DIF_CM1_ELET_A),
+  ...montarQuestoes('dif-cm1-elet-b', 'Clínica Médica', 'Nefrologia: Equilíbrio Eletrolítico', DIF_CM1_ELET_B),
   ...montarQuestoes('dif-ped-infecto', 'Pediatria', 'Infectologia Pediátrica', DIF_PED_INFECTO),
   ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
   ...montarQuestoes('cm-extra-glom', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', CM_EXTRA_GLOM),
