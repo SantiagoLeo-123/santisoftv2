@@ -298,6 +298,10 @@ import { GO_EXTRA_NEO } from './clinica/goExtraNeo';
 import { GO_EXTRA_SUA } from './clinica/goExtraSua';
 import { GO_EXTRA_URO } from './clinica/goExtraUro';
 import { GO_EXTRA_IST } from './clinica/goExtraIst';
+import { DIF_GO_HEM1 } from './clinica/difGoHem1';
+import { DIF_GO_PARTO } from './clinica/difGoParto';
+import { DIF_GO_PRENATAL } from './clinica/difGoPrenatal';
+import { DIF_GO_DIAG } from './clinica/difGoDiag';
 import { PED_EXTRA_EXANT } from './clinica/pedExtraExant';
 import { PED_EXTRA_ITU } from './clinica/pedExtraItu';
 import { PED_EXTRA_NEO1 } from './clinica/pedExtraNeo1';
@@ -607,6 +611,10 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('go-extra-sua', 'Ginecologia e Obstetrícia', 'Sangramento Uterino Anormal e Endometriose', GO_EXTRA_SUA),
   ...montarQuestoes('go-extra-uro', 'Ginecologia e Obstetrícia', 'Uroginecologia: Incontinência e Prolapso', GO_EXTRA_URO),
   ...montarQuestoes('go-extra-ist', 'Ginecologia e Obstetrícia', 'IST: Infecções Sexualmente Transmissíveis', GO_EXTRA_IST),
+  ...montarQuestoes('dif-go-hem1', 'Ginecologia e Obstetrícia', 'Hemorragias na Primeira Metade', DIF_GO_HEM1),
+  ...montarQuestoes('dif-go-parto', 'Ginecologia e Obstetrícia', 'Parto e Prematuridade', DIF_GO_PARTO),
+  ...montarQuestoes('dif-go-prenatal', 'Ginecologia e Obstetrícia', 'Pré-natal, Estática Fetal e Indução de Parto', DIF_GO_PRENATAL),
+  ...montarQuestoes('dif-go-diag', 'Ginecologia e Obstetrícia', 'Diagnósticos de Gravidez e Modificações do Organismo', DIF_GO_DIAG),
   ...montarQuestoes('ped-extra-exant', 'Pediatria', 'Doenças Exantemáticas', PED_EXTRA_EXANT),
   ...montarQuestoes('ped-extra-itu', 'Pediatria', 'Infecção do Trato Urinário', PED_EXTRA_ITU),
   ...montarQuestoes('ped-extra-neo1', 'Pediatria', 'Neonatologia I - Icterícia e Reanimação', PED_EXTRA_NEO1),
