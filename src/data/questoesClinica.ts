@@ -329,6 +329,8 @@ import { DIF_CM1_UREM_A } from './clinica/difCm1UremA';
 import { DIF_CM1_UREM_B } from './clinica/difCm1UremB';
 import { DIF_CM1_ELET_A } from './clinica/difCm1EletA';
 import { DIF_CM1_ELET_B } from './clinica/difCm1EletB';
+import { DIF_CM1_AB_A } from './clinica/difCm1AbA';
+import { DIF_CM1_AB_B } from './clinica/difCm1AbB';
 import { DIF_PED_INFECTO } from './clinica/difPedInfecto';
 import { PED_EXTRA_INFECTO } from './clinica/pedExtraInfecto';
 import { CM_EXTRA_GLOM } from './clinica/cmExtraGlom';
@@ -366,6 +368,8 @@ import { CM2_EXTRA_ARR } from './clinica/cm2ExtraArr'
 import { DIF_ARR_1 } from './clinica/difArr1'
 import { DIF_ARR_2 } from './clinica/difArr2'
 import { CM2_EXTRA_VAL } from './clinica/cm2ExtraVal'
+import { DIF_VAL_1 } from './clinica/difVal1'
+import { DIF_VAL_2 } from './clinica/difVal2'
 import { CM2_EXTRA_PCR } from './clinica/cm2ExtraPcr'
 import { CM2_EXTRA_CHOQ } from './clinica/cm2ExtraChoq'
 import { CM2_EXTRA_ASMA } from './clinica/cm2ExtraAsma'
@@ -630,6 +634,8 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-cm1-urem-b', 'Clínica Médica', 'Nefrologia: Síndrome Urêmica', DIF_CM1_UREM_B),
   ...montarQuestoes('dif-cm1-elet-a', 'Clínica Médica', 'Nefrologia: Equilíbrio Eletrolítico', DIF_CM1_ELET_A),
   ...montarQuestoes('dif-cm1-elet-b', 'Clínica Médica', 'Nefrologia: Equilíbrio Eletrolítico', DIF_CM1_ELET_B),
+  ...montarQuestoes('dif-cm1-ab-a', 'Clínica Médica', 'Nefrologia: Equilíbrio Ácido-Básico', DIF_CM1_AB_A),
+  ...montarQuestoes('dif-cm1-ab-b', 'Clínica Médica', 'Nefrologia: Equilíbrio Ácido-Básico', DIF_CM1_AB_B),
   ...montarQuestoes('dif-ped-infecto', 'Pediatria', 'Infectologia Pediátrica', DIF_PED_INFECTO),
   ...montarQuestoes('ped-extra-infecto', 'Pediatria', 'Infectologia Pediátrica', PED_EXTRA_INFECTO),
   ...montarQuestoes('cm-extra-glom', 'Clínica Médica', 'Nefrologia: Síndromes Glomerulares', CM_EXTRA_GLOM),
@@ -662,6 +668,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm2-extra-arr', 'Clínica Médica', 'Cardiologia: Arritmias Cardíacas', CM2_EXTRA_ARR),
   ...montarQuestoes('dif-arr', 'Clínica Médica', 'Cardiologia: Arritmias Cardíacas', [...DIF_ARR_1, ...DIF_ARR_2]),
   ...montarQuestoes('cm2-extra-val', 'Clínica Médica', 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda', CM2_EXTRA_VAL),
+  ...montarQuestoes('dif-val', 'Clínica Médica', 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda', [...DIF_VAL_1, ...DIF_VAL_2]),
   ...montarQuestoes('cm2-extra-pcr', 'Clínica Médica', 'Cardiologia: Parada Cardiorrespiratória', CM2_EXTRA_PCR),
   ...montarQuestoes('cm2-extra-choq', 'Clínica Médica', 'Terapia Intensiva: Instabilidade Hemodinâmica', CM2_EXTRA_CHOQ),
   ...montarQuestoes('cm2-extra-asma', 'Clínica Médica', 'Pneumologia: Asma', CM2_EXTRA_ASMA),
