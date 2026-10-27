@@ -298,6 +298,9 @@ import { GO_EXTRA_NEO } from './clinica/goExtraNeo';
 import { GO_EXTRA_SUA } from './clinica/goExtraSua';
 import { GO_EXTRA_URO } from './clinica/goExtraUro';
 import { GO_EXTRA_IST } from './clinica/goExtraIst';
+import { DIF_GO_SOFR } from './clinica/difGoSofr';
+import { DIF_GO_CLIN } from './clinica/difGoClin';
+import { DIF_GO_HEM2 } from './clinica/difGoHem2';
 import { DIF_GO_HEM1 } from './clinica/difGoHem1';
 import { DIF_GO_PARTO } from './clinica/difGoParto';
 import { DIF_GO_PRENATAL } from './clinica/difGoPrenatal';
@@ -387,6 +390,8 @@ import { CM2_EXTRA_CHOQ } from './clinica/cm2ExtraChoq'
 import { DIF_CHOQ_1 } from './clinica/difChoq1'
 import { DIF_CHOQ_2 } from './clinica/difChoq2'
 import { CM2_EXTRA_ASMA } from './clinica/cm2ExtraAsma'
+import { DIF_ASMA_1 } from './clinica/difAsma1'
+import { DIF_ASMA_2 } from './clinica/difAsma2'
 import { CM2_EXTRA_TEP } from './clinica/cm2ExtraTep'
 import { CM2_EXTRA_TB } from './clinica/cm2ExtraTb'
 import { CM2_EXTRA_CAPU } from './clinica/cm2ExtraCapu'
@@ -615,6 +620,9 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('go-extra-sua', 'Ginecologia e Obstetrícia', 'Sangramento Uterino Anormal e Endometriose', GO_EXTRA_SUA),
   ...montarQuestoes('go-extra-uro', 'Ginecologia e Obstetrícia', 'Uroginecologia: Incontinência e Prolapso', GO_EXTRA_URO),
   ...montarQuestoes('go-extra-ist', 'Ginecologia e Obstetrícia', 'IST: Infecções Sexualmente Transmissíveis', GO_EXTRA_IST),
+  ...montarQuestoes('dif-go-sofr', 'Ginecologia e Obstetrícia', 'Sofrimento Fetal', DIF_GO_SOFR),
+  ...montarQuestoes('dif-go-clin', 'Ginecologia e Obstetrícia', 'Doenças Clínicas da Gestação', DIF_GO_CLIN),
+  ...montarQuestoes('dif-go-hem2', 'Ginecologia e Obstetrícia', 'Hemorragias na Segunda Metade e DHP', DIF_GO_HEM2),
   ...montarQuestoes('dif-go-hem1', 'Ginecologia e Obstetrícia', 'Hemorragias na Primeira Metade', DIF_GO_HEM1),
   ...montarQuestoes('dif-go-parto', 'Ginecologia e Obstetrícia', 'Parto e Prematuridade', DIF_GO_PARTO),
   ...montarQuestoes('dif-go-prenatal', 'Ginecologia e Obstetrícia', 'Pré-natal, Estática Fetal e Indução de Parto', DIF_GO_PRENATAL),
@@ -696,6 +704,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm2-extra-choq', 'Clínica Médica', 'Terapia Intensiva: Instabilidade Hemodinâmica', CM2_EXTRA_CHOQ),
   ...montarQuestoes('dif-choq', 'Clínica Médica', 'Terapia Intensiva: Instabilidade Hemodinâmica', [...DIF_CHOQ_1, ...DIF_CHOQ_2]),
   ...montarQuestoes('cm2-extra-asma', 'Clínica Médica', 'Pneumologia: Asma', CM2_EXTRA_ASMA),
+  ...montarQuestoes('dif-asma', 'Clínica Médica', 'Pneumologia: Asma', [...DIF_ASMA_1, ...DIF_ASMA_2]),
   ...montarQuestoes('cm2-extra-tep', 'Clínica Médica', 'Pneumologia: Tromboembolia Pulmonar', CM2_EXTRA_TEP),
   ...montarQuestoes('cm2-extra-tb', 'Clínica Médica', 'Pneumologia: Tuberculose', CM2_EXTRA_TB),
   ...montarQuestoes('cm2-extra-capu', 'Clínica Médica', 'Pneumologia: Câncer de Pulmão', CM2_EXTRA_CAPU),
