@@ -355,6 +355,8 @@ import { CM2_EXTRA_INF } from './clinica/cm2ExtraInf'
 import { DIF_INF_1 } from './clinica/difInf1'
 import { DIF_INF_2 } from './clinica/difInf2'
 import { CM2_EXTRA_IC } from './clinica/cm2ExtraIc'
+import { DIF_IC_1 } from './clinica/difIc1'
+import { DIF_IC_2 } from './clinica/difIc2'
 import { CM2_EXTRA_ARR } from './clinica/cm2ExtraArr'
 import { CM2_EXTRA_VAL } from './clinica/cm2ExtraVal'
 import { CM2_EXTRA_PCR } from './clinica/cm2ExtraPcr'
@@ -647,6 +649,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('cm2-extra-inf', 'Clínica Médica', 'Cardiologia: Definição Universal do Infarto do Miocárdio', CM2_EXTRA_INF),
   ...montarQuestoes('dif-inf', 'Clínica Médica', 'Cardiologia: Definição Universal do Infarto do Miocárdio', [...DIF_INF_1, ...DIF_INF_2]),
   ...montarQuestoes('cm2-extra-ic', 'Clínica Médica', 'Cardiologia: Insuficiência Cardíaca', CM2_EXTRA_IC),
+  ...montarQuestoes('dif-ic', 'Clínica Médica', 'Cardiologia: Insuficiência Cardíaca', [...DIF_IC_1, ...DIF_IC_2]),
   ...montarQuestoes('cm2-extra-arr', 'Clínica Médica', 'Cardiologia: Arritmias Cardíacas', CM2_EXTRA_ARR),
   ...montarQuestoes('cm2-extra-val', 'Clínica Médica', 'Cardiologia: Cardiomiopatias, Valvopatias e Pericardite Aguda', CM2_EXTRA_VAL),
   ...montarQuestoes('cm2-extra-pcr', 'Clínica Médica', 'Cardiologia: Parada Cardiorrespiratória', CM2_EXTRA_PCR),
