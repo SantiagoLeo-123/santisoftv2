@@ -127,5 +127,5 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Acidente por Animais Peçonhentos
 - [x] Intoxicações
 - [x] Psiquiatria: Transtornos Psicóticos e Transtornos de Humor
-- [ ] Psiquiatria: Transtornos de Ansiedade e Transtornos Alimentares
+- [x] Psiquiatria: Transtornos de Ansiedade e Transtornos Alimentares
 - [ ] Psiquiatria: Delirium e Transtornos Relacionados a Substâncias
