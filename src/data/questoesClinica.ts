@@ -299,6 +299,7 @@ import { GO_EXTRA_NEO } from './clinica/goExtraNeo';
 import { GO_EXTRA_SUA } from './clinica/goExtraSua';
 import { GO_EXTRA_URO } from './clinica/goExtraUro';
 import { GO_EXTRA_IST } from './clinica/goExtraIst';
+import { DIF_GO_ENDO } from './clinica/difGoEndo';
 import { DIF_GO_ANTIC } from './clinica/difGoAntic';
 import { DIF_GO_FORC } from './clinica/difGoForc';
 import { DIF_GO_SOFR } from './clinica/difGoSofr';
@@ -625,6 +626,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('go-extra-sua', 'Ginecologia e Obstetrícia', 'Sangramento Uterino Anormal e Endometriose', GO_EXTRA_SUA),
   ...montarQuestoes('go-extra-uro', 'Ginecologia e Obstetrícia', 'Uroginecologia: Incontinência e Prolapso', GO_EXTRA_URO),
   ...montarQuestoes('go-extra-ist', 'Ginecologia e Obstetrícia', 'IST: Infecções Sexualmente Transmissíveis', GO_EXTRA_IST),
+  ...montarQuestoes('dif-go-endo', 'Ginecologia e Obstetrícia', 'Endocrinoginecologia e Infertilidade', DIF_GO_ENDO),
   ...montarQuestoes('dif-go-antic', 'Ginecologia e Obstetrícia', 'Anticoncepção', DIF_GO_ANTIC),
   ...montarQuestoes('dif-go-forc', 'Ginecologia e Obstetrícia', 'Fórcipe, Endometrite e Hemorragia Puerperal', DIF_GO_FORC),
   ...montarQuestoes('dif-go-sofr', 'Ginecologia e Obstetrícia', 'Sofrimento Fetal', DIF_GO_SOFR),
