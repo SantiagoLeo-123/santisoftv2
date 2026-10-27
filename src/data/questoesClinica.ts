@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_GO_R2_HEM1 } from './clinica/difGoR2Hem1';
 import { DIF_GO_R2_PARTO } from './clinica/difGoR2Parto';
 import { DIF_GO_R2_PRENATAL } from './clinica/difGoR2Prenatal';
 import { DIF_GO_R2_DIAG } from './clinica/difGoR2Diag';
@@ -764,4 +765,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-go-r2-diag', 'Ginecologia e Obstetrícia', 'Diagnósticos de Gravidez e Modificações do Organismo', DIF_GO_R2_DIAG),
   ...montarQuestoes('dif-go-r2-prenatal', 'Ginecologia e Obstetrícia', 'Pré-natal, Estática Fetal e Indução de Parto', DIF_GO_R2_PRENATAL),
   ...montarQuestoes('dif-go-r2-parto', 'Ginecologia e Obstetrícia', 'Parto e Prematuridade', DIF_GO_R2_PARTO),
+  ...montarQuestoes('dif-go-r2-hem1', 'Ginecologia e Obstetrícia', 'Hemorragias na Primeira Metade', DIF_GO_R2_HEM1),
 ];
