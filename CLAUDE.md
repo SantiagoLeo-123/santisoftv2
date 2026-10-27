@@ -128,4 +128,4 @@ Novos arquivos de questões difíceis começam com o prefixo `dif` (exemplo: `di
 - [x] Intoxicações
 - [x] Psiquiatria: Transtornos Psicóticos e Transtornos de Humor
 - [x] Psiquiatria: Transtornos de Ansiedade e Transtornos Alimentares
-- [ ] Psiquiatria: Delirium e Transtornos Relacionados a Substâncias
+- [x] Psiquiatria: Delirium e Transtornos Relacionados a Substâncias

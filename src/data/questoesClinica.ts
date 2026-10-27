@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_PREV_DELIRIUM } from './clinica/difPrevDelirium';
 import { DIF_PREV_ANSIEDADE } from './clinica/difPrevAnsiedade';
 import { DIF_PREV_PSICOTICOS } from './clinica/difPrevPsicoticos';
 import { DIF_PREV_INTOXICACOES } from './clinica/difPrevIntoxicacoes';
@@ -707,4 +708,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-prev-intoxicacoes', 'Preventiva', 'Intoxicações', DIF_PREV_INTOXICACOES),
   ...montarQuestoes('dif-prev-psicoticos', 'Preventiva', 'Psiquiatria: Transtornos Psicóticos e Transtornos de Humor', DIF_PREV_PSICOTICOS),
   ...montarQuestoes('dif-prev-ansiedade', 'Preventiva', 'Psiquiatria: Transtornos de Ansiedade e Transtornos Alimentares', DIF_PREV_ANSIEDADE),
+  ...montarQuestoes('dif-prev-delirium', 'Preventiva', 'Psiquiatria: Delirium e Transtornos Relacionados a Substâncias', DIF_PREV_DELIRIUM),
 ];
