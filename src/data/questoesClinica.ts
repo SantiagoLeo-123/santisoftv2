@@ -1,5 +1,6 @@
 import type { Question } from '@/types';
 import { montarQuestoes } from './questoesCompactas';
+import { DIF_GO_R2_PRENATAL } from './clinica/difGoR2Prenatal';
 import { DIF_GO_R2_DIAG } from './clinica/difGoR2Diag';
 import { DIF_PREV_DELIRIUM } from './clinica/difPrevDelirium';
 import { DIF_PREV_ANSIEDADE } from './clinica/difPrevAnsiedade';
@@ -299,6 +300,7 @@ import { GO_EXTRA_NEO } from './clinica/goExtraNeo';
 import { GO_EXTRA_SUA } from './clinica/goExtraSua';
 import { GO_EXTRA_URO } from './clinica/goExtraUro';
 import { GO_EXTRA_IST } from './clinica/goExtraIst';
+import { DIF_GO_NEO } from './clinica/difGoNeo';
 import { DIF_GO_ENDO } from './clinica/difGoEndo';
 import { DIF_GO_ANTIC } from './clinica/difGoAntic';
 import { DIF_GO_FORC } from './clinica/difGoForc';
@@ -626,6 +628,7 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('go-extra-sua', 'Ginecologia e Obstetrícia', 'Sangramento Uterino Anormal e Endometriose', GO_EXTRA_SUA),
   ...montarQuestoes('go-extra-uro', 'Ginecologia e Obstetrícia', 'Uroginecologia: Incontinência e Prolapso', GO_EXTRA_URO),
   ...montarQuestoes('go-extra-ist', 'Ginecologia e Obstetrícia', 'IST: Infecções Sexualmente Transmissíveis', GO_EXTRA_IST),
+  ...montarQuestoes('dif-go-neo', 'Ginecologia e Obstetrícia', 'Neoplasias Ginecológicas', DIF_GO_NEO),
   ...montarQuestoes('dif-go-endo', 'Ginecologia e Obstetrícia', 'Endocrinoginecologia e Infertilidade', DIF_GO_ENDO),
   ...montarQuestoes('dif-go-antic', 'Ginecologia e Obstetrícia', 'Anticoncepção', DIF_GO_ANTIC),
   ...montarQuestoes('dif-go-forc', 'Ginecologia e Obstetrícia', 'Fórcipe, Endometrite e Hemorragia Puerperal', DIF_GO_FORC),
@@ -752,4 +755,5 @@ export const QUESTOES_CLINICA: Question[] = [
   ...montarQuestoes('dif-prev-ansiedade', 'Preventiva', 'Psiquiatria: Transtornos de Ansiedade e Transtornos Alimentares', DIF_PREV_ANSIEDADE),
   ...montarQuestoes('dif-prev-delirium', 'Preventiva', 'Psiquiatria: Delirium e Transtornos Relacionados a Substâncias', DIF_PREV_DELIRIUM),
   ...montarQuestoes('dif-go-r2-diag', 'Ginecologia e Obstetrícia', 'Diagnósticos de Gravidez e Modificações do Organismo', DIF_GO_R2_DIAG),
+  ...montarQuestoes('dif-go-r2-prenatal', 'Ginecologia e Obstetrícia', 'Pré-natal, Estática Fetal e Indução de Parto', DIF_GO_R2_PRENATAL),
 ];
